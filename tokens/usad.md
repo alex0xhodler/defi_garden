@@ -6,7 +6,7 @@ The highest honest USAD yield right now is 0.03% on orca-dex (Solana), among 3 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=ba5e06a2-ff24-501d-9aff-6cf30bf0c2e9&src=seo_token) | Solana | 0.03% | $271.1K |
+| [orca-dex →](https://www.defi.garden/?pool=ba5e06a2-ff24-501d-9aff-6cf30bf0c2e9#src=seo_token) | Solana | 0.03% | $271.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

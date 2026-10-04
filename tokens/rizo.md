@@ -6,7 +6,7 @@ The highest honest RIZO yield right now is 1.72% on raydium-amm (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=3b2ebd8b-66ab-4dcd-a9b4-e98a6188c8ce&src=seo_token) | Solana | 1.72% | $175.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=3b2ebd8b-66ab-4dcd-a9b4-e98a6188c8ce#src=seo_token) | Solana | 1.72% | $175.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

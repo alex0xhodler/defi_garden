@@ -6,10 +6,10 @@ The highest honest MTP yield right now is 22.15% on lagoon (Ethereum), among 4 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=9001fed4-1523-54c0-a166-048ee08301ef&src=seo_token) | Ethereum | 22.15% | $536.7K |
-| [lagoon →](https://www.defi.garden/?pool=4d1e48c1-5e2d-510d-88a3-172f9e737f5d&src=seo_token) | Ethereum | 9.96% | $353.1K |
-| [lagoon →](https://www.defi.garden/?pool=696205c3-50f9-531f-8c83-8b480ff348fd&src=seo_token) | Ethereum | 6.27% | $168.3K |
-| [lagoon →](https://www.defi.garden/?pool=57be91d8-9218-5fa6-a2ba-a1ccd6bb1cc8&src=seo_token) | Ethereum | 2.85% | $111.1K |
+| [lagoon →](https://www.defi.garden/?pool=9001fed4-1523-54c0-a166-048ee08301ef#src=seo_token) | Ethereum | 22.15% | $536.7K |
+| [lagoon →](https://www.defi.garden/?pool=4d1e48c1-5e2d-510d-88a3-172f9e737f5d#src=seo_token) | Ethereum | 9.96% | $353.1K |
+| [lagoon →](https://www.defi.garden/?pool=696205c3-50f9-531f-8c83-8b480ff348fd#src=seo_token) | Ethereum | 6.27% | $168.3K |
+| [lagoon →](https://www.defi.garden/?pool=57be91d8-9218-5fa6-a2ba-a1ccd6bb1cc8#src=seo_token) | Ethereum | 2.85% | $111.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -22,7 +22,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 MTP shows up in 4 pools here, with rates from 2.85% to 22.15% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 8.49% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 8.44% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -30,10 +30,10 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| lagoon | 22.15% | 19.97% | Base rate |
+| lagoon | 22.15% | 20.24% | Base rate |
 | lagoon | 9.96% | 9.99% | Base rate |
-| lagoon | 6.27% | 6.99% | Base rate |
-| lagoon | 2.85% | 3.28% | Base rate |
+| lagoon | 6.27% | 6.90% | Base rate |
+| lagoon | 2.85% | 3.22% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

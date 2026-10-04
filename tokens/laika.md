@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
 
-The highest honest LAIKA yield right now is 0.05% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LAIKA yield right now is 0.82% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=2dd5314d-a6d5-4e61-af03-89c074c7cdea&src=seo_token) | Ethereum | 0.05% | $526.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=2dd5314d-a6d5-4e61-af03-89c074c7cdea#src=seo_token) | Ethereum | 0.82% | $521.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LAIKA yield today?
 
-0.05% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.82% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many LAIKA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $526.4K in total.
+1 live pool clear this page's $100K TVL floor, $521.3K in total.
 
 ### Are these rates safe?
 

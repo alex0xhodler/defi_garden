@@ -6,7 +6,7 @@ The highest honest ULTRAUSDC yield right now is 6.03% on morpho-blue (Ethereum),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=0984ca4a-59e9-4878-b6cd-a79ed662f5d4&src=seo_token) | Ethereum | 6.03% | $130.7K |
+| [morpho-blue →](https://www.defi.garden/?pool=0984ca4a-59e9-4878-b6cd-a79ed662f5d4#src=seo_token) | Ethereum | 6.03% | $130.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

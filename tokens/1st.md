@@ -6,7 +6,7 @@ The highest honest 1ST yield right now is 13.07% on t3tris-finance (Arbitrum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [t3tris-finance →](https://www.defi.garden/?pool=50fb4290-200d-5724-8e7c-51343fd0448a&src=seo_token) | Arbitrum | 13.07% | $111.2K |
+| [t3tris-finance →](https://www.defi.garden/?pool=50fb4290-200d-5724-8e7c-51343fd0448a#src=seo_token) | Arbitrum | 13.07% | $111.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

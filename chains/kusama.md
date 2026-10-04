@@ -4,7 +4,7 @@ The highest honest Kusama yield right now is 6.54% on bifrost-liquid-staking (Ku
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| VKSM | [bifrost-liquid-staking →](https://www.defi.garden/?pool=402b81ac-fa55-4beb-9364-dd927376cbd0&src=seo_chain) | 6.54% | $777.6K |
+| VKSM | [bifrost-liquid-staking →](https://www.defi.garden/?pool=402b81ac-fa55-4beb-9364-dd927376cbd0#src=seo_chain) | 6.54% | $771.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Kusama pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $777.6K in total.
+1 live pool clear this page's $100K TVL floor, $771.6K in total.
 
 ### Are these rates safe?
 

@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [t3tris-finance →](https://www.defi.garden/?pool=349a532f-bb1c-5dd4-b8ee-8abd695faec9&src=seo_token) | Robinhood Chain | 20.48% | $210.8K |
+| [t3tris-finance →](https://www.defi.garden/?pool=349a532f-bb1c-5dd4-b8ee-8abd695faec9#src=seo_token) | Robinhood Chain | 20.48% | $210.8K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

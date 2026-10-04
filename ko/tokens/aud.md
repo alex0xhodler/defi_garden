@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [gmx-solana →](https://www.defi.garden/?pool=89a32356-56ea-4287-a6f4-f866d1ad9f13&src=seo_token) | Solana | 2.77% | $1.38M |
+| [gmx-solana →](https://www.defi.garden/?pool=89a32356-56ea-4287-a6f4-f866d1ad9f13#src=seo_token) | Solana | 2.77% | $1.38M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

@@ -6,7 +6,7 @@ The highest honest TGLD yield right now is 4.01% on accountable (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [accountable →](https://www.defi.garden/?pool=943e4205-5f5a-4cf1-b8ee-ff1d0b80596a&src=seo_token) | Ethereum | 4.01% | $418.8K |
+| [accountable →](https://www.defi.garden/?pool=943e4205-5f5a-4cf1-b8ee-ff1d0b80596a#src=seo_token) | Ethereum | 4.01% | $418.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

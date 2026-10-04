@@ -2,13 +2,13 @@
 
 *Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
 
-The highest honest SFI yield right now is 1.53% on uniswap-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SFI yield right now is 1.16% on uniswap-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=e6bc0e08-df6b-5817-ae73-f21f6c4b883c&src=seo_token) | Ethereum | 0.74% | $1.3M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=57a26552-1978-5462-be39-f7d30fb813b3&src=seo_token) | Ethereum | 0.45% | $631.5K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=9e9e97db-3cbc-4303-9bd8-d2d28d5f2a30&src=seo_token) | Ethereum | 1.53% | $129.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e6bc0e08-df6b-5817-ae73-f21f6c4b883c#src=seo_token) | Ethereum | 0.37% | $1.27M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=57a26552-1978-5462-be39-f7d30fb813b3#src=seo_token) | Ethereum | 0.46% | $621.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=9e9e97db-3cbc-4303-9bd8-d2d28d5f2a30#src=seo_token) | Ethereum | 1.16% | $127K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,9 +19,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-SFI shows up in 3 pools here, with rates from 0.45% to 1.53% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SFI shows up in 3 pools here, with rates from 0.37% to 1.16% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 2.70% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 2.64% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -29,9 +29,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 0.74% | 2.70% | Base rate |
-| uniswap-v3 | 0.45% | 1.22% | Base rate |
-| uniswap-v2 | 1.53% | 6.22% | Base rate |
+| uniswap-v3 | 0.37% | 2.64% | Base rate |
+| uniswap-v3 | 0.46% | 1.19% | Base rate |
+| uniswap-v2 | 1.16% | 6.09% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -39,11 +39,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SFI yield today?
 
-1.53% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+1.16% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many SFI pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $2.06M in total.
+3 live pools clear this page's $100K TVL floor, $2.02M in total.
 
 ### Are these rates safe?
 

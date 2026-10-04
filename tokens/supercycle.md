@@ -6,7 +6,7 @@ The highest honest SUPERCYCLE yield right now is 4.39% on raydium-amm (Solana), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=2393caaf-9038-48a9-84a8-d9f012bcb97f&src=seo_token) | Solana | 4.39% | $158.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=2393caaf-9038-48a9-84a8-d9f012bcb97f#src=seo_token) | Solana | 4.39% | $158.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

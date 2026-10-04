@@ -6,7 +6,7 @@ The highest honest AVGOX yield right now is 17.02% on raydium-amm (Solana), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=5877c8cd-f400-4dec-a998-2b54a6676c5c&src=seo_token) | Solana | 17.02% | $150.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=5877c8cd-f400-4dec-a998-2b54a6676c5c#src=seo_token) | Solana | 17.02% | $150.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

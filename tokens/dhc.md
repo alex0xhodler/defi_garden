@@ -6,7 +6,7 @@ The highest honest DHC yield right now is 0.81% on raydium-amm (Solana), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=a0fc91a4-0e29-4db4-9477-72039afe4267&src=seo_token) | Solana | 0.81% | $793.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=a0fc91a4-0e29-4db4-9477-72039afe4267#src=seo_token) | Solana | 0.81% | $793.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

@@ -6,7 +6,7 @@ The highest honest CALI yield right now is 7.58% on raydium-amm (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=5b6ed6f0-fde7-5050-ae13-7c3896a09d68&src=seo_token) | Solana | 7.58% | $195.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=5b6ed6f0-fde7-5050-ae13-7c3896a09d68#src=seo_token) | Solana | 7.58% | $195.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

@@ -6,7 +6,7 @@ The highest honest USDCHF yield right now is 7.93% on gmx-solana (Solana), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmx-solana →](https://www.defi.garden/?pool=7013e916-6e62-4132-acef-53920e643693&src=seo_token) | Solana | 7.93% | $1.88M |
+| [gmx-solana →](https://www.defi.garden/?pool=7013e916-6e62-4132-acef-53920e643693#src=seo_token) | Solana | 7.93% | $1.88M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

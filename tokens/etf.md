@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
 
-The highest honest ETF yield right now is 3.03% on uniswap-v3 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ETF yield right now is 2.48% on uniswap-v3 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=133dcfd6-9053-4ec7-b5cf-da1bef57e805&src=seo_token) | BSC | 3.03% | $2.18M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=133dcfd6-9053-4ec7-b5cf-da1bef57e805#src=seo_token) | BSC | 2.48% | $2.18M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ETF yield today?
 
-3.03% APY on uniswap-v3 (BSC), based on live DefiLlama data.
+2.48% APY on uniswap-v3 (BSC), based on live DefiLlama data.
 
 ### How many ETF pools clear the TVL floor?
 

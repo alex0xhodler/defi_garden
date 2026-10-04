@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [plume-vaults →](https://www.defi.garden/?pool=ad047a62-5c88-4b43-bf42-4e4d0858c53a&src=seo_token) | Plume Mainnet | 7.41% | $14.94M |
+| [plume-vaults →](https://www.defi.garden/?pool=ad047a62-5c88-4b43-bf42-4e4d0858c53a#src=seo_token) | Plume Mainnet | 7.41% | $14.94M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

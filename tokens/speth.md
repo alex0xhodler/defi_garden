@@ -6,7 +6,7 @@ The highest honest SPETH yield right now is 2.11% on meta-pool-eth (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [meta-pool-eth →](https://www.defi.garden/?pool=2de60ea8-0b96-4eeb-a100-a147628b79b7&src=seo_token) | Ethereum | 2.11% | $1.25M |
+| [meta-pool-eth →](https://www.defi.garden/?pool=2de60ea8-0b96-4eeb-a100-a147628b79b7#src=seo_token) | Ethereum | 2.11% | $1.25M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

@@ -6,7 +6,7 @@ The highest honest RWAEURCV yield right now is 2.75% on morpho-blue (Ethereum), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=364bdca0-5f96-512d-a6f7-a69eeaefd920&src=seo_token) | Ethereum | 2.75% | $5.29M |
+| [morpho-blue →](https://www.defi.garden/?pool=364bdca0-5f96-512d-a6f7-a69eeaefd920#src=seo_token) | Ethereum | 2.75% | $5.29M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

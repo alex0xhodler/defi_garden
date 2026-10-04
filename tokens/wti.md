@@ -6,7 +6,7 @@ The highest honest WTI yield right now is 12.39% on gmx-solana (Solana), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmx-solana →](https://www.defi.garden/?pool=8c19411c-799c-4840-8dfc-2bd4bce2cc5a&src=seo_token) | Solana | 12.39% | $1.13M |
+| [gmx-solana →](https://www.defi.garden/?pool=8c19411c-799c-4840-8dfc-2bd4bce2cc5a#src=seo_token) | Solana | 12.39% | $1.09M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WTI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.13M in total.
+1 live pool clear this page's $100K TVL floor, $1.09M in total.
 
 ### Are these rates safe?
 

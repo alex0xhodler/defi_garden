@@ -6,7 +6,7 @@ The highest honest UNITY yield right now is 7.07% on raydium-amm (Solana), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=0dde9304-b937-4e15-8e29-1937445c2fe8&src=seo_token) | Solana | 7.07% | $101.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=0dde9304-b937-4e15-8e29-1937445c2fe8#src=seo_token) | Solana | 7.07% | $101.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

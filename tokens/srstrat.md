@@ -6,7 +6,7 @@ The highest honest SRSTRAT yield right now is 6.27% on lagoon (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=696205c3-50f9-531f-8c83-8b480ff348fd&src=seo_token) | Ethereum | 6.27% | $168.3K |
+| [lagoon →](https://www.defi.garden/?pool=696205c3-50f9-531f-8c83-8b480ff348fd#src=seo_token) | Ethereum | 6.27% | $168.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

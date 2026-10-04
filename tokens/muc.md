@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
 
-The highest honest MUC yield right now is 127.32% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MUC yield right now is 149.90% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=3cd9aba2-1527-529a-9ecc-6bdc447494af&src=seo_token) | Base | 127.32% | $896.8K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=3cd9aba2-1527-529a-9ecc-6bdc447494af#src=seo_token) | Base | 149.90% | $862.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MUC yield today?
 
-127.32% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+149.90% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many MUC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $896.8K in total.
+1 live pool clear this page's $100K TVL floor, $862.2K in total.
 
 ### Are these rates safe?
 

@@ -2,12 +2,12 @@
 
 *Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
 
-The highest honest MCDX yield right now is 92.79% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MCDX yield right now is 54.49% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=ac16d8a8-a559-4035-a467-02041145a363&src=seo_token) | Solana | 92.79% | $208.6K |
-| [orca-dex →](https://www.defi.garden/?pool=790b3a95-9ec8-532e-9488-a95fadf52bfe&src=seo_token) | Solana | 55.90% | $174K |
+| [raydium-amm →](https://www.defi.garden/?pool=ac16d8a8-a559-4035-a467-02041145a363#src=seo_token) | Solana | 54.49% | $223.6K |
+| [orca-dex →](https://www.defi.garden/?pool=790b3a95-9ec8-532e-9488-a95fadf52bfe#src=seo_token) | Solana | 44.45% | $129.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-MCDX shows up in 2 pools here, with rates from 55.90% to 92.79% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+MCDX shows up in 2 pools here, with rates from 44.45% to 54.49% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 544.63% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 541.20% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -28,8 +28,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 92.79% | 659.64% | Base rate |
-| orca-dex | 55.90% | 429.62% | Base rate |
+| raydium-amm | 54.49% | 660.42% | Base rate |
+| orca-dex | 44.45% | 421.99% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MCDX yield today?
 
-92.79% APY on raydium-amm (Solana), based on live DefiLlama data.
+54.49% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MCDX pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $382.6K in total.
+2 live pools clear this page's $100K TVL floor, $352.7K in total.
 
 ### Are these rates safe?
 

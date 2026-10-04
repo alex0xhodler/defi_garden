@@ -4,7 +4,7 @@ The highest honest Moonbeam yield right now is 0.01% on moonwell-lending (Moonbe
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| XCDOT | [moonwell-lending →](https://www.defi.garden/?pool=cc7e2042-be8e-4e2a-97f5-9d014b99cc3b&src=seo_chain) | 0.01% | $354.3K |
+| XCDOT | [moonwell-lending →](https://www.defi.garden/?pool=cc7e2042-be8e-4e2a-97f5-9d014b99cc3b#src=seo_chain) | 0.01% | $354.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
 
-The highest honest USRX yield right now is 0.11% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USRX yield right now is 0.05% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=81309411-57dc-421e-86a4-d81c4b59372e&src=seo_token) | Base | 0.11% | $203.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=81309411-57dc-421e-86a4-d81c4b59372e#src=seo_token) | Base | 0.05% | $203.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest USRX yield today?
 
-0.11% APY on uniswap-v4 (Base), based on live DefiLlama data.
+0.05% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many USRX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $203.4K in total.
+1 live pool clear this page's $100K TVL floor, $203.3K in total.
 
 ### Are these rates safe?
 

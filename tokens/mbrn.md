@@ -6,7 +6,7 @@ The highest honest MBRN yield right now is 3.39% on osmosis-dex (Osmosis), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [osmosis-dex →](https://www.defi.garden/?pool=f0693056-87f1-4374-b5d4-d6242ecf1c19&src=seo_token) | Osmosis | 3.39% | $285.7K |
+| [osmosis-dex →](https://www.defi.garden/?pool=f0693056-87f1-4374-b5d4-d6242ecf1c19#src=seo_token) | Osmosis | 3.39% | $285.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

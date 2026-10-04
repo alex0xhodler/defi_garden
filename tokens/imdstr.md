@@ -6,7 +6,7 @@ The highest honest IMDSTR yield right now is 672.12% on uniswap-v2 (Base), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=0320bc67-547a-5588-ba3b-d6653088785a&src=seo_token) | Base | 672.12% | $106.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=0320bc67-547a-5588-ba3b-d6653088785a#src=seo_token) | Base | 672.12% | $106.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many IMDSTR pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $271.4K in total.
+2 live pools clear this page's $100K TVL floor, $331.4K in total.
 
 ### Are these rates safe?
 

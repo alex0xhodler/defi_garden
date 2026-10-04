@@ -6,7 +6,7 @@ The highest honest HEEHEE yield right now is 2.03% on raydium-amm (Solana), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=67325a87-325a-41b7-9b6c-4957c3656108&src=seo_token) | Solana | 2.03% | $155.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=67325a87-325a-41b7-9b6c-4957c3656108#src=seo_token) | Solana | 2.03% | $155.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

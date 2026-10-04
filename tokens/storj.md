@@ -6,7 +6,7 @@ The highest honest STORJ yield right now is 0.07% on raydium-amm (Solana), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=5074a1be-c43d-5fdb-b493-397a9d0d0961&src=seo_token) | Solana | 0.07% | $4.12M |
+| [raydium-amm →](https://www.defi.garden/?pool=5074a1be-c43d-5fdb-b493-397a9d0d0961#src=seo_token) | Solana | 0.07% | $4.12M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

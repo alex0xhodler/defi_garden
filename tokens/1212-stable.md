@@ -6,7 +6,7 @@ The highest honest 1212.STABLE yield right now is 6.86% on lagoon (Ethereum), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=f803c54b-4151-4fcb-9f29-3244fa39324a&src=seo_token) | Ethereum | 6.86% | $1.73M |
+| [lagoon →](https://www.defi.garden/?pool=f803c54b-4151-4fcb-9f29-3244fa39324a#src=seo_token) | Ethereum | 6.86% | $1.73M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

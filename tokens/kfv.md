@@ -6,7 +6,7 @@ The highest honest KFV yield right now is 20.48% on t3tris-finance (Robinhood Ch
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [t3tris-finance →](https://www.defi.garden/?pool=349a532f-bb1c-5dd4-b8ee-8abd695faec9&src=seo_token) | Robinhood Chain | 20.48% | $210.8K |
+| [t3tris-finance →](https://www.defi.garden/?pool=349a532f-bb1c-5dd4-b8ee-8abd695faec9#src=seo_token) | Robinhood Chain | 20.48% | $210.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

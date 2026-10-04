@@ -6,7 +6,7 @@ The highest honest JTRSY yield right now is 4.46% on centrifuge-protocol (Ethere
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [centrifuge-protocol →](https://www.defi.garden/?pool=99181d82-5589-4ae6-b737-594aa11ded9f&src=seo_token) | Ethereum | 4.46% | $10.68M |
+| [centrifuge-protocol →](https://www.defi.garden/?pool=99181d82-5589-4ae6-b737-594aa11ded9f#src=seo_token) | Ethereum | 4.46% | $10.68M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

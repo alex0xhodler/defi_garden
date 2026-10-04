@@ -6,7 +6,7 @@ The highest honest GBP yield right now is 1.96% on gmx-solana (Solana), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmx-solana →](https://www.defi.garden/?pool=ebacb759-c8a7-4d4f-8b4d-f61961dfdf8d&src=seo_token) | Solana | 1.96% | $1.29M |
+| [gmx-solana →](https://www.defi.garden/?pool=ebacb759-c8a7-4d4f-8b4d-f61961dfdf8d#src=seo_token) | Solana | 1.96% | $1.29M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

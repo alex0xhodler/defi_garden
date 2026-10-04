@@ -6,7 +6,7 @@ The highest honest MRF yield right now is 0.02% on uniswap-v3 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=59859e12-07e7-485c-bda6-582f95c28896&src=seo_token) | Ethereum | 0.02% | $558.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=59859e12-07e7-485c-bda6-582f95c28896#src=seo_token) | Ethereum | 0.02% | $558.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

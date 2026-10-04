@@ -4,12 +4,12 @@ The highest honest Heco yield right now is 1.49% on mdex (Heco), among 7 pools a
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| MDX | [mdex →](https://www.defi.garden/?pool=279e4cc3-d69b-4567-94e5-74eddd7a10ed&src=seo_chain) | 0.05% | $5.54M |
-| WHT-USDT | [mdex →](https://www.defi.garden/?pool=a8549b82-881c-4d8c-99ca-b410919feb8d&src=seo_chain) | 0.98% | $253.9K |
-| DOGE-USDT | [mdex →](https://www.defi.garden/?pool=372ce454-1efb-49d7-975a-ddf0862ceb24&src=seo_chain) | 0.07% | $143.7K |
-| MDX | [mdex →](https://www.defi.garden/?pool=3218a6d2-6692-4c25-8382-8ba2fb5cde59&src=seo_chain) | 0.51% | $143.5K |
-| MDX-USDT | [mdex →](https://www.defi.garden/?pool=359957b0-5365-4713-a400-fbfa74313cb9&src=seo_chain) | 1.49% | $135.5K |
-| USDT-CON | [mdex →](https://www.defi.garden/?pool=31e91e4b-b9f4-4047-bc6d-02487aabefa3&src=seo_chain) | 0.01% | $108.3K |
+| MDX | [mdex →](https://www.defi.garden/?pool=279e4cc3-d69b-4567-94e5-74eddd7a10ed#src=seo_chain) | 0.05% | $5.54M |
+| WHT-USDT | [mdex →](https://www.defi.garden/?pool=a8549b82-881c-4d8c-99ca-b410919feb8d#src=seo_chain) | 0.98% | $253.9K |
+| DOGE-USDT | [mdex →](https://www.defi.garden/?pool=372ce454-1efb-49d7-975a-ddf0862ceb24#src=seo_chain) | 0.07% | $143.7K |
+| MDX | [mdex →](https://www.defi.garden/?pool=3218a6d2-6692-4c25-8382-8ba2fb5cde59#src=seo_chain) | 0.51% | $143.5K |
+| MDX-USDT | [mdex →](https://www.defi.garden/?pool=359957b0-5365-4713-a400-fbfa74313cb9#src=seo_chain) | 1.49% | $135.5K |
+| USDT-CON | [mdex →](https://www.defi.garden/?pool=31e91e4b-b9f4-4047-bc6d-02487aabefa3#src=seo_chain) | 0.01% | $108.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

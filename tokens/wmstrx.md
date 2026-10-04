@@ -6,7 +6,7 @@ The highest honest WMSTRX yield right now is 1.29% on fluxion-network (Mantle), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fluxion-network →](https://www.defi.garden/?pool=ebec73de-fd1e-4f97-8287-d9cb01c7d352&src=seo_token) | Mantle | 1.29% | $111.4K |
+| [fluxion-network →](https://www.defi.garden/?pool=ebec73de-fd1e-4f97-8287-d9cb01c7d352#src=seo_token) | Mantle | 1.29% | $111.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -36,11 +36,11 @@ There is not enough qualifying APY history to rank WMSTRX pools. This view cover
 ## Related tokens
 
 - [USDT0](https://www.defi.garden/tokens/usdt0)
-- [KII](https://www.defi.garden/tokens/kii)
 - [WSPYX](https://www.defi.garden/tokens/wspyx)
 - [BSB](https://www.defi.garden/tokens/bsb)
 - [BILL](https://www.defi.garden/tokens/bill)
 - [WNVDAX](https://www.defi.garden/tokens/wnvdax)
+- [ELSA](https://www.defi.garden/tokens/elsa)
 
 ## Available on
 

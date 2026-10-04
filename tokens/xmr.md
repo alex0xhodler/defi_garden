@@ -6,7 +6,7 @@ The highest honest XMR yield right now is 0.03% on raydium-amm (Solana), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=8cbe146b-987e-41b6-b42c-dd0e28fb28e5&src=seo_token) | Solana | 0.03% | $68.03M |
+| [raydium-amm →](https://www.defi.garden/?pool=8cbe146b-987e-41b6-b42c-dd0e28fb28e5#src=seo_token) | Solana | 0.03% | $68.03M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

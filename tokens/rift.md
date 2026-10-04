@@ -6,7 +6,7 @@ The highest honest RIFT yield right now is 23.89% on raydium-amm (Solana), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=034b694f-af67-40cd-a596-4669c54f411e&src=seo_token) | Solana | 23.89% | $111.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=034b694f-af67-40cd-a596-4669c54f411e#src=seo_token) | Solana | 23.89% | $111.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

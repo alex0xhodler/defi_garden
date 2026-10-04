@@ -6,7 +6,7 @@ The highest honest SYNUSD yield right now is 10.77% on lagoon (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=b77a60fc-002a-4941-ac26-ec89836c5202&src=seo_token) | Ethereum | 10.77% | $1.09M |
+| [lagoon →](https://www.defi.garden/?pool=b77a60fc-002a-4941-ac26-ec89836c5202#src=seo_token) | Ethereum | 10.77% | $1.09M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

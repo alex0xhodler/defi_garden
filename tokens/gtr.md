@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
 
-The highest honest GTR yield right now is 41.11% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GTR yield right now is 75.01% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=ea4c4abb-ec0f-5873-8d5a-166aba838c72&src=seo_token) | Solana | 41.11% | $2.78M |
+| [raydium-amm →](https://www.defi.garden/?pool=ea4c4abb-ec0f-5873-8d5a-166aba838c72#src=seo_token) | Solana | 75.01% | $2.76M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GTR yield today?
 
-41.11% APY on raydium-amm (Solana), based on live DefiLlama data.
+75.01% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many GTR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.78M in total.
+1 live pool clear this page's $100K TVL floor, $2.76M in total.
 
 ### Are these rates safe?
 

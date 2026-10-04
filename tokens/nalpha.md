@@ -6,7 +6,7 @@ The highest honest NALPHA yield right now is 8.72% on plume-vaults (Plume Mainne
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [plume-vaults →](https://www.defi.garden/?pool=f6793703-310d-4d55-9295-38d39047f18c&src=seo_token) | Plume Mainnet | 8.72% | $12.44M |
+| [plume-vaults →](https://www.defi.garden/?pool=f6793703-310d-4d55-9295-38d39047f18c#src=seo_token) | Plume Mainnet | 8.72% | $12.44M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

@@ -6,7 +6,7 @@ The highest honest DOLAN yield right now is 4.42% on raydium-amm (Solana), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=613324d2-7f42-4d64-a608-62f68d8832af&src=seo_token) | Solana | 4.42% | $141.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=613324d2-7f42-4d64-a608-62f68d8832af#src=seo_token) | Solana | 4.42% | $141.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

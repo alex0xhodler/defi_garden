@@ -6,7 +6,7 @@ The highest honest DTEURC yield right now is 5.19% on lagoon (Base), among 1 poo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=242447ae-f9f4-4cda-ab48-613710ed4d0d&src=seo_token) | Base | 5.19% | $121.6K |
+| [lagoon →](https://www.defi.garden/?pool=242447ae-f9f4-4cda-ab48-613710ed4d0d#src=seo_token) | Base | 5.19% | $121.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

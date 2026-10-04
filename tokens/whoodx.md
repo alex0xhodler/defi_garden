@@ -6,7 +6,7 @@ The highest honest WHOODX yield right now is 2.24% on fluxion-network (Mantle), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fluxion-network →](https://www.defi.garden/?pool=30836422-c578-4f77-8f81-861c509c5d4c&src=seo_token) | Mantle | 2.24% | $127K |
+| [fluxion-network →](https://www.defi.garden/?pool=30836422-c578-4f77-8f81-861c509c5d4c#src=seo_token) | Mantle | 2.24% | $127K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -36,11 +36,11 @@ There is not enough qualifying APY history to rank WHOODX pools. This view cover
 ## Related tokens
 
 - [USDT0](https://www.defi.garden/tokens/usdt0)
-- [KII](https://www.defi.garden/tokens/kii)
 - [WSPYX](https://www.defi.garden/tokens/wspyx)
 - [BSB](https://www.defi.garden/tokens/bsb)
 - [BILL](https://www.defi.garden/tokens/bill)
 - [WNVDAX](https://www.defi.garden/tokens/wnvdax)
+- [ELSA](https://www.defi.garden/tokens/elsa)
 
 ## Available on
 

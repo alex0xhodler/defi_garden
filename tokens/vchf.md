@@ -2,32 +2,32 @@
 
 *Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
 
-The highest honest VCHF yield right now is 67.69% on aerodrome-slipstream (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VCHF yield right now is 85.01% on aerodrome-slipstream (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [icpswap →](https://www.defi.garden/?pool=8f3e0a00-3b1c-4e87-ac0d-117c3e057248&src=seo_token) | ICP | 7.52% | $562.5K |
-| [raydium-amm →](https://www.defi.garden/?pool=0305fcf7-ae22-4d91-a1d1-eb8da4ce9109&src=seo_token) | Solana | 1.81% | $417K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=4f407ce1-6415-4729-9917-5c6057344618&src=seo_token) | Base | 67.69% | $185.9K |
+| [icpswap →](https://www.defi.garden/?pool=8f3e0a00-3b1c-4e87-ac0d-117c3e057248#src=seo_token) | ICP | 11.23% | $559.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=0305fcf7-ae22-4d91-a1d1-eb8da4ce9109#src=seo_token) | Solana | 2.08% | $416.8K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=4f407ce1-6415-4729-9917-5c6057344618#src=seo_token) | Base | 85.01% | $186.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, VCHF's lower-variability candidates are raydium-amm (Solana), 1.81% APY, $417K TVL, https://www.defi.garden/?pool=0305fcf7-ae22-4d91-a1d1-eb8da4ce9109&src=seo_token; icpswap (ICP), 7.52% APY, $562.5K TVL, https://www.defi.garden/?pool=8f3e0a00-3b1c-4e87-ac0d-117c3e057248&src=seo_token; aerodrome-slipstream (Base), 67.69% APY, $185.9K TVL, https://www.defi.garden/?pool=4f407ce1-6415-4729-9917-5c6057344618&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, VCHF's lower-variability candidates are raydium-amm (Solana), 2.08% APY, $416.8K TVL, https://www.defi.garden/?pool=0305fcf7-ae22-4d91-a1d1-eb8da4ce9109#src=seo_token; icpswap (ICP), 11.23% APY, $559.4K TVL, https://www.defi.garden/?pool=8f3e0a00-3b1c-4e87-ac0d-117c3e057248#src=seo_token; aerodrome-slipstream (Base), 85.01% APY, $186.3K TVL, https://www.defi.garden/?pool=4f407ce1-6415-4729-9917-5c6057344618#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=0305fcf7-ae22-4d91-a1d1-eb8da4ce9109&src=seo_token) | Solana | 1.81% | $417K |
-| 2 | [icpswap →](https://www.defi.garden/?pool=8f3e0a00-3b1c-4e87-ac0d-117c3e057248&src=seo_token) | ICP | 7.52% | $562.5K |
-| 3 | [aerodrome-slipstream →](https://www.defi.garden/?pool=4f407ce1-6415-4729-9917-5c6057344618&src=seo_token) | Base | 67.69% | $185.9K |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=0305fcf7-ae22-4d91-a1d1-eb8da4ce9109#src=seo_token) | Solana | 2.08% | $416.8K |
+| 2 | [icpswap →](https://www.defi.garden/?pool=8f3e0a00-3b1c-4e87-ac0d-117c3e057248#src=seo_token) | ICP | 11.23% | $559.4K |
+| 3 | [aerodrome-slipstream →](https://www.defi.garden/?pool=4f407ce1-6415-4729-9917-5c6057344618#src=seo_token) | Base | 85.01% | $186.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-VCHF shows up in 3 pools here, with rates from 1.81% to 67.69% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+VCHF shows up in 3 pools here, with rates from 2.08% to 85.01% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 14.14% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 14.00% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -35,9 +35,9 @@ VCHF shows up in 3 pools here, with rates from 1.81% to 67.69% APY across 3 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| icpswap | 7.52% | 14.14% | Base rate |
-| raydium-amm | 1.81% | 2.35% | Base rate |
-| aerodrome-slipstream | 67.69% | 72.63% | 46.46% incentives |
+| icpswap | 11.23% | 14.00% | Base rate |
+| raydium-amm | 2.08% | 2.35% | Base rate |
+| aerodrome-slipstream | 85.01% | 73.31% | 38.08% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,11 +45,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest VCHF yield today?
 
-67.69% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+85.01% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many VCHF pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.17M in total.
+3 live pools clear this page's $100K TVL floor, $1.16M in total.
 
 ### Are these rates safe?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which VCHF pools have the most stable APY history?
 
-Based on APY history only, VCHF's lower-variability candidates are raydium-amm (Solana), 1.81% APY, $417K TVL, https://www.defi.garden/?pool=0305fcf7-ae22-4d91-a1d1-eb8da4ce9109&src=seo_token; icpswap (ICP), 7.52% APY, $562.5K TVL, https://www.defi.garden/?pool=8f3e0a00-3b1c-4e87-ac0d-117c3e057248&src=seo_token; aerodrome-slipstream (Base), 67.69% APY, $185.9K TVL, https://www.defi.garden/?pool=4f407ce1-6415-4729-9917-5c6057344618&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, VCHF's lower-variability candidates are raydium-amm (Solana), 2.08% APY, $416.8K TVL, https://www.defi.garden/?pool=0305fcf7-ae22-4d91-a1d1-eb8da4ce9109#src=seo_token; icpswap (ICP), 11.23% APY, $559.4K TVL, https://www.defi.garden/?pool=8f3e0a00-3b1c-4e87-ac0d-117c3e057248#src=seo_token; aerodrome-slipstream (Base), 85.01% APY, $186.3K TVL, https://www.defi.garden/?pool=4f407ce1-6415-4729-9917-5c6057344618#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

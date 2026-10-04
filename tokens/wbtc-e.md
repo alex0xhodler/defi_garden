@@ -6,7 +6,7 @@ The highest honest WBTC.E yield right now is 0.01% on benqi-lending (Avalanche),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [benqi-lending →](https://www.defi.garden/?pool=b22a1540-fcdd-424a-95b0-dde0658a298b&src=seo_token) | Avalanche | 0.01% | $1.82M |
+| [benqi-lending →](https://www.defi.garden/?pool=b22a1540-fcdd-424a-95b0-dde0658a298b#src=seo_token) | Avalanche | 0.01% | $1.83M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many WBTC.E pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $2.31M in total.
+3 live pools clear this page's $100K TVL floor, $2.32M in total.
 
 ### Are these rates safe?
 

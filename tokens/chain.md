@@ -6,7 +6,7 @@ The highest honest CHAIN yield right now is 1.19% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=2aa3c021-0dd3-450e-a261-86e903657aa0&src=seo_token) | Ethereum | 1.19% | $175.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=2aa3c021-0dd3-450e-a261-86e903657aa0#src=seo_token) | Ethereum | 1.19% | $178.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CHAIN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $175.5K in total.
+1 live pool clear this page's $100K TVL floor, $178.2K in total.
 
 ### Are these rates safe?
 

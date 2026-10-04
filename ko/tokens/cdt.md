@@ -6,9 +6,9 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [osmosis-dex →](https://www.defi.garden/?pool=db6f7c5d-65be-45ab-9e00-d3574c35ac31&src=seo_token) | Osmosis | 83.85% | $19.88M |
-| [osmosis-dex →](https://www.defi.garden/?pool=afb34fe0-dd27-48b7-be00-654768e9acc7&src=seo_token) | Osmosis | 500.00% | $5.88M |
-| [osmosis-dex →](https://www.defi.garden/?pool=82a6a2b1-acc6-4f97-95ef-e4353a67a5eb&src=seo_token) | Osmosis | 315.20% | $2.56M |
+| [osmosis-dex →](https://www.defi.garden/?pool=db6f7c5d-65be-45ab-9e00-d3574c35ac31#src=seo_token) | Osmosis | 83.85% | $19.88M |
+| [osmosis-dex →](https://www.defi.garden/?pool=afb34fe0-dd27-48b7-be00-654768e9acc7#src=seo_token) | Osmosis | 500.00% | $5.88M |
+| [osmosis-dex →](https://www.defi.garden/?pool=82a6a2b1-acc6-4f97-95ef-e4353a67a5eb#src=seo_token) | Osmosis | 315.20% | $2.56M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

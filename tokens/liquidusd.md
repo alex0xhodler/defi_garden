@@ -6,7 +6,7 @@ The highest honest LIQUIDUSD yield right now is 10.79% on ether.fi-liquid (Ether
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ether.fi-liquid →](https://www.defi.garden/?pool=7c12f175-37bc-41db-967a-1d7f1f4a23c4&src=seo_token) | Ethereum | 10.79% | $26.28M |
+| [ether.fi-liquid →](https://www.defi.garden/?pool=7c12f175-37bc-41db-967a-1d7f1f4a23c4#src=seo_token) | Ethereum | 10.79% | $26.29M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many LIQUIDUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $26.28M in total.
+1 live pool clear this page's $100K TVL floor, $26.29M in total.
 
 ### Are these rates safe?
 

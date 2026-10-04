@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [securitize-tokenized-aaa-clo-fund →](https://www.defi.garden/?pool=19494e5c-a34e-448d-9679-7d34df7f8745&src=seo_token) | Ethereum | 3.14% | $103.63M |
+| [securitize-tokenized-aaa-clo-fund →](https://www.defi.garden/?pool=19494e5c-a34e-448d-9679-7d34df7f8745#src=seo_token) | Ethereum | 3.14% | $103.63M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

@@ -6,7 +6,7 @@ The highest honest LST yield right now is 0.01% on project-0 (Solana), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [project-0 →](https://www.defi.garden/?pool=20a0912c-088b-4866-a609-0cfd4a8b8039&src=seo_token) | Solana | 0.01% | $3.6M |
+| [project-0 →](https://www.defi.garden/?pool=20a0912c-088b-4866-a609-0cfd4a8b8039#src=seo_token) | Solana | 0.01% | $3.6M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

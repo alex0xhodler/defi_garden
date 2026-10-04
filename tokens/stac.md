@@ -6,7 +6,7 @@ The highest honest STAC yield right now is 3.14% on securitize-tokenized-aaa-clo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [securitize-tokenized-aaa-clo-fund →](https://www.defi.garden/?pool=19494e5c-a34e-448d-9679-7d34df7f8745&src=seo_token) | Ethereum | 3.14% | $103.63M |
+| [securitize-tokenized-aaa-clo-fund →](https://www.defi.garden/?pool=19494e5c-a34e-448d-9679-7d34df7f8745#src=seo_token) | Ethereum | 3.14% | $103.63M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

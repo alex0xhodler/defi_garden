@@ -6,7 +6,7 @@ The highest honest 9SICUSDC yield right now is 13.67% on lagoon (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=33fe6e80-5139-5f47-8e8b-a270394db09e&src=seo_token) | Ethereum | 13.67% | $301.3K |
+| [lagoon →](https://www.defi.garden/?pool=33fe6e80-5139-5f47-8e8b-a270394db09e#src=seo_token) | Ethereum | 13.67% | $301.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

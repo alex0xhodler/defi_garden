@@ -6,7 +6,7 @@ The highest honest BNCB yield right now is 33.35% on uniswap-v4 (BSC), among 3 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=738105a3-2aa0-597a-a1cd-fc96c8bb59b3&src=seo_token) | BSC | 33.35% | $111.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=738105a3-2aa0-597a-a1cd-fc96c8bb59b3#src=seo_token) | BSC | 33.35% | $111.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

@@ -6,7 +6,7 @@ The highest honest NZD yield right now is 6.10% on gmx-solana (Solana), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmx-solana →](https://www.defi.garden/?pool=399d9968-ff94-47fd-83ee-2a9852e0a9a6&src=seo_token) | Solana | 6.10% | $1.13M |
+| [gmx-solana →](https://www.defi.garden/?pool=399d9968-ff94-47fd-83ee-2a9852e0a9a6#src=seo_token) | Solana | 6.10% | $1.13M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

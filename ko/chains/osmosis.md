@@ -4,14 +4,14 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| MILKTIA-CDT | [osmosis-dex →](https://www.defi.garden/?pool=db6f7c5d-65be-45ab-9e00-d3574c35ac31&src=seo_chain) | 83.85% | $19.88M |
-| CDT-BTC | [osmosis-dex →](https://www.defi.garden/?pool=afb34fe0-dd27-48b7-be00-654768e9acc7&src=seo_chain) | 500.00% | $5.88M |
-| CDT-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=82a6a2b1-acc6-4f97-95ef-e4353a67a5eb&src=seo_chain) | 315.20% | $2.56M |
-| USDC-BTC | [osmosis-dex →](https://www.defi.garden/?pool=de19671b-9715-54c4-8a65-f631796cd1b9&src=seo_chain) | 0.01% | $788.7K |
-| ATOM-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58&src=seo_chain) | 4.37% | $772.8K |
-| WETH-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=b52fb9a6-f7df-4920-b82c-7c090455ac6e&src=seo_chain) | 0.17% | $379K |
-| ATOM-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66&src=seo_chain) | 0.09% | $363.1K |
-| USDC-ATOM | [osmosis-dex →](https://www.defi.garden/?pool=37d80b3b-3a0f-5068-ae55-909a42c5037f&src=seo_chain) | 0.06% | $305.6K |
+| MILKTIA-CDT | [osmosis-dex →](https://www.defi.garden/?pool=db6f7c5d-65be-45ab-9e00-d3574c35ac31#src=seo_chain) | 83.85% | $19.88M |
+| CDT-BTC | [osmosis-dex →](https://www.defi.garden/?pool=afb34fe0-dd27-48b7-be00-654768e9acc7#src=seo_chain) | 500.00% | $5.88M |
+| CDT-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=82a6a2b1-acc6-4f97-95ef-e4353a67a5eb#src=seo_chain) | 315.20% | $2.56M |
+| USDC-BTC | [osmosis-dex →](https://www.defi.garden/?pool=de19671b-9715-54c4-8a65-f631796cd1b9#src=seo_chain) | 0.01% | $798.6K |
+| ATOM-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58#src=seo_chain) | 4.63% | $779.3K |
+| WETH-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=b52fb9a6-f7df-4920-b82c-7c090455ac6e#src=seo_chain) | 0.16% | $381.4K |
+| ATOM-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66#src=seo_chain) | 0.05% | $366.1K |
+| USDC-ATOM | [osmosis-dex →](https://www.defi.garden/?pool=37d80b3b-3a0f-5068-ae55-909a42c5037f#src=seo_chain) | 0.10% | $306.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Osmosis의 osmosis-dex에서 APY 500.00%�
 
 ### Osmosis 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 25개이며, 합산 TVL은 $36.25M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 25개이며, 합산 TVL은 $36.32M예요.
 
 ### 이 수익률은 안전한가요?
 

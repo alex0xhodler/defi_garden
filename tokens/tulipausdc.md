@@ -6,7 +6,7 @@ The highest honest TULIPAUSDC yield right now is 10.94% on lagoon (Ethereum), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=c1cc3ce7-22ec-4ff3-825e-4f60c92bb662&src=seo_token) | Ethereum | 10.94% | $8.38M |
+| [lagoon →](https://www.defi.garden/?pool=c1cc3ce7-22ec-4ff3-825e-4f60c92bb662#src=seo_token) | Ethereum | 10.94% | $8.38M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

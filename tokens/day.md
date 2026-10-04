@@ -6,7 +6,7 @@ The highest honest DAY yield right now is 0.02% on uniswap-v3 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=000d8ece-6344-42e5-968b-3be036d5b9f6&src=seo_token) | Ethereum | 0.02% | $1.83M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=000d8ece-6344-42e5-968b-3be036d5b9f6#src=seo_token) | Ethereum | 0.02% | $1.83M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

@@ -6,7 +6,7 @@ The highest honest HEHE yield right now is 3.24% on raydium-amm (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=ccfdf5f6-910a-4d8b-8dd2-6c3d34ed32ae&src=seo_token) | Solana | 3.24% | $192.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=ccfdf5f6-910a-4d8b-8dd2-6c3d34ed32ae#src=seo_token) | Solana | 3.24% | $192.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

@@ -6,7 +6,7 @@ The highest honest CIFORUS yield right now is 131.87% on uniswap-v2 (Base), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=ecb5e14d-1e7d-54c0-aad5-385b93402ea4&src=seo_token) | Base | 131.87% | $184.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=ecb5e14d-1e7d-54c0-aad5-385b93402ea4#src=seo_token) | Base | 131.87% | $184.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

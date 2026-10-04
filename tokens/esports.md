@@ -6,7 +6,7 @@ The highest honest ESPORTS yield right now is 0.70% on uniswap-v4 (BSC), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=f965f85a-a764-46c6-ab4e-8f580ec7094e&src=seo_token) | BSC | 0.70% | $179.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f965f85a-a764-46c6-ab4e-8f580ec7094e#src=seo_token) | BSC | 0.70% | $179.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

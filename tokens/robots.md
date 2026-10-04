@@ -6,7 +6,7 @@ The highest honest ROBOTS yield right now is 4.30% on uniswap-v4 (BSC), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=1a212db8-1495-4fcf-9fd9-59fad7be2336&src=seo_token) | BSC | 4.30% | $260.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=1a212db8-1495-4fcf-9fd9-59fad7be2336#src=seo_token) | BSC | 4.30% | $260.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

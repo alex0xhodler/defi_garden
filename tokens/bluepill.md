@@ -6,7 +6,7 @@ The highest honest BLUEPILL yield right now is 28.31% on uniswap-v4 (Base), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=a86f8ce6-3eb6-548d-8dd0-175fee0c7364&src=seo_token) | Base | 28.31% | $133.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a86f8ce6-3eb6-548d-8dd0-175fee0c7364#src=seo_token) | Base | 28.31% | $133.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

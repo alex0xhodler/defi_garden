@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
 
-The highest honest DBR yield right now is 1.66% on curve-dex (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DBR yield right now is 2.22% on curve-dex (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=168a12f8-56b3-47e6-86d6-9de16bcb45ec&src=seo_token) | Ethereum | 1.66% | $835.4K |
+| [curve-dex →](https://www.defi.garden/?pool=168a12f8-56b3-47e6-86d6-9de16bcb45ec#src=seo_token) | Ethereum | 2.22% | $840.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DBR yield today?
 
-1.66% APY on curve-dex (Ethereum), based on live DefiLlama data.
+2.22% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many DBR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $835.4K in total.
+1 live pool clear this page's $100K TVL floor, $840.9K in total.
 
 ### Are these rates safe?
 

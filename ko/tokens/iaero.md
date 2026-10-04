@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [iaero-protocol →](https://www.defi.garden/?pool=696b786c-4a19-4fd2-a1b5-a4f8df762918&src=seo_token) | Base | 29.32% | $2.88M |
+| [iaero-protocol →](https://www.defi.garden/?pool=696b786c-4a19-4fd2-a1b5-a4f8df762918#src=seo_token) | Base | 29.32% | $2.88M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

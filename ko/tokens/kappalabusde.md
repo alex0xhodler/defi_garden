@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [wildcat-protocol →](https://www.defi.garden/?pool=2d2d3e18-f08c-442a-985d-d9d448404bfa&src=seo_token) | Ethereum | 9.00% | $118.7K |
+| [wildcat-protocol →](https://www.defi.garden/?pool=2d2d3e18-f08c-442a-985d-d9d448404bfa#src=seo_token) | Ethereum | 9.00% | $118.7K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

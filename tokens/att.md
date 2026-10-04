@@ -6,7 +6,7 @@ The highest honest ATT yield right now is 4.00% on frigg.eco (Ethereum), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [frigg.eco →](https://www.defi.garden/?pool=da4507f9-1daf-4442-a9a0-e2fdebfcc9bd&src=seo_token) | Ethereum | 4.00% | $182.5K |
+| [frigg.eco →](https://www.defi.garden/?pool=da4507f9-1daf-4442-a9a0-e2fdebfcc9bd#src=seo_token) | Ethereum | 4.00% | $182.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

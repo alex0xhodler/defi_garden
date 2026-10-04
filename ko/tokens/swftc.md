@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=0cfba3e8-db11-4b72-b219-5dfff007e9ee&src=seo_token) | Ethereum | 14.74% | $171.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=0cfba3e8-db11-4b72-b219-5dfff007e9ee#src=seo_token) | Ethereum | 14.74% | $171.2K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

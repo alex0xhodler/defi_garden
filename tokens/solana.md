@@ -6,7 +6,7 @@ The highest honest SOLANA yield right now is 0.29% on uniswap-v2 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=94edbb97-f737-4205-95f6-6e6a778d71e7&src=seo_token) | Ethereum | 0.29% | $122.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=94edbb97-f737-4205-95f6-6e6a778d71e7#src=seo_token) | Ethereum | 0.29% | $122.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

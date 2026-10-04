@@ -6,7 +6,7 @@ The highest honest ASOL yield right now is 0.29% on hydration-dex (Polkadot), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hydration-dex →](https://www.defi.garden/?pool=262671f7-0c85-53cc-8042-571ab6e3cf18&src=seo_token) | Polkadot | 0.29% | $1.86M |
+| [hydration-dex →](https://www.defi.garden/?pool=262671f7-0c85-53cc-8042-571ab6e3cf18#src=seo_token) | Polkadot | 0.29% | $1.86M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,10 +37,10 @@ There is not enough qualifying APY history to rank ASOL pools. This view covers 
 
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [SKY](https://www.defi.garden/tokens/sky)
+- [TBTC](https://www.defi.garden/tokens/tbtc)
 - [APYUSD](https://www.defi.garden/tokens/apyusd)
 - [GETH](https://www.defi.garden/tokens/geth)
 - [VDOT](https://www.defi.garden/tokens/vdot)
-- [HOLLAR](https://www.defi.garden/tokens/hollar)
 
 ## Available on
 

@@ -6,7 +6,7 @@ The highest honest GOAPT yield right now is 0.09% on hyperion (Aptos), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hyperion →](https://www.defi.garden/?pool=e23f3d1e-acdd-426e-824c-45b617b5db84&src=seo_token) | Aptos | 0.09% | $103.9K |
+| [hyperion →](https://www.defi.garden/?pool=e23f3d1e-acdd-426e-824c-45b617b5db84#src=seo_token) | Aptos | 0.09% | $103.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

@@ -6,7 +6,7 @@ The highest honest INX yield right now is 31.37% on uniswap-v4 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=518e615a-2174-473f-8913-192484da7f7e&src=seo_token) | Ethereum | 31.37% | $665.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=518e615a-2174-473f-8913-192484da7f7e#src=seo_token) | Ethereum | 31.37% | $665.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

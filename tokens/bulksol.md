@@ -6,7 +6,7 @@ The highest honest BULKSOL yield right now is 0.03% on project-0 (Solana), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [project-0 →](https://www.defi.garden/?pool=2962a15d-3634-4237-a378-1620af130b89&src=seo_token) | Solana | 0.03% | $177.2K |
+| [project-0 →](https://www.defi.garden/?pool=2962a15d-3634-4237-a378-1620af130b89#src=seo_token) | Solana | 0.03% | $177.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

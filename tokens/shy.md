@@ -6,7 +6,7 @@ The highest honest SHY yield right now is 4.63% on raydium-amm (Solana), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=9660adfa-0c89-4ba0-9f81-d516e4720ad3&src=seo_token) | Solana | 4.63% | $149.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=9660adfa-0c89-4ba0-9f81-d516e4720ad3#src=seo_token) | Solana | 4.63% | $149.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

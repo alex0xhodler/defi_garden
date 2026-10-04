@@ -6,7 +6,7 @@ The highest honest BITMXNBP yield right now is 9.98% on morpho-blue (Base), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=0fce1c82-7429-451f-a41f-301fb9b28075&src=seo_token) | Base | 9.98% | $228K |
+| [morpho-blue →](https://www.defi.garden/?pool=0fce1c82-7429-451f-a41f-301fb9b28075#src=seo_token) | Base | 9.98% | $228K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

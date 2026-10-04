@@ -6,7 +6,7 @@ The highest honest USDMXN yield right now is 6.57% on gmx-solana (Solana), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmx-solana →](https://www.defi.garden/?pool=0c99a34a-15b7-4ac4-bb35-3bc1f7acb7d4&src=seo_token) | Solana | 6.57% | $1.25M |
+| [gmx-solana →](https://www.defi.garden/?pool=0c99a34a-15b7-4ac4-bb35-3bc1f7acb7d4#src=seo_token) | Solana | 6.57% | $1.25M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

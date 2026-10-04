@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [laine-sol →](https://www.defi.garden/?pool=e04a81c8-b419-4088-aff2-636076299fc9&src=seo_token) | Solana | 2.84% | $1.44M |
+| [laine-sol →](https://www.defi.garden/?pool=e04a81c8-b419-4088-aff2-636076299fc9#src=seo_token) | Solana | 2.84% | $1.44M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

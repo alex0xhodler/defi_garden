@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [t3tris-finance →](https://www.defi.garden/?pool=50fb4290-200d-5724-8e7c-51343fd0448a&src=seo_token) | Arbitrum | 13.07% | $111.2K |
+| [t3tris-finance →](https://www.defi.garden/?pool=50fb4290-200d-5724-8e7c-51343fd0448a#src=seo_token) | Arbitrum | 13.07% | $111.2K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

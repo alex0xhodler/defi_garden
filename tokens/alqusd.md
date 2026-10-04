@@ -6,7 +6,7 @@ The highest honest ALQUSD yield right now is 1.89% on curve-dex (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=50972843-bdd2-58a7-83f0-40b0a3ed7d24&src=seo_token) | Ethereum | 1.89% | $2M |
+| [curve-dex →](https://www.defi.garden/?pool=50972843-bdd2-58a7-83f0-40b0a3ed7d24#src=seo_token) | Ethereum | 1.89% | $2M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

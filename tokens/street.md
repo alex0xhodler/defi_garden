@@ -6,7 +6,7 @@ The highest honest STREET yield right now is 261.81% on uniswap-v2 (Base), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=e4d59210-ba28-5bcb-8af5-1ccdcd8f391e&src=seo_token) | Base | 261.81% | $243.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=e4d59210-ba28-5bcb-8af5-1ccdcd8f391e#src=seo_token) | Base | 261.81% | $243.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many STREET pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $399.5K in total.
+2 live pools clear this page's $100K TVL floor, $399.8K in total.
 
 ### Are these rates safe?
 

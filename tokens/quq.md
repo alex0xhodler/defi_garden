@@ -6,7 +6,7 @@ The highest honest QUQ yield right now is 0.13% on uniswap-v4 (BSC), among 1 poo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=e7aeece5-45c9-4c37-9595-14b4705a2134&src=seo_token) | BSC | 0.13% | $329.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=e7aeece5-45c9-4c37-9595-14b4705a2134#src=seo_token) | BSC | 0.13% | $329.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

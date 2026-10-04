@@ -6,7 +6,7 @@ The highest honest KEYUSDC yield right now is 10.00% on wildcat-protocol (Ethere
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [wildcat-protocol →](https://www.defi.garden/?pool=fe368555-5718-40e7-8d47-496f59452537&src=seo_token) | Ethereum | 10.00% | $181.8K |
+| [wildcat-protocol →](https://www.defi.garden/?pool=fe368555-5718-40e7-8d47-496f59452537#src=seo_token) | Ethereum | 10.00% | $181.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

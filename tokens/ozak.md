@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
 
-The highest honest OZAK yield right now is 150.95% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OZAK yield right now is 135.65% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=e8bb8c36-0a07-58e8-a7c1-e9d35a0abb69&src=seo_token) | Base | 150.95% | $150.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=e8bb8c36-0a07-58e8-a7c1-e9d35a0abb69#src=seo_token) | Base | 135.65% | $166.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest OZAK yield today?
 
-150.95% APY on uniswap-v2 (Base), based on live DefiLlama data.
+135.65% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many OZAK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $150.6K in total.
+1 live pool clear this page's $100K TVL floor, $166.7K in total.
 
 ### Are these rates safe?
 

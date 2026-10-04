@@ -6,7 +6,7 @@ The highest honest SWEAT yield right now is 3.91% on uniswap-v3 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=7836e364-cfc9-40de-a728-ba782580bb74&src=seo_token) | Ethereum | 3.91% | $102.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7836e364-cfc9-40de-a728-ba782580bb74#src=seo_token) | Ethereum | 3.91% | $102.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

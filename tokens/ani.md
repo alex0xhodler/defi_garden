@@ -6,7 +6,7 @@ The highest honest ANI yield right now is 5.18% on raydium-amm (Solana), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=07bc774d-b4e1-4f9e-9f95-b238074897bd&src=seo_token) | Solana | 5.18% | $116.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=07bc774d-b4e1-4f9e-9f95-b238074897bd#src=seo_token) | Solana | 5.18% | $116.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

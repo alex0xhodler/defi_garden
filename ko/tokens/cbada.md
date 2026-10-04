@@ -6,27 +6,27 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=4aebc81c-213d-55e3-b71a-74f1925e26f8&src=seo_token) | Solana | 219.37% | $341.1K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=dbf0ffbb-c795-47b1-8ae0-a525c480dbf9&src=seo_token) | Base | 21.71% | $238.9K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=991b37f9-447b-4282-bb1a-c1cff2220b46&src=seo_token) | Base | 78.91% | $125K |
+| [raydium-amm →](https://www.defi.garden/?pool=4aebc81c-213d-55e3-b71a-74f1925e26f8#src=seo_token) | Solana | 219.37% | $341.1K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=dbf0ffbb-c795-47b1-8ae0-a525c480dbf9#src=seo_token) | Base | 37.99% | $211.4K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=991b37f9-447b-4282-bb1a-c1cff2220b46#src=seo_token) | Base | 106.55% | $114.8K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 CBADA의 변동성 낮은 후보는 Base의 aerodrome-slipstream, APY 21.71%, TVL $238.9K, https://www.defi.garden/?pool=dbf0ffbb-c795-47b1-8ae0-a525c480dbf9&src=seo_token; Base의 aerodrome-slipstream, APY 78.91%, TVL $125K, https://www.defi.garden/?pool=991b37f9-447b-4282-bb1a-c1cff2220b46&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 CBADA의 변동성 낮은 후보는 Base의 aerodrome-slipstream, APY 37.99%, TVL $211.4K, https://www.defi.garden/?pool=dbf0ffbb-c795-47b1-8ae0-a525c480dbf9#src=seo_token; Base의 aerodrome-slipstream, APY 106.55%, TVL $114.8K, https://www.defi.garden/?pool=991b37f9-447b-4282-bb1a-c1cff2220b46#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aerodrome-slipstream →](https://www.defi.garden/?pool=dbf0ffbb-c795-47b1-8ae0-a525c480dbf9&src=seo_token) | Base | 21.71% | $238.9K |
-| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=991b37f9-447b-4282-bb1a-c1cff2220b46&src=seo_token) | Base | 78.91% | $125K |
+| 1 | [aerodrome-slipstream →](https://www.defi.garden/?pool=dbf0ffbb-c795-47b1-8ae0-a525c480dbf9#src=seo_token) | Base | 37.99% | $211.4K |
+| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=991b37f9-447b-4282-bb1a-c1cff2220b46#src=seo_token) | Base | 106.55% | $114.8K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-CBADA 풀은 여기 3개가 있고, 2개 체인에서 APY가 21.71%부터 219.37%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+CBADA 풀은 여기 3개가 있고, 2개 체인에서 APY가 37.99%부터 219.37%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 117.53%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 115.92%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 3개 풀 중 2개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -35,8 +35,8 @@ CBADA 풀은 여기 3개가 있고, 2개 체인에서 APY가 21.71%부터 219.37
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | raydium-amm | 219.37% | 434.85% | 기본 금리 |
-| aerodrome-slipstream | 21.71% | 83.17% | 인센티브 88.31% |
-| aerodrome-slipstream | 78.91% | 117.53% | 인센티브 80.93% |
+| aerodrome-slipstream | 37.99% | 82.74% | 인센티브 83.96% |
+| aerodrome-slipstream | 106.55% | 115.92% | 인센티브 68.05% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -48,7 +48,7 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 219.37%예
 
 ### CBADA 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $11.66M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $12.01M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -56,7 +56,7 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 219.37%예
 
 ### CBADA 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 CBADA의 변동성 낮은 후보는 Base의 aerodrome-slipstream, APY 21.71%, TVL $238.9K, https://www.defi.garden/?pool=dbf0ffbb-c795-47b1-8ae0-a525c480dbf9&src=seo_token; Base의 aerodrome-slipstream, APY 78.91%, TVL $125K, https://www.defi.garden/?pool=991b37f9-447b-4282-bb1a-c1cff2220b46&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 CBADA의 변동성 낮은 후보는 Base의 aerodrome-slipstream, APY 37.99%, TVL $211.4K, https://www.defi.garden/?pool=dbf0ffbb-c795-47b1-8ae0-a525c480dbf9#src=seo_token; Base의 aerodrome-slipstream, APY 106.55%, TVL $114.8K, https://www.defi.garden/?pool=991b37f9-447b-4282-bb1a-c1cff2220b46#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [project-x →](https://www.defi.garden/?pool=c5dbd6d2-238c-4f9e-a0a6-f00fa0202b39&src=seo_token) | Hyperliquid L1 | 0.03% | $101K |
+| [project-x →](https://www.defi.garden/?pool=c5dbd6d2-238c-4f9e-a0a6-f00fa0202b39#src=seo_token) | Hyperliquid L1 | 0.03% | $101K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

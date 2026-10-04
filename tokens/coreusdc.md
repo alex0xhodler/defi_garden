@@ -6,7 +6,7 @@ The highest honest COREUSDC yield right now is 10.00% on upshift (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [upshift →](https://www.defi.garden/?pool=e89539a4-5600-40cf-bef6-5bace2fc9b8f&src=seo_token) | Ethereum | 10.00% | $2.08M |
+| [upshift →](https://www.defi.garden/?pool=e89539a4-5600-40cf-bef6-5bace2fc9b8f#src=seo_token) | Ethereum | 10.00% | $2.08M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

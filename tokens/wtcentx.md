@@ -6,7 +6,7 @@ The highest honest WTCENTX yield right now is 301.81% on uniswap-v4 (BSC), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=db392dd8-6cc7-592b-95ef-a53a635eb733&src=seo_token) | BSC | 301.81% | $155.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=db392dd8-6cc7-592b-95ef-a53a635eb733#src=seo_token) | BSC | 301.81% | $155.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

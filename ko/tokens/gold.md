@@ -6,9 +6,9 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=8f50502a-0e73-5f6b-8b06-a13bd680a980&src=seo_token) | Solana | 5.11% | $1.16M |
-| [folks-finance-lending →](https://www.defi.garden/?pool=6da6f63f-8ebb-49ab-9125-c5a429d49c98&src=seo_token) | Algorand | 0.17% | $495K |
-| [raydium-amm →](https://www.defi.garden/?pool=52a9d03d-9bbe-5394-a915-6c407e4019ae&src=seo_token) | Solana | 5.32% | $293.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=8f50502a-0e73-5f6b-8b06-a13bd680a980#src=seo_token) | Solana | 3.37% | $1.16M |
+| [folks-finance-lending →](https://www.defi.garden/?pool=6da6f63f-8ebb-49ab-9125-c5a429d49c98#src=seo_token) | Algorand | 0.17% | $501.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=52a9d03d-9bbe-5394-a915-6c407e4019ae#src=seo_token) | Solana | 5.32% | $293.1K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -29,7 +29,7 @@ GOLD 풀은 여기 3개가 있고, 2개 체인에서 APY가 0.17%부터 5.32%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| raydium-amm | 5.11% | 11.89% | 기본 금리 |
+| raydium-amm | 3.37% | 11.24% | 기본 금리 |
 | folks-finance-lending | 0.17% | 0.17% | 기본 금리 |
 | raydium-amm | 5.32% | 3.90% | 기본 금리 |
 
@@ -43,7 +43,7 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 5.32%예�
 
 ### GOLD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $2.52M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $2.53M예요.
 
 ### 이 수익률은 안전한가요?
 

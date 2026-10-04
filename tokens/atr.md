@@ -6,7 +6,7 @@ The highest honest ATR yield right now is 4.94% on raydium-amm (Solana), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=59acff14-ed3d-4661-9e90-5c64b81106c6&src=seo_token) | Solana | 4.94% | $119.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=59acff14-ed3d-4661-9e90-5c64b81106c6#src=seo_token) | Solana | 4.94% | $119.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

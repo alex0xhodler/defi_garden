@@ -6,7 +6,7 @@ The highest honest VOSF yield right now is 83.90% on uniswap-v4 (Base), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=da3dba23-4196-5add-b588-3dd321ee0020&src=seo_token) | Base | 83.90% | $143.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=da3dba23-4196-5add-b588-3dd321ee0020#src=seo_token) | Base | 83.90% | $143.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

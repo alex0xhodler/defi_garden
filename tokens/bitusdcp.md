@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
 
-The highest honest BITUSDCP yield right now is 4.18% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BITUSDCP yield right now is 4.19% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=3c9e2fb0-6bf6-53aa-9ff6-d78ff4d044a1&src=seo_token) | Base | 4.18% | $524.9K |
+| [morpho-blue →](https://www.defi.garden/?pool=3c9e2fb0-6bf6-53aa-9ff6-d78ff4d044a1#src=seo_token) | Base | 4.19% | $545.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BITUSDCP yield today?
 
-4.18% APY on morpho-blue (Base), based on live DefiLlama data.
+4.19% APY on morpho-blue (Base), based on live DefiLlama data.
 
 ### How many BITUSDCP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $524.9K in total.
+1 live pool clear this page's $100K TVL floor, $545.2K in total.
 
 ### Are these rates safe?
 

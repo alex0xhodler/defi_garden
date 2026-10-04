@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [royco-v2 →](https://www.defi.garden/?pool=4c85a387-c143-5efb-b561-57d2bb040c4a&src=seo_token) | Arbitrum | 3.94% | $1.15M |
+| [royco-v2 →](https://www.defi.garden/?pool=4c85a387-c143-5efb-b561-57d2bb040c4a#src=seo_token) | Arbitrum | 3.94% | $1.15M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

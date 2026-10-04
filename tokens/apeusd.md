@@ -6,18 +6,18 @@ The highest honest APEUSD yield right now is 0.01% on curve-dex (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=b23bf709-7cf7-4fa9-aaa6-94ac9f8bb589&src=seo_token) | Ethereum | 0.01% | $134.7K |
-| [convex-finance →](https://www.defi.garden/?pool=504dc086-c35f-4987-8b48-67f302d92576&src=seo_token) | Ethereum | 0.01% | $132.6K |
+| [curve-dex →](https://www.defi.garden/?pool=b23bf709-7cf7-4fa9-aaa6-94ac9f8bb589#src=seo_token) | Ethereum | 0.01% | $134.5K |
+| [convex-finance →](https://www.defi.garden/?pool=504dc086-c35f-4987-8b48-67f302d92576#src=seo_token) | Ethereum | 0.01% | $132.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, APEUSD's lower-variability candidates are curve-dex (Ethereum), 0.01% APY, $134.7K TVL, https://www.defi.garden/?pool=b23bf709-7cf7-4fa9-aaa6-94ac9f8bb589&src=seo_token; convex-finance (Ethereum), 0.01% APY, $132.6K TVL, https://www.defi.garden/?pool=504dc086-c35f-4987-8b48-67f302d92576&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, APEUSD's lower-variability candidates are curve-dex (Ethereum), 0.01% APY, $134.5K TVL, https://www.defi.garden/?pool=b23bf709-7cf7-4fa9-aaa6-94ac9f8bb589#src=seo_token; convex-finance (Ethereum), 0.01% APY, $132.4K TVL, https://www.defi.garden/?pool=504dc086-c35f-4987-8b48-67f302d92576#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=b23bf709-7cf7-4fa9-aaa6-94ac9f8bb589&src=seo_token) | Ethereum | 0.01% | $134.7K |
-| 2 | [convex-finance →](https://www.defi.garden/?pool=504dc086-c35f-4987-8b48-67f302d92576&src=seo_token) | Ethereum | 0.01% | $132.6K |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=b23bf709-7cf7-4fa9-aaa6-94ac9f8bb589#src=seo_token) | Ethereum | 0.01% | $134.5K |
+| 2 | [convex-finance →](https://www.defi.garden/?pool=504dc086-c35f-4987-8b48-67f302d92576#src=seo_token) | Ethereum | 0.01% | $132.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many APEUSD pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $267.2K in total.
+2 live pools clear this page's $100K TVL floor, $266.9K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which APEUSD pools have the most stable APY history?
 
-Based on APY history only, APEUSD's lower-variability candidates are curve-dex (Ethereum), 0.01% APY, $134.7K TVL, https://www.defi.garden/?pool=b23bf709-7cf7-4fa9-aaa6-94ac9f8bb589&src=seo_token; convex-finance (Ethereum), 0.01% APY, $132.6K TVL, https://www.defi.garden/?pool=504dc086-c35f-4987-8b48-67f302d92576&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, APEUSD's lower-variability candidates are curve-dex (Ethereum), 0.01% APY, $134.5K TVL, https://www.defi.garden/?pool=b23bf709-7cf7-4fa9-aaa6-94ac9f8bb589#src=seo_token; convex-finance (Ethereum), 0.01% APY, $132.4K TVL, https://www.defi.garden/?pool=504dc086-c35f-4987-8b48-67f302d92576#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

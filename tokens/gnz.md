@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
 
-The highest honest GNZ yield right now is 0.83% on quickswap-dex (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GNZ yield right now is 0.31% on quickswap-dex (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [quickswap-dex →](https://www.defi.garden/?pool=bf6cb3b8-2ec5-4ee8-a360-8fd67122d246&src=seo_token) | Polygon | 0.83% | $123.4K |
+| [quickswap-dex →](https://www.defi.garden/?pool=bf6cb3b8-2ec5-4ee8-a360-8fd67122d246#src=seo_token) | Polygon | 0.31% | $123.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GNZ yield today?
 
-0.83% APY on quickswap-dex (Polygon), based on live DefiLlama data.
+0.31% APY on quickswap-dex (Polygon), based on live DefiLlama data.
 
 ### How many GNZ pools clear the TVL floor?
 
@@ -38,9 +38,9 @@ There is not enough qualifying APY history to rank GNZ pools. This view covers A
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [DAI](https://www.defi.garden/tokens/dai)
 - [LINK](https://www.defi.garden/tokens/link)
+- [AAVE](https://www.defi.garden/tokens/aave)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [STKPOL](https://www.defi.garden/tokens/stkpol)
-- [STKEUR](https://www.defi.garden/tokens/stkeur)
 
 ## Available on
 

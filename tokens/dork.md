@@ -6,7 +6,7 @@ The highest honest DORK yield right now is 0.02% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=5794660c-8c61-4de3-925c-eb2e5ebf92b2&src=seo_token) | Ethereum | 0.02% | $152.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=5794660c-8c61-4de3-925c-eb2e5ebf92b2#src=seo_token) | Ethereum | 0.02% | $152.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

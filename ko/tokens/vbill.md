@@ -6,22 +6,22 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [vaneck-treasury-fund →](https://www.defi.garden/?pool=2f7d9d91-af21-4424-92e4-1c8aef7e8f76&src=seo_token) | BSC | 3.76% | $21.6M |
-| [vaneck-treasury-fund →](https://www.defi.garden/?pool=7fb382fb-fdc0-438f-bb5e-fc21f0351a7d&src=seo_token) | Ethereum | 3.76% | $20.17M |
-| [vaneck-treasury-fund →](https://www.defi.garden/?pool=5857cb89-c6e0-4a53-84b3-9e4d3135fbb5&src=seo_token) | Solana | 3.76% | $14.59M |
-| [vaneck-treasury-fund →](https://www.defi.garden/?pool=5663e2ef-7e9c-4755-9701-9b59b90dbba3&src=seo_token) | Avalanche | 3.76% | $705.9K |
+| [vaneck-treasury-fund →](https://www.defi.garden/?pool=2f7d9d91-af21-4424-92e4-1c8aef7e8f76#src=seo_token) | BSC | 3.76% | $21.6M |
+| [vaneck-treasury-fund →](https://www.defi.garden/?pool=7fb382fb-fdc0-438f-bb5e-fc21f0351a7d#src=seo_token) | Ethereum | 3.76% | $20.17M |
+| [vaneck-treasury-fund →](https://www.defi.garden/?pool=5857cb89-c6e0-4a53-84b3-9e4d3135fbb5#src=seo_token) | Solana | 3.76% | $14.59M |
+| [vaneck-treasury-fund →](https://www.defi.garden/?pool=5663e2ef-7e9c-4755-9701-9b59b90dbba3#src=seo_token) | Avalanche | 3.76% | $705.9K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 VBILL의 변동성 낮은 후보는 Ethereum의 vaneck-treasury-fund, APY 3.76%, TVL $20.17M, https://www.defi.garden/?pool=7fb382fb-fdc0-438f-bb5e-fc21f0351a7d&src=seo_token; Solana의 vaneck-treasury-fund, APY 3.76%, TVL $14.59M, https://www.defi.garden/?pool=5857cb89-c6e0-4a53-84b3-9e4d3135fbb5&src=seo_token; Avalanche의 vaneck-treasury-fund, APY 3.76%, TVL $705.9K, https://www.defi.garden/?pool=5663e2ef-7e9c-4755-9701-9b59b90dbba3&src=seo_token; BSC의 vaneck-treasury-fund, APY 3.76%, TVL $21.6M, https://www.defi.garden/?pool=2f7d9d91-af21-4424-92e4-1c8aef7e8f76&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 VBILL의 변동성 낮은 후보는 Ethereum의 vaneck-treasury-fund, APY 3.76%, TVL $20.17M, https://www.defi.garden/?pool=7fb382fb-fdc0-438f-bb5e-fc21f0351a7d#src=seo_token; Solana의 vaneck-treasury-fund, APY 3.76%, TVL $14.59M, https://www.defi.garden/?pool=5857cb89-c6e0-4a53-84b3-9e4d3135fbb5#src=seo_token; Avalanche의 vaneck-treasury-fund, APY 3.76%, TVL $705.9K, https://www.defi.garden/?pool=5663e2ef-7e9c-4755-9701-9b59b90dbba3#src=seo_token; BSC의 vaneck-treasury-fund, APY 3.76%, TVL $21.6M, https://www.defi.garden/?pool=2f7d9d91-af21-4424-92e4-1c8aef7e8f76#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [vaneck-treasury-fund →](https://www.defi.garden/?pool=7fb382fb-fdc0-438f-bb5e-fc21f0351a7d&src=seo_token) | Ethereum | 3.76% | $20.17M |
-| 2 | [vaneck-treasury-fund →](https://www.defi.garden/?pool=5857cb89-c6e0-4a53-84b3-9e4d3135fbb5&src=seo_token) | Solana | 3.76% | $14.59M |
-| 3 | [vaneck-treasury-fund →](https://www.defi.garden/?pool=5663e2ef-7e9c-4755-9701-9b59b90dbba3&src=seo_token) | Avalanche | 3.76% | $705.9K |
-| 4 | [vaneck-treasury-fund →](https://www.defi.garden/?pool=2f7d9d91-af21-4424-92e4-1c8aef7e8f76&src=seo_token) | BSC | 3.76% | $21.6M |
+| 1 | [vaneck-treasury-fund →](https://www.defi.garden/?pool=7fb382fb-fdc0-438f-bb5e-fc21f0351a7d#src=seo_token) | Ethereum | 3.76% | $20.17M |
+| 2 | [vaneck-treasury-fund →](https://www.defi.garden/?pool=5857cb89-c6e0-4a53-84b3-9e4d3135fbb5#src=seo_token) | Solana | 3.76% | $14.59M |
+| 3 | [vaneck-treasury-fund →](https://www.defi.garden/?pool=5663e2ef-7e9c-4755-9701-9b59b90dbba3#src=seo_token) | Avalanche | 3.76% | $705.9K |
+| 4 | [vaneck-treasury-fund →](https://www.defi.garden/?pool=2f7d9d91-af21-4424-92e4-1c8aef7e8f76#src=seo_token) | BSC | 3.76% | $21.6M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -35,10 +35,10 @@ VBILL 풀은 여기 4개가 있고, 4개 체인에서 APY가 3.76%부터 3.76%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
+| vaneck-treasury-fund | 3.76% | 3.64% | 기본 금리 |
 | vaneck-treasury-fund | 3.76% | 3.63% | 기본 금리 |
 | vaneck-treasury-fund | 3.76% | 3.63% | 기본 금리 |
-| vaneck-treasury-fund | 3.76% | 3.63% | 기본 금리 |
-| vaneck-treasury-fund | 3.76% | 3.63% | 기본 금리 |
+| vaneck-treasury-fund | 3.76% | 3.64% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -58,7 +58,7 @@ DefiLlama 실시간 데이터 기준, BSC의 vaneck-treasury-fund에서 APY 3.76
 
 ### VBILL 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 VBILL의 변동성 낮은 후보는 Ethereum의 vaneck-treasury-fund, APY 3.76%, TVL $20.17M, https://www.defi.garden/?pool=7fb382fb-fdc0-438f-bb5e-fc21f0351a7d&src=seo_token; Solana의 vaneck-treasury-fund, APY 3.76%, TVL $14.59M, https://www.defi.garden/?pool=5857cb89-c6e0-4a53-84b3-9e4d3135fbb5&src=seo_token; Avalanche의 vaneck-treasury-fund, APY 3.76%, TVL $705.9K, https://www.defi.garden/?pool=5663e2ef-7e9c-4755-9701-9b59b90dbba3&src=seo_token; BSC의 vaneck-treasury-fund, APY 3.76%, TVL $21.6M, https://www.defi.garden/?pool=2f7d9d91-af21-4424-92e4-1c8aef7e8f76&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 VBILL의 변동성 낮은 후보는 Ethereum의 vaneck-treasury-fund, APY 3.76%, TVL $20.17M, https://www.defi.garden/?pool=7fb382fb-fdc0-438f-bb5e-fc21f0351a7d#src=seo_token; Solana의 vaneck-treasury-fund, APY 3.76%, TVL $14.59M, https://www.defi.garden/?pool=5857cb89-c6e0-4a53-84b3-9e4d3135fbb5#src=seo_token; Avalanche의 vaneck-treasury-fund, APY 3.76%, TVL $705.9K, https://www.defi.garden/?pool=5663e2ef-7e9c-4755-9701-9b59b90dbba3#src=seo_token; BSC의 vaneck-treasury-fund, APY 3.76%, TVL $21.6M, https://www.defi.garden/?pool=2f7d9d91-af21-4424-92e4-1c8aef7e8f76#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

@@ -6,7 +6,7 @@ The highest honest UPUSDC yield right now is 9.09% on upshift (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [upshift →](https://www.defi.garden/?pool=6b6ddb24-adfd-449d-a21e-e029a102e318&src=seo_token) | Ethereum | 9.09% | $2.1M |
+| [upshift →](https://www.defi.garden/?pool=6b6ddb24-adfd-449d-a21e-e029a102e318#src=seo_token) | Ethereum | 9.09% | $2.1M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

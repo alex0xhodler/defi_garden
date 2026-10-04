@@ -6,7 +6,7 @@ The highest honest NEOCLOUD yield right now is 28.91% on uniswap-v4 (BSC), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=757f8c15-d10e-4381-82dd-aec7074fbe60&src=seo_token) | BSC | 28.91% | $447.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=757f8c15-d10e-4381-82dd-aec7074fbe60#src=seo_token) | BSC | 28.91% | $447.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

@@ -6,7 +6,7 @@ The highest honest ALGO yield right now is 1.73% on folks-finance-lending (Algor
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [folks-finance-lending →](https://www.defi.garden/?pool=30eb7dd0-a154-4e28-add4-5879add62c58&src=seo_token) | Algorand | 1.73% | $5.62M |
+| [folks-finance-lending →](https://www.defi.garden/?pool=30eb7dd0-a154-4e28-add4-5879add62c58#src=seo_token) | Algorand | 1.73% | $5.79M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,13 +19,13 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ALGO shows up in 1 pools here, with rates from 1.73% to 1.73% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 1.86% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 1.85% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| folks-finance-lending | 1.73% | 1.86% | Base rate |
+| folks-finance-lending | 1.73% | 1.85% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ALGO pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $9.77M in total.
+2 live pools clear this page's $100K TVL floor, $9.93M in total.
 
 ### Are these rates safe?
 

@@ -6,7 +6,7 @@ The highest honest VERONA yield right now is 0.03% on osmosis-dex (Osmosis), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [osmosis-dex →](https://www.defi.garden/?pool=0d27e173-994d-458d-ab6d-638c03bef053&src=seo_token) | Osmosis | 0.03% | $101.1K |
+| [osmosis-dex →](https://www.defi.garden/?pool=0d27e173-994d-458d-ab6d-638c03bef053#src=seo_token) | Osmosis | 0.03% | $101.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
 
-The highest honest NORV yield right now is 76.86% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NORV yield right now is 63.64% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=5d104e23-4261-5d2c-9efc-47c00030d7a9&src=seo_token) | Base | 76.86% | $309.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=5d104e23-4261-5d2c-9efc-47c00030d7a9#src=seo_token) | Base | 63.64% | $357.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NORV yield today?
 
-76.86% APY on uniswap-v2 (Base), based on live DefiLlama data.
+63.64% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many NORV pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $309.9K in total.
+1 live pool clear this page's $100K TVL floor, $357.7K in total.
 
 ### Are these rates safe?
 

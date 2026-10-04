@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=d4254f28-f1fe-445e-86ba-b609dd9bbe4d&src=seo_token) | Base | 3.96% | $423.8K |
+| [morpho-blue →](https://www.defi.garden/?pool=d4254f28-f1fe-445e-86ba-b609dd9bbe4d#src=seo_token) | Base | 3.96% | $423.8K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

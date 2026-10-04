@@ -6,7 +6,7 @@ The highest honest STRADAUSDC yield right now is 10.72% on t3tris-finance (Arbit
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [t3tris-finance →](https://www.defi.garden/?pool=3af99a29-e153-5278-aa80-b274f5549d00&src=seo_token) | Arbitrum | 10.72% | $319.3K |
+| [t3tris-finance →](https://www.defi.garden/?pool=3af99a29-e153-5278-aa80-b274f5549d00#src=seo_token) | Arbitrum | 10.72% | $319.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

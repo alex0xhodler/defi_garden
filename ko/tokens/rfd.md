@@ -2,11 +2,11 @@
 
 *DefiLlama 데이터 생성 시점 검증: October 4, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 RFD의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 2.61%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 RFD의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 1.55%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=60eb38e8-3686-4b70-be8c-0e04b138e8e4&src=seo_token) | Ethereum | 2.61% | $1.55M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=60eb38e8-3686-4b70-be8c-0e04b138e8e4#src=seo_token) | Ethereum | 1.55% | $1.55M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,7 +19,7 @@
 
 ### 오늘 RFD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 2.61%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 1.55%예요.
 
 ### RFD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

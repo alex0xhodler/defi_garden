@@ -2,38 +2,38 @@
 
 *DefiLlama 데이터 생성 시점 검증: October 4, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 USDBC의 가장 높은 정직한 수익률은 Base의 aerodrome-v1에서 195.13%이며, $100K TVL 기준을 넘는 10개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 USDBC의 가장 높은 정직한 수익률은 Base의 aerodrome-v1에서 198.44%이며, $100K TVL 기준을 넘는 10개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=496e70c2-a577-4a71-bbc7-32d6c677272d&src=seo_token) | Base | 17.87% | $291.3K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=56b16fb3-5d3c-4fd9-8cee-b131a50d7422&src=seo_token) | Base | 10.74% | $264.3K |
-| [curve-dex →](https://www.defi.garden/?pool=05979e07-baf5-4f94-b417-19bf64130e1d&src=seo_token) | Base | 6.01% | $256.2K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=3f3e95c7-e672-50e5-b50c-bb13c7ef6b55&src=seo_token) | Base | 195.13% | $233.6K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=a520562f-03b9-4502-bea1-fba48b05099d&src=seo_token) | Base | 0.55% | $144.9K |
-| [alien-base-v3 →](https://www.defi.garden/?pool=aed8cb93-db45-4512-af89-e54b402ff235&src=seo_token) | Base | 6.34% | $127.5K |
-| [symbiosis →](https://www.defi.garden/?pool=99a26a4c-5b01-4ad1-b230-78d59be9424b&src=seo_token) | Base | 2.32% | $111.6K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=496e70c2-a577-4a71-bbc7-32d6c677272d#src=seo_token) | Base | 18.13% | $295.5K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=56b16fb3-5d3c-4fd9-8cee-b131a50d7422#src=seo_token) | Base | 11.04% | $264.5K |
+| [curve-dex →](https://www.defi.garden/?pool=05979e07-baf5-4f94-b417-19bf64130e1d#src=seo_token) | Base | 5.98% | $256.2K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=3f3e95c7-e672-50e5-b50c-bb13c7ef6b55#src=seo_token) | Base | 198.44% | $236.3K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=a520562f-03b9-4502-bea1-fba48b05099d#src=seo_token) | Base | 0.51% | $143.3K |
+| [alien-base-v3 →](https://www.defi.garden/?pool=aed8cb93-db45-4512-af89-e54b402ff235#src=seo_token) | Base | 6.61% | $127.5K |
+| [symbiosis →](https://www.defi.garden/?pool=99a26a4c-5b01-4ad1-b230-78d59be9424b#src=seo_token) | Base | 2.21% | $112.6K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 USDBC의 변동성 낮은 후보는 Base의 symbiosis, APY 2.32%, TVL $111.6K, https://www.defi.garden/?pool=99a26a4c-5b01-4ad1-b230-78d59be9424b&src=seo_token; Base의 aerodrome-v1, APY 10.74%, TVL $264.3K, https://www.defi.garden/?pool=56b16fb3-5d3c-4fd9-8cee-b131a50d7422&src=seo_token; Base의 alien-base-v3, APY 6.34%, TVL $127.5K, https://www.defi.garden/?pool=aed8cb93-db45-4512-af89-e54b402ff235&src=seo_token; Base의 curve-dex, APY 6.01%, TVL $256.2K, https://www.defi.garden/?pool=05979e07-baf5-4f94-b417-19bf64130e1d&src=seo_token; Base의 aerodrome-slipstream, APY 0.55%, TVL $144.9K, https://www.defi.garden/?pool=a520562f-03b9-4502-bea1-fba48b05099d&src=seo_token; Base의 aerodrome-v1, APY 17.87%, TVL $291.3K, https://www.defi.garden/?pool=496e70c2-a577-4a71-bbc7-32d6c677272d&src=seo_token; Base의 aerodrome-v1, APY 195.13%, TVL $233.6K, https://www.defi.garden/?pool=3f3e95c7-e672-50e5-b50c-bb13c7ef6b55&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USDBC의 변동성 낮은 후보는 Base의 symbiosis, APY 2.21%, TVL $112.6K, https://www.defi.garden/?pool=99a26a4c-5b01-4ad1-b230-78d59be9424b#src=seo_token; Base의 aerodrome-v1, APY 11.04%, TVL $264.5K, https://www.defi.garden/?pool=56b16fb3-5d3c-4fd9-8cee-b131a50d7422#src=seo_token; Base의 alien-base-v3, APY 6.61%, TVL $127.5K, https://www.defi.garden/?pool=aed8cb93-db45-4512-af89-e54b402ff235#src=seo_token; Base의 curve-dex, APY 5.98%, TVL $256.2K, https://www.defi.garden/?pool=05979e07-baf5-4f94-b417-19bf64130e1d#src=seo_token; Base의 aerodrome-slipstream, APY 0.51%, TVL $143.3K, https://www.defi.garden/?pool=a520562f-03b9-4502-bea1-fba48b05099d#src=seo_token; Base의 aerodrome-v1, APY 18.13%, TVL $295.5K, https://www.defi.garden/?pool=496e70c2-a577-4a71-bbc7-32d6c677272d#src=seo_token; Base의 aerodrome-v1, APY 198.44%, TVL $236.3K, https://www.defi.garden/?pool=3f3e95c7-e672-50e5-b50c-bb13c7ef6b55#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [symbiosis →](https://www.defi.garden/?pool=99a26a4c-5b01-4ad1-b230-78d59be9424b&src=seo_token) | Base | 2.32% | $111.6K |
-| 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=56b16fb3-5d3c-4fd9-8cee-b131a50d7422&src=seo_token) | Base | 10.74% | $264.3K |
-| 3 | [alien-base-v3 →](https://www.defi.garden/?pool=aed8cb93-db45-4512-af89-e54b402ff235&src=seo_token) | Base | 6.34% | $127.5K |
-| 4 | [curve-dex →](https://www.defi.garden/?pool=05979e07-baf5-4f94-b417-19bf64130e1d&src=seo_token) | Base | 6.01% | $256.2K |
-| 5 | [aerodrome-slipstream →](https://www.defi.garden/?pool=a520562f-03b9-4502-bea1-fba48b05099d&src=seo_token) | Base | 0.55% | $144.9K |
-| 6 | [aerodrome-v1 →](https://www.defi.garden/?pool=496e70c2-a577-4a71-bbc7-32d6c677272d&src=seo_token) | Base | 17.87% | $291.3K |
-| 7 | [aerodrome-v1 →](https://www.defi.garden/?pool=3f3e95c7-e672-50e5-b50c-bb13c7ef6b55&src=seo_token) | Base | 195.13% | $233.6K |
+| 1 | [symbiosis →](https://www.defi.garden/?pool=99a26a4c-5b01-4ad1-b230-78d59be9424b#src=seo_token) | Base | 2.21% | $112.6K |
+| 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=56b16fb3-5d3c-4fd9-8cee-b131a50d7422#src=seo_token) | Base | 11.04% | $264.5K |
+| 3 | [alien-base-v3 →](https://www.defi.garden/?pool=aed8cb93-db45-4512-af89-e54b402ff235#src=seo_token) | Base | 6.61% | $127.5K |
+| 4 | [curve-dex →](https://www.defi.garden/?pool=05979e07-baf5-4f94-b417-19bf64130e1d#src=seo_token) | Base | 5.98% | $256.2K |
+| 5 | [aerodrome-slipstream →](https://www.defi.garden/?pool=a520562f-03b9-4502-bea1-fba48b05099d#src=seo_token) | Base | 0.51% | $143.3K |
+| 6 | [aerodrome-v1 →](https://www.defi.garden/?pool=496e70c2-a577-4a71-bbc7-32d6c677272d#src=seo_token) | Base | 18.13% | $295.5K |
+| 7 | [aerodrome-v1 →](https://www.defi.garden/?pool=3f3e95c7-e672-50e5-b50c-bb13c7ef6b55#src=seo_token) | Base | 198.44% | $236.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-USDBC 풀은 여기 7개가 있고, 1개 체인에서 APY가 0.55%부터 195.13%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+USDBC 풀은 여기 7개가 있고, 1개 체인에서 APY가 0.51%부터 198.44%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 7개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 5.58%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -43,13 +43,13 @@ USDBC 풀은 여기 7개가 있고, 1개 체인에서 APY가 0.55%부터 195.13%
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| aerodrome-v1 | 17.87% | 17.38% | 인센티브 100.00% |
-| aerodrome-v1 | 10.74% | 10.78% | 인센티브 100.00% |
-| curve-dex | 6.01% | 5.58% | 인센티브 99.67% |
-| aerodrome-v1 | 195.13% | 136.35% | 인센티브 100.00% |
-| aerodrome-slipstream | 0.55% | 1.67% | 인센티브 60.87% |
-| alien-base-v3 | 6.34% | 5.19% | 인센티브 93.97% |
-| symbiosis | 2.32% | 2.15% | 기본 금리 |
+| aerodrome-v1 | 18.13% | 17.43% | 인센티브 100.00% |
+| aerodrome-v1 | 11.04% | 10.76% | 인센티브 100.00% |
+| curve-dex | 5.98% | 5.58% | 인센티브 99.67% |
+| aerodrome-v1 | 198.44% | 139.92% | 인센티브 100.00% |
+| aerodrome-slipstream | 0.51% | 1.60% | 인센티브 67.90% |
+| alien-base-v3 | 6.61% | 5.22% | 인센티브 94.23% |
+| symbiosis | 2.21% | 2.15% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -57,11 +57,11 @@ USDBC 풀은 여기 7개가 있고, 1개 체인에서 APY가 0.55%부터 195.13%
 
 ### 오늘 USDBC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 195.13%예요.
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 198.44%예요.
 
 ### USDBC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 10개이며, 합산 TVL은 $1.9M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 10개이며, 합산 TVL은 $1.91M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -69,7 +69,7 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 195.13%예�
 
 ### USDBC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 USDBC의 변동성 낮은 후보는 Base의 symbiosis, APY 2.32%, TVL $111.6K, https://www.defi.garden/?pool=99a26a4c-5b01-4ad1-b230-78d59be9424b&src=seo_token; Base의 aerodrome-v1, APY 10.74%, TVL $264.3K, https://www.defi.garden/?pool=56b16fb3-5d3c-4fd9-8cee-b131a50d7422&src=seo_token; Base의 alien-base-v3, APY 6.34%, TVL $127.5K, https://www.defi.garden/?pool=aed8cb93-db45-4512-af89-e54b402ff235&src=seo_token; Base의 curve-dex, APY 6.01%, TVL $256.2K, https://www.defi.garden/?pool=05979e07-baf5-4f94-b417-19bf64130e1d&src=seo_token; Base의 aerodrome-slipstream, APY 0.55%, TVL $144.9K, https://www.defi.garden/?pool=a520562f-03b9-4502-bea1-fba48b05099d&src=seo_token; Base의 aerodrome-v1, APY 17.87%, TVL $291.3K, https://www.defi.garden/?pool=496e70c2-a577-4a71-bbc7-32d6c677272d&src=seo_token; Base의 aerodrome-v1, APY 195.13%, TVL $233.6K, https://www.defi.garden/?pool=3f3e95c7-e672-50e5-b50c-bb13c7ef6b55&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USDBC의 변동성 낮은 후보는 Base의 symbiosis, APY 2.21%, TVL $112.6K, https://www.defi.garden/?pool=99a26a4c-5b01-4ad1-b230-78d59be9424b#src=seo_token; Base의 aerodrome-v1, APY 11.04%, TVL $264.5K, https://www.defi.garden/?pool=56b16fb3-5d3c-4fd9-8cee-b131a50d7422#src=seo_token; Base의 alien-base-v3, APY 6.61%, TVL $127.5K, https://www.defi.garden/?pool=aed8cb93-db45-4512-af89-e54b402ff235#src=seo_token; Base의 curve-dex, APY 5.98%, TVL $256.2K, https://www.defi.garden/?pool=05979e07-baf5-4f94-b417-19bf64130e1d#src=seo_token; Base의 aerodrome-slipstream, APY 0.51%, TVL $143.3K, https://www.defi.garden/?pool=a520562f-03b9-4502-bea1-fba48b05099d#src=seo_token; Base의 aerodrome-v1, APY 18.13%, TVL $295.5K, https://www.defi.garden/?pool=496e70c2-a577-4a71-bbc7-32d6c677272d#src=seo_token; Base의 aerodrome-v1, APY 198.44%, TVL $236.3K, https://www.defi.garden/?pool=3f3e95c7-e672-50e5-b50c-bb13c7ef6b55#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

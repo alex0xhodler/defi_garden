@@ -6,7 +6,7 @@ The highest honest HUBCAP yield right now is 5.53% on lagoon (Ethereum), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=dc5ccbe8-aaa3-40ba-9935-d1bbd3db643b&src=seo_token) | Ethereum | 5.53% | $1.01M |
+| [lagoon →](https://www.defi.garden/?pool=dc5ccbe8-aaa3-40ba-9935-d1bbd3db643b#src=seo_token) | Ethereum | 5.53% | $1.01M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

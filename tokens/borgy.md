@@ -6,7 +6,7 @@ The highest honest BORGY yield right now is 21.71% on raydium-amm (Solana), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=0b08958d-d01e-4068-99cd-55858110afd2&src=seo_token) | Solana | 21.71% | $111.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=0b08958d-d01e-4068-99cd-55858110afd2#src=seo_token) | Solana | 21.71% | $111.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

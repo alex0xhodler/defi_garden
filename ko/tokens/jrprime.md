@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=f88ff950-9096-46c0-bb9e-93f4d8266c41&src=seo_token) | Ethereum | 5.77% | $263K |
+| [strata-markets →](https://www.defi.garden/?pool=f88ff950-9096-46c0-bb9e-93f4d8266c41#src=seo_token) | Ethereum | 5.77% | $263K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

@@ -6,7 +6,7 @@ The highest honest FREYA yield right now is 7.89% on raydium-amm (Solana), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=f9b5a38f-4ab9-41cd-918f-6f5d7761eb14&src=seo_token) | Solana | 7.89% | $158.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=f9b5a38f-4ab9-41cd-918f-6f5d7761eb14#src=seo_token) | Solana | 7.89% | $158.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

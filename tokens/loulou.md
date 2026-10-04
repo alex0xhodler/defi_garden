@@ -6,7 +6,7 @@ The highest honest LOULOU yield right now is 5.70% on raydium-amm (Solana), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=6ec301a5-3d87-4d83-99e9-bd227d524a03&src=seo_token) | Solana | 5.70% | $157.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=6ec301a5-3d87-4d83-99e9-bd227d524a03#src=seo_token) | Solana | 5.70% | $157.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

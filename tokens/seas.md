@@ -6,7 +6,7 @@ The highest honest SEAS yield right now is 0.59% on raydium-amm (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=eae7f4a4-d314-4e17-9cea-d17e3e551d1a&src=seo_token) | Solana | 0.59% | $1,000K |
+| [raydium-amm →](https://www.defi.garden/?pool=eae7f4a4-d314-4e17-9cea-d17e3e551d1a#src=seo_token) | Solana | 0.59% | $1,000K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

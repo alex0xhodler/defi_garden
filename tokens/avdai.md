@@ -6,7 +6,7 @@ The highest honest AVDAI yield right now is 1.26% on curve-dex (Avalanche), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=8a6c2832-a53d-4d30-b8b9-184ff915bccd&src=seo_token) | Avalanche | 1.26% | $1.32M |
+| [curve-dex →](https://www.defi.garden/?pool=8a6c2832-a53d-4d30-b8b9-184ff915bccd#src=seo_token) | Avalanche | 1.26% | $1.32M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

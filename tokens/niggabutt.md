@@ -6,7 +6,7 @@ The highest honest NIGGABUTT yield right now is 2.96% on raydium-amm (Solana), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=fe0311d4-0567-4b20-84c1-3d329c583e9c&src=seo_token) | Solana | 2.96% | $108K |
+| [raydium-amm →](https://www.defi.garden/?pool=fe0311d4-0567-4b20-84c1-3d329c583e9c#src=seo_token) | Solana | 2.96% | $108K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

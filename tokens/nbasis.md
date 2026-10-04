@@ -6,7 +6,7 @@ The highest honest NBASIS yield right now is 8.02% on plume-vaults (Plume Mainne
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [plume-vaults →](https://www.defi.garden/?pool=b5331747-f55e-457e-aadc-9635c96ed38a&src=seo_token) | Plume Mainnet | 8.02% | $145.3K |
+| [plume-vaults →](https://www.defi.garden/?pool=b5331747-f55e-457e-aadc-9635c96ed38a#src=seo_token) | Plume Mainnet | 8.02% | $145.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

@@ -6,8 +6,8 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=72d9fe8d-7b1d-5eb8-aced-bd74aa133858&src=seo_token) | Base | 53.36% | $109.7K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=a8da2ca1-aa09-56e5-9478-205211145b9d&src=seo_token) | Base | 88.14% | $103.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=72d9fe8d-7b1d-5eb8-aced-bd74aa133858#src=seo_token) | Base | 53.36% | $109.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a8da2ca1-aa09-56e5-9478-205211145b9d#src=seo_token) | Base | 88.14% | $103.3K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

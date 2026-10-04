@@ -2,42 +2,42 @@
 
 *Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
 
-The highest honest WHYPE yield right now is 69.59% on nest-cl (Hyperliquid L1), among 69 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WHYPE yield right now is 66.28% on nest-cl (Hyperliquid L1), among 69 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hyperlend-pooled →](https://www.defi.garden/?pool=b039004a-df3c-4813-97b8-a15ec488212c&src=seo_token) | Hyperliquid L1 | 0.61% | $40.47M |
-| [project-x →](https://www.defi.garden/?pool=f55a970c-7fdb-4087-8c62-258287e7a6cd&src=seo_token) | Hyperliquid L1 | 3.18% | $15.21M |
-| [nest-cl →](https://www.defi.garden/?pool=afe2c8c8-2ab8-4f1b-abda-a8a12718c431&src=seo_token) | Hyperliquid L1 | 69.59% | $11.81M |
-| [project-x →](https://www.defi.garden/?pool=399b47e5-f461-44c2-8534-7e3ea9e22c3c&src=seo_token) | Hyperliquid L1 | 1.89% | $6.84M |
-| [nest-cl →](https://www.defi.garden/?pool=ecae90d4-d05d-4485-a1c2-2abf75c96df8&src=seo_token) | Hyperliquid L1 | 15.37% | $5.75M |
-| [project-x →](https://www.defi.garden/?pool=86eb8c44-6acd-4049-a434-6a6f82e81477&src=seo_token) | Hyperliquid L1 | 2.69% | $5.62M |
-| [nest-cl →](https://www.defi.garden/?pool=62048f53-e93d-4c48-b925-50053037a00d&src=seo_token) | Hyperliquid L1 | 40.18% | $3.52M |
-| [hyperswap-v3 →](https://www.defi.garden/?pool=296529ba-2569-45a5-aa69-4ea4158527ef&src=seo_token) | Hyperliquid L1 | 2.43% | $3.01M |
+| [hyperlend-pooled →](https://www.defi.garden/?pool=b039004a-df3c-4813-97b8-a15ec488212c#src=seo_token) | Hyperliquid L1 | 0.60% | $41.35M |
+| [project-x →](https://www.defi.garden/?pool=f55a970c-7fdb-4087-8c62-258287e7a6cd#src=seo_token) | Hyperliquid L1 | 9.95% | $14.99M |
+| [nest-cl →](https://www.defi.garden/?pool=afe2c8c8-2ab8-4f1b-abda-a8a12718c431#src=seo_token) | Hyperliquid L1 | 66.28% | $12.36M |
+| [project-x →](https://www.defi.garden/?pool=399b47e5-f461-44c2-8534-7e3ea9e22c3c#src=seo_token) | Hyperliquid L1 | 7.26% | $6.86M |
+| [nest-cl →](https://www.defi.garden/?pool=ecae90d4-d05d-4485-a1c2-2abf75c96df8#src=seo_token) | Hyperliquid L1 | 27.01% | $6.01M |
+| [project-x →](https://www.defi.garden/?pool=86eb8c44-6acd-4049-a434-6a6f82e81477#src=seo_token) | Hyperliquid L1 | 10.63% | $5.08M |
+| [nest-cl →](https://www.defi.garden/?pool=62048f53-e93d-4c48-b925-50053037a00d#src=seo_token) | Hyperliquid L1 | 42.85% | $3.55M |
+| [hyperswap-v3 →](https://www.defi.garden/?pool=296529ba-2569-45a5-aa69-4ea4158527ef#src=seo_token) | Hyperliquid L1 | 9.36% | $3.03M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WHYPE's lower-variability candidates are hyperlend-pooled (Hyperliquid L1), 0.61% APY, $40.47M TVL, https://www.defi.garden/?pool=b039004a-df3c-4813-97b8-a15ec488212c&src=seo_token; nest-cl (Hyperliquid L1), 15.37% APY, $5.75M TVL, https://www.defi.garden/?pool=ecae90d4-d05d-4485-a1c2-2abf75c96df8&src=seo_token; nest-cl (Hyperliquid L1), 69.59% APY, $11.81M TVL, https://www.defi.garden/?pool=afe2c8c8-2ab8-4f1b-abda-a8a12718c431&src=seo_token; nest-cl (Hyperliquid L1), 40.18% APY, $3.52M TVL, https://www.defi.garden/?pool=62048f53-e93d-4c48-b925-50053037a00d&src=seo_token; project-x (Hyperliquid L1), 1.89% APY, $6.84M TVL, https://www.defi.garden/?pool=399b47e5-f461-44c2-8534-7e3ea9e22c3c&src=seo_token; project-x (Hyperliquid L1), 3.18% APY, $15.21M TVL, https://www.defi.garden/?pool=f55a970c-7fdb-4087-8c62-258287e7a6cd&src=seo_token; project-x (Hyperliquid L1), 2.69% APY, $5.62M TVL, https://www.defi.garden/?pool=86eb8c44-6acd-4049-a434-6a6f82e81477&src=seo_token; hyperswap-v3 (Hyperliquid L1), 2.43% APY, $3.01M TVL, https://www.defi.garden/?pool=296529ba-2569-45a5-aa69-4ea4158527ef&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WHYPE's lower-variability candidates are hyperlend-pooled (Hyperliquid L1), 0.60% APY, $41.35M TVL, https://www.defi.garden/?pool=b039004a-df3c-4813-97b8-a15ec488212c#src=seo_token; nest-cl (Hyperliquid L1), 27.01% APY, $6.01M TVL, https://www.defi.garden/?pool=ecae90d4-d05d-4485-a1c2-2abf75c96df8#src=seo_token; nest-cl (Hyperliquid L1), 66.28% APY, $12.36M TVL, https://www.defi.garden/?pool=afe2c8c8-2ab8-4f1b-abda-a8a12718c431#src=seo_token; nest-cl (Hyperliquid L1), 42.85% APY, $3.55M TVL, https://www.defi.garden/?pool=62048f53-e93d-4c48-b925-50053037a00d#src=seo_token; project-x (Hyperliquid L1), 7.26% APY, $6.86M TVL, https://www.defi.garden/?pool=399b47e5-f461-44c2-8534-7e3ea9e22c3c#src=seo_token; project-x (Hyperliquid L1), 9.95% APY, $14.99M TVL, https://www.defi.garden/?pool=f55a970c-7fdb-4087-8c62-258287e7a6cd#src=seo_token; project-x (Hyperliquid L1), 10.63% APY, $5.08M TVL, https://www.defi.garden/?pool=86eb8c44-6acd-4049-a434-6a6f82e81477#src=seo_token; hyperswap-v3 (Hyperliquid L1), 9.36% APY, $3.03M TVL, https://www.defi.garden/?pool=296529ba-2569-45a5-aa69-4ea4158527ef#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [hyperlend-pooled →](https://www.defi.garden/?pool=b039004a-df3c-4813-97b8-a15ec488212c&src=seo_token) | Hyperliquid L1 | 0.61% | $40.47M |
-| 2 | [nest-cl →](https://www.defi.garden/?pool=ecae90d4-d05d-4485-a1c2-2abf75c96df8&src=seo_token) | Hyperliquid L1 | 15.37% | $5.75M |
-| 3 | [nest-cl →](https://www.defi.garden/?pool=afe2c8c8-2ab8-4f1b-abda-a8a12718c431&src=seo_token) | Hyperliquid L1 | 69.59% | $11.81M |
-| 4 | [nest-cl →](https://www.defi.garden/?pool=62048f53-e93d-4c48-b925-50053037a00d&src=seo_token) | Hyperliquid L1 | 40.18% | $3.52M |
-| 5 | [project-x →](https://www.defi.garden/?pool=399b47e5-f461-44c2-8534-7e3ea9e22c3c&src=seo_token) | Hyperliquid L1 | 1.89% | $6.84M |
-| 6 | [project-x →](https://www.defi.garden/?pool=f55a970c-7fdb-4087-8c62-258287e7a6cd&src=seo_token) | Hyperliquid L1 | 3.18% | $15.21M |
-| 7 | [project-x →](https://www.defi.garden/?pool=86eb8c44-6acd-4049-a434-6a6f82e81477&src=seo_token) | Hyperliquid L1 | 2.69% | $5.62M |
-| 8 | [hyperswap-v3 →](https://www.defi.garden/?pool=296529ba-2569-45a5-aa69-4ea4158527ef&src=seo_token) | Hyperliquid L1 | 2.43% | $3.01M |
+| 1 | [hyperlend-pooled →](https://www.defi.garden/?pool=b039004a-df3c-4813-97b8-a15ec488212c#src=seo_token) | Hyperliquid L1 | 0.60% | $41.35M |
+| 2 | [nest-cl →](https://www.defi.garden/?pool=ecae90d4-d05d-4485-a1c2-2abf75c96df8#src=seo_token) | Hyperliquid L1 | 27.01% | $6.01M |
+| 3 | [nest-cl →](https://www.defi.garden/?pool=afe2c8c8-2ab8-4f1b-abda-a8a12718c431#src=seo_token) | Hyperliquid L1 | 66.28% | $12.36M |
+| 4 | [nest-cl →](https://www.defi.garden/?pool=62048f53-e93d-4c48-b925-50053037a00d#src=seo_token) | Hyperliquid L1 | 42.85% | $3.55M |
+| 5 | [project-x →](https://www.defi.garden/?pool=399b47e5-f461-44c2-8534-7e3ea9e22c3c#src=seo_token) | Hyperliquid L1 | 7.26% | $6.86M |
+| 6 | [project-x →](https://www.defi.garden/?pool=f55a970c-7fdb-4087-8c62-258287e7a6cd#src=seo_token) | Hyperliquid L1 | 9.95% | $14.99M |
+| 7 | [project-x →](https://www.defi.garden/?pool=86eb8c44-6acd-4049-a434-6a6f82e81477#src=seo_token) | Hyperliquid L1 | 10.63% | $5.08M |
+| 8 | [hyperswap-v3 →](https://www.defi.garden/?pool=296529ba-2569-45a5-aa69-4ea4158527ef#src=seo_token) | Hyperliquid L1 | 9.36% | $3.03M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WHYPE shows up in 8 pools here, with rates from 0.61% to 69.59% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+WHYPE shows up in 8 pools here, with rates from 0.60% to 66.28% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 30.29% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 30.08% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 3 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -45,14 +45,14 @@ WHYPE shows up in 8 pools here, with rates from 0.61% to 69.59% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| hyperlend-pooled | 0.61% | 2.91% | Base rate |
-| project-x | 3.18% | 26.99% | Base rate |
-| nest-cl | 69.59% | 67.53% | 100.00% incentives |
-| project-x | 1.89% | 18.40% | Base rate |
-| nest-cl | 15.37% | 33.59% | 100.00% incentives |
-| project-x | 2.69% | 41.36% | Base rate |
-| nest-cl | 40.18% | 43.30% | 100.00% incentives |
-| hyperswap-v3 | 2.43% | 23.13% | Base rate |
+| hyperlend-pooled | 0.60% | 2.91% | Base rate |
+| project-x | 9.95% | 26.15% | Base rate |
+| nest-cl | 66.28% | 67.53% | 100.00% incentives |
+| project-x | 7.26% | 17.92% | Base rate |
+| nest-cl | 27.01% | 34.01% | 100.00% incentives |
+| project-x | 10.63% | 40.45% | Base rate |
+| nest-cl | 42.85% | 42.90% | 100.00% incentives |
+| hyperswap-v3 | 9.36% | 22.67% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -60,11 +60,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WHYPE yield today?
 
-69.59% APY on nest-cl (Hyperliquid L1), based on live DefiLlama data.
+66.28% APY on nest-cl (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many WHYPE pools clear the TVL floor?
 
-69 live pools clear this page's $100K TVL floor, $187M in total.
+69 live pools clear this page's $100K TVL floor, $188.41M in total.
 
 ### Are these rates safe?
 
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WHYPE pools have the most stable APY history?
 
-Based on APY history only, WHYPE's lower-variability candidates are hyperlend-pooled (Hyperliquid L1), 0.61% APY, $40.47M TVL, https://www.defi.garden/?pool=b039004a-df3c-4813-97b8-a15ec488212c&src=seo_token; nest-cl (Hyperliquid L1), 15.37% APY, $5.75M TVL, https://www.defi.garden/?pool=ecae90d4-d05d-4485-a1c2-2abf75c96df8&src=seo_token; nest-cl (Hyperliquid L1), 69.59% APY, $11.81M TVL, https://www.defi.garden/?pool=afe2c8c8-2ab8-4f1b-abda-a8a12718c431&src=seo_token; nest-cl (Hyperliquid L1), 40.18% APY, $3.52M TVL, https://www.defi.garden/?pool=62048f53-e93d-4c48-b925-50053037a00d&src=seo_token; project-x (Hyperliquid L1), 1.89% APY, $6.84M TVL, https://www.defi.garden/?pool=399b47e5-f461-44c2-8534-7e3ea9e22c3c&src=seo_token; project-x (Hyperliquid L1), 3.18% APY, $15.21M TVL, https://www.defi.garden/?pool=f55a970c-7fdb-4087-8c62-258287e7a6cd&src=seo_token; project-x (Hyperliquid L1), 2.69% APY, $5.62M TVL, https://www.defi.garden/?pool=86eb8c44-6acd-4049-a434-6a6f82e81477&src=seo_token; hyperswap-v3 (Hyperliquid L1), 2.43% APY, $3.01M TVL, https://www.defi.garden/?pool=296529ba-2569-45a5-aa69-4ea4158527ef&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WHYPE's lower-variability candidates are hyperlend-pooled (Hyperliquid L1), 0.60% APY, $41.35M TVL, https://www.defi.garden/?pool=b039004a-df3c-4813-97b8-a15ec488212c#src=seo_token; nest-cl (Hyperliquid L1), 27.01% APY, $6.01M TVL, https://www.defi.garden/?pool=ecae90d4-d05d-4485-a1c2-2abf75c96df8#src=seo_token; nest-cl (Hyperliquid L1), 66.28% APY, $12.36M TVL, https://www.defi.garden/?pool=afe2c8c8-2ab8-4f1b-abda-a8a12718c431#src=seo_token; nest-cl (Hyperliquid L1), 42.85% APY, $3.55M TVL, https://www.defi.garden/?pool=62048f53-e93d-4c48-b925-50053037a00d#src=seo_token; project-x (Hyperliquid L1), 7.26% APY, $6.86M TVL, https://www.defi.garden/?pool=399b47e5-f461-44c2-8534-7e3ea9e22c3c#src=seo_token; project-x (Hyperliquid L1), 9.95% APY, $14.99M TVL, https://www.defi.garden/?pool=f55a970c-7fdb-4087-8c62-258287e7a6cd#src=seo_token; project-x (Hyperliquid L1), 10.63% APY, $5.08M TVL, https://www.defi.garden/?pool=86eb8c44-6acd-4049-a434-6a6f82e81477#src=seo_token; hyperswap-v3 (Hyperliquid L1), 9.36% APY, $3.03M TVL, https://www.defi.garden/?pool=296529ba-2569-45a5-aa69-4ea4158527ef#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

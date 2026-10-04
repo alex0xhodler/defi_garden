@@ -6,7 +6,7 @@ The highest honest STONKCAT yield right now is 9.80% on raydium-amm (Solana), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=5e9ecae0-cfb7-584b-9a62-02109200dcaa&src=seo_token) | Solana | 9.80% | $203.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=5e9ecae0-cfb7-584b-9a62-02109200dcaa#src=seo_token) | Solana | 9.80% | $203.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

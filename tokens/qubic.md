@@ -6,7 +6,7 @@ The highest honest QUBIC yield right now is 0.02% on raydium-amm (Solana), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=b694b0ee-16a5-537e-b187-e695dc9af180&src=seo_token) | Solana | 0.02% | $99.58M |
+| [raydium-amm →](https://www.defi.garden/?pool=b694b0ee-16a5-537e-b187-e695dc9af180#src=seo_token) | Solana | 0.02% | $99.58M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

@@ -6,7 +6,7 @@ The highest honest DAMMBTC yield right now is 1.91% on lagoon (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=4cdfc753-f347-5dc8-80bc-a2a028646606&src=seo_token) | Ethereum | 1.91% | $1.7M |
+| [lagoon →](https://www.defi.garden/?pool=4cdfc753-f347-5dc8-80bc-a2a028646606#src=seo_token) | Ethereum | 1.91% | $1.7M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

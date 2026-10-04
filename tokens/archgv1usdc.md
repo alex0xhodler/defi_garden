@@ -6,7 +6,7 @@ The highest honest ARCHGV1USDC yield right now is 4.19% on morpho-blue (Base), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=15a4bbe2-d1fa-4dce-a780-27faeb859bd7&src=seo_token) | Base | 4.19% | $1.26M |
+| [morpho-blue →](https://www.defi.garden/?pool=15a4bbe2-d1fa-4dce-a780-27faeb859bd7#src=seo_token) | Base | 4.19% | $1.26M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

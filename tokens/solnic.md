@@ -6,7 +6,7 @@ The highest honest SOLNIC yield right now is 4.14% on raydium-amm (Solana), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=cb21a7cd-5924-4b5a-897e-3d7f67c17b82&src=seo_token) | Solana | 4.14% | $176.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=cb21a7cd-5924-4b5a-897e-3d7f67c17b82#src=seo_token) | Solana | 4.14% | $176.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

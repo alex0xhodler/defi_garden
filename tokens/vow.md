@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
 
-The highest honest VOW yield right now is 11.37% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VOW yield right now is 37.54% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=191d6aad-a83b-448c-9c77-f9577ccd4322&src=seo_token) | Ethereum | 11.37% | $138.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=191d6aad-a83b-448c-9c77-f9577ccd4322#src=seo_token) | Ethereum | 37.54% | $139.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest VOW yield today?
 
-11.37% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+37.54% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many VOW pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $138.3K in total.
+1 live pool clear this page's $100K TVL floor, $139.4K in total.
 
 ### Are these rates safe?
 

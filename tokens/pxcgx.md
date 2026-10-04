@@ -6,7 +6,7 @@ The highest honest PXCGX yield right now is 0.01% on orca-dex (Solana), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=68722f4f-abef-5b1c-8199-c5127219c32f&src=seo_token) | Solana | 0.01% | $108.6K |
+| [orca-dex →](https://www.defi.garden/?pool=68722f4f-abef-5b1c-8199-c5127219c32f#src=seo_token) | Solana | 0.01% | $108.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

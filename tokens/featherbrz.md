@@ -6,7 +6,7 @@ The highest honest FEATHERBRZ yield right now is 13.61% on morpho-blue (Polygon)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=a3f368d6-1893-59a9-a6e7-a43fc744b26f&src=seo_token) | Polygon | 13.61% | $196.3K |
+| [morpho-blue →](https://www.defi.garden/?pool=a3f368d6-1893-59a9-a6e7-a43fc744b26f#src=seo_token) | Polygon | 13.61% | $196.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -38,9 +38,9 @@ There is not enough qualifying APY history to rank FEATHERBRZ pools. This view c
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [DAI](https://www.defi.garden/tokens/dai)
 - [LINK](https://www.defi.garden/tokens/link)
+- [AAVE](https://www.defi.garden/tokens/aave)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [STKPOL](https://www.defi.garden/tokens/stkpol)
-- [STKEUR](https://www.defi.garden/tokens/stkeur)
 
 ## Available on
 

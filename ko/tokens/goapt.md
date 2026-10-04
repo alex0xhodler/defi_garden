@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [hyperion →](https://www.defi.garden/?pool=e23f3d1e-acdd-426e-824c-45b617b5db84&src=seo_token) | Aptos | 0.09% | $103.9K |
+| [hyperion →](https://www.defi.garden/?pool=e23f3d1e-acdd-426e-824c-45b617b5db84#src=seo_token) | Aptos | 0.09% | $103.9K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

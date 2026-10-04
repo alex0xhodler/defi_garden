@@ -6,7 +6,7 @@ The highest honest USDCAD yield right now is 14.19% on gmx-solana (Solana), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmx-solana →](https://www.defi.garden/?pool=ab5cddbb-e1f9-42fb-909e-62fbbe7dcb7b&src=seo_token) | Solana | 14.19% | $2.18M |
+| [gmx-solana →](https://www.defi.garden/?pool=ab5cddbb-e1f9-42fb-909e-62fbbe7dcb7b#src=seo_token) | Solana | 14.19% | $2.18M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

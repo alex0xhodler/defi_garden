@@ -6,7 +6,7 @@ The highest honest XAG yield right now is 9.49% on gmx-solana (Solana), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmx-solana →](https://www.defi.garden/?pool=88435ce9-aa7c-4b3d-8016-1abf501fd6c7&src=seo_token) | Solana | 9.49% | $1.04M |
+| [gmx-solana →](https://www.defi.garden/?pool=88435ce9-aa7c-4b3d-8016-1abf501fd6c7#src=seo_token) | Solana | 9.49% | $1.04M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

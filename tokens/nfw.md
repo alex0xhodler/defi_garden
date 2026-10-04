@@ -6,7 +6,7 @@ The highest honest NFW yield right now is 4.47% on raydium-amm (Solana), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=b6879c17-dd9c-5179-802f-75ae5c7b28b4&src=seo_token) | Solana | 4.47% | $159.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=b6879c17-dd9c-5179-802f-75ae5c7b28b4#src=seo_token) | Solana | 4.47% | $159.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

@@ -6,7 +6,7 @@ The highest honest FXSTRAT yield right now is 9.96% on lagoon (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=4d1e48c1-5e2d-510d-88a3-172f9e737f5d&src=seo_token) | Ethereum | 9.96% | $353.1K |
+| [lagoon →](https://www.defi.garden/?pool=4d1e48c1-5e2d-510d-88a3-172f9e737f5d#src=seo_token) | Ethereum | 9.96% | $353.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

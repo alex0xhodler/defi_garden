@@ -6,7 +6,7 @@ The highest honest MURMURRUSDCONE yield right now is 5.83% on lagoon (Ethereum),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=89981eec-b7a8-43d5-af89-381dd4ed7d49&src=seo_token) | Ethereum | 5.83% | $226.6K |
+| [lagoon →](https://www.defi.garden/?pool=89981eec-b7a8-43d5-af89-381dd4ed7d49#src=seo_token) | Ethereum | 5.83% | $226.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

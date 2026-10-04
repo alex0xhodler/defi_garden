@@ -6,7 +6,7 @@ The highest honest SRROYAA yield right now is 6.87% on royco-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [royco-v2 →](https://www.defi.garden/?pool=543ff8b3-09f8-5abd-9e2c-882788c1ad74&src=seo_token) | Ethereum | 6.87% | $2.64M |
+| [royco-v2 →](https://www.defi.garden/?pool=543ff8b3-09f8-5abd-9e2c-882788c1ad74#src=seo_token) | Ethereum | 6.87% | $2.64M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

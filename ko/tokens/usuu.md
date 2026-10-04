@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=87e85daf-65ce-5116-a384-8acfea272110&src=seo_token) | Solana | 0.13% | $128.4K |
+| [orca-dex →](https://www.defi.garden/?pool=87e85daf-65ce-5116-a384-8acfea272110#src=seo_token) | Solana | 0.13% | $128.4K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

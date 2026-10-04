@@ -6,7 +6,7 @@ The highest honest NB yield right now is 32.70% on uniswap-v4 (BSC), among 1 poo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=ad3eb7df-af0d-424b-b55a-a1e3fe162cb0&src=seo_token) | BSC | 32.70% | $102.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=ad3eb7df-af0d-424b-b55a-a1e3fe162cb0#src=seo_token) | BSC | 32.70% | $102.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

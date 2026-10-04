@@ -4,10 +4,10 @@ The highest honest Defichain yield right now is 0.25% on defichain-dex (Defichai
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| DUSD-DFI | [defichain-dex →](https://www.defi.garden/?pool=74ab9394-5d6d-41a6-955e-b246ecc8dede&src=seo_chain) | 8.58% | $788.5K |
-| TSLA-DUSD | [defichain-dex →](https://www.defi.garden/?pool=dc833f4f-eafc-4d50-ac5d-b0237641ba5a&src=seo_chain) | 0.25% | $269.5K |
-| SPY-DUSD | [defichain-dex →](https://www.defi.garden/?pool=d6f831a7-0079-4400-b2c5-a8436358d53a&src=seo_chain) | 0.55% | $190.4K |
-| COIN-DUSD | [defichain-dex →](https://www.defi.garden/?pool=8954d1ef-2f53-4ef7-bc29-9134c0d058a3&src=seo_chain) | 1.54% | $100.9K |
+| DUSD-DFI | [defichain-dex →](https://www.defi.garden/?pool=74ab9394-5d6d-41a6-955e-b246ecc8dede#src=seo_chain) | 18.41% | $638.5K |
+| TSLA-DUSD | [defichain-dex →](https://www.defi.garden/?pool=dc833f4f-eafc-4d50-ac5d-b0237641ba5a#src=seo_chain) | 0.25% | $269.5K |
+| SPY-DUSD | [defichain-dex →](https://www.defi.garden/?pool=d6f831a7-0079-4400-b2c5-a8436358d53a#src=seo_chain) | 0.55% | $190.4K |
+| COIN-DUSD | [defichain-dex →](https://www.defi.garden/?pool=8954d1ef-2f53-4ef7-bc29-9134c0d058a3#src=seo_chain) | 1.69% | $101.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Defichain pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $3.8M in total.
+8 live pools clear this page's $100K TVL floor, $3.64M in total.
 
 ### Are these rates safe?
 

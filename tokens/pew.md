@@ -6,7 +6,7 @@ The highest honest PEW yield right now is 0.01% on uniswap-v3 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=0bdc0bdb-8d70-4d8c-b9e6-4666ec104b30&src=seo_token) | Ethereum | 0.01% | $214.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0bdc0bdb-8d70-4d8c-b9e6-4666ec104b30#src=seo_token) | Ethereum | 0.01% | $214.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

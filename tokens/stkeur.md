@@ -6,7 +6,7 @@ The highest honest STKEUR yield right now is 0.23% on curve-dex (Polygon), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=49395d1c-ea7d-5d9b-b5ac-bad28f78d591&src=seo_token) | Polygon | 0.23% | $10.52M |
+| [curve-dex →](https://www.defi.garden/?pool=49395d1c-ea7d-5d9b-b5ac-bad28f78d591#src=seo_token) | Polygon | 0.23% | $10.52M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -38,9 +38,9 @@ There is not enough qualifying APY history to rank STKEUR pools. This view cover
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [DAI](https://www.defi.garden/tokens/dai)
 - [LINK](https://www.defi.garden/tokens/link)
+- [AAVE](https://www.defi.garden/tokens/aave)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [STKPOL](https://www.defi.garden/tokens/stkpol)
-- [FUN](https://www.defi.garden/tokens/fun)
 
 ## Available on
 

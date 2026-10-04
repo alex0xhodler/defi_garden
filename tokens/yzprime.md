@@ -6,7 +6,7 @@ The highest honest YZPRIME yield right now is 6.73% on yuzu-money (Monad), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yuzu-money →](https://www.defi.garden/?pool=18147bfe-ee41-4762-9a95-c0ff28215798&src=seo_token) | Monad | 6.73% | $7.6M |
+| [yuzu-money →](https://www.defi.garden/?pool=18147bfe-ee41-4762-9a95-c0ff28215798#src=seo_token) | Monad | 6.73% | $7.6M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

@@ -6,7 +6,7 @@ The highest honest PHOTON yield right now is 13.81% on uniswap-v4 (BSC), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=0a1f629d-7152-487b-909b-8588e1f116b0&src=seo_token) | BSC | 13.81% | $1.04M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=0a1f629d-7152-487b-909b-8588e1f116b0#src=seo_token) | BSC | 13.81% | $1.04M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
 
-The highest honest EXTRA yield right now is 41.67% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EXTRA yield right now is 43.55% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=0f19a269-1df0-4b1b-8e30-1eb7bfbe275f&src=seo_token) | Base | 41.67% | $168.6K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=0f19a269-1df0-4b1b-8e30-1eb7bfbe275f#src=seo_token) | Base | 43.55% | $166K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EXTRA yield today?
 
-41.67% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+43.55% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many EXTRA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $168.6K in total.
+1 live pool clear this page's $100K TVL floor, $166K in total.
 
 ### Are these rates safe?
 

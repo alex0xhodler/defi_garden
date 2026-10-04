@@ -6,7 +6,7 @@ The highest honest AVGUSDCCONSB yield right now is 3.96% on morpho-blue (Base), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=d4254f28-f1fe-445e-86ba-b609dd9bbe4d&src=seo_token) | Base | 3.96% | $423.8K |
+| [morpho-blue →](https://www.defi.garden/?pool=d4254f28-f1fe-445e-86ba-b609dd9bbe4d#src=seo_token) | Base | 3.96% | $423.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

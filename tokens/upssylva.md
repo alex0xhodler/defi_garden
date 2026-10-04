@@ -6,7 +6,7 @@ The highest honest UPSSYLVA yield right now is 27.00% on upshift (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [upshift →](https://www.defi.garden/?pool=98c8a2c6-8aa8-434a-a900-e5f99a03e449&src=seo_token) | Ethereum | 27.00% | $2.97M |
+| [upshift →](https://www.defi.garden/?pool=98c8a2c6-8aa8-434a-a900-e5f99a03e449#src=seo_token) | Ethereum | 27.00% | $2.97M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

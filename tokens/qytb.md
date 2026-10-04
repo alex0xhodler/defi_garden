@@ -6,7 +6,7 @@ The highest honest QYTB yield right now is 0.11% on uniswap-v4 (BSC), among 1 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=37680618-5dc0-44b6-93f7-2739531b8cf6&src=seo_token) | BSC | 0.11% | $212.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=37680618-5dc0-44b6-93f7-2739531b8cf6#src=seo_token) | BSC | 0.11% | $212.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

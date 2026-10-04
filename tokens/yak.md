@@ -6,7 +6,7 @@ The highest honest YAK yield right now is 0.80% on yield-yak-aggregator (Avalanc
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yield-yak-aggregator →](https://www.defi.garden/?pool=f2b69026-34c2-4933-825b-cd3f6dd5fab3&src=seo_token) | Avalanche | 0.80% | $297.7K |
+| [yield-yak-aggregator →](https://www.defi.garden/?pool=f2b69026-34c2-4933-825b-cd3f6dd5fab3#src=seo_token) | Avalanche | 0.80% | $297.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

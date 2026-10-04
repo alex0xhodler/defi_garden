@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
 
-The highest honest TSUSDE yield right now is 5.00% on affluent (TON), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TSUSDE yield right now is 5.56% on affluent (TON), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [affluent →](https://www.defi.garden/?pool=a4c64e2f-df0e-41e8-9f25-28105181cd93&src=seo_token) | TON | 5.00% | $293.1K |
+| [affluent →](https://www.defi.garden/?pool=a4c64e2f-df0e-41e8-9f25-28105181cd93#src=seo_token) | TON | 5.56% | $293.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,9 +17,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-TSUSDE shows up in 1 pools here, with rates from 5.00% to 5.00% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+TSUSDE shows up in 1 pools here, with rates from 5.56% to 5.56% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 4.66% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 4.67% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -27,7 +27,7 @@ All 1 pool pays a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| affluent | 5.00% | 4.66% | Base rate |
+| affluent | 5.56% | 4.67% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest TSUSDE yield today?
 
-5.00% APY on affluent (TON), based on live DefiLlama data.
+5.56% APY on affluent (TON), based on live DefiLlama data.
 
 ### How many TSUSDE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $595.9K in total.
+2 live pools clear this page's $100K TVL floor, $587.5K in total.
 
 ### Are these rates safe?
 

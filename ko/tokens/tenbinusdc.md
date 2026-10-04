@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=adb0b56a-77f5-5b6a-b95d-c905431d6f72&src=seo_token) | Ethereum | 0.03% | $301.1K |
+| [morpho-blue →](https://www.defi.garden/?pool=adb0b56a-77f5-5b6a-b95d-c905431d6f72#src=seo_token) | Ethereum | 0.03% | $301.1K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

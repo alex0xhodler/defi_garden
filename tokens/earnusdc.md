@@ -6,7 +6,7 @@ The highest honest EARNUSDC yield right now is 10.00% on gami-labs (Stellar), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gami-labs →](https://www.defi.garden/?pool=038cb9c0-814d-41cc-ac43-b4fefd95da53&src=seo_token) | Stellar | 10.00% | $25.5M |
+| [gami-labs →](https://www.defi.garden/?pool=038cb9c0-814d-41cc-ac43-b4fefd95da53#src=seo_token) | Stellar | 10.00% | $25.5M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

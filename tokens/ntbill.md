@@ -6,7 +6,7 @@ The highest honest NTBILL yield right now is 3.47% on plume-vaults (Plume Mainne
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [plume-vaults →](https://www.defi.garden/?pool=867c563e-92a0-41be-a4de-7af5e9f9816b&src=seo_token) | Plume Mainnet | 3.47% | $4.46M |
+| [plume-vaults →](https://www.defi.garden/?pool=867c563e-92a0-41be-a4de-7af5e9f9816b#src=seo_token) | Plume Mainnet | 3.47% | $4.46M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

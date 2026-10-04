@@ -6,7 +6,7 @@ The highest honest AMMVUSDC yield right now is 5.62% on lagoon (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=e2d5bf46-87c9-46f4-b865-9ecc7bd63b63&src=seo_token) | Ethereum | 5.62% | $135.4K |
+| [lagoon →](https://www.defi.garden/?pool=e2d5bf46-87c9-46f4-b865-9ecc7bd63b63#src=seo_token) | Ethereum | 5.62% | $135.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

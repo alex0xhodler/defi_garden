@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
 
-The highest honest PACK yield right now is 8.01% on vvs-flawless (Cronos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PACK yield right now is 13.82% on vvs-flawless (Cronos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-flawless →](https://www.defi.garden/?pool=3430ebff-0dba-55e0-b523-a13a68bdcb8a&src=seo_token) | Cronos | 8.01% | $129.7K |
+| [vvs-flawless →](https://www.defi.garden/?pool=3430ebff-0dba-55e0-b523-a13a68bdcb8a#src=seo_token) | Cronos | 13.82% | $134.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PACK yield today?
 
-8.01% APY on vvs-flawless (Cronos), based on live DefiLlama data.
+13.82% APY on vvs-flawless (Cronos), based on live DefiLlama data.
 
 ### How many PACK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $129.7K in total.
+1 live pool clear this page's $100K TVL floor, $134.9K in total.
 
 ### Are these rates safe?
 
@@ -37,10 +37,10 @@ There is not enough qualifying APY history to rank PACK pools. This view covers 
 
 - [XLM](https://www.defi.garden/tokens/xlm)
 - [WCRO](https://www.defi.garden/tokens/wcro)
+- [PAXG](https://www.defi.garden/tokens/paxg)
 - [VVS](https://www.defi.garden/tokens/vvs)
 - [CDCETH](https://www.defi.garden/tokens/cdceth)
 - [XRP](https://www.defi.garden/tokens/xrp)
-- [LION](https://www.defi.garden/tokens/lion)
 
 ## Available on
 

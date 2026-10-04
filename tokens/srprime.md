@@ -6,7 +6,7 @@ The highest honest SRPRIME yield right now is 5.33% on strata-markets (Ethereum)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=c590eff9-9de2-462c-b629-7e9c89f0b8e9&src=seo_token) | Ethereum | 5.33% | $102.3K |
+| [strata-markets →](https://www.defi.garden/?pool=c590eff9-9de2-462c-b629-7e9c89f0b8e9#src=seo_token) | Ethereum | 5.33% | $102.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

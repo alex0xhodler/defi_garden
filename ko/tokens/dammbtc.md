@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=4cdfc753-f347-5dc8-80bc-a2a028646606&src=seo_token) | Ethereum | 1.91% | $1.7M |
+| [lagoon →](https://www.defi.garden/?pool=4cdfc753-f347-5dc8-80bc-a2a028646606#src=seo_token) | Ethereum | 1.91% | $1.7M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

@@ -6,11 +6,11 @@ The highest honest XDC yield right now is 0.07% on raydium-amm (Solana), among 6
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=087dd5a1-ae80-5fbc-a262-7f1330467504&src=seo_token) | Solana | 0.02% | $35.18M |
-| [raydium-amm →](https://www.defi.garden/?pool=5684d802-e4d9-5383-b67c-367e10a5057b&src=seo_token) | Solana | 0.05% | $34.18M |
-| [raydium-amm →](https://www.defi.garden/?pool=e8105a88-2a99-52cd-8102-8acc4418894d&src=seo_token) | Solana | 0.02% | $34.09M |
-| [raydium-amm →](https://www.defi.garden/?pool=9c17a393-77ae-5da5-901e-c6eff1105f65&src=seo_token) | Solana | 0.07% | $33.1M |
-| [raydium-amm →](https://www.defi.garden/?pool=edb52a20-ff7f-5a5d-b4a7-649559e00266&src=seo_token) | Solana | 0.03% | $32.13M |
+| [raydium-amm →](https://www.defi.garden/?pool=087dd5a1-ae80-5fbc-a262-7f1330467504#src=seo_token) | Solana | 0.02% | $35.18M |
+| [raydium-amm →](https://www.defi.garden/?pool=5684d802-e4d9-5383-b67c-367e10a5057b#src=seo_token) | Solana | 0.05% | $34.18M |
+| [raydium-amm →](https://www.defi.garden/?pool=e8105a88-2a99-52cd-8102-8acc4418894d#src=seo_token) | Solana | 0.02% | $34.09M |
+| [raydium-amm →](https://www.defi.garden/?pool=9c17a393-77ae-5da5-901e-c6eff1105f65#src=seo_token) | Solana | 0.07% | $33.1M |
+| [raydium-amm →](https://www.defi.garden/?pool=edb52a20-ff7f-5a5d-b4a7-649559e00266#src=seo_token) | Solana | 0.03% | $32.13M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

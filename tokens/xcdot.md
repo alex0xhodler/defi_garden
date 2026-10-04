@@ -6,7 +6,7 @@ The highest honest XCDOT yield right now is 0.01% on moonwell-lending (Moonbeam)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [moonwell-lending →](https://www.defi.garden/?pool=cc7e2042-be8e-4e2a-97f5-9d014b99cc3b&src=seo_token) | Moonbeam | 0.01% | $354.3K |
+| [moonwell-lending →](https://www.defi.garden/?pool=cc7e2042-be8e-4e2a-97f5-9d014b99cc3b#src=seo_token) | Moonbeam | 0.01% | $354.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

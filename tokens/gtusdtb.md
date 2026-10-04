@@ -6,7 +6,7 @@ The highest honest GTUSDTB yield right now is 6.92% on morpho-blue (Stable), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=a259a0f0-8897-4740-b3b2-0ae1041f1bf0&src=seo_token) | Stable | 6.92% | $21.87M |
+| [morpho-blue →](https://www.defi.garden/?pool=a259a0f0-8897-4740-b3b2-0ae1041f1bf0#src=seo_token) | Stable | 6.92% | $21.87M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

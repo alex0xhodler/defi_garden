@@ -4,14 +4,14 @@ The highest honest Plume Mainnet yield right now is 11.50% on plume-vaults (Plum
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| NOPAL | [plume-vaults →](https://www.defi.garden/?pool=f21c4938-864a-44bd-91fb-c492864fcb46&src=seo_chain) | 11.04% | $109.41M |
-| NPRIME | [plume-vaults →](https://www.defi.garden/?pool=8b4f699b-9545-5c1c-8189-c32b8cb93e84&src=seo_chain) | 5.83% | $22.87M |
-| USCC | [bitwise-uscc →](https://www.defi.garden/?pool=ea1d8316-9160-48f0-ad18-a1298473f826&src=seo_chain) | 4.96% | $16.97M |
-| NFALCON | [plume-vaults →](https://www.defi.garden/?pool=ad047a62-5c88-4b43-bf42-4e4d0858c53a&src=seo_chain) | 7.41% | $14.94M |
-| NALPHA | [plume-vaults →](https://www.defi.garden/?pool=f6793703-310d-4d55-9295-38d39047f18c&src=seo_chain) | 8.72% | $12.44M |
-| FACTOR | [plume-vaults →](https://www.defi.garden/?pool=382def6f-810d-5297-bb59-5d2abc988346&src=seo_chain) | 10.97% | $9.41M |
-| NAXI | [plume-vaults →](https://www.defi.garden/?pool=ae992838-303f-5a75-8dc7-0cb765396245&src=seo_chain) | 11.50% | $5.52M |
-| NTBILL | [plume-vaults →](https://www.defi.garden/?pool=867c563e-92a0-41be-a4de-7af5e9f9816b&src=seo_chain) | 3.47% | $4.46M |
+| NOPAL | [plume-vaults →](https://www.defi.garden/?pool=f21c4938-864a-44bd-91fb-c492864fcb46#src=seo_chain) | 11.04% | $109.72M |
+| NPRIME | [plume-vaults →](https://www.defi.garden/?pool=8b4f699b-9545-5c1c-8189-c32b8cb93e84#src=seo_chain) | 5.83% | $22.87M |
+| USCC | [bitwise-uscc →](https://www.defi.garden/?pool=ea1d8316-9160-48f0-ad18-a1298473f826#src=seo_chain) | 4.89% | $16.97M |
+| NFALCON | [plume-vaults →](https://www.defi.garden/?pool=ad047a62-5c88-4b43-bf42-4e4d0858c53a#src=seo_chain) | 7.41% | $14.94M |
+| NALPHA | [plume-vaults →](https://www.defi.garden/?pool=f6793703-310d-4d55-9295-38d39047f18c#src=seo_chain) | 8.72% | $12.44M |
+| FACTOR | [plume-vaults →](https://www.defi.garden/?pool=382def6f-810d-5297-bb59-5d2abc988346#src=seo_chain) | 10.97% | $9.41M |
+| NAXI | [plume-vaults →](https://www.defi.garden/?pool=ae992838-303f-5a75-8dc7-0cb765396245#src=seo_chain) | 11.50% | $5.52M |
+| NTBILL | [plume-vaults →](https://www.defi.garden/?pool=867c563e-92a0-41be-a4de-7af5e9f9816b#src=seo_chain) | 3.47% | $4.46M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Plume Mainnet pools clear the TVL floor?
 
-16 live pools clear this page's $100K TVL floor, $228.76M in total.
+16 live pools clear this page's $100K TVL floor, $229.05M in total.
 
 ### Are these rates safe?
 

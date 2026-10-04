@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
 
-The highest honest PUSA yield right now is 135.94% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PUSA yield right now is 362.24% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=37aefc46-a593-5e04-99d9-a9cdd9439f32&src=seo_token) | Solana | 135.94% | $388.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=37aefc46-a593-5e04-99d9-a9cdd9439f32#src=seo_token) | Solana | 362.24% | $251.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PUSA yield today?
 
-135.94% APY on raydium-amm (Solana), based on live DefiLlama data.
+362.24% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many PUSA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $388.6K in total.
+1 live pool clear this page's $100K TVL floor, $251.9K in total.
 
 ### Are these rates safe?
 

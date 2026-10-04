@@ -6,7 +6,7 @@ The highest honest DAMMBTCALGO yield right now is 2.24% on lagoon (Ethereum), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=28896dc3-f2c1-5bb1-95c8-9e3fe940f797&src=seo_token) | Ethereum | 2.24% | $1.7M |
+| [lagoon →](https://www.defi.garden/?pool=28896dc3-f2c1-5bb1-95c8-9e3fe940f797#src=seo_token) | Ethereum | 2.24% | $1.7M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

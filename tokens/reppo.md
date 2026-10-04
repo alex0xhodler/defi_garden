@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
 
-The highest honest REPPO yield right now is 0.25% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest REPPO yield right now is 0.50% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=5ece4c16-0c8d-5563-8963-f0de72169e6c&src=seo_token) | Base | 0.25% | $175.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=5ece4c16-0c8d-5563-8963-f0de72169e6c#src=seo_token) | Base | 0.50% | $166.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest REPPO yield today?
 
-0.25% APY on uniswap-v3 (Base), based on live DefiLlama data.
+0.50% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many REPPO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $175.4K in total.
+1 live pool clear this page's $100K TVL floor, $166.8K in total.
 
 ### Are these rates safe?
 

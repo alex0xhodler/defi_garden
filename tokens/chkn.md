@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
 
-The highest honest CHKN yield right now is 0.02% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CHKN yield right now is 0.03% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=b591a7c5-9f62-4c91-babd-4f127d5ea9be&src=seo_token) | Ethereum | 0.02% | $851.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=b591a7c5-9f62-4c91-babd-4f127d5ea9be#src=seo_token) | Ethereum | 0.03% | $854.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CHKN yield today?
 
-0.02% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.03% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many CHKN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $851.8K in total.
+1 live pool clear this page's $100K TVL floor, $854.3K in total.
 
 ### Are these rates safe?
 

@@ -6,7 +6,7 @@ The highest honest GOETH yield right now is 0.03% on folks-finance-lending (Algo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [folks-finance-lending →](https://www.defi.garden/?pool=b078877c-2707-4524-9038-de3befd28a82&src=seo_token) | Algorand | 0.03% | $464.6K |
+| [folks-finance-lending →](https://www.defi.garden/?pool=b078877c-2707-4524-9038-de3befd28a82#src=seo_token) | Algorand | 0.03% | $465.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GOETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $464.6K in total.
+1 live pool clear this page's $100K TVL floor, $465.7K in total.
 
 ### Are these rates safe?
 

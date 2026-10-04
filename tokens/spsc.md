@@ -6,7 +6,7 @@ The highest honest SPSC yield right now is 2.97% on raydium-amm (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=c0fcae4f-28ee-4467-965d-41dd15a128f6&src=seo_token) | Solana | 2.97% | $103.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=c0fcae4f-28ee-4467-965d-41dd15a128f6#src=seo_token) | Solana | 2.97% | $103.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

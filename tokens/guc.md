@@ -6,7 +6,7 @@ The highest honest GUC yield right now is 0.83% on uniswap-v4 (BSC), among 1 poo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=5fa2ec11-0eb3-46ae-b4a9-00881189d147&src=seo_token) | BSC | 0.83% | $1.33M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=5fa2ec11-0eb3-46ae-b4a9-00881189d147#src=seo_token) | BSC | 0.83% | $1.33M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

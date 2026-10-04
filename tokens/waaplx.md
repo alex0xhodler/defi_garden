@@ -6,7 +6,7 @@ The highest honest WAAPLX yield right now is 0.17% on fluxion-network (Mantle), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fluxion-network →](https://www.defi.garden/?pool=3b6b75cf-adb5-4fb4-bbcd-8f75c6879c9d&src=seo_token) | Mantle | 0.17% | $115.5K |
+| [fluxion-network →](https://www.defi.garden/?pool=3b6b75cf-adb5-4fb4-bbcd-8f75c6879c9d#src=seo_token) | Mantle | 0.17% | $115.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -36,11 +36,11 @@ There is not enough qualifying APY history to rank WAAPLX pools. This view cover
 ## Related tokens
 
 - [USDT0](https://www.defi.garden/tokens/usdt0)
-- [KII](https://www.defi.garden/tokens/kii)
 - [WSPYX](https://www.defi.garden/tokens/wspyx)
 - [BSB](https://www.defi.garden/tokens/bsb)
 - [BILL](https://www.defi.garden/tokens/bill)
 - [WNVDAX](https://www.defi.garden/tokens/wnvdax)
+- [ELSA](https://www.defi.garden/tokens/elsa)
 
 ## Available on
 

@@ -2,34 +2,34 @@
 
 *Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
 
-The highest honest ETHFI yield right now is 35.40% on uniswap-v3 (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ETHFI yield right now is 46.73% on uniswap-v3 (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=4d355012-df82-4874-95fd-c8d48c7b864c&src=seo_token) | Ethereum | 3.10% | $381.7K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=6784dfda-542b-48bd-a6aa-5dc97813a31c&src=seo_token) | Ethereum | 35.40% | $366.2K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=7d48d657-2a08-4b99-b97d-a72c01805fcf&src=seo_token) | Base | 11.50% | $208.5K |
-| [camelot-v3 →](https://www.defi.garden/?pool=740ab298-8d62-4dbd-b098-aa7e14232fa7&src=seo_token) | Arbitrum | 7.16% | $142.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=4d355012-df82-4874-95fd-c8d48c7b864c#src=seo_token) | Ethereum | 3.33% | $385.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6784dfda-542b-48bd-a6aa-5dc97813a31c#src=seo_token) | Ethereum | 46.73% | $373.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=7d48d657-2a08-4b99-b97d-a72c01805fcf#src=seo_token) | Base | 15.05% | $209.6K |
+| [camelot-v3 →](https://www.defi.garden/?pool=740ab298-8d62-4dbd-b098-aa7e14232fa7#src=seo_token) | Arbitrum | 7.33% | $144.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ETHFI's lower-variability candidates are uniswap-v4 (Base), 11.50% APY, $208.5K TVL, https://www.defi.garden/?pool=7d48d657-2a08-4b99-b97d-a72c01805fcf&src=seo_token; camelot-v3 (Arbitrum), 7.16% APY, $142.7K TVL, https://www.defi.garden/?pool=740ab298-8d62-4dbd-b098-aa7e14232fa7&src=seo_token; uniswap-v4 (Ethereum), 3.10% APY, $381.7K TVL, https://www.defi.garden/?pool=4d355012-df82-4874-95fd-c8d48c7b864c&src=seo_token; uniswap-v3 (Ethereum), 35.40% APY, $366.2K TVL, https://www.defi.garden/?pool=6784dfda-542b-48bd-a6aa-5dc97813a31c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ETHFI's lower-variability candidates are uniswap-v4 (Base), 15.05% APY, $209.6K TVL, https://www.defi.garden/?pool=7d48d657-2a08-4b99-b97d-a72c01805fcf#src=seo_token; camelot-v3 (Arbitrum), 7.33% APY, $144.4K TVL, https://www.defi.garden/?pool=740ab298-8d62-4dbd-b098-aa7e14232fa7#src=seo_token; uniswap-v4 (Ethereum), 3.33% APY, $385.6K TVL, https://www.defi.garden/?pool=4d355012-df82-4874-95fd-c8d48c7b864c#src=seo_token; uniswap-v3 (Ethereum), 46.73% APY, $373.7K TVL, https://www.defi.garden/?pool=6784dfda-542b-48bd-a6aa-5dc97813a31c#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=7d48d657-2a08-4b99-b97d-a72c01805fcf&src=seo_token) | Base | 11.50% | $208.5K |
-| 2 | [camelot-v3 →](https://www.defi.garden/?pool=740ab298-8d62-4dbd-b098-aa7e14232fa7&src=seo_token) | Arbitrum | 7.16% | $142.7K |
-| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=4d355012-df82-4874-95fd-c8d48c7b864c&src=seo_token) | Ethereum | 3.10% | $381.7K |
-| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=6784dfda-542b-48bd-a6aa-5dc97813a31c&src=seo_token) | Ethereum | 35.40% | $366.2K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=7d48d657-2a08-4b99-b97d-a72c01805fcf#src=seo_token) | Base | 15.05% | $209.6K |
+| 2 | [camelot-v3 →](https://www.defi.garden/?pool=740ab298-8d62-4dbd-b098-aa7e14232fa7#src=seo_token) | Arbitrum | 7.33% | $144.4K |
+| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=4d355012-df82-4874-95fd-c8d48c7b864c#src=seo_token) | Ethereum | 3.33% | $385.6K |
+| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=6784dfda-542b-48bd-a6aa-5dc97813a31c#src=seo_token) | Ethereum | 46.73% | $373.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ETHFI shows up in 4 pools here, with rates from 3.10% to 35.40% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+ETHFI shows up in 4 pools here, with rates from 3.33% to 46.73% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 24.07% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 23.82% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -37,10 +37,10 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 3.10% | 9.63% | Base rate |
-| uniswap-v3 | 35.40% | 126.84% | Base rate |
-| uniswap-v4 | 11.50% | 31.91% | Base rate |
-| camelot-v3 | 7.16% | 16.22% | Base rate |
+| uniswap-v4 | 3.33% | 9.60% | Base rate |
+| uniswap-v3 | 46.73% | 126.36% | Base rate |
+| uniswap-v4 | 15.05% | 31.49% | Base rate |
+| camelot-v3 | 7.33% | 16.15% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -48,11 +48,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ETHFI yield today?
 
-35.40% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+46.73% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many ETHFI pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $2.51M in total.
+6 live pools clear this page's $100K TVL floor, $2.53M in total.
 
 ### Are these rates safe?
 
@@ -60,7 +60,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ETHFI pools have the most stable APY history?
 
-Based on APY history only, ETHFI's lower-variability candidates are uniswap-v4 (Base), 11.50% APY, $208.5K TVL, https://www.defi.garden/?pool=7d48d657-2a08-4b99-b97d-a72c01805fcf&src=seo_token; camelot-v3 (Arbitrum), 7.16% APY, $142.7K TVL, https://www.defi.garden/?pool=740ab298-8d62-4dbd-b098-aa7e14232fa7&src=seo_token; uniswap-v4 (Ethereum), 3.10% APY, $381.7K TVL, https://www.defi.garden/?pool=4d355012-df82-4874-95fd-c8d48c7b864c&src=seo_token; uniswap-v3 (Ethereum), 35.40% APY, $366.2K TVL, https://www.defi.garden/?pool=6784dfda-542b-48bd-a6aa-5dc97813a31c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ETHFI's lower-variability candidates are uniswap-v4 (Base), 15.05% APY, $209.6K TVL, https://www.defi.garden/?pool=7d48d657-2a08-4b99-b97d-a72c01805fcf#src=seo_token; camelot-v3 (Arbitrum), 7.33% APY, $144.4K TVL, https://www.defi.garden/?pool=740ab298-8d62-4dbd-b098-aa7e14232fa7#src=seo_token; uniswap-v4 (Ethereum), 3.33% APY, $385.6K TVL, https://www.defi.garden/?pool=4d355012-df82-4874-95fd-c8d48c7b864c#src=seo_token; uniswap-v3 (Ethereum), 46.73% APY, $373.7K TVL, https://www.defi.garden/?pool=6784dfda-542b-48bd-a6aa-5dc97813a31c#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

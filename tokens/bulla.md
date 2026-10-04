@@ -6,7 +6,7 @@ The highest honest BULLA yield right now is 0.07% on uniswap-v4 (BSC), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=d602381a-dd52-4d36-9782-b4788e72629b&src=seo_token) | BSC | 0.07% | $305.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=d602381a-dd52-4d36-9782-b4788e72629b#src=seo_token) | BSC | 0.07% | $305.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

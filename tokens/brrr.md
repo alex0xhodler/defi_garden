@@ -6,7 +6,7 @@ The highest honest BRRR yield right now is 0.01% on orca-dex (Solana), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=2d0f7981-911f-5038-8f86-dccbb25d38f8&src=seo_token) | Solana | 0.01% | $652K |
+| [orca-dex →](https://www.defi.garden/?pool=2d0f7981-911f-5038-8f86-dccbb25d38f8#src=seo_token) | Solana | 0.01% | $652K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

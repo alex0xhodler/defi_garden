@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=54e4fe42-7a3c-4540-9210-2114c205f035&src=seo_token) | BSC | 2.93% | $118K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=54e4fe42-7a3c-4540-9210-2114c205f035#src=seo_token) | BSC | 2.93% | $118K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

@@ -2,11 +2,11 @@
 
 *DefiLlama 데이터 생성 시점 검증: October 4, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 VOW의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v4에서 11.37%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 VOW의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v4에서 37.54%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=191d6aad-a83b-448c-9c77-f9577ccd4322&src=seo_token) | Ethereum | 11.37% | $138.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=191d6aad-a83b-448c-9c77-f9577ccd4322#src=seo_token) | Ethereum | 37.54% | $139.4K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,11 +19,11 @@
 
 ### 오늘 VOW의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 11.37%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 37.54%예요.
 
 ### VOW 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $138.3K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $139.4K예요.
 
 ### 이 수익률은 안전한가요?
 

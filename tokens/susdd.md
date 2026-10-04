@@ -6,18 +6,18 @@ The highest honest SUSDD yield right now is 6.07% on pendle-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle-v2 →](https://www.defi.garden/?pool=714f3a1d-b56c-5f57-ba33-951125e961eb&src=seo_token) | Ethereum | 5.37% | $5.14M |
-| [pendle-v2 →](https://www.defi.garden/?pool=e54bdf25-c4f0-5409-a917-c916421a092a&src=seo_token) | Ethereum | 6.07% | $5.14M |
+| [pendle-v2 →](https://www.defi.garden/?pool=714f3a1d-b56c-5f57-ba33-951125e961eb#src=seo_token) | Ethereum | 5.37% | $5.14M |
+| [pendle-v2 →](https://www.defi.garden/?pool=e54bdf25-c4f0-5409-a917-c916421a092a#src=seo_token) | Ethereum | 6.07% | $5.14M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SUSDD's lower-variability candidates are pendle-v2 (Ethereum), 5.37% APY, $5.14M TVL, https://www.defi.garden/?pool=714f3a1d-b56c-5f57-ba33-951125e961eb&src=seo_token; pendle-v2 (Ethereum), 6.07% APY, $5.14M TVL, https://www.defi.garden/?pool=e54bdf25-c4f0-5409-a917-c916421a092a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SUSDD's lower-variability candidates are pendle-v2 (Ethereum), 5.37% APY, $5.14M TVL, https://www.defi.garden/?pool=714f3a1d-b56c-5f57-ba33-951125e961eb#src=seo_token; pendle-v2 (Ethereum), 6.07% APY, $5.14M TVL, https://www.defi.garden/?pool=e54bdf25-c4f0-5409-a917-c916421a092a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [pendle-v2 →](https://www.defi.garden/?pool=714f3a1d-b56c-5f57-ba33-951125e961eb&src=seo_token) | Ethereum | 5.37% | $5.14M |
-| 2 | [pendle-v2 →](https://www.defi.garden/?pool=e54bdf25-c4f0-5409-a917-c916421a092a&src=seo_token) | Ethereum | 6.07% | $5.14M |
+| 1 | [pendle-v2 →](https://www.defi.garden/?pool=714f3a1d-b56c-5f57-ba33-951125e961eb#src=seo_token) | Ethereum | 5.37% | $5.14M |
+| 2 | [pendle-v2 →](https://www.defi.garden/?pool=e54bdf25-c4f0-5409-a917-c916421a092a#src=seo_token) | Ethereum | 6.07% | $5.14M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -32,7 +32,7 @@ SUSDD shows up in 2 pools here, with rates from 5.37% to 6.07% APY across 1 chai
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | pendle-v2 | 5.37% | 5.30% | Base rate |
-| pendle-v2 | 6.07% | 6.24% | 1.73% incentives |
+| pendle-v2 | 6.07% | 6.23% | 1.69% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SUSDD pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $11.05M in total.
+3 live pools clear this page's $100K TVL floor, $11.06M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SUSDD pools have the most stable APY history?
 
-Based on APY history only, SUSDD's lower-variability candidates are pendle-v2 (Ethereum), 5.37% APY, $5.14M TVL, https://www.defi.garden/?pool=714f3a1d-b56c-5f57-ba33-951125e961eb&src=seo_token; pendle-v2 (Ethereum), 6.07% APY, $5.14M TVL, https://www.defi.garden/?pool=e54bdf25-c4f0-5409-a917-c916421a092a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SUSDD's lower-variability candidates are pendle-v2 (Ethereum), 5.37% APY, $5.14M TVL, https://www.defi.garden/?pool=714f3a1d-b56c-5f57-ba33-951125e961eb#src=seo_token; pendle-v2 (Ethereum), 6.07% APY, $5.14M TVL, https://www.defi.garden/?pool=e54bdf25-c4f0-5409-a917-c916421a092a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

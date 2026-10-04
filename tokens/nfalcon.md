@@ -6,7 +6,7 @@ The highest honest NFALCON yield right now is 7.41% on plume-vaults (Plume Mainn
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [plume-vaults →](https://www.defi.garden/?pool=ad047a62-5c88-4b43-bf42-4e4d0858c53a&src=seo_token) | Plume Mainnet | 7.41% | $14.94M |
+| [plume-vaults →](https://www.defi.garden/?pool=ad047a62-5c88-4b43-bf42-4e4d0858c53a#src=seo_token) | Plume Mainnet | 7.41% | $14.94M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

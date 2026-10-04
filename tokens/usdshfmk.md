@@ -6,7 +6,7 @@ The highest honest USDSHFMK yield right now is 7.37% on makina (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [makina →](https://www.defi.garden/?pool=56a40119-56c1-5f44-822e-b6e3fd4aa785&src=seo_token) | Ethereum | 7.37% | $21.96M |
+| [makina →](https://www.defi.garden/?pool=56a40119-56c1-5f44-822e-b6e3fd4aa785#src=seo_token) | Ethereum | 7.37% | $21.96M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

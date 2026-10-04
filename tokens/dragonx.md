@@ -6,7 +6,7 @@ The highest honest DRAGONX yield right now is 8.90% on uniswap-v3 (Ethereum), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=fcf111c0-8b5d-4d02-b936-f02483d1555a&src=seo_token) | Ethereum | 8.90% | $147.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=fcf111c0-8b5d-4d02-b936-f02483d1555a#src=seo_token) | Ethereum | 8.90% | $147.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

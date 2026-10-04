@@ -4,7 +4,7 @@ The highest honest Pharos yield right now is 4.46% on centrifuge-protocol (Pharo
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| USDC | [centrifuge-protocol →](https://www.defi.garden/?pool=b7ce5baf-7d76-46f7-8a7b-28b7e72ed2b7&src=seo_chain) | 4.46% | $4.56M |
+| USDC | [centrifuge-protocol →](https://www.defi.garden/?pool=b7ce5baf-7d76-46f7-8a7b-28b7e72ed2b7#src=seo_chain) | 4.46% | $4.56M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

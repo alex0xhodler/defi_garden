@@ -6,9 +6,9 @@ The highest honest GOLD yield right now is 5.32% on raydium-amm (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=8f50502a-0e73-5f6b-8b06-a13bd680a980&src=seo_token) | Solana | 5.11% | $1.16M |
-| [folks-finance-lending →](https://www.defi.garden/?pool=6da6f63f-8ebb-49ab-9125-c5a429d49c98&src=seo_token) | Algorand | 0.17% | $495K |
-| [raydium-amm →](https://www.defi.garden/?pool=52a9d03d-9bbe-5394-a915-6c407e4019ae&src=seo_token) | Solana | 5.32% | $293.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=8f50502a-0e73-5f6b-8b06-a13bd680a980#src=seo_token) | Solana | 3.37% | $1.16M |
+| [folks-finance-lending →](https://www.defi.garden/?pool=6da6f63f-8ebb-49ab-9125-c5a429d49c98#src=seo_token) | Algorand | 0.17% | $501.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=52a9d03d-9bbe-5394-a915-6c407e4019ae#src=seo_token) | Solana | 5.32% | $293.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -29,7 +29,7 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 5.11% | 11.89% | Base rate |
+| raydium-amm | 3.37% | 11.24% | Base rate |
 | folks-finance-lending | 0.17% | 0.17% | Base rate |
 | raydium-amm | 5.32% | 3.90% | Base rate |
 
@@ -43,7 +43,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many GOLD pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $2.52M in total.
+5 live pools clear this page's $100K TVL floor, $2.53M in total.
 
 ### Are these rates safe?
 

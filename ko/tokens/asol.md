@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [hydration-dex →](https://www.defi.garden/?pool=262671f7-0c85-53cc-8042-571ab6e3cf18&src=seo_token) | Polkadot | 0.29% | $1.86M |
+| [hydration-dex →](https://www.defi.garden/?pool=262671f7-0c85-53cc-8042-571ab6e3cf18#src=seo_token) | Polkadot | 0.29% | $1.86M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -37,10 +37,10 @@ DefiLlama 실시간 데이터 기준, Polkadot의 hydration-dex에서 APY 0.29%�
 
 - [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
 - [SKY](https://www.defi.garden/ko/tokens/sky)
+- [TBTC](https://www.defi.garden/ko/tokens/tbtc)
 - [APYUSD](https://www.defi.garden/ko/tokens/apyusd)
 - [GETH](https://www.defi.garden/ko/tokens/geth)
 - [VDOT](https://www.defi.garden/ko/tokens/vdot)
-- [HOLLAR](https://www.defi.garden/ko/tokens/hollar)
 
 ## 이용 가능한 체인
 

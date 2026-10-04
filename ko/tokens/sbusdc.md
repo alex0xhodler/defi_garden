@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=4861b40b-9561-57e4-9938-31274e58d1a6&src=seo_token) | Monad | 8.08% | $145.9K |
+| [morpho-blue →](https://www.defi.garden/?pool=4861b40b-9561-57e4-9938-31274e58d1a6#src=seo_token) | Monad | 8.08% | $145.9K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

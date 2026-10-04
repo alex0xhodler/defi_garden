@@ -6,7 +6,7 @@ The highest honest USEDCAR yield right now is 7.31% on raydium-amm (Solana), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=b1b2eb0d-6d38-46b5-b072-0ed38cae46c6&src=seo_token) | Solana | 7.31% | $106.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=b1b2eb0d-6d38-46b5-b072-0ed38cae46c6#src=seo_token) | Solana | 7.31% | $106.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=e4f8123d-1e03-408e-869a-76708a62bc89&src=seo_token) | Base | 8.73% | $666.7K |
+| [lagoon →](https://www.defi.garden/?pool=e4f8123d-1e03-408e-869a-76708a62bc89#src=seo_token) | Base | 8.73% | $666.7K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

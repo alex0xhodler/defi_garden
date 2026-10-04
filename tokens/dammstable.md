@@ -6,7 +6,7 @@ The highest honest DAMMSTABLE yield right now is 2.09% on lagoon (Arbitrum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=2c7146e4-90d0-43a7-9e22-bf3b174a924f&src=seo_token) | Arbitrum | 2.09% | $1.59M |
+| [lagoon →](https://www.defi.garden/?pool=2c7146e4-90d0-43a7-9e22-bf3b174a924f#src=seo_token) | Arbitrum | 2.09% | $1.59M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

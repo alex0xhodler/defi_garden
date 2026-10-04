@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=35ccf692-604f-422e-b17a-04f2c238cf10&src=seo_token) | Solana | 3.69% | $170.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=35ccf692-604f-422e-b17a-04f2c238cf10#src=seo_token) | Solana | 3.69% | $170.6K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -39,7 +39,7 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 3.69%예�
 
 ### STRX 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $795.75M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $794M예요.
 
 ### 이 수익률은 안전한가요?
 

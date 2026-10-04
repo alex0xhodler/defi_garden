@@ -6,7 +6,7 @@ The highest honest WMETAX yield right now is 0.50% on fluxion-network (Mantle), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fluxion-network →](https://www.defi.garden/?pool=b8d50460-5237-4601-9250-4f2d3a6b569b&src=seo_token) | Mantle | 0.50% | $114.3K |
+| [fluxion-network →](https://www.defi.garden/?pool=b8d50460-5237-4601-9250-4f2d3a6b569b#src=seo_token) | Mantle | 0.50% | $114.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -36,11 +36,11 @@ There is not enough qualifying APY history to rank WMETAX pools. This view cover
 ## Related tokens
 
 - [USDT0](https://www.defi.garden/tokens/usdt0)
-- [KII](https://www.defi.garden/tokens/kii)
 - [WSPYX](https://www.defi.garden/tokens/wspyx)
 - [BSB](https://www.defi.garden/tokens/bsb)
 - [BILL](https://www.defi.garden/tokens/bill)
 - [WNVDAX](https://www.defi.garden/tokens/wnvdax)
+- [ELSA](https://www.defi.garden/tokens/elsa)
 
 ## Available on
 

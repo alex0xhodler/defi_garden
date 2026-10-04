@@ -6,7 +6,7 @@ The highest honest GOBTC yield right now is 0.08% on folks-finance-lending (Algo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [folks-finance-lending →](https://www.defi.garden/?pool=c402e884-ca25-4c2e-97f7-a4a55c13781c&src=seo_token) | Algorand | 0.08% | $1.16M |
+| [folks-finance-lending →](https://www.defi.garden/?pool=c402e884-ca25-4c2e-97f7-a4a55c13781c#src=seo_token) | Algorand | 0.08% | $1.16M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

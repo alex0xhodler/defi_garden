@@ -6,7 +6,7 @@ The highest honest CRONOSUSDC yield right now is 4.32% on morpho-blue (Ethereum)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=7c9210dc-9550-47eb-b73c-5774aa629c96&src=seo_token) | Ethereum | 4.32% | $1.32M |
+| [morpho-blue →](https://www.defi.garden/?pool=7c9210dc-9550-47eb-b73c-5774aa629c96#src=seo_token) | Ethereum | 4.32% | $1.32M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

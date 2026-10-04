@@ -6,7 +6,7 @@ The highest honest AMMVWETH yield right now is 2.72% on lagoon (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=5ee9a6a0-4431-48e4-8935-00de3d3c4455&src=seo_token) | Ethereum | 2.72% | $1.14M |
+| [lagoon →](https://www.defi.garden/?pool=5ee9a6a0-4431-48e4-8935-00de3d3c4455#src=seo_token) | Ethereum | 2.72% | $1.14M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
 
-The highest honest MYST yield right now is 9.49% on quickswap-dex (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MYST yield right now is 9.62% on quickswap-dex (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [quickswap-dex →](https://www.defi.garden/?pool=e978f39f-413c-4342-8eb4-b3a1c7036947&src=seo_token) | Polygon | 9.49% | $139.6K |
+| [quickswap-dex →](https://www.defi.garden/?pool=e978f39f-413c-4342-8eb4-b3a1c7036947#src=seo_token) | Polygon | 9.62% | $139.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MYST yield today?
 
-9.49% APY on quickswap-dex (Polygon), based on live DefiLlama data.
+9.62% APY on quickswap-dex (Polygon), based on live DefiLlama data.
 
 ### How many MYST pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $139.6K in total.
+1 live pool clear this page's $100K TVL floor, $139.5K in total.
 
 ### Are these rates safe?
 
@@ -38,9 +38,9 @@ There is not enough qualifying APY history to rank MYST pools. This view covers 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [DAI](https://www.defi.garden/tokens/dai)
 - [LINK](https://www.defi.garden/tokens/link)
+- [AAVE](https://www.defi.garden/tokens/aave)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [STKPOL](https://www.defi.garden/tokens/stkpol)
-- [STKEUR](https://www.defi.garden/tokens/stkeur)
 
 ## Available on
 

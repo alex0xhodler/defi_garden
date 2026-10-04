@@ -4,7 +4,7 @@ The highest honest TAC yield right now is 4.40% on midas-rwa (TAC), among 1 pool
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| USDC | [midas-rwa →](https://www.defi.garden/?pool=74cfc5a9-a8ed-4494-a412-2b5ef77563f7&src=seo_chain) | 4.40% | $638.2K |
+| USDC | [midas-rwa →](https://www.defi.garden/?pool=74cfc5a9-a8ed-4494-a412-2b5ef77563f7#src=seo_chain) | 4.40% | $638.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

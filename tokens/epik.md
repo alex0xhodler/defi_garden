@@ -6,7 +6,7 @@ The highest honest EPIK yield right now is 2.09% on raydium-amm (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=e2b3b187-6efd-40b1-8cb3-3000d47b91c7&src=seo_token) | Solana | 2.09% | $382.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=e2b3b187-6efd-40b1-8cb3-3000d47b91c7#src=seo_token) | Solana | 2.09% | $382.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

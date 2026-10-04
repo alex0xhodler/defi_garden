@@ -6,7 +6,7 @@ The highest honest KAS yield right now is 0.03% on raydium-amm (Solana), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=5375d6a2-f003-5d97-bd3a-9bc849fdf7b2&src=seo_token) | Solana | 0.03% | $42.65M |
+| [raydium-amm →](https://www.defi.garden/?pool=5375d6a2-f003-5d97-bd3a-9bc849fdf7b2#src=seo_token) | Solana | 0.03% | $42.66M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many KAS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $42.65M in total.
+1 live pool clear this page's $100K TVL floor, $42.66M in total.
 
 ### Are these rates safe?
 

@@ -6,7 +6,7 @@ The highest honest ELONGD yield right now is 0.06% on uniswap-v2 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=a2888e3d-7415-4026-b914-73806a45bc4d&src=seo_token) | Ethereum | 0.06% | $100.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=a2888e3d-7415-4026-b914-73806a45bc4d#src=seo_token) | Ethereum | 0.06% | $100.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ELONGD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $100.6K in total.
+1 live pool clear this page's $100K TVL floor, $100.7K in total.
 
 ### Are these rates safe?
 

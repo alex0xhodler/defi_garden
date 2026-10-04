@@ -6,7 +6,7 @@ The highest honest BARRON yield right now is 2.92% on raydium-amm (Solana), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=428d204f-ddd0-4701-a10c-648c01ae362a&src=seo_token) | Solana | 2.92% | $209.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=428d204f-ddd0-4701-a10c-648c01ae362a#src=seo_token) | Solana | 2.92% | $209.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

@@ -6,7 +6,7 @@ The highest honest BODEN yield right now is 2.29% on raydium-amm (Solana), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=e864d064-1fda-4038-966a-0bfbeaec06b1&src=seo_token) | Solana | 2.29% | $350.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=e864d064-1fda-4038-966a-0bfbeaec06b1#src=seo_token) | Solana | 2.29% | $350.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

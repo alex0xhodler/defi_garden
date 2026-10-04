@@ -2,34 +2,34 @@
 
 *DefiLlama 데이터 생성 시점 검증: October 4, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 LUSD의 가장 높은 정직한 수익률은 OP Mainnet의 velodrome-v2에서 14.86%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 LUSD의 가장 높은 정직한 수익률은 OP Mainnet의 velodrome-v2에서 16.26%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=836e7def-cb99-46f6-8e22-1056a81e4040&src=seo_token) | Ethereum | 0.01% | $11.96M |
-| [aave-v3 →](https://www.defi.garden/?pool=ef8fbf02-ac96-4453-a78c-37bda4cd65e3&src=seo_token) | Ethereum | 0.55% | $1.28M |
-| [curve-dex →](https://www.defi.garden/?pool=80011215-3cbe-4d82-b6c6-5b7a69f729ce&src=seo_token) | Ethereum | 0.03% | $630.5K |
-| [aave-v3 →](https://www.defi.garden/?pool=b6d41555-60e5-485f-9629-ae292c563a5d&src=seo_token) | Arbitrum | 0.98% | $118.3K |
-| [velodrome-v2 →](https://www.defi.garden/?pool=6615e218-58c4-4acf-80a3-42d4ef522788&src=seo_token) | OP Mainnet | 14.86% | $112.5K |
+| [curve-dex →](https://www.defi.garden/?pool=836e7def-cb99-46f6-8e22-1056a81e4040#src=seo_token) | Ethereum | 0.01% | $11.96M |
+| [aave-v3 →](https://www.defi.garden/?pool=ef8fbf02-ac96-4453-a78c-37bda4cd65e3#src=seo_token) | Ethereum | 0.55% | $1.28M |
+| [curve-dex →](https://www.defi.garden/?pool=80011215-3cbe-4d82-b6c6-5b7a69f729ce#src=seo_token) | Ethereum | 0.02% | $630.7K |
+| [aave-v3 →](https://www.defi.garden/?pool=b6d41555-60e5-485f-9629-ae292c563a5d#src=seo_token) | Arbitrum | 0.98% | $118.1K |
+| [velodrome-v2 →](https://www.defi.garden/?pool=6615e218-58c4-4acf-80a3-42d4ef522788#src=seo_token) | OP Mainnet | 16.26% | $105.6K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 LUSD의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.01%, TVL $11.96M, https://www.defi.garden/?pool=836e7def-cb99-46f6-8e22-1056a81e4040&src=seo_token; Ethereum의 curve-dex, APY 0.03%, TVL $630.5K, https://www.defi.garden/?pool=80011215-3cbe-4d82-b6c6-5b7a69f729ce&src=seo_token; Ethereum의 aave-v3, APY 0.55%, TVL $1.28M, https://www.defi.garden/?pool=ef8fbf02-ac96-4453-a78c-37bda4cd65e3&src=seo_token; Arbitrum의 aave-v3, APY 0.98%, TVL $118.3K, https://www.defi.garden/?pool=b6d41555-60e5-485f-9629-ae292c563a5d&src=seo_token; OP Mainnet의 velodrome-v2, APY 14.86%, TVL $112.5K, https://www.defi.garden/?pool=6615e218-58c4-4acf-80a3-42d4ef522788&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 LUSD의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.01%, TVL $11.96M, https://www.defi.garden/?pool=836e7def-cb99-46f6-8e22-1056a81e4040#src=seo_token; Ethereum의 curve-dex, APY 0.02%, TVL $630.7K, https://www.defi.garden/?pool=80011215-3cbe-4d82-b6c6-5b7a69f729ce#src=seo_token; Ethereum의 aave-v3, APY 0.55%, TVL $1.28M, https://www.defi.garden/?pool=ef8fbf02-ac96-4453-a78c-37bda4cd65e3#src=seo_token; Arbitrum의 aave-v3, APY 0.98%, TVL $118.1K, https://www.defi.garden/?pool=b6d41555-60e5-485f-9629-ae292c563a5d#src=seo_token; OP Mainnet의 velodrome-v2, APY 16.26%, TVL $105.6K, https://www.defi.garden/?pool=6615e218-58c4-4acf-80a3-42d4ef522788#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=836e7def-cb99-46f6-8e22-1056a81e4040&src=seo_token) | Ethereum | 0.01% | $11.96M |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=80011215-3cbe-4d82-b6c6-5b7a69f729ce&src=seo_token) | Ethereum | 0.03% | $630.5K |
-| 3 | [aave-v3 →](https://www.defi.garden/?pool=ef8fbf02-ac96-4453-a78c-37bda4cd65e3&src=seo_token) | Ethereum | 0.55% | $1.28M |
-| 4 | [aave-v3 →](https://www.defi.garden/?pool=b6d41555-60e5-485f-9629-ae292c563a5d&src=seo_token) | Arbitrum | 0.98% | $118.3K |
-| 5 | [velodrome-v2 →](https://www.defi.garden/?pool=6615e218-58c4-4acf-80a3-42d4ef522788&src=seo_token) | OP Mainnet | 14.86% | $112.5K |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=836e7def-cb99-46f6-8e22-1056a81e4040#src=seo_token) | Ethereum | 0.01% | $11.96M |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=80011215-3cbe-4d82-b6c6-5b7a69f729ce#src=seo_token) | Ethereum | 0.02% | $630.7K |
+| 3 | [aave-v3 →](https://www.defi.garden/?pool=ef8fbf02-ac96-4453-a78c-37bda4cd65e3#src=seo_token) | Ethereum | 0.55% | $1.28M |
+| 4 | [aave-v3 →](https://www.defi.garden/?pool=b6d41555-60e5-485f-9629-ae292c563a5d#src=seo_token) | Arbitrum | 0.98% | $118.1K |
+| 5 | [velodrome-v2 →](https://www.defi.garden/?pool=6615e218-58c4-4acf-80a3-42d4ef522788#src=seo_token) | OP Mainnet | 16.26% | $105.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-LUSD 풀은 여기 5개가 있고, 3개 체인에서 APY가 0.01%부터 14.86%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+LUSD 풀은 여기 5개가 있고, 3개 체인에서 APY가 0.01%부터 16.26%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 0.55%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -41,9 +41,9 @@ LUSD 풀은 여기 5개가 있고, 3개 체인에서 APY가 0.01%부터 14.86%�
 |---|---|---|---|
 | curve-dex | 0.01% | 0.04% | 인센티브 0.99% |
 | aave-v3 | 0.55% | 0.55% | 기본 금리 |
-| curve-dex | 0.03% | 0.09% | 기본 금리 |
+| curve-dex | 0.02% | 0.09% | 기본 금리 |
 | aave-v3 | 0.98% | 0.99% | 기본 금리 |
-| velodrome-v2 | 14.86% | 13.14% | 인센티브 100.00% |
+| velodrome-v2 | 16.26% | 13.23% | 인센티브 100.00% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -51,11 +51,11 @@ LUSD 풀은 여기 5개가 있고, 3개 체인에서 APY가 0.01%부터 14.86%�
 
 ### 오늘 LUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, OP Mainnet의 velodrome-v2에서 APY 14.86%예요.
+DefiLlama 실시간 데이터 기준, OP Mainnet의 velodrome-v2에서 APY 16.26%예요.
 
 ### LUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $14.5M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $14.49M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -63,7 +63,7 @@ DefiLlama 실시간 데이터 기준, OP Mainnet의 velodrome-v2에서 APY 14.86
 
 ### LUSD 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 LUSD의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.01%, TVL $11.96M, https://www.defi.garden/?pool=836e7def-cb99-46f6-8e22-1056a81e4040&src=seo_token; Ethereum의 curve-dex, APY 0.03%, TVL $630.5K, https://www.defi.garden/?pool=80011215-3cbe-4d82-b6c6-5b7a69f729ce&src=seo_token; Ethereum의 aave-v3, APY 0.55%, TVL $1.28M, https://www.defi.garden/?pool=ef8fbf02-ac96-4453-a78c-37bda4cd65e3&src=seo_token; Arbitrum의 aave-v3, APY 0.98%, TVL $118.3K, https://www.defi.garden/?pool=b6d41555-60e5-485f-9629-ae292c563a5d&src=seo_token; OP Mainnet의 velodrome-v2, APY 14.86%, TVL $112.5K, https://www.defi.garden/?pool=6615e218-58c4-4acf-80a3-42d4ef522788&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 LUSD의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.01%, TVL $11.96M, https://www.defi.garden/?pool=836e7def-cb99-46f6-8e22-1056a81e4040#src=seo_token; Ethereum의 curve-dex, APY 0.02%, TVL $630.7K, https://www.defi.garden/?pool=80011215-3cbe-4d82-b6c6-5b7a69f729ce#src=seo_token; Ethereum의 aave-v3, APY 0.55%, TVL $1.28M, https://www.defi.garden/?pool=ef8fbf02-ac96-4453-a78c-37bda4cd65e3#src=seo_token; Arbitrum의 aave-v3, APY 0.98%, TVL $118.1K, https://www.defi.garden/?pool=b6d41555-60e5-485f-9629-ae292c563a5d#src=seo_token; OP Mainnet의 velodrome-v2, APY 16.26%, TVL $105.6K, https://www.defi.garden/?pool=6615e218-58c4-4acf-80a3-42d4ef522788#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

@@ -6,7 +6,7 @@ The highest honest AMAPT yield right now is 4.80% on hyperion (Aptos), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hyperion →](https://www.defi.garden/?pool=75c32bdd-1121-408b-a7b3-ca415a1233c4&src=seo_token) | Aptos | 4.80% | $1.58M |
+| [hyperion →](https://www.defi.garden/?pool=75c32bdd-1121-408b-a7b3-ca415a1233c4#src=seo_token) | Aptos | 4.80% | $1.58M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -40,7 +40,7 @@ There is not enough qualifying APY history to rank AMAPT pools. This view covers
 - [XBTC](https://www.defi.garden/tokens/xbtc)
 - [APT](https://www.defi.garden/tokens/apt)
 - [TRUAPT](https://www.defi.garden/tokens/truapt)
-- [ABTC](https://www.defi.garden/tokens/abtc)
+- [STAPT](https://www.defi.garden/tokens/stapt)
 
 ## Available on
 

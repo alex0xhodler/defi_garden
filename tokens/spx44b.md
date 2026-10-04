@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
 
-The highest honest SPX44B yield right now is 100.41% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SPX44B yield right now is 121.99% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=326e94ac-98e6-53aa-afd0-21e590044981&src=seo_token) | Base | 100.41% | $100.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=326e94ac-98e6-53aa-afd0-21e590044981#src=seo_token) | Base | 121.99% | $105.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SPX44B yield today?
 
-100.41% APY on uniswap-v2 (Base), based on live DefiLlama data.
+121.99% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many SPX44B pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $100.6K in total.
+1 live pool clear this page's $100K TVL floor, $105.7K in total.
 
 ### Are these rates safe?
 

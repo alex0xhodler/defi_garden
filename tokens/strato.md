@@ -6,7 +6,7 @@ The highest honest STRATO yield right now is 5.45% on strato (Strato), among 2 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [strato →](https://www.defi.garden/?pool=af58b38a-fa8b-529e-af1d-43e904e929e0&src=seo_token) | Strato | 5.45% | $865.1K |
+| [strato →](https://www.defi.garden/?pool=af58b38a-fa8b-529e-af1d-43e904e929e0#src=seo_token) | Strato | 5.45% | $865.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many STRATO pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.4M in total.
+2 live pools clear this page's $100K TVL floor, $1.41M in total.
 
 ### Are these rates safe?
 

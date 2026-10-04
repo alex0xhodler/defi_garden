@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
 
-The highest honest FEUSDEV2 yield right now is 5.86% on morpho-blue (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FEUSDEV2 yield right now is 5.88% on morpho-blue (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=b3319223-492b-592f-bf3a-5c4edc05b7c7&src=seo_token) | Hyperliquid L1 | 5.86% | $120.5K |
+| [morpho-blue →](https://www.defi.garden/?pool=b3319223-492b-592f-bf3a-5c4edc05b7c7#src=seo_token) | Hyperliquid L1 | 5.88% | $120.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FEUSDEV2 yield today?
 
-5.86% APY on morpho-blue (Hyperliquid L1), based on live DefiLlama data.
+5.88% APY on morpho-blue (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many FEUSDEV2 pools clear the TVL floor?
 

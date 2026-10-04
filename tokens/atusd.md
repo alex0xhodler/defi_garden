@@ -6,7 +6,7 @@ The highest honest ATUSD yield right now is 0.32% on latch (Gravity), among 1 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [latch →](https://www.defi.garden/?pool=9998bf68-1ef8-4948-9cbb-d62eeeab91ab&src=seo_token) | Gravity | 0.32% | $1.36M |
+| [latch →](https://www.defi.garden/?pool=9998bf68-1ef8-4948-9cbb-d62eeeab91ab#src=seo_token) | Gravity | 0.32% | $1.36M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

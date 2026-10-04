@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [frigg.eco →](https://www.defi.garden/?pool=da4507f9-1daf-4442-a9a0-e2fdebfcc9bd&src=seo_token) | Ethereum | 4.00% | $182.5K |
+| [frigg.eco →](https://www.defi.garden/?pool=da4507f9-1daf-4442-a9a0-e2fdebfcc9bd#src=seo_token) | Ethereum | 4.00% | $182.5K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

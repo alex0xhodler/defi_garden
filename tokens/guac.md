@@ -6,7 +6,7 @@ The highest honest GUAC yield right now is 4.12% on raydium-amm (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=d09abc32-2a96-4a3a-82fa-731e98fe563d&src=seo_token) | Solana | 4.12% | $161.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=d09abc32-2a96-4a3a-82fa-731e98fe563d#src=seo_token) | Solana | 4.12% | $161.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

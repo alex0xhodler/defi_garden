@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [fluxion-network →](https://www.defi.garden/?pool=a4ff3d7c-a117-4b24-a9f9-6af46cd276c0&src=seo_token) | Mantle | 1.29% | $102.1K |
+| [fluxion-network →](https://www.defi.garden/?pool=a4ff3d7c-a117-4b24-a9f9-6af46cd276c0#src=seo_token) | Mantle | 1.29% | $102.1K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -36,11 +36,11 @@ DefiLlama 실시간 데이터 기준, Mantle의 fluxion-network에서 APY 1.29%�
 ## 관련 토큰
 
 - [USDT0](https://www.defi.garden/ko/tokens/usdt0)
-- [KII](https://www.defi.garden/ko/tokens/kii)
 - [WSPYX](https://www.defi.garden/ko/tokens/wspyx)
 - [BSB](https://www.defi.garden/ko/tokens/bsb)
 - [BILL](https://www.defi.garden/ko/tokens/bill)
 - [WNVDAX](https://www.defi.garden/ko/tokens/wnvdax)
+- [ELSA](https://www.defi.garden/ko/tokens/elsa)
 
 ## 이용 가능한 체인
 

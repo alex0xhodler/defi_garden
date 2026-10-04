@@ -6,7 +6,7 @@ The highest honest MCDON yield right now is 23.43% on uniswap-v4 (BSC), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=b16ae550-4668-53a3-9665-3d014af39c66&src=seo_token) | BSC | 23.43% | $172.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=b16ae550-4668-53a3-9665-3d014af39c66#src=seo_token) | BSC | 23.43% | $172.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

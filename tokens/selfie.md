@@ -6,7 +6,7 @@ The highest honest SELFIE yield right now is 2.93% on raydium-amm (Solana), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=f71498d7-998e-4ebf-912b-7dc28c38fdc6&src=seo_token) | Solana | 2.93% | $222.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=f71498d7-998e-4ebf-912b-7dc28c38fdc6#src=seo_token) | Solana | 2.93% | $222.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

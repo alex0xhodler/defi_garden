@@ -6,7 +6,7 @@ The highest honest BUILDOUT yield right now is 7.31% on uniswap-v4 (BSC), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=a18f690c-73f1-461f-bceb-2951e3291579&src=seo_token) | BSC | 7.31% | $724.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a18f690c-73f1-461f-bceb-2951e3291579#src=seo_token) | BSC | 7.31% | $724.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

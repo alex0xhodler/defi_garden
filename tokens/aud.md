@@ -6,7 +6,7 @@ The highest honest AUD yield right now is 2.77% on gmx-solana (Solana), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmx-solana →](https://www.defi.garden/?pool=89a32356-56ea-4287-a6f4-f866d1ad9f13&src=seo_token) | Solana | 2.77% | $1.38M |
+| [gmx-solana →](https://www.defi.garden/?pool=89a32356-56ea-4287-a6f4-f866d1ad9f13#src=seo_token) | Solana | 2.77% | $1.38M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

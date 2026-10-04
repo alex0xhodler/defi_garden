@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
 
-The highest honest ALLINU yield right now is 46.10% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ALLINU yield right now is 43.75% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=ab02664e-c389-5b3e-a5ce-5e43ca6c42b3&src=seo_token) | Solana | 46.10% | $242.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=ab02664e-c389-5b3e-a5ce-5e43ca6c42b3#src=seo_token) | Solana | 43.75% | $229.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ALLINU yield today?
 
-46.10% APY on raydium-amm (Solana), based on live DefiLlama data.
+43.75% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many ALLINU pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $242.1K in total.
+1 live pool clear this page's $100K TVL floor, $229.2K in total.
 
 ### Are these rates safe?
 

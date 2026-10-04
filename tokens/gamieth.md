@@ -6,18 +6,18 @@ The highest honest GAMIETH yield right now is 3.82% on gami-labs (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gami-labs →](https://www.defi.garden/?pool=9f208f64-af0c-4082-aea5-4482abf04d1b&src=seo_token) | Ethereum | 3.82% | $284.3K |
-| [lagoon →](https://www.defi.garden/?pool=81b46426-6adf-4f11-a027-f63d9232de9f&src=seo_token) | Ethereum | 3.63% | $284.2K |
+| [lagoon →](https://www.defi.garden/?pool=81b46426-6adf-4f11-a027-f63d9232de9f#src=seo_token) | Ethereum | 3.63% | $285K |
+| [gami-labs →](https://www.defi.garden/?pool=9f208f64-af0c-4082-aea5-4482abf04d1b#src=seo_token) | Ethereum | 3.82% | $284.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, GAMIETH's lower-variability candidates are gami-labs (Ethereum), 3.82% APY, $284.3K TVL, https://www.defi.garden/?pool=9f208f64-af0c-4082-aea5-4482abf04d1b&src=seo_token; lagoon (Ethereum), 3.63% APY, $284.2K TVL, https://www.defi.garden/?pool=81b46426-6adf-4f11-a027-f63d9232de9f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GAMIETH's lower-variability candidates are gami-labs (Ethereum), 3.82% APY, $284.9K TVL, https://www.defi.garden/?pool=9f208f64-af0c-4082-aea5-4482abf04d1b#src=seo_token; lagoon (Ethereum), 3.63% APY, $285K TVL, https://www.defi.garden/?pool=81b46426-6adf-4f11-a027-f63d9232de9f#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [gami-labs →](https://www.defi.garden/?pool=9f208f64-af0c-4082-aea5-4482abf04d1b&src=seo_token) | Ethereum | 3.82% | $284.3K |
-| 2 | [lagoon →](https://www.defi.garden/?pool=81b46426-6adf-4f11-a027-f63d9232de9f&src=seo_token) | Ethereum | 3.63% | $284.2K |
+| 1 | [gami-labs →](https://www.defi.garden/?pool=9f208f64-af0c-4082-aea5-4482abf04d1b#src=seo_token) | Ethereum | 3.82% | $284.9K |
+| 2 | [lagoon →](https://www.defi.garden/?pool=81b46426-6adf-4f11-a027-f63d9232de9f#src=seo_token) | Ethereum | 3.63% | $285K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -25,14 +25,14 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 GAMIETH shows up in 2 pools here, with rates from 3.63% to 3.82% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 4.20% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 4.19% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| gami-labs | 3.82% | 4.48% | Base rate |
-| lagoon | 3.63% | 3.92% | Base rate |
+| lagoon | 3.63% | 3.91% | Base rate |
+| gami-labs | 3.82% | 4.47% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many GAMIETH pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $568.5K in total.
+2 live pools clear this page's $100K TVL floor, $569.9K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which GAMIETH pools have the most stable APY history?
 
-Based on APY history only, GAMIETH's lower-variability candidates are gami-labs (Ethereum), 3.82% APY, $284.3K TVL, https://www.defi.garden/?pool=9f208f64-af0c-4082-aea5-4482abf04d1b&src=seo_token; lagoon (Ethereum), 3.63% APY, $284.2K TVL, https://www.defi.garden/?pool=81b46426-6adf-4f11-a027-f63d9232de9f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GAMIETH's lower-variability candidates are gami-labs (Ethereum), 3.82% APY, $284.9K TVL, https://www.defi.garden/?pool=9f208f64-af0c-4082-aea5-4482abf04d1b#src=seo_token; lagoon (Ethereum), 3.63% APY, $285K TVL, https://www.defi.garden/?pool=81b46426-6adf-4f11-a027-f63d9232de9f#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

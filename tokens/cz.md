@@ -6,7 +6,7 @@ The highest honest CZ yield right now is 0.02% on uniswap-v4 (BSC), among 1 pool
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=3195c2e0-2ffc-5d45-b696-00394eafe35f&src=seo_token) | BSC | 0.02% | $136.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=3195c2e0-2ffc-5d45-b696-00394eafe35f#src=seo_token) | BSC | 0.02% | $136.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

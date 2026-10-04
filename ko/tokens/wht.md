@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [mdex →](https://www.defi.garden/?pool=a8549b82-881c-4d8c-99ca-b410919feb8d&src=seo_token) | Heco | 0.98% | $253.9K |
+| [mdex →](https://www.defi.garden/?pool=a8549b82-881c-4d8c-99ca-b410919feb8d#src=seo_token) | Heco | 0.98% | $253.9K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

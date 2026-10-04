@@ -6,7 +6,7 @@ The highest honest CHUSD yield right now is 0.03% on project-x (Hyperliquid L1),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [project-x →](https://www.defi.garden/?pool=c5dbd6d2-238c-4f9e-a0a6-f00fa0202b39&src=seo_token) | Hyperliquid L1 | 0.03% | $101K |
+| [project-x →](https://www.defi.garden/?pool=c5dbd6d2-238c-4f9e-a0a6-f00fa0202b39#src=seo_token) | Hyperliquid L1 | 0.03% | $101K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

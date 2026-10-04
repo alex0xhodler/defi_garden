@@ -6,7 +6,7 @@ The highest honest EETH yield right now is 1.56% on origin-arm (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [origin-arm →](https://www.defi.garden/?pool=632e4738-0025-5a2c-8ee0-50f8a550c387&src=seo_token) | Ethereum | 1.56% | $325K |
+| [origin-arm →](https://www.defi.garden/?pool=632e4738-0025-5a2c-8ee0-50f8a550c387#src=seo_token) | Ethereum | 1.56% | $325K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

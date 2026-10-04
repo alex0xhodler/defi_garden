@@ -6,7 +6,7 @@ The highest honest MILKTIA yield right now is 83.85% on osmosis-dex (Osmosis), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [osmosis-dex →](https://www.defi.garden/?pool=db6f7c5d-65be-45ab-9e00-d3574c35ac31&src=seo_token) | Osmosis | 83.85% | $19.88M |
+| [osmosis-dex →](https://www.defi.garden/?pool=db6f7c5d-65be-45ab-9e00-d3574c35ac31#src=seo_token) | Osmosis | 83.85% | $19.88M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many MILKTIA pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $20.71M in total.
+2 live pools clear this page's $100K TVL floor, $20.7M in total.
 
 ### Are these rates safe?
 

@@ -6,7 +6,7 @@ The highest honest USDT.Z yield right now is 129.31% on uniswap-v4 (BSC), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=f0a4cf3c-c53a-4c6c-97a4-4550566b929e&src=seo_token) | BSC | 129.31% | $309.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f0a4cf3c-c53a-4c6c-97a4-4550566b929e#src=seo_token) | BSC | 129.31% | $309.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

@@ -6,7 +6,7 @@ The highest honest COAI yield right now is 5.20% on uniswap-v4 (BSC), among 1 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=b2d92d9e-a8e2-4253-aad7-c9b1143178d6&src=seo_token) | BSC | 5.20% | $158.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=b2d92d9e-a8e2-4253-aad7-c9b1143178d6#src=seo_token) | BSC | 5.20% | $158.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

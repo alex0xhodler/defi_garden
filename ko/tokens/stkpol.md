@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=49395d1c-ea7d-5d9b-b5ac-bad28f78d591&src=seo_token) | Polygon | 0.23% | $10.52M |
+| [curve-dex →](https://www.defi.garden/?pool=49395d1c-ea7d-5d9b-b5ac-bad28f78d591#src=seo_token) | Polygon | 0.23% | $10.52M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -38,9 +38,9 @@ DefiLlama 실시간 데이터 기준, Polygon의 curve-dex에서 APY 0.23%예요
 - [WBTC](https://www.defi.garden/ko/tokens/wbtc)
 - [DAI](https://www.defi.garden/ko/tokens/dai)
 - [LINK](https://www.defi.garden/ko/tokens/link)
+- [AAVE](https://www.defi.garden/ko/tokens/aave)
 - [USDT0](https://www.defi.garden/ko/tokens/usdt0)
 - [STKEUR](https://www.defi.garden/ko/tokens/stkeur)
-- [FUN](https://www.defi.garden/ko/tokens/fun)
 
 ## 이용 가능한 체인
 

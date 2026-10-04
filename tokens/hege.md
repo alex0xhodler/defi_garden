@@ -6,7 +6,7 @@ The highest honest HEGE yield right now is 1.59% on raydium-amm (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=ffdcec91-60d1-4b53-9348-a593d6ed9725&src=seo_token) | Solana | 1.59% | $406.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=ffdcec91-60d1-4b53-9348-a593d6ed9725#src=seo_token) | Solana | 1.59% | $406.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

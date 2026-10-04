@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [yuzu-money →](https://www.defi.garden/?pool=18147bfe-ee41-4762-9a95-c0ff28215798&src=seo_token) | Monad | 6.73% | $7.6M |
+| [yuzu-money →](https://www.defi.garden/?pool=18147bfe-ee41-4762-9a95-c0ff28215798#src=seo_token) | Monad | 6.73% | $7.6M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

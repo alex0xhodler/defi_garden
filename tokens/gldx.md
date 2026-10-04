@@ -2,49 +2,47 @@
 
 *Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
 
-The highest honest GLDX yield right now is 27.11% on orca-dex (Solana), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GLDX yield right now is 36.56% on orca-dex (Solana), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=3719be8e-77f3-4239-b901-407f6b174fd0&src=seo_token) | Solana | 10.43% | $940.8K |
-| [raydium-amm →](https://www.defi.garden/?pool=1f86297f-55bf-40e7-9485-68e843761c70&src=seo_token) | Solana | 2.80% | $463.6K |
-| [orca-dex →](https://www.defi.garden/?pool=00407bf1-b584-4019-b106-0c8d35a5ebb0&src=seo_token) | Solana | 65.82% | $199.4K |
-| [raydium-amm →](https://www.defi.garden/?pool=b9c8d651-97a2-5f95-a23d-54d7e3a5914b&src=seo_token) | Solana | 137.80% | $194K |
-| [orca-dex →](https://www.defi.garden/?pool=b8d1cb2b-0c5c-5876-84a7-c242a3cf4d2f&src=seo_token) | Solana | 54.14% | $193K |
-| [orca-dex →](https://www.defi.garden/?pool=b7a1de8b-ae15-4365-9f30-b32463510965&src=seo_token) | Solana | 27.11% | $124.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=3719be8e-77f3-4239-b901-407f6b174fd0#src=seo_token) | Solana | 6.55% | $925.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=1f86297f-55bf-40e7-9485-68e843761c70#src=seo_token) | Solana | 2.78% | $540.1K |
+| [orca-dex →](https://www.defi.garden/?pool=00407bf1-b584-4019-b106-0c8d35a5ebb0#src=seo_token) | Solana | 58.89% | $213.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=b9c8d651-97a2-5f95-a23d-54d7e3a5914b#src=seo_token) | Solana | 86.76% | $200.1K |
+| [orca-dex →](https://www.defi.garden/?pool=b7a1de8b-ae15-4365-9f30-b32463510965#src=seo_token) | Solana | 36.56% | $132.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, GLDX's lower-variability candidates are raydium-amm (Solana), 2.80% APY, $463.6K TVL, https://www.defi.garden/?pool=1f86297f-55bf-40e7-9485-68e843761c70&src=seo_token; raydium-amm (Solana), 10.43% APY, $940.8K TVL, https://www.defi.garden/?pool=3719be8e-77f3-4239-b901-407f6b174fd0&src=seo_token; orca-dex (Solana), 27.11% APY, $124.6K TVL, https://www.defi.garden/?pool=b7a1de8b-ae15-4365-9f30-b32463510965&src=seo_token; orca-dex (Solana), 65.82% APY, $199.4K TVL, https://www.defi.garden/?pool=00407bf1-b584-4019-b106-0c8d35a5ebb0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GLDX's lower-variability candidates are raydium-amm (Solana), 2.78% APY, $540.1K TVL, https://www.defi.garden/?pool=1f86297f-55bf-40e7-9485-68e843761c70#src=seo_token; raydium-amm (Solana), 6.55% APY, $925.5K TVL, https://www.defi.garden/?pool=3719be8e-77f3-4239-b901-407f6b174fd0#src=seo_token; orca-dex (Solana), 36.56% APY, $132.4K TVL, https://www.defi.garden/?pool=b7a1de8b-ae15-4365-9f30-b32463510965#src=seo_token; orca-dex (Solana), 58.89% APY, $213.9K TVL, https://www.defi.garden/?pool=00407bf1-b584-4019-b106-0c8d35a5ebb0#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=1f86297f-55bf-40e7-9485-68e843761c70&src=seo_token) | Solana | 2.80% | $463.6K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=3719be8e-77f3-4239-b901-407f6b174fd0&src=seo_token) | Solana | 10.43% | $940.8K |
-| 3 | [orca-dex →](https://www.defi.garden/?pool=b7a1de8b-ae15-4365-9f30-b32463510965&src=seo_token) | Solana | 27.11% | $124.6K |
-| 4 | [orca-dex →](https://www.defi.garden/?pool=00407bf1-b584-4019-b106-0c8d35a5ebb0&src=seo_token) | Solana | 65.82% | $199.4K |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=1f86297f-55bf-40e7-9485-68e843761c70#src=seo_token) | Solana | 2.78% | $540.1K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=3719be8e-77f3-4239-b901-407f6b174fd0#src=seo_token) | Solana | 6.55% | $925.5K |
+| 3 | [orca-dex →](https://www.defi.garden/?pool=b7a1de8b-ae15-4365-9f30-b32463510965#src=seo_token) | Solana | 36.56% | $132.4K |
+| 4 | [orca-dex →](https://www.defi.garden/?pool=00407bf1-b584-4019-b106-0c8d35a5ebb0#src=seo_token) | Solana | 58.89% | $213.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-GLDX shows up in 6 pools here, with rates from 2.80% to 137.80% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+GLDX shows up in 5 pools here, with rates from 2.78% to 86.76% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-6 of these 6 pools have a trustworthy 30-day average on file, with a median of 152.46% — a useful check against today's number for whether the rate is steady or just having a good day.
+5 of these 5 pools have a trustworthy 30-day average on file, with a median of 103.75% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 6 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 5 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-6 of 6 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+5 of 5 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 10.43% | 103.81% | Base rate |
-| raydium-amm | 2.80% | 9.83% | Base rate |
-| orca-dex | 65.82% | 509.94% | Base rate |
-| raydium-amm | 137.80% | 466.39% | Base rate |
-| orca-dex | 54.14% | 201.11% | Base rate |
-| orca-dex | 27.11% | 28.57% | Base rate |
+| raydium-amm | 6.55% | 103.75% | Base rate |
+| raydium-amm | 2.78% | 9.81% | Base rate |
+| orca-dex | 58.89% | 509.87% | Base rate |
+| raydium-amm | 86.76% | 459.09% | Base rate |
+| orca-dex | 36.56% | 28.79% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -52,11 +50,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest GLDX yield today?
 
-27.11% APY on orca-dex (Solana), based on live DefiLlama data.
+36.56% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many GLDX pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $2.12M in total.
+5 live pools clear this page's $100K TVL floor, $2.01M in total.
 
 ### Are these rates safe?
 
@@ -64,7 +62,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which GLDX pools have the most stable APY history?
 
-Based on APY history only, GLDX's lower-variability candidates are raydium-amm (Solana), 2.80% APY, $463.6K TVL, https://www.defi.garden/?pool=1f86297f-55bf-40e7-9485-68e843761c70&src=seo_token; raydium-amm (Solana), 10.43% APY, $940.8K TVL, https://www.defi.garden/?pool=3719be8e-77f3-4239-b901-407f6b174fd0&src=seo_token; orca-dex (Solana), 27.11% APY, $124.6K TVL, https://www.defi.garden/?pool=b7a1de8b-ae15-4365-9f30-b32463510965&src=seo_token; orca-dex (Solana), 65.82% APY, $199.4K TVL, https://www.defi.garden/?pool=00407bf1-b584-4019-b106-0c8d35a5ebb0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GLDX's lower-variability candidates are raydium-amm (Solana), 2.78% APY, $540.1K TVL, https://www.defi.garden/?pool=1f86297f-55bf-40e7-9485-68e843761c70#src=seo_token; raydium-amm (Solana), 6.55% APY, $925.5K TVL, https://www.defi.garden/?pool=3719be8e-77f3-4239-b901-407f6b174fd0#src=seo_token; orca-dex (Solana), 36.56% APY, $132.4K TVL, https://www.defi.garden/?pool=b7a1de8b-ae15-4365-9f30-b32463510965#src=seo_token; orca-dex (Solana), 58.89% APY, $213.9K TVL, https://www.defi.garden/?pool=00407bf1-b584-4019-b106-0c8d35a5ebb0#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

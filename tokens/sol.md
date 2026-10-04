@@ -2,18 +2,18 @@
 
 *Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
 
-The highest honest SOL yield right now is 5.65% on kamino-lend (Solana), among 105 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SOL yield right now is 5.64% on kamino-lend (Solana), among 104 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=a5c85bc8-eb41-45c0-a520-d18d7529c0d8&src=seo_token) | Solana | 17.83% | $31.44M |
-| [kamino-lend →](https://www.defi.garden/?pool=525b2dab-ea6a-4cbc-a07f-84ce561d1f83&src=seo_token) | Solana | 5.65% | $25.34M |
-| [orca-dex →](https://www.defi.garden/?pool=6dc30ef3-d497-497c-91f3-b4ccb817a8b9&src=seo_token) | Solana | 13.04% | $9.76M |
-| [save →](https://www.defi.garden/?pool=1170b465-309b-4026-b10d-abdf7b1ac369&src=seo_token) | Solana | 2.78% | $7.12M |
-| [orca-dex →](https://www.defi.garden/?pool=923d43c8-455e-4196-9b5d-afcc966c934f&src=seo_token) | Solana | 0.37% | $6.92M |
-| [kamino-liquidity →](https://www.defi.garden/?pool=55616349-b749-4467-8edc-abbb40ae80f6&src=seo_token) | Solana | 0.24% | $6.91M |
-| [orca-dex →](https://www.defi.garden/?pool=69c64232-ef1a-45f2-b49b-daeb2a906873&src=seo_token) | Solana | 6.30% | $6.91M |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=906b233c-8478-4b94-94e5-2d77e6c7c9e5&src=seo_token) | Arbitrum | 3.64% | $5.22M |
+| [orca-dex →](https://www.defi.garden/?pool=a5c85bc8-eb41-45c0-a520-d18d7529c0d8#src=seo_token) | Solana | 22.61% | $31.31M |
+| [kamino-lend →](https://www.defi.garden/?pool=525b2dab-ea6a-4cbc-a07f-84ce561d1f83#src=seo_token) | Solana | 5.64% | $25.4M |
+| [orca-dex →](https://www.defi.garden/?pool=6dc30ef3-d497-497c-91f3-b4ccb817a8b9#src=seo_token) | Solana | 16.98% | $10.04M |
+| [save →](https://www.defi.garden/?pool=1170b465-309b-4026-b10d-abdf7b1ac369#src=seo_token) | Solana | 2.78% | $7.14M |
+| [orca-dex →](https://www.defi.garden/?pool=69c64232-ef1a-45f2-b49b-daeb2a906873#src=seo_token) | Solana | 7.83% | $6.99M |
+| [orca-dex →](https://www.defi.garden/?pool=923d43c8-455e-4196-9b5d-afcc966c934f#src=seo_token) | Solana | 0.36% | $6.97M |
+| [kamino-liquidity →](https://www.defi.garden/?pool=55616349-b749-4467-8edc-abbb40ae80f6#src=seo_token) | Solana | 0.21% | $6.92M |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=906b233c-8478-4b94-94e5-2d77e6c7c9e5#src=seo_token) | Arbitrum | 3.52% | $5.22M |
 
 ## How SOL Yield is Generated
 
@@ -26,26 +26,26 @@ All DeFi yields carry inherent risk. Smart contract vulnerabilities, protocol ec
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SOL's lower-variability candidates are kamino-liquidity (Solana), 0.24% APY, $6.91M TVL, https://www.defi.garden/?pool=55616349-b749-4467-8edc-abbb40ae80f6&src=seo_token; kamino-lend (Solana), 5.65% APY, $25.34M TVL, https://www.defi.garden/?pool=525b2dab-ea6a-4cbc-a07f-84ce561d1f83&src=seo_token; orca-dex (Solana), 0.37% APY, $6.92M TVL, https://www.defi.garden/?pool=923d43c8-455e-4196-9b5d-afcc966c934f&src=seo_token; save (Solana), 2.78% APY, $7.12M TVL, https://www.defi.garden/?pool=1170b465-309b-4026-b10d-abdf7b1ac369&src=seo_token; gmx-v2-perps (Arbitrum), 3.64% APY, $5.22M TVL, https://www.defi.garden/?pool=906b233c-8478-4b94-94e5-2d77e6c7c9e5&src=seo_token; orca-dex (Solana), 6.30% APY, $6.91M TVL, https://www.defi.garden/?pool=69c64232-ef1a-45f2-b49b-daeb2a906873&src=seo_token; orca-dex (Solana), 17.83% APY, $31.44M TVL, https://www.defi.garden/?pool=a5c85bc8-eb41-45c0-a520-d18d7529c0d8&src=seo_token; orca-dex (Solana), 13.04% APY, $9.76M TVL, https://www.defi.garden/?pool=6dc30ef3-d497-497c-91f3-b4ccb817a8b9&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SOL's lower-variability candidates are kamino-liquidity (Solana), 0.21% APY, $6.92M TVL, https://www.defi.garden/?pool=55616349-b749-4467-8edc-abbb40ae80f6#src=seo_token; kamino-lend (Solana), 5.64% APY, $25.4M TVL, https://www.defi.garden/?pool=525b2dab-ea6a-4cbc-a07f-84ce561d1f83#src=seo_token; orca-dex (Solana), 0.36% APY, $6.97M TVL, https://www.defi.garden/?pool=923d43c8-455e-4196-9b5d-afcc966c934f#src=seo_token; save (Solana), 2.78% APY, $7.14M TVL, https://www.defi.garden/?pool=1170b465-309b-4026-b10d-abdf7b1ac369#src=seo_token; gmx-v2-perps (Arbitrum), 3.52% APY, $5.22M TVL, https://www.defi.garden/?pool=906b233c-8478-4b94-94e5-2d77e6c7c9e5#src=seo_token; orca-dex (Solana), 7.83% APY, $6.99M TVL, https://www.defi.garden/?pool=69c64232-ef1a-45f2-b49b-daeb2a906873#src=seo_token; orca-dex (Solana), 22.61% APY, $31.31M TVL, https://www.defi.garden/?pool=a5c85bc8-eb41-45c0-a520-d18d7529c0d8#src=seo_token; orca-dex (Solana), 16.98% APY, $10.04M TVL, https://www.defi.garden/?pool=6dc30ef3-d497-497c-91f3-b4ccb817a8b9#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [kamino-liquidity →](https://www.defi.garden/?pool=55616349-b749-4467-8edc-abbb40ae80f6&src=seo_token) | Solana | 0.24% | $6.91M |
-| 2 | [kamino-lend →](https://www.defi.garden/?pool=525b2dab-ea6a-4cbc-a07f-84ce561d1f83&src=seo_token) | Solana | 5.65% | $25.34M |
-| 3 | [orca-dex →](https://www.defi.garden/?pool=923d43c8-455e-4196-9b5d-afcc966c934f&src=seo_token) | Solana | 0.37% | $6.92M |
-| 4 | [save →](https://www.defi.garden/?pool=1170b465-309b-4026-b10d-abdf7b1ac369&src=seo_token) | Solana | 2.78% | $7.12M |
-| 5 | [gmx-v2-perps →](https://www.defi.garden/?pool=906b233c-8478-4b94-94e5-2d77e6c7c9e5&src=seo_token) | Arbitrum | 3.64% | $5.22M |
-| 6 | [orca-dex →](https://www.defi.garden/?pool=69c64232-ef1a-45f2-b49b-daeb2a906873&src=seo_token) | Solana | 6.30% | $6.91M |
-| 7 | [orca-dex →](https://www.defi.garden/?pool=a5c85bc8-eb41-45c0-a520-d18d7529c0d8&src=seo_token) | Solana | 17.83% | $31.44M |
-| 8 | [orca-dex →](https://www.defi.garden/?pool=6dc30ef3-d497-497c-91f3-b4ccb817a8b9&src=seo_token) | Solana | 13.04% | $9.76M |
+| 1 | [kamino-liquidity →](https://www.defi.garden/?pool=55616349-b749-4467-8edc-abbb40ae80f6#src=seo_token) | Solana | 0.21% | $6.92M |
+| 2 | [kamino-lend →](https://www.defi.garden/?pool=525b2dab-ea6a-4cbc-a07f-84ce561d1f83#src=seo_token) | Solana | 5.64% | $25.4M |
+| 3 | [orca-dex →](https://www.defi.garden/?pool=923d43c8-455e-4196-9b5d-afcc966c934f#src=seo_token) | Solana | 0.36% | $6.97M |
+| 4 | [save →](https://www.defi.garden/?pool=1170b465-309b-4026-b10d-abdf7b1ac369#src=seo_token) | Solana | 2.78% | $7.14M |
+| 5 | [gmx-v2-perps →](https://www.defi.garden/?pool=906b233c-8478-4b94-94e5-2d77e6c7c9e5#src=seo_token) | Arbitrum | 3.52% | $5.22M |
+| 6 | [orca-dex →](https://www.defi.garden/?pool=69c64232-ef1a-45f2-b49b-daeb2a906873#src=seo_token) | Solana | 7.83% | $6.99M |
+| 7 | [orca-dex →](https://www.defi.garden/?pool=a5c85bc8-eb41-45c0-a520-d18d7529c0d8#src=seo_token) | Solana | 22.61% | $31.31M |
+| 8 | [orca-dex →](https://www.defi.garden/?pool=6dc30ef3-d497-497c-91f3-b4ccb817a8b9#src=seo_token) | Solana | 16.98% | $10.04M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SOL shows up in 8 pools here, with rates from 0.24% to 17.83% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+SOL shows up in 8 pools here, with rates from 0.21% to 22.61% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 6.75% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 6.69% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 8 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -53,14 +53,14 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| orca-dex | 17.83% | 75.46% | Base rate |
-| kamino-lend | 5.65% | 5.20% | Base rate |
-| orca-dex | 13.04% | 45.41% | Base rate |
+| orca-dex | 22.61% | 74.19% | Base rate |
+| kamino-lend | 5.64% | 5.22% | Base rate |
+| orca-dex | 16.98% | 44.64% | Base rate |
 | save | 2.78% | 2.79% | Base rate |
-| orca-dex | 0.37% | 0.70% | Base rate |
-| kamino-liquidity | 0.24% | 0.30% | Base rate |
-| orca-dex | 6.30% | 28.11% | Base rate |
-| gmx-v2-perps | 3.64% | 8.31% | Base rate |
+| orca-dex | 7.83% | 27.47% | Base rate |
+| orca-dex | 0.36% | 0.38% | Base rate |
+| kamino-liquidity | 0.21% | 0.30% | Base rate |
+| gmx-v2-perps | 3.52% | 8.17% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -68,11 +68,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SOL yield today?
 
-5.65% APY on kamino-lend (Solana), based on live DefiLlama data.
+5.64% APY on kamino-lend (Solana), based on live DefiLlama data.
 
 ### How many SOL pools clear the TVL floor?
 
-105 live pools clear this page's $100K TVL floor, $186.09M in total.
+104 live pools clear this page's $100K TVL floor, $186.83M in total.
 
 ### Are these rates safe?
 
@@ -80,7 +80,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SOL pools have the most stable APY history?
 
-Based on APY history only, SOL's lower-variability candidates are kamino-liquidity (Solana), 0.24% APY, $6.91M TVL, https://www.defi.garden/?pool=55616349-b749-4467-8edc-abbb40ae80f6&src=seo_token; kamino-lend (Solana), 5.65% APY, $25.34M TVL, https://www.defi.garden/?pool=525b2dab-ea6a-4cbc-a07f-84ce561d1f83&src=seo_token; orca-dex (Solana), 0.37% APY, $6.92M TVL, https://www.defi.garden/?pool=923d43c8-455e-4196-9b5d-afcc966c934f&src=seo_token; save (Solana), 2.78% APY, $7.12M TVL, https://www.defi.garden/?pool=1170b465-309b-4026-b10d-abdf7b1ac369&src=seo_token; gmx-v2-perps (Arbitrum), 3.64% APY, $5.22M TVL, https://www.defi.garden/?pool=906b233c-8478-4b94-94e5-2d77e6c7c9e5&src=seo_token; orca-dex (Solana), 6.30% APY, $6.91M TVL, https://www.defi.garden/?pool=69c64232-ef1a-45f2-b49b-daeb2a906873&src=seo_token; orca-dex (Solana), 17.83% APY, $31.44M TVL, https://www.defi.garden/?pool=a5c85bc8-eb41-45c0-a520-d18d7529c0d8&src=seo_token; orca-dex (Solana), 13.04% APY, $9.76M TVL, https://www.defi.garden/?pool=6dc30ef3-d497-497c-91f3-b4ccb817a8b9&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SOL's lower-variability candidates are kamino-liquidity (Solana), 0.21% APY, $6.92M TVL, https://www.defi.garden/?pool=55616349-b749-4467-8edc-abbb40ae80f6#src=seo_token; kamino-lend (Solana), 5.64% APY, $25.4M TVL, https://www.defi.garden/?pool=525b2dab-ea6a-4cbc-a07f-84ce561d1f83#src=seo_token; orca-dex (Solana), 0.36% APY, $6.97M TVL, https://www.defi.garden/?pool=923d43c8-455e-4196-9b5d-afcc966c934f#src=seo_token; save (Solana), 2.78% APY, $7.14M TVL, https://www.defi.garden/?pool=1170b465-309b-4026-b10d-abdf7b1ac369#src=seo_token; gmx-v2-perps (Arbitrum), 3.52% APY, $5.22M TVL, https://www.defi.garden/?pool=906b233c-8478-4b94-94e5-2d77e6c7c9e5#src=seo_token; orca-dex (Solana), 7.83% APY, $6.99M TVL, https://www.defi.garden/?pool=69c64232-ef1a-45f2-b49b-daeb2a906873#src=seo_token; orca-dex (Solana), 22.61% APY, $31.31M TVL, https://www.defi.garden/?pool=a5c85bc8-eb41-45c0-a520-d18d7529c0d8#src=seo_token; orca-dex (Solana), 16.98% APY, $10.04M TVL, https://www.defi.garden/?pool=6dc30ef3-d497-497c-91f3-b4ccb817a8b9#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

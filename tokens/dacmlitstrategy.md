@@ -6,7 +6,7 @@ The highest honest DACMLITSTRATEGY yield right now is 19.92% on lagoon (Arbitrum
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=694c7731-fbbe-4a34-a100-fcc637296df0&src=seo_token) | Arbitrum | 19.92% | $446.7K |
+| [lagoon →](https://www.defi.garden/?pool=694c7731-fbbe-4a34-a100-fcc637296df0#src=seo_token) | Arbitrum | 19.92% | $446.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

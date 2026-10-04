@@ -6,7 +6,7 @@ The highest honest FAFO yield right now is 3.98% on raydium-amm (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=b4d19d19-4080-4d27-844e-4f5e722f1710&src=seo_token) | Solana | 3.98% | $173.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=b4d19d19-4080-4d27-844e-4f5e722f1710#src=seo_token) | Solana | 3.98% | $173.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

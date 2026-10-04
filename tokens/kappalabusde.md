@@ -6,7 +6,7 @@ The highest honest KAPPALABUSDE yield right now is 9.00% on wildcat-protocol (Et
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [wildcat-protocol →](https://www.defi.garden/?pool=2d2d3e18-f08c-442a-985d-d9d448404bfa&src=seo_token) | Ethereum | 9.00% | $118.7K |
+| [wildcat-protocol →](https://www.defi.garden/?pool=2d2d3e18-f08c-442a-985d-d9d448404bfa#src=seo_token) | Ethereum | 9.00% | $118.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

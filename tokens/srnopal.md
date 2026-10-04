@@ -6,7 +6,7 @@ The highest honest SRNOPAL yield right now is 8.64% on strata-markets (Ethereum)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=37925366-b5d4-579d-88d5-7ae9aed9056d&src=seo_token) | Ethereum | 8.64% | $110.2K |
+| [strata-markets →](https://www.defi.garden/?pool=37925366-b5d4-579d-88d5-7ae9aed9056d#src=seo_token) | Ethereum | 8.64% | $110.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

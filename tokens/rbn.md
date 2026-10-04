@@ -6,7 +6,7 @@ The highest honest RBN yield right now is 0.01% on uniswap-v3 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=92774453-a627-4733-a57f-dcae1245b0ac&src=seo_token) | Ethereum | 0.01% | $104.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=92774453-a627-4733-a57f-dcae1245b0ac#src=seo_token) | Ethereum | 0.01% | $104.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

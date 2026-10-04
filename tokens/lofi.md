@@ -6,7 +6,7 @@ The highest honest LOFI yield right now is 276.49% on turbos (Sui), among 1 pool
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [turbos →](https://www.defi.garden/?pool=ccc30f35-4716-4e38-afc2-d278451b4894&src=seo_token) | Sui | 276.49% | $117.6K |
+| [turbos →](https://www.defi.garden/?pool=ccc30f35-4716-4e38-afc2-d278451b4894#src=seo_token) | Sui | 276.49% | $117.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

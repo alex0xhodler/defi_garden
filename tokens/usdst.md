@@ -6,7 +6,7 @@ The highest honest USDST yield right now is 5.00% on strato (Strato), among 1 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [strato →](https://www.defi.garden/?pool=3d1f50ff-60fc-5456-966d-c66a6542d20f&src=seo_token) | Strato | 5.00% | $1.7M |
+| [strato →](https://www.defi.garden/?pool=3d1f50ff-60fc-5456-966d-c66a6542d20f#src=seo_token) | Strato | 5.00% | $1.7M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

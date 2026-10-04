@@ -6,7 +6,7 @@ The highest honest WSPYX yield right now is 0.07% on fluxion-network (Mantle), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fluxion-network →](https://www.defi.garden/?pool=913ce101-55b1-4230-93c7-d523f0d9ca03&src=seo_token) | Mantle | 0.07% | $109K |
+| [fluxion-network →](https://www.defi.garden/?pool=913ce101-55b1-4230-93c7-d523f0d9ca03#src=seo_token) | Mantle | 0.07% | $109K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many WSPYX pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $638.2K in total.
+2 live pools clear this page's $100K TVL floor, $637.9K in total.
 
 ### Are these rates safe?
 
@@ -52,11 +52,11 @@ There is not enough qualifying APY history to rank WSPYX pools. This view covers
 ## Related tokens
 
 - [USDT0](https://www.defi.garden/tokens/usdt0)
-- [KII](https://www.defi.garden/tokens/kii)
 - [BSB](https://www.defi.garden/tokens/bsb)
 - [BILL](https://www.defi.garden/tokens/bill)
 - [WNVDAX](https://www.defi.garden/tokens/wnvdax)
 - [ELSA](https://www.defi.garden/tokens/elsa)
+- [WHOODX](https://www.defi.garden/tokens/whoodx)
 
 ## Available on
 

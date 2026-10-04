@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
 
-The highest honest CRIME yield right now is 52.47% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CRIME yield right now is 46.59% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=3572fa35-5d92-45c5-8516-0eb58ceee1e8&src=seo_token) | Solana | 52.47% | $347.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=3572fa35-5d92-45c5-8516-0eb58ceee1e8#src=seo_token) | Solana | 46.59% | $412.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CRIME yield today?
 
-52.47% APY on raydium-amm (Solana), based on live DefiLlama data.
+46.59% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many CRIME pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $347.6K in total.
+1 live pool clear this page's $100K TVL floor, $412.6K in total.
 
 ### Are these rates safe?
 

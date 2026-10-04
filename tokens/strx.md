@@ -6,7 +6,7 @@ The highest honest STRX yield right now is 3.69% on raydium-amm (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=35ccf692-604f-422e-b17a-04f2c238cf10&src=seo_token) | Solana | 3.69% | $170.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=35ccf692-604f-422e-b17a-04f2c238cf10#src=seo_token) | Solana | 3.69% | $170.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many STRX pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $795.75M in total.
+2 live pools clear this page's $100K TVL floor, $794M in total.
 
 ### Are these rates safe?
 

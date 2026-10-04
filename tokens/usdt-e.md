@@ -2,12 +2,12 @@
 
 *Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
 
-The highest honest USDT.E yield right now is 11.63% on pangolin-v2 (Avalanche), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDT.E yield right now is 3.90% on rhea-dex (Near), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [rhea-dex →](https://www.defi.garden/?pool=2fc37959-7f8b-5016-a18d-902ab72b0d4b&src=seo_token) | Near | 3.54% | $131.7K |
-| [pangolin-v2 →](https://www.defi.garden/?pool=a62ddef2-9fe3-47cd-8e0d-c97366d2cae3&src=seo_token) | Avalanche | 11.63% | $103.3K |
+| [rhea-dex →](https://www.defi.garden/?pool=2fc37959-7f8b-5016-a18d-902ab72b0d4b#src=seo_token) | Near | 3.90% | $131.7K |
+| [pangolin-v2 →](https://www.defi.garden/?pool=a62ddef2-9fe3-47cd-8e0d-c97366d2cae3#src=seo_token) | Avalanche | 0.62% | $103.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-USDT.E shows up in 2 pools here, with rates from 3.54% to 11.63% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+USDT.E shows up in 2 pools here, with rates from 0.62% to 3.90% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 10.00% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 9.93% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -28,8 +28,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| rhea-dex | 3.54% | 10.85% | Base rate |
-| pangolin-v2 | 11.63% | 9.14% | Base rate |
+| rhea-dex | 3.90% | 10.63% | Base rate |
+| pangolin-v2 | 0.62% | 9.24% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USDT.E yield today?
 
-11.63% APY on pangolin-v2 (Avalanche), based on live DefiLlama data.
+3.90% APY on rhea-dex (Near), based on live DefiLlama data.
 
 ### How many USDT.E pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $733.6K in total.
+4 live pools clear this page's $100K TVL floor, $733.9K in total.
 
 ### Are these rates safe?
 

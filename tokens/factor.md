@@ -6,7 +6,7 @@ The highest honest FACTOR yield right now is 10.97% on plume-vaults (Plume Mainn
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [plume-vaults →](https://www.defi.garden/?pool=382def6f-810d-5297-bb59-5d2abc988346&src=seo_token) | Plume Mainnet | 10.97% | $9.41M |
+| [plume-vaults →](https://www.defi.garden/?pool=382def6f-810d-5297-bb59-5d2abc988346#src=seo_token) | Plume Mainnet | 10.97% | $9.41M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

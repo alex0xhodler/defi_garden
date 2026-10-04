@@ -6,7 +6,7 @@ The highest honest CRVALUSD yield right now is 0.10% on yearn-finance (Ethereum)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=a58c513c-8430-4525-a53a-14ccbe8fa507&src=seo_token) | Ethereum | 0.10% | $131.4K |
+| [yearn-finance →](https://www.defi.garden/?pool=a58c513c-8430-4525-a53a-14ccbe8fa507#src=seo_token) | Ethereum | 0.10% | $131.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

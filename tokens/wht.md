@@ -6,7 +6,7 @@ The highest honest WHT yield right now is 0.98% on mdex (Heco), among 2 pools ab
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [mdex →](https://www.defi.garden/?pool=a8549b82-881c-4d8c-99ca-b410919feb8d&src=seo_token) | Heco | 0.98% | $253.9K |
+| [mdex →](https://www.defi.garden/?pool=a8549b82-881c-4d8c-99ca-b410919feb8d#src=seo_token) | Heco | 0.98% | $253.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

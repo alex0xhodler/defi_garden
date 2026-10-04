@@ -6,7 +6,7 @@ The highest honest YZCASH yield right now is 5.90% on yuzu-money (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yuzu-money →](https://www.defi.garden/?pool=12b8c52b-d73e-595d-8bbc-f610d0c54d71&src=seo_token) | Ethereum | 5.90% | $1.57M |
+| [yuzu-money →](https://www.defi.garden/?pool=12b8c52b-d73e-595d-8bbc-f610d0c54d71#src=seo_token) | Ethereum | 5.90% | $1.57M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

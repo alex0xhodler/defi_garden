@@ -6,7 +6,7 @@ The highest honest WTSLAX yield right now is 1.29% on fluxion-network (Mantle), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fluxion-network →](https://www.defi.garden/?pool=a4ff3d7c-a117-4b24-a9f9-6af46cd276c0&src=seo_token) | Mantle | 1.29% | $102.1K |
+| [fluxion-network →](https://www.defi.garden/?pool=a4ff3d7c-a117-4b24-a9f9-6af46cd276c0#src=seo_token) | Mantle | 1.29% | $102.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -36,11 +36,11 @@ There is not enough qualifying APY history to rank WTSLAX pools. This view cover
 ## Related tokens
 
 - [USDT0](https://www.defi.garden/tokens/usdt0)
-- [KII](https://www.defi.garden/tokens/kii)
 - [WSPYX](https://www.defi.garden/tokens/wspyx)
 - [BSB](https://www.defi.garden/tokens/bsb)
 - [BILL](https://www.defi.garden/tokens/bill)
 - [WNVDAX](https://www.defi.garden/tokens/wnvdax)
+- [ELSA](https://www.defi.garden/tokens/elsa)
 
 ## Available on
 

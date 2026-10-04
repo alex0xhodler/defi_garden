@@ -6,7 +6,7 @@ The highest honest LI yield right now is 6.43% on raydium-amm (Solana), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=604e17fa-df63-402f-b663-ad45e4bda904&src=seo_token) | Solana | 6.43% | $109K |
+| [raydium-amm →](https://www.defi.garden/?pool=604e17fa-df63-402f-b663-ad45e4bda904#src=seo_token) | Solana | 6.43% | $109K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

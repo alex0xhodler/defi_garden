@@ -4,12 +4,12 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| MDX | [mdex →](https://www.defi.garden/?pool=279e4cc3-d69b-4567-94e5-74eddd7a10ed&src=seo_chain) | 0.05% | $5.54M |
-| WHT-USDT | [mdex →](https://www.defi.garden/?pool=a8549b82-881c-4d8c-99ca-b410919feb8d&src=seo_chain) | 0.98% | $253.9K |
-| DOGE-USDT | [mdex →](https://www.defi.garden/?pool=372ce454-1efb-49d7-975a-ddf0862ceb24&src=seo_chain) | 0.07% | $143.7K |
-| MDX | [mdex →](https://www.defi.garden/?pool=3218a6d2-6692-4c25-8382-8ba2fb5cde59&src=seo_chain) | 0.51% | $143.5K |
-| MDX-USDT | [mdex →](https://www.defi.garden/?pool=359957b0-5365-4713-a400-fbfa74313cb9&src=seo_chain) | 1.49% | $135.5K |
-| USDT-CON | [mdex →](https://www.defi.garden/?pool=31e91e4b-b9f4-4047-bc6d-02487aabefa3&src=seo_chain) | 0.01% | $108.3K |
+| MDX | [mdex →](https://www.defi.garden/?pool=279e4cc3-d69b-4567-94e5-74eddd7a10ed#src=seo_chain) | 0.05% | $5.54M |
+| WHT-USDT | [mdex →](https://www.defi.garden/?pool=a8549b82-881c-4d8c-99ca-b410919feb8d#src=seo_chain) | 0.98% | $253.9K |
+| DOGE-USDT | [mdex →](https://www.defi.garden/?pool=372ce454-1efb-49d7-975a-ddf0862ceb24#src=seo_chain) | 0.07% | $143.7K |
+| MDX | [mdex →](https://www.defi.garden/?pool=3218a6d2-6692-4c25-8382-8ba2fb5cde59#src=seo_chain) | 0.51% | $143.5K |
+| MDX-USDT | [mdex →](https://www.defi.garden/?pool=359957b0-5365-4713-a400-fbfa74313cb9#src=seo_chain) | 1.49% | $135.5K |
+| USDT-CON | [mdex →](https://www.defi.garden/?pool=31e91e4b-b9f4-4047-bc6d-02487aabefa3#src=seo_chain) | 0.01% | $108.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 

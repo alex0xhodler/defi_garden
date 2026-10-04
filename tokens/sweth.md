@@ -6,33 +6,33 @@ The highest honest SWETH yield right now is 2.37% on swell-liquid-staking (Ether
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [swell-liquid-staking →](https://www.defi.garden/?pool=ca2acc2d-6246-44aa-ae91-8725b2c62c7c&src=seo_token) | Ethereum | 2.37% | $36.32M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=64e26366-3582-439c-b1de-b7cf84cf2749&src=seo_token) | Ethereum | 7.18% | $176.9K |
+| [swell-liquid-staking →](https://www.defi.garden/?pool=ca2acc2d-6246-44aa-ae91-8725b2c62c7c#src=seo_token) | Ethereum | 2.37% | $36.42M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=64e26366-3582-439c-b1de-b7cf84cf2749#src=seo_token) | Ethereum | 0.98% | $177.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SWETH's lower-variability candidates are swell-liquid-staking (Ethereum), 2.37% APY, $36.32M TVL, https://www.defi.garden/?pool=ca2acc2d-6246-44aa-ae91-8725b2c62c7c&src=seo_token; uniswap-v3 (Ethereum), 7.18% APY, $176.9K TVL, https://www.defi.garden/?pool=64e26366-3582-439c-b1de-b7cf84cf2749&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SWETH's lower-variability candidates are swell-liquid-staking (Ethereum), 2.37% APY, $36.42M TVL, https://www.defi.garden/?pool=ca2acc2d-6246-44aa-ae91-8725b2c62c7c#src=seo_token; uniswap-v3 (Ethereum), 0.98% APY, $177.3K TVL, https://www.defi.garden/?pool=64e26366-3582-439c-b1de-b7cf84cf2749#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [swell-liquid-staking →](https://www.defi.garden/?pool=ca2acc2d-6246-44aa-ae91-8725b2c62c7c&src=seo_token) | Ethereum | 2.37% | $36.32M |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=64e26366-3582-439c-b1de-b7cf84cf2749&src=seo_token) | Ethereum | 7.18% | $176.9K |
+| 1 | [swell-liquid-staking →](https://www.defi.garden/?pool=ca2acc2d-6246-44aa-ae91-8725b2c62c7c#src=seo_token) | Ethereum | 2.37% | $36.42M |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=64e26366-3582-439c-b1de-b7cf84cf2749#src=seo_token) | Ethereum | 0.98% | $177.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SWETH shows up in 2 pools here, with rates from 2.37% to 7.18% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SWETH shows up in 2 pools here, with rates from 0.98% to 2.37% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.32% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.30% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | swell-liquid-staking | 2.37% | 2.30% | Base rate |
-| uniswap-v3 | 7.18% | 4.35% | Base rate |
+| uniswap-v3 | 0.98% | 4.29% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SWETH pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $36.63M in total.
+3 live pools clear this page's $100K TVL floor, $36.72M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SWETH pools have the most stable APY history?
 
-Based on APY history only, SWETH's lower-variability candidates are swell-liquid-staking (Ethereum), 2.37% APY, $36.32M TVL, https://www.defi.garden/?pool=ca2acc2d-6246-44aa-ae91-8725b2c62c7c&src=seo_token; uniswap-v3 (Ethereum), 7.18% APY, $176.9K TVL, https://www.defi.garden/?pool=64e26366-3582-439c-b1de-b7cf84cf2749&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SWETH's lower-variability candidates are swell-liquid-staking (Ethereum), 2.37% APY, $36.42M TVL, https://www.defi.garden/?pool=ca2acc2d-6246-44aa-ae91-8725b2c62c7c#src=seo_token; uniswap-v3 (Ethereum), 0.98% APY, $177.3K TVL, https://www.defi.garden/?pool=64e26366-3582-439c-b1de-b7cf84cf2749#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

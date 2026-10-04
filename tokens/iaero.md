@@ -6,7 +6,7 @@ The highest honest IAERO yield right now is 29.32% on iaero-protocol (Base), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [iaero-protocol →](https://www.defi.garden/?pool=696b786c-4a19-4fd2-a1b5-a4f8df762918&src=seo_token) | Base | 29.32% | $2.88M |
+| [iaero-protocol →](https://www.defi.garden/?pool=696b786c-4a19-4fd2-a1b5-a4f8df762918#src=seo_token) | Base | 29.32% | $2.88M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

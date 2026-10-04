@@ -6,26 +6,26 @@ The highest honest QQQB yield right now is 25.33% on native-credit-pool (BSC), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=62175cdc-208b-500c-9e91-ea08ec34d281&src=seo_token) | BSC | 8.61% | $1.91M |
-| [native-credit-pool →](https://www.defi.garden/?pool=a5bd33df-4410-5631-a44b-bab8214b1dc2&src=seo_token) | BSC | 25.33% | $1.51M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=62175cdc-208b-500c-9e91-ea08ec34d281#src=seo_token) | BSC | 7.68% | $1.86M |
+| [native-credit-pool →](https://www.defi.garden/?pool=a5bd33df-4410-5631-a44b-bab8214b1dc2#src=seo_token) | BSC | 25.33% | $1.51M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, QQQB's lower-variability candidates are native-credit-pool (BSC), 25.33% APY, $1.51M TVL, https://www.defi.garden/?pool=a5bd33df-4410-5631-a44b-bab8214b1dc2&src=seo_token; uniswap-v3 (BSC), 8.61% APY, $1.91M TVL, https://www.defi.garden/?pool=62175cdc-208b-500c-9e91-ea08ec34d281&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, QQQB's lower-variability candidates are native-credit-pool (BSC), 25.33% APY, $1.51M TVL, https://www.defi.garden/?pool=a5bd33df-4410-5631-a44b-bab8214b1dc2#src=seo_token; uniswap-v3 (BSC), 7.68% APY, $1.86M TVL, https://www.defi.garden/?pool=62175cdc-208b-500c-9e91-ea08ec34d281#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [native-credit-pool →](https://www.defi.garden/?pool=a5bd33df-4410-5631-a44b-bab8214b1dc2&src=seo_token) | BSC | 25.33% | $1.51M |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=62175cdc-208b-500c-9e91-ea08ec34d281&src=seo_token) | BSC | 8.61% | $1.91M |
+| 1 | [native-credit-pool →](https://www.defi.garden/?pool=a5bd33df-4410-5631-a44b-bab8214b1dc2#src=seo_token) | BSC | 25.33% | $1.51M |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=62175cdc-208b-500c-9e91-ea08ec34d281#src=seo_token) | BSC | 7.68% | $1.86M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-QQQB shows up in 2 pools here, with rates from 8.61% to 25.33% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+QQQB shows up in 2 pools here, with rates from 7.68% to 25.33% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 54.44% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 52.13% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,7 +33,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 8.61% | 83.54% | Base rate |
+| uniswap-v3 | 7.68% | 78.92% | Base rate |
 | native-credit-pool | 25.33% | 25.33% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many QQQB pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $3.42M in total.
+2 live pools clear this page's $100K TVL floor, $3.38M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which QQQB pools have the most stable APY history?
 
-Based on APY history only, QQQB's lower-variability candidates are native-credit-pool (BSC), 25.33% APY, $1.51M TVL, https://www.defi.garden/?pool=a5bd33df-4410-5631-a44b-bab8214b1dc2&src=seo_token; uniswap-v3 (BSC), 8.61% APY, $1.91M TVL, https://www.defi.garden/?pool=62175cdc-208b-500c-9e91-ea08ec34d281&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, QQQB's lower-variability candidates are native-credit-pool (BSC), 25.33% APY, $1.51M TVL, https://www.defi.garden/?pool=a5bd33df-4410-5631-a44b-bab8214b1dc2#src=seo_token; uniswap-v3 (BSC), 7.68% APY, $1.86M TVL, https://www.defi.garden/?pool=62175cdc-208b-500c-9e91-ea08ec34d281#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

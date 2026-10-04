@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [strato →](https://www.defi.garden/?pool=3d1f50ff-60fc-5456-966d-c66a6542d20f&src=seo_token) | Strato | 5.00% | $1.7M |
+| [strato →](https://www.defi.garden/?pool=3d1f50ff-60fc-5456-966d-c66a6542d20f#src=seo_token) | Strato | 5.00% | $1.7M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

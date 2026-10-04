@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [latch →](https://www.defi.garden/?pool=9998bf68-1ef8-4948-9cbb-d62eeeab91ab&src=seo_token) | Gravity | 0.32% | $1.36M |
+| [latch →](https://www.defi.garden/?pool=9998bf68-1ef8-4948-9cbb-d62eeeab91ab#src=seo_token) | Gravity | 0.32% | $1.36M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

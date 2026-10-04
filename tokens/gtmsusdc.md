@@ -6,7 +6,7 @@ The highest honest GTMSUSDC yield right now is 0.22% on morpho-blue (Ethereum), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=ca553126-d5b2-48fb-903b-e4585c18eed5&src=seo_token) | Ethereum | 0.22% | $18.5M |
+| [morpho-blue →](https://www.defi.garden/?pool=ca553126-d5b2-48fb-903b-e4585c18eed5#src=seo_token) | Ethereum | 0.22% | $18.5M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

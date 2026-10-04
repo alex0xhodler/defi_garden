@@ -6,7 +6,7 @@ The highest honest MD yield right now is 3.73% on raydium-amm (Solana), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=3c955b07-f2e6-4c24-862b-6a9b1910cfa1&src=seo_token) | Solana | 3.73% | $147.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=3c955b07-f2e6-4c24-862b-6a9b1910cfa1#src=seo_token) | Solana | 3.73% | $147.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

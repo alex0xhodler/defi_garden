@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [hyperion →](https://www.defi.garden/?pool=75c32bdd-1121-408b-a7b3-ca415a1233c4&src=seo_token) | Aptos | 4.80% | $1.58M |
+| [hyperion →](https://www.defi.garden/?pool=75c32bdd-1121-408b-a7b3-ca415a1233c4#src=seo_token) | Aptos | 4.80% | $1.58M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -40,7 +40,7 @@ DefiLlama 실시간 데이터 기준, Aptos의 hyperion에서 APY 4.80%예요.
 - [XBTC](https://www.defi.garden/ko/tokens/xbtc)
 - [APT](https://www.defi.garden/ko/tokens/apt)
 - [TRUAPT](https://www.defi.garden/ko/tokens/truapt)
-- [ABTC](https://www.defi.garden/ko/tokens/abtc)
+- [STAPT](https://www.defi.garden/ko/tokens/stapt)
 
 ## 이용 가능한 체인
 

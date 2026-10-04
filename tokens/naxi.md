@@ -6,7 +6,7 @@ The highest honest NAXI yield right now is 11.50% on plume-vaults (Plume Mainnet
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [plume-vaults →](https://www.defi.garden/?pool=ae992838-303f-5a75-8dc7-0cb765396245&src=seo_token) | Plume Mainnet | 11.50% | $5.52M |
+| [plume-vaults →](https://www.defi.garden/?pool=ae992838-303f-5a75-8dc7-0cb765396245#src=seo_token) | Plume Mainnet | 11.50% | $5.52M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

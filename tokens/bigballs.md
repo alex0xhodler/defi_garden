@@ -6,7 +6,7 @@ The highest honest BIGBALLS yield right now is 5.94% on raydium-amm (Solana), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=bac8271a-b244-4d08-a500-a56645941970&src=seo_token) | Solana | 5.94% | $101.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=bac8271a-b244-4d08-a500-a56645941970#src=seo_token) | Solana | 5.94% | $101.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

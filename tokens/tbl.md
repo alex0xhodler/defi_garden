@@ -6,7 +6,7 @@ The highest honest TBL yield right now is 3.01% on openeden-tbill (XRPL), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [openeden-tbill →](https://www.defi.garden/?pool=8032e541-5c60-4c68-9202-2812e75dab57&src=seo_token) | XRPL | 3.01% | $62.74M |
+| [openeden-tbill →](https://www.defi.garden/?pool=8032e541-5c60-4c68-9202-2812e75dab57#src=seo_token) | XRPL | 3.01% | $62.74M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

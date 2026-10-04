@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [centrifuge-protocol →](https://www.defi.garden/?pool=99181d82-5589-4ae6-b737-594aa11ded9f&src=seo_token) | Ethereum | 4.46% | $10.68M |
+| [centrifuge-protocol →](https://www.defi.garden/?pool=99181d82-5589-4ae6-b737-594aa11ded9f#src=seo_token) | Ethereum | 4.46% | $10.68M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

@@ -6,7 +6,7 @@ The highest honest SRMM1USD yield right now is 4.97% on strata-markets (Ethereum
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=8139ac7b-c983-4800-bb98-60abe3d68157&src=seo_token) | Ethereum | 4.97% | $422.8K |
+| [strata-markets →](https://www.defi.garden/?pool=8139ac7b-c983-4800-bb98-60abe3d68157#src=seo_token) | Ethereum | 4.97% | $422.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

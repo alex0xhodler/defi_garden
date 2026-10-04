@@ -6,7 +6,7 @@ The highest honest ABTC yield right now is 0.37% on hyperion (Aptos), among 1 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hyperion →](https://www.defi.garden/?pool=92273ca5-f765-452a-b8b0-02c26d54465d&src=seo_token) | Aptos | 0.37% | $642.4K |
+| [hyperion →](https://www.defi.garden/?pool=92273ca5-f765-452a-b8b0-02c26d54465d#src=seo_token) | Aptos | 0.37% | $642.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

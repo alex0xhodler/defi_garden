@@ -6,7 +6,7 @@ The highest honest RKSOL yield right now is 5.18% on starke-staked-sol (Solana),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [starke-staked-sol →](https://www.defi.garden/?pool=b6dbf329-91dd-443e-bfd6-1340bcd4e1aa&src=seo_token) | Solana | 5.18% | $1.29M |
+| [starke-staked-sol →](https://www.defi.garden/?pool=b6dbf329-91dd-443e-bfd6-1340bcd4e1aa#src=seo_token) | Solana | 5.18% | $1.29M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

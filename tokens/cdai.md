@@ -6,7 +6,7 @@ The highest honest CDAI yield right now is 0.01% on curve-dex (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=8ec9e3e2-1eb5-4c47-82de-edcc825ca4cc&src=seo_token) | Ethereum | 0.01% | $561.9K |
+| [curve-dex →](https://www.defi.garden/?pool=8ec9e3e2-1eb5-4c47-82de-edcc825ca4cc#src=seo_token) | Ethereum | 0.01% | $561.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

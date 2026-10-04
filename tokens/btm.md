@@ -6,7 +6,7 @@ The highest honest BTM yield right now is 0.04% on uniswap-v3 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=7faf1b88-7eb9-418b-948c-d31e2f9c6232&src=seo_token) | Ethereum | 0.04% | $397.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7faf1b88-7eb9-418b-948c-d31e2f9c6232#src=seo_token) | Ethereum | 0.04% | $397.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

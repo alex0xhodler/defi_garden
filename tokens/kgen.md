@@ -6,7 +6,7 @@ The highest honest KGEN yield right now is 4.42% on uniswap-v3 (Base), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=d3a0decb-9093-5408-b2c7-63476fb77806&src=seo_token) | Base | 4.42% | $195.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d3a0decb-9093-5408-b2c7-63476fb77806#src=seo_token) | Base | 4.42% | $195.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

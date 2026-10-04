@@ -6,7 +6,7 @@ The highest honest BBQTGBP yield right now is 0.06% on morpho-blue (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=c62ee044-fe46-47ec-97e5-b0d7d626ef97&src=seo_token) | Ethereum | 0.06% | $5.15M |
+| [morpho-blue →](https://www.defi.garden/?pool=c62ee044-fe46-47ec-97e5-b0d7d626ef97#src=seo_token) | Ethereum | 0.06% | $5.15M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

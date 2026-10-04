@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [yield-yak-aggregator →](https://www.defi.garden/?pool=f2b69026-34c2-4933-825b-cd3f6dd5fab3&src=seo_token) | Avalanche | 0.80% | $297.7K |
+| [yield-yak-aggregator →](https://www.defi.garden/?pool=f2b69026-34c2-4933-825b-cd3f6dd5fab3#src=seo_token) | Avalanche | 0.80% | $297.7K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

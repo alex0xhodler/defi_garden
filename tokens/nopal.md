@@ -6,7 +6,7 @@ The highest honest NOPAL yield right now is 11.04% on plume-vaults (Plume Mainne
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [plume-vaults →](https://www.defi.garden/?pool=f21c4938-864a-44bd-91fb-c492864fcb46&src=seo_token) | Plume Mainnet | 11.04% | $109.41M |
+| [plume-vaults →](https://www.defi.garden/?pool=f21c4938-864a-44bd-91fb-c492864fcb46#src=seo_token) | Plume Mainnet | 11.04% | $109.72M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many NOPAL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $114.41M in total.
+2 live pools clear this page's $100K TVL floor, $114.72M in total.
 
 ### Are these rates safe?
 

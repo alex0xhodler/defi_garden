@@ -6,7 +6,7 @@ The highest honest SUP yield right now is 19.24% on superform (Base), among 1 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [superform →](https://www.defi.garden/?pool=53b78982-b991-4276-9208-60a1749587aa&src=seo_token) | Base | 19.24% | $864.5K |
+| [superform →](https://www.defi.garden/?pool=53b78982-b991-4276-9208-60a1749587aa#src=seo_token) | Base | 19.24% | $864.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

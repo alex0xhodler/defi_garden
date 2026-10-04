@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [openeden-tbill →](https://www.defi.garden/?pool=8032e541-5c60-4c68-9202-2812e75dab57&src=seo_token) | XRPL | 3.01% | $62.74M |
+| [openeden-tbill →](https://www.defi.garden/?pool=8032e541-5c60-4c68-9202-2812e75dab57#src=seo_token) | XRPL | 3.01% | $62.74M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

@@ -2,11 +2,11 @@
 
 *DefiLlama 데이터 생성 시점 검증: October 4, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 EEARN의 가장 높은 정직한 수익률은 Sui의 current에서 10.97%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 EEARN의 가장 높은 정직한 수익률은 Sui의 current에서 11.00%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [current →](https://www.defi.garden/?pool=c9e32cbc-6404-4cbe-ba9d-8d7a7912d831&src=seo_token) | Sui | 10.97% | $1.09M |
+| [current →](https://www.defi.garden/?pool=c9e32cbc-6404-4cbe-ba9d-8d7a7912d831#src=seo_token) | Sui | 11.00% | $1.09M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,7 +19,7 @@
 
 ### 오늘 EEARN의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Sui의 current에서 APY 10.97%예요.
+DefiLlama 실시간 데이터 기준, Sui의 current에서 APY 11.00%예요.
 
 ### EEARN 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

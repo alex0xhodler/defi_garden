@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=d3df0f29-4f6b-41eb-80b9-4de0a1312298&src=seo_token) | Solana | 1.80% | $325.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=d3df0f29-4f6b-41eb-80b9-4de0a1312298#src=seo_token) | Solana | 1.80% | $325.1K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

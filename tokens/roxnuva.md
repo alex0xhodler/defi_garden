@@ -6,7 +6,7 @@ The highest honest ROXNUVA yield right now is 7.49% on morpho-blue (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=28627325-eef5-5638-b686-41c135129f04&src=seo_token) | Ethereum | 7.49% | $1.53M |
+| [morpho-blue →](https://www.defi.garden/?pool=28627325-eef5-5638-b686-41c135129f04#src=seo_token) | Ethereum | 7.49% | $1.55M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ROXNUVA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.53M in total.
+1 live pool clear this page's $100K TVL floor, $1.55M in total.
 
 ### Are these rates safe?
 

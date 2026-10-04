@@ -6,7 +6,7 @@ The highest honest SIGMAUSDC yield right now is 5.46% on lagoon (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=de96c722-ab4e-4af1-85f8-3700d72dc957&src=seo_token) | Ethereum | 5.46% | $1.26M |
+| [lagoon →](https://www.defi.garden/?pool=de96c722-ab4e-4af1-85f8-3700d72dc957#src=seo_token) | Ethereum | 5.46% | $1.26M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

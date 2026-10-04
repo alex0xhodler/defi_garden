@@ -6,7 +6,7 @@ The highest honest HLSTRAT yield right now is 2.85% on lagoon (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=57be91d8-9218-5fa6-a2ba-a1ccd6bb1cc8&src=seo_token) | Ethereum | 2.85% | $111.1K |
+| [lagoon →](https://www.defi.garden/?pool=57be91d8-9218-5fa6-a2ba-a1ccd6bb1cc8#src=seo_token) | Ethereum | 2.85% | $111.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

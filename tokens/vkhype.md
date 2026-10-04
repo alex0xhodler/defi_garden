@@ -6,8 +6,9 @@ The highest honest VKHYPE yield right now is 2.25% on pendle-v2 (Hyperliquid L1)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle-v2 →](https://www.defi.garden/?pool=5858bab6-4ef3-533b-a781-dfcbb7b2db4b&src=seo_token) | Hyperliquid L1 | 2.25% | $250.5K |
-| [pendle-v2 →](https://www.defi.garden/?pool=838e51ee-a8d8-5bde-a04a-2ee7457e9d14&src=seo_token) | Hyperliquid L1 | 1.66% | $250.5K |
+| [project-x →](https://www.defi.garden/?pool=f790f1f3-435e-4706-aaf2-19b08dde32ed#src=seo_token) | Hyperliquid L1 | 0.05% | $687.2K |
+| [pendle-v2 →](https://www.defi.garden/?pool=5858bab6-4ef3-533b-a781-dfcbb7b2db4b#src=seo_token) | Hyperliquid L1 | 2.25% | $251.7K |
+| [pendle-v2 →](https://www.defi.garden/?pool=838e51ee-a8d8-5bde-a04a-2ee7457e9d14#src=seo_token) | Hyperliquid L1 | 1.49% | $251.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,16 +19,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-VKHYPE shows up in 2 pools here, with rates from 1.66% to 2.25% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+VKHYPE shows up in 3 pools here, with rates from 0.05% to 2.25% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 6.79% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 4.12% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+
+1 of 3 pools carries impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle-v2 | 2.25% | 2.40% | Base rate |
-| pendle-v2 | 1.66% | 11.18% | 50.42% incentives |
+| project-x | 0.05% | 4.12% | Base rate |
+| pendle-v2 | 2.25% | 2.39% | Base rate |
+| pendle-v2 | 1.49% | 10.85% | 54.74% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

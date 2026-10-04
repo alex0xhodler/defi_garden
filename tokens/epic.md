@@ -6,7 +6,7 @@ The highest honest EPIC yield right now is 13.77% on uniswap-v4 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=19457d93-6be3-4207-8d0c-a15e8b321e29&src=seo_token) | Ethereum | 13.77% | $124K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=19457d93-6be3-4207-8d0c-a15e8b321e29#src=seo_token) | Ethereum | 13.77% | $124K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

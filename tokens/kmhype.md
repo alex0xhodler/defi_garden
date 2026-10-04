@@ -6,18 +6,18 @@ The highest honest KMHYPE yield right now is 0.81% on project-x (Hyperliquid L1)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [project-x →](https://www.defi.garden/?pool=2b91e652-5114-4833-9219-30aeb6ca87dc&src=seo_token) | Hyperliquid L1 | 0.02% | $624.7K |
-| [project-x →](https://www.defi.garden/?pool=e6e85dd0-5f46-433f-8662-2bc24200b915&src=seo_token) | Hyperliquid L1 | 0.81% | $105.8K |
+| [project-x →](https://www.defi.garden/?pool=2b91e652-5114-4833-9219-30aeb6ca87dc#src=seo_token) | Hyperliquid L1 | 0.02% | $624.7K |
+| [project-x →](https://www.defi.garden/?pool=e6e85dd0-5f46-433f-8662-2bc24200b915#src=seo_token) | Hyperliquid L1 | 0.81% | $105.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, KMHYPE's lower-variability candidates are project-x (Hyperliquid L1), 0.02% APY, $624.7K TVL, https://www.defi.garden/?pool=2b91e652-5114-4833-9219-30aeb6ca87dc&src=seo_token; project-x (Hyperliquid L1), 0.81% APY, $105.8K TVL, https://www.defi.garden/?pool=e6e85dd0-5f46-433f-8662-2bc24200b915&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, KMHYPE's lower-variability candidates are project-x (Hyperliquid L1), 0.02% APY, $624.7K TVL, https://www.defi.garden/?pool=2b91e652-5114-4833-9219-30aeb6ca87dc#src=seo_token; project-x (Hyperliquid L1), 0.81% APY, $105.8K TVL, https://www.defi.garden/?pool=e6e85dd0-5f46-433f-8662-2bc24200b915#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [project-x →](https://www.defi.garden/?pool=2b91e652-5114-4833-9219-30aeb6ca87dc&src=seo_token) | Hyperliquid L1 | 0.02% | $624.7K |
-| 2 | [project-x →](https://www.defi.garden/?pool=e6e85dd0-5f46-433f-8662-2bc24200b915&src=seo_token) | Hyperliquid L1 | 0.81% | $105.8K |
+| 1 | [project-x →](https://www.defi.garden/?pool=2b91e652-5114-4833-9219-30aeb6ca87dc#src=seo_token) | Hyperliquid L1 | 0.02% | $624.7K |
+| 2 | [project-x →](https://www.defi.garden/?pool=e6e85dd0-5f46-433f-8662-2bc24200b915#src=seo_token) | Hyperliquid L1 | 0.81% | $105.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -25,7 +25,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 KMHYPE shows up in 2 pools here, with rates from 0.02% to 0.81% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.27% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.25% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| project-x | 0.02% | 0.54% | Base rate |
-| project-x | 0.81% | 4.00% | Base rate |
+| project-x | 0.02% | 0.53% | Base rate |
+| project-x | 0.81% | 3.97% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which KMHYPE pools have the most stable APY history?
 
-Based on APY history only, KMHYPE's lower-variability candidates are project-x (Hyperliquid L1), 0.02% APY, $624.7K TVL, https://www.defi.garden/?pool=2b91e652-5114-4833-9219-30aeb6ca87dc&src=seo_token; project-x (Hyperliquid L1), 0.81% APY, $105.8K TVL, https://www.defi.garden/?pool=e6e85dd0-5f46-433f-8662-2bc24200b915&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, KMHYPE's lower-variability candidates are project-x (Hyperliquid L1), 0.02% APY, $624.7K TVL, https://www.defi.garden/?pool=2b91e652-5114-4833-9219-30aeb6ca87dc#src=seo_token; project-x (Hyperliquid L1), 0.81% APY, $105.8K TVL, https://www.defi.garden/?pool=e6e85dd0-5f46-433f-8662-2bc24200b915#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

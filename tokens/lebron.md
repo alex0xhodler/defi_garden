@@ -6,7 +6,7 @@ The highest honest LEBRON yield right now is 9.95% on raydium-amm (Solana), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=220bd490-74cc-526a-aa29-b36b35518d3c&src=seo_token) | Solana | 9.95% | $100.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=220bd490-74cc-526a-aa29-b36b35518d3c#src=seo_token) | Solana | 9.95% | $100.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

@@ -6,7 +6,7 @@ The highest honest URRWA yield right now is 4.63% on morpho-blue (Monad), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=e45fd043-86ee-4620-8cd9-3c787c5728a7&src=seo_token) | Monad | 4.63% | $193.5K |
+| [morpho-blue →](https://www.defi.garden/?pool=e45fd043-86ee-4620-8cd9-3c787c5728a7#src=seo_token) | Monad | 4.63% | $193.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

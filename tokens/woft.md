@@ -6,7 +6,7 @@ The highest honest WOFT yield right now is 6.08% on uniswap-v4 (Base), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=998db234-d21f-59d2-9ea0-152bf5c61677&src=seo_token) | Base | 6.08% | $129K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=998db234-d21f-59d2-9ea0-152bf5c61677#src=seo_token) | Base | 6.08% | $129K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

@@ -6,7 +6,7 @@ The highest honest WSOS yield right now is 17.81% on uniswap-v4 (Base), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=af31f83e-c79f-5890-890e-73c5d03ae181&src=seo_token) | Base | 17.81% | $142.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=af31f83e-c79f-5890-890e-73c5d03ae181#src=seo_token) | Base | 17.81% | $142.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

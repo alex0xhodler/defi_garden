@@ -6,7 +6,7 @@ The highest honest SBUSDC yield right now is 8.08% on morpho-blue (Monad), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=4861b40b-9561-57e4-9938-31274e58d1a6&src=seo_token) | Monad | 8.08% | $145.9K |
+| [morpho-blue →](https://www.defi.garden/?pool=4861b40b-9561-57e4-9938-31274e58d1a6#src=seo_token) | Monad | 8.08% | $145.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

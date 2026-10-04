@@ -6,7 +6,7 @@ The highest honest AIN yield right now is 48.14% on uniswap-v4 (BSC), among 1 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=f77458f0-59c4-57f9-adf3-e32f988725e8&src=seo_token) | BSC | 48.14% | $122.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f77458f0-59c4-57f9-adf3-e32f988725e8#src=seo_token) | BSC | 48.14% | $122.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

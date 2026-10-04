@@ -6,7 +6,7 @@ The highest honest GOOGLB yield right now is 34.09% on uniswap-v4 (BSC), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=bfdc9734-36a7-5de7-9288-96daac0735c0&src=seo_token) | BSC | 34.09% | $123.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=bfdc9734-36a7-5de7-9288-96daac0735c0#src=seo_token) | BSC | 34.09% | $123.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

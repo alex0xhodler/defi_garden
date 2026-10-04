@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [folks-finance-lending →](https://www.defi.garden/?pool=c402e884-ca25-4c2e-97f7-a4a55c13781c&src=seo_token) | Algorand | 0.08% | $1.16M |
+| [folks-finance-lending →](https://www.defi.garden/?pool=c402e884-ca25-4c2e-97f7-a4a55c13781c#src=seo_token) | Algorand | 0.08% | $1.16M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

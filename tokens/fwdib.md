@@ -6,7 +6,7 @@ The highest honest FWDIB yield right now is 10.58% on uniswap-v4 (BSC), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=fcd425f9-040f-51c3-84a3-b05252448e52&src=seo_token) | BSC | 10.58% | $107.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=fcd425f9-040f-51c3-84a3-b05252448e52#src=seo_token) | BSC | 10.58% | $107.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

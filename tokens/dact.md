@@ -6,7 +6,7 @@ The highest honest DACT yield right now is 54.37% on uniswap-v2 (Base), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=f7dd639a-e6f4-57a8-9d40-d4a1d72111ec&src=seo_token) | Base | 54.37% | $442K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=f7dd639a-e6f4-57a8-9d40-d4a1d72111ec#src=seo_token) | Base | 54.37% | $442K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

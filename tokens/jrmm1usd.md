@@ -6,7 +6,7 @@ The highest honest JRMM1USD yield right now is 7.10% on strata-markets (Ethereum
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=2172d4b0-9a76-4452-af46-2ce833d2c612&src=seo_token) | Ethereum | 7.10% | $1.05M |
+| [strata-markets →](https://www.defi.garden/?pool=2172d4b0-9a76-4452-af46-2ce833d2c612#src=seo_token) | Ethereum | 7.10% | $1.05M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

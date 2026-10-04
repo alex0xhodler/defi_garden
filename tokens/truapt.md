@@ -6,7 +6,7 @@ The highest honest TRUAPT yield right now is 1.12% on hyperion (Aptos), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hyperion →](https://www.defi.garden/?pool=c0d0a7a7-4d21-4d0f-9de0-f0b0f73ca28c&src=seo_token) | Aptos | 1.12% | $1.44M |
+| [hyperion →](https://www.defi.garden/?pool=c0d0a7a7-4d21-4d0f-9de0-f0b0f73ca28c#src=seo_token) | Aptos | 1.12% | $1.44M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -40,7 +40,7 @@ There is not enough qualifying APY history to rank TRUAPT pools. This view cover
 - [XBTC](https://www.defi.garden/tokens/xbtc)
 - [APT](https://www.defi.garden/tokens/apt)
 - [AMAPT](https://www.defi.garden/tokens/amapt)
-- [ABTC](https://www.defi.garden/tokens/abtc)
+- [STAPT](https://www.defi.garden/tokens/stapt)
 
 ## Available on
 

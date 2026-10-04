@@ -6,7 +6,7 @@ The highest honest PYUSD0 yield right now is 11.32% on more-markets (Flow), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [more-markets →](https://www.defi.garden/?pool=107c6769-4a4f-4279-9a5e-f181d78d09dd&src=seo_token) | Flow | 11.32% | $124.9K |
+| [more-markets →](https://www.defi.garden/?pool=107c6769-4a4f-4279-9a5e-f181d78d09dd#src=seo_token) | Flow | 11.32% | $124.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

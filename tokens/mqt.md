@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
 
-The highest honest MQT yield right now is 1.25% on uniswap-v3 (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MQT yield right now is 0.98% on uniswap-v3 (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=f898faea-1f3b-4a5c-a6da-3ab0efdf188c&src=seo_token) | Avalanche | 1.25% | $146.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f898faea-1f3b-4a5c-a6da-3ab0efdf188c#src=seo_token) | Avalanche | 0.98% | $146.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MQT yield today?
 
-1.25% APY on uniswap-v3 (Avalanche), based on live DefiLlama data.
+0.98% APY on uniswap-v3 (Avalanche), based on live DefiLlama data.
 
 ### How many MQT pools clear the TVL floor?
 

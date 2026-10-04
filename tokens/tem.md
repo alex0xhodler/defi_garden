@@ -6,7 +6,7 @@ The highest honest TEM yield right now is 0.07% on uniswap-v4 (BSC), among 1 poo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=5f15161b-5de8-4c11-962e-7e35d447ec20&src=seo_token) | BSC | 0.07% | $930.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=5f15161b-5de8-4c11-962e-7e35d447ec20#src=seo_token) | BSC | 0.07% | $930.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

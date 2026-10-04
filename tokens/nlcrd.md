@@ -6,7 +6,7 @@ The highest honest NLCRD yield right now is 18.97% on plume-vaults (Plume Mainne
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [plume-vaults →](https://www.defi.garden/?pool=6249eadc-249b-4227-92a2-d8676a1df08c&src=seo_token) | Plume Mainnet | 18.97% | $2.06M |
+| [plume-vaults →](https://www.defi.garden/?pool=6249eadc-249b-4227-92a2-d8676a1df08c#src=seo_token) | Plume Mainnet | 18.97% | $2.06M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

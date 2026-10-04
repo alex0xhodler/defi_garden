@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
 
-The highest honest TURTLE yield right now is 6.65% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TURTLE yield right now is 3.38% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=8e4cbe35-598b-4a83-be52-2f18c1a3a4b6&src=seo_token) | Ethereum | 6.65% | $1.49M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=8e4cbe35-598b-4a83-be52-2f18c1a3a4b6#src=seo_token) | Ethereum | 3.38% | $1.49M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TURTLE yield today?
 
-6.65% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+3.38% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many TURTLE pools clear the TVL floor?
 

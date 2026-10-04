@@ -6,7 +6,7 @@ The highest honest SRROYSUSDAI yield right now is 3.94% on royco-v2 (Arbitrum), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [royco-v2 →](https://www.defi.garden/?pool=4c85a387-c143-5efb-b561-57d2bb040c4a&src=seo_token) | Arbitrum | 3.94% | $1.15M |
+| [royco-v2 →](https://www.defi.garden/?pool=4c85a387-c143-5efb-b561-57d2bb040c4a#src=seo_token) | Arbitrum | 3.94% | $1.15M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

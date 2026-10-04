@@ -6,7 +6,7 @@ The highest honest 9SUSDC yield right now is 7.81% on lagoon (Ethereum), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=2bc0cfec-842e-4319-8da3-85374f087c33&src=seo_token) | Ethereum | 7.81% | $5.42M |
+| [lagoon →](https://www.defi.garden/?pool=2bc0cfec-842e-4319-8da3-85374f087c33#src=seo_token) | Ethereum | 7.81% | $5.42M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

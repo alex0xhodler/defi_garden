@@ -6,7 +6,7 @@ The highest honest XAU yield right now is 6.76% on gmx-solana (Solana), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmx-solana →](https://www.defi.garden/?pool=3c93e06c-f309-47d4-b9bd-7212c5401c67&src=seo_token) | Solana | 6.76% | $3.53M |
+| [gmx-solana →](https://www.defi.garden/?pool=3c93e06c-f309-47d4-b9bd-7212c5401c67#src=seo_token) | Solana | 6.76% | $3.53M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

@@ -6,7 +6,7 @@ The highest honest DTUSDC yield right now is 8.73% on lagoon (Base), among 1 poo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=e4f8123d-1e03-408e-869a-76708a62bc89&src=seo_token) | Base | 8.73% | $666.7K |
+| [lagoon →](https://www.defi.garden/?pool=e4f8123d-1e03-408e-869a-76708a62bc89#src=seo_token) | Base | 8.73% | $666.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

@@ -6,26 +6,26 @@ The highest honest GIGA yield right now is 0.02% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=10a72779-843e-4491-a9f6-7bc81e452193&src=seo_token) | Solana | 2.25% | $1.79M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=d4f8e9b2-c6d3-47e5-8959-dbc15caac391&src=seo_token) | Ethereum | 0.02% | $113.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=10a72779-843e-4491-a9f6-7bc81e452193#src=seo_token) | Solana | 2.46% | $1.79M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=d4f8e9b2-c6d3-47e5-8959-dbc15caac391#src=seo_token) | Ethereum | 0.02% | $113.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, GIGA's lower-variability candidates are uniswap-v2 (Ethereum), 0.02% APY, $113.4K TVL, https://www.defi.garden/?pool=d4f8e9b2-c6d3-47e5-8959-dbc15caac391&src=seo_token; raydium-amm (Solana), 2.25% APY, $1.79M TVL, https://www.defi.garden/?pool=10a72779-843e-4491-a9f6-7bc81e452193&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GIGA's lower-variability candidates are uniswap-v2 (Ethereum), 0.02% APY, $113.5K TVL, https://www.defi.garden/?pool=d4f8e9b2-c6d3-47e5-8959-dbc15caac391#src=seo_token; raydium-amm (Solana), 2.46% APY, $1.79M TVL, https://www.defi.garden/?pool=10a72779-843e-4491-a9f6-7bc81e452193#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=d4f8e9b2-c6d3-47e5-8959-dbc15caac391&src=seo_token) | Ethereum | 0.02% | $113.4K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=10a72779-843e-4491-a9f6-7bc81e452193&src=seo_token) | Solana | 2.25% | $1.79M |
+| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=d4f8e9b2-c6d3-47e5-8959-dbc15caac391#src=seo_token) | Ethereum | 0.02% | $113.5K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=10a72779-843e-4491-a9f6-7bc81e452193#src=seo_token) | Solana | 2.46% | $1.79M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-GIGA shows up in 2 pools here, with rates from 0.02% to 2.25% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+GIGA shows up in 2 pools here, with rates from 0.02% to 2.46% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 7.89% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 7.82% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,7 +33,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 2.25% | 15.78% | Base rate |
+| raydium-amm | 2.46% | 15.65% | Base rate |
 | uniswap-v2 | 0.02% | 0.00% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which GIGA pools have the most stable APY history?
 
-Based on APY history only, GIGA's lower-variability candidates are uniswap-v2 (Ethereum), 0.02% APY, $113.4K TVL, https://www.defi.garden/?pool=d4f8e9b2-c6d3-47e5-8959-dbc15caac391&src=seo_token; raydium-amm (Solana), 2.25% APY, $1.79M TVL, https://www.defi.garden/?pool=10a72779-843e-4491-a9f6-7bc81e452193&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GIGA's lower-variability candidates are uniswap-v2 (Ethereum), 0.02% APY, $113.5K TVL, https://www.defi.garden/?pool=d4f8e9b2-c6d3-47e5-8959-dbc15caac391#src=seo_token; raydium-amm (Solana), 2.46% APY, $1.79M TVL, https://www.defi.garden/?pool=10a72779-843e-4491-a9f6-7bc81e452193#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

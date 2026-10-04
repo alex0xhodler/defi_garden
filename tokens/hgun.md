@@ -6,7 +6,7 @@ The highest honest HGUN yield right now is 0.37% on hyperswap-v3 (Hyperliquid L1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hyperswap-v3 →](https://www.defi.garden/?pool=6d6519c3-137d-4468-8282-0f529752539d&src=seo_token) | Hyperliquid L1 | 0.37% | $102.6K |
+| [hyperswap-v3 →](https://www.defi.garden/?pool=6d6519c3-137d-4468-8282-0f529752539d#src=seo_token) | Hyperliquid L1 | 0.37% | $102.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
