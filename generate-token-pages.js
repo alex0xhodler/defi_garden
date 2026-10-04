@@ -434,9 +434,10 @@ function categoryLinksFor(pools, baseAppUrl, cap) {
  * token so the pre-existing related-tokens/chains nav's exact
  * `class="related"` tests keep targeting only that original nav.
  */
-function renderLinkNavHtml(items, ariaLabel, heading, extraNavClass) {
+function renderLinkNavHtml(items, ariaLabel, heading, extraNavClass, linkRel) {
   if (!items || !items.length) return '';
-  const links = items.map(i => `<a href="${i.href}">${escapeHtml(i.label)}</a>`).join('\n        ');
+  const relAttr = linkRel ? ` rel="${linkRel}"` : '';
+  const links = items.map(i => `<a${relAttr} href="${i.href}">${escapeHtml(i.label)}</a>`).join('\n        ');
   const navClass = extraNavClass ? `related ${extraNavClass}` : 'related';
   return `    <nav class="${navClass}" aria-label="${escapeHtml(ariaLabel)}">
       <h2>${escapeHtml(heading)}</h2>
@@ -1282,7 +1283,7 @@ function renderRateStabilityHtml(stability, symbol, t) {
         <tbody>
 ${stability.candidates.map(candidate => `          <tr>
             <td class="num">${candidate.rank}</td>
-            <td><a class="tp-pool-link" href="${escapeHtml(candidate.href)}">${escapeHtml(candidate.project)} &rarr;</a></td>
+            <td><a class="tp-pool-link" rel="nofollow" href="${escapeHtml(candidate.href)}">${escapeHtml(candidate.project)} &rarr;</a></td>
             <td>${escapeHtml(candidate.chain)}</td>
             <td class="num">${candidate.apyStr}</td>
             <td class="num">${candidate.tvlStr}</td>
@@ -1718,7 +1719,7 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
   // (shared, unaware of which generator called it); the tag is applied here,
   // at the render site, over every item it returned (never skipped/duplicated).
   const categoryItems = categoryLinksFor(rec.pools, appUrl).map(c => ({ label: c.category, href: withSrc(c.url, 'seo_token') }));
-  const categoryBlock = renderLinkNavHtml(categoryItems, t('tcpPoolCategoriesAriaLabel'), t('tcpByCategoryHeading'), 'xlink-category');
+  const categoryBlock = renderLinkNavHtml(categoryItems, t('tcpPoolCategoriesAriaLabel'), t('tcpByCategoryHeading'), 'xlink-category', 'nofollow');
 
   // Waitlist CTA (062): the only path from this page into the card funnel.
   const waitlistBlock = renderWaitlistCtaHtml(t('tcpWaitlistPitchToken', rec.symbol), 'tp', 'seo_token', t, { symbol: rec.symbol });
@@ -1742,7 +1743,7 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
     const poolHref = poolHrefFor(p, appUrl, 'seo_token');
     const accessNote = isPermissionedPool(p) ? ' <span class="tp-restricted" title="Restricted access (KYC/accredited)">&#x1F512;</span>' : '';
     return `        <tr>
-          <td><a class="tp-pool-link" href="${poolHref}">${escapeHtml(p.project || '—')}${accessNote} →</a></td>
+          <td><a class="tp-pool-link" rel="nofollow" href="${poolHref}">${escapeHtml(p.project || '—')}${accessNote} →</a></td>
           <td>${escapeHtml(p.chain || '—')}</td>
           <td class="num">${formatApy(poolTotalApy(p))}</td>
           <td class="num">${formatUsd(p.tvlUsd)}</td>
@@ -1837,7 +1838,7 @@ ${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/tokens/${rec.slug}
 ${answerBlock}    <p class="sub">${escapeHtml(t('tcpSubLine', rec.qualifyingCount, floorStr))}</p>
     <p class="tp-updated">${escapeHtml(updatedText)}</p>
     <p class="intro">${intro}</p>
-${yieldHeadlineBlock}    <a class="tp-cta" href="${withSrc(appUrl, 'seo_token')}">${escapeHtml(t('tcpTokenCta', rec.symbol))}</a>
+${yieldHeadlineBlock}    <a class="tp-cta" rel="nofollow" href="${withSrc(appUrl, 'seo_token')}">${escapeHtml(t('tcpTokenCta', rec.symbol))}</a>
     <div class="tp-card">
     <div class="scroll">
     <table>

@@ -248,7 +248,7 @@ function renderChainPage(rec, related, generatedDate, tokenLinks, lang, ogImageP
   // (shared, unaware of which generator called it); the tag is applied here,
   // at the render site, over every item it returned (never skipped/duplicated).
   const categoryItems = categoryLinksFor(rec.pools, appUrl).map(c => ({ label: c.category, href: withSrc(c.url, 'seo_chain') }));
-  const categoryBlock = renderLinkNavHtml(categoryItems, t('tcpPoolCategoriesAriaLabel'), t('tcpByCategoryHeading'), 'xlink-category');
+  const categoryBlock = renderLinkNavHtml(categoryItems, t('tcpPoolCategoriesAriaLabel'), t('tcpByCategoryHeading'), 'xlink-category', 'nofollow');
 
   // Waitlist CTA (062): the only path from this page into the card funnel.
   const waitlistBlock = renderWaitlistCtaHtml(t('tcpWaitlistPitchChain', rec.chain), 'cp', 'seo_chain', t);
@@ -263,7 +263,7 @@ function renderChainPage(rec, related, generatedDate, tokenLinks, lang, ogImageP
     const accessNote = isPermissionedPool(p) ? ' <span class="cp-restricted" title="Restricted access (KYC/accredited)">&#x1F512;</span>' : '';
     return `        <tr>
           <td>${escapeHtml(p.symbol || '—')}</td>
-          <td><a class="cp-pool-link" href="${poolHref}">${escapeHtml(p.project || '—')}${accessNote} &rarr;</a></td>
+          <td><a class="cp-pool-link" rel="nofollow" href="${poolHref}">${escapeHtml(p.project || '—')}${accessNote} &rarr;</a></td>
           <td class="num">${formatApy(poolTotalApy(p))}</td>
           <td class="num">${formatUsd(p.tvlUsd)}</td>
         </tr>`;
@@ -343,7 +343,7 @@ ${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/chains/${rec.slug}
     <h1>${escapeHtml(t('tcpChainHeading', rec.chain))}</h1>
 ${answerBlock}    <p class="sub">${escapeHtml(t('tcpSubLine', rec.qualifyingCount, floorStr))}</p>
     <p class="intro">${intro}</p>
-${yieldHeadlineBlock}    <a class="cp-cta" href="${withSrc(appUrl, 'seo_chain')}">${escapeHtml(t('tcpChainCta', rec.chain))}</a>
+${yieldHeadlineBlock}    <a class="cp-cta" rel="nofollow" href="${withSrc(appUrl, 'seo_chain')}">${escapeHtml(t('tcpChainCta', rec.chain))}</a>
     <div class="cp-card">
     <div class="scroll">
     <table>
