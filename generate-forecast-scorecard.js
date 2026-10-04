@@ -11,6 +11,7 @@
  * - Computes % of outcomes landing inside the probabilistic p10-p90 forecast band.
  * - Computes Mean Absolute Error (MAE) across all evaluated venues.
  * - Names the biggest misses publicly (transparency as trust moat).
+ * - "Quiet" design system: Besley display serif, hairline border, certificate-green tokens, zero slop.
  */
 
 const fs = require('fs');
@@ -130,154 +131,340 @@ function renderScorecardHtml(stats) {
   if (!stats) return '';
 
   const missRows = stats.topMisses.map((m, idx) => `
-    <tr>
-      <td>${idx + 1}</td>
-      <td><strong>${escapeHtml(m.project)}</strong> (${escapeHtml(m.symbol)})</td>
-      <td>${escapeHtml(m.chain)}</td>
-      <td class="num">${formatUsd(m.tvlUsd)}</td>
-      <td class="num">${m.p50.toFixed(2)}%</td>
-      <td class="num">[${m.p10.toFixed(2)}%, ${m.p90.toFixed(2)}%]</td>
-      <td class="num" style="font-weight:600; color:var(--ui-accent);">${m.actualApy.toFixed(2)}%</td>
-      <td class="num" style="color:#e05252; font-weight:700;">+${m.error.toFixed(2)} pp</td>
-    </tr>
-  `).join('\n');
+        <tr>
+          <td>${idx + 1}</td>
+          <td><span class="pool-project">${escapeHtml(m.project)}</span> <span class="pool-symbol">(${escapeHtml(m.symbol)})</span></td>
+          <td>${escapeHtml(m.chain)}</td>
+          <td class="num">${formatUsd(m.tvlUsd)}</td>
+          <td class="num">${m.p50.toFixed(2)}%</td>
+          <td class="num">[${m.p10.toFixed(2)}%, ${m.p90.toFixed(2)}%]</td>
+          <td class="num">${m.actualApy.toFixed(2)}%</td>
+          <td class="num diff-miss">+${m.error.toFixed(2)} pp</td>
+        </tr>`).join('\n');
 
   const accurateRows = stats.accurateHighTvl.map(m => `
-    <tr>
-      <td><strong>${escapeHtml(m.project)}</strong> (${escapeHtml(m.symbol)})</td>
-      <td>${escapeHtml(m.chain)}</td>
-      <td class="num">${formatUsd(m.tvlUsd)}</td>
-      <td class="num">${m.p50.toFixed(2)}%</td>
-      <td class="num">[${m.p10.toFixed(2)}%, ${m.p90.toFixed(2)}%]</td>
-      <td class="num" style="font-weight:600; color:var(--cert-green, #10b981);">${m.actualApy.toFixed(2)}%</td>
-      <td class="num" style="color:var(--ui-text-secondary);">&plusmn;${m.error.toFixed(2)} pp</td>
-    </tr>
-  `).join('\n');
+        <tr>
+          <td><span class="pool-project">${escapeHtml(m.project)}</span> <span class="pool-symbol">(${escapeHtml(m.symbol)})</span></td>
+          <td>${escapeHtml(m.chain)}</td>
+          <td class="num">${formatUsd(m.tvlUsd)}</td>
+          <td class="num">${m.p50.toFixed(2)}%</td>
+          <td class="num">[${m.p10.toFixed(2)}%, ${m.p90.toFixed(2)}%]</td>
+          <td class="num">${m.actualApy.toFixed(2)}%</td>
+          <td class="num diff-match">&plusmn;${m.error.toFixed(2)} pp</td>
+        </tr>`).join('\n');
 
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DeFi Yield Forecast Accuracy Scorecard | DeFi Garden</title>
-  <meta name="description" content="Public track-record for DeFi Garden's 14-day forward yield forecast bands. Empirical accuracy, mean absolute error, and named forecast misses.">
-  <link rel="canonical" href="https://www.defi.garden/forecast-accuracy">
-  <meta property="og:title" content="DeFi Yield Forecast Accuracy Scorecard | DeFi Garden">
-  <meta property="og:description" content="Public track-record for DeFi Garden's 14-day forward yield forecast bands. Verified against historical DefiLlama data.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.defi.garden/forecast-accuracy">
-  <meta name="robots" content="index,follow">
-  <link rel="stylesheet" href="/style.css">
-  <style>
-    .scorecard-wrap { max-width: 920px; margin: 0 auto; padding: 40px 20px; }
-    .scorecard-wrap h1 { font-family: var(--font-family-display); font-size: 1.85rem; margin: 0 0 8px; color: var(--ui-text); }
-    .scorecard-sub { color: var(--ui-text-secondary); font-size: 0.95rem; margin-bottom: 24px; line-height: 1.5; }
-    .kpi-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin: 24px 0 32px; }
-    .kpi-card { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-lg); padding: 20px; }
-    .kpi-card .label { font-size: 0.8rem; color: var(--ui-text-secondary); text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 6px; }
-    .kpi-card .val { font-size: 1.7rem; font-weight: 700; color: var(--ui-text); font-variant-numeric: tabular-nums; }
-    .kpi-card .subtext { font-size: 0.82rem; color: var(--ui-text-muted); margin-top: 4px; }
-    .table-card { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-lg); overflow: hidden; margin: 20px 0 36px; }
-    .table-card table { width: 100%; border-collapse: collapse; text-align: left; }
-    .table-card th, .table-card td { padding: 12px 16px; border-bottom: 1px solid var(--ui-border); font-size: 0.9rem; }
-    .table-card th { color: var(--ui-text-secondary); font-weight: 600; background: var(--ui-surface-muted, rgba(0,0,0,0.02)); }
-    .table-card tr:last-child td { border-bottom: none; }
-    .table-card .num { text-align: right; font-variant-numeric: tabular-nums; }
-    .scroll-wrap { overflow-x: auto; }
-    .misses-banner { background: rgba(224, 82, 82, 0.06); border: 1px solid rgba(224, 82, 82, 0.2); border-radius: var(--ui-radius-md); padding: 14px 18px; margin-bottom: 14px; font-size: 0.88rem; color: var(--ui-text); }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yield Forecast Accuracy: Public Track Record &amp; Misses | DeFi Garden</title>
+    <meta name="description" content="Public track record for DeFi Garden's 14-day forward yield forecast bands. Verified empirical accuracy (${stats.bandAccuracy.toFixed(1)}% band capture), mean absolute error, and named forecast misses.">
+    <link rel="canonical" href="https://www.defi.garden/forecast-accuracy">
+    <meta property="og:title" content="Yield Forecast Accuracy: Public Track Record &amp; Misses | DeFi Garden">
+    <meta property="og:description" content="Public track record for DeFi Garden's 14-day forward yield forecast bands. Verified empirical accuracy (${stats.bandAccuracy.toFixed(1)}% band capture), mean absolute error, and named forecast misses.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.defi.garden/forecast-accuracy">
+    <meta property="og:image" content="https://www.defi.garden/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="robots" content="index,follow">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
+    <link rel="preload" href="/fonts/PublicSans-latin-var.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/Besley-latin-var.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/style.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Dataset",
+      "name": "DeFi Garden 14-Day Yield Forecast Accuracy Dataset",
+      "description": "Public backtest evaluation of 14-day probabilistic yield forecast bands across ${stats.evaluated.toLocaleString()} decentralized liquidity venues.",
+      "url": "https://www.defi.garden/forecast-accuracy",
+      "creator": {
+        "@type": "Organization",
+        "name": "DeFi Garden",
+        "url": "https://www.defi.garden"
+      },
+      "dateModified": "${stats.generatedAt.split('T')[0]}"
+    }
+    </script>
+    <style>
+      .score-header {
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 20px 20px 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid var(--ui-border);
+      }
+      .score-logo {
+        font-family: var(--font-family-display);
+        font-weight: 700;
+        font-size: 1.15rem;
+        color: var(--ui-text);
+        text-decoration: none;
+      }
+      .score-nav a {
+        color: var(--ui-text-secondary);
+        text-decoration: none;
+        font-size: 0.9rem;
+        margin-left: 16px;
+        transition: color .15s ease;
+      }
+      .score-nav a:hover {
+        color: var(--ui-accent);
+      }
+      .score-wrap {
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 32px 20px 60px;
+        color: var(--ui-text);
+        line-height: 1.68;
+      }
+      .score-wrap h1 {
+        font-family: var(--font-family-display);
+        font-size: 2rem;
+        line-height: 1.25;
+        margin: 0 0 12px;
+        color: var(--ui-text);
+      }
+      .score-byline {
+        font-size: 0.85rem;
+        color: var(--ui-text-muted);
+        margin: 0 0 28px;
+        padding-bottom: 16px;
+        border-bottom: 1px solid var(--ui-border);
+      }
+      .score-lede {
+        font-size: 1.05rem;
+        line-height: 1.65;
+        color: var(--ui-text);
+        margin: 0 0 28px;
+      }
+      .kpi-row {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+        gap: 12px;
+        margin: 0 0 32px;
+      }
+      .kpi-cell {
+        background: var(--ui-surface);
+        border: 1px solid var(--ui-border);
+        border-radius: var(--ui-radius-md);
+        padding: 16px 18px;
+      }
+      .kpi-cell .kpi-label {
+        font-size: 0.76rem;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        color: var(--ui-text-muted);
+        margin: 0 0 6px;
+        font-weight: 600;
+      }
+      .kpi-cell .kpi-val {
+        font-size: 1.6rem;
+        font-weight: 700;
+        color: var(--ui-text);
+        font-variant-numeric: tabular-nums;
+        line-height: 1.2;
+      }
+      .kpi-cell .kpi-sub {
+        font-size: 0.8rem;
+        color: var(--ui-text-secondary);
+        margin-top: 4px;
+      }
+      .score-wrap h2 {
+        font-family: var(--font-family-display);
+        font-size: 1.3rem;
+        margin: 36px 0 10px;
+        color: var(--ui-text);
+        border-bottom: 1px solid var(--ui-border);
+        padding-bottom: 8px;
+      }
+      .score-notice {
+        font-size: 0.88rem;
+        color: var(--ui-text-secondary);
+        margin: 0 0 14px;
+        line-height: 1.55;
+      }
+      .table-card {
+        background: var(--ui-surface);
+        border: 1px solid var(--ui-border);
+        border-radius: var(--ui-radius-lg);
+        box-shadow: none;
+        padding: 8px 18px;
+        margin: 16px 0 28px;
+      }
+      .table-card table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      .table-card th, .table-card td {
+        text-align: left;
+        padding: 12px 8px;
+        border-bottom: 1px solid var(--ui-border);
+        font-size: 0.88rem;
+        color: var(--ui-text);
+      }
+      .table-card th {
+        color: var(--ui-text-secondary);
+        font-weight: 600;
+        font-size: 0.82rem;
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+      }
+      .table-card tr:last-child td {
+        border-bottom: none;
+      }
+      .table-card tbody tr {
+        transition: background .15s ease;
+      }
+      .table-card tbody tr:hover {
+        background: var(--ui-surface-muted);
+      }
+      .table-card td.num, .table-card th.num {
+        text-align: right;
+        font-variant-numeric: tabular-nums;
+      }
+      .pool-project {
+        font-weight: 600;
+        color: var(--ui-text);
+      }
+      .pool-symbol {
+        color: var(--ui-text-secondary);
+      }
+      .diff-miss {
+        color: #d9534f;
+        font-weight: 600;
+      }
+      .diff-match {
+        color: var(--ui-text-secondary);
+        font-weight: 500;
+      }
+      .scroll {
+        overflow-x: auto;
+      }
+      .score-footer {
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 24px 20px 40px;
+        border-top: 1px solid var(--ui-border);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 0.85rem;
+        color: var(--ui-text-secondary);
+      }
+      .score-footer a {
+        color: var(--ui-accent);
+        text-decoration: none;
+      }
+      .score-footer a:hover {
+        text-decoration: underline;
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .score-nav a, .table-card tbody tr { transition: none; }
+      }
+    </style>
 </head>
 <body>
-  <div class="scorecard-wrap">
-    <h1>14-Day Yield Forecast Accuracy Scorecard</h1>
-    <p class="scorecard-sub">
-      DeFi Garden forecasts 14-day yield trajectories using predictive machine learning models. 
-      To maintain zero tolerance for ungrounded claims, this scorecard evaluates real-world accuracy 
-      against historical outcomes and publishes our biggest forecast errors openly.
-    </p>
+    <header class="score-header">
+        <a href="/" class="score-logo">DeFi Garden 🌱</a>
+        <nav class="score-nav">
+            <a href="/plan.html">Savings Planner</a>
+            <a href="/tokens/usdc">USDC Yields</a>
+            <a href="/guide/defi-yield-rates-explained">Yield Guide</a>
+            <a href="https://www.defi.garden/">Home</a>
+        </nav>
+    </header>
 
-    <div class="kpi-grid">
-      <div class="kpi-card">
-        <div class="label">Band Capture Rate</div>
-        <div class="val" style="color:var(--cert-green, #10b981);">${stats.bandAccuracy.toFixed(1)}%</div>
-        <div class="subtext">${stats.withinBand.toLocaleString()} of ${stats.evaluated.toLocaleString()} pools landed in [p10, p90]</div>
-      </div>
-      <div class="kpi-card">
-        <div class="label">Stablecoin Band Accuracy</div>
-        <div class="val" style="color:var(--cert-green, #10b981);">${stats.stableAccuracy.toFixed(1)}%</div>
-        <div class="subtext">USDC, USDT, DAI pools (MAE: ${stats.stableMae.toFixed(2)} pp)</div>
-      </div>
-      <div class="kpi-card">
-        <div class="label">Overall Mean Error (MAE)</div>
-        <div class="val">${stats.overallMae.toFixed(2)} pp</div>
-        <div class="subtext">Average absolute delta vs forecast p50</div>
-      </div>
-      <div class="kpi-card">
-        <div class="label">Backtest Horizon</div>
-        <div class="val" style="font-size:1.3rem; padding-top:6px;">${stats.initialDate} → ${stats.finalDate}</div>
-        <div class="subtext">14-day empirical test window</div>
-      </div>
-    </div>
+    <main class="score-wrap">
+        <h1>Yield Forecast Accuracy: Public Track Record</h1>
+        <p class="score-byline">DeFi Garden Underwriting Research · Evaluated across immutable daily snapshots · Horizon: ${stats.initialDate} &rarr; ${stats.finalDate} &middot; Education, not financial advice.</p>
 
-    <h2 style="font-size:1.25rem; margin:32px 0 8px; color:var(--ui-text);">The Honest Misses: High-Impact Forecast Outliers (&ge; $1M TVL)</h2>
-    <div class="misses-banner">
-      <strong>Why we publish our misses:</strong> No other DeFi yield platform discloses predictive error. 
-      Filtered to significant liquidity venues (&ge; $1M TVL), these pools experienced unexpected volatility spikes, reward emission shifts, or trading volume surges that broke outside our 90% confidence bands.
-    </div>
+        <p class="score-lede">DeFi Garden forecasts 14-day forward yield trajectories using probabilistic machine learning models trained on volatility, TVL migration, and organic fee sustainability. Under our core operating principle &mdash; <em>honest numbers beat exciting numbers</em> &mdash; this page publishes our empirical accuracy across verified liquidity venues and publicly documents our biggest forecast misses.</p>
 
-    <div class="table-card">
-      <div class="scroll-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>#</th>
-              <th>Protocol / Pool</th>
-              <th>Chain</th>
-              <th class="num">TVL</th>
-              <th class="num">Forecast (p50)</th>
-              <th class="num">Forecast Band [p10, p90]</th>
-              <th class="num">Actual APY</th>
-              <th class="num">Error Delta</th>
-            </tr>
-          </thead>
-          <tbody>
+        <div class="kpi-row">
+            <div class="kpi-cell">
+                <div class="kpi-label">Band Capture Rate</div>
+                <div class="kpi-val">${stats.bandAccuracy.toFixed(1)}%</div>
+                <div class="kpi-sub">${stats.withinBand.toLocaleString()} of ${stats.evaluated.toLocaleString()} pools in [p10, p90]</div>
+            </div>
+            <div class="kpi-cell">
+                <div class="kpi-label">Stablecoin Accuracy</div>
+                <div class="kpi-val">${stats.stableAccuracy.toFixed(1)}%</div>
+                <div class="kpi-sub">USDC, USDT, DAI venues (&plusmn;${stats.stableMae.toFixed(2)} pp error)</div>
+            </div>
+            <div class="kpi-cell">
+                <div class="kpi-label">Mean Absolute Error</div>
+                <div class="kpi-val">${stats.overallMae.toFixed(2)} pp</div>
+                <div class="kpi-sub">Average delta vs forecast median</div>
+            </div>
+            <div class="kpi-cell">
+                <div class="kpi-label">Backtest Horizon</div>
+                <div class="kpi-val" style="font-size:1.15rem; font-weight:600; padding-top:4px;">14 Days</div>
+                <div class="kpi-sub">${stats.initialDate} &rarr; ${stats.finalDate}</div>
+            </div>
+        </div>
+
+        <h2>High-Impact Forecast Outliers (&ge; $1M TVL)</h2>
+        <p class="score-notice">No other yield aggregator publishes predictive failure. In capital-significant liquidity venues (&ge; $1M TVL), unexpected token emission surges, flash-loan volume spikes, or trading fee volatility caused real-world returns to break outside our 90% confidence bands.</p>
+
+        <div class="table-card">
+            <div class="scroll">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Protocol / Pool</th>
+                            <th>Chain</th>
+                            <th class="num">TVL</th>
+                            <th class="num">Forecast (p50)</th>
+                            <th class="num">Band [p10, p90]</th>
+                            <th class="num">Actual APY</th>
+                            <th class="num">Error Delta</th>
+                        </tr>
+                    </thead>
+                    <tbody>
 ${missRows}
-          </tbody>
-        </table>
-      </div>
-    </div>
+                    </tbody>
+                </table>
+            </div>
+        </div>
 
-    <h2 style="font-size:1.25rem; margin:32px 0 8px; color:var(--ui-text);">Top Capital Venues: Realized Track Record (TVL &ge; $10M)</h2>
-    <p style="color:var(--ui-text-secondary); font-size:0.9rem; margin-bottom:14px;">
-      Predictive performance across high-liquidity lending markets and established liquidity pools where capital preservation matters most.
-    </p>
+        <h2>Realized Track Record on High-Liquidity Venues (TVL &ge; $10M)</h2>
+        <p class="score-notice">Empirical predictive performance across active, yield-bearing liquidity pools and money markets where institutional capital preservation matters most. Collateral-only and zero-yielding venues are excluded.</p>
 
-    <div class="table-card">
-      <div class="scroll-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>Protocol / Pool</th>
-              <th>Chain</th>
-              <th class="num">TVL</th>
-              <th class="num">Forecast (p50)</th>
-              <th class="num">Band [p10, p90]</th>
-              <th class="num">Actual APY</th>
-              <th class="num">Accuracy Delta</th>
-            </tr>
-          </thead>
-          <tbody>
+        <div class="table-card">
+            <div class="scroll">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Protocol / Pool</th>
+                            <th>Chain</th>
+                            <th class="num">TVL</th>
+                            <th class="num">Forecast (p50)</th>
+                            <th class="num">Band [p10, p90]</th>
+                            <th class="num">Actual APY</th>
+                            <th class="num">Accuracy Delta</th>
+                        </tr>
+                    </thead>
+                    <tbody>
 ${accurateRows}
-          </tbody>
-        </table>
-      </div>
-    </div>
+                    </tbody>
+                </table>
+            </div>
+        </div>
 
-    <p style="font-size:0.85rem; color:var(--ui-text-muted); margin-top:32px; border-top:1px solid var(--ui-border); padding-top:16px;">
-      Generated automatically by DeFi Garden CI on ${stats.generatedAt.split('T')[0]}. 
-      Data sourced from immutable historical snapshots stored on disk. Education only, not financial advice.
-    </p>
-  </div>
+        <p class="score-byline" style="margin-top:40px; border-bottom:none; border-top:1px solid var(--ui-border); padding-top:20px;">
+            Notice: Yield forecast models are provided strictly for educational and underwriting evaluation purposes. Cryptocurrency assets carry risk of loss. Historical accuracy does not guarantee future yield performance.
+        </p>
+    </main>
+
+    <footer class="score-footer">
+        <div>DeFi Garden 🌱 · Non-custodial DeFi yield intelligence</div>
+        <div><a href="/forecast-accuracy">Forecast Scorecard</a></div>
+    </footer>
 </body>
 </html>
 `;
