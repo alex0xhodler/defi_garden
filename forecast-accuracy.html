@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DeFi Yield Forecast Accuracy Scorecard | DeFi Garden</title>
+  <meta name="description" content="Public track-record for DeFi Garden's 14-day forward yield forecast bands. Empirical accuracy, mean absolute error, and named forecast misses.">
+  <link rel="canonical" href="https://www.defi.garden/forecast-accuracy">
+  <meta property="og:title" content="DeFi Yield Forecast Accuracy Scorecard | DeFi Garden">
+  <meta property="og:description" content="Public track-record for DeFi Garden's 14-day forward yield forecast bands. Verified against historical DefiLlama data.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.defi.garden/forecast-accuracy">
+  <meta name="robots" content="index,follow">
+  <link rel="stylesheet" href="/style.css">
+  <style>
+    .scorecard-wrap { max-width: 920px; margin: 0 auto; padding: 40px 20px; }
+    .scorecard-wrap h1 { font-family: var(--font-family-display); font-size: 1.85rem; margin: 0 0 8px; color: var(--ui-text); }
+    .scorecard-sub { color: var(--ui-text-secondary); font-size: 0.95rem; margin-bottom: 24px; line-height: 1.5; }
+    .kpi-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin: 24px 0 32px; }
+    .kpi-card { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-lg); padding: 20px; }
+    .kpi-card .label { font-size: 0.8rem; color: var(--ui-text-secondary); text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 6px; }
+    .kpi-card .val { font-size: 1.7rem; font-weight: 700; color: var(--ui-text); font-variant-numeric: tabular-nums; }
+    .kpi-card .subtext { font-size: 0.82rem; color: var(--ui-text-muted); margin-top: 4px; }
+    .table-card { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-lg); overflow: hidden; margin: 20px 0 36px; }
+    .table-card table { width: 100%; border-collapse: collapse; text-align: left; }
+    .table-card th, .table-card td { padding: 12px 16px; border-bottom: 1px solid var(--ui-border); font-size: 0.9rem; }
+    .table-card th { color: var(--ui-text-secondary); font-weight: 600; background: var(--ui-surface-muted, rgba(0,0,0,0.02)); }
+    .table-card tr:last-child td { border-bottom: none; }
+    .table-card .num { text-align: right; font-variant-numeric: tabular-nums; }
+    .scroll-wrap { overflow-x: auto; }
+    .misses-banner { background: rgba(224, 82, 82, 0.06); border: 1px solid rgba(224, 82, 82, 0.2); border-radius: var(--ui-radius-md); padding: 14px 18px; margin-bottom: 14px; font-size: 0.88rem; color: var(--ui-text); }
+  </style>
+</head>
+<body>
+  <div class="scorecard-wrap">
+    <h1>14-Day Yield Forecast Accuracy Scorecard</h1>
+    <p class="scorecard-sub">
+      DeFi Garden forecasts 14-day yield trajectories using predictive machine learning models. 
+      To maintain zero tolerance for ungrounded claims, this scorecard evaluates real-world accuracy 
+      against historical outcomes and publishes our biggest forecast errors openly.
+    </p>
+
+    <div class="kpi-grid">
+      <div class="kpi-card">
+        <div class="label">Band Capture Rate</div>
+        <div class="val" style="color:var(--cert-green, #10b981);">76.4%</div>
+        <div class="subtext">5,260 of 6,882 pools landed in [p10, p90]</div>
+      </div>
+      <div class="kpi-card">
+        <div class="label">Stablecoin Band Accuracy</div>
+        <div class="val" style="color:var(--cert-green, #10b981);">75.2%</div>
+        <div class="subtext">USDC, USDT, DAI pools (MAE: 13.38 pp)</div>
+      </div>
+      <div class="kpi-card">
+        <div class="label">Overall Mean Error (MAE)</div>
+        <div class="val">8.05 pp</div>
+        <div class="subtext">Average absolute delta vs forecast p50</div>
+      </div>
+      <div class="kpi-card">
+        <div class="label">Backtest Horizon</div>
+        <div class="val" style="font-size:1.3rem; padding-top:6px;">2026-09-05 → 2026-09-19</div>
+        <div class="subtext">14-day empirical test window</div>
+      </div>
+    </div>
+
+    <h2 style="font-size:1.25rem; margin:32px 0 8px; color:var(--ui-text);">The Honest Misses: Top 10 Forecast Outliers</h2>
+    <div class="misses-banner">
+      <strong>Why we publish our misses:</strong> No other DeFi yield platform discloses predictive error. 
+      These venues experienced unexpected volatility spikes, reward emission shifts, or liquidity drops that broke outside our 90% confidence bands.
+    </div>
+
+    <div class="table-card">
+      <div class="scroll-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Protocol / Pool</th>
+              <th>Chain</th>
+              <th class="num">Forecast (p50)</th>
+              <th class="num">Forecast Band [p10, p90]</th>
+              <th class="num">Actual APY</th>
+              <th class="num">Error Delta</th>
+            </tr>
+          </thead>
+          <tbody>
+
+    <tr>
+      <td>1</td>
+      <td><strong>origami-finance</strong> (SUSDS-S)</td>
+      <td>Ethereum</td>
+      <td class="num">4408.74%</td>
+      <td class="num">[1.29%, 22969.03%]</td>
+      <td class="num" style="font-weight:600; color:var(--ui-accent);">16.26%</td>
+      <td class="num" style="color:#e05252; font-weight:700;">+4392.48 pp</td>
+    </tr>
+  
+
+    <tr>
+      <td>2</td>
+      <td><strong>fluxion-network</strong> (USDT0-KII)</td>
+      <td>Mantle</td>
+      <td class="num">999.71%</td>
+      <td class="num">[25.61%, 16146.91%]</td>
+      <td class="num" style="font-weight:600; color:var(--ui-accent);">0.05%</td>
+      <td class="num" style="color:#e05252; font-weight:700;">+999.66 pp</td>
+    </tr>
+  
+
+    <tr>
+      <td>3</td>
+      <td><strong>blackhole-clmm</strong> (WAVAX-USDC)</td>
+      <td>Avalanche</td>
+      <td class="num">1717.12%</td>
+      <td class="num">[877.27%, 3352.73%]</td>
+      <td class="num" style="font-weight:600; color:var(--ui-accent);">849.72%</td>
+      <td class="num" style="color:#e05252; font-weight:700;">+867.40 pp</td>
+    </tr>
+  
+
+    <tr>
+      <td>4</td>
+      <td><strong>nest-cl</strong> (WHYPE-DRV)</td>
+      <td>Hyperliquid L1</td>
+      <td class="num">133.99%</td>
+      <td class="num">[67.10%, 590.35%]</td>
+      <td class="num" style="font-weight:600; color:var(--ui-accent);">988.37%</td>
+      <td class="num" style="color:#e05252; font-weight:700;">+854.38 pp</td>
+    </tr>
+  
+
+    <tr>
+      <td>5</td>
+      <td><strong>raydium-amm</strong> (WSOL-QQQX)</td>
+      <td>Solana</td>
+      <td class="num">43.98%</td>
+      <td class="num">[0.00%, 206.67%]</td>
+      <td class="num" style="font-weight:600; color:var(--ui-accent);">853.59%</td>
+      <td class="num" style="color:#e05252; font-weight:700;">+809.61 pp</td>
+    </tr>
+  
+
+    <tr>
+      <td>6</td>
+      <td><strong>aerodrome-slipstream</strong> (WETH-MORPHO)</td>
+      <td>Base</td>
+      <td class="num">88.58%</td>
+      <td class="num">[44.40%, 202.12%]</td>
+      <td class="num" style="font-weight:600; color:var(--ui-accent);">861.61%</td>
+      <td class="num" style="color:#e05252; font-weight:700;">+773.03 pp</td>
+    </tr>
+  
+
+    <tr>
+      <td>7</td>
+      <td><strong>ekubo</strong> (USDC-STRK)</td>
+      <td>Starknet</td>
+      <td class="num">239.95%</td>
+      <td class="num">[118.14%, 734.14%]</td>
+      <td class="num" style="font-weight:600; color:var(--ui-accent);">930.82%</td>
+      <td class="num" style="color:#e05252; font-weight:700;">+690.87 pp</td>
+    </tr>
+  
+
+    <tr>
+      <td>8</td>
+      <td><strong>orca-dex</strong> (SOL-BONK)</td>
+      <td>Solana</td>
+      <td class="num">45.62%</td>
+      <td class="num">[15.30%, 158.12%]</td>
+      <td class="num" style="font-weight:600; color:var(--ui-accent);">576.56%</td>
+      <td class="num" style="color:#e05252; font-weight:700;">+530.94 pp</td>
+    </tr>
+  
+
+    <tr>
+      <td>9</td>
+      <td><strong>ramses-cl-v2</strong> (UPUMP-WHYPE)</td>
+      <td>Hyperliquid L1</td>
+      <td class="num">1358.83%</td>
+      <td class="num">[702.72%, 2209.62%]</td>
+      <td class="num" style="font-weight:600; color:var(--ui-accent);">832.43%</td>
+      <td class="num" style="color:#e05252; font-weight:700;">+526.40 pp</td>
+    </tr>
+  
+
+    <tr>
+      <td>10</td>
+      <td><strong>aerodrome-slipstream</strong> (WETH-AERO)</td>
+      <td>Base</td>
+      <td class="num">116.70%</td>
+      <td class="num">[53.61%, 276.93%]</td>
+      <td class="num" style="font-weight:600; color:var(--ui-accent);">630.74%</td>
+      <td class="num" style="color:#e05252; font-weight:700;">+514.04 pp</td>
+    </tr>
+  
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <h2 style="font-size:1.25rem; margin:32px 0 8px; color:var(--ui-text);">Top Capital Venues: Realized Track Record (TVL &ge; $10M)</h2>
+    <p style="color:var(--ui-text-secondary); font-size:0.9rem; margin-bottom:14px;">
+      Predictive performance across high-liquidity lending markets and established liquidity pools where capital preservation matters most.
+    </p>
+
+    <div class="table-card">
+      <div class="scroll-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Protocol / Pool</th>
+              <th>Chain</th>
+              <th class="num">TVL</th>
+              <th class="num">Forecast (p50)</th>
+              <th class="num">Band [p10, p90]</th>
+              <th class="num">Actual APY</th>
+              <th class="num">Accuracy Delta</th>
+            </tr>
+          </thead>
+          <tbody>
+
+    <tr>
+      <td><strong>sky-lending</strong> (SUSDS)</td>
+      <td>Ethereum</td>
+      <td class="num">$4.7B</td>
+      <td class="num">3.60%</td>
+      <td class="num">[3.60%, 3.60%]</td>
+      <td class="num" style="font-weight:600; color:var(--cert-green, #10b981);">3.60%</td>
+      <td class="num" style="color:var(--ui-text-secondary);">&plusmn;0.00 pp</td>
+    </tr>
+  
+
+    <tr>
+      <td><strong>aave-v3</strong> (WEETH)</td>
+      <td>Ethereum</td>
+      <td class="num">$4.1B</td>
+      <td class="num">0.00%</td>
+      <td class="num">[0.00%, 0.00%]</td>
+      <td class="num" style="font-weight:600; color:var(--cert-green, #10b981);">0.00%</td>
+      <td class="num" style="color:var(--ui-text-secondary);">&plusmn;0.00 pp</td>
+    </tr>
+  
+
+    <tr>
+      <td><strong>sparklend</strong> (WSTETH)</td>
+      <td>Ethereum</td>
+      <td class="num">$3.7B</td>
+      <td class="num">0.00%</td>
+      <td class="num">[0.00%, 0.00%]</td>
+      <td class="num" style="font-weight:600; color:var(--cert-green, #10b981);">0.00%</td>
+      <td class="num" style="color:var(--ui-text-secondary);">&plusmn;0.00 pp</td>
+    </tr>
+  
+
+    <tr>
+      <td><strong>morpho-blue</strong> (CBBTC)</td>
+      <td>Base</td>
+      <td class="num">$3.3B</td>
+      <td class="num">0.00%</td>
+      <td class="num">[0.00%, 0.00%]</td>
+      <td class="num" style="font-weight:600; color:var(--cert-green, #10b981);">0.00%</td>
+      <td class="num" style="color:var(--ui-text-secondary);">&plusmn;0.00 pp</td>
+    </tr>
+  
+
+    <tr>
+      <td><strong>concrete</strong> (CTDELTAWEETH)</td>
+      <td>Ethereum</td>
+      <td class="num">$830.7M</td>
+      <td class="num">0.00%</td>
+      <td class="num">[0.00%, 0.00%]</td>
+      <td class="num" style="font-weight:600; color:var(--cert-green, #10b981);">0.00%</td>
+      <td class="num" style="color:var(--ui-text-secondary);">&plusmn;0.00 pp</td>
+    </tr>
+  
+
+    <tr>
+      <td><strong>sky-lending</strong> (WETH)</td>
+      <td>Ethereum</td>
+      <td class="num">$795.4M</td>
+      <td class="num">0.00%</td>
+      <td class="num">[0.00%, 0.00%]</td>
+      <td class="num" style="font-weight:600; color:var(--cert-green, #10b981);">0.00%</td>
+      <td class="num" style="color:var(--ui-text-secondary);">&plusmn;0.00 pp</td>
+    </tr>
+  
+
+    <tr>
+      <td><strong>sky-lending</strong> (WETH)</td>
+      <td>Ethereum</td>
+      <td class="num">$725.8M</td>
+      <td class="num">0.00%</td>
+      <td class="num">[0.00%, 0.00%]</td>
+      <td class="num" style="font-weight:600; color:var(--cert-green, #10b981);">0.00%</td>
+      <td class="num" style="color:var(--ui-text-secondary);">&plusmn;0.00 pp</td>
+    </tr>
+  
+
+    <tr>
+      <td><strong>morpho-blue</strong> (CBBTC)</td>
+      <td>Ethereum</td>
+      <td class="num">$715.6M</td>
+      <td class="num">0.00%</td>
+      <td class="num">[0.00%, 0.00%]</td>
+      <td class="num" style="font-weight:600; color:var(--cert-green, #10b981);">0.00%</td>
+      <td class="num" style="color:var(--ui-text-secondary);">&plusmn;0.00 pp</td>
+    </tr>
+  
+
+    <tr>
+      <td><strong>spark-savings</strong> (USDT)</td>
+      <td>Ethereum</td>
+      <td class="num">$447.1M</td>
+      <td class="num">3.50%</td>
+      <td class="num">[3.37%, 3.52%]</td>
+      <td class="num" style="font-weight:600; color:var(--cert-green, #10b981);">3.50%</td>
+      <td class="num" style="color:var(--ui-text-secondary);">&plusmn;0.00 pp</td>
+    </tr>
+  
+
+    <tr>
+      <td><strong>morpho-blue</strong> (WSTETH)</td>
+      <td>Ethereum</td>
+      <td class="num">$420.4M</td>
+      <td class="num">0.00%</td>
+      <td class="num">[0.00%, 0.00%]</td>
+      <td class="num" style="font-weight:600; color:var(--cert-green, #10b981);">0.00%</td>
+      <td class="num" style="color:var(--ui-text-secondary);">&plusmn;0.00 pp</td>
+    </tr>
+  
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <p style="font-size:0.85rem; color:var(--ui-text-muted); margin-top:32px; border-top:1px solid var(--ui-border); padding-top:16px;">
+      Generated automatically by DeFi Garden CI on 2026-10-04. 
+      Data sourced from immutable historical snapshots stored on disk. Education only, not financial advice.
+    </p>
+  </div>
+</body>
+</html>

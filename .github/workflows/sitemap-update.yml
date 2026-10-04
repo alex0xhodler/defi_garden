@@ -121,6 +121,11 @@ jobs:
         node generate-pool-pages.js --out pools --fixture "$RUNNER_TEMP/seo-pools.json"
         echo "Pages: $(ls pools | wc -l)"
 
+    - name: Generate public forecast accuracy scorecard (W2)
+      run: |
+        echo "📊 Generating public /forecast-accuracy scorecard..."
+        node generate-forecast-scorecard.js
+
     - name: Generate sitemap
       run: |
         echo "🚀 Generating fresh sitemap..."
