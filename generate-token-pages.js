@@ -66,6 +66,28 @@ const MIN_QUALIFYING_POOLS = 1;   // a token needs >=1 qualifying pool to earn a
 const NOINDEX_POOL_THRESHOLD = 3; // D1: tokens with fewer qualifying pools get noindex,follow
 const DEFAULT_LIMIT = 0;          // 0 = no cap: a page for every eligible token
 const POOLS_PER_PAGE = 8;         // how many pools to list on each page
+
+// D2 (seo-turnaround): permissioned/restricted projects whose pools retail
+// users typically cannot access (KYC/accredited-investor/geo-restricted).
+// These pools are still DISPLAYED in the table (they're real, legitimate
+// yields) but are never chosen as the HEADLINE pool by headlinePoolFor —
+// a page titled "Best USDC Yields" must not lead with a pool the reader
+// can't buy. Maintained manually; add projects as they're identified.
+const PERMISSIONED_PROJECTS = new Set([
+  'blackrock-buidl',   // qualified purchasers only
+  'ondo-yield-assets', // USDY — not offered to US persons
+  'invesco-ustb',      // institutional / accredited investors
+  'circle-usyc',       // USYC — qualified purchasers
+  'superstate',        // USTB — qualified purchasers
+  'hashnote',          // USYC — qualified purchasers
+  'centrifuge-protocol' // RWA — accredited investors for some pools
+]);
+
+/** Returns true if a pool belongs to a permissioned/restricted project
+ *  that retail users typically cannot access. */
+function isPermissionedPool(p) {
+  return PERMISSIONED_PROJECTS.has((p.project || '').toLowerCase());
+}
 const HUB_TOP_N = 60;             // tokens linked directly on the /tokens hub before the A–Z tier takes over (045)
 // Tier-1 head tokens receiving dedicated title patterns, educational sections, and sitemap tiering
 const HEAD_TOKENS = new Set(['USDC', 'USDT', 'ETH', 'WETH', 'DAI', 'SOL', 'WBTC', 'BTC', 'STETH', 'WSTETH']);
@@ -1103,6 +1125,9 @@ function headlinePoolFor(pools) {
   let bestRepresentative = null;
   pools.forEach(p => {
     if (best == null || poolTotalApy(p) > poolTotalApy(best)) best = p;
+    // D2 access flag: skip permissioned pools for the headline — a page
+    // titled "Best X Yields" must not lead with a pool the reader can't buy.
+    if (isPermissionedPool(p)) return;
     if (isRepresentativeRate(p) &&
         (bestRepresentative == null || poolTotalApy(p) > poolTotalApy(bestRepresentative))) {
       bestRepresentative = p;
@@ -1712,8 +1737,9 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
     // the visible row is tagged 'seo_token' (203); the JSON-LD call above is
     // NOT, so it stays clean (spec 203 §6, deliberate deviation).
     const poolHref = poolHrefFor(p, appUrl, 'seo_token');
+    const accessNote = isPermissionedPool(p) ? ' <span class="tp-restricted" title="Restricted access (KYC/accredited)">&#x1F512;</span>' : '';
     return `        <tr>
-          <td><a class="tp-pool-link" href="${poolHref}">${escapeHtml(p.project || '—')} &rarr;</a></td>
+          <td><a class="tp-pool-link" href="${poolHref}">${escapeHtml(p.project || '—')}${accessNote} →</a></td>
           <td>${escapeHtml(p.chain || '—')}</td>
           <td class="num">${formatApy(poolTotalApy(p))}</td>
           <td class="num">${formatUsd(p.tvlUsd)}</td>
@@ -2142,6 +2168,7 @@ module.exports = {
   rateBehaviourFor, renderRateBehaviourHtml, renderRateBehaviourMarkdown, renderRateBehaviourStyle, mean30dSane,
   RATE_STABILITY_MIN_OBSERVATIONS, rateStabilityFor, renderRateStabilityHtml, renderRateStabilityMarkdown, rateStabilityFaqItem,
   MIN_POOL_TVL, APY_SANITY_LIMIT, MIN_QUALIFYING_POOLS, NOINDEX_POOL_THRESHOLD, DEFAULT_LIMIT, SITE_URL, OG_FALLBACK_REL_PATH,
+  PERMISSIONED_PROJECTS, isPermissionedPool,
   REPRESENTATIVE_REL, REPRESENTATIVE_ABS_PP, representativenessRatio, isRepresentativeRate,
   headlinePoolFor
 };

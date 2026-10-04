@@ -50,7 +50,8 @@ const {
   renderWaitlistCtaHtml, renderWaitlistCtaStyle,
   yieldHeadlineFor, renderYieldHeadlineHtml, mdEscape, assertNonEmptyPages,
   // item 243: reuse 242's headline-selection gate — no local definition.
-  headlinePoolFor, isRepresentativeRate
+  headlinePoolFor, isRepresentativeRate,
+  isPermissionedPool
 } = tp;
 
 const YIELDS_API = 'https://yields.llama.fi/pools';
@@ -259,9 +260,10 @@ function renderChainPage(rec, related, generatedDate, tokenLinks, lang, ogImageP
     // the visible row is tagged 'seo_chain' (203); the JSON-LD call above is
     // NOT, so it stays clean (spec 203 §6, deliberate deviation).
     const poolHref = poolHrefFor(p, appUrl, 'seo_chain');
+    const accessNote = isPermissionedPool(p) ? ' <span class="cp-restricted" title="Restricted access (KYC/accredited)">&#x1F512;</span>' : '';
     return `        <tr>
           <td>${escapeHtml(p.symbol || '—')}</td>
-          <td><a class="cp-pool-link" href="${poolHref}">${escapeHtml(p.project || '—')} &rarr;</a></td>
+          <td><a class="cp-pool-link" href="${poolHref}">${escapeHtml(p.project || '—')}${accessNote} &rarr;</a></td>
           <td class="num">${formatApy(poolTotalApy(p))}</td>
           <td class="num">${formatUsd(p.tvlUsd)}</td>
         </tr>`;
