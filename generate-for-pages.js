@@ -2067,7 +2067,7 @@ function generateHtml(sub) {
             </a>
 
             <div class="checkout-switch-pool-row">
-              <a class="switch-pool-link" href="/?app=1&chain=Popular&minTvl=1000000&sub=${sub.slug}">Want to choose your own vault? Explore &amp; switch pools →</a>
+              <a class="switch-pool-link" rel="nofollow" href="/?app=1&chain=Popular&minTvl=1000000&sub=${sub.slug}">Want to choose your own vault? Explore &amp; switch pools →</a>
             </div>
           </div>
 
@@ -2114,7 +2114,7 @@ function generateHtml(sub) {
             </div>
 
             <div class="checkout-switch-pool-row" style="margin-top:14px;">
-              <a class="switch-pool-link" href="/?app=1&chain=Popular&minTvl=1000000&sub=${sub.slug}">Want to choose your own vault? Explore &amp; switch pools →</a>
+              <a class="switch-pool-link" rel="nofollow" href="/?app=1&chain=Popular&minTvl=1000000&sub=${sub.slug}">Want to choose your own vault? Explore &amp; switch pools →</a>
             </div>
           </div>
         </div>
