@@ -188,3 +188,77 @@ Every generator change still means regenerating and committing the static files 
 - [Position Digital: AI SEO news (Aug–Sep 2026)](https://www.position.digital/blog/ai-seo-news/)
 - [Edward Sturm: using Bing's AI Performance report for citations](https://edwardsturm.com/articles/bing-webmaster-tools-ai-performance-report-grounding-queries-get-more-llm-citations/)
 - [Arc Intermedia: September 2026 organic & AI visibility roundup](https://www.arcintermedia.com/shoptalk/organic-ai-visibility-news-september-2026-roundup/)
+
+---
+
+## Addendum, 2026-10-04 evening: red team of the D3 coverage verdict
+
+**Verdict on the verdict:** the noindex decision holds up. "You were not hit / Phase 1 is green" does not. Five of the note's eight conclusions are wrong or unsupported, and the most useful thing in the data was missed: **your own internal links create most of the URLs Google is refusing to index.**
+
+| # | D3 claim | Verdict | Why |
+|---|---|---|---|
+| 1 | "NOT hit: indexed count grew 44% through all three spam updates" | **Unsupported for September** | The last data point is **Sep 19**, five days *before* the Sep 24 update began. Spam updates also demote pages in the rankings; they rarely remove them from the index, so an index count can't show a hit. The real test is the **Performance** report (daily impressions and average position), not the page indexing report. |
+| 2 | "Aug 18 +867 = recovery, not a hit" | **Plausible** | It matches the Sep 9 audit's impression timeline (collapse Jun 27, recovery Aug 19). Being close to the spam classifier's threshold is a reason to prune, not to relax. |
+| 3 | "2,832 soft 404s = the 2,816 one-pool pages" | **Likely, not yet verified** | Confirm with the Soft 404 example URLs (N5). Also: soft-404 pages are **already out of the index**, so noindexing them won't shrink the index. The gain is removing a "this site has thousands of empty pages" quality signal. Google treats them as empty because the pages *say* they're empty: "1 pool… There is not enough qualifying APY history". |
+| 4 | "Alternate with canonical 1,961 = KO→EN hreflang, expected" | **Wrong** | KO pages declare themselves as their own canonical (checked: `/ko/chains/polkadot` and `/ko/tokens/usdc` point to themselves). hreflang pairs don't end up in this bucket. The likely source: the static pages link to **11,698 unique app URLs carrying `&src=seo_chain` / `&src=seo_token`**. `canonical.js` drops `src`, so every tracked link becomes an "alternate with proper canonical" by design. |
+| 5 | "5,547 crawled – not indexed = old `?token=`/`?chain=` JS shells" | **Half right, wrong cause** | They aren't old. The same internal links create them every day: **6,484 unique `?pool=`** and **5,009 unique `?token=`** URLs linked from the static pages. Pool URLs have no static equivalent, so Google gets a JS-only app shell. `?token=` URLs duplicate `/tokens/<slug>`, which is the likely source of the **607 "Google chose different canonical"**. |
+| 6 | "8,379 pages (46%) = wasted crawl budget" | **Wrong framing** | Crawl budget doesn't limit a site of about 18k URLs. The number the note missed: **4,597 indexed pages produced about 1,363 impressions in about 3 months**, so most indexed pages get **zero** impressions. You're indexed but not ranking. That's an authority and content-depth problem (W1–W3), not a crawling problem. |
+| 7 | "Phase 1 green, proceed with titles after Oct 8" | **Not yet** | The gate is: Performance flat or up through the end of the rollout. Read it Oct 9–10 (N6), then decide. |
+| 8 | "Regenerate all static pages locally and commit the output" | **Don't** | `sitemap-update.yml` regenerates `tokens/` and `chains/` with live data on **every push to `main` that touches the generators**, and daily at 02:00 UTC. A local commit of about 4,600 files on the feature branch would ship stale local data and conflict with the daily bot commits. Merge the branch and let CI rebuild. |
+
+**Status check:** the 7 commits on `feature/seo-bing-ai-search-optimization` change only the generators. **None of it is live yet.** `tokens/aztec.html` and `ko/tokens/aztec.html` still serve `index,follow`. Still open from D2: the **access flag for pools retail can't buy** (BUIDL, USDY, USTB, USYC), and the conflicting card copy on chain pages (waitlist vs Laso), unless `b82742fe` already covered it.
+
+## Updated next steps (in order)
+
+**N1. Ship the branch (today or tomorrow).** Open the PR, merge, let CI regenerate, then check production:
+```bash
+for u in tokens/aztec ko/tokens/aztec tokens/usdc ko/tokens/usdc; do
+  printf "%-18s " "$u"; curl -s "https://www.defi.garden/$u" | grep -oE 'name="robots" content="[^"]*"|across [0-9,]+ chains' | tr '\n' ' '; echo
+done
+# expect: aztec -> noindex,follow (EN + KO); usdc -> index,follow + "across 4x chains", not "3 chains"
+```
+EN and KO pairs share one `qualifyingCount`, so they switch to noindex together and hreflang never points from an indexable page to a noindexed one. Spot-check one pair anyway.
+
+**N2. Stop creating duplicate URLs: move `src=` out of the query string (1 commit, the most valuable new fix).** Change internal links from `/?pool=X&src=seo_chain` to `/?pool=X#src=seo_chain`. Crawlers ignore the part after `#`, and `analytics.js` can read `location.hash` (update `test_seo_src_attribution.js` to match). Users keep the same URLs, so the "parameterized URLs are sacred" rule isn't touched. Expect the 1,961 "alternate" bucket to shrink over 4–8 weeks of recrawling.
+
+**N3. Link static pages to static pages.** When a token has an indexable `/tokens/<slug>`, link to that instead of `/?token=<SYM>` (5,009 links today). The app stays one click further on. Expect "Google chose different canonical" (607) to shrink, and the static pages to collect the internal links they currently give away.
+
+**N4. Move W1 (static scored pool pages) up.** The data now supports it: Google crawled about 5,500 pool and app URLs and declined to index them. Interest in crawling pool pages is there; indexable content isn't. When W1 ships, point the `?pool=` links at `/pools/<slug>`.
+
+**N5. Check the guesses against URL examples (30 minutes, your part).** In GSC → Pages, open each of *Soft 404*, *Crawled – currently not indexed*, *Alternate page with proper canonical tag* and *Google chose different canonical than user*, export, then:
+```bash
+python3 - "$@" <<'EOF2'
+import csv, re, sys, collections
+def kind(u):
+    u = u.replace('https://www.defi.garden', '').replace('https://defi.garden', '')
+    if 'src=' in u:  return 'app ?…&src= (internal tracked link)'
+    m = re.match(r'/\?(pool|token|chain)=', u)
+    if m:            return f'app ?{m.group(1)}='
+    m = re.match(r'(/ko)?/(tokens|chains|pools|guide|for|stories)/', u)
+    if m:            return f"{m.group(1) or ''}/{m.group(2)}/*"
+    if u.endswith('.md'): return '.md twin'
+    return 'other: ' + u[:40]
+for f in sys.argv[1:]:
+    rows = list(csv.reader(open(f, encoding='utf-8-sig')))[1:]
+    c = collections.Counter(kind(r[0]) for r in rows if r)
+    print(f'\n{f} ({len(rows)} examples)'); [print(f'  {n:5d}  {k}') for k, n in c.most_common()]
+EOF2
+```
+Run it as `python3 classify.py soft404.csv crawled.csv alternate.csv diffcanon.csv`. That turns claims 3–5 into facts before you ship N2 and N3.
+
+**N6. The real spam check, Oct 9–10.** In GSC → Performance, compare daily impressions and average position for **Sep 17–23 vs Oct 3–9**.
+- **Flat or up:** go ahead with LH1–LH3 (titles plus the "Top 5 by DeFi Score" table), chain pages first.
+- **Down more than 30%:** raise `NOINDEX_POOL_THRESHOLD` to 5 and hold the title changes.
+
+**N7. Add one metric to the scoreboard:** indexed pages with at least 1 impression in 28 days, divided by total indexed (Pages export ÷ 4,597). This is the number that tells you whether you have a ranking problem or an indexing problem. Today the data says ranking.
+
+**Expected changes in GSC over the next 2–8 weeks, so nobody misreads them:**
+- Soft 404s should move into "Excluded by 'noindex' tag". That is the intended outcome, not a regression.
+- The indexed count may *drop* by up to about 680 (the 2-pool pages that were indexed). That is also intended.
+- The *alternate* and *different canonical* buckets should shrink once N2 and N3 ship.
+
+### Don't build (additions)
+- **Don't** return 410 for, or delete, the one-pool pages. They're useful to the people who reach them; noindex is enough.
+- **Don't** add noindexed pages to any sitemap to "help" recrawling. Mixed signals.
+- **Don't** treat a falling indexed count after N1 as bad news. The number that matters is pages with impressions.
+- **Don't** strip attribution altogether in N2. Move it to the URL fragment; you still need to know which SEO pages convert.
