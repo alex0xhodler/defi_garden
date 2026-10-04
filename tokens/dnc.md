@@ -1,12 +1,12 @@
 # DNC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
 
-The highest honest DNC yield right now is 1.52% on pancakeswap-amm (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DNC yield right now is 0.84% on pancakeswap-amm (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pancakeswap-amm →](https://www.defi.garden/?pool=4d46d508-df47-4e12-bf99-e22f91e2005d&src=seo_token) | Arbitrum | 1.52% | $122.9K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=4d46d508-df47-4e12-bf99-e22f91e2005d&src=seo_token) | Arbitrum | 0.84% | $121.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DNC yield today?
 
-1.52% APY on pancakeswap-amm (Arbitrum), based on live DefiLlama data.
+0.84% APY on pancakeswap-amm (Arbitrum), based on live DefiLlama data.
 
 ### How many DNC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $122.9K in total.
+1 live pool clear this page's $100K TVL floor, $121.5K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank DNC pools. This view covers A
 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [SUSDS](https://www.defi.garden/tokens/susds)
-- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [ETH](https://www.defi.garden/tokens/eth)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [USDS](https://www.defi.garden/tokens/usds)
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank DNC pools. This view covers A
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated October 3, 2026
+## Last updated October 4, 2026

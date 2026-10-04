@@ -1,39 +1,39 @@
 # USDAT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
 
-The highest honest USDAT yield right now is 9.23% on pendle-v2 (Ethereum), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDAT yield right now is 9.15% on pendle-v2 (Monad), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=e864b9eb-bd40-57f3-be5a-2969271ad7e2&src=seo_token) | Monad | 1.14% | $23.74M |
-| [curve-dex →](https://www.defi.garden/?pool=bf004519-b1f8-4b45-a5ba-334473e701e2&src=seo_token) | Ethereum | 0.14% | $8.91M |
-| [pendle-v2 →](https://www.defi.garden/?pool=c3590202-2568-597a-8c7a-3f25fed83b34&src=seo_token) | Ethereum | 9.23% | $1.62M |
-| [pendle-v2 →](https://www.defi.garden/?pool=0a1b4afe-48cc-5179-ba28-e9d4ee931c86&src=seo_token) | Ethereum | 9.65% | $1.62M |
-| [pendle-v2 →](https://www.defi.garden/?pool=e59641ad-24a2-520a-aca3-8bd73bdf61e9&src=seo_token) | Monad | 8.89% | $1.48M |
-| [pendle-v2 →](https://www.defi.garden/?pool=5b0253f1-000a-5b6f-bf90-1e413d0cf88e&src=seo_token) | Monad | 8.77% | $1.48M |
+| [morpho-blue →](https://www.defi.garden/?pool=e864b9eb-bd40-57f3-be5a-2969271ad7e2&src=seo_token) | Monad | 1.25% | $23.89M |
+| [curve-dex →](https://www.defi.garden/?pool=bf004519-b1f8-4b45-a5ba-334473e701e2&src=seo_token) | Ethereum | 0.25% | $8.93M |
+| [pendle-v2 →](https://www.defi.garden/?pool=0a1b4afe-48cc-5179-ba28-e9d4ee931c86&src=seo_token) | Ethereum | 8.24% | $1.63M |
+| [pendle-v2 →](https://www.defi.garden/?pool=c3590202-2568-597a-8c7a-3f25fed83b34&src=seo_token) | Ethereum | 8.53% | $1.63M |
+| [pendle-v2 →](https://www.defi.garden/?pool=e59641ad-24a2-520a-aca3-8bd73bdf61e9&src=seo_token) | Monad | 9.08% | $1.44M |
+| [pendle-v2 →](https://www.defi.garden/?pool=5b0253f1-000a-5b6f-bf90-1e413d0cf88e&src=seo_token) | Monad | 9.15% | $1.44M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, USDAT's lower-variability candidates are morpho-blue (Monad), 1.14% APY, $23.74M TVL, https://www.defi.garden/?pool=e864b9eb-bd40-57f3-be5a-2969271ad7e2&src=seo_token; curve-dex (Ethereum), 0.14% APY, $8.91M TVL, https://www.defi.garden/?pool=bf004519-b1f8-4b45-a5ba-334473e701e2&src=seo_token; pendle-v2 (Monad), 8.89% APY, $1.48M TVL, https://www.defi.garden/?pool=e59641ad-24a2-520a-aca3-8bd73bdf61e9&src=seo_token; pendle-v2 (Ethereum), 9.23% APY, $1.62M TVL, https://www.defi.garden/?pool=c3590202-2568-597a-8c7a-3f25fed83b34&src=seo_token; pendle-v2 (Ethereum), 9.65% APY, $1.62M TVL, https://www.defi.garden/?pool=0a1b4afe-48cc-5179-ba28-e9d4ee931c86&src=seo_token; pendle-v2 (Monad), 8.77% APY, $1.48M TVL, https://www.defi.garden/?pool=5b0253f1-000a-5b6f-bf90-1e413d0cf88e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDAT's lower-variability candidates are morpho-blue (Monad), 1.25% APY, $23.89M TVL, https://www.defi.garden/?pool=e864b9eb-bd40-57f3-be5a-2969271ad7e2&src=seo_token; curve-dex (Ethereum), 0.25% APY, $8.93M TVL, https://www.defi.garden/?pool=bf004519-b1f8-4b45-a5ba-334473e701e2&src=seo_token; pendle-v2 (Monad), 9.08% APY, $1.44M TVL, https://www.defi.garden/?pool=e59641ad-24a2-520a-aca3-8bd73bdf61e9&src=seo_token; pendle-v2 (Ethereum), 8.53% APY, $1.63M TVL, https://www.defi.garden/?pool=c3590202-2568-597a-8c7a-3f25fed83b34&src=seo_token; pendle-v2 (Ethereum), 8.24% APY, $1.63M TVL, https://www.defi.garden/?pool=0a1b4afe-48cc-5179-ba28-e9d4ee931c86&src=seo_token; pendle-v2 (Monad), 9.15% APY, $1.44M TVL, https://www.defi.garden/?pool=5b0253f1-000a-5b6f-bf90-1e413d0cf88e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=e864b9eb-bd40-57f3-be5a-2969271ad7e2&src=seo_token) | Monad | 1.14% | $23.74M |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=bf004519-b1f8-4b45-a5ba-334473e701e2&src=seo_token) | Ethereum | 0.14% | $8.91M |
-| 3 | [pendle-v2 →](https://www.defi.garden/?pool=e59641ad-24a2-520a-aca3-8bd73bdf61e9&src=seo_token) | Monad | 8.89% | $1.48M |
-| 4 | [pendle-v2 →](https://www.defi.garden/?pool=c3590202-2568-597a-8c7a-3f25fed83b34&src=seo_token) | Ethereum | 9.23% | $1.62M |
-| 5 | [pendle-v2 →](https://www.defi.garden/?pool=0a1b4afe-48cc-5179-ba28-e9d4ee931c86&src=seo_token) | Ethereum | 9.65% | $1.62M |
-| 6 | [pendle-v2 →](https://www.defi.garden/?pool=5b0253f1-000a-5b6f-bf90-1e413d0cf88e&src=seo_token) | Monad | 8.77% | $1.48M |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=e864b9eb-bd40-57f3-be5a-2969271ad7e2&src=seo_token) | Monad | 1.25% | $23.89M |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=bf004519-b1f8-4b45-a5ba-334473e701e2&src=seo_token) | Ethereum | 0.25% | $8.93M |
+| 3 | [pendle-v2 →](https://www.defi.garden/?pool=e59641ad-24a2-520a-aca3-8bd73bdf61e9&src=seo_token) | Monad | 9.08% | $1.44M |
+| 4 | [pendle-v2 →](https://www.defi.garden/?pool=c3590202-2568-597a-8c7a-3f25fed83b34&src=seo_token) | Ethereum | 8.53% | $1.63M |
+| 5 | [pendle-v2 →](https://www.defi.garden/?pool=0a1b4afe-48cc-5179-ba28-e9d4ee931c86&src=seo_token) | Ethereum | 8.24% | $1.63M |
+| 6 | [pendle-v2 →](https://www.defi.garden/?pool=5b0253f1-000a-5b6f-bf90-1e413d0cf88e&src=seo_token) | Monad | 9.15% | $1.44M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-USDAT shows up in 6 pools here, with rates from 0.14% to 9.65% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+USDAT shows up in 6 pools here, with rates from 0.25% to 9.15% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-6 of these 6 pools have a trustworthy 30-day average on file, with a median of 5.95% — a useful check against today's number for whether the rate is steady or just having a good day.
+6 of these 6 pools have a trustworthy 30-day average on file, with a median of 6.11% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 3 of 6 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -41,12 +41,12 @@ USDAT shows up in 6 pools here, with rates from 0.14% to 9.65% APY across 2 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 1.14% | 0.87% | 100.00% incentives |
-| curve-dex | 0.14% | 0.30% | Base rate |
-| pendle-v2 | 9.23% | 7.30% | Base rate |
-| pendle-v2 | 9.65% | 5.84% | 18.65% incentives |
-| pendle-v2 | 8.89% | 7.50% | Base rate |
-| pendle-v2 | 8.77% | 6.05% | 26.86% incentives |
+| morpho-blue | 1.25% | 0.91% | 100.00% incentives |
+| curve-dex | 0.25% | 0.29% | Base rate |
+| pendle-v2 | 8.24% | 6.01% | 23.00% incentives |
+| pendle-v2 | 8.53% | 7.38% | Base rate |
+| pendle-v2 | 9.08% | 7.57% | Base rate |
+| pendle-v2 | 9.15% | 6.21% | 28.16% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -54,11 +54,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USDAT yield today?
 
-9.23% APY on pendle-v2 (Ethereum), based on live DefiLlama data.
+9.15% APY on pendle-v2 (Monad), based on live DefiLlama data.
 
 ### How many USDAT pools clear the TVL floor?
 
-9 live pools clear this page's $100K TVL floor, $52.49M in total.
+9 live pools clear this page's $100K TVL floor, $53.81M in total.
 
 ### Are these rates safe?
 
@@ -66,7 +66,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USDAT pools have the most stable APY history?
 
-Based on APY history only, USDAT's lower-variability candidates are morpho-blue (Monad), 1.14% APY, $23.74M TVL, https://www.defi.garden/?pool=e864b9eb-bd40-57f3-be5a-2969271ad7e2&src=seo_token; curve-dex (Ethereum), 0.14% APY, $8.91M TVL, https://www.defi.garden/?pool=bf004519-b1f8-4b45-a5ba-334473e701e2&src=seo_token; pendle-v2 (Monad), 8.89% APY, $1.48M TVL, https://www.defi.garden/?pool=e59641ad-24a2-520a-aca3-8bd73bdf61e9&src=seo_token; pendle-v2 (Ethereum), 9.23% APY, $1.62M TVL, https://www.defi.garden/?pool=c3590202-2568-597a-8c7a-3f25fed83b34&src=seo_token; pendle-v2 (Ethereum), 9.65% APY, $1.62M TVL, https://www.defi.garden/?pool=0a1b4afe-48cc-5179-ba28-e9d4ee931c86&src=seo_token; pendle-v2 (Monad), 8.77% APY, $1.48M TVL, https://www.defi.garden/?pool=5b0253f1-000a-5b6f-bf90-1e413d0cf88e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDAT's lower-variability candidates are morpho-blue (Monad), 1.25% APY, $23.89M TVL, https://www.defi.garden/?pool=e864b9eb-bd40-57f3-be5a-2969271ad7e2&src=seo_token; curve-dex (Ethereum), 0.25% APY, $8.93M TVL, https://www.defi.garden/?pool=bf004519-b1f8-4b45-a5ba-334473e701e2&src=seo_token; pendle-v2 (Monad), 9.08% APY, $1.44M TVL, https://www.defi.garden/?pool=e59641ad-24a2-520a-aca3-8bd73bdf61e9&src=seo_token; pendle-v2 (Ethereum), 8.53% APY, $1.63M TVL, https://www.defi.garden/?pool=c3590202-2568-597a-8c7a-3f25fed83b34&src=seo_token; pendle-v2 (Ethereum), 8.24% APY, $1.63M TVL, https://www.defi.garden/?pool=0a1b4afe-48cc-5179-ba28-e9d4ee931c86&src=seo_token; pendle-v2 (Monad), 9.15% APY, $1.44M TVL, https://www.defi.garden/?pool=5b0253f1-000a-5b6f-bf90-1e413d0cf88e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -82,4 +82,4 @@ Based on APY history only, USDAT's lower-variability candidates are morpho-blue 
 - [Monad](https://www.defi.garden/chains/monad)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 3, 2026
+## Last updated October 4, 2026

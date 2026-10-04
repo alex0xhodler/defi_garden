@@ -1,13 +1,14 @@
 # ZAMA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
 
-The highest honest ZAMA yield right now is 318.92% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZAMA yield right now is 177.70% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=fa9297a7-7620-4ad3-9d22-5cf6cbf2531a&src=seo_token) | Ethereum | 14.08% | $638.8K |
-| [raydium-amm →](https://www.defi.garden/?pool=edaad1ad-9cfb-56ea-8b95-368e4a28a4ac&src=seo_token) | Solana | 318.92% | $122.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=fa9297a7-7620-4ad3-9d22-5cf6cbf2531a&src=seo_token) | Ethereum | 26.67% | $667.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=edaad1ad-9cfb-56ea-8b95-368e4a28a4ac&src=seo_token) | Solana | 583.38% | $129.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=3b50cf8f-047d-5e75-aeb9-5c99a159d614&src=seo_token) | Solana | 177.70% | $109.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,18 +19,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-ZAMA shows up in 2 pools here, with rates from 14.08% to 318.92% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+ZAMA shows up in 3 pools here, with rates from 26.67% to 583.38% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 193.42% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 302.57% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+3 of 3 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 14.08% | 36.70% | Base rate |
-| raydium-amm | 318.92% | 350.14% | Base rate |
+| uniswap-v3 | 26.67% | 36.36% | Base rate |
+| raydium-amm | 583.38% | 361.72% | Base rate |
+| raydium-amm | 177.70% | 302.57% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +39,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ZAMA yield today?
 
-318.92% APY on raydium-amm (Solana), based on live DefiLlama data.
+177.70% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many ZAMA pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $761.4K in total.
+3 live pools clear this page's $100K TVL floor, $906.3K in total.
 
 ### Are these rates safe?
 
@@ -65,4 +67,4 @@ There is not enough qualifying APY history to rank ZAMA pools. This view covers 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 3, 2026
+## Last updated October 4, 2026

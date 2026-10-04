@@ -1,12 +1,12 @@
 # SUPERSPCX 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 3, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 4, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 SUPERSPCX의 가장 높은 정직한 수익률은 Base의 superform에서 37.02%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SUPERSPCX의 가장 높은 정직한 수익률은 Base의 superform에서 35.18%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [superform →](https://www.defi.garden/?pool=2641f5c8-27d0-5d42-aa69-69bdc760a874&src=seo_token) | Base | 37.02% | $139.4K |
+| [superform →](https://www.defi.garden/?pool=2641f5c8-27d0-5d42-aa69-69bdc760a874&src=seo_token) | Base | 35.18% | $139.4K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,7 +19,7 @@
 
 ### 오늘 SUPERSPCX의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 superform에서 APY 37.02%예요.
+DefiLlama 실시간 데이터 기준, Base의 superform에서 APY 35.18%예요.
 
 ### SUPERSPCX 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -46,4 +46,4 @@ DefiLlama 실시간 데이터 기준, Base의 superform에서 APY 37.02%예요.
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: October 3, 2026
+## 마지막 업데이트: October 4, 2026

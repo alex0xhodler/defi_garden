@@ -1,33 +1,33 @@
 # OLAS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
 
-The highest honest OLAS yield right now is 3.11% on uniswap-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OLAS yield right now is 2.41% on uniswap-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=73105498-5eaf-4032-8c5b-08615c237f2c&src=seo_token) | Ethereum | 3.11% | $1.88M |
-| [balancer-v2 →](https://www.defi.garden/?pool=506bc142-e8cc-46d8-8844-0f37e653a3f9&src=seo_token) | Gnosis | 1.00% | $368K |
-| [balancer-v2 →](https://www.defi.garden/?pool=2ff261c6-7062-4384-b10b-f29500ca397e&src=seo_token) | Base | 1.23% | $113.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=73105498-5eaf-4032-8c5b-08615c237f2c&src=seo_token) | Ethereum | 2.41% | $1.86M |
+| [balancer-v2 →](https://www.defi.garden/?pool=506bc142-e8cc-46d8-8844-0f37e653a3f9&src=seo_token) | Gnosis | 0.54% | $363.8K |
+| [balancer-v2 →](https://www.defi.garden/?pool=2ff261c6-7062-4384-b10b-f29500ca397e&src=seo_token) | Base | 4.30% | $112.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, OLAS's lower-variability candidates are balancer-v2 (Base), 1.23% APY, $113.6K TVL, https://www.defi.garden/?pool=2ff261c6-7062-4384-b10b-f29500ca397e&src=seo_token; balancer-v2 (Gnosis), 1.00% APY, $368K TVL, https://www.defi.garden/?pool=506bc142-e8cc-46d8-8844-0f37e653a3f9&src=seo_token; uniswap-v2 (Ethereum), 3.11% APY, $1.88M TVL, https://www.defi.garden/?pool=73105498-5eaf-4032-8c5b-08615c237f2c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, OLAS's lower-variability candidates are balancer-v2 (Base), 4.30% APY, $112.3K TVL, https://www.defi.garden/?pool=2ff261c6-7062-4384-b10b-f29500ca397e&src=seo_token; balancer-v2 (Gnosis), 0.54% APY, $363.8K TVL, https://www.defi.garden/?pool=506bc142-e8cc-46d8-8844-0f37e653a3f9&src=seo_token; uniswap-v2 (Ethereum), 2.41% APY, $1.86M TVL, https://www.defi.garden/?pool=73105498-5eaf-4032-8c5b-08615c237f2c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [balancer-v2 →](https://www.defi.garden/?pool=2ff261c6-7062-4384-b10b-f29500ca397e&src=seo_token) | Base | 1.23% | $113.6K |
-| 2 | [balancer-v2 →](https://www.defi.garden/?pool=506bc142-e8cc-46d8-8844-0f37e653a3f9&src=seo_token) | Gnosis | 1.00% | $368K |
-| 3 | [uniswap-v2 →](https://www.defi.garden/?pool=73105498-5eaf-4032-8c5b-08615c237f2c&src=seo_token) | Ethereum | 3.11% | $1.88M |
+| 1 | [balancer-v2 →](https://www.defi.garden/?pool=2ff261c6-7062-4384-b10b-f29500ca397e&src=seo_token) | Base | 4.30% | $112.3K |
+| 2 | [balancer-v2 →](https://www.defi.garden/?pool=506bc142-e8cc-46d8-8844-0f37e653a3f9&src=seo_token) | Gnosis | 0.54% | $363.8K |
+| 3 | [uniswap-v2 →](https://www.defi.garden/?pool=73105498-5eaf-4032-8c5b-08615c237f2c&src=seo_token) | Ethereum | 2.41% | $1.86M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-OLAS shows up in 3 pools here, with rates from 1.00% to 3.11% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+OLAS shows up in 3 pools here, with rates from 0.54% to 4.30% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 2.14% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 2.21% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -35,9 +35,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 3.11% | 3.60% | Base rate |
-| balancer-v2 | 1.00% | 0.77% | Base rate |
-| balancer-v2 | 1.23% | 2.14% | Base rate |
+| uniswap-v2 | 2.41% | 3.68% | Base rate |
+| balancer-v2 | 0.54% | 0.78% | Base rate |
+| balancer-v2 | 4.30% | 2.21% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,11 +45,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest OLAS yield today?
 
-3.11% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+2.41% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many OLAS pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $2.36M in total.
+3 live pools clear this page's $100K TVL floor, $2.34M in total.
 
 ### Are these rates safe?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which OLAS pools have the most stable APY history?
 
-Based on APY history only, OLAS's lower-variability candidates are balancer-v2 (Base), 1.23% APY, $113.6K TVL, https://www.defi.garden/?pool=2ff261c6-7062-4384-b10b-f29500ca397e&src=seo_token; balancer-v2 (Gnosis), 1.00% APY, $368K TVL, https://www.defi.garden/?pool=506bc142-e8cc-46d8-8844-0f37e653a3f9&src=seo_token; uniswap-v2 (Ethereum), 3.11% APY, $1.88M TVL, https://www.defi.garden/?pool=73105498-5eaf-4032-8c5b-08615c237f2c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, OLAS's lower-variability candidates are balancer-v2 (Base), 4.30% APY, $112.3K TVL, https://www.defi.garden/?pool=2ff261c6-7062-4384-b10b-f29500ca397e&src=seo_token; balancer-v2 (Gnosis), 0.54% APY, $363.8K TVL, https://www.defi.garden/?pool=506bc142-e8cc-46d8-8844-0f37e653a3f9&src=seo_token; uniswap-v2 (Ethereum), 2.41% APY, $1.86M TVL, https://www.defi.garden/?pool=73105498-5eaf-4032-8c5b-08615c237f2c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -74,4 +74,4 @@ Based on APY history only, OLAS's lower-variability candidates are balancer-v2 (
 - [Gnosis](https://www.defi.garden/chains/gnosis)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 3, 2026
+## Last updated October 4, 2026

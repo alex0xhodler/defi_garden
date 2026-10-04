@@ -1,8 +1,8 @@
 # OKSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
 
-The highest honest OKSD yield right now is 0.02% on orca-dex (Solana), among 14 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OKSD yield right now is 0.02% on orca-dex (Solana), among 13 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
@@ -53,7 +53,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many OKSD pools clear the TVL floor?
 
-14 live pools clear this page's $100K TVL floor, $2.88M in total.
+13 live pools clear this page's $100K TVL floor, $2.67M in total.
 
 ### Are these rates safe?
 
@@ -76,4 +76,4 @@ There is not enough qualifying APY history to rank OKSD pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 3, 2026
+## Last updated October 4, 2026

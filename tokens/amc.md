@@ -1,12 +1,12 @@
 # AMC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
 
-The highest honest AMC yield right now is 473.44% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AMC yield right now is 45.38% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=0c31ee93-3e39-597a-aa7b-71543370af53&src=seo_token) | Solana | 473.44% | $120.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=0c31ee93-3e39-597a-aa7b-71543370af53&src=seo_token) | Solana | 45.38% | $118.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AMC yield today?
 
-473.44% APY on raydium-amm (Solana), based on live DefiLlama data.
+45.38% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many AMC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $120.8K in total.
+1 live pool clear this page's $100K TVL floor, $118.9K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank AMC pools. This view covers A
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 3, 2026
+## Last updated October 4, 2026

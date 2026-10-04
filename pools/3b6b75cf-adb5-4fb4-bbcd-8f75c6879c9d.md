@@ -30,4 +30,4 @@ This pool's rate moves a lot: 0.17% right now vs a 0.47% 30-day average. Reward 
 
 [Start Earning on fluxion-network](https://app.fluxion.network/?ref=defi.garden)
 
-Last updated October 3, 2026
+Last updated October 4, 2026

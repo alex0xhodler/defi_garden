@@ -1,12 +1,12 @@
 # SMART DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
 
-The highest honest SMART yield right now is 6.76% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SMART yield right now is 3.75% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=bc24815c-1643-5366-bfe3-b306b899ce8b&src=seo_token) | Solana | 6.76% | $124.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=bc24815c-1643-5366-bfe3-b306b899ce8b&src=seo_token) | Solana | 3.75% | $129.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SMART yield today?
 
-6.76% APY on raydium-amm (Solana), based on live DefiLlama data.
+3.75% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many SMART pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $124.9K in total.
+1 live pool clear this page's $100K TVL floor, $129.7K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank SMART pools. This view covers
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 3, 2026
+## Last updated October 4, 2026

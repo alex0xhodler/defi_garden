@@ -1,12 +1,12 @@
 # GO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
 
-The highest honest GO yield right now is 666.57% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GO yield right now is 422.38% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=39087dcf-9d0c-50a9-bed1-285daf871ea8&src=seo_token) | Solana | 666.57% | $108.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=39087dcf-9d0c-50a9-bed1-285daf871ea8&src=seo_token) | Solana | 422.38% | $107.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GO yield today?
 
-666.57% APY on raydium-amm (Solana), based on live DefiLlama data.
+422.38% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many GO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $108.3K in total.
+1 live pool clear this page's $100K TVL floor, $107.6K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank GO pools. This view covers AP
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 3, 2026
+## Last updated October 4, 2026

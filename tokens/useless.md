@@ -1,31 +1,31 @@
 # USELESS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
 
-The highest honest USELESS yield right now is 81.23% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USELESS yield right now is 220.72% on orca-dex (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=99d4b1c8-9e7b-45d7-8603-260d9846866c&src=seo_token) | Solana | 81.23% | $5.13M |
-| [orca-dex →](https://www.defi.garden/?pool=d0dc7d4d-f498-4d32-ac19-183c55109f09&src=seo_token) | Solana | 143.55% | $1.45M |
+| [raydium-amm →](https://www.defi.garden/?pool=99d4b1c8-9e7b-45d7-8603-260d9846866c&src=seo_token) | Solana | 39.11% | $5.39M |
+| [orca-dex →](https://www.defi.garden/?pool=d0dc7d4d-f498-4d32-ac19-183c55109f09&src=seo_token) | Solana | 220.72% | $1.03M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, USELESS's lower-variability candidates are raydium-amm (Solana), 81.23% APY, $5.13M TVL, https://www.defi.garden/?pool=99d4b1c8-9e7b-45d7-8603-260d9846866c&src=seo_token; orca-dex (Solana), 143.55% APY, $1.45M TVL, https://www.defi.garden/?pool=d0dc7d4d-f498-4d32-ac19-183c55109f09&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USELESS's lower-variability candidates are raydium-amm (Solana), 39.11% APY, $5.39M TVL, https://www.defi.garden/?pool=99d4b1c8-9e7b-45d7-8603-260d9846866c&src=seo_token; orca-dex (Solana), 220.72% APY, $1.03M TVL, https://www.defi.garden/?pool=d0dc7d4d-f498-4d32-ac19-183c55109f09&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=99d4b1c8-9e7b-45d7-8603-260d9846866c&src=seo_token) | Solana | 81.23% | $5.13M |
-| 2 | [orca-dex →](https://www.defi.garden/?pool=d0dc7d4d-f498-4d32-ac19-183c55109f09&src=seo_token) | Solana | 143.55% | $1.45M |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=99d4b1c8-9e7b-45d7-8603-260d9846866c&src=seo_token) | Solana | 39.11% | $5.39M |
+| 2 | [orca-dex →](https://www.defi.garden/?pool=d0dc7d4d-f498-4d32-ac19-183c55109f09&src=seo_token) | Solana | 220.72% | $1.03M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-USELESS shows up in 2 pools here, with rates from 81.23% to 143.55% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+USELESS shows up in 2 pools here, with rates from 39.11% to 220.72% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 394.02% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 370.58% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 81.23% | 111.73% | Base rate |
-| orca-dex | 143.55% | 676.31% | Base rate |
+| raydium-amm | 39.11% | 104.48% | Base rate |
+| orca-dex | 220.72% | 636.67% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USELESS yield today?
 
-81.23% APY on raydium-amm (Solana), based on live DefiLlama data.
+220.72% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many USELESS pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $6.59M in total.
+2 live pools clear this page's $100K TVL floor, $6.42M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USELESS pools have the most stable APY history?
 
-Based on APY history only, USELESS's lower-variability candidates are raydium-amm (Solana), 81.23% APY, $5.13M TVL, https://www.defi.garden/?pool=99d4b1c8-9e7b-45d7-8603-260d9846866c&src=seo_token; orca-dex (Solana), 143.55% APY, $1.45M TVL, https://www.defi.garden/?pool=d0dc7d4d-f498-4d32-ac19-183c55109f09&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USELESS's lower-variability candidates are raydium-amm (Solana), 39.11% APY, $5.39M TVL, https://www.defi.garden/?pool=99d4b1c8-9e7b-45d7-8603-260d9846866c&src=seo_token; orca-dex (Solana), 220.72% APY, $1.03M TVL, https://www.defi.garden/?pool=d0dc7d4d-f498-4d32-ac19-183c55109f09&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +69,4 @@ Based on APY history only, USELESS's lower-variability candidates are raydium-am
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 3, 2026
+## Last updated October 4, 2026

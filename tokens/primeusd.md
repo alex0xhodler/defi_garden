@@ -1,12 +1,12 @@
 # PRIMEUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
 
-The highest honest PRIMEUSD yield right now is 5.33% on vault-street (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PRIMEUSD yield right now is 5.03% on vault-street (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vault-street →](https://www.defi.garden/?pool=0fcae026-0165-589b-855a-25ebc6b0f33d&src=seo_token) | Ethereum | 5.33% | $5.17M |
+| [vault-street →](https://www.defi.garden/?pool=0fcae026-0165-589b-855a-25ebc6b0f33d&src=seo_token) | Ethereum | 5.03% | $5.17M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PRIMEUSD yield today?
 
-5.33% APY on vault-street (Ethereum), based on live DefiLlama data.
+5.03% APY on vault-street (Ethereum), based on live DefiLlama data.
 
 ### How many PRIMEUSD pools clear the TVL floor?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank PRIMEUSD pools. This view cov
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 3, 2026
+## Last updated October 4, 2026

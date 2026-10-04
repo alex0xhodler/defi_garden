@@ -1,6 +1,6 @@
 # VBILL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
 
 The highest honest VBILL yield right now is 3.76% on vaneck-treasury-fund (BSC), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -76,4 +76,4 @@ Based on APY history only, VBILL's lower-variability candidates are vaneck-treas
 - [Solana](https://www.defi.garden/chains/solana)
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated October 3, 2026
+## Last updated October 4, 2026

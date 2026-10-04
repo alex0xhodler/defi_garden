@@ -1,12 +1,12 @@
 # TEO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
 
-The highest honest TEO yield right now is 4.28% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TEO yield right now is 5.43% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=6a5ae578-6373-4679-863d-79fc8de25421&src=seo_token) | Base | 4.28% | $108.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=6a5ae578-6373-4679-863d-79fc8de25421&src=seo_token) | Base | 5.43% | $105.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TEO yield today?
 
-4.28% APY on uniswap-v4 (Base), based on live DefiLlama data.
+5.43% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many TEO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $108.5K in total.
+1 live pool clear this page's $100K TVL floor, $105.9K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank TEO pools. This view covers A
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 3, 2026
+## Last updated October 4, 2026

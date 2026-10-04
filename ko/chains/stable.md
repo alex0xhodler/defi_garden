@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Stable의 morpho-blue에서 APY 6.92%예�
 
 - [GTUSDTB](https://www.defi.garden/ko/tokens/gtusdtb)
 
-## 마지막 업데이트: October 3, 2026
+## 마지막 업데이트: October 4, 2026

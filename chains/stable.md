@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [GTUSDTB](https://www.defi.garden/tokens/gtusdtb)
 
-## Last updated October 3, 2026
+## Last updated October 4, 2026

@@ -1,6 +1,6 @@
 # MILKTIA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
 
 The highest honest MILKTIA yield right now is 83.85% on osmosis-dex (Osmosis), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many MILKTIA pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $20.65M in total.
+2 live pools clear this page's $100K TVL floor, $20.71M in total.
 
 ### Are these rates safe?
 
@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank MILKTIA pools. This view cove
 
 - [Osmosis](https://www.defi.garden/chains/osmosis)
 
-## Last updated October 3, 2026
+## Last updated October 4, 2026

@@ -1,12 +1,12 @@
 # EEARN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 3, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
 
-The highest honest EEARN yield right now is 10.94% on current (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EEARN yield right now is 10.97% on current (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [current →](https://www.defi.garden/?pool=c9e32cbc-6404-4cbe-ba9d-8d7a7912d831&src=seo_token) | Sui | 10.94% | $1.09M |
+| [current →](https://www.defi.garden/?pool=c9e32cbc-6404-4cbe-ba9d-8d7a7912d831&src=seo_token) | Sui | 10.97% | $1.09M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EEARN yield today?
 
-10.94% APY on current (Sui), based on live DefiLlama data.
+10.97% APY on current (Sui), based on live DefiLlama data.
 
 ### How many EEARN pools clear the TVL floor?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank EEARN pools. This view covers
 
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
-- [SUI](https://www.defi.garden/tokens/sui)
 - [HASUI](https://www.defi.garden/tokens/hasui)
+- [SUI](https://www.defi.garden/tokens/sui)
 - [XBTC](https://www.defi.garden/tokens/xbtc)
 - [BUCK](https://www.defi.garden/tokens/buck)
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank EEARN pools. This view covers
 
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated October 3, 2026
+## Last updated October 4, 2026

@@ -1,12 +1,12 @@
 # HBAR-XSAUCE — saucerswap-v1 on Hedera
 
-**Total APY:** 3.08% (2.30% Base · + 0.78% Rewards)
+**Total APY:** 3.07% (2.29% Base · + 0.79% Rewards)
 
-**TVL:** $309.6K
+**TVL:** $312.6K
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 1.73%
+**30d Mean APY:** 1.77%
 
 **Exposure:** multi
 
@@ -20,14 +20,14 @@ Moderate risk profile
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,164 in 5y at current rates.
+$1,000 in this pool grows to ~$1,163 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 3.08% right now vs a 1.73% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 3.07% right now vs a 1.77% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
-[Garden this pool → ~$1,164 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,163 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on saucerswap-v1](https://www.saucerswap.finance/?ref=defi.garden)
 
-Last updated October 3, 2026
+Last updated October 4, 2026
