@@ -114,19 +114,21 @@ function computeAccuracy() {
   const stableAccuracy = stableEvaluated > 0 ? (stableWithinBand / stableEvaluated) * 100 : 0;
   const stableMae = stableEvaluated > 0 ? stablecoinErrors.reduce((acc, e) => acc + e.error, 0) / stableEvaluated : 0;
 
-  // Meaningful Misses: filter out low-liquidity dust (< $1M TVL) and anomalous forecasts (> 500% APY).
-  // These represent genuine, high-impact forecast deviations in capital pools users actually deposit in.
+  // Meaningful Misses:
+  // User directive: only pools with lower than 30% Actual APY and TVL >= $1M.
+  // Filters out speculative meme/mercenary spikes and focuses strictly on genuine,
+  // retail-relevant yield venues where returns surprisingly shifted.
   const meaningfulMisses = errors
-    .filter(e => e.tvlUsd >= 1000000 && e.p50 <= 500 && (e.p50 >= 0.1 || e.actualApy >= 0.1))
+    .filter(e => e.tvlUsd >= 1000000 && !e.inBand && e.actualApy <= 30 && e.actualApy >= 0.1)
     .sort((a, b) => b.error - a.error)
     .slice(0, 10);
 
-  // Top accurate forecasts: filter out 0.00% dormant lending pools (require actualApy >= 0.5%)
-  // so the table demonstrates realized yield prediction, not zero-rate artifact matching.
-  const accurateHighTvl = errors
-    .filter(e => e.tvlUsd >= 10000000 && e.inBand && e.actualApy >= 0.5)
-    .sort((a, b) => a.error - b.error)
-    .slice(0, 10);
+  // Full List of High-Liquidity Venues (TVL >= $10M):
+  // User directive: full list of pools with active non-zero yield (actualApy >= 0.5% and <= 30%).
+  // Displays whether each major capital venue landed inside its forecast band [p10, p90].
+  const highLiquidityVenues = errors
+    .filter(e => e.tvlUsd >= 10000000 && e.actualApy >= 0.5 && e.actualApy <= 30)
+    .sort((a, b) => b.tvlUsd - a.tvlUsd);
 
   return {
     initialDate,
@@ -139,7 +141,7 @@ function computeAccuracy() {
     stableAccuracy,
     stableMae,
     topMisses: meaningfulMisses,
-    accurateHighTvl,
+    highLiquidityVenues,
     generatedAt: new Date().toISOString()
   };
 }
@@ -159,16 +161,20 @@ function renderScorecardHtml(stats) {
           <td class="num diff-miss">+${m.error.toFixed(2)} pp</td>
         </tr>`).join('\n');
 
-  const accurateRows = stats.accurateHighTvl.map(m => `
-        <tr>
+  const highLiqRows = stats.highLiquidityVenues.map(m => {
+    const statusPill = m.inBand
+      ? `<span style="display:inline-block; font-size:0.75rem; padding:1px 6px; border-radius:var(--ui-radius-pill, 999px); background:rgba(16, 185, 129, 0.1); color:var(--cert-green, #10b981); font-weight:600;">Within Band</span>`
+      : `<span style="display:inline-block; font-size:0.75rem; padding:1px 6px; border-radius:var(--ui-radius-pill, 999px); background:rgba(217, 83, 79, 0.1); color:#d9534f; font-weight:600;">Missed Band</span>`;
+    return `        <tr>
           <td><span class="pool-project">${escapeHtml(m.project)}</span> <span class="pool-symbol">(${escapeHtml(m.symbol)})</span></td>
           <td>${escapeHtml(m.chain)}</td>
           <td class="num">${formatUsd(m.tvlUsd)}</td>
           <td class="num">${m.p50.toFixed(2)}%</td>
           <td class="num">[${m.p10.toFixed(2)}%, ${m.p90.toFixed(2)}%]</td>
-          <td class="num">${m.actualApy.toFixed(2)}%</td>
-          <td class="num diff-match">&plusmn;${m.error.toFixed(2)} pp</td>
-        </tr>`).join('\n');
+          <td class="num" style="font-weight:600;">${m.actualApy.toFixed(2)}%</td>
+          <td class="num">${statusPill}</td>
+        </tr>`;
+  }).join('\n');
 
   return `<!DOCTYPE html>
 <html lang="en">
@@ -424,8 +430,8 @@ function renderScorecardHtml(stats) {
             </div>
         </div>
 
-        <h2>High-Impact Forecast Outliers (&ge; $1M TVL)</h2>
-        <p class="score-notice">No other yield aggregator publishes predictive failure. Focusing strictly on single-sided lending, vaults, and staking venues (&ge; $1M TVL), these pools experienced unexpected incentive changes, sudden borrower utilization surges, or liquidation spikes that caused returns to break outside our 90% confidence bands.</p>
+        <h2>High-Impact Forecast Outliers (&ge; $1M TVL, Actual APY &le; 30%)</h2>
+        <p class="score-notice">No other yield aggregator publishes predictive failure. Focusing strictly on single-sided lending, vaults, and staking venues (&ge; $1M TVL) with realistic yield regimes (&le; 30% APY), these pools experienced unexpected incentive changes, sudden borrower utilization surges, or liquidation spikes that caused returns to break outside our 90% confidence bands.</p>
 
         <div class="table-card">
             <div class="scroll">
@@ -449,13 +455,13 @@ ${missRows}
             </div>
         </div>
 
-        <h2>Realized Track Record on High-Liquidity Venues (TVL &ge; $10M)</h2>
-        <p class="score-notice">Empirical predictive performance across active, yield-bearing liquidity pools and money markets where institutional capital preservation matters most. Collateral-only and zero-yielding venues are excluded.</p>
+        <h2>Realized Track Record on High-Liquidity Venues (TVL &ge; $10M, Full List)</h2>
+        <p class="score-notice">Empirical predictive performance across all ${stats.highLiquidityVenues.length} active, yield-bearing liquidity pools and money markets where institutional capital preservation matters most. Ranked by verified TVL descending.</p>
 
         <div class="table-card">
-            <div class="scroll">
+            <div class="scroll" style="max-height: 520px; overflow-y: auto;">
                 <table>
-                    <thead>
+                    <thead style="position: sticky; top: 0; background: var(--ui-surface); z-index: 2;">
                         <tr>
                             <th>Protocol / Pool</th>
                             <th>Chain</th>
@@ -463,11 +469,11 @@ ${missRows}
                             <th class="num">Forecast (p50)</th>
                             <th class="num">Band [p10, p90]</th>
                             <th class="num">Actual APY</th>
-                            <th class="num">Accuracy Delta</th>
+                            <th class="num">Prediction Status</th>
                         </tr>
                     </thead>
                     <tbody>
-${accurateRows}
+${highLiqRows}
                     </tbody>
                 </table>
             </div>
