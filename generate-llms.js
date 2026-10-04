@@ -164,7 +164,32 @@ function buildFullUrlPopulation(sitemapUrls, estateRoot) {
     specialUrls.push(guideUrl);
   }
   const estateUrls = collectEstateUrls(estateRoot);
-  return Array.from(new Set([...specialUrls, ...estateUrls])).sort();
+
+  // D1 (seo-turnaround): filter out noindexed thin token pages so they
+  // don't appear in llms-full.txt. Read manifests from both en and ko dirs.
+  const noindexSlugs = new Set();
+  for (const manifest of ['tokens/.noindex-slugs.json', 'ko/tokens/.noindex-slugs.json']) {
+    const fp = path.join(estateRoot, manifest);
+    try {
+      const slugs = JSON.parse(fs.readFileSync(fp, 'utf8'));
+      // Token slugs: exclude both /tokens/<slug> and /ko/tokens/<slug>
+      slugs.forEach(s => {
+        noindexSlugs.add(`/tokens/${s}`);
+        noindexSlugs.add(`/ko/tokens/${s}`);
+      });
+    } catch (_) { /* manifest doesn't exist — skip */ }
+  }
+  const filteredEstateUrls = noindexSlugs.size > 0
+    ? estateUrls.filter(u => {
+        try { return !noindexSlugs.has(new URL(u).pathname); }
+        catch (_) { return true; }
+      })
+    : estateUrls;
+  if (noindexSlugs.size > 0) {
+    console.log(`🚫 Excluded ${estateUrls.length - filteredEstateUrls.length} noindexed token pages from llms-full.txt`);
+  }
+
+  return Array.from(new Set([...specialUrls, ...filteredEstateUrls])).sort();
 }
 
 /**

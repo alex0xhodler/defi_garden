@@ -63,6 +63,7 @@ const YIELDS_API = 'https://yields.llama.fi/pools';
 const MIN_POOL_TVL = 100000;      // $100K eligibility floor for a page's pools
 const APY_SANITY_LIMIT = 1000;    // TRUST RAIL: total APY above this may NEVER be shown
 const MIN_QUALIFYING_POOLS = 1;   // a token needs >=1 qualifying pool to earn a page
+const NOINDEX_POOL_THRESHOLD = 3; // D1: tokens with fewer qualifying pools get noindex,follow
 const DEFAULT_LIMIT = 0;          // 0 = no cap: a page for every eligible token
 const POOLS_PER_PAGE = 8;         // how many pools to list on each page
 const HUB_TOP_N = 60;             // tokens linked directly on the /tokens hub before the A–Z tier takes over (045)
@@ -1713,6 +1714,13 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
         </tr>`;
   }).join('\n');
 
+  // D1 (seo-turnaround-plan): noindex thin token pages (<NOINDEX_POOL_THRESHOLD
+  // qualifying pools) to shrink the indexed set during spam-update exposure.
+  // Pages stay live for users; `follow` preserved so link equity still flows.
+  const robotsDirective = rec.qualifyingCount < NOINDEX_POOL_THRESHOLD
+    ? 'noindex,follow'
+    : 'index,follow';
+
   return `<!DOCTYPE html>
 <html lang="${language}">
 <head>
@@ -1733,7 +1741,7 @@ ${renderHreflangLinks(enUrl, koUrl)}    <script type="application/ld+json">${bre
     <meta name="twitter:title" content="${escapeHtml(title)}">
     <meta name="twitter:description" content="${escapeHtml(description)}">
     <meta name="twitter:image" content="${ogImageUrl}">
-    <meta name="robots" content="index,follow">
+    <meta name="robots" content="${robotsDirective}">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
     <!-- Reuse the app's design system (247 world): style.css defines the
          --ui-* certificate-green tokens (the --color-*/--neuro-* names below
@@ -2034,6 +2042,17 @@ async function main() {
   });
   console.log(`📝 Wrote ${ranked.length} pages to ${args.out}/`);
 
+  // D1 (seo-turnaround): write noindex manifest so generate-llms.js can
+  // exclude thin token pages from llms-full.txt.
+  const noindexSlugs = ranked
+    .filter(r => r.qualifyingCount < NOINDEX_POOL_THRESHOLD)
+    .map(r => r.slug);
+  fs.writeFileSync(
+    path.join(outDir, '.noindex-slugs.json'),
+    JSON.stringify(noindexSlugs, null, 0) + '\n'
+  );
+  console.log(`🚫 ${noindexSlugs.length} token pages noindexed (<${NOINDEX_POOL_THRESHOLD} qualifying pools)`);
+
   // Hub + A–Z pages (045): de-orphan the surface — home.html links to
   // /tokens, which links every token within <=1 more hop.
   const azGroups = groupTokensAZ(ranked);
@@ -2116,7 +2135,7 @@ module.exports = {
   yieldHeadlineFor, renderYieldHeadlineHtml, yieldHeadlineAnchor, ladderLabelText, YIELD_HEADLINE_ANCHOR_ID,
   rateBehaviourFor, renderRateBehaviourHtml, renderRateBehaviourMarkdown, renderRateBehaviourStyle, mean30dSane,
   RATE_STABILITY_MIN_OBSERVATIONS, rateStabilityFor, renderRateStabilityHtml, renderRateStabilityMarkdown, rateStabilityFaqItem,
-  MIN_POOL_TVL, APY_SANITY_LIMIT, MIN_QUALIFYING_POOLS, DEFAULT_LIMIT, SITE_URL, OG_FALLBACK_REL_PATH,
+  MIN_POOL_TVL, APY_SANITY_LIMIT, MIN_QUALIFYING_POOLS, NOINDEX_POOL_THRESHOLD, DEFAULT_LIMIT, SITE_URL, OG_FALLBACK_REL_PATH,
   REPRESENTATIVE_REL, REPRESENTATIVE_ABS_PP, representativenessRatio, isRepresentativeRate,
   headlinePoolFor
 };
