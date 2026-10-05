@@ -8,6 +8,8 @@
     <link rel="canonical" href="https://www.defi.garden/tokens/yb">
     <link rel="alternate" hreflang="en" href="https://www.defi.garden/tokens/yb">
     <link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/tokens/yb">
+    <link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/tokens/yb">
+    <link rel="alternate" hreflang="es" href="https://www.defi.garden/es/tokens/yb">
     <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/tokens/yb">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens","item":"https://www.defi.garden/tokens"},{"@type":"ListItem","position":3,"name":"YB","item":"https://www.defi.garden/tokens/yb"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"yield-basis on Ethereum","url":"https://www.defi.garden/?pool=13ee3ea5-7546-573e-8597-161917ad00f5"},{"@type":"ListItem","position":2,"name":"yield-basis on Ethereum","url":"https://www.defi.garden/?pool=9443740d-346a-55f3-b7df-0d1845bc07f5"},{"@type":"ListItem","position":3,"name":"yield-basis on Ethereum","url":"https://www.defi.garden/?pool=d48e68fc-cfea-5091-9626-b527ef010255"},{"@type":"ListItem","position":4,"name":"yield-basis on Ethereum","url":"https://www.defi.garden/?pool=3771ae05-661d-54e7-a618-54d4be341c90"},{"@type":"ListItem","position":5,"name":"yield-basis on Ethereum","url":"https://www.defi.garden/?pool=f62b41d8-4486-5e44-bf3a-edd026030d87"},{"@type":"ListItem","position":6,"name":"yield-basis on Ethereum","url":"https://www.defi.garden/?pool=944c101a-ea3b-5f0a-a2d3-e7580f99c69b"},{"@type":"ListItem","position":7,"name":"yield-basis on Ethereum","url":"https://www.defi.garden/?pool=178f1cf5-e417-5edb-8b97-b4728d922ab7"},{"@type":"ListItem","position":8,"name":"yield-basis on Ethereum","url":"https://www.defi.garden/?pool=68e67404-91bd-545e-bba2-72ca5a5cf68e"}]}</script>
@@ -78,6 +80,14 @@
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } .tp-cta:active, .related-links a:active { transform: none; } }
+      .lang-switch ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; }
+      .lang-switch a, .lang-switch [aria-current] { display: inline-flex; align-items: center; min-height: 38px; box-sizing: border-box; padding: 0 14px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; font-size: .9rem; font-weight: 600; text-decoration: none; }
+      .lang-switch a { background: var(--ui-surface); color: var(--ui-accent); }
+      .lang-switch a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .lang-switch a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .lang-switch a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .lang-switch [aria-current] { background: var(--ui-accent-soft); border-color: var(--ui-accent-border); color: var(--ui-text); }
+      @media (prefers-reduced-motion: reduce) { .lang-switch a:active { transform: none; } }
       .tp-waitlist {
         background: var(--ui-surface);
         border: 1px solid var(--ui-border);
@@ -325,6 +335,14 @@
 </head>
 <body>
   <main class="tp-wrap">
+    <nav class="lang-switch" aria-label="Language">
+      <ul>
+        <li><span aria-current="true" lang="en" title="English">EN</span></li>
+        <li><a href="https://www.defi.garden/ko/tokens/yb" hreflang="ko" lang="ko" title="한국어" aria-label="한국어">KO</a></li>
+        <li><a href="https://www.defi.garden/pt/tokens/yb" hreflang="pt" lang="pt-BR" title="Português" aria-label="Português">PT</a></li>
+        <li><a href="https://www.defi.garden/es/tokens/yb" hreflang="es" lang="es" title="Español" aria-label="Español">ES</a></li>
+      </ul>
+    </nav>
     <h1>YB DeFi Yields</h1>
     <p class="tp-answer">The highest honest YB yield right now is 6.73% on yield-basis (Ethereum), among 25 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">25 live pools above the $100K TVL floor · ranked by TVL</p>

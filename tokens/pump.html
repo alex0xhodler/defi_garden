@@ -8,6 +8,8 @@
     <link rel="canonical" href="https://www.defi.garden/tokens/pump">
     <link rel="alternate" hreflang="en" href="https://www.defi.garden/tokens/pump">
     <link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/tokens/pump">
+    <link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/tokens/pump">
+    <link rel="alternate" hreflang="es" href="https://www.defi.garden/es/tokens/pump">
     <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/tokens/pump">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens","item":"https://www.defi.garden/tokens"},{"@type":"ListItem","position":3,"name":"PUMP","item":"https://www.defi.garden/tokens/pump"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"orca-dex on Solana","url":"https://www.defi.garden/?pool=c9e701f0-b82a-49d6-9da7-5955ef20157b"},{"@type":"ListItem","position":2,"name":"raydium-amm on Solana","url":"https://www.defi.garden/?pool=d7e94a53-943b-43ff-a842-3b2448df20ec"},{"@type":"ListItem","position":3,"name":"raydium-amm on Solana","url":"https://www.defi.garden/?pool=ed0422f3-c196-4c77-ae75-9d9b873b3574"},{"@type":"ListItem","position":4,"name":"project-0 on Solana","url":"https://www.defi.garden/?pool=c8a4307c-f6de-49cd-a5c0-6d1581752fb7"},{"@type":"ListItem","position":5,"name":"orca-dex on Solana","url":"https://www.defi.garden/?pool=ab934c8c-713f-48af-9dde-83844a7fb31a"},{"@type":"ListItem","position":6,"name":"orca-dex on Solana","url":"https://www.defi.garden/?pool=d8dccae0-3390-5915-abc9-fa21890c067e"}]}</script>
@@ -78,6 +80,14 @@
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } .tp-cta:active, .related-links a:active { transform: none; } }
+      .lang-switch ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; }
+      .lang-switch a, .lang-switch [aria-current] { display: inline-flex; align-items: center; min-height: 38px; box-sizing: border-box; padding: 0 14px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; font-size: .9rem; font-weight: 600; text-decoration: none; }
+      .lang-switch a { background: var(--ui-surface); color: var(--ui-accent); }
+      .lang-switch a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .lang-switch a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .lang-switch a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .lang-switch [aria-current] { background: var(--ui-accent-soft); border-color: var(--ui-accent-border); color: var(--ui-text); }
+      @media (prefers-reduced-motion: reduce) { .lang-switch a:active { transform: none; } }
       .tp-waitlist {
         background: var(--ui-surface);
         border: 1px solid var(--ui-border);
@@ -325,6 +335,14 @@
 </head>
 <body>
   <main class="tp-wrap">
+    <nav class="lang-switch" aria-label="Language">
+      <ul>
+        <li><span aria-current="true" lang="en" title="English">EN</span></li>
+        <li><a href="https://www.defi.garden/ko/tokens/pump" hreflang="ko" lang="ko" title="한국어" aria-label="한국어">KO</a></li>
+        <li><a href="https://www.defi.garden/pt/tokens/pump" hreflang="pt" lang="pt-BR" title="Português" aria-label="Português">PT</a></li>
+        <li><a href="https://www.defi.garden/es/tokens/pump" hreflang="es" lang="es" title="Español" aria-label="Español">ES</a></li>
+      </ul>
+    </nav>
     <h1>PUMP DeFi Yields</h1>
     <p class="tp-answer">The highest honest PUMP yield right now is 272.03% on orca-dex (Solana), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">6 live pools above the $100K TVL floor · ranked by TVL</p>

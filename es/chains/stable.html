@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rendimiento en Stable (oct 2026) — pools comparados | DeFi Garden</title>
+    <meta name="description" content="4 pools activos en Stable sobre el TVL mínimo de $100K, hasta 6.87% APY, en 3 tokens. Rendimientos honestos con datos de DefiLlama, sin tasas anómalas.">
+    <link rel="canonical" href="https://www.defi.garden/es/chains/stable">
+    <link rel="alternate" hreflang="en" href="https://www.defi.garden/chains/stable">
+    <link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/chains/stable">
+    <link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/chains/stable">
+    <link rel="alternate" hreflang="es" href="https://www.defi.garden/es/chains/stable">
+    <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/chains/stable">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Redes","item":"https://www.defi.garden/es/chains"},{"@type":"ListItem","position":3,"name":"Stable","item":"https://www.defi.garden/es/chains/stable"}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"morpho-blue en Stable","url":"https://www.defi.garden/?pool=a259a0f0-8897-4740-b3b2-0ae1041f1bf0"}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"Dataset de rendimientos DeFi en Stable","description":"Datos de rendimiento en vivo de DefiLlama para pools en Stable en DeFi Garden, filtrados con un TVL mínimo de $100K y con exclusión de APY anómalo.","url":"https://www.defi.garden/es/chains/stable","license":"https://creativecommons.org/publicdomain/zero/1.0/","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"October 5, 2026"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Cuál es el mayor rendimiento de Stable hoy?","acceptedAnswer":{"@type":"Answer","text":"6.87% de APY en morpho-blue (Stable), según datos en vivo de DefiLlama."}},{"@type":"Question","name":"¿Cuántos pools de Stable alcanzan el TVL mínimo?","acceptedAnswer":{"@type":"Answer","text":"4 pools activos alcanzan el TVL mínimo de $100K de esta página, $109.36M en total."}},{"@type":"Question","name":"¿Son seguras estas tasas?","acceptedAnswer":{"@type":"Answer","text":"Los pools de esta página alcanzan un TVL mínimo de $100K y excluyen tasas anómalas (APY >1000%). Ese es el criterio de listado de esta página, no una garantía de seguridad. Esto es educación, no asesoría financiera; DeFi implica riesgo de contrato inteligente y de mercado, sin importar la tasa que se muestre."}}]}</script>
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Rendimiento en Stable (oct 2026) — pools comparados | DeFi Garden">
+    <meta property="og:description" content="4 pools activos en Stable sobre el TVL mínimo de $100K, hasta 6.87% APY, en 3 tokens. Rendimientos honestos con datos de DefiLlama, sin tasas anómalas.">
+    <meta property="og:url" content="https://www.defi.garden/es/chains/stable">
+    <meta property="og:image" content="https://www.defi.garden/og/chains/stable.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Rendimiento en Stable (oct 2026) — pools comparados | DeFi Garden">
+    <meta name="twitter:description" content="4 pools activos en Stable sobre el TVL mínimo de $100K, hasta 6.87% APY, en 3 tokens. Rendimientos honestos con datos de DefiLlama, sin tasas anómalas.">
+    <meta name="twitter:image" content="https://www.defi.garden/og/chains/stable.png">
+    <meta name="robots" content="index,follow">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
+    <!-- Reuse the app's design system (247 world): style.css defines the
+         --ui-* certificate-green tokens (the --color-*/--neuro-* names below
+         are its deprecated aliases, still resolving) + Besley/Public Sans,
+         preloaded above. The scoped block below styles this page with those
+         tokens only — no hardcoded colors/gradients/fonts. -->
+    <link rel="preload" href="/fonts/PublicSans-latin-var.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/Besley-latin-var.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/style.css">
+    <style>
+      .cp-wrap { max-width: 860px; margin: 0 auto; padding: 32px 20px; }
+      .cp-wrap h1 { font-family: var(--font-family-display); font-size: 1.7rem; margin: 0 0 4px; color: var(--ui-text); }
+      .cp-wrap .sub { color: var(--ui-text-secondary); margin: 0 0 16px; }
+      .cp-wrap .intro { color: var(--ui-text); margin: 4px 0 22px; line-height: 1.6; }
+      .cp-card { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-lg); box-shadow: none; padding: 8px 18px; margin: 20px 0; }
+      .cp-card table { width: 100%; border-collapse: collapse; }
+      .cp-card th, .cp-card td { text-align: left; padding: 13px 8px; border-bottom: 1px solid var(--ui-border); color: var(--ui-text); }
+      .cp-card th { color: var(--ui-text-secondary); font-weight: 600; }
+      .cp-card td.num, .cp-card th.num { text-align: right; font-variant-numeric: tabular-nums; }
+      .cp-card tr:last-child td { border-bottom: none; }
+      .cp-card tbody tr { transition: background .15s ease; }
+      .cp-card tbody tr:hover { background: var(--ui-surface-muted); }
+      .cp-pool-link { color: var(--ui-accent); text-decoration: none; font-weight: 500; }
+      .cp-pool-link:hover { text-decoration: underline; }
+      .cp-pool-link:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); border-radius: var(--ui-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .cp-card tbody tr { transition: none; } }
+      .cp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--ui-accent); color: var(--ui-on-accent); border: 1px solid transparent; border-radius: var(--ui-radius-md); box-shadow: none; text-decoration: none; font-weight: 600; transition: background .15s ease, transform .1s ease; }
+      .cp-cta:hover { background: var(--ui-accent-hover); }
+      .cp-cta:active { background: var(--ui-accent-active); transform: translateY(1px); }
+      .cp-cta:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .related { margin: 30px 0 8px; }
+      .related h2 { font-size: 1rem; margin-bottom: 12px; color: var(--ui-text); }
+      .related-links a { display: inline-block; margin: 0 8px 8px 0; padding: 8px 14px; background: var(--ui-surface); color: var(--ui-accent); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; text-decoration: none; font-size: .9rem; transition: background .15s ease, border-color .15s ease, transform .1s ease; }
+      .related-links a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .related-links a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .related-links a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .cp-wrap .note { color: var(--ui-text-secondary); font-size: .9rem; }
+      .cp-answer { color: var(--ui-text); margin: 10px 0 18px; line-height: 1.6; font-weight: 500; }
+      .cp-yield-headline { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-md); box-shadow: none; padding: 14px 18px; margin: 4px 0 18px; color: var(--ui-text); font-weight: 600; line-height: 1.5; }
+      .cp-faq { margin: 30px 0 8px; }
+      .cp-faq h2 { font-size: 1rem; margin-bottom: 12px; color: var(--ui-text); }
+      .cp-faq-item { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-md); box-shadow: none; padding: 14px 18px; margin: 0 0 12px; }
+      .cp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--ui-text); }
+      .cp-faq-a { font-size: .9rem; margin: 0; color: var(--ui-text-secondary); line-height: 1.55; }
+      .scroll { overflow-x: auto; }
+      @media (prefers-reduced-motion: reduce) { .cp-cta, .related-links a { transition: none; } .cp-cta:active, .related-links a:active { transform: none; } }
+      .lang-switch ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; }
+      .lang-switch a, .lang-switch [aria-current] { display: inline-flex; align-items: center; min-height: 38px; box-sizing: border-box; padding: 0 14px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; font-size: .9rem; font-weight: 600; text-decoration: none; }
+      .lang-switch a { background: var(--ui-surface); color: var(--ui-accent); }
+      .lang-switch a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .lang-switch a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .lang-switch a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .lang-switch [aria-current] { background: var(--ui-accent-soft); border-color: var(--ui-accent-border); color: var(--ui-text); }
+      @media (prefers-reduced-motion: reduce) { .lang-switch a:active { transform: none; } }
+    </style>
+    <script type="text/javascript">
+        window.MIXPANEL_CUSTOM_LIB_URL = "https://mp.defi.garden/lib.min.js";
+        (function (f, b) { if (!b.__SV) { var e, g, i, h; window.mixpanel = b; b._i = []; b.init = function (e, f, c) { function g(a, d) { var b = d.split("."); 2 == b.length && ((a = a[b[0]]), (d = b[1])); a[d] = function () { a.push([d].concat(Array.prototype.slice.call(arguments, 0))); }; } var a = b; "undefined" !== typeof c ? (a = b[c] = []) : (c = "mixpanel"); a.people = a.people || []; a.toString = function (a) { var d = "mixpanel"; "mixpanel" !== c && (d += "." + c); a || (d += " (stub)"); return d; }; a.people.toString = function () { return a.toString(1) + ".people (stub)"; }; i = "disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" "); for (h = 0; h < i.length; h++) g(a, i[h]); var j = "set set_once union unset remove delete".split(" "); a.get_group = function () { function b(c) { d[c] = function () { call2_args = arguments; call2 = [c].concat(Array.prototype.slice.call(call2_args, 0)); a.push([e, call2]); }; } for (var d = {}, e = ["get_group"].concat(Array.prototype.slice.call(arguments, 0)), c = 0; c < j.length; c++) b(j[c]); return d; }; b._i.push([e, f, c]); }; b.__SV = 1.2; e = f.createElement("script"); e.type = "text/javascript"; e.async = !0; e.src = "undefined" !== typeof MIXPANEL_CUSTOM_LIB_URL ? MIXPANEL_CUSTOM_LIB_URL : "file:" === f.location.protocol && "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//) ? "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js" : "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js"; g = f.getElementsByTagName("script")[0]; g.parentNode.insertBefore(e, g); } })(document, window.mixpanel || []);
+        mixpanel.init("f22917d9da245858a6789c9e5d412c36", { debug: false, track_pageview: false, persistence: "localStorage", api_host: "https://mp.defi.garden" });
+    </script>
+    <script defer src="https://www.defi.garden/analytics.js"></script>
+    <script>
+      window.addEventListener('load', function () {
+        if (typeof Analytics !== 'undefined' && typeof Analytics.trackPageView === 'function') {
+          Analytics.trackPageView("/es/chains/stable", {"page_type":"chain_landing","chain":"Stable","pool_count":4,"lang":"es"});
+        }
+      });
+    </script>
+</head>
+<body>
+  <main class="cp-wrap">
+    <nav class="lang-switch" aria-label="Idioma">
+      <ul>
+        <li><a href="https://www.defi.garden/chains/stable" hreflang="en" lang="en" title="English" aria-label="English">EN</a></li>
+        <li><a href="https://www.defi.garden/ko/chains/stable" hreflang="ko" lang="ko" title="한국어" aria-label="한국어">KO</a></li>
+        <li><a href="https://www.defi.garden/pt/chains/stable" hreflang="pt" lang="pt-BR" title="Português" aria-label="Português">PT</a></li>
+        <li><span aria-current="true" lang="es" title="Español">ES</span></li>
+      </ul>
+    </nav>
+    <h1>Rendimientos DeFi en Stable</h1>
+    <p class="cp-answer">El mayor rendimiento honesto de Stable ahora es 6.87% en morpho-blue (Stable), entre 4 pools por encima del TVL mínimo de $100K. Las tasas son en vivo de DefiLlama y excluyen pools anómalos (APY &gt;1000%).</p>
+    <p class="sub">4 pools activos por encima del TVL mínimo de $100K · ordenados por TVL</p>
+    <p class="intro">El mayor pool activo en Stable es morpho-blue (GTUSDTB), con 6.87% ($21.85M de TVL). 4 pools en 3 tokens alcanzan el TVL mínimo de $100K de esta página, $109.36M en total.</p>
+    <p class="cp-yield-headline">Los fondos sin usar en Stable podrían rendir ~6.87% — deja $3.5K y podrían pagar una suscripción de Claude Pro de $20/mes, para siempre.</p>
+    <a class="cp-cta" rel="nofollow" href="https://www.defi.garden/?chain=Stable&minTvl=100000#src=seo_chain">Ver pools activos en Stable →</a>
+    <div class="cp-card">
+    <div class="scroll">
+    <table>
+      <thead>
+        <tr><th>Token</th><th>Protocolo</th><th class="num">APY</th><th class="num">TVL</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>GTUSDTB</td>
+          <td><a class="cp-pool-link" rel="nofollow" href="https://www.defi.garden/?pool=a259a0f0-8897-4740-b3b2-0ae1041f1bf0#src=seo_chain">morpho-blue &rarr;</a></td>
+          <td class="num">6.87%</td>
+          <td class="num">$21.85M</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+    </div>
+    <section class="cp-faq" aria-label="Preguntas frecuentes">
+      <h2>Preguntas frecuentes</h2>
+        <div class="cp-faq-item">
+          <h3 class="cp-faq-q">¿Cuál es el mayor rendimiento de Stable hoy?</h3>
+          <p class="cp-faq-a">6.87% de APY en morpho-blue (Stable), según datos en vivo de DefiLlama.</p>
+        </div>
+        <div class="cp-faq-item">
+          <h3 class="cp-faq-q">¿Cuántos pools de Stable alcanzan el TVL mínimo?</h3>
+          <p class="cp-faq-a">4 pools activos alcanzan el TVL mínimo de $100K de esta página, $109.36M en total.</p>
+        </div>
+        <div class="cp-faq-item">
+          <h3 class="cp-faq-q">¿Son seguras estas tasas?</h3>
+          <p class="cp-faq-a">Los pools de esta página alcanzan un TVL mínimo de $100K y excluyen tasas anómalas (APY &gt;1000%). Ese es el criterio de listado de esta página, no una garantía de seguridad. Esto es educación, no asesoría financiera; DeFi implica riesgo de contrato inteligente y de mercado, sin importar la tasa que se muestre.</p>
+        </div>
+    </section>
+    <nav class="related" aria-label="Redes relacionadas">
+      <h2>Redes relacionadas</h2>
+      <div class="related-links">
+        <a href="https://www.defi.garden/es/chains/ethereum">Ethereum</a>
+        <a href="https://www.defi.garden/es/chains/solana">Solana</a>
+        <a href="https://www.defi.garden/es/chains/base">Base</a>
+        <a href="https://www.defi.garden/es/chains/bsc">BSC</a>
+        <a href="https://www.defi.garden/es/chains/tron">Tron</a>
+        <a href="https://www.defi.garden/es/chains/arbitrum">Arbitrum</a>
+      </div>
+    </nav>
+    <nav class="related xlink-category" aria-label="Categorías de pools">
+      <h2>Por categoría</h2>
+      <div class="related-links">
+        <a rel="nofollow" href="https://www.defi.garden/?chain=Stable&minTvl=100000&poolTypes=Lending#src=seo_chain">Préstamos</a>
+      </div>
+    </nav>
+    <p class="note">Los rendimientos son en vivo de DefiLlama. Los pools de esta página alcanzan un TVL mínimo de $100K y excluyen tasas anómalas — ese es el criterio de listado de esta página, no una garantía de seguridad. Solo educación, no asesoría financiera.</p>
+    <p class="note">Última actualización: October 5, 2026</p>
+    <p class="note"><a href="https://www.defi.garden/">DeFi Garden 🌱</a> — planifica tu ahorro en DeFi por objetivo.</p>
+  </main>
+</body>
+</html>

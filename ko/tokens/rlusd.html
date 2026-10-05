@@ -8,6 +8,8 @@
     <link rel="canonical" href="https://www.defi.garden/ko/tokens/rlusd">
     <link rel="alternate" hreflang="en" href="https://www.defi.garden/tokens/rlusd">
     <link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/tokens/rlusd">
+    <link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/tokens/rlusd">
+    <link rel="alternate" hreflang="es" href="https://www.defi.garden/es/tokens/rlusd">
     <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/tokens/rlusd">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"홈","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"토큰","item":"https://www.defi.garden/ko/tokens"},{"@type":"ListItem","position":3,"name":"RLUSD","item":"https://www.defi.garden/ko/tokens/rlusd"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"Ethereum의 aave-v3","url":"https://www.defi.garden/?pool=98d07333-f5e4-4a48-8061-cfb4b73ccf79"},{"@type":"ListItem","position":2,"name":"Ethereum의 curve-dex","url":"https://www.defi.garden/?pool=e91e23af-9099-45d9-8ba5-ea5b4638e453"},{"@type":"ListItem","position":3,"name":"Ethereum의 termmax","url":"https://www.defi.garden/?pool=48025068-1498-40d6-b6c8-c2f0536e325c"},{"@type":"ListItem","position":4,"name":"Ethereum의 convex-finance","url":"https://www.defi.garden/?pool=d826a92b-2bd2-4fae-8483-db1ef8888aee"},{"@type":"ListItem","position":5,"name":"Ethereum의 sparklend","url":"https://www.defi.garden/?pool=80e30152-4021-5b61-ad4c-000884b62abc"},{"@type":"ListItem","position":6,"name":"Ethereum의 uniswap-v3","url":"https://www.defi.garden/?pool=bb78714b-5da3-5298-8009-da2451208e67"},{"@type":"ListItem","position":7,"name":"Ethereum의 uniswap-v3","url":"https://www.defi.garden/?pool=4df8be17-df55-47cf-b72b-6ef844f62200"},{"@type":"ListItem","position":8,"name":"Ethereum의 aave-v3","url":"https://www.defi.garden/?pool=85fc6934-c94d-4ebe-9c60-66beb363669f"}]}</script>
@@ -78,6 +80,14 @@
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } .tp-cta:active, .related-links a:active { transform: none; } }
+      .lang-switch ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; }
+      .lang-switch a, .lang-switch [aria-current] { display: inline-flex; align-items: center; min-height: 38px; box-sizing: border-box; padding: 0 14px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; font-size: .9rem; font-weight: 600; text-decoration: none; }
+      .lang-switch a { background: var(--ui-surface); color: var(--ui-accent); }
+      .lang-switch a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .lang-switch a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .lang-switch a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .lang-switch [aria-current] { background: var(--ui-accent-soft); border-color: var(--ui-accent-border); color: var(--ui-text); }
+      @media (prefers-reduced-motion: reduce) { .lang-switch a:active { transform: none; } }
       .tp-waitlist {
         background: var(--ui-surface);
         border: 1px solid var(--ui-border);
@@ -325,6 +335,14 @@
 </head>
 <body>
   <main class="tp-wrap">
+    <nav class="lang-switch" aria-label="언어">
+      <ul>
+        <li><a href="https://www.defi.garden/tokens/rlusd" hreflang="en" lang="en" title="English" aria-label="English">EN</a></li>
+        <li><span aria-current="true" lang="ko" title="한국어">KO</span></li>
+        <li><a href="https://www.defi.garden/pt/tokens/rlusd" hreflang="pt" lang="pt-BR" title="Português" aria-label="Português">PT</a></li>
+        <li><a href="https://www.defi.garden/es/tokens/rlusd" hreflang="es" lang="es" title="Español" aria-label="Español">ES</a></li>
+      </ul>
+    </nav>
     <h1>RLUSD 디파이 수익률</h1>
     <p class="tp-answer">현재 RLUSD의 가장 높은 정직한 수익률은 Ethereum의 aave-v3에서 4.99%이며, $100K TVL 기준을 넘는 10개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.</p>
     <p class="sub">$100K TVL 기준을 넘는 실시간 풀 10개 · TVL 순 정렬</p>

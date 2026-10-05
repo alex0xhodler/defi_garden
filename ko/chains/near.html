@@ -8,6 +8,8 @@
     <link rel="canonical" href="https://www.defi.garden/ko/chains/near">
     <link rel="alternate" hreflang="en" href="https://www.defi.garden/chains/near">
     <link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/chains/near">
+    <link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/chains/near">
+    <link rel="alternate" hreflang="es" href="https://www.defi.garden/es/chains/near">
     <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/chains/near">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"홈","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"체인","item":"https://www.defi.garden/ko/chains"},{"@type":"ListItem","position":3,"name":"Near","item":"https://www.defi.garden/ko/chains/near"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"Near의 rhea-lst","url":"https://www.defi.garden/?pool=b5b80cad-b4bc-5c49-b9c1-52e16856ce26"},{"@type":"ListItem","position":2,"name":"Near의 rhea-lst","url":"https://www.defi.garden/?pool=9f402ef0-5c94-501b-aae4-42fe2f152494"},{"@type":"ListItem","position":3,"name":"Near의 rhea-lend","url":"https://www.defi.garden/?pool=d4c96d26-5869-5771-90d5-08fd54e1455e"},{"@type":"ListItem","position":4,"name":"Near의 rhea-lend","url":"https://www.defi.garden/?pool=1a54c607-d829-5621-87a7-e3b7debc51a1"},{"@type":"ListItem","position":5,"name":"Near의 rhea-lend","url":"https://www.defi.garden/?pool=ff1954ee-3052-4d0c-8898-a28dd07c87af"},{"@type":"ListItem","position":6,"name":"Near의 rhea-dex","url":"https://www.defi.garden/?pool=2fc37959-7f8b-5016-a18d-902ab72b0d4b"}]}</script>
@@ -69,6 +71,14 @@
       .cp-faq-a { font-size: .9rem; margin: 0; color: var(--ui-text-secondary); line-height: 1.55; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .cp-cta, .related-links a { transition: none; } .cp-cta:active, .related-links a:active { transform: none; } }
+      .lang-switch ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; }
+      .lang-switch a, .lang-switch [aria-current] { display: inline-flex; align-items: center; min-height: 38px; box-sizing: border-box; padding: 0 14px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; font-size: .9rem; font-weight: 600; text-decoration: none; }
+      .lang-switch a { background: var(--ui-surface); color: var(--ui-accent); }
+      .lang-switch a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .lang-switch a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .lang-switch a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .lang-switch [aria-current] { background: var(--ui-accent-soft); border-color: var(--ui-accent-border); color: var(--ui-text); }
+      @media (prefers-reduced-motion: reduce) { .lang-switch a:active { transform: none; } }
       .cp-waitlist {
         background: var(--ui-surface);
         border: 1px solid var(--ui-border);
@@ -316,6 +326,14 @@
 </head>
 <body>
   <main class="cp-wrap">
+    <nav class="lang-switch" aria-label="언어">
+      <ul>
+        <li><a href="https://www.defi.garden/chains/near" hreflang="en" lang="en" title="English" aria-label="English">EN</a></li>
+        <li><span aria-current="true" lang="ko" title="한국어">KO</span></li>
+        <li><a href="https://www.defi.garden/pt/chains/near" hreflang="pt" lang="pt-BR" title="Português" aria-label="Português">PT</a></li>
+        <li><a href="https://www.defi.garden/es/chains/near" hreflang="es" lang="es" title="Español" aria-label="Español">ES</a></li>
+      </ul>
+    </nav>
     <h1>Near 디파이 수익률</h1>
     <p class="cp-answer">현재 Near의 가장 높은 정직한 수익률은 Near의 rhea-lend에서 8.16%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.</p>
     <p class="sub">$100K TVL 기준을 넘는 실시간 풀 6개 · TVL 순 정렬</p>

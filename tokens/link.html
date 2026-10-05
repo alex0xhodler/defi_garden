@@ -8,6 +8,8 @@
     <link rel="canonical" href="https://www.defi.garden/tokens/link">
     <link rel="alternate" hreflang="en" href="https://www.defi.garden/tokens/link">
     <link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/tokens/link">
+    <link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/tokens/link">
+    <link rel="alternate" hreflang="es" href="https://www.defi.garden/es/tokens/link">
     <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/tokens/link">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens","item":"https://www.defi.garden/tokens"},{"@type":"ListItem","position":3,"name":"LINK","item":"https://www.defi.garden/tokens/link"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"aave-v3 on Ethereum","url":"https://www.defi.garden/?pool=b847133f-f5d5-4692-b74e-d815d51988fc"},{"@type":"ListItem","position":2,"name":"uniswap-v4 on Ethereum","url":"https://www.defi.garden/?pool=46ac97f1-cb18-40ad-9ae6-b6c31981684c"},{"@type":"ListItem","position":3,"name":"uniswap-v3 on Ethereum","url":"https://www.defi.garden/?pool=3025b6b3-e95f-490e-ba10-540c9b1b08f9"},{"@type":"ListItem","position":4,"name":"bancor-v3 on Ethereum","url":"https://www.defi.garden/?pool=6f61c337-7cee-4ed9-a369-d645caf7748b"},{"@type":"ListItem","position":5,"name":"curve-dex on Ethereum","url":"https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3"},{"@type":"ListItem","position":6,"name":"uniswap-v4 on Ethereum","url":"https://www.defi.garden/?pool=ff28648e-ed2e-4949-9422-eb38628bb1f6"},{"@type":"ListItem","position":7,"name":"gmx-v2-perps on Arbitrum","url":"https://www.defi.garden/?pool=dffb3514-d667-4f2f-8df3-f716ebe09c93"},{"@type":"ListItem","position":8,"name":"aave-v3 on Polygon","url":"https://www.defi.garden/?pool=995a6317-1c32-48c2-a8c9-683263b8412e"}]}</script>
@@ -78,6 +80,14 @@
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } .tp-cta:active, .related-links a:active { transform: none; } }
+      .lang-switch ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; }
+      .lang-switch a, .lang-switch [aria-current] { display: inline-flex; align-items: center; min-height: 38px; box-sizing: border-box; padding: 0 14px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; font-size: .9rem; font-weight: 600; text-decoration: none; }
+      .lang-switch a { background: var(--ui-surface); color: var(--ui-accent); }
+      .lang-switch a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .lang-switch a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .lang-switch a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .lang-switch [aria-current] { background: var(--ui-accent-soft); border-color: var(--ui-accent-border); color: var(--ui-text); }
+      @media (prefers-reduced-motion: reduce) { .lang-switch a:active { transform: none; } }
       .tp-waitlist {
         background: var(--ui-surface);
         border: 1px solid var(--ui-border);
@@ -325,6 +335,14 @@
 </head>
 <body>
   <main class="tp-wrap">
+    <nav class="lang-switch" aria-label="Language">
+      <ul>
+        <li><span aria-current="true" lang="en" title="English">EN</span></li>
+        <li><a href="https://www.defi.garden/ko/tokens/link" hreflang="ko" lang="ko" title="한국어" aria-label="한국어">KO</a></li>
+        <li><a href="https://www.defi.garden/pt/tokens/link" hreflang="pt" lang="pt-BR" title="Português" aria-label="Português">PT</a></li>
+        <li><a href="https://www.defi.garden/es/tokens/link" hreflang="es" lang="es" title="Español" aria-label="Español">ES</a></li>
+      </ul>
+    </nav>
     <h1>LINK DeFi Yields</h1>
     <p class="tp-answer">The highest honest LINK yield right now is 14.36% on uniswap-v3 (Ethereum), among 48 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">48 live pools above the $100K TVL floor · ranked by TVL</p>

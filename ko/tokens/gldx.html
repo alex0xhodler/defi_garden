@@ -8,6 +8,8 @@
     <link rel="canonical" href="https://www.defi.garden/ko/tokens/gldx">
     <link rel="alternate" hreflang="en" href="https://www.defi.garden/tokens/gldx">
     <link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/tokens/gldx">
+    <link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/tokens/gldx">
+    <link rel="alternate" hreflang="es" href="https://www.defi.garden/es/tokens/gldx">
     <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/tokens/gldx">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"홈","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"토큰","item":"https://www.defi.garden/ko/tokens"},{"@type":"ListItem","position":3,"name":"GLDX","item":"https://www.defi.garden/ko/tokens/gldx"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"Solana의 raydium-amm","url":"https://www.defi.garden/?pool=3719be8e-77f3-4239-b901-407f6b174fd0"},{"@type":"ListItem","position":2,"name":"Solana의 raydium-amm","url":"https://www.defi.garden/?pool=1f86297f-55bf-40e7-9485-68e843761c70"},{"@type":"ListItem","position":3,"name":"Solana의 orca-dex","url":"https://www.defi.garden/?pool=00407bf1-b584-4019-b106-0c8d35a5ebb0"},{"@type":"ListItem","position":4,"name":"Solana의 raydium-amm","url":"https://www.defi.garden/?pool=b9c8d651-97a2-5f95-a23d-54d7e3a5914b"},{"@type":"ListItem","position":5,"name":"Solana의 orca-dex","url":"https://www.defi.garden/?pool=b7a1de8b-ae15-4365-9f30-b32463510965"},{"@type":"ListItem","position":6,"name":"Solana의 orca-dex","url":"https://www.defi.garden/?pool=b8d1cb2b-0c5c-5876-84a7-c242a3cf4d2f"}]}</script>
@@ -78,6 +80,14 @@
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } .tp-cta:active, .related-links a:active { transform: none; } }
+      .lang-switch ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; }
+      .lang-switch a, .lang-switch [aria-current] { display: inline-flex; align-items: center; min-height: 38px; box-sizing: border-box; padding: 0 14px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; font-size: .9rem; font-weight: 600; text-decoration: none; }
+      .lang-switch a { background: var(--ui-surface); color: var(--ui-accent); }
+      .lang-switch a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .lang-switch a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .lang-switch a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .lang-switch [aria-current] { background: var(--ui-accent-soft); border-color: var(--ui-accent-border); color: var(--ui-text); }
+      @media (prefers-reduced-motion: reduce) { .lang-switch a:active { transform: none; } }
       .tp-waitlist {
         background: var(--ui-surface);
         border: 1px solid var(--ui-border);
@@ -325,6 +335,14 @@
 </head>
 <body>
   <main class="tp-wrap">
+    <nav class="lang-switch" aria-label="언어">
+      <ul>
+        <li><a href="https://www.defi.garden/tokens/gldx" hreflang="en" lang="en" title="English" aria-label="English">EN</a></li>
+        <li><span aria-current="true" lang="ko" title="한국어">KO</span></li>
+        <li><a href="https://www.defi.garden/pt/tokens/gldx" hreflang="pt" lang="pt-BR" title="Português" aria-label="Português">PT</a></li>
+        <li><a href="https://www.defi.garden/es/tokens/gldx" hreflang="es" lang="es" title="Español" aria-label="Español">ES</a></li>
+      </ul>
+    </nav>
     <h1>GLDX 디파이 수익률</h1>
     <p class="tp-answer">현재 GLDX의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 6.34%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.</p>
     <p class="sub">$100K TVL 기준을 넘는 실시간 풀 6개 · TVL 순 정렬</p>

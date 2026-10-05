@@ -8,6 +8,8 @@
     <link rel="canonical" href="https://www.defi.garden/ko/tokens/usd1">
     <link rel="alternate" hreflang="en" href="https://www.defi.garden/tokens/usd1">
     <link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/tokens/usd1">
+    <link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/tokens/usd1">
+    <link rel="alternate" hreflang="es" href="https://www.defi.garden/es/tokens/usd1">
     <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/tokens/usd1">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"홈","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"토큰","item":"https://www.defi.garden/ko/tokens"},{"@type":"ListItem","position":3,"name":"USD1","item":"https://www.defi.garden/ko/tokens/usd1"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"BSC의 lista-lending","url":"https://www.defi.garden/ko/pools/lista-lending-usd1-bsc"},{"@type":"ListItem","position":2,"name":"Ethereum의 dolomite","url":"https://www.defi.garden/?pool=86e18974-35ca-4948-9c82-694facf9d082"},{"@type":"ListItem","position":3,"name":"Ethereum의 concrete","url":"https://www.defi.garden/?pool=c47fc8ce-12b3-5f57-8763-7ce72ed4bcea"},{"@type":"ListItem","position":4,"name":"Ethereum의 curve-dex","url":"https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23"},{"@type":"ListItem","position":5,"name":"Solana의 raydium-amm","url":"https://www.defi.garden/?pool=d14d4632-727b-47c2-b69a-def5691b4155"},{"@type":"ListItem","position":6,"name":"Solana의 raydium-amm","url":"https://www.defi.garden/?pool=866092b0-6627-432a-af86-e1af0c4dae6c"},{"@type":"ListItem","position":7,"name":"Aptos의 echelon-market","url":"https://www.defi.garden/?pool=77602b93-35e4-48eb-bd66-043d13f442b1"},{"@type":"ListItem","position":8,"name":"BSC의 venus-core-pool","url":"https://www.defi.garden/?pool=406b11b4-c4f9-4253-bfd3-388c208a4ecd"}]}</script>
@@ -78,6 +80,14 @@
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } .tp-cta:active, .related-links a:active { transform: none; } }
+      .lang-switch ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; }
+      .lang-switch a, .lang-switch [aria-current] { display: inline-flex; align-items: center; min-height: 38px; box-sizing: border-box; padding: 0 14px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; font-size: .9rem; font-weight: 600; text-decoration: none; }
+      .lang-switch a { background: var(--ui-surface); color: var(--ui-accent); }
+      .lang-switch a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .lang-switch a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .lang-switch a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .lang-switch [aria-current] { background: var(--ui-accent-soft); border-color: var(--ui-accent-border); color: var(--ui-text); }
+      @media (prefers-reduced-motion: reduce) { .lang-switch a:active { transform: none; } }
       .tp-waitlist {
         background: var(--ui-surface);
         border: 1px solid var(--ui-border);
@@ -325,6 +335,14 @@
 </head>
 <body>
   <main class="tp-wrap">
+    <nav class="lang-switch" aria-label="언어">
+      <ul>
+        <li><a href="https://www.defi.garden/tokens/usd1" hreflang="en" lang="en" title="English" aria-label="English">EN</a></li>
+        <li><span aria-current="true" lang="ko" title="한국어">KO</span></li>
+        <li><a href="https://www.defi.garden/pt/tokens/usd1" hreflang="pt" lang="pt-BR" title="Português" aria-label="Português">PT</a></li>
+        <li><a href="https://www.defi.garden/es/tokens/usd1" hreflang="es" lang="es" title="Español" aria-label="Español">ES</a></li>
+      </ul>
+    </nav>
     <h1>USD1 디파이 수익률</h1>
     <p class="tp-answer">현재 USD1의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 13.42%이며, $100K TVL 기준을 넘는 18개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.</p>
     <p class="sub">$100K TVL 기준을 넘는 실시간 풀 18개 · TVL 순 정렬</p>

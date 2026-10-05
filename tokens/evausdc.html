@@ -8,6 +8,8 @@
     <link rel="canonical" href="https://www.defi.garden/tokens/evausdc">
     <link rel="alternate" hreflang="en" href="https://www.defi.garden/tokens/evausdc">
     <link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/tokens/evausdc">
+    <link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/tokens/evausdc">
+    <link rel="alternate" hreflang="es" href="https://www.defi.garden/es/tokens/evausdc">
     <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/tokens/evausdc">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens","item":"https://www.defi.garden/tokens"},{"@type":"ListItem","position":3,"name":"EVAUSDC","item":"https://www.defi.garden/tokens/evausdc"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"curve-dex on Ethereum","url":"https://www.defi.garden/?pool=9d2981a0-af33-4a5d-b43f-b191a36fdc3b"},{"@type":"ListItem","position":2,"name":"stake-dao-yield on Ethereum","url":"https://www.defi.garden/?pool=3d18012e-c874-46e8-8a96-8454f000be0b"},{"@type":"ListItem","position":3,"name":"convex-finance on Ethereum","url":"https://www.defi.garden/?pool=3f9ff90a-50aa-4af7-9a3f-4d45586425f5"},{"@type":"ListItem","position":4,"name":"shadow-exchange-legacy on Sonic","url":"https://www.defi.garden/?pool=b344826d-1c25-43e5-8e75-3b7510531c4c"}]}</script>
@@ -78,6 +80,14 @@
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } .tp-cta:active, .related-links a:active { transform: none; } }
+      .lang-switch ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; }
+      .lang-switch a, .lang-switch [aria-current] { display: inline-flex; align-items: center; min-height: 38px; box-sizing: border-box; padding: 0 14px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; font-size: .9rem; font-weight: 600; text-decoration: none; }
+      .lang-switch a { background: var(--ui-surface); color: var(--ui-accent); }
+      .lang-switch a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .lang-switch a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .lang-switch a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .lang-switch [aria-current] { background: var(--ui-accent-soft); border-color: var(--ui-accent-border); color: var(--ui-text); }
+      @media (prefers-reduced-motion: reduce) { .lang-switch a:active { transform: none; } }
       .tp-waitlist {
         background: var(--ui-surface);
         border: 1px solid var(--ui-border);
@@ -325,6 +335,14 @@
 </head>
 <body>
   <main class="tp-wrap">
+    <nav class="lang-switch" aria-label="Language">
+      <ul>
+        <li><span aria-current="true" lang="en" title="English">EN</span></li>
+        <li><a href="https://www.defi.garden/ko/tokens/evausdc" hreflang="ko" lang="ko" title="한국어" aria-label="한국어">KO</a></li>
+        <li><a href="https://www.defi.garden/pt/tokens/evausdc" hreflang="pt" lang="pt-BR" title="Português" aria-label="Português">PT</a></li>
+        <li><a href="https://www.defi.garden/es/tokens/evausdc" hreflang="es" lang="es" title="Español" aria-label="Español">ES</a></li>
+      </ul>
+    </nav>
     <h1>EVAUSDC DeFi Yields</h1>
     <p class="tp-answer">The highest honest EVAUSDC yield right now is 11.98% on convex-finance (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">4 live pools above the $100K TVL floor · ranked by TVL</p>

@@ -8,6 +8,8 @@
     <link rel="canonical" href="https://www.defi.garden/tokens/tao">
     <link rel="alternate" hreflang="en" href="https://www.defi.garden/tokens/tao">
     <link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/tokens/tao">
+    <link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/tokens/tao">
+    <link rel="alternate" hreflang="es" href="https://www.defi.garden/es/tokens/tao">
     <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/tokens/tao">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens","item":"https://www.defi.garden/tokens"},{"@type":"ListItem","position":3,"name":"TAO","item":"https://www.defi.garden/tokens/tao"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"aerodrome-slipstream on Base","url":"https://www.defi.garden/?pool=784e8a38-c0b3-53d4-8f73-0f95a6ff4245"},{"@type":"ListItem","position":2,"name":"orca-dex on Solana","url":"https://www.defi.garden/?pool=ae8d815f-f545-56ef-8e6a-e8b6a2bdf303"},{"@type":"ListItem","position":3,"name":"uniswap-v3 on Base","url":"https://www.defi.garden/?pool=5e86c21c-6d1e-5861-85ca-a45276ae4737"},{"@type":"ListItem","position":4,"name":"raydium-amm on Solana","url":"https://www.defi.garden/?pool=a510c815-555a-500e-9427-ea711c5977f6"}]}</script>
@@ -78,6 +80,14 @@
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } .tp-cta:active, .related-links a:active { transform: none; } }
+      .lang-switch ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; }
+      .lang-switch a, .lang-switch [aria-current] { display: inline-flex; align-items: center; min-height: 38px; box-sizing: border-box; padding: 0 14px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; font-size: .9rem; font-weight: 600; text-decoration: none; }
+      .lang-switch a { background: var(--ui-surface); color: var(--ui-accent); }
+      .lang-switch a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .lang-switch a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .lang-switch a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .lang-switch [aria-current] { background: var(--ui-accent-soft); border-color: var(--ui-accent-border); color: var(--ui-text); }
+      @media (prefers-reduced-motion: reduce) { .lang-switch a:active { transform: none; } }
       .tp-waitlist {
         background: var(--ui-surface);
         border: 1px solid var(--ui-border);
@@ -325,6 +335,14 @@
 </head>
 <body>
   <main class="tp-wrap">
+    <nav class="lang-switch" aria-label="Language">
+      <ul>
+        <li><span aria-current="true" lang="en" title="English">EN</span></li>
+        <li><a href="https://www.defi.garden/ko/tokens/tao" hreflang="ko" lang="ko" title="한국어" aria-label="한국어">KO</a></li>
+        <li><a href="https://www.defi.garden/pt/tokens/tao" hreflang="pt" lang="pt-BR" title="Português" aria-label="Português">PT</a></li>
+        <li><a href="https://www.defi.garden/es/tokens/tao" hreflang="es" lang="es" title="Español" aria-label="Español">ES</a></li>
+      </ul>
+    </nav>
     <h1>TAO DeFi Yields</h1>
     <p class="tp-answer">The highest honest TAO yield right now is 79.08% on uniswap-v3 (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">4 live pools above the $100K TVL floor · ranked by TVL</p>

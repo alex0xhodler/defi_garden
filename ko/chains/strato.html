@@ -8,6 +8,8 @@
     <link rel="canonical" href="https://www.defi.garden/ko/chains/strato">
     <link rel="alternate" hreflang="en" href="https://www.defi.garden/chains/strato">
     <link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/chains/strato">
+    <link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/chains/strato">
+    <link rel="alternate" hreflang="es" href="https://www.defi.garden/es/chains/strato">
     <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/chains/strato">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"홈","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"체인","item":"https://www.defi.garden/ko/chains"},{"@type":"ListItem","position":3,"name":"Strato","item":"https://www.defi.garden/ko/chains/strato"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"Strato의 strato","url":"https://www.defi.garden/?pool=3d1f50ff-60fc-5456-966d-c66a6542d20f"},{"@type":"ListItem","position":2,"name":"Strato의 strato","url":"https://www.defi.garden/?pool=af58b38a-fa8b-529e-af1d-43e904e929e0"}]}</script>
@@ -69,6 +71,14 @@
       .cp-faq-a { font-size: .9rem; margin: 0; color: var(--ui-text-secondary); line-height: 1.55; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .cp-cta, .related-links a { transition: none; } .cp-cta:active, .related-links a:active { transform: none; } }
+      .lang-switch ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; }
+      .lang-switch a, .lang-switch [aria-current] { display: inline-flex; align-items: center; min-height: 38px; box-sizing: border-box; padding: 0 14px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; font-size: .9rem; font-weight: 600; text-decoration: none; }
+      .lang-switch a { background: var(--ui-surface); color: var(--ui-accent); }
+      .lang-switch a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .lang-switch a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .lang-switch a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .lang-switch [aria-current] { background: var(--ui-accent-soft); border-color: var(--ui-accent-border); color: var(--ui-text); }
+      @media (prefers-reduced-motion: reduce) { .lang-switch a:active { transform: none; } }
       .cp-waitlist {
         background: var(--ui-surface);
         border: 1px solid var(--ui-border);
@@ -316,6 +326,14 @@
 </head>
 <body>
   <main class="cp-wrap">
+    <nav class="lang-switch" aria-label="언어">
+      <ul>
+        <li><a href="https://www.defi.garden/chains/strato" hreflang="en" lang="en" title="English" aria-label="English">EN</a></li>
+        <li><span aria-current="true" lang="ko" title="한국어">KO</span></li>
+        <li><a href="https://www.defi.garden/pt/chains/strato" hreflang="pt" lang="pt-BR" title="Português" aria-label="Português">PT</a></li>
+        <li><a href="https://www.defi.garden/es/chains/strato" hreflang="es" lang="es" title="Español" aria-label="Español">ES</a></li>
+      </ul>
+    </nav>
     <h1>Strato 디파이 수익률</h1>
     <p class="cp-answer">현재 Strato의 가장 높은 정직한 수익률은 Strato의 strato에서 5.45%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.</p>
     <p class="sub">$100K TVL 기준을 넘는 실시간 풀 2개 · TVL 순 정렬</p>

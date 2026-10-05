@@ -8,6 +8,8 @@
     <link rel="canonical" href="https://www.defi.garden/tokens/strkbtc">
     <link rel="alternate" hreflang="en" href="https://www.defi.garden/tokens/strkbtc">
     <link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/tokens/strkbtc">
+    <link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/tokens/strkbtc">
+    <link rel="alternate" hreflang="es" href="https://www.defi.garden/es/tokens/strkbtc">
     <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/tokens/strkbtc">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens","item":"https://www.defi.garden/tokens"},{"@type":"ListItem","position":3,"name":"STRKBTC","item":"https://www.defi.garden/tokens/strkbtc"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"ekubo on Starknet","url":"https://www.defi.garden/?pool=42284cfd-a59f-4128-8677-bbaeb0519148"},{"@type":"ListItem","position":2,"name":"ekubo on Starknet","url":"https://www.defi.garden/?pool=4d047314-ded1-4def-a372-b8e429759efb"},{"@type":"ListItem","position":3,"name":"ekubo on Starknet","url":"https://www.defi.garden/?pool=fd90352e-6772-472c-a0d4-cdef49027da5"},{"@type":"ListItem","position":4,"name":"ekubo on Starknet","url":"https://www.defi.garden/?pool=e9a4a3d6-c2fe-438b-88b4-d4ea598b6651"},{"@type":"ListItem","position":5,"name":"ekubo on Starknet","url":"https://www.defi.garden/?pool=5304a5af-cd2e-466d-8fbe-728aeda406fa"},{"@type":"ListItem","position":6,"name":"ekubo on Starknet","url":"https://www.defi.garden/?pool=5fe3a5c6-4423-48c7-a726-cbc269cfa390"},{"@type":"ListItem","position":7,"name":"troves on Starknet","url":"https://www.defi.garden/?pool=b657e46f-3649-4efd-8ed0-29e29f36ef1b"},{"@type":"ListItem","position":8,"name":"endur on Starknet","url":"https://www.defi.garden/?pool=f4040a51-84b6-465a-8f7e-01ab64ad42f1"}]}</script>
@@ -78,6 +80,14 @@
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } .tp-cta:active, .related-links a:active { transform: none; } }
+      .lang-switch ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; }
+      .lang-switch a, .lang-switch [aria-current] { display: inline-flex; align-items: center; min-height: 38px; box-sizing: border-box; padding: 0 14px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; font-size: .9rem; font-weight: 600; text-decoration: none; }
+      .lang-switch a { background: var(--ui-surface); color: var(--ui-accent); }
+      .lang-switch a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .lang-switch a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .lang-switch a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .lang-switch [aria-current] { background: var(--ui-accent-soft); border-color: var(--ui-accent-border); color: var(--ui-text); }
+      @media (prefers-reduced-motion: reduce) { .lang-switch a:active { transform: none; } }
       .tp-waitlist {
         background: var(--ui-surface);
         border: 1px solid var(--ui-border);
@@ -325,6 +335,14 @@
 </head>
 <body>
   <main class="tp-wrap">
+    <nav class="lang-switch" aria-label="Language">
+      <ul>
+        <li><span aria-current="true" lang="en" title="English">EN</span></li>
+        <li><a href="https://www.defi.garden/ko/tokens/strkbtc" hreflang="ko" lang="ko" title="한국어" aria-label="한국어">KO</a></li>
+        <li><a href="https://www.defi.garden/pt/tokens/strkbtc" hreflang="pt" lang="pt-BR" title="Português" aria-label="Português">PT</a></li>
+        <li><a href="https://www.defi.garden/es/tokens/strkbtc" hreflang="es" lang="es" title="Español" aria-label="Español">ES</a></li>
+      </ul>
+    </nav>
     <h1>STRKBTC DeFi Yields</h1>
     <p class="tp-answer">The highest honest STRKBTC yield right now is 129.97% on ekubo (Starknet), among 15 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">15 live pools above the $100K TVL floor · ranked by TVL</p>

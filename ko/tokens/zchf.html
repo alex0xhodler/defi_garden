@@ -8,6 +8,8 @@
     <link rel="canonical" href="https://www.defi.garden/ko/tokens/zchf">
     <link rel="alternate" hreflang="en" href="https://www.defi.garden/tokens/zchf">
     <link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/tokens/zchf">
+    <link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/tokens/zchf">
+    <link rel="alternate" hreflang="es" href="https://www.defi.garden/es/tokens/zchf">
     <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/tokens/zchf">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"홈","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"토큰","item":"https://www.defi.garden/ko/tokens"},{"@type":"ListItem","position":3,"name":"ZCHF","item":"https://www.defi.garden/ko/tokens/zchf"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"Ethereum의 frankencoin","url":"https://www.defi.garden/?pool=8b427366-7bfb-4c61-88be-8dc004fdc3da"},{"@type":"ListItem","position":2,"name":"Ethereum의 uniswap-v3","url":"https://www.defi.garden/?pool=fd20e294-586b-46c6-ae46-260b0940d3b4"},{"@type":"ListItem","position":3,"name":"OP Mainnet의 uniswap-v3","url":"https://www.defi.garden/?pool=3544718f-aafa-56cf-8d75-5e05c2cc2b1c"},{"@type":"ListItem","position":4,"name":"Gnosis의 frankencoin","url":"https://www.defi.garden/?pool=75ff7280-15a9-4111-9b68-25254d741529"},{"@type":"ListItem","position":5,"name":"Ethereum의 curve-dex","url":"https://www.defi.garden/?pool=d85aeae0-e233-4c1e-8620-66569a571609"},{"@type":"ListItem","position":6,"name":"Base의 frankencoin","url":"https://www.defi.garden/?pool=e5a2cc6d-7872-4b59-8ce5-0d4c59b19d52"},{"@type":"ListItem","position":7,"name":"OP Mainnet의 uniswap-v3","url":"https://www.defi.garden/?pool=594cb408-4201-5ce9-bbf4-4dde49cfa675"},{"@type":"ListItem","position":8,"name":"Ethereum의 convex-finance","url":"https://www.defi.garden/?pool=34f1ecee-852f-4720-8371-b83cde5ea86b"}]}</script>
@@ -78,6 +80,14 @@
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } .tp-cta:active, .related-links a:active { transform: none; } }
+      .lang-switch ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; }
+      .lang-switch a, .lang-switch [aria-current] { display: inline-flex; align-items: center; min-height: 38px; box-sizing: border-box; padding: 0 14px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; font-size: .9rem; font-weight: 600; text-decoration: none; }
+      .lang-switch a { background: var(--ui-surface); color: var(--ui-accent); }
+      .lang-switch a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .lang-switch a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .lang-switch a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .lang-switch [aria-current] { background: var(--ui-accent-soft); border-color: var(--ui-accent-border); color: var(--ui-text); }
+      @media (prefers-reduced-motion: reduce) { .lang-switch a:active { transform: none; } }
       .tp-waitlist {
         background: var(--ui-surface);
         border: 1px solid var(--ui-border);
@@ -325,6 +335,14 @@
 </head>
 <body>
   <main class="tp-wrap">
+    <nav class="lang-switch" aria-label="언어">
+      <ul>
+        <li><a href="https://www.defi.garden/tokens/zchf" hreflang="en" lang="en" title="English" aria-label="English">EN</a></li>
+        <li><span aria-current="true" lang="ko" title="한국어">KO</span></li>
+        <li><a href="https://www.defi.garden/pt/tokens/zchf" hreflang="pt" lang="pt-BR" title="Português" aria-label="Português">PT</a></li>
+        <li><a href="https://www.defi.garden/es/tokens/zchf" hreflang="es" lang="es" title="Español" aria-label="Español">ES</a></li>
+      </ul>
+    </nav>
     <h1>ZCHF 디파이 수익률</h1>
     <p class="tp-answer">현재 ZCHF의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 11.48%이며, $100K TVL 기준을 넘는 11개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.</p>
     <p class="sub">$100K TVL 기준을 넘는 실시간 풀 11개 · TVL 순 정렬</p>

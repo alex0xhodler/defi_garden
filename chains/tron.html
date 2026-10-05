@@ -8,6 +8,8 @@
     <link rel="canonical" href="https://www.defi.garden/chains/tron">
     <link rel="alternate" hreflang="en" href="https://www.defi.garden/chains/tron">
     <link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/chains/tron">
+    <link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/chains/tron">
+    <link rel="alternate" hreflang="es" href="https://www.defi.garden/es/chains/tron">
     <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/chains/tron">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Chains","item":"https://www.defi.garden/chains"},{"@type":"ListItem","position":3,"name":"Tron","item":"https://www.defi.garden/chains/tron"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"justlend-v1 on Tron","url":"https://www.defi.garden/?pool=90d3f42a-8700-4b9f-baa8-090a3c4322c9"},{"@type":"ListItem","position":2,"name":"justlend-v1 on Tron","url":"https://www.defi.garden/?pool=71418c17-d2aa-4eff-b68a-806fff9ec951"},{"@type":"ListItem","position":3,"name":"justlend-v1 on Tron","url":"https://www.defi.garden/pools/justlend-v1-usdd-tron"},{"@type":"ListItem","position":4,"name":"justlend-v1 on Tron","url":"https://www.defi.garden/?pool=dac406f6-5600-437e-849d-f03daa383864"},{"@type":"ListItem","position":5,"name":"tr-energy on Tron","url":"https://www.defi.garden/?pool=cf7a5142-ff74-4b1d-8267-98148c90b72c"},{"@type":"ListItem","position":6,"name":"justlend-v1 on Tron","url":"https://www.defi.garden/?pool=aa3b8470-cd15-4e02-a83d-b83fae993855"},{"@type":"ListItem","position":7,"name":"justlend-v1 on Tron","url":"https://www.defi.garden/?pool=873e1048-9094-4b63-a6f4-bd62325ecc81"},{"@type":"ListItem","position":8,"name":"justlend-v1 on Tron","url":"https://www.defi.garden/?pool=d598a9e0-b347-5baf-b61a-94c2e8e730d0"}]}</script>
@@ -69,6 +71,14 @@
       .cp-faq-a { font-size: .9rem; margin: 0; color: var(--ui-text-secondary); line-height: 1.55; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .cp-cta, .related-links a { transition: none; } .cp-cta:active, .related-links a:active { transform: none; } }
+      .lang-switch ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; }
+      .lang-switch a, .lang-switch [aria-current] { display: inline-flex; align-items: center; min-height: 38px; box-sizing: border-box; padding: 0 14px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; font-size: .9rem; font-weight: 600; text-decoration: none; }
+      .lang-switch a { background: var(--ui-surface); color: var(--ui-accent); }
+      .lang-switch a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .lang-switch a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .lang-switch a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .lang-switch [aria-current] { background: var(--ui-accent-soft); border-color: var(--ui-accent-border); color: var(--ui-text); }
+      @media (prefers-reduced-motion: reduce) { .lang-switch a:active { transform: none; } }
       .cp-waitlist {
         background: var(--ui-surface);
         border: 1px solid var(--ui-border);
@@ -316,6 +326,14 @@
 </head>
 <body>
   <main class="cp-wrap">
+    <nav class="lang-switch" aria-label="Language">
+      <ul>
+        <li><span aria-current="true" lang="en" title="English">EN</span></li>
+        <li><a href="https://www.defi.garden/ko/chains/tron" hreflang="ko" lang="ko" title="한국어" aria-label="한국어">KO</a></li>
+        <li><a href="https://www.defi.garden/pt/chains/tron" hreflang="pt" lang="pt-BR" title="Português" aria-label="Português">PT</a></li>
+        <li><a href="https://www.defi.garden/es/chains/tron" hreflang="es" lang="es" title="Español" aria-label="Español">ES</a></li>
+      </ul>
+    </nav>
     <h1>Tron DeFi Yields</h1>
     <p class="cp-answer">The highest honest Tron yield right now is 11.57% on tr-energy (Tron), among 23 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">23 live pools above the $100K TVL floor · ranked by TVL</p>

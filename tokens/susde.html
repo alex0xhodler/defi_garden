@@ -8,6 +8,8 @@
     <link rel="canonical" href="https://www.defi.garden/tokens/susde">
     <link rel="alternate" hreflang="en" href="https://www.defi.garden/tokens/susde">
     <link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/tokens/susde">
+    <link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/tokens/susde">
+    <link rel="alternate" hreflang="es" href="https://www.defi.garden/es/tokens/susde">
     <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/tokens/susde">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens","item":"https://www.defi.garden/tokens"},{"@type":"ListItem","position":3,"name":"SUSDE","item":"https://www.defi.garden/tokens/susde"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"ethena-usde on Ethereum","url":"https://www.defi.garden/pools/ethena-usde-susde-ethereum"},{"@type":"ListItem","position":2,"name":"curve-dex on Ethereum","url":"https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720"},{"@type":"ListItem","position":3,"name":"convex-finance on Ethereum","url":"https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183"},{"@type":"ListItem","position":4,"name":"pendle-v2 on Monad","url":"https://www.defi.garden/?pool=5531d8b2-41b6-5641-aa9f-258fbcb5c82a"},{"@type":"ListItem","position":5,"name":"pendle-v2 on Monad","url":"https://www.defi.garden/?pool=798551dc-52c0-5085-821e-48d4cb5916aa"},{"@type":"ListItem","position":6,"name":"yearn-finance on Ethereum","url":"https://www.defi.garden/?pool=77a6c1f4-fc04-47ff-aa62-090bcb20e3db"},{"@type":"ListItem","position":7,"name":"pendle-v2 on Ethereum","url":"https://www.defi.garden/?pool=afdef3b3-8c37-5156-9c39-c2849e20f7a8"},{"@type":"ListItem","position":8,"name":"pendle-v2 on Ethereum","url":"https://www.defi.garden/?pool=fc9a73bc-8ccc-5701-9007-1aeb68ff6a51"}]}</script>
@@ -78,6 +80,14 @@
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } .tp-cta:active, .related-links a:active { transform: none; } }
+      .lang-switch ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; }
+      .lang-switch a, .lang-switch [aria-current] { display: inline-flex; align-items: center; min-height: 38px; box-sizing: border-box; padding: 0 14px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; font-size: .9rem; font-weight: 600; text-decoration: none; }
+      .lang-switch a { background: var(--ui-surface); color: var(--ui-accent); }
+      .lang-switch a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .lang-switch a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .lang-switch a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .lang-switch [aria-current] { background: var(--ui-accent-soft); border-color: var(--ui-accent-border); color: var(--ui-text); }
+      @media (prefers-reduced-motion: reduce) { .lang-switch a:active { transform: none; } }
       .tp-waitlist {
         background: var(--ui-surface);
         border: 1px solid var(--ui-border);
@@ -325,6 +335,14 @@
 </head>
 <body>
   <main class="tp-wrap">
+    <nav class="lang-switch" aria-label="Language">
+      <ul>
+        <li><span aria-current="true" lang="en" title="English">EN</span></li>
+        <li><a href="https://www.defi.garden/ko/tokens/susde" hreflang="ko" lang="ko" title="한국어" aria-label="한국어">KO</a></li>
+        <li><a href="https://www.defi.garden/pt/tokens/susde" hreflang="pt" lang="pt-BR" title="Português" aria-label="Português">PT</a></li>
+        <li><a href="https://www.defi.garden/es/tokens/susde" hreflang="es" lang="es" title="Español" aria-label="Español">ES</a></li>
+      </ul>
+    </nav>
     <h1>SUSDE DeFi Yields</h1>
     <p class="tp-answer">The highest honest SUSDE yield right now is 10.88% on pendle-v2 (Monad), among 57 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">57 live pools above the $100K TVL floor · ranked by TVL</p>

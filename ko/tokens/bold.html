@@ -8,6 +8,8 @@
     <link rel="canonical" href="https://www.defi.garden/ko/tokens/bold">
     <link rel="alternate" hreflang="en" href="https://www.defi.garden/tokens/bold">
     <link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/tokens/bold">
+    <link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/tokens/bold">
+    <link rel="alternate" hreflang="es" href="https://www.defi.garden/es/tokens/bold">
     <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/tokens/bold">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"홈","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"토큰","item":"https://www.defi.garden/ko/tokens"},{"@type":"ListItem","position":3,"name":"BOLD","item":"https://www.defi.garden/ko/tokens/bold"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"Ethereum의 curve-dex","url":"https://www.defi.garden/?pool=755529b5-fcf4-4ef0-a7c7-e4f49376706f"},{"@type":"ListItem","position":2,"name":"Ethereum의 uniswap-v4","url":"https://www.defi.garden/?pool=d0c42a48-871a-4e83-9ef2-b3f60b3e0e90"},{"@type":"ListItem","position":3,"name":"Ethereum의 uniswap-v3","url":"https://www.defi.garden/?pool=8d4931e1-b573-4802-856d-244645926b19"},{"@type":"ListItem","position":4,"name":"Ethereum의 stake-dao-yield","url":"https://www.defi.garden/?pool=522041df-0037-41aa-8a54-87054a78ddbe"},{"@type":"ListItem","position":5,"name":"Ethereum의 curve-dex","url":"https://www.defi.garden/?pool=1cb41712-6417-485e-aa23-db1d99a57b2b"},{"@type":"ListItem","position":6,"name":"Ethereum의 uniswap-v4","url":"https://www.defi.garden/?pool=5bf5569b-2e3c-4ee2-b587-64f52ca0efaf"},{"@type":"ListItem","position":7,"name":"Ethereum의 convex-finance","url":"https://www.defi.garden/?pool=beb8b374-06a3-40d5-a89b-8f7e8d0fcee6"},{"@type":"ListItem","position":8,"name":"Ethereum의 stake-dao-yield","url":"https://www.defi.garden/?pool=a740c473-a566-5478-bf1c-ecc69326d260"}]}</script>
@@ -78,6 +80,14 @@
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } .tp-cta:active, .related-links a:active { transform: none; } }
+      .lang-switch ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; }
+      .lang-switch a, .lang-switch [aria-current] { display: inline-flex; align-items: center; min-height: 38px; box-sizing: border-box; padding: 0 14px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; font-size: .9rem; font-weight: 600; text-decoration: none; }
+      .lang-switch a { background: var(--ui-surface); color: var(--ui-accent); }
+      .lang-switch a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .lang-switch a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .lang-switch a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .lang-switch [aria-current] { background: var(--ui-accent-soft); border-color: var(--ui-accent-border); color: var(--ui-text); }
+      @media (prefers-reduced-motion: reduce) { .lang-switch a:active { transform: none; } }
       .tp-waitlist {
         background: var(--ui-surface);
         border: 1px solid var(--ui-border);
@@ -325,6 +335,14 @@
 </head>
 <body>
   <main class="tp-wrap">
+    <nav class="lang-switch" aria-label="언어">
+      <ul>
+        <li><a href="https://www.defi.garden/tokens/bold" hreflang="en" lang="en" title="English" aria-label="English">EN</a></li>
+        <li><span aria-current="true" lang="ko" title="한국어">KO</span></li>
+        <li><a href="https://www.defi.garden/pt/tokens/bold" hreflang="pt" lang="pt-BR" title="Português" aria-label="Português">PT</a></li>
+        <li><a href="https://www.defi.garden/es/tokens/bold" hreflang="es" lang="es" title="Español" aria-label="Español">ES</a></li>
+      </ul>
+    </nav>
     <h1>BOLD 디파이 수익률</h1>
     <p class="tp-answer">현재 BOLD의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v4에서 10.70%이며, $100K TVL 기준을 넘는 17개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.</p>
     <p class="sub">$100K TVL 기준을 넘는 실시간 풀 17개 · TVL 순 정렬</p>

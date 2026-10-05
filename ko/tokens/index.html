@@ -8,6 +8,8 @@
     <link rel="canonical" href="https://www.defi.garden/ko/tokens">
     <link rel="alternate" hreflang="en" href="https://www.defi.garden/tokens">
     <link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/tokens">
+    <link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/tokens">
+    <link rel="alternate" hreflang="es" href="https://www.defi.garden/es/tokens">
     <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/tokens">
     <meta property="og:type" content="website">
     <meta property="og:title" content="모든 디파이 토큰의 실시간 수익률 | DeFi Garden 🌱">
@@ -37,6 +39,14 @@
       .hub-cta:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
       .hub-wrap .note { color: var(--ui-text-secondary); font-size: .9rem; }
       @media (prefers-reduced-motion: reduce) { .hub-links a, .hub-cta { transition: none; } .hub-links a:active, .hub-cta:active { transform: none; } }
+      .lang-switch ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; }
+      .lang-switch a, .lang-switch [aria-current] { display: inline-flex; align-items: center; min-height: 38px; box-sizing: border-box; padding: 0 14px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; font-size: .9rem; font-weight: 600; text-decoration: none; }
+      .lang-switch a { background: var(--ui-surface); color: var(--ui-accent); }
+      .lang-switch a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .lang-switch a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .lang-switch a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .lang-switch [aria-current] { background: var(--ui-accent-soft); border-color: var(--ui-accent-border); color: var(--ui-text); }
+      @media (prefers-reduced-motion: reduce) { .lang-switch a:active { transform: none; } }
       .hub-waitlist {
         background: var(--ui-surface);
         border: 1px solid var(--ui-border);
@@ -284,6 +294,14 @@
 </head>
 <body>
   <main class="hub-wrap">
+    <nav class="lang-switch" aria-label="언어">
+      <ul>
+        <li><a href="https://www.defi.garden/tokens" hreflang="en" lang="en" title="English" aria-label="English">EN</a></li>
+        <li><span aria-current="true" lang="ko" title="한국어">KO</span></li>
+        <li><a href="https://www.defi.garden/pt/tokens" hreflang="pt" lang="pt-BR" title="Português" aria-label="Português">PT</a></li>
+        <li><a href="https://www.defi.garden/es/tokens" hreflang="es" lang="es" title="Español" aria-label="Español">ES</a></li>
+      </ul>
+    </nav>
     <h1>전체 토큰 수익률 페이지</h1>
     <p class="sub">실시간, 신뢰 기준을 통과한 수익률 데이터를 보유한 토큰 2,325개</p>
     <p class="intro">DeFi Garden의 모든 토큰 페이지를 한곳에 모았어요 — $100K TVL 기준과 이상 수치 필터를 통과한 실시간 풀을 TVL 순으로 정렬했어요. TVL 상위 토큰부터 살펴보거나, 알파벳으로 바로 찾아보세요.</p>

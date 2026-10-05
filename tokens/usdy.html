@@ -8,6 +8,8 @@
     <link rel="canonical" href="https://www.defi.garden/tokens/usdy">
     <link rel="alternate" hreflang="en" href="https://www.defi.garden/tokens/usdy">
     <link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/tokens/usdy">
+    <link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/tokens/usdy">
+    <link rel="alternate" hreflang="es" href="https://www.defi.garden/es/tokens/usdy">
     <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/tokens/usdy">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens","item":"https://www.defi.garden/tokens"},{"@type":"ListItem","position":3,"name":"USDY","item":"https://www.defi.garden/tokens/usdy"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"ondo-yield-assets on Ethereum","url":"https://www.defi.garden/pools/ondo-yield-assets-usdy-ethereum"},{"@type":"ListItem","position":2,"name":"ondo-yield-assets on Stellar","url":"https://www.defi.garden/pools/ondo-yield-assets-usdy-stellar"},{"@type":"ListItem","position":3,"name":"ondo-yield-assets on Sei","url":"https://www.defi.garden/pools/ondo-yield-assets-usdy-sei"},{"@type":"ListItem","position":4,"name":"ondo-yield-assets on Solana","url":"https://www.defi.garden/pools/ondo-yield-assets-usdy-solana"},{"@type":"ListItem","position":5,"name":"ondo-yield-assets on Sui","url":"https://www.defi.garden/?pool=3007b64e-331d-425d-a7ae-33b8691da1a9"},{"@type":"ListItem","position":6,"name":"ondo-yield-assets on Arbitrum","url":"https://www.defi.garden/?pool=1767cdec-8dad-4b8c-a61c-fa10ab4d3f92"},{"@type":"ListItem","position":7,"name":"orca-dex on Solana","url":"https://www.defi.garden/?pool=22f79b01-3ba8-4a75-a12d-615151633875"},{"@type":"ListItem","position":8,"name":"cetus-clmm on Sui","url":"https://www.defi.garden/?pool=3d5a0f12-4a68-4429-a109-df4a3fafddc5"}]}</script>
@@ -78,6 +80,14 @@
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } .tp-cta:active, .related-links a:active { transform: none; } }
+      .lang-switch ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; }
+      .lang-switch a, .lang-switch [aria-current] { display: inline-flex; align-items: center; min-height: 38px; box-sizing: border-box; padding: 0 14px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; font-size: .9rem; font-weight: 600; text-decoration: none; }
+      .lang-switch a { background: var(--ui-surface); color: var(--ui-accent); }
+      .lang-switch a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .lang-switch a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .lang-switch a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .lang-switch [aria-current] { background: var(--ui-accent-soft); border-color: var(--ui-accent-border); color: var(--ui-text); }
+      @media (prefers-reduced-motion: reduce) { .lang-switch a:active { transform: none; } }
       .tp-waitlist {
         background: var(--ui-surface);
         border: 1px solid var(--ui-border);
@@ -325,6 +335,14 @@
 </head>
 <body>
   <main class="tp-wrap">
+    <nav class="lang-switch" aria-label="Language">
+      <ul>
+        <li><span aria-current="true" lang="en" title="English">EN</span></li>
+        <li><a href="https://www.defi.garden/ko/tokens/usdy" hreflang="ko" lang="ko" title="한국어" aria-label="한국어">KO</a></li>
+        <li><a href="https://www.defi.garden/pt/tokens/usdy" hreflang="pt" lang="pt-BR" title="Português" aria-label="Português">PT</a></li>
+        <li><a href="https://www.defi.garden/es/tokens/usdy" hreflang="es" lang="es" title="Español" aria-label="Español">ES</a></li>
+      </ul>
+    </nav>
     <h1>USDY DeFi Yields</h1>
     <p class="tp-answer">The highest honest USDY yield right now is 0.06% on cetus-clmm (Sui), among 12 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">12 live pools above the $100K TVL floor · ranked by TVL</p>

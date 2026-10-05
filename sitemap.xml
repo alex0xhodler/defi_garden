@@ -2,7 +2,7 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
     <loc>https://www.defi.garden/sitemap-main.xml</loc>
-    <lastmod>2026-09-09T13:57:40.204Z</lastmod>
+    <lastmod>2026-10-05T22:35:23.378Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-token-pages.xml</loc>
@@ -26,6 +26,30 @@
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-pool-pages-ko.xml</loc>
+    <lastmod>2026-10-05T00:00:00.000Z</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.defi.garden/sitemap-token-pages-pt.xml</loc>
+    <lastmod>2026-10-05T00:00:00.000Z</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.defi.garden/sitemap-chain-pages-pt.xml</loc>
+    <lastmod>2026-10-05T00:00:00.000Z</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.defi.garden/sitemap-pool-pages-pt.xml</loc>
+    <lastmod>2026-10-05T00:00:00.000Z</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.defi.garden/sitemap-token-pages-es.xml</loc>
+    <lastmod>2026-10-05T00:00:00.000Z</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.defi.garden/sitemap-chain-pages-es.xml</loc>
+    <lastmod>2026-10-05T00:00:00.000Z</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.defi.garden/sitemap-pool-pages-es.xml</loc>
     <lastmod>2026-10-05T00:00:00.000Z</lastmod>
   </sitemap>
 </sitemapindex>

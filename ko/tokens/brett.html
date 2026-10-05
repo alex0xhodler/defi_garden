@@ -8,6 +8,8 @@
     <link rel="canonical" href="https://www.defi.garden/ko/tokens/brett">
     <link rel="alternate" hreflang="en" href="https://www.defi.garden/tokens/brett">
     <link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/tokens/brett">
+    <link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/tokens/brett">
+    <link rel="alternate" hreflang="es" href="https://www.defi.garden/es/tokens/brett">
     <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/tokens/brett">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"홈","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"토큰","item":"https://www.defi.garden/ko/tokens"},{"@type":"ListItem","position":3,"name":"BRETT","item":"https://www.defi.garden/ko/tokens/brett"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"Base의 uniswap-v3","url":"https://www.defi.garden/?pool=a9d531ad-7883-41ae-ad3b-ad4f37decf92"},{"@type":"ListItem","position":2,"name":"Base의 aerodrome-slipstream","url":"https://www.defi.garden/?pool=e92866f1-3247-444c-ac96-432f461a72e5"},{"@type":"ListItem","position":3,"name":"Base의 uniswap-v3","url":"https://www.defi.garden/?pool=3e485ec0-19e1-4bac-a4eb-4f28cc3ea139"},{"@type":"ListItem","position":4,"name":"Ethereum의 uniswap-v2","url":"https://www.defi.garden/?pool=f3b20abf-9e34-4938-b68f-b47c97c941c1"}]}</script>
@@ -78,6 +80,14 @@
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } .tp-cta:active, .related-links a:active { transform: none; } }
+      .lang-switch ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; }
+      .lang-switch a, .lang-switch [aria-current] { display: inline-flex; align-items: center; min-height: 38px; box-sizing: border-box; padding: 0 14px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; font-size: .9rem; font-weight: 600; text-decoration: none; }
+      .lang-switch a { background: var(--ui-surface); color: var(--ui-accent); }
+      .lang-switch a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .lang-switch a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .lang-switch a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .lang-switch [aria-current] { background: var(--ui-accent-soft); border-color: var(--ui-accent-border); color: var(--ui-text); }
+      @media (prefers-reduced-motion: reduce) { .lang-switch a:active { transform: none; } }
       .tp-waitlist {
         background: var(--ui-surface);
         border: 1px solid var(--ui-border);
@@ -325,6 +335,14 @@
 </head>
 <body>
   <main class="tp-wrap">
+    <nav class="lang-switch" aria-label="언어">
+      <ul>
+        <li><a href="https://www.defi.garden/tokens/brett" hreflang="en" lang="en" title="English" aria-label="English">EN</a></li>
+        <li><span aria-current="true" lang="ko" title="한국어">KO</span></li>
+        <li><a href="https://www.defi.garden/pt/tokens/brett" hreflang="pt" lang="pt-BR" title="Português" aria-label="Português">PT</a></li>
+        <li><a href="https://www.defi.garden/es/tokens/brett" hreflang="es" lang="es" title="Español" aria-label="Español">ES</a></li>
+      </ul>
+    </nav>
     <h1>BRETT 디파이 수익률</h1>
     <p class="tp-answer">현재 BRETT의 가장 높은 정직한 수익률은 Base의 uniswap-v3에서 6.97%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.</p>
     <p class="sub">$100K TVL 기준을 넘는 실시간 풀 5개 · TVL 순 정렬</p>

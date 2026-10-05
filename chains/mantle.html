@@ -8,6 +8,8 @@
     <link rel="canonical" href="https://www.defi.garden/chains/mantle">
     <link rel="alternate" hreflang="en" href="https://www.defi.garden/chains/mantle">
     <link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/chains/mantle">
+    <link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/chains/mantle">
+    <link rel="alternate" hreflang="es" href="https://www.defi.garden/es/chains/mantle">
     <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/chains/mantle">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Chains","item":"https://www.defi.garden/chains"},{"@type":"ListItem","position":3,"name":"Mantle","item":"https://www.defi.garden/chains/mantle"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"aave-v3 on Mantle","url":"https://www.defi.garden/?pool=47da0cdd-7b1d-4927-9545-20b53b73afa8"},{"@type":"ListItem","position":2,"name":"fluxion-network on Mantle","url":"https://www.defi.garden/?pool=70f8fccf-080b-5d78-8a67-0e87a0a578a5"},{"@type":"ListItem","position":3,"name":"aave-v3 on Mantle","url":"https://www.defi.garden/?pool=125974d5-ad17-4a3a-b967-ebbf721fca22"},{"@type":"ListItem","position":4,"name":"fluxion-network on Mantle","url":"https://www.defi.garden/?pool=269c72aa-ab12-57fd-a84d-79471faa170c"},{"@type":"ListItem","position":5,"name":"fluxion-network on Mantle","url":"https://www.defi.garden/?pool=35f2103d-231b-443b-952e-d2cd118d8f29"},{"@type":"ListItem","position":6,"name":"fluxion-network on Mantle","url":"https://www.defi.garden/?pool=85407ecd-f711-4fa6-9328-3078aebfaa95"},{"@type":"ListItem","position":7,"name":"aave-v3 on Mantle","url":"https://www.defi.garden/?pool=32cb38a5-b9b9-441a-bf07-8fab47b999d3"},{"@type":"ListItem","position":8,"name":"ondo-yield-assets on Mantle","url":"https://www.defi.garden/?pool=b5d7a190-38d2-4fdd-8c14-1fd00c11bce1"}]}</script>
@@ -69,6 +71,14 @@
       .cp-faq-a { font-size: .9rem; margin: 0; color: var(--ui-text-secondary); line-height: 1.55; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .cp-cta, .related-links a { transition: none; } .cp-cta:active, .related-links a:active { transform: none; } }
+      .lang-switch ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; }
+      .lang-switch a, .lang-switch [aria-current] { display: inline-flex; align-items: center; min-height: 38px; box-sizing: border-box; padding: 0 14px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; font-size: .9rem; font-weight: 600; text-decoration: none; }
+      .lang-switch a { background: var(--ui-surface); color: var(--ui-accent); }
+      .lang-switch a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .lang-switch a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .lang-switch a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .lang-switch [aria-current] { background: var(--ui-accent-soft); border-color: var(--ui-accent-border); color: var(--ui-text); }
+      @media (prefers-reduced-motion: reduce) { .lang-switch a:active { transform: none; } }
       .cp-waitlist {
         background: var(--ui-surface);
         border: 1px solid var(--ui-border);
@@ -316,6 +326,14 @@
 </head>
 <body>
   <main class="cp-wrap">
+    <nav class="lang-switch" aria-label="Language">
+      <ul>
+        <li><span aria-current="true" lang="en" title="English">EN</span></li>
+        <li><a href="https://www.defi.garden/ko/chains/mantle" hreflang="ko" lang="ko" title="한국어" aria-label="한국어">KO</a></li>
+        <li><a href="https://www.defi.garden/pt/chains/mantle" hreflang="pt" lang="pt-BR" title="Português" aria-label="Português">PT</a></li>
+        <li><a href="https://www.defi.garden/es/chains/mantle" hreflang="es" lang="es" title="Español" aria-label="Español">ES</a></li>
+      </ul>
+    </nav>
     <h1>Mantle DeFi Yields</h1>
     <p class="cp-answer">The highest honest Mantle yield right now is 4.45% on aave-v3 (Mantle), among 27 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">27 live pools above the $100K TVL floor · ranked by TVL</p>

@@ -8,6 +8,8 @@
     <link rel="canonical" href="https://www.defi.garden/ko/tokens/icp">
     <link rel="alternate" hreflang="en" href="https://www.defi.garden/tokens/icp">
     <link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/tokens/icp">
+    <link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/tokens/icp">
+    <link rel="alternate" hreflang="es" href="https://www.defi.garden/es/tokens/icp">
     <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/tokens/icp">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"홈","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"토큰","item":"https://www.defi.garden/ko/tokens"},{"@type":"ListItem","position":3,"name":"ICP","item":"https://www.defi.garden/ko/tokens/icp"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"ICP의 icpswap","url":"https://www.defi.garden/?pool=8d70550f-b6b4-4b01-9885-878f69f3d690"},{"@type":"ListItem","position":2,"name":"Base의 aerodrome-slipstream","url":"https://www.defi.garden/?pool=34987574-6e85-4046-ae9f-2b2b881008c6"},{"@type":"ListItem","position":3,"name":"Ethereum의 uniswap-v3","url":"https://www.defi.garden/?pool=919f50a0-1f61-4082-86e9-eb1eec8c82be"},{"@type":"ListItem","position":4,"name":"ICP의 icpswap","url":"https://www.defi.garden/?pool=8f3e0a00-3b1c-4e87-ac0d-117c3e057248"},{"@type":"ListItem","position":5,"name":"ICP의 icpswap","url":"https://www.defi.garden/?pool=7f7c08d4-b54a-4183-bd51-c5d047e889a6"},{"@type":"ListItem","position":6,"name":"ICP의 icpswap","url":"https://www.defi.garden/?pool=48e0cceb-d027-485f-9622-2ee278dc0a56"},{"@type":"ListItem","position":7,"name":"ICP의 icpswap","url":"https://www.defi.garden/?pool=541dfb0f-b069-4225-98ce-3906a7ac0f55"},{"@type":"ListItem","position":8,"name":"ICP의 icpswap","url":"https://www.defi.garden/?pool=5297d348-9ead-4a5e-8d45-f4a353bae38a"}]}</script>
@@ -78,6 +80,14 @@
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } .tp-cta:active, .related-links a:active { transform: none; } }
+      .lang-switch ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; }
+      .lang-switch a, .lang-switch [aria-current] { display: inline-flex; align-items: center; min-height: 38px; box-sizing: border-box; padding: 0 14px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; font-size: .9rem; font-weight: 600; text-decoration: none; }
+      .lang-switch a { background: var(--ui-surface); color: var(--ui-accent); }
+      .lang-switch a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .lang-switch a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .lang-switch a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .lang-switch [aria-current] { background: var(--ui-accent-soft); border-color: var(--ui-accent-border); color: var(--ui-text); }
+      @media (prefers-reduced-motion: reduce) { .lang-switch a:active { transform: none; } }
       .tp-waitlist {
         background: var(--ui-surface);
         border: 1px solid var(--ui-border);
@@ -325,6 +335,14 @@
 </head>
 <body>
   <main class="tp-wrap">
+    <nav class="lang-switch" aria-label="언어">
+      <ul>
+        <li><a href="https://www.defi.garden/tokens/icp" hreflang="en" lang="en" title="English" aria-label="English">EN</a></li>
+        <li><span aria-current="true" lang="ko" title="한국어">KO</span></li>
+        <li><a href="https://www.defi.garden/pt/tokens/icp" hreflang="pt" lang="pt-BR" title="Português" aria-label="Português">PT</a></li>
+        <li><a href="https://www.defi.garden/es/tokens/icp" hreflang="es" lang="es" title="Español" aria-label="Español">ES</a></li>
+      </ul>
+    </nav>
     <h1>ICP 디파이 수익률</h1>
     <p class="tp-answer">현재 ICP의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 390.40%이며, $100K TVL 기준을 넘는 11개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.</p>
     <p class="sub">$100K TVL 기준을 넘는 실시간 풀 11개 · TVL 순 정렬</p>

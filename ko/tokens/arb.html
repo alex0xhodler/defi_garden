@@ -8,6 +8,8 @@
     <link rel="canonical" href="https://www.defi.garden/ko/tokens/arb">
     <link rel="alternate" hreflang="en" href="https://www.defi.garden/tokens/arb">
     <link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/tokens/arb">
+    <link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/tokens/arb">
+    <link rel="alternate" hreflang="es" href="https://www.defi.garden/es/tokens/arb">
     <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/tokens/arb">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"홈","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"토큰","item":"https://www.defi.garden/ko/tokens"},{"@type":"ListItem","position":3,"name":"ARB","item":"https://www.defi.garden/ko/tokens/arb"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"Arbitrum의 aave-v3","url":"https://www.defi.garden/?pool=ea8d9aa8-46ae-4447-a192-74515706a575"},{"@type":"ListItem","position":2,"name":"Arbitrum의 uniswap-v3","url":"https://www.defi.garden/?pool=3e9da80c-274d-4f55-8421-7439d4ef429d"},{"@type":"ListItem","position":3,"name":"Arbitrum의 gmx-v2-perps","url":"https://www.defi.garden/?pool=f3fa942f-1867-4028-95ff-4eb76816cd07"},{"@type":"ListItem","position":4,"name":"Arbitrum의 uniswap-v4","url":"https://www.defi.garden/?pool=5bbedeaa-2983-4d24-bd3a-8c5a3679c294"},{"@type":"ListItem","position":5,"name":"Arbitrum의 fluid-lending","url":"https://www.defi.garden/?pool=2b272fb2-8721-42ea-87cd-be74d256bcc5"},{"@type":"ListItem","position":6,"name":"Arbitrum의 uniswap-v3","url":"https://www.defi.garden/?pool=7b60d0bd-fb38-4871-b4e7-d3395cdb252d"},{"@type":"ListItem","position":7,"name":"Arbitrum의 uniswap-v3","url":"https://www.defi.garden/?pool=1be7c7a6-17c0-4411-9a32-5722f8100cf4"},{"@type":"ListItem","position":8,"name":"Arbitrum의 uniswap-v3","url":"https://www.defi.garden/?pool=483c0801-b3c5-4873-87d9-a84a8de4ec92"}]}</script>
@@ -78,6 +80,14 @@
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } .tp-cta:active, .related-links a:active { transform: none; } }
+      .lang-switch ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; }
+      .lang-switch a, .lang-switch [aria-current] { display: inline-flex; align-items: center; min-height: 38px; box-sizing: border-box; padding: 0 14px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; font-size: .9rem; font-weight: 600; text-decoration: none; }
+      .lang-switch a { background: var(--ui-surface); color: var(--ui-accent); }
+      .lang-switch a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .lang-switch a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .lang-switch a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .lang-switch [aria-current] { background: var(--ui-accent-soft); border-color: var(--ui-accent-border); color: var(--ui-text); }
+      @media (prefers-reduced-motion: reduce) { .lang-switch a:active { transform: none; } }
       .tp-waitlist {
         background: var(--ui-surface);
         border: 1px solid var(--ui-border);
@@ -325,6 +335,14 @@
 </head>
 <body>
   <main class="tp-wrap">
+    <nav class="lang-switch" aria-label="언어">
+      <ul>
+        <li><a href="https://www.defi.garden/tokens/arb" hreflang="en" lang="en" title="English" aria-label="English">EN</a></li>
+        <li><span aria-current="true" lang="ko" title="한국어">KO</span></li>
+        <li><a href="https://www.defi.garden/pt/tokens/arb" hreflang="pt" lang="pt-BR" title="Português" aria-label="Português">PT</a></li>
+        <li><a href="https://www.defi.garden/es/tokens/arb" hreflang="es" lang="es" title="Español" aria-label="Español">ES</a></li>
+      </ul>
+    </nav>
     <h1>ARB 디파이 수익률</h1>
     <p class="tp-answer">현재 ARB의 가장 높은 정직한 수익률은 Arbitrum의 fluid-lending에서 1.94%이며, $100K TVL 기준을 넘는 20개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.</p>
     <p class="sub">$100K TVL 기준을 넘는 실시간 풀 20개 · TVL 순 정렬</p>

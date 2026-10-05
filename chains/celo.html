@@ -8,6 +8,8 @@
     <link rel="canonical" href="https://www.defi.garden/chains/celo">
     <link rel="alternate" hreflang="en" href="https://www.defi.garden/chains/celo">
     <link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/chains/celo">
+    <link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/chains/celo">
+    <link rel="alternate" hreflang="es" href="https://www.defi.garden/es/chains/celo">
     <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/chains/celo">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Chains","item":"https://www.defi.garden/chains"},{"@type":"ListItem","position":3,"name":"Celo","item":"https://www.defi.garden/chains/celo"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"aave-v3 on Celo","url":"https://www.defi.garden/?pool=5335b797-b623-4ed1-a492-880cbabb053a"},{"@type":"ListItem","position":2,"name":"aave-v3 on Celo","url":"https://www.defi.garden/?pool=8a6cda27-aa2b-4201-bb05-9cfcfc4ab6fd"},{"@type":"ListItem","position":3,"name":"uniswap-v3 on Celo","url":"https://www.defi.garden/?pool=ad10fdd6-8351-4d9b-8695-deb1bf2dc33a"},{"@type":"ListItem","position":4,"name":"moola-market on Celo","url":"https://www.defi.garden/?pool=236a6312-5752-41b5-af7e-55e3ec95dbd4"},{"@type":"ListItem","position":5,"name":"moola-market on Celo","url":"https://www.defi.garden/?pool=905730f7-04b6-4deb-8e59-707d3d457f6b"},{"@type":"ListItem","position":6,"name":"uniswap-v3 on Celo","url":"https://www.defi.garden/?pool=8cf372d2-191c-4b6b-a56b-def814e5d78e"},{"@type":"ListItem","position":7,"name":"uniswap-v3 on Celo","url":"https://www.defi.garden/?pool=8f5e5824-7c41-4af2-899b-2db398962bea"},{"@type":"ListItem","position":8,"name":"uniswap-v3 on Celo","url":"https://www.defi.garden/?pool=ad87c260-8a41-4553-a0ba-47c58d798364"}]}</script>
@@ -69,6 +71,14 @@
       .cp-faq-a { font-size: .9rem; margin: 0; color: var(--ui-text-secondary); line-height: 1.55; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .cp-cta, .related-links a { transition: none; } .cp-cta:active, .related-links a:active { transform: none; } }
+      .lang-switch ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; }
+      .lang-switch a, .lang-switch [aria-current] { display: inline-flex; align-items: center; min-height: 38px; box-sizing: border-box; padding: 0 14px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; font-size: .9rem; font-weight: 600; text-decoration: none; }
+      .lang-switch a { background: var(--ui-surface); color: var(--ui-accent); }
+      .lang-switch a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .lang-switch a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .lang-switch a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .lang-switch [aria-current] { background: var(--ui-accent-soft); border-color: var(--ui-accent-border); color: var(--ui-text); }
+      @media (prefers-reduced-motion: reduce) { .lang-switch a:active { transform: none; } }
       .cp-waitlist {
         background: var(--ui-surface);
         border: 1px solid var(--ui-border);
@@ -316,6 +326,14 @@
 </head>
 <body>
   <main class="cp-wrap">
+    <nav class="lang-switch" aria-label="Language">
+      <ul>
+        <li><span aria-current="true" lang="en" title="English">EN</span></li>
+        <li><a href="https://www.defi.garden/ko/chains/celo" hreflang="ko" lang="ko" title="한국어" aria-label="한국어">KO</a></li>
+        <li><a href="https://www.defi.garden/pt/chains/celo" hreflang="pt" lang="pt-BR" title="Português" aria-label="Português">PT</a></li>
+        <li><a href="https://www.defi.garden/es/chains/celo" hreflang="es" lang="es" title="Español" aria-label="Español">ES</a></li>
+      </ul>
+    </nav>
     <h1>Celo DeFi Yields</h1>
     <p class="cp-answer">The highest honest Celo yield right now is 28.69% on uniswap-v3 (Celo), among 20 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">20 live pools above the $100K TVL floor · ranked by TVL</p>
