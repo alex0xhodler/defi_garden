@@ -10,18 +10,49 @@ const fs = require('fs');
 const path = require('path');
 const { PERMISSIONED_PROJECT_LIST } = require('../permissioned-projects.js');
 
-let _cachedPools = null;
-function getPools() {
-  if (_cachedPools) return _cachedPools;
-  try {
-    const snapshotPath = path.join(__dirname, '../data/pools-snapshot.json');
-    if (fs.existsSync(snapshotPath)) {
-      const raw = JSON.parse(fs.readFileSync(snapshotPath, 'utf8'));
-      _cachedPools = raw.pools || raw.data || [];
-      return _cachedPools;
-    }
-  } catch (_e) {}
-  return [];
+// Every data file is read through a literal path.join(__dirname, '../data/<file>')
+// so Vercel's file tracer bundles it with the function. Do not build these paths
+// dynamically.
+function readJsonSafe(read) {
+  try { return JSON.parse(read()); } catch (_e) { return null; }
+}
+
+let _snapshot = null;
+function getSnapshot() {
+  if (_snapshot) return _snapshot;
+  const raw = readJsonSafe(() => fs.readFileSync(path.join(__dirname, '../data/pools-snapshot.json'), 'utf8'));
+  const meta = readJsonSafe(() => fs.readFileSync(path.join(__dirname, '../data/pools-snapshot-meta.json'), 'utf8'));
+  const pools = raw ? (raw.pools || raw.data || []) : [];
+  const asOf = (raw && raw.generatedAt) || (meta && meta.generatedAt) || null;
+  // Only cache a successful load so a transient read failure can recover.
+  if (raw) _snapshot = { pools, asOf };
+  return { pools, asOf };
+}
+
+let _forecastEval;
+function getForecastEvaluations() {
+  if (_forecastEval !== undefined) return _forecastEval;
+  _forecastEval = readJsonSafe(() => fs.readFileSync(path.join(__dirname, '../data/forecast-evaluations.json'), 'utf8'));
+  return _forecastEval;
+}
+
+/** Forecast status sentence, built from data/forecast-evaluations.json (never typed in). */
+function forecastStatus() {
+  const generic = "Experimental forward forecast: not shown to be more accurate than assuming today's rate holds.";
+  const ev = getForecastEvaluations();
+  const summary = ev && ev.summary;
+  if (!summary || !Number.isFinite(Number(summary.totalRuns)) || Number(summary.totalRuns) <= 0) return generic;
+  const totalRuns = Number(summary.totalRuns);
+  let sentence = `Experimental forward forecast: across ${totalRuns} resolved test runs`;
+  if (Number.isFinite(Number(summary.medianSkillScore))) {
+    sentence += `, median skill score vs. assuming today's rate holds was ${Number(summary.medianSkillScore)} (at or below 0 means no better)`;
+  }
+  const runs = Array.isArray(ev.resolvedRuns) ? ev.resolvedRuns : null;
+  if (runs && runs.length) {
+    const noBetter = runs.filter(r => r && r.overall && Number(r.overall.skillScore) <= 0).length;
+    sentence += `; in ${noBetter} of ${runs.length} runs assuming today's rate holds was at least as accurate`;
+  }
+  return sentence + '.';
 }
 
 const TRUST_RAILS = {
@@ -34,10 +65,14 @@ const TRUST_RAILS = {
   }
 };
 
+const SERVER_VERSION = "0.3.0";
+const SUPPORTED_PROTOCOL_VERSIONS = ["2025-06-18", "2025-03-26"];
+const ENDPOINT = "https://www.defi.garden/mcp";
+
 const MCP_TOOLS = [
   {
     name: "find_pools",
-    description: "Search DeFi Garden's railed pool list by token symbol, chain, project, and minimum TVL floor. Excludes anomalous rates (>1000% APY) and pools below $100K TVL. All data derives from live pool snapshots.",
+    description: "Search DeFi Garden's railed pool list by token symbol, chain, project, and minimum TVL floor. Excludes anomalous rates (>1000% APY) and pools below $100K TVL. Data is a daily snapshot of DefiLlama's pool feed.",
     inputSchema: {
       type: "object",
       properties: {
@@ -51,7 +86,7 @@ const MCP_TOOLS = [
   },
   {
     name: "get_pool",
-    description: "Look up a single DeFi liquidity venue by its DefiLlama pool UUID, returning live APY, base/reward breakdown, TVL, and anomaly status.",
+    description: "Look up a single pool by its DefiLlama pool UUID, returning APY (base/reward breakdown), TVL, and anomaly / below-floor flags. Data is a daily snapshot of DefiLlama's pool feed.",
     inputSchema: {
       type: "object",
       properties: {
@@ -62,37 +97,62 @@ const MCP_TOOLS = [
   },
   {
     name: "get_pool_score",
-    description: "Retrieve quantitative yield quality score (DeFi Score 0-100), 4-pillar breakdown (stability, fee sustainability, depositor stickiness, exit liquidity), 14-day forward yield forecast bands (p10/p50/p90), and retail access restrictions. Note: forecast is experimental.",
+    description: "Retrieve the DeFi Score (0-100) with its 4-pillar breakdown (stability, fee sustainability, depositor stickiness, exit liquidity), the experimental 14-day forward yield forecast bands (p10/p50/p90), and retail access restrictions. Look up by pool_id, or by exact asset symbol (highest-TVL railed match, with candidates listed). The forecast is experimental.",
     inputSchema: {
       type: "object",
       properties: {
         pool_id: { type: "string", description: "DefiLlama pool UUID" },
-        asset: { type: "string", description: "Optional asset symbol to query if pool_id is unknown (e.g. 'USDC', 'ETH')" },
-        chain: { type: "string", description: "Optional blockchain filter (e.g. 'Base', 'Ethereum')" }
+        asset: { type: "string", description: "Optional exact, case-insensitive pool symbol to query if pool_id is unknown (e.g. 'USDC', 'STETH'). Not a substring match." },
+        chain: { type: "string", description: "Optional blockchain filter used with asset (e.g. 'Base', 'Ethereum')" }
       }
     }
   },
   {
     name: "forever_number",
-    description: "Computes the lump-sum capital whose yield alone covers a recurring monthly bill forever, derived from a TVL-weighted blended rate of railed pools.",
+    description: "Computes the lump-sum capital whose yield alone covers a recurring monthly bill forever, using a TVL-weighted blended rate of railed pools (or a caller-supplied APY between 0 and 1000 percent).",
     inputSchema: {
       type: "object",
       properties: {
         monthly: { type: "number", description: "Positive USD/month the capital must cover" },
-        apy: { type: "number", description: "Optional annual rate percent. When omitted, uses live TVL-weighted blended rate." }
+        apy: { type: "number", description: "Optional annual rate percent, greater than 0 and at most 1000. When omitted, uses the TVL-weighted blended rate of railed pools." }
       },
       required: ["monthly"]
     }
   },
   {
     name: "explain_rails",
-    description: "Returns DeFi Garden active platform filtering rules, sanity ceilings, and pool qualification criteria for autonomous agent safety.",
+    description: "Returns DeFi Garden's active filtering rules (1000% APY sanity cap, $100K TVL floor, anomaly flagging) and the data source, for autonomous agent safety.",
     inputSchema: {
       type: "object",
       properties: {}
     }
   }
 ];
+
+/** JSON-RPC protocol error raised from a tool (e.g. -32602 Invalid params). */
+class RpcError extends Error {
+  constructor(code, message) {
+    super(message);
+    this.rpcCode = code;
+  }
+}
+
+function totalApyOf(p) {
+  return (Number(p.apyBase) || 0) + (Number(p.apyReward) || 0);
+}
+
+function isRailed(p) {
+  return (Number(p.tvlUsd) || 0) >= TRUST_RAILS.min_tvl_usd
+    && totalApyOf(p) <= TRUST_RAILS.apy_sanity_limit_percent;
+}
+
+function hasText(v) {
+  return typeof v === 'string' && v.trim() !== '';
+}
+
+function notInSnapshotMessage(id) {
+  return `Pool id "${id}" is not in DeFi Garden's railed snapshot (pools below the $100K TVL floor or otherwise untracked are excluded).`;
+}
 
 function handleToolCall(name, args, pools) {
   args = args || {};
@@ -107,8 +167,7 @@ function handleToolCall(name, args, pools) {
     let filtered = pools.filter(p => {
       const tvl = Number(p.tvlUsd) || 0;
       if (tvl < minTvl) return false;
-      const totalApy = (Number(p.apyBase) || 0) + (Number(p.apyReward) || 0);
-      if (totalApy > TRUST_RAILS.apy_sanity_limit_percent) return false;
+      if (totalApyOf(p) > TRUST_RAILS.apy_sanity_limit_percent) return false;
 
       if (chain && String(p.chain || '').toLowerCase() !== chain) return false;
       if (project && String(p.project || '').toLowerCase() !== project) return false;
@@ -128,7 +187,7 @@ function handleToolCall(name, args, pools) {
         tvlUsd: p.tvlUsd,
         apyBase: p.apyBase,
         apyReward: p.apyReward,
-        totalApy: (Number(p.apyBase) || 0) + (Number(p.apyReward) || 0),
+        totalApy: totalApyOf(p),
         apyMean30d: p.apyMean30d,
         exposure: p.exposure,
         ilRisk: p.ilRisk
@@ -140,12 +199,15 @@ function handleToolCall(name, args, pools) {
   }
 
   if (name === "get_pool") {
-    const pid = String(args.pool_id || '').trim().toLowerCase();
+    if (!hasText(args.pool_id)) {
+      throw new RpcError(-32602, 'Invalid params: "pool_id" (string) is required.');
+    }
+    const pid = args.pool_id.trim().toLowerCase();
     const pool = pools.find(p => p && p.pool && p.pool.toLowerCase() === pid);
     if (!pool) {
-      return { error: "not_found", message: `No pool with id "${args.pool_id}".` };
+      return { error: "not_found", message: notInSnapshotMessage(args.pool_id) };
     }
-    const totalApy = (Number(pool.apyBase) || 0) + (Number(pool.apyReward) || 0);
+    const totalApy = totalApyOf(pool);
     const anomalous = totalApy > TRUST_RAILS.apy_sanity_limit_percent;
     const belowMinTvl = (Number(pool.tvlUsd) || 0) < TRUST_RAILS.min_tvl_usd;
 
@@ -164,44 +226,57 @@ function handleToolCall(name, args, pools) {
       anomalous,
       reason: anomalous ? `Total APY (${totalApy.toFixed(2)}%) exceeds ${TRUST_RAILS.apy_sanity_limit_percent}% sanity limit.` : null,
       belowMinTvl,
-      belowMinTvlReason: belowMinTvl ? `TVL ($${(Number(pool.tvlUsd) || 0).toLocaleString()}) is below $100,000 floor.` : null
+      belowMinTvlReason: belowMinTvl ? `TVL ($${(Number(pool.tvlUsd) || 0).toLocaleString('en-US')}) is below $100,000 floor.` : null
     };
   }
 
   if (name === "get_pool_score") {
+    const hasPoolId = hasText(args.pool_id);
+    const hasAsset = hasText(args.asset);
+    if (!hasPoolId && !hasAsset) {
+      throw new RpcError(-32602, 'Invalid params: provide "pool_id" or "asset" (string).');
+    }
+
     let pool = null;
-    if (args.pool_id) {
-      const pid = String(args.pool_id).trim().toLowerCase();
+    let candidates = null;
+    if (hasPoolId) {
+      const pid = args.pool_id.trim().toLowerCase();
       pool = pools.find(p => p && p.pool && p.pool.toLowerCase() === pid);
     }
-    if (!pool && (args.asset || args.chain)) {
-      const asset = args.asset ? String(args.asset).toUpperCase() : null;
-      const chain = args.chain ? String(args.chain).toLowerCase() : null;
+    if (!pool && hasAsset) {
+      const asset = args.asset.trim().toUpperCase();
+      const chain = hasText(args.chain) ? args.chain.trim().toLowerCase() : null;
 
-      const candidates = pools.filter(p => {
-        const tvl = Number(p.tvlUsd) || 0;
-        if (tvl < TRUST_RAILS.min_tvl_usd) return false;
-        const totalApy = (Number(p.apyBase) || 0) + (Number(p.apyReward) || 0);
-        if (totalApy > TRUST_RAILS.apy_sanity_limit_percent) return false;
-
-        if (asset && !(p.symbol || '').toUpperCase().includes(asset)) return false;
-        if (chain && (p.chain || '').toLowerCase() !== chain) return false;
+      // Exact (case-insensitive) symbol match among railed pools, highest TVL first.
+      const matches = pools.filter(p => {
+        if (!p || !isRailed(p)) return false;
+        if (String(p.symbol || '').toUpperCase() !== asset) return false;
+        if (chain && String(p.chain || '').toLowerCase() !== chain) return false;
         return true;
       }).sort((a, b) => (Number(b.tvlUsd) || 0) - (Number(a.tvlUsd) || 0));
 
-      pool = candidates[0] || null;
+      pool = matches[0] || null;
+      candidates = matches.slice(0, 5).map(p => ({
+        pool_id: p.pool,
+        project: p.project,
+        chain: p.chain,
+        tvl_usd: p.tvlUsd
+      }));
     }
 
     if (!pool) {
-      return { error: "not_found", message: "Pool not found matching specified criteria clearing trust rails." };
+      if (hasPoolId && !hasAsset) {
+        return { error: "not_found", message: notInSnapshotMessage(args.pool_id) };
+      }
+      return { error: "not_found", message: "No railed pool matched that exact asset symbol (and chain, if given). Pools above the 1000% APY cap or below the $100K TVL floor are excluded from asset searches." };
     }
 
     const isRestricted = PERMISSIONED_PROJECT_LIST.has(String(pool.project || '').toLowerCase());
-    const totalApy = (Number(pool.apyBase) || 0) + (Number(pool.apyReward) || 0);
+    const totalApy = totalApyOf(pool);
     const anomalous = totalApy > TRUST_RAILS.apy_sanity_limit_percent;
     const belowMinTvl = (Number(pool.tvlUsd) || 0) < TRUST_RAILS.min_tvl_usd;
 
-    return {
+    const result = {
       pool_id: pool.pool,
       symbol: pool.symbol,
       project: pool.project,
@@ -233,38 +308,43 @@ function handleToolCall(name, args, pools) {
         p90_apy: pool.forecast.p90,
         crash_risk: pool.forecast.crashRisk,
         forward_delta: pool.forecast.forwardDelta,
-        status: "Experimental forward forecast: In our first 10 test runs, assuming today's rate holds was more accurate than this forecast."
+        status: forecastStatus()
       } : null
     };
+    if (candidates) result.candidates = candidates;
+    return result;
   }
 
   if (name === "forever_number") {
     const monthly = Number(args.monthly);
-    if (!Number.isFinite(monthly) || monthly <= 0) {
-      throw new Error('Argument "monthly" must be a positive number.');
+    if (args.monthly === null || args.monthly === undefined || args.monthly === '' || !Number.isFinite(monthly) || monthly <= 0) {
+      return { error: "invalid_argument", message: 'Argument "monthly" must be a finite number greater than 0 (USD per month).' };
     }
 
-    let rate = Number(args.apy);
-    let apySource = "param";
+    let rate;
+    let apySource;
+    let rateMethod;
 
-    if (!Number.isFinite(rate) || rate <= 0) {
+    if (args.apy !== undefined && args.apy !== null) {
+      rate = Number(args.apy);
+      if (args.apy === '' || !Number.isFinite(rate) || rate <= 0 || rate > TRUST_RAILS.apy_sanity_limit_percent) {
+        return { error: "invalid_argument", message: `Argument "apy" must be a finite percent greater than 0 and at most ${TRUST_RAILS.apy_sanity_limit_percent} (the APY sanity limit). Omit it to use the blended rate of railed pools.` };
+      }
+      apySource = "param";
+      rateMethod = "caller_supplied";
+    } else {
       // Derive TVL-weighted blended rate across railed pools
-      const railed = pools.filter(p => {
-        const tvl = Number(p.tvlUsd) || 0;
-        const total = (Number(p.apyBase) || 0) + (Number(p.apyReward) || 0);
-        return tvl >= TRUST_RAILS.min_tvl_usd && total <= TRUST_RAILS.apy_sanity_limit_percent;
-      });
-
       let tvlSum = 0;
       let weighted = 0;
-      for (const p of railed) {
+      for (const p of pools) {
+        if (!p || !isRailed(p)) continue;
         const tvl = Number(p.tvlUsd) || 0;
-        const total = (Number(p.apyBase) || 0) + (Number(p.apyReward) || 0);
-        weighted += total * tvl;
+        weighted += totalApyOf(p) * tvl;
         tvlSum += tvl;
       }
       rate = tvlSum > 0 ? (weighted / tvlSum) : 0;
       apySource = "blended";
+      rateMethod = "tvl_weighted_mean_of_railed_pools";
     }
 
     const foreverNumber = rate > 0 ? (monthly * 12) / (rate / 100) : null;
@@ -273,6 +353,7 @@ function handleToolCall(name, args, pools) {
       monthly,
       apyPct: Number(rate.toFixed(4)),
       apySource,
+      rateMethod,
       financeable: foreverNumber !== null,
       foreverNumber: foreverNumber !== null ? Math.round(foreverNumber) : null
     };
@@ -281,6 +362,7 @@ function handleToolCall(name, args, pools) {
   if (name === "explain_rails") {
     return {
       rails: TRUST_RAILS,
+      data_source: "DefiLlama pools feed (https://yields.llama.fi/pools), snapshotted daily; all chains DefiLlama tracks are covered.",
       timestamp: new Date().toISOString()
     };
   }
@@ -291,8 +373,18 @@ function handleToolCall(name, args, pools) {
 const MCP_CORS_HEADERS = {
   'Access-Control-Allow-Origin': '*',
   'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
-  'Access-Control-Allow-Headers': 'Content-Type, Accept, Authorization, x-mcp-version',
+  'Access-Control-Allow-Headers': 'Content-Type, Accept, Authorization, MCP-Protocol-Version, x-mcp-version',
+  'Cache-Control': 'no-store'
 };
+
+function send(res, status, body, extraHeaders) {
+  res.writeHead(status, Object.assign({ 'Content-Type': 'application/json' }, MCP_CORS_HEADERS, extraHeaders || {}));
+  res.end(body === undefined ? undefined : JSON.stringify(body));
+}
+
+function rpcError(res, status, id, code, message) {
+  send(res, status, { jsonrpc: "2.0", id: id, error: { code, message } });
+}
 
 module.exports = function handleMcpRequest(req, res) {
   if (req.method === 'OPTIONS') {
@@ -302,29 +394,26 @@ module.exports = function handleMcpRequest(req, res) {
   }
 
   if (req.method === 'GET') {
-    const acceptHeader = req.headers['accept'] || '';
+    const acceptHeader = String((req.headers && req.headers['accept']) || '');
     if (acceptHeader.includes('text/event-stream')) {
-      res.writeHead(200, Object.assign({
-        'Content-Type': 'text/event-stream',
-        'Cache-Control': 'no-cache',
-        'Connection': 'keep-alive'
-      }, MCP_CORS_HEADERS));
-      res.write(`event: endpoint\ndata: /api/mcp\n\n`);
+      // We do not offer a server-initiated SSE stream (Streamable HTTP allows 405).
+      res.writeHead(405, Object.assign({ 'Content-Type': 'text/plain', 'Allow': 'POST' }, MCP_CORS_HEADERS));
+      res.end('Method Not Allowed: this server does not offer a server-initiated stream; use POST.');
       return;
     }
 
-    res.writeHead(200, Object.assign({ 'Content-Type': 'application/json' }, MCP_CORS_HEADERS));
-    res.end(JSON.stringify({
+    send(res, 200, {
       name: "DeFi Garden Model Context Protocol (MCP) Server",
-      version: "0.2.0",
-      protocol_version: "2025-06-18",
-      transports: ["streamable-http", "sse"],
-      endpoint: "https://www.defi.garden/api/mcp",
-      canonical_endpoint: "https://www.defi.garden/mcp",
-      documentation: "https://www.defi.garden/mcp",
+      version: SERVER_VERSION,
+      protocol_version: SUPPORTED_PROTOCOL_VERSIONS[0],
+      transports: ["streamable-http"],
+      endpoint: ENDPOINT,
+      canonical_endpoint: ENDPOINT,
+      documentation: ENDPOINT,
       llms_txt: "https://www.defi.garden/llms.txt",
+      as_of: getSnapshot().asOf,
       tools: MCP_TOOLS.map(t => ({ name: t.name, description: t.description }))
-    }, null, 2));
+    });
     return;
   }
 
@@ -337,8 +426,22 @@ module.exports = function handleMcpRequest(req, res) {
       try {
         rpcReq = JSON.parse(body || '{}');
       } catch (_err) {
-        res.writeHead(400, Object.assign({ 'Content-Type': 'application/json' }, MCP_CORS_HEADERS));
-        res.end(JSON.stringify({ jsonrpc: "2.0", id: null, error: { code: -32700, message: "Parse error: invalid JSON." } }));
+        rpcError(res, 400, null, -32700, "Parse error: invalid JSON.");
+        return;
+      }
+
+      if (!rpcReq || typeof rpcReq !== 'object' || Array.isArray(rpcReq)) {
+        rpcError(res, 400, null, -32600, "Invalid Request: expected a single JSON-RPC message object.");
+        return;
+      }
+
+      // Streamable HTTP: a notification (no id) or a client response gets 202 with no body.
+      const isNotification = typeof rpcReq.method === 'string' && rpcReq.id === undefined;
+      const isClientResponse = rpcReq.method === undefined && rpcReq.id !== undefined
+        && (rpcReq.result !== undefined || rpcReq.error !== undefined);
+      if (isNotification || isClientResponse) {
+        res.writeHead(202, MCP_CORS_HEADERS);
+        res.end();
         return;
       }
 
@@ -346,67 +449,70 @@ module.exports = function handleMcpRequest(req, res) {
       const method = rpcReq.method;
 
       if (method === 'initialize') {
-        res.writeHead(200, Object.assign({ 'Content-Type': 'application/json' }, MCP_CORS_HEADERS));
-        res.end(JSON.stringify({
+        const requested = rpcReq.params && rpcReq.params.protocolVersion;
+        const protocolVersion = SUPPORTED_PROTOCOL_VERSIONS.includes(requested) ? requested : SUPPORTED_PROTOCOL_VERSIONS[0];
+        send(res, 200, {
           jsonrpc: "2.0",
           id: id,
           result: {
-            protocolVersion: "2025-06-18",
+            protocolVersion,
             capabilities: { tools: {} },
-            serverInfo: { name: "defi-garden-mcp", version: "0.2.0" }
+            serverInfo: { name: "defi-garden-mcp", version: SERVER_VERSION }
           }
-        }));
+        });
+        return;
+      }
+
+      if (method === 'ping') {
+        send(res, 200, { jsonrpc: "2.0", id: id, result: {} });
         return;
       }
 
       if (method === 'tools/list') {
-        res.writeHead(200, Object.assign({ 'Content-Type': 'application/json' }, MCP_CORS_HEADERS));
-        res.end(JSON.stringify({
-          jsonrpc: "2.0",
-          id: id,
-          result: { tools: MCP_TOOLS }
-        }));
+        send(res, 200, { jsonrpc: "2.0", id: id, result: { tools: MCP_TOOLS } });
         return;
       }
 
       if (method === 'tools/call') {
         const params = rpcReq.params || {};
-        const pools = getPools();
+        const snapshot = getSnapshot();
         try {
-          const result = handleToolCall(params.name, params.arguments, pools);
-          res.writeHead(200, Object.assign({ 'Content-Type': 'application/json' }, MCP_CORS_HEADERS));
-          res.end(JSON.stringify({
+          const result = handleToolCall(params.name, params.arguments, snapshot.pools);
+          const payload = Object.assign({ as_of: snapshot.asOf }, result);
+          send(res, 200, {
             jsonrpc: "2.0",
             id: id,
             result: {
-              content: [{ type: "text", text: JSON.stringify(result, null, 2) }],
+              content: [{ type: "text", text: JSON.stringify(payload, null, 2) }],
               isError: !!(result && result.error)
             }
-          }));
+          });
         } catch (err) {
-          res.writeHead(200, Object.assign({ 'Content-Type': 'application/json' }, MCP_CORS_HEADERS));
-          res.end(JSON.stringify({
+          if (err instanceof RpcError) {
+            rpcError(res, 200, id, err.rpcCode, err.message);
+            return;
+          }
+          const payload = { as_of: snapshot.asOf, error: "tool_error", message: err.message };
+          send(res, 200, {
             jsonrpc: "2.0",
             id: id,
             result: {
-              content: [{ type: "text", text: `Error: ${err.message}` }],
+              content: [{ type: "text", text: JSON.stringify(payload, null, 2) }],
               isError: true
             }
-          }));
+          });
         }
         return;
       }
 
-      res.writeHead(200, Object.assign({ 'Content-Type': 'application/json' }, MCP_CORS_HEADERS));
-      res.end(JSON.stringify({
-        jsonrpc: "2.0",
-        id: id,
-        error: { code: -32601, message: `Method '${method}' not found` }
-      }));
+      rpcError(res, 200, id, -32601, `Method '${method}' not found`);
     });
     return;
   }
 
-  res.writeHead(405, Object.assign({ 'Content-Type': 'text/plain' }, MCP_CORS_HEADERS));
+  res.writeHead(405, Object.assign({ 'Content-Type': 'text/plain', 'Allow': 'GET, POST, OPTIONS' }, MCP_CORS_HEADERS));
   res.end('Method Not Allowed');
 };
+
+// Exposed so generators (generate-llms.js) read the real tool list instead of a copy.
+module.exports.MCP_TOOLS = MCP_TOOLS;

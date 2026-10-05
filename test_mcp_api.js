@@ -18,28 +18,15 @@ async function runTests() {
     const getData = await getRes.json();
     assert.strictEqual(getData.name, 'DeFi Garden Model Context Protocol (MCP) Server');
     assert.strictEqual(getData.tools.length, 5, 'Should expose 5 MCP tools');
+    assert.strictEqual(getData.endpoint, 'https://www.defi.garden/mcp');
+    assert.deepStrictEqual(getData.transports, ['streamable-http']);
     console.log('  ✓ GET /api/mcp returns valid MCP metadata');
 
-    // Test 2: GET with Accept: text/event-stream (SSE Handshake) via http.get
-    await new Promise((resolve, reject) => {
-      const req = http.get('http://localhost:8999/api/mcp', {
-        headers: { 'Accept': 'text/event-stream' }
-      }, (res) => {
-        assert.strictEqual(res.statusCode, 200);
-        assert.strictEqual(res.headers['content-type'], 'text/event-stream');
-        res.on('data', chunk => {
-          const text = chunk.toString();
-          assert.ok(text.includes('event: endpoint'), 'SSE response must contain endpoint event');
-          req.destroy();
-          console.log('  ✓ GET /api/mcp with text/event-stream returns valid SSE handshake');
-          resolve();
-        });
-      });
-      req.on('error', (err) => {
-        if (err.code === 'ECONNRESET') resolve(); // Destroyed intentionally
-        else reject(err);
-      });
-    });
+    // Test 2: GET with Accept: text/event-stream -> 405 Allow: POST (no server-initiated stream offered)
+    const sseRes = await fetch('http://localhost:8999/api/mcp', { headers: { 'Accept': 'text/event-stream' } });
+    assert.strictEqual(sseRes.status, 405, 'GET with text/event-stream must be 405');
+    assert.strictEqual(sseRes.headers.get('allow'), 'POST', '405 must carry Allow: POST');
+    console.log('  ✓ GET /api/mcp with text/event-stream returns 405 Allow: POST');
 
     // Test 3: POST JSON-RPC initialize
     const initRes = await fetch('http://localhost:8999/api/mcp', {
