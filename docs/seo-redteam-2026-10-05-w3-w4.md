@@ -121,3 +121,74 @@ run('snapB.json','h_2026-09-20.json','h_2026-10-04.json')
 PY
 ```
 A positive skill means the model beats "no change". Today it is **−0.28** and **+0.07**.
+
+---
+
+## Addendum, 2026-10-05 (afternoon): red team of PR #510
+
+**Status:** PR #510 is **open, not merged**. None of `scripts/evaluate-forecast-accuracy.js`, `scripts/record-daily-forecast.js`, `docs/forecast-evaluation-methodology.md` or `data/forecasts/` exists on `main`, so calling it "shipped" is premature. That's good news: the four blockers below can go into the same PR.
+
+**Verdict:** the evaluation engine is the right build and mostly honest. Merge it after fixing **two CI bugs** that break the "point-in-time" promise and **one page-copy pass**. Separately, the bigger problem is outside this PR's scope: **four of the five tools in `api/mcp.js` return hard-coded, invented numbers**, and #510 just pointed the public `/agents` and `/mcp` pages at that server. **No registry listing (P1-1) until that's removed.**
+
+### What's solid
+- The forecast record keeps the provenance of each backfilled day (`commit`, `commitTime`), and dropouts are counted, not erased. About 200 per run (7.5%) are reported in the table.
+- Results are reported per run, with a median across runs; overlapping 14-day windows aren't added together as if independent.
+- The scorecard is out of `sitemap-main.xml` and `llms-full.txt`, and still `noindex`.
+- `get_pool_score` no longer returns the letter rating and carries "Not a smart-contract or exploit safety audit."
+- The results are honest: model worse than "no change" in **8 of 10 runs** (median skill −0.08); range catches 71% vs the 80% it should; stablecoins 64–69%.
+
+### Blockers (fix in #510 before merging)
+
+| # | Problem | Evidence | Fix |
+|---|---|---|---|
+| B1 | **Today's forecast file gets overwritten by later runs** | `record-daily-forecast.js:99` writes `data/forecasts/<today>.json` unconditionally. The workflow also runs on every push to `main` that touches the listed generator/translation paths, and on manual runs. A 16:00 push replaces the 02:00 forecasts with later ones, which breaks the "fixed at 02:00 UTC" rule. | Write once: skip if the file exists, **and** run the step only when `github.event_name == 'schedule'`. Store the snapshot's own `generatedAt` and the commit SHA, not `new Date()`. |
+| B2 | **The scorecard page never updates in CI** | `evaluate-forecast-accuracy.js` writes `forecast-accuracy.html`, but the workflow's `git add` list (line 198) doesn't include it. Only `data/forecast-evaluations.json` gets committed. | Add `forecast-accuracy.html` to the `git add` list. |
+| B3 | **The "fixed at 02:00 UTC" rule is false for the backfilled days** | The backfilled files carry `commitTime` 06:58 (Sep 12) and 07:34 (Sep 20), not 02:00. | Say it on the page: "Sep 12 – Oct 5 backfilled from the first snapshot commit of each day (time shown per run). From Oct 6, recorded at the 02:00 UTC run." Add a per-run commit link column so anyone can check it. |
+| B4 | **"Pre-registered" isn't true for these 10 runs** | The methodology was written on Oct 5, after −0.28/+0.07 was already known and in the same PR that computed the results. | Change "pre-registered" to **"locked as of v1.0 (Oct 5)"**. State that the first runs evaluated under rules locked *before* their outcome are those made on or after Oct 6, which first resolve on **Oct 20**. Saying so strengthens credibility; hiding it is what a critic would catch. |
+
+### Page copy (`forecast-accuracy.html` + pool pages)
+- **Raw LaTeX shows as text**: `$[p10, p90]$` and `$APY_0$` render literally (no math library on the page). Use plain text, e.g. `p10–p90` and `APY at issue`.
+- **Lead with the finding stated plainly.** Instead of "confirming that… assuming rates remain unchanged remains a highly competitive benchmark", write **"In 8 of 10 runs, assuming the rate stays the same was more accurate than our forecast."**
+- **Pool-page disclaimer**: "Experimental *directional* model… remains *competitive*" overstates things. Nothing shows the model gets direction right, and "competitive" softens "worse". Use: *"Experimental. In our first 10 test runs, assuming today's rate holds was more accurate than this forecast. Track record →"*. Note that this also differs from the label your own methodology §4 prescribes. Pick one and use it in both places.
+- **Check after the merge**: the static `pools/*.html` in the PR still carry the old heading. CI regenerates them because `translations.js` is a trigger path, but confirm one EN and one KO page in production.
+- **Pre-#510 terminology still lives in the snapshot data.** The 2,559 → 2,671 count change is fine.
+
+### The finding #510 didn't surface, and the one that matters most
+
+I re-ran the Sep 12 → Sep 26 run from your forecast record:
+
+| Pools | Share | Model avg error | "No change" avg error | Inside forecast range |
+|---|---|---|---|---|
+| APY moved < 0.1 pp | **60%** | ~0 | ~0 | almost all |
+| APY moved ≥ 0.5 pp ("movers") | **23%** (612) | **7.18 pp** | **4.86 pp** | **41%** |
+
+**The range is right when nothing happens and wrong when something does.** For a risk tool, that's backwards. It also matters beyond the scorecard: **50 of the DeFi Score's 100 points come from this forecast** (range width plus direction). Ranges that are too narrow (71% caught vs the 80% they should catch) mean the *Stability* part **systematically overrates stability**, most of all for stablecoins (64–69% caught).
+- **Report hook (P1-2):** "60% of DeFi yields didn't move in two weeks. Our model nailed those and missed the ones that mattered." It's honest, counter-intuitive and quotable, and it's exactly the story the brand promise needs.
+- **Model fix (after the report, not before):** widen the ranges with a correction factor fitted only on runs made before date *t* and applied going forward (split conformal calibration), so the ranges catch 80%. Then rescore. Never re-fit on the same runs you publish.
+
+### Out of #510's scope but blocking P1-1: `api/mcp.js` serves invented data (live on `main`)
+
+- **Two tools return made-up pools.** `get_base_yields` and `find_lending_rate` return only `BASE_PRIMITIVES_BASELINE`: 5 hard-coded pools with fixed APYs, TVLs, `risk_tier: "LOW"` and `verified: true` (`api/mcp.js:19-92`). `find_lending_rate` is described as "Query **real-time** supply and borrow lending APYs". One of the pools is *"TermMax Fixed Term USDC (Maturity **Sep 2026**)"*, which has already matured.
+- **`get_looping_params` gives leverage advice from constants.** It returns `recommended_safe_leverage` and `estimated_net_apy_percent = 6.84 × L − 8.12 × (L − 1)` for **any** asset pair, from the hard-coded rates and a fixed 86% LLTV. It also claims `safety_invariant: "Hard liquidation freeze when Pyth/Chainlink divergence exceeds 15 bps"`, a mechanism DeFi Garden doesn't run (`api/mcp.js:349-367`).
+- **The `TRUST_RAILS` object implies a principal guarantee.** It returns `invariant: "Delta Principal == 0 (Principal preservation invariant)"` and `max_oracle_divergence_bps: 15`.
+- **#510 pointed `/agents` and `/mcp` at `/api/mcp`**, the server with the invented data. Meanwhile `edge/mcp-core.js` (`find_pools`, `get_pool`, `forever_number`, `explain_rails`, backed by `/api/pools`) is the data-backed server that `llms.txt` advertises at `/mcp`. **Two MCP servers with different tools, and the public pages now promote the worse one.**
+- **This breaks the founding rule** ("every number derives from live data; an LLM may narrate, never produce numbers"). Registries copy tool output into agents' contexts verbatim. Listing this would spread invented yields and leverage advice under your name.
+
+**Fix (½ day, before any registry listing):**
+1. Delete `BASE_PRIMITIVES_BASELINE`, `get_base_yields`, `find_lending_rate` and `get_looping_params` from `api/mcp.js`, or rewrite them to read the snapshot or `/api/pools` with the trust rails applied.
+2. Remove the `Delta Principal == 0` and oracle-divergence claims from `TRUST_RAILS`.
+3. Pick **one** canonical MCP endpoint, preferably the edge `/mcp`. Port `get_pool_score` to it, point `/agents`, `/mcp`, `llms.txt` and the registry manifests at it, and make `/api/mcp` redirect or return its tool list.
+4. Add a test asserting that no MCP tool's response contains a literal number not present in the snapshot. `test_webmcp_trust_rails.js` already exists, so extend it.
+
+### Updated order
+1. **#510 + B1–B4 + the copy pass**, then merge. Verify the production pool page shows the experimental label (EN and KO) and that `forecast-accuracy` refreshes after the next 02:00 run.
+2. **MCP cleanup** (above). **Then** P1-1 registry listings, pointing at the one canonical endpoint.
+3. **P0-3 is done:** #509 reverted the titles to "Live Pools Compared" (checked on `main`).
+4. **Report #1 (Oct 20)** built on the movers finding. Flip `/forecast-accuracy` to `index` and put it back in the sitemap on the day the report goes out. It's the page you want journalists and AI to cite.
+5. **After the report:** calibrate the ranges (split conformal) and rescore. Stability-pillar changes will move every DeFi Score, so publish a changelog line.
+
+### Don't build (additions)
+- **Don't** list any MCP server in a registry while a tool returns hard-coded rates.
+- **Don't** call the backfilled runs pre-registered or 02:00-stamped.
+- **Don't** re-fit the forecast on the 10 published runs and then report improved skill on those same runs.
+- **Don't** keep two MCP servers with different tool sets.
