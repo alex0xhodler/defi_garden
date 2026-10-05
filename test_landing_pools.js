@@ -49,4 +49,13 @@ check('committed data/landing-pools.json matches the curated list and is scored'
   });
 });
 
+const { PERMISSIONED_PROJECT_LIST } = require('./permissioned-projects.js');
+check('LANDING_POOL_IDS never overlaps PERMISSIONED_PROJECT_LIST', () => {
+  const data = JSON.parse(fs.readFileSync(committed, 'utf8'));
+  data.pools.forEach(p => {
+    assert.ok(!PERMISSIONED_PROJECT_LIST.has(String(p.project || '').toLowerCase()),
+      `Hero landing pool ${p.symbol} (${p.project}) must not be on PERMISSIONED_PROJECT_LIST`);
+  });
+});
+
 console.log(passed + ' landing-pools assertions passed');

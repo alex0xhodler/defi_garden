@@ -659,6 +659,18 @@ function buildConcise(meta, categories, highYield, yieldAnalysis, plannerRateRes
   lines.push(`- Total URLs: ${meta.totalUrls}`);
   lines.push('');
 
+  // Overview / Underwriting Architecture
+  lines.push('## Overview & Yield Underwriting');
+  lines.push(
+    `TL;DR: DeFi Garden is a quantitative yield intelligence engine and goal-based savings planner. ` +
+    `Every pool clears strict trust rails ($100K TVL floor, 1000% APY sanity cap). ` +
+    `We evaluate yield quality across four pillars (stability, fee sustainability, depositor stickiness, liquidity depth) ` +
+    `and maintain an empirical, multi-run 14-day forward forecast track record publicly benchmarked against a naive "no-change" baseline.`
+  );
+  lines.push(`- Public forecast evaluation scorecard: ${meta.baseUrl}/forecast-accuracy`);
+  lines.push(`- Verified scored pools directory: ${meta.baseUrl}/pools`);
+  lines.push('');
+
   // Homepage section — describes what the router (home.html) actually does
   // (spec 168, corrected after operator review): bare `/` is a search-first
   // landing that routes into both faces, it is NOT itself the planner.
