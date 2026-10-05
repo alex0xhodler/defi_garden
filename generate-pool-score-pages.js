@@ -35,7 +35,7 @@
 const fs = require('fs');
 const path = require('path');
 const tp = require('./generate-token-pages.js');
-const { createTranslationFunction } = require('./translations.js');
+const { createTranslationFunction, translations } = require('./translations.js');
 const { PERMISSIONED_PROJECT_LIST } = require('./permissioned-projects.js');
 const { assignPoolSlugs, slugify, MANIFEST_REL_PATH } = require('./pool-page-links.js');
 
@@ -54,6 +54,9 @@ const W1_MIN_HISTORY_POINTS = 30;     // plan: >= 30 days of history
 const HISTORY_DAYS = 30;              // chart window
 const SIMILAR_POOLS = 4;              // "Similar pools" links per page
 const TITLE_MAX_CHARS = 60;
+const FLAT_SERIES_EPS = 1e-9;        // |max - min| below this = a flat series (no fan to draw)
+const FLAT_MIN_PAD = 0.2;             // flat chart: half-window in APY points, at least...
+const FLAT_PAD_RATIO = 0.05;          // ...or this share of the value
 const FORECAST_FLAT_BAND = 0.05;      // |p50/current - 1| below this reads "roughly flat"
 const REWARD_SHARE_FLAG = 0.3;        // reward share of total APY that raises the decay flag
 const TVL_TREND_FLAG = 0.25;          // mirrors PoolDetail.js: |kpis.tvlTrend| >= 0.25 is a meaningful move
@@ -147,7 +150,11 @@ function renderApyChartSvg(pool, series, t, titleId) {
   const traj = Array.isArray(f.trajectory) ? f.trajectory.filter(isNum) : [];
   const ys = pts.map(p => p.apy).concat([f.p10, f.p50, f.p90], traj);
   let lo = Math.min.apply(null, ys), hi = Math.max.apply(null, ys);
-  if (hi - lo < 1e-9) { const pad = Math.max(0.5, Math.abs(hi) * 0.1); lo -= pad; hi += pad; }
+  // Flat series (every value equal, so p10 = p50 = p90 and the fan has no
+  // width): centre the line in a modest window and label only that value,
+  // instead of inventing a +/-0.5pt scale with odd tick labels.
+  const flat = hi - lo < FLAT_SERIES_EPS;
+  if (flat) { const pad = Math.max(FLAT_MIN_PAD, Math.abs(hi) * FLAT_PAD_RATIO); lo -= pad; hi += pad; }
   else { const pad = (hi - lo) * 0.08; lo -= pad; hi += pad; }
   if (lo < 0 && Math.min.apply(null, ys) >= 0) lo = 0;
   const span = (n - 1) + horizon;
@@ -160,9 +167,10 @@ function renderApyChartSvg(pool, series, t, titleId) {
   const median = [`${f1(x0)},${f1(y(lastApy))}`].concat(
     traj.length ? traj.map((v, i) => `${f1(x((i + 1) * horizon / traj.length))},${f1(y(v))}`)
                 : [`${f1(x1)},${f1(y(f.p50))}`]).join(' ');
-  const ticks = [lo + (hi - lo) * 0.05, (lo + hi) / 2, hi - (hi - lo) * 0.05];
+  const ticks = flat ? [(lo + hi) / 2] : [lo + (hi - lo) * 0.05, (lo + hi) / 2, hi - (hi - lo) * 0.05];
   const grid = ticks.map(v => `<line class="psp-grid" x1="${ml}" x2="${W - mr}" y1="${f1(y(v))}" y2="${f1(y(v))}"/>` +
     `<text class="psp-axis" x="${ml - 6}" y="${f1(y(v) + 4)}" text-anchor="end">${escapeHtml(formatApy(v))}</text>`).join('');
+  const bandHtml = flat ? '' : `<polygon class="psp-band" points="${band}"/>\n        `;
   const firstDate = pts[0].date;
   const title = t('pspChartTitle', displayName(pool.project), pool.symbol, pool.chain, n, horizon, formatApy(f.p10), formatApy(f.p90));
 
@@ -170,8 +178,7 @@ function renderApyChartSvg(pool, series, t, titleId) {
         <title id="${titleId}">${escapeHtml(title)}</title>
         ${grid}
         <line class="psp-today" x1="${f1(x0)}" x2="${f1(x0)}" y1="${mt}" y2="${H - mb}"/>
-        <polygon class="psp-band" points="${band}"/>
-        <polyline class="psp-median" points="${median}"/>
+        ${bandHtml}<polyline class="psp-median" points="${median}"/>
         <polyline class="psp-line" points="${line}"/>
         <text class="psp-axis" x="${ml}" y="${H - 14}" text-anchor="start">${escapeHtml(firstDate)}</text>
         <text class="psp-axis" x="${f1(x0)}" y="${H - 14}" text-anchor="middle">${escapeHtml(t('pspChartToday'))}</text>
@@ -250,59 +257,181 @@ function similarPools(pool, selected, n) {
 function poolsBase(lang) { return `${SITE_URL}/${lang === 'ko' ? 'ko/pools' : 'pools'}`; }
 
 // --- CSS (tokens only) -------------------------------------------------------
+/**
+ * 247-world "certificate" look, mirroring the live surfaces: 2px corners, a
+ * hairline frame with an inner keyline (.decision-terminal-card), mono
+ * uppercase panel labels (.dt-panel-label), mono figures (.dt-metric-val),
+ * chips/tags as .dt-preset-btn/.dt-badge-tag, and the primary CTA as
+ * .landing-garden-link. The site header/footer come from landing-styles.css
+ * (.landing-header/.app-footer), exactly like /for/*.html. Tokens only.
+ */
 function renderStyle() {
   return `    <style>
-      .psp-wrap { max-width: 860px; margin: 0 auto; padding: 24px 20px 40px; }
-      .psp-wrap h1 { font-family: var(--font-family-display); font-size: 1.6rem; line-height: 1.25; margin: 8px 0 8px; color: var(--ui-text); overflow-wrap: anywhere; }
-      .psp-wrap h2 { font-size: 1.1rem; margin: 0 0 10px; color: var(--ui-text); }
+      .psp-wrap { width: 100%; box-sizing: border-box; max-width: 860px; margin: 0 auto; padding: 24px 20px 40px; flex: 1 0 auto; }
+      .psp-wrap h1 { font-family: var(--font-family-display); font-size: 1.7rem; font-weight: 600; line-height: 1.2; letter-spacing: -0.01em; margin: 8px 0 8px; color: var(--ui-text); overflow-wrap: anywhere; }
+      .psp-wrap h2 { font-family: var(--font-family-mono, monospace); font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; line-height: 1.4; margin: 0 0 12px; padding-bottom: 10px; border-bottom: 1px solid var(--ui-border); color: var(--ui-text-secondary); }
       .psp-crumbs { font-size: .85rem; color: var(--ui-text-secondary); }
-      .psp-crumbs ol { list-style: none; display: flex; flex-wrap: wrap; gap: 4px 8px; margin: 0; padding: 0; }
+      .psp-crumbs ol { list-style: none; display: flex; flex-wrap: wrap; gap: 0 8px; margin: 0; padding: 0; }
+      .psp-crumbs li { display: inline-flex; align-items: center; }
       .psp-crumbs li + li::before { content: "\\203A"; margin-right: 8px; color: var(--ui-text-muted); }
       .psp-crumbs a { color: var(--ui-accent); text-decoration: none; }
       .psp-crumbs a:hover { text-decoration: underline; }
-      .psp-card { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-lg); box-shadow: none; padding: 18px; margin: 18px 0; }
-      .psp-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 0; }
-      .psp-stats div { background: var(--ui-surface-muted); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-md); padding: 10px 12px; }
-      .psp-stats dt { font-size: .8rem; color: var(--ui-text-secondary); margin: 0 0 2px; }
-      .psp-stats dd { margin: 0; font-size: 1.15rem; font-weight: 600; color: var(--ui-text); font-variant-numeric: tabular-nums; }
-      .psp-cta { display: inline-block; margin: 6px 0 4px; padding: 14px 24px; background: var(--ui-accent); color: var(--ui-on-accent); border: 1px solid transparent; border-radius: var(--ui-radius-md); box-shadow: none; text-decoration: none; font-weight: 600; transition: background .15s ease, transform .1s ease; }
-      .psp-cta:hover { background: var(--ui-accent-hover); }
-      .psp-cta:active { background: var(--ui-accent-active); transform: translateY(1px); }
-      .psp-cta:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
-      .psp-secondary { display: block; margin: 4px 0 0; font-size: .9rem; color: var(--ui-accent); text-decoration: none; }
+      .psp-crumbs a:focus-visible, .psp-secondary:focus-visible, .psp-foot a:focus-visible, .psp-page .app-footer a:focus-visible { outline: 2px solid transparent; outline-offset: 2px; box-shadow: var(--ui-focus-ring); border-radius: 2px; }
+      .psp-card { position: relative; background: var(--ui-surface); border: 1px solid var(--ui-border-strong); border-radius: 2px; box-shadow: none; padding: 20px; margin: 20px 0; }
+      .psp-card::before { content: ""; position: absolute; inset: 4px; border: 1px solid var(--ui-border); border-radius: 1px; pointer-events: none; }
+      .psp-stats { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(0, 1fr); gap: 10px; margin: 0; }
+      .psp-stats div { background: var(--ui-surface-muted); border: 1px solid var(--ui-border); border-radius: 2px; padding: 12px; min-width: 0; }
+      .psp-stats dt { font-family: var(--font-family-mono, monospace); font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; line-height: 1.35; color: var(--ui-text-secondary); margin: 0 0 6px; }
+      .psp-stats dd { margin: 0; font-family: var(--font-family-mono, monospace); font-size: 1.1rem; font-weight: 700; color: var(--ui-text); font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+      .psp-card .psp-stats + .psp-note { margin: 16px 0 20px; }
+      .psp-cta { position: relative; display: flex; align-items: center; justify-content: center; box-sizing: border-box; width: 100%; max-width: 420px; min-height: 46px; margin: 0 0 4px; padding: 0 20px; background: var(--ui-accent); color: var(--ui-on-accent); border: 1px solid var(--ui-accent-active); border-radius: 2px; box-shadow: none; text-decoration: none; font-weight: 700; font-size: .92rem; letter-spacing: .015em; transition: background .15s ease, border-color .15s ease; }
+      .psp-cta::after { content: ""; position: absolute; inset: 4px; border: 1px solid var(--ui-on-accent); border-radius: 1px; opacity: .3; pointer-events: none; }
+      .psp-cta:hover { background: var(--ui-accent-hover); color: var(--ui-on-accent); }
+      .psp-cta:active { background: var(--ui-accent-active); color: var(--ui-on-accent); transform: translateY(1px); }
+      .psp-cta:focus-visible { outline: 2px solid transparent; outline-offset: 2px; box-shadow: var(--ui-focus-ring); }
+      .psp-secondary { display: inline-flex; align-items: center; min-height: 40px; margin: 0; padding: 0 2px; font-size: .9rem; color: var(--ui-accent); text-decoration: none; }
       .psp-secondary:hover { text-decoration: underline; }
-      .psp-secondary:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); border-radius: var(--ui-radius-sm); }
-      .psp-score { font-size: 1.5rem; font-weight: 700; color: var(--ui-text); font-variant-numeric: tabular-nums; margin: 0 0 12px; }
-      .psp-pillars { list-style: none; margin: 0 0 12px; padding: 0; display: grid; gap: 12px; }
+      .psp-score { font-family: var(--font-family-mono, monospace); font-size: 1.5rem; font-weight: 700; color: var(--ui-text); font-variant-numeric: tabular-nums; margin: 0 0 14px; }
+      .psp-pillars { list-style: none; margin: 0 0 14px; padding: 0; display: grid; gap: 14px; }
       .psp-pillar-head { display: flex; justify-content: space-between; gap: 12px; font-size: .92rem; color: var(--ui-text); }
-      .psp-pillar-head span:last-child { font-variant-numeric: tabular-nums; color: var(--ui-text-secondary); }
-      .psp-bar { height: 8px; margin-top: 6px; background: var(--ui-surface-sunken); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); overflow: hidden; }
+      .psp-pillar-head span:last-child { font-family: var(--font-family-mono, monospace); font-size: .85rem; font-variant-numeric: tabular-nums; color: var(--ui-text-secondary); }
+      .psp-bar { height: 8px; margin-top: 6px; background: var(--ui-surface-sunken); border: 1px solid var(--ui-border); border-radius: 2px; overflow: hidden; }
       .psp-bar > span { display: block; height: 100%; background: var(--ui-accent); }
       .psp-forecast { width: 100%; border-collapse: collapse; margin: 8px 0; }
-      .psp-forecast th, .psp-forecast td { text-align: left; padding: 8px 6px; border-bottom: 1px solid var(--ui-border); color: var(--ui-text); }
-      .psp-forecast th { color: var(--ui-text-secondary); font-weight: 600; }
-      .psp-forecast td:last-child, .psp-forecast th:last-child { text-align: right; font-variant-numeric: tabular-nums; }
+      .psp-forecast th, .psp-forecast td { text-align: left; padding: 10px 6px; border-bottom: 1px solid var(--ui-border); color: var(--ui-text); }
+      .psp-forecast th { font-family: var(--font-family-mono, monospace); font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--ui-text-secondary); font-weight: 700; }
+      .psp-forecast td:last-child, .psp-forecast th:last-child { text-align: right; }
+      .psp-forecast td { font-family: var(--font-family-mono, monospace); font-weight: 700; font-variant-numeric: tabular-nums; }
       .psp-chart { width: 100%; height: auto; display: block; color: var(--ui-text-secondary); }
       .psp-chart .psp-grid { stroke: var(--ui-border); stroke-width: 1; }
       .psp-chart .psp-today { stroke: var(--ui-border-strong); stroke-width: 1; stroke-dasharray: 3 3; }
       .psp-chart .psp-line { fill: none; stroke: var(--ui-accent); stroke-width: 2; stroke-linejoin: round; }
       .psp-chart .psp-median { fill: none; stroke: currentColor; stroke-width: 1.5; stroke-dasharray: 5 4; }
       .psp-chart .psp-band { fill: var(--ui-accent-soft); stroke: var(--ui-accent-border); stroke-width: 1; }
-      .psp-chart .psp-axis { fill: var(--ui-text-secondary); font-size: 11px; }
-      .psp-legend { display: flex; flex-wrap: wrap; gap: 6px 16px; list-style: none; margin: 8px 0 0; padding: 0; font-size: .85rem; color: var(--ui-text-secondary); }
+      .psp-chart .psp-axis { fill: var(--ui-text-secondary); font-family: var(--font-family-mono, monospace); font-size: 11px; }
+      .psp-legend { display: flex; flex-wrap: wrap; gap: 8px 18px; list-style: none; margin: 12px 0 0; padding: 0; font-size: .85rem; color: var(--ui-text-secondary); }
+      .psp-legend li { display: inline-flex; align-items: center; gap: 8px; }
+      .psp-legend li::before { content: ""; display: inline-block; width: 18px; flex: 0 0 auto; box-sizing: border-box; }
+      .psp-key-line::before { height: 0; border-top: 2px solid var(--ui-accent); }
+      .psp-key-median::before { height: 0; border-top: 2px dashed var(--ui-text-secondary); }
+      .psp-key-band::before { height: 10px; background: var(--ui-accent-soft); border: 1px solid var(--ui-accent-border); border-radius: 1px; }
       .psp-note { color: var(--ui-text-secondary); font-size: .9rem; line-height: 1.55; margin: 8px 0 0; }
       .psp-card p { color: var(--ui-text); line-height: 1.6; margin: 0 0 8px; }
+      .psp-card p.psp-note { color: var(--ui-text-secondary); }
       .psp-card ul.psp-list { margin: 0; padding-left: 20px; color: var(--ui-text); line-height: 1.6; }
-      .psp-badge { display: inline-block; padding: 4px 12px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); font-weight: 600; font-size: .9rem; background: var(--ui-surface-muted); color: var(--ui-text); margin-bottom: 8px; }
-      .psp-similar a, .psp-hub-links a { display: inline-block; margin: 0 8px 8px 0; padding: 8px 14px; background: var(--ui-surface); color: var(--ui-accent); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); text-decoration: none; font-size: .9rem; }
-      .psp-similar a:hover, .psp-hub-links a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .psp-card .psp-badge { display: inline-block; margin: 0 0 10px; padding: 3px 8px; border: 1px solid var(--ui-border); border-radius: 2px; font-family: var(--font-family-mono, monospace); font-weight: 700; font-size: 11px; line-height: 1.4; letter-spacing: .08em; text-transform: uppercase; background: var(--ui-accent-soft); color: var(--ui-accent); }
+      .psp-similar { margin: 28px 0 8px; }
+      .psp-similar a, .psp-hub-links a { display: inline-flex; align-items: center; min-height: 40px; box-sizing: border-box; margin: 0 8px 8px 0; padding: 0 14px; background: var(--ui-surface-muted); color: var(--ui-text); border: 1px solid var(--ui-border); border-radius: 2px; text-decoration: none; font-family: var(--font-family-mono, monospace); font-size: 12px; font-weight: 600; transition: color .15s ease, border-color .15s ease; }
+      .psp-similar a:hover, .psp-hub-links a:hover { border-color: var(--ui-accent); color: var(--ui-accent); }
       .psp-similar a:active, .psp-hub-links a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
-      .psp-similar a:focus-visible, .psp-hub-links a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .psp-similar a:focus-visible, .psp-hub-links a:focus-visible { outline: 2px solid transparent; outline-offset: 2px; box-shadow: var(--ui-focus-ring); }
       .psp-foot { color: var(--ui-text-secondary); font-size: .9rem; line-height: 1.55; }
       .psp-foot a { color: var(--ui-accent); }
-      @media (prefers-reduced-motion: reduce) { .psp-cta { transition: none; } .psp-cta:active, .psp-similar a:active, .psp-hub-links a:active { transform: none; } }
-      @media (max-width: 480px) { .psp-chart .psp-axis { font-size: 20px; } .psp-wrap { padding: 16px 14px 32px; } .psp-card { padding: 14px; } .psp-wrap h1 { font-size: 1.35rem; } }
+      .psp-page .landing-icon-button { text-decoration: none; }
+      .psp-page .app-footer a { display: inline-block; padding: 12px 6px; }
+      @media (max-width: 720px) {
+        .psp-stats { grid-auto-flow: row; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+        .psp-stats div:last-child:nth-child(odd) { grid-column: 1 / -1; }
+      }
+      @media (max-width: 768px) { .psp-crumbs a, .psp-crumbs li { min-height: 40px; } }
+      @media (prefers-reduced-motion: reduce) { .psp-cta, .psp-similar a, .psp-hub-links a { transition: none; } .psp-cta:active, .psp-similar a:active, .psp-hub-links a:active { transform: none; } }
+      @media (max-width: 480px) { .psp-chart .psp-axis { font-size: 20px; } .psp-wrap { padding: 16px 14px 32px; } .psp-card { padding: 16px 14px; } .psp-wrap h1 { font-size: 1.4rem; } .psp-cta { max-width: none; } }
     </style>`;
+}
+
+// --- shared chrome: the /for/*.html header + footer, localised ---------------
+const LEAF_MARK_SVG = '<svg class="landing-leaf-mark" viewBox="0 0 32 32" width="24" height="24" preserveAspectRatio="xMidYMid meet" fill="none" aria-hidden="true"><path d="M26.7 4.8C16.2 5.2 8.2 10.7 7.1 20.4c-.3 2.8.7 5.2 2.4 6.8 1.6-8.5 6.5-14.6 14.1-18.2-4.5 3.9-7.6 8.7-9 14.6 3.1-3.9 7-6.8 11.7-8.8.8-2.8.9-6 .4-10Z" fill="currentColor" /><path d="M8.8 27.2c3.2-5.1 7.2-8.9 12.2-11.4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" /></svg>';
+
+/** Landing-namespace copy (nav/theme/language labels already shipped in EN + KO). */
+function chromeCopy(language) {
+  const own = (translations[language] || {}).landing || {};
+  const en = translations.en.landing || {};
+  return k => own[k] != null ? own[k] : (en[k] != null ? en[k] : k);
+}
+
+/** Applies a saved theme before first paint (same `theme` localStorage key as the app). */
+const THEME_BOOT_SCRIPT = `    <script>try{var th=localStorage.getItem('theme');if(th)document.documentElement.setAttribute('data-theme',th)}catch(e){}</script>`;
+
+/** Theme toggle + mobile menu. Same behaviour as /for/*.html; the language
+ *  control is a plain link to the other-language twin page, so no JS for it. */
+function renderChromeScript(lc) {
+  const labels = JSON.stringify({
+    toLight: lc('themeLight'), toDark: lc('themeDark'), open: lc('navMenu'), close: lc('navClose')
+  }).replace(/</g, '\\u003c');
+  return `  <script>
+    (function () {
+      var L = ${labels};
+      var root = document.documentElement;
+      function isDark() {
+        var a = root.getAttribute('data-theme');
+        return a ? a === 'dark' : !!(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+      }
+      var themeBtn = document.getElementById('theme-toggle-btn');
+      function paint() {
+        if (!themeBtn) return;
+        var dark = isDark();
+        themeBtn.textContent = dark ? '\\u263C' : '\\u263E';
+        themeBtn.setAttribute('aria-label', dark ? L.toLight : L.toDark);
+      }
+      if (themeBtn) {
+        paint();
+        themeBtn.addEventListener('click', function () {
+          var next = isDark() ? 'light' : 'dark';
+          root.setAttribute('data-theme', next);
+          try { localStorage.setItem('theme', next); } catch (e) {}
+          paint();
+        });
+      }
+      var menuBtn = document.getElementById('menu-toggle-btn');
+      var mobileNav = document.getElementById('mobile-nav');
+      if (menuBtn && mobileNav) {
+        menuBtn.addEventListener('click', function () {
+          var open = mobileNav.classList.toggle('is-open');
+          menuBtn.textContent = open ? '\\u00D7' : '\\u2630';
+          menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+          menuBtn.setAttribute('aria-label', open ? L.close : L.open);
+        });
+      }
+    })();
+  </script>`;
+}
+
+/** Header + mobile nav. `otherLangUrl` is the KO/EN twin of the current page. */
+function renderSiteHeader(lc, language, otherLangUrl) {
+  const links = [
+    ['/?app=1', lc('navSearch')],
+    ['/plan.html', lc('navPlanner')],
+    ['/agents', lc('navAgents')]
+  ];
+  const a = (l) => `<a href="${l[0]}">${escapeHtml(l[1])}</a>`;
+  return `    <header class="landing-header">
+      <a class="landing-brand" href="${language === 'ko' ? '/?lang=ko' : '/'}">
+        <span class="landing-brand-mark">${LEAF_MARK_SVG}</span>
+        <span>DeFi Garden</span>
+      </a>
+      <nav class="landing-nav" aria-label="${escapeHtml(lc('navPrimary'))}">
+        ${links.map(a).join('\n        ')}
+      </nav>
+      <div class="landing-header-actions">
+        <a class="landing-icon-button" href="${otherLangUrl}" hreflang="${language === 'ko' ? 'en' : 'ko'}" lang="${language === 'ko' ? 'en' : 'ko'}" aria-label="${escapeHtml(lc(language === 'ko' ? 'languageEnglish' : 'languageKorean'))}">${language === 'ko' ? 'EN' : 'KO'}</a>
+        <button type="button" class="landing-icon-button landing-theme-button" id="theme-toggle-btn" aria-label="${escapeHtml(lc('themeLight'))}">☼</button>
+        <button type="button" class="landing-menu-button" id="menu-toggle-btn" aria-expanded="false" aria-controls="mobile-nav" aria-label="${escapeHtml(lc('navMenu'))}">☰</button>
+      </div>
+    </header>
+    <nav class="landing-mobile-nav" id="mobile-nav" aria-label="${escapeHtml(lc('navMobile'))}">
+      ${links.map(a).join('\n      ')}
+    </nav>`;
+}
+
+/** The shared static footer (same copy + hub links as the landing and /for pages). */
+function renderSiteFooter(t, language) {
+  const base = language === 'ko' ? '/ko' : '';
+  return `    <footer class="app-footer">
+      <p>${escapeHtml(t('poweredBy'))} <a href="https://api-docs.defillama.com/" target="_blank" rel="noopener noreferrer">${escapeHtml(t('defillamaApi'))}</a>. ${escapeHtml(t('footerSignOff'))}</p>
+      <p class="app-footer-hub-links">
+        <a href="${base}/tokens">${escapeHtml(t('browseTokens'))}</a> · <a href="${base}/chains">${escapeHtml(t('browseChains'))}</a> · <a href="${base}/pools">${escapeHtml(t('pspHubLink'))}</a> · <a href="/agents">${escapeHtml(t('aiAgents'))}</a>
+      </p>
+    </footer>`;
 }
 
 // --- page --------------------------------------------------------------------
@@ -313,6 +442,7 @@ function renderStyle() {
 function renderPoolScorePage(pool, ctx, lang) {
   const language = lang === 'ko' ? 'ko' : 'en';
   const t = createTranslationFunction(language);
+  const lc = chromeCopy(language);
   const esc = s => escapeHtml(s);
   const name = displayName(pool.project);
   const sym = pool.symbol || '—';
@@ -435,10 +565,14 @@ ${renderHreflangLinks(enUrl, koUrl)}    <script type="application/ld+json">${bre
     <meta name="robots" content="index,follow">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
 ${renderFontPreloadLinks()}    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/landing-styles.css">
+${THEME_BOOT_SCRIPT}
 ${renderStyle()}
 ${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/pools/${slug}`, { page_type: 'pool_score', pool: pool.pool, chain, project: pool.project, lang: language })}
 </head>
 <body>
+  <div class="landing-app psp-page">
+${renderSiteHeader(lc, language, (language === 'ko' ? enUrl : koUrl).replace(SITE_URL, ''))}
   <main class="psp-wrap">
     <nav class="psp-crumbs" aria-label="${esc(t('tcpBreadcrumbHome'))}"><ol>${breadcrumbHtml}</ol></nav>
     <h1>${esc(h1)}</h1>
@@ -479,9 +613,9 @@ ${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/pools/${slug}`, { 
       <h2>${esc(t('pspChartHeading'))}</h2>
       ${renderApyChartSvg(pool, ctx.series || [], t, chartId)}
       <ul class="psp-legend">
-        <li>${esc(t('pspLegendHistory'))}</li>
-        <li>${esc(t('pspLegendMedian'))}</li>
-        <li>${esc(t('pspLegendBand'))}</li>
+        <li class="psp-key-line">${esc(t('pspLegendHistory'))}</li>
+        <li class="psp-key-median">${esc(t('pspLegendMedian'))}</li>
+        <li class="psp-key-band">${esc(t('pspLegendBand'))}</li>
       </ul>
       <p class="psp-note">${esc(t('pspChartCaption'))}</p>
     </section>
@@ -515,8 +649,10 @@ ${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/pools/${slug}`, { 
     </nav>
 
     <p class="psp-foot">${esc(t('pspNotAdvice'))}</p>
-${accuracy}    <p class="psp-foot"><a href="${SITE_URL}/">DeFi Garden 🌱</a> — ${esc(t('tcpFooterTagline'))}</p>
-  </main>
+${accuracy}  </main>
+${renderSiteFooter(t, language)}
+  </div>
+${renderChromeScript(lc)}
 </body>
 </html>
 `;
@@ -526,6 +662,7 @@ ${accuracy}    <p class="psp-foot"><a href="${SITE_URL}/">DeFi Garden 🌱</a> �
 function renderPoolsHubPage(selected, ctx, lang) {
   const language = lang === 'ko' ? 'ko' : 'en';
   const t = createTranslationFunction(language);
+  const lc = chromeCopy(language);
   const esc = escapeHtml;
   const enUrl = `${SITE_URL}/pools`, koUrl = `${SITE_URL}/ko/pools`;
   const pageUrl = language === 'ko' ? koUrl : enUrl;
@@ -567,18 +704,25 @@ ${renderHreflangLinks(enUrl, koUrl)}    <script type="application/ld+json">${bre
     <meta name="robots" content="index,follow">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
 ${renderFontPreloadLinks()}    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/landing-styles.css">
+${THEME_BOOT_SCRIPT}
 ${renderStyle()}
 ${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/pools`, { page_type: 'pool_hub', pool_count: selected.length, lang: language })}
 </head>
 <body>
+  <div class="landing-app psp-page">
+${renderSiteHeader(lc, language, (language === 'ko' ? enUrl : koUrl).replace(SITE_URL, ''))}
   <main class="psp-wrap">
+    <nav class="psp-crumbs" aria-label="${esc(t('tcpBreadcrumbHome'))}"><ol><li><a href="${SITE_URL}/">${esc(t('tcpBreadcrumbHome'))}</a></li><li aria-current="page">${esc(t('pspBreadcrumbPools'))}</li></ol></nav>
     <h1>${esc(t('pspHubHeading'))}</h1>
     <p class="psp-note">${esc(t('pspHubSub', selected.length, formatUsd(W1_MIN_TVL_USD)))}</p>
     <p class="psp-note">${esc(t('pspHubIntro'))}</p>
 ${sections}
     <p class="psp-foot">${esc(t('pspNotAdvice'))}</p>
-    <p class="psp-foot"><a href="${SITE_URL}/">DeFi Garden 🌱</a> — ${esc(t('tcpFooterTagline'))}</p>
   </main>
+${renderSiteFooter(t, language)}
+  </div>
+${renderChromeScript(lc)}
 </body>
 </html>
 `;
