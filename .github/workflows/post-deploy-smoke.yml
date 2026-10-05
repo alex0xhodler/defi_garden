@@ -21,7 +21,23 @@ jobs:
         with:
           node-version: 20
 
-      - name: Run MCP smoke test
+      # Production: Vercel reports the per-deployment *.vercel.app URL, which sits
+      # behind Vercel Standard Protection (401). Test the public domain instead,
+      # with retries while the production alias moves to the new build.
+      - name: Run MCP smoke test (Production, public domain)
+        if: github.event.deployment.environment == 'Production'
         env:
-          SMOKE_ALLOW_PROTECTED: ${{ github.event.deployment.environment != 'Production' && '1' || '0' }}
+          SMOKE_ALLOW_PROTECTED: '0'
+        run: |
+          for attempt in 1 2 3; do
+            sleep 30
+            if node test_mcp_post_deploy_smoke.js "https://www.defi.garden"; then exit 0; fi
+            echo "attempt $attempt failed; retrying"
+          done
+          exit 1
+
+      - name: Run MCP smoke test (Preview)
+        if: github.event.deployment.environment != 'Production'
+        env:
+          SMOKE_ALLOW_PROTECTED: '1'
         run: node test_mcp_post_deploy_smoke.js "${{ github.event.deployment_status.environment_url || github.event.deployment_status.target_url }}"
