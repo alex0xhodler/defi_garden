@@ -28,10 +28,10 @@ function testMcpPage() {
   assert.ok(content.includes('Claude Desktop'), 'Claude config tab required');
   assert.ok(content.includes('Hermes Agent'), 'Hermes config tab required');
   assert.ok(content.includes('Cursor'), 'Cursor config tab required');
-  assert.ok(content.includes('get_base_yields'), 'get_base_yields tool item required');
-  assert.ok(content.includes('find_lending_rate'), 'find_lending_rate tool item required');
-  assert.ok(content.includes('get_looping_params'), 'get_looping_params tool item required');
-  assert.ok(content.includes('get_trust_rails'), 'get_trust_rails tool item required');
+  assert.ok(content.includes('find_pools'), 'find_pools tool item required');
+  assert.ok(content.includes('get_pool'), 'get_pool tool item required');
+  assert.ok(content.includes('forever_number'), 'forever_number tool item required');
+  assert.ok(content.includes('explain_rails'), 'explain_rails tool item required');
   assert.ok(content.includes('testTool') || content.includes('runTool'), 'Interactive execution function required');
 
   console.log('  ✓ mcp.html: SEO, AEO/GEO JSON-LD schemas, and interactive tool components validated');

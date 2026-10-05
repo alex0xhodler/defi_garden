@@ -175,6 +175,26 @@ function routeMode(search) {
     assert.strictEqual(routeMode('?token=USDC'), 'analytics');
   });
 
+  await test('canonical MCP tools (edge/mcp-core.js) contain no hard-coded rates or fabricated baselines', () => {
+    const mcpCore = require('./edge/mcp-core.js');
+    const snap = require('./data/pools-snapshot.json');
+    const snapPoolMap = new Map(snap.pools.map(p => [p.pool, p]));
+
+    const findRes = mcpCore.handleMcpMessage({
+      message: { jsonrpc: '2.0', id: 'probe-1', method: 'tools/call', params: { name: 'find_pools', arguments: { token: 'USDC', limit: 10 } } },
+      pools: snap.pools
+    });
+    const findBody = JSON.parse(findRes.body.result.content[0].text);
+    assert.ok(findBody.pools.length > 0, 'find_pools must return railed snapshot pools');
+
+    for (const p of findBody.pools) {
+      const origin = snapPoolMap.get(p.pool);
+      assert.ok(origin, `Pool ${p.pool} must exist in snapshot`);
+      assert.strictEqual(p.totalApy, (Number(origin.apyBase) || 0) + (Number(origin.apyReward) || 0));
+      assert.strictEqual(p.tvlUsd, origin.tvlUsd);
+    }
+  });
+
   console.log(`\n${passed} assertions passed; ${failed} failed`);
   if (failed) process.exit(1);
 })().catch((err) => {
