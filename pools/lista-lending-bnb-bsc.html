@@ -25,57 +25,78 @@
     <link rel="preload" href="/fonts/PublicSans-latin-var.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/fonts/Besley-latin-var.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/landing-styles.css">
+    <script>try{var th=localStorage.getItem('theme');if(th)document.documentElement.setAttribute('data-theme',th)}catch(e){}</script>
     <style>
-      .psp-wrap { max-width: 860px; margin: 0 auto; padding: 24px 20px 40px; }
-      .psp-wrap h1 { font-family: var(--font-family-display); font-size: 1.6rem; line-height: 1.25; margin: 8px 0 8px; color: var(--ui-text); overflow-wrap: anywhere; }
-      .psp-wrap h2 { font-size: 1.1rem; margin: 0 0 10px; color: var(--ui-text); }
+      .psp-wrap { width: 100%; box-sizing: border-box; max-width: 860px; margin: 0 auto; padding: 24px 20px 40px; flex: 1 0 auto; }
+      .psp-wrap h1 { font-family: var(--font-family-display); font-size: 1.7rem; font-weight: 600; line-height: 1.2; letter-spacing: -0.01em; margin: 8px 0 8px; color: var(--ui-text); overflow-wrap: anywhere; }
+      .psp-wrap h2 { font-family: var(--font-family-mono, monospace); font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; line-height: 1.4; margin: 0 0 12px; padding-bottom: 10px; border-bottom: 1px solid var(--ui-border); color: var(--ui-text-secondary); }
       .psp-crumbs { font-size: .85rem; color: var(--ui-text-secondary); }
-      .psp-crumbs ol { list-style: none; display: flex; flex-wrap: wrap; gap: 4px 8px; margin: 0; padding: 0; }
+      .psp-crumbs ol { list-style: none; display: flex; flex-wrap: wrap; gap: 0 8px; margin: 0; padding: 0; }
+      .psp-crumbs li { display: inline-flex; align-items: center; }
       .psp-crumbs li + li::before { content: "\203A"; margin-right: 8px; color: var(--ui-text-muted); }
       .psp-crumbs a { color: var(--ui-accent); text-decoration: none; }
       .psp-crumbs a:hover { text-decoration: underline; }
-      .psp-card { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-lg); box-shadow: none; padding: 18px; margin: 18px 0; }
-      .psp-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 0; }
-      .psp-stats div { background: var(--ui-surface-muted); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-md); padding: 10px 12px; }
-      .psp-stats dt { font-size: .8rem; color: var(--ui-text-secondary); margin: 0 0 2px; }
-      .psp-stats dd { margin: 0; font-size: 1.15rem; font-weight: 600; color: var(--ui-text); font-variant-numeric: tabular-nums; }
-      .psp-cta { display: inline-block; margin: 6px 0 4px; padding: 14px 24px; background: var(--ui-accent); color: var(--ui-on-accent); border: 1px solid transparent; border-radius: var(--ui-radius-md); box-shadow: none; text-decoration: none; font-weight: 600; transition: background .15s ease, transform .1s ease; }
-      .psp-cta:hover { background: var(--ui-accent-hover); }
-      .psp-cta:active { background: var(--ui-accent-active); transform: translateY(1px); }
-      .psp-cta:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
-      .psp-secondary { display: block; margin: 4px 0 0; font-size: .9rem; color: var(--ui-accent); text-decoration: none; }
+      .psp-crumbs a:focus-visible, .psp-secondary:focus-visible, .psp-foot a:focus-visible, .psp-page .app-footer a:focus-visible { outline: 2px solid transparent; outline-offset: 2px; box-shadow: var(--ui-focus-ring); border-radius: 2px; }
+      .psp-card { position: relative; background: var(--ui-surface); border: 1px solid var(--ui-border-strong); border-radius: 2px; box-shadow: none; padding: 20px; margin: 20px 0; }
+      .psp-card::before { content: ""; position: absolute; inset: 4px; border: 1px solid var(--ui-border); border-radius: 1px; pointer-events: none; }
+      .psp-stats { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(0, 1fr); gap: 10px; margin: 0; }
+      .psp-stats div { background: var(--ui-surface-muted); border: 1px solid var(--ui-border); border-radius: 2px; padding: 12px; min-width: 0; }
+      .psp-stats dt { font-family: var(--font-family-mono, monospace); font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; line-height: 1.35; color: var(--ui-text-secondary); margin: 0 0 6px; }
+      .psp-stats dd { margin: 0; font-family: var(--font-family-mono, monospace); font-size: 1.1rem; font-weight: 700; color: var(--ui-text); font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+      .psp-card .psp-stats + .psp-note { margin: 16px 0 20px; }
+      .psp-cta { position: relative; display: flex; align-items: center; justify-content: center; box-sizing: border-box; width: 100%; max-width: 420px; min-height: 46px; margin: 0 0 4px; padding: 0 20px; background: var(--ui-accent); color: var(--ui-on-accent); border: 1px solid var(--ui-accent-active); border-radius: 2px; box-shadow: none; text-decoration: none; font-weight: 700; font-size: .92rem; letter-spacing: .015em; transition: background .15s ease, border-color .15s ease; }
+      .psp-cta::after { content: ""; position: absolute; inset: 4px; border: 1px solid var(--ui-on-accent); border-radius: 1px; opacity: .3; pointer-events: none; }
+      .psp-cta:hover { background: var(--ui-accent-hover); color: var(--ui-on-accent); }
+      .psp-cta:active { background: var(--ui-accent-active); color: var(--ui-on-accent); transform: translateY(1px); }
+      .psp-cta:focus-visible { outline: 2px solid transparent; outline-offset: 2px; box-shadow: var(--ui-focus-ring); }
+      .psp-secondary { display: inline-flex; align-items: center; min-height: 40px; margin: 0; padding: 0 2px; font-size: .9rem; color: var(--ui-accent); text-decoration: none; }
       .psp-secondary:hover { text-decoration: underline; }
-      .psp-secondary:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); border-radius: var(--ui-radius-sm); }
-      .psp-score { font-size: 1.5rem; font-weight: 700; color: var(--ui-text); font-variant-numeric: tabular-nums; margin: 0 0 12px; }
-      .psp-pillars { list-style: none; margin: 0 0 12px; padding: 0; display: grid; gap: 12px; }
+      .psp-score { font-family: var(--font-family-mono, monospace); font-size: 1.5rem; font-weight: 700; color: var(--ui-text); font-variant-numeric: tabular-nums; margin: 0 0 14px; }
+      .psp-pillars { list-style: none; margin: 0 0 14px; padding: 0; display: grid; gap: 14px; }
       .psp-pillar-head { display: flex; justify-content: space-between; gap: 12px; font-size: .92rem; color: var(--ui-text); }
-      .psp-pillar-head span:last-child { font-variant-numeric: tabular-nums; color: var(--ui-text-secondary); }
-      .psp-bar { height: 8px; margin-top: 6px; background: var(--ui-surface-sunken); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); overflow: hidden; }
+      .psp-pillar-head span:last-child { font-family: var(--font-family-mono, monospace); font-size: .85rem; font-variant-numeric: tabular-nums; color: var(--ui-text-secondary); }
+      .psp-bar { height: 8px; margin-top: 6px; background: var(--ui-surface-sunken); border: 1px solid var(--ui-border); border-radius: 2px; overflow: hidden; }
       .psp-bar > span { display: block; height: 100%; background: var(--ui-accent); }
       .psp-forecast { width: 100%; border-collapse: collapse; margin: 8px 0; }
-      .psp-forecast th, .psp-forecast td { text-align: left; padding: 8px 6px; border-bottom: 1px solid var(--ui-border); color: var(--ui-text); }
-      .psp-forecast th { color: var(--ui-text-secondary); font-weight: 600; }
-      .psp-forecast td:last-child, .psp-forecast th:last-child { text-align: right; font-variant-numeric: tabular-nums; }
+      .psp-forecast th, .psp-forecast td { text-align: left; padding: 10px 6px; border-bottom: 1px solid var(--ui-border); color: var(--ui-text); }
+      .psp-forecast th { font-family: var(--font-family-mono, monospace); font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--ui-text-secondary); font-weight: 700; }
+      .psp-forecast td:last-child, .psp-forecast th:last-child { text-align: right; }
+      .psp-forecast td { font-family: var(--font-family-mono, monospace); font-weight: 700; font-variant-numeric: tabular-nums; }
       .psp-chart { width: 100%; height: auto; display: block; color: var(--ui-text-secondary); }
       .psp-chart .psp-grid { stroke: var(--ui-border); stroke-width: 1; }
       .psp-chart .psp-today { stroke: var(--ui-border-strong); stroke-width: 1; stroke-dasharray: 3 3; }
       .psp-chart .psp-line { fill: none; stroke: var(--ui-accent); stroke-width: 2; stroke-linejoin: round; }
       .psp-chart .psp-median { fill: none; stroke: currentColor; stroke-width: 1.5; stroke-dasharray: 5 4; }
       .psp-chart .psp-band { fill: var(--ui-accent-soft); stroke: var(--ui-accent-border); stroke-width: 1; }
-      .psp-chart .psp-axis { fill: var(--ui-text-secondary); font-size: 11px; }
-      .psp-legend { display: flex; flex-wrap: wrap; gap: 6px 16px; list-style: none; margin: 8px 0 0; padding: 0; font-size: .85rem; color: var(--ui-text-secondary); }
+      .psp-chart .psp-axis { fill: var(--ui-text-secondary); font-family: var(--font-family-mono, monospace); font-size: 11px; }
+      .psp-legend { display: flex; flex-wrap: wrap; gap: 8px 18px; list-style: none; margin: 12px 0 0; padding: 0; font-size: .85rem; color: var(--ui-text-secondary); }
+      .psp-legend li { display: inline-flex; align-items: center; gap: 8px; }
+      .psp-legend li::before { content: ""; display: inline-block; width: 18px; flex: 0 0 auto; box-sizing: border-box; }
+      .psp-key-line::before { height: 0; border-top: 2px solid var(--ui-accent); }
+      .psp-key-median::before { height: 0; border-top: 2px dashed var(--ui-text-secondary); }
+      .psp-key-band::before { height: 10px; background: var(--ui-accent-soft); border: 1px solid var(--ui-accent-border); border-radius: 1px; }
       .psp-note { color: var(--ui-text-secondary); font-size: .9rem; line-height: 1.55; margin: 8px 0 0; }
       .psp-card p { color: var(--ui-text); line-height: 1.6; margin: 0 0 8px; }
+      .psp-card p.psp-note { color: var(--ui-text-secondary); }
       .psp-card ul.psp-list { margin: 0; padding-left: 20px; color: var(--ui-text); line-height: 1.6; }
-      .psp-badge { display: inline-block; padding: 4px 12px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); font-weight: 600; font-size: .9rem; background: var(--ui-surface-muted); color: var(--ui-text); margin-bottom: 8px; }
-      .psp-similar a, .psp-hub-links a { display: inline-block; margin: 0 8px 8px 0; padding: 8px 14px; background: var(--ui-surface); color: var(--ui-accent); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); text-decoration: none; font-size: .9rem; }
-      .psp-similar a:hover, .psp-hub-links a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .psp-card .psp-badge { display: inline-block; margin: 0 0 10px; padding: 3px 8px; border: 1px solid var(--ui-border); border-radius: 2px; font-family: var(--font-family-mono, monospace); font-weight: 700; font-size: 11px; line-height: 1.4; letter-spacing: .08em; text-transform: uppercase; background: var(--ui-accent-soft); color: var(--ui-accent); }
+      .psp-similar { margin: 28px 0 8px; }
+      .psp-similar a, .psp-hub-links a { display: inline-flex; align-items: center; min-height: 40px; box-sizing: border-box; margin: 0 8px 8px 0; padding: 0 14px; background: var(--ui-surface-muted); color: var(--ui-text); border: 1px solid var(--ui-border); border-radius: 2px; text-decoration: none; font-family: var(--font-family-mono, monospace); font-size: 12px; font-weight: 600; transition: color .15s ease, border-color .15s ease; }
+      .psp-similar a:hover, .psp-hub-links a:hover { border-color: var(--ui-accent); color: var(--ui-accent); }
       .psp-similar a:active, .psp-hub-links a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
-      .psp-similar a:focus-visible, .psp-hub-links a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .psp-similar a:focus-visible, .psp-hub-links a:focus-visible { outline: 2px solid transparent; outline-offset: 2px; box-shadow: var(--ui-focus-ring); }
       .psp-foot { color: var(--ui-text-secondary); font-size: .9rem; line-height: 1.55; }
       .psp-foot a { color: var(--ui-accent); }
-      @media (prefers-reduced-motion: reduce) { .psp-cta { transition: none; } .psp-cta:active, .psp-similar a:active, .psp-hub-links a:active { transform: none; } }
-      @media (max-width: 480px) { .psp-chart .psp-axis { font-size: 20px; } .psp-wrap { padding: 16px 14px 32px; } .psp-card { padding: 14px; } .psp-wrap h1 { font-size: 1.35rem; } }
+      .psp-page .landing-icon-button { text-decoration: none; }
+      .psp-page .app-footer a { display: inline-block; padding: 12px 6px; }
+      @media (max-width: 720px) {
+        .psp-stats { grid-auto-flow: row; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+        .psp-stats div:last-child:nth-child(odd) { grid-column: 1 / -1; }
+      }
+      @media (max-width: 768px) { .psp-crumbs a, .psp-crumbs li { min-height: 40px; } }
+      @media (prefers-reduced-motion: reduce) { .psp-cta, .psp-similar a, .psp-hub-links a { transition: none; } .psp-cta:active, .psp-similar a:active, .psp-hub-links a:active { transform: none; } }
+      @media (max-width: 480px) { .psp-chart .psp-axis { font-size: 20px; } .psp-wrap { padding: 16px 14px 32px; } .psp-card { padding: 16px 14px; } .psp-wrap h1 { font-size: 1.4rem; } .psp-cta { max-width: none; } }
     </style>
     <script type="text/javascript">
         window.MIXPANEL_CUSTOM_LIB_URL = "https://mp.defi.garden/lib.min.js";
@@ -92,6 +113,28 @@
     </script>
 </head>
 <body>
+  <div class="landing-app psp-page">
+    <header class="landing-header">
+      <a class="landing-brand" href="/">
+        <span class="landing-brand-mark"><svg class="landing-leaf-mark" viewBox="0 0 32 32" width="24" height="24" preserveAspectRatio="xMidYMid meet" fill="none" aria-hidden="true"><path d="M26.7 4.8C16.2 5.2 8.2 10.7 7.1 20.4c-.3 2.8.7 5.2 2.4 6.8 1.6-8.5 6.5-14.6 14.1-18.2-4.5 3.9-7.6 8.7-9 14.6 3.1-3.9 7-6.8 11.7-8.8.8-2.8.9-6 .4-10Z" fill="currentColor" /><path d="M8.8 27.2c3.2-5.1 7.2-8.9 12.2-11.4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" /></svg></span>
+        <span>DeFi Garden</span>
+      </a>
+      <nav class="landing-nav" aria-label="Primary navigation">
+        <a href="/?app=1">Search yields</a>
+        <a href="/plan.html">Savings Planner</a>
+        <a href="/agents">AI Agents &amp; MCP</a>
+      </nav>
+      <div class="landing-header-actions">
+        <a class="landing-icon-button" href="/ko/pools/lista-lending-bnb-bsc" hreflang="ko" lang="ko" aria-label="Switch to Korean">KO</a>
+        <button type="button" class="landing-icon-button landing-theme-button" id="theme-toggle-btn" aria-label="Switch to light mode">☼</button>
+        <button type="button" class="landing-menu-button" id="menu-toggle-btn" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">☰</button>
+      </div>
+    </header>
+    <nav class="landing-mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+      <a href="/?app=1">Search yields</a>
+      <a href="/plan.html">Savings Planner</a>
+      <a href="/agents">AI Agents &amp; MCP</a>
+    </nav>
   <main class="psp-wrap">
     <nav class="psp-crumbs" aria-label="Home"><ol><li><a href="https://www.defi.garden/">Home</a></li><li><a href="https://www.defi.garden/chains">Chains</a></li><li><a href="https://www.defi.garden/chains/bsc">BSC</a></li><li aria-current="page">Lista Lending BNB</li></ol></nav>
     <h1>Lista Lending BNB on BSC: APY, DeFi Score &amp; 14-day forecast</h1>
@@ -161,9 +204,9 @@
         <text class="psp-axis" x="624" y="266" text-anchor="end">+14d</text>
       </svg>
       <ul class="psp-legend">
-        <li>Observed APY</li>
-        <li>Forecast median</li>
-        <li>Forecast p10 to p90</li>
+        <li class="psp-key-line">Observed APY</li>
+        <li class="psp-key-median">Forecast median</li>
+        <li class="psp-key-band">Forecast p10 to p90</li>
       </ul>
       <p class="psp-note">Solid line: daily APY from DefiLlama. Shaded area: the model&#39;s p10 to p90 range, drawn as a straight fan from today&#39;s rate to the end of the forecast horizon (not daily quantiles). Dashed line: the model&#39;s median path.</p>
     </section>
@@ -205,7 +248,49 @@
     </nav>
 
     <p class="psp-foot">Education, not financial advice. DeFi carries smart-contract, market and regulatory risk, and you can lose money.</p>
-    <p class="psp-foot"><a href="https://www.defi.garden/">DeFi Garden 🌱</a> — plan your DeFi savings by goal.</p>
   </main>
+    <footer class="app-footer">
+      <p>Powered by <a href="https://api-docs.defillama.com/" target="_blank" rel="noopener noreferrer">DefiLlama API</a>. Education, not advice.</p>
+      <p class="app-footer-hub-links">
+        <a href="/tokens">Browse tokens</a> · <a href="/chains">Browse chains</a> · <a href="/pools">Browse scored pools →</a> · <a href="/agents">AI Agents &amp; MCP</a>
+      </p>
+    </footer>
+  </div>
+  <script>
+    (function () {
+      var L = {"toLight":"Switch to light mode","toDark":"Switch to dark mode","open":"Open menu","close":"Close menu"};
+      var root = document.documentElement;
+      function isDark() {
+        var a = root.getAttribute('data-theme');
+        return a ? a === 'dark' : !!(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+      }
+      var themeBtn = document.getElementById('theme-toggle-btn');
+      function paint() {
+        if (!themeBtn) return;
+        var dark = isDark();
+        themeBtn.textContent = dark ? '\u263C' : '\u263E';
+        themeBtn.setAttribute('aria-label', dark ? L.toLight : L.toDark);
+      }
+      if (themeBtn) {
+        paint();
+        themeBtn.addEventListener('click', function () {
+          var next = isDark() ? 'light' : 'dark';
+          root.setAttribute('data-theme', next);
+          try { localStorage.setItem('theme', next); } catch (e) {}
+          paint();
+        });
+      }
+      var menuBtn = document.getElementById('menu-toggle-btn');
+      var mobileNav = document.getElementById('mobile-nav');
+      if (menuBtn && mobileNav) {
+        menuBtn.addEventListener('click', function () {
+          var open = mobileNav.classList.toggle('is-open');
+          menuBtn.textContent = open ? '\u00D7' : '\u2630';
+          menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+          menuBtn.setAttribute('aria-label', open ? L.close : L.open);
+        });
+      }
+    })();
+  </script>
 </body>
 </html>
