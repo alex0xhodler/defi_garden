@@ -265,7 +265,7 @@ const emptyBranch = buildPlannerSection(META, null, { full: false }).join('\n');
 const emptyBranchFull = buildPlannerSection(META, null, { full: true }).join('\n');
 
 test('buildPlannerSection(meta, null): no digit-bearing rate line', () => {
-  assert.ok(!/Live blended rate/i.test(emptyBranch), 'empty branch must omit the "Live blended rate" line entirely');
+  assert.ok(!/Median APY across the/i.test(emptyBranch), 'empty branch must omit the "Median APY across the N pools" line entirely');
   assert.ok(!/own rate is usually lower/i.test(emptyBranch), 'empty branch must omit the rate-divergence caveat line');
 });
 

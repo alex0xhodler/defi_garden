@@ -583,8 +583,8 @@ function buildPlannerSection(meta, rate, opts = {}) {
   if (rate) {
     const apyStr = rate.medianApy.toFixed(1);
     lines.push(
-      `- Live blended rate: ${apyStr}% — median APY across the ${rate.eligibleCount} pools clearing our ` +
-      `published rails (TVL ≥ ${formatTvlFloor(MIN_TVL_USD)}, APY ≤ ${APY_SANITY_LIMIT}%) on the date above.`
+      `- Median APY across the ${rate.eligibleCount} pools clearing our published rails ` +
+      `(TVL ≥ ${formatTvlFloor(MIN_TVL_USD)}, APY ≤ ${APY_SANITY_LIMIT}%): ${apyStr}% on the date above.`
     );
     lines.push(
       '- A plan\'s own rate is computed over a different set: the planner picks a small, ' +
@@ -609,11 +609,12 @@ function buildAgentEndpointsSection(meta) {
   // LH8 (seo-turnaround): Underwriting & Predictive Scoring Section
   lines.push('## Predictive Underwriting & DeFi Score');
   lines.push(
-    'TL;DR: Quantitative risk scoring (DeFi Score 0-100) and 14-day forward yield forecasts ' +
-    'for 7,400+ liquidity venues across 30+ chains, updated daily.'
+    'TL;DR: A yield-quality score (DeFi Score 0-100: stability, fee sustainability, depositor stickiness, exit liquidity) ' +
+    'and an experimental 14-day forward yield forecast for 7,400+ liquidity venues across 30+ chains, updated daily. ' +
+    'The score is not a smart-contract or exploit safety audit.'
   );
   lines.push('- Methodology: 4 objective pillars — Yield Stability (35%), Fee Sustainability (25%), Capital Stickiness (25%), and Liquidity Depth (15%).');
-  lines.push('- 14-day forecast bands: probabilistic p10/p50/p90 yield bands identifying yield decay before capital is deployed.');
+  lines.push('- Experimental 14-day forecast bands: probabilistic p10/p50/p90 yield bands; not yet shown to be more accurate than assuming today\'s rate holds.');
   lines.push('- Verified rails: pools below $100K TVL or with total APY > 1000% are strictly disqualified.');
   lines.push('');
 
