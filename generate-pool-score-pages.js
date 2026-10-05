@@ -258,84 +258,76 @@ function poolsBase(lang) { return `${SITE_URL}/${lang === 'ko' ? 'ko/pools' : 'p
 
 // --- CSS (tokens only) -------------------------------------------------------
 /**
- * 247-world "certificate" look, mirroring the live surfaces: 2px corners, a
- * hairline frame with an inner keyline (.decision-terminal-card), mono
- * uppercase panel labels (.dt-panel-label), mono figures (.dt-metric-val),
- * chips/tags as .dt-preset-btn/.dt-badge-tag, and the primary CTA as
- * .landing-garden-link. The site header/footer come from landing-styles.css
- * (.landing-header/.app-footer), exactly like /for/*.html. Tokens only.
+ * Layout + data-viz only. Every visual component is REUSED from the product:
+ * the card/panels/tiles/chips/badge are the Decision Terminal classes from
+ * pool-detail-styles.min.css (.decision-terminal-card, .dt-grid, .dt-panel,
+ * .dt-panel-label, .dt-metric, .dt-badge-tag, .dt-preset-btn), scoped by the
+ * .pool-detail-view wrapper that owns the --cert-* tokens; the primary CTA is
+ * the canonical .btn.btn--primary and the quiet link is .cta-echo-link.
+ * The site header/footer come from landing-styles.css (/for/*.html pattern).
+ * Nothing here sets a radius, border, background or label typography for a
+ * shared component.
  */
 function renderStyle() {
   return `    <style>
-      .psp-wrap { width: 100%; box-sizing: border-box; max-width: 860px; margin: 0 auto; padding: 24px 20px 40px; flex: 1 0 auto; }
-      .psp-wrap h1 { font-family: var(--font-family-display); font-size: 1.7rem; font-weight: 600; line-height: 1.2; letter-spacing: -0.01em; margin: 8px 0 8px; color: var(--ui-text); overflow-wrap: anywhere; }
-      .psp-wrap h2 { font-family: var(--font-family-mono, monospace); font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; line-height: 1.4; margin: 0 0 12px; padding-bottom: 10px; border-bottom: 1px solid var(--ui-border); color: var(--ui-text-secondary); }
-      .psp-crumbs { font-size: .85rem; color: var(--ui-text-secondary); }
+      .psp-wrap { width: 100%; box-sizing: border-box; max-width: 860px; margin: 0 auto; padding: 24px 20px 40px; flex: 1 0 auto; color: var(--cert-ink); font-family: var(--cert-sans); font-size: 15px; line-height: 1.5; }
+      .psp-wrap h1 { font-family: var(--font-family-display); font-size: 1.7rem; font-weight: 600; line-height: 1.2; letter-spacing: -0.01em; margin: 8px 0 16px; color: var(--cert-ink); overflow-wrap: anywhere; }
+      .psp-crumbs { font-size: .85rem; color: var(--cert-ink-2); }
       .psp-crumbs ol { list-style: none; display: flex; flex-wrap: wrap; gap: 0 8px; margin: 0; padding: 0; }
       .psp-crumbs li { display: inline-flex; align-items: center; }
-      .psp-crumbs li + li::before { content: "\\203A"; margin-right: 8px; color: var(--ui-text-muted); }
-      .psp-crumbs a { color: var(--ui-accent); text-decoration: none; }
-      .psp-crumbs a:hover { text-decoration: underline; }
-      .psp-crumbs a:focus-visible, .psp-secondary:focus-visible, .psp-foot a:focus-visible, .psp-page .app-footer a:focus-visible { outline: 2px solid transparent; outline-offset: 2px; box-shadow: var(--ui-focus-ring); border-radius: 2px; }
-      .psp-card { position: relative; background: var(--ui-surface); border: 1px solid var(--ui-border-strong); border-radius: 2px; box-shadow: none; padding: 20px; margin: 20px 0; }
-      .psp-card::before { content: ""; position: absolute; inset: 4px; border: 1px solid var(--ui-border); border-radius: 1px; pointer-events: none; }
-      .psp-stats { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(0, 1fr); gap: 10px; margin: 0; }
-      .psp-stats div { background: var(--ui-surface-muted); border: 1px solid var(--ui-border); border-radius: 2px; padding: 12px; min-width: 0; }
-      .psp-stats dt { font-family: var(--font-family-mono, monospace); font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; line-height: 1.35; color: var(--ui-text-secondary); margin: 0 0 6px; }
-      .psp-stats dd { margin: 0; font-family: var(--font-family-mono, monospace); font-size: 1.1rem; font-weight: 700; color: var(--ui-text); font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
-      .psp-card .psp-stats + .psp-note { margin: 16px 0 20px; }
-      .psp-cta { position: relative; display: flex; align-items: center; justify-content: center; box-sizing: border-box; width: 100%; max-width: 420px; min-height: 46px; margin: 0 0 4px; padding: 0 20px; background: var(--ui-accent); color: var(--ui-on-accent); border: 1px solid var(--ui-accent-active); border-radius: 2px; box-shadow: none; text-decoration: none; font-weight: 700; font-size: .92rem; letter-spacing: .015em; transition: background .15s ease, border-color .15s ease; }
-      .psp-cta::after { content: ""; position: absolute; inset: 4px; border: 1px solid var(--ui-on-accent); border-radius: 1px; opacity: .3; pointer-events: none; }
-      .psp-cta:hover { background: var(--ui-accent-hover); color: var(--ui-on-accent); }
-      .psp-cta:active { background: var(--ui-accent-active); color: var(--ui-on-accent); transform: translateY(1px); }
-      .psp-cta:focus-visible { outline: 2px solid transparent; outline-offset: 2px; box-shadow: var(--ui-focus-ring); }
-      .psp-secondary { display: inline-flex; align-items: center; min-height: 40px; margin: 0; padding: 0 2px; font-size: .9rem; color: var(--ui-accent); text-decoration: none; }
-      .psp-secondary:hover { text-decoration: underline; }
-      .psp-score { font-family: var(--font-family-mono, monospace); font-size: 1.5rem; font-weight: 700; color: var(--ui-text); font-variant-numeric: tabular-nums; margin: 0 0 14px; }
-      .psp-pillars { list-style: none; margin: 0 0 14px; padding: 0; display: grid; gap: 14px; }
-      .psp-pillar-head { display: flex; justify-content: space-between; gap: 12px; font-size: .92rem; color: var(--ui-text); }
-      .psp-pillar-head span:last-child { font-family: var(--font-family-mono, monospace); font-size: .85rem; font-variant-numeric: tabular-nums; color: var(--ui-text-secondary); }
-      .psp-bar { height: 8px; margin-top: 6px; background: var(--ui-surface-sunken); border: 1px solid var(--ui-border); border-radius: 2px; overflow: hidden; }
-      .psp-bar > span { display: block; height: 100%; background: var(--ui-accent); }
-      .psp-forecast { width: 100%; border-collapse: collapse; margin: 8px 0; }
-      .psp-forecast th, .psp-forecast td { text-align: left; padding: 10px 6px; border-bottom: 1px solid var(--ui-border); color: var(--ui-text); }
-      .psp-forecast th { font-family: var(--font-family-mono, monospace); font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--ui-text-secondary); font-weight: 700; }
+      .psp-crumbs li + li::before { content: "\\203A"; margin-right: 8px; color: var(--cert-ink-3); }
+      .psp-crumbs a { color: var(--cert-green); text-decoration: none; }
+      .psp-crumbs a:hover { text-decoration: underline; color: var(--cert-green-hover); }
+      .psp-page .app-footer a:focus-visible { outline: 2px solid transparent; outline-offset: 2px; box-shadow: var(--ui-focus-ring); }
+      .psp-wrap .dt-grid { gap: 16px; }
+      .psp-wrap .dt-panel p, .psp-wrap .dt-panel ul { margin: 0; line-height: 1.6; color: var(--cert-ink); }
+      .psp-wrap .dt-panel ul { padding-left: 20px; }
+      .psp-wrap .dt-panel .psp-note { color: var(--cert-ink-2); font-size: .9rem; line-height: 1.55; }
+      .psp-wrap .dt-badge-tag { align-self: flex-start; margin: 0; }
+      .psp-stats { grid-auto-flow: column; grid-auto-columns: minmax(0, 1fr); margin: 0; }
+      .psp-stats .dt-metric { min-width: 0; }
+      .psp-stats .dt-metric-val { margin: 0; overflow-wrap: anywhere; font-variant-numeric: tabular-nums; }
+      .psp-cta { width: 100%; max-width: 420px; margin: 4px 0 0; }
+      .psp-wrap .psp-secondary { display: inline-flex; align-items: center; align-self: flex-start; min-height: 40px; }
+      .psp-score { font-family: var(--font-family-mono, monospace); font-size: 1.5rem; font-weight: 700; font-variant-numeric: tabular-nums; margin: 0; }
+      .psp-pillars { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+      .psp-wrap .dt-panel ul.psp-pillars { padding: 0; }
+      .psp-pillar-head { display: flex; justify-content: space-between; gap: 12px; font-size: .92rem; }
+      .psp-pillar-head span:last-child { font-family: var(--font-family-mono, monospace); font-size: .85rem; font-variant-numeric: tabular-nums; color: var(--cert-ink-2); }
+      .psp-bar { height: 8px; margin-top: 6px; background: var(--cert-paper-deep); border: 1px solid var(--cert-rule); overflow: hidden; }
+      .psp-bar > span { display: block; height: 100%; background: var(--cert-green); }
+      .psp-forecast { width: 100%; border-collapse: collapse; }
+      .psp-forecast th, .psp-forecast td { text-align: left; padding: 10px 6px; border-bottom: 1px solid var(--cert-rule); color: var(--cert-ink); }
+      .psp-forecast th { font-family: var(--font-family-mono, monospace); font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--cert-ink-2); font-weight: 700; }
       .psp-forecast td:last-child, .psp-forecast th:last-child { text-align: right; }
       .psp-forecast td { font-family: var(--font-family-mono, monospace); font-weight: 700; font-variant-numeric: tabular-nums; }
-      .psp-chart { width: 100%; height: auto; display: block; color: var(--ui-text-secondary); }
-      .psp-chart .psp-grid { stroke: var(--ui-border); stroke-width: 1; }
-      .psp-chart .psp-today { stroke: var(--ui-border-strong); stroke-width: 1; stroke-dasharray: 3 3; }
-      .psp-chart .psp-line { fill: none; stroke: var(--ui-accent); stroke-width: 2; stroke-linejoin: round; }
+      .psp-chart { width: 100%; height: auto; display: block; color: var(--cert-ink-2); }
+      .psp-chart .psp-grid { stroke: var(--cert-rule); stroke-width: 1; }
+      .psp-chart .psp-today { stroke: var(--cert-rule-strong); stroke-width: 1; stroke-dasharray: 3 3; }
+      .psp-chart .psp-line { fill: none; stroke: var(--cert-green); stroke-width: 2; stroke-linejoin: round; }
       .psp-chart .psp-median { fill: none; stroke: currentColor; stroke-width: 1.5; stroke-dasharray: 5 4; }
-      .psp-chart .psp-band { fill: var(--ui-accent-soft); stroke: var(--ui-accent-border); stroke-width: 1; }
-      .psp-chart .psp-axis { fill: var(--ui-text-secondary); font-family: var(--font-family-mono, monospace); font-size: 11px; }
-      .psp-legend { display: flex; flex-wrap: wrap; gap: 8px 18px; list-style: none; margin: 12px 0 0; padding: 0; font-size: .85rem; color: var(--ui-text-secondary); }
+      .psp-chart .psp-band { fill: var(--cert-green-wash-strong); stroke: var(--cert-rule-strong); stroke-width: 1; }
+      .psp-chart .psp-axis { fill: var(--cert-ink-2); font-family: var(--font-family-mono, monospace); font-size: 11px; }
+      .psp-legend { display: flex; flex-wrap: wrap; gap: 8px 18px; list-style: none; margin: 0; padding: 0; font-size: .85rem; color: var(--cert-ink-2); }
       .psp-legend li { display: inline-flex; align-items: center; gap: 8px; }
       .psp-legend li::before { content: ""; display: inline-block; width: 18px; flex: 0 0 auto; box-sizing: border-box; }
-      .psp-key-line::before { height: 0; border-top: 2px solid var(--ui-accent); }
-      .psp-key-median::before { height: 0; border-top: 2px dashed var(--ui-text-secondary); }
-      .psp-key-band::before { height: 10px; background: var(--ui-accent-soft); border: 1px solid var(--ui-accent-border); border-radius: 1px; }
-      .psp-note { color: var(--ui-text-secondary); font-size: .9rem; line-height: 1.55; margin: 8px 0 0; }
-      .psp-card p { color: var(--ui-text); line-height: 1.6; margin: 0 0 8px; }
-      .psp-card p.psp-note { color: var(--ui-text-secondary); }
-      .psp-card ul.psp-list { margin: 0; padding-left: 20px; color: var(--ui-text); line-height: 1.6; }
-      .psp-card .psp-badge { display: inline-block; margin: 0 0 10px; padding: 3px 8px; border: 1px solid var(--ui-border); border-radius: 2px; font-family: var(--font-family-mono, monospace); font-weight: 700; font-size: 11px; line-height: 1.4; letter-spacing: .08em; text-transform: uppercase; background: var(--ui-accent-soft); color: var(--ui-accent); }
+      .psp-key-line::before { height: 0; border-top: 2px solid var(--cert-green); }
+      .psp-key-median::before { height: 0; border-top: 2px dashed var(--cert-ink-2); }
+      .psp-key-band::before { height: 10px; background: var(--cert-green-wash-strong); border: 1px solid var(--cert-rule-strong); }
+      .psp-note { color: var(--cert-ink-2); font-size: .9rem; line-height: 1.55; margin: 8px 0 0; }
       .psp-similar { margin: 28px 0 8px; }
-      .psp-similar a, .psp-hub-links a { display: inline-flex; align-items: center; min-height: 40px; box-sizing: border-box; margin: 0 8px 8px 0; padding: 0 14px; background: var(--ui-surface-muted); color: var(--ui-text); border: 1px solid var(--ui-border); border-radius: 2px; text-decoration: none; font-family: var(--font-family-mono, monospace); font-size: 12px; font-weight: 600; transition: color .15s ease, border-color .15s ease; }
-      .psp-similar a:hover, .psp-hub-links a:hover { border-color: var(--ui-accent); color: var(--ui-accent); }
-      .psp-similar a:active, .psp-hub-links a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
-      .psp-similar a:focus-visible, .psp-hub-links a:focus-visible { outline: 2px solid transparent; outline-offset: 2px; box-shadow: var(--ui-focus-ring); }
-      .psp-foot { color: var(--ui-text-secondary); font-size: .9rem; line-height: 1.55; }
-      .psp-foot a { color: var(--ui-accent); }
+      .psp-similar h2 { margin: 0 0 12px; }
+      .psp-similar a, .psp-hub-links a { display: inline-flex; align-items: center; min-height: 40px; margin: 0 8px 8px 0; text-decoration: none; }
+      .psp-foot { color: var(--cert-ink-2); font-size: .9rem; line-height: 1.55; }
+      .psp-foot a { color: var(--cert-green); }
       .psp-page .landing-icon-button { text-decoration: none; }
       .psp-page .app-footer a { display: inline-block; padding: 12px 6px; }
       @media (max-width: 720px) {
         .psp-stats { grid-auto-flow: row; grid-template-columns: repeat(2, minmax(0, 1fr)); }
-        .psp-stats div:last-child:nth-child(odd) { grid-column: 1 / -1; }
+        .psp-stats .dt-metric:last-child:nth-child(odd) { grid-column: 1 / -1; }
       }
       @media (max-width: 768px) { .psp-crumbs a, .psp-crumbs li { min-height: 40px; } }
-      @media (prefers-reduced-motion: reduce) { .psp-cta, .psp-similar a, .psp-hub-links a { transition: none; } .psp-cta:active, .psp-similar a:active, .psp-hub-links a:active { transform: none; } }
-      @media (max-width: 480px) { .psp-chart .psp-axis { font-size: 20px; } .psp-wrap { padding: 16px 14px 32px; } .psp-card { padding: 16px 14px; } .psp-wrap h1 { font-size: 1.4rem; } .psp-cta { max-width: none; } }
+      @media (max-width: 480px) { .psp-chart .psp-axis { font-size: 20px; } .psp-wrap { padding: 16px 14px 32px; } .psp-wrap h1 { font-size: 1.4rem; } .psp-cta { max-width: none; } }
     </style>`;
 }
 
@@ -482,7 +474,7 @@ function renderPoolScorePage(pool, ctx, lang) {
   const datasetJsonLd = renderDatasetJsonLd(t('pspDatasetName', name, sym, chain), t('pspDatasetDescription', name, sym, chain), pageUrl, genDate);
 
   // summary
-  const stat = (label, value) => `<div><dt>${esc(label)}</dt><dd>${esc(value)}</dd></div>`;
+  const stat = (label, value) => `<div class="dt-metric"><dt class="dt-metric-name">${esc(label)}</dt><dd class="dt-metric-val">${esc(value)}</dd></div>`;
   const stats = [
     stat(t('pspLiveApy'), formatApy(total)),
     mean30 == null ? '' : stat(t('pspMean30'), formatApy(mean30)),
@@ -495,9 +487,9 @@ function renderPoolScorePage(pool, ctx, lang) {
   const ctaHref = withSrc(`${SITE_URL}/?pool=${encodeURIComponent(pool.pool)}`, 'seo_pool');
   const protoUrl = protocolUrlFor(pool, ctx.protocolUrls);
   const secondary = protoUrl
-    ? `<a class="psp-secondary" rel="nofollow noopener" href="${esc(protoUrl)}">${esc(t('pspSecondaryProtocol', name))}</a>`
+    ? `<a class="cta-echo-link psp-secondary" rel="nofollow noopener" href="${esc(protoUrl)}">${esc(t('pspSecondaryProtocol', name))}</a>`
     : ((ctx.chainSlugs && ctx.chainSlugs.has(chainSlug))
-      ? `<a class="psp-secondary" href="${chainsBase}/${chainSlug}">${esc(t('pspSecondaryChain', chain))}</a>` : '');
+      ? `<a class="cta-echo-link psp-secondary" href="${chainsBase}/${chainSlug}">${esc(t('pspSecondaryChain', chain))}</a>` : '');
 
   // score pillars
   const pillars = SCORE_PILLARS.map(pl => {
@@ -536,7 +528,7 @@ function renderPoolScorePage(pool, ctx, lang) {
 
   const similar = similarPools(pool, ctx.selected, SIMILAR_POOLS).map(p => {
     const s = ctx.slugOf.get(p.pool);
-    return `<a href="${poolsBase(language)}/${s}">${esc(t('pspSimilarItem', displayName(p.project), p.symbol || '—', p.chain || '—', formatUsd(p.tvlUsd)))}</a>`;
+    return `<a class="dt-preset-btn" href="${poolsBase(language)}/${s}">${esc(t('pspSimilarItem', displayName(p.project), p.symbol || '—', p.chain || '—', formatUsd(p.tvlUsd)))}</a>`;
   }).join('\n        ');
 
   const accuracy = ctx.hasAccuracyPage
@@ -566,6 +558,7 @@ ${renderHreflangLinks(enUrl, koUrl)}    <script type="application/ld+json">${bre
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
 ${renderFontPreloadLinks()}    <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="/landing-styles.css">
+    <link rel="stylesheet" href="/pool-detail-styles.min.css">
 ${THEME_BOOT_SCRIPT}
 ${renderStyle()}
 ${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/pools/${slug}`, { page_type: 'pool_score', pool: pool.pool, chain, project: pool.project, lang: language })}
@@ -573,20 +566,22 @@ ${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/pools/${slug}`, { 
 <body>
   <div class="landing-app psp-page">
 ${renderSiteHeader(lc, language, (language === 'ko' ? enUrl : koUrl).replace(SITE_URL, ''))}
-  <main class="psp-wrap">
+  <main class="psp-wrap pool-detail-view">
     <nav class="psp-crumbs" aria-label="${esc(t('tcpBreadcrumbHome'))}"><ol>${breadcrumbHtml}</ol></nav>
     <h1>${esc(h1)}</h1>
-    <section class="psp-card" aria-label="${esc(t('pspSummaryHeading'))}">
-      <dl class="psp-stats">
+    <div class="decision-terminal-card">
+    <div class="dt-grid">
+    <section class="dt-panel dt-panel-full" aria-label="${esc(t('pspSummaryHeading'))}">
+      <dl class="dt-metric-row psp-stats">
         ${stats}
       </dl>
       <p class="psp-note">${esc(t('pspDataAsOf', genDate))}</p>
-      <a class="psp-cta" rel="nofollow" href="${ctaHref}">${esc(t('pspCta'))}</a>
+      <a class="btn btn--primary btn--lg btn--full-width psp-cta" rel="nofollow" href="${ctaHref}">${esc(t('pspCta'))}</a>
       ${secondary}
     </section>
 
-    <section class="psp-card">
-      <h2>${esc(t('pspScoreHeading'))}</h2>
+    <section class="dt-panel dt-panel-full">
+      <h2 class="dt-panel-label">${esc(t('pspScoreHeading'))}</h2>
       <p class="psp-score">${esc(t('pspScoreValue', fmtScore(ds.score)))}</p>
       <ul class="psp-pillars">
         ${pillars}
@@ -594,8 +589,8 @@ ${renderSiteHeader(lc, language, (language === 'ko' ? enUrl : koUrl).replace(SIT
       <p class="psp-note">${esc(t('pspScoreNote'))} <a href="${SITE_URL}/ai-info">${esc(t('pspMethodologyLink'))}</a></p>
     </section>
 
-    <section class="psp-card">
-      <h2>${esc(t('pspForecastHeading'))}</h2>
+    <section class="dt-panel dt-panel-full">
+      <h2 class="dt-panel-label">${esc(t('pspForecastHeading'))}</h2>
       <p>${esc(t('pspForecastLead', horizon, formatApy(f.p50), formatApy(f.p10), formatApy(f.p90)))}</p>
       <table class="psp-forecast">
         <tbody>
@@ -609,8 +604,8 @@ ${renderSiteHeader(lc, language, (language === 'ko' ? enUrl : koUrl).replace(SIT
       <p class="psp-note">${esc(t('pspForecastDisclaimer'))}</p>
     </section>
 
-    <section class="psp-card">
-      <h2>${esc(t('pspChartHeading'))}</h2>
+    <section class="dt-panel dt-panel-full">
+      <h2 class="dt-panel-label">${esc(t('pspChartHeading'))}</h2>
       ${renderApyChartSvg(pool, ctx.series || [], t, chartId)}
       <ul class="psp-legend">
         <li class="psp-key-line">${esc(t('pspLegendHistory'))}</li>
@@ -620,31 +615,34 @@ ${renderSiteHeader(lc, language, (language === 'ko' ? enUrl : koUrl).replace(SIT
       <p class="psp-note">${esc(t('pspChartCaption'))}</p>
     </section>
 
-    <section class="psp-card">
-      <h2>${esc(t('pspSourceHeading'))}</h2>
+    <section class="dt-panel dt-panel-full">
+      <h2 class="dt-panel-label">${esc(t('pspSourceHeading'))}</h2>
       ${srcLines.map(l => `<p>${esc(l)}</p>`).join('\n      ')}
     </section>
 
-    <section class="psp-card">
-      <h2>${esc(t('pspAccessHeading'))}</h2>
-      <p class="psp-badge">${esc(t(restricted ? 'pspAccessRestricted' : 'pspAccessOpen'))}</p>
+    <section class="dt-panel dt-panel-full">
+      <h2 class="dt-panel-label">${esc(t('pspAccessHeading'))}</h2>
+      <p class="dt-badge-tag">${esc(t(restricted ? 'pspAccessRestricted' : 'pspAccessOpen'))}</p>
       <p>${esc(t(restricted ? 'pspAccessRestrictedNote' : 'pspAccessOpenNote'))}</p>
     </section>
 
-    <section class="psp-card">
-      <h2>${esc(t('pspWithdrawHeading'))}</h2>
+    <section class="dt-panel dt-panel-full">
+      <h2 class="dt-panel-label">${esc(t('pspWithdrawHeading'))}</h2>
       ${wLines.map(l => `<p>${esc(l)}</p>`).join('\n      ')}
     </section>
 
-    <section class="psp-card">
-      <h2>${esc(t('pspRisksHeading'))}</h2>
-      <ul class="psp-list">
+    <section class="dt-panel dt-panel-full">
+      <h2 class="dt-panel-label">${esc(t('pspRisksHeading'))}</h2>
+      <ul>
         ${risks.map(r => `<li>${esc(r)}</li>`).join('\n        ')}
       </ul>
     </section>
 
+    </div>
+    </div>
+
     <nav class="psp-similar" aria-label="${esc(t('pspSimilarHeading'))}">
-      <h2>${esc(t('pspSimilarHeading'))}</h2>
+      <h2 class="dt-panel-label">${esc(t('pspSimilarHeading'))}</h2>
         ${similar}
     </nav>
 
@@ -673,10 +671,10 @@ function renderPoolsHubPage(selected, ctx, lang) {
   const chains = Array.from(byChain.entries()).map(([chain, ps]) => ({
     chain, ps, tvl: ps.reduce((s, p) => s + p.tvlUsd, 0)
   })).sort((a, b) => b.tvl - a.tvl || a.chain.localeCompare(b.chain));
-  const sections = chains.map(c => `    <section class="psp-card">
-      <h2>${esc(c.chain)}</h2>
+  const sections = chains.map(c => `    <section class="dt-panel dt-panel-full">
+      <h2 class="dt-panel-label">${esc(c.chain)}</h2>
       <div class="psp-hub-links">
-        ${c.ps.map(p => `<a href="${poolsBase(language)}/${ctx.slugOf.get(p.pool)}">${esc(displayName(p.project))} ${esc(p.symbol || '—')}</a>`).join('\n        ')}
+        ${c.ps.map(p => `<a class="dt-preset-btn" href="${poolsBase(language)}/${ctx.slugOf.get(p.pool)}">${esc(displayName(p.project))} ${esc(p.symbol || '—')}</a>`).join('\n        ')}
       </div>
     </section>`).join('\n');
   const crumbs = [{ name: t('tcpBreadcrumbHome'), url: `${SITE_URL}/` }, { name: t('pspBreadcrumbPools'), url: pageUrl }];
@@ -705,6 +703,7 @@ ${renderHreflangLinks(enUrl, koUrl)}    <script type="application/ld+json">${bre
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
 ${renderFontPreloadLinks()}    <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="/landing-styles.css">
+    <link rel="stylesheet" href="/pool-detail-styles.min.css">
 ${THEME_BOOT_SCRIPT}
 ${renderStyle()}
 ${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/pools`, { page_type: 'pool_hub', pool_count: selected.length, lang: language })}
@@ -712,12 +711,16 @@ ${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/pools`, { page_typ
 <body>
   <div class="landing-app psp-page">
 ${renderSiteHeader(lc, language, (language === 'ko' ? enUrl : koUrl).replace(SITE_URL, ''))}
-  <main class="psp-wrap">
+  <main class="psp-wrap pool-detail-view">
     <nav class="psp-crumbs" aria-label="${esc(t('tcpBreadcrumbHome'))}"><ol><li><a href="${SITE_URL}/">${esc(t('tcpBreadcrumbHome'))}</a></li><li aria-current="page">${esc(t('pspBreadcrumbPools'))}</li></ol></nav>
     <h1>${esc(t('pspHubHeading'))}</h1>
     <p class="psp-note">${esc(t('pspHubSub', selected.length, formatUsd(W1_MIN_TVL_USD)))}</p>
     <p class="psp-note">${esc(t('pspHubIntro'))}</p>
+    <div class="decision-terminal-card">
+    <div class="dt-grid">
 ${sections}
+    </div>
+    </div>
     <p class="psp-foot">${esc(t('pspNotAdvice'))}</p>
   </main>
 ${renderSiteFooter(t, language)}

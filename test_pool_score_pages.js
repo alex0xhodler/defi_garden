@@ -151,14 +151,14 @@ test('no letter rating appears anywhere (EN + KO)', () => {
   });
 });
 test('exactly one primary CTA, nofollow, to the Decision Terminal; at most one quiet secondary', () => {
-  assert.strictEqual((html.match(/class="psp-cta"/g) || []).length, 1);
-  assert.ok(html.includes(`<a class="psp-cta" rel="nofollow" href="${SITE_URL}/?pool=${hi.pool}#src=seo_pool">`));
-  assert.ok((html.match(/class="psp-secondary"/g) || []).length <= 1);
+  assert.strictEqual((html.match(/class="btn btn--primary[^"]*psp-cta"/g) || []).length, 1);
+  assert.ok(html.includes(`<a class="btn btn--primary btn--lg btn--full-width psp-cta" rel="nofollow" href="${SITE_URL}/?pool=${hi.pool}#src=seo_pool">`));
+  assert.ok((html.match(/class="[^"]*psp-secondary"/g) || []).length <= 1);
   assert.ok(html.includes('https://aave.com/?ref=defi.garden'));
   const noProto = gen.renderPoolScorePage(hi, Object.assign({}, ctx, { protocolUrls: {} }), 'en');
-  assert.ok(noProto.includes(`href="${SITE_URL}/chains/base"`) && (noProto.match(/class="psp-secondary"/g) || []).length === 1);
+  assert.ok(noProto.includes(`href="${SITE_URL}/chains/base"`) && (noProto.match(/class="[^"]*psp-secondary"/g) || []).length === 1);
   const none = gen.renderPoolScorePage(hi, Object.assign({}, ctx, { protocolUrls: {}, chainSlugs: new Set() }), 'en');
-  assert.strictEqual((none.match(/class="psp-secondary"/g) || []).length, 0);
+  assert.strictEqual((none.match(/class="[^"]*psp-secondary"/g) || []).length, 0);
 });
 test('every number equals the snapshot value formatted en-US', () => {
   const total = hi.apyBase + hi.apyReward;
@@ -180,7 +180,7 @@ test('inline SVG chart: present, accessible, no script, token-coloured', () => {
   assert.ok(/role="img"/.test(svg[0]) && /aria-labelledby="psp-chart-title"/.test(svg[0]) && /<title id="psp-chart-title">[^<]+<\/title>/.test(svg[0]));
   assert.ok(/<polyline class="psp-line"/.test(svg[0]) && /<polygon class="psp-band"/.test(svg[0]));
   assert.ok(!/<script/.test(svg[0]) && !/#[0-9a-fA-F]{3,6}\b/.test(svg[0]), 'hard-coded colour or script in svg');
-  assert.ok(html.includes('stroke: var(--ui-accent)') && html.includes('fill: var(--ui-accent-soft)'));
+  assert.ok(html.includes('stroke: var(--cert-green)') && html.includes('fill: var(--cert-green-wash-strong)'));
 });
 test('chart survives a flat series, an empty series and no trajectory', () => {
   const t = require('./translations.js').createTranslationFunction('en');
@@ -229,7 +229,7 @@ test('hostile strings are escaped', () => {
 console.log('hub, sitemap, manifest, stale deletion');
 test('hub groups pools by chain and links every page', () => {
   const h = gen.renderPoolsHubPage(selected, ctx, 'en');
-  assert.ok(h.includes('<h2>Base</h2>') && h.includes('<h2>Arbitrum</h2>'));
+  assert.ok(h.includes('<h2 class="dt-panel-label">Base</h2>') && h.includes('<h2 class="dt-panel-label">Arbitrum</h2>'));
   selected.forEach(p => assert.ok(h.includes(`href="${SITE_URL}/pools/${slugOf.get(p.pool)}"`)));
   assert.ok(h.includes(`<link rel="canonical" href="${SITE_URL}/pools">`));
 });
