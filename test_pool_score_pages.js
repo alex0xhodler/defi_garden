@@ -52,6 +52,68 @@ test('anomalous APY (> APY_SANITY_LIMIT) is rejected via the shared trust rail',
   assert.ok(!gen.isEligibleScoredPool(mk({ apyBase: tokenGen.APY_SANITY_LIMIT + 1, apyReward: 0 })));
   assert.ok(!gen.isEligibleScoredPool(mk({ apyBase: 600, apyReward: 600 })));
 });
+test('yield floor is the named constant 0.5 (a page-selection rule, not a trust rail)', () => {
+  assert.strictEqual(gen.W1_MIN_APY_PCT, 0.5);
+  assert.strictEqual(tokenGen.APY_SANITY_LIMIT, 1000);
+});
+test('(a) zero-yield high-TVL pool (live and 30d mean ~0) is excluded', () => {
+  assert.ok(!gen.isEligibleScoredPool(mk({ tvlUsd: 5e9, apyBase: 0.003, apyReward: 0, apyMean30d: 0.004 })));
+  assert.ok(!gen.isEligibleScoredPool(mk({ tvlUsd: 5e9, apyBase: 0, apyReward: 0, apyMean30d: 0 })));
+});
+test('(b) feed gap: live 0 but 30d mean 4% is excluded', () => {
+  assert.ok(!gen.isEligibleScoredPool(mk({ apyBase: 0, apyReward: 0, apyMean30d: 4.1 })));
+});
+test('(c) live 4% but 30d mean 0.2% is excluded', () => {
+  assert.ok(!gen.isEligibleScoredPool(mk({ apyBase: 4, apyReward: 0, apyMean30d: 0.2 })));
+  assert.ok(!gen.isEligibleScoredPool(mk({ apyBase: 4, apyReward: 0, apyMean30d: null })));
+});
+test('(d) 0.6% live and 0.6% 30d mean is included; floor is inclusive; base+reward counts', () => {
+  assert.ok(gen.isEligibleScoredPool(mk({ apyBase: 0.6, apyReward: 0, apyMean30d: 0.6 })));
+  assert.ok(gen.isEligibleScoredPool(mk({ apyBase: 0.5, apyReward: 0, apyMean30d: 0.5 })));
+  assert.ok(gen.isEligibleScoredPool(mk({ apyBase: 0.3, apyReward: 0.3, apyMean30d: 0.6 })));
+  assert.ok(!gen.isEligibleScoredPool(mk({ apyBase: 0.49, apyReward: 0, apyMean30d: 3 })));
+});
+test('zero-yield pools free their slot for the next eligible pool by TVL', () => {
+  const dead = mk({ tvlUsd: 9e9, apyBase: 0, apyReward: 0, apyMean30d: 0 });
+  const live = mk({ tvlUsd: 2e7, apyBase: 2, apyReward: 0, apyMean30d: 2 });
+  const { selected, eligibleCount } = gen.selectPoolPages([dead, live], 1);
+  assert.strictEqual(eligibleCount, 1);
+  assert.strictEqual(selected[0].pool, live.pool);
+});
+test('redirects: every dropped slug gets a permanent chain-hub redirect (EN + KO); requalified slugs lose theirs', () => {
+  const prev = [{ slug: 'a-usdc-base', pool: 'u1' }, { slug: 'b-wbtc-ethereum', pool: 'u2' }, { slug: 'keep-me', pool: 'u3' }, { slug: 'gone-chain', pool: 'u4' }];
+  const chainOfPool = new Map([['u1', 'base'], ['u2', 'ethereum'], ['u3', 'base'], ['u4', 'nochain']]);
+  const chainSlugs = new Set(['base', 'ethereum']);
+  const r = gen.computePoolRedirects(new Map(), prev, new Set(['keep-me']), chainOfPool, chainSlugs);
+  assert.deepStrictEqual(Array.from(r.entries()).sort(), [['a-usdc-base', 'base'], ['b-wbtc-ethereum', 'ethereum'], ['gone-chain', null]]);
+  const base = fs.readFileSync(path.join(__dirname, 'vercel.json'), 'utf8').replace(/    \{\n      "source": "\/(?:ko\/)?pools\/(?!index")[a-z0-9-]+",[^}]*\},\n/g, '');
+  const txt = gen.syncPoolRedirectsText(base, prev, new Set(['keep-me']), chainOfPool, chainSlugs);
+  const reds = JSON.parse(txt).redirects;
+  const find = src => reds.find(x => x.source === src);
+  prev.filter(e => e.slug !== 'keep-me').forEach(e => {
+    const cs = chainOfPool.get(e.pool);
+    const en = find('/pools/' + e.slug), ko = find('/ko/pools/' + e.slug);
+    assert.ok(en && en.permanent === true && ko && ko.permanent === true, e.slug);
+    assert.strictEqual(en.destination, chainSlugs.has(cs) ? '/chains/' + cs : '/pools');
+    assert.strictEqual(ko.destination, chainSlugs.has(cs) ? '/ko/chains/' + cs : '/ko/pools');
+  });
+  assert.ok(!find('/pools/keep-me'));
+  assert.ok(find('/pools/index'), 'hand-written /pools/index redirect untouched');
+  // idempotent, and a later requalification removes the redirect again
+  assert.strictEqual(gen.syncPoolRedirectsText(txt, [], new Set(['keep-me']), chainOfPool, chainSlugs), txt);
+  const back = JSON.parse(gen.syncPoolRedirectsText(txt, [], new Set(['keep-me', 'a-usdc-base']), chainOfPool, chainSlugs)).redirects;
+  assert.ok(!back.find(x => x.source === '/pools/a-usdc-base') && back.find(x => x.source === '/pools/b-wbtc-ethereum'));
+});
+test('committed vercel.json: every committed-manifest slug that has no page has no redirect and vice versa', () => {
+  const reds = JSON.parse(fs.readFileSync(path.join(__dirname, 'vercel.json'), 'utf8')).redirects;
+  const manifest = JSON.parse(fs.readFileSync(path.join(__dirname, 'data/pool-pages.json'), 'utf8')).pages;
+  manifest.forEach(e => assert.ok(!reds.some(x => x.source === '/pools/' + e.slug || x.source === '/ko/pools/' + e.slug), 'live page shadowed by redirect: ' + e.slug));
+  reds.filter(x => /^\/(ko\/)?pools\/[a-z0-9-]+$/.test(x.source) && !/\/index$/.test(x.source)).forEach(x => {
+    assert.ok(x.permanent === true);
+    const dest = x.destination.replace(/^\/ko/, '');
+    assert.ok(dest === '/pools' || fs.existsSync(path.join(__dirname, (x.destination.startsWith('/ko/') ? 'ko' : '') + x.destination.replace(/^\/ko/, '') + '.html')) || fs.existsSync(path.join(__dirname, x.destination.slice(1) + '.html')), 'dead redirect target ' + x.destination);
+  });
+});
 test('against the committed snapshot the gate keeps pools and every one passes the rails', () => {
   const snap = JSON.parse(fs.readFileSync(path.join(__dirname, 'data/pools-snapshot.json'), 'utf8'));
   const { eligibleCount, selected } = gen.selectPoolPages(snap.pools, 0);
