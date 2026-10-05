@@ -25,57 +25,68 @@
     <link rel="preload" href="/fonts/PublicSans-latin-var.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/fonts/Besley-latin-var.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/landing-styles.css">
+    <link rel="stylesheet" href="/pool-detail-styles.min.css">
+    <script>try{var th=localStorage.getItem('theme');if(th)document.documentElement.setAttribute('data-theme',th)}catch(e){}</script>
     <style>
-      .psp-wrap { max-width: 860px; margin: 0 auto; padding: 24px 20px 40px; }
-      .psp-wrap h1 { font-family: var(--font-family-display); font-size: 1.6rem; line-height: 1.25; margin: 8px 0 8px; color: var(--ui-text); overflow-wrap: anywhere; }
-      .psp-wrap h2 { font-size: 1.1rem; margin: 0 0 10px; color: var(--ui-text); }
-      .psp-crumbs { font-size: .85rem; color: var(--ui-text-secondary); }
-      .psp-crumbs ol { list-style: none; display: flex; flex-wrap: wrap; gap: 4px 8px; margin: 0; padding: 0; }
-      .psp-crumbs li + li::before { content: "\203A"; margin-right: 8px; color: var(--ui-text-muted); }
-      .psp-crumbs a { color: var(--ui-accent); text-decoration: none; }
-      .psp-crumbs a:hover { text-decoration: underline; }
-      .psp-card { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-lg); box-shadow: none; padding: 18px; margin: 18px 0; }
-      .psp-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 0; }
-      .psp-stats div { background: var(--ui-surface-muted); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-md); padding: 10px 12px; }
-      .psp-stats dt { font-size: .8rem; color: var(--ui-text-secondary); margin: 0 0 2px; }
-      .psp-stats dd { margin: 0; font-size: 1.15rem; font-weight: 600; color: var(--ui-text); font-variant-numeric: tabular-nums; }
-      .psp-cta { display: inline-block; margin: 6px 0 4px; padding: 14px 24px; background: var(--ui-accent); color: var(--ui-on-accent); border: 1px solid transparent; border-radius: var(--ui-radius-md); box-shadow: none; text-decoration: none; font-weight: 600; transition: background .15s ease, transform .1s ease; }
-      .psp-cta:hover { background: var(--ui-accent-hover); }
-      .psp-cta:active { background: var(--ui-accent-active); transform: translateY(1px); }
-      .psp-cta:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
-      .psp-secondary { display: block; margin: 4px 0 0; font-size: .9rem; color: var(--ui-accent); text-decoration: none; }
-      .psp-secondary:hover { text-decoration: underline; }
-      .psp-secondary:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); border-radius: var(--ui-radius-sm); }
-      .psp-score { font-size: 1.5rem; font-weight: 700; color: var(--ui-text); font-variant-numeric: tabular-nums; margin: 0 0 12px; }
-      .psp-pillars { list-style: none; margin: 0 0 12px; padding: 0; display: grid; gap: 12px; }
-      .psp-pillar-head { display: flex; justify-content: space-between; gap: 12px; font-size: .92rem; color: var(--ui-text); }
-      .psp-pillar-head span:last-child { font-variant-numeric: tabular-nums; color: var(--ui-text-secondary); }
-      .psp-bar { height: 8px; margin-top: 6px; background: var(--ui-surface-sunken); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); overflow: hidden; }
-      .psp-bar > span { display: block; height: 100%; background: var(--ui-accent); }
-      .psp-forecast { width: 100%; border-collapse: collapse; margin: 8px 0; }
-      .psp-forecast th, .psp-forecast td { text-align: left; padding: 8px 6px; border-bottom: 1px solid var(--ui-border); color: var(--ui-text); }
-      .psp-forecast th { color: var(--ui-text-secondary); font-weight: 600; }
-      .psp-forecast td:last-child, .psp-forecast th:last-child { text-align: right; font-variant-numeric: tabular-nums; }
-      .psp-chart { width: 100%; height: auto; display: block; color: var(--ui-text-secondary); }
-      .psp-chart .psp-grid { stroke: var(--ui-border); stroke-width: 1; }
-      .psp-chart .psp-today { stroke: var(--ui-border-strong); stroke-width: 1; stroke-dasharray: 3 3; }
-      .psp-chart .psp-line { fill: none; stroke: var(--ui-accent); stroke-width: 2; stroke-linejoin: round; }
+      .psp-wrap { width: 100%; box-sizing: border-box; max-width: 860px; margin: 0 auto; padding: 24px 20px 40px; flex: 1 0 auto; color: var(--cert-ink); font-family: var(--cert-sans); font-size: 15px; line-height: 1.5; }
+      .psp-wrap h1 { font-family: var(--font-family-display); font-size: 1.7rem; font-weight: 600; line-height: 1.2; letter-spacing: -0.01em; margin: 8px 0 16px; color: var(--cert-ink); overflow-wrap: anywhere; }
+      .psp-crumbs { font-size: .85rem; color: var(--cert-ink-2); }
+      .psp-crumbs ol { list-style: none; display: flex; flex-wrap: wrap; gap: 0 8px; margin: 0; padding: 0; }
+      .psp-crumbs li { display: inline-flex; align-items: center; }
+      .psp-crumbs li + li::before { content: "\203A"; margin-right: 8px; color: var(--cert-ink-3); }
+      .psp-crumbs a { color: var(--cert-green); text-decoration: none; }
+      .psp-crumbs a:hover { text-decoration: underline; color: var(--cert-green-hover); }
+      .psp-page .app-footer a:focus-visible { outline: 2px solid transparent; outline-offset: 2px; box-shadow: var(--ui-focus-ring); }
+      .psp-wrap .dt-grid { gap: 16px; }
+      .psp-wrap .dt-panel p, .psp-wrap .dt-panel ul { margin: 0; line-height: 1.6; color: var(--cert-ink); }
+      .psp-wrap .dt-panel ul { padding-left: 20px; }
+      .psp-wrap .dt-panel .psp-note { color: var(--cert-ink-2); font-size: .9rem; line-height: 1.55; }
+      .psp-wrap .dt-badge-tag { align-self: flex-start; margin: 0; }
+      .psp-stats { grid-auto-flow: column; grid-auto-columns: minmax(0, 1fr); margin: 0; }
+      .psp-stats .dt-metric { min-width: 0; }
+      .psp-stats .dt-metric-val { margin: 0; overflow-wrap: anywhere; font-variant-numeric: tabular-nums; }
+      .psp-cta { width: 100%; max-width: 420px; margin: 4px 0 0; }
+      .psp-wrap .psp-secondary { display: inline-flex; align-items: center; align-self: flex-start; min-height: 40px; }
+      .psp-score { font-family: var(--font-family-mono, monospace); font-size: 1.5rem; font-weight: 700; font-variant-numeric: tabular-nums; margin: 0; }
+      .psp-pillars { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+      .psp-wrap .dt-panel ul.psp-pillars { padding: 0; }
+      .psp-pillar-head { display: flex; justify-content: space-between; gap: 12px; font-size: .92rem; }
+      .psp-pillar-head span:last-child { font-family: var(--font-family-mono, monospace); font-size: .85rem; font-variant-numeric: tabular-nums; color: var(--cert-ink-2); }
+      .psp-bar { height: 8px; margin-top: 6px; background: var(--cert-paper-deep); border: 1px solid var(--cert-rule); overflow: hidden; }
+      .psp-bar > span { display: block; height: 100%; background: var(--cert-green); }
+      .psp-forecast { width: 100%; border-collapse: collapse; }
+      .psp-forecast th, .psp-forecast td { text-align: left; padding: 10px 6px; border-bottom: 1px solid var(--cert-rule); color: var(--cert-ink); }
+      .psp-forecast th { font-family: var(--font-family-mono, monospace); font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--cert-ink-2); font-weight: 700; }
+      .psp-forecast td:last-child, .psp-forecast th:last-child { text-align: right; }
+      .psp-forecast td { font-family: var(--font-family-mono, monospace); font-weight: 700; font-variant-numeric: tabular-nums; }
+      .psp-chart { width: 100%; height: auto; display: block; color: var(--cert-ink-2); }
+      .psp-chart .psp-grid { stroke: var(--cert-rule); stroke-width: 1; }
+      .psp-chart .psp-today { stroke: var(--cert-rule-strong); stroke-width: 1; stroke-dasharray: 3 3; }
+      .psp-chart .psp-line { fill: none; stroke: var(--cert-green); stroke-width: 2; stroke-linejoin: round; }
       .psp-chart .psp-median { fill: none; stroke: currentColor; stroke-width: 1.5; stroke-dasharray: 5 4; }
-      .psp-chart .psp-band { fill: var(--ui-accent-soft); stroke: var(--ui-accent-border); stroke-width: 1; }
-      .psp-chart .psp-axis { fill: var(--ui-text-secondary); font-size: 11px; }
-      .psp-legend { display: flex; flex-wrap: wrap; gap: 6px 16px; list-style: none; margin: 8px 0 0; padding: 0; font-size: .85rem; color: var(--ui-text-secondary); }
-      .psp-note { color: var(--ui-text-secondary); font-size: .9rem; line-height: 1.55; margin: 8px 0 0; }
-      .psp-card p { color: var(--ui-text); line-height: 1.6; margin: 0 0 8px; }
-      .psp-card ul.psp-list { margin: 0; padding-left: 20px; color: var(--ui-text); line-height: 1.6; }
-      .psp-badge { display: inline-block; padding: 4px 12px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); font-weight: 600; font-size: .9rem; background: var(--ui-surface-muted); color: var(--ui-text); margin-bottom: 8px; }
-      .psp-similar a, .psp-hub-links a { display: inline-block; margin: 0 8px 8px 0; padding: 8px 14px; background: var(--ui-surface); color: var(--ui-accent); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); text-decoration: none; font-size: .9rem; }
-      .psp-similar a:hover, .psp-hub-links a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
-      .psp-similar a:active, .psp-hub-links a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
-      .psp-similar a:focus-visible, .psp-hub-links a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
-      .psp-foot { color: var(--ui-text-secondary); font-size: .9rem; line-height: 1.55; }
-      .psp-foot a { color: var(--ui-accent); }
-      @media (prefers-reduced-motion: reduce) { .psp-cta { transition: none; } .psp-cta:active, .psp-similar a:active, .psp-hub-links a:active { transform: none; } }
-      @media (max-width: 480px) { .psp-chart .psp-axis { font-size: 20px; } .psp-wrap { padding: 16px 14px 32px; } .psp-card { padding: 14px; } .psp-wrap h1 { font-size: 1.35rem; } }
+      .psp-chart .psp-band { fill: var(--cert-green-wash-strong); stroke: var(--cert-rule-strong); stroke-width: 1; }
+      .psp-chart .psp-axis { fill: var(--cert-ink-2); font-family: var(--font-family-mono, monospace); font-size: 11px; }
+      .psp-legend { display: flex; flex-wrap: wrap; gap: 8px 18px; list-style: none; margin: 0; padding: 0; font-size: .85rem; color: var(--cert-ink-2); }
+      .psp-legend li { display: inline-flex; align-items: center; gap: 8px; }
+      .psp-legend li::before { content: ""; display: inline-block; width: 18px; flex: 0 0 auto; box-sizing: border-box; }
+      .psp-key-line::before { height: 0; border-top: 2px solid var(--cert-green); }
+      .psp-key-median::before { height: 0; border-top: 2px dashed var(--cert-ink-2); }
+      .psp-key-band::before { height: 10px; background: var(--cert-green-wash-strong); border: 1px solid var(--cert-rule-strong); }
+      .psp-note { color: var(--cert-ink-2); font-size: .9rem; line-height: 1.55; margin: 8px 0 0; }
+      .psp-similar { margin: 28px 0 8px; }
+      .psp-similar h2 { margin: 0 0 12px; }
+      .psp-similar a, .psp-hub-links a { display: inline-flex; align-items: center; min-height: 40px; margin: 0 8px 8px 0; text-decoration: none; }
+      .psp-foot { color: var(--cert-ink-2); font-size: .9rem; line-height: 1.55; }
+      .psp-foot a { color: var(--cert-green); }
+      .psp-page .landing-icon-button { text-decoration: none; }
+      .psp-page .app-footer a { display: inline-block; padding: 12px 6px; }
+      @media (max-width: 720px) {
+        .psp-stats { grid-auto-flow: row; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+        .psp-stats .dt-metric:last-child:nth-child(odd) { grid-column: 1 / -1; }
+      }
+      @media (max-width: 768px) { .psp-crumbs a, .psp-crumbs li { min-height: 40px; } }
+      @media (max-width: 480px) { .psp-chart .psp-axis { font-size: 20px; } .psp-wrap { padding: 16px 14px 32px; } .psp-wrap h1 { font-size: 1.4rem; } .psp-cta { max-width: none; } }
     </style>
     <script type="text/javascript">
         window.MIXPANEL_CUSTOM_LIB_URL = "https://mp.defi.garden/lib.min.js";
@@ -92,24 +103,48 @@
     </script>
 </head>
 <body>
-  <main class="psp-wrap">
+  <div class="landing-app psp-page">
+    <header class="landing-header">
+      <a class="landing-brand" href="/?lang=ko">
+        <span class="landing-brand-mark"><svg class="landing-leaf-mark" viewBox="0 0 32 32" width="24" height="24" preserveAspectRatio="xMidYMid meet" fill="none" aria-hidden="true"><path d="M26.7 4.8C16.2 5.2 8.2 10.7 7.1 20.4c-.3 2.8.7 5.2 2.4 6.8 1.6-8.5 6.5-14.6 14.1-18.2-4.5 3.9-7.6 8.7-9 14.6 3.1-3.9 7-6.8 11.7-8.8.8-2.8.9-6 .4-10Z" fill="currentColor" /><path d="M8.8 27.2c3.2-5.1 7.2-8.9 12.2-11.4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" /></svg></span>
+        <span>DeFi Garden</span>
+      </a>
+      <nav class="landing-nav" aria-label="주요 메뉴">
+        <a href="/?app=1">수익률 검색</a>
+        <a href="/plan.html">저축 플래너</a>
+        <a href="/agents">AI 에이전트 &amp; MCP</a>
+      </nav>
+      <div class="landing-header-actions">
+        <a class="landing-icon-button" href="/pools/kamino-lend-dsol-solana" hreflang="en" lang="en" aria-label="영어로 전환">EN</a>
+        <button type="button" class="landing-icon-button landing-theme-button" id="theme-toggle-btn" aria-label="라이트 모드로 전환">☼</button>
+        <button type="button" class="landing-menu-button" id="menu-toggle-btn" aria-expanded="false" aria-controls="mobile-nav" aria-label="메뉴 열기">☰</button>
+      </div>
+    </header>
+    <nav class="landing-mobile-nav" id="mobile-nav" aria-label="모바일 메뉴">
+      <a href="/?app=1">수익률 검색</a>
+      <a href="/plan.html">저축 플래너</a>
+      <a href="/agents">AI 에이전트 &amp; MCP</a>
+    </nav>
+  <main class="psp-wrap pool-detail-view">
     <nav class="psp-crumbs" aria-label="홈"><ol><li><a href="https://www.defi.garden/">홈</a></li><li><a href="https://www.defi.garden/ko/chains">체인</a></li><li><a href="https://www.defi.garden/ko/chains/solana">Solana</a></li><li aria-current="page">Kamino Lend DSOL</li></ol></nav>
     <h1>Solana의 Kamino Lend DSOL: APY, DeFi Score, 14일 전망</h1>
-    <section class="psp-card" aria-label="요약">
-      <dl class="psp-stats">
-        <div><dt>실시간 APY</dt><dd>0.00%</dd></div>
-        <div><dt>30일 평균 APY</dt><dd>0.00%</dd></div>
-        <div><dt>기본 APY</dt><dd>0.00%</dd></div>
-        <div><dt>보상 APY</dt><dd>0.00%</dd></div>
-        <div><dt>예치금(TVL)</dt><dd>$244.03M</dd></div>
+    <div class="decision-terminal-card">
+    <div class="dt-grid">
+    <section class="dt-panel dt-panel-full" aria-label="요약">
+      <dl class="dt-metric-row psp-stats">
+        <div class="dt-metric"><dt class="dt-metric-name">실시간 APY</dt><dd class="dt-metric-val">0.00%</dd></div>
+        <div class="dt-metric"><dt class="dt-metric-name">30일 평균 APY</dt><dd class="dt-metric-val">0.00%</dd></div>
+        <div class="dt-metric"><dt class="dt-metric-name">기본 APY</dt><dd class="dt-metric-val">0.00%</dd></div>
+        <div class="dt-metric"><dt class="dt-metric-name">보상 APY</dt><dd class="dt-metric-val">0.00%</dd></div>
+        <div class="dt-metric"><dt class="dt-metric-name">예치금(TVL)</dt><dd class="dt-metric-val">$244.03M</dd></div>
       </dl>
       <p class="psp-note">October 5, 2026 기준 데이터. 출처: DefiLlama 풀 데이터이며, 점수와 전망은 DeFi Garden이 계산했어요.</p>
-      <a class="psp-cta" rel="nofollow" href="https://www.defi.garden/?pool=1accaa9f-f4fa-4063-9502-1733ed8e4832#src=seo_pool">Decision Terminal에서 열기 →</a>
-      <a class="psp-secondary" rel="nofollow noopener" href="https://kamino.com/?ref=defi.garden">Kamino Lend 바로가기 →</a>
+      <a class="btn btn--primary btn--lg btn--full-width psp-cta" rel="nofollow" href="https://www.defi.garden/?pool=1accaa9f-f4fa-4063-9502-1733ed8e4832#src=seo_pool">Decision Terminal에서 열기 →</a>
+      <a class="cta-echo-link psp-secondary" rel="nofollow noopener" href="https://kamino.com/?ref=defi.garden">Kamino Lend 바로가기 →</a>
     </section>
 
-    <section class="psp-card">
-      <h2>DeFi 점수</h2>
+    <section class="dt-panel dt-panel-full">
+      <h2 class="dt-panel-label">DeFi 점수</h2>
       <p class="psp-score">점수 76.9 / 100</p>
       <ul class="psp-pillars">
         <li>
@@ -132,8 +167,8 @@
       <p class="psp-note">이 점수는 DefiLlama 이력과 예측 모델로 DeFi Garden이 계산한 네 가지 항목을 합친 모델 결과이며, 수익을 보장하지 않아요. <a href="https://www.defi.garden/ai-info">점수와 전망 계산 방식</a></p>
     </section>
 
-    <section class="psp-card">
-      <h2>14일 전망 범위</h2>
+    <section class="dt-panel dt-panel-full">
+      <h2 class="dt-panel-label">14일 전망 범위</h2>
       <p>향후 14일 모델 전망: 중앙값 0.00%, 범위 0.00%~0.00% (p10~p90).</p>
       <table class="psp-forecast">
         <tbody>
@@ -147,13 +182,12 @@
       <p class="psp-note">과거 데이터로 만든 모델 전망일 뿐 약속이 아니에요. 실제 수익률은 범위를 벗어날 수 있어요.</p>
     </section>
 
-    <section class="psp-card">
-      <h2>APY 이력과 전망</h2>
+    <section class="dt-panel dt-panel-full">
+      <h2 class="dt-panel-label">APY 이력과 전망</h2>
       <svg class="psp-chart" viewBox="0 0 640 280" role="img" aria-labelledby="psp-chart-title" preserveAspectRatio="xMidYMid meet">
         <title id="psp-chart-title">Solana의 Kamino Lend DSOL: 최근 30일 APY와 이후 14일 전망 범위 0.00%~0.00%</title>
-        <line class="psp-grid" x1="64" x2="624" y1="228.8" y2="228.8"/><text class="psp-axis" x="58" y="232.8" text-anchor="end">0.03%</text><line class="psp-grid" x1="64" x2="624" y1="128.0" y2="128.0"/><text class="psp-axis" x="58" y="132.0" text-anchor="end">0.25%</text><line class="psp-grid" x1="64" x2="624" y1="27.2" y2="27.2"/><text class="psp-axis" x="58" y="31.2" text-anchor="end">0.48%</text>
+        <line class="psp-grid" x1="64" x2="624" y1="128.0" y2="128.0"/><text class="psp-axis" x="58" y="132.0" text-anchor="end">0.10%</text>
         <line class="psp-today" x1="441.7" x2="441.7" y1="16" y2="240"/>
-        <polygon class="psp-band" points="441.7,240.0 624.0,240.0 624.0,240.0"/>
         <polyline class="psp-median" points="441.7,240.0 454.7,240.0 467.7,240.0 480.7,240.0 493.8,240.0 506.8,240.0 519.8,240.0 532.8,240.0 545.9,240.0 558.9,240.0 571.9,240.0 584.9,240.0 598.0,240.0 611.0,240.0 624.0,240.0"/>
         <polyline class="psp-line" points="64.0,240.0 77.0,240.0 90.0,240.0 103.1,240.0 116.1,240.0 129.1,240.0 142.1,240.0 155.2,240.0 168.2,240.0 181.2,240.0 194.2,240.0 207.3,240.0 220.3,240.0 233.3,240.0 246.3,240.0 259.3,240.0 272.4,240.0 285.4,240.0 298.4,240.0 311.4,240.0 324.5,240.0 337.5,240.0 350.5,240.0 363.5,240.0 376.6,240.0 389.6,240.0 402.6,240.0 415.6,240.0 428.7,240.0 441.7,240.0"/>
         <text class="psp-axis" x="64" y="266" text-anchor="start">2026-09-06</text>
@@ -161,52 +195,97 @@
         <text class="psp-axis" x="624" y="266" text-anchor="end">+14일</text>
       </svg>
       <ul class="psp-legend">
-        <li>관측 APY</li>
-        <li>전망 중앙값</li>
-        <li>전망 p10~p90</li>
+        <li class="psp-key-line">관측 APY</li>
+        <li class="psp-key-median">전망 중앙값</li>
+        <li class="psp-key-band">전망 p10~p90</li>
       </ul>
       <p class="psp-note">실선: DefiLlama의 일별 APY. 음영: 모델의 p10~p90 범위로, 오늘 수익률에서 전망 기간 끝까지 직선으로 넓어지게 그렸어요 (일별 분위수가 아니에요). 점선: 모델의 중앙값 경로.</p>
     </section>
 
-    <section class="psp-card">
-      <h2>이 수익이 나오는 곳</h2>
+    <section class="dt-panel dt-panel-full">
+      <h2 class="dt-panel-label">이 수익이 나오는 곳</h2>
       <p>DefiLlama에 이 풀의 기본/보상 APY가 현재 보고되지 않았어요.</p>
       <p>노출 자산: 단일 자산.</p>
       <p>DefiLlama가 이 풀에 비영구적 손실 위험이 없다고 표시했어요.</p>
       <p>풀 구분: SOL/BTC Market.</p>
     </section>
 
-    <section class="psp-card">
-      <h2>누가 이용할 수 있나요</h2>
-      <p class="psp-badge">허가 불필요 — 지갑만 있으면 누구나</p>
+    <section class="dt-panel dt-panel-full">
+      <h2 class="dt-panel-label">누가 이용할 수 있나요</h2>
+      <p class="dt-badge-tag">허가 불필요 — 지갑만 있으면 누구나</p>
       <p>이 프로젝트는 DeFi Garden의 제한 프로젝트(KYC 또는 적격 투자자 전용) 목록에 없어요. 프로토콜 자체 약관과 지역 제한은 적용될 수 있어요.</p>
     </section>
 
-    <section class="psp-card">
-      <h2>출금 참고</h2>
+    <section class="dt-panel dt-panel-full">
+      <h2 class="dt-panel-label">출금 참고</h2>
       <p>출금 유동성 항목: 8.7 / 15, 풀에는 $244.03M이 예치되어 있어요.</p>
       <p>모델은 14일 뒤 TVL을 $243.27M(-0.3%)로 예측해요.</p>
       <p>락업, 쿨다운, 출금 대기열은 프로토콜 컨트랙트가 정하며 DefiLlama 데이터에는 없어요. 예치 전에 프로토콜 문서를 확인하세요.</p>
     </section>
 
-    <section class="psp-card">
-      <h2>위험</h2>
-      <ul class="psp-list">
+    <section class="dt-panel dt-panel-full">
+      <h2 class="dt-panel-label">위험</h2>
+      <ul>
         <li>스마트 컨트랙트 위험: 프로토콜이나 의존 코드의 버그·해킹으로 예치금을 잃을 수 있어요.</li>
         <li>위의 기본 위험 외에 이 풀에 특화된 경고 신호는 데이터에서 발견되지 않았어요.</li>
       </ul>
     </section>
 
+    </div>
+    </div>
+
     <nav class="psp-similar" aria-label="비슷한 풀">
-      <h2>비슷한 풀</h2>
-        <a href="https://www.defi.garden/ko/pools/drift-staked-sol-dsol-solana">Solana의 Drift Staked Sol DSOL (TVL $342.09M)</a>
-        <a href="https://www.defi.garden/ko/pools/jito-liquid-staking-jitosol-solana">Solana의 Jito Liquid Staking JITOSOL (TVL $1.26B)</a>
-        <a href="https://www.defi.garden/ko/pools/binance-staked-sol-bnsol-solana">Solana의 Binance Staked Sol BNSOL (TVL $1.26B)</a>
-        <a href="https://www.defi.garden/ko/pools/blackrock-buidl-buidl-solana">Solana의 Blackrock Buidl BUIDL (TVL $967.58M)</a>
+      <h2 class="dt-panel-label">비슷한 풀</h2>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/drift-staked-sol-dsol-solana">Solana의 Drift Staked Sol DSOL (TVL $342.09M)</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/jito-liquid-staking-jitosol-solana">Solana의 Jito Liquid Staking JITOSOL (TVL $1.26B)</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/binance-staked-sol-bnsol-solana">Solana의 Binance Staked Sol BNSOL (TVL $1.26B)</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/blackrock-buidl-buidl-solana">Solana의 Blackrock Buidl BUIDL (TVL $967.58M)</a>
     </nav>
 
     <p class="psp-foot">교육 목적이며 투자 조언이 아니에요. DeFi에는 스마트 컨트랙트, 시장, 규제 위험이 있고 원금을 잃을 수 있어요.</p>
-    <p class="psp-foot"><a href="https://www.defi.garden/">DeFi Garden 🌱</a> — 목표에 맞춰 디파이 저축을 계획해요.</p>
   </main>
+    <footer class="app-footer">
+      <p>데이터 제공: <a href="https://api-docs.defillama.com/" target="_blank" rel="noopener noreferrer">DefiLlama API</a>. 투자 조언이 아닙니다.</p>
+      <p class="app-footer-hub-links">
+        <a href="/ko/tokens">토큰 둘러보기</a> · <a href="/ko/chains">체인 둘러보기</a> · <a href="/ko/pools">점수가 매겨진 풀 둘러보기 →</a> · <a href="/agents">AI 에이전트 &amp; MCP</a>
+      </p>
+    </footer>
+  </div>
+  <script>
+    (function () {
+      var L = {"toLight":"라이트 모드로 전환","toDark":"다크 모드로 전환","open":"메뉴 열기","close":"메뉴 닫기"};
+      var root = document.documentElement;
+      function isDark() {
+        var a = root.getAttribute('data-theme');
+        return a ? a === 'dark' : !!(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+      }
+      var themeBtn = document.getElementById('theme-toggle-btn');
+      function paint() {
+        if (!themeBtn) return;
+        var dark = isDark();
+        themeBtn.textContent = dark ? '\u263C' : '\u263E';
+        themeBtn.setAttribute('aria-label', dark ? L.toLight : L.toDark);
+      }
+      if (themeBtn) {
+        paint();
+        themeBtn.addEventListener('click', function () {
+          var next = isDark() ? 'light' : 'dark';
+          root.setAttribute('data-theme', next);
+          try { localStorage.setItem('theme', next); } catch (e) {}
+          paint();
+        });
+      }
+      var menuBtn = document.getElementById('menu-toggle-btn');
+      var mobileNav = document.getElementById('mobile-nav');
+      if (menuBtn && mobileNav) {
+        menuBtn.addEventListener('click', function () {
+          var open = mobileNav.classList.toggle('is-open');
+          menuBtn.textContent = open ? '\u00D7' : '\u2630';
+          menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+          menuBtn.setAttribute('aria-label', open ? L.close : L.open);
+        });
+      }
+    })();
+  </script>
 </body>
 </html>

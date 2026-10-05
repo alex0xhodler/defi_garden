@@ -25,57 +25,68 @@
     <link rel="preload" href="/fonts/PublicSans-latin-var.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/fonts/Besley-latin-var.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/landing-styles.css">
+    <link rel="stylesheet" href="/pool-detail-styles.min.css">
+    <script>try{var th=localStorage.getItem('theme');if(th)document.documentElement.setAttribute('data-theme',th)}catch(e){}</script>
     <style>
-      .psp-wrap { max-width: 860px; margin: 0 auto; padding: 24px 20px 40px; }
-      .psp-wrap h1 { font-family: var(--font-family-display); font-size: 1.6rem; line-height: 1.25; margin: 8px 0 8px; color: var(--ui-text); overflow-wrap: anywhere; }
-      .psp-wrap h2 { font-size: 1.1rem; margin: 0 0 10px; color: var(--ui-text); }
-      .psp-crumbs { font-size: .85rem; color: var(--ui-text-secondary); }
-      .psp-crumbs ol { list-style: none; display: flex; flex-wrap: wrap; gap: 4px 8px; margin: 0; padding: 0; }
-      .psp-crumbs li + li::before { content: "\203A"; margin-right: 8px; color: var(--ui-text-muted); }
-      .psp-crumbs a { color: var(--ui-accent); text-decoration: none; }
-      .psp-crumbs a:hover { text-decoration: underline; }
-      .psp-card { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-lg); box-shadow: none; padding: 18px; margin: 18px 0; }
-      .psp-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 0; }
-      .psp-stats div { background: var(--ui-surface-muted); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-md); padding: 10px 12px; }
-      .psp-stats dt { font-size: .8rem; color: var(--ui-text-secondary); margin: 0 0 2px; }
-      .psp-stats dd { margin: 0; font-size: 1.15rem; font-weight: 600; color: var(--ui-text); font-variant-numeric: tabular-nums; }
-      .psp-cta { display: inline-block; margin: 6px 0 4px; padding: 14px 24px; background: var(--ui-accent); color: var(--ui-on-accent); border: 1px solid transparent; border-radius: var(--ui-radius-md); box-shadow: none; text-decoration: none; font-weight: 600; transition: background .15s ease, transform .1s ease; }
-      .psp-cta:hover { background: var(--ui-accent-hover); }
-      .psp-cta:active { background: var(--ui-accent-active); transform: translateY(1px); }
-      .psp-cta:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
-      .psp-secondary { display: block; margin: 4px 0 0; font-size: .9rem; color: var(--ui-accent); text-decoration: none; }
-      .psp-secondary:hover { text-decoration: underline; }
-      .psp-secondary:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); border-radius: var(--ui-radius-sm); }
-      .psp-score { font-size: 1.5rem; font-weight: 700; color: var(--ui-text); font-variant-numeric: tabular-nums; margin: 0 0 12px; }
-      .psp-pillars { list-style: none; margin: 0 0 12px; padding: 0; display: grid; gap: 12px; }
-      .psp-pillar-head { display: flex; justify-content: space-between; gap: 12px; font-size: .92rem; color: var(--ui-text); }
-      .psp-pillar-head span:last-child { font-variant-numeric: tabular-nums; color: var(--ui-text-secondary); }
-      .psp-bar { height: 8px; margin-top: 6px; background: var(--ui-surface-sunken); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); overflow: hidden; }
-      .psp-bar > span { display: block; height: 100%; background: var(--ui-accent); }
-      .psp-forecast { width: 100%; border-collapse: collapse; margin: 8px 0; }
-      .psp-forecast th, .psp-forecast td { text-align: left; padding: 8px 6px; border-bottom: 1px solid var(--ui-border); color: var(--ui-text); }
-      .psp-forecast th { color: var(--ui-text-secondary); font-weight: 600; }
-      .psp-forecast td:last-child, .psp-forecast th:last-child { text-align: right; font-variant-numeric: tabular-nums; }
-      .psp-chart { width: 100%; height: auto; display: block; color: var(--ui-text-secondary); }
-      .psp-chart .psp-grid { stroke: var(--ui-border); stroke-width: 1; }
-      .psp-chart .psp-today { stroke: var(--ui-border-strong); stroke-width: 1; stroke-dasharray: 3 3; }
-      .psp-chart .psp-line { fill: none; stroke: var(--ui-accent); stroke-width: 2; stroke-linejoin: round; }
+      .psp-wrap { width: 100%; box-sizing: border-box; max-width: 860px; margin: 0 auto; padding: 24px 20px 40px; flex: 1 0 auto; color: var(--cert-ink); font-family: var(--cert-sans); font-size: 15px; line-height: 1.5; }
+      .psp-wrap h1 { font-family: var(--font-family-display); font-size: 1.7rem; font-weight: 600; line-height: 1.2; letter-spacing: -0.01em; margin: 8px 0 16px; color: var(--cert-ink); overflow-wrap: anywhere; }
+      .psp-crumbs { font-size: .85rem; color: var(--cert-ink-2); }
+      .psp-crumbs ol { list-style: none; display: flex; flex-wrap: wrap; gap: 0 8px; margin: 0; padding: 0; }
+      .psp-crumbs li { display: inline-flex; align-items: center; }
+      .psp-crumbs li + li::before { content: "\203A"; margin-right: 8px; color: var(--cert-ink-3); }
+      .psp-crumbs a { color: var(--cert-green); text-decoration: none; }
+      .psp-crumbs a:hover { text-decoration: underline; color: var(--cert-green-hover); }
+      .psp-page .app-footer a:focus-visible { outline: 2px solid transparent; outline-offset: 2px; box-shadow: var(--ui-focus-ring); }
+      .psp-wrap .dt-grid { gap: 16px; }
+      .psp-wrap .dt-panel p, .psp-wrap .dt-panel ul { margin: 0; line-height: 1.6; color: var(--cert-ink); }
+      .psp-wrap .dt-panel ul { padding-left: 20px; }
+      .psp-wrap .dt-panel .psp-note { color: var(--cert-ink-2); font-size: .9rem; line-height: 1.55; }
+      .psp-wrap .dt-badge-tag { align-self: flex-start; margin: 0; }
+      .psp-stats { grid-auto-flow: column; grid-auto-columns: minmax(0, 1fr); margin: 0; }
+      .psp-stats .dt-metric { min-width: 0; }
+      .psp-stats .dt-metric-val { margin: 0; overflow-wrap: anywhere; font-variant-numeric: tabular-nums; }
+      .psp-cta { width: 100%; max-width: 420px; margin: 4px 0 0; }
+      .psp-wrap .psp-secondary { display: inline-flex; align-items: center; align-self: flex-start; min-height: 40px; }
+      .psp-score { font-family: var(--font-family-mono, monospace); font-size: 1.5rem; font-weight: 700; font-variant-numeric: tabular-nums; margin: 0; }
+      .psp-pillars { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+      .psp-wrap .dt-panel ul.psp-pillars { padding: 0; }
+      .psp-pillar-head { display: flex; justify-content: space-between; gap: 12px; font-size: .92rem; }
+      .psp-pillar-head span:last-child { font-family: var(--font-family-mono, monospace); font-size: .85rem; font-variant-numeric: tabular-nums; color: var(--cert-ink-2); }
+      .psp-bar { height: 8px; margin-top: 6px; background: var(--cert-paper-deep); border: 1px solid var(--cert-rule); overflow: hidden; }
+      .psp-bar > span { display: block; height: 100%; background: var(--cert-green); }
+      .psp-forecast { width: 100%; border-collapse: collapse; }
+      .psp-forecast th, .psp-forecast td { text-align: left; padding: 10px 6px; border-bottom: 1px solid var(--cert-rule); color: var(--cert-ink); }
+      .psp-forecast th { font-family: var(--font-family-mono, monospace); font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--cert-ink-2); font-weight: 700; }
+      .psp-forecast td:last-child, .psp-forecast th:last-child { text-align: right; }
+      .psp-forecast td { font-family: var(--font-family-mono, monospace); font-weight: 700; font-variant-numeric: tabular-nums; }
+      .psp-chart { width: 100%; height: auto; display: block; color: var(--cert-ink-2); }
+      .psp-chart .psp-grid { stroke: var(--cert-rule); stroke-width: 1; }
+      .psp-chart .psp-today { stroke: var(--cert-rule-strong); stroke-width: 1; stroke-dasharray: 3 3; }
+      .psp-chart .psp-line { fill: none; stroke: var(--cert-green); stroke-width: 2; stroke-linejoin: round; }
       .psp-chart .psp-median { fill: none; stroke: currentColor; stroke-width: 1.5; stroke-dasharray: 5 4; }
-      .psp-chart .psp-band { fill: var(--ui-accent-soft); stroke: var(--ui-accent-border); stroke-width: 1; }
-      .psp-chart .psp-axis { fill: var(--ui-text-secondary); font-size: 11px; }
-      .psp-legend { display: flex; flex-wrap: wrap; gap: 6px 16px; list-style: none; margin: 8px 0 0; padding: 0; font-size: .85rem; color: var(--ui-text-secondary); }
-      .psp-note { color: var(--ui-text-secondary); font-size: .9rem; line-height: 1.55; margin: 8px 0 0; }
-      .psp-card p { color: var(--ui-text); line-height: 1.6; margin: 0 0 8px; }
-      .psp-card ul.psp-list { margin: 0; padding-left: 20px; color: var(--ui-text); line-height: 1.6; }
-      .psp-badge { display: inline-block; padding: 4px 12px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); font-weight: 600; font-size: .9rem; background: var(--ui-surface-muted); color: var(--ui-text); margin-bottom: 8px; }
-      .psp-similar a, .psp-hub-links a { display: inline-block; margin: 0 8px 8px 0; padding: 8px 14px; background: var(--ui-surface); color: var(--ui-accent); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); text-decoration: none; font-size: .9rem; }
-      .psp-similar a:hover, .psp-hub-links a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
-      .psp-similar a:active, .psp-hub-links a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
-      .psp-similar a:focus-visible, .psp-hub-links a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
-      .psp-foot { color: var(--ui-text-secondary); font-size: .9rem; line-height: 1.55; }
-      .psp-foot a { color: var(--ui-accent); }
-      @media (prefers-reduced-motion: reduce) { .psp-cta { transition: none; } .psp-cta:active, .psp-similar a:active, .psp-hub-links a:active { transform: none; } }
-      @media (max-width: 480px) { .psp-chart .psp-axis { font-size: 20px; } .psp-wrap { padding: 16px 14px 32px; } .psp-card { padding: 14px; } .psp-wrap h1 { font-size: 1.35rem; } }
+      .psp-chart .psp-band { fill: var(--cert-green-wash-strong); stroke: var(--cert-rule-strong); stroke-width: 1; }
+      .psp-chart .psp-axis { fill: var(--cert-ink-2); font-family: var(--font-family-mono, monospace); font-size: 11px; }
+      .psp-legend { display: flex; flex-wrap: wrap; gap: 8px 18px; list-style: none; margin: 0; padding: 0; font-size: .85rem; color: var(--cert-ink-2); }
+      .psp-legend li { display: inline-flex; align-items: center; gap: 8px; }
+      .psp-legend li::before { content: ""; display: inline-block; width: 18px; flex: 0 0 auto; box-sizing: border-box; }
+      .psp-key-line::before { height: 0; border-top: 2px solid var(--cert-green); }
+      .psp-key-median::before { height: 0; border-top: 2px dashed var(--cert-ink-2); }
+      .psp-key-band::before { height: 10px; background: var(--cert-green-wash-strong); border: 1px solid var(--cert-rule-strong); }
+      .psp-note { color: var(--cert-ink-2); font-size: .9rem; line-height: 1.55; margin: 8px 0 0; }
+      .psp-similar { margin: 28px 0 8px; }
+      .psp-similar h2 { margin: 0 0 12px; }
+      .psp-similar a, .psp-hub-links a { display: inline-flex; align-items: center; min-height: 40px; margin: 0 8px 8px 0; text-decoration: none; }
+      .psp-foot { color: var(--cert-ink-2); font-size: .9rem; line-height: 1.55; }
+      .psp-foot a { color: var(--cert-green); }
+      .psp-page .landing-icon-button { text-decoration: none; }
+      .psp-page .app-footer a { display: inline-block; padding: 12px 6px; }
+      @media (max-width: 720px) {
+        .psp-stats { grid-auto-flow: row; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+        .psp-stats .dt-metric:last-child:nth-child(odd) { grid-column: 1 / -1; }
+      }
+      @media (max-width: 768px) { .psp-crumbs a, .psp-crumbs li { min-height: 40px; } }
+      @media (max-width: 480px) { .psp-chart .psp-axis { font-size: 20px; } .psp-wrap { padding: 16px 14px 32px; } .psp-wrap h1 { font-size: 1.4rem; } .psp-cta { max-width: none; } }
     </style>
     <script type="text/javascript">
         window.MIXPANEL_CUSTOM_LIB_URL = "https://mp.defi.garden/lib.min.js";
@@ -92,24 +103,48 @@
     </script>
 </head>
 <body>
-  <main class="psp-wrap">
+  <div class="landing-app psp-page">
+    <header class="landing-header">
+      <a class="landing-brand" href="/">
+        <span class="landing-brand-mark"><svg class="landing-leaf-mark" viewBox="0 0 32 32" width="24" height="24" preserveAspectRatio="xMidYMid meet" fill="none" aria-hidden="true"><path d="M26.7 4.8C16.2 5.2 8.2 10.7 7.1 20.4c-.3 2.8.7 5.2 2.4 6.8 1.6-8.5 6.5-14.6 14.1-18.2-4.5 3.9-7.6 8.7-9 14.6 3.1-3.9 7-6.8 11.7-8.8.8-2.8.9-6 .4-10Z" fill="currentColor" /><path d="M8.8 27.2c3.2-5.1 7.2-8.9 12.2-11.4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" /></svg></span>
+        <span>DeFi Garden</span>
+      </a>
+      <nav class="landing-nav" aria-label="Primary navigation">
+        <a href="/?app=1">Search yields</a>
+        <a href="/plan.html">Savings Planner</a>
+        <a href="/agents">AI Agents &amp; MCP</a>
+      </nav>
+      <div class="landing-header-actions">
+        <a class="landing-icon-button" href="/ko/pools/morpho-blue-usde-robinhood-chain" hreflang="ko" lang="ko" aria-label="Switch to Korean">KO</a>
+        <button type="button" class="landing-icon-button landing-theme-button" id="theme-toggle-btn" aria-label="Switch to light mode">☼</button>
+        <button type="button" class="landing-menu-button" id="menu-toggle-btn" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">☰</button>
+      </div>
+    </header>
+    <nav class="landing-mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+      <a href="/?app=1">Search yields</a>
+      <a href="/plan.html">Savings Planner</a>
+      <a href="/agents">AI Agents &amp; MCP</a>
+    </nav>
+  <main class="psp-wrap pool-detail-view">
     <nav class="psp-crumbs" aria-label="Home"><ol><li><a href="https://www.defi.garden/">Home</a></li><li><a href="https://www.defi.garden/chains">Chains</a></li><li><a href="https://www.defi.garden/chains/robinhood-chain">Robinhood Chain</a></li><li aria-current="page">Morpho Blue USDE</li></ol></nav>
     <h1>Morpho Blue USDE on Robinhood Chain: APY, DeFi Score &amp; 14-day forecast</h1>
-    <section class="psp-card" aria-label="Summary">
-      <dl class="psp-stats">
-        <div><dt>Live APY</dt><dd>4.75%</dd></div>
-        <div><dt>30-day mean APY</dt><dd>4.80%</dd></div>
-        <div><dt>Base APY</dt><dd>0.00%</dd></div>
-        <div><dt>Reward APY</dt><dd>4.75%</dd></div>
-        <div><dt>TVL</dt><dd>$354.28M</dd></div>
+    <div class="decision-terminal-card">
+    <div class="dt-grid">
+    <section class="dt-panel dt-panel-full" aria-label="Summary">
+      <dl class="dt-metric-row psp-stats">
+        <div class="dt-metric"><dt class="dt-metric-name">Live APY</dt><dd class="dt-metric-val">4.75%</dd></div>
+        <div class="dt-metric"><dt class="dt-metric-name">30-day mean APY</dt><dd class="dt-metric-val">4.80%</dd></div>
+        <div class="dt-metric"><dt class="dt-metric-name">Base APY</dt><dd class="dt-metric-val">0.00%</dd></div>
+        <div class="dt-metric"><dt class="dt-metric-name">Reward APY</dt><dd class="dt-metric-val">4.75%</dd></div>
+        <div class="dt-metric"><dt class="dt-metric-name">TVL</dt><dd class="dt-metric-val">$354.28M</dd></div>
       </dl>
       <p class="psp-note">Data as of October 5, 2026. Source: DefiLlama pool data; score and forecast computed by DeFi Garden.</p>
-      <a class="psp-cta" rel="nofollow" href="https://www.defi.garden/?pool=d3ed814d-9763-5436-8b25-66bdbabd36f8#src=seo_pool">Open in the Decision Terminal →</a>
-      <a class="psp-secondary" rel="nofollow noopener" href="https://app.morpho.org/?ref=defi.garden">Go to Morpho Blue →</a>
+      <a class="btn btn--primary btn--lg btn--full-width psp-cta" rel="nofollow" href="https://www.defi.garden/?pool=d3ed814d-9763-5436-8b25-66bdbabd36f8#src=seo_pool">Open in the Decision Terminal →</a>
+      <a class="cta-echo-link psp-secondary" rel="nofollow noopener" href="https://app.morpho.org/?ref=defi.garden">Go to Morpho Blue →</a>
     </section>
 
-    <section class="psp-card">
-      <h2>DeFi Score</h2>
+    <section class="dt-panel dt-panel-full">
+      <h2 class="dt-panel-label">DeFi Score</h2>
       <p class="psp-score">Score 78.7 / 100</p>
       <ul class="psp-pillars">
         <li>
@@ -132,8 +167,8 @@
       <p class="psp-note">The score blends four pillars computed by DeFi Garden from DefiLlama history and a forecasting model. It is a model output, not a guarantee. <a href="https://www.defi.garden/ai-info">How the score and forecast are computed</a></p>
     </section>
 
-    <section class="psp-card">
-      <h2>14-day forecast band</h2>
+    <section class="dt-panel dt-panel-full">
+      <h2 class="dt-panel-label">14-day forecast band</h2>
       <p>Model forecast for the next 14 days: median 4.76%, range 4.70% to 4.92% (p10 to p90).</p>
       <table class="psp-forecast">
         <tbody>
@@ -147,8 +182,8 @@
       <p class="psp-note">This is a model forecast built from past data, not a promise. Actual rates can land outside the range.</p>
     </section>
 
-    <section class="psp-card">
-      <h2>APY history and forecast</h2>
+    <section class="dt-panel dt-panel-full">
+      <h2 class="dt-panel-label">APY history and forecast</h2>
       <svg class="psp-chart" viewBox="0 0 640 280" role="img" aria-labelledby="psp-chart-title" preserveAspectRatio="xMidYMid meet">
         <title id="psp-chart-title">Morpho Blue USDE on Robinhood Chain: APY over the last 30 days, then a 14-day forecast band from 4.70% to 4.92%</title>
         <line class="psp-grid" x1="64" x2="624" y1="228.8" y2="228.8"/><text class="psp-axis" x="58" y="232.8" text-anchor="end">4.04%</text><line class="psp-grid" x1="64" x2="624" y1="128.0" y2="128.0"/><text class="psp-axis" x="58" y="132.0" text-anchor="end">4.53%</text><line class="psp-grid" x1="64" x2="624" y1="27.2" y2="27.2"/><text class="psp-axis" x="58" y="31.2" text-anchor="end">5.02%</text>
@@ -161,51 +196,96 @@
         <text class="psp-axis" x="624" y="266" text-anchor="end">+14d</text>
       </svg>
       <ul class="psp-legend">
-        <li>Observed APY</li>
-        <li>Forecast median</li>
-        <li>Forecast p10 to p90</li>
+        <li class="psp-key-line">Observed APY</li>
+        <li class="psp-key-median">Forecast median</li>
+        <li class="psp-key-band">Forecast p10 to p90</li>
       </ul>
       <p class="psp-note">Solid line: daily APY from DefiLlama. Shaded area: the model&#39;s p10 to p90 range, drawn as a straight fan from today&#39;s rate to the end of the forecast horizon (not daily quantiles). Dashed line: the model&#39;s median path.</p>
     </section>
 
-    <section class="psp-card">
-      <h2>What produces this yield</h2>
+    <section class="dt-panel dt-panel-full">
+      <h2 class="dt-panel-label">What produces this yield</h2>
       <p>4.75% (100% of the total) comes from reward tokens the protocol emits to attract deposits. Emissions can be cut or end.</p>
       <p>Exposure: a single asset.</p>
       <p>DefiLlama flags no impermanent-loss risk for this pool.</p>
     </section>
 
-    <section class="psp-card">
-      <h2>Who can access it</h2>
-      <p class="psp-badge">Permissionless — anyone with a wallet</p>
+    <section class="dt-panel dt-panel-full">
+      <h2 class="dt-panel-label">Who can access it</h2>
+      <p class="dt-badge-tag">Permissionless — anyone with a wallet</p>
       <p>This project is not on DeFi Garden&#39;s list of restricted (KYC or accredited-only) projects. The protocol&#39;s own terms and regional restrictions can still apply.</p>
     </section>
 
-    <section class="psp-card">
-      <h2>Withdrawal notes</h2>
+    <section class="dt-panel dt-panel-full">
+      <h2 class="dt-panel-label">Withdrawal notes</h2>
       <p>Exit liquidity pillar: 11.0 / 15, with $354.28M in the pool.</p>
       <p>The model projects TVL of $359.85M in 14 days (+1.6%).</p>
       <p>Lock-ups, cooldowns and withdrawal queues are set by the protocol&#39;s contracts and are not in the DefiLlama feed. Check the protocol&#39;s documentation before depositing.</p>
     </section>
 
-    <section class="psp-card">
-      <h2>Risks</h2>
-      <ul class="psp-list">
+    <section class="dt-panel dt-panel-full">
+      <h2 class="dt-panel-label">Risks</h2>
+      <ul>
         <li>Smart-contract risk: a bug or exploit in the protocol or its dependencies can lose deposited funds.</li>
         <li>Reward decay: 100% of the headline APY is paid in emitted tokens, which can shrink or stop.</li>
       </ul>
     </section>
 
+    </div>
+    </div>
+
     <nav class="psp-similar" aria-label="Similar pools">
-      <h2>Similar pools</h2>
-        <a href="https://www.defi.garden/pools/aave-v3-usde-ethereum">Aave V3 USDE on Ethereum ($544.58M TVL)</a>
-        <a href="https://www.defi.garden/pools/aave-v3-usde-plasma">Aave V3 USDE on Plasma ($534.78M TVL)</a>
-        <a href="https://www.defi.garden/pools/morpho-blue-usde-base">Morpho Blue USDE on Base ($391.41M TVL)</a>
-        <a href="https://www.defi.garden/pools/morpho-blue-steakusdg-robinhood-chain">Morpho Blue STEAKUSDG on Robinhood Chain ($533.03M TVL)</a>
+      <h2 class="dt-panel-label">Similar pools</h2>
+        <a class="dt-preset-btn" href="https://www.defi.garden/pools/aave-v3-usde-ethereum">Aave V3 USDE on Ethereum ($544.58M TVL)</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/pools/aave-v3-usde-plasma">Aave V3 USDE on Plasma ($534.78M TVL)</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/pools/morpho-blue-usde-base">Morpho Blue USDE on Base ($391.41M TVL)</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/pools/morpho-blue-steakusdg-robinhood-chain">Morpho Blue STEAKUSDG on Robinhood Chain ($533.03M TVL)</a>
     </nav>
 
     <p class="psp-foot">Education, not financial advice. DeFi carries smart-contract, market and regulatory risk, and you can lose money.</p>
-    <p class="psp-foot"><a href="https://www.defi.garden/">DeFi Garden 🌱</a> — plan your DeFi savings by goal.</p>
   </main>
+    <footer class="app-footer">
+      <p>Powered by <a href="https://api-docs.defillama.com/" target="_blank" rel="noopener noreferrer">DefiLlama API</a>. Education, not advice.</p>
+      <p class="app-footer-hub-links">
+        <a href="/tokens">Browse tokens</a> · <a href="/chains">Browse chains</a> · <a href="/pools">Browse scored pools →</a> · <a href="/agents">AI Agents &amp; MCP</a>
+      </p>
+    </footer>
+  </div>
+  <script>
+    (function () {
+      var L = {"toLight":"Switch to light mode","toDark":"Switch to dark mode","open":"Open menu","close":"Close menu"};
+      var root = document.documentElement;
+      function isDark() {
+        var a = root.getAttribute('data-theme');
+        return a ? a === 'dark' : !!(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+      }
+      var themeBtn = document.getElementById('theme-toggle-btn');
+      function paint() {
+        if (!themeBtn) return;
+        var dark = isDark();
+        themeBtn.textContent = dark ? '\u263C' : '\u263E';
+        themeBtn.setAttribute('aria-label', dark ? L.toLight : L.toDark);
+      }
+      if (themeBtn) {
+        paint();
+        themeBtn.addEventListener('click', function () {
+          var next = isDark() ? 'light' : 'dark';
+          root.setAttribute('data-theme', next);
+          try { localStorage.setItem('theme', next); } catch (e) {}
+          paint();
+        });
+      }
+      var menuBtn = document.getElementById('menu-toggle-btn');
+      var mobileNav = document.getElementById('mobile-nav');
+      if (menuBtn && mobileNav) {
+        menuBtn.addEventListener('click', function () {
+          var open = mobileNav.classList.toggle('is-open');
+          menuBtn.textContent = open ? '\u00D7' : '\u2630';
+          menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+          menuBtn.setAttribute('aria-label', open ? L.close : L.open);
+        });
+      }
+    })();
+  </script>
 </body>
 </html>

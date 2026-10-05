@@ -22,57 +22,68 @@
     <link rel="preload" href="/fonts/PublicSans-latin-var.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/fonts/Besley-latin-var.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/landing-styles.css">
+    <link rel="stylesheet" href="/pool-detail-styles.min.css">
+    <script>try{var th=localStorage.getItem('theme');if(th)document.documentElement.setAttribute('data-theme',th)}catch(e){}</script>
     <style>
-      .psp-wrap { max-width: 860px; margin: 0 auto; padding: 24px 20px 40px; }
-      .psp-wrap h1 { font-family: var(--font-family-display); font-size: 1.6rem; line-height: 1.25; margin: 8px 0 8px; color: var(--ui-text); overflow-wrap: anywhere; }
-      .psp-wrap h2 { font-size: 1.1rem; margin: 0 0 10px; color: var(--ui-text); }
-      .psp-crumbs { font-size: .85rem; color: var(--ui-text-secondary); }
-      .psp-crumbs ol { list-style: none; display: flex; flex-wrap: wrap; gap: 4px 8px; margin: 0; padding: 0; }
-      .psp-crumbs li + li::before { content: "\203A"; margin-right: 8px; color: var(--ui-text-muted); }
-      .psp-crumbs a { color: var(--ui-accent); text-decoration: none; }
-      .psp-crumbs a:hover { text-decoration: underline; }
-      .psp-card { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-lg); box-shadow: none; padding: 18px; margin: 18px 0; }
-      .psp-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 0; }
-      .psp-stats div { background: var(--ui-surface-muted); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-md); padding: 10px 12px; }
-      .psp-stats dt { font-size: .8rem; color: var(--ui-text-secondary); margin: 0 0 2px; }
-      .psp-stats dd { margin: 0; font-size: 1.15rem; font-weight: 600; color: var(--ui-text); font-variant-numeric: tabular-nums; }
-      .psp-cta { display: inline-block; margin: 6px 0 4px; padding: 14px 24px; background: var(--ui-accent); color: var(--ui-on-accent); border: 1px solid transparent; border-radius: var(--ui-radius-md); box-shadow: none; text-decoration: none; font-weight: 600; transition: background .15s ease, transform .1s ease; }
-      .psp-cta:hover { background: var(--ui-accent-hover); }
-      .psp-cta:active { background: var(--ui-accent-active); transform: translateY(1px); }
-      .psp-cta:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
-      .psp-secondary { display: block; margin: 4px 0 0; font-size: .9rem; color: var(--ui-accent); text-decoration: none; }
-      .psp-secondary:hover { text-decoration: underline; }
-      .psp-secondary:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); border-radius: var(--ui-radius-sm); }
-      .psp-score { font-size: 1.5rem; font-weight: 700; color: var(--ui-text); font-variant-numeric: tabular-nums; margin: 0 0 12px; }
-      .psp-pillars { list-style: none; margin: 0 0 12px; padding: 0; display: grid; gap: 12px; }
-      .psp-pillar-head { display: flex; justify-content: space-between; gap: 12px; font-size: .92rem; color: var(--ui-text); }
-      .psp-pillar-head span:last-child { font-variant-numeric: tabular-nums; color: var(--ui-text-secondary); }
-      .psp-bar { height: 8px; margin-top: 6px; background: var(--ui-surface-sunken); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); overflow: hidden; }
-      .psp-bar > span { display: block; height: 100%; background: var(--ui-accent); }
-      .psp-forecast { width: 100%; border-collapse: collapse; margin: 8px 0; }
-      .psp-forecast th, .psp-forecast td { text-align: left; padding: 8px 6px; border-bottom: 1px solid var(--ui-border); color: var(--ui-text); }
-      .psp-forecast th { color: var(--ui-text-secondary); font-weight: 600; }
-      .psp-forecast td:last-child, .psp-forecast th:last-child { text-align: right; font-variant-numeric: tabular-nums; }
-      .psp-chart { width: 100%; height: auto; display: block; color: var(--ui-text-secondary); }
-      .psp-chart .psp-grid { stroke: var(--ui-border); stroke-width: 1; }
-      .psp-chart .psp-today { stroke: var(--ui-border-strong); stroke-width: 1; stroke-dasharray: 3 3; }
-      .psp-chart .psp-line { fill: none; stroke: var(--ui-accent); stroke-width: 2; stroke-linejoin: round; }
+      .psp-wrap { width: 100%; box-sizing: border-box; max-width: 860px; margin: 0 auto; padding: 24px 20px 40px; flex: 1 0 auto; color: var(--cert-ink); font-family: var(--cert-sans); font-size: 15px; line-height: 1.5; }
+      .psp-wrap h1 { font-family: var(--font-family-display); font-size: 1.7rem; font-weight: 600; line-height: 1.2; letter-spacing: -0.01em; margin: 8px 0 16px; color: var(--cert-ink); overflow-wrap: anywhere; }
+      .psp-crumbs { font-size: .85rem; color: var(--cert-ink-2); }
+      .psp-crumbs ol { list-style: none; display: flex; flex-wrap: wrap; gap: 0 8px; margin: 0; padding: 0; }
+      .psp-crumbs li { display: inline-flex; align-items: center; }
+      .psp-crumbs li + li::before { content: "\203A"; margin-right: 8px; color: var(--cert-ink-3); }
+      .psp-crumbs a { color: var(--cert-green); text-decoration: none; }
+      .psp-crumbs a:hover { text-decoration: underline; color: var(--cert-green-hover); }
+      .psp-page .app-footer a:focus-visible { outline: 2px solid transparent; outline-offset: 2px; box-shadow: var(--ui-focus-ring); }
+      .psp-wrap .dt-grid { gap: 16px; }
+      .psp-wrap .dt-panel p, .psp-wrap .dt-panel ul { margin: 0; line-height: 1.6; color: var(--cert-ink); }
+      .psp-wrap .dt-panel ul { padding-left: 20px; }
+      .psp-wrap .dt-panel .psp-note { color: var(--cert-ink-2); font-size: .9rem; line-height: 1.55; }
+      .psp-wrap .dt-badge-tag { align-self: flex-start; margin: 0; }
+      .psp-stats { grid-auto-flow: column; grid-auto-columns: minmax(0, 1fr); margin: 0; }
+      .psp-stats .dt-metric { min-width: 0; }
+      .psp-stats .dt-metric-val { margin: 0; overflow-wrap: anywhere; font-variant-numeric: tabular-nums; }
+      .psp-cta { width: 100%; max-width: 420px; margin: 4px 0 0; }
+      .psp-wrap .psp-secondary { display: inline-flex; align-items: center; align-self: flex-start; min-height: 40px; }
+      .psp-score { font-family: var(--font-family-mono, monospace); font-size: 1.5rem; font-weight: 700; font-variant-numeric: tabular-nums; margin: 0; }
+      .psp-pillars { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+      .psp-wrap .dt-panel ul.psp-pillars { padding: 0; }
+      .psp-pillar-head { display: flex; justify-content: space-between; gap: 12px; font-size: .92rem; }
+      .psp-pillar-head span:last-child { font-family: var(--font-family-mono, monospace); font-size: .85rem; font-variant-numeric: tabular-nums; color: var(--cert-ink-2); }
+      .psp-bar { height: 8px; margin-top: 6px; background: var(--cert-paper-deep); border: 1px solid var(--cert-rule); overflow: hidden; }
+      .psp-bar > span { display: block; height: 100%; background: var(--cert-green); }
+      .psp-forecast { width: 100%; border-collapse: collapse; }
+      .psp-forecast th, .psp-forecast td { text-align: left; padding: 10px 6px; border-bottom: 1px solid var(--cert-rule); color: var(--cert-ink); }
+      .psp-forecast th { font-family: var(--font-family-mono, monospace); font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--cert-ink-2); font-weight: 700; }
+      .psp-forecast td:last-child, .psp-forecast th:last-child { text-align: right; }
+      .psp-forecast td { font-family: var(--font-family-mono, monospace); font-weight: 700; font-variant-numeric: tabular-nums; }
+      .psp-chart { width: 100%; height: auto; display: block; color: var(--cert-ink-2); }
+      .psp-chart .psp-grid { stroke: var(--cert-rule); stroke-width: 1; }
+      .psp-chart .psp-today { stroke: var(--cert-rule-strong); stroke-width: 1; stroke-dasharray: 3 3; }
+      .psp-chart .psp-line { fill: none; stroke: var(--cert-green); stroke-width: 2; stroke-linejoin: round; }
       .psp-chart .psp-median { fill: none; stroke: currentColor; stroke-width: 1.5; stroke-dasharray: 5 4; }
-      .psp-chart .psp-band { fill: var(--ui-accent-soft); stroke: var(--ui-accent-border); stroke-width: 1; }
-      .psp-chart .psp-axis { fill: var(--ui-text-secondary); font-size: 11px; }
-      .psp-legend { display: flex; flex-wrap: wrap; gap: 6px 16px; list-style: none; margin: 8px 0 0; padding: 0; font-size: .85rem; color: var(--ui-text-secondary); }
-      .psp-note { color: var(--ui-text-secondary); font-size: .9rem; line-height: 1.55; margin: 8px 0 0; }
-      .psp-card p { color: var(--ui-text); line-height: 1.6; margin: 0 0 8px; }
-      .psp-card ul.psp-list { margin: 0; padding-left: 20px; color: var(--ui-text); line-height: 1.6; }
-      .psp-badge { display: inline-block; padding: 4px 12px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); font-weight: 600; font-size: .9rem; background: var(--ui-surface-muted); color: var(--ui-text); margin-bottom: 8px; }
-      .psp-similar a, .psp-hub-links a { display: inline-block; margin: 0 8px 8px 0; padding: 8px 14px; background: var(--ui-surface); color: var(--ui-accent); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); text-decoration: none; font-size: .9rem; }
-      .psp-similar a:hover, .psp-hub-links a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
-      .psp-similar a:active, .psp-hub-links a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
-      .psp-similar a:focus-visible, .psp-hub-links a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
-      .psp-foot { color: var(--ui-text-secondary); font-size: .9rem; line-height: 1.55; }
-      .psp-foot a { color: var(--ui-accent); }
-      @media (prefers-reduced-motion: reduce) { .psp-cta { transition: none; } .psp-cta:active, .psp-similar a:active, .psp-hub-links a:active { transform: none; } }
-      @media (max-width: 480px) { .psp-chart .psp-axis { font-size: 20px; } .psp-wrap { padding: 16px 14px 32px; } .psp-card { padding: 14px; } .psp-wrap h1 { font-size: 1.35rem; } }
+      .psp-chart .psp-band { fill: var(--cert-green-wash-strong); stroke: var(--cert-rule-strong); stroke-width: 1; }
+      .psp-chart .psp-axis { fill: var(--cert-ink-2); font-family: var(--font-family-mono, monospace); font-size: 11px; }
+      .psp-legend { display: flex; flex-wrap: wrap; gap: 8px 18px; list-style: none; margin: 0; padding: 0; font-size: .85rem; color: var(--cert-ink-2); }
+      .psp-legend li { display: inline-flex; align-items: center; gap: 8px; }
+      .psp-legend li::before { content: ""; display: inline-block; width: 18px; flex: 0 0 auto; box-sizing: border-box; }
+      .psp-key-line::before { height: 0; border-top: 2px solid var(--cert-green); }
+      .psp-key-median::before { height: 0; border-top: 2px dashed var(--cert-ink-2); }
+      .psp-key-band::before { height: 10px; background: var(--cert-green-wash-strong); border: 1px solid var(--cert-rule-strong); }
+      .psp-note { color: var(--cert-ink-2); font-size: .9rem; line-height: 1.55; margin: 8px 0 0; }
+      .psp-similar { margin: 28px 0 8px; }
+      .psp-similar h2 { margin: 0 0 12px; }
+      .psp-similar a, .psp-hub-links a { display: inline-flex; align-items: center; min-height: 40px; margin: 0 8px 8px 0; text-decoration: none; }
+      .psp-foot { color: var(--cert-ink-2); font-size: .9rem; line-height: 1.55; }
+      .psp-foot a { color: var(--cert-green); }
+      .psp-page .landing-icon-button { text-decoration: none; }
+      .psp-page .app-footer a { display: inline-block; padding: 12px 6px; }
+      @media (max-width: 720px) {
+        .psp-stats { grid-auto-flow: row; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+        .psp-stats .dt-metric:last-child:nth-child(odd) { grid-column: 1 / -1; }
+      }
+      @media (max-width: 768px) { .psp-crumbs a, .psp-crumbs li { min-height: 40px; } }
+      @media (max-width: 480px) { .psp-chart .psp-axis { font-size: 20px; } .psp-wrap { padding: 16px 14px 32px; } .psp-wrap h1 { font-size: 1.4rem; } .psp-cta { max-width: none; } }
     </style>
     <script type="text/javascript">
         window.MIXPANEL_CUSTOM_LIB_URL = "https://mp.defi.garden/lib.min.js";
@@ -89,177 +100,246 @@
     </script>
 </head>
 <body>
-  <main class="psp-wrap">
+  <div class="landing-app psp-page">
+    <header class="landing-header">
+      <a class="landing-brand" href="/?lang=ko">
+        <span class="landing-brand-mark"><svg class="landing-leaf-mark" viewBox="0 0 32 32" width="24" height="24" preserveAspectRatio="xMidYMid meet" fill="none" aria-hidden="true"><path d="M26.7 4.8C16.2 5.2 8.2 10.7 7.1 20.4c-.3 2.8.7 5.2 2.4 6.8 1.6-8.5 6.5-14.6 14.1-18.2-4.5 3.9-7.6 8.7-9 14.6 3.1-3.9 7-6.8 11.7-8.8.8-2.8.9-6 .4-10Z" fill="currentColor" /><path d="M8.8 27.2c3.2-5.1 7.2-8.9 12.2-11.4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" /></svg></span>
+        <span>DeFi Garden</span>
+      </a>
+      <nav class="landing-nav" aria-label="주요 메뉴">
+        <a href="/?app=1">수익률 검색</a>
+        <a href="/plan.html">저축 플래너</a>
+        <a href="/agents">AI 에이전트 &amp; MCP</a>
+      </nav>
+      <div class="landing-header-actions">
+        <a class="landing-icon-button" href="/pools" hreflang="en" lang="en" aria-label="영어로 전환">EN</a>
+        <button type="button" class="landing-icon-button landing-theme-button" id="theme-toggle-btn" aria-label="라이트 모드로 전환">☼</button>
+        <button type="button" class="landing-menu-button" id="menu-toggle-btn" aria-expanded="false" aria-controls="mobile-nav" aria-label="메뉴 열기">☰</button>
+      </div>
+    </header>
+    <nav class="landing-mobile-nav" id="mobile-nav" aria-label="모바일 메뉴">
+      <a href="/?app=1">수익률 검색</a>
+      <a href="/plan.html">저축 플래너</a>
+      <a href="/agents">AI 에이전트 &amp; MCP</a>
+    </nav>
+  <main class="psp-wrap pool-detail-view">
+    <nav class="psp-crumbs" aria-label="홈"><ol><li><a href="https://www.defi.garden/">홈</a></li><li aria-current="page">풀</li></ol></nav>
     <h1>점수가 매겨진 DeFi 풀</h1>
     <p class="psp-note">TVL $10M 이상이고 이력이 30일 이상인 풀 100개.</p>
     <p class="psp-note">각 페이지에는 실시간 수익률, DeFi Score 항목, 14일 모델 전망 범위, 이용 가능 여부와 주요 위험이 담겨 있어요. 숫자는 DefiLlama에서 오고, 점수와 전망은 모델 결과예요.</p>
-    <section class="psp-card">
-      <h2>Ethereum</h2>
+    <div class="decision-terminal-card">
+    <div class="dt-grid">
+    <section class="dt-panel dt-panel-full">
+      <h2 class="dt-panel-label">Ethereum</h2>
       <div class="psp-hub-links">
-        <a href="https://www.defi.garden/ko/pools/lido-steth-ethereum">Lido STETH</a>
-        <a href="https://www.defi.garden/ko/pools/binance-staked-eth-wbeth-ethereum">Binance Staked Eth WBETH</a>
-        <a href="https://www.defi.garden/ko/pools/ether-fi-stake-weeth-ethereum">Ether.fi Stake WEETH</a>
-        <a href="https://www.defi.garden/ko/pools/sky-lending-susds-ethereum">Sky Lending SUSDS</a>
-        <a href="https://www.defi.garden/ko/pools/aave-v3-weeth-ethereum">Aave V3 WEETH</a>
-        <a href="https://www.defi.garden/ko/pools/sparklend-wsteth-ethereum">Sparklend WSTETH</a>
-        <a href="https://www.defi.garden/ko/pools/maple-usdc-ethereum">Maple USDC</a>
-        <a href="https://www.defi.garden/ko/pools/aave-v3-wbtc-ethereum">Aave V3 WBTC</a>
-        <a href="https://www.defi.garden/ko/pools/aave-v3-wsteth-ethereum">Aave V3 WSTETH</a>
-        <a href="https://www.defi.garden/ko/pools/aave-v3-cbbtc-ethereum">Aave V3 CBBTC</a>
-        <a href="https://www.defi.garden/ko/pools/rocket-pool-reth-ethereum">Rocket Pool RETH</a>
-        <a href="https://www.defi.garden/ko/pools/ethena-usde-susde-ethereum">Ethena Usde SUSDE</a>
-        <a href="https://www.defi.garden/ko/pools/ondo-yield-assets-usdy-ethereum">Ondo Yield Assets USDY</a>
-        <a href="https://www.defi.garden/ko/pools/kelp-rseth-ethereum">Kelp RSETH</a>
-        <a href="https://www.defi.garden/ko/pools/aave-v3-weth-ethereum">Aave V3 WETH</a>
-        <a href="https://www.defi.garden/ko/pools/sky-lending-sky-ethereum">Sky Lending SKY</a>
-        <a href="https://www.defi.garden/ko/pools/concrete-ctdeltaweeth-ethereum">Concrete CTDELTAWEETH</a>
-        <a href="https://www.defi.garden/ko/pools/sky-lending-weth-ethereum">Sky Lending WETH</a>
-        <a href="https://www.defi.garden/ko/pools/liquid-collective-lseth-ethereum">Liquid Collective LSETH</a>
-        <a href="https://www.defi.garden/ko/pools/sky-lending-weth-ethereum-eth-a">Sky Lending WETH</a>
-        <a href="https://www.defi.garden/ko/pools/morpho-blue-cbbtc-ethereum">Morpho Blue CBBTC</a>
-        <a href="https://www.defi.garden/ko/pools/lombard-lbtc-lbtc-ethereum">Lombard Lbtc LBTC</a>
-        <a href="https://www.defi.garden/ko/pools/maple-usdt-ethereum">Maple USDT</a>
-        <a href="https://www.defi.garden/ko/pools/meth-protocol-meth-ethereum">Meth Protocol METH</a>
-        <a href="https://www.defi.garden/ko/pools/sparklend-usds-ethereum">Sparklend USDS</a>
-        <a href="https://www.defi.garden/ko/pools/invesco-ustb-ustb-ethereum">Invesco Ustb USTB</a>
-        <a href="https://www.defi.garden/ko/pools/aave-v3-usde-ethereum">Aave V3 USDE</a>
-        <a href="https://www.defi.garden/ko/pools/coinbase-wrapped-staked-eth-cbeth-ethereum">Coinbase Wrapped Staked Eth CBETH</a>
-        <a href="https://www.defi.garden/ko/pools/usual-usd0-busd0-ethereum">Usual Usd0 BUSD0</a>
-        <a href="https://www.defi.garden/ko/pools/maple-usdg-ethereum">Maple USDG</a>
-        <a href="https://www.defi.garden/ko/pools/morpho-blue-senrlusdv2-ethereum">Morpho Blue SENRLUSDV2</a>
-        <a href="https://www.defi.garden/ko/pools/sparklend-cbbtc-ethereum">Sparklend CBBTC</a>
-        <a href="https://www.defi.garden/ko/pools/hastra-prime-ethereum">Hastra PRIME</a>
-        <a href="https://www.defi.garden/ko/pools/spark-savings-usdt-ethereum">Spark Savings USDT</a>
-        <a href="https://www.defi.garden/ko/pools/sparklend-usds-ethereum-0ed981">Sparklend USDS</a>
-        <a href="https://www.defi.garden/ko/pools/stakewise-v3-oseth-ethereum">Stakewise V3 OSETH</a>
-        <a href="https://www.defi.garden/ko/pools/morpho-blue-wsteth-ethereum">Morpho Blue WSTETH</a>
-        <a href="https://www.defi.garden/ko/pools/compound-v3-wbtc-ethereum">Compound V3 WBTC</a>
-        <a href="https://www.defi.garden/ko/pools/morpho-blue-senpyusdmain-ethereum">Morpho Blue SENPYUSDMAIN</a>
-        <a href="https://www.defi.garden/ko/pools/ether-fi-liquid-liquideth-ethereum">Ether.fi Liquid LIQUIDETH</a>
-        <a href="https://www.defi.garden/ko/pools/aave-v3-oseth-ethereum">Aave V3 OSETH</a>
-        <a href="https://www.defi.garden/ko/pools/morpho-blue-kbtc-ethereum">Morpho Blue KBTC</a>
-        <a href="https://www.defi.garden/ko/pools/centrifuge-protocol-usds-ethereum">Centrifuge Protocol USDS</a>
-        <a href="https://www.defi.garden/ko/pools/spark-savings-usdc-ethereum">Spark Savings USDC</a>
-        <a href="https://www.defi.garden/ko/pools/centrifuge-protocol-usat-ethereum">Centrifuge Protocol USAT</a>
-        <a href="https://www.defi.garden/ko/pools/re-reusd-ethereum">Re REUSD</a>
-        <a href="https://www.defi.garden/ko/pools/dolomite-wlfi-ethereum">Dolomite WLFI</a>
-        <a href="https://www.defi.garden/ko/pools/sparklend-weth-ethereum">Sparklend WETH</a>
-        <a href="https://www.defi.garden/ko/pools/morpho-blue-wbtc-ethereum">Morpho Blue WBTC</a>
-        <a href="https://www.defi.garden/ko/pools/morpho-blue-prime-ethereum">Morpho Blue PRIME</a>
-        <a href="https://www.defi.garden/ko/pools/blackrock-buidl-buidl-ethereum">Blackrock Buidl BUIDL</a>
-        <a href="https://www.defi.garden/ko/pools/morpho-blue-senpyusdprimev2-ethereum">Morpho Blue SENPYUSDPRIMEV2</a>
-        <a href="https://www.defi.garden/ko/pools/sparklend-lbtc-ethereum">Sparklend LBTC</a>
-        <a href="https://www.defi.garden/ko/pools/aave-v3-lbtc-ethereum">Aave V3 LBTC</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/lido-steth-ethereum">Lido STETH</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/binance-staked-eth-wbeth-ethereum">Binance Staked Eth WBETH</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/ether-fi-stake-weeth-ethereum">Ether.fi Stake WEETH</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/sky-lending-susds-ethereum">Sky Lending SUSDS</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/aave-v3-weeth-ethereum">Aave V3 WEETH</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/sparklend-wsteth-ethereum">Sparklend WSTETH</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/maple-usdc-ethereum">Maple USDC</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/aave-v3-wbtc-ethereum">Aave V3 WBTC</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/aave-v3-wsteth-ethereum">Aave V3 WSTETH</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/aave-v3-cbbtc-ethereum">Aave V3 CBBTC</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/rocket-pool-reth-ethereum">Rocket Pool RETH</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/ethena-usde-susde-ethereum">Ethena Usde SUSDE</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/ondo-yield-assets-usdy-ethereum">Ondo Yield Assets USDY</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/kelp-rseth-ethereum">Kelp RSETH</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/aave-v3-weth-ethereum">Aave V3 WETH</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/sky-lending-sky-ethereum">Sky Lending SKY</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/concrete-ctdeltaweeth-ethereum">Concrete CTDELTAWEETH</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/sky-lending-weth-ethereum">Sky Lending WETH</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/liquid-collective-lseth-ethereum">Liquid Collective LSETH</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/sky-lending-weth-ethereum-eth-a">Sky Lending WETH</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/morpho-blue-cbbtc-ethereum">Morpho Blue CBBTC</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/lombard-lbtc-lbtc-ethereum">Lombard Lbtc LBTC</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/maple-usdt-ethereum">Maple USDT</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/meth-protocol-meth-ethereum">Meth Protocol METH</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/sparklend-usds-ethereum">Sparklend USDS</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/invesco-ustb-ustb-ethereum">Invesco Ustb USTB</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/aave-v3-usde-ethereum">Aave V3 USDE</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/coinbase-wrapped-staked-eth-cbeth-ethereum">Coinbase Wrapped Staked Eth CBETH</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/usual-usd0-busd0-ethereum">Usual Usd0 BUSD0</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/maple-usdg-ethereum">Maple USDG</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/morpho-blue-senrlusdv2-ethereum">Morpho Blue SENRLUSDV2</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/sparklend-cbbtc-ethereum">Sparklend CBBTC</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/hastra-prime-ethereum">Hastra PRIME</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/spark-savings-usdt-ethereum">Spark Savings USDT</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/sparklend-usds-ethereum-0ed981">Sparklend USDS</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/stakewise-v3-oseth-ethereum">Stakewise V3 OSETH</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/morpho-blue-wsteth-ethereum">Morpho Blue WSTETH</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/compound-v3-wbtc-ethereum">Compound V3 WBTC</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/morpho-blue-senpyusdmain-ethereum">Morpho Blue SENPYUSDMAIN</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/ether-fi-liquid-liquideth-ethereum">Ether.fi Liquid LIQUIDETH</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/aave-v3-oseth-ethereum">Aave V3 OSETH</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/morpho-blue-kbtc-ethereum">Morpho Blue KBTC</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/centrifuge-protocol-usds-ethereum">Centrifuge Protocol USDS</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/spark-savings-usdc-ethereum">Spark Savings USDC</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/centrifuge-protocol-usat-ethereum">Centrifuge Protocol USAT</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/re-reusd-ethereum">Re REUSD</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/dolomite-wlfi-ethereum">Dolomite WLFI</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/sparklend-weth-ethereum">Sparklend WETH</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/morpho-blue-wbtc-ethereum">Morpho Blue WBTC</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/morpho-blue-prime-ethereum">Morpho Blue PRIME</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/blackrock-buidl-buidl-ethereum">Blackrock Buidl BUIDL</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/morpho-blue-senpyusdprimev2-ethereum">Morpho Blue SENPYUSDPRIMEV2</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/sparklend-lbtc-ethereum">Sparklend LBTC</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/aave-v3-lbtc-ethereum">Aave V3 LBTC</a>
       </div>
     </section>
-    <section class="psp-card">
-      <h2>Base</h2>
+    <section class="dt-panel dt-panel-full">
+      <h2 class="dt-panel-label">Base</h2>
       <div class="psp-hub-links">
-        <a href="https://www.defi.garden/ko/pools/morpho-blue-cbbtc-base">Morpho Blue CBBTC</a>
-        <a href="https://www.defi.garden/ko/pools/morpho-blue-sirloinusdc-base">Morpho Blue SIRLOINUSDC</a>
-        <a href="https://www.defi.garden/ko/pools/morpho-blue-gtusdcp-base">Morpho Blue GTUSDCP</a>
-        <a href="https://www.defi.garden/ko/pools/morpho-blue-usde-base">Morpho Blue USDE</a>
-        <a href="https://www.defi.garden/ko/pools/morpho-blue-steakusdc-base">Morpho Blue STEAKUSDC</a>
-        <a href="https://www.defi.garden/ko/pools/morpho-blue-sparkusdc-base">Morpho Blue SPARKUSDC</a>
-        <a href="https://www.defi.garden/ko/pools/aave-v3-cbbtc-base">Aave V3 CBBTC</a>
-        <a href="https://www.defi.garden/ko/pools/morpho-blue-weth-base">Morpho Blue WETH</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/morpho-blue-cbbtc-base">Morpho Blue CBBTC</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/morpho-blue-sirloinusdc-base">Morpho Blue SIRLOINUSDC</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/morpho-blue-gtusdcp-base">Morpho Blue GTUSDCP</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/morpho-blue-usde-base">Morpho Blue USDE</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/morpho-blue-steakusdc-base">Morpho Blue STEAKUSDC</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/morpho-blue-sparkusdc-base">Morpho Blue SPARKUSDC</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/aave-v3-cbbtc-base">Aave V3 CBBTC</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/morpho-blue-weth-base">Morpho Blue WETH</a>
       </div>
     </section>
-    <section class="psp-card">
-      <h2>Solana</h2>
+    <section class="dt-panel dt-panel-full">
+      <h2 class="dt-panel-label">Solana</h2>
       <div class="psp-hub-links">
-        <a href="https://www.defi.garden/ko/pools/jito-liquid-staking-jitosol-solana">Jito Liquid Staking JITOSOL</a>
-        <a href="https://www.defi.garden/ko/pools/binance-staked-sol-bnsol-solana">Binance Staked Sol BNSOL</a>
-        <a href="https://www.defi.garden/ko/pools/blackrock-buidl-buidl-solana">Blackrock Buidl BUIDL</a>
-        <a href="https://www.defi.garden/ko/pools/jupiter-staked-sol-jupsol-solana">Jupiter Staked Sol JUPSOL</a>
-        <a href="https://www.defi.garden/ko/pools/drift-staked-sol-dsol-solana">Drift Staked Sol DSOL</a>
-        <a href="https://www.defi.garden/ko/pools/onre-onyc-solana">Onre ONYC</a>
-        <a href="https://www.defi.garden/ko/pools/marinade-liquid-staking-msol-solana">Marinade Liquid Staking MSOL</a>
-        <a href="https://www.defi.garden/ko/pools/kamino-lend-dsol-solana">Kamino Lend DSOL</a>
-        <a href="https://www.defi.garden/ko/pools/sanctum-infinity-inf-solana">Sanctum Infinity INF</a>
-        <a href="https://www.defi.garden/ko/pools/dfdv-staked-sol-dfdvsol-solana">Dfdv Staked Sol DFDVSOL</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/jito-liquid-staking-jitosol-solana">Jito Liquid Staking JITOSOL</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/binance-staked-sol-bnsol-solana">Binance Staked Sol BNSOL</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/blackrock-buidl-buidl-solana">Blackrock Buidl BUIDL</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/jupiter-staked-sol-jupsol-solana">Jupiter Staked Sol JUPSOL</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/drift-staked-sol-dsol-solana">Drift Staked Sol DSOL</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/onre-onyc-solana">Onre ONYC</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/marinade-liquid-staking-msol-solana">Marinade Liquid Staking MSOL</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/kamino-lend-dsol-solana">Kamino Lend DSOL</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/sanctum-infinity-inf-solana">Sanctum Infinity INF</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/dfdv-staked-sol-dfdvsol-solana">Dfdv Staked Sol DFDVSOL</a>
       </div>
     </section>
-    <section class="psp-card">
-      <h2>BSC</h2>
+    <section class="dt-panel dt-panel-full">
+      <h2 class="dt-panel-label">BSC</h2>
       <div class="psp-hub-links">
-        <a href="https://www.defi.garden/ko/pools/circle-usyc-usyc-bsc">Circle Usyc USYC</a>
-        <a href="https://www.defi.garden/ko/pools/lista-liquid-staking-slisbnb-bsc">Lista Liquid Staking SLISBNB</a>
-        <a href="https://www.defi.garden/ko/pools/binance-staked-eth-wbeth-bsc">Binance Staked Eth WBETH</a>
-        <a href="https://www.defi.garden/ko/pools/venus-core-pool-wbnb-bsc">Venus Core Pool WBNB</a>
-        <a href="https://www.defi.garden/ko/pools/lista-lending-bnb-bsc">Lista Lending BNB</a>
-        <a href="https://www.defi.garden/ko/pools/venus-core-pool-btcb-bsc">Venus Core Pool BTCB</a>
-        <a href="https://www.defi.garden/ko/pools/solv-basis-trading-btcb-bsc">Solv Basis Trading BTCB</a>
-        <a href="https://www.defi.garden/ko/pools/venus-core-pool-solvbtc-bsc">Venus Core Pool SOLVBTC</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/circle-usyc-usyc-bsc">Circle Usyc USYC</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/lista-liquid-staking-slisbnb-bsc">Lista Liquid Staking SLISBNB</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/binance-staked-eth-wbeth-bsc">Binance Staked Eth WBETH</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/venus-core-pool-wbnb-bsc">Venus Core Pool WBNB</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/lista-lending-bnb-bsc">Lista Lending BNB</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/venus-core-pool-btcb-bsc">Venus Core Pool BTCB</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/solv-basis-trading-btcb-bsc">Solv Basis Trading BTCB</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/venus-core-pool-solvbtc-bsc">Venus Core Pool SOLVBTC</a>
       </div>
     </section>
-    <section class="psp-card">
-      <h2>Tron</h2>
+    <section class="dt-panel dt-panel-full">
+      <h2 class="dt-panel-label">Tron</h2>
       <div class="psp-hub-links">
-        <a href="https://www.defi.garden/ko/pools/justlend-v1-eth-tron">Justlend V1 ETH</a>
-        <a href="https://www.defi.garden/ko/pools/justlend-v1-strx-tron">Justlend V1 STRX</a>
-        <a href="https://www.defi.garden/ko/pools/justlend-v1-trx-tron">Justlend V1 TRX</a>
-        <a href="https://www.defi.garden/ko/pools/justlend-v1-btc-tron">Justlend V1 BTC</a>
-        <a href="https://www.defi.garden/ko/pools/justlend-v1-usdd-tron">Justlend V1 USDD</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/justlend-v1-eth-tron">Justlend V1 ETH</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/justlend-v1-strx-tron">Justlend V1 STRX</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/justlend-v1-trx-tron">Justlend V1 TRX</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/justlend-v1-btc-tron">Justlend V1 BTC</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/justlend-v1-usdd-tron">Justlend V1 USDD</a>
       </div>
     </section>
-    <section class="psp-card">
-      <h2>Arbitrum</h2>
+    <section class="dt-panel dt-panel-full">
+      <h2 class="dt-panel-label">Arbitrum</h2>
       <div class="psp-hub-links">
-        <a href="https://www.defi.garden/ko/pools/usd-ai-susdai-arbitrum">Usd Ai SUSDAI</a>
-        <a href="https://www.defi.garden/ko/pools/sky-lending-susds-arbitrum">Sky Lending SUSDS</a>
-        <a href="https://www.defi.garden/ko/pools/spark-savings-usds-arbitrum">Spark Savings USDS</a>
-        <a href="https://www.defi.garden/ko/pools/aave-v3-wbtc-arbitrum">Aave V3 WBTC</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/usd-ai-susdai-arbitrum">Usd Ai SUSDAI</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/sky-lending-susds-arbitrum">Sky Lending SUSDS</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/spark-savings-usds-arbitrum">Spark Savings USDS</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/aave-v3-wbtc-arbitrum">Aave V3 WBTC</a>
       </div>
     </section>
-    <section class="psp-card">
-      <h2>Hyperliquid L1</h2>
+    <section class="dt-panel dt-panel-full">
+      <h2 class="dt-panel-label">Hyperliquid L1</h2>
       <div class="psp-hub-links">
-        <a href="https://www.defi.garden/ko/pools/kinetiq-khype-khype-hyperliquid-l1">Kinetiq Khype KHYPE</a>
-        <a href="https://www.defi.garden/ko/pools/hyperlend-pooled-khype-hyperliquid-l1">Hyperlend Pooled KHYPE</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/kinetiq-khype-khype-hyperliquid-l1">Kinetiq Khype KHYPE</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/hyperlend-pooled-khype-hyperliquid-l1">Hyperlend Pooled KHYPE</a>
       </div>
     </section>
-    <section class="psp-card">
-      <h2>Avalanche</h2>
+    <section class="dt-panel dt-panel-full">
+      <h2 class="dt-panel-label">Avalanche</h2>
       <div class="psp-hub-links">
-        <a href="https://www.defi.garden/ko/pools/blackrock-buidl-buidl-avalanche">Blackrock Buidl BUIDL</a>
-        <a href="https://www.defi.garden/ko/pools/centrifuge-protocol-usdc-avalanche">Centrifuge Protocol USDC</a>
-        <a href="https://www.defi.garden/ko/pools/benqi-staked-avax-savax-avalanche">Benqi Staked Avax SAVAX</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/blackrock-buidl-buidl-avalanche">Blackrock Buidl BUIDL</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/centrifuge-protocol-usdc-avalanche">Centrifuge Protocol USDC</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/benqi-staked-avax-savax-avalanche">Benqi Staked Avax SAVAX</a>
       </div>
     </section>
-    <section class="psp-card">
-      <h2>Aptos</h2>
+    <section class="dt-panel dt-panel-full">
+      <h2 class="dt-panel-label">Aptos</h2>
       <div class="psp-hub-links">
-        <a href="https://www.defi.garden/ko/pools/blackrock-buidl-buidl-aptos">Blackrock Buidl BUIDL</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/blackrock-buidl-buidl-aptos">Blackrock Buidl BUIDL</a>
       </div>
     </section>
-    <section class="psp-card">
-      <h2>Robinhood Chain</h2>
+    <section class="dt-panel dt-panel-full">
+      <h2 class="dt-panel-label">Robinhood Chain</h2>
       <div class="psp-hub-links">
-        <a href="https://www.defi.garden/ko/pools/morpho-blue-steakusdg-robinhood-chain">Morpho Blue STEAKUSDG</a>
-        <a href="https://www.defi.garden/ko/pools/morpho-blue-usde-robinhood-chain">Morpho Blue USDE</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/morpho-blue-steakusdg-robinhood-chain">Morpho Blue STEAKUSDG</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/morpho-blue-usde-robinhood-chain">Morpho Blue USDE</a>
       </div>
     </section>
-    <section class="psp-card">
-      <h2>Stellar</h2>
+    <section class="dt-panel dt-panel-full">
+      <h2 class="dt-panel-label">Stellar</h2>
       <div class="psp-hub-links">
-        <a href="https://www.defi.garden/ko/pools/ondo-yield-assets-usdy-stellar">Ondo Yield Assets USDY</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/ondo-yield-assets-usdy-stellar">Ondo Yield Assets USDY</a>
       </div>
     </section>
-    <section class="psp-card">
-      <h2>Plasma</h2>
+    <section class="dt-panel dt-panel-full">
+      <h2 class="dt-panel-label">Plasma</h2>
       <div class="psp-hub-links">
-        <a href="https://www.defi.garden/ko/pools/aave-v3-usde-plasma">Aave V3 USDE</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/aave-v3-usde-plasma">Aave V3 USDE</a>
       </div>
     </section>
-    <section class="psp-card">
-      <h2>Sei</h2>
+    <section class="dt-panel dt-panel-full">
+      <h2 class="dt-panel-label">Sei</h2>
       <div class="psp-hub-links">
-        <a href="https://www.defi.garden/ko/pools/ondo-yield-assets-usdy-sei">Ondo Yield Assets USDY</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/ondo-yield-assets-usdy-sei">Ondo Yield Assets USDY</a>
       </div>
     </section>
+    </div>
+    </div>
     <p class="psp-foot">교육 목적이며 투자 조언이 아니에요. DeFi에는 스마트 컨트랙트, 시장, 규제 위험이 있고 원금을 잃을 수 있어요.</p>
-    <p class="psp-foot"><a href="https://www.defi.garden/">DeFi Garden 🌱</a> — 목표에 맞춰 디파이 저축을 계획해요.</p>
   </main>
+    <footer class="app-footer">
+      <p>데이터 제공: <a href="https://api-docs.defillama.com/" target="_blank" rel="noopener noreferrer">DefiLlama API</a>. 투자 조언이 아닙니다.</p>
+      <p class="app-footer-hub-links">
+        <a href="/ko/tokens">토큰 둘러보기</a> · <a href="/ko/chains">체인 둘러보기</a> · <a href="/ko/pools">점수가 매겨진 풀 둘러보기 →</a> · <a href="/agents">AI 에이전트 &amp; MCP</a>
+      </p>
+    </footer>
+  </div>
+  <script>
+    (function () {
+      var L = {"toLight":"라이트 모드로 전환","toDark":"다크 모드로 전환","open":"메뉴 열기","close":"메뉴 닫기"};
+      var root = document.documentElement;
+      function isDark() {
+        var a = root.getAttribute('data-theme');
+        return a ? a === 'dark' : !!(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+      }
+      var themeBtn = document.getElementById('theme-toggle-btn');
+      function paint() {
+        if (!themeBtn) return;
+        var dark = isDark();
+        themeBtn.textContent = dark ? '\u263C' : '\u263E';
+        themeBtn.setAttribute('aria-label', dark ? L.toLight : L.toDark);
+      }
+      if (themeBtn) {
+        paint();
+        themeBtn.addEventListener('click', function () {
+          var next = isDark() ? 'light' : 'dark';
+          root.setAttribute('data-theme', next);
+          try { localStorage.setItem('theme', next); } catch (e) {}
+          paint();
+        });
+      }
+      var menuBtn = document.getElementById('menu-toggle-btn');
+      var mobileNav = document.getElementById('mobile-nav');
+      if (menuBtn && mobileNav) {
+        menuBtn.addEventListener('click', function () {
+          var open = mobileNav.classList.toggle('is-open');
+          menuBtn.textContent = open ? '\u00D7' : '\u2630';
+          menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+          menuBtn.setAttribute('aria-label', open ? L.close : L.open);
+        });
+      }
+    })();
+  </script>
 </body>
 </html>
