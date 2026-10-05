@@ -2,39 +2,39 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest KPK yield right now is 20.07% on morpho-blue (Ethereum), among 10 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KPK yield right now is 20.37% on morpho-blue (Ethereum), among 10 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [morpho-blue →](https://www.defi.garden/?pool=052e3f85-e489-4bee-9e34-c7898ef1d449#src=seo_token) | Ethereum | 4.45% | $29.32M |
 | [morpho-blue →](https://www.defi.garden/?pool=4c1b8c3d-3b3d-4dac-b334-49c405d9bf8f#src=seo_token) | Ethereum | 5.98% | $10.08M |
-| [morpho-blue →](https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39#src=seo_token) | Ethereum | 20.07% | $7.14M |
-| [morpho-blue →](https://www.defi.garden/?pool=9552e250-19fd-595b-85bd-f76ae0e1b2b6#src=seo_token) | Base | 9.16% | $4.09M |
-| [morpho-blue →](https://www.defi.garden/?pool=59444b82-6f00-4f1f-89a6-48a0d715c10f#src=seo_token) | Ethereum | 2.33% | $2.78M |
-| [morpho-blue →](https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558#src=seo_token) | Ethereum | 2.78% | $2.52M |
-| [morpho-blue →](https://www.defi.garden/?pool=8fa8207f-039a-4223-9344-f68cf247bc74#src=seo_token) | Ethereum | 4.00% | $1.15M |
-| [morpho-blue →](https://www.defi.garden/?pool=ea36b2a8-fde0-5579-a9ed-73e8fe3a7aa8#src=seo_token) | Ethereum | 6.82% | $946.3K |
+| [morpho-blue →](https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39#src=seo_token) | Ethereum | 20.37% | $7.14M |
+| [morpho-blue →](https://www.defi.garden/?pool=9552e250-19fd-595b-85bd-f76ae0e1b2b6#src=seo_token) | Base | 9.12% | $4.09M |
+| [morpho-blue →](https://www.defi.garden/?pool=59444b82-6f00-4f1f-89a6-48a0d715c10f#src=seo_token) | Ethereum | 2.30% | $2.78M |
+| [morpho-blue →](https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558#src=seo_token) | Ethereum | 2.75% | $2.52M |
+| [morpho-blue →](https://www.defi.garden/?pool=8fa8207f-039a-4223-9344-f68cf247bc74#src=seo_token) | Ethereum | 4.04% | $1.15M |
+| [morpho-blue →](https://www.defi.garden/?pool=ea36b2a8-fde0-5579-a9ed-73e8fe3a7aa8#src=seo_token) | Ethereum | 6.81% | $946.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, KPK's lower-variability candidates are morpho-blue (Ethereum), 4.45% APY, $29.32M TVL, https://www.defi.garden/?pool=052e3f85-e489-4bee-9e34-c7898ef1d449#src=seo_token; morpho-blue (Ethereum), 4.00% APY, $1.15M TVL, https://www.defi.garden/?pool=8fa8207f-039a-4223-9344-f68cf247bc74#src=seo_token; morpho-blue (Ethereum), 2.33% APY, $2.78M TVL, https://www.defi.garden/?pool=59444b82-6f00-4f1f-89a6-48a0d715c10f#src=seo_token; morpho-blue (Ethereum), 6.82% APY, $946.3K TVL, https://www.defi.garden/?pool=ea36b2a8-fde0-5579-a9ed-73e8fe3a7aa8#src=seo_token; morpho-blue (Ethereum), 2.78% APY, $2.52M TVL, https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558#src=seo_token; morpho-blue (Ethereum), 5.98% APY, $10.08M TVL, https://www.defi.garden/?pool=4c1b8c3d-3b3d-4dac-b334-49c405d9bf8f#src=seo_token; morpho-blue (Ethereum), 20.07% APY, $7.14M TVL, https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, KPK's lower-variability candidates are morpho-blue (Ethereum), 4.45% APY, $29.32M TVL, https://www.defi.garden/?pool=052e3f85-e489-4bee-9e34-c7898ef1d449#src=seo_token; morpho-blue (Ethereum), 4.04% APY, $1.15M TVL, https://www.defi.garden/?pool=8fa8207f-039a-4223-9344-f68cf247bc74#src=seo_token; morpho-blue (Ethereum), 2.30% APY, $2.78M TVL, https://www.defi.garden/?pool=59444b82-6f00-4f1f-89a6-48a0d715c10f#src=seo_token; morpho-blue (Ethereum), 6.81% APY, $946.3K TVL, https://www.defi.garden/?pool=ea36b2a8-fde0-5579-a9ed-73e8fe3a7aa8#src=seo_token; morpho-blue (Ethereum), 2.75% APY, $2.52M TVL, https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558#src=seo_token; morpho-blue (Ethereum), 5.98% APY, $10.08M TVL, https://www.defi.garden/?pool=4c1b8c3d-3b3d-4dac-b334-49c405d9bf8f#src=seo_token; morpho-blue (Ethereum), 20.37% APY, $7.14M TVL, https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [morpho-blue →](https://www.defi.garden/?pool=052e3f85-e489-4bee-9e34-c7898ef1d449#src=seo_token) | Ethereum | 4.45% | $29.32M |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=8fa8207f-039a-4223-9344-f68cf247bc74#src=seo_token) | Ethereum | 4.00% | $1.15M |
-| 3 | [morpho-blue →](https://www.defi.garden/?pool=59444b82-6f00-4f1f-89a6-48a0d715c10f#src=seo_token) | Ethereum | 2.33% | $2.78M |
-| 4 | [morpho-blue →](https://www.defi.garden/?pool=ea36b2a8-fde0-5579-a9ed-73e8fe3a7aa8#src=seo_token) | Ethereum | 6.82% | $946.3K |
-| 5 | [morpho-blue →](https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558#src=seo_token) | Ethereum | 2.78% | $2.52M |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=8fa8207f-039a-4223-9344-f68cf247bc74#src=seo_token) | Ethereum | 4.04% | $1.15M |
+| 3 | [morpho-blue →](https://www.defi.garden/?pool=59444b82-6f00-4f1f-89a6-48a0d715c10f#src=seo_token) | Ethereum | 2.30% | $2.78M |
+| 4 | [morpho-blue →](https://www.defi.garden/?pool=ea36b2a8-fde0-5579-a9ed-73e8fe3a7aa8#src=seo_token) | Ethereum | 6.81% | $946.3K |
+| 5 | [morpho-blue →](https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558#src=seo_token) | Ethereum | 2.75% | $2.52M |
 | 6 | [morpho-blue →](https://www.defi.garden/?pool=4c1b8c3d-3b3d-4dac-b334-49c405d9bf8f#src=seo_token) | Ethereum | 5.98% | $10.08M |
-| 7 | [morpho-blue →](https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39#src=seo_token) | Ethereum | 20.07% | $7.14M |
+| 7 | [morpho-blue →](https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39#src=seo_token) | Ethereum | 20.37% | $7.14M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-KPK shows up in 8 pools here, with rates from 2.33% to 20.07% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+KPK shows up in 8 pools here, with rates from 2.30% to 20.37% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 5.77% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -46,12 +46,12 @@ KPK shows up in 8 pools here, with rates from 2.33% to 20.07% APY across 2 chain
 |---|---|---|---|
 | morpho-blue | 4.45% | 4.63% | Base rate |
 | morpho-blue | 5.98% | 6.90% | Base rate |
-| morpho-blue | 20.07% | 23.47% | 100.00% incentives |
-| morpho-blue | 9.16% | 7.24% | 24.11% incentives |
-| morpho-blue | 2.33% | 2.10% | Base rate |
-| morpho-blue | 2.78% | 3.07% | Base rate |
-| morpho-blue | 4.00% | 3.67% | Base rate |
-| morpho-blue | 6.82% | 7.16% | 4.77% incentives |
+| morpho-blue | 20.37% | 23.46% | 100.00% incentives |
+| morpho-blue | 9.12% | 7.25% | 24.21% incentives |
+| morpho-blue | 2.30% | 2.10% | Base rate |
+| morpho-blue | 2.75% | 3.07% | Base rate |
+| morpho-blue | 4.04% | 3.67% | Base rate |
+| morpho-blue | 6.81% | 7.16% | 4.73% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -59,7 +59,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest KPK yield today?
 
-20.07% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+20.37% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many KPK pools clear the TVL floor?
 
@@ -71,7 +71,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which KPK pools have the most stable APY history?
 
-Based on APY history only, KPK's lower-variability candidates are morpho-blue (Ethereum), 4.45% APY, $29.32M TVL, https://www.defi.garden/?pool=052e3f85-e489-4bee-9e34-c7898ef1d449#src=seo_token; morpho-blue (Ethereum), 4.00% APY, $1.15M TVL, https://www.defi.garden/?pool=8fa8207f-039a-4223-9344-f68cf247bc74#src=seo_token; morpho-blue (Ethereum), 2.33% APY, $2.78M TVL, https://www.defi.garden/?pool=59444b82-6f00-4f1f-89a6-48a0d715c10f#src=seo_token; morpho-blue (Ethereum), 6.82% APY, $946.3K TVL, https://www.defi.garden/?pool=ea36b2a8-fde0-5579-a9ed-73e8fe3a7aa8#src=seo_token; morpho-blue (Ethereum), 2.78% APY, $2.52M TVL, https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558#src=seo_token; morpho-blue (Ethereum), 5.98% APY, $10.08M TVL, https://www.defi.garden/?pool=4c1b8c3d-3b3d-4dac-b334-49c405d9bf8f#src=seo_token; morpho-blue (Ethereum), 20.07% APY, $7.14M TVL, https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, KPK's lower-variability candidates are morpho-blue (Ethereum), 4.45% APY, $29.32M TVL, https://www.defi.garden/?pool=052e3f85-e489-4bee-9e34-c7898ef1d449#src=seo_token; morpho-blue (Ethereum), 4.04% APY, $1.15M TVL, https://www.defi.garden/?pool=8fa8207f-039a-4223-9344-f68cf247bc74#src=seo_token; morpho-blue (Ethereum), 2.30% APY, $2.78M TVL, https://www.defi.garden/?pool=59444b82-6f00-4f1f-89a6-48a0d715c10f#src=seo_token; morpho-blue (Ethereum), 6.81% APY, $946.3K TVL, https://www.defi.garden/?pool=ea36b2a8-fde0-5579-a9ed-73e8fe3a7aa8#src=seo_token; morpho-blue (Ethereum), 2.75% APY, $2.52M TVL, https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558#src=seo_token; morpho-blue (Ethereum), 5.98% APY, $10.08M TVL, https://www.defi.garden/?pool=4c1b8c3d-3b3d-4dac-b334-49c405d9bf8f#src=seo_token; morpho-blue (Ethereum), 20.37% APY, $7.14M TVL, https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

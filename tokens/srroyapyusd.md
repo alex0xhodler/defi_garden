@@ -33,7 +33,7 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| royco-v2 | 13.16% | 31.10% | Base rate |
+| royco-v2 | 13.16% | 31.06% | Base rate |
 | pendle-v2 | 15.35% | 15.24% | Base rate |
 | pendle-v2 | 15.28% | 15.46% | Base rate |
 

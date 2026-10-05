@@ -6,7 +6,7 @@ The highest honest PATIENCE yield right now is 0.32% on uniswap-v2 (Base), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=314f171a-8d08-490a-afcd-40225cbafa62#src=seo_token) | Base | 0.32% | $112.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=314f171a-8d08-490a-afcd-40225cbafa62#src=seo_token) | Base | 0.32% | $113.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PATIENCE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $112.8K in total.
+1 live pool clear this page's $100K TVL floor, $113.2K in total.
 
 ### Are these rates safe?
 

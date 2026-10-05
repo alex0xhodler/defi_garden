@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest LOOP yield right now is 1.63% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LOOP yield right now is 1.56% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=c9778573-83b8-507c-8caa-2d6a29167e76#src=seo_token) | Solana | 1.63% | $263.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=c9778573-83b8-507c-8caa-2d6a29167e76#src=seo_token) | Solana | 1.56% | $264.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LOOP yield today?
 
-1.63% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.56% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many LOOP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $263.5K in total.
+1 live pool clear this page's $100K TVL floor, $264.7K in total.
 
 ### Are these rates safe?
 

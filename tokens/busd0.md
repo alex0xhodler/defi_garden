@@ -2,28 +2,28 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest BUSD0 yield right now is 6.05% on usual-usd0 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BUSD0 yield right now is 6.10% on usual-usd0 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [usual-usd0 →](https://www.defi.garden/pools/usual-usd0-busd0-ethereum) | Ethereum | 6.05% | $503.87M |
-| [usual-usd0 →](https://www.defi.garden/?pool=2100ff1b-4ff8-4cf3-81e5-a6630931467c#src=seo_token) | Arbitrum | 6.05% | $100.9K |
+| [usual-usd0 →](https://www.defi.garden/pools/usual-usd0-busd0-ethereum) | Ethereum | 6.10% | $503.87M |
+| [usual-usd0 →](https://www.defi.garden/?pool=2100ff1b-4ff8-4cf3-81e5-a6630931467c#src=seo_token) | Arbitrum | 6.10% | $100.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, BUSD0's lower-variability candidates are usual-usd0 (Arbitrum), 6.05% APY, $100.9K TVL, https://www.defi.garden/?pool=2100ff1b-4ff8-4cf3-81e5-a6630931467c#src=seo_token; usual-usd0 (Ethereum), 6.05% APY, $503.87M TVL, https://www.defi.garden/pools/usual-usd0-busd0-ethereum. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BUSD0's lower-variability candidates are usual-usd0 (Arbitrum), 6.10% APY, $100.9K TVL, https://www.defi.garden/?pool=2100ff1b-4ff8-4cf3-81e5-a6630931467c#src=seo_token; usual-usd0 (Ethereum), 6.10% APY, $503.87M TVL, https://www.defi.garden/pools/usual-usd0-busd0-ethereum. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [usual-usd0 →](https://www.defi.garden/?pool=2100ff1b-4ff8-4cf3-81e5-a6630931467c#src=seo_token) | Arbitrum | 6.05% | $100.9K |
-| 2 | [usual-usd0 →](https://www.defi.garden/pools/usual-usd0-busd0-ethereum) | Ethereum | 6.05% | $503.87M |
+| 1 | [usual-usd0 →](https://www.defi.garden/?pool=2100ff1b-4ff8-4cf3-81e5-a6630931467c#src=seo_token) | Arbitrum | 6.10% | $100.9K |
+| 2 | [usual-usd0 →](https://www.defi.garden/pools/usual-usd0-busd0-ethereum) | Ethereum | 6.10% | $503.87M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-BUSD0 shows up in 2 pools here, with rates from 6.05% to 6.05% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+BUSD0 shows up in 2 pools here, with rates from 6.10% to 6.10% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 4.90% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -31,8 +31,8 @@ BUSD0 shows up in 2 pools here, with rates from 6.05% to 6.05% APY across 2 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| usual-usd0 | 6.05% | 4.90% | 100.00% incentives |
-| usual-usd0 | 6.05% | 4.90% | 100.00% incentives |
+| usual-usd0 | 6.10% | 4.90% | 100.00% incentives |
+| usual-usd0 | 6.10% | 4.90% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,7 +40,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BUSD0 yield today?
 
-6.05% APY on usual-usd0 (Ethereum), based on live DefiLlama data.
+6.10% APY on usual-usd0 (Ethereum), based on live DefiLlama data.
 
 ### How many BUSD0 pools clear the TVL floor?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BUSD0 pools have the most stable APY history?
 
-Based on APY history only, BUSD0's lower-variability candidates are usual-usd0 (Arbitrum), 6.05% APY, $100.9K TVL, https://www.defi.garden/?pool=2100ff1b-4ff8-4cf3-81e5-a6630931467c#src=seo_token; usual-usd0 (Ethereum), 6.05% APY, $503.87M TVL, https://www.defi.garden/pools/usual-usd0-busd0-ethereum. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BUSD0's lower-variability candidates are usual-usd0 (Arbitrum), 6.10% APY, $100.9K TVL, https://www.defi.garden/?pool=2100ff1b-4ff8-4cf3-81e5-a6630931467c#src=seo_token; usual-usd0 (Ethereum), 6.10% APY, $503.87M TVL, https://www.defi.garden/pools/usual-usd0-busd0-ethereum. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

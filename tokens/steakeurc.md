@@ -6,20 +6,20 @@ The highest honest STEAKEURC yield right now is 4.16% on morpho-blue (Base), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=e76a40b2-30d5-4b9c-9cf3-41249eeeeb3a#src=seo_token) | Base | 4.15% | $3.2M |
-| [morpho-blue →](https://www.defi.garden/?pool=cd35c563-0b37-47f6-a522-c7e5240b3f65#src=seo_token) | Base | 4.16% | $869.4K |
-| [morpho-blue →](https://www.defi.garden/?pool=b11815a0-6055-4a92-a161-531252383f26#src=seo_token) | Ethereum | 2.32% | $770.3K |
+| [morpho-blue →](https://www.defi.garden/?pool=e76a40b2-30d5-4b9c-9cf3-41249eeeeb3a#src=seo_token) | Base | 4.16% | $3.21M |
+| [morpho-blue →](https://www.defi.garden/?pool=cd35c563-0b37-47f6-a522-c7e5240b3f65#src=seo_token) | Base | 4.16% | $862.1K |
+| [morpho-blue →](https://www.defi.garden/?pool=b11815a0-6055-4a92-a161-531252383f26#src=seo_token) | Ethereum | 2.32% | $771.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, STEAKEURC's lower-variability candidates are morpho-blue (Base), 4.16% APY, $869.4K TVL, https://www.defi.garden/?pool=cd35c563-0b37-47f6-a522-c7e5240b3f65#src=seo_token; morpho-blue (Ethereum), 2.32% APY, $770.3K TVL, https://www.defi.garden/?pool=b11815a0-6055-4a92-a161-531252383f26#src=seo_token; morpho-blue (Base), 4.15% APY, $3.2M TVL, https://www.defi.garden/?pool=e76a40b2-30d5-4b9c-9cf3-41249eeeeb3a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STEAKEURC's lower-variability candidates are morpho-blue (Base), 4.16% APY, $862.1K TVL, https://www.defi.garden/?pool=cd35c563-0b37-47f6-a522-c7e5240b3f65#src=seo_token; morpho-blue (Ethereum), 2.32% APY, $771.8K TVL, https://www.defi.garden/?pool=b11815a0-6055-4a92-a161-531252383f26#src=seo_token; morpho-blue (Base), 4.16% APY, $3.21M TVL, https://www.defi.garden/?pool=e76a40b2-30d5-4b9c-9cf3-41249eeeeb3a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=cd35c563-0b37-47f6-a522-c7e5240b3f65#src=seo_token) | Base | 4.16% | $869.4K |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=b11815a0-6055-4a92-a161-531252383f26#src=seo_token) | Ethereum | 2.32% | $770.3K |
-| 3 | [morpho-blue →](https://www.defi.garden/?pool=e76a40b2-30d5-4b9c-9cf3-41249eeeeb3a#src=seo_token) | Base | 4.15% | $3.2M |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=cd35c563-0b37-47f6-a522-c7e5240b3f65#src=seo_token) | Base | 4.16% | $862.1K |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=b11815a0-6055-4a92-a161-531252383f26#src=seo_token) | Ethereum | 2.32% | $771.8K |
+| 3 | [morpho-blue →](https://www.defi.garden/?pool=e76a40b2-30d5-4b9c-9cf3-41249eeeeb3a#src=seo_token) | Base | 4.16% | $3.21M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -33,7 +33,7 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 4.15% | 2.79% | Base rate |
+| morpho-blue | 4.16% | 2.79% | Base rate |
 | morpho-blue | 4.16% | 2.80% | Base rate |
 | morpho-blue | 2.32% | 2.79% | Base rate |
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which STEAKEURC pools have the most stable APY history?
 
-Based on APY history only, STEAKEURC's lower-variability candidates are morpho-blue (Base), 4.16% APY, $869.4K TVL, https://www.defi.garden/?pool=cd35c563-0b37-47f6-a522-c7e5240b3f65#src=seo_token; morpho-blue (Ethereum), 2.32% APY, $770.3K TVL, https://www.defi.garden/?pool=b11815a0-6055-4a92-a161-531252383f26#src=seo_token; morpho-blue (Base), 4.15% APY, $3.2M TVL, https://www.defi.garden/?pool=e76a40b2-30d5-4b9c-9cf3-41249eeeeb3a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STEAKEURC's lower-variability candidates are morpho-blue (Base), 4.16% APY, $862.1K TVL, https://www.defi.garden/?pool=cd35c563-0b37-47f6-a522-c7e5240b3f65#src=seo_token; morpho-blue (Ethereum), 2.32% APY, $771.8K TVL, https://www.defi.garden/?pool=b11815a0-6055-4a92-a161-531252383f26#src=seo_token; morpho-blue (Base), 4.16% APY, $3.21M TVL, https://www.defi.garden/?pool=e76a40b2-30d5-4b9c-9cf3-41249eeeeb3a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

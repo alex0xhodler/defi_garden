@@ -6,7 +6,7 @@ The highest honest ILSI yield right now is 0.08% on sushiswap (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sushiswap →](https://www.defi.garden/?pool=2267ad3f-29bb-4556-8f69-3baf0125861c#src=seo_token) | Ethereum | 0.08% | $105.7K |
+| [sushiswap →](https://www.defi.garden/?pool=2267ad3f-29bb-4556-8f69-3baf0125861c#src=seo_token) | Ethereum | 0.08% | $106K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ILSI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $105.7K in total.
+1 live pool clear this page's $100K TVL floor, $106K in total.
 
 ### Are these rates safe?
 

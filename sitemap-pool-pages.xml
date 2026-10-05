@@ -41,12 +41,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/pools/maple-usdc-ethereum</loc>
+    <loc>https://www.defi.garden/pools/aave-v3-wbtc-ethereum</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/pools/aave-v3-wbtc-ethereum</loc>
+    <loc>https://www.defi.garden/pools/maple-usdc-ethereum</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -191,12 +191,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/pools/sparklend-usds-ethereum</loc>
+    <loc>https://www.defi.garden/pools/justlend-v1-btc-tron</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/pools/justlend-v1-btc-tron</loc>
+    <loc>https://www.defi.garden/pools/sparklend-usds-ethereum</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -346,11 +346,6 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/pools/morpho-blue-steakusdc-base</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.defi.garden/pools/morpho-blue-usde-robinhood-chain</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
@@ -362,6 +357,11 @@
   </url>
   <url>
     <loc>https://www.defi.garden/pools/drift-staked-sol-dsol-solana</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/pools/morpho-blue-steakusdc-base</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -406,12 +406,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/pools/sparklend-weth-ethereum</loc>
+    <loc>https://www.defi.garden/pools/hyperlend-pooled-khype-hyperliquid-l1</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/pools/hyperlend-pooled-khype-hyperliquid-l1</loc>
+    <loc>https://www.defi.garden/pools/sparklend-weth-ethereum</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -481,17 +481,17 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/pools/morpho-blue-senpyusdprimev2-ethereum</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.defi.garden/pools/sparklend-lbtc-ethereum</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.defi.garden/pools/venus-core-pool-solvbtc-bsc</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/pools/morpho-blue-senpyusdprimev2-ethereum</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
   </url>

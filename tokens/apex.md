@@ -6,7 +6,7 @@ The highest honest APEX yield right now is 6.33% on uniswap-v3 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=cbadd822-d513-49f7-ad6f-249a587f1a74#src=seo_token) | Ethereum | 6.33% | $286.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=cbadd822-d513-49f7-ad6f-249a587f1a74#src=seo_token) | Ethereum | 6.33% | $286.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many APEX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $286.3K in total.
+1 live pool clear this page's $100K TVL floor, $286.9K in total.
 
 ### Are these rates safe?
 

@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=18337fa4-0cfb-4726-b34a-3d9b00e3db72#src=seo_token) | Base | 0.71% | $114K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=18337fa4-0cfb-4726-b34a-3d9b00e3db72#src=seo_token) | Base | 0.71% | $114.1K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

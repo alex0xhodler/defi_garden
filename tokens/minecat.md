@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest MINECAT yield right now is 25.10% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MINECAT yield right now is 24.79% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=d8dac7c6-887e-587f-8c5c-8cef24de7a11#src=seo_token) | Solana | 25.10% | $103.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=d8dac7c6-887e-587f-8c5c-8cef24de7a11#src=seo_token) | Solana | 24.79% | $102.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MINECAT yield today?
 
-25.10% APY on raydium-amm (Solana), based on live DefiLlama data.
+24.79% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MINECAT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $103.1K in total.
+1 live pool clear this page's $100K TVL floor, $102.8K in total.
 
 ### Are these rates safe?
 

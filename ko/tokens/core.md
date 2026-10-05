@@ -6,18 +6,18 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [b14g →](https://www.defi.garden/?pool=f183f1a4-5d17-4bfa-8270-32d861a13fd3#src=seo_token) | CORE | 14.70% | $1.99M |
+| [b14g →](https://www.defi.garden/?pool=f183f1a4-5d17-4bfa-8270-32d861a13fd3#src=seo_token) | CORE | 14.70% | $2.01M |
 | [morpho-blue →](https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4#src=seo_token) | Ethereum | 4.40% | $552.4K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 CORE의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 4.40%, TVL $552.4K, https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4#src=seo_token; CORE의 b14g, APY 14.70%, TVL $1.99M, https://www.defi.garden/?pool=f183f1a4-5d17-4bfa-8270-32d861a13fd3#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 CORE의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 4.40%, TVL $552.4K, https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4#src=seo_token; CORE의 b14g, APY 14.70%, TVL $2.01M, https://www.defi.garden/?pool=f183f1a4-5d17-4bfa-8270-32d861a13fd3#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [morpho-blue →](https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4#src=seo_token) | Ethereum | 4.40% | $552.4K |
-| 2 | [b14g →](https://www.defi.garden/?pool=f183f1a4-5d17-4bfa-8270-32d861a13fd3#src=seo_token) | CORE | 14.70% | $1.99M |
+| 2 | [b14g →](https://www.defi.garden/?pool=f183f1a4-5d17-4bfa-8270-32d861a13fd3#src=seo_token) | CORE | 14.70% | $2.01M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -46,7 +46,7 @@ DefiLlama 실시간 데이터 기준, CORE의 b14g에서 APY 14.70%예요.
 
 ### CORE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $14.48M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $14.52M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -54,7 +54,7 @@ DefiLlama 실시간 데이터 기준, CORE의 b14g에서 APY 14.70%예요.
 
 ### CORE 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 CORE의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 4.40%, TVL $552.4K, https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4#src=seo_token; CORE의 b14g, APY 14.70%, TVL $1.99M, https://www.defi.garden/?pool=f183f1a4-5d17-4bfa-8270-32d861a13fd3#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 CORE의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 4.40%, TVL $552.4K, https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4#src=seo_token; CORE의 b14g, APY 14.70%, TVL $2.01M, https://www.defi.garden/?pool=f183f1a4-5d17-4bfa-8270-32d861a13fd3#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

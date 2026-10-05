@@ -35,12 +35,12 @@ There is not enough qualifying APY history to rank LEGACY pools. This view cover
 
 ## Related tokens
 
-- [LBTC](https://www.defi.garden/tokens/lbtc)
 - [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
 - [STRK](https://www.defi.garden/tokens/strk)
 - [STRKBTC](https://www.defi.garden/tokens/strkbtc)
 - [ZEC](https://www.defi.garden/tokens/zec)
 - [USDC.E](https://www.defi.garden/tokens/usdc-e)
+- [XSTRK](https://www.defi.garden/tokens/xstrk)
 
 ## Available on
 

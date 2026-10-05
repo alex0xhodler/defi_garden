@@ -6,7 +6,7 @@ The highest honest NOX yield right now is 10.13% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=b6654fbd-ab73-4241-843b-977842e67996#src=seo_token) | Ethereum | 10.13% | $187.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=b6654fbd-ab73-4241-843b-977842e67996#src=seo_token) | Ethereum | 10.13% | $187.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NOX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $187.1K in total.
+1 live pool clear this page's $100K TVL floor, $187.3K in total.
 
 ### Are these rates safe?
 

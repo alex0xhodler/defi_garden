@@ -4,13 +4,13 @@ The highest honest Tron yield right now is 11.57% on tr-energy (Tron), among 23 
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| TRX | [justlend-v1 →](https://www.defi.garden/pools/justlend-v1-trx-tron) | 0.33% | $689.56M |
-| BTC | [justlend-v1 →](https://www.defi.garden/pools/justlend-v1-btc-tron) | 0.01% | $561.73M |
-| USDD | [justlend-v1 →](https://www.defi.garden/pools/justlend-v1-usdd-tron) | 3.83% | $423.13M |
-| USDT | [justlend-v1 →](https://www.defi.garden/?pool=dac406f6-5600-437e-849d-f03daa383864#src=seo_chain) | 2.01% | $92.5M |
-| TRX | [tr-energy →](https://www.defi.garden/?pool=cf7a5142-ff74-4b1d-8267-98148c90b72c#src=seo_chain) | 11.57% | $90.7M |
+| TRX | [justlend-v1 →](https://www.defi.garden/pools/justlend-v1-trx-tron) | 0.33% | $689.47M |
+| BTC | [justlend-v1 →](https://www.defi.garden/pools/justlend-v1-btc-tron) | 0.01% | $567.38M |
+| USDD | [justlend-v1 →](https://www.defi.garden/pools/justlend-v1-usdd-tron) | 3.82% | $424.04M |
+| USDT | [justlend-v1 →](https://www.defi.garden/?pool=dac406f6-5600-437e-849d-f03daa383864#src=seo_chain) | 2.00% | $93M |
+| TRX | [tr-energy →](https://www.defi.garden/?pool=cf7a5142-ff74-4b1d-8267-98148c90b72c#src=seo_chain) | 11.57% | $90.81M |
 | JST | [justlend-v1 →](https://www.defi.garden/?pool=aa3b8470-cd15-4e02-a83d-b83fae993855#src=seo_chain) | 0.27% | $12.88M |
-| SUN | [justlend-v1 →](https://www.defi.garden/?pool=873e1048-9094-4b63-a6f4-bd62325ecc81#src=seo_chain) | 1.05% | $4.96M |
+| SUN | [justlend-v1 →](https://www.defi.garden/?pool=873e1048-9094-4b63-a6f4-bd62325ecc81#src=seo_chain) | 1.05% | $4.97M |
 | U | [justlend-v1 →](https://www.defi.garden/?pool=d598a9e0-b347-5baf-b61a-94c2e8e730d0#src=seo_chain) | 1.18% | $3.1M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Tron pools clear the TVL floor?
 
-23 live pools clear this page's $100K TVL floor, $4.05B in total.
+23 live pools clear this page's $100K TVL floor, $4.06B in total.
 
 ### Are these rates safe?
 

@@ -6,7 +6,7 @@ The highest honest MEBT yield right now is 22.17% on quickswap-dex (Polygon), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [quickswap-dex →](https://www.defi.garden/?pool=356d19f3-8ba1-417b-9f28-aa4f49f25807#src=seo_token) | Polygon | 22.17% | $525.9K |
+| [quickswap-dex →](https://www.defi.garden/?pool=356d19f3-8ba1-417b-9f28-aa4f49f25807#src=seo_token) | Polygon | 22.17% | $525.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MEBT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $525.9K in total.
+1 live pool clear this page's $100K TVL floor, $525.2K in total.
 
 ### Are these rates safe?
 

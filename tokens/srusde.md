@@ -35,7 +35,7 @@ SRUSDE shows up in 3 pools here, with rates from 3.88% to 5.84% APY across 1 cha
 |---|---|---|---|
 | strata-markets | 3.88% | 4.06% | Base rate |
 | pendle-v2 | 5.84% | 5.44% | Base rate |
-| pendle-v2 | 5.27% | 5.46% | 2.94% incentives |
+| pendle-v2 | 5.27% | 5.46% | 2.98% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

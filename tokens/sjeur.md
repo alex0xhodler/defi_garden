@@ -32,7 +32,7 @@ SJEUR shows up in 2 pools here, with rates from 3.60% to 19.68% APY across 1 cha
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | spectra-v2 | 19.68% | 18.81% | 32.24% incentives |
-| spectra-v2 | 3.60% | 4.72% | Base rate |
+| spectra-v2 | 3.60% | 4.71% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

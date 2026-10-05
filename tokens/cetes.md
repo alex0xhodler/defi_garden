@@ -6,18 +6,18 @@ The highest honest CETES yield right now is 0.64% on orca-dex (Solana), among 2 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=8ed99f2c-a7f3-4f6b-9f45-049596d362b2#src=seo_token) | Solana | 0.58% | $140.1K |
-| [orca-dex →](https://www.defi.garden/?pool=409e62e4-f329-406e-bbb8-c48d9745aa87#src=seo_token) | Solana | 0.64% | $102.1K |
+| [orca-dex →](https://www.defi.garden/?pool=8ed99f2c-a7f3-4f6b-9f45-049596d362b2#src=seo_token) | Solana | 0.58% | $140.2K |
+| [orca-dex →](https://www.defi.garden/?pool=409e62e4-f329-406e-bbb8-c48d9745aa87#src=seo_token) | Solana | 0.64% | $102.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, CETES's lower-variability candidates are orca-dex (Solana), 0.58% APY, $140.1K TVL, https://www.defi.garden/?pool=8ed99f2c-a7f3-4f6b-9f45-049596d362b2#src=seo_token; orca-dex (Solana), 0.64% APY, $102.1K TVL, https://www.defi.garden/?pool=409e62e4-f329-406e-bbb8-c48d9745aa87#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CETES's lower-variability candidates are orca-dex (Solana), 0.58% APY, $140.2K TVL, https://www.defi.garden/?pool=8ed99f2c-a7f3-4f6b-9f45-049596d362b2#src=seo_token; orca-dex (Solana), 0.64% APY, $102.2K TVL, https://www.defi.garden/?pool=409e62e4-f329-406e-bbb8-c48d9745aa87#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [orca-dex →](https://www.defi.garden/?pool=8ed99f2c-a7f3-4f6b-9f45-049596d362b2#src=seo_token) | Solana | 0.58% | $140.1K |
-| 2 | [orca-dex →](https://www.defi.garden/?pool=409e62e4-f329-406e-bbb8-c48d9745aa87#src=seo_token) | Solana | 0.64% | $102.1K |
+| 1 | [orca-dex →](https://www.defi.garden/?pool=8ed99f2c-a7f3-4f6b-9f45-049596d362b2#src=seo_token) | Solana | 0.58% | $140.2K |
+| 2 | [orca-dex →](https://www.defi.garden/?pool=409e62e4-f329-406e-bbb8-c48d9745aa87#src=seo_token) | Solana | 0.64% | $102.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many CETES pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $242.2K in total.
+2 live pools clear this page's $100K TVL floor, $242.4K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which CETES pools have the most stable APY history?
 
-Based on APY history only, CETES's lower-variability candidates are orca-dex (Solana), 0.58% APY, $140.1K TVL, https://www.defi.garden/?pool=8ed99f2c-a7f3-4f6b-9f45-049596d362b2#src=seo_token; orca-dex (Solana), 0.64% APY, $102.1K TVL, https://www.defi.garden/?pool=409e62e4-f329-406e-bbb8-c48d9745aa87#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CETES's lower-variability candidates are orca-dex (Solana), 0.58% APY, $140.2K TVL, https://www.defi.garden/?pool=8ed99f2c-a7f3-4f6b-9f45-049596d362b2#src=seo_token; orca-dex (Solana), 0.64% APY, $102.2K TVL, https://www.defi.garden/?pool=409e62e4-f329-406e-bbb8-c48d9745aa87#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

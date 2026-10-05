@@ -6,7 +6,7 @@ The highest honest 80PRL yield right now is 9.13% on balancer-v3 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=b370f01e-13cc-4397-a1af-265755d9191a#src=seo_token) | Ethereum | 9.13% | $190.8K |
+| [balancer-v3 →](https://www.defi.garden/?pool=b370f01e-13cc-4397-a1af-265755d9191a#src=seo_token) | Ethereum | 9.13% | $190.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many 80PRL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $190.8K in total.
+1 live pool clear this page's $100K TVL floor, $190.9K in total.
 
 ### Are these rates safe?
 

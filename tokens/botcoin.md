@@ -6,7 +6,7 @@ The highest honest BOTCOIN yield right now is 0.01% on uniswap-v4 (Base), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=c7714910-5e58-42a8-b82b-65d2de7bf747#src=seo_token) | Base | 0.01% | $936.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=c7714910-5e58-42a8-b82b-65d2de7bf747#src=seo_token) | Base | 0.01% | $936.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

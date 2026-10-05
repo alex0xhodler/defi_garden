@@ -6,18 +6,18 @@ The highest honest BBTC yield right now is 0.01% on curve-dex (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=3556ef27-b6f4-555f-ba7c-e22a2f48d099#src=seo_token) | Ethereum | 0.06% | $525.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=3556ef27-b6f4-555f-ba7c-e22a2f48d099#src=seo_token) | Ethereum | 0.06% | $526.4K |
 | [curve-dex →](https://www.defi.garden/?pool=29d4eefc-ad49-4ce4-bad1-0e185a0ba31b#src=seo_token) | Ethereum | 0.01% | $121.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, BBTC's lower-variability candidates are curve-dex (Ethereum), 0.01% APY, $121.5K TVL, https://www.defi.garden/?pool=29d4eefc-ad49-4ce4-bad1-0e185a0ba31b#src=seo_token; uniswap-v3 (Ethereum), 0.06% APY, $525.6K TVL, https://www.defi.garden/?pool=3556ef27-b6f4-555f-ba7c-e22a2f48d099#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BBTC's lower-variability candidates are curve-dex (Ethereum), 0.01% APY, $121.5K TVL, https://www.defi.garden/?pool=29d4eefc-ad49-4ce4-bad1-0e185a0ba31b#src=seo_token; uniswap-v3 (Ethereum), 0.06% APY, $526.4K TVL, https://www.defi.garden/?pool=3556ef27-b6f4-555f-ba7c-e22a2f48d099#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [curve-dex →](https://www.defi.garden/?pool=29d4eefc-ad49-4ce4-bad1-0e185a0ba31b#src=seo_token) | Ethereum | 0.01% | $121.5K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=3556ef27-b6f4-555f-ba7c-e22a2f48d099#src=seo_token) | Ethereum | 0.06% | $525.6K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=3556ef27-b6f4-555f-ba7c-e22a2f48d099#src=seo_token) | Ethereum | 0.06% | $526.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many BBTC pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $879.4K in total.
+4 live pools clear this page's $100K TVL floor, $880.7K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BBTC pools have the most stable APY history?
 
-Based on APY history only, BBTC's lower-variability candidates are curve-dex (Ethereum), 0.01% APY, $121.5K TVL, https://www.defi.garden/?pool=29d4eefc-ad49-4ce4-bad1-0e185a0ba31b#src=seo_token; uniswap-v3 (Ethereum), 0.06% APY, $525.6K TVL, https://www.defi.garden/?pool=3556ef27-b6f4-555f-ba7c-e22a2f48d099#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BBTC's lower-variability candidates are curve-dex (Ethereum), 0.01% APY, $121.5K TVL, https://www.defi.garden/?pool=29d4eefc-ad49-4ce4-bad1-0e185a0ba31b#src=seo_token; uniswap-v3 (Ethereum), 0.06% APY, $526.4K TVL, https://www.defi.garden/?pool=3556ef27-b6f4-555f-ba7c-e22a2f48d099#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

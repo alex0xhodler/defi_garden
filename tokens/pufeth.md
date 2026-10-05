@@ -10,8 +10,8 @@ The highest honest PUFETH yield right now is 4.16% on pendle-v2 (Ethereum), amon
 | [curve-dex →](https://www.defi.garden/?pool=4b179a19-7b56-4b0d-a876-95f89dba3ef9#src=seo_token) | Ethereum | 0.15% | $3.11M |
 | [curve-dex →](https://www.defi.garden/?pool=00a7c200-ad4e-4bb1-9c81-57edefe71925#src=seo_token) | Ethereum | 0.96% | $2.05M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=f152a018-6cc6-4614-8b56-fe4548773cd4#src=seo_token) | Ethereum | 0.03% | $817.2K |
-| [pendle-v2 →](https://www.defi.garden/?pool=af01c9fd-58d8-4ecc-b27f-99b7bf40af8a#src=seo_token) | Ethereum | 3.39% | $319.9K |
 | [pendle-v2 →](https://www.defi.garden/?pool=bff45894-3c74-453b-b7ec-00837e09230b#src=seo_token) | Ethereum | 4.16% | $319.9K |
+| [pendle-v2 →](https://www.defi.garden/?pool=af01c9fd-58d8-4ecc-b27f-99b7bf40af8a#src=seo_token) | Ethereum | 3.39% | $319.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
@@ -39,12 +39,12 @@ PUFETH shows up in 6 pools here, with rates from 0.03% to 4.16% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| puffer-stake | 2.34% | 1.99% | 2.24% incentives |
-| curve-dex | 0.15% | 2.06% | 33.57% incentives |
+| puffer-stake | 2.34% | 1.99% | 2.23% incentives |
+| curve-dex | 0.15% | 2.06% | 33.52% incentives |
 | curve-dex | 0.96% | 2.55% | Base rate |
-| uniswap-v3 | 0.03% | 1.83% | Base rate |
-| pendle-v2 | 3.39% | 2.91% | Base rate |
+| uniswap-v3 | 0.03% | 1.82% | Base rate |
 | pendle-v2 | 4.16% | 3.47% | Base rate |
+| pendle-v2 | 3.39% | 2.92% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

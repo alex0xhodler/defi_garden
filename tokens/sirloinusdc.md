@@ -6,7 +6,7 @@ The highest honest SIRLOINUSDC yield right now is 5.63% on morpho-blue (Base), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/pools/morpho-blue-sirloinusdc-base) | Base | 5.63% | $460.24M |
+| [morpho-blue →](https://www.defi.garden/pools/morpho-blue-sirloinusdc-base) | Base | 5.63% | $459.95M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SIRLOINUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $460.24M in total.
+1 live pool clear this page's $100K TVL floor, $459.95M in total.
 
 ### Are these rates safe?
 

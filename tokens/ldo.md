@@ -2,39 +2,39 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest LDO yield right now is 17.88% on uniswap-v3 (Polygon), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LDO yield right now is 18.99% on uniswap-v3 (Ethereum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=2fc9c593-f66b-4d05-b474-87ebc13ce378#src=seo_token) | Ethereum | 15.68% | $687.4K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=36d46d21-ea5a-5b97-9b9f-da18e6dd1e38#src=seo_token) | Ethereum | 18.95% | $321K |
-| [aave-v3 →](https://www.defi.garden/?pool=475e0e56-2648-4b75-82cb-e82f5983787a#src=seo_token) | Ethereum | 0.05% | $315.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2fc9c593-f66b-4d05-b474-87ebc13ce378#src=seo_token) | Ethereum | 18.99% | $693.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=36d46d21-ea5a-5b97-9b9f-da18e6dd1e38#src=seo_token) | Ethereum | 21.47% | $323.9K |
+| [aave-v3 →](https://www.defi.garden/?pool=475e0e56-2648-4b75-82cb-e82f5983787a#src=seo_token) | Ethereum | 0.05% | $319.7K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=51a50267-b464-41dd-b733-174601f0cb27#src=seo_token) | Ethereum | 5.13% | $154.6K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=db15dc51-7ffe-4ed0-a823-b38dd4e80e94#src=seo_token) | Ethereum | 10.01% | $148.9K |
-| [hydration-dex →](https://www.defi.garden/?pool=84dd5393-185b-4d21-9685-ee8d66da69a1#src=seo_token) | Polkadot | 2.62% | $132.2K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=8f5ff521-0392-409d-a362-d0ff0b40d04f#src=seo_token) | Polygon | 17.88% | $102K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=db15dc51-7ffe-4ed0-a823-b38dd4e80e94#src=seo_token) | Ethereum | 12.08% | $150.4K |
+| [hydration-dex →](https://www.defi.garden/?pool=84dd5393-185b-4d21-9685-ee8d66da69a1#src=seo_token) | Polkadot | 2.62% | $133.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=8f5ff521-0392-409d-a362-d0ff0b40d04f#src=seo_token) | Polygon | 18.71% | $103K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, LDO's lower-variability candidates are aave-v3 (Ethereum), 0.05% APY, $315.5K TVL, https://www.defi.garden/?pool=475e0e56-2648-4b75-82cb-e82f5983787a#src=seo_token; hydration-dex (Polkadot), 2.62% APY, $132.2K TVL, https://www.defi.garden/?pool=84dd5393-185b-4d21-9685-ee8d66da69a1#src=seo_token; uniswap-v4 (Ethereum), 10.01% APY, $148.9K TVL, https://www.defi.garden/?pool=db15dc51-7ffe-4ed0-a823-b38dd4e80e94#src=seo_token; uniswap-v3 (Polygon), 17.88% APY, $102K TVL, https://www.defi.garden/?pool=8f5ff521-0392-409d-a362-d0ff0b40d04f#src=seo_token; uniswap-v3 (Ethereum), 15.68% APY, $687.4K TVL, https://www.defi.garden/?pool=2fc9c593-f66b-4d05-b474-87ebc13ce378#src=seo_token; uniswap-v3 (Ethereum), 5.13% APY, $154.6K TVL, https://www.defi.garden/?pool=51a50267-b464-41dd-b733-174601f0cb27#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LDO's lower-variability candidates are aave-v3 (Ethereum), 0.05% APY, $319.7K TVL, https://www.defi.garden/?pool=475e0e56-2648-4b75-82cb-e82f5983787a#src=seo_token; hydration-dex (Polkadot), 2.62% APY, $133.7K TVL, https://www.defi.garden/?pool=84dd5393-185b-4d21-9685-ee8d66da69a1#src=seo_token; uniswap-v4 (Ethereum), 12.08% APY, $150.4K TVL, https://www.defi.garden/?pool=db15dc51-7ffe-4ed0-a823-b38dd4e80e94#src=seo_token; uniswap-v3 (Polygon), 18.71% APY, $103K TVL, https://www.defi.garden/?pool=8f5ff521-0392-409d-a362-d0ff0b40d04f#src=seo_token; uniswap-v3 (Ethereum), 18.99% APY, $693.4K TVL, https://www.defi.garden/?pool=2fc9c593-f66b-4d05-b474-87ebc13ce378#src=seo_token; uniswap-v3 (Ethereum), 5.13% APY, $154.6K TVL, https://www.defi.garden/?pool=51a50267-b464-41dd-b733-174601f0cb27#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aave-v3 →](https://www.defi.garden/?pool=475e0e56-2648-4b75-82cb-e82f5983787a#src=seo_token) | Ethereum | 0.05% | $315.5K |
-| 2 | [hydration-dex →](https://www.defi.garden/?pool=84dd5393-185b-4d21-9685-ee8d66da69a1#src=seo_token) | Polkadot | 2.62% | $132.2K |
-| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=db15dc51-7ffe-4ed0-a823-b38dd4e80e94#src=seo_token) | Ethereum | 10.01% | $148.9K |
-| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=8f5ff521-0392-409d-a362-d0ff0b40d04f#src=seo_token) | Polygon | 17.88% | $102K |
-| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=2fc9c593-f66b-4d05-b474-87ebc13ce378#src=seo_token) | Ethereum | 15.68% | $687.4K |
+| 1 | [aave-v3 →](https://www.defi.garden/?pool=475e0e56-2648-4b75-82cb-e82f5983787a#src=seo_token) | Ethereum | 0.05% | $319.7K |
+| 2 | [hydration-dex →](https://www.defi.garden/?pool=84dd5393-185b-4d21-9685-ee8d66da69a1#src=seo_token) | Polkadot | 2.62% | $133.7K |
+| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=db15dc51-7ffe-4ed0-a823-b38dd4e80e94#src=seo_token) | Ethereum | 12.08% | $150.4K |
+| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=8f5ff521-0392-409d-a362-d0ff0b40d04f#src=seo_token) | Polygon | 18.71% | $103K |
+| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=2fc9c593-f66b-4d05-b474-87ebc13ce378#src=seo_token) | Ethereum | 18.99% | $693.4K |
 | 6 | [uniswap-v3 →](https://www.defi.garden/?pool=51a50267-b464-41dd-b733-174601f0cb27#src=seo_token) | Ethereum | 5.13% | $154.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-LDO shows up in 7 pools here, with rates from 0.05% to 18.95% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+LDO shows up in 7 pools here, with rates from 0.05% to 21.47% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-7 of these 7 pools have a trustworthy 30-day average on file, with a median of 16.85% — a useful check against today's number for whether the rate is steady or just having a good day.
+7 of these 7 pools have a trustworthy 30-day average on file, with a median of 16.86% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 7 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -42,13 +42,13 @@ All 7 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 15.68% | 16.85% | Base rate |
-| uniswap-v4 | 18.95% | 43.20% | Base rate |
+| uniswap-v3 | 18.99% | 16.86% | Base rate |
+| uniswap-v4 | 21.47% | 43.13% | Base rate |
 | aave-v3 | 0.05% | 0.05% | Base rate |
-| uniswap-v3 | 5.13% | 26.01% | Base rate |
-| uniswap-v4 | 10.01% | 16.72% | Base rate |
+| uniswap-v3 | 5.13% | 26.03% | Base rate |
+| uniswap-v4 | 12.08% | 16.72% | Base rate |
 | hydration-dex | 2.62% | 2.37% | Base rate |
-| uniswap-v3 | 17.88% | 34.23% | Base rate |
+| uniswap-v3 | 18.71% | 34.21% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -56,11 +56,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest LDO yield today?
 
-17.88% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
+18.99% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many LDO pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $1.86M in total.
+7 live pools clear this page's $100K TVL floor, $1.88M in total.
 
 ### Are these rates safe?
 
@@ -68,7 +68,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which LDO pools have the most stable APY history?
 
-Based on APY history only, LDO's lower-variability candidates are aave-v3 (Ethereum), 0.05% APY, $315.5K TVL, https://www.defi.garden/?pool=475e0e56-2648-4b75-82cb-e82f5983787a#src=seo_token; hydration-dex (Polkadot), 2.62% APY, $132.2K TVL, https://www.defi.garden/?pool=84dd5393-185b-4d21-9685-ee8d66da69a1#src=seo_token; uniswap-v4 (Ethereum), 10.01% APY, $148.9K TVL, https://www.defi.garden/?pool=db15dc51-7ffe-4ed0-a823-b38dd4e80e94#src=seo_token; uniswap-v3 (Polygon), 17.88% APY, $102K TVL, https://www.defi.garden/?pool=8f5ff521-0392-409d-a362-d0ff0b40d04f#src=seo_token; uniswap-v3 (Ethereum), 15.68% APY, $687.4K TVL, https://www.defi.garden/?pool=2fc9c593-f66b-4d05-b474-87ebc13ce378#src=seo_token; uniswap-v3 (Ethereum), 5.13% APY, $154.6K TVL, https://www.defi.garden/?pool=51a50267-b464-41dd-b733-174601f0cb27#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LDO's lower-variability candidates are aave-v3 (Ethereum), 0.05% APY, $319.7K TVL, https://www.defi.garden/?pool=475e0e56-2648-4b75-82cb-e82f5983787a#src=seo_token; hydration-dex (Polkadot), 2.62% APY, $133.7K TVL, https://www.defi.garden/?pool=84dd5393-185b-4d21-9685-ee8d66da69a1#src=seo_token; uniswap-v4 (Ethereum), 12.08% APY, $150.4K TVL, https://www.defi.garden/?pool=db15dc51-7ffe-4ed0-a823-b38dd4e80e94#src=seo_token; uniswap-v3 (Polygon), 18.71% APY, $103K TVL, https://www.defi.garden/?pool=8f5ff521-0392-409d-a362-d0ff0b40d04f#src=seo_token; uniswap-v3 (Ethereum), 18.99% APY, $693.4K TVL, https://www.defi.garden/?pool=2fc9c593-f66b-4d05-b474-87ebc13ce378#src=seo_token; uniswap-v3 (Ethereum), 5.13% APY, $154.6K TVL, https://www.defi.garden/?pool=51a50267-b464-41dd-b733-174601f0cb27#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

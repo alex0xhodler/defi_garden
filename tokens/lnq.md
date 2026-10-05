@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest LNQ yield right now is 3.28% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LNQ yield right now is 3.13% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=e4b987ac-a298-4ca9-ad0d-24db6db4e078#src=seo_token) | Ethereum | 3.28% | $677.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=e4b987ac-a298-4ca9-ad0d-24db6db4e078#src=seo_token) | Ethereum | 3.13% | $680.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LNQ yield today?
 
-3.28% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+3.13% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many LNQ pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $677.8K in total.
+1 live pool clear this page's $100K TVL floor, $680.1K in total.
 
 ### Are these rates safe?
 

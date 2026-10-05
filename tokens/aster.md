@@ -42,11 +42,11 @@ All 6 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | lista-lending | 0.43% | 0.45% | Base rate |
-| uniswap-v4 | 7.46% | 9.37% | Base rate |
+| uniswap-v4 | 7.46% | 9.36% | Base rate |
 | uniswap-v4 | 0.28% | 0.48% | Base rate |
-| uniswap-v3 | 15.19% | 65.76% | Base rate |
-| uniswap-v3 | 0.95% | 18.96% | Base rate |
-| uniswap-v3 | 38.60% | 82.41% | Base rate |
+| uniswap-v3 | 15.19% | 65.71% | Base rate |
+| uniswap-v3 | 0.95% | 18.97% | Base rate |
+| uniswap-v3 | 38.60% | 82.16% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

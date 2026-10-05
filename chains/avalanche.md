@@ -5,12 +5,12 @@ The highest honest Avalanche yield right now is 7.64% on avant-avusd (Avalanche)
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
 | BUIDL | [blackrock-buidl →](https://www.defi.garden/pools/blackrock-buidl-buidl-avalanche) | 3.78% | $483.18M |
-| SAVAX | [benqi-staked-avax →](https://www.defi.garden/pools/benqi-staked-avax-savax-avalanche) | 3.64% | $255.13M |
-| WAVAX | [aave-v3 →](https://www.defi.garden/?pool=a1e18d7d-9a5f-4251-acb4-a87e005fe2c5#src=seo_chain) | 0.75% | $131.36M |
-| SAVUSD | [avant-avusd →](https://www.defi.garden/?pool=c74227a1-e738-4021-bbe1-13363815aecb#src=seo_chain) | 7.64% | $104.88M |
-| BTC.B | [aave-v3 →](https://www.defi.garden/?pool=94e3f442-ab03-4138-a7a8-910bac548058#src=seo_chain) | 0.01% | $95.35M |
+| SAVAX | [benqi-staked-avax →](https://www.defi.garden/pools/benqi-staked-avax-savax-avalanche) | 3.75% | $257.96M |
+| WAVAX | [aave-v3 →](https://www.defi.garden/?pool=a1e18d7d-9a5f-4251-acb4-a87e005fe2c5#src=seo_chain) | 0.75% | $132.86M |
+| SAVUSD | [avant-avusd →](https://www.defi.garden/?pool=c74227a1-e738-4021-bbe1-13363815aecb#src=seo_chain) | 7.64% | $104.89M |
+| BTC.B | [aave-v3 →](https://www.defi.garden/?pool=94e3f442-ab03-4138-a7a8-910bac548058#src=seo_chain) | 0.01% | $95.61M |
 | WETH.E | [aave-v3 →](https://www.defi.garden/?pool=c715efe7-a70d-4358-b2c2-c149cf658612#src=seo_chain) | 0.85% | $11.11M |
-| TAVAX | [treehouse-protocol →](https://www.defi.garden/?pool=40a1e447-058d-4c5b-b567-30543ea185c3#src=seo_chain) | 0.19% | $9.63M |
+| TAVAX | [treehouse-protocol →](https://www.defi.garden/?pool=40a1e447-058d-4c5b-b567-30543ea185c3#src=seo_chain) | 0.19% | $9.72M |
 | USDC | [spark-savings →](https://www.defi.garden/?pool=e96cbd55-a0a0-446a-89ba-ada6e2991d50#src=seo_chain) | 3.60% | $8.63M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Avalanche pools clear the TVL floor?
 
-131 live pools clear this page's $100K TVL floor, $1.7B in total.
+131 live pools clear this page's $100K TVL floor, $1.71B in total.
 
 ### Are these rates safe?
 

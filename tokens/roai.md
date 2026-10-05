@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest ROAI yield right now is 3.73% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ROAI yield right now is 3.60% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=e3950723-8592-4ceb-af10-0e95d1606108#src=seo_token) | Ethereum | 3.73% | $102.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=e3950723-8592-4ceb-af10-0e95d1606108#src=seo_token) | Ethereum | 3.60% | $106.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ROAI yield today?
 
-3.73% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+3.60% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many ROAI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $102.9K in total.
+1 live pool clear this page's $100K TVL floor, $106.7K in total.
 
 ### Are these rates safe?
 

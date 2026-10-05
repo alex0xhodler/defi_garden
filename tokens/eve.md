@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest EVE yield right now is 10.44% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EVE yield right now is 10.05% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=27aa0483-8210-4a32-ad49-165fe56f869d#src=seo_token) | Base | 10.44% | $128.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=27aa0483-8210-4a32-ad49-165fe56f869d#src=seo_token) | Base | 10.05% | $128.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EVE yield today?
 
-10.44% APY on uniswap-v4 (Base), based on live DefiLlama data.
+10.05% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many EVE pools clear the TVL floor?
 

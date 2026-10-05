@@ -7,25 +7,25 @@ The highest honest NIL yield right now is 27.30% on uniswap-v4 (Ethereum), among
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=6cf4797d-1097-4656-8e95-cfb6103fdcef#src=seo_token) | Ethereum | 27.30% | $481K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=a3f46406-6d64-40a4-b388-c01b93a457e7#src=seo_token) | Ethereum | 62.37% | $307.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a3f46406-6d64-40a4-b388-c01b93a457e7#src=seo_token) | Ethereum | 61.80% | $294.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, NIL's lower-variability candidates are uniswap-v4 (Ethereum), 62.37% APY, $307.4K TVL, https://www.defi.garden/?pool=a3f46406-6d64-40a4-b388-c01b93a457e7#src=seo_token; uniswap-v4 (Ethereum), 27.30% APY, $481K TVL, https://www.defi.garden/?pool=6cf4797d-1097-4656-8e95-cfb6103fdcef#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NIL's lower-variability candidates are uniswap-v4 (Ethereum), 61.80% APY, $294.1K TVL, https://www.defi.garden/?pool=a3f46406-6d64-40a4-b388-c01b93a457e7#src=seo_token; uniswap-v4 (Ethereum), 27.30% APY, $481K TVL, https://www.defi.garden/?pool=6cf4797d-1097-4656-8e95-cfb6103fdcef#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=a3f46406-6d64-40a4-b388-c01b93a457e7#src=seo_token) | Ethereum | 62.37% | $307.4K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=a3f46406-6d64-40a4-b388-c01b93a457e7#src=seo_token) | Ethereum | 61.80% | $294.1K |
 | 2 | [uniswap-v4 →](https://www.defi.garden/?pool=6cf4797d-1097-4656-8e95-cfb6103fdcef#src=seo_token) | Ethereum | 27.30% | $481K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-NIL shows up in 2 pools here, with rates from 27.30% to 62.37% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+NIL shows up in 2 pools here, with rates from 27.30% to 61.80% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 33.12% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 33.15% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -34,7 +34,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | uniswap-v4 | 27.30% | 26.99% | Base rate |
-| uniswap-v4 | 62.37% | 39.24% | Base rate |
+| uniswap-v4 | 61.80% | 39.31% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many NIL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $788.4K in total.
+2 live pools clear this page's $100K TVL floor, $775.1K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which NIL pools have the most stable APY history?
 
-Based on APY history only, NIL's lower-variability candidates are uniswap-v4 (Ethereum), 62.37% APY, $307.4K TVL, https://www.defi.garden/?pool=a3f46406-6d64-40a4-b388-c01b93a457e7#src=seo_token; uniswap-v4 (Ethereum), 27.30% APY, $481K TVL, https://www.defi.garden/?pool=6cf4797d-1097-4656-8e95-cfb6103fdcef#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NIL's lower-variability candidates are uniswap-v4 (Ethereum), 61.80% APY, $294.1K TVL, https://www.defi.garden/?pool=a3f46406-6d64-40a4-b388-c01b93a457e7#src=seo_token; uniswap-v4 (Ethereum), 27.30% APY, $481K TVL, https://www.defi.garden/?pool=6cf4797d-1097-4656-8e95-cfb6103fdcef#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

@@ -35,8 +35,8 @@ There is not enough qualifying APY history to rank STX pools. This view covers A
 
 ## Related tokens
 
-- [SBTC](https://www.defi.garden/tokens/sbtc)
 - [STBTC](https://www.defi.garden/tokens/stbtc)
+- [SBTC](https://www.defi.garden/tokens/sbtc)
 - [STSTX](https://www.defi.garden/tokens/ststx)
 - [STSTXBTC](https://www.defi.garden/tokens/ststxbtc)
 - [USDCX](https://www.defi.garden/tokens/usdcx)

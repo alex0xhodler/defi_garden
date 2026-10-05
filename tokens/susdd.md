@@ -32,7 +32,7 @@ SUSDD shows up in 2 pools here, with rates from 5.37% to 6.10% APY across 1 chai
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | pendle-v2 | 5.37% | 5.30% | Base rate |
-| pendle-v2 | 6.10% | 6.22% | 2.23% incentives |
+| pendle-v2 | 6.10% | 6.22% | 2.26% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

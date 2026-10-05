@@ -10,8 +10,8 @@
 | [curve-dex →](https://www.defi.garden/?pool=4b179a19-7b56-4b0d-a876-95f89dba3ef9#src=seo_token) | Ethereum | 0.15% | $3.11M |
 | [curve-dex →](https://www.defi.garden/?pool=00a7c200-ad4e-4bb1-9c81-57edefe71925#src=seo_token) | Ethereum | 0.96% | $2.05M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=f152a018-6cc6-4614-8b56-fe4548773cd4#src=seo_token) | Ethereum | 0.03% | $817.2K |
-| [pendle-v2 →](https://www.defi.garden/?pool=af01c9fd-58d8-4ecc-b27f-99b7bf40af8a#src=seo_token) | Ethereum | 3.39% | $319.9K |
 | [pendle-v2 →](https://www.defi.garden/?pool=bff45894-3c74-453b-b7ec-00837e09230b#src=seo_token) | Ethereum | 4.16% | $319.9K |
+| [pendle-v2 →](https://www.defi.garden/?pool=af01c9fd-58d8-4ecc-b27f-99b7bf40af8a#src=seo_token) | Ethereum | 3.39% | $319.9K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
@@ -39,12 +39,12 @@ PUFETH 풀은 여기 6개가 있고, 1개 체인에서 APY가 0.03%부터 4.16%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| puffer-stake | 2.34% | 1.99% | 인센티브 2.24% |
-| curve-dex | 0.15% | 2.06% | 인센티브 33.57% |
+| puffer-stake | 2.34% | 1.99% | 인센티브 2.23% |
+| curve-dex | 0.15% | 2.06% | 인센티브 33.52% |
 | curve-dex | 0.96% | 2.55% | 기본 금리 |
-| uniswap-v3 | 0.03% | 1.83% | 기본 금리 |
-| pendle-v2 | 3.39% | 2.91% | 기본 금리 |
+| uniswap-v3 | 0.03% | 1.82% | 기본 금리 |
 | pendle-v2 | 4.16% | 3.47% | 기본 금리 |
+| pendle-v2 | 3.39% | 2.92% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 

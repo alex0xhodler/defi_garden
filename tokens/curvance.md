@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest CURVANCE yield right now is 3.29% on balancer-v3 (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CURVANCE yield right now is 3.31% on balancer-v3 (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=6f3597a8-45a3-5d66-9bce-c658fc893c03#src=seo_token) | Monad | 3.29% | $101.9K |
+| [balancer-v3 →](https://www.defi.garden/?pool=6f3597a8-45a3-5d66-9bce-c658fc893c03#src=seo_token) | Monad | 3.31% | $101.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CURVANCE yield today?
 
-3.29% APY on balancer-v3 (Monad), based on live DefiLlama data.
+3.31% APY on balancer-v3 (Monad), based on live DefiLlama data.
 
 ### How many CURVANCE pools clear the TVL floor?
 

@@ -6,7 +6,7 @@ The highest honest YIELDETH yield right now is 7.99% on lagoon (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=d3b330b8-66e4-4622-b01f-9466298a18d9#src=seo_token) | Ethereum | 7.99% | $462.6K |
+| [lagoon →](https://www.defi.garden/?pool=d3b330b8-66e4-4622-b01f-9466298a18d9#src=seo_token) | Ethereum | 7.99% | $464.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many YIELDETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $462.6K in total.
+1 live pool clear this page's $100K TVL floor, $464.9K in total.
 
 ### Are these rates safe?
 

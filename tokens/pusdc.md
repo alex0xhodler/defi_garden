@@ -6,7 +6,7 @@ The highest honest PUSDC yield right now is 3.96% on morpho-blue (Base), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=c1949c46-0c01-445f-8017-b3192d9913bc#src=seo_token) | Base | 3.96% | $12.23M |
+| [morpho-blue →](https://www.defi.garden/?pool=c1949c46-0c01-445f-8017-b3192d9913bc#src=seo_token) | Base | 3.96% | $12.22M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $12.23M in total.
+1 live pool clear this page's $100K TVL floor, $12.22M in total.
 
 ### Are these rates safe?
 

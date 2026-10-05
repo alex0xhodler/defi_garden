@@ -6,7 +6,7 @@ The highest honest DOG yield right now is 0.71% on aerodrome-v1 (Base), among 5 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=18337fa4-0cfb-4726-b34a-3d9b00e3db72#src=seo_token) | Base | 0.71% | $114K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=18337fa4-0cfb-4726-b34a-3d9b00e3db72#src=seo_token) | Base | 0.71% | $114.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

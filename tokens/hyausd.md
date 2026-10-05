@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest HYAUSD yield right now is 3.88% on curvance (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HYAUSD yield right now is 4.10% on curvance (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curvance →](https://www.defi.garden/?pool=6c5854b9-31ef-5423-9493-148a5a5c34fe#src=seo_token) | Monad | 3.88% | $163.4K |
+| [curvance →](https://www.defi.garden/?pool=6c5854b9-31ef-5423-9493-148a5a5c34fe#src=seo_token) | Monad | 4.10% | $163.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HYAUSD yield today?
 
-3.88% APY on curvance (Monad), based on live DefiLlama data.
+4.10% APY on curvance (Monad), based on live DefiLlama data.
 
 ### How many HYAUSD pools clear the TVL floor?
 

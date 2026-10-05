@@ -2,30 +2,30 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest CARV yield right now is 225.50% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CARV yield right now is 225.99% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=eda66f9b-6a81-47e2-9143-1702bfbdfa41#src=seo_token) | Base | 225.50% | $270.3K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=3483ab4a-266c-494a-93f9-1caee16102f1#src=seo_token) | Base | 528.34% | $107.5K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=eda66f9b-6a81-47e2-9143-1702bfbdfa41#src=seo_token) | Base | 225.99% | $270.4K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=3483ab4a-266c-494a-93f9-1caee16102f1#src=seo_token) | Base | 701.34% | $107.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, CARV's lower-variability candidates are aerodrome-slipstream (Base), 528.34% APY, $107.5K TVL, https://www.defi.garden/?pool=3483ab4a-266c-494a-93f9-1caee16102f1#src=seo_token; aerodrome-slipstream (Base), 225.50% APY, $270.3K TVL, https://www.defi.garden/?pool=eda66f9b-6a81-47e2-9143-1702bfbdfa41#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CARV's lower-variability candidates are aerodrome-slipstream (Base), 701.34% APY, $107.6K TVL, https://www.defi.garden/?pool=3483ab4a-266c-494a-93f9-1caee16102f1#src=seo_token; aerodrome-slipstream (Base), 225.99% APY, $270.4K TVL, https://www.defi.garden/?pool=eda66f9b-6a81-47e2-9143-1702bfbdfa41#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aerodrome-slipstream →](https://www.defi.garden/?pool=3483ab4a-266c-494a-93f9-1caee16102f1#src=seo_token) | Base | 528.34% | $107.5K |
-| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=eda66f9b-6a81-47e2-9143-1702bfbdfa41#src=seo_token) | Base | 225.50% | $270.3K |
+| 1 | [aerodrome-slipstream →](https://www.defi.garden/?pool=3483ab4a-266c-494a-93f9-1caee16102f1#src=seo_token) | Base | 701.34% | $107.6K |
+| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=eda66f9b-6a81-47e2-9143-1702bfbdfa41#src=seo_token) | Base | 225.99% | $270.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CARV shows up in 2 pools here, with rates from 225.50% to 528.34% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CARV shows up in 2 pools here, with rates from 225.99% to 701.34% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 214.81% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 215.33% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 2 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -33,8 +33,8 @@ CARV shows up in 2 pools here, with rates from 225.50% to 528.34% APY across 1 c
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 225.50% | 295.33% | 95.52% incentives |
-| aerodrome-slipstream | 528.34% | 134.29% | 52.96% incentives |
+| aerodrome-slipstream | 225.99% | 295.50% | 95.34% incentives |
+| aerodrome-slipstream | 701.34% | 135.16% | 63.79% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CARV yield today?
 
-225.50% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+225.99% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many CARV pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $377.8K in total.
+2 live pools clear this page's $100K TVL floor, $378K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which CARV pools have the most stable APY history?
 
-Based on APY history only, CARV's lower-variability candidates are aerodrome-slipstream (Base), 528.34% APY, $107.5K TVL, https://www.defi.garden/?pool=3483ab4a-266c-494a-93f9-1caee16102f1#src=seo_token; aerodrome-slipstream (Base), 225.50% APY, $270.3K TVL, https://www.defi.garden/?pool=eda66f9b-6a81-47e2-9143-1702bfbdfa41#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CARV's lower-variability candidates are aerodrome-slipstream (Base), 701.34% APY, $107.6K TVL, https://www.defi.garden/?pool=3483ab4a-266c-494a-93f9-1caee16102f1#src=seo_token; aerodrome-slipstream (Base), 225.99% APY, $270.4K TVL, https://www.defi.garden/?pool=eda66f9b-6a81-47e2-9143-1702bfbdfa41#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

@@ -6,7 +6,7 @@ The highest honest SAVBTC yield right now is 2.37% on avant-avbtc (Avalanche), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [avant-avbtc →](https://www.defi.garden/?pool=ee869abc-744a-4e2e-bd5b-f5425dc0bd28#src=seo_token) | Avalanche | 2.37% | $6.38M |
+| [avant-avbtc →](https://www.defi.garden/?pool=ee869abc-744a-4e2e-bd5b-f5425dc0bd28#src=seo_token) | Avalanche | 2.37% | $6.37M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

@@ -6,18 +6,18 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=0f185c65-9d48-48d2-85ab-7728314988e6#src=seo_token) | Katana | 5.12% | $6.67M |
+| [yearn-finance →](https://www.defi.garden/?pool=0f185c65-9d48-48d2-85ab-7728314988e6#src=seo_token) | Katana | 5.15% | $6.67M |
 | [morpho-blue →](https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a#src=seo_token) | Katana | 3.33% | $3.39M |
 | [spectra-metavaults →](https://www.defi.garden/?pool=75208693-9e71-431c-886a-e10d7c3c4da4#src=seo_token) | Katana | 5.16% | $420.4K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 VBUSDC의 변동성 낮은 후보는 Katana의 yearn-finance, APY 5.12%, TVL $6.67M, https://www.defi.garden/?pool=0f185c65-9d48-48d2-85ab-7728314988e6#src=seo_token; Katana의 morpho-blue, APY 3.33%, TVL $3.39M, https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a#src=seo_token; Katana의 spectra-metavaults, APY 5.16%, TVL $420.4K, https://www.defi.garden/?pool=75208693-9e71-431c-886a-e10d7c3c4da4#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 VBUSDC의 변동성 낮은 후보는 Katana의 yearn-finance, APY 5.15%, TVL $6.67M, https://www.defi.garden/?pool=0f185c65-9d48-48d2-85ab-7728314988e6#src=seo_token; Katana의 morpho-blue, APY 3.33%, TVL $3.39M, https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a#src=seo_token; Katana의 spectra-metavaults, APY 5.16%, TVL $420.4K, https://www.defi.garden/?pool=75208693-9e71-431c-886a-e10d7c3c4da4#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [yearn-finance →](https://www.defi.garden/?pool=0f185c65-9d48-48d2-85ab-7728314988e6#src=seo_token) | Katana | 5.12% | $6.67M |
+| 1 | [yearn-finance →](https://www.defi.garden/?pool=0f185c65-9d48-48d2-85ab-7728314988e6#src=seo_token) | Katana | 5.15% | $6.67M |
 | 2 | [morpho-blue →](https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a#src=seo_token) | Katana | 3.33% | $3.39M |
 | 3 | [spectra-metavaults →](https://www.defi.garden/?pool=75208693-9e71-431c-886a-e10d7c3c4da4#src=seo_token) | Katana | 5.16% | $420.4K |
 
@@ -35,9 +35,9 @@ VBUSDC 풀은 여기 3개가 있고, 1개 체인에서 APY가 3.33%부터 5.16%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| yearn-finance | 5.12% | 5.20% | 인센티브 73.62% |
-| morpho-blue | 3.33% | 3.65% | 인센티브 31.95% |
-| spectra-metavaults | 5.16% | 6.09% | 인센티브 53.05% |
+| yearn-finance | 5.15% | 5.20% | 인센티브 73.78% |
+| morpho-blue | 3.33% | 3.65% | 인센티브 32.89% |
+| spectra-metavaults | 5.16% | 6.09% | 인센티브 53.06% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -57,7 +57,7 @@ DefiLlama 실시간 데이터 기준, Katana의 spectra-metavaults에서 APY 5.1
 
 ### VBUSDC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 VBUSDC의 변동성 낮은 후보는 Katana의 yearn-finance, APY 5.12%, TVL $6.67M, https://www.defi.garden/?pool=0f185c65-9d48-48d2-85ab-7728314988e6#src=seo_token; Katana의 morpho-blue, APY 3.33%, TVL $3.39M, https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a#src=seo_token; Katana의 spectra-metavaults, APY 5.16%, TVL $420.4K, https://www.defi.garden/?pool=75208693-9e71-431c-886a-e10d7c3c4da4#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 VBUSDC의 변동성 낮은 후보는 Katana의 yearn-finance, APY 5.15%, TVL $6.67M, https://www.defi.garden/?pool=0f185c65-9d48-48d2-85ab-7728314988e6#src=seo_token; Katana의 morpho-blue, APY 3.33%, TVL $3.39M, https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a#src=seo_token; Katana의 spectra-metavaults, APY 5.16%, TVL $420.4K, https://www.defi.garden/?pool=75208693-9e71-431c-886a-e10d7c3c4da4#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

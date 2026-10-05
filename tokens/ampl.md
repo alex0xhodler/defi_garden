@@ -6,7 +6,7 @@ The highest honest AMPL yield right now is 0.35% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=4f2c535f-51ce-4ea5-8c90-2889cebccad8#src=seo_token) | Ethereum | 0.35% | $600.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=4f2c535f-51ce-4ea5-8c90-2889cebccad8#src=seo_token) | Ethereum | 0.35% | $600.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AMPL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $600.3K in total.
+1 live pool clear this page's $100K TVL floor, $600.9K in total.
 
 ### Are these rates safe?
 

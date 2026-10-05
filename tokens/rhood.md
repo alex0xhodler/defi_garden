@@ -6,7 +6,7 @@ The highest honest RHOOD yield right now is 0.12% on uniswap-v3 (Arbitrum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=d7743d92-22e7-5773-b8cc-c7dea24aad70#src=seo_token) | Arbitrum | 0.12% | $200.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d7743d92-22e7-5773-b8cc-c7dea24aad70#src=seo_token) | Arbitrum | 0.12% | $200.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many RHOOD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $200.3K in total.
+1 live pool clear this page's $100K TVL floor, $200.4K in total.
 
 ### Are these rates safe?
 

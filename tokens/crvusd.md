@@ -6,30 +6,30 @@ The highest honest CRVUSD yield right now is 5.46% on curve-dex (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=128b253a-0903-476f-9a70-6007b336e395#src=seo_token) | Ethereum | 4.03% | $70.26M |
-| [curve-dex →](https://www.defi.garden/?pool=1b6fc394-3f6a-4537-9413-926db5fc10f6#src=seo_token) | Ethereum | 5.46% | $61.67M |
-| [curve-dex →](https://www.defi.garden/?pool=0fe44dca-3690-4bd2-85a6-77d823b283c5#src=seo_token) | Ethereum | 2.22% | $53.26M |
-| [curve-dex →](https://www.defi.garden/?pool=90a3e412-e3be-47e1-a233-fd3760f4a794#src=seo_token) | Ethereum | 3.07% | $47.05M |
-| [curve-dex →](https://www.defi.garden/?pool=a0372352-7f3d-457e-b353-85df69b3eab5#src=seo_token) | Ethereum | 3.54% | $37.6M |
-| [curve-llamalend →](https://www.defi.garden/?pool=fc689839-abf0-4649-a9dc-8a4778550f4b#src=seo_token) | Ethereum | 3.12% | $33.59M |
-| [curve-dex →](https://www.defi.garden/?pool=f8971721-005b-4a8f-b743-584a30d362a9#src=seo_token) | Ethereum | 2.32% | $21.18M |
-| [curve-llamalend →](https://www.defi.garden/?pool=27af094e-e18f-5eb2-bfbf-1cf24be73057#src=seo_token) | Ethereum | 5.02% | $18.15M |
+| [curve-dex →](https://www.defi.garden/?pool=128b253a-0903-476f-9a70-6007b336e395#src=seo_token) | Ethereum | 4.03% | $70.35M |
+| [curve-dex →](https://www.defi.garden/?pool=1b6fc394-3f6a-4537-9413-926db5fc10f6#src=seo_token) | Ethereum | 5.46% | $61.88M |
+| [curve-dex →](https://www.defi.garden/?pool=0fe44dca-3690-4bd2-85a6-77d823b283c5#src=seo_token) | Ethereum | 2.22% | $53.36M |
+| [curve-dex →](https://www.defi.garden/?pool=90a3e412-e3be-47e1-a233-fd3760f4a794#src=seo_token) | Ethereum | 3.11% | $47.05M |
+| [curve-dex →](https://www.defi.garden/?pool=a0372352-7f3d-457e-b353-85df69b3eab5#src=seo_token) | Ethereum | 3.54% | $37.67M |
+| [curve-llamalend →](https://www.defi.garden/?pool=fc689839-abf0-4649-a9dc-8a4778550f4b#src=seo_token) | Ethereum | 3.15% | $33.59M |
+| [curve-dex →](https://www.defi.garden/?pool=f8971721-005b-4a8f-b743-584a30d362a9#src=seo_token) | Ethereum | 2.32% | $21.22M |
+| [curve-llamalend →](https://www.defi.garden/?pool=27af094e-e18f-5eb2-bfbf-1cf24be73057#src=seo_token) | Ethereum | 5.05% | $18.15M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, CRVUSD's lower-variability candidates are curve-llamalend (Ethereum), 5.02% APY, $18.15M TVL, https://www.defi.garden/?pool=27af094e-e18f-5eb2-bfbf-1cf24be73057#src=seo_token; curve-dex (Ethereum), 3.07% APY, $47.05M TVL, https://www.defi.garden/?pool=90a3e412-e3be-47e1-a233-fd3760f4a794#src=seo_token; curve-llamalend (Ethereum), 3.12% APY, $33.59M TVL, https://www.defi.garden/?pool=fc689839-abf0-4649-a9dc-8a4778550f4b#src=seo_token; curve-dex (Ethereum), 3.54% APY, $37.6M TVL, https://www.defi.garden/?pool=a0372352-7f3d-457e-b353-85df69b3eab5#src=seo_token; curve-dex (Ethereum), 4.03% APY, $70.26M TVL, https://www.defi.garden/?pool=128b253a-0903-476f-9a70-6007b336e395#src=seo_token; curve-dex (Ethereum), 5.46% APY, $61.67M TVL, https://www.defi.garden/?pool=1b6fc394-3f6a-4537-9413-926db5fc10f6#src=seo_token; curve-dex (Ethereum), 2.22% APY, $53.26M TVL, https://www.defi.garden/?pool=0fe44dca-3690-4bd2-85a6-77d823b283c5#src=seo_token; curve-dex (Ethereum), 2.32% APY, $21.18M TVL, https://www.defi.garden/?pool=f8971721-005b-4a8f-b743-584a30d362a9#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CRVUSD's lower-variability candidates are curve-llamalend (Ethereum), 5.05% APY, $18.15M TVL, https://www.defi.garden/?pool=27af094e-e18f-5eb2-bfbf-1cf24be73057#src=seo_token; curve-dex (Ethereum), 3.11% APY, $47.05M TVL, https://www.defi.garden/?pool=90a3e412-e3be-47e1-a233-fd3760f4a794#src=seo_token; curve-llamalend (Ethereum), 3.15% APY, $33.59M TVL, https://www.defi.garden/?pool=fc689839-abf0-4649-a9dc-8a4778550f4b#src=seo_token; curve-dex (Ethereum), 3.54% APY, $37.67M TVL, https://www.defi.garden/?pool=a0372352-7f3d-457e-b353-85df69b3eab5#src=seo_token; curve-dex (Ethereum), 4.03% APY, $70.35M TVL, https://www.defi.garden/?pool=128b253a-0903-476f-9a70-6007b336e395#src=seo_token; curve-dex (Ethereum), 5.46% APY, $61.88M TVL, https://www.defi.garden/?pool=1b6fc394-3f6a-4537-9413-926db5fc10f6#src=seo_token; curve-dex (Ethereum), 2.22% APY, $53.36M TVL, https://www.defi.garden/?pool=0fe44dca-3690-4bd2-85a6-77d823b283c5#src=seo_token; curve-dex (Ethereum), 2.32% APY, $21.22M TVL, https://www.defi.garden/?pool=f8971721-005b-4a8f-b743-584a30d362a9#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-llamalend →](https://www.defi.garden/?pool=27af094e-e18f-5eb2-bfbf-1cf24be73057#src=seo_token) | Ethereum | 5.02% | $18.15M |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=90a3e412-e3be-47e1-a233-fd3760f4a794#src=seo_token) | Ethereum | 3.07% | $47.05M |
-| 3 | [curve-llamalend →](https://www.defi.garden/?pool=fc689839-abf0-4649-a9dc-8a4778550f4b#src=seo_token) | Ethereum | 3.12% | $33.59M |
-| 4 | [curve-dex →](https://www.defi.garden/?pool=a0372352-7f3d-457e-b353-85df69b3eab5#src=seo_token) | Ethereum | 3.54% | $37.6M |
-| 5 | [curve-dex →](https://www.defi.garden/?pool=128b253a-0903-476f-9a70-6007b336e395#src=seo_token) | Ethereum | 4.03% | $70.26M |
-| 6 | [curve-dex →](https://www.defi.garden/?pool=1b6fc394-3f6a-4537-9413-926db5fc10f6#src=seo_token) | Ethereum | 5.46% | $61.67M |
-| 7 | [curve-dex →](https://www.defi.garden/?pool=0fe44dca-3690-4bd2-85a6-77d823b283c5#src=seo_token) | Ethereum | 2.22% | $53.26M |
-| 8 | [curve-dex →](https://www.defi.garden/?pool=f8971721-005b-4a8f-b743-584a30d362a9#src=seo_token) | Ethereum | 2.32% | $21.18M |
+| 1 | [curve-llamalend →](https://www.defi.garden/?pool=27af094e-e18f-5eb2-bfbf-1cf24be73057#src=seo_token) | Ethereum | 5.05% | $18.15M |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=90a3e412-e3be-47e1-a233-fd3760f4a794#src=seo_token) | Ethereum | 3.11% | $47.05M |
+| 3 | [curve-llamalend →](https://www.defi.garden/?pool=fc689839-abf0-4649-a9dc-8a4778550f4b#src=seo_token) | Ethereum | 3.15% | $33.59M |
+| 4 | [curve-dex →](https://www.defi.garden/?pool=a0372352-7f3d-457e-b353-85df69b3eab5#src=seo_token) | Ethereum | 3.54% | $37.67M |
+| 5 | [curve-dex →](https://www.defi.garden/?pool=128b253a-0903-476f-9a70-6007b336e395#src=seo_token) | Ethereum | 4.03% | $70.35M |
+| 6 | [curve-dex →](https://www.defi.garden/?pool=1b6fc394-3f6a-4537-9413-926db5fc10f6#src=seo_token) | Ethereum | 5.46% | $61.88M |
+| 7 | [curve-dex →](https://www.defi.garden/?pool=0fe44dca-3690-4bd2-85a6-77d823b283c5#src=seo_token) | Ethereum | 2.22% | $53.36M |
+| 8 | [curve-dex →](https://www.defi.garden/?pool=f8971721-005b-4a8f-b743-584a30d362a9#src=seo_token) | Ethereum | 2.32% | $21.22M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -46,13 +46,13 @@ CRVUSD shows up in 8 pools here, with rates from 2.22% to 5.46% APY across 1 cha
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | curve-dex | 4.03% | 1.67% | Base rate |
-| curve-dex | 5.46% | 5.84% | Base rate |
-| curve-dex | 2.22% | 9.93% | Base rate |
-| curve-dex | 3.07% | 3.61% | 92.52% incentives |
-| curve-dex | 3.54% | 1.62% | Base rate |
-| curve-llamalend | 3.12% | 3.00% | 80.39% incentives |
+| curve-dex | 5.46% | 5.85% | Base rate |
+| curve-dex | 2.22% | 9.92% | Base rate |
+| curve-dex | 3.11% | 3.61% | 92.60% incentives |
+| curve-dex | 3.54% | 1.63% | Base rate |
+| curve-llamalend | 3.15% | 3.00% | 80.59% incentives |
 | curve-dex | 2.32% | 3.42% | Base rate |
-| curve-llamalend | 5.02% | 4.78% | 44.29% incentives |
+| curve-llamalend | 5.05% | 4.78% | 44.61% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -64,7 +64,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many CRVUSD pools clear the TVL floor?
 
-117 live pools clear this page's $100K TVL floor, $602.75M in total.
+117 live pools clear this page's $100K TVL floor, $603.34M in total.
 
 ### Are these rates safe?
 
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which CRVUSD pools have the most stable APY history?
 
-Based on APY history only, CRVUSD's lower-variability candidates are curve-llamalend (Ethereum), 5.02% APY, $18.15M TVL, https://www.defi.garden/?pool=27af094e-e18f-5eb2-bfbf-1cf24be73057#src=seo_token; curve-dex (Ethereum), 3.07% APY, $47.05M TVL, https://www.defi.garden/?pool=90a3e412-e3be-47e1-a233-fd3760f4a794#src=seo_token; curve-llamalend (Ethereum), 3.12% APY, $33.59M TVL, https://www.defi.garden/?pool=fc689839-abf0-4649-a9dc-8a4778550f4b#src=seo_token; curve-dex (Ethereum), 3.54% APY, $37.6M TVL, https://www.defi.garden/?pool=a0372352-7f3d-457e-b353-85df69b3eab5#src=seo_token; curve-dex (Ethereum), 4.03% APY, $70.26M TVL, https://www.defi.garden/?pool=128b253a-0903-476f-9a70-6007b336e395#src=seo_token; curve-dex (Ethereum), 5.46% APY, $61.67M TVL, https://www.defi.garden/?pool=1b6fc394-3f6a-4537-9413-926db5fc10f6#src=seo_token; curve-dex (Ethereum), 2.22% APY, $53.26M TVL, https://www.defi.garden/?pool=0fe44dca-3690-4bd2-85a6-77d823b283c5#src=seo_token; curve-dex (Ethereum), 2.32% APY, $21.18M TVL, https://www.defi.garden/?pool=f8971721-005b-4a8f-b743-584a30d362a9#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CRVUSD's lower-variability candidates are curve-llamalend (Ethereum), 5.05% APY, $18.15M TVL, https://www.defi.garden/?pool=27af094e-e18f-5eb2-bfbf-1cf24be73057#src=seo_token; curve-dex (Ethereum), 3.11% APY, $47.05M TVL, https://www.defi.garden/?pool=90a3e412-e3be-47e1-a233-fd3760f4a794#src=seo_token; curve-llamalend (Ethereum), 3.15% APY, $33.59M TVL, https://www.defi.garden/?pool=fc689839-abf0-4649-a9dc-8a4778550f4b#src=seo_token; curve-dex (Ethereum), 3.54% APY, $37.67M TVL, https://www.defi.garden/?pool=a0372352-7f3d-457e-b353-85df69b3eab5#src=seo_token; curve-dex (Ethereum), 4.03% APY, $70.35M TVL, https://www.defi.garden/?pool=128b253a-0903-476f-9a70-6007b336e395#src=seo_token; curve-dex (Ethereum), 5.46% APY, $61.88M TVL, https://www.defi.garden/?pool=1b6fc394-3f6a-4537-9413-926db5fc10f6#src=seo_token; curve-dex (Ethereum), 2.22% APY, $53.36M TVL, https://www.defi.garden/?pool=0fe44dca-3690-4bd2-85a6-77d823b283c5#src=seo_token; curve-dex (Ethereum), 2.32% APY, $21.22M TVL, https://www.defi.garden/?pool=f8971721-005b-4a8f-b743-584a30d362a9#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

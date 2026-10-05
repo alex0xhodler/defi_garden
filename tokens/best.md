@@ -6,7 +6,7 @@ The highest honest BEST yield right now is 1.88% on uniswap-v3 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=747f5e9d-c680-4ae4-aae1-8d2e0b07fc80#src=seo_token) | Ethereum | 1.88% | $277.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=747f5e9d-c680-4ae4-aae1-8d2e0b07fc80#src=seo_token) | Ethereum | 1.88% | $278K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many BEST pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $402.2K in total.
+2 live pools clear this page's $100K TVL floor, $402.4K in total.
 
 ### Are these rates safe?
 

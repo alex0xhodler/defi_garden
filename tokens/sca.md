@@ -6,18 +6,18 @@ The highest honest SCA yield right now is 2.04% on scallop-lend (Sui), among 2 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [scallop-lend →](https://www.defi.garden/?pool=f0ed3798-1c3f-400b-bac5-32684a7ab836#src=seo_token) | Sui | 2.04% | $150.6K |
-| [bluefin-spot →](https://www.defi.garden/?pool=db9999d6-75d2-4ba0-bbef-13ac88fedc56#src=seo_token) | Sui | 0.07% | $123.4K |
+| [scallop-lend →](https://www.defi.garden/?pool=f0ed3798-1c3f-400b-bac5-32684a7ab836#src=seo_token) | Sui | 2.04% | $150.7K |
+| [bluefin-spot →](https://www.defi.garden/?pool=db9999d6-75d2-4ba0-bbef-13ac88fedc56#src=seo_token) | Sui | 0.07% | $123.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SCA's lower-variability candidates are bluefin-spot (Sui), 0.07% APY, $123.4K TVL, https://www.defi.garden/?pool=db9999d6-75d2-4ba0-bbef-13ac88fedc56#src=seo_token; scallop-lend (Sui), 2.04% APY, $150.6K TVL, https://www.defi.garden/?pool=f0ed3798-1c3f-400b-bac5-32684a7ab836#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SCA's lower-variability candidates are bluefin-spot (Sui), 0.07% APY, $123.3K TVL, https://www.defi.garden/?pool=db9999d6-75d2-4ba0-bbef-13ac88fedc56#src=seo_token; scallop-lend (Sui), 2.04% APY, $150.7K TVL, https://www.defi.garden/?pool=f0ed3798-1c3f-400b-bac5-32684a7ab836#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [bluefin-spot →](https://www.defi.garden/?pool=db9999d6-75d2-4ba0-bbef-13ac88fedc56#src=seo_token) | Sui | 0.07% | $123.4K |
-| 2 | [scallop-lend →](https://www.defi.garden/?pool=f0ed3798-1c3f-400b-bac5-32684a7ab836#src=seo_token) | Sui | 2.04% | $150.6K |
+| 1 | [bluefin-spot →](https://www.defi.garden/?pool=db9999d6-75d2-4ba0-bbef-13ac88fedc56#src=seo_token) | Sui | 0.07% | $123.3K |
+| 2 | [scallop-lend →](https://www.defi.garden/?pool=f0ed3798-1c3f-400b-bac5-32684a7ab836#src=seo_token) | Sui | 2.04% | $150.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SCA pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $273.9K in total.
+2 live pools clear this page's $100K TVL floor, $274.1K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SCA pools have the most stable APY history?
 
-Based on APY history only, SCA's lower-variability candidates are bluefin-spot (Sui), 0.07% APY, $123.4K TVL, https://www.defi.garden/?pool=db9999d6-75d2-4ba0-bbef-13ac88fedc56#src=seo_token; scallop-lend (Sui), 2.04% APY, $150.6K TVL, https://www.defi.garden/?pool=f0ed3798-1c3f-400b-bac5-32684a7ab836#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SCA's lower-variability candidates are bluefin-spot (Sui), 0.07% APY, $123.3K TVL, https://www.defi.garden/?pool=db9999d6-75d2-4ba0-bbef-13ac88fedc56#src=seo_token; scallop-lend (Sui), 2.04% APY, $150.7K TVL, https://www.defi.garden/?pool=f0ed3798-1c3f-400b-bac5-32684a7ab836#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

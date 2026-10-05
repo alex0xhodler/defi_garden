@@ -6,8 +6,8 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=8f50502a-0e73-5f6b-8b06-a13bd680a980#src=seo_token) | Solana | 4.06% | $1.16M |
-| [folks-finance-lending →](https://www.defi.garden/?pool=6da6f63f-8ebb-49ab-9125-c5a429d49c98#src=seo_token) | Algorand | 0.17% | $498.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=8f50502a-0e73-5f6b-8b06-a13bd680a980#src=seo_token) | Solana | 4.10% | $1.16M |
+| [folks-finance-lending →](https://www.defi.garden/?pool=6da6f63f-8ebb-49ab-9125-c5a429d49c98#src=seo_token) | Algorand | 0.17% | $496.8K |
 | [raydium-amm →](https://www.defi.garden/?pool=52a9d03d-9bbe-5394-a915-6c407e4019ae#src=seo_token) | Solana | 5.32% | $293.1K |
 
 <!-- rate-stability:insufficient -->
@@ -29,7 +29,7 @@ GOLD 풀은 여기 3개가 있고, 2개 체인에서 APY가 0.17%부터 5.32%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| raydium-amm | 4.06% | 10.77% | 기본 금리 |
+| raydium-amm | 4.10% | 10.73% | 기본 금리 |
 | folks-finance-lending | 0.17% | 0.17% | 기본 금리 |
 | raydium-amm | 5.32% | 3.90% | 기본 금리 |
 

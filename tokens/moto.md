@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest MOTO yield right now is 14.68% on motoswap-farm (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MOTO yield right now is 14.38% on motoswap-farm (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [motoswap-farm →](https://www.defi.garden/?pool=a7e4f05d-c547-5bd6-a66c-28f33a2ebb2f#src=seo_token) | Ethereum | 14.68% | $281.9K |
+| [motoswap-farm →](https://www.defi.garden/?pool=a7e4f05d-c547-5bd6-a66c-28f33a2ebb2f#src=seo_token) | Ethereum | 14.38% | $281.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MOTO yield today?
 
-14.68% APY on motoswap-farm (Ethereum), based on live DefiLlama data.
+14.38% APY on motoswap-farm (Ethereum), based on live DefiLlama data.
 
 ### How many MOTO pools clear the TVL floor?
 

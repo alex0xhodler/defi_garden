@@ -10,7 +10,7 @@ The highest honest REUSDE yield right now is 19.66% on pendle-v2 (Ethereum), amo
 | [pendle-v2 →](https://www.defi.garden/?pool=2c9d004f-649b-4d6c-9efb-d4759f132361#src=seo_token) | Ethereum | 19.66% | $4.75M |
 | [pendle-v2 →](https://www.defi.garden/?pool=bfb4d5f7-8479-4695-bb29-1c72b2407333#src=seo_token) | Ethereum | 18.92% | $4.75M |
 | [curve-dex →](https://www.defi.garden/?pool=12b0dcd9-d6fd-443d-88c4-68063f38f5bb#src=seo_token) | Ethereum | 0.24% | $564.3K |
-| [euler-v2 →](https://www.defi.garden/?pool=f99677cc-5e2f-5d6a-a8c6-1a1c0f73c265#src=seo_token) | Ethereum | 0.01% | $208.9K |
+| [euler-v2 →](https://www.defi.garden/?pool=f99677cc-5e2f-5d6a-a8c6-1a1c0f73c265#src=seo_token) | Ethereum | 0.01% | $208.8K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=4f14a69f-31a6-47ce-93db-0aed87f3249f#src=seo_token) | Ethereum | 7.10% | $151K |
 
 <!-- rate-stability:ranked -->
@@ -40,10 +40,10 @@ REUSDE shows up in 6 pools here, with rates from 0.01% to 19.66% APY across 1 ch
 |---|---|---|---|
 | re | 11.81% | 12.15% | Base rate |
 | pendle-v2 | 19.66% | 18.52% | Base rate |
-| pendle-v2 | 18.92% | 17.69% | 1.58% incentives |
+| pendle-v2 | 18.92% | 17.69% | 1.60% incentives |
 | curve-dex | 0.24% | 0.18% | Base rate |
 | euler-v2 | 0.01% | 0.01% | Base rate |
-| uniswap-v4 | 7.10% | 30.51% | Base rate |
+| uniswap-v4 | 7.10% | 30.48% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

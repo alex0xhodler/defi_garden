@@ -6,26 +6,26 @@ The highest honest RNT yield right now is 18.86% on gt3 (Polygon), among 3 pools
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=c5ce4562-c372-4f6b-8037-e71b77d4395e#src=seo_token) | Solana | 2.17% | $408.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=c5ce4562-c372-4f6b-8037-e71b77d4395e#src=seo_token) | Solana | 2.06% | $410.3K |
 | [gt3 →](https://www.defi.garden/?pool=d927c8b7-cb27-4085-8279-7c2068df10ac#src=seo_token) | Polygon | 6.78% | $278.1K |
 | [gt3 →](https://www.defi.garden/?pool=4d4922a1-03e1-478a-b429-7831fedf0560#src=seo_token) | Polygon | 18.86% | $143.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, RNT's lower-variability candidates are gt3 (Polygon), 6.78% APY, $278.1K TVL, https://www.defi.garden/?pool=d927c8b7-cb27-4085-8279-7c2068df10ac#src=seo_token; gt3 (Polygon), 18.86% APY, $143.8K TVL, https://www.defi.garden/?pool=4d4922a1-03e1-478a-b429-7831fedf0560#src=seo_token; raydium-amm (Solana), 2.17% APY, $408.2K TVL, https://www.defi.garden/?pool=c5ce4562-c372-4f6b-8037-e71b77d4395e#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RNT's lower-variability candidates are gt3 (Polygon), 6.78% APY, $278.1K TVL, https://www.defi.garden/?pool=d927c8b7-cb27-4085-8279-7c2068df10ac#src=seo_token; gt3 (Polygon), 18.86% APY, $143.8K TVL, https://www.defi.garden/?pool=4d4922a1-03e1-478a-b429-7831fedf0560#src=seo_token; raydium-amm (Solana), 2.06% APY, $410.3K TVL, https://www.defi.garden/?pool=c5ce4562-c372-4f6b-8037-e71b77d4395e#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [gt3 →](https://www.defi.garden/?pool=d927c8b7-cb27-4085-8279-7c2068df10ac#src=seo_token) | Polygon | 6.78% | $278.1K |
 | 2 | [gt3 →](https://www.defi.garden/?pool=4d4922a1-03e1-478a-b429-7831fedf0560#src=seo_token) | Polygon | 18.86% | $143.8K |
-| 3 | [raydium-amm →](https://www.defi.garden/?pool=c5ce4562-c372-4f6b-8037-e71b77d4395e#src=seo_token) | Solana | 2.17% | $408.2K |
+| 3 | [raydium-amm →](https://www.defi.garden/?pool=c5ce4562-c372-4f6b-8037-e71b77d4395e#src=seo_token) | Solana | 2.06% | $410.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-RNT shows up in 3 pools here, with rates from 2.17% to 18.86% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+RNT shows up in 3 pools here, with rates from 2.06% to 18.86% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 5.67% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -35,9 +35,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 2.17% | 2.91% | Base rate |
+| raydium-amm | 2.06% | 2.92% | Base rate |
 | gt3 | 6.78% | 5.67% | Base rate |
-| gt3 | 18.86% | 16.34% | Base rate |
+| gt3 | 18.86% | 16.35% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -49,7 +49,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many RNT pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $830.1K in total.
+3 live pools clear this page's $100K TVL floor, $832.2K in total.
 
 ### Are these rates safe?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which RNT pools have the most stable APY history?
 
-Based on APY history only, RNT's lower-variability candidates are gt3 (Polygon), 6.78% APY, $278.1K TVL, https://www.defi.garden/?pool=d927c8b7-cb27-4085-8279-7c2068df10ac#src=seo_token; gt3 (Polygon), 18.86% APY, $143.8K TVL, https://www.defi.garden/?pool=4d4922a1-03e1-478a-b429-7831fedf0560#src=seo_token; raydium-amm (Solana), 2.17% APY, $408.2K TVL, https://www.defi.garden/?pool=c5ce4562-c372-4f6b-8037-e71b77d4395e#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RNT's lower-variability candidates are gt3 (Polygon), 6.78% APY, $278.1K TVL, https://www.defi.garden/?pool=d927c8b7-cb27-4085-8279-7c2068df10ac#src=seo_token; gt3 (Polygon), 18.86% APY, $143.8K TVL, https://www.defi.garden/?pool=4d4922a1-03e1-478a-b429-7831fedf0560#src=seo_token; raydium-amm (Solana), 2.06% APY, $410.3K TVL, https://www.defi.garden/?pool=c5ce4562-c372-4f6b-8037-e71b77d4395e#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

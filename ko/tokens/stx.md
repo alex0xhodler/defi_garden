@@ -35,8 +35,8 @@ DefiLlama 실시간 데이터 기준, Stacks의 zest-v2에서 APY 0.72%예요.
 
 ## 관련 토큰
 
-- [SBTC](https://www.defi.garden/ko/tokens/sbtc)
 - [STBTC](https://www.defi.garden/ko/tokens/stbtc)
+- [SBTC](https://www.defi.garden/ko/tokens/sbtc)
 - [STSTX](https://www.defi.garden/ko/tokens/ststx)
 - [STSTXBTC](https://www.defi.garden/ko/tokens/ststxbtc)
 - [USDCX](https://www.defi.garden/ko/tokens/usdcx)

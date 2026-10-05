@@ -17,7 +17,7 @@ DefiLlama 실시간 데이터 기준, Bifrost Network의 bifi에서 APY 5.64%예
 
 ### Bifrost Network 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $11.73M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $11.83M예요.
 
 ### 이 수익률은 안전한가요?
 

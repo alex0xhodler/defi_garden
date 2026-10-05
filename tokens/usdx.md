@@ -31,7 +31,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 USDX shows up in 5 pools here, with rates from 0.71% to 14.95% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-5 of these 5 pools have a trustworthy 30-day average on file, with a median of 8.60% — a useful check against today's number for whether the rate is steady or just having a good day.
+5 of these 5 pools have a trustworthy 30-day average on file, with a median of 8.59% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 5 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -40,7 +40,7 @@ USDX shows up in 5 pools here, with rates from 0.71% to 14.95% APY across 2 chai
 | clearpool-lending | 3.50% | 3.50% | Base rate |
 | curve-dex | 0.71% | 1.17% | Base rate |
 | pendle-v2 | 14.95% | 14.76% | Base rate |
-| pendle-v2 | 6.99% | 8.60% | 5.38% incentives |
+| pendle-v2 | 6.99% | 8.59% | 5.45% incentives |
 | curve-dex | 8.81% | 11.00% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.

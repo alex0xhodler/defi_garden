@@ -6,7 +6,7 @@ The highest honest RIPPLE yield right now is 7.18% on uniswap-v4 (Base), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=93184def-ee74-5847-a932-556f8c32d804#src=seo_token) | Base | 7.18% | $190.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=93184def-ee74-5847-a932-556f8c32d804#src=seo_token) | Base | 7.18% | $190.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many RIPPLE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $190.8K in total.
+1 live pool clear this page's $100K TVL floor, $190.7K in total.
 
 ### Are these rates safe?
 

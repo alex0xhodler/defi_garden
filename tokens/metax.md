@@ -2,30 +2,30 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest METAX yield right now is 7.10% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest METAX yield right now is 8.28% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=e4f9a318-eb01-44dc-8f0f-60cb29c64128#src=seo_token) | Solana | 7.10% | $797.2K |
-| [orca-dex →](https://www.defi.garden/?pool=6aa05e90-d969-53ac-b264-7f02b42006ce#src=seo_token) | Solana | 1.06% | $103.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=e4f9a318-eb01-44dc-8f0f-60cb29c64128#src=seo_token) | Solana | 8.28% | $797.1K |
+| [orca-dex →](https://www.defi.garden/?pool=6aa05e90-d969-53ac-b264-7f02b42006ce#src=seo_token) | Solana | 1.04% | $103.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, METAX's lower-variability candidates are raydium-amm (Solana), 7.10% APY, $797.2K TVL, https://www.defi.garden/?pool=e4f9a318-eb01-44dc-8f0f-60cb29c64128#src=seo_token; orca-dex (Solana), 1.06% APY, $103.2K TVL, https://www.defi.garden/?pool=6aa05e90-d969-53ac-b264-7f02b42006ce#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, METAX's lower-variability candidates are raydium-amm (Solana), 8.28% APY, $797.1K TVL, https://www.defi.garden/?pool=e4f9a318-eb01-44dc-8f0f-60cb29c64128#src=seo_token; orca-dex (Solana), 1.04% APY, $103.2K TVL, https://www.defi.garden/?pool=6aa05e90-d969-53ac-b264-7f02b42006ce#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=e4f9a318-eb01-44dc-8f0f-60cb29c64128#src=seo_token) | Solana | 7.10% | $797.2K |
-| 2 | [orca-dex →](https://www.defi.garden/?pool=6aa05e90-d969-53ac-b264-7f02b42006ce#src=seo_token) | Solana | 1.06% | $103.2K |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=e4f9a318-eb01-44dc-8f0f-60cb29c64128#src=seo_token) | Solana | 8.28% | $797.1K |
+| 2 | [orca-dex →](https://www.defi.garden/?pool=6aa05e90-d969-53ac-b264-7f02b42006ce#src=seo_token) | Solana | 1.04% | $103.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-METAX shows up in 2 pools here, with rates from 1.06% to 7.10% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+METAX shows up in 2 pools here, with rates from 1.04% to 8.28% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 235.15% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 235.11% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 7.10% | 236.17% | Base rate |
-| orca-dex | 1.06% | 234.14% | Base rate |
+| raydium-amm | 8.28% | 236.14% | Base rate |
+| orca-dex | 1.04% | 234.08% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest METAX yield today?
 
-7.10% APY on raydium-amm (Solana), based on live DefiLlama data.
+8.28% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many METAX pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $900.4K in total.
+2 live pools clear this page's $100K TVL floor, $900.3K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which METAX pools have the most stable APY history?
 
-Based on APY history only, METAX's lower-variability candidates are raydium-amm (Solana), 7.10% APY, $797.2K TVL, https://www.defi.garden/?pool=e4f9a318-eb01-44dc-8f0f-60cb29c64128#src=seo_token; orca-dex (Solana), 1.06% APY, $103.2K TVL, https://www.defi.garden/?pool=6aa05e90-d969-53ac-b264-7f02b42006ce#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, METAX's lower-variability candidates are raydium-amm (Solana), 8.28% APY, $797.1K TVL, https://www.defi.garden/?pool=e4f9a318-eb01-44dc-8f0f-60cb29c64128#src=seo_token; orca-dex (Solana), 1.04% APY, $103.2K TVL, https://www.defi.garden/?pool=6aa05e90-d969-53ac-b264-7f02b42006ce#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

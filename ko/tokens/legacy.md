@@ -35,12 +35,12 @@ DefiLlama 실시간 데이터 기준, Starknet의 ekubo에서 APY 10.68%예요.
 
 ## 관련 토큰
 
-- [LBTC](https://www.defi.garden/ko/tokens/lbtc)
 - [SOLVBTC](https://www.defi.garden/ko/tokens/solvbtc)
 - [STRK](https://www.defi.garden/ko/tokens/strk)
 - [STRKBTC](https://www.defi.garden/ko/tokens/strkbtc)
 - [ZEC](https://www.defi.garden/ko/tokens/zec)
 - [USDC.E](https://www.defi.garden/ko/tokens/usdc-e)
+- [XSTRK](https://www.defi.garden/ko/tokens/xstrk)
 
 ## 이용 가능한 체인
 

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T08:22:02.898Z",
+  "generatedAt": "2026-10-05T09:01:21.610Z",
   "count": 100,
   "pages": [
     {
@@ -31,12 +31,12 @@
       "pool": "7d33d57d-36dc-414b-9538-22a223250468"
     },
     {
-      "slug": "maple-usdc-ethereum",
-      "pool": "43641cf5-a92e-416b-bce9-27113d3c0db6"
-    },
-    {
       "slug": "aave-v3-wbtc-ethereum",
       "pool": "7e382157-b1bc-406d-b17b-facba43b716e"
+    },
+    {
+      "slug": "maple-usdc-ethereum",
+      "pool": "43641cf5-a92e-416b-bce9-27113d3c0db6"
     },
     {
       "slug": "aave-v3-wsteth-ethereum",
@@ -151,12 +151,12 @@
       "pool": "566c64cb-c1ec-4027-bb67-1e9326d6d48a"
     },
     {
-      "slug": "sparklend-usds-ethereum",
-      "pool": "54e9b138-3146-4c1f-8dce-1cb948f5ef96"
-    },
-    {
       "slug": "justlend-v1-btc-tron",
       "pool": "71418c17-d2aa-4eff-b68a-806fff9ec951"
+    },
+    {
+      "slug": "sparklend-usds-ethereum",
+      "pool": "54e9b138-3146-4c1f-8dce-1cb948f5ef96"
     },
     {
       "slug": "invesco-ustb-ustb-ethereum",
@@ -275,10 +275,6 @@
       "pool": "87c8ee0d-b812-47c1-803f-f91a3907079e"
     },
     {
-      "slug": "morpho-blue-steakusdc-base",
-      "pool": "ba68527f-8ec2-4c55-827a-8f4673ae047c"
-    },
-    {
       "slug": "morpho-blue-usde-robinhood-chain",
       "pool": "d3ed814d-9763-5436-8b25-66bdbabd36f8"
     },
@@ -289,6 +285,10 @@
     {
       "slug": "drift-staked-sol-dsol-solana",
       "pool": "296651fc-25f6-4434-b8ec-17c2af9808da"
+    },
+    {
+      "slug": "morpho-blue-steakusdc-base",
+      "pool": "ba68527f-8ec2-4c55-827a-8f4673ae047c"
     },
     {
       "slug": "morpho-blue-sparkusdc-base",
@@ -323,12 +323,12 @@
       "pool": "fbde73fe-344f-4694-be18-2c0a022061af"
     },
     {
-      "slug": "sparklend-weth-ethereum",
-      "pool": "24195b31-d749-445f-bf9e-b65aa025ebdd"
-    },
-    {
       "slug": "hyperlend-pooled-khype-hyperliquid-l1",
       "pool": "3b074bee-390c-488c-8d1e-4ab2009b1645"
+    },
+    {
+      "slug": "sparklend-weth-ethereum",
+      "pool": "24195b31-d749-445f-bf9e-b65aa025ebdd"
     },
     {
       "slug": "marinade-liquid-staking-msol-solana",
@@ -383,16 +383,16 @@
       "pool": "568bbb48-dc88-4313-b1cc-ab1d4e763d6d"
     },
     {
-      "slug": "morpho-blue-senpyusdprimev2-ethereum",
-      "pool": "f569e486-da2a-41ef-8bfe-1a4db0d1d268"
-    },
-    {
       "slug": "sparklend-lbtc-ethereum",
       "pool": "ff17b423-bccc-4d12-9a72-68bde120ac62"
     },
     {
       "slug": "venus-core-pool-solvbtc-bsc",
       "pool": "870e5485-c1f2-4a14-b014-286d0a833bf6"
+    },
+    {
+      "slug": "morpho-blue-senpyusdprimev2-ethereum",
+      "pool": "f569e486-da2a-41ef-8bfe-1a4db0d1d268"
     },
     {
       "slug": "aave-v3-lbtc-ethereum",

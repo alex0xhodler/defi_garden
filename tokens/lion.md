@@ -8,16 +8,16 @@ The highest honest LION yield right now is 6.08% on scrub-invest (Kava), among 4
 |---|---|---|---|
 | [scrub-invest →](https://www.defi.garden/?pool=bc34f03d-95fe-4ed6-a809-09df91d44727#src=seo_token) | Kava | 6.08% | $7.55M |
 | [vvs-standard →](https://www.defi.garden/?pool=e67c8f7e-4bf5-49a7-bd5f-e0459b1895b5#src=seo_token) | Cronos | 0.19% | $2.36M |
-| [raydium-amm →](https://www.defi.garden/?pool=7d53f6d4-b6b3-4164-9fc1-dc1a657d22ae#src=seo_token) | Solana | 1.00% | $493.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=7d53f6d4-b6b3-4164-9fc1-dc1a657d22ae#src=seo_token) | Solana | 0.96% | $495.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, LION's lower-variability candidates are raydium-amm (Solana), 1.00% APY, $493.7K TVL, https://www.defi.garden/?pool=7d53f6d4-b6b3-4164-9fc1-dc1a657d22ae#src=seo_token; scrub-invest (Kava), 6.08% APY, $7.55M TVL, https://www.defi.garden/?pool=bc34f03d-95fe-4ed6-a809-09df91d44727#src=seo_token; vvs-standard (Cronos), 0.19% APY, $2.36M TVL, https://www.defi.garden/?pool=e67c8f7e-4bf5-49a7-bd5f-e0459b1895b5#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LION's lower-variability candidates are raydium-amm (Solana), 0.96% APY, $495.9K TVL, https://www.defi.garden/?pool=7d53f6d4-b6b3-4164-9fc1-dc1a657d22ae#src=seo_token; scrub-invest (Kava), 6.08% APY, $7.55M TVL, https://www.defi.garden/?pool=bc34f03d-95fe-4ed6-a809-09df91d44727#src=seo_token; vvs-standard (Cronos), 0.19% APY, $2.36M TVL, https://www.defi.garden/?pool=e67c8f7e-4bf5-49a7-bd5f-e0459b1895b5#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=7d53f6d4-b6b3-4164-9fc1-dc1a657d22ae#src=seo_token) | Solana | 1.00% | $493.7K |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=7d53f6d4-b6b3-4164-9fc1-dc1a657d22ae#src=seo_token) | Solana | 0.96% | $495.9K |
 | 2 | [scrub-invest →](https://www.defi.garden/?pool=bc34f03d-95fe-4ed6-a809-09df91d44727#src=seo_token) | Kava | 6.08% | $7.55M |
 | 3 | [vvs-standard →](https://www.defi.garden/?pool=e67c8f7e-4bf5-49a7-bd5f-e0459b1895b5#src=seo_token) | Cronos | 0.19% | $2.36M |
 
@@ -37,7 +37,7 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 |---|---|---|---|
 | scrub-invest | 6.08% | 6.09% | Base rate |
 | vvs-standard | 0.19% | 0.56% | Base rate |
-| raydium-amm | 1.00% | 2.27% | Base rate |
+| raydium-amm | 0.96% | 2.27% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -49,7 +49,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many LION pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $10.51M in total.
+4 live pools clear this page's $100K TVL floor, $10.52M in total.
 
 ### Are these rates safe?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which LION pools have the most stable APY history?
 
-Based on APY history only, LION's lower-variability candidates are raydium-amm (Solana), 1.00% APY, $493.7K TVL, https://www.defi.garden/?pool=7d53f6d4-b6b3-4164-9fc1-dc1a657d22ae#src=seo_token; scrub-invest (Kava), 6.08% APY, $7.55M TVL, https://www.defi.garden/?pool=bc34f03d-95fe-4ed6-a809-09df91d44727#src=seo_token; vvs-standard (Cronos), 0.19% APY, $2.36M TVL, https://www.defi.garden/?pool=e67c8f7e-4bf5-49a7-bd5f-e0459b1895b5#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LION's lower-variability candidates are raydium-amm (Solana), 0.96% APY, $495.9K TVL, https://www.defi.garden/?pool=7d53f6d4-b6b3-4164-9fc1-dc1a657d22ae#src=seo_token; scrub-invest (Kava), 6.08% APY, $7.55M TVL, https://www.defi.garden/?pool=bc34f03d-95fe-4ed6-a809-09df91d44727#src=seo_token; vvs-standard (Cronos), 0.19% APY, $2.36M TVL, https://www.defi.garden/?pool=e67c8f7e-4bf5-49a7-bd5f-e0459b1895b5#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

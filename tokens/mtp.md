@@ -30,7 +30,7 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| lagoon | 22.15% | 20.43% | Base rate |
+| lagoon | 22.15% | 20.44% | Base rate |
 | lagoon | 9.96% | 9.99% | Base rate |
 | lagoon | 6.27% | 6.84% | Base rate |
 | lagoon | 2.85% | 3.18% | Base rate |

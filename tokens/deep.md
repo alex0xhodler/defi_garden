@@ -2,36 +2,36 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest DEEP yield right now is 182.40% on bluefin-spot (Sui), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DEEP yield right now is 187.90% on bluefin-spot (Sui), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [navi-lending →](https://www.defi.garden/?pool=7039a10f-ef49-410d-b003-83c531932c05#src=seo_token) | Sui | 15.14% | $5.35M |
-| [cetus-clmm →](https://www.defi.garden/?pool=39b502cc-d1f2-4c44-8725-c03c04b60864#src=seo_token) | Sui | 130.86% | $999.8K |
-| [bluefin-spot →](https://www.defi.garden/?pool=df2b2848-bf34-4fed-a981-c090d5765aae#src=seo_token) | Sui | 182.40% | $291.1K |
-| [scallop-lend →](https://www.defi.garden/?pool=fec229b3-cf9c-4bbb-9a38-aa4fb5c42ddd#src=seo_token) | Sui | 0.38% | $111.8K |
-| [cetus-clmm →](https://www.defi.garden/?pool=cf739f2b-8a62-4500-b7cb-b845c8f05fab#src=seo_token) | Sui | 72.88% | $108.2K |
+| [navi-lending →](https://www.defi.garden/?pool=7039a10f-ef49-410d-b003-83c531932c05#src=seo_token) | Sui | 15.14% | $5.42M |
+| [cetus-clmm →](https://www.defi.garden/?pool=39b502cc-d1f2-4c44-8725-c03c04b60864#src=seo_token) | Sui | 120.70% | $1.19M |
+| [bluefin-spot →](https://www.defi.garden/?pool=df2b2848-bf34-4fed-a981-c090d5765aae#src=seo_token) | Sui | 187.90% | $290.1K |
+| [scallop-lend →](https://www.defi.garden/?pool=fec229b3-cf9c-4bbb-9a38-aa4fb5c42ddd#src=seo_token) | Sui | 0.38% | $112.2K |
+| [cetus-clmm →](https://www.defi.garden/?pool=cf739f2b-8a62-4500-b7cb-b845c8f05fab#src=seo_token) | Sui | 74.61% | $108.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, DEEP's lower-variability candidates are navi-lending (Sui), 15.14% APY, $5.35M TVL, https://www.defi.garden/?pool=7039a10f-ef49-410d-b003-83c531932c05#src=seo_token; scallop-lend (Sui), 0.38% APY, $111.8K TVL, https://www.defi.garden/?pool=fec229b3-cf9c-4bbb-9a38-aa4fb5c42ddd#src=seo_token; cetus-clmm (Sui), 72.88% APY, $108.2K TVL, https://www.defi.garden/?pool=cf739f2b-8a62-4500-b7cb-b845c8f05fab#src=seo_token; bluefin-spot (Sui), 182.40% APY, $291.1K TVL, https://www.defi.garden/?pool=df2b2848-bf34-4fed-a981-c090d5765aae#src=seo_token; cetus-clmm (Sui), 130.86% APY, $999.8K TVL, https://www.defi.garden/?pool=39b502cc-d1f2-4c44-8725-c03c04b60864#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, DEEP's lower-variability candidates are navi-lending (Sui), 15.14% APY, $5.42M TVL, https://www.defi.garden/?pool=7039a10f-ef49-410d-b003-83c531932c05#src=seo_token; scallop-lend (Sui), 0.38% APY, $112.2K TVL, https://www.defi.garden/?pool=fec229b3-cf9c-4bbb-9a38-aa4fb5c42ddd#src=seo_token; cetus-clmm (Sui), 74.61% APY, $108.9K TVL, https://www.defi.garden/?pool=cf739f2b-8a62-4500-b7cb-b845c8f05fab#src=seo_token; bluefin-spot (Sui), 187.90% APY, $290.1K TVL, https://www.defi.garden/?pool=df2b2848-bf34-4fed-a981-c090d5765aae#src=seo_token; cetus-clmm (Sui), 120.70% APY, $1.19M TVL, https://www.defi.garden/?pool=39b502cc-d1f2-4c44-8725-c03c04b60864#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [navi-lending →](https://www.defi.garden/?pool=7039a10f-ef49-410d-b003-83c531932c05#src=seo_token) | Sui | 15.14% | $5.35M |
-| 2 | [scallop-lend →](https://www.defi.garden/?pool=fec229b3-cf9c-4bbb-9a38-aa4fb5c42ddd#src=seo_token) | Sui | 0.38% | $111.8K |
-| 3 | [cetus-clmm →](https://www.defi.garden/?pool=cf739f2b-8a62-4500-b7cb-b845c8f05fab#src=seo_token) | Sui | 72.88% | $108.2K |
-| 4 | [bluefin-spot →](https://www.defi.garden/?pool=df2b2848-bf34-4fed-a981-c090d5765aae#src=seo_token) | Sui | 182.40% | $291.1K |
-| 5 | [cetus-clmm →](https://www.defi.garden/?pool=39b502cc-d1f2-4c44-8725-c03c04b60864#src=seo_token) | Sui | 130.86% | $999.8K |
+| 1 | [navi-lending →](https://www.defi.garden/?pool=7039a10f-ef49-410d-b003-83c531932c05#src=seo_token) | Sui | 15.14% | $5.42M |
+| 2 | [scallop-lend →](https://www.defi.garden/?pool=fec229b3-cf9c-4bbb-9a38-aa4fb5c42ddd#src=seo_token) | Sui | 0.38% | $112.2K |
+| 3 | [cetus-clmm →](https://www.defi.garden/?pool=cf739f2b-8a62-4500-b7cb-b845c8f05fab#src=seo_token) | Sui | 74.61% | $108.9K |
+| 4 | [bluefin-spot →](https://www.defi.garden/?pool=df2b2848-bf34-4fed-a981-c090d5765aae#src=seo_token) | Sui | 187.90% | $290.1K |
+| 5 | [cetus-clmm →](https://www.defi.garden/?pool=39b502cc-d1f2-4c44-8725-c03c04b60864#src=seo_token) | Sui | 120.70% | $1.19M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-DEEP shows up in 5 pools here, with rates from 0.38% to 182.40% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+DEEP shows up in 5 pools here, with rates from 0.38% to 187.90% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-5 of these 5 pools have a trustworthy 30-day average on file, with a median of 106.58% — a useful check against today's number for whether the rate is steady or just having a good day.
+5 of these 5 pools have a trustworthy 30-day average on file, with a median of 106.59% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 4 of 5 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -40,10 +40,10 @@ DEEP shows up in 5 pools here, with rates from 0.38% to 182.40% APY across 1 cha
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | navi-lending | 15.14% | 14.59% | 83.90% incentives |
-| cetus-clmm | 130.86% | 143.15% | 46.27% incentives |
-| bluefin-spot | 182.40% | 241.09% | 32.71% incentives |
+| cetus-clmm | 120.70% | 143.19% | 42.34% incentives |
+| bluefin-spot | 187.90% | 241.10% | 31.86% incentives |
 | scallop-lend | 0.38% | 0.60% | Base rate |
-| cetus-clmm | 72.88% | 106.58% | 26.37% incentives |
+| cetus-clmm | 74.61% | 106.59% | 25.84% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -51,11 +51,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest DEEP yield today?
 
-182.40% APY on bluefin-spot (Sui), based on live DefiLlama data.
+187.90% APY on bluefin-spot (Sui), based on live DefiLlama data.
 
 ### How many DEEP pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $6.86M in total.
+5 live pools clear this page's $100K TVL floor, $7.12M in total.
 
 ### Are these rates safe?
 
@@ -63,7 +63,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which DEEP pools have the most stable APY history?
 
-Based on APY history only, DEEP's lower-variability candidates are navi-lending (Sui), 15.14% APY, $5.35M TVL, https://www.defi.garden/?pool=7039a10f-ef49-410d-b003-83c531932c05#src=seo_token; scallop-lend (Sui), 0.38% APY, $111.8K TVL, https://www.defi.garden/?pool=fec229b3-cf9c-4bbb-9a38-aa4fb5c42ddd#src=seo_token; cetus-clmm (Sui), 72.88% APY, $108.2K TVL, https://www.defi.garden/?pool=cf739f2b-8a62-4500-b7cb-b845c8f05fab#src=seo_token; bluefin-spot (Sui), 182.40% APY, $291.1K TVL, https://www.defi.garden/?pool=df2b2848-bf34-4fed-a981-c090d5765aae#src=seo_token; cetus-clmm (Sui), 130.86% APY, $999.8K TVL, https://www.defi.garden/?pool=39b502cc-d1f2-4c44-8725-c03c04b60864#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, DEEP's lower-variability candidates are navi-lending (Sui), 15.14% APY, $5.42M TVL, https://www.defi.garden/?pool=7039a10f-ef49-410d-b003-83c531932c05#src=seo_token; scallop-lend (Sui), 0.38% APY, $112.2K TVL, https://www.defi.garden/?pool=fec229b3-cf9c-4bbb-9a38-aa4fb5c42ddd#src=seo_token; cetus-clmm (Sui), 74.61% APY, $108.9K TVL, https://www.defi.garden/?pool=cf739f2b-8a62-4500-b7cb-b845c8f05fab#src=seo_token; bluefin-spot (Sui), 187.90% APY, $290.1K TVL, https://www.defi.garden/?pool=df2b2848-bf34-4fed-a981-c090d5765aae#src=seo_token; cetus-clmm (Sui), 120.70% APY, $1.19M TVL, https://www.defi.garden/?pool=39b502cc-d1f2-4c44-8725-c03c04b60864#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

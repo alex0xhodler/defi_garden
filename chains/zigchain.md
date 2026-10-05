@@ -4,7 +4,7 @@ The highest honest ZIGChain yield right now is 9.04% on nawa-protocol (ZIGChain)
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| STZIG | [valdora-finance →](https://www.defi.garden/?pool=7a3bb4ae-9f3c-5e14-84bc-d7970edb60f6#src=seo_chain) | 4.84% | $11.19M |
+| STZIG | [valdora-finance →](https://www.defi.garden/?pool=7a3bb4ae-9f3c-5e14-84bc-d7970edb60f6#src=seo_chain) | 4.84% | $11.18M |
 | USDC | [nawa-protocol →](https://www.defi.garden/?pool=103d36c4-5d6a-5630-ad40-234a773f79b2#src=seo_chain) | 9.04% | $3.45M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.

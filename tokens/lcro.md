@@ -2,7 +2,7 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest LCRO yield right now is 0.01% on tectonic (Cronos), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LCRO yield right now is 0.01% on vvs-standard (Cronos), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
@@ -42,7 +42,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest LCRO yield today?
 
-0.01% APY on tectonic (Cronos), based on live DefiLlama data.
+0.01% APY on vvs-standard (Cronos), based on live DefiLlama data.
 
 ### How many LCRO pools clear the TVL floor?
 

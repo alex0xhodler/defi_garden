@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest DOGINME yield right now is 28.90% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DOGINME yield right now is 29.60% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=e7ecd9b5-5bcc-40bf-be46-f8bdbf4d0a30#src=seo_token) | Base | 28.90% | $1.37M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e7ecd9b5-5bcc-40bf-be46-f8bdbf4d0a30#src=seo_token) | Base | 29.60% | $1.37M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DOGINME yield today?
 
-28.90% APY on uniswap-v3 (Base), based on live DefiLlama data.
+29.60% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many DOGINME pools clear the TVL floor?
 

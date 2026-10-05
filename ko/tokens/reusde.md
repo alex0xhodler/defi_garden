@@ -10,7 +10,7 @@
 | [pendle-v2 →](https://www.defi.garden/?pool=2c9d004f-649b-4d6c-9efb-d4759f132361#src=seo_token) | Ethereum | 19.66% | $4.75M |
 | [pendle-v2 →](https://www.defi.garden/?pool=bfb4d5f7-8479-4695-bb29-1c72b2407333#src=seo_token) | Ethereum | 18.92% | $4.75M |
 | [curve-dex →](https://www.defi.garden/?pool=12b0dcd9-d6fd-443d-88c4-68063f38f5bb#src=seo_token) | Ethereum | 0.24% | $564.3K |
-| [euler-v2 →](https://www.defi.garden/?pool=f99677cc-5e2f-5d6a-a8c6-1a1c0f73c265#src=seo_token) | Ethereum | 0.01% | $208.9K |
+| [euler-v2 →](https://www.defi.garden/?pool=f99677cc-5e2f-5d6a-a8c6-1a1c0f73c265#src=seo_token) | Ethereum | 0.01% | $208.8K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=4f14a69f-31a6-47ce-93db-0aed87f3249f#src=seo_token) | Ethereum | 7.10% | $151K |
 
 <!-- rate-stability:ranked -->
@@ -40,10 +40,10 @@ REUSDE 풀은 여기 6개가 있고, 1개 체인에서 APY가 0.01%부터 19.66%
 |---|---|---|---|
 | re | 11.81% | 12.15% | 기본 금리 |
 | pendle-v2 | 19.66% | 18.52% | 기본 금리 |
-| pendle-v2 | 18.92% | 17.69% | 인센티브 1.58% |
+| pendle-v2 | 18.92% | 17.69% | 인센티브 1.60% |
 | curve-dex | 0.24% | 0.18% | 기본 금리 |
 | euler-v2 | 0.01% | 0.01% | 기본 금리 |
-| uniswap-v4 | 7.10% | 30.51% | 기본 금리 |
+| uniswap-v4 | 7.10% | 30.48% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 

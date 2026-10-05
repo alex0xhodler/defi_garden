@@ -6,18 +6,18 @@ The highest honest VBUSDC yield right now is 5.16% on spectra-metavaults (Katana
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=0f185c65-9d48-48d2-85ab-7728314988e6#src=seo_token) | Katana | 5.12% | $6.67M |
+| [yearn-finance →](https://www.defi.garden/?pool=0f185c65-9d48-48d2-85ab-7728314988e6#src=seo_token) | Katana | 5.15% | $6.67M |
 | [morpho-blue →](https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a#src=seo_token) | Katana | 3.33% | $3.39M |
 | [spectra-metavaults →](https://www.defi.garden/?pool=75208693-9e71-431c-886a-e10d7c3c4da4#src=seo_token) | Katana | 5.16% | $420.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, VBUSDC's lower-variability candidates are yearn-finance (Katana), 5.12% APY, $6.67M TVL, https://www.defi.garden/?pool=0f185c65-9d48-48d2-85ab-7728314988e6#src=seo_token; morpho-blue (Katana), 3.33% APY, $3.39M TVL, https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a#src=seo_token; spectra-metavaults (Katana), 5.16% APY, $420.4K TVL, https://www.defi.garden/?pool=75208693-9e71-431c-886a-e10d7c3c4da4#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, VBUSDC's lower-variability candidates are yearn-finance (Katana), 5.15% APY, $6.67M TVL, https://www.defi.garden/?pool=0f185c65-9d48-48d2-85ab-7728314988e6#src=seo_token; morpho-blue (Katana), 3.33% APY, $3.39M TVL, https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a#src=seo_token; spectra-metavaults (Katana), 5.16% APY, $420.4K TVL, https://www.defi.garden/?pool=75208693-9e71-431c-886a-e10d7c3c4da4#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [yearn-finance →](https://www.defi.garden/?pool=0f185c65-9d48-48d2-85ab-7728314988e6#src=seo_token) | Katana | 5.12% | $6.67M |
+| 1 | [yearn-finance →](https://www.defi.garden/?pool=0f185c65-9d48-48d2-85ab-7728314988e6#src=seo_token) | Katana | 5.15% | $6.67M |
 | 2 | [morpho-blue →](https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a#src=seo_token) | Katana | 3.33% | $3.39M |
 | 3 | [spectra-metavaults →](https://www.defi.garden/?pool=75208693-9e71-431c-886a-e10d7c3c4da4#src=seo_token) | Katana | 5.16% | $420.4K |
 
@@ -35,9 +35,9 @@ VBUSDC shows up in 3 pools here, with rates from 3.33% to 5.16% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| yearn-finance | 5.12% | 5.20% | 73.62% incentives |
-| morpho-blue | 3.33% | 3.65% | 31.95% incentives |
-| spectra-metavaults | 5.16% | 6.09% | 53.05% incentives |
+| yearn-finance | 5.15% | 5.20% | 73.78% incentives |
+| morpho-blue | 3.33% | 3.65% | 32.89% incentives |
+| spectra-metavaults | 5.16% | 6.09% | 53.06% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which VBUSDC pools have the most stable APY history?
 
-Based on APY history only, VBUSDC's lower-variability candidates are yearn-finance (Katana), 5.12% APY, $6.67M TVL, https://www.defi.garden/?pool=0f185c65-9d48-48d2-85ab-7728314988e6#src=seo_token; morpho-blue (Katana), 3.33% APY, $3.39M TVL, https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a#src=seo_token; spectra-metavaults (Katana), 5.16% APY, $420.4K TVL, https://www.defi.garden/?pool=75208693-9e71-431c-886a-e10d7c3c4da4#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, VBUSDC's lower-variability candidates are yearn-finance (Katana), 5.15% APY, $6.67M TVL, https://www.defi.garden/?pool=0f185c65-9d48-48d2-85ab-7728314988e6#src=seo_token; morpho-blue (Katana), 3.33% APY, $3.39M TVL, https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a#src=seo_token; spectra-metavaults (Katana), 5.16% APY, $420.4K TVL, https://www.defi.garden/?pool=75208693-9e71-431c-886a-e10d7c3c4da4#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

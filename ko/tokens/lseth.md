@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [liquid-collective →](https://www.defi.garden/ko/pools/liquid-collective-lseth-ethereum) | Ethereum | 2.92% | $745.69M |
+| [liquid-collective →](https://www.defi.garden/ko/pools/liquid-collective-lseth-ethereum) | Ethereum | 2.92% | $745.68M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -37,7 +37,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 liquid-collective에서 APY 2.
 
 ### LSETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 10개이며, 합산 TVL은 $763.63M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 10개이며, 합산 TVL은 $763.65M예요.
 
 ### 이 수익률은 안전한가요?
 

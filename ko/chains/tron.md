@@ -4,13 +4,13 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| TRX | [justlend-v1 →](https://www.defi.garden/ko/pools/justlend-v1-trx-tron) | 0.33% | $689.56M |
-| BTC | [justlend-v1 →](https://www.defi.garden/ko/pools/justlend-v1-btc-tron) | 0.01% | $561.73M |
-| USDD | [justlend-v1 →](https://www.defi.garden/ko/pools/justlend-v1-usdd-tron) | 3.83% | $423.13M |
-| USDT | [justlend-v1 →](https://www.defi.garden/?pool=dac406f6-5600-437e-849d-f03daa383864#src=seo_chain) | 2.01% | $92.5M |
-| TRX | [tr-energy →](https://www.defi.garden/?pool=cf7a5142-ff74-4b1d-8267-98148c90b72c#src=seo_chain) | 11.57% | $90.7M |
+| TRX | [justlend-v1 →](https://www.defi.garden/ko/pools/justlend-v1-trx-tron) | 0.33% | $689.47M |
+| BTC | [justlend-v1 →](https://www.defi.garden/ko/pools/justlend-v1-btc-tron) | 0.01% | $567.38M |
+| USDD | [justlend-v1 →](https://www.defi.garden/ko/pools/justlend-v1-usdd-tron) | 3.82% | $424.04M |
+| USDT | [justlend-v1 →](https://www.defi.garden/?pool=dac406f6-5600-437e-849d-f03daa383864#src=seo_chain) | 2.00% | $93M |
+| TRX | [tr-energy →](https://www.defi.garden/?pool=cf7a5142-ff74-4b1d-8267-98148c90b72c#src=seo_chain) | 11.57% | $90.81M |
 | JST | [justlend-v1 →](https://www.defi.garden/?pool=aa3b8470-cd15-4e02-a83d-b83fae993855#src=seo_chain) | 0.27% | $12.88M |
-| SUN | [justlend-v1 →](https://www.defi.garden/?pool=873e1048-9094-4b63-a6f4-bd62325ecc81#src=seo_chain) | 1.05% | $4.96M |
+| SUN | [justlend-v1 →](https://www.defi.garden/?pool=873e1048-9094-4b63-a6f4-bd62325ecc81#src=seo_chain) | 1.05% | $4.97M |
 | U | [justlend-v1 →](https://www.defi.garden/?pool=d598a9e0-b347-5baf-b61a-94c2e8e730d0#src=seo_chain) | 1.18% | $3.1M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Tron의 tr-energy에서 APY 11.57%예요.
 
 ### Tron 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 23개이며, 합산 TVL은 $4.05B예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 23개이며, 합산 TVL은 $4.06B예요.
 
 ### 이 수익률은 안전한가요?
 

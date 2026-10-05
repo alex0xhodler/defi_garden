@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest SUPERTSLA yield right now is 37.79% on superform (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUPERTSLA yield right now is 37.71% on superform (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [superform →](https://www.defi.garden/?pool=048dcabb-8c0d-598e-9249-858698e72498#src=seo_token) | Base | 37.79% | $129.8K |
+| [superform →](https://www.defi.garden/?pool=048dcabb-8c0d-598e-9249-858698e72498#src=seo_token) | Base | 37.71% | $129.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SUPERTSLA yield today?
 
-37.79% APY on superform (Base), based on live DefiLlama data.
+37.71% APY on superform (Base), based on live DefiLlama data.
 
 ### How many SUPERTSLA pools clear the TVL floor?
 
