@@ -6,7 +6,7 @@ The highest honest RIBBIT yield right now is 0.03% on uniswap-v2 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=69259ee6-5553-41b3-8ddd-c1bca2e533ae#src=seo_token) | Ethereum | 0.03% | $147.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=69259ee6-5553-41b3-8ddd-c1bca2e533ae#src=seo_token) | Ethereum | 0.03% | $147.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many RIBBIT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $147.5K in total.
+1 live pool clear this page's $100K TVL floor, $147.9K in total.
 
 ### Are these rates safe?
 

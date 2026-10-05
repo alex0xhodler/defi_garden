@@ -6,18 +6,18 @@ The highest honest ELON yield right now is 0.32% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=6220e7aa-f086-4340-bd72-2ef46efb5418#src=seo_token) | Ethereum | 0.32% | $5.75M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=f2e2a783-5a98-4bf8-8ba6-a1a2927e1798#src=seo_token) | Ethereum | 0.03% | $123.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=6220e7aa-f086-4340-bd72-2ef46efb5418#src=seo_token) | Ethereum | 0.32% | $5.78M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=f2e2a783-5a98-4bf8-8ba6-a1a2927e1798#src=seo_token) | Ethereum | 0.03% | $123.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ELON's lower-variability candidates are uniswap-v2 (Ethereum), 0.32% APY, $5.75M TVL, https://www.defi.garden/?pool=6220e7aa-f086-4340-bd72-2ef46efb5418#src=seo_token; uniswap-v2 (Ethereum), 0.03% APY, $123.2K TVL, https://www.defi.garden/?pool=f2e2a783-5a98-4bf8-8ba6-a1a2927e1798#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ELON's lower-variability candidates are uniswap-v2 (Ethereum), 0.32% APY, $5.78M TVL, https://www.defi.garden/?pool=6220e7aa-f086-4340-bd72-2ef46efb5418#src=seo_token; uniswap-v2 (Ethereum), 0.03% APY, $123.6K TVL, https://www.defi.garden/?pool=f2e2a783-5a98-4bf8-8ba6-a1a2927e1798#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=6220e7aa-f086-4340-bd72-2ef46efb5418#src=seo_token) | Ethereum | 0.32% | $5.75M |
-| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=f2e2a783-5a98-4bf8-8ba6-a1a2927e1798#src=seo_token) | Ethereum | 0.03% | $123.2K |
+| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=6220e7aa-f086-4340-bd72-2ef46efb5418#src=seo_token) | Ethereum | 0.32% | $5.78M |
+| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=f2e2a783-5a98-4bf8-8ba6-a1a2927e1798#src=seo_token) | Ethereum | 0.03% | $123.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ELON pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $9.19M in total.
+5 live pools clear this page's $100K TVL floor, $9.22M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ELON pools have the most stable APY history?
 
-Based on APY history only, ELON's lower-variability candidates are uniswap-v2 (Ethereum), 0.32% APY, $5.75M TVL, https://www.defi.garden/?pool=6220e7aa-f086-4340-bd72-2ef46efb5418#src=seo_token; uniswap-v2 (Ethereum), 0.03% APY, $123.2K TVL, https://www.defi.garden/?pool=f2e2a783-5a98-4bf8-8ba6-a1a2927e1798#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ELON's lower-variability candidates are uniswap-v2 (Ethereum), 0.32% APY, $5.78M TVL, https://www.defi.garden/?pool=6220e7aa-f086-4340-bd72-2ef46efb5418#src=seo_token; uniswap-v2 (Ethereum), 0.03% APY, $123.6K TVL, https://www.defi.garden/?pool=f2e2a783-5a98-4bf8-8ba6-a1a2927e1798#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

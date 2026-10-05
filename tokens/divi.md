@@ -6,7 +6,7 @@ The highest honest DIVI yield right now is 5.54% on raydium-amm (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=d3f101e9-39b7-5c6e-80a4-c0a9a23a9bde#src=seo_token) | Solana | 5.54% | $167.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=d3f101e9-39b7-5c6e-80a4-c0a9a23a9bde#src=seo_token) | Solana | 5.54% | $166.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DIVI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $167.2K in total.
+1 live pool clear this page's $100K TVL floor, $166.5K in total.
 
 ### Are these rates safe?
 

@@ -6,20 +6,20 @@ The highest honest WBETH yield right now is 2.15% on binance-staked-eth (Ethereu
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [binance-staked-eth →](https://www.defi.garden/pools/binance-staked-eth-wbeth-ethereum) | Ethereum | 2.15% | $9.52B |
-| [binance-staked-eth →](https://www.defi.garden/pools/binance-staked-eth-wbeth-bsc) | BSC | 2.15% | $571.77M |
-| [venus-core-pool →](https://www.defi.garden/?pool=b8872d86-c39e-423c-83dd-8b32f7eea91d#src=seo_token) | BSC | 0.01% | $29.46M |
+| [binance-staked-eth →](https://www.defi.garden/pools/binance-staked-eth-wbeth-ethereum) | Ethereum | 2.15% | $9.58B |
+| [binance-staked-eth →](https://www.defi.garden/pools/binance-staked-eth-wbeth-bsc) | BSC | 2.15% | $575.47M |
+| [venus-core-pool →](https://www.defi.garden/?pool=b8872d86-c39e-423c-83dd-8b32f7eea91d#src=seo_token) | BSC | 0.01% | $29.58M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WBETH's lower-variability candidates are binance-staked-eth (BSC), 2.15% APY, $571.77M TVL, https://www.defi.garden/pools/binance-staked-eth-wbeth-bsc; binance-staked-eth (Ethereum), 2.15% APY, $9.52B TVL, https://www.defi.garden/pools/binance-staked-eth-wbeth-ethereum; venus-core-pool (BSC), 0.01% APY, $29.46M TVL, https://www.defi.garden/?pool=b8872d86-c39e-423c-83dd-8b32f7eea91d#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WBETH's lower-variability candidates are binance-staked-eth (BSC), 2.15% APY, $575.47M TVL, https://www.defi.garden/pools/binance-staked-eth-wbeth-bsc; binance-staked-eth (Ethereum), 2.15% APY, $9.58B TVL, https://www.defi.garden/pools/binance-staked-eth-wbeth-ethereum; venus-core-pool (BSC), 0.01% APY, $29.58M TVL, https://www.defi.garden/?pool=b8872d86-c39e-423c-83dd-8b32f7eea91d#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [binance-staked-eth →](https://www.defi.garden/pools/binance-staked-eth-wbeth-bsc) | BSC | 2.15% | $571.77M |
-| 2 | [binance-staked-eth →](https://www.defi.garden/pools/binance-staked-eth-wbeth-ethereum) | Ethereum | 2.15% | $9.52B |
-| 3 | [venus-core-pool →](https://www.defi.garden/?pool=b8872d86-c39e-423c-83dd-8b32f7eea91d#src=seo_token) | BSC | 0.01% | $29.46M |
+| 1 | [binance-staked-eth →](https://www.defi.garden/pools/binance-staked-eth-wbeth-bsc) | BSC | 2.15% | $575.47M |
+| 2 | [binance-staked-eth →](https://www.defi.garden/pools/binance-staked-eth-wbeth-ethereum) | Ethereum | 2.15% | $9.58B |
+| 3 | [venus-core-pool →](https://www.defi.garden/?pool=b8872d86-c39e-423c-83dd-8b32f7eea91d#src=seo_token) | BSC | 0.01% | $29.58M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -47,7 +47,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many WBETH pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $10.12B in total.
+5 live pools clear this page's $100K TVL floor, $10.18B in total.
 
 ### Are these rates safe?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WBETH pools have the most stable APY history?
 
-Based on APY history only, WBETH's lower-variability candidates are binance-staked-eth (BSC), 2.15% APY, $571.77M TVL, https://www.defi.garden/pools/binance-staked-eth-wbeth-bsc; binance-staked-eth (Ethereum), 2.15% APY, $9.52B TVL, https://www.defi.garden/pools/binance-staked-eth-wbeth-ethereum; venus-core-pool (BSC), 0.01% APY, $29.46M TVL, https://www.defi.garden/?pool=b8872d86-c39e-423c-83dd-8b32f7eea91d#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WBETH's lower-variability candidates are binance-staked-eth (BSC), 2.15% APY, $575.47M TVL, https://www.defi.garden/pools/binance-staked-eth-wbeth-bsc; binance-staked-eth (Ethereum), 2.15% APY, $9.58B TVL, https://www.defi.garden/pools/binance-staked-eth-wbeth-ethereum; venus-core-pool (BSC), 0.01% APY, $29.58M TVL, https://www.defi.garden/?pool=b8872d86-c39e-423c-83dd-8b32f7eea91d#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

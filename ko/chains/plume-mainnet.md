@@ -4,7 +4,7 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| NOPAL | [plume-vaults →](https://www.defi.garden/?pool=f21c4938-864a-44bd-91fb-c492864fcb46#src=seo_chain) | 11.11% | $109.7M |
+| NOPAL | [plume-vaults →](https://www.defi.garden/?pool=f21c4938-864a-44bd-91fb-c492864fcb46#src=seo_chain) | 11.11% | $109.71M |
 | NPRIME | [plume-vaults →](https://www.defi.garden/?pool=8b4f699b-9545-5c1c-8189-c32b8cb93e84#src=seo_chain) | 5.81% | $22.87M |
 | USCC | [bitwise-uscc →](https://www.defi.garden/?pool=ea1d8316-9160-48f0-ad18-a1298473f826#src=seo_chain) | 4.89% | $16.97M |
 | NFALCON | [plume-vaults →](https://www.defi.garden/?pool=ad047a62-5c88-4b43-bf42-4e4d0858c53a#src=seo_chain) | 7.49% | $14.95M |
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Plume Mainnet의 plume-vaults에서 APY 12
 
 ### Plume Mainnet 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 15개이며, 합산 TVL은 $226.39M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 15개이며, 합산 TVL은 $226.4M예요.
 
 ### 이 수익률은 안전한가요?
 

@@ -211,17 +211,17 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/pools/aave-v3-usde-plasma</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.defi.garden/ko/pools/ondo-yield-assets-usdy-stellar</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.defi.garden/ko/pools/usd-ai-susdai-arbitrum</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/ko/pools/aave-v3-usde-plasma</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -256,12 +256,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/pools/morpho-blue-sirloinusdc-base</loc>
+    <loc>https://www.defi.garden/ko/pools/sparklend-cbbtc-ethereum</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/pools/sparklend-cbbtc-ethereum</loc>
+    <loc>https://www.defi.garden/ko/pools/morpho-blue-sirloinusdc-base</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -476,12 +476,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/pools/morpho-blue-senpyusdprimev2-ethereum</loc>
+    <loc>https://www.defi.garden/ko/pools/dfdv-staked-sol-dfdvsol-solana</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/pools/dfdv-staked-sol-dfdvsol-solana</loc>
+    <loc>https://www.defi.garden/ko/pools/morpho-blue-senpyusdprimev2-ethereum</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
   </url>

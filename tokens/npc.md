@@ -6,29 +6,29 @@ The highest honest NPC yield right now is 173.04% on uniswap-v2 (Base), among 4 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=ae3be39f-ee3b-43de-a644-2924d7d33106#src=seo_token) | Ethereum | 6.50% | $5.2M |
-| [raydium-amm →](https://www.defi.garden/?pool=bb095f7e-b901-4bf2-afb3-45a9c0182ef1#src=seo_token) | Solana | 2.42% | $944.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=ae3be39f-ee3b-43de-a644-2924d7d33106#src=seo_token) | Ethereum | 6.45% | $5.23M |
+| [raydium-amm →](https://www.defi.garden/?pool=bb095f7e-b901-4bf2-afb3-45a9c0182ef1#src=seo_token) | Solana | 2.33% | $949.6K |
 | [uniswap-v2 →](https://www.defi.garden/?pool=3e8be2b0-5267-4567-b371-c5bde0645681#src=seo_token) | Base | 8.23% | $848.9K |
 | [uniswap-v2 →](https://www.defi.garden/?pool=f18a7c34-4284-5db3-8796-0dc02e4627cf#src=seo_token) | Base | 173.04% | $333.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, NPC's lower-variability candidates are raydium-amm (Solana), 2.42% APY, $944.4K TVL, https://www.defi.garden/?pool=bb095f7e-b901-4bf2-afb3-45a9c0182ef1#src=seo_token; uniswap-v2 (Base), 8.23% APY, $848.9K TVL, https://www.defi.garden/?pool=3e8be2b0-5267-4567-b371-c5bde0645681#src=seo_token; uniswap-v2 (Ethereum), 6.50% APY, $5.2M TVL, https://www.defi.garden/?pool=ae3be39f-ee3b-43de-a644-2924d7d33106#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NPC's lower-variability candidates are raydium-amm (Solana), 2.33% APY, $949.6K TVL, https://www.defi.garden/?pool=bb095f7e-b901-4bf2-afb3-45a9c0182ef1#src=seo_token; uniswap-v2 (Base), 8.23% APY, $848.9K TVL, https://www.defi.garden/?pool=3e8be2b0-5267-4567-b371-c5bde0645681#src=seo_token; uniswap-v2 (Ethereum), 6.45% APY, $5.23M TVL, https://www.defi.garden/?pool=ae3be39f-ee3b-43de-a644-2924d7d33106#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=bb095f7e-b901-4bf2-afb3-45a9c0182ef1#src=seo_token) | Solana | 2.42% | $944.4K |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=bb095f7e-b901-4bf2-afb3-45a9c0182ef1#src=seo_token) | Solana | 2.33% | $949.6K |
 | 2 | [uniswap-v2 →](https://www.defi.garden/?pool=3e8be2b0-5267-4567-b371-c5bde0645681#src=seo_token) | Base | 8.23% | $848.9K |
-| 3 | [uniswap-v2 →](https://www.defi.garden/?pool=ae3be39f-ee3b-43de-a644-2924d7d33106#src=seo_token) | Ethereum | 6.50% | $5.2M |
+| 3 | [uniswap-v2 →](https://www.defi.garden/?pool=ae3be39f-ee3b-43de-a644-2924d7d33106#src=seo_token) | Ethereum | 6.45% | $5.23M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-NPC shows up in 4 pools here, with rates from 2.42% to 173.04% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+NPC shows up in 4 pools here, with rates from 2.33% to 173.04% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 16.29% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 16.27% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -36,9 +36,9 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 6.50% | 14.23% | Base rate |
-| raydium-amm | 2.42% | 11.87% | Base rate |
-| uniswap-v2 | 8.23% | 18.35% | Base rate |
+| uniswap-v2 | 6.45% | 14.22% | Base rate |
+| raydium-amm | 2.33% | 11.85% | Base rate |
+| uniswap-v2 | 8.23% | 18.32% | Base rate |
 | uniswap-v2 | 173.04% | 207.92% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -51,7 +51,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many NPC pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $7.33M in total.
+4 live pools clear this page's $100K TVL floor, $7.36M in total.
 
 ### Are these rates safe?
 
@@ -59,7 +59,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which NPC pools have the most stable APY history?
 
-Based on APY history only, NPC's lower-variability candidates are raydium-amm (Solana), 2.42% APY, $944.4K TVL, https://www.defi.garden/?pool=bb095f7e-b901-4bf2-afb3-45a9c0182ef1#src=seo_token; uniswap-v2 (Base), 8.23% APY, $848.9K TVL, https://www.defi.garden/?pool=3e8be2b0-5267-4567-b371-c5bde0645681#src=seo_token; uniswap-v2 (Ethereum), 6.50% APY, $5.2M TVL, https://www.defi.garden/?pool=ae3be39f-ee3b-43de-a644-2924d7d33106#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NPC's lower-variability candidates are raydium-amm (Solana), 2.33% APY, $949.6K TVL, https://www.defi.garden/?pool=bb095f7e-b901-4bf2-afb3-45a9c0182ef1#src=seo_token; uniswap-v2 (Base), 8.23% APY, $848.9K TVL, https://www.defi.garden/?pool=3e8be2b0-5267-4567-b371-c5bde0645681#src=seo_token; uniswap-v2 (Ethereum), 6.45% APY, $5.23M TVL, https://www.defi.garden/?pool=ae3be39f-ee3b-43de-a644-2924d7d33106#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

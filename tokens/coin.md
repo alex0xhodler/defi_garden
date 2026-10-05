@@ -6,18 +6,18 @@ The highest honest COIN yield right now is 0.61% on uniswap-v3 (Base), among 3 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=fe6edd87-fd9f-4320-97b3-b4aad91a468a#src=seo_token) | Base | 0.61% | $127.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=fe6edd87-fd9f-4320-97b3-b4aad91a468a#src=seo_token) | Base | 0.61% | $128.1K |
 | [defichain-dex →](https://www.defi.garden/?pool=8954d1ef-2f53-4ef7-bc29-9134c0d058a3#src=seo_token) | Defichain | 0.14% | $101.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, COIN's lower-variability candidates are defichain-dex (Defichain), 0.14% APY, $101.3K TVL, https://www.defi.garden/?pool=8954d1ef-2f53-4ef7-bc29-9134c0d058a3#src=seo_token; uniswap-v3 (Base), 0.61% APY, $127.6K TVL, https://www.defi.garden/?pool=fe6edd87-fd9f-4320-97b3-b4aad91a468a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, COIN's lower-variability candidates are defichain-dex (Defichain), 0.14% APY, $101.3K TVL, https://www.defi.garden/?pool=8954d1ef-2f53-4ef7-bc29-9134c0d058a3#src=seo_token; uniswap-v3 (Base), 0.61% APY, $128.1K TVL, https://www.defi.garden/?pool=fe6edd87-fd9f-4320-97b3-b4aad91a468a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [defichain-dex →](https://www.defi.garden/?pool=8954d1ef-2f53-4ef7-bc29-9134c0d058a3#src=seo_token) | Defichain | 0.14% | $101.3K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=fe6edd87-fd9f-4320-97b3-b4aad91a468a#src=seo_token) | Base | 0.61% | $127.6K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=fe6edd87-fd9f-4320-97b3-b4aad91a468a#src=seo_token) | Base | 0.61% | $128.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many COIN pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $341.7K in total.
+3 live pools clear this page's $100K TVL floor, $342.9K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which COIN pools have the most stable APY history?
 
-Based on APY history only, COIN's lower-variability candidates are defichain-dex (Defichain), 0.14% APY, $101.3K TVL, https://www.defi.garden/?pool=8954d1ef-2f53-4ef7-bc29-9134c0d058a3#src=seo_token; uniswap-v3 (Base), 0.61% APY, $127.6K TVL, https://www.defi.garden/?pool=fe6edd87-fd9f-4320-97b3-b4aad91a468a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, COIN's lower-variability candidates are defichain-dex (Defichain), 0.14% APY, $101.3K TVL, https://www.defi.garden/?pool=8954d1ef-2f53-4ef7-bc29-9134c0d058a3#src=seo_token; uniswap-v3 (Base), 0.61% APY, $128.1K TVL, https://www.defi.garden/?pool=fe6edd87-fd9f-4320-97b3-b4aad91a468a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

@@ -4,8 +4,8 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| SXINIT | [echelon-market →](https://www.defi.garden/?pool=1ef7473e-2947-4faa-a0c1-c6bdb5734369#src=seo_chain) | 2.96% | $467.4K |
-| INIT | [echelon-market →](https://www.defi.garden/?pool=7323a295-f367-45b2-b58d-280a0ee9efa3#src=seo_chain) | 12.17% | $419.3K |
+| SXINIT | [echelon-market →](https://www.defi.garden/?pool=1ef7473e-2947-4faa-a0c1-c6bdb5734369#src=seo_chain) | 2.96% | $470.1K |
+| INIT | [echelon-market →](https://www.defi.garden/?pool=7323a295-f367-45b2-b58d-280a0ee9efa3#src=seo_chain) | 12.17% | $420.8K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 

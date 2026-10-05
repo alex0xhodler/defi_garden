@@ -2,32 +2,32 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest NOCK yield right now is 156.07% on uniswap-v4 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NOCK yield right now is 154.20% on uniswap-v4 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=3f1124af-bcd5-589a-9819-b9768b9c52a7#src=seo_token) | Base | 156.07% | $251.1K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=a9975fb5-59ce-4ef2-90ac-02cb0021ca12#src=seo_token) | Base | 65.96% | $152.8K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=a359e76d-4e64-50a8-bb08-a76ba8da4d05#src=seo_token) | Base | 120.04% | $130.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=3f1124af-bcd5-589a-9819-b9768b9c52a7#src=seo_token) | Base | 154.20% | $254.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a9975fb5-59ce-4ef2-90ac-02cb0021ca12#src=seo_token) | Base | 65.10% | $154.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a359e76d-4e64-50a8-bb08-a76ba8da4d05#src=seo_token) | Base | 122.19% | $132.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, NOCK's lower-variability candidates are uniswap-v4 (Base), 65.96% APY, $152.8K TVL, https://www.defi.garden/?pool=a9975fb5-59ce-4ef2-90ac-02cb0021ca12#src=seo_token; uniswap-v4 (Base), 156.07% APY, $251.1K TVL, https://www.defi.garden/?pool=3f1124af-bcd5-589a-9819-b9768b9c52a7#src=seo_token; uniswap-v4 (Base), 120.04% APY, $130.3K TVL, https://www.defi.garden/?pool=a359e76d-4e64-50a8-bb08-a76ba8da4d05#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NOCK's lower-variability candidates are uniswap-v4 (Base), 65.10% APY, $154.9K TVL, https://www.defi.garden/?pool=a9975fb5-59ce-4ef2-90ac-02cb0021ca12#src=seo_token; uniswap-v4 (Base), 154.20% APY, $254.8K TVL, https://www.defi.garden/?pool=3f1124af-bcd5-589a-9819-b9768b9c52a7#src=seo_token; uniswap-v4 (Base), 122.19% APY, $132.2K TVL, https://www.defi.garden/?pool=a359e76d-4e64-50a8-bb08-a76ba8da4d05#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=a9975fb5-59ce-4ef2-90ac-02cb0021ca12#src=seo_token) | Base | 65.96% | $152.8K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=3f1124af-bcd5-589a-9819-b9768b9c52a7#src=seo_token) | Base | 156.07% | $251.1K |
-| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=a359e76d-4e64-50a8-bb08-a76ba8da4d05#src=seo_token) | Base | 120.04% | $130.3K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=a9975fb5-59ce-4ef2-90ac-02cb0021ca12#src=seo_token) | Base | 65.10% | $154.9K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=3f1124af-bcd5-589a-9819-b9768b9c52a7#src=seo_token) | Base | 154.20% | $254.8K |
+| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=a359e76d-4e64-50a8-bb08-a76ba8da4d05#src=seo_token) | Base | 122.19% | $132.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-NOCK shows up in 3 pools here, with rates from 65.96% to 156.07% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+NOCK shows up in 3 pools here, with rates from 65.10% to 154.20% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 250.15% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 249.88% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -35,9 +35,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 156.07% | 320.02% | Base rate |
-| uniswap-v4 | 65.96% | 169.23% | Base rate |
-| uniswap-v4 | 120.04% | 250.15% | Base rate |
+| uniswap-v4 | 154.20% | 319.69% | Base rate |
+| uniswap-v4 | 65.10% | 169.03% | Base rate |
+| uniswap-v4 | 122.19% | 249.88% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,11 +45,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest NOCK yield today?
 
-156.07% APY on uniswap-v4 (Base), based on live DefiLlama data.
+154.20% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many NOCK pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $534.2K in total.
+3 live pools clear this page's $100K TVL floor, $541.9K in total.
 
 ### Are these rates safe?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which NOCK pools have the most stable APY history?
 
-Based on APY history only, NOCK's lower-variability candidates are uniswap-v4 (Base), 65.96% APY, $152.8K TVL, https://www.defi.garden/?pool=a9975fb5-59ce-4ef2-90ac-02cb0021ca12#src=seo_token; uniswap-v4 (Base), 156.07% APY, $251.1K TVL, https://www.defi.garden/?pool=3f1124af-bcd5-589a-9819-b9768b9c52a7#src=seo_token; uniswap-v4 (Base), 120.04% APY, $130.3K TVL, https://www.defi.garden/?pool=a359e76d-4e64-50a8-bb08-a76ba8da4d05#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NOCK's lower-variability candidates are uniswap-v4 (Base), 65.10% APY, $154.9K TVL, https://www.defi.garden/?pool=a9975fb5-59ce-4ef2-90ac-02cb0021ca12#src=seo_token; uniswap-v4 (Base), 154.20% APY, $254.8K TVL, https://www.defi.garden/?pool=3f1124af-bcd5-589a-9819-b9768b9c52a7#src=seo_token; uniswap-v4 (Base), 122.19% APY, $132.2K TVL, https://www.defi.garden/?pool=a359e76d-4e64-50a8-bb08-a76ba8da4d05#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

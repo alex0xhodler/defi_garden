@@ -6,7 +6,7 @@ The highest honest GRIFFAIN yield right now is 17.42% on raydium-amm (Solana), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=9299b1ab-2c25-4032-bc90-f6f620373e0b#src=seo_token) | Solana | 17.42% | $2.22M |
+| [raydium-amm →](https://www.defi.garden/?pool=9299b1ab-2c25-4032-bc90-f6f620373e0b#src=seo_token) | Solana | 17.42% | $2.26M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GRIFFAIN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.22M in total.
+1 live pool clear this page's $100K TVL floor, $2.26M in total.
 
 ### Are these rates safe?
 

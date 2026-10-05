@@ -6,7 +6,7 @@ The highest honest RNEAR yield right now is 4.42% on rhea-lst (Near), among 1 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [rhea-lst →](https://www.defi.garden/?pool=b5b80cad-b4bc-5c49-b9c1-52e16856ce26#src=seo_token) | Near | 4.42% | $43.02M |
+| [rhea-lst →](https://www.defi.garden/?pool=b5b80cad-b4bc-5c49-b9c1-52e16856ce26#src=seo_token) | Near | 4.42% | $42.87M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many RNEAR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $43.02M in total.
+1 live pool clear this page's $100K TVL floor, $42.87M in total.
 
 ### Are these rates safe?
 

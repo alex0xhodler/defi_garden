@@ -2,40 +2,40 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest JLP yield right now is 11.28% on orca-dex (Solana), among 12 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JLP yield right now is 11.47% on orca-dex (Solana), among 12 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=78028d3d-d3f5-4917-afb2-29abed034057#src=seo_token) | Solana | 6.26% | $2.57M |
-| [project-0 →](https://www.defi.garden/?pool=f944b079-d522-4743-91d8-b593850df87f#src=seo_token) | Solana | 0.01% | $1.52M |
-| [orca-dex →](https://www.defi.garden/?pool=99306789-b083-4668-86da-4cedb1c9bfef#src=seo_token) | Solana | 3.26% | $642.8K |
-| [orca-dex →](https://www.defi.garden/?pool=6d8531f1-e1fe-428f-a929-6cf539f2942f#src=seo_token) | Solana | 3.08% | $611.5K |
-| [orca-dex →](https://www.defi.garden/?pool=793745f5-f320-416e-9c86-53a5d4e02c99#src=seo_token) | Solana | 11.28% | $278K |
-| [raydium-amm →](https://www.defi.garden/?pool=194db6f9-23a4-5edf-8d13-91fe6b942713#src=seo_token) | Solana | 5.43% | $244K |
-| [orca-dex →](https://www.defi.garden/?pool=716830b1-61b7-4079-9625-6f5063dfb999#src=seo_token) | Solana | 1.43% | $235K |
-| [kamino-liquidity →](https://www.defi.garden/?pool=42e89423-5d97-4177-8e4d-e2959af2d7f8#src=seo_token) | Solana | 1.41% | $230.5K |
+| [orca-dex →](https://www.defi.garden/?pool=78028d3d-d3f5-4917-afb2-29abed034057#src=seo_token) | Solana | 6.36% | $2.58M |
+| [project-0 →](https://www.defi.garden/?pool=f944b079-d522-4743-91d8-b593850df87f#src=seo_token) | Solana | 0.01% | $1.53M |
+| [orca-dex →](https://www.defi.garden/?pool=99306789-b083-4668-86da-4cedb1c9bfef#src=seo_token) | Solana | 3.46% | $643.9K |
+| [orca-dex →](https://www.defi.garden/?pool=6d8531f1-e1fe-428f-a929-6cf539f2942f#src=seo_token) | Solana | 3.17% | $613.6K |
+| [orca-dex →](https://www.defi.garden/?pool=793745f5-f320-416e-9c86-53a5d4e02c99#src=seo_token) | Solana | 11.47% | $278.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=194db6f9-23a4-5edf-8d13-91fe6b942713#src=seo_token) | Solana | 6.05% | $244.3K |
+| [orca-dex →](https://www.defi.garden/?pool=716830b1-61b7-4079-9625-6f5063dfb999#src=seo_token) | Solana | 1.80% | $235.9K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=42e89423-5d97-4177-8e4d-e2959af2d7f8#src=seo_token) | Solana | 1.41% | $232.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, JLP's lower-variability candidates are project-0 (Solana), 0.01% APY, $1.52M TVL, https://www.defi.garden/?pool=f944b079-d522-4743-91d8-b593850df87f#src=seo_token; orca-dex (Solana), 1.43% APY, $235K TVL, https://www.defi.garden/?pool=716830b1-61b7-4079-9625-6f5063dfb999#src=seo_token; raydium-amm (Solana), 5.43% APY, $244K TVL, https://www.defi.garden/?pool=194db6f9-23a4-5edf-8d13-91fe6b942713#src=seo_token; orca-dex (Solana), 11.28% APY, $278K TVL, https://www.defi.garden/?pool=793745f5-f320-416e-9c86-53a5d4e02c99#src=seo_token; kamino-liquidity (Solana), 1.41% APY, $230.5K TVL, https://www.defi.garden/?pool=42e89423-5d97-4177-8e4d-e2959af2d7f8#src=seo_token; orca-dex (Solana), 3.26% APY, $642.8K TVL, https://www.defi.garden/?pool=99306789-b083-4668-86da-4cedb1c9bfef#src=seo_token; orca-dex (Solana), 3.08% APY, $611.5K TVL, https://www.defi.garden/?pool=6d8531f1-e1fe-428f-a929-6cf539f2942f#src=seo_token; orca-dex (Solana), 6.26% APY, $2.57M TVL, https://www.defi.garden/?pool=78028d3d-d3f5-4917-afb2-29abed034057#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, JLP's lower-variability candidates are project-0 (Solana), 0.01% APY, $1.53M TVL, https://www.defi.garden/?pool=f944b079-d522-4743-91d8-b593850df87f#src=seo_token; orca-dex (Solana), 1.80% APY, $235.9K TVL, https://www.defi.garden/?pool=716830b1-61b7-4079-9625-6f5063dfb999#src=seo_token; raydium-amm (Solana), 6.05% APY, $244.3K TVL, https://www.defi.garden/?pool=194db6f9-23a4-5edf-8d13-91fe6b942713#src=seo_token; orca-dex (Solana), 11.47% APY, $278.9K TVL, https://www.defi.garden/?pool=793745f5-f320-416e-9c86-53a5d4e02c99#src=seo_token; kamino-liquidity (Solana), 1.41% APY, $232.2K TVL, https://www.defi.garden/?pool=42e89423-5d97-4177-8e4d-e2959af2d7f8#src=seo_token; orca-dex (Solana), 3.46% APY, $643.9K TVL, https://www.defi.garden/?pool=99306789-b083-4668-86da-4cedb1c9bfef#src=seo_token; orca-dex (Solana), 3.17% APY, $613.6K TVL, https://www.defi.garden/?pool=6d8531f1-e1fe-428f-a929-6cf539f2942f#src=seo_token; orca-dex (Solana), 6.36% APY, $2.58M TVL, https://www.defi.garden/?pool=78028d3d-d3f5-4917-afb2-29abed034057#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [project-0 →](https://www.defi.garden/?pool=f944b079-d522-4743-91d8-b593850df87f#src=seo_token) | Solana | 0.01% | $1.52M |
-| 2 | [orca-dex →](https://www.defi.garden/?pool=716830b1-61b7-4079-9625-6f5063dfb999#src=seo_token) | Solana | 1.43% | $235K |
-| 3 | [raydium-amm →](https://www.defi.garden/?pool=194db6f9-23a4-5edf-8d13-91fe6b942713#src=seo_token) | Solana | 5.43% | $244K |
-| 4 | [orca-dex →](https://www.defi.garden/?pool=793745f5-f320-416e-9c86-53a5d4e02c99#src=seo_token) | Solana | 11.28% | $278K |
-| 5 | [kamino-liquidity →](https://www.defi.garden/?pool=42e89423-5d97-4177-8e4d-e2959af2d7f8#src=seo_token) | Solana | 1.41% | $230.5K |
-| 6 | [orca-dex →](https://www.defi.garden/?pool=99306789-b083-4668-86da-4cedb1c9bfef#src=seo_token) | Solana | 3.26% | $642.8K |
-| 7 | [orca-dex →](https://www.defi.garden/?pool=6d8531f1-e1fe-428f-a929-6cf539f2942f#src=seo_token) | Solana | 3.08% | $611.5K |
-| 8 | [orca-dex →](https://www.defi.garden/?pool=78028d3d-d3f5-4917-afb2-29abed034057#src=seo_token) | Solana | 6.26% | $2.57M |
+| 1 | [project-0 →](https://www.defi.garden/?pool=f944b079-d522-4743-91d8-b593850df87f#src=seo_token) | Solana | 0.01% | $1.53M |
+| 2 | [orca-dex →](https://www.defi.garden/?pool=716830b1-61b7-4079-9625-6f5063dfb999#src=seo_token) | Solana | 1.80% | $235.9K |
+| 3 | [raydium-amm →](https://www.defi.garden/?pool=194db6f9-23a4-5edf-8d13-91fe6b942713#src=seo_token) | Solana | 6.05% | $244.3K |
+| 4 | [orca-dex →](https://www.defi.garden/?pool=793745f5-f320-416e-9c86-53a5d4e02c99#src=seo_token) | Solana | 11.47% | $278.9K |
+| 5 | [kamino-liquidity →](https://www.defi.garden/?pool=42e89423-5d97-4177-8e4d-e2959af2d7f8#src=seo_token) | Solana | 1.41% | $232.2K |
+| 6 | [orca-dex →](https://www.defi.garden/?pool=99306789-b083-4668-86da-4cedb1c9bfef#src=seo_token) | Solana | 3.46% | $643.9K |
+| 7 | [orca-dex →](https://www.defi.garden/?pool=6d8531f1-e1fe-428f-a929-6cf539f2942f#src=seo_token) | Solana | 3.17% | $613.6K |
+| 8 | [orca-dex →](https://www.defi.garden/?pool=78028d3d-d3f5-4917-afb2-29abed034057#src=seo_token) | Solana | 6.36% | $2.58M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-JLP shows up in 8 pools here, with rates from 0.01% to 11.28% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+JLP shows up in 8 pools here, with rates from 0.01% to 11.47% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 10.66% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -45,14 +45,14 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| orca-dex | 6.26% | 14.88% | Base rate |
+| orca-dex | 6.36% | 14.86% | Base rate |
 | project-0 | 0.01% | 0.01% | Base rate |
-| orca-dex | 3.26% | 12.90% | Base rate |
-| orca-dex | 3.08% | 6.40% | Base rate |
-| orca-dex | 11.28% | 11.13% | Base rate |
-| raydium-amm | 5.43% | 19.97% | Base rate |
-| orca-dex | 1.43% | 5.98% | Base rate |
-| kamino-liquidity | 1.41% | 10.19% | Base rate |
+| orca-dex | 3.46% | 12.89% | Base rate |
+| orca-dex | 3.17% | 6.40% | Base rate |
+| orca-dex | 11.47% | 11.13% | Base rate |
+| raydium-amm | 6.05% | 19.95% | Base rate |
+| orca-dex | 1.80% | 5.97% | Base rate |
+| kamino-liquidity | 1.41% | 10.18% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -60,11 +60,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest JLP yield today?
 
-11.28% APY on orca-dex (Solana), based on live DefiLlama data.
+11.47% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many JLP pools clear the TVL floor?
 
-12 live pools clear this page's $100K TVL floor, $57.56M in total.
+12 live pools clear this page's $100K TVL floor, $57.87M in total.
 
 ### Are these rates safe?
 
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which JLP pools have the most stable APY history?
 
-Based on APY history only, JLP's lower-variability candidates are project-0 (Solana), 0.01% APY, $1.52M TVL, https://www.defi.garden/?pool=f944b079-d522-4743-91d8-b593850df87f#src=seo_token; orca-dex (Solana), 1.43% APY, $235K TVL, https://www.defi.garden/?pool=716830b1-61b7-4079-9625-6f5063dfb999#src=seo_token; raydium-amm (Solana), 5.43% APY, $244K TVL, https://www.defi.garden/?pool=194db6f9-23a4-5edf-8d13-91fe6b942713#src=seo_token; orca-dex (Solana), 11.28% APY, $278K TVL, https://www.defi.garden/?pool=793745f5-f320-416e-9c86-53a5d4e02c99#src=seo_token; kamino-liquidity (Solana), 1.41% APY, $230.5K TVL, https://www.defi.garden/?pool=42e89423-5d97-4177-8e4d-e2959af2d7f8#src=seo_token; orca-dex (Solana), 3.26% APY, $642.8K TVL, https://www.defi.garden/?pool=99306789-b083-4668-86da-4cedb1c9bfef#src=seo_token; orca-dex (Solana), 3.08% APY, $611.5K TVL, https://www.defi.garden/?pool=6d8531f1-e1fe-428f-a929-6cf539f2942f#src=seo_token; orca-dex (Solana), 6.26% APY, $2.57M TVL, https://www.defi.garden/?pool=78028d3d-d3f5-4917-afb2-29abed034057#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, JLP's lower-variability candidates are project-0 (Solana), 0.01% APY, $1.53M TVL, https://www.defi.garden/?pool=f944b079-d522-4743-91d8-b593850df87f#src=seo_token; orca-dex (Solana), 1.80% APY, $235.9K TVL, https://www.defi.garden/?pool=716830b1-61b7-4079-9625-6f5063dfb999#src=seo_token; raydium-amm (Solana), 6.05% APY, $244.3K TVL, https://www.defi.garden/?pool=194db6f9-23a4-5edf-8d13-91fe6b942713#src=seo_token; orca-dex (Solana), 11.47% APY, $278.9K TVL, https://www.defi.garden/?pool=793745f5-f320-416e-9c86-53a5d4e02c99#src=seo_token; kamino-liquidity (Solana), 1.41% APY, $232.2K TVL, https://www.defi.garden/?pool=42e89423-5d97-4177-8e4d-e2959af2d7f8#src=seo_token; orca-dex (Solana), 3.46% APY, $643.9K TVL, https://www.defi.garden/?pool=99306789-b083-4668-86da-4cedb1c9bfef#src=seo_token; orca-dex (Solana), 3.17% APY, $613.6K TVL, https://www.defi.garden/?pool=6d8531f1-e1fe-428f-a929-6cf539f2942f#src=seo_token; orca-dex (Solana), 6.36% APY, $2.58M TVL, https://www.defi.garden/?pool=78028d3d-d3f5-4917-afb2-29abed034057#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

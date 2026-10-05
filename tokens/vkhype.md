@@ -6,9 +6,9 @@ The highest honest VKHYPE yield right now is 2.25% on pendle-v2 (Hyperliquid L1)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [project-x →](https://www.defi.garden/?pool=f790f1f3-435e-4706-aaf2-19b08dde32ed#src=seo_token) | Hyperliquid L1 | 10.34% | $690.3K |
-| [pendle-v2 →](https://www.defi.garden/?pool=5858bab6-4ef3-533b-a781-dfcbb7b2db4b#src=seo_token) | Hyperliquid L1 | 2.25% | $255K |
-| [pendle-v2 →](https://www.defi.garden/?pool=838e51ee-a8d8-5bde-a04a-2ee7457e9d14#src=seo_token) | Hyperliquid L1 | 1.40% | $255K |
+| [project-x →](https://www.defi.garden/?pool=f790f1f3-435e-4706-aaf2-19b08dde32ed#src=seo_token) | Hyperliquid L1 | 10.24% | $697.4K |
+| [pendle-v2 →](https://www.defi.garden/?pool=5858bab6-4ef3-533b-a781-dfcbb7b2db4b#src=seo_token) | Hyperliquid L1 | 2.25% | $255.5K |
+| [pendle-v2 →](https://www.defi.garden/?pool=838e51ee-a8d8-5bde-a04a-2ee7457e9d14#src=seo_token) | Hyperliquid L1 | 1.41% | $255.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,9 +19,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-VKHYPE shows up in 3 pools here, with rates from 1.40% to 10.34% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+VKHYPE shows up in 3 pools here, with rates from 1.41% to 10.24% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 4.18% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 4.20% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -29,9 +29,9 @@ VKHYPE shows up in 3 pools here, with rates from 1.40% to 10.34% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| project-x | 10.34% | 4.18% | Base rate |
+| project-x | 10.24% | 4.20% | Base rate |
 | pendle-v2 | 2.25% | 2.39% | Base rate |
-| pendle-v2 | 1.40% | 10.61% | 51.62% incentives |
+| pendle-v2 | 1.41% | 10.59% | 51.99% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -43,7 +43,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many VKHYPE pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.2M in total.
+3 live pools clear this page's $100K TVL floor, $1.21M in total.
 
 ### Are these rates safe?
 

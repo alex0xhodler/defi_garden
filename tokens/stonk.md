@@ -2,40 +2,40 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest STONK yield right now is 241.32% on raydium-amm (Solana), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STONK yield right now is 231.31% on raydium-amm (Solana), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=9b2a235d-a667-5f3b-b1c5-ad8f38768cd6#src=seo_token) | Solana | 206.96% | $2.38M |
-| [raydium-amm →](https://www.defi.garden/?pool=93f4aaea-5905-52ab-8e2b-926490246614#src=seo_token) | Solana | 134.22% | $2.17M |
-| [raydium-amm →](https://www.defi.garden/?pool=1abe98d2-b1d2-5993-ac55-c2e9997b88c2#src=seo_token) | Solana | 241.32% | $817.2K |
-| [raydium-amm →](https://www.defi.garden/?pool=455170b3-b1e4-50f1-ad05-a9f07bc6c628#src=seo_token) | Solana | 63.13% | $409.8K |
-| [raydium-amm →](https://www.defi.garden/?pool=61c8bd29-9912-5308-816c-d3c51291c177#src=seo_token) | Solana | 24.11% | $319.4K |
-| [raydium-amm →](https://www.defi.garden/?pool=2ca06d81-f94d-5f41-86fd-7e3062149357#src=seo_token) | Solana | 35.21% | $309.6K |
+| [orca-dex →](https://www.defi.garden/?pool=9b2a235d-a667-5f3b-b1c5-ad8f38768cd6#src=seo_token) | Solana | 201.65% | $2.39M |
+| [raydium-amm →](https://www.defi.garden/?pool=93f4aaea-5905-52ab-8e2b-926490246614#src=seo_token) | Solana | 128.73% | $2.17M |
+| [raydium-amm →](https://www.defi.garden/?pool=1abe98d2-b1d2-5993-ac55-c2e9997b88c2#src=seo_token) | Solana | 231.31% | $823.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=455170b3-b1e4-50f1-ad05-a9f07bc6c628#src=seo_token) | Solana | 60.83% | $410.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=61c8bd29-9912-5308-816c-d3c51291c177#src=seo_token) | Solana | 23.04% | $319.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=2ca06d81-f94d-5f41-86fd-7e3062149357#src=seo_token) | Solana | 33.46% | $309.6K |
+| [orca-dex →](https://www.defi.garden/?pool=db0cd6f3-809f-5399-849a-a3195b765944#src=seo_token) | Solana | 5.04% | $204.5K |
 | [raydium-amm →](https://www.defi.garden/?pool=5e9ecae0-cfb7-584b-9a62-02109200dcaa#src=seo_token) | Solana | 9.80% | $203.4K |
-| [orca-dex →](https://www.defi.garden/?pool=db0cd6f3-809f-5399-849a-a3195b765944#src=seo_token) | Solana | 5.07% | $203.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, STONK's lower-variability candidates are raydium-amm (Solana), 63.13% APY, $409.8K TVL, https://www.defi.garden/?pool=455170b3-b1e4-50f1-ad05-a9f07bc6c628#src=seo_token; raydium-amm (Solana), 9.80% APY, $203.4K TVL, https://www.defi.garden/?pool=5e9ecae0-cfb7-584b-9a62-02109200dcaa#src=seo_token; raydium-amm (Solana), 24.11% APY, $319.4K TVL, https://www.defi.garden/?pool=61c8bd29-9912-5308-816c-d3c51291c177#src=seo_token; orca-dex (Solana), 206.96% APY, $2.38M TVL, https://www.defi.garden/?pool=9b2a235d-a667-5f3b-b1c5-ad8f38768cd6#src=seo_token; raydium-amm (Solana), 134.22% APY, $2.17M TVL, https://www.defi.garden/?pool=93f4aaea-5905-52ab-8e2b-926490246614#src=seo_token; raydium-amm (Solana), 35.21% APY, $309.6K TVL, https://www.defi.garden/?pool=2ca06d81-f94d-5f41-86fd-7e3062149357#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STONK's lower-variability candidates are raydium-amm (Solana), 60.83% APY, $410.1K TVL, https://www.defi.garden/?pool=455170b3-b1e4-50f1-ad05-a9f07bc6c628#src=seo_token; raydium-amm (Solana), 9.80% APY, $203.4K TVL, https://www.defi.garden/?pool=5e9ecae0-cfb7-584b-9a62-02109200dcaa#src=seo_token; raydium-amm (Solana), 23.04% APY, $319.3K TVL, https://www.defi.garden/?pool=61c8bd29-9912-5308-816c-d3c51291c177#src=seo_token; orca-dex (Solana), 201.65% APY, $2.39M TVL, https://www.defi.garden/?pool=9b2a235d-a667-5f3b-b1c5-ad8f38768cd6#src=seo_token; raydium-amm (Solana), 128.73% APY, $2.17M TVL, https://www.defi.garden/?pool=93f4aaea-5905-52ab-8e2b-926490246614#src=seo_token; raydium-amm (Solana), 33.46% APY, $309.6K TVL, https://www.defi.garden/?pool=2ca06d81-f94d-5f41-86fd-7e3062149357#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=455170b3-b1e4-50f1-ad05-a9f07bc6c628#src=seo_token) | Solana | 63.13% | $409.8K |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=455170b3-b1e4-50f1-ad05-a9f07bc6c628#src=seo_token) | Solana | 60.83% | $410.1K |
 | 2 | [raydium-amm →](https://www.defi.garden/?pool=5e9ecae0-cfb7-584b-9a62-02109200dcaa#src=seo_token) | Solana | 9.80% | $203.4K |
-| 3 | [raydium-amm →](https://www.defi.garden/?pool=61c8bd29-9912-5308-816c-d3c51291c177#src=seo_token) | Solana | 24.11% | $319.4K |
-| 4 | [orca-dex →](https://www.defi.garden/?pool=9b2a235d-a667-5f3b-b1c5-ad8f38768cd6#src=seo_token) | Solana | 206.96% | $2.38M |
-| 5 | [raydium-amm →](https://www.defi.garden/?pool=93f4aaea-5905-52ab-8e2b-926490246614#src=seo_token) | Solana | 134.22% | $2.17M |
-| 6 | [raydium-amm →](https://www.defi.garden/?pool=2ca06d81-f94d-5f41-86fd-7e3062149357#src=seo_token) | Solana | 35.21% | $309.6K |
+| 3 | [raydium-amm →](https://www.defi.garden/?pool=61c8bd29-9912-5308-816c-d3c51291c177#src=seo_token) | Solana | 23.04% | $319.3K |
+| 4 | [orca-dex →](https://www.defi.garden/?pool=9b2a235d-a667-5f3b-b1c5-ad8f38768cd6#src=seo_token) | Solana | 201.65% | $2.39M |
+| 5 | [raydium-amm →](https://www.defi.garden/?pool=93f4aaea-5905-52ab-8e2b-926490246614#src=seo_token) | Solana | 128.73% | $2.17M |
+| 6 | [raydium-amm →](https://www.defi.garden/?pool=2ca06d81-f94d-5f41-86fd-7e3062149357#src=seo_token) | Solana | 33.46% | $309.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-STONK shows up in 8 pools here, with rates from 5.07% to 241.32% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+STONK shows up in 8 pools here, with rates from 5.04% to 231.31% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-7 of these 8 pools have a trustworthy 30-day average on file, with a median of 254.73% — a useful check against today's number for whether the rate is steady or just having a good day.
+7 of these 8 pools have a trustworthy 30-day average on file, with a median of 254.33% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 8 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -43,14 +43,14 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| orca-dex | 206.96% | — | Base rate |
-| raydium-amm | 134.22% | 525.78% | Base rate |
-| raydium-amm | 241.32% | 480.44% | Base rate |
-| raydium-amm | 63.13% | 171.36% | Base rate |
-| raydium-amm | 24.11% | 93.61% | Base rate |
-| raydium-amm | 35.21% | 255.89% | Base rate |
-| raydium-amm | 9.80% | 192.66% | Base rate |
-| orca-dex | 5.07% | 254.73% | Base rate |
+| orca-dex | 201.65% | — | Base rate |
+| raydium-amm | 128.73% | 525.33% | Base rate |
+| raydium-amm | 231.31% | 480.05% | Base rate |
+| raydium-amm | 60.83% | 171.20% | Base rate |
+| raydium-amm | 23.04% | 93.47% | Base rate |
+| raydium-amm | 33.46% | 254.97% | Base rate |
+| orca-dex | 5.04% | 254.33% | Base rate |
+| raydium-amm | 9.80% | 192.84% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -58,11 +58,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest STONK yield today?
 
-241.32% APY on raydium-amm (Solana), based on live DefiLlama data.
+231.31% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many STONK pools clear the TVL floor?
 
-9 live pools clear this page's $100K TVL floor, $6.97M in total.
+9 live pools clear this page's $100K TVL floor, $6.99M in total.
 
 ### Are these rates safe?
 
@@ -70,7 +70,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which STONK pools have the most stable APY history?
 
-Based on APY history only, STONK's lower-variability candidates are raydium-amm (Solana), 63.13% APY, $409.8K TVL, https://www.defi.garden/?pool=455170b3-b1e4-50f1-ad05-a9f07bc6c628#src=seo_token; raydium-amm (Solana), 9.80% APY, $203.4K TVL, https://www.defi.garden/?pool=5e9ecae0-cfb7-584b-9a62-02109200dcaa#src=seo_token; raydium-amm (Solana), 24.11% APY, $319.4K TVL, https://www.defi.garden/?pool=61c8bd29-9912-5308-816c-d3c51291c177#src=seo_token; orca-dex (Solana), 206.96% APY, $2.38M TVL, https://www.defi.garden/?pool=9b2a235d-a667-5f3b-b1c5-ad8f38768cd6#src=seo_token; raydium-amm (Solana), 134.22% APY, $2.17M TVL, https://www.defi.garden/?pool=93f4aaea-5905-52ab-8e2b-926490246614#src=seo_token; raydium-amm (Solana), 35.21% APY, $309.6K TVL, https://www.defi.garden/?pool=2ca06d81-f94d-5f41-86fd-7e3062149357#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STONK's lower-variability candidates are raydium-amm (Solana), 60.83% APY, $410.1K TVL, https://www.defi.garden/?pool=455170b3-b1e4-50f1-ad05-a9f07bc6c628#src=seo_token; raydium-amm (Solana), 9.80% APY, $203.4K TVL, https://www.defi.garden/?pool=5e9ecae0-cfb7-584b-9a62-02109200dcaa#src=seo_token; raydium-amm (Solana), 23.04% APY, $319.3K TVL, https://www.defi.garden/?pool=61c8bd29-9912-5308-816c-d3c51291c177#src=seo_token; orca-dex (Solana), 201.65% APY, $2.39M TVL, https://www.defi.garden/?pool=9b2a235d-a667-5f3b-b1c5-ad8f38768cd6#src=seo_token; raydium-amm (Solana), 128.73% APY, $2.17M TVL, https://www.defi.garden/?pool=93f4aaea-5905-52ab-8e2b-926490246614#src=seo_token; raydium-amm (Solana), 33.46% APY, $309.6K TVL, https://www.defi.garden/?pool=2ca06d81-f94d-5f41-86fd-7e3062149357#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

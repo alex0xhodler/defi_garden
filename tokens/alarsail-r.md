@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest ALARSAIL.R yield right now is 13.01% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ALARSAIL.R yield right now is 12.94% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=3f0c4095-02b6-486f-adb0-688b8da944c2#src=seo_token) | Berachain | 13.01% | $444.9K |
+| [berapaw →](https://www.defi.garden/?pool=3f0c4095-02b6-486f-adb0-688b8da944c2#src=seo_token) | Berachain | 12.94% | $444.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ALARSAIL.R yield today?
 
-13.01% APY on berapaw (Berachain), based on live DefiLlama data.
+12.94% APY on berapaw (Berachain), based on live DefiLlama data.
 
 ### How many ALARSAIL.R pools clear the TVL floor?
 

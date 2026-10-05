@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest NVDAC yield right now is 98.55% on aerodrome-slipstream (Base), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NVDAC yield right now is 248.62% on aerodrome-slipstream (Base), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=f07ec582-f302-5fab-9531-eabc3f8f291c#src=seo_token) | Base | 98.55% | $2.18M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=f07ec582-f302-5fab-9531-eabc3f8f291c#src=seo_token) | Base | 248.62% | $2.06M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,9 +17,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-NVDAC shows up in 1 pools here, with rates from 98.55% to 98.55% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+NVDAC shows up in 1 pools here, with rates from 248.62% to 248.62% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 338.22% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 338.38% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 1 pool blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -27,7 +27,7 @@ NVDAC shows up in 1 pools here, with rates from 98.55% to 98.55% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 98.55% | 338.22% | 78.55% incentives |
+| aerodrome-slipstream | 248.62% | 338.38% | 90.23% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest NVDAC yield today?
 
-98.55% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+248.62% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many NVDAC pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $3.06M in total.
+5 live pools clear this page's $100K TVL floor, $2.95M in total.
 
 ### Are these rates safe?
 

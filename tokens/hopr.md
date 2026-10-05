@@ -6,7 +6,7 @@ The highest honest HOPR yield right now is 0.48% on uniswap-v3 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=67468102-f284-426d-b46a-dd8ce267d674#src=seo_token) | Ethereum | 0.48% | $130.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=67468102-f284-426d-b46a-dd8ce267d674#src=seo_token) | Ethereum | 0.48% | $130.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many HOPR pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $503.2K in total.
+2 live pools clear this page's $100K TVL floor, $503.8K in total.
 
 ### Are these rates safe?
 

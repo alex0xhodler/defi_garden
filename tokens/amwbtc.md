@@ -6,7 +6,7 @@ The highest honest AMWBTC yield right now is 0.01% on curve-dex (Polygon), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=e646248a-065d-4035-a2b3-2b9d1af767cd#src=seo_token) | Polygon | 0.01% | $2.37M |
+| [curve-dex →](https://www.defi.garden/?pool=e646248a-065d-4035-a2b3-2b9d1af767cd#src=seo_token) | Polygon | 0.01% | $2.36M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AMWBTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.37M in total.
+1 live pool clear this page's $100K TVL floor, $2.36M in total.
 
 ### Are these rates safe?
 
@@ -40,7 +40,7 @@ There is not enough qualifying APY history to rank AMWBTC pools. This view cover
 - [LINK](https://www.defi.garden/tokens/link)
 - [AAVE](https://www.defi.garden/tokens/aave)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
-- [STKPOL](https://www.defi.garden/tokens/stkpol)
+- [BET](https://www.defi.garden/tokens/bet)
 
 ## Available on
 

@@ -6,7 +6,7 @@ The highest honest APX yield right now is 0.01% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=d50ef78e-6b76-4785-950a-4c940457a60b#src=seo_token) | Ethereum | 0.01% | $100.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=d50ef78e-6b76-4785-950a-4c940457a60b#src=seo_token) | Ethereum | 0.01% | $100.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many APX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $100.5K in total.
+1 live pool clear this page's $100K TVL floor, $100.9K in total.
 
 ### Are these rates safe?
 

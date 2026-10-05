@@ -36,9 +36,9 @@ SUSN shows up in 4 pools here, with rates from 0.03% to 8.60% APY across 2 chain
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | uniswap-v3 | 0.03% | 0.01% | Base rate |
-| pendle-v2 | 8.25% | 8.18% | 2.76% incentives |
+| pendle-v2 | 8.25% | 8.18% | 2.80% incentives |
 | pendle-v2 | 8.60% | 8.65% | Base rate |
-| bluefin-spot | 0.10% | 6.77% | Base rate |
+| bluefin-spot | 0.10% | 6.76% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

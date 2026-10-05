@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest WGBERA yield right now is 26.39% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WGBERA yield right now is 26.63% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=df3f3df2-f5d1-490e-a1de-48a2649e6bee#src=seo_token) | Berachain | 26.39% | $214K |
+| [berapaw →](https://www.defi.garden/?pool=df3f3df2-f5d1-490e-a1de-48a2649e6bee#src=seo_token) | Berachain | 26.63% | $215.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WGBERA yield today?
 
-26.39% APY on berapaw (Berachain), based on live DefiLlama data.
+26.63% APY on berapaw (Berachain), based on live DefiLlama data.
 
 ### How many WGBERA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $214K in total.
+1 live pool clear this page's $100K TVL floor, $215.7K in total.
 
 ### Are these rates safe?
 

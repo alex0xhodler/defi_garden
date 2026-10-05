@@ -7,16 +7,16 @@ The highest honest NVDAB yield right now is 124.10% on native-credit-pool (BSC),
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=d58b2d86-df88-56b9-9212-930d8a164095#src=seo_token) | BSC | 13.03% | $993.8K |
-| [native-credit-pool →](https://www.defi.garden/?pool=59eecd41-6673-44ec-a5ba-82158afbeb74#src=seo_token) | BSC | 124.10% | $122.1K |
+| [native-credit-pool →](https://www.defi.garden/?pool=59eecd41-6673-44ec-a5ba-82158afbeb74#src=seo_token) | BSC | 124.10% | $121.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, NVDAB's lower-variability candidates are native-credit-pool (BSC), 124.10% APY, $122.1K TVL, https://www.defi.garden/?pool=59eecd41-6673-44ec-a5ba-82158afbeb74#src=seo_token; uniswap-v3 (BSC), 13.03% APY, $993.8K TVL, https://www.defi.garden/?pool=d58b2d86-df88-56b9-9212-930d8a164095#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NVDAB's lower-variability candidates are native-credit-pool (BSC), 124.10% APY, $121.9K TVL, https://www.defi.garden/?pool=59eecd41-6673-44ec-a5ba-82158afbeb74#src=seo_token; uniswap-v3 (BSC), 13.03% APY, $993.8K TVL, https://www.defi.garden/?pool=d58b2d86-df88-56b9-9212-930d8a164095#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [native-credit-pool →](https://www.defi.garden/?pool=59eecd41-6673-44ec-a5ba-82158afbeb74#src=seo_token) | BSC | 124.10% | $122.1K |
+| 1 | [native-credit-pool →](https://www.defi.garden/?pool=59eecd41-6673-44ec-a5ba-82158afbeb74#src=seo_token) | BSC | 124.10% | $121.9K |
 | 2 | [uniswap-v3 →](https://www.defi.garden/?pool=d58b2d86-df88-56b9-9212-930d8a164095#src=seo_token) | BSC | 13.03% | $993.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which NVDAB pools have the most stable APY history?
 
-Based on APY history only, NVDAB's lower-variability candidates are native-credit-pool (BSC), 124.10% APY, $122.1K TVL, https://www.defi.garden/?pool=59eecd41-6673-44ec-a5ba-82158afbeb74#src=seo_token; uniswap-v3 (BSC), 13.03% APY, $993.8K TVL, https://www.defi.garden/?pool=d58b2d86-df88-56b9-9212-930d8a164095#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NVDAB's lower-variability candidates are native-credit-pool (BSC), 124.10% APY, $121.9K TVL, https://www.defi.garden/?pool=59eecd41-6673-44ec-a5ba-82158afbeb74#src=seo_token; uniswap-v3 (BSC), 13.03% APY, $993.8K TVL, https://www.defi.garden/?pool=d58b2d86-df88-56b9-9212-930d8a164095#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

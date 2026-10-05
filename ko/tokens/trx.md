@@ -6,24 +6,24 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [justlend-v1 →](https://www.defi.garden/ko/pools/justlend-v1-trx-tron) | Tron | 0.33% | $689.59M |
-| [tr-energy →](https://www.defi.garden/?pool=cf7a5142-ff74-4b1d-8267-98148c90b72c#src=seo_token) | Tron | 11.57% | $90.65M |
-| [raydium-amm →](https://www.defi.garden/?pool=ca46228a-5be2-4f58-97e2-c98fb2b56e54#src=seo_token) | Solana | 2.98% | $12.46M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=0aa6af67-5890-445d-8982-e8963a5f3183#src=seo_token) | Ethereum | 0.25% | $753.8K |
+| [justlend-v1 →](https://www.defi.garden/ko/pools/justlend-v1-trx-tron) | Tron | 0.33% | $689.56M |
+| [tr-energy →](https://www.defi.garden/?pool=cf7a5142-ff74-4b1d-8267-98148c90b72c#src=seo_token) | Tron | 11.57% | $90.7M |
+| [raydium-amm →](https://www.defi.garden/?pool=ca46228a-5be2-4f58-97e2-c98fb2b56e54#src=seo_token) | Solana | 2.85% | $12.46M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=0aa6af67-5890-445d-8982-e8963a5f3183#src=seo_token) | Ethereum | 0.25% | $753.3K |
 | [pancakeswap-amm →](https://www.defi.garden/?pool=6dab81ee-8eea-4163-a38a-58986dd65595#src=seo_token) | BSC | 0.57% | $540K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 TRX의 변동성 낮은 후보는 Solana의 raydium-amm, APY 2.98%, TVL $12.46M, https://www.defi.garden/?pool=ca46228a-5be2-4f58-97e2-c98fb2b56e54#src=seo_token; Tron의 tr-energy, APY 11.57%, TVL $90.65M, https://www.defi.garden/?pool=cf7a5142-ff74-4b1d-8267-98148c90b72c#src=seo_token; Tron의 justlend-v1, APY 0.33%, TVL $689.59M, https://www.defi.garden/ko/pools/justlend-v1-trx-tron; BSC의 pancakeswap-amm, APY 0.57%, TVL $540K, https://www.defi.garden/?pool=6dab81ee-8eea-4163-a38a-58986dd65595#src=seo_token; Ethereum의 uniswap-v2, APY 0.25%, TVL $753.8K, https://www.defi.garden/?pool=0aa6af67-5890-445d-8982-e8963a5f3183#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 TRX의 변동성 낮은 후보는 Solana의 raydium-amm, APY 2.85%, TVL $12.46M, https://www.defi.garden/?pool=ca46228a-5be2-4f58-97e2-c98fb2b56e54#src=seo_token; Tron의 tr-energy, APY 11.57%, TVL $90.7M, https://www.defi.garden/?pool=cf7a5142-ff74-4b1d-8267-98148c90b72c#src=seo_token; Tron의 justlend-v1, APY 0.33%, TVL $689.56M, https://www.defi.garden/ko/pools/justlend-v1-trx-tron; BSC의 pancakeswap-amm, APY 0.57%, TVL $540K, https://www.defi.garden/?pool=6dab81ee-8eea-4163-a38a-58986dd65595#src=seo_token; Ethereum의 uniswap-v2, APY 0.25%, TVL $753.3K, https://www.defi.garden/?pool=0aa6af67-5890-445d-8982-e8963a5f3183#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=ca46228a-5be2-4f58-97e2-c98fb2b56e54#src=seo_token) | Solana | 2.98% | $12.46M |
-| 2 | [tr-energy →](https://www.defi.garden/?pool=cf7a5142-ff74-4b1d-8267-98148c90b72c#src=seo_token) | Tron | 11.57% | $90.65M |
-| 3 | [justlend-v1 →](https://www.defi.garden/ko/pools/justlend-v1-trx-tron) | Tron | 0.33% | $689.59M |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=ca46228a-5be2-4f58-97e2-c98fb2b56e54#src=seo_token) | Solana | 2.85% | $12.46M |
+| 2 | [tr-energy →](https://www.defi.garden/?pool=cf7a5142-ff74-4b1d-8267-98148c90b72c#src=seo_token) | Tron | 11.57% | $90.7M |
+| 3 | [justlend-v1 →](https://www.defi.garden/ko/pools/justlend-v1-trx-tron) | Tron | 0.33% | $689.56M |
 | 4 | [pancakeswap-amm →](https://www.defi.garden/?pool=6dab81ee-8eea-4163-a38a-58986dd65595#src=seo_token) | BSC | 0.57% | $540K |
-| 5 | [uniswap-v2 →](https://www.defi.garden/?pool=0aa6af67-5890-445d-8982-e8963a5f3183#src=seo_token) | Ethereum | 0.25% | $753.8K |
+| 5 | [uniswap-v2 →](https://www.defi.garden/?pool=0aa6af67-5890-445d-8982-e8963a5f3183#src=seo_token) | Ethereum | 0.25% | $753.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -41,7 +41,7 @@ TRX 풀은 여기 5개가 있고, 4개 체인에서 APY가 0.25%부터 11.57%까
 |---|---|---|---|
 | justlend-v1 | 0.33% | 0.32% | 기본 금리 |
 | tr-energy | 11.57% | 11.34% | 기본 금리 |
-| raydium-amm | 2.98% | 1.36% | 기본 금리 |
+| raydium-amm | 2.85% | 1.36% | 기본 금리 |
 | uniswap-v2 | 0.25% | 5.02% | 기본 금리 |
 | pancakeswap-amm | 0.57% | 1.17% | 기본 금리 |
 
@@ -55,7 +55,7 @@ DefiLlama 실시간 데이터 기준, Tron의 tr-energy에서 APY 11.57%예요.
 
 ### TRX 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $794.78M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $794.8M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -63,7 +63,7 @@ DefiLlama 실시간 데이터 기준, Tron의 tr-energy에서 APY 11.57%예요.
 
 ### TRX 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 TRX의 변동성 낮은 후보는 Solana의 raydium-amm, APY 2.98%, TVL $12.46M, https://www.defi.garden/?pool=ca46228a-5be2-4f58-97e2-c98fb2b56e54#src=seo_token; Tron의 tr-energy, APY 11.57%, TVL $90.65M, https://www.defi.garden/?pool=cf7a5142-ff74-4b1d-8267-98148c90b72c#src=seo_token; Tron의 justlend-v1, APY 0.33%, TVL $689.59M, https://www.defi.garden/ko/pools/justlend-v1-trx-tron; BSC의 pancakeswap-amm, APY 0.57%, TVL $540K, https://www.defi.garden/?pool=6dab81ee-8eea-4163-a38a-58986dd65595#src=seo_token; Ethereum의 uniswap-v2, APY 0.25%, TVL $753.8K, https://www.defi.garden/?pool=0aa6af67-5890-445d-8982-e8963a5f3183#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 TRX의 변동성 낮은 후보는 Solana의 raydium-amm, APY 2.85%, TVL $12.46M, https://www.defi.garden/?pool=ca46228a-5be2-4f58-97e2-c98fb2b56e54#src=seo_token; Tron의 tr-energy, APY 11.57%, TVL $90.7M, https://www.defi.garden/?pool=cf7a5142-ff74-4b1d-8267-98148c90b72c#src=seo_token; Tron의 justlend-v1, APY 0.33%, TVL $689.56M, https://www.defi.garden/ko/pools/justlend-v1-trx-tron; BSC의 pancakeswap-amm, APY 0.57%, TVL $540K, https://www.defi.garden/?pool=6dab81ee-8eea-4163-a38a-58986dd65595#src=seo_token; Ethereum의 uniswap-v2, APY 0.25%, TVL $753.3K, https://www.defi.garden/?pool=0aa6af67-5890-445d-8982-e8963a5f3183#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

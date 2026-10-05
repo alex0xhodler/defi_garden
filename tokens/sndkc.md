@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest SNDKC yield right now is 251.59% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SNDKC yield right now is 474.70% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=3026b289-5595-548d-b9cc-e8c265ac1746#src=seo_token) | Base | 251.59% | $1.29M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=3026b289-5595-548d-b9cc-e8c265ac1746#src=seo_token) | Base | 474.70% | $1.24M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SNDKC yield today?
 
-251.59% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+474.70% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many SNDKC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.29M in total.
+1 live pool clear this page's $100K TVL floor, $1.24M in total.
 
 ### Are these rates safe?
 

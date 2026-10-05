@@ -1,15 +1,15 @@
 # Arbitrum 디파이 수익률
 
-현재 Arbitrum의 가장 높은 정직한 수익률은 Arbitrum의 pendle-v2에서 11.00%이며, $100K TVL 기준을 넘는 447개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 Arbitrum의 가장 높은 정직한 수익률은 Arbitrum의 pendle-v2에서 11.00%이며, $100K TVL 기준을 넘는 448개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| SUSDAI | [usd-ai →](https://www.defi.garden/ko/pools/usd-ai-susdai-arbitrum) | 6.97% | $535.73M |
-| SUSDS | [sky-lending →](https://www.defi.garden/ko/pools/sky-lending-susds-arbitrum) | 3.60% | $363.51M |
-| USDS | [spark-savings →](https://www.defi.garden/ko/pools/spark-savings-usds-arbitrum) | 3.60% | $363.51M |
-| WBTC | [aave-v3 →](https://www.defi.garden/ko/pools/aave-v3-wbtc-arbitrum) | 0.02% | $244.99M |
-| WBTC.B-USDC | [gmx-v2-perps →](https://www.defi.garden/?pool=5b8c0691-b9ff-4d82-97e4-19a1247e6dbf#src=seo_chain) | 1.81% | $59.6M |
-| USDC | [fluid-lending →](https://www.defi.garden/?pool=4c45cc9e-e1a4-43c9-8a3d-687d96abb07c#src=seo_chain) | 5.67% | $56.15M |
+| SUSDAI | [usd-ai →](https://www.defi.garden/ko/pools/usd-ai-susdai-arbitrum) | 6.97% | $535.72M |
+| SUSDS | [sky-lending →](https://www.defi.garden/ko/pools/sky-lending-susds-arbitrum) | 3.60% | $363.53M |
+| USDS | [spark-savings →](https://www.defi.garden/ko/pools/spark-savings-usds-arbitrum) | 3.60% | $363.53M |
+| WBTC | [aave-v3 →](https://www.defi.garden/ko/pools/aave-v3-wbtc-arbitrum) | 0.02% | $245.33M |
+| WBTC.B-USDC | [gmx-v2-perps →](https://www.defi.garden/?pool=5b8c0691-b9ff-4d82-97e4-19a1247e6dbf#src=seo_chain) | 1.84% | $59.76M |
+| USDC | [fluid-lending →](https://www.defi.garden/?pool=4c45cc9e-e1a4-43c9-8a3d-687d96abb07c#src=seo_chain) | 5.66% | $56.13M |
 | USDAI | [pendle-v2 →](https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c#src=seo_chain) | 2.78% | $50.36M |
 | USDAI | [pendle-v2 →](https://www.defi.garden/?pool=2785c8d0-348b-4e8f-904e-4b02819993b9#src=seo_chain) | 11.00% | $50.36M |
 
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 pendle-v2에서 APY 11.00%예�
 
 ### Arbitrum 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 447개이며, 합산 TVL은 $2.8B예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 448개이며, 합산 TVL은 $2.8B예요.
 
 ### 이 수익률은 안전한가요?
 

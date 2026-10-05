@@ -5,11 +5,11 @@ The highest honest BSC yield right now is 2.15% on binance-staked-eth (BSC), amo
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
 | USYC | [circle-usyc →](https://www.defi.garden/pools/circle-usyc-usyc-bsc) | 3.07% | $2.36B |
-| SLISBNB | [lista-liquid-staking →](https://www.defi.garden/pools/lista-liquid-staking-slisbnb-bsc) | 1.01% | $854.93M |
-| WBETH | [binance-staked-eth →](https://www.defi.garden/pools/binance-staked-eth-wbeth-bsc) | 2.15% | $571.77M |
-| WBNB | [venus-core-pool →](https://www.defi.garden/pools/venus-core-pool-wbnb-bsc) | 0.03% | $389.13M |
+| SLISBNB | [lista-liquid-staking →](https://www.defi.garden/pools/lista-liquid-staking-slisbnb-bsc) | 1.01% | $856.35M |
+| WBETH | [binance-staked-eth →](https://www.defi.garden/pools/binance-staked-eth-wbeth-bsc) | 2.15% | $575.47M |
+| WBNB | [venus-core-pool →](https://www.defi.garden/pools/venus-core-pool-wbnb-bsc) | 0.03% | $389.77M |
 | BNB | [lista-lending →](https://www.defi.garden/pools/lista-lending-bnb-bsc) | 0.21% | $387.93M |
-| BTCB | [venus-core-pool →](https://www.defi.garden/pools/venus-core-pool-btcb-bsc) | 0.20% | $354.44M |
+| BTCB | [venus-core-pool →](https://www.defi.garden/pools/venus-core-pool-btcb-bsc) | 0.20% | $355.41M |
 | BUIDL | [blackrock-buidl →](https://www.defi.garden/?pool=55402b0b-af35-452b-b015-627b4233f0f1#src=seo_chain) | 3.47% | $146.65M |
 | USD1 | [lista-lending →](https://www.defi.garden/?pool=d6fec854-4258-495b-95df-e4066214f41d#src=seo_chain) | 1.22% | $138.27M |
 
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BSC pools clear the TVL floor?
 
-281 live pools clear this page's $100K TVL floor, $6.73B in total.
+281 live pools clear this page's $100K TVL floor, $6.74B in total.
 
 ### Are these rates safe?
 

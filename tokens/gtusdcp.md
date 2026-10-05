@@ -6,26 +6,26 @@ The highest honest GTUSDCP yield right now is 4.41% on morpho-blue (Base), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/pools/morpho-blue-gtusdcp-base) | Base | 4.41% | $414.15M |
-| [morpho-blue →](https://www.defi.garden/?pool=df7ccfd1-2642-4d79-851a-a5b07d9b8a97#src=seo_token) | Base | 4.41% | $179.02M |
-| [morpho-blue →](https://www.defi.garden/?pool=71b34441-5a46-431b-a9b3-8c081cd0d74c#src=seo_token) | Ethereum | 4.36% | $112.75M |
-| [morpho-blue →](https://www.defi.garden/?pool=6b655652-e718-4cba-a17b-42ee036531dc#src=seo_token) | OP Mainnet | 4.10% | $720.9K |
-| [morpho-blue →](https://www.defi.garden/?pool=8b0a8a57-e1b0-4d69-ab5d-d858de1d4170#src=seo_token) | Arbitrum | 2.57% | $594.2K |
+| [morpho-blue →](https://www.defi.garden/pools/morpho-blue-gtusdcp-base) | Base | 4.41% | $414.13M |
+| [morpho-blue →](https://www.defi.garden/?pool=df7ccfd1-2642-4d79-851a-a5b07d9b8a97#src=seo_token) | Base | 4.41% | $179.06M |
+| [morpho-blue →](https://www.defi.garden/?pool=71b34441-5a46-431b-a9b3-8c081cd0d74c#src=seo_token) | Ethereum | 4.35% | $112.74M |
+| [morpho-blue →](https://www.defi.garden/?pool=6b655652-e718-4cba-a17b-42ee036531dc#src=seo_token) | OP Mainnet | 4.02% | $669.9K |
+| [morpho-blue →](https://www.defi.garden/?pool=8b0a8a57-e1b0-4d69-ab5d-d858de1d4170#src=seo_token) | Arbitrum | 2.57% | $594.1K |
 | [morpho-blue →](https://www.defi.garden/?pool=7aad812f-4ed1-42ea-8c8f-654b5ef49d25#src=seo_token) | Arbitrum | 2.33% | $463.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, GTUSDCP's lower-variability candidates are morpho-blue (Base), 4.41% APY, $414.15M TVL, https://www.defi.garden/pools/morpho-blue-gtusdcp-base; morpho-blue (Ethereum), 4.36% APY, $112.75M TVL, https://www.defi.garden/?pool=71b34441-5a46-431b-a9b3-8c081cd0d74c#src=seo_token; morpho-blue (Base), 4.41% APY, $179.02M TVL, https://www.defi.garden/?pool=df7ccfd1-2642-4d79-851a-a5b07d9b8a97#src=seo_token; morpho-blue (Arbitrum), 2.33% APY, $463.3K TVL, https://www.defi.garden/?pool=7aad812f-4ed1-42ea-8c8f-654b5ef49d25#src=seo_token; morpho-blue (Arbitrum), 2.57% APY, $594.2K TVL, https://www.defi.garden/?pool=8b0a8a57-e1b0-4d69-ab5d-d858de1d4170#src=seo_token; morpho-blue (OP Mainnet), 4.10% APY, $720.9K TVL, https://www.defi.garden/?pool=6b655652-e718-4cba-a17b-42ee036531dc#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GTUSDCP's lower-variability candidates are morpho-blue (Base), 4.41% APY, $414.13M TVL, https://www.defi.garden/pools/morpho-blue-gtusdcp-base; morpho-blue (Ethereum), 4.35% APY, $112.74M TVL, https://www.defi.garden/?pool=71b34441-5a46-431b-a9b3-8c081cd0d74c#src=seo_token; morpho-blue (Base), 4.41% APY, $179.06M TVL, https://www.defi.garden/?pool=df7ccfd1-2642-4d79-851a-a5b07d9b8a97#src=seo_token; morpho-blue (Arbitrum), 2.33% APY, $463.3K TVL, https://www.defi.garden/?pool=7aad812f-4ed1-42ea-8c8f-654b5ef49d25#src=seo_token; morpho-blue (Arbitrum), 2.57% APY, $594.1K TVL, https://www.defi.garden/?pool=8b0a8a57-e1b0-4d69-ab5d-d858de1d4170#src=seo_token; morpho-blue (OP Mainnet), 4.02% APY, $669.9K TVL, https://www.defi.garden/?pool=6b655652-e718-4cba-a17b-42ee036531dc#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/pools/morpho-blue-gtusdcp-base) | Base | 4.41% | $414.15M |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=71b34441-5a46-431b-a9b3-8c081cd0d74c#src=seo_token) | Ethereum | 4.36% | $112.75M |
-| 3 | [morpho-blue →](https://www.defi.garden/?pool=df7ccfd1-2642-4d79-851a-a5b07d9b8a97#src=seo_token) | Base | 4.41% | $179.02M |
+| 1 | [morpho-blue →](https://www.defi.garden/pools/morpho-blue-gtusdcp-base) | Base | 4.41% | $414.13M |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=71b34441-5a46-431b-a9b3-8c081cd0d74c#src=seo_token) | Ethereum | 4.35% | $112.74M |
+| 3 | [morpho-blue →](https://www.defi.garden/?pool=df7ccfd1-2642-4d79-851a-a5b07d9b8a97#src=seo_token) | Base | 4.41% | $179.06M |
 | 4 | [morpho-blue →](https://www.defi.garden/?pool=7aad812f-4ed1-42ea-8c8f-654b5ef49d25#src=seo_token) | Arbitrum | 2.33% | $463.3K |
-| 5 | [morpho-blue →](https://www.defi.garden/?pool=8b0a8a57-e1b0-4d69-ab5d-d858de1d4170#src=seo_token) | Arbitrum | 2.57% | $594.2K |
-| 6 | [morpho-blue →](https://www.defi.garden/?pool=6b655652-e718-4cba-a17b-42ee036531dc#src=seo_token) | OP Mainnet | 4.10% | $720.9K |
+| 5 | [morpho-blue →](https://www.defi.garden/?pool=8b0a8a57-e1b0-4d69-ab5d-d858de1d4170#src=seo_token) | Arbitrum | 2.57% | $594.1K |
+| 6 | [morpho-blue →](https://www.defi.garden/?pool=6b655652-e718-4cba-a17b-42ee036531dc#src=seo_token) | OP Mainnet | 4.02% | $669.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -41,10 +41,10 @@ All 6 pools pay a plain base rate right now — no incentive or reward APY mixed
 |---|---|---|---|
 | morpho-blue | 4.41% | 4.35% | Base rate |
 | morpho-blue | 4.41% | 4.35% | Base rate |
-| morpho-blue | 4.36% | 4.44% | Base rate |
-| morpho-blue | 4.10% | 3.44% | Base rate |
+| morpho-blue | 4.35% | 4.44% | Base rate |
+| morpho-blue | 4.02% | 3.44% | Base rate |
 | morpho-blue | 2.57% | 3.29% | Base rate |
-| morpho-blue | 2.33% | 2.97% | Base rate |
+| morpho-blue | 2.33% | 2.96% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -56,7 +56,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many GTUSDCP pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $707.7M in total.
+6 live pools clear this page's $100K TVL floor, $707.66M in total.
 
 ### Are these rates safe?
 
@@ -64,7 +64,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which GTUSDCP pools have the most stable APY history?
 
-Based on APY history only, GTUSDCP's lower-variability candidates are morpho-blue (Base), 4.41% APY, $414.15M TVL, https://www.defi.garden/pools/morpho-blue-gtusdcp-base; morpho-blue (Ethereum), 4.36% APY, $112.75M TVL, https://www.defi.garden/?pool=71b34441-5a46-431b-a9b3-8c081cd0d74c#src=seo_token; morpho-blue (Base), 4.41% APY, $179.02M TVL, https://www.defi.garden/?pool=df7ccfd1-2642-4d79-851a-a5b07d9b8a97#src=seo_token; morpho-blue (Arbitrum), 2.33% APY, $463.3K TVL, https://www.defi.garden/?pool=7aad812f-4ed1-42ea-8c8f-654b5ef49d25#src=seo_token; morpho-blue (Arbitrum), 2.57% APY, $594.2K TVL, https://www.defi.garden/?pool=8b0a8a57-e1b0-4d69-ab5d-d858de1d4170#src=seo_token; morpho-blue (OP Mainnet), 4.10% APY, $720.9K TVL, https://www.defi.garden/?pool=6b655652-e718-4cba-a17b-42ee036531dc#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GTUSDCP's lower-variability candidates are morpho-blue (Base), 4.41% APY, $414.13M TVL, https://www.defi.garden/pools/morpho-blue-gtusdcp-base; morpho-blue (Ethereum), 4.35% APY, $112.74M TVL, https://www.defi.garden/?pool=71b34441-5a46-431b-a9b3-8c081cd0d74c#src=seo_token; morpho-blue (Base), 4.41% APY, $179.06M TVL, https://www.defi.garden/?pool=df7ccfd1-2642-4d79-851a-a5b07d9b8a97#src=seo_token; morpho-blue (Arbitrum), 2.33% APY, $463.3K TVL, https://www.defi.garden/?pool=7aad812f-4ed1-42ea-8c8f-654b5ef49d25#src=seo_token; morpho-blue (Arbitrum), 2.57% APY, $594.1K TVL, https://www.defi.garden/?pool=8b0a8a57-e1b0-4d69-ab5d-d858de1d4170#src=seo_token; morpho-blue (OP Mainnet), 4.02% APY, $669.9K TVL, https://www.defi.garden/?pool=6b655652-e718-4cba-a17b-42ee036531dc#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

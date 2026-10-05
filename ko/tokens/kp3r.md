@@ -6,20 +6,20 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=b14cb043-eca3-4893-a8c9-3b5e6a96f273#src=seo_token) | Ethereum | 0.02% | $220K |
-| [convex-finance →](https://www.defi.garden/?pool=8ba6cffc-8eed-4c62-a19a-ab0c2b5991c5#src=seo_token) | Ethereum | 0.02% | $219.3K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=73af0123-ecdf-4952-9799-fb9be4f2833f#src=seo_token) | Ethereum | 0.10% | $169K |
+| [curve-dex →](https://www.defi.garden/?pool=b14cb043-eca3-4893-a8c9-3b5e6a96f273#src=seo_token) | Ethereum | 0.02% | $219.5K |
+| [convex-finance →](https://www.defi.garden/?pool=8ba6cffc-8eed-4c62-a19a-ab0c2b5991c5#src=seo_token) | Ethereum | 0.02% | $218.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=73af0123-ecdf-4952-9799-fb9be4f2833f#src=seo_token) | Ethereum | 0.10% | $169.7K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 KP3R의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.02%, TVL $220K, https://www.defi.garden/?pool=b14cb043-eca3-4893-a8c9-3b5e6a96f273#src=seo_token; Ethereum의 convex-finance, APY 0.02%, TVL $219.3K, https://www.defi.garden/?pool=8ba6cffc-8eed-4c62-a19a-ab0c2b5991c5#src=seo_token; Ethereum의 uniswap-v3, APY 0.10%, TVL $169K, https://www.defi.garden/?pool=73af0123-ecdf-4952-9799-fb9be4f2833f#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 KP3R의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.02%, TVL $219.5K, https://www.defi.garden/?pool=b14cb043-eca3-4893-a8c9-3b5e6a96f273#src=seo_token; Ethereum의 convex-finance, APY 0.02%, TVL $218.8K, https://www.defi.garden/?pool=8ba6cffc-8eed-4c62-a19a-ab0c2b5991c5#src=seo_token; Ethereum의 uniswap-v3, APY 0.10%, TVL $169.7K, https://www.defi.garden/?pool=73af0123-ecdf-4952-9799-fb9be4f2833f#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=b14cb043-eca3-4893-a8c9-3b5e6a96f273#src=seo_token) | Ethereum | 0.02% | $220K |
-| 2 | [convex-finance →](https://www.defi.garden/?pool=8ba6cffc-8eed-4c62-a19a-ab0c2b5991c5#src=seo_token) | Ethereum | 0.02% | $219.3K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=73af0123-ecdf-4952-9799-fb9be4f2833f#src=seo_token) | Ethereum | 0.10% | $169K |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=b14cb043-eca3-4893-a8c9-3b5e6a96f273#src=seo_token) | Ethereum | 0.02% | $219.5K |
+| 2 | [convex-finance →](https://www.defi.garden/?pool=8ba6cffc-8eed-4c62-a19a-ab0c2b5991c5#src=seo_token) | Ethereum | 0.02% | $218.8K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=73af0123-ecdf-4952-9799-fb9be4f2833f#src=seo_token) | Ethereum | 0.10% | $169.7K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -49,7 +49,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 0.10%예�
 
 ### KP3R 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $608.3K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $608.1K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -57,7 +57,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 0.10%예�
 
 ### KP3R 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 KP3R의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.02%, TVL $220K, https://www.defi.garden/?pool=b14cb043-eca3-4893-a8c9-3b5e6a96f273#src=seo_token; Ethereum의 convex-finance, APY 0.02%, TVL $219.3K, https://www.defi.garden/?pool=8ba6cffc-8eed-4c62-a19a-ab0c2b5991c5#src=seo_token; Ethereum의 uniswap-v3, APY 0.10%, TVL $169K, https://www.defi.garden/?pool=73af0123-ecdf-4952-9799-fb9be4f2833f#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 KP3R의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.02%, TVL $219.5K, https://www.defi.garden/?pool=b14cb043-eca3-4893-a8c9-3b5e6a96f273#src=seo_token; Ethereum의 convex-finance, APY 0.02%, TVL $218.8K, https://www.defi.garden/?pool=8ba6cffc-8eed-4c62-a19a-ab0c2b5991c5#src=seo_token; Ethereum의 uniswap-v3, APY 0.10%, TVL $169.7K, https://www.defi.garden/?pool=73af0123-ecdf-4952-9799-fb9be4f2833f#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

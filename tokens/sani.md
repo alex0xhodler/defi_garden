@@ -6,7 +6,7 @@ The highest honest SANI yield right now is 0.07% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=0e033c64-fd92-44b4-a0fd-cee4a6b63151#src=seo_token) | Ethereum | 0.07% | $142.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=0e033c64-fd92-44b4-a0fd-cee4a6b63151#src=seo_token) | Ethereum | 0.07% | $143.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SANI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $142.8K in total.
+1 live pool clear this page's $100K TVL floor, $143.3K in total.
 
 ### Are these rates safe?
 

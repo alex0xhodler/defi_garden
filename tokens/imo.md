@@ -7,17 +7,17 @@ The highest honest IMO yield right now is 4.52% on uniswap-v3 (Base), among 2 po
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=a4747855-3a36-46cb-bfb6-5bb706b25879#src=seo_token) | Base | 4.52% | $393.3K |
-| [balancer-v2 →](https://www.defi.garden/?pool=2c994f4c-61f3-4576-b6e5-1fb878a1489b#src=seo_token) | Base | 0.81% | $159.8K |
+| [balancer-v2 →](https://www.defi.garden/?pool=2c994f4c-61f3-4576-b6e5-1fb878a1489b#src=seo_token) | Base | 0.81% | $159.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, IMO's lower-variability candidates are uniswap-v3 (Base), 4.52% APY, $393.3K TVL, https://www.defi.garden/?pool=a4747855-3a36-46cb-bfb6-5bb706b25879#src=seo_token; balancer-v2 (Base), 0.81% APY, $159.8K TVL, https://www.defi.garden/?pool=2c994f4c-61f3-4576-b6e5-1fb878a1489b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, IMO's lower-variability candidates are uniswap-v3 (Base), 4.52% APY, $393.3K TVL, https://www.defi.garden/?pool=a4747855-3a36-46cb-bfb6-5bb706b25879#src=seo_token; balancer-v2 (Base), 0.81% APY, $159.9K TVL, https://www.defi.garden/?pool=2c994f4c-61f3-4576-b6e5-1fb878a1489b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v3 →](https://www.defi.garden/?pool=a4747855-3a36-46cb-bfb6-5bb706b25879#src=seo_token) | Base | 4.52% | $393.3K |
-| 2 | [balancer-v2 →](https://www.defi.garden/?pool=2c994f4c-61f3-4576-b6e5-1fb878a1489b#src=seo_token) | Base | 0.81% | $159.8K |
+| 2 | [balancer-v2 →](https://www.defi.garden/?pool=2c994f4c-61f3-4576-b6e5-1fb878a1489b#src=seo_token) | Base | 0.81% | $159.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many IMO pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $553.1K in total.
+2 live pools clear this page's $100K TVL floor, $553.2K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which IMO pools have the most stable APY history?
 
-Based on APY history only, IMO's lower-variability candidates are uniswap-v3 (Base), 4.52% APY, $393.3K TVL, https://www.defi.garden/?pool=a4747855-3a36-46cb-bfb6-5bb706b25879#src=seo_token; balancer-v2 (Base), 0.81% APY, $159.8K TVL, https://www.defi.garden/?pool=2c994f4c-61f3-4576-b6e5-1fb878a1489b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, IMO's lower-variability candidates are uniswap-v3 (Base), 4.52% APY, $393.3K TVL, https://www.defi.garden/?pool=a4747855-3a36-46cb-bfb6-5bb706b25879#src=seo_token; balancer-v2 (Base), 0.81% APY, $159.9K TVL, https://www.defi.garden/?pool=2c994f4c-61f3-4576-b6e5-1fb878a1489b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

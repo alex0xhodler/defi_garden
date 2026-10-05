@@ -49,7 +49,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many LON pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $3.13M in total.
+3 live pools clear this page's $100K TVL floor, $3.14M in total.
 
 ### Are these rates safe?
 

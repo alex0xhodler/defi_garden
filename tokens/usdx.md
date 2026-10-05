@@ -9,20 +9,20 @@ The highest honest USDX yield right now is 14.95% on pendle-v2 (Ethereum), among
 | [clearpool-lending →](https://www.defi.garden/?pool=be50b874-8147-440d-b8ca-f2c202e9ed64#src=seo_token) | Flare | 3.50% | $16.78M |
 | [curve-dex →](https://www.defi.garden/?pool=8d963caf-738f-55db-b61a-c87a6e1a3667#src=seo_token) | Ethereum | 0.71% | $3.05M |
 | [pendle-v2 →](https://www.defi.garden/?pool=b0b37646-88a4-5834-b260-1a71696f5436#src=seo_token) | Ethereum | 14.95% | $2.41M |
-| [pendle-v2 →](https://www.defi.garden/?pool=84b2814f-6345-50d0-9fe2-7858653ccdd2#src=seo_token) | Ethereum | 6.98% | $2.41M |
+| [pendle-v2 →](https://www.defi.garden/?pool=84b2814f-6345-50d0-9fe2-7858653ccdd2#src=seo_token) | Ethereum | 6.99% | $2.41M |
 | [curve-dex →](https://www.defi.garden/?pool=b679f5c4-17c3-5321-b5d0-2ffb25c5d52a#src=seo_token) | Ethereum | 8.81% | $2.22M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, USDX's lower-variability candidates are pendle-v2 (Ethereum), 14.95% APY, $2.41M TVL, https://www.defi.garden/?pool=b0b37646-88a4-5834-b260-1a71696f5436#src=seo_token; curve-dex (Ethereum), 0.71% APY, $3.05M TVL, https://www.defi.garden/?pool=8d963caf-738f-55db-b61a-c87a6e1a3667#src=seo_token; curve-dex (Ethereum), 8.81% APY, $2.22M TVL, https://www.defi.garden/?pool=b679f5c4-17c3-5321-b5d0-2ffb25c5d52a#src=seo_token; pendle-v2 (Ethereum), 6.98% APY, $2.41M TVL, https://www.defi.garden/?pool=84b2814f-6345-50d0-9fe2-7858653ccdd2#src=seo_token; clearpool-lending (Flare), 3.50% APY, $16.78M TVL, https://www.defi.garden/?pool=be50b874-8147-440d-b8ca-f2c202e9ed64#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDX's lower-variability candidates are pendle-v2 (Ethereum), 14.95% APY, $2.41M TVL, https://www.defi.garden/?pool=b0b37646-88a4-5834-b260-1a71696f5436#src=seo_token; curve-dex (Ethereum), 0.71% APY, $3.05M TVL, https://www.defi.garden/?pool=8d963caf-738f-55db-b61a-c87a6e1a3667#src=seo_token; curve-dex (Ethereum), 8.81% APY, $2.22M TVL, https://www.defi.garden/?pool=b679f5c4-17c3-5321-b5d0-2ffb25c5d52a#src=seo_token; pendle-v2 (Ethereum), 6.99% APY, $2.41M TVL, https://www.defi.garden/?pool=84b2814f-6345-50d0-9fe2-7858653ccdd2#src=seo_token; clearpool-lending (Flare), 3.50% APY, $16.78M TVL, https://www.defi.garden/?pool=be50b874-8147-440d-b8ca-f2c202e9ed64#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [pendle-v2 →](https://www.defi.garden/?pool=b0b37646-88a4-5834-b260-1a71696f5436#src=seo_token) | Ethereum | 14.95% | $2.41M |
 | 2 | [curve-dex →](https://www.defi.garden/?pool=8d963caf-738f-55db-b61a-c87a6e1a3667#src=seo_token) | Ethereum | 0.71% | $3.05M |
 | 3 | [curve-dex →](https://www.defi.garden/?pool=b679f5c4-17c3-5321-b5d0-2ffb25c5d52a#src=seo_token) | Ethereum | 8.81% | $2.22M |
-| 4 | [pendle-v2 →](https://www.defi.garden/?pool=84b2814f-6345-50d0-9fe2-7858653ccdd2#src=seo_token) | Ethereum | 6.98% | $2.41M |
+| 4 | [pendle-v2 →](https://www.defi.garden/?pool=84b2814f-6345-50d0-9fe2-7858653ccdd2#src=seo_token) | Ethereum | 6.99% | $2.41M |
 | 5 | [clearpool-lending →](https://www.defi.garden/?pool=be50b874-8147-440d-b8ca-f2c202e9ed64#src=seo_token) | Flare | 3.50% | $16.78M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -38,9 +38,9 @@ USDX shows up in 5 pools here, with rates from 0.71% to 14.95% APY across 2 chai
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | clearpool-lending | 3.50% | 3.50% | Base rate |
-| curve-dex | 0.71% | 1.18% | Base rate |
+| curve-dex | 0.71% | 1.17% | Base rate |
 | pendle-v2 | 14.95% | 14.76% | Base rate |
-| pendle-v2 | 6.98% | 8.60% | 5.29% incentives |
+| pendle-v2 | 6.99% | 8.60% | 5.38% incentives |
 | curve-dex | 8.81% | 11.00% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -53,7 +53,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many USDX pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $26.88M in total.
+5 live pools clear this page's $100K TVL floor, $26.87M in total.
 
 ### Are these rates safe?
 
@@ -61,7 +61,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USDX pools have the most stable APY history?
 
-Based on APY history only, USDX's lower-variability candidates are pendle-v2 (Ethereum), 14.95% APY, $2.41M TVL, https://www.defi.garden/?pool=b0b37646-88a4-5834-b260-1a71696f5436#src=seo_token; curve-dex (Ethereum), 0.71% APY, $3.05M TVL, https://www.defi.garden/?pool=8d963caf-738f-55db-b61a-c87a6e1a3667#src=seo_token; curve-dex (Ethereum), 8.81% APY, $2.22M TVL, https://www.defi.garden/?pool=b679f5c4-17c3-5321-b5d0-2ffb25c5d52a#src=seo_token; pendle-v2 (Ethereum), 6.98% APY, $2.41M TVL, https://www.defi.garden/?pool=84b2814f-6345-50d0-9fe2-7858653ccdd2#src=seo_token; clearpool-lending (Flare), 3.50% APY, $16.78M TVL, https://www.defi.garden/?pool=be50b874-8147-440d-b8ca-f2c202e9ed64#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDX's lower-variability candidates are pendle-v2 (Ethereum), 14.95% APY, $2.41M TVL, https://www.defi.garden/?pool=b0b37646-88a4-5834-b260-1a71696f5436#src=seo_token; curve-dex (Ethereum), 0.71% APY, $3.05M TVL, https://www.defi.garden/?pool=8d963caf-738f-55db-b61a-c87a6e1a3667#src=seo_token; curve-dex (Ethereum), 8.81% APY, $2.22M TVL, https://www.defi.garden/?pool=b679f5c4-17c3-5321-b5d0-2ffb25c5d52a#src=seo_token; pendle-v2 (Ethereum), 6.99% APY, $2.41M TVL, https://www.defi.garden/?pool=84b2814f-6345-50d0-9fe2-7858653ccdd2#src=seo_token; clearpool-lending (Flare), 3.50% APY, $16.78M TVL, https://www.defi.garden/?pool=be50b874-8147-440d-b8ca-f2c202e9ed64#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

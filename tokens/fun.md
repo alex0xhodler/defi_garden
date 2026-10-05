@@ -8,23 +8,23 @@ The highest honest FUN yield right now is 0.60% on quickswap-dex (Polygon), amon
 |---|---|---|---|
 | [quickswap-dex →](https://www.defi.garden/?pool=e21e94a1-1ad0-4b9c-965b-7d4efe95de76#src=seo_token) | Polygon | 0.60% | $4.75M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=daa92b52-4c90-5323-993f-eb2df787fa0e#src=seo_token) | Ethereum | 0.24% | $289.2K |
-| [raydium-amm →](https://www.defi.garden/?pool=eadfa983-1111-467f-9d80-22c6a275f6c8#src=seo_token) | Solana | 21.51% | $124.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=eadfa983-1111-467f-9d80-22c6a275f6c8#src=seo_token) | Solana | 21.14% | $124.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, FUN's lower-variability candidates are quickswap-dex (Polygon), 0.60% APY, $4.75M TVL, https://www.defi.garden/?pool=e21e94a1-1ad0-4b9c-965b-7d4efe95de76#src=seo_token; raydium-amm (Solana), 21.51% APY, $124.1K TVL, https://www.defi.garden/?pool=eadfa983-1111-467f-9d80-22c6a275f6c8#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FUN's lower-variability candidates are quickswap-dex (Polygon), 0.60% APY, $4.75M TVL, https://www.defi.garden/?pool=e21e94a1-1ad0-4b9c-965b-7d4efe95de76#src=seo_token; raydium-amm (Solana), 21.14% APY, $124.4K TVL, https://www.defi.garden/?pool=eadfa983-1111-467f-9d80-22c6a275f6c8#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [quickswap-dex →](https://www.defi.garden/?pool=e21e94a1-1ad0-4b9c-965b-7d4efe95de76#src=seo_token) | Polygon | 0.60% | $4.75M |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=eadfa983-1111-467f-9d80-22c6a275f6c8#src=seo_token) | Solana | 21.51% | $124.1K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=eadfa983-1111-467f-9d80-22c6a275f6c8#src=seo_token) | Solana | 21.14% | $124.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-FUN shows up in 3 pools here, with rates from 0.24% to 21.51% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+FUN shows up in 3 pools here, with rates from 0.24% to 21.14% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.54% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -36,7 +36,7 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 |---|---|---|---|
 | quickswap-dex | 0.60% | 0.54% | Base rate |
 | uniswap-v4 | 0.24% | 0.41% | Base rate |
-| raydium-amm | 21.51% | 13.05% | Base rate |
+| raydium-amm | 21.14% | 13.12% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -56,7 +56,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which FUN pools have the most stable APY history?
 
-Based on APY history only, FUN's lower-variability candidates are quickswap-dex (Polygon), 0.60% APY, $4.75M TVL, https://www.defi.garden/?pool=e21e94a1-1ad0-4b9c-965b-7d4efe95de76#src=seo_token; raydium-amm (Solana), 21.51% APY, $124.1K TVL, https://www.defi.garden/?pool=eadfa983-1111-467f-9d80-22c6a275f6c8#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FUN's lower-variability candidates are quickswap-dex (Polygon), 0.60% APY, $4.75M TVL, https://www.defi.garden/?pool=e21e94a1-1ad0-4b9c-965b-7d4efe95de76#src=seo_token; raydium-amm (Solana), 21.14% APY, $124.4K TVL, https://www.defi.garden/?pool=eadfa983-1111-467f-9d80-22c6a275f6c8#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

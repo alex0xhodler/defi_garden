@@ -7,7 +7,7 @@ The highest honest SEND yield right now is 0.28% on aerodrome-v1 (Base), among 2
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [aerodrome-v1 →](https://www.defi.garden/?pool=7cb2cd44-4ed4-4a70-bc91-4f8a46761d34#src=seo_token) | Base | 0.28% | $1.26M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=33357fad-77e5-58d4-b92c-03a7159b87f8#src=seo_token) | Ethereum | 319.93% | $631.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=33357fad-77e5-58d4-b92c-03a7159b87f8#src=seo_token) | Ethereum | 310.07% | $639.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-SEND shows up in 2 pools here, with rates from 0.28% to 319.93% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+SEND shows up in 2 pools here, with rates from 0.28% to 310.07% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 488.68% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 488.07% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -29,7 +29,7 @@ SEND shows up in 2 pools here, with rates from 0.28% to 319.93% APY across 2 cha
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | aerodrome-v1 | 0.28% | 0.40% | 100.00% incentives |
-| uniswap-v4 | 319.93% | 976.97% | Base rate |
+| uniswap-v4 | 310.07% | 975.74% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -41,7 +41,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SEND pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.89M in total.
+2 live pools clear this page's $100K TVL floor, $1.9M in total.
 
 ### Are these rates safe?
 

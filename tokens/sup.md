@@ -6,7 +6,7 @@ The highest honest SUP yield right now is 19.24% on superform (Base), among 1 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [superform →](https://www.defi.garden/?pool=53b78982-b991-4276-9208-60a1749587aa#src=seo_token) | Base | 19.24% | $891.5K |
+| [superform →](https://www.defi.garden/?pool=53b78982-b991-4276-9208-60a1749587aa#src=seo_token) | Base | 19.24% | $888.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SUP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $891.5K in total.
+1 live pool clear this page's $100K TVL floor, $888.9K in total.
 
 ### Are these rates safe?
 

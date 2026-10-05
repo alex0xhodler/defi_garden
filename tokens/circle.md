@@ -6,7 +6,7 @@ The highest honest CIRCLE yield right now is 2.02% on uniswap-v3 (Base), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=204fc6d4-97cd-414f-905f-f3566ed7efe8#src=seo_token) | Base | 2.02% | $263.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=204fc6d4-97cd-414f-905f-f3566ed7efe8#src=seo_token) | Base | 2.02% | $264.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CIRCLE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $263.6K in total.
+1 live pool clear this page's $100K TVL floor, $264.2K in total.
 
 ### Are these rates safe?
 

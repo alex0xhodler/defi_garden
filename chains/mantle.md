@@ -5,7 +5,7 @@ The highest honest Mantle yield right now is 4.45% on aave-v3 (Mantle), among 27
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
 | USDT0 | [aave-v3 →](https://www.defi.garden/?pool=47da0cdd-7b1d-4927-9545-20b53b73afa8#src=seo_chain) | 4.45% | $16.73M |
-| USDT0-WETH | [fluxion-network →](https://www.defi.garden/?pool=70f8fccf-080b-5d78-8a67-0e87a0a578a5#src=seo_chain) | 1.13% | $5.18M |
+| USDT0-WETH | [fluxion-network →](https://www.defi.garden/?pool=70f8fccf-080b-5d78-8a67-0e87a0a578a5#src=seo_chain) | 1.73% | $5.19M |
 | GHO | [aave-v3 →](https://www.defi.garden/?pool=125974d5-ad17-4a3a-b967-ebbf721fca22#src=seo_chain) | 1.52% | $796.6K |
 | USDT0-KII | [fluxion-network →](https://www.defi.garden/?pool=269c72aa-ab12-57fd-a84d-79471faa170c#src=seo_chain) | 0.42% | $582.6K |
 | USDT0-BSB | [fluxion-network →](https://www.defi.garden/?pool=35f2103d-231b-443b-952e-d2cd118d8f29#src=seo_chain) | 0.02% | $535.4K |
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Mantle pools clear the TVL floor?
 
-27 live pools clear this page's $100K TVL floor, $202.04M in total.
+27 live pools clear this page's $100K TVL floor, $202.09M in total.
 
 ### Are these rates safe?
 

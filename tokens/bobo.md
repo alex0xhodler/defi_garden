@@ -6,18 +6,18 @@ The highest honest BOBO yield right now is 0.29% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=ded20b67-3ce3-4ab8-ac4c-235b501a4ded#src=seo_token) | Ethereum | 0.29% | $214.4K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=8588a1d9-f3b7-4e92-9985-72a454116b28#src=seo_token) | Ethereum | 0.12% | $114.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=ded20b67-3ce3-4ab8-ac4c-235b501a4ded#src=seo_token) | Ethereum | 0.29% | $215.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=8588a1d9-f3b7-4e92-9985-72a454116b28#src=seo_token) | Ethereum | 0.12% | $114.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, BOBO's lower-variability candidates are uniswap-v2 (Ethereum), 0.29% APY, $214.4K TVL, https://www.defi.garden/?pool=ded20b67-3ce3-4ab8-ac4c-235b501a4ded#src=seo_token; uniswap-v2 (Ethereum), 0.12% APY, $114.4K TVL, https://www.defi.garden/?pool=8588a1d9-f3b7-4e92-9985-72a454116b28#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BOBO's lower-variability candidates are uniswap-v2 (Ethereum), 0.29% APY, $215.8K TVL, https://www.defi.garden/?pool=ded20b67-3ce3-4ab8-ac4c-235b501a4ded#src=seo_token; uniswap-v2 (Ethereum), 0.12% APY, $114.8K TVL, https://www.defi.garden/?pool=8588a1d9-f3b7-4e92-9985-72a454116b28#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=ded20b67-3ce3-4ab8-ac4c-235b501a4ded#src=seo_token) | Ethereum | 0.29% | $214.4K |
-| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=8588a1d9-f3b7-4e92-9985-72a454116b28#src=seo_token) | Ethereum | 0.12% | $114.4K |
+| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=ded20b67-3ce3-4ab8-ac4c-235b501a4ded#src=seo_token) | Ethereum | 0.29% | $215.8K |
+| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=8588a1d9-f3b7-4e92-9985-72a454116b28#src=seo_token) | Ethereum | 0.12% | $114.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many BOBO pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $328.9K in total.
+2 live pools clear this page's $100K TVL floor, $330.6K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BOBO pools have the most stable APY history?
 
-Based on APY history only, BOBO's lower-variability candidates are uniswap-v2 (Ethereum), 0.29% APY, $214.4K TVL, https://www.defi.garden/?pool=ded20b67-3ce3-4ab8-ac4c-235b501a4ded#src=seo_token; uniswap-v2 (Ethereum), 0.12% APY, $114.4K TVL, https://www.defi.garden/?pool=8588a1d9-f3b7-4e92-9985-72a454116b28#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BOBO's lower-variability candidates are uniswap-v2 (Ethereum), 0.29% APY, $215.8K TVL, https://www.defi.garden/?pool=ded20b67-3ce3-4ab8-ac4c-235b501a4ded#src=seo_token; uniswap-v2 (Ethereum), 0.12% APY, $114.8K TVL, https://www.defi.garden/?pool=8588a1d9-f3b7-4e92-9985-72a454116b28#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

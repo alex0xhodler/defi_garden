@@ -6,7 +6,7 @@ The highest honest DOG yield right now is 0.71% on aerodrome-v1 (Base), among 5 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=18337fa4-0cfb-4726-b34a-3d9b00e3db72#src=seo_token) | Base | 0.71% | $113.7K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=18337fa4-0cfb-4726-b34a-3d9b00e3db72#src=seo_token) | Base | 0.71% | $114K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many DOG pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $2.1M in total.
+5 live pools clear this page's $100K TVL floor, $2.11M in total.
 
 ### Are these rates safe?
 

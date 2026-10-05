@@ -6,18 +6,18 @@ The highest honest PXETH yield right now is 5.73% on velodrome-v2 (OP Mainnet), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [velodrome-v2 →](https://www.defi.garden/?pool=c4eebef6-8613-4140-9ee9-3a54272c229d#src=seo_token) | OP Mainnet | 5.73% | $195K |
-| [curve-dex →](https://www.defi.garden/?pool=b640d150-56b8-4bfa-b39b-460d1f9d3229#src=seo_token) | Ethereum | 1.19% | $102.2K |
+| [velodrome-v2 →](https://www.defi.garden/?pool=c4eebef6-8613-4140-9ee9-3a54272c229d#src=seo_token) | OP Mainnet | 5.73% | $196.7K |
+| [curve-dex →](https://www.defi.garden/?pool=b640d150-56b8-4bfa-b39b-460d1f9d3229#src=seo_token) | Ethereum | 1.19% | $102.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, PXETH's lower-variability candidates are velodrome-v2 (OP Mainnet), 5.73% APY, $195K TVL, https://www.defi.garden/?pool=c4eebef6-8613-4140-9ee9-3a54272c229d#src=seo_token; curve-dex (Ethereum), 1.19% APY, $102.2K TVL, https://www.defi.garden/?pool=b640d150-56b8-4bfa-b39b-460d1f9d3229#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PXETH's lower-variability candidates are velodrome-v2 (OP Mainnet), 5.73% APY, $196.7K TVL, https://www.defi.garden/?pool=c4eebef6-8613-4140-9ee9-3a54272c229d#src=seo_token; curve-dex (Ethereum), 1.19% APY, $102.4K TVL, https://www.defi.garden/?pool=b640d150-56b8-4bfa-b39b-460d1f9d3229#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [velodrome-v2 →](https://www.defi.garden/?pool=c4eebef6-8613-4140-9ee9-3a54272c229d#src=seo_token) | OP Mainnet | 5.73% | $195K |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=b640d150-56b8-4bfa-b39b-460d1f9d3229#src=seo_token) | Ethereum | 1.19% | $102.2K |
+| 1 | [velodrome-v2 →](https://www.defi.garden/?pool=c4eebef6-8613-4140-9ee9-3a54272c229d#src=seo_token) | OP Mainnet | 5.73% | $196.7K |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=b640d150-56b8-4bfa-b39b-460d1f9d3229#src=seo_token) | Ethereum | 1.19% | $102.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many PXETH pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $297.3K in total.
+2 live pools clear this page's $100K TVL floor, $299.1K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which PXETH pools have the most stable APY history?
 
-Based on APY history only, PXETH's lower-variability candidates are velodrome-v2 (OP Mainnet), 5.73% APY, $195K TVL, https://www.defi.garden/?pool=c4eebef6-8613-4140-9ee9-3a54272c229d#src=seo_token; curve-dex (Ethereum), 1.19% APY, $102.2K TVL, https://www.defi.garden/?pool=b640d150-56b8-4bfa-b39b-460d1f9d3229#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PXETH's lower-variability candidates are velodrome-v2 (OP Mainnet), 5.73% APY, $196.7K TVL, https://www.defi.garden/?pool=c4eebef6-8613-4140-9ee9-3a54272c229d#src=seo_token; curve-dex (Ethereum), 1.19% APY, $102.4K TVL, https://www.defi.garden/?pool=b640d150-56b8-4bfa-b39b-460d1f9d3229#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

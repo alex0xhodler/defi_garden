@@ -6,7 +6,7 @@ The highest honest ETH2X yield right now is 0.30% on uniswap-v3 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=871f52f5-dab9-4a8d-af2a-a0e55929e163#src=seo_token) | Ethereum | 0.30% | $429.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=871f52f5-dab9-4a8d-af2a-a0e55929e163#src=seo_token) | Ethereum | 0.30% | $431.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ETH2X pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $429.5K in total.
+1 live pool clear this page's $100K TVL floor, $431.6K in total.
 
 ### Are these rates safe?
 

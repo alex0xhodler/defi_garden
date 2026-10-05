@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest RCETH yield right now is 4.14% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RCETH yield right now is 4.04% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=74a07b39-e65d-449a-877d-5c8cb76a414a#src=seo_token) | Ethereum | 4.14% | $894.6K |
+| [lagoon →](https://www.defi.garden/?pool=74a07b39-e65d-449a-877d-5c8cb76a414a#src=seo_token) | Ethereum | 4.04% | $899.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RCETH yield today?
 
-4.14% APY on lagoon (Ethereum), based on live DefiLlama data.
+4.04% APY on lagoon (Ethereum), based on live DefiLlama data.
 
 ### How many RCETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $894.6K in total.
+1 live pool clear this page's $100K TVL floor, $899.2K in total.
 
 ### Are these rates safe?
 

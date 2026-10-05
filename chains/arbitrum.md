@@ -1,15 +1,15 @@
 # Arbitrum DeFi Yields
 
-The highest honest Arbitrum yield right now is 11.00% on pendle-v2 (Arbitrum), among 447 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Arbitrum yield right now is 11.00% on pendle-v2 (Arbitrum), among 448 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| SUSDAI | [usd-ai →](https://www.defi.garden/pools/usd-ai-susdai-arbitrum) | 6.97% | $535.73M |
-| SUSDS | [sky-lending →](https://www.defi.garden/pools/sky-lending-susds-arbitrum) | 3.60% | $363.51M |
-| USDS | [spark-savings →](https://www.defi.garden/pools/spark-savings-usds-arbitrum) | 3.60% | $363.51M |
-| WBTC | [aave-v3 →](https://www.defi.garden/pools/aave-v3-wbtc-arbitrum) | 0.02% | $244.99M |
-| WBTC.B-USDC | [gmx-v2-perps →](https://www.defi.garden/?pool=5b8c0691-b9ff-4d82-97e4-19a1247e6dbf#src=seo_chain) | 1.81% | $59.6M |
-| USDC | [fluid-lending →](https://www.defi.garden/?pool=4c45cc9e-e1a4-43c9-8a3d-687d96abb07c#src=seo_chain) | 5.67% | $56.15M |
+| SUSDAI | [usd-ai →](https://www.defi.garden/pools/usd-ai-susdai-arbitrum) | 6.97% | $535.72M |
+| SUSDS | [sky-lending →](https://www.defi.garden/pools/sky-lending-susds-arbitrum) | 3.60% | $363.53M |
+| USDS | [spark-savings →](https://www.defi.garden/pools/spark-savings-usds-arbitrum) | 3.60% | $363.53M |
+| WBTC | [aave-v3 →](https://www.defi.garden/pools/aave-v3-wbtc-arbitrum) | 0.02% | $245.33M |
+| WBTC.B-USDC | [gmx-v2-perps →](https://www.defi.garden/?pool=5b8c0691-b9ff-4d82-97e4-19a1247e6dbf#src=seo_chain) | 1.84% | $59.76M |
+| USDC | [fluid-lending →](https://www.defi.garden/?pool=4c45cc9e-e1a4-43c9-8a3d-687d96abb07c#src=seo_chain) | 5.66% | $56.13M |
 | USDAI | [pendle-v2 →](https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c#src=seo_chain) | 2.78% | $50.36M |
 | USDAI | [pendle-v2 →](https://www.defi.garden/?pool=2785c8d0-348b-4e8f-904e-4b02819993b9#src=seo_chain) | 11.00% | $50.36M |
 
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Arbitrum pools clear the TVL floor?
 
-447 live pools clear this page's $100K TVL floor, $2.8B in total.
+448 live pools clear this page's $100K TVL floor, $2.8B in total.
 
 ### Are these rates safe?
 

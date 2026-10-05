@@ -6,7 +6,7 @@ The highest honest CC yield right now is 0.13% on uniswap-v4 (Base), among 1 poo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=4596bc8d-5252-4ffa-9948-1ff245c37f93#src=seo_token) | Base | 0.13% | $200.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=4596bc8d-5252-4ffa-9948-1ff245c37f93#src=seo_token) | Base | 0.13% | $201.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $200.3K in total.
+1 live pool clear this page's $100K TVL floor, $201.6K in total.
 
 ### Are these rates safe?
 

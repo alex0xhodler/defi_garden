@@ -6,7 +6,7 @@ The highest honest HONK yield right now is 0.81% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=22d93a03-aa44-4d34-9feb-472f8a6e98c6#src=seo_token) | Ethereum | 0.81% | $104.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=22d93a03-aa44-4d34-9feb-472f8a6e98c6#src=seo_token) | Ethereum | 0.81% | $105.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many HONK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $104.7K in total.
+1 live pool clear this page's $100K TVL floor, $105.1K in total.
 
 ### Are these rates safe?
 

@@ -6,7 +6,7 @@ The highest honest KNDX yield right now is 0.81% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=b2b1e5e2-0623-4cc6-9cc0-f3b35679c5bc#src=seo_token) | Ethereum | 0.81% | $158.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=b2b1e5e2-0623-4cc6-9cc0-f3b35679c5bc#src=seo_token) | Ethereum | 0.81% | $159K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many KNDX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $158.5K in total.
+1 live pool clear this page's $100K TVL floor, $159K in total.
 
 ### Are these rates safe?
 

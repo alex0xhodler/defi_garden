@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest MSFTC yield right now is 145.71% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MSFTC yield right now is 513.99% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=95ee4f0c-a9de-5cf7-a4b6-81adab1a20d5#src=seo_token) | Base | 145.71% | $1.06M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=95ee4f0c-a9de-5cf7-a4b6-81adab1a20d5#src=seo_token) | Base | 513.99% | $988.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MSFTC yield today?
 
-145.71% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+513.99% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many MSFTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.06M in total.
+1 live pool clear this page's $100K TVL floor, $988.9K in total.
 
 ### Are these rates safe?
 

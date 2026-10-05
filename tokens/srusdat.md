@@ -38,7 +38,7 @@ All 5 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | strata-markets | 8.11% | 8.11% | Base rate |
-| pendle-v2 | 10.04% | 10.43% | Base rate |
+| pendle-v2 | 10.04% | 10.42% | Base rate |
 | pendle-v2 | 10.77% | 10.33% | Base rate |
 | pendle-v2 | 9.61% | 9.61% | Base rate |
 | pendle-v2 | 10.73% | 9.62% | Base rate |

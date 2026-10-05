@@ -6,7 +6,7 @@ The highest honest UDOGE yield right now is 17.30% on uniswap-v3 (Base), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=0b693573-8798-4515-b525-a9d13a732eff#src=seo_token) | Base | 17.30% | $287.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0b693573-8798-4515-b525-a9d13a732eff#src=seo_token) | Base | 17.30% | $288.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many UDOGE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $287.1K in total.
+1 live pool clear this page's $100K TVL floor, $288.1K in total.
 
 ### Are these rates safe?
 

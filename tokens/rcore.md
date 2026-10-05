@@ -6,7 +6,7 @@ The highest honest RCORE yield right now is 0.01% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=51838d05-707c-43d8-8815-dcdc535c991a#src=seo_token) | Ethereum | 0.01% | $225.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=51838d05-707c-43d8-8815-dcdc535c991a#src=seo_token) | Ethereum | 0.01% | $226K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many RCORE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $225.3K in total.
+1 live pool clear this page's $100K TVL floor, $226K in total.
 
 ### Are these rates safe?
 

@@ -9,7 +9,7 @@ The highest honest RLUSD yield right now is 4.95% on aave-v3 (Ethereum), among 1
 | [aave-v3 →](https://www.defi.garden/?pool=98d07333-f5e4-4a48-8061-cfb4b73ccf79#src=seo_token) | Ethereum | 4.95% | $68.24M |
 | [curve-dex →](https://www.defi.garden/?pool=e91e23af-9099-45d9-8ba5-ea5b4638e453#src=seo_token) | Ethereum | 4.05% | $60.6M |
 | [termmax →](https://www.defi.garden/?pool=48025068-1498-40d6-b6c8-c2f0536e325c#src=seo_token) | Ethereum | 0.03% | $20.66M |
-| [convex-finance →](https://www.defi.garden/?pool=d826a92b-2bd2-4fae-8483-db1ef8888aee#src=seo_token) | Ethereum | 0.33% | $14.5M |
+| [convex-finance →](https://www.defi.garden/?pool=d826a92b-2bd2-4fae-8483-db1ef8888aee#src=seo_token) | Ethereum | 0.33% | $14.49M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=bb78714b-5da3-5298-8009-da2451208e67#src=seo_token) | Ethereum | 0.02% | $3.05M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=4df8be17-df55-47cf-b72b-6ef844f62200#src=seo_token) | Ethereum | 0.04% | $2.47M |
 | [sparklend →](https://www.defi.garden/?pool=80e30152-4021-5b61-ad4c-000884b62abc#src=seo_token) | Ethereum | 2.70% | $2.09M |
@@ -18,7 +18,7 @@ The highest honest RLUSD yield right now is 4.95% on aave-v3 (Ethereum), among 1
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, RLUSD's lower-variability candidates are termmax (Ethereum), 0.03% APY, $20.66M TVL, https://www.defi.garden/?pool=48025068-1498-40d6-b6c8-c2f0536e325c#src=seo_token; aave-v3 (Ethereum), 2.61% APY, $965.2K TVL, https://www.defi.garden/?pool=85fc6934-c94d-4ebe-9c60-66beb363669f#src=seo_token; aave-v3 (Ethereum), 4.95% APY, $68.24M TVL, https://www.defi.garden/?pool=98d07333-f5e4-4a48-8061-cfb4b73ccf79#src=seo_token; curve-dex (Ethereum), 4.05% APY, $60.6M TVL, https://www.defi.garden/?pool=e91e23af-9099-45d9-8ba5-ea5b4638e453#src=seo_token; convex-finance (Ethereum), 0.33% APY, $14.5M TVL, https://www.defi.garden/?pool=d826a92b-2bd2-4fae-8483-db1ef8888aee#src=seo_token; uniswap-v3 (Ethereum), 0.02% APY, $3.05M TVL, https://www.defi.garden/?pool=bb78714b-5da3-5298-8009-da2451208e67#src=seo_token; uniswap-v3 (Ethereum), 0.04% APY, $2.47M TVL, https://www.defi.garden/?pool=4df8be17-df55-47cf-b72b-6ef844f62200#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RLUSD's lower-variability candidates are termmax (Ethereum), 0.03% APY, $20.66M TVL, https://www.defi.garden/?pool=48025068-1498-40d6-b6c8-c2f0536e325c#src=seo_token; aave-v3 (Ethereum), 2.61% APY, $965.2K TVL, https://www.defi.garden/?pool=85fc6934-c94d-4ebe-9c60-66beb363669f#src=seo_token; aave-v3 (Ethereum), 4.95% APY, $68.24M TVL, https://www.defi.garden/?pool=98d07333-f5e4-4a48-8061-cfb4b73ccf79#src=seo_token; curve-dex (Ethereum), 4.05% APY, $60.6M TVL, https://www.defi.garden/?pool=e91e23af-9099-45d9-8ba5-ea5b4638e453#src=seo_token; convex-finance (Ethereum), 0.33% APY, $14.49M TVL, https://www.defi.garden/?pool=d826a92b-2bd2-4fae-8483-db1ef8888aee#src=seo_token; uniswap-v3 (Ethereum), 0.02% APY, $3.05M TVL, https://www.defi.garden/?pool=bb78714b-5da3-5298-8009-da2451208e67#src=seo_token; uniswap-v3 (Ethereum), 0.04% APY, $2.47M TVL, https://www.defi.garden/?pool=4df8be17-df55-47cf-b72b-6ef844f62200#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
@@ -26,7 +26,7 @@ Based on APY history only, RLUSD's lower-variability candidates are termmax (Eth
 | 2 | [aave-v3 →](https://www.defi.garden/?pool=85fc6934-c94d-4ebe-9c60-66beb363669f#src=seo_token) | Ethereum | 2.61% | $965.2K |
 | 3 | [aave-v3 →](https://www.defi.garden/?pool=98d07333-f5e4-4a48-8061-cfb4b73ccf79#src=seo_token) | Ethereum | 4.95% | $68.24M |
 | 4 | [curve-dex →](https://www.defi.garden/?pool=e91e23af-9099-45d9-8ba5-ea5b4638e453#src=seo_token) | Ethereum | 4.05% | $60.6M |
-| 5 | [convex-finance →](https://www.defi.garden/?pool=d826a92b-2bd2-4fae-8483-db1ef8888aee#src=seo_token) | Ethereum | 0.33% | $14.5M |
+| 5 | [convex-finance →](https://www.defi.garden/?pool=d826a92b-2bd2-4fae-8483-db1ef8888aee#src=seo_token) | Ethereum | 0.33% | $14.49M |
 | 6 | [uniswap-v3 →](https://www.defi.garden/?pool=bb78714b-5da3-5298-8009-da2451208e67#src=seo_token) | Ethereum | 0.02% | $3.05M |
 | 7 | [uniswap-v3 →](https://www.defi.garden/?pool=4df8be17-df55-47cf-b72b-6ef844f62200#src=seo_token) | Ethereum | 0.04% | $2.47M |
 
@@ -63,7 +63,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many RLUSD pools clear the TVL floor?
 
-10 live pools clear this page's $100K TVL floor, $195.15M in total.
+10 live pools clear this page's $100K TVL floor, $195.16M in total.
 
 ### Are these rates safe?
 
@@ -71,7 +71,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which RLUSD pools have the most stable APY history?
 
-Based on APY history only, RLUSD's lower-variability candidates are termmax (Ethereum), 0.03% APY, $20.66M TVL, https://www.defi.garden/?pool=48025068-1498-40d6-b6c8-c2f0536e325c#src=seo_token; aave-v3 (Ethereum), 2.61% APY, $965.2K TVL, https://www.defi.garden/?pool=85fc6934-c94d-4ebe-9c60-66beb363669f#src=seo_token; aave-v3 (Ethereum), 4.95% APY, $68.24M TVL, https://www.defi.garden/?pool=98d07333-f5e4-4a48-8061-cfb4b73ccf79#src=seo_token; curve-dex (Ethereum), 4.05% APY, $60.6M TVL, https://www.defi.garden/?pool=e91e23af-9099-45d9-8ba5-ea5b4638e453#src=seo_token; convex-finance (Ethereum), 0.33% APY, $14.5M TVL, https://www.defi.garden/?pool=d826a92b-2bd2-4fae-8483-db1ef8888aee#src=seo_token; uniswap-v3 (Ethereum), 0.02% APY, $3.05M TVL, https://www.defi.garden/?pool=bb78714b-5da3-5298-8009-da2451208e67#src=seo_token; uniswap-v3 (Ethereum), 0.04% APY, $2.47M TVL, https://www.defi.garden/?pool=4df8be17-df55-47cf-b72b-6ef844f62200#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RLUSD's lower-variability candidates are termmax (Ethereum), 0.03% APY, $20.66M TVL, https://www.defi.garden/?pool=48025068-1498-40d6-b6c8-c2f0536e325c#src=seo_token; aave-v3 (Ethereum), 2.61% APY, $965.2K TVL, https://www.defi.garden/?pool=85fc6934-c94d-4ebe-9c60-66beb363669f#src=seo_token; aave-v3 (Ethereum), 4.95% APY, $68.24M TVL, https://www.defi.garden/?pool=98d07333-f5e4-4a48-8061-cfb4b73ccf79#src=seo_token; curve-dex (Ethereum), 4.05% APY, $60.6M TVL, https://www.defi.garden/?pool=e91e23af-9099-45d9-8ba5-ea5b4638e453#src=seo_token; convex-finance (Ethereum), 0.33% APY, $14.49M TVL, https://www.defi.garden/?pool=d826a92b-2bd2-4fae-8483-db1ef8888aee#src=seo_token; uniswap-v3 (Ethereum), 0.02% APY, $3.05M TVL, https://www.defi.garden/?pool=bb78714b-5da3-5298-8009-da2451208e67#src=seo_token; uniswap-v3 (Ethereum), 0.04% APY, $2.47M TVL, https://www.defi.garden/?pool=4df8be17-df55-47cf-b72b-6ef844f62200#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

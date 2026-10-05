@@ -1,37 +1,37 @@
-# OBTC DeFi Yields
+# GYEN DeFi Yields
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest OBTC yield right now is 0.01% on curve-dex (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GYEN yield right now is 0.01% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=497883a9-d74e-4c98-b81a-0dc05706d927#src=seo_token) | Ethereum | 0.01% | $129.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=426ad4ff-4308-5c7c-94b5-da847e162d61#src=seo_token) | Ethereum | 0.01% | $999.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-There is not enough qualifying APY history to rank OBTC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank GYEN pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## Frequently asked questions
 
-### What's the highest OBTC yield today?
+### What's the highest GYEN yield today?
 
-0.01% APY on curve-dex (Ethereum), based on live DefiLlama data.
+0.01% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
-### How many OBTC pools clear the TVL floor?
+### How many GYEN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $129.2K in total.
+1 live pool clear this page's $100K TVL floor, $999.9K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which OBTC pools have the most stable APY history?
+### Which GYEN pools have the most stable APY history?
 
-There is not enough qualifying APY history to rank OBTC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank GYEN pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

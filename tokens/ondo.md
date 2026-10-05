@@ -6,22 +6,22 @@ The highest honest ONDO yield right now is 384.31% on raydium-amm (Solana), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=67958842-74c0-4d3e-b113-5e6cf83893b6#src=seo_token) | Ethereum | 78.46% | $1.68M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=e6d3edc1-aaa5-4ab0-baf8-63b553a8139e#src=seo_token) | Ethereum | 30.20% | $479K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=f7a7c55d-5fea-4cde-933d-e181e0632c3e#src=seo_token) | Ethereum | 3.73% | $257.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=67958842-74c0-4d3e-b113-5e6cf83893b6#src=seo_token) | Ethereum | 78.67% | $1.68M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=e6d3edc1-aaa5-4ab0-baf8-63b553a8139e#src=seo_token) | Ethereum | 30.01% | $481.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f7a7c55d-5fea-4cde-933d-e181e0632c3e#src=seo_token) | Ethereum | 3.73% | $258.3K |
 | [raydium-amm →](https://www.defi.garden/?pool=15a4f99c-562c-5e92-b004-feea0be68178#src=seo_token) | Solana | 384.31% | $222.7K |
 | [raydium-amm →](https://www.defi.garden/?pool=898829aa-8d1c-5b1b-a04c-e4868ee0ad14#src=seo_token) | Solana | 33.96% | $126.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ONDO's lower-variability candidates are uniswap-v3 (Ethereum), 78.46% APY, $1.68M TVL, https://www.defi.garden/?pool=67958842-74c0-4d3e-b113-5e6cf83893b6#src=seo_token; uniswap-v4 (Ethereum), 30.20% APY, $479K TVL, https://www.defi.garden/?pool=e6d3edc1-aaa5-4ab0-baf8-63b553a8139e#src=seo_token; uniswap-v4 (Ethereum), 3.73% APY, $257.7K TVL, https://www.defi.garden/?pool=f7a7c55d-5fea-4cde-933d-e181e0632c3e#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ONDO's lower-variability candidates are uniswap-v3 (Ethereum), 78.67% APY, $1.68M TVL, https://www.defi.garden/?pool=67958842-74c0-4d3e-b113-5e6cf83893b6#src=seo_token; uniswap-v4 (Ethereum), 30.01% APY, $481.7K TVL, https://www.defi.garden/?pool=e6d3edc1-aaa5-4ab0-baf8-63b553a8139e#src=seo_token; uniswap-v4 (Ethereum), 3.73% APY, $258.3K TVL, https://www.defi.garden/?pool=f7a7c55d-5fea-4cde-933d-e181e0632c3e#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=67958842-74c0-4d3e-b113-5e6cf83893b6#src=seo_token) | Ethereum | 78.46% | $1.68M |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=e6d3edc1-aaa5-4ab0-baf8-63b553a8139e#src=seo_token) | Ethereum | 30.20% | $479K |
-| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=f7a7c55d-5fea-4cde-933d-e181e0632c3e#src=seo_token) | Ethereum | 3.73% | $257.7K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=67958842-74c0-4d3e-b113-5e6cf83893b6#src=seo_token) | Ethereum | 78.67% | $1.68M |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=e6d3edc1-aaa5-4ab0-baf8-63b553a8139e#src=seo_token) | Ethereum | 30.01% | $481.7K |
+| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=f7a7c55d-5fea-4cde-933d-e181e0632c3e#src=seo_token) | Ethereum | 3.73% | $258.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -29,7 +29,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ONDO shows up in 5 pools here, with rates from 3.73% to 384.31% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-5 of these 5 pools have a trustworthy 30-day average on file, with a median of 72.03% — a useful check against today's number for whether the rate is steady or just having a good day.
+5 of these 5 pools have a trustworthy 30-day average on file, with a median of 72.04% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 5 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -37,9 +37,9 @@ All 5 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 78.46% | 103.60% | Base rate |
-| uniswap-v4 | 30.20% | 72.03% | Base rate |
-| uniswap-v4 | 3.73% | 22.96% | Base rate |
+| uniswap-v3 | 78.67% | 103.68% | Base rate |
+| uniswap-v4 | 30.01% | 72.04% | Base rate |
+| uniswap-v4 | 3.73% | 22.95% | Base rate |
 | raydium-amm | 384.31% | 352.47% | Base rate |
 | raydium-amm | 33.96% | 33.96% | Base rate |
 
@@ -53,7 +53,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ONDO pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $3.4M in total.
+7 live pools clear this page's $100K TVL floor, $3.46M in total.
 
 ### Are these rates safe?
 
@@ -61,7 +61,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ONDO pools have the most stable APY history?
 
-Based on APY history only, ONDO's lower-variability candidates are uniswap-v3 (Ethereum), 78.46% APY, $1.68M TVL, https://www.defi.garden/?pool=67958842-74c0-4d3e-b113-5e6cf83893b6#src=seo_token; uniswap-v4 (Ethereum), 30.20% APY, $479K TVL, https://www.defi.garden/?pool=e6d3edc1-aaa5-4ab0-baf8-63b553a8139e#src=seo_token; uniswap-v4 (Ethereum), 3.73% APY, $257.7K TVL, https://www.defi.garden/?pool=f7a7c55d-5fea-4cde-933d-e181e0632c3e#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ONDO's lower-variability candidates are uniswap-v3 (Ethereum), 78.67% APY, $1.68M TVL, https://www.defi.garden/?pool=67958842-74c0-4d3e-b113-5e6cf83893b6#src=seo_token; uniswap-v4 (Ethereum), 30.01% APY, $481.7K TVL, https://www.defi.garden/?pool=e6d3edc1-aaa5-4ab0-baf8-63b553a8139e#src=seo_token; uniswap-v4 (Ethereum), 3.73% APY, $258.3K TVL, https://www.defi.garden/?pool=f7a7c55d-5fea-4cde-933d-e181e0632c3e#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

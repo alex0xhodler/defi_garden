@@ -5,11 +5,11 @@
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
 | USYC | [circle-usyc →](https://www.defi.garden/ko/pools/circle-usyc-usyc-bsc) | 3.07% | $2.36B |
-| SLISBNB | [lista-liquid-staking →](https://www.defi.garden/ko/pools/lista-liquid-staking-slisbnb-bsc) | 1.01% | $854.93M |
-| WBETH | [binance-staked-eth →](https://www.defi.garden/ko/pools/binance-staked-eth-wbeth-bsc) | 2.15% | $571.77M |
-| WBNB | [venus-core-pool →](https://www.defi.garden/ko/pools/venus-core-pool-wbnb-bsc) | 0.03% | $389.13M |
+| SLISBNB | [lista-liquid-staking →](https://www.defi.garden/ko/pools/lista-liquid-staking-slisbnb-bsc) | 1.01% | $856.35M |
+| WBETH | [binance-staked-eth →](https://www.defi.garden/ko/pools/binance-staked-eth-wbeth-bsc) | 2.15% | $575.47M |
+| WBNB | [venus-core-pool →](https://www.defi.garden/ko/pools/venus-core-pool-wbnb-bsc) | 0.03% | $389.77M |
 | BNB | [lista-lending →](https://www.defi.garden/ko/pools/lista-lending-bnb-bsc) | 0.21% | $387.93M |
-| BTCB | [venus-core-pool →](https://www.defi.garden/ko/pools/venus-core-pool-btcb-bsc) | 0.20% | $354.44M |
+| BTCB | [venus-core-pool →](https://www.defi.garden/ko/pools/venus-core-pool-btcb-bsc) | 0.20% | $355.41M |
 | BUIDL | [blackrock-buidl →](https://www.defi.garden/?pool=55402b0b-af35-452b-b015-627b4233f0f1#src=seo_chain) | 3.47% | $146.65M |
 | USD1 | [lista-lending →](https://www.defi.garden/?pool=d6fec854-4258-495b-95df-e4066214f41d#src=seo_chain) | 1.22% | $138.27M |
 
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, BSC의 binance-staked-eth에서 APY 2.15%�
 
 ### BSC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 281개이며, 합산 TVL은 $6.73B예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 281개이며, 합산 TVL은 $6.74B예요.
 
 ### 이 수익률은 안전한가요?
 

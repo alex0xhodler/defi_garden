@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest NOVA yield right now is 11.49% on supernova-amm (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NOVA yield right now is 10.17% on supernova-amm (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [supernova-amm →](https://www.defi.garden/?pool=ee0b1ca0-25c4-4bf5-b407-de290a23e9fa#src=seo_token) | Ethereum | 11.49% | $132.1K |
+| [supernova-amm →](https://www.defi.garden/?pool=ee0b1ca0-25c4-4bf5-b407-de290a23e9fa#src=seo_token) | Ethereum | 10.17% | $133K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NOVA yield today?
 
-11.49% APY on supernova-amm (Ethereum), based on live DefiLlama data.
+10.17% APY on supernova-amm (Ethereum), based on live DefiLlama data.
 
 ### How many NOVA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $132.1K in total.
+1 live pool clear this page's $100K TVL floor, $133K in total.
 
 ### Are these rates safe?
 

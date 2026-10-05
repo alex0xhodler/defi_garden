@@ -1,37 +1,37 @@
-# MSTRC DeFi Yields
+# MUC DeFi Yields
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest MSTRC yield right now is 714.98% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MUC yield right now is 892.58% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=06ae14ef-c2e3-5e30-9876-3e06c8b2f9a9#src=seo_token) | Base | 714.98% | $1.57M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=3cd9aba2-1527-529a-9ecc-6bdc447494af#src=seo_token) | Base | 892.58% | $822.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-There is not enough qualifying APY history to rank MSTRC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank MUC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## Frequently asked questions
 
-### What's the highest MSTRC yield today?
+### What's the highest MUC yield today?
 
-714.98% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+892.58% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
-### How many MSTRC pools clear the TVL floor?
+### How many MUC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.57M in total.
+1 live pool clear this page's $100K TVL floor, $822.4K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which MSTRC pools have the most stable APY history?
+### Which MUC pools have the most stable APY history?
 
-There is not enough qualifying APY history to rank MSTRC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank MUC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

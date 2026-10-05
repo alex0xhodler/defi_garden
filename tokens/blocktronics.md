@@ -6,7 +6,7 @@ The highest honest BLOCKTRONICS yield right now is 0.14% on uniswap-v4 (Base), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=b80e8249-83ad-4a85-978b-80947851db27#src=seo_token) | Base | 0.14% | $285.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=b80e8249-83ad-4a85-978b-80947851db27#src=seo_token) | Base | 0.14% | $286.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BLOCKTRONICS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $285.8K in total.
+1 live pool clear this page's $100K TVL floor, $286.6K in total.
 
 ### Are these rates safe?
 

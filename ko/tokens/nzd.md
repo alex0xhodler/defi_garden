@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [gmx-solana →](https://www.defi.garden/?pool=399d9968-ff94-47fd-83ee-2a9852e0a9a6#src=seo_token) | Solana | 2.89% | $1.14M |
+| [gmx-solana →](https://www.defi.garden/?pool=399d9968-ff94-47fd-83ee-2a9852e0a9a6#src=seo_token) | Solana | 2.89% | $1.13M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Solana의 gmx-solana에서 APY 2.89%예요
 
 ### NZD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $1.14M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $1.13M예요.
 
 ### 이 수익률은 안전한가요?
 

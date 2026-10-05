@@ -6,19 +6,19 @@ The highest honest KTA yield right now is 5.59% on aerodrome-v1 (Base), among 3 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=8ee7be96-79ab-4a27-87b1-097359555e0b#src=seo_token) | Base | 5.59% | $4.18M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=4610c594-15fa-4476-858f-8f2deb6b6eb0#src=seo_token) | Base | 0.06% | $365.6K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=8ee7be96-79ab-4a27-87b1-097359555e0b#src=seo_token) | Base | 5.59% | $4.19M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=4610c594-15fa-4476-858f-8f2deb6b6eb0#src=seo_token) | Base | 0.06% | $367.2K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=4adfe221-5582-41a7-9fa2-0e2c64a054c6#src=seo_token) | Base | 0.16% | $208.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, KTA's lower-variability candidates are aerodrome-v1 (Base), 5.59% APY, $4.18M TVL, https://www.defi.garden/?pool=8ee7be96-79ab-4a27-87b1-097359555e0b#src=seo_token; uniswap-v4 (Base), 0.06% APY, $365.6K TVL, https://www.defi.garden/?pool=4610c594-15fa-4476-858f-8f2deb6b6eb0#src=seo_token; uniswap-v4 (Base), 0.16% APY, $208.6K TVL, https://www.defi.garden/?pool=4adfe221-5582-41a7-9fa2-0e2c64a054c6#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, KTA's lower-variability candidates are aerodrome-v1 (Base), 5.59% APY, $4.19M TVL, https://www.defi.garden/?pool=8ee7be96-79ab-4a27-87b1-097359555e0b#src=seo_token; uniswap-v4 (Base), 0.06% APY, $367.2K TVL, https://www.defi.garden/?pool=4610c594-15fa-4476-858f-8f2deb6b6eb0#src=seo_token; uniswap-v4 (Base), 0.16% APY, $208.6K TVL, https://www.defi.garden/?pool=4adfe221-5582-41a7-9fa2-0e2c64a054c6#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=8ee7be96-79ab-4a27-87b1-097359555e0b#src=seo_token) | Base | 5.59% | $4.18M |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=4610c594-15fa-4476-858f-8f2deb6b6eb0#src=seo_token) | Base | 0.06% | $365.6K |
+| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=8ee7be96-79ab-4a27-87b1-097359555e0b#src=seo_token) | Base | 5.59% | $4.19M |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=4610c594-15fa-4476-858f-8f2deb6b6eb0#src=seo_token) | Base | 0.06% | $367.2K |
 | 3 | [uniswap-v4 →](https://www.defi.garden/?pool=4adfe221-5582-41a7-9fa2-0e2c64a054c6#src=seo_token) | Base | 0.16% | $208.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -49,7 +49,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many KTA pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $4.75M in total.
+3 live pools clear this page's $100K TVL floor, $4.76M in total.
 
 ### Are these rates safe?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which KTA pools have the most stable APY history?
 
-Based on APY history only, KTA's lower-variability candidates are aerodrome-v1 (Base), 5.59% APY, $4.18M TVL, https://www.defi.garden/?pool=8ee7be96-79ab-4a27-87b1-097359555e0b#src=seo_token; uniswap-v4 (Base), 0.06% APY, $365.6K TVL, https://www.defi.garden/?pool=4610c594-15fa-4476-858f-8f2deb6b6eb0#src=seo_token; uniswap-v4 (Base), 0.16% APY, $208.6K TVL, https://www.defi.garden/?pool=4adfe221-5582-41a7-9fa2-0e2c64a054c6#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, KTA's lower-variability candidates are aerodrome-v1 (Base), 5.59% APY, $4.19M TVL, https://www.defi.garden/?pool=8ee7be96-79ab-4a27-87b1-097359555e0b#src=seo_token; uniswap-v4 (Base), 0.06% APY, $367.2K TVL, https://www.defi.garden/?pool=4610c594-15fa-4476-858f-8f2deb6b6eb0#src=seo_token; uniswap-v4 (Base), 0.16% APY, $208.6K TVL, https://www.defi.garden/?pool=4adfe221-5582-41a7-9fa2-0e2c64a054c6#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

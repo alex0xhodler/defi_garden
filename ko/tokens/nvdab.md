@@ -7,16 +7,16 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=d58b2d86-df88-56b9-9212-930d8a164095#src=seo_token) | BSC | 13.03% | $993.8K |
-| [native-credit-pool →](https://www.defi.garden/?pool=59eecd41-6673-44ec-a5ba-82158afbeb74#src=seo_token) | BSC | 124.10% | $122.1K |
+| [native-credit-pool →](https://www.defi.garden/?pool=59eecd41-6673-44ec-a5ba-82158afbeb74#src=seo_token) | BSC | 124.10% | $121.9K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 NVDAB의 변동성 낮은 후보는 BSC의 native-credit-pool, APY 124.10%, TVL $122.1K, https://www.defi.garden/?pool=59eecd41-6673-44ec-a5ba-82158afbeb74#src=seo_token; BSC의 uniswap-v3, APY 13.03%, TVL $993.8K, https://www.defi.garden/?pool=d58b2d86-df88-56b9-9212-930d8a164095#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 NVDAB의 변동성 낮은 후보는 BSC의 native-credit-pool, APY 124.10%, TVL $121.9K, https://www.defi.garden/?pool=59eecd41-6673-44ec-a5ba-82158afbeb74#src=seo_token; BSC의 uniswap-v3, APY 13.03%, TVL $993.8K, https://www.defi.garden/?pool=d58b2d86-df88-56b9-9212-930d8a164095#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [native-credit-pool →](https://www.defi.garden/?pool=59eecd41-6673-44ec-a5ba-82158afbeb74#src=seo_token) | BSC | 124.10% | $122.1K |
+| 1 | [native-credit-pool →](https://www.defi.garden/?pool=59eecd41-6673-44ec-a5ba-82158afbeb74#src=seo_token) | BSC | 124.10% | $121.9K |
 | 2 | [uniswap-v3 →](https://www.defi.garden/?pool=d58b2d86-df88-56b9-9212-930d8a164095#src=seo_token) | BSC | 13.03% | $993.8K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -54,7 +54,7 @@ DefiLlama 실시간 데이터 기준, BSC의 native-credit-pool에서 APY 124.10
 
 ### NVDAB 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 NVDAB의 변동성 낮은 후보는 BSC의 native-credit-pool, APY 124.10%, TVL $122.1K, https://www.defi.garden/?pool=59eecd41-6673-44ec-a5ba-82158afbeb74#src=seo_token; BSC의 uniswap-v3, APY 13.03%, TVL $993.8K, https://www.defi.garden/?pool=d58b2d86-df88-56b9-9212-930d8a164095#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 NVDAB의 변동성 낮은 후보는 BSC의 native-credit-pool, APY 124.10%, TVL $121.9K, https://www.defi.garden/?pool=59eecd41-6673-44ec-a5ba-82158afbeb74#src=seo_token; BSC의 uniswap-v3, APY 13.03%, TVL $993.8K, https://www.defi.garden/?pool=d58b2d86-df88-56b9-9212-930d8a164095#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

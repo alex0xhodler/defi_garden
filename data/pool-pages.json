@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T07:01:22.107Z",
+  "generatedAt": "2026-10-05T08:22:02.898Z",
   "count": 100,
   "pages": [
     {
@@ -167,16 +167,16 @@
       "pool": "21e1ac8a-b3aa-4576-9506-0b40137721a0"
     },
     {
-      "slug": "aave-v3-usde-plasma",
-      "pool": "42eaf290-24c3-4ce0-82ab-c1276444871b"
-    },
-    {
       "slug": "ondo-yield-assets-usdy-stellar",
       "pool": "a66e2d12-188b-407d-aaec-d95640e08ef7"
     },
     {
       "slug": "usd-ai-susdai-arbitrum",
       "pool": "712ce948-bd9e-4f4a-8916-b72c447f7578"
+    },
+    {
+      "slug": "aave-v3-usde-plasma",
+      "pool": "42eaf290-24c3-4ce0-82ab-c1276444871b"
     },
     {
       "slug": "morpho-blue-steakusdg-robinhood-chain",
@@ -203,12 +203,12 @@
       "pool": "2e53bb82-f13f-4157-a3bf-b1a91b94b6a4"
     },
     {
-      "slug": "morpho-blue-sirloinusdc-base",
-      "pool": "8276be38-acc6-4005-ab0d-62680f49f4df"
-    },
-    {
       "slug": "sparklend-cbbtc-ethereum",
       "pool": "00d1e1f8-b3c8-4350-a247-5da693d2d4dd"
+    },
+    {
+      "slug": "morpho-blue-sirloinusdc-base",
+      "pool": "8276be38-acc6-4005-ab0d-62680f49f4df"
     },
     {
       "slug": "hastra-prime-ethereum",
@@ -379,12 +379,12 @@
       "pool": "3075a746-bdd1-4aac-bcd5-b035abee2622"
     },
     {
-      "slug": "morpho-blue-senpyusdprimev2-ethereum",
-      "pool": "f569e486-da2a-41ef-8bfe-1a4db0d1d268"
-    },
-    {
       "slug": "dfdv-staked-sol-dfdvsol-solana",
       "pool": "568bbb48-dc88-4313-b1cc-ab1d4e763d6d"
+    },
+    {
+      "slug": "morpho-blue-senpyusdprimev2-ethereum",
+      "pool": "f569e486-da2a-41ef-8bfe-1a4db0d1d268"
     },
     {
       "slug": "sparklend-lbtc-ethereum",

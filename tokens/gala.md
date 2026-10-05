@@ -2,12 +2,12 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest GALA yield right now is 27.31% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GALA yield right now is 26.31% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=23aa2ebd-a44c-5823-a173-3f7d3f174c39#src=seo_token) | Solana | 0.05% | $23.18M |
-| [raydium-amm →](https://www.defi.garden/?pool=e5ca4e58-994f-4cb5-a49f-934385f07838#src=seo_token) | Solana | 27.31% | $114.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=e5ca4e58-994f-4cb5-a49f-934385f07838#src=seo_token) | Solana | 26.31% | $114.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-GALA shows up in 2 pools here, with rates from 0.05% to 27.31% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+GALA shows up in 2 pools here, with rates from 0.05% to 26.31% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 86.67% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 86.69% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -29,7 +29,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | raydium-amm | 0.05% | 149.51% | Base rate |
-| raydium-amm | 27.31% | 23.83% | Base rate |
+| raydium-amm | 26.31% | 23.87% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest GALA yield today?
 
-27.31% APY on raydium-amm (Solana), based on live DefiLlama data.
+26.31% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many GALA pools clear the TVL floor?
 

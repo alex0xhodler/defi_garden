@@ -7,18 +7,18 @@ The highest honest YNETHX yield right now is 1.79% on stake-dao-yield (Ethereum)
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=08d9e568-98b5-4957-bad6-e69ed4cf0d76#src=seo_token) | Ethereum | 1.69% | $793.4K |
-| [convex-finance →](https://www.defi.garden/?pool=1329e9b3-986c-4485-9bed-9b744e8a05ef#src=seo_token) | Ethereum | 1.69% | $562.4K |
+| [convex-finance →](https://www.defi.garden/?pool=1329e9b3-986c-4485-9bed-9b744e8a05ef#src=seo_token) | Ethereum | 1.69% | $562.5K |
 | [stake-dao-yield →](https://www.defi.garden/?pool=f44855a6-8872-4f2c-946b-1ca35b1cac31#src=seo_token) | Ethereum | 1.79% | $116.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, YNETHX's lower-variability candidates are stake-dao-yield (Ethereum), 1.79% APY, $116.1K TVL, https://www.defi.garden/?pool=f44855a6-8872-4f2c-946b-1ca35b1cac31#src=seo_token; convex-finance (Ethereum), 1.69% APY, $562.4K TVL, https://www.defi.garden/?pool=1329e9b3-986c-4485-9bed-9b744e8a05ef#src=seo_token; curve-dex (Ethereum), 1.69% APY, $793.4K TVL, https://www.defi.garden/?pool=08d9e568-98b5-4957-bad6-e69ed4cf0d76#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, YNETHX's lower-variability candidates are stake-dao-yield (Ethereum), 1.79% APY, $116.1K TVL, https://www.defi.garden/?pool=f44855a6-8872-4f2c-946b-1ca35b1cac31#src=seo_token; convex-finance (Ethereum), 1.69% APY, $562.5K TVL, https://www.defi.garden/?pool=1329e9b3-986c-4485-9bed-9b744e8a05ef#src=seo_token; curve-dex (Ethereum), 1.69% APY, $793.4K TVL, https://www.defi.garden/?pool=08d9e568-98b5-4957-bad6-e69ed4cf0d76#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [stake-dao-yield →](https://www.defi.garden/?pool=f44855a6-8872-4f2c-946b-1ca35b1cac31#src=seo_token) | Ethereum | 1.79% | $116.1K |
-| 2 | [convex-finance →](https://www.defi.garden/?pool=1329e9b3-986c-4485-9bed-9b744e8a05ef#src=seo_token) | Ethereum | 1.69% | $562.4K |
+| 2 | [convex-finance →](https://www.defi.garden/?pool=1329e9b3-986c-4485-9bed-9b744e8a05ef#src=seo_token) | Ethereum | 1.69% | $562.5K |
 | 3 | [curve-dex →](https://www.defi.garden/?pool=08d9e568-98b5-4957-bad6-e69ed4cf0d76#src=seo_token) | Ethereum | 1.69% | $793.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -33,7 +33,7 @@ YNETHX shows up in 3 pools here, with rates from 1.69% to 1.79% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 1.69% | 2.19% | 0.20% incentives |
+| curve-dex | 1.69% | 2.20% | 0.20% incentives |
 | convex-finance | 1.69% | 2.57% | Base rate |
 | stake-dao-yield | 1.79% | 2.38% | 0.40% incentives |
 
@@ -47,7 +47,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many YNETHX pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $12.79M in total.
+4 live pools clear this page's $100K TVL floor, $12.91M in total.
 
 ### Are these rates safe?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which YNETHX pools have the most stable APY history?
 
-Based on APY history only, YNETHX's lower-variability candidates are stake-dao-yield (Ethereum), 1.79% APY, $116.1K TVL, https://www.defi.garden/?pool=f44855a6-8872-4f2c-946b-1ca35b1cac31#src=seo_token; convex-finance (Ethereum), 1.69% APY, $562.4K TVL, https://www.defi.garden/?pool=1329e9b3-986c-4485-9bed-9b744e8a05ef#src=seo_token; curve-dex (Ethereum), 1.69% APY, $793.4K TVL, https://www.defi.garden/?pool=08d9e568-98b5-4957-bad6-e69ed4cf0d76#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, YNETHX's lower-variability candidates are stake-dao-yield (Ethereum), 1.79% APY, $116.1K TVL, https://www.defi.garden/?pool=f44855a6-8872-4f2c-946b-1ca35b1cac31#src=seo_token; convex-finance (Ethereum), 1.69% APY, $562.5K TVL, https://www.defi.garden/?pool=1329e9b3-986c-4485-9bed-9b744e8a05ef#src=seo_token; curve-dex (Ethereum), 1.69% APY, $793.4K TVL, https://www.defi.garden/?pool=08d9e568-98b5-4957-bad6-e69ed4cf0d76#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

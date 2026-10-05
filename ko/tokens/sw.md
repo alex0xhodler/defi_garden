@@ -7,8 +7,8 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [spectra-v2 →](https://www.defi.garden/?pool=6b1d51e9-443c-42fc-9f50-b74e099779a8#src=seo_token) | Flare | 4.81% | $843.4K |
-| [spectra-v2 →](https://www.defi.garden/?pool=14591204-80a5-55a7-b1ab-be8f22a78485#src=seo_token) | Flare | 16.00% | $261.1K |
-| [spectra-v2 →](https://www.defi.garden/?pool=2adaddc0-8eab-513b-921d-272f614712fc#src=seo_token) | Flare | 4.20% | $261.1K |
+| [spectra-v2 →](https://www.defi.garden/?pool=14591204-80a5-55a7-b1ab-be8f22a78485#src=seo_token) | Flare | 15.47% | $262.2K |
+| [spectra-v2 →](https://www.defi.garden/?pool=2adaddc0-8eab-513b-921d-272f614712fc#src=seo_token) | Flare | 3.60% | $262.2K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,7 +19,7 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-SW 풀은 여기 3개가 있고, 1개 체인에서 APY가 4.20%부터 16.00%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+SW 풀은 여기 3개가 있고, 1개 체인에서 APY가 3.60%부터 15.47%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 7.39%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -30,8 +30,8 @@ SW 풀은 여기 3개가 있고, 1개 체인에서 APY가 4.20%부터 16.00%까�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | spectra-v2 | 4.81% | 7.39% | 기본 금리 |
-| spectra-v2 | 16.00% | 178.49% | 기본 금리 |
-| spectra-v2 | 4.20% | 4.34% | 기본 금리 |
+| spectra-v2 | 15.47% | 176.99% | 기본 금리 |
+| spectra-v2 | 3.60% | 4.33% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 

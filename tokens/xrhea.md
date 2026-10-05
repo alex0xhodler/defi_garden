@@ -6,7 +6,7 @@ The highest honest XRHEA yield right now is 3.63% on rhea-lst (Near), among 1 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [rhea-lst →](https://www.defi.garden/?pool=9f402ef0-5c94-501b-aae4-42fe2f152494#src=seo_token) | Near | 3.63% | $9.73M |
+| [rhea-lst →](https://www.defi.garden/?pool=9f402ef0-5c94-501b-aae4-42fe2f152494#src=seo_token) | Near | 3.63% | $9.52M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many XRHEA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $9.73M in total.
+1 live pool clear this page's $100K TVL floor, $9.52M in total.
 
 ### Are these rates safe?
 

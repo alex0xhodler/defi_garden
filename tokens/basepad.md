@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest BASEPAD yield right now is 996.49% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BASEPAD yield right now is 938.15% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=18bc5c6b-34f0-5dc4-ba6c-7bc9349a4137#src=seo_token) | Base | 996.49% | $110.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=18bc5c6b-34f0-5dc4-ba6c-7bc9349a4137#src=seo_token) | Base | 938.15% | $113.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BASEPAD yield today?
 
-996.49% APY on uniswap-v4 (Base), based on live DefiLlama data.
+938.15% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many BASEPAD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $110.6K in total.
+1 live pool clear this page's $100K TVL floor, $113.9K in total.
 
 ### Are these rates safe?
 

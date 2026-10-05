@@ -2,12 +2,12 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest MSFTX yield right now is 9.91% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MSFTX yield right now is 11.73% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=7a2d3931-0c0a-4e99-9e4b-4c647f532363#src=seo_token) | Solana | 9.91% | $721.6K |
-| [raydium-amm →](https://www.defi.garden/?pool=17d0defb-9cdc-5c4e-8416-47b9ee1d9428#src=seo_token) | Solana | 6.48% | $382.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=7a2d3931-0c0a-4e99-9e4b-4c647f532363#src=seo_token) | Solana | 11.73% | $722.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=17d0defb-9cdc-5c4e-8416-47b9ee1d9428#src=seo_token) | Solana | 6.79% | $382.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-MSFTX shows up in 2 pools here, with rates from 6.48% to 9.91% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+MSFTX shows up in 2 pools here, with rates from 6.79% to 11.73% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 158.42% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 158.33% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -28,8 +28,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 9.91% | 208.81% | Base rate |
-| raydium-amm | 6.48% | 108.04% | Base rate |
+| raydium-amm | 11.73% | 208.80% | Base rate |
+| raydium-amm | 6.79% | 107.86% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MSFTX yield today?
 
-9.91% APY on raydium-amm (Solana), based on live DefiLlama data.
+11.73% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MSFTX pools clear the TVL floor?
 

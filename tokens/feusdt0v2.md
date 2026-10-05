@@ -6,7 +6,7 @@ The highest honest FEUSDT0V2 yield right now is 9.48% on morpho-blue (Hyperliqui
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=11b994db-6487-56d9-b17d-727b24e89c4e#src=seo_token) | Hyperliquid L1 | 9.48% | $5.52M |
+| [morpho-blue →](https://www.defi.garden/?pool=11b994db-6487-56d9-b17d-727b24e89c4e#src=seo_token) | Hyperliquid L1 | 9.48% | $5.51M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many FEUSDT0V2 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $5.52M in total.
+1 live pool clear this page's $100K TVL floor, $5.51M in total.
 
 ### Are these rates safe?
 

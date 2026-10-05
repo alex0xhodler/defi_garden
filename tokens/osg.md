@@ -6,7 +6,7 @@ The highest honest OSG yield right now is 0.36% on quickswap-dex (Polygon), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [quickswap-dex →](https://www.defi.garden/?pool=92284843-bc0d-46bc-870c-2c7bf510c9f0#src=seo_token) | Polygon | 0.36% | $228.5K |
+| [quickswap-dex →](https://www.defi.garden/?pool=92284843-bc0d-46bc-870c-2c7bf510c9f0#src=seo_token) | Polygon | 0.36% | $229.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many OSG pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $228.5K in total.
+1 live pool clear this page's $100K TVL floor, $229.6K in total.
 
 ### Are these rates safe?
 
@@ -40,7 +40,7 @@ There is not enough qualifying APY history to rank OSG pools. This view covers A
 - [LINK](https://www.defi.garden/tokens/link)
 - [AAVE](https://www.defi.garden/tokens/aave)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
-- [STKPOL](https://www.defi.garden/tokens/stkpol)
+- [BET](https://www.defi.garden/tokens/bet)
 
 ## Available on
 

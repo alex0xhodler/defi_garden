@@ -40,7 +40,7 @@ There is not enough qualifying APY history to rank TRUAPT pools. This view cover
 - [XBTC](https://www.defi.garden/tokens/xbtc)
 - [APT](https://www.defi.garden/tokens/apt)
 - [AMAPT](https://www.defi.garden/tokens/amapt)
-- [ABTC](https://www.defi.garden/tokens/abtc)
+- [STAPT](https://www.defi.garden/tokens/stapt)
 
 ## Available on
 

@@ -1,17 +1,17 @@
 # ICP 디파이 수익률
 
-현재 ICP의 가장 높은 정직한 수익률은 ICP의 icpswap에서 45.54%이며, $100K TVL 기준을 넘는 14개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 ICP의 가장 높은 정직한 수익률은 ICP의 icpswap에서 39.39%이며, $100K TVL 기준을 넘는 14개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| NICP | [waterneuron →](https://www.defi.garden/?pool=4450335c-bad3-4293-947b-64896b893a5b#src=seo_chain) | 7.88% | $7.94M |
-| BTC | [liquidium →](https://www.defi.garden/?pool=8df2c295-0906-4d91-9dad-45353f41b99f#src=seo_chain) | 0.01% | $1.62M |
-| CKUSDC-ICP | [icpswap →](https://www.defi.garden/?pool=8d70550f-b6b4-4b01-9885-878f69f3d690#src=seo_chain) | 15.40% | $877.3K |
-| VCHF-ICP | [icpswap →](https://www.defi.garden/?pool=8f3e0a00-3b1c-4e87-ac0d-117c3e057248#src=seo_chain) | 8.75% | $548.1K |
-| USDC | [liquidium →](https://www.defi.garden/?pool=d88ae0d8-a1ec-4a32-9fc9-9b4ab7c416e7#src=seo_chain) | 2.53% | $339.4K |
+| NICP | [waterneuron →](https://www.defi.garden/?pool=4450335c-bad3-4293-947b-64896b893a5b#src=seo_chain) | 7.88% | $7.92M |
+| BTC | [liquidium →](https://www.defi.garden/?pool=8df2c295-0906-4d91-9dad-45353f41b99f#src=seo_chain) | 0.01% | $1.64M |
+| CKUSDC-ICP | [icpswap →](https://www.defi.garden/?pool=8d70550f-b6b4-4b01-9885-878f69f3d690#src=seo_chain) | 13.75% | $880.5K |
+| VCHF-ICP | [icpswap →](https://www.defi.garden/?pool=8f3e0a00-3b1c-4e87-ac0d-117c3e057248#src=seo_chain) | 8.04% | $548.7K |
+| USDC | [liquidium →](https://www.defi.garden/?pool=d88ae0d8-a1ec-4a32-9fc9-9b4ab7c416e7#src=seo_chain) | 2.60% | $329.5K |
 | USDT | [liquidium →](https://www.defi.garden/?pool=3212366c-3e08-4da7-8ccb-a69fbf7840c1#src=seo_chain) | 2.04% | $303.7K |
-| CKBTC-ICP | [icpswap →](https://www.defi.garden/?pool=7f7c08d4-b54a-4183-bd51-c5d047e889a6#src=seo_chain) | 45.54% | $223.8K |
-| TOKO-ICP | [icpswap →](https://www.defi.garden/?pool=d37c11d3-f7fb-5a79-a3d7-87780e55c8bc#src=seo_chain) | 0.79% | $218.4K |
+| CKBTC-ICP | [icpswap →](https://www.defi.garden/?pool=7f7c08d4-b54a-4183-bd51-c5d047e889a6#src=seo_chain) | 39.39% | $224.7K |
+| TOKO-ICP | [icpswap →](https://www.defi.garden/?pool=d37c11d3-f7fb-5a79-a3d7-87780e55c8bc#src=seo_chain) | 0.78% | $219K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,11 +19,11 @@
 
 ### 오늘 ICP의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, ICP의 icpswap에서 APY 45.54%예요.
+DefiLlama 실시간 데이터 기준, ICP의 icpswap에서 APY 39.39%예요.
 
 ### ICP 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 14개이며, 합산 TVL은 $14.83M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 14개이며, 합산 TVL은 $14.84M예요.
 
 ### 이 수익률은 안전한가요?
 

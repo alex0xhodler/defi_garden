@@ -6,7 +6,7 @@ The highest honest MOLTLINE yield right now is 0.09% on uniswap-v4 (Base), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=a87314d3-14f2-4a89-89dd-360f1ccd69c8#src=seo_token) | Base | 0.09% | $124.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a87314d3-14f2-4a89-89dd-360f1ccd69c8#src=seo_token) | Base | 0.09% | $125.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MOLTLINE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $124.9K in total.
+1 live pool clear this page's $100K TVL floor, $125.7K in total.
 
 ### Are these rates safe?
 

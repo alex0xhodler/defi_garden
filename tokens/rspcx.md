@@ -6,7 +6,7 @@ The highest honest RSPCX yield right now is 0.03% on uniswap-v3 (Arbitrum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=db6e02ee-1dfc-51a0-aba6-e08f665a041f#src=seo_token) | Arbitrum | 0.03% | $207.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=db6e02ee-1dfc-51a0-aba6-e08f665a041f#src=seo_token) | Arbitrum | 0.03% | $207.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many RSPCX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $207.8K in total.
+1 live pool clear this page's $100K TVL floor, $207.7K in total.
 
 ### Are these rates safe?
 

@@ -6,18 +6,18 @@ The highest honest ORBS yield right now is 0.48% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [quickswap-dex →](https://www.defi.garden/?pool=2d25f006-6942-4deb-9204-56c01e68dfb4#src=seo_token) | Polygon | 0.24% | $341.8K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=87aab758-8b98-4ccc-9631-70e414f34686#src=seo_token) | Ethereum | 0.48% | $310.5K |
+| [quickswap-dex →](https://www.defi.garden/?pool=2d25f006-6942-4deb-9204-56c01e68dfb4#src=seo_token) | Polygon | 0.24% | $341.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=87aab758-8b98-4ccc-9631-70e414f34686#src=seo_token) | Ethereum | 0.48% | $311.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ORBS's lower-variability candidates are quickswap-dex (Polygon), 0.24% APY, $341.8K TVL, https://www.defi.garden/?pool=2d25f006-6942-4deb-9204-56c01e68dfb4#src=seo_token; uniswap-v2 (Ethereum), 0.48% APY, $310.5K TVL, https://www.defi.garden/?pool=87aab758-8b98-4ccc-9631-70e414f34686#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ORBS's lower-variability candidates are quickswap-dex (Polygon), 0.24% APY, $341.9K TVL, https://www.defi.garden/?pool=2d25f006-6942-4deb-9204-56c01e68dfb4#src=seo_token; uniswap-v2 (Ethereum), 0.48% APY, $311.6K TVL, https://www.defi.garden/?pool=87aab758-8b98-4ccc-9631-70e414f34686#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [quickswap-dex →](https://www.defi.garden/?pool=2d25f006-6942-4deb-9204-56c01e68dfb4#src=seo_token) | Polygon | 0.24% | $341.8K |
-| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=87aab758-8b98-4ccc-9631-70e414f34686#src=seo_token) | Ethereum | 0.48% | $310.5K |
+| 1 | [quickswap-dex →](https://www.defi.garden/?pool=2d25f006-6942-4deb-9204-56c01e68dfb4#src=seo_token) | Polygon | 0.24% | $341.9K |
+| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=87aab758-8b98-4ccc-9631-70e414f34686#src=seo_token) | Ethereum | 0.48% | $311.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ORBS pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $652.3K in total.
+2 live pools clear this page's $100K TVL floor, $653.5K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ORBS pools have the most stable APY history?
 
-Based on APY history only, ORBS's lower-variability candidates are quickswap-dex (Polygon), 0.24% APY, $341.8K TVL, https://www.defi.garden/?pool=2d25f006-6942-4deb-9204-56c01e68dfb4#src=seo_token; uniswap-v2 (Ethereum), 0.48% APY, $310.5K TVL, https://www.defi.garden/?pool=87aab758-8b98-4ccc-9631-70e414f34686#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ORBS's lower-variability candidates are quickswap-dex (Polygon), 0.24% APY, $341.9K TVL, https://www.defi.garden/?pool=2d25f006-6942-4deb-9204-56c01e68dfb4#src=seo_token; uniswap-v2 (Ethereum), 0.48% APY, $311.6K TVL, https://www.defi.garden/?pool=87aab758-8b98-4ccc-9631-70e414f34686#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

@@ -2,36 +2,36 @@
 
 *DefiLlama 데이터 생성 시점 검증: October 5, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 YFI의 가장 높은 정직한 수익률은 Ethereum의 sushiswap-v3에서 14.68%이며, $100K TVL 기준을 넘는 9개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 YFI의 가장 높은 정직한 수익률은 Ethereum의 sushiswap-v3에서 16.26%이며, $100K TVL 기준을 넘는 9개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [aerodrome-v1 →](https://www.defi.garden/?pool=a79fd5ae-6507-4190-88b1-5032c43bf7cc#src=seo_token) | Base | 9.14% | $1.4M |
-| [curve-dex →](https://www.defi.garden/?pool=700ab88a-4323-4b82-8fbe-b69dd8790e95#src=seo_token) | Ethereum | 6.32% | $648.2K |
-| [convex-finance →](https://www.defi.garden/?pool=f3330a13-895a-4772-b4f2-b20030e36498#src=seo_token) | Ethereum | 9.11% | $638.8K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=4c3b9cbb-25f9-4d3e-9422-1aa1087e1d39#src=seo_token) | Ethereum | 3.07% | $158.9K |
-| [sushiswap →](https://www.defi.garden/?pool=0d41092f-2792-4590-96c0-39f68aa77041#src=seo_token) | Ethereum | 3.03% | $141.4K |
-| [sushiswap-v3 →](https://www.defi.garden/?pool=5fc409b3-eb5f-4208-9651-c6d4d8c24beb#src=seo_token) | Ethereum | 14.68% | $131.7K |
+| [curve-dex →](https://www.defi.garden/?pool=700ab88a-4323-4b82-8fbe-b69dd8790e95#src=seo_token) | Ethereum | 6.27% | $648.4K |
+| [convex-finance →](https://www.defi.garden/?pool=f3330a13-895a-4772-b4f2-b20030e36498#src=seo_token) | Ethereum | 9.02% | $639K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=4c3b9cbb-25f9-4d3e-9422-1aa1087e1d39#src=seo_token) | Ethereum | 3.18% | $159.3K |
+| [sushiswap →](https://www.defi.garden/?pool=0d41092f-2792-4590-96c0-39f68aa77041#src=seo_token) | Ethereum | 3.11% | $141.7K |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=5fc409b3-eb5f-4208-9651-c6d4d8c24beb#src=seo_token) | Ethereum | 16.26% | $131.9K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 YFI의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 6.32%, TVL $648.2K, https://www.defi.garden/?pool=700ab88a-4323-4b82-8fbe-b69dd8790e95#src=seo_token; Ethereum의 convex-finance, APY 9.11%, TVL $638.8K, https://www.defi.garden/?pool=f3330a13-895a-4772-b4f2-b20030e36498#src=seo_token; Base의 aerodrome-v1, APY 9.14%, TVL $1.4M, https://www.defi.garden/?pool=a79fd5ae-6507-4190-88b1-5032c43bf7cc#src=seo_token; Ethereum의 sushiswap, APY 3.03%, TVL $141.4K, https://www.defi.garden/?pool=0d41092f-2792-4590-96c0-39f68aa77041#src=seo_token; Ethereum의 uniswap-v2, APY 3.07%, TVL $158.9K, https://www.defi.garden/?pool=4c3b9cbb-25f9-4d3e-9422-1aa1087e1d39#src=seo_token; Ethereum의 sushiswap-v3, APY 14.68%, TVL $131.7K, https://www.defi.garden/?pool=5fc409b3-eb5f-4208-9651-c6d4d8c24beb#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 YFI의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 6.27%, TVL $648.4K, https://www.defi.garden/?pool=700ab88a-4323-4b82-8fbe-b69dd8790e95#src=seo_token; Ethereum의 convex-finance, APY 9.02%, TVL $639K, https://www.defi.garden/?pool=f3330a13-895a-4772-b4f2-b20030e36498#src=seo_token; Base의 aerodrome-v1, APY 9.14%, TVL $1.4M, https://www.defi.garden/?pool=a79fd5ae-6507-4190-88b1-5032c43bf7cc#src=seo_token; Ethereum의 sushiswap, APY 3.11%, TVL $141.7K, https://www.defi.garden/?pool=0d41092f-2792-4590-96c0-39f68aa77041#src=seo_token; Ethereum의 uniswap-v2, APY 3.18%, TVL $159.3K, https://www.defi.garden/?pool=4c3b9cbb-25f9-4d3e-9422-1aa1087e1d39#src=seo_token; Ethereum의 sushiswap-v3, APY 16.26%, TVL $131.9K, https://www.defi.garden/?pool=5fc409b3-eb5f-4208-9651-c6d4d8c24beb#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=700ab88a-4323-4b82-8fbe-b69dd8790e95#src=seo_token) | Ethereum | 6.32% | $648.2K |
-| 2 | [convex-finance →](https://www.defi.garden/?pool=f3330a13-895a-4772-b4f2-b20030e36498#src=seo_token) | Ethereum | 9.11% | $638.8K |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=700ab88a-4323-4b82-8fbe-b69dd8790e95#src=seo_token) | Ethereum | 6.27% | $648.4K |
+| 2 | [convex-finance →](https://www.defi.garden/?pool=f3330a13-895a-4772-b4f2-b20030e36498#src=seo_token) | Ethereum | 9.02% | $639K |
 | 3 | [aerodrome-v1 →](https://www.defi.garden/?pool=a79fd5ae-6507-4190-88b1-5032c43bf7cc#src=seo_token) | Base | 9.14% | $1.4M |
-| 4 | [sushiswap →](https://www.defi.garden/?pool=0d41092f-2792-4590-96c0-39f68aa77041#src=seo_token) | Ethereum | 3.03% | $141.4K |
-| 5 | [uniswap-v2 →](https://www.defi.garden/?pool=4c3b9cbb-25f9-4d3e-9422-1aa1087e1d39#src=seo_token) | Ethereum | 3.07% | $158.9K |
-| 6 | [sushiswap-v3 →](https://www.defi.garden/?pool=5fc409b3-eb5f-4208-9651-c6d4d8c24beb#src=seo_token) | Ethereum | 14.68% | $131.7K |
+| 4 | [sushiswap →](https://www.defi.garden/?pool=0d41092f-2792-4590-96c0-39f68aa77041#src=seo_token) | Ethereum | 3.11% | $141.7K |
+| 5 | [uniswap-v2 →](https://www.defi.garden/?pool=4c3b9cbb-25f9-4d3e-9422-1aa1087e1d39#src=seo_token) | Ethereum | 3.18% | $159.3K |
+| 6 | [sushiswap-v3 →](https://www.defi.garden/?pool=5fc409b3-eb5f-4208-9651-c6d4d8c24beb#src=seo_token) | Ethereum | 16.26% | $131.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-YFI 풀은 여기 6개가 있고, 2개 체인에서 APY가 3.03%부터 14.68%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+YFI 풀은 여기 6개가 있고, 2개 체인에서 APY가 3.11%부터 16.26%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 6개 풀 중 6개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 7.14%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -41,12 +41,12 @@ YFI 풀은 여기 6개가 있고, 2개 체인에서 APY가 3.03%부터 14.68%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| aerodrome-v1 | 9.14% | 7.66% | 인센티브 100.00% |
-| curve-dex | 6.32% | 6.61% | 인센티브 81.81% |
-| convex-finance | 9.11% | 9.24% | 인센티브 87.37% |
-| uniswap-v2 | 3.07% | 4.96% | 기본 금리 |
-| sushiswap | 3.03% | 3.65% | 기본 금리 |
-| sushiswap-v3 | 14.68% | 13.82% | 기본 금리 |
+| aerodrome-v1 | 9.14% | 7.67% | 인센티브 100.00% |
+| curve-dex | 6.27% | 6.61% | 인센티브 81.65% |
+| convex-finance | 9.02% | 9.23% | 인센티브 87.25% |
+| uniswap-v2 | 3.18% | 4.96% | 기본 금리 |
+| sushiswap | 3.11% | 3.65% | 기본 금리 |
+| sushiswap-v3 | 16.26% | 13.83% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -54,7 +54,7 @@ YFI 풀은 여기 6개가 있고, 2개 체인에서 APY가 3.03%부터 14.68%까
 
 ### 오늘 YFI의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 sushiswap-v3에서 APY 14.68%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 sushiswap-v3에서 APY 16.26%예요.
 
 ### YFI 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -66,7 +66,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 sushiswap-v3에서 APY 14.68%�
 
 ### YFI 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 YFI의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 6.32%, TVL $648.2K, https://www.defi.garden/?pool=700ab88a-4323-4b82-8fbe-b69dd8790e95#src=seo_token; Ethereum의 convex-finance, APY 9.11%, TVL $638.8K, https://www.defi.garden/?pool=f3330a13-895a-4772-b4f2-b20030e36498#src=seo_token; Base의 aerodrome-v1, APY 9.14%, TVL $1.4M, https://www.defi.garden/?pool=a79fd5ae-6507-4190-88b1-5032c43bf7cc#src=seo_token; Ethereum의 sushiswap, APY 3.03%, TVL $141.4K, https://www.defi.garden/?pool=0d41092f-2792-4590-96c0-39f68aa77041#src=seo_token; Ethereum의 uniswap-v2, APY 3.07%, TVL $158.9K, https://www.defi.garden/?pool=4c3b9cbb-25f9-4d3e-9422-1aa1087e1d39#src=seo_token; Ethereum의 sushiswap-v3, APY 14.68%, TVL $131.7K, https://www.defi.garden/?pool=5fc409b3-eb5f-4208-9651-c6d4d8c24beb#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 YFI의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 6.27%, TVL $648.4K, https://www.defi.garden/?pool=700ab88a-4323-4b82-8fbe-b69dd8790e95#src=seo_token; Ethereum의 convex-finance, APY 9.02%, TVL $639K, https://www.defi.garden/?pool=f3330a13-895a-4772-b4f2-b20030e36498#src=seo_token; Base의 aerodrome-v1, APY 9.14%, TVL $1.4M, https://www.defi.garden/?pool=a79fd5ae-6507-4190-88b1-5032c43bf7cc#src=seo_token; Ethereum의 sushiswap, APY 3.11%, TVL $141.7K, https://www.defi.garden/?pool=0d41092f-2792-4590-96c0-39f68aa77041#src=seo_token; Ethereum의 uniswap-v2, APY 3.18%, TVL $159.3K, https://www.defi.garden/?pool=4c3b9cbb-25f9-4d3e-9422-1aa1087e1d39#src=seo_token; Ethereum의 sushiswap-v3, APY 16.26%, TVL $131.9K, https://www.defi.garden/?pool=5fc409b3-eb5f-4208-9651-c6d4d8c24beb#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

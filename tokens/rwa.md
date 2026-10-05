@@ -2,39 +2,39 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest RWA yield right now is 6.83% on morpho-blue (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RWA yield right now is 6.82% on morpho-blue (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=ea36b2a8-fde0-5579-a9ed-73e8fe3a7aa8#src=seo_token) | Ethereum | 6.83% | $946.3K |
-| [raydium-amm →](https://www.defi.garden/?pool=086a9fae-599d-46ac-a097-6aec49257f5a#src=seo_token) | Solana | 3.75% | $187.9K |
+| [morpho-blue →](https://www.defi.garden/?pool=ea36b2a8-fde0-5579-a9ed-73e8fe3a7aa8#src=seo_token) | Ethereum | 6.82% | $946.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=086a9fae-599d-46ac-a097-6aec49257f5a#src=seo_token) | Solana | 3.73% | $188.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, RWA's lower-variability candidates are morpho-blue (Ethereum), 6.83% APY, $946.3K TVL, https://www.defi.garden/?pool=ea36b2a8-fde0-5579-a9ed-73e8fe3a7aa8#src=seo_token; raydium-amm (Solana), 3.75% APY, $187.9K TVL, https://www.defi.garden/?pool=086a9fae-599d-46ac-a097-6aec49257f5a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RWA's lower-variability candidates are morpho-blue (Ethereum), 6.82% APY, $946.3K TVL, https://www.defi.garden/?pool=ea36b2a8-fde0-5579-a9ed-73e8fe3a7aa8#src=seo_token; raydium-amm (Solana), 3.73% APY, $188.8K TVL, https://www.defi.garden/?pool=086a9fae-599d-46ac-a097-6aec49257f5a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=ea36b2a8-fde0-5579-a9ed-73e8fe3a7aa8#src=seo_token) | Ethereum | 6.83% | $946.3K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=086a9fae-599d-46ac-a097-6aec49257f5a#src=seo_token) | Solana | 3.75% | $187.9K |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=ea36b2a8-fde0-5579-a9ed-73e8fe3a7aa8#src=seo_token) | Ethereum | 6.82% | $946.3K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=086a9fae-599d-46ac-a097-6aec49257f5a#src=seo_token) | Solana | 3.73% | $188.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-RWA shows up in 2 pools here, with rates from 3.75% to 6.83% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+RWA shows up in 2 pools here, with rates from 3.73% to 6.82% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 11.87% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 11.86% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 6.83% | 7.16% | Base rate |
-| raydium-amm | 3.75% | 16.59% | Base rate |
+| morpho-blue | 6.82% | 7.16% | 4.77% incentives |
+| raydium-amm | 3.73% | 16.57% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest RWA yield today?
 
-6.83% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+6.82% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many RWA pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.13M in total.
+2 live pools clear this page's $100K TVL floor, $1.14M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which RWA pools have the most stable APY history?
 
-Based on APY history only, RWA's lower-variability candidates are morpho-blue (Ethereum), 6.83% APY, $946.3K TVL, https://www.defi.garden/?pool=ea36b2a8-fde0-5579-a9ed-73e8fe3a7aa8#src=seo_token; raydium-amm (Solana), 3.75% APY, $187.9K TVL, https://www.defi.garden/?pool=086a9fae-599d-46ac-a097-6aec49257f5a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RWA's lower-variability candidates are morpho-blue (Ethereum), 6.82% APY, $946.3K TVL, https://www.defi.garden/?pool=ea36b2a8-fde0-5579-a9ed-73e8fe3a7aa8#src=seo_token; raydium-amm (Solana), 3.73% APY, $188.8K TVL, https://www.defi.garden/?pool=086a9fae-599d-46ac-a097-6aec49257f5a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

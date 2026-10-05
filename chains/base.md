@@ -1,17 +1,17 @@
 # Base DeFi Yields
 
-The highest honest Base yield right now is 5.63% on morpho-blue (Base), among 1,138 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Base yield right now is 5.63% on morpho-blue (Base), among 1,144 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| SIRLOINUSDC | [morpho-blue →](https://www.defi.garden/pools/morpho-blue-sirloinusdc-base) | 5.63% | $459.78M |
-| GTUSDCP | [morpho-blue →](https://www.defi.garden/pools/morpho-blue-gtusdcp-base) | 4.41% | $414.15M |
-| USDE | [morpho-blue →](https://www.defi.garden/pools/morpho-blue-usde-base) | 4.75% | $391.42M |
-| STEAKUSDC | [morpho-blue →](https://www.defi.garden/pools/morpho-blue-steakusdc-base) | 4.41% | $353.31M |
-| SPARKUSDC | [morpho-blue →](https://www.defi.garden/pools/morpho-blue-sparkusdc-base) | 3.96% | $331.94M |
-| CBBTC | [aave-v3 →](https://www.defi.garden/pools/aave-v3-cbbtc-base) | 0.01% | $240.98M |
-| GTUSDCP | [morpho-blue →](https://www.defi.garden/?pool=df7ccfd1-2642-4d79-851a-a5b07d9b8a97#src=seo_chain) | 4.41% | $179.02M |
-| WETH-USDC | [uniswap-v3 →](https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007#src=seo_chain) | 22.52% | $163.77M |
+| SIRLOINUSDC | [morpho-blue →](https://www.defi.garden/pools/morpho-blue-sirloinusdc-base) | 5.63% | $460.24M |
+| GTUSDCP | [morpho-blue →](https://www.defi.garden/pools/morpho-blue-gtusdcp-base) | 4.41% | $414.13M |
+| USDE | [morpho-blue →](https://www.defi.garden/pools/morpho-blue-usde-base) | 4.75% | $391.41M |
+| STEAKUSDC | [morpho-blue →](https://www.defi.garden/pools/morpho-blue-steakusdc-base) | 4.41% | $354.31M |
+| SPARKUSDC | [morpho-blue →](https://www.defi.garden/pools/morpho-blue-sparkusdc-base) | 3.96% | $332.31M |
+| CBBTC | [aave-v3 →](https://www.defi.garden/pools/aave-v3-cbbtc-base) | 0.01% | $242.96M |
+| GTUSDCP | [morpho-blue →](https://www.defi.garden/?pool=df7ccfd1-2642-4d79-851a-a5b07d9b8a97#src=seo_chain) | 4.41% | $179.06M |
+| WETH-USDC | [uniswap-v3 →](https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007#src=seo_chain) | 27.23% | $164.43M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Base pools clear the TVL floor?
 
-1,138 live pools clear this page's $100K TVL floor, $8.22B in total.
+1,144 live pools clear this page's $100K TVL floor, $8.24B in total.
 
 ### Are these rates safe?
 

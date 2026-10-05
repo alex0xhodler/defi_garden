@@ -6,7 +6,7 @@ The highest honest BONKSOL yield right now is 4.94% on bonk-staked-sol (Solana),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [bonk-staked-sol →](https://www.defi.garden/?pool=1d683a73-47a8-4c20-bafa-692b5ec043b5#src=seo_token) | Solana | 4.94% | $11.6M |
+| [bonk-staked-sol →](https://www.defi.garden/?pool=1d683a73-47a8-4c20-bafa-692b5ec043b5#src=seo_token) | Solana | 4.94% | $11.68M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many BONKSOL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $18.48M in total.
+2 live pools clear this page's $100K TVL floor, $18.62M in total.
 
 ### Are these rates safe?
 

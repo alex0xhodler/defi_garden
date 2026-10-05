@@ -6,18 +6,18 @@ The highest honest AGENTFUN yield right now is 0.15% on vvs-standard (Cronos), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=42cf02bc-b368-4fbc-956a-ffc9b22d0b60#src=seo_token) | Cronos | 0.15% | $944.9K |
-| [vvs-standard →](https://www.defi.garden/?pool=eb29a2ea-1c01-59f4-b808-2ca987295086#src=seo_token) | Cronos | 0.06% | $263.5K |
+| [vvs-standard →](https://www.defi.garden/?pool=42cf02bc-b368-4fbc-956a-ffc9b22d0b60#src=seo_token) | Cronos | 0.15% | $950.2K |
+| [vvs-standard →](https://www.defi.garden/?pool=eb29a2ea-1c01-59f4-b808-2ca987295086#src=seo_token) | Cronos | 0.06% | $265.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, AGENTFUN's lower-variability candidates are vvs-standard (Cronos), 0.06% APY, $263.5K TVL, https://www.defi.garden/?pool=eb29a2ea-1c01-59f4-b808-2ca987295086#src=seo_token; vvs-standard (Cronos), 0.15% APY, $944.9K TVL, https://www.defi.garden/?pool=42cf02bc-b368-4fbc-956a-ffc9b22d0b60#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AGENTFUN's lower-variability candidates are vvs-standard (Cronos), 0.06% APY, $265.2K TVL, https://www.defi.garden/?pool=eb29a2ea-1c01-59f4-b808-2ca987295086#src=seo_token; vvs-standard (Cronos), 0.15% APY, $950.2K TVL, https://www.defi.garden/?pool=42cf02bc-b368-4fbc-956a-ffc9b22d0b60#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [vvs-standard →](https://www.defi.garden/?pool=eb29a2ea-1c01-59f4-b808-2ca987295086#src=seo_token) | Cronos | 0.06% | $263.5K |
-| 2 | [vvs-standard →](https://www.defi.garden/?pool=42cf02bc-b368-4fbc-956a-ffc9b22d0b60#src=seo_token) | Cronos | 0.15% | $944.9K |
+| 1 | [vvs-standard →](https://www.defi.garden/?pool=eb29a2ea-1c01-59f4-b808-2ca987295086#src=seo_token) | Cronos | 0.06% | $265.2K |
+| 2 | [vvs-standard →](https://www.defi.garden/?pool=42cf02bc-b368-4fbc-956a-ffc9b22d0b60#src=seo_token) | Cronos | 0.15% | $950.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many AGENTFUN pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.21M in total.
+2 live pools clear this page's $100K TVL floor, $1.22M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which AGENTFUN pools have the most stable APY history?
 
-Based on APY history only, AGENTFUN's lower-variability candidates are vvs-standard (Cronos), 0.06% APY, $263.5K TVL, https://www.defi.garden/?pool=eb29a2ea-1c01-59f4-b808-2ca987295086#src=seo_token; vvs-standard (Cronos), 0.15% APY, $944.9K TVL, https://www.defi.garden/?pool=42cf02bc-b368-4fbc-956a-ffc9b22d0b60#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AGENTFUN's lower-variability candidates are vvs-standard (Cronos), 0.06% APY, $265.2K TVL, https://www.defi.garden/?pool=eb29a2ea-1c01-59f4-b808-2ca987295086#src=seo_token; vvs-standard (Cronos), 0.15% APY, $950.2K TVL, https://www.defi.garden/?pool=42cf02bc-b368-4fbc-956a-ffc9b22d0b60#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

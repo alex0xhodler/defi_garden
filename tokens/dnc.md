@@ -6,7 +6,7 @@ The highest honest DNC yield right now is 0.65% on pancakeswap-amm (Arbitrum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pancakeswap-amm →](https://www.defi.garden/?pool=4d46d508-df47-4e12-bf99-e22f91e2005d#src=seo_token) | Arbitrum | 0.65% | $121.1K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=4d46d508-df47-4e12-bf99-e22f91e2005d#src=seo_token) | Arbitrum | 0.65% | $120.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DNC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $121.1K in total.
+1 live pool clear this page's $100K TVL floor, $120.9K in total.
 
 ### Are these rates safe?
 
