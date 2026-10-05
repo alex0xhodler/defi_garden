@@ -6,19 +6,19 @@ The highest honest XAUM yield right now is 16.03% on bluefin-spot (Sui), among 3
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [navi-lending →](https://www.defi.garden/?pool=92ed5037-1e23-404a-8985-93945fa91774#src=seo_token) | Sui | 0.01% | $538.9K |
+| [navi-lending →](https://www.defi.garden/?pool=92ed5037-1e23-404a-8985-93945fa91774#src=seo_token) | Sui | 0.01% | $538.7K |
 | [bluefin-spot →](https://www.defi.garden/?pool=c03f4a14-b0f0-4b91-a184-ce82f28332b3#src=seo_token) | Sui | 16.03% | $407.4K |
 | [raydium-amm →](https://www.defi.garden/?pool=2d1af0cc-235d-4df7-9cca-24beef3c2804#src=seo_token) | Solana | 0.83% | $376.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, XAUM's lower-variability candidates are raydium-amm (Solana), 0.83% APY, $376.9K TVL, https://www.defi.garden/?pool=2d1af0cc-235d-4df7-9cca-24beef3c2804#src=seo_token; navi-lending (Sui), 0.01% APY, $538.9K TVL, https://www.defi.garden/?pool=92ed5037-1e23-404a-8985-93945fa91774#src=seo_token; bluefin-spot (Sui), 16.03% APY, $407.4K TVL, https://www.defi.garden/?pool=c03f4a14-b0f0-4b91-a184-ce82f28332b3#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, XAUM's lower-variability candidates are raydium-amm (Solana), 0.83% APY, $376.9K TVL, https://www.defi.garden/?pool=2d1af0cc-235d-4df7-9cca-24beef3c2804#src=seo_token; navi-lending (Sui), 0.01% APY, $538.7K TVL, https://www.defi.garden/?pool=92ed5037-1e23-404a-8985-93945fa91774#src=seo_token; bluefin-spot (Sui), 16.03% APY, $407.4K TVL, https://www.defi.garden/?pool=c03f4a14-b0f0-4b91-a184-ce82f28332b3#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [raydium-amm →](https://www.defi.garden/?pool=2d1af0cc-235d-4df7-9cca-24beef3c2804#src=seo_token) | Solana | 0.83% | $376.9K |
-| 2 | [navi-lending →](https://www.defi.garden/?pool=92ed5037-1e23-404a-8985-93945fa91774#src=seo_token) | Sui | 0.01% | $538.9K |
+| 2 | [navi-lending →](https://www.defi.garden/?pool=92ed5037-1e23-404a-8985-93945fa91774#src=seo_token) | Sui | 0.01% | $538.7K |
 | 3 | [bluefin-spot →](https://www.defi.garden/?pool=c03f4a14-b0f0-4b91-a184-ce82f28332b3#src=seo_token) | Sui | 16.03% | $407.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which XAUM pools have the most stable APY history?
 
-Based on APY history only, XAUM's lower-variability candidates are raydium-amm (Solana), 0.83% APY, $376.9K TVL, https://www.defi.garden/?pool=2d1af0cc-235d-4df7-9cca-24beef3c2804#src=seo_token; navi-lending (Sui), 0.01% APY, $538.9K TVL, https://www.defi.garden/?pool=92ed5037-1e23-404a-8985-93945fa91774#src=seo_token; bluefin-spot (Sui), 16.03% APY, $407.4K TVL, https://www.defi.garden/?pool=c03f4a14-b0f0-4b91-a184-ce82f28332b3#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, XAUM's lower-variability candidates are raydium-amm (Solana), 0.83% APY, $376.9K TVL, https://www.defi.garden/?pool=2d1af0cc-235d-4df7-9cca-24beef3c2804#src=seo_token; navi-lending (Sui), 0.01% APY, $538.7K TVL, https://www.defi.garden/?pool=92ed5037-1e23-404a-8985-93945fa91774#src=seo_token; bluefin-spot (Sui), 16.03% APY, $407.4K TVL, https://www.defi.garden/?pool=c03f4a14-b0f0-4b91-a184-ce82f28332b3#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

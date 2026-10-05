@@ -6,20 +6,20 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=3556ef27-b6f4-555f-ba7c-e22a2f48d099#src=seo_token) | Ethereum | 0.06% | $525.5K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=2521b987-5abe-4084-b7f3-ddfd9ab1f04d#src=seo_token) | Ethereum | 0.03% | $130.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=3556ef27-b6f4-555f-ba7c-e22a2f48d099#src=seo_token) | Ethereum | 0.06% | $524.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=2521b987-5abe-4084-b7f3-ddfd9ab1f04d#src=seo_token) | Ethereum | 0.04% | $130.4K |
 | [curve-dex →](https://www.defi.garden/?pool=29d4eefc-ad49-4ce4-bad1-0e185a0ba31b#src=seo_token) | Ethereum | 0.03% | $121.5K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 BBTC의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.03%, TVL $121.5K, https://www.defi.garden/?pool=29d4eefc-ad49-4ce4-bad1-0e185a0ba31b#src=seo_token; Ethereum의 uniswap-v3, APY 0.06%, TVL $525.5K, https://www.defi.garden/?pool=3556ef27-b6f4-555f-ba7c-e22a2f48d099#src=seo_token; Ethereum의 uniswap-v4, APY 0.03%, TVL $130.6K, https://www.defi.garden/?pool=2521b987-5abe-4084-b7f3-ddfd9ab1f04d#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 BBTC의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.03%, TVL $121.5K, https://www.defi.garden/?pool=29d4eefc-ad49-4ce4-bad1-0e185a0ba31b#src=seo_token; Ethereum의 uniswap-v3, APY 0.06%, TVL $524.5K, https://www.defi.garden/?pool=3556ef27-b6f4-555f-ba7c-e22a2f48d099#src=seo_token; Ethereum의 uniswap-v4, APY 0.04%, TVL $130.4K, https://www.defi.garden/?pool=2521b987-5abe-4084-b7f3-ddfd9ab1f04d#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [curve-dex →](https://www.defi.garden/?pool=29d4eefc-ad49-4ce4-bad1-0e185a0ba31b#src=seo_token) | Ethereum | 0.03% | $121.5K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=3556ef27-b6f4-555f-ba7c-e22a2f48d099#src=seo_token) | Ethereum | 0.06% | $525.5K |
-| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=2521b987-5abe-4084-b7f3-ddfd9ab1f04d#src=seo_token) | Ethereum | 0.03% | $130.6K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=3556ef27-b6f4-555f-ba7c-e22a2f48d099#src=seo_token) | Ethereum | 0.06% | $524.5K |
+| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=2521b987-5abe-4084-b7f3-ddfd9ab1f04d#src=seo_token) | Ethereum | 0.04% | $130.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -34,7 +34,7 @@ BBTC 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.03%부터 0.06%까
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | uniswap-v3 | 0.06% | 0.68% | 기본 금리 |
-| uniswap-v4 | 0.03% | 0.72% | 기본 금리 |
+| uniswap-v4 | 0.04% | 0.72% | 기본 금리 |
 | curve-dex | 0.03% | 0.09% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -47,7 +47,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 0.03%예�
 
 ### BBTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $879.7K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $878.3K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -55,7 +55,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 0.03%예�
 
 ### BBTC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 BBTC의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.03%, TVL $121.5K, https://www.defi.garden/?pool=29d4eefc-ad49-4ce4-bad1-0e185a0ba31b#src=seo_token; Ethereum의 uniswap-v3, APY 0.06%, TVL $525.5K, https://www.defi.garden/?pool=3556ef27-b6f4-555f-ba7c-e22a2f48d099#src=seo_token; Ethereum의 uniswap-v4, APY 0.03%, TVL $130.6K, https://www.defi.garden/?pool=2521b987-5abe-4084-b7f3-ddfd9ab1f04d#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 BBTC의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.03%, TVL $121.5K, https://www.defi.garden/?pool=29d4eefc-ad49-4ce4-bad1-0e185a0ba31b#src=seo_token; Ethereum의 uniswap-v3, APY 0.06%, TVL $524.5K, https://www.defi.garden/?pool=3556ef27-b6f4-555f-ba7c-e22a2f48d099#src=seo_token; Ethereum의 uniswap-v4, APY 0.04%, TVL $130.4K, https://www.defi.garden/?pool=2521b987-5abe-4084-b7f3-ddfd9ab1f04d#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

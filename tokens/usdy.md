@@ -49,8 +49,8 @@ USDY shows up in 8 pools here, with rates from 0.04% to 3.62% APY across 6 chain
 | ondo-yield-assets | 3.62% | 3.58% | Base rate |
 | ondo-yield-assets | 3.62% | 3.58% | Base rate |
 | ondo-yield-assets | 3.62% | 3.58% | Base rate |
-| orca-dex | 0.04% | 1.86% | Base rate |
-| cetus-clmm | 0.06% | 0.13% | 79.59% incentives |
+| orca-dex | 0.04% | 1.87% | Base rate |
+| cetus-clmm | 0.06% | 0.13% | 79.39% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

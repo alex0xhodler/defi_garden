@@ -7,7 +7,7 @@ The highest honest SUSD.INFRA yield right now is 0.66% on orca-dex (Solana), amo
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [orca-dex →](https://www.defi.garden/?pool=68a8e75a-b55f-56ea-8280-00859c618189#src=seo_token) | Solana | 0.20% | $1.75M |
-| [orca-dex →](https://www.defi.garden/?pool=a08f952a-7ad4-5dfc-9902-5b678987b09f#src=seo_token) | Solana | 0.66% | $815.7K |
+| [orca-dex →](https://www.defi.garden/?pool=a08f952a-7ad4-5dfc-9902-5b678987b09f#src=seo_token) | Solana | 0.66% | $815.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -28,7 +28,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| orca-dex | 0.20% | 0.67% | Base rate |
+| orca-dex | 0.20% | 0.66% | Base rate |
 | orca-dex | 0.66% | 0.32% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.

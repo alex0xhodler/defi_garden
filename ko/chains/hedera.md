@@ -1,16 +1,15 @@
 # Hedera 디파이 수익률
 
-현재 Hedera의 가장 높은 정직한 수익률은 Hedera의 saucerswap-v1에서 13.03%이며, $100K TVL 기준을 넘는 8개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 Hedera의 가장 높은 정직한 수익률은 Hedera의 saucerswap-v1에서 12.98%이며, $100K TVL 기준을 넘는 8개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| SAUCE-HBAR | [saucerswap-v1 →](https://www.defi.garden/?pool=d88fe316-2ed0-4dd1-b205-739be5aa5814#src=seo_chain) | 6.88% | $920.5K |
-| USDC-HBAR | [saucerswap-v1 →](https://www.defi.garden/?pool=fd41363a-f064-4e74-b710-ee2b3658c32b#src=seo_chain) | 11.36% | $554.5K |
+| SAUCE-HBAR | [saucerswap-v1 →](https://www.defi.garden/?pool=d88fe316-2ed0-4dd1-b205-739be5aa5814#src=seo_chain) | 6.84% | $915.6K |
+| USDC-HBAR | [saucerswap-v1 →](https://www.defi.garden/?pool=fd41363a-f064-4e74-b710-ee2b3658c32b#src=seo_chain) | 11.05% | $553K |
 | USDC | [isle-finance →](https://www.defi.garden/?pool=6ecd5969-737d-4e09-95e5-72561e63e911#src=seo_chain) | 30.90% | $411.6K |
-| HBARX-HBAR | [saucerswap-v1 →](https://www.defi.garden/?pool=9aef43ba-4be9-4958-a186-ba03ac45e3c4#src=seo_chain) | 0.01% | $354.1K |
-| HBAR-XSAUCE | [saucerswap-v1 →](https://www.defi.garden/?pool=a95e97ec-4ed8-4ebc-8dae-2f776d83cdfa#src=seo_chain) | 1.21% | $314.8K |
-| HBAR-DOVU | [saucerswap-v1 →](https://www.defi.garden/?pool=25280848-1b55-488e-b9af-925c8330e8de#src=seo_chain) | 13.03% | $134.1K |
-| SAUCE-XSAUCE | [saucerswap-v1 →](https://www.defi.garden/?pool=61b8ca39-fd51-47bd-bc62-8cf83fc6f6f7#src=seo_chain) | 0.88% | $119.5K |
+| HBAR-XSAUCE | [saucerswap-v1 →](https://www.defi.garden/?pool=a95e97ec-4ed8-4ebc-8dae-2f776d83cdfa#src=seo_chain) | 1.20% | $313K |
+| HBAR-DOVU | [saucerswap-v1 →](https://www.defi.garden/?pool=25280848-1b55-488e-b9af-925c8330e8de#src=seo_chain) | 12.98% | $133K |
+| SAUCE-XSAUCE | [saucerswap-v1 →](https://www.defi.garden/?pool=61b8ca39-fd51-47bd-bc62-8cf83fc6f6f7#src=seo_chain) | 0.88% | $118.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -18,11 +17,11 @@
 
 ### 오늘 Hedera의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Hedera의 saucerswap-v1에서 APY 13.03%예요.
+DefiLlama 실시간 데이터 기준, Hedera의 saucerswap-v1에서 APY 12.98%예요.
 
 ### Hedera 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $3.34M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $3.33M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -43,7 +42,6 @@ DefiLlama 실시간 데이터 기준, Hedera의 saucerswap-v1에서 APY 13.03%�
 - [SAUCE](https://www.defi.garden/ko/tokens/sauce)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [XSAUCE](https://www.defi.garden/ko/tokens/xsauce)
-- [HBARX](https://www.defi.garden/ko/tokens/hbarx)
 - [DOVU](https://www.defi.garden/ko/tokens/dovu)
 
 ## 마지막 업데이트: October 5, 2026

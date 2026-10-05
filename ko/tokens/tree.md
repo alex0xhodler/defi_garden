@@ -6,20 +6,20 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=ad4acc7e-f5d4-411f-8774-7744f806cc89#src=seo_token) | Ethereum | 0.18% | $1.42M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b241433a-e7a0-4d38-b14d-2cfdd1028ec8#src=seo_token) | Base | 0.93% | $548.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ad4acc7e-f5d4-411f-8774-7744f806cc89#src=seo_token) | Ethereum | 0.18% | $1.41M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b241433a-e7a0-4d38-b14d-2cfdd1028ec8#src=seo_token) | Base | 0.93% | $547.2K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=f8257bf6-a337-4bf8-89b4-18929e81976a#src=seo_token) | Ethereum | 4.68% | $334.7K |
 | [raydium-amm →](https://www.defi.garden/?pool=369f0674-d7b6-54fd-8fb7-cb0bf8d24a34#src=seo_token) | Solana | 2.66% | $289.7K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 TREE의 변동성 낮은 후보는 Base의 uniswap-v3, APY 0.93%, TVL $548.2K, https://www.defi.garden/?pool=b241433a-e7a0-4d38-b14d-2cfdd1028ec8#src=seo_token; Ethereum의 uniswap-v3, APY 0.18%, TVL $1.42M, https://www.defi.garden/?pool=ad4acc7e-f5d4-411f-8774-7744f806cc89#src=seo_token; Ethereum의 uniswap-v4, APY 4.68%, TVL $334.7K, https://www.defi.garden/?pool=f8257bf6-a337-4bf8-89b4-18929e81976a#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 TREE의 변동성 낮은 후보는 Base의 uniswap-v3, APY 0.93%, TVL $547.2K, https://www.defi.garden/?pool=b241433a-e7a0-4d38-b14d-2cfdd1028ec8#src=seo_token; Ethereum의 uniswap-v3, APY 0.18%, TVL $1.41M, https://www.defi.garden/?pool=ad4acc7e-f5d4-411f-8774-7744f806cc89#src=seo_token; Ethereum의 uniswap-v4, APY 4.68%, TVL $334.7K, https://www.defi.garden/?pool=f8257bf6-a337-4bf8-89b4-18929e81976a#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=b241433a-e7a0-4d38-b14d-2cfdd1028ec8#src=seo_token) | Base | 0.93% | $548.2K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=ad4acc7e-f5d4-411f-8774-7744f806cc89#src=seo_token) | Ethereum | 0.18% | $1.42M |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=b241433a-e7a0-4d38-b14d-2cfdd1028ec8#src=seo_token) | Base | 0.93% | $547.2K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=ad4acc7e-f5d4-411f-8774-7744f806cc89#src=seo_token) | Ethereum | 0.18% | $1.41M |
 | 3 | [uniswap-v4 →](https://www.defi.garden/?pool=f8257bf6-a337-4bf8-89b4-18929e81976a#src=seo_token) | Ethereum | 4.68% | $334.7K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -37,7 +37,7 @@ TREE 풀은 여기 4개가 있고, 3개 체인에서 APY가 0.18%부터 4.68%까
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | uniswap-v3 | 0.18% | 1.22% | 기본 금리 |
-| uniswap-v3 | 0.93% | 1.00% | 기본 금리 |
+| uniswap-v3 | 0.93% | 1.01% | 기본 금리 |
 | uniswap-v4 | 4.68% | — | 기본 금리 |
 | raydium-amm | 2.66% | 12.43% | 기본 금리 |
 
@@ -59,7 +59,7 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 0.93%예요.
 
 ### TREE 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 TREE의 변동성 낮은 후보는 Base의 uniswap-v3, APY 0.93%, TVL $548.2K, https://www.defi.garden/?pool=b241433a-e7a0-4d38-b14d-2cfdd1028ec8#src=seo_token; Ethereum의 uniswap-v3, APY 0.18%, TVL $1.42M, https://www.defi.garden/?pool=ad4acc7e-f5d4-411f-8774-7744f806cc89#src=seo_token; Ethereum의 uniswap-v4, APY 4.68%, TVL $334.7K, https://www.defi.garden/?pool=f8257bf6-a337-4bf8-89b4-18929e81976a#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 TREE의 변동성 낮은 후보는 Base의 uniswap-v3, APY 0.93%, TVL $547.2K, https://www.defi.garden/?pool=b241433a-e7a0-4d38-b14d-2cfdd1028ec8#src=seo_token; Ethereum의 uniswap-v3, APY 0.18%, TVL $1.41M, https://www.defi.garden/?pool=ad4acc7e-f5d4-411f-8774-7744f806cc89#src=seo_token; Ethereum의 uniswap-v4, APY 4.68%, TVL $334.7K, https://www.defi.garden/?pool=f8257bf6-a337-4bf8-89b4-18929e81976a#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

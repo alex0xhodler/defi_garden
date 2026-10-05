@@ -6,26 +6,26 @@ The highest honest UMIA yield right now is 22.65% on uniswap-v4 (Base), among 2 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=47cd2d26-f616-5974-8b97-63d8ad645850#src=seo_token) | Base | 7.57% | $3.62M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=47cd2d26-f616-5974-8b97-63d8ad645850#src=seo_token) | Base | 7.40% | $3.62M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=f22e6708-60f4-51b6-9409-c2831979cb96#src=seo_token) | Base | 22.65% | $155.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, UMIA's lower-variability candidates are uniswap-v4 (Base), 7.57% APY, $3.62M TVL, https://www.defi.garden/?pool=47cd2d26-f616-5974-8b97-63d8ad645850#src=seo_token; uniswap-v4 (Base), 22.65% APY, $155.7K TVL, https://www.defi.garden/?pool=f22e6708-60f4-51b6-9409-c2831979cb96#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, UMIA's lower-variability candidates are uniswap-v4 (Base), 7.40% APY, $3.62M TVL, https://www.defi.garden/?pool=47cd2d26-f616-5974-8b97-63d8ad645850#src=seo_token; uniswap-v4 (Base), 22.65% APY, $155.7K TVL, https://www.defi.garden/?pool=f22e6708-60f4-51b6-9409-c2831979cb96#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=47cd2d26-f616-5974-8b97-63d8ad645850#src=seo_token) | Base | 7.57% | $3.62M |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=47cd2d26-f616-5974-8b97-63d8ad645850#src=seo_token) | Base | 7.40% | $3.62M |
 | 2 | [uniswap-v4 →](https://www.defi.garden/?pool=f22e6708-60f4-51b6-9409-c2831979cb96#src=seo_token) | Base | 22.65% | $155.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-UMIA shows up in 2 pools here, with rates from 7.57% to 22.65% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+UMIA shows up in 2 pools here, with rates from 7.40% to 22.65% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 89.73% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 89.58% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 7.57% | 30.63% | Base rate |
-| uniswap-v4 | 22.65% | 148.83% | Base rate |
+| uniswap-v4 | 7.40% | 30.58% | Base rate |
+| uniswap-v4 | 22.65% | 148.59% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which UMIA pools have the most stable APY history?
 
-Based on APY history only, UMIA's lower-variability candidates are uniswap-v4 (Base), 7.57% APY, $3.62M TVL, https://www.defi.garden/?pool=47cd2d26-f616-5974-8b97-63d8ad645850#src=seo_token; uniswap-v4 (Base), 22.65% APY, $155.7K TVL, https://www.defi.garden/?pool=f22e6708-60f4-51b6-9409-c2831979cb96#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, UMIA's lower-variability candidates are uniswap-v4 (Base), 7.40% APY, $3.62M TVL, https://www.defi.garden/?pool=47cd2d26-f616-5974-8b97-63d8ad645850#src=seo_token; uniswap-v4 (Base), 22.65% APY, $155.7K TVL, https://www.defi.garden/?pool=f22e6708-60f4-51b6-9409-c2831979cb96#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

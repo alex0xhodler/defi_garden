@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest RAAPL yield right now is 0.02% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RAAPL yield right now is 0.04% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=1a80fb09-2a3b-59b3-9b29-e967863fbb45#src=seo_token) | Arbitrum | 0.02% | $200K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1a80fb09-2a3b-59b3-9b29-e967863fbb45#src=seo_token) | Arbitrum | 0.04% | $199.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RAAPL yield today?
 
-0.02% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
+0.04% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many RAAPL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $200K in total.
+1 live pool clear this page's $100K TVL floor, $199.8K in total.
 
 ### Are these rates safe?
 

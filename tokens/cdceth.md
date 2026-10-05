@@ -6,19 +6,19 @@ The highest honest CDCETH yield right now is 1.93% on crypto.com-liquid-staking 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [crypto.com-liquid-staking →](https://www.defi.garden/?pool=9c2bff87-4f12-470d-bf13-b5b59f495dc5#src=seo_token) | Cronos | 1.93% | $25.59M |
+| [crypto.com-liquid-staking →](https://www.defi.garden/?pool=9c2bff87-4f12-470d-bf13-b5b59f495dc5#src=seo_token) | Cronos | 1.93% | $25.54M |
 | [tectonic →](https://www.defi.garden/?pool=e54504d3-eb54-43c6-adac-f491f808f0f4#src=seo_token) | Cronos | 0.02% | $1.01M |
 | [vvs-standard →](https://www.defi.garden/?pool=1e85a479-3ce7-40ae-b3d2-83deadb6fbd9#src=seo_token) | Cronos | 0.53% | $140.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, CDCETH's lower-variability candidates are tectonic (Cronos), 0.02% APY, $1.01M TVL, https://www.defi.garden/?pool=e54504d3-eb54-43c6-adac-f491f808f0f4#src=seo_token; crypto.com-liquid-staking (Cronos), 1.93% APY, $25.59M TVL, https://www.defi.garden/?pool=9c2bff87-4f12-470d-bf13-b5b59f495dc5#src=seo_token; vvs-standard (Cronos), 0.53% APY, $140.4K TVL, https://www.defi.garden/?pool=1e85a479-3ce7-40ae-b3d2-83deadb6fbd9#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CDCETH's lower-variability candidates are tectonic (Cronos), 0.02% APY, $1.01M TVL, https://www.defi.garden/?pool=e54504d3-eb54-43c6-adac-f491f808f0f4#src=seo_token; crypto.com-liquid-staking (Cronos), 1.93% APY, $25.54M TVL, https://www.defi.garden/?pool=9c2bff87-4f12-470d-bf13-b5b59f495dc5#src=seo_token; vvs-standard (Cronos), 0.53% APY, $140.4K TVL, https://www.defi.garden/?pool=1e85a479-3ce7-40ae-b3d2-83deadb6fbd9#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [tectonic →](https://www.defi.garden/?pool=e54504d3-eb54-43c6-adac-f491f808f0f4#src=seo_token) | Cronos | 0.02% | $1.01M |
-| 2 | [crypto.com-liquid-staking →](https://www.defi.garden/?pool=9c2bff87-4f12-470d-bf13-b5b59f495dc5#src=seo_token) | Cronos | 1.93% | $25.59M |
+| 2 | [crypto.com-liquid-staking →](https://www.defi.garden/?pool=9c2bff87-4f12-470d-bf13-b5b59f495dc5#src=seo_token) | Cronos | 1.93% | $25.54M |
 | 3 | [vvs-standard →](https://www.defi.garden/?pool=1e85a479-3ce7-40ae-b3d2-83deadb6fbd9#src=seo_token) | Cronos | 0.53% | $140.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -36,7 +36,7 @@ CDCETH shows up in 3 pools here, with rates from 0.02% to 1.93% APY across 1 cha
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | crypto.com-liquid-staking | 1.93% | 1.58% | Base rate |
-| tectonic | 0.02% | 0.02% | 65.36% incentives |
+| tectonic | 0.02% | 0.02% | 65.47% incentives |
 | vvs-standard | 0.53% | 2.18% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -49,7 +49,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many CDCETH pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $35.86M in total.
+4 live pools clear this page's $100K TVL floor, $35.8M in total.
 
 ### Are these rates safe?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which CDCETH pools have the most stable APY history?
 
-Based on APY history only, CDCETH's lower-variability candidates are tectonic (Cronos), 0.02% APY, $1.01M TVL, https://www.defi.garden/?pool=e54504d3-eb54-43c6-adac-f491f808f0f4#src=seo_token; crypto.com-liquid-staking (Cronos), 1.93% APY, $25.59M TVL, https://www.defi.garden/?pool=9c2bff87-4f12-470d-bf13-b5b59f495dc5#src=seo_token; vvs-standard (Cronos), 0.53% APY, $140.4K TVL, https://www.defi.garden/?pool=1e85a479-3ce7-40ae-b3d2-83deadb6fbd9#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CDCETH's lower-variability candidates are tectonic (Cronos), 0.02% APY, $1.01M TVL, https://www.defi.garden/?pool=e54504d3-eb54-43c6-adac-f491f808f0f4#src=seo_token; crypto.com-liquid-staking (Cronos), 1.93% APY, $25.54M TVL, https://www.defi.garden/?pool=9c2bff87-4f12-470d-bf13-b5b59f495dc5#src=seo_token; vvs-standard (Cronos), 0.53% APY, $140.4K TVL, https://www.defi.garden/?pool=1e85a479-3ce7-40ae-b3d2-83deadb6fbd9#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

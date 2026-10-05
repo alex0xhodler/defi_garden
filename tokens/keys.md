@@ -6,7 +6,7 @@ The highest honest KEYS yield right now is 0.02% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=6fa6e6cd-731b-48f6-837f-a63855d879b8#src=seo_token) | Ethereum | 0.02% | $179.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=6fa6e6cd-731b-48f6-837f-a63855d879b8#src=seo_token) | Ethereum | 0.02% | $179.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many KEYS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $179.3K in total.
+1 live pool clear this page's $100K TVL floor, $179.1K in total.
 
 ### Are these rates safe?
 

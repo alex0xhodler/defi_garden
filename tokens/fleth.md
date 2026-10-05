@@ -6,7 +6,7 @@ The highest honest FLETH yield right now is 0.04% on uniswap-v4 (Base), among 3 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=98f81d1a-7b4b-40a4-8d96-d38da041a7bf#src=seo_token) | Base | 0.04% | $317.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=98f81d1a-7b4b-40a4-8d96-d38da041a7bf#src=seo_token) | Base | 0.04% | $317.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

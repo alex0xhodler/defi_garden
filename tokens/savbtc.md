@@ -6,7 +6,7 @@ The highest honest SAVBTC yield right now is 2.37% on avant-avbtc (Avalanche), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [avant-avbtc →](https://www.defi.garden/?pool=ee869abc-744a-4e2e-bd5b-f5425dc0bd28#src=seo_token) | Avalanche | 2.37% | $6.37M |
+| [avant-avbtc →](https://www.defi.garden/?pool=ee869abc-744a-4e2e-bd5b-f5425dc0bd28#src=seo_token) | Avalanche | 2.37% | $6.35M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SAVBTC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $8.25M in total.
+2 live pools clear this page's $100K TVL floor, $8.22M in total.
 
 ### Are these rates safe?
 

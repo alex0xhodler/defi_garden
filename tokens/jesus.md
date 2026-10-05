@@ -6,7 +6,7 @@ The highest honest JESUS yield right now is 0.94% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=b8d6ceaf-7230-4e81-85e5-b1899adf6a6e#src=seo_token) | Ethereum | 0.94% | $887K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=b8d6ceaf-7230-4e81-85e5-b1899adf6a6e#src=seo_token) | Ethereum | 0.94% | $885.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many JESUS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $887K in total.
+1 live pool clear this page's $100K TVL floor, $885.2K in total.
 
 ### Are these rates safe?
 

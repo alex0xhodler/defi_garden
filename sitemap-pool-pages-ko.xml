@@ -301,12 +301,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/pools/dfdv-staked-sol-dfdvsol-solana</loc>
+    <loc>https://www.defi.garden/ko/pools/morpho-blue-senpyusdprimev2-ethereum</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/pools/morpho-blue-senpyusdprimev2-ethereum</loc>
+    <loc>https://www.defi.garden/ko/pools/dfdv-staked-sol-dfdvsol-solana</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -391,12 +391,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/pools/jpool-jsol-solana</loc>
+    <loc>https://www.defi.garden/ko/pools/aave-v3-usdc-ethereum</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/pools/aave-v3-usdc-ethereum</loc>
+    <loc>https://www.defi.garden/ko/pools/jpool-jsol-solana</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -426,12 +426,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/pools/aave-v3-wavax-avalanche</loc>
+    <loc>https://www.defi.garden/ko/pools/fluid-lending-usdt-ethereum</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/pools/fluid-lending-usdt-ethereum</loc>
+    <loc>https://www.defi.garden/ko/pools/aave-v3-wavax-avalanche</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
   </url>

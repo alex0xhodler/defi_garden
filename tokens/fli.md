@@ -6,7 +6,7 @@ The highest honest FLI yield right now is 0.19% on uniswap-v3 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=871f52f5-dab9-4a8d-af2a-a0e55929e163#src=seo_token) | Ethereum | 0.19% | $431.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=871f52f5-dab9-4a8d-af2a-a0e55929e163#src=seo_token) | Ethereum | 0.19% | $430.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many FLI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $431.2K in total.
+1 live pool clear this page's $100K TVL floor, $430.2K in total.
 
 ### Are these rates safe?
 

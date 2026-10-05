@@ -6,8 +6,8 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=2b653b93-56aa-5bb1-a05e-3372e2e0fcf2#src=seo_token) | Ethereum | 0.58% | $25.9M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=f52d4484-76a3-5f08-8f73-367ed0884e70#src=seo_token) | Ethereum | 0.27% | $6.26M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2b653b93-56aa-5bb1-a05e-3372e2e0fcf2#src=seo_token) | Ethereum | 0.58% | $25.86M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f52d4484-76a3-5f08-8f73-367ed0884e70#src=seo_token) | Ethereum | 0.27% | $6.25M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=93533d37-2a0a-5ae3-a69b-0be8cc4b2542#src=seo_token) | Ethereum | 0.62% | $5.85M |
 
 <!-- rate-stability:insufficient -->
@@ -43,7 +43,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 0.62%예�
 
 ### CIRBTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $38.01M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $37.96M예요.
 
 ### 이 수익률은 안전한가요?
 

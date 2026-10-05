@@ -2,32 +2,32 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest SUSDX yield right now is 21.73% on pendle-v2 (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUSDX yield right now is 21.72% on pendle-v2 (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [axis →](https://www.defi.garden/?pool=edf44260-d78f-5dab-853a-f89c4f523169#src=seo_token) | Ethereum | 19.35% | $39.86M |
+| [axis →](https://www.defi.garden/?pool=edf44260-d78f-5dab-853a-f89c4f523169#src=seo_token) | Ethereum | 19.40% | $39.85M |
 | [pendle-v2 →](https://www.defi.garden/?pool=23a70f1a-0742-57a0-8f14-dd7a699fdc04#src=seo_token) | Ethereum | 19.33% | $6.22M |
-| [pendle-v2 →](https://www.defi.garden/?pool=49844303-a0aa-5918-8b82-7ab917924ef4#src=seo_token) | Ethereum | 21.73% | $6.22M |
+| [pendle-v2 →](https://www.defi.garden/?pool=49844303-a0aa-5918-8b82-7ab917924ef4#src=seo_token) | Ethereum | 21.72% | $6.22M |
 | [curve-dex →](https://www.defi.garden/?pool=b679f5c4-17c3-5321-b5d0-2ffb25c5d52a#src=seo_token) | Ethereum | 8.91% | $2.22M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SUSDX's lower-variability candidates are pendle-v2 (Ethereum), 19.33% APY, $6.22M TVL, https://www.defi.garden/?pool=23a70f1a-0742-57a0-8f14-dd7a699fdc04#src=seo_token; curve-dex (Ethereum), 8.91% APY, $2.22M TVL, https://www.defi.garden/?pool=b679f5c4-17c3-5321-b5d0-2ffb25c5d52a#src=seo_token; pendle-v2 (Ethereum), 21.73% APY, $6.22M TVL, https://www.defi.garden/?pool=49844303-a0aa-5918-8b82-7ab917924ef4#src=seo_token; axis (Ethereum), 19.35% APY, $39.86M TVL, https://www.defi.garden/?pool=edf44260-d78f-5dab-853a-f89c4f523169#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SUSDX's lower-variability candidates are pendle-v2 (Ethereum), 19.33% APY, $6.22M TVL, https://www.defi.garden/?pool=23a70f1a-0742-57a0-8f14-dd7a699fdc04#src=seo_token; curve-dex (Ethereum), 8.91% APY, $2.22M TVL, https://www.defi.garden/?pool=b679f5c4-17c3-5321-b5d0-2ffb25c5d52a#src=seo_token; pendle-v2 (Ethereum), 21.72% APY, $6.22M TVL, https://www.defi.garden/?pool=49844303-a0aa-5918-8b82-7ab917924ef4#src=seo_token; axis (Ethereum), 19.40% APY, $39.85M TVL, https://www.defi.garden/?pool=edf44260-d78f-5dab-853a-f89c4f523169#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [pendle-v2 →](https://www.defi.garden/?pool=23a70f1a-0742-57a0-8f14-dd7a699fdc04#src=seo_token) | Ethereum | 19.33% | $6.22M |
 | 2 | [curve-dex →](https://www.defi.garden/?pool=b679f5c4-17c3-5321-b5d0-2ffb25c5d52a#src=seo_token) | Ethereum | 8.91% | $2.22M |
-| 3 | [pendle-v2 →](https://www.defi.garden/?pool=49844303-a0aa-5918-8b82-7ab917924ef4#src=seo_token) | Ethereum | 21.73% | $6.22M |
-| 4 | [axis →](https://www.defi.garden/?pool=edf44260-d78f-5dab-853a-f89c4f523169#src=seo_token) | Ethereum | 19.35% | $39.86M |
+| 3 | [pendle-v2 →](https://www.defi.garden/?pool=49844303-a0aa-5918-8b82-7ab917924ef4#src=seo_token) | Ethereum | 21.72% | $6.22M |
+| 4 | [axis →](https://www.defi.garden/?pool=edf44260-d78f-5dab-853a-f89c4f523169#src=seo_token) | Ethereum | 19.40% | $39.85M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SUSDX shows up in 4 pools here, with rates from 8.91% to 21.73% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SUSDX shows up in 4 pools here, with rates from 8.91% to 21.72% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 4 of these 4 pools have a trustworthy 30-day average on file, with a median of 20.89% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -35,10 +35,10 @@ SUSDX shows up in 4 pools here, with rates from 8.91% to 21.73% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| axis | 19.35% | 22.65% | Base rate |
+| axis | 19.40% | 22.64% | Base rate |
 | pendle-v2 | 19.33% | 19.14% | Base rate |
-| pendle-v2 | 21.73% | 22.64% | 2.89% incentives |
-| curve-dex | 8.91% | 11.00% | Base rate |
+| pendle-v2 | 21.72% | 22.64% | 2.91% incentives |
+| curve-dex | 8.91% | 10.99% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,11 +46,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SUSDX yield today?
 
-21.73% APY on pendle-v2 (Ethereum), based on live DefiLlama data.
+21.72% APY on pendle-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many SUSDX pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $59.49M in total.
+5 live pools clear this page's $100K TVL floor, $59.47M in total.
 
 ### Are these rates safe?
 
@@ -58,7 +58,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SUSDX pools have the most stable APY history?
 
-Based on APY history only, SUSDX's lower-variability candidates are pendle-v2 (Ethereum), 19.33% APY, $6.22M TVL, https://www.defi.garden/?pool=23a70f1a-0742-57a0-8f14-dd7a699fdc04#src=seo_token; curve-dex (Ethereum), 8.91% APY, $2.22M TVL, https://www.defi.garden/?pool=b679f5c4-17c3-5321-b5d0-2ffb25c5d52a#src=seo_token; pendle-v2 (Ethereum), 21.73% APY, $6.22M TVL, https://www.defi.garden/?pool=49844303-a0aa-5918-8b82-7ab917924ef4#src=seo_token; axis (Ethereum), 19.35% APY, $39.86M TVL, https://www.defi.garden/?pool=edf44260-d78f-5dab-853a-f89c4f523169#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SUSDX's lower-variability candidates are pendle-v2 (Ethereum), 19.33% APY, $6.22M TVL, https://www.defi.garden/?pool=23a70f1a-0742-57a0-8f14-dd7a699fdc04#src=seo_token; curve-dex (Ethereum), 8.91% APY, $2.22M TVL, https://www.defi.garden/?pool=b679f5c4-17c3-5321-b5d0-2ffb25c5d52a#src=seo_token; pendle-v2 (Ethereum), 21.72% APY, $6.22M TVL, https://www.defi.garden/?pool=49844303-a0aa-5918-8b82-7ab917924ef4#src=seo_token; axis (Ethereum), 19.40% APY, $39.85M TVL, https://www.defi.garden/?pool=edf44260-d78f-5dab-853a-f89c4f523169#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

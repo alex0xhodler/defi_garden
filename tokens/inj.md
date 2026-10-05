@@ -2,31 +2,31 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest INJ yield right now is 55.27% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest INJ yield right now is 52.47% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=4ab491e2-e643-5e81-8441-12710be1c65b#src=seo_token) | Ethereum | 24.10% | $555.8K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=59695fdd-1382-48e7-ac2e-3e0689ecb54b#src=seo_token) | Ethereum | 19.94% | $212.3K |
-| [raydium-amm →](https://www.defi.garden/?pool=fb2f53ba-9429-5830-8fc5-07e7c25d9d12#src=seo_token) | Solana | 55.27% | $209.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=4ab491e2-e643-5e81-8441-12710be1c65b#src=seo_token) | Ethereum | 24.13% | $555.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=59695fdd-1382-48e7-ac2e-3e0689ecb54b#src=seo_token) | Ethereum | 20.05% | $211.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=fb2f53ba-9429-5830-8fc5-07e7c25d9d12#src=seo_token) | Solana | 52.47% | $209.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, INJ's lower-variability candidates are uniswap-v4 (Ethereum), 19.94% APY, $212.3K TVL, https://www.defi.garden/?pool=59695fdd-1382-48e7-ac2e-3e0689ecb54b#src=seo_token; uniswap-v4 (Ethereum), 24.10% APY, $555.8K TVL, https://www.defi.garden/?pool=4ab491e2-e643-5e81-8441-12710be1c65b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, INJ's lower-variability candidates are uniswap-v4 (Ethereum), 20.05% APY, $211.8K TVL, https://www.defi.garden/?pool=59695fdd-1382-48e7-ac2e-3e0689ecb54b#src=seo_token; uniswap-v4 (Ethereum), 24.13% APY, $555.2K TVL, https://www.defi.garden/?pool=4ab491e2-e643-5e81-8441-12710be1c65b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=59695fdd-1382-48e7-ac2e-3e0689ecb54b#src=seo_token) | Ethereum | 19.94% | $212.3K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=4ab491e2-e643-5e81-8441-12710be1c65b#src=seo_token) | Ethereum | 24.10% | $555.8K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=59695fdd-1382-48e7-ac2e-3e0689ecb54b#src=seo_token) | Ethereum | 20.05% | $211.8K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=4ab491e2-e643-5e81-8441-12710be1c65b#src=seo_token) | Ethereum | 24.13% | $555.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-INJ shows up in 3 pools here, with rates from 19.94% to 55.27% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+INJ shows up in 3 pools here, with rates from 20.05% to 52.47% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 113.63% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 113.61% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -34,9 +34,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 24.10% | 113.63% | Base rate |
-| uniswap-v4 | 19.94% | 72.14% | Base rate |
-| raydium-amm | 55.27% | 621.51% | Base rate |
+| uniswap-v4 | 24.13% | 113.61% | Base rate |
+| uniswap-v4 | 20.05% | 72.13% | Base rate |
+| raydium-amm | 52.47% | 620.18% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -44,11 +44,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest INJ yield today?
 
-55.27% APY on raydium-amm (Solana), based on live DefiLlama data.
+52.47% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many INJ pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $977.6K in total.
+3 live pools clear this page's $100K TVL floor, $976.4K in total.
 
 ### Are these rates safe?
 
@@ -56,7 +56,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which INJ pools have the most stable APY history?
 
-Based on APY history only, INJ's lower-variability candidates are uniswap-v4 (Ethereum), 19.94% APY, $212.3K TVL, https://www.defi.garden/?pool=59695fdd-1382-48e7-ac2e-3e0689ecb54b#src=seo_token; uniswap-v4 (Ethereum), 24.10% APY, $555.8K TVL, https://www.defi.garden/?pool=4ab491e2-e643-5e81-8441-12710be1c65b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, INJ's lower-variability candidates are uniswap-v4 (Ethereum), 20.05% APY, $211.8K TVL, https://www.defi.garden/?pool=59695fdd-1382-48e7-ac2e-3e0689ecb54b#src=seo_token; uniswap-v4 (Ethereum), 24.13% APY, $555.2K TVL, https://www.defi.garden/?pool=4ab491e2-e643-5e81-8441-12710be1c65b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

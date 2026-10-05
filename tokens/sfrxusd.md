@@ -2,54 +2,54 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest SFRXUSD yield right now is 15.70% on convex-finance (Ethereum), among 11 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SFRXUSD yield right now is 15.74% on stake-dao-yield (Ethereum), among 11 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [frax →](https://www.defi.garden/?pool=42523cca-14b0-44f6-95fb-4781069520a5#src=seo_token) | Ethereum | 5.10% | $40.9M |
 | [curve-dex →](https://www.defi.garden/?pool=aa1fc20e-c4b6-4fa3-bcba-c9b8fd12cfe5#src=seo_token) | Ethereum | 3.58% | $11.89M |
-| [convex-finance →](https://www.defi.garden/?pool=956bda67-d4b0-41bf-92da-ea01f4622dda#src=seo_token) | Ethereum | 4.03% | $11.89M |
-| [curve-dex →](https://www.defi.garden/?pool=3dde1458-2baa-4b83-a451-c81ac14c8dea#src=seo_token) | Ethereum | 8.17% | $2.81M |
-| [convex-finance →](https://www.defi.garden/?pool=0a84dcf2-f71a-4863-bd2e-1952a043eb0c#src=seo_token) | Ethereum | 15.70% | $1.83M |
-| [curve-dex →](https://www.defi.garden/?pool=15692d23-4da2-4a73-99c0-9c93c1aa86d9#src=seo_token) | Ethereum | 6.53% | $853K |
-| [stake-dao-yield →](https://www.defi.garden/?pool=b4436242-634b-4561-9030-11dca253a39a#src=seo_token) | Ethereum | 15.65% | $656.8K |
+| [convex-finance →](https://www.defi.garden/?pool=956bda67-d4b0-41bf-92da-ea01f4622dda#src=seo_token) | Ethereum | 4.02% | $11.89M |
+| [curve-dex →](https://www.defi.garden/?pool=3dde1458-2baa-4b83-a451-c81ac14c8dea#src=seo_token) | Ethereum | 8.14% | $2.81M |
+| [convex-finance →](https://www.defi.garden/?pool=0a84dcf2-f71a-4863-bd2e-1952a043eb0c#src=seo_token) | Ethereum | 15.63% | $1.83M |
+| [curve-dex →](https://www.defi.garden/?pool=15692d23-4da2-4a73-99c0-9c93c1aa86d9#src=seo_token) | Ethereum | 6.50% | $853K |
+| [stake-dao-yield →](https://www.defi.garden/?pool=b4436242-634b-4561-9030-11dca253a39a#src=seo_token) | Ethereum | 15.74% | $656.8K |
 | [curve-dex →](https://www.defi.garden/?pool=d515263f-3726-49ad-80c3-d156e8ca79e0#src=seo_token) | Ethereum | 4.12% | $207.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SFRXUSD's lower-variability candidates are convex-finance (Ethereum), 4.03% APY, $11.89M TVL, https://www.defi.garden/?pool=956bda67-d4b0-41bf-92da-ea01f4622dda#src=seo_token; curve-dex (Ethereum), 3.58% APY, $11.89M TVL, https://www.defi.garden/?pool=aa1fc20e-c4b6-4fa3-bcba-c9b8fd12cfe5#src=seo_token; frax (Ethereum), 5.10% APY, $40.9M TVL, https://www.defi.garden/?pool=42523cca-14b0-44f6-95fb-4781069520a5#src=seo_token; curve-dex (Ethereum), 6.53% APY, $853K TVL, https://www.defi.garden/?pool=15692d23-4da2-4a73-99c0-9c93c1aa86d9#src=seo_token; curve-dex (Ethereum), 8.17% APY, $2.81M TVL, https://www.defi.garden/?pool=3dde1458-2baa-4b83-a451-c81ac14c8dea#src=seo_token; stake-dao-yield (Ethereum), 15.65% APY, $656.8K TVL, https://www.defi.garden/?pool=b4436242-634b-4561-9030-11dca253a39a#src=seo_token; convex-finance (Ethereum), 15.70% APY, $1.83M TVL, https://www.defi.garden/?pool=0a84dcf2-f71a-4863-bd2e-1952a043eb0c#src=seo_token; curve-dex (Ethereum), 4.12% APY, $207.7K TVL, https://www.defi.garden/?pool=d515263f-3726-49ad-80c3-d156e8ca79e0#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SFRXUSD's lower-variability candidates are convex-finance (Ethereum), 4.02% APY, $11.89M TVL, https://www.defi.garden/?pool=956bda67-d4b0-41bf-92da-ea01f4622dda#src=seo_token; curve-dex (Ethereum), 3.58% APY, $11.89M TVL, https://www.defi.garden/?pool=aa1fc20e-c4b6-4fa3-bcba-c9b8fd12cfe5#src=seo_token; frax (Ethereum), 5.10% APY, $40.9M TVL, https://www.defi.garden/?pool=42523cca-14b0-44f6-95fb-4781069520a5#src=seo_token; curve-dex (Ethereum), 6.50% APY, $853K TVL, https://www.defi.garden/?pool=15692d23-4da2-4a73-99c0-9c93c1aa86d9#src=seo_token; curve-dex (Ethereum), 8.14% APY, $2.81M TVL, https://www.defi.garden/?pool=3dde1458-2baa-4b83-a451-c81ac14c8dea#src=seo_token; stake-dao-yield (Ethereum), 15.74% APY, $656.8K TVL, https://www.defi.garden/?pool=b4436242-634b-4561-9030-11dca253a39a#src=seo_token; convex-finance (Ethereum), 15.63% APY, $1.83M TVL, https://www.defi.garden/?pool=0a84dcf2-f71a-4863-bd2e-1952a043eb0c#src=seo_token; curve-dex (Ethereum), 4.12% APY, $207.7K TVL, https://www.defi.garden/?pool=d515263f-3726-49ad-80c3-d156e8ca79e0#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [convex-finance →](https://www.defi.garden/?pool=956bda67-d4b0-41bf-92da-ea01f4622dda#src=seo_token) | Ethereum | 4.03% | $11.89M |
+| 1 | [convex-finance →](https://www.defi.garden/?pool=956bda67-d4b0-41bf-92da-ea01f4622dda#src=seo_token) | Ethereum | 4.02% | $11.89M |
 | 2 | [curve-dex →](https://www.defi.garden/?pool=aa1fc20e-c4b6-4fa3-bcba-c9b8fd12cfe5#src=seo_token) | Ethereum | 3.58% | $11.89M |
 | 3 | [frax →](https://www.defi.garden/?pool=42523cca-14b0-44f6-95fb-4781069520a5#src=seo_token) | Ethereum | 5.10% | $40.9M |
-| 4 | [curve-dex →](https://www.defi.garden/?pool=15692d23-4da2-4a73-99c0-9c93c1aa86d9#src=seo_token) | Ethereum | 6.53% | $853K |
-| 5 | [curve-dex →](https://www.defi.garden/?pool=3dde1458-2baa-4b83-a451-c81ac14c8dea#src=seo_token) | Ethereum | 8.17% | $2.81M |
-| 6 | [stake-dao-yield →](https://www.defi.garden/?pool=b4436242-634b-4561-9030-11dca253a39a#src=seo_token) | Ethereum | 15.65% | $656.8K |
-| 7 | [convex-finance →](https://www.defi.garden/?pool=0a84dcf2-f71a-4863-bd2e-1952a043eb0c#src=seo_token) | Ethereum | 15.70% | $1.83M |
+| 4 | [curve-dex →](https://www.defi.garden/?pool=15692d23-4da2-4a73-99c0-9c93c1aa86d9#src=seo_token) | Ethereum | 6.50% | $853K |
+| 5 | [curve-dex →](https://www.defi.garden/?pool=3dde1458-2baa-4b83-a451-c81ac14c8dea#src=seo_token) | Ethereum | 8.14% | $2.81M |
+| 6 | [stake-dao-yield →](https://www.defi.garden/?pool=b4436242-634b-4561-9030-11dca253a39a#src=seo_token) | Ethereum | 15.74% | $656.8K |
+| 7 | [convex-finance →](https://www.defi.garden/?pool=0a84dcf2-f71a-4863-bd2e-1952a043eb0c#src=seo_token) | Ethereum | 15.63% | $1.83M |
 | 8 | [curve-dex →](https://www.defi.garden/?pool=d515263f-3726-49ad-80c3-d156e8ca79e0#src=seo_token) | Ethereum | 4.12% | $207.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SFRXUSD shows up in 8 pools here, with rates from 3.58% to 15.70% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SFRXUSD shows up in 8 pools here, with rates from 3.58% to 15.74% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 6.88% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 6.87% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 6 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | frax | 5.10% | 4.90% | Base rate |
-| curve-dex | 3.58% | 3.17% | 22.36% incentives |
-| convex-finance | 4.03% | 3.63% | 30.96% incentives |
-| curve-dex | 8.17% | 8.85% | 84.21% incentives |
-| convex-finance | 15.70% | 16.10% | 91.78% incentives |
-| curve-dex | 6.53% | 15.87% | 82.69% incentives |
-| stake-dao-yield | 15.65% | 15.31% | 91.82% incentives |
+| curve-dex | 3.58% | 3.18% | 22.28% incentives |
+| convex-finance | 4.02% | 3.63% | 30.86% incentives |
+| curve-dex | 8.14% | 8.84% | 84.15% incentives |
+| convex-finance | 15.63% | 16.10% | 91.75% incentives |
+| curve-dex | 6.50% | 15.87% | 82.62% incentives |
+| stake-dao-yield | 15.74% | 15.31% | 91.87% incentives |
 | curve-dex | 4.12% | 3.78% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -58,7 +58,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SFRXUSD yield today?
 
-15.70% APY on convex-finance (Ethereum), based on live DefiLlama data.
+15.74% APY on stake-dao-yield (Ethereum), based on live DefiLlama data.
 
 ### How many SFRXUSD pools clear the TVL floor?
 
@@ -70,7 +70,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SFRXUSD pools have the most stable APY history?
 
-Based on APY history only, SFRXUSD's lower-variability candidates are convex-finance (Ethereum), 4.03% APY, $11.89M TVL, https://www.defi.garden/?pool=956bda67-d4b0-41bf-92da-ea01f4622dda#src=seo_token; curve-dex (Ethereum), 3.58% APY, $11.89M TVL, https://www.defi.garden/?pool=aa1fc20e-c4b6-4fa3-bcba-c9b8fd12cfe5#src=seo_token; frax (Ethereum), 5.10% APY, $40.9M TVL, https://www.defi.garden/?pool=42523cca-14b0-44f6-95fb-4781069520a5#src=seo_token; curve-dex (Ethereum), 6.53% APY, $853K TVL, https://www.defi.garden/?pool=15692d23-4da2-4a73-99c0-9c93c1aa86d9#src=seo_token; curve-dex (Ethereum), 8.17% APY, $2.81M TVL, https://www.defi.garden/?pool=3dde1458-2baa-4b83-a451-c81ac14c8dea#src=seo_token; stake-dao-yield (Ethereum), 15.65% APY, $656.8K TVL, https://www.defi.garden/?pool=b4436242-634b-4561-9030-11dca253a39a#src=seo_token; convex-finance (Ethereum), 15.70% APY, $1.83M TVL, https://www.defi.garden/?pool=0a84dcf2-f71a-4863-bd2e-1952a043eb0c#src=seo_token; curve-dex (Ethereum), 4.12% APY, $207.7K TVL, https://www.defi.garden/?pool=d515263f-3726-49ad-80c3-d156e8ca79e0#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SFRXUSD's lower-variability candidates are convex-finance (Ethereum), 4.02% APY, $11.89M TVL, https://www.defi.garden/?pool=956bda67-d4b0-41bf-92da-ea01f4622dda#src=seo_token; curve-dex (Ethereum), 3.58% APY, $11.89M TVL, https://www.defi.garden/?pool=aa1fc20e-c4b6-4fa3-bcba-c9b8fd12cfe5#src=seo_token; frax (Ethereum), 5.10% APY, $40.9M TVL, https://www.defi.garden/?pool=42523cca-14b0-44f6-95fb-4781069520a5#src=seo_token; curve-dex (Ethereum), 6.50% APY, $853K TVL, https://www.defi.garden/?pool=15692d23-4da2-4a73-99c0-9c93c1aa86d9#src=seo_token; curve-dex (Ethereum), 8.14% APY, $2.81M TVL, https://www.defi.garden/?pool=3dde1458-2baa-4b83-a451-c81ac14c8dea#src=seo_token; stake-dao-yield (Ethereum), 15.74% APY, $656.8K TVL, https://www.defi.garden/?pool=b4436242-634b-4561-9030-11dca253a39a#src=seo_token; convex-finance (Ethereum), 15.63% APY, $1.83M TVL, https://www.defi.garden/?pool=0a84dcf2-f71a-4863-bd2e-1952a043eb0c#src=seo_token; curve-dex (Ethereum), 4.12% APY, $207.7K TVL, https://www.defi.garden/?pool=d515263f-3726-49ad-80c3-d156e8ca79e0#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

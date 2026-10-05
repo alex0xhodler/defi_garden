@@ -1,13 +1,13 @@
 # Stacks DeFi Yields
 
-The highest honest Stacks yield right now is 6.00% on stackingdao (Stacks), among 11 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Stacks yield right now is 6.02% on stackingdao (Stacks), among 11 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
 | SBTC | [zest-v2 →](https://www.defi.garden/?pool=f003d6df-fb8f-4a74-8cfb-aee8cc44f433#src=seo_chain) | 0.12% | $50.55M |
-| STSTX | [stackingdao →](https://www.defi.garden/?pool=c91935ee-bd59-5219-9c63-1a63c023fce5#src=seo_chain) | 4.77% | $18.47M |
-| STBTC | [stackingdao →](https://www.defi.garden/?pool=ce85a606-365c-5829-8fd4-1bfdf6cbaf00#src=seo_chain) | 2.39% | $17.81M |
-| STSTXBTC | [stackingdao →](https://www.defi.garden/?pool=a6d74d81-d4fc-50e5-8a44-58121d37551b#src=seo_chain) | 6.00% | $10.11M |
+| STSTX | [stackingdao →](https://www.defi.garden/?pool=c91935ee-bd59-5219-9c63-1a63c023fce5#src=seo_chain) | 4.79% | $18.33M |
+| STBTC | [stackingdao →](https://www.defi.garden/?pool=ce85a606-365c-5829-8fd4-1bfdf6cbaf00#src=seo_chain) | 2.40% | $17.75M |
+| STSTXBTC | [stackingdao →](https://www.defi.garden/?pool=a6d74d81-d4fc-50e5-8a44-58121d37551b#src=seo_chain) | 6.02% | $10.04M |
 | USDCX | [granite →](https://www.defi.garden/?pool=cf820197-5161-5b6c-afaf-628aa333be7b#src=seo_chain) | 0.26% | $3.82M |
 | STSTX | [zest-v2 →](https://www.defi.garden/?pool=c9199d93-6e54-48cf-9063-aba26c9887e5#src=seo_chain) | 0.08% | $3.21M |
 | USDCX | [zest-v2 →](https://www.defi.garden/?pool=d45867ba-dd86-45f4-9b89-1893b65eaf69#src=seo_chain) | 1.19% | $2.9M |
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Stacks yield today?
 
-6.00% APY on stackingdao (Stacks), based on live DefiLlama data.
+6.02% APY on stackingdao (Stacks), based on live DefiLlama data.
 
 ### How many Stacks pools clear the TVL floor?
 
-11 live pools clear this page's $100K TVL floor, $122.79M in total.
+11 live pools clear this page's $100K TVL floor, $122.51M in total.
 
 ### Are these rates safe?
 

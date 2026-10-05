@@ -6,10 +6,10 @@ The highest honest ZC yield right now is 204.14% on uniswap-v2 (Base), among 6 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=bd1a6986-bf19-586a-b794-cbbf9fd83d6c#src=seo_token) | Ethereum | 235.31% | $420.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=bd1a6986-bf19-586a-b794-cbbf9fd83d6c#src=seo_token) | Ethereum | 246.20% | $404.1K |
 | [uniswap-v2 →](https://www.defi.garden/?pool=4ce12363-9513-5f84-b003-9d874e265c83#src=seo_token) | Base | 204.14% | $322.5K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=cbd3b8f0-82c1-5478-8c9d-09cc9ec6b476#src=seo_token) | Ethereum | 42.52% | $198.7K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=5369bb60-f765-58ea-a267-24f84b10187e#src=seo_token) | Ethereum | 28.27% | $101.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=cbd3b8f0-82c1-5478-8c9d-09cc9ec6b476#src=seo_token) | Ethereum | 44.42% | $191.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=5369bb60-f765-58ea-a267-24f84b10187e#src=seo_token) | Ethereum | 28.67% | $100.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -20,7 +20,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-ZC shows up in 4 pools here, with rates from 28.27% to 235.31% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+ZC shows up in 4 pools here, with rates from 28.67% to 246.20% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 1 of these 4 pools has a trustworthy 30-day average on file, with a median of 238.52% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -30,10 +30,10 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 235.31% | — | Base rate |
+| uniswap-v4 | 246.20% | — | Base rate |
 | uniswap-v2 | 204.14% | 238.52% | Base rate |
-| uniswap-v4 | 42.52% | — | Base rate |
-| uniswap-v4 | 28.27% | — | Base rate |
+| uniswap-v4 | 44.42% | — | Base rate |
+| uniswap-v4 | 28.67% | — | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,7 +45,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ZC pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $1.96M in total.
+6 live pools clear this page's $100K TVL floor, $1.92M in total.
 
 ### Are these rates safe?
 

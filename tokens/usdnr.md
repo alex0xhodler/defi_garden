@@ -6,7 +6,7 @@ The highest honest USDNR yield right now is 0.13% on curve-dex (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=4c68a55a-84e3-48a7-8e5b-2ca451d1835e#src=seo_token) | Ethereum | 0.13% | $804K |
+| [curve-dex →](https://www.defi.garden/?pool=4c68a55a-84e3-48a7-8e5b-2ca451d1835e#src=seo_token) | Ethereum | 0.13% | $804.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

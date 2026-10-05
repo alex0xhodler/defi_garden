@@ -2,40 +2,40 @@
 
 *DefiLlama 데이터 생성 시점 검증: October 5, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 EUSD의 가장 높은 정직한 수익률은 Base의 stake-dao-yield에서 46.74%이며, $100K TVL 기준을 넘는 16개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 EUSD의 가장 높은 정직한 수익률은 Base의 stake-dao-yield에서 47.04%이며, $100K TVL 기준을 넘는 16개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1#src=seo_token) | Ethereum | 1.06% | $1.43M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=aeb97af6-bd75-4a34-975b-9166427a0ce3#src=seo_token) | Base | 3.31% | $754.5K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=bde35fef-649f-4514-a564-e7e7da05eb52#src=seo_token) | Base | 13.11% | $498.6K |
+| [curve-dex →](https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1#src=seo_token) | Ethereum | 1.06% | $1.44M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=aeb97af6-bd75-4a34-975b-9166427a0ce3#src=seo_token) | Base | 3.31% | $753.7K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=bde35fef-649f-4514-a564-e7e7da05eb52#src=seo_token) | Base | 13.11% | $498.2K |
 | [curve-dex →](https://www.defi.garden/?pool=3e4081dd-324d-4a46-8aba-01320ac68fa2#src=seo_token) | Ethereum | 0.48% | $408.9K |
-| [curve-dex →](https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3#src=seo_token) | Base | 44.37% | $333.7K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=5d98651c-3954-4061-9f5c-58783e030604#src=seo_token) | Base | 39.40% | $247.3K |
-| [stake-dao-yield →](https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b#src=seo_token) | Base | 46.74% | $236.1K |
+| [curve-dex →](https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3#src=seo_token) | Base | 44.16% | $333.7K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=5d98651c-3954-4061-9f5c-58783e030604#src=seo_token) | Base | 39.43% | $246.8K |
+| [stake-dao-yield →](https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b#src=seo_token) | Base | 47.04% | $236.1K |
 | [curve-dex →](https://www.defi.garden/?pool=817329d2-07cb-4cbd-82ac-eb9bc0add450#src=seo_token) | Ethereum | 0.14% | $226.6K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 EUSD의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 1.06%, TVL $1.43M, https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1#src=seo_token; Base의 aerodrome-v1, APY 13.11%, TVL $498.6K, https://www.defi.garden/?pool=bde35fef-649f-4514-a564-e7e7da05eb52#src=seo_token; Ethereum의 curve-dex, APY 0.48%, TVL $408.9K, https://www.defi.garden/?pool=3e4081dd-324d-4a46-8aba-01320ac68fa2#src=seo_token; Ethereum의 curve-dex, APY 0.14%, TVL $226.6K, https://www.defi.garden/?pool=817329d2-07cb-4cbd-82ac-eb9bc0add450#src=seo_token; Base의 aerodrome-slipstream, APY 3.31%, TVL $754.5K, https://www.defi.garden/?pool=aeb97af6-bd75-4a34-975b-9166427a0ce3#src=seo_token; Base의 stake-dao-yield, APY 46.74%, TVL $236.1K, https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b#src=seo_token; Base의 aerodrome-v1, APY 39.40%, TVL $247.3K, https://www.defi.garden/?pool=5d98651c-3954-4061-9f5c-58783e030604#src=seo_token; Base의 curve-dex, APY 44.37%, TVL $333.7K, https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 EUSD의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 1.06%, TVL $1.44M, https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1#src=seo_token; Base의 aerodrome-v1, APY 13.11%, TVL $498.2K, https://www.defi.garden/?pool=bde35fef-649f-4514-a564-e7e7da05eb52#src=seo_token; Ethereum의 curve-dex, APY 0.48%, TVL $408.9K, https://www.defi.garden/?pool=3e4081dd-324d-4a46-8aba-01320ac68fa2#src=seo_token; Ethereum의 curve-dex, APY 0.14%, TVL $226.6K, https://www.defi.garden/?pool=817329d2-07cb-4cbd-82ac-eb9bc0add450#src=seo_token; Base의 aerodrome-slipstream, APY 3.31%, TVL $753.7K, https://www.defi.garden/?pool=aeb97af6-bd75-4a34-975b-9166427a0ce3#src=seo_token; Base의 stake-dao-yield, APY 47.04%, TVL $236.1K, https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b#src=seo_token; Base의 aerodrome-v1, APY 39.43%, TVL $246.8K, https://www.defi.garden/?pool=5d98651c-3954-4061-9f5c-58783e030604#src=seo_token; Base의 curve-dex, APY 44.16%, TVL $333.7K, https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1#src=seo_token) | Ethereum | 1.06% | $1.43M |
-| 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=bde35fef-649f-4514-a564-e7e7da05eb52#src=seo_token) | Base | 13.11% | $498.6K |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1#src=seo_token) | Ethereum | 1.06% | $1.44M |
+| 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=bde35fef-649f-4514-a564-e7e7da05eb52#src=seo_token) | Base | 13.11% | $498.2K |
 | 3 | [curve-dex →](https://www.defi.garden/?pool=3e4081dd-324d-4a46-8aba-01320ac68fa2#src=seo_token) | Ethereum | 0.48% | $408.9K |
 | 4 | [curve-dex →](https://www.defi.garden/?pool=817329d2-07cb-4cbd-82ac-eb9bc0add450#src=seo_token) | Ethereum | 0.14% | $226.6K |
-| 5 | [aerodrome-slipstream →](https://www.defi.garden/?pool=aeb97af6-bd75-4a34-975b-9166427a0ce3#src=seo_token) | Base | 3.31% | $754.5K |
-| 6 | [stake-dao-yield →](https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b#src=seo_token) | Base | 46.74% | $236.1K |
-| 7 | [aerodrome-v1 →](https://www.defi.garden/?pool=5d98651c-3954-4061-9f5c-58783e030604#src=seo_token) | Base | 39.40% | $247.3K |
-| 8 | [curve-dex →](https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3#src=seo_token) | Base | 44.37% | $333.7K |
+| 5 | [aerodrome-slipstream →](https://www.defi.garden/?pool=aeb97af6-bd75-4a34-975b-9166427a0ce3#src=seo_token) | Base | 3.31% | $753.7K |
+| 6 | [stake-dao-yield →](https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b#src=seo_token) | Base | 47.04% | $236.1K |
+| 7 | [aerodrome-v1 →](https://www.defi.garden/?pool=5d98651c-3954-4061-9f5c-58783e030604#src=seo_token) | Base | 39.43% | $246.8K |
+| 8 | [curve-dex →](https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3#src=seo_token) | Base | 44.16% | $333.7K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-EUSD 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.14%부터 46.74%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+EUSD 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.14%부터 47.04%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 7.88%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -46,12 +46,12 @@ EUSD 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.14%부터 46.74%�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | curve-dex | 1.06% | 1.26% | 기본 금리 |
-| aerodrome-slipstream | 3.31% | 4.66% | 인센티브 87.09% |
-| aerodrome-v1 | 13.11% | 11.10% | 인센티브 100.00% |
+| aerodrome-slipstream | 3.31% | 4.66% | 인센티브 87.07% |
+| aerodrome-v1 | 13.11% | 11.11% | 인센티브 100.00% |
 | curve-dex | 0.48% | 1.29% | 기본 금리 |
-| curve-dex | 44.37% | 39.66% | 인센티브 99.55% |
-| aerodrome-v1 | 39.40% | 39.49% | 인센티브 100.00% |
-| stake-dao-yield | 46.74% | 41.68% | 인센티브 99.47% |
+| curve-dex | 44.16% | 39.66% | 인센티브 99.55% |
+| aerodrome-v1 | 39.43% | 39.50% | 인센티브 100.00% |
+| stake-dao-yield | 47.04% | 41.69% | 인센티브 99.47% |
 | curve-dex | 0.14% | 0.37% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -60,11 +60,11 @@ EUSD 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.14%부터 46.74%�
 
 ### 오늘 EUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 stake-dao-yield에서 APY 46.74%예요.
+DefiLlama 실시간 데이터 기준, Base의 stake-dao-yield에서 APY 47.04%예요.
 
 ### EUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 16개이며, 합산 TVL은 $31.65M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 16개이며, 합산 TVL은 $31.66M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -72,7 +72,7 @@ DefiLlama 실시간 데이터 기준, Base의 stake-dao-yield에서 APY 46.74%�
 
 ### EUSD 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 EUSD의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 1.06%, TVL $1.43M, https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1#src=seo_token; Base의 aerodrome-v1, APY 13.11%, TVL $498.6K, https://www.defi.garden/?pool=bde35fef-649f-4514-a564-e7e7da05eb52#src=seo_token; Ethereum의 curve-dex, APY 0.48%, TVL $408.9K, https://www.defi.garden/?pool=3e4081dd-324d-4a46-8aba-01320ac68fa2#src=seo_token; Ethereum의 curve-dex, APY 0.14%, TVL $226.6K, https://www.defi.garden/?pool=817329d2-07cb-4cbd-82ac-eb9bc0add450#src=seo_token; Base의 aerodrome-slipstream, APY 3.31%, TVL $754.5K, https://www.defi.garden/?pool=aeb97af6-bd75-4a34-975b-9166427a0ce3#src=seo_token; Base의 stake-dao-yield, APY 46.74%, TVL $236.1K, https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b#src=seo_token; Base의 aerodrome-v1, APY 39.40%, TVL $247.3K, https://www.defi.garden/?pool=5d98651c-3954-4061-9f5c-58783e030604#src=seo_token; Base의 curve-dex, APY 44.37%, TVL $333.7K, https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 EUSD의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 1.06%, TVL $1.44M, https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1#src=seo_token; Base의 aerodrome-v1, APY 13.11%, TVL $498.2K, https://www.defi.garden/?pool=bde35fef-649f-4514-a564-e7e7da05eb52#src=seo_token; Ethereum의 curve-dex, APY 0.48%, TVL $408.9K, https://www.defi.garden/?pool=3e4081dd-324d-4a46-8aba-01320ac68fa2#src=seo_token; Ethereum의 curve-dex, APY 0.14%, TVL $226.6K, https://www.defi.garden/?pool=817329d2-07cb-4cbd-82ac-eb9bc0add450#src=seo_token; Base의 aerodrome-slipstream, APY 3.31%, TVL $753.7K, https://www.defi.garden/?pool=aeb97af6-bd75-4a34-975b-9166427a0ce3#src=seo_token; Base의 stake-dao-yield, APY 47.04%, TVL $236.1K, https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b#src=seo_token; Base의 aerodrome-v1, APY 39.43%, TVL $246.8K, https://www.defi.garden/?pool=5d98651c-3954-4061-9f5c-58783e030604#src=seo_token; Base의 curve-dex, APY 44.16%, TVL $333.7K, https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

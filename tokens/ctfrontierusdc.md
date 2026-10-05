@@ -7,17 +7,17 @@ The highest honest CTFRONTIERUSDC yield right now is 17.98% on concrete (Ethereu
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [concrete →](https://www.defi.garden/?pool=ae9ce29c-ab67-41cd-b2a9-3bc3353d595f#src=seo_token) | Ethereum | 8.84% | $1.2M |
-| [concrete →](https://www.defi.garden/?pool=5235e650-9d82-44dd-8b0f-88e7929a9edf#src=seo_token) | Ethereum | 17.98% | $481K |
+| [concrete →](https://www.defi.garden/?pool=5235e650-9d82-44dd-8b0f-88e7929a9edf#src=seo_token) | Ethereum | 17.98% | $481.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, CTFRONTIERUSDC's lower-variability candidates are concrete (Ethereum), 8.84% APY, $1.2M TVL, https://www.defi.garden/?pool=ae9ce29c-ab67-41cd-b2a9-3bc3353d595f#src=seo_token; concrete (Ethereum), 17.98% APY, $481K TVL, https://www.defi.garden/?pool=5235e650-9d82-44dd-8b0f-88e7929a9edf#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CTFRONTIERUSDC's lower-variability candidates are concrete (Ethereum), 8.84% APY, $1.2M TVL, https://www.defi.garden/?pool=ae9ce29c-ab67-41cd-b2a9-3bc3353d595f#src=seo_token; concrete (Ethereum), 17.98% APY, $481.1K TVL, https://www.defi.garden/?pool=5235e650-9d82-44dd-8b0f-88e7929a9edf#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [concrete →](https://www.defi.garden/?pool=ae9ce29c-ab67-41cd-b2a9-3bc3353d595f#src=seo_token) | Ethereum | 8.84% | $1.2M |
-| 2 | [concrete →](https://www.defi.garden/?pool=5235e650-9d82-44dd-8b0f-88e7929a9edf#src=seo_token) | Ethereum | 17.98% | $481K |
+| 2 | [concrete →](https://www.defi.garden/?pool=5235e650-9d82-44dd-8b0f-88e7929a9edf#src=seo_token) | Ethereum | 17.98% | $481.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -25,7 +25,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 CTFRONTIERUSDC shows up in 2 pools here, with rates from 8.84% to 17.98% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 12.04% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 12.05% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -34,7 +34,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | concrete | 8.84% | 7.84% | Base rate |
-| concrete | 17.98% | 16.23% | Base rate |
+| concrete | 17.98% | 16.25% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which CTFRONTIERUSDC pools have the most stable APY history?
 
-Based on APY history only, CTFRONTIERUSDC's lower-variability candidates are concrete (Ethereum), 8.84% APY, $1.2M TVL, https://www.defi.garden/?pool=ae9ce29c-ab67-41cd-b2a9-3bc3353d595f#src=seo_token; concrete (Ethereum), 17.98% APY, $481K TVL, https://www.defi.garden/?pool=5235e650-9d82-44dd-8b0f-88e7929a9edf#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CTFRONTIERUSDC's lower-variability candidates are concrete (Ethereum), 8.84% APY, $1.2M TVL, https://www.defi.garden/?pool=ae9ce29c-ab67-41cd-b2a9-3bc3353d595f#src=seo_token; concrete (Ethereum), 17.98% APY, $481.1K TVL, https://www.defi.garden/?pool=5235e650-9d82-44dd-8b0f-88e7929a9edf#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

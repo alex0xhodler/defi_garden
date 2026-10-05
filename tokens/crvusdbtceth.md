@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest CRVUSDBTCETH yield right now is 0.07% on curve-dex (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CRVUSDBTCETH yield right now is 0.09% on curve-dex (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=b3dba47e-da83-4267-891e-67194f33443d#src=seo_token) | Polygon | 0.07% | $352.6K |
+| [curve-dex →](https://www.defi.garden/?pool=b3dba47e-da83-4267-891e-67194f33443d#src=seo_token) | Polygon | 0.09% | $352.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CRVUSDBTCETH yield today?
 
-0.07% APY on curve-dex (Polygon), based on live DefiLlama data.
+0.09% APY on curve-dex (Polygon), based on live DefiLlama data.
 
 ### How many CRVUSDBTCETH pools clear the TVL floor?
 

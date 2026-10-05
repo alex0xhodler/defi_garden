@@ -296,12 +296,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/native-core</loc>
+    <loc>https://www.defi.garden/ko/chains/unichain</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/unichain</loc>
+    <loc>https://www.defi.garden/ko/chains/native-core</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
   </url>

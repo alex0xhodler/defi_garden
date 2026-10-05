@@ -7,8 +7,8 @@ The highest honest SUSDAT yield right now is 38.36% on pendle-v2 (Ethereum), amo
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [saturn →](https://www.defi.garden/?pool=47e72726-3b2b-4fe6-b4a9-a26e1fcd9a50#src=seo_token) | Ethereum | 12.14% | $66.67M |
-| [pendle-v2 →](https://www.defi.garden/?pool=68a736e3-80bd-5eef-af8a-29dd931d6415#src=seo_token) | Monad | 24.67% | $1.61M |
 | [pendle-v2 →](https://www.defi.garden/?pool=f807b170-a976-55d3-88f1-f4fda5900fa2#src=seo_token) | Monad | 17.49% | $1.61M |
+| [pendle-v2 →](https://www.defi.garden/?pool=68a736e3-80bd-5eef-af8a-29dd931d6415#src=seo_token) | Monad | 24.67% | $1.61M |
 | [pendle-v2 →](https://www.defi.garden/?pool=ebb9e2c2-1bf2-5ee8-b365-53214ea9705b#src=seo_token) | Ethereum | 38.36% | $1.4M |
 | [pendle-v2 →](https://www.defi.garden/?pool=239d66b4-e66d-5c43-87e9-2fb6d109d173#src=seo_token) | Ethereum | 14.82% | $1.4M |
 
@@ -38,10 +38,10 @@ SUSDAT shows up in 5 pools here, with rates from 12.14% to 38.36% APY across 2 c
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | saturn | 12.14% | 14.40% | Base rate |
-| pendle-v2 | 24.67% | 23.53% | 0.91% incentives |
 | pendle-v2 | 17.49% | 16.96% | Base rate |
-| pendle-v2 | 38.36% | 32.99% | 1.50% incentives |
-| pendle-v2 | 14.82% | 11.81% | Base rate |
+| pendle-v2 | 24.67% | 23.54% | 0.92% incentives |
+| pendle-v2 | 38.36% | 33.03% | 1.51% incentives |
+| pendle-v2 | 14.82% | 11.82% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -53,7 +53,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SUSDAT pools clear the TVL floor?
 
-9 live pools clear this page's $100K TVL floor, $87.71M in total.
+9 live pools clear this page's $100K TVL floor, $87.66M in total.
 
 ### Are these rates safe?
 

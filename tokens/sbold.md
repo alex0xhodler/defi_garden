@@ -6,8 +6,8 @@ The highest honest SBOLD yield right now is 6.27% on pendle-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle-v2 →](https://www.defi.garden/?pool=2ce146c4-4443-50eb-851b-fc7d37a3cd0a#src=seo_token) | Ethereum | 6.27% | $269.8K |
 | [pendle-v2 →](https://www.defi.garden/?pool=08bff643-b15f-5cd5-a64e-df85c99e25eb#src=seo_token) | Ethereum | 5.58% | $269.8K |
+| [pendle-v2 →](https://www.defi.garden/?pool=2ce146c4-4443-50eb-851b-fc7d37a3cd0a#src=seo_token) | Ethereum | 6.27% | $269.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle-v2 | 6.27% | 6.28% | Base rate |
 | pendle-v2 | 5.58% | 5.46% | Base rate |
+| pendle-v2 | 6.27% | 6.28% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

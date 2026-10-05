@@ -6,7 +6,7 @@ The highest honest KENDU yield right now is 0.13% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=ac6b8895-4c4b-4f18-b6e8-eed00b1679de#src=seo_token) | Ethereum | 0.13% | $363.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=ac6b8895-4c4b-4f18-b6e8-eed00b1679de#src=seo_token) | Ethereum | 0.13% | $362.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many KENDU pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $363.1K in total.
+1 live pool clear this page's $100K TVL floor, $362.3K in total.
 
 ### Are these rates safe?
 

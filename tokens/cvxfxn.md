@@ -6,18 +6,18 @@ The highest honest CVXFXN yield right now is 5.95% on convex-finance (Ethereum),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=491f6321-e8fb-4b74-92d8-5c73ac4752e5#src=seo_token) | Ethereum | 4.26% | $1.42M |
-| [convex-finance →](https://www.defi.garden/?pool=fcb9f6f2-8d72-40d6-969a-24b3a2103cc2#src=seo_token) | Ethereum | 5.95% | $973.6K |
+| [curve-dex →](https://www.defi.garden/?pool=491f6321-e8fb-4b74-92d8-5c73ac4752e5#src=seo_token) | Ethereum | 4.26% | $1.41M |
+| [convex-finance →](https://www.defi.garden/?pool=fcb9f6f2-8d72-40d6-969a-24b3a2103cc2#src=seo_token) | Ethereum | 5.95% | $970.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, CVXFXN's lower-variability candidates are curve-dex (Ethereum), 4.26% APY, $1.42M TVL, https://www.defi.garden/?pool=491f6321-e8fb-4b74-92d8-5c73ac4752e5#src=seo_token; convex-finance (Ethereum), 5.95% APY, $973.6K TVL, https://www.defi.garden/?pool=fcb9f6f2-8d72-40d6-969a-24b3a2103cc2#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CVXFXN's lower-variability candidates are curve-dex (Ethereum), 4.26% APY, $1.41M TVL, https://www.defi.garden/?pool=491f6321-e8fb-4b74-92d8-5c73ac4752e5#src=seo_token; convex-finance (Ethereum), 5.95% APY, $970.3K TVL, https://www.defi.garden/?pool=fcb9f6f2-8d72-40d6-969a-24b3a2103cc2#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=491f6321-e8fb-4b74-92d8-5c73ac4752e5#src=seo_token) | Ethereum | 4.26% | $1.42M |
-| 2 | [convex-finance →](https://www.defi.garden/?pool=fcb9f6f2-8d72-40d6-969a-24b3a2103cc2#src=seo_token) | Ethereum | 5.95% | $973.6K |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=491f6321-e8fb-4b74-92d8-5c73ac4752e5#src=seo_token) | Ethereum | 4.26% | $1.41M |
+| 2 | [convex-finance →](https://www.defi.garden/?pool=fcb9f6f2-8d72-40d6-969a-24b3a2103cc2#src=seo_token) | Ethereum | 5.95% | $970.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -33,7 +33,7 @@ CVXFXN shows up in 2 pools here, with rates from 4.26% to 5.95% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 4.26% | 4.91% | 98.36% incentives |
+| curve-dex | 4.26% | 4.90% | 98.36% incentives |
 | convex-finance | 5.95% | 7.55% | 98.82% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which CVXFXN pools have the most stable APY history?
 
-Based on APY history only, CVXFXN's lower-variability candidates are curve-dex (Ethereum), 4.26% APY, $1.42M TVL, https://www.defi.garden/?pool=491f6321-e8fb-4b74-92d8-5c73ac4752e5#src=seo_token; convex-finance (Ethereum), 5.95% APY, $973.6K TVL, https://www.defi.garden/?pool=fcb9f6f2-8d72-40d6-969a-24b3a2103cc2#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CVXFXN's lower-variability candidates are curve-dex (Ethereum), 4.26% APY, $1.41M TVL, https://www.defi.garden/?pool=491f6321-e8fb-4b74-92d8-5c73ac4752e5#src=seo_token; convex-finance (Ethereum), 5.95% APY, $970.3K TVL, https://www.defi.garden/?pool=fcb9f6f2-8d72-40d6-969a-24b3a2103cc2#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

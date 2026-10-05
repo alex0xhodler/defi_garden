@@ -7,7 +7,7 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [kyberswap-fairflow →](https://www.defi.garden/?pool=4afd8572-0e22-5bdd-b6dc-6190f81a2ef6#src=seo_token) | Ethereum | 2.58% | $855K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=a8287d9d-005b-571e-8113-69e382486e9d#src=seo_token) | Ethereum | 1.14% | $853.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a8287d9d-005b-571e-8113-69e382486e9d#src=seo_token) | Ethereum | 1.14% | $853.8K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -20,7 +20,7 @@
 
 KNC 풀은 여기 2개가 있고, 1개 체인에서 APY가 1.14%부터 2.58%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-2개 풀 중 2개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 4.74%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+2개 풀 중 2개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 4.73%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 현재 2개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 

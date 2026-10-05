@@ -6,7 +6,7 @@ The highest honest 80TREE yield right now is 3.06% on balancer-v3 (Ethereum), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=59f64d8b-b590-4e32-a79c-3df80cff35f5#src=seo_token) | Ethereum | 3.06% | $295.2K |
+| [balancer-v3 →](https://www.defi.garden/?pool=59f64d8b-b590-4e32-a79c-3df80cff35f5#src=seo_token) | Ethereum | 3.06% | $294.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many 80TREE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $295.2K in total.
+1 live pool clear this page's $100K TVL floor, $294.9K in total.
 
 ### Are these rates safe?
 

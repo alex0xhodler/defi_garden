@@ -6,7 +6,7 @@ The highest honest GTDAICORE yield right now is 3.87% on morpho-blue (Ethereum),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=d78f63a2-98c4-481b-9f3d-147505dd9974#src=seo_token) | Ethereum | 3.87% | $3.05M |
+| [morpho-blue →](https://www.defi.garden/?pool=d78f63a2-98c4-481b-9f3d-147505dd9974#src=seo_token) | Ethereum | 3.87% | $3.06M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GTDAICORE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $3.05M in total.
+1 live pool clear this page's $100K TVL floor, $3.06M in total.
 
 ### Are these rates safe?
 
