@@ -303,10 +303,13 @@ test('sitemap lists hub + pages with the snapshot date as lastmod (EN and KO)', 
 });
 test('generate-sitemap.js registers and protects the pool sitemaps', () => {
   const s = fs.readFileSync(path.join(__dirname, 'generate-sitemap.js'), 'utf8');
-  ['sitemap-pool-pages.xml', 'sitemap-pool-pages-ko.xml'].forEach(f => {
-    assert.ok(s.includes(`'${f}',`), 'not in FOREIGN_PAGE_SITEMAPS: ' + f);
-    assert.ok(s.includes(`${'${SITE_URL}'}${f}`), 'not in index: ' + f);
+  // The list and the index entries are derived per language from languages.js
+  // (en, ko, pt, es) rather than spelled out per file.
+  const foreign = require('./generate-sitemap.js').FOREIGN_PAGE_SITEMAPS;
+  ['sitemap-pool-pages.xml', 'sitemap-pool-pages-ko.xml', 'sitemap-pool-pages-pt.xml', 'sitemap-pool-pages-es.xml'].forEach(f => {
+    assert.ok(foreign.includes(f), 'not in FOREIGN_PAGE_SITEMAPS: ' + f);
   });
+  assert.ok(s.includes('sitemap-${kind}-pages${suffix}.xml') && s.includes("['token', 'chain', 'pool']"), 'pool sitemaps not joined to the index');
   const idx = fs.readFileSync(path.join(__dirname, 'sitemap.xml'), 'utf8');
   if (fs.existsSync(path.join(__dirname, 'sitemap-pool-pages.xml'))) assert.ok(idx.includes('sitemap-pool-pages.xml'), 'regenerate sitemap.xml');
 });

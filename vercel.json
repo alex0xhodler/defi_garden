@@ -145,8 +145,28 @@
       "permanent": true
     },
     {
+      "source": "/pt/tokens/index",
+      "destination": "/pt/tokens",
+      "permanent": true
+    },
+    {
+      "source": "/es/tokens/index",
+      "destination": "/es/tokens",
+      "permanent": true
+    },
+    {
       "source": "/ko/chains/index",
       "destination": "/ko/chains",
+      "permanent": true
+    },
+    {
+      "source": "/pt/chains/index",
+      "destination": "/pt/chains",
+      "permanent": true
+    },
+    {
+      "source": "/es/chains/index",
+      "destination": "/es/chains",
       "permanent": true
     },
     {
@@ -157,6 +177,16 @@
     {
       "source": "/ko/pools/index",
       "destination": "/ko/pools",
+      "permanent": true
+    },
+    {
+      "source": "/pt/pools/index",
+      "destination": "/pt/pools",
+      "permanent": true
+    },
+    {
+      "source": "/es/pools/index",
+      "destination": "/es/pools",
       "permanent": true
     },
     {

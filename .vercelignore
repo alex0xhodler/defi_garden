@@ -32,11 +32,16 @@
 /generate-*.js
 /validate-sitemaps.js
 /indexnow-ping.js
+/languages.js
 /compute-kpis.js
 /dev-server.js
 /og-image.build.mjs
 /og-image.source.html
 /*.sh
+
+# --- Node-only i18n dictionaries for the static SEO generators (pt/es +
+# generator-only EN/KO keys). Never loaded by a browser; keep them off the CDN.
+/i18n/
 
 # --- deploy/db/agent config, never meant to be public HTTP responses -------
 /schema.sql

@@ -17,8 +17,13 @@ const SITE_URL = (process.env.SITE_URL || 'https://www.defi.garden').replace(/\/
 // Defillama API endpoint
 const YIELDS_API = 'https://yields.llama.fi/pools';
 
-// Supported languages from translations.js
-const LANGUAGES = ['en', 'ko'];
+// Languages of the INTERACTIVE app (the `?lang=` URLs): every language whose
+// scope is 'all' in languages.js (today en + ko). The static SEO hubs
+// (/tokens, /chains) additionally exist in the 'head'-scope languages (pt, es),
+// so only those two URLs carry the extra alternates (see alternateLangsFor()).
+const LANG_CONFIG = require('./languages');
+const LANGUAGES = LANG_CONFIG.FULL_SCOPE_CODES.slice();
+const STATIC_HUB_PATHS = new Set(['/tokens', '/chains']);
 
 // Sitemap URL quality gate (013 — GSC fix, specs/013.md).
 // Mirrors the app's own default rendering threshold so a sitemap URL never
@@ -32,15 +37,16 @@ const SITEMAP_MIN_QUALIFYING_POOLS = 2;
 // Root sitemap-*.xml files this generator must NEVER delete during stale-child
 // cleanup: they are owned by generate-token-pages.js / generate-chain-pages.js
 // (021/041/050), joined to the index here only via existsSync guards.
-const FOREIGN_PAGE_SITEMAPS = [
-  'sitemap-token-pages.xml',
-  'sitemap-token-pages-ko.xml',
-  'sitemap-chain-pages.xml',
-  'sitemap-chain-pages-ko.xml',
-  // W1: owned by generate-pool-score-pages.js
-  'sitemap-pool-pages.xml',
-  'sitemap-pool-pages-ko.xml',
-];
+// One token/chain/pool sitemap per language in languages.js (en has no suffix).
+const FOREIGN_PAGE_SITEMAPS = [].concat(...LANG_CONFIG.LANGUAGES.map(l => {
+  const suffix = l.code === LANG_CONFIG.DEFAULT_LANG ? '' : '-' + l.code;
+  return [
+    `sitemap-token-pages${suffix}.xml`,
+    `sitemap-chain-pages${suffix}.xml`,
+    // W1: owned by generate-pool-score-pages.js
+    `sitemap-pool-pages${suffix}.xml`,
+  ];
+}));
 
 /**
  * Delete stale root sitemap-*.xml children this generator did NOT write this
@@ -456,26 +462,32 @@ function alternateUrlFor(baseUrl, lang) {
     url.searchParams.delete('lang');
     return url.toString();
   }
-  if (lang === 'ko') {
+  if (LANG_CONFIG.LANG_CODES.includes(lang)) {
     try {
       const url = new URL(baseUrl);
-      if (url.pathname === '/tokens' || url.pathname.startsWith('/tokens/')) {
-        url.pathname = '/ko' + url.pathname;
+      if (STATIC_HUB_PATHS.has(url.pathname) ||
+          url.pathname.startsWith('/tokens/') || url.pathname.startsWith('/chains/')) {
+        url.pathname = LANG_CONFIG.langPath(lang, url.pathname);
         url.searchParams.delete('lang');
         return url.toString();
       }
-      if (url.pathname === '/chains' || url.pathname.startsWith('/chains/')) {
-        url.pathname = '/ko' + url.pathname;
-        url.searchParams.delete('lang');
-        return url.toString();
-      }
-      url.searchParams.set('lang', 'ko');
+      url.searchParams.set('lang', lang);
       return url.toString();
     } catch {
       return baseUrl;
     }
   }
   return baseUrl;
+}
+
+/** The languages a sitemap URL advertises as hreflang alternates: the app
+ *  languages for every URL, plus the head-scope languages for the two static
+ *  hub URLs (which exist in all configured languages). */
+function alternateLangsFor(baseUrl) {
+  try {
+    if (STATIC_HUB_PATHS.has(new URL(baseUrl).pathname)) return LANG_CONFIG.LANG_CODES.slice();
+  } catch { /* fall through */ }
+  return LANGUAGES;
 }
 
 /**
@@ -486,9 +498,9 @@ function generateUrlXml(baseUrl, lastmod, priority, changefreq) {
   xml += `    <loc>${escapeXml(baseUrl)}</loc>\n`;
   
   // Add hreflang for all supported languages
-  LANGUAGES.forEach(lang => {
+  alternateLangsFor(baseUrl).forEach(lang => {
     const langUrl = alternateUrlFor(baseUrl, lang);
-    xml += `    <xhtml:link rel="alternate" hreflang="${lang}" href="${escapeXml(langUrl)}" />\n`;
+    xml += `    <xhtml:link rel="alternate" hreflang="${LANG_CONFIG.getLanguage(lang).hreflang}" href="${escapeXml(langUrl)}" />\n`;
   });
   
   // Add x-default (defaults to English)
@@ -831,29 +843,19 @@ async function generateSitemapSuite(poolsOverride) {
       indexEntries.push({ loc: `${SITE_URL}sitemap-main.xml`, lastmod: childMaxLastmod['sitemap-main.xml'] || now });
     }
 
-    // 2. Static Landing Pages (EN)
-    if (fs.existsSync('sitemap-token-pages.xml')) {
-      indexEntries.push({ loc: `${SITE_URL}sitemap-token-pages.xml`, lastmod: maxLastmodFromFile('sitemap-token-pages.xml', now) });
-    }
-    if (fs.existsSync('sitemap-chain-pages.xml')) {
-      indexEntries.push({ loc: `${SITE_URL}sitemap-chain-pages.xml`, lastmod: maxLastmodFromFile('sitemap-chain-pages.xml', now) });
-    }
-
-    if (fs.existsSync('sitemap-pool-pages.xml')) {
-      indexEntries.push({ loc: `${SITE_URL}sitemap-pool-pages.xml`, lastmod: maxLastmodFromFile('sitemap-pool-pages.xml', now) });
-    }
-
-    // 3. Static Landing Pages (KO)
-    if (fs.existsSync('sitemap-token-pages-ko.xml')) {
-      indexEntries.push({ loc: `${SITE_URL}sitemap-token-pages-ko.xml`, lastmod: maxLastmodFromFile('sitemap-token-pages-ko.xml', now) });
-    }
-    if (fs.existsSync('sitemap-chain-pages-ko.xml')) {
-      indexEntries.push({ loc: `${SITE_URL}sitemap-chain-pages-ko.xml`, lastmod: maxLastmodFromFile('sitemap-chain-pages-ko.xml', now) });
-    }
-
-    if (fs.existsSync('sitemap-pool-pages-ko.xml')) {
-      indexEntries.push({ loc: `${SITE_URL}sitemap-pool-pages-ko.xml`, lastmod: maxLastmodFromFile('sitemap-pool-pages-ko.xml', now) });
-    }
+    // 2. Static landing pages, one group per configured language (en first,
+    //    then ko / pt / es in languages.js order). Joined only when the owning
+    //    generator wrote the file (existsSync) — pt/es files appear after
+    //    generate-*-pages.js has produced them.
+    LANG_CONFIG.LANGUAGES.forEach(l => {
+      const suffix = l.code === LANG_CONFIG.DEFAULT_LANG ? '' : '-' + l.code;
+      ['token', 'chain', 'pool'].forEach(kind => {
+        const file = `sitemap-${kind}-pages${suffix}.xml`;
+        if (fs.existsSync(file)) {
+          indexEntries.push({ loc: `${SITE_URL}${file}`, lastmod: maxLastmodFromFile(file, now) });
+        }
+      });
+    });
 
     // 4. Any other written child sitemaps (e.g. if EMIT_APP_VIEW_SITEMAPS is enabled)
     generatedFilenames.filter(f => f !== 'sitemap-main.xml').sort().forEach(filename => {
