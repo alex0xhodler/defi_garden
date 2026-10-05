@@ -44,7 +44,7 @@ const { assignPoolSlugs, slugify, MANIFEST_REL_PATH } = require('./pool-page-lin
 // --- forecast-evaluation stats (drives pspForecastDisclaimer) ----------------
 let _feStats = { totalRuns: 0, noBetter: 0, evaluated: 0 };
 try {
-  const _feRaw = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'forecast-evaluations.json'), 'utf8'));
+  const _feRaw = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'forecast-evaluations.json'), 'utf8'));
   const _feS = _feRaw && _feRaw.summary;
   if (_feS && Number.isFinite(Number(_feS.totalRuns)) && Number(_feS.totalRuns) > 0) {
     const runs = Array.isArray(_feRaw.resolvedRuns) ? _feRaw.resolvedRuns : [];
