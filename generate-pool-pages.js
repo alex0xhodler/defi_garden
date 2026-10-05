@@ -67,6 +67,7 @@ const { createTranslationFunction } = require('./translations.js');
 // original consumer being buildPoolSurfaces()'s rotation leg): the SAME
 // `[?&]pool=`-style deep-link id extraction — never a second regex scan.
 const { extractDeepLinkPoolIds } = require('./audit-app.js');
+const { loadPoolPageManifest } = require('./pool-page-links.js');
 
 const SITE_URL = 'https://www.defi.garden';
 const ROOT = __dirname;
@@ -543,6 +544,11 @@ function main() {
   const pageDirs = args.pages.split(',').map(s => s.trim()).filter(Boolean);
 
   const deepLinkedIds = collectDeepLinkedIds(pageDirs);
+  // W1: pools that now have a static /pools/<slug> page are linked from the
+  // token/chain tables by slug, no longer by `?pool=<id>`, so the scan above
+  // can no longer see them. Union the page manifest so their markdown/JSON
+  // twins (and the /?pool=<id> Accept: text/markdown rewrite) keep working.
+  loadPoolPageManifest().forEach((slug, id) => { if (UUID_RE.test(id)) deepLinkedIds.add(id); });
   console.log(`🔗 ${deepLinkedIds.size} distinct deep-linked pool ids across ${pageDirs.join(', ')}`);
 
   const snapshotMap = loadSnapshotPoolMap(args.snapshot);

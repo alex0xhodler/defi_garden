@@ -16,6 +16,9 @@ on:
       - 'generate-token-pages.js'
       - 'generate-chain-pages.js'
       - 'generate-pool-pages.js'
+      - 'generate-pool-score-pages.js'
+      - 'pool-page-links.js'
+      - 'permissioned-projects.js'
       - 'compile-app.js'
       - 'minify-assets.js'
       - 'app.js'
@@ -103,6 +106,14 @@ jobs:
       run: |
         node generate-landing-pools.js
 
+    - name: Generate scored pool pages (W1 — static /pools/<slug> pages, manifest + sitemaps)
+      # Must run BEFORE token/chain pages: they read data/pool-pages.json to
+      # repoint pool rows at /pools/<slug>. Needs snapshot + forecasts above.
+      run: |
+        echo "📊 Generating static scored /pools/ pages..."
+        node generate-pool-score-pages.js --out pools --limit 100
+        echo "Pages: $(ls pools/*.html | wc -l) · sitemap URLs: $(grep -c '<loc>' sitemap-pool-pages.xml)"
+
     - name: Generate token landing pages
       run: |
         echo "🌿 Generating static /tokens/ landing pages + sitemap..."
@@ -174,7 +185,7 @@ jobs:
         git config --local user.email "alex@0xhodler.nl"
         git config --local user.name "alex0xhodler"
         
-        git add data sitemap.xml sitemap-token-pages.xml tokens sitemap-chain-pages.xml chains pools sitemap-token-pages-ko.xml sitemap-chain-pages-ko.xml ko robots.txt llms.txt llms-full.txt og app.compiled.js PoolDetail.compiled.js app.compiled.min.js PoolDetail.compiled.min.js planner.min.js translations.min.js style.min.css planner-styles.min.css pool-detail-styles.min.css
+        git add data sitemap.xml sitemap-token-pages.xml tokens sitemap-chain-pages.xml chains pools sitemap-token-pages-ko.xml sitemap-chain-pages-ko.xml sitemap-pool-pages.xml sitemap-pool-pages-ko.xml ko robots.txt llms.txt llms-full.txt og app.compiled.js PoolDetail.compiled.js app.compiled.min.js PoolDetail.compiled.min.js planner.min.js translations.min.js style.min.css planner-styles.min.css pool-detail-styles.min.css
         git add -A -- 'sitemap*.xml'
         git commit -m "chore: update sitemap and LLM files with latest yields
         

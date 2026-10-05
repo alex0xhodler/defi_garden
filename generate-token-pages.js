@@ -38,6 +38,8 @@ const { getPoolType, selectHeadTokens } = require('./generate-sitemap.js');
 // Static pages are copy-only translated: pool data/numbers are identical
 // between language variants (CLAUDE.md — en-US formatting, never per-locale).
 const { createTranslationFunction, translations, formatCount } = require('./translations.js');
+// W1: uuid -> /pools/<slug> manifest lookup (leaf module, no require cycle).
+const { getPoolPageSlug } = require('./pool-page-links.js');
 // REUSE (spec 066): planner.js IS Node-requireable (module.exports guarded at
 // its own bottom, same convention as translations.js) — its blendedApy/
 // foreverNumber/SUBSCRIPTION_LADDER are the SAME rate-blend + forever-number
@@ -73,15 +75,8 @@ const POOLS_PER_PAGE = 8;         // how many pools to list on each page
 // yields) but are never chosen as the HEADLINE pool by headlinePoolFor —
 // a page titled "Best USDC Yields" must not lead with a pool the reader
 // can't buy. Maintained manually; add projects as they're identified.
-const PERMISSIONED_PROJECTS = new Set([
-  'blackrock-buidl',   // qualified purchasers only
-  'ondo-yield-assets', // USDY — not offered to US persons
-  'invesco-ustb',      // institutional / accredited investors
-  'circle-usyc',       // USYC — qualified purchasers
-  'superstate',        // USTB — qualified purchasers
-  'hashnote',          // USYC — qualified purchasers
-  'centrifuge-protocol' // RWA — accredited investors for some pools
-]);
+// Single source of truth shared with api/mcp.js and generate-pool-score-pages.js.
+const { PERMISSIONED_PROJECT_LIST: PERMISSIONED_PROJECTS } = require('./permissioned-projects.js');
 
 /** Returns true if a pool belongs to a permissioned/restricted project
  *  that retail users typically cannot access. */
@@ -1063,9 +1058,20 @@ function withSrc(url, src) {
  * appended to WHICHEVER branch was chosen (the `?pool=` link or
  * `fallbackUrl`), with the correct separator for whichever query the target
  * URL already carries (or none) — via withSrc (spec 204). */
-function poolHrefFor(p, fallbackUrl, src) {
+function poolHrefFor(p, fallbackUrl, src, lang) {
+  // W1: a pool with a generated static page (data/pool-pages.json) links to
+  // /pools/<slug> — clean, followable, no tracking fragment — so link equity
+  // stays on the static estate instead of leaking into the JS app URL.
+  const slug = p.pool ? getPoolPageSlug(p.pool) : null;
+  if (slug) return `${SITE_URL}/${lang === 'ko' ? 'ko/pools' : 'pools'}/${slug}`;
   const url = p.pool ? `${SITE_URL}/?pool=${encodeURIComponent(p.pool)}` : fallbackUrl;
   return withSrc(url, src);
+}
+
+/** ` rel="nofollow"` for rows that still point at the JS app URL; empty for
+ *  rows pointing at a static /pools/<slug> page (those must be followable). */
+function poolRelAttr(p) {
+  return (p.pool && getPoolPageSlug(p.pool)) ? '' : ' rel="nofollow"';
 }
 
 /** ItemList JSON-LD (046) for a ranked pool table: itemListElement mirrors
@@ -1080,7 +1086,7 @@ function renderItemListJsonLd(pools, appUrl, lang) {
       '@type': 'ListItem',
       position: i + 1,
       name: t('tcpItemListName', p.project || '—', p.chain || '—'),
-      url: poolHrefFor(p, appUrl)
+      url: poolHrefFor(p, appUrl, undefined, lang)
     }))
   }).replace(/</g, '\\u003c');
 }
@@ -1219,7 +1225,7 @@ const RATE_STABILITY_MIN_OBSERVATIONS = 30;
  * Lower APY sigma ranks first. Text ties use a deterministic project, chain,
  * then pool-id ordering so source-array order cannot affect the result.
  */
-function rateStabilityFor(rec) {
+function rateStabilityFor(rec, lang) {
   const appUrl = `${SITE_URL}/?token=${encodeURIComponent(rec.symbol)}&minTvl=${MIN_POOL_TVL}`;
   const eligible = (rec.pools || []).filter(p =>
     isQualifyingPool(p) &&
@@ -1252,7 +1258,7 @@ function rateStabilityFor(rec) {
       chain: p.chain || '—',
       apyStr: formatApy(poolTotalApy(p)),
       tvlStr: formatUsd(p.tvlUsd),
-      href: poolHrefFor(p, appUrl, 'seo_token')
+      href: poolHrefFor(p, appUrl, 'seo_token', lang)
     }))
   };
 }
@@ -1283,7 +1289,7 @@ function renderRateStabilityHtml(stability, symbol, t) {
         <tbody>
 ${stability.candidates.map(candidate => `          <tr>
             <td class="num">${candidate.rank}</td>
-            <td><a class="tp-pool-link" rel="nofollow" href="${escapeHtml(candidate.href)}">${escapeHtml(candidate.project)} &rarr;</a></td>
+            <td><a class="tp-pool-link"${/\/\?pool=/.test(candidate.href) ? ' rel="nofollow"' : ''} href="${escapeHtml(candidate.href)}">${escapeHtml(candidate.project)} &rarr;</a></td>
             <td>${escapeHtml(candidate.chain)}</td>
             <td class="num">${candidate.apyStr}</td>
             <td class="num">${candidate.tvlStr}</td>
@@ -1543,11 +1549,12 @@ function renderTopScoredPoolsHtml(pools, appUrl, language, t, subjectLabel, isCh
     : `Top 5 retail-accessible pools ranked by quantitative stability (35%), fee sustainability (25%), capital stickiness (25%), and liquidity depth (15%). No permissioned or accredited-only vaults.`;
 
   const rows = accessibleScored.map(p => {
-    const poolHref = poolHrefFor(p, appUrl, isChain ? 'seo_chain' : 'seo_token');
+    const poolHref = poolHrefFor(p, appUrl, isChain ? 'seo_chain' : 'seo_token', language);
+    const relAttr = poolRelAttr(p);
     const score = Math.round(p.defiScore.score);
     const rating = escapeHtml(p.defiScore.rating || 'A');
-    const firstCol = isChain ? escapeHtml(p.symbol || '—') : `<a class="tp-pool-link" rel="nofollow" href="${poolHref}">${escapeHtml(p.project || '—')} →</a>`;
-    const secondCol = isChain ? `<a class="cp-pool-link" rel="nofollow" href="${poolHref}">${escapeHtml(p.project || '—')} →</a>` : escapeHtml(p.chain || '—');
+    const firstCol = isChain ? escapeHtml(p.symbol || '—') : `<a class="tp-pool-link"${relAttr} href="${poolHref}">${escapeHtml(p.project || '—')} →</a>`;
+    const secondCol = isChain ? `<a class="cp-pool-link"${relAttr} href="${poolHref}">${escapeHtml(p.project || '—')} →</a>` : escapeHtml(p.chain || '—');
 
     return `        <tr>
           <td>${firstCol}</td>
@@ -1758,7 +1765,7 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
   // anomalous/sub-floor pool structurally cannot reach the answer or FAQ.
   // 242: attributed to headlinePool (NOT `top`) — the pool bestApy came from.
   const { answer, faq: baseFaq } = buildAnswerAndFaq(rec.symbol, rec, bestApy, headlinePool, language);
-  const stability = rateStabilityFor(rec);
+  const stability = rateStabilityFor(rec, language);
   const stabilityFaq = rateStabilityFaqItem(stability, rec.symbol, t);
   const faq = baseFaq.concat(stabilityFaq);
   const answerBlock = renderAnswerBlockHtml(answer, 'tp-answer');
@@ -1815,10 +1822,10 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
     // with the ItemList JSON-LD above via poolHrefFor so they can't drift —
     // the visible row is tagged 'seo_token' (203); the JSON-LD call above is
     // NOT, so it stays clean (spec 203 §6, deliberate deviation).
-    const poolHref = poolHrefFor(p, appUrl, 'seo_token');
+    const poolHref = poolHrefFor(p, appUrl, 'seo_token', language);
     const accessNote = isPermissionedPool(p) ? ' <span class="tp-restricted" title="Restricted access (KYC/accredited)">&#x1F512;</span>' : '';
     return `        <tr>
-          <td><a class="tp-pool-link" rel="nofollow" href="${poolHref}">${escapeHtml(p.project || '—')}${accessNote} →</a></td>
+          <td><a class="tp-pool-link"${poolRelAttr(p)} href="${poolHref}">${escapeHtml(p.project || '—')}${accessNote} →</a></td>
           <td>${escapeHtml(p.chain || '—')}</td>
           <td class="num">${formatApy(poolTotalApy(p))}</td>
           <td class="num">${formatUsd(p.tvlUsd)}</td>
@@ -1960,7 +1967,7 @@ function renderTokenPageMarkdown(rec, related, generatedDate, chainLinks, lang, 
   // Direct-answer + FAQ (047): the SAME function call renderTokenPage makes,
   // with the SAME args — reused verbatim, never re-worded (212 fact parity).
   const { answer, faq: baseFaq } = buildAnswerAndFaq(rec.symbol, rec, bestApy, headlinePool, language);
-  const stability = rateStabilityFor(rec);
+  const stability = rateStabilityFor(rec, language);
   const stabilityFaq = rateStabilityFaqItem(stability, rec.symbol, t);
   const faq = baseFaq.concat(stabilityFaq);
   const stabilityMd = renderRateStabilityMarkdown(stability, rec.symbol, t);
@@ -1973,7 +1980,7 @@ function renderTokenPageMarkdown(rec, related, generatedDate, chainLinks, lang, 
   // Real Markdown table, labelled columns, same data/link convention the
   // HTML's <tr> rows use (poolHrefFor + the 'seo_token' src attribution tag).
   const rows = rec.pools.map(p => {
-    const poolHref = poolHrefFor(p, appUrl, 'seo_token');
+    const poolHref = poolHrefFor(p, appUrl, 'seo_token', language);
     return `| [${mdEscape(p.project || '—')} →](${poolHref}) | ${mdEscape(p.chain || '—')} | ${formatApy(poolTotalApy(p))} | ${formatUsd(p.tvlUsd)} |`;
   }).join('\n');
 
@@ -2237,7 +2244,7 @@ module.exports = {
   isValidToken, poolTotalApy, formatUsd, formatApy, escapeHtml, renderAnalyticsBootstrap, tokenSymbols,
   groupTokensAZ, renderTokenHubPage, renderTokenAzPage, renderHubStyleBlock, HUB_TOP_N,
   HEAD_TOKENS, renderTokenHowHtml, renderTokenHowMarkdown, renderTokenHowStyle, tokenPageTitle,
-  poolHrefFor, withSrc, renderItemListJsonLd, renderDatasetJsonLd,
+  poolHrefFor, poolRelAttr, withSrc, renderItemListJsonLd, renderDatasetJsonLd,
   buildAnswerAndFaq, renderAnswerBlockHtml, renderFaqBlockHtml, renderFaqJsonLd,
   todayGeneratedDate, renderLastUpdatedHtml, loadFixturePools,
   chainLinksFor, categoryLinksFor, renderLinkNavHtml,

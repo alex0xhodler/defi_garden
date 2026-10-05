@@ -43,7 +43,7 @@ const {
   SITE_URL, APY_SANITY_LIMIT, MIN_POOL_TVL, MIN_QUALIFYING_POOLS, DEFAULT_LIMIT,
   isQualifyingPool, poolTotalApy, formatUsd, formatApy, escapeHtml,
   renderAnalyticsBootstrap, renderHubStyleBlock, renderFontPreloadLinks, tokenSlug: chainSlug,
-  poolHrefFor, withSrc, renderItemListJsonLd, renderDatasetJsonLd,
+  poolHrefFor, poolRelAttr, withSrc, renderItemListJsonLd, renderDatasetJsonLd,
   buildAnswerAndFaq, renderAnswerBlockHtml, renderFaqBlockHtml, renderFaqJsonLd,
   todayGeneratedDate, renderLastUpdatedHtml, renderHreflangLinks,
   categoryLinksFor, renderLinkNavHtml, tokenSymbols, isValidToken, OG_FALLBACK_REL_PATH,
@@ -266,11 +266,11 @@ function renderChainPage(rec, related, generatedDate, tokenLinks, lang, ogImageP
     // with the ItemList JSON-LD above via poolHrefFor so they can't drift —
     // the visible row is tagged 'seo_chain' (203); the JSON-LD call above is
     // NOT, so it stays clean (spec 203 §6, deliberate deviation).
-    const poolHref = poolHrefFor(p, appUrl, 'seo_chain');
+    const poolHref = poolHrefFor(p, appUrl, 'seo_chain', language);
     const accessNote = isPermissionedPool(p) ? ' <span class="cp-restricted" title="Restricted access (KYC/accredited)">&#x1F512;</span>' : '';
     return `        <tr>
           <td>${escapeHtml(p.symbol || '—')}</td>
-          <td><a class="cp-pool-link" rel="nofollow" href="${poolHref}">${escapeHtml(p.project || '—')}${accessNote} &rarr;</a></td>
+          <td><a class="cp-pool-link"${poolRelAttr(p)} href="${poolHref}">${escapeHtml(p.project || '—')}${accessNote} &rarr;</a></td>
           <td class="num">${formatApy(poolTotalApy(p))}</td>
           <td class="num">${formatUsd(p.tvlUsd)}</td>
         </tr>`;
@@ -412,6 +412,7 @@ ${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/chains`, { page_ty
     <p class="sub">${escapeHtml(t('tcpChainHubSub', ranked.length))}</p>
     <p class="intro">${escapeHtml(t('tcpChainHubIntro', formatUsd(MIN_POOL_TVL)))}</p>
     <a class="hub-cta" href="${SITE_URL}/">${escapeHtml(t('tcpHubBackCta'))}</a>
+    <p class="note"><a href="${SITE_URL}/${language === 'ko' ? 'ko/pools' : 'pools'}">${escapeHtml(t('pspHubLink'))}</a></p>
     <div class="hub-card">
       <h2>${escapeHtml(t('tcpAllChainsHeading'))}</h2>
       <div class="hub-links">
@@ -446,7 +447,7 @@ function renderChainPageMarkdown(rec, related, generatedDate, tokenLinks, lang) 
   const { answer, faq } = buildAnswerAndFaq(rec.chain, rec, bestApy, headlinePool, language);
 
   const rows = rec.pools.map(p => {
-    const poolHref = poolHrefFor(p, appUrl, 'seo_chain');
+    const poolHref = poolHrefFor(p, appUrl, 'seo_chain', language);
     return `| ${mdEscape(p.symbol || '—')} | [${mdEscape(p.project || '—')} →](${poolHref}) | ${formatApy(poolTotalApy(p))} | ${formatUsd(p.tvlUsd)} |`;
   }).join('\n');
 

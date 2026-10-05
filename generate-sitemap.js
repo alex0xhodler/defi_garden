@@ -37,6 +37,9 @@ const FOREIGN_PAGE_SITEMAPS = [
   'sitemap-token-pages-ko.xml',
   'sitemap-chain-pages.xml',
   'sitemap-chain-pages-ko.xml',
+  // W1: owned by generate-pool-score-pages.js
+  'sitemap-pool-pages.xml',
+  'sitemap-pool-pages-ko.xml',
 ];
 
 /**
@@ -836,12 +839,20 @@ async function generateSitemapSuite(poolsOverride) {
       indexEntries.push({ loc: `${SITE_URL}sitemap-chain-pages.xml`, lastmod: maxLastmodFromFile('sitemap-chain-pages.xml', now) });
     }
 
+    if (fs.existsSync('sitemap-pool-pages.xml')) {
+      indexEntries.push({ loc: `${SITE_URL}sitemap-pool-pages.xml`, lastmod: maxLastmodFromFile('sitemap-pool-pages.xml', now) });
+    }
+
     // 3. Static Landing Pages (KO)
     if (fs.existsSync('sitemap-token-pages-ko.xml')) {
       indexEntries.push({ loc: `${SITE_URL}sitemap-token-pages-ko.xml`, lastmod: maxLastmodFromFile('sitemap-token-pages-ko.xml', now) });
     }
     if (fs.existsSync('sitemap-chain-pages-ko.xml')) {
       indexEntries.push({ loc: `${SITE_URL}sitemap-chain-pages-ko.xml`, lastmod: maxLastmodFromFile('sitemap-chain-pages-ko.xml', now) });
+    }
+
+    if (fs.existsSync('sitemap-pool-pages-ko.xml')) {
+      indexEntries.push({ loc: `${SITE_URL}sitemap-pool-pages-ko.xml`, lastmod: maxLastmodFromFile('sitemap-pool-pages-ko.xml', now) });
     }
 
     // 4. Any other written child sitemaps (e.g. if EMIT_APP_VIEW_SITEMAPS is enabled)

@@ -157,6 +157,16 @@
       "permanent": true
     },
     {
+      "source": "/pools/index",
+      "destination": "/pools",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/index",
+      "destination": "/ko/pools",
+      "permanent": true
+    },
+    {
       "source": "/",
       "has": [
         { "type": "header", "key": "Accept", "value": "(.*)text/markdown(.*)" },
