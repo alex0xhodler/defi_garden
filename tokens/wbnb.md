@@ -6,7 +6,7 @@ The highest honest WBNB yield right now is 5.71% on uniswap-v3 (BSC), among 50 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [venus-core-pool →](https://www.defi.garden/?pool=747b58ab-aefd-42e1-a312-01ad5a0ab7f5#src=seo_token) | BSC | 0.03% | $387.27M |
+| [venus-core-pool →](https://www.defi.garden/pools/venus-core-pool-wbnb-bsc) | BSC | 0.03% | $387.27M |
 | [aave-v3 →](https://www.defi.garden/?pool=9380e5ac-3b75-468c-951c-c24ff6497e80#src=seo_token) | BSC | 0.01% | $99.7M |
 | [venus-core-pool →](https://www.defi.garden/?pool=25e50b68-1e0c-47c6-9088-44749ce971b2#src=seo_token) | BSC | 0.06% | $70.54M |
 | [pancakeswap-amm →](https://www.defi.garden/?pool=32038bbe-b72d-49ab-aa17-37d61d44c579#src=seo_token) | BSC | 1.31% | $11.35M |
@@ -18,7 +18,7 @@ The highest honest WBNB yield right now is 5.71% on uniswap-v3 (BSC), among 50 p
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WBNB's lower-variability candidates are venus-core-pool (BSC), 0.06% APY, $70.54M TVL, https://www.defi.garden/?pool=25e50b68-1e0c-47c6-9088-44749ce971b2#src=seo_token; aave-v3 (BSC), 0.01% APY, $99.7M TVL, https://www.defi.garden/?pool=9380e5ac-3b75-468c-951c-c24ff6497e80#src=seo_token; pancakeswap-amm (BSC), 1.22% APY, $1.31M TVL, https://www.defi.garden/?pool=1ba6ccca-7122-47ce-854e-06883f9b2897#src=seo_token; pancakeswap-amm (BSC), 1.31% APY, $11.35M TVL, https://www.defi.garden/?pool=32038bbe-b72d-49ab-aa17-37d61d44c579#src=seo_token; venus-core-pool (BSC), 0.03% APY, $387.27M TVL, https://www.defi.garden/?pool=747b58ab-aefd-42e1-a312-01ad5a0ab7f5#src=seo_token; uniswap-v3 (BSC), 4.56% APY, $6.32M TVL, https://www.defi.garden/?pool=a0a4cf75-ccd3-4ec3-a7d3-79ca59d33646#src=seo_token; uniswap-v3 (BSC), 5.71% APY, $7.21M TVL, https://www.defi.garden/?pool=5bec56fa-fa61-4f9e-b454-dd06df68b876#src=seo_token; uniswap-v3 (BSC), 15.95% APY, $4.2M TVL, https://www.defi.garden/?pool=f52993c8-fdad-40cb-adde-797b383034c5#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WBNB's lower-variability candidates are venus-core-pool (BSC), 0.06% APY, $70.54M TVL, https://www.defi.garden/?pool=25e50b68-1e0c-47c6-9088-44749ce971b2#src=seo_token; aave-v3 (BSC), 0.01% APY, $99.7M TVL, https://www.defi.garden/?pool=9380e5ac-3b75-468c-951c-c24ff6497e80#src=seo_token; pancakeswap-amm (BSC), 1.22% APY, $1.31M TVL, https://www.defi.garden/?pool=1ba6ccca-7122-47ce-854e-06883f9b2897#src=seo_token; pancakeswap-amm (BSC), 1.31% APY, $11.35M TVL, https://www.defi.garden/?pool=32038bbe-b72d-49ab-aa17-37d61d44c579#src=seo_token; venus-core-pool (BSC), 0.03% APY, $387.27M TVL, https://www.defi.garden/pools/venus-core-pool-wbnb-bsc; uniswap-v3 (BSC), 4.56% APY, $6.32M TVL, https://www.defi.garden/?pool=a0a4cf75-ccd3-4ec3-a7d3-79ca59d33646#src=seo_token; uniswap-v3 (BSC), 5.71% APY, $7.21M TVL, https://www.defi.garden/?pool=5bec56fa-fa61-4f9e-b454-dd06df68b876#src=seo_token; uniswap-v3 (BSC), 15.95% APY, $4.2M TVL, https://www.defi.garden/?pool=f52993c8-fdad-40cb-adde-797b383034c5#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
@@ -26,7 +26,7 @@ Based on APY history only, WBNB's lower-variability candidates are venus-core-po
 | 2 | [aave-v3 →](https://www.defi.garden/?pool=9380e5ac-3b75-468c-951c-c24ff6497e80#src=seo_token) | BSC | 0.01% | $99.7M |
 | 3 | [pancakeswap-amm →](https://www.defi.garden/?pool=1ba6ccca-7122-47ce-854e-06883f9b2897#src=seo_token) | BSC | 1.22% | $1.31M |
 | 4 | [pancakeswap-amm →](https://www.defi.garden/?pool=32038bbe-b72d-49ab-aa17-37d61d44c579#src=seo_token) | BSC | 1.31% | $11.35M |
-| 5 | [venus-core-pool →](https://www.defi.garden/?pool=747b58ab-aefd-42e1-a312-01ad5a0ab7f5#src=seo_token) | BSC | 0.03% | $387.27M |
+| 5 | [venus-core-pool →](https://www.defi.garden/pools/venus-core-pool-wbnb-bsc) | BSC | 0.03% | $387.27M |
 | 6 | [uniswap-v3 →](https://www.defi.garden/?pool=a0a4cf75-ccd3-4ec3-a7d3-79ca59d33646#src=seo_token) | BSC | 4.56% | $6.32M |
 | 7 | [uniswap-v3 →](https://www.defi.garden/?pool=5bec56fa-fa61-4f9e-b454-dd06df68b876#src=seo_token) | BSC | 5.71% | $7.21M |
 | 8 | [uniswap-v3 →](https://www.defi.garden/?pool=f52993c8-fdad-40cb-adde-797b383034c5#src=seo_token) | BSC | 15.95% | $4.2M |
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WBNB pools have the most stable APY history?
 
-Based on APY history only, WBNB's lower-variability candidates are venus-core-pool (BSC), 0.06% APY, $70.54M TVL, https://www.defi.garden/?pool=25e50b68-1e0c-47c6-9088-44749ce971b2#src=seo_token; aave-v3 (BSC), 0.01% APY, $99.7M TVL, https://www.defi.garden/?pool=9380e5ac-3b75-468c-951c-c24ff6497e80#src=seo_token; pancakeswap-amm (BSC), 1.22% APY, $1.31M TVL, https://www.defi.garden/?pool=1ba6ccca-7122-47ce-854e-06883f9b2897#src=seo_token; pancakeswap-amm (BSC), 1.31% APY, $11.35M TVL, https://www.defi.garden/?pool=32038bbe-b72d-49ab-aa17-37d61d44c579#src=seo_token; venus-core-pool (BSC), 0.03% APY, $387.27M TVL, https://www.defi.garden/?pool=747b58ab-aefd-42e1-a312-01ad5a0ab7f5#src=seo_token; uniswap-v3 (BSC), 4.56% APY, $6.32M TVL, https://www.defi.garden/?pool=a0a4cf75-ccd3-4ec3-a7d3-79ca59d33646#src=seo_token; uniswap-v3 (BSC), 5.71% APY, $7.21M TVL, https://www.defi.garden/?pool=5bec56fa-fa61-4f9e-b454-dd06df68b876#src=seo_token; uniswap-v3 (BSC), 15.95% APY, $4.2M TVL, https://www.defi.garden/?pool=f52993c8-fdad-40cb-adde-797b383034c5#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WBNB's lower-variability candidates are venus-core-pool (BSC), 0.06% APY, $70.54M TVL, https://www.defi.garden/?pool=25e50b68-1e0c-47c6-9088-44749ce971b2#src=seo_token; aave-v3 (BSC), 0.01% APY, $99.7M TVL, https://www.defi.garden/?pool=9380e5ac-3b75-468c-951c-c24ff6497e80#src=seo_token; pancakeswap-amm (BSC), 1.22% APY, $1.31M TVL, https://www.defi.garden/?pool=1ba6ccca-7122-47ce-854e-06883f9b2897#src=seo_token; pancakeswap-amm (BSC), 1.31% APY, $11.35M TVL, https://www.defi.garden/?pool=32038bbe-b72d-49ab-aa17-37d61d44c579#src=seo_token; venus-core-pool (BSC), 0.03% APY, $387.27M TVL, https://www.defi.garden/pools/venus-core-pool-wbnb-bsc; uniswap-v3 (BSC), 4.56% APY, $6.32M TVL, https://www.defi.garden/?pool=a0a4cf75-ccd3-4ec3-a7d3-79ca59d33646#src=seo_token; uniswap-v3 (BSC), 5.71% APY, $7.21M TVL, https://www.defi.garden/?pool=5bec56fa-fa61-4f9e-b454-dd06df68b876#src=seo_token; uniswap-v3 (BSC), 15.95% APY, $4.2M TVL, https://www.defi.garden/?pool=f52993c8-fdad-40cb-adde-797b383034c5#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

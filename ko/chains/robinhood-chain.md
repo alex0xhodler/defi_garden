@@ -4,8 +4,8 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| STEAKUSDG | [morpho-blue →](https://www.defi.garden/?pool=32f586b4-5358-5aa2-88ee-c842139e7023#src=seo_chain) | 6.99% | $532.04M |
-| USDE | [morpho-blue →](https://www.defi.garden/?pool=d3ed814d-9763-5436-8b25-66bdbabd36f8#src=seo_chain) | 4.75% | $350.76M |
+| STEAKUSDG | [morpho-blue →](https://www.defi.garden/ko/pools/morpho-blue-steakusdg-robinhood-chain) | 6.99% | $532.04M |
+| USDE | [morpho-blue →](https://www.defi.garden/ko/pools/morpho-blue-usde-robinhood-chain) | 4.75% | $350.76M |
 | USDC | [midas-rwa →](https://www.defi.garden/?pool=38cae0ab-6989-5f2e-a9b0-04e5d088d580#src=seo_chain) | 6.20% | $36.04M |
 | USDG | [spark-savings →](https://www.defi.garden/?pool=a1371c8f-592f-56d4-a506-7f1530f35a00#src=seo_chain) | 3.50% | $14.18M |
 | USDE | [accountable →](https://www.defi.garden/?pool=8f8bdead-177c-5019-8dba-a1f13fe2dc61#src=seo_chain) | 8.67% | $2.18M |

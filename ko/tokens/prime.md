@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [hastra →](https://www.defi.garden/?pool=acfc00cf-5f1f-5172-acc7-4827e5ddd0b7#src=seo_token) | Ethereum | 6.04% | $455.47M |
+| [hastra →](https://www.defi.garden/ko/pools/hastra-prime-ethereum) | Ethereum | 6.04% | $455.47M |
 | [hastra →](https://www.defi.garden/?pool=76bb34c2-e68a-4398-9fba-d8a14c0caa44#src=seo_token) | Solana | 6.04% | $130.18M |
 | [morpho-blue →](https://www.defi.garden/?pool=052e3f85-e489-4bee-9e34-c7898ef1d449#src=seo_token) | Ethereum | 4.52% | $29.32M |
 | [orca-dex →](https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255#src=seo_token) | Solana | 0.38% | $9.58M |
@@ -18,11 +18,11 @@
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 PRIME의 변동성 낮은 후보는 Ethereum의 hastra, APY 6.04%, TVL $455.47M, https://www.defi.garden/?pool=acfc00cf-5f1f-5172-acc7-4827e5ddd0b7#src=seo_token; Solana의 orca-dex, APY 0.18%, TVL $3.59M, https://www.defi.garden/?pool=069fc5ee-37bc-4699-8793-38094d6c0e1a#src=seo_token; Ethereum의 morpho-blue, APY 4.52%, TVL $29.32M, https://www.defi.garden/?pool=052e3f85-e489-4bee-9e34-c7898ef1d449#src=seo_token; Solana의 hastra, APY 6.04%, TVL $130.18M, https://www.defi.garden/?pool=76bb34c2-e68a-4398-9fba-d8a14c0caa44#src=seo_token; Solana의 orca-dex, APY 0.38%, TVL $9.58M, https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255#src=seo_token; Ethereum의 morpho-blue, APY 3.72%, TVL $1.15M, https://www.defi.garden/?pool=8fa8207f-039a-4223-9344-f68cf247bc74#src=seo_token; Ethereum의 morpho-blue, APY 2.93%, TVL $2.76M, https://www.defi.garden/?pool=59444b82-6f00-4f1f-89a6-48a0d715c10f#src=seo_token; Ethereum의 uniswap-v3, APY 0.33%, TVL $9M, https://www.defi.garden/?pool=e17c52fd-7327-481a-9e4e-ca37474e192b#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 PRIME의 변동성 낮은 후보는 Ethereum의 hastra, APY 6.04%, TVL $455.47M, https://www.defi.garden/ko/pools/hastra-prime-ethereum; Solana의 orca-dex, APY 0.18%, TVL $3.59M, https://www.defi.garden/?pool=069fc5ee-37bc-4699-8793-38094d6c0e1a#src=seo_token; Ethereum의 morpho-blue, APY 4.52%, TVL $29.32M, https://www.defi.garden/?pool=052e3f85-e489-4bee-9e34-c7898ef1d449#src=seo_token; Solana의 hastra, APY 6.04%, TVL $130.18M, https://www.defi.garden/?pool=76bb34c2-e68a-4398-9fba-d8a14c0caa44#src=seo_token; Solana의 orca-dex, APY 0.38%, TVL $9.58M, https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255#src=seo_token; Ethereum의 morpho-blue, APY 3.72%, TVL $1.15M, https://www.defi.garden/?pool=8fa8207f-039a-4223-9344-f68cf247bc74#src=seo_token; Ethereum의 morpho-blue, APY 2.93%, TVL $2.76M, https://www.defi.garden/?pool=59444b82-6f00-4f1f-89a6-48a0d715c10f#src=seo_token; Ethereum의 uniswap-v3, APY 0.33%, TVL $9M, https://www.defi.garden/?pool=e17c52fd-7327-481a-9e4e-ca37474e192b#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [hastra →](https://www.defi.garden/?pool=acfc00cf-5f1f-5172-acc7-4827e5ddd0b7#src=seo_token) | Ethereum | 6.04% | $455.47M |
+| 1 | [hastra →](https://www.defi.garden/ko/pools/hastra-prime-ethereum) | Ethereum | 6.04% | $455.47M |
 | 2 | [orca-dex →](https://www.defi.garden/?pool=069fc5ee-37bc-4699-8793-38094d6c0e1a#src=seo_token) | Solana | 0.18% | $3.59M |
 | 3 | [morpho-blue →](https://www.defi.garden/?pool=052e3f85-e489-4bee-9e34-c7898ef1d449#src=seo_token) | Ethereum | 4.52% | $29.32M |
 | 4 | [hastra →](https://www.defi.garden/?pool=76bb34c2-e68a-4398-9fba-d8a14c0caa44#src=seo_token) | Solana | 6.04% | $130.18M |
@@ -72,7 +72,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 hastra에서 APY 6.04%예요.
 
 ### PRIME 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 PRIME의 변동성 낮은 후보는 Ethereum의 hastra, APY 6.04%, TVL $455.47M, https://www.defi.garden/?pool=acfc00cf-5f1f-5172-acc7-4827e5ddd0b7#src=seo_token; Solana의 orca-dex, APY 0.18%, TVL $3.59M, https://www.defi.garden/?pool=069fc5ee-37bc-4699-8793-38094d6c0e1a#src=seo_token; Ethereum의 morpho-blue, APY 4.52%, TVL $29.32M, https://www.defi.garden/?pool=052e3f85-e489-4bee-9e34-c7898ef1d449#src=seo_token; Solana의 hastra, APY 6.04%, TVL $130.18M, https://www.defi.garden/?pool=76bb34c2-e68a-4398-9fba-d8a14c0caa44#src=seo_token; Solana의 orca-dex, APY 0.38%, TVL $9.58M, https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255#src=seo_token; Ethereum의 morpho-blue, APY 3.72%, TVL $1.15M, https://www.defi.garden/?pool=8fa8207f-039a-4223-9344-f68cf247bc74#src=seo_token; Ethereum의 morpho-blue, APY 2.93%, TVL $2.76M, https://www.defi.garden/?pool=59444b82-6f00-4f1f-89a6-48a0d715c10f#src=seo_token; Ethereum의 uniswap-v3, APY 0.33%, TVL $9M, https://www.defi.garden/?pool=e17c52fd-7327-481a-9e4e-ca37474e192b#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 PRIME의 변동성 낮은 후보는 Ethereum의 hastra, APY 6.04%, TVL $455.47M, https://www.defi.garden/ko/pools/hastra-prime-ethereum; Solana의 orca-dex, APY 0.18%, TVL $3.59M, https://www.defi.garden/?pool=069fc5ee-37bc-4699-8793-38094d6c0e1a#src=seo_token; Ethereum의 morpho-blue, APY 4.52%, TVL $29.32M, https://www.defi.garden/?pool=052e3f85-e489-4bee-9e34-c7898ef1d449#src=seo_token; Solana의 hastra, APY 6.04%, TVL $130.18M, https://www.defi.garden/?pool=76bb34c2-e68a-4398-9fba-d8a14c0caa44#src=seo_token; Solana의 orca-dex, APY 0.38%, TVL $9.58M, https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255#src=seo_token; Ethereum의 morpho-blue, APY 3.72%, TVL $1.15M, https://www.defi.garden/?pool=8fa8207f-039a-4223-9344-f68cf247bc74#src=seo_token; Ethereum의 morpho-blue, APY 2.93%, TVL $2.76M, https://www.defi.garden/?pool=59444b82-6f00-4f1f-89a6-48a0d715c10f#src=seo_token; Ethereum의 uniswap-v3, APY 0.33%, TVL $9M, https://www.defi.garden/?pool=e17c52fd-7327-481a-9e4e-ca37474e192b#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

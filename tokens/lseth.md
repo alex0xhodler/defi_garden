@@ -6,7 +6,7 @@ The highest honest LSETH yield right now is 2.92% on liquid-collective (Ethereum
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [liquid-collective →](https://www.defi.garden/?pool=465d177e-3d0d-42c0-b5f5-31c857567135#src=seo_token) | Ethereum | 2.92% | $739.77M |
+| [liquid-collective →](https://www.defi.garden/pools/liquid-collective-lseth-ethereum) | Ethereum | 2.92% | $739.77M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

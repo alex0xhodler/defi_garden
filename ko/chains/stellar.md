@@ -4,7 +4,7 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| USDY | [ondo-yield-assets →](https://www.defi.garden/?pool=a66e2d12-188b-407d-aaec-d95640e08ef7#src=seo_chain) | 3.62% | $536.89M |
+| USDY | [ondo-yield-assets →](https://www.defi.garden/ko/pools/ondo-yield-assets-usdy-stellar) | 3.62% | $536.89M |
 | EARNUSDC | [gami-labs →](https://www.defi.garden/?pool=038cb9c0-814d-41cc-ac43-b4fefd95da53#src=seo_chain) | 10.00% | $25.5M |
 | USDC | [blend-pools-v2 →](https://www.defi.garden/?pool=ecf788e3-d2ef-4fdd-9ece-8a2d96226ddf#src=seo_chain) | 6.66% | $11.65M |
 | EARNXLM | [gami-labs →](https://www.defi.garden/?pool=879fac16-fff2-4985-b516-366eeb9c0c6c#src=seo_chain) | 5.00% | $4.41M |

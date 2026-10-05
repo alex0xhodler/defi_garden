@@ -203,15 +203,8 @@ function getPoolsSnapshot() {
   return [];
 }
 
-const PERMISSIONED_PROJECT_LIST = new Set([
-  'blackrock-buidl',
-  'ondo-yield-assets',
-  'invesco-ustb',
-  'circle-usyc',
-  'superstate',
-  'hashnote',
-  'centrifuge-protocol'
-]);
+// Shared with the static pool-page generator (single source of truth).
+const { PERMISSIONED_PROJECT_LIST } = require('../permissioned-projects.js');
 
 function handleToolCall(name, args) {
   args = args || {};

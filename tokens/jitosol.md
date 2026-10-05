@@ -6,7 +6,7 @@ The highest honest JITOSOL yield right now is 4.91% on jito-liquid-staking (Sola
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [jito-liquid-staking →](https://www.defi.garden/?pool=0e7d0722-9054-4907-8593-567b353c0900#src=seo_token) | Solana | 4.91% | $1.26B |
+| [jito-liquid-staking →](https://www.defi.garden/pools/jito-liquid-staking-jitosol-solana) | Solana | 4.91% | $1.26B |
 | [uniswap-v3 →](https://www.defi.garden/?pool=94996334-b27b-5d0f-8389-f418c2da9cdb#src=seo_token) | Base | 0.13% | $15.79M |
 | [project-0 →](https://www.defi.garden/?pool=ba625871-0591-4b44-b9da-eb3f34943f9f#src=seo_token) | Solana | 0.15% | $8.74M |
 | [orca-dex →](https://www.defi.garden/?pool=923d43c8-455e-4196-9b5d-afcc966c934f#src=seo_token) | Solana | 0.36% | $6.97M |
@@ -18,13 +18,13 @@ The highest honest JITOSOL yield right now is 4.91% on jito-liquid-staking (Sola
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, JITOSOL's lower-variability candidates are project-0 (Solana), 0.15% APY, $8.74M TVL, https://www.defi.garden/?pool=ba625871-0591-4b44-b9da-eb3f34943f9f#src=seo_token; uniswap-v3 (Base), 0.13% APY, $15.79M TVL, https://www.defi.garden/?pool=94996334-b27b-5d0f-8389-f418c2da9cdb#src=seo_token; jito-liquid-staking (Solana), 4.91% APY, $1.26B TVL, https://www.defi.garden/?pool=0e7d0722-9054-4907-8593-567b353c0900#src=seo_token; kamino-liquidity (Solana), 0.21% APY, $6.92M TVL, https://www.defi.garden/?pool=55616349-b749-4467-8edc-abbb40ae80f6#src=seo_token; kamino-liquidity (Solana), 0.74% APY, $1.75M TVL, https://www.defi.garden/?pool=fdcccd6a-a491-4c30-8024-5677bd3f0993#src=seo_token; raydium-amm (Solana), 0.49% APY, $2.04M TVL, https://www.defi.garden/?pool=ce89c76d-e6d5-4de0-9706-df3f33d309c7#src=seo_token; orca-dex (Solana), 0.36% APY, $6.97M TVL, https://www.defi.garden/?pool=923d43c8-455e-4196-9b5d-afcc966c934f#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, JITOSOL's lower-variability candidates are project-0 (Solana), 0.15% APY, $8.74M TVL, https://www.defi.garden/?pool=ba625871-0591-4b44-b9da-eb3f34943f9f#src=seo_token; uniswap-v3 (Base), 0.13% APY, $15.79M TVL, https://www.defi.garden/?pool=94996334-b27b-5d0f-8389-f418c2da9cdb#src=seo_token; jito-liquid-staking (Solana), 4.91% APY, $1.26B TVL, https://www.defi.garden/pools/jito-liquid-staking-jitosol-solana; kamino-liquidity (Solana), 0.21% APY, $6.92M TVL, https://www.defi.garden/?pool=55616349-b749-4467-8edc-abbb40ae80f6#src=seo_token; kamino-liquidity (Solana), 0.74% APY, $1.75M TVL, https://www.defi.garden/?pool=fdcccd6a-a491-4c30-8024-5677bd3f0993#src=seo_token; raydium-amm (Solana), 0.49% APY, $2.04M TVL, https://www.defi.garden/?pool=ce89c76d-e6d5-4de0-9706-df3f33d309c7#src=seo_token; orca-dex (Solana), 0.36% APY, $6.97M TVL, https://www.defi.garden/?pool=923d43c8-455e-4196-9b5d-afcc966c934f#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [project-0 →](https://www.defi.garden/?pool=ba625871-0591-4b44-b9da-eb3f34943f9f#src=seo_token) | Solana | 0.15% | $8.74M |
 | 2 | [uniswap-v3 →](https://www.defi.garden/?pool=94996334-b27b-5d0f-8389-f418c2da9cdb#src=seo_token) | Base | 0.13% | $15.79M |
-| 3 | [jito-liquid-staking →](https://www.defi.garden/?pool=0e7d0722-9054-4907-8593-567b353c0900#src=seo_token) | Solana | 4.91% | $1.26B |
+| 3 | [jito-liquid-staking →](https://www.defi.garden/pools/jito-liquid-staking-jitosol-solana) | Solana | 4.91% | $1.26B |
 | 4 | [kamino-liquidity →](https://www.defi.garden/?pool=55616349-b749-4467-8edc-abbb40ae80f6#src=seo_token) | Solana | 0.21% | $6.92M |
 | 5 | [kamino-liquidity →](https://www.defi.garden/?pool=fdcccd6a-a491-4c30-8024-5677bd3f0993#src=seo_token) | Solana | 0.74% | $1.75M |
 | 6 | [raydium-amm →](https://www.defi.garden/?pool=ce89c76d-e6d5-4de0-9706-df3f33d309c7#src=seo_token) | Solana | 0.49% | $2.04M |
@@ -71,7 +71,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which JITOSOL pools have the most stable APY history?
 
-Based on APY history only, JITOSOL's lower-variability candidates are project-0 (Solana), 0.15% APY, $8.74M TVL, https://www.defi.garden/?pool=ba625871-0591-4b44-b9da-eb3f34943f9f#src=seo_token; uniswap-v3 (Base), 0.13% APY, $15.79M TVL, https://www.defi.garden/?pool=94996334-b27b-5d0f-8389-f418c2da9cdb#src=seo_token; jito-liquid-staking (Solana), 4.91% APY, $1.26B TVL, https://www.defi.garden/?pool=0e7d0722-9054-4907-8593-567b353c0900#src=seo_token; kamino-liquidity (Solana), 0.21% APY, $6.92M TVL, https://www.defi.garden/?pool=55616349-b749-4467-8edc-abbb40ae80f6#src=seo_token; kamino-liquidity (Solana), 0.74% APY, $1.75M TVL, https://www.defi.garden/?pool=fdcccd6a-a491-4c30-8024-5677bd3f0993#src=seo_token; raydium-amm (Solana), 0.49% APY, $2.04M TVL, https://www.defi.garden/?pool=ce89c76d-e6d5-4de0-9706-df3f33d309c7#src=seo_token; orca-dex (Solana), 0.36% APY, $6.97M TVL, https://www.defi.garden/?pool=923d43c8-455e-4196-9b5d-afcc966c934f#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, JITOSOL's lower-variability candidates are project-0 (Solana), 0.15% APY, $8.74M TVL, https://www.defi.garden/?pool=ba625871-0591-4b44-b9da-eb3f34943f9f#src=seo_token; uniswap-v3 (Base), 0.13% APY, $15.79M TVL, https://www.defi.garden/?pool=94996334-b27b-5d0f-8389-f418c2da9cdb#src=seo_token; jito-liquid-staking (Solana), 4.91% APY, $1.26B TVL, https://www.defi.garden/pools/jito-liquid-staking-jitosol-solana; kamino-liquidity (Solana), 0.21% APY, $6.92M TVL, https://www.defi.garden/?pool=55616349-b749-4467-8edc-abbb40ae80f6#src=seo_token; kamino-liquidity (Solana), 0.74% APY, $1.75M TVL, https://www.defi.garden/?pool=fdcccd6a-a491-4c30-8024-5677bd3f0993#src=seo_token; raydium-amm (Solana), 0.49% APY, $2.04M TVL, https://www.defi.garden/?pool=ce89c76d-e6d5-4de0-9706-df3f33d309c7#src=seo_token; orca-dex (Solana), 0.36% APY, $6.97M TVL, https://www.defi.garden/?pool=923d43c8-455e-4196-9b5d-afcc966c934f#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

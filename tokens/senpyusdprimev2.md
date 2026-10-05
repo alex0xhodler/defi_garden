@@ -6,7 +6,7 @@ The highest honest SENPYUSDPRIMEV2 yield right now is 6.95% on morpho-blue (Ethe
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=f569e486-da2a-41ef-8bfe-1a4db0d1d268#src=seo_token) | Ethereum | 6.95% | $220.53M |
+| [morpho-blue →](https://www.defi.garden/pools/morpho-blue-senpyusdprimev2-ethereum) | Ethereum | 6.95% | $220.53M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

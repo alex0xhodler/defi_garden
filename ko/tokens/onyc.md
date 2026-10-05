@@ -6,18 +6,18 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [onre →](https://www.defi.garden/?pool=7083d6a5-e3cb-4eeb-8204-f1b735e4ecbb#src=seo_token) | Solana | 11.02% | $286.73M |
+| [onre →](https://www.defi.garden/ko/pools/onre-onyc-solana) | Solana | 11.02% | $286.73M |
 | [orca-dex →](https://www.defi.garden/?pool=cb268c37-d05c-4f1e-a889-ace0488f46e0#src=seo_token) | Solana | 0.47% | $6.81M |
 | [raydium-amm →](https://www.defi.garden/?pool=92d30c54-b6c6-436d-b93d-c17f09268d0a#src=seo_token) | Solana | 0.44% | $3.2M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 ONYC의 변동성 낮은 후보는 Solana의 onre, APY 11.02%, TVL $286.73M, https://www.defi.garden/?pool=7083d6a5-e3cb-4eeb-8204-f1b735e4ecbb#src=seo_token; Solana의 orca-dex, APY 0.47%, TVL $6.81M, https://www.defi.garden/?pool=cb268c37-d05c-4f1e-a889-ace0488f46e0#src=seo_token; Solana의 raydium-amm, APY 0.44%, TVL $3.2M, https://www.defi.garden/?pool=92d30c54-b6c6-436d-b93d-c17f09268d0a#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 ONYC의 변동성 낮은 후보는 Solana의 onre, APY 11.02%, TVL $286.73M, https://www.defi.garden/ko/pools/onre-onyc-solana; Solana의 orca-dex, APY 0.47%, TVL $6.81M, https://www.defi.garden/?pool=cb268c37-d05c-4f1e-a889-ace0488f46e0#src=seo_token; Solana의 raydium-amm, APY 0.44%, TVL $3.2M, https://www.defi.garden/?pool=92d30c54-b6c6-436d-b93d-c17f09268d0a#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [onre →](https://www.defi.garden/?pool=7083d6a5-e3cb-4eeb-8204-f1b735e4ecbb#src=seo_token) | Solana | 11.02% | $286.73M |
+| 1 | [onre →](https://www.defi.garden/ko/pools/onre-onyc-solana) | Solana | 11.02% | $286.73M |
 | 2 | [orca-dex →](https://www.defi.garden/?pool=cb268c37-d05c-4f1e-a889-ace0488f46e0#src=seo_token) | Solana | 0.47% | $6.81M |
 | 3 | [raydium-amm →](https://www.defi.garden/?pool=92d30c54-b6c6-436d-b93d-c17f09268d0a#src=seo_token) | Solana | 0.44% | $3.2M |
 
@@ -57,7 +57,7 @@ DefiLlama 실시간 데이터 기준, Solana의 onre에서 APY 11.02%예요.
 
 ### ONYC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 ONYC의 변동성 낮은 후보는 Solana의 onre, APY 11.02%, TVL $286.73M, https://www.defi.garden/?pool=7083d6a5-e3cb-4eeb-8204-f1b735e4ecbb#src=seo_token; Solana의 orca-dex, APY 0.47%, TVL $6.81M, https://www.defi.garden/?pool=cb268c37-d05c-4f1e-a889-ace0488f46e0#src=seo_token; Solana의 raydium-amm, APY 0.44%, TVL $3.2M, https://www.defi.garden/?pool=92d30c54-b6c6-436d-b93d-c17f09268d0a#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 ONYC의 변동성 낮은 후보는 Solana의 onre, APY 11.02%, TVL $286.73M, https://www.defi.garden/ko/pools/onre-onyc-solana; Solana의 orca-dex, APY 0.47%, TVL $6.81M, https://www.defi.garden/?pool=cb268c37-d05c-4f1e-a889-ace0488f46e0#src=seo_token; Solana의 raydium-amm, APY 0.44%, TVL $3.2M, https://www.defi.garden/?pool=92d30c54-b6c6-436d-b93d-c17f09268d0a#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

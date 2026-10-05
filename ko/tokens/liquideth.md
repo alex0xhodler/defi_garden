@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [ether.fi-liquid →](https://www.defi.garden/?pool=b86d4934-2e75-415a-bdd2-e28143d72491#src=seo_token) | Ethereum | 5.60% | $370.45M |
+| [ether.fi-liquid →](https://www.defi.garden/ko/pools/ether-fi-liquid-liquideth-ethereum) | Ethereum | 5.60% | $370.45M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

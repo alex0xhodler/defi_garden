@@ -4,8 +4,8 @@ The highest honest Avalanche yield right now is 7.69% on avant-avusd (Avalanche)
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| BUIDL | [blackrock-buidl →](https://www.defi.garden/?pool=0906793c-ec02-4c77-9e0e-eee007269d2f#src=seo_chain) | 3.78% | $483.18M |
-| SAVAX | [benqi-staked-avax →](https://www.defi.garden/?pool=3790c3e5-8644-4f6b-8feb-12434d8b99f9#src=seo_chain) | 3.49% | $258.78M |
+| BUIDL | [blackrock-buidl →](https://www.defi.garden/pools/blackrock-buidl-buidl-avalanche) | 3.78% | $483.18M |
+| SAVAX | [benqi-staked-avax →](https://www.defi.garden/pools/benqi-staked-avax-savax-avalanche) | 3.49% | $258.78M |
 | WAVAX | [aave-v3 →](https://www.defi.garden/?pool=a1e18d7d-9a5f-4251-acb4-a87e005fe2c5#src=seo_chain) | 0.75% | $133.33M |
 | SAVUSD | [avant-avusd →](https://www.defi.garden/?pool=c74227a1-e738-4021-bbe1-13363815aecb#src=seo_chain) | 7.69% | $104.72M |
 | BTC.B | [aave-v3 →](https://www.defi.garden/?pool=94e3f442-ab03-4138-a7a8-910bac548058#src=seo_chain) | 0.01% | $95.69M |

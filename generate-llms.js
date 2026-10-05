@@ -741,6 +741,7 @@ function buildConcise(meta, categories, highYield, yieldAnalysis, plannerRateRes
   lines.push(`- "How do I make yield pay a monthly subscription" → ${meta.baseUrl}/plan.html`);
   lines.push(`- "Save toward retirement with crypto yield" → ${meta.baseUrl}/plan.html`);
   lines.push(`- "How DeFi yield works (APY, lending rates, risk rails)" → ${meta.baseUrl}/guide/defi-yield-rates-explained`);
+  lines.push(`- "Is a specific pool's APY stable? DeFi Score and 14-day forecast for large pools" → ${meta.baseUrl}/pools`);
   lines.push('');
   
   // Current top yields

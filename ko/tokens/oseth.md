@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [stakewise-v3 →](https://www.defi.garden/?pool=4d01599c-69ae-41a3-bae1-5fab896f04c8#src=seo_token) | Ethereum | 2.34% | $422.74M |
+| [stakewise-v3 →](https://www.defi.garden/ko/pools/stakewise-v3-oseth-ethereum) | Ethereum | 2.34% | $422.74M |
 | [fluid-dex →](https://www.defi.garden/?pool=d2c742e2-2807-4156-a665-d84ca06d56c8#src=seo_token) | Ethereum | 0.11% | $16.69M |
 | [curve-dex →](https://www.defi.garden/?pool=e7fe034b-6f68-4a8f-9cef-bab9bcd051e1#src=seo_token) | Ethereum | 2.17% | $15.06M |
 | [convex-finance →](https://www.defi.garden/?pool=10e78df0-9ce4-4d23-bfbd-f35f002e95f5#src=seo_token) | Ethereum | 6.90% | $2.29M |
@@ -15,12 +15,12 @@
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 OSETH의 변동성 낮은 후보는 Ethereum의 fluid-dex, APY 0.11%, TVL $16.69M, https://www.defi.garden/?pool=d2c742e2-2807-4156-a665-d84ca06d56c8#src=seo_token; Ethereum의 stakewise-v3, APY 2.34%, TVL $422.74M, https://www.defi.garden/?pool=4d01599c-69ae-41a3-bae1-5fab896f04c8#src=seo_token; Ethereum의 curve-dex, APY 2.17%, TVL $15.06M, https://www.defi.garden/?pool=e7fe034b-6f68-4a8f-9cef-bab9bcd051e1#src=seo_token; Ethereum의 balancer-v3, APY 1.82%, TVL $1.94M, https://www.defi.garden/?pool=a5d146f0-29f6-4b60-98a1-537f22e3f4d5#src=seo_token; Ethereum의 convex-finance, APY 6.90%, TVL $2.29M, https://www.defi.garden/?pool=10e78df0-9ce4-4d23-bfbd-f35f002e95f5#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 OSETH의 변동성 낮은 후보는 Ethereum의 fluid-dex, APY 0.11%, TVL $16.69M, https://www.defi.garden/?pool=d2c742e2-2807-4156-a665-d84ca06d56c8#src=seo_token; Ethereum의 stakewise-v3, APY 2.34%, TVL $422.74M, https://www.defi.garden/ko/pools/stakewise-v3-oseth-ethereum; Ethereum의 curve-dex, APY 2.17%, TVL $15.06M, https://www.defi.garden/?pool=e7fe034b-6f68-4a8f-9cef-bab9bcd051e1#src=seo_token; Ethereum의 balancer-v3, APY 1.82%, TVL $1.94M, https://www.defi.garden/?pool=a5d146f0-29f6-4b60-98a1-537f22e3f4d5#src=seo_token; Ethereum의 convex-finance, APY 6.90%, TVL $2.29M, https://www.defi.garden/?pool=10e78df0-9ce4-4d23-bfbd-f35f002e95f5#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [fluid-dex →](https://www.defi.garden/?pool=d2c742e2-2807-4156-a665-d84ca06d56c8#src=seo_token) | Ethereum | 0.11% | $16.69M |
-| 2 | [stakewise-v3 →](https://www.defi.garden/?pool=4d01599c-69ae-41a3-bae1-5fab896f04c8#src=seo_token) | Ethereum | 2.34% | $422.74M |
+| 2 | [stakewise-v3 →](https://www.defi.garden/ko/pools/stakewise-v3-oseth-ethereum) | Ethereum | 2.34% | $422.74M |
 | 3 | [curve-dex →](https://www.defi.garden/?pool=e7fe034b-6f68-4a8f-9cef-bab9bcd051e1#src=seo_token) | Ethereum | 2.17% | $15.06M |
 | 4 | [balancer-v3 →](https://www.defi.garden/?pool=a5d146f0-29f6-4b60-98a1-537f22e3f4d5#src=seo_token) | Ethereum | 1.82% | $1.94M |
 | 5 | [convex-finance →](https://www.defi.garden/?pool=10e78df0-9ce4-4d23-bfbd-f35f002e95f5#src=seo_token) | Ethereum | 6.90% | $2.29M |
@@ -61,7 +61,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 6.90%
 
 ### OSETH 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 OSETH의 변동성 낮은 후보는 Ethereum의 fluid-dex, APY 0.11%, TVL $16.69M, https://www.defi.garden/?pool=d2c742e2-2807-4156-a665-d84ca06d56c8#src=seo_token; Ethereum의 stakewise-v3, APY 2.34%, TVL $422.74M, https://www.defi.garden/?pool=4d01599c-69ae-41a3-bae1-5fab896f04c8#src=seo_token; Ethereum의 curve-dex, APY 2.17%, TVL $15.06M, https://www.defi.garden/?pool=e7fe034b-6f68-4a8f-9cef-bab9bcd051e1#src=seo_token; Ethereum의 balancer-v3, APY 1.82%, TVL $1.94M, https://www.defi.garden/?pool=a5d146f0-29f6-4b60-98a1-537f22e3f4d5#src=seo_token; Ethereum의 convex-finance, APY 6.90%, TVL $2.29M, https://www.defi.garden/?pool=10e78df0-9ce4-4d23-bfbd-f35f002e95f5#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 OSETH의 변동성 낮은 후보는 Ethereum의 fluid-dex, APY 0.11%, TVL $16.69M, https://www.defi.garden/?pool=d2c742e2-2807-4156-a665-d84ca06d56c8#src=seo_token; Ethereum의 stakewise-v3, APY 2.34%, TVL $422.74M, https://www.defi.garden/ko/pools/stakewise-v3-oseth-ethereum; Ethereum의 curve-dex, APY 2.17%, TVL $15.06M, https://www.defi.garden/?pool=e7fe034b-6f68-4a8f-9cef-bab9bcd051e1#src=seo_token; Ethereum의 balancer-v3, APY 1.82%, TVL $1.94M, https://www.defi.garden/?pool=a5d146f0-29f6-4b60-98a1-537f22e3f4d5#src=seo_token; Ethereum의 convex-finance, APY 6.90%, TVL $2.29M, https://www.defi.garden/?pool=10e78df0-9ce4-4d23-bfbd-f35f002e95f5#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

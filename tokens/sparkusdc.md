@@ -6,7 +6,7 @@ The highest honest SPARKUSDC yield right now is 3.96% on morpho-blue (Base), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=a5fab52f-73fa-4f44-9c09-9af1eb20996c#src=seo_token) | Base | 3.96% | $329.66M |
+| [morpho-blue →](https://www.defi.garden/pools/morpho-blue-sparkusdc-base) | Base | 3.96% | $329.66M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

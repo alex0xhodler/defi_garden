@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=e0672197-9f3e-4414-bca5-e6b4c90aa469#src=seo_token) | Base | 4.41% | $414.33M |
+| [morpho-blue →](https://www.defi.garden/ko/pools/morpho-blue-gtusdcp-base) | Base | 4.41% | $414.33M |
 | [morpho-blue →](https://www.defi.garden/?pool=df7ccfd1-2642-4d79-851a-a5b07d9b8a97#src=seo_token) | Base | 4.41% | $178.7M |
 | [morpho-blue →](https://www.defi.garden/?pool=71b34441-5a46-431b-a9b3-8c081cd0d74c#src=seo_token) | Ethereum | 4.37% | $112.13M |
 | [morpho-blue →](https://www.defi.garden/?pool=6b655652-e718-4cba-a17b-42ee036531dc#src=seo_token) | OP Mainnet | 4.54% | $721.3K |
@@ -16,11 +16,11 @@
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 GTUSDCP의 변동성 낮은 후보는 Base의 morpho-blue, APY 4.41%, TVL $414.33M, https://www.defi.garden/?pool=e0672197-9f3e-4414-bca5-e6b4c90aa469#src=seo_token; Ethereum의 morpho-blue, APY 4.37%, TVL $112.13M, https://www.defi.garden/?pool=71b34441-5a46-431b-a9b3-8c081cd0d74c#src=seo_token; Base의 morpho-blue, APY 4.41%, TVL $178.7M, https://www.defi.garden/?pool=df7ccfd1-2642-4d79-851a-a5b07d9b8a97#src=seo_token; Arbitrum의 morpho-blue, APY 2.36%, TVL $463.4K, https://www.defi.garden/?pool=7aad812f-4ed1-42ea-8c8f-654b5ef49d25#src=seo_token; Arbitrum의 morpho-blue, APY 2.58%, TVL $594.2K, https://www.defi.garden/?pool=8b0a8a57-e1b0-4d69-ab5d-d858de1d4170#src=seo_token; OP Mainnet의 morpho-blue, APY 4.54%, TVL $721.3K, https://www.defi.garden/?pool=6b655652-e718-4cba-a17b-42ee036531dc#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 GTUSDCP의 변동성 낮은 후보는 Base의 morpho-blue, APY 4.41%, TVL $414.33M, https://www.defi.garden/ko/pools/morpho-blue-gtusdcp-base; Ethereum의 morpho-blue, APY 4.37%, TVL $112.13M, https://www.defi.garden/?pool=71b34441-5a46-431b-a9b3-8c081cd0d74c#src=seo_token; Base의 morpho-blue, APY 4.41%, TVL $178.7M, https://www.defi.garden/?pool=df7ccfd1-2642-4d79-851a-a5b07d9b8a97#src=seo_token; Arbitrum의 morpho-blue, APY 2.36%, TVL $463.4K, https://www.defi.garden/?pool=7aad812f-4ed1-42ea-8c8f-654b5ef49d25#src=seo_token; Arbitrum의 morpho-blue, APY 2.58%, TVL $594.2K, https://www.defi.garden/?pool=8b0a8a57-e1b0-4d69-ab5d-d858de1d4170#src=seo_token; OP Mainnet의 morpho-blue, APY 4.54%, TVL $721.3K, https://www.defi.garden/?pool=6b655652-e718-4cba-a17b-42ee036531dc#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=e0672197-9f3e-4414-bca5-e6b4c90aa469#src=seo_token) | Base | 4.41% | $414.33M |
+| 1 | [morpho-blue →](https://www.defi.garden/ko/pools/morpho-blue-gtusdcp-base) | Base | 4.41% | $414.33M |
 | 2 | [morpho-blue →](https://www.defi.garden/?pool=71b34441-5a46-431b-a9b3-8c081cd0d74c#src=seo_token) | Ethereum | 4.37% | $112.13M |
 | 3 | [morpho-blue →](https://www.defi.garden/?pool=df7ccfd1-2642-4d79-851a-a5b07d9b8a97#src=seo_token) | Base | 4.41% | $178.7M |
 | 4 | [morpho-blue →](https://www.defi.garden/?pool=7aad812f-4ed1-42ea-8c8f-654b5ef49d25#src=seo_token) | Arbitrum | 2.36% | $463.4K |
@@ -64,7 +64,7 @@ DefiLlama 실시간 데이터 기준, OP Mainnet의 morpho-blue에서 APY 4.54%�
 
 ### GTUSDCP 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 GTUSDCP의 변동성 낮은 후보는 Base의 morpho-blue, APY 4.41%, TVL $414.33M, https://www.defi.garden/?pool=e0672197-9f3e-4414-bca5-e6b4c90aa469#src=seo_token; Ethereum의 morpho-blue, APY 4.37%, TVL $112.13M, https://www.defi.garden/?pool=71b34441-5a46-431b-a9b3-8c081cd0d74c#src=seo_token; Base의 morpho-blue, APY 4.41%, TVL $178.7M, https://www.defi.garden/?pool=df7ccfd1-2642-4d79-851a-a5b07d9b8a97#src=seo_token; Arbitrum의 morpho-blue, APY 2.36%, TVL $463.4K, https://www.defi.garden/?pool=7aad812f-4ed1-42ea-8c8f-654b5ef49d25#src=seo_token; Arbitrum의 morpho-blue, APY 2.58%, TVL $594.2K, https://www.defi.garden/?pool=8b0a8a57-e1b0-4d69-ab5d-d858de1d4170#src=seo_token; OP Mainnet의 morpho-blue, APY 4.54%, TVL $721.3K, https://www.defi.garden/?pool=6b655652-e718-4cba-a17b-42ee036531dc#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 GTUSDCP의 변동성 낮은 후보는 Base의 morpho-blue, APY 4.41%, TVL $414.33M, https://www.defi.garden/ko/pools/morpho-blue-gtusdcp-base; Ethereum의 morpho-blue, APY 4.37%, TVL $112.13M, https://www.defi.garden/?pool=71b34441-5a46-431b-a9b3-8c081cd0d74c#src=seo_token; Base의 morpho-blue, APY 4.41%, TVL $178.7M, https://www.defi.garden/?pool=df7ccfd1-2642-4d79-851a-a5b07d9b8a97#src=seo_token; Arbitrum의 morpho-blue, APY 2.36%, TVL $463.4K, https://www.defi.garden/?pool=7aad812f-4ed1-42ea-8c8f-654b5ef49d25#src=seo_token; Arbitrum의 morpho-blue, APY 2.58%, TVL $594.2K, https://www.defi.garden/?pool=8b0a8a57-e1b0-4d69-ab5d-d858de1d4170#src=seo_token; OP Mainnet의 morpho-blue, APY 4.54%, TVL $721.3K, https://www.defi.garden/?pool=6b655652-e718-4cba-a17b-42ee036531dc#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

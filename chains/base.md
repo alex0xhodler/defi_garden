@@ -4,12 +4,12 @@ The highest honest Base yield right now is 5.63% on morpho-blue (Base), among 1,
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| SIRLOINUSDC | [morpho-blue →](https://www.defi.garden/?pool=8276be38-acc6-4005-ab0d-62680f49f4df#src=seo_chain) | 5.63% | $459.9M |
-| GTUSDCP | [morpho-blue →](https://www.defi.garden/?pool=e0672197-9f3e-4414-bca5-e6b4c90aa469#src=seo_chain) | 4.41% | $414.33M |
-| USDE | [morpho-blue →](https://www.defi.garden/?pool=2d3b68a8-33d3-47e0-a4c0-0bafef4b01d5#src=seo_chain) | 4.75% | $391.4M |
-| STEAKUSDC | [morpho-blue →](https://www.defi.garden/?pool=ba68527f-8ec2-4c55-827a-8f4673ae047c#src=seo_chain) | 4.41% | $353.33M |
-| SPARKUSDC | [morpho-blue →](https://www.defi.garden/?pool=a5fab52f-73fa-4f44-9c09-9af1eb20996c#src=seo_chain) | 3.96% | $329.66M |
-| CBBTC | [aave-v3 →](https://www.defi.garden/?pool=89bc7c4c-d71c-435c-ab28-56c803d51320#src=seo_chain) | 0.01% | $241.64M |
+| SIRLOINUSDC | [morpho-blue →](https://www.defi.garden/pools/morpho-blue-sirloinusdc-base) | 5.63% | $459.9M |
+| GTUSDCP | [morpho-blue →](https://www.defi.garden/pools/morpho-blue-gtusdcp-base) | 4.41% | $414.33M |
+| USDE | [morpho-blue →](https://www.defi.garden/pools/morpho-blue-usde-base) | 4.75% | $391.4M |
+| STEAKUSDC | [morpho-blue →](https://www.defi.garden/pools/morpho-blue-steakusdc-base) | 4.41% | $353.33M |
+| SPARKUSDC | [morpho-blue →](https://www.defi.garden/pools/morpho-blue-sparkusdc-base) | 3.96% | $329.66M |
+| CBBTC | [aave-v3 →](https://www.defi.garden/pools/aave-v3-cbbtc-base) | 0.01% | $241.64M |
 | GTUSDCP | [morpho-blue →](https://www.defi.garden/?pool=df7ccfd1-2642-4d79-851a-a5b07d9b8a97#src=seo_chain) | 4.41% | $178.7M |
 | WETH-USDC | [uniswap-v3 →](https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007#src=seo_chain) | 5.35% | $163.09M |
 

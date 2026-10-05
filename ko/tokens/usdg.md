@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [maple →](https://www.defi.garden/?pool=4c004503-9587-46f2-a362-d23a80f4b691#src=seo_token) | Ethereum | 5.00% | $470.08M |
+| [maple →](https://www.defi.garden/ko/pools/maple-usdg-ethereum) | Ethereum | 5.00% | $470.08M |
 | [jupiter-lend →](https://www.defi.garden/?pool=edbdb3cb-3d94-5d54-9810-d9bff0b15da2#src=seo_token) | Solana | 3.53% | $152.08M |
 | [curve-dex →](https://www.defi.garden/?pool=367f7910-672b-43e1-804b-c68d58caa927#src=seo_token) | Ethereum | 0.22% | $20.04M |
 | [orca-dex →](https://www.defi.garden/?pool=ac225670-41bc-48fa-b8d7-32011abc58fe#src=seo_token) | Solana | 0.13% | $17.03M |
@@ -18,14 +18,14 @@
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 USDG의 변동성 낮은 후보는 Robinhood Chain의 spark-savings, APY 3.50%, TVL $14.18M, https://www.defi.garden/?pool=a1371c8f-592f-56d4-a506-7f1530f35a00#src=seo_token; Ethereum의 curve-dex, APY 0.22%, TVL $20.04M, https://www.defi.garden/?pool=367f7910-672b-43e1-804b-c68d58caa927#src=seo_token; Solana의 kamino-liquidity, APY 0.06%, TVL $10.51M, https://www.defi.garden/?pool=34c08a67-71ab-4e92-aed4-34ede13dce5b#src=seo_token; Ethereum의 maple, APY 5.00%, TVL $470.08M, https://www.defi.garden/?pool=4c004503-9587-46f2-a362-d23a80f4b691#src=seo_token; Ethereum의 aave-v4, APY 6.15%, TVL $12.04M, https://www.defi.garden/?pool=411707d7-0293-4ad3-982d-72125e1f5de7#src=seo_token; Solana의 kamino-lend, APY 4.21%, TVL $5.06M, https://www.defi.garden/?pool=0cdd7f84-711e-4cd4-916d-da318857559a#src=seo_token; Solana의 orca-dex, APY 0.13%, TVL $17.03M, https://www.defi.garden/?pool=ac225670-41bc-48fa-b8d7-32011abc58fe#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USDG의 변동성 낮은 후보는 Robinhood Chain의 spark-savings, APY 3.50%, TVL $14.18M, https://www.defi.garden/?pool=a1371c8f-592f-56d4-a506-7f1530f35a00#src=seo_token; Ethereum의 curve-dex, APY 0.22%, TVL $20.04M, https://www.defi.garden/?pool=367f7910-672b-43e1-804b-c68d58caa927#src=seo_token; Solana의 kamino-liquidity, APY 0.06%, TVL $10.51M, https://www.defi.garden/?pool=34c08a67-71ab-4e92-aed4-34ede13dce5b#src=seo_token; Ethereum의 maple, APY 5.00%, TVL $470.08M, https://www.defi.garden/ko/pools/maple-usdg-ethereum; Ethereum의 aave-v4, APY 6.15%, TVL $12.04M, https://www.defi.garden/?pool=411707d7-0293-4ad3-982d-72125e1f5de7#src=seo_token; Solana의 kamino-lend, APY 4.21%, TVL $5.06M, https://www.defi.garden/?pool=0cdd7f84-711e-4cd4-916d-da318857559a#src=seo_token; Solana의 orca-dex, APY 0.13%, TVL $17.03M, https://www.defi.garden/?pool=ac225670-41bc-48fa-b8d7-32011abc58fe#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [spark-savings →](https://www.defi.garden/?pool=a1371c8f-592f-56d4-a506-7f1530f35a00#src=seo_token) | Robinhood Chain | 3.50% | $14.18M |
 | 2 | [curve-dex →](https://www.defi.garden/?pool=367f7910-672b-43e1-804b-c68d58caa927#src=seo_token) | Ethereum | 0.22% | $20.04M |
 | 3 | [kamino-liquidity →](https://www.defi.garden/?pool=34c08a67-71ab-4e92-aed4-34ede13dce5b#src=seo_token) | Solana | 0.06% | $10.51M |
-| 4 | [maple →](https://www.defi.garden/?pool=4c004503-9587-46f2-a362-d23a80f4b691#src=seo_token) | Ethereum | 5.00% | $470.08M |
+| 4 | [maple →](https://www.defi.garden/ko/pools/maple-usdg-ethereum) | Ethereum | 5.00% | $470.08M |
 | 5 | [aave-v4 →](https://www.defi.garden/?pool=411707d7-0293-4ad3-982d-72125e1f5de7#src=seo_token) | Ethereum | 6.15% | $12.04M |
 | 6 | [kamino-lend →](https://www.defi.garden/?pool=0cdd7f84-711e-4cd4-916d-da318857559a#src=seo_token) | Solana | 4.21% | $5.06M |
 | 7 | [orca-dex →](https://www.defi.garden/?pool=ac225670-41bc-48fa-b8d7-32011abc58fe#src=seo_token) | Solana | 0.13% | $17.03M |
@@ -69,7 +69,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 aave-v4에서 APY 6.15%예요.
 
 ### USDG 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 USDG의 변동성 낮은 후보는 Robinhood Chain의 spark-savings, APY 3.50%, TVL $14.18M, https://www.defi.garden/?pool=a1371c8f-592f-56d4-a506-7f1530f35a00#src=seo_token; Ethereum의 curve-dex, APY 0.22%, TVL $20.04M, https://www.defi.garden/?pool=367f7910-672b-43e1-804b-c68d58caa927#src=seo_token; Solana의 kamino-liquidity, APY 0.06%, TVL $10.51M, https://www.defi.garden/?pool=34c08a67-71ab-4e92-aed4-34ede13dce5b#src=seo_token; Ethereum의 maple, APY 5.00%, TVL $470.08M, https://www.defi.garden/?pool=4c004503-9587-46f2-a362-d23a80f4b691#src=seo_token; Ethereum의 aave-v4, APY 6.15%, TVL $12.04M, https://www.defi.garden/?pool=411707d7-0293-4ad3-982d-72125e1f5de7#src=seo_token; Solana의 kamino-lend, APY 4.21%, TVL $5.06M, https://www.defi.garden/?pool=0cdd7f84-711e-4cd4-916d-da318857559a#src=seo_token; Solana의 orca-dex, APY 0.13%, TVL $17.03M, https://www.defi.garden/?pool=ac225670-41bc-48fa-b8d7-32011abc58fe#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USDG의 변동성 낮은 후보는 Robinhood Chain의 spark-savings, APY 3.50%, TVL $14.18M, https://www.defi.garden/?pool=a1371c8f-592f-56d4-a506-7f1530f35a00#src=seo_token; Ethereum의 curve-dex, APY 0.22%, TVL $20.04M, https://www.defi.garden/?pool=367f7910-672b-43e1-804b-c68d58caa927#src=seo_token; Solana의 kamino-liquidity, APY 0.06%, TVL $10.51M, https://www.defi.garden/?pool=34c08a67-71ab-4e92-aed4-34ede13dce5b#src=seo_token; Ethereum의 maple, APY 5.00%, TVL $470.08M, https://www.defi.garden/ko/pools/maple-usdg-ethereum; Ethereum의 aave-v4, APY 6.15%, TVL $12.04M, https://www.defi.garden/?pool=411707d7-0293-4ad3-982d-72125e1f5de7#src=seo_token; Solana의 kamino-lend, APY 4.21%, TVL $5.06M, https://www.defi.garden/?pool=0cdd7f84-711e-4cd4-916d-da318857559a#src=seo_token; Solana의 orca-dex, APY 0.13%, TVL $17.03M, https://www.defi.garden/?pool=ac225670-41bc-48fa-b8d7-32011abc58fe#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

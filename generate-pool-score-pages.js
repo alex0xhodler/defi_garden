@@ -1,0 +1,696 @@
+#!/usr/bin/env node
+
+/**
+ * Static scored pool pages (W1, docs/seo-turnaround-plan-2026-10.md).
+ * Writes pools/<slug>.html (EN) and ko/pools/<slug>.html (KO) for the top
+ * pools by TVL that clear a hard quality gate, e.g. /pools/aave-v3-usdc-base:
+ * live APY, 30-day mean, base/reward split, the DeFi Score pillar breakdown,
+ * the 14-day forecast band, a static inline-SVG APY history, what produces the
+ * yield, who can access it, withdrawal notes, risks and ONE primary CTA into
+ * the Decision Terminal (`/?pool=<uuid>`, which stays untouched).
+ *
+ * ELIGIBILITY (hard gate): TVL >= W1_MIN_TVL_USD, >= W1_MIN_HISTORY_POINTS of
+ * history, a defiScore, a forecast, and not anomalous (isAnomalousApy /
+ * APY_SANITY_LIMIT reused from generate-token-pages.js, never re-implemented).
+ * Eligible pools are ranked by TVL desc and the first --limit (default
+ * W1_PAGE_LIMIT = 100, the plan's kill-switch first tranche) get a page. No
+ * page is written for any other pool, and a previously generated page that
+ * drops out of the set is deleted on regeneration (only files carrying this
+ * generator's marker; the pools/*.md and pools/*.json twins written by
+ * generate-pool-pages.js are never touched).
+ *
+ * RATING LABELS: the snapshot also carries a letter rating (AAA/AA/A/...). The
+ * plan flags that vocabulary as an unresolved legal decision, so it is NEVER
+ * rendered here: pages show "Score 91.6 / 100" and the four pillar bars only.
+ *
+ * Every number comes from data/pools-snapshot.json (+ data/history/*.json for
+ * the chart) through the shared en-US formatters. Nothing is hard-coded.
+ *
+ * Usage:
+ *   node generate-pool-score-pages.js                 # 100 pages, EN + KO
+ *   node generate-pool-score-pages.js --limit 300
+ *   node generate-pool-score-pages.js --out pools --no-sitemap
+ */
+
+const fs = require('fs');
+const path = require('path');
+const tp = require('./generate-token-pages.js');
+const { createTranslationFunction } = require('./translations.js');
+const { PERMISSIONED_PROJECT_LIST } = require('./permissioned-projects.js');
+const { assignPoolSlugs, slugify, MANIFEST_REL_PATH } = require('./pool-page-links.js');
+
+const {
+  SITE_URL, isAnomalousApy, poolTotalApy, formatUsd, formatApy, escapeHtml,
+  renderAnalyticsBootstrap, renderFontPreloadLinks, renderHreflangLinks,
+  renderDatasetJsonLd, withSrc, OG_FALLBACK_REL_PATH
+} = tp;
+
+const ROOT = __dirname;
+
+// --- tunables (named, never inline literals) --------------------------------
+const W1_PAGE_LIMIT = 100;            // first tranche (plan: 100 first, 300 later)
+const W1_MIN_TVL_USD = 10000000;      // plan: TVL >= $10M
+const W1_MIN_HISTORY_POINTS = 30;     // plan: >= 30 days of history
+const HISTORY_DAYS = 30;              // chart window
+const SIMILAR_POOLS = 4;              // "Similar pools" links per page
+const TITLE_MAX_CHARS = 60;
+const FORECAST_FLAT_BAND = 0.05;      // |p50/current - 1| below this reads "roughly flat"
+const REWARD_SHARE_FLAG = 0.3;        // reward share of total APY that raises the decay flag
+const TVL_TREND_FLAG = 0.25;          // mirrors PoolDetail.js: |kpis.tvlTrend| >= 0.25 is a meaningful move
+const VOLATILITY_RATIO_FLAG = 0.2;    // mirrors planner.js "steady" test: stdev/APY above this is volatile
+const MIN_POINTS_FOR_VOLATILITY = 7;  // mirrors planner.js (hp >= 7)
+const GENERATOR_MARKER = '<!-- generated:pool-score-pages -->';
+
+/** DeFi Score pillar maxima — compute-forecasts.py: stability = min(35.0, ...),
+ *  sustainability = 10.0*organic + up to 15.0 trajectory (= 25), stickiness =
+ *  25.0 * (...), liquidity = 15.0 * (...). They sum to 100 (test-enforced). */
+const SCORE_PILLARS = [
+  { key: 'stability', max: 35, labelKey: 'pspPillarStability' },
+  { key: 'sustainability', max: 25, labelKey: 'pspPillarSustainability' },
+  { key: 'stickiness', max: 25, labelKey: 'pspPillarStickiness' },
+  { key: 'liquidity', max: 15, labelKey: 'pspPillarLiquidity' }
+];
+
+// --- small formatters (en-US pinned) ----------------------------------------
+function fmtNum(n, digits) {
+  return (Number(n) || 0).toLocaleString('en-US', { minimumFractionDigits: digits, maximumFractionDigits: digits });
+}
+function fmtScore(n) { return fmtNum(n, 1); }
+function fmtSignedPct(frac) {
+  return (Number(frac) * 100).toLocaleString('en-US', { maximumFractionDigits: 1, signDisplay: 'always' }) + '%';
+}
+function fmtSharePct(frac) {
+  return (Number(frac) * 100).toLocaleString('en-US', { maximumFractionDigits: 0 }) + '%';
+}
+
+/** "aave-v3" -> "Aave V3", "ether.fi-stake" -> "Ether.fi Stake". */
+function displayName(project) {
+  return String(project || '').split('-').filter(Boolean).map(w =>
+    /^v\d+(\.\d+)?$/i.test(w) ? w.toUpperCase() : w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+}
+
+// --- eligibility + selection -------------------------------------------------
+function isNum(v) { return typeof v === 'number' && Number.isFinite(v); }
+
+function isEligibleScoredPool(p) {
+  if (!p || !p.pool || !isNum(p.tvlUsd) || p.tvlUsd < W1_MIN_TVL_USD) return false;
+  if (!p.kpis || !(p.kpis.historyPoints >= W1_MIN_HISTORY_POINTS)) return false;
+  const ds = p.defiScore;
+  if (!ds || !isNum(ds.score) || !ds.breakdown) return false;
+  if (!SCORE_PILLARS.every(pl => isNum(ds.breakdown[pl.key]))) return false;
+  const f = p.forecast;
+  if (!f || !isNum(f.p10) || !isNum(f.p50) || !isNum(f.p90)) return false;
+  if (isAnomalousApy(p)) return false; // trust rail
+  return true;
+}
+
+/** Eligible pools by TVL desc (uuid tie-break), capped at `limit` (0 = no cap). */
+function selectPoolPages(pools, limit) {
+  const cap = (limit == null || Number.isNaN(limit)) ? W1_PAGE_LIMIT : limit;
+  const eligible = (pools || []).filter(isEligibleScoredPool).sort((a, b) =>
+    b.tvlUsd - a.tvlUsd || String(a.pool).localeCompare(String(b.pool)));
+  return { eligibleCount: eligible.length, selected: cap > 0 ? eligible.slice(0, cap) : eligible };
+}
+
+// --- history / chart ---------------------------------------------------------
+function loadHistory(dir) {
+  try {
+    return fs.readdirSync(dir).filter(f => /^\d{4}-\d{2}-\d{2}\.json$/.test(f)).sort().map(f => {
+      const j = JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8'));
+      return { date: j.date || f.replace('.json', ''), pools: j.pools || {} };
+    });
+  } catch (e) { return []; }
+}
+
+/** [{date, apy}] for the pool over the last HISTORY_DAYS day-files. */
+function seriesFor(uuid, histories) {
+  return histories.slice(-HISTORY_DAYS)
+    .map(h => ({ date: h.date, apy: h.pools[uuid] && h.pools[uuid][0] }))
+    .filter(pt => isNum(pt.apy));
+}
+
+function f1(n) { return n.toFixed(1); }
+
+/**
+ * Static inline SVG: observed APY line + forecast fan. No JS; colours come from
+ * --ui-* tokens through classes (see CSS), so light/dark follow the page theme.
+ */
+function renderApyChartSvg(pool, series, t, titleId) {
+  const W = 640, H = 280, ml = 64, mr = 16, mt = 16, mb = 40;
+  const pw = W - ml - mr, ph = H - mt - mb;
+  const f = pool.forecast;
+  const horizon = isNum(f.horizonDays) ? f.horizonDays : 14;
+  const cur = poolTotalApy(pool);
+  const pts = series.length ? series : [{ date: '', apy: cur }];
+  const n = pts.length;
+  const lastApy = pts[n - 1].apy;
+  const traj = Array.isArray(f.trajectory) ? f.trajectory.filter(isNum) : [];
+  const ys = pts.map(p => p.apy).concat([f.p10, f.p50, f.p90], traj);
+  let lo = Math.min.apply(null, ys), hi = Math.max.apply(null, ys);
+  if (hi - lo < 1e-9) { const pad = Math.max(0.5, Math.abs(hi) * 0.1); lo -= pad; hi += pad; }
+  else { const pad = (hi - lo) * 0.08; lo -= pad; hi += pad; }
+  if (lo < 0 && Math.min.apply(null, ys) >= 0) lo = 0;
+  const span = (n - 1) + horizon;
+  const x = d => ml + ((d + (n - 1)) / span) * pw;   // d: day offset, 0 = today
+  const y = v => mt + (1 - (v - lo) / (hi - lo)) * ph;
+
+  const line = pts.map((p, i) => `${f1(x(i - (n - 1)))},${f1(y(p.apy))}`).join(' ');
+  const x0 = x(0), x1 = x(horizon);
+  const band = `${f1(x0)},${f1(y(lastApy))} ${f1(x1)},${f1(y(f.p90))} ${f1(x1)},${f1(y(f.p10))}`;
+  const median = [`${f1(x0)},${f1(y(lastApy))}`].concat(
+    traj.length ? traj.map((v, i) => `${f1(x((i + 1) * horizon / traj.length))},${f1(y(v))}`)
+                : [`${f1(x1)},${f1(y(f.p50))}`]).join(' ');
+  const ticks = [lo + (hi - lo) * 0.05, (lo + hi) / 2, hi - (hi - lo) * 0.05];
+  const grid = ticks.map(v => `<line class="psp-grid" x1="${ml}" x2="${W - mr}" y1="${f1(y(v))}" y2="${f1(y(v))}"/>` +
+    `<text class="psp-axis" x="${ml - 6}" y="${f1(y(v) + 4)}" text-anchor="end">${escapeHtml(formatApy(v))}</text>`).join('');
+  const firstDate = pts[0].date;
+  const title = t('pspChartTitle', displayName(pool.project), pool.symbol, pool.chain, n, horizon, formatApy(f.p10), formatApy(f.p90));
+
+  return `<svg class="psp-chart" viewBox="0 0 ${W} ${H}" role="img" aria-labelledby="${titleId}" preserveAspectRatio="xMidYMid meet">
+        <title id="${titleId}">${escapeHtml(title)}</title>
+        ${grid}
+        <line class="psp-today" x1="${f1(x0)}" x2="${f1(x0)}" y1="${mt}" y2="${H - mb}"/>
+        <polygon class="psp-band" points="${band}"/>
+        <polyline class="psp-median" points="${median}"/>
+        <polyline class="psp-line" points="${line}"/>
+        <text class="psp-axis" x="${ml}" y="${H - 14}" text-anchor="start">${escapeHtml(firstDate)}</text>
+        <text class="psp-axis" x="${f1(x0)}" y="${H - 14}" text-anchor="middle">${escapeHtml(t('pspChartToday'))}</text>
+        <text class="psp-axis" x="${W - mr}" y="${H - 14}" text-anchor="end">${escapeHtml(t('pspChartHorizon', horizon))}</text>
+      </svg>`;
+}
+
+// --- derived copy ------------------------------------------------------------
+function protocolUrlFor(pool, urls) {
+  if (!pool.project) return null;
+  const key = pool.project.toLowerCase().replace(/\s+/g, '-');
+  const raw = urls && (urls[key] || urls[pool.project]);
+  if (!raw) return null;
+  try { const u = new URL(raw); u.searchParams.set('ref', 'defi.garden'); return u.toString(); } catch (e) { return raw; }
+}
+
+function forecastReadKey(cur, p50) {
+  if (cur > 0) {
+    const rel = p50 / cur - 1;
+    if (Math.abs(rel) < FORECAST_FLAT_BAND) return 'pspForecastFlat';
+    return rel < 0 ? 'pspForecastLower' : 'pspForecastHigher';
+  }
+  return p50 > 0 ? 'pspForecastHigher' : 'pspForecastFlat';
+}
+
+function riskItems(pool, t) {
+  const items = [t('pspRiskContract')];
+  const total = poolTotalApy(pool);
+  const k = pool.kpis || {};
+  if (pool.ilRisk === 'yes') items.push(t('pspRiskIl'));
+  if (total > 0 && (pool.apyReward || 0) / total >= REWARD_SHARE_FLAG) items.push(t('pspRiskReward', fmtSharePct((pool.apyReward || 0) / total)));
+  if (isNum(k.tvlTrend) && Math.abs(k.tvlTrend) >= TVL_TREND_FLAG) {
+    items.push(t(k.tvlTrend < 0 ? 'pspRiskTvlDown' : 'pspRiskTvlUp', fmtSignedPct(k.tvlTrend)));
+  }
+  if (isNum(k.apyStdev) && k.historyPoints >= MIN_POINTS_FOR_VOLATILITY && total > 0 && k.apyStdev / total > VOLATILITY_RATIO_FLAG) {
+    items.push(t('pspRiskVol', formatApy(k.apyStdev), formatApy(total)));
+  }
+  const cr = pool.forecast && pool.forecast.crashRisk;
+  if (cr === 'MEDIUM' || cr === 'HIGH') items.push(t('pspRiskCrash', t('pspCrashRisk', cr)));
+  return items;
+}
+
+function pageTitle(pool, t, monthLabel) {
+  const name = displayName(pool.project);
+  const candidates = [
+    t('pspTitleDated', name, pool.symbol, pool.chain, monthLabel),
+    t('pspTitleUndated', name, pool.symbol, pool.chain),
+    t('pspTitleBare', name, pool.symbol, pool.chain)
+  ];
+  const fit = candidates.find(c => c.length <= TITLE_MAX_CHARS);
+  if (fit) return fit;
+  const bare = candidates[2];
+  return bare.slice(0, TITLE_MAX_CHARS - 1).replace(/\s+\S*$/, '') + '…';
+}
+
+function monthLabelFor(iso, lang) {
+  const d = new Date(iso);
+  return lang === 'ko'
+    ? `${d.getUTCFullYear()}년 ${d.getUTCMonth() + 1}월`
+    : `${d.toLocaleString('en-US', { month: 'short', timeZone: 'UTC' })} ${d.getUTCFullYear()}`;
+}
+function longDateFor(iso) {
+  return new Date(iso).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
+}
+
+function similarPools(pool, selected, n) {
+  const others = selected.filter(p => p.pool !== pool.pool);
+  const sameSym = others.filter(p => p.symbol === pool.symbol);
+  const sameChain = others.filter(p => p.chain === pool.chain && p.symbol !== pool.symbol);
+  const out = sameSym.concat(sameChain);
+  const seen = new Set(out.map(p => p.pool));
+  others.forEach(p => { if (out.length < 3 && !seen.has(p.pool)) { out.push(p); seen.add(p.pool); } });
+  return out.slice(0, n);
+}
+
+function poolsBase(lang) { return `${SITE_URL}/${lang === 'ko' ? 'ko/pools' : 'pools'}`; }
+
+// --- CSS (tokens only) -------------------------------------------------------
+function renderStyle() {
+  return `    <style>
+      .psp-wrap { max-width: 860px; margin: 0 auto; padding: 24px 20px 40px; }
+      .psp-wrap h1 { font-family: var(--font-family-display); font-size: 1.6rem; line-height: 1.25; margin: 8px 0 8px; color: var(--ui-text); overflow-wrap: anywhere; }
+      .psp-wrap h2 { font-size: 1.1rem; margin: 0 0 10px; color: var(--ui-text); }
+      .psp-crumbs { font-size: .85rem; color: var(--ui-text-secondary); }
+      .psp-crumbs ol { list-style: none; display: flex; flex-wrap: wrap; gap: 4px 8px; margin: 0; padding: 0; }
+      .psp-crumbs li + li::before { content: "\\203A"; margin-right: 8px; color: var(--ui-text-muted); }
+      .psp-crumbs a { color: var(--ui-accent); text-decoration: none; }
+      .psp-crumbs a:hover { text-decoration: underline; }
+      .psp-card { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-lg); box-shadow: none; padding: 18px; margin: 18px 0; }
+      .psp-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 0; }
+      .psp-stats div { background: var(--ui-surface-muted); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-md); padding: 10px 12px; }
+      .psp-stats dt { font-size: .8rem; color: var(--ui-text-secondary); margin: 0 0 2px; }
+      .psp-stats dd { margin: 0; font-size: 1.15rem; font-weight: 600; color: var(--ui-text); font-variant-numeric: tabular-nums; }
+      .psp-cta { display: inline-block; margin: 6px 0 4px; padding: 14px 24px; background: var(--ui-accent); color: var(--ui-on-accent); border: 1px solid transparent; border-radius: var(--ui-radius-md); box-shadow: none; text-decoration: none; font-weight: 600; transition: background .15s ease, transform .1s ease; }
+      .psp-cta:hover { background: var(--ui-accent-hover); }
+      .psp-cta:active { background: var(--ui-accent-active); transform: translateY(1px); }
+      .psp-cta:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .psp-secondary { display: block; margin: 4px 0 0; font-size: .9rem; color: var(--ui-accent); text-decoration: none; }
+      .psp-secondary:hover { text-decoration: underline; }
+      .psp-secondary:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); border-radius: var(--ui-radius-sm); }
+      .psp-score { font-size: 1.5rem; font-weight: 700; color: var(--ui-text); font-variant-numeric: tabular-nums; margin: 0 0 12px; }
+      .psp-pillars { list-style: none; margin: 0 0 12px; padding: 0; display: grid; gap: 12px; }
+      .psp-pillar-head { display: flex; justify-content: space-between; gap: 12px; font-size: .92rem; color: var(--ui-text); }
+      .psp-pillar-head span:last-child { font-variant-numeric: tabular-nums; color: var(--ui-text-secondary); }
+      .psp-bar { height: 8px; margin-top: 6px; background: var(--ui-surface-sunken); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); overflow: hidden; }
+      .psp-bar > span { display: block; height: 100%; background: var(--ui-accent); }
+      .psp-forecast { width: 100%; border-collapse: collapse; margin: 8px 0; }
+      .psp-forecast th, .psp-forecast td { text-align: left; padding: 8px 6px; border-bottom: 1px solid var(--ui-border); color: var(--ui-text); }
+      .psp-forecast th { color: var(--ui-text-secondary); font-weight: 600; }
+      .psp-forecast td:last-child, .psp-forecast th:last-child { text-align: right; font-variant-numeric: tabular-nums; }
+      .psp-chart { width: 100%; height: auto; display: block; color: var(--ui-text-secondary); }
+      .psp-chart .psp-grid { stroke: var(--ui-border); stroke-width: 1; }
+      .psp-chart .psp-today { stroke: var(--ui-border-strong); stroke-width: 1; stroke-dasharray: 3 3; }
+      .psp-chart .psp-line { fill: none; stroke: var(--ui-accent); stroke-width: 2; stroke-linejoin: round; }
+      .psp-chart .psp-median { fill: none; stroke: currentColor; stroke-width: 1.5; stroke-dasharray: 5 4; }
+      .psp-chart .psp-band { fill: var(--ui-accent-soft); stroke: var(--ui-accent-border); stroke-width: 1; }
+      .psp-chart .psp-axis { fill: var(--ui-text-secondary); font-size: 11px; }
+      .psp-legend { display: flex; flex-wrap: wrap; gap: 6px 16px; list-style: none; margin: 8px 0 0; padding: 0; font-size: .85rem; color: var(--ui-text-secondary); }
+      .psp-note { color: var(--ui-text-secondary); font-size: .9rem; line-height: 1.55; margin: 8px 0 0; }
+      .psp-card p { color: var(--ui-text); line-height: 1.6; margin: 0 0 8px; }
+      .psp-card ul.psp-list { margin: 0; padding-left: 20px; color: var(--ui-text); line-height: 1.6; }
+      .psp-badge { display: inline-block; padding: 4px 12px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); font-weight: 600; font-size: .9rem; background: var(--ui-surface-muted); color: var(--ui-text); margin-bottom: 8px; }
+      .psp-similar a, .psp-hub-links a { display: inline-block; margin: 0 8px 8px 0; padding: 8px 14px; background: var(--ui-surface); color: var(--ui-accent); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); text-decoration: none; font-size: .9rem; }
+      .psp-similar a:hover, .psp-hub-links a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .psp-similar a:active, .psp-hub-links a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .psp-similar a:focus-visible, .psp-hub-links a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .psp-foot { color: var(--ui-text-secondary); font-size: .9rem; line-height: 1.55; }
+      .psp-foot a { color: var(--ui-accent); }
+      @media (prefers-reduced-motion: reduce) { .psp-cta { transition: none; } .psp-cta:active, .psp-similar a:active, .psp-hub-links a:active { transform: none; } }
+      @media (max-width: 480px) { .psp-chart .psp-axis { font-size: 20px; } .psp-wrap { padding: 16px 14px 32px; } .psp-card { padding: 14px; } .psp-wrap h1 { font-size: 1.35rem; } }
+    </style>`;
+}
+
+// --- page --------------------------------------------------------------------
+/**
+ * ctx: { slug, slugOf:Map(uuid->slug), selected:[pool], snapshotIso, series,
+ *        protocolUrls, chainSlugs:Set, hasAccuracyPage:boolean }
+ */
+function renderPoolScorePage(pool, ctx, lang) {
+  const language = lang === 'ko' ? 'ko' : 'en';
+  const t = createTranslationFunction(language);
+  const esc = s => escapeHtml(s);
+  const name = displayName(pool.project);
+  const sym = pool.symbol || '—';
+  const chain = pool.chain || '—';
+  const slug = ctx.slug;
+  const pageUrl = `${poolsBase(language)}/${slug}`;
+  const enUrl = `${poolsBase('en')}/${slug}`;
+  const koUrl = `${poolsBase('ko')}/${slug}`;
+  const genDate = longDateFor(ctx.snapshotIso);
+  const monthLabel = monthLabelFor(ctx.snapshotIso, language);
+  const total = poolTotalApy(pool);
+  const base = pool.apyBase || 0, reward = pool.apyReward || 0;
+  const f = pool.forecast, ds = pool.defiScore, k = pool.kpis || {};
+  const horizon = isNum(f.horizonDays) ? f.horizonDays : 14;
+  const mean30 = isNum(pool.apyMean30d) ? pool.apyMean30d : null;
+  const title = pageTitle(pool, t, monthLabel);
+  const description = t('pspDescription', name, sym, chain, formatApy(total), mean30 == null ? formatApy(total) : formatApy(mean30),
+    formatUsd(pool.tvlUsd), fmtScore(ds.score), formatApy(f.p10), formatApy(f.p90), genDate);
+  const h1 = t('pspH1', name, sym, chain);
+  const restricted = PERMISSIONED_PROJECT_LIST.has(String(pool.project || '').toLowerCase());
+
+  // breadcrumb (Home > Chains > Chain > pool); chain level only when its page exists
+  const chainSlug = slugify(chain);
+  const chainsBase = `${SITE_URL}/${language === 'ko' ? 'ko/chains' : 'chains'}`;
+  const crumbs = [
+    { name: t('tcpBreadcrumbHome'), url: `${SITE_URL}/` },
+    { name: t('tcpBreadcrumbChains'), url: chainsBase }
+  ];
+  if (ctx.chainSlugs && ctx.chainSlugs.has(chainSlug)) crumbs.push({ name: chain, url: `${chainsBase}/${chainSlug}` });
+  crumbs.push({ name: `${name} ${sym}`, url: pageUrl });
+  const breadcrumbJsonLd = JSON.stringify({
+    '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+    itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: c.url }))
+  }).replace(/</g, '\\u003c');
+  const breadcrumbHtml = crumbs.map((c, i) => i === crumbs.length - 1
+    ? `<li aria-current="page">${esc(c.name)}</li>` : `<li><a href="${c.url}">${esc(c.name)}</a></li>`).join('');
+  const datasetJsonLd = renderDatasetJsonLd(t('pspDatasetName', name, sym, chain), t('pspDatasetDescription', name, sym, chain), pageUrl, genDate);
+
+  // summary
+  const stat = (label, value) => `<div><dt>${esc(label)}</dt><dd>${esc(value)}</dd></div>`;
+  const stats = [
+    stat(t('pspLiveApy'), formatApy(total)),
+    mean30 == null ? '' : stat(t('pspMean30'), formatApy(mean30)),
+    stat(t('pspBaseApy'), formatApy(base)),
+    stat(t('pspRewardApy'), formatApy(reward)),
+    stat(t('pspTvl'), formatUsd(pool.tvlUsd))
+  ].join('\n        ');
+
+  // CTAs: ONE primary + at most one quiet secondary
+  const ctaHref = withSrc(`${SITE_URL}/?pool=${encodeURIComponent(pool.pool)}`, 'seo_pool');
+  const protoUrl = protocolUrlFor(pool, ctx.protocolUrls);
+  const secondary = protoUrl
+    ? `<a class="psp-secondary" rel="nofollow noopener" href="${esc(protoUrl)}">${esc(t('pspSecondaryProtocol', name))}</a>`
+    : ((ctx.chainSlugs && ctx.chainSlugs.has(chainSlug))
+      ? `<a class="psp-secondary" href="${chainsBase}/${chainSlug}">${esc(t('pspSecondaryChain', chain))}</a>` : '');
+
+  // score pillars
+  const pillars = SCORE_PILLARS.map(pl => {
+    const v = ds.breakdown[pl.key];
+    const pct = Math.max(0, Math.min(100, (v / pl.max) * 100));
+    return `<li>
+          <div class="psp-pillar-head"><span>${esc(t(pl.labelKey))}</span><span>${fmtScore(v)} / ${pl.max}</span></div>
+          <div class="psp-bar" role="meter" aria-label="${esc(t(pl.labelKey))}" aria-valuemin="0" aria-valuemax="${pl.max}" aria-valuenow="${v}"><span style="width:${f1(pct)}%"></span></div>
+        </li>`;
+  }).join('\n        ');
+
+  // forecast
+  const crLevel = f.crashRisk;
+  const forecastRead = t(forecastReadKey(total, f.p50), formatApy(total), formatApy(f.p50));
+  const crashHtml = crLevel ? `<p class="psp-note">${esc(t('pspCrashRisk', crLevel))}</p>` : '';
+
+  // yield source
+  const srcLines = [];
+  if (total > 0 && base > 0) srcLines.push(t('pspSourceBase', formatApy(base), fmtSharePct(base / total)));
+  if (total > 0 && reward > 0) srcLines.push(t('pspSourceReward', formatApy(reward), fmtSharePct(reward / total)));
+  if (!srcLines.length) srcLines.push(t('pspSourceNone'));
+  if (pool.exposure === 'single') srcLines.push(t('pspExposureSingle'));
+  else if (pool.exposure === 'multi') srcLines.push(t('pspExposureMulti'));
+  if (pool.ilRisk === 'yes') srcLines.push(t('pspIlYes'));
+  else if (pool.ilRisk === 'no') srcLines.push(t('pspIlNo'));
+  if (pool.poolMeta) srcLines.push(t('pspPoolMeta', pool.poolMeta));
+
+  // withdrawal
+  const liq = SCORE_PILLARS.find(p => p.key === 'liquidity');
+  const wLines = [t('pspWithdrawLiquidity', formatUsd(pool.tvlUsd), fmtScore(ds.breakdown.liquidity), liq.max)];
+  if (isNum(f.predictedTvlUsd) && isNum(f.predictedTvlDelta)) wLines.push(t('pspWithdrawTvlForecast', formatUsd(f.predictedTvlUsd), fmtSignedPct(f.predictedTvlDelta)));
+  wLines.push(t('pspWithdrawGeneric'));
+
+  const risks = riskItems(pool, t);
+  if (risks.length === 1) risks.push(t('pspRiskNone'));
+
+  const similar = similarPools(pool, ctx.selected, SIMILAR_POOLS).map(p => {
+    const s = ctx.slugOf.get(p.pool);
+    return `<a href="${poolsBase(language)}/${s}">${esc(t('pspSimilarItem', displayName(p.project), p.symbol || '—', p.chain || '—', formatUsd(p.tvlUsd)))}</a>`;
+  }).join('\n        ');
+
+  const accuracy = ctx.hasAccuracyPage
+    ? `<p class="psp-foot"><a href="${SITE_URL}/forecast-accuracy">${esc(t('pspAccuracyLink'))}</a></p>` : '';
+  const chartId = 'psp-chart-title';
+
+  return `<!DOCTYPE html>
+<html lang="${language}">
+<head>
+    ${GENERATOR_MARKER}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>${esc(title)}</title>
+    <meta name="description" content="${esc(description)}">
+    <link rel="canonical" href="${pageUrl}">
+${renderHreflangLinks(enUrl, koUrl)}    <script type="application/ld+json">${breadcrumbJsonLd}</script>
+    <script type="application/ld+json">${datasetJsonLd}</script>
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="${esc(title)}">
+    <meta property="og:description" content="${esc(description)}">
+    <meta property="og:url" content="${pageUrl}">
+    <meta property="og:image" content="${SITE_URL}/${OG_FALLBACK_REL_PATH}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="${esc(title)}">
+    <meta name="twitter:description" content="${esc(description)}">
+    <meta name="robots" content="index,follow">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
+${renderFontPreloadLinks()}    <link rel="stylesheet" href="/style.css">
+${renderStyle()}
+${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/pools/${slug}`, { page_type: 'pool_score', pool: pool.pool, chain, project: pool.project, lang: language })}
+</head>
+<body>
+  <main class="psp-wrap">
+    <nav class="psp-crumbs" aria-label="${esc(t('tcpBreadcrumbHome'))}"><ol>${breadcrumbHtml}</ol></nav>
+    <h1>${esc(h1)}</h1>
+    <section class="psp-card" aria-label="${esc(t('pspSummaryHeading'))}">
+      <dl class="psp-stats">
+        ${stats}
+      </dl>
+      <p class="psp-note">${esc(t('pspDataAsOf', genDate))}</p>
+      <a class="psp-cta" rel="nofollow" href="${ctaHref}">${esc(t('pspCta'))}</a>
+      ${secondary}
+    </section>
+
+    <section class="psp-card">
+      <h2>${esc(t('pspScoreHeading'))}</h2>
+      <p class="psp-score">${esc(t('pspScoreValue', fmtScore(ds.score)))}</p>
+      <ul class="psp-pillars">
+        ${pillars}
+      </ul>
+      <p class="psp-note">${esc(t('pspScoreNote'))} <a href="${SITE_URL}/ai-info">${esc(t('pspMethodologyLink'))}</a></p>
+    </section>
+
+    <section class="psp-card">
+      <h2>${esc(t('pspForecastHeading'))}</h2>
+      <p>${esc(t('pspForecastLead', horizon, formatApy(f.p50), formatApy(f.p10), formatApy(f.p90)))}</p>
+      <table class="psp-forecast">
+        <tbody>
+          <tr><th scope="row">${esc(t('pspP10'))}</th><td>${formatApy(f.p10)}</td></tr>
+          <tr><th scope="row">${esc(t('pspP50'))}</th><td>${formatApy(f.p50)}</td></tr>
+          <tr><th scope="row">${esc(t('pspP90'))}</th><td>${formatApy(f.p90)}</td></tr>
+        </tbody>
+      </table>
+      <p>${esc(forecastRead)}</p>
+      ${crashHtml}
+      <p class="psp-note">${esc(t('pspForecastDisclaimer'))}</p>
+    </section>
+
+    <section class="psp-card">
+      <h2>${esc(t('pspChartHeading'))}</h2>
+      ${renderApyChartSvg(pool, ctx.series || [], t, chartId)}
+      <ul class="psp-legend">
+        <li>${esc(t('pspLegendHistory'))}</li>
+        <li>${esc(t('pspLegendMedian'))}</li>
+        <li>${esc(t('pspLegendBand'))}</li>
+      </ul>
+      <p class="psp-note">${esc(t('pspChartCaption'))}</p>
+    </section>
+
+    <section class="psp-card">
+      <h2>${esc(t('pspSourceHeading'))}</h2>
+      ${srcLines.map(l => `<p>${esc(l)}</p>`).join('\n      ')}
+    </section>
+
+    <section class="psp-card">
+      <h2>${esc(t('pspAccessHeading'))}</h2>
+      <p class="psp-badge">${esc(t(restricted ? 'pspAccessRestricted' : 'pspAccessOpen'))}</p>
+      <p>${esc(t(restricted ? 'pspAccessRestrictedNote' : 'pspAccessOpenNote'))}</p>
+    </section>
+
+    <section class="psp-card">
+      <h2>${esc(t('pspWithdrawHeading'))}</h2>
+      ${wLines.map(l => `<p>${esc(l)}</p>`).join('\n      ')}
+    </section>
+
+    <section class="psp-card">
+      <h2>${esc(t('pspRisksHeading'))}</h2>
+      <ul class="psp-list">
+        ${risks.map(r => `<li>${esc(r)}</li>`).join('\n        ')}
+      </ul>
+    </section>
+
+    <nav class="psp-similar" aria-label="${esc(t('pspSimilarHeading'))}">
+      <h2>${esc(t('pspSimilarHeading'))}</h2>
+        ${similar}
+    </nav>
+
+    <p class="psp-foot">${esc(t('pspNotAdvice'))}</p>
+${accuracy}    <p class="psp-foot"><a href="${SITE_URL}/">DeFi Garden 🌱</a> — ${esc(t('tcpFooterTagline'))}</p>
+  </main>
+</body>
+</html>
+`;
+}
+
+// --- hub ---------------------------------------------------------------------
+function renderPoolsHubPage(selected, ctx, lang) {
+  const language = lang === 'ko' ? 'ko' : 'en';
+  const t = createTranslationFunction(language);
+  const esc = escapeHtml;
+  const enUrl = `${SITE_URL}/pools`, koUrl = `${SITE_URL}/ko/pools`;
+  const pageUrl = language === 'ko' ? koUrl : enUrl;
+  const title = t('pspHubTitle');
+  const description = t('pspHubDescription', selected.length);
+  const byChain = new Map();
+  selected.forEach(p => { if (!byChain.has(p.chain)) byChain.set(p.chain, []); byChain.get(p.chain).push(p); });
+  const chains = Array.from(byChain.entries()).map(([chain, ps]) => ({
+    chain, ps, tvl: ps.reduce((s, p) => s + p.tvlUsd, 0)
+  })).sort((a, b) => b.tvl - a.tvl || a.chain.localeCompare(b.chain));
+  const sections = chains.map(c => `    <section class="psp-card">
+      <h2>${esc(c.chain)}</h2>
+      <div class="psp-hub-links">
+        ${c.ps.map(p => `<a href="${poolsBase(language)}/${ctx.slugOf.get(p.pool)}">${esc(displayName(p.project))} ${esc(p.symbol || '—')}</a>`).join('\n        ')}
+      </div>
+    </section>`).join('\n');
+  const crumbs = [{ name: t('tcpBreadcrumbHome'), url: `${SITE_URL}/` }, { name: t('pspBreadcrumbPools'), url: pageUrl }];
+  const breadcrumbJsonLd = JSON.stringify({
+    '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+    itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: c.url }))
+  }).replace(/</g, '\\u003c');
+
+  return `<!DOCTYPE html>
+<html lang="${language}">
+<head>
+    ${GENERATOR_MARKER}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>${esc(title)}</title>
+    <meta name="description" content="${esc(description)}">
+    <link rel="canonical" href="${pageUrl}">
+${renderHreflangLinks(enUrl, koUrl)}    <script type="application/ld+json">${breadcrumbJsonLd}</script>
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="${esc(title)}">
+    <meta property="og:description" content="${esc(description)}">
+    <meta property="og:url" content="${pageUrl}">
+    <meta property="og:image" content="${SITE_URL}/${OG_FALLBACK_REL_PATH}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="robots" content="index,follow">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
+${renderFontPreloadLinks()}    <link rel="stylesheet" href="/style.css">
+${renderStyle()}
+${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/pools`, { page_type: 'pool_hub', pool_count: selected.length, lang: language })}
+</head>
+<body>
+  <main class="psp-wrap">
+    <h1>${esc(t('pspHubHeading'))}</h1>
+    <p class="psp-note">${esc(t('pspHubSub', selected.length, formatUsd(W1_MIN_TVL_USD)))}</p>
+    <p class="psp-note">${esc(t('pspHubIntro'))}</p>
+${sections}
+    <p class="psp-foot">${esc(t('pspNotAdvice'))}</p>
+    <p class="psp-foot"><a href="${SITE_URL}/">DeFi Garden 🌱</a> — ${esc(t('tcpFooterTagline'))}</p>
+  </main>
+</body>
+</html>
+`;
+}
+
+// --- sitemap -----------------------------------------------------------------
+function renderPoolsSitemap(selected, slugOf, lastmod, lang) {
+  const base = poolsBase(lang);
+  const tag = lastmod ? `    <lastmod>${lastmod}</lastmod>\n` : '';
+  const urls = [base].concat(selected.map(p => `${base}/${slugOf.get(p.pool)}`))
+    .map(loc => `  <url>\n    <loc>${loc}</loc>\n${tag}    <changefreq>daily</changefreq>\n  </url>`);
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.join('\n')}\n</urlset>\n`;
+}
+
+// --- IO ----------------------------------------------------------------------
+/** Deletes *.html files carrying this generator's marker that are not in `keep`.
+ *  Never touches anything else (the .md/.json twins, foreign html). Returns count. */
+function removeStaleOwnedPages(dir, keep) {
+  let removed = 0;
+  if (!fs.existsSync(dir)) return 0;
+  fs.readdirSync(dir).forEach(f => {
+    if (!f.endsWith('.html') || keep.has(f)) return;
+    const full = path.join(dir, f);
+    let head = '';
+    try { head = fs.readFileSync(full, 'utf8').slice(0, 400); } catch (e) { return; }
+    if (head.includes(GENERATOR_MARKER)) { fs.rmSync(full); removed++; }
+  });
+  return removed;
+}
+
+function buildManifest(selected, slugOf, snapshotIso) {
+  return {
+    generatedAt: snapshotIso,
+    count: selected.length,
+    pages: selected.map(p => ({ slug: slugOf.get(p.pool), pool: p.pool }))
+  };
+}
+
+function parseArgs(argv) {
+  const args = {
+    limit: W1_PAGE_LIMIT, out: 'pools', snapshot: 'data/pools-snapshot.json', history: 'data/history',
+    manifest: MANIFEST_REL_PATH, sitemap: 'sitemap-pool-pages.xml', protocolUrls: 'data/protocol-urls.json'
+  };
+  for (let i = 0; i < argv.length; i++) {
+    const a = argv[i];
+    if (a === '--limit') { const n = parseInt(argv[++i], 10); args.limit = Number.isNaN(n) ? W1_PAGE_LIMIT : n; }
+    else if (a === '--out') args.out = argv[++i];
+    else if (a === '--snapshot') args.snapshot = argv[++i];
+    else if (a === '--history') args.history = argv[++i];
+    else if (a === '--manifest') args.manifest = argv[++i];
+    else if (a === '--sitemap') args.sitemap = argv[++i];
+    else if (a === '--no-sitemap') args.sitemap = null;
+  }
+  return args;
+}
+
+function writeSet(outDir, language, selected, ctxBase, histories) {
+  fs.mkdirSync(outDir, { recursive: true });
+  const keep = new Set(['index.html']);
+  selected.forEach(p => {
+    const slug = ctxBase.slugOf.get(p.pool);
+    keep.add(`${slug}.html`);
+    const ctx = Object.assign({}, ctxBase, { slug, series: seriesFor(p.pool, histories) });
+    fs.writeFileSync(path.join(outDir, `${slug}.html`), renderPoolScorePage(p, ctx, language));
+  });
+  fs.writeFileSync(path.join(outDir, 'index.html'), renderPoolsHubPage(selected, ctxBase, language));
+  return removeStaleOwnedPages(outDir, keep);
+}
+
+function main() {
+  const args = parseArgs(process.argv.slice(2));
+  const snap = JSON.parse(fs.readFileSync(path.resolve(args.snapshot), 'utf8'));
+  const pools = snap.pools || [];
+  const snapshotIso = snap.generatedAt || new Date().toISOString();
+  const { eligibleCount, selected } = selectPoolPages(pools, args.limit);
+  if (!selected.length) throw new Error('generate-pool-score-pages.js: zero eligible pools — refusing to write an empty set');
+  const slugAll = assignPoolSlugs(pools);          // full snapshot: slugs independent of --limit
+  const slugOf = new Map(selected.map(p => [p.pool, slugAll.get(p.pool)]));
+  const histories = loadHistory(path.resolve(args.history));
+  let protocolUrls = {};
+  try { protocolUrls = JSON.parse(fs.readFileSync(path.join(ROOT, args.protocolUrls), 'utf8')).urls || {}; } catch (e) { /* no CTA url map */ }
+  const chainSlugs = new Set();
+  try { fs.readdirSync(path.join(ROOT, 'chains')).forEach(f => { if (f.endsWith('.html') && f !== 'index.html') chainSlugs.add(f.slice(0, -5)); }); } catch (e) { /* none */ }
+  const ctxBase = {
+    slugOf, selected, snapshotIso, protocolUrls, chainSlugs,
+    hasAccuracyPage: fs.existsSync(path.join(ROOT, 'forecast-accuracy.html'))
+  };
+
+  const outDir = path.resolve(args.out);
+  const koOutDir = path.join(path.dirname(outDir), 'ko', path.basename(outDir));
+  const removedEn = writeSet(outDir, 'en', selected, ctxBase, histories);
+  const removedKo = writeSet(koOutDir, 'ko', selected, ctxBase, histories);
+
+  fs.mkdirSync(path.dirname(path.resolve(args.manifest)), { recursive: true });
+  fs.writeFileSync(path.resolve(args.manifest), JSON.stringify(buildManifest(selected, slugOf, snapshotIso), null, 2) + '\n');
+
+  if (args.sitemap) {
+    const lastmod = snapshotIso.slice(0, 10);
+    fs.writeFileSync(path.resolve(args.sitemap), renderPoolsSitemap(selected, slugOf, lastmod, 'en'));
+    fs.writeFileSync(path.resolve(args.sitemap.replace(/\.xml$/, '-ko.xml')), renderPoolsSitemap(selected, slugOf, lastmod, 'ko'));
+  }
+  console.log(`✅ ${eligibleCount} eligible pools; wrote ${selected.length} EN + ${selected.length} KO pages (limit ${args.limit || 'none'}), removed ${removedEn}+${removedKo} stale`);
+}
+
+module.exports = {
+  W1_PAGE_LIMIT, W1_MIN_TVL_USD, W1_MIN_HISTORY_POINTS, SCORE_PILLARS, GENERATOR_MARKER,
+  isEligibleScoredPool, selectPoolPages, displayName, renderPoolScorePage, renderPoolsHubPage,
+  renderPoolsSitemap, renderApyChartSvg, buildManifest, removeStaleOwnedPages, pageTitle,
+  loadHistory, seriesFor, protocolUrlFor, riskItems, parseArgs, writeSet,
+  assignPoolSlugs
+};
+
+if (require.main === module) {
+  try { main(); } catch (e) { console.error('❌', e.message); process.exit(1); }
+}

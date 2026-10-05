@@ -6,7 +6,7 @@ The highest honest BNB yield right now is 17.37% on uniswap-v4 (BSC), among 21 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lista-lending →](https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471#src=seo_token) | BSC | 0.21% | $385.12M |
+| [lista-lending →](https://www.defi.garden/pools/lista-lending-bnb-bsc) | BSC | 0.21% | $385.12M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=c290709e-49a9-4fa6-a4d2-ff4d78c45df5#src=seo_token) | BSC | 0.18% | $2.51M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=9b2888b1-8ffc-403b-96d6-2384f65db2fd#src=seo_token) | BSC | 9.90% | $1.6M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=cc1bdf46-b963-5bd5-94a8-728c3fdea8f6#src=seo_token) | BSC | 17.37% | $1.26M |
@@ -18,13 +18,13 @@ The highest honest BNB yield right now is 17.37% on uniswap-v4 (BSC), among 21 p
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, BNB's lower-variability candidates are uniswap-v4 (BSC), 0.18% APY, $2.51M TVL, https://www.defi.garden/?pool=c290709e-49a9-4fa6-a4d2-ff4d78c45df5#src=seo_token; uniswap-v4 (BSC), 0.07% APY, $930.4K TVL, https://www.defi.garden/?pool=5f15161b-5de8-4c11-962e-7e35d447ec20#src=seo_token; lista-lending (BSC), 0.21% APY, $385.12M TVL, https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471#src=seo_token; uniswap-v4 (BSC), 7.73% APY, $547.5K TVL, https://www.defi.garden/?pool=c716ca27-346b-4d61-be6e-aff719566e04#src=seo_token; uniswap-v4 (BSC), 9.90% APY, $1.6M TVL, https://www.defi.garden/?pool=9b2888b1-8ffc-403b-96d6-2384f65db2fd#src=seo_token; gmx-v2-perps (Arbitrum), 0.02% APY, $333.1K TVL, https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec#src=seo_token; uniswap-v3 (Ethereum), 4.98% APY, $304.7K TVL, https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BNB's lower-variability candidates are uniswap-v4 (BSC), 0.18% APY, $2.51M TVL, https://www.defi.garden/?pool=c290709e-49a9-4fa6-a4d2-ff4d78c45df5#src=seo_token; uniswap-v4 (BSC), 0.07% APY, $930.4K TVL, https://www.defi.garden/?pool=5f15161b-5de8-4c11-962e-7e35d447ec20#src=seo_token; lista-lending (BSC), 0.21% APY, $385.12M TVL, https://www.defi.garden/pools/lista-lending-bnb-bsc; uniswap-v4 (BSC), 7.73% APY, $547.5K TVL, https://www.defi.garden/?pool=c716ca27-346b-4d61-be6e-aff719566e04#src=seo_token; uniswap-v4 (BSC), 9.90% APY, $1.6M TVL, https://www.defi.garden/?pool=9b2888b1-8ffc-403b-96d6-2384f65db2fd#src=seo_token; gmx-v2-perps (Arbitrum), 0.02% APY, $333.1K TVL, https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec#src=seo_token; uniswap-v3 (Ethereum), 4.98% APY, $304.7K TVL, https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v4 →](https://www.defi.garden/?pool=c290709e-49a9-4fa6-a4d2-ff4d78c45df5#src=seo_token) | BSC | 0.18% | $2.51M |
 | 2 | [uniswap-v4 →](https://www.defi.garden/?pool=5f15161b-5de8-4c11-962e-7e35d447ec20#src=seo_token) | BSC | 0.07% | $930.4K |
-| 3 | [lista-lending →](https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471#src=seo_token) | BSC | 0.21% | $385.12M |
+| 3 | [lista-lending →](https://www.defi.garden/pools/lista-lending-bnb-bsc) | BSC | 0.21% | $385.12M |
 | 4 | [uniswap-v4 →](https://www.defi.garden/?pool=c716ca27-346b-4d61-be6e-aff719566e04#src=seo_token) | BSC | 7.73% | $547.5K |
 | 5 | [uniswap-v4 →](https://www.defi.garden/?pool=9b2888b1-8ffc-403b-96d6-2384f65db2fd#src=seo_token) | BSC | 9.90% | $1.6M |
 | 6 | [gmx-v2-perps →](https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec#src=seo_token) | Arbitrum | 0.02% | $333.1K |
@@ -71,7 +71,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BNB pools have the most stable APY history?
 
-Based on APY history only, BNB's lower-variability candidates are uniswap-v4 (BSC), 0.18% APY, $2.51M TVL, https://www.defi.garden/?pool=c290709e-49a9-4fa6-a4d2-ff4d78c45df5#src=seo_token; uniswap-v4 (BSC), 0.07% APY, $930.4K TVL, https://www.defi.garden/?pool=5f15161b-5de8-4c11-962e-7e35d447ec20#src=seo_token; lista-lending (BSC), 0.21% APY, $385.12M TVL, https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471#src=seo_token; uniswap-v4 (BSC), 7.73% APY, $547.5K TVL, https://www.defi.garden/?pool=c716ca27-346b-4d61-be6e-aff719566e04#src=seo_token; uniswap-v4 (BSC), 9.90% APY, $1.6M TVL, https://www.defi.garden/?pool=9b2888b1-8ffc-403b-96d6-2384f65db2fd#src=seo_token; gmx-v2-perps (Arbitrum), 0.02% APY, $333.1K TVL, https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec#src=seo_token; uniswap-v3 (Ethereum), 4.98% APY, $304.7K TVL, https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BNB's lower-variability candidates are uniswap-v4 (BSC), 0.18% APY, $2.51M TVL, https://www.defi.garden/?pool=c290709e-49a9-4fa6-a4d2-ff4d78c45df5#src=seo_token; uniswap-v4 (BSC), 0.07% APY, $930.4K TVL, https://www.defi.garden/?pool=5f15161b-5de8-4c11-962e-7e35d447ec20#src=seo_token; lista-lending (BSC), 0.21% APY, $385.12M TVL, https://www.defi.garden/pools/lista-lending-bnb-bsc; uniswap-v4 (BSC), 7.73% APY, $547.5K TVL, https://www.defi.garden/?pool=c716ca27-346b-4d61-be6e-aff719566e04#src=seo_token; uniswap-v4 (BSC), 9.90% APY, $1.6M TVL, https://www.defi.garden/?pool=9b2888b1-8ffc-403b-96d6-2384f65db2fd#src=seo_token; gmx-v2-perps (Arbitrum), 0.02% APY, $333.1K TVL, https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec#src=seo_token; uniswap-v3 (Ethereum), 4.98% APY, $304.7K TVL, https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

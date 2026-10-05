@@ -4,7 +4,7 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| KHYPE | [kinetiq-khype →](https://www.defi.garden/?pool=9f25a954-db87-4bb2-a8b2-4be0b843a44c#src=seo_chain) | 2.04% | $985.87M |
+| KHYPE | [kinetiq-khype →](https://www.defi.garden/ko/pools/kinetiq-khype-khype-hyperliquid-l1) | 2.04% | $985.87M |
 | WHYPE | [hyperlend-pooled →](https://www.defi.garden/?pool=b039004a-df3c-4813-97b8-a15ec488212c#src=seo_chain) | 0.60% | $41.35M |
 | USDC | [harmonix-finance →](https://www.defi.garden/?pool=f06872f7-a5c9-478e-a7cf-a3ba356b99e6#src=seo_chain) | 5.87% | $19.41M |
 | WHYPE-USDC | [project-x →](https://www.defi.garden/?pool=f55a970c-7fdb-4087-8c62-258287e7a6cd#src=seo_chain) | 9.95% | $14.99M |

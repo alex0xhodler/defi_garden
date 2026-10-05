@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=32f586b4-5358-5aa2-88ee-c842139e7023#src=seo_token) | Robinhood Chain | 6.99% | $532.04M |
+| [morpho-blue →](https://www.defi.garden/ko/pools/morpho-blue-steakusdg-robinhood-chain) | Robinhood Chain | 6.99% | $532.04M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

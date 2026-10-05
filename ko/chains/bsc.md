@@ -4,12 +4,12 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| USYC | [circle-usyc →](https://www.defi.garden/?pool=7c0a89c7-70cf-460c-b62e-cb278bf97e8f#src=seo_chain) | 3.07% | $2.36B |
-| SLISBNB | [lista-liquid-staking →](https://www.defi.garden/?pool=50bb5f69-85ea-4f70-81da-3661a1633fc4#src=seo_chain) | 1.02% | $850.99M |
-| WBETH | [binance-staked-eth →](https://www.defi.garden/?pool=566c64cb-c1ec-4027-bb67-1e9326d6d48a#src=seo_chain) | 2.15% | $570.87M |
-| WBNB | [venus-core-pool →](https://www.defi.garden/?pool=747b58ab-aefd-42e1-a312-01ad5a0ab7f5#src=seo_chain) | 0.03% | $387.27M |
-| BNB | [lista-lending →](https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471#src=seo_chain) | 0.21% | $385.12M |
-| BTCB | [venus-core-pool →](https://www.defi.garden/?pool=87c8ee0d-b812-47c1-803f-f91a3907079e#src=seo_chain) | 0.20% | $352.43M |
+| USYC | [circle-usyc →](https://www.defi.garden/ko/pools/circle-usyc-usyc-bsc) | 3.07% | $2.36B |
+| SLISBNB | [lista-liquid-staking →](https://www.defi.garden/ko/pools/lista-liquid-staking-slisbnb-bsc) | 1.02% | $850.99M |
+| WBETH | [binance-staked-eth →](https://www.defi.garden/ko/pools/binance-staked-eth-wbeth-bsc) | 2.15% | $570.87M |
+| WBNB | [venus-core-pool →](https://www.defi.garden/ko/pools/venus-core-pool-wbnb-bsc) | 0.03% | $387.27M |
+| BNB | [lista-lending →](https://www.defi.garden/ko/pools/lista-lending-bnb-bsc) | 0.21% | $385.12M |
+| BTCB | [venus-core-pool →](https://www.defi.garden/ko/pools/venus-core-pool-btcb-bsc) | 0.20% | $352.43M |
 | BUIDL | [blackrock-buidl →](https://www.defi.garden/?pool=55402b0b-af35-452b-b015-627b4233f0f1#src=seo_chain) | 3.47% | $146.65M |
 | USD1 | [lista-lending →](https://www.defi.garden/?pool=d6fec854-4258-495b-95df-e4066214f41d#src=seo_chain) | 1.19% | $138.27M |
 

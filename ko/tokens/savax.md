@@ -6,18 +6,18 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [benqi-staked-avax →](https://www.defi.garden/?pool=3790c3e5-8644-4f6b-8feb-12434d8b99f9#src=seo_token) | Avalanche | 3.49% | $258.78M |
+| [benqi-staked-avax →](https://www.defi.garden/ko/pools/benqi-staked-avax-savax-avalanche) | Avalanche | 3.49% | $258.78M |
 | [pharaoh-v3 →](https://www.defi.garden/?pool=29630e33-15fa-41aa-857e-595ea7878580#src=seo_token) | Avalanche | 0.22% | $234.5K |
 | [joe-v2.2 →](https://www.defi.garden/?pool=b9ebaa5d-96c7-43f9-aa71-b9c5cc255fa5#src=seo_token) | Avalanche | 2.24% | $125.2K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 SAVAX의 변동성 낮은 후보는 Avalanche의 benqi-staked-avax, APY 3.49%, TVL $258.78M, https://www.defi.garden/?pool=3790c3e5-8644-4f6b-8feb-12434d8b99f9#src=seo_token; Avalanche의 pharaoh-v3, APY 0.22%, TVL $234.5K, https://www.defi.garden/?pool=29630e33-15fa-41aa-857e-595ea7878580#src=seo_token; Avalanche의 joe-v2.2, APY 2.24%, TVL $125.2K, https://www.defi.garden/?pool=b9ebaa5d-96c7-43f9-aa71-b9c5cc255fa5#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SAVAX의 변동성 낮은 후보는 Avalanche의 benqi-staked-avax, APY 3.49%, TVL $258.78M, https://www.defi.garden/ko/pools/benqi-staked-avax-savax-avalanche; Avalanche의 pharaoh-v3, APY 0.22%, TVL $234.5K, https://www.defi.garden/?pool=29630e33-15fa-41aa-857e-595ea7878580#src=seo_token; Avalanche의 joe-v2.2, APY 2.24%, TVL $125.2K, https://www.defi.garden/?pool=b9ebaa5d-96c7-43f9-aa71-b9c5cc255fa5#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [benqi-staked-avax →](https://www.defi.garden/?pool=3790c3e5-8644-4f6b-8feb-12434d8b99f9#src=seo_token) | Avalanche | 3.49% | $258.78M |
+| 1 | [benqi-staked-avax →](https://www.defi.garden/ko/pools/benqi-staked-avax-savax-avalanche) | Avalanche | 3.49% | $258.78M |
 | 2 | [pharaoh-v3 →](https://www.defi.garden/?pool=29630e33-15fa-41aa-857e-595ea7878580#src=seo_token) | Avalanche | 0.22% | $234.5K |
 | 3 | [joe-v2.2 →](https://www.defi.garden/?pool=b9ebaa5d-96c7-43f9-aa71-b9c5cc255fa5#src=seo_token) | Avalanche | 2.24% | $125.2K |
 
@@ -55,7 +55,7 @@ DefiLlama 실시간 데이터 기준, Avalanche의 benqi-staked-avax에서 APY 3
 
 ### SAVAX 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 SAVAX의 변동성 낮은 후보는 Avalanche의 benqi-staked-avax, APY 3.49%, TVL $258.78M, https://www.defi.garden/?pool=3790c3e5-8644-4f6b-8feb-12434d8b99f9#src=seo_token; Avalanche의 pharaoh-v3, APY 0.22%, TVL $234.5K, https://www.defi.garden/?pool=29630e33-15fa-41aa-857e-595ea7878580#src=seo_token; Avalanche의 joe-v2.2, APY 2.24%, TVL $125.2K, https://www.defi.garden/?pool=b9ebaa5d-96c7-43f9-aa71-b9c5cc255fa5#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SAVAX의 변동성 낮은 후보는 Avalanche의 benqi-staked-avax, APY 3.49%, TVL $258.78M, https://www.defi.garden/ko/pools/benqi-staked-avax-savax-avalanche; Avalanche의 pharaoh-v3, APY 0.22%, TVL $234.5K, https://www.defi.garden/?pool=29630e33-15fa-41aa-857e-595ea7878580#src=seo_token; Avalanche의 joe-v2.2, APY 2.24%, TVL $125.2K, https://www.defi.garden/?pool=b9ebaa5d-96c7-43f9-aa71-b9c5cc255fa5#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

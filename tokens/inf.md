@@ -6,7 +6,7 @@ The highest honest INF yield right now is 5.36% on sanctum-infinity (Solana), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sanctum-infinity →](https://www.defi.garden/?pool=3075a746-bdd1-4aac-bcd5-b035abee2622#src=seo_token) | Solana | 5.36% | $235.82M |
+| [sanctum-infinity →](https://www.defi.garden/pools/sanctum-infinity-inf-solana) | Solana | 5.36% | $235.82M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

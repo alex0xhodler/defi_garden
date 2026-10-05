@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [drift-staked-sol →](https://www.defi.garden/?pool=296651fc-25f6-4434-b8ec-17c2af9808da#src=seo_token) | Solana | 4.99% | $342.59M |
+| [drift-staked-sol →](https://www.defi.garden/ko/pools/drift-staked-sol-dsol-solana) | Solana | 4.99% | $342.59M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

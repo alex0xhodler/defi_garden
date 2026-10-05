@@ -1705,6 +1705,12 @@ function loadPlannerAllowedParams(plannerJsPath) {
 // north-star `/?pool=<id>` shape (spec 172 rule (b)). `<id>` must be
 // non-empty; it is never validated against any pool set (spec's own
 // non-goal — liveness needs a network fetch this prescan never makes).
+/** W1: '/pools/<slug>' or '/ko/pools/<slug>' backed by a real generated file. */
+function isStaticPoolPageSuffix(suffix) {
+  const m = /^\/((?:ko\/)?pools\/[a-z0-9]+(?:-[a-z0-9]+)*)\/?$/.exec(ownedLinkPath(suffix));
+  return !!m && fs.existsSync(path.join(ROOT, m[1] + '.html'));
+}
+
 function isPoolAddressingSuffix(suffix) {
   if (suffix === null || suffix === undefined) return false;
   const p = ownedLinkPath(suffix);
@@ -2258,6 +2264,9 @@ function prescanStaticPages(opts = {}) {
         if (!hrefRaw) { badTargets.push('(missing href)'); continue; }
         const suffix = ownedHtmlLinkSuffix(hrefRaw);
         if (suffix !== null && isPoolAddressingSuffix(suffix)) continue;
+        // W1: a row may link to its static scored page /pools/<slug> (or the
+        // /ko/ twin) instead of the app deep link — fine iff that file exists.
+        if (suffix !== null && isStaticPoolPageSuffix(suffix)) continue;
         badTargets.push(decodeHrefEntities(hrefRaw) || '(empty href)');
       }
       if (badTargets.length > 0) {

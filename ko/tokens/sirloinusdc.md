@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=8276be38-acc6-4005-ab0d-62680f49f4df#src=seo_token) | Base | 5.63% | $459.9M |
+| [morpho-blue →](https://www.defi.garden/ko/pools/morpho-blue-sirloinusdc-base) | Base | 5.63% | $459.9M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [coinbase-wrapped-staked-eth →](https://www.defi.garden/?pool=0f45d730-b279-4629-8e11-ccb5cc3038b4#src=seo_token) | Ethereum | 2.33% | $508.55M |
+| [coinbase-wrapped-staked-eth →](https://www.defi.garden/ko/pools/coinbase-wrapped-staked-eth-cbeth-ethereum) | Ethereum | 2.33% | $508.55M |
 | [fusion-by-ipor →](https://www.defi.garden/?pool=8d8b3ef8-1fee-4314-8cae-cdde303e4947#src=seo_token) | Base | 3.54% | $6.41M |
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=dc5b6771-96a6-4b38-b1c3-912544c23899#src=seo_token) | Base | 3.88% | $2.22M |
 | [curve-dex →](https://www.defi.garden/?pool=475d7ab5-a4b8-4400-ad1c-94ef9e8bdfe3#src=seo_token) | Base | 1.14% | $1.34M |
@@ -18,11 +18,11 @@
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 CBETH의 변동성 낮은 후보는 Ethereum의 coinbase-wrapped-staked-eth, APY 2.33%, TVL $508.55M, https://www.defi.garden/?pool=0f45d730-b279-4629-8e11-ccb5cc3038b4#src=seo_token; Ethereum의 curve-dex, APY 2.55%, TVL $216.2K, https://www.defi.garden/?pool=d9e834a1-c6f0-44a4-a45c-b80d40318837#src=seo_token; Base의 stake-dao-yield, APY 1.22%, TVL $1.2M, https://www.defi.garden/?pool=7aa4237c-3526-4a52-9db6-63c7b7c4d6c0#src=seo_token; Base의 aerodrome-slipstream, APY 3.88%, TVL $2.22M, https://www.defi.garden/?pool=dc5b6771-96a6-4b38-b1c3-912544c23899#src=seo_token; Base의 fusion-by-ipor, APY 3.54%, TVL $6.41M, https://www.defi.garden/?pool=8d8b3ef8-1fee-4314-8cae-cdde303e4947#src=seo_token; Ethereum의 uniswap-v3, APY 1.79%, TVL $339.6K, https://www.defi.garden/?pool=473a2c92-cc86-4f86-b380-85141bcec627#src=seo_token; Base의 curve-dex, APY 1.14%, TVL $1.34M, https://www.defi.garden/?pool=475d7ab5-a4b8-4400-ad1c-94ef9e8bdfe3#src=seo_token; Base의 aerodrome-slipstream, APY 172.44%, TVL $1.19M, https://www.defi.garden/?pool=79369b35-dd99-4d68-b989-31c258fc40ab#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 CBETH의 변동성 낮은 후보는 Ethereum의 coinbase-wrapped-staked-eth, APY 2.33%, TVL $508.55M, https://www.defi.garden/ko/pools/coinbase-wrapped-staked-eth-cbeth-ethereum; Ethereum의 curve-dex, APY 2.55%, TVL $216.2K, https://www.defi.garden/?pool=d9e834a1-c6f0-44a4-a45c-b80d40318837#src=seo_token; Base의 stake-dao-yield, APY 1.22%, TVL $1.2M, https://www.defi.garden/?pool=7aa4237c-3526-4a52-9db6-63c7b7c4d6c0#src=seo_token; Base의 aerodrome-slipstream, APY 3.88%, TVL $2.22M, https://www.defi.garden/?pool=dc5b6771-96a6-4b38-b1c3-912544c23899#src=seo_token; Base의 fusion-by-ipor, APY 3.54%, TVL $6.41M, https://www.defi.garden/?pool=8d8b3ef8-1fee-4314-8cae-cdde303e4947#src=seo_token; Ethereum의 uniswap-v3, APY 1.79%, TVL $339.6K, https://www.defi.garden/?pool=473a2c92-cc86-4f86-b380-85141bcec627#src=seo_token; Base의 curve-dex, APY 1.14%, TVL $1.34M, https://www.defi.garden/?pool=475d7ab5-a4b8-4400-ad1c-94ef9e8bdfe3#src=seo_token; Base의 aerodrome-slipstream, APY 172.44%, TVL $1.19M, https://www.defi.garden/?pool=79369b35-dd99-4d68-b989-31c258fc40ab#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [coinbase-wrapped-staked-eth →](https://www.defi.garden/?pool=0f45d730-b279-4629-8e11-ccb5cc3038b4#src=seo_token) | Ethereum | 2.33% | $508.55M |
+| 1 | [coinbase-wrapped-staked-eth →](https://www.defi.garden/ko/pools/coinbase-wrapped-staked-eth-cbeth-ethereum) | Ethereum | 2.33% | $508.55M |
 | 2 | [curve-dex →](https://www.defi.garden/?pool=d9e834a1-c6f0-44a4-a45c-b80d40318837#src=seo_token) | Ethereum | 2.55% | $216.2K |
 | 3 | [stake-dao-yield →](https://www.defi.garden/?pool=7aa4237c-3526-4a52-9db6-63c7b7c4d6c0#src=seo_token) | Base | 1.22% | $1.2M |
 | 4 | [aerodrome-slipstream →](https://www.defi.garden/?pool=dc5b6771-96a6-4b38-b1c3-912544c23899#src=seo_token) | Base | 3.88% | $2.22M |
@@ -72,7 +72,7 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 172
 
 ### CBETH 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 CBETH의 변동성 낮은 후보는 Ethereum의 coinbase-wrapped-staked-eth, APY 2.33%, TVL $508.55M, https://www.defi.garden/?pool=0f45d730-b279-4629-8e11-ccb5cc3038b4#src=seo_token; Ethereum의 curve-dex, APY 2.55%, TVL $216.2K, https://www.defi.garden/?pool=d9e834a1-c6f0-44a4-a45c-b80d40318837#src=seo_token; Base의 stake-dao-yield, APY 1.22%, TVL $1.2M, https://www.defi.garden/?pool=7aa4237c-3526-4a52-9db6-63c7b7c4d6c0#src=seo_token; Base의 aerodrome-slipstream, APY 3.88%, TVL $2.22M, https://www.defi.garden/?pool=dc5b6771-96a6-4b38-b1c3-912544c23899#src=seo_token; Base의 fusion-by-ipor, APY 3.54%, TVL $6.41M, https://www.defi.garden/?pool=8d8b3ef8-1fee-4314-8cae-cdde303e4947#src=seo_token; Ethereum의 uniswap-v3, APY 1.79%, TVL $339.6K, https://www.defi.garden/?pool=473a2c92-cc86-4f86-b380-85141bcec627#src=seo_token; Base의 curve-dex, APY 1.14%, TVL $1.34M, https://www.defi.garden/?pool=475d7ab5-a4b8-4400-ad1c-94ef9e8bdfe3#src=seo_token; Base의 aerodrome-slipstream, APY 172.44%, TVL $1.19M, https://www.defi.garden/?pool=79369b35-dd99-4d68-b989-31c258fc40ab#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 CBETH의 변동성 낮은 후보는 Ethereum의 coinbase-wrapped-staked-eth, APY 2.33%, TVL $508.55M, https://www.defi.garden/ko/pools/coinbase-wrapped-staked-eth-cbeth-ethereum; Ethereum의 curve-dex, APY 2.55%, TVL $216.2K, https://www.defi.garden/?pool=d9e834a1-c6f0-44a4-a45c-b80d40318837#src=seo_token; Base의 stake-dao-yield, APY 1.22%, TVL $1.2M, https://www.defi.garden/?pool=7aa4237c-3526-4a52-9db6-63c7b7c4d6c0#src=seo_token; Base의 aerodrome-slipstream, APY 3.88%, TVL $2.22M, https://www.defi.garden/?pool=dc5b6771-96a6-4b38-b1c3-912544c23899#src=seo_token; Base의 fusion-by-ipor, APY 3.54%, TVL $6.41M, https://www.defi.garden/?pool=8d8b3ef8-1fee-4314-8cae-cdde303e4947#src=seo_token; Ethereum의 uniswap-v3, APY 1.79%, TVL $339.6K, https://www.defi.garden/?pool=473a2c92-cc86-4f86-b380-85141bcec627#src=seo_token; Base의 curve-dex, APY 1.14%, TVL $1.34M, https://www.defi.garden/?pool=475d7ab5-a4b8-4400-ad1c-94ef9e8bdfe3#src=seo_token; Base의 aerodrome-slipstream, APY 172.44%, TVL $1.19M, https://www.defi.garden/?pool=79369b35-dd99-4d68-b989-31c258fc40ab#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

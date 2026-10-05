@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [jupiter-staked-sol →](https://www.defi.garden/?pool=52bd72a7-9e81-4112-abb4-71673e8de9bf#src=seo_token) | Solana | 5.47% | $627.56M |
+| [jupiter-staked-sol →](https://www.defi.garden/ko/pools/jupiter-staked-sol-jupsol-solana) | Solana | 5.47% | $627.56M |
 | [orca-dex →](https://www.defi.garden/?pool=ee677538-15f3-4567-8510-22e31e3ff065#src=seo_token) | Solana | 0.07% | $287.2K |
 | [orca-dex →](https://www.defi.garden/?pool=5ff68f29-adcc-4551-8947-56ddda389f17#src=seo_token) | Solana | 0.30% | $152.3K |
 | [kamino-liquidity →](https://www.defi.garden/?pool=15802f03-83bf-498f-ae6a-6f0c14de6c6a#src=seo_token) | Solana | 3.44% | $129.8K |
@@ -14,11 +14,11 @@
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 JUPSOL의 변동성 낮은 후보는 Solana의 jupiter-staked-sol, APY 5.47%, TVL $627.56M, https://www.defi.garden/?pool=52bd72a7-9e81-4112-abb4-71673e8de9bf#src=seo_token; Solana의 orca-dex, APY 0.07%, TVL $287.2K, https://www.defi.garden/?pool=ee677538-15f3-4567-8510-22e31e3ff065#src=seo_token; Solana의 orca-dex, APY 0.30%, TVL $152.3K, https://www.defi.garden/?pool=5ff68f29-adcc-4551-8947-56ddda389f17#src=seo_token; Solana의 kamino-liquidity, APY 3.44%, TVL $129.8K, https://www.defi.garden/?pool=15802f03-83bf-498f-ae6a-6f0c14de6c6a#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 JUPSOL의 변동성 낮은 후보는 Solana의 jupiter-staked-sol, APY 5.47%, TVL $627.56M, https://www.defi.garden/ko/pools/jupiter-staked-sol-jupsol-solana; Solana의 orca-dex, APY 0.07%, TVL $287.2K, https://www.defi.garden/?pool=ee677538-15f3-4567-8510-22e31e3ff065#src=seo_token; Solana의 orca-dex, APY 0.30%, TVL $152.3K, https://www.defi.garden/?pool=5ff68f29-adcc-4551-8947-56ddda389f17#src=seo_token; Solana의 kamino-liquidity, APY 3.44%, TVL $129.8K, https://www.defi.garden/?pool=15802f03-83bf-498f-ae6a-6f0c14de6c6a#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [jupiter-staked-sol →](https://www.defi.garden/?pool=52bd72a7-9e81-4112-abb4-71673e8de9bf#src=seo_token) | Solana | 5.47% | $627.56M |
+| 1 | [jupiter-staked-sol →](https://www.defi.garden/ko/pools/jupiter-staked-sol-jupsol-solana) | Solana | 5.47% | $627.56M |
 | 2 | [orca-dex →](https://www.defi.garden/?pool=ee677538-15f3-4567-8510-22e31e3ff065#src=seo_token) | Solana | 0.07% | $287.2K |
 | 3 | [orca-dex →](https://www.defi.garden/?pool=5ff68f29-adcc-4551-8947-56ddda389f17#src=seo_token) | Solana | 0.30% | $152.3K |
 | 4 | [kamino-liquidity →](https://www.defi.garden/?pool=15802f03-83bf-498f-ae6a-6f0c14de6c6a#src=seo_token) | Solana | 3.44% | $129.8K |
@@ -60,7 +60,7 @@ DefiLlama 실시간 데이터 기준, Solana의 jupiter-staked-sol에서 APY 5.4
 
 ### JUPSOL 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 JUPSOL의 변동성 낮은 후보는 Solana의 jupiter-staked-sol, APY 5.47%, TVL $627.56M, https://www.defi.garden/?pool=52bd72a7-9e81-4112-abb4-71673e8de9bf#src=seo_token; Solana의 orca-dex, APY 0.07%, TVL $287.2K, https://www.defi.garden/?pool=ee677538-15f3-4567-8510-22e31e3ff065#src=seo_token; Solana의 orca-dex, APY 0.30%, TVL $152.3K, https://www.defi.garden/?pool=5ff68f29-adcc-4551-8947-56ddda389f17#src=seo_token; Solana의 kamino-liquidity, APY 3.44%, TVL $129.8K, https://www.defi.garden/?pool=15802f03-83bf-498f-ae6a-6f0c14de6c6a#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 JUPSOL의 변동성 낮은 후보는 Solana의 jupiter-staked-sol, APY 5.47%, TVL $627.56M, https://www.defi.garden/ko/pools/jupiter-staked-sol-jupsol-solana; Solana의 orca-dex, APY 0.07%, TVL $287.2K, https://www.defi.garden/?pool=ee677538-15f3-4567-8510-22e31e3ff065#src=seo_token; Solana의 orca-dex, APY 0.30%, TVL $152.3K, https://www.defi.garden/?pool=5ff68f29-adcc-4551-8947-56ddda389f17#src=seo_token; Solana의 kamino-liquidity, APY 3.44%, TVL $129.8K, https://www.defi.garden/?pool=15802f03-83bf-498f-ae6a-6f0c14de6c6a#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
