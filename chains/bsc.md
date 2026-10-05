@@ -7,11 +7,11 @@ The highest honest BSC yield right now is 2.15% on binance-staked-eth (BSC), amo
 | USYC | [circle-usyc →](https://www.defi.garden/pools/circle-usyc-usyc-bsc) | 3.07% | $2.36B |
 | SLISBNB | [lista-liquid-staking →](https://www.defi.garden/pools/lista-liquid-staking-slisbnb-bsc) | 1.01% | $853.74M |
 | WBETH | [binance-staked-eth →](https://www.defi.garden/pools/binance-staked-eth-wbeth-bsc) | 2.15% | $575.46M |
-| WBNB | [venus-core-pool →](https://www.defi.garden/pools/venus-core-pool-wbnb-bsc) | 0.03% | $388.55M |
-| BNB | [lista-lending →](https://www.defi.garden/pools/lista-lending-bnb-bsc) | 0.21% | $387.93M |
-| BTCB | [venus-core-pool →](https://www.defi.garden/pools/venus-core-pool-btcb-bsc) | 0.20% | $356.43M |
-| BUIDL | [blackrock-buidl →](https://www.defi.garden/?pool=55402b0b-af35-452b-b015-627b4233f0f1#src=seo_chain) | 3.47% | $146.65M |
-| USD1 | [lista-lending →](https://www.defi.garden/?pool=d6fec854-4258-495b-95df-e4066214f41d#src=seo_chain) | 1.22% | $138.27M |
+| WBNB | [venus-core-pool →](https://www.defi.garden/?pool=747b58ab-aefd-42e1-a312-01ad5a0ab7f5#src=seo_chain) | 0.03% | $388.55M |
+| BNB | [lista-lending →](https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471#src=seo_chain) | 0.21% | $387.93M |
+| BTCB | [venus-core-pool →](https://www.defi.garden/?pool=87c8ee0d-b812-47c1-803f-f91a3907079e#src=seo_chain) | 0.20% | $356.43M |
+| BUIDL | [blackrock-buidl →](https://www.defi.garden/pools/blackrock-buidl-buidl-bsc) | 3.47% | $146.65M |
+| USD1 | [lista-lending →](https://www.defi.garden/pools/lista-lending-usd1-bsc) | 1.22% | $138.27M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

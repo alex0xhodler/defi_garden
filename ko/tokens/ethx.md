@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [stader →](https://www.defi.garden/?pool=90bfb3c2-5d35-4959-a275-ba5085b08aa3#src=seo_token) | Ethereum | 2.27% | $213.53M |
+| [stader →](https://www.defi.garden/ko/pools/stader-ethx-ethereum) | Ethereum | 2.27% | $213.53M |
 | [curve-dex →](https://www.defi.garden/?pool=f78f31b0-80ed-4504-bf89-74e0162e998f#src=seo_token) | Ethereum | 6.20% | $608K |
 | [stake-dao-yield →](https://www.defi.garden/?pool=c572b921-0373-439d-b224-caf54b78f358#src=seo_token) | Ethereum | 7.59% | $442.6K |
 | [convex-finance →](https://www.defi.garden/?pool=65b7d01f-52de-4071-a735-698c52d3643e#src=seo_token) | Ethereum | 5.57% | $159.1K |
@@ -14,11 +14,11 @@
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 ETHX의 변동성 낮은 후보는 Ethereum의 stader, APY 2.27%, TVL $213.53M, https://www.defi.garden/?pool=90bfb3c2-5d35-4959-a275-ba5085b08aa3#src=seo_token; Ethereum의 curve-dex, APY 6.20%, TVL $608K, https://www.defi.garden/?pool=f78f31b0-80ed-4504-bf89-74e0162e998f#src=seo_token; Ethereum의 convex-finance, APY 5.57%, TVL $159.1K, https://www.defi.garden/?pool=65b7d01f-52de-4071-a735-698c52d3643e#src=seo_token; Ethereum의 stake-dao-yield, APY 7.59%, TVL $442.6K, https://www.defi.garden/?pool=c572b921-0373-439d-b224-caf54b78f358#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 ETHX의 변동성 낮은 후보는 Ethereum의 stader, APY 2.27%, TVL $213.53M, https://www.defi.garden/ko/pools/stader-ethx-ethereum; Ethereum의 curve-dex, APY 6.20%, TVL $608K, https://www.defi.garden/?pool=f78f31b0-80ed-4504-bf89-74e0162e998f#src=seo_token; Ethereum의 convex-finance, APY 5.57%, TVL $159.1K, https://www.defi.garden/?pool=65b7d01f-52de-4071-a735-698c52d3643e#src=seo_token; Ethereum의 stake-dao-yield, APY 7.59%, TVL $442.6K, https://www.defi.garden/?pool=c572b921-0373-439d-b224-caf54b78f358#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [stader →](https://www.defi.garden/?pool=90bfb3c2-5d35-4959-a275-ba5085b08aa3#src=seo_token) | Ethereum | 2.27% | $213.53M |
+| 1 | [stader →](https://www.defi.garden/ko/pools/stader-ethx-ethereum) | Ethereum | 2.27% | $213.53M |
 | 2 | [curve-dex →](https://www.defi.garden/?pool=f78f31b0-80ed-4504-bf89-74e0162e998f#src=seo_token) | Ethereum | 6.20% | $608K |
 | 3 | [convex-finance →](https://www.defi.garden/?pool=65b7d01f-52de-4071-a735-698c52d3643e#src=seo_token) | Ethereum | 5.57% | $159.1K |
 | 4 | [stake-dao-yield →](https://www.defi.garden/?pool=c572b921-0373-439d-b224-caf54b78f358#src=seo_token) | Ethereum | 7.59% | $442.6K |
@@ -58,7 +58,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 stake-dao-yield에서 APY 7.59
 
 ### ETHX 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 ETHX의 변동성 낮은 후보는 Ethereum의 stader, APY 2.27%, TVL $213.53M, https://www.defi.garden/?pool=90bfb3c2-5d35-4959-a275-ba5085b08aa3#src=seo_token; Ethereum의 curve-dex, APY 6.20%, TVL $608K, https://www.defi.garden/?pool=f78f31b0-80ed-4504-bf89-74e0162e998f#src=seo_token; Ethereum의 convex-finance, APY 5.57%, TVL $159.1K, https://www.defi.garden/?pool=65b7d01f-52de-4071-a735-698c52d3643e#src=seo_token; Ethereum의 stake-dao-yield, APY 7.59%, TVL $442.6K, https://www.defi.garden/?pool=c572b921-0373-439d-b224-caf54b78f358#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 ETHX의 변동성 낮은 후보는 Ethereum의 stader, APY 2.27%, TVL $213.53M, https://www.defi.garden/ko/pools/stader-ethx-ethereum; Ethereum의 curve-dex, APY 6.20%, TVL $608K, https://www.defi.garden/?pool=f78f31b0-80ed-4504-bf89-74e0162e998f#src=seo_token; Ethereum의 convex-finance, APY 5.57%, TVL $159.1K, https://www.defi.garden/?pool=65b7d01f-52de-4071-a735-698c52d3643e#src=seo_token; Ethereum의 stake-dao-yield, APY 7.59%, TVL $442.6K, https://www.defi.garden/?pool=c572b921-0373-439d-b224-caf54b78f358#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

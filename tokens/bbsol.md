@@ -6,7 +6,7 @@ The highest honest BBSOL yield right now is 4.73% on bybit-staked-sol (Solana), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [bybit-staked-sol →](https://www.defi.garden/?pool=f76cc844-73a2-4cc7-8de7-f9fb874c626d#src=seo_token) | Solana | 4.73% | $166.11M |
+| [bybit-staked-sol →](https://www.defi.garden/pools/bybit-staked-sol-bbsol-solana) | Solana | 4.73% | $166.11M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

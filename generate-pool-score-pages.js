@@ -11,7 +11,9 @@
  *
  * ELIGIBILITY (hard gate): TVL >= W1_MIN_TVL_USD, >= W1_MIN_HISTORY_POINTS of
  * history, a defiScore, a forecast, and not anomalous (isAnomalousApy /
- * APY_SANITY_LIMIT reused from generate-token-pages.js, never re-implemented).
+ * APY_SANITY_LIMIT reused from generate-token-pages.js, never re-implemented),
+ * and live APY and 30-day mean APY both >= W1_MIN_APY_PCT (a real yield; feed
+ * gaps excluded).
  * Eligible pools are ranked by TVL desc and the first --limit (default
  * W1_PAGE_LIMIT = 100, the plan's kill-switch first tranche) get a page. No
  * page is written for any other pool, and a previously generated page that
@@ -51,6 +53,14 @@ const ROOT = __dirname;
 const W1_PAGE_LIMIT = 100;            // first tranche (plan: 100 first, 300 later)
 const W1_MIN_TVL_USD = 10000000;      // plan: TVL >= $10M
 const W1_MIN_HISTORY_POINTS = 30;     // plan: >= 30 days of history
+// Yield floor, in APY percentage points. These pages target "[protocol] [token]
+// apy/yield" queries; a position paying under 0.5% (Morpho collateral markets,
+// BTC/LST supply on Aave/Spark/Compound, ...) is not a yield product for that
+// query, and the DeFi Score rates a flat 0% as "stable", which would rank it
+// highly. app.js NO_SUPPLY_YIELD_EPSILON (0.01) is a zero test, not a usefulness
+// floor, so it is deliberately not reused. PAGE-SELECTION rule only: not a trust
+// rail (APY_SANITY_LIMIT and the TVL floor are untouched, app behaviour unchanged).
+const W1_MIN_APY_PCT = 0.5;
 const HISTORY_DAYS = 30;              // chart window
 const SIMILAR_POOLS = 4;              // "Similar pools" links per page
 const TITLE_MAX_CHARS = 60;
@@ -104,7 +114,22 @@ function isEligibleScoredPool(p) {
   const f = p.forecast;
   if (!f || !isNum(f.p10) || !isNum(f.p50) || !isNum(f.p90)) return false;
   if (isAnomalousApy(p)) return false; // trust rail
-  return true;
+  return hasMeaningfulYield(p);
+}
+
+/**
+ * Yield floor on BOTH the live total APY (apyBase + apyReward, poolTotalApy)
+ * and the 30-day mean. Requiring both also covers upstream feed gaps: a pool
+ * whose live APY reads ~0 while its 30-day mean is healthy (e.g. a Centrifuge
+ * pool normally at ~4%) is excluded because today's number is not trustworthy
+ * and a page showing 0.00% would misstate its yield. The reverse (healthy live,
+ * ~0 mean) is a one-off spike, also excluded. Such a pool requalifies
+ * automatically on the first regeneration where both numbers clear the floor.
+ */
+function hasMeaningfulYield(p) {
+  const live = poolTotalApy(p);
+  return isNum(live) && live >= W1_MIN_APY_PCT &&
+    isNum(p.apyMean30d) && p.apyMean30d >= W1_MIN_APY_PCT;
 }
 
 /** Eligible pools by TVL desc (uuid tie-break), capped at `limit` (0 = no cap). */
@@ -756,6 +781,63 @@ function removeStaleOwnedPages(dir, keep) {
   return removed;
 }
 
+// --- redirects for pages that drop out of the set ----------------------------
+// A page that leaves the set (yield below the floor, feed gap, ...) was already
+// published and sitemapped, so it must 301 to its chain hub instead of 404ing.
+// The generator owns these entries in vercel.json (a static list would keep
+// redirecting a pool away from its page after it requalifies, because Vercel
+// redirects run before the filesystem). Managed entries are recognised by shape:
+// permanent /pools/<slug> or /ko/pools/<slug> -> a chain hub or the pools hub.
+// `/pools/index` is a hand-written entry and is never touched.
+const REDIRECTS_ANCHOR_SOURCE = '/ko/pools/index';
+const MANAGED_REDIRECT_RE = /^    \{\n      "source": "\/(?:ko\/)?pools\/([a-z0-9-]+)",\n      "destination": "([^"]+)",\n      "permanent": true\n    \},\n/gm;
+
+/**
+ * Pure: the managed redirect set after this run, as Map(slug -> chainSlug|null).
+ * existing: Map(slug -> chainSlug|null) already in vercel.json; prevPages: old
+ * manifest pages [{slug,pool}]; currentSlugs: Set of slugs that have a page now;
+ * chainOfPool: Map(uuid -> chain slug) from the snapshot; chainSlugs: Set of
+ * chain pages that exist (null chain = fall back to the /pools hub).
+ */
+function computePoolRedirects(existing, prevPages, currentSlugs, chainOfPool, chainSlugs) {
+  const out = new Map(existing);
+  (prevPages || []).forEach(e => {
+    if (!e || !e.slug || currentSlugs.has(e.slug)) return;
+    const cs = chainOfPool.get(e.pool);
+    if (cs && chainSlugs.has(cs)) out.set(e.slug, cs);
+    else if (!out.has(e.slug)) out.set(e.slug, null);
+  });
+  currentSlugs.forEach(slug => out.delete(slug)); // requalified: page wins
+  out.delete('index');
+  return out;
+}
+
+function renderRedirectEntries(redirects) {
+  return Array.from(redirects.keys()).sort().map(slug => {
+    const cs = redirects.get(slug);
+    return ['', '/ko'].map(pre => `    {\n      "source": "${pre}/pools/${slug}",\n` +
+      `      "destination": "${cs ? `${pre}/chains/${cs}` : `${pre}/pools`}",\n      "permanent": true\n    },\n`).join('');
+  }).join('');
+}
+
+/** Text-level sync (keeps vercel.json's hand formatting). Returns the new text. */
+function syncPoolRedirectsText(text, prevPages, currentSlugs, chainOfPool, chainSlugs) {
+  const existing = new Map();
+  const stripped = text.replace(MANAGED_REDIRECT_RE, (m, slug, dest) => {
+    if (slug === 'index') return m;
+    const cm = /^\/chains\/([a-z0-9-]+)$/.exec(dest);
+    if (/^\/ko\//.test(m.match(/"source": "([^"]+)"/)[1])) return '';
+    existing.set(slug, cm ? cm[1] : null);
+    return '';
+  });
+  const entries = renderRedirectEntries(computePoolRedirects(existing, prevPages, currentSlugs, chainOfPool, chainSlugs));
+  const anchor = new RegExp(`(      "source": "${REDIRECTS_ANCHOR_SOURCE}",\\n[^\\n]*\\n[^\\n]*\\n    \\},\\n)`);
+  if (!anchor.test(stripped)) throw new Error('vercel.json: redirect anchor ' + REDIRECTS_ANCHOR_SOURCE + ' not found');
+  const next = stripped.replace(anchor, (m) => m + entries);
+  JSON.parse(next); // never write invalid JSON
+  return next;
+}
+
 function buildManifest(selected, slugOf, snapshotIso) {
   return {
     generatedAt: snapshotIso,
@@ -767,7 +849,7 @@ function buildManifest(selected, slugOf, snapshotIso) {
 function parseArgs(argv) {
   const args = {
     limit: W1_PAGE_LIMIT, out: 'pools', snapshot: 'data/pools-snapshot.json', history: 'data/history',
-    manifest: MANIFEST_REL_PATH, sitemap: 'sitemap-pool-pages.xml', protocolUrls: 'data/protocol-urls.json'
+    manifest: MANIFEST_REL_PATH, vercel: 'vercel.json', sitemap: 'sitemap-pool-pages.xml', protocolUrls: 'data/protocol-urls.json'
   };
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
@@ -776,6 +858,8 @@ function parseArgs(argv) {
     else if (a === '--snapshot') args.snapshot = argv[++i];
     else if (a === '--history') args.history = argv[++i];
     else if (a === '--manifest') args.manifest = argv[++i];
+    else if (a === '--vercel') args.vercel = argv[++i];
+    else if (a === '--no-vercel') args.vercel = null;
     else if (a === '--sitemap') args.sitemap = argv[++i];
     else if (a === '--no-sitemap') args.sitemap = null;
   }
@@ -819,6 +903,18 @@ function main() {
   const removedEn = writeSet(outDir, 'en', selected, ctxBase, histories);
   const removedKo = writeSet(koOutDir, 'ko', selected, ctxBase, histories);
 
+  let redirectNote = '';
+  if (args.vercel) {
+    let prevPages = [];
+    try { prevPages = JSON.parse(fs.readFileSync(path.resolve(args.manifest), 'utf8')).pages || []; } catch (e) { /* first run */ }
+    const chainOfPool = new Map(pools.map(p => [p.pool, slugify(p.chain)]));
+    const vp = path.resolve(args.vercel);
+    const before = fs.readFileSync(vp, 'utf8');
+    const after = syncPoolRedirectsText(before, prevPages, new Set(slugOf.values()), chainOfPool, chainSlugs);
+    if (after !== before) fs.writeFileSync(vp, after);
+    redirectNote = `; ${(after.match(MANAGED_REDIRECT_RE) || []).length / 2 - 1} pool redirects in ${args.vercel}`;
+  }
+
   fs.mkdirSync(path.dirname(path.resolve(args.manifest)), { recursive: true });
   fs.writeFileSync(path.resolve(args.manifest), JSON.stringify(buildManifest(selected, slugOf, snapshotIso), null, 2) + '\n');
 
@@ -827,15 +923,15 @@ function main() {
     fs.writeFileSync(path.resolve(args.sitemap), renderPoolsSitemap(selected, slugOf, lastmod, 'en'));
     fs.writeFileSync(path.resolve(args.sitemap.replace(/\.xml$/, '-ko.xml')), renderPoolsSitemap(selected, slugOf, lastmod, 'ko'));
   }
-  console.log(`✅ ${eligibleCount} eligible pools; wrote ${selected.length} EN + ${selected.length} KO pages (limit ${args.limit || 'none'}), removed ${removedEn}+${removedKo} stale`);
+  console.log(`✅ ${eligibleCount} eligible pools; wrote ${selected.length} EN + ${selected.length} KO pages (limit ${args.limit || 'none'}), removed ${removedEn}+${removedKo} stale${redirectNote}`);
 }
 
 module.exports = {
-  W1_PAGE_LIMIT, W1_MIN_TVL_USD, W1_MIN_HISTORY_POINTS, SCORE_PILLARS, GENERATOR_MARKER,
+  W1_PAGE_LIMIT, W1_MIN_TVL_USD, W1_MIN_HISTORY_POINTS, W1_MIN_APY_PCT, SCORE_PILLARS, GENERATOR_MARKER,
   isEligibleScoredPool, selectPoolPages, displayName, renderPoolScorePage, renderPoolsHubPage,
   renderPoolsSitemap, renderApyChartSvg, buildManifest, removeStaleOwnedPages, pageTitle,
   loadHistory, seriesFor, protocolUrlFor, riskItems, parseArgs, writeSet,
-  assignPoolSlugs
+  assignPoolSlugs, hasMeaningfulYield, computePoolRedirects, syncPoolRedirectsText
 };
 
 if (require.main === module) {

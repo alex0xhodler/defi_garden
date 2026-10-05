@@ -6,18 +6,18 @@ The highest honest STEAKEURCV yield right now is 3.00% on morpho-blue (Ethereum)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=d3b28212-a46b-4db8-8bb7-2c946b3cbe76#src=seo_token) | Ethereum | 3.00% | $146.61M |
+| [morpho-blue →](https://www.defi.garden/pools/morpho-blue-steakeurcv-ethereum) | Ethereum | 3.00% | $146.61M |
 | [morpho-blue →](https://www.defi.garden/?pool=cf3e15c7-bc2c-4e7f-acf2-1fbf544acbb3#src=seo_token) | Ethereum | 1.63% | $804.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, STEAKEURCV's lower-variability candidates are morpho-blue (Ethereum), 1.63% APY, $804.8K TVL, https://www.defi.garden/?pool=cf3e15c7-bc2c-4e7f-acf2-1fbf544acbb3#src=seo_token; morpho-blue (Ethereum), 3.00% APY, $146.61M TVL, https://www.defi.garden/?pool=d3b28212-a46b-4db8-8bb7-2c946b3cbe76#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STEAKEURCV's lower-variability candidates are morpho-blue (Ethereum), 1.63% APY, $804.8K TVL, https://www.defi.garden/?pool=cf3e15c7-bc2c-4e7f-acf2-1fbf544acbb3#src=seo_token; morpho-blue (Ethereum), 3.00% APY, $146.61M TVL, https://www.defi.garden/pools/morpho-blue-steakeurcv-ethereum. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [morpho-blue →](https://www.defi.garden/?pool=cf3e15c7-bc2c-4e7f-acf2-1fbf544acbb3#src=seo_token) | Ethereum | 1.63% | $804.8K |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=d3b28212-a46b-4db8-8bb7-2c946b3cbe76#src=seo_token) | Ethereum | 3.00% | $146.61M |
+| 2 | [morpho-blue →](https://www.defi.garden/pools/morpho-blue-steakeurcv-ethereum) | Ethereum | 3.00% | $146.61M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which STEAKEURCV pools have the most stable APY history?
 
-Based on APY history only, STEAKEURCV's lower-variability candidates are morpho-blue (Ethereum), 1.63% APY, $804.8K TVL, https://www.defi.garden/?pool=cf3e15c7-bc2c-4e7f-acf2-1fbf544acbb3#src=seo_token; morpho-blue (Ethereum), 3.00% APY, $146.61M TVL, https://www.defi.garden/?pool=d3b28212-a46b-4db8-8bb7-2c946b3cbe76#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STEAKEURCV's lower-variability candidates are morpho-blue (Ethereum), 1.63% APY, $804.8K TVL, https://www.defi.garden/?pool=cf3e15c7-bc2c-4e7f-acf2-1fbf544acbb3#src=seo_token; morpho-blue (Ethereum), 3.00% APY, $146.61M TVL, https://www.defi.garden/pools/morpho-blue-steakeurcv-ethereum. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

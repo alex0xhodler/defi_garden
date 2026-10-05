@@ -167,6 +167,396 @@
       "permanent": true
     },
     {
+      "source": "/pools/aave-v3-cbbtc-base",
+      "destination": "/chains/base",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/aave-v3-cbbtc-base",
+      "destination": "/ko/chains/base",
+      "permanent": true
+    },
+    {
+      "source": "/pools/aave-v3-cbbtc-ethereum",
+      "destination": "/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/aave-v3-cbbtc-ethereum",
+      "destination": "/ko/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pools/aave-v3-lbtc-ethereum",
+      "destination": "/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/aave-v3-lbtc-ethereum",
+      "destination": "/ko/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pools/aave-v3-oseth-ethereum",
+      "destination": "/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/aave-v3-oseth-ethereum",
+      "destination": "/ko/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pools/aave-v3-usde-ethereum",
+      "destination": "/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/aave-v3-usde-ethereum",
+      "destination": "/ko/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pools/aave-v3-usde-plasma",
+      "destination": "/chains/plasma",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/aave-v3-usde-plasma",
+      "destination": "/ko/chains/plasma",
+      "permanent": true
+    },
+    {
+      "source": "/pools/aave-v3-wbtc-arbitrum",
+      "destination": "/chains/arbitrum",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/aave-v3-wbtc-arbitrum",
+      "destination": "/ko/chains/arbitrum",
+      "permanent": true
+    },
+    {
+      "source": "/pools/aave-v3-wbtc-ethereum",
+      "destination": "/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/aave-v3-wbtc-ethereum",
+      "destination": "/ko/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pools/aave-v3-weeth-ethereum",
+      "destination": "/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/aave-v3-weeth-ethereum",
+      "destination": "/ko/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pools/aave-v3-wsteth-ethereum",
+      "destination": "/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/aave-v3-wsteth-ethereum",
+      "destination": "/ko/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pools/centrifuge-protocol-usat-ethereum",
+      "destination": "/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/centrifuge-protocol-usat-ethereum",
+      "destination": "/ko/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pools/centrifuge-protocol-usdc-avalanche",
+      "destination": "/chains/avalanche",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/centrifuge-protocol-usdc-avalanche",
+      "destination": "/ko/chains/avalanche",
+      "permanent": true
+    },
+    {
+      "source": "/pools/compound-v3-wbtc-ethereum",
+      "destination": "/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/compound-v3-wbtc-ethereum",
+      "destination": "/ko/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pools/concrete-ctdeltaweeth-ethereum",
+      "destination": "/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/concrete-ctdeltaweeth-ethereum",
+      "destination": "/ko/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pools/dolomite-wlfi-ethereum",
+      "destination": "/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/dolomite-wlfi-ethereum",
+      "destination": "/ko/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pools/hyperlend-pooled-khype-hyperliquid-l1",
+      "destination": "/chains/hyperliquid-l1",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/hyperlend-pooled-khype-hyperliquid-l1",
+      "destination": "/ko/chains/hyperliquid-l1",
+      "permanent": true
+    },
+    {
+      "source": "/pools/justlend-v1-btc-tron",
+      "destination": "/chains/tron",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/justlend-v1-btc-tron",
+      "destination": "/ko/chains/tron",
+      "permanent": true
+    },
+    {
+      "source": "/pools/justlend-v1-eth-tron",
+      "destination": "/chains/tron",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/justlend-v1-eth-tron",
+      "destination": "/ko/chains/tron",
+      "permanent": true
+    },
+    {
+      "source": "/pools/justlend-v1-strx-tron",
+      "destination": "/chains/tron",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/justlend-v1-strx-tron",
+      "destination": "/ko/chains/tron",
+      "permanent": true
+    },
+    {
+      "source": "/pools/justlend-v1-trx-tron",
+      "destination": "/chains/tron",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/justlend-v1-trx-tron",
+      "destination": "/ko/chains/tron",
+      "permanent": true
+    },
+    {
+      "source": "/pools/kamino-lend-dsol-solana",
+      "destination": "/chains/solana",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/kamino-lend-dsol-solana",
+      "destination": "/ko/chains/solana",
+      "permanent": true
+    },
+    {
+      "source": "/pools/lista-lending-bnb-bsc",
+      "destination": "/chains/bsc",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/lista-lending-bnb-bsc",
+      "destination": "/ko/chains/bsc",
+      "permanent": true
+    },
+    {
+      "source": "/pools/lombard-lbtc-lbtc-ethereum",
+      "destination": "/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/lombard-lbtc-lbtc-ethereum",
+      "destination": "/ko/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pools/morpho-blue-cbbtc-base",
+      "destination": "/chains/base",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/morpho-blue-cbbtc-base",
+      "destination": "/ko/chains/base",
+      "permanent": true
+    },
+    {
+      "source": "/pools/morpho-blue-cbbtc-ethereum",
+      "destination": "/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/morpho-blue-cbbtc-ethereum",
+      "destination": "/ko/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pools/morpho-blue-kbtc-ethereum",
+      "destination": "/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/morpho-blue-kbtc-ethereum",
+      "destination": "/ko/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pools/morpho-blue-prime-ethereum",
+      "destination": "/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/morpho-blue-prime-ethereum",
+      "destination": "/ko/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pools/morpho-blue-wbtc-ethereum",
+      "destination": "/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/morpho-blue-wbtc-ethereum",
+      "destination": "/ko/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pools/morpho-blue-weth-base",
+      "destination": "/chains/base",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/morpho-blue-weth-base",
+      "destination": "/ko/chains/base",
+      "permanent": true
+    },
+    {
+      "source": "/pools/morpho-blue-wsteth-ethereum",
+      "destination": "/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/morpho-blue-wsteth-ethereum",
+      "destination": "/ko/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pools/sky-lending-weth-ethereum",
+      "destination": "/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/sky-lending-weth-ethereum",
+      "destination": "/ko/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pools/sky-lending-weth-ethereum-eth-a",
+      "destination": "/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/sky-lending-weth-ethereum-eth-a",
+      "destination": "/ko/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pools/solv-basis-trading-btcb-bsc",
+      "destination": "/chains/bsc",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/solv-basis-trading-btcb-bsc",
+      "destination": "/ko/chains/bsc",
+      "permanent": true
+    },
+    {
+      "source": "/pools/sparklend-cbbtc-ethereum",
+      "destination": "/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/sparklend-cbbtc-ethereum",
+      "destination": "/ko/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pools/sparklend-lbtc-ethereum",
+      "destination": "/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/sparklend-lbtc-ethereum",
+      "destination": "/ko/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pools/sparklend-wsteth-ethereum",
+      "destination": "/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/sparklend-wsteth-ethereum",
+      "destination": "/ko/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pools/venus-core-pool-btcb-bsc",
+      "destination": "/chains/bsc",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/venus-core-pool-btcb-bsc",
+      "destination": "/ko/chains/bsc",
+      "permanent": true
+    },
+    {
+      "source": "/pools/venus-core-pool-solvbtc-bsc",
+      "destination": "/chains/bsc",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/venus-core-pool-solvbtc-bsc",
+      "destination": "/ko/chains/bsc",
+      "permanent": true
+    },
+    {
+      "source": "/pools/venus-core-pool-wbnb-bsc",
+      "destination": "/chains/bsc",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/venus-core-pool-wbnb-bsc",
+      "destination": "/ko/chains/bsc",
+      "permanent": true
+    },
+    {
       "source": "/",
       "has": [
         { "type": "header", "key": "Accept", "value": "(.*)text/markdown(.*)" },

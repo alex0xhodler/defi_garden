@@ -6,7 +6,7 @@ The highest honest BSOL yield right now is 4.74% on blazestake (Solana), among 8
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [blazestake →](https://www.defi.garden/?pool=387d6732-59f0-4ae0-8a88-aba75a5cbe4a#src=seo_token) | Solana | 4.74% | $110.2M |
+| [blazestake →](https://www.defi.garden/pools/blazestake-bsol-solana) | Solana | 4.74% | $110.2M |
 | [kamino-lend →](https://www.defi.garden/?pool=9837ed71-8e5e-45c4-a56d-54d738a1cb1e#src=seo_token) | Solana | 0.03% | $9.68M |
 | [project-0 →](https://www.defi.garden/?pool=857b1f5d-5aea-40d3-a3c5-0d20d61160b3#src=seo_token) | Solana | 0.03% | $6.22M |
 | [orca-dex →](https://www.defi.garden/?pool=e571b6f4-6242-4e0c-a4ef-ab7525de9a1f#src=seo_token) | Solana | 0.10% | $713.7K |
@@ -16,13 +16,13 @@ The highest honest BSOL yield right now is 4.74% on blazestake (Solana), among 8
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, BSOL's lower-variability candidates are kamino-lend (Solana), 0.03% APY, $9.68M TVL, https://www.defi.garden/?pool=9837ed71-8e5e-45c4-a56d-54d738a1cb1e#src=seo_token; project-0 (Solana), 0.03% APY, $6.22M TVL, https://www.defi.garden/?pool=857b1f5d-5aea-40d3-a3c5-0d20d61160b3#src=seo_token; blazestake (Solana), 4.74% APY, $110.2M TVL, https://www.defi.garden/?pool=387d6732-59f0-4ae0-8a88-aba75a5cbe4a#src=seo_token; kamino-liquidity (Solana), 0.31% APY, $640.4K TVL, https://www.defi.garden/?pool=ceef4c39-3df9-4ead-89e3-45b824bb5136#src=seo_token; orca-dex (Solana), 0.10% APY, $713.7K TVL, https://www.defi.garden/?pool=e571b6f4-6242-4e0c-a4ef-ab7525de9a1f#src=seo_token; kamino-liquidity (Solana), 13.54% APY, $278.6K TVL, https://www.defi.garden/?pool=eb3b548a-4c25-4e49-9e08-9733c8da29a6#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BSOL's lower-variability candidates are kamino-lend (Solana), 0.03% APY, $9.68M TVL, https://www.defi.garden/?pool=9837ed71-8e5e-45c4-a56d-54d738a1cb1e#src=seo_token; project-0 (Solana), 0.03% APY, $6.22M TVL, https://www.defi.garden/?pool=857b1f5d-5aea-40d3-a3c5-0d20d61160b3#src=seo_token; blazestake (Solana), 4.74% APY, $110.2M TVL, https://www.defi.garden/pools/blazestake-bsol-solana; kamino-liquidity (Solana), 0.31% APY, $640.4K TVL, https://www.defi.garden/?pool=ceef4c39-3df9-4ead-89e3-45b824bb5136#src=seo_token; orca-dex (Solana), 0.10% APY, $713.7K TVL, https://www.defi.garden/?pool=e571b6f4-6242-4e0c-a4ef-ab7525de9a1f#src=seo_token; kamino-liquidity (Solana), 13.54% APY, $278.6K TVL, https://www.defi.garden/?pool=eb3b548a-4c25-4e49-9e08-9733c8da29a6#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [kamino-lend →](https://www.defi.garden/?pool=9837ed71-8e5e-45c4-a56d-54d738a1cb1e#src=seo_token) | Solana | 0.03% | $9.68M |
 | 2 | [project-0 →](https://www.defi.garden/?pool=857b1f5d-5aea-40d3-a3c5-0d20d61160b3#src=seo_token) | Solana | 0.03% | $6.22M |
-| 3 | [blazestake →](https://www.defi.garden/?pool=387d6732-59f0-4ae0-8a88-aba75a5cbe4a#src=seo_token) | Solana | 4.74% | $110.2M |
+| 3 | [blazestake →](https://www.defi.garden/pools/blazestake-bsol-solana) | Solana | 4.74% | $110.2M |
 | 4 | [kamino-liquidity →](https://www.defi.garden/?pool=ceef4c39-3df9-4ead-89e3-45b824bb5136#src=seo_token) | Solana | 0.31% | $640.4K |
 | 5 | [orca-dex →](https://www.defi.garden/?pool=e571b6f4-6242-4e0c-a4ef-ab7525de9a1f#src=seo_token) | Solana | 0.10% | $713.7K |
 | 6 | [kamino-liquidity →](https://www.defi.garden/?pool=eb3b548a-4c25-4e49-9e08-9733c8da29a6#src=seo_token) | Solana | 13.54% | $278.6K |
@@ -66,7 +66,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BSOL pools have the most stable APY history?
 
-Based on APY history only, BSOL's lower-variability candidates are kamino-lend (Solana), 0.03% APY, $9.68M TVL, https://www.defi.garden/?pool=9837ed71-8e5e-45c4-a56d-54d738a1cb1e#src=seo_token; project-0 (Solana), 0.03% APY, $6.22M TVL, https://www.defi.garden/?pool=857b1f5d-5aea-40d3-a3c5-0d20d61160b3#src=seo_token; blazestake (Solana), 4.74% APY, $110.2M TVL, https://www.defi.garden/?pool=387d6732-59f0-4ae0-8a88-aba75a5cbe4a#src=seo_token; kamino-liquidity (Solana), 0.31% APY, $640.4K TVL, https://www.defi.garden/?pool=ceef4c39-3df9-4ead-89e3-45b824bb5136#src=seo_token; orca-dex (Solana), 0.10% APY, $713.7K TVL, https://www.defi.garden/?pool=e571b6f4-6242-4e0c-a4ef-ab7525de9a1f#src=seo_token; kamino-liquidity (Solana), 13.54% APY, $278.6K TVL, https://www.defi.garden/?pool=eb3b548a-4c25-4e49-9e08-9733c8da29a6#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BSOL's lower-variability candidates are kamino-lend (Solana), 0.03% APY, $9.68M TVL, https://www.defi.garden/?pool=9837ed71-8e5e-45c4-a56d-54d738a1cb1e#src=seo_token; project-0 (Solana), 0.03% APY, $6.22M TVL, https://www.defi.garden/?pool=857b1f5d-5aea-40d3-a3c5-0d20d61160b3#src=seo_token; blazestake (Solana), 4.74% APY, $110.2M TVL, https://www.defi.garden/pools/blazestake-bsol-solana; kamino-liquidity (Solana), 0.31% APY, $640.4K TVL, https://www.defi.garden/?pool=ceef4c39-3df9-4ead-89e3-45b824bb5136#src=seo_token; orca-dex (Solana), 0.10% APY, $713.7K TVL, https://www.defi.garden/?pool=e571b6f4-6242-4e0c-a4ef-ab7525de9a1f#src=seo_token; kamino-liquidity (Solana), 13.54% APY, $278.6K TVL, https://www.defi.garden/?pool=eb3b548a-4c25-4e49-9e08-9733c8da29a6#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

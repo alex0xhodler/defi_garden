@@ -7,11 +7,11 @@
 | USYC | [circle-usyc →](https://www.defi.garden/ko/pools/circle-usyc-usyc-bsc) | 3.07% | $2.36B |
 | SLISBNB | [lista-liquid-staking →](https://www.defi.garden/ko/pools/lista-liquid-staking-slisbnb-bsc) | 1.01% | $853.74M |
 | WBETH | [binance-staked-eth →](https://www.defi.garden/ko/pools/binance-staked-eth-wbeth-bsc) | 2.15% | $575.46M |
-| WBNB | [venus-core-pool →](https://www.defi.garden/ko/pools/venus-core-pool-wbnb-bsc) | 0.03% | $388.55M |
-| BNB | [lista-lending →](https://www.defi.garden/ko/pools/lista-lending-bnb-bsc) | 0.21% | $387.93M |
-| BTCB | [venus-core-pool →](https://www.defi.garden/ko/pools/venus-core-pool-btcb-bsc) | 0.20% | $356.43M |
-| BUIDL | [blackrock-buidl →](https://www.defi.garden/?pool=55402b0b-af35-452b-b015-627b4233f0f1#src=seo_chain) | 3.47% | $146.65M |
-| USD1 | [lista-lending →](https://www.defi.garden/?pool=d6fec854-4258-495b-95df-e4066214f41d#src=seo_chain) | 1.22% | $138.27M |
+| WBNB | [venus-core-pool →](https://www.defi.garden/?pool=747b58ab-aefd-42e1-a312-01ad5a0ab7f5#src=seo_chain) | 0.03% | $388.55M |
+| BNB | [lista-lending →](https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471#src=seo_chain) | 0.21% | $387.93M |
+| BTCB | [venus-core-pool →](https://www.defi.garden/?pool=87c8ee0d-b812-47c1-803f-f91a3907079e#src=seo_chain) | 0.20% | $356.43M |
+| BUIDL | [blackrock-buidl →](https://www.defi.garden/ko/pools/blackrock-buidl-buidl-bsc) | 3.47% | $146.65M |
+| USD1 | [lista-lending →](https://www.defi.garden/ko/pools/lista-lending-usd1-bsc) | 1.22% | $138.27M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 

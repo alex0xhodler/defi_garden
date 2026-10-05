@@ -7,7 +7,7 @@ The highest honest PRIME yield right now is 5.97% on hastra (Ethereum), among 16
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [hastra →](https://www.defi.garden/pools/hastra-prime-ethereum) | Ethereum | 5.97% | $455.39M |
-| [hastra →](https://www.defi.garden/?pool=76bb34c2-e68a-4398-9fba-d8a14c0caa44#src=seo_token) | Solana | 5.97% | $129.47M |
+| [hastra →](https://www.defi.garden/pools/hastra-prime-solana) | Solana | 5.97% | $129.47M |
 | [morpho-blue →](https://www.defi.garden/?pool=052e3f85-e489-4bee-9e34-c7898ef1d449#src=seo_token) | Ethereum | 4.45% | $29.32M |
 | [orca-dex →](https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255#src=seo_token) | Solana | 0.38% | $9.58M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=e17c52fd-7327-481a-9e4e-ca37474e192b#src=seo_token) | Ethereum | 0.30% | $8M |
@@ -18,14 +18,14 @@ The highest honest PRIME yield right now is 5.97% on hastra (Ethereum), among 16
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, PRIME's lower-variability candidates are hastra (Ethereum), 5.97% APY, $455.39M TVL, https://www.defi.garden/pools/hastra-prime-ethereum; orca-dex (Solana), 0.18% APY, $3.59M TVL, https://www.defi.garden/?pool=069fc5ee-37bc-4699-8793-38094d6c0e1a#src=seo_token; morpho-blue (Ethereum), 4.45% APY, $29.32M TVL, https://www.defi.garden/?pool=052e3f85-e489-4bee-9e34-c7898ef1d449#src=seo_token; hastra (Solana), 5.97% APY, $129.47M TVL, https://www.defi.garden/?pool=76bb34c2-e68a-4398-9fba-d8a14c0caa44#src=seo_token; orca-dex (Solana), 0.38% APY, $9.58M TVL, https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255#src=seo_token; morpho-blue (Ethereum), 4.04% APY, $1.15M TVL, https://www.defi.garden/?pool=8fa8207f-039a-4223-9344-f68cf247bc74#src=seo_token; morpho-blue (Ethereum), 2.30% APY, $2.78M TVL, https://www.defi.garden/?pool=59444b82-6f00-4f1f-89a6-48a0d715c10f#src=seo_token; uniswap-v3 (Ethereum), 0.30% APY, $8M TVL, https://www.defi.garden/?pool=e17c52fd-7327-481a-9e4e-ca37474e192b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PRIME's lower-variability candidates are hastra (Ethereum), 5.97% APY, $455.39M TVL, https://www.defi.garden/pools/hastra-prime-ethereum; orca-dex (Solana), 0.18% APY, $3.59M TVL, https://www.defi.garden/?pool=069fc5ee-37bc-4699-8793-38094d6c0e1a#src=seo_token; morpho-blue (Ethereum), 4.45% APY, $29.32M TVL, https://www.defi.garden/?pool=052e3f85-e489-4bee-9e34-c7898ef1d449#src=seo_token; hastra (Solana), 5.97% APY, $129.47M TVL, https://www.defi.garden/pools/hastra-prime-solana; orca-dex (Solana), 0.38% APY, $9.58M TVL, https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255#src=seo_token; morpho-blue (Ethereum), 4.04% APY, $1.15M TVL, https://www.defi.garden/?pool=8fa8207f-039a-4223-9344-f68cf247bc74#src=seo_token; morpho-blue (Ethereum), 2.30% APY, $2.78M TVL, https://www.defi.garden/?pool=59444b82-6f00-4f1f-89a6-48a0d715c10f#src=seo_token; uniswap-v3 (Ethereum), 0.30% APY, $8M TVL, https://www.defi.garden/?pool=e17c52fd-7327-481a-9e4e-ca37474e192b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [hastra →](https://www.defi.garden/pools/hastra-prime-ethereum) | Ethereum | 5.97% | $455.39M |
 | 2 | [orca-dex →](https://www.defi.garden/?pool=069fc5ee-37bc-4699-8793-38094d6c0e1a#src=seo_token) | Solana | 0.18% | $3.59M |
 | 3 | [morpho-blue →](https://www.defi.garden/?pool=052e3f85-e489-4bee-9e34-c7898ef1d449#src=seo_token) | Ethereum | 4.45% | $29.32M |
-| 4 | [hastra →](https://www.defi.garden/?pool=76bb34c2-e68a-4398-9fba-d8a14c0caa44#src=seo_token) | Solana | 5.97% | $129.47M |
+| 4 | [hastra →](https://www.defi.garden/pools/hastra-prime-solana) | Solana | 5.97% | $129.47M |
 | 5 | [orca-dex →](https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255#src=seo_token) | Solana | 0.38% | $9.58M |
 | 6 | [morpho-blue →](https://www.defi.garden/?pool=8fa8207f-039a-4223-9344-f68cf247bc74#src=seo_token) | Ethereum | 4.04% | $1.15M |
 | 7 | [morpho-blue →](https://www.defi.garden/?pool=59444b82-6f00-4f1f-89a6-48a0d715c10f#src=seo_token) | Ethereum | 2.30% | $2.78M |
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which PRIME pools have the most stable APY history?
 
-Based on APY history only, PRIME's lower-variability candidates are hastra (Ethereum), 5.97% APY, $455.39M TVL, https://www.defi.garden/pools/hastra-prime-ethereum; orca-dex (Solana), 0.18% APY, $3.59M TVL, https://www.defi.garden/?pool=069fc5ee-37bc-4699-8793-38094d6c0e1a#src=seo_token; morpho-blue (Ethereum), 4.45% APY, $29.32M TVL, https://www.defi.garden/?pool=052e3f85-e489-4bee-9e34-c7898ef1d449#src=seo_token; hastra (Solana), 5.97% APY, $129.47M TVL, https://www.defi.garden/?pool=76bb34c2-e68a-4398-9fba-d8a14c0caa44#src=seo_token; orca-dex (Solana), 0.38% APY, $9.58M TVL, https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255#src=seo_token; morpho-blue (Ethereum), 4.04% APY, $1.15M TVL, https://www.defi.garden/?pool=8fa8207f-039a-4223-9344-f68cf247bc74#src=seo_token; morpho-blue (Ethereum), 2.30% APY, $2.78M TVL, https://www.defi.garden/?pool=59444b82-6f00-4f1f-89a6-48a0d715c10f#src=seo_token; uniswap-v3 (Ethereum), 0.30% APY, $8M TVL, https://www.defi.garden/?pool=e17c52fd-7327-481a-9e4e-ca37474e192b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PRIME's lower-variability candidates are hastra (Ethereum), 5.97% APY, $455.39M TVL, https://www.defi.garden/pools/hastra-prime-ethereum; orca-dex (Solana), 0.18% APY, $3.59M TVL, https://www.defi.garden/?pool=069fc5ee-37bc-4699-8793-38094d6c0e1a#src=seo_token; morpho-blue (Ethereum), 4.45% APY, $29.32M TVL, https://www.defi.garden/?pool=052e3f85-e489-4bee-9e34-c7898ef1d449#src=seo_token; hastra (Solana), 5.97% APY, $129.47M TVL, https://www.defi.garden/pools/hastra-prime-solana; orca-dex (Solana), 0.38% APY, $9.58M TVL, https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255#src=seo_token; morpho-blue (Ethereum), 4.04% APY, $1.15M TVL, https://www.defi.garden/?pool=8fa8207f-039a-4223-9344-f68cf247bc74#src=seo_token; morpho-blue (Ethereum), 2.30% APY, $2.78M TVL, https://www.defi.garden/?pool=59444b82-6f00-4f1f-89a6-48a0d715c10f#src=seo_token; uniswap-v3 (Ethereum), 0.30% APY, $8M TVL, https://www.defi.garden/?pool=e17c52fd-7327-481a-9e4e-ca37474e192b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
