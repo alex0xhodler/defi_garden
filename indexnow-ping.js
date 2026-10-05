@@ -76,7 +76,7 @@ function collectUrls(sitemapPaths, maxUrls) {
 // the head too, the opposite of the human's Q3b decision (Bing/Yandex keep
 // the FULL estate). Scanning the directories the generators actually write
 // to can never drift out of sync with what's really served.
-const ESTATE_DIRS = ['tokens', 'ko/tokens', 'tokens/az', 'ko/tokens/az', 'chains', 'ko/chains'];
+const ESTATE_DIRS = ['tokens', 'ko/tokens', 'tokens/az', 'ko/tokens/az', 'chains', 'ko/chains', 'pools', 'ko/pools'];
 
 /**
  * Scans the served estate on disk (ESTATE_DIRS, relative to `rootDir`) and

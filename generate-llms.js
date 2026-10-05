@@ -648,8 +648,8 @@ function buildAgentEndpointsSection(meta) {
 function buildConcise(meta, categories, highYield, yieldAnalysis, plannerRateResult, opts = {}) {
   const lines = [];
 
-  // Header with single H1 (SEO optimized)
-  lines.push('# Find the Best Yields for Your Tokens Across All Chains | DeFi Garden');
+  // Header with single H1 (aligned with predictive underwriting & yield quality)
+  lines.push('# DeFi Yields, Predictively Underwritten | DeFi Garden');
   lines.push('');
 
   // Metadata

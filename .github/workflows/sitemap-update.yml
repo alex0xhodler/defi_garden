@@ -110,6 +110,7 @@ jobs:
     - name: Generate landing hero data (curated pools + DeFi Score)
       run: |
         node generate-landing-pools.js
+        node generate-pool-scores-json.js
 
     - name: Generate scored pool pages (W1 — static /pools/<slug> pages, manifest + sitemaps)
       # Must run BEFORE token/chain pages: they read data/pool-pages.json to
