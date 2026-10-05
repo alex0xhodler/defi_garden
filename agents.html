@@ -75,7 +75,7 @@
             "name": "How does DeFi Garden prevent AI agent yield hallucinations?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Every yield pool served through the MCP layer passes through deterministic trust rails: a 1000% APY sanity ceiling, a minimum TVL floor ($100,000+), dual-oracle divergence tripwires (15 bps freeze), and anomaly pool demotions."
+              "text": "Every yield pool served through the MCP layer passes through deterministic trust rails: a 1000% APY sanity ceiling, a minimum TVL floor ($100,000+), and transparent anomaly pool demotions."
             }
           },
           {
@@ -448,13 +448,13 @@
   "mcpServers": {
     "defi-garden": {
       "type": "http",
-      "url": "https://www.defi.garden/api/mcp"
+      "url": "https://www.defi.garden/mcp"
     }
   }
 }</code></pre>
         </div>
         <p style="font-size:0.8rem; color:var(--color-text-secondary); margin-top:12px; margin-bottom:0;">
-          Direct API endpoint: <code style="color:var(--color-primary);">https://www.defi.garden/api/mcp</code>
+          Direct canonical endpoint: <code style="color:var(--color-primary);">https://www.defi.garden/mcp</code> (Streamable HTTP / JSON-RPC 2.0)
         </p>
       </div>
 
@@ -462,24 +462,24 @@
       <div class="brand-card">
         <h2>🛡️ Trust Rails & Invariants</h2>
         <p style="font-size:0.85rem; color:var(--color-text-secondary); margin-top:0;">
-          Deterministic filter gates enforced at the schema level so AI agents never route into decaying memecoin farms or illiquid pools.
+          Deterministic filter gates enforced across every tool response so AI agents never route into decaying memecoin farms or illiquid pools.
         </p>
         <div class="trust-rails-container">
           <div class="trust-rail-item">
             <div class="trust-rail-title">Sanity APY Ceiling</div>
-            <div class="trust-rail-text">&le; 1,000% APY cap. Memecoin spikes are auto-demoted.</div>
+            <div class="trust-rail-text">&le; 1,000% APY cap. Pools above 1,000% are excluded from listings.</div>
           </div>
           <div class="trust-rail-item">
             <div class="trust-rail-title">Liquidity Floor</div>
             <div class="trust-rail-text">&ge; $100K USD minimum TVL for surfaced pools.</div>
           </div>
           <div class="trust-rail-item">
-            <div class="trust-rail-title">Dual-Oracle Defense</div>
-            <div class="trust-rail-text">Circuit breaker trips if Pyth & Chainlink diverge &gt; 15 bps.</div>
+            <div class="trust-rail-title">Live Data Attestation</div>
+            <div class="trust-rail-text">Every number derives from live pool feeds. Zero fabricated rates.</div>
           </div>
           <div class="trust-rail-item">
-            <div class="trust-rail-title">Principal Preservation</div>
-            <div class="trust-rail-text">&Delta; Principal &equiv; 0 invariant enforced for harvest keepers.</div>
+            <div class="trust-rail-title">Transparent Tagging</div>
+            <div class="trust-rail-text">Direct pool lookups flag anomalous rates and below-floor TVL explicitly.</div>
           </div>
         </div>
       </div>
@@ -494,41 +494,21 @@
 
       <div class="tool-row">
         <div class="tool-head">
-          <span class="tool-signature">get_base_yields</span>
-          <button class="btn-exec" onclick="testTool('get_base_yields')">Run Query</button>
+          <span class="tool-signature">find_pools</span>
+          <button class="btn-exec" onclick="testTool('find_pools')">Run Query</button>
         </div>
         <div class="tool-description">
-          Filter verified Base yield pools (Morpho Blue, Auto Finance baseEUR, Moonwell, Aerodrome, TermMax) with strict sanity limits and anomaly demotions.
+          Search DeFi Garden railed pool list by token symbol, chain, project, and minimum TVL floor. Excludes anomalous rates (&gt;1000% APY) and pools below $100K TVL.
         </div>
       </div>
 
       <div class="tool-row">
         <div class="tool-head">
-          <span class="tool-signature">find_lending_rate</span>
-          <button class="btn-exec" onclick="testTool('find_lending_rate')">Run Query</button>
+          <span class="tool-signature">get_pool</span>
+          <button class="btn-exec" onclick="testTool('get_pool')">Run Query</button>
         </div>
         <div class="tool-description">
-          Query real-time supply and borrow lending APYs, collateral risk parameters, and LLTV limits on Base.
-        </div>
-      </div>
-
-      <div class="tool-row">
-        <div class="tool-head">
-          <span class="tool-signature">get_looping_params</span>
-          <button class="btn-exec" onclick="testTool('get_looping_params')">Run Query</button>
-        </div>
-        <div class="tool-description">
-          Calculate leverage multiplier, borrow capacity, liquidation threshold (LLTV), and net APY projection for yield looping strategies.
-        </div>
-      </div>
-
-      <div class="tool-row">
-        <div class="tool-head">
-          <span class="tool-signature">get_trust_rails</span>
-          <button class="btn-exec" onclick="testTool('get_trust_rails')">Run Query</button>
-        </div>
-        <div class="tool-description">
-          Retrieve active filtering rules, sanity ceilings, and pool qualification criteria.
+          Look up a single DeFi liquidity venue by its DefiLlama pool UUID, returning live APY, base/reward decomposition, TVL, and anomaly status.
         </div>
       </div>
 
@@ -538,7 +518,27 @@
           <button class="btn-exec" onclick="testTool('get_pool_score')">Run Query</button>
         </div>
         <div class="tool-description">
-          Query quantitative yield quality score (DeFi Score 0-100), 4-pillar breakdown, 14-day forward yield forecast bands, and retail access restrictions.
+          Retrieve quantitative yield quality score (DeFi Score 0-100), 4-pillar breakdown, 14-day forward yield forecast bands, and retail access restrictions.
+        </div>
+      </div>
+
+      <div class="tool-row">
+        <div class="tool-head">
+          <span class="tool-signature">forever_number</span>
+          <button class="btn-exec" onclick="testTool('forever_number')">Run Query</button>
+        </div>
+        <div class="tool-description">
+          Computes the lump-sum capital whose yield alone would cover a recurring monthly bill forever, derived from a TVL-weighted blended rate of railed pools.
+        </div>
+      </div>
+
+      <div class="tool-row">
+        <div class="tool-head">
+          <span class="tool-signature">explain_rails</span>
+          <button class="btn-exec" onclick="testTool('explain_rails')">Run Query</button>
+        </div>
+        <div class="tool-description">
+          Returns DeFi Garden's full API contract document: active trust-rail values (APY sanity limit, TVL floor), upstream data source, and endpoint list.
         </div>
       </div>
 
@@ -613,20 +613,20 @@
       outputEl.textContent = `Executing tool: ${toolName}...`;
 
       let args = {};
-      if (toolName === 'get_base_yields') {
-        args = { asset: "USDC" };
+      if (toolName === 'find_pools') {
+        args = { token: "USDC", chain: "Base", limit: 3 };
       }
-      if (toolName === 'find_lending_rate') {
-        args = { asset: "USDC" };
-      }
-      if (toolName === 'get_looping_params') {
-        args = { collateral_asset: "cbETH", borrow_asset: "USDC" };
-      }
-      if (toolName === 'get_trust_rails') {
-        args = {};
+      if (toolName === 'get_pool') {
+        args = { pool_id: "ba68527f-8ec2-4c55-827a-8f4673ae047c" };
       }
       if (toolName === 'get_pool_score') {
-        args = { asset: "USDC", chain: "Base" };
+        args = { pool_id: "ba68527f-8ec2-4c55-827a-8f4673ae047c" };
+      }
+      if (toolName === 'forever_number') {
+        args = { monthly: 100 };
+      }
+      if (toolName === 'explain_rails') {
+        args = {};
       }
 
       try {
