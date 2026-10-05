@@ -102,6 +102,11 @@ jobs:
         $HOME/.local/bin/uv run --with "timesfm[torch]" --with web3 python3 compute-forecasts.py --limit 0
         echo "✅ TimesFM forecasts & DeFi scores completed"
 
+    - name: Record point-in-time daily forecast ledger (P0-2)
+      run: |
+        echo "📝 Recording point-in-time daily forecast ledger..."
+        node scripts/record-daily-forecast.js
+
     - name: Generate landing hero data (curated pools + DeFi Score)
       run: |
         node generate-landing-pools.js
@@ -132,10 +137,10 @@ jobs:
         node generate-pool-pages.js --out pools --fixture "$RUNNER_TEMP/seo-pools.json"
         echo "Pages: $(ls pools | wc -l)"
 
-    - name: Generate public forecast accuracy scorecard (W2)
+    - name: Generate public forecast accuracy scorecard (W2 / P0-2)
       run: |
-        echo "📊 Generating public /forecast-accuracy scorecard..."
-        node generate-forecast-scorecard.js
+        echo "📊 Evaluating empirical forecast accuracy scorecard against naive baseline..."
+        node scripts/evaluate-forecast-accuracy.js
 
     - name: Generate sitemap
       run: |

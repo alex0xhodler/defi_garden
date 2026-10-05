@@ -528,7 +528,17 @@
           <button class="btn-exec" onclick="testTool('get_trust_rails')">Run Query</button>
         </div>
         <div class="tool-description">
-          Retrieve active safety invariants, sanity ceilings, oracle divergence gates, and pool qualification criteria.
+          Retrieve active filtering rules, sanity ceilings, and pool qualification criteria.
+        </div>
+      </div>
+
+      <div class="tool-row">
+        <div class="tool-head">
+          <span class="tool-signature">get_pool_score</span>
+          <button class="btn-exec" onclick="testTool('get_pool_score')">Run Query</button>
+        </div>
+        <div class="tool-description">
+          Query quantitative yield quality score (DeFi Score 0-100), 4-pillar breakdown, 14-day forward yield forecast bands, and retail access restrictions.
         </div>
       </div>
 
@@ -603,25 +613,24 @@
       outputEl.textContent = `Executing tool: ${toolName}...`;
 
       let args = {};
-      if (toolName === 'find_pools' || toolName === 'get_base_yields') {
-        toolName = 'find_pools';
-        args = { token: "USDC", chain: "Base" };
+      if (toolName === 'get_base_yields') {
+        args = { asset: "USDC" };
       }
-      if (toolName === 'get_pool' || toolName === 'find_lending_rate') {
-        toolName = 'find_pools';
-        args = { token: "USDC", chain: "Base" };
+      if (toolName === 'find_lending_rate') {
+        args = { asset: "USDC" };
       }
-      if (toolName === 'forever_number' || toolName === 'get_looping_params') {
-        toolName = 'forever_number';
-        args = { monthly: 100 };
+      if (toolName === 'get_looping_params') {
+        args = { collateral_asset: "cbETH", borrow_asset: "USDC" };
       }
-      if (toolName === 'explain_rails' || toolName === 'get_trust_rails') {
-        toolName = 'explain_rails';
+      if (toolName === 'get_trust_rails') {
         args = {};
+      }
+      if (toolName === 'get_pool_score') {
+        args = { asset: "USDC", chain: "Base" };
       }
 
       try {
-        const res = await fetch('/mcp', {
+        const res = await fetch('/api/mcp', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
