@@ -6,32 +6,32 @@ The highest honest FET yield right now is 152.33% on uniswap-v3 (BSC), among 6 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=2d8f7a82-79b7-4cb0-96aa-dcda4bfaf688#src=seo_token) | Ethereum | 89.09% | $1.87M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=d2869b84-0682-4bb0-8246-9d936b5fcf53#src=seo_token) | Ethereum | 54.92% | $494.5K |
-| [minswap-dex →](https://www.defi.garden/?pool=4bcf36a4-be29-45f8-bab7-f723ccfc79d0#src=seo_token) | Cardano | 6.24% | $211.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2d8f7a82-79b7-4cb0-96aa-dcda4bfaf688#src=seo_token) | Ethereum | 85.87% | $1.87M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=d2869b84-0682-4bb0-8246-9d936b5fcf53#src=seo_token) | Ethereum | 52.23% | $494.9K |
+| [minswap-dex →](https://www.defi.garden/?pool=4bcf36a4-be29-45f8-bab7-f723ccfc79d0#src=seo_token) | Cardano | 6.32% | $208K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=3e9e9106-5334-4b18-adc5-0ebdd198f884#src=seo_token) | BSC | 152.33% | $118.5K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=a5683e89-ff90-4e8d-882d-e5c1747ac2e4#src=seo_token) | Ethereum | 89.83% | $105.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a5683e89-ff90-4e8d-882d-e5c1747ac2e4#src=seo_token) | Ethereum | 88.86% | $105.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, FET's lower-variability candidates are minswap-dex (Cardano), 6.24% APY, $211.7K TVL, https://www.defi.garden/?pool=4bcf36a4-be29-45f8-bab7-f723ccfc79d0#src=seo_token; uniswap-v4 (Ethereum), 89.83% APY, $105.5K TVL, https://www.defi.garden/?pool=a5683e89-ff90-4e8d-882d-e5c1747ac2e4#src=seo_token; uniswap-v4 (Ethereum), 54.92% APY, $494.5K TVL, https://www.defi.garden/?pool=d2869b84-0682-4bb0-8246-9d936b5fcf53#src=seo_token; uniswap-v3 (BSC), 152.33% APY, $118.5K TVL, https://www.defi.garden/?pool=3e9e9106-5334-4b18-adc5-0ebdd198f884#src=seo_token; uniswap-v3 (Ethereum), 89.09% APY, $1.87M TVL, https://www.defi.garden/?pool=2d8f7a82-79b7-4cb0-96aa-dcda4bfaf688#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FET's lower-variability candidates are minswap-dex (Cardano), 6.32% APY, $208K TVL, https://www.defi.garden/?pool=4bcf36a4-be29-45f8-bab7-f723ccfc79d0#src=seo_token; uniswap-v4 (Ethereum), 88.86% APY, $105.6K TVL, https://www.defi.garden/?pool=a5683e89-ff90-4e8d-882d-e5c1747ac2e4#src=seo_token; uniswap-v4 (Ethereum), 52.23% APY, $494.9K TVL, https://www.defi.garden/?pool=d2869b84-0682-4bb0-8246-9d936b5fcf53#src=seo_token; uniswap-v3 (BSC), 152.33% APY, $118.5K TVL, https://www.defi.garden/?pool=3e9e9106-5334-4b18-adc5-0ebdd198f884#src=seo_token; uniswap-v3 (Ethereum), 85.87% APY, $1.87M TVL, https://www.defi.garden/?pool=2d8f7a82-79b7-4cb0-96aa-dcda4bfaf688#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [minswap-dex →](https://www.defi.garden/?pool=4bcf36a4-be29-45f8-bab7-f723ccfc79d0#src=seo_token) | Cardano | 6.24% | $211.7K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=a5683e89-ff90-4e8d-882d-e5c1747ac2e4#src=seo_token) | Ethereum | 89.83% | $105.5K |
-| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=d2869b84-0682-4bb0-8246-9d936b5fcf53#src=seo_token) | Ethereum | 54.92% | $494.5K |
+| 1 | [minswap-dex →](https://www.defi.garden/?pool=4bcf36a4-be29-45f8-bab7-f723ccfc79d0#src=seo_token) | Cardano | 6.32% | $208K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=a5683e89-ff90-4e8d-882d-e5c1747ac2e4#src=seo_token) | Ethereum | 88.86% | $105.6K |
+| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=d2869b84-0682-4bb0-8246-9d936b5fcf53#src=seo_token) | Ethereum | 52.23% | $494.9K |
 | 4 | [uniswap-v3 →](https://www.defi.garden/?pool=3e9e9106-5334-4b18-adc5-0ebdd198f884#src=seo_token) | BSC | 152.33% | $118.5K |
-| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=2d8f7a82-79b7-4cb0-96aa-dcda4bfaf688#src=seo_token) | Ethereum | 89.09% | $1.87M |
+| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=2d8f7a82-79b7-4cb0-96aa-dcda4bfaf688#src=seo_token) | Ethereum | 85.87% | $1.87M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-FET shows up in 5 pools here, with rates from 6.24% to 152.33% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+FET shows up in 5 pools here, with rates from 6.32% to 152.33% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-5 of these 5 pools have a trustworthy 30-day average on file, with a median of 39.20% — a useful check against today's number for whether the rate is steady or just having a good day.
+5 of these 5 pools have a trustworthy 30-day average on file, with a median of 39.25% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 5 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -39,11 +39,11 @@ FET shows up in 5 pools here, with rates from 6.24% to 152.33% APY across 3 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 89.09% | 52.76% | Base rate |
-| uniswap-v4 | 54.92% | 39.20% | Base rate |
-| minswap-dex | 6.24% | 7.49% | 33.33% incentives |
-| uniswap-v3 | 152.33% | 121.20% | Base rate |
-| uniswap-v4 | 89.83% | 12.74% | Base rate |
+| uniswap-v3 | 85.87% | 52.85% | Base rate |
+| uniswap-v4 | 52.23% | 39.25% | Base rate |
+| minswap-dex | 6.32% | 7.48% | 33.07% incentives |
+| uniswap-v3 | 152.33% | 121.28% | Base rate |
+| uniswap-v4 | 88.86% | 12.86% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -63,7 +63,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which FET pools have the most stable APY history?
 
-Based on APY history only, FET's lower-variability candidates are minswap-dex (Cardano), 6.24% APY, $211.7K TVL, https://www.defi.garden/?pool=4bcf36a4-be29-45f8-bab7-f723ccfc79d0#src=seo_token; uniswap-v4 (Ethereum), 89.83% APY, $105.5K TVL, https://www.defi.garden/?pool=a5683e89-ff90-4e8d-882d-e5c1747ac2e4#src=seo_token; uniswap-v4 (Ethereum), 54.92% APY, $494.5K TVL, https://www.defi.garden/?pool=d2869b84-0682-4bb0-8246-9d936b5fcf53#src=seo_token; uniswap-v3 (BSC), 152.33% APY, $118.5K TVL, https://www.defi.garden/?pool=3e9e9106-5334-4b18-adc5-0ebdd198f884#src=seo_token; uniswap-v3 (Ethereum), 89.09% APY, $1.87M TVL, https://www.defi.garden/?pool=2d8f7a82-79b7-4cb0-96aa-dcda4bfaf688#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FET's lower-variability candidates are minswap-dex (Cardano), 6.32% APY, $208K TVL, https://www.defi.garden/?pool=4bcf36a4-be29-45f8-bab7-f723ccfc79d0#src=seo_token; uniswap-v4 (Ethereum), 88.86% APY, $105.6K TVL, https://www.defi.garden/?pool=a5683e89-ff90-4e8d-882d-e5c1747ac2e4#src=seo_token; uniswap-v4 (Ethereum), 52.23% APY, $494.9K TVL, https://www.defi.garden/?pool=d2869b84-0682-4bb0-8246-9d936b5fcf53#src=seo_token; uniswap-v3 (BSC), 152.33% APY, $118.5K TVL, https://www.defi.garden/?pool=3e9e9106-5334-4b18-adc5-0ebdd198f884#src=seo_token; uniswap-v3 (Ethereum), 85.87% APY, $1.87M TVL, https://www.defi.garden/?pool=2d8f7a82-79b7-4cb0-96aa-dcda4bfaf688#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

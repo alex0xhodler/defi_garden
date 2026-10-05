@@ -2,11 +2,11 @@
 
 *DefiLlama 데이터 생성 시점 검증: October 5, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 ALCH의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 7.11%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 ALCH의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 7.07%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=b09355f3-286d-472e-a1dd-4d0170dfb4aa#src=seo_token) | Solana | 7.11% | $3.5M |
+| [raydium-amm →](https://www.defi.garden/?pool=b09355f3-286d-472e-a1dd-4d0170dfb4aa#src=seo_token) | Solana | 7.07% | $3.5M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,7 +19,7 @@
 
 ### 오늘 ALCH의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 7.11%예요.
+DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 7.07%예요.
 
 ### ALCH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

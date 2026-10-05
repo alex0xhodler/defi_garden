@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many PST pools clear the TVL floor?
 
-9 live pools clear this page's $100K TVL floor, $220.82M in total.
+9 live pools clear this page's $100K TVL floor, $222.6M in total.
 
 ### Are these rates safe?
 

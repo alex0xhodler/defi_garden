@@ -7,17 +7,17 @@ The highest honest YNG yield right now is 0.78% on uniswap-v3 (Ethereum), among 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=7b5dd19a-5d50-476e-b849-91e3eea95d5e#src=seo_token) | Ethereum | 0.39% | $1.69M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=1d4a3ec7-b725-4281-9013-638bb81ced9d#src=seo_token) | Ethereum | 0.78% | $500K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1d4a3ec7-b725-4281-9013-638bb81ced9d#src=seo_token) | Ethereum | 0.78% | $499.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, YNG's lower-variability candidates are uniswap-v3 (Ethereum), 0.39% APY, $1.69M TVL, https://www.defi.garden/?pool=7b5dd19a-5d50-476e-b849-91e3eea95d5e#src=seo_token; uniswap-v3 (Ethereum), 0.78% APY, $500K TVL, https://www.defi.garden/?pool=1d4a3ec7-b725-4281-9013-638bb81ced9d#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, YNG's lower-variability candidates are uniswap-v3 (Ethereum), 0.39% APY, $1.69M TVL, https://www.defi.garden/?pool=7b5dd19a-5d50-476e-b849-91e3eea95d5e#src=seo_token; uniswap-v3 (Ethereum), 0.78% APY, $499.5K TVL, https://www.defi.garden/?pool=1d4a3ec7-b725-4281-9013-638bb81ced9d#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v3 →](https://www.defi.garden/?pool=7b5dd19a-5d50-476e-b849-91e3eea95d5e#src=seo_token) | Ethereum | 0.39% | $1.69M |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=1d4a3ec7-b725-4281-9013-638bb81ced9d#src=seo_token) | Ethereum | 0.78% | $500K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=1d4a3ec7-b725-4281-9013-638bb81ced9d#src=seo_token) | Ethereum | 0.78% | $499.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which YNG pools have the most stable APY history?
 
-Based on APY history only, YNG's lower-variability candidates are uniswap-v3 (Ethereum), 0.39% APY, $1.69M TVL, https://www.defi.garden/?pool=7b5dd19a-5d50-476e-b849-91e3eea95d5e#src=seo_token; uniswap-v3 (Ethereum), 0.78% APY, $500K TVL, https://www.defi.garden/?pool=1d4a3ec7-b725-4281-9013-638bb81ced9d#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, YNG's lower-variability candidates are uniswap-v3 (Ethereum), 0.39% APY, $1.69M TVL, https://www.defi.garden/?pool=7b5dd19a-5d50-476e-b849-91e3eea95d5e#src=seo_token; uniswap-v3 (Ethereum), 0.78% APY, $499.5K TVL, https://www.defi.garden/?pool=1d4a3ec7-b725-4281-9013-638bb81ced9d#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

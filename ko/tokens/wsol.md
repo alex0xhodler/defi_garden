@@ -2,40 +2,40 @@
 
 *DefiLlama 데이터 생성 시점 검증: October 5, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 WSOL의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 36.51%이며, $100K TVL 기준을 넘는 223개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 WSOL의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 37.82%이며, $100K TVL 기준을 넘는 224개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=12edc6f3-4926-4b4f-b97c-38ef6a458574#src=seo_token) | Solana | 11.90% | $28.1M |
+| [raydium-amm →](https://www.defi.garden/?pool=12edc6f3-4926-4b4f-b97c-38ef6a458574#src=seo_token) | Solana | 11.99% | $28.06M |
 | [raydium-amm →](https://www.defi.garden/?pool=eb0fb099-5af2-45a7-961a-0daf3cb53916#src=seo_token) | Solana | 0.02% | $20.69M |
-| [raydium-amm →](https://www.defi.garden/?pool=efa5ce76-dc4f-4d06-a9d4-0e09c4dcd0a1#src=seo_token) | Solana | 4.72% | $18.04M |
-| [raydium-amm →](https://www.defi.garden/?pool=919f83c6-1a2d-4c67-985f-99e8b8423f62#src=seo_token) | Solana | 3.34% | $10.6M |
-| [raydium-amm →](https://www.defi.garden/?pool=c66d7944-6582-4638-881a-360e5918e4b4#src=seo_token) | Solana | 7.28% | $8.96M |
-| [raydium-amm →](https://www.defi.garden/?pool=185ce02a-06db-4051-a6d8-25f86b32d77f#src=seo_token) | Solana | 9.35% | $8.31M |
-| [raydium-amm →](https://www.defi.garden/?pool=709f121d-d3b4-44da-b3d0-47bc16f5400b#src=seo_token) | Solana | 36.51% | $8.09M |
-| [raydium-amm →](https://www.defi.garden/?pool=caca758f-7a8f-4242-8d9c-cd44d98c5ee0#src=seo_token) | Solana | 7.47% | $6.9M |
+| [raydium-amm →](https://www.defi.garden/?pool=efa5ce76-dc4f-4d06-a9d4-0e09c4dcd0a1#src=seo_token) | Solana | 4.77% | $18.12M |
+| [raydium-amm →](https://www.defi.garden/?pool=919f83c6-1a2d-4c67-985f-99e8b8423f62#src=seo_token) | Solana | 3.38% | $10.61M |
+| [raydium-amm →](https://www.defi.garden/?pool=c66d7944-6582-4638-881a-360e5918e4b4#src=seo_token) | Solana | 7.44% | $8.96M |
+| [raydium-amm →](https://www.defi.garden/?pool=185ce02a-06db-4051-a6d8-25f86b32d77f#src=seo_token) | Solana | 8.93% | $8.3M |
+| [raydium-amm →](https://www.defi.garden/?pool=709f121d-d3b4-44da-b3d0-47bc16f5400b#src=seo_token) | Solana | 37.82% | $8.11M |
+| [raydium-amm →](https://www.defi.garden/?pool=caca758f-7a8f-4242-8d9c-cd44d98c5ee0#src=seo_token) | Solana | 7.65% | $6.92M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 WSOL의 변동성 낮은 후보는 Solana의 raydium-amm, APY 9.35%, TVL $8.31M, https://www.defi.garden/?pool=185ce02a-06db-4051-a6d8-25f86b32d77f#src=seo_token; Solana의 raydium-amm, APY 4.72%, TVL $18.04M, https://www.defi.garden/?pool=efa5ce76-dc4f-4d06-a9d4-0e09c4dcd0a1#src=seo_token; Solana의 raydium-amm, APY 3.34%, TVL $10.6M, https://www.defi.garden/?pool=919f83c6-1a2d-4c67-985f-99e8b8423f62#src=seo_token; Solana의 raydium-amm, APY 11.90%, TVL $28.1M, https://www.defi.garden/?pool=12edc6f3-4926-4b4f-b97c-38ef6a458574#src=seo_token; Solana의 raydium-amm, APY 7.28%, TVL $8.96M, https://www.defi.garden/?pool=c66d7944-6582-4638-881a-360e5918e4b4#src=seo_token; Solana의 raydium-amm, APY 36.51%, TVL $8.09M, https://www.defi.garden/?pool=709f121d-d3b4-44da-b3d0-47bc16f5400b#src=seo_token; Solana의 raydium-amm, APY 7.47%, TVL $6.9M, https://www.defi.garden/?pool=caca758f-7a8f-4242-8d9c-cd44d98c5ee0#src=seo_token; Solana의 raydium-amm, APY 0.02%, TVL $20.69M, https://www.defi.garden/?pool=eb0fb099-5af2-45a7-961a-0daf3cb53916#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 WSOL의 변동성 낮은 후보는 Solana의 raydium-amm, APY 8.93%, TVL $8.3M, https://www.defi.garden/?pool=185ce02a-06db-4051-a6d8-25f86b32d77f#src=seo_token; Solana의 raydium-amm, APY 4.77%, TVL $18.12M, https://www.defi.garden/?pool=efa5ce76-dc4f-4d06-a9d4-0e09c4dcd0a1#src=seo_token; Solana의 raydium-amm, APY 3.38%, TVL $10.61M, https://www.defi.garden/?pool=919f83c6-1a2d-4c67-985f-99e8b8423f62#src=seo_token; Solana의 raydium-amm, APY 11.99%, TVL $28.06M, https://www.defi.garden/?pool=12edc6f3-4926-4b4f-b97c-38ef6a458574#src=seo_token; Solana의 raydium-amm, APY 7.44%, TVL $8.96M, https://www.defi.garden/?pool=c66d7944-6582-4638-881a-360e5918e4b4#src=seo_token; Solana의 raydium-amm, APY 37.82%, TVL $8.11M, https://www.defi.garden/?pool=709f121d-d3b4-44da-b3d0-47bc16f5400b#src=seo_token; Solana의 raydium-amm, APY 7.65%, TVL $6.92M, https://www.defi.garden/?pool=caca758f-7a8f-4242-8d9c-cd44d98c5ee0#src=seo_token; Solana의 raydium-amm, APY 0.02%, TVL $20.69M, https://www.defi.garden/?pool=eb0fb099-5af2-45a7-961a-0daf3cb53916#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=185ce02a-06db-4051-a6d8-25f86b32d77f#src=seo_token) | Solana | 9.35% | $8.31M |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=efa5ce76-dc4f-4d06-a9d4-0e09c4dcd0a1#src=seo_token) | Solana | 4.72% | $18.04M |
-| 3 | [raydium-amm →](https://www.defi.garden/?pool=919f83c6-1a2d-4c67-985f-99e8b8423f62#src=seo_token) | Solana | 3.34% | $10.6M |
-| 4 | [raydium-amm →](https://www.defi.garden/?pool=12edc6f3-4926-4b4f-b97c-38ef6a458574#src=seo_token) | Solana | 11.90% | $28.1M |
-| 5 | [raydium-amm →](https://www.defi.garden/?pool=c66d7944-6582-4638-881a-360e5918e4b4#src=seo_token) | Solana | 7.28% | $8.96M |
-| 6 | [raydium-amm →](https://www.defi.garden/?pool=709f121d-d3b4-44da-b3d0-47bc16f5400b#src=seo_token) | Solana | 36.51% | $8.09M |
-| 7 | [raydium-amm →](https://www.defi.garden/?pool=caca758f-7a8f-4242-8d9c-cd44d98c5ee0#src=seo_token) | Solana | 7.47% | $6.9M |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=185ce02a-06db-4051-a6d8-25f86b32d77f#src=seo_token) | Solana | 8.93% | $8.3M |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=efa5ce76-dc4f-4d06-a9d4-0e09c4dcd0a1#src=seo_token) | Solana | 4.77% | $18.12M |
+| 3 | [raydium-amm →](https://www.defi.garden/?pool=919f83c6-1a2d-4c67-985f-99e8b8423f62#src=seo_token) | Solana | 3.38% | $10.61M |
+| 4 | [raydium-amm →](https://www.defi.garden/?pool=12edc6f3-4926-4b4f-b97c-38ef6a458574#src=seo_token) | Solana | 11.99% | $28.06M |
+| 5 | [raydium-amm →](https://www.defi.garden/?pool=c66d7944-6582-4638-881a-360e5918e4b4#src=seo_token) | Solana | 7.44% | $8.96M |
+| 6 | [raydium-amm →](https://www.defi.garden/?pool=709f121d-d3b4-44da-b3d0-47bc16f5400b#src=seo_token) | Solana | 37.82% | $8.11M |
+| 7 | [raydium-amm →](https://www.defi.garden/?pool=caca758f-7a8f-4242-8d9c-cd44d98c5ee0#src=seo_token) | Solana | 7.65% | $6.92M |
 | 8 | [raydium-amm →](https://www.defi.garden/?pool=eb0fb099-5af2-45a7-961a-0daf3cb53916#src=seo_token) | Solana | 0.02% | $20.69M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-WSOL 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.02%부터 36.51%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+WSOL 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.02%부터 37.82%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 12.49%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -45,14 +45,14 @@ WSOL 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.02%부터 36.51%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| raydium-amm | 11.90% | 101.57% | 기본 금리 |
+| raydium-amm | 11.99% | 101.53% | 기본 금리 |
 | raydium-amm | 0.02% | 0.29% | 기본 금리 |
-| raydium-amm | 4.72% | 9.15% | 기본 금리 |
-| raydium-amm | 3.34% | 5.43% | 기본 금리 |
-| raydium-amm | 7.28% | 17.06% | 기본 금리 |
-| raydium-amm | 9.35% | 2.49% | 기본 금리 |
-| raydium-amm | 36.51% | 56.93% | 기본 금리 |
-| raydium-amm | 7.47% | 15.83% | 기본 금리 |
+| raydium-amm | 4.77% | 9.14% | 기본 금리 |
+| raydium-amm | 3.38% | 5.43% | 기본 금리 |
+| raydium-amm | 7.44% | 17.05% | 기본 금리 |
+| raydium-amm | 8.93% | 2.50% | 기본 금리 |
+| raydium-amm | 37.82% | 56.94% | 기본 금리 |
+| raydium-amm | 7.65% | 15.83% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -60,11 +60,11 @@ WSOL 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.02%부터 36.51%�
 
 ### 오늘 WSOL의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 36.51%예요.
+DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 37.82%예요.
 
 ### WSOL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 223개이며, 합산 TVL은 $264.48M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 224개이며, 합산 TVL은 $264.69M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -72,7 +72,7 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 36.51%예�
 
 ### WSOL 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 WSOL의 변동성 낮은 후보는 Solana의 raydium-amm, APY 9.35%, TVL $8.31M, https://www.defi.garden/?pool=185ce02a-06db-4051-a6d8-25f86b32d77f#src=seo_token; Solana의 raydium-amm, APY 4.72%, TVL $18.04M, https://www.defi.garden/?pool=efa5ce76-dc4f-4d06-a9d4-0e09c4dcd0a1#src=seo_token; Solana의 raydium-amm, APY 3.34%, TVL $10.6M, https://www.defi.garden/?pool=919f83c6-1a2d-4c67-985f-99e8b8423f62#src=seo_token; Solana의 raydium-amm, APY 11.90%, TVL $28.1M, https://www.defi.garden/?pool=12edc6f3-4926-4b4f-b97c-38ef6a458574#src=seo_token; Solana의 raydium-amm, APY 7.28%, TVL $8.96M, https://www.defi.garden/?pool=c66d7944-6582-4638-881a-360e5918e4b4#src=seo_token; Solana의 raydium-amm, APY 36.51%, TVL $8.09M, https://www.defi.garden/?pool=709f121d-d3b4-44da-b3d0-47bc16f5400b#src=seo_token; Solana의 raydium-amm, APY 7.47%, TVL $6.9M, https://www.defi.garden/?pool=caca758f-7a8f-4242-8d9c-cd44d98c5ee0#src=seo_token; Solana의 raydium-amm, APY 0.02%, TVL $20.69M, https://www.defi.garden/?pool=eb0fb099-5af2-45a7-961a-0daf3cb53916#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 WSOL의 변동성 낮은 후보는 Solana의 raydium-amm, APY 8.93%, TVL $8.3M, https://www.defi.garden/?pool=185ce02a-06db-4051-a6d8-25f86b32d77f#src=seo_token; Solana의 raydium-amm, APY 4.77%, TVL $18.12M, https://www.defi.garden/?pool=efa5ce76-dc4f-4d06-a9d4-0e09c4dcd0a1#src=seo_token; Solana의 raydium-amm, APY 3.38%, TVL $10.61M, https://www.defi.garden/?pool=919f83c6-1a2d-4c67-985f-99e8b8423f62#src=seo_token; Solana의 raydium-amm, APY 11.99%, TVL $28.06M, https://www.defi.garden/?pool=12edc6f3-4926-4b4f-b97c-38ef6a458574#src=seo_token; Solana의 raydium-amm, APY 7.44%, TVL $8.96M, https://www.defi.garden/?pool=c66d7944-6582-4638-881a-360e5918e4b4#src=seo_token; Solana의 raydium-amm, APY 37.82%, TVL $8.11M, https://www.defi.garden/?pool=709f121d-d3b4-44da-b3d0-47bc16f5400b#src=seo_token; Solana의 raydium-amm, APY 7.65%, TVL $6.92M, https://www.defi.garden/?pool=caca758f-7a8f-4242-8d9c-cd44d98c5ee0#src=seo_token; Solana의 raydium-amm, APY 0.02%, TVL $20.69M, https://www.defi.garden/?pool=eb0fb099-5af2-45a7-961a-0daf3cb53916#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

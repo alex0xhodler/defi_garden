@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many EURCV pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $8.96M in total.
+2 live pools clear this page's $100K TVL floor, $8.97M in total.
 
 ### Are these rates safe?
 

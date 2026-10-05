@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest AGL yield right now is 210.11% on uniswap-v2 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AGL yield right now is 247.76% on uniswap-v2 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=bc0c381e-95fc-588c-91c6-e373153b1b9a#src=seo_token) | Base | 210.11% | $286.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=bc0c381e-95fc-588c-91c6-e373153b1b9a#src=seo_token) | Base | 247.76% | $250.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,9 +17,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-AGL shows up in 1 pools here, with rates from 210.11% to 210.11% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+AGL shows up in 1 pools here, with rates from 247.76% to 247.76% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 282.87% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 282.17% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -27,7 +27,7 @@ All 1 pool pays a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 210.11% | 282.87% | Base rate |
+| uniswap-v2 | 247.76% | 282.17% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest AGL yield today?
 
-210.11% APY on uniswap-v2 (Base), based on live DefiLlama data.
+247.76% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many AGL pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $2.03M in total.
+3 live pools clear this page's $100K TVL floor, $1.95M in total.
 
 ### Are these rates safe?
 

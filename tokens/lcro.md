@@ -63,7 +63,7 @@ Based on APY history only, LCRO's lower-variability candidates are tectonic (Cro
 - [VVS](https://www.defi.garden/tokens/vvs)
 - [CDCETH](https://www.defi.garden/tokens/cdceth)
 - [XRP](https://www.defi.garden/tokens/xrp)
-- [LION](https://www.defi.garden/tokens/lion)
+- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 
 ## Available on
 

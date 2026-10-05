@@ -6,7 +6,7 @@ The highest honest SBC yield right now is 0.89% on uniswap-v3 (Base), among 2 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=430619be-99ec-4b0f-b913-e7e0001343fa#src=seo_token) | Base | 0.89% | $102K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=430619be-99ec-4b0f-b913-e7e0001343fa#src=seo_token) | Base | 0.89% | $102.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

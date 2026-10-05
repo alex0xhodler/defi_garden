@@ -6,17 +6,17 @@ The highest honest AKITA yield right now is 0.07% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=1109a03b-618c-47b3-af82-8031fee2ce21#src=seo_token) | Ethereum | 0.07% | $312K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=1109a03b-618c-47b3-af82-8031fee2ce21#src=seo_token) | Ethereum | 0.07% | $311.7K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=8ba271a3-1a72-4a60-b979-5a36ac1f2c2b#src=seo_token) | Ethereum | 3.05% | $129.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, AKITA's lower-variability candidates are uniswap-v2 (Ethereum), 0.07% APY, $312K TVL, https://www.defi.garden/?pool=1109a03b-618c-47b3-af82-8031fee2ce21#src=seo_token; uniswap-v4 (Ethereum), 3.05% APY, $129.2K TVL, https://www.defi.garden/?pool=8ba271a3-1a72-4a60-b979-5a36ac1f2c2b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AKITA's lower-variability candidates are uniswap-v2 (Ethereum), 0.07% APY, $311.7K TVL, https://www.defi.garden/?pool=1109a03b-618c-47b3-af82-8031fee2ce21#src=seo_token; uniswap-v4 (Ethereum), 3.05% APY, $129.2K TVL, https://www.defi.garden/?pool=8ba271a3-1a72-4a60-b979-5a36ac1f2c2b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=1109a03b-618c-47b3-af82-8031fee2ce21#src=seo_token) | Ethereum | 0.07% | $312K |
+| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=1109a03b-618c-47b3-af82-8031fee2ce21#src=seo_token) | Ethereum | 0.07% | $311.7K |
 | 2 | [uniswap-v4 →](https://www.defi.garden/?pool=8ba271a3-1a72-4a60-b979-5a36ac1f2c2b#src=seo_token) | Ethereum | 3.05% | $129.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many AKITA pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $441.2K in total.
+2 live pools clear this page's $100K TVL floor, $440.8K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which AKITA pools have the most stable APY history?
 
-Based on APY history only, AKITA's lower-variability candidates are uniswap-v2 (Ethereum), 0.07% APY, $312K TVL, https://www.defi.garden/?pool=1109a03b-618c-47b3-af82-8031fee2ce21#src=seo_token; uniswap-v4 (Ethereum), 3.05% APY, $129.2K TVL, https://www.defi.garden/?pool=8ba271a3-1a72-4a60-b979-5a36ac1f2c2b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AKITA's lower-variability candidates are uniswap-v2 (Ethereum), 0.07% APY, $311.7K TVL, https://www.defi.garden/?pool=1109a03b-618c-47b3-af82-8031fee2ce21#src=seo_token; uniswap-v4 (Ethereum), 3.05% APY, $129.2K TVL, https://www.defi.garden/?pool=8ba271a3-1a72-4a60-b979-5a36ac1f2c2b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

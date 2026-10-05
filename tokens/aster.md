@@ -33,7 +33,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ASTER shows up in 6 pools here, with rates from 0.28% to 38.60% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-6 of these 6 pools have a trustworthy 30-day average on file, with a median of 13.96% — a useful check against today's number for whether the rate is steady or just having a good day.
+6 of these 6 pools have a trustworthy 30-day average on file, with a median of 13.80% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 6 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -42,11 +42,11 @@ All 6 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | lista-lending | 0.43% | 0.45% | Base rate |
-| uniswap-v4 | 7.46% | 9.15% | Base rate |
+| uniswap-v4 | 7.46% | 9.07% | Base rate |
 | uniswap-v4 | 0.28% | 0.46% | Base rate |
-| uniswap-v3 | 15.19% | 65.23% | Base rate |
-| uniswap-v3 | 0.95% | 18.77% | Base rate |
-| uniswap-v3 | 38.60% | 80.99% | Base rate |
+| uniswap-v3 | 15.19% | 64.96% | Base rate |
+| uniswap-v3 | 0.95% | 18.53% | Base rate |
+| uniswap-v3 | 38.60% | 80.66% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

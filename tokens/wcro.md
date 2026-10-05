@@ -2,40 +2,40 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest WCRO yield right now is 3.40% on vvs-standard (Cronos), among 35 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WCRO yield right now is 3.53% on vvs-standard (Cronos), among 35 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=2fca7a84-651c-440a-beb3-eced492a7bea#src=seo_token) | Cronos | 0.03% | $35.9M |
-| [vvs-standard →](https://www.defi.garden/?pool=966396c0-97ed-4da1-8ae8-0c55516a9ab3#src=seo_token) | Cronos | 3.40% | $6.37M |
-| [vvs-standard →](https://www.defi.garden/?pool=e67c8f7e-4bf5-49a7-bd5f-e0459b1895b5#src=seo_token) | Cronos | 0.21% | $2.34M |
-| [vvs-standard →](https://www.defi.garden/?pool=91a5bc7d-da57-44b7-bf8f-059d3e8ee238#src=seo_token) | Cronos | 1.69% | $2.28M |
-| [vvs-standard →](https://www.defi.garden/?pool=0285b5c7-66d2-4f51-89ec-b7e320bf609f#src=seo_token) | Cronos | 1.89% | $1.38M |
-| [vvs-standard →](https://www.defi.garden/?pool=17f2bd86-86ab-4b1d-b4c5-ae373f3a5694#src=seo_token) | Cronos | 0.76% | $1.18M |
+| [vvs-standard →](https://www.defi.garden/?pool=2fca7a84-651c-440a-beb3-eced492a7bea#src=seo_token) | Cronos | 0.04% | $35.89M |
+| [vvs-standard →](https://www.defi.garden/?pool=966396c0-97ed-4da1-8ae8-0c55516a9ab3#src=seo_token) | Cronos | 3.53% | $6.37M |
+| [vvs-standard →](https://www.defi.garden/?pool=e67c8f7e-4bf5-49a7-bd5f-e0459b1895b5#src=seo_token) | Cronos | 0.22% | $2.33M |
+| [vvs-standard →](https://www.defi.garden/?pool=91a5bc7d-da57-44b7-bf8f-059d3e8ee238#src=seo_token) | Cronos | 1.78% | $2.28M |
+| [vvs-standard →](https://www.defi.garden/?pool=0285b5c7-66d2-4f51-89ec-b7e320bf609f#src=seo_token) | Cronos | 1.91% | $1.38M |
+| [vvs-standard →](https://www.defi.garden/?pool=17f2bd86-86ab-4b1d-b4c5-ae373f3a5694#src=seo_token) | Cronos | 0.75% | $1.18M |
 | [vvs-standard →](https://www.defi.garden/?pool=869cf619-bf00-4fd9-93e0-77e29e06e412#src=seo_token) | Cronos | 0.01% | $1.03M |
-| [vvs-standard →](https://www.defi.garden/?pool=c061e869-2bc9-5d2a-ace5-0bedd6e49d1a#src=seo_token) | Cronos | 0.04% | $987.9K |
+| [vvs-standard →](https://www.defi.garden/?pool=c061e869-2bc9-5d2a-ace5-0bedd6e49d1a#src=seo_token) | Cronos | 0.03% | $985.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WCRO's lower-variability candidates are vvs-standard (Cronos), 0.04% APY, $987.9K TVL, https://www.defi.garden/?pool=c061e869-2bc9-5d2a-ace5-0bedd6e49d1a#src=seo_token; vvs-standard (Cronos), 1.69% APY, $2.28M TVL, https://www.defi.garden/?pool=91a5bc7d-da57-44b7-bf8f-059d3e8ee238#src=seo_token; vvs-standard (Cronos), 1.89% APY, $1.38M TVL, https://www.defi.garden/?pool=0285b5c7-66d2-4f51-89ec-b7e320bf609f#src=seo_token; vvs-standard (Cronos), 3.40% APY, $6.37M TVL, https://www.defi.garden/?pool=966396c0-97ed-4da1-8ae8-0c55516a9ab3#src=seo_token; vvs-standard (Cronos), 0.03% APY, $35.9M TVL, https://www.defi.garden/?pool=2fca7a84-651c-440a-beb3-eced492a7bea#src=seo_token; vvs-standard (Cronos), 0.01% APY, $1.03M TVL, https://www.defi.garden/?pool=869cf619-bf00-4fd9-93e0-77e29e06e412#src=seo_token; vvs-standard (Cronos), 0.21% APY, $2.34M TVL, https://www.defi.garden/?pool=e67c8f7e-4bf5-49a7-bd5f-e0459b1895b5#src=seo_token; vvs-standard (Cronos), 0.76% APY, $1.18M TVL, https://www.defi.garden/?pool=17f2bd86-86ab-4b1d-b4c5-ae373f3a5694#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WCRO's lower-variability candidates are vvs-standard (Cronos), 0.03% APY, $985.6K TVL, https://www.defi.garden/?pool=c061e869-2bc9-5d2a-ace5-0bedd6e49d1a#src=seo_token; vvs-standard (Cronos), 1.78% APY, $2.28M TVL, https://www.defi.garden/?pool=91a5bc7d-da57-44b7-bf8f-059d3e8ee238#src=seo_token; vvs-standard (Cronos), 1.91% APY, $1.38M TVL, https://www.defi.garden/?pool=0285b5c7-66d2-4f51-89ec-b7e320bf609f#src=seo_token; vvs-standard (Cronos), 3.53% APY, $6.37M TVL, https://www.defi.garden/?pool=966396c0-97ed-4da1-8ae8-0c55516a9ab3#src=seo_token; vvs-standard (Cronos), 0.04% APY, $35.89M TVL, https://www.defi.garden/?pool=2fca7a84-651c-440a-beb3-eced492a7bea#src=seo_token; vvs-standard (Cronos), 0.01% APY, $1.03M TVL, https://www.defi.garden/?pool=869cf619-bf00-4fd9-93e0-77e29e06e412#src=seo_token; vvs-standard (Cronos), 0.22% APY, $2.33M TVL, https://www.defi.garden/?pool=e67c8f7e-4bf5-49a7-bd5f-e0459b1895b5#src=seo_token; vvs-standard (Cronos), 0.75% APY, $1.18M TVL, https://www.defi.garden/?pool=17f2bd86-86ab-4b1d-b4c5-ae373f3a5694#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [vvs-standard →](https://www.defi.garden/?pool=c061e869-2bc9-5d2a-ace5-0bedd6e49d1a#src=seo_token) | Cronos | 0.04% | $987.9K |
-| 2 | [vvs-standard →](https://www.defi.garden/?pool=91a5bc7d-da57-44b7-bf8f-059d3e8ee238#src=seo_token) | Cronos | 1.69% | $2.28M |
-| 3 | [vvs-standard →](https://www.defi.garden/?pool=0285b5c7-66d2-4f51-89ec-b7e320bf609f#src=seo_token) | Cronos | 1.89% | $1.38M |
-| 4 | [vvs-standard →](https://www.defi.garden/?pool=966396c0-97ed-4da1-8ae8-0c55516a9ab3#src=seo_token) | Cronos | 3.40% | $6.37M |
-| 5 | [vvs-standard →](https://www.defi.garden/?pool=2fca7a84-651c-440a-beb3-eced492a7bea#src=seo_token) | Cronos | 0.03% | $35.9M |
+| 1 | [vvs-standard →](https://www.defi.garden/?pool=c061e869-2bc9-5d2a-ace5-0bedd6e49d1a#src=seo_token) | Cronos | 0.03% | $985.6K |
+| 2 | [vvs-standard →](https://www.defi.garden/?pool=91a5bc7d-da57-44b7-bf8f-059d3e8ee238#src=seo_token) | Cronos | 1.78% | $2.28M |
+| 3 | [vvs-standard →](https://www.defi.garden/?pool=0285b5c7-66d2-4f51-89ec-b7e320bf609f#src=seo_token) | Cronos | 1.91% | $1.38M |
+| 4 | [vvs-standard →](https://www.defi.garden/?pool=966396c0-97ed-4da1-8ae8-0c55516a9ab3#src=seo_token) | Cronos | 3.53% | $6.37M |
+| 5 | [vvs-standard →](https://www.defi.garden/?pool=2fca7a84-651c-440a-beb3-eced492a7bea#src=seo_token) | Cronos | 0.04% | $35.89M |
 | 6 | [vvs-standard →](https://www.defi.garden/?pool=869cf619-bf00-4fd9-93e0-77e29e06e412#src=seo_token) | Cronos | 0.01% | $1.03M |
-| 7 | [vvs-standard →](https://www.defi.garden/?pool=e67c8f7e-4bf5-49a7-bd5f-e0459b1895b5#src=seo_token) | Cronos | 0.21% | $2.34M |
-| 8 | [vvs-standard →](https://www.defi.garden/?pool=17f2bd86-86ab-4b1d-b4c5-ae373f3a5694#src=seo_token) | Cronos | 0.76% | $1.18M |
+| 7 | [vvs-standard →](https://www.defi.garden/?pool=e67c8f7e-4bf5-49a7-bd5f-e0459b1895b5#src=seo_token) | Cronos | 0.22% | $2.33M |
+| 8 | [vvs-standard →](https://www.defi.garden/?pool=17f2bd86-86ab-4b1d-b4c5-ae373f3a5694#src=seo_token) | Cronos | 0.75% | $1.18M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WCRO shows up in 8 pools here, with rates from 0.01% to 3.40% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+WCRO shows up in 8 pools here, with rates from 0.01% to 3.53% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 0.65% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -45,14 +45,14 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| vvs-standard | 0.03% | 0.11% | Base rate |
-| vvs-standard | 3.40% | 5.51% | Base rate |
-| vvs-standard | 0.21% | 0.56% | Base rate |
-| vvs-standard | 1.69% | 3.37% | Base rate |
-| vvs-standard | 1.89% | 3.94% | Base rate |
-| vvs-standard | 0.76% | 0.73% | Base rate |
+| vvs-standard | 0.04% | 0.11% | Base rate |
+| vvs-standard | 3.53% | 5.51% | Base rate |
+| vvs-standard | 0.22% | 0.56% | Base rate |
+| vvs-standard | 1.78% | 3.36% | Base rate |
+| vvs-standard | 1.91% | 3.94% | Base rate |
+| vvs-standard | 0.75% | 0.73% | Base rate |
 | vvs-standard | 0.01% | 0.46% | Base rate |
-| vvs-standard | 0.04% | 0.14% | Base rate |
+| vvs-standard | 0.03% | 0.14% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -60,11 +60,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WCRO yield today?
 
-3.40% APY on vvs-standard (Cronos), based on live DefiLlama data.
+3.53% APY on vvs-standard (Cronos), based on live DefiLlama data.
 
 ### How many WCRO pools clear the TVL floor?
 
-35 live pools clear this page's $100K TVL floor, $76.42M in total.
+35 live pools clear this page's $100K TVL floor, $76.33M in total.
 
 ### Are these rates safe?
 
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WCRO pools have the most stable APY history?
 
-Based on APY history only, WCRO's lower-variability candidates are vvs-standard (Cronos), 0.04% APY, $987.9K TVL, https://www.defi.garden/?pool=c061e869-2bc9-5d2a-ace5-0bedd6e49d1a#src=seo_token; vvs-standard (Cronos), 1.69% APY, $2.28M TVL, https://www.defi.garden/?pool=91a5bc7d-da57-44b7-bf8f-059d3e8ee238#src=seo_token; vvs-standard (Cronos), 1.89% APY, $1.38M TVL, https://www.defi.garden/?pool=0285b5c7-66d2-4f51-89ec-b7e320bf609f#src=seo_token; vvs-standard (Cronos), 3.40% APY, $6.37M TVL, https://www.defi.garden/?pool=966396c0-97ed-4da1-8ae8-0c55516a9ab3#src=seo_token; vvs-standard (Cronos), 0.03% APY, $35.9M TVL, https://www.defi.garden/?pool=2fca7a84-651c-440a-beb3-eced492a7bea#src=seo_token; vvs-standard (Cronos), 0.01% APY, $1.03M TVL, https://www.defi.garden/?pool=869cf619-bf00-4fd9-93e0-77e29e06e412#src=seo_token; vvs-standard (Cronos), 0.21% APY, $2.34M TVL, https://www.defi.garden/?pool=e67c8f7e-4bf5-49a7-bd5f-e0459b1895b5#src=seo_token; vvs-standard (Cronos), 0.76% APY, $1.18M TVL, https://www.defi.garden/?pool=17f2bd86-86ab-4b1d-b4c5-ae373f3a5694#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WCRO's lower-variability candidates are vvs-standard (Cronos), 0.03% APY, $985.6K TVL, https://www.defi.garden/?pool=c061e869-2bc9-5d2a-ace5-0bedd6e49d1a#src=seo_token; vvs-standard (Cronos), 1.78% APY, $2.28M TVL, https://www.defi.garden/?pool=91a5bc7d-da57-44b7-bf8f-059d3e8ee238#src=seo_token; vvs-standard (Cronos), 1.91% APY, $1.38M TVL, https://www.defi.garden/?pool=0285b5c7-66d2-4f51-89ec-b7e320bf609f#src=seo_token; vvs-standard (Cronos), 3.53% APY, $6.37M TVL, https://www.defi.garden/?pool=966396c0-97ed-4da1-8ae8-0c55516a9ab3#src=seo_token; vvs-standard (Cronos), 0.04% APY, $35.89M TVL, https://www.defi.garden/?pool=2fca7a84-651c-440a-beb3-eced492a7bea#src=seo_token; vvs-standard (Cronos), 0.01% APY, $1.03M TVL, https://www.defi.garden/?pool=869cf619-bf00-4fd9-93e0-77e29e06e412#src=seo_token; vvs-standard (Cronos), 0.22% APY, $2.33M TVL, https://www.defi.garden/?pool=e67c8f7e-4bf5-49a7-bd5f-e0459b1895b5#src=seo_token; vvs-standard (Cronos), 0.75% APY, $1.18M TVL, https://www.defi.garden/?pool=17f2bd86-86ab-4b1d-b4c5-ae373f3a5694#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -80,8 +80,8 @@ Based on APY history only, WCRO's lower-variability candidates are vvs-standard 
 - [VVS](https://www.defi.garden/tokens/vvs)
 - [CDCETH](https://www.defi.garden/tokens/cdceth)
 - [XRP](https://www.defi.garden/tokens/xrp)
+- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [LION](https://www.defi.garden/tokens/lion)
-- [SHIB](https://www.defi.garden/tokens/shib)
 
 ## Available on
 

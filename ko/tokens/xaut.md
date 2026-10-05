@@ -2,33 +2,33 @@
 
 *DefiLlama 데이터 생성 시점 검증: October 5, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 XAUT의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 8.28%이며, $100K TVL 기준을 넘는 35개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 XAUT의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 6.55%이며, $100K TVL 기준을 넘는 35개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [lista-lending →](https://www.defi.garden/?pool=b89d44a1-052a-4ec8-8dba-7802340fee27#src=seo_token) | BSC | 2.40% | $6.18M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=0f7a6ecb-f4d9-43ea-8df9-7076f99f4ad0#src=seo_token) | Ethereum | 0.85% | $5.82M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=a8782f8d-c32b-4497-a74f-1297d807a96e#src=seo_token) | Ethereum | 8.28% | $5.51M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=be2d3040-1888-4b9a-936c-becabab6009f#src=seo_token) | Ethereum | 0.05% | $3.2M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=eb252614-7a8e-454f-8346-60ebf50dbe62#src=seo_token) | Ethereum | 2.08% | $2.68M |
-| [fluid-dex →](https://www.defi.garden/?pool=5cb413e1-6478-4b0c-9bd9-c817b8eb035a#src=seo_token) | Ethereum | 0.30% | $2.1M |
+| [lista-lending →](https://www.defi.garden/?pool=b89d44a1-052a-4ec8-8dba-7802340fee27#src=seo_token) | BSC | 2.41% | $6.18M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0f7a6ecb-f4d9-43ea-8df9-7076f99f4ad0#src=seo_token) | Ethereum | 1.02% | $5.81M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a8782f8d-c32b-4497-a74f-1297d807a96e#src=seo_token) | Ethereum | 9.36% | $5.5M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=be2d3040-1888-4b9a-936c-becabab6009f#src=seo_token) | Ethereum | 0.05% | $3.19M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=eb252614-7a8e-454f-8346-60ebf50dbe62#src=seo_token) | Ethereum | 2.52% | $2.68M |
+| [fluid-dex →](https://www.defi.garden/?pool=5cb413e1-6478-4b0c-9bd9-c817b8eb035a#src=seo_token) | Ethereum | 0.29% | $2.09M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=ca452014-2321-5b3d-8d6f-1af2d0475674#src=seo_token) | Ethereum | 33.41% | $2.02M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=babdbf78-8daf-4e01-8904-d52e20401c23#src=seo_token) | Ethereum | 6.08% | $1.28M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=babdbf78-8daf-4e01-8904-d52e20401c23#src=seo_token) | Ethereum | 6.55% | $1.27M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 XAUT의 변동성 낮은 후보는 Ethereum의 uniswap-v3, APY 0.05%, TVL $3.2M, https://www.defi.garden/?pool=be2d3040-1888-4b9a-936c-becabab6009f#src=seo_token; Ethereum의 uniswap-v3, APY 0.85%, TVL $5.82M, https://www.defi.garden/?pool=0f7a6ecb-f4d9-43ea-8df9-7076f99f4ad0#src=seo_token; Ethereum의 fluid-dex, APY 0.30%, TVL $2.1M, https://www.defi.garden/?pool=5cb413e1-6478-4b0c-9bd9-c817b8eb035a#src=seo_token; BSC의 lista-lending, APY 2.40%, TVL $6.18M, https://www.defi.garden/?pool=b89d44a1-052a-4ec8-8dba-7802340fee27#src=seo_token; Ethereum의 uniswap-v3, APY 6.08%, TVL $1.28M, https://www.defi.garden/?pool=babdbf78-8daf-4e01-8904-d52e20401c23#src=seo_token; Ethereum의 uniswap-v3, APY 8.28%, TVL $5.51M, https://www.defi.garden/?pool=a8782f8d-c32b-4497-a74f-1297d807a96e#src=seo_token; Ethereum의 uniswap-v4, APY 2.08%, TVL $2.68M, https://www.defi.garden/?pool=eb252614-7a8e-454f-8346-60ebf50dbe62#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 XAUT의 변동성 낮은 후보는 Ethereum의 uniswap-v3, APY 0.05%, TVL $3.19M, https://www.defi.garden/?pool=be2d3040-1888-4b9a-936c-becabab6009f#src=seo_token; Ethereum의 uniswap-v3, APY 1.02%, TVL $5.81M, https://www.defi.garden/?pool=0f7a6ecb-f4d9-43ea-8df9-7076f99f4ad0#src=seo_token; Ethereum의 fluid-dex, APY 0.29%, TVL $2.09M, https://www.defi.garden/?pool=5cb413e1-6478-4b0c-9bd9-c817b8eb035a#src=seo_token; BSC의 lista-lending, APY 2.41%, TVL $6.18M, https://www.defi.garden/?pool=b89d44a1-052a-4ec8-8dba-7802340fee27#src=seo_token; Ethereum의 uniswap-v3, APY 6.55%, TVL $1.27M, https://www.defi.garden/?pool=babdbf78-8daf-4e01-8904-d52e20401c23#src=seo_token; Ethereum의 uniswap-v3, APY 9.36%, TVL $5.5M, https://www.defi.garden/?pool=a8782f8d-c32b-4497-a74f-1297d807a96e#src=seo_token; Ethereum의 uniswap-v4, APY 2.52%, TVL $2.68M, https://www.defi.garden/?pool=eb252614-7a8e-454f-8346-60ebf50dbe62#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=be2d3040-1888-4b9a-936c-becabab6009f#src=seo_token) | Ethereum | 0.05% | $3.2M |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=0f7a6ecb-f4d9-43ea-8df9-7076f99f4ad0#src=seo_token) | Ethereum | 0.85% | $5.82M |
-| 3 | [fluid-dex →](https://www.defi.garden/?pool=5cb413e1-6478-4b0c-9bd9-c817b8eb035a#src=seo_token) | Ethereum | 0.30% | $2.1M |
-| 4 | [lista-lending →](https://www.defi.garden/?pool=b89d44a1-052a-4ec8-8dba-7802340fee27#src=seo_token) | BSC | 2.40% | $6.18M |
-| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=babdbf78-8daf-4e01-8904-d52e20401c23#src=seo_token) | Ethereum | 6.08% | $1.28M |
-| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=a8782f8d-c32b-4497-a74f-1297d807a96e#src=seo_token) | Ethereum | 8.28% | $5.51M |
-| 7 | [uniswap-v4 →](https://www.defi.garden/?pool=eb252614-7a8e-454f-8346-60ebf50dbe62#src=seo_token) | Ethereum | 2.08% | $2.68M |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=be2d3040-1888-4b9a-936c-becabab6009f#src=seo_token) | Ethereum | 0.05% | $3.19M |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=0f7a6ecb-f4d9-43ea-8df9-7076f99f4ad0#src=seo_token) | Ethereum | 1.02% | $5.81M |
+| 3 | [fluid-dex →](https://www.defi.garden/?pool=5cb413e1-6478-4b0c-9bd9-c817b8eb035a#src=seo_token) | Ethereum | 0.29% | $2.09M |
+| 4 | [lista-lending →](https://www.defi.garden/?pool=b89d44a1-052a-4ec8-8dba-7802340fee27#src=seo_token) | BSC | 2.41% | $6.18M |
+| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=babdbf78-8daf-4e01-8904-d52e20401c23#src=seo_token) | Ethereum | 6.55% | $1.27M |
+| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=a8782f8d-c32b-4497-a74f-1297d807a96e#src=seo_token) | Ethereum | 9.36% | $5.5M |
+| 7 | [uniswap-v4 →](https://www.defi.garden/?pool=eb252614-7a8e-454f-8346-60ebf50dbe62#src=seo_token) | Ethereum | 2.52% | $2.68M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -44,14 +44,14 @@ XAUT 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.05%부터 33.41%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| lista-lending | 2.40% | 1.35% | 기본 금리 |
-| uniswap-v3 | 0.85% | 1.26% | 기본 금리 |
-| uniswap-v3 | 8.28% | 5.82% | 기본 금리 |
+| lista-lending | 2.41% | 1.35% | 기본 금리 |
+| uniswap-v3 | 1.02% | 1.26% | 기본 금리 |
+| uniswap-v3 | 9.36% | 5.83% | 기본 금리 |
 | uniswap-v3 | 0.05% | 0.45% | 기본 금리 |
-| uniswap-v4 | 2.08% | 11.40% | 기본 금리 |
-| fluid-dex | 0.30% | 0.55% | 기본 금리 |
+| uniswap-v4 | 2.52% | 11.40% | 기본 금리 |
+| fluid-dex | 0.29% | 0.56% | 기본 금리 |
 | uniswap-v4 | 33.41% | 8.69% | 기본 금리 |
-| uniswap-v3 | 6.08% | 6.19% | 기본 금리 |
+| uniswap-v3 | 6.55% | 6.20% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -59,11 +59,11 @@ XAUT 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.05%부터 33.41%�
 
 ### 오늘 XAUT의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 8.28%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 6.55%예요.
 
 ### XAUT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 35개이며, 합산 TVL은 $139.42M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 35개이며, 합산 TVL은 $138.23M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -71,7 +71,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 8.28%예�
 
 ### XAUT 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 XAUT의 변동성 낮은 후보는 Ethereum의 uniswap-v3, APY 0.05%, TVL $3.2M, https://www.defi.garden/?pool=be2d3040-1888-4b9a-936c-becabab6009f#src=seo_token; Ethereum의 uniswap-v3, APY 0.85%, TVL $5.82M, https://www.defi.garden/?pool=0f7a6ecb-f4d9-43ea-8df9-7076f99f4ad0#src=seo_token; Ethereum의 fluid-dex, APY 0.30%, TVL $2.1M, https://www.defi.garden/?pool=5cb413e1-6478-4b0c-9bd9-c817b8eb035a#src=seo_token; BSC의 lista-lending, APY 2.40%, TVL $6.18M, https://www.defi.garden/?pool=b89d44a1-052a-4ec8-8dba-7802340fee27#src=seo_token; Ethereum의 uniswap-v3, APY 6.08%, TVL $1.28M, https://www.defi.garden/?pool=babdbf78-8daf-4e01-8904-d52e20401c23#src=seo_token; Ethereum의 uniswap-v3, APY 8.28%, TVL $5.51M, https://www.defi.garden/?pool=a8782f8d-c32b-4497-a74f-1297d807a96e#src=seo_token; Ethereum의 uniswap-v4, APY 2.08%, TVL $2.68M, https://www.defi.garden/?pool=eb252614-7a8e-454f-8346-60ebf50dbe62#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 XAUT의 변동성 낮은 후보는 Ethereum의 uniswap-v3, APY 0.05%, TVL $3.19M, https://www.defi.garden/?pool=be2d3040-1888-4b9a-936c-becabab6009f#src=seo_token; Ethereum의 uniswap-v3, APY 1.02%, TVL $5.81M, https://www.defi.garden/?pool=0f7a6ecb-f4d9-43ea-8df9-7076f99f4ad0#src=seo_token; Ethereum의 fluid-dex, APY 0.29%, TVL $2.09M, https://www.defi.garden/?pool=5cb413e1-6478-4b0c-9bd9-c817b8eb035a#src=seo_token; BSC의 lista-lending, APY 2.41%, TVL $6.18M, https://www.defi.garden/?pool=b89d44a1-052a-4ec8-8dba-7802340fee27#src=seo_token; Ethereum의 uniswap-v3, APY 6.55%, TVL $1.27M, https://www.defi.garden/?pool=babdbf78-8daf-4e01-8904-d52e20401c23#src=seo_token; Ethereum의 uniswap-v3, APY 9.36%, TVL $5.5M, https://www.defi.garden/?pool=a8782f8d-c32b-4497-a74f-1297d807a96e#src=seo_token; Ethereum의 uniswap-v4, APY 2.52%, TVL $2.68M, https://www.defi.garden/?pool=eb252614-7a8e-454f-8346-60ebf50dbe62#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

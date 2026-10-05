@@ -6,7 +6,7 @@ The highest honest QF yield right now is 1.30% on uniswap-v2 (Ethereum), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=a1c49c09-da6d-48be-b946-1b0ba8cb042c#src=seo_token) | Ethereum | 1.30% | $164.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=a1c49c09-da6d-48be-b946-1b0ba8cb042c#src=seo_token) | Ethereum | 1.30% | $164.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many QF pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $164.2K in total.
+1 live pool clear this page's $100K TVL floor, $164.1K in total.
 
 ### Are these rates safe?
 

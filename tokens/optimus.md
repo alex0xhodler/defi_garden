@@ -6,7 +6,7 @@ The highest honest OPTIMUS yield right now is 0.86% on uniswap-v2 (Ethereum), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=72ad7236-af5c-4390-b179-181d64999f08#src=seo_token) | Ethereum | 0.86% | $129.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=72ad7236-af5c-4390-b179-181d64999f08#src=seo_token) | Ethereum | 0.86% | $129.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many OPTIMUS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $129.2K in total.
+1 live pool clear this page's $100K TVL floor, $129.1K in total.
 
 ### Are these rates safe?
 

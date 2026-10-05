@@ -6,26 +6,26 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=4c1b8c3d-3b3d-4dac-b334-49c405d9bf8f#src=seo_token) | Ethereum | 5.97% | $10.08M |
+| [morpho-blue →](https://www.defi.garden/?pool=4c1b8c3d-3b3d-4dac-b334-49c405d9bf8f#src=seo_token) | Ethereum | 5.96% | $10.07M |
 | [morpho-blue →](https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39#src=seo_token) | Ethereum | 20.16% | $7.14M |
-| [morpho-blue →](https://www.defi.garden/?pool=9552e250-19fd-595b-85bd-f76ae0e1b2b6#src=seo_token) | Base | 6.65% | $4.22M |
-| [phase-stake →](https://www.defi.garden/?pool=85311903-9421-5247-9ee3-83bceeb90aff#src=seo_token) | Solana | 3.36% | $3M |
+| [morpho-blue →](https://www.defi.garden/?pool=9552e250-19fd-595b-85bd-f76ae0e1b2b6#src=seo_token) | Base | 6.62% | $4.18M |
+| [phase-stake →](https://www.defi.garden/?pool=85311903-9421-5247-9ee3-83bceeb90aff#src=seo_token) | Solana | 3.50% | $3M |
 | [morpho-blue →](https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558#src=seo_token) | Ethereum | 2.66% | $2.5M |
-| [morpho-blue →](https://www.defi.garden/?pool=ea36b2a8-fde0-5579-a9ed-73e8fe3a7aa8#src=seo_token) | Ethereum | 6.65% | $943.8K |
-| [morpho-blue →](https://www.defi.garden/?pool=dcd12f85-bb70-41a5-b862-29a7e25fc055#src=seo_token) | Ethereum | 2.36% | $271.4K |
+| [morpho-blue →](https://www.defi.garden/?pool=ea36b2a8-fde0-5579-a9ed-73e8fe3a7aa8#src=seo_token) | Ethereum | 6.60% | $943.9K |
+| [morpho-blue →](https://www.defi.garden/?pool=dcd12f85-bb70-41a5-b862-29a7e25fc055#src=seo_token) | Ethereum | 2.36% | $271.7K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 YIELD의 변동성 낮은 후보는 Solana의 phase-stake, APY 3.36%, TVL $3M, https://www.defi.garden/?pool=85311903-9421-5247-9ee3-83bceeb90aff#src=seo_token; Ethereum의 morpho-blue, APY 2.36%, TVL $271.4K, https://www.defi.garden/?pool=dcd12f85-bb70-41a5-b862-29a7e25fc055#src=seo_token; Ethereum의 morpho-blue, APY 6.65%, TVL $943.8K, https://www.defi.garden/?pool=ea36b2a8-fde0-5579-a9ed-73e8fe3a7aa8#src=seo_token; Ethereum의 morpho-blue, APY 2.66%, TVL $2.5M, https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558#src=seo_token; Ethereum의 morpho-blue, APY 5.97%, TVL $10.08M, https://www.defi.garden/?pool=4c1b8c3d-3b3d-4dac-b334-49c405d9bf8f#src=seo_token; Ethereum의 morpho-blue, APY 20.16%, TVL $7.14M, https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 YIELD의 변동성 낮은 후보는 Solana의 phase-stake, APY 3.50%, TVL $3M, https://www.defi.garden/?pool=85311903-9421-5247-9ee3-83bceeb90aff#src=seo_token; Ethereum의 morpho-blue, APY 2.36%, TVL $271.7K, https://www.defi.garden/?pool=dcd12f85-bb70-41a5-b862-29a7e25fc055#src=seo_token; Ethereum의 morpho-blue, APY 6.60%, TVL $943.9K, https://www.defi.garden/?pool=ea36b2a8-fde0-5579-a9ed-73e8fe3a7aa8#src=seo_token; Ethereum의 morpho-blue, APY 2.66%, TVL $2.5M, https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558#src=seo_token; Ethereum의 morpho-blue, APY 5.96%, TVL $10.07M, https://www.defi.garden/?pool=4c1b8c3d-3b3d-4dac-b334-49c405d9bf8f#src=seo_token; Ethereum의 morpho-blue, APY 20.16%, TVL $7.14M, https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [phase-stake →](https://www.defi.garden/?pool=85311903-9421-5247-9ee3-83bceeb90aff#src=seo_token) | Solana | 3.36% | $3M |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=dcd12f85-bb70-41a5-b862-29a7e25fc055#src=seo_token) | Ethereum | 2.36% | $271.4K |
-| 3 | [morpho-blue →](https://www.defi.garden/?pool=ea36b2a8-fde0-5579-a9ed-73e8fe3a7aa8#src=seo_token) | Ethereum | 6.65% | $943.8K |
+| 1 | [phase-stake →](https://www.defi.garden/?pool=85311903-9421-5247-9ee3-83bceeb90aff#src=seo_token) | Solana | 3.50% | $3M |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=dcd12f85-bb70-41a5-b862-29a7e25fc055#src=seo_token) | Ethereum | 2.36% | $271.7K |
+| 3 | [morpho-blue →](https://www.defi.garden/?pool=ea36b2a8-fde0-5579-a9ed-73e8fe3a7aa8#src=seo_token) | Ethereum | 6.60% | $943.9K |
 | 4 | [morpho-blue →](https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558#src=seo_token) | Ethereum | 2.66% | $2.5M |
-| 5 | [morpho-blue →](https://www.defi.garden/?pool=4c1b8c3d-3b3d-4dac-b334-49c405d9bf8f#src=seo_token) | Ethereum | 5.97% | $10.08M |
+| 5 | [morpho-blue →](https://www.defi.garden/?pool=4c1b8c3d-3b3d-4dac-b334-49c405d9bf8f#src=seo_token) | Ethereum | 5.96% | $10.07M |
 | 6 | [morpho-blue →](https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39#src=seo_token) | Ethereum | 20.16% | $7.14M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -42,12 +42,12 @@ YIELD 풀은 여기 7개가 있고, 3개 체인에서 APY가 2.36%부터 20.16%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| morpho-blue | 5.97% | 6.90% | 기본 금리 |
+| morpho-blue | 5.96% | 6.90% | 기본 금리 |
 | morpho-blue | 20.16% | 23.43% | 인센티브 96.69% |
-| morpho-blue | 6.65% | 7.30% | 인센티브 9.83% |
-| phase-stake | 3.36% | 3.81% | 기본 금리 |
+| morpho-blue | 6.62% | 7.30% | 인센티브 14.09% |
+| phase-stake | 3.50% | 3.81% | 기본 금리 |
 | morpho-blue | 2.66% | 3.07% | 기본 금리 |
-| morpho-blue | 6.65% | 7.16% | 인센티브 4.85% |
+| morpho-blue | 6.60% | 7.16% | 인센티브 4.90% |
 | morpho-blue | 2.36% | 2.74% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -60,7 +60,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 20.16%�
 
 ### YIELD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $29.44M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $29.38M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -68,7 +68,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 20.16%�
 
 ### YIELD 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 YIELD의 변동성 낮은 후보는 Solana의 phase-stake, APY 3.36%, TVL $3M, https://www.defi.garden/?pool=85311903-9421-5247-9ee3-83bceeb90aff#src=seo_token; Ethereum의 morpho-blue, APY 2.36%, TVL $271.4K, https://www.defi.garden/?pool=dcd12f85-bb70-41a5-b862-29a7e25fc055#src=seo_token; Ethereum의 morpho-blue, APY 6.65%, TVL $943.8K, https://www.defi.garden/?pool=ea36b2a8-fde0-5579-a9ed-73e8fe3a7aa8#src=seo_token; Ethereum의 morpho-blue, APY 2.66%, TVL $2.5M, https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558#src=seo_token; Ethereum의 morpho-blue, APY 5.97%, TVL $10.08M, https://www.defi.garden/?pool=4c1b8c3d-3b3d-4dac-b334-49c405d9bf8f#src=seo_token; Ethereum의 morpho-blue, APY 20.16%, TVL $7.14M, https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 YIELD의 변동성 낮은 후보는 Solana의 phase-stake, APY 3.50%, TVL $3M, https://www.defi.garden/?pool=85311903-9421-5247-9ee3-83bceeb90aff#src=seo_token; Ethereum의 morpho-blue, APY 2.36%, TVL $271.7K, https://www.defi.garden/?pool=dcd12f85-bb70-41a5-b862-29a7e25fc055#src=seo_token; Ethereum의 morpho-blue, APY 6.60%, TVL $943.9K, https://www.defi.garden/?pool=ea36b2a8-fde0-5579-a9ed-73e8fe3a7aa8#src=seo_token; Ethereum의 morpho-blue, APY 2.66%, TVL $2.5M, https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558#src=seo_token; Ethereum의 morpho-blue, APY 5.96%, TVL $10.07M, https://www.defi.garden/?pool=4c1b8c3d-3b3d-4dac-b334-49c405d9bf8f#src=seo_token; Ethereum의 morpho-blue, APY 20.16%, TVL $7.14M, https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

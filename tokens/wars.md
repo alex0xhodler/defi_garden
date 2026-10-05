@@ -8,7 +8,7 @@ The highest honest WARS yield right now is 20.16% on morpho-blue (Ethereum), amo
 |---|---|---|---|
 | [morpho-blue →](https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39#src=seo_token) | Ethereum | 20.16% | $7.14M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=cf723543-a6a0-5ebd-82ec-57b0b390f858#src=seo_token) | Base | 0.01% | $235K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=dbb75486-4a6d-5cb2-aff8-bb463a393270#src=seo_token) | Celo | 0.04% | $108.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=dbb75486-4a6d-5cb2-aff8-bb463a393270#src=seo_token) | Celo | 0.09% | $108.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
@@ -36,7 +36,7 @@ WARS shows up in 3 pools here, with rates from 0.01% to 20.16% APY across 3 chai
 |---|---|---|---|
 | morpho-blue | 20.16% | 23.43% | 96.69% incentives |
 | uniswap-v4 | 0.01% | 0.28% | Base rate |
-| uniswap-v3 | 0.04% | 0.20% | Base rate |
+| uniswap-v3 | 0.09% | 0.20% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

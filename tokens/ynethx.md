@@ -7,18 +7,18 @@ The highest honest YNETHX yield right now is 1.79% on stake-dao-yield (Ethereum)
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=08d9e568-98b5-4957-bad6-e69ed4cf0d76#src=seo_token) | Ethereum | 1.70% | $798.2K |
-| [convex-finance →](https://www.defi.garden/?pool=1329e9b3-986c-4485-9bed-9b744e8a05ef#src=seo_token) | Ethereum | 1.70% | $565.9K |
+| [convex-finance →](https://www.defi.garden/?pool=1329e9b3-986c-4485-9bed-9b744e8a05ef#src=seo_token) | Ethereum | 1.70% | $565.8K |
 | [stake-dao-yield →](https://www.defi.garden/?pool=f44855a6-8872-4f2c-946b-1ca35b1cac31#src=seo_token) | Ethereum | 1.79% | $116.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, YNETHX's lower-variability candidates are stake-dao-yield (Ethereum), 1.79% APY, $116.8K TVL, https://www.defi.garden/?pool=f44855a6-8872-4f2c-946b-1ca35b1cac31#src=seo_token; convex-finance (Ethereum), 1.70% APY, $565.9K TVL, https://www.defi.garden/?pool=1329e9b3-986c-4485-9bed-9b744e8a05ef#src=seo_token; curve-dex (Ethereum), 1.70% APY, $798.2K TVL, https://www.defi.garden/?pool=08d9e568-98b5-4957-bad6-e69ed4cf0d76#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, YNETHX's lower-variability candidates are stake-dao-yield (Ethereum), 1.79% APY, $116.8K TVL, https://www.defi.garden/?pool=f44855a6-8872-4f2c-946b-1ca35b1cac31#src=seo_token; convex-finance (Ethereum), 1.70% APY, $565.8K TVL, https://www.defi.garden/?pool=1329e9b3-986c-4485-9bed-9b744e8a05ef#src=seo_token; curve-dex (Ethereum), 1.70% APY, $798.2K TVL, https://www.defi.garden/?pool=08d9e568-98b5-4957-bad6-e69ed4cf0d76#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [stake-dao-yield →](https://www.defi.garden/?pool=f44855a6-8872-4f2c-946b-1ca35b1cac31#src=seo_token) | Ethereum | 1.79% | $116.8K |
-| 2 | [convex-finance →](https://www.defi.garden/?pool=1329e9b3-986c-4485-9bed-9b744e8a05ef#src=seo_token) | Ethereum | 1.70% | $565.9K |
+| 2 | [convex-finance →](https://www.defi.garden/?pool=1329e9b3-986c-4485-9bed-9b744e8a05ef#src=seo_token) | Ethereum | 1.70% | $565.8K |
 | 3 | [curve-dex →](https://www.defi.garden/?pool=08d9e568-98b5-4957-bad6-e69ed4cf0d76#src=seo_token) | Ethereum | 1.70% | $798.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -47,7 +47,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many YNETHX pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $12.82M in total.
+4 live pools clear this page's $100K TVL floor, $12.79M in total.
 
 ### Are these rates safe?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which YNETHX pools have the most stable APY history?
 
-Based on APY history only, YNETHX's lower-variability candidates are stake-dao-yield (Ethereum), 1.79% APY, $116.8K TVL, https://www.defi.garden/?pool=f44855a6-8872-4f2c-946b-1ca35b1cac31#src=seo_token; convex-finance (Ethereum), 1.70% APY, $565.9K TVL, https://www.defi.garden/?pool=1329e9b3-986c-4485-9bed-9b744e8a05ef#src=seo_token; curve-dex (Ethereum), 1.70% APY, $798.2K TVL, https://www.defi.garden/?pool=08d9e568-98b5-4957-bad6-e69ed4cf0d76#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, YNETHX's lower-variability candidates are stake-dao-yield (Ethereum), 1.79% APY, $116.8K TVL, https://www.defi.garden/?pool=f44855a6-8872-4f2c-946b-1ca35b1cac31#src=seo_token; convex-finance (Ethereum), 1.70% APY, $565.8K TVL, https://www.defi.garden/?pool=1329e9b3-986c-4485-9bed-9b744e8a05ef#src=seo_token; curve-dex (Ethereum), 1.70% APY, $798.2K TVL, https://www.defi.garden/?pool=08d9e568-98b5-4957-bad6-e69ed4cf0d76#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

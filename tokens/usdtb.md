@@ -9,17 +9,17 @@ The highest honest USDTB yield right now is 3.40% on aave-v3 (Ethereum), among 4
 | [curve-dex →](https://www.defi.garden/?pool=fa91389d-ab0f-43e5-8921-9c9a462d97d2#src=seo_token) | Ethereum | 0.06% | $20.07M |
 | [aave-v3 →](https://www.defi.garden/?pool=baee0253-eb6e-4a08-a579-a2acd4f034b2#src=seo_token) | Ethereum | 3.40% | $2.58M |
 | [fluid-lending →](https://www.defi.garden/?pool=de1e601d-d589-4a66-91b7-d4ac8bdcecac#src=seo_token) | Ethereum | 2.80% | $1.92M |
-| [fluid-dex →](https://www.defi.garden/?pool=0ab47792-0cc7-41e8-9438-8872c3c37fef#src=seo_token) | Ethereum | 0.06% | $164.2K |
+| [fluid-dex →](https://www.defi.garden/?pool=0ab47792-0cc7-41e8-9438-8872c3c37fef#src=seo_token) | Ethereum | 0.06% | $164.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, USDTB's lower-variability candidates are curve-dex (Ethereum), 0.06% APY, $20.07M TVL, https://www.defi.garden/?pool=fa91389d-ab0f-43e5-8921-9c9a462d97d2#src=seo_token; fluid-dex (Ethereum), 0.06% APY, $164.2K TVL, https://www.defi.garden/?pool=0ab47792-0cc7-41e8-9438-8872c3c37fef#src=seo_token; aave-v3 (Ethereum), 3.40% APY, $2.58M TVL, https://www.defi.garden/?pool=baee0253-eb6e-4a08-a579-a2acd4f034b2#src=seo_token; fluid-lending (Ethereum), 2.80% APY, $1.92M TVL, https://www.defi.garden/?pool=de1e601d-d589-4a66-91b7-d4ac8bdcecac#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDTB's lower-variability candidates are curve-dex (Ethereum), 0.06% APY, $20.07M TVL, https://www.defi.garden/?pool=fa91389d-ab0f-43e5-8921-9c9a462d97d2#src=seo_token; fluid-dex (Ethereum), 0.06% APY, $164.3K TVL, https://www.defi.garden/?pool=0ab47792-0cc7-41e8-9438-8872c3c37fef#src=seo_token; aave-v3 (Ethereum), 3.40% APY, $2.58M TVL, https://www.defi.garden/?pool=baee0253-eb6e-4a08-a579-a2acd4f034b2#src=seo_token; fluid-lending (Ethereum), 2.80% APY, $1.92M TVL, https://www.defi.garden/?pool=de1e601d-d589-4a66-91b7-d4ac8bdcecac#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [curve-dex →](https://www.defi.garden/?pool=fa91389d-ab0f-43e5-8921-9c9a462d97d2#src=seo_token) | Ethereum | 0.06% | $20.07M |
-| 2 | [fluid-dex →](https://www.defi.garden/?pool=0ab47792-0cc7-41e8-9438-8872c3c37fef#src=seo_token) | Ethereum | 0.06% | $164.2K |
+| 2 | [fluid-dex →](https://www.defi.garden/?pool=0ab47792-0cc7-41e8-9438-8872c3c37fef#src=seo_token) | Ethereum | 0.06% | $164.3K |
 | 3 | [aave-v3 →](https://www.defi.garden/?pool=baee0253-eb6e-4a08-a579-a2acd4f034b2#src=seo_token) | Ethereum | 3.40% | $2.58M |
 | 4 | [fluid-lending →](https://www.defi.garden/?pool=de1e601d-d589-4a66-91b7-d4ac8bdcecac#src=seo_token) | Ethereum | 2.80% | $1.92M |
 
@@ -58,7 +58,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USDTB pools have the most stable APY history?
 
-Based on APY history only, USDTB's lower-variability candidates are curve-dex (Ethereum), 0.06% APY, $20.07M TVL, https://www.defi.garden/?pool=fa91389d-ab0f-43e5-8921-9c9a462d97d2#src=seo_token; fluid-dex (Ethereum), 0.06% APY, $164.2K TVL, https://www.defi.garden/?pool=0ab47792-0cc7-41e8-9438-8872c3c37fef#src=seo_token; aave-v3 (Ethereum), 3.40% APY, $2.58M TVL, https://www.defi.garden/?pool=baee0253-eb6e-4a08-a579-a2acd4f034b2#src=seo_token; fluid-lending (Ethereum), 2.80% APY, $1.92M TVL, https://www.defi.garden/?pool=de1e601d-d589-4a66-91b7-d4ac8bdcecac#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDTB's lower-variability candidates are curve-dex (Ethereum), 0.06% APY, $20.07M TVL, https://www.defi.garden/?pool=fa91389d-ab0f-43e5-8921-9c9a462d97d2#src=seo_token; fluid-dex (Ethereum), 0.06% APY, $164.3K TVL, https://www.defi.garden/?pool=0ab47792-0cc7-41e8-9438-8872c3c37fef#src=seo_token; aave-v3 (Ethereum), 3.40% APY, $2.58M TVL, https://www.defi.garden/?pool=baee0253-eb6e-4a08-a579-a2acd4f034b2#src=seo_token; fluid-lending (Ethereum), 2.80% APY, $1.92M TVL, https://www.defi.garden/?pool=de1e601d-d589-4a66-91b7-d4ac8bdcecac#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

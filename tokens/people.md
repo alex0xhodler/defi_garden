@@ -6,7 +6,7 @@ The highest honest PEOPLE yield right now is 5.40% on uniswap-v3 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=44f19b04-894a-48f1-bef6-6a803990dca1#src=seo_token) | Ethereum | 5.40% | $152.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=44f19b04-894a-48f1-bef6-6a803990dca1#src=seo_token) | Ethereum | 5.40% | $152.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PEOPLE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $152.3K in total.
+1 live pool clear this page's $100K TVL floor, $152.4K in total.
 
 ### Are these rates safe?
 

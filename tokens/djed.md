@@ -7,23 +7,23 @@ The highest honest DJED yield right now is 25.27% on liqwid (Cardano), among 2 p
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [liqwid →](https://www.defi.garden/?pool=4a0746b8-61f7-40b2-9378-80e902aec4f9#src=seo_token) | Cardano | 25.27% | $319.4K |
-| [minswap-dex →](https://www.defi.garden/?pool=20aa3b87-23d4-4b89-b48a-2db831806f98#src=seo_token) | Cardano | 10.45% | $229.1K |
+| [minswap-dex →](https://www.defi.garden/?pool=20aa3b87-23d4-4b89-b48a-2db831806f98#src=seo_token) | Cardano | 10.56% | $226.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, DJED's lower-variability candidates are liqwid (Cardano), 25.27% APY, $319.4K TVL, https://www.defi.garden/?pool=4a0746b8-61f7-40b2-9378-80e902aec4f9#src=seo_token; minswap-dex (Cardano), 10.45% APY, $229.1K TVL, https://www.defi.garden/?pool=20aa3b87-23d4-4b89-b48a-2db831806f98#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, DJED's lower-variability candidates are liqwid (Cardano), 25.27% APY, $319.4K TVL, https://www.defi.garden/?pool=4a0746b8-61f7-40b2-9378-80e902aec4f9#src=seo_token; minswap-dex (Cardano), 10.56% APY, $226.8K TVL, https://www.defi.garden/?pool=20aa3b87-23d4-4b89-b48a-2db831806f98#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [liqwid →](https://www.defi.garden/?pool=4a0746b8-61f7-40b2-9378-80e902aec4f9#src=seo_token) | Cardano | 25.27% | $319.4K |
-| 2 | [minswap-dex →](https://www.defi.garden/?pool=20aa3b87-23d4-4b89-b48a-2db831806f98#src=seo_token) | Cardano | 10.45% | $229.1K |
+| 2 | [minswap-dex →](https://www.defi.garden/?pool=20aa3b87-23d4-4b89-b48a-2db831806f98#src=seo_token) | Cardano | 10.56% | $226.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-DJED shows up in 2 pools here, with rates from 10.45% to 25.27% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+DJED shows up in 2 pools here, with rates from 10.56% to 25.27% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 18.60% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -33,8 +33,8 @@ DJED shows up in 2 pools here, with rates from 10.45% to 25.27% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| liqwid | 25.27% | 27.63% | Base rate |
-| minswap-dex | 10.45% | 9.57% | 5.55% incentives |
+| liqwid | 25.27% | 27.62% | Base rate |
+| minswap-dex | 10.56% | 9.57% | 5.49% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many DJED pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $548.5K in total.
+2 live pools clear this page's $100K TVL floor, $546.2K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which DJED pools have the most stable APY history?
 
-Based on APY history only, DJED's lower-variability candidates are liqwid (Cardano), 25.27% APY, $319.4K TVL, https://www.defi.garden/?pool=4a0746b8-61f7-40b2-9378-80e902aec4f9#src=seo_token; minswap-dex (Cardano), 10.45% APY, $229.1K TVL, https://www.defi.garden/?pool=20aa3b87-23d4-4b89-b48a-2db831806f98#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, DJED's lower-variability candidates are liqwid (Cardano), 25.27% APY, $319.4K TVL, https://www.defi.garden/?pool=4a0746b8-61f7-40b2-9378-80e902aec4f9#src=seo_token; minswap-dex (Cardano), 10.56% APY, $226.8K TVL, https://www.defi.garden/?pool=20aa3b87-23d4-4b89-b48a-2db831806f98#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

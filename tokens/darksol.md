@@ -6,7 +6,7 @@ The highest honest DARKSOL yield right now is 2.57% on uniswap-v4 (Base), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=0bd889d5-ad71-4d01-a3f3-299b286d7e24#src=seo_token) | Base | 2.57% | $107.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=0bd889d5-ad71-4d01-a3f3-299b286d7e24#src=seo_token) | Base | 2.57% | $107.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DARKSOL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $107.4K in total.
+1 live pool clear this page's $100K TVL floor, $107.2K in total.
 
 ### Are these rates safe?
 

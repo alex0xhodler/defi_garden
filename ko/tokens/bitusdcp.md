@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=3c9e2fb0-6bf6-53aa-9ff6-d78ff4d044a1#src=seo_token) | Base | 4.19% | $601.3K |
+| [morpho-blue →](https://www.defi.garden/?pool=3c9e2fb0-6bf6-53aa-9ff6-d78ff4d044a1#src=seo_token) | Base | 4.19% | $602.4K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Base의 morpho-blue에서 APY 4.19%예요.
 
 ### BITUSDCP 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $601.3K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $602.4K예요.
 
 ### 이 수익률은 안전한가요?
 

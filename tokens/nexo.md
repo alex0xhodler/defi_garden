@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest NEXO yield right now is 0.41% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NEXO yield right now is 0.40% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=bd6a0930-845b-4d5c-becd-368e7ec66ec2#src=seo_token) | Ethereum | 0.41% | $1.38M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=bd6a0930-845b-4d5c-becd-368e7ec66ec2#src=seo_token) | Ethereum | 0.40% | $1.38M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NEXO yield today?
 
-0.41% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+0.40% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many NEXO pools clear the TVL floor?
 

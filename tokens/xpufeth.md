@@ -6,7 +6,7 @@ The highest honest XPUFETH yield right now is 1.93% on aerodrome-slipstream (Bas
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=7698898e-f516-45e6-a705-257c7da0be5a#src=seo_token) | Base | 1.93% | $160.2K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=7698898e-f516-45e6-a705-257c7da0be5a#src=seo_token) | Base | 1.93% | $159.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many XPUFETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $160.2K in total.
+1 live pool clear this page's $100K TVL floor, $159.6K in total.
 
 ### Are these rates safe?
 

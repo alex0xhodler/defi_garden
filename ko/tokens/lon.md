@@ -7,17 +7,17 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [uniswap-v2 →](https://www.defi.garden/?pool=180bedce-a7e9-42fb-9d0d-b181e975a0d7#src=seo_token) | Ethereum | 0.02% | $1.82M |
-| [sushiswap →](https://www.defi.garden/?pool=53327beb-9e23-46f3-ad6e-9be0eb7e3338#src=seo_token) | Ethereum | 0.32% | $137K |
+| [sushiswap →](https://www.defi.garden/?pool=53327beb-9e23-46f3-ad6e-9be0eb7e3338#src=seo_token) | Ethereum | 0.32% | $137.1K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 LON의 변동성 낮은 후보는 Ethereum의 uniswap-v2, APY 0.02%, TVL $1.82M, https://www.defi.garden/?pool=180bedce-a7e9-42fb-9d0d-b181e975a0d7#src=seo_token; Ethereum의 sushiswap, APY 0.32%, TVL $137K, https://www.defi.garden/?pool=53327beb-9e23-46f3-ad6e-9be0eb7e3338#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 LON의 변동성 낮은 후보는 Ethereum의 uniswap-v2, APY 0.02%, TVL $1.82M, https://www.defi.garden/?pool=180bedce-a7e9-42fb-9d0d-b181e975a0d7#src=seo_token; Ethereum의 sushiswap, APY 0.32%, TVL $137.1K, https://www.defi.garden/?pool=53327beb-9e23-46f3-ad6e-9be0eb7e3338#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v2 →](https://www.defi.garden/?pool=180bedce-a7e9-42fb-9d0d-b181e975a0d7#src=seo_token) | Ethereum | 0.02% | $1.82M |
-| 2 | [sushiswap →](https://www.defi.garden/?pool=53327beb-9e23-46f3-ad6e-9be0eb7e3338#src=seo_token) | Ethereum | 0.32% | $137K |
+| 2 | [sushiswap →](https://www.defi.garden/?pool=53327beb-9e23-46f3-ad6e-9be0eb7e3338#src=seo_token) | Ethereum | 0.32% | $137.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -54,7 +54,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v2에서 APY 0.02%예�
 
 ### LON 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 LON의 변동성 낮은 후보는 Ethereum의 uniswap-v2, APY 0.02%, TVL $1.82M, https://www.defi.garden/?pool=180bedce-a7e9-42fb-9d0d-b181e975a0d7#src=seo_token; Ethereum의 sushiswap, APY 0.32%, TVL $137K, https://www.defi.garden/?pool=53327beb-9e23-46f3-ad6e-9be0eb7e3338#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 LON의 변동성 낮은 후보는 Ethereum의 uniswap-v2, APY 0.02%, TVL $1.82M, https://www.defi.garden/?pool=180bedce-a7e9-42fb-9d0d-b181e975a0d7#src=seo_token; Ethereum의 sushiswap, APY 0.32%, TVL $137.1K, https://www.defi.garden/?pool=53327beb-9e23-46f3-ad6e-9be0eb7e3338#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

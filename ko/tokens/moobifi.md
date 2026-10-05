@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [velodrome-v2 →](https://www.defi.garden/?pool=0747421f-6dba-4042-952a-2d9d2e864917#src=seo_token) | OP Mainnet | 4.17% | $196K |
+| [velodrome-v2 →](https://www.defi.garden/?pool=0747421f-6dba-4042-952a-2d9d2e864917#src=seo_token) | OP Mainnet | 4.17% | $195.8K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

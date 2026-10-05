@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [binance-staked-sol →](https://www.defi.garden/ko/pools/binance-staked-sol-bnsol-solana) | Solana | 4.55% | $1.23B |
+| [binance-staked-sol →](https://www.defi.garden/ko/pools/binance-staked-sol-bnsol-solana) | Solana | 4.55% | $1.22B |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -54,7 +54,7 @@ DefiLlama 실시간 데이터 기준, Solana의 binance-staked-sol에서 APY 4.5
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
 - [PRIME](https://www.defi.garden/ko/tokens/prime)
-- [USDG](https://www.defi.garden/ko/tokens/usdg)
+- [TRX](https://www.defi.garden/ko/tokens/trx)
 
 ## 이용 가능한 체인
 

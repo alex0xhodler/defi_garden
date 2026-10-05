@@ -6,7 +6,7 @@ The highest honest OHMI yield right now is 0.03% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=b192fc68-5178-4e8b-88e3-d6db5a896627#src=seo_token) | Ethereum | 0.03% | $121.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=b192fc68-5178-4e8b-88e3-d6db5a896627#src=seo_token) | Ethereum | 0.03% | $120.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many OHMI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $121.1K in total.
+1 live pool clear this page's $100K TVL floor, $120.9K in total.
 
 ### Are these rates safe?
 

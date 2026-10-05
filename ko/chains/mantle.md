@@ -4,10 +4,10 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| USDT0 | [aave-v3 →](https://www.defi.garden/?pool=47da0cdd-7b1d-4927-9545-20b53b73afa8#src=seo_chain) | 4.45% | $18.32M |
-| USDT0-WETH | [fluxion-network →](https://www.defi.garden/?pool=70f8fccf-080b-5d78-8a67-0e87a0a578a5#src=seo_chain) | 2.99% | $5.18M |
-| GHO | [aave-v3 →](https://www.defi.garden/?pool=125974d5-ad17-4a3a-b967-ebbf721fca22#src=seo_chain) | 1.52% | $796.7K |
-| USDT0-KII | [fluxion-network →](https://www.defi.garden/?pool=269c72aa-ab12-57fd-a84d-79471faa170c#src=seo_chain) | 2.06% | $579.8K |
+| USDT0 | [aave-v3 →](https://www.defi.garden/?pool=47da0cdd-7b1d-4927-9545-20b53b73afa8#src=seo_chain) | 4.45% | $18.27M |
+| USDT0-WETH | [fluxion-network →](https://www.defi.garden/?pool=70f8fccf-080b-5d78-8a67-0e87a0a578a5#src=seo_chain) | 3.07% | $5.18M |
+| GHO | [aave-v3 →](https://www.defi.garden/?pool=125974d5-ad17-4a3a-b967-ebbf721fca22#src=seo_chain) | 1.52% | $796.8K |
+| USDT0-KII | [fluxion-network →](https://www.defi.garden/?pool=269c72aa-ab12-57fd-a84d-79471faa170c#src=seo_chain) | 2.06% | $579.7K |
 | USDT0-BSB | [fluxion-network →](https://www.defi.garden/?pool=35f2103d-231b-443b-952e-d2cd118d8f29#src=seo_chain) | 0.35% | $533.6K |
 | BILL-USDT0 | [fluxion-network →](https://www.defi.garden/?pool=85407ecd-f711-4fa6-9328-3078aebfaa95#src=seo_chain) | 0.12% | $375.1K |
 | USDC | [aave-v3 →](https://www.defi.garden/?pool=32cb38a5-b9b9-441a-bf07-8fab47b999d3#src=seo_chain) | 2.91% | $373K |
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Mantle의 aave-v3에서 APY 4.45%예요.
 
 ### Mantle 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 27개이며, 합산 TVL은 $202.41M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 27개이며, 합산 TVL은 $202.39M예요.
 
 ### 이 수익률은 안전한가요?
 

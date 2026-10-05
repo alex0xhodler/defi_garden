@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest DPI yield right now is 1.18% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DPI yield right now is 3.76% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=46767a06-7655-467f-9570-fc0f5578a66c#src=seo_token) | Ethereum | 1.18% | $995.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=46767a06-7655-467f-9570-fc0f5578a66c#src=seo_token) | Ethereum | 3.76% | $1.04M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DPI yield today?
 
-1.18% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+3.76% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many DPI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $995.3K in total.
+1 live pool clear this page's $100K TVL floor, $1.04M in total.
 
 ### Are these rates safe?
 

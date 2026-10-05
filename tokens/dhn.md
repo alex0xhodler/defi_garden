@@ -6,7 +6,7 @@ The highest honest DHN yield right now is 19.04% on uniswap-v4 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=b1cfd876-2f08-5df6-9f52-50e46808942e#src=seo_token) | Ethereum | 2.00% | $7.67M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=b1cfd876-2f08-5df6-9f52-50e46808942e#src=seo_token) | Ethereum | 25.70% | $965.7K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=1904ea9d-380f-50df-b7f9-8ce1192b1875#src=seo_token) | Ethereum | 12.71% | $774.7K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=221e2ea5-0cbc-5168-b93c-15a6c8bc482a#src=seo_token) | Ethereum | 19.04% | $728.7K |
 
@@ -19,9 +19,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-DHN shows up in 3 pools here, with rates from 2.00% to 19.04% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+DHN shows up in 3 pools here, with rates from 12.71% to 25.70% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 15.52% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 15.71% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -29,9 +29,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 2.00% | 8.50% | Base rate |
-| uniswap-v4 | 12.71% | 17.46% | Base rate |
-| uniswap-v4 | 19.04% | 15.52% | Base rate |
+| uniswap-v4 | 25.70% | 8.54% | Base rate |
+| uniswap-v4 | 12.71% | 17.28% | Base rate |
+| uniswap-v4 | 19.04% | 15.71% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -43,7 +43,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many DHN pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $9.17M in total.
+3 live pools clear this page's $100K TVL floor, $2.47M in total.
 
 ### Are these rates safe?
 

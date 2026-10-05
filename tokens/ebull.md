@@ -6,7 +6,7 @@ The highest honest EBULL yield right now is 0.48% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=2998cb51-db66-4f74-8806-df4293f5ed8d#src=seo_token) | Ethereum | 0.48% | $102.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=2998cb51-db66-4f74-8806-df4293f5ed8d#src=seo_token) | Ethereum | 0.48% | $102.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many EBULL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $102.6K in total.
+1 live pool clear this page's $100K TVL floor, $102.5K in total.
 
 ### Are these rates safe?
 

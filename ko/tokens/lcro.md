@@ -63,7 +63,7 @@ APY 이력만 기준으로 비교한 LCRO의 변동성 낮은 후보는 Cronos�
 - [VVS](https://www.defi.garden/ko/tokens/vvs)
 - [CDCETH](https://www.defi.garden/ko/tokens/cdceth)
 - [XRP](https://www.defi.garden/ko/tokens/xrp)
-- [LION](https://www.defi.garden/ko/tokens/lion)
+- [USDC.E](https://www.defi.garden/ko/tokens/usdc-e)
 
 ## 이용 가능한 체인
 

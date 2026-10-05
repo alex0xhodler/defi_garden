@@ -2,12 +2,12 @@
 
 *DefiLlama 데이터 생성 시점 검증: October 5, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 GOLD의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 8.80%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 GOLD의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 8.52%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=8f50502a-0e73-5f6b-8b06-a13bd680a980#src=seo_token) | Solana | 8.80% | $761.4K |
-| [folks-finance-lending →](https://www.defi.garden/?pool=6da6f63f-8ebb-49ab-9125-c5a429d49c98#src=seo_token) | Algorand | 0.17% | $472.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=8f50502a-0e73-5f6b-8b06-a13bd680a980#src=seo_token) | Solana | 8.52% | $761.5K |
+| [folks-finance-lending →](https://www.defi.garden/?pool=6da6f63f-8ebb-49ab-9125-c5a429d49c98#src=seo_token) | Algorand | 0.17% | $469.6K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -18,7 +18,7 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-GOLD 풀은 여기 2개가 있고, 2개 체인에서 APY가 0.17%부터 8.80%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+GOLD 풀은 여기 2개가 있고, 2개 체인에서 APY가 0.17%부터 8.52%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 2개 풀 중 2개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 5.36%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -28,7 +28,7 @@ GOLD 풀은 여기 2개가 있고, 2개 체인에서 APY가 0.17%부터 8.80%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| raydium-amm | 8.80% | 10.56% | 기본 금리 |
+| raydium-amm | 8.52% | 10.54% | 기본 금리 |
 | folks-finance-lending | 0.17% | 0.17% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -37,11 +37,11 @@ GOLD 풀은 여기 2개가 있고, 2개 체인에서 APY가 0.17%부터 8.80%까
 
 ### 오늘 GOLD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 8.80%예요.
+DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 8.52%예요.
 
 ### GOLD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $1.81M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $1.8M예요.
 
 ### 이 수익률은 안전한가요?
 

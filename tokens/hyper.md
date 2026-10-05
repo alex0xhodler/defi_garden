@@ -6,7 +6,7 @@ The highest honest HYPER yield right now is 220.13% on symbiotic (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [symbiotic →](https://www.defi.garden/?pool=e8b1e4cc-da84-5a59-8359-76b5c0a0ece6#src=seo_token) | Ethereum | 220.13% | $1.43M |
+| [symbiotic →](https://www.defi.garden/?pool=e8b1e4cc-da84-5a59-8359-76b5c0a0ece6#src=seo_token) | Ethereum | 220.13% | $1.42M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

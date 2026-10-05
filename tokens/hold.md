@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest HOLD yield right now is 4.77% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HOLD yield right now is 4.97% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=1e68bd70-f55e-430e-bf0b-fe152bdef1e8#src=seo_token) | Ethereum | 4.77% | $477.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=1e68bd70-f55e-430e-bf0b-fe152bdef1e8#src=seo_token) | Ethereum | 4.97% | $474.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HOLD yield today?
 
-4.77% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+4.97% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many HOLD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $477.8K in total.
+1 live pool clear this page's $100K TVL floor, $474.5K in total.
 
 ### Are these rates safe?
 

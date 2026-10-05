@@ -4,7 +4,7 @@ The highest honest ICP yield right now is 35.47% on icpswap (ICP), among 15 pool
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| NICP | [waterneuron →](https://www.defi.garden/?pool=4450335c-bad3-4293-947b-64896b893a5b#src=seo_chain) | 7.88% | $8.21M |
+| NICP | [waterneuron →](https://www.defi.garden/?pool=4450335c-bad3-4293-947b-64896b893a5b#src=seo_chain) | 7.87% | $8.34M |
 | BTC | [liquidium →](https://www.defi.garden/?pool=8df2c295-0906-4d91-9dad-45353f41b99f#src=seo_chain) | 0.01% | $1.65M |
 | CKUSDC-ICP | [icpswap →](https://www.defi.garden/?pool=8d70550f-b6b4-4b01-9885-878f69f3d690#src=seo_chain) | 32.35% | $867K |
 | VCHF-ICP | [icpswap →](https://www.defi.garden/?pool=8f3e0a00-3b1c-4e87-ac0d-117c3e057248#src=seo_chain) | 9.35% | $557.2K |
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ICP pools clear the TVL floor?
 
-15 live pools clear this page's $100K TVL floor, $15.34M in total.
+15 live pools clear this page's $100K TVL floor, $15.48M in total.
 
 ### Are these rates safe?
 

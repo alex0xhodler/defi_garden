@@ -4,7 +4,7 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| NICP | [waterneuron →](https://www.defi.garden/?pool=4450335c-bad3-4293-947b-64896b893a5b#src=seo_chain) | 7.88% | $8.21M |
+| NICP | [waterneuron →](https://www.defi.garden/?pool=4450335c-bad3-4293-947b-64896b893a5b#src=seo_chain) | 7.87% | $8.34M |
 | BTC | [liquidium →](https://www.defi.garden/?pool=8df2c295-0906-4d91-9dad-45353f41b99f#src=seo_chain) | 0.01% | $1.65M |
 | CKUSDC-ICP | [icpswap →](https://www.defi.garden/?pool=8d70550f-b6b4-4b01-9885-878f69f3d690#src=seo_chain) | 32.35% | $867K |
 | VCHF-ICP | [icpswap →](https://www.defi.garden/?pool=8f3e0a00-3b1c-4e87-ac0d-117c3e057248#src=seo_chain) | 9.35% | $557.2K |
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, ICP의 icpswap에서 APY 35.47%예요.
 
 ### ICP 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 15개이며, 합산 TVL은 $15.34M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 15개이며, 합산 TVL은 $15.48M예요.
 
 ### 이 수익률은 안전한가요?
 

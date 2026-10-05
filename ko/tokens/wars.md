@@ -8,7 +8,7 @@
 |---|---|---|---|
 | [morpho-blue →](https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39#src=seo_token) | Ethereum | 20.16% | $7.14M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=cf723543-a6a0-5ebd-82ec-57b0b390f858#src=seo_token) | Base | 0.01% | $235K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=dbb75486-4a6d-5cb2-aff8-bb463a393270#src=seo_token) | Celo | 0.04% | $108.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=dbb75486-4a6d-5cb2-aff8-bb463a393270#src=seo_token) | Celo | 0.09% | $108.3K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
@@ -36,7 +36,7 @@ WARS 풀은 여기 3개가 있고, 3개 체인에서 APY가 0.01%부터 20.16%�
 |---|---|---|---|
 | morpho-blue | 20.16% | 23.43% | 인센티브 96.69% |
 | uniswap-v4 | 0.01% | 0.28% | 기본 금리 |
-| uniswap-v3 | 0.04% | 0.20% | 기본 금리 |
+| uniswap-v3 | 0.09% | 0.20% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 

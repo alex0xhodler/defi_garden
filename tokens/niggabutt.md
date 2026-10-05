@@ -6,7 +6,7 @@ The highest honest NIGGABUTT yield right now is 4.60% on raydium-amm (Solana), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=fe0311d4-0567-4b20-84c1-3d329c583e9c#src=seo_token) | Solana | 4.60% | $112.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=fe0311d4-0567-4b20-84c1-3d329c583e9c#src=seo_token) | Solana | 4.60% | $112.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NIGGABUTT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $112.4K in total.
+1 live pool clear this page's $100K TVL floor, $112.1K in total.
 
 ### Are these rates safe?
 

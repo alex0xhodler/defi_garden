@@ -7,16 +7,16 @@ The highest honest DOG yield right now is 0.71% on aerodrome-v1 (Base), among 5 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=c0288de1-2d00-457c-ab70-56e3a6295dcc#src=seo_token) | Ethereum | 0.01% | $1.52M |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=18337fa4-0cfb-4726-b34a-3d9b00e3db72#src=seo_token) | Base | 0.71% | $113.6K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=18337fa4-0cfb-4726-b34a-3d9b00e3db72#src=seo_token) | Base | 0.71% | $113.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, DOG's lower-variability candidates are aerodrome-v1 (Base), 0.71% APY, $113.6K TVL, https://www.defi.garden/?pool=18337fa4-0cfb-4726-b34a-3d9b00e3db72#src=seo_token; uniswap-v3 (Ethereum), 0.01% APY, $1.52M TVL, https://www.defi.garden/?pool=c0288de1-2d00-457c-ab70-56e3a6295dcc#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, DOG's lower-variability candidates are aerodrome-v1 (Base), 0.71% APY, $113.4K TVL, https://www.defi.garden/?pool=18337fa4-0cfb-4726-b34a-3d9b00e3db72#src=seo_token; uniswap-v3 (Ethereum), 0.01% APY, $1.52M TVL, https://www.defi.garden/?pool=c0288de1-2d00-457c-ab70-56e3a6295dcc#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=18337fa4-0cfb-4726-b34a-3d9b00e3db72#src=seo_token) | Base | 0.71% | $113.6K |
+| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=18337fa4-0cfb-4726-b34a-3d9b00e3db72#src=seo_token) | Base | 0.71% | $113.4K |
 | 2 | [uniswap-v3 →](https://www.defi.garden/?pool=c0288de1-2d00-457c-ab70-56e3a6295dcc#src=seo_token) | Ethereum | 0.01% | $1.52M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which DOG pools have the most stable APY history?
 
-Based on APY history only, DOG's lower-variability candidates are aerodrome-v1 (Base), 0.71% APY, $113.6K TVL, https://www.defi.garden/?pool=18337fa4-0cfb-4726-b34a-3d9b00e3db72#src=seo_token; uniswap-v3 (Ethereum), 0.01% APY, $1.52M TVL, https://www.defi.garden/?pool=c0288de1-2d00-457c-ab70-56e3a6295dcc#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, DOG's lower-variability candidates are aerodrome-v1 (Base), 0.71% APY, $113.4K TVL, https://www.defi.garden/?pool=18337fa4-0cfb-4726-b34a-3d9b00e3db72#src=seo_token; uniswap-v3 (Ethereum), 0.01% APY, $1.52M TVL, https://www.defi.garden/?pool=c0288de1-2d00-457c-ab70-56e3a6295dcc#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

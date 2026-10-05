@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest IBM yield right now is 543.32% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest IBM yield right now is 992.71% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=dbca6ebd-e3aa-5614-a3ba-f2131697ec19#src=seo_token) | Solana | 543.32% | $100.5K |
+| [orca-dex →](https://www.defi.garden/?pool=dbca6ebd-e3aa-5614-a3ba-f2131697ec19#src=seo_token) | Solana | 992.71% | $111.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest IBM yield today?
 
-543.32% APY on orca-dex (Solana), based on live DefiLlama data.
+992.71% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many IBM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $100.5K in total.
+1 live pool clear this page's $100K TVL floor, $111.1K in total.
 
 ### Are these rates safe?
 

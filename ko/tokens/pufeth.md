@@ -9,23 +9,23 @@
 | [puffer-stake →](https://www.defi.garden/?pool=bac6982a-f344-42f7-9af4-a9882f4a77f0#src=seo_token) | Ethereum | 2.97% | $31.19M |
 | [curve-dex →](https://www.defi.garden/?pool=4b179a19-7b56-4b0d-a876-95f89dba3ef9#src=seo_token) | Ethereum | 0.15% | $3.12M |
 | [curve-dex →](https://www.defi.garden/?pool=00a7c200-ad4e-4bb1-9c81-57edefe71925#src=seo_token) | Ethereum | 0.96% | $2.05M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=f152a018-6cc6-4614-8b56-fe4548773cd4#src=seo_token) | Ethereum | 0.07% | $812.1K |
-| [pendle-v2 →](https://www.defi.garden/?pool=af01c9fd-58d8-4ecc-b27f-99b7bf40af8a#src=seo_token) | Ethereum | 3.44% | $317.6K |
-| [pendle-v2 →](https://www.defi.garden/?pool=bff45894-3c74-453b-b7ec-00837e09230b#src=seo_token) | Ethereum | 4.20% | $317.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f152a018-6cc6-4614-8b56-fe4548773cd4#src=seo_token) | Ethereum | 0.07% | $810.5K |
+| [pendle-v2 →](https://www.defi.garden/?pool=af01c9fd-58d8-4ecc-b27f-99b7bf40af8a#src=seo_token) | Ethereum | 3.44% | $316.8K |
+| [pendle-v2 →](https://www.defi.garden/?pool=bff45894-3c74-453b-b7ec-00837e09230b#src=seo_token) | Ethereum | 4.20% | $316.8K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 PUFETH의 변동성 낮은 후보는 Ethereum의 puffer-stake, APY 2.97%, TVL $31.19M, https://www.defi.garden/?pool=bac6982a-f344-42f7-9af4-a9882f4a77f0#src=seo_token; Ethereum의 pendle-v2, APY 4.20%, TVL $317.6K, https://www.defi.garden/?pool=bff45894-3c74-453b-b7ec-00837e09230b#src=seo_token; Ethereum의 pendle-v2, APY 3.44%, TVL $317.6K, https://www.defi.garden/?pool=af01c9fd-58d8-4ecc-b27f-99b7bf40af8a#src=seo_token; Ethereum의 curve-dex, APY 0.96%, TVL $2.05M, https://www.defi.garden/?pool=00a7c200-ad4e-4bb1-9c81-57edefe71925#src=seo_token; Ethereum의 curve-dex, APY 0.15%, TVL $3.12M, https://www.defi.garden/?pool=4b179a19-7b56-4b0d-a876-95f89dba3ef9#src=seo_token; Ethereum의 uniswap-v3, APY 0.07%, TVL $812.1K, https://www.defi.garden/?pool=f152a018-6cc6-4614-8b56-fe4548773cd4#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 PUFETH의 변동성 낮은 후보는 Ethereum의 puffer-stake, APY 2.97%, TVL $31.19M, https://www.defi.garden/?pool=bac6982a-f344-42f7-9af4-a9882f4a77f0#src=seo_token; Ethereum의 pendle-v2, APY 4.20%, TVL $316.8K, https://www.defi.garden/?pool=bff45894-3c74-453b-b7ec-00837e09230b#src=seo_token; Ethereum의 pendle-v2, APY 3.44%, TVL $316.8K, https://www.defi.garden/?pool=af01c9fd-58d8-4ecc-b27f-99b7bf40af8a#src=seo_token; Ethereum의 curve-dex, APY 0.96%, TVL $2.05M, https://www.defi.garden/?pool=00a7c200-ad4e-4bb1-9c81-57edefe71925#src=seo_token; Ethereum의 curve-dex, APY 0.15%, TVL $3.12M, https://www.defi.garden/?pool=4b179a19-7b56-4b0d-a876-95f89dba3ef9#src=seo_token; Ethereum의 uniswap-v3, APY 0.07%, TVL $810.5K, https://www.defi.garden/?pool=f152a018-6cc6-4614-8b56-fe4548773cd4#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [puffer-stake →](https://www.defi.garden/?pool=bac6982a-f344-42f7-9af4-a9882f4a77f0#src=seo_token) | Ethereum | 2.97% | $31.19M |
-| 2 | [pendle-v2 →](https://www.defi.garden/?pool=bff45894-3c74-453b-b7ec-00837e09230b#src=seo_token) | Ethereum | 4.20% | $317.6K |
-| 3 | [pendle-v2 →](https://www.defi.garden/?pool=af01c9fd-58d8-4ecc-b27f-99b7bf40af8a#src=seo_token) | Ethereum | 3.44% | $317.6K |
+| 2 | [pendle-v2 →](https://www.defi.garden/?pool=bff45894-3c74-453b-b7ec-00837e09230b#src=seo_token) | Ethereum | 4.20% | $316.8K |
+| 3 | [pendle-v2 →](https://www.defi.garden/?pool=af01c9fd-58d8-4ecc-b27f-99b7bf40af8a#src=seo_token) | Ethereum | 3.44% | $316.8K |
 | 4 | [curve-dex →](https://www.defi.garden/?pool=00a7c200-ad4e-4bb1-9c81-57edefe71925#src=seo_token) | Ethereum | 0.96% | $2.05M |
 | 5 | [curve-dex →](https://www.defi.garden/?pool=4b179a19-7b56-4b0d-a876-95f89dba3ef9#src=seo_token) | Ethereum | 0.15% | $3.12M |
-| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=f152a018-6cc6-4614-8b56-fe4548773cd4#src=seo_token) | Ethereum | 0.07% | $812.1K |
+| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=f152a018-6cc6-4614-8b56-fe4548773cd4#src=seo_token) | Ethereum | 0.07% | $810.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -64,7 +64,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle-v2에서 APY 4.20%예�
 
 ### PUFETH 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 PUFETH의 변동성 낮은 후보는 Ethereum의 puffer-stake, APY 2.97%, TVL $31.19M, https://www.defi.garden/?pool=bac6982a-f344-42f7-9af4-a9882f4a77f0#src=seo_token; Ethereum의 pendle-v2, APY 4.20%, TVL $317.6K, https://www.defi.garden/?pool=bff45894-3c74-453b-b7ec-00837e09230b#src=seo_token; Ethereum의 pendle-v2, APY 3.44%, TVL $317.6K, https://www.defi.garden/?pool=af01c9fd-58d8-4ecc-b27f-99b7bf40af8a#src=seo_token; Ethereum의 curve-dex, APY 0.96%, TVL $2.05M, https://www.defi.garden/?pool=00a7c200-ad4e-4bb1-9c81-57edefe71925#src=seo_token; Ethereum의 curve-dex, APY 0.15%, TVL $3.12M, https://www.defi.garden/?pool=4b179a19-7b56-4b0d-a876-95f89dba3ef9#src=seo_token; Ethereum의 uniswap-v3, APY 0.07%, TVL $812.1K, https://www.defi.garden/?pool=f152a018-6cc6-4614-8b56-fe4548773cd4#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 PUFETH의 변동성 낮은 후보는 Ethereum의 puffer-stake, APY 2.97%, TVL $31.19M, https://www.defi.garden/?pool=bac6982a-f344-42f7-9af4-a9882f4a77f0#src=seo_token; Ethereum의 pendle-v2, APY 4.20%, TVL $316.8K, https://www.defi.garden/?pool=bff45894-3c74-453b-b7ec-00837e09230b#src=seo_token; Ethereum의 pendle-v2, APY 3.44%, TVL $316.8K, https://www.defi.garden/?pool=af01c9fd-58d8-4ecc-b27f-99b7bf40af8a#src=seo_token; Ethereum의 curve-dex, APY 0.96%, TVL $2.05M, https://www.defi.garden/?pool=00a7c200-ad4e-4bb1-9c81-57edefe71925#src=seo_token; Ethereum의 curve-dex, APY 0.15%, TVL $3.12M, https://www.defi.garden/?pool=4b179a19-7b56-4b0d-a876-95f89dba3ef9#src=seo_token; Ethereum의 uniswap-v3, APY 0.07%, TVL $810.5K, https://www.defi.garden/?pool=f152a018-6cc6-4614-8b56-fe4548773cd4#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

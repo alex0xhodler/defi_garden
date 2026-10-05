@@ -166,7 +166,7 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/near</loc>
+    <loc>https://www.defi.garden/chains/starknet</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -176,7 +176,7 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/starknet</loc>
+    <loc>https://www.defi.garden/chains/near</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
   </url>

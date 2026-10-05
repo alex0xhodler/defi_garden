@@ -2,32 +2,32 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest FTUSD yield right now is 26.52% on convex-finance (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FTUSD yield right now is 26.46% on convex-finance (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=f6df3c6a-c52c-414d-a82a-17e98eb90dcb#src=seo_token) | Ethereum | 4.61% | $803.7K |
-| [convex-finance →](https://www.defi.garden/?pool=fff0794f-13b7-4535-8e13-dc84835c152c#src=seo_token) | Ethereum | 7.04% | $553.2K |
-| [curve-dex →](https://www.defi.garden/?pool=01f29b6e-c258-53c1-bc44-728a551491e9#src=seo_token) | Ethereum | 16.05% | $405.9K |
-| [convex-finance →](https://www.defi.garden/?pool=bc14161c-0a0b-54e6-90cf-399dc219a30d#src=seo_token) | Ethereum | 26.52% | $338.2K |
+| [curve-dex →](https://www.defi.garden/?pool=f6df3c6a-c52c-414d-a82a-17e98eb90dcb#src=seo_token) | Ethereum | 4.62% | $803.7K |
+| [convex-finance →](https://www.defi.garden/?pool=fff0794f-13b7-4535-8e13-dc84835c152c#src=seo_token) | Ethereum | 7.03% | $553.2K |
+| [curve-dex →](https://www.defi.garden/?pool=01f29b6e-c258-53c1-bc44-728a551491e9#src=seo_token) | Ethereum | 16.10% | $405.9K |
+| [convex-finance →](https://www.defi.garden/?pool=bc14161c-0a0b-54e6-90cf-399dc219a30d#src=seo_token) | Ethereum | 26.46% | $338.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, FTUSD's lower-variability candidates are convex-finance (Ethereum), 7.04% APY, $553.2K TVL, https://www.defi.garden/?pool=fff0794f-13b7-4535-8e13-dc84835c152c#src=seo_token; curve-dex (Ethereum), 4.61% APY, $803.7K TVL, https://www.defi.garden/?pool=f6df3c6a-c52c-414d-a82a-17e98eb90dcb#src=seo_token; convex-finance (Ethereum), 26.52% APY, $338.2K TVL, https://www.defi.garden/?pool=bc14161c-0a0b-54e6-90cf-399dc219a30d#src=seo_token; curve-dex (Ethereum), 16.05% APY, $405.9K TVL, https://www.defi.garden/?pool=01f29b6e-c258-53c1-bc44-728a551491e9#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FTUSD's lower-variability candidates are convex-finance (Ethereum), 7.03% APY, $553.2K TVL, https://www.defi.garden/?pool=fff0794f-13b7-4535-8e13-dc84835c152c#src=seo_token; curve-dex (Ethereum), 4.62% APY, $803.7K TVL, https://www.defi.garden/?pool=f6df3c6a-c52c-414d-a82a-17e98eb90dcb#src=seo_token; convex-finance (Ethereum), 26.46% APY, $338.2K TVL, https://www.defi.garden/?pool=bc14161c-0a0b-54e6-90cf-399dc219a30d#src=seo_token; curve-dex (Ethereum), 16.10% APY, $405.9K TVL, https://www.defi.garden/?pool=01f29b6e-c258-53c1-bc44-728a551491e9#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [convex-finance →](https://www.defi.garden/?pool=fff0794f-13b7-4535-8e13-dc84835c152c#src=seo_token) | Ethereum | 7.04% | $553.2K |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=f6df3c6a-c52c-414d-a82a-17e98eb90dcb#src=seo_token) | Ethereum | 4.61% | $803.7K |
-| 3 | [convex-finance →](https://www.defi.garden/?pool=bc14161c-0a0b-54e6-90cf-399dc219a30d#src=seo_token) | Ethereum | 26.52% | $338.2K |
-| 4 | [curve-dex →](https://www.defi.garden/?pool=01f29b6e-c258-53c1-bc44-728a551491e9#src=seo_token) | Ethereum | 16.05% | $405.9K |
+| 1 | [convex-finance →](https://www.defi.garden/?pool=fff0794f-13b7-4535-8e13-dc84835c152c#src=seo_token) | Ethereum | 7.03% | $553.2K |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=f6df3c6a-c52c-414d-a82a-17e98eb90dcb#src=seo_token) | Ethereum | 4.62% | $803.7K |
+| 3 | [convex-finance →](https://www.defi.garden/?pool=bc14161c-0a0b-54e6-90cf-399dc219a30d#src=seo_token) | Ethereum | 26.46% | $338.2K |
+| 4 | [curve-dex →](https://www.defi.garden/?pool=01f29b6e-c258-53c1-bc44-728a551491e9#src=seo_token) | Ethereum | 16.10% | $405.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-FTUSD shows up in 4 pools here, with rates from 4.61% to 26.52% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+FTUSD shows up in 4 pools here, with rates from 4.62% to 26.46% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 4 of these 4 pools have a trustworthy 30-day average on file, with a median of 13.80% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -37,10 +37,10 @@ FTUSD shows up in 4 pools here, with rates from 4.61% to 26.52% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 4.61% | 8.81% | 42.76% incentives |
-| convex-finance | 7.04% | 11.66% | 62.51% incentives |
-| curve-dex | 16.05% | 15.95% | 68.22% incentives |
-| convex-finance | 26.52% | 23.63% | 80.77% incentives |
+| curve-dex | 4.62% | 8.80% | 42.87% incentives |
+| convex-finance | 7.03% | 11.65% | 62.44% incentives |
+| curve-dex | 16.10% | 15.94% | 68.32% incentives |
+| convex-finance | 26.46% | 23.62% | 80.72% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -48,7 +48,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest FTUSD yield today?
 
-26.52% APY on convex-finance (Ethereum), based on live DefiLlama data.
+26.46% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many FTUSD pools clear the TVL floor?
 
@@ -60,7 +60,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which FTUSD pools have the most stable APY history?
 
-Based on APY history only, FTUSD's lower-variability candidates are convex-finance (Ethereum), 7.04% APY, $553.2K TVL, https://www.defi.garden/?pool=fff0794f-13b7-4535-8e13-dc84835c152c#src=seo_token; curve-dex (Ethereum), 4.61% APY, $803.7K TVL, https://www.defi.garden/?pool=f6df3c6a-c52c-414d-a82a-17e98eb90dcb#src=seo_token; convex-finance (Ethereum), 26.52% APY, $338.2K TVL, https://www.defi.garden/?pool=bc14161c-0a0b-54e6-90cf-399dc219a30d#src=seo_token; curve-dex (Ethereum), 16.05% APY, $405.9K TVL, https://www.defi.garden/?pool=01f29b6e-c258-53c1-bc44-728a551491e9#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FTUSD's lower-variability candidates are convex-finance (Ethereum), 7.03% APY, $553.2K TVL, https://www.defi.garden/?pool=fff0794f-13b7-4535-8e13-dc84835c152c#src=seo_token; curve-dex (Ethereum), 4.62% APY, $803.7K TVL, https://www.defi.garden/?pool=f6df3c6a-c52c-414d-a82a-17e98eb90dcb#src=seo_token; convex-finance (Ethereum), 26.46% APY, $338.2K TVL, https://www.defi.garden/?pool=bc14161c-0a0b-54e6-90cf-399dc219a30d#src=seo_token; curve-dex (Ethereum), 16.10% APY, $405.9K TVL, https://www.defi.garden/?pool=01f29b6e-c258-53c1-bc44-728a551491e9#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

@@ -6,7 +6,7 @@ The highest honest AZTEC yield right now is 0.62% on uniswap-v4 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=d8a6c89a-f323-4362-948d-2ceb42cfe7a6#src=seo_token) | Ethereum | 0.62% | $17.1M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=d8a6c89a-f323-4362-948d-2ceb42cfe7a6#src=seo_token) | Ethereum | 0.62% | $17.09M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AZTEC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $17.1M in total.
+1 live pool clear this page's $100K TVL floor, $17.09M in total.
 
 ### Are these rates safe?
 

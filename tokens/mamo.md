@@ -2,32 +2,32 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest MAMO yield right now is 175.29% on aerodrome-slipstream (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MAMO yield right now is 176.33% on aerodrome-slipstream (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=dd8c11fb-4e20-4d65-83ff-6f652ed54750#src=seo_token) | Base | 175.29% | $465.5K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=64af7438-4b30-4f29-b92e-04da74fcc7dc#src=seo_token) | Base | 148.31% | $402.6K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=e96c24c3-ebf1-41f8-a11b-acba75501579#src=seo_token) | Base | 147.69% | $107.4K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=dd8c11fb-4e20-4d65-83ff-6f652ed54750#src=seo_token) | Base | 176.33% | $462.1K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=64af7438-4b30-4f29-b92e-04da74fcc7dc#src=seo_token) | Base | 134.84% | $398.2K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=e96c24c3-ebf1-41f8-a11b-acba75501579#src=seo_token) | Base | 149.28% | $106.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, MAMO's lower-variability candidates are aerodrome-slipstream (Base), 148.31% APY, $402.6K TVL, https://www.defi.garden/?pool=64af7438-4b30-4f29-b92e-04da74fcc7dc#src=seo_token; aerodrome-slipstream (Base), 147.69% APY, $107.4K TVL, https://www.defi.garden/?pool=e96c24c3-ebf1-41f8-a11b-acba75501579#src=seo_token; aerodrome-slipstream (Base), 175.29% APY, $465.5K TVL, https://www.defi.garden/?pool=dd8c11fb-4e20-4d65-83ff-6f652ed54750#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MAMO's lower-variability candidates are aerodrome-slipstream (Base), 134.84% APY, $398.2K TVL, https://www.defi.garden/?pool=64af7438-4b30-4f29-b92e-04da74fcc7dc#src=seo_token; aerodrome-slipstream (Base), 149.28% APY, $106.4K TVL, https://www.defi.garden/?pool=e96c24c3-ebf1-41f8-a11b-acba75501579#src=seo_token; aerodrome-slipstream (Base), 176.33% APY, $462.1K TVL, https://www.defi.garden/?pool=dd8c11fb-4e20-4d65-83ff-6f652ed54750#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aerodrome-slipstream →](https://www.defi.garden/?pool=64af7438-4b30-4f29-b92e-04da74fcc7dc#src=seo_token) | Base | 148.31% | $402.6K |
-| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=e96c24c3-ebf1-41f8-a11b-acba75501579#src=seo_token) | Base | 147.69% | $107.4K |
-| 3 | [aerodrome-slipstream →](https://www.defi.garden/?pool=dd8c11fb-4e20-4d65-83ff-6f652ed54750#src=seo_token) | Base | 175.29% | $465.5K |
+| 1 | [aerodrome-slipstream →](https://www.defi.garden/?pool=64af7438-4b30-4f29-b92e-04da74fcc7dc#src=seo_token) | Base | 134.84% | $398.2K |
+| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=e96c24c3-ebf1-41f8-a11b-acba75501579#src=seo_token) | Base | 149.28% | $106.4K |
+| 3 | [aerodrome-slipstream →](https://www.defi.garden/?pool=dd8c11fb-4e20-4d65-83ff-6f652ed54750#src=seo_token) | Base | 176.33% | $462.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-MAMO shows up in 3 pools here, with rates from 147.69% to 175.29% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+MAMO shows up in 3 pools here, with rates from 134.84% to 176.33% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 241.09% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 240.75% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 3 of 3 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -35,9 +35,9 @@ MAMO shows up in 3 pools here, with rates from 147.69% to 175.29% APY across 1 c
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 175.29% | 279.44% | 96.55% incentives |
-| aerodrome-slipstream | 148.31% | 241.09% | 74.15% incentives |
-| aerodrome-slipstream | 147.69% | 191.84% | 66.24% incentives |
+| aerodrome-slipstream | 176.33% | 279.32% | 96.53% incentives |
+| aerodrome-slipstream | 134.84% | 240.75% | 71.34% incentives |
+| aerodrome-slipstream | 149.28% | 191.64% | 65.95% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,11 +45,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MAMO yield today?
 
-175.29% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+176.33% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many MAMO pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $975.4K in total.
+3 live pools clear this page's $100K TVL floor, $966.7K in total.
 
 ### Are these rates safe?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which MAMO pools have the most stable APY history?
 
-Based on APY history only, MAMO's lower-variability candidates are aerodrome-slipstream (Base), 148.31% APY, $402.6K TVL, https://www.defi.garden/?pool=64af7438-4b30-4f29-b92e-04da74fcc7dc#src=seo_token; aerodrome-slipstream (Base), 147.69% APY, $107.4K TVL, https://www.defi.garden/?pool=e96c24c3-ebf1-41f8-a11b-acba75501579#src=seo_token; aerodrome-slipstream (Base), 175.29% APY, $465.5K TVL, https://www.defi.garden/?pool=dd8c11fb-4e20-4d65-83ff-6f652ed54750#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MAMO's lower-variability candidates are aerodrome-slipstream (Base), 134.84% APY, $398.2K TVL, https://www.defi.garden/?pool=64af7438-4b30-4f29-b92e-04da74fcc7dc#src=seo_token; aerodrome-slipstream (Base), 149.28% APY, $106.4K TVL, https://www.defi.garden/?pool=e96c24c3-ebf1-41f8-a11b-acba75501579#src=seo_token; aerodrome-slipstream (Base), 176.33% APY, $462.1K TVL, https://www.defi.garden/?pool=dd8c11fb-4e20-4d65-83ff-6f652ed54750#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

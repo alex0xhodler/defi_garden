@@ -41,11 +41,11 @@ MUSD shows up in 6 pools here, with rates from 0.02% to 5.86% APY across 3 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aave-v3 | 5.86% | 6.02% | 49.69% incentives |
+| aave-v3 | 5.86% | 6.02% | 49.70% incentives |
 | uniswap-v4 | 0.07% | 0.05% | Base rate |
-| aerodrome-slipstream | 1.74% | 4.26% | 91.39% incentives |
+| aerodrome-slipstream | 1.74% | 4.26% | 91.34% incentives |
 | curve-dex | 2.73% | 1.93% | 94.87% incentives |
-| convex-finance | 0.02% | 1.03% | Base rate |
+| convex-finance | 0.02% | 1.01% | Base rate |
 | stake-dao-yield | 0.22% | 1.75% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.

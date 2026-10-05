@@ -6,7 +6,7 @@ The highest honest MNSRY yield right now is 1.79% on raydium-amm (Solana), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=b167895a-90bb-47ec-82af-8a5322bfbc24#src=seo_token) | Solana | 1.79% | $300.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=b167895a-90bb-47ec-82af-8a5322bfbc24#src=seo_token) | Solana | 1.79% | $300.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MNSRY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $300.8K in total.
+1 live pool clear this page's $100K TVL floor, $300.6K in total.
 
 ### Are these rates safe?
 

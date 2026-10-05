@@ -1,17 +1,17 @@
 # Plasma DeFi Yields
 
-The highest honest Plasma yield right now is 23.84% on yuzu-money (Plasma), among 25 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Plasma yield right now is 23.81% on yuzu-money (Plasma), among 25 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| USDE | [aave-v3 →](https://www.defi.garden/?pool=42eaf290-24c3-4ce0-82ab-c1276444871b#src=seo_chain) | 0.28% | $535.47M |
-| USDT0 | [aave-v3 →](https://www.defi.garden/?pool=e338c687-a5d8-4abf-bc04-127990811b0a#src=seo_chain) | 4.71% | $47.95M |
-| SYZUSD | [yuzu-money →](https://www.defi.garden/?pool=6174b1d6-8212-4964-95bf-ca9c539864ba#src=seo_chain) | 7.91% | $38.55M |
-| PLASMAUSD | [veda →](https://www.defi.garden/?pool=95d4f805-1800-4184-98a0-6e49b3ccad8a#src=seo_chain) | 4.36% | $32.06M |
+| USDE | [aave-v3 →](https://www.defi.garden/?pool=42eaf290-24c3-4ce0-82ab-c1276444871b#src=seo_chain) | 0.28% | $535.52M |
+| USDT0 | [aave-v3 →](https://www.defi.garden/?pool=e338c687-a5d8-4abf-bc04-127990811b0a#src=seo_chain) | 4.71% | $47.85M |
+| SYZUSD | [yuzu-money →](https://www.defi.garden/?pool=6174b1d6-8212-4964-95bf-ca9c539864ba#src=seo_chain) | 7.91% | $38.56M |
+| PLASMAUSD | [veda →](https://www.defi.garden/?pool=95d4f805-1800-4184-98a0-6e49b3ccad8a#src=seo_chain) | 4.36% | $32.07M |
 | USDT0 | [fluid-lending →](https://www.defi.garden/?pool=21e972fb-b330-4289-8bfa-6a14e925ecdb#src=seo_chain) | 5.01% | $20.69M |
 | GHO | [fluid-lending →](https://www.defi.garden/?pool=9c03c77d-e19c-4fcd-9b68-14e254676552#src=seo_chain) | 7.81% | $8.98M |
-| YZPP | [yuzu-money →](https://www.defi.garden/?pool=eca0cde2-12f7-4716-a10b-ee57bde764e1#src=seo_chain) | 23.84% | $6.76M |
-| GHO | [aave-v3 →](https://www.defi.garden/?pool=f0df03c4-a46f-4f41-be89-37226c814918#src=seo_chain) | 6.94% | $3.55M |
+| YZPP | [yuzu-money →](https://www.defi.garden/?pool=eca0cde2-12f7-4716-a10b-ee57bde764e1#src=seo_chain) | 23.81% | $6.76M |
+| GHO | [aave-v3 →](https://www.defi.garden/?pool=f0df03c4-a46f-4f41-be89-37226c814918#src=seo_chain) | 6.79% | $4.07M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Plasma yield today?
 
-23.84% APY on yuzu-money (Plasma), based on live DefiLlama data.
+23.81% APY on yuzu-money (Plasma), based on live DefiLlama data.
 
 ### How many Plasma pools clear the TVL floor?
 

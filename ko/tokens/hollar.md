@@ -8,27 +8,27 @@
 |---|---|---|---|
 | [hydration-dex →](https://www.defi.garden/?pool=e6ae5236-a78a-4ddb-b5f7-da2fea18f96c#src=seo_token) | Polkadot | 15.80% | $2.32M |
 | [hydration-dex →](https://www.defi.garden/?pool=ac63a425-ea86-4395-ae51-e849620399f7#src=seo_token) | Polkadot | 2.19% | $1.51M |
-| [hydration-dex →](https://www.defi.garden/?pool=470f1399-4e87-4146-a9f6-4c1294c4959a#src=seo_token) | Polkadot | 1.15% | $1.36M |
-| [hydration-dex →](https://www.defi.garden/?pool=8702c691-9b2c-4722-a9c1-4eb6289bca94#src=seo_token) | Polkadot | 0.41% | $991K |
-| [hydration-dex →](https://www.defi.garden/?pool=b365d27e-3eb3-4d68-a5a4-ecdceda06c6b#src=seo_token) | Polkadot | 0.63% | $805.5K |
-| [hydration-dex →](https://www.defi.garden/?pool=725ad84c-242e-4ddc-9bda-e2462466119a#src=seo_token) | Polkadot | 1.07% | $653.8K |
-| [hydration-dex →](https://www.defi.garden/?pool=9714729f-22d5-472e-b3fb-ed799a6bd4a5#src=seo_token) | Polkadot | 0.36% | $602.9K |
-| [hydration-dex →](https://www.defi.garden/?pool=030640cd-7bd6-534b-a389-a0475c8f926f#src=seo_token) | Polkadot | 0.23% | $315.5K |
+| [hydration-dex →](https://www.defi.garden/?pool=470f1399-4e87-4146-a9f6-4c1294c4959a#src=seo_token) | Polkadot | 1.16% | $1.37M |
+| [hydration-dex →](https://www.defi.garden/?pool=8702c691-9b2c-4722-a9c1-4eb6289bca94#src=seo_token) | Polkadot | 0.41% | $991.7K |
+| [hydration-dex →](https://www.defi.garden/?pool=b365d27e-3eb3-4d68-a5a4-ecdceda06c6b#src=seo_token) | Polkadot | 0.63% | $805.9K |
+| [hydration-dex →](https://www.defi.garden/?pool=725ad84c-242e-4ddc-9bda-e2462466119a#src=seo_token) | Polkadot | 1.07% | $654.1K |
+| [hydration-dex →](https://www.defi.garden/?pool=9714729f-22d5-472e-b3fb-ed799a6bd4a5#src=seo_token) | Polkadot | 0.36% | $603.1K |
+| [hydration-dex →](https://www.defi.garden/?pool=030640cd-7bd6-534b-a389-a0475c8f926f#src=seo_token) | Polkadot | 0.23% | $315.7K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 HOLLAR의 변동성 낮은 후보는 Polkadot의 hydration-dex, APY 0.23%, TVL $315.5K, https://www.defi.garden/?pool=030640cd-7bd6-534b-a389-a0475c8f926f#src=seo_token; Polkadot의 hydration-dex, APY 0.41%, TVL $991K, https://www.defi.garden/?pool=8702c691-9b2c-4722-a9c1-4eb6289bca94#src=seo_token; Polkadot의 hydration-dex, APY 0.36%, TVL $602.9K, https://www.defi.garden/?pool=9714729f-22d5-472e-b3fb-ed799a6bd4a5#src=seo_token; Polkadot의 hydration-dex, APY 1.15%, TVL $1.36M, https://www.defi.garden/?pool=470f1399-4e87-4146-a9f6-4c1294c4959a#src=seo_token; Polkadot의 hydration-dex, APY 2.19%, TVL $1.51M, https://www.defi.garden/?pool=ac63a425-ea86-4395-ae51-e849620399f7#src=seo_token; Polkadot의 hydration-dex, APY 1.07%, TVL $653.8K, https://www.defi.garden/?pool=725ad84c-242e-4ddc-9bda-e2462466119a#src=seo_token; Polkadot의 hydration-dex, APY 0.63%, TVL $805.5K, https://www.defi.garden/?pool=b365d27e-3eb3-4d68-a5a4-ecdceda06c6b#src=seo_token; Polkadot의 hydration-dex, APY 15.80%, TVL $2.32M, https://www.defi.garden/?pool=e6ae5236-a78a-4ddb-b5f7-da2fea18f96c#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 HOLLAR의 변동성 낮은 후보는 Polkadot의 hydration-dex, APY 0.23%, TVL $315.7K, https://www.defi.garden/?pool=030640cd-7bd6-534b-a389-a0475c8f926f#src=seo_token; Polkadot의 hydration-dex, APY 0.41%, TVL $991.7K, https://www.defi.garden/?pool=8702c691-9b2c-4722-a9c1-4eb6289bca94#src=seo_token; Polkadot의 hydration-dex, APY 0.36%, TVL $603.1K, https://www.defi.garden/?pool=9714729f-22d5-472e-b3fb-ed799a6bd4a5#src=seo_token; Polkadot의 hydration-dex, APY 1.16%, TVL $1.37M, https://www.defi.garden/?pool=470f1399-4e87-4146-a9f6-4c1294c4959a#src=seo_token; Polkadot의 hydration-dex, APY 2.19%, TVL $1.51M, https://www.defi.garden/?pool=ac63a425-ea86-4395-ae51-e849620399f7#src=seo_token; Polkadot의 hydration-dex, APY 1.07%, TVL $654.1K, https://www.defi.garden/?pool=725ad84c-242e-4ddc-9bda-e2462466119a#src=seo_token; Polkadot의 hydration-dex, APY 0.63%, TVL $805.9K, https://www.defi.garden/?pool=b365d27e-3eb3-4d68-a5a4-ecdceda06c6b#src=seo_token; Polkadot의 hydration-dex, APY 15.80%, TVL $2.32M, https://www.defi.garden/?pool=e6ae5236-a78a-4ddb-b5f7-da2fea18f96c#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [hydration-dex →](https://www.defi.garden/?pool=030640cd-7bd6-534b-a389-a0475c8f926f#src=seo_token) | Polkadot | 0.23% | $315.5K |
-| 2 | [hydration-dex →](https://www.defi.garden/?pool=8702c691-9b2c-4722-a9c1-4eb6289bca94#src=seo_token) | Polkadot | 0.41% | $991K |
-| 3 | [hydration-dex →](https://www.defi.garden/?pool=9714729f-22d5-472e-b3fb-ed799a6bd4a5#src=seo_token) | Polkadot | 0.36% | $602.9K |
-| 4 | [hydration-dex →](https://www.defi.garden/?pool=470f1399-4e87-4146-a9f6-4c1294c4959a#src=seo_token) | Polkadot | 1.15% | $1.36M |
+| 1 | [hydration-dex →](https://www.defi.garden/?pool=030640cd-7bd6-534b-a389-a0475c8f926f#src=seo_token) | Polkadot | 0.23% | $315.7K |
+| 2 | [hydration-dex →](https://www.defi.garden/?pool=8702c691-9b2c-4722-a9c1-4eb6289bca94#src=seo_token) | Polkadot | 0.41% | $991.7K |
+| 3 | [hydration-dex →](https://www.defi.garden/?pool=9714729f-22d5-472e-b3fb-ed799a6bd4a5#src=seo_token) | Polkadot | 0.36% | $603.1K |
+| 4 | [hydration-dex →](https://www.defi.garden/?pool=470f1399-4e87-4146-a9f6-4c1294c4959a#src=seo_token) | Polkadot | 1.16% | $1.37M |
 | 5 | [hydration-dex →](https://www.defi.garden/?pool=ac63a425-ea86-4395-ae51-e849620399f7#src=seo_token) | Polkadot | 2.19% | $1.51M |
-| 6 | [hydration-dex →](https://www.defi.garden/?pool=725ad84c-242e-4ddc-9bda-e2462466119a#src=seo_token) | Polkadot | 1.07% | $653.8K |
-| 7 | [hydration-dex →](https://www.defi.garden/?pool=b365d27e-3eb3-4d68-a5a4-ecdceda06c6b#src=seo_token) | Polkadot | 0.63% | $805.5K |
+| 6 | [hydration-dex →](https://www.defi.garden/?pool=725ad84c-242e-4ddc-9bda-e2462466119a#src=seo_token) | Polkadot | 1.07% | $654.1K |
+| 7 | [hydration-dex →](https://www.defi.garden/?pool=b365d27e-3eb3-4d68-a5a4-ecdceda06c6b#src=seo_token) | Polkadot | 0.63% | $805.9K |
 | 8 | [hydration-dex →](https://www.defi.garden/?pool=e6ae5236-a78a-4ddb-b5f7-da2fea18f96c#src=seo_token) | Polkadot | 15.80% | $2.32M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -45,9 +45,9 @@ HOLLAR 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.23%부터 15.80%
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| hydration-dex | 15.80% | 15.72% | 인센티브 73.95% |
+| hydration-dex | 15.80% | 15.72% | 인센티브 73.97% |
 | hydration-dex | 2.19% | 1.66% | 기본 금리 |
-| hydration-dex | 1.15% | 0.89% | 기본 금리 |
+| hydration-dex | 1.16% | 0.89% | 기본 금리 |
 | hydration-dex | 0.41% | 0.22% | 기본 금리 |
 | hydration-dex | 0.63% | 0.90% | 기본 금리 |
 | hydration-dex | 1.07% | 0.53% | 기본 금리 |
@@ -64,7 +64,7 @@ DefiLlama 실시간 데이터 기준, Polkadot의 hydration-dex에서 APY 15.80%
 
 ### HOLLAR 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 10개이며, 합산 TVL은 $8.8M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 10개이며, 합산 TVL은 $8.82M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -72,7 +72,7 @@ DefiLlama 실시간 데이터 기준, Polkadot의 hydration-dex에서 APY 15.80%
 
 ### HOLLAR 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 HOLLAR의 변동성 낮은 후보는 Polkadot의 hydration-dex, APY 0.23%, TVL $315.5K, https://www.defi.garden/?pool=030640cd-7bd6-534b-a389-a0475c8f926f#src=seo_token; Polkadot의 hydration-dex, APY 0.41%, TVL $991K, https://www.defi.garden/?pool=8702c691-9b2c-4722-a9c1-4eb6289bca94#src=seo_token; Polkadot의 hydration-dex, APY 0.36%, TVL $602.9K, https://www.defi.garden/?pool=9714729f-22d5-472e-b3fb-ed799a6bd4a5#src=seo_token; Polkadot의 hydration-dex, APY 1.15%, TVL $1.36M, https://www.defi.garden/?pool=470f1399-4e87-4146-a9f6-4c1294c4959a#src=seo_token; Polkadot의 hydration-dex, APY 2.19%, TVL $1.51M, https://www.defi.garden/?pool=ac63a425-ea86-4395-ae51-e849620399f7#src=seo_token; Polkadot의 hydration-dex, APY 1.07%, TVL $653.8K, https://www.defi.garden/?pool=725ad84c-242e-4ddc-9bda-e2462466119a#src=seo_token; Polkadot의 hydration-dex, APY 0.63%, TVL $805.5K, https://www.defi.garden/?pool=b365d27e-3eb3-4d68-a5a4-ecdceda06c6b#src=seo_token; Polkadot의 hydration-dex, APY 15.80%, TVL $2.32M, https://www.defi.garden/?pool=e6ae5236-a78a-4ddb-b5f7-da2fea18f96c#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 HOLLAR의 변동성 낮은 후보는 Polkadot의 hydration-dex, APY 0.23%, TVL $315.7K, https://www.defi.garden/?pool=030640cd-7bd6-534b-a389-a0475c8f926f#src=seo_token; Polkadot의 hydration-dex, APY 0.41%, TVL $991.7K, https://www.defi.garden/?pool=8702c691-9b2c-4722-a9c1-4eb6289bca94#src=seo_token; Polkadot의 hydration-dex, APY 0.36%, TVL $603.1K, https://www.defi.garden/?pool=9714729f-22d5-472e-b3fb-ed799a6bd4a5#src=seo_token; Polkadot의 hydration-dex, APY 1.16%, TVL $1.37M, https://www.defi.garden/?pool=470f1399-4e87-4146-a9f6-4c1294c4959a#src=seo_token; Polkadot의 hydration-dex, APY 2.19%, TVL $1.51M, https://www.defi.garden/?pool=ac63a425-ea86-4395-ae51-e849620399f7#src=seo_token; Polkadot의 hydration-dex, APY 1.07%, TVL $654.1K, https://www.defi.garden/?pool=725ad84c-242e-4ddc-9bda-e2462466119a#src=seo_token; Polkadot의 hydration-dex, APY 0.63%, TVL $805.9K, https://www.defi.garden/?pool=b365d27e-3eb3-4d68-a5a4-ecdceda06c6b#src=seo_token; Polkadot의 hydration-dex, APY 15.80%, TVL $2.32M, https://www.defi.garden/?pool=e6ae5236-a78a-4ddb-b5f7-da2fea18f96c#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

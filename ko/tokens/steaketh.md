@@ -6,22 +6,22 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=22f041f7-8313-43c2-b319-bcf70f5ee2aa#src=seo_token) | Monad | 2.94% | $38.33M |
-| [morpho-blue →](https://www.defi.garden/?pool=1b2ca876-3a09-4261-a685-7818260bdc67#src=seo_token) | Ethereum | 1.82% | $30.67M |
-| [morpho-blue →](https://www.defi.garden/?pool=eed40ce3-ca1a-4433-b3e1-0689ed33d5cd#src=seo_token) | Ethereum | 1.74% | $26.26M |
-| [morpho-blue →](https://www.defi.garden/?pool=0a00bb9a-bad6-41ca-92e5-d6b9ad24857e#src=seo_token) | Base | 1.44% | $2.46M |
+| [morpho-blue →](https://www.defi.garden/?pool=22f041f7-8313-43c2-b319-bcf70f5ee2aa#src=seo_token) | Monad | 2.94% | $38.25M |
+| [morpho-blue →](https://www.defi.garden/?pool=1b2ca876-3a09-4261-a685-7818260bdc67#src=seo_token) | Ethereum | 1.83% | $30.62M |
+| [morpho-blue →](https://www.defi.garden/?pool=eed40ce3-ca1a-4433-b3e1-0689ed33d5cd#src=seo_token) | Ethereum | 1.74% | $26.22M |
+| [morpho-blue →](https://www.defi.garden/?pool=0a00bb9a-bad6-41ca-92e5-d6b9ad24857e#src=seo_token) | Base | 1.44% | $2.45M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 STEAKETH의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 1.82%, TVL $30.67M, https://www.defi.garden/?pool=1b2ca876-3a09-4261-a685-7818260bdc67#src=seo_token; Ethereum의 morpho-blue, APY 1.74%, TVL $26.26M, https://www.defi.garden/?pool=eed40ce3-ca1a-4433-b3e1-0689ed33d5cd#src=seo_token; Base의 morpho-blue, APY 1.44%, TVL $2.46M, https://www.defi.garden/?pool=0a00bb9a-bad6-41ca-92e5-d6b9ad24857e#src=seo_token; Monad의 morpho-blue, APY 2.94%, TVL $38.33M, https://www.defi.garden/?pool=22f041f7-8313-43c2-b319-bcf70f5ee2aa#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 STEAKETH의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 1.83%, TVL $30.62M, https://www.defi.garden/?pool=1b2ca876-3a09-4261-a685-7818260bdc67#src=seo_token; Ethereum의 morpho-blue, APY 1.74%, TVL $26.22M, https://www.defi.garden/?pool=eed40ce3-ca1a-4433-b3e1-0689ed33d5cd#src=seo_token; Base의 morpho-blue, APY 1.44%, TVL $2.45M, https://www.defi.garden/?pool=0a00bb9a-bad6-41ca-92e5-d6b9ad24857e#src=seo_token; Monad의 morpho-blue, APY 2.94%, TVL $38.25M, https://www.defi.garden/?pool=22f041f7-8313-43c2-b319-bcf70f5ee2aa#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=1b2ca876-3a09-4261-a685-7818260bdc67#src=seo_token) | Ethereum | 1.82% | $30.67M |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=eed40ce3-ca1a-4433-b3e1-0689ed33d5cd#src=seo_token) | Ethereum | 1.74% | $26.26M |
-| 3 | [morpho-blue →](https://www.defi.garden/?pool=0a00bb9a-bad6-41ca-92e5-d6b9ad24857e#src=seo_token) | Base | 1.44% | $2.46M |
-| 4 | [morpho-blue →](https://www.defi.garden/?pool=22f041f7-8313-43c2-b319-bcf70f5ee2aa#src=seo_token) | Monad | 2.94% | $38.33M |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=1b2ca876-3a09-4261-a685-7818260bdc67#src=seo_token) | Ethereum | 1.83% | $30.62M |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=eed40ce3-ca1a-4433-b3e1-0689ed33d5cd#src=seo_token) | Ethereum | 1.74% | $26.22M |
+| 3 | [morpho-blue →](https://www.defi.garden/?pool=0a00bb9a-bad6-41ca-92e5-d6b9ad24857e#src=seo_token) | Base | 1.44% | $2.45M |
+| 4 | [morpho-blue →](https://www.defi.garden/?pool=22f041f7-8313-43c2-b319-bcf70f5ee2aa#src=seo_token) | Monad | 2.94% | $38.25M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -35,8 +35,8 @@ STEAKETH 풀은 여기 4개가 있고, 3개 체인에서 APY가 1.44%부터 2.94
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| morpho-blue | 2.94% | 2.85% | 인센티브 51.07% |
-| morpho-blue | 1.82% | 1.84% | 기본 금리 |
+| morpho-blue | 2.94% | 2.85% | 인센티브 51.03% |
+| morpho-blue | 1.83% | 1.84% | 기본 금리 |
 | morpho-blue | 1.74% | 1.83% | 기본 금리 |
 | morpho-blue | 1.44% | 1.45% | 기본 금리 |
 
@@ -50,7 +50,7 @@ DefiLlama 실시간 데이터 기준, Monad의 morpho-blue에서 APY 2.94%예요
 
 ### STEAKETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $97.72M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $97.54M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -58,7 +58,7 @@ DefiLlama 실시간 데이터 기준, Monad의 morpho-blue에서 APY 2.94%예요
 
 ### STEAKETH 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 STEAKETH의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 1.82%, TVL $30.67M, https://www.defi.garden/?pool=1b2ca876-3a09-4261-a685-7818260bdc67#src=seo_token; Ethereum의 morpho-blue, APY 1.74%, TVL $26.26M, https://www.defi.garden/?pool=eed40ce3-ca1a-4433-b3e1-0689ed33d5cd#src=seo_token; Base의 morpho-blue, APY 1.44%, TVL $2.46M, https://www.defi.garden/?pool=0a00bb9a-bad6-41ca-92e5-d6b9ad24857e#src=seo_token; Monad의 morpho-blue, APY 2.94%, TVL $38.33M, https://www.defi.garden/?pool=22f041f7-8313-43c2-b319-bcf70f5ee2aa#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 STEAKETH의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 1.83%, TVL $30.62M, https://www.defi.garden/?pool=1b2ca876-3a09-4261-a685-7818260bdc67#src=seo_token; Ethereum의 morpho-blue, APY 1.74%, TVL $26.22M, https://www.defi.garden/?pool=eed40ce3-ca1a-4433-b3e1-0689ed33d5cd#src=seo_token; Base의 morpho-blue, APY 1.44%, TVL $2.45M, https://www.defi.garden/?pool=0a00bb9a-bad6-41ca-92e5-d6b9ad24857e#src=seo_token; Monad의 morpho-blue, APY 2.94%, TVL $38.25M, https://www.defi.garden/?pool=22f041f7-8313-43c2-b319-bcf70f5ee2aa#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

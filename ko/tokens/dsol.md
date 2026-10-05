@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [drift-staked-sol →](https://www.defi.garden/ko/pools/drift-staked-sol-dsol-solana) | Solana | 4.98% | $337.9M |
+| [drift-staked-sol →](https://www.defi.garden/ko/pools/drift-staked-sol-dsol-solana) | Solana | 4.98% | $336.63M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -37,7 +37,7 @@ DefiLlama 실시간 데이터 기준, Solana의 drift-staked-sol에서 APY 4.98%
 
 ### DSOL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $577.95M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $576.4M예요.
 
 ### 이 수익률은 안전한가요?
 

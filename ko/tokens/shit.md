@@ -6,18 +6,18 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=0c86b6ed-2cc2-4211-b363-f1889135527f#src=seo_token) | Ethereum | 1.74% | $295.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=0c86b6ed-2cc2-4211-b363-f1889135527f#src=seo_token) | Ethereum | 1.74% | $294.7K |
 | [raydium-amm →](https://www.defi.garden/?pool=7c0812aa-a058-4ec4-a00f-a8dfe5eaf895#src=seo_token) | Solana | 1.49% | $232.8K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 SHIT의 변동성 낮은 후보는 Solana의 raydium-amm, APY 1.49%, TVL $232.8K, https://www.defi.garden/?pool=7c0812aa-a058-4ec4-a00f-a8dfe5eaf895#src=seo_token; Ethereum의 uniswap-v4, APY 1.74%, TVL $295.3K, https://www.defi.garden/?pool=0c86b6ed-2cc2-4211-b363-f1889135527f#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SHIT의 변동성 낮은 후보는 Solana의 raydium-amm, APY 1.49%, TVL $232.8K, https://www.defi.garden/?pool=7c0812aa-a058-4ec4-a00f-a8dfe5eaf895#src=seo_token; Ethereum의 uniswap-v4, APY 1.74%, TVL $294.7K, https://www.defi.garden/?pool=0c86b6ed-2cc2-4211-b363-f1889135527f#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [raydium-amm →](https://www.defi.garden/?pool=7c0812aa-a058-4ec4-a00f-a8dfe5eaf895#src=seo_token) | Solana | 1.49% | $232.8K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=0c86b6ed-2cc2-4211-b363-f1889135527f#src=seo_token) | Ethereum | 1.74% | $295.3K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=0c86b6ed-2cc2-4211-b363-f1889135527f#src=seo_token) | Ethereum | 1.74% | $294.7K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -33,8 +33,8 @@ SHIT 풀은 여기 2개가 있고, 2개 체인에서 APY가 1.49%부터 1.74%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v4 | 1.74% | 1.33% | 기본 금리 |
-| raydium-amm | 1.49% | 4.08% | 기본 금리 |
+| uniswap-v4 | 1.74% | 1.34% | 기본 금리 |
+| raydium-amm | 1.49% | 4.09% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -46,7 +46,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 1.74%예�
 
 ### SHIT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $744.2K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $743.2K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -54,7 +54,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 1.74%예�
 
 ### SHIT 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 SHIT의 변동성 낮은 후보는 Solana의 raydium-amm, APY 1.49%, TVL $232.8K, https://www.defi.garden/?pool=7c0812aa-a058-4ec4-a00f-a8dfe5eaf895#src=seo_token; Ethereum의 uniswap-v4, APY 1.74%, TVL $295.3K, https://www.defi.garden/?pool=0c86b6ed-2cc2-4211-b363-f1889135527f#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SHIT의 변동성 낮은 후보는 Solana의 raydium-amm, APY 1.49%, TVL $232.8K, https://www.defi.garden/?pool=7c0812aa-a058-4ec4-a00f-a8dfe5eaf895#src=seo_token; Ethereum의 uniswap-v4, APY 1.74%, TVL $294.7K, https://www.defi.garden/?pool=0c86b6ed-2cc2-4211-b363-f1889135527f#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

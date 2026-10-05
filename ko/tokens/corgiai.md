@@ -2,11 +2,11 @@
 
 *DefiLlama 데이터 생성 시점 검증: October 5, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 CORGIAI의 가장 높은 정직한 수익률은 Cronos의 vvs-standard에서 0.45%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 CORGIAI의 가장 높은 정직한 수익률은 Cronos의 vvs-standard에서 0.55%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=f9358618-5c20-4d3c-bae7-8af83995de78#src=seo_token) | Cronos | 0.45% | $165.9K |
+| [vvs-standard →](https://www.defi.garden/?pool=f9358618-5c20-4d3c-bae7-8af83995de78#src=seo_token) | Cronos | 0.55% | $165.9K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,7 +19,7 @@
 
 ### 오늘 CORGIAI의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Cronos의 vvs-standard에서 APY 0.45%예요.
+DefiLlama 실시간 데이터 기준, Cronos의 vvs-standard에서 APY 0.55%예요.
 
 ### CORGIAI 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -40,7 +40,7 @@ DefiLlama 실시간 데이터 기준, Cronos의 vvs-standard에서 APY 0.45%예�
 - [VVS](https://www.defi.garden/ko/tokens/vvs)
 - [CDCETH](https://www.defi.garden/ko/tokens/cdceth)
 - [XRP](https://www.defi.garden/ko/tokens/xrp)
-- [LION](https://www.defi.garden/ko/tokens/lion)
+- [USDC.E](https://www.defi.garden/ko/tokens/usdc-e)
 
 ## 이용 가능한 체인
 

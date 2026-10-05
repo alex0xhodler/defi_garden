@@ -7,28 +7,28 @@ The highest honest STRCX yield right now is 22.29% on pendle-v2 (Ethereum), amon
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [pendle-v2 →](https://www.defi.garden/?pool=4d18fb78-c66d-5167-a044-28b92b26655e#src=seo_token) | Ethereum | 22.29% | $1.18M |
-| [pendle-v2 →](https://www.defi.garden/?pool=29d096ce-cb7e-5ddd-8e2a-492f05942433#src=seo_token) | Ethereum | 19.55% | $1.18M |
-| [raydium-amm →](https://www.defi.garden/?pool=c55a300c-3ca8-4b8a-bdaf-ab0d7bb966f3#src=seo_token) | Solana | 10.57% | $358.7K |
-| [raydium-amm →](https://www.defi.garden/?pool=d3f101e9-39b7-5c6e-80a4-c0a9a23a9bde#src=seo_token) | Solana | 4.31% | $164.5K |
+| [pendle-v2 →](https://www.defi.garden/?pool=29d096ce-cb7e-5ddd-8e2a-492f05942433#src=seo_token) | Ethereum | 19.52% | $1.18M |
+| [raydium-amm →](https://www.defi.garden/?pool=c55a300c-3ca8-4b8a-bdaf-ab0d7bb966f3#src=seo_token) | Solana | 10.65% | $358.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=d3f101e9-39b7-5c6e-80a4-c0a9a23a9bde#src=seo_token) | Solana | 4.08% | $164.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, STRCX's lower-variability candidates are pendle-v2 (Ethereum), 22.29% APY, $1.18M TVL, https://www.defi.garden/?pool=4d18fb78-c66d-5167-a044-28b92b26655e#src=seo_token; pendle-v2 (Ethereum), 19.55% APY, $1.18M TVL, https://www.defi.garden/?pool=29d096ce-cb7e-5ddd-8e2a-492f05942433#src=seo_token; raydium-amm (Solana), 10.57% APY, $358.7K TVL, https://www.defi.garden/?pool=c55a300c-3ca8-4b8a-bdaf-ab0d7bb966f3#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STRCX's lower-variability candidates are pendle-v2 (Ethereum), 22.29% APY, $1.18M TVL, https://www.defi.garden/?pool=4d18fb78-c66d-5167-a044-28b92b26655e#src=seo_token; pendle-v2 (Ethereum), 19.52% APY, $1.18M TVL, https://www.defi.garden/?pool=29d096ce-cb7e-5ddd-8e2a-492f05942433#src=seo_token; raydium-amm (Solana), 10.65% APY, $358.7K TVL, https://www.defi.garden/?pool=c55a300c-3ca8-4b8a-bdaf-ab0d7bb966f3#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [pendle-v2 →](https://www.defi.garden/?pool=4d18fb78-c66d-5167-a044-28b92b26655e#src=seo_token) | Ethereum | 22.29% | $1.18M |
-| 2 | [pendle-v2 →](https://www.defi.garden/?pool=29d096ce-cb7e-5ddd-8e2a-492f05942433#src=seo_token) | Ethereum | 19.55% | $1.18M |
-| 3 | [raydium-amm →](https://www.defi.garden/?pool=c55a300c-3ca8-4b8a-bdaf-ab0d7bb966f3#src=seo_token) | Solana | 10.57% | $358.7K |
+| 2 | [pendle-v2 →](https://www.defi.garden/?pool=29d096ce-cb7e-5ddd-8e2a-492f05942433#src=seo_token) | Ethereum | 19.52% | $1.18M |
+| 3 | [raydium-amm →](https://www.defi.garden/?pool=c55a300c-3ca8-4b8a-bdaf-ab0d7bb966f3#src=seo_token) | Solana | 10.65% | $358.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-STRCX shows up in 4 pools here, with rates from 4.31% to 22.29% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+STRCX shows up in 4 pools here, with rates from 4.08% to 22.29% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 37.47% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 37.46% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 4 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -36,10 +36,10 @@ STRCX shows up in 4 pools here, with rates from 4.31% to 22.29% APY across 2 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle-v2 | 22.29% | 23.09% | Base rate |
-| pendle-v2 | 19.55% | 25.24% | 12.26% incentives |
-| raydium-amm | 10.57% | 49.69% | Base rate |
-| raydium-amm | 4.31% | 62.33% | Base rate |
+| pendle-v2 | 22.29% | 23.08% | Base rate |
+| pendle-v2 | 19.52% | 25.22% | 12.07% incentives |
+| raydium-amm | 10.65% | 49.70% | Base rate |
+| raydium-amm | 4.08% | 62.23% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -59,7 +59,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which STRCX pools have the most stable APY history?
 
-Based on APY history only, STRCX's lower-variability candidates are pendle-v2 (Ethereum), 22.29% APY, $1.18M TVL, https://www.defi.garden/?pool=4d18fb78-c66d-5167-a044-28b92b26655e#src=seo_token; pendle-v2 (Ethereum), 19.55% APY, $1.18M TVL, https://www.defi.garden/?pool=29d096ce-cb7e-5ddd-8e2a-492f05942433#src=seo_token; raydium-amm (Solana), 10.57% APY, $358.7K TVL, https://www.defi.garden/?pool=c55a300c-3ca8-4b8a-bdaf-ab0d7bb966f3#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STRCX's lower-variability candidates are pendle-v2 (Ethereum), 22.29% APY, $1.18M TVL, https://www.defi.garden/?pool=4d18fb78-c66d-5167-a044-28b92b26655e#src=seo_token; pendle-v2 (Ethereum), 19.52% APY, $1.18M TVL, https://www.defi.garden/?pool=29d096ce-cb7e-5ddd-8e2a-492f05942433#src=seo_token; raydium-amm (Solana), 10.65% APY, $358.7K TVL, https://www.defi.garden/?pool=c55a300c-3ca8-4b8a-bdaf-ab0d7bb966f3#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

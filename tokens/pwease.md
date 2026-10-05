@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest PWEASE yield right now is 4.23% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PWEASE yield right now is 4.10% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=b079d173-6ed9-4dc5-845d-96d6301f2a00#src=seo_token) | Solana | 4.23% | $903.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=b079d173-6ed9-4dc5-845d-96d6301f2a00#src=seo_token) | Solana | 4.10% | $901.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PWEASE yield today?
 
-4.23% APY on raydium-amm (Solana), based on live DefiLlama data.
+4.10% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many PWEASE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $903.3K in total.
+1 live pool clear this page's $100K TVL floor, $901.7K in total.
 
 ### Are these rates safe?
 
