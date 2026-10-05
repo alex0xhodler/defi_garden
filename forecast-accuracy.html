@@ -164,7 +164,7 @@
         <p class="score-byline">DeFi Garden Underwriting Research · Evaluated against immutable daily snapshots · Horizon: 14 Days · Education, not financial advice.</p>
 
         <p class="score-lede">
-          DeFi Garden evaluates 14-day forward yield forecast distributions ($[p10, p90]$) against realized outcomes across single-sided lending venues, vaults, and staking markets (excluding volatile AMM LP pairs). Under our core operating principle &mdash; <em>honest numbers beat exciting numbers</em> &mdash; every run benchmarks predictions recorded on the exact date of emission against a naive "no-change" baseline ($APY_0$).
+          DeFi Garden evaluates 14-day forward yield forecast distributions ([p10, p90]) against realized outcomes across single-sided lending venues, vaults, and staking markets (excluding volatile AMM LP pairs). Under our core operating principle &mdash; <em>honest numbers beat exciting numbers</em> &mdash; every run benchmarks predictions recorded on the exact date of emission against a naive "no-change" baseline (today's APY).
         </p>
 
         <div class="kpi-row">
@@ -193,7 +193,7 @@
         </div>
 
         <div class="score-lede" style="background:var(--ui-surface-muted, rgba(0,0,0,0.03)); border:1px solid var(--ui-border); padding:16px 20px; border-radius:var(--ui-radius-md); font-size:0.92rem;">
-          <strong>Key Research Finding:</strong> Across 10 resolved daily runs, the empirical 80% confidence interval captures <strong>71.0%</strong> of actual outcomes. However, the median forecast skill score sits at <strong>-0.08</strong> against the naive baseline &mdash; confirming that in steady-state lending markets, assuming rates remain unchanged remains a highly competitive benchmark. Forecasts are marked experimental on all individual venue pages.
+          <strong>Key Research Finding:</strong> Across 10 resolved daily test runs, the empirical 80% confidence interval captures <strong>71.0%</strong> of actual outcomes. However, the median forecast skill score sits at <strong>-0.08</strong>: <em>in our first 10 test runs, assuming today's rate holds was more accurate than this forecast</em>. Roughly 60% of lending yields barely moved (&lt;0.1 pp), which the model handled well, but on pools with meaningful rate movement (&ge;0.5 pp), assuming no change was substantially closer. Individual venue pages mark forecasts as experimental.
         </div>
 
         <h2 style="font-size:1.25rem; margin:32px 0 10px;">Daily Resolved Evaluation Runs (14-Day Horizon)</h2>
@@ -203,6 +203,7 @@
                     <thead>
                         <tr>
                             <th>Run Horizon</th>
+                            <th>Emitted Commit</th>
                             <th class="num">Venues</th>
                             <th class="num">Dropouts</th>
                             <th class="num">Capture [p10, p90]</th>
@@ -214,9 +215,9 @@
                         </tr>
                     </thead>
                     <tbody>
-
     <tr>
       <td style="font-weight:600;">2026-09-12 &rarr; 09-26</td>
+      <td><a href="https://github.com/alex0xhodler/defi_garden/commit/0dc096b9909" target="_blank" rel="noopener" style="font-family:monospace; font-size:0.8rem; color:var(--ui-accent);">0dc096b9909</a> (06:58 UTC)</td>
       <td class="num">2,671</td>
       <td class="num">101</td>
       <td class="num" style="font-weight:600;">71.2%</td>
@@ -228,10 +229,9 @@
       <td class="num">68.1%</td>
       <td class="num">72.3%</td>
     </tr>
-  
-
     <tr>
       <td style="font-weight:600;">2026-09-13 &rarr; 09-27</td>
+      <td><a href="https://github.com/alex0xhodler/defi_garden/commit/20b12802e33" target="_blank" rel="noopener" style="font-family:monospace; font-size:0.8rem; color:var(--ui-accent);">20b12802e33</a> (07:17 UTC)</td>
       <td class="num">2,580</td>
       <td class="num">189</td>
       <td class="num" style="font-weight:600;">70.9%</td>
@@ -243,10 +243,9 @@
       <td class="num">66.9%</td>
       <td class="num">72.3%</td>
     </tr>
-  
-
     <tr>
       <td style="font-weight:600;">2026-09-14 &rarr; 09-28</td>
+      <td><a href="https://github.com/alex0xhodler/defi_garden/commit/5d2c94f5c38" target="_blank" rel="noopener" style="font-family:monospace; font-size:0.8rem; color:var(--ui-accent);">5d2c94f5c38</a> (07:41 UTC)</td>
       <td class="num">2,581</td>
       <td class="num">194</td>
       <td class="num" style="font-weight:600;">70.3%</td>
@@ -258,10 +257,9 @@
       <td class="num">65.1%</td>
       <td class="num">72.7%</td>
     </tr>
-  
-
     <tr>
       <td style="font-weight:600;">2026-09-15 &rarr; 09-29</td>
+      <td><a href="https://github.com/alex0xhodler/defi_garden/commit/c4e61d605db" target="_blank" rel="noopener" style="font-family:monospace; font-size:0.8rem; color:var(--ui-accent);">c4e61d605db</a> (07:18 UTC)</td>
       <td class="num">2,570</td>
       <td class="num">202</td>
       <td class="num" style="font-weight:600;">71.1%</td>
@@ -273,10 +271,9 @@
       <td class="num">68.7%</td>
       <td class="num">71.5%</td>
     </tr>
-  
-
     <tr>
       <td style="font-weight:600;">2026-09-16 &rarr; 09-30</td>
+      <td><a href="https://github.com/alex0xhodler/defi_garden/commit/b9954f25ead" target="_blank" rel="noopener" style="font-family:monospace; font-size:0.8rem; color:var(--ui-accent);">b9954f25ead</a> (07:21 UTC)</td>
       <td class="num">2,562</td>
       <td class="num">203</td>
       <td class="num" style="font-weight:600;">69.9%</td>
@@ -288,10 +285,9 @@
       <td class="num">64.1%</td>
       <td class="num">70.6%</td>
     </tr>
-  
-
     <tr>
       <td style="font-weight:600;">2026-09-17 &rarr; 10-01</td>
+      <td><a href="https://github.com/alex0xhodler/defi_garden/commit/47d45f99b6e" target="_blank" rel="noopener" style="font-family:monospace; font-size:0.8rem; color:var(--ui-accent);">47d45f99b6e</a> (07:15 UTC)</td>
       <td class="num">2,571</td>
       <td class="num">208</td>
       <td class="num" style="font-weight:600;">71.0%</td>
@@ -303,10 +299,9 @@
       <td class="num">68.7%</td>
       <td class="num">73.4%</td>
     </tr>
-  
-
     <tr>
       <td style="font-weight:600;">2026-09-18 &rarr; 10-02</td>
+      <td><a href="https://github.com/alex0xhodler/defi_garden/commit/5c78cf5da2f" target="_blank" rel="noopener" style="font-family:monospace; font-size:0.8rem; color:var(--ui-accent);">5c78cf5da2f</a> (07:10 UTC)</td>
       <td class="num">2,582</td>
       <td class="num">204</td>
       <td class="num" style="font-weight:600;">71.8%</td>
@@ -318,10 +313,9 @@
       <td class="num">68.8%</td>
       <td class="num">74.8%</td>
     </tr>
-  
-
     <tr>
       <td style="font-weight:600;">2026-09-19 &rarr; 10-03</td>
+      <td><a href="https://github.com/alex0xhodler/defi_garden/commit/a9ee0415a2a" target="_blank" rel="noopener" style="font-family:monospace; font-size:0.8rem; color:var(--ui-accent);">a9ee0415a2a</a> (07:09 UTC)</td>
       <td class="num">2,584</td>
       <td class="num">211</td>
       <td class="num" style="font-weight:600;">71.6%</td>
@@ -333,10 +327,9 @@
       <td class="num">69.0%</td>
       <td class="num">72.4%</td>
     </tr>
-  
-
     <tr>
       <td style="font-weight:600;">2026-09-20 &rarr; 10-04</td>
+      <td><a href="https://github.com/alex0xhodler/defi_garden/commit/2365ccc2730" target="_blank" rel="noopener" style="font-family:monospace; font-size:0.8rem; color:var(--ui-accent);">2365ccc2730</a> (07:34 UTC)</td>
       <td class="num">2,587</td>
       <td class="num">212</td>
       <td class="num" style="font-weight:600;">71.2%</td>
@@ -348,10 +341,9 @@
       <td class="num">69.3%</td>
       <td class="num">72.8%</td>
     </tr>
-  
-
     <tr>
       <td style="font-weight:600;">2026-09-21 &rarr; 10-05</td>
+      <td><a href="https://github.com/alex0xhodler/defi_garden/commit/e1f8c18d8b6" target="_blank" rel="noopener" style="font-family:monospace; font-size:0.8rem; color:var(--ui-accent);">e1f8c18d8b6</a> (07:45 UTC)</td>
       <td class="num">2,587</td>
       <td class="num">209</td>
       <td class="num" style="font-weight:600;">70.5%</td>
@@ -363,14 +355,13 @@
       <td class="num">66.4%</td>
       <td class="num">70.0%</td>
     </tr>
-  
                     </tbody>
                 </table>
             </div>
         </div>
 
         <p class="score-byline" style="margin-top:40px; border-bottom:none; border-top:1px solid var(--ui-border); padding-top:20px;">
-            Methodology: Evaluated per pre-registered filters in <code>docs/forecast-evaluation-methodology.md</code>. Verified via git commit logs and historical snapshot records.
+            Methodology: Evaluated per rules locked as of v1.0 on October 5, 2026 in <code>docs/forecast-evaluation-methodology.md</code>. Backfilled historical snapshots were recovered from git commits executed between 06:58 and 07:34 UTC daily. First prospective locked forecasts resolve on October 20, 2026.
         </p>
     </main>
 

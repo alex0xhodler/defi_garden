@@ -1,7 +1,7 @@
 # Yield Forecast Evaluation Methodology & Operational Protocol
 
 **Effective Date:** 2026-10-05  
-**Version:** 1.0.0 (Pre-registered & Immutable)  
+**Version:** 1.0.0 (Locked as of October 5, 2026)  
 **Evaluator:** DeFi Garden Research (`scripts/evaluate-forecast-accuracy.js`)  
 **Data Sources:** Point-in-time daily snapshots (`data/forecasts/YYYY-MM-DD.json`) and verified outcomes (`data/history/YYYY-MM-DD.json`).
 
@@ -9,7 +9,7 @@
 
 ## 1. Objective
 
-To provide an empirical, reproducible, and verifiable public track record of DeFi Garden's 14-day forward yield forecast distributions ($[p10, p50, p90]$), benchmarked against a naive "no-change" baseline.
+To provide an empirical, reproducible, and verifiable public track record of DeFi Garden's 14-day forward yield forecast distributions ([p10, p90]), benchmarked against a naive "no-change" baseline.
 
 Our core operating principle: **Honest numbers beat exciting numbers.**
 
@@ -17,18 +17,19 @@ Our core operating principle: **Honest numbers beat exciting numbers.**
 
 ## 2. Invariable Pre-Locked Evaluation Filters
 
-The following qualification gates are locked prior to outcome evaluation and must never be altered retroactively based on observed error deltas:
+The following qualification gates were locked as of v1.0 on October 5, 2026. The first prospective forecast runs under these locked rules resolve on **October 20, 2026**.
 
-1. **Emission Schedule (Point-in-Time Integrity):**
-   - Exactly one evaluation snapshot is emitted per calendar day, tied to the 02:00 UTC daily CI execution (`data/forecasts/YYYY-MM-DD.json`).
+1. **Emission Schedule & Point-in-Time Integrity:**
+   - Exactly one evaluation snapshot is emitted per calendar day, tied to the scheduled daily CI execution (`data/forecasts/YYYY-MM-DD.json`).
    - Forecasts are immutable: only forecasts recorded on the exact date of emission are ever evaluated against future outcomes.
-   - The issue-time APY ($APY_0$) is derived strictly from the same snapshot (`apyBase + apyReward`).
+   - The issue-time APY (APY at Day 0) is derived strictly from the same snapshot (`apyBase + apyReward`).
+   - **Audit Note on Backfilled Runs (Sep 12 – Oct 4):** Historical snapshots were recovered from the daily git commit log for `data/pools-snapshot.json` (executed between 06:58 and 07:34 UTC daily). Individual run commit hashes are documented in the evaluation ledger.
 
 2. **Capital Significance Floor:**
-   - Evaluated venues must clear the standard trust rail: $\text{TVL} \ge \$100,000$ at issue time.
+   - Evaluated venues must clear the standard trust rail: TVL >= $100,000 at issue time.
 
 3. **Sanity Cap:**
-   - Evaluated venues must clear the sanity ceiling: $APY_0 \le 1000\%$ at issue time.
+   - Evaluated venues must clear the sanity ceiling: APY at Day 0 <= 1000% at issue time.
 
 4. **Venue Archetype Scope (LP & Impermanent Loss Exclusion):**
    - Excludes multi-asset liquidity pairs, AMMs, and DEX liquidity pools (e.g. Uniswap, Aerodrome, Curve, Balancer, Orca, Raydium, PancakeSwap) subject to impermanent loss and ve(3,3) emission migrations.
@@ -38,35 +39,34 @@ The following qualification gates are locked prior to outcome evaluation and mus
 
 ## 3. Metrics & Statistical Baselines
 
-For each 14-day evaluation horizon ($D_0 \to D_{14}$):
+For each 14-day evaluation horizon (Day 0 -> Day 14):
 
 1. **Band Capture Rate:**
-   $$\text{Capture Rate} = \frac{\sum \mathbf{1}[p10_i \le APY_{14,i} \le p90_i]}{N}$$
-   Target: **80.0%** (theoretical nominal coverage of an 80% $[p10, p90]$ interval).
+   Percentage of pools whose realized 14-day rate falls inside the [p10, p90] interval. Target: **80.0%** (theoretical nominal coverage of an 80% [p10, p90] interval).
 
 2. **Model Mean Absolute Error (MAE):**
-   $$\text{MAE}_{\text{model}} = \frac{1}{N} \sum_{i=1}^N |APY_{14,i} - p50_i|$$
+   Average absolute delta between actual Day 14 APY and the model's median prediction (p50).
 
 3. **Naive "No-Change" Baseline MAE:**
-   $$\text{MAE}_{\text{naive}} = \frac{1}{N} \sum_{i=1}^N |APY_{14,i} - APY_{0,i}|$$
+   Average absolute delta between actual Day 14 APY and the issue-time APY (Day 0).
 
 4. **Forecast Skill Score:**
-   $$\text{Skill} = 1 - \frac{\text{MAE}_{\text{model}}}{\text{MAE}_{\text{naive}}}$$
-   - $\text{Skill} > 0$: Model adds predictive value over assuming rates stay unchanged.
-   - $\text{Skill} \le 0$: Model fails to outperform a naive static projection.
+   1 - (Model MAE / Naive MAE)
+   - Skill > 0: Model adds predictive value over assuming rates stay unchanged.
+   - Skill <= 0: Model fails to outperform assuming rates stay unchanged.
 
 5. **Sub-Cohort Segmentation:**
-   - **Overall Qualified Venues** ($\ge \$100\text{K}$ TVL)
+   - **Overall Qualified Venues** (>= $100K TVL)
    - **Stablecoins Only** (USDC, USDT, USDS, DAI, EURC, etc.)
-   - **High-Liquidity Venues** ($\text{TVL} \ge \$10,000,000$)
+   - **High-Liquidity Venues** (TVL >= $10,000,000)
 
 6. **Dropout Transparency:**
-   - Pools that delist, experience feed gaps, or break sanity limits between $D_0$ and $D_{14}$ are tallied and reported as dropouts rather than silently erased.
+   - Pools that delist, experience feed gaps, or break sanity limits between Day 0 and Day 14 are tallied and reported as dropouts rather than silently erased.
 
 ---
 
 ## 4. Policy on Empirical Skill Outperformance
 
-If the median Skill Score across resolved runs is $\le 0$, DeFi Garden policy mandates:
-1. Public forecast outputs must be labeled: *"Experimental forward directional forecast (currently benchmarking against naive baseline)"*.
-2. The Research Report must explicitly lead with this finding: *"Testing our forecasting engine against 'nothing changes' revealed that the naive baseline remains difficult to beat in steady-state lending."*
+If the median Skill Score across resolved runs is <= 0:
+1. Public forecast outputs must be labeled: *"Experimental forward forecast: In our first 10 test runs, assuming today's rate holds was more accurate than this forecast."*
+2. The Research Report must lead with this finding: *"60% of DeFi yields didn't move; our model handled those fine and missed the ones that moved."*

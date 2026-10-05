@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T13:52:38.946Z",
+  "generatedAt": "2026-10-05T14:05:55.630Z",
   "summary": {
     "totalRuns": 10,
     "medianBandCapture": 71.05,
@@ -19,6 +19,8 @@
     {
       "issueDate": "2026-09-12",
       "outcomeDate": "2026-09-26",
+      "commit": "0dc096b9909",
+      "commitTime": "06:58:05",
       "totalIssued": 2772,
       "evaluated": 2671,
       "droppedOut": 101,
@@ -46,6 +48,8 @@
     {
       "issueDate": "2026-09-13",
       "outcomeDate": "2026-09-27",
+      "commit": "20b12802e33",
+      "commitTime": "07:17:42",
       "totalIssued": 2769,
       "evaluated": 2580,
       "droppedOut": 189,
@@ -73,6 +77,8 @@
     {
       "issueDate": "2026-09-14",
       "outcomeDate": "2026-09-28",
+      "commit": "5d2c94f5c38",
+      "commitTime": "07:41:15",
       "totalIssued": 2775,
       "evaluated": 2581,
       "droppedOut": 194,
@@ -100,6 +106,8 @@
     {
       "issueDate": "2026-09-15",
       "outcomeDate": "2026-09-29",
+      "commit": "c4e61d605db",
+      "commitTime": "07:18:41",
       "totalIssued": 2772,
       "evaluated": 2570,
       "droppedOut": 202,
@@ -127,6 +135,8 @@
     {
       "issueDate": "2026-09-16",
       "outcomeDate": "2026-09-30",
+      "commit": "b9954f25ead",
+      "commitTime": "07:21:49",
       "totalIssued": 2765,
       "evaluated": 2562,
       "droppedOut": 203,
@@ -154,6 +164,8 @@
     {
       "issueDate": "2026-09-17",
       "outcomeDate": "2026-10-01",
+      "commit": "47d45f99b6e",
+      "commitTime": "07:15:51",
       "totalIssued": 2779,
       "evaluated": 2571,
       "droppedOut": 208,
@@ -181,6 +193,8 @@
     {
       "issueDate": "2026-09-18",
       "outcomeDate": "2026-10-02",
+      "commit": "5c78cf5da2f",
+      "commitTime": "07:10:52",
       "totalIssued": 2786,
       "evaluated": 2582,
       "droppedOut": 204,
@@ -208,6 +222,8 @@
     {
       "issueDate": "2026-09-19",
       "outcomeDate": "2026-10-03",
+      "commit": "a9ee0415a2a",
+      "commitTime": "07:09:10",
       "totalIssued": 2795,
       "evaluated": 2584,
       "droppedOut": 211,
@@ -235,6 +251,8 @@
     {
       "issueDate": "2026-09-20",
       "outcomeDate": "2026-10-04",
+      "commit": "2365ccc2730",
+      "commitTime": "07:34:13",
       "totalIssued": 2799,
       "evaluated": 2587,
       "droppedOut": 212,
@@ -262,6 +280,8 @@
     {
       "issueDate": "2026-09-21",
       "outcomeDate": "2026-10-05",
+      "commit": "e1f8c18d8b6",
+      "commitTime": "07:45:08",
       "totalIssued": 2796,
       "evaluated": 2587,
       "droppedOut": 209,

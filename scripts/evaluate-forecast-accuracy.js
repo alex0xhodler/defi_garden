@@ -32,6 +32,8 @@ function computeRunEvaluation(issueDate, outcomeDate, forecastFile, historyFile)
 
   const forecasts = forecastData.forecasts || {};
   const history = historyData.pools || {};
+  const commit = forecastData.commit || 'head';
+  const commitTime = forecastData.commitTime || '02:00:00';
 
   let totalIssued = 0;
   let evaluated = 0;
@@ -106,6 +108,8 @@ function computeRunEvaluation(issueDate, outcomeDate, forecastFile, historyFile)
   return {
     issueDate,
     outcomeDate,
+    commit,
+    commitTime,
     totalIssued,
     evaluated,
     droppedOut,
@@ -142,9 +146,13 @@ function median(values) {
 function renderHtml(report) {
   const runs = report.resolvedRuns;
 
-  const rows = runs.map(r => `
-    <tr>
+  const rows = runs.map(r => {
+    const commitLink = r.commit && r.commit !== 'local' && r.commit !== 'head'
+      ? `<a href="https://github.com/alex0xhodler/defi_garden/commit/${r.commit}" target="_blank" rel="noopener" style="font-family:monospace; font-size:0.8rem; color:var(--ui-accent);">${r.commit}</a> (${r.commitTime.slice(0, 5)} UTC)`
+      : `02:00 UTC`;
+    return `    <tr>
       <td style="font-weight:600;">${r.issueDate} &rarr; ${r.outcomeDate.slice(5)}</td>
+      <td>${commitLink}</td>
       <td class="num">${r.evaluated.toLocaleString()}</td>
       <td class="num">${r.droppedOut}</td>
       <td class="num" style="font-weight:600;">${r.overall.bandCapturePct.toFixed(1)}%</td>
@@ -155,8 +163,8 @@ function renderHtml(report) {
       </td>
       <td class="num">${r.stablecoins.bandCapturePct.toFixed(1)}%</td>
       <td class="num">${r.highLiquidity.bandCapturePct.toFixed(1)}%</td>
-    </tr>
-  `).join('\n');
+    </tr>`;
+  }).join('\n');
 
   return `<!DOCTYPE html>
 <html lang="en">
@@ -324,7 +332,7 @@ function renderHtml(report) {
         <p class="score-byline">DeFi Garden Underwriting Research · Evaluated against immutable daily snapshots · Horizon: 14 Days · Education, not financial advice.</p>
 
         <p class="score-lede">
-          DeFi Garden evaluates 14-day forward yield forecast distributions ($[p10, p90]$) against realized outcomes across single-sided lending venues, vaults, and staking markets (excluding volatile AMM LP pairs). Under our core operating principle &mdash; <em>honest numbers beat exciting numbers</em> &mdash; every run benchmarks predictions recorded on the exact date of emission against a naive "no-change" baseline ($APY_0$).
+          DeFi Garden evaluates 14-day forward yield forecast distributions ([p10, p90]) against realized outcomes across single-sided lending venues, vaults, and staking markets (excluding volatile AMM LP pairs). Under our core operating principle &mdash; <em>honest numbers beat exciting numbers</em> &mdash; every run benchmarks predictions recorded on the exact date of emission against a naive "no-change" baseline (today's APY).
         </p>
 
         <div class="kpi-row">
@@ -353,7 +361,7 @@ function renderHtml(report) {
         </div>
 
         <div class="score-lede" style="background:var(--ui-surface-muted, rgba(0,0,0,0.03)); border:1px solid var(--ui-border); padding:16px 20px; border-radius:var(--ui-radius-md); font-size:0.92rem;">
-          <strong>Key Research Finding:</strong> Across ${runs.length} resolved daily runs, the empirical 80% confidence interval captures <strong>${report.summary.medianBandCapture.toFixed(1)}%</strong> of actual outcomes. However, the median forecast skill score sits at <strong>${report.summary.medianSkillScore > 0 ? '+' : ''}${report.summary.medianSkillScore.toFixed(2)}</strong> against the naive baseline &mdash; confirming that in steady-state lending markets, assuming rates remain unchanged remains a highly competitive benchmark. Forecasts are marked experimental on all individual venue pages.
+          <strong>Key Research Finding:</strong> Across ${runs.length} resolved daily test runs, the empirical 80% confidence interval captures <strong>${report.summary.medianBandCapture.toFixed(1)}%</strong> of actual outcomes. However, the median forecast skill score sits at <strong>${report.summary.medianSkillScore > 0 ? '+' : ''}${report.summary.medianSkillScore.toFixed(2)}</strong>: <em>in our first 10 test runs, assuming today's rate holds was more accurate than this forecast</em>. Roughly 60% of lending yields barely moved (&lt;0.1 pp), which the model handled well, but on pools with meaningful rate movement (&ge;0.5 pp), assuming no change was substantially closer. Individual venue pages mark forecasts as experimental.
         </div>
 
         <h2 style="font-size:1.25rem; margin:32px 0 10px;">Daily Resolved Evaluation Runs (14-Day Horizon)</h2>
@@ -363,6 +371,7 @@ function renderHtml(report) {
                     <thead>
                         <tr>
                             <th>Run Horizon</th>
+                            <th>Emitted Commit</th>
                             <th class="num">Venues</th>
                             <th class="num">Dropouts</th>
                             <th class="num">Capture [p10, p90]</th>
@@ -381,7 +390,7 @@ ${rows}
         </div>
 
         <p class="score-byline" style="margin-top:40px; border-bottom:none; border-top:1px solid var(--ui-border); padding-top:20px;">
-            Methodology: Evaluated per pre-registered filters in <code>docs/forecast-evaluation-methodology.md</code>. Verified via git commit logs and historical snapshot records.
+            Methodology: Evaluated per rules locked as of v1.0 on October 5, 2026 in <code>docs/forecast-evaluation-methodology.md</code>. Backfilled historical snapshots were recovered from git commits executed between 06:58 and 07:34 UTC daily. First prospective locked forecasts resolve on October 20, 2026.
         </p>
     </main>
 

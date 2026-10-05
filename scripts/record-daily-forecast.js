@@ -50,6 +50,24 @@ function isStable(symbol) {
 }
 
 function main() {
+  // Only record on scheduled workflow runs (GITHUB_EVENT_NAME === 'schedule')
+  // or when explicitly run with --force. Never overwrite an existing daily file.
+  const isScheduled = process.env.GITHUB_EVENT_NAME === 'schedule';
+  const isForce = process.argv.includes('--force');
+
+  const dateStr = new Date().toISOString().split('T')[0];
+  const outPath = path.join(FORECASTS_DIR, `${dateStr}.json`);
+
+  if (!isScheduled && !isForce) {
+    console.log(`ℹ️ Skipping daily forecast record: workflow event '${process.env.GITHUB_EVENT_NAME || 'local'}' is not scheduled. Use --force to record manually.`);
+    return;
+  }
+
+  if (fs.existsSync(outPath) && !isForce) {
+    console.log(`ℹ️ Skipping daily forecast record: ${outPath} already exists for today. Write-once invariant enforced.`);
+    return;
+  }
+
   if (!fs.existsSync(SNAPSHOT_PATH)) {
     console.error('❌ pools-snapshot.json not found');
     process.exit(1);
@@ -57,13 +75,11 @@ function main() {
 
   const raw = JSON.parse(fs.readFileSync(SNAPSHOT_PATH, 'utf8'));
   const pools = raw.pools || raw.data || [];
-  const dateStr = new Date().toISOString().split('T')[0];
 
   if (!fs.existsSync(FORECASTS_DIR)) {
     fs.mkdirSync(FORECASTS_DIR, { recursive: true });
   }
 
-  const outPath = path.join(FORECASTS_DIR, `${dateStr}.json`);
   const ledger = {};
   let count = 0;
 
@@ -92,6 +108,8 @@ function main() {
   const payload = {
     date: dateStr,
     generatedAt: new Date().toISOString(),
+    event: process.env.GITHUB_EVENT_NAME || 'manual',
+    commit: process.env.GITHUB_SHA || 'local',
     totalRecorded: count,
     forecasts: ledger
   };
