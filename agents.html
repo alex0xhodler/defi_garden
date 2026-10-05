@@ -36,7 +36,7 @@
         "applicationCategory": "FinanceApplication",
         "operatingSystem": "All",
         "url": "https://www.defi.garden/agents",
-        "downloadUrl": "https://www.defi.garden/mcp",
+        "downloadUrl": "https://www.defi.garden/api/mcp",
         "description": "Model Context Protocol (MCP) server providing deterministic, zero-hallucination yield intelligence on Base for autonomous AI agents.",
         "offers": {
           "@type": "Offer",
@@ -55,7 +55,7 @@
         "name": "DeFi Garden Streamable MCP API",
         "description": "Streamable HTTP and SSE Model Context Protocol API for Base yield queries, lending rate discovery, and risk verification.",
         "documentation": "https://www.defi.garden/agents",
-        "endpointUrl": "https://www.defi.garden/mcp",
+        "endpointUrl": "https://www.defi.garden/api/mcp",
         "protocol": "Model Context Protocol (2024-11-05)"
       },
       {
@@ -83,7 +83,7 @@
             "name": "How do I connect Claude Desktop or Cursor to DeFi Garden MCP?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Add the endpoint 'https://www.defi.garden/mcp' as an HTTP transport server in your Claude Desktop or Cursor .mcp.json configuration file."
+              "text": "Add the endpoint 'https://www.defi.garden/api/mcp' as an HTTP transport server in your Claude Desktop or Cursor .mcp.json configuration file."
             }
           }
         ]
@@ -448,13 +448,13 @@
   "mcpServers": {
     "defi-garden": {
       "type": "http",
-      "url": "https://www.defi.garden/mcp"
+      "url": "https://www.defi.garden/api/mcp"
     }
   }
 }</code></pre>
         </div>
         <p style="font-size:0.8rem; color:var(--color-text-secondary); margin-top:12px; margin-bottom:0;">
-          Direct JSON-RPC MCP endpoint: <code style="color:var(--color-primary);">https://www.defi.garden/mcp</code>
+          Direct API endpoint: <code style="color:var(--color-primary);">https://www.defi.garden/api/mcp</code>
         </p>
       </div>
 
@@ -494,41 +494,51 @@
 
       <div class="tool-row">
         <div class="tool-head">
-          <span class="tool-signature">find_pools</span>
-          <button class="btn-exec" onclick="testTool('find_pools')">Run Query</button>
+          <span class="tool-signature">get_base_yields</span>
+          <button class="btn-exec" onclick="testTool('get_base_yields')">Run Query</button>
         </div>
         <div class="tool-description">
-          Search DeFi Garden's railed pool list by token symbol, chain, project, and minimum TVL floor.
+          Filter verified Base yield pools (Morpho Blue, Auto Finance baseEUR, Moonwell, Aerodrome, TermMax) with strict sanity limits and anomaly demotions.
         </div>
       </div>
 
       <div class="tool-row">
         <div class="tool-head">
-          <span class="tool-signature">get_pool</span>
-          <button class="btn-exec" onclick="testTool('get_pool')">Run Query</button>
+          <span class="tool-signature">find_lending_rate</span>
+          <button class="btn-exec" onclick="testTool('find_lending_rate')">Run Query</button>
         </div>
         <div class="tool-description">
-          Inspect a single DeFi pool by DefiLlama pool ID with full anomaly & sanity telemetry.
+          Query real-time supply and borrow lending APYs, collateral risk parameters, and LLTV limits on Base.
         </div>
       </div>
 
       <div class="tool-row">
         <div class="tool-head">
-          <span class="tool-signature">forever_number</span>
-          <button class="btn-exec" onclick="testTool('forever_number')">Run Query</button>
+          <span class="tool-signature">get_looping_params</span>
+          <button class="btn-exec" onclick="testTool('get_looping_params')">Run Query</button>
         </div>
         <div class="tool-description">
-          Calculate the lump-sum capital whose yield covers a recurring monthly bill forever (subscription math).
+          Calculate leverage multiplier, borrow capacity, liquidation threshold (LLTV), and net APY projection for yield looping strategies.
         </div>
       </div>
 
       <div class="tool-row">
         <div class="tool-head">
-          <span class="tool-signature">explain_rails</span>
-          <button class="btn-exec" onclick="testTool('explain_rails')">Run Query</button>
+          <span class="tool-signature">get_trust_rails</span>
+          <button class="btn-exec" onclick="testTool('get_trust_rails')">Run Query</button>
         </div>
         <div class="tool-description">
-          Retrieve active safety invariants, sanity ceilings, oracle divergence gates, and pool qualification criteria.
+          Retrieve active filtering rules, sanity ceilings, and pool qualification criteria.
+        </div>
+      </div>
+
+      <div class="tool-row">
+        <div class="tool-head">
+          <span class="tool-signature">get_pool_score</span>
+          <button class="btn-exec" onclick="testTool('get_pool_score')">Run Query</button>
+        </div>
+        <div class="tool-description">
+          Query quantitative yield quality score (DeFi Score 0-100), 4-pillar breakdown, 14-day forward yield forecast bands, and retail access restrictions.
         </div>
       </div>
 
@@ -536,7 +546,7 @@
       <div style="margin-top:20px;">
         <div style="font-size:0.85rem; font-weight:600; color:var(--color-text-secondary); margin-bottom:8px;">Live JSON-RPC Tool Execution Output:</div>
         <div class="code-box" style="max-height: 240px;">
-          <pre id="exec-result-box" style="margin:0;"><code>// Click "Run Query" on any tool above to test live execution against /mcp...</code></pre>
+          <pre id="exec-result-box" style="margin:0;"><code>// Click "Run Query" on any tool above to test live execution against /api/mcp...</code></pre>
         </div>
       </div>
     </div>
@@ -547,7 +557,6 @@
       <div class="brand-footer-links">
         <a href="/">Savings Planner</a>
         <a href="/?token=USDC">Analytics Grid</a>
-        <a href="/agents">AI Agents</a>
         <a href="/llms.txt">llms.txt</a>
         <a href="/sitemap.xml">Sitemap</a>
         <a href="https://github.com/alex0xhodler/defi_garden">GitHub</a>
@@ -604,13 +613,24 @@
       outputEl.textContent = `Executing tool: ${toolName}...`;
 
       let args = {};
-      if (toolName === 'find_pools') args = { token: "USDC", chain: "Base" };
-      if (toolName === 'get_pool') args = { pool_id: "ba68527f-8ec2-4c55-827a-8f4673ae047c" };
-      if (toolName === 'forever_number') args = { monthly: 100 };
-      if (toolName === 'explain_rails') args = {};
+      if (toolName === 'get_base_yields') {
+        args = { asset: "USDC" };
+      }
+      if (toolName === 'find_lending_rate') {
+        args = { asset: "USDC" };
+      }
+      if (toolName === 'get_looping_params') {
+        args = { collateral_asset: "cbETH", borrow_asset: "USDC" };
+      }
+      if (toolName === 'get_trust_rails') {
+        args = {};
+      }
+      if (toolName === 'get_pool_score') {
+        args = { asset: "USDC", chain: "Base" };
+      }
 
       try {
-        const res = await fetch('/mcp', {
+        const res = await fetch('/api/mcp', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
