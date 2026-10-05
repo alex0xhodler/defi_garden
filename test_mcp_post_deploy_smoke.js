@@ -76,20 +76,36 @@ async function check(name, fn) {
 async function main() {
   console.log(`MCP post-deploy smoke test against ${BASE_URL}\n`);
 
-  // First request doubles as the deployment-protection probe.
-  let first;
+  // Deployment-protection probe. Vercel Authentication answers an anonymous
+  // POST with 401 but REDIRECTS an anonymous HTML GET to a login page, so probe
+  // with a POST and never follow redirects here.
+  let probe;
   try {
-    first = await http('GET', '/mcp', { headers: { 'Accept': 'text/html' } });
+    probe = await http('POST', '/mcp', {
+      headers: MCP_HEADERS,
+      body: JSON.stringify({ jsonrpc: '2.0', id: 0, method: 'ping' }),
+      redirect: 'manual'
+    });
   } catch (err) {
     console.log(`  FAIL  first request to ${BASE_URL}/mcp\n        ${err.message}`);
     process.exit(1);
   }
-  if (first.status === 401) {
+  const protectedDeployment = probe.status === 401 ||
+    ((probe.status >= 300 && probe.status < 400) && /vercel\.com/.test(probe.headers.get('location') || ''));
+  if (protectedDeployment) {
     if (process.env.SMOKE_ALLOW_PROTECTED === '1') {
       console.log('SKIP: deployment protected');
       process.exit(0);
     }
     console.log('  FAIL  deployment returned 401 (protected) and SMOKE_ALLOW_PROTECTED is not 1');
+    process.exit(1);
+  }
+
+  let first;
+  try {
+    first = await http('GET', '/mcp', { headers: { 'Accept': 'text/html' } });
+  } catch (err) {
+    console.log(`  FAIL  GET ${BASE_URL}/mcp\n        ${err.message}`);
     process.exit(1);
   }
 
