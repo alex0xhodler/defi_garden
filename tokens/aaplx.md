@@ -2,12 +2,12 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest AAPLX yield right now is 7.39% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AAPLX yield right now is 7.11% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=9462784c-c0e5-4539-914e-ac006e5b3097#src=seo_token) | Solana | 6.76% | $298.1K |
-| [raydium-amm →](https://www.defi.garden/?pool=112aecd5-7776-518c-bd7a-6ffff5995926#src=seo_token) | Solana | 7.39% | $254K |
+| [raydium-amm →](https://www.defi.garden/?pool=9462784c-c0e5-4539-914e-ac006e5b3097#src=seo_token) | Solana | 5.60% | $298.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=112aecd5-7776-518c-bd7a-6ffff5995926#src=seo_token) | Solana | 7.11% | $254K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-AAPLX shows up in 2 pools here, with rates from 6.76% to 7.39% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+AAPLX shows up in 2 pools here, with rates from 5.60% to 7.11% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 116.33% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 116.20% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -28,8 +28,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 6.76% | 191.36% | Base rate |
-| raydium-amm | 7.39% | 41.31% | Base rate |
+| raydium-amm | 5.60% | 191.32% | Base rate |
+| raydium-amm | 7.11% | 41.07% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest AAPLX yield today?
 
-7.39% APY on raydium-amm (Solana), based on live DefiLlama data.
+7.11% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many AAPLX pools clear the TVL floor?
 

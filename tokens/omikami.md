@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest OMIKAMI yield right now is 6.90% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OMIKAMI yield right now is 6.41% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=72cca37d-43a9-4737-934e-52610c6126bb#src=seo_token) | Ethereum | 6.90% | $373.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=72cca37d-43a9-4737-934e-52610c6126bb#src=seo_token) | Ethereum | 6.41% | $374.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest OMIKAMI yield today?
 
-6.90% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+6.41% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many OMIKAMI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $373.7K in total.
+1 live pool clear this page's $100K TVL floor, $374.4K in total.
 
 ### Are these rates safe?
 

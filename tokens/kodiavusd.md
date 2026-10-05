@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest KODIAVUSD yield right now is 12.16% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KODIAVUSD yield right now is 12.25% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=afa4cd8e-4b07-4e8c-918f-9675a4f103d3#src=seo_token) | Berachain | 12.16% | $527.6K |
+| [berapaw →](https://www.defi.garden/?pool=afa4cd8e-4b07-4e8c-918f-9675a4f103d3#src=seo_token) | Berachain | 12.25% | $528.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KODIAVUSD yield today?
 
-12.16% APY on berapaw (Berachain), based on live DefiLlama data.
+12.25% APY on berapaw (Berachain), based on live DefiLlama data.
 
 ### How many KODIAVUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $527.6K in total.
+1 live pool clear this page's $100K TVL floor, $528.7K in total.
 
 ### Are these rates safe?
 
@@ -38,9 +38,9 @@ There is not enough qualifying APY history to rank KODIAVUSD pools. This view co
 - [UNIBTC](https://www.defi.garden/tokens/unibtc)
 - [KODIBRBTC](https://www.defi.garden/tokens/kodibrbtc)
 - [IBERA](https://www.defi.garden/tokens/ibera)
+- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [BUSD](https://www.defi.garden/tokens/busd)
 - [RE7HONEY](https://www.defi.garden/tokens/re7honey)
-- [HONEY](https://www.defi.garden/tokens/honey)
 
 ## Available on
 

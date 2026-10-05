@@ -6,7 +6,7 @@ The highest honest BRIDGE yield right now is 0.04% on project-x (Hyperliquid L1)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [project-x →](https://www.defi.garden/?pool=b00225ec-6445-4c0f-bd52-5e772975cd88#src=seo_token) | Hyperliquid L1 | 0.04% | $192.4K |
+| [project-x →](https://www.defi.garden/?pool=b00225ec-6445-4c0f-bd52-5e772975cd88#src=seo_token) | Hyperliquid L1 | 0.04% | $197.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BRIDGE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $192.4K in total.
+1 live pool clear this page's $100K TVL floor, $197.2K in total.
 
 ### Are these rates safe?
 

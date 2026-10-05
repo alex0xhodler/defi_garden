@@ -2,11 +2,11 @@
 
 *DefiLlama 데이터 생성 시점 검증: October 5, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 KODIBRBTC의 가장 높은 정직한 수익률은 Berachain의 berapaw에서 0.75%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 KODIBRBTC의 가장 높은 정직한 수익률은 Berachain의 berapaw에서 0.85%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=05d546df-73e2-4354-8cca-070ad6917067#src=seo_token) | Berachain | 0.75% | $20.36M |
+| [berapaw →](https://www.defi.garden/?pool=05d546df-73e2-4354-8cca-070ad6917067#src=seo_token) | Berachain | 0.85% | $20.36M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,7 +19,7 @@
 
 ### 오늘 KODIBRBTC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Berachain의 berapaw에서 APY 0.75%예요.
+DefiLlama 실시간 데이터 기준, Berachain의 berapaw에서 APY 0.85%예요.
 
 ### KODIBRBTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -37,10 +37,10 @@ DefiLlama 실시간 데이터 기준, Berachain의 berapaw에서 APY 0.75%예요
 
 - [UNIBTC](https://www.defi.garden/ko/tokens/unibtc)
 - [IBERA](https://www.defi.garden/ko/tokens/ibera)
+- [USDC.E](https://www.defi.garden/ko/tokens/usdc-e)
 - [BUSD](https://www.defi.garden/ko/tokens/busd)
 - [RE7HONEY](https://www.defi.garden/ko/tokens/re7honey)
 - [HONEY](https://www.defi.garden/ko/tokens/honey)
-- [CSRHONEY](https://www.defi.garden/ko/tokens/csrhoney)
 
 ## 이용 가능한 체인
 

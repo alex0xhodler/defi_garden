@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T09:01:21.610Z",
+  "generatedAt": "2026-10-05T12:24:46.565Z",
   "count": 100,
   "pages": [
     {
@@ -55,10 +55,6 @@
       "pool": "9f25a954-db87-4bb2-a8b2-4be0b843a44c"
     },
     {
-      "slug": "aave-v3-weth-ethereum",
-      "pool": "e880e828-ca59-4ec6-8d4f-27182a4dc23d"
-    },
-    {
       "slug": "blackrock-buidl-buidl-solana",
       "pool": "590d770e-ed5d-4c8d-ad96-5178c2072295"
     },
@@ -67,12 +63,16 @@
       "pool": "bd0f5a2a-5d74-40bd-a7db-bf1538b314a2"
     },
     {
-      "slug": "lista-liquid-staking-slisbnb-bsc",
-      "pool": "50bb5f69-85ea-4f70-81da-3661a1633fc4"
+      "slug": "aave-v3-weth-ethereum",
+      "pool": "e880e828-ca59-4ec6-8d4f-27182a4dc23d"
     },
     {
       "slug": "sky-lending-sky-ethereum",
       "pool": "370a27ed-7971-5a6d-9f9d-7f98ed64d299"
+    },
+    {
+      "slug": "lista-liquid-staking-slisbnb-bsc",
+      "pool": "50bb5f69-85ea-4f70-81da-3661a1633fc4"
     },
     {
       "slug": "liquid-collective-lseth-ethereum",
@@ -203,6 +203,10 @@
       "pool": "ff1bb959-d160-4906-bad2-d3e37a1e92e8"
     },
     {
+      "slug": "sparklend-weth-ethereum",
+      "pool": "24195b31-d749-445f-bf9e-b65aa025ebdd"
+    },
+    {
       "slug": "spark-savings-usdc-ethereum",
       "pool": "c5c74dd1-995c-4445-9d84-3e710bad7d52"
     },
@@ -213,10 +217,6 @@
     {
       "slug": "re-reusd-ethereum",
       "pool": "1c312830-ee96-40c9-b55f-b0f209ca6ebd"
-    },
-    {
-      "slug": "sparklend-weth-ethereum",
-      "pool": "24195b31-d749-445f-bf9e-b65aa025ebdd"
     },
     {
       "slug": "marinade-liquid-staking-msol-solana",
@@ -283,24 +283,24 @@
       "pool": "df7ccfd1-2642-4d79-851a-a5b07d9b8a97"
     },
     {
-      "slug": "sky-lending-usds-ethereum",
-      "pool": "4d87430b-688a-5ac5-a593-4e31ac715d02"
-    },
-    {
       "slug": "aave-v3-usdt-ethereum",
       "pool": "f981a304-bb6c-45b8-b0c5-fd2f515ad23a"
+    },
+    {
+      "slug": "sky-lending-usds-ethereum",
+      "pool": "4d87430b-688a-5ac5-a593-4e31ac715d02"
     },
     {
       "slug": "aave-v3-sgho-ethereum",
       "pool": "19d024ed-9c70-4323-9a81-fe873ea5f0e0"
     },
     {
-      "slug": "bybit-staked-sol-bbsol-solana",
-      "pool": "f76cc844-73a2-4cc7-8de7-f9fb874c626d"
-    },
-    {
       "slug": "apyx-protocol-apxusd-ethereum",
       "pool": "cb6139f9-4a68-4efd-8245-0312a92aee55"
+    },
+    {
+      "slug": "bybit-staked-sol-bbsol-solana",
+      "pool": "f76cc844-73a2-4cc7-8de7-f9fb874c626d"
     },
     {
       "slug": "uniswap-v3-weth-usdc-base",
@@ -311,12 +311,16 @@
       "pool": "8b46fdde-a5e4-4574-9926-6ba8047f4fca"
     },
     {
+      "slug": "jpool-jsol-solana",
+      "pool": "177d0a37-d0fb-4b18-b290-f46bbe8d307f"
+    },
+    {
       "slug": "aave-v3-usdc-ethereum",
       "pool": "aa70268e-4b52-42bf-a116-608b370f9501"
     },
     {
-      "slug": "jpool-jsol-solana",
-      "pool": "177d0a37-d0fb-4b18-b290-f46bbe8d307f"
+      "slug": "morpho-blue-steakeurcv-ethereum",
+      "pool": "d3b28212-a46b-4db8-8bb7-2c946b3cbe76"
     },
     {
       "slug": "aave-v3-syrupusdc-monad",
@@ -325,10 +329,6 @@
     {
       "slug": "blackrock-buidl-buidl-bsc",
       "pool": "55402b0b-af35-452b-b015-627b4233f0f1"
-    },
-    {
-      "slug": "morpho-blue-steakeurcv-ethereum",
-      "pool": "d3b28212-a46b-4db8-8bb7-2c946b3cbe76"
     },
     {
       "slug": "lista-lending-usd1-bsc",
@@ -347,12 +347,12 @@
       "pool": "4e8cc592-c8d5-4824-8155-128ba521e903"
     },
     {
-      "slug": "fluid-lending-usdc-ethereum",
-      "pool": "4438dabc-7f0c-430b-8136-2722711ae663"
-    },
-    {
       "slug": "hastra-prime-solana",
       "pool": "76bb34c2-e68a-4398-9fba-d8a14c0caa44"
+    },
+    {
+      "slug": "fluid-lending-usdc-ethereum",
+      "pool": "4438dabc-7f0c-430b-8136-2722711ae663"
     },
     {
       "slug": "pareto-credit-usdc-ethereum",
@@ -387,12 +387,12 @@
       "pool": "77602b5c-3d34-5275-acbd-a18a69ccb206"
     },
     {
-      "slug": "blazestake-bsol-solana",
-      "pool": "387d6732-59f0-4ae0-8a88-aba75a5cbe4a"
-    },
-    {
       "slug": "plume-vaults-nopal-plume-mainnet",
       "pool": "f21c4938-864a-44bd-91fb-c492864fcb46"
+    },
+    {
+      "slug": "blazestake-bsol-solana",
+      "pool": "387d6732-59f0-4ae0-8a88-aba75a5cbe4a"
     },
     {
       "slug": "bitwise-uscc-uscc-ethereum",

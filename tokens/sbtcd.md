@@ -6,7 +6,7 @@ The highest honest SBTCD yield right now is 8.52% on btcd (Ethereum), among 1 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [btcd →](https://www.defi.garden/?pool=4c095eb1-d4cf-4f5a-8f2d-55ea56a0ae06#src=seo_token) | Ethereum | 8.52% | $1.53M |
+| [btcd →](https://www.defi.garden/?pool=4c095eb1-d4cf-4f5a-8f2d-55ea56a0ae06#src=seo_token) | Ethereum | 8.52% | $1.52M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SBTCD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.53M in total.
+1 live pool clear this page's $100K TVL floor, $1.52M in total.
 
 ### Are these rates safe?
 

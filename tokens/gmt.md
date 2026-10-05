@@ -6,7 +6,7 @@ The highest honest GMT yield right now is 0.01% on uniswap-v4 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=2a721eca-4978-54ac-84e3-87fcea23d42c#src=seo_token) | Ethereum | 0.01% | $164.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=2a721eca-4978-54ac-84e3-87fcea23d42c#src=seo_token) | Ethereum | 0.01% | $164.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GMT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $164.9K in total.
+1 live pool clear this page's $100K TVL floor, $164.3K in total.
 
 ### Are these rates safe?
 

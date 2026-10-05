@@ -37,10 +37,10 @@ DefiLlama 실시간 데이터 기준, Aptos의 hyperion에서 APY 0.09%예요.
 
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USD1](https://www.defi.garden/ko/tokens/usd1)
+- [SYZUSD](https://www.defi.garden/ko/tokens/syzusd)
 - [XBTC](https://www.defi.garden/ko/tokens/xbtc)
 - [APT](https://www.defi.garden/ko/tokens/apt)
 - [AMAPT](https://www.defi.garden/ko/tokens/amapt)
-- [TRUAPT](https://www.defi.garden/ko/tokens/truapt)
 
 ## 이용 가능한 체인
 

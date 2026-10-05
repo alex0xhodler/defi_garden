@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest TSOTCHKE yield right now is 3.27% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TSOTCHKE yield right now is 3.08% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=5cfe916c-89f1-4adc-9226-41199e0695a6#src=seo_token) | Solana | 3.27% | $113.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=5cfe916c-89f1-4adc-9226-41199e0695a6#src=seo_token) | Solana | 3.08% | $112.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TSOTCHKE yield today?
 
-3.27% APY on raydium-amm (Solana), based on live DefiLlama data.
+3.08% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many TSOTCHKE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $113.3K in total.
+1 live pool clear this page's $100K TVL floor, $112.9K in total.
 
 ### Are these rates safe?
 

@@ -2,12 +2,12 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest PEAQ yield right now is 325.97% on orca-dex (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PEAQ yield right now is 349.48% on orca-dex (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=ab11cf49-f08b-500a-a419-9dc89590eafc#src=seo_token) | Solana | 10.80% | $222.7K |
-| [orca-dex →](https://www.defi.garden/?pool=124c169b-9c9a-5460-9de2-8933a65d58f7#src=seo_token) | Solana | 325.97% | $102.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=ab11cf49-f08b-500a-a419-9dc89590eafc#src=seo_token) | Solana | 11.64% | $222.5K |
+| [orca-dex →](https://www.defi.garden/?pool=124c169b-9c9a-5460-9de2-8933a65d58f7#src=seo_token) | Solana | 349.48% | $100.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-PEAQ shows up in 2 pools here, with rates from 10.80% to 325.97% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+PEAQ shows up in 2 pools here, with rates from 11.64% to 349.48% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 261.46% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 261.03% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -28,8 +28,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 10.80% | 230.33% | Base rate |
-| orca-dex | 325.97% | 292.60% | Base rate |
+| raydium-amm | 11.64% | 228.97% | Base rate |
+| orca-dex | 349.48% | 293.08% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest PEAQ yield today?
 
-325.97% APY on orca-dex (Solana), based on live DefiLlama data.
+349.48% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many PEAQ pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $324.8K in total.
+2 live pools clear this page's $100K TVL floor, $323.4K in total.
 
 ### Are these rates safe?
 

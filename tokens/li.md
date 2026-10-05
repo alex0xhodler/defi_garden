@@ -6,7 +6,7 @@ The highest honest LI yield right now is 3.69% on raydium-amm (Solana), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=604e17fa-df63-402f-b663-ad45e4bda904#src=seo_token) | Solana | 3.69% | $118.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=604e17fa-df63-402f-b663-ad45e4bda904#src=seo_token) | Solana | 3.69% | $118.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many LI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $118.2K in total.
+1 live pool clear this page's $100K TVL floor, $118.6K in total.
 
 ### Are these rates safe?
 

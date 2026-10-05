@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest INTC yield right now is 13.15% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest INTC yield right now is 17.66% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=0ed8ca08-4730-5066-b9c1-ce4b40f59d00#src=seo_token) | Solana | 13.15% | $124.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=0ed8ca08-4730-5066-b9c1-ce4b40f59d00#src=seo_token) | Solana | 17.66% | $123.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest INTC yield today?
 
-13.15% APY on raydium-amm (Solana), based on live DefiLlama data.
+17.66% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many INTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $124.4K in total.
+1 live pool clear this page's $100K TVL floor, $123.6K in total.
 
 ### Are these rates safe?
 

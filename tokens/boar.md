@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest BOAR yield right now is 216.79% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BOAR yield right now is 201.65% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=3392b14e-3657-5dc5-874d-6cc76b063915#src=seo_token) | Base | 216.79% | $441.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=3392b14e-3657-5dc5-874d-6cc76b063915#src=seo_token) | Base | 201.65% | $443.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BOAR yield today?
 
-216.79% APY on uniswap-v4 (Base), based on live DefiLlama data.
+201.65% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many BOAR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $441.2K in total.
+1 live pool clear this page's $100K TVL floor, $443.3K in total.
 
 ### Are these rates safe?
 

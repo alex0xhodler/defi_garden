@@ -6,32 +6,32 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [origin-ether →](https://www.defi.garden/?pool=423681e3-4787-40ce-ae43-e9f67c5269b3#src=seo_token) | Ethereum | 2.65% | $61.42M |
-| [curve-dex →](https://www.defi.garden/?pool=077b47b8-76c9-4081-97f2-9ca43ebdbaa0#src=seo_token) | Ethereum | 1.59% | $57.55M |
-| [curve-dex →](https://www.defi.garden/?pool=540d4202-fb1d-4bfd-bba9-508fc93b9249#src=seo_token) | Ethereum | 24.50% | $1.17M |
-| [stake-dao-yield →](https://www.defi.garden/?pool=02e8f190-ec31-4850-946a-185627abe6dc#src=seo_token) | Ethereum | 3.33% | $367.5K |
-| [convex-finance →](https://www.defi.garden/?pool=9b20c948-e4a2-476c-8a3a-5700ce26e017#src=seo_token) | Ethereum | 2.34% | $107.8K |
+| [origin-ether →](https://www.defi.garden/?pool=423681e3-4787-40ce-ae43-e9f67c5269b3#src=seo_token) | Ethereum | 2.65% | $61.3M |
+| [curve-dex →](https://www.defi.garden/?pool=077b47b8-76c9-4081-97f2-9ca43ebdbaa0#src=seo_token) | Ethereum | 1.59% | $57.52M |
+| [curve-dex →](https://www.defi.garden/?pool=540d4202-fb1d-4bfd-bba9-508fc93b9249#src=seo_token) | Ethereum | 24.40% | $1.17M |
+| [stake-dao-yield →](https://www.defi.garden/?pool=02e8f190-ec31-4850-946a-185627abe6dc#src=seo_token) | Ethereum | 3.33% | $367.1K |
+| [convex-finance →](https://www.defi.garden/?pool=9b20c948-e4a2-476c-8a3a-5700ce26e017#src=seo_token) | Ethereum | 2.26% | $107.9K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 OETH의 변동성 낮은 후보는 Ethereum의 stake-dao-yield, APY 3.33%, TVL $367.5K, https://www.defi.garden/?pool=02e8f190-ec31-4850-946a-185627abe6dc#src=seo_token; Ethereum의 origin-ether, APY 2.65%, TVL $61.42M, https://www.defi.garden/?pool=423681e3-4787-40ce-ae43-e9f67c5269b3#src=seo_token; Ethereum의 convex-finance, APY 2.34%, TVL $107.8K, https://www.defi.garden/?pool=9b20c948-e4a2-476c-8a3a-5700ce26e017#src=seo_token; Ethereum의 curve-dex, APY 24.50%, TVL $1.17M, https://www.defi.garden/?pool=540d4202-fb1d-4bfd-bba9-508fc93b9249#src=seo_token; Ethereum의 curve-dex, APY 1.59%, TVL $57.55M, https://www.defi.garden/?pool=077b47b8-76c9-4081-97f2-9ca43ebdbaa0#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 OETH의 변동성 낮은 후보는 Ethereum의 stake-dao-yield, APY 3.33%, TVL $367.1K, https://www.defi.garden/?pool=02e8f190-ec31-4850-946a-185627abe6dc#src=seo_token; Ethereum의 origin-ether, APY 2.65%, TVL $61.3M, https://www.defi.garden/?pool=423681e3-4787-40ce-ae43-e9f67c5269b3#src=seo_token; Ethereum의 convex-finance, APY 2.26%, TVL $107.9K, https://www.defi.garden/?pool=9b20c948-e4a2-476c-8a3a-5700ce26e017#src=seo_token; Ethereum의 curve-dex, APY 24.40%, TVL $1.17M, https://www.defi.garden/?pool=540d4202-fb1d-4bfd-bba9-508fc93b9249#src=seo_token; Ethereum의 curve-dex, APY 1.59%, TVL $57.52M, https://www.defi.garden/?pool=077b47b8-76c9-4081-97f2-9ca43ebdbaa0#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [stake-dao-yield →](https://www.defi.garden/?pool=02e8f190-ec31-4850-946a-185627abe6dc#src=seo_token) | Ethereum | 3.33% | $367.5K |
-| 2 | [origin-ether →](https://www.defi.garden/?pool=423681e3-4787-40ce-ae43-e9f67c5269b3#src=seo_token) | Ethereum | 2.65% | $61.42M |
-| 3 | [convex-finance →](https://www.defi.garden/?pool=9b20c948-e4a2-476c-8a3a-5700ce26e017#src=seo_token) | Ethereum | 2.34% | $107.8K |
-| 4 | [curve-dex →](https://www.defi.garden/?pool=540d4202-fb1d-4bfd-bba9-508fc93b9249#src=seo_token) | Ethereum | 24.50% | $1.17M |
-| 5 | [curve-dex →](https://www.defi.garden/?pool=077b47b8-76c9-4081-97f2-9ca43ebdbaa0#src=seo_token) | Ethereum | 1.59% | $57.55M |
+| 1 | [stake-dao-yield →](https://www.defi.garden/?pool=02e8f190-ec31-4850-946a-185627abe6dc#src=seo_token) | Ethereum | 3.33% | $367.1K |
+| 2 | [origin-ether →](https://www.defi.garden/?pool=423681e3-4787-40ce-ae43-e9f67c5269b3#src=seo_token) | Ethereum | 2.65% | $61.3M |
+| 3 | [convex-finance →](https://www.defi.garden/?pool=9b20c948-e4a2-476c-8a3a-5700ce26e017#src=seo_token) | Ethereum | 2.26% | $107.9K |
+| 4 | [curve-dex →](https://www.defi.garden/?pool=540d4202-fb1d-4bfd-bba9-508fc93b9249#src=seo_token) | Ethereum | 24.40% | $1.17M |
+| 5 | [curve-dex →](https://www.defi.garden/?pool=077b47b8-76c9-4081-97f2-9ca43ebdbaa0#src=seo_token) | Ethereum | 1.59% | $57.52M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-OETH 풀은 여기 5개가 있고, 1개 체인에서 APY가 1.59%부터 24.50%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+OETH 풀은 여기 5개가 있고, 1개 체인에서 APY가 1.59%부터 24.40%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 2.92%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 2.90%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 5개 풀 중 3개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -41,9 +41,9 @@ OETH 풀은 여기 5개가 있고, 1개 체인에서 APY가 1.59%부터 24.50%�
 |---|---|---|---|
 | origin-ether | 2.65% | 2.65% | 기본 금리 |
 | curve-dex | 1.59% | 1.55% | 인센티브 100.00% |
-| curve-dex | 24.50% | 15.72% | 인센티브 98.29% |
+| curve-dex | 24.40% | 15.84% | 인센티브 97.75% |
 | stake-dao-yield | 3.33% | 3.24% | 인센티브 99.70% |
-| convex-finance | 2.34% | 2.92% | 기본 금리 |
+| convex-finance | 2.26% | 2.90% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -55,7 +55,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 stake-dao-yield에서 APY 3.33
 
 ### OETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $144.65M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $144.43M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -63,7 +63,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 stake-dao-yield에서 APY 3.33
 
 ### OETH 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 OETH의 변동성 낮은 후보는 Ethereum의 stake-dao-yield, APY 3.33%, TVL $367.5K, https://www.defi.garden/?pool=02e8f190-ec31-4850-946a-185627abe6dc#src=seo_token; Ethereum의 origin-ether, APY 2.65%, TVL $61.42M, https://www.defi.garden/?pool=423681e3-4787-40ce-ae43-e9f67c5269b3#src=seo_token; Ethereum의 convex-finance, APY 2.34%, TVL $107.8K, https://www.defi.garden/?pool=9b20c948-e4a2-476c-8a3a-5700ce26e017#src=seo_token; Ethereum의 curve-dex, APY 24.50%, TVL $1.17M, https://www.defi.garden/?pool=540d4202-fb1d-4bfd-bba9-508fc93b9249#src=seo_token; Ethereum의 curve-dex, APY 1.59%, TVL $57.55M, https://www.defi.garden/?pool=077b47b8-76c9-4081-97f2-9ca43ebdbaa0#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 OETH의 변동성 낮은 후보는 Ethereum의 stake-dao-yield, APY 3.33%, TVL $367.1K, https://www.defi.garden/?pool=02e8f190-ec31-4850-946a-185627abe6dc#src=seo_token; Ethereum의 origin-ether, APY 2.65%, TVL $61.3M, https://www.defi.garden/?pool=423681e3-4787-40ce-ae43-e9f67c5269b3#src=seo_token; Ethereum의 convex-finance, APY 2.26%, TVL $107.9K, https://www.defi.garden/?pool=9b20c948-e4a2-476c-8a3a-5700ce26e017#src=seo_token; Ethereum의 curve-dex, APY 24.40%, TVL $1.17M, https://www.defi.garden/?pool=540d4202-fb1d-4bfd-bba9-508fc93b9249#src=seo_token; Ethereum의 curve-dex, APY 1.59%, TVL $57.52M, https://www.defi.garden/?pool=077b47b8-76c9-4081-97f2-9ca43ebdbaa0#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

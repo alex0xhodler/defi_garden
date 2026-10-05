@@ -6,7 +6,7 @@ The highest honest SHEN yield right now is 1.60% on minswap-dex (Cardano), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=e15556dc-87e1-41df-bd9a-edc2837f3be2#src=seo_token) | Cardano | 1.60% | $169.6K |
+| [minswap-dex →](https://www.defi.garden/?pool=e15556dc-87e1-41df-bd9a-edc2837f3be2#src=seo_token) | Cardano | 1.60% | $169.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SHEN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $169.6K in total.
+1 live pool clear this page's $100K TVL floor, $169.5K in total.
 
 ### Are these rates safe?
 

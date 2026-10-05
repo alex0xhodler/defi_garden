@@ -6,7 +6,7 @@ The highest honest RAAPL yield right now is 0.02% on uniswap-v3 (Arbitrum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=1a80fb09-2a3b-59b3-9b29-e967863fbb45#src=seo_token) | Arbitrum | 0.02% | $200.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1a80fb09-2a3b-59b3-9b29-e967863fbb45#src=seo_token) | Arbitrum | 0.02% | $200K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many RAAPL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $200.1K in total.
+1 live pool clear this page's $100K TVL floor, $200K in total.
 
 ### Are these rates safe?
 

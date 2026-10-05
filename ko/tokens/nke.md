@@ -2,11 +2,11 @@
 
 *DefiLlama 데이터 생성 시점 검증: October 5, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 NKE의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 74.36%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 NKE의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 79.99%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=ac090d98-de2e-5c25-ba8a-502c0639161b#src=seo_token) | Solana | 74.36% | $132.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=ac090d98-de2e-5c25-ba8a-502c0639161b#src=seo_token) | Solana | 79.99% | $127.9K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,11 +19,11 @@
 
 ### 오늘 NKE의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 74.36%예요.
+DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 79.99%예요.
 
 ### NKE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $132.9K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $127.9K예요.
 
 ### 이 수익률은 안전한가요?
 

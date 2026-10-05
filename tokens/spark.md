@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest SPARK yield right now is 20.88% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SPARK yield right now is 17.84% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=805f545c-2ca5-41a2-a455-992c6f4d5478#src=seo_token) | Base | 20.88% | $133K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=805f545c-2ca5-41a2-a455-992c6f4d5478#src=seo_token) | Base | 17.84% | $133.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SPARK yield today?
 
-20.88% APY on uniswap-v4 (Base), based on live DefiLlama data.
+17.84% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many SPARK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $133K in total.
+1 live pool clear this page's $100K TVL floor, $133.4K in total.
 
 ### Are these rates safe?
 

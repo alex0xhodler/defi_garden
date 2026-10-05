@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [stackingdao →](https://www.defi.garden/?pool=ce85a606-365c-5829-8fd4-1bfdf6cbaf00#src=seo_token) | Stacks | 2.39% | $17.82M |
+| [stackingdao →](https://www.defi.garden/?pool=ce85a606-365c-5829-8fd4-1bfdf6cbaf00#src=seo_token) | Stacks | 2.39% | $17.81M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

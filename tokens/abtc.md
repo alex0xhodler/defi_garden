@@ -37,10 +37,10 @@ There is not enough qualifying APY history to rank ABTC pools. This view covers 
 
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USD1](https://www.defi.garden/tokens/usd1)
+- [SYZUSD](https://www.defi.garden/tokens/syzusd)
 - [XBTC](https://www.defi.garden/tokens/xbtc)
 - [APT](https://www.defi.garden/tokens/apt)
 - [AMAPT](https://www.defi.garden/tokens/amapt)
-- [TRUAPT](https://www.defi.garden/tokens/truapt)
 
 ## Available on
 

@@ -6,7 +6,7 @@ The highest honest STBTC yield right now is 2.39% on stackingdao (Stacks), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [stackingdao →](https://www.defi.garden/?pool=ce85a606-365c-5829-8fd4-1bfdf6cbaf00#src=seo_token) | Stacks | 2.39% | $17.82M |
+| [stackingdao →](https://www.defi.garden/?pool=ce85a606-365c-5829-8fd4-1bfdf6cbaf00#src=seo_token) | Stacks | 2.39% | $17.81M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

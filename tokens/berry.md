@@ -6,7 +6,7 @@ The highest honest BERRY yield right now is 1.12% on uniswap-v3 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=1a40f2ff-1046-45ce-a6d7-d21d8fccd82b#src=seo_token) | Ethereum | 1.12% | $141.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1a40f2ff-1046-45ce-a6d7-d21d8fccd82b#src=seo_token) | Ethereum | 1.12% | $141.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BERRY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $141.6K in total.
+1 live pool clear this page's $100K TVL floor, $141.2K in total.
 
 ### Are these rates safe?
 

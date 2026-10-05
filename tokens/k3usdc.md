@@ -2,12 +2,12 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest K3USDC yield right now is 4.29% on morpho-blue (Hyperliquid L1), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest K3USDC yield right now is 4.31% on morpho-blue (Hyperliquid L1), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [morpho-blue →](https://www.defi.garden/?pool=cca340f1-03e7-5097-8d7c-f07def190cc2#src=seo_token) | Base | 4.19% | $3.69M |
-| [morpho-blue →](https://www.defi.garden/?pool=9daeac04-ab9f-5d39-9b45-4392309c79e7#src=seo_token) | Hyperliquid L1 | 4.29% | $2.06M |
+| [morpho-blue →](https://www.defi.garden/?pool=9daeac04-ab9f-5d39-9b45-4392309c79e7#src=seo_token) | Hyperliquid L1 | 4.31% | $2.06M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-K3USDC shows up in 2 pools here, with rates from 4.19% to 4.29% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+K3USDC shows up in 2 pools here, with rates from 4.19% to 4.31% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 4.78% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -26,8 +26,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 4.19% | 4.75% | Base rate |
-| morpho-blue | 4.29% | 4.82% | Base rate |
+| morpho-blue | 4.19% | 4.74% | Base rate |
+| morpho-blue | 4.31% | 4.82% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest K3USDC yield today?
 
-4.29% APY on morpho-blue (Hyperliquid L1), based on live DefiLlama data.
+4.31% APY on morpho-blue (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many K3USDC pools clear the TVL floor?
 

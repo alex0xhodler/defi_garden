@@ -6,7 +6,7 @@ The highest honest MURMURRUSDCONE yield right now is 6.20% on lagoon (Ethereum),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=89981eec-b7a8-43d5-af89-381dd4ed7d49#src=seo_token) | Ethereum | 6.20% | $226.6K |
+| [lagoon →](https://www.defi.garden/?pool=89981eec-b7a8-43d5-af89-381dd4ed7d49#src=seo_token) | Ethereum | 6.20% | $226.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MURMURRUSDCONE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $226.6K in total.
+1 live pool clear this page's $100K TVL floor, $226.8K in total.
 
 ### Are these rates safe?
 

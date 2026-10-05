@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest WTSLAX yield right now is 1.29% on fluxion-network (Mantle), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WTSLAX yield right now is 0.14% on fluxion-network (Mantle), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fluxion-network →](https://www.defi.garden/?pool=a4ff3d7c-a117-4b24-a9f9-6af46cd276c0#src=seo_token) | Mantle | 1.29% | $102.1K |
+| [fluxion-network →](https://www.defi.garden/?pool=a4ff3d7c-a117-4b24-a9f9-6af46cd276c0#src=seo_token) | Mantle | 0.14% | $101.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WTSLAX yield today?
 
-1.29% APY on fluxion-network (Mantle), based on live DefiLlama data.
+0.14% APY on fluxion-network (Mantle), based on live DefiLlama data.
 
 ### How many WTSLAX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $102.1K in total.
+1 live pool clear this page's $100K TVL floor, $101.8K in total.
 
 ### Are these rates safe?
 

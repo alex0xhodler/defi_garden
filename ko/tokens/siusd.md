@@ -7,20 +7,20 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [infinifi →](https://www.defi.garden/?pool=8fa2e60e-365a-41fc-8d50-fadde5041f94#src=seo_token) | Ethereum | 6.73% | $30.5M |
-| [pendle-v2 →](https://www.defi.garden/?pool=e45b5460-fb26-5c0b-92fd-a1abed86743a#src=seo_token) | Ethereum | 8.08% | $3.41M |
 | [pendle-v2 →](https://www.defi.garden/?pool=28c59256-f6c3-56ae-9423-6544f9e81776#src=seo_token) | Ethereum | 9.30% | $3.41M |
-| [pendle-v2 →](https://www.defi.garden/?pool=562f454d-ec4f-5a54-b469-fb3e18315f31#src=seo_token) | Ethereum | 8.35% | $1.21M |
+| [pendle-v2 →](https://www.defi.garden/?pool=e45b5460-fb26-5c0b-92fd-a1abed86743a#src=seo_token) | Ethereum | 8.11% | $3.41M |
 | [pendle-v2 →](https://www.defi.garden/?pool=0757d64d-b003-5292-8983-e0e2bb64c696#src=seo_token) | Ethereum | 9.08% | $1.21M |
+| [pendle-v2 →](https://www.defi.garden/?pool=562f454d-ec4f-5a54-b469-fb3e18315f31#src=seo_token) | Ethereum | 8.39% | $1.21M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 SIUSD의 변동성 낮은 후보는 Ethereum의 pendle-v2, APY 9.30%, TVL $3.41M, https://www.defi.garden/?pool=28c59256-f6c3-56ae-9423-6544f9e81776#src=seo_token; Ethereum의 pendle-v2, APY 8.08%, TVL $3.41M, https://www.defi.garden/?pool=e45b5460-fb26-5c0b-92fd-a1abed86743a#src=seo_token; Ethereum의 infinifi, APY 6.73%, TVL $30.5M, https://www.defi.garden/?pool=8fa2e60e-365a-41fc-8d50-fadde5041f94#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SIUSD의 변동성 낮은 후보는 Ethereum의 pendle-v2, APY 9.30%, TVL $3.41M, https://www.defi.garden/?pool=28c59256-f6c3-56ae-9423-6544f9e81776#src=seo_token; Ethereum의 pendle-v2, APY 8.11%, TVL $3.41M, https://www.defi.garden/?pool=e45b5460-fb26-5c0b-92fd-a1abed86743a#src=seo_token; Ethereum의 infinifi, APY 6.73%, TVL $30.5M, https://www.defi.garden/?pool=8fa2e60e-365a-41fc-8d50-fadde5041f94#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [pendle-v2 →](https://www.defi.garden/?pool=28c59256-f6c3-56ae-9423-6544f9e81776#src=seo_token) | Ethereum | 9.30% | $3.41M |
-| 2 | [pendle-v2 →](https://www.defi.garden/?pool=e45b5460-fb26-5c0b-92fd-a1abed86743a#src=seo_token) | Ethereum | 8.08% | $3.41M |
+| 2 | [pendle-v2 →](https://www.defi.garden/?pool=e45b5460-fb26-5c0b-92fd-a1abed86743a#src=seo_token) | Ethereum | 8.11% | $3.41M |
 | 3 | [infinifi →](https://www.defi.garden/?pool=8fa2e60e-365a-41fc-8d50-fadde5041f94#src=seo_token) | Ethereum | 6.73% | $30.5M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -35,11 +35,11 @@ SIUSD 풀은 여기 5개가 있고, 1개 체인에서 APY가 6.73%부터 9.30%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| infinifi | 6.73% | 6.22% | 기본 금리 |
-| pendle-v2 | 8.08% | 8.32% | 인센티브 2.40% |
+| infinifi | 6.73% | 6.21% | 기본 금리 |
 | pendle-v2 | 9.30% | 9.25% | 기본 금리 |
-| pendle-v2 | 8.35% | 9.50% | 인센티브 4.76% |
-| pendle-v2 | 9.08% | 9.88% | 기본 금리 |
+| pendle-v2 | 8.11% | 8.31% | 인센티브 2.41% |
+| pendle-v2 | 9.08% | 9.87% | 기본 금리 |
+| pendle-v2 | 8.39% | 9.49% | 인센티브 4.78% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -51,7 +51,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle-v2에서 APY 9.30%예�
 
 ### SIUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $52.42M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $52.46M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -59,7 +59,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle-v2에서 APY 9.30%예�
 
 ### SIUSD 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 SIUSD의 변동성 낮은 후보는 Ethereum의 pendle-v2, APY 9.30%, TVL $3.41M, https://www.defi.garden/?pool=28c59256-f6c3-56ae-9423-6544f9e81776#src=seo_token; Ethereum의 pendle-v2, APY 8.08%, TVL $3.41M, https://www.defi.garden/?pool=e45b5460-fb26-5c0b-92fd-a1abed86743a#src=seo_token; Ethereum의 infinifi, APY 6.73%, TVL $30.5M, https://www.defi.garden/?pool=8fa2e60e-365a-41fc-8d50-fadde5041f94#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SIUSD의 변동성 낮은 후보는 Ethereum의 pendle-v2, APY 9.30%, TVL $3.41M, https://www.defi.garden/?pool=28c59256-f6c3-56ae-9423-6544f9e81776#src=seo_token; Ethereum의 pendle-v2, APY 8.11%, TVL $3.41M, https://www.defi.garden/?pool=e45b5460-fb26-5c0b-92fd-a1abed86743a#src=seo_token; Ethereum의 infinifi, APY 6.73%, TVL $30.5M, https://www.defi.garden/?pool=8fa2e60e-365a-41fc-8d50-fadde5041f94#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

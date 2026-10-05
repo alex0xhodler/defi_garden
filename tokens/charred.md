@@ -6,7 +6,7 @@ The highest honest CHARRED yield right now is 0.41% on uniswap-v2 (Base), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=d0b98936-be82-4bd7-8534-0d027acc4872#src=seo_token) | Base | 0.41% | $593.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=d0b98936-be82-4bd7-8534-0d027acc4872#src=seo_token) | Base | 0.41% | $593.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CHARRED pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $593.5K in total.
+1 live pool clear this page's $100K TVL floor, $593.4K in total.
 
 ### Are these rates safe?
 

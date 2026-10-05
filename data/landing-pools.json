@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-05T09:01:21.610Z",
+  "generatedAt": "2026-10-05T12:24:46.565Z",
   "pools": [
     {
       "pool": "ac61ee82-2fe4-4f9b-a9cd-7fb33f598859",
       "symbol": "USDY",
       "project": "ondo-yield-assets",
       "chain": "Ethereum",
-      "tvlUsd": 1208299157,
+      "tvlUsd": 1208230812,
       "apy": 3.62,
       "defiScore": {
         "score": 92.3,
@@ -26,7 +26,7 @@
         "p90": 3.64,
         "organicApy": 3.63,
         "rewardApy": 0,
-        "predictedTvlUsd": 1209478378,
+        "predictedTvlUsd": 1209380746,
         "predictedTvlDelta": 0.001,
         "forwardDelta": 0.01,
         "crashRisk": "LOW",
@@ -54,15 +54,15 @@
       "symbol": "SUSDS",
       "project": "sky-lending",
       "chain": "Ethereum",
-      "tvlUsd": 4667254741,
+      "tvlUsd": 4723965946,
       "apy": 3.6,
       "defiScore": {
-        "score": 92.3,
+        "score": 92.2,
         "rating": "AAA",
         "breakdown": {
           "stability": 35,
           "sustainability": 22,
-          "stickiness": 21.2,
+          "stickiness": 21.1,
           "liquidity": 14.1
         }
       },
@@ -73,8 +73,8 @@
         "p90": 3.6,
         "organicApy": 3.6,
         "rewardApy": 0,
-        "predictedTvlUsd": 4663627148,
-        "predictedTvlDelta": -0.0008,
+        "predictedTvlUsd": 4683762074,
+        "predictedTvlDelta": -0.0085,
         "forwardDelta": 0,
         "crashRisk": "LOW",
         "skew": 0,
@@ -101,7 +101,7 @@
       "symbol": "USDC",
       "project": "maple",
       "chain": "Ethereum",
-      "tvlUsd": 2921658645,
+      "tvlUsd": 2919358608,
       "apy": 5.12,
       "defiScore": {
         "score": 91.5,
@@ -120,8 +120,8 @@
         "p90": 5.2,
         "organicApy": 5.08,
         "rewardApy": 0,
-        "predictedTvlUsd": 2888039827,
-        "predictedTvlDelta": -0.0115,
+        "predictedTvlUsd": 2886363268,
+        "predictedTvlDelta": -0.0113,
         "forwardDelta": -0.03,
         "crashRisk": "LOW",
         "skew": 0,
@@ -148,10 +148,10 @@
       "symbol": "STETH",
       "project": "lido",
       "chain": "Ethereum",
-      "tvlUsd": 26787385037,
+      "tvlUsd": 26770942730,
       "apy": 2.17,
       "defiScore": {
-        "score": 91.3,
+        "score": 91.4,
         "rating": "AAA",
         "breakdown": {
           "stability": 34.1,
@@ -167,8 +167,8 @@
         "p90": 2.3,
         "organicApy": 2.22,
         "rewardApy": 0,
-        "predictedTvlUsd": 26459621429,
-        "predictedTvlDelta": -0.0122,
+        "predictedTvlUsd": 26451292038,
+        "predictedTvlDelta": -0.0119,
         "forwardDelta": 0.05,
         "crashRisk": "LOW",
         "skew": 0,

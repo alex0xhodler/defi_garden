@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest MSUSDFRAX3CRV yield right now is 0.89% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MSUSDFRAX3CRV yield right now is 0.90% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=db862790-ae61-46c0-a954-6b9261d8d81c#src=seo_token) | Ethereum | 0.89% | $116.7K |
+| [yearn-finance →](https://www.defi.garden/?pool=db862790-ae61-46c0-a954-6b9261d8d81c#src=seo_token) | Ethereum | 0.90% | $116.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MSUSDFRAX3CRV yield today?
 
-0.89% APY on yearn-finance (Ethereum), based on live DefiLlama data.
+0.90% APY on yearn-finance (Ethereum), based on live DefiLlama data.
 
 ### How many MSUSDFRAX3CRV pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $116.7K in total.
+1 live pool clear this page's $100K TVL floor, $116.6K in total.
 
 ### Are these rates safe?
 

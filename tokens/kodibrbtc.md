@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest KODIBRBTC yield right now is 0.75% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KODIBRBTC yield right now is 0.85% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=05d546df-73e2-4354-8cca-070ad6917067#src=seo_token) | Berachain | 0.75% | $20.36M |
+| [berapaw →](https://www.defi.garden/?pool=05d546df-73e2-4354-8cca-070ad6917067#src=seo_token) | Berachain | 0.85% | $20.36M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KODIBRBTC yield today?
 
-0.75% APY on berapaw (Berachain), based on live DefiLlama data.
+0.85% APY on berapaw (Berachain), based on live DefiLlama data.
 
 ### How many KODIBRBTC pools clear the TVL floor?
 
@@ -37,10 +37,10 @@ There is not enough qualifying APY history to rank KODIBRBTC pools. This view co
 
 - [UNIBTC](https://www.defi.garden/tokens/unibtc)
 - [IBERA](https://www.defi.garden/tokens/ibera)
+- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [BUSD](https://www.defi.garden/tokens/busd)
 - [RE7HONEY](https://www.defi.garden/tokens/re7honey)
 - [HONEY](https://www.defi.garden/tokens/honey)
-- [CSRHONEY](https://www.defi.garden/tokens/csrhoney)
 
 ## Available on
 

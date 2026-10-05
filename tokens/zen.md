@@ -2,32 +2,32 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest ZEN yield right now is 88.09% on aerodrome-slipstream (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZEN yield right now is 58.81% on aerodrome-slipstream (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=6e7d0984-9a39-4619-86e2-13b9aae221b8#src=seo_token) | Base | 88.09% | $2.67M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=913c44c2-5b5c-4dd8-9961-f1d1c112cee2#src=seo_token) | Base | 59.72% | $1.78M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=024362d6-d555-5683-bcd4-3f5cdc1fde32#src=seo_token) | Base | 58.64% | $680.3K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=6e7d0984-9a39-4619-86e2-13b9aae221b8#src=seo_token) | Base | 46.77% | $2.84M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=913c44c2-5b5c-4dd8-9961-f1d1c112cee2#src=seo_token) | Base | 49.80% | $1.84M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=024362d6-d555-5683-bcd4-3f5cdc1fde32#src=seo_token) | Base | 58.81% | $677K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ZEN's lower-variability candidates are aerodrome-slipstream (Base), 58.64% APY, $680.3K TVL, https://www.defi.garden/?pool=024362d6-d555-5683-bcd4-3f5cdc1fde32#src=seo_token; aerodrome-slipstream (Base), 88.09% APY, $2.67M TVL, https://www.defi.garden/?pool=6e7d0984-9a39-4619-86e2-13b9aae221b8#src=seo_token; aerodrome-slipstream (Base), 59.72% APY, $1.78M TVL, https://www.defi.garden/?pool=913c44c2-5b5c-4dd8-9961-f1d1c112cee2#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ZEN's lower-variability candidates are aerodrome-slipstream (Base), 58.81% APY, $677K TVL, https://www.defi.garden/?pool=024362d6-d555-5683-bcd4-3f5cdc1fde32#src=seo_token; aerodrome-slipstream (Base), 46.77% APY, $2.84M TVL, https://www.defi.garden/?pool=6e7d0984-9a39-4619-86e2-13b9aae221b8#src=seo_token; aerodrome-slipstream (Base), 49.80% APY, $1.84M TVL, https://www.defi.garden/?pool=913c44c2-5b5c-4dd8-9961-f1d1c112cee2#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aerodrome-slipstream →](https://www.defi.garden/?pool=024362d6-d555-5683-bcd4-3f5cdc1fde32#src=seo_token) | Base | 58.64% | $680.3K |
-| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=6e7d0984-9a39-4619-86e2-13b9aae221b8#src=seo_token) | Base | 88.09% | $2.67M |
-| 3 | [aerodrome-slipstream →](https://www.defi.garden/?pool=913c44c2-5b5c-4dd8-9961-f1d1c112cee2#src=seo_token) | Base | 59.72% | $1.78M |
+| 1 | [aerodrome-slipstream →](https://www.defi.garden/?pool=024362d6-d555-5683-bcd4-3f5cdc1fde32#src=seo_token) | Base | 58.81% | $677K |
+| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=6e7d0984-9a39-4619-86e2-13b9aae221b8#src=seo_token) | Base | 46.77% | $2.84M |
+| 3 | [aerodrome-slipstream →](https://www.defi.garden/?pool=913c44c2-5b5c-4dd8-9961-f1d1c112cee2#src=seo_token) | Base | 49.80% | $1.84M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ZEN shows up in 3 pools here, with rates from 58.64% to 88.09% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+ZEN shows up in 3 pools here, with rates from 46.77% to 58.81% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 127.08% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 125.97% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 3 of 3 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -35,9 +35,9 @@ ZEN shows up in 3 pools here, with rates from 58.64% to 88.09% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 88.09% | 127.08% | 95.85% incentives |
-| aerodrome-slipstream | 59.72% | 145.75% | 82.28% incentives |
-| aerodrome-slipstream | 58.64% | 47.99% | 98.10% incentives |
+| aerodrome-slipstream | 46.77% | 125.97% | 91.58% incentives |
+| aerodrome-slipstream | 49.80% | 144.55% | 76.72% incentives |
+| aerodrome-slipstream | 58.81% | 48.11% | 97.84% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,11 +45,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ZEN yield today?
 
-88.09% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+58.81% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many ZEN pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $5.13M in total.
+3 live pools clear this page's $100K TVL floor, $5.36M in total.
 
 ### Are these rates safe?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ZEN pools have the most stable APY history?
 
-Based on APY history only, ZEN's lower-variability candidates are aerodrome-slipstream (Base), 58.64% APY, $680.3K TVL, https://www.defi.garden/?pool=024362d6-d555-5683-bcd4-3f5cdc1fde32#src=seo_token; aerodrome-slipstream (Base), 88.09% APY, $2.67M TVL, https://www.defi.garden/?pool=6e7d0984-9a39-4619-86e2-13b9aae221b8#src=seo_token; aerodrome-slipstream (Base), 59.72% APY, $1.78M TVL, https://www.defi.garden/?pool=913c44c2-5b5c-4dd8-9961-f1d1c112cee2#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ZEN's lower-variability candidates are aerodrome-slipstream (Base), 58.81% APY, $677K TVL, https://www.defi.garden/?pool=024362d6-d555-5683-bcd4-3f5cdc1fde32#src=seo_token; aerodrome-slipstream (Base), 46.77% APY, $2.84M TVL, https://www.defi.garden/?pool=6e7d0984-9a39-4619-86e2-13b9aae221b8#src=seo_token; aerodrome-slipstream (Base), 49.80% APY, $1.84M TVL, https://www.defi.garden/?pool=913c44c2-5b5c-4dd8-9961-f1d1c112cee2#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

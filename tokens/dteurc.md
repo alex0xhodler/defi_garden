@@ -6,7 +6,7 @@ The highest honest DTEURC yield right now is 5.19% on lagoon (Base), among 1 poo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=242447ae-f9f4-4cda-ab48-613710ed4d0d#src=seo_token) | Base | 5.19% | $120.8K |
+| [lagoon →](https://www.defi.garden/?pool=242447ae-f9f4-4cda-ab48-613710ed4d0d#src=seo_token) | Base | 5.19% | $121.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DTEURC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $120.8K in total.
+1 live pool clear this page's $100K TVL floor, $121.2K in total.
 
 ### Are these rates safe?
 

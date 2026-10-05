@@ -6,7 +6,7 @@ The highest honest DINO yield right now is 0.17% on uniswap-v2 (Base), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=c11562a5-29bd-444a-9223-f7362f4a89d2#src=seo_token) | Base | 0.17% | $3.26M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=c11562a5-29bd-444a-9223-f7362f4a89d2#src=seo_token) | Base | 0.17% | $3.25M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DINO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $3.26M in total.
+1 live pool clear this page's $100K TVL floor, $3.25M in total.
 
 ### Are these rates safe?
 

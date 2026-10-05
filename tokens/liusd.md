@@ -37,7 +37,7 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| infinifi | 9.58% | 8.81% | Base rate |
+| infinifi | 9.58% | 8.80% | Base rate |
 | infinifi | 10.32% | 9.49% | Base rate |
 | infinifi | 8.47% | 7.79% | Base rate |
 | infinifi | 7.01% | 6.45% | Base rate |

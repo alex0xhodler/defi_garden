@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest KARRAT yield right now is 11.24% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KARRAT yield right now is 11.96% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=b6214be0-25c2-4bd2-9986-8e25668fce26#src=seo_token) | Ethereum | 11.24% | $123.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=b6214be0-25c2-4bd2-9986-8e25668fce26#src=seo_token) | Ethereum | 11.96% | $122.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KARRAT yield today?
 
-11.24% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+11.96% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many KARRAT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $123.7K in total.
+1 live pool clear this page's $100K TVL floor, $122.8K in total.
 
 ### Are these rates safe?
 

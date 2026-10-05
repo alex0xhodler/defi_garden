@@ -6,7 +6,7 @@ The highest honest ROKO yield right now is 0.02% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=0ec07ec9-d27c-43d8-8e65-193f020344f8#src=seo_token) | Ethereum | 0.02% | $182.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=0ec07ec9-d27c-43d8-8e65-193f020344f8#src=seo_token) | Ethereum | 0.02% | $182.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ROKO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $182.2K in total.
+1 live pool clear this page's $100K TVL floor, $182.8K in total.
 
 ### Are these rates safe?
 

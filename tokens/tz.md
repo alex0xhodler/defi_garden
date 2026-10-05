@@ -6,7 +6,7 @@ The highest honest TZ yield right now is 1.23% on uniswap-v2 (Base), among 1 poo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=db9b3509-318f-47fb-adf1-bbb8d8192852#src=seo_token) | Base | 1.23% | $216.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=db9b3509-318f-47fb-adf1-bbb8d8192852#src=seo_token) | Base | 1.23% | $216.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TZ pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $216.9K in total.
+1 live pool clear this page's $100K TVL floor, $216.4K in total.
 
 ### Are these rates safe?
 

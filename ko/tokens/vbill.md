@@ -36,7 +36,7 @@ VBILL 풀은 여기 4개가 있고, 4개 체인에서 APY가 3.76%부터 3.76%�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | vaneck-treasury-fund | 3.76% | 3.64% | 기본 금리 |
-| vaneck-treasury-fund | 3.76% | 3.63% | 기본 금리 |
+| vaneck-treasury-fund | 3.76% | 3.64% | 기본 금리 |
 | vaneck-treasury-fund | 3.76% | 3.63% | 기본 금리 |
 | vaneck-treasury-fund | 3.76% | 3.64% | 기본 금리 |
 

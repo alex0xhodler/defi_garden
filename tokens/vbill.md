@@ -36,7 +36,7 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | vaneck-treasury-fund | 3.76% | 3.64% | Base rate |
-| vaneck-treasury-fund | 3.76% | 3.63% | Base rate |
+| vaneck-treasury-fund | 3.76% | 3.64% | Base rate |
 | vaneck-treasury-fund | 3.76% | 3.63% | Base rate |
 | vaneck-treasury-fund | 3.76% | 3.64% | Base rate |
 

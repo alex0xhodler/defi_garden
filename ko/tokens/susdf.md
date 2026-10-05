@@ -6,20 +6,20 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [falcon-finance →](https://www.defi.garden/?pool=0f67a08c-3f24-4a4b-963e-541f5a5c0364#src=seo_token) | Ethereum | 3.79% | $58.91M |
-| [pendle-v2 →](https://www.defi.garden/?pool=37568975-6c2a-4aa0-8249-904eed2d093e#src=seo_token) | Ethereum | 5.83% | $235.5K |
-| [pendle-v2 →](https://www.defi.garden/?pool=a0378513-f9c5-4e6d-908d-9d6eb15e057c#src=seo_token) | Ethereum | 4.50% | $235.5K |
+| [falcon-finance →](https://www.defi.garden/?pool=0f67a08c-3f24-4a4b-963e-541f5a5c0364#src=seo_token) | Ethereum | 3.79% | $58.9M |
+| [pendle-v2 →](https://www.defi.garden/?pool=37568975-6c2a-4aa0-8249-904eed2d093e#src=seo_token) | Ethereum | 5.83% | $235.6K |
+| [pendle-v2 →](https://www.defi.garden/?pool=a0378513-f9c5-4e6d-908d-9d6eb15e057c#src=seo_token) | Ethereum | 4.50% | $235.6K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 SUSDF의 변동성 낮은 후보는 Ethereum의 pendle-v2, APY 5.83%, TVL $235.5K, https://www.defi.garden/?pool=37568975-6c2a-4aa0-8249-904eed2d093e#src=seo_token; Ethereum의 pendle-v2, APY 4.50%, TVL $235.5K, https://www.defi.garden/?pool=a0378513-f9c5-4e6d-908d-9d6eb15e057c#src=seo_token; Ethereum의 falcon-finance, APY 3.79%, TVL $58.91M, https://www.defi.garden/?pool=0f67a08c-3f24-4a4b-963e-541f5a5c0364#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SUSDF의 변동성 낮은 후보는 Ethereum의 pendle-v2, APY 5.83%, TVL $235.6K, https://www.defi.garden/?pool=37568975-6c2a-4aa0-8249-904eed2d093e#src=seo_token; Ethereum의 pendle-v2, APY 4.50%, TVL $235.6K, https://www.defi.garden/?pool=a0378513-f9c5-4e6d-908d-9d6eb15e057c#src=seo_token; Ethereum의 falcon-finance, APY 3.79%, TVL $58.9M, https://www.defi.garden/?pool=0f67a08c-3f24-4a4b-963e-541f5a5c0364#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [pendle-v2 →](https://www.defi.garden/?pool=37568975-6c2a-4aa0-8249-904eed2d093e#src=seo_token) | Ethereum | 5.83% | $235.5K |
-| 2 | [pendle-v2 →](https://www.defi.garden/?pool=a0378513-f9c5-4e6d-908d-9d6eb15e057c#src=seo_token) | Ethereum | 4.50% | $235.5K |
-| 3 | [falcon-finance →](https://www.defi.garden/?pool=0f67a08c-3f24-4a4b-963e-541f5a5c0364#src=seo_token) | Ethereum | 3.79% | $58.91M |
+| 1 | [pendle-v2 →](https://www.defi.garden/?pool=37568975-6c2a-4aa0-8249-904eed2d093e#src=seo_token) | Ethereum | 5.83% | $235.6K |
+| 2 | [pendle-v2 →](https://www.defi.garden/?pool=a0378513-f9c5-4e6d-908d-9d6eb15e057c#src=seo_token) | Ethereum | 4.50% | $235.6K |
+| 3 | [falcon-finance →](https://www.defi.garden/?pool=0f67a08c-3f24-4a4b-963e-541f5a5c0364#src=seo_token) | Ethereum | 3.79% | $58.9M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -55,7 +55,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle-v2에서 APY 5.83%예�
 
 ### SUSDF 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 SUSDF의 변동성 낮은 후보는 Ethereum의 pendle-v2, APY 5.83%, TVL $235.5K, https://www.defi.garden/?pool=37568975-6c2a-4aa0-8249-904eed2d093e#src=seo_token; Ethereum의 pendle-v2, APY 4.50%, TVL $235.5K, https://www.defi.garden/?pool=a0378513-f9c5-4e6d-908d-9d6eb15e057c#src=seo_token; Ethereum의 falcon-finance, APY 3.79%, TVL $58.91M, https://www.defi.garden/?pool=0f67a08c-3f24-4a4b-963e-541f5a5c0364#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SUSDF의 변동성 낮은 후보는 Ethereum의 pendle-v2, APY 5.83%, TVL $235.6K, https://www.defi.garden/?pool=37568975-6c2a-4aa0-8249-904eed2d093e#src=seo_token; Ethereum의 pendle-v2, APY 4.50%, TVL $235.6K, https://www.defi.garden/?pool=a0378513-f9c5-4e6d-908d-9d6eb15e057c#src=seo_token; Ethereum의 falcon-finance, APY 3.79%, TVL $58.9M, https://www.defi.garden/?pool=0f67a08c-3f24-4a4b-963e-541f5a5c0364#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
