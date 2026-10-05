@@ -1,0 +1,27 @@
+name: 'Post-deploy MCP smoke'
+
+# Runs the live MCP smoke test against every successful Vercel deployment.
+# Production failures fail the job. Preview deployments behind Vercel deployment
+# protection (401) are skipped, not failed (SMOKE_ALLOW_PROTECTED=1).
+on:
+  deployment_status:
+
+permissions:
+  contents: read
+
+jobs:
+  smoke:
+    if: github.event.deployment_status.state == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run MCP smoke test
+        env:
+          SMOKE_ALLOW_PROTECTED: ${{ github.event.deployment.environment != 'Production' && '1' || '0' }}
+        run: node test_mcp_post_deploy_smoke.js "${{ github.event.deployment_status.environment_url || github.event.deployment_status.target_url }}"

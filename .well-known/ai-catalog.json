@@ -14,19 +14,9 @@
       "representativeQueries": [
         "what is the best USDC yield on Base",
         "find safe staking pools for ETH",
+        "get the DeFi Score and 14-day forecast for a pool",
         "calculate forever number for monthly expenses",
         "explain DeFi Garden trust rails and TVL floor"
-      ]
-    },
-    {
-      "identifier": "urn:air:defi.garden:api:yields",
-      "displayName": "DeFi Garden Public Yield API",
-      "type": "application/openapi+json",
-      "url": "https://www.defi.garden/openapi.json",
-      "representativeQueries": [
-        "query live DeFi yield pools",
-        "check API health and freshness",
-        "get pool details by DefiLlama ID"
       ]
     },
     {

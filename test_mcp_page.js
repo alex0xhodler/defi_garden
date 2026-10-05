@@ -3,9 +3,9 @@ const fs = require('fs');
 const path = require('path');
 
 function testMcpPage() {
-  console.log('Testing DeFi Garden MCP Landing Page (mcp.html)...');
-  const filePath = path.join(__dirname, 'mcp.html');
-  assert.ok(fs.existsSync(filePath), 'mcp.html must exist on disk');
+  console.log('Testing DeFi Garden MCP Landing Page (mcp-page.html)...');
+  const filePath = path.join(__dirname, 'mcp-page.html');
+  assert.ok(fs.existsSync(filePath), 'mcp-page.html must exist on disk');
 
   const content = fs.readFileSync(filePath, 'utf8');
 
@@ -34,7 +34,20 @@ function testMcpPage() {
   assert.ok(content.includes('explain_rails'), 'explain_rails tool item required');
   assert.ok(content.includes('testTool') || content.includes('runTool'), 'Interactive execution function required');
 
-  console.log('  ✓ mcp.html: SEO, AEO/GEO JSON-LD schemas, and interactive tool components validated');
+  assert.ok(content.includes('get_pool_score'), 'get_pool_score tool item required');
+  assert.ok(!fs.existsSync(path.join(__dirname, 'mcp.html')), 'mcp.html must not exist (it shadows the /mcp rewrite)');
+  assert.ok(!fs.existsSync(path.join(__dirname, 'agents.html')), 'agents.html must not exist (/agents redirects to /mcp)');
+
+  // No unsupported claims, and no endpoint that does not exist in production.
+  for (const banned of ['Machine-Native Base Yield Intelligence', 'Base Mainnet', 'Zero Rate Hallucinations', 'zero rate hallucinations',
+    'cryptographic sanity checks', 'Live Data Attestation', 'Every number derives from live pool feeds', 'defi.garden/api/mcp']) {
+    assert.ok(!content.includes(banned), `mcp-page.html must not contain unsupported claim: ${banned}`);
+  }
+  assert.ok(content.includes('"endpointUrl": "https://www.defi.garden/mcp"'), 'JSON-LD endpointUrl must be the canonical /mcp endpoint');
+  assert.ok(content.includes("'Accept': 'application/json, text/event-stream'"), 'runner must send the MCP Accept header');
+  assert.ok(content.includes('HTTP ${res.status}'), 'runner must surface non-2xx status instead of a JSON parse crash');
+
+  console.log('  ✓ mcp-page.html: SEO, AEO/GEO JSON-LD schemas, and interactive tool components validated');
   console.log('All MCP Landing Page tests passed successfully.');
 }
 

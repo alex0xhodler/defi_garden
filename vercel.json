@@ -51,12 +51,18 @@
       "destination": "/home"
     },
     {
-      "source": "/agents",
-      "destination": "/mcp.html"
+      "source": "/mcp",
+      "has": [
+        { "type": "header", "key": "accept", "value": "(.*)text/html(.*)" }
+      ],
+      "missing": [
+        { "type": "header", "key": "content-type", "value": "(.*)application/json(.*)" }
+      ],
+      "destination": "/mcp-page"
     },
     {
       "source": "/mcp",
-      "destination": "/mcp.html"
+      "destination": "/api/mcp"
     },
     {
       "source": "/.well-known/api-catalog",
@@ -110,6 +116,11 @@
       "source": "/:path*",
       "has": [{ "type": "host", "value": "^(www\\.)?yield\\.garden$" }],
       "destination": "https://www.defi.garden/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/agents",
+      "destination": "/mcp",
       "permanent": true
     },
     {
@@ -875,8 +886,29 @@
     {
       "source": "/mcp",
       "headers": [
-        { "key": "Content-Type", "value": "text/html; charset=utf-8" },
-        { "key": "Cache-Control", "value": "public, max-age=300, stale-while-revalidate=86400" }
+        { "key": "Vary", "value": "Accept, Content-Type" },
+        { "key": "Cache-Control", "value": "no-store" },
+        { "key": "Access-Control-Allow-Methods", "value": "GET, POST, OPTIONS" },
+        { "key": "Access-Control-Allow-Headers", "value": "Content-Type, Accept, Authorization, MCP-Protocol-Version, x-mcp-version" }
+      ]
+    },
+    {
+      "source": "/api/mcp",
+      "headers": [
+        { "key": "Access-Control-Allow-Methods", "value": "GET, POST, OPTIONS" },
+        { "key": "Access-Control-Allow-Headers", "value": "Content-Type, Accept, Authorization, MCP-Protocol-Version, x-mcp-version" }
+      ]
+    },
+    {
+      "source": "/mcp-page",
+      "headers": [
+        { "key": "X-Robots-Tag", "value": "noindex" }
+      ]
+    },
+    {
+      "source": "/mcp-page.html",
+      "headers": [
+        { "key": "X-Robots-Tag", "value": "noindex" }
       ]
     },
     {
