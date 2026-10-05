@@ -386,4 +386,26 @@ test('with no manifest entry the pre-W1 output is unchanged', () => {
   } finally { links.setPoolPageManifest(null); }
 });
 
+test('forecast disclaimer is data-driven when data/forecast-evaluations.json has resolved runs', () => {
+  const fsx = require('fs'), px = require('path');
+  const evPath = px.join(__dirname, 'data', 'forecast-evaluations.json');
+  if (!fsx.existsSync(evPath)) return;
+  const ev = JSON.parse(fsx.readFileSync(evPath, 'utf8'));
+  if (!(ev && ev.summary && Number(ev.summary.totalRuns) > 0)) return;
+  // Regression guard: the stats block once read ROOT before its declaration
+  // (TDZ), threw inside try/catch and silently fell back on every page.
+  const src = fsx.readFileSync(px.join(__dirname, 'generate-pool-score-pages.js'), 'utf8');
+  const useAt = src.indexOf("'forecast-evaluations.json'");
+  const rootDecl = src.indexOf('const ROOT');
+  assert.ok(useAt > 0, 'generator must read forecast-evaluations.json');
+  assert.ok(!/path\.join\(ROOT,\s*'data',\s*'forecast-evaluations\.json'\)/.test(src) || rootDecl < useAt,
+    'forecast-evaluations.json must not be read via ROOT before ROOT is declared');
+  const page = px.join(__dirname, 'pools', 'aave-v3-usdc-ethereum.html');
+  if (fsx.existsSync(page)) {
+    const html = fsx.readFileSync(page, 'utf8');
+    assert.ok(html.includes(`across ${ev.summary.totalRuns} resolved test runs`),
+      'committed pool page must carry the data-driven disclaimer, not the fallback');
+  }
+});
+
 console.log(`\n${passed} passed, ${failed} failed`);

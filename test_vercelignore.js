@@ -25,7 +25,7 @@
      (e) LINK INTEGRITY — scans every KEPT served text asset that could
          reference another file (root *.html, stories/*.html, the shipped
          app JS, llms*.txt, sitemap*.xml, every .well-known JSON file,
-         openapi.json, tools/*.json) for same-origin references and asserts
+         tools/*.json) for same-origin references and asserts
          NONE resolve to an EXCLUDED path. This is the check that catches a
          mis-enumeration before a deploy spends Vercel free-tier quota
          finding out the hard way.
@@ -257,8 +257,8 @@ const MUST_KEEP = [
   'pool-detail-styles.css', 'pool-detail-styles.min.css',
   'landing-styles.css',
   // SEO / agent-discovery surface.
-  'robots.txt', 'llms.txt', 'llms-full.txt', 'openapi.json', 'status',
-  'fa81c8f43e7870a3b48e7481b2b7c8df.txt', 'ai-info.html', 'ai-info.md',
+  'robots.txt', 'llms.txt', 'llms-full.txt', 'status',
+  'fa81c8f43e7870a3b48e7481b2b7c8df.txt',
   // item 226 (Google head-curation, 2026-08-05): EMIT_APP_VIEW_SITEMAPS now
   // defaults to false, so generate-sitemap.js stops regenerating the
   // app-view families (sitemap-chain-<Chain>.xml, sitemap-category-<Cat>.xml,
@@ -271,10 +271,6 @@ const MUST_KEEP = [
   // Social / favicons.
   'og-image.png',
   'og-yield-card.png',
-  // Agent-discovery skill doc — NOT excluded despite looking like an
-  // internal doc; see .well-known/oauth-authorization-server.json's
-  // agent_auth.skill field (caught by the link-integrity check below).
-  'auth.md',
   // Runtime data (fetched client-side — app.js:1253-class paths).
   'data/pools-snapshot.json', 'data/pools-snapshot-meta.json', 'data/protocol-urls.json',
   'data/history/2026-08-04.json',
@@ -307,13 +303,9 @@ const MUST_KEEP = [
   // extension-based exclude would break this).
   '.well-known/api-catalog.json',
   '.well-known/ai-catalog.json',
-  '.well-known/acp.json',
   '.well-known/mcp/server-card.json',
   '.well-known/mcp/server-cards.json',
   '.well-known/mcp.json',
-  '.well-known/oauth-authorization-server.json',
-  '.well-known/oauth-protected-resource.json',
-  '.well-known/openid-configuration.json',
   '.well-known/agent-skills/index.json',
   '.well-known/agent-skills/agentic-readiness/SKILL.md',
   '.well-known/agent-skills/agentic-readiness/references/ai-visibility-audit.md',
@@ -324,6 +316,29 @@ const MUST_KEEP = [
   '.well-known/agent-skills/agentic-readiness/templates/vercel-agentic-readiness.json',
   '.well-known/agent-skills/agentic-readiness/templates/webmcp-bootstrap.js',
 ];
+
+// Deleted discovery files: the REST API / OAuth surface they advertised 404s in
+// production (the only agent endpoint is the MCP server at /mcp). They must stay
+// gone — an OAuth/OpenID metadata file on a server that needs no auth invites an
+// MCP client to attempt a login. /ai-info and /auth.md are redirected to /mcp in
+// vercel.json (asserted in test_markdown_negotiation.js); the rest must 404.
+const DELETED_DISCOVERY_FILES = [
+  'openapi.json', 'ai-info.md', 'ai-info.html', 'auth.md',
+  '.well-known/acp.json',
+  '.well-known/oauth-authorization-server.json',
+  '.well-known/oauth-protected-resource.json',
+  '.well-known/openid-configuration.json',
+];
+test('(c) deleted discovery files are absent (not tracked, not on disk) and never listed as MUST-KEEP', () => {
+  const resurrected = DELETED_DISCOVERY_FILES.filter((f) => ALL_FILES_SET.has(f) || fs.existsSync(path.join(ROOT, f)));
+  assert.deepStrictEqual(resurrected, [], `deleted discovery file(s) reappeared: ${JSON.stringify(resurrected)}`);
+  const stillKept = DELETED_DISCOVERY_FILES.filter((f) => MUST_KEEP.includes(f));
+  assert.deepStrictEqual(stillKept, [], `MUST_KEEP must not name deleted files: ${JSON.stringify(stillKept)}`);
+  const vercel = JSON.parse(fs.readFileSync(path.join(ROOT, 'vercel.json'), 'utf8'));
+  const refs = JSON.stringify([vercel.rewrites, vercel.headers]);
+  const dead = DELETED_DISCOVERY_FILES.filter((f) => refs.includes(f.replace(/\.json$/, '')) || refs.includes('/' + f));
+  assert.deepStrictEqual(dead, [], `vercel.json rewrites/headers must not reference deleted files: ${JSON.stringify(dead)}`);
+});
 
 test('(c) every MUST-KEEP path is a real tracked file (fixture sanity — a typo here would silently under-test)', () => {
   const missingOnDisk = MUST_KEEP.filter((f) => !ALL_FILES_SET.has(f));
@@ -451,12 +466,11 @@ const shippedAppJs = [
 const llmsFiles = ['llms.txt', 'llms-full.txt'].filter((f) => KEPT_SET.has(f));
 const sitemapFiles = KEPT.filter((f) => /^sitemap.*\.xml$/.test(f));
 const wellKnownJsonFiles = KEPT.filter((f) => f.startsWith('.well-known/') && f.endsWith('.json'));
-const openapiFiles = ['openapi.json'].filter((f) => KEPT_SET.has(f));
 const toolsJsonFiles = KEPT.filter((f) => /^tools\/[^/]+\.json$/.test(f));
 
 const SCAN_TARGETS = [
   ...rootHtmlFiles, ...storyHtmlFiles, ...shippedAppJs, ...llmsFiles,
-  ...sitemapFiles, ...wellKnownJsonFiles, ...openapiFiles, ...toolsJsonFiles,
+  ...sitemapFiles, ...wellKnownJsonFiles, ...toolsJsonFiles,
 ];
 
 test('(e) link-integrity fixture sanity: the scan set is non-empty and covers every named class', () => {
@@ -474,7 +488,6 @@ test('(e) link-integrity fixture sanity: the scan set is non-empty and covers ev
   // silently breaking the day CI regenerates for real.
   assert.ok(sitemapFiles.length >= 5, `expected >=5 sitemap*.xml files, got ${sitemapFiles.length}`);
   assert.ok(wellKnownJsonFiles.length >= 5, `expected >=5 .well-known/**/*.json files, got ${wellKnownJsonFiles.length}`);
-  assert.ok(openapiFiles.length === 1, 'expected openapi.json in the scan set');
   assert.ok(toolsJsonFiles.length >= 2, `expected >=2 tools/*.json files, got ${toolsJsonFiles.length}`);
 });
 

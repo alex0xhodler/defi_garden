@@ -41,6 +41,18 @@ const { createTranslationFunction, translations } = require('./translations.js')
 const { PERMISSIONED_PROJECT_LIST } = require('./permissioned-projects.js');
 const { assignPoolSlugs, slugify, MANIFEST_REL_PATH } = require('./pool-page-links.js');
 
+// --- forecast-evaluation stats (drives pspForecastDisclaimer) ----------------
+let _feStats = { totalRuns: 0, noBetter: 0, evaluated: 0 };
+try {
+  const _feRaw = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'forecast-evaluations.json'), 'utf8'));
+  const _feS = _feRaw && _feRaw.summary;
+  if (_feS && Number.isFinite(Number(_feS.totalRuns)) && Number(_feS.totalRuns) > 0) {
+    const runs = Array.isArray(_feRaw.resolvedRuns) ? _feRaw.resolvedRuns : [];
+    const noBetter = runs.filter(r => r && r.overall && Number(r.overall.skillScore) <= 0).length;
+    _feStats = { totalRuns: Number(_feS.totalRuns), noBetter, evaluated: runs.length };
+  }
+} catch (_) { /* missing file → fallback sentence via totalRuns=0 */ }
+
 const {
   SITE_URL, isAnomalousApy, poolTotalApy, formatUsd, formatApy, escapeHtml,
   renderAnalyticsBootstrap, renderFontPreloadLinks, renderHreflangLinks,
@@ -611,7 +623,7 @@ ${renderSiteHeader(lc, language, (language === 'ko' ? enUrl : koUrl).replace(SIT
       <ul class="psp-pillars">
         ${pillars}
       </ul>
-      <p class="psp-note">${esc(t('pspScoreNote'))} <a href="${SITE_URL}/ai-info">${esc(t('pspMethodologyLink'))}</a></p>
+      <p class="psp-note">${esc(t('pspScoreNote'))} <a href="${SITE_URL}/mcp">${esc(t('pspMethodologyLink'))}</a></p>
     </section>
 
     <section class="dt-panel dt-panel-full">
@@ -626,7 +638,7 @@ ${renderSiteHeader(lc, language, (language === 'ko' ? enUrl : koUrl).replace(SIT
       </table>
       <p>${esc(forecastRead)}</p>
       ${crashHtml}
-      <p class="psp-note">${esc(t('pspForecastDisclaimer'))}</p>
+      <p class="psp-note">${esc(t('pspForecastDisclaimer', _feStats.totalRuns, _feStats.noBetter, _feStats.evaluated))}</p>
     </section>
 
     <section class="dt-panel dt-panel-full">

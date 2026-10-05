@@ -19,13 +19,13 @@ TL;DR: A goal-first savings planner for people who think in monthly deposits and
 - SUBSCRIPTION: the "forever number" — the capital whose yield alone covers a recurring bill, indefinitely.
 - Forever number formula: forever number = annual bill ÷ blended rate. No projected dollar figure is published here — a plan's own inputs determine the real number.
 - An early-access waitlist exists for a card that would pay a subscription directly from a position's yield; the card itself is not available yet.
-- Live blended rate: 4.1% — median APY across the 5904 pools clearing our published rails (TVL ≥ $100K, APY ≤ 1000%) on the date above.
+- Median APY across the 5904 pools clearing our published rails (TVL ≥ $100K, APY ≤ 1000%): 4.1% on the date above.
 - A plan's own rate is computed over a different set: the planner picks a small, temperament-filtered selection of pools (the default pace is stablecoin lending/staking only) and blends those, so the rate a plan shows will differ from this market-wide median.
 
 ## Predictive Underwriting & DeFi Score
-TL;DR: Quantitative risk scoring (DeFi Score 0-100) and 14-day forward yield forecasts for 7,400+ liquidity venues across 30+ chains, updated daily.
+TL;DR: A yield-quality score (DeFi Score 0-100: stability, fee sustainability, depositor stickiness, exit liquidity) and an experimental 14-day forward yield forecast for 7,400+ liquidity venues across 30+ chains, updated daily. The score is not a smart-contract or exploit safety audit.
 - Methodology: 4 objective pillars — Yield Stability (35%), Fee Sustainability (25%), Capital Stickiness (25%), and Liquidity Depth (15%).
-- 14-day forecast bands: probabilistic p10/p50/p90 yield bands identifying yield decay before capital is deployed.
+- Experimental 14-day forecast bands: probabilistic p10/p50/p90 yield bands; not yet shown to be more accurate than assuming today's rate holds.
 - Verified rails: pools below $100K TVL or with total APY > 1000% are strictly disqualified.
 
 ## API & MCP

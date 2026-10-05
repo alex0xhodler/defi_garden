@@ -903,9 +903,44 @@ test('existing "/" -> "/home" rewrite (no has/missing) is still present, untouch
 });
 test('.well-known rewrites untouched', () => {
   assert.ok(config.rewrites.some(r => r.source === '/.well-known/api-catalog' && r.destination === '/.well-known/api-catalog.json'));
-  assert.ok(config.rewrites.some(r => r.source === '/.well-known/oauth-authorization-server'));
-  assert.ok(config.rewrites.some(r => r.source === '/.well-known/oauth-protected-resource'));
-  assert.ok(config.rewrites.some(r => r.source === '/.well-known/openid-configuration'));
+});
+test('deleted discovery files stay deleted and no vercel.json rule points at them', () => {
+  // The REST API / OAuth surface these advertised 404s in production; the only
+  // agent endpoint is the MCP server at /mcp. An MCP client that finds OAuth
+  // metadata may try to log in to a server that needs no auth, so these paths
+  // must 404 (no rewrite, no redirect, no header rule).
+  const DELETED_FILES = [
+    'openapi.json',
+    'ai-info.md',
+    'ai-info.html',
+    'auth.md',
+    '.well-known/acp.json',
+    '.well-known/oauth-authorization-server.json',
+    '.well-known/oauth-protected-resource.json',
+    '.well-known/openid-configuration.json',
+  ];
+  DELETED_FILES.forEach(f => {
+    assert.ok(!fs.existsSync(path.join(__dirname, f)), `${f} must stay deleted`);
+  });
+  const DEAD_PATH = /openapi\.json|\/\.well-known\/(acp|oauth-authorization-server|oauth-protected-resource|openid-configuration)/;
+  const rules = [...(config.rewrites || []), ...(config.redirects || [])];
+  rules.forEach(r => {
+    assert.ok(!DEAD_PATH.test(r.source) && !DEAD_PATH.test(r.destination), `no rewrite/redirect may reference a deleted file: ${r.source} -> ${r.destination}`);
+  });
+  (config.headers || []).forEach(h => {
+    assert.ok(!DEAD_PATH.test(h.source), `no header rule may target a deleted file: ${h.source}`);
+    (h.headers || []).forEach(kv => {
+      assert.ok(!DEAD_PATH.test(kv.value) && !/\/ai-info|\/auth\.md/.test(kv.value), `header ${kv.key} must not advertise a deleted file`);
+    });
+  });
+});
+test('/ai-info and /auth.md permanently redirect to /mcp', () => {
+  ['/ai-info', '/auth.md'].forEach(source => {
+    const r = (config.redirects || []).find(x => x.source === source);
+    assert.ok(r, `expected a redirect for ${source}`);
+    assert.strictEqual(r.destination, '/mcp');
+    assert.strictEqual(r.permanent, true);
+  });
 });
 
 console.log(`\n${passed} assertions passed.`);

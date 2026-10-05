@@ -29,7 +29,6 @@
 
      INCLUDED, machine-manifest role (JSON/txt an agent parses as structured
      data; matched with the FULL claim-shape set, see below):
-       - openapi.json
        - tools/*.json
        - .well-known/** (recursive) *.json
        - llms.txt, llms-full.txt
@@ -184,7 +183,6 @@ const EXPECTED_APY = APY_SANITY_LIMIT;
 // ---------------------------------------------------------------------------
 
 const MANIFEST_GLOB_PATTERNS = [
-  'openapi.json',
   'tools/*.json',
   '.well-known/**/*.json',
   'llms.txt',
@@ -218,9 +216,9 @@ const population = Array.from(new Set([...manifestPopulation, ...prosePopulation
 console.log(`population: ${population.length} file(s) globbed (${manifestPopulation.length} manifest, ${prosePopulation.length} prose-doc)`);
 console.log(JSON.stringify(population, null, 2));
 
-test('population is non-vacuous and includes both known defect sites', () => {
+test('population is non-vacuous and includes the known defect sites that still exist', () => {
   assert.ok(population.length >= 4, `expected >=4 agent-facing files globbed, got ${population.length}`);
-  assert.ok(population.includes('openapi.json'), 'openapi.json must be in the globbed population');
+  assert.ok(!population.includes('openapi.json'), 'openapi.json was deleted (the REST API it described 404s in production) and must not reappear in the population');
   assert.ok(population.includes(path.join('tools', 'get_curated_pools.json')), 'tools/get_curated_pools.json must be in the globbed population');
   assert.ok(population.includes('llms.txt') && population.includes('llms-full.txt'), 'llms.txt/llms-full.txt must be in the globbed population');
   assert.ok(population.includes(path.join('edge', 'API.md')), 'edge/API.md must be in the globbed population');
