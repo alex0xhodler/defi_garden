@@ -6,7 +6,7 @@ The highest honest CBBTC yield right now is 6.89% on yield-basis (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/pools/aave-v3-cbbtc-base) | Base | 0.01% | $242.3M |
+| [aave-v3 →](https://www.defi.garden/?pool=89bc7c4c-d71c-435c-ab28-56c803d51320#src=seo_token) | Base | 0.01% | $242.3M |
 | [curve-dex →](https://www.defi.garden/?pool=1b6fc394-3f6a-4537-9413-926db5fc10f6#src=seo_token) | Ethereum | 5.46% | $61.88M |
 | [accountable →](https://www.defi.garden/?pool=5528e3be-2b9b-4062-a2c0-80d3345c7c0f#src=seo_token) | Monad | 5.16% | $43.09M |
 | [yield-basis →](https://www.defi.garden/?pool=9443740d-346a-55f3-b7df-0d1845bc07f5#src=seo_token) | Ethereum | 6.89% | $23.23M |
@@ -18,11 +18,11 @@ The highest honest CBBTC yield right now is 6.89% on yield-basis (Ethereum), amo
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, CBBTC's lower-variability candidates are aave-v3 (Base), 0.01% APY, $242.3M TVL, https://www.defi.garden/pools/aave-v3-cbbtc-base; uniswap-v3 (Base), 0.16% APY, $15.89M TVL, https://www.defi.garden/?pool=94996334-b27b-5d0f-8389-f418c2da9cdb#src=seo_token; fluid-dex (Ethereum), 0.41% APY, $18.83M TVL, https://www.defi.garden/?pool=8e47b0df-d495-4224-bd98-6cf693e88745#src=seo_token; accountable (Monad), 5.16% APY, $43.09M TVL, https://www.defi.garden/?pool=5528e3be-2b9b-4062-a2c0-80d3345c7c0f#src=seo_token; curve-dex (Ethereum), 5.46% APY, $61.88M TVL, https://www.defi.garden/?pool=1b6fc394-3f6a-4537-9413-926db5fc10f6#src=seo_token; curve-dex (Ethereum), 2.32% APY, $21.22M TVL, https://www.defi.garden/?pool=f8971721-005b-4a8f-b743-584a30d362a9#src=seo_token; aerodrome-slipstream (Base), 3.30% APY, $16.83M TVL, https://www.defi.garden/?pool=4943b6d2-aad2-4f4d-b56e-93f41ef043aa#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CBBTC's lower-variability candidates are aave-v3 (Base), 0.01% APY, $242.3M TVL, https://www.defi.garden/?pool=89bc7c4c-d71c-435c-ab28-56c803d51320#src=seo_token; uniswap-v3 (Base), 0.16% APY, $15.89M TVL, https://www.defi.garden/?pool=94996334-b27b-5d0f-8389-f418c2da9cdb#src=seo_token; fluid-dex (Ethereum), 0.41% APY, $18.83M TVL, https://www.defi.garden/?pool=8e47b0df-d495-4224-bd98-6cf693e88745#src=seo_token; accountable (Monad), 5.16% APY, $43.09M TVL, https://www.defi.garden/?pool=5528e3be-2b9b-4062-a2c0-80d3345c7c0f#src=seo_token; curve-dex (Ethereum), 5.46% APY, $61.88M TVL, https://www.defi.garden/?pool=1b6fc394-3f6a-4537-9413-926db5fc10f6#src=seo_token; curve-dex (Ethereum), 2.32% APY, $21.22M TVL, https://www.defi.garden/?pool=f8971721-005b-4a8f-b743-584a30d362a9#src=seo_token; aerodrome-slipstream (Base), 3.30% APY, $16.83M TVL, https://www.defi.garden/?pool=4943b6d2-aad2-4f4d-b56e-93f41ef043aa#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aave-v3 →](https://www.defi.garden/pools/aave-v3-cbbtc-base) | Base | 0.01% | $242.3M |
+| 1 | [aave-v3 →](https://www.defi.garden/?pool=89bc7c4c-d71c-435c-ab28-56c803d51320#src=seo_token) | Base | 0.01% | $242.3M |
 | 2 | [uniswap-v3 →](https://www.defi.garden/?pool=94996334-b27b-5d0f-8389-f418c2da9cdb#src=seo_token) | Base | 0.16% | $15.89M |
 | 3 | [fluid-dex →](https://www.defi.garden/?pool=8e47b0df-d495-4224-bd98-6cf693e88745#src=seo_token) | Ethereum | 0.41% | $18.83M |
 | 4 | [accountable →](https://www.defi.garden/?pool=5528e3be-2b9b-4062-a2c0-80d3345c7c0f#src=seo_token) | Monad | 5.16% | $43.09M |
@@ -71,7 +71,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which CBBTC pools have the most stable APY history?
 
-Based on APY history only, CBBTC's lower-variability candidates are aave-v3 (Base), 0.01% APY, $242.3M TVL, https://www.defi.garden/pools/aave-v3-cbbtc-base; uniswap-v3 (Base), 0.16% APY, $15.89M TVL, https://www.defi.garden/?pool=94996334-b27b-5d0f-8389-f418c2da9cdb#src=seo_token; fluid-dex (Ethereum), 0.41% APY, $18.83M TVL, https://www.defi.garden/?pool=8e47b0df-d495-4224-bd98-6cf693e88745#src=seo_token; accountable (Monad), 5.16% APY, $43.09M TVL, https://www.defi.garden/?pool=5528e3be-2b9b-4062-a2c0-80d3345c7c0f#src=seo_token; curve-dex (Ethereum), 5.46% APY, $61.88M TVL, https://www.defi.garden/?pool=1b6fc394-3f6a-4537-9413-926db5fc10f6#src=seo_token; curve-dex (Ethereum), 2.32% APY, $21.22M TVL, https://www.defi.garden/?pool=f8971721-005b-4a8f-b743-584a30d362a9#src=seo_token; aerodrome-slipstream (Base), 3.30% APY, $16.83M TVL, https://www.defi.garden/?pool=4943b6d2-aad2-4f4d-b56e-93f41ef043aa#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CBBTC's lower-variability candidates are aave-v3 (Base), 0.01% APY, $242.3M TVL, https://www.defi.garden/?pool=89bc7c4c-d71c-435c-ab28-56c803d51320#src=seo_token; uniswap-v3 (Base), 0.16% APY, $15.89M TVL, https://www.defi.garden/?pool=94996334-b27b-5d0f-8389-f418c2da9cdb#src=seo_token; fluid-dex (Ethereum), 0.41% APY, $18.83M TVL, https://www.defi.garden/?pool=8e47b0df-d495-4224-bd98-6cf693e88745#src=seo_token; accountable (Monad), 5.16% APY, $43.09M TVL, https://www.defi.garden/?pool=5528e3be-2b9b-4062-a2c0-80d3345c7c0f#src=seo_token; curve-dex (Ethereum), 5.46% APY, $61.88M TVL, https://www.defi.garden/?pool=1b6fc394-3f6a-4537-9413-926db5fc10f6#src=seo_token; curve-dex (Ethereum), 2.32% APY, $21.22M TVL, https://www.defi.garden/?pool=f8971721-005b-4a8f-b743-584a30d362a9#src=seo_token; aerodrome-slipstream (Base), 3.30% APY, $16.83M TVL, https://www.defi.garden/?pool=4943b6d2-aad2-4f4d-b56e-93f41ef043aa#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

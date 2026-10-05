@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [lista-lending →](https://www.defi.garden/?pool=d6fec854-4258-495b-95df-e4066214f41d#src=seo_token) | BSC | 1.22% | $138.27M |
+| [lista-lending →](https://www.defi.garden/ko/pools/lista-lending-usd1-bsc) | BSC | 1.22% | $138.27M |
 | [dolomite →](https://www.defi.garden/?pool=86e18974-35ca-4948-9c82-694facf9d082#src=seo_token) | Ethereum | 7.68% | $86.96M |
 | [concrete →](https://www.defi.garden/?pool=c47fc8ce-12b3-5f57-8763-7ce72ed4bcea#src=seo_token) | Ethereum | 2.54% | $28.22M |
 | [curve-dex →](https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23#src=seo_token) | Ethereum | 0.20% | $10.06M |
@@ -18,13 +18,13 @@
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 USD1의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.20%, TVL $10.06M, https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23#src=seo_token; Aptos의 echelon-market, APY 4.37%, TVL $1.05M, https://www.defi.garden/?pool=77602b93-35e4-48eb-bd66-043d13f442b1#src=seo_token; BSC의 lista-lending, APY 1.22%, TVL $138.27M, https://www.defi.garden/?pool=d6fec854-4258-495b-95df-e4066214f41d#src=seo_token; Solana의 raydium-amm, APY 0.38%, TVL $10M, https://www.defi.garden/?pool=d14d4632-727b-47c2-b69a-def5691b4155#src=seo_token; BSC의 venus-core-pool, APY 2.05%, TVL $460.7K, https://www.defi.garden/?pool=406b11b4-c4f9-4253-bfd3-388c208a4ecd#src=seo_token; Ethereum의 dolomite, APY 7.68%, TVL $86.96M, https://www.defi.garden/?pool=86e18974-35ca-4948-9c82-694facf9d082#src=seo_token; Ethereum의 concrete, APY 2.54%, TVL $28.22M, https://www.defi.garden/?pool=c47fc8ce-12b3-5f57-8763-7ce72ed4bcea#src=seo_token; Solana의 raydium-amm, APY 9.93%, TVL $4.93M, https://www.defi.garden/?pool=866092b0-6627-432a-af86-e1af0c4dae6c#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USD1의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.20%, TVL $10.06M, https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23#src=seo_token; Aptos의 echelon-market, APY 4.37%, TVL $1.05M, https://www.defi.garden/?pool=77602b93-35e4-48eb-bd66-043d13f442b1#src=seo_token; BSC의 lista-lending, APY 1.22%, TVL $138.27M, https://www.defi.garden/ko/pools/lista-lending-usd1-bsc; Solana의 raydium-amm, APY 0.38%, TVL $10M, https://www.defi.garden/?pool=d14d4632-727b-47c2-b69a-def5691b4155#src=seo_token; BSC의 venus-core-pool, APY 2.05%, TVL $460.7K, https://www.defi.garden/?pool=406b11b4-c4f9-4253-bfd3-388c208a4ecd#src=seo_token; Ethereum의 dolomite, APY 7.68%, TVL $86.96M, https://www.defi.garden/?pool=86e18974-35ca-4948-9c82-694facf9d082#src=seo_token; Ethereum의 concrete, APY 2.54%, TVL $28.22M, https://www.defi.garden/?pool=c47fc8ce-12b3-5f57-8763-7ce72ed4bcea#src=seo_token; Solana의 raydium-amm, APY 9.93%, TVL $4.93M, https://www.defi.garden/?pool=866092b0-6627-432a-af86-e1af0c4dae6c#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [curve-dex →](https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23#src=seo_token) | Ethereum | 0.20% | $10.06M |
 | 2 | [echelon-market →](https://www.defi.garden/?pool=77602b93-35e4-48eb-bd66-043d13f442b1#src=seo_token) | Aptos | 4.37% | $1.05M |
-| 3 | [lista-lending →](https://www.defi.garden/?pool=d6fec854-4258-495b-95df-e4066214f41d#src=seo_token) | BSC | 1.22% | $138.27M |
+| 3 | [lista-lending →](https://www.defi.garden/ko/pools/lista-lending-usd1-bsc) | BSC | 1.22% | $138.27M |
 | 4 | [raydium-amm →](https://www.defi.garden/?pool=d14d4632-727b-47c2-b69a-def5691b4155#src=seo_token) | Solana | 0.38% | $10M |
 | 5 | [venus-core-pool →](https://www.defi.garden/?pool=406b11b4-c4f9-4253-bfd3-388c208a4ecd#src=seo_token) | BSC | 2.05% | $460.7K |
 | 6 | [dolomite →](https://www.defi.garden/?pool=86e18974-35ca-4948-9c82-694facf9d082#src=seo_token) | Ethereum | 7.68% | $86.96M |
@@ -72,7 +72,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 dolomite에서 APY 7.68%예요
 
 ### USD1 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 USD1의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.20%, TVL $10.06M, https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23#src=seo_token; Aptos의 echelon-market, APY 4.37%, TVL $1.05M, https://www.defi.garden/?pool=77602b93-35e4-48eb-bd66-043d13f442b1#src=seo_token; BSC의 lista-lending, APY 1.22%, TVL $138.27M, https://www.defi.garden/?pool=d6fec854-4258-495b-95df-e4066214f41d#src=seo_token; Solana의 raydium-amm, APY 0.38%, TVL $10M, https://www.defi.garden/?pool=d14d4632-727b-47c2-b69a-def5691b4155#src=seo_token; BSC의 venus-core-pool, APY 2.05%, TVL $460.7K, https://www.defi.garden/?pool=406b11b4-c4f9-4253-bfd3-388c208a4ecd#src=seo_token; Ethereum의 dolomite, APY 7.68%, TVL $86.96M, https://www.defi.garden/?pool=86e18974-35ca-4948-9c82-694facf9d082#src=seo_token; Ethereum의 concrete, APY 2.54%, TVL $28.22M, https://www.defi.garden/?pool=c47fc8ce-12b3-5f57-8763-7ce72ed4bcea#src=seo_token; Solana의 raydium-amm, APY 9.93%, TVL $4.93M, https://www.defi.garden/?pool=866092b0-6627-432a-af86-e1af0c4dae6c#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USD1의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.20%, TVL $10.06M, https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23#src=seo_token; Aptos의 echelon-market, APY 4.37%, TVL $1.05M, https://www.defi.garden/?pool=77602b93-35e4-48eb-bd66-043d13f442b1#src=seo_token; BSC의 lista-lending, APY 1.22%, TVL $138.27M, https://www.defi.garden/ko/pools/lista-lending-usd1-bsc; Solana의 raydium-amm, APY 0.38%, TVL $10M, https://www.defi.garden/?pool=d14d4632-727b-47c2-b69a-def5691b4155#src=seo_token; BSC의 venus-core-pool, APY 2.05%, TVL $460.7K, https://www.defi.garden/?pool=406b11b4-c4f9-4253-bfd3-388c208a4ecd#src=seo_token; Ethereum의 dolomite, APY 7.68%, TVL $86.96M, https://www.defi.garden/?pool=86e18974-35ca-4948-9c82-694facf9d082#src=seo_token; Ethereum의 concrete, APY 2.54%, TVL $28.22M, https://www.defi.garden/?pool=c47fc8ce-12b3-5f57-8763-7ce72ed4bcea#src=seo_token; Solana의 raydium-amm, APY 9.93%, TVL $4.93M, https://www.defi.garden/?pool=866092b0-6627-432a-af86-e1af0c4dae6c#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

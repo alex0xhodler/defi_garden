@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [venus-core-pool →](https://www.defi.garden/ko/pools/venus-core-pool-btcb-bsc) | BSC | 0.20% | $356.43M |
+| [venus-core-pool →](https://www.defi.garden/?pool=87c8ee0d-b812-47c1-803f-f91a3907079e#src=seo_token) | BSC | 0.20% | $356.43M |
 | [aave-v3 →](https://www.defi.garden/?pool=45bfb85f-deb5-4990-b9c4-cfb99629e6e8#src=seo_token) | BSC | 0.01% | $90.97M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=5bec56fa-fa61-4f9e-b454-dd06df68b876#src=seo_token) | BSC | 6.67% | $7.29M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=6b928a97-3519-4cf4-a0e2-c91f34e719db#src=seo_token) | BSC | 4.94% | $1.28M |
@@ -18,13 +18,13 @@
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 BTCB의 변동성 낮은 후보는 BSC의 aave-v3, APY 0.01%, TVL $90.97M, https://www.defi.garden/?pool=45bfb85f-deb5-4990-b9c4-cfb99629e6e8#src=seo_token; BSC의 kinza-finance, APY 0.01%, TVL $898.1K, https://www.defi.garden/?pool=e374da12-db6c-4267-a108-9fc4fbf66108#src=seo_token; BSC의 venus-core-pool, APY 0.20%, TVL $356.43M, https://www.defi.garden/ko/pools/venus-core-pool-btcb-bsc; BSC의 pancakeswap-amm, APY 1.57%, TVL $1.03M, https://www.defi.garden/?pool=11b41c5a-3811-4f85-858c-98257fdc5ba6#src=seo_token; BSC의 uniswap-v3, APY 4.94%, TVL $1.28M, https://www.defi.garden/?pool=6b928a97-3519-4cf4-a0e2-c91f34e719db#src=seo_token; BSC의 uniswap-v3, APY 10.56%, TVL $589.2K, https://www.defi.garden/?pool=a8a67ce9-3f86-4272-a305-d4b2abd58783#src=seo_token; BSC의 uniswap-v4, APY 0.25%, TVL $552.9K, https://www.defi.garden/?pool=c22a6120-7e7d-4d49-87d2-1ea245e9f12c#src=seo_token; BSC의 uniswap-v3, APY 6.67%, TVL $7.29M, https://www.defi.garden/?pool=5bec56fa-fa61-4f9e-b454-dd06df68b876#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 BTCB의 변동성 낮은 후보는 BSC의 aave-v3, APY 0.01%, TVL $90.97M, https://www.defi.garden/?pool=45bfb85f-deb5-4990-b9c4-cfb99629e6e8#src=seo_token; BSC의 kinza-finance, APY 0.01%, TVL $898.1K, https://www.defi.garden/?pool=e374da12-db6c-4267-a108-9fc4fbf66108#src=seo_token; BSC의 venus-core-pool, APY 0.20%, TVL $356.43M, https://www.defi.garden/?pool=87c8ee0d-b812-47c1-803f-f91a3907079e#src=seo_token; BSC의 pancakeswap-amm, APY 1.57%, TVL $1.03M, https://www.defi.garden/?pool=11b41c5a-3811-4f85-858c-98257fdc5ba6#src=seo_token; BSC의 uniswap-v3, APY 4.94%, TVL $1.28M, https://www.defi.garden/?pool=6b928a97-3519-4cf4-a0e2-c91f34e719db#src=seo_token; BSC의 uniswap-v3, APY 10.56%, TVL $589.2K, https://www.defi.garden/?pool=a8a67ce9-3f86-4272-a305-d4b2abd58783#src=seo_token; BSC의 uniswap-v4, APY 0.25%, TVL $552.9K, https://www.defi.garden/?pool=c22a6120-7e7d-4d49-87d2-1ea245e9f12c#src=seo_token; BSC의 uniswap-v3, APY 6.67%, TVL $7.29M, https://www.defi.garden/?pool=5bec56fa-fa61-4f9e-b454-dd06df68b876#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [aave-v3 →](https://www.defi.garden/?pool=45bfb85f-deb5-4990-b9c4-cfb99629e6e8#src=seo_token) | BSC | 0.01% | $90.97M |
 | 2 | [kinza-finance →](https://www.defi.garden/?pool=e374da12-db6c-4267-a108-9fc4fbf66108#src=seo_token) | BSC | 0.01% | $898.1K |
-| 3 | [venus-core-pool →](https://www.defi.garden/ko/pools/venus-core-pool-btcb-bsc) | BSC | 0.20% | $356.43M |
+| 3 | [venus-core-pool →](https://www.defi.garden/?pool=87c8ee0d-b812-47c1-803f-f91a3907079e#src=seo_token) | BSC | 0.20% | $356.43M |
 | 4 | [pancakeswap-amm →](https://www.defi.garden/?pool=11b41c5a-3811-4f85-858c-98257fdc5ba6#src=seo_token) | BSC | 1.57% | $1.03M |
 | 5 | [uniswap-v3 →](https://www.defi.garden/?pool=6b928a97-3519-4cf4-a0e2-c91f34e719db#src=seo_token) | BSC | 4.94% | $1.28M |
 | 6 | [uniswap-v3 →](https://www.defi.garden/?pool=a8a67ce9-3f86-4272-a305-d4b2abd58783#src=seo_token) | BSC | 10.56% | $589.2K |
@@ -72,7 +72,7 @@ DefiLlama 실시간 데이터 기준, BSC의 uniswap-v3에서 APY 6.67%예요.
 
 ### BTCB 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 BTCB의 변동성 낮은 후보는 BSC의 aave-v3, APY 0.01%, TVL $90.97M, https://www.defi.garden/?pool=45bfb85f-deb5-4990-b9c4-cfb99629e6e8#src=seo_token; BSC의 kinza-finance, APY 0.01%, TVL $898.1K, https://www.defi.garden/?pool=e374da12-db6c-4267-a108-9fc4fbf66108#src=seo_token; BSC의 venus-core-pool, APY 0.20%, TVL $356.43M, https://www.defi.garden/ko/pools/venus-core-pool-btcb-bsc; BSC의 pancakeswap-amm, APY 1.57%, TVL $1.03M, https://www.defi.garden/?pool=11b41c5a-3811-4f85-858c-98257fdc5ba6#src=seo_token; BSC의 uniswap-v3, APY 4.94%, TVL $1.28M, https://www.defi.garden/?pool=6b928a97-3519-4cf4-a0e2-c91f34e719db#src=seo_token; BSC의 uniswap-v3, APY 10.56%, TVL $589.2K, https://www.defi.garden/?pool=a8a67ce9-3f86-4272-a305-d4b2abd58783#src=seo_token; BSC의 uniswap-v4, APY 0.25%, TVL $552.9K, https://www.defi.garden/?pool=c22a6120-7e7d-4d49-87d2-1ea245e9f12c#src=seo_token; BSC의 uniswap-v3, APY 6.67%, TVL $7.29M, https://www.defi.garden/?pool=5bec56fa-fa61-4f9e-b454-dd06df68b876#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 BTCB의 변동성 낮은 후보는 BSC의 aave-v3, APY 0.01%, TVL $90.97M, https://www.defi.garden/?pool=45bfb85f-deb5-4990-b9c4-cfb99629e6e8#src=seo_token; BSC의 kinza-finance, APY 0.01%, TVL $898.1K, https://www.defi.garden/?pool=e374da12-db6c-4267-a108-9fc4fbf66108#src=seo_token; BSC의 venus-core-pool, APY 0.20%, TVL $356.43M, https://www.defi.garden/?pool=87c8ee0d-b812-47c1-803f-f91a3907079e#src=seo_token; BSC의 pancakeswap-amm, APY 1.57%, TVL $1.03M, https://www.defi.garden/?pool=11b41c5a-3811-4f85-858c-98257fdc5ba6#src=seo_token; BSC의 uniswap-v3, APY 4.94%, TVL $1.28M, https://www.defi.garden/?pool=6b928a97-3519-4cf4-a0e2-c91f34e719db#src=seo_token; BSC의 uniswap-v3, APY 10.56%, TVL $589.2K, https://www.defi.garden/?pool=a8a67ce9-3f86-4272-a305-d4b2abd58783#src=seo_token; BSC의 uniswap-v4, APY 0.25%, TVL $552.9K, https://www.defi.garden/?pool=c22a6120-7e7d-4d49-87d2-1ea245e9f12c#src=seo_token; BSC의 uniswap-v3, APY 6.67%, TVL $7.29M, https://www.defi.garden/?pool=5bec56fa-fa61-4f9e-b454-dd06df68b876#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

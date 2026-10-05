@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [the-vault-liquid-staking →](https://www.defi.garden/?pool=8b46fdde-a5e4-4574-9926-6ba8047f4fca#src=seo_token) | Solana | 4.80% | $161.91M |
+| [the-vault-liquid-staking →](https://www.defi.garden/ko/pools/the-vault-liquid-staking-vsol-solana) | Solana | 4.80% | $161.91M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

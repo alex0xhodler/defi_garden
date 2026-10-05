@@ -7,8 +7,8 @@ The highest honest STEAKUSDC yield right now is 4.41% on morpho-blue (Base), amo
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [morpho-blue →](https://www.defi.garden/pools/morpho-blue-steakusdc-base) | Base | 4.41% | $334.29M |
-| [morpho-blue →](https://www.defi.garden/?pool=81ae8812-f04f-4f6e-9d71-ee5778f3a178#src=seo_token) | Base | 3.29% | $123.18M |
-| [morpho-blue →](https://www.defi.garden/?pool=931ea9be-5f4d-428e-beaf-205fc5b4e2b5#src=seo_token) | Ethereum | 4.35% | $105.59M |
+| [morpho-blue →](https://www.defi.garden/pools/morpho-blue-steakusdc-base-81ae88) | Base | 3.29% | $123.18M |
+| [morpho-blue →](https://www.defi.garden/pools/morpho-blue-steakusdc-ethereum) | Ethereum | 4.35% | $105.59M |
 | [morpho-blue →](https://www.defi.garden/?pool=b55f43a8-f444-4cd8-a3a4-0a4e786ba566#src=seo_token) | Ethereum | 4.15% | $63.99M |
 | [morpho-blue →](https://www.defi.garden/?pool=7820bd3c-461a-4811-9f0b-1d39c1503c3f#src=seo_token) | Base | 4.19% | $14.22M |
 | [morpho-blue →](https://www.defi.garden/?pool=775d91ae-e10e-4bd9-a444-9caf0d18d85d#src=seo_token) | Ethereum | 4.26% | $14.16M |
@@ -18,15 +18,15 @@ The highest honest STEAKUSDC yield right now is 4.41% on morpho-blue (Base), amo
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, STEAKUSDC's lower-variability candidates are morpho-blue (Base), 4.19% APY, $14.22M TVL, https://www.defi.garden/?pool=7820bd3c-461a-4811-9f0b-1d39c1503c3f#src=seo_token; morpho-blue (Ethereum), 4.35% APY, $105.59M TVL, https://www.defi.garden/?pool=931ea9be-5f4d-428e-beaf-205fc5b4e2b5#src=seo_token; morpho-blue (Ethereum), 4.15% APY, $63.99M TVL, https://www.defi.garden/?pool=b55f43a8-f444-4cd8-a3a4-0a4e786ba566#src=seo_token; morpho-blue (Base), 4.41% APY, $334.29M TVL, https://www.defi.garden/pools/morpho-blue-steakusdc-base; morpho-blue (Base), 3.29% APY, $123.18M TVL, https://www.defi.garden/?pool=81ae8812-f04f-4f6e-9d71-ee5778f3a178#src=seo_token; morpho-blue (Ethereum), 4.26% APY, $14.16M TVL, https://www.defi.garden/?pool=775d91ae-e10e-4bd9-a444-9caf0d18d85d#src=seo_token; morpho-blue (Katana), 2.63% APY, $1.39M TVL, https://www.defi.garden/?pool=3b541fc4-9887-476e-80a3-7865442e4954#src=seo_token; morpho-blue (Katana), 2.04% APY, $3.13M TVL, https://www.defi.garden/?pool=d56ab93e-d48d-44f2-8139-9bb020afc980#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STEAKUSDC's lower-variability candidates are morpho-blue (Base), 4.19% APY, $14.22M TVL, https://www.defi.garden/?pool=7820bd3c-461a-4811-9f0b-1d39c1503c3f#src=seo_token; morpho-blue (Ethereum), 4.35% APY, $105.59M TVL, https://www.defi.garden/pools/morpho-blue-steakusdc-ethereum; morpho-blue (Ethereum), 4.15% APY, $63.99M TVL, https://www.defi.garden/?pool=b55f43a8-f444-4cd8-a3a4-0a4e786ba566#src=seo_token; morpho-blue (Base), 4.41% APY, $334.29M TVL, https://www.defi.garden/pools/morpho-blue-steakusdc-base; morpho-blue (Base), 3.29% APY, $123.18M TVL, https://www.defi.garden/pools/morpho-blue-steakusdc-base-81ae88; morpho-blue (Ethereum), 4.26% APY, $14.16M TVL, https://www.defi.garden/?pool=775d91ae-e10e-4bd9-a444-9caf0d18d85d#src=seo_token; morpho-blue (Katana), 2.63% APY, $1.39M TVL, https://www.defi.garden/?pool=3b541fc4-9887-476e-80a3-7865442e4954#src=seo_token; morpho-blue (Katana), 2.04% APY, $3.13M TVL, https://www.defi.garden/?pool=d56ab93e-d48d-44f2-8139-9bb020afc980#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [morpho-blue →](https://www.defi.garden/?pool=7820bd3c-461a-4811-9f0b-1d39c1503c3f#src=seo_token) | Base | 4.19% | $14.22M |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=931ea9be-5f4d-428e-beaf-205fc5b4e2b5#src=seo_token) | Ethereum | 4.35% | $105.59M |
+| 2 | [morpho-blue →](https://www.defi.garden/pools/morpho-blue-steakusdc-ethereum) | Ethereum | 4.35% | $105.59M |
 | 3 | [morpho-blue →](https://www.defi.garden/?pool=b55f43a8-f444-4cd8-a3a4-0a4e786ba566#src=seo_token) | Ethereum | 4.15% | $63.99M |
 | 4 | [morpho-blue →](https://www.defi.garden/pools/morpho-blue-steakusdc-base) | Base | 4.41% | $334.29M |
-| 5 | [morpho-blue →](https://www.defi.garden/?pool=81ae8812-f04f-4f6e-9d71-ee5778f3a178#src=seo_token) | Base | 3.29% | $123.18M |
+| 5 | [morpho-blue →](https://www.defi.garden/pools/morpho-blue-steakusdc-base-81ae88) | Base | 3.29% | $123.18M |
 | 6 | [morpho-blue →](https://www.defi.garden/?pool=775d91ae-e10e-4bd9-a444-9caf0d18d85d#src=seo_token) | Ethereum | 4.26% | $14.16M |
 | 7 | [morpho-blue →](https://www.defi.garden/?pool=3b541fc4-9887-476e-80a3-7865442e4954#src=seo_token) | Katana | 2.63% | $1.39M |
 | 8 | [morpho-blue →](https://www.defi.garden/?pool=d56ab93e-d48d-44f2-8139-9bb020afc980#src=seo_token) | Katana | 2.04% | $3.13M |
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which STEAKUSDC pools have the most stable APY history?
 
-Based on APY history only, STEAKUSDC's lower-variability candidates are morpho-blue (Base), 4.19% APY, $14.22M TVL, https://www.defi.garden/?pool=7820bd3c-461a-4811-9f0b-1d39c1503c3f#src=seo_token; morpho-blue (Ethereum), 4.35% APY, $105.59M TVL, https://www.defi.garden/?pool=931ea9be-5f4d-428e-beaf-205fc5b4e2b5#src=seo_token; morpho-blue (Ethereum), 4.15% APY, $63.99M TVL, https://www.defi.garden/?pool=b55f43a8-f444-4cd8-a3a4-0a4e786ba566#src=seo_token; morpho-blue (Base), 4.41% APY, $334.29M TVL, https://www.defi.garden/pools/morpho-blue-steakusdc-base; morpho-blue (Base), 3.29% APY, $123.18M TVL, https://www.defi.garden/?pool=81ae8812-f04f-4f6e-9d71-ee5778f3a178#src=seo_token; morpho-blue (Ethereum), 4.26% APY, $14.16M TVL, https://www.defi.garden/?pool=775d91ae-e10e-4bd9-a444-9caf0d18d85d#src=seo_token; morpho-blue (Katana), 2.63% APY, $1.39M TVL, https://www.defi.garden/?pool=3b541fc4-9887-476e-80a3-7865442e4954#src=seo_token; morpho-blue (Katana), 2.04% APY, $3.13M TVL, https://www.defi.garden/?pool=d56ab93e-d48d-44f2-8139-9bb020afc980#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STEAKUSDC's lower-variability candidates are morpho-blue (Base), 4.19% APY, $14.22M TVL, https://www.defi.garden/?pool=7820bd3c-461a-4811-9f0b-1d39c1503c3f#src=seo_token; morpho-blue (Ethereum), 4.35% APY, $105.59M TVL, https://www.defi.garden/pools/morpho-blue-steakusdc-ethereum; morpho-blue (Ethereum), 4.15% APY, $63.99M TVL, https://www.defi.garden/?pool=b55f43a8-f444-4cd8-a3a4-0a4e786ba566#src=seo_token; morpho-blue (Base), 4.41% APY, $334.29M TVL, https://www.defi.garden/pools/morpho-blue-steakusdc-base; morpho-blue (Base), 3.29% APY, $123.18M TVL, https://www.defi.garden/pools/morpho-blue-steakusdc-base-81ae88; morpho-blue (Ethereum), 4.26% APY, $14.16M TVL, https://www.defi.garden/?pool=775d91ae-e10e-4bd9-a444-9caf0d18d85d#src=seo_token; morpho-blue (Katana), 2.63% APY, $1.39M TVL, https://www.defi.garden/?pool=3b541fc4-9887-476e-80a3-7865442e4954#src=seo_token; morpho-blue (Katana), 2.04% APY, $3.13M TVL, https://www.defi.garden/?pool=d56ab93e-d48d-44f2-8139-9bb020afc980#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

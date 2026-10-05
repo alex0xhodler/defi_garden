@@ -9,9 +9,9 @@
 | USDE | [morpho-blue →](https://www.defi.garden/ko/pools/morpho-blue-usde-base) | 4.75% | $391.4M |
 | STEAKUSDC | [morpho-blue →](https://www.defi.garden/ko/pools/morpho-blue-steakusdc-base) | 4.41% | $334.29M |
 | SPARKUSDC | [morpho-blue →](https://www.defi.garden/ko/pools/morpho-blue-sparkusdc-base) | 3.96% | $332.39M |
-| CBBTC | [aave-v3 →](https://www.defi.garden/ko/pools/aave-v3-cbbtc-base) | 0.01% | $242.3M |
-| GTUSDCP | [morpho-blue →](https://www.defi.garden/?pool=df7ccfd1-2642-4d79-851a-a5b07d9b8a97#src=seo_chain) | 4.41% | $177.82M |
-| WETH-USDC | [uniswap-v3 →](https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007#src=seo_chain) | 25.18% | $164.31M |
+| CBBTC | [aave-v3 →](https://www.defi.garden/?pool=89bc7c4c-d71c-435c-ab28-56c803d51320#src=seo_chain) | 0.01% | $242.3M |
+| GTUSDCP | [morpho-blue →](https://www.defi.garden/ko/pools/morpho-blue-gtusdcp-base-df7ccf) | 4.41% | $177.82M |
+| WETH-USDC | [uniswap-v3 →](https://www.defi.garden/ko/pools/uniswap-v3-weth-usdc-base) | 25.18% | $164.31M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 

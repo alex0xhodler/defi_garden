@@ -6,7 +6,7 @@ The highest honest NOPAL yield right now is 11.11% on plume-vaults (Plume Mainne
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [plume-vaults →](https://www.defi.garden/?pool=f21c4938-864a-44bd-91fb-c492864fcb46#src=seo_token) | Plume Mainnet | 11.11% | $109.71M |
+| [plume-vaults →](https://www.defi.garden/pools/plume-vaults-nopal-plume-mainnet) | Plume Mainnet | 11.11% | $109.71M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

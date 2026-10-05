@@ -4,7 +4,7 @@ The highest honest Plume Mainnet yield right now is 12.38% on plume-vaults (Plum
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| NOPAL | [plume-vaults →](https://www.defi.garden/?pool=f21c4938-864a-44bd-91fb-c492864fcb46#src=seo_chain) | 11.11% | $109.71M |
+| NOPAL | [plume-vaults →](https://www.defi.garden/pools/plume-vaults-nopal-plume-mainnet) | 11.11% | $109.71M |
 | NPRIME | [plume-vaults →](https://www.defi.garden/?pool=8b4f699b-9545-5c1c-8189-c32b8cb93e84#src=seo_chain) | 5.81% | $22.87M |
 | USCC | [bitwise-uscc →](https://www.defi.garden/?pool=ea1d8316-9160-48f0-ad18-a1298473f826#src=seo_chain) | 4.89% | $16.97M |
 | NFALCON | [plume-vaults →](https://www.defi.garden/?pool=ad047a62-5c88-4b43-bf42-4e4d0858c53a#src=seo_chain) | 7.49% | $14.95M |

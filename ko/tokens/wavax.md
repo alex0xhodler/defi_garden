@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=a1e18d7d-9a5f-4251-acb4-a87e005fe2c5#src=seo_token) | Avalanche | 0.75% | $132.86M |
+| [aave-v3 →](https://www.defi.garden/ko/pools/aave-v3-wavax-avalanche) | Avalanche | 0.75% | $132.86M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=7ae7a327-9d57-4dbc-afd6-b8b2f4918d68#src=seo_token) | Avalanche | 22.05% | $5.75M |
 | [pharaoh-v3 →](https://www.defi.garden/?pool=6c627c56-d108-482a-976b-48050d688af0#src=seo_token) | Avalanche | 280.75% | $4.01M |
 | [pharaoh-v3 →](https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814#src=seo_token) | Avalanche | 3.43% | $3.75M |
@@ -18,12 +18,12 @@
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 WAVAX의 변동성 낮은 후보는 Avalanche의 aave-v4, APY 1.49%, TVL $3.15M, https://www.defi.garden/?pool=e14e18bc-e998-5eb1-89aa-e539cfaef544#src=seo_token; Avalanche의 aave-v3, APY 0.75%, TVL $132.86M, https://www.defi.garden/?pool=a1e18d7d-9a5f-4251-acb4-a87e005fe2c5#src=seo_token; Avalanche의 uniswap-v3, APY 4.49%, TVL $837.3K, https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a#src=seo_token; Avalanche의 pharaoh-v3, APY 3.43%, TVL $3.75M, https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814#src=seo_token; Avalanche의 pharaoh-v3, APY 29.37%, TVL $3.74M, https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc#src=seo_token; Avalanche의 uniswap-v3, APY 22.05%, TVL $5.75M, https://www.defi.garden/?pool=7ae7a327-9d57-4dbc-afd6-b8b2f4918d68#src=seo_token; Avalanche의 joe-v2.2, APY 39.05%, TVL $668.3K, https://www.defi.garden/?pool=e8e45a86-cd5f-4d8e-9614-0dbd178da741#src=seo_token; Avalanche의 pharaoh-v3, APY 280.75%, TVL $4.01M, https://www.defi.garden/?pool=6c627c56-d108-482a-976b-48050d688af0#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 WAVAX의 변동성 낮은 후보는 Avalanche의 aave-v4, APY 1.49%, TVL $3.15M, https://www.defi.garden/?pool=e14e18bc-e998-5eb1-89aa-e539cfaef544#src=seo_token; Avalanche의 aave-v3, APY 0.75%, TVL $132.86M, https://www.defi.garden/ko/pools/aave-v3-wavax-avalanche; Avalanche의 uniswap-v3, APY 4.49%, TVL $837.3K, https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a#src=seo_token; Avalanche의 pharaoh-v3, APY 3.43%, TVL $3.75M, https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814#src=seo_token; Avalanche의 pharaoh-v3, APY 29.37%, TVL $3.74M, https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc#src=seo_token; Avalanche의 uniswap-v3, APY 22.05%, TVL $5.75M, https://www.defi.garden/?pool=7ae7a327-9d57-4dbc-afd6-b8b2f4918d68#src=seo_token; Avalanche의 joe-v2.2, APY 39.05%, TVL $668.3K, https://www.defi.garden/?pool=e8e45a86-cd5f-4d8e-9614-0dbd178da741#src=seo_token; Avalanche의 pharaoh-v3, APY 280.75%, TVL $4.01M, https://www.defi.garden/?pool=6c627c56-d108-482a-976b-48050d688af0#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [aave-v4 →](https://www.defi.garden/?pool=e14e18bc-e998-5eb1-89aa-e539cfaef544#src=seo_token) | Avalanche | 1.49% | $3.15M |
-| 2 | [aave-v3 →](https://www.defi.garden/?pool=a1e18d7d-9a5f-4251-acb4-a87e005fe2c5#src=seo_token) | Avalanche | 0.75% | $132.86M |
+| 2 | [aave-v3 →](https://www.defi.garden/ko/pools/aave-v3-wavax-avalanche) | Avalanche | 0.75% | $132.86M |
 | 3 | [uniswap-v3 →](https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a#src=seo_token) | Avalanche | 4.49% | $837.3K |
 | 4 | [pharaoh-v3 →](https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814#src=seo_token) | Avalanche | 3.43% | $3.75M |
 | 5 | [pharaoh-v3 →](https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc#src=seo_token) | Avalanche | 29.37% | $3.74M |
@@ -72,7 +72,7 @@ DefiLlama 실시간 데이터 기준, Avalanche의 pharaoh-v3에서 APY 280.75%�
 
 ### WAVAX 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 WAVAX의 변동성 낮은 후보는 Avalanche의 aave-v4, APY 1.49%, TVL $3.15M, https://www.defi.garden/?pool=e14e18bc-e998-5eb1-89aa-e539cfaef544#src=seo_token; Avalanche의 aave-v3, APY 0.75%, TVL $132.86M, https://www.defi.garden/?pool=a1e18d7d-9a5f-4251-acb4-a87e005fe2c5#src=seo_token; Avalanche의 uniswap-v3, APY 4.49%, TVL $837.3K, https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a#src=seo_token; Avalanche의 pharaoh-v3, APY 3.43%, TVL $3.75M, https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814#src=seo_token; Avalanche의 pharaoh-v3, APY 29.37%, TVL $3.74M, https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc#src=seo_token; Avalanche의 uniswap-v3, APY 22.05%, TVL $5.75M, https://www.defi.garden/?pool=7ae7a327-9d57-4dbc-afd6-b8b2f4918d68#src=seo_token; Avalanche의 joe-v2.2, APY 39.05%, TVL $668.3K, https://www.defi.garden/?pool=e8e45a86-cd5f-4d8e-9614-0dbd178da741#src=seo_token; Avalanche의 pharaoh-v3, APY 280.75%, TVL $4.01M, https://www.defi.garden/?pool=6c627c56-d108-482a-976b-48050d688af0#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 WAVAX의 변동성 낮은 후보는 Avalanche의 aave-v4, APY 1.49%, TVL $3.15M, https://www.defi.garden/?pool=e14e18bc-e998-5eb1-89aa-e539cfaef544#src=seo_token; Avalanche의 aave-v3, APY 0.75%, TVL $132.86M, https://www.defi.garden/ko/pools/aave-v3-wavax-avalanche; Avalanche의 uniswap-v3, APY 4.49%, TVL $837.3K, https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a#src=seo_token; Avalanche의 pharaoh-v3, APY 3.43%, TVL $3.75M, https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814#src=seo_token; Avalanche의 pharaoh-v3, APY 29.37%, TVL $3.74M, https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc#src=seo_token; Avalanche의 uniswap-v3, APY 22.05%, TVL $5.75M, https://www.defi.garden/?pool=7ae7a327-9d57-4dbc-afd6-b8b2f4918d68#src=seo_token; Avalanche의 joe-v2.2, APY 39.05%, TVL $668.3K, https://www.defi.garden/?pool=e8e45a86-cd5f-4d8e-9614-0dbd178da741#src=seo_token; Avalanche의 pharaoh-v3, APY 280.75%, TVL $4.01M, https://www.defi.garden/?pool=6c627c56-d108-482a-976b-48050d688af0#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

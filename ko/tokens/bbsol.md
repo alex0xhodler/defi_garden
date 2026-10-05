@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [bybit-staked-sol →](https://www.defi.garden/?pool=f76cc844-73a2-4cc7-8de7-f9fb874c626d#src=seo_token) | Solana | 4.73% | $166.11M |
+| [bybit-staked-sol →](https://www.defi.garden/ko/pools/bybit-staked-sol-bbsol-solana) | Solana | 4.73% | $166.11M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

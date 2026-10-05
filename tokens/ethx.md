@@ -6,7 +6,7 @@ The highest honest ETHX yield right now is 7.59% on stake-dao-yield (Ethereum), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [stader →](https://www.defi.garden/?pool=90bfb3c2-5d35-4959-a275-ba5085b08aa3#src=seo_token) | Ethereum | 2.27% | $213.53M |
+| [stader →](https://www.defi.garden/pools/stader-ethx-ethereum) | Ethereum | 2.27% | $213.53M |
 | [curve-dex →](https://www.defi.garden/?pool=f78f31b0-80ed-4504-bf89-74e0162e998f#src=seo_token) | Ethereum | 6.20% | $608K |
 | [stake-dao-yield →](https://www.defi.garden/?pool=c572b921-0373-439d-b224-caf54b78f358#src=seo_token) | Ethereum | 7.59% | $442.6K |
 | [convex-finance →](https://www.defi.garden/?pool=65b7d01f-52de-4071-a735-698c52d3643e#src=seo_token) | Ethereum | 5.57% | $159.1K |
@@ -14,11 +14,11 @@ The highest honest ETHX yield right now is 7.59% on stake-dao-yield (Ethereum), 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ETHX's lower-variability candidates are stader (Ethereum), 2.27% APY, $213.53M TVL, https://www.defi.garden/?pool=90bfb3c2-5d35-4959-a275-ba5085b08aa3#src=seo_token; curve-dex (Ethereum), 6.20% APY, $608K TVL, https://www.defi.garden/?pool=f78f31b0-80ed-4504-bf89-74e0162e998f#src=seo_token; convex-finance (Ethereum), 5.57% APY, $159.1K TVL, https://www.defi.garden/?pool=65b7d01f-52de-4071-a735-698c52d3643e#src=seo_token; stake-dao-yield (Ethereum), 7.59% APY, $442.6K TVL, https://www.defi.garden/?pool=c572b921-0373-439d-b224-caf54b78f358#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ETHX's lower-variability candidates are stader (Ethereum), 2.27% APY, $213.53M TVL, https://www.defi.garden/pools/stader-ethx-ethereum; curve-dex (Ethereum), 6.20% APY, $608K TVL, https://www.defi.garden/?pool=f78f31b0-80ed-4504-bf89-74e0162e998f#src=seo_token; convex-finance (Ethereum), 5.57% APY, $159.1K TVL, https://www.defi.garden/?pool=65b7d01f-52de-4071-a735-698c52d3643e#src=seo_token; stake-dao-yield (Ethereum), 7.59% APY, $442.6K TVL, https://www.defi.garden/?pool=c572b921-0373-439d-b224-caf54b78f358#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [stader →](https://www.defi.garden/?pool=90bfb3c2-5d35-4959-a275-ba5085b08aa3#src=seo_token) | Ethereum | 2.27% | $213.53M |
+| 1 | [stader →](https://www.defi.garden/pools/stader-ethx-ethereum) | Ethereum | 2.27% | $213.53M |
 | 2 | [curve-dex →](https://www.defi.garden/?pool=f78f31b0-80ed-4504-bf89-74e0162e998f#src=seo_token) | Ethereum | 6.20% | $608K |
 | 3 | [convex-finance →](https://www.defi.garden/?pool=65b7d01f-52de-4071-a735-698c52d3643e#src=seo_token) | Ethereum | 5.57% | $159.1K |
 | 4 | [stake-dao-yield →](https://www.defi.garden/?pool=c572b921-0373-439d-b224-caf54b78f358#src=seo_token) | Ethereum | 7.59% | $442.6K |
@@ -58,7 +58,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ETHX pools have the most stable APY history?
 
-Based on APY history only, ETHX's lower-variability candidates are stader (Ethereum), 2.27% APY, $213.53M TVL, https://www.defi.garden/?pool=90bfb3c2-5d35-4959-a275-ba5085b08aa3#src=seo_token; curve-dex (Ethereum), 6.20% APY, $608K TVL, https://www.defi.garden/?pool=f78f31b0-80ed-4504-bf89-74e0162e998f#src=seo_token; convex-finance (Ethereum), 5.57% APY, $159.1K TVL, https://www.defi.garden/?pool=65b7d01f-52de-4071-a735-698c52d3643e#src=seo_token; stake-dao-yield (Ethereum), 7.59% APY, $442.6K TVL, https://www.defi.garden/?pool=c572b921-0373-439d-b224-caf54b78f358#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ETHX's lower-variability candidates are stader (Ethereum), 2.27% APY, $213.53M TVL, https://www.defi.garden/pools/stader-ethx-ethereum; curve-dex (Ethereum), 6.20% APY, $608K TVL, https://www.defi.garden/?pool=f78f31b0-80ed-4504-bf89-74e0162e998f#src=seo_token; convex-finance (Ethereum), 5.57% APY, $159.1K TVL, https://www.defi.garden/?pool=65b7d01f-52de-4071-a735-698c52d3643e#src=seo_token; stake-dao-yield (Ethereum), 7.59% APY, $442.6K TVL, https://www.defi.garden/?pool=c572b921-0373-439d-b224-caf54b78f358#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

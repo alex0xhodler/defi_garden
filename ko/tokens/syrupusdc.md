@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=9829fc1f-8f3a-5b29-a4b1-843b2996c95d#src=seo_token) | Monad | 1.23% | $146.89M |
+| [aave-v3 →](https://www.defi.garden/ko/pools/aave-v3-syrupusdc-monad) | Monad | 1.23% | $146.89M |
 | [orca-dex →](https://www.defi.garden/?pool=e1c57765-701f-49ba-810c-0785a51d3764#src=seo_token) | Solana | 1.61% | $10.06M |
 | [kamino-liquidity →](https://www.defi.garden/?pool=91119a14-3b0a-433a-b09b-51cc079c6ea5#src=seo_token) | Solana | 1.43% | $10.06M |
 | [reflect-tranches →](https://www.defi.garden/?pool=c2fb0563-8beb-5f1a-9086-80dc91cb2403#src=seo_token) | Solana | 32.55% | $995.5K |
@@ -18,12 +18,12 @@
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 SYRUPUSDC의 변동성 낮은 후보는 Solana의 orca-dex, APY 0.09%, TVL $537.3K, https://www.defi.garden/?pool=5d6a4eed-10da-4eb6-a6f1-20ca6c2256e5#src=seo_token; Monad의 aave-v3, APY 1.23%, TVL $146.89M, https://www.defi.garden/?pool=9829fc1f-8f3a-5b29-a4b1-843b2996c95d#src=seo_token; Solana의 orca-dex, APY 1.61%, TVL $10.06M, https://www.defi.garden/?pool=e1c57765-701f-49ba-810c-0785a51d3764#src=seo_token; Solana의 kamino-liquidity, APY 1.43%, TVL $10.06M, https://www.defi.garden/?pool=91119a14-3b0a-433a-b09b-51cc079c6ea5#src=seo_token; Ethereum의 fluid-dex, APY 0.02%, TVL $684.8K, https://www.defi.garden/?pool=405e32c4-b872-4a03-b9d7-87a0d809c23f#src=seo_token; Solana의 orca-dex, APY 1.87%, TVL $236K, https://www.defi.garden/?pool=716830b1-61b7-4079-9625-6f5063dfb999#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SYRUPUSDC의 변동성 낮은 후보는 Solana의 orca-dex, APY 0.09%, TVL $537.3K, https://www.defi.garden/?pool=5d6a4eed-10da-4eb6-a6f1-20ca6c2256e5#src=seo_token; Monad의 aave-v3, APY 1.23%, TVL $146.89M, https://www.defi.garden/ko/pools/aave-v3-syrupusdc-monad; Solana의 orca-dex, APY 1.61%, TVL $10.06M, https://www.defi.garden/?pool=e1c57765-701f-49ba-810c-0785a51d3764#src=seo_token; Solana의 kamino-liquidity, APY 1.43%, TVL $10.06M, https://www.defi.garden/?pool=91119a14-3b0a-433a-b09b-51cc079c6ea5#src=seo_token; Ethereum의 fluid-dex, APY 0.02%, TVL $684.8K, https://www.defi.garden/?pool=405e32c4-b872-4a03-b9d7-87a0d809c23f#src=seo_token; Solana의 orca-dex, APY 1.87%, TVL $236K, https://www.defi.garden/?pool=716830b1-61b7-4079-9625-6f5063dfb999#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [orca-dex →](https://www.defi.garden/?pool=5d6a4eed-10da-4eb6-a6f1-20ca6c2256e5#src=seo_token) | Solana | 0.09% | $537.3K |
-| 2 | [aave-v3 →](https://www.defi.garden/?pool=9829fc1f-8f3a-5b29-a4b1-843b2996c95d#src=seo_token) | Monad | 1.23% | $146.89M |
+| 2 | [aave-v3 →](https://www.defi.garden/ko/pools/aave-v3-syrupusdc-monad) | Monad | 1.23% | $146.89M |
 | 3 | [orca-dex →](https://www.defi.garden/?pool=e1c57765-701f-49ba-810c-0785a51d3764#src=seo_token) | Solana | 1.61% | $10.06M |
 | 4 | [kamino-liquidity →](https://www.defi.garden/?pool=91119a14-3b0a-433a-b09b-51cc079c6ea5#src=seo_token) | Solana | 1.43% | $10.06M |
 | 5 | [fluid-dex →](https://www.defi.garden/?pool=405e32c4-b872-4a03-b9d7-87a0d809c23f#src=seo_token) | Ethereum | 0.02% | $684.8K |
@@ -70,7 +70,7 @@ DefiLlama 실시간 데이터 기준, Monad의 aave-v3에서 APY 1.23%예요.
 
 ### SYRUPUSDC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 SYRUPUSDC의 변동성 낮은 후보는 Solana의 orca-dex, APY 0.09%, TVL $537.3K, https://www.defi.garden/?pool=5d6a4eed-10da-4eb6-a6f1-20ca6c2256e5#src=seo_token; Monad의 aave-v3, APY 1.23%, TVL $146.89M, https://www.defi.garden/?pool=9829fc1f-8f3a-5b29-a4b1-843b2996c95d#src=seo_token; Solana의 orca-dex, APY 1.61%, TVL $10.06M, https://www.defi.garden/?pool=e1c57765-701f-49ba-810c-0785a51d3764#src=seo_token; Solana의 kamino-liquidity, APY 1.43%, TVL $10.06M, https://www.defi.garden/?pool=91119a14-3b0a-433a-b09b-51cc079c6ea5#src=seo_token; Ethereum의 fluid-dex, APY 0.02%, TVL $684.8K, https://www.defi.garden/?pool=405e32c4-b872-4a03-b9d7-87a0d809c23f#src=seo_token; Solana의 orca-dex, APY 1.87%, TVL $236K, https://www.defi.garden/?pool=716830b1-61b7-4079-9625-6f5063dfb999#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SYRUPUSDC의 변동성 낮은 후보는 Solana의 orca-dex, APY 0.09%, TVL $537.3K, https://www.defi.garden/?pool=5d6a4eed-10da-4eb6-a6f1-20ca6c2256e5#src=seo_token; Monad의 aave-v3, APY 1.23%, TVL $146.89M, https://www.defi.garden/ko/pools/aave-v3-syrupusdc-monad; Solana의 orca-dex, APY 1.61%, TVL $10.06M, https://www.defi.garden/?pool=e1c57765-701f-49ba-810c-0785a51d3764#src=seo_token; Solana의 kamino-liquidity, APY 1.43%, TVL $10.06M, https://www.defi.garden/?pool=91119a14-3b0a-433a-b09b-51cc079c6ea5#src=seo_token; Ethereum의 fluid-dex, APY 0.02%, TVL $684.8K, https://www.defi.garden/?pool=405e32c4-b872-4a03-b9d7-87a0d809c23f#src=seo_token; Solana의 orca-dex, APY 1.87%, TVL $236K, https://www.defi.garden/?pool=716830b1-61b7-4079-9625-6f5063dfb999#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

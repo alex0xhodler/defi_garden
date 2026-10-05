@@ -4,7 +4,7 @@ The highest honest Monad yield right now is 11.86% on accountable (Monad), among
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| SYRUPUSDC | [aave-v3 →](https://www.defi.garden/?pool=9829fc1f-8f3a-5b29-a4b1-843b2996c95d#src=seo_chain) | 1.23% | $146.89M |
+| SYRUPUSDC | [aave-v3 →](https://www.defi.garden/pools/aave-v3-syrupusdc-monad) | 1.23% | $146.89M |
 | AUSD | [accountable →](https://www.defi.garden/?pool=4baffdfd-8015-4713-bad4-10a199b30157#src=seo_chain) | 6.70% | $100.63M |
 | USDC | [accountable →](https://www.defi.garden/?pool=1a9c61c7-4094-4ee7-8d46-6ea8fb5689f1#src=seo_chain) | 11.86% | $74.99M |
 | USDE | [aave-v3 →](https://www.defi.garden/?pool=34f65227-f3f9-5c3f-9182-f6eca85ae729#src=seo_chain) | 1.02% | $69.31M |

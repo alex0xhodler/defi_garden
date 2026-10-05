@@ -7,7 +7,7 @@ The highest honest Arbitrum yield right now is 11.26% on pendle-v2 (Arbitrum), a
 | SUSDAI | [usd-ai →](https://www.defi.garden/pools/usd-ai-susdai-arbitrum) | 6.97% | $535.72M |
 | USDS | [spark-savings →](https://www.defi.garden/pools/spark-savings-usds-arbitrum) | 3.60% | $363.73M |
 | SUSDS | [sky-lending →](https://www.defi.garden/pools/sky-lending-susds-arbitrum) | 3.60% | $363.73M |
-| WBTC | [aave-v3 →](https://www.defi.garden/pools/aave-v3-wbtc-arbitrum) | 0.02% | $246.76M |
+| WBTC | [aave-v3 →](https://www.defi.garden/?pool=7c5e69a4-2430-4fa2-b7cb-857f79d7d1bf#src=seo_chain) | 0.02% | $246.76M |
 | WBTC.B-USDC | [gmx-v2-perps →](https://www.defi.garden/?pool=5b8c0691-b9ff-4d82-97e4-19a1247e6dbf#src=seo_chain) | 1.84% | $59.75M |
 | USDC | [fluid-lending →](https://www.defi.garden/?pool=4c45cc9e-e1a4-43c9-8a3d-687d96abb07c#src=seo_chain) | 5.64% | $56.13M |
 | USDAI | [pendle-v2 →](https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c#src=seo_chain) | 2.93% | $50.36M |

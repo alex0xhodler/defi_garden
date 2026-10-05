@@ -9,9 +9,9 @@ The highest honest Base yield right now is 5.63% on morpho-blue (Base), among 1,
 | USDE | [morpho-blue →](https://www.defi.garden/pools/morpho-blue-usde-base) | 4.75% | $391.4M |
 | STEAKUSDC | [morpho-blue →](https://www.defi.garden/pools/morpho-blue-steakusdc-base) | 4.41% | $334.29M |
 | SPARKUSDC | [morpho-blue →](https://www.defi.garden/pools/morpho-blue-sparkusdc-base) | 3.96% | $332.39M |
-| CBBTC | [aave-v3 →](https://www.defi.garden/pools/aave-v3-cbbtc-base) | 0.01% | $242.3M |
-| GTUSDCP | [morpho-blue →](https://www.defi.garden/?pool=df7ccfd1-2642-4d79-851a-a5b07d9b8a97#src=seo_chain) | 4.41% | $177.82M |
-| WETH-USDC | [uniswap-v3 →](https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007#src=seo_chain) | 25.18% | $164.31M |
+| CBBTC | [aave-v3 →](https://www.defi.garden/?pool=89bc7c4c-d71c-435c-ab28-56c803d51320#src=seo_chain) | 0.01% | $242.3M |
+| GTUSDCP | [morpho-blue →](https://www.defi.garden/pools/morpho-blue-gtusdcp-base-df7ccf) | 4.41% | $177.82M |
+| WETH-USDC | [uniswap-v3 →](https://www.defi.garden/pools/uniswap-v3-weth-usdc-base) | 25.18% | $164.31M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

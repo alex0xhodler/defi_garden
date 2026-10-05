@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=19d024ed-9c70-4323-9a81-fe873ea5f0e0#src=seo_token) | Ethereum | 4.50% | $169.39M |
+| [aave-v3 →](https://www.defi.garden/ko/pools/aave-v3-sgho-ethereum) | Ethereum | 4.50% | $169.39M |
 | [curve-dex →](https://www.defi.garden/?pool=e7464c49-c29a-443f-b449-a23d64c455e1#src=seo_token) | Ethereum | 4.18% | $545.6K |
 | [convex-finance →](https://www.defi.garden/?pool=9b7d2a6b-6bbc-563b-aabf-a0cd43b9333d#src=seo_token) | Ethereum | 9.39% | $447.2K |
 | [stake-dao-yield →](https://www.defi.garden/?pool=40da51f3-e3bc-5bac-8417-67c3f1e8b8e1#src=seo_token) | Ethereum | 5.32% | $143.7K |
@@ -14,11 +14,11 @@
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 SGHO의 변동성 낮은 후보는 Ethereum의 aave-v3, APY 4.50%, TVL $169.39M, https://www.defi.garden/?pool=19d024ed-9c70-4323-9a81-fe873ea5f0e0#src=seo_token; Ethereum의 convex-finance, APY 9.39%, TVL $447.2K, https://www.defi.garden/?pool=9b7d2a6b-6bbc-563b-aabf-a0cd43b9333d#src=seo_token; Ethereum의 curve-dex, APY 4.18%, TVL $545.6K, https://www.defi.garden/?pool=e7464c49-c29a-443f-b449-a23d64c455e1#src=seo_token; Ethereum의 stake-dao-yield, APY 5.32%, TVL $143.7K, https://www.defi.garden/?pool=40da51f3-e3bc-5bac-8417-67c3f1e8b8e1#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SGHO의 변동성 낮은 후보는 Ethereum의 aave-v3, APY 4.50%, TVL $169.39M, https://www.defi.garden/ko/pools/aave-v3-sgho-ethereum; Ethereum의 convex-finance, APY 9.39%, TVL $447.2K, https://www.defi.garden/?pool=9b7d2a6b-6bbc-563b-aabf-a0cd43b9333d#src=seo_token; Ethereum의 curve-dex, APY 4.18%, TVL $545.6K, https://www.defi.garden/?pool=e7464c49-c29a-443f-b449-a23d64c455e1#src=seo_token; Ethereum의 stake-dao-yield, APY 5.32%, TVL $143.7K, https://www.defi.garden/?pool=40da51f3-e3bc-5bac-8417-67c3f1e8b8e1#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aave-v3 →](https://www.defi.garden/?pool=19d024ed-9c70-4323-9a81-fe873ea5f0e0#src=seo_token) | Ethereum | 4.50% | $169.39M |
+| 1 | [aave-v3 →](https://www.defi.garden/ko/pools/aave-v3-sgho-ethereum) | Ethereum | 4.50% | $169.39M |
 | 2 | [convex-finance →](https://www.defi.garden/?pool=9b7d2a6b-6bbc-563b-aabf-a0cd43b9333d#src=seo_token) | Ethereum | 9.39% | $447.2K |
 | 3 | [curve-dex →](https://www.defi.garden/?pool=e7464c49-c29a-443f-b449-a23d64c455e1#src=seo_token) | Ethereum | 4.18% | $545.6K |
 | 4 | [stake-dao-yield →](https://www.defi.garden/?pool=40da51f3-e3bc-5bac-8417-67c3f1e8b8e1#src=seo_token) | Ethereum | 5.32% | $143.7K |
@@ -58,7 +58,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 9.39%
 
 ### SGHO 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 SGHO의 변동성 낮은 후보는 Ethereum의 aave-v3, APY 4.50%, TVL $169.39M, https://www.defi.garden/?pool=19d024ed-9c70-4323-9a81-fe873ea5f0e0#src=seo_token; Ethereum의 convex-finance, APY 9.39%, TVL $447.2K, https://www.defi.garden/?pool=9b7d2a6b-6bbc-563b-aabf-a0cd43b9333d#src=seo_token; Ethereum의 curve-dex, APY 4.18%, TVL $545.6K, https://www.defi.garden/?pool=e7464c49-c29a-443f-b449-a23d64c455e1#src=seo_token; Ethereum의 stake-dao-yield, APY 5.32%, TVL $143.7K, https://www.defi.garden/?pool=40da51f3-e3bc-5bac-8417-67c3f1e8b8e1#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SGHO의 변동성 낮은 후보는 Ethereum의 aave-v3, APY 4.50%, TVL $169.39M, https://www.defi.garden/ko/pools/aave-v3-sgho-ethereum; Ethereum의 convex-finance, APY 9.39%, TVL $447.2K, https://www.defi.garden/?pool=9b7d2a6b-6bbc-563b-aabf-a0cd43b9333d#src=seo_token; Ethereum의 curve-dex, APY 4.18%, TVL $545.6K, https://www.defi.garden/?pool=e7464c49-c29a-443f-b449-a23d64c455e1#src=seo_token; Ethereum의 stake-dao-yield, APY 5.32%, TVL $143.7K, https://www.defi.garden/?pool=40da51f3-e3bc-5bac-8417-67c3f1e8b8e1#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

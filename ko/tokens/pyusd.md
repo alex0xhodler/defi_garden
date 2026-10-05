@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [sentora-curator →](https://www.defi.garden/?pool=77602b5c-3d34-5275-acbd-a18a69ccb206#src=seo_token) | Solana | 7.01% | $111.36M |
+| [sentora-curator →](https://www.defi.garden/ko/pools/sentora-curator-pyusd-solana) | Solana | 7.01% | $111.36M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=0899ff3d-adc8-4dae-a516-a94998db3332#src=seo_token) | Ethereum | 0.12% | $100.13M |
 | [jupiter-lend →](https://www.defi.garden/?pool=1183ffb5-0049-5e11-859c-c1bf2788214c#src=seo_token) | Solana | 3.70% | $100.02M |
 | [sparklend →](https://www.defi.garden/?pool=995b269a-8409-4c55-b97e-868f443b432e#src=seo_token) | Ethereum | 1.01% | $72.75M |
@@ -18,14 +18,14 @@
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 PYUSD의 변동성 낮은 후보는 Ethereum의 uniswap-v4, APY 0.12%, TVL $100.13M, https://www.defi.garden/?pool=0899ff3d-adc8-4dae-a516-a94998db3332#src=seo_token; Ethereum의 sparklend, APY 1.01%, TVL $72.75M, https://www.defi.garden/?pool=995b269a-8409-4c55-b97e-868f443b432e#src=seo_token; Solana의 orca-dex, APY 0.38%, TVL $9.58M, https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255#src=seo_token; Solana의 sentora-curator, APY 7.01%, TVL $111.36M, https://www.defi.garden/?pool=77602b5c-3d34-5275-acbd-a18a69ccb206#src=seo_token; Solana의 kamino-liquidity, APY 0.13%, TVL $16.94M, https://www.defi.garden/?pool=5147b468-e863-45fb-a8d6-592f413f24c6#src=seo_token; Solana의 orca-dex, APY 0.16%, TVL $16.97M, https://www.defi.garden/?pool=99203560-4a69-4a67-9dbc-70b78a68a2b9#src=seo_token; Ethereum의 curve-dex, APY 3.75%, TVL $20.26M, https://www.defi.garden/?pool=14681aee-05c9-4733-acd0-7b2c84616209#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 PYUSD의 변동성 낮은 후보는 Ethereum의 uniswap-v4, APY 0.12%, TVL $100.13M, https://www.defi.garden/?pool=0899ff3d-adc8-4dae-a516-a94998db3332#src=seo_token; Ethereum의 sparklend, APY 1.01%, TVL $72.75M, https://www.defi.garden/?pool=995b269a-8409-4c55-b97e-868f443b432e#src=seo_token; Solana의 orca-dex, APY 0.38%, TVL $9.58M, https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255#src=seo_token; Solana의 sentora-curator, APY 7.01%, TVL $111.36M, https://www.defi.garden/ko/pools/sentora-curator-pyusd-solana; Solana의 kamino-liquidity, APY 0.13%, TVL $16.94M, https://www.defi.garden/?pool=5147b468-e863-45fb-a8d6-592f413f24c6#src=seo_token; Solana의 orca-dex, APY 0.16%, TVL $16.97M, https://www.defi.garden/?pool=99203560-4a69-4a67-9dbc-70b78a68a2b9#src=seo_token; Ethereum의 curve-dex, APY 3.75%, TVL $20.26M, https://www.defi.garden/?pool=14681aee-05c9-4733-acd0-7b2c84616209#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v4 →](https://www.defi.garden/?pool=0899ff3d-adc8-4dae-a516-a94998db3332#src=seo_token) | Ethereum | 0.12% | $100.13M |
 | 2 | [sparklend →](https://www.defi.garden/?pool=995b269a-8409-4c55-b97e-868f443b432e#src=seo_token) | Ethereum | 1.01% | $72.75M |
 | 3 | [orca-dex →](https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255#src=seo_token) | Solana | 0.38% | $9.58M |
-| 4 | [sentora-curator →](https://www.defi.garden/?pool=77602b5c-3d34-5275-acbd-a18a69ccb206#src=seo_token) | Solana | 7.01% | $111.36M |
+| 4 | [sentora-curator →](https://www.defi.garden/ko/pools/sentora-curator-pyusd-solana) | Solana | 7.01% | $111.36M |
 | 5 | [kamino-liquidity →](https://www.defi.garden/?pool=5147b468-e863-45fb-a8d6-592f413f24c6#src=seo_token) | Solana | 0.13% | $16.94M |
 | 6 | [orca-dex →](https://www.defi.garden/?pool=99203560-4a69-4a67-9dbc-70b78a68a2b9#src=seo_token) | Solana | 0.16% | $16.97M |
 | 7 | [curve-dex →](https://www.defi.garden/?pool=14681aee-05c9-4733-acd0-7b2c84616209#src=seo_token) | Ethereum | 3.75% | $20.26M |
@@ -71,7 +71,7 @@ DefiLlama 실시간 데이터 기준, Solana의 sentora-curator에서 APY 7.01%�
 
 ### PYUSD 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 PYUSD의 변동성 낮은 후보는 Ethereum의 uniswap-v4, APY 0.12%, TVL $100.13M, https://www.defi.garden/?pool=0899ff3d-adc8-4dae-a516-a94998db3332#src=seo_token; Ethereum의 sparklend, APY 1.01%, TVL $72.75M, https://www.defi.garden/?pool=995b269a-8409-4c55-b97e-868f443b432e#src=seo_token; Solana의 orca-dex, APY 0.38%, TVL $9.58M, https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255#src=seo_token; Solana의 sentora-curator, APY 7.01%, TVL $111.36M, https://www.defi.garden/?pool=77602b5c-3d34-5275-acbd-a18a69ccb206#src=seo_token; Solana의 kamino-liquidity, APY 0.13%, TVL $16.94M, https://www.defi.garden/?pool=5147b468-e863-45fb-a8d6-592f413f24c6#src=seo_token; Solana의 orca-dex, APY 0.16%, TVL $16.97M, https://www.defi.garden/?pool=99203560-4a69-4a67-9dbc-70b78a68a2b9#src=seo_token; Ethereum의 curve-dex, APY 3.75%, TVL $20.26M, https://www.defi.garden/?pool=14681aee-05c9-4733-acd0-7b2c84616209#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 PYUSD의 변동성 낮은 후보는 Ethereum의 uniswap-v4, APY 0.12%, TVL $100.13M, https://www.defi.garden/?pool=0899ff3d-adc8-4dae-a516-a94998db3332#src=seo_token; Ethereum의 sparklend, APY 1.01%, TVL $72.75M, https://www.defi.garden/?pool=995b269a-8409-4c55-b97e-868f443b432e#src=seo_token; Solana의 orca-dex, APY 0.38%, TVL $9.58M, https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255#src=seo_token; Solana의 sentora-curator, APY 7.01%, TVL $111.36M, https://www.defi.garden/ko/pools/sentora-curator-pyusd-solana; Solana의 kamino-liquidity, APY 0.13%, TVL $16.94M, https://www.defi.garden/?pool=5147b468-e863-45fb-a8d6-592f413f24c6#src=seo_token; Solana의 orca-dex, APY 0.16%, TVL $16.97M, https://www.defi.garden/?pool=99203560-4a69-4a67-9dbc-70b78a68a2b9#src=seo_token; Ethereum의 curve-dex, APY 3.75%, TVL $20.26M, https://www.defi.garden/?pool=14681aee-05c9-4733-acd0-7b2c84616209#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

@@ -4,8 +4,8 @@ The highest honest Tron yield right now is 11.57% on tr-energy (Tron), among 23 
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| TRX | [justlend-v1 →](https://www.defi.garden/pools/justlend-v1-trx-tron) | 0.33% | $689.47M |
-| BTC | [justlend-v1 →](https://www.defi.garden/pools/justlend-v1-btc-tron) | 0.01% | $567.38M |
+| TRX | [justlend-v1 →](https://www.defi.garden/?pool=90d3f42a-8700-4b9f-baa8-090a3c4322c9#src=seo_chain) | 0.33% | $689.47M |
+| BTC | [justlend-v1 →](https://www.defi.garden/?pool=71418c17-d2aa-4eff-b68a-806fff9ec951#src=seo_chain) | 0.01% | $567.38M |
 | USDD | [justlend-v1 →](https://www.defi.garden/pools/justlend-v1-usdd-tron) | 3.82% | $424.04M |
 | USDT | [justlend-v1 →](https://www.defi.garden/?pool=dac406f6-5600-437e-849d-f03daa383864#src=seo_chain) | 2.00% | $93M |
 | TRX | [tr-energy →](https://www.defi.garden/?pool=cf7a5142-ff74-4b1d-8267-98148c90b72c#src=seo_chain) | 11.57% | $90.81M |

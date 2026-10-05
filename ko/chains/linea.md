@@ -4,7 +4,7 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| WEETH | [ether.fi-stake →](https://www.defi.garden/?pool=d13ce20b-9c18-466e-be47-31ae642b0754#src=seo_chain) | 2.34% | $203.34M |
+| WEETH | [ether.fi-stake →](https://www.defi.garden/ko/pools/ether-fi-stake-weeth-linea) | 2.34% | $203.34M |
 | WETH | [aave-v3 →](https://www.defi.garden/?pool=40a5252b-305d-495a-9582-664a09ef2dc5#src=seo_chain) | 1.27% | $1.94M |
 | WBTC | [aave-v3 →](https://www.defi.garden/?pool=e68ecfb4-ba44-49e9-9626-31299405b520#src=seo_chain) | 0.07% | $869.8K |
 | USDC-WETH | [etherex-cl →](https://www.defi.garden/?pool=54125a9d-966d-4734-85e5-ae231b781894#src=seo_chain) | 329.26% | $195.2K |

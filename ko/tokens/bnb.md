@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [lista-lending →](https://www.defi.garden/ko/pools/lista-lending-bnb-bsc) | BSC | 0.21% | $387.93M |
+| [lista-lending →](https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471#src=seo_token) | BSC | 0.21% | $387.93M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=c290709e-49a9-4fa6-a4d2-ff4d78c45df5#src=seo_token) | BSC | 0.18% | $2.51M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=9b2888b1-8ffc-403b-96d6-2384f65db2fd#src=seo_token) | BSC | 9.90% | $1.6M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=cc1bdf46-b963-5bd5-94a8-728c3fdea8f6#src=seo_token) | BSC | 17.37% | $1.26M |
@@ -18,13 +18,13 @@
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 BNB의 변동성 낮은 후보는 BSC의 uniswap-v4, APY 0.18%, TVL $2.51M, https://www.defi.garden/?pool=c290709e-49a9-4fa6-a4d2-ff4d78c45df5#src=seo_token; BSC의 uniswap-v4, APY 0.07%, TVL $930.4K, https://www.defi.garden/?pool=5f15161b-5de8-4c11-962e-7e35d447ec20#src=seo_token; BSC의 lista-lending, APY 0.21%, TVL $387.93M, https://www.defi.garden/ko/pools/lista-lending-bnb-bsc; BSC의 uniswap-v4, APY 7.73%, TVL $547.5K, https://www.defi.garden/?pool=c716ca27-346b-4d61-be6e-aff719566e04#src=seo_token; BSC의 uniswap-v4, APY 9.90%, TVL $1.6M, https://www.defi.garden/?pool=9b2888b1-8ffc-403b-96d6-2384f65db2fd#src=seo_token; Arbitrum의 gmx-v2-perps, APY 0.03%, TVL $333.5K, https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec#src=seo_token; Ethereum의 uniswap-v3, APY 1.98%, TVL $306.4K, https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 BNB의 변동성 낮은 후보는 BSC의 uniswap-v4, APY 0.18%, TVL $2.51M, https://www.defi.garden/?pool=c290709e-49a9-4fa6-a4d2-ff4d78c45df5#src=seo_token; BSC의 uniswap-v4, APY 0.07%, TVL $930.4K, https://www.defi.garden/?pool=5f15161b-5de8-4c11-962e-7e35d447ec20#src=seo_token; BSC의 lista-lending, APY 0.21%, TVL $387.93M, https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471#src=seo_token; BSC의 uniswap-v4, APY 7.73%, TVL $547.5K, https://www.defi.garden/?pool=c716ca27-346b-4d61-be6e-aff719566e04#src=seo_token; BSC의 uniswap-v4, APY 9.90%, TVL $1.6M, https://www.defi.garden/?pool=9b2888b1-8ffc-403b-96d6-2384f65db2fd#src=seo_token; Arbitrum의 gmx-v2-perps, APY 0.03%, TVL $333.5K, https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec#src=seo_token; Ethereum의 uniswap-v3, APY 1.98%, TVL $306.4K, https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v4 →](https://www.defi.garden/?pool=c290709e-49a9-4fa6-a4d2-ff4d78c45df5#src=seo_token) | BSC | 0.18% | $2.51M |
 | 2 | [uniswap-v4 →](https://www.defi.garden/?pool=5f15161b-5de8-4c11-962e-7e35d447ec20#src=seo_token) | BSC | 0.07% | $930.4K |
-| 3 | [lista-lending →](https://www.defi.garden/ko/pools/lista-lending-bnb-bsc) | BSC | 0.21% | $387.93M |
+| 3 | [lista-lending →](https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471#src=seo_token) | BSC | 0.21% | $387.93M |
 | 4 | [uniswap-v4 →](https://www.defi.garden/?pool=c716ca27-346b-4d61-be6e-aff719566e04#src=seo_token) | BSC | 7.73% | $547.5K |
 | 5 | [uniswap-v4 →](https://www.defi.garden/?pool=9b2888b1-8ffc-403b-96d6-2384f65db2fd#src=seo_token) | BSC | 9.90% | $1.6M |
 | 6 | [gmx-v2-perps →](https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec#src=seo_token) | Arbitrum | 0.03% | $333.5K |
@@ -71,7 +71,7 @@ DefiLlama 실시간 데이터 기준, BSC의 uniswap-v4에서 APY 17.37%예요.
 
 ### BNB 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 BNB의 변동성 낮은 후보는 BSC의 uniswap-v4, APY 0.18%, TVL $2.51M, https://www.defi.garden/?pool=c290709e-49a9-4fa6-a4d2-ff4d78c45df5#src=seo_token; BSC의 uniswap-v4, APY 0.07%, TVL $930.4K, https://www.defi.garden/?pool=5f15161b-5de8-4c11-962e-7e35d447ec20#src=seo_token; BSC의 lista-lending, APY 0.21%, TVL $387.93M, https://www.defi.garden/ko/pools/lista-lending-bnb-bsc; BSC의 uniswap-v4, APY 7.73%, TVL $547.5K, https://www.defi.garden/?pool=c716ca27-346b-4d61-be6e-aff719566e04#src=seo_token; BSC의 uniswap-v4, APY 9.90%, TVL $1.6M, https://www.defi.garden/?pool=9b2888b1-8ffc-403b-96d6-2384f65db2fd#src=seo_token; Arbitrum의 gmx-v2-perps, APY 0.03%, TVL $333.5K, https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec#src=seo_token; Ethereum의 uniswap-v3, APY 1.98%, TVL $306.4K, https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 BNB의 변동성 낮은 후보는 BSC의 uniswap-v4, APY 0.18%, TVL $2.51M, https://www.defi.garden/?pool=c290709e-49a9-4fa6-a4d2-ff4d78c45df5#src=seo_token; BSC의 uniswap-v4, APY 0.07%, TVL $930.4K, https://www.defi.garden/?pool=5f15161b-5de8-4c11-962e-7e35d447ec20#src=seo_token; BSC의 lista-lending, APY 0.21%, TVL $387.93M, https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471#src=seo_token; BSC의 uniswap-v4, APY 7.73%, TVL $547.5K, https://www.defi.garden/?pool=c716ca27-346b-4d61-be6e-aff719566e04#src=seo_token; BSC의 uniswap-v4, APY 9.90%, TVL $1.6M, https://www.defi.garden/?pool=9b2888b1-8ffc-403b-96d6-2384f65db2fd#src=seo_token; Arbitrum의 gmx-v2-perps, APY 0.03%, TVL $333.5K, https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec#src=seo_token; Ethereum의 uniswap-v3, APY 1.98%, TVL $306.4K, https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
