@@ -49,22 +49,13 @@ def main():
     # 3. API Catalog
     verify_url(f"{base_url}/.well-known/api-catalog", expected_content_type="application/linkset+json")
 
-    # 4. Auth.md
-    verify_url(f"{base_url}/auth.md", expected_content_type="text/markdown")
-
-    # 5. openapi.json (DeFi Garden's OpenAPI Spec)
-    verify_url(f"{base_url}/openapi.json", expected_content_type="application/json")
-
-    # 6. ACP Discovery (Optional for static-only site)
-    verify_url(f"{base_url}/.well-known/acp.json", expected_content_type="application/json", optional=True)
-
-    # 7. MCP Server (Optional for static-only site)
+    # 4. MCP Server (Optional for static-only site)
     verify_url(f"{base_url}/mcp", expected_content_type="application/json", optional=True)
 
-    # 8. Agent Skills Index
+    # 5. Agent Skills Index
     verify_url(f"{base_url}/.well-known/agent-skills/index.json", expected_content_type="application/json")
 
-    # 9. Agent SKILL.md
+    # 6. Agent SKILL.md
     verify_url(f"{base_url}/.well-known/agent-skills/agentic-readiness/SKILL.md", expected_content_type="text/markdown")
 
 if __name__ == '__main__':

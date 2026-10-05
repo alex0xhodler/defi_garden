@@ -598,7 +598,6 @@ function sampleArray(arr, n) {
 
 eq(agentLogCore.classifyRequest({ pathname: '/llms.txt', accept: '*/*' }).pathClass, 'llms', 'pre-existing: /llms.txt still classifies llms');
 eq(agentLogCore.classifyRequest({ pathname: '/llms-full.txt', accept: '*/*' }).pathClass, 'llms', 'pre-existing: /llms-full.txt still classifies llms');
-eq(agentLogCore.classifyRequest({ pathname: '/openapi.json', accept: 'application/json' }).pathClass, 'well_known', 'pre-existing: /openapi.json still classifies well_known');
 eq(agentLogCore.classifyRequest({ pathname: '/api/whatever', accept: '*/*' }).pathClass, 'api', 'pre-existing: /api/* still classifies api');
 eq(agentLogCore.classifyRequest({ pathname: '/api', accept: '*/*' }).pathClass, 'api', 'pre-existing: bare /api still classifies api');
 eq(agentLogCore.classifyRequest({ pathname: '/', accept: 'text/markdown' }).pathClass, 'markdown_negotiation', 'pre-existing: / + Accept:text/markdown still classifies markdown_negotiation');

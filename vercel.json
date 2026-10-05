@@ -108,6 +108,16 @@
       "permanent": true
     },
     {
+      "source": "/ai-info",
+      "destination": "/mcp",
+      "permanent": true
+    },
+    {
+      "source": "/auth.md",
+      "destination": "/mcp",
+      "permanent": true
+    },
+    {
       "source": "/guide/defi-yield-rates-explained",
       "has": [
         {

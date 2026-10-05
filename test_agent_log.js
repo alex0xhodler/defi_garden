@@ -12,7 +12,7 @@
 
    Draws its POSITIVE and NEGATIVE path populations from the REAL files on
    disk (pools, tokens, chains, ko, well-known, llms.txt, llms-full.txt,
-   openapi.json, tools-json vs. root html/css/js, og images, sitemap xml
+   tools-json vs. root html/css/js, og images, sitemap xml
    files) — never a hardcoded fixture-only path — so the assertion is about
    the CLASS of file, not a single motivating instance.
 
@@ -115,8 +115,9 @@ ok(wellKnownMdSample, 'sanity: expected at least one real .well-known/**/*.md fi
 eq(core.classifyRequest({ pathname: wellKnownMdSample, accept: 'text/plain' }).pathClass, 'well_known',
   `${wellKnownMdSample}: a .well-known file that happens to end .md must classify well_known (precedence), not md_twin`);
 
-ok(fs.existsSync(path.join(ROOT, 'openapi.json')), 'sanity: openapi.json exists on disk');
-eq(core.classifyRequest({ pathname: '/openapi.json', accept: 'application/json' }).pathClass, 'well_known', '/openapi.json classifies well_known');
+// openapi.json (and the OAuth/OpenID/ACP discovery docs) were deleted: the REST
+// API they advertised 404s in production, the only agent endpoint is /mcp.
+ok(!fs.existsSync(path.join(ROOT, 'openapi.json')), 'openapi.json must stay deleted (dead REST API advertisement)');
 
 const toolsJsonFiles = fs.readdirSync(path.join(ROOT, 'tools')).filter((f) => f.endsWith('.json'));
 ok(toolsJsonFiles.length >= 2, `sanity: expected >=2 tools/*.json files, got ${toolsJsonFiles.length}`);
