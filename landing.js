@@ -451,12 +451,12 @@
                 e('span', { className: 'landing-title-accent' }, copy.uwTitleAccent || 'predictively underwritten.')
               ),
               e('p', { className: 'landing-spotlight-subhead' },
-                copy.uwSubhead || 'Quant AI forward volatility forecasting, closed-form liquidity underwriting, and institutional health ratings (AAA–C). Discover vetted pools with organic cash flows, deep exit liquidity, and zero surprise cliff decay.'
+                copy.uwSubhead || 'Yield quality scoring, TVL depth analysis, and 14-day forward yield forecasting. Discover vetted pools with organic cash flows and deep exit liquidity.'
               ),
               e('div', { className: 'landing-uw-badges' },
                 e('span', { className: 'landing-uw-badge highlight' }, 'TVL ≥ $10M'),
                 e('span', { className: 'landing-uw-badge highlight' }, 'APY ≥ 5.0%'),
-                e('span', { className: 'landing-uw-badge' }, 'AAA–A Rated'),
+                e('span', { className: 'landing-uw-badge' }, 'Scored Pools'),
                 e('span', { className: 'landing-uw-badge' }, '14d Forecast')
               ),
               e('div', { className: 'landing-uw-cta-row' },
