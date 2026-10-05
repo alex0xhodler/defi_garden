@@ -8,6 +8,8 @@
     <link rel="canonical" href="https://www.defi.garden/tokens/pendle">
     <link rel="alternate" hreflang="en" href="https://www.defi.garden/tokens/pendle">
     <link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/tokens/pendle">
+    <link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/tokens/pendle">
+    <link rel="alternate" hreflang="es" href="https://www.defi.garden/es/tokens/pendle">
     <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/tokens/pendle">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens","item":"https://www.defi.garden/tokens"},{"@type":"ListItem","position":3,"name":"PENDLE","item":"https://www.defi.garden/tokens/pendle"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"camelot-v2 on Arbitrum","url":"https://www.defi.garden/?pool=054b89fc-997b-4600-a4ab-00dbd72c0474"},{"@type":"ListItem","position":2,"name":"uniswap-v3 on Arbitrum","url":"https://www.defi.garden/?pool=a978c15f-c41a-433b-b02f-3434256ba66f"},{"@type":"ListItem","position":3,"name":"dolomite on Arbitrum","url":"https://www.defi.garden/?pool=9cb7fc60-9b7d-459e-8bf1-8f5189631cac"},{"@type":"ListItem","position":4,"name":"uniswap-v3 on Arbitrum","url":"https://www.defi.garden/?pool=18f93685-c199-44e7-8e25-154781d0a575"},{"@type":"ListItem","position":5,"name":"uniswap-v3 on Ethereum","url":"https://www.defi.garden/?pool=e889bc1c-15fe-4d3b-95e7-f72b7501e0f4"},{"@type":"ListItem","position":6,"name":"uniswap-v3 on Arbitrum","url":"https://www.defi.garden/?pool=090bbc01-1bfb-435d-b928-58ea9bdc8a25"},{"@type":"ListItem","position":7,"name":"aerodrome-slipstream on Base","url":"https://www.defi.garden/?pool=145ca243-2a20-48f4-bc20-88515fa23dd1"},{"@type":"ListItem","position":8,"name":"uniswap-v3 on Arbitrum","url":"https://www.defi.garden/?pool=c4f27457-0d3d-4f6d-8c3e-eb1a0e6e91b8"}]}</script>
@@ -78,6 +80,14 @@
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } .tp-cta:active, .related-links a:active { transform: none; } }
+      .lang-switch ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; }
+      .lang-switch a, .lang-switch [aria-current] { display: inline-flex; align-items: center; min-height: 38px; box-sizing: border-box; padding: 0 14px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; font-size: .9rem; font-weight: 600; text-decoration: none; }
+      .lang-switch a { background: var(--ui-surface); color: var(--ui-accent); }
+      .lang-switch a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .lang-switch a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .lang-switch a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .lang-switch [aria-current] { background: var(--ui-accent-soft); border-color: var(--ui-accent-border); color: var(--ui-text); }
+      @media (prefers-reduced-motion: reduce) { .lang-switch a:active { transform: none; } }
       .tp-waitlist {
         background: var(--ui-surface);
         border: 1px solid var(--ui-border);
@@ -325,6 +335,14 @@
 </head>
 <body>
   <main class="tp-wrap">
+    <nav class="lang-switch" aria-label="Language">
+      <ul>
+        <li><span aria-current="true" lang="en" title="English">EN</span></li>
+        <li><a href="https://www.defi.garden/ko/tokens/pendle" hreflang="ko" lang="ko" title="한국어" aria-label="한국어">KO</a></li>
+        <li><a href="https://www.defi.garden/pt/tokens/pendle" hreflang="pt" lang="pt-BR" title="Português" aria-label="Português">PT</a></li>
+        <li><a href="https://www.defi.garden/es/tokens/pendle" hreflang="es" lang="es" title="Español" aria-label="Español">ES</a></li>
+      </ul>
+    </nav>
     <h1>PENDLE DeFi Yields</h1>
     <p class="tp-answer">The highest honest PENDLE yield right now is 131.39% on aerodrome-slipstream (Base), among 14 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">14 live pools above the $100K TVL floor · ranked by TVL</p>

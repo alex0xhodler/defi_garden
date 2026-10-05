@@ -8,6 +8,8 @@
     <link rel="canonical" href="https://www.defi.garden/ko/chains/ton">
     <link rel="alternate" hreflang="en" href="https://www.defi.garden/chains/ton">
     <link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/chains/ton">
+    <link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/chains/ton">
+    <link rel="alternate" hreflang="es" href="https://www.defi.garden/es/chains/ton">
     <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/chains/ton">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"홈","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"체인","item":"https://www.defi.garden/ko/chains"},{"@type":"ListItem","position":3,"name":"TON","item":"https://www.defi.garden/ko/chains/ton"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"TON의 hipo","url":"https://www.defi.garden/?pool=691a2aaa-cef5-4a6a-a3f3-86170fada8f4"},{"@type":"ListItem","position":2,"name":"TON의 ston.fi","url":"https://www.defi.garden/?pool=4c139e6e-1a29-496e-b916-7edd07069340"},{"@type":"ListItem","position":3,"name":"TON의 ston.fi","url":"https://www.defi.garden/?pool=ad078c5e-e07c-4a25-97ab-c04d2c9d8908"},{"@type":"ListItem","position":4,"name":"TON의 storm-trade","url":"https://www.defi.garden/?pool=94623cbe-f6ac-47da-b157-776073f2ac13"},{"@type":"ListItem","position":5,"name":"TON의 tonco-v1","url":"https://www.defi.garden/?pool=92dba085-11b3-5951-aeec-f7d65c21e854"},{"@type":"ListItem","position":6,"name":"TON의 storm-trade","url":"https://www.defi.garden/?pool=4c4efd02-2cb9-412f-b2d3-8b05208847ae"},{"@type":"ListItem","position":7,"name":"TON의 affluent","url":"https://www.defi.garden/?pool=1553ad7f-648c-46b2-ac37-b6863311e83c"},{"@type":"ListItem","position":8,"name":"TON의 ston.fi","url":"https://www.defi.garden/?pool=31d19516-8eb0-40e7-a6e8-03ef10a505f1"}]}</script>
@@ -69,6 +71,14 @@
       .cp-faq-a { font-size: .9rem; margin: 0; color: var(--ui-text-secondary); line-height: 1.55; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .cp-cta, .related-links a { transition: none; } .cp-cta:active, .related-links a:active { transform: none; } }
+      .lang-switch ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; }
+      .lang-switch a, .lang-switch [aria-current] { display: inline-flex; align-items: center; min-height: 38px; box-sizing: border-box; padding: 0 14px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; font-size: .9rem; font-weight: 600; text-decoration: none; }
+      .lang-switch a { background: var(--ui-surface); color: var(--ui-accent); }
+      .lang-switch a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .lang-switch a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .lang-switch a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .lang-switch [aria-current] { background: var(--ui-accent-soft); border-color: var(--ui-accent-border); color: var(--ui-text); }
+      @media (prefers-reduced-motion: reduce) { .lang-switch a:active { transform: none; } }
       .cp-waitlist {
         background: var(--ui-surface);
         border: 1px solid var(--ui-border);
@@ -316,6 +326,14 @@
 </head>
 <body>
   <main class="cp-wrap">
+    <nav class="lang-switch" aria-label="언어">
+      <ul>
+        <li><a href="https://www.defi.garden/chains/ton" hreflang="en" lang="en" title="English" aria-label="English">EN</a></li>
+        <li><span aria-current="true" lang="ko" title="한국어">KO</span></li>
+        <li><a href="https://www.defi.garden/pt/chains/ton" hreflang="pt" lang="pt-BR" title="Português" aria-label="Português">PT</a></li>
+        <li><a href="https://www.defi.garden/es/chains/ton" hreflang="es" lang="es" title="Español" aria-label="Español">ES</a></li>
+      </ul>
+    </nav>
     <h1>TON 디파이 수익률</h1>
     <p class="cp-answer">현재 TON의 가장 높은 정직한 수익률은 TON의 hipo에서 17.61%이며, $100K TVL 기준을 넘는 53개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.</p>
     <p class="sub">$100K TVL 기준을 넘는 실시간 풀 53개 · TVL 순 정렬</p>

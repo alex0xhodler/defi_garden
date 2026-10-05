@@ -8,6 +8,8 @@
     <link rel="canonical" href="https://www.defi.garden/ko/tokens/khype">
     <link rel="alternate" hreflang="en" href="https://www.defi.garden/tokens/khype">
     <link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/tokens/khype">
+    <link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/tokens/khype">
+    <link rel="alternate" hreflang="es" href="https://www.defi.garden/es/tokens/khype">
     <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/tokens/khype">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"홈","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"토큰","item":"https://www.defi.garden/ko/tokens"},{"@type":"ListItem","position":3,"name":"KHYPE","item":"https://www.defi.garden/ko/tokens/khype"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"Hyperliquid L1의 nest-cl","url":"https://www.defi.garden/?pool=ecae90d4-d05d-4485-a1c2-2abf75c96df8"},{"@type":"ListItem","position":2,"name":"Hyperliquid L1의 harmonix-finance","url":"https://www.defi.garden/?pool=2576d6eb-44a0-459c-8f95-b364bdf86d63"},{"@type":"ListItem","position":3,"name":"Hyperliquid L1의 hypurrfi-pooled","url":"https://www.defi.garden/?pool=aa88cdff-f2ca-4644-9900-8a565e12378c"},{"@type":"ListItem","position":4,"name":"Hyperliquid L1의 pendle-v2","url":"https://www.defi.garden/?pool=99b2f4e5-34ee-53dd-97ec-6da96a9d796c"},{"@type":"ListItem","position":5,"name":"Hyperliquid L1의 pendle-v2","url":"https://www.defi.garden/?pool=579c0332-5262-5b12-9f59-8c9d5d307dee"},{"@type":"ListItem","position":6,"name":"Hyperliquid L1의 project-x","url":"https://www.defi.garden/?pool=b7b3264a-0114-46b1-b961-ff9484339860"},{"@type":"ListItem","position":7,"name":"Hyperliquid L1의 project-x","url":"https://www.defi.garden/?pool=f790f1f3-435e-4706-aaf2-19b08dde32ed"},{"@type":"ListItem","position":8,"name":"Hyperliquid L1의 project-x","url":"https://www.defi.garden/?pool=2b91e652-5114-4833-9219-30aeb6ca87dc"}]}</script>
@@ -78,6 +80,14 @@
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } .tp-cta:active, .related-links a:active { transform: none; } }
+      .lang-switch ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; }
+      .lang-switch a, .lang-switch [aria-current] { display: inline-flex; align-items: center; min-height: 38px; box-sizing: border-box; padding: 0 14px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; font-size: .9rem; font-weight: 600; text-decoration: none; }
+      .lang-switch a { background: var(--ui-surface); color: var(--ui-accent); }
+      .lang-switch a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .lang-switch a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .lang-switch a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .lang-switch [aria-current] { background: var(--ui-accent-soft); border-color: var(--ui-accent-border); color: var(--ui-text); }
+      @media (prefers-reduced-motion: reduce) { .lang-switch a:active { transform: none; } }
       .tp-waitlist {
         background: var(--ui-surface);
         border: 1px solid var(--ui-border);
@@ -325,6 +335,14 @@
 </head>
 <body>
   <main class="tp-wrap">
+    <nav class="lang-switch" aria-label="언어">
+      <ul>
+        <li><a href="https://www.defi.garden/tokens/khype" hreflang="en" lang="en" title="English" aria-label="English">EN</a></li>
+        <li><span aria-current="true" lang="ko" title="한국어">KO</span></li>
+        <li><a href="https://www.defi.garden/pt/tokens/khype" hreflang="pt" lang="pt-BR" title="Português" aria-label="Português">PT</a></li>
+        <li><a href="https://www.defi.garden/es/tokens/khype" hreflang="es" lang="es" title="Español" aria-label="Español">ES</a></li>
+      </ul>
+    </nav>
     <h1>KHYPE 디파이 수익률</h1>
     <p class="tp-answer">현재 KHYPE의 가장 높은 정직한 수익률은 Hyperliquid L1의 harmonix-finance에서 2.85%이며, $100K TVL 기준을 넘는 26개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.</p>
     <p class="sub">$100K TVL 기준을 넘는 실시간 풀 26개 · TVL 순 정렬</p>

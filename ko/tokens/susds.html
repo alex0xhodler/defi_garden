@@ -8,6 +8,8 @@
     <link rel="canonical" href="https://www.defi.garden/ko/tokens/susds">
     <link rel="alternate" hreflang="en" href="https://www.defi.garden/tokens/susds">
     <link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/tokens/susds">
+    <link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/tokens/susds">
+    <link rel="alternate" hreflang="es" href="https://www.defi.garden/es/tokens/susds">
     <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/tokens/susds">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"홈","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"토큰","item":"https://www.defi.garden/ko/tokens"},{"@type":"ListItem","position":3,"name":"SUSDS","item":"https://www.defi.garden/ko/tokens/susds"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"Ethereum의 sky-lending","url":"https://www.defi.garden/ko/pools/sky-lending-susds-ethereum"},{"@type":"ListItem","position":2,"name":"Arbitrum의 sky-lending","url":"https://www.defi.garden/ko/pools/sky-lending-susds-arbitrum"},{"@type":"ListItem","position":3,"name":"Ethereum의 uniswap-v3","url":"https://www.defi.garden/?pool=0cc155d9-0e7f-4bdd-b07e-0a09e34b9af0"},{"@type":"ListItem","position":4,"name":"Ethereum의 curve-dex","url":"https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1"},{"@type":"ListItem","position":5,"name":"Ethereum의 convex-finance","url":"https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566"},{"@type":"ListItem","position":6,"name":"OP Mainnet의 sky-lending","url":"https://www.defi.garden/?pool=0af18cf7-b21c-5a85-93e5-bd58289a2d6d"},{"@type":"ListItem","position":7,"name":"Ethereum의 pendle-v2","url":"https://www.defi.garden/?pool=0a3ea503-239b-4637-acda-7f57016e0caa"},{"@type":"ListItem","position":8,"name":"Ethereum의 pendle-v2","url":"https://www.defi.garden/?pool=8e9f65c8-8cd7-44a5-9363-36d4017f46ec"}]}</script>
@@ -78,6 +80,14 @@
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } .tp-cta:active, .related-links a:active { transform: none; } }
+      .lang-switch ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; }
+      .lang-switch a, .lang-switch [aria-current] { display: inline-flex; align-items: center; min-height: 38px; box-sizing: border-box; padding: 0 14px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; font-size: .9rem; font-weight: 600; text-decoration: none; }
+      .lang-switch a { background: var(--ui-surface); color: var(--ui-accent); }
+      .lang-switch a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .lang-switch a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .lang-switch a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .lang-switch [aria-current] { background: var(--ui-accent-soft); border-color: var(--ui-accent-border); color: var(--ui-text); }
+      @media (prefers-reduced-motion: reduce) { .lang-switch a:active { transform: none; } }
       .tp-waitlist {
         background: var(--ui-surface);
         border: 1px solid var(--ui-border);
@@ -325,6 +335,14 @@
 </head>
 <body>
   <main class="tp-wrap">
+    <nav class="lang-switch" aria-label="언어">
+      <ul>
+        <li><a href="https://www.defi.garden/tokens/susds" hreflang="en" lang="en" title="English" aria-label="English">EN</a></li>
+        <li><span aria-current="true" lang="ko" title="한국어">KO</span></li>
+        <li><a href="https://www.defi.garden/pt/tokens/susds" hreflang="pt" lang="pt-BR" title="Português" aria-label="Português">PT</a></li>
+        <li><a href="https://www.defi.garden/es/tokens/susds" hreflang="es" lang="es" title="Español" aria-label="Español">ES</a></li>
+      </ul>
+    </nav>
     <h1>SUSDS 디파이 수익률</h1>
     <p class="tp-answer">현재 SUSDS의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 6.53%이며, $100K TVL 기준을 넘는 27개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.</p>
     <p class="sub">$100K TVL 기준을 넘는 실시간 풀 27개 · TVL 순 정렬</p>

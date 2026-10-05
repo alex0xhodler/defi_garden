@@ -8,6 +8,8 @@
     <link rel="canonical" href="https://www.defi.garden/tokens/usdt">
     <link rel="alternate" hreflang="en" href="https://www.defi.garden/tokens/usdt">
     <link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/tokens/usdt">
+    <link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/tokens/usdt">
+    <link rel="alternate" hreflang="es" href="https://www.defi.garden/es/tokens/usdt">
     <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/tokens/usdt">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens","item":"https://www.defi.garden/tokens"},{"@type":"ListItem","position":3,"name":"USDT","item":"https://www.defi.garden/tokens/usdt"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"maple on Ethereum","url":"https://www.defi.garden/pools/maple-usdt-ethereum"},{"@type":"ListItem","position":2,"name":"spark-savings on Ethereum","url":"https://www.defi.garden/pools/spark-savings-usdt-ethereum"},{"@type":"ListItem","position":3,"name":"aave-v3 on Ethereum","url":"https://www.defi.garden/pools/aave-v3-usdt-ethereum"},{"@type":"ListItem","position":4,"name":"fluid-lending on Ethereum","url":"https://www.defi.garden/pools/fluid-lending-usdt-ethereum"},{"@type":"ListItem","position":5,"name":"uniswap-v3 on Ethereum","url":"https://www.defi.garden/pools/uniswap-v3-weth-usdt-ethereum"},{"@type":"ListItem","position":6,"name":"justlend-v1 on Tron","url":"https://www.defi.garden/?pool=dac406f6-5600-437e-849d-f03daa383864"},{"@type":"ListItem","position":7,"name":"aave-v3 on Ethereum","url":"https://www.defi.garden/?pool=a90d554a-b548-4f50-b03e-9dcb724b7777"},{"@type":"ListItem","position":8,"name":"uniswap-v4 on Ethereum","url":"https://www.defi.garden/?pool=f71737e5-f02e-4964-b23e-19d1a6c7a6bf"}]}</script>
@@ -82,6 +84,14 @@
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } .tp-cta:active, .related-links a:active { transform: none; } }
+      .lang-switch ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; }
+      .lang-switch a, .lang-switch [aria-current] { display: inline-flex; align-items: center; min-height: 38px; box-sizing: border-box; padding: 0 14px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; font-size: .9rem; font-weight: 600; text-decoration: none; }
+      .lang-switch a { background: var(--ui-surface); color: var(--ui-accent); }
+      .lang-switch a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .lang-switch a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .lang-switch a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .lang-switch [aria-current] { background: var(--ui-accent-soft); border-color: var(--ui-accent-border); color: var(--ui-text); }
+      @media (prefers-reduced-motion: reduce) { .lang-switch a:active { transform: none; } }
       .tp-waitlist {
         background: var(--ui-surface);
         border: 1px solid var(--ui-border);
@@ -329,6 +339,14 @@
 </head>
 <body>
   <main class="tp-wrap">
+    <nav class="lang-switch" aria-label="Language">
+      <ul>
+        <li><span aria-current="true" lang="en" title="English">EN</span></li>
+        <li><a href="https://www.defi.garden/ko/tokens/usdt" hreflang="ko" lang="ko" title="한국어" aria-label="한국어">KO</a></li>
+        <li><a href="https://www.defi.garden/pt/tokens/usdt" hreflang="pt" lang="pt-BR" title="Português" aria-label="Português">PT</a></li>
+        <li><a href="https://www.defi.garden/es/tokens/usdt" hreflang="es" lang="es" title="Español" aria-label="Español">ES</a></li>
+      </ul>
+    </nav>
     <h1>USDT DeFi Yields</h1>
     <p class="tp-answer">The highest honest USDT yield right now is 23.55% on uniswap-v3 (Ethereum), among 524 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">524 live pools above the $100K TVL floor · ranked by TVL</p>

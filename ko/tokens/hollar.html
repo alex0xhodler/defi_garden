@@ -8,6 +8,8 @@
     <link rel="canonical" href="https://www.defi.garden/ko/tokens/hollar">
     <link rel="alternate" hreflang="en" href="https://www.defi.garden/tokens/hollar">
     <link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/tokens/hollar">
+    <link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/tokens/hollar">
+    <link rel="alternate" hreflang="es" href="https://www.defi.garden/es/tokens/hollar">
     <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/tokens/hollar">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"홈","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"토큰","item":"https://www.defi.garden/ko/tokens"},{"@type":"ListItem","position":3,"name":"HOLLAR","item":"https://www.defi.garden/ko/tokens/hollar"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"Polkadot의 hydration-dex","url":"https://www.defi.garden/?pool=e6ae5236-a78a-4ddb-b5f7-da2fea18f96c"},{"@type":"ListItem","position":2,"name":"Polkadot의 hydration-dex","url":"https://www.defi.garden/?pool=ac63a425-ea86-4395-ae51-e849620399f7"},{"@type":"ListItem","position":3,"name":"Polkadot의 hydration-dex","url":"https://www.defi.garden/?pool=470f1399-4e87-4146-a9f6-4c1294c4959a"},{"@type":"ListItem","position":4,"name":"Polkadot의 hydration-dex","url":"https://www.defi.garden/?pool=8702c691-9b2c-4722-a9c1-4eb6289bca94"},{"@type":"ListItem","position":5,"name":"Polkadot의 hydration-dex","url":"https://www.defi.garden/?pool=b365d27e-3eb3-4d68-a5a4-ecdceda06c6b"},{"@type":"ListItem","position":6,"name":"Polkadot의 hydration-dex","url":"https://www.defi.garden/?pool=725ad84c-242e-4ddc-9bda-e2462466119a"},{"@type":"ListItem","position":7,"name":"Polkadot의 hydration-dex","url":"https://www.defi.garden/?pool=9714729f-22d5-472e-b3fb-ed799a6bd4a5"},{"@type":"ListItem","position":8,"name":"Polkadot의 hydration-dex","url":"https://www.defi.garden/?pool=030640cd-7bd6-534b-a389-a0475c8f926f"}]}</script>
@@ -78,6 +80,14 @@
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } .tp-cta:active, .related-links a:active { transform: none; } }
+      .lang-switch ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; }
+      .lang-switch a, .lang-switch [aria-current] { display: inline-flex; align-items: center; min-height: 38px; box-sizing: border-box; padding: 0 14px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; font-size: .9rem; font-weight: 600; text-decoration: none; }
+      .lang-switch a { background: var(--ui-surface); color: var(--ui-accent); }
+      .lang-switch a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .lang-switch a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .lang-switch a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .lang-switch [aria-current] { background: var(--ui-accent-soft); border-color: var(--ui-accent-border); color: var(--ui-text); }
+      @media (prefers-reduced-motion: reduce) { .lang-switch a:active { transform: none; } }
       .tp-waitlist {
         background: var(--ui-surface);
         border: 1px solid var(--ui-border);
@@ -325,6 +335,14 @@
 </head>
 <body>
   <main class="tp-wrap">
+    <nav class="lang-switch" aria-label="언어">
+      <ul>
+        <li><a href="https://www.defi.garden/tokens/hollar" hreflang="en" lang="en" title="English" aria-label="English">EN</a></li>
+        <li><span aria-current="true" lang="ko" title="한국어">KO</span></li>
+        <li><a href="https://www.defi.garden/pt/tokens/hollar" hreflang="pt" lang="pt-BR" title="Português" aria-label="Português">PT</a></li>
+        <li><a href="https://www.defi.garden/es/tokens/hollar" hreflang="es" lang="es" title="Español" aria-label="Español">ES</a></li>
+      </ul>
+    </nav>
     <h1>HOLLAR 디파이 수익률</h1>
     <p class="tp-answer">현재 HOLLAR의 가장 높은 정직한 수익률은 Polkadot의 hydration-dex에서 15.83%이며, $100K TVL 기준을 넘는 10개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.</p>
     <p class="sub">$100K TVL 기준을 넘는 실시간 풀 10개 · TVL 순 정렬</p>

@@ -8,6 +8,8 @@
     <link rel="canonical" href="https://www.defi.garden/ko/tokens/wbtc">
     <link rel="alternate" hreflang="en" href="https://www.defi.garden/tokens/wbtc">
     <link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/tokens/wbtc">
+    <link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/tokens/wbtc">
+    <link rel="alternate" hreflang="es" href="https://www.defi.garden/es/tokens/wbtc">
     <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/tokens/wbtc">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"홈","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"토큰","item":"https://www.defi.garden/ko/tokens"},{"@type":"ListItem","position":3,"name":"WBTC","item":"https://www.defi.garden/ko/tokens/wbtc"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"Arbitrum의 aave-v3","url":"https://www.defi.garden/?pool=7c5e69a4-2430-4fa2-b7cb-857f79d7d1bf"},{"@type":"ListItem","position":2,"name":"Ethereum의 curve-dex","url":"https://www.defi.garden/?pool=128b253a-0903-476f-9a70-6007b336e395"},{"@type":"ListItem","position":3,"name":"Polygon의 aave-v3","url":"https://www.defi.garden/?pool=58d18059-f1d1-45ed-acd3-f386e98cc506"},{"@type":"ListItem","position":4,"name":"Ethereum의 uniswap-v3","url":"https://www.defi.garden/?pool=c5599b3a-ea73-4017-a867-72eb971301d1"},{"@type":"ListItem","position":5,"name":"Ethereum의 uniswap-v3","url":"https://www.defi.garden/?pool=d59a5728-d391-4989-86f6-a94e11e0eb3b"},{"@type":"ListItem","position":6,"name":"Ethereum의 uniswap-v3","url":"https://www.defi.garden/?pool=7b78fe2f-6f67-46ef-8a42-1e36de8d0dfc"},{"@type":"ListItem","position":7,"name":"Arbitrum의 uniswap-v3","url":"https://www.defi.garden/?pool=bb7e9353-129f-4e01-b822-f4250d0abb8a"},{"@type":"ListItem","position":8,"name":"Ethereum의 yield-basis","url":"https://www.defi.garden/?pool=13ee3ea5-7546-573e-8597-161917ad00f5"}]}</script>
@@ -82,6 +84,14 @@
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } .tp-cta:active, .related-links a:active { transform: none; } }
+      .lang-switch ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; }
+      .lang-switch a, .lang-switch [aria-current] { display: inline-flex; align-items: center; min-height: 38px; box-sizing: border-box; padding: 0 14px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; font-size: .9rem; font-weight: 600; text-decoration: none; }
+      .lang-switch a { background: var(--ui-surface); color: var(--ui-accent); }
+      .lang-switch a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .lang-switch a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .lang-switch a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .lang-switch [aria-current] { background: var(--ui-accent-soft); border-color: var(--ui-accent-border); color: var(--ui-text); }
+      @media (prefers-reduced-motion: reduce) { .lang-switch a:active { transform: none; } }
       .tp-waitlist {
         background: var(--ui-surface);
         border: 1px solid var(--ui-border);
@@ -329,6 +339,14 @@
 </head>
 <body>
   <main class="tp-wrap">
+    <nav class="lang-switch" aria-label="언어">
+      <ul>
+        <li><a href="https://www.defi.garden/tokens/wbtc" hreflang="en" lang="en" title="English" aria-label="English">EN</a></li>
+        <li><span aria-current="true" lang="ko" title="한국어">KO</span></li>
+        <li><a href="https://www.defi.garden/pt/tokens/wbtc" hreflang="pt" lang="pt-BR" title="Português" aria-label="Português">PT</a></li>
+        <li><a href="https://www.defi.garden/es/tokens/wbtc" hreflang="es" lang="es" title="Español" aria-label="Español">ES</a></li>
+      </ul>
+    </nav>
     <h1>WBTC 디파이 수익률</h1>
     <p class="tp-answer">현재 WBTC의 가장 높은 정직한 수익률은 Arbitrum의 uniswap-v3에서 8.46%이며, $100K TVL 기준을 넘는 305개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.</p>
     <p class="sub">$100K TVL 기준을 넘는 실시간 풀 305개 · TVL 순 정렬</p>

@@ -37,7 +37,12 @@
 const fs = require('fs');
 const path = require('path');
 const tp = require('./generate-token-pages.js');
-const { createTranslationFunction, translations } = require('./translations.js');
+// Node-only i18n layer (en/ko from translations.js + pt/es dictionaries); the
+// browser bundle is untouched.
+const { createTranslationFunction } = require('./i18n');
+const {
+  LANGUAGES, LANG_CODES, getLanguage, normalizeLang, langPath, langUrl, langDir
+} = require('./languages.js');
 const { PERMISSIONED_PROJECT_LIST } = require('./permissioned-projects.js');
 const { assignPoolSlugs, slugify, MANIFEST_REL_PATH } = require('./pool-page-links.js');
 
@@ -56,7 +61,9 @@ try {
 const {
   SITE_URL, isAnomalousApy, poolTotalApy, formatUsd, formatApy, escapeHtml,
   renderAnalyticsBootstrap, renderFontPreloadLinks, renderHreflangLinks,
-  renderDatasetJsonLd, withSrc, OG_FALLBACK_REL_PATH
+  renderDatasetJsonLd, withSrc, OG_FALLBACK_REL_PATH,
+  renderLanguageSwitcher, renderLangSwitchStyle, renderSitemapAlternates, neutralPathOfLoc,
+  SITEMAP_URLSET_OPEN, SITEMAP_URLSET_OPEN_XHTML
 } = tp;
 
 const ROOT = __dirname;
@@ -273,9 +280,8 @@ function pageTitle(pool, t, monthLabel) {
 
 function monthLabelFor(iso, lang) {
   const d = new Date(iso);
-  return lang === 'ko'
-    ? `${d.getUTCFullYear()}년 ${d.getUTCMonth() + 1}월`
-    : `${d.toLocaleString('en-US', { month: 'short', timeZone: 'UTC' })} ${d.getUTCFullYear()}`;
+  return createTranslationFunction(lang)('tcpMonthYear',
+    d.toLocaleString('en-US', { month: 'short', timeZone: 'UTC' }), String(d.getUTCMonth() + 1), String(d.getUTCFullYear()));
 }
 function longDateFor(iso) {
   return new Date(iso).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
@@ -291,7 +297,7 @@ function similarPools(pool, selected, n) {
   return out.slice(0, n);
 }
 
-function poolsBase(lang) { return `${SITE_URL}/${lang === 'ko' ? 'ko/pools' : 'pools'}`; }
+function poolsBase(lang) { return `${SITE_URL}${langPath(lang, '/pools')}`; }
 
 // --- CSS (tokens only) -------------------------------------------------------
 /**
@@ -365,24 +371,25 @@ function renderStyle() {
       }
       @media (max-width: 768px) { .psp-crumbs a, .psp-crumbs li { min-height: 40px; } }
       @media (max-width: 480px) { .psp-chart .psp-axis { font-size: 20px; } .psp-wrap { padding: 16px 14px 32px; } .psp-wrap h1 { font-size: 1.4rem; } .psp-cta { max-width: none; } }
-    </style>`;
+${renderLangSwitchStyle()}    </style>`;
 }
 
 // --- shared chrome: the /for/*.html header + footer, localised ---------------
 const LEAF_MARK_SVG = '<svg class="landing-leaf-mark" viewBox="0 0 32 32" width="24" height="24" preserveAspectRatio="xMidYMid meet" fill="none" aria-hidden="true"><path d="M26.7 4.8C16.2 5.2 8.2 10.7 7.1 20.4c-.3 2.8.7 5.2 2.4 6.8 1.6-8.5 6.5-14.6 14.1-18.2-4.5 3.9-7.6 8.7-9 14.6 3.1-3.9 7-6.8 11.7-8.8.8-2.8.9-6 .4-10Z" fill="currentColor" /><path d="M8.8 27.2c3.2-5.1 7.2-8.9 12.2-11.4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" /></svg>';
 
-/** Landing-namespace copy (nav/theme/language labels already shipped in EN + KO). */
+/** Landing-namespace copy (nav/theme labels already shipped in EN + KO). The
+ *  i18n layer addresses the nested `landing` catalog as 'landing.<key>' (pt/es
+ *  carry them as flat 'landing.<key>' entries) with per-key EN fall-back. */
 function chromeCopy(language) {
-  const own = (translations[language] || {}).landing || {};
-  const en = translations.en.landing || {};
-  return k => own[k] != null ? own[k] : (en[k] != null ? en[k] : k);
+  const t = createTranslationFunction(language);
+  return k => t('landing.' + k);
 }
 
 /** Applies a saved theme before first paint (same `theme` localStorage key as the app). */
 const THEME_BOOT_SCRIPT = `    <script>try{var th=localStorage.getItem('theme');if(th)document.documentElement.setAttribute('data-theme',th)}catch(e){}</script>`;
 
 /** Theme toggle + mobile menu. Same behaviour as /for/*.html; the language
- *  control is a plain link to the other-language twin page, so no JS for it. */
+ *  switcher is a plain list of links (renderLanguageSwitcher), so no JS for it. */
 function renderChromeScript(lc) {
   const labels = JSON.stringify({
     toLight: lc('themeLight'), toDark: lc('themeDark'), open: lc('navMenu'), close: lc('navClose')
@@ -425,8 +432,10 @@ function renderChromeScript(lc) {
   </script>`;
 }
 
-/** Header + mobile nav. `otherLangUrl` is the KO/EN twin of the current page. */
-function renderSiteHeader(lc, language, otherLangUrl) {
+/** Header + mobile nav. The language switcher is NOT in the header: four
+ *  language buttons next to the theme/menu buttons do not fit a 360px header,
+ *  so it is a compact link row at the top of <main> instead. */
+function renderSiteHeader(lc, language) {
   const links = [
     ['/?app=1', lc('navSearch')],
     ['/plan.html', lc('navPlanner')],
@@ -442,7 +451,6 @@ function renderSiteHeader(lc, language, otherLangUrl) {
         ${links.map(a).join('\n        ')}
       </nav>
       <div class="landing-header-actions">
-        <a class="landing-icon-button" href="${otherLangUrl}" hreflang="${language === 'ko' ? 'en' : 'ko'}" lang="${language === 'ko' ? 'en' : 'ko'}" aria-label="${escapeHtml(lc(language === 'ko' ? 'languageEnglish' : 'languageKorean'))}">${language === 'ko' ? 'EN' : 'KO'}</a>
         <button type="button" class="landing-icon-button landing-theme-button" id="theme-toggle-btn" aria-label="${escapeHtml(lc('themeLight'))}">☼</button>
         <button type="button" class="landing-menu-button" id="menu-toggle-btn" aria-expanded="false" aria-controls="mobile-nav" aria-label="${escapeHtml(lc('navMenu'))}">☰</button>
       </div>
@@ -454,7 +462,7 @@ function renderSiteHeader(lc, language, otherLangUrl) {
 
 /** The shared static footer (same copy + hub links as the landing and /for pages). */
 function renderSiteFooter(t, language) {
-  const base = language === 'ko' ? '/ko' : '';
+  const base = langPath(language, '');
   return `    <footer class="app-footer">
       <p>${escapeHtml(t('poweredBy'))} <a href="https://api-docs.defillama.com/" target="_blank" rel="noopener noreferrer">${escapeHtml(t('defillamaApi'))}</a>. ${escapeHtml(t('footerSignOff'))}</p>
       <p class="app-footer-hub-links">
@@ -469,7 +477,7 @@ function renderSiteFooter(t, language) {
  *        protocolUrls, chainSlugs:Set, hasAccuracyPage:boolean }
  */
 function renderPoolScorePage(pool, ctx, lang) {
-  const language = lang === 'ko' ? 'ko' : 'en';
+  const language = normalizeLang(lang);
   const t = createTranslationFunction(language);
   const lc = chromeCopy(language);
   const esc = s => escapeHtml(s);
@@ -477,9 +485,8 @@ function renderPoolScorePage(pool, ctx, lang) {
   const sym = pool.symbol || '—';
   const chain = pool.chain || '—';
   const slug = ctx.slug;
-  const pageUrl = `${poolsBase(language)}/${slug}`;
-  const enUrl = `${poolsBase('en')}/${slug}`;
-  const koUrl = `${poolsBase('ko')}/${slug}`;
+  const neutralPath = `/pools/${slug}`;
+  const pageUrl = langUrl(SITE_URL, language, neutralPath);
   const genDate = longDateFor(ctx.snapshotIso);
   const monthLabel = monthLabelFor(ctx.snapshotIso, language);
   const total = poolTotalApy(pool);
@@ -495,7 +502,7 @@ function renderPoolScorePage(pool, ctx, lang) {
 
   // breadcrumb (Home > Chains > Chain > pool); chain level only when its page exists
   const chainSlug = slugify(chain);
-  const chainsBase = `${SITE_URL}/${language === 'ko' ? 'ko/chains' : 'chains'}`;
+  const chainsBase = `${SITE_URL}${langPath(language, '/chains')}`;
   const crumbs = [
     { name: t('tcpBreadcrumbHome'), url: `${SITE_URL}/` },
     { name: t('tcpBreadcrumbChains'), url: chainsBase }
@@ -573,7 +580,7 @@ function renderPoolScorePage(pool, ctx, lang) {
   const chartId = 'psp-chart-title';
 
   return `<!DOCTYPE html>
-<html lang="${language}">
+<html lang="${getLanguage(language).htmlLang}">
 <head>
     ${GENERATOR_MARKER}
     <meta charset="UTF-8">
@@ -581,7 +588,7 @@ function renderPoolScorePage(pool, ctx, lang) {
     <title>${esc(title)}</title>
     <meta name="description" content="${esc(description)}">
     <link rel="canonical" href="${pageUrl}">
-${renderHreflangLinks(enUrl, koUrl)}    <script type="application/ld+json">${breadcrumbJsonLd}</script>
+${renderHreflangLinks(neutralPath, LANG_CODES)}    <script type="application/ld+json">${breadcrumbJsonLd}</script>
     <script type="application/ld+json">${datasetJsonLd}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="${esc(title)}">
@@ -598,13 +605,13 @@ ${renderFontPreloadLinks()}    <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="/pool-detail-styles.min.css">
 ${THEME_BOOT_SCRIPT}
 ${renderStyle()}
-${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/pools/${slug}`, { page_type: 'pool_score', pool: pool.pool, chain, project: pool.project, lang: language })}
+${renderAnalyticsBootstrap(`${langPath(language, '')}/pools/${slug}`, { page_type: 'pool_score', pool: pool.pool, chain, project: pool.project, lang: language })}
 </head>
 <body>
   <div class="landing-app psp-page">
-${renderSiteHeader(lc, language, (language === 'ko' ? enUrl : koUrl).replace(SITE_URL, ''))}
+${renderSiteHeader(lc, language)}
   <main class="psp-wrap pool-detail-view">
-    <nav class="psp-crumbs" aria-label="${esc(t('tcpBreadcrumbHome'))}"><ol>${breadcrumbHtml}</ol></nav>
+${renderLanguageSwitcher(neutralPath, language, LANG_CODES, t)}    <nav class="psp-crumbs" aria-label="${esc(t('tcpBreadcrumbHome'))}"><ol>${breadcrumbHtml}</ol></nav>
     <h1>${esc(h1)}</h1>
     <div class="decision-terminal-card">
     <div class="dt-grid">
@@ -695,12 +702,12 @@ ${renderChromeScript(lc)}
 
 // --- hub ---------------------------------------------------------------------
 function renderPoolsHubPage(selected, ctx, lang) {
-  const language = lang === 'ko' ? 'ko' : 'en';
+  const language = normalizeLang(lang);
   const t = createTranslationFunction(language);
   const lc = chromeCopy(language);
   const esc = escapeHtml;
-  const enUrl = `${SITE_URL}/pools`, koUrl = `${SITE_URL}/ko/pools`;
-  const pageUrl = language === 'ko' ? koUrl : enUrl;
+  const neutralPath = '/pools';
+  const pageUrl = langUrl(SITE_URL, language, neutralPath);
   const title = t('pspHubTitle');
   const description = t('pspHubDescription', selected.length);
   const byChain = new Map();
@@ -721,7 +728,7 @@ function renderPoolsHubPage(selected, ctx, lang) {
   }).replace(/</g, '\\u003c');
 
   return `<!DOCTYPE html>
-<html lang="${language}">
+<html lang="${getLanguage(language).htmlLang}">
 <head>
     ${GENERATOR_MARKER}
     <meta charset="UTF-8">
@@ -729,7 +736,7 @@ function renderPoolsHubPage(selected, ctx, lang) {
     <title>${esc(title)}</title>
     <meta name="description" content="${esc(description)}">
     <link rel="canonical" href="${pageUrl}">
-${renderHreflangLinks(enUrl, koUrl)}    <script type="application/ld+json">${breadcrumbJsonLd}</script>
+${renderHreflangLinks(neutralPath, LANG_CODES)}    <script type="application/ld+json">${breadcrumbJsonLd}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="${esc(title)}">
     <meta property="og:description" content="${esc(description)}">
@@ -743,13 +750,13 @@ ${renderFontPreloadLinks()}    <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="/pool-detail-styles.min.css">
 ${THEME_BOOT_SCRIPT}
 ${renderStyle()}
-${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/pools`, { page_type: 'pool_hub', pool_count: selected.length, lang: language })}
+${renderAnalyticsBootstrap(`${langPath(language, '')}/pools`, { page_type: 'pool_hub', pool_count: selected.length, lang: language })}
 </head>
 <body>
   <div class="landing-app psp-page">
-${renderSiteHeader(lc, language, (language === 'ko' ? enUrl : koUrl).replace(SITE_URL, ''))}
+${renderSiteHeader(lc, language)}
   <main class="psp-wrap pool-detail-view">
-    <nav class="psp-crumbs" aria-label="${esc(t('tcpBreadcrumbHome'))}"><ol><li><a href="${SITE_URL}/">${esc(t('tcpBreadcrumbHome'))}</a></li><li aria-current="page">${esc(t('pspBreadcrumbPools'))}</li></ol></nav>
+${renderLanguageSwitcher(neutralPath, language, LANG_CODES, t)}    <nav class="psp-crumbs" aria-label="${esc(t('tcpBreadcrumbHome'))}"><ol><li><a href="${SITE_URL}/">${esc(t('tcpBreadcrumbHome'))}</a></li><li aria-current="page">${esc(t('pspBreadcrumbPools'))}</li></ol></nav>
     <h1>${esc(t('pspHubHeading'))}</h1>
     <p class="psp-note">${esc(t('pspHubSub', selected.length, formatUsd(W1_MIN_TVL_USD)))}</p>
     <p class="psp-note">${esc(t('pspHubIntro'))}</p>
@@ -769,12 +776,21 @@ ${renderChromeScript(lc)}
 }
 
 // --- sitemap -----------------------------------------------------------------
-function renderPoolsSitemap(selected, slugOf, lastmod, lang) {
-  const base = poolsBase(lang);
+function renderPoolsSitemap(selected, slugOf, lastmod, lang, opts) {
+  // `opts.alternates` (optional): `(neutralPath) => string[]` — the language
+  // codes the URL exists in. When given, every <url> carries the same
+  // reciprocal <xhtml:link> alternates as its page's on-page hreflang.
+  // Omitted = the legacy output, byte-identical.
+  const language = normalizeLang(lang);
+  const base = poolsBase(language);
+  const alternates = opts && opts.alternates;
   const tag = lastmod ? `    <lastmod>${lastmod}</lastmod>\n` : '';
   const urls = [base].concat(selected.map(p => `${base}/${slugOf.get(p.pool)}`))
-    .map(loc => `  <url>\n    <loc>${loc}</loc>\n${tag}    <changefreq>daily</changefreq>\n  </url>`);
-  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.join('\n')}\n</urlset>\n`;
+    .map(loc => {
+      const alt = alternates ? renderSitemapAlternates(neutralPathOfLoc(loc, language), alternates(neutralPathOfLoc(loc, language))) : '';
+      return `  <url>\n    <loc>${loc}</loc>\n${alt}${tag}    <changefreq>daily</changefreq>\n  </url>`;
+    });
+  return `<?xml version="1.0" encoding="UTF-8"?>\n${alternates ? SITEMAP_URLSET_OPEN_XHTML : SITEMAP_URLSET_OPEN}\n${urls.join('\n')}\n</urlset>\n`;
 }
 
 // --- IO ----------------------------------------------------------------------
@@ -799,10 +815,11 @@ function removeStaleOwnedPages(dir, keep) {
 // The generator owns these entries in vercel.json (a static list would keep
 // redirecting a pool away from its page after it requalifies, because Vercel
 // redirects run before the filesystem). Managed entries are recognised by shape:
-// permanent /pools/<slug> or /ko/pools/<slug> -> a chain hub or the pools hub.
+// permanent /pools/<slug> or /<lang>/pools/<slug> (every language in
+// languages.js) -> that language's chain hub or pools hub.
 // `/pools/index` is a hand-written entry and is never touched.
 const REDIRECTS_ANCHOR_SOURCE = '/ko/pools/index';
-const MANAGED_REDIRECT_RE = /^    \{\n      "source": "\/(?:ko\/)?pools\/([a-z0-9-]+)",\n      "destination": "([^"]+)",\n      "permanent": true\n    \},\n/gm;
+const MANAGED_REDIRECT_RE = /^    \{\n      "source": "\/(?:(?:ko|pt|es)\/)?pools\/([a-z0-9-]+)",\n      "destination": "([^"]+)",\n      "permanent": true\n    \},\n/gm;
 
 /**
  * Pure: the managed redirect set after this run, as Map(slug -> chainSlug|null).
@@ -827,7 +844,7 @@ function computePoolRedirects(existing, prevPages, currentSlugs, chainOfPool, ch
 function renderRedirectEntries(redirects) {
   return Array.from(redirects.keys()).sort().map(slug => {
     const cs = redirects.get(slug);
-    return ['', '/ko'].map(pre => `    {\n      "source": "${pre}/pools/${slug}",\n` +
+    return LANGUAGES.map(l => l.pathPrefix).map(pre => `    {\n      "source": "${pre}/pools/${slug}",\n` +
       `      "destination": "${cs ? `${pre}/chains/${cs}` : `${pre}/pools`}",\n      "permanent": true\n    },\n`).join('');
   }).join('');
 }
@@ -838,7 +855,7 @@ function syncPoolRedirectsText(text, prevPages, currentSlugs, chainOfPool, chain
   const stripped = text.replace(MANAGED_REDIRECT_RE, (m, slug, dest) => {
     if (slug === 'index') return m;
     const cm = /^\/chains\/([a-z0-9-]+)$/.exec(dest);
-    if (/^\/ko\//.test(m.match(/"source": "([^"]+)"/)[1])) return '';
+    if (/^\/(?:ko|pt|es)\//.test(m.match(/"source": "([^"]+)"/)[1])) return '';
     existing.set(slug, cm ? cm[1] : null);
     return '';
   });
@@ -911,9 +928,13 @@ function main() {
   };
 
   const outDir = path.resolve(args.out);
-  const koOutDir = path.join(path.dirname(outDir), 'ko', path.basename(outDir));
-  const removedEn = writeSet(outDir, 'en', selected, ctxBase, histories);
-  const removedKo = writeSet(koOutDir, 'ko', selected, ctxBase, histories);
+  // One directory per language: en = args.out; others are siblings of it
+  // (<lang>/<basename>) — every EN pool page exists in every language.
+  const removedByLang = {};
+  LANGUAGES.forEach(l => {
+    const langOutDir = l.code === 'en' ? outDir : path.join(path.dirname(outDir), langDir(l.code), path.basename(outDir));
+    removedByLang[l.code] = writeSet(langOutDir, l.code, selected, ctxBase, histories);
+  });
 
   let redirectNote = '';
   if (args.vercel) {
@@ -924,7 +945,7 @@ function main() {
     const before = fs.readFileSync(vp, 'utf8');
     const after = syncPoolRedirectsText(before, prevPages, new Set(slugOf.values()), chainOfPool, chainSlugs);
     if (after !== before) fs.writeFileSync(vp, after);
-    redirectNote = `; ${(after.match(MANAGED_REDIRECT_RE) || []).length / 2 - 1} pool redirects in ${args.vercel}`;
+    redirectNote = `; ${(after.match(MANAGED_REDIRECT_RE) || []).length / LANGUAGES.length - 1} pool redirects in ${args.vercel}`;
   }
 
   fs.mkdirSync(path.dirname(path.resolve(args.manifest)), { recursive: true });
@@ -932,10 +953,14 @@ function main() {
 
   if (args.sitemap) {
     const lastmod = snapshotIso.slice(0, 10);
-    fs.writeFileSync(path.resolve(args.sitemap), renderPoolsSitemap(selected, slugOf, lastmod, 'en'));
-    fs.writeFileSync(path.resolve(args.sitemap.replace(/\.xml$/, '-ko.xml')), renderPoolsSitemap(selected, slugOf, lastmod, 'ko'));
+    // Pool pages exist in every language, so every <url> lists the full set.
+    const alternates = () => LANG_CODES;
+    LANGUAGES.forEach(l => {
+      const sitemapPath = l.code === 'en' ? args.sitemap : args.sitemap.replace(/\.xml$/, `-${l.code}.xml`);
+      fs.writeFileSync(path.resolve(sitemapPath), renderPoolsSitemap(selected, slugOf, lastmod, l.code, { alternates }));
+    });
   }
-  console.log(`✅ ${eligibleCount} eligible pools; wrote ${selected.length} EN + ${selected.length} KO pages (limit ${args.limit || 'none'}), removed ${removedEn}+${removedKo} stale${redirectNote}`);
+  console.log(`✅ ${eligibleCount} eligible pools; wrote ${selected.length} pages in each of ${LANG_CODES.map(c => c.toUpperCase()).join('/')} (limit ${args.limit || 'none'}), removed ${LANG_CODES.map(c => removedByLang[c]).join('+')} stale${redirectNote}`);
 }
 
 module.exports = {

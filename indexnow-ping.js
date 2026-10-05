@@ -76,7 +76,16 @@ function collectUrls(sitemapPaths, maxUrls) {
 // the head too, the opposite of the human's Q3b decision (Bing/Yandex keep
 // the FULL estate). Scanning the directories the generators actually write
 // to can never drift out of sync with what's really served.
-const ESTATE_DIRS = ['tokens', 'ko/tokens', 'tokens/az', 'ko/tokens/az', 'chains', 'ko/chains', 'pools', 'ko/pools'];
+// Derived from languages.js so a new language is picked up automatically
+// (en/ko order is unchanged: tokens, ko/tokens, tokens/az, ko/tokens/az, ...).
+const LANG_CONFIG = require('./languages');
+const ESTATE_LANG_PREFIXES = LANG_CONFIG.LANGUAGES.map(l => (l.pathPrefix ? l.pathPrefix.slice(1) + '/' : ''));
+const ESTATE_DIRS = [].concat(
+  ESTATE_LANG_PREFIXES.map(p => p + 'tokens'),
+  ESTATE_LANG_PREFIXES.map(p => p + 'tokens/az'),
+  ESTATE_LANG_PREFIXES.map(p => p + 'chains'),
+  ESTATE_LANG_PREFIXES.map(p => p + 'pools')
+);
 
 /**
  * Loads the manifest of thin slugs that carry robots noindex (< 3 qualifying pools).
@@ -131,8 +140,8 @@ function collectEstateUrls(rootDir, opts = {}) {
       if (changedFiles && !changedFiles.has(relFilePath)) continue;
 
       const slug = f.slice(0, -'.html'.length);
-      // Skip thin noindexed tokens (both EN /tokens/<slug> and KO /ko/tokens/<slug>)
-      if ((rel === 'tokens' || rel === 'ko/tokens') && noindexSlugs.has(slug)) {
+      // Skip thin noindexed tokens (EN /tokens/<slug> and every language's /<lang>/tokens/<slug>)
+      if (ESTATE_LANG_PREFIXES.some(p => rel === p + 'tokens') && noindexSlugs.has(slug)) {
         continue;
       }
 

@@ -8,6 +8,8 @@
     <link rel="canonical" href="https://www.defi.garden/tokens/btc-b">
     <link rel="alternate" hreflang="en" href="https://www.defi.garden/tokens/btc-b">
     <link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/tokens/btc-b">
+    <link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/tokens/btc-b">
+    <link rel="alternate" hreflang="es" href="https://www.defi.garden/es/tokens/btc-b">
     <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/tokens/btc-b">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens","item":"https://www.defi.garden/tokens"},{"@type":"ListItem","position":3,"name":"BTC.B","item":"https://www.defi.garden/tokens/btc-b"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"aave-v3 on Avalanche","url":"https://www.defi.garden/?pool=94e3f442-ab03-4138-a7a8-910bac548058"},{"@type":"ListItem","position":2,"name":"benqi-lending on Avalanche","url":"https://www.defi.garden/?pool=0a842b8b-c003-4f6c-8f4e-b231c4cdaec8"},{"@type":"ListItem","position":3,"name":"pharaoh-v3 on Avalanche","url":"https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814"},{"@type":"ListItem","position":4,"name":"joe-v2.1 on Avalanche","url":"https://www.defi.garden/?pool=1ebb561a-fcec-4ea8-8bd7-a4f557d644d4"},{"@type":"ListItem","position":5,"name":"uniswap-v3 on Avalanche","url":"https://www.defi.garden/?pool=02b0c0a6-71d5-4276-b490-2679daac9b8c"},{"@type":"ListItem","position":6,"name":"blackhole-clmm on Avalanche","url":"https://www.defi.garden/?pool=b9e8f5be-35d4-4eb7-8d38-2bce5678c69d"},{"@type":"ListItem","position":7,"name":"uniswap-v3 on Avalanche","url":"https://www.defi.garden/?pool=b03fe15c-c70f-4aec-a561-17536444c9bf"},{"@type":"ListItem","position":8,"name":"joe-v2.2 on Avalanche","url":"https://www.defi.garden/?pool=711b801c-a11b-4653-9a7c-a3df23e8542f"}]}</script>
@@ -78,6 +80,14 @@
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } .tp-cta:active, .related-links a:active { transform: none; } }
+      .lang-switch ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; }
+      .lang-switch a, .lang-switch [aria-current] { display: inline-flex; align-items: center; min-height: 38px; box-sizing: border-box; padding: 0 14px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; font-size: .9rem; font-weight: 600; text-decoration: none; }
+      .lang-switch a { background: var(--ui-surface); color: var(--ui-accent); }
+      .lang-switch a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .lang-switch a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .lang-switch a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .lang-switch [aria-current] { background: var(--ui-accent-soft); border-color: var(--ui-accent-border); color: var(--ui-text); }
+      @media (prefers-reduced-motion: reduce) { .lang-switch a:active { transform: none; } }
       .tp-waitlist {
         background: var(--ui-surface);
         border: 1px solid var(--ui-border);
@@ -325,6 +335,14 @@
 </head>
 <body>
   <main class="tp-wrap">
+    <nav class="lang-switch" aria-label="Language">
+      <ul>
+        <li><span aria-current="true" lang="en" title="English">EN</span></li>
+        <li><a href="https://www.defi.garden/ko/tokens/btc-b" hreflang="ko" lang="ko" title="한국어" aria-label="한국어">KO</a></li>
+        <li><a href="https://www.defi.garden/pt/tokens/btc-b" hreflang="pt" lang="pt-BR" title="Português" aria-label="Português">PT</a></li>
+        <li><a href="https://www.defi.garden/es/tokens/btc-b" hreflang="es" lang="es" title="Español" aria-label="Español">ES</a></li>
+      </ul>
+    </nav>
     <h1>BTC.B DeFi Yields</h1>
     <p class="tp-answer">The highest honest BTC.B yield right now is 20.11% on uniswap-v3 (Avalanche), among 19 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">19 live pools above the $100K TVL floor · ranked by TVL</p>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rendimientos en vivo de todos los tokens DeFi | DeFi Garden 🌱</title>
+    <meta name="description" content="552 tokens con datos de rendimiento DeFi en vivo y filtrados por confianza: los principales pools por TVL, con navegación por nombre. Rendimientos honestos de DefiLlama, sin tasas anómalas.">
+    <link rel="canonical" href="https://www.defi.garden/es/tokens">
+    <link rel="alternate" hreflang="en" href="https://www.defi.garden/tokens">
+    <link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/tokens">
+    <link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/tokens">
+    <link rel="alternate" hreflang="es" href="https://www.defi.garden/es/tokens">
+    <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/tokens">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Rendimientos en vivo de todos los tokens DeFi | DeFi Garden 🌱">
+    <meta property="og:description" content="552 tokens con datos de rendimiento DeFi en vivo y filtrados por confianza: los principales pools por TVL, con navegación por nombre. Rendimientos honestos de DefiLlama, sin tasas anómalas.">
+    <meta property="og:url" content="https://www.defi.garden/es/tokens">
+    <meta property="og:image" content="https://www.defi.garden/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="robots" content="index,follow">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
+    <link rel="preload" href="/fonts/PublicSans-latin-var.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/Besley-latin-var.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/style.css">
+    <style>
+      .hub-wrap { max-width: 860px; margin: 0 auto; padding: 32px 20px; }
+      .hub-wrap h1 { font-family: var(--font-family-display); font-size: 1.7rem; margin: 0 0 4px; color: var(--ui-text); }
+      .hub-wrap .sub { color: var(--ui-text-secondary); margin: 0 0 16px; }
+      .hub-wrap .intro { color: var(--ui-text); margin: 4px 0 22px; line-height: 1.6; }
+      .hub-card { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-lg); box-shadow: none; padding: 18px; margin: 20px 0; }
+      .hub-card h2 { font-size: 1rem; margin: 0 0 12px; color: var(--ui-text); }
+      .hub-links a { display: inline-block; margin: 0 8px 8px 0; padding: 8px 14px; background: var(--ui-surface); color: var(--ui-accent); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; text-decoration: none; font-size: .9rem; transition: background .15s ease, border-color .15s ease, transform .1s ease; }
+      .hub-links a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .hub-links a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .hub-links a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); border-radius: var(--ui-radius-pill); }
+      .hub-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--ui-accent); color: var(--ui-on-accent); border: 1px solid transparent; border-radius: var(--ui-radius-md); box-shadow: none; text-decoration: none; font-weight: 600; transition: background .15s ease, transform .1s ease; }
+      .hub-cta:hover { background: var(--ui-accent-hover); }
+      .hub-cta:active { background: var(--ui-accent-active); transform: translateY(1px); }
+      .hub-cta:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .hub-wrap .note { color: var(--ui-text-secondary); font-size: .9rem; }
+      @media (prefers-reduced-motion: reduce) { .hub-links a, .hub-cta { transition: none; } .hub-links a:active, .hub-cta:active { transform: none; } }
+      .lang-switch ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; }
+      .lang-switch a, .lang-switch [aria-current] { display: inline-flex; align-items: center; min-height: 38px; box-sizing: border-box; padding: 0 14px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; font-size: .9rem; font-weight: 600; text-decoration: none; }
+      .lang-switch a { background: var(--ui-surface); color: var(--ui-accent); }
+      .lang-switch a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .lang-switch a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .lang-switch a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .lang-switch [aria-current] { background: var(--ui-accent-soft); border-color: var(--ui-accent-border); color: var(--ui-text); }
+      @media (prefers-reduced-motion: reduce) { .lang-switch a:active { transform: none; } }
+    </style>
+    <script type="text/javascript">
+        window.MIXPANEL_CUSTOM_LIB_URL = "https://mp.defi.garden/lib.min.js";
+        (function (f, b) { if (!b.__SV) { var e, g, i, h; window.mixpanel = b; b._i = []; b.init = function (e, f, c) { function g(a, d) { var b = d.split("."); 2 == b.length && ((a = a[b[0]]), (d = b[1])); a[d] = function () { a.push([d].concat(Array.prototype.slice.call(arguments, 0))); }; } var a = b; "undefined" !== typeof c ? (a = b[c] = []) : (c = "mixpanel"); a.people = a.people || []; a.toString = function (a) { var d = "mixpanel"; "mixpanel" !== c && (d += "." + c); a || (d += " (stub)"); return d; }; a.people.toString = function () { return a.toString(1) + ".people (stub)"; }; i = "disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" "); for (h = 0; h < i.length; h++) g(a, i[h]); var j = "set set_once union unset remove delete".split(" "); a.get_group = function () { function b(c) { d[c] = function () { call2_args = arguments; call2 = [c].concat(Array.prototype.slice.call(call2_args, 0)); a.push([e, call2]); }; } for (var d = {}, e = ["get_group"].concat(Array.prototype.slice.call(arguments, 0)), c = 0; c < j.length; c++) b(j[c]); return d; }; b._i.push([e, f, c]); }; b.__SV = 1.2; e = f.createElement("script"); e.type = "text/javascript"; e.async = !0; e.src = "undefined" !== typeof MIXPANEL_CUSTOM_LIB_URL ? MIXPANEL_CUSTOM_LIB_URL : "file:" === f.location.protocol && "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//) ? "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js" : "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js"; g = f.getElementsByTagName("script")[0]; g.parentNode.insertBefore(e, g); } })(document, window.mixpanel || []);
+        mixpanel.init("f22917d9da245858a6789c9e5d412c36", { debug: false, track_pageview: false, persistence: "localStorage", api_host: "https://mp.defi.garden" });
+    </script>
+    <script defer src="https://www.defi.garden/analytics.js"></script>
+    <script>
+      window.addEventListener('load', function () {
+        if (typeof Analytics !== 'undefined' && typeof Analytics.trackPageView === 'function') {
+          Analytics.trackPageView("/es/tokens", {"page_type":"token_hub","token_count":552,"lang":"es"});
+        }
+      });
+    </script>
+</head>
+<body>
+  <main class="hub-wrap">
+    <nav class="lang-switch" aria-label="Idioma">
+      <ul>
+        <li><a href="https://www.defi.garden/tokens" hreflang="en" lang="en" title="English" aria-label="English">EN</a></li>
+        <li><a href="https://www.defi.garden/ko/tokens" hreflang="ko" lang="ko" title="한국어" aria-label="한국어">KO</a></li>
+        <li><a href="https://www.defi.garden/pt/tokens" hreflang="pt" lang="pt-BR" title="Português" aria-label="Português">PT</a></li>
+        <li><span aria-current="true" lang="es" title="Español">ES</span></li>
+      </ul>
+    </nav>
+    <h1>Rendimientos de todos los tokens</h1>
+    <p class="sub">552 tokens con datos de rendimiento en vivo y filtrados por confianza</p>
+    <p class="intro">Todas las páginas de tokens de DeFi Garden en un solo lugar: pools en vivo ordenados por TVL, filtrados con un TVL mínimo de $100K y con filtros de anomalías. Empieza por los principales tokens por TVL o salta directo a una letra.</p>
+    <a class="hub-cta" href="https://www.defi.garden/">← Volver a DeFi Garden</a>
+    <div class="hub-card">
+      <h2>Principales tokens por TVL</h2>
+      <div class="hub-links">
+        <a href="https://www.defi.garden/es/tokens/steth">STETH</a>
+        <a href="https://www.defi.garden/es/tokens/weeth">WEETH</a>
+        <a href="https://www.defi.garden/es/tokens/wbeth">WBETH</a>
+        <a href="https://www.defi.garden/es/tokens/usdc">USDC</a>
+        <a href="https://www.defi.garden/es/tokens/wsteth">WSTETH</a>
+        <a href="https://www.defi.garden/es/tokens/cbbtc">CBBTC</a>
+        <a href="https://www.defi.garden/es/tokens/weth">WETH</a>
+        <a href="https://www.defi.garden/es/tokens/wbtc">WBTC</a>
+        <a href="https://www.defi.garden/es/tokens/susds">SUSDS</a>
+        <a href="https://www.defi.garden/es/tokens/eth">ETH</a>
+        <a href="https://www.defi.garden/es/tokens/buidl">BUIDL</a>
+        <a href="https://www.defi.garden/es/tokens/usdt">USDT</a>
+        <a href="https://www.defi.garden/es/tokens/usde">USDE</a>
+        <a href="https://www.defi.garden/es/tokens/usdy">USDY</a>
+        <a href="https://www.defi.garden/es/tokens/susde">SUSDE</a>
+        <a href="https://www.defi.garden/es/tokens/usds">USDS</a>
+        <a href="https://www.defi.garden/es/tokens/reth">RETH</a>
+        <a href="https://www.defi.garden/es/tokens/jitosol">JITOSOL</a>
+        <a href="https://www.defi.garden/es/tokens/khype">KHYPE</a>
+        <a href="https://www.defi.garden/es/tokens/lbtc">LBTC</a>
+        <a href="https://www.defi.garden/es/tokens/rseth">RSETH</a>
+        <a href="https://www.defi.garden/es/tokens/prime">PRIME</a>
+        <a href="https://www.defi.garden/es/tokens/slisbnb">SLISBNB</a>
+        <a href="https://www.defi.garden/es/tokens/btc">BTC</a>
+        <a href="https://www.defi.garden/es/tokens/susdai">SUSDAI</a>
+        <a href="https://www.defi.garden/es/tokens/sky">SKY</a>
+        <a href="https://www.defi.garden/es/tokens/oseth">OSETH</a>
+        <a href="https://www.defi.garden/es/tokens/usdg">USDG</a>
+        <a href="https://www.defi.garden/es/tokens/trx">TRX</a>
+        <a href="https://www.defi.garden/es/tokens/lseth">LSETH</a>
+        <a href="https://www.defi.garden/es/tokens/cbeth">CBETH</a>
+        <a href="https://www.defi.garden/es/tokens/btcb">BTCB</a>
+        <a href="https://www.defi.garden/es/tokens/gtusdcp">GTUSDCP</a>
+        <a href="https://www.defi.garden/es/tokens/jupsol">JUPSOL</a>
+        <a href="https://www.defi.garden/es/tokens/kbtc">KBTC</a>
+        <a href="https://www.defi.garden/es/tokens/steakusdc">STEAKUSDC</a>
+        <a href="https://www.defi.garden/es/tokens/meth">METH</a>
+        <a href="https://www.defi.garden/es/tokens/crvusd">CRVUSD</a>
+        <a href="https://www.defi.garden/es/tokens/wbnb">WBNB</a>
+        <a href="https://www.defi.garden/es/tokens/reusd">REUSD</a>
+        <a href="https://www.defi.garden/es/tokens/dsol">DSOL</a>
+        <a href="https://www.defi.garden/es/tokens/ustb">USTB</a>
+        <a href="https://www.defi.garden/es/tokens/pyusd">PYUSD</a>
+        <a href="https://www.defi.garden/es/tokens/busd0">BUSD0</a>
+        <a href="https://www.defi.garden/es/tokens/savax">SAVAX</a>
+        <a href="https://www.defi.garden/es/tokens/pt">PT</a>
+        <a href="https://www.defi.garden/es/tokens/onyc">ONYC</a>
+        <a href="https://www.defi.garden/es/tokens/usdd">USDD</a>
+        <a href="https://www.defi.garden/es/tokens/bnb">BNB</a>
+        <a href="https://www.defi.garden/es/tokens/ousg">OUSG</a>
+        <a href="https://www.defi.garden/es/tokens/msol">MSOL</a>
+        <a href="https://www.defi.garden/es/tokens/dai">DAI</a>
+        <a href="https://www.defi.garden/es/tokens/usat">USAT</a>
+        <a href="https://www.defi.garden/es/tokens/syrupusdc">SYRUPUSDC</a>
+        <a href="https://www.defi.garden/es/tokens/wlfi">WLFI</a>
+        <a href="https://www.defi.garden/es/tokens/tbtc">TBTC</a>
+        <a href="https://www.defi.garden/es/tokens/ausd">AUSD</a>
+        <a href="https://www.defi.garden/es/tokens/usd1">USD1</a>
+        <a href="https://www.defi.garden/es/tokens/dfdvsol">DFDVSOL</a>
+        <a href="https://www.defi.garden/es/tokens/wsol">WSOL</a>
+      </div>
+    </div>
+    <div class="hub-card">
+      <h2>Explorar todos los tokens de la A a la Z</h2>
+      <div class="hub-links">
+        <a href="https://www.defi.garden/es/tokens/az/0-9">0-9 (4)</a>
+        <a href="https://www.defi.garden/es/tokens/az/a">A (33)</a>
+        <a href="https://www.defi.garden/es/tokens/az/b">B (31)</a>
+        <a href="https://www.defi.garden/es/tokens/az/c">C (31)</a>
+        <a href="https://www.defi.garden/es/tokens/az/d">D (14)</a>
+        <a href="https://www.defi.garden/es/tokens/az/e">E (22)</a>
+        <a href="https://www.defi.garden/es/tokens/az/f">F (26)</a>
+        <a href="https://www.defi.garden/es/tokens/az/g">G (20)</a>
+        <a href="https://www.defi.garden/es/tokens/az/h">H (15)</a>
+        <a href="https://www.defi.garden/es/tokens/az/i">I (9)</a>
+        <a href="https://www.defi.garden/es/tokens/az/j">J (11)</a>
+        <a href="https://www.defi.garden/es/tokens/az/k">K (8)</a>
+        <a href="https://www.defi.garden/es/tokens/az/l">L (13)</a>
+        <a href="https://www.defi.garden/es/tokens/az/m">M (20)</a>
+        <a href="https://www.defi.garden/es/tokens/az/n">N (11)</a>
+        <a href="https://www.defi.garden/es/tokens/az/o">O (15)</a>
+        <a href="https://www.defi.garden/es/tokens/az/p">P (20)</a>
+        <a href="https://www.defi.garden/es/tokens/az/q">Q (4)</a>
+        <a href="https://www.defi.garden/es/tokens/az/r">R (16)</a>
+        <a href="https://www.defi.garden/es/tokens/az/s">S (85)</a>
+        <a href="https://www.defi.garden/es/tokens/az/t">T (19)</a>
+        <a href="https://www.defi.garden/es/tokens/az/u">U (44)</a>
+        <a href="https://www.defi.garden/es/tokens/az/v">V (13)</a>
+        <a href="https://www.defi.garden/es/tokens/az/w">W (36)</a>
+        <a href="https://www.defi.garden/es/tokens/az/x">X (14)</a>
+        <a href="https://www.defi.garden/es/tokens/az/y">Y (11)</a>
+        <a href="https://www.defi.garden/es/tokens/az/z">Z (7)</a>
+      </div>
+    </div>
+    <p class="note">Los rendimientos son en vivo de DefiLlama. Los pools de esta página alcanzan un TVL mínimo de $100K y excluyen tasas anómalas — ese es el criterio de listado de esta página, no una garantía de seguridad. Solo educación, no asesoría financiera.</p>
+  </main>
+</body>
+</html>

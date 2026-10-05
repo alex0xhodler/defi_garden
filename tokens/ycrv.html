@@ -8,6 +8,8 @@
     <link rel="canonical" href="https://www.defi.garden/tokens/ycrv">
     <link rel="alternate" hreflang="en" href="https://www.defi.garden/tokens/ycrv">
     <link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/tokens/ycrv">
+    <link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/tokens/ycrv">
+    <link rel="alternate" hreflang="es" href="https://www.defi.garden/es/tokens/ycrv">
     <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/tokens/ycrv">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens","item":"https://www.defi.garden/tokens"},{"@type":"ListItem","position":3,"name":"YCRV","item":"https://www.defi.garden/tokens/ycrv"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"yearn-finance on Ethereum","url":"https://www.defi.garden/?pool=320550a3-b7c4-4017-a5dd-f3ebed459470"},{"@type":"ListItem","position":2,"name":"curve-dex on Ethereum","url":"https://www.defi.garden/?pool=8e469dbc-6da7-45fd-93a5-c5c4a9c18ed3"},{"@type":"ListItem","position":3,"name":"yearn-finance on Ethereum","url":"https://www.defi.garden/?pool=ab10cba6-ae66-4a91-9544-499c375853f9"},{"@type":"ListItem","position":4,"name":"convex-finance on Ethereum","url":"https://www.defi.garden/?pool=a8ae790a-42e3-488f-9e7e-c539da9fec9c"},{"@type":"ListItem","position":5,"name":"stake-dao-yield on Ethereum","url":"https://www.defi.garden/?pool=419591a2-2cda-4c7a-889e-07cf2e53b4b6"},{"@type":"ListItem","position":6,"name":"stake-dao-yield on Ethereum","url":"https://www.defi.garden/?pool=28124769-1b87-482e-a60f-23edd7b3e6dc"}]}</script>
@@ -78,6 +80,14 @@
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } .tp-cta:active, .related-links a:active { transform: none; } }
+      .lang-switch ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; }
+      .lang-switch a, .lang-switch [aria-current] { display: inline-flex; align-items: center; min-height: 38px; box-sizing: border-box; padding: 0 14px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; font-size: .9rem; font-weight: 600; text-decoration: none; }
+      .lang-switch a { background: var(--ui-surface); color: var(--ui-accent); }
+      .lang-switch a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .lang-switch a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .lang-switch a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .lang-switch [aria-current] { background: var(--ui-accent-soft); border-color: var(--ui-accent-border); color: var(--ui-text); }
+      @media (prefers-reduced-motion: reduce) { .lang-switch a:active { transform: none; } }
       .tp-waitlist {
         background: var(--ui-surface);
         border: 1px solid var(--ui-border);
@@ -325,6 +335,14 @@
 </head>
 <body>
   <main class="tp-wrap">
+    <nav class="lang-switch" aria-label="Language">
+      <ul>
+        <li><span aria-current="true" lang="en" title="English">EN</span></li>
+        <li><a href="https://www.defi.garden/ko/tokens/ycrv" hreflang="ko" lang="ko" title="한국어" aria-label="한국어">KO</a></li>
+        <li><a href="https://www.defi.garden/pt/tokens/ycrv" hreflang="pt" lang="pt-BR" title="Português" aria-label="Português">PT</a></li>
+        <li><a href="https://www.defi.garden/es/tokens/ycrv" hreflang="es" lang="es" title="Español" aria-label="Español">ES</a></li>
+      </ul>
+    </nav>
     <h1>YCRV DeFi Yields</h1>
     <p class="tp-answer">The highest honest YCRV yield right now is 20.08% on stake-dao-yield (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">6 live pools above the $100K TVL floor · ranked by TVL</p>

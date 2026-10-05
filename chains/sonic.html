@@ -8,6 +8,8 @@
     <link rel="canonical" href="https://www.defi.garden/chains/sonic">
     <link rel="alternate" hreflang="en" href="https://www.defi.garden/chains/sonic">
     <link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/chains/sonic">
+    <link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/chains/sonic">
+    <link rel="alternate" hreflang="es" href="https://www.defi.garden/es/chains/sonic">
     <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/chains/sonic">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Chains","item":"https://www.defi.garden/chains"},{"@type":"ListItem","position":3,"name":"Sonic","item":"https://www.defi.garden/chains/sonic"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"shadow-exchange-legacy on Sonic","url":"https://www.defi.garden/?pool=b344826d-1c25-43e5-8e75-3b7510531c4c"},{"@type":"ListItem","position":2,"name":"silo-v2 on Sonic","url":"https://www.defi.garden/?pool=d7657d6f-da8b-4935-b6ac-a30545df8dbc"},{"@type":"ListItem","position":3,"name":"shadow-exchange-clmm on Sonic","url":"https://www.defi.garden/?pool=97b1770c-f7a3-4128-8937-525cdaba68d4"},{"@type":"ListItem","position":4,"name":"flying-tulip-ftusd on Sonic","url":"https://www.defi.garden/?pool=1b7b94f8-5889-42e1-b0ef-9e4736505d8d"},{"@type":"ListItem","position":5,"name":"beets-dex on Sonic","url":"https://www.defi.garden/?pool=f06686d4-25aa-4600-8910-87844cf3b1c3"},{"@type":"ListItem","position":6,"name":"shadow-exchange-legacy on Sonic","url":"https://www.defi.garden/?pool=79e3b6bc-bc73-4526-bb66-13878cf8f0e2"},{"@type":"ListItem","position":7,"name":"silo-v2 on Sonic","url":"https://www.defi.garden/?pool=ce77c1eb-f51d-4652-8c25-b53f8254827a"},{"@type":"ListItem","position":8,"name":"shadow-exchange-legacy on Sonic","url":"https://www.defi.garden/?pool=16a23b40-bf26-415a-9dee-271c8f23b5cc"}]}</script>
@@ -69,6 +71,14 @@
       .cp-faq-a { font-size: .9rem; margin: 0; color: var(--ui-text-secondary); line-height: 1.55; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .cp-cta, .related-links a { transition: none; } .cp-cta:active, .related-links a:active { transform: none; } }
+      .lang-switch ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; }
+      .lang-switch a, .lang-switch [aria-current] { display: inline-flex; align-items: center; min-height: 38px; box-sizing: border-box; padding: 0 14px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; font-size: .9rem; font-weight: 600; text-decoration: none; }
+      .lang-switch a { background: var(--ui-surface); color: var(--ui-accent); }
+      .lang-switch a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .lang-switch a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .lang-switch a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .lang-switch [aria-current] { background: var(--ui-accent-soft); border-color: var(--ui-accent-border); color: var(--ui-text); }
+      @media (prefers-reduced-motion: reduce) { .lang-switch a:active { transform: none; } }
       .cp-waitlist {
         background: var(--ui-surface);
         border: 1px solid var(--ui-border);
@@ -316,6 +326,14 @@
 </head>
 <body>
   <main class="cp-wrap">
+    <nav class="lang-switch" aria-label="Language">
+      <ul>
+        <li><span aria-current="true" lang="en" title="English">EN</span></li>
+        <li><a href="https://www.defi.garden/ko/chains/sonic" hreflang="ko" lang="ko" title="한국어" aria-label="한국어">KO</a></li>
+        <li><a href="https://www.defi.garden/pt/chains/sonic" hreflang="pt" lang="pt-BR" title="Português" aria-label="Português">PT</a></li>
+        <li><a href="https://www.defi.garden/es/chains/sonic" hreflang="es" lang="es" title="Español" aria-label="Español">ES</a></li>
+      </ul>
+    </nav>
     <h1>Sonic DeFi Yields</h1>
     <p class="cp-answer">The highest honest Sonic yield right now is 28.13% on beets-dex (Sonic), among 28 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">28 live pools above the $100K TVL floor · ranked by TVL</p>

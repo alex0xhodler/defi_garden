@@ -248,8 +248,10 @@
     <loc>https://www.defi.garden/tokens</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/tokens" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/tokens" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/tokens" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/tokens" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/tokens" />
-    <lastmod>2026-08-25T22:29:32.263Z</lastmod>
+    <lastmod>2026-10-05T22:35:23.378Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
   </url>
@@ -257,8 +259,10 @@
     <loc>https://www.defi.garden/chains</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/chains" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/chains" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/chains" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/chains" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/chains" />
-    <lastmod>2026-08-25T22:29:32.263Z</lastmod>
+    <lastmod>2026-10-05T22:35:23.378Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
   </url>

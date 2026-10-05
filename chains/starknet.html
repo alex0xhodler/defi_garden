@@ -8,6 +8,8 @@
     <link rel="canonical" href="https://www.defi.garden/chains/starknet">
     <link rel="alternate" hreflang="en" href="https://www.defi.garden/chains/starknet">
     <link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/chains/starknet">
+    <link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/chains/starknet">
+    <link rel="alternate" hreflang="es" href="https://www.defi.garden/es/chains/starknet">
     <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/chains/starknet">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Chains","item":"https://www.defi.garden/chains"},{"@type":"ListItem","position":3,"name":"Starknet","item":"https://www.defi.garden/chains/starknet"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"endur on Starknet","url":"https://www.defi.garden/?pool=1ce1d44a-0bff-48ef-80c9-f8b6bd78bd17"},{"@type":"ListItem","position":2,"name":"ekubo on Starknet","url":"https://www.defi.garden/?pool=42284cfd-a59f-4128-8677-bbaeb0519148"},{"@type":"ListItem","position":3,"name":"vesu on Starknet","url":"https://www.defi.garden/?pool=d8d0a6ee-cca9-4b4c-aec8-d0fa32eda559"},{"@type":"ListItem","position":4,"name":"ekubo on Starknet","url":"https://www.defi.garden/?pool=181574ad-9c60-4a18-91c8-45a22da62202"},{"@type":"ListItem","position":5,"name":"ekubo on Starknet","url":"https://www.defi.garden/?pool=4d047314-ded1-4def-a372-b8e429759efb"},{"@type":"ListItem","position":6,"name":"ekubo on Starknet","url":"https://www.defi.garden/?pool=b022bb22-e9c8-4386-b30f-f40b42d91d4f"},{"@type":"ListItem","position":7,"name":"vesu on Starknet","url":"https://www.defi.garden/?pool=a5a7c6bd-0c78-4251-bce5-71f834775924"},{"@type":"ListItem","position":8,"name":"endur on Starknet","url":"https://www.defi.garden/?pool=867e3e6b-4ebb-46fd-92d5-4d4afbf28553"}]}</script>
@@ -69,6 +71,14 @@
       .cp-faq-a { font-size: .9rem; margin: 0; color: var(--ui-text-secondary); line-height: 1.55; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .cp-cta, .related-links a { transition: none; } .cp-cta:active, .related-links a:active { transform: none; } }
+      .lang-switch ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; }
+      .lang-switch a, .lang-switch [aria-current] { display: inline-flex; align-items: center; min-height: 38px; box-sizing: border-box; padding: 0 14px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; font-size: .9rem; font-weight: 600; text-decoration: none; }
+      .lang-switch a { background: var(--ui-surface); color: var(--ui-accent); }
+      .lang-switch a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .lang-switch a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .lang-switch a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .lang-switch [aria-current] { background: var(--ui-accent-soft); border-color: var(--ui-accent-border); color: var(--ui-text); }
+      @media (prefers-reduced-motion: reduce) { .lang-switch a:active { transform: none; } }
       .cp-waitlist {
         background: var(--ui-surface);
         border: 1px solid var(--ui-border);
@@ -316,6 +326,14 @@
 </head>
 <body>
   <main class="cp-wrap">
+    <nav class="lang-switch" aria-label="Language">
+      <ul>
+        <li><span aria-current="true" lang="en" title="English">EN</span></li>
+        <li><a href="https://www.defi.garden/ko/chains/starknet" hreflang="ko" lang="ko" title="한국어" aria-label="한국어">KO</a></li>
+        <li><a href="https://www.defi.garden/pt/chains/starknet" hreflang="pt" lang="pt-BR" title="Português" aria-label="Português">PT</a></li>
+        <li><a href="https://www.defi.garden/es/chains/starknet" hreflang="es" lang="es" title="Español" aria-label="Español">ES</a></li>
+      </ul>
+    </nav>
     <h1>Starknet DeFi Yields</h1>
     <p class="cp-answer">The highest honest Starknet yield right now is 129.97% on ekubo (Starknet), among 69 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">69 live pools above the $100K TVL floor · ranked by TVL</p>

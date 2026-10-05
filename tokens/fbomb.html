@@ -8,6 +8,8 @@
     <link rel="canonical" href="https://www.defi.garden/tokens/fbomb">
     <link rel="alternate" hreflang="en" href="https://www.defi.garden/tokens/fbomb">
     <link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/tokens/fbomb">
+    <link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/tokens/fbomb">
+    <link rel="alternate" hreflang="es" href="https://www.defi.garden/es/tokens/fbomb">
     <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/tokens/fbomb">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens","item":"https://www.defi.garden/tokens"},{"@type":"ListItem","position":3,"name":"FBOMB","item":"https://www.defi.garden/tokens/fbomb"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"aerodrome-v1 on Base","url":"https://www.defi.garden/?pool=e2c7a30e-cae6-419d-af75-b4bebd506879"},{"@type":"ListItem","position":2,"name":"aerodrome-v1 on Base","url":"https://www.defi.garden/?pool=ddf0bc37-9835-443b-bf1c-696cbd373e2d"},{"@type":"ListItem","position":3,"name":"velodrome-v2 on OP Mainnet","url":"https://www.defi.garden/?pool=8ba5248e-fb39-40c6-8fbe-611542c2780e"},{"@type":"ListItem","position":4,"name":"aerodrome-v1 on Base","url":"https://www.defi.garden/?pool=f5d42b5f-40b7-45b8-b5f2-b15c39378cde"},{"@type":"ListItem","position":5,"name":"shadow-exchange-legacy on Sonic","url":"https://www.defi.garden/?pool=79e3b6bc-bc73-4526-bb66-13878cf8f0e2"},{"@type":"ListItem","position":6,"name":"shadow-exchange-legacy on Sonic","url":"https://www.defi.garden/?pool=16a23b40-bf26-415a-9dee-271c8f23b5cc"},{"@type":"ListItem","position":7,"name":"aerodrome-v1 on Base","url":"https://www.defi.garden/?pool=3f76960c-e861-54bc-a0b0-d3ce91fd83f0"},{"@type":"ListItem","position":8,"name":"aerodrome-v1 on Base","url":"https://www.defi.garden/?pool=3f3e95c7-e672-50e5-b50c-bb13c7ef6b55"}]}</script>
@@ -78,6 +80,14 @@
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } .tp-cta:active, .related-links a:active { transform: none; } }
+      .lang-switch ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; }
+      .lang-switch a, .lang-switch [aria-current] { display: inline-flex; align-items: center; min-height: 38px; box-sizing: border-box; padding: 0 14px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; font-size: .9rem; font-weight: 600; text-decoration: none; }
+      .lang-switch a { background: var(--ui-surface); color: var(--ui-accent); }
+      .lang-switch a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .lang-switch a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .lang-switch a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .lang-switch [aria-current] { background: var(--ui-accent-soft); border-color: var(--ui-accent-border); color: var(--ui-text); }
+      @media (prefers-reduced-motion: reduce) { .lang-switch a:active { transform: none; } }
       .tp-waitlist {
         background: var(--ui-surface);
         border: 1px solid var(--ui-border);
@@ -325,6 +335,14 @@
 </head>
 <body>
   <main class="tp-wrap">
+    <nav class="lang-switch" aria-label="Language">
+      <ul>
+        <li><span aria-current="true" lang="en" title="English">EN</span></li>
+        <li><a href="https://www.defi.garden/ko/tokens/fbomb" hreflang="ko" lang="ko" title="한국어" aria-label="한국어">KO</a></li>
+        <li><a href="https://www.defi.garden/pt/tokens/fbomb" hreflang="pt" lang="pt-BR" title="Português" aria-label="Português">PT</a></li>
+        <li><a href="https://www.defi.garden/es/tokens/fbomb" hreflang="es" lang="es" title="Español" aria-label="Español">ES</a></li>
+      </ul>
+    </nav>
     <h1>FBOMB DeFi Yields</h1>
     <p class="tp-answer">The highest honest FBOMB yield right now is 197.59% on aerodrome-v1 (Base), among 12 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">12 live pools above the $100K TVL floor · ranked by TVL</p>

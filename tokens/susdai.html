@@ -8,6 +8,8 @@
     <link rel="canonical" href="https://www.defi.garden/tokens/susdai">
     <link rel="alternate" hreflang="en" href="https://www.defi.garden/tokens/susdai">
     <link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/tokens/susdai">
+    <link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/tokens/susdai">
+    <link rel="alternate" hreflang="es" href="https://www.defi.garden/es/tokens/susdai">
     <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/tokens/susdai">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens","item":"https://www.defi.garden/tokens"},{"@type":"ListItem","position":3,"name":"SUSDAI","item":"https://www.defi.garden/tokens/susdai"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"usd-ai on Arbitrum","url":"https://www.defi.garden/pools/usd-ai-susdai-arbitrum"},{"@type":"ListItem","position":2,"name":"fluid-dex on Ethereum","url":"https://www.defi.garden/?pool=195030f8-7795-4dc6-b18c-0020d845c1c6"},{"@type":"ListItem","position":3,"name":"fluid-dex on Ethereum","url":"https://www.defi.garden/?pool=e9718cac-695f-4012-af88-1c7caeffa471"},{"@type":"ListItem","position":4,"name":"fluid-dex on Arbitrum","url":"https://www.defi.garden/?pool=8e68dfc4-646e-4fdc-b068-891296c80fb5"},{"@type":"ListItem","position":5,"name":"pendle-v2 on Arbitrum","url":"https://www.defi.garden/?pool=55d53cce-4455-4085-8245-557257d9fe61"},{"@type":"ListItem","position":6,"name":"pendle-v2 on Arbitrum","url":"https://www.defi.garden/?pool=894ef05d-8143-4fa2-9a1c-bebc14686337"},{"@type":"ListItem","position":7,"name":"fluid-dex on Arbitrum","url":"https://www.defi.garden/?pool=9605b661-5066-4aeb-b2f6-119db53e9d79"},{"@type":"ListItem","position":8,"name":"pendle-v2 on Arbitrum","url":"https://www.defi.garden/?pool=0ab4e683-9d5b-43d3-aeb8-98dd1da1a694"}]}</script>
@@ -78,6 +80,14 @@
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } .tp-cta:active, .related-links a:active { transform: none; } }
+      .lang-switch ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; }
+      .lang-switch a, .lang-switch [aria-current] { display: inline-flex; align-items: center; min-height: 38px; box-sizing: border-box; padding: 0 14px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; font-size: .9rem; font-weight: 600; text-decoration: none; }
+      .lang-switch a { background: var(--ui-surface); color: var(--ui-accent); }
+      .lang-switch a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .lang-switch a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .lang-switch a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .lang-switch [aria-current] { background: var(--ui-accent-soft); border-color: var(--ui-accent-border); color: var(--ui-text); }
+      @media (prefers-reduced-motion: reduce) { .lang-switch a:active { transform: none; } }
       .tp-waitlist {
         background: var(--ui-surface);
         border: 1px solid var(--ui-border);
@@ -325,6 +335,14 @@
 </head>
 <body>
   <main class="tp-wrap">
+    <nav class="lang-switch" aria-label="Language">
+      <ul>
+        <li><span aria-current="true" lang="en" title="English">EN</span></li>
+        <li><a href="https://www.defi.garden/ko/tokens/susdai" hreflang="ko" lang="ko" title="한국어" aria-label="한국어">KO</a></li>
+        <li><a href="https://www.defi.garden/pt/tokens/susdai" hreflang="pt" lang="pt-BR" title="Português" aria-label="Português">PT</a></li>
+        <li><a href="https://www.defi.garden/es/tokens/susdai" hreflang="es" lang="es" title="Español" aria-label="Español">ES</a></li>
+      </ul>
+    </nav>
     <h1>SUSDAI DeFi Yields</h1>
     <p class="tp-answer">The highest honest SUSDAI yield right now is 12.68% on pendle-v2 (Arbitrum), among 27 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">27 live pools above the $100K TVL floor · ranked by TVL</p>

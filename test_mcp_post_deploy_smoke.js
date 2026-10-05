@@ -215,6 +215,46 @@ async function main() {
     expect(loc.endsWith('/mcp'), `expected Location ending in /mcp, got "${loc}"`);
   });
 
+  // pt-BR / es static SEO estate (chain hubs exist for every language in
+  // languages.js): HTTP 200, the right <html lang>, and reciprocal hreflang
+  // alternates for all four languages plus x-default -> EN.
+  const STATIC_LANG_CHECKS = [
+    { path: '/pt/chains/ethereum', htmlLang: 'pt-BR' },
+    { path: '/es/chains/ethereum', htmlLang: 'es' }
+  ];
+  const STATIC_ALTERNATES = [
+    { hreflang: 'en', path: '/chains/ethereum' },
+    { hreflang: 'ko', path: '/ko/chains/ethereum' },
+    { hreflang: 'pt', path: '/pt/chains/ethereum' },
+    { hreflang: 'es', path: '/es/chains/ethereum' },
+    { hreflang: 'x-default', path: '/chains/ethereum' }
+  ];
+  for (const c of STATIC_LANG_CHECKS) {
+    await check(`GET ${c.path} -> 200 text/html, <html lang="${c.htmlLang}">, hreflang alternates en/ko/pt/es`, async () => {
+      const res = await http('GET', c.path, { headers: { 'Accept': 'text/html' } });
+      expect(res.status === 200, `expected 200, got ${res.status}`);
+      const ct = res.headers.get('content-type') || '';
+      expect(ct.includes('text/html'), `expected text/html content-type, got "${ct}"`);
+      const m = /<html\b[^>]*\blang="([^"]*)"/i.exec(res.text);
+      expect(m && m[1] === c.htmlLang, `expected <html lang="${c.htmlLang}">, got ${m ? `"${m[1]}"` : 'none'}`);
+      const links = [];
+      const re = /<link\b[^>]*>/gi;
+      let tag;
+      while ((tag = re.exec(res.text))) {
+        if (!/\brel="alternate"/i.test(tag[0])) continue;
+        const hl = /\bhreflang="([^"]*)"/i.exec(tag[0]);
+        const hr = /\bhref="([^"]*)"/i.exec(tag[0]);
+        if (hl && hr) links.push({ hreflang: hl[1], href: hr[1] });
+      }
+      for (const want of STATIC_ALTERNATES) {
+        const hit = links.find(l => l.hreflang === want.hreflang);
+        expect(hit, `missing hreflang="${want.hreflang}" alternate (found ${JSON.stringify(links.map(l => l.hreflang))})`);
+        expect(hit.href.replace(/\/+$/, '').endsWith(want.path),
+          `hreflang="${want.hreflang}" should end with ${want.path}, got ${hit.href}`);
+      }
+    });
+  }
+
   const failed = results.filter(r => !r.ok);
   console.log(`\n${results.length - failed.length}/${results.length} checks passed against ${BASE_URL}`);
   if (failed.length) {

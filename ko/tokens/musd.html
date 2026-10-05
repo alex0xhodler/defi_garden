@@ -8,6 +8,8 @@
     <link rel="canonical" href="https://www.defi.garden/ko/tokens/musd">
     <link rel="alternate" hreflang="en" href="https://www.defi.garden/tokens/musd">
     <link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/tokens/musd">
+    <link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/tokens/musd">
+    <link rel="alternate" hreflang="es" href="https://www.defi.garden/es/tokens/musd">
     <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/tokens/musd">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"홈","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"토큰","item":"https://www.defi.garden/ko/tokens"},{"@type":"ListItem","position":3,"name":"MUSD","item":"https://www.defi.garden/ko/tokens/musd"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"Monad의 aave-v3","url":"https://www.defi.garden/?pool=b5ca474e-8117-55d5-982b-78421f845abf"},{"@type":"ListItem","position":2,"name":"Ethereum의 uniswap-v4","url":"https://www.defi.garden/?pool=eac3b5f8-d620-47d6-9f6c-d984d3e653c1"},{"@type":"ListItem","position":3,"name":"Base의 aerodrome-slipstream","url":"https://www.defi.garden/?pool=ccf4821e-9aec-4aaa-aeaa-7914af0ed6c1"},{"@type":"ListItem","position":4,"name":"Ethereum의 curve-dex","url":"https://www.defi.garden/?pool=c27e64f8-21d5-47a5-be7a-7d6382eb43a8"},{"@type":"ListItem","position":5,"name":"Ethereum의 convex-finance","url":"https://www.defi.garden/?pool=ac7e57a2-9755-4d17-8f1d-6d898ee88257"},{"@type":"ListItem","position":6,"name":"Ethereum의 stake-dao-yield","url":"https://www.defi.garden/?pool=7cf95f65-3f7a-4297-873b-bbdd1a86904d"}]}</script>
@@ -78,6 +80,14 @@
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } .tp-cta:active, .related-links a:active { transform: none; } }
+      .lang-switch ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; }
+      .lang-switch a, .lang-switch [aria-current] { display: inline-flex; align-items: center; min-height: 38px; box-sizing: border-box; padding: 0 14px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; font-size: .9rem; font-weight: 600; text-decoration: none; }
+      .lang-switch a { background: var(--ui-surface); color: var(--ui-accent); }
+      .lang-switch a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .lang-switch a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .lang-switch a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .lang-switch [aria-current] { background: var(--ui-accent-soft); border-color: var(--ui-accent-border); color: var(--ui-text); }
+      @media (prefers-reduced-motion: reduce) { .lang-switch a:active { transform: none; } }
       .tp-waitlist {
         background: var(--ui-surface);
         border: 1px solid var(--ui-border);
@@ -325,6 +335,14 @@
 </head>
 <body>
   <main class="tp-wrap">
+    <nav class="lang-switch" aria-label="언어">
+      <ul>
+        <li><a href="https://www.defi.garden/tokens/musd" hreflang="en" lang="en" title="English" aria-label="English">EN</a></li>
+        <li><span aria-current="true" lang="ko" title="한국어">KO</span></li>
+        <li><a href="https://www.defi.garden/pt/tokens/musd" hreflang="pt" lang="pt-BR" title="Português" aria-label="Português">PT</a></li>
+        <li><a href="https://www.defi.garden/es/tokens/musd" hreflang="es" lang="es" title="Español" aria-label="Español">ES</a></li>
+      </ul>
+    </nav>
     <h1>MUSD 디파이 수익률</h1>
     <p class="tp-answer">현재 MUSD의 가장 높은 정직한 수익률은 Monad의 aave-v3에서 5.86%이며, $100K TVL 기준을 넘는 7개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.</p>
     <p class="sub">$100K TVL 기준을 넘는 실시간 풀 7개 · TVL 순 정렬</p>

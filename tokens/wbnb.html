@@ -8,6 +8,8 @@
     <link rel="canonical" href="https://www.defi.garden/tokens/wbnb">
     <link rel="alternate" hreflang="en" href="https://www.defi.garden/tokens/wbnb">
     <link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/tokens/wbnb">
+    <link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/tokens/wbnb">
+    <link rel="alternate" hreflang="es" href="https://www.defi.garden/es/tokens/wbnb">
     <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/tokens/wbnb">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens","item":"https://www.defi.garden/tokens"},{"@type":"ListItem","position":3,"name":"WBNB","item":"https://www.defi.garden/tokens/wbnb"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"venus-core-pool on BSC","url":"https://www.defi.garden/?pool=747b58ab-aefd-42e1-a312-01ad5a0ab7f5"},{"@type":"ListItem","position":2,"name":"aave-v3 on BSC","url":"https://www.defi.garden/?pool=9380e5ac-3b75-468c-951c-c24ff6497e80"},{"@type":"ListItem","position":3,"name":"venus-core-pool on BSC","url":"https://www.defi.garden/?pool=25e50b68-1e0c-47c6-9088-44749ce971b2"},{"@type":"ListItem","position":4,"name":"pancakeswap-amm on BSC","url":"https://www.defi.garden/?pool=32038bbe-b72d-49ab-aa17-37d61d44c579"},{"@type":"ListItem","position":5,"name":"uniswap-v3 on BSC","url":"https://www.defi.garden/?pool=5bec56fa-fa61-4f9e-b454-dd06df68b876"},{"@type":"ListItem","position":6,"name":"uniswap-v3 on BSC","url":"https://www.defi.garden/?pool=a0a4cf75-ccd3-4ec3-a7d3-79ca59d33646"},{"@type":"ListItem","position":7,"name":"uniswap-v3 on BSC","url":"https://www.defi.garden/?pool=f52993c8-fdad-40cb-adde-797b383034c5"},{"@type":"ListItem","position":8,"name":"pancakeswap-amm on BSC","url":"https://www.defi.garden/?pool=1ba6ccca-7122-47ce-854e-06883f9b2897"}]}</script>
@@ -78,6 +80,14 @@
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } .tp-cta:active, .related-links a:active { transform: none; } }
+      .lang-switch ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; }
+      .lang-switch a, .lang-switch [aria-current] { display: inline-flex; align-items: center; min-height: 38px; box-sizing: border-box; padding: 0 14px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; font-size: .9rem; font-weight: 600; text-decoration: none; }
+      .lang-switch a { background: var(--ui-surface); color: var(--ui-accent); }
+      .lang-switch a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .lang-switch a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .lang-switch a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .lang-switch [aria-current] { background: var(--ui-accent-soft); border-color: var(--ui-accent-border); color: var(--ui-text); }
+      @media (prefers-reduced-motion: reduce) { .lang-switch a:active { transform: none; } }
       .tp-waitlist {
         background: var(--ui-surface);
         border: 1px solid var(--ui-border);
@@ -325,6 +335,14 @@
 </head>
 <body>
   <main class="tp-wrap">
+    <nav class="lang-switch" aria-label="Language">
+      <ul>
+        <li><span aria-current="true" lang="en" title="English">EN</span></li>
+        <li><a href="https://www.defi.garden/ko/tokens/wbnb" hreflang="ko" lang="ko" title="한국어" aria-label="한국어">KO</a></li>
+        <li><a href="https://www.defi.garden/pt/tokens/wbnb" hreflang="pt" lang="pt-BR" title="Português" aria-label="Português">PT</a></li>
+        <li><a href="https://www.defi.garden/es/tokens/wbnb" hreflang="es" lang="es" title="Español" aria-label="Español">ES</a></li>
+      </ul>
+    </nav>
     <h1>WBNB DeFi Yields</h1>
     <p class="tp-answer">The highest honest WBNB yield right now is 42.94% on uniswap-v3 (BSC), among 50 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">50 live pools above the $100K TVL floor · ranked by TVL</p>

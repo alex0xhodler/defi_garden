@@ -8,6 +8,8 @@
     <link rel="canonical" href="https://www.defi.garden/ko/tokens/msol">
     <link rel="alternate" hreflang="en" href="https://www.defi.garden/tokens/msol">
     <link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/tokens/msol">
+    <link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/tokens/msol">
+    <link rel="alternate" hreflang="es" href="https://www.defi.garden/es/tokens/msol">
     <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/tokens/msol">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"홈","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"토큰","item":"https://www.defi.garden/ko/tokens"},{"@type":"ListItem","position":3,"name":"MSOL","item":"https://www.defi.garden/ko/tokens/msol"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"Solana의 marinade-liquid-staking","url":"https://www.defi.garden/ko/pools/marinade-liquid-staking-msol-solana"},{"@type":"ListItem","position":2,"name":"Solana의 project-0","url":"https://www.defi.garden/?pool=4f54e6d5-0a97-4e98-b9a6-de12413a3bbc"},{"@type":"ListItem","position":3,"name":"Solana의 raydium-amm","url":"https://www.defi.garden/?pool=62a15fee-d11c-4291-b566-4d9403a7913f"},{"@type":"ListItem","position":4,"name":"Solana의 kamino-liquidity","url":"https://www.defi.garden/?pool=6c8e2a69-4396-4d97-9c16-9df2ec8eaabb"},{"@type":"ListItem","position":5,"name":"Solana의 orca-dex","url":"https://www.defi.garden/?pool=ee677538-15f3-4567-8510-22e31e3ff065"},{"@type":"ListItem","position":6,"name":"Solana의 raydium-amm","url":"https://www.defi.garden/?pool=091dfcf9-7c2c-41e4-ba87-9f549cc72cf8"},{"@type":"ListItem","position":7,"name":"Solana의 kamino-liquidity","url":"https://www.defi.garden/?pool=8146a65e-6340-44de-a16f-a52ca3fdb3c2"},{"@type":"ListItem","position":8,"name":"Solana의 orca-dex","url":"https://www.defi.garden/?pool=d7d14b5c-6e0a-460b-8cba-e3053820d3c2"}]}</script>
@@ -78,6 +80,14 @@
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } .tp-cta:active, .related-links a:active { transform: none; } }
+      .lang-switch ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; }
+      .lang-switch a, .lang-switch [aria-current] { display: inline-flex; align-items: center; min-height: 38px; box-sizing: border-box; padding: 0 14px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; font-size: .9rem; font-weight: 600; text-decoration: none; }
+      .lang-switch a { background: var(--ui-surface); color: var(--ui-accent); }
+      .lang-switch a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .lang-switch a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .lang-switch a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .lang-switch [aria-current] { background: var(--ui-accent-soft); border-color: var(--ui-accent-border); color: var(--ui-text); }
+      @media (prefers-reduced-motion: reduce) { .lang-switch a:active { transform: none; } }
       .tp-waitlist {
         background: var(--ui-surface);
         border: 1px solid var(--ui-border);
@@ -325,6 +335,14 @@
 </head>
 <body>
   <main class="tp-wrap">
+    <nav class="lang-switch" aria-label="언어">
+      <ul>
+        <li><a href="https://www.defi.garden/tokens/msol" hreflang="en" lang="en" title="English" aria-label="English">EN</a></li>
+        <li><span aria-current="true" lang="ko" title="한국어">KO</span></li>
+        <li><a href="https://www.defi.garden/pt/tokens/msol" hreflang="pt" lang="pt-BR" title="Português" aria-label="Português">PT</a></li>
+        <li><a href="https://www.defi.garden/es/tokens/msol" hreflang="es" lang="es" title="Español" aria-label="Español">ES</a></li>
+      </ul>
+    </nav>
     <h1>MSOL 디파이 수익률</h1>
     <p class="tp-answer">현재 MSOL의 가장 높은 정직한 수익률은 Solana의 marinade-liquid-staking에서 5.72%이며, $100K TVL 기준을 넘는 15개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.</p>
     <p class="sub">$100K TVL 기준을 넘는 실시간 풀 15개 · TVL 순 정렬</p>

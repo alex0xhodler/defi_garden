@@ -8,6 +8,8 @@
     <link rel="canonical" href="https://www.defi.garden/tokens/avax">
     <link rel="alternate" hreflang="en" href="https://www.defi.garden/tokens/avax">
     <link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/tokens/avax">
+    <link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/tokens/avax">
+    <link rel="alternate" hreflang="es" href="https://www.defi.garden/es/tokens/avax">
     <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/tokens/avax">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens","item":"https://www.defi.garden/tokens"},{"@type":"ListItem","position":3,"name":"AVAX","item":"https://www.defi.garden/tokens/avax"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"benqi-lending on Avalanche","url":"https://www.defi.garden/?pool=38583317-5354-4767-8f1e-6a0ae3aa7b5d"},{"@type":"ListItem","position":2,"name":"gmx-v2-perps on Avalanche","url":"https://www.defi.garden/?pool=8af72911-4f7b-4476-8191-86dff5401c1c"},{"@type":"ListItem","position":3,"name":"folks-finance-xchain on Avalanche","url":"https://www.defi.garden/?pool=3d949993-4ce7-4e09-a487-963c76832326"},{"@type":"ListItem","position":4,"name":"gmx-v2-perps on Avalanche","url":"https://www.defi.garden/?pool=1454aff4-d878-41d2-8e87-3ae2df778c82"},{"@type":"ListItem","position":5,"name":"gmx-v2-perps on Arbitrum","url":"https://www.defi.garden/?pool=12c85226-c003-45ef-b1f4-af6463ab094f"},{"@type":"ListItem","position":6,"name":"gmx-v2-perps on Avalanche","url":"https://www.defi.garden/?pool=7c719f11-74b4-4653-9d34-279501dd9635"},{"@type":"ListItem","position":7,"name":"gmx-v2-perps on Avalanche","url":"https://www.defi.garden/?pool=7c719f11-74b4-4653-9d34-279501dd9635"},{"@type":"ListItem","position":8,"name":"orca-dex on Solana","url":"https://www.defi.garden/?pool=c2142621-eddc-5c1e-85f3-3d89e7671f43"}]}</script>
@@ -78,6 +80,14 @@
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } .tp-cta:active, .related-links a:active { transform: none; } }
+      .lang-switch ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; }
+      .lang-switch a, .lang-switch [aria-current] { display: inline-flex; align-items: center; min-height: 38px; box-sizing: border-box; padding: 0 14px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; font-size: .9rem; font-weight: 600; text-decoration: none; }
+      .lang-switch a { background: var(--ui-surface); color: var(--ui-accent); }
+      .lang-switch a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .lang-switch a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .lang-switch a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .lang-switch [aria-current] { background: var(--ui-accent-soft); border-color: var(--ui-accent-border); color: var(--ui-text); }
+      @media (prefers-reduced-motion: reduce) { .lang-switch a:active { transform: none; } }
       .tp-waitlist {
         background: var(--ui-surface);
         border: 1px solid var(--ui-border);
@@ -325,6 +335,14 @@
 </head>
 <body>
   <main class="tp-wrap">
+    <nav class="lang-switch" aria-label="Language">
+      <ul>
+        <li><span aria-current="true" lang="en" title="English">EN</span></li>
+        <li><a href="https://www.defi.garden/ko/tokens/avax" hreflang="ko" lang="ko" title="한국어" aria-label="한국어">KO</a></li>
+        <li><a href="https://www.defi.garden/pt/tokens/avax" hreflang="pt" lang="pt-BR" title="Português" aria-label="Português">PT</a></li>
+        <li><a href="https://www.defi.garden/es/tokens/avax" hreflang="es" lang="es" title="Español" aria-label="Español">ES</a></li>
+      </ul>
+    </nav>
     <h1>AVAX DeFi Yields</h1>
     <p class="tp-answer">The highest honest AVAX yield right now is 21.58% on gmx-v2-perps (Arbitrum), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">9 live pools above the $100K TVL floor · ranked by TVL</p>

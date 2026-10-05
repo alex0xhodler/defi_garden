@@ -8,6 +8,8 @@
     <link rel="canonical" href="https://www.defi.garden/ko/chains/zksync-era">
     <link rel="alternate" hreflang="en" href="https://www.defi.garden/chains/zksync-era">
     <link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/chains/zksync-era">
+    <link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/chains/zksync-era">
+    <link rel="alternate" hreflang="es" href="https://www.defi.garden/es/chains/zksync-era">
     <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/chains/zksync-era">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"홈","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"체인","item":"https://www.defi.garden/ko/chains"},{"@type":"ListItem","position":3,"name":"ZKsync Era","item":"https://www.defi.garden/ko/chains/zksync-era"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"ZKsync Era의 zkswap-v2","url":"https://www.defi.garden/?pool=472dd466-6dd3-425d-aa76-5ccc7c59faa5"},{"@type":"ListItem","position":2,"name":"ZKsync Era의 zkswap-v2","url":"https://www.defi.garden/?pool=275cc0a1-571b-41f2-a467-ec69efbf4e47"},{"@type":"ListItem","position":3,"name":"ZKsync Era의 symbiosis","url":"https://www.defi.garden/?pool=55cef2b5-318a-4cd2-be72-17e31311c32d"}]}</script>
@@ -69,6 +71,14 @@
       .cp-faq-a { font-size: .9rem; margin: 0; color: var(--ui-text-secondary); line-height: 1.55; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .cp-cta, .related-links a { transition: none; } .cp-cta:active, .related-links a:active { transform: none; } }
+      .lang-switch ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; }
+      .lang-switch a, .lang-switch [aria-current] { display: inline-flex; align-items: center; min-height: 38px; box-sizing: border-box; padding: 0 14px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; font-size: .9rem; font-weight: 600; text-decoration: none; }
+      .lang-switch a { background: var(--ui-surface); color: var(--ui-accent); }
+      .lang-switch a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .lang-switch a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .lang-switch a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .lang-switch [aria-current] { background: var(--ui-accent-soft); border-color: var(--ui-accent-border); color: var(--ui-text); }
+      @media (prefers-reduced-motion: reduce) { .lang-switch a:active { transform: none; } }
       .cp-waitlist {
         background: var(--ui-surface);
         border: 1px solid var(--ui-border);
@@ -316,6 +326,14 @@
 </head>
 <body>
   <main class="cp-wrap">
+    <nav class="lang-switch" aria-label="언어">
+      <ul>
+        <li><a href="https://www.defi.garden/chains/zksync-era" hreflang="en" lang="en" title="English" aria-label="English">EN</a></li>
+        <li><span aria-current="true" lang="ko" title="한국어">KO</span></li>
+        <li><a href="https://www.defi.garden/pt/chains/zksync-era" hreflang="pt" lang="pt-BR" title="Português" aria-label="Português">PT</a></li>
+        <li><a href="https://www.defi.garden/es/chains/zksync-era" hreflang="es" lang="es" title="Español" aria-label="Español">ES</a></li>
+      </ul>
+    </nav>
     <h1>ZKsync Era 디파이 수익률</h1>
     <p class="cp-answer">현재 ZKsync Era의 가장 높은 정직한 수익률은 ZKsync Era의 zkswap-v2에서 0.77%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.</p>
     <p class="sub">$100K TVL 기준을 넘는 실시간 풀 3개 · TVL 순 정렬</p>

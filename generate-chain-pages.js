@@ -28,9 +28,13 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 const tp = require('./generate-token-pages.js');
-// REUSE (spec 050): same en/ko catalog + lookup helper generate-token-pages.js
-// uses — copy-only translation, pool data/numbers identical across languages.
-const { createTranslationFunction } = require('./translations.js');
+// REUSE (spec 050): same catalog + lookup helper generate-token-pages.js uses
+// (the Node-only i18n/ layer: en/ko from translations.js, pt/es dictionaries) —
+// copy-only translation, pool data/numbers identical across languages.
+const { createTranslationFunction } = require('./i18n');
+const {
+  LANGUAGES, LANG_CODES, getLanguage, normalizeLang, hasLasoCard, langPath, langUrl, langDir
+} = require('./languages.js');
 // Per-page OG images (051). Safe as a top-level require: this module only
 // requires generate-token-pages.js (not this one back), so no load cycle.
 const { generateOgImages } = require('./generate-og-images.js');
@@ -46,6 +50,8 @@ const {
   poolHrefFor, poolRelAttr, withSrc, renderItemListJsonLd, renderDatasetJsonLd,
   buildAnswerAndFaq, renderAnswerBlockHtml, renderFaqBlockHtml, renderFaqJsonLd,
   todayGeneratedDate, renderLastUpdatedHtml, renderHreflangLinks,
+  renderLanguageSwitcher, renderLangSwitchStyle, renderSitemapAlternates, neutralPathOfLoc,
+  SITEMAP_URLSET_OPEN, SITEMAP_URLSET_OPEN_XHTML, isIndexableToken,
   categoryLinksFor, renderLinkNavHtml, tokenSymbols, isValidToken, OG_FALLBACK_REL_PATH,
   renderWaitlistCtaHtml, renderWaitlistCtaStyle,
   yieldHeadlineFor, renderYieldHeadlineHtml, mdEscape, assertNonEmptyPages,
@@ -159,12 +165,12 @@ function topTokensOnChain(rec, generatedTokenSlugs, cap) {
  * back to the shared /og-image.png when the map is absent or has no entry
  * for this slug, so a page never ships without SOME og:image. */
 function renderChainPage(rec, related, generatedDate, tokenLinks, lang, ogImagePaths) {
-  const language = (lang === 'ko') ? 'ko' : 'en';
+  const language = normalizeLang(lang);
   const t = createTranslationFunction(language);
   const chainName = escapeHtml(rec.chain);
-  const enUrl = `${SITE_URL}/chains/${rec.slug}`;
-  const koUrl = `${SITE_URL}/ko/chains/${rec.slug}`;
-  const pageUrl = language === 'ko' ? koUrl : enUrl;
+  // Every chain page the EN estate generates exists in every language.
+  const neutralPath = `/chains/${rec.slug}`;
+  const pageUrl = langUrl(SITE_URL, language, neutralPath);
   const appUrl = `${SITE_URL}/?chain=${encodeURIComponent(rec.chain)}&minTvl=${MIN_POOL_TVL}`;
   const genDate = generatedDate || todayGeneratedDate();
   const ogImageRelPath = (ogImagePaths && ogImagePaths.get(rec.slug)) || OG_FALLBACK_REL_PATH;
@@ -176,9 +182,7 @@ function renderChainPage(rec, related, generatedDate, tokenLinks, lang, ogImageP
   const bestApy = poolTotalApy(headlinePool);
   const tokenCount = rec.tokens.length;
   const now = new Date();
-  const dateStr = language === 'ko'
-    ? `${now.getFullYear()}년 ${now.getMonth() + 1}월`
-    : `${now.toLocaleString('en-US', { month: 'short' })} ${now.getFullYear()}`;
+  const dateStr = t('tcpMonthYear', now.toLocaleString('en-US', { month: 'short' }), String(now.getMonth() + 1), String(now.getFullYear()));
   const title = t('tcpChainTitle', rec.chain, dateStr);
   // 174: EVERY floor mention on this page derives from MIN_POOL_TVL — never a
   // re-typed literal. One formatted value, reused by every t(...) call below.
@@ -191,8 +195,8 @@ function renderChainPage(rec, related, generatedDate, tokenLinks, lang, ogImageP
     formatApy(poolTotalApy(top)), formatUsd(top.tvlUsd), rec.qualifyingCount, tokenCount, formatUsd(rec.totalTvl), floorStr);
 
   // BreadcrumbList (040 / 045 pattern): Home and the current page are real,
-  // linkable URLs. "Chains" links to the /chains hub (or /ko/chains for Korean pages).
-  const chainsHubUrl = `${SITE_URL}/${language === 'ko' ? 'ko/chains' : 'chains'}`;
+  // linkable URLs. "Chains" links to the /chains hub (or /ko/chains, /pt/chains, ... per language).
+  const chainsHubUrl = `${SITE_URL}${langPath(language, '/chains')}`;
   const breadcrumbJsonLd = JSON.stringify({
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -230,7 +234,7 @@ function renderChainPage(rec, related, generatedDate, tokenLinks, lang, ogImageP
   const faqJsonLd = renderFaqJsonLd(faq);
 
   const relatedLinks = (related || []).map(r =>
-    `<a href="${SITE_URL}/${language === 'ko' ? 'ko/chains' : 'chains'}/${r.slug}">${escapeHtml(r.chain)}</a>`).join('\n        ');
+    `<a href="${SITE_URL}${langPath(language, '/chains')}/${r.slug}">${escapeHtml(r.chain)}</a>`).join('\n        ');
   const relatedBlock = relatedLinks
     ? `    <nav class="related" aria-label="${escapeHtml(t('tcpRelatedChainsHeading'))}">
       <h2>${escapeHtml(t('tcpRelatedChainsHeading'))}</h2>
@@ -244,14 +248,14 @@ function renderChainPage(rec, related, generatedDate, tokenLinks, lang, ogImageP
   // (only ones with a real generated page) + the pool-type categories in
   // this chain's own table, linked to the live app view for that category.
   const tokenNavItems = (tokenLinks || []).map(tk =>
-    ({ label: tk.symbol, href: `${SITE_URL}/${language === 'ko' ? 'ko/tokens' : 'tokens'}/${tk.slug}` }));
+    ({ label: tk.symbol, href: `${SITE_URL}${langPath(language, '/tokens')}/${tk.slug}` }));
   const topTokensHeading = t('tcpTopTokensOnHeading', rec.chain);
   const tokenLinksBlock = renderLinkNavHtml(tokenNavItems, topTokensHeading, topTokensHeading, 'xlink-tokens');
   // 204: category nav links are a visible estate->app boundary, tagged the
   // same as the main CTA below — categoryLinksFor itself stays untouched
   // (shared, unaware of which generator called it); the tag is applied here,
   // at the render site, over every item it returned (never skipped/duplicated).
-  const categoryItems = categoryLinksFor(rec.pools, appUrl).map(c => ({ label: c.category, href: withSrc(c.url, 'seo_chain') }));
+  const categoryItems = categoryLinksFor(rec.pools, appUrl).map(c => ({ label: t('tcpPoolTypeLabel', c.category), href: withSrc(c.url, 'seo_chain') }));
   const categoryBlock = renderLinkNavHtml(categoryItems, t('tcpPoolCategoriesAriaLabel'), t('tcpByCategoryHeading'), 'xlink-category', 'nofollow');
 
   // Waitlist CTA (062): the only path from this page into the card funnel.
@@ -267,7 +271,7 @@ function renderChainPage(rec, related, generatedDate, tokenLinks, lang, ogImageP
     // the visible row is tagged 'seo_chain' (203); the JSON-LD call above is
     // NOT, so it stays clean (spec 203 §6, deliberate deviation).
     const poolHref = poolHrefFor(p, appUrl, 'seo_chain', language);
-    const accessNote = isPermissionedPool(p) ? ' <span class="cp-restricted" title="Restricted access (KYC/accredited)">&#x1F512;</span>' : '';
+    const accessNote = isPermissionedPool(p) ? ' <span class="cp-restricted" title="' + escapeHtml(t('tcpRestrictedAccessTitle')) + '">&#x1F512;</span>' : '';
     return `        <tr>
           <td>${escapeHtml(p.symbol || '—')}</td>
           <td><a class="cp-pool-link"${poolRelAttr(p)} href="${poolHref}">${escapeHtml(p.project || '—')}${accessNote} &rarr;</a></td>
@@ -277,14 +281,14 @@ function renderChainPage(rec, related, generatedDate, tokenLinks, lang, ogImageP
   }).join('\n');
 
   return `<!DOCTYPE html>
-<html lang="${language}">
+<html lang="${getLanguage(language).htmlLang}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${escapeHtml(title)}</title>
     <meta name="description" content="${escapeHtml(description)}">
     <link rel="canonical" href="${pageUrl}">
-${renderHreflangLinks(enUrl, koUrl)}    <script type="application/ld+json">${breadcrumbJsonLd}</script>
+${renderHreflangLinks(neutralPath, LANG_CODES)}    <script type="application/ld+json">${breadcrumbJsonLd}</script>
     <script type="application/ld+json">${itemListJsonLd}</script>
     <script type="application/ld+json">${datasetJsonLd}</script>
     <script type="application/ld+json">${faqJsonLd}</script>
@@ -342,12 +346,12 @@ ${renderFontPreloadLinks()}    <link rel="stylesheet" href="/style.css">
       .cp-faq-a { font-size: .9rem; margin: 0; color: var(--ui-text-secondary); line-height: 1.55; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .cp-cta, .related-links a { transition: none; } .cp-cta:active, .related-links a:active { transform: none; } }
-${renderWaitlistCtaStyle('cp')}    </style>
-${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/chains/${rec.slug}`, { page_type: 'chain_landing', chain: rec.chain, pool_count: rec.qualifyingCount, lang: language })}
+${renderLangSwitchStyle()}${hasLasoCard(language) ? renderWaitlistCtaStyle('cp') : ''}    </style>
+${renderAnalyticsBootstrap(`${langPath(language, '')}/chains/${rec.slug}`, { page_type: 'chain_landing', chain: rec.chain, pool_count: rec.qualifyingCount, lang: language })}
 </head>
 <body>
   <main class="cp-wrap">
-    <h1>${escapeHtml(t('tcpChainHeading', rec.chain))}</h1>
+${renderLanguageSwitcher(neutralPath, language, LANG_CODES, t)}    <h1>${escapeHtml(t('tcpChainHeading', rec.chain))}</h1>
 ${answerBlock}    <p class="sub">${escapeHtml(t('tcpSubLine', rec.qualifyingCount, floorStr))}</p>
     <p class="intro">${intro}</p>
 ${yieldHeadlineBlock}    <a class="cp-cta" rel="nofollow" href="${withSrc(appUrl, 'seo_chain')}">${escapeHtml(t('tcpChainCta', rec.chain))}</a>
@@ -376,26 +380,25 @@ ${renderLastUpdatedHtml(genDate, language)}    <p class="note"><a href="${SITE_U
  * template guidance without an A–Z tier (045 — de-orphan the SEO surface
  * so every /chains/<slug> page is <=3 clicks from `/`). */
 function renderChainHubPage(ranked, lang) {
-  const language = (lang === 'ko') ? 'ko' : 'en';
+  const language = normalizeLang(lang);
   const t = createTranslationFunction(language);
-  const base = language === 'ko' ? `${SITE_URL}/ko/chains` : `${SITE_URL}/chains`;
-  const enUrl = `${SITE_URL}/chains`;
-  const koUrl = `${SITE_URL}/ko/chains`;
-  const pageUrl = language === 'ko' ? koUrl : enUrl;
+  const neutralPath = '/chains';
+  const base = `${SITE_URL}${langPath(language, neutralPath)}`;
+  const pageUrl = langUrl(SITE_URL, language, neutralPath);
   const title = t('tcpChainHubTitle');
   const description = t('tcpChainHubDescription', ranked.length);
   const links = (ranked || []).map(r =>
     `<a href="${base}/${r.slug}">${escapeHtml(r.chain)}</a>`).join('\n        ');
 
   return `<!DOCTYPE html>
-<html lang="${language}">
+<html lang="${getLanguage(language).htmlLang}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${escapeHtml(title)}</title>
     <meta name="description" content="${escapeHtml(description)}">
     <link rel="canonical" href="${pageUrl}">
-${renderHreflangLinks(enUrl, koUrl)}    <meta property="og:type" content="website">
+${renderHreflangLinks(neutralPath, LANG_CODES)}    <meta property="og:type" content="website">
     <meta property="og:title" content="${escapeHtml(title)}">
     <meta property="og:description" content="${escapeHtml(description)}">
     <meta property="og:url" content="${pageUrl}">
@@ -403,23 +406,23 @@ ${renderHreflangLinks(enUrl, koUrl)}    <meta property="og:type" content="websit
     <meta name="twitter:card" content="summary_large_image">
     <meta name="robots" content="index,follow">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
-${renderFontPreloadLinks()}    <link rel="stylesheet" href="/style.css">${renderHubStyleBlock()}
-${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/chains`, { page_type: 'chain_hub', chain_count: ranked.length, lang: language })}
+${renderFontPreloadLinks()}    <link rel="stylesheet" href="/style.css">${renderHubStyleBlock(language)}
+${renderAnalyticsBootstrap(`${langPath(language, '')}/chains`, { page_type: 'chain_hub', chain_count: ranked.length, lang: language })}
 </head>
 <body>
   <main class="hub-wrap">
-    <h1>${escapeHtml(t('tcpChainHubHeading'))}</h1>
+${renderLanguageSwitcher(neutralPath, language, LANG_CODES, t)}    <h1>${escapeHtml(t('tcpChainHubHeading'))}</h1>
     <p class="sub">${escapeHtml(t('tcpChainHubSub', ranked.length))}</p>
     <p class="intro">${escapeHtml(t('tcpChainHubIntro', formatUsd(MIN_POOL_TVL)))}</p>
     <a class="hub-cta" href="${SITE_URL}/">${escapeHtml(t('tcpHubBackCta'))}</a>
-    <p class="note"><a href="${SITE_URL}/${language === 'ko' ? 'ko/pools' : 'pools'}">${escapeHtml(t('pspHubLink'))}</a></p>
+    <p class="note"><a href="${SITE_URL}${langPath(language, '/pools')}">${escapeHtml(t('pspHubLink'))}</a></p>
     <div class="hub-card">
       <h2>${escapeHtml(t('tcpAllChainsHeading'))}</h2>
       <div class="hub-links">
         ${links}
       </div>
     </div>
-${renderWaitlistCtaHtml(t('tcpWaitlistPitchHub'), 'hub', 'seo_chains_hub', t)}    <p class="note">${escapeHtml(t('tcpTrustNote', formatUsd(MIN_POOL_TVL)))}</p>
+${hasLasoCard(language) ? renderWaitlistCtaHtml(t('tcpWaitlistPitchHub'), 'hub', 'seo_chains_hub', t) : ''}    <p class="note">${escapeHtml(t('tcpTrustNote', formatUsd(MIN_POOL_TVL)))}</p>
   </main>
 </body>
 </html>
@@ -432,7 +435,7 @@ ${renderWaitlistCtaHtml(t('tcpWaitlistPitchHub'), 'hub', 'seo_chains_hub', t)}  
  * formatApy() the HTML uses, so the twin can never drift by construction.
  * Same params as renderChainPage minus `ogImagePaths`. */
 function renderChainPageMarkdown(rec, related, generatedDate, tokenLinks, lang) {
-  const language = (lang === 'ko') ? 'ko' : 'en';
+  const language = normalizeLang(lang);
   const t = createTranslationFunction(language);
   const genDate = generatedDate || todayGeneratedDate();
   const appUrl = `${SITE_URL}/?chain=${encodeURIComponent(rec.chain)}&minTvl=${MIN_POOL_TVL}`;
@@ -455,12 +458,12 @@ function renderChainPageMarkdown(rec, related, generatedDate, tokenLinks, lang) 
 
   const relatedMd = (related && related.length)
     ? `\n## ${t('tcpRelatedChainsHeading')}\n\n` + related.map(r =>
-        `- [${mdEscape(r.chain)}](${SITE_URL}/${language === 'ko' ? 'ko/chains' : 'chains'}/${r.slug})`).join('\n') + '\n'
+        `- [${mdEscape(r.chain)}](${SITE_URL}${langPath(language, '/chains')}/${r.slug})`).join('\n') + '\n'
     : '';
 
   const tokenLinksMd = (tokenLinks && tokenLinks.length)
     ? `\n## ${t('tcpTopTokensOnHeading', rec.chain)}\n\n` + tokenLinks.map(tk =>
-        `- [${mdEscape(tk.symbol)}](${SITE_URL}/${language === 'ko' ? 'ko/tokens' : 'tokens'}/${tk.slug})`).join('\n') + '\n'
+        `- [${mdEscape(tk.symbol)}](${SITE_URL}${langPath(language, '/tokens')}/${tk.slug})`).join('\n') + '\n'
     : '';
 
   return `# ${t('tcpChainHeading', rec.chain)}
@@ -483,17 +486,23 @@ ${relatedMd}${tokenLinksMd}
 
 /** Render a sitemap (urlset) of all generated /chains/<slug> URLs, plus any
  * `extraLocs` (045: the /chains hub page). */
-function renderChainSitemap(ranked, lastmod, extraLocs, lang) {
+function renderChainSitemap(ranked, lastmod, extraLocs, lang, opts) {
   // `lang` (050) only changes the base path — mirrors renderTokenSitemap's
   // backward-compatible design (omitted = identical output to before).
-  const base = (lang === 'ko') ? 'ko/chains' : 'chains';
+  // `opts.alternates` (optional) is `(neutralPath) => string[]` (the language
+  // codes the URL exists in); when given each <url> carries the same
+  // reciprocal <xhtml:link> alternates as its page's on-page hreflang.
+  const language = normalizeLang(lang);
+  const base = langDir(language) ? `${langDir(language)}/chains` : 'chains';
+  const alternates = opts && opts.alternates;
   const lastmodTag = lastmod ? `    <lastmod>${lastmod}</lastmod>\n` : '';
+  const altTag = (neutralPath) => alternates ? renderSitemapAlternates(neutralPath, alternates(neutralPath)) : '';
   const extra = (extraLocs || []).map(loc =>
-    `  <url>\n    <loc>${loc}</loc>\n${lastmodTag}    <changefreq>daily</changefreq>\n  </url>`);
+    `  <url>\n    <loc>${loc}</loc>\n${altTag(neutralPathOfLoc(loc, language))}${lastmodTag}    <changefreq>daily</changefreq>\n  </url>`);
   const urls = (ranked || []).map(rec =>
-    `  <url>\n    <loc>${SITE_URL}/${base}/${rec.slug}</loc>\n${lastmodTag}    <changefreq>daily</changefreq>\n  </url>`);
+    `  <url>\n    <loc>${SITE_URL}/${base}/${rec.slug}</loc>\n${altTag(`/chains/${rec.slug}`)}${lastmodTag}    <changefreq>daily</changefreq>\n  </url>`);
   return `<?xml version="1.0" encoding="UTF-8"?>\n` +
-    `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${extra.concat(urls).join('\n')}\n</urlset>\n`;
+    `${alternates ? SITEMAP_URLSET_OPEN_XHTML : SITEMAP_URLSET_OPEN}\n${extra.concat(urls).join('\n')}\n</urlset>\n`;
 }
 
 // --- IO layer (only runs as a script) --------------------------------------
@@ -585,11 +594,19 @@ async function main() {
 
   // Cross-surface linking (049): which /tokens/<slug> pages will actually
   // exist, computed from this SAME `pools` fetch (already in scope via `tp`)
-  // so token/chain eligibility can never drift within one run.
-  const generatedTokenSlugs = new Set(tp.rankTopTokens(pools, 0).map(t => t.slug));
+  // so token/chain eligibility can never drift within one run. A 'head'-scope
+  // language (pt/es) only has the INDEXABLE token pages, so its chain pages
+  // link only those (never a token page that was not generated in that language).
+  const rankedTokens = tp.rankTopTokens(pools, 0);
+  const tokenSlugsByLang = {};
+  LANGUAGES.forEach(l => {
+    tokenSlugsByLang[l.code] = new Set(rankedTokens
+      .filter(rec => l.scope !== 'head' || isIndexableToken(rec))
+      .map(rec => rec.slug));
+  });
 
   ranked.forEach(rec => {
-    const tokenLinks = topTokensOnChain(rec, generatedTokenSlugs);
+    const tokenLinks = topTokensOnChain(rec, tokenSlugsByLang.en);
     fs.writeFileSync(path.join(outDir, `${rec.slug}.html`), renderChainPage(rec, relatedChainsFor(rec, ranked), genDate, tokenLinks, 'en', ogImagePaths));
     // 212: Markdown twin, written in the SAME loop from the SAME `rec`/`genDate`
     // so the two can never drift out of the same generation run.
@@ -602,22 +619,29 @@ async function main() {
   fs.writeFileSync(path.join(outDir, 'index.html'), renderChainHubPage(ranked));
   console.log('🧭 Wrote chains hub page');
 
-  // Korean variant (050): rendered from the SAME `ranked` the en pages just
-  // used — pool-parity is structural (only renderChainPage's `lang` differs).
-  // Sibling of outDir, not resolve('ko', args.out) — see generate-token-pages.js's
-  // identical fix: path.resolve() discards 'ko' when args.out is already absolute.
-  const koOutDir = path.join(path.dirname(outDir), 'ko', path.basename(outDir));
-  if (!fs.existsSync(koOutDir)) fs.mkdirSync(koOutDir, { recursive: true });
-  if (koOutDir !== process.cwd()) {
-    fs.readdirSync(koOutDir).forEach(f => { if (f.endsWith('.html') || f.endsWith('.md')) fs.rmSync(path.join(koOutDir, f)); });
-  }
-  ranked.forEach(rec => {
-    const tokenLinks = topTokensOnChain(rec, generatedTokenSlugs);
-    fs.writeFileSync(path.join(koOutDir, `${rec.slug}.html`), renderChainPage(rec, relatedChainsFor(rec, ranked), genDate, tokenLinks, 'ko', ogImagePaths));
-    fs.writeFileSync(path.join(koOutDir, `${rec.slug}.md`), renderChainPageMarkdown(rec, relatedChainsFor(rec, ranked), genDate, tokenLinks, 'ko'));
+  // Other languages (050 ko; pt/es): rendered from the SAME `ranked` the en
+  // pages just used — pool-parity is structural (only renderChainPage's `lang`
+  // differs). Every EN chain page exists in every language (chains are not
+  // thin-gated). Sibling of outDir, not resolve('ko', args.out) — see
+  // generate-token-pages.js's identical fix: path.resolve() discards the
+  // language dir when args.out is already absolute.
+  LANGUAGES.filter(l => l.code !== 'en').forEach(l => {
+    const langOutDir = path.join(path.dirname(outDir), langDir(l.code), path.basename(outDir));
+    if (!fs.existsSync(langOutDir)) fs.mkdirSync(langOutDir, { recursive: true });
+    if (langOutDir !== process.cwd()) {
+      fs.readdirSync(langOutDir).forEach(f => { if (f.endsWith('.html') || f.endsWith('.md')) fs.rmSync(path.join(langOutDir, f)); });
+    }
+    ranked.forEach(rec => {
+      const tokenLinks = topTokensOnChain(rec, tokenSlugsByLang[l.code]);
+      fs.writeFileSync(path.join(langOutDir, `${rec.slug}.html`), renderChainPage(rec, relatedChainsFor(rec, ranked), genDate, tokenLinks, l.code, ogImagePaths));
+      // Markdown twins: 'all'-scope languages only (no .md twins in pt/es).
+      if (l.scope === 'all') {
+        fs.writeFileSync(path.join(langOutDir, `${rec.slug}.md`), renderChainPageMarkdown(rec, relatedChainsFor(rec, ranked), genDate, tokenLinks, l.code));
+      }
+    });
+    fs.writeFileSync(path.join(langOutDir, 'index.html'), renderChainHubPage(ranked, l.code));
+    console.log(`🌐 Wrote ${ranked.length} ${langDir(l.code)}/chains pages + ${l.code} hub page`);
   });
-  fs.writeFileSync(path.join(koOutDir, 'index.html'), renderChainHubPage(ranked, 'ko'));
-  console.log(`🇰🇷 Wrote ${ranked.length} ko/chains pages + ko hub page`);
 
   if (args.sitemap) {
     const lastmod = new Date().toISOString().slice(0, 10);
@@ -627,14 +651,16 @@ async function main() {
     // source of truth for this gate). The hub URL stays in the sitemap in full.
     const headChains = selectHeadChains(pools);
     const headRanked = ranked.filter(rec => headChains.has(rec.chain));
-    const hubUrls = [`${SITE_URL}/chains`];
-    fs.writeFileSync(path.resolve(args.sitemap), renderChainSitemap(headRanked, lastmod, hubUrls));
-    console.log(`🗺️  Wrote ${args.sitemap} (${headRanked.length} head URLs of ${ranked.length} generated pages, + ${hubUrls.length} hub URL)`);
-
-    const koSitemapPath = args.sitemap.replace(/\.xml$/, '-ko.xml');
-    const koHubUrls = [`${SITE_URL}/ko/chains`];
-    fs.writeFileSync(path.resolve(koSitemapPath), renderChainSitemap(headRanked, lastmod, koHubUrls, 'ko'));
-    console.log(`🗺️  Wrote ${koSitemapPath} (${headRanked.length} head URLs of ${ranked.length} generated pages, + ${koHubUrls.length} hub URL)`);
+    // One sitemap per language (en: args.sitemap; others: <name>-<code>.xml),
+    // every <url> carrying the same reciprocal alternates as its page (chain
+    // pages exist in every language, so the set is always the full list).
+    const alternates = () => LANG_CODES;
+    LANGUAGES.forEach(l => {
+      const hubUrls = [langUrl(SITE_URL, l.code, '/chains')];
+      const sitemapPath = l.code === 'en' ? args.sitemap : args.sitemap.replace(/\.xml$/, `-${l.code}.xml`);
+      fs.writeFileSync(path.resolve(sitemapPath), renderChainSitemap(headRanked, lastmod, hubUrls, l.code, { alternates }));
+      console.log(`🗺️  Wrote ${sitemapPath} (${headRanked.length} head URLs of ${ranked.length} generated pages, + ${hubUrls.length} hub URL)`);
+    });
   }
 }
 

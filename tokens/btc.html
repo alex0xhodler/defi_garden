@@ -8,6 +8,8 @@
     <link rel="canonical" href="https://www.defi.garden/tokens/btc">
     <link rel="alternate" hreflang="en" href="https://www.defi.garden/tokens/btc">
     <link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/tokens/btc">
+    <link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/tokens/btc">
+    <link rel="alternate" hreflang="es" href="https://www.defi.garden/es/tokens/btc">
     <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/tokens/btc">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens","item":"https://www.defi.garden/tokens"},{"@type":"ListItem","position":3,"name":"BTC","item":"https://www.defi.garden/tokens/btc"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"justlend-v1 on Tron","url":"https://www.defi.garden/?pool=71418c17-d2aa-4eff-b68a-806fff9ec951"},{"@type":"ListItem","position":2,"name":"b14g on Bitcoin","url":"https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec"},{"@type":"ListItem","position":3,"name":"mezo-earn on Mezo","url":"https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c"},{"@type":"ListItem","position":4,"name":"midas-rwa on Ethereum","url":"https://www.defi.garden/?pool=d2b2bdd9-6535-4acc-8e84-2b0838bd63bb"},{"@type":"ListItem","position":5,"name":"osmosis-dex on Osmosis","url":"https://www.defi.garden/?pool=afb34fe0-dd27-48b7-be00-654768e9acc7"},{"@type":"ListItem","position":6,"name":"chainflip-amm on Bitcoin","url":"https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490"},{"@type":"ListItem","position":7,"name":"midas-rwa on Monad","url":"https://www.defi.garden/?pool=24514f34-853f-4678-9faa-7cebf550aba7"},{"@type":"ListItem","position":8,"name":"chainflip-lending on Bitcoin","url":"https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66"}]}</script>
@@ -82,6 +84,14 @@
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } .tp-cta:active, .related-links a:active { transform: none; } }
+      .lang-switch ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; }
+      .lang-switch a, .lang-switch [aria-current] { display: inline-flex; align-items: center; min-height: 38px; box-sizing: border-box; padding: 0 14px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; font-size: .9rem; font-weight: 600; text-decoration: none; }
+      .lang-switch a { background: var(--ui-surface); color: var(--ui-accent); }
+      .lang-switch a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .lang-switch a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .lang-switch a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .lang-switch [aria-current] { background: var(--ui-accent-soft); border-color: var(--ui-accent-border); color: var(--ui-text); }
+      @media (prefers-reduced-motion: reduce) { .lang-switch a:active { transform: none; } }
       .tp-waitlist {
         background: var(--ui-surface);
         border: 1px solid var(--ui-border);
@@ -329,6 +339,14 @@
 </head>
 <body>
   <main class="tp-wrap">
+    <nav class="lang-switch" aria-label="Language">
+      <ul>
+        <li><span aria-current="true" lang="en" title="English">EN</span></li>
+        <li><a href="https://www.defi.garden/ko/tokens/btc" hreflang="ko" lang="ko" title="한국어" aria-label="한국어">KO</a></li>
+        <li><a href="https://www.defi.garden/pt/tokens/btc" hreflang="pt" lang="pt-BR" title="Português" aria-label="Português">PT</a></li>
+        <li><a href="https://www.defi.garden/es/tokens/btc" hreflang="es" lang="es" title="Español" aria-label="Español">ES</a></li>
+      </ul>
+    </nav>
     <h1>BTC DeFi Yields</h1>
     <p class="tp-answer">The highest honest BTC yield right now is 500.00% on osmosis-dex (Osmosis), among 23 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">23 live pools above the $100K TVL floor · ranked by TVL</p>
