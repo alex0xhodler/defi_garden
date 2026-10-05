@@ -157,7 +157,7 @@ const MCP_TOOLS = [
   },
   {
     name: "get_trust_rails",
-    description: "Retrieve active safety invariants, sanity ceilings, oracle divergence gates, and pool qualification criteria for autonomous agent safety.",
+    description: "Retrieve active filtering rules, sanity ceilings, and pool qualification criteria for autonomous agent safety.",
     inputSchema: {
       type: "object",
       properties: {}
@@ -165,7 +165,7 @@ const MCP_TOOLS = [
   },
   {
     name: "get_pool_score",
-    description: "Retrieve institutional quantitative risk score (DeFi Score 0-100), 4-pillar breakdown, 14-day probabilistic APY forecast bands (p10/p50/p90), and retail access restrictions for any liquidity pool across 30+ chains.",
+    description: "Retrieve quantitative yield quality score (DeFi Score 0-100), 4-pillar breakdown (stability, sustainability, stickiness, liquidity), 14-day forward yield forecast bands (p10/p50/p90), and retail access restrictions for any liquidity pool across 30+ chains.",
     inputSchema: {
       type: "object",
       properties: {
@@ -263,8 +263,8 @@ function handleToolCall(name, args) {
       },
       defi_score: pool.defiScore ? {
         score: pool.defiScore.score,
-        rating: pool.defiScore.rating,
-        breakdown: pool.defiScore.breakdown
+        breakdown: pool.defiScore.breakdown,
+        note: "Yield quality score based on stability, fee sustainability, depositor stickiness, and exit liquidity. Not a smart-contract or exploit safety audit."
       } : null,
       forecast: pool.forecast ? {
         horizon_days: pool.forecast.horizonDays,

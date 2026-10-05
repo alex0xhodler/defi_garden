@@ -1611,8 +1611,8 @@ function tokenPageTitle(rec, language, t, dateStr) {
       return translated;
     }
     return language === 'ko'
-      ? (dateStr ? `최고의 ${rec.symbol} 수익률 (${dateStr}) — ${countStr}개 풀 위험도순 비교 | DeFi Garden` : `오늘의 최고 ${rec.symbol} 수익률 — ${countStr}개 실시간 풀 비교 | DeFi Garden`)
-      : (dateStr ? `Best ${rec.symbol} Yields (${dateStr}) — ${countStr} Pools Ranked by Risk | DeFi Garden` : `Best ${rec.symbol} Yield Rates Today — ${countStr} Live Pools Compared | DeFi Garden`);
+      ? (dateStr ? `최고의 ${rec.symbol} 수익률 (${dateStr}) — ${countStr}개 실시간 풀 비교 | DeFi Garden` : `오늘의 최고 ${rec.symbol} 수익률 — ${countStr}개 실시간 풀 비교 | DeFi Garden`)
+      : (dateStr ? `Best ${rec.symbol} Yields (${dateStr}) — ${countStr} Live Pools Compared | DeFi Garden` : `Best ${rec.symbol} Yield Rates Today — ${countStr} Live Pools Compared | DeFi Garden`);
   }
   return t('tcpTokenTitle', rec.symbol);
 }
