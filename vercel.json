@@ -56,6 +56,17 @@
     },
     {
       "source": "/mcp",
+      "has": [
+        {
+          "type": "header",
+          "key": "Content-Type",
+          "value": "(.*)application/json(.*)"
+        }
+      ],
+      "destination": "/api/mcp"
+    },
+    {
+      "source": "/mcp",
       "destination": "/mcp.html"
     },
     {

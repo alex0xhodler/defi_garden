@@ -514,6 +514,16 @@
 
       <div class="tool-row">
         <div class="tool-head">
+          <span class="tool-signature">get_pool_score</span>
+          <button class="btn-exec" onclick="testTool('get_pool_score')">Run Query</button>
+        </div>
+        <div class="tool-description">
+          Retrieve quantitative yield quality score (DeFi Score 0-100), 4-pillar breakdown, 14-day forward yield forecast bands, and retail access restrictions.
+        </div>
+      </div>
+
+      <div class="tool-row">
+        <div class="tool-head">
           <span class="tool-signature">forever_number</span>
           <button class="btn-exec" onclick="testTool('forever_number')">Run Query</button>
         </div>
@@ -607,6 +617,9 @@
         args = { token: "USDC", chain: "Base", limit: 3 };
       }
       if (toolName === 'get_pool') {
+        args = { pool_id: "ba68527f-8ec2-4c55-827a-8f4673ae047c" };
+      }
+      if (toolName === 'get_pool_score') {
         args = { pool_id: "ba68527f-8ec2-4c55-827a-8f4673ae047c" };
       }
       if (toolName === 'forever_number') {
