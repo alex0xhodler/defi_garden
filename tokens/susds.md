@@ -6,8 +6,8 @@ The highest honest SUSDS yield right now is 6.54% on convex-finance (Ethereum), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sky-lending →](https://www.defi.garden/?pool=d8c4eff5-c8a9-46fc-a888-057c4c668e72#src=seo_token) | Ethereum | 3.60% | $4.67B |
-| [sky-lending →](https://www.defi.garden/?pool=3637ce7b-529b-49c1-964c-710a50b2939c#src=seo_token) | Arbitrum | 3.60% | $363.71M |
+| [sky-lending →](https://www.defi.garden/pools/sky-lending-susds-ethereum) | Ethereum | 3.60% | $4.67B |
+| [sky-lending →](https://www.defi.garden/pools/sky-lending-susds-arbitrum) | Arbitrum | 3.60% | $363.71M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=0cc155d9-0e7f-4bdd-b07e-0a09e34b9af0#src=seo_token) | Ethereum | 0.08% | $11.71M |
 | [curve-dex →](https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1#src=seo_token) | Ethereum | 3.93% | $7.32M |
 | [convex-finance →](https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566#src=seo_token) | Ethereum | 6.54% | $6.23M |
@@ -18,14 +18,14 @@ The highest honest SUSDS yield right now is 6.54% on convex-finance (Ethereum), 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SUSDS's lower-variability candidates are sky-lending (OP Mainnet), 3.60% APY, $5.14M TVL, https://www.defi.garden/?pool=0af18cf7-b21c-5a85-93e5-bd58289a2d6d#src=seo_token; sky-lending (Arbitrum), 3.60% APY, $363.71M TVL, https://www.defi.garden/?pool=3637ce7b-529b-49c1-964c-710a50b2939c#src=seo_token; pendle-v2 (Ethereum), 4.78% APY, $4.83M TVL, https://www.defi.garden/?pool=0a3ea503-239b-4637-acda-7f57016e0caa#src=seo_token; sky-lending (Ethereum), 3.60% APY, $4.67B TVL, https://www.defi.garden/?pool=d8c4eff5-c8a9-46fc-a888-057c4c668e72#src=seo_token; uniswap-v3 (Ethereum), 0.08% APY, $11.71M TVL, https://www.defi.garden/?pool=0cc155d9-0e7f-4bdd-b07e-0a09e34b9af0#src=seo_token; pendle-v2 (Ethereum), 4.26% APY, $4.83M TVL, https://www.defi.garden/?pool=8e9f65c8-8cd7-44a5-9363-36d4017f46ec#src=seo_token; convex-finance (Ethereum), 6.54% APY, $6.23M TVL, https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566#src=seo_token; curve-dex (Ethereum), 3.93% APY, $7.32M TVL, https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SUSDS's lower-variability candidates are sky-lending (OP Mainnet), 3.60% APY, $5.14M TVL, https://www.defi.garden/?pool=0af18cf7-b21c-5a85-93e5-bd58289a2d6d#src=seo_token; sky-lending (Arbitrum), 3.60% APY, $363.71M TVL, https://www.defi.garden/pools/sky-lending-susds-arbitrum; pendle-v2 (Ethereum), 4.78% APY, $4.83M TVL, https://www.defi.garden/?pool=0a3ea503-239b-4637-acda-7f57016e0caa#src=seo_token; sky-lending (Ethereum), 3.60% APY, $4.67B TVL, https://www.defi.garden/pools/sky-lending-susds-ethereum; uniswap-v3 (Ethereum), 0.08% APY, $11.71M TVL, https://www.defi.garden/?pool=0cc155d9-0e7f-4bdd-b07e-0a09e34b9af0#src=seo_token; pendle-v2 (Ethereum), 4.26% APY, $4.83M TVL, https://www.defi.garden/?pool=8e9f65c8-8cd7-44a5-9363-36d4017f46ec#src=seo_token; convex-finance (Ethereum), 6.54% APY, $6.23M TVL, https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566#src=seo_token; curve-dex (Ethereum), 3.93% APY, $7.32M TVL, https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [sky-lending →](https://www.defi.garden/?pool=0af18cf7-b21c-5a85-93e5-bd58289a2d6d#src=seo_token) | OP Mainnet | 3.60% | $5.14M |
-| 2 | [sky-lending →](https://www.defi.garden/?pool=3637ce7b-529b-49c1-964c-710a50b2939c#src=seo_token) | Arbitrum | 3.60% | $363.71M |
+| 2 | [sky-lending →](https://www.defi.garden/pools/sky-lending-susds-arbitrum) | Arbitrum | 3.60% | $363.71M |
 | 3 | [pendle-v2 →](https://www.defi.garden/?pool=0a3ea503-239b-4637-acda-7f57016e0caa#src=seo_token) | Ethereum | 4.78% | $4.83M |
-| 4 | [sky-lending →](https://www.defi.garden/?pool=d8c4eff5-c8a9-46fc-a888-057c4c668e72#src=seo_token) | Ethereum | 3.60% | $4.67B |
+| 4 | [sky-lending →](https://www.defi.garden/pools/sky-lending-susds-ethereum) | Ethereum | 3.60% | $4.67B |
 | 5 | [uniswap-v3 →](https://www.defi.garden/?pool=0cc155d9-0e7f-4bdd-b07e-0a09e34b9af0#src=seo_token) | Ethereum | 0.08% | $11.71M |
 | 6 | [pendle-v2 →](https://www.defi.garden/?pool=8e9f65c8-8cd7-44a5-9363-36d4017f46ec#src=seo_token) | Ethereum | 4.26% | $4.83M |
 | 7 | [convex-finance →](https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566#src=seo_token) | Ethereum | 6.54% | $6.23M |
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SUSDS pools have the most stable APY history?
 
-Based on APY history only, SUSDS's lower-variability candidates are sky-lending (OP Mainnet), 3.60% APY, $5.14M TVL, https://www.defi.garden/?pool=0af18cf7-b21c-5a85-93e5-bd58289a2d6d#src=seo_token; sky-lending (Arbitrum), 3.60% APY, $363.71M TVL, https://www.defi.garden/?pool=3637ce7b-529b-49c1-964c-710a50b2939c#src=seo_token; pendle-v2 (Ethereum), 4.78% APY, $4.83M TVL, https://www.defi.garden/?pool=0a3ea503-239b-4637-acda-7f57016e0caa#src=seo_token; sky-lending (Ethereum), 3.60% APY, $4.67B TVL, https://www.defi.garden/?pool=d8c4eff5-c8a9-46fc-a888-057c4c668e72#src=seo_token; uniswap-v3 (Ethereum), 0.08% APY, $11.71M TVL, https://www.defi.garden/?pool=0cc155d9-0e7f-4bdd-b07e-0a09e34b9af0#src=seo_token; pendle-v2 (Ethereum), 4.26% APY, $4.83M TVL, https://www.defi.garden/?pool=8e9f65c8-8cd7-44a5-9363-36d4017f46ec#src=seo_token; convex-finance (Ethereum), 6.54% APY, $6.23M TVL, https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566#src=seo_token; curve-dex (Ethereum), 3.93% APY, $7.32M TVL, https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SUSDS's lower-variability candidates are sky-lending (OP Mainnet), 3.60% APY, $5.14M TVL, https://www.defi.garden/?pool=0af18cf7-b21c-5a85-93e5-bd58289a2d6d#src=seo_token; sky-lending (Arbitrum), 3.60% APY, $363.71M TVL, https://www.defi.garden/pools/sky-lending-susds-arbitrum; pendle-v2 (Ethereum), 4.78% APY, $4.83M TVL, https://www.defi.garden/?pool=0a3ea503-239b-4637-acda-7f57016e0caa#src=seo_token; sky-lending (Ethereum), 3.60% APY, $4.67B TVL, https://www.defi.garden/pools/sky-lending-susds-ethereum; uniswap-v3 (Ethereum), 0.08% APY, $11.71M TVL, https://www.defi.garden/?pool=0cc155d9-0e7f-4bdd-b07e-0a09e34b9af0#src=seo_token; pendle-v2 (Ethereum), 4.26% APY, $4.83M TVL, https://www.defi.garden/?pool=8e9f65c8-8cd7-44a5-9363-36d4017f46ec#src=seo_token; convex-finance (Ethereum), 6.54% APY, $6.23M TVL, https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566#src=seo_token; curve-dex (Ethereum), 3.93% APY, $7.32M TVL, https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

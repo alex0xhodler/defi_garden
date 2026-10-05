@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=699f25fe-09f4-4f82-8f58-baa5b0af8fa4#src=seo_token) | Ethereum | 5.58% | $398.41M |
+| [morpho-blue →](https://www.defi.garden/ko/pools/morpho-blue-senpyusdmain-ethereum) | Ethereum | 5.58% | $398.41M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

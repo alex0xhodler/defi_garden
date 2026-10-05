@@ -6,7 +6,7 @@ The highest honest OSETH yield right now is 6.90% on convex-finance (Ethereum), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [stakewise-v3 →](https://www.defi.garden/?pool=4d01599c-69ae-41a3-bae1-5fab896f04c8#src=seo_token) | Ethereum | 2.34% | $422.74M |
+| [stakewise-v3 →](https://www.defi.garden/pools/stakewise-v3-oseth-ethereum) | Ethereum | 2.34% | $422.74M |
 | [fluid-dex →](https://www.defi.garden/?pool=d2c742e2-2807-4156-a665-d84ca06d56c8#src=seo_token) | Ethereum | 0.11% | $16.69M |
 | [curve-dex →](https://www.defi.garden/?pool=e7fe034b-6f68-4a8f-9cef-bab9bcd051e1#src=seo_token) | Ethereum | 2.17% | $15.06M |
 | [convex-finance →](https://www.defi.garden/?pool=10e78df0-9ce4-4d23-bfbd-f35f002e95f5#src=seo_token) | Ethereum | 6.90% | $2.29M |
@@ -15,12 +15,12 @@ The highest honest OSETH yield right now is 6.90% on convex-finance (Ethereum), 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, OSETH's lower-variability candidates are fluid-dex (Ethereum), 0.11% APY, $16.69M TVL, https://www.defi.garden/?pool=d2c742e2-2807-4156-a665-d84ca06d56c8#src=seo_token; stakewise-v3 (Ethereum), 2.34% APY, $422.74M TVL, https://www.defi.garden/?pool=4d01599c-69ae-41a3-bae1-5fab896f04c8#src=seo_token; curve-dex (Ethereum), 2.17% APY, $15.06M TVL, https://www.defi.garden/?pool=e7fe034b-6f68-4a8f-9cef-bab9bcd051e1#src=seo_token; balancer-v3 (Ethereum), 1.82% APY, $1.94M TVL, https://www.defi.garden/?pool=a5d146f0-29f6-4b60-98a1-537f22e3f4d5#src=seo_token; convex-finance (Ethereum), 6.90% APY, $2.29M TVL, https://www.defi.garden/?pool=10e78df0-9ce4-4d23-bfbd-f35f002e95f5#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, OSETH's lower-variability candidates are fluid-dex (Ethereum), 0.11% APY, $16.69M TVL, https://www.defi.garden/?pool=d2c742e2-2807-4156-a665-d84ca06d56c8#src=seo_token; stakewise-v3 (Ethereum), 2.34% APY, $422.74M TVL, https://www.defi.garden/pools/stakewise-v3-oseth-ethereum; curve-dex (Ethereum), 2.17% APY, $15.06M TVL, https://www.defi.garden/?pool=e7fe034b-6f68-4a8f-9cef-bab9bcd051e1#src=seo_token; balancer-v3 (Ethereum), 1.82% APY, $1.94M TVL, https://www.defi.garden/?pool=a5d146f0-29f6-4b60-98a1-537f22e3f4d5#src=seo_token; convex-finance (Ethereum), 6.90% APY, $2.29M TVL, https://www.defi.garden/?pool=10e78df0-9ce4-4d23-bfbd-f35f002e95f5#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [fluid-dex →](https://www.defi.garden/?pool=d2c742e2-2807-4156-a665-d84ca06d56c8#src=seo_token) | Ethereum | 0.11% | $16.69M |
-| 2 | [stakewise-v3 →](https://www.defi.garden/?pool=4d01599c-69ae-41a3-bae1-5fab896f04c8#src=seo_token) | Ethereum | 2.34% | $422.74M |
+| 2 | [stakewise-v3 →](https://www.defi.garden/pools/stakewise-v3-oseth-ethereum) | Ethereum | 2.34% | $422.74M |
 | 3 | [curve-dex →](https://www.defi.garden/?pool=e7fe034b-6f68-4a8f-9cef-bab9bcd051e1#src=seo_token) | Ethereum | 2.17% | $15.06M |
 | 4 | [balancer-v3 →](https://www.defi.garden/?pool=a5d146f0-29f6-4b60-98a1-537f22e3f4d5#src=seo_token) | Ethereum | 1.82% | $1.94M |
 | 5 | [convex-finance →](https://www.defi.garden/?pool=10e78df0-9ce4-4d23-bfbd-f35f002e95f5#src=seo_token) | Ethereum | 6.90% | $2.29M |
@@ -61,7 +61,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which OSETH pools have the most stable APY history?
 
-Based on APY history only, OSETH's lower-variability candidates are fluid-dex (Ethereum), 0.11% APY, $16.69M TVL, https://www.defi.garden/?pool=d2c742e2-2807-4156-a665-d84ca06d56c8#src=seo_token; stakewise-v3 (Ethereum), 2.34% APY, $422.74M TVL, https://www.defi.garden/?pool=4d01599c-69ae-41a3-bae1-5fab896f04c8#src=seo_token; curve-dex (Ethereum), 2.17% APY, $15.06M TVL, https://www.defi.garden/?pool=e7fe034b-6f68-4a8f-9cef-bab9bcd051e1#src=seo_token; balancer-v3 (Ethereum), 1.82% APY, $1.94M TVL, https://www.defi.garden/?pool=a5d146f0-29f6-4b60-98a1-537f22e3f4d5#src=seo_token; convex-finance (Ethereum), 6.90% APY, $2.29M TVL, https://www.defi.garden/?pool=10e78df0-9ce4-4d23-bfbd-f35f002e95f5#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, OSETH's lower-variability candidates are fluid-dex (Ethereum), 0.11% APY, $16.69M TVL, https://www.defi.garden/?pool=d2c742e2-2807-4156-a665-d84ca06d56c8#src=seo_token; stakewise-v3 (Ethereum), 2.34% APY, $422.74M TVL, https://www.defi.garden/pools/stakewise-v3-oseth-ethereum; curve-dex (Ethereum), 2.17% APY, $15.06M TVL, https://www.defi.garden/?pool=e7fe034b-6f68-4a8f-9cef-bab9bcd051e1#src=seo_token; balancer-v3 (Ethereum), 1.82% APY, $1.94M TVL, https://www.defi.garden/?pool=a5d146f0-29f6-4b60-98a1-537f22e3f4d5#src=seo_token; convex-finance (Ethereum), 6.90% APY, $2.29M TVL, https://www.defi.garden/?pool=10e78df0-9ce4-4d23-bfbd-f35f002e95f5#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

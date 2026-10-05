@@ -4,7 +4,7 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| USDE | [aave-v3 →](https://www.defi.garden/?pool=42eaf290-24c3-4ce0-82ab-c1276444871b#src=seo_chain) | 0.27% | $541.46M |
+| USDE | [aave-v3 →](https://www.defi.garden/ko/pools/aave-v3-usde-plasma) | 0.27% | $541.46M |
 | USDT0 | [aave-v3 →](https://www.defi.garden/?pool=e338c687-a5d8-4abf-bc04-127990811b0a#src=seo_chain) | 5.30% | $43.05M |
 | SYZUSD | [yuzu-money →](https://www.defi.garden/?pool=6174b1d6-8212-4964-95bf-ca9c539864ba#src=seo_chain) | 7.88% | $37.94M |
 | PLASMAUSD | [veda →](https://www.defi.garden/?pool=95d4f805-1800-4184-98a0-6e49b3ccad8a#src=seo_chain) | 4.01% | $32.06M |

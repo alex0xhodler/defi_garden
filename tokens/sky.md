@@ -6,7 +6,7 @@ The highest honest SKY yield right now is 62.12% on uniswap-v4 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sky-lending →](https://www.defi.garden/?pool=370a27ed-7971-5a6d-9f9d-7f98ed64d299#src=seo_token) | Ethereum | 6.56% | $853.82M |
+| [sky-lending →](https://www.defi.garden/pools/sky-lending-sky-ethereum) | Ethereum | 6.56% | $853.82M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=0238a455-cd4d-448e-9529-0d0d0beee660#src=seo_token) | Ethereum | 54.98% | $1.98M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=b795ef00-5124-4072-8c19-8ac701076677#src=seo_token) | Ethereum | 15.49% | $1.53M |
 | [origami-finance →](https://www.defi.garden/?pool=4b51822a-05dc-4fa8-ae06-963ba010d7e1#src=seo_token) | Ethereum | 6.82% | $673.4K |
@@ -18,11 +18,11 @@ The highest honest SKY yield right now is 62.12% on uniswap-v4 (Ethereum), among
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SKY's lower-variability candidates are sky-lending (Ethereum), 6.56% APY, $853.82M TVL, https://www.defi.garden/?pool=370a27ed-7971-5a6d-9f9d-7f98ed64d299#src=seo_token; uniswap-v4 (Ethereum), 19.42% APY, $522.6K TVL, https://www.defi.garden/?pool=354af3af-3b33-4b0d-a17a-f39a1b46e905#src=seo_token; uniswap-v3 (Ethereum), 54.98% APY, $1.98M TVL, https://www.defi.garden/?pool=0238a455-cd4d-448e-9529-0d0d0beee660#src=seo_token; hydration-dex (Polkadot), 2.99% APY, $170.1K TVL, https://www.defi.garden/?pool=347e4a35-892c-4b55-b8ba-f1473409c91c#src=seo_token; origami-finance (Ethereum), 6.82% APY, $673.4K TVL, https://www.defi.garden/?pool=4b51822a-05dc-4fa8-ae06-963ba010d7e1#src=seo_token; uniswap-v4 (Ethereum), 15.49% APY, $1.53M TVL, https://www.defi.garden/?pool=b795ef00-5124-4072-8c19-8ac701076677#src=seo_token; uniswap-v4 (Ethereum), 62.12% APY, $397.4K TVL, https://www.defi.garden/?pool=570d398e-6351-4a69-a780-145a4967d90c#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SKY's lower-variability candidates are sky-lending (Ethereum), 6.56% APY, $853.82M TVL, https://www.defi.garden/pools/sky-lending-sky-ethereum; uniswap-v4 (Ethereum), 19.42% APY, $522.6K TVL, https://www.defi.garden/?pool=354af3af-3b33-4b0d-a17a-f39a1b46e905#src=seo_token; uniswap-v3 (Ethereum), 54.98% APY, $1.98M TVL, https://www.defi.garden/?pool=0238a455-cd4d-448e-9529-0d0d0beee660#src=seo_token; hydration-dex (Polkadot), 2.99% APY, $170.1K TVL, https://www.defi.garden/?pool=347e4a35-892c-4b55-b8ba-f1473409c91c#src=seo_token; origami-finance (Ethereum), 6.82% APY, $673.4K TVL, https://www.defi.garden/?pool=4b51822a-05dc-4fa8-ae06-963ba010d7e1#src=seo_token; uniswap-v4 (Ethereum), 15.49% APY, $1.53M TVL, https://www.defi.garden/?pool=b795ef00-5124-4072-8c19-8ac701076677#src=seo_token; uniswap-v4 (Ethereum), 62.12% APY, $397.4K TVL, https://www.defi.garden/?pool=570d398e-6351-4a69-a780-145a4967d90c#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [sky-lending →](https://www.defi.garden/?pool=370a27ed-7971-5a6d-9f9d-7f98ed64d299#src=seo_token) | Ethereum | 6.56% | $853.82M |
+| 1 | [sky-lending →](https://www.defi.garden/pools/sky-lending-sky-ethereum) | Ethereum | 6.56% | $853.82M |
 | 2 | [uniswap-v4 →](https://www.defi.garden/?pool=354af3af-3b33-4b0d-a17a-f39a1b46e905#src=seo_token) | Ethereum | 19.42% | $522.6K |
 | 3 | [uniswap-v3 →](https://www.defi.garden/?pool=0238a455-cd4d-448e-9529-0d0d0beee660#src=seo_token) | Ethereum | 54.98% | $1.98M |
 | 4 | [hydration-dex →](https://www.defi.garden/?pool=347e4a35-892c-4b55-b8ba-f1473409c91c#src=seo_token) | Polkadot | 2.99% | $170.1K |
@@ -71,7 +71,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SKY pools have the most stable APY history?
 
-Based on APY history only, SKY's lower-variability candidates are sky-lending (Ethereum), 6.56% APY, $853.82M TVL, https://www.defi.garden/?pool=370a27ed-7971-5a6d-9f9d-7f98ed64d299#src=seo_token; uniswap-v4 (Ethereum), 19.42% APY, $522.6K TVL, https://www.defi.garden/?pool=354af3af-3b33-4b0d-a17a-f39a1b46e905#src=seo_token; uniswap-v3 (Ethereum), 54.98% APY, $1.98M TVL, https://www.defi.garden/?pool=0238a455-cd4d-448e-9529-0d0d0beee660#src=seo_token; hydration-dex (Polkadot), 2.99% APY, $170.1K TVL, https://www.defi.garden/?pool=347e4a35-892c-4b55-b8ba-f1473409c91c#src=seo_token; origami-finance (Ethereum), 6.82% APY, $673.4K TVL, https://www.defi.garden/?pool=4b51822a-05dc-4fa8-ae06-963ba010d7e1#src=seo_token; uniswap-v4 (Ethereum), 15.49% APY, $1.53M TVL, https://www.defi.garden/?pool=b795ef00-5124-4072-8c19-8ac701076677#src=seo_token; uniswap-v4 (Ethereum), 62.12% APY, $397.4K TVL, https://www.defi.garden/?pool=570d398e-6351-4a69-a780-145a4967d90c#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SKY's lower-variability candidates are sky-lending (Ethereum), 6.56% APY, $853.82M TVL, https://www.defi.garden/pools/sky-lending-sky-ethereum; uniswap-v4 (Ethereum), 19.42% APY, $522.6K TVL, https://www.defi.garden/?pool=354af3af-3b33-4b0d-a17a-f39a1b46e905#src=seo_token; uniswap-v3 (Ethereum), 54.98% APY, $1.98M TVL, https://www.defi.garden/?pool=0238a455-cd4d-448e-9529-0d0d0beee660#src=seo_token; hydration-dex (Polkadot), 2.99% APY, $170.1K TVL, https://www.defi.garden/?pool=347e4a35-892c-4b55-b8ba-f1473409c91c#src=seo_token; origami-finance (Ethereum), 6.82% APY, $673.4K TVL, https://www.defi.garden/?pool=4b51822a-05dc-4fa8-ae06-963ba010d7e1#src=seo_token; uniswap-v4 (Ethereum), 15.49% APY, $1.53M TVL, https://www.defi.garden/?pool=b795ef00-5124-4072-8c19-8ac701076677#src=seo_token; uniswap-v4 (Ethereum), 62.12% APY, $397.4K TVL, https://www.defi.garden/?pool=570d398e-6351-4a69-a780-145a4967d90c#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

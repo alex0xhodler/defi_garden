@@ -6,10 +6,10 @@ The highest honest USDS yield right now is 5.77% on sky-lending (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sparklend →](https://www.defi.garden/?pool=54e9b138-3146-4c1f-8dce-1cb948f5ef96#src=seo_token) | Ethereum | 4.98% | $562.92M |
-| [sparklend →](https://www.defi.garden/?pool=0ed981dc-b49d-426d-ade5-6014728b1ef9#src=seo_token) | Ethereum | 2.56% | $435.38M |
-| [spark-savings →](https://www.defi.garden/?pool=9d499222-a01a-45bb-bbc9-f01c7923693b#src=seo_token) | Arbitrum | 3.60% | $363.71M |
-| [centrifuge-protocol →](https://www.defi.garden/?pool=ff1bb959-d160-4906-bad2-d3e37a1e92e8#src=seo_token) | Ethereum | 4.46% | $326.18M |
+| [sparklend →](https://www.defi.garden/pools/sparklend-usds-ethereum) | Ethereum | 4.98% | $562.92M |
+| [sparklend →](https://www.defi.garden/pools/sparklend-usds-ethereum-0ed981) | Ethereum | 2.56% | $435.38M |
+| [spark-savings →](https://www.defi.garden/pools/spark-savings-usds-arbitrum) | Arbitrum | 3.60% | $363.71M |
+| [centrifuge-protocol →](https://www.defi.garden/pools/centrifuge-protocol-usds-ethereum) | Ethereum | 4.46% | $326.18M |
 | [sky-lending →](https://www.defi.garden/?pool=4d87430b-688a-5ac5-a593-4e31ac715d02#src=seo_token) | Ethereum | 5.77% | $172.96M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=0899ff3d-adc8-4dae-a516-a94998db3332#src=seo_token) | Ethereum | 0.12% | $100.13M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=f71737e5-f02e-4964-b23e-19d1a6c7a6bf#src=seo_token) | Ethereum | 0.70% | $49.55M |
@@ -18,16 +18,16 @@ The highest honest USDS yield right now is 5.77% on sky-lending (Ethereum), amon
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, USDS's lower-variability candidates are spark-savings (Arbitrum), 3.60% APY, $363.71M TVL, https://www.defi.garden/?pool=9d499222-a01a-45bb-bbc9-f01c7923693b#src=seo_token; spark-savings (Base), 3.60% APY, $12.04M TVL, https://www.defi.garden/?pool=aa2d08c0-0abd-4dcf-be93-ff8ca89d01cd#src=seo_token; uniswap-v4 (Ethereum), 0.12% APY, $100.13M TVL, https://www.defi.garden/?pool=0899ff3d-adc8-4dae-a516-a94998db3332#src=seo_token; sparklend (Ethereum), 4.98% APY, $562.92M TVL, https://www.defi.garden/?pool=54e9b138-3146-4c1f-8dce-1cb948f5ef96#src=seo_token; centrifuge-protocol (Ethereum), 4.46% APY, $326.18M TVL, https://www.defi.garden/?pool=ff1bb959-d160-4906-bad2-d3e37a1e92e8#src=seo_token; sparklend (Ethereum), 2.56% APY, $435.38M TVL, https://www.defi.garden/?pool=0ed981dc-b49d-426d-ade5-6014728b1ef9#src=seo_token; sky-lending (Ethereum), 5.77% APY, $172.96M TVL, https://www.defi.garden/?pool=4d87430b-688a-5ac5-a593-4e31ac715d02#src=seo_token; uniswap-v4 (Ethereum), 0.70% APY, $49.55M TVL, https://www.defi.garden/?pool=f71737e5-f02e-4964-b23e-19d1a6c7a6bf#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDS's lower-variability candidates are spark-savings (Arbitrum), 3.60% APY, $363.71M TVL, https://www.defi.garden/pools/spark-savings-usds-arbitrum; spark-savings (Base), 3.60% APY, $12.04M TVL, https://www.defi.garden/?pool=aa2d08c0-0abd-4dcf-be93-ff8ca89d01cd#src=seo_token; uniswap-v4 (Ethereum), 0.12% APY, $100.13M TVL, https://www.defi.garden/?pool=0899ff3d-adc8-4dae-a516-a94998db3332#src=seo_token; sparklend (Ethereum), 4.98% APY, $562.92M TVL, https://www.defi.garden/pools/sparklend-usds-ethereum; centrifuge-protocol (Ethereum), 4.46% APY, $326.18M TVL, https://www.defi.garden/pools/centrifuge-protocol-usds-ethereum; sparklend (Ethereum), 2.56% APY, $435.38M TVL, https://www.defi.garden/pools/sparklend-usds-ethereum-0ed981; sky-lending (Ethereum), 5.77% APY, $172.96M TVL, https://www.defi.garden/?pool=4d87430b-688a-5ac5-a593-4e31ac715d02#src=seo_token; uniswap-v4 (Ethereum), 0.70% APY, $49.55M TVL, https://www.defi.garden/?pool=f71737e5-f02e-4964-b23e-19d1a6c7a6bf#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [spark-savings →](https://www.defi.garden/?pool=9d499222-a01a-45bb-bbc9-f01c7923693b#src=seo_token) | Arbitrum | 3.60% | $363.71M |
+| 1 | [spark-savings →](https://www.defi.garden/pools/spark-savings-usds-arbitrum) | Arbitrum | 3.60% | $363.71M |
 | 2 | [spark-savings →](https://www.defi.garden/?pool=aa2d08c0-0abd-4dcf-be93-ff8ca89d01cd#src=seo_token) | Base | 3.60% | $12.04M |
 | 3 | [uniswap-v4 →](https://www.defi.garden/?pool=0899ff3d-adc8-4dae-a516-a94998db3332#src=seo_token) | Ethereum | 0.12% | $100.13M |
-| 4 | [sparklend →](https://www.defi.garden/?pool=54e9b138-3146-4c1f-8dce-1cb948f5ef96#src=seo_token) | Ethereum | 4.98% | $562.92M |
-| 5 | [centrifuge-protocol →](https://www.defi.garden/?pool=ff1bb959-d160-4906-bad2-d3e37a1e92e8#src=seo_token) | Ethereum | 4.46% | $326.18M |
-| 6 | [sparklend →](https://www.defi.garden/?pool=0ed981dc-b49d-426d-ade5-6014728b1ef9#src=seo_token) | Ethereum | 2.56% | $435.38M |
+| 4 | [sparklend →](https://www.defi.garden/pools/sparklend-usds-ethereum) | Ethereum | 4.98% | $562.92M |
+| 5 | [centrifuge-protocol →](https://www.defi.garden/pools/centrifuge-protocol-usds-ethereum) | Ethereum | 4.46% | $326.18M |
+| 6 | [sparklend →](https://www.defi.garden/pools/sparklend-usds-ethereum-0ed981) | Ethereum | 2.56% | $435.38M |
 | 7 | [sky-lending →](https://www.defi.garden/?pool=4d87430b-688a-5ac5-a593-4e31ac715d02#src=seo_token) | Ethereum | 5.77% | $172.96M |
 | 8 | [uniswap-v4 →](https://www.defi.garden/?pool=f71737e5-f02e-4964-b23e-19d1a6c7a6bf#src=seo_token) | Ethereum | 0.70% | $49.55M |
 
@@ -70,7 +70,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USDS pools have the most stable APY history?
 
-Based on APY history only, USDS's lower-variability candidates are spark-savings (Arbitrum), 3.60% APY, $363.71M TVL, https://www.defi.garden/?pool=9d499222-a01a-45bb-bbc9-f01c7923693b#src=seo_token; spark-savings (Base), 3.60% APY, $12.04M TVL, https://www.defi.garden/?pool=aa2d08c0-0abd-4dcf-be93-ff8ca89d01cd#src=seo_token; uniswap-v4 (Ethereum), 0.12% APY, $100.13M TVL, https://www.defi.garden/?pool=0899ff3d-adc8-4dae-a516-a94998db3332#src=seo_token; sparklend (Ethereum), 4.98% APY, $562.92M TVL, https://www.defi.garden/?pool=54e9b138-3146-4c1f-8dce-1cb948f5ef96#src=seo_token; centrifuge-protocol (Ethereum), 4.46% APY, $326.18M TVL, https://www.defi.garden/?pool=ff1bb959-d160-4906-bad2-d3e37a1e92e8#src=seo_token; sparklend (Ethereum), 2.56% APY, $435.38M TVL, https://www.defi.garden/?pool=0ed981dc-b49d-426d-ade5-6014728b1ef9#src=seo_token; sky-lending (Ethereum), 5.77% APY, $172.96M TVL, https://www.defi.garden/?pool=4d87430b-688a-5ac5-a593-4e31ac715d02#src=seo_token; uniswap-v4 (Ethereum), 0.70% APY, $49.55M TVL, https://www.defi.garden/?pool=f71737e5-f02e-4964-b23e-19d1a6c7a6bf#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDS's lower-variability candidates are spark-savings (Arbitrum), 3.60% APY, $363.71M TVL, https://www.defi.garden/pools/spark-savings-usds-arbitrum; spark-savings (Base), 3.60% APY, $12.04M TVL, https://www.defi.garden/?pool=aa2d08c0-0abd-4dcf-be93-ff8ca89d01cd#src=seo_token; uniswap-v4 (Ethereum), 0.12% APY, $100.13M TVL, https://www.defi.garden/?pool=0899ff3d-adc8-4dae-a516-a94998db3332#src=seo_token; sparklend (Ethereum), 4.98% APY, $562.92M TVL, https://www.defi.garden/pools/sparklend-usds-ethereum; centrifuge-protocol (Ethereum), 4.46% APY, $326.18M TVL, https://www.defi.garden/pools/centrifuge-protocol-usds-ethereum; sparklend (Ethereum), 2.56% APY, $435.38M TVL, https://www.defi.garden/pools/sparklend-usds-ethereum-0ed981; sky-lending (Ethereum), 5.77% APY, $172.96M TVL, https://www.defi.garden/?pool=4d87430b-688a-5ac5-a593-4e31ac715d02#src=seo_token; uniswap-v4 (Ethereum), 0.70% APY, $49.55M TVL, https://www.defi.garden/?pool=f71737e5-f02e-4964-b23e-19d1a6c7a6bf#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

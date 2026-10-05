@@ -6,7 +6,7 @@ The highest honest SENRLUSDV2 yield right now is 5.32% on morpho-blue (Ethereum)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=2e53bb82-f13f-4157-a3bf-b1a91b94b6a4#src=seo_token) | Ethereum | 5.32% | $465.57M |
+| [morpho-blue →](https://www.defi.garden/pools/morpho-blue-senrlusdv2-ethereum) | Ethereum | 5.32% | $465.57M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

@@ -6,7 +6,7 @@ The highest honest USDG yield right now is 6.15% on aave-v4 (Ethereum), among 53
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [maple →](https://www.defi.garden/?pool=4c004503-9587-46f2-a362-d23a80f4b691#src=seo_token) | Ethereum | 5.00% | $470.08M |
+| [maple →](https://www.defi.garden/pools/maple-usdg-ethereum) | Ethereum | 5.00% | $470.08M |
 | [jupiter-lend →](https://www.defi.garden/?pool=edbdb3cb-3d94-5d54-9810-d9bff0b15da2#src=seo_token) | Solana | 3.53% | $152.08M |
 | [curve-dex →](https://www.defi.garden/?pool=367f7910-672b-43e1-804b-c68d58caa927#src=seo_token) | Ethereum | 0.22% | $20.04M |
 | [orca-dex →](https://www.defi.garden/?pool=ac225670-41bc-48fa-b8d7-32011abc58fe#src=seo_token) | Solana | 0.13% | $17.03M |
@@ -18,14 +18,14 @@ The highest honest USDG yield right now is 6.15% on aave-v4 (Ethereum), among 53
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, USDG's lower-variability candidates are spark-savings (Robinhood Chain), 3.50% APY, $14.18M TVL, https://www.defi.garden/?pool=a1371c8f-592f-56d4-a506-7f1530f35a00#src=seo_token; curve-dex (Ethereum), 0.22% APY, $20.04M TVL, https://www.defi.garden/?pool=367f7910-672b-43e1-804b-c68d58caa927#src=seo_token; kamino-liquidity (Solana), 0.06% APY, $10.51M TVL, https://www.defi.garden/?pool=34c08a67-71ab-4e92-aed4-34ede13dce5b#src=seo_token; maple (Ethereum), 5.00% APY, $470.08M TVL, https://www.defi.garden/?pool=4c004503-9587-46f2-a362-d23a80f4b691#src=seo_token; aave-v4 (Ethereum), 6.15% APY, $12.04M TVL, https://www.defi.garden/?pool=411707d7-0293-4ad3-982d-72125e1f5de7#src=seo_token; kamino-lend (Solana), 4.21% APY, $5.06M TVL, https://www.defi.garden/?pool=0cdd7f84-711e-4cd4-916d-da318857559a#src=seo_token; orca-dex (Solana), 0.13% APY, $17.03M TVL, https://www.defi.garden/?pool=ac225670-41bc-48fa-b8d7-32011abc58fe#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDG's lower-variability candidates are spark-savings (Robinhood Chain), 3.50% APY, $14.18M TVL, https://www.defi.garden/?pool=a1371c8f-592f-56d4-a506-7f1530f35a00#src=seo_token; curve-dex (Ethereum), 0.22% APY, $20.04M TVL, https://www.defi.garden/?pool=367f7910-672b-43e1-804b-c68d58caa927#src=seo_token; kamino-liquidity (Solana), 0.06% APY, $10.51M TVL, https://www.defi.garden/?pool=34c08a67-71ab-4e92-aed4-34ede13dce5b#src=seo_token; maple (Ethereum), 5.00% APY, $470.08M TVL, https://www.defi.garden/pools/maple-usdg-ethereum; aave-v4 (Ethereum), 6.15% APY, $12.04M TVL, https://www.defi.garden/?pool=411707d7-0293-4ad3-982d-72125e1f5de7#src=seo_token; kamino-lend (Solana), 4.21% APY, $5.06M TVL, https://www.defi.garden/?pool=0cdd7f84-711e-4cd4-916d-da318857559a#src=seo_token; orca-dex (Solana), 0.13% APY, $17.03M TVL, https://www.defi.garden/?pool=ac225670-41bc-48fa-b8d7-32011abc58fe#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [spark-savings →](https://www.defi.garden/?pool=a1371c8f-592f-56d4-a506-7f1530f35a00#src=seo_token) | Robinhood Chain | 3.50% | $14.18M |
 | 2 | [curve-dex →](https://www.defi.garden/?pool=367f7910-672b-43e1-804b-c68d58caa927#src=seo_token) | Ethereum | 0.22% | $20.04M |
 | 3 | [kamino-liquidity →](https://www.defi.garden/?pool=34c08a67-71ab-4e92-aed4-34ede13dce5b#src=seo_token) | Solana | 0.06% | $10.51M |
-| 4 | [maple →](https://www.defi.garden/?pool=4c004503-9587-46f2-a362-d23a80f4b691#src=seo_token) | Ethereum | 5.00% | $470.08M |
+| 4 | [maple →](https://www.defi.garden/pools/maple-usdg-ethereum) | Ethereum | 5.00% | $470.08M |
 | 5 | [aave-v4 →](https://www.defi.garden/?pool=411707d7-0293-4ad3-982d-72125e1f5de7#src=seo_token) | Ethereum | 6.15% | $12.04M |
 | 6 | [kamino-lend →](https://www.defi.garden/?pool=0cdd7f84-711e-4cd4-916d-da318857559a#src=seo_token) | Solana | 4.21% | $5.06M |
 | 7 | [orca-dex →](https://www.defi.garden/?pool=ac225670-41bc-48fa-b8d7-32011abc58fe#src=seo_token) | Solana | 0.13% | $17.03M |
@@ -69,7 +69,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USDG pools have the most stable APY history?
 
-Based on APY history only, USDG's lower-variability candidates are spark-savings (Robinhood Chain), 3.50% APY, $14.18M TVL, https://www.defi.garden/?pool=a1371c8f-592f-56d4-a506-7f1530f35a00#src=seo_token; curve-dex (Ethereum), 0.22% APY, $20.04M TVL, https://www.defi.garden/?pool=367f7910-672b-43e1-804b-c68d58caa927#src=seo_token; kamino-liquidity (Solana), 0.06% APY, $10.51M TVL, https://www.defi.garden/?pool=34c08a67-71ab-4e92-aed4-34ede13dce5b#src=seo_token; maple (Ethereum), 5.00% APY, $470.08M TVL, https://www.defi.garden/?pool=4c004503-9587-46f2-a362-d23a80f4b691#src=seo_token; aave-v4 (Ethereum), 6.15% APY, $12.04M TVL, https://www.defi.garden/?pool=411707d7-0293-4ad3-982d-72125e1f5de7#src=seo_token; kamino-lend (Solana), 4.21% APY, $5.06M TVL, https://www.defi.garden/?pool=0cdd7f84-711e-4cd4-916d-da318857559a#src=seo_token; orca-dex (Solana), 0.13% APY, $17.03M TVL, https://www.defi.garden/?pool=ac225670-41bc-48fa-b8d7-32011abc58fe#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDG's lower-variability candidates are spark-savings (Robinhood Chain), 3.50% APY, $14.18M TVL, https://www.defi.garden/?pool=a1371c8f-592f-56d4-a506-7f1530f35a00#src=seo_token; curve-dex (Ethereum), 0.22% APY, $20.04M TVL, https://www.defi.garden/?pool=367f7910-672b-43e1-804b-c68d58caa927#src=seo_token; kamino-liquidity (Solana), 0.06% APY, $10.51M TVL, https://www.defi.garden/?pool=34c08a67-71ab-4e92-aed4-34ede13dce5b#src=seo_token; maple (Ethereum), 5.00% APY, $470.08M TVL, https://www.defi.garden/pools/maple-usdg-ethereum; aave-v4 (Ethereum), 6.15% APY, $12.04M TVL, https://www.defi.garden/?pool=411707d7-0293-4ad3-982d-72125e1f5de7#src=seo_token; kamino-lend (Solana), 4.21% APY, $5.06M TVL, https://www.defi.garden/?pool=0cdd7f84-711e-4cd4-916d-da318857559a#src=seo_token; orca-dex (Solana), 0.13% APY, $17.03M TVL, https://www.defi.garden/?pool=ac225670-41bc-48fa-b8d7-32011abc58fe#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

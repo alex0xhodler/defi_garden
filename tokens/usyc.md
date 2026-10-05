@@ -6,17 +6,17 @@ The highest honest USYC yield right now is 3.07% on circle-usyc (BSC), among 2 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [circle-usyc →](https://www.defi.garden/?pool=7c0a89c7-70cf-460c-b62e-cb278bf97e8f#src=seo_token) | BSC | 3.07% | $2.36B |
+| [circle-usyc →](https://www.defi.garden/pools/circle-usyc-usyc-bsc) | BSC | 3.07% | $2.36B |
 | [circle-usyc →](https://www.defi.garden/?pool=448a64ff-06fd-4e56-b63c-03662ac39010#src=seo_token) | Ethereum | 3.07% | $41.94M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, USYC's lower-variability candidates are circle-usyc (BSC), 3.07% APY, $2.36B TVL, https://www.defi.garden/?pool=7c0a89c7-70cf-460c-b62e-cb278bf97e8f#src=seo_token; circle-usyc (Ethereum), 3.07% APY, $41.94M TVL, https://www.defi.garden/?pool=448a64ff-06fd-4e56-b63c-03662ac39010#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USYC's lower-variability candidates are circle-usyc (BSC), 3.07% APY, $2.36B TVL, https://www.defi.garden/pools/circle-usyc-usyc-bsc; circle-usyc (Ethereum), 3.07% APY, $41.94M TVL, https://www.defi.garden/?pool=448a64ff-06fd-4e56-b63c-03662ac39010#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [circle-usyc →](https://www.defi.garden/?pool=7c0a89c7-70cf-460c-b62e-cb278bf97e8f#src=seo_token) | BSC | 3.07% | $2.36B |
+| 1 | [circle-usyc →](https://www.defi.garden/pools/circle-usyc-usyc-bsc) | BSC | 3.07% | $2.36B |
 | 2 | [circle-usyc →](https://www.defi.garden/?pool=448a64ff-06fd-4e56-b63c-03662ac39010#src=seo_token) | Ethereum | 3.07% | $41.94M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USYC pools have the most stable APY history?
 
-Based on APY history only, USYC's lower-variability candidates are circle-usyc (BSC), 3.07% APY, $2.36B TVL, https://www.defi.garden/?pool=7c0a89c7-70cf-460c-b62e-cb278bf97e8f#src=seo_token; circle-usyc (Ethereum), 3.07% APY, $41.94M TVL, https://www.defi.garden/?pool=448a64ff-06fd-4e56-b63c-03662ac39010#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USYC's lower-variability candidates are circle-usyc (BSC), 3.07% APY, $2.36B TVL, https://www.defi.garden/pools/circle-usyc-usyc-bsc; circle-usyc (Ethereum), 3.07% APY, $41.94M TVL, https://www.defi.garden/?pool=448a64ff-06fd-4e56-b63c-03662ac39010#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

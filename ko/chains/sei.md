@@ -4,7 +4,7 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| USDY | [ondo-yield-assets →](https://www.defi.garden/?pool=1f8a60c7-e307-42cd-844c-18dec84f5137#src=seo_chain) | 3.62% | $259.34M |
+| USDY | [ondo-yield-assets →](https://www.defi.garden/ko/pools/ondo-yield-assets-usdy-sei) | 3.62% | $259.34M |
 | SYZUSD | [yuzu-money →](https://www.defi.garden/?pool=20ccc2e5-0eca-4d9d-abd0-313908f51b31#src=seo_chain) | 7.88% | $8.81M |
 | WSEI | [takara-lend →](https://www.defi.garden/?pool=450812cf-e0cb-4609-9645-2df1e9cf01a5#src=seo_chain) | 1.09% | $1.51M |
 | USD₮0 | [takara-lend →](https://www.defi.garden/?pool=45cb0bd0-a5d1-4c28-bf84-1dcdf4a93321#src=seo_chain) | 12.13% | $449.7K |

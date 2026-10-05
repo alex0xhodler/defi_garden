@@ -6,7 +6,7 @@ The highest honest SENPYUSDMAIN yield right now is 5.58% on morpho-blue (Ethereu
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=699f25fe-09f4-4f82-8f58-baa5b0af8fa4#src=seo_token) | Ethereum | 5.58% | $398.41M |
+| [morpho-blue →](https://www.defi.garden/pools/morpho-blue-senpyusdmain-ethereum) | Ethereum | 5.58% | $398.41M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

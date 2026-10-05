@@ -95,6 +95,7 @@ TL;DR: Typical user queries and where to find them.
 - "How do I make yield pay a monthly subscription" → https://www.defi.garden/plan.html
 - "Save toward retirement with crypto yield" → https://www.defi.garden/plan.html
 - "How DeFi yield works (APY, lending rates, risk rails)" → https://www.defi.garden/guide/defi-yield-rates-explained
+- "Is a specific pool's APY stable? DeFi Score and 14-day forecast for large pools" → https://www.defi.garden/pools
 
 ## Current Top Yields
 TL;DR: Live highest APY opportunities (updated daily, TVL ≥ $100K).

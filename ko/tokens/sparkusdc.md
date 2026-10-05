@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=a5fab52f-73fa-4f44-9c09-9af1eb20996c#src=seo_token) | Base | 3.96% | $329.66M |
+| [morpho-blue →](https://www.defi.garden/ko/pools/morpho-blue-sparkusdc-base) | Base | 3.96% | $329.66M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

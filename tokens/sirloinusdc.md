@@ -6,7 +6,7 @@ The highest honest SIRLOINUSDC yield right now is 5.63% on morpho-blue (Base), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=8276be38-acc6-4005-ab0d-62680f49f4df#src=seo_token) | Base | 5.63% | $459.9M |
+| [morpho-blue →](https://www.defi.garden/pools/morpho-blue-sirloinusdc-base) | Base | 5.63% | $459.9M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

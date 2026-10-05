@@ -4,7 +4,7 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| BUIDL | [blackrock-buidl →](https://www.defi.garden/?pool=bd0f5a2a-5d74-40bd-a7db-bf1538b314a2#src=seo_chain) | 3.47% | $967.53M |
+| BUIDL | [blackrock-buidl →](https://www.defi.garden/ko/pools/blackrock-buidl-buidl-aptos) | 3.47% | $967.53M |
 | USDT-USDC | [hyperion →](https://www.defi.garden/?pool=a34c8a80-0001-4fc3-9402-7d6ac3e5234a#src=seo_chain) | 15.13% | $6.29M |
 | APT | [amnis-finance →](https://www.defi.garden/?pool=490006e3-284b-4107-9bb9-99906b7880b2#src=seo_chain) | 2.36% | $3.59M |
 | APT | [echelon-market →](https://www.defi.garden/?pool=cf6fa110-1204-486e-9cfe-6e83bace42b0#src=seo_chain) | 0.14% | $2.83M |

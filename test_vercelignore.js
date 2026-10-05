@@ -296,6 +296,9 @@ const MUST_KEEP = [
   'tokens/index.html',
   'ko/chains/ethereum.html', 'ko/chains/ethereum.md',
   'ko/tokens/usdc.html', 'ko/tokens/usdc.md',
+  // pools — W1 scored static pages (+ hub) must serve, EN and KO.
+  'pools/lido-steth-ethereum.html', 'pools/index.html',
+  'ko/pools/lido-steth-ethereum.html', 'ko/pools/index.html',
   // pools — the item-212 per-pool .md twin + its .json sibling.
   'pools/0004a5d4-ce6d-43ba-ab8a-64ff555b3853.json',
   'pools/0004a5d4-ce6d-43ba-ab8a-64ff555b3853.md',

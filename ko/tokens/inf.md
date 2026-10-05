@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [sanctum-infinity →](https://www.defi.garden/?pool=3075a746-bdd1-4aac-bcd5-b035abee2622#src=seo_token) | Solana | 5.36% | $235.82M |
+| [sanctum-infinity →](https://www.defi.garden/ko/pools/sanctum-infinity-inf-solana) | Solana | 5.36% | $235.82M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
