@@ -2,28 +2,28 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest ZBU yield right now is 162.07% on zeebu (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZBU yield right now is 162.00% on zeebu (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [zeebu →](https://www.defi.garden/?pool=4ca69348-5268-4076-ba04-e996032d4efe#src=seo_token) | Base | 162.07% | $3.2M |
-| [zeebu →](https://www.defi.garden/?pool=e02220fe-38af-4277-994a-2db03fcbd331#src=seo_token) | Ethereum | 69.76% | $3.13M |
+| [zeebu →](https://www.defi.garden/?pool=4ca69348-5268-4076-ba04-e996032d4efe#src=seo_token) | Base | 162.00% | $3.2M |
+| [zeebu →](https://www.defi.garden/?pool=e02220fe-38af-4277-994a-2db03fcbd331#src=seo_token) | Ethereum | 69.74% | $3.13M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ZBU's lower-variability candidates are zeebu (Ethereum), 69.76% APY, $3.13M TVL, https://www.defi.garden/?pool=e02220fe-38af-4277-994a-2db03fcbd331#src=seo_token; zeebu (Base), 162.07% APY, $3.2M TVL, https://www.defi.garden/?pool=4ca69348-5268-4076-ba04-e996032d4efe#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ZBU's lower-variability candidates are zeebu (Ethereum), 69.74% APY, $3.13M TVL, https://www.defi.garden/?pool=e02220fe-38af-4277-994a-2db03fcbd331#src=seo_token; zeebu (Base), 162.00% APY, $3.2M TVL, https://www.defi.garden/?pool=4ca69348-5268-4076-ba04-e996032d4efe#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [zeebu →](https://www.defi.garden/?pool=e02220fe-38af-4277-994a-2db03fcbd331#src=seo_token) | Ethereum | 69.76% | $3.13M |
-| 2 | [zeebu →](https://www.defi.garden/?pool=4ca69348-5268-4076-ba04-e996032d4efe#src=seo_token) | Base | 162.07% | $3.2M |
+| 1 | [zeebu →](https://www.defi.garden/?pool=e02220fe-38af-4277-994a-2db03fcbd331#src=seo_token) | Ethereum | 69.74% | $3.13M |
+| 2 | [zeebu →](https://www.defi.garden/?pool=4ca69348-5268-4076-ba04-e996032d4efe#src=seo_token) | Base | 162.00% | $3.2M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ZBU shows up in 2 pools here, with rates from 69.76% to 162.07% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+ZBU shows up in 2 pools here, with rates from 69.74% to 162.00% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 121.48% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -31,8 +31,8 @@ ZBU shows up in 2 pools here, with rates from 69.76% to 162.07% APY across 2 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| zeebu | 162.07% | 170.52% | 100.00% incentives |
-| zeebu | 69.76% | 72.44% | 100.00% incentives |
+| zeebu | 162.00% | 170.51% | 100.00% incentives |
+| zeebu | 69.74% | 72.44% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,7 +40,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ZBU yield today?
 
-162.07% APY on zeebu (Base), based on live DefiLlama data.
+162.00% APY on zeebu (Base), based on live DefiLlama data.
 
 ### How many ZBU pools clear the TVL floor?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ZBU pools have the most stable APY history?
 
-Based on APY history only, ZBU's lower-variability candidates are zeebu (Ethereum), 69.76% APY, $3.13M TVL, https://www.defi.garden/?pool=e02220fe-38af-4277-994a-2db03fcbd331#src=seo_token; zeebu (Base), 162.07% APY, $3.2M TVL, https://www.defi.garden/?pool=4ca69348-5268-4076-ba04-e996032d4efe#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ZBU's lower-variability candidates are zeebu (Ethereum), 69.74% APY, $3.13M TVL, https://www.defi.garden/?pool=e02220fe-38af-4277-994a-2db03fcbd331#src=seo_token; zeebu (Base), 162.00% APY, $3.2M TVL, https://www.defi.garden/?pool=4ca69348-5268-4076-ba04-e996032d4efe#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

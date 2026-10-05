@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [hybra-v4 →](https://www.defi.garden/?pool=a4056451-3bcd-51df-a0cc-507041d185ff#src=seo_token) | Hyperliquid L1 | 368.53% | $127.5K |
+| [hybra-v4 →](https://www.defi.garden/?pool=a4056451-3bcd-51df-a0cc-507041d185ff#src=seo_token) | Hyperliquid L1 | 368.53% | $126.9K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 hybra-v4에서 APY 368.5
 
 ### HYBR 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $127.5K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $126.9K예요.
 
 ### 이 수익률은 안전한가요?
 

@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest NEWT yield right now is 4.77% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NEWT yield right now is 5.23% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=59cb33bd-8864-4d32-860b-0895c70cbda7#src=seo_token) | Ethereum | 4.77% | $524K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=59cb33bd-8864-4d32-860b-0895c70cbda7#src=seo_token) | Ethereum | 5.23% | $524.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NEWT yield today?
 
-4.77% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+5.23% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many NEWT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $524K in total.
+1 live pool clear this page's $100K TVL floor, $524.5K in total.
 
 ### Are these rates safe?
 

@@ -2,11 +2,11 @@
 
 *DefiLlama 데이터 생성 시점 검증: October 5, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 GSOL의 가장 높은 정직한 수익률은 Polkadot의 hydration-dex에서 8.81%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 GSOL의 가장 높은 정직한 수익률은 Polkadot의 hydration-dex에서 8.80%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [hydration-dex →](https://www.defi.garden/?pool=295565ac-3307-46d1-a9e7-509e3446f4f6#src=seo_token) | Polkadot | 8.81% | $1.29M |
+| [hydration-dex →](https://www.defi.garden/?pool=295565ac-3307-46d1-a9e7-509e3446f4f6#src=seo_token) | Polkadot | 8.80% | $1.29M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,7 +19,7 @@
 
 ### 오늘 GSOL의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Polkadot의 hydration-dex에서 APY 8.81%예요.
+DefiLlama 실시간 데이터 기준, Polkadot의 hydration-dex에서 APY 8.80%예요.
 
 ### GSOL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

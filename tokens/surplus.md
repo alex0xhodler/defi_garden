@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest SURPLUS yield right now is 41.28% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SURPLUS yield right now is 40.98% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=74af654d-1d20-448a-8f8b-151d4c1df070#src=seo_token) | Base | 41.28% | $3.07M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=74af654d-1d20-448a-8f8b-151d4c1df070#src=seo_token) | Base | 40.98% | $3.07M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SURPLUS yield today?
 
-41.28% APY on uniswap-v4 (Base), based on live DefiLlama data.
+40.98% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many SURPLUS pools clear the TVL floor?
 

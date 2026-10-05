@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest PLTRX yield right now is 51.79% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PLTRX yield right now is 50.66% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=06244737-82e1-41f3-b178-80a17165219c#src=seo_token) | Solana | 51.79% | $120.5K |
+| [orca-dex →](https://www.defi.garden/?pool=06244737-82e1-41f3-b178-80a17165219c#src=seo_token) | Solana | 50.66% | $120.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PLTRX yield today?
 
-51.79% APY on orca-dex (Solana), based on live DefiLlama data.
+50.66% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many PLTRX pools clear the TVL floor?
 

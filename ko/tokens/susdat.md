@@ -7,8 +7,8 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [saturn →](https://www.defi.garden/?pool=47e72726-3b2b-4fe6-b4a9-a26e1fcd9a50#src=seo_token) | Ethereum | 12.14% | $66.67M |
-| [pendle-v2 →](https://www.defi.garden/?pool=68a736e3-80bd-5eef-af8a-29dd931d6415#src=seo_token) | Monad | 24.67% | $1.61M |
 | [pendle-v2 →](https://www.defi.garden/?pool=f807b170-a976-55d3-88f1-f4fda5900fa2#src=seo_token) | Monad | 17.49% | $1.61M |
+| [pendle-v2 →](https://www.defi.garden/?pool=68a736e3-80bd-5eef-af8a-29dd931d6415#src=seo_token) | Monad | 24.67% | $1.61M |
 | [pendle-v2 →](https://www.defi.garden/?pool=ebb9e2c2-1bf2-5ee8-b365-53214ea9705b#src=seo_token) | Ethereum | 38.36% | $1.4M |
 | [pendle-v2 →](https://www.defi.garden/?pool=239d66b4-e66d-5c43-87e9-2fb6d109d173#src=seo_token) | Ethereum | 14.82% | $1.4M |
 
@@ -38,10 +38,10 @@ SUSDAT 풀은 여기 5개가 있고, 2개 체인에서 APY가 12.14%부터 38.36
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | saturn | 12.14% | 14.40% | 기본 금리 |
-| pendle-v2 | 24.67% | 23.53% | 인센티브 0.91% |
 | pendle-v2 | 17.49% | 16.96% | 기본 금리 |
-| pendle-v2 | 38.36% | 32.99% | 인센티브 1.50% |
-| pendle-v2 | 14.82% | 11.81% | 기본 금리 |
+| pendle-v2 | 24.67% | 23.54% | 인센티브 0.92% |
+| pendle-v2 | 38.36% | 33.03% | 인센티브 1.51% |
+| pendle-v2 | 14.82% | 11.82% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -53,7 +53,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle-v2에서 APY 38.36%예�
 
 ### SUSDAT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $87.71M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $87.66M예요.
 
 ### 이 수익률은 안전한가요?
 

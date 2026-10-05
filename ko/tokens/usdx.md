@@ -8,8 +8,8 @@
 |---|---|---|---|
 | [clearpool-lending →](https://www.defi.garden/?pool=be50b874-8147-440d-b8ca-f2c202e9ed64#src=seo_token) | Flare | 3.50% | $16.78M |
 | [curve-dex →](https://www.defi.garden/?pool=8d963caf-738f-55db-b61a-c87a6e1a3667#src=seo_token) | Ethereum | 0.82% | $3.05M |
-| [pendle-v2 →](https://www.defi.garden/?pool=84b2814f-6345-50d0-9fe2-7858653ccdd2#src=seo_token) | Ethereum | 7.03% | $2.41M |
 | [pendle-v2 →](https://www.defi.garden/?pool=b0b37646-88a4-5834-b260-1a71696f5436#src=seo_token) | Ethereum | 14.98% | $2.41M |
+| [pendle-v2 →](https://www.defi.garden/?pool=84b2814f-6345-50d0-9fe2-7858653ccdd2#src=seo_token) | Ethereum | 7.03% | $2.41M |
 | [curve-dex →](https://www.defi.garden/?pool=b679f5c4-17c3-5321-b5d0-2ffb25c5d52a#src=seo_token) | Ethereum | 8.91% | $2.22M |
 
 <!-- rate-stability:ranked -->
@@ -31,17 +31,17 @@ APY 이력만 기준으로 비교한 USDX의 변동성 낮은 후보는 Ethereum
 
 USDX 풀은 여기 5개가 있고, 2개 체인에서 APY가 0.82%부터 14.98%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 8.57%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 8.56%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 5개 풀 중 1개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | clearpool-lending | 3.50% | 3.50% | 기본 금리 |
-| curve-dex | 0.82% | 1.15% | 기본 금리 |
-| pendle-v2 | 7.03% | 8.57% | 인센티브 5.47% |
+| curve-dex | 0.82% | 1.14% | 기본 금리 |
 | pendle-v2 | 14.98% | 14.76% | 기본 금리 |
-| curve-dex | 8.91% | 11.00% | 기본 금리 |
+| pendle-v2 | 7.03% | 8.56% | 인센티브 5.49% |
+| curve-dex | 8.91% | 10.99% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 

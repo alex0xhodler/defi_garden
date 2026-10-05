@@ -33,7 +33,7 @@ SUSN shows up in 3 pools here, with rates from 0.10% to 8.60% APY across 2 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle-v2 | 8.26% | 8.18% | 2.87% incentives |
+| pendle-v2 | 8.26% | 8.18% | 2.88% incentives |
 | pendle-v2 | 8.60% | 8.65% | Base rate |
 | bluefin-spot | 0.10% | 6.73% | Base rate |
 

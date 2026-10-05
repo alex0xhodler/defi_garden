@@ -6,7 +6,7 @@ The highest honest PIKUUSDC yield right now is 39.56% on morpho-blue (Ethereum),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=ee4ffd2b-b3d1-539b-81d8-ca7c41df6d1a#src=seo_token) | Ethereum | 39.56% | $651.2K |
+| [morpho-blue →](https://www.defi.garden/?pool=ee4ffd2b-b3d1-539b-81d8-ca7c41df6d1a#src=seo_token) | Ethereum | 39.56% | $650.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PIKUUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $651.2K in total.
+1 live pool clear this page's $100K TVL floor, $650.9K in total.
 
 ### Are these rates safe?
 

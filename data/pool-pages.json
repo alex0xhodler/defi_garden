@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T13:00:03.456Z",
+  "generatedAt": "2026-10-05T13:48:59.965Z",
   "count": 100,
   "pages": [
     {
@@ -239,12 +239,12 @@
       "pool": "3075a746-bdd1-4aac-bcd5-b035abee2622"
     },
     {
-      "slug": "dfdv-staked-sol-dfdvsol-solana",
-      "pool": "568bbb48-dc88-4313-b1cc-ab1d4e763d6d"
-    },
-    {
       "slug": "morpho-blue-senpyusdprimev2-ethereum",
       "pool": "f569e486-da2a-41ef-8bfe-1a4db0d1d268"
+    },
+    {
+      "slug": "dfdv-staked-sol-dfdvsol-solana",
+      "pool": "568bbb48-dc88-4313-b1cc-ab1d4e763d6d"
     },
     {
       "slug": "stader-ethx-ethereum",
@@ -311,12 +311,12 @@
       "pool": "8b46fdde-a5e4-4574-9926-6ba8047f4fca"
     },
     {
-      "slug": "jpool-jsol-solana",
-      "pool": "177d0a37-d0fb-4b18-b290-f46bbe8d307f"
-    },
-    {
       "slug": "aave-v3-usdc-ethereum",
       "pool": "aa70268e-4b52-42bf-a116-608b370f9501"
+    },
+    {
+      "slug": "jpool-jsol-solana",
+      "pool": "177d0a37-d0fb-4b18-b290-f46bbe8d307f"
     },
     {
       "slug": "morpho-blue-steakeurcv-ethereum",
@@ -339,12 +339,12 @@
       "pool": "7436db9b-2872-46c8-81a2-da6baff902b7"
     },
     {
-      "slug": "aave-v3-wavax-avalanche",
-      "pool": "a1e18d7d-9a5f-4251-acb4-a87e005fe2c5"
-    },
-    {
       "slug": "fluid-lending-usdt-ethereum",
       "pool": "4e8cc592-c8d5-4824-8155-128ba521e903"
+    },
+    {
+      "slug": "aave-v3-wavax-avalanche",
+      "pool": "a1e18d7d-9a5f-4251-acb4-a87e005fe2c5"
     },
     {
       "slug": "hastra-prime-solana",

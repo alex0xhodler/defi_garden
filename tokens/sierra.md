@@ -31,7 +31,7 @@ SIERRA shows up in 2 pools here, with rates from 6.59% to 9.80% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle-v2 | 6.59% | 7.40% | 1.88% incentives |
+| pendle-v2 | 6.59% | 7.40% | 1.89% incentives |
 | pendle-v2 | 9.80% | 8.86% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.

@@ -6,20 +6,20 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=8352355c-5ad7-45c5-aca2-628de224f8d8#src=seo_token) | Ethereum | 6.78% | $7.21M |
-| [pendle-v2 →](https://www.defi.garden/?pool=44d0a60d-99d5-41a0-87ad-da85ae8682f7#src=seo_token) | Ethereum | 6.43% | $772.6K |
-| [pendle-v2 →](https://www.defi.garden/?pool=12b61e91-463f-4c33-bd9c-d35fb2d216c2#src=seo_token) | Ethereum | 6.84% | $772.6K |
+| [strata-markets →](https://www.defi.garden/?pool=8352355c-5ad7-45c5-aca2-628de224f8d8#src=seo_token) | Ethereum | 6.79% | $7.21M |
+| [pendle-v2 →](https://www.defi.garden/?pool=12b61e91-463f-4c33-bd9c-d35fb2d216c2#src=seo_token) | Ethereum | 6.84% | $772.7K |
+| [pendle-v2 →](https://www.defi.garden/?pool=44d0a60d-99d5-41a0-87ad-da85ae8682f7#src=seo_token) | Ethereum | 6.43% | $772.7K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 JRUSDE의 변동성 낮은 후보는 Ethereum의 pendle-v2, APY 6.43%, TVL $772.6K, https://www.defi.garden/?pool=44d0a60d-99d5-41a0-87ad-da85ae8682f7#src=seo_token; Ethereum의 pendle-v2, APY 6.84%, TVL $772.6K, https://www.defi.garden/?pool=12b61e91-463f-4c33-bd9c-d35fb2d216c2#src=seo_token; Ethereum의 strata-markets, APY 6.78%, TVL $7.21M, https://www.defi.garden/?pool=8352355c-5ad7-45c5-aca2-628de224f8d8#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 JRUSDE의 변동성 낮은 후보는 Ethereum의 pendle-v2, APY 6.43%, TVL $772.7K, https://www.defi.garden/?pool=44d0a60d-99d5-41a0-87ad-da85ae8682f7#src=seo_token; Ethereum의 pendle-v2, APY 6.84%, TVL $772.7K, https://www.defi.garden/?pool=12b61e91-463f-4c33-bd9c-d35fb2d216c2#src=seo_token; Ethereum의 strata-markets, APY 6.79%, TVL $7.21M, https://www.defi.garden/?pool=8352355c-5ad7-45c5-aca2-628de224f8d8#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [pendle-v2 →](https://www.defi.garden/?pool=44d0a60d-99d5-41a0-87ad-da85ae8682f7#src=seo_token) | Ethereum | 6.43% | $772.6K |
-| 2 | [pendle-v2 →](https://www.defi.garden/?pool=12b61e91-463f-4c33-bd9c-d35fb2d216c2#src=seo_token) | Ethereum | 6.84% | $772.6K |
-| 3 | [strata-markets →](https://www.defi.garden/?pool=8352355c-5ad7-45c5-aca2-628de224f8d8#src=seo_token) | Ethereum | 6.78% | $7.21M |
+| 1 | [pendle-v2 →](https://www.defi.garden/?pool=44d0a60d-99d5-41a0-87ad-da85ae8682f7#src=seo_token) | Ethereum | 6.43% | $772.7K |
+| 2 | [pendle-v2 →](https://www.defi.garden/?pool=12b61e91-463f-4c33-bd9c-d35fb2d216c2#src=seo_token) | Ethereum | 6.84% | $772.7K |
+| 3 | [strata-markets →](https://www.defi.garden/?pool=8352355c-5ad7-45c5-aca2-628de224f8d8#src=seo_token) | Ethereum | 6.79% | $7.21M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -33,9 +33,9 @@ JRUSDE 풀은 여기 3개가 있고, 1개 체인에서 APY가 6.43%부터 6.84%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| strata-markets | 6.78% | 6.46% | 기본 금리 |
+| strata-markets | 6.79% | 6.46% | 기본 금리 |
+| pendle-v2 | 6.84% | 7.22% | 인센티브 3.20% |
 | pendle-v2 | 6.43% | 7.08% | 기본 금리 |
-| pendle-v2 | 6.84% | 7.23% | 인센티브 3.19% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -55,7 +55,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle-v2에서 APY 6.84%예�
 
 ### JRUSDE 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 JRUSDE의 변동성 낮은 후보는 Ethereum의 pendle-v2, APY 6.43%, TVL $772.6K, https://www.defi.garden/?pool=44d0a60d-99d5-41a0-87ad-da85ae8682f7#src=seo_token; Ethereum의 pendle-v2, APY 6.84%, TVL $772.6K, https://www.defi.garden/?pool=12b61e91-463f-4c33-bd9c-d35fb2d216c2#src=seo_token; Ethereum의 strata-markets, APY 6.78%, TVL $7.21M, https://www.defi.garden/?pool=8352355c-5ad7-45c5-aca2-628de224f8d8#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 JRUSDE의 변동성 낮은 후보는 Ethereum의 pendle-v2, APY 6.43%, TVL $772.7K, https://www.defi.garden/?pool=44d0a60d-99d5-41a0-87ad-da85ae8682f7#src=seo_token; Ethereum의 pendle-v2, APY 6.84%, TVL $772.7K, https://www.defi.garden/?pool=12b61e91-463f-4c33-bd9c-d35fb2d216c2#src=seo_token; Ethereum의 strata-markets, APY 6.79%, TVL $7.21M, https://www.defi.garden/?pool=8352355c-5ad7-45c5-aca2-628de224f8d8#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

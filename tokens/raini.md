@@ -6,7 +6,7 @@ The highest honest RAINI yield right now is 0.06% on uniswap-v3 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=6889b84c-d91b-4e9d-9bfb-9810ce67fb23#src=seo_token) | Ethereum | 0.06% | $108.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6889b84c-d91b-4e9d-9bfb-9810ce67fb23#src=seo_token) | Ethereum | 0.06% | $107.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many RAINI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $108.1K in total.
+1 live pool clear this page's $100K TVL floor, $107.9K in total.
 
 ### Are these rates safe?
 

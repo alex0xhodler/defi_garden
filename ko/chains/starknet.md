@@ -1,15 +1,15 @@
 # Starknet 디파이 수익률
 
-현재 Starknet의 가장 높은 정직한 수익률은 Starknet의 ekubo에서 110.57%이며, $100K TVL 기준을 넘는 72개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 Starknet의 가장 높은 정직한 수익률은 Starknet의 ekubo에서 104.84%이며, $100K TVL 기준을 넘는 71개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
 | STRK | [endur →](https://www.defi.garden/?pool=1ce1d44a-0bff-48ef-80c9-f8b6bd78bd17#src=seo_chain) | 6.51% | $8.24M |
-| WBTC-STRKBTC | [ekubo →](https://www.defi.garden/?pool=42284cfd-a59f-4128-8677-bbaeb0519148#src=seo_chain) | 7.28% | $6.03M |
-| WBTC | [vesu →](https://www.defi.garden/?pool=d8d0a6ee-cca9-4b4c-aec8-d0fa32eda559#src=seo_chain) | 2.00% | $3.07M |
-| WSTETH-ETH | [ekubo →](https://www.defi.garden/?pool=181574ad-9c60-4a18-91c8-45a22da62202#src=seo_chain) | 0.01% | $2.45M |
-| USDC-STRKBTC | [ekubo →](https://www.defi.garden/?pool=4d047314-ded1-4def-a372-b8e429759efb#src=seo_chain) | 110.57% | $1.92M |
-| XSTRK-STRK | [ekubo →](https://www.defi.garden/?pool=b022bb22-e9c8-4386-b30f-f40b42d91d4f#src=seo_chain) | 0.10% | $1.86M |
+| WBTC-STRKBTC | [ekubo →](https://www.defi.garden/?pool=42284cfd-a59f-4128-8677-bbaeb0519148#src=seo_chain) | 7.01% | $6.01M |
+| WBTC | [vesu →](https://www.defi.garden/?pool=d8d0a6ee-cca9-4b4c-aec8-d0fa32eda559#src=seo_chain) | 2.00% | $3.06M |
+| WSTETH-ETH | [ekubo →](https://www.defi.garden/?pool=181574ad-9c60-4a18-91c8-45a22da62202#src=seo_chain) | 0.01% | $2.44M |
+| USDC-STRKBTC | [ekubo →](https://www.defi.garden/?pool=4d047314-ded1-4def-a372-b8e429759efb#src=seo_chain) | 104.84% | $1.92M |
+| XSTRK-STRK | [ekubo →](https://www.defi.garden/?pool=b022bb22-e9c8-4386-b30f-f40b42d91d4f#src=seo_chain) | 0.10% | $1.78M |
 | SOLVBTC | [vesu →](https://www.defi.garden/?pool=a5a7c6bd-0c78-4251-bce5-71f834775924#src=seo_chain) | 2.00% | $1.72M |
 | WBTC | [endur →](https://www.defi.garden/?pool=867e3e6b-4ebb-46fd-92d5-4d4afbf28553#src=seo_chain) | 3.83% | $1.69M |
 
@@ -19,11 +19,11 @@
 
 ### 오늘 Starknet의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Starknet의 ekubo에서 APY 110.57%예요.
+DefiLlama 실시간 데이터 기준, Starknet의 ekubo에서 APY 104.84%예요.
 
 ### Starknet 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 72개이며, 합산 TVL은 $62.32M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 71개이며, 합산 TVL은 $61.71M예요.
 
 ### 이 수익률은 안전한가요?
 

@@ -7,28 +7,28 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [osmosis-dex →](https://www.defi.garden/?pool=82a6a2b1-acc6-4f97-95ef-e4353a67a5eb#src=seo_token) | Osmosis | 315.20% | $2.56M |
-| [osmosis-dex →](https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58#src=seo_token) | Osmosis | 4.41% | $780.8K |
-| [osmosis-dex →](https://www.defi.garden/?pool=b52fb9a6-f7df-4920-b82c-7c090455ac6e#src=seo_token) | Osmosis | 0.16% | $384.1K |
-| [osmosis-dex →](https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66#src=seo_token) | Osmosis | 0.06% | $366.8K |
+| [osmosis-dex →](https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58#src=seo_token) | Osmosis | 4.41% | $779.3K |
+| [osmosis-dex →](https://www.defi.garden/?pool=b52fb9a6-f7df-4920-b82c-7c090455ac6e#src=seo_token) | Osmosis | 0.24% | $383.5K |
+| [osmosis-dex →](https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66#src=seo_token) | Osmosis | 0.06% | $366.1K |
 | [osmosis-dex →](https://www.defi.garden/?pool=f0693056-87f1-4374-b5d4-d6242ecf1c19#src=seo_token) | Osmosis | 3.39% | $285.7K |
-| [osmosis-dex →](https://www.defi.garden/?pool=59814a74-463d-4fb8-ba51-44443a7a7d83#src=seo_token) | Osmosis | 0.09% | $245K |
-| [osmosis-dex →](https://www.defi.garden/?pool=5daa5b34-9dd8-45c5-b2f6-b1f2e2bd6c28#src=seo_token) | Osmosis | 12.14% | $155.7K |
-| [osmosis-dex →](https://www.defi.garden/?pool=9182d916-a258-4cb8-9a79-4e871ad2786d#src=seo_token) | Osmosis | 0.06% | $146.9K |
+| [osmosis-dex →](https://www.defi.garden/?pool=59814a74-463d-4fb8-ba51-44443a7a7d83#src=seo_token) | Osmosis | 0.10% | $243.5K |
+| [osmosis-dex →](https://www.defi.garden/?pool=5daa5b34-9dd8-45c5-b2f6-b1f2e2bd6c28#src=seo_token) | Osmosis | 11.83% | $155.6K |
+| [osmosis-dex →](https://www.defi.garden/?pool=9182d916-a258-4cb8-9a79-4e871ad2786d#src=seo_token) | Osmosis | 0.06% | $146.7K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 OSMO의 변동성 낮은 후보는 Osmosis의 osmosis-dex, APY 3.39%, TVL $285.7K, https://www.defi.garden/?pool=f0693056-87f1-4374-b5d4-d6242ecf1c19#src=seo_token; Osmosis의 osmosis-dex, APY 0.06%, TVL $366.8K, https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66#src=seo_token; Osmosis의 osmosis-dex, APY 0.16%, TVL $384.1K, https://www.defi.garden/?pool=b52fb9a6-f7df-4920-b82c-7c090455ac6e#src=seo_token; Osmosis의 osmosis-dex, APY 0.06%, TVL $146.9K, https://www.defi.garden/?pool=9182d916-a258-4cb8-9a79-4e871ad2786d#src=seo_token; Osmosis의 osmosis-dex, APY 0.09%, TVL $245K, https://www.defi.garden/?pool=59814a74-463d-4fb8-ba51-44443a7a7d83#src=seo_token; Osmosis의 osmosis-dex, APY 12.14%, TVL $155.7K, https://www.defi.garden/?pool=5daa5b34-9dd8-45c5-b2f6-b1f2e2bd6c28#src=seo_token; Osmosis의 osmosis-dex, APY 4.41%, TVL $780.8K, https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58#src=seo_token; Osmosis의 osmosis-dex, APY 315.20%, TVL $2.56M, https://www.defi.garden/?pool=82a6a2b1-acc6-4f97-95ef-e4353a67a5eb#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 OSMO의 변동성 낮은 후보는 Osmosis의 osmosis-dex, APY 3.39%, TVL $285.7K, https://www.defi.garden/?pool=f0693056-87f1-4374-b5d4-d6242ecf1c19#src=seo_token; Osmosis의 osmosis-dex, APY 0.06%, TVL $366.1K, https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66#src=seo_token; Osmosis의 osmosis-dex, APY 0.24%, TVL $383.5K, https://www.defi.garden/?pool=b52fb9a6-f7df-4920-b82c-7c090455ac6e#src=seo_token; Osmosis의 osmosis-dex, APY 0.06%, TVL $146.7K, https://www.defi.garden/?pool=9182d916-a258-4cb8-9a79-4e871ad2786d#src=seo_token; Osmosis의 osmosis-dex, APY 0.10%, TVL $243.5K, https://www.defi.garden/?pool=59814a74-463d-4fb8-ba51-44443a7a7d83#src=seo_token; Osmosis의 osmosis-dex, APY 11.83%, TVL $155.6K, https://www.defi.garden/?pool=5daa5b34-9dd8-45c5-b2f6-b1f2e2bd6c28#src=seo_token; Osmosis의 osmosis-dex, APY 4.41%, TVL $779.3K, https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58#src=seo_token; Osmosis의 osmosis-dex, APY 315.20%, TVL $2.56M, https://www.defi.garden/?pool=82a6a2b1-acc6-4f97-95ef-e4353a67a5eb#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [osmosis-dex →](https://www.defi.garden/?pool=f0693056-87f1-4374-b5d4-d6242ecf1c19#src=seo_token) | Osmosis | 3.39% | $285.7K |
-| 2 | [osmosis-dex →](https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66#src=seo_token) | Osmosis | 0.06% | $366.8K |
-| 3 | [osmosis-dex →](https://www.defi.garden/?pool=b52fb9a6-f7df-4920-b82c-7c090455ac6e#src=seo_token) | Osmosis | 0.16% | $384.1K |
-| 4 | [osmosis-dex →](https://www.defi.garden/?pool=9182d916-a258-4cb8-9a79-4e871ad2786d#src=seo_token) | Osmosis | 0.06% | $146.9K |
-| 5 | [osmosis-dex →](https://www.defi.garden/?pool=59814a74-463d-4fb8-ba51-44443a7a7d83#src=seo_token) | Osmosis | 0.09% | $245K |
-| 6 | [osmosis-dex →](https://www.defi.garden/?pool=5daa5b34-9dd8-45c5-b2f6-b1f2e2bd6c28#src=seo_token) | Osmosis | 12.14% | $155.7K |
-| 7 | [osmosis-dex →](https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58#src=seo_token) | Osmosis | 4.41% | $780.8K |
+| 2 | [osmosis-dex →](https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66#src=seo_token) | Osmosis | 0.06% | $366.1K |
+| 3 | [osmosis-dex →](https://www.defi.garden/?pool=b52fb9a6-f7df-4920-b82c-7c090455ac6e#src=seo_token) | Osmosis | 0.24% | $383.5K |
+| 4 | [osmosis-dex →](https://www.defi.garden/?pool=9182d916-a258-4cb8-9a79-4e871ad2786d#src=seo_token) | Osmosis | 0.06% | $146.7K |
+| 5 | [osmosis-dex →](https://www.defi.garden/?pool=59814a74-463d-4fb8-ba51-44443a7a7d83#src=seo_token) | Osmosis | 0.10% | $243.5K |
+| 6 | [osmosis-dex →](https://www.defi.garden/?pool=5daa5b34-9dd8-45c5-b2f6-b1f2e2bd6c28#src=seo_token) | Osmosis | 11.83% | $155.6K |
+| 7 | [osmosis-dex →](https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58#src=seo_token) | Osmosis | 4.41% | $779.3K |
 | 8 | [osmosis-dex →](https://www.defi.garden/?pool=82a6a2b1-acc6-4f97-95ef-e4353a67a5eb#src=seo_token) | Osmosis | 315.20% | $2.56M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -47,11 +47,11 @@ OSMO 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.06%부터 315.20%�
 |---|---|---|---|
 | osmosis-dex | 315.20% | 298.60% | 기본 금리 |
 | osmosis-dex | 4.41% | 4.59% | 기본 금리 |
-| osmosis-dex | 0.16% | 0.14% | 기본 금리 |
+| osmosis-dex | 0.24% | 0.14% | 기본 금리 |
 | osmosis-dex | 0.06% | 0.18% | 기본 금리 |
 | osmosis-dex | 3.39% | 0.11% | 기본 금리 |
-| osmosis-dex | 0.09% | 0.07% | 기본 금리 |
-| osmosis-dex | 12.14% | 13.18% | 기본 금리 |
+| osmosis-dex | 0.10% | 0.07% | 기본 금리 |
+| osmosis-dex | 11.83% | 13.18% | 기본 금리 |
 | osmosis-dex | 0.06% | 0.07% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -72,7 +72,7 @@ DefiLlama 실시간 데이터 기준, Osmosis의 osmosis-dex에서 APY 315.20%�
 
 ### OSMO 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 OSMO의 변동성 낮은 후보는 Osmosis의 osmosis-dex, APY 3.39%, TVL $285.7K, https://www.defi.garden/?pool=f0693056-87f1-4374-b5d4-d6242ecf1c19#src=seo_token; Osmosis의 osmosis-dex, APY 0.06%, TVL $366.8K, https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66#src=seo_token; Osmosis의 osmosis-dex, APY 0.16%, TVL $384.1K, https://www.defi.garden/?pool=b52fb9a6-f7df-4920-b82c-7c090455ac6e#src=seo_token; Osmosis의 osmosis-dex, APY 0.06%, TVL $146.9K, https://www.defi.garden/?pool=9182d916-a258-4cb8-9a79-4e871ad2786d#src=seo_token; Osmosis의 osmosis-dex, APY 0.09%, TVL $245K, https://www.defi.garden/?pool=59814a74-463d-4fb8-ba51-44443a7a7d83#src=seo_token; Osmosis의 osmosis-dex, APY 12.14%, TVL $155.7K, https://www.defi.garden/?pool=5daa5b34-9dd8-45c5-b2f6-b1f2e2bd6c28#src=seo_token; Osmosis의 osmosis-dex, APY 4.41%, TVL $780.8K, https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58#src=seo_token; Osmosis의 osmosis-dex, APY 315.20%, TVL $2.56M, https://www.defi.garden/?pool=82a6a2b1-acc6-4f97-95ef-e4353a67a5eb#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 OSMO의 변동성 낮은 후보는 Osmosis의 osmosis-dex, APY 3.39%, TVL $285.7K, https://www.defi.garden/?pool=f0693056-87f1-4374-b5d4-d6242ecf1c19#src=seo_token; Osmosis의 osmosis-dex, APY 0.06%, TVL $366.1K, https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66#src=seo_token; Osmosis의 osmosis-dex, APY 0.24%, TVL $383.5K, https://www.defi.garden/?pool=b52fb9a6-f7df-4920-b82c-7c090455ac6e#src=seo_token; Osmosis의 osmosis-dex, APY 0.06%, TVL $146.7K, https://www.defi.garden/?pool=9182d916-a258-4cb8-9a79-4e871ad2786d#src=seo_token; Osmosis의 osmosis-dex, APY 0.10%, TVL $243.5K, https://www.defi.garden/?pool=59814a74-463d-4fb8-ba51-44443a7a7d83#src=seo_token; Osmosis의 osmosis-dex, APY 11.83%, TVL $155.6K, https://www.defi.garden/?pool=5daa5b34-9dd8-45c5-b2f6-b1f2e2bd6c28#src=seo_token; Osmosis의 osmosis-dex, APY 4.41%, TVL $779.3K, https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58#src=seo_token; Osmosis의 osmosis-dex, APY 315.20%, TVL $2.56M, https://www.defi.garden/?pool=82a6a2b1-acc6-4f97-95ef-e4353a67a5eb#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

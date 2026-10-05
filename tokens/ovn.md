@@ -6,7 +6,7 @@ The highest honest OVN yield right now is 2.42% on aerodrome-v1 (Base), among 2 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=a0584beb-730d-4b3e-b988-ad80aa985eb4#src=seo_token) | Base | 2.42% | $239.7K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=a0584beb-730d-4b3e-b988-ad80aa985eb4#src=seo_token) | Base | 2.42% | $239.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many OVN pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $387K in total.
+2 live pools clear this page's $100K TVL floor, $387.1K in total.
 
 ### Are these rates safe?
 

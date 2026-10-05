@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many YUSD pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $36.25M in total.
+8 live pools clear this page's $100K TVL floor, $36.27M in total.
 
 ### Are these rates safe?
 

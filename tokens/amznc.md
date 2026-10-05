@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest AMZNC yield right now is 181.80% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AMZNC yield right now is 503.56% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=9e36fb91-c96a-54e8-aa6c-34d68a7afdab#src=seo_token) | Base | 181.80% | $2.02M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=9e36fb91-c96a-54e8-aa6c-34d68a7afdab#src=seo_token) | Base | 503.56% | $1.94M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AMZNC yield today?
 
-181.80% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+503.56% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many AMZNC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.02M in total.
+1 live pool clear this page's $100K TVL floor, $1.94M in total.
 
 ### Are these rates safe?
 

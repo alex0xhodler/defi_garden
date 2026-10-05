@@ -6,7 +6,7 @@ The highest honest GITBANK yield right now is 1.56% on uniswap-v4 (Base), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=395fd41e-9d7c-43ab-a4ae-22349367ec59#src=seo_token) | Base | 1.56% | $211.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=395fd41e-9d7c-43ab-a4ae-22349367ec59#src=seo_token) | Base | 1.56% | $211.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GITBANK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $211.7K in total.
+1 live pool clear this page's $100K TVL floor, $211.4K in total.
 
 ### Are these rates safe?
 

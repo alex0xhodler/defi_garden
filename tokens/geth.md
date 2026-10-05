@@ -6,24 +6,24 @@ The highest honest GETH yield right now is 4.96% on hydration-dex (Polkadot), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [geth →](https://www.defi.garden/?pool=048251b6-20c4-4812-b7b1-faf90077c068#src=seo_token) | Ethereum | 2.27% | $20.83M |
-| [hydration-dex →](https://www.defi.garden/?pool=8b5616b9-a6af-412d-b0f2-0b5708dc9d01#src=seo_token) | Polkadot | 4.96% | $2.48M |
+| [geth →](https://www.defi.garden/?pool=048251b6-20c4-4812-b7b1-faf90077c068#src=seo_token) | Ethereum | 2.25% | $20.77M |
+| [hydration-dex →](https://www.defi.garden/?pool=8b5616b9-a6af-412d-b0f2-0b5708dc9d01#src=seo_token) | Polkadot | 4.96% | $2.47M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, GETH's lower-variability candidates are geth (Ethereum), 2.27% APY, $20.83M TVL, https://www.defi.garden/?pool=048251b6-20c4-4812-b7b1-faf90077c068#src=seo_token; hydration-dex (Polkadot), 4.96% APY, $2.48M TVL, https://www.defi.garden/?pool=8b5616b9-a6af-412d-b0f2-0b5708dc9d01#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GETH's lower-variability candidates are geth (Ethereum), 2.25% APY, $20.77M TVL, https://www.defi.garden/?pool=048251b6-20c4-4812-b7b1-faf90077c068#src=seo_token; hydration-dex (Polkadot), 4.96% APY, $2.47M TVL, https://www.defi.garden/?pool=8b5616b9-a6af-412d-b0f2-0b5708dc9d01#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [geth →](https://www.defi.garden/?pool=048251b6-20c4-4812-b7b1-faf90077c068#src=seo_token) | Ethereum | 2.27% | $20.83M |
-| 2 | [hydration-dex →](https://www.defi.garden/?pool=8b5616b9-a6af-412d-b0f2-0b5708dc9d01#src=seo_token) | Polkadot | 4.96% | $2.48M |
+| 1 | [geth →](https://www.defi.garden/?pool=048251b6-20c4-4812-b7b1-faf90077c068#src=seo_token) | Ethereum | 2.25% | $20.77M |
+| 2 | [hydration-dex →](https://www.defi.garden/?pool=8b5616b9-a6af-412d-b0f2-0b5708dc9d01#src=seo_token) | Polkadot | 4.96% | $2.47M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-GETH shows up in 2 pools here, with rates from 2.27% to 4.96% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+GETH shows up in 2 pools here, with rates from 2.25% to 4.96% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.73% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -31,7 +31,7 @@ GETH shows up in 2 pools here, with rates from 2.27% to 4.96% APY across 2 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| geth | 2.27% | 2.27% | Base rate |
+| geth | 2.25% | 2.27% | Base rate |
 | hydration-dex | 4.96% | 5.19% | 89.22% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many GETH pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $23.44M in total.
+3 live pools clear this page's $100K TVL floor, $23.38M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which GETH pools have the most stable APY history?
 
-Based on APY history only, GETH's lower-variability candidates are geth (Ethereum), 2.27% APY, $20.83M TVL, https://www.defi.garden/?pool=048251b6-20c4-4812-b7b1-faf90077c068#src=seo_token; hydration-dex (Polkadot), 4.96% APY, $2.48M TVL, https://www.defi.garden/?pool=8b5616b9-a6af-412d-b0f2-0b5708dc9d01#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GETH's lower-variability candidates are geth (Ethereum), 2.25% APY, $20.77M TVL, https://www.defi.garden/?pool=048251b6-20c4-4812-b7b1-faf90077c068#src=seo_token; hydration-dex (Polkadot), 4.96% APY, $2.47M TVL, https://www.defi.garden/?pool=8b5616b9-a6af-412d-b0f2-0b5708dc9d01#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

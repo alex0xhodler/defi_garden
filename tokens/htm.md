@@ -6,7 +6,7 @@ The highest honest HTM yield right now is 5.13% on xexchange (MultiversX), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [xexchange →](https://www.defi.garden/?pool=599d46c8-638e-4759-94b2-bcd2a56cbe54#src=seo_token) | MultiversX | 5.13% | $309.7K |
+| [xexchange →](https://www.defi.garden/?pool=599d46c8-638e-4759-94b2-bcd2a56cbe54#src=seo_token) | MultiversX | 5.13% | $309K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -27,7 +27,7 @@ HTM shows up in 1 pools here, with rates from 5.13% to 5.13% APY across 1 chains
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| xexchange | 5.13% | 5.45% | 88.05% incentives |
+| xexchange | 5.13% | 5.45% | 88.24% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

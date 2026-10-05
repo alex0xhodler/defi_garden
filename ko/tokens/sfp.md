@@ -2,11 +2,11 @@
 
 *DefiLlama 데이터 생성 시점 검증: October 5, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 SFP의 가장 높은 정직한 수익률은 BSC의 pancakeswap-amm에서 2.96%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SFP의 가장 높은 정직한 수익률은 BSC의 pancakeswap-amm에서 3.03%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [pancakeswap-amm →](https://www.defi.garden/?pool=36090daf-d0dd-4bc7-9698-6d529f6b0055#src=seo_token) | BSC | 2.96% | $124.2K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=36090daf-d0dd-4bc7-9698-6d529f6b0055#src=seo_token) | BSC | 3.03% | $124.2K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,7 +19,7 @@
 
 ### 오늘 SFP의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, BSC의 pancakeswap-amm에서 APY 2.96%예요.
+DefiLlama 실시간 데이터 기준, BSC의 pancakeswap-amm에서 APY 3.03%예요.
 
 ### SFP 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

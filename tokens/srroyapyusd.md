@@ -7,8 +7,8 @@ The highest honest SRROYAPYUSD yield right now is 15.35% on pendle-v2 (Ethereum)
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [royco-v2 →](https://www.defi.garden/?pool=a061ebd7-b5db-57e9-9361-99504b710165#src=seo_token) | Ethereum | 13.16% | $3.04M |
-| [pendle-v2 →](https://www.defi.garden/?pool=c8833fef-aa7e-474c-8a78-06808548a7f5#src=seo_token) | Ethereum | 15.35% | $149.4K |
 | [pendle-v2 →](https://www.defi.garden/?pool=25de7136-c1eb-4156-b62a-5b2b83fb80dd#src=seo_token) | Ethereum | 15.28% | $149.4K |
+| [pendle-v2 →](https://www.defi.garden/?pool=c8833fef-aa7e-474c-8a78-06808548a7f5#src=seo_token) | Ethereum | 15.35% | $149.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
@@ -33,9 +33,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| royco-v2 | 13.16% | 30.91% | Base rate |
-| pendle-v2 | 15.35% | 15.24% | Base rate |
+| royco-v2 | 13.16% | 30.87% | Base rate |
 | pendle-v2 | 15.28% | 15.45% | Base rate |
+| pendle-v2 | 15.35% | 15.25% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

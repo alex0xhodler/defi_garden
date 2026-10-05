@@ -6,7 +6,7 @@ The highest honest TROG yield right now is 0.05% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=0beeab24-577a-40e1-8e39-2adbe0c33fc9#src=seo_token) | Ethereum | 0.05% | $170.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=0beeab24-577a-40e1-8e39-2adbe0c33fc9#src=seo_token) | Ethereum | 0.05% | $170.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TROG pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $170.6K in total.
+1 live pool clear this page's $100K TVL floor, $170.2K in total.
 
 ### Are these rates safe?
 

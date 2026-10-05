@@ -6,7 +6,7 @@ The highest honest VOLLAR yield right now is 0.89% on uniswap-v3 (Polygon), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=82f333d7-96a3-4275-9b30-bfe0a0bd6e34#src=seo_token) | Polygon | 0.89% | $966.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=82f333d7-96a3-4275-9b30-bfe0a0bd6e34#src=seo_token) | Polygon | 0.89% | $967.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many VOLLAR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $966.3K in total.
+1 live pool clear this page's $100K TVL floor, $967.2K in total.
 
 ### Are these rates safe?
 

@@ -6,20 +6,20 @@ The highest honest BALANCERRETH yield right now is 6.68% on balancer-v3 (Base), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442#src=seo_token) | OP Mainnet | 4.25% | $385.4K |
-| [balancer-v3 →](https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3#src=seo_token) | Arbitrum | 6.56% | $292.7K |
-| [balancer-v3 →](https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6#src=seo_token) | Base | 6.68% | $262.4K |
+| [balancer-v3 →](https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442#src=seo_token) | OP Mainnet | 4.25% | $384.7K |
+| [balancer-v3 →](https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3#src=seo_token) | Arbitrum | 6.57% | $292.1K |
+| [balancer-v3 →](https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6#src=seo_token) | Base | 6.68% | $261.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, BALANCERRETH's lower-variability candidates are balancer-v3 (Base), 6.68% APY, $262.4K TVL, https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6#src=seo_token; balancer-v3 (Arbitrum), 6.56% APY, $292.7K TVL, https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3#src=seo_token; balancer-v3 (OP Mainnet), 4.25% APY, $385.4K TVL, https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BALANCERRETH's lower-variability candidates are balancer-v3 (Base), 6.68% APY, $261.9K TVL, https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6#src=seo_token; balancer-v3 (Arbitrum), 6.57% APY, $292.1K TVL, https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3#src=seo_token; balancer-v3 (OP Mainnet), 4.25% APY, $384.7K TVL, https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [balancer-v3 →](https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6#src=seo_token) | Base | 6.68% | $262.4K |
-| 2 | [balancer-v3 →](https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3#src=seo_token) | Arbitrum | 6.56% | $292.7K |
-| 3 | [balancer-v3 →](https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442#src=seo_token) | OP Mainnet | 4.25% | $385.4K |
+| 1 | [balancer-v3 →](https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6#src=seo_token) | Base | 6.68% | $261.9K |
+| 2 | [balancer-v3 →](https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3#src=seo_token) | Arbitrum | 6.57% | $292.1K |
+| 3 | [balancer-v3 →](https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442#src=seo_token) | OP Mainnet | 4.25% | $384.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -33,9 +33,9 @@ BALANCERRETH shows up in 3 pools here, with rates from 4.25% to 6.68% APY across
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| balancer-v3 | 4.25% | 4.30% | 60.33% incentives |
-| balancer-v3 | 6.56% | 6.72% | 75.66% incentives |
-| balancer-v3 | 6.68% | 6.66% | 75.00% incentives |
+| balancer-v3 | 4.25% | 4.30% | 60.32% incentives |
+| balancer-v3 | 6.57% | 6.72% | 75.70% incentives |
+| balancer-v3 | 6.68% | 6.66% | 75.02% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -47,7 +47,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many BALANCERRETH pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $940.6K in total.
+3 live pools clear this page's $100K TVL floor, $938.6K in total.
 
 ### Are these rates safe?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BALANCERRETH pools have the most stable APY history?
 
-Based on APY history only, BALANCERRETH's lower-variability candidates are balancer-v3 (Base), 6.68% APY, $262.4K TVL, https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6#src=seo_token; balancer-v3 (Arbitrum), 6.56% APY, $292.7K TVL, https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3#src=seo_token; balancer-v3 (OP Mainnet), 4.25% APY, $385.4K TVL, https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BALANCERRETH's lower-variability candidates are balancer-v3 (Base), 6.68% APY, $261.9K TVL, https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6#src=seo_token; balancer-v3 (Arbitrum), 6.57% APY, $292.1K TVL, https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3#src=seo_token; balancer-v3 (OP Mainnet), 4.25% APY, $384.7K TVL, https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest FLX yield right now is 1.00% on flowx-v2 (Sui), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FLX yield right now is 1.05% on flowx-v2 (Sui), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [flowx-v2 →](https://www.defi.garden/?pool=2c330bc2-fc75-440f-9d21-92885b7e98bb#src=seo_token) | Sui | 1.00% | $130.5K |
+| [flowx-v2 →](https://www.defi.garden/?pool=2c330bc2-fc75-440f-9d21-92885b7e98bb#src=seo_token) | Sui | 1.05% | $128.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-FLX shows up in 1 pools here, with rates from 1.00% to 1.00% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+FLX shows up in 1 pools here, with rates from 1.05% to 1.05% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 1 of these 1 pool has a trustworthy 30-day average on file, with a median of 1.15% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -27,7 +27,7 @@ All 1 pool pays a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| flowx-v2 | 1.00% | 1.15% | Base rate |
+| flowx-v2 | 1.05% | 1.15% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest FLX yield today?
 
-1.00% APY on flowx-v2 (Sui), based on live DefiLlama data.
+1.05% APY on flowx-v2 (Sui), based on live DefiLlama data.
 
 ### How many FLX pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $264.5K in total.
+2 live pools clear this page's $100K TVL floor, $261.9K in total.
 
 ### Are these rates safe?
 

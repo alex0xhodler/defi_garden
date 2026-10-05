@@ -6,26 +6,26 @@ The highest honest WLFI yield right now is 0.01% on uniswap-v3 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=ee3c4dff-2f07-40d0-8d4e-3bdd91fe5dcd#src=seo_token) | Ethereum | 0.58% | $4.9M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=9b8344e7-531f-436e-a025-1967bbef465e#src=seo_token) | Ethereum | 2.08% | $1.34M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=ee3c4dff-2f07-40d0-8d4e-3bdd91fe5dcd#src=seo_token) | Ethereum | 0.59% | $4.9M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=9b8344e7-531f-436e-a025-1967bbef465e#src=seo_token) | Ethereum | 1.12% | $1.34M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=5503962d-c7b8-48e8-ab42-19ab1bea4190#src=seo_token) | Ethereum | 0.01% | $1.12M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WLFI's lower-variability candidates are uniswap-v4 (Ethereum), 0.58% APY, $4.9M TVL, https://www.defi.garden/?pool=ee3c4dff-2f07-40d0-8d4e-3bdd91fe5dcd#src=seo_token; uniswap-v3 (Ethereum), 0.01% APY, $1.12M TVL, https://www.defi.garden/?pool=5503962d-c7b8-48e8-ab42-19ab1bea4190#src=seo_token; uniswap-v3 (Ethereum), 2.08% APY, $1.34M TVL, https://www.defi.garden/?pool=9b8344e7-531f-436e-a025-1967bbef465e#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WLFI's lower-variability candidates are uniswap-v4 (Ethereum), 0.59% APY, $4.9M TVL, https://www.defi.garden/?pool=ee3c4dff-2f07-40d0-8d4e-3bdd91fe5dcd#src=seo_token; uniswap-v3 (Ethereum), 0.01% APY, $1.12M TVL, https://www.defi.garden/?pool=5503962d-c7b8-48e8-ab42-19ab1bea4190#src=seo_token; uniswap-v3 (Ethereum), 1.12% APY, $1.34M TVL, https://www.defi.garden/?pool=9b8344e7-531f-436e-a025-1967bbef465e#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=ee3c4dff-2f07-40d0-8d4e-3bdd91fe5dcd#src=seo_token) | Ethereum | 0.58% | $4.9M |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=ee3c4dff-2f07-40d0-8d4e-3bdd91fe5dcd#src=seo_token) | Ethereum | 0.59% | $4.9M |
 | 2 | [uniswap-v3 →](https://www.defi.garden/?pool=5503962d-c7b8-48e8-ab42-19ab1bea4190#src=seo_token) | Ethereum | 0.01% | $1.12M |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=9b8344e7-531f-436e-a025-1967bbef465e#src=seo_token) | Ethereum | 2.08% | $1.34M |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=9b8344e7-531f-436e-a025-1967bbef465e#src=seo_token) | Ethereum | 1.12% | $1.34M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WLFI shows up in 3 pools here, with rates from 0.01% to 2.08% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+WLFI shows up in 3 pools here, with rates from 0.01% to 1.12% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 3.69% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -35,8 +35,8 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 0.58% | 3.69% | Base rate |
-| uniswap-v3 | 2.08% | 10.80% | Base rate |
+| uniswap-v4 | 0.59% | 3.69% | Base rate |
+| uniswap-v3 | 1.12% | 10.80% | Base rate |
 | uniswap-v3 | 0.01% | 0.02% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -49,7 +49,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many WLFI pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $295.68M in total.
+7 live pools clear this page's $100K TVL floor, $295.19M in total.
 
 ### Are these rates safe?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WLFI pools have the most stable APY history?
 
-Based on APY history only, WLFI's lower-variability candidates are uniswap-v4 (Ethereum), 0.58% APY, $4.9M TVL, https://www.defi.garden/?pool=ee3c4dff-2f07-40d0-8d4e-3bdd91fe5dcd#src=seo_token; uniswap-v3 (Ethereum), 0.01% APY, $1.12M TVL, https://www.defi.garden/?pool=5503962d-c7b8-48e8-ab42-19ab1bea4190#src=seo_token; uniswap-v3 (Ethereum), 2.08% APY, $1.34M TVL, https://www.defi.garden/?pool=9b8344e7-531f-436e-a025-1967bbef465e#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WLFI's lower-variability candidates are uniswap-v4 (Ethereum), 0.59% APY, $4.9M TVL, https://www.defi.garden/?pool=ee3c4dff-2f07-40d0-8d4e-3bdd91fe5dcd#src=seo_token; uniswap-v3 (Ethereum), 0.01% APY, $1.12M TVL, https://www.defi.garden/?pool=5503962d-c7b8-48e8-ab42-19ab1bea4190#src=seo_token; uniswap-v3 (Ethereum), 1.12% APY, $1.34M TVL, https://www.defi.garden/?pool=9b8344e7-531f-436e-a025-1967bbef465e#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

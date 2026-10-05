@@ -6,18 +6,18 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=491f6321-e8fb-4b74-92d8-5c73ac4752e5#src=seo_token) | Ethereum | 4.26% | $1.42M |
-| [convex-finance →](https://www.defi.garden/?pool=fcb9f6f2-8d72-40d6-969a-24b3a2103cc2#src=seo_token) | Ethereum | 5.95% | $973.6K |
+| [curve-dex →](https://www.defi.garden/?pool=491f6321-e8fb-4b74-92d8-5c73ac4752e5#src=seo_token) | Ethereum | 4.26% | $1.41M |
+| [convex-finance →](https://www.defi.garden/?pool=fcb9f6f2-8d72-40d6-969a-24b3a2103cc2#src=seo_token) | Ethereum | 5.95% | $970.3K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 CVXFXN의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 4.26%, TVL $1.42M, https://www.defi.garden/?pool=491f6321-e8fb-4b74-92d8-5c73ac4752e5#src=seo_token; Ethereum의 convex-finance, APY 5.95%, TVL $973.6K, https://www.defi.garden/?pool=fcb9f6f2-8d72-40d6-969a-24b3a2103cc2#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 CVXFXN의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 4.26%, TVL $1.41M, https://www.defi.garden/?pool=491f6321-e8fb-4b74-92d8-5c73ac4752e5#src=seo_token; Ethereum의 convex-finance, APY 5.95%, TVL $970.3K, https://www.defi.garden/?pool=fcb9f6f2-8d72-40d6-969a-24b3a2103cc2#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=491f6321-e8fb-4b74-92d8-5c73ac4752e5#src=seo_token) | Ethereum | 4.26% | $1.42M |
-| 2 | [convex-finance →](https://www.defi.garden/?pool=fcb9f6f2-8d72-40d6-969a-24b3a2103cc2#src=seo_token) | Ethereum | 5.95% | $973.6K |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=491f6321-e8fb-4b74-92d8-5c73ac4752e5#src=seo_token) | Ethereum | 4.26% | $1.41M |
+| 2 | [convex-finance →](https://www.defi.garden/?pool=fcb9f6f2-8d72-40d6-969a-24b3a2103cc2#src=seo_token) | Ethereum | 5.95% | $970.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -33,7 +33,7 @@ CVXFXN 풀은 여기 2개가 있고, 1개 체인에서 APY가 4.26%부터 5.95%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| curve-dex | 4.26% | 4.91% | 인센티브 98.36% |
+| curve-dex | 4.26% | 4.90% | 인센티브 98.36% |
 | convex-finance | 5.95% | 7.55% | 인센티브 98.82% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -54,7 +54,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 5.95%
 
 ### CVXFXN 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 CVXFXN의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 4.26%, TVL $1.42M, https://www.defi.garden/?pool=491f6321-e8fb-4b74-92d8-5c73ac4752e5#src=seo_token; Ethereum의 convex-finance, APY 5.95%, TVL $973.6K, https://www.defi.garden/?pool=fcb9f6f2-8d72-40d6-969a-24b3a2103cc2#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 CVXFXN의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 4.26%, TVL $1.41M, https://www.defi.garden/?pool=491f6321-e8fb-4b74-92d8-5c73ac4752e5#src=seo_token; Ethereum의 convex-finance, APY 5.95%, TVL $970.3K, https://www.defi.garden/?pool=fcb9f6f2-8d72-40d6-969a-24b3a2103cc2#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

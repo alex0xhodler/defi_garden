@@ -7,7 +7,7 @@ The highest honest KNC yield right now is 2.58% on kyberswap-fairflow (Ethereum)
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [kyberswap-fairflow →](https://www.defi.garden/?pool=4afd8572-0e22-5bdd-b6dc-6190f81a2ef6#src=seo_token) | Ethereum | 2.58% | $855K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=a8287d9d-005b-571e-8113-69e382486e9d#src=seo_token) | Ethereum | 1.14% | $853.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a8287d9d-005b-571e-8113-69e382486e9d#src=seo_token) | Ethereum | 1.14% | $853.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -20,7 +20,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 KNC shows up in 2 pools here, with rates from 1.14% to 2.58% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 4.74% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 4.73% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 

@@ -6,18 +6,18 @@ The highest honest GEAR yield right now is 1.64% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=7ddb4796-a620-47a0-acdc-3f0058d284ac#src=seo_token) | Ethereum | 0.37% | $419.9K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=59d8497a-0437-58cb-93ee-daf69f5fe07a#src=seo_token) | Ethereum | 1.64% | $121.1K |
+| [curve-dex →](https://www.defi.garden/?pool=7ddb4796-a620-47a0-acdc-3f0058d284ac#src=seo_token) | Ethereum | 0.37% | $419.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=59d8497a-0437-58cb-93ee-daf69f5fe07a#src=seo_token) | Ethereum | 1.64% | $120.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, GEAR's lower-variability candidates are uniswap-v2 (Ethereum), 1.64% APY, $121.1K TVL, https://www.defi.garden/?pool=59d8497a-0437-58cb-93ee-daf69f5fe07a#src=seo_token; curve-dex (Ethereum), 0.37% APY, $419.9K TVL, https://www.defi.garden/?pool=7ddb4796-a620-47a0-acdc-3f0058d284ac#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GEAR's lower-variability candidates are uniswap-v2 (Ethereum), 1.64% APY, $120.8K TVL, https://www.defi.garden/?pool=59d8497a-0437-58cb-93ee-daf69f5fe07a#src=seo_token; curve-dex (Ethereum), 0.37% APY, $419.5K TVL, https://www.defi.garden/?pool=7ddb4796-a620-47a0-acdc-3f0058d284ac#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=59d8497a-0437-58cb-93ee-daf69f5fe07a#src=seo_token) | Ethereum | 1.64% | $121.1K |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=7ddb4796-a620-47a0-acdc-3f0058d284ac#src=seo_token) | Ethereum | 0.37% | $419.9K |
+| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=59d8497a-0437-58cb-93ee-daf69f5fe07a#src=seo_token) | Ethereum | 1.64% | $120.8K |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=7ddb4796-a620-47a0-acdc-3f0058d284ac#src=seo_token) | Ethereum | 0.37% | $419.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many GEAR pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $541.1K in total.
+2 live pools clear this page's $100K TVL floor, $540.4K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which GEAR pools have the most stable APY history?
 
-Based on APY history only, GEAR's lower-variability candidates are uniswap-v2 (Ethereum), 1.64% APY, $121.1K TVL, https://www.defi.garden/?pool=59d8497a-0437-58cb-93ee-daf69f5fe07a#src=seo_token; curve-dex (Ethereum), 0.37% APY, $419.9K TVL, https://www.defi.garden/?pool=7ddb4796-a620-47a0-acdc-3f0058d284ac#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GEAR's lower-variability candidates are uniswap-v2 (Ethereum), 1.64% APY, $120.8K TVL, https://www.defi.garden/?pool=59d8497a-0437-58cb-93ee-daf69f5fe07a#src=seo_token; curve-dex (Ethereum), 0.37% APY, $419.5K TVL, https://www.defi.garden/?pool=7ddb4796-a620-47a0-acdc-3f0058d284ac#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

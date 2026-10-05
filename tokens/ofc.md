@@ -6,7 +6,7 @@ The highest honest OFC yield right now is 0.41% on aerodrome-slipstream (Base), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=520675c7-af08-48ba-87a1-4a74f43b41b9#src=seo_token) | Base | 0.41% | $180.8K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=520675c7-af08-48ba-87a1-4a74f43b41b9#src=seo_token) | Base | 0.41% | $180.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many OFC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $180.8K in total.
+1 live pool clear this page's $100K TVL floor, $180.6K in total.
 
 ### Are these rates safe?
 

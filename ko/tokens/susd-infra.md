@@ -7,7 +7,7 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [orca-dex →](https://www.defi.garden/?pool=68a8e75a-b55f-56ea-8280-00859c618189#src=seo_token) | Solana | 0.20% | $1.75M |
-| [orca-dex →](https://www.defi.garden/?pool=a08f952a-7ad4-5dfc-9902-5b678987b09f#src=seo_token) | Solana | 0.66% | $815.7K |
+| [orca-dex →](https://www.defi.garden/?pool=a08f952a-7ad4-5dfc-9902-5b678987b09f#src=seo_token) | Solana | 0.66% | $815.8K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -28,7 +28,7 @@ SUSD.INFRA 풀은 여기 2개가 있고, 1개 체인에서 APY가 0.20%부터 0.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| orca-dex | 0.20% | 0.67% | 기본 금리 |
+| orca-dex | 0.20% | 0.66% | 기본 금리 |
 | orca-dex | 0.66% | 0.32% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.

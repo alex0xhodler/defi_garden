@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest WPLS yield right now is 17.66% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WPLS yield right now is 19.68% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=d519d056-e680-41e4-9893-34522ae262fd#src=seo_token) | Ethereum | 17.66% | $101.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d519d056-e680-41e4-9893-34522ae262fd#src=seo_token) | Ethereum | 19.68% | $101.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WPLS yield today?
 
-17.66% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+19.68% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many WPLS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $101.9K in total.
+1 live pool clear this page's $100K TVL floor, $101.5K in total.
 
 ### Are these rates safe?
 

@@ -2,14 +2,13 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest XDP yield right now is 380.02% on uniswap-v3 (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XDP yield right now is 384.88% on uniswap-v3 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=c203ba4d-0b60-5c67-bcce-33f6a6250613#src=seo_token) | Base | 172.54% | $2.29M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=8fd70feb-b241-5cd3-b8c1-daabdecbb7a7#src=seo_token) | Base | 380.02% | $1.84M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=8fd70feb-b241-5cd3-b8c1-daabdecbb7a7#src=seo_token) | Base | 384.88% | $1.83M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=c203ba4d-0b60-5c67-bcce-33f6a6250613#src=seo_token) | Base | 256.01% | $1.62M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=d97c9e55-772e-5401-b64e-18bb159e2834#src=seo_token) | Base | 124.77% | $114.5K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=73a9f3f6-f27b-51f1-880e-a53a855ddef3#src=seo_token) | Base | 35.17% | $100.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -20,20 +19,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-XDP shows up in 4 pools here, with rates from 35.17% to 380.02% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+XDP shows up in 3 pools here, with rates from 124.77% to 384.88% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 243.39% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 417.89% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-1 of 4 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
-4 of 4 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+3 of 3 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 172.54% | 900.90% | 33.20% incentives |
-| uniswap-v3 | 380.02% | 418.12% | Base rate |
+| uniswap-v3 | 384.88% | 417.89% | Base rate |
+| aerodrome-slipstream | 256.01% | 896.19% | 35.43% incentives |
 | uniswap-v4 | 124.77% | 68.66% | Base rate |
-| uniswap-v4 | 35.17% | 35.17% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -41,11 +39,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest XDP yield today?
 
-380.02% APY on uniswap-v3 (Base), based on live DefiLlama data.
+384.88% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many XDP pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $4.34M in total.
+3 live pools clear this page's $100K TVL floor, $3.57M in total.
 
 ### Are these rates safe?
 
