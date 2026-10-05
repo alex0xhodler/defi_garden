@@ -6,26 +6,26 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=b5ca474e-8117-55d5-982b-78421f845abf#src=seo_token) | Monad | 5.86% | $7.53M |
+| [aave-v3 →](https://www.defi.garden/?pool=b5ca474e-8117-55d5-982b-78421f845abf#src=seo_token) | Monad | 5.86% | $7.5M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=eac3b5f8-d620-47d6-9f6c-d984d3e653c1#src=seo_token) | Ethereum | 0.07% | $2.49M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=ccf4821e-9aec-4aaa-aeaa-7914af0ed6c1#src=seo_token) | Base | 1.76% | $1.07M |
-| [curve-dex →](https://www.defi.garden/?pool=c27e64f8-21d5-47a5-be7a-7d6382eb43a8#src=seo_token) | Ethereum | 2.77% | $602.5K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=ccf4821e-9aec-4aaa-aeaa-7914af0ed6c1#src=seo_token) | Base | 1.75% | $1.07M |
+| [curve-dex →](https://www.defi.garden/?pool=c27e64f8-21d5-47a5-be7a-7d6382eb43a8#src=seo_token) | Ethereum | 2.73% | $602.5K |
 | [convex-finance →](https://www.defi.garden/?pool=ac7e57a2-9755-4d17-8f1d-6d898ee88257#src=seo_token) | Ethereum | 0.02% | $573.3K |
 | [stake-dao-yield →](https://www.defi.garden/?pool=7cf95f65-3f7a-4297-873b-bbdd1a86904d#src=seo_token) | Ethereum | 0.22% | $524.4K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 MUSD의 변동성 낮은 후보는 Ethereum의 uniswap-v4, APY 0.07%, TVL $2.49M, https://www.defi.garden/?pool=eac3b5f8-d620-47d6-9f6c-d984d3e653c1#src=seo_token; Monad의 aave-v3, APY 5.86%, TVL $7.53M, https://www.defi.garden/?pool=b5ca474e-8117-55d5-982b-78421f845abf#src=seo_token; Ethereum의 convex-finance, APY 0.02%, TVL $573.3K, https://www.defi.garden/?pool=ac7e57a2-9755-4d17-8f1d-6d898ee88257#src=seo_token; Ethereum의 curve-dex, APY 2.77%, TVL $602.5K, https://www.defi.garden/?pool=c27e64f8-21d5-47a5-be7a-7d6382eb43a8#src=seo_token; Ethereum의 stake-dao-yield, APY 0.22%, TVL $524.4K, https://www.defi.garden/?pool=7cf95f65-3f7a-4297-873b-bbdd1a86904d#src=seo_token; Base의 aerodrome-slipstream, APY 1.76%, TVL $1.07M, https://www.defi.garden/?pool=ccf4821e-9aec-4aaa-aeaa-7914af0ed6c1#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 MUSD의 변동성 낮은 후보는 Ethereum의 uniswap-v4, APY 0.07%, TVL $2.49M, https://www.defi.garden/?pool=eac3b5f8-d620-47d6-9f6c-d984d3e653c1#src=seo_token; Monad의 aave-v3, APY 5.86%, TVL $7.5M, https://www.defi.garden/?pool=b5ca474e-8117-55d5-982b-78421f845abf#src=seo_token; Ethereum의 convex-finance, APY 0.02%, TVL $573.3K, https://www.defi.garden/?pool=ac7e57a2-9755-4d17-8f1d-6d898ee88257#src=seo_token; Ethereum의 curve-dex, APY 2.73%, TVL $602.5K, https://www.defi.garden/?pool=c27e64f8-21d5-47a5-be7a-7d6382eb43a8#src=seo_token; Ethereum의 stake-dao-yield, APY 0.22%, TVL $524.4K, https://www.defi.garden/?pool=7cf95f65-3f7a-4297-873b-bbdd1a86904d#src=seo_token; Base의 aerodrome-slipstream, APY 1.75%, TVL $1.07M, https://www.defi.garden/?pool=ccf4821e-9aec-4aaa-aeaa-7914af0ed6c1#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v4 →](https://www.defi.garden/?pool=eac3b5f8-d620-47d6-9f6c-d984d3e653c1#src=seo_token) | Ethereum | 0.07% | $2.49M |
-| 2 | [aave-v3 →](https://www.defi.garden/?pool=b5ca474e-8117-55d5-982b-78421f845abf#src=seo_token) | Monad | 5.86% | $7.53M |
+| 2 | [aave-v3 →](https://www.defi.garden/?pool=b5ca474e-8117-55d5-982b-78421f845abf#src=seo_token) | Monad | 5.86% | $7.5M |
 | 3 | [convex-finance →](https://www.defi.garden/?pool=ac7e57a2-9755-4d17-8f1d-6d898ee88257#src=seo_token) | Ethereum | 0.02% | $573.3K |
-| 4 | [curve-dex →](https://www.defi.garden/?pool=c27e64f8-21d5-47a5-be7a-7d6382eb43a8#src=seo_token) | Ethereum | 2.77% | $602.5K |
+| 4 | [curve-dex →](https://www.defi.garden/?pool=c27e64f8-21d5-47a5-be7a-7d6382eb43a8#src=seo_token) | Ethereum | 2.73% | $602.5K |
 | 5 | [stake-dao-yield →](https://www.defi.garden/?pool=7cf95f65-3f7a-4297-873b-bbdd1a86904d#src=seo_token) | Ethereum | 0.22% | $524.4K |
-| 6 | [aerodrome-slipstream →](https://www.defi.garden/?pool=ccf4821e-9aec-4aaa-aeaa-7914af0ed6c1#src=seo_token) | Base | 1.76% | $1.07M |
+| 6 | [aerodrome-slipstream →](https://www.defi.garden/?pool=ccf4821e-9aec-4aaa-aeaa-7914af0ed6c1#src=seo_token) | Base | 1.75% | $1.07M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -41,11 +41,11 @@ MUSD 풀은 여기 6개가 있고, 3개 체인에서 APY가 0.02%부터 5.86%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| aave-v3 | 5.86% | 6.02% | 인센티브 49.90% |
+| aave-v3 | 5.86% | 6.02% | 인센티브 49.78% |
 | uniswap-v4 | 0.07% | 0.05% | 기본 금리 |
-| aerodrome-slipstream | 1.76% | 4.26% | 인센티브 91.14% |
-| curve-dex | 2.77% | 1.93% | 인센티브 93.51% |
-| convex-finance | 0.02% | 1.06% | 기본 금리 |
+| aerodrome-slipstream | 1.75% | 4.26% | 인센티브 92.00% |
+| curve-dex | 2.73% | 1.93% | 인센티브 94.88% |
+| convex-finance | 0.02% | 1.05% | 기본 금리 |
 | stake-dao-yield | 0.22% | 1.76% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -58,7 +58,7 @@ DefiLlama 실시간 데이터 기준, Monad의 aave-v3에서 APY 5.86%예요.
 
 ### MUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $13.45M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $13.42M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -66,7 +66,7 @@ DefiLlama 실시간 데이터 기준, Monad의 aave-v3에서 APY 5.86%예요.
 
 ### MUSD 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 MUSD의 변동성 낮은 후보는 Ethereum의 uniswap-v4, APY 0.07%, TVL $2.49M, https://www.defi.garden/?pool=eac3b5f8-d620-47d6-9f6c-d984d3e653c1#src=seo_token; Monad의 aave-v3, APY 5.86%, TVL $7.53M, https://www.defi.garden/?pool=b5ca474e-8117-55d5-982b-78421f845abf#src=seo_token; Ethereum의 convex-finance, APY 0.02%, TVL $573.3K, https://www.defi.garden/?pool=ac7e57a2-9755-4d17-8f1d-6d898ee88257#src=seo_token; Ethereum의 curve-dex, APY 2.77%, TVL $602.5K, https://www.defi.garden/?pool=c27e64f8-21d5-47a5-be7a-7d6382eb43a8#src=seo_token; Ethereum의 stake-dao-yield, APY 0.22%, TVL $524.4K, https://www.defi.garden/?pool=7cf95f65-3f7a-4297-873b-bbdd1a86904d#src=seo_token; Base의 aerodrome-slipstream, APY 1.76%, TVL $1.07M, https://www.defi.garden/?pool=ccf4821e-9aec-4aaa-aeaa-7914af0ed6c1#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 MUSD의 변동성 낮은 후보는 Ethereum의 uniswap-v4, APY 0.07%, TVL $2.49M, https://www.defi.garden/?pool=eac3b5f8-d620-47d6-9f6c-d984d3e653c1#src=seo_token; Monad의 aave-v3, APY 5.86%, TVL $7.5M, https://www.defi.garden/?pool=b5ca474e-8117-55d5-982b-78421f845abf#src=seo_token; Ethereum의 convex-finance, APY 0.02%, TVL $573.3K, https://www.defi.garden/?pool=ac7e57a2-9755-4d17-8f1d-6d898ee88257#src=seo_token; Ethereum의 curve-dex, APY 2.73%, TVL $602.5K, https://www.defi.garden/?pool=c27e64f8-21d5-47a5-be7a-7d6382eb43a8#src=seo_token; Ethereum의 stake-dao-yield, APY 0.22%, TVL $524.4K, https://www.defi.garden/?pool=7cf95f65-3f7a-4297-873b-bbdd1a86904d#src=seo_token; Base의 aerodrome-slipstream, APY 1.75%, TVL $1.07M, https://www.defi.garden/?pool=ccf4821e-9aec-4aaa-aeaa-7914af0ed6c1#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

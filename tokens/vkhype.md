@@ -7,8 +7,8 @@ The highest honest VKHYPE yield right now is 2.25% on pendle-v2 (Hyperliquid L1)
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [project-x →](https://www.defi.garden/?pool=f790f1f3-435e-4706-aaf2-19b08dde32ed#src=seo_token) | Hyperliquid L1 | 10.04% | $711.1K |
-| [pendle-v2 →](https://www.defi.garden/?pool=5858bab6-4ef3-533b-a781-dfcbb7b2db4b#src=seo_token) | Hyperliquid L1 | 2.25% | $258.3K |
-| [pendle-v2 →](https://www.defi.garden/?pool=838e51ee-a8d8-5bde-a04a-2ee7457e9d14#src=seo_token) | Hyperliquid L1 | 1.41% | $258.3K |
+| [pendle-v2 →](https://www.defi.garden/?pool=5858bab6-4ef3-533b-a781-dfcbb7b2db4b#src=seo_token) | Hyperliquid L1 | 2.25% | $258.9K |
+| [pendle-v2 →](https://www.defi.garden/?pool=838e51ee-a8d8-5bde-a04a-2ee7457e9d14#src=seo_token) | Hyperliquid L1 | 1.41% | $258.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 VKHYPE shows up in 3 pools here, with rates from 1.41% to 10.04% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 4.33% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 4.35% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -29,9 +29,9 @@ VKHYPE shows up in 3 pools here, with rates from 1.41% to 10.04% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| project-x | 10.04% | 4.33% | Base rate |
+| project-x | 10.04% | 4.35% | Base rate |
 | pendle-v2 | 2.25% | 2.39% | Base rate |
-| pendle-v2 | 1.41% | 10.45% | 52.62% incentives |
+| pendle-v2 | 1.41% | 10.43% | 52.44% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

@@ -30,7 +30,7 @@ APTUSD shows up in 3 pools here, with rates from 1.89% to 6.49% APY across 1 cha
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | curve-dex | 1.89% | 1.79% | Base rate |
-| pendle-v2 | 6.47% | 6.91% | 10.88% incentives |
+| pendle-v2 | 6.47% | 6.91% | 10.83% incentives |
 | pendle-v2 | 6.49% | 5.91% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.

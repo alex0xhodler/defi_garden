@@ -2,34 +2,34 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest XAUT0 yield right now is 34.51% on uniswap-v3 (Celo), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XAUT0 yield right now is 34.52% on uniswap-v3 (Celo), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=1f86297f-55bf-40e7-9485-68e843761c70#src=seo_token) | Solana | 5.34% | $542.8K |
-| [project-x →](https://www.defi.garden/?pool=aa6ec082-71d4-4caf-bbdc-12c7553cc8d1#src=seo_token) | Hyperliquid L1 | 8.43% | $211K |
-| [ston.fi →](https://www.defi.garden/?pool=e1bc290a-0ee5-4b7b-8fc1-684d692231dd#src=seo_token) | TON | 3.03% | $204.8K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=1aaeec30-87b1-4e69-a126-7fbea60d8dd5#src=seo_token) | Celo | 34.51% | $149.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=1f86297f-55bf-40e7-9485-68e843761c70#src=seo_token) | Solana | 6.34% | $463.6K |
+| [project-x →](https://www.defi.garden/?pool=aa6ec082-71d4-4caf-bbdc-12c7553cc8d1#src=seo_token) | Hyperliquid L1 | 9.47% | $210.1K |
+| [ston.fi →](https://www.defi.garden/?pool=e1bc290a-0ee5-4b7b-8fc1-684d692231dd#src=seo_token) | TON | 3.01% | $204.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1aaeec30-87b1-4e69-a126-7fbea60d8dd5#src=seo_token) | Celo | 34.52% | $149.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, XAUT0's lower-variability candidates are ston.fi (TON), 3.03% APY, $204.8K TVL, https://www.defi.garden/?pool=e1bc290a-0ee5-4b7b-8fc1-684d692231dd#src=seo_token; raydium-amm (Solana), 5.34% APY, $542.8K TVL, https://www.defi.garden/?pool=1f86297f-55bf-40e7-9485-68e843761c70#src=seo_token; uniswap-v3 (Celo), 34.51% APY, $149.9K TVL, https://www.defi.garden/?pool=1aaeec30-87b1-4e69-a126-7fbea60d8dd5#src=seo_token; project-x (Hyperliquid L1), 8.43% APY, $211K TVL, https://www.defi.garden/?pool=aa6ec082-71d4-4caf-bbdc-12c7553cc8d1#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, XAUT0's lower-variability candidates are ston.fi (TON), 3.01% APY, $204.7K TVL, https://www.defi.garden/?pool=e1bc290a-0ee5-4b7b-8fc1-684d692231dd#src=seo_token; raydium-amm (Solana), 6.34% APY, $463.6K TVL, https://www.defi.garden/?pool=1f86297f-55bf-40e7-9485-68e843761c70#src=seo_token; uniswap-v3 (Celo), 34.52% APY, $149.5K TVL, https://www.defi.garden/?pool=1aaeec30-87b1-4e69-a126-7fbea60d8dd5#src=seo_token; project-x (Hyperliquid L1), 9.47% APY, $210.1K TVL, https://www.defi.garden/?pool=aa6ec082-71d4-4caf-bbdc-12c7553cc8d1#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [ston.fi →](https://www.defi.garden/?pool=e1bc290a-0ee5-4b7b-8fc1-684d692231dd#src=seo_token) | TON | 3.03% | $204.8K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=1f86297f-55bf-40e7-9485-68e843761c70#src=seo_token) | Solana | 5.34% | $542.8K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=1aaeec30-87b1-4e69-a126-7fbea60d8dd5#src=seo_token) | Celo | 34.51% | $149.9K |
-| 4 | [project-x →](https://www.defi.garden/?pool=aa6ec082-71d4-4caf-bbdc-12c7553cc8d1#src=seo_token) | Hyperliquid L1 | 8.43% | $211K |
+| 1 | [ston.fi →](https://www.defi.garden/?pool=e1bc290a-0ee5-4b7b-8fc1-684d692231dd#src=seo_token) | TON | 3.01% | $204.7K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=1f86297f-55bf-40e7-9485-68e843761c70#src=seo_token) | Solana | 6.34% | $463.6K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=1aaeec30-87b1-4e69-a126-7fbea60d8dd5#src=seo_token) | Celo | 34.52% | $149.5K |
+| 4 | [project-x →](https://www.defi.garden/?pool=aa6ec082-71d4-4caf-bbdc-12c7553cc8d1#src=seo_token) | Hyperliquid L1 | 9.47% | $210.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-XAUT0 shows up in 4 pools here, with rates from 3.03% to 34.51% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
+XAUT0 shows up in 4 pools here, with rates from 3.01% to 34.52% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 9.87% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 9.88% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -37,10 +37,10 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 5.34% | 9.83% | Base rate |
-| project-x | 8.43% | 9.92% | Base rate |
-| ston.fi | 3.03% | 1.29% | Base rate |
-| uniswap-v3 | 34.51% | 54.98% | Base rate |
+| raydium-amm | 6.34% | 9.84% | Base rate |
+| project-x | 9.47% | 9.93% | Base rate |
+| ston.fi | 3.01% | 1.29% | Base rate |
+| uniswap-v3 | 34.52% | 54.89% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -48,11 +48,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest XAUT0 yield today?
 
-34.51% APY on uniswap-v3 (Celo), based on live DefiLlama data.
+34.52% APY on uniswap-v3 (Celo), based on live DefiLlama data.
 
 ### How many XAUT0 pools clear the TVL floor?
 
-9 live pools clear this page's $100K TVL floor, $2.41M in total.
+9 live pools clear this page's $100K TVL floor, $2.29M in total.
 
 ### Are these rates safe?
 
@@ -60,7 +60,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which XAUT0 pools have the most stable APY history?
 
-Based on APY history only, XAUT0's lower-variability candidates are ston.fi (TON), 3.03% APY, $204.8K TVL, https://www.defi.garden/?pool=e1bc290a-0ee5-4b7b-8fc1-684d692231dd#src=seo_token; raydium-amm (Solana), 5.34% APY, $542.8K TVL, https://www.defi.garden/?pool=1f86297f-55bf-40e7-9485-68e843761c70#src=seo_token; uniswap-v3 (Celo), 34.51% APY, $149.9K TVL, https://www.defi.garden/?pool=1aaeec30-87b1-4e69-a126-7fbea60d8dd5#src=seo_token; project-x (Hyperliquid L1), 8.43% APY, $211K TVL, https://www.defi.garden/?pool=aa6ec082-71d4-4caf-bbdc-12c7553cc8d1#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, XAUT0's lower-variability candidates are ston.fi (TON), 3.01% APY, $204.7K TVL, https://www.defi.garden/?pool=e1bc290a-0ee5-4b7b-8fc1-684d692231dd#src=seo_token; raydium-amm (Solana), 6.34% APY, $463.6K TVL, https://www.defi.garden/?pool=1f86297f-55bf-40e7-9485-68e843761c70#src=seo_token; uniswap-v3 (Celo), 34.52% APY, $149.5K TVL, https://www.defi.garden/?pool=1aaeec30-87b1-4e69-a126-7fbea60d8dd5#src=seo_token; project-x (Hyperliquid L1), 9.47% APY, $210.1K TVL, https://www.defi.garden/?pool=aa6ec082-71d4-4caf-bbdc-12c7553cc8d1#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

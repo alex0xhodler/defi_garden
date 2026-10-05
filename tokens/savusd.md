@@ -6,7 +6,7 @@ The highest honest SAVUSD yield right now is 7.64% on avant-avusd (Avalanche), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [avant-avusd →](https://www.defi.garden/?pool=c74227a1-e738-4021-bbe1-13363815aecb#src=seo_token) | Avalanche | 7.64% | $104.43M |
+| [avant-avusd →](https://www.defi.garden/?pool=c74227a1-e738-4021-bbe1-13363815aecb#src=seo_token) | Avalanche | 7.64% | $104.42M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

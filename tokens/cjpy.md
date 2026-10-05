@@ -37,10 +37,10 @@ CJPY shows up in 4 pools here, with rates from 0.14% to 6.40% APY across 1 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 3.84% | 3.84% | 96.35% incentives |
-| convex-finance | 0.14% | 6.06% | Base rate |
-| curve-dex | 3.92% | 3.86% | 99.24% incentives |
-| convex-finance | 6.40% | 6.53% | 99.53% incentives |
+| curve-dex | 3.84% | 3.84% | 95.83% incentives |
+| convex-finance | 0.14% | 6.05% | Base rate |
+| curve-dex | 3.92% | 3.86% | 98.98% incentives |
+| convex-finance | 6.40% | 6.53% | 99.38% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

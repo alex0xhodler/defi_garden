@@ -2,38 +2,38 @@
 
 *DefiLlama 데이터 생성 시점 검증: October 5, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 LBTC의 가장 높은 정직한 수익률은 Sui의 cetus-clmm에서 87.89%이며, $100K TVL 기준을 넘는 22개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 LBTC의 가장 높은 정직한 수익률은 Sui의 cetus-clmm에서 86.62%이며, $100K TVL 기준을 넘는 22개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [symbiotic →](https://www.defi.garden/?pool=e96d1b6a-78d9-5e86-af04-2e8467e96f48#src=seo_token) | Ethereum | 1.58% | $50.17M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=ff009fa1-2dda-43e0-a0e2-302787e736c8#src=seo_token) | Base | 15.38% | $4.73M |
-| [curve-dex →](https://www.defi.garden/?pool=1a97c851-f2e5-4408-9113-ef80f1c1fea6#src=seo_token) | Monad | 2.00% | $2.8M |
+| [symbiotic →](https://www.defi.garden/?pool=e96d1b6a-78d9-5e86-af04-2e8467e96f48#src=seo_token) | Ethereum | 1.58% | $50.41M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=ff009fa1-2dda-43e0-a0e2-302787e736c8#src=seo_token) | Base | 11.75% | $4.75M |
+| [curve-dex →](https://www.defi.garden/?pool=1a97c851-f2e5-4408-9113-ef80f1c1fea6#src=seo_token) | Monad | 2.00% | $2.81M |
 | [navi-lending →](https://www.defi.garden/?pool=b4e2b1a6-9617-4aa7-89f4-72128b325812#src=seo_token) | Sui | 2.13% | $2.75M |
-| [fluid-dex →](https://www.defi.garden/?pool=a346d9ce-65df-4681-b9fa-777b91d8d72a#src=seo_token) | Ethereum | 0.13% | $1.73M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=039b3dbb-49cf-43af-af77-6ed79e572c83#src=seo_token) | Ethereum | 2.13% | $828.9K |
-| [cetus-clmm →](https://www.defi.garden/?pool=f26b7f1a-b16c-4624-bc71-83fc298c88d2#src=seo_token) | Sui | 87.89% | $130.6K |
+| [fluid-dex →](https://www.defi.garden/?pool=a346d9ce-65df-4681-b9fa-777b91d8d72a#src=seo_token) | Ethereum | 0.07% | $1.74M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=039b3dbb-49cf-43af-af77-6ed79e572c83#src=seo_token) | Ethereum | 1.49% | $832.9K |
+| [cetus-clmm →](https://www.defi.garden/?pool=f26b7f1a-b16c-4624-bc71-83fc298c88d2#src=seo_token) | Sui | 86.62% | $130.9K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 LBTC의 변동성 낮은 후보는 Ethereum의 symbiotic, APY 1.58%, TVL $50.17M, https://www.defi.garden/?pool=e96d1b6a-78d9-5e86-af04-2e8467e96f48#src=seo_token; Sui의 navi-lending, APY 2.13%, TVL $2.75M, https://www.defi.garden/?pool=b4e2b1a6-9617-4aa7-89f4-72128b325812#src=seo_token; Ethereum의 fluid-dex, APY 0.13%, TVL $1.73M, https://www.defi.garden/?pool=a346d9ce-65df-4681-b9fa-777b91d8d72a#src=seo_token; Monad의 curve-dex, APY 2.00%, TVL $2.8M, https://www.defi.garden/?pool=1a97c851-f2e5-4408-9113-ef80f1c1fea6#src=seo_token; Ethereum의 uniswap-v3, APY 2.13%, TVL $828.9K, https://www.defi.garden/?pool=039b3dbb-49cf-43af-af77-6ed79e572c83#src=seo_token; Base의 aerodrome-slipstream, APY 15.38%, TVL $4.73M, https://www.defi.garden/?pool=ff009fa1-2dda-43e0-a0e2-302787e736c8#src=seo_token; Sui의 cetus-clmm, APY 87.89%, TVL $130.6K, https://www.defi.garden/?pool=f26b7f1a-b16c-4624-bc71-83fc298c88d2#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 LBTC의 변동성 낮은 후보는 Ethereum의 symbiotic, APY 1.58%, TVL $50.41M, https://www.defi.garden/?pool=e96d1b6a-78d9-5e86-af04-2e8467e96f48#src=seo_token; Sui의 navi-lending, APY 2.13%, TVL $2.75M, https://www.defi.garden/?pool=b4e2b1a6-9617-4aa7-89f4-72128b325812#src=seo_token; Ethereum의 fluid-dex, APY 0.07%, TVL $1.74M, https://www.defi.garden/?pool=a346d9ce-65df-4681-b9fa-777b91d8d72a#src=seo_token; Monad의 curve-dex, APY 2.00%, TVL $2.81M, https://www.defi.garden/?pool=1a97c851-f2e5-4408-9113-ef80f1c1fea6#src=seo_token; Ethereum의 uniswap-v3, APY 1.49%, TVL $832.9K, https://www.defi.garden/?pool=039b3dbb-49cf-43af-af77-6ed79e572c83#src=seo_token; Base의 aerodrome-slipstream, APY 11.75%, TVL $4.75M, https://www.defi.garden/?pool=ff009fa1-2dda-43e0-a0e2-302787e736c8#src=seo_token; Sui의 cetus-clmm, APY 86.62%, TVL $130.9K, https://www.defi.garden/?pool=f26b7f1a-b16c-4624-bc71-83fc298c88d2#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [symbiotic →](https://www.defi.garden/?pool=e96d1b6a-78d9-5e86-af04-2e8467e96f48#src=seo_token) | Ethereum | 1.58% | $50.17M |
+| 1 | [symbiotic →](https://www.defi.garden/?pool=e96d1b6a-78d9-5e86-af04-2e8467e96f48#src=seo_token) | Ethereum | 1.58% | $50.41M |
 | 2 | [navi-lending →](https://www.defi.garden/?pool=b4e2b1a6-9617-4aa7-89f4-72128b325812#src=seo_token) | Sui | 2.13% | $2.75M |
-| 3 | [fluid-dex →](https://www.defi.garden/?pool=a346d9ce-65df-4681-b9fa-777b91d8d72a#src=seo_token) | Ethereum | 0.13% | $1.73M |
-| 4 | [curve-dex →](https://www.defi.garden/?pool=1a97c851-f2e5-4408-9113-ef80f1c1fea6#src=seo_token) | Monad | 2.00% | $2.8M |
-| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=039b3dbb-49cf-43af-af77-6ed79e572c83#src=seo_token) | Ethereum | 2.13% | $828.9K |
-| 6 | [aerodrome-slipstream →](https://www.defi.garden/?pool=ff009fa1-2dda-43e0-a0e2-302787e736c8#src=seo_token) | Base | 15.38% | $4.73M |
-| 7 | [cetus-clmm →](https://www.defi.garden/?pool=f26b7f1a-b16c-4624-bc71-83fc298c88d2#src=seo_token) | Sui | 87.89% | $130.6K |
+| 3 | [fluid-dex →](https://www.defi.garden/?pool=a346d9ce-65df-4681-b9fa-777b91d8d72a#src=seo_token) | Ethereum | 0.07% | $1.74M |
+| 4 | [curve-dex →](https://www.defi.garden/?pool=1a97c851-f2e5-4408-9113-ef80f1c1fea6#src=seo_token) | Monad | 2.00% | $2.81M |
+| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=039b3dbb-49cf-43af-af77-6ed79e572c83#src=seo_token) | Ethereum | 1.49% | $832.9K |
+| 6 | [aerodrome-slipstream →](https://www.defi.garden/?pool=ff009fa1-2dda-43e0-a0e2-302787e736c8#src=seo_token) | Base | 11.75% | $4.75M |
+| 7 | [cetus-clmm →](https://www.defi.garden/?pool=f26b7f1a-b16c-4624-bc71-83fc298c88d2#src=seo_token) | Sui | 86.62% | $130.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-LBTC 풀은 여기 7개가 있고, 4개 체인에서 APY가 0.13%부터 87.89%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+LBTC 풀은 여기 7개가 있고, 4개 체인에서 APY가 0.07%부터 86.62%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 7개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 2.60%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -44,12 +44,12 @@ LBTC 풀은 여기 7개가 있고, 4개 체인에서 APY가 0.13%부터 87.89%�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | symbiotic | 1.58% | 1.39% | 인센티브 100.00% |
-| aerodrome-slipstream | 15.38% | 10.31% | 인센티브 97.96% |
-| curve-dex | 2.00% | 1.96% | 인센티브 100.00% |
+| aerodrome-slipstream | 11.75% | 10.33% | 인센티브 97.20% |
+| curve-dex | 2.00% | 1.95% | 인센티브 100.00% |
 | navi-lending | 2.13% | 1.57% | 인센티브 99.84% |
-| fluid-dex | 0.13% | 2.61% | 기본 금리 |
-| uniswap-v3 | 2.13% | 2.60% | 기본 금리 |
-| cetus-clmm | 87.89% | 61.84% | 인센티브 9.17% |
+| fluid-dex | 0.07% | 2.61% | 기본 금리 |
+| uniswap-v3 | 1.49% | 2.60% | 기본 금리 |
+| cetus-clmm | 86.62% | 61.90% | 인센티브 9.29% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -57,11 +57,11 @@ LBTC 풀은 여기 7개가 있고, 4개 체인에서 APY가 0.13%부터 87.89%�
 
 ### 오늘 LBTC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Sui의 cetus-clmm에서 APY 87.89%예요.
+DefiLlama 실시간 데이터 기준, Sui의 cetus-clmm에서 APY 86.62%예요.
 
 ### LBTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 22개이며, 합산 TVL은 $1.22B예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 22개이며, 합산 TVL은 $1.23B예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -69,7 +69,7 @@ DefiLlama 실시간 데이터 기준, Sui의 cetus-clmm에서 APY 87.89%예요.
 
 ### LBTC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 LBTC의 변동성 낮은 후보는 Ethereum의 symbiotic, APY 1.58%, TVL $50.17M, https://www.defi.garden/?pool=e96d1b6a-78d9-5e86-af04-2e8467e96f48#src=seo_token; Sui의 navi-lending, APY 2.13%, TVL $2.75M, https://www.defi.garden/?pool=b4e2b1a6-9617-4aa7-89f4-72128b325812#src=seo_token; Ethereum의 fluid-dex, APY 0.13%, TVL $1.73M, https://www.defi.garden/?pool=a346d9ce-65df-4681-b9fa-777b91d8d72a#src=seo_token; Monad의 curve-dex, APY 2.00%, TVL $2.8M, https://www.defi.garden/?pool=1a97c851-f2e5-4408-9113-ef80f1c1fea6#src=seo_token; Ethereum의 uniswap-v3, APY 2.13%, TVL $828.9K, https://www.defi.garden/?pool=039b3dbb-49cf-43af-af77-6ed79e572c83#src=seo_token; Base의 aerodrome-slipstream, APY 15.38%, TVL $4.73M, https://www.defi.garden/?pool=ff009fa1-2dda-43e0-a0e2-302787e736c8#src=seo_token; Sui의 cetus-clmm, APY 87.89%, TVL $130.6K, https://www.defi.garden/?pool=f26b7f1a-b16c-4624-bc71-83fc298c88d2#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 LBTC의 변동성 낮은 후보는 Ethereum의 symbiotic, APY 1.58%, TVL $50.41M, https://www.defi.garden/?pool=e96d1b6a-78d9-5e86-af04-2e8467e96f48#src=seo_token; Sui의 navi-lending, APY 2.13%, TVL $2.75M, https://www.defi.garden/?pool=b4e2b1a6-9617-4aa7-89f4-72128b325812#src=seo_token; Ethereum의 fluid-dex, APY 0.07%, TVL $1.74M, https://www.defi.garden/?pool=a346d9ce-65df-4681-b9fa-777b91d8d72a#src=seo_token; Monad의 curve-dex, APY 2.00%, TVL $2.81M, https://www.defi.garden/?pool=1a97c851-f2e5-4408-9113-ef80f1c1fea6#src=seo_token; Ethereum의 uniswap-v3, APY 1.49%, TVL $832.9K, https://www.defi.garden/?pool=039b3dbb-49cf-43af-af77-6ed79e572c83#src=seo_token; Base의 aerodrome-slipstream, APY 11.75%, TVL $4.75M, https://www.defi.garden/?pool=ff009fa1-2dda-43e0-a0e2-302787e736c8#src=seo_token; Sui의 cetus-clmm, APY 86.62%, TVL $130.9K, https://www.defi.garden/?pool=f26b7f1a-b16c-4624-bc71-83fc298c88d2#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

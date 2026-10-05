@@ -7,8 +7,8 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [project-x →](https://www.defi.garden/?pool=f790f1f3-435e-4706-aaf2-19b08dde32ed#src=seo_token) | Hyperliquid L1 | 10.04% | $711.1K |
-| [pendle-v2 →](https://www.defi.garden/?pool=5858bab6-4ef3-533b-a781-dfcbb7b2db4b#src=seo_token) | Hyperliquid L1 | 2.25% | $258.3K |
-| [pendle-v2 →](https://www.defi.garden/?pool=838e51ee-a8d8-5bde-a04a-2ee7457e9d14#src=seo_token) | Hyperliquid L1 | 1.41% | $258.3K |
+| [pendle-v2 →](https://www.defi.garden/?pool=5858bab6-4ef3-533b-a781-dfcbb7b2db4b#src=seo_token) | Hyperliquid L1 | 2.25% | $258.9K |
+| [pendle-v2 →](https://www.defi.garden/?pool=838e51ee-a8d8-5bde-a04a-2ee7457e9d14#src=seo_token) | Hyperliquid L1 | 1.41% | $258.9K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@
 
 VKHYPE 풀은 여기 3개가 있고, 1개 체인에서 APY가 1.41%부터 10.04%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 4.33%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 4.35%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 3개 풀 중 1개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -29,9 +29,9 @@ VKHYPE 풀은 여기 3개가 있고, 1개 체인에서 APY가 1.41%부터 10.04%
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| project-x | 10.04% | 4.33% | 기본 금리 |
+| project-x | 10.04% | 4.35% | 기본 금리 |
 | pendle-v2 | 2.25% | 2.39% | 기본 금리 |
-| pendle-v2 | 1.41% | 10.45% | 인센티브 52.62% |
+| pendle-v2 | 1.41% | 10.43% | 인센티브 52.44% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 

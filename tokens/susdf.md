@@ -6,20 +6,20 @@ The highest honest SUSDF yield right now is 5.83% on pendle-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [falcon-finance →](https://www.defi.garden/?pool=0f67a08c-3f24-4a4b-963e-541f5a5c0364#src=seo_token) | Ethereum | 3.79% | $58.91M |
+| [falcon-finance →](https://www.defi.garden/?pool=0f67a08c-3f24-4a4b-963e-541f5a5c0364#src=seo_token) | Ethereum | 3.79% | $58.9M |
 | [pendle-v2 →](https://www.defi.garden/?pool=37568975-6c2a-4aa0-8249-904eed2d093e#src=seo_token) | Ethereum | 5.83% | $235.5K |
 | [pendle-v2 →](https://www.defi.garden/?pool=a0378513-f9c5-4e6d-908d-9d6eb15e057c#src=seo_token) | Ethereum | 4.50% | $235.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SUSDF's lower-variability candidates are pendle-v2 (Ethereum), 5.83% APY, $235.5K TVL, https://www.defi.garden/?pool=37568975-6c2a-4aa0-8249-904eed2d093e#src=seo_token; pendle-v2 (Ethereum), 4.50% APY, $235.5K TVL, https://www.defi.garden/?pool=a0378513-f9c5-4e6d-908d-9d6eb15e057c#src=seo_token; falcon-finance (Ethereum), 3.79% APY, $58.91M TVL, https://www.defi.garden/?pool=0f67a08c-3f24-4a4b-963e-541f5a5c0364#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SUSDF's lower-variability candidates are pendle-v2 (Ethereum), 5.83% APY, $235.5K TVL, https://www.defi.garden/?pool=37568975-6c2a-4aa0-8249-904eed2d093e#src=seo_token; pendle-v2 (Ethereum), 4.50% APY, $235.5K TVL, https://www.defi.garden/?pool=a0378513-f9c5-4e6d-908d-9d6eb15e057c#src=seo_token; falcon-finance (Ethereum), 3.79% APY, $58.9M TVL, https://www.defi.garden/?pool=0f67a08c-3f24-4a4b-963e-541f5a5c0364#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [pendle-v2 →](https://www.defi.garden/?pool=37568975-6c2a-4aa0-8249-904eed2d093e#src=seo_token) | Ethereum | 5.83% | $235.5K |
 | 2 | [pendle-v2 →](https://www.defi.garden/?pool=a0378513-f9c5-4e6d-908d-9d6eb15e057c#src=seo_token) | Ethereum | 4.50% | $235.5K |
-| 3 | [falcon-finance →](https://www.defi.garden/?pool=0f67a08c-3f24-4a4b-963e-541f5a5c0364#src=seo_token) | Ethereum | 3.79% | $58.91M |
+| 3 | [falcon-finance →](https://www.defi.garden/?pool=0f67a08c-3f24-4a4b-963e-541f5a5c0364#src=seo_token) | Ethereum | 3.79% | $58.9M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -33,7 +33,7 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| falcon-finance | 3.79% | 4.58% | Base rate |
+| falcon-finance | 3.79% | 4.57% | Base rate |
 | pendle-v2 | 5.83% | 6.00% | Base rate |
 | pendle-v2 | 4.50% | 5.16% | Base rate |
 
@@ -47,7 +47,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SUSDF pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $59.38M in total.
+3 live pools clear this page's $100K TVL floor, $59.37M in total.
 
 ### Are these rates safe?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SUSDF pools have the most stable APY history?
 
-Based on APY history only, SUSDF's lower-variability candidates are pendle-v2 (Ethereum), 5.83% APY, $235.5K TVL, https://www.defi.garden/?pool=37568975-6c2a-4aa0-8249-904eed2d093e#src=seo_token; pendle-v2 (Ethereum), 4.50% APY, $235.5K TVL, https://www.defi.garden/?pool=a0378513-f9c5-4e6d-908d-9d6eb15e057c#src=seo_token; falcon-finance (Ethereum), 3.79% APY, $58.91M TVL, https://www.defi.garden/?pool=0f67a08c-3f24-4a4b-963e-541f5a5c0364#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SUSDF's lower-variability candidates are pendle-v2 (Ethereum), 5.83% APY, $235.5K TVL, https://www.defi.garden/?pool=37568975-6c2a-4aa0-8249-904eed2d093e#src=seo_token; pendle-v2 (Ethereum), 4.50% APY, $235.5K TVL, https://www.defi.garden/?pool=a0378513-f9c5-4e6d-908d-9d6eb15e057c#src=seo_token; falcon-finance (Ethereum), 3.79% APY, $58.9M TVL, https://www.defi.garden/?pool=0f67a08c-3f24-4a4b-963e-541f5a5c0364#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

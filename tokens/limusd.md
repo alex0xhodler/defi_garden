@@ -36,7 +36,7 @@ LIMUSD shows up in 4 pools here, with rates from 9.12% to 11.01% APY across 2 ch
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | liminal-basis | 9.12% | 7.99% | Base rate |
-| pendle-v2 | 9.77% | 9.63% | 2.72% incentives |
+| pendle-v2 | 9.77% | 9.63% | 2.71% incentives |
 | pendle-v2 | 11.01% | 10.70% | Base rate |
 | liminal-basis | 9.12% | 7.99% | Base rate |
 

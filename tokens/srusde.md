@@ -7,8 +7,8 @@ The highest honest SRUSDE yield right now is 5.70% on pendle-v2 (Ethereum), amon
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [strata-markets →](https://www.defi.garden/?pool=843be062-d836-43ef-9670-c78d6ecb60bf#src=seo_token) | Ethereum | 3.90% | $17.82M |
-| [pendle-v2 →](https://www.defi.garden/?pool=7c3c3f3c-d5b9-4cb7-b930-ca63f6c11722#src=seo_token) | Ethereum | 5.16% | $4.07M |
 | [pendle-v2 →](https://www.defi.garden/?pool=1ce755be-27bd-4ecb-848c-f662e3ac2691#src=seo_token) | Ethereum | 5.70% | $4.07M |
+| [pendle-v2 →](https://www.defi.garden/?pool=7c3c3f3c-d5b9-4cb7-b930-ca63f6c11722#src=seo_token) | Ethereum | 5.16% | $4.07M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
@@ -34,8 +34,8 @@ SRUSDE shows up in 3 pools here, with rates from 3.90% to 5.70% APY across 1 cha
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | strata-markets | 3.90% | 4.06% | Base rate |
-| pendle-v2 | 5.16% | 5.46% | 3.08% incentives |
 | pendle-v2 | 5.70% | 5.45% | Base rate |
+| pendle-v2 | 5.16% | 5.46% | 3.06% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

@@ -8,7 +8,7 @@ The highest honest Sei yield right now is 12.09% on takara-lend (Sei), among 10 
 | SYZUSD | [yuzu-money →](https://www.defi.garden/?pool=20ccc2e5-0eca-4d9d-abd0-313908f51b31#src=seo_chain) | 7.91% | $8.81M |
 | WSEI | [takara-lend →](https://www.defi.garden/?pool=450812cf-e0cb-4609-9645-2df1e9cf01a5#src=seo_chain) | 1.09% | $1.48M |
 | USD₮0 | [takara-lend →](https://www.defi.garden/?pool=45cb0bd0-a5d1-4c28-bf84-1dcdf4a93321#src=seo_chain) | 12.09% | $449.4K |
-| USDC | [takara-lend →](https://www.defi.garden/?pool=099e1398-4924-41bc-9ec5-c164dc236cea#src=seo_chain) | 9.85% | $213.6K |
+| USDC | [takara-lend →](https://www.defi.garden/?pool=099e1398-4924-41bc-9ec5-c164dc236cea#src=seo_chain) | 9.85% | $213.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,7 +20,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Sei pools clear the TVL floor?
 
-10 live pools clear this page's $100K TVL floor, $337.17M in total.
+10 live pools clear this page's $100K TVL floor, $337.36M in total.
 
 ### Are these rates safe?
 

@@ -6,7 +6,7 @@ The highest honest CLEV yield right now is 5.69% on curve-dex (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=f525ce6d-93e9-4e84-a620-5f631603e8f0#src=seo_token) | Ethereum | 5.69% | $318.1K |
+| [curve-dex →](https://www.defi.garden/?pool=f525ce6d-93e9-4e84-a620-5f631603e8f0#src=seo_token) | Ethereum | 5.69% | $318.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CLEV pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $318.1K in total.
+1 live pool clear this page's $100K TVL floor, $318.5K in total.
 
 ### Are these rates safe?
 

@@ -7,19 +7,19 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [uniswap-v2 →](https://www.defi.garden/?pool=66997df7-fe3d-4a67-a13b-8d9d7bd0863a#src=seo_token) | Ethereum | 0.11% | $2.92M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=39a4d8a0-51c4-4635-9945-b1741e174bd0#src=seo_token) | Ethereum | 0.33% | $1.37M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=39a4d8a0-51c4-4635-9945-b1741e174bd0#src=seo_token) | Ethereum | 0.33% | $1.38M |
 | [uniswap-v2 →](https://www.defi.garden/?pool=b1d38ddc-d751-4864-99bf-f88c8ff45706#src=seo_token) | Ethereum | 0.10% | $1.14M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 HEZ의 변동성 낮은 후보는 Ethereum의 uniswap-v2, APY 0.11%, TVL $2.92M, https://www.defi.garden/?pool=66997df7-fe3d-4a67-a13b-8d9d7bd0863a#src=seo_token; Ethereum의 uniswap-v2, APY 0.10%, TVL $1.14M, https://www.defi.garden/?pool=b1d38ddc-d751-4864-99bf-f88c8ff45706#src=seo_token; Ethereum의 uniswap-v2, APY 0.33%, TVL $1.37M, https://www.defi.garden/?pool=39a4d8a0-51c4-4635-9945-b1741e174bd0#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 HEZ의 변동성 낮은 후보는 Ethereum의 uniswap-v2, APY 0.11%, TVL $2.92M, https://www.defi.garden/?pool=66997df7-fe3d-4a67-a13b-8d9d7bd0863a#src=seo_token; Ethereum의 uniswap-v2, APY 0.10%, TVL $1.14M, https://www.defi.garden/?pool=b1d38ddc-d751-4864-99bf-f88c8ff45706#src=seo_token; Ethereum의 uniswap-v2, APY 0.33%, TVL $1.38M, https://www.defi.garden/?pool=39a4d8a0-51c4-4635-9945-b1741e174bd0#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v2 →](https://www.defi.garden/?pool=66997df7-fe3d-4a67-a13b-8d9d7bd0863a#src=seo_token) | Ethereum | 0.11% | $2.92M |
 | 2 | [uniswap-v2 →](https://www.defi.garden/?pool=b1d38ddc-d751-4864-99bf-f88c8ff45706#src=seo_token) | Ethereum | 0.10% | $1.14M |
-| 3 | [uniswap-v2 →](https://www.defi.garden/?pool=39a4d8a0-51c4-4635-9945-b1741e174bd0#src=seo_token) | Ethereum | 0.33% | $1.37M |
+| 3 | [uniswap-v2 →](https://www.defi.garden/?pool=39a4d8a0-51c4-4635-9945-b1741e174bd0#src=seo_token) | Ethereum | 0.33% | $1.38M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -57,7 +57,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v2에서 APY 0.11%예�
 
 ### HEZ 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 HEZ의 변동성 낮은 후보는 Ethereum의 uniswap-v2, APY 0.11%, TVL $2.92M, https://www.defi.garden/?pool=66997df7-fe3d-4a67-a13b-8d9d7bd0863a#src=seo_token; Ethereum의 uniswap-v2, APY 0.10%, TVL $1.14M, https://www.defi.garden/?pool=b1d38ddc-d751-4864-99bf-f88c8ff45706#src=seo_token; Ethereum의 uniswap-v2, APY 0.33%, TVL $1.37M, https://www.defi.garden/?pool=39a4d8a0-51c4-4635-9945-b1741e174bd0#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 HEZ의 변동성 낮은 후보는 Ethereum의 uniswap-v2, APY 0.11%, TVL $2.92M, https://www.defi.garden/?pool=66997df7-fe3d-4a67-a13b-8d9d7bd0863a#src=seo_token; Ethereum의 uniswap-v2, APY 0.10%, TVL $1.14M, https://www.defi.garden/?pool=b1d38ddc-d751-4864-99bf-f88c8ff45706#src=seo_token; Ethereum의 uniswap-v2, APY 0.33%, TVL $1.38M, https://www.defi.garden/?pool=39a4d8a0-51c4-4635-9945-b1741e174bd0#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

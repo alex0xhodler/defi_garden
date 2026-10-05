@@ -2,32 +2,32 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest RENDER yield right now is 43.63% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RENDER yield right now is 42.10% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=a6441945-9eff-4d1b-91dc-2134cd9cdd35#src=seo_token) | Solana | 43.63% | $383.3K |
-| [orca-dex →](https://www.defi.garden/?pool=4376015c-0cde-4a59-b7cc-ed2ee92277c1#src=seo_token) | Solana | 15.24% | $314.6K |
-| [project-0 →](https://www.defi.garden/?pool=dd6fd7f6-77d4-4a97-8cae-cd3d081a3b04#src=seo_token) | Solana | 0.10% | $280.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=a6441945-9eff-4d1b-91dc-2134cd9cdd35#src=seo_token) | Solana | 42.10% | $383.4K |
+| [orca-dex →](https://www.defi.garden/?pool=4376015c-0cde-4a59-b7cc-ed2ee92277c1#src=seo_token) | Solana | 15.24% | $314.5K |
+| [project-0 →](https://www.defi.garden/?pool=dd6fd7f6-77d4-4a97-8cae-cd3d081a3b04#src=seo_token) | Solana | 0.10% | $281K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, RENDER's lower-variability candidates are project-0 (Solana), 0.10% APY, $280.4K TVL, https://www.defi.garden/?pool=dd6fd7f6-77d4-4a97-8cae-cd3d081a3b04#src=seo_token; raydium-amm (Solana), 43.63% APY, $383.3K TVL, https://www.defi.garden/?pool=a6441945-9eff-4d1b-91dc-2134cd9cdd35#src=seo_token; orca-dex (Solana), 15.24% APY, $314.6K TVL, https://www.defi.garden/?pool=4376015c-0cde-4a59-b7cc-ed2ee92277c1#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RENDER's lower-variability candidates are project-0 (Solana), 0.10% APY, $281K TVL, https://www.defi.garden/?pool=dd6fd7f6-77d4-4a97-8cae-cd3d081a3b04#src=seo_token; raydium-amm (Solana), 42.10% APY, $383.4K TVL, https://www.defi.garden/?pool=a6441945-9eff-4d1b-91dc-2134cd9cdd35#src=seo_token; orca-dex (Solana), 15.24% APY, $314.5K TVL, https://www.defi.garden/?pool=4376015c-0cde-4a59-b7cc-ed2ee92277c1#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [project-0 →](https://www.defi.garden/?pool=dd6fd7f6-77d4-4a97-8cae-cd3d081a3b04#src=seo_token) | Solana | 0.10% | $280.4K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=a6441945-9eff-4d1b-91dc-2134cd9cdd35#src=seo_token) | Solana | 43.63% | $383.3K |
-| 3 | [orca-dex →](https://www.defi.garden/?pool=4376015c-0cde-4a59-b7cc-ed2ee92277c1#src=seo_token) | Solana | 15.24% | $314.6K |
+| 1 | [project-0 →](https://www.defi.garden/?pool=dd6fd7f6-77d4-4a97-8cae-cd3d081a3b04#src=seo_token) | Solana | 0.10% | $281K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=a6441945-9eff-4d1b-91dc-2134cd9cdd35#src=seo_token) | Solana | 42.10% | $383.4K |
+| 3 | [orca-dex →](https://www.defi.garden/?pool=4376015c-0cde-4a59-b7cc-ed2ee92277c1#src=seo_token) | Solana | 15.24% | $314.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-RENDER shows up in 3 pools here, with rates from 0.10% to 43.63% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+RENDER shows up in 3 pools here, with rates from 0.10% to 42.10% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 19.46% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 19.47% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -35,8 +35,8 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 43.63% | 53.94% | Base rate |
-| orca-dex | 15.24% | 19.46% | Base rate |
+| raydium-amm | 42.10% | 53.97% | Base rate |
+| orca-dex | 15.24% | 19.47% | Base rate |
 | project-0 | 0.10% | 0.07% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -45,11 +45,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest RENDER yield today?
 
-43.63% APY on raydium-amm (Solana), based on live DefiLlama data.
+42.10% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many RENDER pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $978.3K in total.
+3 live pools clear this page's $100K TVL floor, $978.9K in total.
 
 ### Are these rates safe?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which RENDER pools have the most stable APY history?
 
-Based on APY history only, RENDER's lower-variability candidates are project-0 (Solana), 0.10% APY, $280.4K TVL, https://www.defi.garden/?pool=dd6fd7f6-77d4-4a97-8cae-cd3d081a3b04#src=seo_token; raydium-amm (Solana), 43.63% APY, $383.3K TVL, https://www.defi.garden/?pool=a6441945-9eff-4d1b-91dc-2134cd9cdd35#src=seo_token; orca-dex (Solana), 15.24% APY, $314.6K TVL, https://www.defi.garden/?pool=4376015c-0cde-4a59-b7cc-ed2ee92277c1#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RENDER's lower-variability candidates are project-0 (Solana), 0.10% APY, $281K TVL, https://www.defi.garden/?pool=dd6fd7f6-77d4-4a97-8cae-cd3d081a3b04#src=seo_token; raydium-amm (Solana), 42.10% APY, $383.4K TVL, https://www.defi.garden/?pool=a6441945-9eff-4d1b-91dc-2134cd9cdd35#src=seo_token; orca-dex (Solana), 15.24% APY, $314.5K TVL, https://www.defi.garden/?pool=4376015c-0cde-4a59-b7cc-ed2ee92277c1#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

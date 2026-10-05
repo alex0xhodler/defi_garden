@@ -8,18 +8,18 @@
 |---|---|---|---|
 | [pendle-v2 →](https://www.defi.garden/?pool=f67eeaa5-7f5f-5495-99f9-7433913a3e69#src=seo_token) | Hyperliquid L1 | 2.44% | $1.16M |
 | [pendle-v2 →](https://www.defi.garden/?pool=268629d9-4838-5f92-9365-54605ea7909e#src=seo_token) | Hyperliquid L1 | 2.09% | $1.16M |
-| [hyperswap-v3 →](https://www.defi.garden/?pool=7ece693a-37a3-4df8-ac01-06c9b1aea8eb#src=seo_token) | Hyperliquid L1 | 0.02% | $114.7K |
+| [hyperswap-v3 →](https://www.defi.garden/?pool=7ece693a-37a3-4df8-ac01-06c9b1aea8eb#src=seo_token) | Hyperliquid L1 | 0.02% | $114K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 STHYPE의 변동성 낮은 후보는 Hyperliquid L1의 pendle-v2, APY 2.44%, TVL $1.16M, https://www.defi.garden/?pool=f67eeaa5-7f5f-5495-99f9-7433913a3e69#src=seo_token; Hyperliquid L1의 pendle-v2, APY 2.09%, TVL $1.16M, https://www.defi.garden/?pool=268629d9-4838-5f92-9365-54605ea7909e#src=seo_token; Hyperliquid L1의 hyperswap-v3, APY 0.02%, TVL $114.7K, https://www.defi.garden/?pool=7ece693a-37a3-4df8-ac01-06c9b1aea8eb#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 STHYPE의 변동성 낮은 후보는 Hyperliquid L1의 pendle-v2, APY 2.44%, TVL $1.16M, https://www.defi.garden/?pool=f67eeaa5-7f5f-5495-99f9-7433913a3e69#src=seo_token; Hyperliquid L1의 pendle-v2, APY 2.09%, TVL $1.16M, https://www.defi.garden/?pool=268629d9-4838-5f92-9365-54605ea7909e#src=seo_token; Hyperliquid L1의 hyperswap-v3, APY 0.02%, TVL $114K, https://www.defi.garden/?pool=7ece693a-37a3-4df8-ac01-06c9b1aea8eb#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [pendle-v2 →](https://www.defi.garden/?pool=f67eeaa5-7f5f-5495-99f9-7433913a3e69#src=seo_token) | Hyperliquid L1 | 2.44% | $1.16M |
 | 2 | [pendle-v2 →](https://www.defi.garden/?pool=268629d9-4838-5f92-9365-54605ea7909e#src=seo_token) | Hyperliquid L1 | 2.09% | $1.16M |
-| 3 | [hyperswap-v3 →](https://www.defi.garden/?pool=7ece693a-37a3-4df8-ac01-06c9b1aea8eb#src=seo_token) | Hyperliquid L1 | 0.02% | $114.7K |
+| 3 | [hyperswap-v3 →](https://www.defi.garden/?pool=7ece693a-37a3-4df8-ac01-06c9b1aea8eb#src=seo_token) | Hyperliquid L1 | 0.02% | $114K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -35,7 +35,7 @@ STHYPE 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.02%부터 2.44%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| pendle-v2 | 2.44% | 2.37% | 인센티브 10.73% |
+| pendle-v2 | 2.44% | 2.37% | 인센티브 10.67% |
 | pendle-v2 | 2.09% | 2.26% | 기본 금리 |
 | hyperswap-v3 | 0.02% | 0.27% | 기본 금리 |
 
@@ -57,7 +57,7 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 pendle-v2에서 APY 2.44
 
 ### STHYPE 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 STHYPE의 변동성 낮은 후보는 Hyperliquid L1의 pendle-v2, APY 2.44%, TVL $1.16M, https://www.defi.garden/?pool=f67eeaa5-7f5f-5495-99f9-7433913a3e69#src=seo_token; Hyperliquid L1의 pendle-v2, APY 2.09%, TVL $1.16M, https://www.defi.garden/?pool=268629d9-4838-5f92-9365-54605ea7909e#src=seo_token; Hyperliquid L1의 hyperswap-v3, APY 0.02%, TVL $114.7K, https://www.defi.garden/?pool=7ece693a-37a3-4df8-ac01-06c9b1aea8eb#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 STHYPE의 변동성 낮은 후보는 Hyperliquid L1의 pendle-v2, APY 2.44%, TVL $1.16M, https://www.defi.garden/?pool=f67eeaa5-7f5f-5495-99f9-7433913a3e69#src=seo_token; Hyperliquid L1의 pendle-v2, APY 2.09%, TVL $1.16M, https://www.defi.garden/?pool=268629d9-4838-5f92-9365-54605ea7909e#src=seo_token; Hyperliquid L1의 hyperswap-v3, APY 0.02%, TVL $114K, https://www.defi.garden/?pool=7ece693a-37a3-4df8-ac01-06c9b1aea8eb#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

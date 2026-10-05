@@ -6,7 +6,7 @@ The highest honest HY yield right now is 8.08% on morpho-blue (Monad), among 2 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pancakeswap-amm →](https://www.defi.garden/?pool=821a9ed4-3dc7-547c-b4ca-e52580764427#src=seo_token) | Arbitrum | 2.61% | $164.7K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=821a9ed4-3dc7-547c-b4ca-e52580764427#src=seo_token) | Arbitrum | 2.32% | $164.7K |
 | [morpho-blue →](https://www.defi.garden/?pool=4861b40b-9561-57e4-9938-31274e58d1a6#src=seo_token) | Monad | 8.08% | $145.9K |
 
 <!-- rate-stability:insufficient -->
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-HY shows up in 2 pools here, with rates from 2.61% to 8.08% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+HY shows up in 2 pools here, with rates from 2.32% to 8.08% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 4.76% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -28,7 +28,7 @@ HY shows up in 2 pools here, with rates from 2.61% to 8.08% APY across 2 chains 
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pancakeswap-amm | 2.61% | 2.23% | Base rate |
+| pancakeswap-amm | 2.32% | 2.23% | Base rate |
 | morpho-blue | 8.08% | 7.29% | 15.16% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.

@@ -7,16 +7,16 @@ The highest honest GTUSDCF yield right now is 5.31% on morpho-blue (Base), among
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [morpho-blue →](https://www.defi.garden/?pool=ff113246-f6e0-4e10-b92c-abd3cd1d7dd6#src=seo_token) | Ethereum | 4.36% | $23.19M |
-| [morpho-blue →](https://www.defi.garden/?pool=92a97f48-005e-4819-a838-f442ea92c401#src=seo_token) | Base | 5.31% | $4.72M |
+| [morpho-blue →](https://www.defi.garden/?pool=92a97f48-005e-4819-a838-f442ea92c401#src=seo_token) | Base | 5.31% | $4.61M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, GTUSDCF's lower-variability candidates are morpho-blue (Base), 5.31% APY, $4.72M TVL, https://www.defi.garden/?pool=92a97f48-005e-4819-a838-f442ea92c401#src=seo_token; morpho-blue (Ethereum), 4.36% APY, $23.19M TVL, https://www.defi.garden/?pool=ff113246-f6e0-4e10-b92c-abd3cd1d7dd6#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GTUSDCF's lower-variability candidates are morpho-blue (Base), 5.31% APY, $4.61M TVL, https://www.defi.garden/?pool=92a97f48-005e-4819-a838-f442ea92c401#src=seo_token; morpho-blue (Ethereum), 4.36% APY, $23.19M TVL, https://www.defi.garden/?pool=ff113246-f6e0-4e10-b92c-abd3cd1d7dd6#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=92a97f48-005e-4819-a838-f442ea92c401#src=seo_token) | Base | 5.31% | $4.72M |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=92a97f48-005e-4819-a838-f442ea92c401#src=seo_token) | Base | 5.31% | $4.61M |
 | 2 | [morpho-blue →](https://www.defi.garden/?pool=ff113246-f6e0-4e10-b92c-abd3cd1d7dd6#src=seo_token) | Ethereum | 4.36% | $23.19M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many GTUSDCF pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $27.9M in total.
+2 live pools clear this page's $100K TVL floor, $27.8M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which GTUSDCF pools have the most stable APY history?
 
-Based on APY history only, GTUSDCF's lower-variability candidates are morpho-blue (Base), 5.31% APY, $4.72M TVL, https://www.defi.garden/?pool=92a97f48-005e-4819-a838-f442ea92c401#src=seo_token; morpho-blue (Ethereum), 4.36% APY, $23.19M TVL, https://www.defi.garden/?pool=ff113246-f6e0-4e10-b92c-abd3cd1d7dd6#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GTUSDCF's lower-variability candidates are morpho-blue (Base), 5.31% APY, $4.61M TVL, https://www.defi.garden/?pool=92a97f48-005e-4819-a838-f442ea92c401#src=seo_token; morpho-blue (Ethereum), 4.36% APY, $23.19M TVL, https://www.defi.garden/?pool=ff113246-f6e0-4e10-b92c-abd3cd1d7dd6#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

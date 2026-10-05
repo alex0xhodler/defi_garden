@@ -6,19 +6,19 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=83e9a75a-881a-4e5a-9aaa-82e2140fa57d#src=seo_token) | Solana | 5.63% | $4.97M |
+| [raydium-amm →](https://www.defi.garden/?pool=83e9a75a-881a-4e5a-9aaa-82e2140fa57d#src=seo_token) | Solana | 5.52% | $4.98M |
 | [uniswap-v2 →](https://www.defi.garden/?pool=f052fa19-c3a5-503b-b38f-4636a1ac0a3b#src=seo_token) | Base | 130.06% | $181.8K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=3b381e0d-16b9-43ef-8c75-939cc3108826#src=seo_token) | Ethereum | 3.96% | $134.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=3b381e0d-16b9-43ef-8c75-939cc3108826#src=seo_token) | Ethereum | 3.96% | $134.5K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 ARC의 변동성 낮은 후보는 Ethereum의 uniswap-v2, APY 3.96%, TVL $134.4K, https://www.defi.garden/?pool=3b381e0d-16b9-43ef-8c75-939cc3108826#src=seo_token; Solana의 raydium-amm, APY 5.63%, TVL $4.97M, https://www.defi.garden/?pool=83e9a75a-881a-4e5a-9aaa-82e2140fa57d#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 ARC의 변동성 낮은 후보는 Ethereum의 uniswap-v2, APY 3.96%, TVL $134.5K, https://www.defi.garden/?pool=3b381e0d-16b9-43ef-8c75-939cc3108826#src=seo_token; Solana의 raydium-amm, APY 5.52%, TVL $4.98M, https://www.defi.garden/?pool=83e9a75a-881a-4e5a-9aaa-82e2140fa57d#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=3b381e0d-16b9-43ef-8c75-939cc3108826#src=seo_token) | Ethereum | 3.96% | $134.4K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=83e9a75a-881a-4e5a-9aaa-82e2140fa57d#src=seo_token) | Solana | 5.63% | $4.97M |
+| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=3b381e0d-16b9-43ef-8c75-939cc3108826#src=seo_token) | Ethereum | 3.96% | $134.5K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=83e9a75a-881a-4e5a-9aaa-82e2140fa57d#src=seo_token) | Solana | 5.52% | $4.98M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -34,9 +34,9 @@ ARC 풀은 여기 3개가 있고, 3개 체인에서 APY가 3.96%부터 130.06%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| raydium-amm | 5.63% | 12.90% | 기본 금리 |
+| raydium-amm | 5.52% | 12.90% | 기본 금리 |
 | uniswap-v2 | 130.06% | 157.95% | 기본 금리 |
-| uniswap-v2 | 3.96% | 10.63% | 기본 금리 |
+| uniswap-v2 | 3.96% | 10.64% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -56,7 +56,7 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v2에서 APY 130.06%예요
 
 ### ARC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 ARC의 변동성 낮은 후보는 Ethereum의 uniswap-v2, APY 3.96%, TVL $134.4K, https://www.defi.garden/?pool=3b381e0d-16b9-43ef-8c75-939cc3108826#src=seo_token; Solana의 raydium-amm, APY 5.63%, TVL $4.97M, https://www.defi.garden/?pool=83e9a75a-881a-4e5a-9aaa-82e2140fa57d#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 ARC의 변동성 낮은 후보는 Ethereum의 uniswap-v2, APY 3.96%, TVL $134.5K, https://www.defi.garden/?pool=3b381e0d-16b9-43ef-8c75-939cc3108826#src=seo_token; Solana의 raydium-amm, APY 5.52%, TVL $4.98M, https://www.defi.garden/?pool=83e9a75a-881a-4e5a-9aaa-82e2140fa57d#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

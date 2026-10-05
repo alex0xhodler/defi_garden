@@ -6,8 +6,8 @@ The highest honest STAK yield right now is 9.63% on spectra-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [spectra-v2 →](https://www.defi.garden/?pool=65b1e722-a49d-478e-9f16-e696a2355f25#src=seo_token) | Ethereum | 0.07% | $199.2K |
 | [spectra-v2 →](https://www.defi.garden/?pool=0903d3e4-a569-426a-b1e8-ba79f0d69efe#src=seo_token) | Ethereum | 9.63% | $199.2K |
+| [spectra-v2 →](https://www.defi.garden/?pool=65b1e722-a49d-478e-9f16-e696a2355f25#src=seo_token) | Ethereum | 0.07% | $199.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| spectra-v2 | 0.07% | 0.04% | Base rate |
 | spectra-v2 | 9.63% | 10.95% | Base rate |
+| spectra-v2 | 0.07% | 0.04% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

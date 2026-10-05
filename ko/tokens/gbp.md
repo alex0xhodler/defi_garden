@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [gmx-solana →](https://www.defi.garden/?pool=ebacb759-c8a7-4d4f-8b4d-f61961dfdf8d#src=seo_token) | Solana | 1.74% | $1.31M |
+| [gmx-solana →](https://www.defi.garden/?pool=ebacb759-c8a7-4d4f-8b4d-f61961dfdf8d#src=seo_token) | Solana | 1.74% | $1.3M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Solana의 gmx-solana에서 APY 1.74%예요
 
 ### GBP 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $1.31M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $1.3M예요.
 
 ### 이 수익률은 안전한가요?
 

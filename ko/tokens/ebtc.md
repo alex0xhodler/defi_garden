@@ -6,20 +6,20 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [ether.fi-stake →](https://www.defi.garden/?pool=f6568026-ff92-463d-8712-b9e8f8ea1408#src=seo_token) | Ethereum | 0.13% | $22.56M |
-| [curve-dex →](https://www.defi.garden/?pool=369fe157-a536-440e-9e9c-c080a369cbcb#src=seo_token) | Ethereum | 0.32% | $198.7K |
-| [convex-finance →](https://www.defi.garden/?pool=149c89b1-c592-41ea-95b4-901295f69c37#src=seo_token) | Ethereum | 0.49% | $198.7K |
+| [ether.fi-stake →](https://www.defi.garden/?pool=f6568026-ff92-463d-8712-b9e8f8ea1408#src=seo_token) | Ethereum | 0.13% | $22.7M |
+| [curve-dex →](https://www.defi.garden/?pool=369fe157-a536-440e-9e9c-c080a369cbcb#src=seo_token) | Ethereum | 0.32% | $199.1K |
+| [convex-finance →](https://www.defi.garden/?pool=149c89b1-c592-41ea-95b4-901295f69c37#src=seo_token) | Ethereum | 0.49% | $199.1K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 EBTC의 변동성 낮은 후보는 Ethereum의 ether.fi-stake, APY 0.13%, TVL $22.56M, https://www.defi.garden/?pool=f6568026-ff92-463d-8712-b9e8f8ea1408#src=seo_token; Ethereum의 convex-finance, APY 0.49%, TVL $198.7K, https://www.defi.garden/?pool=149c89b1-c592-41ea-95b4-901295f69c37#src=seo_token; Ethereum의 curve-dex, APY 0.32%, TVL $198.7K, https://www.defi.garden/?pool=369fe157-a536-440e-9e9c-c080a369cbcb#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 EBTC의 변동성 낮은 후보는 Ethereum의 ether.fi-stake, APY 0.13%, TVL $22.7M, https://www.defi.garden/?pool=f6568026-ff92-463d-8712-b9e8f8ea1408#src=seo_token; Ethereum의 convex-finance, APY 0.49%, TVL $199.1K, https://www.defi.garden/?pool=149c89b1-c592-41ea-95b4-901295f69c37#src=seo_token; Ethereum의 curve-dex, APY 0.32%, TVL $199.1K, https://www.defi.garden/?pool=369fe157-a536-440e-9e9c-c080a369cbcb#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [ether.fi-stake →](https://www.defi.garden/?pool=f6568026-ff92-463d-8712-b9e8f8ea1408#src=seo_token) | Ethereum | 0.13% | $22.56M |
-| 2 | [convex-finance →](https://www.defi.garden/?pool=149c89b1-c592-41ea-95b4-901295f69c37#src=seo_token) | Ethereum | 0.49% | $198.7K |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=369fe157-a536-440e-9e9c-c080a369cbcb#src=seo_token) | Ethereum | 0.32% | $198.7K |
+| 1 | [ether.fi-stake →](https://www.defi.garden/?pool=f6568026-ff92-463d-8712-b9e8f8ea1408#src=seo_token) | Ethereum | 0.13% | $22.7M |
+| 2 | [convex-finance →](https://www.defi.garden/?pool=149c89b1-c592-41ea-95b4-901295f69c37#src=seo_token) | Ethereum | 0.49% | $199.1K |
+| 3 | [curve-dex →](https://www.defi.garden/?pool=369fe157-a536-440e-9e9c-c080a369cbcb#src=seo_token) | Ethereum | 0.32% | $199.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -47,7 +47,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 0.49%
 
 ### EBTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $34.19M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $34.36M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -55,7 +55,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 0.49%
 
 ### EBTC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 EBTC의 변동성 낮은 후보는 Ethereum의 ether.fi-stake, APY 0.13%, TVL $22.56M, https://www.defi.garden/?pool=f6568026-ff92-463d-8712-b9e8f8ea1408#src=seo_token; Ethereum의 convex-finance, APY 0.49%, TVL $198.7K, https://www.defi.garden/?pool=149c89b1-c592-41ea-95b4-901295f69c37#src=seo_token; Ethereum의 curve-dex, APY 0.32%, TVL $198.7K, https://www.defi.garden/?pool=369fe157-a536-440e-9e9c-c080a369cbcb#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 EBTC의 변동성 낮은 후보는 Ethereum의 ether.fi-stake, APY 0.13%, TVL $22.7M, https://www.defi.garden/?pool=f6568026-ff92-463d-8712-b9e8f8ea1408#src=seo_token; Ethereum의 convex-finance, APY 0.49%, TVL $199.1K, https://www.defi.garden/?pool=149c89b1-c592-41ea-95b4-901295f69c37#src=seo_token; Ethereum의 curve-dex, APY 0.32%, TVL $199.1K, https://www.defi.garden/?pool=369fe157-a536-440e-9e9c-c080a369cbcb#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

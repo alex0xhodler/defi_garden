@@ -6,18 +6,18 @@ The highest honest VBETH yield right now is 2.62% on yearn-finance (Katana), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=23efa6ee-dbe8-4590-9857-5e0a4bcfc9ed#src=seo_token) | Katana | 2.62% | $7.24M |
+| [yearn-finance →](https://www.defi.garden/?pool=23efa6ee-dbe8-4590-9857-5e0a4bcfc9ed#src=seo_token) | Katana | 2.62% | $7.25M |
 | [morpho-blue →](https://www.defi.garden/?pool=a29dcb5e-ff86-4c7b-8c82-5f350064e499#src=seo_token) | Katana | 1.39% | $1.72M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, VBETH's lower-variability candidates are morpho-blue (Katana), 1.39% APY, $1.72M TVL, https://www.defi.garden/?pool=a29dcb5e-ff86-4c7b-8c82-5f350064e499#src=seo_token; yearn-finance (Katana), 2.62% APY, $7.24M TVL, https://www.defi.garden/?pool=23efa6ee-dbe8-4590-9857-5e0a4bcfc9ed#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, VBETH's lower-variability candidates are morpho-blue (Katana), 1.39% APY, $1.72M TVL, https://www.defi.garden/?pool=a29dcb5e-ff86-4c7b-8c82-5f350064e499#src=seo_token; yearn-finance (Katana), 2.62% APY, $7.25M TVL, https://www.defi.garden/?pool=23efa6ee-dbe8-4590-9857-5e0a4bcfc9ed#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [morpho-blue →](https://www.defi.garden/?pool=a29dcb5e-ff86-4c7b-8c82-5f350064e499#src=seo_token) | Katana | 1.39% | $1.72M |
-| 2 | [yearn-finance →](https://www.defi.garden/?pool=23efa6ee-dbe8-4590-9857-5e0a4bcfc9ed#src=seo_token) | Katana | 2.62% | $7.24M |
+| 2 | [yearn-finance →](https://www.defi.garden/?pool=23efa6ee-dbe8-4590-9857-5e0a4bcfc9ed#src=seo_token) | Katana | 2.62% | $7.25M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -31,7 +31,7 @@ VBETH shows up in 2 pools here, with rates from 1.39% to 2.62% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| yearn-finance | 2.62% | 2.76% | 45.16% incentives |
+| yearn-finance | 2.62% | 2.75% | 45.09% incentives |
 | morpho-blue | 1.39% | 3.21% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many VBETH pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $8.95M in total.
+2 live pools clear this page's $100K TVL floor, $8.98M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which VBETH pools have the most stable APY history?
 
-Based on APY history only, VBETH's lower-variability candidates are morpho-blue (Katana), 1.39% APY, $1.72M TVL, https://www.defi.garden/?pool=a29dcb5e-ff86-4c7b-8c82-5f350064e499#src=seo_token; yearn-finance (Katana), 2.62% APY, $7.24M TVL, https://www.defi.garden/?pool=23efa6ee-dbe8-4590-9857-5e0a4bcfc9ed#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, VBETH's lower-variability candidates are morpho-blue (Katana), 1.39% APY, $1.72M TVL, https://www.defi.garden/?pool=a29dcb5e-ff86-4c7b-8c82-5f350064e499#src=seo_token; yearn-finance (Katana), 2.62% APY, $7.25M TVL, https://www.defi.garden/?pool=23efa6ee-dbe8-4590-9857-5e0a4bcfc9ed#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

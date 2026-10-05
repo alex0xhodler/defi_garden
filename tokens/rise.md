@@ -6,7 +6,7 @@ The highest honest RISE yield right now is 2.50% on minswap-dex (Cardano), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=e61a3dce-2b12-40c1-b095-506898864a2e#src=seo_token) | Cardano | 2.50% | $329.1K |
+| [minswap-dex →](https://www.defi.garden/?pool=e61a3dce-2b12-40c1-b095-506898864a2e#src=seo_token) | Cardano | 2.50% | $331.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many RISE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $491.3K in total.
+2 live pools clear this page's $100K TVL floor, $494.5K in total.
 
 ### Are these rates safe?
 

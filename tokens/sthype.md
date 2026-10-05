@@ -8,18 +8,18 @@ The highest honest STHYPE yield right now is 2.44% on pendle-v2 (Hyperliquid L1)
 |---|---|---|---|
 | [pendle-v2 →](https://www.defi.garden/?pool=f67eeaa5-7f5f-5495-99f9-7433913a3e69#src=seo_token) | Hyperliquid L1 | 2.44% | $1.16M |
 | [pendle-v2 →](https://www.defi.garden/?pool=268629d9-4838-5f92-9365-54605ea7909e#src=seo_token) | Hyperliquid L1 | 2.09% | $1.16M |
-| [hyperswap-v3 →](https://www.defi.garden/?pool=7ece693a-37a3-4df8-ac01-06c9b1aea8eb#src=seo_token) | Hyperliquid L1 | 0.02% | $114.7K |
+| [hyperswap-v3 →](https://www.defi.garden/?pool=7ece693a-37a3-4df8-ac01-06c9b1aea8eb#src=seo_token) | Hyperliquid L1 | 0.02% | $114K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, STHYPE's lower-variability candidates are pendle-v2 (Hyperliquid L1), 2.44% APY, $1.16M TVL, https://www.defi.garden/?pool=f67eeaa5-7f5f-5495-99f9-7433913a3e69#src=seo_token; pendle-v2 (Hyperliquid L1), 2.09% APY, $1.16M TVL, https://www.defi.garden/?pool=268629d9-4838-5f92-9365-54605ea7909e#src=seo_token; hyperswap-v3 (Hyperliquid L1), 0.02% APY, $114.7K TVL, https://www.defi.garden/?pool=7ece693a-37a3-4df8-ac01-06c9b1aea8eb#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STHYPE's lower-variability candidates are pendle-v2 (Hyperliquid L1), 2.44% APY, $1.16M TVL, https://www.defi.garden/?pool=f67eeaa5-7f5f-5495-99f9-7433913a3e69#src=seo_token; pendle-v2 (Hyperliquid L1), 2.09% APY, $1.16M TVL, https://www.defi.garden/?pool=268629d9-4838-5f92-9365-54605ea7909e#src=seo_token; hyperswap-v3 (Hyperliquid L1), 0.02% APY, $114K TVL, https://www.defi.garden/?pool=7ece693a-37a3-4df8-ac01-06c9b1aea8eb#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [pendle-v2 →](https://www.defi.garden/?pool=f67eeaa5-7f5f-5495-99f9-7433913a3e69#src=seo_token) | Hyperliquid L1 | 2.44% | $1.16M |
 | 2 | [pendle-v2 →](https://www.defi.garden/?pool=268629d9-4838-5f92-9365-54605ea7909e#src=seo_token) | Hyperliquid L1 | 2.09% | $1.16M |
-| 3 | [hyperswap-v3 →](https://www.defi.garden/?pool=7ece693a-37a3-4df8-ac01-06c9b1aea8eb#src=seo_token) | Hyperliquid L1 | 0.02% | $114.7K |
+| 3 | [hyperswap-v3 →](https://www.defi.garden/?pool=7ece693a-37a3-4df8-ac01-06c9b1aea8eb#src=seo_token) | Hyperliquid L1 | 0.02% | $114K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -35,7 +35,7 @@ STHYPE shows up in 3 pools here, with rates from 0.02% to 2.44% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle-v2 | 2.44% | 2.37% | 10.73% incentives |
+| pendle-v2 | 2.44% | 2.37% | 10.67% incentives |
 | pendle-v2 | 2.09% | 2.26% | Base rate |
 | hyperswap-v3 | 0.02% | 0.27% | Base rate |
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which STHYPE pools have the most stable APY history?
 
-Based on APY history only, STHYPE's lower-variability candidates are pendle-v2 (Hyperliquid L1), 2.44% APY, $1.16M TVL, https://www.defi.garden/?pool=f67eeaa5-7f5f-5495-99f9-7433913a3e69#src=seo_token; pendle-v2 (Hyperliquid L1), 2.09% APY, $1.16M TVL, https://www.defi.garden/?pool=268629d9-4838-5f92-9365-54605ea7909e#src=seo_token; hyperswap-v3 (Hyperliquid L1), 0.02% APY, $114.7K TVL, https://www.defi.garden/?pool=7ece693a-37a3-4df8-ac01-06c9b1aea8eb#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STHYPE's lower-variability candidates are pendle-v2 (Hyperliquid L1), 2.44% APY, $1.16M TVL, https://www.defi.garden/?pool=f67eeaa5-7f5f-5495-99f9-7433913a3e69#src=seo_token; pendle-v2 (Hyperliquid L1), 2.09% APY, $1.16M TVL, https://www.defi.garden/?pool=268629d9-4838-5f92-9365-54605ea7909e#src=seo_token; hyperswap-v3 (Hyperliquid L1), 0.02% APY, $114K TVL, https://www.defi.garden/?pool=7ece693a-37a3-4df8-ac01-06c9b1aea8eb#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

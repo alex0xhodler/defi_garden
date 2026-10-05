@@ -6,7 +6,7 @@ The highest honest XCU yield right now is 2.37% on gmx-solana (Solana), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmx-solana →](https://www.defi.garden/?pool=3858ef87-0274-4d51-9a94-923cdfdd9313#src=seo_token) | Solana | 2.37% | $279.6K |
+| [gmx-solana →](https://www.defi.garden/?pool=3858ef87-0274-4d51-9a94-923cdfdd9313#src=seo_token) | Solana | 2.37% | $276.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many XCU pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $279.6K in total.
+1 live pool clear this page's $100K TVL floor, $276.8K in total.
 
 ### Are these rates safe?
 

@@ -171,12 +171,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/bob</loc>
+    <loc>https://www.defi.garden/chains/near</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/near</loc>
+    <loc>https://www.defi.garden/chains/bob</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -236,12 +236,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/zigchain</loc>
+    <loc>https://www.defi.garden/chains/thorchain</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/thorchain</loc>
+    <loc>https://www.defi.garden/chains/zigchain</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
   </url>

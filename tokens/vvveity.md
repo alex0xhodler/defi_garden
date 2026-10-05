@@ -6,7 +6,7 @@ The highest honest VVVEITY yield right now is 1.28% on uniswap-v4 (Base), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=f5ba6eee-d6c9-47e2-b82c-dc867bcbccfa#src=seo_token) | Base | 1.28% | $122.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f5ba6eee-d6c9-47e2-b82c-dc867bcbccfa#src=seo_token) | Base | 1.28% | $122.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many VVVEITY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $122.2K in total.
+1 live pool clear this page's $100K TVL floor, $122.3K in total.
 
 ### Are these rates safe?
 

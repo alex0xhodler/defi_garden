@@ -2,12 +2,12 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest SBAUSD yield right now is 7.62% on morpho-blue (Monad), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SBAUSD yield right now is 7.69% on morpho-blue (Monad), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=01af270b-f10c-57b4-8ae2-34c9c6f085ad#src=seo_token) | Monad | 10.80% | $5.66M |
-| [morpho-blue →](https://www.defi.garden/?pool=4838dc75-2531-51e4-bff2-b11c95883ccc#src=seo_token) | Monad | 7.62% | $500.5K |
+| [morpho-blue →](https://www.defi.garden/?pool=01af270b-f10c-57b4-8ae2-34c9c6f085ad#src=seo_token) | Monad | 11.35% | $5.66M |
+| [morpho-blue →](https://www.defi.garden/?pool=4838dc75-2531-51e4-bff2-b11c95883ccc#src=seo_token) | Monad | 7.69% | $500.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-SBAUSD shows up in 2 pools here, with rates from 7.62% to 10.80% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SBAUSD shows up in 2 pools here, with rates from 7.69% to 11.35% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 97.59% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 97.28% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 2 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -28,8 +28,8 @@ SBAUSD shows up in 2 pools here, with rates from 7.62% to 10.80% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 10.80% | 188.86% | 27.12% incentives |
-| morpho-blue | 7.62% | 6.31% | 25.32% incentives |
+| morpho-blue | 11.35% | 188.25% | 25.76% incentives |
+| morpho-blue | 7.69% | 6.32% | 25.02% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SBAUSD yield today?
 
-7.62% APY on morpho-blue (Monad), based on live DefiLlama data.
+7.69% APY on morpho-blue (Monad), based on live DefiLlama data.
 
 ### How many SBAUSD pools clear the TVL floor?
 

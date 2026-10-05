@@ -4,13 +4,13 @@ The highest honest Sui yield right now is 10.00% on ember-protocol (Sui), among 
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| HASUI | [navi-lending →](https://www.defi.garden/?pool=01d96249-c69b-46de-a749-479facf4b806#src=seo_chain) | 1.12% | $26.65M |
-| USDC | [current →](https://www.defi.garden/?pool=a0860ad8-ba2a-4ff8-8a13-348788864f23#src=seo_chain) | 8.19% | $21.88M |
-| VSUI | [navi-lending →](https://www.defi.garden/?pool=acf5436b-602b-4606-b226-60080cb3e79c#src=seo_chain) | 1.07% | $19.24M |
+| HASUI | [navi-lending →](https://www.defi.garden/?pool=01d96249-c69b-46de-a749-479facf4b806#src=seo_chain) | 1.12% | $26.64M |
+| USDC | [current →](https://www.defi.garden/?pool=a0860ad8-ba2a-4ff8-8a13-348788864f23#src=seo_chain) | 7.99% | $22.84M |
+| VSUI | [navi-lending →](https://www.defi.garden/?pool=acf5436b-602b-4606-b226-60080cb3e79c#src=seo_chain) | 1.07% | $19.21M |
 | BUCK | [navi-lending →](https://www.defi.garden/?pool=1c81c0b0-db5e-4140-95bc-664c973e2d36#src=seo_chain) | 0.24% | $18.46M |
 | USDY | [ondo-yield-assets →](https://www.defi.garden/?pool=3007b64e-331d-425d-a7ae-33b8691da1a9#src=seo_chain) | 3.62% | $14.35M |
 | SUI | [navi-lending →](https://www.defi.garden/?pool=f8ffbfd7-7448-45f4-9cc4-f8c1185489a2#src=seo_chain) | 1.70% | $10.85M |
-| USDC | [ember-protocol →](https://www.defi.garden/?pool=a1a9916c-63b2-49a1-b4b0-cbe8a9e7275c#src=seo_chain) | 10.00% | $9.75M |
+| USDC | [ember-protocol →](https://www.defi.garden/?pool=a1a9916c-63b2-49a1-b4b0-cbe8a9e7275c#src=seo_chain) | 10.00% | $9.77M |
 | USDC | [navi-lending →](https://www.defi.garden/?pool=0fddbf5d-ec14-4570-80d3-a70c85573d3e#src=seo_chain) | 5.51% | $9.51M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Sui pools clear the TVL floor?
 
-115 live pools clear this page's $100K TVL floor, $333.08M in total.
+115 live pools clear this page's $100K TVL floor, $333.87M in total.
 
 ### Are these rates safe?
 

@@ -2,40 +2,40 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest CVX yield right now is 23.18% on convex-finance (Ethereum), among 17 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CVX yield right now is 23.20% on convex-finance (Ethereum), among 17 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [convex-finance →](https://www.defi.garden/?pool=777032e6-e815-4f44-90b4-abb98f0f9632#src=seo_token) | Ethereum | 3.17% | $13.25M |
-| [curve-dex →](https://www.defi.garden/?pool=3e889559-f3f0-4f36-93e6-5e7d2b33ed99#src=seo_token) | Ethereum | 9.89% | $6.87M |
-| [convex-finance →](https://www.defi.garden/?pool=25d9dc49-3182-493a-bda4-0db53b25f457#src=seo_token) | Ethereum | 13.95% | $5.29M |
-| [curve-dex →](https://www.defi.garden/?pool=2292999a-f229-4118-823b-3f43211edd4f#src=seo_token) | Ethereum | 10.96% | $1.88M |
-| [convex-finance →](https://www.defi.garden/?pool=0e818d38-c480-44a6-a533-5666ed59e50c#src=seo_token) | Ethereum | 15.30% | $1.86M |
-| [curve-dex →](https://www.defi.garden/?pool=26f8cc1d-7e06-4af6-b5d9-8f18dcac39af#src=seo_token) | Ethereum | 15.24% | $681.7K |
-| [convex-finance →](https://www.defi.garden/?pool=2f73ca67-3484-4aa3-8a26-48718a3b8bd7#src=seo_token) | Ethereum | 23.18% | $631K |
-| [stake-dao-yield →](https://www.defi.garden/?pool=8e9171a9-75f8-4b74-bc99-2b59a75bcc56#src=seo_token) | Ethereum | 20.45% | $258.6K |
+| [curve-dex →](https://www.defi.garden/?pool=3e889559-f3f0-4f36-93e6-5e7d2b33ed99#src=seo_token) | Ethereum | 10.19% | $6.86M |
+| [convex-finance →](https://www.defi.garden/?pool=25d9dc49-3182-493a-bda4-0db53b25f457#src=seo_token) | Ethereum | 14.24% | $5.27M |
+| [curve-dex →](https://www.defi.garden/?pool=2292999a-f229-4118-823b-3f43211edd4f#src=seo_token) | Ethereum | 11.64% | $1.88M |
+| [convex-finance →](https://www.defi.garden/?pool=0e818d38-c480-44a6-a533-5666ed59e50c#src=seo_token) | Ethereum | 15.98% | $1.85M |
+| [curve-dex →](https://www.defi.garden/?pool=26f8cc1d-7e06-4af6-b5d9-8f18dcac39af#src=seo_token) | Ethereum | 15.25% | $681.5K |
+| [convex-finance →](https://www.defi.garden/?pool=2f73ca67-3484-4aa3-8a26-48718a3b8bd7#src=seo_token) | Ethereum | 23.20% | $630.6K |
+| [stake-dao-yield →](https://www.defi.garden/?pool=8e9171a9-75f8-4b74-bc99-2b59a75bcc56#src=seo_token) | Ethereum | 20.38% | $258.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, CVX's lower-variability candidates are stake-dao-yield (Ethereum), 20.45% APY, $258.6K TVL, https://www.defi.garden/?pool=8e9171a9-75f8-4b74-bc99-2b59a75bcc56#src=seo_token; convex-finance (Ethereum), 3.17% APY, $13.25M TVL, https://www.defi.garden/?pool=777032e6-e815-4f44-90b4-abb98f0f9632#src=seo_token; curve-dex (Ethereum), 15.24% APY, $681.7K TVL, https://www.defi.garden/?pool=26f8cc1d-7e06-4af6-b5d9-8f18dcac39af#src=seo_token; curve-dex (Ethereum), 10.96% APY, $1.88M TVL, https://www.defi.garden/?pool=2292999a-f229-4118-823b-3f43211edd4f#src=seo_token; curve-dex (Ethereum), 9.89% APY, $6.87M TVL, https://www.defi.garden/?pool=3e889559-f3f0-4f36-93e6-5e7d2b33ed99#src=seo_token; convex-finance (Ethereum), 23.18% APY, $631K TVL, https://www.defi.garden/?pool=2f73ca67-3484-4aa3-8a26-48718a3b8bd7#src=seo_token; convex-finance (Ethereum), 15.30% APY, $1.86M TVL, https://www.defi.garden/?pool=0e818d38-c480-44a6-a533-5666ed59e50c#src=seo_token; convex-finance (Ethereum), 13.95% APY, $5.29M TVL, https://www.defi.garden/?pool=25d9dc49-3182-493a-bda4-0db53b25f457#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CVX's lower-variability candidates are stake-dao-yield (Ethereum), 20.38% APY, $258.1K TVL, https://www.defi.garden/?pool=8e9171a9-75f8-4b74-bc99-2b59a75bcc56#src=seo_token; convex-finance (Ethereum), 3.17% APY, $13.25M TVL, https://www.defi.garden/?pool=777032e6-e815-4f44-90b4-abb98f0f9632#src=seo_token; curve-dex (Ethereum), 15.25% APY, $681.5K TVL, https://www.defi.garden/?pool=26f8cc1d-7e06-4af6-b5d9-8f18dcac39af#src=seo_token; curve-dex (Ethereum), 11.64% APY, $1.88M TVL, https://www.defi.garden/?pool=2292999a-f229-4118-823b-3f43211edd4f#src=seo_token; curve-dex (Ethereum), 10.19% APY, $6.86M TVL, https://www.defi.garden/?pool=3e889559-f3f0-4f36-93e6-5e7d2b33ed99#src=seo_token; convex-finance (Ethereum), 23.20% APY, $630.6K TVL, https://www.defi.garden/?pool=2f73ca67-3484-4aa3-8a26-48718a3b8bd7#src=seo_token; convex-finance (Ethereum), 15.98% APY, $1.85M TVL, https://www.defi.garden/?pool=0e818d38-c480-44a6-a533-5666ed59e50c#src=seo_token; convex-finance (Ethereum), 14.24% APY, $5.27M TVL, https://www.defi.garden/?pool=25d9dc49-3182-493a-bda4-0db53b25f457#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [stake-dao-yield →](https://www.defi.garden/?pool=8e9171a9-75f8-4b74-bc99-2b59a75bcc56#src=seo_token) | Ethereum | 20.45% | $258.6K |
+| 1 | [stake-dao-yield →](https://www.defi.garden/?pool=8e9171a9-75f8-4b74-bc99-2b59a75bcc56#src=seo_token) | Ethereum | 20.38% | $258.1K |
 | 2 | [convex-finance →](https://www.defi.garden/?pool=777032e6-e815-4f44-90b4-abb98f0f9632#src=seo_token) | Ethereum | 3.17% | $13.25M |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=26f8cc1d-7e06-4af6-b5d9-8f18dcac39af#src=seo_token) | Ethereum | 15.24% | $681.7K |
-| 4 | [curve-dex →](https://www.defi.garden/?pool=2292999a-f229-4118-823b-3f43211edd4f#src=seo_token) | Ethereum | 10.96% | $1.88M |
-| 5 | [curve-dex →](https://www.defi.garden/?pool=3e889559-f3f0-4f36-93e6-5e7d2b33ed99#src=seo_token) | Ethereum | 9.89% | $6.87M |
-| 6 | [convex-finance →](https://www.defi.garden/?pool=2f73ca67-3484-4aa3-8a26-48718a3b8bd7#src=seo_token) | Ethereum | 23.18% | $631K |
-| 7 | [convex-finance →](https://www.defi.garden/?pool=0e818d38-c480-44a6-a533-5666ed59e50c#src=seo_token) | Ethereum | 15.30% | $1.86M |
-| 8 | [convex-finance →](https://www.defi.garden/?pool=25d9dc49-3182-493a-bda4-0db53b25f457#src=seo_token) | Ethereum | 13.95% | $5.29M |
+| 3 | [curve-dex →](https://www.defi.garden/?pool=26f8cc1d-7e06-4af6-b5d9-8f18dcac39af#src=seo_token) | Ethereum | 15.25% | $681.5K |
+| 4 | [curve-dex →](https://www.defi.garden/?pool=2292999a-f229-4118-823b-3f43211edd4f#src=seo_token) | Ethereum | 11.64% | $1.88M |
+| 5 | [curve-dex →](https://www.defi.garden/?pool=3e889559-f3f0-4f36-93e6-5e7d2b33ed99#src=seo_token) | Ethereum | 10.19% | $6.86M |
+| 6 | [convex-finance →](https://www.defi.garden/?pool=2f73ca67-3484-4aa3-8a26-48718a3b8bd7#src=seo_token) | Ethereum | 23.20% | $630.6K |
+| 7 | [convex-finance →](https://www.defi.garden/?pool=0e818d38-c480-44a6-a533-5666ed59e50c#src=seo_token) | Ethereum | 15.98% | $1.85M |
+| 8 | [convex-finance →](https://www.defi.garden/?pool=25d9dc49-3182-493a-bda4-0db53b25f457#src=seo_token) | Ethereum | 14.24% | $5.27M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CVX shows up in 8 pools here, with rates from 3.17% to 23.18% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CVX shows up in 8 pools here, with rates from 3.17% to 23.20% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 15.88% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -45,14 +45,14 @@ CVX shows up in 8 pools here, with rates from 3.17% to 23.18% APY across 1 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| convex-finance | 3.17% | 3.30% | 100.00% incentives |
-| curve-dex | 9.89% | 10.40% | 83.72% incentives |
-| convex-finance | 13.95% | 15.34% | 88.46% incentives |
-| curve-dex | 10.96% | 11.34% | 86.86% incentives |
-| convex-finance | 15.30% | 16.43% | 90.59% incentives |
-| curve-dex | 15.24% | 16.99% | 99.08% incentives |
-| convex-finance | 23.18% | 26.69% | 99.40% incentives |
-| stake-dao-yield | 20.45% | 19.79% | 85.48% incentives |
+| convex-finance | 3.17% | 3.29% | 100.00% incentives |
+| curve-dex | 10.19% | 10.40% | 81.55% incentives |
+| convex-finance | 14.24% | 15.34% | 86.80% incentives |
+| curve-dex | 11.64% | 11.34% | 82.13% incentives |
+| convex-finance | 15.98% | 16.43% | 86.98% incentives |
+| curve-dex | 15.25% | 16.98% | 98.89% incentives |
+| convex-finance | 23.20% | 26.69% | 99.27% incentives |
+| stake-dao-yield | 20.38% | 19.78% | 85.08% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -60,11 +60,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CVX yield today?
 
-23.18% APY on convex-finance (Ethereum), based on live DefiLlama data.
+23.20% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many CVX pools clear the TVL floor?
 
-17 live pools clear this page's $100K TVL floor, $33.82M in total.
+17 live pools clear this page's $100K TVL floor, $33.76M in total.
 
 ### Are these rates safe?
 
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which CVX pools have the most stable APY history?
 
-Based on APY history only, CVX's lower-variability candidates are stake-dao-yield (Ethereum), 20.45% APY, $258.6K TVL, https://www.defi.garden/?pool=8e9171a9-75f8-4b74-bc99-2b59a75bcc56#src=seo_token; convex-finance (Ethereum), 3.17% APY, $13.25M TVL, https://www.defi.garden/?pool=777032e6-e815-4f44-90b4-abb98f0f9632#src=seo_token; curve-dex (Ethereum), 15.24% APY, $681.7K TVL, https://www.defi.garden/?pool=26f8cc1d-7e06-4af6-b5d9-8f18dcac39af#src=seo_token; curve-dex (Ethereum), 10.96% APY, $1.88M TVL, https://www.defi.garden/?pool=2292999a-f229-4118-823b-3f43211edd4f#src=seo_token; curve-dex (Ethereum), 9.89% APY, $6.87M TVL, https://www.defi.garden/?pool=3e889559-f3f0-4f36-93e6-5e7d2b33ed99#src=seo_token; convex-finance (Ethereum), 23.18% APY, $631K TVL, https://www.defi.garden/?pool=2f73ca67-3484-4aa3-8a26-48718a3b8bd7#src=seo_token; convex-finance (Ethereum), 15.30% APY, $1.86M TVL, https://www.defi.garden/?pool=0e818d38-c480-44a6-a533-5666ed59e50c#src=seo_token; convex-finance (Ethereum), 13.95% APY, $5.29M TVL, https://www.defi.garden/?pool=25d9dc49-3182-493a-bda4-0db53b25f457#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CVX's lower-variability candidates are stake-dao-yield (Ethereum), 20.38% APY, $258.1K TVL, https://www.defi.garden/?pool=8e9171a9-75f8-4b74-bc99-2b59a75bcc56#src=seo_token; convex-finance (Ethereum), 3.17% APY, $13.25M TVL, https://www.defi.garden/?pool=777032e6-e815-4f44-90b4-abb98f0f9632#src=seo_token; curve-dex (Ethereum), 15.25% APY, $681.5K TVL, https://www.defi.garden/?pool=26f8cc1d-7e06-4af6-b5d9-8f18dcac39af#src=seo_token; curve-dex (Ethereum), 11.64% APY, $1.88M TVL, https://www.defi.garden/?pool=2292999a-f229-4118-823b-3f43211edd4f#src=seo_token; curve-dex (Ethereum), 10.19% APY, $6.86M TVL, https://www.defi.garden/?pool=3e889559-f3f0-4f36-93e6-5e7d2b33ed99#src=seo_token; convex-finance (Ethereum), 23.20% APY, $630.6K TVL, https://www.defi.garden/?pool=2f73ca67-3484-4aa3-8a26-48718a3b8bd7#src=seo_token; convex-finance (Ethereum), 15.98% APY, $1.85M TVL, https://www.defi.garden/?pool=0e818d38-c480-44a6-a533-5666ed59e50c#src=seo_token; convex-finance (Ethereum), 14.24% APY, $5.27M TVL, https://www.defi.garden/?pool=25d9dc49-3182-493a-bda4-0db53b25f457#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

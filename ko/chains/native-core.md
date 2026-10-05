@@ -4,9 +4,9 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| WBTC | [native-core-clob →](https://www.defi.garden/?pool=cddba699-1af3-52d6-8272-f540492796b0#src=seo_chain) | 1.04% | $1.48M |
+| WBTC | [native-core-clob →](https://www.defi.garden/?pool=cddba699-1af3-52d6-8272-f540492796b0#src=seo_chain) | 1.04% | $1.49M |
 | USDC | [native-core-clob →](https://www.defi.garden/?pool=ecaff9e1-ee58-5042-9680-a1c12bc233a4#src=seo_chain) | 5.12% | $695.9K |
-| ETH | [native-core-clob →](https://www.defi.garden/?pool=9ec34926-8df8-5c86-9534-af15a68fbbc7#src=seo_chain) | 6.07% | $412.3K |
+| ETH | [native-core-clob →](https://www.defi.garden/?pool=9ec34926-8df8-5c86-9534-af15a68fbbc7#src=seo_chain) | 6.07% | $413.1K |
 | USDT | [native-core-clob →](https://www.defi.garden/?pool=a3fa51c6-62dd-500d-9d15-348940355d2b#src=seo_chain) | 3.41% | $163.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.

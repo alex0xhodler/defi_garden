@@ -6,7 +6,7 @@ The highest honest FLOWER yield right now is 15.83% on uniswap-v3 (Base), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=c3bf7641-16f2-458e-8aad-c02d230c3817#src=seo_token) | Base | 15.83% | $228.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c3bf7641-16f2-458e-8aad-c02d230c3817#src=seo_token) | Base | 15.83% | $228.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many FLOWER pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $228.2K in total.
+1 live pool clear this page's $100K TVL floor, $228.3K in total.
 
 ### Are these rates safe?
 

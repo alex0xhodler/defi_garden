@@ -5,11 +5,11 @@
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
 | USYC | [circle-usyc →](https://www.defi.garden/ko/pools/circle-usyc-usyc-bsc) | 3.41% | $2.36B |
-| SLISBNB | [lista-liquid-staking →](https://www.defi.garden/ko/pools/lista-liquid-staking-slisbnb-bsc) | 1.01% | $850.68M |
-| WBETH | [binance-staked-eth →](https://www.defi.garden/ko/pools/binance-staked-eth-wbeth-bsc) | 2.18% | $572.83M |
+| SLISBNB | [lista-liquid-staking →](https://www.defi.garden/ko/pools/lista-liquid-staking-slisbnb-bsc) | 1.01% | $854.61M |
+| WBETH | [binance-staked-eth →](https://www.defi.garden/ko/pools/binance-staked-eth-wbeth-bsc) | 2.18% | $575.28M |
+| WBNB | [venus-core-pool →](https://www.defi.garden/?pool=747b58ab-aefd-42e1-a312-01ad5a0ab7f5#src=seo_chain) | 0.03% | $388.81M |
 | BNB | [lista-lending →](https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471#src=seo_chain) | 0.21% | $387.93M |
-| WBNB | [venus-core-pool →](https://www.defi.garden/?pool=747b58ab-aefd-42e1-a312-01ad5a0ab7f5#src=seo_chain) | 0.03% | $387.03M |
-| BTCB | [venus-core-pool →](https://www.defi.garden/?pool=87c8ee0d-b812-47c1-803f-f91a3907079e#src=seo_chain) | 0.20% | $355.88M |
+| BTCB | [venus-core-pool →](https://www.defi.garden/?pool=87c8ee0d-b812-47c1-803f-f91a3907079e#src=seo_chain) | 0.20% | $357.17M |
 | BUIDL | [blackrock-buidl →](https://www.defi.garden/ko/pools/blackrock-buidl-buidl-bsc) | 3.47% | $146.65M |
 | USD1 | [lista-lending →](https://www.defi.garden/ko/pools/lista-lending-usd1-bsc) | 1.22% | $138.27M |
 
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, BSC의 binance-staked-eth에서 APY 2.18%�
 
 ### BSC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 281개이며, 합산 TVL은 $6.73B예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 281개이며, 합산 TVL은 $6.74B예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -43,8 +43,8 @@ DefiLlama 실시간 데이터 기준, BSC의 binance-staked-eth에서 APY 2.18%�
 - [USYC](https://www.defi.garden/ko/tokens/usyc)
 - [SLISBNB](https://www.defi.garden/ko/tokens/slisbnb)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
-- [BNB](https://www.defi.garden/ko/tokens/bnb)
 - [WBNB](https://www.defi.garden/ko/tokens/wbnb)
+- [BNB](https://www.defi.garden/ko/tokens/bnb)
 - [BTCB](https://www.defi.garden/ko/tokens/btcb)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USD1](https://www.defi.garden/ko/tokens/usd1)

@@ -6,7 +6,7 @@ The highest honest PAPY yield right now is 8.10% on morpho-blue (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=267a1599-c88b-57c2-8dc6-87c067d48b86#src=seo_token) | Ethereum | 8.10% | $17.79M |
+| [morpho-blue →](https://www.defi.garden/?pool=267a1599-c88b-57c2-8dc6-87c067d48b86#src=seo_token) | Ethereum | 8.10% | $17.22M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PAPY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $17.79M in total.
+1 live pool clear this page's $100K TVL floor, $17.22M in total.
 
 ### Are these rates safe?
 

@@ -377,6 +377,16 @@
       "permanent": true
     },
     {
+      "source": "/pools/kinetiq-khype-khype-hyperliquid-l1",
+      "destination": "/chains/hyperliquid-l1",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/kinetiq-khype-khype-hyperliquid-l1",
+      "destination": "/ko/chains/hyperliquid-l1",
+      "permanent": true
+    },
+    {
       "source": "/pools/lista-lending-bnb-bsc",
       "destination": "/chains/bsc",
       "permanent": true

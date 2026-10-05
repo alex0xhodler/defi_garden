@@ -6,19 +6,19 @@ The highest honest RPL yield right now is 0.28% on aave-v3 (Ethereum), among 3 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=4a2ded3a-3667-40a8-a9b2-503b6d357b49#src=seo_token) | Ethereum | 0.28% | $554.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=624dacc8-25ac-44b2-b68c-4f8d7eab1e1e#src=seo_token) | Ethereum | 0.40% | $380.7K |
+| [aave-v3 →](https://www.defi.garden/?pool=4a2ded3a-3667-40a8-a9b2-503b6d357b49#src=seo_token) | Ethereum | 0.28% | $554.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=624dacc8-25ac-44b2-b68c-4f8d7eab1e1e#src=seo_token) | Ethereum | 0.42% | $380.6K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=ee62baf9-7268-4799-8e07-0e1b2a31b2f0#src=seo_token) | Ethereum | 1.11% | $332.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, RPL's lower-variability candidates are aave-v3 (Ethereum), 0.28% APY, $554.5K TVL, https://www.defi.garden/?pool=4a2ded3a-3667-40a8-a9b2-503b6d357b49#src=seo_token; uniswap-v3 (Ethereum), 0.40% APY, $380.7K TVL, https://www.defi.garden/?pool=624dacc8-25ac-44b2-b68c-4f8d7eab1e1e#src=seo_token; uniswap-v4 (Ethereum), 1.11% APY, $332.5K TVL, https://www.defi.garden/?pool=ee62baf9-7268-4799-8e07-0e1b2a31b2f0#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RPL's lower-variability candidates are aave-v3 (Ethereum), 0.28% APY, $554.3K TVL, https://www.defi.garden/?pool=4a2ded3a-3667-40a8-a9b2-503b6d357b49#src=seo_token; uniswap-v3 (Ethereum), 0.42% APY, $380.6K TVL, https://www.defi.garden/?pool=624dacc8-25ac-44b2-b68c-4f8d7eab1e1e#src=seo_token; uniswap-v4 (Ethereum), 1.11% APY, $332.5K TVL, https://www.defi.garden/?pool=ee62baf9-7268-4799-8e07-0e1b2a31b2f0#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aave-v3 →](https://www.defi.garden/?pool=4a2ded3a-3667-40a8-a9b2-503b6d357b49#src=seo_token) | Ethereum | 0.28% | $554.5K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=624dacc8-25ac-44b2-b68c-4f8d7eab1e1e#src=seo_token) | Ethereum | 0.40% | $380.7K |
+| 1 | [aave-v3 →](https://www.defi.garden/?pool=4a2ded3a-3667-40a8-a9b2-503b6d357b49#src=seo_token) | Ethereum | 0.28% | $554.3K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=624dacc8-25ac-44b2-b68c-4f8d7eab1e1e#src=seo_token) | Ethereum | 0.42% | $380.6K |
 | 3 | [uniswap-v4 →](https://www.defi.garden/?pool=ee62baf9-7268-4799-8e07-0e1b2a31b2f0#src=seo_token) | Ethereum | 1.11% | $332.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -36,8 +36,8 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | aave-v3 | 0.28% | 0.75% | Base rate |
-| uniswap-v3 | 0.40% | 2.08% | Base rate |
-| uniswap-v4 | 1.11% | 25.83% | Base rate |
+| uniswap-v3 | 0.42% | 2.08% | Base rate |
+| uniswap-v4 | 1.11% | 25.82% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which RPL pools have the most stable APY history?
 
-Based on APY history only, RPL's lower-variability candidates are aave-v3 (Ethereum), 0.28% APY, $554.5K TVL, https://www.defi.garden/?pool=4a2ded3a-3667-40a8-a9b2-503b6d357b49#src=seo_token; uniswap-v3 (Ethereum), 0.40% APY, $380.7K TVL, https://www.defi.garden/?pool=624dacc8-25ac-44b2-b68c-4f8d7eab1e1e#src=seo_token; uniswap-v4 (Ethereum), 1.11% APY, $332.5K TVL, https://www.defi.garden/?pool=ee62baf9-7268-4799-8e07-0e1b2a31b2f0#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RPL's lower-variability candidates are aave-v3 (Ethereum), 0.28% APY, $554.3K TVL, https://www.defi.garden/?pool=4a2ded3a-3667-40a8-a9b2-503b6d357b49#src=seo_token; uniswap-v3 (Ethereum), 0.42% APY, $380.6K TVL, https://www.defi.garden/?pool=624dacc8-25ac-44b2-b68c-4f8d7eab1e1e#src=seo_token; uniswap-v4 (Ethereum), 1.11% APY, $332.5K TVL, https://www.defi.garden/?pool=ee62baf9-7268-4799-8e07-0e1b2a31b2f0#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

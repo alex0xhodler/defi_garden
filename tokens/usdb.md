@@ -35,7 +35,7 @@ USDB shows up in 3 pools here, with rates from 0.02% to 0.28% APY across 1 chain
 |---|---|---|---|
 | cetus-clmm | 0.02% | 0.01% | Base rate |
 | bluefin-spot | 0.02% | 0.01% | Base rate |
-| cetus-clmm | 0.28% | 0.25% | 43.44% incentives |
+| cetus-clmm | 0.28% | 0.25% | 43.47% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

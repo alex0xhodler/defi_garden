@@ -6,7 +6,7 @@ The highest honest MXHYPE yield right now is 0.07% on hybra-v4 (Hyperliquid L1),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hybra-v4 →](https://www.defi.garden/?pool=0e466d1f-a242-5fe9-b9de-b64361947fba#src=seo_token) | Hyperliquid L1 | 0.07% | $152.4K |
+| [hybra-v4 →](https://www.defi.garden/?pool=0e466d1f-a242-5fe9-b9de-b64361947fba#src=seo_token) | Hyperliquid L1 | 0.07% | $151.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MXHYPE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $152.4K in total.
+1 live pool clear this page's $100K TVL floor, $151.3K in total.
 
 ### Are these rates safe?
 

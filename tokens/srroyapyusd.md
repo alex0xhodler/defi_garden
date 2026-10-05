@@ -6,26 +6,26 @@ The highest honest SRROYAPYUSD yield right now is 15.35% on pendle-v2 (Ethereum)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [royco-v2 →](https://www.defi.garden/?pool=a061ebd7-b5db-57e9-9361-99504b710165#src=seo_token) | Ethereum | 13.16% | $3.04M |
-| [pendle-v2 →](https://www.defi.garden/?pool=25de7136-c1eb-4156-b62a-5b2b83fb80dd#src=seo_token) | Ethereum | 15.28% | $149.4K |
-| [pendle-v2 →](https://www.defi.garden/?pool=c8833fef-aa7e-474c-8a78-06808548a7f5#src=seo_token) | Ethereum | 15.35% | $149.4K |
+| [royco-v2 →](https://www.defi.garden/?pool=a061ebd7-b5db-57e9-9361-99504b710165#src=seo_token) | Ethereum | 13.17% | $3.04M |
+| [pendle-v2 →](https://www.defi.garden/?pool=25de7136-c1eb-4156-b62a-5b2b83fb80dd#src=seo_token) | Ethereum | 15.28% | $149.3K |
+| [pendle-v2 →](https://www.defi.garden/?pool=c8833fef-aa7e-474c-8a78-06808548a7f5#src=seo_token) | Ethereum | 15.35% | $149.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SRROYAPYUSD's lower-variability candidates are pendle-v2 (Ethereum), 15.35% APY, $149.4K TVL, https://www.defi.garden/?pool=c8833fef-aa7e-474c-8a78-06808548a7f5#src=seo_token; pendle-v2 (Ethereum), 15.28% APY, $149.4K TVL, https://www.defi.garden/?pool=25de7136-c1eb-4156-b62a-5b2b83fb80dd#src=seo_token; royco-v2 (Ethereum), 13.16% APY, $3.04M TVL, https://www.defi.garden/?pool=a061ebd7-b5db-57e9-9361-99504b710165#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SRROYAPYUSD's lower-variability candidates are pendle-v2 (Ethereum), 15.35% APY, $149.3K TVL, https://www.defi.garden/?pool=c8833fef-aa7e-474c-8a78-06808548a7f5#src=seo_token; pendle-v2 (Ethereum), 15.28% APY, $149.3K TVL, https://www.defi.garden/?pool=25de7136-c1eb-4156-b62a-5b2b83fb80dd#src=seo_token; royco-v2 (Ethereum), 13.17% APY, $3.04M TVL, https://www.defi.garden/?pool=a061ebd7-b5db-57e9-9361-99504b710165#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [pendle-v2 →](https://www.defi.garden/?pool=c8833fef-aa7e-474c-8a78-06808548a7f5#src=seo_token) | Ethereum | 15.35% | $149.4K |
-| 2 | [pendle-v2 →](https://www.defi.garden/?pool=25de7136-c1eb-4156-b62a-5b2b83fb80dd#src=seo_token) | Ethereum | 15.28% | $149.4K |
-| 3 | [royco-v2 →](https://www.defi.garden/?pool=a061ebd7-b5db-57e9-9361-99504b710165#src=seo_token) | Ethereum | 13.16% | $3.04M |
+| 1 | [pendle-v2 →](https://www.defi.garden/?pool=c8833fef-aa7e-474c-8a78-06808548a7f5#src=seo_token) | Ethereum | 15.35% | $149.3K |
+| 2 | [pendle-v2 →](https://www.defi.garden/?pool=25de7136-c1eb-4156-b62a-5b2b83fb80dd#src=seo_token) | Ethereum | 15.28% | $149.3K |
+| 3 | [royco-v2 →](https://www.defi.garden/?pool=a061ebd7-b5db-57e9-9361-99504b710165#src=seo_token) | Ethereum | 13.17% | $3.04M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SRROYAPYUSD shows up in 3 pools here, with rates from 13.16% to 15.35% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SRROYAPYUSD shows up in 3 pools here, with rates from 13.17% to 15.35% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 15.45% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -33,7 +33,7 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| royco-v2 | 13.16% | 30.87% | Base rate |
+| royco-v2 | 13.17% | 30.83% | Base rate |
 | pendle-v2 | 15.28% | 15.45% | Base rate |
 | pendle-v2 | 15.35% | 15.25% | Base rate |
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SRROYAPYUSD pools have the most stable APY history?
 
-Based on APY history only, SRROYAPYUSD's lower-variability candidates are pendle-v2 (Ethereum), 15.35% APY, $149.4K TVL, https://www.defi.garden/?pool=c8833fef-aa7e-474c-8a78-06808548a7f5#src=seo_token; pendle-v2 (Ethereum), 15.28% APY, $149.4K TVL, https://www.defi.garden/?pool=25de7136-c1eb-4156-b62a-5b2b83fb80dd#src=seo_token; royco-v2 (Ethereum), 13.16% APY, $3.04M TVL, https://www.defi.garden/?pool=a061ebd7-b5db-57e9-9361-99504b710165#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SRROYAPYUSD's lower-variability candidates are pendle-v2 (Ethereum), 15.35% APY, $149.3K TVL, https://www.defi.garden/?pool=c8833fef-aa7e-474c-8a78-06808548a7f5#src=seo_token; pendle-v2 (Ethereum), 15.28% APY, $149.3K TVL, https://www.defi.garden/?pool=25de7136-c1eb-4156-b62a-5b2b83fb80dd#src=seo_token; royco-v2 (Ethereum), 13.17% APY, $3.04M TVL, https://www.defi.garden/?pool=a061ebd7-b5db-57e9-9361-99504b710165#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

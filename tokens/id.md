@@ -6,7 +6,7 @@ The highest honest ID yield right now is 4.32% on sushiswap-v3 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sushiswap-v3 →](https://www.defi.garden/?pool=e63417fc-c05b-41df-b332-9ae301f39743#src=seo_token) | Ethereum | 4.32% | $648.3K |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=e63417fc-c05b-41df-b332-9ae301f39743#src=seo_token) | Ethereum | 4.32% | $648.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ID pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $749.5K in total.
+2 live pools clear this page's $100K TVL floor, $749.6K in total.
 
 ### Are these rates safe?
 

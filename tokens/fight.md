@@ -6,7 +6,7 @@ The highest honest FIGHT yield right now is 0.02% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=828a3eff-6c9b-43b5-933b-55a3d3f8a0dd#src=seo_token) | Ethereum | 0.02% | $201.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=828a3eff-6c9b-43b5-933b-55a3d3f8a0dd#src=seo_token) | Ethereum | 0.02% | $201.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many FIGHT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $201.4K in total.
+1 live pool clear this page's $100K TVL floor, $201.8K in total.
 
 ### Are these rates safe?
 

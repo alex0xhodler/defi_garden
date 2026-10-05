@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-05T13:48:59.965Z",
+  "generatedAt": "2026-10-05T14:32:31.895Z",
   "pools": [
     {
       "pool": "ac61ee82-2fe4-4f9b-a9cd-7fb33f598859",
@@ -54,7 +54,7 @@
       "symbol": "SUSDS",
       "project": "sky-lending",
       "chain": "Ethereum",
-      "tvlUsd": 4723735748,
+      "tvlUsd": 4720435150,
       "apy": 3.6,
       "defiScore": {
         "score": 92.2,
@@ -73,8 +73,8 @@
         "p90": 3.6,
         "organicApy": 3.6,
         "rewardApy": 0,
-        "predictedTvlUsd": 4683668613,
-        "predictedTvlDelta": -0.0085,
+        "predictedTvlUsd": 4682318687,
+        "predictedTvlDelta": -0.0081,
         "forwardDelta": 0,
         "crashRisk": "LOW",
         "skew": 0,
@@ -101,7 +101,7 @@
       "symbol": "USDC",
       "project": "maple",
       "chain": "Ethereum",
-      "tvlUsd": 2915215226,
+      "tvlUsd": 2927858344,
       "apy": 5.12,
       "defiScore": {
         "score": 91.5,
@@ -120,8 +120,8 @@
         "p90": 5.2,
         "organicApy": 5.08,
         "rewardApy": 0,
-        "predictedTvlUsd": 2883311987,
-        "predictedTvlDelta": -0.0109,
+        "predictedTvlUsd": 2892823935,
+        "predictedTvlDelta": -0.012,
         "forwardDelta": -0.03,
         "crashRisk": "LOW",
         "skew": 0,
@@ -148,7 +148,7 @@
       "symbol": "STETH",
       "project": "lido",
       "chain": "Ethereum",
-      "tvlUsd": 26660858373,
+      "tvlUsd": 26678489124,
       "apy": 2.22,
       "defiScore": {
         "score": 91.4,
@@ -167,8 +167,8 @@
         "p90": 2.31,
         "organicApy": 2.24,
         "rewardApy": 0,
-        "predictedTvlUsd": 26427621841,
-        "predictedTvlDelta": -0.0087,
+        "predictedTvlUsd": 26436590195,
+        "predictedTvlDelta": -0.0091,
         "forwardDelta": 0.02,
         "crashRisk": "LOW",
         "skew": 0,

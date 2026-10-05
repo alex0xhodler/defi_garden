@@ -7,8 +7,8 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [strata-markets →](https://www.defi.garden/?pool=843be062-d836-43ef-9670-c78d6ecb60bf#src=seo_token) | Ethereum | 3.90% | $17.82M |
-| [pendle-v2 →](https://www.defi.garden/?pool=7c3c3f3c-d5b9-4cb7-b930-ca63f6c11722#src=seo_token) | Ethereum | 5.16% | $4.07M |
 | [pendle-v2 →](https://www.defi.garden/?pool=1ce755be-27bd-4ecb-848c-f662e3ac2691#src=seo_token) | Ethereum | 5.70% | $4.07M |
+| [pendle-v2 →](https://www.defi.garden/?pool=7c3c3f3c-d5b9-4cb7-b930-ca63f6c11722#src=seo_token) | Ethereum | 5.16% | $4.07M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
@@ -34,8 +34,8 @@ SRUSDE 풀은 여기 3개가 있고, 1개 체인에서 APY가 3.90%부터 5.70%�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | strata-markets | 3.90% | 4.06% | 기본 금리 |
-| pendle-v2 | 5.16% | 5.46% | 인센티브 3.08% |
 | pendle-v2 | 5.70% | 5.45% | 기본 금리 |
+| pendle-v2 | 5.16% | 5.46% | 인센티브 3.06% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 

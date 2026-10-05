@@ -8,20 +8,20 @@
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=1158d570-535c-4798-9811-9f782db49732#src=seo_token) | Fraxtal | 6.22% | $1.54M |
 | [curve-dex →](https://www.defi.garden/?pool=9cced191-ad6f-4fab-b1c1-3ba2d15ccf0f#src=seo_token) | Ethereum | 2.57% | $855.2K |
-| [convex-finance →](https://www.defi.garden/?pool=94a49ecc-c7e6-410c-8a7e-7449ce3fa79a#src=seo_token) | Ethereum | 2.57% | $816.5K |
+| [convex-finance →](https://www.defi.garden/?pool=94a49ecc-c7e6-410c-8a7e-7449ce3fa79a#src=seo_token) | Ethereum | 2.57% | $816.4K |
 | [curve-dex →](https://www.defi.garden/?pool=83bf9b9c-e031-4687-b221-fa91133b8205#src=seo_token) | Arbitrum | 2.62% | $194.5K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 FXB의 변동성 낮은 후보는 Arbitrum의 curve-dex, APY 2.62%, TVL $194.5K, https://www.defi.garden/?pool=83bf9b9c-e031-4687-b221-fa91133b8205#src=seo_token; Fraxtal의 curve-dex, APY 6.22%, TVL $1.54M, https://www.defi.garden/?pool=1158d570-535c-4798-9811-9f782db49732#src=seo_token; Ethereum의 curve-dex, APY 2.57%, TVL $855.2K, https://www.defi.garden/?pool=9cced191-ad6f-4fab-b1c1-3ba2d15ccf0f#src=seo_token; Ethereum의 convex-finance, APY 2.57%, TVL $816.5K, https://www.defi.garden/?pool=94a49ecc-c7e6-410c-8a7e-7449ce3fa79a#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 FXB의 변동성 낮은 후보는 Arbitrum의 curve-dex, APY 2.62%, TVL $194.5K, https://www.defi.garden/?pool=83bf9b9c-e031-4687-b221-fa91133b8205#src=seo_token; Fraxtal의 curve-dex, APY 6.22%, TVL $1.54M, https://www.defi.garden/?pool=1158d570-535c-4798-9811-9f782db49732#src=seo_token; Ethereum의 curve-dex, APY 2.57%, TVL $855.2K, https://www.defi.garden/?pool=9cced191-ad6f-4fab-b1c1-3ba2d15ccf0f#src=seo_token; Ethereum의 convex-finance, APY 2.57%, TVL $816.4K, https://www.defi.garden/?pool=94a49ecc-c7e6-410c-8a7e-7449ce3fa79a#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [curve-dex →](https://www.defi.garden/?pool=83bf9b9c-e031-4687-b221-fa91133b8205#src=seo_token) | Arbitrum | 2.62% | $194.5K |
 | 2 | [curve-dex →](https://www.defi.garden/?pool=1158d570-535c-4798-9811-9f782db49732#src=seo_token) | Fraxtal | 6.22% | $1.54M |
 | 3 | [curve-dex →](https://www.defi.garden/?pool=9cced191-ad6f-4fab-b1c1-3ba2d15ccf0f#src=seo_token) | Ethereum | 2.57% | $855.2K |
-| 4 | [convex-finance →](https://www.defi.garden/?pool=94a49ecc-c7e6-410c-8a7e-7449ce3fa79a#src=seo_token) | Ethereum | 2.57% | $816.5K |
+| 4 | [convex-finance →](https://www.defi.garden/?pool=94a49ecc-c7e6-410c-8a7e-7449ce3fa79a#src=seo_token) | Ethereum | 2.57% | $816.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -60,7 +60,7 @@ DefiLlama 실시간 데이터 기준, Fraxtal의 curve-dex에서 APY 6.22%예요
 
 ### FXB 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 FXB의 변동성 낮은 후보는 Arbitrum의 curve-dex, APY 2.62%, TVL $194.5K, https://www.defi.garden/?pool=83bf9b9c-e031-4687-b221-fa91133b8205#src=seo_token; Fraxtal의 curve-dex, APY 6.22%, TVL $1.54M, https://www.defi.garden/?pool=1158d570-535c-4798-9811-9f782db49732#src=seo_token; Ethereum의 curve-dex, APY 2.57%, TVL $855.2K, https://www.defi.garden/?pool=9cced191-ad6f-4fab-b1c1-3ba2d15ccf0f#src=seo_token; Ethereum의 convex-finance, APY 2.57%, TVL $816.5K, https://www.defi.garden/?pool=94a49ecc-c7e6-410c-8a7e-7449ce3fa79a#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 FXB의 변동성 낮은 후보는 Arbitrum의 curve-dex, APY 2.62%, TVL $194.5K, https://www.defi.garden/?pool=83bf9b9c-e031-4687-b221-fa91133b8205#src=seo_token; Fraxtal의 curve-dex, APY 6.22%, TVL $1.54M, https://www.defi.garden/?pool=1158d570-535c-4798-9811-9f782db49732#src=seo_token; Ethereum의 curve-dex, APY 2.57%, TVL $855.2K, https://www.defi.garden/?pool=9cced191-ad6f-4fab-b1c1-3ba2d15ccf0f#src=seo_token; Ethereum의 convex-finance, APY 2.57%, TVL $816.4K, https://www.defi.garden/?pool=94a49ecc-c7e6-410c-8a7e-7449ce3fa79a#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

@@ -8,36 +8,36 @@ The highest honest DOLA yield right now is 6.83% on yearn-finance (Ethereum), am
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720#src=seo_token) | Ethereum | 4.15% | $66.6M |
 | [convex-finance →](https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183#src=seo_token) | Ethereum | 6.59% | $53.53M |
-| [yearn-finance →](https://www.defi.garden/?pool=77a6c1f4-fc04-47ff-aa62-090bcb20e3db#src=seo_token) | Ethereum | 5.94% | $12.93M |
-| [curve-dex →](https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1#src=seo_token) | Ethereum | 3.97% | $7.32M |
-| [convex-finance →](https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566#src=seo_token) | Ethereum | 6.63% | $6.22M |
+| [yearn-finance →](https://www.defi.garden/?pool=77a6c1f4-fc04-47ff-aa62-090bcb20e3db#src=seo_token) | Ethereum | 5.92% | $12.93M |
+| [curve-dex →](https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1#src=seo_token) | Ethereum | 3.96% | $7.32M |
+| [convex-finance →](https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566#src=seo_token) | Ethereum | 6.62% | $6.22M |
 | [yearn-finance →](https://www.defi.garden/?pool=b6c74919-d481-4a45-8e03-60513866c112#src=seo_token) | Ethereum | 6.83% | $1.09M |
-| [curve-dex →](https://www.defi.garden/?pool=168a12f8-56b3-47e6-86d6-9de16bcb45ec#src=seo_token) | Ethereum | 2.38% | $842.6K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=3fb276c8-b618-4abc-b015-829b90701c07#src=seo_token) | Base | 1.58% | $330.7K |
+| [curve-dex →](https://www.defi.garden/?pool=168a12f8-56b3-47e6-86d6-9de16bcb45ec#src=seo_token) | Ethereum | 2.17% | $840.5K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=3fb276c8-b618-4abc-b015-829b90701c07#src=seo_token) | Base | 1.59% | $330.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, DOLA's lower-variability candidates are aerodrome-v1 (Base), 1.58% APY, $330.7K TVL, https://www.defi.garden/?pool=3fb276c8-b618-4abc-b015-829b90701c07#src=seo_token; curve-dex (Ethereum), 2.38% APY, $842.6K TVL, https://www.defi.garden/?pool=168a12f8-56b3-47e6-86d6-9de16bcb45ec#src=seo_token; convex-finance (Ethereum), 6.59% APY, $53.53M TVL, https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183#src=seo_token; convex-finance (Ethereum), 6.63% APY, $6.22M TVL, https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566#src=seo_token; yearn-finance (Ethereum), 5.94% APY, $12.93M TVL, https://www.defi.garden/?pool=77a6c1f4-fc04-47ff-aa62-090bcb20e3db#src=seo_token; curve-dex (Ethereum), 4.15% APY, $66.6M TVL, https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720#src=seo_token; curve-dex (Ethereum), 3.97% APY, $7.32M TVL, https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1#src=seo_token; yearn-finance (Ethereum), 6.83% APY, $1.09M TVL, https://www.defi.garden/?pool=b6c74919-d481-4a45-8e03-60513866c112#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, DOLA's lower-variability candidates are aerodrome-v1 (Base), 1.59% APY, $330.7K TVL, https://www.defi.garden/?pool=3fb276c8-b618-4abc-b015-829b90701c07#src=seo_token; curve-dex (Ethereum), 2.17% APY, $840.5K TVL, https://www.defi.garden/?pool=168a12f8-56b3-47e6-86d6-9de16bcb45ec#src=seo_token; convex-finance (Ethereum), 6.59% APY, $53.53M TVL, https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183#src=seo_token; convex-finance (Ethereum), 6.62% APY, $6.22M TVL, https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566#src=seo_token; yearn-finance (Ethereum), 5.92% APY, $12.93M TVL, https://www.defi.garden/?pool=77a6c1f4-fc04-47ff-aa62-090bcb20e3db#src=seo_token; curve-dex (Ethereum), 4.15% APY, $66.6M TVL, https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720#src=seo_token; curve-dex (Ethereum), 3.96% APY, $7.32M TVL, https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1#src=seo_token; yearn-finance (Ethereum), 6.83% APY, $1.09M TVL, https://www.defi.garden/?pool=b6c74919-d481-4a45-8e03-60513866c112#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=3fb276c8-b618-4abc-b015-829b90701c07#src=seo_token) | Base | 1.58% | $330.7K |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=168a12f8-56b3-47e6-86d6-9de16bcb45ec#src=seo_token) | Ethereum | 2.38% | $842.6K |
+| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=3fb276c8-b618-4abc-b015-829b90701c07#src=seo_token) | Base | 1.59% | $330.7K |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=168a12f8-56b3-47e6-86d6-9de16bcb45ec#src=seo_token) | Ethereum | 2.17% | $840.5K |
 | 3 | [convex-finance →](https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183#src=seo_token) | Ethereum | 6.59% | $53.53M |
-| 4 | [convex-finance →](https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566#src=seo_token) | Ethereum | 6.63% | $6.22M |
-| 5 | [yearn-finance →](https://www.defi.garden/?pool=77a6c1f4-fc04-47ff-aa62-090bcb20e3db#src=seo_token) | Ethereum | 5.94% | $12.93M |
+| 4 | [convex-finance →](https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566#src=seo_token) | Ethereum | 6.62% | $6.22M |
+| 5 | [yearn-finance →](https://www.defi.garden/?pool=77a6c1f4-fc04-47ff-aa62-090bcb20e3db#src=seo_token) | Ethereum | 5.92% | $12.93M |
 | 6 | [curve-dex →](https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720#src=seo_token) | Ethereum | 4.15% | $66.6M |
-| 7 | [curve-dex →](https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1#src=seo_token) | Ethereum | 3.97% | $7.32M |
+| 7 | [curve-dex →](https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1#src=seo_token) | Ethereum | 3.96% | $7.32M |
 | 8 | [yearn-finance →](https://www.defi.garden/?pool=b6c74919-d481-4a45-8e03-60513866c112#src=seo_token) | Ethereum | 6.83% | $1.09M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-DOLA shows up in 8 pools here, with rates from 1.58% to 6.83% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+DOLA shows up in 8 pools here, with rates from 1.59% to 6.83% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 4.84% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 4.85% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 5 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -45,14 +45,14 @@ DOLA shows up in 8 pools here, with rates from 1.58% to 6.83% APY across 2 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 4.15% | 4.16% | 67.99% incentives |
-| convex-finance | 6.59% | 5.53% | 79.83% incentives |
-| yearn-finance | 5.94% | 5.97% | Base rate |
-| curve-dex | 3.97% | 4.02% | 76.55% incentives |
-| convex-finance | 6.63% | 5.75% | 85.96% incentives |
+| curve-dex | 4.15% | 4.16% | 67.96% incentives |
+| convex-finance | 6.59% | 5.53% | 79.81% incentives |
+| yearn-finance | 5.92% | 5.97% | Base rate |
+| curve-dex | 3.96% | 4.02% | 76.53% incentives |
+| convex-finance | 6.62% | 5.75% | 85.95% incentives |
 | yearn-finance | 6.83% | 6.83% | Base rate |
-| curve-dex | 2.38% | 3.11% | Base rate |
-| aerodrome-v1 | 1.58% | 1.21% | 100.00% incentives |
+| curve-dex | 2.17% | 3.11% | Base rate |
+| aerodrome-v1 | 1.59% | 1.21% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -64,7 +64,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many DOLA pools clear the TVL floor?
 
-15 live pools clear this page's $100K TVL floor, $223.11M in total.
+15 live pools clear this page's $100K TVL floor, $223.1M in total.
 
 ### Are these rates safe?
 
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which DOLA pools have the most stable APY history?
 
-Based on APY history only, DOLA's lower-variability candidates are aerodrome-v1 (Base), 1.58% APY, $330.7K TVL, https://www.defi.garden/?pool=3fb276c8-b618-4abc-b015-829b90701c07#src=seo_token; curve-dex (Ethereum), 2.38% APY, $842.6K TVL, https://www.defi.garden/?pool=168a12f8-56b3-47e6-86d6-9de16bcb45ec#src=seo_token; convex-finance (Ethereum), 6.59% APY, $53.53M TVL, https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183#src=seo_token; convex-finance (Ethereum), 6.63% APY, $6.22M TVL, https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566#src=seo_token; yearn-finance (Ethereum), 5.94% APY, $12.93M TVL, https://www.defi.garden/?pool=77a6c1f4-fc04-47ff-aa62-090bcb20e3db#src=seo_token; curve-dex (Ethereum), 4.15% APY, $66.6M TVL, https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720#src=seo_token; curve-dex (Ethereum), 3.97% APY, $7.32M TVL, https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1#src=seo_token; yearn-finance (Ethereum), 6.83% APY, $1.09M TVL, https://www.defi.garden/?pool=b6c74919-d481-4a45-8e03-60513866c112#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, DOLA's lower-variability candidates are aerodrome-v1 (Base), 1.59% APY, $330.7K TVL, https://www.defi.garden/?pool=3fb276c8-b618-4abc-b015-829b90701c07#src=seo_token; curve-dex (Ethereum), 2.17% APY, $840.5K TVL, https://www.defi.garden/?pool=168a12f8-56b3-47e6-86d6-9de16bcb45ec#src=seo_token; convex-finance (Ethereum), 6.59% APY, $53.53M TVL, https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183#src=seo_token; convex-finance (Ethereum), 6.62% APY, $6.22M TVL, https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566#src=seo_token; yearn-finance (Ethereum), 5.92% APY, $12.93M TVL, https://www.defi.garden/?pool=77a6c1f4-fc04-47ff-aa62-090bcb20e3db#src=seo_token; curve-dex (Ethereum), 4.15% APY, $66.6M TVL, https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720#src=seo_token; curve-dex (Ethereum), 3.96% APY, $7.32M TVL, https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1#src=seo_token; yearn-finance (Ethereum), 6.83% APY, $1.09M TVL, https://www.defi.garden/?pool=b6c74919-d481-4a45-8e03-60513866c112#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

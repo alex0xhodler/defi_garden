@@ -7,16 +7,16 @@ The highest honest SPRK yield right now is 13.00% on sparkdex-v4 (Flare), among 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [sparkdex-v3.1 →](https://www.defi.garden/?pool=4813a787-4ed2-46e0-b752-b2bd9b91e5f1#src=seo_token) | Flare | 1.34% | $404.4K |
-| [sparkdex-v4 →](https://www.defi.garden/?pool=794d5a98-5779-4c84-9948-e366c468a9d3#src=seo_token) | Flare | 13.00% | $170.2K |
+| [sparkdex-v4 →](https://www.defi.garden/?pool=794d5a98-5779-4c84-9948-e366c468a9d3#src=seo_token) | Flare | 13.00% | $172.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SPRK's lower-variability candidates are sparkdex-v4 (Flare), 13.00% APY, $170.2K TVL, https://www.defi.garden/?pool=794d5a98-5779-4c84-9948-e366c468a9d3#src=seo_token; sparkdex-v3.1 (Flare), 1.34% APY, $404.4K TVL, https://www.defi.garden/?pool=4813a787-4ed2-46e0-b752-b2bd9b91e5f1#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SPRK's lower-variability candidates are sparkdex-v4 (Flare), 13.00% APY, $172.9K TVL, https://www.defi.garden/?pool=794d5a98-5779-4c84-9948-e366c468a9d3#src=seo_token; sparkdex-v3.1 (Flare), 1.34% APY, $404.4K TVL, https://www.defi.garden/?pool=4813a787-4ed2-46e0-b752-b2bd9b91e5f1#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [sparkdex-v4 →](https://www.defi.garden/?pool=794d5a98-5779-4c84-9948-e366c468a9d3#src=seo_token) | Flare | 13.00% | $170.2K |
+| 1 | [sparkdex-v4 →](https://www.defi.garden/?pool=794d5a98-5779-4c84-9948-e366c468a9d3#src=seo_token) | Flare | 13.00% | $172.9K |
 | 2 | [sparkdex-v3.1 →](https://www.defi.garden/?pool=4813a787-4ed2-46e0-b752-b2bd9b91e5f1#src=seo_token) | Flare | 1.34% | $404.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -34,7 +34,7 @@ SPRK shows up in 2 pools here, with rates from 1.34% to 13.00% APY across 1 chai
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | sparkdex-v3.1 | 1.34% | 3.33% | 72.05% incentives |
-| sparkdex-v4 | 13.00% | 14.96% | 97.14% incentives |
+| sparkdex-v4 | 13.00% | 14.95% | 97.14% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SPRK pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $574.6K in total.
+2 live pools clear this page's $100K TVL floor, $577.3K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SPRK pools have the most stable APY history?
 
-Based on APY history only, SPRK's lower-variability candidates are sparkdex-v4 (Flare), 13.00% APY, $170.2K TVL, https://www.defi.garden/?pool=794d5a98-5779-4c84-9948-e366c468a9d3#src=seo_token; sparkdex-v3.1 (Flare), 1.34% APY, $404.4K TVL, https://www.defi.garden/?pool=4813a787-4ed2-46e0-b752-b2bd9b91e5f1#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SPRK's lower-variability candidates are sparkdex-v4 (Flare), 13.00% APY, $172.9K TVL, https://www.defi.garden/?pool=794d5a98-5779-4c84-9948-e366c468a9d3#src=seo_token; sparkdex-v3.1 (Flare), 1.34% APY, $404.4K TVL, https://www.defi.garden/?pool=4813a787-4ed2-46e0-b752-b2bd9b91e5f1#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

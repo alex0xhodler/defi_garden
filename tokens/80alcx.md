@@ -6,7 +6,7 @@ The highest honest 80ALCX yield right now is 13.97% on balancer-v3 (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=3e6b6c26-cbae-4822-88fa-d2268aeffc9c#src=seo_token) | Ethereum | 13.97% | $299.1K |
+| [balancer-v3 →](https://www.defi.garden/?pool=3e6b6c26-cbae-4822-88fa-d2268aeffc9c#src=seo_token) | Ethereum | 13.97% | $299.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many 80ALCX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $299.1K in total.
+1 live pool clear this page's $100K TVL floor, $299.3K in total.
 
 ### Are these rates safe?
 

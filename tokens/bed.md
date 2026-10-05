@@ -6,7 +6,7 @@ The highest honest BED yield right now is 0.31% on uniswap-v3 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=d8f01f79-078a-42a9-a0dc-40f4d012a622#src=seo_token) | Ethereum | 0.31% | $288.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d8f01f79-078a-42a9-a0dc-40f4d012a622#src=seo_token) | Ethereum | 0.31% | $288.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BED pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $288.2K in total.
+1 live pool clear this page's $100K TVL floor, $288.5K in total.
 
 ### Are these rates safe?
 

@@ -1,14 +1,14 @@
 # Cronos DeFi Yields
 
-The highest honest Cronos yield right now is 2.81% on vvs-standard (Cronos), among 63 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Cronos yield right now is 2.98% on vvs-standard (Cronos), among 63 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| VVS-WCRO | [vvs-standard →](https://www.defi.garden/?pool=2fca7a84-651c-440a-beb3-eced492a7bea#src=seo_chain) | 0.03% | $36.06M |
-| CDCETH | [crypto.com-liquid-staking →](https://www.defi.garden/?pool=9c2bff87-4f12-470d-bf13-b5b59f495dc5#src=seo_chain) | 1.93% | $25.54M |
-| WCRO-USDC | [vvs-standard →](https://www.defi.garden/?pool=966396c0-97ed-4da1-8ae8-0c55516a9ab3#src=seo_chain) | 2.81% | $6.38M |
-| WCRO-LION | [vvs-standard →](https://www.defi.garden/?pool=e67c8f7e-4bf5-49a7-bd5f-e0459b1895b5#src=seo_chain) | 0.18% | $2.34M |
-| WBTC-WCRO | [vvs-standard →](https://www.defi.garden/?pool=91a5bc7d-da57-44b7-bf8f-059d3e8ee238#src=seo_chain) | 1.56% | $2.29M |
+| VVS-WCRO | [vvs-standard →](https://www.defi.garden/?pool=2fca7a84-651c-440a-beb3-eced492a7bea#src=seo_chain) | 0.03% | $36.19M |
+| CDCETH | [crypto.com-liquid-staking →](https://www.defi.garden/?pool=9c2bff87-4f12-470d-bf13-b5b59f495dc5#src=seo_chain) | 1.93% | $25.64M |
+| WCRO-USDC | [vvs-standard →](https://www.defi.garden/?pool=966396c0-97ed-4da1-8ae8-0c55516a9ab3#src=seo_chain) | 2.98% | $6.4M |
+| WCRO-LION | [vvs-standard →](https://www.defi.garden/?pool=e67c8f7e-4bf5-49a7-bd5f-e0459b1895b5#src=seo_chain) | 0.18% | $2.35M |
+| WBTC-WCRO | [vvs-standard →](https://www.defi.garden/?pool=91a5bc7d-da57-44b7-bf8f-059d3e8ee238#src=seo_chain) | 1.60% | $2.3M |
 | CDCBTC | [tectonic →](https://www.defi.garden/?pool=c1a1fbbd-408e-4215-bea6-f6810e3ce42d#src=seo_chain) | 0.01% | $2.23M |
 | CRO | [tectonic →](https://www.defi.garden/?pool=75ed00fb-d519-41e7-883e-149b4952811d#src=seo_chain) | 0.18% | $2.01M |
 | LCRO | [tectonic →](https://www.defi.garden/?pool=3d7bb879-a2cb-4bbf-bc70-9a589ac0dfe2#src=seo_chain) | 0.01% | $1.54M |
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Cronos yield today?
 
-2.81% APY on vvs-standard (Cronos), based on live DefiLlama data.
+2.98% APY on vvs-standard (Cronos), based on live DefiLlama data.
 
 ### How many Cronos pools clear the TVL floor?
 
-63 live pools clear this page's $100K TVL floor, $146.86M in total.
+63 live pools clear this page's $100K TVL floor, $147.35M in total.
 
 ### Are these rates safe?
 

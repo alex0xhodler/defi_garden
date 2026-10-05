@@ -6,7 +6,7 @@ The highest honest NCDT yield right now is 0.81% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=95a1756d-d0f7-45c9-a21e-8c36b3ec7a0f#src=seo_token) | Ethereum | 0.81% | $192.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=95a1756d-d0f7-45c9-a21e-8c36b3ec7a0f#src=seo_token) | Ethereum | 0.81% | $192.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NCDT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $192.3K in total.
+1 live pool clear this page's $100K TVL floor, $192.6K in total.
 
 ### Are these rates safe?
 

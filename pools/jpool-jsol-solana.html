@@ -168,18 +168,18 @@
     </section>
 
     <section class="dt-panel dt-panel-full">
-      <h2 class="dt-panel-label">14-day forecast band</h2>
-      <p>Model forecast for the next 14 days: median 4.85%, range 4.69% to 5.00% (p10 to p90).</p>
+      <h2 class="dt-panel-label">14-day forecast band (experimental)</h2>
+      <p>Model forecast for the next 14 days: median 4.86%, range 4.69% to 5.00% (p10 to p90).</p>
       <table class="psp-forecast">
         <tbody>
           <tr><th scope="row">Low case (p10)</th><td>4.69%</td></tr>
-          <tr><th scope="row">Median (p50)</th><td>4.85%</td></tr>
+          <tr><th scope="row">Median (p50)</th><td>4.86%</td></tr>
           <tr><th scope="row">High case (p90)</th><td>5.00%</td></tr>
         </tbody>
       </table>
-      <p>Read: the model expects the rate to stay roughly flat, from 4.83% today to about 4.85%.</p>
+      <p>Read: the model expects the rate to stay roughly flat, from 4.83% today to about 4.86%.</p>
       <p class="psp-note">Low crash risk</p>
-      <p class="psp-note">This is a model forecast built from past data, not a promise. Actual rates can land outside the range.</p>
+      <p class="psp-note">Experimental model: in our first 10 test runs, assuming today&#39;s rate holds was more accurate than this forecast. Past multi-run evaluation is publicly documented.</p>
     </section>
 
     <section class="dt-panel dt-panel-full">
@@ -188,9 +188,9 @@
         <title id="psp-chart-title">Jpool JSOL on Solana: APY over the last 30 days, then a 14-day forecast band from 4.69% to 5.00%</title>
         <line class="psp-grid" x1="64" x2="624" y1="228.8" y2="228.8"/><text class="psp-axis" x="58" y="232.8" text-anchor="end">4.50%</text><line class="psp-grid" x1="64" x2="624" y1="128.0" y2="128.0"/><text class="psp-axis" x="58" y="132.0" text-anchor="end">4.82%</text><line class="psp-grid" x1="64" x2="624" y1="27.2" y2="27.2"/><text class="psp-axis" x="58" y="31.2" text-anchor="end">5.13%</text>
         <line class="psp-today" x1="441.7" x2="441.7" y1="16" y2="240"/>
-        <polygon class="psp-band" points="441.7,122.9 624.0,69.6 624.0,168.1"/>
-        <polyline class="psp-median" points="441.7,122.9 454.7,123.6 467.7,120.4 480.7,120.4 493.8,117.2 506.8,117.2 519.8,117.2 532.8,117.2 545.9,117.2 558.9,114.1 571.9,114.1 584.9,114.1 598.0,110.9 611.0,110.9 624.0,110.9"/>
-        <polyline class="psp-line" points="64.0,222.7 77.0,224.6 90.0,31.4 103.1,59.3 116.1,67.3 129.1,67.3 142.1,78.8 155.2,78.8 168.2,82.6 181.2,109.4 194.2,109.4 207.3,114.9 220.3,117.1 233.3,117.1 246.3,89.5 259.3,87.9 272.4,88.6 285.4,88.8 298.4,88.6 311.4,85.3 324.5,88.3 337.5,89.4 350.5,89.5 363.5,94.5 376.6,91.0 389.6,91.1 402.6,92.7 415.6,121.2 428.7,122.9 441.7,122.9"/>
+        <polygon class="psp-band" points="441.7,122.1 624.0,69.6 624.0,168.1"/>
+        <polyline class="psp-median" points="441.7,122.1 454.7,120.4 467.7,120.4 480.7,120.4 493.8,117.2 506.8,117.2 519.8,117.2 532.8,114.1 545.9,114.1 558.9,110.9 571.9,110.9 584.9,110.9 598.0,110.9 611.0,110.9 624.0,110.9"/>
+        <polyline class="psp-line" points="64.0,222.7 77.0,224.6 90.0,31.4 103.1,59.3 116.1,67.3 129.1,67.3 142.1,78.8 155.2,78.8 168.2,82.6 181.2,109.4 194.2,109.4 207.3,114.9 220.3,117.1 233.3,117.1 246.3,89.5 259.3,87.9 272.4,88.6 285.4,88.8 298.4,88.6 311.4,85.3 324.5,88.3 337.5,89.4 350.5,89.5 363.5,94.5 376.6,91.0 389.6,91.1 402.6,92.7 415.6,121.2 428.7,122.9 441.7,122.1"/>
         <text class="psp-axis" x="64" y="266" text-anchor="start">2026-09-06</text>
         <text class="psp-axis" x="441.7" y="266" text-anchor="middle">today</text>
         <text class="psp-axis" x="624" y="266" text-anchor="end">+14d</text>
@@ -220,7 +220,7 @@
     <section class="dt-panel dt-panel-full">
       <h2 class="dt-panel-label">Withdrawal notes</h2>
       <p>Exit liquidity pillar: 6.7 / 15, with $148.82M in the pool.</p>
-      <p>The model projects TVL of $147.5M in 14 days (-0.9%).</p>
+      <p>The model projects TVL of $147.47M in 14 days (-0.9%).</p>
       <p>Lock-ups, cooldowns and withdrawal queues are set by the protocol&#39;s contracts and are not in the DefiLlama feed. Check the protocol&#39;s documentation before depositing.</p>
     </section>
 
@@ -237,10 +237,10 @@
 
     <nav class="psp-similar" aria-label="Similar pools">
       <h2 class="dt-panel-label">Similar pools</h2>
-        <a class="dt-preset-btn" href="https://www.defi.garden/pools/jito-liquid-staking-jitosol-solana">Jito Liquid Staking JITOSOL on Solana ($1.26B TVL)</a>
-        <a class="dt-preset-btn" href="https://www.defi.garden/pools/binance-staked-sol-bnsol-solana">Binance Staked Sol BNSOL on Solana ($1.25B TVL)</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/pools/jito-liquid-staking-jitosol-solana">Jito Liquid Staking JITOSOL on Solana ($1.25B TVL)</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/pools/binance-staked-sol-bnsol-solana">Binance Staked Sol BNSOL on Solana ($1.24B TVL)</a>
         <a class="dt-preset-btn" href="https://www.defi.garden/pools/blackrock-buidl-buidl-solana">Blackrock Buidl BUIDL on Solana ($967.58M TVL)</a>
-        <a class="dt-preset-btn" href="https://www.defi.garden/pools/jupiter-staked-sol-jupsol-solana">Jupiter Staked Sol JUPSOL on Solana ($622.58M TVL)</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/pools/jupiter-staked-sol-jupsol-solana">Jupiter Staked Sol JUPSOL on Solana ($625.25M TVL)</a>
     </nav>
 
     <p class="psp-foot">Education, not financial advice. DeFi carries smart-contract, market and regulatory risk, and you can lose money.</p>

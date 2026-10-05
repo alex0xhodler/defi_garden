@@ -6,7 +6,7 @@ The highest honest DELTA yield right now is 0.07% on sushiswap (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sushiswap →](https://www.defi.garden/?pool=78d075ab-9e77-451b-b390-d8fec7b04143#src=seo_token) | Ethereum | 0.07% | $6.88M |
+| [sushiswap →](https://www.defi.garden/?pool=78d075ab-9e77-451b-b390-d8fec7b04143#src=seo_token) | Ethereum | 0.07% | $6.89M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DELTA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $6.88M in total.
+1 live pool clear this page's $100K TVL floor, $6.89M in total.
 
 ### Are these rates safe?
 

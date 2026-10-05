@@ -41,7 +41,7 @@ LP shows up in 5 pools here, with rates from 0.01% to 0.10% APY across 2 chains 
 |---|---|---|---|
 | wombat-exchange | 0.01% | 0.01% | 100.00% incentives |
 | wombat-exchange | 0.03% | 0.03% | 100.00% incentives |
-| wombat-exchange | 0.05% | 0.05% | 76.87% incentives |
+| wombat-exchange | 0.05% | 0.05% | 81.92% incentives |
 | wombat-exchange | 0.07% | 0.08% | 100.00% incentives |
 | wombat-exchange | 0.10% | 0.28% | 100.00% incentives |
 

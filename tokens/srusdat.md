@@ -9,8 +9,8 @@ The highest honest SRUSDAT yield right now is 10.77% on pendle-v2 (Monad), among
 | [strata-markets →](https://www.defi.garden/?pool=d0f93146-6936-4fac-841e-68178b5a59b2#src=seo_token) | Ethereum | 8.11% | $5.93M |
 | [pendle-v2 →](https://www.defi.garden/?pool=2a1a339c-5221-51f1-94bf-2fce313b23fd#src=seo_token) | Monad | 10.04% | $381.8K |
 | [pendle-v2 →](https://www.defi.garden/?pool=808eba20-0889-5afb-9ce7-e3de0c44f326#src=seo_token) | Monad | 10.77% | $381.8K |
-| [pendle-v2 →](https://www.defi.garden/?pool=69baaaab-b02b-5b4f-a415-113c11736cae#src=seo_token) | Ethereum | 10.73% | $228.5K |
 | [pendle-v2 →](https://www.defi.garden/?pool=09b1bf32-8c00-582d-aaa9-b88ac051ef6c#src=seo_token) | Ethereum | 9.61% | $228.5K |
+| [pendle-v2 →](https://www.defi.garden/?pool=69baaaab-b02b-5b4f-a415-113c11736cae#src=seo_token) | Ethereum | 10.73% | $228.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
@@ -40,8 +40,8 @@ All 5 pools pay a plain base rate right now — no incentive or reward APY mixed
 | strata-markets | 8.11% | 8.11% | Base rate |
 | pendle-v2 | 10.04% | 10.40% | Base rate |
 | pendle-v2 | 10.77% | 10.33% | Base rate |
+| pendle-v2 | 9.61% | 9.59% | Base rate |
 | pendle-v2 | 10.73% | 9.63% | Base rate |
-| pendle-v2 | 9.61% | 9.60% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

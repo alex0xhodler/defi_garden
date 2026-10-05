@@ -4,9 +4,9 @@ The highest honest Native Core yield right now is 5.12% on native-core-clob (Nat
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| WBTC | [native-core-clob →](https://www.defi.garden/?pool=cddba699-1af3-52d6-8272-f540492796b0#src=seo_chain) | 1.04% | $1.48M |
+| WBTC | [native-core-clob →](https://www.defi.garden/?pool=cddba699-1af3-52d6-8272-f540492796b0#src=seo_chain) | 1.04% | $1.49M |
 | USDC | [native-core-clob →](https://www.defi.garden/?pool=ecaff9e1-ee58-5042-9680-a1c12bc233a4#src=seo_chain) | 5.12% | $695.9K |
-| ETH | [native-core-clob →](https://www.defi.garden/?pool=9ec34926-8df8-5c86-9534-af15a68fbbc7#src=seo_chain) | 6.07% | $412.3K |
+| ETH | [native-core-clob →](https://www.defi.garden/?pool=9ec34926-8df8-5c86-9534-af15a68fbbc7#src=seo_chain) | 6.07% | $413.1K |
 | USDT | [native-core-clob →](https://www.defi.garden/?pool=a3fa51c6-62dd-500d-9d15-348940355d2b#src=seo_chain) | 3.41% | $163.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.

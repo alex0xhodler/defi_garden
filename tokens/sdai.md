@@ -8,20 +8,20 @@ The highest honest SDAI yield right now is 4.40% on sdai (Gnosis), among 5 pools
 |---|---|---|---|
 | [sky-lending →](https://www.defi.garden/pools/sky-lending-sdai-ethereum) | Ethereum | 1.25% | $201.91M |
 | [sdai →](https://www.defi.garden/?pool=13392973-be6e-4b2f-bce9-4f7dd53d1c3a#src=seo_token) | Gnosis | 4.40% | $42.57M |
-| [curve-dex →](https://www.defi.garden/?pool=d22deafb-dbb1-417c-b555-cc8c9f4b955a#src=seo_token) | Ethereum | 3.87% | $3.7M |
+| [curve-dex →](https://www.defi.garden/?pool=d22deafb-dbb1-417c-b555-cc8c9f4b955a#src=seo_token) | Ethereum | 3.89% | $3.7M |
 | [curve-dex →](https://www.defi.garden/?pool=f0eead86-5acd-41a9-93c9-b01766d120e6#src=seo_token) | Ethereum | 0.13% | $203.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SDAI's lower-variability candidates are curve-dex (Ethereum), 0.13% APY, $203.6K TVL, https://www.defi.garden/?pool=f0eead86-5acd-41a9-93c9-b01766d120e6#src=seo_token; sdai (Gnosis), 4.40% APY, $42.57M TVL, https://www.defi.garden/?pool=13392973-be6e-4b2f-bce9-4f7dd53d1c3a#src=seo_token; sky-lending (Ethereum), 1.25% APY, $201.91M TVL, https://www.defi.garden/pools/sky-lending-sdai-ethereum; curve-dex (Ethereum), 3.87% APY, $3.7M TVL, https://www.defi.garden/?pool=d22deafb-dbb1-417c-b555-cc8c9f4b955a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SDAI's lower-variability candidates are curve-dex (Ethereum), 0.13% APY, $203.6K TVL, https://www.defi.garden/?pool=f0eead86-5acd-41a9-93c9-b01766d120e6#src=seo_token; sdai (Gnosis), 4.40% APY, $42.57M TVL, https://www.defi.garden/?pool=13392973-be6e-4b2f-bce9-4f7dd53d1c3a#src=seo_token; sky-lending (Ethereum), 1.25% APY, $201.91M TVL, https://www.defi.garden/pools/sky-lending-sdai-ethereum; curve-dex (Ethereum), 3.89% APY, $3.7M TVL, https://www.defi.garden/?pool=d22deafb-dbb1-417c-b555-cc8c9f4b955a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [curve-dex →](https://www.defi.garden/?pool=f0eead86-5acd-41a9-93c9-b01766d120e6#src=seo_token) | Ethereum | 0.13% | $203.6K |
 | 2 | [sdai →](https://www.defi.garden/?pool=13392973-be6e-4b2f-bce9-4f7dd53d1c3a#src=seo_token) | Gnosis | 4.40% | $42.57M |
 | 3 | [sky-lending →](https://www.defi.garden/pools/sky-lending-sdai-ethereum) | Ethereum | 1.25% | $201.91M |
-| 4 | [curve-dex →](https://www.defi.garden/?pool=d22deafb-dbb1-417c-b555-cc8c9f4b955a#src=seo_token) | Ethereum | 3.87% | $3.7M |
+| 4 | [curve-dex →](https://www.defi.garden/?pool=d22deafb-dbb1-417c-b555-cc8c9f4b955a#src=seo_token) | Ethereum | 3.89% | $3.7M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -37,7 +37,7 @@ SDAI shows up in 4 pools here, with rates from 0.13% to 4.40% APY across 2 chain
 |---|---|---|---|
 | sky-lending | 1.25% | 1.25% | Base rate |
 | sdai | 4.40% | 4.33% | Base rate |
-| curve-dex | 3.87% | 3.81% | Base rate |
+| curve-dex | 3.89% | 3.80% | Base rate |
 | curve-dex | 0.13% | 0.14% | 0.43% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -58,7 +58,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SDAI pools have the most stable APY history?
 
-Based on APY history only, SDAI's lower-variability candidates are curve-dex (Ethereum), 0.13% APY, $203.6K TVL, https://www.defi.garden/?pool=f0eead86-5acd-41a9-93c9-b01766d120e6#src=seo_token; sdai (Gnosis), 4.40% APY, $42.57M TVL, https://www.defi.garden/?pool=13392973-be6e-4b2f-bce9-4f7dd53d1c3a#src=seo_token; sky-lending (Ethereum), 1.25% APY, $201.91M TVL, https://www.defi.garden/pools/sky-lending-sdai-ethereum; curve-dex (Ethereum), 3.87% APY, $3.7M TVL, https://www.defi.garden/?pool=d22deafb-dbb1-417c-b555-cc8c9f4b955a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SDAI's lower-variability candidates are curve-dex (Ethereum), 0.13% APY, $203.6K TVL, https://www.defi.garden/?pool=f0eead86-5acd-41a9-93c9-b01766d120e6#src=seo_token; sdai (Gnosis), 4.40% APY, $42.57M TVL, https://www.defi.garden/?pool=13392973-be6e-4b2f-bce9-4f7dd53d1c3a#src=seo_token; sky-lending (Ethereum), 1.25% APY, $201.91M TVL, https://www.defi.garden/pools/sky-lending-sdai-ethereum; curve-dex (Ethereum), 3.89% APY, $3.7M TVL, https://www.defi.garden/?pool=d22deafb-dbb1-417c-b555-cc8c9f4b955a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

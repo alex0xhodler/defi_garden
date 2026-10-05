@@ -6,7 +6,7 @@ The highest honest REGENT yield right now is 0.42% on uniswap-v4 (Base), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=cad84bf8-8484-4534-987f-eac464d3f712#src=seo_token) | Base | 0.42% | $291.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=cad84bf8-8484-4534-987f-eac464d3f712#src=seo_token) | Base | 0.42% | $291.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many REGENT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $291.6K in total.
+1 live pool clear this page's $100K TVL floor, $291.9K in total.
 
 ### Are these rates safe?
 

@@ -6,7 +6,7 @@ The highest honest CLARITY yield right now is 0.01% on minswap-dex (Cardano), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=ecd6e6b8-9774-4f7b-a561-98861eef7687#src=seo_token) | Cardano | 0.01% | $106K |
+| [minswap-dex →](https://www.defi.garden/?pool=ecd6e6b8-9774-4f7b-a561-98861eef7687#src=seo_token) | Cardano | 0.01% | $106.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CLARITY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $106K in total.
+1 live pool clear this page's $100K TVL floor, $106.9K in total.
 
 ### Are these rates safe?
 

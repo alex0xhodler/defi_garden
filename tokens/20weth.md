@@ -6,24 +6,24 @@ The highest honest 20WETH yield right now is 13.97% on balancer-v3 (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=3e6b6c26-cbae-4822-88fa-d2268aeffc9c#src=seo_token) | Ethereum | 13.97% | $299.1K |
-| [balancer-v3 →](https://www.defi.garden/?pool=b370f01e-13cc-4397-a1af-265755d9191a#src=seo_token) | Ethereum | 10.14% | $188.3K |
+| [balancer-v3 →](https://www.defi.garden/?pool=3e6b6c26-cbae-4822-88fa-d2268aeffc9c#src=seo_token) | Ethereum | 13.97% | $299.3K |
+| [balancer-v3 →](https://www.defi.garden/?pool=b370f01e-13cc-4397-a1af-265755d9191a#src=seo_token) | Ethereum | 10.11% | $189K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, 20WETH's lower-variability candidates are balancer-v3 (Ethereum), 10.14% APY, $188.3K TVL, https://www.defi.garden/?pool=b370f01e-13cc-4397-a1af-265755d9191a#src=seo_token; balancer-v3 (Ethereum), 13.97% APY, $299.1K TVL, https://www.defi.garden/?pool=3e6b6c26-cbae-4822-88fa-d2268aeffc9c#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, 20WETH's lower-variability candidates are balancer-v3 (Ethereum), 10.11% APY, $189K TVL, https://www.defi.garden/?pool=b370f01e-13cc-4397-a1af-265755d9191a#src=seo_token; balancer-v3 (Ethereum), 13.97% APY, $299.3K TVL, https://www.defi.garden/?pool=3e6b6c26-cbae-4822-88fa-d2268aeffc9c#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [balancer-v3 →](https://www.defi.garden/?pool=b370f01e-13cc-4397-a1af-265755d9191a#src=seo_token) | Ethereum | 10.14% | $188.3K |
-| 2 | [balancer-v3 →](https://www.defi.garden/?pool=3e6b6c26-cbae-4822-88fa-d2268aeffc9c#src=seo_token) | Ethereum | 13.97% | $299.1K |
+| 1 | [balancer-v3 →](https://www.defi.garden/?pool=b370f01e-13cc-4397-a1af-265755d9191a#src=seo_token) | Ethereum | 10.11% | $189K |
+| 2 | [balancer-v3 →](https://www.defi.garden/?pool=3e6b6c26-cbae-4822-88fa-d2268aeffc9c#src=seo_token) | Ethereum | 13.97% | $299.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-20WETH shows up in 2 pools here, with rates from 10.14% to 13.97% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+20WETH shows up in 2 pools here, with rates from 10.11% to 13.97% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 10.68% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -33,8 +33,8 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| balancer-v3 | 13.97% | 18.32% | 95.25% incentives |
-| balancer-v3 | 10.14% | 3.04% | Base rate |
+| balancer-v3 | 13.97% | 18.31% | 95.25% incentives |
+| balancer-v3 | 10.11% | 3.05% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many 20WETH pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $487.5K in total.
+2 live pools clear this page's $100K TVL floor, $488.3K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which 20WETH pools have the most stable APY history?
 
-Based on APY history only, 20WETH's lower-variability candidates are balancer-v3 (Ethereum), 10.14% APY, $188.3K TVL, https://www.defi.garden/?pool=b370f01e-13cc-4397-a1af-265755d9191a#src=seo_token; balancer-v3 (Ethereum), 13.97% APY, $299.1K TVL, https://www.defi.garden/?pool=3e6b6c26-cbae-4822-88fa-d2268aeffc9c#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, 20WETH's lower-variability candidates are balancer-v3 (Ethereum), 10.11% APY, $189K TVL, https://www.defi.garden/?pool=b370f01e-13cc-4397-a1af-265755d9191a#src=seo_token; balancer-v3 (Ethereum), 13.97% APY, $299.3K TVL, https://www.defi.garden/?pool=3e6b6c26-cbae-4822-88fa-d2268aeffc9c#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

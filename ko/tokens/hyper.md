@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [symbiotic →](https://www.defi.garden/?pool=e8b1e4cc-da84-5a59-8359-76b5c0a0ece6#src=seo_token) | Ethereum | 220.13% | $1.45M |
+| [symbiotic →](https://www.defi.garden/?pool=e8b1e4cc-da84-5a59-8359-76b5c0a0ece6#src=seo_token) | Ethereum | 220.13% | $1.44M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -37,7 +37,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 symbiotic에서 APY 220.13%예
 
 ### HYPER 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $2.46M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $2.44M예요.
 
 ### 이 수익률은 안전한가요?
 
