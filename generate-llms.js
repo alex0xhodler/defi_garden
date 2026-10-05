@@ -50,8 +50,9 @@ const SNAPSHOT_PATH = process.env.LLMS_SNAPSHOT_PATH || path.resolve('./data/poo
 // themselves is a human-gated decision made in app.js (+ trust-rails.js in
 // the same commit).
 const { APY_SANITY_LIMIT, DEFAULT_MIN_TVL: MIN_TVL_USD, formatTvlFloor } = require('./trust-rails.js');
-const { ENDPOINTS: API_ENDPOINTS } = require('./edge/api-core.js');
-const { TOOLS: MCP_TOOLS } = require('./edge/mcp-core.js');
+// The MCP tool list is read from the Vercel function that actually serves /mcp
+// (production is Vercel only; nothing under edge/ runs there).
+const { MCP_TOOLS } = require('./api/mcp.js');
 
 /**
  * URL for a single pool row (spec 166). Deep-links to pool-detail —
@@ -617,10 +618,6 @@ function buildAgentEndpointsSection(meta) {
   lines.push('');
 
   lines.push('## API & MCP');
-
-  API_ENDPOINTS.forEach(endpoint => {
-    lines.push(`- API route: ${endpoint.method} ${absoluteUrl(endpoint.path)}`);
-  });
   lines.push(`- MCP endpoint (Streamable HTTP): ${absoluteUrl('/mcp')}`);
   MCP_TOOLS.forEach(tool => {
     lines.push(`- MCP tool: ${tool.name}`);

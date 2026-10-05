@@ -29,15 +29,10 @@ TL;DR: Quantitative risk scoring (DeFi Score 0-100) and 14-day forward yield for
 - Verified rails: pools below $100K TVL or with total APY > 1000% are strictly disqualified.
 
 ## API & MCP
-- API route: GET https://www.defi.garden/api
-- API route: GET https://www.defi.garden/api/health
-- API route: GET https://www.defi.garden/api/pools
-- API route: GET https://www.defi.garden/api/pools/:id
-- API route: GET https://www.defi.garden/api/pricing
-- API route: GET https://www.defi.garden/api/forever-number
 - MCP endpoint (Streamable HTTP): https://www.defi.garden/mcp
 - MCP tool: find_pools
 - MCP tool: get_pool
+- MCP tool: get_pool_score
 - MCP tool: forever_number
 - MCP tool: explain_rails
 - Trust rails: minimum TVL $100K; maximum total APY 1000%.

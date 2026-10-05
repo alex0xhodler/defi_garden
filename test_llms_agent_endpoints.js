@@ -7,8 +7,9 @@
 
 const assert = require('assert');
 const fs = require('fs');
-const apiCore = require('./edge/api-core.js');
-const mcpCore = require('./edge/mcp-core.js');
+// Production is Vercel only: the tool inventory is the Vercel function's own
+// (api/mcp.js), and there is NO REST API in production, so no "API route" lines.
+const mcpServer = require('./api/mcp.js');
 const trustRails = require('./trust-rails.js');
 const llms = require('./generate-llms.js');
 
@@ -126,17 +127,13 @@ test('one shared inventory-derived API & MCP section is emitted by both builders
     'generate-llms.js must export shared buildAgentEndpointsSection(meta)'
   );
 
-  assert.ok(Array.isArray(apiCore.ENDPOINTS), 'api-core.js must export ENDPOINTS');
-  assert.ok(Array.isArray(mcpCore.TOOLS), 'mcp-core.js must export TOOLS');
+  assert.ok(Array.isArray(mcpServer.MCP_TOOLS), 'api/mcp.js must export MCP_TOOLS');
 
-  const expectedRoutes = apiCore.ENDPOINTS.map(endpoint => `${endpoint.method} ${endpoint.path}`);
-  const expectedTools = mcpCore.TOOLS.map(tool => tool.name);
-  assert.strictEqual(new Set(expectedRoutes).size, expectedRoutes.length, 'source API inventory must be unique');
+  const expectedRoutes = [];
+  const expectedTools = mcpServer.MCP_TOOLS.map(tool => tool.name);
   assert.strictEqual(new Set(expectedTools).size, expectedTools.length, 'source MCP tool inventory must be unique');
-  ['/api', '/api/pools', '/api/forever-number'].forEach(path => {
-    assert.ok(apiCore.ENDPOINTS.some(endpoint => endpoint.path === path), `positive-control route missing: ${path}`);
-  });
-  assert.strictEqual(expectedTools.length, 4, 'positive control: the actual MCP inventory currently has four tools');
+  assert.deepStrictEqual(expectedTools, ['find_pools', 'get_pool', 'get_pool_score', 'forever_number', 'explain_rails'],
+    'positive control: the actual MCP inventory is the five tools api/mcp.js serves');
 
   const meta = {
     baseUrl: BASE_URL,
@@ -181,8 +178,8 @@ test('one shared inventory-derived API & MCP section is emitted by both builders
 });
 
 test('committed llms.txt and llms-full.txt contain the generated section', () => {
-  const expectedRoutes = apiCore.ENDPOINTS.map(endpoint => `${endpoint.method} ${endpoint.path}`);
-  const expectedTools = mcpCore.TOOLS.map(tool => tool.name);
+  const expectedRoutes = [];
+  const expectedTools = mcpServer.MCP_TOOLS.map(tool => tool.name);
   const productionBaseUrl = 'https://www.defi.garden';
 
   ['llms.txt', 'llms-full.txt'].forEach(file => {

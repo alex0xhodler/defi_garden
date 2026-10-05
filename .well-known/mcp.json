@@ -2,7 +2,7 @@
   "$schema": "https://modelcontextprotocol.org/schemas/mcp-server-card-v1.json",
   "serverInfo": {
     "name": "DeFi Garden MCP Server",
-    "version": "1.0.0"
+    "version": "0.3.0"
   },
   "transports": [
     {
@@ -15,5 +15,27 @@
       "list": true,
       "call": true
     }
-  }
+  },
+  "tools": [
+    {
+      "name": "find_pools",
+      "description": "Search DeFi Garden's railed pool list by token symbol, chain, project, and minimum TVL floor. Excludes anomalous rates (>1000% APY) and pools below $100K TVL. Data is a daily snapshot of DefiLlama's pool feed."
+    },
+    {
+      "name": "get_pool",
+      "description": "Look up a single pool by its DefiLlama pool UUID, returning APY (base/reward breakdown), TVL, and anomaly / below-floor flags. Data is a daily snapshot of DefiLlama's pool feed."
+    },
+    {
+      "name": "get_pool_score",
+      "description": "Retrieve the DeFi Score (0-100) with its 4-pillar breakdown (stability, fee sustainability, depositor stickiness, exit liquidity), the experimental 14-day forward yield forecast bands (p10/p50/p90), and retail access restrictions. Look up by pool_id, or by exact asset symbol (highest-TVL railed match, with candidates listed). The forecast is experimental."
+    },
+    {
+      "name": "forever_number",
+      "description": "Computes the lump-sum capital whose yield alone covers a recurring monthly bill forever, using a TVL-weighted blended rate of railed pools (or a caller-supplied APY between 0 and 1000 percent)."
+    },
+    {
+      "name": "explain_rails",
+      "description": "Returns DeFi Garden's active filtering rules (1000% APY sanity cap, $100K TVL floor, anomaly flagging) and the data source, for autonomous agent safety."
+    }
+  ]
 }

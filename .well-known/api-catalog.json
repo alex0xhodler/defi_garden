@@ -1,23 +1,11 @@
 {
   "linkset": [
     {
-      "anchor": "https://www.defi.garden/api",
-      "service-desc": [
-        {
-          "href": "https://www.defi.garden/openapi.json",
-          "type": "application/openapi+json"
-        }
-      ],
+      "anchor": "https://www.defi.garden/mcp",
       "service-doc": [
         {
-          "href": "https://www.defi.garden/llms.txt",
-          "type": "text/markdown"
-        }
-      ],
-      "status": [
-        {
-          "href": "https://www.defi.garden/status",
-          "type": "application/json"
+          "href": "https://www.defi.garden/mcp",
+          "type": "text/html"
         }
       ]
     }
