@@ -1,182 +1,214 @@
 #!/usr/bin/env node
-
 /**
  * test_mcp_post_deploy_smoke.js
  *
- * Post-deploy smoke test for the live production MCP endpoint (Option B).
- * Executes real requests against the live URL:
- *   1. GET /api/mcp -> metadata & tool list (200)
- *   2. POST /mcp with Content-Type: application/json -> initialize handshake (200)
- *   3. POST /mcp -> notifications/initialized (expecting 200/202)
- *   4. POST /mcp -> tools/list (200)
- *   5. POST /mcp -> tools/call for every registered tool:
- *      - find_pools
- *      - get_pool
- *      - get_pool_score
- *      - forever_number
- *      - explain_rails
+ * Post-deploy smoke test for the MCP endpoint. Runs real HTTP requests against a
+ * deployed base URL (production or a Vercel preview). It needs the network, so it
+ * is NOT part of `npm test`; CI runs it from .github/workflows/post-deploy-smoke.yml.
  *
  * Usage:
- *   node test_mcp_post_deploy_smoke.js [--target https://www.defi.garden]
+ *   node test_mcp_post_deploy_smoke.js [baseUrl]
+ *   SMOKE_BASE_URL=https://example.vercel.app node test_mcp_post_deploy_smoke.js
+ *   (default: https://www.defi.garden)
+ *
+ * Exit code 1 if any check fails. A 401 on the very first request means Vercel
+ * deployment protection is on; that is a SKIP (exit 0) only when
+ * SMOKE_ALLOW_PROTECTED=1 (set by CI for non-Production deployments), else a failure.
+ *
+ * Node 18+ (global fetch), no dependencies.
  */
+'use strict';
 
-const assert = require('assert');
+const BASE_URL = String(process.argv[2] || process.env.SMOKE_BASE_URL || 'https://www.defi.garden').replace(/\/+$/, '');
+const EXPECTED_TOOLS = ['find_pools', 'get_pool', 'get_pool_score', 'forever_number', 'explain_rails'];
+const MCP_HEADERS = { 'Content-Type': 'application/json', 'Accept': 'application/json, text/event-stream' };
 
-const TARGET_HOST = process.argv.includes('--target')
-  ? process.argv[process.argv.indexOf('--target') + 1]
-  : (process.env.MCP_TARGET_HOST || 'https://www.defi.garden');
+class Failure extends Error {}
+function expect(cond, message) { if (!cond) throw new Failure(message); }
 
-async function testEndpoint(targetOverride) {
-  const targetHost = targetOverride || TARGET_HOST;
-  console.log(`🚀 Running Live MCP Smoke Test against: ${targetHost}`);
-
-  // Test 1: GET /api/mcp
-  console.log('\n1. Probing GET /api/mcp...');
-  const getRes = await fetch(`${targetHost}/api/mcp`, {
-    headers: { 'Accept': 'application/json' }
+async function http(method, path, opts) {
+  opts = opts || {};
+  const res = await fetch(BASE_URL + path, {
+    method,
+    headers: opts.headers,
+    body: opts.body,
+    redirect: opts.redirect || 'follow'
   });
-  assert.strictEqual(getRes.status, 200, `GET /api/mcp must return 200, got ${getRes.status}`);
-  const meta = await getRes.json();
-  assert.ok(meta.tools && Array.isArray(meta.tools), 'Must return tools array');
-  console.log(`  ✓ GET /api/mcp responded with ${meta.tools.length} registered tools`);
+  const text = await res.text();
+  let json = null;
+  try { json = JSON.parse(text); } catch (_e) { /* not JSON */ }
+  return { status: res.status, headers: res.headers, text, json };
+}
 
-  // Test 2: POST /api/mcp initialize
-  console.log('\n2. Probing POST /api/mcp initialize...');
-  const initRes = await fetch(`${targetHost}/api/mcp`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      jsonrpc: '2.0',
-      id: 'smoke-init',
-      method: 'initialize',
-      params: { protocolVersion: '2025-06-18' }
-    })
+let rpcId = 0;
+function rpc(path, method, params) {
+  return http('POST', path, {
+    headers: MCP_HEADERS,
+    body: JSON.stringify({ jsonrpc: '2.0', id: ++rpcId, method, params: params || {} })
   });
-  assert.strictEqual(initRes.status, 200, `POST /api/mcp initialize must return 200, got ${initRes.status}`);
-  const initData = await initRes.json();
-  assert.strictEqual(initData.jsonrpc, '2.0');
-  assert.ok(initData.result && initData.result.serverInfo, 'Must return serverInfo');
-  console.log(`  ✓ POST /api/mcp initialize succeeded (server: ${initData.result.serverInfo.name})`);
+}
 
-  // Test 3: POST /api/mcp tools/list
-  console.log('\n3. Probing POST /api/mcp tools/list...');
-  const listRes = await fetch(`${targetHost}/api/mcp`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      jsonrpc: '2.0',
-      id: 'smoke-list',
-      method: 'tools/list',
-      params: {}
-    })
-  });
-  assert.strictEqual(listRes.status, 200, `POST /api/mcp tools/list must return 200, got ${listRes.status}`);
-  const listData = await listRes.json();
-  assert.ok(listData.result && listData.result.tools, 'Must return tools array');
-  const toolNames = listData.result.tools.map(t => t.name);
-  console.log(`  ✓ Tools exposed: ${toolNames.join(', ')}`);
+/** tools/call; returns { res, payload } where payload is the parsed text content (or null). */
+async function callTool(name, args) {
+  const res = await rpc('/mcp', 'tools/call', { name, arguments: args });
+  expect(res.status === 200, `tools/call ${name}: expected HTTP 200, got ${res.status} ${res.text.slice(0, 200)}`);
+  expect(res.json && res.json.jsonrpc === '2.0', `tools/call ${name}: response is not JSON-RPC 2.0: ${res.text.slice(0, 200)}`);
+  let payload = null;
+  const content = res.json.result && res.json.result.content;
+  if (Array.isArray(content) && content[0] && typeof content[0].text === 'string') {
+    try { payload = JSON.parse(content[0].text); } catch (_e) { /* leave null */ }
+  }
+  return { res, payload };
+}
 
-  const expectedTools = ['find_pools', 'get_pool', 'get_pool_score', 'forever_number', 'explain_rails'];
-  for (const expected of expectedTools) {
-    assert.ok(toolNames.includes(expected), `Tool "${expected}" must be in tools/list`);
+const results = [];
+async function check(name, fn) {
+  try {
+    await fn();
+    results.push({ name, ok: true });
+    console.log(`  PASS  ${name}`);
+  } catch (err) {
+    results.push({ name, ok: false, message: err.message });
+    console.log(`  FAIL  ${name}\n        ${err.message}`);
+  }
+}
+
+async function main() {
+  console.log(`MCP post-deploy smoke test against ${BASE_URL}\n`);
+
+  // First request doubles as the deployment-protection probe.
+  let first;
+  try {
+    first = await http('GET', '/mcp', { headers: { 'Accept': 'text/html' } });
+  } catch (err) {
+    console.log(`  FAIL  first request to ${BASE_URL}/mcp\n        ${err.message}`);
+    process.exit(1);
+  }
+  if (first.status === 401) {
+    if (process.env.SMOKE_ALLOW_PROTECTED === '1') {
+      console.log('SKIP: deployment protected');
+      process.exit(0);
+    }
+    console.log('  FAIL  deployment returned 401 (protected) and SMOKE_ALLOW_PROTECTED is not 1');
+    process.exit(1);
   }
 
-  // Test 4: Call each tool via POST /api/mcp
-  console.log('\n4. Executing live tool queries via POST /api/mcp...');
+  const state = { poolId: null };
 
-  // 4a. find_pools
-  const findRes = await fetch(`${targetHost}/api/mcp`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      jsonrpc: '2.0',
-      id: 'smoke-find',
-      method: 'tools/call',
-      params: { name: 'find_pools', arguments: { token: 'USDC', chain: 'Base', limit: 3 } }
-    })
+  await check('GET /mcp (Accept: text/html) -> 200 text/html page mentioning "Model Context Protocol"', async () => {
+    expect(first.status === 200, `expected 200, got ${first.status}`);
+    const ct = first.headers.get('content-type') || '';
+    expect(ct.includes('text/html'), `expected text/html content-type, got "${ct}"`);
+    expect(first.text.includes('Model Context Protocol'), 'body does not contain "Model Context Protocol"');
   });
-  assert.strictEqual(findRes.status, 200);
-  const findData = await findRes.json();
-  assert.strictEqual(findData.result.isError, false);
-  const findBody = JSON.parse(findData.result.content[0].text);
-  assert.ok(findBody.pools.length > 0, 'find_pools must return pools');
-  const samplePoolId = findBody.pools[0].pool;
-  console.log(`  ✓ find_pools returned ${findBody.pools.length} USDC pools on Base`);
 
-  // 4b. get_pool
-  const getPoolRes = await fetch(`${targetHost}/api/mcp`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      jsonrpc: '2.0',
-      id: 'smoke-get-pool',
-      method: 'tools/call',
-      params: { name: 'get_pool', arguments: { pool_id: samplePoolId } }
-    })
+  await check('POST /mcp initialize -> 200 JSON with result.protocolVersion and serverInfo', async () => {
+    const res = await rpc('/mcp', 'initialize', { protocolVersion: '2025-06-18', capabilities: {}, clientInfo: { name: 'smoke', version: '1' } });
+    expect(res.status === 200, `expected 200, got ${res.status} ${res.text.slice(0, 200)}`);
+    expect(res.json && res.json.result, `no JSON-RPC result: ${res.text.slice(0, 200)}`);
+    expect(res.json.result.protocolVersion, 'result.protocolVersion missing');
+    expect(res.json.result.serverInfo && res.json.result.serverInfo.name, 'result.serverInfo missing');
   });
-  assert.strictEqual(getPoolRes.status, 200);
-  const getPoolData = await getPoolRes.json();
-  assert.strictEqual(getPoolData.result.isError, false);
-  console.log(`  ✓ get_pool returned pool data for ${samplePoolId}`);
 
-  // 4c. get_pool_score
-  const scoreRes = await fetch(`${targetHost}/api/mcp`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      jsonrpc: '2.0',
-      id: 'smoke-score',
-      method: 'tools/call',
-      params: { name: 'get_pool_score', arguments: { pool_id: samplePoolId } }
-    })
+  await check('POST /mcp notifications/initialized (no id) -> 202 with empty body', async () => {
+    const res = await http('POST', '/mcp', {
+      headers: MCP_HEADERS,
+      body: JSON.stringify({ jsonrpc: '2.0', method: 'notifications/initialized' })
+    });
+    expect(res.status === 202, `expected 202, got ${res.status} ${res.text.slice(0, 200)}`);
+    expect(res.text === '', `expected empty body, got "${res.text.slice(0, 100)}"`);
   });
-  assert.strictEqual(scoreRes.status, 200);
-  const scoreData = await scoreRes.json();
-  assert.strictEqual(scoreData.result.isError, false);
-  const scoreBody = JSON.parse(scoreData.result.content[0].text);
-  assert.ok(scoreBody.defi_score && scoreBody.defi_score.score > 0, 'Must have score');
-  console.log(`  ✓ get_pool_score returned score ${scoreBody.defi_score.score} / 100`);
 
-  // 4d. forever_number
-  const fnRes = await fetch(`${targetHost}/api/mcp`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      jsonrpc: '2.0',
-      id: 'smoke-fn',
-      method: 'tools/call',
-      params: { name: 'forever_number', arguments: { monthly: 100 } }
-    })
+  await check('POST /mcp responses are Cache-Control: no-store', async () => {
+    const res = await rpc('/mcp', 'tools/list');
+    const cc = res.headers.get('cache-control') || '';
+    expect(/no-store/i.test(cc), `expected no-store, got "${cc}"`);
   });
-  assert.strictEqual(fnRes.status, 200);
-  const fnData = await fnRes.json();
-  assert.strictEqual(fnData.result.isError, false);
-  console.log(`  ✓ forever_number returned calculation for $100/mo`);
 
-  // 4e. explain_rails
-  const railsRes = await fetch(`${targetHost}/api/mcp`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      jsonrpc: '2.0',
-      id: 'smoke-rails',
-      method: 'tools/call',
-      params: { name: 'explain_rails', arguments: {} }
-    })
+  await check('POST /mcp tools/list -> exactly the 5 tool names', async () => {
+    const res = await rpc('/mcp', 'tools/list');
+    expect(res.status === 200, `expected 200, got ${res.status} ${res.text.slice(0, 200)}`);
+    const names = ((res.json && res.json.result && res.json.result.tools) || []).map(t => t.name);
+    expect(names.length === EXPECTED_TOOLS.length && EXPECTED_TOOLS.every(n => names.includes(n)),
+      `expected ${JSON.stringify(EXPECTED_TOOLS)}, got ${JSON.stringify(names)}`);
   });
-  assert.strictEqual(railsRes.status, 200);
-  const railsData = await railsRes.json();
-  assert.strictEqual(railsData.result.isError, false);
-  console.log(`  ✓ explain_rails returned active filtering rules`);
 
-  console.log('\n✅ All Live MCP smoke tests passed successfully!');
-}
+  await check('tools/call find_pools {token:USDC, limit:3} -> no isError, as_of, every pool within rails', async () => {
+    const { res, payload } = await callTool('find_pools', { token: 'USDC', limit: 3 });
+    expect(res.json.result.isError !== true, `isError true: ${res.text.slice(0, 300)}`);
+    expect(payload && payload.as_of, 'as_of missing');
+    expect(Array.isArray(payload.pools) && payload.pools.length > 0, 'no pools returned');
+    for (const p of payload.pools) {
+      expect(Number(p.tvlUsd) >= 100000, `pool ${p.pool} tvlUsd ${p.tvlUsd} is below the $100K floor`);
+      expect(Number(p.totalApy) <= 1000, `pool ${p.pool} totalApy ${p.totalApy} exceeds the 1000% cap`);
+    }
+    state.poolId = payload.pools[0].pool;
+  });
 
-if (require.main === module) {
-  testEndpoint().catch(err => {
-    console.error('\n❌ MCP Live Smoke Test Failed:', err.message);
+  await check('tools/call get_pool {pool_id from find_pools} -> no isError, as_of', async () => {
+    expect(state.poolId, 'no pool id (find_pools check failed)');
+    const { res, payload } = await callTool('get_pool', { pool_id: state.poolId });
+    expect(res.json.result.isError !== true, `isError true: ${res.text.slice(0, 300)}`);
+    expect(payload && payload.as_of, 'as_of missing');
+    expect(payload.pool === state.poolId, `expected pool ${state.poolId}, got ${payload.pool}`);
+  });
+
+  await check('tools/call get_pool_score {pool_id from find_pools} -> no isError, as_of', async () => {
+    expect(state.poolId, 'no pool id (find_pools check failed)');
+    const { res, payload } = await callTool('get_pool_score', { pool_id: state.poolId });
+    expect(res.json.result.isError !== true, `isError true: ${res.text.slice(0, 300)}`);
+    expect(payload && payload.as_of, 'as_of missing');
+  });
+
+  await check('tools/call forever_number {monthly:20} -> no isError, as_of, rateMethod', async () => {
+    const { res, payload } = await callTool('forever_number', { monthly: 20 });
+    expect(res.json.result.isError !== true, `isError true: ${res.text.slice(0, 300)}`);
+    expect(payload && payload.as_of, 'as_of missing');
+    expect(payload.rateMethod, 'rateMethod missing');
+  });
+
+  await check('tools/call explain_rails {} -> no isError, as_of', async () => {
+    const { res, payload } = await callTool('explain_rails', {});
+    expect(res.json.result.isError !== true, `isError true: ${res.text.slice(0, 300)}`);
+    expect(payload && payload.as_of, 'as_of missing');
+  });
+
+  await check('tools/call forever_number {monthly:20, apy:5000} -> isError true', async () => {
+    const { res } = await callTool('forever_number', { monthly: 20, apy: 5000 });
+    expect(res.json.result.isError === true, `expected isError true, got ${res.text.slice(0, 300)}`);
+  });
+
+  await check('tools/call get_pool {} -> JSON-RPC error -32602', async () => {
+    const res = await rpc('/mcp', 'tools/call', { name: 'get_pool', arguments: {} });
+    expect(res.json && res.json.error && res.json.error.code === -32602,
+      `expected JSON-RPC error -32602, got ${res.text.slice(0, 300)}`);
+  });
+
+  await check('POST /api/mcp tools/list -> 200 with the same 5 names', async () => {
+    const res = await rpc('/api/mcp', 'tools/list');
+    expect(res.status === 200, `expected 200, got ${res.status} ${res.text.slice(0, 200)}`);
+    const names = ((res.json && res.json.result && res.json.result.tools) || []).map(t => t.name);
+    expect(names.length === EXPECTED_TOOLS.length && EXPECTED_TOOLS.every(n => names.includes(n)),
+      `expected ${JSON.stringify(EXPECTED_TOOLS)}, got ${JSON.stringify(names)}`);
+  });
+
+  await check('GET /agents (redirect: manual) -> 301/308 with Location ending in /mcp', async () => {
+    const res = await http('GET', '/agents', { redirect: 'manual' });
+    expect(res.status === 301 || res.status === 308, `expected 301 or 308, got ${res.status}`);
+    const loc = res.headers.get('location') || '';
+    expect(loc.endsWith('/mcp'), `expected Location ending in /mcp, got "${loc}"`);
+  });
+
+  const failed = results.filter(r => !r.ok);
+  console.log(`\n${results.length - failed.length}/${results.length} checks passed against ${BASE_URL}`);
+  if (failed.length) {
+    console.log('Failed checks:');
+    failed.forEach(f => console.log(`  - ${f.name}`));
     process.exit(1);
-  });
+  }
 }
 
-module.exports = { testEndpoint };
+main().catch(err => {
+  console.error('Smoke test crashed:', err);
+  process.exit(1);
+});
