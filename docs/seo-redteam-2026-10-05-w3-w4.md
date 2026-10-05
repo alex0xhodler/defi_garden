@@ -121,3 +121,49 @@ run('snapB.json','h_2026-09-20.json','h_2026-10-04.json')
 PY
 ```
 A positive skill means the model beats "no change". Today it is **−0.28** and **+0.07**.
+
+---
+
+## Addendum, 2026-10-05 (evening): red team of PR #511 (MCP cleanup) + #510 follow-up
+
+**#510 is merged, and B1–B4 are fixed on `main`.** The forecast record now writes once and only on scheduled runs (`GITHUB_EVENT_NAME === 'schedule'`, skips if today's file exists). `forecast-accuracy.html` is in the workflow's `git add` list. "Pre-registered" is gone and "locked as of" is in. The raw LaTeX is gone and there's a backfill note. The page is still `noindex`, which is correct until report day.
+
+**#511 is open, not merged.** `main`'s `api/mcp.js` still contains `BASE_PRIMITIVES_BASELINE`, `get_looping_params` and the `Delta Principal == 0` claim. Whether those reach production depends on which server answers `/api/mcp` (see M2). Merge #511 today, after the fixes below.
+
+**Verdict:** deleting the invented data is right. The new delegation breaks on Vercel, one invented claim survives in the page metadata, and W5 (`get_pool_score`) quietly disappeared.
+
+| # | Problem | Evidence | Fix |
+|---|---|---|---|
+| **M1** | **`/api/mcp` crashes on Vercel** | `api/mcp.js` calls `require('../edge/mcp-core.js')`, but `.vercelignore:77` excludes `/edge/`, so the file is never deployed and the function fails to load (MODULE_NOT_FOUND → 500). Local tests pass because `edge/` exists locally; Vercel's deploy doesn't have it. | **Delete `api/mcp.js`.** The Cloudflare worker already handles `/api/mcp` (`edge/agent-log.mjs:123`, `isApiMcpPath → handleMcp`), so one implementation is enough. If you need a Vercel fallback, move `mcp-core.js` to a shared folder that isn't ignored. Extend `test_vercelignore.js`: every `require()` under `api/**` must point at a deployed path. |
+| **M2** | **"Both serve the exact same tools" isn't the same as the same data** | The worker answers from **live** `yields.llama.fi` (`agent-log.mjs:223`, memoized). `api/mcp.js` answers from the **bundled** `data/pools-snapshot.json`, which is only as fresh as the last deploy, and returns `[]` silently if the file is missing (`getPools` swallows errors). The same query can return different numbers depending on the path. | One server (M1) solves it. Add `as_of` (data timestamp) to every tool response. |
+| **M3** | **The fake "15 bps freeze" claim survives in structured data** | `agents.html:78` and `mcp.html:78` (FAQ JSON-LD): *"dual-oracle divergence tripwires (15 bps freeze)"*. Crawlers and AI tools read this text first. | Delete it, and list only the rails that exist: 1000% APY ceiling, $100K TVL floor, anomaly demotion. |
+| **M4** | **W5 (`get_pool_score`) has been removed without being called out** | The canonical tools are `find_pools`, `get_pool`, `forever_number` and `explain_rails`. The tool that returned DeFi Score, the forecast and the access flag is gone, and the W5 "live" claim in the earlier status is now false. It may never have reached production: if the worker was already answering `/api/mcp`, the Vercel `get_pool_score` was never served. | Decide now: (a) port it to `mcp-core` by having the worker fetch a compact `data/pool-scores.json` that CI publishes (score, breakdown, forecast with `experimental: true` and the median skill score, access flag, `as_of`); or (b) drop W5 from the plan in writing. Don't let it vanish silently. |
+| **M5** | **The test covers far less than it claims** | The new assertion calls `mcpCore` directly, for **one tool** (`find_pools`) and **one token** (USDC), comparing `totalApy` and `tvlUsd`. It never goes through `api/mcp.js` (so it misses M1), and never covers `get_pool`, `forever_number` or `explain_rails`. "All MCP tool responses are strictly derived from live snapshot data" overstates it. | Run `tools/list` and call each tool through the real handler, checking every numeric field against the snapshot (or against `explain_rails` for the rail constants). Add a static check that no file under `api/` defines its own `TOOLS`. |
+| M6 | Leftover GET-SSE handler in `api/mcp.js` never closes the stream | It writes `event: endpoint` and returns without `res.end()`, so the connection stays open until the function times out | Goes away with M1 |
+
+**Check production yourself before listing anywhere** (I can't reach defi.garden from here):
+```bash
+for u in https://www.defi.garden/mcp https://www.defi.garden/api/mcp https://defi-garden.vercel.app/api/mcp; do
+  printf "%-45s " "$u"
+  curl -s -m 20 -X POST "$u" -H 'content-type: application/json' -H 'accept: application/json, text/event-stream' \
+    -d '{"jsonrpc":"2.0","id":1,"method":"tools/list"}' | grep -oE '"name":"[a-z_]+"' | tr '\n' ' '; echo
+done
+# expect the same 4–5 canonical names on the first two; the vercel.app line shows what Vercel alone serves (M1)
+curl -s -m 20 -X POST https://www.defi.garden/mcp -H 'content-type: application/json' \
+  -d '{"jsonrpc":"2.0","id":2,"method":"tools/call","params":{"name":"find_pools","arguments":{"token":"USDC","limit":3}}}' | head -c 600; echo
+```
+Swap in your real `*.vercel.app` hostname. Also confirm that the deployed **worker** version matches `main` (`wrangler deployments list`). The worker is deployed by hand, so the repo isn't proof of what's live.
+
+### Carried over (the PR #510 addendum was lost when the branch was switched): the movers finding, needed for report #1
+From the Sep 12 → Sep 26 run in `data/forecasts/`: **60%** of pools moved < 0.1 pp in 14 days, and the model handles those fine. On the **23%** that moved ≥ 0.5 pp (612 pools), model avg error is **7.18 pp vs 4.86 pp** for assuming no change, and the forecast range caught only **41%** of them. **The range is right when nothing happens and wrong when something does.** Half the DeFi Score comes from this forecast, and the ranges are too narrow (71% caught vs the 80% target; stablecoins 64–69%), so the *Stability* part overrates stability. Report hook: *"60% of DeFi yields didn't move in two weeks. Our model nailed those and missed the ones that mattered."* Model fix comes **after** the report: widen the ranges using only earlier runs (split conformal), rescore, and publish a changelog line.
+
+### Updated order
+1. **#511 + M1/M3/M5** → merge → run the checks above.
+2. **Decide on M4**: port `get_pool_score` with honest fields, or drop W5.
+3. **Then** list in the registries (P1-1), pointing at **`https://www.defi.garden/mcp` only**.
+4. Report #1 (Oct 20), unchanged. Switch `/forecast-accuracy` to `index` that day.
+
+### Don't build (additions)
+- **Don't** keep a second MCP implementation "as a fallback" that can't load where it's deployed.
+- **Don't** claim a test proves "all tools" when it checks one tool and one token.
+- **Don't** list in registries before the production `tools/list` matches the repo.

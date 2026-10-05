@@ -175,24 +175,71 @@ function routeMode(search) {
     assert.strictEqual(routeMode('?token=USDC'), 'analytics');
   });
 
-  await test('canonical MCP tools (edge/mcp-core.js) contain no hard-coded rates or fabricated baselines', () => {
+  await test('canonical MCP tools (edge/mcp-core.js) contain no hard-coded rates or fabricated baselines across any tool', () => {
     const mcpCore = require('./edge/mcp-core.js');
     const snap = require('./data/pools-snapshot.json');
     const snapPoolMap = new Map(snap.pools.map(p => [p.pool, p]));
 
-    const findRes = mcpCore.handleMcpMessage({
-      message: { jsonrpc: '2.0', id: 'probe-1', method: 'tools/call', params: { name: 'find_pools', arguments: { token: 'USDC', limit: 10 } } },
+    // 1. find_pools across multiple tokens and chains
+    const testCases = [
+      { token: 'USDC', chain: 'Base', limit: 5 },
+      { token: 'ETH', chain: 'Ethereum', limit: 5 },
+      { token: 'SOL', chain: 'Solana', limit: 5 },
+      { project: 'aave-v3', limit: 5 }
+    ];
+
+    for (const args of testCases) {
+      const res = mcpCore.handleMcpMessage({
+        message: { jsonrpc: '2.0', id: 'probe-find', method: 'tools/call', params: { name: 'find_pools', arguments: args } },
+        pools: snap.pools
+      });
+      assert.strictEqual(res.status, 200);
+      assert.strictEqual(res.body.result.isError, false);
+      const body = JSON.parse(res.body.result.content[0].text);
+      assert.ok(body.pools.length > 0, `find_pools with ${JSON.stringify(args)} must return pools`);
+
+      for (const p of body.pools) {
+        const origin = snapPoolMap.get(p.pool);
+        assert.ok(origin, `Pool ${p.pool} must exist in snapshot`);
+        assert.strictEqual(p.totalApy, (Number(origin.apyBase) || 0) + (Number(origin.apyReward) || 0), 'totalApy must match snapshot');
+        assert.strictEqual(p.tvlUsd, origin.tvlUsd, 'tvlUsd must match snapshot');
+        assert.ok(p.tvlUsd >= 100000, 'must clear TVL floor');
+        assert.ok(p.totalApy <= 1000, 'must clear APY sanity ceiling');
+      }
+    }
+
+    // 2. get_pool by ID
+    const samplePoolId = snap.pools[0].pool;
+    const getRes = mcpCore.handleMcpMessage({
+      message: { jsonrpc: '2.0', id: 'probe-get', method: 'tools/call', params: { name: 'get_pool', arguments: { pool_id: samplePoolId } } },
       pools: snap.pools
     });
-    const findBody = JSON.parse(findRes.body.result.content[0].text);
-    assert.ok(findBody.pools.length > 0, 'find_pools must return railed snapshot pools');
+    assert.strictEqual(getRes.status, 200);
+    assert.strictEqual(getRes.body.result.isError, false);
+    const getBody = JSON.parse(getRes.body.result.content[0].text);
+    const origin = snapPoolMap.get(samplePoolId);
+    assert.strictEqual(getBody.totalApy, (Number(origin.apyBase) || 0) + (Number(origin.apyReward) || 0));
+    assert.strictEqual(getBody.tvlUsd, origin.tvlUsd);
 
-    for (const p of findBody.pools) {
-      const origin = snapPoolMap.get(p.pool);
-      assert.ok(origin, `Pool ${p.pool} must exist in snapshot`);
-      assert.strictEqual(p.totalApy, (Number(origin.apyBase) || 0) + (Number(origin.apyReward) || 0));
-      assert.strictEqual(p.tvlUsd, origin.tvlUsd);
-    }
+    // 3. forever_number calculation
+    const fnRes = mcpCore.handleMcpMessage({
+      message: { jsonrpc: '2.0', id: 'probe-fn', method: 'tools/call', params: { name: 'forever_number', arguments: { monthly: 100, apy: 5.0 } } },
+      pools: snap.pools
+    });
+    assert.strictEqual(fnRes.status, 200);
+    assert.strictEqual(fnRes.body.result.isError, false);
+    const fnBody = JSON.parse(fnRes.body.result.content[0].text);
+    assert.strictEqual(fnBody.foreverNumber, 24000); // 100 * 12 / 0.05 = 24000
+
+    // 4. explain_rails
+    const erRes = mcpCore.handleMcpMessage({
+      message: { jsonrpc: '2.0', id: 'probe-er', method: 'tools/call', params: { name: 'explain_rails', arguments: {} } },
+      pools: snap.pools
+    });
+    assert.strictEqual(erRes.status, 200);
+    const erBody = JSON.parse(erRes.body.result.content[0].text);
+    assert.strictEqual(erBody.rails.minTvl, 100000);
+    assert.strictEqual(erBody.rails.apySanityLimit, 1000);
   });
 
   console.log(`\n${passed} assertions passed; ${failed} failed`);
