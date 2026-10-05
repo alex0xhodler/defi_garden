@@ -33,11 +33,18 @@ const https = require('https');
 // generate-sitemap.js beside the rails it reuses — see that file's require-
 // cycle-hazard comment for why it isn't a separate head-selection.js module).
 const { getPoolType, selectHeadTokens } = require('./generate-sitemap.js');
-// REUSE (spec 050): the same en/ko catalog + lookup helper the app already
-// ships (translations.js is Node-requireable — module.exports at the bottom).
-// Static pages are copy-only translated: pool data/numbers are identical
-// between language variants (CLAUDE.md — en-US formatting, never per-locale).
-const { createTranslationFunction, translations, formatCount } = require('./translations.js');
+// REUSE (spec 050): the same en/ko catalog the app already ships, now behind
+// the Node-only i18n/ layer that also serves the pt/es static dictionaries and
+// the generator-only EN/KO keys (translations.js itself is untouched — it is a
+// browser bundle and must not grow). Static pages are copy-only translated:
+// pool data/numbers are identical between language variants (CLAUDE.md —
+// en-US formatting, never per-locale).
+const { createTranslationFunction, formatCount } = require('./i18n');
+// The ordered list of languages the static estate is generated in.
+const {
+  LANGUAGES, LANG_CODES, FULL_SCOPE_CODES, HEAD_SCOPE_CODES,
+  getLanguage, normalizeLang, isHeadScope, langPath, langUrl, langDir, orderCodes
+} = require('./languages.js');
 // W1: uuid -> /pools/<slug> manifest lookup (leaf module, no require cycle).
 const { getPoolPageSlug } = require('./pool-page-links.js');
 // REUSE (spec 066): planner.js IS Node-requireable (module.exports guarded at
@@ -46,7 +53,7 @@ const { getPoolPageSlug } = require('./pool-page-links.js');
 // math the live planner uses. Never re-derive a parallel calc path here.
 const gp = require('./planner.js');
 
-const SUPPORTED_LANGS = ['en', 'ko'];
+const SUPPORTED_LANGS = LANG_CODES.slice();
 
 // Canonical site URL — matches plan.html / home.html / generate-stories.js
 const SITE_URL = 'https://www.defi.garden';
@@ -230,13 +237,92 @@ function renderLastUpdatedHtml(genDate, lang) {
   return `    <p class="note">${escapeHtml(t('tcpLastUpdated', genDate))}</p>\n`;
 }
 
-/** Reciprocal hreflang tags (050): each language variant declares itself,
- * the other language, and x-default (always the en URL — Google's default-
- * language guidance). Self-canonical is set separately via <link rel=canonical>. */
-function renderHreflangLinks(enUrl, koUrl) {
-  return `    <link rel="alternate" hreflang="en" href="${enUrl}">
-    <link rel="alternate" hreflang="ko" href="${koUrl}">
-    <link rel="alternate" hreflang="x-default" href="${enUrl}">\n`;
+/** Reciprocal hreflang tags (050, generalised for N languages).
+ *
+ * `neutralPath` is the page's language-neutral path ('/tokens/usdc',
+ * '/chains/ethereum', '/pools'); `langs` is the set of language codes in
+ * which THAT page actually exists. One <link rel="alternate" hreflang> per
+ * existing language (in languages.js order) plus x-default -> the EN URL
+ * (Google's default-language guidance). Every language version of a page must
+ * pass the SAME set so the annotations are reciprocal — never list a language
+ * the page was not generated in (a thin, noindexed token page lists only the
+ * 'all'-scope languages). Self-canonical is set separately via <link
+ * rel=canonical>. */
+function renderHreflangLinks(neutralPath, langs) {
+  const codes = orderCodes(langs);
+  if (!codes.includes('en')) throw new Error('renderHreflangLinks: EN is the x-default and must exist for ' + neutralPath);
+  const lines = codes.map(code =>
+    `    <link rel="alternate" hreflang="${getLanguage(code).hreflang}" href="${langUrl(SITE_URL, code, neutralPath)}">`);
+  lines.push(`    <link rel="alternate" hreflang="x-default" href="${langUrl(SITE_URL, 'en', neutralPath)}">`);
+  return lines.join('\n') + '\n';
+}
+
+/** The languages a token page exists in. 'all'-scope languages always get it;
+ * 'head'-scope languages (pt/es) only when the page is indexable — the exact
+ * rule that sets `index,follow` below (qualifyingCount >= NOINDEX_POOL_THRESHOLD).
+ * A thin noindexed page is therefore never generated in pt/es. */
+function isIndexableToken(rec) {
+  return rec.qualifyingCount >= NOINDEX_POOL_THRESHOLD;
+}
+function tokenLangCodes(rec) {
+  return orderCodes(FULL_SCOPE_CODES.concat(isIndexableToken(rec) ? HEAD_SCOPE_CODES : []));
+}
+
+/** Language switcher for a static page (replaces the old single EN<->KO
+ * toggle): a compact list of links to the language versions that EXIST for
+ * this page, short codes in languages.js order (EN · KO · PT · ES). The current
+ * language is a non-link with aria-current="true"; every link carries hreflang
+ * and lang. `t` is the page's translation function (nav aria-label). */
+function renderLanguageSwitcher(neutralPath, currentLang, langs, t) {
+  const codes = orderCodes(langs);
+  if (codes.length < 2) return '';
+  const current = normalizeLang(currentLang);
+  const items = codes.map(code => {
+    const l = getLanguage(code);
+    if (code === current) {
+      return `        <li><span aria-current="true" lang="${l.htmlLang}" title="${escapeHtml(l.label)}">${escapeHtml(l.short)}</span></li>`;
+    }
+    return `        <li><a href="${langUrl(SITE_URL, code, neutralPath)}" hreflang="${l.hreflang}" lang="${l.htmlLang}" title="${escapeHtml(l.label)}" aria-label="${escapeHtml(l.label)}">${escapeHtml(l.short)}</a></li>`;
+  }).join('\n');
+  return `    <nav class="lang-switch" aria-label="${escapeHtml(t('tcpLanguageLabel'))}">
+      <ul>
+${items}
+      </ul>
+    </nav>\n`;
+}
+
+/** Scoped CSS for renderLanguageSwitcher — tokens only, the same pill the
+ * page's own `.related-links a` chips use; selected = accent-soft (Quiet
+ * design system); no shadow but the shared focus ring; no motion. */
+function renderLangSwitchStyle() {
+  return `      .lang-switch ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; }
+      .lang-switch a, .lang-switch [aria-current] { display: inline-flex; align-items: center; min-height: 38px; box-sizing: border-box; padding: 0 14px; border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; font-size: .9rem; font-weight: 600; text-decoration: none; }
+      .lang-switch a { background: var(--ui-surface); color: var(--ui-accent); }
+      .lang-switch a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .lang-switch a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .lang-switch a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .lang-switch [aria-current] { background: var(--ui-accent-soft); border-color: var(--ui-accent-border); color: var(--ui-text); }
+      @media (prefers-reduced-motion: reduce) { .lang-switch a:active { transform: none; } }
+`;
+}
+
+/** Sitemap <xhtml:link> alternates for one URL (same set as the page's
+ * on-page hreflang, so the two signals can never disagree). */
+function renderSitemapAlternates(neutralPath, langs) {
+  const codes = orderCodes(langs);
+  const lines = codes.map(code =>
+    `    <xhtml:link rel="alternate" hreflang="${getLanguage(code).hreflang}" href="${langUrl(SITE_URL, code, neutralPath)}" />`);
+  lines.push(`    <xhtml:link rel="alternate" hreflang="x-default" href="${langUrl(SITE_URL, 'en', neutralPath)}" />`);
+  return lines.join('\n') + '\n';
+}
+const SITEMAP_URLSET_OPEN = '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">';
+const SITEMAP_URLSET_OPEN_XHTML = '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"\n        xmlns:xhtml="http://www.w3.org/1999/xhtml">';
+
+/** Language-neutral path of a sitemap <loc> (strips SITE_URL and `lang`'s prefix). */
+function neutralPathOfLoc(loc, lang) {
+  const prefix = langPath(lang, '');
+  const rest = String(loc).slice(SITE_URL.length);
+  return prefix && rest.startsWith(prefix) ? rest.slice(prefix.length) : rest;
 }
 
 /** Font preload hints (247 world): Public Sans (text) / Besley (display),
@@ -573,15 +659,13 @@ function yieldHeadlineAnchor() {
 }
 
 /** SUBSCRIPTION_LADDER label keys (e.g. 'ladderClaude') live under the
- * nested translations[lang].planner catalog, not the flat tcp* keys
- * createTranslationFunction resolves — same lookup generate-spotlight.js's
- * goalLabelText already does for the identical reason (kept local rather
- * than shared since spotlight's version resolves SUBSCRIPTION_GOALS labels,
- * a different key set, from a script that must stay Node-standalone). */
+ * nested translations[lang].planner catalog, not the flat tcp* keys. The
+ * i18n layer addresses them as 'planner.<labelKey>' (en/ko resolve from the
+ * nested catalog, pt/es carry them as flat 'planner.<labelKey>' entries), with
+ * the usual per-key fall-back to EN. Same lookup generate-spotlight.js's
+ * goalLabelText does for the identical reason. */
 function ladderLabelText(labelKey, lang) {
-  const dict = (translations[lang] && translations[lang].planner) || translations.en.planner;
-  const v = dict[labelKey];
-  return v == null ? (translations.en.planner[labelKey] || labelKey) : v;
+  return createTranslationFunction(lang || 'en')('planner.' + labelKey);
 }
 
 /** One honest headline: the token's blended (median) APY across the pools in
@@ -915,19 +999,21 @@ function renderHubStyleBlock() {
       .hub-cta:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
       .hub-wrap .note { color: var(--ui-text-secondary); font-size: .9rem; }
       @media (prefers-reduced-motion: reduce) { .hub-links a, .hub-cta { transition: none; } .hub-links a:active, .hub-cta:active { transform: none; } }
-${renderWaitlistCtaStyle('hub')}    </style>`;
+${renderLangSwitchStyle()}${renderWaitlistCtaStyle('hub')}    </style>`;
 }
 
 /** Render the /tokens hub (index) page: top tokens by TVL directly, every
  * other token reachable via its A–Z sub-hub (045 — de-orphan the SEO
  * surface so all spoke pages are <=3 clicks from `/`). */
 function renderTokenHubPage(ranked, azGroups, lang) {
-  const language = (lang === 'ko') ? 'ko' : 'en';
+  const language = normalizeLang(lang);
   const t = createTranslationFunction(language);
-  const base = language === 'ko' ? `${SITE_URL}/ko/tokens` : `${SITE_URL}/tokens`;
-  const enUrl = `${SITE_URL}/tokens`;
-  const koUrl = `${SITE_URL}/ko/tokens`;
-  const pageUrl = language === 'ko' ? koUrl : enUrl;
+  // The hub exists in every language; `ranked` is whatever that language
+  // actually has pages for (pt/es pass only the indexable tokens), so it never
+  // links a page that was not generated.
+  const neutralPath = '/tokens';
+  const base = `${SITE_URL}${langPath(language, neutralPath)}`;
+  const pageUrl = langUrl(SITE_URL, language, neutralPath);
   const top = (ranked || []).slice(0, HUB_TOP_N);
   const title = t('tcpTokenHubTitle');
   const description = t('tcpTokenHubDescription', ranked.length);
@@ -938,14 +1024,14 @@ function renderTokenHubPage(ranked, azGroups, lang) {
     `<a href="${base}/az/${g.slug}">${escapeHtml(g.key)} (${g.records.length})</a>`).join('\n        ');
 
   return `<!DOCTYPE html>
-<html lang="${language}">
+<html lang="${getLanguage(language).htmlLang}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${escapeHtml(title)}</title>
     <meta name="description" content="${escapeHtml(description)}">
     <link rel="canonical" href="${pageUrl}">
-${renderHreflangLinks(enUrl, koUrl)}    <meta property="og:type" content="website">
+${renderHreflangLinks(neutralPath, LANG_CODES)}    <meta property="og:type" content="website">
     <meta property="og:title" content="${escapeHtml(title)}">
     <meta property="og:description" content="${escapeHtml(description)}">
     <meta property="og:url" content="${pageUrl}">
@@ -954,11 +1040,11 @@ ${renderHreflangLinks(enUrl, koUrl)}    <meta property="og:type" content="websit
     <meta name="robots" content="index,follow">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
 ${renderFontPreloadLinks()}    <link rel="stylesheet" href="/style.css">${renderHubStyleBlock()}
-${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/tokens`, { page_type: 'token_hub', token_count: ranked.length, lang: language })}
+${renderAnalyticsBootstrap(`${langPath(language, '')}/tokens`, { page_type: 'token_hub', token_count: ranked.length, lang: language })}
 </head>
 <body>
   <main class="hub-wrap">
-    <h1>${escapeHtml(t('tcpTokenHubHeading'))}</h1>
+${renderLanguageSwitcher(neutralPath, language, LANG_CODES, t)}    <h1>${escapeHtml(t('tcpTokenHubHeading'))}</h1>
     <p class="sub">${escapeHtml(t('tcpTokenHubSub', ranked.length))}</p>
     <p class="intro">${escapeHtml(t('tcpTokenHubIntro', formatUsd(MIN_POOL_TVL)))}</p>
     <a class="hub-cta" href="${SITE_URL}/">${escapeHtml(t('tcpHubBackCta'))}</a>
@@ -982,28 +1068,31 @@ ${renderWaitlistCtaHtml(t('tcpWaitlistPitchHub'), 'hub', 'seo_tokens_hub', t)}  
 }
 
 /** Render one A–Z sub-hub page: every token whose symbol starts with
- * `group.key`, linked to its /tokens/<slug> page (045). */
-function renderTokenAzPage(group, lang) {
-  const language = (lang === 'ko') ? 'ko' : 'en';
+ * `group.key`, linked to its /tokens/<slug> page (045). `group.records` is
+ * what THIS language has pages for; `langs` is the set of languages in which
+ * this letter's page exists (a letter with no indexable token has no pt/es
+ * page) — it drives the reciprocal hreflang set and the switcher. */
+function renderTokenAzPage(group, lang, langs) {
+  const language = normalizeLang(lang);
   const t = createTranslationFunction(language);
-  const base = language === 'ko' ? `${SITE_URL}/ko/tokens` : `${SITE_URL}/tokens`;
-  const enUrl = `${SITE_URL}/tokens/az/${group.slug}`;
-  const koUrl = `${SITE_URL}/ko/tokens/az/${group.slug}`;
-  const pageUrl = language === 'ko' ? koUrl : enUrl;
+  const pageLangs = langs || LANG_CODES;
+  const neutralPath = `/tokens/az/${group.slug}`;
+  const base = `${SITE_URL}${langPath(language, '/tokens')}`;
+  const pageUrl = langUrl(SITE_URL, language, neutralPath);
   const title = t('tcpAzTitle', group.key);
   const description = t('tcpAzDescription', group.key, group.records.length);
   const links = group.records.map(r =>
     `<a href="${base}/${r.slug}">${escapeHtml(r.symbol)}</a>`).join('\n        ');
 
   return `<!DOCTYPE html>
-<html lang="${language}">
+<html lang="${getLanguage(language).htmlLang}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${escapeHtml(title)}</title>
     <meta name="description" content="${escapeHtml(description)}">
     <link rel="canonical" href="${pageUrl}">
-${renderHreflangLinks(enUrl, koUrl)}    <meta property="og:type" content="website">
+${renderHreflangLinks(neutralPath, pageLangs)}    <meta property="og:type" content="website">
     <meta property="og:title" content="${escapeHtml(title)}">
     <meta property="og:description" content="${escapeHtml(description)}">
     <meta property="og:url" content="${pageUrl}">
@@ -1012,11 +1101,11 @@ ${renderHreflangLinks(enUrl, koUrl)}    <meta property="og:type" content="websit
     <meta name="robots" content="index,follow">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
 ${renderFontPreloadLinks()}    <link rel="stylesheet" href="/style.css">${renderHubStyleBlock()}
-${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/tokens/az/${group.slug}`, { page_type: 'token_az', letter: group.key, token_count: group.records.length, lang: language })}
+${renderAnalyticsBootstrap(`${langPath(language, '')}/tokens/az/${group.slug}`, { page_type: 'token_az', letter: group.key, token_count: group.records.length, lang: language })}
 </head>
 <body>
   <main class="hub-wrap">
-    <h1>${escapeHtml(t('tcpAzHeading', group.key))}</h1>
+${renderLanguageSwitcher(neutralPath, language, pageLangs, t)}    <h1>${escapeHtml(t('tcpAzHeading', group.key))}</h1>
     <p class="sub">${escapeHtml(t('tcpAzSub', group.records.length))}</p>
     <a class="hub-cta" href="${base}">${escapeHtml(t('tcpAzBackCta'))}</a>
     <div class="hub-card">
@@ -1067,7 +1156,7 @@ function poolHrefFor(p, fallbackUrl, src, lang) {
   // /pools/<slug> — clean, followable, no tracking fragment — so link equity
   // stays on the static estate instead of leaking into the JS app URL.
   const slug = p.pool ? getPoolPageSlug(p.pool) : null;
-  if (slug) return `${SITE_URL}/${lang === 'ko' ? 'ko/pools' : 'pools'}/${slug}`;
+  if (slug) return `${SITE_URL}${langPath(lang, '/pools')}/${slug}`;
   const url = p.pool ? `${SITE_URL}/?pool=${encodeURIComponent(p.pool)}` : fallbackUrl;
   return withSrc(url, src);
 }
@@ -1545,12 +1634,8 @@ function renderTopScoredPoolsHtml(pools, appUrl, language, t, subjectLabel, isCh
 
   if (accessibleScored.length === 0) return '';
 
-  const heading = language === 'ko'
-    ? `${subjectLabel} 리스크 평가 최고 등급 풀 (DeFi Score)`
-    : `Top ${subjectLabel} Yields by DeFi Score (Lowest Risk)`;
-  const subhead = language === 'ko'
-    ? `수익 안정성(35%), 수수료 지속가능성(25%), 자금 고착도(25%), 유동성 깊이(15%) 기준 상위 5개 풀입니다. 누구나 접근 가능한 공개 풀만 포함됩니다.`
-    : `Top 5 retail-accessible pools ranked by quantitative stability (35%), fee sustainability (25%), capital stickiness (25%), and liquidity depth (15%). No permissioned or accredited-only vaults.`;
+  const heading = t('tcpTopScoredHeading', subjectLabel);
+  const subhead = t('tcpTopScoredSub');
 
   const rows = accessibleScored.map(p => {
     const poolHref = poolHrefFor(p, appUrl, isChain ? 'seo_chain' : 'seo_token', language);
@@ -1597,45 +1682,24 @@ ${rows}
 }
 
 // --- Tier-1 head token helpers (Step 4 upgrade) -----------------------------
-function resolveTranslation(t, language, key, fallbackEn, fallbackKo, ...params) {
-  const res = t(key, ...params);
-  if (res && res !== key) return res;
-  return language === 'ko' ? fallbackKo : fallbackEn;
-}
-
+// The head-token strings (tokenHeadTitle / tokenHow* / tokenUpdated) are plain
+// catalog keys; the inline EN/KO fallbacks that used to sit beside every lookup
+// were dead copies of the same text (the keys exist in both catalogs) and are
+// gone, so a pt/es dictionary entry — or its per-key EN fall-back — is the only
+// path.
 function tokenPageTitle(rec, language, t, dateStr) {
   if (HEAD_TOKENS.has(rec.symbol.toUpperCase())) {
     const countStr = formatCount(rec.qualifyingCount);
-    const translated = t('tokenHeadTitle', rec.symbol, countStr, dateStr);
-    if (translated && translated !== 'tokenHeadTitle') {
-      return translated;
-    }
-    return language === 'ko'
-      ? (dateStr ? `최고의 ${rec.symbol} 수익률 (${dateStr}) — ${countStr}개 실시간 풀 비교 | DeFi Garden` : `오늘의 최고 ${rec.symbol} 수익률 — ${countStr}개 실시간 풀 비교 | DeFi Garden`)
-      : (dateStr ? `Best ${rec.symbol} Yields (${dateStr}) — ${countStr} Live Pools Compared | DeFi Garden` : `Best ${rec.symbol} Yield Rates Today — ${countStr} Live Pools Compared | DeFi Garden`);
+    return t('tokenHeadTitle', rec.symbol, countStr, dateStr);
   }
   return t('tcpTokenTitle', rec.symbol);
 }
 
 function renderTokenHowHtml(symbol, language, t) {
-  const title = resolveTranslation(t, language, 'tokenHowTitle',
-    `How ${symbol} Yield is Generated`,
-    `${symbol} 디파이 수익률 생성 원리`,
-    symbol
-  );
-  const sources = resolveTranslation(t, language, 'tokenHowSources',
-    `Yield on ${symbol} comes from four primary on-chain mechanisms: lending spreads paid by borrowers on money markets, trading fees distributed to automated market maker (AMM) liquidity providers, native consensus or liquid staking rewards where applicable, and protocol incentives designed to attract liquidity.`,
-    `${symbol}의 수익률은 주로 네 가지 온체인 메커니즘을 통해 발생합니다: 머니마켓에서 대출자가 지불하는 대출 이자 스프레드, 자동화 마켓 메이커(AMM) 유동성 공급자에게 분배되는 거래 수수료, 해당 자산의 합의 또는 리퀴드 스테이킹 보상, 그리고 유동성을 유치하기 위한 프로토콜 인센티브입니다.`,
-    symbol
-  );
-  const baseReward = resolveTranslation(t, language, 'tokenHowBaseReward',
-    'Total APY reflects two distinct components: base APY (apyBase), earned directly from borrower interest or trading fees paid in the underlying asset, and reward APY (apyReward), distributed in secondary governance or incentive tokens that fluctuate independently.',
-    '총 APY는 두 가지 요소로 나뉩니다: 기초 자산으로 지급되는 대출 이자나 거래 수수료에서 발생하는 기본 수익률(apyBase)과, 기초 자산과 별개로 시세가 변동하는 거버넌스 또는 보상 토큰으로 지급되는 리워드 수익률(apyReward)입니다.'
-  );
-  const risk = resolveTranslation(t, language, 'tokenHowRisk',
-    'All DeFi yields carry inherent risk. Smart contract vulnerabilities, protocol economic exploits, stablecoin depeg events, and liquidation cascades can result in loss of principal. DeFi products are not bank deposits and are not insured by the FDIC, SIPC, or any government entity. Information provided is for educational purposes only and does not constitute financial advice.',
-    '모든 디파이 수익률에는 고유한 위험이 따릅니다. 스마트 컨트랙트 취약점, 프로토콜 경제 모델 공격, 스테이블코인 디페그, 청산 연쇄 반응으로 인해 원금 손실이 발생할 수 있습니다. 디파이 상품은 은행 예금이 아니며 FDIC, SIPC 또는 정부 기관의 예금자 보호를 받지 않습니다. 제공되는 정보는 교육 목적이며 금융 자문이 아닙니다.'
-  );
+  const title = t('tokenHowTitle', symbol);
+  const sources = t('tokenHowSources', symbol);
+  const baseReward = t('tokenHowBaseReward');
+  const risk = t('tokenHowRisk');
 
   return `    <section class="tp-how">
       <h2>${escapeHtml(title)}</h2>
@@ -1646,24 +1710,10 @@ function renderTokenHowHtml(symbol, language, t) {
 }
 
 function renderTokenHowMarkdown(symbol, language, t) {
-  const title = resolveTranslation(t, language, 'tokenHowTitle',
-    `How ${symbol} Yield is Generated`,
-    `${symbol} 디파이 수익률 생성 원리`,
-    symbol
-  );
-  const sources = resolveTranslation(t, language, 'tokenHowSources',
-    `Yield on ${symbol} comes from four primary on-chain mechanisms: lending spreads paid by borrowers on money markets, trading fees distributed to automated market maker (AMM) liquidity providers, native consensus or liquid staking rewards where applicable, and protocol incentives designed to attract liquidity.`,
-    `${symbol}의 수익률은 주로 네 가지 온체인 메커니즘을 통해 발생합니다: 머니마켓에서 대출자가 지불하는 대출 이자 스프레드, 자동화 마켓 메이커(AMM) 유동성 공급자에게 분배되는 거래 수수료, 해당 자산의 합의 또는 리퀴드 스테이킹 보상, 그리고 유동성을 유치하기 위한 프로토콜 인센티브입니다.`,
-    symbol
-  );
-  const baseReward = resolveTranslation(t, language, 'tokenHowBaseReward',
-    'Total APY reflects two distinct components: base APY (apyBase), earned directly from borrower interest or trading fees paid in the underlying asset, and reward APY (apyReward), distributed in secondary governance or incentive tokens that fluctuate independently.',
-    '총 APY는 두 가지 요소로 나뉩니다: 기초 자산으로 지급되는 대출 이자나 거래 수수료에서 발생하는 기본 수익률(apyBase)과, 기초 자산과 별개로 시세가 변동하는 거버넌스 또는 보상 토큰으로 지급되는 리워드 수익률(apyReward)입니다.'
-  );
-  const risk = resolveTranslation(t, language, 'tokenHowRisk',
-    'All DeFi yields carry inherent risk. Smart contract vulnerabilities, protocol economic exploits, stablecoin depeg events, and liquidation cascades can result in loss of principal. DeFi products are not bank deposits and are not insured by the FDIC, SIPC, or any government entity. Information provided is for educational purposes only and does not constitute financial advice.',
-    '모든 디파이 수익률에는 고유한 위험이 따릅니다. 스마트 컨트랙트 취약점, 프로토콜 경제 모델 공격, 스테이블코인 디페그, 청산 연쇄 반응으로 인해 원금 손실이 발생할 수 있습니다. 디파이 상품은 은행 예금이 아니며 FDIC, SIPC 또는 정부 기관의 예금자 보호를 받지 않습니다. 제공되는 정보는 교육 목적이며 금융 자문이 아닙니다.'
-  );
+  const title = t('tokenHowTitle', symbol);
+  const sources = t('tokenHowSources', symbol);
+  const baseReward = t('tokenHowBaseReward');
+  const risk = t('tokenHowRisk');
 
   return `## ${title}
 
@@ -1694,12 +1744,17 @@ function renderTokenHowStyle(isHeadToken) {
  * section — default false, so every existing caller's output stays byte-
  * identical to before this item. */
 function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImagePaths, opts) {
-  const language = (lang === 'ko') ? 'ko' : 'en';
+  const language = normalizeLang(lang);
+  // 'head'-scope languages (pt/es) only ever get indexable pages — a thin,
+  // noindexed token page must never be generated in them (languages.js).
+  if (isHeadScope(language) && !isIndexableToken(rec)) {
+    throw new Error(`renderTokenPage: refusing to render noindexed thin token page ${rec.slug} in '${language}' (head-scope language)`);
+  }
   const t = createTranslationFunction(language);
   const sym = escapeHtml(rec.symbol);
-  const enUrl = `${SITE_URL}/tokens/${rec.slug}`;
-  const koUrl = `${SITE_URL}/ko/tokens/${rec.slug}`;
-  const pageUrl = language === 'ko' ? koUrl : enUrl;
+  const neutralPath = `/tokens/${rec.slug}`;
+  const pageLangs = tokenLangCodes(rec);
+  const pageUrl = langUrl(SITE_URL, language, neutralPath);
   const appUrl = `${SITE_URL}/?token=${encodeURIComponent(rec.symbol)}&minTvl=${MIN_POOL_TVL}`;
   const genDate = generatedDate || todayGeneratedDate();
   const ogImageRelPath = (ogImagePaths && ogImagePaths.get(rec.slug)) || OG_FALLBACK_REL_PATH;
@@ -1716,15 +1771,9 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
   const chainCount = rec.qualifyingChainCount || new Set(rec.pools.map(p => p.chain)).size;
   const isHeadToken = HEAD_TOKENS.has(rec.symbol.toUpperCase());
   const now = new Date();
-  const dateStr = language === 'ko'
-    ? `${now.getFullYear()}년 ${now.getMonth() + 1}월`
-    : `${now.toLocaleString('en-US', { month: 'short' })} ${now.getFullYear()}`;
+  const dateStr = t('tcpMonthYear', now.toLocaleString('en-US', { month: 'short' }), String(now.getMonth() + 1), String(now.getFullYear()));
   const title = tokenPageTitle(rec, language, t, dateStr);
-  const updatedText = resolveTranslation(t, language, 'tokenUpdated',
-    `Pool data verified from DefiLlama at generation time: ${genDate}. Rates change continuously.`,
-    `DefiLlama 데이터 생성 시점 검증: ${genDate}. 수익률은 지속적으로 변동합니다.`,
-    genDate
-  );
+  const updatedText = t('tokenUpdated', genDate);
   const howBlock = isHeadToken ? renderTokenHowHtml(rec.symbol, language, t) : '';
   // 174: EVERY floor mention on this page derives from MIN_POOL_TVL — never a
   // re-typed literal. One formatted value, reused by every t(...) call below.
@@ -1742,7 +1791,7 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
 
   // BreadcrumbList (040 / 045): Home and the current page are real, linkable
   // URLs. "Tokens" links to the /tokens hub (or /ko/tokens for Korean pages).
-  const tokensHubUrl = `${SITE_URL}/${language === 'ko' ? 'ko/tokens' : 'tokens'}`;
+  const tokensHubUrl = `${SITE_URL}${langPath(language, '/tokens')}`;
   const breadcrumbJsonLd = JSON.stringify({
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -1778,7 +1827,7 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
   const faqJsonLd = renderFaqJsonLd(faq);
 
   const relatedLinks = (related || []).map(r =>
-    `<a href="${SITE_URL}/${language === 'ko' ? 'ko/tokens' : 'tokens'}/${r.slug}">${escapeHtml(r.symbol)}</a>`).join('\n        ');
+    `<a href="${SITE_URL}${langPath(language, '/tokens')}/${r.slug}">${escapeHtml(r.symbol)}</a>`).join('\n        ');
   const relatedBlock = relatedLinks
     ? `    <nav class="related" aria-label="${escapeHtml(t('tcpRelatedTokensHeading'))}">
       <h2>${escapeHtml(t('tcpRelatedTokensHeading'))}</h2>
@@ -1793,7 +1842,7 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
   // this token's own table, linked to the live app view for that category.
   // Chain link targets stay on the same language variant as this page.
   const chainNavItems = (chainLinks || []).map(c =>
-    ({ label: c.chain, href: `${SITE_URL}/${language === 'ko' ? 'ko/chains' : 'chains'}/${c.slug}` }));
+    ({ label: c.chain, href: `${SITE_URL}${langPath(language, '/chains')}/${c.slug}` }));
   const chainLinksBlock = renderLinkNavHtml(chainNavItems, t('tcpChainsAriaLabel'), t('tcpAvailableOnHeading'), 'xlink-chains');
   // 204: category nav links are a visible estate->app boundary, tagged the
   // same as the main CTA below — categoryLinksFor itself stays untouched
@@ -1827,7 +1876,7 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
     // the visible row is tagged 'seo_token' (203); the JSON-LD call above is
     // NOT, so it stays clean (spec 203 §6, deliberate deviation).
     const poolHref = poolHrefFor(p, appUrl, 'seo_token', language);
-    const accessNote = isPermissionedPool(p) ? ' <span class="tp-restricted" title="Restricted access (KYC/accredited)">&#x1F512;</span>' : '';
+    const accessNote = isPermissionedPool(p) ? ' <span class="tp-restricted" title="' + escapeHtml(t('tcpRestrictedAccessTitle')) + '">&#x1F512;</span>' : '';
     return `        <tr>
           <td><a class="tp-pool-link"${poolRelAttr(p)} href="${poolHref}">${escapeHtml(p.project || '—')}${accessNote} →</a></td>
           <td>${escapeHtml(p.chain || '—')}</td>
@@ -1844,14 +1893,14 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
     : 'index,follow';
 
   return `<!DOCTYPE html>
-<html lang="${language}">
+<html lang="${getLanguage(language).htmlLang}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${escapeHtml(title)}</title>
     <meta name="description" content="${escapeHtml(description)}">
     <link rel="canonical" href="${pageUrl}">
-${renderHreflangLinks(enUrl, koUrl)}    <script type="application/ld+json">${breadcrumbJsonLd}</script>
+${renderHreflangLinks(neutralPath, pageLangs)}    <script type="application/ld+json">${breadcrumbJsonLd}</script>
     <script type="application/ld+json">${itemListJsonLd}</script>
     <script type="application/ld+json">${datasetJsonLd}</script>
     <meta property="og:type" content="website">
@@ -1915,12 +1964,12 @@ ${renderFontPreloadLinks()}    <link rel="stylesheet" href="/style.css">
 ${renderTokenHowStyle(isHeadToken)}
 ${renderRateBehaviourStyle(isHead)}      .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } .tp-cta:active, .related-links a:active { transform: none; } }
-${renderWaitlistCtaStyle('tp')}    </style>
-${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/tokens/${rec.slug}`, { page_type: 'token_landing', token: rec.symbol, pool_count: rec.qualifyingCount, lang: language })}
+${renderLangSwitchStyle()}${renderWaitlistCtaStyle('tp')}    </style>
+${renderAnalyticsBootstrap(`${langPath(language, '')}/tokens/${rec.slug}`, { page_type: 'token_landing', token: rec.symbol, pool_count: rec.qualifyingCount, lang: language })}
 </head>
 <body>
   <main class="tp-wrap">
-    <h1>${escapeHtml(t('tcpTokenHeading', rec.symbol))}</h1>
+${renderLanguageSwitcher(neutralPath, language, pageLangs, t)}    <h1>${escapeHtml(t('tcpTokenHeading', rec.symbol))}</h1>
 ${answerBlock}    <p class="sub">${escapeHtml(t('tcpSubLine', rec.qualifyingCount, floorStr))}</p>
     <p class="tp-updated">${escapeHtml(updatedText)}</p>
     <p class="intro">${intro}</p>
@@ -1956,7 +2005,7 @@ ${renderLastUpdatedHtml(genDate, language)}    <p class="note"><a href="${SITE_U
  * as renderTokenPage minus `ogImagePaths` — Markdown has no og:image use,
  * plus the trailing `opts` (232) — see renderTokenPage's own doc comment. */
 function renderTokenPageMarkdown(rec, related, generatedDate, chainLinks, lang, opts) {
-  const language = (lang === 'ko') ? 'ko' : 'en';
+  const language = normalizeLang(lang);
   const t = createTranslationFunction(language);
   const genDate = generatedDate || todayGeneratedDate();
   const appUrl = `${SITE_URL}/?token=${encodeURIComponent(rec.symbol)}&minTvl=${MIN_POOL_TVL}`;
@@ -1992,17 +2041,17 @@ function renderTokenPageMarkdown(rec, related, generatedDate, chainLinks, lang, 
 
   const relatedMd = (related && related.length)
     ? `\n## ${t('tcpRelatedTokensHeading')}\n\n` + related.map(r =>
-        `- [${mdEscape(r.symbol)}](${SITE_URL}/${language === 'ko' ? 'ko/tokens' : 'tokens'}/${r.slug})`).join('\n') + '\n'
+        `- [${mdEscape(r.symbol)}](${SITE_URL}${langPath(language, '/tokens')}/${r.slug})`).join('\n') + '\n'
     : '';
 
   const chainLinksMd = (chainLinks && chainLinks.length)
     ? `\n## ${t('tcpAvailableOnHeading')}\n\n` + chainLinks.map(c =>
-        `- [${mdEscape(c.chain)}](${SITE_URL}/${language === 'ko' ? 'ko/chains' : 'chains'}/${c.slug})`).join('\n') + '\n'
+        `- [${mdEscape(c.chain)}](${SITE_URL}${langPath(language, '/chains')}/${c.slug})`).join('\n') + '\n'
     : '';
 
   return `# ${t('tcpTokenHeading', rec.symbol)}
 
-*${resolveTranslation(t, language, 'tokenUpdated', `Pool data verified from DefiLlama at generation time: ${genDate}. Rates change continuously.`, `DefiLlama 데이터 생성 시점 검증: ${genDate}. 수익률은 지속적으로 변동합니다.`, genDate)}*
+*${t('tokenUpdated', genDate)}*
 
 ${answer}
 
@@ -2023,24 +2072,36 @@ ${relatedMd}${chainLinksMd}
 /** Render a sitemap (urlset) of all generated /tokens/<slug> URLs (021),
  * plus any `extraLocs` (045: the /tokens hub + its A–Z sub-hub pages) so
  * they're discoverable through the same sitemap-index chain. */
-function renderTokenSitemap(ranked, lastmod, extraLocs, lang) {
-  // `lang` (050) only changes the base path (tokens/ vs ko/tokens/) — the
-  // root urlset tag stays byte-identical to before when omitted, so the
+function renderTokenSitemap(ranked, lastmod, extraLocs, lang, opts) {
+  // `lang` (050) only changes the base path (tokens/ vs ko/tokens/ vs pt/tokens/)
+  // — the root urlset tag stays byte-identical to before when omitted, so the
   // existing en sitemap tests (exact-string urlset match) keep passing.
   // Reciprocal hreflang is declared on-page (renderHreflangLinks), which is
-  // the primary signal Google reads; this is just KO URL coverage (050 AC).
-  const base = (lang === 'ko') ? 'ko/tokens' : 'tokens';
+  // the primary signal Google reads; this is just URL coverage (050 AC).
+  //
+  // `opts.alternates` (optional): `(neutralPath) => string[]` — the language
+  // codes in which that URL exists. When given, every <url> also carries the
+  // same reciprocal <xhtml:link> alternates as its page's on-page hreflang
+  // (a token entry's set is derived from its own rec; hub / A-Z entries use
+  // the callback). Omitted = the legacy output, byte-identical.
+  const language = normalizeLang(lang);
+  const base = langDir(language) ? `${langDir(language)}/tokens` : 'tokens';
+  const alternates = opts && opts.alternates;
   const lastmodTag = lastmod ? `    <lastmod>${lastmod}</lastmod>\n` : '';
-  const extra = (extraLocs || []).map(loc =>
-    `  <url>\n    <loc>${loc}</loc>\n${lastmodTag}    <changefreq>daily</changefreq>\n  </url>`);
-  const urls = (ranked || []).map(rec => {
+  const altTag = (neutralPath, codes) => alternates ? renderSitemapAlternates(neutralPath, codes) : '';
+  const extra = (extraLocs || []).map(loc => {
+    const neutral = neutralPathOfLoc(loc, language);
+    return `  <url>\n    <loc>${loc}</loc>\n${altTag(neutral, alternates ? alternates(neutral) : [])}${lastmodTag}    <changefreq>daily</changefreq>\n  </url>`;
+  });
+  // A head-scope language (pt/es) never lists a thin, noindexed page.
+  const urls = (ranked || []).filter(rec => !isHeadScope(language) || isIndexableToken(rec)).map(rec => {
     const isHead = HEAD_TOKENS.has(rec.symbol.toUpperCase());
     const priority = isHead ? '0.8' : '0.3';
     const changefreq = isHead ? 'daily' : 'weekly';
-    return `  <url>\n    <loc>${SITE_URL}/${base}/${rec.slug}</loc>\n${lastmodTag}    <changefreq>${changefreq}</changefreq>\n    <priority>${priority}</priority>\n  </url>`;
+    return `  <url>\n    <loc>${SITE_URL}/${base}/${rec.slug}</loc>\n${altTag(`/tokens/${rec.slug}`, tokenLangCodes(rec))}${lastmodTag}    <changefreq>${changefreq}</changefreq>\n    <priority>${priority}</priority>\n  </url>`;
   });
   return `<?xml version="1.0" encoding="UTF-8"?>\n` +
-    `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${extra.concat(urls).join('\n')}\n</urlset>\n`;
+    `${alternates ? SITEMAP_URLSET_OPEN_XHTML : SITEMAP_URLSET_OPEN}\n${extra.concat(urls).join('\n')}\n</urlset>\n`;
 }
 
 // --- IO layer (only runs as a script) --------------------------------------
@@ -2154,7 +2215,7 @@ async function main() {
 
   ranked.forEach(rec => {
     const chainLinks = chainLinksFor(rec, generatedChainSlugs);
-    // 232: single Set, both languages — `opts.isHead` is the ONLY thing that
+    // 232: single Set, every language — `opts.isHead` is the ONLY thing that
     // differs between a head and tail page's render call.
     const opts = { isHead: headTokens.has(rec.symbol.toUpperCase()) };
     fs.writeFileSync(path.join(outDir, `${rec.slug}.html`), renderTokenPage(rec, relatedFor(rec, ranked), genDate, chainLinks, 'en', ogImagePaths, opts));
@@ -2167,7 +2228,7 @@ async function main() {
   // D1 (seo-turnaround): write noindex manifest so generate-llms.js can
   // exclude thin token pages from llms-full.txt.
   const noindexSlugs = ranked
-    .filter(r => r.qualifyingCount < NOINDEX_POOL_THRESHOLD)
+    .filter(r => !isIndexableToken(r))
     .map(r => r.slug);
   fs.writeFileSync(
     path.join(outDir, '.noindex-slugs.json'),
@@ -2175,9 +2236,21 @@ async function main() {
   );
   console.log(`🚫 ${noindexSlugs.length} token pages noindexed (<${NOINDEX_POOL_THRESHOLD} qualifying pools)`);
 
+  // Per-language page sets. 'all'-scope languages (en, ko) get every ranked
+  // token; 'head'-scope languages (pt, es) get ONLY the indexable ones — never
+  // a noindexed thin page — and their hub / A–Z pages list only what exists in
+  // that language. The A–Z letter pages follow the same rule, so a letter with
+  // no indexable token has no pt/es page (and its hreflang set says so).
+  const azGroups = groupTokensAZ(ranked);
+  const pageSets = {};
+  LANGUAGES.forEach(l => {
+    const langRanked = isHeadScope(l.code) ? ranked.filter(isIndexableToken) : ranked;
+    pageSets[l.code] = { ranked: langRanked, az: l.code === 'en' ? azGroups : groupTokensAZ(langRanked) };
+  });
+  // Languages in which the A–Z page for `slug` exists (EN has every letter).
+  const azLangsFor = (slug) => LANG_CODES.filter(code => pageSets[code].az.some(g => g.slug === slug));
   // Hub + A–Z pages (045): de-orphan the surface — home.html links to
   // /tokens, which links every token within <=1 more hop.
-  const azGroups = groupTokensAZ(ranked);
   fs.writeFileSync(path.join(outDir, 'index.html'), renderTokenHubPage(ranked, azGroups));
   const azDir = path.join(outDir, 'az');
   if (!fs.existsSync(azDir)) fs.mkdirSync(azDir, { recursive: true });
@@ -2186,36 +2259,43 @@ async function main() {
   // written here) — same safety, no behavior change.
   else fs.readdirSync(azDir).forEach(f => { if (f.endsWith('.html') || f.endsWith('.md')) fs.rmSync(path.join(azDir, f)); });
   azGroups.forEach(g => {
-    fs.writeFileSync(path.join(azDir, `${g.slug}.html`), renderTokenAzPage(g));
+    fs.writeFileSync(path.join(azDir, `${g.slug}.html`), renderTokenAzPage(g, 'en', azLangsFor(g.slug)));
   });
   console.log(`🧭 Wrote tokens hub + ${azGroups.length} A–Z pages`);
 
-  // Korean variant (050): rendered from the SAME `ranked`/`azGroups` the en
-  // pages just used — pool-parity (same pools, same TVL/APY numbers) is
+  // Other languages (050 ko; pt/es): rendered from the SAME `ranked` records
+  // the en pages just used — pool-parity (same pools, same TVL/APY numbers) is
   // structural, not something that can drift, since only renderTokenPage's
-  // `lang` argument differs. Mirrors the en directory layout under ko/.
+  // `lang` argument differs. Mirrors the en directory layout under <lang>/.
   // Sibling of outDir, not resolve('ko', args.out) — path.resolve() discards
   // the first arg entirely when the second is already absolute, which would
-  // silently collapse koOutDir onto outDir itself (overwriting the en pages).
-  const koOutDir = path.join(path.dirname(outDir), 'ko', path.basename(outDir));
-  if (!fs.existsSync(koOutDir)) fs.mkdirSync(koOutDir, { recursive: true });
-  if (koOutDir !== process.cwd()) {
-    fs.readdirSync(koOutDir).forEach(f => { if (f.endsWith('.html') || f.endsWith('.md')) fs.rmSync(path.join(koOutDir, f)); });
-  }
-  ranked.forEach(rec => {
-    const chainLinks = chainLinksFor(rec, generatedChainSlugs);
-    const opts = { isHead: headTokens.has(rec.symbol.toUpperCase()) };
-    fs.writeFileSync(path.join(koOutDir, `${rec.slug}.html`), renderTokenPage(rec, relatedFor(rec, ranked), genDate, chainLinks, 'ko', ogImagePaths, opts));
-    fs.writeFileSync(path.join(koOutDir, `${rec.slug}.md`), renderTokenPageMarkdown(rec, relatedFor(rec, ranked), genDate, chainLinks, 'ko', opts));
+  // silently collapse the language dir onto outDir itself (overwriting the en pages).
+  LANGUAGES.filter(l => l.code !== 'en').forEach(l => {
+    const { ranked: langRanked, az: langAz } = pageSets[l.code];
+    const langOutDir = path.join(path.dirname(outDir), langDir(l.code), path.basename(outDir));
+    if (!fs.existsSync(langOutDir)) fs.mkdirSync(langOutDir, { recursive: true });
+    if (langOutDir !== process.cwd()) {
+      fs.readdirSync(langOutDir).forEach(f => { if (f.endsWith('.html') || f.endsWith('.md')) fs.rmSync(path.join(langOutDir, f)); });
+    }
+    langRanked.forEach(rec => {
+      const chainLinks = chainLinksFor(rec, generatedChainSlugs);
+      const opts = { isHead: headTokens.has(rec.symbol.toUpperCase()) };
+      fs.writeFileSync(path.join(langOutDir, `${rec.slug}.html`), renderTokenPage(rec, relatedFor(rec, langRanked), genDate, chainLinks, l.code, ogImagePaths, opts));
+      // Markdown twins exist for the 'all'-scope languages only (no .md
+      // twins in pt/es — vercel.json has no markdown-negotiation rules for them).
+      if (l.scope === 'all') {
+        fs.writeFileSync(path.join(langOutDir, `${rec.slug}.md`), renderTokenPageMarkdown(rec, relatedFor(rec, langRanked), genDate, chainLinks, l.code, opts));
+      }
+    });
+    fs.writeFileSync(path.join(langOutDir, 'index.html'), renderTokenHubPage(langRanked, langAz, l.code));
+    const langAzDir = path.join(langOutDir, 'az');
+    if (!fs.existsSync(langAzDir)) fs.mkdirSync(langAzDir, { recursive: true });
+    else fs.readdirSync(langAzDir).forEach(f => { if (f.endsWith('.html') || f.endsWith('.md')) fs.rmSync(path.join(langAzDir, f)); });
+    langAz.forEach(g => {
+      fs.writeFileSync(path.join(langAzDir, `${g.slug}.html`), renderTokenAzPage(g, l.code, azLangsFor(g.slug)));
+    });
+    console.log(`🌐 Wrote ${langRanked.length} ${langDir(l.code)}/tokens pages + ${l.code} hub + ${langAz.length} ${l.code} A–Z pages`);
   });
-  fs.writeFileSync(path.join(koOutDir, 'index.html'), renderTokenHubPage(ranked, azGroups, 'ko'));
-  const koAzDir = path.join(koOutDir, 'az');
-  if (!fs.existsSync(koAzDir)) fs.mkdirSync(koAzDir, { recursive: true });
-  else fs.readdirSync(koAzDir).forEach(f => { if (f.endsWith('.html') || f.endsWith('.md')) fs.rmSync(path.join(koAzDir, f)); });
-  azGroups.forEach(g => {
-    fs.writeFileSync(path.join(koAzDir, `${g.slug}.html`), renderTokenAzPage(g, 'ko'));
-  });
-  console.log(`🇰🇷 Wrote ${ranked.length} ko/tokens pages + ko hub + ${azGroups.length} ko A–Z pages`);
 
   if (args.sitemap) {
     const lastmod = new Date().toISOString().slice(0, 10);
@@ -2226,14 +2306,19 @@ async function main() {
     // full. `headTokens` is the SAME Set computed above (232 / territory note
     // 3) — never a second call.
     const headRanked = ranked.filter(rec => headTokens.has(rec.symbol.toUpperCase()));
-    const hubUrls = [`${SITE_URL}/tokens`].concat(azGroups.map(g => `${SITE_URL}/tokens/az/${g.slug}`));
-    fs.writeFileSync(path.resolve(args.sitemap), renderTokenSitemap(headRanked, lastmod, hubUrls));
-    console.log(`🗺️  Wrote ${args.sitemap} (${headRanked.length} head URLs of ${ranked.length} generated pages, + ${hubUrls.length} hub/A–Z URLs)`);
-
-    const koSitemapPath = args.sitemap.replace(/\.xml$/, '-ko.xml');
-    const koHubUrls = [`${SITE_URL}/ko/tokens`].concat(azGroups.map(g => `${SITE_URL}/ko/tokens/az/${g.slug}`));
-    fs.writeFileSync(path.resolve(koSitemapPath), renderTokenSitemap(headRanked, lastmod, koHubUrls, 'ko'));
-    console.log(`🗺️  Wrote ${koSitemapPath} (${headRanked.length} head URLs of ${ranked.length} generated pages, + ${koHubUrls.length} hub/A–Z URLs)`);
+    // One sitemap per language (en: args.sitemap; others: <name>-<code>.xml).
+    // Each <url> carries the same reciprocal alternates as its page's hreflang.
+    const alternates = (neutralPath) => {
+      const m = /^\/tokens\/az\/(.+)$/.exec(neutralPath);
+      return m ? azLangsFor(m[1]) : LANG_CODES;
+    };
+    LANGUAGES.forEach(l => {
+      const hubUrls = [langUrl(SITE_URL, l.code, '/tokens')].concat(pageSets[l.code].az.map(g => langUrl(SITE_URL, l.code, `/tokens/az/${g.slug}`)));
+      const sitemapPath = l.code === 'en' ? args.sitemap : args.sitemap.replace(/\.xml$/, `-${l.code}.xml`);
+      const urlRanked = isHeadScope(l.code) ? headRanked.filter(isIndexableToken) : headRanked;
+      fs.writeFileSync(path.resolve(sitemapPath), renderTokenSitemap(urlRanked, lastmod, hubUrls, l.code, { alternates }));
+      console.log(`🗺️  Wrote ${sitemapPath} (${urlRanked.length} head URLs of ${pageSets[l.code].ranked.length} generated pages, + ${hubUrls.length} hub/A–Z URLs)`);
+    });
   }
 }
 
@@ -2254,6 +2339,8 @@ module.exports = {
   chainLinksFor, categoryLinksFor, renderLinkNavHtml,
   renderWaitlistCtaHtml, renderWaitlistCtaStyle,
   renderHreflangLinks, renderFontPreloadLinks, SUPPORTED_LANGS,
+  renderLanguageSwitcher, renderLangSwitchStyle, renderSitemapAlternates, neutralPathOfLoc,
+  SITEMAP_URLSET_OPEN, SITEMAP_URLSET_OPEN_XHTML, isIndexableToken, tokenLangCodes,
   yieldHeadlineFor, renderYieldHeadlineHtml, yieldHeadlineAnchor, ladderLabelText, YIELD_HEADLINE_ANCHOR_ID,
   rateBehaviourFor, renderRateBehaviourHtml, renderRateBehaviourMarkdown, renderRateBehaviourStyle, mean30dSane,
   RATE_STABILITY_MIN_OBSERVATIONS, rateStabilityFor, renderRateStabilityHtml, renderRateStabilityMarkdown, rateStabilityFaqItem,

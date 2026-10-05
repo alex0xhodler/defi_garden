@@ -83,7 +83,10 @@ test('ko page has no untranslated English UI-copy leakage', () => {
   assertNoEnglishLeak(koTokenHtml, 'token page (ko)');
 });
 test('en page is unaffected (no Korean leaked into the default-language page)', () => {
-  assert.ok(!HANGUL.test(enTokenHtml), 'en page unexpectedly contains Hangul');
+  // The language switcher intentionally names every language in its own
+  // script (한국어 as the KO link's title); everything else must stay Hangul-free.
+  const withoutSwitcher = enTokenHtml.replace(/<nav\b[^>]*class="[^"]*\blang-switch\b[^"]*"[\s\S]*?<\/nav>/i, '');
+  assert.ok(!HANGUL.test(withoutSwitcher), 'en page unexpectedly contains Hangul');
 });
 test('en/ko pool-parity: identical pool rows (same project/chain/APY/TVL) — translation is copy-only', () => {
   const rowsOf = (html) => (html.match(/<tr>\s*<td>.*?<\/tr>/gs) || []).filter(r => r.includes('tp-pool-link'));
