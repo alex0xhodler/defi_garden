@@ -151,7 +151,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/for/uber
 - https://www.defi.garden/for/walmart
 - https://www.defi.garden/for/youtube
-- https://www.defi.garden/forecast-accuracy
 - https://www.defi.garden/guide/defi-yield-rates-explained
 - https://www.defi.garden/ko/chains
 - https://www.defi.garden/ko/chains/algorand

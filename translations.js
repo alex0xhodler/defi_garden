@@ -791,12 +791,12 @@ projectionHeading: "The long game",
     // are NOT translated here (en-US formatted, identical en/ko — CLAUDE.md).
     tcpTokenTitle: (sym) => `${sym} DeFi Yields — Live Pools by TVL | DeFi Garden 🌱`,
     tcpChainTitle: (chain, dateStr) => dateStr
-      ? `Best ${chain} Yields (${dateStr}), Ranked by Risk | DeFi Garden`
+      ? `Best ${chain} Yield Rates (${dateStr}) — Live Pools Compared | DeFi Garden`
       : `${chain} DeFi Yields — Live Pools by TVL | DeFi Garden`,
     // Tier-1 head token upgrades (fintech-seo v2 Step 4) — head-token title
     // pattern, educational block, and generation-time freshness stamp.
     tokenHeadTitle: (sym, count, dateStr) => dateStr
-      ? `Best ${sym} Yields (${dateStr}) — ${count} Pools Ranked by Risk | DeFi Garden`
+      ? `Best ${sym} Yields (${dateStr}) — ${count} Live Pools Compared | DeFi Garden`
       : `Best ${sym} Yield Rates Today — ${count} Live Pools Compared | DeFi Garden`,
     tokenHowTitle: (sym) => `How ${sym} Yield is Generated`,
     tokenHowSources: (sym) => `Yield on ${sym} comes from four primary on-chain mechanisms: lending spreads paid by borrowers on money markets, trading fees distributed to automated market maker (AMM) liquidity providers, native consensus or liquid staking rewards where applicable, and protocol incentives designed to attract liquidity.`,
@@ -1867,7 +1867,7 @@ projectionHeading: "The long game",
     tcpTokenTitle: (sym) => `${sym} 디파이 수익률 — TVL 기준 실시간 풀 | DeFi Garden 🌱`,
     // Tier-1 헤드 토큰 업그레이드 (fintech-seo v2 Step 4) — EN 키의 KO 미러.
     tokenHeadTitle: (sym, count, dateStr) => dateStr
-      ? `최고의 ${sym} 수익률 (${dateStr}) — ${count}개 풀 위험도순 비교 | DeFi Garden`
+      ? `최고의 ${sym} 수익률 (${dateStr}) — ${count}개 실시간 풀 비교 | DeFi Garden`
       : `오늘의 최고 ${sym} 수익률 — ${count}개 실시간 풀 비교 | DeFi Garden`,
     tokenHowTitle: (sym) => `${sym} 디파이 수익률 생성 원리`,
     tokenHowSources: (sym) => `${sym}의 수익률은 주로 네 가지 온체인 메커니즘을 통해 발생합니다: 머니마켓에서 대출자가 지불하는 대출 이자 스프레드, 자동화 마켓 메이커(AMM) 유동성 공급자에게 분배되는 거래 수수료, 해당 자산의 합의 또는 리퀴드 스테이킹 보상, 그리고 유동성을 유치하기 위한 프로토콜 인센티브입니다.`,
@@ -1875,7 +1875,7 @@ projectionHeading: "The long game",
     tokenHowRisk: "모든 디파이 수익률에는 고유한 위험이 따릅니다. 스마트 컨트랙트 취약점, 프로토콜 경제 모델 공격, 스테이블코인 디페그, 청산 연쇄 반응으로 인해 원금 손실이 발생할 수 있습니다. 디파이 상품은 은행 예금이 아니며 FDIC, SIPC 또는 정부 기관의 예금자 보호를 받지 않습니다. 제공되는 정보는 교육 목적이며 금융 자문이 아닙니다.",
     tokenUpdated: (date) => `DefiLlama 데이터 생성 시점 검증: ${date}. 수익률은 지속적으로 변동합니다.`,
     tcpChainTitle: (chain, dateStr) => dateStr
-      ? `최고의 ${chain} 수익률 (${dateStr}), 위험도순 정렬 | DeFi Garden`
+      ? `최고의 ${chain} 수익률 (${dateStr}) — 실시간 풀 비교 | DeFi Garden`
       : `${chain} 디파이 수익률 — TVL 기준 실시간 풀 | DeFi Garden`,
     // 174: floorStr은 항상 호출부의 formatUsd(MIN_POOL_TVL) 값이며, 절대 문자열로 다시 적지 않아요.
     // "DeFi Garden의 기준" 대신 "이 페이지의 기준"으로 — 이 기준은 이 페이지의 게재
