@@ -28,7 +28,7 @@ USD.INFRA shows up in 2 pools here, with rates from 0.32% to 5.04% APY across 1 
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| loopscale-lending | 5.04% | 3.53% | 76.33% incentives |
+| loopscale-lending | 5.04% | 3.54% | 76.33% incentives |
 | orca-dex | 0.32% | 0.32% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.

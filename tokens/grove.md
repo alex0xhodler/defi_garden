@@ -2,30 +2,30 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest GROVE yield right now is 17.82% on uniswap-v4 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GROVE yield right now is 12.31% on uniswap-v4 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=02db57d9-3ba8-40b9-9ae5-557a4da4b3df#src=seo_token) | Ethereum | 4.36% | $22.28M |
-| [morpho-blue →](https://www.defi.garden/?pool=b5fd4a27-5eb6-4617-8ae8-7afe9687e65d#src=seo_token) | Monad | 1.71% | $108.1K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=bcc6e51c-0db7-503f-b52e-7d5e0756f463#src=seo_token) | Ethereum | 17.82% | $100.7K |
+| [morpho-blue →](https://www.defi.garden/?pool=02db57d9-3ba8-40b9-9ae5-557a4da4b3df#src=seo_token) | Ethereum | 4.37% | $22.28M |
+| [morpho-blue →](https://www.defi.garden/?pool=b5fd4a27-5eb6-4617-8ae8-7afe9687e65d#src=seo_token) | Monad | 2.03% | $108.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=bcc6e51c-0db7-503f-b52e-7d5e0756f463#src=seo_token) | Ethereum | 12.31% | $100.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, GROVE's lower-variability candidates are morpho-blue (Ethereum), 4.36% APY, $22.28M TVL, https://www.defi.garden/?pool=02db57d9-3ba8-40b9-9ae5-557a4da4b3df#src=seo_token; morpho-blue (Monad), 1.71% APY, $108.1K TVL, https://www.defi.garden/?pool=b5fd4a27-5eb6-4617-8ae8-7afe9687e65d#src=seo_token; uniswap-v4 (Ethereum), 17.82% APY, $100.7K TVL, https://www.defi.garden/?pool=bcc6e51c-0db7-503f-b52e-7d5e0756f463#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GROVE's lower-variability candidates are morpho-blue (Ethereum), 4.37% APY, $22.28M TVL, https://www.defi.garden/?pool=02db57d9-3ba8-40b9-9ae5-557a4da4b3df#src=seo_token; morpho-blue (Monad), 2.03% APY, $108.1K TVL, https://www.defi.garden/?pool=b5fd4a27-5eb6-4617-8ae8-7afe9687e65d#src=seo_token; uniswap-v4 (Ethereum), 12.31% APY, $100.8K TVL, https://www.defi.garden/?pool=bcc6e51c-0db7-503f-b52e-7d5e0756f463#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=02db57d9-3ba8-40b9-9ae5-557a4da4b3df#src=seo_token) | Ethereum | 4.36% | $22.28M |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=b5fd4a27-5eb6-4617-8ae8-7afe9687e65d#src=seo_token) | Monad | 1.71% | $108.1K |
-| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=bcc6e51c-0db7-503f-b52e-7d5e0756f463#src=seo_token) | Ethereum | 17.82% | $100.7K |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=02db57d9-3ba8-40b9-9ae5-557a4da4b3df#src=seo_token) | Ethereum | 4.37% | $22.28M |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=b5fd4a27-5eb6-4617-8ae8-7afe9687e65d#src=seo_token) | Monad | 2.03% | $108.1K |
+| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=bcc6e51c-0db7-503f-b52e-7d5e0756f463#src=seo_token) | Ethereum | 12.31% | $100.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-GROVE shows up in 3 pools here, with rates from 1.71% to 17.82% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+GROVE shows up in 3 pools here, with rates from 2.03% to 12.31% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 4.50% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -35,9 +35,9 @@ GROVE shows up in 3 pools here, with rates from 1.71% to 17.82% APY across 2 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 4.36% | 4.50% | Base rate |
-| morpho-blue | 1.71% | 2.36% | 24.42% incentives |
-| uniswap-v4 | 17.82% | 22.74% | Base rate |
+| morpho-blue | 4.37% | 4.50% | Base rate |
+| morpho-blue | 2.03% | 2.36% | 36.51% incentives |
+| uniswap-v4 | 12.31% | 22.74% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,7 +45,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest GROVE yield today?
 
-17.82% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+12.31% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many GROVE pools clear the TVL floor?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which GROVE pools have the most stable APY history?
 
-Based on APY history only, GROVE's lower-variability candidates are morpho-blue (Ethereum), 4.36% APY, $22.28M TVL, https://www.defi.garden/?pool=02db57d9-3ba8-40b9-9ae5-557a4da4b3df#src=seo_token; morpho-blue (Monad), 1.71% APY, $108.1K TVL, https://www.defi.garden/?pool=b5fd4a27-5eb6-4617-8ae8-7afe9687e65d#src=seo_token; uniswap-v4 (Ethereum), 17.82% APY, $100.7K TVL, https://www.defi.garden/?pool=bcc6e51c-0db7-503f-b52e-7d5e0756f463#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GROVE's lower-variability candidates are morpho-blue (Ethereum), 4.37% APY, $22.28M TVL, https://www.defi.garden/?pool=02db57d9-3ba8-40b9-9ae5-557a4da4b3df#src=seo_token; morpho-blue (Monad), 2.03% APY, $108.1K TVL, https://www.defi.garden/?pool=b5fd4a27-5eb6-4617-8ae8-7afe9687e65d#src=seo_token; uniswap-v4 (Ethereum), 12.31% APY, $100.8K TVL, https://www.defi.garden/?pool=bcc6e51c-0db7-503f-b52e-7d5e0756f463#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

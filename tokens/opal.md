@@ -2,28 +2,28 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest OPAL yield right now is 8.78% on origami-finance (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OPAL yield right now is 8.83% on origami-finance (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v2 →](https://www.defi.garden/?pool=cb2fc73a-3806-5f83-8336-e2ba04cbbe24#src=seo_token) | Base | 0.17% | $2.8M |
-| [origami-finance →](https://www.defi.garden/?pool=f75f4745-1e04-416e-a9f6-3aee0c535826#src=seo_token) | Ethereum | 8.78% | $498.2K |
+| [origami-finance →](https://www.defi.garden/?pool=f75f4745-1e04-416e-a9f6-3aee0c535826#src=seo_token) | Ethereum | 8.83% | $498.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, OPAL's lower-variability candidates are uniswap-v2 (Base), 0.17% APY, $2.8M TVL, https://www.defi.garden/?pool=cb2fc73a-3806-5f83-8336-e2ba04cbbe24#src=seo_token; origami-finance (Ethereum), 8.78% APY, $498.2K TVL, https://www.defi.garden/?pool=f75f4745-1e04-416e-a9f6-3aee0c535826#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, OPAL's lower-variability candidates are uniswap-v2 (Base), 0.17% APY, $2.8M TVL, https://www.defi.garden/?pool=cb2fc73a-3806-5f83-8336-e2ba04cbbe24#src=seo_token; origami-finance (Ethereum), 8.83% APY, $498.1K TVL, https://www.defi.garden/?pool=f75f4745-1e04-416e-a9f6-3aee0c535826#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v2 →](https://www.defi.garden/?pool=cb2fc73a-3806-5f83-8336-e2ba04cbbe24#src=seo_token) | Base | 0.17% | $2.8M |
-| 2 | [origami-finance →](https://www.defi.garden/?pool=f75f4745-1e04-416e-a9f6-3aee0c535826#src=seo_token) | Ethereum | 8.78% | $498.2K |
+| 2 | [origami-finance →](https://www.defi.garden/?pool=f75f4745-1e04-416e-a9f6-3aee0c535826#src=seo_token) | Ethereum | 8.83% | $498.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-OPAL shows up in 2 pools here, with rates from 0.17% to 8.78% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+OPAL shows up in 2 pools here, with rates from 0.17% to 8.83% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 4.35% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -34,7 +34,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | uniswap-v2 | 0.17% | 0.46% | Base rate |
-| origami-finance | 8.78% | 8.23% | Base rate |
+| origami-finance | 8.83% | 8.24% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,7 +42,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest OPAL yield today?
 
-8.78% APY on origami-finance (Ethereum), based on live DefiLlama data.
+8.83% APY on origami-finance (Ethereum), based on live DefiLlama data.
 
 ### How many OPAL pools clear the TVL floor?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which OPAL pools have the most stable APY history?
 
-Based on APY history only, OPAL's lower-variability candidates are uniswap-v2 (Base), 0.17% APY, $2.8M TVL, https://www.defi.garden/?pool=cb2fc73a-3806-5f83-8336-e2ba04cbbe24#src=seo_token; origami-finance (Ethereum), 8.78% APY, $498.2K TVL, https://www.defi.garden/?pool=f75f4745-1e04-416e-a9f6-3aee0c535826#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, OPAL's lower-variability candidates are uniswap-v2 (Base), 0.17% APY, $2.8M TVL, https://www.defi.garden/?pool=cb2fc73a-3806-5f83-8336-e2ba04cbbe24#src=seo_token; origami-finance (Ethereum), 8.83% APY, $498.1K TVL, https://www.defi.garden/?pool=f75f4745-1e04-416e-a9f6-3aee0c535826#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

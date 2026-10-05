@@ -7,19 +7,19 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [scrub-invest →](https://www.defi.garden/?pool=bc34f03d-95fe-4ed6-a809-09df91d44727#src=seo_token) | Kava | 6.08% | $7.55M |
-| [vvs-standard →](https://www.defi.garden/?pool=e67c8f7e-4bf5-49a7-bd5f-e0459b1895b5#src=seo_token) | Cronos | 0.22% | $2.33M |
-| [raydium-amm →](https://www.defi.garden/?pool=7d53f6d4-b6b3-4164-9fc1-dc1a657d22ae#src=seo_token) | Solana | 1.04% | $486.8K |
+| [vvs-standard →](https://www.defi.garden/?pool=e67c8f7e-4bf5-49a7-bd5f-e0459b1895b5#src=seo_token) | Cronos | 0.22% | $2.32M |
+| [raydium-amm →](https://www.defi.garden/?pool=7d53f6d4-b6b3-4164-9fc1-dc1a657d22ae#src=seo_token) | Solana | 1.07% | $485.3K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 LION의 변동성 낮은 후보는 Solana의 raydium-amm, APY 1.04%, TVL $486.8K, https://www.defi.garden/?pool=7d53f6d4-b6b3-4164-9fc1-dc1a657d22ae#src=seo_token; Kava의 scrub-invest, APY 6.08%, TVL $7.55M, https://www.defi.garden/?pool=bc34f03d-95fe-4ed6-a809-09df91d44727#src=seo_token; Cronos의 vvs-standard, APY 0.22%, TVL $2.33M, https://www.defi.garden/?pool=e67c8f7e-4bf5-49a7-bd5f-e0459b1895b5#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 LION의 변동성 낮은 후보는 Solana의 raydium-amm, APY 1.07%, TVL $485.3K, https://www.defi.garden/?pool=7d53f6d4-b6b3-4164-9fc1-dc1a657d22ae#src=seo_token; Kava의 scrub-invest, APY 6.08%, TVL $7.55M, https://www.defi.garden/?pool=bc34f03d-95fe-4ed6-a809-09df91d44727#src=seo_token; Cronos의 vvs-standard, APY 0.22%, TVL $2.32M, https://www.defi.garden/?pool=e67c8f7e-4bf5-49a7-bd5f-e0459b1895b5#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=7d53f6d4-b6b3-4164-9fc1-dc1a657d22ae#src=seo_token) | Solana | 1.04% | $486.8K |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=7d53f6d4-b6b3-4164-9fc1-dc1a657d22ae#src=seo_token) | Solana | 1.07% | $485.3K |
 | 2 | [scrub-invest →](https://www.defi.garden/?pool=bc34f03d-95fe-4ed6-a809-09df91d44727#src=seo_token) | Kava | 6.08% | $7.55M |
-| 3 | [vvs-standard →](https://www.defi.garden/?pool=e67c8f7e-4bf5-49a7-bd5f-e0459b1895b5#src=seo_token) | Cronos | 0.22% | $2.33M |
+| 3 | [vvs-standard →](https://www.defi.garden/?pool=e67c8f7e-4bf5-49a7-bd5f-e0459b1895b5#src=seo_token) | Cronos | 0.22% | $2.32M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -37,7 +37,7 @@ LION 풀은 여기 3개가 있고, 3개 체인에서 APY가 0.22%부터 6.08%까
 |---|---|---|---|
 | scrub-invest | 6.08% | 6.08% | 기본 금리 |
 | vvs-standard | 0.22% | 0.56% | 기본 금리 |
-| raydium-amm | 1.04% | 2.28% | 기본 금리 |
+| raydium-amm | 1.07% | 2.28% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -49,7 +49,7 @@ DefiLlama 실시간 데이터 기준, Kava의 scrub-invest에서 APY 6.08%예요
 
 ### LION 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $10.48M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $10.47M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -57,7 +57,7 @@ DefiLlama 실시간 데이터 기준, Kava의 scrub-invest에서 APY 6.08%예요
 
 ### LION 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 LION의 변동성 낮은 후보는 Solana의 raydium-amm, APY 1.04%, TVL $486.8K, https://www.defi.garden/?pool=7d53f6d4-b6b3-4164-9fc1-dc1a657d22ae#src=seo_token; Kava의 scrub-invest, APY 6.08%, TVL $7.55M, https://www.defi.garden/?pool=bc34f03d-95fe-4ed6-a809-09df91d44727#src=seo_token; Cronos의 vvs-standard, APY 0.22%, TVL $2.33M, https://www.defi.garden/?pool=e67c8f7e-4bf5-49a7-bd5f-e0459b1895b5#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 LION의 변동성 낮은 후보는 Solana의 raydium-amm, APY 1.07%, TVL $485.3K, https://www.defi.garden/?pool=7d53f6d4-b6b3-4164-9fc1-dc1a657d22ae#src=seo_token; Kava의 scrub-invest, APY 6.08%, TVL $7.55M, https://www.defi.garden/?pool=bc34f03d-95fe-4ed6-a809-09df91d44727#src=seo_token; Cronos의 vvs-standard, APY 0.22%, TVL $2.32M, https://www.defi.garden/?pool=e67c8f7e-4bf5-49a7-bd5f-e0459b1895b5#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

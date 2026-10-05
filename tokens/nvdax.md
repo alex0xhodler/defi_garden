@@ -2,37 +2,37 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest NVDAX yield right now is 343.39% on raydium-amm (Solana), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NVDAX yield right now is 341.27% on raydium-amm (Solana), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=6f7708a9-58d0-4941-a06a-b83e91b06903#src=seo_token) | Solana | 12.01% | $3.2M |
+| [raydium-amm →](https://www.defi.garden/?pool=6f7708a9-58d0-4941-a06a-b83e91b06903#src=seo_token) | Solana | 12.32% | $3.2M |
 | [kamino-lend →](https://www.defi.garden/?pool=646abe53-eb33-4dbc-815d-50f571299302#src=seo_token) | Solana | 0.02% | $2.73M |
-| [raydium-amm →](https://www.defi.garden/?pool=087d7f6a-e646-5119-9390-bf28ec79adde#src=seo_token) | Solana | 141.15% | $852.7K |
-| [orca-dex →](https://www.defi.garden/?pool=d841f4d5-34a3-4671-809e-47ed34fd9bcf#src=seo_token) | Solana | 87.06% | $540.8K |
-| [raydium-amm →](https://www.defi.garden/?pool=9347eff9-909c-435d-8fb2-1dced04f5831#src=seo_token) | Solana | 343.39% | $324.3K |
-| [raydium-amm →](https://www.defi.garden/?pool=a8e25ac4-f4d0-412a-a211-62a4e513eca0#src=seo_token) | Solana | 4.33% | $125.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=087d7f6a-e646-5119-9390-bf28ec79adde#src=seo_token) | Solana | 134.54% | $841.4K |
+| [orca-dex →](https://www.defi.garden/?pool=d841f4d5-34a3-4671-809e-47ed34fd9bcf#src=seo_token) | Solana | 85.74% | $559.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=9347eff9-909c-435d-8fb2-1dced04f5831#src=seo_token) | Solana | 341.27% | $329.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=a8e25ac4-f4d0-412a-a211-62a4e513eca0#src=seo_token) | Solana | 4.63% | $125.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, NVDAX's lower-variability candidates are kamino-lend (Solana), 0.02% APY, $2.73M TVL, https://www.defi.garden/?pool=646abe53-eb33-4dbc-815d-50f571299302#src=seo_token; raydium-amm (Solana), 12.01% APY, $3.2M TVL, https://www.defi.garden/?pool=6f7708a9-58d0-4941-a06a-b83e91b06903#src=seo_token; raydium-amm (Solana), 4.33% APY, $125.6K TVL, https://www.defi.garden/?pool=a8e25ac4-f4d0-412a-a211-62a4e513eca0#src=seo_token; orca-dex (Solana), 87.06% APY, $540.8K TVL, https://www.defi.garden/?pool=d841f4d5-34a3-4671-809e-47ed34fd9bcf#src=seo_token; raydium-amm (Solana), 343.39% APY, $324.3K TVL, https://www.defi.garden/?pool=9347eff9-909c-435d-8fb2-1dced04f5831#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NVDAX's lower-variability candidates are kamino-lend (Solana), 0.02% APY, $2.73M TVL, https://www.defi.garden/?pool=646abe53-eb33-4dbc-815d-50f571299302#src=seo_token; raydium-amm (Solana), 12.32% APY, $3.2M TVL, https://www.defi.garden/?pool=6f7708a9-58d0-4941-a06a-b83e91b06903#src=seo_token; raydium-amm (Solana), 4.63% APY, $125.6K TVL, https://www.defi.garden/?pool=a8e25ac4-f4d0-412a-a211-62a4e513eca0#src=seo_token; orca-dex (Solana), 85.74% APY, $559.4K TVL, https://www.defi.garden/?pool=d841f4d5-34a3-4671-809e-47ed34fd9bcf#src=seo_token; raydium-amm (Solana), 341.27% APY, $329.4K TVL, https://www.defi.garden/?pool=9347eff9-909c-435d-8fb2-1dced04f5831#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [kamino-lend →](https://www.defi.garden/?pool=646abe53-eb33-4dbc-815d-50f571299302#src=seo_token) | Solana | 0.02% | $2.73M |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=6f7708a9-58d0-4941-a06a-b83e91b06903#src=seo_token) | Solana | 12.01% | $3.2M |
-| 3 | [raydium-amm →](https://www.defi.garden/?pool=a8e25ac4-f4d0-412a-a211-62a4e513eca0#src=seo_token) | Solana | 4.33% | $125.6K |
-| 4 | [orca-dex →](https://www.defi.garden/?pool=d841f4d5-34a3-4671-809e-47ed34fd9bcf#src=seo_token) | Solana | 87.06% | $540.8K |
-| 5 | [raydium-amm →](https://www.defi.garden/?pool=9347eff9-909c-435d-8fb2-1dced04f5831#src=seo_token) | Solana | 343.39% | $324.3K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=6f7708a9-58d0-4941-a06a-b83e91b06903#src=seo_token) | Solana | 12.32% | $3.2M |
+| 3 | [raydium-amm →](https://www.defi.garden/?pool=a8e25ac4-f4d0-412a-a211-62a4e513eca0#src=seo_token) | Solana | 4.63% | $125.6K |
+| 4 | [orca-dex →](https://www.defi.garden/?pool=d841f4d5-34a3-4671-809e-47ed34fd9bcf#src=seo_token) | Solana | 85.74% | $559.4K |
+| 5 | [raydium-amm →](https://www.defi.garden/?pool=9347eff9-909c-435d-8fb2-1dced04f5831#src=seo_token) | Solana | 341.27% | $329.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-NVDAX shows up in 6 pools here, with rates from 0.02% to 343.39% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+NVDAX shows up in 6 pools here, with rates from 0.02% to 341.27% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-5 of these 6 pools have a trustworthy 30-day average on file, with a median of 47.17% — a useful check against today's number for whether the rate is steady or just having a good day.
+5 of these 6 pools have a trustworthy 30-day average on file, with a median of 47.18% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 6 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -40,12 +40,12 @@ All 6 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 12.01% | 47.17% | Base rate |
+| raydium-amm | 12.32% | 47.18% | Base rate |
 | kamino-lend | 0.02% | 0.02% | Base rate |
-| raydium-amm | 141.15% | — | Base rate |
-| orca-dex | 87.06% | 80.78% | Base rate |
-| raydium-amm | 343.39% | 351.56% | Base rate |
-| raydium-amm | 4.33% | 13.90% | Base rate |
+| raydium-amm | 134.54% | — | Base rate |
+| orca-dex | 85.74% | 80.89% | Base rate |
+| raydium-amm | 341.27% | 351.99% | Base rate |
+| raydium-amm | 4.63% | 13.90% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -53,11 +53,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest NVDAX yield today?
 
-343.39% APY on raydium-amm (Solana), based on live DefiLlama data.
+341.27% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many NVDAX pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $8.37M in total.
+7 live pools clear this page's $100K TVL floor, $8.38M in total.
 
 ### Are these rates safe?
 
@@ -65,7 +65,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which NVDAX pools have the most stable APY history?
 
-Based on APY history only, NVDAX's lower-variability candidates are kamino-lend (Solana), 0.02% APY, $2.73M TVL, https://www.defi.garden/?pool=646abe53-eb33-4dbc-815d-50f571299302#src=seo_token; raydium-amm (Solana), 12.01% APY, $3.2M TVL, https://www.defi.garden/?pool=6f7708a9-58d0-4941-a06a-b83e91b06903#src=seo_token; raydium-amm (Solana), 4.33% APY, $125.6K TVL, https://www.defi.garden/?pool=a8e25ac4-f4d0-412a-a211-62a4e513eca0#src=seo_token; orca-dex (Solana), 87.06% APY, $540.8K TVL, https://www.defi.garden/?pool=d841f4d5-34a3-4671-809e-47ed34fd9bcf#src=seo_token; raydium-amm (Solana), 343.39% APY, $324.3K TVL, https://www.defi.garden/?pool=9347eff9-909c-435d-8fb2-1dced04f5831#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NVDAX's lower-variability candidates are kamino-lend (Solana), 0.02% APY, $2.73M TVL, https://www.defi.garden/?pool=646abe53-eb33-4dbc-815d-50f571299302#src=seo_token; raydium-amm (Solana), 12.32% APY, $3.2M TVL, https://www.defi.garden/?pool=6f7708a9-58d0-4941-a06a-b83e91b06903#src=seo_token; raydium-amm (Solana), 4.63% APY, $125.6K TVL, https://www.defi.garden/?pool=a8e25ac4-f4d0-412a-a211-62a4e513eca0#src=seo_token; orca-dex (Solana), 85.74% APY, $559.4K TVL, https://www.defi.garden/?pool=d841f4d5-34a3-4671-809e-47ed34fd9bcf#src=seo_token; raydium-amm (Solana), 341.27% APY, $329.4K TVL, https://www.defi.garden/?pool=9347eff9-909c-435d-8fb2-1dced04f5831#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

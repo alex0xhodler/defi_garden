@@ -200,6 +200,16 @@
       "permanent": true
     },
     {
+      "source": "/pools/aave-v3-usdc-ethereum",
+      "destination": "/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/aave-v3-usdc-ethereum",
+      "destination": "/ko/chains/ethereum",
+      "permanent": true
+    },
+    {
       "source": "/pools/aave-v3-usde-ethereum",
       "destination": "/chains/ethereum",
       "permanent": true

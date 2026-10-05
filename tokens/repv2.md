@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest REPV2 yield right now is 1.88% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest REPV2 yield right now is 1.80% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=c9f33459-0d16-5df5-887f-dfc66a2a33ac#src=seo_token) | Ethereum | 1.88% | $153.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=c9f33459-0d16-5df5-887f-dfc66a2a33ac#src=seo_token) | Ethereum | 1.80% | $153.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest REPV2 yield today?
 
-1.88% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+1.80% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many REPV2 pools clear the TVL floor?
 

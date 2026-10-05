@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-05T17:07:11.264Z",
+  "generatedAt": "2026-10-05T18:00:36.458Z",
   "pools": [
     {
       "pool": "d8c4eff5-c8a9-46fc-a888-057c4c668e72",
       "symbol": "SUSDS",
       "project": "sky-lending",
       "chain": "Ethereum",
-      "tvlUsd": 4721187569,
+      "tvlUsd": 4779663279,
       "apy": 3.6,
       "defiScore": {
-        "score": 92.2,
+        "score": 92,
         "rating": "AAA",
         "breakdown": {
           "stability": 35,
           "sustainability": 22,
-          "stickiness": 21.1,
+          "stickiness": 20.9,
           "liquidity": 14.1
         }
       },
@@ -26,8 +26,8 @@
         "p90": 3.6,
         "organicApy": 3.6,
         "rewardApy": 0,
-        "predictedTvlUsd": 4682630062,
-        "predictedTvlDelta": -0.0082,
+        "predictedTvlUsd": 4705863476,
+        "predictedTvlDelta": -0.0154,
         "forwardDelta": 0,
         "crashRisk": "LOW",
         "skew": 0,
@@ -54,7 +54,7 @@
       "symbol": "USDC",
       "project": "maple",
       "chain": "Ethereum",
-      "tvlUsd": 2901957139,
+      "tvlUsd": 2902500082,
       "apy": 5.12,
       "defiScore": {
         "score": 91.5,
@@ -73,7 +73,7 @@
         "p90": 5.2,
         "organicApy": 5.08,
         "rewardApy": 0,
-        "predictedTvlUsd": 2871572495,
+        "predictedTvlUsd": 2872078657,
         "predictedTvlDelta": -0.0105,
         "forwardDelta": -0.04,
         "crashRisk": "LOW",
@@ -101,10 +101,10 @@
       "symbol": "STETH",
       "project": "lido",
       "chain": "Ethereum",
-      "tvlUsd": 26528711415,
+      "tvlUsd": 26427447801,
       "apy": 2.22,
       "defiScore": {
-        "score": 91.4,
+        "score": 91.5,
         "rating": "AAA",
         "breakdown": {
           "stability": 34.2,
@@ -120,8 +120,8 @@
         "p90": 2.31,
         "organicApy": 2.24,
         "rewardApy": 0,
-        "predictedTvlUsd": 26346784592,
-        "predictedTvlDelta": -0.0069,
+        "predictedTvlUsd": 26284708023,
+        "predictedTvlDelta": -0.0054,
         "forwardDelta": 0.02,
         "crashRisk": "LOW",
         "skew": 0,
@@ -148,7 +148,7 @@
       "symbol": "JITOSOL",
       "project": "jito-liquid-staking",
       "chain": "Solana",
-      "tvlUsd": 1244814355,
+      "tvlUsd": 1243791879,
       "apy": 4.83,
       "defiScore": {
         "score": 91.7,
@@ -167,8 +167,8 @@
         "p90": 4.94,
         "organicApy": 4.85,
         "rewardApy": 0,
-        "predictedTvlUsd": 1329358220,
-        "predictedTvlDelta": 0.0679,
+        "predictedTvlUsd": 1328617930,
+        "predictedTvlDelta": 0.0682,
         "forwardDelta": 0.02,
         "crashRisk": "LOW",
         "skew": 0,

@@ -47,7 +47,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many USCC pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $195.78M in total.
+5 live pools clear this page's $100K TVL floor, $195.82M in total.
 
 ### Are these rates safe?
 

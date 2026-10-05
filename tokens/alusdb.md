@@ -7,7 +7,7 @@ The highest honest ALUSDB yield right now is 20.94% on aerodrome-v1 (Base), amon
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [aerodrome-v1 →](https://www.defi.garden/?pool=af1b872b-af09-511d-8124-2faa2c57b9b5#src=seo_token) | Base | 20.94% | $2.03M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=2974581e-b6c7-5b8e-812a-bda0decab061#src=seo_token) | Base | 12.47% | $265.8K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=2974581e-b6c7-5b8e-812a-bda0decab061#src=seo_token) | Base | 11.44% | $265.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,16 +18,16 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-ALUSDB shows up in 2 pools here, with rates from 12.47% to 20.94% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+ALUSDB shows up in 2 pools here, with rates from 11.44% to 20.94% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 25.42% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 25.38% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 2 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-v1 | 20.94% | 23.81% | 100.00% incentives |
-| aerodrome-slipstream | 12.47% | 27.04% | 75.40% incentives |
+| aerodrome-v1 | 20.94% | 23.79% | 100.00% incentives |
+| aerodrome-slipstream | 11.44% | 26.97% | 82.36% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ALUSDB pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $2.29M in total.
+2 live pools clear this page's $100K TVL floor, $2.3M in total.
 
 ### Are these rates safe?
 

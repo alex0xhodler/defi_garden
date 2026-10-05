@@ -6,7 +6,7 @@ The highest honest 80QNT yield right now is 7.21% on balancer-v3 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=d2785eb7-c159-455a-a837-9e30f56e241d#src=seo_token) | Ethereum | 7.21% | $124.9K |
+| [balancer-v3 →](https://www.defi.garden/?pool=d2785eb7-c159-455a-a837-9e30f56e241d#src=seo_token) | Ethereum | 7.21% | $123.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many 80QNT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $124.9K in total.
+1 live pool clear this page's $100K TVL floor, $123.8K in total.
 
 ### Are these rates safe?
 

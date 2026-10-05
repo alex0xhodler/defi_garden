@@ -4,12 +4,12 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| SUSDAI | [usd-ai →](https://www.defi.garden/ko/pools/usd-ai-susdai-arbitrum) | 6.96% | $536.4M |
-| SUSDS | [sky-lending →](https://www.defi.garden/ko/pools/sky-lending-susds-arbitrum) | 3.60% | $363.56M |
-| USDS | [spark-savings →](https://www.defi.garden/ko/pools/spark-savings-usds-arbitrum) | 3.60% | $363.56M |
-| WBTC | [aave-v3 →](https://www.defi.garden/?pool=7c5e69a4-2430-4fa2-b7cb-857f79d7d1bf#src=seo_chain) | 0.02% | $244.28M |
-| WBTC.B-USDC | [gmx-v2-perps →](https://www.defi.garden/?pool=5b8c0691-b9ff-4d82-97e4-19a1247e6dbf#src=seo_chain) | 1.77% | $59.29M |
-| USDC | [fluid-lending →](https://www.defi.garden/?pool=4c45cc9e-e1a4-43c9-8a3d-687d96abb07c#src=seo_chain) | 5.41% | $56.16M |
+| SUSDAI | [usd-ai →](https://www.defi.garden/ko/pools/usd-ai-susdai-arbitrum) | 6.96% | $537.32M |
+| SUSDS | [sky-lending →](https://www.defi.garden/ko/pools/sky-lending-susds-arbitrum) | 3.60% | $363.55M |
+| USDS | [spark-savings →](https://www.defi.garden/ko/pools/spark-savings-usds-arbitrum) | 3.60% | $363.55M |
+| WBTC | [aave-v3 →](https://www.defi.garden/?pool=7c5e69a4-2430-4fa2-b7cb-857f79d7d1bf#src=seo_chain) | 0.02% | $243.7M |
+| WBTC.B-USDC | [gmx-v2-perps →](https://www.defi.garden/?pool=5b8c0691-b9ff-4d82-97e4-19a1247e6dbf#src=seo_chain) | 1.77% | $59.3M |
+| USDC | [fluid-lending →](https://www.defi.garden/?pool=4c45cc9e-e1a4-43c9-8a3d-687d96abb07c#src=seo_chain) | 5.22% | $56.52M |
 | USDAI | [pendle-v2 →](https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c#src=seo_chain) | 2.97% | $50.37M |
 | USDAI | [pendle-v2 →](https://www.defi.garden/?pool=2785c8d0-348b-4e8f-904e-4b02819993b9#src=seo_chain) | 11.32% | $50.37M |
 

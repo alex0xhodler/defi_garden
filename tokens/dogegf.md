@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest DOGEGF yield right now is 7.23% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DOGEGF yield right now is 9.45% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=eaf547cb-60da-4213-b835-43f26edcef9e#src=seo_token) | Ethereum | 7.23% | $144K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=eaf547cb-60da-4213-b835-43f26edcef9e#src=seo_token) | Ethereum | 9.45% | $143.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DOGEGF yield today?
 
-7.23% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+9.45% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many DOGEGF pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $144K in total.
+1 live pool clear this page's $100K TVL floor, $143.7K in total.
 
 ### Are these rates safe?
 

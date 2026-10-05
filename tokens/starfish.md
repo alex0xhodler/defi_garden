@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest STARFISH yield right now is 50.04% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STARFISH yield right now is 48.35% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=4e952d1b-26a2-5ec1-b340-546cfbfa646e#src=seo_token) | Base | 50.04% | $140.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=4e952d1b-26a2-5ec1-b340-546cfbfa646e#src=seo_token) | Base | 48.35% | $140.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest STARFISH yield today?
 
-50.04% APY on uniswap-v4 (Base), based on live DefiLlama data.
+48.35% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many STARFISH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $140.4K in total.
+1 live pool clear this page's $100K TVL floor, $140.5K in total.
 
 ### Are these rates safe?
 

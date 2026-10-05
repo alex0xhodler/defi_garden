@@ -6,19 +6,19 @@ The highest honest SUSN yield right now is 8.60% on pendle-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle-v2 →](https://www.defi.garden/?pool=ed801709-41f3-5cd0-9fd3-c4db7a9e1911#src=seo_token) | Ethereum | 7.55% | $1.18M |
+| [pendle-v2 →](https://www.defi.garden/?pool=ed801709-41f3-5cd0-9fd3-c4db7a9e1911#src=seo_token) | Ethereum | 7.56% | $1.18M |
 | [pendle-v2 →](https://www.defi.garden/?pool=0edc91ad-7a4d-58fa-9777-df65a86ffbea#src=seo_token) | Ethereum | 8.60% | $1.18M |
 | [bluefin-spot →](https://www.defi.garden/?pool=bfb98b32-bf0d-5988-a921-5c7b1ff49579#src=seo_token) | Sui | 0.10% | $700.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SUSN's lower-variability candidates are pendle-v2 (Ethereum), 8.60% APY, $1.18M TVL, https://www.defi.garden/?pool=0edc91ad-7a4d-58fa-9777-df65a86ffbea#src=seo_token; pendle-v2 (Ethereum), 7.55% APY, $1.18M TVL, https://www.defi.garden/?pool=ed801709-41f3-5cd0-9fd3-c4db7a9e1911#src=seo_token; bluefin-spot (Sui), 0.10% APY, $700.4K TVL, https://www.defi.garden/?pool=bfb98b32-bf0d-5988-a921-5c7b1ff49579#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SUSN's lower-variability candidates are pendle-v2 (Ethereum), 8.60% APY, $1.18M TVL, https://www.defi.garden/?pool=0edc91ad-7a4d-58fa-9777-df65a86ffbea#src=seo_token; pendle-v2 (Ethereum), 7.56% APY, $1.18M TVL, https://www.defi.garden/?pool=ed801709-41f3-5cd0-9fd3-c4db7a9e1911#src=seo_token; bluefin-spot (Sui), 0.10% APY, $700.4K TVL, https://www.defi.garden/?pool=bfb98b32-bf0d-5988-a921-5c7b1ff49579#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [pendle-v2 →](https://www.defi.garden/?pool=0edc91ad-7a4d-58fa-9777-df65a86ffbea#src=seo_token) | Ethereum | 8.60% | $1.18M |
-| 2 | [pendle-v2 →](https://www.defi.garden/?pool=ed801709-41f3-5cd0-9fd3-c4db7a9e1911#src=seo_token) | Ethereum | 7.55% | $1.18M |
+| 2 | [pendle-v2 →](https://www.defi.garden/?pool=ed801709-41f3-5cd0-9fd3-c4db7a9e1911#src=seo_token) | Ethereum | 7.56% | $1.18M |
 | 3 | [bluefin-spot →](https://www.defi.garden/?pool=bfb98b32-bf0d-5988-a921-5c7b1ff49579#src=seo_token) | Sui | 0.10% | $700.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -33,9 +33,9 @@ SUSN shows up in 3 pools here, with rates from 0.10% to 8.60% APY across 2 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle-v2 | 7.55% | 8.18% | 2.99% incentives |
+| pendle-v2 | 7.56% | 8.18% | 3.03% incentives |
 | pendle-v2 | 8.60% | 8.65% | Base rate |
-| bluefin-spot | 0.10% | 6.71% | Base rate |
+| bluefin-spot | 0.10% | 6.70% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SUSN pools have the most stable APY history?
 
-Based on APY history only, SUSN's lower-variability candidates are pendle-v2 (Ethereum), 8.60% APY, $1.18M TVL, https://www.defi.garden/?pool=0edc91ad-7a4d-58fa-9777-df65a86ffbea#src=seo_token; pendle-v2 (Ethereum), 7.55% APY, $1.18M TVL, https://www.defi.garden/?pool=ed801709-41f3-5cd0-9fd3-c4db7a9e1911#src=seo_token; bluefin-spot (Sui), 0.10% APY, $700.4K TVL, https://www.defi.garden/?pool=bfb98b32-bf0d-5988-a921-5c7b1ff49579#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SUSN's lower-variability candidates are pendle-v2 (Ethereum), 8.60% APY, $1.18M TVL, https://www.defi.garden/?pool=0edc91ad-7a4d-58fa-9777-df65a86ffbea#src=seo_token; pendle-v2 (Ethereum), 7.56% APY, $1.18M TVL, https://www.defi.garden/?pool=ed801709-41f3-5cd0-9fd3-c4db7a9e1911#src=seo_token; bluefin-spot (Sui), 0.10% APY, $700.4K TVL, https://www.defi.garden/?pool=bfb98b32-bf0d-5988-a921-5c7b1ff49579#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

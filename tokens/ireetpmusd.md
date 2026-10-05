@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest IREETPMUSD yield right now is 59.07% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest IREETPMUSD yield right now is 56.91% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=c9a324bb-5c7c-51d2-84ee-b68b9c687d03#src=seo_token) | Ethereum | 59.07% | $304.7K |
+| [yearn-finance →](https://www.defi.garden/?pool=c9a324bb-5c7c-51d2-84ee-b68b9c687d03#src=seo_token) | Ethereum | 56.91% | $316.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest IREETPMUSD yield today?
 
-59.07% APY on yearn-finance (Ethereum), based on live DefiLlama data.
+56.91% APY on yearn-finance (Ethereum), based on live DefiLlama data.
 
 ### How many IREETPMUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $304.7K in total.
+1 live pool clear this page's $100K TVL floor, $316.5K in total.
 
 ### Are these rates safe?
 

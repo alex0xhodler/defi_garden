@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest TELEBTC yield right now is 7.11% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TELEBTC yield right now is 7.05% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=099e0d82-15f1-42d2-ae34-8f1b689262bd#src=seo_token) | Polygon | 7.11% | $228.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=099e0d82-15f1-42d2-ae34-8f1b689262bd#src=seo_token) | Polygon | 7.05% | $228.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TELEBTC yield today?
 
-7.11% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
+7.05% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
 
 ### How many TELEBTC pools clear the TVL floor?
 

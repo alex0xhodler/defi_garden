@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest YUTY yield right now is 13.76% on pendle-v2 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YUTY yield right now is 13.77% on pendle-v2 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle-v2 →](https://www.defi.garden/?pool=0985d423-87f2-52af-b61f-3e9d699f9d42#src=seo_token) | Base | 13.76% | $112.4K |
+| [pendle-v2 →](https://www.defi.garden/?pool=0985d423-87f2-52af-b61f-3e9d699f9d42#src=seo_token) | Base | 13.77% | $112.4K |
 | [pendle-v2 →](https://www.defi.garden/?pool=060d76cc-fe89-5e9b-9dc3-7c6b10f2fed0#src=seo_token) | Base | 11.57% | $112.4K |
 
 <!-- rate-stability:insufficient -->
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-YUTY shows up in 2 pools here, with rates from 11.57% to 13.76% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+YUTY shows up in 2 pools here, with rates from 11.57% to 13.77% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 12.75% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -26,7 +26,7 @@ YUTY shows up in 2 pools here, with rates from 11.57% to 13.76% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle-v2 | 13.76% | 14.01% | 13.45% incentives |
+| pendle-v2 | 13.77% | 14.01% | 13.52% incentives |
 | pendle-v2 | 11.57% | 11.50% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest YUTY yield today?
 
-13.76% APY on pendle-v2 (Base), based on live DefiLlama data.
+13.77% APY on pendle-v2 (Base), based on live DefiLlama data.
 
 ### How many YUTY pools clear the TVL floor?
 

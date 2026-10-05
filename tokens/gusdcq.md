@@ -6,18 +6,18 @@ The highest honest GUSDCQ yield right now is 4.42% on morpho-blue (Base), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=ba8f47b8-2cc2-4976-a0f9-1bd8da4bcb91#src=seo_token) | Ethereum | 4.37% | $10.19M |
+| [morpho-blue →](https://www.defi.garden/?pool=ba8f47b8-2cc2-4976-a0f9-1bd8da4bcb91#src=seo_token) | Ethereum | 4.37% | $10.2M |
 | [morpho-blue →](https://www.defi.garden/?pool=96ef2230-b5fc-47d7-bbb3-847816e1c15b#src=seo_token) | Base | 4.42% | $2.03M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, GUSDCQ's lower-variability candidates are morpho-blue (Base), 4.42% APY, $2.03M TVL, https://www.defi.garden/?pool=96ef2230-b5fc-47d7-bbb3-847816e1c15b#src=seo_token; morpho-blue (Ethereum), 4.37% APY, $10.19M TVL, https://www.defi.garden/?pool=ba8f47b8-2cc2-4976-a0f9-1bd8da4bcb91#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GUSDCQ's lower-variability candidates are morpho-blue (Base), 4.42% APY, $2.03M TVL, https://www.defi.garden/?pool=96ef2230-b5fc-47d7-bbb3-847816e1c15b#src=seo_token; morpho-blue (Ethereum), 4.37% APY, $10.2M TVL, https://www.defi.garden/?pool=ba8f47b8-2cc2-4976-a0f9-1bd8da4bcb91#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [morpho-blue →](https://www.defi.garden/?pool=96ef2230-b5fc-47d7-bbb3-847816e1c15b#src=seo_token) | Base | 4.42% | $2.03M |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=ba8f47b8-2cc2-4976-a0f9-1bd8da4bcb91#src=seo_token) | Ethereum | 4.37% | $10.19M |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=ba8f47b8-2cc2-4976-a0f9-1bd8da4bcb91#src=seo_token) | Ethereum | 4.37% | $10.2M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which GUSDCQ pools have the most stable APY history?
 
-Based on APY history only, GUSDCQ's lower-variability candidates are morpho-blue (Base), 4.42% APY, $2.03M TVL, https://www.defi.garden/?pool=96ef2230-b5fc-47d7-bbb3-847816e1c15b#src=seo_token; morpho-blue (Ethereum), 4.37% APY, $10.19M TVL, https://www.defi.garden/?pool=ba8f47b8-2cc2-4976-a0f9-1bd8da4bcb91#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GUSDCQ's lower-variability candidates are morpho-blue (Base), 4.42% APY, $2.03M TVL, https://www.defi.garden/?pool=96ef2230-b5fc-47d7-bbb3-847816e1c15b#src=seo_token; morpho-blue (Ethereum), 4.37% APY, $10.2M TVL, https://www.defi.garden/?pool=ba8f47b8-2cc2-4976-a0f9-1bd8da4bcb91#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

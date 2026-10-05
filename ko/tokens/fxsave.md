@@ -7,22 +7,22 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [morpho-blue →](https://www.defi.garden/?pool=9357d127-efb2-55fb-ab2f-005bf18f6d32#src=seo_token) | Ethereum | 4.80% | $29.84M |
-| [pendle-v2 →](https://www.defi.garden/?pool=62f77482-8595-4279-872d-a02a806e9127#src=seo_token) | Ethereum | 8.80% | $1.41M |
 | [pendle-v2 →](https://www.defi.garden/?pool=3e79042b-3018-4559-8fdf-6851ae2537c5#src=seo_token) | Ethereum | 11.43% | $1.41M |
-| [morpho-blue →](https://www.defi.garden/?pool=61c9f747-788b-526f-858b-90458925ec3e#src=seo_token) | Ethereum | 5.45% | $1.25M |
+| [pendle-v2 →](https://www.defi.garden/?pool=62f77482-8595-4279-872d-a02a806e9127#src=seo_token) | Ethereum | 8.80% | $1.41M |
+| [morpho-blue →](https://www.defi.garden/?pool=61c9f747-788b-526f-858b-90458925ec3e#src=seo_token) | Ethereum | 5.57% | $1.25M |
 | [curve-dex →](https://www.defi.garden/?pool=d2cec87c-a53a-45bd-aeae-c98cbc599bc6#src=seo_token) | Ethereum | 4.09% | $706.1K |
 | [convex-finance →](https://www.defi.garden/?pool=c9c1eb2b-3a22-41e1-b896-4cbfc5c0ddb1#src=seo_token) | Ethereum | 4.09% | $485.8K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 FXSAVE의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 4.80%, TVL $29.84M, https://www.defi.garden/?pool=9357d127-efb2-55fb-ab2f-005bf18f6d32#src=seo_token; Ethereum의 pendle-v2, APY 8.80%, TVL $1.41M, https://www.defi.garden/?pool=62f77482-8595-4279-872d-a02a806e9127#src=seo_token; Ethereum의 morpho-blue, APY 5.45%, TVL $1.25M, https://www.defi.garden/?pool=61c9f747-788b-526f-858b-90458925ec3e#src=seo_token; Ethereum의 pendle-v2, APY 11.43%, TVL $1.41M, https://www.defi.garden/?pool=3e79042b-3018-4559-8fdf-6851ae2537c5#src=seo_token; Ethereum의 convex-finance, APY 4.09%, TVL $485.8K, https://www.defi.garden/?pool=c9c1eb2b-3a22-41e1-b896-4cbfc5c0ddb1#src=seo_token; Ethereum의 curve-dex, APY 4.09%, TVL $706.1K, https://www.defi.garden/?pool=d2cec87c-a53a-45bd-aeae-c98cbc599bc6#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 FXSAVE의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 4.80%, TVL $29.84M, https://www.defi.garden/?pool=9357d127-efb2-55fb-ab2f-005bf18f6d32#src=seo_token; Ethereum의 pendle-v2, APY 8.80%, TVL $1.41M, https://www.defi.garden/?pool=62f77482-8595-4279-872d-a02a806e9127#src=seo_token; Ethereum의 morpho-blue, APY 5.57%, TVL $1.25M, https://www.defi.garden/?pool=61c9f747-788b-526f-858b-90458925ec3e#src=seo_token; Ethereum의 pendle-v2, APY 11.43%, TVL $1.41M, https://www.defi.garden/?pool=3e79042b-3018-4559-8fdf-6851ae2537c5#src=seo_token; Ethereum의 convex-finance, APY 4.09%, TVL $485.8K, https://www.defi.garden/?pool=c9c1eb2b-3a22-41e1-b896-4cbfc5c0ddb1#src=seo_token; Ethereum의 curve-dex, APY 4.09%, TVL $706.1K, https://www.defi.garden/?pool=d2cec87c-a53a-45bd-aeae-c98cbc599bc6#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [morpho-blue →](https://www.defi.garden/?pool=9357d127-efb2-55fb-ab2f-005bf18f6d32#src=seo_token) | Ethereum | 4.80% | $29.84M |
 | 2 | [pendle-v2 →](https://www.defi.garden/?pool=62f77482-8595-4279-872d-a02a806e9127#src=seo_token) | Ethereum | 8.80% | $1.41M |
-| 3 | [morpho-blue →](https://www.defi.garden/?pool=61c9f747-788b-526f-858b-90458925ec3e#src=seo_token) | Ethereum | 5.45% | $1.25M |
+| 3 | [morpho-blue →](https://www.defi.garden/?pool=61c9f747-788b-526f-858b-90458925ec3e#src=seo_token) | Ethereum | 5.57% | $1.25M |
 | 4 | [pendle-v2 →](https://www.defi.garden/?pool=3e79042b-3018-4559-8fdf-6851ae2537c5#src=seo_token) | Ethereum | 11.43% | $1.41M |
 | 5 | [convex-finance →](https://www.defi.garden/?pool=c9c1eb2b-3a22-41e1-b896-4cbfc5c0ddb1#src=seo_token) | Ethereum | 4.09% | $485.8K |
 | 6 | [curve-dex →](https://www.defi.garden/?pool=d2cec87c-a53a-45bd-aeae-c98cbc599bc6#src=seo_token) | Ethereum | 4.09% | $706.1K |
@@ -42,9 +42,9 @@ FXSAVE 풀은 여기 6개가 있고, 1개 체인에서 APY가 4.09%부터 11.43%
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | morpho-blue | 4.80% | 5.59% | 인센티브 100.00% |
+| pendle-v2 | 11.43% | 12.20% | 인센티브 1.83% |
 | pendle-v2 | 8.80% | 8.66% | 기본 금리 |
-| pendle-v2 | 11.43% | 12.20% | 인센티브 1.80% |
-| morpho-blue | 5.45% | 3.12% | 인센티브 100.00% |
+| morpho-blue | 5.57% | 3.12% | 인센티브 100.00% |
 | curve-dex | 4.09% | 3.49% | 인센티브 0.00% |
 | convex-finance | 4.09% | 3.49% | 기본 금리 |
 
@@ -66,7 +66,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle-v2에서 APY 11.43%예�
 
 ### FXSAVE 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 FXSAVE의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 4.80%, TVL $29.84M, https://www.defi.garden/?pool=9357d127-efb2-55fb-ab2f-005bf18f6d32#src=seo_token; Ethereum의 pendle-v2, APY 8.80%, TVL $1.41M, https://www.defi.garden/?pool=62f77482-8595-4279-872d-a02a806e9127#src=seo_token; Ethereum의 morpho-blue, APY 5.45%, TVL $1.25M, https://www.defi.garden/?pool=61c9f747-788b-526f-858b-90458925ec3e#src=seo_token; Ethereum의 pendle-v2, APY 11.43%, TVL $1.41M, https://www.defi.garden/?pool=3e79042b-3018-4559-8fdf-6851ae2537c5#src=seo_token; Ethereum의 convex-finance, APY 4.09%, TVL $485.8K, https://www.defi.garden/?pool=c9c1eb2b-3a22-41e1-b896-4cbfc5c0ddb1#src=seo_token; Ethereum의 curve-dex, APY 4.09%, TVL $706.1K, https://www.defi.garden/?pool=d2cec87c-a53a-45bd-aeae-c98cbc599bc6#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 FXSAVE의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 4.80%, TVL $29.84M, https://www.defi.garden/?pool=9357d127-efb2-55fb-ab2f-005bf18f6d32#src=seo_token; Ethereum의 pendle-v2, APY 8.80%, TVL $1.41M, https://www.defi.garden/?pool=62f77482-8595-4279-872d-a02a806e9127#src=seo_token; Ethereum의 morpho-blue, APY 5.57%, TVL $1.25M, https://www.defi.garden/?pool=61c9f747-788b-526f-858b-90458925ec3e#src=seo_token; Ethereum의 pendle-v2, APY 11.43%, TVL $1.41M, https://www.defi.garden/?pool=3e79042b-3018-4559-8fdf-6851ae2537c5#src=seo_token; Ethereum의 convex-finance, APY 4.09%, TVL $485.8K, https://www.defi.garden/?pool=c9c1eb2b-3a22-41e1-b896-4cbfc5c0ddb1#src=seo_token; Ethereum의 curve-dex, APY 4.09%, TVL $706.1K, https://www.defi.garden/?pool=d2cec87c-a53a-45bd-aeae-c98cbc599bc6#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

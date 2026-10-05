@@ -6,9 +6,9 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=2b653b93-56aa-5bb1-a05e-3372e2e0fcf2#src=seo_token) | Ethereum | 0.48% | $25.67M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=f52d4484-76a3-5f08-8f73-367ed0884e70#src=seo_token) | Ethereum | 0.29% | $6.21M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=93533d37-2a0a-5ae3-a69b-0be8cc4b2542#src=seo_token) | Ethereum | 0.77% | $5.83M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2b653b93-56aa-5bb1-a05e-3372e2e0fcf2#src=seo_token) | Ethereum | 0.50% | $25.64M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f52d4484-76a3-5f08-8f73-367ed0884e70#src=seo_token) | Ethereum | 0.29% | $6.2M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=93533d37-2a0a-5ae3-a69b-0be8cc4b2542#src=seo_token) | Ethereum | 0.77% | $5.82M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -29,7 +29,7 @@ CIRBTC 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.29%부터 0.77%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v3 | 0.48% | 1.48% | 기본 금리 |
+| uniswap-v3 | 0.50% | 1.47% | 기본 금리 |
 | uniswap-v3 | 0.29% | 0.42% | 기본 금리 |
 | uniswap-v3 | 0.77% | 0.77% | 기본 금리 |
 
@@ -43,7 +43,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 0.77%예�
 
 ### CIRBTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $37.71M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $37.67M예요.
 
 ### 이 수익률은 안전한가요?
 

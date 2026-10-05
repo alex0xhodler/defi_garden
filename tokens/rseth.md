@@ -6,7 +6,7 @@ The highest honest RSETH yield right now is 2.37% on kelp (Ethereum), among 4 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [kelp →](https://www.defi.garden/pools/kelp-rseth-ethereum) | Ethereum | 2.37% | $1.13B |
+| [kelp →](https://www.defi.garden/pools/kelp-rseth-ethereum) | Ethereum | 2.37% | $1.12B |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many RSETH pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.14B in total.
+4 live pools clear this page's $100K TVL floor, $1.13B in total.
 
 ### Are these rates safe?
 

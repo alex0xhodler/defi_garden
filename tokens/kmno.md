@@ -2,34 +2,34 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest KMNO yield right now is 30.68% on kamino-liquidity (Solana), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KMNO yield right now is 26.34% on kamino-liquidity (Solana), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=655490fe-d1d9-43b2-9e18-5aa12a046e71#src=seo_token) | Solana | 3.06% | $2.01M |
-| [kamino-liquidity →](https://www.defi.garden/?pool=396b18a3-8121-4e89-bfec-4cff488ebe1c#src=seo_token) | Solana | 2.36% | $2.01M |
-| [orca-dex →](https://www.defi.garden/?pool=b03c45e9-77a9-4782-8bb7-09162616095f#src=seo_token) | Solana | 5.23% | $290.4K |
-| [kamino-liquidity →](https://www.defi.garden/?pool=e1720ca6-d33a-4ea8-abbf-0c1de869d0f4#src=seo_token) | Solana | 3.39% | $289.4K |
-| [kamino-liquidity →](https://www.defi.garden/?pool=15802f03-83bf-498f-ae6a-6f0c14de6c6a#src=seo_token) | Solana | 30.68% | $129.1K |
+| [orca-dex →](https://www.defi.garden/?pool=655490fe-d1d9-43b2-9e18-5aa12a046e71#src=seo_token) | Solana | 3.20% | $2M |
+| [kamino-liquidity →](https://www.defi.garden/?pool=396b18a3-8121-4e89-bfec-4cff488ebe1c#src=seo_token) | Solana | 2.35% | $2M |
+| [orca-dex →](https://www.defi.garden/?pool=b03c45e9-77a9-4782-8bb7-09162616095f#src=seo_token) | Solana | 5.41% | $288.9K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=e1720ca6-d33a-4ea8-abbf-0c1de869d0f4#src=seo_token) | Solana | 4.55% | $287.9K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=15802f03-83bf-498f-ae6a-6f0c14de6c6a#src=seo_token) | Solana | 26.34% | $128.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, KMNO's lower-variability candidates are orca-dex (Solana), 3.06% APY, $2.01M TVL, https://www.defi.garden/?pool=655490fe-d1d9-43b2-9e18-5aa12a046e71#src=seo_token; orca-dex (Solana), 5.23% APY, $290.4K TVL, https://www.defi.garden/?pool=b03c45e9-77a9-4782-8bb7-09162616095f#src=seo_token; kamino-liquidity (Solana), 2.36% APY, $2.01M TVL, https://www.defi.garden/?pool=396b18a3-8121-4e89-bfec-4cff488ebe1c#src=seo_token; kamino-liquidity (Solana), 3.39% APY, $289.4K TVL, https://www.defi.garden/?pool=e1720ca6-d33a-4ea8-abbf-0c1de869d0f4#src=seo_token; kamino-liquidity (Solana), 30.68% APY, $129.1K TVL, https://www.defi.garden/?pool=15802f03-83bf-498f-ae6a-6f0c14de6c6a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, KMNO's lower-variability candidates are orca-dex (Solana), 3.20% APY, $2M TVL, https://www.defi.garden/?pool=655490fe-d1d9-43b2-9e18-5aa12a046e71#src=seo_token; orca-dex (Solana), 5.41% APY, $288.9K TVL, https://www.defi.garden/?pool=b03c45e9-77a9-4782-8bb7-09162616095f#src=seo_token; kamino-liquidity (Solana), 2.35% APY, $2M TVL, https://www.defi.garden/?pool=396b18a3-8121-4e89-bfec-4cff488ebe1c#src=seo_token; kamino-liquidity (Solana), 4.55% APY, $287.9K TVL, https://www.defi.garden/?pool=e1720ca6-d33a-4ea8-abbf-0c1de869d0f4#src=seo_token; kamino-liquidity (Solana), 26.34% APY, $128.7K TVL, https://www.defi.garden/?pool=15802f03-83bf-498f-ae6a-6f0c14de6c6a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [orca-dex →](https://www.defi.garden/?pool=655490fe-d1d9-43b2-9e18-5aa12a046e71#src=seo_token) | Solana | 3.06% | $2.01M |
-| 2 | [orca-dex →](https://www.defi.garden/?pool=b03c45e9-77a9-4782-8bb7-09162616095f#src=seo_token) | Solana | 5.23% | $290.4K |
-| 3 | [kamino-liquidity →](https://www.defi.garden/?pool=396b18a3-8121-4e89-bfec-4cff488ebe1c#src=seo_token) | Solana | 2.36% | $2.01M |
-| 4 | [kamino-liquidity →](https://www.defi.garden/?pool=e1720ca6-d33a-4ea8-abbf-0c1de869d0f4#src=seo_token) | Solana | 3.39% | $289.4K |
-| 5 | [kamino-liquidity →](https://www.defi.garden/?pool=15802f03-83bf-498f-ae6a-6f0c14de6c6a#src=seo_token) | Solana | 30.68% | $129.1K |
+| 1 | [orca-dex →](https://www.defi.garden/?pool=655490fe-d1d9-43b2-9e18-5aa12a046e71#src=seo_token) | Solana | 3.20% | $2M |
+| 2 | [orca-dex →](https://www.defi.garden/?pool=b03c45e9-77a9-4782-8bb7-09162616095f#src=seo_token) | Solana | 5.41% | $288.9K |
+| 3 | [kamino-liquidity →](https://www.defi.garden/?pool=396b18a3-8121-4e89-bfec-4cff488ebe1c#src=seo_token) | Solana | 2.35% | $2M |
+| 4 | [kamino-liquidity →](https://www.defi.garden/?pool=e1720ca6-d33a-4ea8-abbf-0c1de869d0f4#src=seo_token) | Solana | 4.55% | $287.9K |
+| 5 | [kamino-liquidity →](https://www.defi.garden/?pool=15802f03-83bf-498f-ae6a-6f0c14de6c6a#src=seo_token) | Solana | 26.34% | $128.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-KMNO shows up in 5 pools here, with rates from 2.36% to 30.68% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+KMNO shows up in 5 pools here, with rates from 2.35% to 26.34% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 5 of these 5 pools have a trustworthy 30-day average on file, with a median of 11.50% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -39,11 +39,11 @@ All 5 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| orca-dex | 3.06% | 7.59% | Base rate |
-| kamino-liquidity | 2.36% | 6.32% | Base rate |
-| orca-dex | 5.23% | 13.22% | Base rate |
-| kamino-liquidity | 3.39% | 11.50% | Base rate |
-| kamino-liquidity | 30.68% | 67.34% | Base rate |
+| orca-dex | 3.20% | 7.59% | Base rate |
+| kamino-liquidity | 2.35% | 6.33% | Base rate |
+| orca-dex | 5.41% | 13.23% | Base rate |
+| kamino-liquidity | 4.55% | 11.50% | Base rate |
+| kamino-liquidity | 26.34% | 67.38% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -51,11 +51,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest KMNO yield today?
 
-30.68% APY on kamino-liquidity (Solana), based on live DefiLlama data.
+26.34% APY on kamino-liquidity (Solana), based on live DefiLlama data.
 
 ### How many KMNO pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $4.73M in total.
+5 live pools clear this page's $100K TVL floor, $4.71M in total.
 
 ### Are these rates safe?
 
@@ -63,7 +63,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which KMNO pools have the most stable APY history?
 
-Based on APY history only, KMNO's lower-variability candidates are orca-dex (Solana), 3.06% APY, $2.01M TVL, https://www.defi.garden/?pool=655490fe-d1d9-43b2-9e18-5aa12a046e71#src=seo_token; orca-dex (Solana), 5.23% APY, $290.4K TVL, https://www.defi.garden/?pool=b03c45e9-77a9-4782-8bb7-09162616095f#src=seo_token; kamino-liquidity (Solana), 2.36% APY, $2.01M TVL, https://www.defi.garden/?pool=396b18a3-8121-4e89-bfec-4cff488ebe1c#src=seo_token; kamino-liquidity (Solana), 3.39% APY, $289.4K TVL, https://www.defi.garden/?pool=e1720ca6-d33a-4ea8-abbf-0c1de869d0f4#src=seo_token; kamino-liquidity (Solana), 30.68% APY, $129.1K TVL, https://www.defi.garden/?pool=15802f03-83bf-498f-ae6a-6f0c14de6c6a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, KMNO's lower-variability candidates are orca-dex (Solana), 3.20% APY, $2M TVL, https://www.defi.garden/?pool=655490fe-d1d9-43b2-9e18-5aa12a046e71#src=seo_token; orca-dex (Solana), 5.41% APY, $288.9K TVL, https://www.defi.garden/?pool=b03c45e9-77a9-4782-8bb7-09162616095f#src=seo_token; kamino-liquidity (Solana), 2.35% APY, $2M TVL, https://www.defi.garden/?pool=396b18a3-8121-4e89-bfec-4cff488ebe1c#src=seo_token; kamino-liquidity (Solana), 4.55% APY, $287.9K TVL, https://www.defi.garden/?pool=e1720ca6-d33a-4ea8-abbf-0c1de869d0f4#src=seo_token; kamino-liquidity (Solana), 26.34% APY, $128.7K TVL, https://www.defi.garden/?pool=15802f03-83bf-498f-ae6a-6f0c14de6c6a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

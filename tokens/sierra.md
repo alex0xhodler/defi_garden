@@ -6,8 +6,8 @@ The highest honest SIERRA yield right now is 9.69% on pendle-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle-v2 →](https://www.defi.garden/?pool=d83955a1-edb2-57bb-a98a-d1ef77d5ce18#src=seo_token) | Ethereum | 6.51% | $11.03M |
 | [pendle-v2 →](https://www.defi.garden/?pool=b01fc5b6-e787-5dd3-8ad3-bc2bacee335b#src=seo_token) | Ethereum | 9.69% | $11.03M |
+| [pendle-v2 →](https://www.defi.garden/?pool=d83955a1-edb2-57bb-a98a-d1ef77d5ce18#src=seo_token) | Ethereum | 6.51% | $11.03M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
@@ -31,8 +31,8 @@ SIERRA shows up in 2 pools here, with rates from 6.51% to 9.69% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle-v2 | 6.51% | 7.40% | 2.42% incentives |
 | pendle-v2 | 9.69% | 8.87% | Base rate |
+| pendle-v2 | 6.51% | 7.40% | 2.45% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

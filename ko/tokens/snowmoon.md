@@ -2,11 +2,11 @@
 
 *DefiLlama 데이터 생성 시점 검증: October 5, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 SNOWMOON의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v4에서 40.38%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SNOWMOON의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v4에서 32.36%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=8ae6326d-1c6c-580f-9140-42eaf7883828#src=seo_token) | Ethereum | 40.38% | $128.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=8ae6326d-1c6c-580f-9140-42eaf7883828#src=seo_token) | Ethereum | 32.36% | $127.9K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,11 +19,11 @@
 
 ### 오늘 SNOWMOON의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 40.38%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 32.36%예요.
 
 ### SNOWMOON 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $128.1K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $127.9K예요.
 
 ### 이 수익률은 안전한가요?
 

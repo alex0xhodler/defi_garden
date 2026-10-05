@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=f63d0304-2f09-4207-9901-385c950a0792#src=seo_token) | Ethereum | 0.95% | $277.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f63d0304-2f09-4207-9901-385c950a0792#src=seo_token) | Ethereum | 0.95% | $278.3K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

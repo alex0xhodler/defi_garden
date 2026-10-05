@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest COOKIE yield right now is 161.56% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest COOKIE yield right now is 157.03% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=753f99f9-baf3-4bc2-8c28-d42fd17ccd09#src=seo_token) | Base | 161.56% | $136.3K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=753f99f9-baf3-4bc2-8c28-d42fd17ccd09#src=seo_token) | Base | 157.03% | $136.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest COOKIE yield today?
 
-161.56% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+157.03% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many COOKIE pools clear the TVL floor?
 

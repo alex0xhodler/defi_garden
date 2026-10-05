@@ -315,13 +315,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/trx</loc>
+    <loc>https://www.defi.garden/tokens/usdg</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/usdg</loc>
+    <loc>https://www.defi.garden/tokens/trx</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -591,13 +591,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/sgho</loc>
+    <loc>https://www.defi.garden/tokens/psol</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/psol</loc>
+    <loc>https://www.defi.garden/tokens/sgho</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -681,13 +681,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/xlm</loc>
+    <loc>https://www.defi.garden/tokens/steakeurcv</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/steakeurcv</loc>
+    <loc>https://www.defi.garden/tokens/xlm</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -825,13 +825,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/aero</loc>
+    <loc>https://www.defi.garden/tokens/steaketh</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/steaketh</loc>
+    <loc>https://www.defi.garden/tokens/aero</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -879,12 +879,6 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/wcro</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/tokens/cvxcrv</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -892,6 +886,12 @@
   </url>
   <url>
     <loc>https://www.defi.garden/tokens/sfrxusd</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/wcro</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -1089,6 +1089,12 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://www.defi.garden/tokens/sui</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/tokens/pufeth</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -1113,19 +1119,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/sui</loc>
+    <loc>https://www.defi.garden/tokens/eurc</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/tokens/sweth</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/tokens/eurc</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -1233,25 +1233,25 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/cdt</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/tokens/xbtc</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/fxusd</loc>
+    <loc>https://www.defi.garden/tokens/cdt</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/tokens/gtusdcf</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/fxusd</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -1317,13 +1317,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/geth</loc>
+    <loc>https://www.defi.garden/tokens/hylosol</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/hylosol</loc>
+    <loc>https://www.defi.garden/tokens/geth</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -1347,13 +1347,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/1inch</loc>
+    <loc>https://www.defi.garden/tokens/ststx</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/ststx</loc>
+    <loc>https://www.defi.garden/tokens/1inch</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -1365,13 +1365,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/tbill</loc>
+    <loc>https://www.defi.garden/tokens/ray</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/ray</loc>
+    <loc>https://www.defi.garden/tokens/tbill</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -1425,19 +1425,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/weth-e</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/tokens/ada</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/diem</loc>
+    <loc>https://www.defi.garden/tokens/weth-e</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -1449,19 +1443,25 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://www.defi.garden/tokens/diem</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/tokens/3crv</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/spx</loc>
+    <loc>https://www.defi.garden/tokens/gtusdcrwa</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/gtusdcrwa</loc>
+    <loc>https://www.defi.garden/tokens/spx</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -1521,13 +1521,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/api3</loc>
+    <loc>https://www.defi.garden/tokens/virtual</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/virtual</loc>
+    <loc>https://www.defi.garden/tokens/api3</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -1551,25 +1551,25 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/zec</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/tokens/core</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/strk</loc>
+    <loc>https://www.defi.garden/tokens/zec</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/tokens/vdot</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/strk</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -1629,6 +1629,18 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://www.defi.garden/tokens/ststxbtc</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/usdsui</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/tokens/ynethx</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -1641,19 +1653,7 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/usdsui</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/tokens/spyx</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/tokens/ststxbtc</loc>
+    <loc>https://www.defi.garden/tokens/cbada</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -1665,7 +1665,7 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/cbada</loc>
+    <loc>https://www.defi.garden/tokens/spyx</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -1707,25 +1707,25 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/apt</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/tokens/comp</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/crv2pool</loc>
+    <loc>https://www.defi.garden/tokens/avax</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/avax</loc>
+    <loc>https://www.defi.garden/tokens/apt</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/crv2pool</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -1821,13 +1821,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/pod</loc>
+    <loc>https://www.defi.garden/tokens/tavax</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/tavax</loc>
+    <loc>https://www.defi.garden/tokens/pod</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -1887,6 +1887,12 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://www.defi.garden/tokens/wylds</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/tokens/elon</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -1905,7 +1911,7 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/drv</loc>
+    <loc>https://www.defi.garden/tokens/wdoge</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -1917,19 +1923,7 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/wdoge</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/tokens/hollar</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/tokens/jrusde</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -1941,7 +1935,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/augustusdcv2</loc>
+    <loc>https://www.defi.garden/tokens/jrusde</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/drv</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -1959,13 +1959,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/xhype</loc>
+    <loc>https://www.defi.garden/tokens/augustusdcv2</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/wylds</loc>
+    <loc>https://www.defi.garden/tokens/xhype</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -2001,6 +2001,12 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://www.defi.garden/tokens/ueth</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/tokens/otfy</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -2008,12 +2014,6 @@
   </url>
   <url>
     <loc>https://www.defi.garden/tokens/savbtc</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/tokens/ueth</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -2043,13 +2043,19 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://www.defi.garden/tokens/wflr</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/tokens/eva</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/wflr</loc>
+    <loc>https://www.defi.garden/tokens/wheth</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -2062,12 +2068,6 @@
   </url>
   <url>
     <loc>https://www.defi.garden/tokens/mplx</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/tokens/sdpendle</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -2091,19 +2091,13 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://www.defi.garden/tokens/sdpendle</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/tokens/waethweth</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/tokens/usdcx</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/tokens/yzpp</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -2115,7 +2109,19 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://www.defi.garden/tokens/usdcx</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/tokens/deai</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/yzpp</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -2133,19 +2139,7 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/wheth</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/tokens/wmtusdc</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/tokens/ireet</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -2157,13 +2151,19 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://www.defi.garden/tokens/ireet</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/tokens/vsn</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/stonk</loc>
+    <loc>https://www.defi.garden/tokens/morpho</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -2175,13 +2175,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/deep</loc>
+    <loc>https://www.defi.garden/tokens/xstrk</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/xstrk</loc>
+    <loc>https://www.defi.garden/tokens/deep</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -2205,25 +2205,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/morpho</loc>
+    <loc>https://www.defi.garden/tokens/stonk</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/tokens/zbu</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/tokens/useless</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/tokens/crclx</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -2241,13 +2229,31 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/adot</loc>
+    <loc>https://www.defi.garden/tokens/crclx</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/tokens/xwbtc</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/adot</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/useless</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/gmx</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -2265,25 +2271,19 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/gmx</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/tokens/wpol</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/eure</loc>
+    <loc>https://www.defi.garden/tokens/mapollo</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/mapollo</loc>
+    <loc>https://www.defi.garden/tokens/eure</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -2325,13 +2325,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/mstrx</loc>
+    <loc>https://www.defi.garden/tokens/qqqx</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/qqqx</loc>
+    <loc>https://www.defi.garden/tokens/mstrx</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -2349,13 +2349,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/k3usdc</loc>
+    <loc>https://www.defi.garden/tokens/bsdeth</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/bsdeth</loc>
+    <loc>https://www.defi.garden/tokens/k3usdc</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -2409,6 +2409,12 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://www.defi.garden/tokens/wmatic</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/tokens/hez</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -2416,12 +2422,6 @@
   </url>
   <url>
     <loc>https://www.defi.garden/tokens/bifi</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/tokens/wmatic</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -2469,6 +2469,12 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://www.defi.garden/tokens/zen</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/tokens/super</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -2494,12 +2500,6 @@
   </url>
   <url>
     <loc>https://www.defi.garden/tokens/aeth</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/tokens/zen</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -2535,13 +2535,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/fraxbp</loc>
+    <loc>https://www.defi.garden/tokens/gtusdcc</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/pengu</loc>
+    <loc>https://www.defi.garden/tokens/fraxbp</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -2553,7 +2553,19 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://www.defi.garden/tokens/pengu</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/tokens/pump</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/xdp</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -2583,19 +2595,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/rbtc</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/tokens/gtusdcc</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/tokens/jup</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/rbtc</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -2613,13 +2619,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/jto</loc>
+    <loc>https://www.defi.garden/tokens/velo</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/velo</loc>
+    <loc>https://www.defi.garden/tokens/jto</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -2661,13 +2667,19 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://www.defi.garden/tokens/cbltc</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/tokens/umia</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/cbltc</loc>
+    <loc>https://www.defi.garden/tokens/maticx</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -2685,12 +2697,6 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/maticx</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/tokens/iusd</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -2703,13 +2709,19 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://www.defi.garden/tokens/susd</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/tokens/wfrxeth</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/susd</loc>
+    <loc>https://www.defi.garden/tokens/atom</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -2721,7 +2733,7 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/atom</loc>
+    <loc>https://www.defi.garden/tokens/bat</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -2739,6 +2751,12 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://www.defi.garden/tokens/lit</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/tokens/moodeng</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -2746,18 +2764,6 @@
   </url>
   <url>
     <loc>https://www.defi.garden/tokens/navx</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/tokens/bat</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/tokens/lit</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -2775,13 +2781,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/ondo</loc>
+    <loc>https://www.defi.garden/tokens/usda</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/usda</loc>
+    <loc>https://www.defi.garden/tokens/ondo</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -2799,12 +2805,6 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/qqqb</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/tokens/cvxfxn</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -2817,7 +2817,7 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/mkr</loc>
+    <loc>https://www.defi.garden/tokens/qqqb</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -2859,13 +2859,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/caw</loc>
+    <loc>https://www.defi.garden/tokens/usdv</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/usdv</loc>
+    <loc>https://www.defi.garden/tokens/caw</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -2883,7 +2883,7 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/cro</loc>
+    <loc>https://www.defi.garden/tokens/mkr</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -2895,19 +2895,13 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://www.defi.garden/tokens/cro</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/tokens/wmon</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/tokens/dot</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/tokens/fet</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -2925,13 +2919,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/nvdac</loc>
+    <loc>https://www.defi.garden/tokens/fet</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/xdp</loc>
+    <loc>https://www.defi.garden/tokens/dot</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -2973,13 +2967,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/qnt</loc>
+    <loc>https://www.defi.garden/tokens/aster</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/aster</loc>
+    <loc>https://www.defi.garden/tokens/qnt</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -3009,13 +3003,25 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://www.defi.garden/tokens/brett</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/tokens/tree</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/brett</loc>
+    <loc>https://www.defi.garden/tokens/cdcbtc</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/susd-infra</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -3033,19 +3039,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/susd-infra</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/tokens/cdcbtc</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/tokens/wnxm</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/zc</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -3063,7 +3063,7 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/dhn</loc>
+    <loc>https://www.defi.garden/tokens/usol</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -3075,19 +3075,19 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/usol</loc>
+    <loc>https://www.defi.garden/tokens/sthype</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/dhn</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/tokens/gns</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/tokens/sthype</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -3117,7 +3117,7 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/serv</loc>
+    <loc>https://www.defi.garden/tokens/aptusd</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -3135,13 +3135,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/aptusd</loc>
+    <loc>https://www.defi.garden/tokens/wbtc-e</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/wbtc-e</loc>
+    <loc>https://www.defi.garden/tokens/serv</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -3171,13 +3171,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/mtpool</loc>
+    <loc>https://www.defi.garden/tokens/yng</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/yng</loc>
+    <loc>https://www.defi.garden/tokens/mtpool</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -3195,12 +3195,6 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/basecat</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/tokens/borg</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -3208,6 +3202,12 @@
   </url>
   <url>
     <loc>https://www.defi.garden/tokens/gldx</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/basecat</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -3225,12 +3225,6 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/dog</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/tokens/xsol</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -3243,7 +3237,7 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/rsr</loc>
+    <loc>https://www.defi.garden/tokens/dog</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -3256,6 +3250,12 @@
   </url>
   <url>
     <loc>https://www.defi.garden/tokens/op</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/rsr</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -3279,12 +3279,6 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/wojak</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/tokens/clanker</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -3297,13 +3291,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/woo</loc>
+    <loc>https://www.defi.garden/tokens/wojak</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/send</loc>
+    <loc>https://www.defi.garden/tokens/woo</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -3315,7 +3309,7 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/rei</loc>
+    <loc>https://www.defi.garden/tokens/send</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -3327,13 +3321,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/alcx</loc>
+    <loc>https://www.defi.garden/tokens/rei</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/zc</loc>
+    <loc>https://www.defi.garden/tokens/alcx</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -3345,13 +3339,19 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://www.defi.garden/tokens/ping</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/tokens/agl</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/ping</loc>
+    <loc>https://www.defi.garden/tokens/min</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -3369,19 +3369,7 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/min</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/tokens/fxs</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/tokens/giga</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -3393,13 +3381,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/peas</loc>
+    <loc>https://www.defi.garden/tokens/giga</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/drb</loc>
+    <loc>https://www.defi.garden/tokens/peas</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -3411,13 +3399,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/ldo</loc>
+    <loc>https://www.defi.garden/tokens/drb</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/2z</loc>
+    <loc>https://www.defi.garden/tokens/ldo</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -3429,13 +3417,19 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/osbgt</loc>
+    <loc>https://www.defi.garden/tokens/2z</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/tokens/gold</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/osbgt</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -3459,13 +3453,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/dolo</loc>
+    <loc>https://www.defi.garden/tokens/orca</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/orca</loc>
+    <loc>https://www.defi.garden/tokens/dolo</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -3489,6 +3483,12 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://www.defi.garden/tokens/grass</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/tokens/ctfrontierusdc</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -3507,6 +3507,12 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://www.defi.garden/tokens/ws</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/tokens/robo</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -3514,18 +3520,6 @@
   </url>
   <url>
     <loc>https://www.defi.garden/tokens/stflr</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/tokens/ws</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/tokens/grass</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -3543,13 +3537,19 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://www.defi.garden/tokens/well</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/tokens/usdnr</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/well</loc>
+    <loc>https://www.defi.garden/tokens/nest</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -3561,19 +3561,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/ogn</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/tokens/sushi</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/nest</loc>
+    <loc>https://www.defi.garden/tokens/ogn</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -3603,6 +3597,12 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://www.defi.garden/tokens/laptop</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/tokens/sdt</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -3627,25 +3627,19 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/bpt</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/tokens/tig</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/laptop</loc>
+    <loc>https://www.defi.garden/tokens/bpt</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/tel</loc>
+    <loc>https://www.defi.garden/tokens/cbhype</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -3657,7 +3651,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/wbera</loc>
+    <loc>https://www.defi.garden/tokens/tel</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/htm</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -3669,7 +3669,7 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/htm</loc>
+    <loc>https://www.defi.garden/tokens/wbera</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -3699,13 +3699,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/pear</loc>
+    <loc>https://www.defi.garden/tokens/babydoge</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/babydoge</loc>
+    <loc>https://www.defi.garden/tokens/pear</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -3723,13 +3723,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/ens</loc>
+    <loc>https://www.defi.garden/tokens/ixs</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/ixs</loc>
+    <loc>https://www.defi.garden/tokens/ens</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -3789,25 +3789,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/link-e</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/tokens/vkhype</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/mask</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/tokens/agentfun</loc>
+    <loc>https://www.defi.garden/tokens/link-e</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -3819,7 +3807,7 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/rekt</loc>
+    <loc>https://www.defi.garden/tokens/mask</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -3831,13 +3819,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/cbhype</loc>
+    <loc>https://www.defi.garden/tokens/rekt</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/cow</loc>
+    <loc>https://www.defi.garden/tokens/agentfun</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -3849,31 +3837,19 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/rsup</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/tokens/anyone</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/tokens/fin</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/tokens/gp</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/tokens/deus</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/cow</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/rsup</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -3891,19 +3867,19 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/nvda</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/tokens/vchf</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/cocoro</loc>
+    <loc>https://www.defi.garden/tokens/anyone</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/nvda</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -3915,7 +3891,19 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/chip</loc>
+    <loc>https://www.defi.garden/tokens/pol</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/gp</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/cocoro</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -3927,13 +3915,19 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/pol</loc>
+    <loc>https://www.defi.garden/tokens/fin</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/tokens/wxdai</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/acx</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -3951,13 +3945,7 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/fwa</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/tokens/acx</loc>
+    <loc>https://www.defi.garden/tokens/chip</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -3981,7 +3969,25 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://www.defi.garden/tokens/fwa</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/grok</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/tokens/rndr</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/dmt</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -3994,12 +4000,6 @@
   </url>
   <url>
     <loc>https://www.defi.garden/tokens/lqty</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/tokens/dmt</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -4023,19 +4023,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/fleth</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/tokens/purr</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/tokens/cusd</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/fleth</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -4047,7 +4041,7 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/tao</loc>
+    <loc>https://www.defi.garden/tokens/purr</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -4059,7 +4053,7 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/ald</loc>
+    <loc>https://www.defi.garden/tokens/tao</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -4071,25 +4065,7 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/nos</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/tokens/toncoin</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/tokens/zora</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/tokens/aaplx</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -4101,7 +4077,19 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/sts</loc>
+    <loc>https://www.defi.garden/tokens/aaplx</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/ald</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/bluechip</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -4113,13 +4101,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/mstr</loc>
+    <loc>https://www.defi.garden/tokens/nos</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/inj</loc>
+    <loc>https://www.defi.garden/tokens/sts</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -4131,13 +4119,25 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/edge</loc>
+    <loc>https://www.defi.garden/tokens/inj</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/mstr</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/tokens/mamo</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/edge</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -4197,19 +4197,7 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/metax</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/tokens/ynusdx</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/tokens/trac</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -4227,7 +4215,19 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/jpyc</loc>
+    <loc>https://www.defi.garden/tokens/trac</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/zora</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/metax</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -4239,13 +4239,19 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/mim</loc>
+    <loc>https://www.defi.garden/tokens/stocker</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/tokens/10x</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/wgmx</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -4263,19 +4269,7 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/wgmx</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/tokens/bbtc</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/tokens/bluechip</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -4293,6 +4287,12 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://www.defi.garden/tokens/eurm</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/tokens/red</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -4300,18 +4300,6 @@
   </url>
   <url>
     <loc>https://www.defi.garden/tokens/sand</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/tokens/eurm</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/tokens/stocker</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -4341,7 +4329,7 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/cusdo</loc>
+    <loc>https://www.defi.garden/tokens/jpyc</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -4353,13 +4341,19 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/rnt</loc>
+    <loc>https://www.defi.garden/tokens/cusdo</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/tokens/stonkex</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/rnt</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -4377,19 +4371,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/slvon</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/tokens/over</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/hair</loc>
+    <loc>https://www.defi.garden/tokens/slvon</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -4401,13 +4389,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/av3crv</loc>
+    <loc>https://www.defi.garden/tokens/hair</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/usdr</loc>
+    <loc>https://www.defi.garden/tokens/av3crv</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -4419,7 +4407,25 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://www.defi.garden/tokens/usdr</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/mim</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/tokens/zama</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/sato</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -4431,7 +4437,7 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/sato</loc>
+    <loc>https://www.defi.garden/tokens/quick</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -4497,13 +4503,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/tarot</loc>
+    <loc>https://www.defi.garden/tokens/xorca</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/xorca</loc>
+    <loc>https://www.defi.garden/tokens/tarot</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -4533,13 +4539,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/kori</loc>
+    <loc>https://www.defi.garden/tokens/siren</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/siren</loc>
+    <loc>https://www.defi.garden/tokens/kori</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -4552,6 +4558,12 @@
   </url>
   <url>
     <loc>https://www.defi.garden/tokens/alb</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/djt</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -4605,13 +4617,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/pyth</loc>
+    <loc>https://www.defi.garden/tokens/bob</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/bob</loc>
+    <loc>https://www.defi.garden/tokens/pyth</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -4629,13 +4641,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/ful</loc>
+    <loc>https://www.defi.garden/tokens/spy</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/kp3r</loc>
+    <loc>https://www.defi.garden/tokens/ful</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -4647,13 +4659,25 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/zrx</loc>
+    <loc>https://www.defi.garden/tokens/xyo</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/spy</loc>
+    <loc>https://www.defi.garden/tokens/kp3r</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/byte</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/zrx</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -4671,13 +4695,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/syn</loc>
+    <loc>https://www.defi.garden/tokens/wbrl</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/wbrl</loc>
+    <loc>https://www.defi.garden/tokens/syn</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -4689,31 +4713,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/xyo</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/tokens/tsusde</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/byte</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/tokens/sprk</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/tokens/sc</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -4737,7 +4743,19 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://www.defi.garden/tokens/mxnb</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/tokens/wprl</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/sc</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -4749,13 +4767,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/mxnb</loc>
+    <loc>https://www.defi.garden/tokens/anon</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/anon</loc>
+    <loc>https://www.defi.garden/tokens/nock</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -4779,19 +4797,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/brew</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/tokens/nock</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/tokens/djed</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/brew</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -4833,12 +4845,6 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/vcnt</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/tokens/tgbp</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -4857,6 +4863,12 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://www.defi.garden/tokens/vcnt</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/tokens/lmts</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -4864,12 +4876,6 @@
   </url>
   <url>
     <loc>https://www.defi.garden/tokens/hopr</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/tokens/susdp</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -4887,13 +4893,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/usbd</loc>
+    <loc>https://www.defi.garden/tokens/neuy</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/neuy</loc>
+    <loc>https://www.defi.garden/tokens/usbd</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -4911,13 +4917,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/uspc</loc>
+    <loc>https://www.defi.garden/tokens/rise</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/rise</loc>
+    <loc>https://www.defi.garden/tokens/uspc</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -4935,6 +4941,12 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://www.defi.garden/tokens/bill</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/tokens/kodiweth</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -4942,18 +4954,6 @@
   </url>
   <url>
     <loc>https://www.defi.garden/tokens/coinomi</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/tokens/bill</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/tokens/tonic</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -4971,7 +4971,19 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://www.defi.garden/tokens/tonic</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/tokens/mex</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/imdstr</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -4989,25 +5001,19 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/w0g</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/tokens/adai</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/con</loc>
+    <loc>https://www.defi.garden/tokens/w0g</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/wxrp</loc>
+    <loc>https://www.defi.garden/tokens/con</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -5049,13 +5055,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/sjeur</loc>
+    <loc>https://www.defi.garden/tokens/wxrp</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/imdstr</loc>
+    <loc>https://www.defi.garden/tokens/sjeur</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -5079,13 +5085,19 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://www.defi.garden/tokens/pols</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/tokens/tibbir</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/pols</loc>
+    <loc>https://www.defi.garden/tokens/kdk</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -5103,12 +5115,6 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/kdk</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/tokens/yes</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -5116,18 +5122,6 @@
   </url>
   <url>
     <loc>https://www.defi.garden/tokens/moobifi</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/tokens/ckbtc</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/tokens/atlas</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -5145,7 +5139,25 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://www.defi.garden/tokens/atlas</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/tokens/wousd</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/matic</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/ckbtc</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -5157,7 +5169,7 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/matic</loc>
+    <loc>https://www.defi.garden/tokens/susdp</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -5187,12 +5199,6 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/ultima</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/tokens/rave</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -5211,13 +5217,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/puffer</loc>
+    <loc>https://www.defi.garden/tokens/zest</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/zest</loc>
+    <loc>https://www.defi.garden/tokens/puffer</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -5229,13 +5235,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/vita</loc>
+    <loc>https://www.defi.garden/tokens/pepu</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/pepu</loc>
+    <loc>https://www.defi.garden/tokens/vita</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -5253,19 +5259,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/coin</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/tokens/rbn</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/rio</loc>
+    <loc>https://www.defi.garden/tokens/coin</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -5277,13 +5277,19 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/boop</loc>
+    <loc>https://www.defi.garden/tokens/rio</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/tokens/wmtx</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/tokens/boop</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -5313,13 +5319,19 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://www.defi.garden/tokens/phy</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/tokens/1r0r</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/phy</loc>
+    <loc>https://www.defi.garden/tokens/gnus</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -5344,12 +5356,6 @@
   </url>
   <url>
     <loc>https://www.defi.garden/tokens/wnvdax</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/tokens/gnus</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -5421,7 +5427,7 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/wif</loc>
+    <loc>https://www.defi.garden/tokens/flx</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -5433,7 +5439,7 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/flx</loc>
+    <loc>https://www.defi.garden/tokens/wif</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
@@ -5505,13 +5511,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/denim</loc>
+    <loc>https://www.defi.garden/tokens/santa</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/santa</loc>
+    <loc>https://www.defi.garden/tokens/denim</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>

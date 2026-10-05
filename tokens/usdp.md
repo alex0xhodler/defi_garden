@@ -6,7 +6,7 @@ The highest honest USDP yield right now is 5.26% on balancer-v3 (Hyperliquid L1)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=a06aeaa0-2876-46b2-afc2-94e9a7a5559d#src=seo_token) | Hyperliquid L1 | 5.26% | $329.7K |
+| [balancer-v3 →](https://www.defi.garden/?pool=a06aeaa0-2876-46b2-afc2-94e9a7a5559d#src=seo_token) | Hyperliquid L1 | 5.26% | $329.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many USDP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $329.7K in total.
+1 live pool clear this page's $100K TVL floor, $329.8K in total.
 
 ### Are these rates safe?
 

@@ -7,20 +7,20 @@ The highest honest SIUSD yield right now is 9.16% on pendle-v2 (Ethereum), among
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [infinifi →](https://www.defi.garden/?pool=8fa2e60e-365a-41fc-8d50-fadde5041f94#src=seo_token) | Ethereum | 6.53% | $30.56M |
-| [pendle-v2 →](https://www.defi.garden/?pool=e45b5460-fb26-5c0b-92fd-a1abed86743a#src=seo_token) | Ethereum | 8.01% | $3.41M |
+| [pendle-v2 →](https://www.defi.garden/?pool=e45b5460-fb26-5c0b-92fd-a1abed86743a#src=seo_token) | Ethereum | 8.02% | $3.41M |
 | [pendle-v2 →](https://www.defi.garden/?pool=28c59256-f6c3-56ae-9423-6544f9e81776#src=seo_token) | Ethereum | 9.16% | $3.41M |
+| [pendle-v2 →](https://www.defi.garden/?pool=562f454d-ec4f-5a54-b469-fb3e18315f31#src=seo_token) | Ethereum | 8.37% | $1.21M |
 | [pendle-v2 →](https://www.defi.garden/?pool=0757d64d-b003-5292-8983-e0e2bb64c696#src=seo_token) | Ethereum | 9.08% | $1.21M |
-| [pendle-v2 →](https://www.defi.garden/?pool=562f454d-ec4f-5a54-b469-fb3e18315f31#src=seo_token) | Ethereum | 8.36% | $1.21M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SIUSD's lower-variability candidates are pendle-v2 (Ethereum), 9.16% APY, $3.41M TVL, https://www.defi.garden/?pool=28c59256-f6c3-56ae-9423-6544f9e81776#src=seo_token; pendle-v2 (Ethereum), 8.01% APY, $3.41M TVL, https://www.defi.garden/?pool=e45b5460-fb26-5c0b-92fd-a1abed86743a#src=seo_token; infinifi (Ethereum), 6.53% APY, $30.56M TVL, https://www.defi.garden/?pool=8fa2e60e-365a-41fc-8d50-fadde5041f94#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SIUSD's lower-variability candidates are pendle-v2 (Ethereum), 9.16% APY, $3.41M TVL, https://www.defi.garden/?pool=28c59256-f6c3-56ae-9423-6544f9e81776#src=seo_token; pendle-v2 (Ethereum), 8.02% APY, $3.41M TVL, https://www.defi.garden/?pool=e45b5460-fb26-5c0b-92fd-a1abed86743a#src=seo_token; infinifi (Ethereum), 6.53% APY, $30.56M TVL, https://www.defi.garden/?pool=8fa2e60e-365a-41fc-8d50-fadde5041f94#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [pendle-v2 →](https://www.defi.garden/?pool=28c59256-f6c3-56ae-9423-6544f9e81776#src=seo_token) | Ethereum | 9.16% | $3.41M |
-| 2 | [pendle-v2 →](https://www.defi.garden/?pool=e45b5460-fb26-5c0b-92fd-a1abed86743a#src=seo_token) | Ethereum | 8.01% | $3.41M |
+| 2 | [pendle-v2 →](https://www.defi.garden/?pool=e45b5460-fb26-5c0b-92fd-a1abed86743a#src=seo_token) | Ethereum | 8.02% | $3.41M |
 | 3 | [infinifi →](https://www.defi.garden/?pool=8fa2e60e-365a-41fc-8d50-fadde5041f94#src=seo_token) | Ethereum | 6.53% | $30.56M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -36,10 +36,10 @@ SIUSD shows up in 5 pools here, with rates from 6.53% to 9.16% APY across 1 chai
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | infinifi | 6.53% | 6.22% | Base rate |
-| pendle-v2 | 8.01% | 8.31% | 2.33% incentives |
+| pendle-v2 | 8.02% | 8.31% | 2.36% incentives |
 | pendle-v2 | 9.16% | 9.25% | Base rate |
-| pendle-v2 | 9.08% | 9.87% | Base rate |
-| pendle-v2 | 8.36% | 9.48% | 4.58% incentives |
+| pendle-v2 | 8.37% | 9.48% | 4.64% incentives |
+| pendle-v2 | 9.08% | 9.86% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -59,7 +59,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SIUSD pools have the most stable APY history?
 
-Based on APY history only, SIUSD's lower-variability candidates are pendle-v2 (Ethereum), 9.16% APY, $3.41M TVL, https://www.defi.garden/?pool=28c59256-f6c3-56ae-9423-6544f9e81776#src=seo_token; pendle-v2 (Ethereum), 8.01% APY, $3.41M TVL, https://www.defi.garden/?pool=e45b5460-fb26-5c0b-92fd-a1abed86743a#src=seo_token; infinifi (Ethereum), 6.53% APY, $30.56M TVL, https://www.defi.garden/?pool=8fa2e60e-365a-41fc-8d50-fadde5041f94#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SIUSD's lower-variability candidates are pendle-v2 (Ethereum), 9.16% APY, $3.41M TVL, https://www.defi.garden/?pool=28c59256-f6c3-56ae-9423-6544f9e81776#src=seo_token; pendle-v2 (Ethereum), 8.02% APY, $3.41M TVL, https://www.defi.garden/?pool=e45b5460-fb26-5c0b-92fd-a1abed86743a#src=seo_token; infinifi (Ethereum), 6.53% APY, $30.56M TVL, https://www.defi.garden/?pool=8fa2e60e-365a-41fc-8d50-fadde5041f94#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

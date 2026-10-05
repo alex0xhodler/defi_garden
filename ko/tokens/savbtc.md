@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [avant-avbtc →](https://www.defi.garden/?pool=ee869abc-744a-4e2e-bd5b-f5425dc0bd28#src=seo_token) | Avalanche | 2.37% | $6.3M |
+| [avant-avbtc →](https://www.defi.garden/?pool=ee869abc-744a-4e2e-bd5b-f5425dc0bd28#src=seo_token) | Avalanche | 2.37% | $6.31M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

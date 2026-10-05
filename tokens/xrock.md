@@ -6,7 +6,7 @@ The highest honest XROCK yield right now is 1.90% on dedust (TON), among 1 pool 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [dedust →](https://www.defi.garden/?pool=35447e49-37dd-4e21-b8cc-b237a268b485#src=seo_token) | TON | 1.90% | $159.2K |
+| [dedust →](https://www.defi.garden/?pool=35447e49-37dd-4e21-b8cc-b237a268b485#src=seo_token) | TON | 1.90% | $159.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many XROCK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $159.2K in total.
+1 live pool clear this page's $100K TVL floor, $159.1K in total.
 
 ### Are these rates safe?
 

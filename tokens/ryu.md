@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest RYU yield right now is 7.14% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RYU yield right now is 8.38% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=b7b7b595-acf2-4bee-92aa-3a3b5acaa40d#src=seo_token) | Ethereum | 7.14% | $273.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=b7b7b595-acf2-4bee-92aa-3a3b5acaa40d#src=seo_token) | Ethereum | 8.38% | $273.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RYU yield today?
 
-7.14% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+8.38% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many RYU pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $273.7K in total.
+1 live pool clear this page's $100K TVL floor, $273.3K in total.
 
 ### Are these rates safe?
 

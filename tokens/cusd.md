@@ -6,18 +6,18 @@ The highest honest CUSD yield right now is 0.39% on moola-market (Celo), among 2
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=ad10fdd6-8351-4d9b-8695-deb1bf2dc33a#src=seo_token) | Celo | 0.29% | $643.3K |
-| [moola-market →](https://www.defi.garden/?pool=905730f7-04b6-4deb-8e59-707d3d457f6b#src=seo_token) | Celo | 0.39% | $404.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ad10fdd6-8351-4d9b-8695-deb1bf2dc33a#src=seo_token) | Celo | 0.29% | $645.2K |
+| [moola-market →](https://www.defi.garden/?pool=905730f7-04b6-4deb-8e59-707d3d457f6b#src=seo_token) | Celo | 0.39% | $407.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, CUSD's lower-variability candidates are moola-market (Celo), 0.39% APY, $404.1K TVL, https://www.defi.garden/?pool=905730f7-04b6-4deb-8e59-707d3d457f6b#src=seo_token; uniswap-v3 (Celo), 0.29% APY, $643.3K TVL, https://www.defi.garden/?pool=ad10fdd6-8351-4d9b-8695-deb1bf2dc33a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CUSD's lower-variability candidates are moola-market (Celo), 0.39% APY, $407.7K TVL, https://www.defi.garden/?pool=905730f7-04b6-4deb-8e59-707d3d457f6b#src=seo_token; uniswap-v3 (Celo), 0.29% APY, $645.2K TVL, https://www.defi.garden/?pool=ad10fdd6-8351-4d9b-8695-deb1bf2dc33a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [moola-market →](https://www.defi.garden/?pool=905730f7-04b6-4deb-8e59-707d3d457f6b#src=seo_token) | Celo | 0.39% | $404.1K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=ad10fdd6-8351-4d9b-8695-deb1bf2dc33a#src=seo_token) | Celo | 0.29% | $643.3K |
+| 1 | [moola-market →](https://www.defi.garden/?pool=905730f7-04b6-4deb-8e59-707d3d457f6b#src=seo_token) | Celo | 0.39% | $407.7K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=ad10fdd6-8351-4d9b-8695-deb1bf2dc33a#src=seo_token) | Celo | 0.29% | $645.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -34,7 +34,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | uniswap-v3 | 0.29% | 0.34% | Base rate |
-| moola-market | 0.39% | 0.21% | Base rate |
+| moola-market | 0.39% | 0.22% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which CUSD pools have the most stable APY history?
 
-Based on APY history only, CUSD's lower-variability candidates are moola-market (Celo), 0.39% APY, $404.1K TVL, https://www.defi.garden/?pool=905730f7-04b6-4deb-8e59-707d3d457f6b#src=seo_token; uniswap-v3 (Celo), 0.29% APY, $643.3K TVL, https://www.defi.garden/?pool=ad10fdd6-8351-4d9b-8695-deb1bf2dc33a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CUSD's lower-variability candidates are moola-market (Celo), 0.39% APY, $407.7K TVL, https://www.defi.garden/?pool=905730f7-04b6-4deb-8e59-707d3d457f6b#src=seo_token; uniswap-v3 (Celo), 0.29% APY, $645.2K TVL, https://www.defi.garden/?pool=ad10fdd6-8351-4d9b-8695-deb1bf2dc33a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

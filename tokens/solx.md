@@ -6,7 +6,7 @@ The highest honest SOLX yield right now is 0.95% on uniswap-v3 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=f63d0304-2f09-4207-9901-385c950a0792#src=seo_token) | Ethereum | 0.95% | $277.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f63d0304-2f09-4207-9901-385c950a0792#src=seo_token) | Ethereum | 0.95% | $278.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

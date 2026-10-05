@@ -6,20 +6,20 @@ The highest honest EZETH yield right now is 2.04% on renzo (Ethereum), among 8 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [renzo →](https://www.defi.garden/pools/renzo-ezeth-ethereum) | Ethereum | 2.04% | $118.87M |
-| [fluid-dex →](https://www.defi.garden/?pool=dcd38ffa-5a7d-44b6-857e-684811c4620d#src=seo_token) | Ethereum | 0.48% | $803.4K |
-| [curve-dex →](https://www.defi.garden/?pool=45e82632-b504-4cb8-9fda-dfaedead081f#src=seo_token) | Fraxtal | 3.71% | $312.6K |
+| [renzo →](https://www.defi.garden/pools/renzo-ezeth-ethereum) | Ethereum | 2.04% | $118.74M |
+| [fluid-dex →](https://www.defi.garden/?pool=dcd38ffa-5a7d-44b6-857e-684811c4620d#src=seo_token) | Ethereum | 0.48% | $802.8K |
+| [curve-dex →](https://www.defi.garden/?pool=45e82632-b504-4cb8-9fda-dfaedead081f#src=seo_token) | Fraxtal | 3.71% | $312.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, EZETH's lower-variability candidates are renzo (Ethereum), 2.04% APY, $118.87M TVL, https://www.defi.garden/pools/renzo-ezeth-ethereum; curve-dex (Fraxtal), 3.71% APY, $312.6K TVL, https://www.defi.garden/?pool=45e82632-b504-4cb8-9fda-dfaedead081f#src=seo_token; fluid-dex (Ethereum), 0.48% APY, $803.4K TVL, https://www.defi.garden/?pool=dcd38ffa-5a7d-44b6-857e-684811c4620d#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, EZETH's lower-variability candidates are renzo (Ethereum), 2.04% APY, $118.74M TVL, https://www.defi.garden/pools/renzo-ezeth-ethereum; curve-dex (Fraxtal), 3.71% APY, $312.2K TVL, https://www.defi.garden/?pool=45e82632-b504-4cb8-9fda-dfaedead081f#src=seo_token; fluid-dex (Ethereum), 0.48% APY, $802.8K TVL, https://www.defi.garden/?pool=dcd38ffa-5a7d-44b6-857e-684811c4620d#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [renzo →](https://www.defi.garden/pools/renzo-ezeth-ethereum) | Ethereum | 2.04% | $118.87M |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=45e82632-b504-4cb8-9fda-dfaedead081f#src=seo_token) | Fraxtal | 3.71% | $312.6K |
-| 3 | [fluid-dex →](https://www.defi.garden/?pool=dcd38ffa-5a7d-44b6-857e-684811c4620d#src=seo_token) | Ethereum | 0.48% | $803.4K |
+| 1 | [renzo →](https://www.defi.garden/pools/renzo-ezeth-ethereum) | Ethereum | 2.04% | $118.74M |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=45e82632-b504-4cb8-9fda-dfaedead081f#src=seo_token) | Fraxtal | 3.71% | $312.2K |
+| 3 | [fluid-dex →](https://www.defi.garden/?pool=dcd38ffa-5a7d-44b6-857e-684811c4620d#src=seo_token) | Ethereum | 0.48% | $802.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -47,7 +47,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many EZETH pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $122.29M in total.
+8 live pools clear this page's $100K TVL floor, $122.15M in total.
 
 ### Are these rates safe?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which EZETH pools have the most stable APY history?
 
-Based on APY history only, EZETH's lower-variability candidates are renzo (Ethereum), 2.04% APY, $118.87M TVL, https://www.defi.garden/pools/renzo-ezeth-ethereum; curve-dex (Fraxtal), 3.71% APY, $312.6K TVL, https://www.defi.garden/?pool=45e82632-b504-4cb8-9fda-dfaedead081f#src=seo_token; fluid-dex (Ethereum), 0.48% APY, $803.4K TVL, https://www.defi.garden/?pool=dcd38ffa-5a7d-44b6-857e-684811c4620d#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, EZETH's lower-variability candidates are renzo (Ethereum), 2.04% APY, $118.74M TVL, https://www.defi.garden/pools/renzo-ezeth-ethereum; curve-dex (Fraxtal), 3.71% APY, $312.2K TVL, https://www.defi.garden/?pool=45e82632-b504-4cb8-9fda-dfaedead081f#src=seo_token; fluid-dex (Ethereum), 0.48% APY, $802.8K TVL, https://www.defi.garden/?pool=dcd38ffa-5a7d-44b6-857e-684811c4620d#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

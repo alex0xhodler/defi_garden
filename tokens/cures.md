@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest CURES yield right now is 3.75% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CURES yield right now is 3.97% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=21b68052-57ea-498d-81f3-4c3ed67f67d3#src=seo_token) | Solana | 3.75% | $104.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=21b68052-57ea-498d-81f3-4c3ed67f67d3#src=seo_token) | Solana | 3.97% | $103.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CURES yield today?
 
-3.75% APY on raydium-amm (Solana), based on live DefiLlama data.
+3.97% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many CURES pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $104.4K in total.
+1 live pool clear this page's $100K TVL floor, $103.5K in total.
 
 ### Are these rates safe?
 

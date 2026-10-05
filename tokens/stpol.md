@@ -6,7 +6,7 @@ The highest honest STPOL yield right now is 5.92% on stake.link-liquid (Ethereum
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [stake.link-liquid →](https://www.defi.garden/?pool=5797965f-0002-4bc0-b989-1aa575e096d8#src=seo_token) | Ethereum | 5.92% | $920.9K |
+| [stake.link-liquid →](https://www.defi.garden/?pool=5797965f-0002-4bc0-b989-1aa575e096d8#src=seo_token) | Ethereum | 5.92% | $924.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many STPOL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $920.9K in total.
+1 live pool clear this page's $100K TVL floor, $924.8K in total.
 
 ### Are these rates safe?
 

@@ -6,7 +6,7 @@ The highest honest ANKRFLOWEVM yield right now is 7.90% on ankr (Flow), among 2 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ankr →](https://www.defi.garden/?pool=f1246ee7-9797-46b6-bd87-f9b90bc37e36#src=seo_token) | Flow | 7.90% | $6.58M |
+| [ankr →](https://www.defi.garden/?pool=f1246ee7-9797-46b6-bd87-f9b90bc37e36#src=seo_token) | Flow | 7.90% | $6.57M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest VAI yield right now is 162.70% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VAI yield right now is 152.35% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=64e264df-53ee-49ab-af12-e788885172ae#src=seo_token) | Ethereum | 162.70% | $120.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=64e264df-53ee-49ab-af12-e788885172ae#src=seo_token) | Ethereum | 152.35% | $114K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest VAI yield today?
 
-162.70% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+152.35% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many VAI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $120.7K in total.
+1 live pool clear this page's $100K TVL floor, $114K in total.
 
 ### Are these rates safe?
 

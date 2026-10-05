@@ -2,28 +2,28 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest USDF yield right now is 9.13% on convex-finance (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDF yield right now is 9.08% on convex-finance (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=3388eabd-fc53-49bf-b358-d1a6dc3c6112#src=seo_token) | Ethereum | 4.28% | $3.22M |
-| [convex-finance →](https://www.defi.garden/?pool=977bc628-7476-43cf-abb8-68934bf56171#src=seo_token) | Ethereum | 9.13% | $1.55M |
+| [curve-dex →](https://www.defi.garden/?pool=3388eabd-fc53-49bf-b358-d1a6dc3c6112#src=seo_token) | Ethereum | 4.22% | $3.22M |
+| [convex-finance →](https://www.defi.garden/?pool=977bc628-7476-43cf-abb8-68934bf56171#src=seo_token) | Ethereum | 9.08% | $1.55M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, USDF's lower-variability candidates are convex-finance (Ethereum), 9.13% APY, $1.55M TVL, https://www.defi.garden/?pool=977bc628-7476-43cf-abb8-68934bf56171#src=seo_token; curve-dex (Ethereum), 4.28% APY, $3.22M TVL, https://www.defi.garden/?pool=3388eabd-fc53-49bf-b358-d1a6dc3c6112#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDF's lower-variability candidates are convex-finance (Ethereum), 9.08% APY, $1.55M TVL, https://www.defi.garden/?pool=977bc628-7476-43cf-abb8-68934bf56171#src=seo_token; curve-dex (Ethereum), 4.22% APY, $3.22M TVL, https://www.defi.garden/?pool=3388eabd-fc53-49bf-b358-d1a6dc3c6112#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [convex-finance →](https://www.defi.garden/?pool=977bc628-7476-43cf-abb8-68934bf56171#src=seo_token) | Ethereum | 9.13% | $1.55M |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=3388eabd-fc53-49bf-b358-d1a6dc3c6112#src=seo_token) | Ethereum | 4.28% | $3.22M |
+| 1 | [convex-finance →](https://www.defi.garden/?pool=977bc628-7476-43cf-abb8-68934bf56171#src=seo_token) | Ethereum | 9.08% | $1.55M |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=3388eabd-fc53-49bf-b358-d1a6dc3c6112#src=seo_token) | Ethereum | 4.22% | $3.22M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-USDF shows up in 2 pools here, with rates from 4.28% to 9.13% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+USDF shows up in 2 pools here, with rates from 4.22% to 9.08% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 6.58% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -31,8 +31,8 @@ USDF shows up in 2 pools here, with rates from 4.28% to 9.13% APY across 1 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 4.28% | 4.27% | 98.13% incentives |
-| convex-finance | 9.13% | 8.89% | 99.12% incentives |
+| curve-dex | 4.22% | 4.27% | 98.11% incentives |
+| convex-finance | 9.08% | 8.89% | 99.12% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,7 +40,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USDF yield today?
 
-9.13% APY on convex-finance (Ethereum), based on live DefiLlama data.
+9.08% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many USDF pools clear the TVL floor?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USDF pools have the most stable APY history?
 
-Based on APY history only, USDF's lower-variability candidates are convex-finance (Ethereum), 9.13% APY, $1.55M TVL, https://www.defi.garden/?pool=977bc628-7476-43cf-abb8-68934bf56171#src=seo_token; curve-dex (Ethereum), 4.28% APY, $3.22M TVL, https://www.defi.garden/?pool=3388eabd-fc53-49bf-b358-d1a6dc3c6112#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDF's lower-variability candidates are convex-finance (Ethereum), 9.08% APY, $1.55M TVL, https://www.defi.garden/?pool=977bc628-7476-43cf-abb8-68934bf56171#src=seo_token; curve-dex (Ethereum), 4.22% APY, $3.22M TVL, https://www.defi.garden/?pool=3388eabd-fc53-49bf-b358-d1a6dc3c6112#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

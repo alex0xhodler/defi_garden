@@ -6,7 +6,7 @@ The highest honest KIZUNA yield right now is 6.08% on uniswap-v3 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=d1577ffb-2784-4b0e-8d5a-725a5536d65c#src=seo_token) | Ethereum | 6.08% | $102.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d1577ffb-2784-4b0e-8d5a-725a5536d65c#src=seo_token) | Ethereum | 6.08% | $101.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many KIZUNA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $102.1K in total.
+1 live pool clear this page's $100K TVL floor, $101.7K in total.
 
 ### Are these rates safe?
 

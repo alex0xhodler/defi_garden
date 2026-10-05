@@ -7,7 +7,7 @@ The highest honest CBADA yield right now is 219.37% on raydium-amm (Solana), amo
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=4aebc81c-213d-55e3-b71a-74f1925e26f8#src=seo_token) | Solana | 219.37% | $341.1K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=dbf0ffbb-c795-47b1-8ae0-a525c480dbf9#src=seo_token) | Base | 325.64% | $139.5K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=dbf0ffbb-c795-47b1-8ae0-a525c480dbf9#src=seo_token) | Base | 46.50% | $246.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-CBADA shows up in 2 pools here, with rates from 219.37% to 325.64% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+CBADA shows up in 2 pools here, with rates from 46.50% to 219.37% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 258.65% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 258.62% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -29,7 +29,7 @@ CBADA shows up in 2 pools here, with rates from 219.37% to 325.64% APY across 2 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | raydium-amm | 219.37% | 434.85% | Base rate |
-| aerodrome-slipstream | 325.64% | 82.45% | 92.93% incentives |
+| aerodrome-slipstream | 46.50% | 82.39% | 52.68% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -41,7 +41,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many CBADA pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $12.34M in total.
+4 live pools clear this page's $100K TVL floor, $12.51M in total.
 
 ### Are these rates safe?
 

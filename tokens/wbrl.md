@@ -6,7 +6,7 @@ The highest honest WBRL yield right now is 0.64% on uniswap-v4 (Base), among 2 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=39c78cd9-ba69-5bbf-bbf5-ec63b02009a4#src=seo_token) | Base | 0.64% | $325.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=39c78cd9-ba69-5bbf-bbf5-ec63b02009a4#src=seo_token) | Base | 0.64% | $326K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many WBRL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $594.7K in total.
+2 live pools clear this page's $100K TVL floor, $594.8K in total.
 
 ### Are these rates safe?
 

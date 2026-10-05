@@ -45,7 +45,7 @@ RLUSD shows up in 8 pools here, with rates from 0.03% to 4.99% APY across 1 chai
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | aave-v3 | 4.99% | 4.98% | 66.79% incentives |
-| curve-dex | 3.58% | 5.10% | 100.00% incentives |
+| curve-dex | 3.58% | 5.09% | 100.00% incentives |
 | termmax | 0.03% | 0.03% | Base rate |
 | convex-finance | 0.32% | 0.18% | 0.00% incentives |
 | sparklend | 1.03% | 1.74% | Base rate |

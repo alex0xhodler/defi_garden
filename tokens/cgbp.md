@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest CGBP yield right now is 0.02% on uniswap-v3 (Celo), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CGBP yield right now is 0.04% on uniswap-v3 (Celo), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=a6976aa3-85e5-4323-a3e5-79f87db2e315#src=seo_token) | Celo | 0.02% | $105.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a6976aa3-85e5-4323-a3e5-79f87db2e315#src=seo_token) | Celo | 0.04% | $106K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CGBP yield today?
 
-0.02% APY on uniswap-v3 (Celo), based on live DefiLlama data.
+0.04% APY on uniswap-v3 (Celo), based on live DefiLlama data.
 
 ### How many CGBP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $105.9K in total.
+1 live pool clear this page's $100K TVL floor, $106K in total.
 
 ### Are these rates safe?
 

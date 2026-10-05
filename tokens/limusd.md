@@ -31,7 +31,7 @@ LIMUSD shows up in 2 pools here, with rates from 9.75% to 11.01% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle-v2 | 9.75% | 9.63% | 2.60% incentives |
+| pendle-v2 | 9.75% | 9.63% | 2.63% incentives |
 | pendle-v2 | 11.01% | 10.70% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.

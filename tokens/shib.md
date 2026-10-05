@@ -2,39 +2,39 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest SHIB yield right now is 60.53% on uniswap-v3 (Ethereum), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SHIB yield right now is 61.08% on uniswap-v3 (Ethereum), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=667c3616-bbb5-5200-ac37-2ba22b2f936c#src=seo_token) | Solana | 0.21% | $5.68M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=a3e110f6-1eea-4ad3-b97b-0434e34b55bd#src=seo_token) | Ethereum | 10.48% | $650.1K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=da3d3c6a-8d0d-4db3-8e1f-908ae7ad126a#src=seo_token) | Ethereum | 60.53% | $343.9K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=37806794-37c5-4d66-b340-ad376ebc2af1#src=seo_token) | Ethereum | 5.33% | $275.6K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=f2a9f172-1e94-4283-bc84-8f6616c4017d#src=seo_token) | Base | 14.16% | $216.2K |
-| [vvs-standard →](https://www.defi.garden/?pool=71e8d2a5-90be-431c-9891-b5fa7dfae858#src=seo_token) | Cronos | 2.76% | $138K |
-| [raydium-amm →](https://www.defi.garden/?pool=8b73a7f0-a542-492e-ac5d-eed03df5fdb7#src=seo_token) | Solana | 9.12% | $129K |
+| [raydium-amm →](https://www.defi.garden/?pool=667c3616-bbb5-5200-ac37-2ba22b2f936c#src=seo_token) | Solana | 0.20% | $5.68M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=a3e110f6-1eea-4ad3-b97b-0434e34b55bd#src=seo_token) | Ethereum | 10.53% | $650.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=da3d3c6a-8d0d-4db3-8e1f-908ae7ad126a#src=seo_token) | Ethereum | 61.08% | $344.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=37806794-37c5-4d66-b340-ad376ebc2af1#src=seo_token) | Ethereum | 3.28% | $275.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f2a9f172-1e94-4283-bc84-8f6616c4017d#src=seo_token) | Base | 19.00% | $220.9K |
+| [vvs-standard →](https://www.defi.garden/?pool=71e8d2a5-90be-431c-9891-b5fa7dfae858#src=seo_token) | Cronos | 2.79% | $137.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=8b73a7f0-a542-492e-ac5d-eed03df5fdb7#src=seo_token) | Solana | 8.91% | $128.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SHIB's lower-variability candidates are vvs-standard (Cronos), 2.76% APY, $138K TVL, https://www.defi.garden/?pool=71e8d2a5-90be-431c-9891-b5fa7dfae858#src=seo_token; raydium-amm (Solana), 9.12% APY, $129K TVL, https://www.defi.garden/?pool=8b73a7f0-a542-492e-ac5d-eed03df5fdb7#src=seo_token; uniswap-v4 (Base), 14.16% APY, $216.2K TVL, https://www.defi.garden/?pool=f2a9f172-1e94-4283-bc84-8f6616c4017d#src=seo_token; uniswap-v3 (Ethereum), 5.33% APY, $275.6K TVL, https://www.defi.garden/?pool=37806794-37c5-4d66-b340-ad376ebc2af1#src=seo_token; uniswap-v2 (Ethereum), 10.48% APY, $650.1K TVL, https://www.defi.garden/?pool=a3e110f6-1eea-4ad3-b97b-0434e34b55bd#src=seo_token; uniswap-v3 (Ethereum), 60.53% APY, $343.9K TVL, https://www.defi.garden/?pool=da3d3c6a-8d0d-4db3-8e1f-908ae7ad126a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SHIB's lower-variability candidates are vvs-standard (Cronos), 2.79% APY, $137.9K TVL, https://www.defi.garden/?pool=71e8d2a5-90be-431c-9891-b5fa7dfae858#src=seo_token; raydium-amm (Solana), 8.91% APY, $128.8K TVL, https://www.defi.garden/?pool=8b73a7f0-a542-492e-ac5d-eed03df5fdb7#src=seo_token; uniswap-v4 (Base), 19.00% APY, $220.9K TVL, https://www.defi.garden/?pool=f2a9f172-1e94-4283-bc84-8f6616c4017d#src=seo_token; uniswap-v3 (Ethereum), 3.28% APY, $275.9K TVL, https://www.defi.garden/?pool=37806794-37c5-4d66-b340-ad376ebc2af1#src=seo_token; uniswap-v2 (Ethereum), 10.53% APY, $650.5K TVL, https://www.defi.garden/?pool=a3e110f6-1eea-4ad3-b97b-0434e34b55bd#src=seo_token; uniswap-v3 (Ethereum), 61.08% APY, $344.5K TVL, https://www.defi.garden/?pool=da3d3c6a-8d0d-4db3-8e1f-908ae7ad126a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [vvs-standard →](https://www.defi.garden/?pool=71e8d2a5-90be-431c-9891-b5fa7dfae858#src=seo_token) | Cronos | 2.76% | $138K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=8b73a7f0-a542-492e-ac5d-eed03df5fdb7#src=seo_token) | Solana | 9.12% | $129K |
-| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=f2a9f172-1e94-4283-bc84-8f6616c4017d#src=seo_token) | Base | 14.16% | $216.2K |
-| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=37806794-37c5-4d66-b340-ad376ebc2af1#src=seo_token) | Ethereum | 5.33% | $275.6K |
-| 5 | [uniswap-v2 →](https://www.defi.garden/?pool=a3e110f6-1eea-4ad3-b97b-0434e34b55bd#src=seo_token) | Ethereum | 10.48% | $650.1K |
-| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=da3d3c6a-8d0d-4db3-8e1f-908ae7ad126a#src=seo_token) | Ethereum | 60.53% | $343.9K |
+| 1 | [vvs-standard →](https://www.defi.garden/?pool=71e8d2a5-90be-431c-9891-b5fa7dfae858#src=seo_token) | Cronos | 2.79% | $137.9K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=8b73a7f0-a542-492e-ac5d-eed03df5fdb7#src=seo_token) | Solana | 8.91% | $128.8K |
+| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=f2a9f172-1e94-4283-bc84-8f6616c4017d#src=seo_token) | Base | 19.00% | $220.9K |
+| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=37806794-37c5-4d66-b340-ad376ebc2af1#src=seo_token) | Ethereum | 3.28% | $275.9K |
+| 5 | [uniswap-v2 →](https://www.defi.garden/?pool=a3e110f6-1eea-4ad3-b97b-0434e34b55bd#src=seo_token) | Ethereum | 10.53% | $650.5K |
+| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=da3d3c6a-8d0d-4db3-8e1f-908ae7ad126a#src=seo_token) | Ethereum | 61.08% | $344.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SHIB shows up in 7 pools here, with rates from 0.21% to 60.53% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
+SHIB shows up in 7 pools here, with rates from 0.20% to 61.08% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-7 of these 7 pools have a trustworthy 30-day average on file, with a median of 9.02% — a useful check against today's number for whether the rate is steady or just having a good day.
+7 of these 7 pools have a trustworthy 30-day average on file, with a median of 9.04% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 7 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -42,13 +42,13 @@ All 7 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 0.21% | 0.16% | Base rate |
-| uniswap-v2 | 10.48% | 41.77% | Base rate |
-| uniswap-v3 | 60.53% | 42.84% | Base rate |
-| uniswap-v3 | 5.33% | 1.95% | Base rate |
-| uniswap-v4 | 14.16% | 20.35% | Base rate |
-| vvs-standard | 2.76% | 2.52% | Base rate |
-| raydium-amm | 9.12% | 9.02% | Base rate |
+| raydium-amm | 0.20% | 0.16% | Base rate |
+| uniswap-v2 | 10.53% | 41.78% | Base rate |
+| uniswap-v3 | 61.08% | 42.93% | Base rate |
+| uniswap-v3 | 3.28% | 1.95% | Base rate |
+| uniswap-v4 | 19.00% | 20.32% | Base rate |
+| vvs-standard | 2.79% | 2.52% | Base rate |
+| raydium-amm | 8.91% | 9.04% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -56,7 +56,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SHIB yield today?
 
-60.53% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+61.08% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many SHIB pools clear the TVL floor?
 
@@ -68,7 +68,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SHIB pools have the most stable APY history?
 
-Based on APY history only, SHIB's lower-variability candidates are vvs-standard (Cronos), 2.76% APY, $138K TVL, https://www.defi.garden/?pool=71e8d2a5-90be-431c-9891-b5fa7dfae858#src=seo_token; raydium-amm (Solana), 9.12% APY, $129K TVL, https://www.defi.garden/?pool=8b73a7f0-a542-492e-ac5d-eed03df5fdb7#src=seo_token; uniswap-v4 (Base), 14.16% APY, $216.2K TVL, https://www.defi.garden/?pool=f2a9f172-1e94-4283-bc84-8f6616c4017d#src=seo_token; uniswap-v3 (Ethereum), 5.33% APY, $275.6K TVL, https://www.defi.garden/?pool=37806794-37c5-4d66-b340-ad376ebc2af1#src=seo_token; uniswap-v2 (Ethereum), 10.48% APY, $650.1K TVL, https://www.defi.garden/?pool=a3e110f6-1eea-4ad3-b97b-0434e34b55bd#src=seo_token; uniswap-v3 (Ethereum), 60.53% APY, $343.9K TVL, https://www.defi.garden/?pool=da3d3c6a-8d0d-4db3-8e1f-908ae7ad126a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SHIB's lower-variability candidates are vvs-standard (Cronos), 2.79% APY, $137.9K TVL, https://www.defi.garden/?pool=71e8d2a5-90be-431c-9891-b5fa7dfae858#src=seo_token; raydium-amm (Solana), 8.91% APY, $128.8K TVL, https://www.defi.garden/?pool=8b73a7f0-a542-492e-ac5d-eed03df5fdb7#src=seo_token; uniswap-v4 (Base), 19.00% APY, $220.9K TVL, https://www.defi.garden/?pool=f2a9f172-1e94-4283-bc84-8f6616c4017d#src=seo_token; uniswap-v3 (Ethereum), 3.28% APY, $275.9K TVL, https://www.defi.garden/?pool=37806794-37c5-4d66-b340-ad376ebc2af1#src=seo_token; uniswap-v2 (Ethereum), 10.53% APY, $650.5K TVL, https://www.defi.garden/?pool=a3e110f6-1eea-4ad3-b97b-0434e34b55bd#src=seo_token; uniswap-v3 (Ethereum), 61.08% APY, $344.5K TVL, https://www.defi.garden/?pool=da3d3c6a-8d0d-4db3-8e1f-908ae7ad126a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

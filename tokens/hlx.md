@@ -2,30 +2,30 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest HLX yield right now is 130.15% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HLX yield right now is 123.56% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=f047a4b1-302e-4eca-98fc-929c728d6eb8#src=seo_token) | Ethereum | 130.15% | $354.7K |
-| [curve-dex →](https://www.defi.garden/?pool=1791a7f7-5fe7-55a1-80db-fa18753fe19f#src=seo_token) | Ethereum | 1.52% | $237.3K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=4c9d0793-6976-5a4b-86a9-9d180a5e8755#src=seo_token) | Ethereum | 3.77% | $225K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f047a4b1-302e-4eca-98fc-929c728d6eb8#src=seo_token) | Ethereum | 123.56% | $355.6K |
+| [curve-dex →](https://www.defi.garden/?pool=1791a7f7-5fe7-55a1-80db-fa18753fe19f#src=seo_token) | Ethereum | 1.52% | $236.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4c9d0793-6976-5a4b-86a9-9d180a5e8755#src=seo_token) | Ethereum | 3.77% | $225.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, HLX's lower-variability candidates are curve-dex (Ethereum), 1.52% APY, $237.3K TVL, https://www.defi.garden/?pool=1791a7f7-5fe7-55a1-80db-fa18753fe19f#src=seo_token; uniswap-v3 (Ethereum), 3.77% APY, $225K TVL, https://www.defi.garden/?pool=4c9d0793-6976-5a4b-86a9-9d180a5e8755#src=seo_token; uniswap-v3 (Ethereum), 130.15% APY, $354.7K TVL, https://www.defi.garden/?pool=f047a4b1-302e-4eca-98fc-929c728d6eb8#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, HLX's lower-variability candidates are curve-dex (Ethereum), 1.52% APY, $236.6K TVL, https://www.defi.garden/?pool=1791a7f7-5fe7-55a1-80db-fa18753fe19f#src=seo_token; uniswap-v3 (Ethereum), 3.77% APY, $225.5K TVL, https://www.defi.garden/?pool=4c9d0793-6976-5a4b-86a9-9d180a5e8755#src=seo_token; uniswap-v3 (Ethereum), 123.56% APY, $355.6K TVL, https://www.defi.garden/?pool=f047a4b1-302e-4eca-98fc-929c728d6eb8#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=1791a7f7-5fe7-55a1-80db-fa18753fe19f#src=seo_token) | Ethereum | 1.52% | $237.3K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=4c9d0793-6976-5a4b-86a9-9d180a5e8755#src=seo_token) | Ethereum | 3.77% | $225K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=f047a4b1-302e-4eca-98fc-929c728d6eb8#src=seo_token) | Ethereum | 130.15% | $354.7K |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=1791a7f7-5fe7-55a1-80db-fa18753fe19f#src=seo_token) | Ethereum | 1.52% | $236.6K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=4c9d0793-6976-5a4b-86a9-9d180a5e8755#src=seo_token) | Ethereum | 3.77% | $225.5K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=f047a4b1-302e-4eca-98fc-929c728d6eb8#src=seo_token) | Ethereum | 123.56% | $355.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-HLX shows up in 3 pools here, with rates from 1.52% to 130.15% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+HLX shows up in 3 pools here, with rates from 1.52% to 123.56% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 4.84% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -35,7 +35,7 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 130.15% | 99.90% | Base rate |
+| uniswap-v3 | 123.56% | 99.93% | Base rate |
 | curve-dex | 1.52% | 1.25% | Base rate |
 | uniswap-v3 | 3.77% | 4.84% | Base rate |
 
@@ -45,11 +45,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest HLX yield today?
 
-130.15% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+123.56% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many HLX pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $935K in total.
+4 live pools clear this page's $100K TVL floor, $936K in total.
 
 ### Are these rates safe?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which HLX pools have the most stable APY history?
 
-Based on APY history only, HLX's lower-variability candidates are curve-dex (Ethereum), 1.52% APY, $237.3K TVL, https://www.defi.garden/?pool=1791a7f7-5fe7-55a1-80db-fa18753fe19f#src=seo_token; uniswap-v3 (Ethereum), 3.77% APY, $225K TVL, https://www.defi.garden/?pool=4c9d0793-6976-5a4b-86a9-9d180a5e8755#src=seo_token; uniswap-v3 (Ethereum), 130.15% APY, $354.7K TVL, https://www.defi.garden/?pool=f047a4b1-302e-4eca-98fc-929c728d6eb8#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, HLX's lower-variability candidates are curve-dex (Ethereum), 1.52% APY, $236.6K TVL, https://www.defi.garden/?pool=1791a7f7-5fe7-55a1-80db-fa18753fe19f#src=seo_token; uniswap-v3 (Ethereum), 3.77% APY, $225.5K TVL, https://www.defi.garden/?pool=4c9d0793-6976-5a4b-86a9-9d180a5e8755#src=seo_token; uniswap-v3 (Ethereum), 123.56% APY, $355.6K TVL, https://www.defi.garden/?pool=f047a4b1-302e-4eca-98fc-929c728d6eb8#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

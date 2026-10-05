@@ -2,30 +2,30 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest GEMSTON yield right now is 0.99% on ston.fi (TON), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GEMSTON yield right now is 1.04% on ston.fi (TON), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ston.fi →](https://www.defi.garden/?pool=709d3202-736e-4bd7-a5fb-bec843ea02ef#src=seo_token) | TON | 0.99% | $217.2K |
-| [ston.fi →](https://www.defi.garden/?pool=bc7ac7ae-ef98-4a0a-b352-9c58d082859d#src=seo_token) | TON | 0.18% | $133.3K |
-| [ston.fi →](https://www.defi.garden/?pool=5dfe41e2-3f9f-42bd-be29-0f16f8e48f4c#src=seo_token) | TON | 0.56% | $117.1K |
+| [ston.fi →](https://www.defi.garden/?pool=709d3202-736e-4bd7-a5fb-bec843ea02ef#src=seo_token) | TON | 1.04% | $217.2K |
+| [ston.fi →](https://www.defi.garden/?pool=bc7ac7ae-ef98-4a0a-b352-9c58d082859d#src=seo_token) | TON | 0.17% | $133.3K |
+| [ston.fi →](https://www.defi.garden/?pool=5dfe41e2-3f9f-42bd-be29-0f16f8e48f4c#src=seo_token) | TON | 0.68% | $117.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, GEMSTON's lower-variability candidates are ston.fi (TON), 0.18% APY, $133.3K TVL, https://www.defi.garden/?pool=bc7ac7ae-ef98-4a0a-b352-9c58d082859d#src=seo_token; ston.fi (TON), 0.56% APY, $117.1K TVL, https://www.defi.garden/?pool=5dfe41e2-3f9f-42bd-be29-0f16f8e48f4c#src=seo_token; ston.fi (TON), 0.99% APY, $217.2K TVL, https://www.defi.garden/?pool=709d3202-736e-4bd7-a5fb-bec843ea02ef#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GEMSTON's lower-variability candidates are ston.fi (TON), 0.17% APY, $133.3K TVL, https://www.defi.garden/?pool=bc7ac7ae-ef98-4a0a-b352-9c58d082859d#src=seo_token; ston.fi (TON), 0.68% APY, $117.1K TVL, https://www.defi.garden/?pool=5dfe41e2-3f9f-42bd-be29-0f16f8e48f4c#src=seo_token; ston.fi (TON), 1.04% APY, $217.2K TVL, https://www.defi.garden/?pool=709d3202-736e-4bd7-a5fb-bec843ea02ef#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [ston.fi →](https://www.defi.garden/?pool=bc7ac7ae-ef98-4a0a-b352-9c58d082859d#src=seo_token) | TON | 0.18% | $133.3K |
-| 2 | [ston.fi →](https://www.defi.garden/?pool=5dfe41e2-3f9f-42bd-be29-0f16f8e48f4c#src=seo_token) | TON | 0.56% | $117.1K |
-| 3 | [ston.fi →](https://www.defi.garden/?pool=709d3202-736e-4bd7-a5fb-bec843ea02ef#src=seo_token) | TON | 0.99% | $217.2K |
+| 1 | [ston.fi →](https://www.defi.garden/?pool=bc7ac7ae-ef98-4a0a-b352-9c58d082859d#src=seo_token) | TON | 0.17% | $133.3K |
+| 2 | [ston.fi →](https://www.defi.garden/?pool=5dfe41e2-3f9f-42bd-be29-0f16f8e48f4c#src=seo_token) | TON | 0.68% | $117.1K |
+| 3 | [ston.fi →](https://www.defi.garden/?pool=709d3202-736e-4bd7-a5fb-bec843ea02ef#src=seo_token) | TON | 1.04% | $217.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-GEMSTON shows up in 3 pools here, with rates from 0.18% to 0.99% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+GEMSTON shows up in 3 pools here, with rates from 0.17% to 1.04% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 1.50% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -35,9 +35,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| ston.fi | 0.99% | 1.50% | Base rate |
-| ston.fi | 0.18% | 0.53% | Base rate |
-| ston.fi | 0.56% | 1.82% | Base rate |
+| ston.fi | 1.04% | 1.50% | Base rate |
+| ston.fi | 0.17% | 0.53% | Base rate |
+| ston.fi | 0.68% | 1.82% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,7 +45,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest GEMSTON yield today?
 
-0.99% APY on ston.fi (TON), based on live DefiLlama data.
+1.04% APY on ston.fi (TON), based on live DefiLlama data.
 
 ### How many GEMSTON pools clear the TVL floor?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which GEMSTON pools have the most stable APY history?
 
-Based on APY history only, GEMSTON's lower-variability candidates are ston.fi (TON), 0.18% APY, $133.3K TVL, https://www.defi.garden/?pool=bc7ac7ae-ef98-4a0a-b352-9c58d082859d#src=seo_token; ston.fi (TON), 0.56% APY, $117.1K TVL, https://www.defi.garden/?pool=5dfe41e2-3f9f-42bd-be29-0f16f8e48f4c#src=seo_token; ston.fi (TON), 0.99% APY, $217.2K TVL, https://www.defi.garden/?pool=709d3202-736e-4bd7-a5fb-bec843ea02ef#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GEMSTON's lower-variability candidates are ston.fi (TON), 0.17% APY, $133.3K TVL, https://www.defi.garden/?pool=bc7ac7ae-ef98-4a0a-b352-9c58d082859d#src=seo_token; ston.fi (TON), 0.68% APY, $117.1K TVL, https://www.defi.garden/?pool=5dfe41e2-3f9f-42bd-be29-0f16f8e48f4c#src=seo_token; ston.fi (TON), 1.04% APY, $217.2K TVL, https://www.defi.garden/?pool=709d3202-736e-4bd7-a5fb-bec843ea02ef#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

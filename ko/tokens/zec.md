@@ -2,41 +2,41 @@
 
 *DefiLlama 데이터 생성 시점 검증: October 5, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 ZEC의 가장 높은 정직한 수익률은 Starknet의 ekubo에서 199.62%이며, $100K TVL 기준을 넘는 15개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 ZEC의 가장 높은 정직한 수익률은 Starknet의 ekubo에서 217.97%이며, $100K TVL 기준을 넘는 15개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=3de7947c-e199-4842-a496-a775f59d6ba3#src=seo_token) | Solana | 165.37% | $3.16M |
-| [orca-dex →](https://www.defi.garden/?pool=d3976688-cd2f-404c-be53-dd47ae528811#src=seo_token) | Solana | 94.40% | $2.57M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=9777c6f8-4447-48fe-9250-4be162a078ec#src=seo_token) | BSC | 60.68% | $1.57M |
-| [raydium-amm →](https://www.defi.garden/?pool=2b9b8818-b4e1-5810-9d56-6206e3e7fa76#src=seo_token) | Solana | 238.12% | $1.03M |
-| [raydium-amm →](https://www.defi.garden/?pool=1cffc534-eba9-5987-a36f-78588b7a1489#src=seo_token) | Solana | 48.71% | $638.2K |
-| [raydium-amm →](https://www.defi.garden/?pool=527d643b-1964-4e10-bf38-0fa470a55dc1#src=seo_token) | Solana | 98.89% | $513.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=c9079f69-c269-4d2f-b96b-321e22f67cf8#src=seo_token) | BSC | 32.81% | $343.8K |
-| [ekubo →](https://www.defi.garden/?pool=ce792a94-391e-5a01-8604-35408ac6d2a7#src=seo_token) | Starknet | 199.62% | $338.7K |
+| [orca-dex →](https://www.defi.garden/?pool=3de7947c-e199-4842-a496-a775f59d6ba3#src=seo_token) | Solana | 175.49% | $3.17M |
+| [orca-dex →](https://www.defi.garden/?pool=d3976688-cd2f-404c-be53-dd47ae528811#src=seo_token) | Solana | 96.13% | $2.58M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=9777c6f8-4447-48fe-9250-4be162a078ec#src=seo_token) | BSC | 82.26% | $1.53M |
+| [raydium-amm →](https://www.defi.garden/?pool=2b9b8818-b4e1-5810-9d56-6206e3e7fa76#src=seo_token) | Solana | 236.06% | $1.01M |
+| [raydium-amm →](https://www.defi.garden/?pool=1cffc534-eba9-5987-a36f-78588b7a1489#src=seo_token) | Solana | 47.84% | $623.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=527d643b-1964-4e10-bf38-0fa470a55dc1#src=seo_token) | Solana | 116.04% | $507.5K |
+| [ekubo →](https://www.defi.garden/?pool=ce792a94-391e-5a01-8604-35408ac6d2a7#src=seo_token) | Starknet | 217.97% | $338.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c9079f69-c269-4d2f-b96b-321e22f67cf8#src=seo_token) | BSC | 49.55% | $332.7K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 ZEC의 변동성 낮은 후보는 Solana의 orca-dex, APY 165.37%, TVL $3.16M, https://www.defi.garden/?pool=3de7947c-e199-4842-a496-a775f59d6ba3#src=seo_token; BSC의 uniswap-v3, APY 32.81%, TVL $343.8K, https://www.defi.garden/?pool=c9079f69-c269-4d2f-b96b-321e22f67cf8#src=seo_token; Solana의 orca-dex, APY 94.40%, TVL $2.57M, https://www.defi.garden/?pool=d3976688-cd2f-404c-be53-dd47ae528811#src=seo_token; BSC의 uniswap-v3, APY 60.68%, TVL $1.57M, https://www.defi.garden/?pool=9777c6f8-4447-48fe-9250-4be162a078ec#src=seo_token; Starknet의 ekubo, APY 199.62%, TVL $338.7K, https://www.defi.garden/?pool=ce792a94-391e-5a01-8604-35408ac6d2a7#src=seo_token; Solana의 raydium-amm, APY 98.89%, TVL $513.4K, https://www.defi.garden/?pool=527d643b-1964-4e10-bf38-0fa470a55dc1#src=seo_token; Solana의 raydium-amm, APY 238.12%, TVL $1.03M, https://www.defi.garden/?pool=2b9b8818-b4e1-5810-9d56-6206e3e7fa76#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 ZEC의 변동성 낮은 후보는 Solana의 orca-dex, APY 175.49%, TVL $3.17M, https://www.defi.garden/?pool=3de7947c-e199-4842-a496-a775f59d6ba3#src=seo_token; BSC의 uniswap-v3, APY 49.55%, TVL $332.7K, https://www.defi.garden/?pool=c9079f69-c269-4d2f-b96b-321e22f67cf8#src=seo_token; Solana의 orca-dex, APY 96.13%, TVL $2.58M, https://www.defi.garden/?pool=d3976688-cd2f-404c-be53-dd47ae528811#src=seo_token; BSC의 uniswap-v3, APY 82.26%, TVL $1.53M, https://www.defi.garden/?pool=9777c6f8-4447-48fe-9250-4be162a078ec#src=seo_token; Starknet의 ekubo, APY 217.97%, TVL $338.7K, https://www.defi.garden/?pool=ce792a94-391e-5a01-8604-35408ac6d2a7#src=seo_token; Solana의 raydium-amm, APY 116.04%, TVL $507.5K, https://www.defi.garden/?pool=527d643b-1964-4e10-bf38-0fa470a55dc1#src=seo_token; Solana의 raydium-amm, APY 236.06%, TVL $1.01M, https://www.defi.garden/?pool=2b9b8818-b4e1-5810-9d56-6206e3e7fa76#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [orca-dex →](https://www.defi.garden/?pool=3de7947c-e199-4842-a496-a775f59d6ba3#src=seo_token) | Solana | 165.37% | $3.16M |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=c9079f69-c269-4d2f-b96b-321e22f67cf8#src=seo_token) | BSC | 32.81% | $343.8K |
-| 3 | [orca-dex →](https://www.defi.garden/?pool=d3976688-cd2f-404c-be53-dd47ae528811#src=seo_token) | Solana | 94.40% | $2.57M |
-| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=9777c6f8-4447-48fe-9250-4be162a078ec#src=seo_token) | BSC | 60.68% | $1.57M |
-| 5 | [ekubo →](https://www.defi.garden/?pool=ce792a94-391e-5a01-8604-35408ac6d2a7#src=seo_token) | Starknet | 199.62% | $338.7K |
-| 6 | [raydium-amm →](https://www.defi.garden/?pool=527d643b-1964-4e10-bf38-0fa470a55dc1#src=seo_token) | Solana | 98.89% | $513.4K |
-| 7 | [raydium-amm →](https://www.defi.garden/?pool=2b9b8818-b4e1-5810-9d56-6206e3e7fa76#src=seo_token) | Solana | 238.12% | $1.03M |
+| 1 | [orca-dex →](https://www.defi.garden/?pool=3de7947c-e199-4842-a496-a775f59d6ba3#src=seo_token) | Solana | 175.49% | $3.17M |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=c9079f69-c269-4d2f-b96b-321e22f67cf8#src=seo_token) | BSC | 49.55% | $332.7K |
+| 3 | [orca-dex →](https://www.defi.garden/?pool=d3976688-cd2f-404c-be53-dd47ae528811#src=seo_token) | Solana | 96.13% | $2.58M |
+| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=9777c6f8-4447-48fe-9250-4be162a078ec#src=seo_token) | BSC | 82.26% | $1.53M |
+| 5 | [ekubo →](https://www.defi.garden/?pool=ce792a94-391e-5a01-8604-35408ac6d2a7#src=seo_token) | Starknet | 217.97% | $338.7K |
+| 6 | [raydium-amm →](https://www.defi.garden/?pool=527d643b-1964-4e10-bf38-0fa470a55dc1#src=seo_token) | Solana | 116.04% | $507.5K |
+| 7 | [raydium-amm →](https://www.defi.garden/?pool=2b9b8818-b4e1-5810-9d56-6206e3e7fa76#src=seo_token) | Solana | 236.06% | $1.01M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-ZEC 풀은 여기 8개가 있고, 3개 체인에서 APY가 32.81%부터 238.12%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+ZEC 풀은 여기 8개가 있고, 3개 체인에서 APY가 47.84%부터 236.06%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 278.71%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 278.68%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 현재 8개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
@@ -44,14 +44,14 @@ ZEC 풀은 여기 8개가 있고, 3개 체인에서 APY가 32.81%부터 238.12%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| orca-dex | 165.37% | 285.62% | 기본 금리 |
-| orca-dex | 94.40% | 271.80% | 기본 금리 |
-| uniswap-v3 | 60.68% | 208.07% | 기본 금리 |
-| raydium-amm | 238.12% | 871.85% | 기본 금리 |
-| raydium-amm | 48.71% | 321.35% | 기본 금리 |
-| raydium-amm | 98.89% | 493.39% | 기본 금리 |
-| uniswap-v3 | 32.81% | 158.91% | 기본 금리 |
-| ekubo | 199.62% | 170.91% | 기본 금리 |
+| orca-dex | 175.49% | 285.68% | 기본 금리 |
+| orca-dex | 96.13% | 271.69% | 기본 금리 |
+| uniswap-v3 | 82.26% | 207.86% | 기본 금리 |
+| raydium-amm | 236.06% | 867.16% | 기본 금리 |
+| raydium-amm | 47.84% | 320.41% | 기본 금리 |
+| raydium-amm | 116.04% | 492.87% | 기본 금리 |
+| ekubo | 217.97% | 171.04% | 기본 금리 |
+| uniswap-v3 | 49.55% | 158.73% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -59,11 +59,11 @@ ZEC 풀은 여기 8개가 있고, 3개 체인에서 APY가 32.81%부터 238.12%�
 
 ### 오늘 ZEC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Starknet의 ekubo에서 APY 199.62%예요.
+DefiLlama 실시간 데이터 기준, Starknet의 ekubo에서 APY 217.97%예요.
 
 ### ZEC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 15개이며, 합산 TVL은 $14.46M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 15개이며, 합산 TVL은 $14.39M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -71,7 +71,7 @@ DefiLlama 실시간 데이터 기준, Starknet의 ekubo에서 APY 199.62%예요.
 
 ### ZEC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 ZEC의 변동성 낮은 후보는 Solana의 orca-dex, APY 165.37%, TVL $3.16M, https://www.defi.garden/?pool=3de7947c-e199-4842-a496-a775f59d6ba3#src=seo_token; BSC의 uniswap-v3, APY 32.81%, TVL $343.8K, https://www.defi.garden/?pool=c9079f69-c269-4d2f-b96b-321e22f67cf8#src=seo_token; Solana의 orca-dex, APY 94.40%, TVL $2.57M, https://www.defi.garden/?pool=d3976688-cd2f-404c-be53-dd47ae528811#src=seo_token; BSC의 uniswap-v3, APY 60.68%, TVL $1.57M, https://www.defi.garden/?pool=9777c6f8-4447-48fe-9250-4be162a078ec#src=seo_token; Starknet의 ekubo, APY 199.62%, TVL $338.7K, https://www.defi.garden/?pool=ce792a94-391e-5a01-8604-35408ac6d2a7#src=seo_token; Solana의 raydium-amm, APY 98.89%, TVL $513.4K, https://www.defi.garden/?pool=527d643b-1964-4e10-bf38-0fa470a55dc1#src=seo_token; Solana의 raydium-amm, APY 238.12%, TVL $1.03M, https://www.defi.garden/?pool=2b9b8818-b4e1-5810-9d56-6206e3e7fa76#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 ZEC의 변동성 낮은 후보는 Solana의 orca-dex, APY 175.49%, TVL $3.17M, https://www.defi.garden/?pool=3de7947c-e199-4842-a496-a775f59d6ba3#src=seo_token; BSC의 uniswap-v3, APY 49.55%, TVL $332.7K, https://www.defi.garden/?pool=c9079f69-c269-4d2f-b96b-321e22f67cf8#src=seo_token; Solana의 orca-dex, APY 96.13%, TVL $2.58M, https://www.defi.garden/?pool=d3976688-cd2f-404c-be53-dd47ae528811#src=seo_token; BSC의 uniswap-v3, APY 82.26%, TVL $1.53M, https://www.defi.garden/?pool=9777c6f8-4447-48fe-9250-4be162a078ec#src=seo_token; Starknet의 ekubo, APY 217.97%, TVL $338.7K, https://www.defi.garden/?pool=ce792a94-391e-5a01-8604-35408ac6d2a7#src=seo_token; Solana의 raydium-amm, APY 116.04%, TVL $507.5K, https://www.defi.garden/?pool=527d643b-1964-4e10-bf38-0fa470a55dc1#src=seo_token; Solana의 raydium-amm, APY 236.06%, TVL $1.01M, https://www.defi.garden/?pool=2b9b8818-b4e1-5810-9d56-6206e3e7fa76#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

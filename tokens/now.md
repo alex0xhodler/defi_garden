@@ -7,16 +7,16 @@ The highest honest NOW yield right now is 0.06% on uniswap-v2 (Ethereum), among 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=50d36d6b-f56c-4b9a-a256-7089f8b804f3#src=seo_token) | Ethereum | 0.01% | $2.4M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=46af331a-b68a-4075-8622-6afe237bf20d#src=seo_token) | Ethereum | 0.06% | $389.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=46af331a-b68a-4075-8622-6afe237bf20d#src=seo_token) | Ethereum | 0.06% | $389.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, NOW's lower-variability candidates are uniswap-v2 (Ethereum), 0.06% APY, $389.3K TVL, https://www.defi.garden/?pool=46af331a-b68a-4075-8622-6afe237bf20d#src=seo_token; uniswap-v3 (Ethereum), 0.01% APY, $2.4M TVL, https://www.defi.garden/?pool=50d36d6b-f56c-4b9a-a256-7089f8b804f3#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NOW's lower-variability candidates are uniswap-v2 (Ethereum), 0.06% APY, $389.2K TVL, https://www.defi.garden/?pool=46af331a-b68a-4075-8622-6afe237bf20d#src=seo_token; uniswap-v3 (Ethereum), 0.01% APY, $2.4M TVL, https://www.defi.garden/?pool=50d36d6b-f56c-4b9a-a256-7089f8b804f3#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=46af331a-b68a-4075-8622-6afe237bf20d#src=seo_token) | Ethereum | 0.06% | $389.3K |
+| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=46af331a-b68a-4075-8622-6afe237bf20d#src=seo_token) | Ethereum | 0.06% | $389.2K |
 | 2 | [uniswap-v3 →](https://www.defi.garden/?pool=50d36d6b-f56c-4b9a-a256-7089f8b804f3#src=seo_token) | Ethereum | 0.01% | $2.4M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which NOW pools have the most stable APY history?
 
-Based on APY history only, NOW's lower-variability candidates are uniswap-v2 (Ethereum), 0.06% APY, $389.3K TVL, https://www.defi.garden/?pool=46af331a-b68a-4075-8622-6afe237bf20d#src=seo_token; uniswap-v3 (Ethereum), 0.01% APY, $2.4M TVL, https://www.defi.garden/?pool=50d36d6b-f56c-4b9a-a256-7089f8b804f3#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NOW's lower-variability candidates are uniswap-v2 (Ethereum), 0.06% APY, $389.2K TVL, https://www.defi.garden/?pool=46af331a-b68a-4075-8622-6afe237bf20d#src=seo_token; uniswap-v3 (Ethereum), 0.01% APY, $2.4M TVL, https://www.defi.garden/?pool=50d36d6b-f56c-4b9a-a256-7089f8b804f3#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

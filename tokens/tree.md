@@ -7,18 +7,18 @@ The highest honest TREE yield right now is 0.94% on uniswap-v3 (Base), among 4 p
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=ad4acc7e-f5d4-411f-8774-7744f806cc89#src=seo_token) | Ethereum | 0.13% | $1.41M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b241433a-e7a0-4d38-b14d-2cfdd1028ec8#src=seo_token) | Base | 0.94% | $544.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b241433a-e7a0-4d38-b14d-2cfdd1028ec8#src=seo_token) | Base | 0.94% | $543.7K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=f8257bf6-a337-4bf8-89b4-18929e81976a#src=seo_token) | Ethereum | 4.68% | $334.7K |
 | [raydium-amm →](https://www.defi.garden/?pool=369f0674-d7b6-54fd-8fb7-cb0bf8d24a34#src=seo_token) | Solana | 2.66% | $289.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, TREE's lower-variability candidates are uniswap-v3 (Base), 0.94% APY, $544.6K TVL, https://www.defi.garden/?pool=b241433a-e7a0-4d38-b14d-2cfdd1028ec8#src=seo_token; uniswap-v3 (Ethereum), 0.13% APY, $1.41M TVL, https://www.defi.garden/?pool=ad4acc7e-f5d4-411f-8774-7744f806cc89#src=seo_token; uniswap-v4 (Ethereum), 4.68% APY, $334.7K TVL, https://www.defi.garden/?pool=f8257bf6-a337-4bf8-89b4-18929e81976a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TREE's lower-variability candidates are uniswap-v3 (Base), 0.94% APY, $543.7K TVL, https://www.defi.garden/?pool=b241433a-e7a0-4d38-b14d-2cfdd1028ec8#src=seo_token; uniswap-v3 (Ethereum), 0.13% APY, $1.41M TVL, https://www.defi.garden/?pool=ad4acc7e-f5d4-411f-8774-7744f806cc89#src=seo_token; uniswap-v4 (Ethereum), 4.68% APY, $334.7K TVL, https://www.defi.garden/?pool=f8257bf6-a337-4bf8-89b4-18929e81976a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=b241433a-e7a0-4d38-b14d-2cfdd1028ec8#src=seo_token) | Base | 0.94% | $544.6K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=b241433a-e7a0-4d38-b14d-2cfdd1028ec8#src=seo_token) | Base | 0.94% | $543.7K |
 | 2 | [uniswap-v3 →](https://www.defi.garden/?pool=ad4acc7e-f5d4-411f-8774-7744f806cc89#src=seo_token) | Ethereum | 0.13% | $1.41M |
 | 3 | [uniswap-v4 →](https://www.defi.garden/?pool=f8257bf6-a337-4bf8-89b4-18929e81976a#src=seo_token) | Ethereum | 4.68% | $334.7K |
 
@@ -51,7 +51,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many TREE pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $2.58M in total.
+4 live pools clear this page's $100K TVL floor, $2.57M in total.
 
 ### Are these rates safe?
 
@@ -59,7 +59,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which TREE pools have the most stable APY history?
 
-Based on APY history only, TREE's lower-variability candidates are uniswap-v3 (Base), 0.94% APY, $544.6K TVL, https://www.defi.garden/?pool=b241433a-e7a0-4d38-b14d-2cfdd1028ec8#src=seo_token; uniswap-v3 (Ethereum), 0.13% APY, $1.41M TVL, https://www.defi.garden/?pool=ad4acc7e-f5d4-411f-8774-7744f806cc89#src=seo_token; uniswap-v4 (Ethereum), 4.68% APY, $334.7K TVL, https://www.defi.garden/?pool=f8257bf6-a337-4bf8-89b4-18929e81976a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TREE's lower-variability candidates are uniswap-v3 (Base), 0.94% APY, $543.7K TVL, https://www.defi.garden/?pool=b241433a-e7a0-4d38-b14d-2cfdd1028ec8#src=seo_token; uniswap-v3 (Ethereum), 0.13% APY, $1.41M TVL, https://www.defi.garden/?pool=ad4acc7e-f5d4-411f-8774-7744f806cc89#src=seo_token; uniswap-v4 (Ethereum), 4.68% APY, $334.7K TVL, https://www.defi.garden/?pool=f8257bf6-a337-4bf8-89b4-18929e81976a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

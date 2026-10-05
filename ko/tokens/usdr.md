@@ -6,19 +6,19 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=f5dd43e4-2bf4-41f9-a6aa-d6a6717d7718#src=seo_token) | Ethereum | 0.07% | $196.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f5dd43e4-2bf4-41f9-a6aa-d6a6717d7718#src=seo_token) | Ethereum | 0.07% | $196.3K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=96fe353f-d409-4339-9c1c-e1d8e2925485#src=seo_token) | Ethereum | 0.21% | $195.5K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=54971977-eb8e-46aa-acd7-a26e7f06a22d#src=seo_token) | Ethereum | 0.21% | $195.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=54971977-eb8e-46aa-acd7-a26e7f06a22d#src=seo_token) | Ethereum | 0.21% | $195.2K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 USDR의 변동성 낮은 후보는 Ethereum의 uniswap-v4, APY 0.07%, TVL $196.4K, https://www.defi.garden/?pool=f5dd43e4-2bf4-41f9-a6aa-d6a6717d7718#src=seo_token; Ethereum의 uniswap-v4, APY 0.21%, TVL $195.3K, https://www.defi.garden/?pool=54971977-eb8e-46aa-acd7-a26e7f06a22d#src=seo_token; Ethereum의 uniswap-v4, APY 0.21%, TVL $195.5K, https://www.defi.garden/?pool=96fe353f-d409-4339-9c1c-e1d8e2925485#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USDR의 변동성 낮은 후보는 Ethereum의 uniswap-v4, APY 0.07%, TVL $196.3K, https://www.defi.garden/?pool=f5dd43e4-2bf4-41f9-a6aa-d6a6717d7718#src=seo_token; Ethereum의 uniswap-v4, APY 0.21%, TVL $195.2K, https://www.defi.garden/?pool=54971977-eb8e-46aa-acd7-a26e7f06a22d#src=seo_token; Ethereum의 uniswap-v4, APY 0.21%, TVL $195.5K, https://www.defi.garden/?pool=96fe353f-d409-4339-9c1c-e1d8e2925485#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=f5dd43e4-2bf4-41f9-a6aa-d6a6717d7718#src=seo_token) | Ethereum | 0.07% | $196.4K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=54971977-eb8e-46aa-acd7-a26e7f06a22d#src=seo_token) | Ethereum | 0.21% | $195.3K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=f5dd43e4-2bf4-41f9-a6aa-d6a6717d7718#src=seo_token) | Ethereum | 0.07% | $196.3K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=54971977-eb8e-46aa-acd7-a26e7f06a22d#src=seo_token) | Ethereum | 0.21% | $195.2K |
 | 3 | [uniswap-v4 →](https://www.defi.garden/?pool=96fe353f-d409-4339-9c1c-e1d8e2925485#src=seo_token) | Ethereum | 0.21% | $195.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -47,7 +47,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 0.21%예�
 
 ### USDR 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $783.6K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $783.4K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -55,7 +55,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 0.21%예�
 
 ### USDR 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 USDR의 변동성 낮은 후보는 Ethereum의 uniswap-v4, APY 0.07%, TVL $196.4K, https://www.defi.garden/?pool=f5dd43e4-2bf4-41f9-a6aa-d6a6717d7718#src=seo_token; Ethereum의 uniswap-v4, APY 0.21%, TVL $195.3K, https://www.defi.garden/?pool=54971977-eb8e-46aa-acd7-a26e7f06a22d#src=seo_token; Ethereum의 uniswap-v4, APY 0.21%, TVL $195.5K, https://www.defi.garden/?pool=96fe353f-d409-4339-9c1c-e1d8e2925485#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USDR의 변동성 낮은 후보는 Ethereum의 uniswap-v4, APY 0.07%, TVL $196.3K, https://www.defi.garden/?pool=f5dd43e4-2bf4-41f9-a6aa-d6a6717d7718#src=seo_token; Ethereum의 uniswap-v4, APY 0.21%, TVL $195.2K, https://www.defi.garden/?pool=54971977-eb8e-46aa-acd7-a26e7f06a22d#src=seo_token; Ethereum의 uniswap-v4, APY 0.21%, TVL $195.5K, https://www.defi.garden/?pool=96fe353f-d409-4339-9c1c-e1d8e2925485#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

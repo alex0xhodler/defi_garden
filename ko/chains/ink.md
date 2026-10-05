@@ -4,9 +4,9 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| KBTC | [tydro →](https://www.defi.garden/?pool=1357e23b-83d2-4183-bda0-a36913510b98#src=seo_chain) | 0.01% | $92.31M |
-| USDC | [tydro →](https://www.defi.garden/?pool=4d296741-940d-44c1-a729-f6bd1f330f6f#src=seo_chain) | 4.25% | $16.82M |
-| WETH | [tydro →](https://www.defi.garden/?pool=15baa435-9e38-4688-a345-6fe5783235ae#src=seo_chain) | 0.04% | $14.08M |
+| KBTC | [tydro →](https://www.defi.garden/?pool=1357e23b-83d2-4183-bda0-a36913510b98#src=seo_chain) | 0.01% | $92.13M |
+| USDC | [tydro →](https://www.defi.garden/?pool=4d296741-940d-44c1-a729-f6bd1f330f6f#src=seo_chain) | 4.25% | $16.81M |
+| WETH | [tydro →](https://www.defi.garden/?pool=15baa435-9e38-4688-a345-6fe5783235ae#src=seo_chain) | 0.04% | $14.04M |
 | USD₮0 | [tydro →](https://www.defi.garden/?pool=ae25cef1-2ded-4c05-af5e-09f6420a2bce#src=seo_chain) | 3.07% | $1.61M |
 | USD₮0-USDG | [velodrome-v3 →](https://www.defi.garden/?pool=b9ba5af5-01a6-49c7-bc56-516053a29e96#src=seo_chain) | 2.39% | $1.47M |
 | USDG | [tydro →](https://www.defi.garden/?pool=065ea91c-deff-4da0-a06f-64c642780936#src=seo_chain) | 1.45% | $1.28M |
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Ink의 tydro에서 APY 4.25%예요.
 
 ### Ink 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 18개이며, 합산 TVL은 $156.91M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 18개이며, 합산 TVL은 $157.08M예요.
 
 ### 이 수익률은 안전한가요?
 

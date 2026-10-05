@@ -8,10 +8,10 @@ The highest honest Osmosis yield right now is 500.00% on osmosis-dex (Osmosis), 
 | CDT-BTC | [osmosis-dex →](https://www.defi.garden/?pool=afb34fe0-dd27-48b7-be00-654768e9acc7#src=seo_chain) | 500.00% | $5.88M |
 | CDT-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=82a6a2b1-acc6-4f97-95ef-e4353a67a5eb#src=seo_chain) | 315.20% | $2.56M |
 | USDC-BTC | [osmosis-dex →](https://www.defi.garden/?pool=de19671b-9715-54c4-8a65-f631796cd1b9#src=seo_chain) | 0.01% | $799.1K |
-| ATOM-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58#src=seo_chain) | 4.33% | $782.7K |
-| WETH-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=b52fb9a6-f7df-4920-b82c-7c090455ac6e#src=seo_chain) | 0.24% | $381.3K |
-| ATOM-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66#src=seo_chain) | 0.06% | $367.6K |
-| USDC-ATOM | [osmosis-dex →](https://www.defi.garden/?pool=37d80b3b-3a0f-5068-ae55-909a42c5037f#src=seo_chain) | 0.09% | $309.9K |
+| ATOM-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58#src=seo_chain) | 4.33% | $785.4K |
+| WETH-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=b52fb9a6-f7df-4920-b82c-7c090455ac6e#src=seo_chain) | 0.24% | $380.7K |
+| ATOM-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66#src=seo_chain) | 0.06% | $368.8K |
+| USDC-ATOM | [osmosis-dex →](https://www.defi.garden/?pool=37d80b3b-3a0f-5068-ae55-909a42c5037f#src=seo_chain) | 0.09% | $311.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Osmosis pools clear the TVL floor?
 
-24 live pools clear this page's $100K TVL floor, $36.2M in total.
+24 live pools clear this page's $100K TVL floor, $36.21M in total.
 
 ### Are these rates safe?
 

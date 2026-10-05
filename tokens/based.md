@@ -6,7 +6,7 @@ The highest honest BASED yield right now is 0.01% on uniswap-v3 (Base), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=bfa76009-20ea-4b8a-b7e5-17a263061ea2#src=seo_token) | Base | 0.01% | $100.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=bfa76009-20ea-4b8a-b7e5-17a263061ea2#src=seo_token) | Base | 0.01% | $100.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BASED pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $100.6K in total.
+1 live pool clear this page's $100K TVL floor, $100.2K in total.
 
 ### Are these rates safe?
 

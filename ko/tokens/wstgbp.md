@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=7f04af29-bd45-5af9-827d-a9a15217337a#src=seo_token) | Ethereum | 0.02% | $105.5K |
+| [curve-dex →](https://www.defi.garden/?pool=7f04af29-bd45-5af9-827d-a9a15217337a#src=seo_token) | Ethereum | 0.02% | $106.8K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 0.02%예�
 
 ### WSTGBP 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $105.5K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $106.8K예요.
 
 ### 이 수익률은 안전한가요?
 

@@ -6,17 +6,17 @@ The highest honest STLINK yield right now is 7.47% on stake.link-liquid (Ethereu
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [stake.link-liquid →](https://www.defi.garden/?pool=4f5deb26-5f61-45a3-8f61-0edca3a86809#src=seo_token) | Ethereum | 7.47% | $97.37M |
+| [stake.link-liquid →](https://www.defi.garden/?pool=4f5deb26-5f61-45a3-8f61-0edca3a86809#src=seo_token) | Ethereum | 7.47% | $97.62M |
 | [curve-dex →](https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3#src=seo_token) | Ethereum | 0.16% | $6.48M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, STLINK's lower-variability candidates are stake.link-liquid (Ethereum), 7.47% APY, $97.37M TVL, https://www.defi.garden/?pool=4f5deb26-5f61-45a3-8f61-0edca3a86809#src=seo_token; curve-dex (Ethereum), 0.16% APY, $6.48M TVL, https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STLINK's lower-variability candidates are stake.link-liquid (Ethereum), 7.47% APY, $97.62M TVL, https://www.defi.garden/?pool=4f5deb26-5f61-45a3-8f61-0edca3a86809#src=seo_token; curve-dex (Ethereum), 0.16% APY, $6.48M TVL, https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [stake.link-liquid →](https://www.defi.garden/?pool=4f5deb26-5f61-45a3-8f61-0edca3a86809#src=seo_token) | Ethereum | 7.47% | $97.37M |
+| 1 | [stake.link-liquid →](https://www.defi.garden/?pool=4f5deb26-5f61-45a3-8f61-0edca3a86809#src=seo_token) | Ethereum | 7.47% | $97.62M |
 | 2 | [curve-dex →](https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3#src=seo_token) | Ethereum | 0.16% | $6.48M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -31,7 +31,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| stake.link-liquid | 7.47% | 4.67% | Base rate |
+| stake.link-liquid | 7.47% | 4.68% | Base rate |
 | curve-dex | 0.16% | 2.52% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many STLINK pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $107.88M in total.
+4 live pools clear this page's $100K TVL floor, $108.14M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which STLINK pools have the most stable APY history?
 
-Based on APY history only, STLINK's lower-variability candidates are stake.link-liquid (Ethereum), 7.47% APY, $97.37M TVL, https://www.defi.garden/?pool=4f5deb26-5f61-45a3-8f61-0edca3a86809#src=seo_token; curve-dex (Ethereum), 0.16% APY, $6.48M TVL, https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STLINK's lower-variability candidates are stake.link-liquid (Ethereum), 7.47% APY, $97.62M TVL, https://www.defi.garden/?pool=4f5deb26-5f61-45a3-8f61-0edca3a86809#src=seo_token; curve-dex (Ethereum), 0.16% APY, $6.48M TVL, https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

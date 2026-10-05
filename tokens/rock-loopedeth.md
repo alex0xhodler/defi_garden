@@ -6,7 +6,7 @@ The highest honest ROCK.LOOPEDETH yield right now is 1.94% on lagoon (Ethereum),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=da34e200-9300-400f-a45d-f196a4aa6874#src=seo_token) | Ethereum | 1.94% | $247.3K |
+| [lagoon →](https://www.defi.garden/?pool=da34e200-9300-400f-a45d-f196a4aa6874#src=seo_token) | Ethereum | 1.94% | $245.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ROCK.LOOPEDETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $247.3K in total.
+1 live pool clear this page's $100K TVL floor, $245.8K in total.
 
 ### Are these rates safe?
 
