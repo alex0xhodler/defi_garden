@@ -43,7 +43,7 @@ const { createTranslationFunction, formatCount } = require('./i18n');
 // The ordered list of languages the static estate is generated in.
 const {
   LANGUAGES, LANG_CODES, FULL_SCOPE_CODES, HEAD_SCOPE_CODES,
-  getLanguage, normalizeLang, isHeadScope, langPath, langUrl, langDir, orderCodes
+  getLanguage, normalizeLang, isHeadScope, hasLasoCard, langPath, langUrl, langDir, orderCodes
 } = require('./languages.js');
 // W1: uuid -> /pools/<slug> manifest lookup (leaf module, no require cycle).
 const { getPoolPageSlug } = require('./pool-page-links.js');
@@ -1848,11 +1848,14 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
   // same as the main CTA below — categoryLinksFor itself stays untouched
   // (shared, unaware of which generator called it); the tag is applied here,
   // at the render site, over every item it returned (never skipped/duplicated).
-  const categoryItems = categoryLinksFor(rec.pools, appUrl).map(c => ({ label: c.category, href: withSrc(c.url, 'seo_token') }));
+  const categoryItems = categoryLinksFor(rec.pools, appUrl).map(c => ({ label: t('tcpPoolTypeLabel', c.category), href: withSrc(c.url, 'seo_token') }));
   const categoryBlock = renderLinkNavHtml(categoryItems, t('tcpPoolCategoriesAriaLabel'), t('tcpByCategoryHeading'), 'xlink-category', 'nofollow');
 
   // Waitlist CTA (062): the only path from this page into the card funnel.
-  const waitlistBlock = renderWaitlistCtaHtml(t('tcpWaitlistPitchToken', rec.symbol), 'tp', 'seo_token', t, { symbol: rec.symbol });
+  // pt/es: no Laso card block at all (CLAUDE.md — US cards are geo-blocked to US
+  // residents, non-US users only get the International card at $100 min / 3.8%).
+  const showLasoCard = hasLasoCard(language);
+  const waitlistBlock = showLasoCard ? renderWaitlistCtaHtml(t('tcpWaitlistPitchToken', rec.symbol), 'tp', 'seo_token', t, { symbol: rec.symbol }) : '';
 
   // Yield headline (066): honest per-token "your idle X could earn Y" pitch,
   // above the table, giving the waitlist CTA above a reason-to-act.
@@ -1964,7 +1967,7 @@ ${renderFontPreloadLinks()}    <link rel="stylesheet" href="/style.css">
 ${renderTokenHowStyle(isHeadToken)}
 ${renderRateBehaviourStyle(isHead)}      .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } .tp-cta:active, .related-links a:active { transform: none; } }
-${renderLangSwitchStyle()}${renderWaitlistCtaStyle('tp')}    </style>
+${renderLangSwitchStyle()}${showLasoCard ? renderWaitlistCtaStyle('tp') : ''}    </style>
 ${renderAnalyticsBootstrap(`${langPath(language, '')}/tokens/${rec.slug}`, { page_type: 'token_landing', token: rec.symbol, pool_count: rec.qualifyingCount, lang: language })}
 </head>
 <body>

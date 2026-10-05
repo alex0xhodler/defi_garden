@@ -327,6 +327,52 @@ if (generated) {
     });
     assert.ok(read(path.join(dirOf('en', 'tokens'), 'index.html')).includes('/tokens/thin'), 'EN hub keeps listing every token');
   });
+  test('Laso partner card block: EN + KO keep it, pt + es render nothing (US-only card pitch is misleading outside the US)', () => {
+    assert.strictEqual(L.hasLasoCard('en'), true);
+    assert.strictEqual(L.hasLasoCard('ko'), true);
+    assert.strictEqual(L.hasLasoCard('pt'), false);
+    assert.strictEqual(L.hasLasoCard('es'), false);
+    ['en', 'ko'].forEach(c => {
+      const html = pageOf(c, 'tokens', 'heada');
+      assert.ok(html.includes('id="token-card-section"') && html.includes('laso.finance?ref='), c + ' token page must keep the Laso block');
+      assert.ok(html.includes('Zero issuance fee'), c + ' output must stay byte-identical (Laso copy unchanged)');
+    });
+    const LASO = /laso|token-card-section|token-laso|virtual-visa-card|visa-card|issuance|Zero issuance|Sponsored partner/i;
+    ['pt', 'es'].forEach(c => {
+      htmlFiles(dirOf(c, 'tokens')).forEach(slug => {
+        const html = pageOf(c, 'tokens', slug);
+        assert.ok(!LASO.test(html), c + '/tokens/' + slug + ' must not contain any Laso / card-block markup');
+        assert.ok(!/-waitlist\b/.test(html), c + '/tokens/' + slug + ' must not carry the waitlist wrapper or its scoped CSS');
+        assert.ok(!/dg_laso_token_/.test(html), c + '/tokens/' + slug + ' must not carry the Laso sessionStorage script');
+      });
+      htmlFiles(dirOf(c, 'chains')).forEach(slug =>
+        assert.ok(!LASO.test(pageOf(c, 'chains', slug)), c + '/chains/' + slug + ' must not mention Laso'));
+      htmlFiles(dirOf(c, 'pools')).forEach(slug =>
+        assert.ok(!LASO.test(pageOf(c, 'pools', slug)), c + '/pools/' + slug + ' must not mention Laso'));
+      ['tokens', 'chains', 'pools'].forEach(k => {
+        const hub = read(path.join(dirOf(c, k), 'index.html'));
+        assert.ok(!/laso\.finance|token-laso|Zero issuance|Sponsored partner/i.test(hub), c + '/' + k + ' hub must not mention Laso');
+      });
+    });
+  });
+  test('pt / es dictionaries are fully translated: no TODO-TRANSLATE marker, no EN leftovers on a rendered head token page', () => {
+    ['pt', 'es'].forEach(c => {
+      assert.ok(!/TODO-TRANSLATE/.test(read(path.join(ROOT, 'i18n', c + '.js'))), c + ' dictionary still has TODO-TRANSLATE');
+      const html = pageOf(c, 'tokens', 'heada');
+      assert.ok(!/TODO-TRANSLATE/.test(html), c + ' page must not carry a marker');
+      const text = html.replace(/<(script|style)[\s\S]*?<\/\1>/gi, ' ').replace(/<svg[\s\S]*?<\/svg>/gi, ' ')
+        .replace(/<head>[\s\S]*?<\/head>/i, ' ').replace(/<[^>]+>/g, ' ');
+      ['The highest honest', 'live pools', 'TVL floor', 'Frequently asked', 'Education, not', 'Related tokens', 'Honest yields'].forEach(en =>
+        assert.ok(!text.includes(en), c + ' page still shows English: ' + en));
+    });
+  });
+  test('pool-type category links: anchor text is translated for pt / es, the poolTypes query value and EN / KO labels are untouched', () => {
+    const tp = i18n.createTranslationFunction('pt'), te = i18n.createTranslationFunction('es');
+    assert.strictEqual(tp('tcpPoolTypeLabel', 'Lending'), 'Empréstimos');
+    assert.strictEqual(te('tcpPoolTypeLabel', 'Lending'), 'Préstamos');
+    assert.strictEqual(tp('tcpPoolTypeLabel', 'Something New'), 'Something New', 'an unmapped taxonomy value passes through');
+    ['en', 'ko'].forEach(c => assert.strictEqual(i18n.createTranslationFunction(c)('tcpPoolTypeLabel', 'Lending'), 'Lending'));
+  });
   test('no Markdown twins in pt / es (and none are advertised)', () => {
     ['pt', 'es'].forEach(c => ['tokens', 'chains', 'pools'].forEach(k => {
       const dir = dirOf(c, k);

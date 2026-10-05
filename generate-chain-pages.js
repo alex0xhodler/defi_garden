@@ -33,7 +33,7 @@ const tp = require('./generate-token-pages.js');
 // copy-only translation, pool data/numbers identical across languages.
 const { createTranslationFunction } = require('./i18n');
 const {
-  LANGUAGES, LANG_CODES, getLanguage, normalizeLang, langPath, langUrl, langDir
+  LANGUAGES, LANG_CODES, getLanguage, normalizeLang, hasLasoCard, langPath, langUrl, langDir
 } = require('./languages.js');
 // Per-page OG images (051). Safe as a top-level require: this module only
 // requires generate-token-pages.js (not this one back), so no load cycle.
@@ -255,7 +255,7 @@ function renderChainPage(rec, related, generatedDate, tokenLinks, lang, ogImageP
   // same as the main CTA below — categoryLinksFor itself stays untouched
   // (shared, unaware of which generator called it); the tag is applied here,
   // at the render site, over every item it returned (never skipped/duplicated).
-  const categoryItems = categoryLinksFor(rec.pools, appUrl).map(c => ({ label: c.category, href: withSrc(c.url, 'seo_chain') }));
+  const categoryItems = categoryLinksFor(rec.pools, appUrl).map(c => ({ label: t('tcpPoolTypeLabel', c.category), href: withSrc(c.url, 'seo_chain') }));
   const categoryBlock = renderLinkNavHtml(categoryItems, t('tcpPoolCategoriesAriaLabel'), t('tcpByCategoryHeading'), 'xlink-category', 'nofollow');
 
   // Waitlist CTA (062): the only path from this page into the card funnel.
@@ -346,7 +346,7 @@ ${renderFontPreloadLinks()}    <link rel="stylesheet" href="/style.css">
       .cp-faq-a { font-size: .9rem; margin: 0; color: var(--ui-text-secondary); line-height: 1.55; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .cp-cta, .related-links a { transition: none; } .cp-cta:active, .related-links a:active { transform: none; } }
-${renderLangSwitchStyle()}${renderWaitlistCtaStyle('cp')}    </style>
+${renderLangSwitchStyle()}${hasLasoCard(language) ? renderWaitlistCtaStyle('cp') : ''}    </style>
 ${renderAnalyticsBootstrap(`${langPath(language, '')}/chains/${rec.slug}`, { page_type: 'chain_landing', chain: rec.chain, pool_count: rec.qualifyingCount, lang: language })}
 </head>
 <body>

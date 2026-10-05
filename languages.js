@@ -26,11 +26,18 @@
  *                        pool and hub pages exist for every EN page. A 'head'
  *                        language never gets a noindexed thin page and never
  *                        gets a Markdown twin.
+ *   lasoCard    whether token pages render the Laso partner card block. false
+ *               for pt/es: that block pitches a US-resident card ("zero
+ *               issuance fee"), and per CLAUDE.md US cards are geo-blocked to
+ *               US residents while non-US users only get the International
+ *               card ($100 minimum load, 3.8% deposit fee), so for Brazil /
+ *               LatAm audiences it would be misleading. When false the block
+ *               (and its scoped CSS) is not rendered at all.
  */
 const LANGUAGES = Object.freeze([
-  { code: 'en', pathPrefix: '',    htmlLang: 'en',    hreflang: 'en', ogLocale: 'en_US', label: 'English',   short: 'EN', scope: 'all'  },
-  { code: 'ko', pathPrefix: '/ko', htmlLang: 'ko',    hreflang: 'ko', ogLocale: 'ko_KR', label: '한국어',     short: 'KO', scope: 'all'  },
-  { code: 'pt', pathPrefix: '/pt', htmlLang: 'pt-BR', hreflang: 'pt', ogLocale: 'pt_BR', label: 'Português', short: 'PT', scope: 'head' },
+  { code: 'en', pathPrefix: '',    htmlLang: 'en',    hreflang: 'en', ogLocale: 'en_US', label: 'English',   short: 'EN', scope: 'all',  lasoCard: true  },
+  { code: 'ko', pathPrefix: '/ko', htmlLang: 'ko',    hreflang: 'ko', ogLocale: 'ko_KR', label: '한국어',     short: 'KO', scope: 'all',  lasoCard: true  },
+  { code: 'pt', pathPrefix: '/pt', htmlLang: 'pt-BR', hreflang: 'pt', ogLocale: 'pt_BR', label: 'Português', short: 'PT', scope: 'head', lasoCard: false },
   { code: 'es', pathPrefix: '/es', htmlLang: 'es',    hreflang: 'es', ogLocale: 'es_ES', label: 'Español',   short: 'ES', scope: 'head' }
 ].map(l => Object.freeze(l)));
 
@@ -53,6 +60,11 @@ function getLanguage(code) {
 /** Normalised language code (unknown / undefined -> 'en'). */
 function normalizeLang(code) {
   return getLanguage(code).code;
+}
+
+/** Whether pages in `code` render the Laso partner card block (see `lasoCard`). */
+function hasLasoCard(code) {
+  return getLanguage(code).lasoCard === true;
 }
 
 function isHeadScope(code) {
@@ -83,5 +95,5 @@ function orderCodes(codes) {
 
 module.exports = {
   LANGUAGES, LANG_CODES, FULL_SCOPE_CODES, HEAD_SCOPE_CODES, DEFAULT_LANG,
-  getLanguage, normalizeLang, isHeadScope, langPath, langUrl, langDir, orderCodes
+  getLanguage, normalizeLang, isHeadScope, hasLasoCard, langPath, langUrl, langDir, orderCodes
 };
