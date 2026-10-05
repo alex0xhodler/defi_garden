@@ -332,6 +332,8 @@ if (generated) {
     assert.strictEqual(L.hasLasoCard('ko'), true);
     assert.strictEqual(L.hasLasoCard('pt'), false);
     assert.strictEqual(L.hasLasoCard('es'), false);
+    ['en', 'ko'].forEach(c => ['tokens', 'chains'].forEach(k =>
+      assert.ok(/hub-waitlist/.test(read(path.join(dirOf(c, k), 'index.html'))), c + '/' + k + ' hub keeps the card waitlist (byte-identical)')));
     ['en', 'ko'].forEach(c => {
       const html = pageOf(c, 'tokens', 'heada');
       assert.ok(html.includes('id="token-card-section"') && html.includes('laso.finance?ref='), c + ' token page must keep the Laso block');
@@ -349,6 +351,12 @@ if (generated) {
         assert.ok(!LASO.test(pageOf(c, 'chains', slug)), c + '/chains/' + slug + ' must not mention Laso'));
       htmlFiles(dirOf(c, 'pools')).forEach(slug =>
         assert.ok(!LASO.test(pageOf(c, 'pools', slug)), c + '/pools/' + slug + ' must not mention Laso'));
+      // card waitlist (+ decorative card mock, scoped CSS) is gated by the same flag
+      const WAITLIST = /waitlist|virtual-visa-card|visa-card|DEFI GARDEN METAL|YIELD-FUNDED|plan\.html\?waitlist/i;
+      const hubFiles = ['tokens', 'chains', 'pools'].map(k => path.join(dirOf(c, k), 'index.html'))
+        .concat(fs.readdirSync(path.join(dirOf(c, 'tokens'), 'az')).filter(f => f.endsWith('.html')).map(f => path.join(dirOf(c, 'tokens'), 'az', f)));
+      assert.ok(hubFiles.length >= 4, c + ': expected hubs + A-Z pages');
+      hubFiles.forEach(f => assert.ok(!WAITLIST.test(read(f)), c + ': ' + path.relative(TMP, f) + ' must not carry the card waitlist / card mock'));
       ['tokens', 'chains', 'pools'].forEach(k => {
         const hub = read(path.join(dirOf(c, k), 'index.html'));
         assert.ok(!/laso\.finance|token-laso|Zero issuance|Sponsored partner/i.test(hub), c + '/' + k + ' hub must not mention Laso');

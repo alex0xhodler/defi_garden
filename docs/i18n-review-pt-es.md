@@ -30,7 +30,7 @@ The tables below are rendered with real sample values (USDC / Base / Ethereum, 1
 | kept as loanwords | pool, stablecoin, staking, vault, token, wallet, exploit, depeg, yield farming | same | same | what people actually type in search |
 | accredited investor | accredited | investidor credenciado | inversionista acreditado | no exact local equivalent, see checklist |
 
-## Strings to review (65 most visible)
+## Strings to review (63 most visible)
 
 Columns: EN | pt-BR | es | notes for the reviewer. "Key" is the dictionary key to edit.
 
@@ -141,12 +141,10 @@ Columns: EN | pt-BR | es | notes for the reviewer. "Key" is the dictionary key t
 | 61 | `tcpPoolTypeLabel` | Lending | Empréstimos | Préstamos | Also: Yield Derivatives -> Derivativos de rendimento / Derivados de rendimiento; "Yield farming", "Staking", "LP/DEX", "RWA" kept. |
 | 62 | `tcpMonthYear` | Oct 2026 | out 2026 | oct 2026 | Short month names: pt jan fev mar abr mai jun jul ago set out nov dez; es ene feb mar abr may jun jul ago sep oct nov dic. |
 | 63 | `tcpLastUpdated` | Last updated October 5, 2026 | Última atualização: October 5, 2026 | Última actualización: October 5, 2026 | Date stays en-US long form by design. |
-| 64 | `tcpWaitlistHeading` | Get early access to the card | Acesso antecipado ao cartão | Acceso anticipado a la tarjeta | Hub pages only. |
-| 65 | `tcpWaitlistMicro` | Free to join • Card doesn't exist yet • We'll email you when it does | Entrar é grátis • O cartão ainda não existe • Avisaremos por e-mail quando existir | Unirse es gratis • La tarjeta aún no existe • Te avisaremos por correo cuando exista | Honest disclosure: the card does not exist yet. Must keep that meaning. |
 ## Open decisions (not translation issues, but the reviewer should know)
 
 1. **Dates stay in English.** "Last updated October 5, 2026" and "Data: October 5, 2026" render the en-US long date inside Portuguese / Spanish sentences. This follows the existing KO behaviour (the visible date must equal the `dateModified` in the page's JSON-LD). The wording around the date was chosen to read acceptably with an English month ("Última atualização: October 5, 2026"). Localised dates need a generator change, not a dictionary change.
-2. **Hub pages still show the card waitlist.** The Laso partner card block is not rendered on any pt/es page (US-only card, see CLAUDE.md). The generic "Acesso antecipado ao cartão / Acceso anticipado a la tarjeta" waitlist on the three hub pages is still there (translated, with the "the card does not exist yet" disclosure), and it sends readers to the English planner. Its decorative card mock keeps English words (DEBIT, METAL, YIELD-FUNDED). Decide whether pt/es hubs should drop it too.
+2. **No card pitch on pt/es pages.** Neither the Laso partner block (token pages) nor the generic card waitlist (hub and A-Z pages) is rendered in pt/es, because the card is not available to Brazil / LatAm audiences. The `tcpWaitlist*` strings stay translated in the dictionaries but no pt/es page uses them; they are not part of this review.
 3. **Category links lead to the English app.** The pool-type links ("Empréstimos", "Staking" ...) have translated anchor text, but the query value (`poolTypes=Lending`) and the page they open are the English app.
 4. **Rate-stability sections in the committed pt/es pages say "not enough history".** The pages in this commit were generated offline from the committed snapshot, which lacks DefiLlama's raw `sigma`/`count` fields. The daily CI run regenerates every page from the live feed and fills those sections in. The wording being reviewed here is the same either way.
 5. **Titles are a little longer than EN** (pt/es average about 57 characters against 54, p90 62-63) and descriptions run about 15-20 characters longer (average 152-153 against 136). If Search Console shows truncation, shorten "pools comparados" / "Rendimentos honestos com dados da DefiLlama".

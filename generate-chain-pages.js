@@ -406,7 +406,7 @@ ${renderHreflangLinks(neutralPath, LANG_CODES)}    <meta property="og:type" cont
     <meta name="twitter:card" content="summary_large_image">
     <meta name="robots" content="index,follow">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
-${renderFontPreloadLinks()}    <link rel="stylesheet" href="/style.css">${renderHubStyleBlock()}
+${renderFontPreloadLinks()}    <link rel="stylesheet" href="/style.css">${renderHubStyleBlock(language)}
 ${renderAnalyticsBootstrap(`${langPath(language, '')}/chains`, { page_type: 'chain_hub', chain_count: ranked.length, lang: language })}
 </head>
 <body>
@@ -422,7 +422,7 @@ ${renderLanguageSwitcher(neutralPath, language, LANG_CODES, t)}    <h1>${escapeH
         ${links}
       </div>
     </div>
-${renderWaitlistCtaHtml(t('tcpWaitlistPitchHub'), 'hub', 'seo_chains_hub', t)}    <p class="note">${escapeHtml(t('tcpTrustNote', formatUsd(MIN_POOL_TVL)))}</p>
+${hasLasoCard(language) ? renderWaitlistCtaHtml(t('tcpWaitlistPitchHub'), 'hub', 'seo_chains_hub', t) : ''}    <p class="note">${escapeHtml(t('tcpTrustNote', formatUsd(MIN_POOL_TVL)))}</p>
   </main>
 </body>
 </html>

@@ -980,7 +980,7 @@ function groupTokensAZ(ranked) {
  * scoped styles ("tp-"/"cp-" prefixed) — "hub-" prefixed here since hub
  * pages are their own template, following this repo's existing pattern of
  * one prefixed style block per page type rather than a shared stylesheet. */
-function renderHubStyleBlock() {
+function renderHubStyleBlock(lang) {
   return `
     <style>
       .hub-wrap { max-width: 860px; margin: 0 auto; padding: 32px 20px; }
@@ -999,7 +999,7 @@ function renderHubStyleBlock() {
       .hub-cta:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
       .hub-wrap .note { color: var(--ui-text-secondary); font-size: .9rem; }
       @media (prefers-reduced-motion: reduce) { .hub-links a, .hub-cta { transition: none; } .hub-links a:active, .hub-cta:active { transform: none; } }
-${renderLangSwitchStyle()}${renderWaitlistCtaStyle('hub')}    </style>`;
+${renderLangSwitchStyle()}${hasLasoCard(lang || 'en') ? renderWaitlistCtaStyle('hub') : ''}    </style>`;
 }
 
 /** Render the /tokens hub (index) page: top tokens by TVL directly, every
@@ -1039,7 +1039,7 @@ ${renderHreflangLinks(neutralPath, LANG_CODES)}    <meta property="og:type" cont
     <meta name="twitter:card" content="summary_large_image">
     <meta name="robots" content="index,follow">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
-${renderFontPreloadLinks()}    <link rel="stylesheet" href="/style.css">${renderHubStyleBlock()}
+${renderFontPreloadLinks()}    <link rel="stylesheet" href="/style.css">${renderHubStyleBlock(language)}
 ${renderAnalyticsBootstrap(`${langPath(language, '')}/tokens`, { page_type: 'token_hub', token_count: ranked.length, lang: language })}
 </head>
 <body>
@@ -1060,7 +1060,7 @@ ${renderLanguageSwitcher(neutralPath, language, LANG_CODES, t)}    <h1>${escapeH
         ${azLinks}
       </div>
     </div>
-${renderWaitlistCtaHtml(t('tcpWaitlistPitchHub'), 'hub', 'seo_tokens_hub', t)}    <p class="note">${escapeHtml(t('tcpTrustNote', formatUsd(MIN_POOL_TVL)))}</p>
+${hasLasoCard(language) ? renderWaitlistCtaHtml(t('tcpWaitlistPitchHub'), 'hub', 'seo_tokens_hub', t) : ''}    <p class="note">${escapeHtml(t('tcpTrustNote', formatUsd(MIN_POOL_TVL)))}</p>
   </main>
 </body>
 </html>
@@ -1100,7 +1100,7 @@ ${renderHreflangLinks(neutralPath, pageLangs)}    <meta property="og:type" conte
     <meta name="twitter:card" content="summary_large_image">
     <meta name="robots" content="index,follow">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
-${renderFontPreloadLinks()}    <link rel="stylesheet" href="/style.css">${renderHubStyleBlock()}
+${renderFontPreloadLinks()}    <link rel="stylesheet" href="/style.css">${renderHubStyleBlock(language)}
 ${renderAnalyticsBootstrap(`${langPath(language, '')}/tokens/az/${group.slug}`, { page_type: 'token_az', letter: group.key, token_count: group.records.length, lang: language })}
 </head>
 <body>
@@ -1113,7 +1113,7 @@ ${renderLanguageSwitcher(neutralPath, language, pageLangs, t)}    <h1>${escapeHt
         ${links}
       </div>
     </div>
-${renderWaitlistCtaHtml(t('tcpWaitlistPitchHub'), 'hub', 'seo_tokens_az', t)}    <p class="note">${escapeHtml(t('tcpTrustNote', formatUsd(MIN_POOL_TVL)))}</p>
+${hasLasoCard(language) ? renderWaitlistCtaHtml(t('tcpWaitlistPitchHub'), 'hub', 'seo_tokens_az', t) : ''}    <p class="note">${escapeHtml(t('tcpTrustNote', formatUsd(MIN_POOL_TVL)))}</p>
   </main>
 </body>
 </html>
