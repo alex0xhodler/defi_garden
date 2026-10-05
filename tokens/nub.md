@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest NUB yield right now is 23.04% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NUB yield right now is 21.07% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=a7831e3a-a415-4851-af47-86a08447c01e#src=seo_token) | Solana | 23.04% | $238.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=a7831e3a-a415-4851-af47-86a08447c01e#src=seo_token) | Solana | 21.07% | $237.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NUB yield today?
 
-23.04% APY on raydium-amm (Solana), based on live DefiLlama data.
+21.07% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many NUB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $238.6K in total.
+1 live pool clear this page's $100K TVL floor, $237.2K in total.
 
 ### Are these rates safe?
 

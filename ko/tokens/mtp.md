@@ -2,14 +2,14 @@
 
 *DefiLlama 데이터 생성 시점 검증: October 5, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 MTP의 가장 높은 정직한 수익률은 Ethereum의 lagoon에서 22.15%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 MTP의 가장 높은 정직한 수익률은 Ethereum의 lagoon에서 12.76%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=9001fed4-1523-54c0-a166-048ee08301ef#src=seo_token) | Ethereum | 22.15% | $536.7K |
-| [lagoon →](https://www.defi.garden/?pool=4d1e48c1-5e2d-510d-88a3-172f9e737f5d#src=seo_token) | Ethereum | 9.96% | $353.1K |
-| [lagoon →](https://www.defi.garden/?pool=696205c3-50f9-531f-8c83-8b480ff348fd#src=seo_token) | Ethereum | 6.27% | $168.3K |
-| [lagoon →](https://www.defi.garden/?pool=57be91d8-9218-5fa6-a2ba-a1ccd6bb1cc8#src=seo_token) | Ethereum | 2.85% | $111.1K |
+| [lagoon →](https://www.defi.garden/?pool=9001fed4-1523-54c0-a166-048ee08301ef#src=seo_token) | Ethereum | 12.76% | $537.8K |
+| [lagoon →](https://www.defi.garden/?pool=4d1e48c1-5e2d-510d-88a3-172f9e737f5d#src=seo_token) | Ethereum | 6.57% | $353.4K |
+| [lagoon →](https://www.defi.garden/?pool=696205c3-50f9-531f-8c83-8b480ff348fd#src=seo_token) | Ethereum | 5.81% | $168.5K |
+| [lagoon →](https://www.defi.garden/?pool=57be91d8-9218-5fa6-a2ba-a1ccd6bb1cc8#src=seo_token) | Ethereum | 0.93% | $111.1K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -20,9 +20,9 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-MTP 풀은 여기 4개가 있고, 1개 체인에서 APY가 2.85%부터 22.15%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+MTP 풀은 여기 4개가 있고, 1개 체인에서 APY가 0.93%부터 12.76%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 8.40%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 8.38%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 현재 4개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
@@ -30,10 +30,10 @@ MTP 풀은 여기 4개가 있고, 1개 체인에서 APY가 2.85%부터 22.15%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| lagoon | 22.15% | 20.52% | 기본 금리 |
-| lagoon | 9.96% | 9.98% | 기본 금리 |
-| lagoon | 6.27% | 6.81% | 기본 금리 |
-| lagoon | 2.85% | 3.16% | 기본 금리 |
+| lagoon | 12.76% | 20.46% | 기본 금리 |
+| lagoon | 6.57% | 9.96% | 기본 금리 |
+| lagoon | 5.81% | 6.80% | 기본 금리 |
+| lagoon | 0.93% | 3.15% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -41,7 +41,7 @@ MTP 풀은 여기 4개가 있고, 1개 체인에서 APY가 2.85%부터 22.15%까
 
 ### 오늘 MTP의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 lagoon에서 APY 22.15%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 lagoon에서 APY 12.76%예요.
 
 ### MTP 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

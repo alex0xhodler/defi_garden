@@ -7,23 +7,23 @@ The highest honest TRX yield right now is 11.57% on tr-energy (Tron), among 6 po
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [justlend-v1 →](https://www.defi.garden/?pool=90d3f42a-8700-4b9f-baa8-090a3c4322c9#src=seo_token) | Tron | 0.32% | $690.7M |
-| [tr-energy →](https://www.defi.garden/?pool=cf7a5142-ff74-4b1d-8267-98148c90b72c#src=seo_token) | Tron | 11.57% | $90.94M |
-| [raydium-amm →](https://www.defi.garden/?pool=ca46228a-5be2-4f58-97e2-c98fb2b56e54#src=seo_token) | Solana | 2.14% | $12.49M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=0aa6af67-5890-445d-8982-e8963a5f3183#src=seo_token) | Ethereum | 0.25% | $754.7K |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=6dab81ee-8eea-4163-a38a-58986dd65595#src=seo_token) | BSC | 0.53% | $539.7K |
+| [tr-energy →](https://www.defi.garden/?pool=cf7a5142-ff74-4b1d-8267-98148c90b72c#src=seo_token) | Tron | 11.57% | $91.04M |
+| [raydium-amm →](https://www.defi.garden/?pool=ca46228a-5be2-4f58-97e2-c98fb2b56e54#src=seo_token) | Solana | 2.05% | $12.49M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=0aa6af67-5890-445d-8982-e8963a5f3183#src=seo_token) | Ethereum | 0.25% | $755K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=6dab81ee-8eea-4163-a38a-58986dd65595#src=seo_token) | BSC | 0.53% | $539.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, TRX's lower-variability candidates are raydium-amm (Solana), 2.14% APY, $12.49M TVL, https://www.defi.garden/?pool=ca46228a-5be2-4f58-97e2-c98fb2b56e54#src=seo_token; tr-energy (Tron), 11.57% APY, $90.94M TVL, https://www.defi.garden/?pool=cf7a5142-ff74-4b1d-8267-98148c90b72c#src=seo_token; justlend-v1 (Tron), 0.32% APY, $690.7M TVL, https://www.defi.garden/?pool=90d3f42a-8700-4b9f-baa8-090a3c4322c9#src=seo_token; pancakeswap-amm (BSC), 0.53% APY, $539.7K TVL, https://www.defi.garden/?pool=6dab81ee-8eea-4163-a38a-58986dd65595#src=seo_token; uniswap-v2 (Ethereum), 0.25% APY, $754.7K TVL, https://www.defi.garden/?pool=0aa6af67-5890-445d-8982-e8963a5f3183#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TRX's lower-variability candidates are raydium-amm (Solana), 2.05% APY, $12.49M TVL, https://www.defi.garden/?pool=ca46228a-5be2-4f58-97e2-c98fb2b56e54#src=seo_token; tr-energy (Tron), 11.57% APY, $91.04M TVL, https://www.defi.garden/?pool=cf7a5142-ff74-4b1d-8267-98148c90b72c#src=seo_token; justlend-v1 (Tron), 0.32% APY, $690.7M TVL, https://www.defi.garden/?pool=90d3f42a-8700-4b9f-baa8-090a3c4322c9#src=seo_token; pancakeswap-amm (BSC), 0.53% APY, $539.5K TVL, https://www.defi.garden/?pool=6dab81ee-8eea-4163-a38a-58986dd65595#src=seo_token; uniswap-v2 (Ethereum), 0.25% APY, $755K TVL, https://www.defi.garden/?pool=0aa6af67-5890-445d-8982-e8963a5f3183#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=ca46228a-5be2-4f58-97e2-c98fb2b56e54#src=seo_token) | Solana | 2.14% | $12.49M |
-| 2 | [tr-energy →](https://www.defi.garden/?pool=cf7a5142-ff74-4b1d-8267-98148c90b72c#src=seo_token) | Tron | 11.57% | $90.94M |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=ca46228a-5be2-4f58-97e2-c98fb2b56e54#src=seo_token) | Solana | 2.05% | $12.49M |
+| 2 | [tr-energy →](https://www.defi.garden/?pool=cf7a5142-ff74-4b1d-8267-98148c90b72c#src=seo_token) | Tron | 11.57% | $91.04M |
 | 3 | [justlend-v1 →](https://www.defi.garden/?pool=90d3f42a-8700-4b9f-baa8-090a3c4322c9#src=seo_token) | Tron | 0.32% | $690.7M |
-| 4 | [pancakeswap-amm →](https://www.defi.garden/?pool=6dab81ee-8eea-4163-a38a-58986dd65595#src=seo_token) | BSC | 0.53% | $539.7K |
-| 5 | [uniswap-v2 →](https://www.defi.garden/?pool=0aa6af67-5890-445d-8982-e8963a5f3183#src=seo_token) | Ethereum | 0.25% | $754.7K |
+| 4 | [pancakeswap-amm →](https://www.defi.garden/?pool=6dab81ee-8eea-4163-a38a-58986dd65595#src=seo_token) | BSC | 0.53% | $539.5K |
+| 5 | [uniswap-v2 →](https://www.defi.garden/?pool=0aa6af67-5890-445d-8982-e8963a5f3183#src=seo_token) | Ethereum | 0.25% | $755K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -41,8 +41,8 @@ All 5 pools pay a plain base rate right now — no incentive or reward APY mixed
 |---|---|---|---|
 | justlend-v1 | 0.32% | 0.32% | Base rate |
 | tr-energy | 11.57% | 11.35% | Base rate |
-| raydium-amm | 2.14% | 1.37% | Base rate |
-| uniswap-v2 | 0.25% | 5.01% | Base rate |
+| raydium-amm | 2.05% | 1.37% | Base rate |
+| uniswap-v2 | 0.25% | 5.00% | Base rate |
 | pancakeswap-amm | 0.53% | 1.16% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -55,7 +55,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many TRX pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $796.22M in total.
+6 live pools clear this page's $100K TVL floor, $796.32M in total.
 
 ### Are these rates safe?
 
@@ -63,7 +63,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which TRX pools have the most stable APY history?
 
-Based on APY history only, TRX's lower-variability candidates are raydium-amm (Solana), 2.14% APY, $12.49M TVL, https://www.defi.garden/?pool=ca46228a-5be2-4f58-97e2-c98fb2b56e54#src=seo_token; tr-energy (Tron), 11.57% APY, $90.94M TVL, https://www.defi.garden/?pool=cf7a5142-ff74-4b1d-8267-98148c90b72c#src=seo_token; justlend-v1 (Tron), 0.32% APY, $690.7M TVL, https://www.defi.garden/?pool=90d3f42a-8700-4b9f-baa8-090a3c4322c9#src=seo_token; pancakeswap-amm (BSC), 0.53% APY, $539.7K TVL, https://www.defi.garden/?pool=6dab81ee-8eea-4163-a38a-58986dd65595#src=seo_token; uniswap-v2 (Ethereum), 0.25% APY, $754.7K TVL, https://www.defi.garden/?pool=0aa6af67-5890-445d-8982-e8963a5f3183#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TRX's lower-variability candidates are raydium-amm (Solana), 2.05% APY, $12.49M TVL, https://www.defi.garden/?pool=ca46228a-5be2-4f58-97e2-c98fb2b56e54#src=seo_token; tr-energy (Tron), 11.57% APY, $91.04M TVL, https://www.defi.garden/?pool=cf7a5142-ff74-4b1d-8267-98148c90b72c#src=seo_token; justlend-v1 (Tron), 0.32% APY, $690.7M TVL, https://www.defi.garden/?pool=90d3f42a-8700-4b9f-baa8-090a3c4322c9#src=seo_token; pancakeswap-amm (BSC), 0.53% APY, $539.5K TVL, https://www.defi.garden/?pool=6dab81ee-8eea-4163-a38a-58986dd65595#src=seo_token; uniswap-v2 (Ethereum), 0.25% APY, $755K TVL, https://www.defi.garden/?pool=0aa6af67-5890-445d-8982-e8963a5f3183#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

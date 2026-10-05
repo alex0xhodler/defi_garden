@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [kamino-liquidity →](https://www.defi.garden/?pool=b725a0c1-e766-42e9-af8c-927ece966d34#src=seo_token) | Solana | 15.61% | $152.1K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=b725a0c1-e766-42e9-af8c-927ece966d34#src=seo_token) | Solana | 15.61% | $149.4K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -39,7 +39,7 @@ DefiLlama 실시간 데이터 기준, Solana의 kamino-liquidity에서 APY 15.61
 
 ### WIF 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $262.4K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $257.2K예요.
 
 ### 이 수익률은 안전한가요?
 

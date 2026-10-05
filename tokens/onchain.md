@@ -6,7 +6,7 @@ The highest honest ONCHAIN yield right now is 0.06% on uniswap-v2 (Base), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=401d9df1-58df-4365-9a50-20e58501f7dc#src=seo_token) | Base | 0.06% | $408.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=401d9df1-58df-4365-9a50-20e58501f7dc#src=seo_token) | Base | 0.06% | $406.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ONCHAIN pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $516.1K in total.
+2 live pools clear this page's $100K TVL floor, $514.4K in total.
 
 ### Are these rates safe?
 

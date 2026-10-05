@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=14a65a8c-4d05-4796-8adc-b6073f3a2d5c#src=seo_token) | Solana | 0.02% | $171.2K |
+| [orca-dex →](https://www.defi.garden/?pool=14a65a8c-4d05-4796-8adc-b6073f3a2d5c#src=seo_token) | Solana | 0.02% | $169.3K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -39,7 +39,7 @@ DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 0.02%예요.
 
 ### PHY 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $305.1K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $301.8K예요.
 
 ### 이 수익률은 안전한가요?
 

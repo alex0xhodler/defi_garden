@@ -7,7 +7,7 @@ The highest honest DFX yield right now is 3.23% on steer-protocol (Ethereum), am
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=d096b551-f6e2-568d-bc42-44e49ef24cf6#src=seo_token) | Solana | 2.02% | $170.7K |
-| [steer-protocol →](https://www.defi.garden/?pool=00f92507-3f43-421d-b6af-c90a207b247c#src=seo_token) | Ethereum | 3.23% | $145.2K |
+| [steer-protocol →](https://www.defi.garden/?pool=00f92507-3f43-421d-b6af-c90a207b247c#src=seo_token) | Ethereum | 3.23% | $144.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -29,7 +29,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | raydium-amm | 2.02% | 19.01% | Base rate |
-| steer-protocol | 3.23% | 14.98% | Base rate |
+| steer-protocol | 3.23% | 14.96% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -41,7 +41,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many DFX pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $315.9K in total.
+2 live pools clear this page's $100K TVL floor, $315.3K in total.
 
 ### Are these rates safe?
 

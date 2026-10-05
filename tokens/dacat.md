@@ -6,7 +6,7 @@ The highest honest DACAT yield right now is 0.01% on uniswap-v3 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=5036e16d-ce75-4c90-a3f5-038e747f15a1#src=seo_token) | Ethereum | 0.01% | $307.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=5036e16d-ce75-4c90-a3f5-038e747f15a1#src=seo_token) | Ethereum | 0.01% | $306.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DACAT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $307.3K in total.
+1 live pool clear this page's $100K TVL floor, $306.2K in total.
 
 ### Are these rates safe?
 

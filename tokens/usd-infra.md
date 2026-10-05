@@ -2,12 +2,12 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest USD.INFRA yield right now is 5.05% on loopscale-lending (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USD.INFRA yield right now is 3.47% on loopscale-lending (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [loopscale-lending →](https://www.defi.garden/?pool=90b06c3d-8518-5a6d-a4e3-eb725ab9c8e7#src=seo_token) | Solana | 5.05% | $8.61M |
-| [orca-dex →](https://www.defi.garden/?pool=a08f952a-7ad4-5dfc-9902-5b678987b09f#src=seo_token) | Solana | 0.66% | $815.8K |
+| [loopscale-lending →](https://www.defi.garden/?pool=90b06c3d-8518-5a6d-a4e3-eb725ab9c8e7#src=seo_token) | Solana | 3.47% | $8.61M |
+| [orca-dex →](https://www.defi.garden/?pool=a08f952a-7ad4-5dfc-9902-5b678987b09f#src=seo_token) | Solana | 0.32% | $815.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-USD.INFRA shows up in 2 pools here, with rates from 0.66% to 5.05% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+USD.INFRA shows up in 2 pools here, with rates from 0.32% to 3.47% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 1.92% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -28,8 +28,8 @@ USD.INFRA shows up in 2 pools here, with rates from 0.66% to 5.05% APY across 1 
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| loopscale-lending | 5.05% | 3.53% | 76.35% incentives |
-| orca-dex | 0.66% | 0.32% | Base rate |
+| loopscale-lending | 3.47% | 3.53% | 65.59% incentives |
+| orca-dex | 0.32% | 0.32% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USD.INFRA yield today?
 
-5.05% APY on loopscale-lending (Solana), based on live DefiLlama data.
+3.47% APY on loopscale-lending (Solana), based on live DefiLlama data.
 
 ### How many USD.INFRA pools clear the TVL floor?
 

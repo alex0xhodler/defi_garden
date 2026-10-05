@@ -6,7 +6,7 @@ The highest honest GOBTC yield right now is 0.08% on folks-finance-lending (Algo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [folks-finance-lending →](https://www.defi.garden/?pool=c402e884-ca25-4c2e-97f7-a4a55c13781c#src=seo_token) | Algorand | 0.08% | $1.17M |
+| [folks-finance-lending →](https://www.defi.garden/?pool=c402e884-ca25-4c2e-97f7-a4a55c13781c#src=seo_token) | Algorand | 0.08% | $1.16M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GOBTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.17M in total.
+1 live pool clear this page's $100K TVL floor, $1.16M in total.
 
 ### Are these rates safe?
 

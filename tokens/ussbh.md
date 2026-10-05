@@ -6,18 +6,18 @@ The highest honest USSBH yield right now is 0.04% on orca-dex (Solana), among 2 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=7bc80aec-8b76-57df-b504-2059206b92c0#src=seo_token) | Solana | 0.04% | $108.7K |
-| [orca-dex →](https://www.defi.garden/?pool=0cbb1a77-d0da-5b42-811c-c936cf102a83#src=seo_token) | Solana | 0.02% | $106K |
+| [orca-dex →](https://www.defi.garden/?pool=7bc80aec-8b76-57df-b504-2059206b92c0#src=seo_token) | Solana | 0.04% | $109K |
+| [orca-dex →](https://www.defi.garden/?pool=0cbb1a77-d0da-5b42-811c-c936cf102a83#src=seo_token) | Solana | 0.02% | $106.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, USSBH's lower-variability candidates are orca-dex (Solana), 0.02% APY, $106K TVL, https://www.defi.garden/?pool=0cbb1a77-d0da-5b42-811c-c936cf102a83#src=seo_token; orca-dex (Solana), 0.04% APY, $108.7K TVL, https://www.defi.garden/?pool=7bc80aec-8b76-57df-b504-2059206b92c0#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USSBH's lower-variability candidates are orca-dex (Solana), 0.02% APY, $106.4K TVL, https://www.defi.garden/?pool=0cbb1a77-d0da-5b42-811c-c936cf102a83#src=seo_token; orca-dex (Solana), 0.04% APY, $109K TVL, https://www.defi.garden/?pool=7bc80aec-8b76-57df-b504-2059206b92c0#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [orca-dex →](https://www.defi.garden/?pool=0cbb1a77-d0da-5b42-811c-c936cf102a83#src=seo_token) | Solana | 0.02% | $106K |
-| 2 | [orca-dex →](https://www.defi.garden/?pool=7bc80aec-8b76-57df-b504-2059206b92c0#src=seo_token) | Solana | 0.04% | $108.7K |
+| 1 | [orca-dex →](https://www.defi.garden/?pool=0cbb1a77-d0da-5b42-811c-c936cf102a83#src=seo_token) | Solana | 0.02% | $106.4K |
+| 2 | [orca-dex →](https://www.defi.garden/?pool=7bc80aec-8b76-57df-b504-2059206b92c0#src=seo_token) | Solana | 0.04% | $109K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many USSBH pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $214.7K in total.
+2 live pools clear this page's $100K TVL floor, $215.4K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USSBH pools have the most stable APY history?
 
-Based on APY history only, USSBH's lower-variability candidates are orca-dex (Solana), 0.02% APY, $106K TVL, https://www.defi.garden/?pool=0cbb1a77-d0da-5b42-811c-c936cf102a83#src=seo_token; orca-dex (Solana), 0.04% APY, $108.7K TVL, https://www.defi.garden/?pool=7bc80aec-8b76-57df-b504-2059206b92c0#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USSBH's lower-variability candidates are orca-dex (Solana), 0.02% APY, $106.4K TVL, https://www.defi.garden/?pool=0cbb1a77-d0da-5b42-811c-c936cf102a83#src=seo_token; orca-dex (Solana), 0.04% APY, $109K TVL, https://www.defi.garden/?pool=7bc80aec-8b76-57df-b504-2059206b92c0#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

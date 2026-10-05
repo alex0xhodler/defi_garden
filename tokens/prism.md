@@ -6,7 +6,7 @@ The highest honest PRISM yield right now is 1.07% on uniswap-v4 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=333477a4-a7b9-492c-ad21-39cfb681e71f#src=seo_token) | Ethereum | 1.07% | $160.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=333477a4-a7b9-492c-ad21-39cfb681e71f#src=seo_token) | Ethereum | 1.07% | $159.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many PRISM pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $267K in total.
+2 live pools clear this page's $100K TVL floor, $265.5K in total.
 
 ### Are these rates safe?
 

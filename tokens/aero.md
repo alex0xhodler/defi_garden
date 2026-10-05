@@ -2,42 +2,42 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest AERO yield right now is 267.90% on aerodrome-slipstream (Base), among 27 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AERO yield right now is 274.74% on aerodrome-slipstream (Base), among 27 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=d32f9c01-47d1-4077-8c73-8b91b08d1e91#src=seo_token) | Base | 32.38% | $44.41M |
-| [extra-finance-leverage-farming →](https://www.defi.garden/?pool=a8a60a49-4a0d-4ba4-93ec-2b3006a71b2d#src=seo_token) | Base | 38.04% | $14.77M |
-| [extra-finance-leverage-farming →](https://www.defi.garden/?pool=590bc66e-6cbf-467c-baf8-93f98b2679e4#src=seo_token) | Base | 2.69% | $9.26M |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=e2c7a30e-cae6-419d-af75-b4bebd506879#src=seo_token) | Base | 131.48% | $4.85M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=31ed7657-e02c-427b-8e3e-c0bf24e6cb9b#src=seo_token) | Base | 90.52% | $4.23M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=3aebe700-db0b-49e2-82f6-564acdfae434#src=seo_token) | Base | 157.49% | $3.65M |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=69c0fc74-dee5-4c60-9aed-a593661d54ea#src=seo_token) | Base | 14.82% | $3.61M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=53b7036a-ec2a-494b-ad8e-ae53f35c20b8#src=seo_token) | Base | 267.90% | $2.07M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=d32f9c01-47d1-4077-8c73-8b91b08d1e91#src=seo_token) | Base | 32.24% | $44.23M |
+| [extra-finance-leverage-farming →](https://www.defi.garden/?pool=a8a60a49-4a0d-4ba4-93ec-2b3006a71b2d#src=seo_token) | Base | 37.84% | $14.7M |
+| [extra-finance-leverage-farming →](https://www.defi.garden/?pool=590bc66e-6cbf-467c-baf8-93f98b2679e4#src=seo_token) | Base | 2.69% | $9.18M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=e2c7a30e-cae6-419d-af75-b4bebd506879#src=seo_token) | Base | 131.35% | $4.81M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=31ed7657-e02c-427b-8e3e-c0bf24e6cb9b#src=seo_token) | Base | 91.34% | $4.22M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=69c0fc74-dee5-4c60-9aed-a593661d54ea#src=seo_token) | Base | 14.80% | $3.58M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=3aebe700-db0b-49e2-82f6-564acdfae434#src=seo_token) | Base | 168.77% | $3.46M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=53b7036a-ec2a-494b-ad8e-ae53f35c20b8#src=seo_token) | Base | 274.74% | $2.04M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, AERO's lower-variability candidates are aerodrome-v1 (Base), 32.38% APY, $44.41M TVL, https://www.defi.garden/?pool=d32f9c01-47d1-4077-8c73-8b91b08d1e91#src=seo_token; aerodrome-v1 (Base), 14.82% APY, $3.61M TVL, https://www.defi.garden/?pool=69c0fc74-dee5-4c60-9aed-a593661d54ea#src=seo_token; extra-finance-leverage-farming (Base), 2.69% APY, $9.26M TVL, https://www.defi.garden/?pool=590bc66e-6cbf-467c-baf8-93f98b2679e4#src=seo_token; aerodrome-v1 (Base), 131.48% APY, $4.85M TVL, https://www.defi.garden/?pool=e2c7a30e-cae6-419d-af75-b4bebd506879#src=seo_token; aerodrome-slipstream (Base), 90.52% APY, $4.23M TVL, https://www.defi.garden/?pool=31ed7657-e02c-427b-8e3e-c0bf24e6cb9b#src=seo_token; aerodrome-slipstream (Base), 267.90% APY, $2.07M TVL, https://www.defi.garden/?pool=53b7036a-ec2a-494b-ad8e-ae53f35c20b8#src=seo_token; aerodrome-slipstream (Base), 157.49% APY, $3.65M TVL, https://www.defi.garden/?pool=3aebe700-db0b-49e2-82f6-564acdfae434#src=seo_token; extra-finance-leverage-farming (Base), 38.04% APY, $14.77M TVL, https://www.defi.garden/?pool=a8a60a49-4a0d-4ba4-93ec-2b3006a71b2d#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AERO's lower-variability candidates are aerodrome-v1 (Base), 32.24% APY, $44.23M TVL, https://www.defi.garden/?pool=d32f9c01-47d1-4077-8c73-8b91b08d1e91#src=seo_token; aerodrome-v1 (Base), 14.80% APY, $3.58M TVL, https://www.defi.garden/?pool=69c0fc74-dee5-4c60-9aed-a593661d54ea#src=seo_token; extra-finance-leverage-farming (Base), 2.69% APY, $9.18M TVL, https://www.defi.garden/?pool=590bc66e-6cbf-467c-baf8-93f98b2679e4#src=seo_token; aerodrome-v1 (Base), 131.35% APY, $4.81M TVL, https://www.defi.garden/?pool=e2c7a30e-cae6-419d-af75-b4bebd506879#src=seo_token; aerodrome-slipstream (Base), 91.34% APY, $4.22M TVL, https://www.defi.garden/?pool=31ed7657-e02c-427b-8e3e-c0bf24e6cb9b#src=seo_token; aerodrome-slipstream (Base), 274.74% APY, $2.04M TVL, https://www.defi.garden/?pool=53b7036a-ec2a-494b-ad8e-ae53f35c20b8#src=seo_token; aerodrome-slipstream (Base), 168.77% APY, $3.46M TVL, https://www.defi.garden/?pool=3aebe700-db0b-49e2-82f6-564acdfae434#src=seo_token; extra-finance-leverage-farming (Base), 37.84% APY, $14.7M TVL, https://www.defi.garden/?pool=a8a60a49-4a0d-4ba4-93ec-2b3006a71b2d#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=d32f9c01-47d1-4077-8c73-8b91b08d1e91#src=seo_token) | Base | 32.38% | $44.41M |
-| 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=69c0fc74-dee5-4c60-9aed-a593661d54ea#src=seo_token) | Base | 14.82% | $3.61M |
-| 3 | [extra-finance-leverage-farming →](https://www.defi.garden/?pool=590bc66e-6cbf-467c-baf8-93f98b2679e4#src=seo_token) | Base | 2.69% | $9.26M |
-| 4 | [aerodrome-v1 →](https://www.defi.garden/?pool=e2c7a30e-cae6-419d-af75-b4bebd506879#src=seo_token) | Base | 131.48% | $4.85M |
-| 5 | [aerodrome-slipstream →](https://www.defi.garden/?pool=31ed7657-e02c-427b-8e3e-c0bf24e6cb9b#src=seo_token) | Base | 90.52% | $4.23M |
-| 6 | [aerodrome-slipstream →](https://www.defi.garden/?pool=53b7036a-ec2a-494b-ad8e-ae53f35c20b8#src=seo_token) | Base | 267.90% | $2.07M |
-| 7 | [aerodrome-slipstream →](https://www.defi.garden/?pool=3aebe700-db0b-49e2-82f6-564acdfae434#src=seo_token) | Base | 157.49% | $3.65M |
-| 8 | [extra-finance-leverage-farming →](https://www.defi.garden/?pool=a8a60a49-4a0d-4ba4-93ec-2b3006a71b2d#src=seo_token) | Base | 38.04% | $14.77M |
+| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=d32f9c01-47d1-4077-8c73-8b91b08d1e91#src=seo_token) | Base | 32.24% | $44.23M |
+| 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=69c0fc74-dee5-4c60-9aed-a593661d54ea#src=seo_token) | Base | 14.80% | $3.58M |
+| 3 | [extra-finance-leverage-farming →](https://www.defi.garden/?pool=590bc66e-6cbf-467c-baf8-93f98b2679e4#src=seo_token) | Base | 2.69% | $9.18M |
+| 4 | [aerodrome-v1 →](https://www.defi.garden/?pool=e2c7a30e-cae6-419d-af75-b4bebd506879#src=seo_token) | Base | 131.35% | $4.81M |
+| 5 | [aerodrome-slipstream →](https://www.defi.garden/?pool=31ed7657-e02c-427b-8e3e-c0bf24e6cb9b#src=seo_token) | Base | 91.34% | $4.22M |
+| 6 | [aerodrome-slipstream →](https://www.defi.garden/?pool=53b7036a-ec2a-494b-ad8e-ae53f35c20b8#src=seo_token) | Base | 274.74% | $2.04M |
+| 7 | [aerodrome-slipstream →](https://www.defi.garden/?pool=3aebe700-db0b-49e2-82f6-564acdfae434#src=seo_token) | Base | 168.77% | $3.46M |
+| 8 | [extra-finance-leverage-farming →](https://www.defi.garden/?pool=a8a60a49-4a0d-4ba4-93ec-2b3006a71b2d#src=seo_token) | Base | 37.84% | $14.7M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-AERO shows up in 8 pools here, with rates from 2.69% to 267.90% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+AERO shows up in 8 pools here, with rates from 2.69% to 274.74% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 64.28% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 64.32% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 6 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -45,14 +45,14 @@ AERO shows up in 8 pools here, with rates from 2.69% to 267.90% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-v1 | 32.38% | 26.45% | 100.00% incentives |
-| extra-finance-leverage-farming | 38.04% | 29.96% | Base rate |
+| aerodrome-v1 | 32.24% | 26.47% | 100.00% incentives |
+| extra-finance-leverage-farming | 37.84% | 29.99% | Base rate |
 | extra-finance-leverage-farming | 2.69% | 2.77% | Base rate |
-| aerodrome-v1 | 131.48% | 99.56% | 100.00% incentives |
-| aerodrome-slipstream | 90.52% | 98.59% | 84.76% incentives |
-| aerodrome-slipstream | 157.49% | 187.65% | 22.63% incentives |
-| aerodrome-v1 | 14.82% | 13.77% | 99.91% incentives |
-| aerodrome-slipstream | 267.90% | 251.64% | 31.25% incentives |
+| aerodrome-v1 | 131.35% | 99.74% | 100.00% incentives |
+| aerodrome-slipstream | 91.34% | 98.65% | 84.71% incentives |
+| aerodrome-v1 | 14.80% | 13.77% | 99.91% incentives |
+| aerodrome-slipstream | 168.77% | 187.81% | 24.48% incentives |
+| aerodrome-slipstream | 274.74% | 251.80% | 32.29% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -60,11 +60,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest AERO yield today?
 
-267.90% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+274.74% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many AERO pools clear the TVL floor?
 
-27 live pools clear this page's $100K TVL floor, $98.08M in total.
+27 live pools clear this page's $100K TVL floor, $97.18M in total.
 
 ### Are these rates safe?
 
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which AERO pools have the most stable APY history?
 
-Based on APY history only, AERO's lower-variability candidates are aerodrome-v1 (Base), 32.38% APY, $44.41M TVL, https://www.defi.garden/?pool=d32f9c01-47d1-4077-8c73-8b91b08d1e91#src=seo_token; aerodrome-v1 (Base), 14.82% APY, $3.61M TVL, https://www.defi.garden/?pool=69c0fc74-dee5-4c60-9aed-a593661d54ea#src=seo_token; extra-finance-leverage-farming (Base), 2.69% APY, $9.26M TVL, https://www.defi.garden/?pool=590bc66e-6cbf-467c-baf8-93f98b2679e4#src=seo_token; aerodrome-v1 (Base), 131.48% APY, $4.85M TVL, https://www.defi.garden/?pool=e2c7a30e-cae6-419d-af75-b4bebd506879#src=seo_token; aerodrome-slipstream (Base), 90.52% APY, $4.23M TVL, https://www.defi.garden/?pool=31ed7657-e02c-427b-8e3e-c0bf24e6cb9b#src=seo_token; aerodrome-slipstream (Base), 267.90% APY, $2.07M TVL, https://www.defi.garden/?pool=53b7036a-ec2a-494b-ad8e-ae53f35c20b8#src=seo_token; aerodrome-slipstream (Base), 157.49% APY, $3.65M TVL, https://www.defi.garden/?pool=3aebe700-db0b-49e2-82f6-564acdfae434#src=seo_token; extra-finance-leverage-farming (Base), 38.04% APY, $14.77M TVL, https://www.defi.garden/?pool=a8a60a49-4a0d-4ba4-93ec-2b3006a71b2d#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AERO's lower-variability candidates are aerodrome-v1 (Base), 32.24% APY, $44.23M TVL, https://www.defi.garden/?pool=d32f9c01-47d1-4077-8c73-8b91b08d1e91#src=seo_token; aerodrome-v1 (Base), 14.80% APY, $3.58M TVL, https://www.defi.garden/?pool=69c0fc74-dee5-4c60-9aed-a593661d54ea#src=seo_token; extra-finance-leverage-farming (Base), 2.69% APY, $9.18M TVL, https://www.defi.garden/?pool=590bc66e-6cbf-467c-baf8-93f98b2679e4#src=seo_token; aerodrome-v1 (Base), 131.35% APY, $4.81M TVL, https://www.defi.garden/?pool=e2c7a30e-cae6-419d-af75-b4bebd506879#src=seo_token; aerodrome-slipstream (Base), 91.34% APY, $4.22M TVL, https://www.defi.garden/?pool=31ed7657-e02c-427b-8e3e-c0bf24e6cb9b#src=seo_token; aerodrome-slipstream (Base), 274.74% APY, $2.04M TVL, https://www.defi.garden/?pool=53b7036a-ec2a-494b-ad8e-ae53f35c20b8#src=seo_token; aerodrome-slipstream (Base), 168.77% APY, $3.46M TVL, https://www.defi.garden/?pool=3aebe700-db0b-49e2-82f6-564acdfae434#src=seo_token; extra-finance-leverage-farming (Base), 37.84% APY, $14.7M TVL, https://www.defi.garden/?pool=a8a60a49-4a0d-4ba4-93ec-2b3006a71b2d#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

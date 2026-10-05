@@ -1,7 +1,7 @@
 # robots.txt for DeFi Garden - AI-ready Yield Discovery
 # Updated May 2026 for Agentic Search Compliance
 # AI content signaling
-Content-Signal: search=yes, ai-input=yes, ai-train=no
+Content-signal: search=yes, ai-train=no, use=reference
 
 # Sitemap Index
 Sitemap: https://www.defi.garden/sitemap.xml

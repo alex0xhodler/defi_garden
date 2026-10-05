@@ -2,34 +2,34 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest RAIL yield right now is 9.65% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RAIL yield right now is 9.70% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=e93c4024-939e-40a9-a198-4a28790cbb9f#src=seo_token) | Ethereum | 9.65% | $6.53M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=43ab8882-7948-4252-8e25-5cef3af93435#src=seo_token) | Ethereum | 6.66% | $1.79M |
-| [sushiswap →](https://www.defi.garden/?pool=0023426a-e6e6-4eca-8b84-6cd29b03570d#src=seo_token) | Ethereum | 5.41% | $1.21M |
-| [sushiswap →](https://www.defi.garden/?pool=d1eb0c0c-ab87-4118-895a-73468048c317#src=seo_token) | Ethereum | 5.55% | $218.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e93c4024-939e-40a9-a198-4a28790cbb9f#src=seo_token) | Ethereum | 9.70% | $6.5M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=43ab8882-7948-4252-8e25-5cef3af93435#src=seo_token) | Ethereum | 6.70% | $1.78M |
+| [sushiswap →](https://www.defi.garden/?pool=0023426a-e6e6-4eca-8b84-6cd29b03570d#src=seo_token) | Ethereum | 5.44% | $1.2M |
+| [sushiswap →](https://www.defi.garden/?pool=d1eb0c0c-ab87-4118-895a-73468048c317#src=seo_token) | Ethereum | 5.64% | $218.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, RAIL's lower-variability candidates are sushiswap (Ethereum), 5.41% APY, $1.21M TVL, https://www.defi.garden/?pool=0023426a-e6e6-4eca-8b84-6cd29b03570d#src=seo_token; sushiswap (Ethereum), 5.55% APY, $218.5K TVL, https://www.defi.garden/?pool=d1eb0c0c-ab87-4118-895a-73468048c317#src=seo_token; uniswap-v2 (Ethereum), 6.66% APY, $1.79M TVL, https://www.defi.garden/?pool=43ab8882-7948-4252-8e25-5cef3af93435#src=seo_token; uniswap-v3 (Ethereum), 9.65% APY, $6.53M TVL, https://www.defi.garden/?pool=e93c4024-939e-40a9-a198-4a28790cbb9f#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RAIL's lower-variability candidates are sushiswap (Ethereum), 5.44% APY, $1.2M TVL, https://www.defi.garden/?pool=0023426a-e6e6-4eca-8b84-6cd29b03570d#src=seo_token; sushiswap (Ethereum), 5.64% APY, $218.1K TVL, https://www.defi.garden/?pool=d1eb0c0c-ab87-4118-895a-73468048c317#src=seo_token; uniswap-v2 (Ethereum), 6.70% APY, $1.78M TVL, https://www.defi.garden/?pool=43ab8882-7948-4252-8e25-5cef3af93435#src=seo_token; uniswap-v3 (Ethereum), 9.70% APY, $6.5M TVL, https://www.defi.garden/?pool=e93c4024-939e-40a9-a198-4a28790cbb9f#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [sushiswap →](https://www.defi.garden/?pool=0023426a-e6e6-4eca-8b84-6cd29b03570d#src=seo_token) | Ethereum | 5.41% | $1.21M |
-| 2 | [sushiswap →](https://www.defi.garden/?pool=d1eb0c0c-ab87-4118-895a-73468048c317#src=seo_token) | Ethereum | 5.55% | $218.5K |
-| 3 | [uniswap-v2 →](https://www.defi.garden/?pool=43ab8882-7948-4252-8e25-5cef3af93435#src=seo_token) | Ethereum | 6.66% | $1.79M |
-| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=e93c4024-939e-40a9-a198-4a28790cbb9f#src=seo_token) | Ethereum | 9.65% | $6.53M |
+| 1 | [sushiswap →](https://www.defi.garden/?pool=0023426a-e6e6-4eca-8b84-6cd29b03570d#src=seo_token) | Ethereum | 5.44% | $1.2M |
+| 2 | [sushiswap →](https://www.defi.garden/?pool=d1eb0c0c-ab87-4118-895a-73468048c317#src=seo_token) | Ethereum | 5.64% | $218.1K |
+| 3 | [uniswap-v2 →](https://www.defi.garden/?pool=43ab8882-7948-4252-8e25-5cef3af93435#src=seo_token) | Ethereum | 6.70% | $1.78M |
+| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=e93c4024-939e-40a9-a198-4a28790cbb9f#src=seo_token) | Ethereum | 9.70% | $6.5M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-RAIL shows up in 4 pools here, with rates from 5.41% to 9.65% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+RAIL shows up in 4 pools here, with rates from 5.44% to 9.70% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 12.68% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 12.69% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -37,10 +37,10 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 9.65% | 13.46% | Base rate |
-| uniswap-v2 | 6.66% | 11.90% | Base rate |
-| sushiswap | 5.41% | 9.85% | Base rate |
-| sushiswap | 5.55% | 14.21% | Base rate |
+| uniswap-v3 | 9.70% | 13.48% | Base rate |
+| uniswap-v2 | 6.70% | 11.90% | Base rate |
+| sushiswap | 5.44% | 9.86% | Base rate |
+| sushiswap | 5.64% | 14.22% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -48,11 +48,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest RAIL yield today?
 
-9.65% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+9.70% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many RAIL pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $9.75M in total.
+4 live pools clear this page's $100K TVL floor, $9.7M in total.
 
 ### Are these rates safe?
 
@@ -60,7 +60,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which RAIL pools have the most stable APY history?
 
-Based on APY history only, RAIL's lower-variability candidates are sushiswap (Ethereum), 5.41% APY, $1.21M TVL, https://www.defi.garden/?pool=0023426a-e6e6-4eca-8b84-6cd29b03570d#src=seo_token; sushiswap (Ethereum), 5.55% APY, $218.5K TVL, https://www.defi.garden/?pool=d1eb0c0c-ab87-4118-895a-73468048c317#src=seo_token; uniswap-v2 (Ethereum), 6.66% APY, $1.79M TVL, https://www.defi.garden/?pool=43ab8882-7948-4252-8e25-5cef3af93435#src=seo_token; uniswap-v3 (Ethereum), 9.65% APY, $6.53M TVL, https://www.defi.garden/?pool=e93c4024-939e-40a9-a198-4a28790cbb9f#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RAIL's lower-variability candidates are sushiswap (Ethereum), 5.44% APY, $1.2M TVL, https://www.defi.garden/?pool=0023426a-e6e6-4eca-8b84-6cd29b03570d#src=seo_token; sushiswap (Ethereum), 5.64% APY, $218.1K TVL, https://www.defi.garden/?pool=d1eb0c0c-ab87-4118-895a-73468048c317#src=seo_token; uniswap-v2 (Ethereum), 6.70% APY, $1.78M TVL, https://www.defi.garden/?pool=43ab8882-7948-4252-8e25-5cef3af93435#src=seo_token; uniswap-v3 (Ethereum), 9.70% APY, $6.5M TVL, https://www.defi.garden/?pool=e93c4024-939e-40a9-a198-4a28790cbb9f#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

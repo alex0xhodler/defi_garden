@@ -26,7 +26,7 @@ MAPOLLO shows up in 2 pools here, with rates from 7.03% to 7.65% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle-v2 | 7.65% | 8.10% | 2.38% incentives |
+| pendle-v2 | 7.65% | 8.10% | 2.32% incentives |
 | pendle-v2 | 7.03% | 7.02% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.

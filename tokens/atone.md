@@ -6,7 +6,7 @@ The highest honest ATONE yield right now is 25.13% on osmosis-dex (Osmosis), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [osmosis-dex →](https://www.defi.garden/?pool=5384c5b1-9e14-4e75-b182-509654974b10#src=seo_token) | Osmosis | 25.13% | $216K |
+| [osmosis-dex →](https://www.defi.garden/?pool=5384c5b1-9e14-4e75-b182-509654974b10#src=seo_token) | Osmosis | 25.13% | $217.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ATONE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $216K in total.
+1 live pool clear this page's $100K TVL floor, $217.1K in total.
 
 ### Are these rates safe?
 

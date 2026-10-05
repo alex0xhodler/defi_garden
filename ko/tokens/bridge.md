@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [project-x →](https://www.defi.garden/?pool=b00225ec-6445-4c0f-bd52-5e772975cd88#src=seo_token) | Hyperliquid L1 | 0.04% | $197.2K |
+| [project-x →](https://www.defi.garden/?pool=b00225ec-6445-4c0f-bd52-5e772975cd88#src=seo_token) | Hyperliquid L1 | 0.04% | $196.8K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 project-x에서 APY 0.04
 
 ### BRIDGE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $197.2K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $196.8K예요.
 
 ### 이 수익률은 안전한가요?
 

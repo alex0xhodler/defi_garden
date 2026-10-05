@@ -2,30 +2,30 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest SAVAX yield right now is 4.19% on joe-v2.2 (Avalanche), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SAVAX yield right now is 4.27% on joe-v2.2 (Avalanche), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [benqi-staked-avax →](https://www.defi.garden/pools/benqi-staked-avax-savax-avalanche) | Avalanche | 3.73% | $256.37M |
-| [pharaoh-v3 →](https://www.defi.garden/?pool=29630e33-15fa-41aa-857e-595ea7878580#src=seo_token) | Avalanche | 0.22% | $235.2K |
-| [joe-v2.2 →](https://www.defi.garden/?pool=b9ebaa5d-96c7-43f9-aa71-b9c5cc255fa5#src=seo_token) | Avalanche | 4.19% | $129.6K |
+| [benqi-staked-avax →](https://www.defi.garden/pools/benqi-staked-avax-savax-avalanche) | Avalanche | 3.66% | $253.68M |
+| [pharaoh-v3 →](https://www.defi.garden/?pool=29630e33-15fa-41aa-857e-595ea7878580#src=seo_token) | Avalanche | 0.21% | $235.2K |
+| [joe-v2.2 →](https://www.defi.garden/?pool=b9ebaa5d-96c7-43f9-aa71-b9c5cc255fa5#src=seo_token) | Avalanche | 4.27% | $128.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SAVAX's lower-variability candidates are benqi-staked-avax (Avalanche), 3.73% APY, $256.37M TVL, https://www.defi.garden/pools/benqi-staked-avax-savax-avalanche; pharaoh-v3 (Avalanche), 0.22% APY, $235.2K TVL, https://www.defi.garden/?pool=29630e33-15fa-41aa-857e-595ea7878580#src=seo_token; joe-v2.2 (Avalanche), 4.19% APY, $129.6K TVL, https://www.defi.garden/?pool=b9ebaa5d-96c7-43f9-aa71-b9c5cc255fa5#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SAVAX's lower-variability candidates are benqi-staked-avax (Avalanche), 3.66% APY, $253.68M TVL, https://www.defi.garden/pools/benqi-staked-avax-savax-avalanche; pharaoh-v3 (Avalanche), 0.21% APY, $235.2K TVL, https://www.defi.garden/?pool=29630e33-15fa-41aa-857e-595ea7878580#src=seo_token; joe-v2.2 (Avalanche), 4.27% APY, $128.6K TVL, https://www.defi.garden/?pool=b9ebaa5d-96c7-43f9-aa71-b9c5cc255fa5#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [benqi-staked-avax →](https://www.defi.garden/pools/benqi-staked-avax-savax-avalanche) | Avalanche | 3.73% | $256.37M |
-| 2 | [pharaoh-v3 →](https://www.defi.garden/?pool=29630e33-15fa-41aa-857e-595ea7878580#src=seo_token) | Avalanche | 0.22% | $235.2K |
-| 3 | [joe-v2.2 →](https://www.defi.garden/?pool=b9ebaa5d-96c7-43f9-aa71-b9c5cc255fa5#src=seo_token) | Avalanche | 4.19% | $129.6K |
+| 1 | [benqi-staked-avax →](https://www.defi.garden/pools/benqi-staked-avax-savax-avalanche) | Avalanche | 3.66% | $253.68M |
+| 2 | [pharaoh-v3 →](https://www.defi.garden/?pool=29630e33-15fa-41aa-857e-595ea7878580#src=seo_token) | Avalanche | 0.21% | $235.2K |
+| 3 | [joe-v2.2 →](https://www.defi.garden/?pool=b9ebaa5d-96c7-43f9-aa71-b9c5cc255fa5#src=seo_token) | Avalanche | 4.27% | $128.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SAVAX shows up in 3 pools here, with rates from 0.22% to 4.19% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SAVAX shows up in 3 pools here, with rates from 0.21% to 4.27% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 4.75% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -33,9 +33,9 @@ SAVAX shows up in 3 pools here, with rates from 0.22% to 4.19% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| benqi-staked-avax | 3.73% | 4.75% | Base rate |
-| pharaoh-v3 | 0.22% | 1.37% | 100.00% incentives |
-| joe-v2.2 | 4.19% | 6.37% | Base rate |
+| benqi-staked-avax | 3.66% | 4.75% | Base rate |
+| pharaoh-v3 | 0.21% | 1.37% | 100.00% incentives |
+| joe-v2.2 | 4.27% | 6.38% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -43,11 +43,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SAVAX yield today?
 
-4.19% APY on joe-v2.2 (Avalanche), based on live DefiLlama data.
+4.27% APY on joe-v2.2 (Avalanche), based on live DefiLlama data.
 
 ### How many SAVAX pools clear the TVL floor?
 
-9 live pools clear this page's $100K TVL floor, $468.41M in total.
+9 live pools clear this page's $100K TVL floor, $463.6M in total.
 
 ### Are these rates safe?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SAVAX pools have the most stable APY history?
 
-Based on APY history only, SAVAX's lower-variability candidates are benqi-staked-avax (Avalanche), 3.73% APY, $256.37M TVL, https://www.defi.garden/pools/benqi-staked-avax-savax-avalanche; pharaoh-v3 (Avalanche), 0.22% APY, $235.2K TVL, https://www.defi.garden/?pool=29630e33-15fa-41aa-857e-595ea7878580#src=seo_token; joe-v2.2 (Avalanche), 4.19% APY, $129.6K TVL, https://www.defi.garden/?pool=b9ebaa5d-96c7-43f9-aa71-b9c5cc255fa5#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SAVAX's lower-variability candidates are benqi-staked-avax (Avalanche), 3.66% APY, $253.68M TVL, https://www.defi.garden/pools/benqi-staked-avax-savax-avalanche; pharaoh-v3 (Avalanche), 0.21% APY, $235.2K TVL, https://www.defi.garden/?pool=29630e33-15fa-41aa-857e-595ea7878580#src=seo_token; joe-v2.2 (Avalanche), 4.27% APY, $128.6K TVL, https://www.defi.garden/?pool=b9ebaa5d-96c7-43f9-aa71-b9c5cc255fa5#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

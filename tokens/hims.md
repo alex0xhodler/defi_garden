@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest HIMS yield right now is 71.81% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HIMS yield right now is 81.04% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=5ed16434-7fb5-5964-8ff3-55aea6036a44#src=seo_token) | Solana | 71.81% | $147.4K |
+| [orca-dex →](https://www.defi.garden/?pool=5ed16434-7fb5-5964-8ff3-55aea6036a44#src=seo_token) | Solana | 81.04% | $144.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HIMS yield today?
 
-71.81% APY on orca-dex (Solana), based on live DefiLlama data.
+81.04% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many HIMS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $147.4K in total.
+1 live pool clear this page's $100K TVL floor, $144.7K in total.
 
 ### Are these rates safe?
 

@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest KABUUSDC yield right now is 8.71% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KABUUSDC yield right now is 8.73% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=6073c893-d1fe-4408-b9d7-ba3039f27e5b#src=seo_token) | Ethereum | 8.71% | $941K |
+| [morpho-blue →](https://www.defi.garden/?pool=6073c893-d1fe-4408-b9d7-ba3039f27e5b#src=seo_token) | Ethereum | 8.73% | $940.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KABUUSDC yield today?
 
-8.71% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+8.73% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many KABUUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $941K in total.
+1 live pool clear this page's $100K TVL floor, $940.9K in total.
 
 ### Are these rates safe?
 

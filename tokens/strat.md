@@ -6,7 +6,7 @@ The highest honest STRAT yield right now is 0.19% on uniswap-v4 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=6ff6c77c-ce75-4e2b-b677-59cd0679c251#src=seo_token) | Ethereum | 0.19% | $1.1M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=6ff6c77c-ce75-4e2b-b677-59cd0679c251#src=seo_token) | Ethereum | 0.19% | $1.09M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many STRAT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.29M in total.
+2 live pools clear this page's $100K TVL floor, $1.28M in total.
 
 ### Are these rates safe?
 

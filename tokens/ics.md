@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest ICS yield right now is 1.29% on icpswap (ICP), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ICS yield right now is 1.26% on icpswap (ICP), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [icpswap →](https://www.defi.garden/?pool=9b34489e-a049-443e-800d-d202be152975#src=seo_token) | ICP | 1.29% | $100.9K |
+| [icpswap →](https://www.defi.garden/?pool=9b34489e-a049-443e-800d-d202be152975#src=seo_token) | ICP | 1.26% | $103.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ICS yield today?
 
-1.29% APY on icpswap (ICP), based on live DefiLlama data.
+1.26% APY on icpswap (ICP), based on live DefiLlama data.
 
 ### How many ICS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $100.9K in total.
+1 live pool clear this page's $100K TVL floor, $103.1K in total.
 
 ### Are these rates safe?
 

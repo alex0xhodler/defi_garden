@@ -6,18 +6,18 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [scallop-lend →](https://www.defi.garden/?pool=f0ed3798-1c3f-400b-bac5-32684a7ab836#src=seo_token) | Sui | 1.99% | $155K |
-| [bluefin-spot →](https://www.defi.garden/?pool=db9999d6-75d2-4ba0-bbef-13ac88fedc56#src=seo_token) | Sui | 0.07% | $123.3K |
+| [scallop-lend →](https://www.defi.garden/?pool=f0ed3798-1c3f-400b-bac5-32684a7ab836#src=seo_token) | Sui | 1.99% | $152.9K |
+| [bluefin-spot →](https://www.defi.garden/?pool=db9999d6-75d2-4ba0-bbef-13ac88fedc56#src=seo_token) | Sui | 0.07% | $123.4K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 SCA의 변동성 낮은 후보는 Sui의 bluefin-spot, APY 0.07%, TVL $123.3K, https://www.defi.garden/?pool=db9999d6-75d2-4ba0-bbef-13ac88fedc56#src=seo_token; Sui의 scallop-lend, APY 1.99%, TVL $155K, https://www.defi.garden/?pool=f0ed3798-1c3f-400b-bac5-32684a7ab836#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SCA의 변동성 낮은 후보는 Sui의 bluefin-spot, APY 0.07%, TVL $123.4K, https://www.defi.garden/?pool=db9999d6-75d2-4ba0-bbef-13ac88fedc56#src=seo_token; Sui의 scallop-lend, APY 1.99%, TVL $152.9K, https://www.defi.garden/?pool=f0ed3798-1c3f-400b-bac5-32684a7ab836#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [bluefin-spot →](https://www.defi.garden/?pool=db9999d6-75d2-4ba0-bbef-13ac88fedc56#src=seo_token) | Sui | 0.07% | $123.3K |
-| 2 | [scallop-lend →](https://www.defi.garden/?pool=f0ed3798-1c3f-400b-bac5-32684a7ab836#src=seo_token) | Sui | 1.99% | $155K |
+| 1 | [bluefin-spot →](https://www.defi.garden/?pool=db9999d6-75d2-4ba0-bbef-13ac88fedc56#src=seo_token) | Sui | 0.07% | $123.4K |
+| 2 | [scallop-lend →](https://www.defi.garden/?pool=f0ed3798-1c3f-400b-bac5-32684a7ab836#src=seo_token) | Sui | 1.99% | $152.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -46,7 +46,7 @@ DefiLlama 실시간 데이터 기준, Sui의 scallop-lend에서 APY 1.99%예요.
 
 ### SCA 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $278.3K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $276.2K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -54,7 +54,7 @@ DefiLlama 실시간 데이터 기준, Sui의 scallop-lend에서 APY 1.99%예요.
 
 ### SCA 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 SCA의 변동성 낮은 후보는 Sui의 bluefin-spot, APY 0.07%, TVL $123.3K, https://www.defi.garden/?pool=db9999d6-75d2-4ba0-bbef-13ac88fedc56#src=seo_token; Sui의 scallop-lend, APY 1.99%, TVL $155K, https://www.defi.garden/?pool=f0ed3798-1c3f-400b-bac5-32684a7ab836#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SCA의 변동성 낮은 후보는 Sui의 bluefin-spot, APY 0.07%, TVL $123.4K, https://www.defi.garden/?pool=db9999d6-75d2-4ba0-bbef-13ac88fedc56#src=seo_token; Sui의 scallop-lend, APY 1.99%, TVL $152.9K, https://www.defi.garden/?pool=f0ed3798-1c3f-400b-bac5-32684a7ab836#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

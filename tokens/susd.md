@@ -31,7 +31,7 @@ SUSD shows up in 2 pools here, with rates from 0.50% to 30.26% APY across 2 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| velodrome-v2 | 30.26% | 21.87% | 100.00% incentives |
+| velodrome-v2 | 30.26% | 21.88% | 100.00% incentives |
 | curve-dex | 0.50% | 0.48% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.

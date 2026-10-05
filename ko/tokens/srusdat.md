@@ -9,8 +9,8 @@
 | [strata-markets →](https://www.defi.garden/?pool=d0f93146-6936-4fac-841e-68178b5a59b2#src=seo_token) | Ethereum | 8.11% | $5.93M |
 | [pendle-v2 →](https://www.defi.garden/?pool=2a1a339c-5221-51f1-94bf-2fce313b23fd#src=seo_token) | Monad | 10.04% | $381.8K |
 | [pendle-v2 →](https://www.defi.garden/?pool=808eba20-0889-5afb-9ce7-e3de0c44f326#src=seo_token) | Monad | 10.77% | $381.8K |
-| [pendle-v2 →](https://www.defi.garden/?pool=09b1bf32-8c00-582d-aaa9-b88ac051ef6c#src=seo_token) | Ethereum | 9.61% | $228.5K |
 | [pendle-v2 →](https://www.defi.garden/?pool=69baaaab-b02b-5b4f-a415-113c11736cae#src=seo_token) | Ethereum | 10.73% | $228.5K |
+| [pendle-v2 →](https://www.defi.garden/?pool=09b1bf32-8c00-582d-aaa9-b88ac051ef6c#src=seo_token) | Ethereum | 9.61% | $228.5K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
@@ -31,17 +31,17 @@ APY 이력만 기준으로 비교한 SRUSDAT의 변동성 낮은 후보는 Ether
 
 SRUSDAT 풀은 여기 5개가 있고, 2개 체인에서 APY가 8.11%부터 10.77%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 9.63%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 9.64%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 현재 5개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | strata-markets | 8.11% | 8.11% | 기본 금리 |
-| pendle-v2 | 10.04% | 10.40% | 기본 금리 |
+| pendle-v2 | 10.04% | 10.39% | 기본 금리 |
 | pendle-v2 | 10.77% | 10.33% | 기본 금리 |
+| pendle-v2 | 10.73% | 9.64% | 기본 금리 |
 | pendle-v2 | 9.61% | 9.59% | 기본 금리 |
-| pendle-v2 | 10.73% | 9.63% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 

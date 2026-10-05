@@ -6,7 +6,7 @@ The highest honest VSOL yield right now is 4.81% on the-vault-liquid-staking (So
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [the-vault-liquid-staking →](https://www.defi.garden/pools/the-vault-liquid-staking-vsol-solana) | Solana | 4.81% | $161.01M |
+| [the-vault-liquid-staking →](https://www.defi.garden/pools/the-vault-liquid-staking-vsol-solana) | Solana | 4.81% | $159.52M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,13 +19,13 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 VSOL shows up in 1 pools here, with rates from 4.81% to 4.81% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 4.84% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 4.85% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| the-vault-liquid-staking | 4.81% | 4.84% | Base rate |
+| the-vault-liquid-staking | 4.81% | 4.85% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many VSOL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $180.76M in total.
+2 live pools clear this page's $100K TVL floor, $179.08M in total.
 
 ### Are these rates safe?
 

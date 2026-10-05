@@ -46,12 +46,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/pools/binance-staked-sol-bnsol-solana</loc>
+    <loc>https://www.defi.garden/ko/pools/ethena-usde-susde-ethereum</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/pools/ethena-usde-susde-ethereum</loc>
+    <loc>https://www.defi.garden/ko/pools/binance-staked-sol-bnsol-solana</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -251,12 +251,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/pools/sparklend-weth-ethereum</loc>
+    <loc>https://www.defi.garden/ko/pools/spark-savings-usdc-ethereum</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/pools/spark-savings-usdc-ethereum</loc>
+    <loc>https://www.defi.garden/ko/pools/sparklend-weth-ethereum</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -296,12 +296,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/pools/dfdv-staked-sol-dfdvsol-solana</loc>
+    <loc>https://www.defi.garden/ko/pools/morpho-blue-senpyusdprimev2-ethereum</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/pools/morpho-blue-senpyusdprimev2-ethereum</loc>
+    <loc>https://www.defi.garden/ko/pools/dfdv-staked-sol-dfdvsol-solana</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -316,12 +316,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/pools/ether-fi-stake-weeth-linea</loc>
+    <loc>https://www.defi.garden/ko/pools/sky-lending-sdai-ethereum</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/pools/sky-lending-sdai-ethereum</loc>
+    <loc>https://www.defi.garden/ko/pools/ether-fi-stake-weeth-linea</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -391,11 +391,6 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/pools/aave-v3-usdc-ethereum</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.defi.garden/ko/pools/morpho-blue-steakeurcv-ethereum</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
@@ -407,6 +402,11 @@
   </url>
   <url>
     <loc>https://www.defi.garden/ko/pools/blackrock-buidl-buidl-bsc</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/ko/pools/aave-v3-usdc-ethereum</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -426,17 +426,17 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/pools/aave-v3-wavax-avalanche</loc>
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.defi.garden/ko/pools/hastra-prime-solana</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.defi.garden/ko/pools/fluid-lending-usdc-ethereum</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/ko/pools/aave-v3-wavax-avalanche</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
   </url>

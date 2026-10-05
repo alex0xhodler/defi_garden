@@ -2,28 +2,28 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest SBUSDT yield right now is 4.00% on morpho-blue (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SBUSDT yield right now is 3.99% on morpho-blue (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=ea1b7331-c07f-5d20-8f3c-3587bf99c95a#src=seo_token) | Ethereum | 4.00% | $3.85M |
-| [scallop-lend →](https://www.defi.garden/?pool=1215e8f0-2e04-4949-9623-10da43487346#src=seo_token) | Sui | 1.91% | $289.8K |
+| [morpho-blue →](https://www.defi.garden/?pool=ea1b7331-c07f-5d20-8f3c-3587bf99c95a#src=seo_token) | Ethereum | 3.99% | $3.85M |
+| [scallop-lend →](https://www.defi.garden/?pool=1215e8f0-2e04-4949-9623-10da43487346#src=seo_token) | Sui | 1.92% | $289.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SBUSDT's lower-variability candidates are morpho-blue (Ethereum), 4.00% APY, $3.85M TVL, https://www.defi.garden/?pool=ea1b7331-c07f-5d20-8f3c-3587bf99c95a#src=seo_token; scallop-lend (Sui), 1.91% APY, $289.8K TVL, https://www.defi.garden/?pool=1215e8f0-2e04-4949-9623-10da43487346#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SBUSDT's lower-variability candidates are morpho-blue (Ethereum), 3.99% APY, $3.85M TVL, https://www.defi.garden/?pool=ea1b7331-c07f-5d20-8f3c-3587bf99c95a#src=seo_token; scallop-lend (Sui), 1.92% APY, $289.5K TVL, https://www.defi.garden/?pool=1215e8f0-2e04-4949-9623-10da43487346#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=ea1b7331-c07f-5d20-8f3c-3587bf99c95a#src=seo_token) | Ethereum | 4.00% | $3.85M |
-| 2 | [scallop-lend →](https://www.defi.garden/?pool=1215e8f0-2e04-4949-9623-10da43487346#src=seo_token) | Sui | 1.91% | $289.8K |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=ea1b7331-c07f-5d20-8f3c-3587bf99c95a#src=seo_token) | Ethereum | 3.99% | $3.85M |
+| 2 | [scallop-lend →](https://www.defi.garden/?pool=1215e8f0-2e04-4949-9623-10da43487346#src=seo_token) | Sui | 1.92% | $289.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SBUSDT shows up in 2 pools here, with rates from 1.91% to 4.00% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+SBUSDT shows up in 2 pools here, with rates from 1.92% to 3.99% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.86% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 4.00% | 3.55% | Base rate |
-| scallop-lend | 1.91% | 2.17% | Base rate |
+| morpho-blue | 3.99% | 3.55% | Base rate |
+| scallop-lend | 1.92% | 2.17% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,7 +40,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SBUSDT yield today?
 
-4.00% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+3.99% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many SBUSDT pools clear the TVL floor?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SBUSDT pools have the most stable APY history?
 
-Based on APY history only, SBUSDT's lower-variability candidates are morpho-blue (Ethereum), 4.00% APY, $3.85M TVL, https://www.defi.garden/?pool=ea1b7331-c07f-5d20-8f3c-3587bf99c95a#src=seo_token; scallop-lend (Sui), 1.91% APY, $289.8K TVL, https://www.defi.garden/?pool=1215e8f0-2e04-4949-9623-10da43487346#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SBUSDT's lower-variability candidates are morpho-blue (Ethereum), 3.99% APY, $3.85M TVL, https://www.defi.garden/?pool=ea1b7331-c07f-5d20-8f3c-3587bf99c95a#src=seo_token; scallop-lend (Sui), 1.92% APY, $289.5K TVL, https://www.defi.garden/?pool=1215e8f0-2e04-4949-9623-10da43487346#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

@@ -6,7 +6,7 @@ The highest honest SOLCEX yield right now is 20.36% on raydium-amm (Solana), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=3311c809-c3e2-4d3c-b23b-a5493fdc5f56#src=seo_token) | Solana | 20.36% | $292K |
+| [raydium-amm →](https://www.defi.garden/?pool=3311c809-c3e2-4d3c-b23b-a5493fdc5f56#src=seo_token) | Solana | 20.36% | $292.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SOLCEX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $292K in total.
+1 live pool clear this page's $100K TVL floor, $292.5K in total.
 
 ### Are these rates safe?
 

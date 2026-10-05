@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest RECALL yield right now is 141.57% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RECALL yield right now is 46.33% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=4e01eb90-f885-40e9-a484-3624be86fd66#src=seo_token) | Base | 141.57% | $519K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=4e01eb90-f885-40e9-a484-3624be86fd66#src=seo_token) | Base | 46.33% | $550.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RECALL yield today?
 
-141.57% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+46.33% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many RECALL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $519K in total.
+1 live pool clear this page's $100K TVL floor, $550.5K in total.
 
 ### Are these rates safe?
 

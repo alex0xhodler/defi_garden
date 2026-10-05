@@ -35,7 +35,7 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| hydration-dex | 2.19% | 1.65% | Base rate |
+| hydration-dex | 2.19% | 1.66% | Base rate |
 | hydration-dex | 0.35% | 0.35% | Base rate |
 | curve-dex | 0.36% | 0.36% | Base rate |
 
@@ -49,7 +49,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many AUSDT pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $2.85M in total.
+3 live pools clear this page's $100K TVL floor, $2.84M in total.
 
 ### Are these rates safe?
 

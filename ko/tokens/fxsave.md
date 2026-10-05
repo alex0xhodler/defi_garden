@@ -2,28 +2,28 @@
 
 *DefiLlama 데이터 생성 시점 검증: October 5, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 FXSAVE의 가장 높은 정직한 수익률은 Ethereum의 pendle-v2에서 11.48%이며, $100K TVL 기준을 넘는 9개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 FXSAVE의 가장 높은 정직한 수익률은 Ethereum의 pendle-v2에서 11.45%이며, $100K TVL 기준을 넘는 9개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=9357d127-efb2-55fb-ab2f-005bf18f6d32#src=seo_token) | Ethereum | 4.77% | $29.84M |
+| [morpho-blue →](https://www.defi.garden/?pool=9357d127-efb2-55fb-ab2f-005bf18f6d32#src=seo_token) | Ethereum | 4.84% | $29.84M |
 | [pendle-v2 →](https://www.defi.garden/?pool=62f77482-8595-4279-872d-a02a806e9127#src=seo_token) | Ethereum | 8.80% | $1.41M |
-| [pendle-v2 →](https://www.defi.garden/?pool=3e79042b-3018-4559-8fdf-6851ae2537c5#src=seo_token) | Ethereum | 11.48% | $1.41M |
-| [morpho-blue →](https://www.defi.garden/?pool=61c9f747-788b-526f-858b-90458925ec3e#src=seo_token) | Ethereum | 5.49% | $1.25M |
+| [pendle-v2 →](https://www.defi.garden/?pool=3e79042b-3018-4559-8fdf-6851ae2537c5#src=seo_token) | Ethereum | 11.45% | $1.41M |
+| [morpho-blue →](https://www.defi.garden/?pool=61c9f747-788b-526f-858b-90458925ec3e#src=seo_token) | Ethereum | 5.48% | $1.25M |
 | [curve-dex →](https://www.defi.garden/?pool=d2cec87c-a53a-45bd-aeae-c98cbc599bc6#src=seo_token) | Ethereum | 4.09% | $706.1K |
 | [convex-finance →](https://www.defi.garden/?pool=c9c1eb2b-3a22-41e1-b896-4cbfc5c0ddb1#src=seo_token) | Ethereum | 4.09% | $485.8K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 FXSAVE의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 4.77%, TVL $29.84M, https://www.defi.garden/?pool=9357d127-efb2-55fb-ab2f-005bf18f6d32#src=seo_token; Ethereum의 pendle-v2, APY 8.80%, TVL $1.41M, https://www.defi.garden/?pool=62f77482-8595-4279-872d-a02a806e9127#src=seo_token; Ethereum의 morpho-blue, APY 5.49%, TVL $1.25M, https://www.defi.garden/?pool=61c9f747-788b-526f-858b-90458925ec3e#src=seo_token; Ethereum의 pendle-v2, APY 11.48%, TVL $1.41M, https://www.defi.garden/?pool=3e79042b-3018-4559-8fdf-6851ae2537c5#src=seo_token; Ethereum의 convex-finance, APY 4.09%, TVL $485.8K, https://www.defi.garden/?pool=c9c1eb2b-3a22-41e1-b896-4cbfc5c0ddb1#src=seo_token; Ethereum의 curve-dex, APY 4.09%, TVL $706.1K, https://www.defi.garden/?pool=d2cec87c-a53a-45bd-aeae-c98cbc599bc6#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 FXSAVE의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 4.84%, TVL $29.84M, https://www.defi.garden/?pool=9357d127-efb2-55fb-ab2f-005bf18f6d32#src=seo_token; Ethereum의 pendle-v2, APY 8.80%, TVL $1.41M, https://www.defi.garden/?pool=62f77482-8595-4279-872d-a02a806e9127#src=seo_token; Ethereum의 morpho-blue, APY 5.48%, TVL $1.25M, https://www.defi.garden/?pool=61c9f747-788b-526f-858b-90458925ec3e#src=seo_token; Ethereum의 pendle-v2, APY 11.45%, TVL $1.41M, https://www.defi.garden/?pool=3e79042b-3018-4559-8fdf-6851ae2537c5#src=seo_token; Ethereum의 convex-finance, APY 4.09%, TVL $485.8K, https://www.defi.garden/?pool=c9c1eb2b-3a22-41e1-b896-4cbfc5c0ddb1#src=seo_token; Ethereum의 curve-dex, APY 4.09%, TVL $706.1K, https://www.defi.garden/?pool=d2cec87c-a53a-45bd-aeae-c98cbc599bc6#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=9357d127-efb2-55fb-ab2f-005bf18f6d32#src=seo_token) | Ethereum | 4.77% | $29.84M |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=9357d127-efb2-55fb-ab2f-005bf18f6d32#src=seo_token) | Ethereum | 4.84% | $29.84M |
 | 2 | [pendle-v2 →](https://www.defi.garden/?pool=62f77482-8595-4279-872d-a02a806e9127#src=seo_token) | Ethereum | 8.80% | $1.41M |
-| 3 | [morpho-blue →](https://www.defi.garden/?pool=61c9f747-788b-526f-858b-90458925ec3e#src=seo_token) | Ethereum | 5.49% | $1.25M |
-| 4 | [pendle-v2 →](https://www.defi.garden/?pool=3e79042b-3018-4559-8fdf-6851ae2537c5#src=seo_token) | Ethereum | 11.48% | $1.41M |
+| 3 | [morpho-blue →](https://www.defi.garden/?pool=61c9f747-788b-526f-858b-90458925ec3e#src=seo_token) | Ethereum | 5.48% | $1.25M |
+| 4 | [pendle-v2 →](https://www.defi.garden/?pool=3e79042b-3018-4559-8fdf-6851ae2537c5#src=seo_token) | Ethereum | 11.45% | $1.41M |
 | 5 | [convex-finance →](https://www.defi.garden/?pool=c9c1eb2b-3a22-41e1-b896-4cbfc5c0ddb1#src=seo_token) | Ethereum | 4.09% | $485.8K |
 | 6 | [curve-dex →](https://www.defi.garden/?pool=d2cec87c-a53a-45bd-aeae-c98cbc599bc6#src=seo_token) | Ethereum | 4.09% | $706.1K |
 
@@ -31,7 +31,7 @@ APY 이력만 기준으로 비교한 FXSAVE의 변동성 낮은 후보는 Ethere
 
 ## 이 수익률은 어떻게 움직였을까요
 
-FXSAVE 풀은 여기 6개가 있고, 1개 체인에서 APY가 4.09%부터 11.48%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+FXSAVE 풀은 여기 6개가 있고, 1개 체인에서 APY가 4.09%부터 11.45%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 6개 풀 중 6개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 4.54%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -41,12 +41,12 @@ FXSAVE 풀은 여기 6개가 있고, 1개 체인에서 APY가 4.09%부터 11.48%
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| morpho-blue | 4.77% | 5.59% | 인센티브 100.00% |
+| morpho-blue | 4.84% | 5.59% | 인센티브 100.00% |
 | pendle-v2 | 8.80% | 8.66% | 기본 금리 |
-| pendle-v2 | 11.48% | 12.21% | 인센티브 1.88% |
-| morpho-blue | 5.49% | 3.11% | 인센티브 100.00% |
+| pendle-v2 | 11.45% | 12.21% | 인센티브 1.83% |
+| morpho-blue | 5.48% | 3.11% | 인센티브 100.00% |
 | curve-dex | 4.09% | 3.48% | 인센티브 0.00% |
-| convex-finance | 4.09% | 3.48% | 기본 금리 |
+| convex-finance | 4.09% | 3.49% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -54,7 +54,7 @@ FXSAVE 풀은 여기 6개가 있고, 1개 체인에서 APY가 4.09%부터 11.48%
 
 ### 오늘 FXSAVE의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 pendle-v2에서 APY 11.48%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 pendle-v2에서 APY 11.45%예요.
 
 ### FXSAVE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -66,7 +66,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle-v2에서 APY 11.48%예�
 
 ### FXSAVE 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 FXSAVE의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 4.77%, TVL $29.84M, https://www.defi.garden/?pool=9357d127-efb2-55fb-ab2f-005bf18f6d32#src=seo_token; Ethereum의 pendle-v2, APY 8.80%, TVL $1.41M, https://www.defi.garden/?pool=62f77482-8595-4279-872d-a02a806e9127#src=seo_token; Ethereum의 morpho-blue, APY 5.49%, TVL $1.25M, https://www.defi.garden/?pool=61c9f747-788b-526f-858b-90458925ec3e#src=seo_token; Ethereum의 pendle-v2, APY 11.48%, TVL $1.41M, https://www.defi.garden/?pool=3e79042b-3018-4559-8fdf-6851ae2537c5#src=seo_token; Ethereum의 convex-finance, APY 4.09%, TVL $485.8K, https://www.defi.garden/?pool=c9c1eb2b-3a22-41e1-b896-4cbfc5c0ddb1#src=seo_token; Ethereum의 curve-dex, APY 4.09%, TVL $706.1K, https://www.defi.garden/?pool=d2cec87c-a53a-45bd-aeae-c98cbc599bc6#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 FXSAVE의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 4.84%, TVL $29.84M, https://www.defi.garden/?pool=9357d127-efb2-55fb-ab2f-005bf18f6d32#src=seo_token; Ethereum의 pendle-v2, APY 8.80%, TVL $1.41M, https://www.defi.garden/?pool=62f77482-8595-4279-872d-a02a806e9127#src=seo_token; Ethereum의 morpho-blue, APY 5.48%, TVL $1.25M, https://www.defi.garden/?pool=61c9f747-788b-526f-858b-90458925ec3e#src=seo_token; Ethereum의 pendle-v2, APY 11.45%, TVL $1.41M, https://www.defi.garden/?pool=3e79042b-3018-4559-8fdf-6851ae2537c5#src=seo_token; Ethereum의 convex-finance, APY 4.09%, TVL $485.8K, https://www.defi.garden/?pool=c9c1eb2b-3a22-41e1-b896-4cbfc5c0ddb1#src=seo_token; Ethereum의 curve-dex, APY 4.09%, TVL $706.1K, https://www.defi.garden/?pool=d2cec87c-a53a-45bd-aeae-c98cbc599bc6#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

@@ -6,7 +6,7 @@ The highest honest MIGGLES yield right now is 3.51% on uniswap-v2 (Base), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=e6e9f892-4f97-4115-9525-98dbbf92a868#src=seo_token) | Base | 3.51% | $433.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=e6e9f892-4f97-4115-9525-98dbbf92a868#src=seo_token) | Base | 3.51% | $431.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MIGGLES pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $433.2K in total.
+1 live pool clear this page's $100K TVL floor, $431.2K in total.
 
 ### Are these rates safe?
 

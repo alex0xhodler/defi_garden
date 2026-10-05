@@ -6,7 +6,7 @@ The highest honest KELLYCLAUDE yield right now is 0.40% on uniswap-v4 (Base), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=b000c1b5-b484-4349-8cec-c7cba2da7254#src=seo_token) | Base | 0.40% | $787.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=b000c1b5-b484-4349-8cec-c7cba2da7254#src=seo_token) | Base | 0.40% | $783.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many KELLYCLAUDE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $787.9K in total.
+1 live pool clear this page's $100K TVL floor, $783.8K in total.
 
 ### Are these rates safe?
 

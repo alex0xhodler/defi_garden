@@ -2,11 +2,11 @@
 
 *DefiLlama 데이터 생성 시점 검증: October 5, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 PRN의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v4에서 1.13%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 PRN의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v4에서 0.56%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=1933424f-8d4f-56ff-adf0-4101ca911154#src=seo_token) | Ethereum | 1.13% | $159.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=1933424f-8d4f-56ff-adf0-4101ca911154#src=seo_token) | Ethereum | 0.56% | $159.2K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,7 +19,7 @@
 
 ### 오늘 PRN의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 1.13%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 0.56%예요.
 
 ### PRN 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

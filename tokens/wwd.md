@@ -6,7 +6,7 @@ The highest honest WWD yield right now is 0.01% on uniswap-v3 (Polygon), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=bf5dac09-8ea3-4ce2-af60-4c65754f9de5#src=seo_token) | Polygon | 0.01% | $270.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=bf5dac09-8ea3-4ce2-af60-4c65754f9de5#src=seo_token) | Polygon | 0.01% | $237.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WWD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $270.8K in total.
+1 live pool clear this page's $100K TVL floor, $237.2K in total.
 
 ### Are these rates safe?
 

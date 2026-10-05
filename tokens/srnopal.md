@@ -6,7 +6,7 @@ The highest honest SRNOPAL yield right now is 8.60% on strata-markets (Ethereum)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=37925366-b5d4-579d-88d5-7ae9aed9056d#src=seo_token) | Ethereum | 8.60% | $110.2K |
+| [strata-markets →](https://www.defi.garden/?pool=37925366-b5d4-579d-88d5-7ae9aed9056d#src=seo_token) | Ethereum | 8.60% | $110.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SRNOPAL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $110.2K in total.
+1 live pool clear this page's $100K TVL floor, $110.3K in total.
 
 ### Are these rates safe?
 

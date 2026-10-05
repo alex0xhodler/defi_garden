@@ -6,20 +6,20 @@ The highest honest GEMSTON yield right now is 0.08% on ston.fi (TON), among 3 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ston.fi →](https://www.defi.garden/?pool=709d3202-736e-4bd7-a5fb-bec843ea02ef#src=seo_token) | TON | 0.72% | $218.9K |
-| [ston.fi →](https://www.defi.garden/?pool=bc7ac7ae-ef98-4a0a-b352-9c58d082859d#src=seo_token) | TON | 0.08% | $134.8K |
-| [ston.fi →](https://www.defi.garden/?pool=5dfe41e2-3f9f-42bd-be29-0f16f8e48f4c#src=seo_token) | TON | 0.57% | $119.2K |
+| [ston.fi →](https://www.defi.garden/?pool=709d3202-736e-4bd7-a5fb-bec843ea02ef#src=seo_token) | TON | 0.72% | $218.4K |
+| [ston.fi →](https://www.defi.garden/?pool=bc7ac7ae-ef98-4a0a-b352-9c58d082859d#src=seo_token) | TON | 0.08% | $134.2K |
+| [ston.fi →](https://www.defi.garden/?pool=5dfe41e2-3f9f-42bd-be29-0f16f8e48f4c#src=seo_token) | TON | 0.63% | $118.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, GEMSTON's lower-variability candidates are ston.fi (TON), 0.08% APY, $134.8K TVL, https://www.defi.garden/?pool=bc7ac7ae-ef98-4a0a-b352-9c58d082859d#src=seo_token; ston.fi (TON), 0.57% APY, $119.2K TVL, https://www.defi.garden/?pool=5dfe41e2-3f9f-42bd-be29-0f16f8e48f4c#src=seo_token; ston.fi (TON), 0.72% APY, $218.9K TVL, https://www.defi.garden/?pool=709d3202-736e-4bd7-a5fb-bec843ea02ef#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GEMSTON's lower-variability candidates are ston.fi (TON), 0.08% APY, $134.2K TVL, https://www.defi.garden/?pool=bc7ac7ae-ef98-4a0a-b352-9c58d082859d#src=seo_token; ston.fi (TON), 0.63% APY, $118.2K TVL, https://www.defi.garden/?pool=5dfe41e2-3f9f-42bd-be29-0f16f8e48f4c#src=seo_token; ston.fi (TON), 0.72% APY, $218.4K TVL, https://www.defi.garden/?pool=709d3202-736e-4bd7-a5fb-bec843ea02ef#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [ston.fi →](https://www.defi.garden/?pool=bc7ac7ae-ef98-4a0a-b352-9c58d082859d#src=seo_token) | TON | 0.08% | $134.8K |
-| 2 | [ston.fi →](https://www.defi.garden/?pool=5dfe41e2-3f9f-42bd-be29-0f16f8e48f4c#src=seo_token) | TON | 0.57% | $119.2K |
-| 3 | [ston.fi →](https://www.defi.garden/?pool=709d3202-736e-4bd7-a5fb-bec843ea02ef#src=seo_token) | TON | 0.72% | $218.9K |
+| 1 | [ston.fi →](https://www.defi.garden/?pool=bc7ac7ae-ef98-4a0a-b352-9c58d082859d#src=seo_token) | TON | 0.08% | $134.2K |
+| 2 | [ston.fi →](https://www.defi.garden/?pool=5dfe41e2-3f9f-42bd-be29-0f16f8e48f4c#src=seo_token) | TON | 0.63% | $118.2K |
+| 3 | [ston.fi →](https://www.defi.garden/?pool=709d3202-736e-4bd7-a5fb-bec843ea02ef#src=seo_token) | TON | 0.72% | $218.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -37,7 +37,7 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 |---|---|---|---|
 | ston.fi | 0.72% | 1.50% | Base rate |
 | ston.fi | 0.08% | 0.53% | Base rate |
-| ston.fi | 0.57% | 1.83% | Base rate |
+| ston.fi | 0.63% | 1.82% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -49,7 +49,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many GEMSTON pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $473K in total.
+3 live pools clear this page's $100K TVL floor, $470.8K in total.
 
 ### Are these rates safe?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which GEMSTON pools have the most stable APY history?
 
-Based on APY history only, GEMSTON's lower-variability candidates are ston.fi (TON), 0.08% APY, $134.8K TVL, https://www.defi.garden/?pool=bc7ac7ae-ef98-4a0a-b352-9c58d082859d#src=seo_token; ston.fi (TON), 0.57% APY, $119.2K TVL, https://www.defi.garden/?pool=5dfe41e2-3f9f-42bd-be29-0f16f8e48f4c#src=seo_token; ston.fi (TON), 0.72% APY, $218.9K TVL, https://www.defi.garden/?pool=709d3202-736e-4bd7-a5fb-bec843ea02ef#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GEMSTON's lower-variability candidates are ston.fi (TON), 0.08% APY, $134.2K TVL, https://www.defi.garden/?pool=bc7ac7ae-ef98-4a0a-b352-9c58d082859d#src=seo_token; ston.fi (TON), 0.63% APY, $118.2K TVL, https://www.defi.garden/?pool=5dfe41e2-3f9f-42bd-be29-0f16f8e48f4c#src=seo_token; ston.fi (TON), 0.72% APY, $218.4K TVL, https://www.defi.garden/?pool=709d3202-736e-4bd7-a5fb-bec843ea02ef#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

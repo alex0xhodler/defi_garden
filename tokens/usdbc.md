@@ -2,42 +2,42 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest USDBC yield right now is 197.97% on aerodrome-v1 (Base), among 10 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDBC yield right now is 196.93% on aerodrome-v1 (Base), among 10 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=496e70c2-a577-4a71-bbc7-32d6c677272d#src=seo_token) | Base | 18.11% | $295.1K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=56b16fb3-5d3c-4fd9-8cee-b131a50d7422#src=seo_token) | Base | 10.98% | $265.3K |
-| [curve-dex →](https://www.defi.garden/?pool=05979e07-baf5-4f94-b417-19bf64130e1d#src=seo_token) | Base | 6.05% | $256K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=3f3e95c7-e672-50e5-b50c-bb13c7ef6b55#src=seo_token) | Base | 197.97% | $236.4K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=a520562f-03b9-4502-bea1-fba48b05099d#src=seo_token) | Base | 0.52% | $143.7K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=496e70c2-a577-4a71-bbc7-32d6c677272d#src=seo_token) | Base | 18.03% | $293.9K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=56b16fb3-5d3c-4fd9-8cee-b131a50d7422#src=seo_token) | Base | 10.92% | $264.5K |
+| [curve-dex →](https://www.defi.garden/?pool=05979e07-baf5-4f94-b417-19bf64130e1d#src=seo_token) | Base | 6.01% | $256K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=3f3e95c7-e672-50e5-b50c-bb13c7ef6b55#src=seo_token) | Base | 196.93% | $235.6K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=a520562f-03b9-4502-bea1-fba48b05099d#src=seo_token) | Base | 0.54% | $143.7K |
 | [alien-base-v3 →](https://www.defi.garden/?pool=7352417e-acff-4afb-a4c7-c04dd8deda20#src=seo_token) | Base | 0.02% | $135.7K |
-| [alien-base-v3 →](https://www.defi.garden/?pool=aed8cb93-db45-4512-af89-e54b402ff235#src=seo_token) | Base | 6.24% | $127.5K |
-| [symbiosis →](https://www.defi.garden/?pool=99a26a4c-5b01-4ad1-b230-78d59be9424b#src=seo_token) | Base | 1.58% | $126.6K |
+| [alien-base-v3 →](https://www.defi.garden/?pool=aed8cb93-db45-4512-af89-e54b402ff235#src=seo_token) | Base | 6.35% | $127.5K |
+| [symbiosis →](https://www.defi.garden/?pool=99a26a4c-5b01-4ad1-b230-78d59be9424b#src=seo_token) | Base | 1.58% | $126.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, USDBC's lower-variability candidates are alien-base-v3 (Base), 0.02% APY, $135.7K TVL, https://www.defi.garden/?pool=7352417e-acff-4afb-a4c7-c04dd8deda20#src=seo_token; symbiosis (Base), 1.58% APY, $126.6K TVL, https://www.defi.garden/?pool=99a26a4c-5b01-4ad1-b230-78d59be9424b#src=seo_token; aerodrome-v1 (Base), 10.98% APY, $265.3K TVL, https://www.defi.garden/?pool=56b16fb3-5d3c-4fd9-8cee-b131a50d7422#src=seo_token; alien-base-v3 (Base), 6.24% APY, $127.5K TVL, https://www.defi.garden/?pool=aed8cb93-db45-4512-af89-e54b402ff235#src=seo_token; curve-dex (Base), 6.05% APY, $256K TVL, https://www.defi.garden/?pool=05979e07-baf5-4f94-b417-19bf64130e1d#src=seo_token; aerodrome-slipstream (Base), 0.52% APY, $143.7K TVL, https://www.defi.garden/?pool=a520562f-03b9-4502-bea1-fba48b05099d#src=seo_token; aerodrome-v1 (Base), 18.11% APY, $295.1K TVL, https://www.defi.garden/?pool=496e70c2-a577-4a71-bbc7-32d6c677272d#src=seo_token; aerodrome-v1 (Base), 197.97% APY, $236.4K TVL, https://www.defi.garden/?pool=3f3e95c7-e672-50e5-b50c-bb13c7ef6b55#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDBC's lower-variability candidates are alien-base-v3 (Base), 0.02% APY, $135.7K TVL, https://www.defi.garden/?pool=7352417e-acff-4afb-a4c7-c04dd8deda20#src=seo_token; symbiosis (Base), 1.58% APY, $126.3K TVL, https://www.defi.garden/?pool=99a26a4c-5b01-4ad1-b230-78d59be9424b#src=seo_token; aerodrome-v1 (Base), 10.92% APY, $264.5K TVL, https://www.defi.garden/?pool=56b16fb3-5d3c-4fd9-8cee-b131a50d7422#src=seo_token; alien-base-v3 (Base), 6.35% APY, $127.5K TVL, https://www.defi.garden/?pool=aed8cb93-db45-4512-af89-e54b402ff235#src=seo_token; curve-dex (Base), 6.01% APY, $256K TVL, https://www.defi.garden/?pool=05979e07-baf5-4f94-b417-19bf64130e1d#src=seo_token; aerodrome-slipstream (Base), 0.54% APY, $143.7K TVL, https://www.defi.garden/?pool=a520562f-03b9-4502-bea1-fba48b05099d#src=seo_token; aerodrome-v1 (Base), 18.03% APY, $293.9K TVL, https://www.defi.garden/?pool=496e70c2-a577-4a71-bbc7-32d6c677272d#src=seo_token; aerodrome-v1 (Base), 196.93% APY, $235.6K TVL, https://www.defi.garden/?pool=3f3e95c7-e672-50e5-b50c-bb13c7ef6b55#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [alien-base-v3 →](https://www.defi.garden/?pool=7352417e-acff-4afb-a4c7-c04dd8deda20#src=seo_token) | Base | 0.02% | $135.7K |
-| 2 | [symbiosis →](https://www.defi.garden/?pool=99a26a4c-5b01-4ad1-b230-78d59be9424b#src=seo_token) | Base | 1.58% | $126.6K |
-| 3 | [aerodrome-v1 →](https://www.defi.garden/?pool=56b16fb3-5d3c-4fd9-8cee-b131a50d7422#src=seo_token) | Base | 10.98% | $265.3K |
-| 4 | [alien-base-v3 →](https://www.defi.garden/?pool=aed8cb93-db45-4512-af89-e54b402ff235#src=seo_token) | Base | 6.24% | $127.5K |
-| 5 | [curve-dex →](https://www.defi.garden/?pool=05979e07-baf5-4f94-b417-19bf64130e1d#src=seo_token) | Base | 6.05% | $256K |
-| 6 | [aerodrome-slipstream →](https://www.defi.garden/?pool=a520562f-03b9-4502-bea1-fba48b05099d#src=seo_token) | Base | 0.52% | $143.7K |
-| 7 | [aerodrome-v1 →](https://www.defi.garden/?pool=496e70c2-a577-4a71-bbc7-32d6c677272d#src=seo_token) | Base | 18.11% | $295.1K |
-| 8 | [aerodrome-v1 →](https://www.defi.garden/?pool=3f3e95c7-e672-50e5-b50c-bb13c7ef6b55#src=seo_token) | Base | 197.97% | $236.4K |
+| 2 | [symbiosis →](https://www.defi.garden/?pool=99a26a4c-5b01-4ad1-b230-78d59be9424b#src=seo_token) | Base | 1.58% | $126.3K |
+| 3 | [aerodrome-v1 →](https://www.defi.garden/?pool=56b16fb3-5d3c-4fd9-8cee-b131a50d7422#src=seo_token) | Base | 10.92% | $264.5K |
+| 4 | [alien-base-v3 →](https://www.defi.garden/?pool=aed8cb93-db45-4512-af89-e54b402ff235#src=seo_token) | Base | 6.35% | $127.5K |
+| 5 | [curve-dex →](https://www.defi.garden/?pool=05979e07-baf5-4f94-b417-19bf64130e1d#src=seo_token) | Base | 6.01% | $256K |
+| 6 | [aerodrome-slipstream →](https://www.defi.garden/?pool=a520562f-03b9-4502-bea1-fba48b05099d#src=seo_token) | Base | 0.54% | $143.7K |
+| 7 | [aerodrome-v1 →](https://www.defi.garden/?pool=496e70c2-a577-4a71-bbc7-32d6c677272d#src=seo_token) | Base | 18.03% | $293.9K |
+| 8 | [aerodrome-v1 →](https://www.defi.garden/?pool=3f3e95c7-e672-50e5-b50c-bb13c7ef6b55#src=seo_token) | Base | 196.93% | $235.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-USDBC shows up in 8 pools here, with rates from 0.02% to 197.97% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+USDBC shows up in 8 pools here, with rates from 0.02% to 196.93% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 5.41% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 5.42% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 6 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -45,13 +45,13 @@ USDBC shows up in 8 pools here, with rates from 0.02% to 197.97% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-v1 | 18.11% | 17.49% | 100.00% incentives |
-| aerodrome-v1 | 10.98% | 10.74% | 100.00% incentives |
-| curve-dex | 6.05% | 5.58% | 99.50% incentives |
-| aerodrome-v1 | 197.97% | 144.81% | 100.00% incentives |
-| aerodrome-slipstream | 0.52% | 1.52% | 65.90% incentives |
+| aerodrome-v1 | 18.03% | 17.49% | 100.00% incentives |
+| aerodrome-v1 | 10.92% | 10.74% | 100.00% incentives |
+| curve-dex | 6.01% | 5.58% | 99.50% incentives |
+| aerodrome-v1 | 196.93% | 145.08% | 100.00% incentives |
+| aerodrome-slipstream | 0.54% | 1.52% | 63.59% incentives |
 | alien-base-v3 | 0.02% | 0.13% | Base rate |
-| alien-base-v3 | 6.24% | 5.25% | 94.02% incentives |
+| alien-base-v3 | 6.35% | 5.26% | 94.11% incentives |
 | symbiosis | 1.58% | 2.13% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -60,7 +60,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USDBC yield today?
 
-197.97% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+196.93% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many USDBC pools clear the TVL floor?
 
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USDBC pools have the most stable APY history?
 
-Based on APY history only, USDBC's lower-variability candidates are alien-base-v3 (Base), 0.02% APY, $135.7K TVL, https://www.defi.garden/?pool=7352417e-acff-4afb-a4c7-c04dd8deda20#src=seo_token; symbiosis (Base), 1.58% APY, $126.6K TVL, https://www.defi.garden/?pool=99a26a4c-5b01-4ad1-b230-78d59be9424b#src=seo_token; aerodrome-v1 (Base), 10.98% APY, $265.3K TVL, https://www.defi.garden/?pool=56b16fb3-5d3c-4fd9-8cee-b131a50d7422#src=seo_token; alien-base-v3 (Base), 6.24% APY, $127.5K TVL, https://www.defi.garden/?pool=aed8cb93-db45-4512-af89-e54b402ff235#src=seo_token; curve-dex (Base), 6.05% APY, $256K TVL, https://www.defi.garden/?pool=05979e07-baf5-4f94-b417-19bf64130e1d#src=seo_token; aerodrome-slipstream (Base), 0.52% APY, $143.7K TVL, https://www.defi.garden/?pool=a520562f-03b9-4502-bea1-fba48b05099d#src=seo_token; aerodrome-v1 (Base), 18.11% APY, $295.1K TVL, https://www.defi.garden/?pool=496e70c2-a577-4a71-bbc7-32d6c677272d#src=seo_token; aerodrome-v1 (Base), 197.97% APY, $236.4K TVL, https://www.defi.garden/?pool=3f3e95c7-e672-50e5-b50c-bb13c7ef6b55#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDBC's lower-variability candidates are alien-base-v3 (Base), 0.02% APY, $135.7K TVL, https://www.defi.garden/?pool=7352417e-acff-4afb-a4c7-c04dd8deda20#src=seo_token; symbiosis (Base), 1.58% APY, $126.3K TVL, https://www.defi.garden/?pool=99a26a4c-5b01-4ad1-b230-78d59be9424b#src=seo_token; aerodrome-v1 (Base), 10.92% APY, $264.5K TVL, https://www.defi.garden/?pool=56b16fb3-5d3c-4fd9-8cee-b131a50d7422#src=seo_token; alien-base-v3 (Base), 6.35% APY, $127.5K TVL, https://www.defi.garden/?pool=aed8cb93-db45-4512-af89-e54b402ff235#src=seo_token; curve-dex (Base), 6.01% APY, $256K TVL, https://www.defi.garden/?pool=05979e07-baf5-4f94-b417-19bf64130e1d#src=seo_token; aerodrome-slipstream (Base), 0.54% APY, $143.7K TVL, https://www.defi.garden/?pool=a520562f-03b9-4502-bea1-fba48b05099d#src=seo_token; aerodrome-v1 (Base), 18.03% APY, $293.9K TVL, https://www.defi.garden/?pool=496e70c2-a577-4a71-bbc7-32d6c677272d#src=seo_token; aerodrome-v1 (Base), 196.93% APY, $235.6K TVL, https://www.defi.garden/?pool=3f3e95c7-e672-50e5-b50c-bb13c7ef6b55#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

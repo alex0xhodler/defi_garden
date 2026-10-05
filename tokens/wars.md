@@ -2,29 +2,29 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest WARS yield right now is 20.75% on morpho-blue (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WARS yield right now is 20.16% on morpho-blue (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39#src=seo_token) | Ethereum | 20.75% | $7.14M |
+| [morpho-blue →](https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39#src=seo_token) | Ethereum | 20.16% | $7.14M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=cf723543-a6a0-5ebd-82ec-57b0b390f858#src=seo_token) | Base | 0.01% | $235K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=dbb75486-4a6d-5cb2-aff8-bb463a393270#src=seo_token) | Celo | 0.04% | $108.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WARS's lower-variability candidates are uniswap-v4 (Base), 0.01% APY, $235K TVL, https://www.defi.garden/?pool=cf723543-a6a0-5ebd-82ec-57b0b390f858#src=seo_token; morpho-blue (Ethereum), 20.75% APY, $7.14M TVL, https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WARS's lower-variability candidates are uniswap-v4 (Base), 0.01% APY, $235K TVL, https://www.defi.garden/?pool=cf723543-a6a0-5ebd-82ec-57b0b390f858#src=seo_token; morpho-blue (Ethereum), 20.16% APY, $7.14M TVL, https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v4 →](https://www.defi.garden/?pool=cf723543-a6a0-5ebd-82ec-57b0b390f858#src=seo_token) | Base | 0.01% | $235K |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39#src=seo_token) | Ethereum | 20.75% | $7.14M |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39#src=seo_token) | Ethereum | 20.16% | $7.14M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WARS shows up in 3 pools here, with rates from 0.01% to 20.75% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+WARS shows up in 3 pools here, with rates from 0.01% to 20.16% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.28% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -34,7 +34,7 @@ WARS shows up in 3 pools here, with rates from 0.01% to 20.75% APY across 3 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 20.75% | 23.44% | 100.00% incentives |
+| morpho-blue | 20.16% | 23.43% | 96.69% incentives |
 | uniswap-v4 | 0.01% | 0.28% | Base rate |
 | uniswap-v3 | 0.04% | 0.20% | Base rate |
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WARS yield today?
 
-20.75% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+20.16% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many WARS pools clear the TVL floor?
 
@@ -56,7 +56,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WARS pools have the most stable APY history?
 
-Based on APY history only, WARS's lower-variability candidates are uniswap-v4 (Base), 0.01% APY, $235K TVL, https://www.defi.garden/?pool=cf723543-a6a0-5ebd-82ec-57b0b390f858#src=seo_token; morpho-blue (Ethereum), 20.75% APY, $7.14M TVL, https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WARS's lower-variability candidates are uniswap-v4 (Base), 0.01% APY, $235K TVL, https://www.defi.garden/?pool=cf723543-a6a0-5ebd-82ec-57b0b390f858#src=seo_token; morpho-blue (Ethereum), 20.16% APY, $7.14M TVL, https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

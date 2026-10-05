@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest VINE yield right now is 1.92% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VINE yield right now is 1.94% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=470dd76d-850f-49db-861a-0f675735ec57#src=seo_token) | Solana | 1.92% | $1.72M |
+| [raydium-amm →](https://www.defi.garden/?pool=470dd76d-850f-49db-861a-0f675735ec57#src=seo_token) | Solana | 1.94% | $1.71M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest VINE yield today?
 
-1.92% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.94% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many VINE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.72M in total.
+1 live pool clear this page's $100K TVL floor, $1.71M in total.
 
 ### Are these rates safe?
 

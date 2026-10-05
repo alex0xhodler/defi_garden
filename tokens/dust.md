@@ -6,7 +6,7 @@ The highest honest DUST yield right now is 4.75% on dedust (TON), among 1 pool a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [dedust →](https://www.defi.garden/?pool=1a2f063e-26cf-4840-adc6-dfc5df54a393#src=seo_token) | TON | 4.75% | $114.5K |
+| [dedust →](https://www.defi.garden/?pool=1a2f063e-26cf-4840-adc6-dfc5df54a393#src=seo_token) | TON | 4.75% | $114.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DUST pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $114.5K in total.
+1 live pool clear this page's $100K TVL floor, $114.3K in total.
 
 ### Are these rates safe?
 

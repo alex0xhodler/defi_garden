@@ -2,34 +2,34 @@
 
 *DefiLlama 데이터 생성 시점 검증: October 5, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 YMVOG의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 7.26%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 YMVOG의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 7.18%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=0b5fa01f-9759-4401-b15b-f9ed6fd06e2b#src=seo_token) | Ethereum | 7.26% | $10.61M |
-| [morpho-blue →](https://www.defi.garden/?pool=50f2d0ab-a2ed-4c90-a92c-a8565a1a207c#src=seo_token) | Ethereum | 1.99% | $3.74M |
+| [morpho-blue →](https://www.defi.garden/?pool=0b5fa01f-9759-4401-b15b-f9ed6fd06e2b#src=seo_token) | Ethereum | 7.18% | $10.61M |
+| [morpho-blue →](https://www.defi.garden/?pool=50f2d0ab-a2ed-4c90-a92c-a8565a1a207c#src=seo_token) | Ethereum | 1.99% | $3.72M |
 | [morpho-blue →](https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a#src=seo_token) | Katana | 3.33% | $3.39M |
-| [morpho-blue →](https://www.defi.garden/?pool=ba74d2b3-ed94-45b2-8536-92dcc29dac8e#src=seo_token) | Base | 4.79% | $1.6M |
-| [morpho-blue →](https://www.defi.garden/?pool=5a755e4c-df1c-5890-bfdc-ef9cfca6b5ca#src=seo_token) | Katana | 5.66% | $1.19M |
+| [morpho-blue →](https://www.defi.garden/?pool=ba74d2b3-ed94-45b2-8536-92dcc29dac8e#src=seo_token) | Base | 4.79% | $1.71M |
+| [morpho-blue →](https://www.defi.garden/?pool=5a755e4c-df1c-5890-bfdc-ef9cfca6b5ca#src=seo_token) | Katana | 5.58% | $1.19M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 YMVOG의 변동성 낮은 후보는 Base의 morpho-blue, APY 4.79%, TVL $1.6M, https://www.defi.garden/?pool=ba74d2b3-ed94-45b2-8536-92dcc29dac8e#src=seo_token; Ethereum의 morpho-blue, APY 1.99%, TVL $3.74M, https://www.defi.garden/?pool=50f2d0ab-a2ed-4c90-a92c-a8565a1a207c#src=seo_token; Ethereum의 morpho-blue, APY 7.26%, TVL $10.61M, https://www.defi.garden/?pool=0b5fa01f-9759-4401-b15b-f9ed6fd06e2b#src=seo_token; Katana의 morpho-blue, APY 3.33%, TVL $3.39M, https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a#src=seo_token; Katana의 morpho-blue, APY 5.66%, TVL $1.19M, https://www.defi.garden/?pool=5a755e4c-df1c-5890-bfdc-ef9cfca6b5ca#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 YMVOG의 변동성 낮은 후보는 Base의 morpho-blue, APY 4.79%, TVL $1.71M, https://www.defi.garden/?pool=ba74d2b3-ed94-45b2-8536-92dcc29dac8e#src=seo_token; Ethereum의 morpho-blue, APY 1.99%, TVL $3.72M, https://www.defi.garden/?pool=50f2d0ab-a2ed-4c90-a92c-a8565a1a207c#src=seo_token; Ethereum의 morpho-blue, APY 7.18%, TVL $10.61M, https://www.defi.garden/?pool=0b5fa01f-9759-4401-b15b-f9ed6fd06e2b#src=seo_token; Katana의 morpho-blue, APY 3.33%, TVL $3.39M, https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a#src=seo_token; Katana의 morpho-blue, APY 5.58%, TVL $1.19M, https://www.defi.garden/?pool=5a755e4c-df1c-5890-bfdc-ef9cfca6b5ca#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=ba74d2b3-ed94-45b2-8536-92dcc29dac8e#src=seo_token) | Base | 4.79% | $1.6M |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=50f2d0ab-a2ed-4c90-a92c-a8565a1a207c#src=seo_token) | Ethereum | 1.99% | $3.74M |
-| 3 | [morpho-blue →](https://www.defi.garden/?pool=0b5fa01f-9759-4401-b15b-f9ed6fd06e2b#src=seo_token) | Ethereum | 7.26% | $10.61M |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=ba74d2b3-ed94-45b2-8536-92dcc29dac8e#src=seo_token) | Base | 4.79% | $1.71M |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=50f2d0ab-a2ed-4c90-a92c-a8565a1a207c#src=seo_token) | Ethereum | 1.99% | $3.72M |
+| 3 | [morpho-blue →](https://www.defi.garden/?pool=0b5fa01f-9759-4401-b15b-f9ed6fd06e2b#src=seo_token) | Ethereum | 7.18% | $10.61M |
 | 4 | [morpho-blue →](https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a#src=seo_token) | Katana | 3.33% | $3.39M |
-| 5 | [morpho-blue →](https://www.defi.garden/?pool=5a755e4c-df1c-5890-bfdc-ef9cfca6b5ca#src=seo_token) | Katana | 5.66% | $1.19M |
+| 5 | [morpho-blue →](https://www.defi.garden/?pool=5a755e4c-df1c-5890-bfdc-ef9cfca6b5ca#src=seo_token) | Katana | 5.58% | $1.19M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-YMVOG 풀은 여기 5개가 있고, 3개 체인에서 APY가 1.99%부터 7.26%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+YMVOG 풀은 여기 5개가 있고, 3개 체인에서 APY가 1.99%부터 7.18%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 4.29%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -39,11 +39,11 @@ YMVOG 풀은 여기 5개가 있고, 3개 체인에서 APY가 1.99%부터 7.26%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| morpho-blue | 7.26% | 7.07% | 인센티브 5.32% |
+| morpho-blue | 7.18% | 7.07% | 인센티브 5.37% |
 | morpho-blue | 1.99% | 1.95% | 기본 금리 |
-| morpho-blue | 3.33% | 3.64% | 인센티브 33.07% |
+| morpho-blue | 3.33% | 3.63% | 인센티브 32.94% |
 | morpho-blue | 4.79% | 4.75% | 기본 금리 |
-| morpho-blue | 5.66% | 4.29% | 기본 금리 |
+| morpho-blue | 5.58% | 4.29% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -51,11 +51,11 @@ YMVOG 풀은 여기 5개가 있고, 3개 체인에서 APY가 1.99%부터 7.26%�
 
 ### 오늘 YMVOG의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 7.26%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 7.18%예요.
 
 ### YMVOG 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $20.53M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $20.61M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -63,7 +63,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 7.26%예
 
 ### YMVOG 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 YMVOG의 변동성 낮은 후보는 Base의 morpho-blue, APY 4.79%, TVL $1.6M, https://www.defi.garden/?pool=ba74d2b3-ed94-45b2-8536-92dcc29dac8e#src=seo_token; Ethereum의 morpho-blue, APY 1.99%, TVL $3.74M, https://www.defi.garden/?pool=50f2d0ab-a2ed-4c90-a92c-a8565a1a207c#src=seo_token; Ethereum의 morpho-blue, APY 7.26%, TVL $10.61M, https://www.defi.garden/?pool=0b5fa01f-9759-4401-b15b-f9ed6fd06e2b#src=seo_token; Katana의 morpho-blue, APY 3.33%, TVL $3.39M, https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a#src=seo_token; Katana의 morpho-blue, APY 5.66%, TVL $1.19M, https://www.defi.garden/?pool=5a755e4c-df1c-5890-bfdc-ef9cfca6b5ca#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 YMVOG의 변동성 낮은 후보는 Base의 morpho-blue, APY 4.79%, TVL $1.71M, https://www.defi.garden/?pool=ba74d2b3-ed94-45b2-8536-92dcc29dac8e#src=seo_token; Ethereum의 morpho-blue, APY 1.99%, TVL $3.72M, https://www.defi.garden/?pool=50f2d0ab-a2ed-4c90-a92c-a8565a1a207c#src=seo_token; Ethereum의 morpho-blue, APY 7.18%, TVL $10.61M, https://www.defi.garden/?pool=0b5fa01f-9759-4401-b15b-f9ed6fd06e2b#src=seo_token; Katana의 morpho-blue, APY 3.33%, TVL $3.39M, https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a#src=seo_token; Katana의 morpho-blue, APY 5.58%, TVL $1.19M, https://www.defi.garden/?pool=5a755e4c-df1c-5890-bfdc-ef9cfca6b5ca#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

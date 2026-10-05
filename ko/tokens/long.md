@@ -2,11 +2,11 @@
 
 *DefiLlama 데이터 생성 시점 검증: October 5, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 LONG의 가장 높은 정직한 수익률은 ZKsync Era의 zkswap-v2에서 0.28%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 LONG의 가장 높은 정직한 수익률은 ZKsync Era의 zkswap-v2에서 0.26%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [zkswap-v2 →](https://www.defi.garden/?pool=472dd466-6dd3-425d-aa76-5ccc7c59faa5#src=seo_token) | ZKsync Era | 0.28% | $252.8K |
+| [zkswap-v2 →](https://www.defi.garden/?pool=472dd466-6dd3-425d-aa76-5ccc7c59faa5#src=seo_token) | ZKsync Era | 0.26% | $252.8K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,7 +19,7 @@
 
 ### 오늘 LONG의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, ZKsync Era의 zkswap-v2에서 APY 0.28%예요.
+DefiLlama 실시간 데이터 기준, ZKsync Era의 zkswap-v2에서 APY 0.26%예요.
 
 ### LONG 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

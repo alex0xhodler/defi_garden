@@ -7,18 +7,18 @@ The highest honest PRO yield right now is 0.16% on uniswap-v3 (Base), among 3 po
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=443ecf71-b23d-42ec-a9e2-c34177dc3206#src=seo_token) | Ethereum | 1.14% | $335.2K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=0c32e8b6-5b4c-4e96-9f73-bba2a9328a27#src=seo_token) | Base | 0.04% | $187.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=e47b2343-1f60-47ab-9025-2135a475aa18#src=seo_token) | Base | 0.16% | $103.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=0c32e8b6-5b4c-4e96-9f73-bba2a9328a27#src=seo_token) | Base | 0.04% | $186.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e47b2343-1f60-47ab-9025-2135a475aa18#src=seo_token) | Base | 0.16% | $102.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, PRO's lower-variability candidates are uniswap-v4 (Base), 0.04% APY, $187.5K TVL, https://www.defi.garden/?pool=0c32e8b6-5b4c-4e96-9f73-bba2a9328a27#src=seo_token; uniswap-v3 (Base), 0.16% APY, $103.2K TVL, https://www.defi.garden/?pool=e47b2343-1f60-47ab-9025-2135a475aa18#src=seo_token; uniswap-v3 (Ethereum), 1.14% APY, $335.2K TVL, https://www.defi.garden/?pool=443ecf71-b23d-42ec-a9e2-c34177dc3206#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PRO's lower-variability candidates are uniswap-v4 (Base), 0.04% APY, $186.3K TVL, https://www.defi.garden/?pool=0c32e8b6-5b4c-4e96-9f73-bba2a9328a27#src=seo_token; uniswap-v3 (Base), 0.16% APY, $102.9K TVL, https://www.defi.garden/?pool=e47b2343-1f60-47ab-9025-2135a475aa18#src=seo_token; uniswap-v3 (Ethereum), 1.14% APY, $335.2K TVL, https://www.defi.garden/?pool=443ecf71-b23d-42ec-a9e2-c34177dc3206#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=0c32e8b6-5b4c-4e96-9f73-bba2a9328a27#src=seo_token) | Base | 0.04% | $187.5K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=e47b2343-1f60-47ab-9025-2135a475aa18#src=seo_token) | Base | 0.16% | $103.2K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=0c32e8b6-5b4c-4e96-9f73-bba2a9328a27#src=seo_token) | Base | 0.04% | $186.3K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=e47b2343-1f60-47ab-9025-2135a475aa18#src=seo_token) | Base | 0.16% | $102.9K |
 | 3 | [uniswap-v3 →](https://www.defi.garden/?pool=443ecf71-b23d-42ec-a9e2-c34177dc3206#src=seo_token) | Ethereum | 1.14% | $335.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -49,7 +49,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many PRO pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $625.8K in total.
+3 live pools clear this page's $100K TVL floor, $624.4K in total.
 
 ### Are these rates safe?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which PRO pools have the most stable APY history?
 
-Based on APY history only, PRO's lower-variability candidates are uniswap-v4 (Base), 0.04% APY, $187.5K TVL, https://www.defi.garden/?pool=0c32e8b6-5b4c-4e96-9f73-bba2a9328a27#src=seo_token; uniswap-v3 (Base), 0.16% APY, $103.2K TVL, https://www.defi.garden/?pool=e47b2343-1f60-47ab-9025-2135a475aa18#src=seo_token; uniswap-v3 (Ethereum), 1.14% APY, $335.2K TVL, https://www.defi.garden/?pool=443ecf71-b23d-42ec-a9e2-c34177dc3206#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PRO's lower-variability candidates are uniswap-v4 (Base), 0.04% APY, $186.3K TVL, https://www.defi.garden/?pool=0c32e8b6-5b4c-4e96-9f73-bba2a9328a27#src=seo_token; uniswap-v3 (Base), 0.16% APY, $102.9K TVL, https://www.defi.garden/?pool=e47b2343-1f60-47ab-9025-2135a475aa18#src=seo_token; uniswap-v3 (Ethereum), 1.14% APY, $335.2K TVL, https://www.defi.garden/?pool=443ecf71-b23d-42ec-a9e2-c34177dc3206#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

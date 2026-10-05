@@ -1,16 +1,16 @@
 # Ethereum DeFi Yields
 
-The highest honest Ethereum yield right now is 5.12% on maple (Ethereum), among 3,435 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Ethereum yield right now is 5.12% on maple (Ethereum), among 3,432 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| STETH | [lido →](https://www.defi.garden/pools/lido-steth-ethereum) | 2.22% | $26.68B |
-| WBETH | [binance-staked-eth →](https://www.defi.garden/pools/binance-staked-eth-wbeth-ethereum) | 2.18% | $9.58B |
-| WEETH | [ether.fi-stake →](https://www.defi.garden/pools/ether-fi-stake-weeth-ethereum) | 2.28% | $6.04B |
+| STETH | [lido →](https://www.defi.garden/pools/lido-steth-ethereum) | 2.22% | $26.63B |
+| WBETH | [binance-staked-eth →](https://www.defi.garden/pools/binance-staked-eth-wbeth-ethereum) | 2.18% | $9.51B |
+| WEETH | [ether.fi-stake →](https://www.defi.garden/pools/ether-fi-stake-weeth-ethereum) | 2.28% | $6B |
 | SUSDS | [sky-lending →](https://www.defi.garden/pools/sky-lending-susds-ethereum) | 3.60% | $4.72B |
-| USDC | [maple →](https://www.defi.garden/pools/maple-usdc-ethereum) | 5.12% | $2.93B |
-| RETH | [rocket-pool →](https://www.defi.garden/pools/rocket-pool-reth-ethereum) | 2.18% | $1.42B |
-| SUSDE | [ethena-usde →](https://www.defi.garden/pools/ethena-usde-susde-ethereum) | 4.98% | $1.24B |
+| USDC | [maple →](https://www.defi.garden/pools/maple-usdc-ethereum) | 5.12% | $2.91B |
+| RETH | [rocket-pool →](https://www.defi.garden/pools/rocket-pool-reth-ethereum) | 2.18% | $1.41B |
+| SUSDE | [ethena-usde →](https://www.defi.garden/pools/ethena-usde-susde-ethereum) | 4.96% | $1.24B |
 | USDY | [ondo-yield-assets →](https://www.defi.garden/pools/ondo-yield-assets-usdy-ethereum) | 3.62% | $1.21B |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Ethereum pools clear the TVL floor?
 
-3,435 live pools clear this page's $100K TVL floor, $111.54B in total.
+3,432 live pools clear this page's $100K TVL floor, $111.09B in total.
 
 ### Are these rates safe?
 

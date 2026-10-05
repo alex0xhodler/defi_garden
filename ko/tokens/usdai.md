@@ -6,21 +6,21 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [pendle-v2 →](https://www.defi.garden/?pool=2785c8d0-348b-4e8f-904e-4b02819993b9#src=seo_token) | Arbitrum | 11.26% | $50.36M |
-| [pendle-v2 →](https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c#src=seo_token) | Arbitrum | 2.93% | $50.36M |
+| [pendle-v2 →](https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c#src=seo_token) | Arbitrum | 2.93% | $50.37M |
+| [pendle-v2 →](https://www.defi.garden/?pool=2785c8d0-348b-4e8f-904e-4b02819993b9#src=seo_token) | Arbitrum | 11.26% | $50.37M |
 | [fluid-dex →](https://www.defi.garden/?pool=9383bed8-c5cd-4ca1-8692-a8447773a360#src=seo_token) | Arbitrum | 0.28% | $4.15M |
-| [fluid-dex →](https://www.defi.garden/?pool=5fcc9f32-06e5-55bb-a096-f6c7abe2c444#src=seo_token) | Ethereum | 1.33% | $658.5K |
+| [fluid-dex →](https://www.defi.garden/?pool=5fcc9f32-06e5-55bb-a096-f6c7abe2c444#src=seo_token) | Ethereum | 1.33% | $658.6K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 USDAI의 변동성 낮은 후보는 Arbitrum의 pendle-v2, APY 11.26%, TVL $50.36M, https://www.defi.garden/?pool=2785c8d0-348b-4e8f-904e-4b02819993b9#src=seo_token; Arbitrum의 fluid-dex, APY 0.28%, TVL $4.15M, https://www.defi.garden/?pool=9383bed8-c5cd-4ca1-8692-a8447773a360#src=seo_token; Arbitrum의 pendle-v2, APY 2.93%, TVL $50.36M, https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USDAI의 변동성 낮은 후보는 Arbitrum의 pendle-v2, APY 11.26%, TVL $50.37M, https://www.defi.garden/?pool=2785c8d0-348b-4e8f-904e-4b02819993b9#src=seo_token; Arbitrum의 fluid-dex, APY 0.28%, TVL $4.15M, https://www.defi.garden/?pool=9383bed8-c5cd-4ca1-8692-a8447773a360#src=seo_token; Arbitrum의 pendle-v2, APY 2.93%, TVL $50.37M, https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [pendle-v2 →](https://www.defi.garden/?pool=2785c8d0-348b-4e8f-904e-4b02819993b9#src=seo_token) | Arbitrum | 11.26% | $50.36M |
+| 1 | [pendle-v2 →](https://www.defi.garden/?pool=2785c8d0-348b-4e8f-904e-4b02819993b9#src=seo_token) | Arbitrum | 11.26% | $50.37M |
 | 2 | [fluid-dex →](https://www.defi.garden/?pool=9383bed8-c5cd-4ca1-8692-a8447773a360#src=seo_token) | Arbitrum | 0.28% | $4.15M |
-| 3 | [pendle-v2 →](https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c#src=seo_token) | Arbitrum | 2.93% | $50.36M |
+| 3 | [pendle-v2 →](https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c#src=seo_token) | Arbitrum | 2.93% | $50.37M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -34,8 +34,8 @@ USDAI 풀은 여기 4개가 있고, 2개 체인에서 APY가 0.28%부터 11.26%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| pendle-v2 | 11.26% | 9.61% | 기본 금리 |
-| pendle-v2 | 2.93% | 2.13% | 인센티브 0.73% |
+| pendle-v2 | 2.93% | 2.13% | 인센티브 0.71% |
+| pendle-v2 | 11.26% | 9.62% | 기본 금리 |
 | fluid-dex | 0.28% | 1.25% | 기본 금리 |
 | fluid-dex | 1.33% | 0.07% | 기본 금리 |
 
@@ -49,7 +49,7 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 pendle-v2에서 APY 11.26%예�
 
 ### USDAI 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $108.42M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $108.44M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -57,7 +57,7 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 pendle-v2에서 APY 11.26%예�
 
 ### USDAI 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 USDAI의 변동성 낮은 후보는 Arbitrum의 pendle-v2, APY 11.26%, TVL $50.36M, https://www.defi.garden/?pool=2785c8d0-348b-4e8f-904e-4b02819993b9#src=seo_token; Arbitrum의 fluid-dex, APY 0.28%, TVL $4.15M, https://www.defi.garden/?pool=9383bed8-c5cd-4ca1-8692-a8447773a360#src=seo_token; Arbitrum의 pendle-v2, APY 2.93%, TVL $50.36M, https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USDAI의 변동성 낮은 후보는 Arbitrum의 pendle-v2, APY 11.26%, TVL $50.37M, https://www.defi.garden/?pool=2785c8d0-348b-4e8f-904e-4b02819993b9#src=seo_token; Arbitrum의 fluid-dex, APY 0.28%, TVL $4.15M, https://www.defi.garden/?pool=9383bed8-c5cd-4ca1-8692-a8447773a360#src=seo_token; Arbitrum의 pendle-v2, APY 2.93%, TVL $50.37M, https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

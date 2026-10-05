@@ -6,7 +6,7 @@ The highest honest WIF yield right now is 15.61% on kamino-liquidity (Solana), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [kamino-liquidity →](https://www.defi.garden/?pool=b725a0c1-e766-42e9-af8c-927ece966d34#src=seo_token) | Solana | 15.61% | $152.1K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=b725a0c1-e766-42e9-af8c-927ece966d34#src=seo_token) | Solana | 15.61% | $149.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many WIF pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $262.4K in total.
+2 live pools clear this page's $100K TVL floor, $257.2K in total.
 
 ### Are these rates safe?
 

@@ -6,7 +6,7 @@ The highest honest DAMMBTC yield right now is 1.91% on lagoon (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=4cdfc753-f347-5dc8-80bc-a2a028646606#src=seo_token) | Ethereum | 1.91% | $1.72M |
+| [lagoon →](https://www.defi.garden/?pool=4cdfc753-f347-5dc8-80bc-a2a028646606#src=seo_token) | Ethereum | 1.91% | $1.71M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DAMMBTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.72M in total.
+1 live pool clear this page's $100K TVL floor, $1.71M in total.
 
 ### Are these rates safe?
 

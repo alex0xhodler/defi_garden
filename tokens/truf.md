@@ -6,7 +6,7 @@ The highest honest TRUF yield right now is 10.39% on uniswap-v4 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=707efbb0-1a0c-4c63-a587-71602d486bb1#src=seo_token) | Ethereum | 10.39% | $136.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=707efbb0-1a0c-4c63-a587-71602d486bb1#src=seo_token) | Ethereum | 10.39% | $136.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TRUF pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $136.3K in total.
+1 live pool clear this page's $100K TVL floor, $136.2K in total.
 
 ### Are these rates safe?
 

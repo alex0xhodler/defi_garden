@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest BRZ yield right now is 7.68% on curve-dex (Polygon), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BRZ yield right now is 7.67% on curve-dex (Polygon), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=c5bc0acc-1399-426d-9fa6-ab39e0bca463#src=seo_token) | Polygon | 7.68% | $373.7K |
+| [curve-dex →](https://www.defi.garden/?pool=c5bc0acc-1399-426d-9fa6-ab39e0bca463#src=seo_token) | Polygon | 7.67% | $373.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,9 +17,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-BRZ shows up in 1 pools here, with rates from 7.68% to 7.68% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+BRZ shows up in 1 pools here, with rates from 7.67% to 7.67% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 2.55% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 2.56% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 1 pool blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -27,7 +27,7 @@ BRZ shows up in 1 pools here, with rates from 7.68% to 7.68% APY across 1 chains
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 7.68% | 2.55% | 61.83% incentives |
+| curve-dex | 7.67% | 2.56% | 61.82% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BRZ yield today?
 
-7.68% APY on curve-dex (Polygon), based on live DefiLlama data.
+7.67% APY on curve-dex (Polygon), based on live DefiLlama data.
 
 ### How many BRZ pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $524.4K in total.
+2 live pools clear this page's $100K TVL floor, $523.9K in total.
 
 ### Are these rates safe?
 

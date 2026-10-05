@@ -6,7 +6,7 @@ The highest honest DOGWIFHAT yield right now is 0.11% on uniswap-v2 (Ethereum), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=e84e3af1-6559-4ebe-af9d-99d8006048f2#src=seo_token) | Ethereum | 0.11% | $139.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=e84e3af1-6559-4ebe-af9d-99d8006048f2#src=seo_token) | Ethereum | 0.11% | $138.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DOGWIFHAT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $139.4K in total.
+1 live pool clear this page's $100K TVL floor, $138.9K in total.
 
 ### Are these rates safe?
 

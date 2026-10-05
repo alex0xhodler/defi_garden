@@ -38,7 +38,7 @@ SDAI shows up in 4 pools here, with rates from 0.13% to 4.40% APY across 2 chain
 | sky-lending | 1.25% | 1.25% | Base rate |
 | sdai | 4.40% | 4.33% | Base rate |
 | curve-dex | 3.89% | 3.80% | Base rate |
-| curve-dex | 0.13% | 0.14% | 0.43% incentives |
+| curve-dex | 0.13% | 0.14% | 0.42% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

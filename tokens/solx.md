@@ -6,7 +6,7 @@ The highest honest SOLX yield right now is 1.06% on uniswap-v3 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=f63d0304-2f09-4207-9901-385c950a0792#src=seo_token) | Ethereum | 1.06% | $281K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f63d0304-2f09-4207-9901-385c950a0792#src=seo_token) | Ethereum | 1.06% | $279.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SOLX pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.28M in total.
+4 live pools clear this page's $100K TVL floor, $1.27M in total.
 
 ### Are these rates safe?
 

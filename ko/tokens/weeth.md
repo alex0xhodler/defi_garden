@@ -6,30 +6,30 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [ether.fi-stake →](https://www.defi.garden/ko/pools/ether-fi-stake-weeth-ethereum) | Ethereum | 2.28% | $6.04B |
-| [ether.fi-stake →](https://www.defi.garden/ko/pools/ether-fi-stake-weeth-linea) | Linea | 2.28% | $203.18M |
-| [ether.fi-stake →](https://www.defi.garden/?pool=333f3e8b-6fe3-4ba0-9657-265ae94b7496#src=seo_token) | Base | 2.28% | $57.54M |
-| [fluid-dex →](https://www.defi.garden/?pool=d603563c-3780-4f9a-9625-25063b033c57#src=seo_token) | Ethereum | 0.28% | $15.35M |
-| [curve-dex →](https://www.defi.garden/?pool=747e43ae-940f-430b-a216-251d5949b27e#src=seo_token) | Ethereum | 2.44% | $12.67M |
-| [convex-finance →](https://www.defi.garden/?pool=7a943c54-a3cc-4977-b400-6bcad3d0c06c#src=seo_token) | Ethereum | 2.82% | $10.81M |
-| [morpho-blue →](https://www.defi.garden/?pool=ea690139-f174-4e68-94e7-2420ac1d61c4#src=seo_token) | Katana | 0.20% | $5.64M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7434bb67-f79a-4dc7-b3aa-1399a6193fbf#src=seo_token) | Ethereum | 0.22% | $5.03M |
+| [ether.fi-stake →](https://www.defi.garden/ko/pools/ether-fi-stake-weeth-ethereum) | Ethereum | 2.28% | $6B |
+| [ether.fi-stake →](https://www.defi.garden/ko/pools/ether-fi-stake-weeth-linea) | Linea | 2.28% | $201.9M |
+| [ether.fi-stake →](https://www.defi.garden/?pool=333f3e8b-6fe3-4ba0-9657-265ae94b7496#src=seo_token) | Base | 2.28% | $57.18M |
+| [fluid-dex →](https://www.defi.garden/?pool=d603563c-3780-4f9a-9625-25063b033c57#src=seo_token) | Ethereum | 0.28% | $15.25M |
+| [curve-dex →](https://www.defi.garden/?pool=747e43ae-940f-430b-a216-251d5949b27e#src=seo_token) | Ethereum | 2.43% | $12.67M |
+| [convex-finance →](https://www.defi.garden/?pool=7a943c54-a3cc-4977-b400-6bcad3d0c06c#src=seo_token) | Ethereum | 2.82% | $10.82M |
+| [morpho-blue →](https://www.defi.garden/?pool=ea690139-f174-4e68-94e7-2420ac1d61c4#src=seo_token) | Katana | 0.20% | $5.6M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7434bb67-f79a-4dc7-b3aa-1399a6193fbf#src=seo_token) | Ethereum | 0.24% | $4.99M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 WEETH의 변동성 낮은 후보는 Katana의 morpho-blue, APY 0.20%, TVL $5.64M, https://www.defi.garden/?pool=ea690139-f174-4e68-94e7-2420ac1d61c4#src=seo_token; Base의 ether.fi-stake, APY 2.28%, TVL $57.54M, https://www.defi.garden/?pool=333f3e8b-6fe3-4ba0-9657-265ae94b7496#src=seo_token; Linea의 ether.fi-stake, APY 2.28%, TVL $203.18M, https://www.defi.garden/ko/pools/ether-fi-stake-weeth-linea; Ethereum의 ether.fi-stake, APY 2.28%, TVL $6.04B, https://www.defi.garden/ko/pools/ether-fi-stake-weeth-ethereum; Ethereum의 fluid-dex, APY 0.28%, TVL $15.35M, https://www.defi.garden/?pool=d603563c-3780-4f9a-9625-25063b033c57#src=seo_token; Ethereum의 convex-finance, APY 2.82%, TVL $10.81M, https://www.defi.garden/?pool=7a943c54-a3cc-4977-b400-6bcad3d0c06c#src=seo_token; Ethereum의 uniswap-v3, APY 0.22%, TVL $5.03M, https://www.defi.garden/?pool=7434bb67-f79a-4dc7-b3aa-1399a6193fbf#src=seo_token; Ethereum의 curve-dex, APY 2.44%, TVL $12.67M, https://www.defi.garden/?pool=747e43ae-940f-430b-a216-251d5949b27e#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 WEETH의 변동성 낮은 후보는 Katana의 morpho-blue, APY 0.20%, TVL $5.6M, https://www.defi.garden/?pool=ea690139-f174-4e68-94e7-2420ac1d61c4#src=seo_token; Base의 ether.fi-stake, APY 2.28%, TVL $57.18M, https://www.defi.garden/?pool=333f3e8b-6fe3-4ba0-9657-265ae94b7496#src=seo_token; Linea의 ether.fi-stake, APY 2.28%, TVL $201.9M, https://www.defi.garden/ko/pools/ether-fi-stake-weeth-linea; Ethereum의 ether.fi-stake, APY 2.28%, TVL $6B, https://www.defi.garden/ko/pools/ether-fi-stake-weeth-ethereum; Ethereum의 fluid-dex, APY 0.28%, TVL $15.25M, https://www.defi.garden/?pool=d603563c-3780-4f9a-9625-25063b033c57#src=seo_token; Ethereum의 convex-finance, APY 2.82%, TVL $10.82M, https://www.defi.garden/?pool=7a943c54-a3cc-4977-b400-6bcad3d0c06c#src=seo_token; Ethereum의 uniswap-v3, APY 0.24%, TVL $4.99M, https://www.defi.garden/?pool=7434bb67-f79a-4dc7-b3aa-1399a6193fbf#src=seo_token; Ethereum의 curve-dex, APY 2.43%, TVL $12.67M, https://www.defi.garden/?pool=747e43ae-940f-430b-a216-251d5949b27e#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=ea690139-f174-4e68-94e7-2420ac1d61c4#src=seo_token) | Katana | 0.20% | $5.64M |
-| 2 | [ether.fi-stake →](https://www.defi.garden/?pool=333f3e8b-6fe3-4ba0-9657-265ae94b7496#src=seo_token) | Base | 2.28% | $57.54M |
-| 3 | [ether.fi-stake →](https://www.defi.garden/ko/pools/ether-fi-stake-weeth-linea) | Linea | 2.28% | $203.18M |
-| 4 | [ether.fi-stake →](https://www.defi.garden/ko/pools/ether-fi-stake-weeth-ethereum) | Ethereum | 2.28% | $6.04B |
-| 5 | [fluid-dex →](https://www.defi.garden/?pool=d603563c-3780-4f9a-9625-25063b033c57#src=seo_token) | Ethereum | 0.28% | $15.35M |
-| 6 | [convex-finance →](https://www.defi.garden/?pool=7a943c54-a3cc-4977-b400-6bcad3d0c06c#src=seo_token) | Ethereum | 2.82% | $10.81M |
-| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=7434bb67-f79a-4dc7-b3aa-1399a6193fbf#src=seo_token) | Ethereum | 0.22% | $5.03M |
-| 8 | [curve-dex →](https://www.defi.garden/?pool=747e43ae-940f-430b-a216-251d5949b27e#src=seo_token) | Ethereum | 2.44% | $12.67M |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=ea690139-f174-4e68-94e7-2420ac1d61c4#src=seo_token) | Katana | 0.20% | $5.6M |
+| 2 | [ether.fi-stake →](https://www.defi.garden/?pool=333f3e8b-6fe3-4ba0-9657-265ae94b7496#src=seo_token) | Base | 2.28% | $57.18M |
+| 3 | [ether.fi-stake →](https://www.defi.garden/ko/pools/ether-fi-stake-weeth-linea) | Linea | 2.28% | $201.9M |
+| 4 | [ether.fi-stake →](https://www.defi.garden/ko/pools/ether-fi-stake-weeth-ethereum) | Ethereum | 2.28% | $6B |
+| 5 | [fluid-dex →](https://www.defi.garden/?pool=d603563c-3780-4f9a-9625-25063b033c57#src=seo_token) | Ethereum | 0.28% | $15.25M |
+| 6 | [convex-finance →](https://www.defi.garden/?pool=7a943c54-a3cc-4977-b400-6bcad3d0c06c#src=seo_token) | Ethereum | 2.82% | $10.82M |
+| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=7434bb67-f79a-4dc7-b3aa-1399a6193fbf#src=seo_token) | Ethereum | 0.24% | $4.99M |
+| 8 | [curve-dex →](https://www.defi.garden/?pool=747e43ae-940f-430b-a216-251d5949b27e#src=seo_token) | Ethereum | 2.43% | $12.67M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -47,10 +47,10 @@ WEETH 풀은 여기 8개가 있고, 4개 체인에서 APY가 0.20%부터 2.82%�
 | ether.fi-stake | 2.28% | 2.33% | 기본 금리 |
 | ether.fi-stake | 2.28% | 2.33% | 기본 금리 |
 | fluid-dex | 0.28% | 0.52% | 기본 금리 |
-| curve-dex | 2.44% | 2.21% | 인센티브 24.88% |
-| convex-finance | 2.82% | 2.59% | 인센티브 35.18% |
+| curve-dex | 2.43% | 2.21% | 인센티브 24.74% |
+| convex-finance | 2.82% | 2.59% | 인센티브 35.01% |
 | morpho-blue | 0.20% | 0.03% | 인센티브 100.00% |
-| uniswap-v3 | 0.22% | 0.36% | 기본 금리 |
+| uniswap-v3 | 0.24% | 0.36% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -62,7 +62,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 2.82%
 
 ### WEETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 62개이며, 합산 TVL은 $11.32B예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 62개이며, 합산 TVL은 $11.25B예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -70,7 +70,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 2.82%
 
 ### WEETH 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 WEETH의 변동성 낮은 후보는 Katana의 morpho-blue, APY 0.20%, TVL $5.64M, https://www.defi.garden/?pool=ea690139-f174-4e68-94e7-2420ac1d61c4#src=seo_token; Base의 ether.fi-stake, APY 2.28%, TVL $57.54M, https://www.defi.garden/?pool=333f3e8b-6fe3-4ba0-9657-265ae94b7496#src=seo_token; Linea의 ether.fi-stake, APY 2.28%, TVL $203.18M, https://www.defi.garden/ko/pools/ether-fi-stake-weeth-linea; Ethereum의 ether.fi-stake, APY 2.28%, TVL $6.04B, https://www.defi.garden/ko/pools/ether-fi-stake-weeth-ethereum; Ethereum의 fluid-dex, APY 0.28%, TVL $15.35M, https://www.defi.garden/?pool=d603563c-3780-4f9a-9625-25063b033c57#src=seo_token; Ethereum의 convex-finance, APY 2.82%, TVL $10.81M, https://www.defi.garden/?pool=7a943c54-a3cc-4977-b400-6bcad3d0c06c#src=seo_token; Ethereum의 uniswap-v3, APY 0.22%, TVL $5.03M, https://www.defi.garden/?pool=7434bb67-f79a-4dc7-b3aa-1399a6193fbf#src=seo_token; Ethereum의 curve-dex, APY 2.44%, TVL $12.67M, https://www.defi.garden/?pool=747e43ae-940f-430b-a216-251d5949b27e#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 WEETH의 변동성 낮은 후보는 Katana의 morpho-blue, APY 0.20%, TVL $5.6M, https://www.defi.garden/?pool=ea690139-f174-4e68-94e7-2420ac1d61c4#src=seo_token; Base의 ether.fi-stake, APY 2.28%, TVL $57.18M, https://www.defi.garden/?pool=333f3e8b-6fe3-4ba0-9657-265ae94b7496#src=seo_token; Linea의 ether.fi-stake, APY 2.28%, TVL $201.9M, https://www.defi.garden/ko/pools/ether-fi-stake-weeth-linea; Ethereum의 ether.fi-stake, APY 2.28%, TVL $6B, https://www.defi.garden/ko/pools/ether-fi-stake-weeth-ethereum; Ethereum의 fluid-dex, APY 0.28%, TVL $15.25M, https://www.defi.garden/?pool=d603563c-3780-4f9a-9625-25063b033c57#src=seo_token; Ethereum의 convex-finance, APY 2.82%, TVL $10.82M, https://www.defi.garden/?pool=7a943c54-a3cc-4977-b400-6bcad3d0c06c#src=seo_token; Ethereum의 uniswap-v3, APY 0.24%, TVL $4.99M, https://www.defi.garden/?pool=7434bb67-f79a-4dc7-b3aa-1399a6193fbf#src=seo_token; Ethereum의 curve-dex, APY 2.43%, TVL $12.67M, https://www.defi.garden/?pool=747e43ae-940f-430b-a216-251d5949b27e#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

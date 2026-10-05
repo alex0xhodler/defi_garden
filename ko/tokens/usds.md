@@ -6,11 +6,11 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [sparklend →](https://www.defi.garden/ko/pools/sparklend-usds-ethereum) | Ethereum | 5.03% | $563.61M |
-| [sparklend →](https://www.defi.garden/ko/pools/sparklend-usds-ethereum-0ed981) | Ethereum | 2.56% | $457.02M |
-| [spark-savings →](https://www.defi.garden/ko/pools/spark-savings-usds-arbitrum) | Arbitrum | 3.60% | $363.49M |
-| [centrifuge-protocol →](https://www.defi.garden/ko/pools/centrifuge-protocol-usds-ethereum) | Ethereum | 4.61% | $326.23M |
-| [sky-lending →](https://www.defi.garden/ko/pools/sky-lending-usds-ethereum) | Ethereum | 5.51% | $172.59M |
+| [sparklend →](https://www.defi.garden/ko/pools/sparklend-usds-ethereum) | Ethereum | 4.99% | $563.66M |
+| [sparklend →](https://www.defi.garden/ko/pools/sparklend-usds-ethereum-0ed981) | Ethereum | 2.56% | $457.07M |
+| [spark-savings →](https://www.defi.garden/ko/pools/spark-savings-usds-arbitrum) | Arbitrum | 3.60% | $363.5M |
+| [centrifuge-protocol →](https://www.defi.garden/ko/pools/centrifuge-protocol-usds-ethereum) | Ethereum | 4.61% | $326.26M |
+| [sky-lending →](https://www.defi.garden/ko/pools/sky-lending-usds-ethereum) | Ethereum | 5.51% | $172.61M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=0899ff3d-adc8-4dae-a516-a94998db3332#src=seo_token) | Ethereum | 0.12% | $100.13M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=f71737e5-f02e-4964-b23e-19d1a6c7a6bf#src=seo_token) | Ethereum | 0.70% | $49.55M |
 | [spark-savings →](https://www.defi.garden/?pool=aa2d08c0-0abd-4dcf-be93-ff8ca89d01cd#src=seo_token) | Base | 3.60% | $12.04M |
@@ -18,17 +18,17 @@
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 USDS의 변동성 낮은 후보는 Arbitrum의 spark-savings, APY 3.60%, TVL $363.49M, https://www.defi.garden/ko/pools/spark-savings-usds-arbitrum; Base의 spark-savings, APY 3.60%, TVL $12.04M, https://www.defi.garden/?pool=aa2d08c0-0abd-4dcf-be93-ff8ca89d01cd#src=seo_token; Ethereum의 uniswap-v4, APY 0.12%, TVL $100.13M, https://www.defi.garden/?pool=0899ff3d-adc8-4dae-a516-a94998db3332#src=seo_token; Ethereum의 sparklend, APY 5.03%, TVL $563.61M, https://www.defi.garden/ko/pools/sparklend-usds-ethereum; Ethereum의 centrifuge-protocol, APY 4.61%, TVL $326.23M, https://www.defi.garden/ko/pools/centrifuge-protocol-usds-ethereum; Ethereum의 sparklend, APY 2.56%, TVL $457.02M, https://www.defi.garden/ko/pools/sparklend-usds-ethereum-0ed981; Ethereum의 sky-lending, APY 5.51%, TVL $172.59M, https://www.defi.garden/ko/pools/sky-lending-usds-ethereum; Ethereum의 uniswap-v4, APY 0.70%, TVL $49.55M, https://www.defi.garden/?pool=f71737e5-f02e-4964-b23e-19d1a6c7a6bf#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USDS의 변동성 낮은 후보는 Arbitrum의 spark-savings, APY 3.60%, TVL $363.5M, https://www.defi.garden/ko/pools/spark-savings-usds-arbitrum; Base의 spark-savings, APY 3.60%, TVL $12.04M, https://www.defi.garden/?pool=aa2d08c0-0abd-4dcf-be93-ff8ca89d01cd#src=seo_token; Ethereum의 uniswap-v4, APY 0.12%, TVL $100.13M, https://www.defi.garden/?pool=0899ff3d-adc8-4dae-a516-a94998db3332#src=seo_token; Ethereum의 sparklend, APY 4.99%, TVL $563.66M, https://www.defi.garden/ko/pools/sparklend-usds-ethereum; Ethereum의 centrifuge-protocol, APY 4.61%, TVL $326.26M, https://www.defi.garden/ko/pools/centrifuge-protocol-usds-ethereum; Ethereum의 sparklend, APY 2.56%, TVL $457.07M, https://www.defi.garden/ko/pools/sparklend-usds-ethereum-0ed981; Ethereum의 sky-lending, APY 5.51%, TVL $172.61M, https://www.defi.garden/ko/pools/sky-lending-usds-ethereum; Ethereum의 uniswap-v4, APY 0.70%, TVL $49.55M, https://www.defi.garden/?pool=f71737e5-f02e-4964-b23e-19d1a6c7a6bf#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [spark-savings →](https://www.defi.garden/ko/pools/spark-savings-usds-arbitrum) | Arbitrum | 3.60% | $363.49M |
+| 1 | [spark-savings →](https://www.defi.garden/ko/pools/spark-savings-usds-arbitrum) | Arbitrum | 3.60% | $363.5M |
 | 2 | [spark-savings →](https://www.defi.garden/?pool=aa2d08c0-0abd-4dcf-be93-ff8ca89d01cd#src=seo_token) | Base | 3.60% | $12.04M |
 | 3 | [uniswap-v4 →](https://www.defi.garden/?pool=0899ff3d-adc8-4dae-a516-a94998db3332#src=seo_token) | Ethereum | 0.12% | $100.13M |
-| 4 | [sparklend →](https://www.defi.garden/ko/pools/sparklend-usds-ethereum) | Ethereum | 5.03% | $563.61M |
-| 5 | [centrifuge-protocol →](https://www.defi.garden/ko/pools/centrifuge-protocol-usds-ethereum) | Ethereum | 4.61% | $326.23M |
-| 6 | [sparklend →](https://www.defi.garden/ko/pools/sparklend-usds-ethereum-0ed981) | Ethereum | 2.56% | $457.02M |
-| 7 | [sky-lending →](https://www.defi.garden/ko/pools/sky-lending-usds-ethereum) | Ethereum | 5.51% | $172.59M |
+| 4 | [sparklend →](https://www.defi.garden/ko/pools/sparklend-usds-ethereum) | Ethereum | 4.99% | $563.66M |
+| 5 | [centrifuge-protocol →](https://www.defi.garden/ko/pools/centrifuge-protocol-usds-ethereum) | Ethereum | 4.61% | $326.26M |
+| 6 | [sparklend →](https://www.defi.garden/ko/pools/sparklend-usds-ethereum-0ed981) | Ethereum | 2.56% | $457.07M |
+| 7 | [sky-lending →](https://www.defi.garden/ko/pools/sky-lending-usds-ethereum) | Ethereum | 5.51% | $172.61M |
 | 8 | [uniswap-v4 →](https://www.defi.garden/?pool=f71737e5-f02e-4964-b23e-19d1a6c7a6bf#src=seo_token) | Ethereum | 0.70% | $49.55M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -43,7 +43,7 @@ USDS 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.12%부터 5.51%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| sparklend | 5.03% | 4.34% | 인센티브 100.00% |
+| sparklend | 4.99% | 4.34% | 인센티브 100.00% |
 | sparklend | 2.56% | 2.43% | 기본 금리 |
 | spark-savings | 3.60% | 3.60% | 기본 금리 |
 | centrifuge-protocol | 4.61% | 3.30% | 기본 금리 |
@@ -70,7 +70,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 sky-lending에서 APY 5.51%예
 
 ### USDS 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 USDS의 변동성 낮은 후보는 Arbitrum의 spark-savings, APY 3.60%, TVL $363.49M, https://www.defi.garden/ko/pools/spark-savings-usds-arbitrum; Base의 spark-savings, APY 3.60%, TVL $12.04M, https://www.defi.garden/?pool=aa2d08c0-0abd-4dcf-be93-ff8ca89d01cd#src=seo_token; Ethereum의 uniswap-v4, APY 0.12%, TVL $100.13M, https://www.defi.garden/?pool=0899ff3d-adc8-4dae-a516-a94998db3332#src=seo_token; Ethereum의 sparklend, APY 5.03%, TVL $563.61M, https://www.defi.garden/ko/pools/sparklend-usds-ethereum; Ethereum의 centrifuge-protocol, APY 4.61%, TVL $326.23M, https://www.defi.garden/ko/pools/centrifuge-protocol-usds-ethereum; Ethereum의 sparklend, APY 2.56%, TVL $457.02M, https://www.defi.garden/ko/pools/sparklend-usds-ethereum-0ed981; Ethereum의 sky-lending, APY 5.51%, TVL $172.59M, https://www.defi.garden/ko/pools/sky-lending-usds-ethereum; Ethereum의 uniswap-v4, APY 0.70%, TVL $49.55M, https://www.defi.garden/?pool=f71737e5-f02e-4964-b23e-19d1a6c7a6bf#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USDS의 변동성 낮은 후보는 Arbitrum의 spark-savings, APY 3.60%, TVL $363.5M, https://www.defi.garden/ko/pools/spark-savings-usds-arbitrum; Base의 spark-savings, APY 3.60%, TVL $12.04M, https://www.defi.garden/?pool=aa2d08c0-0abd-4dcf-be93-ff8ca89d01cd#src=seo_token; Ethereum의 uniswap-v4, APY 0.12%, TVL $100.13M, https://www.defi.garden/?pool=0899ff3d-adc8-4dae-a516-a94998db3332#src=seo_token; Ethereum의 sparklend, APY 4.99%, TVL $563.66M, https://www.defi.garden/ko/pools/sparklend-usds-ethereum; Ethereum의 centrifuge-protocol, APY 4.61%, TVL $326.26M, https://www.defi.garden/ko/pools/centrifuge-protocol-usds-ethereum; Ethereum의 sparklend, APY 2.56%, TVL $457.07M, https://www.defi.garden/ko/pools/sparklend-usds-ethereum-0ed981; Ethereum의 sky-lending, APY 5.51%, TVL $172.61M, https://www.defi.garden/ko/pools/sky-lending-usds-ethereum; Ethereum의 uniswap-v4, APY 0.70%, TVL $49.55M, https://www.defi.garden/?pool=f71737e5-f02e-4964-b23e-19d1a6c7a6bf#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

@@ -7,7 +7,7 @@ The highest honest CBZEC yield right now is 141.94% on aerodrome-slipstream (Bas
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=acb09125-1c72-5483-bbc4-7abe7e913686#src=seo_token) | Base | 141.94% | $891.8K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=5ff0b98d-e450-53dd-9d8d-53bb0cc310f6#src=seo_token) | Base | 87.84% | $114K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=5ff0b98d-e450-53dd-9d8d-53bb0cc310f6#src=seo_token) | Base | 125.27% | $113.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-CBZEC shows up in 2 pools here, with rates from 87.84% to 141.94% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CBZEC shows up in 2 pools here, with rates from 125.27% to 141.94% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 153.88% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 153.83% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -29,7 +29,7 @@ CBZEC shows up in 2 pools here, with rates from 87.84% to 141.94% APY across 1 c
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | aerodrome-slipstream | 141.94% | 130.79% | 8.73% incentives |
-| uniswap-v3 | 87.84% | 176.97% | Base rate |
+| uniswap-v3 | 125.27% | 176.87% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -41,7 +41,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many CBZEC pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $4.67M in total.
+3 live pools clear this page's $100K TVL floor, $4.65M in total.
 
 ### Are these rates safe?
 

@@ -6,7 +6,7 @@ The highest honest FACTOR yield right now is 12.38% on plume-vaults (Plume Mainn
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [plume-vaults →](https://www.defi.garden/?pool=382def6f-810d-5297-bb59-5d2abc988346#src=seo_token) | Plume Mainnet | 12.38% | $9.42M |
+| [plume-vaults →](https://www.defi.garden/?pool=382def6f-810d-5297-bb59-5d2abc988346#src=seo_token) | Plume Mainnet | 12.38% | $9.16M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many FACTOR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $9.42M in total.
+1 live pool clear this page's $100K TVL floor, $9.16M in total.
 
 ### Are these rates safe?
 

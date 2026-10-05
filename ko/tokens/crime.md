@@ -2,11 +2,11 @@
 
 *DefiLlama 데이터 생성 시점 검증: October 5, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 CRIME의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 46.91%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 CRIME의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 45.92%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=3572fa35-5d92-45c5-8516-0eb58ceee1e8#src=seo_token) | Solana | 46.91% | $429.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=3572fa35-5d92-45c5-8516-0eb58ceee1e8#src=seo_token) | Solana | 45.92% | $426K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,11 +19,11 @@
 
 ### 오늘 CRIME의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 46.91%예요.
+DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 45.92%예요.
 
 ### CRIME 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $429.8K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $426K예요.
 
 ### 이 수익률은 안전한가요?
 
