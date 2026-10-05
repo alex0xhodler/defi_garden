@@ -26,77 +26,67 @@
     <link rel="preload" href="/fonts/Besley-latin-var.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="/landing-styles.css">
+    <link rel="stylesheet" href="/pool-detail-styles.min.css">
     <script>try{var th=localStorage.getItem('theme');if(th)document.documentElement.setAttribute('data-theme',th)}catch(e){}</script>
     <style>
-      .psp-wrap { width: 100%; box-sizing: border-box; max-width: 860px; margin: 0 auto; padding: 24px 20px 40px; flex: 1 0 auto; }
-      .psp-wrap h1 { font-family: var(--font-family-display); font-size: 1.7rem; font-weight: 600; line-height: 1.2; letter-spacing: -0.01em; margin: 8px 0 8px; color: var(--ui-text); overflow-wrap: anywhere; }
-      .psp-wrap h2 { font-family: var(--font-family-mono, monospace); font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; line-height: 1.4; margin: 0 0 12px; padding-bottom: 10px; border-bottom: 1px solid var(--ui-border); color: var(--ui-text-secondary); }
-      .psp-crumbs { font-size: .85rem; color: var(--ui-text-secondary); }
+      .psp-wrap { width: 100%; box-sizing: border-box; max-width: 860px; margin: 0 auto; padding: 24px 20px 40px; flex: 1 0 auto; color: var(--cert-ink); font-family: var(--cert-sans); font-size: 15px; line-height: 1.5; }
+      .psp-wrap h1 { font-family: var(--font-family-display); font-size: 1.7rem; font-weight: 600; line-height: 1.2; letter-spacing: -0.01em; margin: 8px 0 16px; color: var(--cert-ink); overflow-wrap: anywhere; }
+      .psp-crumbs { font-size: .85rem; color: var(--cert-ink-2); }
       .psp-crumbs ol { list-style: none; display: flex; flex-wrap: wrap; gap: 0 8px; margin: 0; padding: 0; }
       .psp-crumbs li { display: inline-flex; align-items: center; }
-      .psp-crumbs li + li::before { content: "\203A"; margin-right: 8px; color: var(--ui-text-muted); }
-      .psp-crumbs a { color: var(--ui-accent); text-decoration: none; }
-      .psp-crumbs a:hover { text-decoration: underline; }
-      .psp-crumbs a:focus-visible, .psp-secondary:focus-visible, .psp-foot a:focus-visible, .psp-page .app-footer a:focus-visible { outline: 2px solid transparent; outline-offset: 2px; box-shadow: var(--ui-focus-ring); border-radius: 2px; }
-      .psp-card { position: relative; background: var(--ui-surface); border: 1px solid var(--ui-border-strong); border-radius: 2px; box-shadow: none; padding: 20px; margin: 20px 0; }
-      .psp-card::before { content: ""; position: absolute; inset: 4px; border: 1px solid var(--ui-border); border-radius: 1px; pointer-events: none; }
-      .psp-stats { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(0, 1fr); gap: 10px; margin: 0; }
-      .psp-stats div { background: var(--ui-surface-muted); border: 1px solid var(--ui-border); border-radius: 2px; padding: 12px; min-width: 0; }
-      .psp-stats dt { font-family: var(--font-family-mono, monospace); font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; line-height: 1.35; color: var(--ui-text-secondary); margin: 0 0 6px; }
-      .psp-stats dd { margin: 0; font-family: var(--font-family-mono, monospace); font-size: 1.1rem; font-weight: 700; color: var(--ui-text); font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
-      .psp-card .psp-stats + .psp-note { margin: 16px 0 20px; }
-      .psp-cta { position: relative; display: flex; align-items: center; justify-content: center; box-sizing: border-box; width: 100%; max-width: 420px; min-height: 46px; margin: 0 0 4px; padding: 0 20px; background: var(--ui-accent); color: var(--ui-on-accent); border: 1px solid var(--ui-accent-active); border-radius: 2px; box-shadow: none; text-decoration: none; font-weight: 700; font-size: .92rem; letter-spacing: .015em; transition: background .15s ease, border-color .15s ease; }
-      .psp-cta::after { content: ""; position: absolute; inset: 4px; border: 1px solid var(--ui-on-accent); border-radius: 1px; opacity: .3; pointer-events: none; }
-      .psp-cta:hover { background: var(--ui-accent-hover); color: var(--ui-on-accent); }
-      .psp-cta:active { background: var(--ui-accent-active); color: var(--ui-on-accent); transform: translateY(1px); }
-      .psp-cta:focus-visible { outline: 2px solid transparent; outline-offset: 2px; box-shadow: var(--ui-focus-ring); }
-      .psp-secondary { display: inline-flex; align-items: center; min-height: 40px; margin: 0; padding: 0 2px; font-size: .9rem; color: var(--ui-accent); text-decoration: none; }
-      .psp-secondary:hover { text-decoration: underline; }
-      .psp-score { font-family: var(--font-family-mono, monospace); font-size: 1.5rem; font-weight: 700; color: var(--ui-text); font-variant-numeric: tabular-nums; margin: 0 0 14px; }
-      .psp-pillars { list-style: none; margin: 0 0 14px; padding: 0; display: grid; gap: 14px; }
-      .psp-pillar-head { display: flex; justify-content: space-between; gap: 12px; font-size: .92rem; color: var(--ui-text); }
-      .psp-pillar-head span:last-child { font-family: var(--font-family-mono, monospace); font-size: .85rem; font-variant-numeric: tabular-nums; color: var(--ui-text-secondary); }
-      .psp-bar { height: 8px; margin-top: 6px; background: var(--ui-surface-sunken); border: 1px solid var(--ui-border); border-radius: 2px; overflow: hidden; }
-      .psp-bar > span { display: block; height: 100%; background: var(--ui-accent); }
-      .psp-forecast { width: 100%; border-collapse: collapse; margin: 8px 0; }
-      .psp-forecast th, .psp-forecast td { text-align: left; padding: 10px 6px; border-bottom: 1px solid var(--ui-border); color: var(--ui-text); }
-      .psp-forecast th { font-family: var(--font-family-mono, monospace); font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--ui-text-secondary); font-weight: 700; }
+      .psp-crumbs li + li::before { content: "\203A"; margin-right: 8px; color: var(--cert-ink-3); }
+      .psp-crumbs a { color: var(--cert-green); text-decoration: none; }
+      .psp-crumbs a:hover { text-decoration: underline; color: var(--cert-green-hover); }
+      .psp-page .app-footer a:focus-visible { outline: 2px solid transparent; outline-offset: 2px; box-shadow: var(--ui-focus-ring); }
+      .psp-wrap .dt-grid { gap: 16px; }
+      .psp-wrap .dt-panel p, .psp-wrap .dt-panel ul { margin: 0; line-height: 1.6; color: var(--cert-ink); }
+      .psp-wrap .dt-panel ul { padding-left: 20px; }
+      .psp-wrap .dt-panel .psp-note { color: var(--cert-ink-2); font-size: .9rem; line-height: 1.55; }
+      .psp-wrap .dt-badge-tag { align-self: flex-start; margin: 0; }
+      .psp-stats { grid-auto-flow: column; grid-auto-columns: minmax(0, 1fr); margin: 0; }
+      .psp-stats .dt-metric { min-width: 0; }
+      .psp-stats .dt-metric-val { margin: 0; overflow-wrap: anywhere; font-variant-numeric: tabular-nums; }
+      .psp-cta { width: 100%; max-width: 420px; margin: 4px 0 0; }
+      .psp-wrap .psp-secondary { display: inline-flex; align-items: center; align-self: flex-start; min-height: 40px; }
+      .psp-score { font-family: var(--font-family-mono, monospace); font-size: 1.5rem; font-weight: 700; font-variant-numeric: tabular-nums; margin: 0; }
+      .psp-pillars { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+      .psp-wrap .dt-panel ul.psp-pillars { padding: 0; }
+      .psp-pillar-head { display: flex; justify-content: space-between; gap: 12px; font-size: .92rem; }
+      .psp-pillar-head span:last-child { font-family: var(--font-family-mono, monospace); font-size: .85rem; font-variant-numeric: tabular-nums; color: var(--cert-ink-2); }
+      .psp-bar { height: 8px; margin-top: 6px; background: var(--cert-paper-deep); border: 1px solid var(--cert-rule); overflow: hidden; }
+      .psp-bar > span { display: block; height: 100%; background: var(--cert-green); }
+      .psp-forecast { width: 100%; border-collapse: collapse; }
+      .psp-forecast th, .psp-forecast td { text-align: left; padding: 10px 6px; border-bottom: 1px solid var(--cert-rule); color: var(--cert-ink); }
+      .psp-forecast th { font-family: var(--font-family-mono, monospace); font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--cert-ink-2); font-weight: 700; }
       .psp-forecast td:last-child, .psp-forecast th:last-child { text-align: right; }
       .psp-forecast td { font-family: var(--font-family-mono, monospace); font-weight: 700; font-variant-numeric: tabular-nums; }
-      .psp-chart { width: 100%; height: auto; display: block; color: var(--ui-text-secondary); }
-      .psp-chart .psp-grid { stroke: var(--ui-border); stroke-width: 1; }
-      .psp-chart .psp-today { stroke: var(--ui-border-strong); stroke-width: 1; stroke-dasharray: 3 3; }
-      .psp-chart .psp-line { fill: none; stroke: var(--ui-accent); stroke-width: 2; stroke-linejoin: round; }
+      .psp-chart { width: 100%; height: auto; display: block; color: var(--cert-ink-2); }
+      .psp-chart .psp-grid { stroke: var(--cert-rule); stroke-width: 1; }
+      .psp-chart .psp-today { stroke: var(--cert-rule-strong); stroke-width: 1; stroke-dasharray: 3 3; }
+      .psp-chart .psp-line { fill: none; stroke: var(--cert-green); stroke-width: 2; stroke-linejoin: round; }
       .psp-chart .psp-median { fill: none; stroke: currentColor; stroke-width: 1.5; stroke-dasharray: 5 4; }
-      .psp-chart .psp-band { fill: var(--ui-accent-soft); stroke: var(--ui-accent-border); stroke-width: 1; }
-      .psp-chart .psp-axis { fill: var(--ui-text-secondary); font-family: var(--font-family-mono, monospace); font-size: 11px; }
-      .psp-legend { display: flex; flex-wrap: wrap; gap: 8px 18px; list-style: none; margin: 12px 0 0; padding: 0; font-size: .85rem; color: var(--ui-text-secondary); }
+      .psp-chart .psp-band { fill: var(--cert-green-wash-strong); stroke: var(--cert-rule-strong); stroke-width: 1; }
+      .psp-chart .psp-axis { fill: var(--cert-ink-2); font-family: var(--font-family-mono, monospace); font-size: 11px; }
+      .psp-legend { display: flex; flex-wrap: wrap; gap: 8px 18px; list-style: none; margin: 0; padding: 0; font-size: .85rem; color: var(--cert-ink-2); }
       .psp-legend li { display: inline-flex; align-items: center; gap: 8px; }
       .psp-legend li::before { content: ""; display: inline-block; width: 18px; flex: 0 0 auto; box-sizing: border-box; }
-      .psp-key-line::before { height: 0; border-top: 2px solid var(--ui-accent); }
-      .psp-key-median::before { height: 0; border-top: 2px dashed var(--ui-text-secondary); }
-      .psp-key-band::before { height: 10px; background: var(--ui-accent-soft); border: 1px solid var(--ui-accent-border); border-radius: 1px; }
-      .psp-note { color: var(--ui-text-secondary); font-size: .9rem; line-height: 1.55; margin: 8px 0 0; }
-      .psp-card p { color: var(--ui-text); line-height: 1.6; margin: 0 0 8px; }
-      .psp-card p.psp-note { color: var(--ui-text-secondary); }
-      .psp-card ul.psp-list { margin: 0; padding-left: 20px; color: var(--ui-text); line-height: 1.6; }
-      .psp-card .psp-badge { display: inline-block; margin: 0 0 10px; padding: 3px 8px; border: 1px solid var(--ui-border); border-radius: 2px; font-family: var(--font-family-mono, monospace); font-weight: 700; font-size: 11px; line-height: 1.4; letter-spacing: .08em; text-transform: uppercase; background: var(--ui-accent-soft); color: var(--ui-accent); }
+      .psp-key-line::before { height: 0; border-top: 2px solid var(--cert-green); }
+      .psp-key-median::before { height: 0; border-top: 2px dashed var(--cert-ink-2); }
+      .psp-key-band::before { height: 10px; background: var(--cert-green-wash-strong); border: 1px solid var(--cert-rule-strong); }
+      .psp-note { color: var(--cert-ink-2); font-size: .9rem; line-height: 1.55; margin: 8px 0 0; }
       .psp-similar { margin: 28px 0 8px; }
-      .psp-similar a, .psp-hub-links a { display: inline-flex; align-items: center; min-height: 40px; box-sizing: border-box; margin: 0 8px 8px 0; padding: 0 14px; background: var(--ui-surface-muted); color: var(--ui-text); border: 1px solid var(--ui-border); border-radius: 2px; text-decoration: none; font-family: var(--font-family-mono, monospace); font-size: 12px; font-weight: 600; transition: color .15s ease, border-color .15s ease; }
-      .psp-similar a:hover, .psp-hub-links a:hover { border-color: var(--ui-accent); color: var(--ui-accent); }
-      .psp-similar a:active, .psp-hub-links a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
-      .psp-similar a:focus-visible, .psp-hub-links a:focus-visible { outline: 2px solid transparent; outline-offset: 2px; box-shadow: var(--ui-focus-ring); }
-      .psp-foot { color: var(--ui-text-secondary); font-size: .9rem; line-height: 1.55; }
-      .psp-foot a { color: var(--ui-accent); }
+      .psp-similar h2 { margin: 0 0 12px; }
+      .psp-similar a, .psp-hub-links a { display: inline-flex; align-items: center; min-height: 40px; margin: 0 8px 8px 0; text-decoration: none; }
+      .psp-foot { color: var(--cert-ink-2); font-size: .9rem; line-height: 1.55; }
+      .psp-foot a { color: var(--cert-green); }
       .psp-page .landing-icon-button { text-decoration: none; }
       .psp-page .app-footer a { display: inline-block; padding: 12px 6px; }
       @media (max-width: 720px) {
         .psp-stats { grid-auto-flow: row; grid-template-columns: repeat(2, minmax(0, 1fr)); }
-        .psp-stats div:last-child:nth-child(odd) { grid-column: 1 / -1; }
+        .psp-stats .dt-metric:last-child:nth-child(odd) { grid-column: 1 / -1; }
       }
       @media (max-width: 768px) { .psp-crumbs a, .psp-crumbs li { min-height: 40px; } }
-      @media (prefers-reduced-motion: reduce) { .psp-cta, .psp-similar a, .psp-hub-links a { transition: none; } .psp-cta:active, .psp-similar a:active, .psp-hub-links a:active { transform: none; } }
-      @media (max-width: 480px) { .psp-chart .psp-axis { font-size: 20px; } .psp-wrap { padding: 16px 14px 32px; } .psp-card { padding: 16px 14px; } .psp-wrap h1 { font-size: 1.4rem; } .psp-cta { max-width: none; } }
+      @media (max-width: 480px) { .psp-chart .psp-axis { font-size: 20px; } .psp-wrap { padding: 16px 14px 32px; } .psp-wrap h1 { font-size: 1.4rem; } .psp-cta { max-width: none; } }
     </style>
     <script type="text/javascript">
         window.MIXPANEL_CUSTOM_LIB_URL = "https://mp.defi.garden/lib.min.js";
@@ -135,24 +125,26 @@
       <a href="/plan.html">저축 플래너</a>
       <a href="/agents">AI 에이전트 &amp; MCP</a>
     </nav>
-  <main class="psp-wrap">
+  <main class="psp-wrap pool-detail-view">
     <nav class="psp-crumbs" aria-label="홈"><ol><li><a href="https://www.defi.garden/">홈</a></li><li><a href="https://www.defi.garden/ko/chains">체인</a></li><li><a href="https://www.defi.garden/ko/chains/ethereum">Ethereum</a></li><li aria-current="page">Aave V3 WEETH</li></ol></nav>
     <h1>Ethereum의 Aave V3 WEETH: APY, DeFi Score, 14일 전망</h1>
-    <section class="psp-card" aria-label="요약">
-      <dl class="psp-stats">
-        <div><dt>실시간 APY</dt><dd>0.00%</dd></div>
-        <div><dt>30일 평균 APY</dt><dd>0.00%</dd></div>
-        <div><dt>기본 APY</dt><dd>0.00%</dd></div>
-        <div><dt>보상 APY</dt><dd>0.00%</dd></div>
-        <div><dt>예치금(TVL)</dt><dd>$4.13B</dd></div>
+    <div class="decision-terminal-card">
+    <div class="dt-grid">
+    <section class="dt-panel dt-panel-full" aria-label="요약">
+      <dl class="dt-metric-row psp-stats">
+        <div class="dt-metric"><dt class="dt-metric-name">실시간 APY</dt><dd class="dt-metric-val">0.00%</dd></div>
+        <div class="dt-metric"><dt class="dt-metric-name">30일 평균 APY</dt><dd class="dt-metric-val">0.00%</dd></div>
+        <div class="dt-metric"><dt class="dt-metric-name">기본 APY</dt><dd class="dt-metric-val">0.00%</dd></div>
+        <div class="dt-metric"><dt class="dt-metric-name">보상 APY</dt><dd class="dt-metric-val">0.00%</dd></div>
+        <div class="dt-metric"><dt class="dt-metric-name">예치금(TVL)</dt><dd class="dt-metric-val">$4.13B</dd></div>
       </dl>
       <p class="psp-note">October 5, 2026 기준 데이터. 출처: DefiLlama 풀 데이터이며, 점수와 전망은 DeFi Garden이 계산했어요.</p>
-      <a class="psp-cta" rel="nofollow" href="https://www.defi.garden/?pool=db678df9-3281-4bc2-a8bb-01160ffd6d48#src=seo_pool">Decision Terminal에서 열기 →</a>
-      <a class="psp-secondary" rel="nofollow noopener" href="https://aave.com/?ref=defi.garden">Aave V3 바로가기 →</a>
+      <a class="btn btn--primary btn--lg btn--full-width psp-cta" rel="nofollow" href="https://www.defi.garden/?pool=db678df9-3281-4bc2-a8bb-01160ffd6d48#src=seo_pool">Decision Terminal에서 열기 →</a>
+      <a class="cta-echo-link psp-secondary" rel="nofollow noopener" href="https://aave.com/?ref=defi.garden">Aave V3 바로가기 →</a>
     </section>
 
-    <section class="psp-card">
-      <h2>DeFi 점수</h2>
+    <section class="dt-panel dt-panel-full">
+      <h2 class="dt-panel-label">DeFi 점수</h2>
       <p class="psp-score">점수 76.3 / 100</p>
       <ul class="psp-pillars">
         <li>
@@ -175,8 +167,8 @@
       <p class="psp-note">이 점수는 DefiLlama 이력과 예측 모델로 DeFi Garden이 계산한 네 가지 항목을 합친 모델 결과이며, 수익을 보장하지 않아요. <a href="https://www.defi.garden/ai-info">점수와 전망 계산 방식</a></p>
     </section>
 
-    <section class="psp-card">
-      <h2>14일 전망 범위</h2>
+    <section class="dt-panel dt-panel-full">
+      <h2 class="dt-panel-label">14일 전망 범위</h2>
       <p>향후 14일 모델 전망: 중앙값 0.00%, 범위 0.00%~0.00% (p10~p90).</p>
       <table class="psp-forecast">
         <tbody>
@@ -190,8 +182,8 @@
       <p class="psp-note">과거 데이터로 만든 모델 전망일 뿐 약속이 아니에요. 실제 수익률은 범위를 벗어날 수 있어요.</p>
     </section>
 
-    <section class="psp-card">
-      <h2>APY 이력과 전망</h2>
+    <section class="dt-panel dt-panel-full">
+      <h2 class="dt-panel-label">APY 이력과 전망</h2>
       <svg class="psp-chart" viewBox="0 0 640 280" role="img" aria-labelledby="psp-chart-title" preserveAspectRatio="xMidYMid meet">
         <title id="psp-chart-title">Ethereum의 Aave V3 WEETH: 최근 30일 APY와 이후 14일 전망 범위 0.00%~0.00%</title>
         <line class="psp-grid" x1="64" x2="624" y1="128.0" y2="128.0"/><text class="psp-axis" x="58" y="132.0" text-anchor="end">0.10%</text>
@@ -210,40 +202,43 @@
       <p class="psp-note">실선: DefiLlama의 일별 APY. 음영: 모델의 p10~p90 범위로, 오늘 수익률에서 전망 기간 끝까지 직선으로 넓어지게 그렸어요 (일별 분위수가 아니에요). 점선: 모델의 중앙값 경로.</p>
     </section>
 
-    <section class="psp-card">
-      <h2>이 수익이 나오는 곳</h2>
+    <section class="dt-panel dt-panel-full">
+      <h2 class="dt-panel-label">이 수익이 나오는 곳</h2>
       <p>0.00% (전체의 100%)는 기본 수익이에요. 프로토콜 이용자가 내는 거래 수수료나 이자예요.</p>
       <p>노출 자산: 단일 자산.</p>
       <p>DefiLlama가 이 풀에 비영구적 손실 위험이 없다고 표시했어요.</p>
     </section>
 
-    <section class="psp-card">
-      <h2>누가 이용할 수 있나요</h2>
-      <p class="psp-badge">허가 불필요 — 지갑만 있으면 누구나</p>
+    <section class="dt-panel dt-panel-full">
+      <h2 class="dt-panel-label">누가 이용할 수 있나요</h2>
+      <p class="dt-badge-tag">허가 불필요 — 지갑만 있으면 누구나</p>
       <p>이 프로젝트는 DeFi Garden의 제한 프로젝트(KYC 또는 적격 투자자 전용) 목록에 없어요. 프로토콜 자체 약관과 지역 제한은 적용될 수 있어요.</p>
     </section>
 
-    <section class="psp-card">
-      <h2>출금 참고</h2>
+    <section class="dt-panel dt-panel-full">
+      <h2 class="dt-panel-label">출금 참고</h2>
       <p>출금 유동성 항목: 11.4 / 15, 풀에는 $4.13B이 예치되어 있어요.</p>
       <p>모델은 14일 뒤 TVL을 $4.33B(+4.8%)로 예측해요.</p>
       <p>락업, 쿨다운, 출금 대기열은 프로토콜 컨트랙트가 정하며 DefiLlama 데이터에는 없어요. 예치 전에 프로토콜 문서를 확인하세요.</p>
     </section>
 
-    <section class="psp-card">
-      <h2>위험</h2>
-      <ul class="psp-list">
+    <section class="dt-panel dt-panel-full">
+      <h2 class="dt-panel-label">위험</h2>
+      <ul>
         <li>스마트 컨트랙트 위험: 프로토콜이나 의존 코드의 버그·해킹으로 예치금을 잃을 수 있어요.</li>
         <li>위의 기본 위험 외에 이 풀에 특화된 경고 신호는 데이터에서 발견되지 않았어요.</li>
       </ul>
     </section>
 
+    </div>
+    </div>
+
     <nav class="psp-similar" aria-label="비슷한 풀">
-      <h2>비슷한 풀</h2>
-        <a href="https://www.defi.garden/ko/pools/ether-fi-stake-weeth-ethereum">Ethereum의 Ether.fi Stake WEETH (TVL $6.03B)</a>
-        <a href="https://www.defi.garden/ko/pools/lido-steth-ethereum">Ethereum의 Lido STETH (TVL $26.7B)</a>
-        <a href="https://www.defi.garden/ko/pools/binance-staked-eth-wbeth-ethereum">Ethereum의 Binance Staked Eth WBETH (TVL $9.58B)</a>
-        <a href="https://www.defi.garden/ko/pools/sky-lending-susds-ethereum">Ethereum의 Sky Lending SUSDS (TVL $4.67B)</a>
+      <h2 class="dt-panel-label">비슷한 풀</h2>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/ether-fi-stake-weeth-ethereum">Ethereum의 Ether.fi Stake WEETH (TVL $6.03B)</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/lido-steth-ethereum">Ethereum의 Lido STETH (TVL $26.7B)</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/binance-staked-eth-wbeth-ethereum">Ethereum의 Binance Staked Eth WBETH (TVL $9.58B)</a>
+        <a class="dt-preset-btn" href="https://www.defi.garden/ko/pools/sky-lending-susds-ethereum">Ethereum의 Sky Lending SUSDS (TVL $4.67B)</a>
     </nav>
 
     <p class="psp-foot">교육 목적이며 투자 조언이 아니에요. DeFi에는 스마트 컨트랙트, 시장, 규제 위험이 있고 원금을 잃을 수 있어요.</p>
