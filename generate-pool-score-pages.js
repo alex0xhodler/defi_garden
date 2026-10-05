@@ -623,7 +623,7 @@ ${renderSiteHeader(lc, language, (language === 'ko' ? enUrl : koUrl).replace(SIT
       <ul class="psp-pillars">
         ${pillars}
       </ul>
-      <p class="psp-note">${esc(t('pspScoreNote'))} <a href="${SITE_URL}/ai-info">${esc(t('pspMethodologyLink'))}</a></p>
+      <p class="psp-note">${esc(t('pspScoreNote'))} <a href="${SITE_URL}/mcp">${esc(t('pspMethodologyLink'))}</a></p>
     </section>
 
     <section class="dt-panel dt-panel-full">
