@@ -58,7 +58,7 @@
       "missing": [
         { "type": "header", "key": "content-type", "value": "(.*)application/json(.*)" }
       ],
-      "destination": "/mcp-page.html"
+      "destination": "/mcp-page"
     },
     {
       "source": "/mcp",
