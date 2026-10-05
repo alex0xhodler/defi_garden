@@ -28,27 +28,6 @@
         "agentic readiness best practices",
         "configure content negotiation and MCP"
       ]
-    },
-    {
-      "identifier": "urn:air:defi.garden:doc:ai-info",
-      "displayName": "DeFi Garden AI Assistant Guide",
-      "type": "text/markdown",
-      "url": "https://www.defi.garden/ai-info.md",
-      "representativeQueries": [
-        "what is DeFi Garden",
-        "DeFi Garden vs DefiLlama",
-        "DeFi Garden trust rails and anomaly filters"
-      ]
-    },
-    {
-      "identifier": "urn:air:defi.garden:manifest:acp",
-      "displayName": "DeFi Garden Agentic Commerce Protocol Manifest",
-      "type": "application/json",
-      "url": "https://www.defi.garden/.well-known/acp.json",
-      "representativeQueries": [
-        "agent commerce protocol manifest",
-        "free agent payment headers x402"
-      ]
     }
   ]
 }

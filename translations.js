@@ -893,7 +893,12 @@ projectionHeading: "The long game",
     pspForecastFlat: (cur, p50) => `Read: the model expects the rate to stay roughly flat, from ${cur} today to about ${p50}.`,
     pspForecastLower: (cur, p50) => `Read: the model expects the rate to drift lower, from ${cur} today to about ${p50}.`,
     pspForecastHigher: (cur, p50) => `Read: the model expects the rate to drift higher, from ${cur} today to about ${p50}.`,
-    pspForecastDisclaimer: "Experimental model: in our first 10 test runs, assuming today's rate holds was more accurate than this forecast. Past multi-run evaluation is publicly documented.",
+    pspForecastDisclaimer: (totalRuns, noBetter, evaluated) => {
+      if (!totalRuns || Number(totalRuns) <= 0) return "Experimental model: not yet shown to be more accurate than assuming today's rate holds. Past evaluation is publicly documented.";
+      let s = `Experimental model: across ${totalRuns} resolved test runs`;
+      if (noBetter != null && evaluated != null) s += `, in ${noBetter} of ${evaluated} assuming today's rate holds was at least as accurate`;
+      return s + '. Past multi-run evaluation is publicly documented.';
+    },
     pspP10: "Low case (p10)",
     pspP50: "Median (p50)",
     pspP90: "High case (p90)",
@@ -1953,7 +1958,12 @@ projectionHeading: "The long game",
     pspForecastFlat: (cur, p50) => `해석: 모델은 수익률이 오늘 ${cur}에서 약 ${p50}로 거의 변하지 않을 것으로 봐요.`,
     pspForecastLower: (cur, p50) => `해석: 모델은 수익률이 오늘 ${cur}에서 약 ${p50}로 낮아질 것으로 봐요.`,
     pspForecastHigher: (cur, p50) => `해석: 모델은 수익률이 오늘 ${cur}에서 약 ${p50}로 높아질 것으로 봐요.`,
-    pspForecastDisclaimer: "실험적 모델: 첫 10회 테스트 결과, 오늘 금리가 그대로 유지된다고 가정한 예측이 모델보다 더 정확했습니다. 과거 회차별 검증 기록은 투명하게 공개됩니다.",
+    pspForecastDisclaimer: (totalRuns, noBetter, evaluated) => {
+      if (!totalRuns || Number(totalRuns) <= 0) return "실험적 모델: 오늘 금리가 그대로 유지된다고 가정한 예측보다 정확한 것으로 아직 입증되지 않았습니다. 과거 회차별 검증 기록은 투명하게 공개됩니다.";
+      let s = `실험적 모델: ${totalRuns}회 검증 결과`;
+      if (noBetter != null && evaluated != null) s += `, ${evaluated}회 중 ${noBetter}회에서 오늘 금리가 그대로 유지된다고 가정한 예측이 모델보다 정확하거나 동등했습니다`;
+      return s + '. 과거 회차별 검증 기록은 투명하게 공개됩니다.';
+    },
     pspP10: "낮은 경우 (p10)",
     pspP50: "중앙값 (p50)",
     pspP90: "높은 경우 (p90)",

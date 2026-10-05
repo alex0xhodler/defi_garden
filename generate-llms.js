@@ -559,7 +559,7 @@ function buildPlannerSection(meta, rate, opts = {}) {
   lines.push(
     'TL;DR: A goal-first savings planner for people who think in monthly deposits ' +
     'and life goals, not APY or pools — lives at /plan.html, reached from the ' +
-    'search-first landing surface at the site root.'
+    'underwriting landing at the site root.'
   );
   lines.push(`- Entry point (bare path, always the planner): ${meta.baseUrl}/plan.html`);
   lines.push(
@@ -669,16 +669,16 @@ function buildConcise(meta, categories, highYield, yieldAnalysis, plannerRateRes
   lines.push('');
 
   // Homepage section — describes what the router (home.html) actually does
-  // (spec 168, corrected after operator review): bare `/` is a search-first
-  // landing that routes into both faces, it is NOT itself the planner.
+  // (spec 168, corrected after operator review): bare `/` is the
+  // predictive underwriting landing (since the 2026-09-27 pivot).
   // `/plan.html` (and planner params) reach the goal-first Garden Planner;
   // parameterized `?token=`/`?chain=`/`?pool=` URLs reach the yield
   // analytics app.
   lines.push('## Homepage');
   lines.push(
-    `TL;DR: ${meta.baseUrl}/ is a search-first landing page that routes into both faces of the ` +
-    `product: /plan.html (and planner params) for the goal-first Garden Planner, and parameterized ` +
-    `URLs (?token=, ?chain=, ?pool=) for the yield analytics app.`
+    `TL;DR: ${meta.baseUrl}/ is the predictive underwriting landing \u2014 a DeFi Score card, ` +
+    `14-day forecast, and live rates hero. /plan.html (and planner params) reach the goal-first ` +
+    `Garden Planner; parameterized URLs (?token=, ?chain=, ?pool=) reach the yield analytics app.`
   );
   categories.homepage.slice(0, 3).forEach(url => lines.push(`- ${url}`));
   lines.push('');
@@ -796,13 +796,13 @@ function buildFull(meta, categories, highYield, yieldAnalysis, plannerRateResult
 
   // Complete sections with all URLs
 
-  // Homepage — describes what the router actually does (spec 168, corrected
-  // after operator review), same wording as buildConcise() for consistency.
+  // Homepage — describes what the router actually does (2026-09-27 pivot:
+  // bare `/` is the underwriting landing), same wording as buildConcise().
   lines.push('## Homepage');
   lines.push(
-    `TL;DR: ${meta.baseUrl}/ is a search-first landing page that routes into both faces of the ` +
-    `product: /plan.html (and planner params) for the goal-first Garden Planner, and parameterized ` +
-    `URLs (?token=, ?chain=, ?pool=) for the yield analytics app.`
+    `TL;DR: ${meta.baseUrl}/ is the predictive underwriting landing \u2014 a DeFi Score card, ` +
+    `14-day forecast, and live rates hero. /plan.html (and planner params) reach the goal-first ` +
+    `Garden Planner; parameterized URLs (?token=, ?chain=, ?pool=) reach the yield analytics app.`
   );
   categories.homepage.forEach(url => lines.push(`- ${url}`));
   lines.push('');
