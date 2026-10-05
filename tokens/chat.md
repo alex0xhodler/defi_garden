@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest CHAT yield right now is 14.46% on icpswap (ICP), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CHAT yield right now is 4.86% on icpswap (ICP), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [icpswap →](https://www.defi.garden/?pool=5297d348-9ead-4a5e-8d45-f4a353bae38a#src=seo_token) | ICP | 14.46% | $104.5K |
+| [icpswap →](https://www.defi.garden/?pool=5297d348-9ead-4a5e-8d45-f4a353bae38a#src=seo_token) | ICP | 4.86% | $108.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CHAT yield today?
 
-14.46% APY on icpswap (ICP), based on live DefiLlama data.
+4.86% APY on icpswap (ICP), based on live DefiLlama data.
 
 ### How many CHAT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $104.5K in total.
+1 live pool clear this page's $100K TVL floor, $108.5K in total.
 
 ### Are these rates safe?
 

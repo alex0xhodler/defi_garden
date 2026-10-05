@@ -8,16 +8,16 @@ The highest honest THBILL yield right now is 2.77% on theo-network-thbill (Ether
 |---|---|---|---|
 | [theo-network-thbill →](https://www.defi.garden/?pool=e17dab50-85b1-45e8-b4a5-b8ae7898c4a3#src=seo_token) | Ethereum | 2.77% | $29.4M |
 | [theo-network-thbill →](https://www.defi.garden/?pool=79b09234-3993-4b35-9ba0-4b9bafd35ba9#src=seo_token) | Hyperliquid L1 | 2.77% | $1.35M |
-| [theo-network-thbill →](https://www.defi.garden/?pool=406c2d1b-e2e6-4512-9bae-3ce861ee8052#src=seo_token) | Arbitrum | 2.77% | $362.2K |
+| [theo-network-thbill →](https://www.defi.garden/?pool=406c2d1b-e2e6-4512-9bae-3ce861ee8052#src=seo_token) | Arbitrum | 2.77% | $363.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, THBILL's lower-variability candidates are theo-network-thbill (Arbitrum), 2.77% APY, $362.2K TVL, https://www.defi.garden/?pool=406c2d1b-e2e6-4512-9bae-3ce861ee8052#src=seo_token; theo-network-thbill (Ethereum), 2.77% APY, $29.4M TVL, https://www.defi.garden/?pool=e17dab50-85b1-45e8-b4a5-b8ae7898c4a3#src=seo_token; theo-network-thbill (Hyperliquid L1), 2.77% APY, $1.35M TVL, https://www.defi.garden/?pool=79b09234-3993-4b35-9ba0-4b9bafd35ba9#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, THBILL's lower-variability candidates are theo-network-thbill (Arbitrum), 2.77% APY, $363.3K TVL, https://www.defi.garden/?pool=406c2d1b-e2e6-4512-9bae-3ce861ee8052#src=seo_token; theo-network-thbill (Ethereum), 2.77% APY, $29.4M TVL, https://www.defi.garden/?pool=e17dab50-85b1-45e8-b4a5-b8ae7898c4a3#src=seo_token; theo-network-thbill (Hyperliquid L1), 2.77% APY, $1.35M TVL, https://www.defi.garden/?pool=79b09234-3993-4b35-9ba0-4b9bafd35ba9#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [theo-network-thbill →](https://www.defi.garden/?pool=406c2d1b-e2e6-4512-9bae-3ce861ee8052#src=seo_token) | Arbitrum | 2.77% | $362.2K |
+| 1 | [theo-network-thbill →](https://www.defi.garden/?pool=406c2d1b-e2e6-4512-9bae-3ce861ee8052#src=seo_token) | Arbitrum | 2.77% | $363.3K |
 | 2 | [theo-network-thbill →](https://www.defi.garden/?pool=e17dab50-85b1-45e8-b4a5-b8ae7898c4a3#src=seo_token) | Ethereum | 2.77% | $29.4M |
 | 3 | [theo-network-thbill →](https://www.defi.garden/?pool=79b09234-3993-4b35-9ba0-4b9bafd35ba9#src=seo_token) | Hyperliquid L1 | 2.77% | $1.35M |
 
@@ -47,7 +47,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many THBILL pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $101.51M in total.
+6 live pools clear this page's $100K TVL floor, $101.56M in total.
 
 ### Are these rates safe?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which THBILL pools have the most stable APY history?
 
-Based on APY history only, THBILL's lower-variability candidates are theo-network-thbill (Arbitrum), 2.77% APY, $362.2K TVL, https://www.defi.garden/?pool=406c2d1b-e2e6-4512-9bae-3ce861ee8052#src=seo_token; theo-network-thbill (Ethereum), 2.77% APY, $29.4M TVL, https://www.defi.garden/?pool=e17dab50-85b1-45e8-b4a5-b8ae7898c4a3#src=seo_token; theo-network-thbill (Hyperliquid L1), 2.77% APY, $1.35M TVL, https://www.defi.garden/?pool=79b09234-3993-4b35-9ba0-4b9bafd35ba9#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, THBILL's lower-variability candidates are theo-network-thbill (Arbitrum), 2.77% APY, $363.3K TVL, https://www.defi.garden/?pool=406c2d1b-e2e6-4512-9bae-3ce861ee8052#src=seo_token; theo-network-thbill (Ethereum), 2.77% APY, $29.4M TVL, https://www.defi.garden/?pool=e17dab50-85b1-45e8-b4a5-b8ae7898c4a3#src=seo_token; theo-network-thbill (Hyperliquid L1), 2.77% APY, $1.35M TVL, https://www.defi.garden/?pool=79b09234-3993-4b35-9ba0-4b9bafd35ba9#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

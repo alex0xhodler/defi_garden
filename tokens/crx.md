@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest CRX yield right now is 192.63% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CRX yield right now is 167.02% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=58913316-7c48-5995-8f0a-27b55c456b60#src=seo_token) | Base | 192.63% | $118.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=58913316-7c48-5995-8f0a-27b55c456b60#src=seo_token) | Base | 167.02% | $138.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CRX yield today?
 
-192.63% APY on uniswap-v2 (Base), based on live DefiLlama data.
+167.02% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many CRX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $118.7K in total.
+1 live pool clear this page's $100K TVL floor, $138.1K in total.
 
 ### Are these rates safe?
 

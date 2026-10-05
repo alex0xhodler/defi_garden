@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest SFP yield right now is 3.04% on pancakeswap-amm (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SFP yield right now is 3.83% on pancakeswap-amm (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pancakeswap-amm →](https://www.defi.garden/?pool=36090daf-d0dd-4bc7-9698-6d529f6b0055#src=seo_token) | BSC | 3.04% | $123.2K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=36090daf-d0dd-4bc7-9698-6d529f6b0055#src=seo_token) | BSC | 3.83% | $123.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SFP yield today?
 
-3.04% APY on pancakeswap-amm (BSC), based on live DefiLlama data.
+3.83% APY on pancakeswap-amm (BSC), based on live DefiLlama data.
 
 ### How many SFP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $123.2K in total.
+1 live pool clear this page's $100K TVL floor, $123.9K in total.
 
 ### Are these rates safe?
 

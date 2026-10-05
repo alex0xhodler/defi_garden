@@ -4,7 +4,7 @@ The highest honest XRPL yield right now is 3.10% on openeden-tbill (XRPL), among
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| OUSG | [ondo-yield-assets →](https://www.defi.garden/pools/ondo-yield-assets-ousg-xrpl) | 3.29% | $187.48M |
+| OUSG | [ondo-yield-assets →](https://www.defi.garden/pools/ondo-yield-assets-ousg-xrpl) | 3.65% | $187.54M |
 | TBL | [openeden-tbill →](https://www.defi.garden/?pool=8032e541-5c60-4c68-9202-2812e75dab57#src=seo_chain) | 3.10% | $62.74M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many XRPL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $250.22M in total.
+2 live pools clear this page's $100K TVL floor, $250.28M in total.
 
 ### Are these rates safe?
 

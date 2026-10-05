@@ -6,7 +6,7 @@ The highest honest FEATHERBRZ yield right now is 13.61% on morpho-blue (Polygon)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=a3f368d6-1893-59a9-a6e7-a43fc744b26f#src=seo_token) | Polygon | 13.61% | $204.8K |
+| [morpho-blue →](https://www.defi.garden/?pool=a3f368d6-1893-59a9-a6e7-a43fc744b26f#src=seo_token) | Polygon | 13.61% | $204.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many FEATHERBRZ pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $204.8K in total.
+1 live pool clear this page's $100K TVL floor, $204.7K in total.
 
 ### Are these rates safe?
 

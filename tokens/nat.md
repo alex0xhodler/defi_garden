@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest NAT yield right now is 17.92% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NAT yield right now is 17.23% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=266d789b-b15b-42ee-b2c0-29270175df2f#src=seo_token) | Ethereum | 17.92% | $947.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=266d789b-b15b-42ee-b2c0-29270175df2f#src=seo_token) | Ethereum | 17.23% | $950.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NAT yield today?
 
-17.92% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+17.23% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many NAT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $947.4K in total.
+1 live pool clear this page's $100K TVL floor, $950.8K in total.
 
 ### Are these rates safe?
 

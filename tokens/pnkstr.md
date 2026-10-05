@@ -2,32 +2,32 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest PNKSTR yield right now is 32.34% on uniswap-v4 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PNKSTR yield right now is 0.06% on uniswap-v4 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=3ee182aa-d85d-4457-aa02-6f28cb257f97#src=seo_token) | Ethereum | 32.34% | $894.7K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=a527768e-1126-43ad-b657-63704847f3da#src=seo_token) | Ethereum | 0.11% | $426.3K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=6bbfdf37-902d-4d81-be16-258cbfcc1da9#src=seo_token) | Ethereum | 0.04% | $134.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=3ee182aa-d85d-4457-aa02-6f28cb257f97#src=seo_token) | Ethereum | 14.89% | $889.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a527768e-1126-43ad-b657-63704847f3da#src=seo_token) | Ethereum | 0.06% | $426.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=6bbfdf37-902d-4d81-be16-258cbfcc1da9#src=seo_token) | Ethereum | 0.01% | $134.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, PNKSTR's lower-variability candidates are uniswap-v4 (Ethereum), 0.11% APY, $426.3K TVL, https://www.defi.garden/?pool=a527768e-1126-43ad-b657-63704847f3da#src=seo_token; uniswap-v4 (Ethereum), 0.04% APY, $134.6K TVL, https://www.defi.garden/?pool=6bbfdf37-902d-4d81-be16-258cbfcc1da9#src=seo_token; uniswap-v4 (Ethereum), 32.34% APY, $894.7K TVL, https://www.defi.garden/?pool=3ee182aa-d85d-4457-aa02-6f28cb257f97#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PNKSTR's lower-variability candidates are uniswap-v4 (Ethereum), 0.06% APY, $426.4K TVL, https://www.defi.garden/?pool=a527768e-1126-43ad-b657-63704847f3da#src=seo_token; uniswap-v4 (Ethereum), 0.01% APY, $134.1K TVL, https://www.defi.garden/?pool=6bbfdf37-902d-4d81-be16-258cbfcc1da9#src=seo_token; uniswap-v4 (Ethereum), 14.89% APY, $889.6K TVL, https://www.defi.garden/?pool=3ee182aa-d85d-4457-aa02-6f28cb257f97#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=a527768e-1126-43ad-b657-63704847f3da#src=seo_token) | Ethereum | 0.11% | $426.3K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=6bbfdf37-902d-4d81-be16-258cbfcc1da9#src=seo_token) | Ethereum | 0.04% | $134.6K |
-| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=3ee182aa-d85d-4457-aa02-6f28cb257f97#src=seo_token) | Ethereum | 32.34% | $894.7K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=a527768e-1126-43ad-b657-63704847f3da#src=seo_token) | Ethereum | 0.06% | $426.4K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=6bbfdf37-902d-4d81-be16-258cbfcc1da9#src=seo_token) | Ethereum | 0.01% | $134.1K |
+| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=3ee182aa-d85d-4457-aa02-6f28cb257f97#src=seo_token) | Ethereum | 14.89% | $889.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-PNKSTR shows up in 3 pools here, with rates from 0.04% to 32.34% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+PNKSTR shows up in 3 pools here, with rates from 0.01% to 14.89% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.21% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.20% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -35,9 +35,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 32.34% | 30.98% | Base rate |
-| uniswap-v4 | 0.11% | 0.21% | Base rate |
-| uniswap-v4 | 0.04% | 0.09% | Base rate |
+| uniswap-v4 | 14.89% | 31.14% | Base rate |
+| uniswap-v4 | 0.06% | 0.20% | Base rate |
+| uniswap-v4 | 0.01% | 0.09% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,11 +45,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest PNKSTR yield today?
 
-32.34% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+0.06% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many PNKSTR pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $3.4M in total.
+4 live pools clear this page's $100K TVL floor, $3.39M in total.
 
 ### Are these rates safe?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which PNKSTR pools have the most stable APY history?
 
-Based on APY history only, PNKSTR's lower-variability candidates are uniswap-v4 (Ethereum), 0.11% APY, $426.3K TVL, https://www.defi.garden/?pool=a527768e-1126-43ad-b657-63704847f3da#src=seo_token; uniswap-v4 (Ethereum), 0.04% APY, $134.6K TVL, https://www.defi.garden/?pool=6bbfdf37-902d-4d81-be16-258cbfcc1da9#src=seo_token; uniswap-v4 (Ethereum), 32.34% APY, $894.7K TVL, https://www.defi.garden/?pool=3ee182aa-d85d-4457-aa02-6f28cb257f97#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PNKSTR's lower-variability candidates are uniswap-v4 (Ethereum), 0.06% APY, $426.4K TVL, https://www.defi.garden/?pool=a527768e-1126-43ad-b657-63704847f3da#src=seo_token; uniswap-v4 (Ethereum), 0.01% APY, $134.1K TVL, https://www.defi.garden/?pool=6bbfdf37-902d-4d81-be16-258cbfcc1da9#src=seo_token; uniswap-v4 (Ethereum), 14.89% APY, $889.6K TVL, https://www.defi.garden/?pool=3ee182aa-d85d-4457-aa02-6f28cb257f97#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

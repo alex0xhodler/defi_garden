@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest JOE yield right now is 3.48% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JOE yield right now is 1.90% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=86e7d910-b29c-49d7-8183-e8f52932cc64#src=seo_token) | Ethereum | 3.48% | $1.45M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=86e7d910-b29c-49d7-8183-e8f52932cc64#src=seo_token) | Ethereum | 1.90% | $1.47M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest JOE yield today?
 
-3.48% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+1.90% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many JOE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.45M in total.
+1 live pool clear this page's $100K TVL floor, $1.47M in total.
 
 ### Are these rates safe?
 

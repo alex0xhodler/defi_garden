@@ -7,23 +7,23 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [orca-dex →](https://www.defi.garden/?pool=57eb6e5d-ac96-4f39-8535-0ae9c7420b13#src=seo_token) | Solana | 0.08% | $19.64M |
-| [orca-dex →](https://www.defi.garden/?pool=761e502e-9b40-48e0-b025-8e083b4fdeda#src=seo_token) | Solana | 0.01% | $2.98M |
+| [orca-dex →](https://www.defi.garden/?pool=761e502e-9b40-48e0-b025-8e083b4fdeda#src=seo_token) | Solana | 0.24% | $2.98M |
 | [kamino-lend →](https://www.defi.garden/?pool=3c4e1d81-1242-44dc-9d45-86cdcb12b9a0#src=seo_token) | Solana | 2.39% | $1.52M |
-| [orca-dex →](https://www.defi.garden/?pool=31ea8935-a82e-491e-9cd9-3af57dab0430#src=seo_token) | Solana | 0.08% | $1.12M |
-| [raydium-amm →](https://www.defi.garden/?pool=0cb32474-2651-4624-8f39-eae66580778e#src=seo_token) | Solana | 0.09% | $1.06M |
+| [orca-dex →](https://www.defi.garden/?pool=31ea8935-a82e-491e-9cd9-3af57dab0430#src=seo_token) | Solana | 0.04% | $1.12M |
+| [raydium-amm →](https://www.defi.garden/?pool=0cb32474-2651-4624-8f39-eae66580778e#src=seo_token) | Solana | 0.07% | $1.06M |
 | [velodrome-v2 →](https://www.defi.garden/?pool=a6a5b3cb-246a-4a2d-a5a7-b5ceb44ae1ed#src=seo_token) | OP Mainnet | 0.37% | $101K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 USX의 변동성 낮은 후보는 Solana의 orca-dex, APY 0.08%, TVL $1.12M, https://www.defi.garden/?pool=31ea8935-a82e-491e-9cd9-3af57dab0430#src=seo_token; Solana의 orca-dex, APY 0.08%, TVL $19.64M, https://www.defi.garden/?pool=57eb6e5d-ac96-4f39-8535-0ae9c7420b13#src=seo_token; Solana의 raydium-amm, APY 0.09%, TVL $1.06M, https://www.defi.garden/?pool=0cb32474-2651-4624-8f39-eae66580778e#src=seo_token; Solana의 orca-dex, APY 0.01%, TVL $2.98M, https://www.defi.garden/?pool=761e502e-9b40-48e0-b025-8e083b4fdeda#src=seo_token; Solana의 kamino-lend, APY 2.39%, TVL $1.52M, https://www.defi.garden/?pool=3c4e1d81-1242-44dc-9d45-86cdcb12b9a0#src=seo_token; OP Mainnet의 velodrome-v2, APY 0.37%, TVL $101K, https://www.defi.garden/?pool=a6a5b3cb-246a-4a2d-a5a7-b5ceb44ae1ed#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USX의 변동성 낮은 후보는 Solana의 orca-dex, APY 0.04%, TVL $1.12M, https://www.defi.garden/?pool=31ea8935-a82e-491e-9cd9-3af57dab0430#src=seo_token; Solana의 orca-dex, APY 0.08%, TVL $19.64M, https://www.defi.garden/?pool=57eb6e5d-ac96-4f39-8535-0ae9c7420b13#src=seo_token; Solana의 raydium-amm, APY 0.07%, TVL $1.06M, https://www.defi.garden/?pool=0cb32474-2651-4624-8f39-eae66580778e#src=seo_token; Solana의 orca-dex, APY 0.24%, TVL $2.98M, https://www.defi.garden/?pool=761e502e-9b40-48e0-b025-8e083b4fdeda#src=seo_token; Solana의 kamino-lend, APY 2.39%, TVL $1.52M, https://www.defi.garden/?pool=3c4e1d81-1242-44dc-9d45-86cdcb12b9a0#src=seo_token; OP Mainnet의 velodrome-v2, APY 0.37%, TVL $101K, https://www.defi.garden/?pool=a6a5b3cb-246a-4a2d-a5a7-b5ceb44ae1ed#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [orca-dex →](https://www.defi.garden/?pool=31ea8935-a82e-491e-9cd9-3af57dab0430#src=seo_token) | Solana | 0.08% | $1.12M |
+| 1 | [orca-dex →](https://www.defi.garden/?pool=31ea8935-a82e-491e-9cd9-3af57dab0430#src=seo_token) | Solana | 0.04% | $1.12M |
 | 2 | [orca-dex →](https://www.defi.garden/?pool=57eb6e5d-ac96-4f39-8535-0ae9c7420b13#src=seo_token) | Solana | 0.08% | $19.64M |
-| 3 | [raydium-amm →](https://www.defi.garden/?pool=0cb32474-2651-4624-8f39-eae66580778e#src=seo_token) | Solana | 0.09% | $1.06M |
-| 4 | [orca-dex →](https://www.defi.garden/?pool=761e502e-9b40-48e0-b025-8e083b4fdeda#src=seo_token) | Solana | 0.01% | $2.98M |
+| 3 | [raydium-amm →](https://www.defi.garden/?pool=0cb32474-2651-4624-8f39-eae66580778e#src=seo_token) | Solana | 0.07% | $1.06M |
+| 4 | [orca-dex →](https://www.defi.garden/?pool=761e502e-9b40-48e0-b025-8e083b4fdeda#src=seo_token) | Solana | 0.24% | $2.98M |
 | 5 | [kamino-lend →](https://www.defi.garden/?pool=3c4e1d81-1242-44dc-9d45-86cdcb12b9a0#src=seo_token) | Solana | 2.39% | $1.52M |
 | 6 | [velodrome-v2 →](https://www.defi.garden/?pool=a6a5b3cb-246a-4a2d-a5a7-b5ceb44ae1ed#src=seo_token) | OP Mainnet | 0.37% | $101K |
 
@@ -31,7 +31,7 @@ APY 이력만 기준으로 비교한 USX의 변동성 낮은 후보는 Solana의
 
 ## 이 수익률은 어떻게 움직였을까요
 
-USX 풀은 여기 6개가 있고, 2개 체인에서 APY가 0.01%부터 2.39%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+USX 풀은 여기 6개가 있고, 2개 체인에서 APY가 0.04%부터 2.39%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 6개 풀 중 6개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 0.27%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -40,10 +40,10 @@ USX 풀은 여기 6개가 있고, 2개 체인에서 APY가 0.01%부터 2.39%까�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | orca-dex | 0.08% | 0.28% | 기본 금리 |
-| orca-dex | 0.01% | 0.25% | 기본 금리 |
+| orca-dex | 0.24% | 0.25% | 기본 금리 |
 | kamino-lend | 2.39% | 1.90% | 기본 금리 |
-| orca-dex | 0.08% | 0.25% | 기본 금리 |
-| raydium-amm | 0.09% | 0.23% | 기본 금리 |
+| orca-dex | 0.04% | 0.25% | 기본 금리 |
+| raydium-amm | 0.07% | 0.23% | 기본 금리 |
 | velodrome-v2 | 0.37% | 0.33% | 인센티브 100.00% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -64,7 +64,7 @@ DefiLlama 실시간 데이터 기준, Solana의 kamino-lend에서 APY 2.39%예�
 
 ### USX 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 USX의 변동성 낮은 후보는 Solana의 orca-dex, APY 0.08%, TVL $1.12M, https://www.defi.garden/?pool=31ea8935-a82e-491e-9cd9-3af57dab0430#src=seo_token; Solana의 orca-dex, APY 0.08%, TVL $19.64M, https://www.defi.garden/?pool=57eb6e5d-ac96-4f39-8535-0ae9c7420b13#src=seo_token; Solana의 raydium-amm, APY 0.09%, TVL $1.06M, https://www.defi.garden/?pool=0cb32474-2651-4624-8f39-eae66580778e#src=seo_token; Solana의 orca-dex, APY 0.01%, TVL $2.98M, https://www.defi.garden/?pool=761e502e-9b40-48e0-b025-8e083b4fdeda#src=seo_token; Solana의 kamino-lend, APY 2.39%, TVL $1.52M, https://www.defi.garden/?pool=3c4e1d81-1242-44dc-9d45-86cdcb12b9a0#src=seo_token; OP Mainnet의 velodrome-v2, APY 0.37%, TVL $101K, https://www.defi.garden/?pool=a6a5b3cb-246a-4a2d-a5a7-b5ceb44ae1ed#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USX의 변동성 낮은 후보는 Solana의 orca-dex, APY 0.04%, TVL $1.12M, https://www.defi.garden/?pool=31ea8935-a82e-491e-9cd9-3af57dab0430#src=seo_token; Solana의 orca-dex, APY 0.08%, TVL $19.64M, https://www.defi.garden/?pool=57eb6e5d-ac96-4f39-8535-0ae9c7420b13#src=seo_token; Solana의 raydium-amm, APY 0.07%, TVL $1.06M, https://www.defi.garden/?pool=0cb32474-2651-4624-8f39-eae66580778e#src=seo_token; Solana의 orca-dex, APY 0.24%, TVL $2.98M, https://www.defi.garden/?pool=761e502e-9b40-48e0-b025-8e083b4fdeda#src=seo_token; Solana의 kamino-lend, APY 2.39%, TVL $1.52M, https://www.defi.garden/?pool=3c4e1d81-1242-44dc-9d45-86cdcb12b9a0#src=seo_token; OP Mainnet의 velodrome-v2, APY 0.37%, TVL $101K, https://www.defi.garden/?pool=a6a5b3cb-246a-4a2d-a5a7-b5ceb44ae1ed#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

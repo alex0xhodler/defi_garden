@@ -39,8 +39,8 @@ There is not enough qualifying APY history to rank BUSDT pools. This view covers
 - [SAVAX](https://www.defi.garden/tokens/savax)
 - [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
 - [WAVAX](https://www.defi.garden/tokens/wavax)
-- [SAVUSD](https://www.defi.garden/tokens/savusd)
 - [BTC.B](https://www.defi.garden/tokens/btc-b)
+- [VBILL](https://www.defi.garden/tokens/vbill)
 
 ## Available on
 

@@ -6,7 +6,7 @@ The highest honest LSETH yield right now is 2.33% on liquid-collective (Ethereum
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [liquid-collective →](https://www.defi.garden/pools/liquid-collective-lseth-ethereum) | Ethereum | 2.33% | $738.4M |
+| [liquid-collective →](https://www.defi.garden/pools/liquid-collective-lseth-ethereum) | Ethereum | 2.33% | $744.37M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many LSETH pools clear the TVL floor?
 
-10 live pools clear this page's $100K TVL floor, $756.16M in total.
+10 live pools clear this page's $100K TVL floor, $762.28M in total.
 
 ### Are these rates safe?
 

@@ -6,7 +6,7 @@ The highest honest DGNUPSIDE yield right now is 120.70% on d2-finance (Hyperliqu
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [d2-finance →](https://www.defi.garden/?pool=1cec1be3-ba60-505a-b397-dc66276ccc9e#src=seo_token) | Hyperliquid L1 | 120.70% | $852.8K |
+| [d2-finance →](https://www.defi.garden/?pool=1cec1be3-ba60-505a-b397-dc66276ccc9e#src=seo_token) | Hyperliquid L1 | 120.70% | $860.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DGNUPSIDE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $852.8K in total.
+1 live pool clear this page's $100K TVL floor, $860.6K in total.
 
 ### Are these rates safe?
 

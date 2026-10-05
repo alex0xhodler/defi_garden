@@ -6,18 +6,18 @@ The highest honest KP3R yield right now is 0.02% on curve-dex (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=b14cb043-eca3-4893-a8c9-3b5e6a96f273#src=seo_token) | Ethereum | 0.02% | $218.7K |
-| [convex-finance →](https://www.defi.garden/?pool=8ba6cffc-8eed-4c62-a19a-ab0c2b5991c5#src=seo_token) | Ethereum | 0.02% | $218.1K |
+| [curve-dex →](https://www.defi.garden/?pool=b14cb043-eca3-4893-a8c9-3b5e6a96f273#src=seo_token) | Ethereum | 0.02% | $218.3K |
+| [convex-finance →](https://www.defi.garden/?pool=8ba6cffc-8eed-4c62-a19a-ab0c2b5991c5#src=seo_token) | Ethereum | 0.02% | $217.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, KP3R's lower-variability candidates are curve-dex (Ethereum), 0.02% APY, $218.7K TVL, https://www.defi.garden/?pool=b14cb043-eca3-4893-a8c9-3b5e6a96f273#src=seo_token; convex-finance (Ethereum), 0.02% APY, $218.1K TVL, https://www.defi.garden/?pool=8ba6cffc-8eed-4c62-a19a-ab0c2b5991c5#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, KP3R's lower-variability candidates are curve-dex (Ethereum), 0.02% APY, $218.3K TVL, https://www.defi.garden/?pool=b14cb043-eca3-4893-a8c9-3b5e6a96f273#src=seo_token; convex-finance (Ethereum), 0.02% APY, $217.7K TVL, https://www.defi.garden/?pool=8ba6cffc-8eed-4c62-a19a-ab0c2b5991c5#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=b14cb043-eca3-4893-a8c9-3b5e6a96f273#src=seo_token) | Ethereum | 0.02% | $218.7K |
-| 2 | [convex-finance →](https://www.defi.garden/?pool=8ba6cffc-8eed-4c62-a19a-ab0c2b5991c5#src=seo_token) | Ethereum | 0.02% | $218.1K |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=b14cb043-eca3-4893-a8c9-3b5e6a96f273#src=seo_token) | Ethereum | 0.02% | $218.3K |
+| 2 | [convex-finance →](https://www.defi.garden/?pool=8ba6cffc-8eed-4c62-a19a-ab0c2b5991c5#src=seo_token) | Ethereum | 0.02% | $217.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many KP3R pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $604.6K in total.
+3 live pools clear this page's $100K TVL floor, $604.9K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which KP3R pools have the most stable APY history?
 
-Based on APY history only, KP3R's lower-variability candidates are curve-dex (Ethereum), 0.02% APY, $218.7K TVL, https://www.defi.garden/?pool=b14cb043-eca3-4893-a8c9-3b5e6a96f273#src=seo_token; convex-finance (Ethereum), 0.02% APY, $218.1K TVL, https://www.defi.garden/?pool=8ba6cffc-8eed-4c62-a19a-ab0c2b5991c5#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, KP3R's lower-variability candidates are curve-dex (Ethereum), 0.02% APY, $218.3K TVL, https://www.defi.garden/?pool=b14cb043-eca3-4893-a8c9-3b5e6a96f273#src=seo_token; convex-finance (Ethereum), 0.02% APY, $217.7K TVL, https://www.defi.garden/?pool=8ba6cffc-8eed-4c62-a19a-ab0c2b5991c5#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

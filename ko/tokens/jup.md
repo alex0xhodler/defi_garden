@@ -2,36 +2,36 @@
 
 *DefiLlama 데이터 생성 시점 검증: October 5, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 JUP의 가장 높은 정직한 수익률은 Solana의 orca-dex에서 50.59%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 JUP의 가장 높은 정직한 수익률은 Solana의 orca-dex에서 58.32%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [project-0 →](https://www.defi.garden/?pool=d946f451-2368-4911-889a-9e12ce14d4d0#src=seo_token) | Solana | 0.01% | $1.56M |
-| [kamino-liquidity →](https://www.defi.garden/?pool=2311da1c-3d89-43cb-afdb-e19edfc01b1e#src=seo_token) | Solana | 40.77% | $1.05M |
-| [orca-dex →](https://www.defi.garden/?pool=18da9637-00b2-4eda-bf76-942f1acbfc28#src=seo_token) | Solana | 50.59% | $841.5K |
-| [kamino-liquidity →](https://www.defi.garden/?pool=b96b2112-b529-4b09-b89e-b172d810108f#src=seo_token) | Solana | 17.67% | $518.8K |
-| [kamino-liquidity →](https://www.defi.garden/?pool=eb3b548a-4c25-4e49-9e08-9733c8da29a6#src=seo_token) | Solana | 11.54% | $275.7K |
+| [project-0 →](https://www.defi.garden/?pool=d946f451-2368-4911-889a-9e12ce14d4d0#src=seo_token) | Solana | 0.01% | $1.6M |
+| [kamino-liquidity →](https://www.defi.garden/?pool=2311da1c-3d89-43cb-afdb-e19edfc01b1e#src=seo_token) | Solana | 59.79% | $1.07M |
+| [orca-dex →](https://www.defi.garden/?pool=18da9637-00b2-4eda-bf76-942f1acbfc28#src=seo_token) | Solana | 58.32% | $851.4K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=b96b2112-b529-4b09-b89e-b172d810108f#src=seo_token) | Solana | 22.17% | $525.3K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=eb3b548a-4c25-4e49-9e08-9733c8da29a6#src=seo_token) | Solana | 13.70% | $279.2K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 JUP의 변동성 낮은 후보는 Solana의 project-0, APY 0.01%, TVL $1.56M, https://www.defi.garden/?pool=d946f451-2368-4911-889a-9e12ce14d4d0#src=seo_token; Solana의 orca-dex, APY 50.59%, TVL $841.5K, https://www.defi.garden/?pool=18da9637-00b2-4eda-bf76-942f1acbfc28#src=seo_token; Solana의 kamino-liquidity, APY 11.54%, TVL $275.7K, https://www.defi.garden/?pool=eb3b548a-4c25-4e49-9e08-9733c8da29a6#src=seo_token; Solana의 kamino-liquidity, APY 17.67%, TVL $518.8K, https://www.defi.garden/?pool=b96b2112-b529-4b09-b89e-b172d810108f#src=seo_token; Solana의 kamino-liquidity, APY 40.77%, TVL $1.05M, https://www.defi.garden/?pool=2311da1c-3d89-43cb-afdb-e19edfc01b1e#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 JUP의 변동성 낮은 후보는 Solana의 project-0, APY 0.01%, TVL $1.6M, https://www.defi.garden/?pool=d946f451-2368-4911-889a-9e12ce14d4d0#src=seo_token; Solana의 orca-dex, APY 58.32%, TVL $851.4K, https://www.defi.garden/?pool=18da9637-00b2-4eda-bf76-942f1acbfc28#src=seo_token; Solana의 kamino-liquidity, APY 13.70%, TVL $279.2K, https://www.defi.garden/?pool=eb3b548a-4c25-4e49-9e08-9733c8da29a6#src=seo_token; Solana의 kamino-liquidity, APY 22.17%, TVL $525.3K, https://www.defi.garden/?pool=b96b2112-b529-4b09-b89e-b172d810108f#src=seo_token; Solana의 kamino-liquidity, APY 59.79%, TVL $1.07M, https://www.defi.garden/?pool=2311da1c-3d89-43cb-afdb-e19edfc01b1e#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [project-0 →](https://www.defi.garden/?pool=d946f451-2368-4911-889a-9e12ce14d4d0#src=seo_token) | Solana | 0.01% | $1.56M |
-| 2 | [orca-dex →](https://www.defi.garden/?pool=18da9637-00b2-4eda-bf76-942f1acbfc28#src=seo_token) | Solana | 50.59% | $841.5K |
-| 3 | [kamino-liquidity →](https://www.defi.garden/?pool=eb3b548a-4c25-4e49-9e08-9733c8da29a6#src=seo_token) | Solana | 11.54% | $275.7K |
-| 4 | [kamino-liquidity →](https://www.defi.garden/?pool=b96b2112-b529-4b09-b89e-b172d810108f#src=seo_token) | Solana | 17.67% | $518.8K |
-| 5 | [kamino-liquidity →](https://www.defi.garden/?pool=2311da1c-3d89-43cb-afdb-e19edfc01b1e#src=seo_token) | Solana | 40.77% | $1.05M |
+| 1 | [project-0 →](https://www.defi.garden/?pool=d946f451-2368-4911-889a-9e12ce14d4d0#src=seo_token) | Solana | 0.01% | $1.6M |
+| 2 | [orca-dex →](https://www.defi.garden/?pool=18da9637-00b2-4eda-bf76-942f1acbfc28#src=seo_token) | Solana | 58.32% | $851.4K |
+| 3 | [kamino-liquidity →](https://www.defi.garden/?pool=eb3b548a-4c25-4e49-9e08-9733c8da29a6#src=seo_token) | Solana | 13.70% | $279.2K |
+| 4 | [kamino-liquidity →](https://www.defi.garden/?pool=b96b2112-b529-4b09-b89e-b172d810108f#src=seo_token) | Solana | 22.17% | $525.3K |
+| 5 | [kamino-liquidity →](https://www.defi.garden/?pool=2311da1c-3d89-43cb-afdb-e19edfc01b1e#src=seo_token) | Solana | 59.79% | $1.07M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-JUP 풀은 여기 5개가 있고, 1개 체인에서 APY가 0.01%부터 50.59%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+JUP 풀은 여기 5개가 있고, 1개 체인에서 APY가 0.01%부터 59.79%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 40.59%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 40.58%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 현재 5개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
@@ -40,10 +40,10 @@ JUP 풀은 여기 5개가 있고, 1개 체인에서 APY가 0.01%부터 50.59%까
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | project-0 | 0.01% | 0.01% | 기본 금리 |
-| kamino-liquidity | 40.77% | 186.04% | 기본 금리 |
-| orca-dex | 50.59% | 71.43% | 기본 금리 |
-| kamino-liquidity | 17.67% | 37.01% | 기본 금리 |
-| kamino-liquidity | 11.54% | 40.59% | 기본 금리 |
+| kamino-liquidity | 59.79% | 186.07% | 기본 금리 |
+| orca-dex | 58.32% | 71.59% | 기본 금리 |
+| kamino-liquidity | 22.17% | 37.04% | 기본 금리 |
+| kamino-liquidity | 13.70% | 40.58% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -51,11 +51,11 @@ JUP 풀은 여기 5개가 있고, 1개 체인에서 APY가 0.01%부터 50.59%까
 
 ### 오늘 JUP의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 50.59%예요.
+DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 58.32%예요.
 
 ### JUP 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $4.35M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $4.43M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -63,7 +63,7 @@ DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 50.59%예요.
 
 ### JUP 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 JUP의 변동성 낮은 후보는 Solana의 project-0, APY 0.01%, TVL $1.56M, https://www.defi.garden/?pool=d946f451-2368-4911-889a-9e12ce14d4d0#src=seo_token; Solana의 orca-dex, APY 50.59%, TVL $841.5K, https://www.defi.garden/?pool=18da9637-00b2-4eda-bf76-942f1acbfc28#src=seo_token; Solana의 kamino-liquidity, APY 11.54%, TVL $275.7K, https://www.defi.garden/?pool=eb3b548a-4c25-4e49-9e08-9733c8da29a6#src=seo_token; Solana의 kamino-liquidity, APY 17.67%, TVL $518.8K, https://www.defi.garden/?pool=b96b2112-b529-4b09-b89e-b172d810108f#src=seo_token; Solana의 kamino-liquidity, APY 40.77%, TVL $1.05M, https://www.defi.garden/?pool=2311da1c-3d89-43cb-afdb-e19edfc01b1e#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 JUP의 변동성 낮은 후보는 Solana의 project-0, APY 0.01%, TVL $1.6M, https://www.defi.garden/?pool=d946f451-2368-4911-889a-9e12ce14d4d0#src=seo_token; Solana의 orca-dex, APY 58.32%, TVL $851.4K, https://www.defi.garden/?pool=18da9637-00b2-4eda-bf76-942f1acbfc28#src=seo_token; Solana의 kamino-liquidity, APY 13.70%, TVL $279.2K, https://www.defi.garden/?pool=eb3b548a-4c25-4e49-9e08-9733c8da29a6#src=seo_token; Solana의 kamino-liquidity, APY 22.17%, TVL $525.3K, https://www.defi.garden/?pool=b96b2112-b529-4b09-b89e-b172d810108f#src=seo_token; Solana의 kamino-liquidity, APY 59.79%, TVL $1.07M, https://www.defi.garden/?pool=2311da1c-3d89-43cb-afdb-e19edfc01b1e#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

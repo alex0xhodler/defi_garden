@@ -2,39 +2,39 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest RSUP yield right now is 27.69% on convex-finance (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RSUP yield right now is 14.64% on curve-dex (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=1cfa57c8-2c94-4c3d-869f-a3ae98cfb370#src=seo_token) | Ethereum | 14.44% | $646.2K |
-| [convex-finance →](https://www.defi.garden/?pool=03783f78-933d-4cbd-b446-8e3b7c8b5638#src=seo_token) | Ethereum | 27.69% | $533.4K |
+| [curve-dex →](https://www.defi.garden/?pool=1cfa57c8-2c94-4c3d-869f-a3ae98cfb370#src=seo_token) | Ethereum | 14.64% | $648.8K |
+| [convex-finance →](https://www.defi.garden/?pool=03783f78-933d-4cbd-b446-8e3b7c8b5638#src=seo_token) | Ethereum | 0.44% | $534K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, RSUP's lower-variability candidates are curve-dex (Ethereum), 14.44% APY, $646.2K TVL, https://www.defi.garden/?pool=1cfa57c8-2c94-4c3d-869f-a3ae98cfb370#src=seo_token; convex-finance (Ethereum), 27.69% APY, $533.4K TVL, https://www.defi.garden/?pool=03783f78-933d-4cbd-b446-8e3b7c8b5638#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RSUP's lower-variability candidates are curve-dex (Ethereum), 14.64% APY, $648.8K TVL, https://www.defi.garden/?pool=1cfa57c8-2c94-4c3d-869f-a3ae98cfb370#src=seo_token; convex-finance (Ethereum), 0.44% APY, $534K TVL, https://www.defi.garden/?pool=03783f78-933d-4cbd-b446-8e3b7c8b5638#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=1cfa57c8-2c94-4c3d-869f-a3ae98cfb370#src=seo_token) | Ethereum | 14.44% | $646.2K |
-| 2 | [convex-finance →](https://www.defi.garden/?pool=03783f78-933d-4cbd-b446-8e3b7c8b5638#src=seo_token) | Ethereum | 27.69% | $533.4K |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=1cfa57c8-2c94-4c3d-869f-a3ae98cfb370#src=seo_token) | Ethereum | 14.64% | $648.8K |
+| 2 | [convex-finance →](https://www.defi.garden/?pool=03783f78-933d-4cbd-b446-8e3b7c8b5638#src=seo_token) | Ethereum | 0.44% | $534K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-RSUP shows up in 2 pools here, with rates from 14.44% to 27.69% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+RSUP shows up in 2 pools here, with rates from 0.44% to 14.64% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 21.41% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 21.35% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-2 of 2 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 14.44% | 16.09% | 97.09% incentives |
-| convex-finance | 27.69% | 26.73% | 98.48% incentives |
+| curve-dex | 14.64% | 16.07% | 96.99% incentives |
+| convex-finance | 0.44% | 26.64% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,7 +42,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest RSUP yield today?
 
-27.69% APY on convex-finance (Ethereum), based on live DefiLlama data.
+14.64% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many RSUP pools clear the TVL floor?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which RSUP pools have the most stable APY history?
 
-Based on APY history only, RSUP's lower-variability candidates are curve-dex (Ethereum), 14.44% APY, $646.2K TVL, https://www.defi.garden/?pool=1cfa57c8-2c94-4c3d-869f-a3ae98cfb370#src=seo_token; convex-finance (Ethereum), 27.69% APY, $533.4K TVL, https://www.defi.garden/?pool=03783f78-933d-4cbd-b446-8e3b7c8b5638#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RSUP's lower-variability candidates are curve-dex (Ethereum), 14.64% APY, $648.8K TVL, https://www.defi.garden/?pool=1cfa57c8-2c94-4c3d-869f-a3ae98cfb370#src=seo_token; convex-finance (Ethereum), 0.44% APY, $534K TVL, https://www.defi.garden/?pool=03783f78-933d-4cbd-b446-8e3b7c8b5638#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

@@ -6,7 +6,7 @@ The highest honest BANANA yield right now is 0.88% on uniswap-v2 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=fda94d45-2066-4785-876c-550a18ff5fe4#src=seo_token) | Ethereum | 0.88% | $3.29M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=fda94d45-2066-4785-876c-550a18ff5fe4#src=seo_token) | Ethereum | 0.88% | $3.31M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BANANA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $3.29M in total.
+1 live pool clear this page's $100K TVL floor, $3.31M in total.
 
 ### Are these rates safe?
 

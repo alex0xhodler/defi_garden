@@ -6,7 +6,7 @@ The highest honest USDC.N yield right now is 0.15% on osmosis-dex (Osmosis), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [osmosis-dex →](https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850#src=seo_token) | Osmosis | 0.15% | $188.7K |
+| [osmosis-dex →](https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850#src=seo_token) | Osmosis | 0.15% | $193.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many USDC.N pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $963.8K in total.
+4 live pools clear this page's $100K TVL floor, $968.3K in total.
 
 ### Are these rates safe?
 

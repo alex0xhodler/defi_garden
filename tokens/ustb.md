@@ -6,19 +6,19 @@ The highest honest USTB yield right now is 3.45% on invesco-ustb (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [invesco-ustb →](https://www.defi.garden/pools/invesco-ustb-ustb-ethereum) | Ethereum | 3.45% | $557.06M |
-| [invesco-ustb →](https://www.defi.garden/?pool=8db7cb71-f2b7-45c7-bbff-f32c88ef7b81#src=seo_token) | Plume Mainnet | 3.45% | $3.92M |
+| [invesco-ustb →](https://www.defi.garden/pools/invesco-ustb-ustb-ethereum) | Ethereum | 3.45% | $557.26M |
+| [invesco-ustb →](https://www.defi.garden/?pool=8db7cb71-f2b7-45c7-bbff-f32c88ef7b81#src=seo_token) | Plume Mainnet | 3.45% | $3.9M |
 | [invesco-ustb →](https://www.defi.garden/?pool=9ad71299-9318-47b3-9a5a-bbe67c5121bf#src=seo_token) | Solana | 3.45% | $1.96M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, USTB's lower-variability candidates are invesco-ustb (Ethereum), 3.45% APY, $557.06M TVL, https://www.defi.garden/pools/invesco-ustb-ustb-ethereum; invesco-ustb (Plume Mainnet), 3.45% APY, $3.92M TVL, https://www.defi.garden/?pool=8db7cb71-f2b7-45c7-bbff-f32c88ef7b81#src=seo_token; invesco-ustb (Solana), 3.45% APY, $1.96M TVL, https://www.defi.garden/?pool=9ad71299-9318-47b3-9a5a-bbe67c5121bf#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USTB's lower-variability candidates are invesco-ustb (Ethereum), 3.45% APY, $557.26M TVL, https://www.defi.garden/pools/invesco-ustb-ustb-ethereum; invesco-ustb (Plume Mainnet), 3.45% APY, $3.9M TVL, https://www.defi.garden/?pool=8db7cb71-f2b7-45c7-bbff-f32c88ef7b81#src=seo_token; invesco-ustb (Solana), 3.45% APY, $1.96M TVL, https://www.defi.garden/?pool=9ad71299-9318-47b3-9a5a-bbe67c5121bf#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [invesco-ustb →](https://www.defi.garden/pools/invesco-ustb-ustb-ethereum) | Ethereum | 3.45% | $557.06M |
-| 2 | [invesco-ustb →](https://www.defi.garden/?pool=8db7cb71-f2b7-45c7-bbff-f32c88ef7b81#src=seo_token) | Plume Mainnet | 3.45% | $3.92M |
+| 1 | [invesco-ustb →](https://www.defi.garden/pools/invesco-ustb-ustb-ethereum) | Ethereum | 3.45% | $557.26M |
+| 2 | [invesco-ustb →](https://www.defi.garden/?pool=8db7cb71-f2b7-45c7-bbff-f32c88ef7b81#src=seo_token) | Plume Mainnet | 3.45% | $3.9M |
 | 3 | [invesco-ustb →](https://www.defi.garden/?pool=9ad71299-9318-47b3-9a5a-bbe67c5121bf#src=seo_token) | Solana | 3.45% | $1.96M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -47,7 +47,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many USTB pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $574.8M in total.
+4 live pools clear this page's $100K TVL floor, $574.97M in total.
 
 ### Are these rates safe?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USTB pools have the most stable APY history?
 
-Based on APY history only, USTB's lower-variability candidates are invesco-ustb (Ethereum), 3.45% APY, $557.06M TVL, https://www.defi.garden/pools/invesco-ustb-ustb-ethereum; invesco-ustb (Plume Mainnet), 3.45% APY, $3.92M TVL, https://www.defi.garden/?pool=8db7cb71-f2b7-45c7-bbff-f32c88ef7b81#src=seo_token; invesco-ustb (Solana), 3.45% APY, $1.96M TVL, https://www.defi.garden/?pool=9ad71299-9318-47b3-9a5a-bbe67c5121bf#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USTB's lower-variability candidates are invesco-ustb (Ethereum), 3.45% APY, $557.26M TVL, https://www.defi.garden/pools/invesco-ustb-ustb-ethereum; invesco-ustb (Plume Mainnet), 3.45% APY, $3.9M TVL, https://www.defi.garden/?pool=8db7cb71-f2b7-45c7-bbff-f32c88ef7b81#src=seo_token; invesco-ustb (Solana), 3.45% APY, $1.96M TVL, https://www.defi.garden/?pool=9ad71299-9318-47b3-9a5a-bbe67c5121bf#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

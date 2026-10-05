@@ -2,28 +2,28 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest OUSG yield right now is 3.29% on ondo-yield-assets (XRPL), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OUSG yield right now is 3.65% on ondo-yield-assets (XRPL), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ondo-yield-assets →](https://www.defi.garden/pools/ondo-yield-assets-ousg-xrpl) | XRPL | 3.29% | $187.48M |
-| [ondo-yield-assets →](https://www.defi.garden/pools/ondo-yield-assets-ousg-ethereum) | Ethereum | 3.29% | $133.74M |
+| [ondo-yield-assets →](https://www.defi.garden/pools/ondo-yield-assets-ousg-xrpl) | XRPL | 3.65% | $187.54M |
+| [ondo-yield-assets →](https://www.defi.garden/pools/ondo-yield-assets-ousg-ethereum) | Ethereum | 3.65% | $133.79M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, OUSG's lower-variability candidates are ondo-yield-assets (XRPL), 3.29% APY, $187.48M TVL, https://www.defi.garden/pools/ondo-yield-assets-ousg-xrpl; ondo-yield-assets (Ethereum), 3.29% APY, $133.74M TVL, https://www.defi.garden/pools/ondo-yield-assets-ousg-ethereum. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, OUSG's lower-variability candidates are ondo-yield-assets (XRPL), 3.65% APY, $187.54M TVL, https://www.defi.garden/pools/ondo-yield-assets-ousg-xrpl; ondo-yield-assets (Ethereum), 3.65% APY, $133.79M TVL, https://www.defi.garden/pools/ondo-yield-assets-ousg-ethereum. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [ondo-yield-assets →](https://www.defi.garden/pools/ondo-yield-assets-ousg-xrpl) | XRPL | 3.29% | $187.48M |
-| 2 | [ondo-yield-assets →](https://www.defi.garden/pools/ondo-yield-assets-ousg-ethereum) | Ethereum | 3.29% | $133.74M |
+| 1 | [ondo-yield-assets →](https://www.defi.garden/pools/ondo-yield-assets-ousg-xrpl) | XRPL | 3.65% | $187.54M |
+| 2 | [ondo-yield-assets →](https://www.defi.garden/pools/ondo-yield-assets-ousg-ethereum) | Ethereum | 3.65% | $133.79M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-OUSG shows up in 2 pools here, with rates from 3.29% to 3.29% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+OUSG shows up in 2 pools here, with rates from 3.65% to 3.65% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.46% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| ondo-yield-assets | 3.29% | 3.46% | Base rate |
-| ondo-yield-assets | 3.29% | 3.46% | Base rate |
+| ondo-yield-assets | 3.65% | 3.46% | Base rate |
+| ondo-yield-assets | 3.65% | 3.46% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest OUSG yield today?
 
-3.29% APY on ondo-yield-assets (XRPL), based on live DefiLlama data.
+3.65% APY on ondo-yield-assets (XRPL), based on live DefiLlama data.
 
 ### How many OUSG pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $360.5M in total.
+3 live pools clear this page's $100K TVL floor, $360.61M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which OUSG pools have the most stable APY history?
 
-Based on APY history only, OUSG's lower-variability candidates are ondo-yield-assets (XRPL), 3.29% APY, $187.48M TVL, https://www.defi.garden/pools/ondo-yield-assets-ousg-xrpl; ondo-yield-assets (Ethereum), 3.29% APY, $133.74M TVL, https://www.defi.garden/pools/ondo-yield-assets-ousg-ethereum. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, OUSG's lower-variability candidates are ondo-yield-assets (XRPL), 3.65% APY, $187.54M TVL, https://www.defi.garden/pools/ondo-yield-assets-ousg-xrpl; ondo-yield-assets (Ethereum), 3.65% APY, $133.79M TVL, https://www.defi.garden/pools/ondo-yield-assets-ousg-ethereum. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

@@ -2,42 +2,42 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest FXRP yield right now is 24.43% on sparkdex-v4 (Flare), among 13 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FXRP yield right now is 23.45% on sparkdex-v4 (Flare), among 13 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [kinetic →](https://www.defi.garden/?pool=28c0f086-2e1a-40f0-a5f5-763d706c0806#src=seo_token) | Flare | 0.57% | $27.93M |
-| [sparkdex-v4 →](https://www.defi.garden/?pool=fe56d007-4f9f-4eaf-84e2-ea4248769975#src=seo_token) | Flare | 1.70% | $7.54M |
-| [gami-labs →](https://www.defi.garden/?pool=5679232d-a8e5-407f-a3e4-82959e6024a6#src=seo_token) | Flare | 3.74% | $3.81M |
-| [spectra-metavaults →](https://www.defi.garden/?pool=af2be81f-fa29-4562-ab9f-f103748f2233#src=seo_token) | Flare | 3.74% | $3.81M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=bb78714b-5da3-5298-8009-da2451208e67#src=seo_token) | Ethereum | 0.07% | $3.05M |
-| [sparkdex-v4 →](https://www.defi.garden/?pool=edf74623-c808-4dae-91a2-dd3573884832#src=seo_token) | Flare | 24.43% | $2.1M |
-| [sparkdex-v4 →](https://www.defi.garden/?pool=86656bca-cc02-4447-9934-4d45f11c254a#src=seo_token) | Flare | 14.36% | $1.16M |
-| [sparkdex-v3.1 →](https://www.defi.garden/?pool=552f9391-52f8-458a-abf6-1070a28562a4#src=seo_token) | Flare | 18.81% | $672K |
+| [kinetic →](https://www.defi.garden/?pool=28c0f086-2e1a-40f0-a5f5-763d706c0806#src=seo_token) | Flare | 0.56% | $28.27M |
+| [sparkdex-v4 →](https://www.defi.garden/?pool=fe56d007-4f9f-4eaf-84e2-ea4248769975#src=seo_token) | Flare | 1.70% | $7.62M |
+| [gami-labs →](https://www.defi.garden/?pool=5679232d-a8e5-407f-a3e4-82959e6024a6#src=seo_token) | Flare | 3.74% | $3.85M |
+| [spectra-metavaults →](https://www.defi.garden/?pool=af2be81f-fa29-4562-ab9f-f103748f2233#src=seo_token) | Flare | 3.74% | $3.85M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=bb78714b-5da3-5298-8009-da2451208e67#src=seo_token) | Ethereum | 0.06% | $3.05M |
+| [sparkdex-v4 →](https://www.defi.garden/?pool=edf74623-c808-4dae-91a2-dd3573884832#src=seo_token) | Flare | 23.45% | $2.12M |
+| [sparkdex-v4 →](https://www.defi.garden/?pool=86656bca-cc02-4447-9934-4d45f11c254a#src=seo_token) | Flare | 14.48% | $1.17M |
+| [sparkdex-v3.1 →](https://www.defi.garden/?pool=552f9391-52f8-458a-abf6-1070a28562a4#src=seo_token) | Flare | 18.87% | $675.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, FXRP's lower-variability candidates are sparkdex-v4 (Flare), 1.70% APY, $7.54M TVL, https://www.defi.garden/?pool=fe56d007-4f9f-4eaf-84e2-ea4248769975#src=seo_token; spectra-metavaults (Flare), 3.74% APY, $3.81M TVL, https://www.defi.garden/?pool=af2be81f-fa29-4562-ab9f-f103748f2233#src=seo_token; kinetic (Flare), 0.57% APY, $27.93M TVL, https://www.defi.garden/?pool=28c0f086-2e1a-40f0-a5f5-763d706c0806#src=seo_token; gami-labs (Flare), 3.74% APY, $3.81M TVL, https://www.defi.garden/?pool=5679232d-a8e5-407f-a3e4-82959e6024a6#src=seo_token; uniswap-v3 (Ethereum), 0.07% APY, $3.05M TVL, https://www.defi.garden/?pool=bb78714b-5da3-5298-8009-da2451208e67#src=seo_token; sparkdex-v4 (Flare), 14.36% APY, $1.16M TVL, https://www.defi.garden/?pool=86656bca-cc02-4447-9934-4d45f11c254a#src=seo_token; sparkdex-v3.1 (Flare), 18.81% APY, $672K TVL, https://www.defi.garden/?pool=552f9391-52f8-458a-abf6-1070a28562a4#src=seo_token; sparkdex-v4 (Flare), 24.43% APY, $2.1M TVL, https://www.defi.garden/?pool=edf74623-c808-4dae-91a2-dd3573884832#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FXRP's lower-variability candidates are sparkdex-v4 (Flare), 1.70% APY, $7.62M TVL, https://www.defi.garden/?pool=fe56d007-4f9f-4eaf-84e2-ea4248769975#src=seo_token; spectra-metavaults (Flare), 3.74% APY, $3.85M TVL, https://www.defi.garden/?pool=af2be81f-fa29-4562-ab9f-f103748f2233#src=seo_token; kinetic (Flare), 0.56% APY, $28.27M TVL, https://www.defi.garden/?pool=28c0f086-2e1a-40f0-a5f5-763d706c0806#src=seo_token; gami-labs (Flare), 3.74% APY, $3.85M TVL, https://www.defi.garden/?pool=5679232d-a8e5-407f-a3e4-82959e6024a6#src=seo_token; uniswap-v3 (Ethereum), 0.06% APY, $3.05M TVL, https://www.defi.garden/?pool=bb78714b-5da3-5298-8009-da2451208e67#src=seo_token; sparkdex-v4 (Flare), 14.48% APY, $1.17M TVL, https://www.defi.garden/?pool=86656bca-cc02-4447-9934-4d45f11c254a#src=seo_token; sparkdex-v3.1 (Flare), 18.87% APY, $675.3K TVL, https://www.defi.garden/?pool=552f9391-52f8-458a-abf6-1070a28562a4#src=seo_token; sparkdex-v4 (Flare), 23.45% APY, $2.12M TVL, https://www.defi.garden/?pool=edf74623-c808-4dae-91a2-dd3573884832#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [sparkdex-v4 →](https://www.defi.garden/?pool=fe56d007-4f9f-4eaf-84e2-ea4248769975#src=seo_token) | Flare | 1.70% | $7.54M |
-| 2 | [spectra-metavaults →](https://www.defi.garden/?pool=af2be81f-fa29-4562-ab9f-f103748f2233#src=seo_token) | Flare | 3.74% | $3.81M |
-| 3 | [kinetic →](https://www.defi.garden/?pool=28c0f086-2e1a-40f0-a5f5-763d706c0806#src=seo_token) | Flare | 0.57% | $27.93M |
-| 4 | [gami-labs →](https://www.defi.garden/?pool=5679232d-a8e5-407f-a3e4-82959e6024a6#src=seo_token) | Flare | 3.74% | $3.81M |
-| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=bb78714b-5da3-5298-8009-da2451208e67#src=seo_token) | Ethereum | 0.07% | $3.05M |
-| 6 | [sparkdex-v4 →](https://www.defi.garden/?pool=86656bca-cc02-4447-9934-4d45f11c254a#src=seo_token) | Flare | 14.36% | $1.16M |
-| 7 | [sparkdex-v3.1 →](https://www.defi.garden/?pool=552f9391-52f8-458a-abf6-1070a28562a4#src=seo_token) | Flare | 18.81% | $672K |
-| 8 | [sparkdex-v4 →](https://www.defi.garden/?pool=edf74623-c808-4dae-91a2-dd3573884832#src=seo_token) | Flare | 24.43% | $2.1M |
+| 1 | [sparkdex-v4 →](https://www.defi.garden/?pool=fe56d007-4f9f-4eaf-84e2-ea4248769975#src=seo_token) | Flare | 1.70% | $7.62M |
+| 2 | [spectra-metavaults →](https://www.defi.garden/?pool=af2be81f-fa29-4562-ab9f-f103748f2233#src=seo_token) | Flare | 3.74% | $3.85M |
+| 3 | [kinetic →](https://www.defi.garden/?pool=28c0f086-2e1a-40f0-a5f5-763d706c0806#src=seo_token) | Flare | 0.56% | $28.27M |
+| 4 | [gami-labs →](https://www.defi.garden/?pool=5679232d-a8e5-407f-a3e4-82959e6024a6#src=seo_token) | Flare | 3.74% | $3.85M |
+| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=bb78714b-5da3-5298-8009-da2451208e67#src=seo_token) | Ethereum | 0.06% | $3.05M |
+| 6 | [sparkdex-v4 →](https://www.defi.garden/?pool=86656bca-cc02-4447-9934-4d45f11c254a#src=seo_token) | Flare | 14.48% | $1.17M |
+| 7 | [sparkdex-v3.1 →](https://www.defi.garden/?pool=552f9391-52f8-458a-abf6-1070a28562a4#src=seo_token) | Flare | 18.87% | $675.3K |
+| 8 | [sparkdex-v4 →](https://www.defi.garden/?pool=edf74623-c808-4dae-91a2-dd3573884832#src=seo_token) | Flare | 23.45% | $2.12M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-FXRP shows up in 8 pools here, with rates from 0.07% to 24.43% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+FXRP shows up in 8 pools here, with rates from 0.06% to 23.45% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 3.45% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 3.46% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 4 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -45,14 +45,14 @@ FXRP shows up in 8 pools here, with rates from 0.07% to 24.43% APY across 2 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| kinetic | 0.57% | 0.69% | 92.73% incentives |
-| sparkdex-v4 | 1.70% | 1.84% | 99.22% incentives |
-| gami-labs | 3.74% | 3.48% | Base rate |
-| spectra-metavaults | 3.74% | 3.41% | Base rate |
-| uniswap-v3 | 0.07% | 0.08% | Base rate |
-| sparkdex-v4 | 24.43% | 40.91% | 64.80% incentives |
-| sparkdex-v4 | 14.36% | 18.89% | 92.61% incentives |
-| sparkdex-v3.1 | 18.81% | 32.91% | Base rate |
+| kinetic | 0.56% | 0.69% | 93.10% incentives |
+| sparkdex-v4 | 1.70% | 1.84% | 99.31% incentives |
+| gami-labs | 3.74% | 3.50% | Base rate |
+| spectra-metavaults | 3.74% | 3.43% | Base rate |
+| uniswap-v3 | 0.06% | 0.08% | Base rate |
+| sparkdex-v4 | 23.45% | 40.91% | 67.67% incentives |
+| sparkdex-v4 | 14.48% | 18.88% | 91.79% incentives |
+| sparkdex-v3.1 | 18.87% | 32.95% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -60,11 +60,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest FXRP yield today?
 
-24.43% APY on sparkdex-v4 (Flare), based on live DefiLlama data.
+23.45% APY on sparkdex-v4 (Flare), based on live DefiLlama data.
 
 ### How many FXRP pools clear the TVL floor?
 
-13 live pools clear this page's $100K TVL floor, $68.74M in total.
+13 live pools clear this page's $100K TVL floor, $69.45M in total.
 
 ### Are these rates safe?
 
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which FXRP pools have the most stable APY history?
 
-Based on APY history only, FXRP's lower-variability candidates are sparkdex-v4 (Flare), 1.70% APY, $7.54M TVL, https://www.defi.garden/?pool=fe56d007-4f9f-4eaf-84e2-ea4248769975#src=seo_token; spectra-metavaults (Flare), 3.74% APY, $3.81M TVL, https://www.defi.garden/?pool=af2be81f-fa29-4562-ab9f-f103748f2233#src=seo_token; kinetic (Flare), 0.57% APY, $27.93M TVL, https://www.defi.garden/?pool=28c0f086-2e1a-40f0-a5f5-763d706c0806#src=seo_token; gami-labs (Flare), 3.74% APY, $3.81M TVL, https://www.defi.garden/?pool=5679232d-a8e5-407f-a3e4-82959e6024a6#src=seo_token; uniswap-v3 (Ethereum), 0.07% APY, $3.05M TVL, https://www.defi.garden/?pool=bb78714b-5da3-5298-8009-da2451208e67#src=seo_token; sparkdex-v4 (Flare), 14.36% APY, $1.16M TVL, https://www.defi.garden/?pool=86656bca-cc02-4447-9934-4d45f11c254a#src=seo_token; sparkdex-v3.1 (Flare), 18.81% APY, $672K TVL, https://www.defi.garden/?pool=552f9391-52f8-458a-abf6-1070a28562a4#src=seo_token; sparkdex-v4 (Flare), 24.43% APY, $2.1M TVL, https://www.defi.garden/?pool=edf74623-c808-4dae-91a2-dd3573884832#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FXRP's lower-variability candidates are sparkdex-v4 (Flare), 1.70% APY, $7.62M TVL, https://www.defi.garden/?pool=fe56d007-4f9f-4eaf-84e2-ea4248769975#src=seo_token; spectra-metavaults (Flare), 3.74% APY, $3.85M TVL, https://www.defi.garden/?pool=af2be81f-fa29-4562-ab9f-f103748f2233#src=seo_token; kinetic (Flare), 0.56% APY, $28.27M TVL, https://www.defi.garden/?pool=28c0f086-2e1a-40f0-a5f5-763d706c0806#src=seo_token; gami-labs (Flare), 3.74% APY, $3.85M TVL, https://www.defi.garden/?pool=5679232d-a8e5-407f-a3e4-82959e6024a6#src=seo_token; uniswap-v3 (Ethereum), 0.06% APY, $3.05M TVL, https://www.defi.garden/?pool=bb78714b-5da3-5298-8009-da2451208e67#src=seo_token; sparkdex-v4 (Flare), 14.48% APY, $1.17M TVL, https://www.defi.garden/?pool=86656bca-cc02-4447-9934-4d45f11c254a#src=seo_token; sparkdex-v3.1 (Flare), 18.87% APY, $675.3K TVL, https://www.defi.garden/?pool=552f9391-52f8-458a-abf6-1070a28562a4#src=seo_token; sparkdex-v4 (Flare), 23.45% APY, $2.12M TVL, https://www.defi.garden/?pool=edf74623-c808-4dae-91a2-dd3573884832#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

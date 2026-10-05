@@ -6,9 +6,9 @@ The highest honest CIRBTC yield right now is 0.77% on uniswap-v3 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=2b653b93-56aa-5bb1-a05e-3372e2e0fcf2#src=seo_token) | Ethereum | 0.50% | $25.64M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=f52d4484-76a3-5f08-8f73-367ed0884e70#src=seo_token) | Ethereum | 0.29% | $6.2M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=93533d37-2a0a-5ae3-a69b-0be8cc4b2542#src=seo_token) | Ethereum | 0.77% | $5.82M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2b653b93-56aa-5bb1-a05e-3372e2e0fcf2#src=seo_token) | Ethereum | 0.13% | $25.82M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f52d4484-76a3-5f08-8f73-367ed0884e70#src=seo_token) | Ethereum | 0.29% | $6.25M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=93533d37-2a0a-5ae3-a69b-0be8cc4b2542#src=seo_token) | Ethereum | 0.77% | $5.84M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-CIRBTC shows up in 3 pools here, with rates from 0.29% to 0.77% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CIRBTC shows up in 3 pools here, with rates from 0.13% to 0.77% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.77% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -29,7 +29,7 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 0.50% | 1.47% | Base rate |
+| uniswap-v3 | 0.13% | 1.46% | Base rate |
 | uniswap-v3 | 0.29% | 0.42% | Base rate |
 | uniswap-v3 | 0.77% | 0.77% | Base rate |
 
@@ -43,7 +43,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many CIRBTC pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $37.67M in total.
+3 live pools clear this page's $100K TVL floor, $37.91M in total.
 
 ### Are these rates safe?
 

@@ -2,30 +2,30 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest QUICK yield right now is 182.83% on quickswap-dex (Polygon), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest QUICK yield right now is 87.47% on quickswap-dex (Polygon), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [quickswap-dex →](https://www.defi.garden/?pool=7c7e5f3c-5fd4-4b02-9073-549b5cd27941#src=seo_token) | Polygon | 182.83% | $324.8K |
-| [quickswap-dex →](https://www.defi.garden/?pool=9703ba82-8105-4603-b42a-d8daaac54062#src=seo_token) | Polygon | 0.52% | $247.7K |
-| [quickswap-dex →](https://www.defi.garden/?pool=8f9d6b00-46f2-416c-98ab-cef71152cc34#src=seo_token) | Polygon | 0.74% | $181.7K |
+| [quickswap-dex →](https://www.defi.garden/?pool=7c7e5f3c-5fd4-4b02-9073-549b5cd27941#src=seo_token) | Polygon | 87.47% | $327.6K |
+| [quickswap-dex →](https://www.defi.garden/?pool=9703ba82-8105-4603-b42a-d8daaac54062#src=seo_token) | Polygon | 0.56% | $248.9K |
+| [quickswap-dex →](https://www.defi.garden/?pool=8f9d6b00-46f2-416c-98ab-cef71152cc34#src=seo_token) | Polygon | 0.85% | $185K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, QUICK's lower-variability candidates are quickswap-dex (Polygon), 182.83% APY, $324.8K TVL, https://www.defi.garden/?pool=7c7e5f3c-5fd4-4b02-9073-549b5cd27941#src=seo_token; quickswap-dex (Polygon), 0.74% APY, $181.7K TVL, https://www.defi.garden/?pool=8f9d6b00-46f2-416c-98ab-cef71152cc34#src=seo_token; quickswap-dex (Polygon), 0.52% APY, $247.7K TVL, https://www.defi.garden/?pool=9703ba82-8105-4603-b42a-d8daaac54062#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, QUICK's lower-variability candidates are quickswap-dex (Polygon), 87.47% APY, $327.6K TVL, https://www.defi.garden/?pool=7c7e5f3c-5fd4-4b02-9073-549b5cd27941#src=seo_token; quickswap-dex (Polygon), 0.85% APY, $185K TVL, https://www.defi.garden/?pool=8f9d6b00-46f2-416c-98ab-cef71152cc34#src=seo_token; quickswap-dex (Polygon), 0.56% APY, $248.9K TVL, https://www.defi.garden/?pool=9703ba82-8105-4603-b42a-d8daaac54062#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [quickswap-dex →](https://www.defi.garden/?pool=7c7e5f3c-5fd4-4b02-9073-549b5cd27941#src=seo_token) | Polygon | 182.83% | $324.8K |
-| 2 | [quickswap-dex →](https://www.defi.garden/?pool=8f9d6b00-46f2-416c-98ab-cef71152cc34#src=seo_token) | Polygon | 0.74% | $181.7K |
-| 3 | [quickswap-dex →](https://www.defi.garden/?pool=9703ba82-8105-4603-b42a-d8daaac54062#src=seo_token) | Polygon | 0.52% | $247.7K |
+| 1 | [quickswap-dex →](https://www.defi.garden/?pool=7c7e5f3c-5fd4-4b02-9073-549b5cd27941#src=seo_token) | Polygon | 87.47% | $327.6K |
+| 2 | [quickswap-dex →](https://www.defi.garden/?pool=8f9d6b00-46f2-416c-98ab-cef71152cc34#src=seo_token) | Polygon | 0.85% | $185K |
+| 3 | [quickswap-dex →](https://www.defi.garden/?pool=9703ba82-8105-4603-b42a-d8daaac54062#src=seo_token) | Polygon | 0.56% | $248.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-QUICK shows up in 3 pools here, with rates from 0.52% to 182.83% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+QUICK shows up in 3 pools here, with rates from 0.56% to 87.47% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 1 of these 3 pools has a trustworthy 30-day average on file, with a median of 3.67% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -35,9 +35,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| quickswap-dex | 182.83% | — | Base rate |
-| quickswap-dex | 0.52% | — | Base rate |
-| quickswap-dex | 0.74% | 3.67% | Base rate |
+| quickswap-dex | 87.47% | — | Base rate |
+| quickswap-dex | 0.56% | — | Base rate |
+| quickswap-dex | 0.85% | 3.67% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,11 +45,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest QUICK yield today?
 
-182.83% APY on quickswap-dex (Polygon), based on live DefiLlama data.
+87.47% APY on quickswap-dex (Polygon), based on live DefiLlama data.
 
 ### How many QUICK pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $754.2K in total.
+3 live pools clear this page's $100K TVL floor, $761.5K in total.
 
 ### Are these rates safe?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which QUICK pools have the most stable APY history?
 
-Based on APY history only, QUICK's lower-variability candidates are quickswap-dex (Polygon), 182.83% APY, $324.8K TVL, https://www.defi.garden/?pool=7c7e5f3c-5fd4-4b02-9073-549b5cd27941#src=seo_token; quickswap-dex (Polygon), 0.74% APY, $181.7K TVL, https://www.defi.garden/?pool=8f9d6b00-46f2-416c-98ab-cef71152cc34#src=seo_token; quickswap-dex (Polygon), 0.52% APY, $247.7K TVL, https://www.defi.garden/?pool=9703ba82-8105-4603-b42a-d8daaac54062#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, QUICK's lower-variability candidates are quickswap-dex (Polygon), 87.47% APY, $327.6K TVL, https://www.defi.garden/?pool=7c7e5f3c-5fd4-4b02-9073-549b5cd27941#src=seo_token; quickswap-dex (Polygon), 0.85% APY, $185K TVL, https://www.defi.garden/?pool=8f9d6b00-46f2-416c-98ab-cef71152cc34#src=seo_token; quickswap-dex (Polygon), 0.56% APY, $248.9K TVL, https://www.defi.garden/?pool=9703ba82-8105-4603-b42a-d8daaac54062#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

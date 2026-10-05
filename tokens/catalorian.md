@@ -6,7 +6,7 @@ The highest honest CATALORIAN yield right now is 0.20% on uniswap-v2 (Ethereum),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=871e88ad-6180-4e25-ba56-f477cc3144ea#src=seo_token) | Ethereum | 0.20% | $103K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=871e88ad-6180-4e25-ba56-f477cc3144ea#src=seo_token) | Ethereum | 0.20% | $103.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CATALORIAN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $103K in total.
+1 live pool clear this page's $100K TVL floor, $103.8K in total.
 
 ### Are these rates safe?
 

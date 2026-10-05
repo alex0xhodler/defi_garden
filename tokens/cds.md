@@ -6,7 +6,7 @@ The highest honest CDS yield right now is 0.03% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=a422c433-cf1d-4243-bdf1-f9dbbc5b29cd#src=seo_token) | Ethereum | 0.03% | $226.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=a422c433-cf1d-4243-bdf1-f9dbbc5b29cd#src=seo_token) | Ethereum | 0.03% | $228K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CDS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $226.5K in total.
+1 live pool clear this page's $100K TVL floor, $228K in total.
 
 ### Are these rates safe?
 

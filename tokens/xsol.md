@@ -2,32 +2,32 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest XSOL yield right now is 3.41% on loopscale-lending (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XSOL yield right now is 3.42% on loopscale-lending (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=0a7f26f7-2dc7-4302-ab7f-9845584708a8#src=seo_token) | Xlayer | 2.22% | $851.8K |
-| [loopscale-lending →](https://www.defi.garden/?pool=035a1b2c-17b5-4563-bf22-ca4018a55052#src=seo_token) | Solana | 3.41% | $737.2K |
-| [orca-dex →](https://www.defi.garden/?pool=0af4c7b5-07f9-4bd8-be80-4f71dbb612e2#src=seo_token) | Solana | 137.51% | $518.3K |
+| [aave-v3 →](https://www.defi.garden/?pool=0a7f26f7-2dc7-4302-ab7f-9845584708a8#src=seo_token) | Xlayer | 2.22% | $859.8K |
+| [loopscale-lending →](https://www.defi.garden/?pool=035a1b2c-17b5-4563-bf22-ca4018a55052#src=seo_token) | Solana | 3.42% | $749.8K |
+| [orca-dex →](https://www.defi.garden/?pool=0af4c7b5-07f9-4bd8-be80-4f71dbb612e2#src=seo_token) | Solana | 135.14% | $600.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, XSOL's lower-variability candidates are aave-v3 (Xlayer), 2.22% APY, $851.8K TVL, https://www.defi.garden/?pool=0a7f26f7-2dc7-4302-ab7f-9845584708a8#src=seo_token; loopscale-lending (Solana), 3.41% APY, $737.2K TVL, https://www.defi.garden/?pool=035a1b2c-17b5-4563-bf22-ca4018a55052#src=seo_token; orca-dex (Solana), 137.51% APY, $518.3K TVL, https://www.defi.garden/?pool=0af4c7b5-07f9-4bd8-be80-4f71dbb612e2#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, XSOL's lower-variability candidates are aave-v3 (Xlayer), 2.22% APY, $859.8K TVL, https://www.defi.garden/?pool=0a7f26f7-2dc7-4302-ab7f-9845584708a8#src=seo_token; loopscale-lending (Solana), 3.42% APY, $749.8K TVL, https://www.defi.garden/?pool=035a1b2c-17b5-4563-bf22-ca4018a55052#src=seo_token; orca-dex (Solana), 135.14% APY, $600.8K TVL, https://www.defi.garden/?pool=0af4c7b5-07f9-4bd8-be80-4f71dbb612e2#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aave-v3 →](https://www.defi.garden/?pool=0a7f26f7-2dc7-4302-ab7f-9845584708a8#src=seo_token) | Xlayer | 2.22% | $851.8K |
-| 2 | [loopscale-lending →](https://www.defi.garden/?pool=035a1b2c-17b5-4563-bf22-ca4018a55052#src=seo_token) | Solana | 3.41% | $737.2K |
-| 3 | [orca-dex →](https://www.defi.garden/?pool=0af4c7b5-07f9-4bd8-be80-4f71dbb612e2#src=seo_token) | Solana | 137.51% | $518.3K |
+| 1 | [aave-v3 →](https://www.defi.garden/?pool=0a7f26f7-2dc7-4302-ab7f-9845584708a8#src=seo_token) | Xlayer | 2.22% | $859.8K |
+| 2 | [loopscale-lending →](https://www.defi.garden/?pool=035a1b2c-17b5-4563-bf22-ca4018a55052#src=seo_token) | Solana | 3.42% | $749.8K |
+| 3 | [orca-dex →](https://www.defi.garden/?pool=0af4c7b5-07f9-4bd8-be80-4f71dbb612e2#src=seo_token) | Solana | 135.14% | $600.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-XSOL shows up in 3 pools here, with rates from 2.22% to 137.51% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+XSOL shows up in 3 pools here, with rates from 2.22% to 135.14% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 3.36% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 3.37% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -36,8 +36,8 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | aave-v3 | 2.22% | 1.54% | Base rate |
-| loopscale-lending | 3.41% | 3.36% | Base rate |
-| orca-dex | 137.51% | 896.81% | Base rate |
+| loopscale-lending | 3.42% | 3.37% | Base rate |
+| orca-dex | 135.14% | 892.89% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,11 +45,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest XSOL yield today?
 
-3.41% APY on loopscale-lending (Solana), based on live DefiLlama data.
+3.42% APY on loopscale-lending (Solana), based on live DefiLlama data.
 
 ### How many XSOL pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $2.11M in total.
+3 live pools clear this page's $100K TVL floor, $2.21M in total.
 
 ### Are these rates safe?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which XSOL pools have the most stable APY history?
 
-Based on APY history only, XSOL's lower-variability candidates are aave-v3 (Xlayer), 2.22% APY, $851.8K TVL, https://www.defi.garden/?pool=0a7f26f7-2dc7-4302-ab7f-9845584708a8#src=seo_token; loopscale-lending (Solana), 3.41% APY, $737.2K TVL, https://www.defi.garden/?pool=035a1b2c-17b5-4563-bf22-ca4018a55052#src=seo_token; orca-dex (Solana), 137.51% APY, $518.3K TVL, https://www.defi.garden/?pool=0af4c7b5-07f9-4bd8-be80-4f71dbb612e2#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, XSOL's lower-variability candidates are aave-v3 (Xlayer), 2.22% APY, $859.8K TVL, https://www.defi.garden/?pool=0a7f26f7-2dc7-4302-ab7f-9845584708a8#src=seo_token; loopscale-lending (Solana), 3.42% APY, $749.8K TVL, https://www.defi.garden/?pool=035a1b2c-17b5-4563-bf22-ca4018a55052#src=seo_token; orca-dex (Solana), 135.14% APY, $600.8K TVL, https://www.defi.garden/?pool=0af4c7b5-07f9-4bd8-be80-4f71dbb612e2#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

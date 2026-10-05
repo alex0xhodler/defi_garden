@@ -6,7 +6,7 @@ The highest honest HYPERWILDCATSOL yield right now is 14.00% on wildcat-protocol
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [wildcat-protocol →](https://www.defi.garden/?pool=fdff0534-9693-4b35-98f9-97e0d5c55264#src=seo_token) | Ethereum | 14.00% | $1.23M |
+| [wildcat-protocol →](https://www.defi.garden/?pool=fdff0534-9693-4b35-98f9-97e0d5c55264#src=seo_token) | Ethereum | 14.00% | $1.24M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many HYPERWILDCATSOL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.23M in total.
+1 live pool clear this page's $100K TVL floor, $1.24M in total.
 
 ### Are these rates safe?
 

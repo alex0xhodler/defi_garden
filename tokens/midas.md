@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest MIDAS yield right now is 0.05% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MIDAS yield right now is 0.08% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=723fb660-9fd4-43b2-8ad0-0058ad0435d0#src=seo_token) | Base | 0.05% | $128.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=723fb660-9fd4-43b2-8ad0-0058ad0435d0#src=seo_token) | Base | 0.08% | $128.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MIDAS yield today?
 
-0.05% APY on uniswap-v2 (Base), based on live DefiLlama data.
+0.08% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many MIDAS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $128.4K in total.
+1 live pool clear this page's $100K TVL floor, $128.9K in total.
 
 ### Are these rates safe?
 

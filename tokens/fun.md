@@ -2,44 +2,47 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest FUN yield right now is 0.60% on quickswap-dex (Polygon), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FUN yield right now is 794.45% on aerodrome-slipstream (Base), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [quickswap-dex →](https://www.defi.garden/?pool=e21e94a1-1ad0-4b9c-965b-7d4efe95de76#src=seo_token) | Polygon | 0.60% | $4.75M |
 | [quickswap-dex →](https://www.defi.garden/?pool=f58fbf13-f60a-46e4-aecf-ccee64f8cf8b#src=seo_token) | Polygon | 0.55% | $1.4M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=18674a4f-57ea-4c91-99ce-ea1a2b37aa3d#src=seo_token) | Base | 794.45% | $325.9K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=daa92b52-4c90-5323-993f-eb2df787fa0e#src=seo_token) | Ethereum | 0.24% | $289.2K |
-| [raydium-amm →](https://www.defi.garden/?pool=eadfa983-1111-467f-9d80-22c6a275f6c8#src=seo_token) | Solana | 23.93% | $124.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=eadfa983-1111-467f-9d80-22c6a275f6c8#src=seo_token) | Solana | 18.65% | $124.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, FUN's lower-variability candidates are quickswap-dex (Polygon), 0.60% APY, $4.75M TVL, https://www.defi.garden/?pool=e21e94a1-1ad0-4b9c-965b-7d4efe95de76#src=seo_token; quickswap-dex (Polygon), 0.55% APY, $1.4M TVL, https://www.defi.garden/?pool=f58fbf13-f60a-46e4-aecf-ccee64f8cf8b#src=seo_token; raydium-amm (Solana), 23.93% APY, $124.5K TVL, https://www.defi.garden/?pool=eadfa983-1111-467f-9d80-22c6a275f6c8#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FUN's lower-variability candidates are quickswap-dex (Polygon), 0.60% APY, $4.75M TVL, https://www.defi.garden/?pool=e21e94a1-1ad0-4b9c-965b-7d4efe95de76#src=seo_token; quickswap-dex (Polygon), 0.55% APY, $1.4M TVL, https://www.defi.garden/?pool=f58fbf13-f60a-46e4-aecf-ccee64f8cf8b#src=seo_token; raydium-amm (Solana), 18.65% APY, $124.9K TVL, https://www.defi.garden/?pool=eadfa983-1111-467f-9d80-22c6a275f6c8#src=seo_token; aerodrome-slipstream (Base), 794.45% APY, $325.9K TVL, https://www.defi.garden/?pool=18674a4f-57ea-4c91-99ce-ea1a2b37aa3d#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [quickswap-dex →](https://www.defi.garden/?pool=e21e94a1-1ad0-4b9c-965b-7d4efe95de76#src=seo_token) | Polygon | 0.60% | $4.75M |
 | 2 | [quickswap-dex →](https://www.defi.garden/?pool=f58fbf13-f60a-46e4-aecf-ccee64f8cf8b#src=seo_token) | Polygon | 0.55% | $1.4M |
-| 3 | [raydium-amm →](https://www.defi.garden/?pool=eadfa983-1111-467f-9d80-22c6a275f6c8#src=seo_token) | Solana | 23.93% | $124.5K |
+| 3 | [raydium-amm →](https://www.defi.garden/?pool=eadfa983-1111-467f-9d80-22c6a275f6c8#src=seo_token) | Solana | 18.65% | $124.9K |
+| 4 | [aerodrome-slipstream →](https://www.defi.garden/?pool=18674a4f-57ea-4c91-99ce-ea1a2b37aa3d#src=seo_token) | Base | 794.45% | $325.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-FUN shows up in 4 pools here, with rates from 0.24% to 23.93% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+FUN shows up in 5 pools here, with rates from 0.24% to 794.45% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 0.53% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 5 pools have a trustworthy 30-day average on file, with a median of 0.53% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+1 of 5 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
-4 of 4 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+5 of 5 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | quickswap-dex | 0.60% | 0.55% | Base rate |
 | quickswap-dex | 0.55% | 0.52% | Base rate |
+| aerodrome-slipstream | 794.45% | — | 90.68% incentives |
 | uniswap-v4 | 0.24% | 0.41% | Base rate |
-| raydium-amm | 23.93% | 13.73% | Base rate |
+| raydium-amm | 18.65% | 14.15% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -47,11 +50,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest FUN yield today?
 
-0.60% APY on quickswap-dex (Polygon), based on live DefiLlama data.
+794.45% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many FUN pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $6.57M in total.
+5 live pools clear this page's $100K TVL floor, $6.89M in total.
 
 ### Are these rates safe?
 
@@ -59,7 +62,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which FUN pools have the most stable APY history?
 
-Based on APY history only, FUN's lower-variability candidates are quickswap-dex (Polygon), 0.60% APY, $4.75M TVL, https://www.defi.garden/?pool=e21e94a1-1ad0-4b9c-965b-7d4efe95de76#src=seo_token; quickswap-dex (Polygon), 0.55% APY, $1.4M TVL, https://www.defi.garden/?pool=f58fbf13-f60a-46e4-aecf-ccee64f8cf8b#src=seo_token; raydium-amm (Solana), 23.93% APY, $124.5K TVL, https://www.defi.garden/?pool=eadfa983-1111-467f-9d80-22c6a275f6c8#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FUN's lower-variability candidates are quickswap-dex (Polygon), 0.60% APY, $4.75M TVL, https://www.defi.garden/?pool=e21e94a1-1ad0-4b9c-965b-7d4efe95de76#src=seo_token; quickswap-dex (Polygon), 0.55% APY, $1.4M TVL, https://www.defi.garden/?pool=f58fbf13-f60a-46e4-aecf-ccee64f8cf8b#src=seo_token; raydium-amm (Solana), 18.65% APY, $124.9K TVL, https://www.defi.garden/?pool=eadfa983-1111-467f-9d80-22c6a275f6c8#src=seo_token; aerodrome-slipstream (Base), 794.45% APY, $325.9K TVL, https://www.defi.garden/?pool=18674a4f-57ea-4c91-99ce-ea1a2b37aa3d#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -73,6 +76,7 @@ Based on APY history only, FUN's lower-variability candidates are quickswap-dex 
 ## Available on
 
 - [Polygon](https://www.defi.garden/chains/polygon)
+- [Base](https://www.defi.garden/chains/base)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Solana](https://www.defi.garden/chains/solana)
 

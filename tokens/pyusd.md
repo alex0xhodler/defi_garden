@@ -2,39 +2,39 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest PYUSD yield right now is 7.01% on sentora-curator (Solana), among 28 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PYUSD yield right now is 3.35% on jupiter-lend (Solana), among 28 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [jupiter-lend →](https://www.defi.garden/?pool=1183ffb5-0049-5e11-859c-c1bf2788214c#src=seo_token) | Solana | 3.55% | $143.39M |
-| [sentora-curator →](https://www.defi.garden/pools/sentora-curator-pyusd-solana) | Solana | 7.01% | $111.41M |
+| [jupiter-lend →](https://www.defi.garden/?pool=1183ffb5-0049-5e11-859c-c1bf2788214c#src=seo_token) | Solana | 3.35% | $175.37M |
+| [sentora-curator →](https://www.defi.garden/pools/sentora-curator-pyusd-solana) | Solana | 11.91% | $115.61M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=0899ff3d-adc8-4dae-a516-a94998db3332#src=seo_token) | Ethereum | 0.12% | $100.13M |
-| [sparklend →](https://www.defi.garden/?pool=995b269a-8409-4c55-b97e-868f443b432e#src=seo_token) | Ethereum | 1.01% | $72.76M |
-| [curve-dex →](https://www.defi.garden/?pool=14681aee-05c9-4733-acd0-7b2c84616209#src=seo_token) | Ethereum | 2.87% | $18.13M |
-| [orca-dex →](https://www.defi.garden/?pool=99203560-4a69-4a67-9dbc-70b78a68a2b9#src=seo_token) | Solana | 0.85% | $16.96M |
-| [kamino-liquidity →](https://www.defi.garden/?pool=5147b468-e863-45fb-a8d6-592f413f24c6#src=seo_token) | Solana | 0.67% | $16.93M |
-| [orca-dex →](https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255#src=seo_token) | Solana | 0.16% | $9.62M |
+| [sparklend →](https://www.defi.garden/?pool=995b269a-8409-4c55-b97e-868f443b432e#src=seo_token) | Ethereum | 1.01% | $72.75M |
+| [curve-dex →](https://www.defi.garden/?pool=14681aee-05c9-4733-acd0-7b2c84616209#src=seo_token) | Ethereum | 3.15% | $17.96M |
+| [orca-dex →](https://www.defi.garden/?pool=99203560-4a69-4a67-9dbc-70b78a68a2b9#src=seo_token) | Solana | 0.88% | $16.96M |
+| [kamino-liquidity →](https://www.defi.garden/?pool=5147b468-e863-45fb-a8d6-592f413f24c6#src=seo_token) | Solana | 0.71% | $16.93M |
+| [orca-dex →](https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255#src=seo_token) | Solana | 0.67% | $9.61M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, PYUSD's lower-variability candidates are uniswap-v4 (Ethereum), 0.12% APY, $100.13M TVL, https://www.defi.garden/?pool=0899ff3d-adc8-4dae-a516-a94998db3332#src=seo_token; sparklend (Ethereum), 1.01% APY, $72.76M TVL, https://www.defi.garden/?pool=995b269a-8409-4c55-b97e-868f443b432e#src=seo_token; orca-dex (Solana), 0.16% APY, $9.62M TVL, https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255#src=seo_token; sentora-curator (Solana), 7.01% APY, $111.41M TVL, https://www.defi.garden/pools/sentora-curator-pyusd-solana; kamino-liquidity (Solana), 0.67% APY, $16.93M TVL, https://www.defi.garden/?pool=5147b468-e863-45fb-a8d6-592f413f24c6#src=seo_token; orca-dex (Solana), 0.85% APY, $16.96M TVL, https://www.defi.garden/?pool=99203560-4a69-4a67-9dbc-70b78a68a2b9#src=seo_token; curve-dex (Ethereum), 2.87% APY, $18.13M TVL, https://www.defi.garden/?pool=14681aee-05c9-4733-acd0-7b2c84616209#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PYUSD's lower-variability candidates are uniswap-v4 (Ethereum), 0.12% APY, $100.13M TVL, https://www.defi.garden/?pool=0899ff3d-adc8-4dae-a516-a94998db3332#src=seo_token; sparklend (Ethereum), 1.01% APY, $72.75M TVL, https://www.defi.garden/?pool=995b269a-8409-4c55-b97e-868f443b432e#src=seo_token; orca-dex (Solana), 0.67% APY, $9.61M TVL, https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255#src=seo_token; sentora-curator (Solana), 11.91% APY, $115.61M TVL, https://www.defi.garden/pools/sentora-curator-pyusd-solana; kamino-liquidity (Solana), 0.71% APY, $16.93M TVL, https://www.defi.garden/?pool=5147b468-e863-45fb-a8d6-592f413f24c6#src=seo_token; orca-dex (Solana), 0.88% APY, $16.96M TVL, https://www.defi.garden/?pool=99203560-4a69-4a67-9dbc-70b78a68a2b9#src=seo_token; curve-dex (Ethereum), 3.15% APY, $17.96M TVL, https://www.defi.garden/?pool=14681aee-05c9-4733-acd0-7b2c84616209#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v4 →](https://www.defi.garden/?pool=0899ff3d-adc8-4dae-a516-a94998db3332#src=seo_token) | Ethereum | 0.12% | $100.13M |
-| 2 | [sparklend →](https://www.defi.garden/?pool=995b269a-8409-4c55-b97e-868f443b432e#src=seo_token) | Ethereum | 1.01% | $72.76M |
-| 3 | [orca-dex →](https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255#src=seo_token) | Solana | 0.16% | $9.62M |
-| 4 | [sentora-curator →](https://www.defi.garden/pools/sentora-curator-pyusd-solana) | Solana | 7.01% | $111.41M |
-| 5 | [kamino-liquidity →](https://www.defi.garden/?pool=5147b468-e863-45fb-a8d6-592f413f24c6#src=seo_token) | Solana | 0.67% | $16.93M |
-| 6 | [orca-dex →](https://www.defi.garden/?pool=99203560-4a69-4a67-9dbc-70b78a68a2b9#src=seo_token) | Solana | 0.85% | $16.96M |
-| 7 | [curve-dex →](https://www.defi.garden/?pool=14681aee-05c9-4733-acd0-7b2c84616209#src=seo_token) | Ethereum | 2.87% | $18.13M |
+| 2 | [sparklend →](https://www.defi.garden/?pool=995b269a-8409-4c55-b97e-868f443b432e#src=seo_token) | Ethereum | 1.01% | $72.75M |
+| 3 | [orca-dex →](https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255#src=seo_token) | Solana | 0.67% | $9.61M |
+| 4 | [sentora-curator →](https://www.defi.garden/pools/sentora-curator-pyusd-solana) | Solana | 11.91% | $115.61M |
+| 5 | [kamino-liquidity →](https://www.defi.garden/?pool=5147b468-e863-45fb-a8d6-592f413f24c6#src=seo_token) | Solana | 0.71% | $16.93M |
+| 6 | [orca-dex →](https://www.defi.garden/?pool=99203560-4a69-4a67-9dbc-70b78a68a2b9#src=seo_token) | Solana | 0.88% | $16.96M |
+| 7 | [curve-dex →](https://www.defi.garden/?pool=14681aee-05c9-4733-acd0-7b2c84616209#src=seo_token) | Ethereum | 3.15% | $17.96M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-PYUSD shows up in 8 pools here, with rates from 0.12% to 7.01% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+PYUSD shows up in 8 pools here, with rates from 0.12% to 11.91% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 0.98% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -44,14 +44,14 @@ PYUSD shows up in 8 pools here, with rates from 0.12% to 7.01% APY across 2 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| jupiter-lend | 3.55% | 2.64% | Base rate |
-| sentora-curator | 7.01% | 6.02% | 40.05% incentives |
+| jupiter-lend | 3.35% | 2.66% | Base rate |
+| sentora-curator | 11.91% | 6.04% | 22.73% incentives |
 | uniswap-v4 | 0.12% | 0.09% | Base rate |
 | sparklend | 1.01% | 1.04% | Base rate |
-| curve-dex | 2.87% | 4.59% | 99.65% incentives |
-| orca-dex | 0.85% | 0.34% | Base rate |
-| kamino-liquidity | 0.67% | 0.28% | Base rate |
-| orca-dex | 0.16% | 0.92% | Base rate |
+| curve-dex | 3.15% | 4.57% | 91.75% incentives |
+| orca-dex | 0.88% | 0.34% | Base rate |
+| kamino-liquidity | 0.71% | 0.29% | Base rate |
+| orca-dex | 0.67% | 0.91% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -59,11 +59,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest PYUSD yield today?
 
-7.01% APY on sentora-curator (Solana), based on live DefiLlama data.
+3.35% APY on jupiter-lend (Solana), based on live DefiLlama data.
 
 ### How many PYUSD pools clear the TVL floor?
 
-28 live pools clear this page's $100K TVL floor, $526.33M in total.
+28 live pools clear this page's $100K TVL floor, $566.23M in total.
 
 ### Are these rates safe?
 
@@ -71,7 +71,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which PYUSD pools have the most stable APY history?
 
-Based on APY history only, PYUSD's lower-variability candidates are uniswap-v4 (Ethereum), 0.12% APY, $100.13M TVL, https://www.defi.garden/?pool=0899ff3d-adc8-4dae-a516-a94998db3332#src=seo_token; sparklend (Ethereum), 1.01% APY, $72.76M TVL, https://www.defi.garden/?pool=995b269a-8409-4c55-b97e-868f443b432e#src=seo_token; orca-dex (Solana), 0.16% APY, $9.62M TVL, https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255#src=seo_token; sentora-curator (Solana), 7.01% APY, $111.41M TVL, https://www.defi.garden/pools/sentora-curator-pyusd-solana; kamino-liquidity (Solana), 0.67% APY, $16.93M TVL, https://www.defi.garden/?pool=5147b468-e863-45fb-a8d6-592f413f24c6#src=seo_token; orca-dex (Solana), 0.85% APY, $16.96M TVL, https://www.defi.garden/?pool=99203560-4a69-4a67-9dbc-70b78a68a2b9#src=seo_token; curve-dex (Ethereum), 2.87% APY, $18.13M TVL, https://www.defi.garden/?pool=14681aee-05c9-4733-acd0-7b2c84616209#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PYUSD's lower-variability candidates are uniswap-v4 (Ethereum), 0.12% APY, $100.13M TVL, https://www.defi.garden/?pool=0899ff3d-adc8-4dae-a516-a94998db3332#src=seo_token; sparklend (Ethereum), 1.01% APY, $72.75M TVL, https://www.defi.garden/?pool=995b269a-8409-4c55-b97e-868f443b432e#src=seo_token; orca-dex (Solana), 0.67% APY, $9.61M TVL, https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255#src=seo_token; sentora-curator (Solana), 11.91% APY, $115.61M TVL, https://www.defi.garden/pools/sentora-curator-pyusd-solana; kamino-liquidity (Solana), 0.71% APY, $16.93M TVL, https://www.defi.garden/?pool=5147b468-e863-45fb-a8d6-592f413f24c6#src=seo_token; orca-dex (Solana), 0.88% APY, $16.96M TVL, https://www.defi.garden/?pool=99203560-4a69-4a67-9dbc-70b78a68a2b9#src=seo_token; curve-dex (Ethereum), 3.15% APY, $17.96M TVL, https://www.defi.garden/?pool=14681aee-05c9-4733-acd0-7b2c84616209#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

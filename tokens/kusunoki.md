@@ -6,7 +6,7 @@ The highest honest KUSUNOKI yield right now is 0.03% on uniswap-v2 (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=00dbe240-5f50-42b0-acdf-2114d87019c3#src=seo_token) | Ethereum | 0.03% | $177.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=00dbe240-5f50-42b0-acdf-2114d87019c3#src=seo_token) | Ethereum | 0.03% | $177.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many KUSUNOKI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $177.5K in total.
+1 live pool clear this page's $100K TVL floor, $177.8K in total.
 
 ### Are these rates safe?
 

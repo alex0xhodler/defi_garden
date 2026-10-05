@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest LILLY yield right now is 2.92% on hyperswap-v2 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LILLY yield right now is 2.36% on hyperswap-v2 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hyperswap-v2 →](https://www.defi.garden/?pool=2def27d6-b21e-43a2-b006-94a0c937aef5#src=seo_token) | Hyperliquid L1 | 2.92% | $112.3K |
+| [hyperswap-v2 →](https://www.defi.garden/?pool=2def27d6-b21e-43a2-b006-94a0c937aef5#src=seo_token) | Hyperliquid L1 | 2.36% | $112.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LILLY yield today?
 
-2.92% APY on hyperswap-v2 (Hyperliquid L1), based on live DefiLlama data.
+2.36% APY on hyperswap-v2 (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many LILLY pools clear the TVL floor?
 

@@ -2,34 +2,34 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest MKR yield right now is 157.34% on uniswap-v4 (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MKR yield right now is 144.78% on uniswap-v4 (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=340f308b-f626-4f28-a334-bdb588a4d1dd#src=seo_token) | Ethereum | 12.77% | $1.65M |
-| [sushiswap-v3 →](https://www.defi.garden/?pool=de7b615e-d156-47d0-a4bf-5b556ab4591e#src=seo_token) | Ethereum | 35.19% | $443.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=031fe8ae-e000-49b6-bcc4-0a90021e5bc3#src=seo_token) | Ethereum | 46.67% | $419K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=570d398e-6351-4a69-a780-145a4967d90c#src=seo_token) | Ethereum | 157.34% | $377.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=340f308b-f626-4f28-a334-bdb588a4d1dd#src=seo_token) | Ethereum | 11.55% | $1.65M |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=de7b615e-d156-47d0-a4bf-5b556ab4591e#src=seo_token) | Ethereum | 29.54% | $444.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=031fe8ae-e000-49b6-bcc4-0a90021e5bc3#src=seo_token) | Ethereum | 42.02% | $419.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=570d398e-6351-4a69-a780-145a4967d90c#src=seo_token) | Ethereum | 144.78% | $379.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, MKR's lower-variability candidates are sushiswap-v3 (Ethereum), 35.19% APY, $443.4K TVL, https://www.defi.garden/?pool=de7b615e-d156-47d0-a4bf-5b556ab4591e#src=seo_token; uniswap-v2 (Ethereum), 12.77% APY, $1.65M TVL, https://www.defi.garden/?pool=340f308b-f626-4f28-a334-bdb588a4d1dd#src=seo_token; uniswap-v3 (Ethereum), 46.67% APY, $419K TVL, https://www.defi.garden/?pool=031fe8ae-e000-49b6-bcc4-0a90021e5bc3#src=seo_token; uniswap-v4 (Ethereum), 157.34% APY, $377.6K TVL, https://www.defi.garden/?pool=570d398e-6351-4a69-a780-145a4967d90c#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MKR's lower-variability candidates are sushiswap-v3 (Ethereum), 29.54% APY, $444.2K TVL, https://www.defi.garden/?pool=de7b615e-d156-47d0-a4bf-5b556ab4591e#src=seo_token; uniswap-v2 (Ethereum), 11.55% APY, $1.65M TVL, https://www.defi.garden/?pool=340f308b-f626-4f28-a334-bdb588a4d1dd#src=seo_token; uniswap-v3 (Ethereum), 42.02% APY, $419.8K TVL, https://www.defi.garden/?pool=031fe8ae-e000-49b6-bcc4-0a90021e5bc3#src=seo_token; uniswap-v4 (Ethereum), 144.78% APY, $379.7K TVL, https://www.defi.garden/?pool=570d398e-6351-4a69-a780-145a4967d90c#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [sushiswap-v3 →](https://www.defi.garden/?pool=de7b615e-d156-47d0-a4bf-5b556ab4591e#src=seo_token) | Ethereum | 35.19% | $443.4K |
-| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=340f308b-f626-4f28-a334-bdb588a4d1dd#src=seo_token) | Ethereum | 12.77% | $1.65M |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=031fe8ae-e000-49b6-bcc4-0a90021e5bc3#src=seo_token) | Ethereum | 46.67% | $419K |
-| 4 | [uniswap-v4 →](https://www.defi.garden/?pool=570d398e-6351-4a69-a780-145a4967d90c#src=seo_token) | Ethereum | 157.34% | $377.6K |
+| 1 | [sushiswap-v3 →](https://www.defi.garden/?pool=de7b615e-d156-47d0-a4bf-5b556ab4591e#src=seo_token) | Ethereum | 29.54% | $444.2K |
+| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=340f308b-f626-4f28-a334-bdb588a4d1dd#src=seo_token) | Ethereum | 11.55% | $1.65M |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=031fe8ae-e000-49b6-bcc4-0a90021e5bc3#src=seo_token) | Ethereum | 42.02% | $419.8K |
+| 4 | [uniswap-v4 →](https://www.defi.garden/?pool=570d398e-6351-4a69-a780-145a4967d90c#src=seo_token) | Ethereum | 144.78% | $379.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-MKR shows up in 4 pools here, with rates from 12.77% to 157.34% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+MKR shows up in 4 pools here, with rates from 11.55% to 144.78% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 11.21% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 11.42% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -37,10 +37,10 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 12.77% | 3.84% | Base rate |
-| sushiswap-v3 | 35.19% | 11.13% | Base rate |
-| uniswap-v3 | 46.67% | 11.29% | Base rate |
-| uniswap-v4 | 157.34% | 114.48% | Base rate |
+| uniswap-v2 | 11.55% | 3.92% | Base rate |
+| sushiswap-v3 | 29.54% | 11.32% | Base rate |
+| uniswap-v3 | 42.02% | 11.53% | Base rate |
+| uniswap-v4 | 144.78% | 114.80% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -48,11 +48,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MKR yield today?
 
-157.34% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+144.78% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many MKR pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $3.05M in total.
+5 live pools clear this page's $100K TVL floor, $3.06M in total.
 
 ### Are these rates safe?
 
@@ -60,7 +60,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which MKR pools have the most stable APY history?
 
-Based on APY history only, MKR's lower-variability candidates are sushiswap-v3 (Ethereum), 35.19% APY, $443.4K TVL, https://www.defi.garden/?pool=de7b615e-d156-47d0-a4bf-5b556ab4591e#src=seo_token; uniswap-v2 (Ethereum), 12.77% APY, $1.65M TVL, https://www.defi.garden/?pool=340f308b-f626-4f28-a334-bdb588a4d1dd#src=seo_token; uniswap-v3 (Ethereum), 46.67% APY, $419K TVL, https://www.defi.garden/?pool=031fe8ae-e000-49b6-bcc4-0a90021e5bc3#src=seo_token; uniswap-v4 (Ethereum), 157.34% APY, $377.6K TVL, https://www.defi.garden/?pool=570d398e-6351-4a69-a780-145a4967d90c#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MKR's lower-variability candidates are sushiswap-v3 (Ethereum), 29.54% APY, $444.2K TVL, https://www.defi.garden/?pool=de7b615e-d156-47d0-a4bf-5b556ab4591e#src=seo_token; uniswap-v2 (Ethereum), 11.55% APY, $1.65M TVL, https://www.defi.garden/?pool=340f308b-f626-4f28-a334-bdb588a4d1dd#src=seo_token; uniswap-v3 (Ethereum), 42.02% APY, $419.8K TVL, https://www.defi.garden/?pool=031fe8ae-e000-49b6-bcc4-0a90021e5bc3#src=seo_token; uniswap-v4 (Ethereum), 144.78% APY, $379.7K TVL, https://www.defi.garden/?pool=570d398e-6351-4a69-a780-145a4967d90c#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

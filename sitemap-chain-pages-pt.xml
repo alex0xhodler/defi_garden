@@ -332,6 +332,16 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://www.defi.garden/pt/chains/near</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/chains/near" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/chains/near" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/chains/near" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/chains/near" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/chains/near" />
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://www.defi.garden/pt/chains/starknet</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/chains/starknet" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/chains/starknet" />
@@ -348,16 +358,6 @@
     <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/chains/bob" />
     <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/chains/bob" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/chains/bob" />
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/pt/chains/near</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/chains/near" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/chains/near" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/chains/near" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/chains/near" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/chains/near" />
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -568,16 +568,6 @@
     <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/chains/rootstock" />
     <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/chains/rootstock" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/chains/rootstock" />
-    <lastmod>2026-10-05</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/pt/chains/defichain</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/chains/defichain" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/chains/defichain" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/chains/defichain" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/chains/defichain" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/chains/defichain" />
     <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
   </url>

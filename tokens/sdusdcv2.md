@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest SDUSDCV2 yield right now is 5.07% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SDUSDCV2 yield right now is 5.13% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=90bb2816-3020-47c6-8f1d-3f46c538931b#src=seo_token) | Ethereum | 5.07% | $477.1K |
+| [morpho-blue →](https://www.defi.garden/?pool=90bb2816-3020-47c6-8f1d-3f46c538931b#src=seo_token) | Ethereum | 5.13% | $477.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SDUSDCV2 yield today?
 
-5.07% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+5.13% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many SDUSDCV2 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $477.1K in total.
+1 live pool clear this page's $100K TVL floor, $477.2K in total.
 
 ### Are these rates safe?
 

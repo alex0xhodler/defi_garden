@@ -6,7 +6,7 @@ The highest honest NPRIME yield right now is 5.81% on plume-vaults (Plume Mainne
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [plume-vaults →](https://www.defi.garden/?pool=8b4f699b-9545-5c1c-8189-c32b8cb93e84#src=seo_token) | Plume Mainnet | 5.81% | $22.87M |
+| [plume-vaults →](https://www.defi.garden/?pool=8b4f699b-9545-5c1c-8189-c32b8cb93e84#src=seo_token) | Plume Mainnet | 5.81% | $22.23M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NPRIME pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $22.87M in total.
+1 live pool clear this page's $100K TVL floor, $22.23M in total.
 
 ### Are these rates safe?
 

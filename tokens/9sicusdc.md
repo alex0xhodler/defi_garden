@@ -6,7 +6,7 @@ The highest honest 9SICUSDC yield right now is 11.90% on lagoon (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=33fe6e80-5139-5f47-8e8b-a270394db09e#src=seo_token) | Ethereum | 11.90% | $303.1K |
+| [lagoon →](https://www.defi.garden/?pool=33fe6e80-5139-5f47-8e8b-a270394db09e#src=seo_token) | Ethereum | 11.90% | $303K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many 9SICUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $303.1K in total.
+1 live pool clear this page's $100K TVL floor, $303K in total.
 
 ### Are these rates safe?
 

@@ -2,42 +2,42 @@
 
 *DefiLlama 데이터 생성 시점 검증: October 5, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 ICP의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 390.40%이며, $100K TVL 기준을 넘는 11개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 ICP의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 420.07%이며, $100K TVL 기준을 넘는 11개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [icpswap →](https://www.defi.garden/?pool=8d70550f-b6b4-4b01-9885-878f69f3d690#src=seo_token) | ICP | 33.83% | $869.9K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=34987574-6e85-4046-ae9f-2b2b881008c6#src=seo_token) | Base | 390.40% | $730K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=919f50a0-1f61-4082-86e9-eb1eec8c82be#src=seo_token) | Ethereum | 12.59% | $614.6K |
-| [icpswap →](https://www.defi.garden/?pool=8f3e0a00-3b1c-4e87-ac0d-117c3e057248#src=seo_token) | ICP | 9.53% | $564.5K |
-| [icpswap →](https://www.defi.garden/?pool=7f7c08d4-b54a-4183-bd51-c5d047e889a6#src=seo_token) | ICP | 33.97% | $224.7K |
-| [icpswap →](https://www.defi.garden/?pool=48e0cceb-d027-485f-9622-2ee278dc0a56#src=seo_token) | ICP | 0.08% | $159K |
-| [icpswap →](https://www.defi.garden/?pool=541dfb0f-b069-4225-98ce-3906a7ac0f55#src=seo_token) | ICP | 0.45% | $113.5K |
-| [icpswap →](https://www.defi.garden/?pool=5297d348-9ead-4a5e-8d45-f4a353bae38a#src=seo_token) | ICP | 14.46% | $104.5K |
+| [icpswap →](https://www.defi.garden/?pool=8d70550f-b6b4-4b01-9885-878f69f3d690#src=seo_token) | ICP | 43.16% | $747.1K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=34987574-6e85-4046-ae9f-2b2b881008c6#src=seo_token) | Base | 420.07% | $745.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=919f50a0-1f61-4082-86e9-eb1eec8c82be#src=seo_token) | Ethereum | 16.10% | $625.3K |
+| [icpswap →](https://www.defi.garden/?pool=8f3e0a00-3b1c-4e87-ac0d-117c3e057248#src=seo_token) | ICP | 12.20% | $568.5K |
+| [icpswap →](https://www.defi.garden/?pool=7f7c08d4-b54a-4183-bd51-c5d047e889a6#src=seo_token) | ICP | 31.50% | $228.9K |
+| [icpswap →](https://www.defi.garden/?pool=48e0cceb-d027-485f-9622-2ee278dc0a56#src=seo_token) | ICP | 0.05% | $163.8K |
+| [icpswap →](https://www.defi.garden/?pool=541dfb0f-b069-4225-98ce-3906a7ac0f55#src=seo_token) | ICP | 0.44% | $117.2K |
+| [icpswap →](https://www.defi.garden/?pool=5297d348-9ead-4a5e-8d45-f4a353bae38a#src=seo_token) | ICP | 4.86% | $108.5K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 ICP의 변동성 낮은 후보는 ICP의 icpswap, APY 14.46%, TVL $104.5K, https://www.defi.garden/?pool=5297d348-9ead-4a5e-8d45-f4a353bae38a#src=seo_token; ICP의 icpswap, APY 0.08%, TVL $159K, https://www.defi.garden/?pool=48e0cceb-d027-485f-9622-2ee278dc0a56#src=seo_token; ICP의 icpswap, APY 0.45%, TVL $113.5K, https://www.defi.garden/?pool=541dfb0f-b069-4225-98ce-3906a7ac0f55#src=seo_token; Ethereum의 uniswap-v3, APY 12.59%, TVL $614.6K, https://www.defi.garden/?pool=919f50a0-1f61-4082-86e9-eb1eec8c82be#src=seo_token; ICP의 icpswap, APY 9.53%, TVL $564.5K, https://www.defi.garden/?pool=8f3e0a00-3b1c-4e87-ac0d-117c3e057248#src=seo_token; ICP의 icpswap, APY 33.97%, TVL $224.7K, https://www.defi.garden/?pool=7f7c08d4-b54a-4183-bd51-c5d047e889a6#src=seo_token; ICP의 icpswap, APY 33.83%, TVL $869.9K, https://www.defi.garden/?pool=8d70550f-b6b4-4b01-9885-878f69f3d690#src=seo_token; Base의 aerodrome-slipstream, APY 390.40%, TVL $730K, https://www.defi.garden/?pool=34987574-6e85-4046-ae9f-2b2b881008c6#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 ICP의 변동성 낮은 후보는 ICP의 icpswap, APY 4.86%, TVL $108.5K, https://www.defi.garden/?pool=5297d348-9ead-4a5e-8d45-f4a353bae38a#src=seo_token; ICP의 icpswap, APY 0.05%, TVL $163.8K, https://www.defi.garden/?pool=48e0cceb-d027-485f-9622-2ee278dc0a56#src=seo_token; ICP의 icpswap, APY 0.44%, TVL $117.2K, https://www.defi.garden/?pool=541dfb0f-b069-4225-98ce-3906a7ac0f55#src=seo_token; Ethereum의 uniswap-v3, APY 16.10%, TVL $625.3K, https://www.defi.garden/?pool=919f50a0-1f61-4082-86e9-eb1eec8c82be#src=seo_token; ICP의 icpswap, APY 12.20%, TVL $568.5K, https://www.defi.garden/?pool=8f3e0a00-3b1c-4e87-ac0d-117c3e057248#src=seo_token; ICP의 icpswap, APY 31.50%, TVL $228.9K, https://www.defi.garden/?pool=7f7c08d4-b54a-4183-bd51-c5d047e889a6#src=seo_token; ICP의 icpswap, APY 43.16%, TVL $747.1K, https://www.defi.garden/?pool=8d70550f-b6b4-4b01-9885-878f69f3d690#src=seo_token; Base의 aerodrome-slipstream, APY 420.07%, TVL $745.4K, https://www.defi.garden/?pool=34987574-6e85-4046-ae9f-2b2b881008c6#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [icpswap →](https://www.defi.garden/?pool=5297d348-9ead-4a5e-8d45-f4a353bae38a#src=seo_token) | ICP | 14.46% | $104.5K |
-| 2 | [icpswap →](https://www.defi.garden/?pool=48e0cceb-d027-485f-9622-2ee278dc0a56#src=seo_token) | ICP | 0.08% | $159K |
-| 3 | [icpswap →](https://www.defi.garden/?pool=541dfb0f-b069-4225-98ce-3906a7ac0f55#src=seo_token) | ICP | 0.45% | $113.5K |
-| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=919f50a0-1f61-4082-86e9-eb1eec8c82be#src=seo_token) | Ethereum | 12.59% | $614.6K |
-| 5 | [icpswap →](https://www.defi.garden/?pool=8f3e0a00-3b1c-4e87-ac0d-117c3e057248#src=seo_token) | ICP | 9.53% | $564.5K |
-| 6 | [icpswap →](https://www.defi.garden/?pool=7f7c08d4-b54a-4183-bd51-c5d047e889a6#src=seo_token) | ICP | 33.97% | $224.7K |
-| 7 | [icpswap →](https://www.defi.garden/?pool=8d70550f-b6b4-4b01-9885-878f69f3d690#src=seo_token) | ICP | 33.83% | $869.9K |
-| 8 | [aerodrome-slipstream →](https://www.defi.garden/?pool=34987574-6e85-4046-ae9f-2b2b881008c6#src=seo_token) | Base | 390.40% | $730K |
+| 1 | [icpswap →](https://www.defi.garden/?pool=5297d348-9ead-4a5e-8d45-f4a353bae38a#src=seo_token) | ICP | 4.86% | $108.5K |
+| 2 | [icpswap →](https://www.defi.garden/?pool=48e0cceb-d027-485f-9622-2ee278dc0a56#src=seo_token) | ICP | 0.05% | $163.8K |
+| 3 | [icpswap →](https://www.defi.garden/?pool=541dfb0f-b069-4225-98ce-3906a7ac0f55#src=seo_token) | ICP | 0.44% | $117.2K |
+| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=919f50a0-1f61-4082-86e9-eb1eec8c82be#src=seo_token) | Ethereum | 16.10% | $625.3K |
+| 5 | [icpswap →](https://www.defi.garden/?pool=8f3e0a00-3b1c-4e87-ac0d-117c3e057248#src=seo_token) | ICP | 12.20% | $568.5K |
+| 6 | [icpswap →](https://www.defi.garden/?pool=7f7c08d4-b54a-4183-bd51-c5d047e889a6#src=seo_token) | ICP | 31.50% | $228.9K |
+| 7 | [icpswap →](https://www.defi.garden/?pool=8d70550f-b6b4-4b01-9885-878f69f3d690#src=seo_token) | ICP | 43.16% | $747.1K |
+| 8 | [aerodrome-slipstream →](https://www.defi.garden/?pool=34987574-6e85-4046-ae9f-2b2b881008c6#src=seo_token) | Base | 420.07% | $745.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-ICP 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.08%부터 390.40%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+ICP 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.05%부터 420.07%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 14.95%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 14.94%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 1개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -45,14 +45,14 @@ ICP 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.08%부터 390.40%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| icpswap | 33.83% | 37.39% | 기본 금리 |
-| aerodrome-slipstream | 390.40% | 432.64% | 인센티브 95.87% |
-| uniswap-v3 | 12.59% | 16.16% | 기본 금리 |
-| icpswap | 9.53% | 13.74% | 기본 금리 |
-| icpswap | 33.97% | 41.41% | 기본 금리 |
-| icpswap | 0.08% | 1.15% | 기본 금리 |
-| icpswap | 0.45% | 1.93% | 기본 금리 |
-| icpswap | 14.46% | 8.03% | 기본 금리 |
+| icpswap | 43.16% | 37.51% | 기본 금리 |
+| aerodrome-slipstream | 420.07% | 433.59% | 인센티브 96.00% |
+| uniswap-v3 | 16.10% | 16.17% | 기본 금리 |
+| icpswap | 12.20% | 13.70% | 기본 금리 |
+| icpswap | 31.50% | 41.47% | 기본 금리 |
+| icpswap | 0.05% | 1.15% | 기본 금리 |
+| icpswap | 0.44% | 1.89% | 기본 금리 |
+| icpswap | 4.86% | 8.08% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -60,11 +60,11 @@ ICP 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.08%부터 390.40%�
 
 ### 오늘 ICP의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 390.40%예요.
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 420.07%예요.
 
 ### ICP 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 11개이며, 합산 TVL은 $5.87M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 11개이며, 합산 TVL은 $5.89M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -72,7 +72,7 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 390
 
 ### ICP 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 ICP의 변동성 낮은 후보는 ICP의 icpswap, APY 14.46%, TVL $104.5K, https://www.defi.garden/?pool=5297d348-9ead-4a5e-8d45-f4a353bae38a#src=seo_token; ICP의 icpswap, APY 0.08%, TVL $159K, https://www.defi.garden/?pool=48e0cceb-d027-485f-9622-2ee278dc0a56#src=seo_token; ICP의 icpswap, APY 0.45%, TVL $113.5K, https://www.defi.garden/?pool=541dfb0f-b069-4225-98ce-3906a7ac0f55#src=seo_token; Ethereum의 uniswap-v3, APY 12.59%, TVL $614.6K, https://www.defi.garden/?pool=919f50a0-1f61-4082-86e9-eb1eec8c82be#src=seo_token; ICP의 icpswap, APY 9.53%, TVL $564.5K, https://www.defi.garden/?pool=8f3e0a00-3b1c-4e87-ac0d-117c3e057248#src=seo_token; ICP의 icpswap, APY 33.97%, TVL $224.7K, https://www.defi.garden/?pool=7f7c08d4-b54a-4183-bd51-c5d047e889a6#src=seo_token; ICP의 icpswap, APY 33.83%, TVL $869.9K, https://www.defi.garden/?pool=8d70550f-b6b4-4b01-9885-878f69f3d690#src=seo_token; Base의 aerodrome-slipstream, APY 390.40%, TVL $730K, https://www.defi.garden/?pool=34987574-6e85-4046-ae9f-2b2b881008c6#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 ICP의 변동성 낮은 후보는 ICP의 icpswap, APY 4.86%, TVL $108.5K, https://www.defi.garden/?pool=5297d348-9ead-4a5e-8d45-f4a353bae38a#src=seo_token; ICP의 icpswap, APY 0.05%, TVL $163.8K, https://www.defi.garden/?pool=48e0cceb-d027-485f-9622-2ee278dc0a56#src=seo_token; ICP의 icpswap, APY 0.44%, TVL $117.2K, https://www.defi.garden/?pool=541dfb0f-b069-4225-98ce-3906a7ac0f55#src=seo_token; Ethereum의 uniswap-v3, APY 16.10%, TVL $625.3K, https://www.defi.garden/?pool=919f50a0-1f61-4082-86e9-eb1eec8c82be#src=seo_token; ICP의 icpswap, APY 12.20%, TVL $568.5K, https://www.defi.garden/?pool=8f3e0a00-3b1c-4e87-ac0d-117c3e057248#src=seo_token; ICP의 icpswap, APY 31.50%, TVL $228.9K, https://www.defi.garden/?pool=7f7c08d4-b54a-4183-bd51-c5d047e889a6#src=seo_token; ICP의 icpswap, APY 43.16%, TVL $747.1K, https://www.defi.garden/?pool=8d70550f-b6b4-4b01-9885-878f69f3d690#src=seo_token; Base의 aerodrome-slipstream, APY 420.07%, TVL $745.4K, https://www.defi.garden/?pool=34987574-6e85-4046-ae9f-2b2b881008c6#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

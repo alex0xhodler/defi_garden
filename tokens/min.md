@@ -2,39 +2,42 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest MIN yield right now is 3.76% on minswap-dex (Cardano), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MIN yield right now is 19.15% on minswap-dex (Cardano), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=25a7770b-4a3e-4e47-a215-06e2a7854c27#src=seo_token) | Cardano | 3.76% | $1.65M |
-| [minswap-dex →](https://www.defi.garden/?pool=48ddeb50-cdc2-4e7f-a806-a641d66bd37f#src=seo_token) | Cardano | 2.25% | $265.2K |
+| [minswap-dex →](https://www.defi.garden/?pool=25a7770b-4a3e-4e47-a215-06e2a7854c27#src=seo_token) | Cardano | 3.68% | $1.69M |
+| [minswap-dex →](https://www.defi.garden/?pool=48ddeb50-cdc2-4e7f-a806-a641d66bd37f#src=seo_token) | Cardano | 2.20% | $269.6K |
+| [minswap-dex →](https://www.defi.garden/?pool=0678b8d8-3792-44c2-9af2-5071f3421e8c#src=seo_token) | Cardano | 19.15% | $100.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, MIN's lower-variability candidates are minswap-dex (Cardano), 3.76% APY, $1.65M TVL, https://www.defi.garden/?pool=25a7770b-4a3e-4e47-a215-06e2a7854c27#src=seo_token; minswap-dex (Cardano), 2.25% APY, $265.2K TVL, https://www.defi.garden/?pool=48ddeb50-cdc2-4e7f-a806-a641d66bd37f#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MIN's lower-variability candidates are minswap-dex (Cardano), 3.68% APY, $1.69M TVL, https://www.defi.garden/?pool=25a7770b-4a3e-4e47-a215-06e2a7854c27#src=seo_token; minswap-dex (Cardano), 2.20% APY, $269.6K TVL, https://www.defi.garden/?pool=48ddeb50-cdc2-4e7f-a806-a641d66bd37f#src=seo_token; minswap-dex (Cardano), 19.15% APY, $100.9K TVL, https://www.defi.garden/?pool=0678b8d8-3792-44c2-9af2-5071f3421e8c#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [minswap-dex →](https://www.defi.garden/?pool=25a7770b-4a3e-4e47-a215-06e2a7854c27#src=seo_token) | Cardano | 3.76% | $1.65M |
-| 2 | [minswap-dex →](https://www.defi.garden/?pool=48ddeb50-cdc2-4e7f-a806-a641d66bd37f#src=seo_token) | Cardano | 2.25% | $265.2K |
+| 1 | [minswap-dex →](https://www.defi.garden/?pool=25a7770b-4a3e-4e47-a215-06e2a7854c27#src=seo_token) | Cardano | 3.68% | $1.69M |
+| 2 | [minswap-dex →](https://www.defi.garden/?pool=48ddeb50-cdc2-4e7f-a806-a641d66bd37f#src=seo_token) | Cardano | 2.20% | $269.6K |
+| 3 | [minswap-dex →](https://www.defi.garden/?pool=0678b8d8-3792-44c2-9af2-5071f3421e8c#src=seo_token) | Cardano | 19.15% | $100.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-MIN shows up in 2 pools here, with rates from 2.25% to 3.76% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+MIN shows up in 3 pools here, with rates from 2.20% to 19.15% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.74% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 3.36% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+2 of 3 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
-2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+3 of 3 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| minswap-dex | 3.76% | 3.35% | 13.83% incentives |
-| minswap-dex | 2.25% | 2.13% | Base rate |
+| minswap-dex | 3.68% | 3.36% | 13.59% incentives |
+| minswap-dex | 2.20% | 2.13% | Base rate |
+| minswap-dex | 19.15% | 18.86% | 23.76% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +45,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MIN yield today?
 
-3.76% APY on minswap-dex (Cardano), based on live DefiLlama data.
+19.15% APY on minswap-dex (Cardano), based on live DefiLlama data.
 
 ### How many MIN pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.92M in total.
+3 live pools clear this page's $100K TVL floor, $2.06M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which MIN pools have the most stable APY history?
 
-Based on APY history only, MIN's lower-variability candidates are minswap-dex (Cardano), 3.76% APY, $1.65M TVL, https://www.defi.garden/?pool=25a7770b-4a3e-4e47-a215-06e2a7854c27#src=seo_token; minswap-dex (Cardano), 2.25% APY, $265.2K TVL, https://www.defi.garden/?pool=48ddeb50-cdc2-4e7f-a806-a641d66bd37f#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MIN's lower-variability candidates are minswap-dex (Cardano), 3.68% APY, $1.69M TVL, https://www.defi.garden/?pool=25a7770b-4a3e-4e47-a215-06e2a7854c27#src=seo_token; minswap-dex (Cardano), 2.20% APY, $269.6K TVL, https://www.defi.garden/?pool=48ddeb50-cdc2-4e7f-a806-a641d66bd37f#src=seo_token; minswap-dex (Cardano), 19.15% APY, $100.9K TVL, https://www.defi.garden/?pool=0678b8d8-3792-44c2-9af2-5071f3421e8c#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

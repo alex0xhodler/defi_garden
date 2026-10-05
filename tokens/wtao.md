@@ -2,38 +2,38 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest WTAO yield right now is 0.89% on hatom-lending (MultiversX), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WTAO yield right now is 77.72% on uniswap-v3 (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=e9440a04-578f-43b8-8c53-c44c1187183d#src=seo_token) | Ethereum | 46.22% | $2.76M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b2bbfa72-7557-48c6-aecd-3a9fb34b7c0a#src=seo_token) | Ethereum | 52.61% | $1.12M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=e58126b8-6e4b-406b-bcbb-53a5ea5284bf#src=seo_token) | Ethereum | 17.25% | $391.8K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=a4b243a7-7331-47b2-97a1-4101eb0b6643#src=seo_token) | Ethereum | 12.00% | $365.9K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=69bd8f2f-8f64-4a3f-b121-7d1e92e5480a#src=seo_token) | Ethereum | 69.50% | $162.5K |
-| [hatom-lending →](https://www.defi.garden/?pool=d2cbcb65-3727-4498-b8f0-148d6e5565eb#src=seo_token) | MultiversX | 0.89% | $115.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e9440a04-578f-43b8-8c53-c44c1187183d#src=seo_token) | Ethereum | 67.51% | $2.84M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b2bbfa72-7557-48c6-aecd-3a9fb34b7c0a#src=seo_token) | Ethereum | 70.09% | $1.14M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e58126b8-6e4b-406b-bcbb-53a5ea5284bf#src=seo_token) | Ethereum | 19.68% | $400.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a4b243a7-7331-47b2-97a1-4101eb0b6643#src=seo_token) | Ethereum | 14.17% | $373K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=69bd8f2f-8f64-4a3f-b121-7d1e92e5480a#src=seo_token) | Ethereum | 77.72% | $166.1K |
+| [hatom-lending →](https://www.defi.garden/?pool=d2cbcb65-3727-4498-b8f0-148d6e5565eb#src=seo_token) | MultiversX | 0.89% | $129.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WTAO's lower-variability candidates are hatom-lending (MultiversX), 0.89% APY, $115.7K TVL, https://www.defi.garden/?pool=d2cbcb65-3727-4498-b8f0-148d6e5565eb#src=seo_token; uniswap-v4 (Ethereum), 12.00% APY, $365.9K TVL, https://www.defi.garden/?pool=a4b243a7-7331-47b2-97a1-4101eb0b6643#src=seo_token; uniswap-v3 (Ethereum), 17.25% APY, $391.8K TVL, https://www.defi.garden/?pool=e58126b8-6e4b-406b-bcbb-53a5ea5284bf#src=seo_token; uniswap-v3 (Ethereum), 69.50% APY, $162.5K TVL, https://www.defi.garden/?pool=69bd8f2f-8f64-4a3f-b121-7d1e92e5480a#src=seo_token; uniswap-v3 (Ethereum), 52.61% APY, $1.12M TVL, https://www.defi.garden/?pool=b2bbfa72-7557-48c6-aecd-3a9fb34b7c0a#src=seo_token; uniswap-v3 (Ethereum), 46.22% APY, $2.76M TVL, https://www.defi.garden/?pool=e9440a04-578f-43b8-8c53-c44c1187183d#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WTAO's lower-variability candidates are hatom-lending (MultiversX), 0.89% APY, $129.7K TVL, https://www.defi.garden/?pool=d2cbcb65-3727-4498-b8f0-148d6e5565eb#src=seo_token; uniswap-v4 (Ethereum), 14.17% APY, $373K TVL, https://www.defi.garden/?pool=a4b243a7-7331-47b2-97a1-4101eb0b6643#src=seo_token; uniswap-v3 (Ethereum), 19.68% APY, $400.8K TVL, https://www.defi.garden/?pool=e58126b8-6e4b-406b-bcbb-53a5ea5284bf#src=seo_token; uniswap-v3 (Ethereum), 77.72% APY, $166.1K TVL, https://www.defi.garden/?pool=69bd8f2f-8f64-4a3f-b121-7d1e92e5480a#src=seo_token; uniswap-v3 (Ethereum), 70.09% APY, $1.14M TVL, https://www.defi.garden/?pool=b2bbfa72-7557-48c6-aecd-3a9fb34b7c0a#src=seo_token; uniswap-v3 (Ethereum), 67.51% APY, $2.84M TVL, https://www.defi.garden/?pool=e9440a04-578f-43b8-8c53-c44c1187183d#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [hatom-lending →](https://www.defi.garden/?pool=d2cbcb65-3727-4498-b8f0-148d6e5565eb#src=seo_token) | MultiversX | 0.89% | $115.7K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=a4b243a7-7331-47b2-97a1-4101eb0b6643#src=seo_token) | Ethereum | 12.00% | $365.9K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=e58126b8-6e4b-406b-bcbb-53a5ea5284bf#src=seo_token) | Ethereum | 17.25% | $391.8K |
-| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=69bd8f2f-8f64-4a3f-b121-7d1e92e5480a#src=seo_token) | Ethereum | 69.50% | $162.5K |
-| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=b2bbfa72-7557-48c6-aecd-3a9fb34b7c0a#src=seo_token) | Ethereum | 52.61% | $1.12M |
-| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=e9440a04-578f-43b8-8c53-c44c1187183d#src=seo_token) | Ethereum | 46.22% | $2.76M |
+| 1 | [hatom-lending →](https://www.defi.garden/?pool=d2cbcb65-3727-4498-b8f0-148d6e5565eb#src=seo_token) | MultiversX | 0.89% | $129.7K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=a4b243a7-7331-47b2-97a1-4101eb0b6643#src=seo_token) | Ethereum | 14.17% | $373K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=e58126b8-6e4b-406b-bcbb-53a5ea5284bf#src=seo_token) | Ethereum | 19.68% | $400.8K |
+| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=69bd8f2f-8f64-4a3f-b121-7d1e92e5480a#src=seo_token) | Ethereum | 77.72% | $166.1K |
+| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=b2bbfa72-7557-48c6-aecd-3a9fb34b7c0a#src=seo_token) | Ethereum | 70.09% | $1.14M |
+| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=e9440a04-578f-43b8-8c53-c44c1187183d#src=seo_token) | Ethereum | 67.51% | $2.84M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WTAO shows up in 6 pools here, with rates from 0.89% to 69.50% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+WTAO shows up in 6 pools here, with rates from 0.89% to 77.72% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-6 of these 6 pools have a trustworthy 30-day average on file, with a median of 86.70% — a useful check against today's number for whether the rate is steady or just having a good day.
+6 of these 6 pools have a trustworthy 30-day average on file, with a median of 86.63% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 6 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -41,11 +41,11 @@ All 6 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 46.22% | 182.24% | Base rate |
-| uniswap-v3 | 52.61% | 110.50% | Base rate |
-| uniswap-v3 | 17.25% | 62.90% | Base rate |
-| uniswap-v4 | 12.00% | 44.37% | Base rate |
-| uniswap-v3 | 69.50% | 144.99% | Base rate |
+| uniswap-v3 | 67.51% | 181.45% | Base rate |
+| uniswap-v3 | 70.09% | 110.58% | Base rate |
+| uniswap-v3 | 19.68% | 62.69% | Base rate |
+| uniswap-v4 | 14.17% | 44.25% | Base rate |
+| uniswap-v3 | 77.72% | 144.50% | Base rate |
 | hatom-lending | 0.89% | 1.66% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -54,11 +54,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WTAO yield today?
 
-0.89% APY on hatom-lending (MultiversX), based on live DefiLlama data.
+77.72% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many WTAO pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $4.92M in total.
+6 live pools clear this page's $100K TVL floor, $5.05M in total.
 
 ### Are these rates safe?
 
@@ -66,7 +66,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WTAO pools have the most stable APY history?
 
-Based on APY history only, WTAO's lower-variability candidates are hatom-lending (MultiversX), 0.89% APY, $115.7K TVL, https://www.defi.garden/?pool=d2cbcb65-3727-4498-b8f0-148d6e5565eb#src=seo_token; uniswap-v4 (Ethereum), 12.00% APY, $365.9K TVL, https://www.defi.garden/?pool=a4b243a7-7331-47b2-97a1-4101eb0b6643#src=seo_token; uniswap-v3 (Ethereum), 17.25% APY, $391.8K TVL, https://www.defi.garden/?pool=e58126b8-6e4b-406b-bcbb-53a5ea5284bf#src=seo_token; uniswap-v3 (Ethereum), 69.50% APY, $162.5K TVL, https://www.defi.garden/?pool=69bd8f2f-8f64-4a3f-b121-7d1e92e5480a#src=seo_token; uniswap-v3 (Ethereum), 52.61% APY, $1.12M TVL, https://www.defi.garden/?pool=b2bbfa72-7557-48c6-aecd-3a9fb34b7c0a#src=seo_token; uniswap-v3 (Ethereum), 46.22% APY, $2.76M TVL, https://www.defi.garden/?pool=e9440a04-578f-43b8-8c53-c44c1187183d#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WTAO's lower-variability candidates are hatom-lending (MultiversX), 0.89% APY, $129.7K TVL, https://www.defi.garden/?pool=d2cbcb65-3727-4498-b8f0-148d6e5565eb#src=seo_token; uniswap-v4 (Ethereum), 14.17% APY, $373K TVL, https://www.defi.garden/?pool=a4b243a7-7331-47b2-97a1-4101eb0b6643#src=seo_token; uniswap-v3 (Ethereum), 19.68% APY, $400.8K TVL, https://www.defi.garden/?pool=e58126b8-6e4b-406b-bcbb-53a5ea5284bf#src=seo_token; uniswap-v3 (Ethereum), 77.72% APY, $166.1K TVL, https://www.defi.garden/?pool=69bd8f2f-8f64-4a3f-b121-7d1e92e5480a#src=seo_token; uniswap-v3 (Ethereum), 70.09% APY, $1.14M TVL, https://www.defi.garden/?pool=b2bbfa72-7557-48c6-aecd-3a9fb34b7c0a#src=seo_token; uniswap-v3 (Ethereum), 67.51% APY, $2.84M TVL, https://www.defi.garden/?pool=e9440a04-578f-43b8-8c53-c44c1187183d#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

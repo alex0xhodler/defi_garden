@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest KITE yield right now is 8.41% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KITE yield right now is 7.23% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=5cfa26c1-2678-58c3-bcb1-1d49c290d445#src=seo_token) | Ethereum | 8.41% | $830.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=5cfa26c1-2678-58c3-bcb1-1d49c290d445#src=seo_token) | Ethereum | 7.23% | $838.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KITE yield today?
 
-8.41% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+7.23% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many KITE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $830.6K in total.
+1 live pool clear this page's $100K TVL floor, $838.1K in total.
 
 ### Are these rates safe?
 

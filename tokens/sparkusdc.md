@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest SPARKUSDC yield right now is 3.96% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SPARKUSDC yield right now is 3.97% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/pools/morpho-blue-sparkusdc-base) | Base | 3.96% | $334.04M |
+| [morpho-blue →](https://www.defi.garden/pools/morpho-blue-sparkusdc-base) | Base | 3.97% | $336.84M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SPARKUSDC yield today?
 
-3.96% APY on morpho-blue (Base), based on live DefiLlama data.
+3.97% APY on morpho-blue (Base), based on live DefiLlama data.
 
 ### How many SPARKUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $334.04M in total.
+1 live pool clear this page's $100K TVL floor, $336.84M in total.
 
 ### Are these rates safe?
 

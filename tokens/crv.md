@@ -2,40 +2,40 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest CRV yield right now is 19.93% on stake-dao-yield (Ethereum), among 33 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CRV yield right now is 20.08% on stake-dao-yield (Ethereum), among 33 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=38160634-07f7-4dcd-a26e-0e0d27ef5a1b#src=seo_token) | Ethereum | 9.50% | $9.8M |
-| [convex-finance →](https://www.defi.garden/?pool=3f6f3937-1f0c-4cec-8d3b-904434085bfa#src=seo_token) | Ethereum | 14.71% | $8.06M |
-| [curve-dex →](https://www.defi.garden/?pool=4e5fba01-93a0-481f-9514-052f7f250de8#src=seo_token) | Ethereum | 5.77% | $2.9M |
-| [convex-finance →](https://www.defi.garden/?pool=654ac683-141b-42d3-b28d-b2f77eedd595#src=seo_token) | Ethereum | 7.95% | $2.69M |
-| [curve-dex →](https://www.defi.garden/?pool=8e469dbc-6da7-45fd-93a5-c5c4a9c18ed3#src=seo_token) | Ethereum | 8.42% | $1.75M |
-| [stake-dao-yield →](https://www.defi.garden/?pool=de3fb17c-f3f4-463a-880e-7111ebcab1ba#src=seo_token) | Ethereum | 19.93% | $1.63M |
-| [curve-dex →](https://www.defi.garden/?pool=6e1583f9-f13b-44e2-bb17-816a2e2ba6bb#src=seo_token) | Ethereum | 13.32% | $1.52M |
-| [convex-finance →](https://www.defi.garden/?pool=a8ae790a-42e3-488f-9e7e-c539da9fec9c#src=seo_token) | Ethereum | 14.80% | $1.24M |
+| [curve-dex →](https://www.defi.garden/?pool=38160634-07f7-4dcd-a26e-0e0d27ef5a1b#src=seo_token) | Ethereum | 9.60% | $9.82M |
+| [convex-finance →](https://www.defi.garden/?pool=3f6f3937-1f0c-4cec-8d3b-904434085bfa#src=seo_token) | Ethereum | 14.88% | $8.07M |
+| [curve-dex →](https://www.defi.garden/?pool=4e5fba01-93a0-481f-9514-052f7f250de8#src=seo_token) | Ethereum | 5.57% | $2.92M |
+| [convex-finance →](https://www.defi.garden/?pool=654ac683-141b-42d3-b28d-b2f77eedd595#src=seo_token) | Ethereum | 7.76% | $2.71M |
+| [curve-dex →](https://www.defi.garden/?pool=8e469dbc-6da7-45fd-93a5-c5c4a9c18ed3#src=seo_token) | Ethereum | 8.52% | $1.75M |
+| [stake-dao-yield →](https://www.defi.garden/?pool=de3fb17c-f3f4-463a-880e-7111ebcab1ba#src=seo_token) | Ethereum | 20.08% | $1.66M |
+| [curve-dex →](https://www.defi.garden/?pool=6e1583f9-f13b-44e2-bb17-816a2e2ba6bb#src=seo_token) | Ethereum | 11.98% | $1.52M |
+| [convex-finance →](https://www.defi.garden/?pool=a8ae790a-42e3-488f-9e7e-c539da9fec9c#src=seo_token) | Ethereum | 15.23% | $1.24M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, CRV's lower-variability candidates are stake-dao-yield (Ethereum), 19.93% APY, $1.63M TVL, https://www.defi.garden/?pool=de3fb17c-f3f4-463a-880e-7111ebcab1ba#src=seo_token; convex-finance (Ethereum), 14.71% APY, $8.06M TVL, https://www.defi.garden/?pool=3f6f3937-1f0c-4cec-8d3b-904434085bfa#src=seo_token; curve-dex (Ethereum), 9.50% APY, $9.8M TVL, https://www.defi.garden/?pool=38160634-07f7-4dcd-a26e-0e0d27ef5a1b#src=seo_token; curve-dex (Ethereum), 13.32% APY, $1.52M TVL, https://www.defi.garden/?pool=6e1583f9-f13b-44e2-bb17-816a2e2ba6bb#src=seo_token; curve-dex (Ethereum), 8.42% APY, $1.75M TVL, https://www.defi.garden/?pool=8e469dbc-6da7-45fd-93a5-c5c4a9c18ed3#src=seo_token; convex-finance (Ethereum), 14.80% APY, $1.24M TVL, https://www.defi.garden/?pool=a8ae790a-42e3-488f-9e7e-c539da9fec9c#src=seo_token; convex-finance (Ethereum), 7.95% APY, $2.69M TVL, https://www.defi.garden/?pool=654ac683-141b-42d3-b28d-b2f77eedd595#src=seo_token; curve-dex (Ethereum), 5.77% APY, $2.9M TVL, https://www.defi.garden/?pool=4e5fba01-93a0-481f-9514-052f7f250de8#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CRV's lower-variability candidates are stake-dao-yield (Ethereum), 20.08% APY, $1.66M TVL, https://www.defi.garden/?pool=de3fb17c-f3f4-463a-880e-7111ebcab1ba#src=seo_token; convex-finance (Ethereum), 14.88% APY, $8.07M TVL, https://www.defi.garden/?pool=3f6f3937-1f0c-4cec-8d3b-904434085bfa#src=seo_token; curve-dex (Ethereum), 9.60% APY, $9.82M TVL, https://www.defi.garden/?pool=38160634-07f7-4dcd-a26e-0e0d27ef5a1b#src=seo_token; curve-dex (Ethereum), 11.98% APY, $1.52M TVL, https://www.defi.garden/?pool=6e1583f9-f13b-44e2-bb17-816a2e2ba6bb#src=seo_token; curve-dex (Ethereum), 8.52% APY, $1.75M TVL, https://www.defi.garden/?pool=8e469dbc-6da7-45fd-93a5-c5c4a9c18ed3#src=seo_token; convex-finance (Ethereum), 15.23% APY, $1.24M TVL, https://www.defi.garden/?pool=a8ae790a-42e3-488f-9e7e-c539da9fec9c#src=seo_token; convex-finance (Ethereum), 7.76% APY, $2.71M TVL, https://www.defi.garden/?pool=654ac683-141b-42d3-b28d-b2f77eedd595#src=seo_token; curve-dex (Ethereum), 5.57% APY, $2.92M TVL, https://www.defi.garden/?pool=4e5fba01-93a0-481f-9514-052f7f250de8#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [stake-dao-yield →](https://www.defi.garden/?pool=de3fb17c-f3f4-463a-880e-7111ebcab1ba#src=seo_token) | Ethereum | 19.93% | $1.63M |
-| 2 | [convex-finance →](https://www.defi.garden/?pool=3f6f3937-1f0c-4cec-8d3b-904434085bfa#src=seo_token) | Ethereum | 14.71% | $8.06M |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=38160634-07f7-4dcd-a26e-0e0d27ef5a1b#src=seo_token) | Ethereum | 9.50% | $9.8M |
-| 4 | [curve-dex →](https://www.defi.garden/?pool=6e1583f9-f13b-44e2-bb17-816a2e2ba6bb#src=seo_token) | Ethereum | 13.32% | $1.52M |
-| 5 | [curve-dex →](https://www.defi.garden/?pool=8e469dbc-6da7-45fd-93a5-c5c4a9c18ed3#src=seo_token) | Ethereum | 8.42% | $1.75M |
-| 6 | [convex-finance →](https://www.defi.garden/?pool=a8ae790a-42e3-488f-9e7e-c539da9fec9c#src=seo_token) | Ethereum | 14.80% | $1.24M |
-| 7 | [convex-finance →](https://www.defi.garden/?pool=654ac683-141b-42d3-b28d-b2f77eedd595#src=seo_token) | Ethereum | 7.95% | $2.69M |
-| 8 | [curve-dex →](https://www.defi.garden/?pool=4e5fba01-93a0-481f-9514-052f7f250de8#src=seo_token) | Ethereum | 5.77% | $2.9M |
+| 1 | [stake-dao-yield →](https://www.defi.garden/?pool=de3fb17c-f3f4-463a-880e-7111ebcab1ba#src=seo_token) | Ethereum | 20.08% | $1.66M |
+| 2 | [convex-finance →](https://www.defi.garden/?pool=3f6f3937-1f0c-4cec-8d3b-904434085bfa#src=seo_token) | Ethereum | 14.88% | $8.07M |
+| 3 | [curve-dex →](https://www.defi.garden/?pool=38160634-07f7-4dcd-a26e-0e0d27ef5a1b#src=seo_token) | Ethereum | 9.60% | $9.82M |
+| 4 | [curve-dex →](https://www.defi.garden/?pool=6e1583f9-f13b-44e2-bb17-816a2e2ba6bb#src=seo_token) | Ethereum | 11.98% | $1.52M |
+| 5 | [curve-dex →](https://www.defi.garden/?pool=8e469dbc-6da7-45fd-93a5-c5c4a9c18ed3#src=seo_token) | Ethereum | 8.52% | $1.75M |
+| 6 | [convex-finance →](https://www.defi.garden/?pool=a8ae790a-42e3-488f-9e7e-c539da9fec9c#src=seo_token) | Ethereum | 15.23% | $1.24M |
+| 7 | [convex-finance →](https://www.defi.garden/?pool=654ac683-141b-42d3-b28d-b2f77eedd595#src=seo_token) | Ethereum | 7.76% | $2.71M |
+| 8 | [curve-dex →](https://www.defi.garden/?pool=4e5fba01-93a0-481f-9514-052f7f250de8#src=seo_token) | Ethereum | 5.57% | $2.92M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CRV shows up in 8 pools here, with rates from 5.77% to 19.93% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CRV shows up in 8 pools here, with rates from 5.57% to 20.08% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 10.83% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -45,14 +45,14 @@ CRV shows up in 8 pools here, with rates from 5.77% to 19.93% APY across 1 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 9.50% | 9.51% | 98.74% incentives |
-| convex-finance | 14.71% | 15.69% | 99.18% incentives |
-| curve-dex | 5.77% | 6.30% | 66.39% incentives |
-| convex-finance | 7.95% | 8.48% | 75.58% incentives |
-| curve-dex | 8.42% | 9.28% | 99.76% incentives |
-| stake-dao-yield | 19.93% | 19.65% | 98.80% incentives |
-| curve-dex | 13.32% | 12.15% | 83.63% incentives |
-| convex-finance | 14.80% | 16.11% | 99.86% incentives |
+| curve-dex | 9.60% | 9.50% | 98.85% incentives |
+| convex-finance | 14.88% | 15.70% | 99.26% incentives |
+| curve-dex | 5.57% | 6.31% | 69.14% incentives |
+| convex-finance | 7.76% | 8.48% | 77.85% incentives |
+| curve-dex | 8.52% | 9.27% | 100.00% incentives |
+| stake-dao-yield | 20.08% | 19.64% | 98.80% incentives |
+| curve-dex | 11.98% | 12.17% | 94.32% incentives |
+| convex-finance | 15.23% | 16.10% | 98.29% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -60,11 +60,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CRV yield today?
 
-19.93% APY on stake-dao-yield (Ethereum), based on live DefiLlama data.
+20.08% APY on stake-dao-yield (Ethereum), based on live DefiLlama data.
 
 ### How many CRV pools clear the TVL floor?
 
-33 live pools clear this page's $100K TVL floor, $39.04M in total.
+33 live pools clear this page's $100K TVL floor, $39.24M in total.
 
 ### Are these rates safe?
 
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which CRV pools have the most stable APY history?
 
-Based on APY history only, CRV's lower-variability candidates are stake-dao-yield (Ethereum), 19.93% APY, $1.63M TVL, https://www.defi.garden/?pool=de3fb17c-f3f4-463a-880e-7111ebcab1ba#src=seo_token; convex-finance (Ethereum), 14.71% APY, $8.06M TVL, https://www.defi.garden/?pool=3f6f3937-1f0c-4cec-8d3b-904434085bfa#src=seo_token; curve-dex (Ethereum), 9.50% APY, $9.8M TVL, https://www.defi.garden/?pool=38160634-07f7-4dcd-a26e-0e0d27ef5a1b#src=seo_token; curve-dex (Ethereum), 13.32% APY, $1.52M TVL, https://www.defi.garden/?pool=6e1583f9-f13b-44e2-bb17-816a2e2ba6bb#src=seo_token; curve-dex (Ethereum), 8.42% APY, $1.75M TVL, https://www.defi.garden/?pool=8e469dbc-6da7-45fd-93a5-c5c4a9c18ed3#src=seo_token; convex-finance (Ethereum), 14.80% APY, $1.24M TVL, https://www.defi.garden/?pool=a8ae790a-42e3-488f-9e7e-c539da9fec9c#src=seo_token; convex-finance (Ethereum), 7.95% APY, $2.69M TVL, https://www.defi.garden/?pool=654ac683-141b-42d3-b28d-b2f77eedd595#src=seo_token; curve-dex (Ethereum), 5.77% APY, $2.9M TVL, https://www.defi.garden/?pool=4e5fba01-93a0-481f-9514-052f7f250de8#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CRV's lower-variability candidates are stake-dao-yield (Ethereum), 20.08% APY, $1.66M TVL, https://www.defi.garden/?pool=de3fb17c-f3f4-463a-880e-7111ebcab1ba#src=seo_token; convex-finance (Ethereum), 14.88% APY, $8.07M TVL, https://www.defi.garden/?pool=3f6f3937-1f0c-4cec-8d3b-904434085bfa#src=seo_token; curve-dex (Ethereum), 9.60% APY, $9.82M TVL, https://www.defi.garden/?pool=38160634-07f7-4dcd-a26e-0e0d27ef5a1b#src=seo_token; curve-dex (Ethereum), 11.98% APY, $1.52M TVL, https://www.defi.garden/?pool=6e1583f9-f13b-44e2-bb17-816a2e2ba6bb#src=seo_token; curve-dex (Ethereum), 8.52% APY, $1.75M TVL, https://www.defi.garden/?pool=8e469dbc-6da7-45fd-93a5-c5c4a9c18ed3#src=seo_token; convex-finance (Ethereum), 15.23% APY, $1.24M TVL, https://www.defi.garden/?pool=a8ae790a-42e3-488f-9e7e-c539da9fec9c#src=seo_token; convex-finance (Ethereum), 7.76% APY, $2.71M TVL, https://www.defi.garden/?pool=654ac683-141b-42d3-b28d-b2f77eedd595#src=seo_token; curve-dex (Ethereum), 5.57% APY, $2.92M TVL, https://www.defi.garden/?pool=4e5fba01-93a0-481f-9514-052f7f250de8#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

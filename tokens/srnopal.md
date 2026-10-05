@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest SRNOPAL yield right now is 8.60% on strata-markets (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SRNOPAL yield right now is 8.93% on strata-markets (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=37925366-b5d4-579d-88d5-7ae9aed9056d#src=seo_token) | Ethereum | 8.60% | $110.3K |
+| [strata-markets →](https://www.defi.garden/?pool=37925366-b5d4-579d-88d5-7ae9aed9056d#src=seo_token) | Ethereum | 8.93% | $110.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SRNOPAL yield today?
 
-8.60% APY on strata-markets (Ethereum), based on live DefiLlama data.
+8.93% APY on strata-markets (Ethereum), based on live DefiLlama data.
 
 ### How many SRNOPAL pools clear the TVL floor?
 

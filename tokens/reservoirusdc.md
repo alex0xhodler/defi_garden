@@ -2,37 +2,37 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest RESERVOIRUSDC yield right now is 7.26% on morpho-blue (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RESERVOIRUSDC yield right now is 7.25% on morpho-blue (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=1b33f341-1dc2-446a-856e-caf900563ae2#src=seo_token) | Ethereum | 7.26% | $12.71M |
-| [morpho-blue →](https://www.defi.garden/?pool=9d1a102c-92e7-4536-bdea-b6cc693af428#src=seo_token) | Ethereum | 6.78% | $578.6K |
+| [morpho-blue →](https://www.defi.garden/?pool=1b33f341-1dc2-446a-856e-caf900563ae2#src=seo_token) | Ethereum | 7.25% | $12.71M |
+| [morpho-blue →](https://www.defi.garden/?pool=9d1a102c-92e7-4536-bdea-b6cc693af428#src=seo_token) | Ethereum | 6.83% | $578.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, RESERVOIRUSDC's lower-variability candidates are morpho-blue (Ethereum), 7.26% APY, $12.71M TVL, https://www.defi.garden/?pool=1b33f341-1dc2-446a-856e-caf900563ae2#src=seo_token; morpho-blue (Ethereum), 6.78% APY, $578.6K TVL, https://www.defi.garden/?pool=9d1a102c-92e7-4536-bdea-b6cc693af428#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RESERVOIRUSDC's lower-variability candidates are morpho-blue (Ethereum), 7.25% APY, $12.71M TVL, https://www.defi.garden/?pool=1b33f341-1dc2-446a-856e-caf900563ae2#src=seo_token; morpho-blue (Ethereum), 6.83% APY, $578.6K TVL, https://www.defi.garden/?pool=9d1a102c-92e7-4536-bdea-b6cc693af428#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=1b33f341-1dc2-446a-856e-caf900563ae2#src=seo_token) | Ethereum | 7.26% | $12.71M |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=9d1a102c-92e7-4536-bdea-b6cc693af428#src=seo_token) | Ethereum | 6.78% | $578.6K |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=1b33f341-1dc2-446a-856e-caf900563ae2#src=seo_token) | Ethereum | 7.25% | $12.71M |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=9d1a102c-92e7-4536-bdea-b6cc693af428#src=seo_token) | Ethereum | 6.83% | $578.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-RESERVOIRUSDC shows up in 2 pools here, with rates from 6.78% to 7.26% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+RESERVOIRUSDC shows up in 2 pools here, with rates from 6.83% to 7.25% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 6.65% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 6.66% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 2 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 7.26% | 6.56% | 21.66% incentives |
-| morpho-blue | 6.78% | 6.74% | 8.34% incentives |
+| morpho-blue | 7.25% | 6.57% | 20.39% incentives |
+| morpho-blue | 6.83% | 6.75% | 8.08% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,7 +40,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest RESERVOIRUSDC yield today?
 
-7.26% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+7.25% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many RESERVOIRUSDC pools clear the TVL floor?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which RESERVOIRUSDC pools have the most stable APY history?
 
-Based on APY history only, RESERVOIRUSDC's lower-variability candidates are morpho-blue (Ethereum), 7.26% APY, $12.71M TVL, https://www.defi.garden/?pool=1b33f341-1dc2-446a-856e-caf900563ae2#src=seo_token; morpho-blue (Ethereum), 6.78% APY, $578.6K TVL, https://www.defi.garden/?pool=9d1a102c-92e7-4536-bdea-b6cc693af428#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RESERVOIRUSDC's lower-variability candidates are morpho-blue (Ethereum), 7.25% APY, $12.71M TVL, https://www.defi.garden/?pool=1b33f341-1dc2-446a-856e-caf900563ae2#src=seo_token; morpho-blue (Ethereum), 6.83% APY, $578.6K TVL, https://www.defi.garden/?pool=9d1a102c-92e7-4536-bdea-b6cc693af428#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

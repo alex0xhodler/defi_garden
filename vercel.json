@@ -260,26 +260,6 @@
       "permanent": true
     },
     {
-      "source": "/pools/aave-v3-usdc-ethereum",
-      "destination": "/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/ko/pools/aave-v3-usdc-ethereum",
-      "destination": "/ko/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/pt/pools/aave-v3-usdc-ethereum",
-      "destination": "/pt/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/es/pools/aave-v3-usdc-ethereum",
-      "destination": "/es/chains/ethereum",
-      "permanent": true
-    },
-    {
       "source": "/pools/aave-v3-usde-ethereum",
       "destination": "/chains/ethereum",
       "permanent": true
@@ -400,6 +380,26 @@
       "permanent": true
     },
     {
+      "source": "/pools/avant-avusd-savusd-avalanche",
+      "destination": "/chains/avalanche",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/avant-avusd-savusd-avalanche",
+      "destination": "/ko/chains/avalanche",
+      "permanent": true
+    },
+    {
+      "source": "/pt/pools/avant-avusd-savusd-avalanche",
+      "destination": "/pt/chains/avalanche",
+      "permanent": true
+    },
+    {
+      "source": "/es/pools/avant-avusd-savusd-avalanche",
+      "destination": "/es/chains/avalanche",
+      "permanent": true
+    },
+    {
       "source": "/pools/centrifuge-protocol-usat-ethereum",
       "destination": "/chains/ethereum",
       "permanent": true
@@ -476,6 +476,26 @@
     },
     {
       "source": "/es/pools/concrete-ctdeltaweeth-ethereum",
+      "destination": "/es/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pools/curve-dex-eth-steth-ethereum",
+      "destination": "/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/curve-dex-eth-steth-ethereum",
+      "destination": "/ko/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pt/pools/curve-dex-eth-steth-ethereum",
+      "destination": "/pt/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/es/pools/curve-dex-eth-steth-ethereum",
       "destination": "/es/chains/ethereum",
       "permanent": true
     },
@@ -617,26 +637,6 @@
     {
       "source": "/es/pools/kamino-lend-dsol-solana",
       "destination": "/es/chains/solana",
-      "permanent": true
-    },
-    {
-      "source": "/pools/kinetiq-khype-khype-hyperliquid-l1",
-      "destination": "/chains/hyperliquid-l1",
-      "permanent": true
-    },
-    {
-      "source": "/ko/pools/kinetiq-khype-khype-hyperliquid-l1",
-      "destination": "/ko/chains/hyperliquid-l1",
-      "permanent": true
-    },
-    {
-      "source": "/pt/pools/kinetiq-khype-khype-hyperliquid-l1",
-      "destination": "/pt/chains/hyperliquid-l1",
-      "permanent": true
-    },
-    {
-      "source": "/es/pools/kinetiq-khype-khype-hyperliquid-l1",
-      "destination": "/es/chains/hyperliquid-l1",
       "permanent": true
     },
     {

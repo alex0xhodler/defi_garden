@@ -6,8 +6,8 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [pendle-v2 →](https://www.defi.garden/?pool=e54bdf25-c4f0-5409-a917-c916421a092a#src=seo_token) | Ethereum | 6.10% | $5.14M |
 | [pendle-v2 →](https://www.defi.garden/?pool=714f3a1d-b56c-5f57-ba33-951125e961eb#src=seo_token) | Ethereum | 5.37% | $5.14M |
+| [pendle-v2 →](https://www.defi.garden/?pool=e54bdf25-c4f0-5409-a917-c916421a092a#src=seo_token) | Ethereum | 6.10% | $5.14M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
@@ -31,8 +31,8 @@ SUSDD 풀은 여기 2개가 있고, 1개 체인에서 APY가 5.37%부터 6.10%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| pendle-v2 | 6.10% | 6.22% | 인센티브 2.20% |
 | pendle-v2 | 5.37% | 5.31% | 기본 금리 |
+| pendle-v2 | 6.10% | 6.21% | 인센티브 2.23% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 

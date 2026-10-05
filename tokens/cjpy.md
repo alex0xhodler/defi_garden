@@ -2,34 +2,34 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest CJPY yield right now is 6.31% on convex-finance (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CJPY yield right now is 6.40% on convex-finance (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=c5d9c086-301f-48a1-acfb-34d70bafb574#src=seo_token) | Ethereum | 3.81% | $294.8K |
-| [convex-finance →](https://www.defi.garden/?pool=5192b229-53c2-4c23-8da5-6a309cbc1b00#src=seo_token) | Ethereum | 5.74% | $291.7K |
-| [curve-dex →](https://www.defi.garden/?pool=583ef558-d334-4ac3-9be0-bb0e5ed64a25#src=seo_token) | Ethereum | 3.86% | $267.2K |
-| [convex-finance →](https://www.defi.garden/?pool=d37c7ec1-a23f-4f0f-885b-60461949c90c#src=seo_token) | Ethereum | 6.31% | $230.6K |
+| [curve-dex →](https://www.defi.garden/?pool=c5d9c086-301f-48a1-acfb-34d70bafb574#src=seo_token) | Ethereum | 3.91% | $296K |
+| [convex-finance →](https://www.defi.garden/?pool=5192b229-53c2-4c23-8da5-6a309cbc1b00#src=seo_token) | Ethereum | 5.85% | $292.8K |
+| [curve-dex →](https://www.defi.garden/?pool=583ef558-d334-4ac3-9be0-bb0e5ed64a25#src=seo_token) | Ethereum | 3.93% | $267.2K |
+| [convex-finance →](https://www.defi.garden/?pool=d37c7ec1-a23f-4f0f-885b-60461949c90c#src=seo_token) | Ethereum | 6.40% | $230.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, CJPY's lower-variability candidates are curve-dex (Ethereum), 3.86% APY, $267.2K TVL, https://www.defi.garden/?pool=583ef558-d334-4ac3-9be0-bb0e5ed64a25#src=seo_token; curve-dex (Ethereum), 3.81% APY, $294.8K TVL, https://www.defi.garden/?pool=c5d9c086-301f-48a1-acfb-34d70bafb574#src=seo_token; convex-finance (Ethereum), 6.31% APY, $230.6K TVL, https://www.defi.garden/?pool=d37c7ec1-a23f-4f0f-885b-60461949c90c#src=seo_token; convex-finance (Ethereum), 5.74% APY, $291.7K TVL, https://www.defi.garden/?pool=5192b229-53c2-4c23-8da5-6a309cbc1b00#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CJPY's lower-variability candidates are curve-dex (Ethereum), 3.93% APY, $267.2K TVL, https://www.defi.garden/?pool=583ef558-d334-4ac3-9be0-bb0e5ed64a25#src=seo_token; curve-dex (Ethereum), 3.91% APY, $296K TVL, https://www.defi.garden/?pool=c5d9c086-301f-48a1-acfb-34d70bafb574#src=seo_token; convex-finance (Ethereum), 6.40% APY, $230.6K TVL, https://www.defi.garden/?pool=d37c7ec1-a23f-4f0f-885b-60461949c90c#src=seo_token; convex-finance (Ethereum), 5.85% APY, $292.8K TVL, https://www.defi.garden/?pool=5192b229-53c2-4c23-8da5-6a309cbc1b00#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=583ef558-d334-4ac3-9be0-bb0e5ed64a25#src=seo_token) | Ethereum | 3.86% | $267.2K |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=c5d9c086-301f-48a1-acfb-34d70bafb574#src=seo_token) | Ethereum | 3.81% | $294.8K |
-| 3 | [convex-finance →](https://www.defi.garden/?pool=d37c7ec1-a23f-4f0f-885b-60461949c90c#src=seo_token) | Ethereum | 6.31% | $230.6K |
-| 4 | [convex-finance →](https://www.defi.garden/?pool=5192b229-53c2-4c23-8da5-6a309cbc1b00#src=seo_token) | Ethereum | 5.74% | $291.7K |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=583ef558-d334-4ac3-9be0-bb0e5ed64a25#src=seo_token) | Ethereum | 3.93% | $267.2K |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=c5d9c086-301f-48a1-acfb-34d70bafb574#src=seo_token) | Ethereum | 3.91% | $296K |
+| 3 | [convex-finance →](https://www.defi.garden/?pool=d37c7ec1-a23f-4f0f-885b-60461949c90c#src=seo_token) | Ethereum | 6.40% | $230.6K |
+| 4 | [convex-finance →](https://www.defi.garden/?pool=5192b229-53c2-4c23-8da5-6a309cbc1b00#src=seo_token) | Ethereum | 5.85% | $292.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CJPY shows up in 4 pools here, with rates from 3.81% to 6.31% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CJPY shows up in 4 pools here, with rates from 3.91% to 6.40% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 4.95% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 4.94% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 4 of 4 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -37,10 +37,10 @@ CJPY shows up in 4 pools here, with rates from 3.81% to 6.31% APY across 1 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 3.81% | 3.84% | 95.80% incentives |
-| convex-finance | 5.74% | 6.04% | 97.21% incentives |
-| curve-dex | 3.86% | 3.86% | 98.96% incentives |
-| convex-finance | 6.31% | 6.52% | 99.37% incentives |
+| curve-dex | 3.91% | 3.84% | 94.38% incentives |
+| convex-finance | 5.85% | 6.02% | 96.24% incentives |
+| curve-dex | 3.93% | 3.86% | 98.73% incentives |
+| convex-finance | 6.40% | 6.50% | 99.22% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -48,11 +48,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CJPY yield today?
 
-6.31% APY on convex-finance (Ethereum), based on live DefiLlama data.
+6.40% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many CJPY pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.08M in total.
+4 live pools clear this page's $100K TVL floor, $1.09M in total.
 
 ### Are these rates safe?
 
@@ -60,7 +60,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which CJPY pools have the most stable APY history?
 
-Based on APY history only, CJPY's lower-variability candidates are curve-dex (Ethereum), 3.86% APY, $267.2K TVL, https://www.defi.garden/?pool=583ef558-d334-4ac3-9be0-bb0e5ed64a25#src=seo_token; curve-dex (Ethereum), 3.81% APY, $294.8K TVL, https://www.defi.garden/?pool=c5d9c086-301f-48a1-acfb-34d70bafb574#src=seo_token; convex-finance (Ethereum), 6.31% APY, $230.6K TVL, https://www.defi.garden/?pool=d37c7ec1-a23f-4f0f-885b-60461949c90c#src=seo_token; convex-finance (Ethereum), 5.74% APY, $291.7K TVL, https://www.defi.garden/?pool=5192b229-53c2-4c23-8da5-6a309cbc1b00#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CJPY's lower-variability candidates are curve-dex (Ethereum), 3.93% APY, $267.2K TVL, https://www.defi.garden/?pool=583ef558-d334-4ac3-9be0-bb0e5ed64a25#src=seo_token; curve-dex (Ethereum), 3.91% APY, $296K TVL, https://www.defi.garden/?pool=c5d9c086-301f-48a1-acfb-34d70bafb574#src=seo_token; convex-finance (Ethereum), 6.40% APY, $230.6K TVL, https://www.defi.garden/?pool=d37c7ec1-a23f-4f0f-885b-60461949c90c#src=seo_token; convex-finance (Ethereum), 5.85% APY, $292.8K TVL, https://www.defi.garden/?pool=5192b229-53c2-4c23-8da5-6a309cbc1b00#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

@@ -6,8 +6,8 @@ The highest honest ATLAS yield right now is 8.63% on uniswap-v4 (Base), among 3 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=7e3388d6-945b-4afb-b1b4-8ef20e5f9bea#src=seo_token) | Solana | 8.63% | $153.8K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=7cab514f-9ef3-5cb2-a356-2cab6329f897#src=seo_token) | Base | 67.14% | $119.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=7e3388d6-945b-4afb-b1b4-8ef20e5f9bea#src=seo_token) | Solana | 9.30% | $162K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=7cab514f-9ef3-5cb2-a356-2cab6329f897#src=seo_token) | Base | 77.41% | $113.7K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=0efc8068-2953-57d9-b830-d5fe98f98f25#src=seo_token) | Base | 8.63% | $110.8K |
 
 <!-- rate-stability:insufficient -->
@@ -19,9 +19,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-ATLAS shows up in 3 pools here, with rates from 8.63% to 67.14% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+ATLAS shows up in 3 pools here, with rates from 8.63% to 77.41% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 3 pools have a trustworthy 30-day average on file, with a median of 14.38% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 3 pools have a trustworthy 30-day average on file, with a median of 14.39% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -29,8 +29,8 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 8.63% | 20.14% | Base rate |
-| uniswap-v4 | 67.14% | — | Base rate |
+| raydium-amm | 9.30% | 20.14% | Base rate |
+| uniswap-v4 | 77.41% | — | Base rate |
 | uniswap-v4 | 8.63% | 8.63% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -43,7 +43,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ATLAS pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $384.3K in total.
+3 live pools clear this page's $100K TVL floor, $386.5K in total.
 
 ### Are these rates safe?
 

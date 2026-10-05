@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest UPONLY yield right now is 0.03% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest UPONLY yield right now is 0.53% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=edca562a-7f20-4392-9728-f3457c0874bb#src=seo_token) | Base | 0.03% | $109.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=edca562a-7f20-4392-9728-f3457c0874bb#src=seo_token) | Base | 0.53% | $109.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest UPONLY yield today?
 
-0.03% APY on uniswap-v3 (Base), based on live DefiLlama data.
+0.53% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many UPONLY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $109.6K in total.
+1 live pool clear this page's $100K TVL floor, $109.4K in total.
 
 ### Are these rates safe?
 

@@ -6,7 +6,7 @@ The highest honest TOBY yield right now is 2.16% on sushiswap (Base), among 1 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sushiswap →](https://www.defi.garden/?pool=b4d427a7-2530-4510-a47c-54b99d57de12#src=seo_token) | Base | 2.16% | $186.2K |
+| [sushiswap →](https://www.defi.garden/?pool=b4d427a7-2530-4510-a47c-54b99d57de12#src=seo_token) | Base | 2.16% | $188.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TOBY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $186.2K in total.
+1 live pool clear this page's $100K TVL floor, $188.3K in total.
 
 ### Are these rates safe?
 

@@ -6,7 +6,7 @@ The highest honest MXNE yield right now is 0.01% on orca-dex (Solana), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=8ed99f2c-a7f3-4f6b-9f45-049596d362b2#src=seo_token) | Solana | 0.01% | $140.4K |
+| [orca-dex →](https://www.defi.garden/?pool=8ed99f2c-a7f3-4f6b-9f45-049596d362b2#src=seo_token) | Solana | 0.01% | $140.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MXNE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $140.4K in total.
+1 live pool clear this page's $100K TVL floor, $140.6K in total.
 
 ### Are these rates safe?
 

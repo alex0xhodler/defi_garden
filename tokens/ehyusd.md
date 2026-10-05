@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest EHYUSD yield right now is 23.92% on reflect-tranches (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EHYUSD yield right now is 17.87% on reflect-tranches (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [reflect-tranches →](https://www.defi.garden/?pool=5c20eedf-88dc-5026-9e2e-12110b4c9f9a#src=seo_token) | Solana | 23.92% | $238.1K |
+| [reflect-tranches →](https://www.defi.garden/?pool=5c20eedf-88dc-5026-9e2e-12110b4c9f9a#src=seo_token) | Solana | 17.87% | $238K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EHYUSD yield today?
 
-23.92% APY on reflect-tranches (Solana), based on live DefiLlama data.
+17.87% APY on reflect-tranches (Solana), based on live DefiLlama data.
 
 ### How many EHYUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $238.1K in total.
+1 live pool clear this page's $100K TVL floor, $238K in total.
 
 ### Are these rates safe?
 

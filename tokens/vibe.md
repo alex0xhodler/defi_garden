@@ -2,30 +2,30 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest VIBE yield right now is 499.26% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VIBE yield right now is 475.46% on uniswap-v4 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=f820ac25-379b-5b24-b6b2-61cd0f48f3e9#src=seo_token) | Ethereum | 499.26% | $3.66M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=6c34cb29-1f05-5633-bba6-866795c877d0#src=seo_token) | Ethereum | 246.93% | $287.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f820ac25-379b-5b24-b6b2-61cd0f48f3e9#src=seo_token) | Ethereum | 475.46% | $4.41M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=6c34cb29-1f05-5633-bba6-866795c877d0#src=seo_token) | Ethereum | 274.12% | $305.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, VIBE's lower-variability candidates are uniswap-v4 (Ethereum), 246.93% APY, $287.9K TVL, https://www.defi.garden/?pool=6c34cb29-1f05-5633-bba6-866795c877d0#src=seo_token; uniswap-v4 (Ethereum), 499.26% APY, $3.66M TVL, https://www.defi.garden/?pool=f820ac25-379b-5b24-b6b2-61cd0f48f3e9#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, VIBE's lower-variability candidates are uniswap-v4 (Ethereum), 274.12% APY, $305.1K TVL, https://www.defi.garden/?pool=6c34cb29-1f05-5633-bba6-866795c877d0#src=seo_token; uniswap-v4 (Ethereum), 475.46% APY, $4.41M TVL, https://www.defi.garden/?pool=f820ac25-379b-5b24-b6b2-61cd0f48f3e9#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=6c34cb29-1f05-5633-bba6-866795c877d0#src=seo_token) | Ethereum | 246.93% | $287.9K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=f820ac25-379b-5b24-b6b2-61cd0f48f3e9#src=seo_token) | Ethereum | 499.26% | $3.66M |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=6c34cb29-1f05-5633-bba6-866795c877d0#src=seo_token) | Ethereum | 274.12% | $305.1K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=f820ac25-379b-5b24-b6b2-61cd0f48f3e9#src=seo_token) | Ethereum | 475.46% | $4.41M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-VIBE shows up in 2 pools here, with rates from 246.93% to 499.26% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+VIBE shows up in 2 pools here, with rates from 274.12% to 475.46% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 114.35% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 115.60% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 499.26% | 127.05% | Base rate |
-| uniswap-v4 | 246.93% | 101.66% | Base rate |
+| uniswap-v4 | 475.46% | 129.04% | Base rate |
+| uniswap-v4 | 274.12% | 102.15% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest VIBE yield today?
 
-499.26% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+475.46% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many VIBE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $3.95M in total.
+3 live pools clear this page's $100K TVL floor, $4.83M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which VIBE pools have the most stable APY history?
 
-Based on APY history only, VIBE's lower-variability candidates are uniswap-v4 (Ethereum), 246.93% APY, $287.9K TVL, https://www.defi.garden/?pool=6c34cb29-1f05-5633-bba6-866795c877d0#src=seo_token; uniswap-v4 (Ethereum), 499.26% APY, $3.66M TVL, https://www.defi.garden/?pool=f820ac25-379b-5b24-b6b2-61cd0f48f3e9#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, VIBE's lower-variability candidates are uniswap-v4 (Ethereum), 274.12% APY, $305.1K TVL, https://www.defi.garden/?pool=6c34cb29-1f05-5633-bba6-866795c877d0#src=seo_token; uniswap-v4 (Ethereum), 475.46% APY, $4.41M TVL, https://www.defi.garden/?pool=f820ac25-379b-5b24-b6b2-61cd0f48f3e9#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

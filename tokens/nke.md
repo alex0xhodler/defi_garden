@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest NKE yield right now is 106.98% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NKE yield right now is 104.20% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=ac090d98-de2e-5c25-ba8a-502c0639161b#src=seo_token) | Solana | 106.98% | $120.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=ac090d98-de2e-5c25-ba8a-502c0639161b#src=seo_token) | Solana | 104.20% | $128.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NKE yield today?
 
-106.98% APY on raydium-amm (Solana), based on live DefiLlama data.
+104.20% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many NKE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $120.5K in total.
+1 live pool clear this page's $100K TVL floor, $128.3K in total.
 
 ### Are these rates safe?
 

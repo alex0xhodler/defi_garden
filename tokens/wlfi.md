@@ -6,17 +6,17 @@ The highest honest WLFI yield right now is 1.66% on uniswap-v3 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=ee3c4dff-2f07-40d0-8d4e-3bdd91fe5dcd#src=seo_token) | Ethereum | 0.36% | $4.86M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=ee3c4dff-2f07-40d0-8d4e-3bdd91fe5dcd#src=seo_token) | Ethereum | 0.36% | $4.89M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=9b8344e7-531f-436e-a025-1967bbef465e#src=seo_token) | Ethereum | 1.66% | $1.33M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WLFI's lower-variability candidates are uniswap-v4 (Ethereum), 0.36% APY, $4.86M TVL, https://www.defi.garden/?pool=ee3c4dff-2f07-40d0-8d4e-3bdd91fe5dcd#src=seo_token; uniswap-v3 (Ethereum), 1.66% APY, $1.33M TVL, https://www.defi.garden/?pool=9b8344e7-531f-436e-a025-1967bbef465e#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WLFI's lower-variability candidates are uniswap-v4 (Ethereum), 0.36% APY, $4.89M TVL, https://www.defi.garden/?pool=ee3c4dff-2f07-40d0-8d4e-3bdd91fe5dcd#src=seo_token; uniswap-v3 (Ethereum), 1.66% APY, $1.33M TVL, https://www.defi.garden/?pool=9b8344e7-531f-436e-a025-1967bbef465e#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=ee3c4dff-2f07-40d0-8d4e-3bdd91fe5dcd#src=seo_token) | Ethereum | 0.36% | $4.86M |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=ee3c4dff-2f07-40d0-8d4e-3bdd91fe5dcd#src=seo_token) | Ethereum | 0.36% | $4.89M |
 | 2 | [uniswap-v3 →](https://www.defi.garden/?pool=9b8344e7-531f-436e-a025-1967bbef465e#src=seo_token) | Ethereum | 1.66% | $1.33M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -33,7 +33,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 0.36% | 3.69% | Base rate |
+| uniswap-v4 | 0.36% | 3.70% | Base rate |
 | uniswap-v3 | 1.66% | 10.79% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many WLFI pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $295.09M in total.
+7 live pools clear this page's $100K TVL floor, $295.15M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WLFI pools have the most stable APY history?
 
-Based on APY history only, WLFI's lower-variability candidates are uniswap-v4 (Ethereum), 0.36% APY, $4.86M TVL, https://www.defi.garden/?pool=ee3c4dff-2f07-40d0-8d4e-3bdd91fe5dcd#src=seo_token; uniswap-v3 (Ethereum), 1.66% APY, $1.33M TVL, https://www.defi.garden/?pool=9b8344e7-531f-436e-a025-1967bbef465e#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WLFI's lower-variability candidates are uniswap-v4 (Ethereum), 0.36% APY, $4.89M TVL, https://www.defi.garden/?pool=ee3c4dff-2f07-40d0-8d4e-3bdd91fe5dcd#src=seo_token; uniswap-v3 (Ethereum), 1.66% APY, $1.33M TVL, https://www.defi.garden/?pool=9b8344e7-531f-436e-a025-1967bbef465e#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

@@ -6,7 +6,7 @@ The highest honest MENTE yield right now is 5.47% on uniswap-v3 (Base), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=288d9e43-fe31-5b26-b136-e6edf6cf6c77#src=seo_token) | Base | 5.47% | $286.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=288d9e43-fe31-5b26-b136-e6edf6cf6c77#src=seo_token) | Base | 5.47% | $291K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MENTE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $286.5K in total.
+1 live pool clear this page's $100K TVL floor, $291K in total.
 
 ### Are these rates safe?
 

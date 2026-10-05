@@ -2,42 +2,42 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest SKY yield right now is 157.34% on uniswap-v4 (Ethereum), among 12 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SKY yield right now is 144.78% on uniswap-v4 (Ethereum), among 12 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sky-lending →](https://www.defi.garden/pools/sky-lending-sky-ethereum) | Ethereum | 6.58% | $785.49M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=15981085-34a8-47f0-b9f7-e888a192b04d#src=seo_token) | Ethereum | 0.01% | $10.63M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=0238a455-cd4d-448e-9529-0d0d0beee660#src=seo_token) | Ethereum | 126.21% | $1.94M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=2d087d1c-84d7-4e1b-9e40-9298094dba6f#src=seo_token) | Ethereum | 275.26% | $1.81M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=b795ef00-5124-4072-8c19-8ac701076677#src=seo_token) | Ethereum | 20.68% | $1.5M |
-| [origami-finance →](https://www.defi.garden/?pool=4b51822a-05dc-4fa8-ae06-963ba010d7e1#src=seo_token) | Ethereum | 6.82% | $617.1K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=354af3af-3b33-4b0d-a17a-f39a1b46e905#src=seo_token) | Ethereum | 47.41% | $503.5K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=570d398e-6351-4a69-a780-145a4967d90c#src=seo_token) | Ethereum | 157.34% | $377.6K |
+| [sky-lending →](https://www.defi.garden/pools/sky-lending-sky-ethereum) | Ethereum | 6.58% | $780.52M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=15981085-34a8-47f0-b9f7-e888a192b04d#src=seo_token) | Ethereum | 40.04% | $9.7M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0238a455-cd4d-448e-9529-0d0d0beee660#src=seo_token) | Ethereum | 123.64% | $1.95M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2d087d1c-84d7-4e1b-9e40-9298094dba6f#src=seo_token) | Ethereum | 273.12% | $1.83M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=b795ef00-5124-4072-8c19-8ac701076677#src=seo_token) | Ethereum | 20.90% | $1.5M |
+| [origami-finance →](https://www.defi.garden/?pool=4b51822a-05dc-4fa8-ae06-963ba010d7e1#src=seo_token) | Ethereum | 6.82% | $613.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=354af3af-3b33-4b0d-a17a-f39a1b46e905#src=seo_token) | Ethereum | 46.81% | $507.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=570d398e-6351-4a69-a780-145a4967d90c#src=seo_token) | Ethereum | 144.78% | $379.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SKY's lower-variability candidates are sky-lending (Ethereum), 6.58% APY, $785.49M TVL, https://www.defi.garden/pools/sky-lending-sky-ethereum; uniswap-v4 (Ethereum), 47.41% APY, $503.5K TVL, https://www.defi.garden/?pool=354af3af-3b33-4b0d-a17a-f39a1b46e905#src=seo_token; uniswap-v3 (Ethereum), 126.21% APY, $1.94M TVL, https://www.defi.garden/?pool=0238a455-cd4d-448e-9529-0d0d0beee660#src=seo_token; uniswap-v3 (Ethereum), 275.26% APY, $1.81M TVL, https://www.defi.garden/?pool=2d087d1c-84d7-4e1b-9e40-9298094dba6f#src=seo_token; origami-finance (Ethereum), 6.82% APY, $617.1K TVL, https://www.defi.garden/?pool=4b51822a-05dc-4fa8-ae06-963ba010d7e1#src=seo_token; uniswap-v4 (Ethereum), 20.68% APY, $1.5M TVL, https://www.defi.garden/?pool=b795ef00-5124-4072-8c19-8ac701076677#src=seo_token; uniswap-v4 (Ethereum), 0.01% APY, $10.63M TVL, https://www.defi.garden/?pool=15981085-34a8-47f0-b9f7-e888a192b04d#src=seo_token; uniswap-v4 (Ethereum), 157.34% APY, $377.6K TVL, https://www.defi.garden/?pool=570d398e-6351-4a69-a780-145a4967d90c#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SKY's lower-variability candidates are sky-lending (Ethereum), 6.58% APY, $780.52M TVL, https://www.defi.garden/pools/sky-lending-sky-ethereum; uniswap-v4 (Ethereum), 46.81% APY, $507.1K TVL, https://www.defi.garden/?pool=354af3af-3b33-4b0d-a17a-f39a1b46e905#src=seo_token; uniswap-v3 (Ethereum), 123.64% APY, $1.95M TVL, https://www.defi.garden/?pool=0238a455-cd4d-448e-9529-0d0d0beee660#src=seo_token; uniswap-v3 (Ethereum), 273.12% APY, $1.83M TVL, https://www.defi.garden/?pool=2d087d1c-84d7-4e1b-9e40-9298094dba6f#src=seo_token; origami-finance (Ethereum), 6.82% APY, $613.2K TVL, https://www.defi.garden/?pool=4b51822a-05dc-4fa8-ae06-963ba010d7e1#src=seo_token; uniswap-v4 (Ethereum), 20.90% APY, $1.5M TVL, https://www.defi.garden/?pool=b795ef00-5124-4072-8c19-8ac701076677#src=seo_token; uniswap-v4 (Ethereum), 40.04% APY, $9.7M TVL, https://www.defi.garden/?pool=15981085-34a8-47f0-b9f7-e888a192b04d#src=seo_token; uniswap-v4 (Ethereum), 144.78% APY, $379.7K TVL, https://www.defi.garden/?pool=570d398e-6351-4a69-a780-145a4967d90c#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [sky-lending →](https://www.defi.garden/pools/sky-lending-sky-ethereum) | Ethereum | 6.58% | $785.49M |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=354af3af-3b33-4b0d-a17a-f39a1b46e905#src=seo_token) | Ethereum | 47.41% | $503.5K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=0238a455-cd4d-448e-9529-0d0d0beee660#src=seo_token) | Ethereum | 126.21% | $1.94M |
-| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=2d087d1c-84d7-4e1b-9e40-9298094dba6f#src=seo_token) | Ethereum | 275.26% | $1.81M |
-| 5 | [origami-finance →](https://www.defi.garden/?pool=4b51822a-05dc-4fa8-ae06-963ba010d7e1#src=seo_token) | Ethereum | 6.82% | $617.1K |
-| 6 | [uniswap-v4 →](https://www.defi.garden/?pool=b795ef00-5124-4072-8c19-8ac701076677#src=seo_token) | Ethereum | 20.68% | $1.5M |
-| 7 | [uniswap-v4 →](https://www.defi.garden/?pool=15981085-34a8-47f0-b9f7-e888a192b04d#src=seo_token) | Ethereum | 0.01% | $10.63M |
-| 8 | [uniswap-v4 →](https://www.defi.garden/?pool=570d398e-6351-4a69-a780-145a4967d90c#src=seo_token) | Ethereum | 157.34% | $377.6K |
+| 1 | [sky-lending →](https://www.defi.garden/pools/sky-lending-sky-ethereum) | Ethereum | 6.58% | $780.52M |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=354af3af-3b33-4b0d-a17a-f39a1b46e905#src=seo_token) | Ethereum | 46.81% | $507.1K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=0238a455-cd4d-448e-9529-0d0d0beee660#src=seo_token) | Ethereum | 123.64% | $1.95M |
+| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=2d087d1c-84d7-4e1b-9e40-9298094dba6f#src=seo_token) | Ethereum | 273.12% | $1.83M |
+| 5 | [origami-finance →](https://www.defi.garden/?pool=4b51822a-05dc-4fa8-ae06-963ba010d7e1#src=seo_token) | Ethereum | 6.82% | $613.2K |
+| 6 | [uniswap-v4 →](https://www.defi.garden/?pool=b795ef00-5124-4072-8c19-8ac701076677#src=seo_token) | Ethereum | 20.90% | $1.5M |
+| 7 | [uniswap-v4 →](https://www.defi.garden/?pool=15981085-34a8-47f0-b9f7-e888a192b04d#src=seo_token) | Ethereum | 40.04% | $9.7M |
+| 8 | [uniswap-v4 →](https://www.defi.garden/?pool=570d398e-6351-4a69-a780-145a4967d90c#src=seo_token) | Ethereum | 144.78% | $379.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SKY shows up in 8 pools here, with rates from 0.01% to 275.26% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SKY shows up in 8 pools here, with rates from 6.58% to 273.12% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 16.36% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 17.29% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 8 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -45,14 +45,14 @@ SKY shows up in 8 pools here, with rates from 0.01% to 275.26% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| sky-lending | 6.58% | 5.44% | 100.00% incentives |
-| uniswap-v4 | 0.01% | 3.44% | Base rate |
-| uniswap-v3 | 126.21% | 39.60% | Base rate |
-| uniswap-v3 | 275.26% | 11.47% | Base rate |
-| uniswap-v4 | 20.68% | 39.79% | Base rate |
+| sky-lending | 6.58% | 5.46% | 100.00% incentives |
+| uniswap-v4 | 40.04% | 3.67% | Base rate |
+| uniswap-v3 | 123.64% | 40.32% | Base rate |
+| uniswap-v3 | 273.12% | 13.06% | Base rate |
+| uniswap-v4 | 20.90% | 39.91% | Base rate |
 | origami-finance | 6.82% | 5.26% | Base rate |
-| uniswap-v4 | 47.41% | 21.24% | Base rate |
-| uniswap-v4 | 157.34% | 114.48% | Base rate |
+| uniswap-v4 | 46.81% | 21.51% | Base rate |
+| uniswap-v4 | 144.78% | 114.80% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -60,11 +60,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SKY yield today?
 
-157.34% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+144.78% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many SKY pools clear the TVL floor?
 
-12 live pools clear this page's $100K TVL floor, $803.91M in total.
+12 live pools clear this page's $100K TVL floor, $798.06M in total.
 
 ### Are these rates safe?
 
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SKY pools have the most stable APY history?
 
-Based on APY history only, SKY's lower-variability candidates are sky-lending (Ethereum), 6.58% APY, $785.49M TVL, https://www.defi.garden/pools/sky-lending-sky-ethereum; uniswap-v4 (Ethereum), 47.41% APY, $503.5K TVL, https://www.defi.garden/?pool=354af3af-3b33-4b0d-a17a-f39a1b46e905#src=seo_token; uniswap-v3 (Ethereum), 126.21% APY, $1.94M TVL, https://www.defi.garden/?pool=0238a455-cd4d-448e-9529-0d0d0beee660#src=seo_token; uniswap-v3 (Ethereum), 275.26% APY, $1.81M TVL, https://www.defi.garden/?pool=2d087d1c-84d7-4e1b-9e40-9298094dba6f#src=seo_token; origami-finance (Ethereum), 6.82% APY, $617.1K TVL, https://www.defi.garden/?pool=4b51822a-05dc-4fa8-ae06-963ba010d7e1#src=seo_token; uniswap-v4 (Ethereum), 20.68% APY, $1.5M TVL, https://www.defi.garden/?pool=b795ef00-5124-4072-8c19-8ac701076677#src=seo_token; uniswap-v4 (Ethereum), 0.01% APY, $10.63M TVL, https://www.defi.garden/?pool=15981085-34a8-47f0-b9f7-e888a192b04d#src=seo_token; uniswap-v4 (Ethereum), 157.34% APY, $377.6K TVL, https://www.defi.garden/?pool=570d398e-6351-4a69-a780-145a4967d90c#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SKY's lower-variability candidates are sky-lending (Ethereum), 6.58% APY, $780.52M TVL, https://www.defi.garden/pools/sky-lending-sky-ethereum; uniswap-v4 (Ethereum), 46.81% APY, $507.1K TVL, https://www.defi.garden/?pool=354af3af-3b33-4b0d-a17a-f39a1b46e905#src=seo_token; uniswap-v3 (Ethereum), 123.64% APY, $1.95M TVL, https://www.defi.garden/?pool=0238a455-cd4d-448e-9529-0d0d0beee660#src=seo_token; uniswap-v3 (Ethereum), 273.12% APY, $1.83M TVL, https://www.defi.garden/?pool=2d087d1c-84d7-4e1b-9e40-9298094dba6f#src=seo_token; origami-finance (Ethereum), 6.82% APY, $613.2K TVL, https://www.defi.garden/?pool=4b51822a-05dc-4fa8-ae06-963ba010d7e1#src=seo_token; uniswap-v4 (Ethereum), 20.90% APY, $1.5M TVL, https://www.defi.garden/?pool=b795ef00-5124-4072-8c19-8ac701076677#src=seo_token; uniswap-v4 (Ethereum), 40.04% APY, $9.7M TVL, https://www.defi.garden/?pool=15981085-34a8-47f0-b9f7-e888a192b04d#src=seo_token; uniswap-v4 (Ethereum), 144.78% APY, $379.7K TVL, https://www.defi.garden/?pool=570d398e-6351-4a69-a780-145a4967d90c#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

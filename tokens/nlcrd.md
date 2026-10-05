@@ -6,7 +6,7 @@ The highest honest NLCRD yield right now is 18.97% on plume-vaults (Plume Mainne
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [plume-vaults →](https://www.defi.garden/?pool=6249eadc-249b-4227-92a2-d8676a1df08c#src=seo_token) | Plume Mainnet | 18.97% | $2.06M |
+| [plume-vaults →](https://www.defi.garden/?pool=6249eadc-249b-4227-92a2-d8676a1df08c#src=seo_token) | Plume Mainnet | 18.97% | $1.34M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NLCRD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.06M in total.
+1 live pool clear this page's $100K TVL floor, $1.34M in total.
 
 ### Are these rates safe?
 

@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest MAKA yield right now is 0.11% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MAKA yield right now is 0.43% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=4b1a3bc2-cab0-5463-a663-83a08e28c517#src=seo_token) | Ethereum | 0.11% | $273K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=4b1a3bc2-cab0-5463-a663-83a08e28c517#src=seo_token) | Ethereum | 0.43% | $274.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MAKA yield today?
 
-0.11% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+0.43% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many MAKA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $273K in total.
+1 live pool clear this page's $100K TVL floor, $274.6K in total.
 
 ### Are these rates safe?
 

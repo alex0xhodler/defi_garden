@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest JRMHYPER yield right now is 8.47% on strata-markets (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JRMHYPER yield right now is 13.76% on strata-markets (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=908664de-79ee-4f4f-9347-40da76a43552#src=seo_token) | Ethereum | 8.47% | $122.7K |
+| [strata-markets →](https://www.defi.garden/?pool=908664de-79ee-4f4f-9347-40da76a43552#src=seo_token) | Ethereum | 13.76% | $122.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest JRMHYPER yield today?
 
-8.47% APY on strata-markets (Ethereum), based on live DefiLlama data.
+13.76% APY on strata-markets (Ethereum), based on live DefiLlama data.
 
 ### How many JRMHYPER pools clear the TVL floor?
 

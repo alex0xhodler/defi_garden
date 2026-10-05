@@ -6,7 +6,7 @@ The highest honest ANDY yield right now is 2.52% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=0004a5d4-ce6d-43ba-ab8a-64ff555b3853#src=seo_token) | Ethereum | 2.52% | $1.68M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=0004a5d4-ce6d-43ba-ab8a-64ff555b3853#src=seo_token) | Ethereum | 2.52% | $1.7M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ANDY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.68M in total.
+1 live pool clear this page's $100K TVL floor, $1.7M in total.
 
 ### Are these rates safe?
 

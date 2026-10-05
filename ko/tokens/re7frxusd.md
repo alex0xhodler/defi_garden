@@ -2,11 +2,11 @@
 
 *DefiLlama 데이터 생성 시점 검증: October 5, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 RE7FRXUSD의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 10.49%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 RE7FRXUSD의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 11.33%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=1ffa1524-1452-58b6-89e4-4302fb9d9482#src=seo_token) | Ethereum | 10.49% | $1.15M |
+| [morpho-blue →](https://www.defi.garden/?pool=1ffa1524-1452-58b6-89e4-4302fb9d9482#src=seo_token) | Ethereum | 11.33% | $1.15M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,7 +19,7 @@
 
 ### 오늘 RE7FRXUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 10.49%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 11.33%예요.
 
 ### RE7FRXUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest SD yield right now is 4.64% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SD yield right now is 4.26% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=0c5d0cbd-8608-481e-aa5b-4bb1e70d5426#src=seo_token) | Ethereum | 4.64% | $115.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=0c5d0cbd-8608-481e-aa5b-4bb1e70d5426#src=seo_token) | Ethereum | 4.26% | $116.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SD yield today?
 
-4.64% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+4.26% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many SD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $115.3K in total.
+1 live pool clear this page's $100K TVL floor, $116.3K in total.
 
 ### Are these rates safe?
 
