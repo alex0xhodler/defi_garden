@@ -76,21 +76,45 @@ function collectUrls(sitemapPaths, maxUrls) {
 // the head too, the opposite of the human's Q3b decision (Bing/Yandex keep
 // the FULL estate). Scanning the directories the generators actually write
 // to can never drift out of sync with what's really served.
-const ESTATE_DIRS = ['tokens', 'ko/tokens', 'tokens/az', 'ko/tokens/az', 'chains', 'ko/chains'];
+const ESTATE_DIRS = ['tokens', 'ko/tokens', 'tokens/az', 'ko/tokens/az', 'chains', 'ko/chains', 'pools', 'ko/pools'];
+
+/**
+ * Loads the manifest of thin slugs that carry robots noindex (< 3 qualifying pools).
+ * These must never be submitted to IndexNow (waste of crawler budget).
+ */
+function loadNoindexSlugs(rootDir) {
+  try {
+    const p = path.join(rootDir, 'tokens', '.noindex-slugs.json');
+    if (fs.existsSync(p)) {
+      return new Set(JSON.parse(fs.readFileSync(p, 'utf8')));
+    }
+  } catch (_e) {}
+  return new Set();
+}
 
 /**
  * Scans the served estate on disk (ESTATE_DIRS, relative to `rootDir`) and
- * maps every `*.html` file to its live URL: `index.html` -> the directory URL
- * itself (no `/index.html` suffix — the hub page), everything else -> the URL
- * with the `.html` suffix dropped (`/tokens/<slug>`, matching exactly how the
- * sitemap generators already emit these URLs — see renderTokenSitemap /
- * renderChainSitemap). A directory that doesn't exist is skipped, not an
- * error (e.g. a scratch --out that only wrote `tokens/`, not `chains/`).
- * Deduped, in scan order. Exported so it's testable without a real submission.
+ * maps every `*.html` file to its live URL, filtering out noindexed thin pages
+ * and optionally restricting to files changed in the latest commit if requested.
  */
-function collectEstateUrls(rootDir) {
+function collectEstateUrls(rootDir, opts = {}) {
   const seen = new Set();
   const urls = [];
+  // When skipNoindex is explicitly enabled (e.g. daily crawl optimization), exclude thin slugs
+  const noindexSlugs = (opts && opts.skipNoindex) ? loadNoindexSlugs(rootDir) : new Set();
+
+  // If changedOnly is requested, collect the set of modified html files via git diff
+  let changedFiles = null;
+  if (opts.changedOnly) {
+    try {
+      const cp = require('child_process');
+      const diffOutput = cp.execSync('git diff --name-only HEAD~1', { cwd: rootDir }).toString();
+      changedFiles = new Set(diffOutput.trim().split('\n').filter(Boolean));
+    } catch (_e) {
+      changedFiles = null;
+    }
+  }
+
   for (const rel of ESTATE_DIRS) {
     const dir = path.join(rootDir, rel);
     let entries;
@@ -101,7 +125,18 @@ function collectEstateUrls(rootDir) {
     }
     for (const f of entries.sort()) {
       if (!f.endsWith('.html')) continue;
-      const urlPath = (f === 'index.html') ? `/${rel}` : `/${rel}/${f.slice(0, -'.html'.length)}`;
+      const relFilePath = `${rel}/${f}`;
+
+      // If diff filter active, skip unmodified files
+      if (changedFiles && !changedFiles.has(relFilePath)) continue;
+
+      const slug = f.slice(0, -'.html'.length);
+      // Skip thin noindexed tokens (both EN /tokens/<slug> and KO /ko/tokens/<slug>)
+      if ((rel === 'tokens' || rel === 'ko/tokens') && noindexSlugs.has(slug)) {
+        continue;
+      }
+
+      const urlPath = (f === 'index.html') ? `/${rel}` : `/${rel}/${slug}`;
       const url = `${SITE_URL}${urlPath}`;
       if (!seen.has(url)) { seen.add(url); urls.push(url); }
     }
@@ -158,7 +193,7 @@ async function main() {
     urls = collectUrls(args.sitemaps.map((p) => path.resolve(p)));
     sourceLabel = args.sitemaps.join(', ');
   } else {
-    urls = collectEstateUrls(__dirname).slice(0, MAX_URLS_PER_SUBMISSION);
+    urls = collectEstateUrls(__dirname, { skipNoindex: true, changedOnly: false }).slice(0, MAX_URLS_PER_SUBMISSION);
     sourceLabel = `served estate (${ESTATE_DIRS.join(', ')})`;
   }
   console.log(`🔑 key=${keyFileName} · 📄 ${urls.length} URL(s) from ${sourceLabel}`);

@@ -27,11 +27,12 @@ const fs = require('fs');
 const path = require('path');
 
 // Display order of the landing card's pool tabs.
+// Must contain strictly retail-accessible venues (no permissioned/KYC vaults like USDY/BUIDL).
 const LANDING_POOL_IDS = [
-  'ac61ee82-2fe4-4f9b-a9cd-7fb33f598859', // USDY · ondo-yield-assets · Ethereum
   'd8c4eff5-c8a9-46fc-a888-057c4c668e72', // SUSDS · sky-lending · Ethereum
   '43641cf5-a92e-416b-bce9-27113d3c0db6', // USDC · maple · Ethereum
-  '747c1d2a-c668-4682-b9f9-296708a3dd90'  // STETH · lido · Ethereum
+  '747c1d2a-c668-4682-b9f9-296708a3dd90', // STETH · lido · Ethereum
+  '0e7d0722-9054-4907-8593-567b353c0900'  // JITOSOL · jito-liquid-staking · Solana
 ];
 
 function buildLandingPools(snapshot, ids) {

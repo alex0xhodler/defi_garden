@@ -648,8 +648,8 @@ function buildAgentEndpointsSection(meta) {
 function buildConcise(meta, categories, highYield, yieldAnalysis, plannerRateResult, opts = {}) {
   const lines = [];
 
-  // Header with single H1 (SEO optimized)
-  lines.push('# Find the Best Yields for Your Tokens Across All Chains | DeFi Garden');
+  // Header with single H1 (aligned with predictive underwriting & yield quality)
+  lines.push('# DeFi Yields, Predictively Underwritten | DeFi Garden');
   lines.push('');
 
   // Metadata
@@ -657,6 +657,18 @@ function buildConcise(meta, categories, highYield, yieldAnalysis, plannerRateRes
   lines.push(`- Canonical: ${meta.baseUrl}`);
   lines.push(`- Data Sources: sitemap.xml, DefiLlama API`);
   lines.push(`- Total URLs: ${meta.totalUrls}`);
+  lines.push('');
+
+  // Overview / Underwriting Architecture
+  lines.push('## Overview & Yield Underwriting');
+  lines.push(
+    `TL;DR: DeFi Garden is a quantitative yield intelligence engine and goal-based savings planner. ` +
+    `Every pool clears strict trust rails ($100K TVL floor, 1000% APY sanity cap). ` +
+    `We evaluate yield quality across four pillars (stability, fee sustainability, depositor stickiness, liquidity depth) ` +
+    `and maintain an empirical, multi-run 14-day forward forecast track record publicly benchmarked against a naive "no-change" baseline.`
+  );
+  lines.push(`- Public forecast evaluation scorecard: ${meta.baseUrl}/forecast-accuracy`);
+  lines.push(`- Verified scored pools directory: ${meta.baseUrl}/pools`);
   lines.push('');
 
   // Homepage section — describes what the router (home.html) actually does

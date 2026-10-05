@@ -167,3 +167,20 @@ From the Sep 12 → Sep 26 run in `data/forecasts/`: **60%** of pools moved < 0.
 - **Don't** keep a second MCP implementation "as a fallback" that can't load where it's deployed.
 - **Don't** claim a test proves "all tools" when it checks one tool and one token.
 - **Don't** list in registries before the production `tools/list` matches the repo.
+
+---
+
+## Addendum, 2026-10-05 (late): red team of PR #512 (open, not merged)
+
+| Item | Verdict | Evidence | Fix |
+|---|---|---|---|
+| 1. `data/pool-scores.json` for W5 | **Not done: the file is built, but nothing reads it** | Neither `edge/mcp-core.js` nor `edge/agent-log.mjs` references it. The worker still intercepts `/mcp` and `/api/mcp` (`isApiMcpPath`) and serves 4 tools without `get_pool_score`. `api/mcp.js` (5 tools, reads the snapshot) is still a second, shadowed implementation. | Make the worker fetch and memoize `/data/pool-scores.json` and add `get_pool_score` to `mcp-core.js`. **Delete `api/mcp.js`.** Run the production `tools/list` check. |
+| 1b. File size | **3.8 MB, committed daily** | The same status sentence appears 7,497 times and the access sentence 7,454 times, about 60% of the file. `git add data` commits it every run, adding roughly 1.4 GB a year to a repo already at 3,095 pack files. | Keep the shared text once at the top of the file and per pool only `[score, s, su, st, l, p10, p50, p90, restricted]`, or keep it out of git and publish it as a build artifact. |
+| 1c. "In our first 10 test runs" hard-coded | **Out of date from tomorrow** | The run count grows by one each day after Oct 6 (Oct 20 is the first resolved run under the locked rules). | Generate the sentence from `data/forecast-evaluations.json` (run count, how many runs "no change" won, median skill). Same for the pool-page disclaimer in `translations.js`. |
+| 2. Links to static pool pages (N4) | **Done** | Ethereum 8 `/pools/` links, Solana 8, Base 7, Arbitrum 3. Polygon has 0 because none of its pools are in the top-100 set, so the `?pool=` fallback is correct there. | Nothing to do. |
+| 3. IndexNow | **Works, but sends the wrong set** | `collectEstateUrls` submits **every** `.html` in the token, chain and pool folders on every run (about 5,000 URLs), including the **~2,800 noindexed thin token pages** (no `noindex` check in `indexnow-ping.js`). | Skip slugs in `tokens/.noindex-slugs.json` and send only files that actually changed in this run (`git diff --name-only HEAD~1`). |
+| 4. `robots.txt` content signal | **Done** | `Content-Signal: search=yes, ai-input=yes, ai-train=no`, the same in the robots file and the HTTP header. | Nothing to do. |
+| 5. `llms.txt` | **Half done** | The heading changed, but the body still opens *"search-first landing page that routes into both faces… Garden Planner"*. Scores, `/pools/`, `/forecast-accuracy` and `get_pool_score` aren't mentioned. | Rewrite the first 10 lines in `generate-llms.js`: what the score measures (yield quality, not safety), where the pool pages are, and the forecast track-record link. |
+| 6. Landing hero | **Fixed by hand, not protected** | USDY was swapped out by editing `LANDING_POOL_IDS`. The "retail-accessible only" rule exists only as a code comment. | Add a test: `LANDING_POOL_IDS` must not overlap `PERMISSIONED_PROJECT_LIST`. Also confirm Maple's own access terms before calling it "retail-accessible". |
+
+**Positioning issue this PR made more visible.** The `llms.txt` heading and hero now say **"Predictively Underwritten"**, while your own scorecard says the forecast doesn't beat "no change" (median skill −0.08, worse in 8 of 10 runs). That's the same class of claim we removed elsewhere, and it is now the brand line. Options: (a) *"DeFi yields, scored, with a public forecast track record"*; (b) keep the line, but put the skill score in the hero next to it. A journalist reading the Oct 20 report will put the tagline and the scorecard side by side, so decide before then.
