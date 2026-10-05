@@ -3,21 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>DeFi Garden AI Agents & MCP Server | Machine-Native Base Yield Intelligence</title>
-  <meta name="description" content="Official Model Context Protocol (MCP) server for DeFi Garden. Connect autonomous AI agents (Hermes, Claude Desktop, Cursor, AgentKit) to verified Base yield primitives with cryptographic sanity checks and zero rate hallucinations.">
-  <meta name="keywords" content="MCP, Model Context Protocol, DeFi Garden, Base Yield, AI Agents, Autonomous Finance, Morpho Blue, Auto Finance, baseEUR, Moonwell, Aerodrome, Yield Discovery, AEO, Streamable HTTP">
-  <link rel="canonical" href="https://www.defi.garden/agents">
+  <title>DeFi Garden MCP Server | DeFi Yield Data for AI Agents</title>
+  <meta name="description" content="Model Context Protocol (MCP) server for DeFi Garden. Query a daily snapshot of DefiLlama's pool feed across all chains it tracks, with a 1000% APY cap and a $100K TVL floor. Anomalous and sub-floor pools are flagged on direct lookup.">
+  <meta name="keywords" content="MCP, Model Context Protocol, DeFi Garden, DeFi yield, DefiLlama, AI agents, yield discovery, DeFi Score, Streamable HTTP">
+  <link rel="canonical" href="https://www.defi.garden/mcp">
   
   <!-- OpenGraph / Social Cards -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.defi.garden/agents">
-  <meta property="og:title" content="DeFi Garden MCP Server — Machine-Native Base Yield for AI Agents">
-  <meta property="og:description" content="Query, verify, and route into Base yield primitives with strict APY sanity limits and zero rate hallucinations. Supports Claude, Hermes, Cursor, and AgentKit.">
+  <meta property="og:url" content="https://www.defi.garden/mcp">
+  <meta property="og:title" content="DeFi Garden MCP Server — DeFi yield data for AI agents">
+  <meta property="og:description" content="Daily snapshot of DefiLlama's pool feed, across all chains it tracks. Rails: 1000% APY cap and $100K TVL floor. Works with any MCP client over Streamable HTTP.">
   <meta property="og:site_name" content="DeFi Garden">
   <meta property="og:image" content="https://www.defi.garden/og-image.png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="DeFi Garden MCP Server | Yield Discovery for Autonomous AI">
-  <meta name="twitter:description" content="Streamable HTTP MCP Server for Base yield primitives. APY sanity ceilings, TVL floors, and zero rate hallucinations for AI agents.">
+  <meta name="twitter:title" content="DeFi Garden MCP Server | DeFi yield data for AI agents">
+  <meta name="twitter:description" content="Streamable HTTP MCP server over a daily DefiLlama pool snapshot. 1000% APY cap, $100K TVL floor, anomalous pools flagged on direct lookup.">
   <meta name="twitter:image" content="https://www.defi.garden/og-image.png">
 
   <!-- Brand Design System Tokens -->
@@ -31,13 +31,13 @@
     "@graph": [
       {
         "@type": "SoftwareApplication",
-        "@id": "https://www.defi.garden/agents#application",
+        "@id": "https://www.defi.garden/mcp#application",
         "name": "DeFi Garden MCP Server",
         "applicationCategory": "FinanceApplication",
         "operatingSystem": "All",
-        "url": "https://www.defi.garden/agents",
-        "downloadUrl": "https://www.defi.garden/api/mcp",
-        "description": "Model Context Protocol (MCP) server providing deterministic, zero-hallucination yield intelligence on Base for autonomous AI agents.",
+        "url": "https://www.defi.garden/mcp",
+        "downloadUrl": "https://www.defi.garden/mcp",
+        "description": "Model Context Protocol (MCP) server exposing a daily snapshot of DefiLlama's pool feed (all chains DefiLlama tracks) behind a 1000% APY cap and a $100K TVL floor.",
         "offers": {
           "@type": "Offer",
           "price": "0",
@@ -51,31 +51,31 @@
       },
       {
         "@type": "WebAPI",
-        "@id": "https://www.defi.garden/agents#api",
+        "@id": "https://www.defi.garden/mcp#api",
         "name": "DeFi Garden Streamable MCP API",
-        "description": "Streamable HTTP and SSE Model Context Protocol API for Base yield queries, lending rate discovery, and risk verification.",
-        "documentation": "https://www.defi.garden/agents",
-        "endpointUrl": "https://www.defi.garden/api/mcp",
-        "protocol": "Model Context Protocol (2024-11-05)"
+        "description": "Streamable HTTP Model Context Protocol API for pool search, pool lookup, DeFi Score and experimental forecast lookup, and a forever-number calculator.",
+        "documentation": "https://www.defi.garden/mcp",
+        "endpointUrl": "https://www.defi.garden/mcp",
+        "protocol": "Model Context Protocol (2025-06-18)"
       },
       {
         "@type": "FAQPage",
-        "@id": "https://www.defi.garden/agents#faq",
+        "@id": "https://www.defi.garden/mcp#faq",
         "mainEntity": [
           {
             "@type": "Question",
             "name": "What is the DeFi Garden MCP Server?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The DeFi Garden MCP Server is an open-source, machine-native endpoint implementing Anthropic's Model Context Protocol (MCP). It allows autonomous AI agents and developer IDEs (Claude Desktop, Hermes Agent, Cursor, Coinbase AgentKit) to query, verify, and route capital into live Base yield primitives with strict APY sanity bounds and zero rate hallucinations."
+              "text": "The DeFi Garden MCP Server is a Streamable HTTP endpoint implementing the Model Context Protocol (MCP). It lets AI agents and developer IDEs (Claude Desktop, Hermes Agent, Cursor) query a daily snapshot of DefiLlama's pool feed, covering all chains DefiLlama tracks, with a 1000% APY cap and a $100K TVL floor."
             }
           },
           {
             "@type": "Question",
-            "name": "How does DeFi Garden prevent AI agent yield hallucinations?",
+            "name": "Which trust rails does the DeFi Garden MCP Server apply?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Every yield pool served through the MCP layer passes through deterministic trust rails: a 1000% APY sanity ceiling, a minimum TVL floor ($100,000+), and transparent anomaly pool demotions."
+              "text": "Pool searches exclude any pool with a total APY above 1000% and any pool with TVL under $100,000. A direct lookup by pool id flags anomalous and below-floor pools explicitly instead of hiding them. Rails limit what is shown; they do not audit smart contracts."
             }
           },
           {
@@ -83,14 +83,14 @@
             "name": "How do I connect Claude Desktop or Cursor to DeFi Garden MCP?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Add the endpoint 'https://www.defi.garden/api/mcp' as an HTTP transport server in your Claude Desktop or Cursor .mcp.json configuration file."
+              "text": "Add the endpoint 'https://www.defi.garden/mcp' as an HTTP transport server in your Claude Desktop or Cursor .mcp.json configuration file."
             }
           }
         ]
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://www.defi.garden/agents#breadcrumbs",
+        "@id": "https://www.defi.garden/mcp#breadcrumbs",
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -101,8 +101,8 @@
           {
             "@type": "ListItem",
             "position": 2,
-            "name": "AI Agents & MCP Server",
-            "item": "https://www.defi.garden/agents"
+            "name": "MCP Server Documentation",
+            "item": "https://www.defi.garden/mcp"
           }
         ]
       }
@@ -412,7 +412,7 @@
       <nav class="nav-links-wrap">
         <a href="/" class="nav-link-item">Savings Planner</a>
         <a href="/?token=USDC" class="nav-link-item">Yield Analytics</a>
-        <a href="/agents" class="nav-link-item active">AI Agents & MCP</a>
+        <a href="/mcp" class="nav-link-item active">MCP & Agents</a>
         <a href="/llms.txt" class="nav-link-item">llms.txt</a>
         <button class="theme-toggle-btn" onclick="toggleTheme()" id="theme-btn">🌓 Theme</button>
       </nav>
@@ -422,11 +422,11 @@
     <div style="text-align: center;">
       <div class="hero-badge">
         <span class="status-pulse"></span>
-        <span>Streamable HTTP MCP · Base Mainnet · Zero Rate Hallucinations</span>
+        <span>Streamable HTTP MCP · DefiLlama pool snapshot · 1000% APY cap · $100K TVL floor</span>
       </div>
       <h1 class="mcp-hero-title">Model Context Protocol (MCP) Server</h1>
       <p class="mcp-hero-desc">
-        Deterministic, machine-native Base yield intelligence for autonomous AI agents (Hermes, Claude Desktop, Cursor, AgentKit) with cryptographic sanity checks and zero rate hallucinations.
+        Pool data for AI agents (Hermes, Claude Desktop, Cursor and any MCP client). Data comes from DefiLlama's pool feed, snapshotted daily, and covers all chains DefiLlama tracks.
       </p>
     </div>
 
@@ -462,7 +462,7 @@
       <div class="brand-card">
         <h2>🛡️ Trust Rails & Invariants</h2>
         <p style="font-size:0.85rem; color:var(--color-text-secondary); margin-top:0;">
-          Deterministic filter gates enforced across every tool response so AI agents never route into decaying memecoin farms or illiquid pools.
+          Filter gates applied to pool searches and calculations, so agents are not handed absurd rates or thin pools.
         </p>
         <div class="trust-rails-container">
           <div class="trust-rail-item">
@@ -474,8 +474,8 @@
             <div class="trust-rail-text">&ge; $100K USD minimum TVL for surfaced pools.</div>
           </div>
           <div class="trust-rail-item">
-            <div class="trust-rail-title">Live Data Attestation</div>
-            <div class="trust-rail-text">Every number derives from live pool feeds. Zero fabricated rates.</div>
+            <div class="trust-rail-title">Data Source</div>
+            <div class="trust-rail-text">DefiLlama's pool feed, snapshotted daily. Every tool result carries an <code>as_of</code> timestamp.</div>
           </div>
           <div class="trust-rail-item">
             <div class="trust-rail-title">Transparent Tagging</div>
@@ -489,7 +489,7 @@
     <div class="brand-card" style="margin-bottom: 36px;">
       <h2>🛠️ Registered MCP Tools</h2>
       <p style="color:var(--color-text-secondary); font-size:0.85rem; margin-top:0; margin-bottom:16px;">
-        Autonomous agents invoke these tools natively during multi-step reasoning cycles.
+        The five tools this server exposes. Each result includes <code>as_of</code>, the time of the data snapshot.
       </p>
 
       <div class="tool-row">
@@ -498,7 +498,7 @@
           <button class="btn-exec" onclick="testTool('find_pools')">Run Query</button>
         </div>
         <div class="tool-description">
-          Search DeFi Garden railed pool list by token symbol, chain, project, and minimum TVL floor. Excludes anomalous rates (&gt;1000% APY) and pools below $100K TVL.
+          Search DeFi Garden's railed pool list by token symbol, chain, project, and minimum TVL floor. Excludes anomalous rates (&gt;1000% APY) and pools below $100K TVL. Data is a daily snapshot of DefiLlama's pool feed.
         </div>
       </div>
 
@@ -508,7 +508,7 @@
           <button class="btn-exec" onclick="testTool('get_pool')">Run Query</button>
         </div>
         <div class="tool-description">
-          Look up a single DeFi liquidity venue by its DefiLlama pool UUID, returning live APY, base/reward decomposition, TVL, and anomaly status.
+          Look up a single pool by its DefiLlama pool UUID, returning APY (base/reward breakdown), TVL, and anomaly / below-floor flags. Data is a daily snapshot of DefiLlama's pool feed.
         </div>
       </div>
 
@@ -518,7 +518,7 @@
           <button class="btn-exec" onclick="testTool('get_pool_score')">Run Query</button>
         </div>
         <div class="tool-description">
-          Retrieve quantitative yield quality score (DeFi Score 0-100), 4-pillar breakdown, 14-day forward yield forecast bands, and retail access restrictions.
+          Retrieve the DeFi Score (0-100) with its 4-pillar breakdown (stability, fee sustainability, depositor stickiness, exit liquidity), the experimental 14-day forward yield forecast bands (p10/p50/p90), and retail access restrictions. Look up by pool_id, or by exact asset symbol (highest-TVL railed match, with candidates listed). The forecast is experimental.
         </div>
       </div>
 
@@ -528,7 +528,7 @@
           <button class="btn-exec" onclick="testTool('forever_number')">Run Query</button>
         </div>
         <div class="tool-description">
-          Computes the lump-sum capital whose yield alone would cover a recurring monthly bill forever, derived from a TVL-weighted blended rate of railed pools.
+          Computes the lump-sum capital whose yield alone covers a recurring monthly bill forever, using a TVL-weighted blended rate of railed pools (or a caller-supplied APY between 0 and 1000 percent).
         </div>
       </div>
 
@@ -538,7 +538,7 @@
           <button class="btn-exec" onclick="testTool('explain_rails')">Run Query</button>
         </div>
         <div class="tool-description">
-          Returns DeFi Garden's full API contract document: active trust-rail values (APY sanity limit, TVL floor), upstream data source, and endpoint list.
+          Returns DeFi Garden's active filtering rules (1000% APY sanity cap, $100K TVL floor, anomaly flagging) and the data source, for autonomous agent safety.
         </div>
       </div>
 
@@ -546,7 +546,7 @@
       <div style="margin-top:20px;">
         <div style="font-size:0.85rem; font-weight:600; color:var(--color-text-secondary); margin-bottom:8px;">Live JSON-RPC Tool Execution Output:</div>
         <div class="code-box" style="max-height: 240px;">
-          <pre id="exec-result-box" style="margin:0;"><code>// Click "Run Query" on any tool above to test live execution against /api/mcp...</code></pre>
+          <pre id="exec-result-box" style="margin:0;"><code>// Click "Run Query" on any tool above to test live execution against /mcp...</code></pre>
         </div>
       </div>
     </div>
@@ -587,7 +587,7 @@
       claude: `{\n  "mcpServers": {\n    "defi-garden": {\n      "type": "http",\n      "url": "https://www.defi.garden/mcp"\n    }\n  }\n}`,
       hermes: `# Add to ~/.hermes/config.yaml under mcp_servers:\nmcp_servers:\n  defi-garden:\n    url: "https://www.defi.garden/mcp"`,
       cursor: `{\n  "mcpServers": {\n    "defi-garden": {\n      "url": "https://www.defi.garden/mcp"\n    }\n  }\n}`,
-      curl: `curl -X POST https://www.defi.garden/mcp \\\n  -H "Content-Type: application/json" \\\n  -d '{\n    "jsonrpc": "2.0",\n    "id": 1,\n    "method": "tools/call",\n    "params": {\n      "name": "find_pools",\n      "arguments": { "token": "USDC", "chain": "Base" }\n    }\n  }'`
+      curl: `curl -X POST https://www.defi.garden/mcp \\\n  -H "Content-Type: application/json" \\\n  -H "Accept: application/json, text/event-stream" \\\n  -d '{\n    "jsonrpc": "2.0",\n    "id": 1,\n    "method": "tools/call",\n    "params": {\n      "name": "find_pools",\n      "arguments": { "token": "USDC", "chain": "Base" }\n    }\n  }'`
     };
 
     let activeTab = 'claude';
@@ -632,7 +632,10 @@
       try {
         const res = await fetch('/mcp', {
           method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
+          headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json, text/event-stream'
+          },
           body: JSON.stringify({
             jsonrpc: "2.0",
             id: Date.now(),
@@ -643,8 +646,16 @@
             }
           })
         });
-        const data = await res.json();
-        outputEl.textContent = JSON.stringify(data, null, 2);
+        const text = await res.text();
+        if (!res.ok) {
+          outputEl.textContent = `HTTP ${res.status}\n${text}`;
+          return;
+        }
+        try {
+          outputEl.textContent = JSON.stringify(JSON.parse(text), null, 2);
+        } catch (_parseErr) {
+          outputEl.textContent = `HTTP ${res.status} (response was not JSON)\n${text}`;
+        }
       } catch (err) {
         outputEl.textContent = `Error executing tool: ${err.message}`;
       }

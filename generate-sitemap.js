@@ -660,7 +660,6 @@ async function generateSitemapSuite(poolsOverride) {
     sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}plan.html`, LASTMOD_PLACEHOLDER, '0.9', 'weekly'));
     sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}guide/defi-yield-rates-explained`, LASTMOD_PLACEHOLDER, '0.8', 'monthly'));
     // forecast-accuracy temporarily omitted while pipeline is rebuilt (P0-1)
-    sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}agents`, LASTMOD_PLACEHOLDER, '0.9', 'daily'));
     sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}mcp`, LASTMOD_PLACEHOLDER, '0.9', 'daily'));
 
     // Zero-Distance Intent Portals (/for/<slug>) — First-Class Intent Landing Portals (Priority 0.9, Daily)
