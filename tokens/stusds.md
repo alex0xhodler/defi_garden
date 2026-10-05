@@ -1,6 +1,6 @@
 # STUSDS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
 The highest honest STUSDS yield right now is 5.07% on sky-lending (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -32,7 +32,7 @@ STUSDS shows up in 2 pools here, with rates from 4.99% to 5.07% APY across 1 cha
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | sky-lending | 5.07% | 5.14% | Base rate |
-| curve-dex | 4.99% | 4.60% | 52.35% incentives |
+| curve-dex | 4.99% | 4.60% | 52.34% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -67,4 +67,4 @@ Based on APY history only, STUSDS's lower-variability candidates are sky-lending
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 4, 2026
+## Last updated October 5, 2026

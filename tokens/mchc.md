@@ -1,12 +1,12 @@
 # MCHC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest MCHC yield right now is 0.25% on quickswap-dex (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MCHC yield right now is 0.09% on quickswap-dex (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [quickswap-dex →](https://www.defi.garden/?pool=040de32c-fa23-4fac-afe5-7e28f972254f#src=seo_token) | Polygon | 0.25% | $108.9K |
+| [quickswap-dex →](https://www.defi.garden/?pool=040de32c-fa23-4fac-afe5-7e28f972254f#src=seo_token) | Polygon | 0.09% | $108.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MCHC yield today?
 
-0.25% APY on quickswap-dex (Polygon), based on live DefiLlama data.
+0.09% APY on quickswap-dex (Polygon), based on live DefiLlama data.
 
 ### How many MCHC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $108.9K in total.
+1 live pool clear this page's $100K TVL floor, $108.7K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank MCHC pools. This view covers 
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated October 4, 2026
+## Last updated October 5, 2026

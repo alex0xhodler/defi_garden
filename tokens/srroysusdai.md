@@ -1,6 +1,6 @@
 # SRROYSUSDAI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
 The highest honest SRROYSUSDAI yield right now is 3.94% on royco-v2 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank SRROYSUSDAI pools. This view 
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated October 4, 2026
+## Last updated October 5, 2026

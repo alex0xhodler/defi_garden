@@ -1,6 +1,6 @@
 # THBILL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
 The highest honest THBILL yield right now is 2.25% on theo-network-thbill (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -27,15 +27,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 THBILL shows up in 3 pools here, with rates from 2.25% to 2.25% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 2.44% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 2.43% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| theo-network-thbill | 2.25% | 2.44% | Base rate |
-| theo-network-thbill | 2.25% | 2.44% | Base rate |
-| theo-network-thbill | 2.25% | 2.44% | Base rate |
+| theo-network-thbill | 2.25% | 2.43% | Base rate |
+| theo-network-thbill | 2.25% | 2.43% | Base rate |
+| theo-network-thbill | 2.25% | 2.43% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -47,7 +47,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many THBILL pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $106.47M in total.
+6 live pools clear this page's $100K TVL floor, $106.49M in total.
 
 ### Are these rates safe?
 
@@ -72,4 +72,4 @@ Based on APY history only, THBILL's lower-variability candidates are theo-networ
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated October 4, 2026
+## Last updated October 5, 2026

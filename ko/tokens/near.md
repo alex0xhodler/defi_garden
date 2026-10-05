@@ -1,38 +1,38 @@
 # NEAR 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 4, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 5, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 NEAR의 가장 높은 정직한 수익률은 BSC의 uniswap-v3에서 159.80%이며, $100K TVL 기준을 넘는 7개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 NEAR의 가장 높은 정직한 수익률은 Solana의 orca-dex에서 222.69%이며, $100K TVL 기준을 넘는 7개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=ff85a528-d8f4-4955-b678-8a870579932d#src=seo_token) | Solana | 10.72% | $2.7M |
-| [orca-dex →](https://www.defi.garden/?pool=c0c916e6-b9a0-59b6-9672-332a2498bb94#src=seo_token) | Solana | 191.13% | $1.13M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=39ef0cc9-67ff-4a00-b4ab-633225030e24#src=seo_token) | Ethereum | 58.97% | $856.8K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=50e5df26-3e32-4de1-9a99-f966e10865f6#src=seo_token) | Ethereum | 59.40% | $328.2K |
-| [raydium-amm →](https://www.defi.garden/?pool=c2eb5e20-8908-5bc5-b107-274a1690edb0#src=seo_token) | Solana | 69.42% | $281.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=41a16a1e-5e87-4fbf-8307-d22a0dad9473#src=seo_token) | BSC | 159.80% | $228.3K |
-| [raydium-amm →](https://www.defi.garden/?pool=a92b3566-904b-56de-b5c2-f010ca4f6be5#src=seo_token) | Solana | 633.67% | $109K |
+| [raydium-amm →](https://www.defi.garden/?pool=ff85a528-d8f4-4955-b678-8a870579932d#src=seo_token) | Solana | 12.66% | $2.71M |
+| [orca-dex →](https://www.defi.garden/?pool=c0c916e6-b9a0-59b6-9672-332a2498bb94#src=seo_token) | Solana | 222.69% | $1.14M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=39ef0cc9-67ff-4a00-b4ab-633225030e24#src=seo_token) | Ethereum | 70.61% | $862.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=50e5df26-3e32-4de1-9a99-f966e10865f6#src=seo_token) | Ethereum | 69.79% | $331K |
+| [raydium-amm →](https://www.defi.garden/?pool=c2eb5e20-8908-5bc5-b107-274a1690edb0#src=seo_token) | Solana | 71.63% | $271.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=41a16a1e-5e87-4fbf-8307-d22a0dad9473#src=seo_token) | BSC | 156.86% | $232.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=a92b3566-904b-56de-b5c2-f010ca4f6be5#src=seo_token) | Solana | 505.64% | $139.6K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 NEAR의 변동성 낮은 후보는 Solana의 raydium-amm, APY 10.72%, TVL $2.7M, https://www.defi.garden/?pool=ff85a528-d8f4-4955-b678-8a870579932d#src=seo_token; Ethereum의 uniswap-v3, APY 58.97%, TVL $856.8K, https://www.defi.garden/?pool=39ef0cc9-67ff-4a00-b4ab-633225030e24#src=seo_token; BSC의 uniswap-v3, APY 159.80%, TVL $228.3K, https://www.defi.garden/?pool=41a16a1e-5e87-4fbf-8307-d22a0dad9473#src=seo_token; Ethereum의 uniswap-v3, APY 59.40%, TVL $328.2K, https://www.defi.garden/?pool=50e5df26-3e32-4de1-9a99-f966e10865f6#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 NEAR의 변동성 낮은 후보는 Solana의 raydium-amm, APY 12.66%, TVL $2.71M, https://www.defi.garden/?pool=ff85a528-d8f4-4955-b678-8a870579932d#src=seo_token; Ethereum의 uniswap-v3, APY 70.61%, TVL $862.5K, https://www.defi.garden/?pool=39ef0cc9-67ff-4a00-b4ab-633225030e24#src=seo_token; BSC의 uniswap-v3, APY 156.86%, TVL $232.7K, https://www.defi.garden/?pool=41a16a1e-5e87-4fbf-8307-d22a0dad9473#src=seo_token; Ethereum의 uniswap-v3, APY 69.79%, TVL $331K, https://www.defi.garden/?pool=50e5df26-3e32-4de1-9a99-f966e10865f6#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=ff85a528-d8f4-4955-b678-8a870579932d#src=seo_token) | Solana | 10.72% | $2.7M |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=39ef0cc9-67ff-4a00-b4ab-633225030e24#src=seo_token) | Ethereum | 58.97% | $856.8K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=41a16a1e-5e87-4fbf-8307-d22a0dad9473#src=seo_token) | BSC | 159.80% | $228.3K |
-| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=50e5df26-3e32-4de1-9a99-f966e10865f6#src=seo_token) | Ethereum | 59.40% | $328.2K |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=ff85a528-d8f4-4955-b678-8a870579932d#src=seo_token) | Solana | 12.66% | $2.71M |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=39ef0cc9-67ff-4a00-b4ab-633225030e24#src=seo_token) | Ethereum | 70.61% | $862.5K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=41a16a1e-5e87-4fbf-8307-d22a0dad9473#src=seo_token) | BSC | 156.86% | $232.7K |
+| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=50e5df26-3e32-4de1-9a99-f966e10865f6#src=seo_token) | Ethereum | 69.79% | $331K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-NEAR 풀은 여기 7개가 있고, 3개 체인에서 APY가 10.72%부터 633.67%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+NEAR 풀은 여기 7개가 있고, 3개 체인에서 APY가 12.66%부터 505.64%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-7개 풀 중 6개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 225.06%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+7개 풀 중 6개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 225.41%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 현재 7개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
@@ -40,13 +40,13 @@ NEAR 풀은 여기 7개가 있고, 3개 체인에서 APY가 10.72%부터 633.67%
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| raydium-amm | 10.72% | 49.23% | 기본 금리 |
-| orca-dex | 191.13% | 399.40% | 기본 금리 |
-| uniswap-v3 | 58.97% | 96.46% | 기본 금리 |
-| uniswap-v3 | 59.40% | 199.44% | 기본 금리 |
-| raydium-amm | 69.42% | 343.38% | 기본 금리 |
-| uniswap-v3 | 159.80% | 250.68% | 기본 금리 |
-| raydium-amm | 633.67% | — | 기본 금리 |
+| raydium-amm | 12.66% | 49.14% | 기본 금리 |
+| orca-dex | 222.69% | 387.51% | 기본 금리 |
+| uniswap-v3 | 70.61% | 96.78% | 기본 금리 |
+| uniswap-v3 | 69.79% | 199.47% | 기본 금리 |
+| raydium-amm | 71.63% | 339.41% | 기본 금리 |
+| uniswap-v3 | 156.86% | 251.35% | 기본 금리 |
+| raydium-amm | 505.64% | — | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -54,11 +54,11 @@ NEAR 풀은 여기 7개가 있고, 3개 체인에서 APY가 10.72%부터 633.67%
 
 ### 오늘 NEAR의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, BSC의 uniswap-v3에서 APY 159.80%예요.
+DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 222.69%예요.
 
 ### NEAR 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $5.63M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $5.68M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -66,7 +66,7 @@ DefiLlama 실시간 데이터 기준, BSC의 uniswap-v3에서 APY 159.80%예요.
 
 ### NEAR 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 NEAR의 변동성 낮은 후보는 Solana의 raydium-amm, APY 10.72%, TVL $2.7M, https://www.defi.garden/?pool=ff85a528-d8f4-4955-b678-8a870579932d#src=seo_token; Ethereum의 uniswap-v3, APY 58.97%, TVL $856.8K, https://www.defi.garden/?pool=39ef0cc9-67ff-4a00-b4ab-633225030e24#src=seo_token; BSC의 uniswap-v3, APY 159.80%, TVL $228.3K, https://www.defi.garden/?pool=41a16a1e-5e87-4fbf-8307-d22a0dad9473#src=seo_token; Ethereum의 uniswap-v3, APY 59.40%, TVL $328.2K, https://www.defi.garden/?pool=50e5df26-3e32-4de1-9a99-f966e10865f6#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 NEAR의 변동성 낮은 후보는 Solana의 raydium-amm, APY 12.66%, TVL $2.71M, https://www.defi.garden/?pool=ff85a528-d8f4-4955-b678-8a870579932d#src=seo_token; Ethereum의 uniswap-v3, APY 70.61%, TVL $862.5K, https://www.defi.garden/?pool=39ef0cc9-67ff-4a00-b4ab-633225030e24#src=seo_token; BSC의 uniswap-v3, APY 156.86%, TVL $232.7K, https://www.defi.garden/?pool=41a16a1e-5e87-4fbf-8307-d22a0dad9473#src=seo_token; Ethereum의 uniswap-v3, APY 69.79%, TVL $331K, https://www.defi.garden/?pool=50e5df26-3e32-4de1-9a99-f966e10865f6#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -83,4 +83,4 @@ APY 이력만 기준으로 비교한 NEAR의 변동성 낮은 후보는 Solana�
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 
-## 마지막 업데이트: October 4, 2026
+## 마지막 업데이트: October 5, 2026

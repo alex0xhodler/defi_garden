@@ -1,23 +1,23 @@
 # WOUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
 The highest honest WOUSD yield right now is 6.53% on pendle-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle-v2 →](https://www.defi.garden/?pool=3a0bfe11-ab8a-4112-8916-5185dfd69883#src=seo_token) | Ethereum | 6.51% | $125.8K |
-| [pendle-v2 →](https://www.defi.garden/?pool=3fc1c65a-c57e-48e5-b896-91672d16e8da#src=seo_token) | Ethereum | 6.53% | $125.8K |
+| [pendle-v2 →](https://www.defi.garden/?pool=3a0bfe11-ab8a-4112-8916-5185dfd69883#src=seo_token) | Ethereum | 6.51% | $125.9K |
+| [pendle-v2 →](https://www.defi.garden/?pool=3fc1c65a-c57e-48e5-b896-91672d16e8da#src=seo_token) | Ethereum | 6.53% | $125.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WOUSD's lower-variability candidates are pendle-v2 (Ethereum), 6.53% APY, $125.8K TVL, https://www.defi.garden/?pool=3fc1c65a-c57e-48e5-b896-91672d16e8da#src=seo_token; pendle-v2 (Ethereum), 6.51% APY, $125.8K TVL, https://www.defi.garden/?pool=3a0bfe11-ab8a-4112-8916-5185dfd69883#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WOUSD's lower-variability candidates are pendle-v2 (Ethereum), 6.53% APY, $125.9K TVL, https://www.defi.garden/?pool=3fc1c65a-c57e-48e5-b896-91672d16e8da#src=seo_token; pendle-v2 (Ethereum), 6.51% APY, $125.9K TVL, https://www.defi.garden/?pool=3a0bfe11-ab8a-4112-8916-5185dfd69883#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [pendle-v2 →](https://www.defi.garden/?pool=3fc1c65a-c57e-48e5-b896-91672d16e8da#src=seo_token) | Ethereum | 6.53% | $125.8K |
-| 2 | [pendle-v2 →](https://www.defi.garden/?pool=3a0bfe11-ab8a-4112-8916-5185dfd69883#src=seo_token) | Ethereum | 6.51% | $125.8K |
+| 1 | [pendle-v2 →](https://www.defi.garden/?pool=3fc1c65a-c57e-48e5-b896-91672d16e8da#src=seo_token) | Ethereum | 6.53% | $125.9K |
+| 2 | [pendle-v2 →](https://www.defi.garden/?pool=3a0bfe11-ab8a-4112-8916-5185dfd69883#src=seo_token) | Ethereum | 6.51% | $125.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WOUSD pools have the most stable APY history?
 
-Based on APY history only, WOUSD's lower-variability candidates are pendle-v2 (Ethereum), 6.53% APY, $125.8K TVL, https://www.defi.garden/?pool=3fc1c65a-c57e-48e5-b896-91672d16e8da#src=seo_token; pendle-v2 (Ethereum), 6.51% APY, $125.8K TVL, https://www.defi.garden/?pool=3a0bfe11-ab8a-4112-8916-5185dfd69883#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WOUSD's lower-variability candidates are pendle-v2 (Ethereum), 6.53% APY, $125.9K TVL, https://www.defi.garden/?pool=3fc1c65a-c57e-48e5-b896-91672d16e8da#src=seo_token; pendle-v2 (Ethereum), 6.51% APY, $125.9K TVL, https://www.defi.garden/?pool=3a0bfe11-ab8a-4112-8916-5185dfd69883#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -67,4 +67,4 @@ Based on APY history only, WOUSD's lower-variability candidates are pendle-v2 (E
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 4, 2026
+## Last updated October 5, 2026

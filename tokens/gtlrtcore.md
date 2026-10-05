@@ -1,12 +1,12 @@
 # GTLRTCORE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest GTLRTCORE yield right now is 2.00% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GTLRTCORE yield right now is 1.71% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=7feb7f43-e5c0-4fb7-ab1f-ca60a9281c22#src=seo_token) | Ethereum | 2.00% | $2.57M |
+| [morpho-blue →](https://www.defi.garden/?pool=7feb7f43-e5c0-4fb7-ab1f-ca60a9281c22#src=seo_token) | Ethereum | 1.71% | $2.57M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GTLRTCORE yield today?
 
-2.00% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+1.71% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many GTLRTCORE pools clear the TVL floor?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank GTLRTCORE pools. This view co
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 4, 2026
+## Last updated October 5, 2026

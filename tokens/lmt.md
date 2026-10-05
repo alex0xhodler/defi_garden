@@ -1,12 +1,12 @@
 # LMT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest LMT yield right now is 14.67% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LMT yield right now is 10.91% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=e2539baf-10b5-5d60-ae0f-fe60e09c9abe#src=seo_token) | Solana | 14.67% | $117.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=e2539baf-10b5-5d60-ae0f-fe60e09c9abe#src=seo_token) | Solana | 10.91% | $117.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LMT yield today?
 
-14.67% APY on raydium-amm (Solana), based on live DefiLlama data.
+10.91% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many LMT pools clear the TVL floor?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank LMT pools. This view covers A
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 4, 2026
+## Last updated October 5, 2026

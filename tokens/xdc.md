@@ -1,8 +1,8 @@
 # XDC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest XDC yield right now is 0.07% on raydium-amm (Solana), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XDC yield right now is 0.07% on raydium-amm (Solana), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
@@ -10,6 +10,7 @@ The highest honest XDC yield right now is 0.07% on raydium-amm (Solana), among 6
 | [raydium-amm →](https://www.defi.garden/?pool=5684d802-e4d9-5383-b67c-367e10a5057b#src=seo_token) | Solana | 0.05% | $34.18M |
 | [raydium-amm →](https://www.defi.garden/?pool=e8105a88-2a99-52cd-8102-8acc4418894d#src=seo_token) | Solana | 0.02% | $34.09M |
 | [raydium-amm →](https://www.defi.garden/?pool=9c17a393-77ae-5da5-901e-c6eff1105f65#src=seo_token) | Solana | 0.07% | $33.1M |
+| [raydium-amm →](https://www.defi.garden/?pool=052b8797-6b8e-5d62-b661-52c7d5252240#src=seo_token) | Solana | 0.01% | $32.98M |
 | [raydium-amm →](https://www.defi.garden/?pool=edb52a20-ff7f-5a5d-b4a7-649559e00266#src=seo_token) | Solana | 0.03% | $32.13M |
 
 <!-- rate-stability:insufficient -->
@@ -21,13 +22,13 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-XDC shows up in 5 pools here, with rates from 0.02% to 0.07% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+XDC shows up in 6 pools here, with rates from 0.01% to 0.07% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-5 of these 5 pools have a trustworthy 30-day average on file, with a median of 0.03% — a useful check against today's number for whether the rate is steady or just having a good day.
+6 of these 6 pools have a trustworthy 30-day average on file, with a median of 0.02% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 5 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 6 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-5 of 5 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+6 of 6 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
@@ -35,6 +36,7 @@ All 5 pools pay a plain base rate right now — no incentive or reward APY mixed
 | raydium-amm | 0.05% | 0.05% | Base rate |
 | raydium-amm | 0.02% | 0.01% | Base rate |
 | raydium-amm | 0.07% | 0.04% | Base rate |
+| raydium-amm | 0.01% | 0.01% | Base rate |
 | raydium-amm | 0.03% | 0.03% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -47,7 +49,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many XDC pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $199.76M in total.
+7 live pools clear this page's $100K TVL floor, $232.75M in total.
 
 ### Are these rates safe?
 
@@ -70,4 +72,4 @@ There is not enough qualifying APY history to rank XDC pools. This view covers A
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 4, 2026
+## Last updated October 5, 2026

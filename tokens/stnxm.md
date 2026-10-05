@@ -1,12 +1,12 @@
 # STNXM DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
 The highest honest STNXM yield right now is 0.01% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=47e67b92-674b-4b3e-90c6-59184c39b2be#src=seo_token) | Ethereum | 0.01% | $894.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=47e67b92-674b-4b3e-90c6-59184c39b2be#src=seo_token) | Ethereum | 0.01% | $945.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many STNXM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $894.7K in total.
+1 live pool clear this page's $100K TVL floor, $945.3K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank STNXM pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 4, 2026
+## Last updated October 5, 2026

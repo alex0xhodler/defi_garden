@@ -1,43 +1,43 @@
 # MSETH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest MSETH yield right now is 16.67% on velodrome-v2 (OP Mainnet), among 14 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MSETH yield right now is 23.81% on aerodrome-slipstream (Base), among 14 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=4257ff95-e25c-4340-885d-8ad87c41481b#src=seo_token) | Ethereum | 2.72% | $13.04M |
-| [vesper →](https://www.defi.garden/?pool=e2b9cdfc-e605-4e5b-9feb-512729addac7#src=seo_token) | Base | 0.01% | $8.91M |
-| [stake-dao-yield →](https://www.defi.garden/?pool=71fa0340-09b5-4635-887b-1ce010e602ad#src=seo_token) | Ethereum | 3.59% | $7.98M |
-| [convex-finance →](https://www.defi.garden/?pool=c130b363-10fa-46d9-8221-3b23ed8027b4#src=seo_token) | Ethereum | 3.20% | $4.43M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=3fea9aec-48b6-4ad3-bd04-f69188bead1d#src=seo_token) | Base | 12.06% | $3.49M |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=0af161e4-7127-4f87-89c3-fd0b1175532e#src=seo_token) | Base | 7.66% | $2.48M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=08e1a166-5366-4f57-bef8-76acb53699f0#src=seo_token) | Base | 17.64% | $2.01M |
-| [velodrome-v2 →](https://www.defi.garden/?pool=5522e03c-6813-48d6-b624-87e9d0fd327d#src=seo_token) | OP Mainnet | 16.67% | $1.12M |
+| [curve-dex →](https://www.defi.garden/?pool=4257ff95-e25c-4340-885d-8ad87c41481b#src=seo_token) | Ethereum | 2.78% | $13.05M |
+| [vesper →](https://www.defi.garden/?pool=e2b9cdfc-e605-4e5b-9feb-512729addac7#src=seo_token) | Base | 0.01% | $8.92M |
+| [stake-dao-yield →](https://www.defi.garden/?pool=71fa0340-09b5-4635-887b-1ce010e602ad#src=seo_token) | Ethereum | 3.64% | $8.07M |
+| [convex-finance →](https://www.defi.garden/?pool=c130b363-10fa-46d9-8221-3b23ed8027b4#src=seo_token) | Ethereum | 3.28% | $4.44M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=3fea9aec-48b6-4ad3-bd04-f69188bead1d#src=seo_token) | Base | 23.81% | $3.48M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=0af161e4-7127-4f87-89c3-fd0b1175532e#src=seo_token) | Base | 7.57% | $2.49M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=08e1a166-5366-4f57-bef8-76acb53699f0#src=seo_token) | Base | 19.33% | $2.01M |
+| [velodrome-v2 →](https://www.defi.garden/?pool=5522e03c-6813-48d6-b624-87e9d0fd327d#src=seo_token) | OP Mainnet | 16.46% | $1.12M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, MSETH's lower-variability candidates are vesper (Base), 0.01% APY, $8.91M TVL, https://www.defi.garden/?pool=e2b9cdfc-e605-4e5b-9feb-512729addac7#src=seo_token; aerodrome-v1 (Base), 7.66% APY, $2.48M TVL, https://www.defi.garden/?pool=0af161e4-7127-4f87-89c3-fd0b1175532e#src=seo_token; stake-dao-yield (Ethereum), 3.59% APY, $7.98M TVL, https://www.defi.garden/?pool=71fa0340-09b5-4635-887b-1ce010e602ad#src=seo_token; convex-finance (Ethereum), 3.20% APY, $4.43M TVL, https://www.defi.garden/?pool=c130b363-10fa-46d9-8221-3b23ed8027b4#src=seo_token; curve-dex (Ethereum), 2.72% APY, $13.04M TVL, https://www.defi.garden/?pool=4257ff95-e25c-4340-885d-8ad87c41481b#src=seo_token; velodrome-v2 (OP Mainnet), 16.67% APY, $1.12M TVL, https://www.defi.garden/?pool=5522e03c-6813-48d6-b624-87e9d0fd327d#src=seo_token; aerodrome-slipstream (Base), 12.06% APY, $3.49M TVL, https://www.defi.garden/?pool=3fea9aec-48b6-4ad3-bd04-f69188bead1d#src=seo_token; aerodrome-slipstream (Base), 17.64% APY, $2.01M TVL, https://www.defi.garden/?pool=08e1a166-5366-4f57-bef8-76acb53699f0#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MSETH's lower-variability candidates are vesper (Base), 0.01% APY, $8.92M TVL, https://www.defi.garden/?pool=e2b9cdfc-e605-4e5b-9feb-512729addac7#src=seo_token; aerodrome-v1 (Base), 7.57% APY, $2.49M TVL, https://www.defi.garden/?pool=0af161e4-7127-4f87-89c3-fd0b1175532e#src=seo_token; stake-dao-yield (Ethereum), 3.64% APY, $8.07M TVL, https://www.defi.garden/?pool=71fa0340-09b5-4635-887b-1ce010e602ad#src=seo_token; convex-finance (Ethereum), 3.28% APY, $4.44M TVL, https://www.defi.garden/?pool=c130b363-10fa-46d9-8221-3b23ed8027b4#src=seo_token; curve-dex (Ethereum), 2.78% APY, $13.05M TVL, https://www.defi.garden/?pool=4257ff95-e25c-4340-885d-8ad87c41481b#src=seo_token; velodrome-v2 (OP Mainnet), 16.46% APY, $1.12M TVL, https://www.defi.garden/?pool=5522e03c-6813-48d6-b624-87e9d0fd327d#src=seo_token; aerodrome-slipstream (Base), 23.81% APY, $3.48M TVL, https://www.defi.garden/?pool=3fea9aec-48b6-4ad3-bd04-f69188bead1d#src=seo_token; aerodrome-slipstream (Base), 19.33% APY, $2.01M TVL, https://www.defi.garden/?pool=08e1a166-5366-4f57-bef8-76acb53699f0#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [vesper →](https://www.defi.garden/?pool=e2b9cdfc-e605-4e5b-9feb-512729addac7#src=seo_token) | Base | 0.01% | $8.91M |
-| 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=0af161e4-7127-4f87-89c3-fd0b1175532e#src=seo_token) | Base | 7.66% | $2.48M |
-| 3 | [stake-dao-yield →](https://www.defi.garden/?pool=71fa0340-09b5-4635-887b-1ce010e602ad#src=seo_token) | Ethereum | 3.59% | $7.98M |
-| 4 | [convex-finance →](https://www.defi.garden/?pool=c130b363-10fa-46d9-8221-3b23ed8027b4#src=seo_token) | Ethereum | 3.20% | $4.43M |
-| 5 | [curve-dex →](https://www.defi.garden/?pool=4257ff95-e25c-4340-885d-8ad87c41481b#src=seo_token) | Ethereum | 2.72% | $13.04M |
-| 6 | [velodrome-v2 →](https://www.defi.garden/?pool=5522e03c-6813-48d6-b624-87e9d0fd327d#src=seo_token) | OP Mainnet | 16.67% | $1.12M |
-| 7 | [aerodrome-slipstream →](https://www.defi.garden/?pool=3fea9aec-48b6-4ad3-bd04-f69188bead1d#src=seo_token) | Base | 12.06% | $3.49M |
-| 8 | [aerodrome-slipstream →](https://www.defi.garden/?pool=08e1a166-5366-4f57-bef8-76acb53699f0#src=seo_token) | Base | 17.64% | $2.01M |
+| 1 | [vesper →](https://www.defi.garden/?pool=e2b9cdfc-e605-4e5b-9feb-512729addac7#src=seo_token) | Base | 0.01% | $8.92M |
+| 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=0af161e4-7127-4f87-89c3-fd0b1175532e#src=seo_token) | Base | 7.57% | $2.49M |
+| 3 | [stake-dao-yield →](https://www.defi.garden/?pool=71fa0340-09b5-4635-887b-1ce010e602ad#src=seo_token) | Ethereum | 3.64% | $8.07M |
+| 4 | [convex-finance →](https://www.defi.garden/?pool=c130b363-10fa-46d9-8221-3b23ed8027b4#src=seo_token) | Ethereum | 3.28% | $4.44M |
+| 5 | [curve-dex →](https://www.defi.garden/?pool=4257ff95-e25c-4340-885d-8ad87c41481b#src=seo_token) | Ethereum | 2.78% | $13.05M |
+| 6 | [velodrome-v2 →](https://www.defi.garden/?pool=5522e03c-6813-48d6-b624-87e9d0fd327d#src=seo_token) | OP Mainnet | 16.46% | $1.12M |
+| 7 | [aerodrome-slipstream →](https://www.defi.garden/?pool=3fea9aec-48b6-4ad3-bd04-f69188bead1d#src=seo_token) | Base | 23.81% | $3.48M |
+| 8 | [aerodrome-slipstream →](https://www.defi.garden/?pool=08e1a166-5366-4f57-bef8-76acb53699f0#src=seo_token) | Base | 19.33% | $2.01M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-MSETH shows up in 8 pools here, with rates from 0.01% to 17.64% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+MSETH shows up in 8 pools here, with rates from 0.01% to 23.81% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 4.85% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 4.87% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 7 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -45,14 +45,14 @@ MSETH shows up in 8 pools here, with rates from 0.01% to 17.64% APY across 3 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 2.72% | 1.88% | 99.63% incentives |
+| curve-dex | 2.78% | 1.88% | 99.28% incentives |
 | vesper | 0.01% | 0.01% | Base rate |
-| stake-dao-yield | 3.59% | 2.63% | 98.89% incentives |
-| convex-finance | 3.20% | 3.73% | 99.69% incentives |
-| aerodrome-slipstream | 12.06% | 36.58% | 62.14% incentives |
-| aerodrome-v1 | 7.66% | 5.97% | 100.00% incentives |
-| aerodrome-slipstream | 17.64% | 185.01% | 84.80% incentives |
-| velodrome-v2 | 16.67% | 16.79% | 100.00% incentives |
+| stake-dao-yield | 3.64% | 2.62% | 98.90% incentives |
+| convex-finance | 3.28% | 3.72% | 99.39% incentives |
+| aerodrome-slipstream | 23.81% | 36.37% | 59.76% incentives |
+| aerodrome-v1 | 7.57% | 6.02% | 100.00% incentives |
+| aerodrome-slipstream | 19.33% | 182.31% | 76.45% incentives |
+| velodrome-v2 | 16.46% | 16.78% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -60,11 +60,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MSETH yield today?
 
-16.67% APY on velodrome-v2 (OP Mainnet), based on live DefiLlama data.
+23.81% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many MSETH pools clear the TVL floor?
 
-14 live pools clear this page's $100K TVL floor, $85.31M in total.
+14 live pools clear this page's $100K TVL floor, $85.38M in total.
 
 ### Are these rates safe?
 
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which MSETH pools have the most stable APY history?
 
-Based on APY history only, MSETH's lower-variability candidates are vesper (Base), 0.01% APY, $8.91M TVL, https://www.defi.garden/?pool=e2b9cdfc-e605-4e5b-9feb-512729addac7#src=seo_token; aerodrome-v1 (Base), 7.66% APY, $2.48M TVL, https://www.defi.garden/?pool=0af161e4-7127-4f87-89c3-fd0b1175532e#src=seo_token; stake-dao-yield (Ethereum), 3.59% APY, $7.98M TVL, https://www.defi.garden/?pool=71fa0340-09b5-4635-887b-1ce010e602ad#src=seo_token; convex-finance (Ethereum), 3.20% APY, $4.43M TVL, https://www.defi.garden/?pool=c130b363-10fa-46d9-8221-3b23ed8027b4#src=seo_token; curve-dex (Ethereum), 2.72% APY, $13.04M TVL, https://www.defi.garden/?pool=4257ff95-e25c-4340-885d-8ad87c41481b#src=seo_token; velodrome-v2 (OP Mainnet), 16.67% APY, $1.12M TVL, https://www.defi.garden/?pool=5522e03c-6813-48d6-b624-87e9d0fd327d#src=seo_token; aerodrome-slipstream (Base), 12.06% APY, $3.49M TVL, https://www.defi.garden/?pool=3fea9aec-48b6-4ad3-bd04-f69188bead1d#src=seo_token; aerodrome-slipstream (Base), 17.64% APY, $2.01M TVL, https://www.defi.garden/?pool=08e1a166-5366-4f57-bef8-76acb53699f0#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MSETH's lower-variability candidates are vesper (Base), 0.01% APY, $8.92M TVL, https://www.defi.garden/?pool=e2b9cdfc-e605-4e5b-9feb-512729addac7#src=seo_token; aerodrome-v1 (Base), 7.57% APY, $2.49M TVL, https://www.defi.garden/?pool=0af161e4-7127-4f87-89c3-fd0b1175532e#src=seo_token; stake-dao-yield (Ethereum), 3.64% APY, $8.07M TVL, https://www.defi.garden/?pool=71fa0340-09b5-4635-887b-1ce010e602ad#src=seo_token; convex-finance (Ethereum), 3.28% APY, $4.44M TVL, https://www.defi.garden/?pool=c130b363-10fa-46d9-8221-3b23ed8027b4#src=seo_token; curve-dex (Ethereum), 2.78% APY, $13.05M TVL, https://www.defi.garden/?pool=4257ff95-e25c-4340-885d-8ad87c41481b#src=seo_token; velodrome-v2 (OP Mainnet), 16.46% APY, $1.12M TVL, https://www.defi.garden/?pool=5522e03c-6813-48d6-b624-87e9d0fd327d#src=seo_token; aerodrome-slipstream (Base), 23.81% APY, $3.48M TVL, https://www.defi.garden/?pool=3fea9aec-48b6-4ad3-bd04-f69188bead1d#src=seo_token; aerodrome-slipstream (Base), 19.33% APY, $2.01M TVL, https://www.defi.garden/?pool=08e1a166-5366-4f57-bef8-76acb53699f0#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -89,4 +89,4 @@ Based on APY history only, MSETH's lower-variability candidates are vesper (Base
 - [Base](https://www.defi.garden/chains/base)
 - [OP Mainnet](https://www.defi.garden/chains/op-mainnet)
 
-## Last updated October 4, 2026
+## Last updated October 5, 2026

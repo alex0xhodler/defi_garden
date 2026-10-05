@@ -1,12 +1,12 @@
 # FRAME DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest FRAME yield right now is 0.02% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FRAME yield right now is 0.03% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=36722579-9247-4856-9ebc-e8494fd921fe#src=seo_token) | Base | 0.02% | $199.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=36722579-9247-4856-9ebc-e8494fd921fe#src=seo_token) | Base | 0.03% | $200K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FRAME yield today?
 
-0.02% APY on uniswap-v4 (Base), based on live DefiLlama data.
+0.03% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many FRAME pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $199.8K in total.
+1 live pool clear this page's $100K TVL floor, $200K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank FRAME pools. This view covers
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 4, 2026
+## Last updated October 5, 2026

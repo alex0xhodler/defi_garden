@@ -1,31 +1,31 @@
 # MC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest MC yield right now is 4.94% on morpho-blue (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MC yield right now is 5.06% on morpho-blue (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=76fc98cd-0ee8-44c0-bb7d-e553faaf9e48#src=seo_token) | Ethereum | 4.94% | $288.8K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=9e263160-8ff5-42d0-95ef-7dbadec4d81b#src=seo_token) | Ethereum | 0.01% | $105K |
+| [morpho-blue →](https://www.defi.garden/?pool=76fc98cd-0ee8-44c0-bb7d-e553faaf9e48#src=seo_token) | Ethereum | 5.06% | $280K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=9e263160-8ff5-42d0-95ef-7dbadec4d81b#src=seo_token) | Ethereum | 0.01% | $105.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, MC's lower-variability candidates are morpho-blue (Ethereum), 4.94% APY, $288.8K TVL, https://www.defi.garden/?pool=76fc98cd-0ee8-44c0-bb7d-e553faaf9e48#src=seo_token; uniswap-v2 (Ethereum), 0.01% APY, $105K TVL, https://www.defi.garden/?pool=9e263160-8ff5-42d0-95ef-7dbadec4d81b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MC's lower-variability candidates are morpho-blue (Ethereum), 5.06% APY, $280K TVL, https://www.defi.garden/?pool=76fc98cd-0ee8-44c0-bb7d-e553faaf9e48#src=seo_token; uniswap-v2 (Ethereum), 0.01% APY, $105.2K TVL, https://www.defi.garden/?pool=9e263160-8ff5-42d0-95ef-7dbadec4d81b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=76fc98cd-0ee8-44c0-bb7d-e553faaf9e48#src=seo_token) | Ethereum | 4.94% | $288.8K |
-| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=9e263160-8ff5-42d0-95ef-7dbadec4d81b#src=seo_token) | Ethereum | 0.01% | $105K |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=76fc98cd-0ee8-44c0-bb7d-e553faaf9e48#src=seo_token) | Ethereum | 5.06% | $280K |
+| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=9e263160-8ff5-42d0-95ef-7dbadec4d81b#src=seo_token) | Ethereum | 0.01% | $105.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-MC shows up in 2 pools here, with rates from 0.01% to 4.94% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+MC shows up in 2 pools here, with rates from 0.01% to 5.06% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.29% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.28% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,7 +33,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 4.94% | 6.57% | Base rate |
+| morpho-blue | 5.06% | 6.55% | Base rate |
 | uniswap-v2 | 0.01% | 0.01% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MC yield today?
 
-4.94% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+5.06% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many MC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $393.8K in total.
+2 live pools clear this page's $100K TVL floor, $385.1K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which MC pools have the most stable APY history?
 
-Based on APY history only, MC's lower-variability candidates are morpho-blue (Ethereum), 4.94% APY, $288.8K TVL, https://www.defi.garden/?pool=76fc98cd-0ee8-44c0-bb7d-e553faaf9e48#src=seo_token; uniswap-v2 (Ethereum), 0.01% APY, $105K TVL, https://www.defi.garden/?pool=9e263160-8ff5-42d0-95ef-7dbadec4d81b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MC's lower-variability candidates are morpho-blue (Ethereum), 5.06% APY, $280K TVL, https://www.defi.garden/?pool=76fc98cd-0ee8-44c0-bb7d-e553faaf9e48#src=seo_token; uniswap-v2 (Ethereum), 0.01% APY, $105.2K TVL, https://www.defi.garden/?pool=9e263160-8ff5-42d0-95ef-7dbadec4d81b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +69,4 @@ Based on APY history only, MC's lower-variability candidates are morpho-blue (Et
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 4, 2026
+## Last updated October 5, 2026

@@ -1,12 +1,12 @@
 # REC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest REC yield right now is 19.03% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest REC yield right now is 19.58% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=8d652008-80f1-49ba-b6fc-e1bf89d85bd9#src=seo_token) | Ethereum | 19.03% | $109.9K |
+| [yearn-finance →](https://www.defi.garden/?pool=8d652008-80f1-49ba-b6fc-e1bf89d85bd9#src=seo_token) | Ethereum | 19.58% | $109.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest REC yield today?
 
-19.03% APY on yearn-finance (Ethereum), based on live DefiLlama data.
+19.58% APY on yearn-finance (Ethereum), based on live DefiLlama data.
 
 ### How many REC pools clear the TVL floor?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank REC pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 4, 2026
+## Last updated October 5, 2026

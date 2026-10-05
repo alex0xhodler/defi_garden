@@ -1,12 +1,12 @@
 # FEATHERFRXUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest FEATHERFRXUSD yield right now is 25.75% on morpho-blue (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FEATHERFRXUSD yield right now is 23.81% on morpho-blue (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=4fcb0dbe-1a67-59dd-abd2-76e94fff31e5#src=seo_token) | Polygon | 25.75% | $108.7K |
+| [morpho-blue →](https://www.defi.garden/?pool=4fcb0dbe-1a67-59dd-abd2-76e94fff31e5#src=seo_token) | Polygon | 23.81% | $135.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FEATHERFRXUSD yield today?
 
-25.75% APY on morpho-blue (Polygon), based on live DefiLlama data.
+23.81% APY on morpho-blue (Polygon), based on live DefiLlama data.
 
 ### How many FEATHERFRXUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $108.7K in total.
+1 live pool clear this page's $100K TVL floor, $135.2K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank FEATHERFRXUSD pools. This vie
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated October 4, 2026
+## Last updated October 5, 2026

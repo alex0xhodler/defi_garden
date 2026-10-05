@@ -1,12 +1,12 @@
 # CATALORIAN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest CATALORIAN yield right now is 0.42% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CATALORIAN yield right now is 0.62% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=871e88ad-6180-4e25-ba56-f477cc3144ea#src=seo_token) | Ethereum | 0.42% | $103.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=871e88ad-6180-4e25-ba56-f477cc3144ea#src=seo_token) | Ethereum | 0.62% | $104.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CATALORIAN yield today?
 
-0.42% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.62% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many CATALORIAN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $103.7K in total.
+1 live pool clear this page's $100K TVL floor, $104.2K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank CATALORIAN pools. This view c
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 4, 2026
+## Last updated October 5, 2026

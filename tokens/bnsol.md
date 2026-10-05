@@ -1,12 +1,12 @@
 # BNSOL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
 The highest honest BNSOL yield right now is 4.72% on binance-staked-sol (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [binance-staked-sol →](https://www.defi.garden/pools/binance-staked-sol-bnsol-solana) | Solana | 4.72% | $1.24B |
+| [binance-staked-sol →](https://www.defi.garden/pools/binance-staked-sol-bnsol-solana) | Solana | 4.72% | $1.25B |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank BNSOL pools. This view covers
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 4, 2026
+## Last updated October 5, 2026

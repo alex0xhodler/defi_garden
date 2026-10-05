@@ -1,30 +1,30 @@
 # SYZUSD 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 4, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 5, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 SYZUSD의 가장 높은 정직한 수익률은 Monad의 balancer-v3에서 13.20%이며, $100K TVL 기준을 넘는 8개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [yuzu-money →](https://www.defi.garden/?pool=6174b1d6-8212-4964-95bf-ca9c539864ba#src=seo_token) | Plasma | 7.88% | $37.94M |
-| [yuzu-money →](https://www.defi.garden/?pool=c51e151e-44ad-4f25-9911-102bd00811dc#src=seo_token) | Monad | 7.88% | $10.61M |
-| [yuzu-money →](https://www.defi.garden/?pool=20ccc2e5-0eca-4d9d-abd0-313908f51b31#src=seo_token) | Sei | 7.88% | $8.81M |
-| [morpho-blue →](https://www.defi.garden/?pool=8ee86f6f-318b-45c5-aad2-e003be777062#src=seo_token) | Monad | 1.25% | $432.6K |
+| [yuzu-money →](https://www.defi.garden/?pool=6174b1d6-8212-4964-95bf-ca9c539864ba#src=seo_token) | Plasma | 7.90% | $37.94M |
+| [yuzu-money →](https://www.defi.garden/?pool=c51e151e-44ad-4f25-9911-102bd00811dc#src=seo_token) | Monad | 7.90% | $10.61M |
+| [yuzu-money →](https://www.defi.garden/?pool=20ccc2e5-0eca-4d9d-abd0-313908f51b31#src=seo_token) | Sei | 7.90% | $8.81M |
+| [morpho-blue →](https://www.defi.garden/?pool=8ee86f6f-318b-45c5-aad2-e003be777062#src=seo_token) | Monad | 1.25% | $432.5K |
 | [balancer-v3 →](https://www.defi.garden/?pool=5bb0941e-6df0-4453-91dc-117093747229#src=seo_token) | Monad | 13.20% | $367K |
-| [yuzu-money →](https://www.defi.garden/?pool=570ddae7-acae-4277-905b-278cd994b08d#src=seo_token) | Ethereum | 7.88% | $251.3K |
+| [yuzu-money →](https://www.defi.garden/?pool=570ddae7-acae-4277-905b-278cd994b08d#src=seo_token) | Ethereum | 7.90% | $251.3K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 SYZUSD의 변동성 낮은 후보는 Sei의 yuzu-money, APY 7.88%, TVL $8.81M, https://www.defi.garden/?pool=20ccc2e5-0eca-4d9d-abd0-313908f51b31#src=seo_token; Monad의 morpho-blue, APY 1.25%, TVL $432.6K, https://www.defi.garden/?pool=8ee86f6f-318b-45c5-aad2-e003be777062#src=seo_token; Ethereum의 yuzu-money, APY 7.88%, TVL $251.3K, https://www.defi.garden/?pool=570ddae7-acae-4277-905b-278cd994b08d#src=seo_token; Monad의 yuzu-money, APY 7.88%, TVL $10.61M, https://www.defi.garden/?pool=c51e151e-44ad-4f25-9911-102bd00811dc#src=seo_token; Plasma의 yuzu-money, APY 7.88%, TVL $37.94M, https://www.defi.garden/?pool=6174b1d6-8212-4964-95bf-ca9c539864ba#src=seo_token; Monad의 balancer-v3, APY 13.20%, TVL $367K, https://www.defi.garden/?pool=5bb0941e-6df0-4453-91dc-117093747229#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SYZUSD의 변동성 낮은 후보는 Sei의 yuzu-money, APY 7.90%, TVL $8.81M, https://www.defi.garden/?pool=20ccc2e5-0eca-4d9d-abd0-313908f51b31#src=seo_token; Monad의 morpho-blue, APY 1.25%, TVL $432.5K, https://www.defi.garden/?pool=8ee86f6f-318b-45c5-aad2-e003be777062#src=seo_token; Ethereum의 yuzu-money, APY 7.90%, TVL $251.3K, https://www.defi.garden/?pool=570ddae7-acae-4277-905b-278cd994b08d#src=seo_token; Monad의 yuzu-money, APY 7.90%, TVL $10.61M, https://www.defi.garden/?pool=c51e151e-44ad-4f25-9911-102bd00811dc#src=seo_token; Plasma의 yuzu-money, APY 7.90%, TVL $37.94M, https://www.defi.garden/?pool=6174b1d6-8212-4964-95bf-ca9c539864ba#src=seo_token; Monad의 balancer-v3, APY 13.20%, TVL $367K, https://www.defi.garden/?pool=5bb0941e-6df0-4453-91dc-117093747229#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [yuzu-money →](https://www.defi.garden/?pool=20ccc2e5-0eca-4d9d-abd0-313908f51b31#src=seo_token) | Sei | 7.88% | $8.81M |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=8ee86f6f-318b-45c5-aad2-e003be777062#src=seo_token) | Monad | 1.25% | $432.6K |
-| 3 | [yuzu-money →](https://www.defi.garden/?pool=570ddae7-acae-4277-905b-278cd994b08d#src=seo_token) | Ethereum | 7.88% | $251.3K |
-| 4 | [yuzu-money →](https://www.defi.garden/?pool=c51e151e-44ad-4f25-9911-102bd00811dc#src=seo_token) | Monad | 7.88% | $10.61M |
-| 5 | [yuzu-money →](https://www.defi.garden/?pool=6174b1d6-8212-4964-95bf-ca9c539864ba#src=seo_token) | Plasma | 7.88% | $37.94M |
+| 1 | [yuzu-money →](https://www.defi.garden/?pool=20ccc2e5-0eca-4d9d-abd0-313908f51b31#src=seo_token) | Sei | 7.90% | $8.81M |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=8ee86f6f-318b-45c5-aad2-e003be777062#src=seo_token) | Monad | 1.25% | $432.5K |
+| 3 | [yuzu-money →](https://www.defi.garden/?pool=570ddae7-acae-4277-905b-278cd994b08d#src=seo_token) | Ethereum | 7.90% | $251.3K |
+| 4 | [yuzu-money →](https://www.defi.garden/?pool=c51e151e-44ad-4f25-9911-102bd00811dc#src=seo_token) | Monad | 7.90% | $10.61M |
+| 5 | [yuzu-money →](https://www.defi.garden/?pool=6174b1d6-8212-4964-95bf-ca9c539864ba#src=seo_token) | Plasma | 7.90% | $37.94M |
 | 6 | [balancer-v3 →](https://www.defi.garden/?pool=5bb0941e-6df0-4453-91dc-117093747229#src=seo_token) | Monad | 13.20% | $367K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -39,12 +39,12 @@ SYZUSD 풀은 여기 6개가 있고, 4개 체인에서 APY가 1.25%부터 13.20%
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| yuzu-money | 7.88% | 7.55% | 기본 금리 |
-| yuzu-money | 7.88% | 7.55% | 기본 금리 |
-| yuzu-money | 7.88% | 7.55% | 기본 금리 |
+| yuzu-money | 7.90% | 7.55% | 기본 금리 |
+| yuzu-money | 7.90% | 7.55% | 기본 금리 |
+| yuzu-money | 7.90% | 7.55% | 기본 금리 |
 | morpho-blue | 1.25% | 1.25% | 인센티브 100.00% |
-| balancer-v3 | 13.20% | 12.63% | 인센티브 49.70% |
-| yuzu-money | 7.88% | 7.55% | 기본 금리 |
+| balancer-v3 | 13.20% | 12.64% | 인센티브 49.70% |
+| yuzu-money | 7.90% | 7.55% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -56,7 +56,7 @@ DefiLlama 실시간 데이터 기준, Monad의 balancer-v3에서 APY 13.20%예�
 
 ### SYZUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $59.05M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $59.04M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -64,7 +64,7 @@ DefiLlama 실시간 데이터 기준, Monad의 balancer-v3에서 APY 13.20%예�
 
 ### SYZUSD 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 SYZUSD의 변동성 낮은 후보는 Sei의 yuzu-money, APY 7.88%, TVL $8.81M, https://www.defi.garden/?pool=20ccc2e5-0eca-4d9d-abd0-313908f51b31#src=seo_token; Monad의 morpho-blue, APY 1.25%, TVL $432.6K, https://www.defi.garden/?pool=8ee86f6f-318b-45c5-aad2-e003be777062#src=seo_token; Ethereum의 yuzu-money, APY 7.88%, TVL $251.3K, https://www.defi.garden/?pool=570ddae7-acae-4277-905b-278cd994b08d#src=seo_token; Monad의 yuzu-money, APY 7.88%, TVL $10.61M, https://www.defi.garden/?pool=c51e151e-44ad-4f25-9911-102bd00811dc#src=seo_token; Plasma의 yuzu-money, APY 7.88%, TVL $37.94M, https://www.defi.garden/?pool=6174b1d6-8212-4964-95bf-ca9c539864ba#src=seo_token; Monad의 balancer-v3, APY 13.20%, TVL $367K, https://www.defi.garden/?pool=5bb0941e-6df0-4453-91dc-117093747229#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SYZUSD의 변동성 낮은 후보는 Sei의 yuzu-money, APY 7.90%, TVL $8.81M, https://www.defi.garden/?pool=20ccc2e5-0eca-4d9d-abd0-313908f51b31#src=seo_token; Monad의 morpho-blue, APY 1.25%, TVL $432.5K, https://www.defi.garden/?pool=8ee86f6f-318b-45c5-aad2-e003be777062#src=seo_token; Ethereum의 yuzu-money, APY 7.90%, TVL $251.3K, https://www.defi.garden/?pool=570ddae7-acae-4277-905b-278cd994b08d#src=seo_token; Monad의 yuzu-money, APY 7.90%, TVL $10.61M, https://www.defi.garden/?pool=c51e151e-44ad-4f25-9911-102bd00811dc#src=seo_token; Plasma의 yuzu-money, APY 7.90%, TVL $37.94M, https://www.defi.garden/?pool=6174b1d6-8212-4964-95bf-ca9c539864ba#src=seo_token; Monad의 balancer-v3, APY 13.20%, TVL $367K, https://www.defi.garden/?pool=5bb0941e-6df0-4453-91dc-117093747229#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -82,4 +82,4 @@ APY 이력만 기준으로 비교한 SYZUSD의 변동성 낮은 후보는 Sei의
 - [Sei](https://www.defi.garden/ko/chains/sei)
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: October 4, 2026
+## 마지막 업데이트: October 5, 2026

@@ -1,25 +1,25 @@
 # STLINK DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
 The highest honest STLINK yield right now is 3.93% on stake.link-liquid (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [stake.link-liquid →](https://www.defi.garden/?pool=4f5deb26-5f61-45a3-8f61-0edca3a86809#src=seo_token) | Ethereum | 3.93% | $99.68M |
-| [curve-dex →](https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3#src=seo_token) | Ethereum | 0.17% | $6.68M |
-| [curve-dex →](https://www.defi.garden/?pool=37336b56-7670-455a-8354-d196dcfcdbe6#src=seo_token) | Ethereum | 0.01% | $426.4K |
+| [stake.link-liquid →](https://www.defi.garden/?pool=4f5deb26-5f61-45a3-8f61-0edca3a86809#src=seo_token) | Ethereum | 3.93% | $99.81M |
+| [curve-dex →](https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3#src=seo_token) | Ethereum | 0.33% | $6.67M |
+| [curve-dex →](https://www.defi.garden/?pool=37336b56-7670-455a-8354-d196dcfcdbe6#src=seo_token) | Ethereum | 0.01% | $425.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, STLINK's lower-variability candidates are stake.link-liquid (Ethereum), 3.93% APY, $99.68M TVL, https://www.defi.garden/?pool=4f5deb26-5f61-45a3-8f61-0edca3a86809#src=seo_token; curve-dex (Ethereum), 0.17% APY, $6.68M TVL, https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3#src=seo_token; curve-dex (Ethereum), 0.01% APY, $426.4K TVL, https://www.defi.garden/?pool=37336b56-7670-455a-8354-d196dcfcdbe6#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STLINK's lower-variability candidates are stake.link-liquid (Ethereum), 3.93% APY, $99.81M TVL, https://www.defi.garden/?pool=4f5deb26-5f61-45a3-8f61-0edca3a86809#src=seo_token; curve-dex (Ethereum), 0.33% APY, $6.67M TVL, https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3#src=seo_token; curve-dex (Ethereum), 0.01% APY, $425.7K TVL, https://www.defi.garden/?pool=37336b56-7670-455a-8354-d196dcfcdbe6#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [stake.link-liquid →](https://www.defi.garden/?pool=4f5deb26-5f61-45a3-8f61-0edca3a86809#src=seo_token) | Ethereum | 3.93% | $99.68M |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3#src=seo_token) | Ethereum | 0.17% | $6.68M |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=37336b56-7670-455a-8354-d196dcfcdbe6#src=seo_token) | Ethereum | 0.01% | $426.4K |
+| 1 | [stake.link-liquid →](https://www.defi.garden/?pool=4f5deb26-5f61-45a3-8f61-0edca3a86809#src=seo_token) | Ethereum | 3.93% | $99.81M |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3#src=seo_token) | Ethereum | 0.33% | $6.67M |
+| 3 | [curve-dex →](https://www.defi.garden/?pool=37336b56-7670-455a-8354-d196dcfcdbe6#src=seo_token) | Ethereum | 0.01% | $425.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -33,8 +33,8 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| stake.link-liquid | 3.93% | 4.67% | Base rate |
-| curve-dex | 0.17% | 2.52% | Base rate |
+| stake.link-liquid | 3.93% | 4.66% | Base rate |
+| curve-dex | 0.33% | 2.52% | Base rate |
 | curve-dex | 0.01% | 2.60% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -47,7 +47,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many STLINK pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $110.49M in total.
+4 live pools clear this page's $100K TVL floor, $110.59M in total.
 
 ### Are these rates safe?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which STLINK pools have the most stable APY history?
 
-Based on APY history only, STLINK's lower-variability candidates are stake.link-liquid (Ethereum), 3.93% APY, $99.68M TVL, https://www.defi.garden/?pool=4f5deb26-5f61-45a3-8f61-0edca3a86809#src=seo_token; curve-dex (Ethereum), 0.17% APY, $6.68M TVL, https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3#src=seo_token; curve-dex (Ethereum), 0.01% APY, $426.4K TVL, https://www.defi.garden/?pool=37336b56-7670-455a-8354-d196dcfcdbe6#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STLINK's lower-variability candidates are stake.link-liquid (Ethereum), 3.93% APY, $99.81M TVL, https://www.defi.garden/?pool=4f5deb26-5f61-45a3-8f61-0edca3a86809#src=seo_token; curve-dex (Ethereum), 0.33% APY, $6.67M TVL, https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3#src=seo_token; curve-dex (Ethereum), 0.01% APY, $425.7K TVL, https://www.defi.garden/?pool=37336b56-7670-455a-8354-d196dcfcdbe6#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +70,4 @@ Based on APY history only, STLINK's lower-variability candidates are stake.link-
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 4, 2026
+## Last updated October 5, 2026

@@ -1,12 +1,12 @@
 # RVST DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest RVST yield right now is 0.04% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RVST yield right now is 0.17% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=f1d3bdc7-2c80-42db-bac1-a45cd935a2e9#src=seo_token) | Ethereum | 0.04% | $130.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=f1d3bdc7-2c80-42db-bac1-a45cd935a2e9#src=seo_token) | Ethereum | 0.17% | $130.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RVST yield today?
 
-0.04% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.17% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many RVST pools clear the TVL floor?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank RVST pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 4, 2026
+## Last updated October 5, 2026

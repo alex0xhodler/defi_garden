@@ -1,12 +1,12 @@
 # TRIA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest TRIA yield right now is 34.53% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TRIA yield right now is 32.26% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=804129fe-e567-42e3-88ae-78dfe5827095#src=seo_token) | Ethereum | 34.53% | $415.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=804129fe-e567-42e3-88ae-78dfe5827095#src=seo_token) | Ethereum | 32.26% | $411.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TRIA yield today?
 
-34.53% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+32.26% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many TRIA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $415.4K in total.
+1 live pool clear this page's $100K TVL floor, $411.5K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank TRIA pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 4, 2026
+## Last updated October 5, 2026

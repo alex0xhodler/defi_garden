@@ -1,6 +1,6 @@
 # FXB 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 4, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 5, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 FXB의 가장 높은 정직한 수익률은 Fraxtal의 curve-dex에서 6.21%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
@@ -9,16 +9,16 @@
 | [curve-dex →](https://www.defi.garden/?pool=1158d570-535c-4798-9811-9f782db49732#src=seo_token) | Fraxtal | 6.21% | $1.54M |
 | [curve-dex →](https://www.defi.garden/?pool=9cced191-ad6f-4fab-b1c1-3ba2d15ccf0f#src=seo_token) | Ethereum | 2.57% | $855.1K |
 | [convex-finance →](https://www.defi.garden/?pool=94a49ecc-c7e6-410c-8a7e-7449ce3fa79a#src=seo_token) | Ethereum | 2.57% | $816.4K |
-| [curve-dex →](https://www.defi.garden/?pool=83bf9b9c-e031-4687-b221-fa91133b8205#src=seo_token) | Arbitrum | 2.62% | $193.8K |
+| [curve-dex →](https://www.defi.garden/?pool=83bf9b9c-e031-4687-b221-fa91133b8205#src=seo_token) | Arbitrum | 2.62% | $193.9K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 FXB의 변동성 낮은 후보는 Arbitrum의 curve-dex, APY 2.62%, TVL $193.8K, https://www.defi.garden/?pool=83bf9b9c-e031-4687-b221-fa91133b8205#src=seo_token; Fraxtal의 curve-dex, APY 6.21%, TVL $1.54M, https://www.defi.garden/?pool=1158d570-535c-4798-9811-9f782db49732#src=seo_token; Ethereum의 curve-dex, APY 2.57%, TVL $855.1K, https://www.defi.garden/?pool=9cced191-ad6f-4fab-b1c1-3ba2d15ccf0f#src=seo_token; Ethereum의 convex-finance, APY 2.57%, TVL $816.4K, https://www.defi.garden/?pool=94a49ecc-c7e6-410c-8a7e-7449ce3fa79a#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 FXB의 변동성 낮은 후보는 Arbitrum의 curve-dex, APY 2.62%, TVL $193.9K, https://www.defi.garden/?pool=83bf9b9c-e031-4687-b221-fa91133b8205#src=seo_token; Fraxtal의 curve-dex, APY 6.21%, TVL $1.54M, https://www.defi.garden/?pool=1158d570-535c-4798-9811-9f782db49732#src=seo_token; Ethereum의 curve-dex, APY 2.57%, TVL $855.1K, https://www.defi.garden/?pool=9cced191-ad6f-4fab-b1c1-3ba2d15ccf0f#src=seo_token; Ethereum의 convex-finance, APY 2.57%, TVL $816.4K, https://www.defi.garden/?pool=94a49ecc-c7e6-410c-8a7e-7449ce3fa79a#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=83bf9b9c-e031-4687-b221-fa91133b8205#src=seo_token) | Arbitrum | 2.62% | $193.8K |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=83bf9b9c-e031-4687-b221-fa91133b8205#src=seo_token) | Arbitrum | 2.62% | $193.9K |
 | 2 | [curve-dex →](https://www.defi.garden/?pool=1158d570-535c-4798-9811-9f782db49732#src=seo_token) | Fraxtal | 6.21% | $1.54M |
 | 3 | [curve-dex →](https://www.defi.garden/?pool=9cced191-ad6f-4fab-b1c1-3ba2d15ccf0f#src=seo_token) | Ethereum | 2.57% | $855.1K |
 | 4 | [convex-finance →](https://www.defi.garden/?pool=94a49ecc-c7e6-410c-8a7e-7449ce3fa79a#src=seo_token) | Ethereum | 2.57% | $816.4K |
@@ -37,10 +37,10 @@ FXB 풀은 여기 4개가 있고, 3개 체인에서 APY가 2.57%부터 6.21%까�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| curve-dex | 6.21% | 6.10% | 인센티브 19.04% |
-| curve-dex | 2.57% | 2.64% | 인센티브 0.00% |
-| convex-finance | 2.57% | 2.64% | 기본 금리 |
-| curve-dex | 2.62% | 2.69% | 기본 금리 |
+| curve-dex | 6.21% | 6.10% | 인센티브 18.99% |
+| curve-dex | 2.57% | 2.63% | 인센티브 0.00% |
+| convex-finance | 2.57% | 2.63% | 기본 금리 |
+| curve-dex | 2.62% | 2.68% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -60,7 +60,7 @@ DefiLlama 실시간 데이터 기준, Fraxtal의 curve-dex에서 APY 6.21%예요
 
 ### FXB 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 FXB의 변동성 낮은 후보는 Arbitrum의 curve-dex, APY 2.62%, TVL $193.8K, https://www.defi.garden/?pool=83bf9b9c-e031-4687-b221-fa91133b8205#src=seo_token; Fraxtal의 curve-dex, APY 6.21%, TVL $1.54M, https://www.defi.garden/?pool=1158d570-535c-4798-9811-9f782db49732#src=seo_token; Ethereum의 curve-dex, APY 2.57%, TVL $855.1K, https://www.defi.garden/?pool=9cced191-ad6f-4fab-b1c1-3ba2d15ccf0f#src=seo_token; Ethereum의 convex-finance, APY 2.57%, TVL $816.4K, https://www.defi.garden/?pool=94a49ecc-c7e6-410c-8a7e-7449ce3fa79a#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 FXB의 변동성 낮은 후보는 Arbitrum의 curve-dex, APY 2.62%, TVL $193.9K, https://www.defi.garden/?pool=83bf9b9c-e031-4687-b221-fa91133b8205#src=seo_token; Fraxtal의 curve-dex, APY 6.21%, TVL $1.54M, https://www.defi.garden/?pool=1158d570-535c-4798-9811-9f782db49732#src=seo_token; Ethereum의 curve-dex, APY 2.57%, TVL $855.1K, https://www.defi.garden/?pool=9cced191-ad6f-4fab-b1c1-3ba2d15ccf0f#src=seo_token; Ethereum의 convex-finance, APY 2.57%, TVL $816.4K, https://www.defi.garden/?pool=94a49ecc-c7e6-410c-8a7e-7449ce3fa79a#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -77,4 +77,4 @@ APY 이력만 기준으로 비교한 FXB의 변동성 낮은 후보는 Arbitrum�
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
-## 마지막 업데이트: October 4, 2026
+## 마지막 업데이트: October 5, 2026

@@ -1,23 +1,23 @@
 # USTB 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 4, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 5, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 USTB의 가장 높은 정직한 수익률은 Ethereum의 invesco-ustb에서 3.32%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [invesco-ustb →](https://www.defi.garden/ko/pools/invesco-ustb-ustb-ethereum) | Ethereum | 3.32% | $550.14M |
+| [invesco-ustb →](https://www.defi.garden/ko/pools/invesco-ustb-ustb-ethereum) | Ethereum | 3.32% | $550.02M |
 | [invesco-ustb →](https://www.defi.garden/?pool=8db7cb71-f2b7-45c7-bbff-f32c88ef7b81#src=seo_token) | Plume Mainnet | 3.32% | $3.92M |
 | [invesco-ustb →](https://www.defi.garden/?pool=9ad71299-9318-47b3-9a5a-bbe67c5121bf#src=seo_token) | Solana | 3.32% | $1.96M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 USTB의 변동성 낮은 후보는 Ethereum의 invesco-ustb, APY 3.32%, TVL $550.14M, https://www.defi.garden/ko/pools/invesco-ustb-ustb-ethereum; Plume Mainnet의 invesco-ustb, APY 3.32%, TVL $3.92M, https://www.defi.garden/?pool=8db7cb71-f2b7-45c7-bbff-f32c88ef7b81#src=seo_token; Solana의 invesco-ustb, APY 3.32%, TVL $1.96M, https://www.defi.garden/?pool=9ad71299-9318-47b3-9a5a-bbe67c5121bf#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USTB의 변동성 낮은 후보는 Ethereum의 invesco-ustb, APY 3.32%, TVL $550.02M, https://www.defi.garden/ko/pools/invesco-ustb-ustb-ethereum; Plume Mainnet의 invesco-ustb, APY 3.32%, TVL $3.92M, https://www.defi.garden/?pool=8db7cb71-f2b7-45c7-bbff-f32c88ef7b81#src=seo_token; Solana의 invesco-ustb, APY 3.32%, TVL $1.96M, https://www.defi.garden/?pool=9ad71299-9318-47b3-9a5a-bbe67c5121bf#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [invesco-ustb →](https://www.defi.garden/ko/pools/invesco-ustb-ustb-ethereum) | Ethereum | 3.32% | $550.14M |
+| 1 | [invesco-ustb →](https://www.defi.garden/ko/pools/invesco-ustb-ustb-ethereum) | Ethereum | 3.32% | $550.02M |
 | 2 | [invesco-ustb →](https://www.defi.garden/?pool=8db7cb71-f2b7-45c7-bbff-f32c88ef7b81#src=seo_token) | Plume Mainnet | 3.32% | $3.92M |
 | 3 | [invesco-ustb →](https://www.defi.garden/?pool=9ad71299-9318-47b3-9a5a-bbe67c5121bf#src=seo_token) | Solana | 3.32% | $1.96M |
 
@@ -47,7 +47,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 invesco-ustb에서 APY 3.32%�
 
 ### USTB 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $567.86M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $567.75M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -55,7 +55,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 invesco-ustb에서 APY 3.32%�
 
 ### USTB 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 USTB의 변동성 낮은 후보는 Ethereum의 invesco-ustb, APY 3.32%, TVL $550.14M, https://www.defi.garden/ko/pools/invesco-ustb-ustb-ethereum; Plume Mainnet의 invesco-ustb, APY 3.32%, TVL $3.92M, https://www.defi.garden/?pool=8db7cb71-f2b7-45c7-bbff-f32c88ef7b81#src=seo_token; Solana의 invesco-ustb, APY 3.32%, TVL $1.96M, https://www.defi.garden/?pool=9ad71299-9318-47b3-9a5a-bbe67c5121bf#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USTB의 변동성 낮은 후보는 Ethereum의 invesco-ustb, APY 3.32%, TVL $550.02M, https://www.defi.garden/ko/pools/invesco-ustb-ustb-ethereum; Plume Mainnet의 invesco-ustb, APY 3.32%, TVL $3.92M, https://www.defi.garden/?pool=8db7cb71-f2b7-45c7-bbff-f32c88ef7b81#src=seo_token; Solana의 invesco-ustb, APY 3.32%, TVL $1.96M, https://www.defi.garden/?pool=9ad71299-9318-47b3-9a5a-bbe67c5121bf#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -72,4 +72,4 @@ APY 이력만 기준으로 비교한 USTB의 변동성 낮은 후보는 Ethereum
 - [Plume Mainnet](https://www.defi.garden/ko/chains/plume-mainnet)
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: October 4, 2026
+## 마지막 업데이트: October 5, 2026

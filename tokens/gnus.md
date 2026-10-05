@@ -1,33 +1,40 @@
 # GNUS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest GNUS yield right now is 1.04% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GNUS yield right now is 15.24% on uniswap-v3 (Polygon), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=daed7bd0-e064-42fb-8b06-67ae68d28454#src=seo_token) | Ethereum | 1.04% | $128.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=daed7bd0-e064-42fb-8b06-67ae68d28454#src=seo_token) | Ethereum | 86.18% | $172.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c1aaca25-1eee-4720-8cad-b5f63d941fa2#src=seo_token) | Polygon | 15.24% | $138.2K |
 
-<!-- rate-stability:insufficient -->
+<!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-There is not enough qualifying APY history to rank GNUS pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GNUS's lower-variability candidates are uniswap-v3 (Polygon), 15.24% APY, $138.2K TVL, https://www.defi.garden/?pool=c1aaca25-1eee-4720-8cad-b5f63d941fa2#src=seo_token; uniswap-v3 (Ethereum), 86.18% APY, $172.1K TVL, https://www.defi.garden/?pool=daed7bd0-e064-42fb-8b06-67ae68d28454#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+| Rank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=c1aaca25-1eee-4720-8cad-b5f63d941fa2#src=seo_token) | Polygon | 15.24% | $138.2K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=daed7bd0-e064-42fb-8b06-67ae68d28454#src=seo_token) | Ethereum | 86.18% | $172.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-GNUS shows up in 1 pools here, with rates from 1.04% to 1.04% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+GNUS shows up in 2 pools here, with rates from 15.24% to 86.18% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 17.76% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 18.18% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
+All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-1 of 1 pool carries impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 1.04% | 17.76% | Base rate |
+| uniswap-v3 | 86.18% | 18.42% | Base rate |
+| uniswap-v3 | 15.24% | 17.93% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest GNUS yield today?
 
-1.04% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+15.24% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
 
 ### How many GNUS pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $288.1K in total.
+2 live pools clear this page's $100K TVL floor, $310.3K in total.
 
 ### Are these rates safe?
 
@@ -47,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which GNUS pools have the most stable APY history?
 
-There is not enough qualifying APY history to rank GNUS pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GNUS's lower-variability candidates are uniswap-v3 (Polygon), 15.24% APY, $138.2K TVL, https://www.defi.garden/?pool=c1aaca25-1eee-4720-8cad-b5f63d941fa2#src=seo_token; uniswap-v3 (Ethereum), 86.18% APY, $172.1K TVL, https://www.defi.garden/?pool=daed7bd0-e064-42fb-8b06-67ae68d28454#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -61,5 +68,6 @@ There is not enough qualifying APY history to rank GNUS pools. This view covers 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
+- [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated October 4, 2026
+## Last updated October 5, 2026

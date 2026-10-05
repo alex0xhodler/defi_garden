@@ -1,12 +1,12 @@
 # TOKO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
-The highest honest TOKO yield right now is 1.82% on icpswap (ICP), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TOKO yield right now is 0.79% on icpswap (ICP), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [icpswap →](https://www.defi.garden/?pool=d37c11d3-f7fb-5a79-a3d7-87780e55c8bc#src=seo_token) | ICP | 1.82% | $222.5K |
+| [icpswap →](https://www.defi.garden/?pool=d37c11d3-f7fb-5a79-a3d7-87780e55c8bc#src=seo_token) | ICP | 0.79% | $218.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TOKO yield today?
 
-1.82% APY on icpswap (ICP), based on live DefiLlama data.
+0.79% APY on icpswap (ICP), based on live DefiLlama data.
 
 ### How many TOKO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $222.5K in total.
+1 live pool clear this page's $100K TVL floor, $218.4K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank TOKO pools. This view covers 
 
 - [ICP](https://www.defi.garden/chains/icp)
 
-## Last updated October 4, 2026
+## Last updated October 5, 2026

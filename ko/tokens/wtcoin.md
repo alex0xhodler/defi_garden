@@ -1,12 +1,12 @@
 # WTCOIN 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 4, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 5, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 WTCOIN의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 73.13%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 WTCOIN의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 61.10%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=74c6dc29-f6d1-453b-bd06-e37417336385#src=seo_token) | Base | 73.13% | $265.5K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=74c6dc29-f6d1-453b-bd06-e37417336385#src=seo_token) | Base | 61.10% | $379.8K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,11 +19,11 @@
 
 ### 오늘 WTCOIN의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 73.13%예요.
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 61.10%예요.
 
 ### WTCOIN 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $265.5K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $379.8K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -46,4 +46,4 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 73.
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: October 4, 2026
+## 마지막 업데이트: October 5, 2026

@@ -1,12 +1,12 @@
 # STBTC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
 The highest honest STBTC yield right now is 2.39% on stackingdao (Stacks), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [stackingdao →](https://www.defi.garden/?pool=ce85a606-365c-5829-8fd4-1bfdf6cbaf00#src=seo_token) | Stacks | 2.39% | $15.78M |
+| [stackingdao →](https://www.defi.garden/?pool=ce85a606-365c-5829-8fd4-1bfdf6cbaf00#src=seo_token) | Stacks | 2.39% | $15.86M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many STBTC pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $49.48M in total.
+4 live pools clear this page's $100K TVL floor, $49.68M in total.
 
 ### Are these rates safe?
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank STBTC pools. This view covers
 
 - [Stacks](https://www.defi.garden/chains/stacks)
 
-## Last updated October 4, 2026
+## Last updated October 5, 2026

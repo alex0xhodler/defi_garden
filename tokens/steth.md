@@ -1,19 +1,19 @@
 # STETH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
 The highest honest STETH yield right now is 2.18% on lido (Ethereum), among 19 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lido →](https://www.defi.garden/pools/lido-steth-ethereum) | Ethereum | 2.18% | $26.58B |
-| [curve-dex →](https://www.defi.garden/?pool=57d30b9c-fc66-4ac2-b666-69ad5f410cce#src=seo_token) | Ethereum | 1.27% | $104.61M |
-| [convex-finance →](https://www.defi.garden/?pool=5ce23e7e-3800-4c9c-ad30-6db3db0515a1#src=seo_token) | Ethereum | 1.27% | $59.33M |
-| [curve-dex →](https://www.defi.garden/?pool=08eaf098-4957-4922-bfca-cc0c46505a43#src=seo_token) | Ethereum | 1.56% | $26.1M |
-| [convex-finance →](https://www.defi.garden/?pool=e378a7c2-6285-4993-9397-87ac9c8adc15#src=seo_token) | Ethereum | 1.67% | $23.71M |
-| [curve-dex →](https://www.defi.garden/?pool=991df258-b474-4a40-8482-acf080e8ab39#src=seo_token) | Ethereum | 1.80% | $19.01M |
-| [convex-finance →](https://www.defi.garden/?pool=c9873dab-0979-478c-b48c-3c3a0c935449#src=seo_token) | Ethereum | 2.00% | $19.01M |
-| [vesper →](https://www.defi.garden/?pool=9b473092-6f2d-4fe6-af5a-f746b77ef5a0#src=seo_token) | Ethereum | 1.96% | $17.01M |
+| [lido →](https://www.defi.garden/pools/lido-steth-ethereum) | Ethereum | 2.18% | $26.54B |
+| [curve-dex →](https://www.defi.garden/?pool=57d30b9c-fc66-4ac2-b666-69ad5f410cce#src=seo_token) | Ethereum | 1.28% | $104.7M |
+| [convex-finance →](https://www.defi.garden/?pool=5ce23e7e-3800-4c9c-ad30-6db3db0515a1#src=seo_token) | Ethereum | 1.28% | $59.39M |
+| [curve-dex →](https://www.defi.garden/?pool=08eaf098-4957-4922-bfca-cc0c46505a43#src=seo_token) | Ethereum | 1.58% | $26.13M |
+| [convex-finance →](https://www.defi.garden/?pool=e378a7c2-6285-4993-9397-87ac9c8adc15#src=seo_token) | Ethereum | 1.69% | $23.74M |
+| [curve-dex →](https://www.defi.garden/?pool=991df258-b474-4a40-8482-acf080e8ab39#src=seo_token) | Ethereum | 1.81% | $19.05M |
+| [convex-finance →](https://www.defi.garden/?pool=c9873dab-0979-478c-b48c-3c3a0c935449#src=seo_token) | Ethereum | 2.02% | $19.05M |
+| [vesper →](https://www.defi.garden/?pool=9b473092-6f2d-4fe6-af5a-f746b77ef5a0#src=seo_token) | Ethereum | 1.71% | $16.99M |
 
 ## How STETH Yield is Generated
 
@@ -26,24 +26,24 @@ All DeFi yields carry inherent risk. Smart contract vulnerabilities, protocol ec
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, STETH's lower-variability candidates are curve-dex (Ethereum), 1.80% APY, $19.01M TVL, https://www.defi.garden/?pool=991df258-b474-4a40-8482-acf080e8ab39#src=seo_token; lido (Ethereum), 2.18% APY, $26.58B TVL, https://www.defi.garden/pools/lido-steth-ethereum; curve-dex (Ethereum), 1.56% APY, $26.1M TVL, https://www.defi.garden/?pool=08eaf098-4957-4922-bfca-cc0c46505a43#src=seo_token; convex-finance (Ethereum), 1.67% APY, $23.71M TVL, https://www.defi.garden/?pool=e378a7c2-6285-4993-9397-87ac9c8adc15#src=seo_token; convex-finance (Ethereum), 2.00% APY, $19.01M TVL, https://www.defi.garden/?pool=c9873dab-0979-478c-b48c-3c3a0c935449#src=seo_token; convex-finance (Ethereum), 1.27% APY, $59.33M TVL, https://www.defi.garden/?pool=5ce23e7e-3800-4c9c-ad30-6db3db0515a1#src=seo_token; vesper (Ethereum), 1.96% APY, $17.01M TVL, https://www.defi.garden/?pool=9b473092-6f2d-4fe6-af5a-f746b77ef5a0#src=seo_token; curve-dex (Ethereum), 1.27% APY, $104.61M TVL, https://www.defi.garden/?pool=57d30b9c-fc66-4ac2-b666-69ad5f410cce#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STETH's lower-variability candidates are curve-dex (Ethereum), 1.81% APY, $19.05M TVL, https://www.defi.garden/?pool=991df258-b474-4a40-8482-acf080e8ab39#src=seo_token; lido (Ethereum), 2.18% APY, $26.54B TVL, https://www.defi.garden/pools/lido-steth-ethereum; curve-dex (Ethereum), 1.58% APY, $26.13M TVL, https://www.defi.garden/?pool=08eaf098-4957-4922-bfca-cc0c46505a43#src=seo_token; convex-finance (Ethereum), 1.69% APY, $23.74M TVL, https://www.defi.garden/?pool=e378a7c2-6285-4993-9397-87ac9c8adc15#src=seo_token; convex-finance (Ethereum), 2.02% APY, $19.05M TVL, https://www.defi.garden/?pool=c9873dab-0979-478c-b48c-3c3a0c935449#src=seo_token; convex-finance (Ethereum), 1.28% APY, $59.39M TVL, https://www.defi.garden/?pool=5ce23e7e-3800-4c9c-ad30-6db3db0515a1#src=seo_token; vesper (Ethereum), 1.71% APY, $16.99M TVL, https://www.defi.garden/?pool=9b473092-6f2d-4fe6-af5a-f746b77ef5a0#src=seo_token; curve-dex (Ethereum), 1.28% APY, $104.7M TVL, https://www.defi.garden/?pool=57d30b9c-fc66-4ac2-b666-69ad5f410cce#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=991df258-b474-4a40-8482-acf080e8ab39#src=seo_token) | Ethereum | 1.80% | $19.01M |
-| 2 | [lido →](https://www.defi.garden/pools/lido-steth-ethereum) | Ethereum | 2.18% | $26.58B |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=08eaf098-4957-4922-bfca-cc0c46505a43#src=seo_token) | Ethereum | 1.56% | $26.1M |
-| 4 | [convex-finance →](https://www.defi.garden/?pool=e378a7c2-6285-4993-9397-87ac9c8adc15#src=seo_token) | Ethereum | 1.67% | $23.71M |
-| 5 | [convex-finance →](https://www.defi.garden/?pool=c9873dab-0979-478c-b48c-3c3a0c935449#src=seo_token) | Ethereum | 2.00% | $19.01M |
-| 6 | [convex-finance →](https://www.defi.garden/?pool=5ce23e7e-3800-4c9c-ad30-6db3db0515a1#src=seo_token) | Ethereum | 1.27% | $59.33M |
-| 7 | [vesper →](https://www.defi.garden/?pool=9b473092-6f2d-4fe6-af5a-f746b77ef5a0#src=seo_token) | Ethereum | 1.96% | $17.01M |
-| 8 | [curve-dex →](https://www.defi.garden/?pool=57d30b9c-fc66-4ac2-b666-69ad5f410cce#src=seo_token) | Ethereum | 1.27% | $104.61M |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=991df258-b474-4a40-8482-acf080e8ab39#src=seo_token) | Ethereum | 1.81% | $19.05M |
+| 2 | [lido →](https://www.defi.garden/pools/lido-steth-ethereum) | Ethereum | 2.18% | $26.54B |
+| 3 | [curve-dex →](https://www.defi.garden/?pool=08eaf098-4957-4922-bfca-cc0c46505a43#src=seo_token) | Ethereum | 1.58% | $26.13M |
+| 4 | [convex-finance →](https://www.defi.garden/?pool=e378a7c2-6285-4993-9397-87ac9c8adc15#src=seo_token) | Ethereum | 1.69% | $23.74M |
+| 5 | [convex-finance →](https://www.defi.garden/?pool=c9873dab-0979-478c-b48c-3c3a0c935449#src=seo_token) | Ethereum | 2.02% | $19.05M |
+| 6 | [convex-finance →](https://www.defi.garden/?pool=5ce23e7e-3800-4c9c-ad30-6db3db0515a1#src=seo_token) | Ethereum | 1.28% | $59.39M |
+| 7 | [vesper →](https://www.defi.garden/?pool=9b473092-6f2d-4fe6-af5a-f746b77ef5a0#src=seo_token) | Ethereum | 1.71% | $16.99M |
+| 8 | [curve-dex →](https://www.defi.garden/?pool=57d30b9c-fc66-4ac2-b666-69ad5f410cce#src=seo_token) | Ethereum | 1.28% | $104.7M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-STETH shows up in 8 pools here, with rates from 1.27% to 2.18% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+STETH shows up in 8 pools here, with rates from 1.28% to 2.18% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 1.68% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -52,13 +52,13 @@ STETH shows up in 8 pools here, with rates from 1.27% to 2.18% APY across 1 chai
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | lido | 2.18% | 2.25% | Base rate |
-| curve-dex | 1.27% | 1.30% | Base rate |
-| convex-finance | 1.27% | 1.30% | Base rate |
-| curve-dex | 1.56% | 1.61% | 12.25% incentives |
-| convex-finance | 1.67% | 1.72% | 17.74% incentives |
-| curve-dex | 1.80% | 1.64% | 47.75% incentives |
-| convex-finance | 2.00% | 1.96% | 52.95% incentives |
-| vesper | 1.96% | 2.21% | Base rate |
+| curve-dex | 1.28% | 1.30% | Base rate |
+| convex-finance | 1.28% | 1.30% | Base rate |
+| curve-dex | 1.58% | 1.61% | 12.28% incentives |
+| convex-finance | 1.69% | 1.72% | 17.86% incentives |
+| curve-dex | 1.81% | 1.65% | 48.15% incentives |
+| convex-finance | 2.02% | 1.96% | 53.49% incentives |
+| vesper | 1.71% | 2.21% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -70,7 +70,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many STETH pools clear the TVL floor?
 
-19 live pools clear this page's $100K TVL floor, $26.86B in total.
+19 live pools clear this page's $100K TVL floor, $26.82B in total.
 
 ### Are these rates safe?
 
@@ -78,7 +78,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which STETH pools have the most stable APY history?
 
-Based on APY history only, STETH's lower-variability candidates are curve-dex (Ethereum), 1.80% APY, $19.01M TVL, https://www.defi.garden/?pool=991df258-b474-4a40-8482-acf080e8ab39#src=seo_token; lido (Ethereum), 2.18% APY, $26.58B TVL, https://www.defi.garden/pools/lido-steth-ethereum; curve-dex (Ethereum), 1.56% APY, $26.1M TVL, https://www.defi.garden/?pool=08eaf098-4957-4922-bfca-cc0c46505a43#src=seo_token; convex-finance (Ethereum), 1.67% APY, $23.71M TVL, https://www.defi.garden/?pool=e378a7c2-6285-4993-9397-87ac9c8adc15#src=seo_token; convex-finance (Ethereum), 2.00% APY, $19.01M TVL, https://www.defi.garden/?pool=c9873dab-0979-478c-b48c-3c3a0c935449#src=seo_token; convex-finance (Ethereum), 1.27% APY, $59.33M TVL, https://www.defi.garden/?pool=5ce23e7e-3800-4c9c-ad30-6db3db0515a1#src=seo_token; vesper (Ethereum), 1.96% APY, $17.01M TVL, https://www.defi.garden/?pool=9b473092-6f2d-4fe6-af5a-f746b77ef5a0#src=seo_token; curve-dex (Ethereum), 1.27% APY, $104.61M TVL, https://www.defi.garden/?pool=57d30b9c-fc66-4ac2-b666-69ad5f410cce#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STETH's lower-variability candidates are curve-dex (Ethereum), 1.81% APY, $19.05M TVL, https://www.defi.garden/?pool=991df258-b474-4a40-8482-acf080e8ab39#src=seo_token; lido (Ethereum), 2.18% APY, $26.54B TVL, https://www.defi.garden/pools/lido-steth-ethereum; curve-dex (Ethereum), 1.58% APY, $26.13M TVL, https://www.defi.garden/?pool=08eaf098-4957-4922-bfca-cc0c46505a43#src=seo_token; convex-finance (Ethereum), 1.69% APY, $23.74M TVL, https://www.defi.garden/?pool=e378a7c2-6285-4993-9397-87ac9c8adc15#src=seo_token; convex-finance (Ethereum), 2.02% APY, $19.05M TVL, https://www.defi.garden/?pool=c9873dab-0979-478c-b48c-3c3a0c935449#src=seo_token; convex-finance (Ethereum), 1.28% APY, $59.39M TVL, https://www.defi.garden/?pool=5ce23e7e-3800-4c9c-ad30-6db3db0515a1#src=seo_token; vesper (Ethereum), 1.71% APY, $16.99M TVL, https://www.defi.garden/?pool=9b473092-6f2d-4fe6-af5a-f746b77ef5a0#src=seo_token; curve-dex (Ethereum), 1.28% APY, $104.7M TVL, https://www.defi.garden/?pool=57d30b9c-fc66-4ac2-b666-69ad5f410cce#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -93,4 +93,4 @@ Based on APY history only, STETH's lower-variability candidates are curve-dex (E
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 4, 2026
+## Last updated October 5, 2026

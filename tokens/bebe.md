@@ -1,12 +1,12 @@
 # BEBE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
 The highest honest BEBE yield right now is 1.38% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=a618298f-0feb-40ae-a0de-7022c3adf59f#src=seo_token) | Ethereum | 1.38% | $113.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=a618298f-0feb-40ae-a0de-7022c3adf59f#src=seo_token) | Ethereum | 1.38% | $114K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many BEBE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $748.1K in total.
+2 live pools clear this page's $100K TVL floor, $750.6K in total.
 
 ### Are these rates safe?
 
@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank BEBE pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 4, 2026
+## Last updated October 5, 2026

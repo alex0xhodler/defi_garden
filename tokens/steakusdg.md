@@ -1,12 +1,12 @@
 # STEAKUSDG DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
 The highest honest STEAKUSDG yield right now is 6.99% on morpho-blue (Robinhood Chain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/pools/morpho-blue-steakusdg-robinhood-chain) | Robinhood Chain | 6.99% | $532.04M |
+| [morpho-blue →](https://www.defi.garden/pools/morpho-blue-steakusdg-robinhood-chain) | Robinhood Chain | 6.99% | $533.19M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many STEAKUSDG pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $532.04M in total.
+1 live pool clear this page's $100K TVL floor, $533.19M in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank STEAKUSDG pools. This view co
 - [USDE](https://www.defi.garden/tokens/usde)
 - [USDG](https://www.defi.garden/tokens/usdg)
 - [STONX](https://www.defi.garden/tokens/stonx)
-- [SPY](https://www.defi.garden/tokens/spy)
 - [GAMIWBTC](https://www.defi.garden/tokens/gamiwbtc)
+- [SPY](https://www.defi.garden/tokens/spy)
 - [KFV](https://www.defi.garden/tokens/kfv)
 
 ## Available on
 
 - [Robinhood Chain](https://www.defi.garden/chains/robinhood-chain)
 
-## Last updated October 4, 2026
+## Last updated October 5, 2026

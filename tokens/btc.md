@@ -1,19 +1,19 @@
 # BTC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 4, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
 
 The highest honest BTC yield right now is 500.00% on osmosis-dex (Osmosis), among 23 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [justlend-v1 →](https://www.defi.garden/pools/justlend-v1-btc-tron) | Tron | 0.01% | $556.04M |
-| [b14g →](https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec#src=seo_token) | Bitcoin | 0.12% | $200.21M |
-| [mezo-earn →](https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c#src=seo_token) | Mezo | 2.81% | $69.65M |
-| [midas-rwa →](https://www.defi.garden/?pool=d2b2bdd9-6535-4acc-8e84-2b0838bd63bb#src=seo_token) | Ethereum | 3.11% | $24.74M |
+| [justlend-v1 →](https://www.defi.garden/pools/justlend-v1-btc-tron) | Tron | 0.01% | $561.73M |
+| [b14g →](https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec#src=seo_token) | Bitcoin | 0.12% | $201.1M |
+| [mezo-earn →](https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c#src=seo_token) | Mezo | 2.79% | $69.43M |
+| [midas-rwa →](https://www.defi.garden/?pool=d2b2bdd9-6535-4acc-8e84-2b0838bd63bb#src=seo_token) | Ethereum | 3.11% | $24.77M |
 | [osmosis-dex →](https://www.defi.garden/?pool=afb34fe0-dd27-48b7-be00-654768e9acc7#src=seo_token) | Osmosis | 500.00% | $5.88M |
-| [chainflip-amm →](https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490#src=seo_token) | Bitcoin | 3.12% | $5.51M |
-| [midas-rwa →](https://www.defi.garden/?pool=24514f34-853f-4678-9faa-7cebf550aba7#src=seo_token) | Monad | 3.11% | $5M |
-| [chainflip-lending →](https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66#src=seo_token) | Bitcoin | 0.36% | $2.35M |
+| [chainflip-amm →](https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490#src=seo_token) | Bitcoin | 3.03% | $5.53M |
+| [midas-rwa →](https://www.defi.garden/?pool=24514f34-853f-4678-9faa-7cebf550aba7#src=seo_token) | Monad | 3.11% | $5.01M |
+| [chainflip-lending →](https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66#src=seo_token) | Bitcoin | 0.35% | $2.37M |
 
 ## How BTC Yield is Generated
 
@@ -26,17 +26,17 @@ All DeFi yields carry inherent risk. Smart contract vulnerabilities, protocol ec
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, BTC's lower-variability candidates are justlend-v1 (Tron), 0.01% APY, $556.04M TVL, https://www.defi.garden/pools/justlend-v1-btc-tron; b14g (Bitcoin), 0.12% APY, $200.21M TVL, https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec#src=seo_token; midas-rwa (Ethereum), 3.11% APY, $24.74M TVL, https://www.defi.garden/?pool=d2b2bdd9-6535-4acc-8e84-2b0838bd63bb#src=seo_token; midas-rwa (Monad), 3.11% APY, $5M TVL, https://www.defi.garden/?pool=24514f34-853f-4678-9faa-7cebf550aba7#src=seo_token; mezo-earn (Mezo), 2.81% APY, $69.65M TVL, https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c#src=seo_token; chainflip-lending (Bitcoin), 0.36% APY, $2.35M TVL, https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66#src=seo_token; chainflip-amm (Bitcoin), 3.12% APY, $5.51M TVL, https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BTC's lower-variability candidates are justlend-v1 (Tron), 0.01% APY, $561.73M TVL, https://www.defi.garden/pools/justlend-v1-btc-tron; b14g (Bitcoin), 0.12% APY, $201.1M TVL, https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec#src=seo_token; midas-rwa (Ethereum), 3.11% APY, $24.77M TVL, https://www.defi.garden/?pool=d2b2bdd9-6535-4acc-8e84-2b0838bd63bb#src=seo_token; midas-rwa (Monad), 3.11% APY, $5.01M TVL, https://www.defi.garden/?pool=24514f34-853f-4678-9faa-7cebf550aba7#src=seo_token; mezo-earn (Mezo), 2.79% APY, $69.43M TVL, https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c#src=seo_token; chainflip-lending (Bitcoin), 0.35% APY, $2.37M TVL, https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66#src=seo_token; chainflip-amm (Bitcoin), 3.03% APY, $5.53M TVL, https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [justlend-v1 →](https://www.defi.garden/pools/justlend-v1-btc-tron) | Tron | 0.01% | $556.04M |
-| 2 | [b14g →](https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec#src=seo_token) | Bitcoin | 0.12% | $200.21M |
-| 3 | [midas-rwa →](https://www.defi.garden/?pool=d2b2bdd9-6535-4acc-8e84-2b0838bd63bb#src=seo_token) | Ethereum | 3.11% | $24.74M |
-| 4 | [midas-rwa →](https://www.defi.garden/?pool=24514f34-853f-4678-9faa-7cebf550aba7#src=seo_token) | Monad | 3.11% | $5M |
-| 5 | [mezo-earn →](https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c#src=seo_token) | Mezo | 2.81% | $69.65M |
-| 6 | [chainflip-lending →](https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66#src=seo_token) | Bitcoin | 0.36% | $2.35M |
-| 7 | [chainflip-amm →](https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490#src=seo_token) | Bitcoin | 3.12% | $5.51M |
+| 1 | [justlend-v1 →](https://www.defi.garden/pools/justlend-v1-btc-tron) | Tron | 0.01% | $561.73M |
+| 2 | [b14g →](https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec#src=seo_token) | Bitcoin | 0.12% | $201.1M |
+| 3 | [midas-rwa →](https://www.defi.garden/?pool=d2b2bdd9-6535-4acc-8e84-2b0838bd63bb#src=seo_token) | Ethereum | 3.11% | $24.77M |
+| 4 | [midas-rwa →](https://www.defi.garden/?pool=24514f34-853f-4678-9faa-7cebf550aba7#src=seo_token) | Monad | 3.11% | $5.01M |
+| 5 | [mezo-earn →](https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c#src=seo_token) | Mezo | 2.79% | $69.43M |
+| 6 | [chainflip-lending →](https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66#src=seo_token) | Bitcoin | 0.35% | $2.37M |
+| 7 | [chainflip-amm →](https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490#src=seo_token) | Bitcoin | 3.03% | $5.53M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -44,7 +44,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 BTC shows up in 8 pools here, with rates from 0.01% to 500.00% APY across 6 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 1.88% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 1.90% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 8 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -54,12 +54,12 @@ BTC shows up in 8 pools here, with rates from 0.01% to 500.00% APY across 6 chai
 |---|---|---|---|
 | justlend-v1 | 0.01% | 0.01% | Base rate |
 | b14g | 0.12% | 0.12% | Base rate |
-| mezo-earn | 2.81% | 2.93% | 98.87% incentives |
-| midas-rwa | 3.11% | 1.89% | Base rate |
+| mezo-earn | 2.79% | 2.92% | 98.86% incentives |
+| midas-rwa | 3.11% | 1.91% | Base rate |
 | osmosis-dex | 500.00% | 446.36% | Base rate |
-| chainflip-amm | 3.12% | 3.26% | Base rate |
-| midas-rwa | 3.11% | 1.88% | Base rate |
-| chainflip-lending | 0.36% | 0.42% | Base rate |
+| chainflip-amm | 3.03% | 3.22% | Base rate |
+| midas-rwa | 3.11% | 1.90% | Base rate |
+| chainflip-lending | 0.35% | 0.42% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -71,7 +71,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many BTC pools clear the TVL floor?
 
-23 live pools clear this page's $100K TVL floor, $885.91M in total.
+23 live pools clear this page's $100K TVL floor, $892.58M in total.
 
 ### Are these rates safe?
 
@@ -79,7 +79,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BTC pools have the most stable APY history?
 
-Based on APY history only, BTC's lower-variability candidates are justlend-v1 (Tron), 0.01% APY, $556.04M TVL, https://www.defi.garden/pools/justlend-v1-btc-tron; b14g (Bitcoin), 0.12% APY, $200.21M TVL, https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec#src=seo_token; midas-rwa (Ethereum), 3.11% APY, $24.74M TVL, https://www.defi.garden/?pool=d2b2bdd9-6535-4acc-8e84-2b0838bd63bb#src=seo_token; midas-rwa (Monad), 3.11% APY, $5M TVL, https://www.defi.garden/?pool=24514f34-853f-4678-9faa-7cebf550aba7#src=seo_token; mezo-earn (Mezo), 2.81% APY, $69.65M TVL, https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c#src=seo_token; chainflip-lending (Bitcoin), 0.36% APY, $2.35M TVL, https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66#src=seo_token; chainflip-amm (Bitcoin), 3.12% APY, $5.51M TVL, https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BTC's lower-variability candidates are justlend-v1 (Tron), 0.01% APY, $561.73M TVL, https://www.defi.garden/pools/justlend-v1-btc-tron; b14g (Bitcoin), 0.12% APY, $201.1M TVL, https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec#src=seo_token; midas-rwa (Ethereum), 3.11% APY, $24.77M TVL, https://www.defi.garden/?pool=d2b2bdd9-6535-4acc-8e84-2b0838bd63bb#src=seo_token; midas-rwa (Monad), 3.11% APY, $5.01M TVL, https://www.defi.garden/?pool=24514f34-853f-4678-9faa-7cebf550aba7#src=seo_token; mezo-earn (Mezo), 2.79% APY, $69.43M TVL, https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c#src=seo_token; chainflip-lending (Bitcoin), 0.35% APY, $2.37M TVL, https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66#src=seo_token; chainflip-amm (Bitcoin), 3.03% APY, $5.53M TVL, https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -99,4 +99,4 @@ Based on APY history only, BTC's lower-variability candidates are justlend-v1 (T
 - [Osmosis](https://www.defi.garden/chains/osmosis)
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated October 4, 2026
+## Last updated October 5, 2026
