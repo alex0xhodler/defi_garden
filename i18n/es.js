@@ -1,20 +1,45 @@
 'use strict';
 
 /**
- * i18n/es.js — Spanish strings for the STATIC SEO pages (tokens/, chains/,
+ * i18n/es.js — Spanish (neutral Latin American) strings for the STATIC SEO pages (tokens/, chains/,
  * pools/ pages, hubs and sitemaps under /es/). Node-only: read by the
  * generators through i18n/index.js, never shipped to a browser.
  *
  * Shape: { key: string | function } — the same keys, parameters and
  * semantics as the EN entries in translations.js / i18n/static-en-ko.js.
- * Missing keys fall back to EN per key. Every entry starts as the EN value
- * marked `// TODO-TRANSLATE`; translate it and delete the marker.
+ * Missing keys fall back to EN per key.
  * `node scripts/i18n-key-inventory.js` is the done-check.
+ *
+ * Audience: retail stablecoin savers in Mexico, Argentina, Colombia and the
+ * rest of Latin America. Plain, calm, honest tone ("honest numbers beat
+ * exciting numbers"). Register: "tú" (no voseo, no "vosotros", no Spain-only
+ * vocabulary such as "ordenador").
+ *
+ * GLOSSARY (applied consistently; the native-review sheet in
+ * docs/i18n-review-pt-es.md repeats it)
+ *   yield ................ rendimiento  (titles lead with it)
+ *   rate (APY, rates) .... tasa
+ *   fees (trading fees) .. comisiones
+ *   lending .............. préstamo
+ *   liquidity ............ liquidez     (exit liquidity = liquidez de salida)
+ *   chain ................ red / redes
+ *   smart contract ....... contrato inteligente
+ *   pool, stablecoin, staking, vault, token, wallet, exploit, depeg
+ *                          kept as the loanwords LatAm users type
+ *   TVL floor ............ "TVL mínimo de $100K" (the floor is always a param)
+ *   honest ............... honesto
+ *   anomalous ............ anómalo
+ *   forecast ............. pronóstico
+ *   capital stickiness ... permanencia del capital
+ *   impermanent loss ..... pérdida impermanente
+ *   live (data / rates) .. en vivo; live (pool) -> activo
+ *   education, not advice  educación, no asesoría financiera
  *
  * Rules for translators
  *  - Parameters arrive already formatted (en-US numbers, "$1.2M", "12.34%").
  *    Print each one exactly as received: never reformat, round or localise it,
- *    and never use toLocaleString / Intl in here.
+ *    and never use toLocaleString / Intl in here. Number formatting stays en-US
+ *    (dot decimals) on purpose — CLAUDE.md hard rule.
  *  - Keep every number that is written into a string (35%, 25%, 15%, "5" ...).
  *  - Entries that contain HTML or Markdown syntax keep it intact.
  *  - Brand/ticker/technical terms (DeFi Garden, DefiLlama, DeFi Score, APY,
@@ -22,226 +47,238 @@
  *  - 'landing.*' and 'planner.*' keys are the nested namespaces of
  *    translations.js, flattened.
  */
+
+// Counts arrive as en-US strings ("1", "1,573"); only a literal 1 is singular.
+const one = (n) => String(n) === '1';
+const poolWord = (n) => (one(n) ? 'pool' : 'pools');
+const livePoolWord = (n) => (one(n) ? 'pool activo' : 'pools activos');
+const chainWord = (n) => (one(n) ? 'red' : 'redes');
+const tokenWord = (n) => (one(n) ? 'token' : 'tokens');
+const MONTHS = ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic'];
+
 module.exports = {
-  "aiAgents": "AI Agents & MCP",  // TODO-TRANSLATE
-  "apyMean30d": "30d Mean APY",  // TODO-TRANSLATE
-  "browseChains": "Browse chains",  // TODO-TRANSLATE
-  "browseTokens": "Browse tokens",  // TODO-TRANSLATE
-  "defillamaApi": "DefiLlama API",  // TODO-TRANSLATE
-  "footerSignOff": "Education, not advice.",  // TODO-TRANSLATE
-  "landing.navAgents": "AI Agents & MCP",  // TODO-TRANSLATE
-  "landing.navClose": "Close menu",  // TODO-TRANSLATE
-  "landing.navMenu": "Open menu",  // TODO-TRANSLATE
-  "landing.navMobile": "Mobile navigation",  // TODO-TRANSLATE
-  "landing.navPlanner": "Savings Planner",  // TODO-TRANSLATE
-  "landing.navPrimary": "Primary navigation",  // TODO-TRANSLATE
-  "landing.navSearch": "Search yields",  // TODO-TRANSLATE
-  "landing.themeDark": "Switch to dark mode",  // TODO-TRANSLATE
-  "landing.themeLight": "Switch to light mode",  // TODO-TRANSLATE
-  "planner.ladderClaude": "Claude Pro",  // TODO-TRANSLATE
-  "poweredBy": "Powered by",  // TODO-TRANSLATE
-  "pspAccessHeading": "Who can access it",  // TODO-TRANSLATE
-  "pspAccessOpen": "Permissionless — anyone with a wallet",  // TODO-TRANSLATE
-  "pspAccessOpenNote": "This project is not on DeFi Garden's list of restricted (KYC or accredited-only) projects. The protocol's own terms and regional restrictions can still apply.",  // TODO-TRANSLATE
-  "pspAccessRestricted": "Permissioned / KYC only",  // TODO-TRANSLATE
-  "pspAccessRestrictedNote": "This project is on DeFi Garden's list of restricted projects (KYC, accredited or qualified-purchaser access). Most retail users cannot deposit directly.",  // TODO-TRANSLATE
-  "pspAccuracyLink": "See how past forecasts performed",  // TODO-TRANSLATE
-  "pspBaseApy": "Base APY",  // TODO-TRANSLATE
-  "pspBreadcrumbPools": "Pools",  // TODO-TRANSLATE
-  "pspChartCaption": "Solid line: daily APY from DefiLlama. Shaded area: the model's p10 to p90 range, drawn as a straight fan from today's rate to the end of the forecast horizon (not daily quantiles). Dashed line: the model's median path.",  // TODO-TRANSLATE
-  "pspChartHeading": "APY history and forecast",  // TODO-TRANSLATE
-  "pspChartHorizon": (days) => `+${days}d`,  // TODO-TRANSLATE
+  "aiAgents": "Agentes de IA y MCP",
+  "apyMean30d": "APY promedio de 30d",
+  "browseChains": "Explorar redes",
+  "browseTokens": "Explorar tokens",
+  "defillamaApi": "DefiLlama API",
+  "footerSignOff": "Educación, no asesoría.",
+  "landing.navAgents": "Agentes de IA y MCP",
+  "landing.navClose": "Cerrar menú",
+  "landing.navMenu": "Abrir menú",
+  "landing.navMobile": "Navegación en el celular",
+  "landing.navPlanner": "Planificador de ahorro",
+  "landing.navPrimary": "Navegación principal",
+  "landing.navSearch": "Buscar rendimientos",
+  "landing.themeDark": "Cambiar a modo oscuro",
+  "landing.themeLight": "Cambiar a modo claro",
+  "planner.ladderClaude": "Claude Pro",
+  "poweredBy": "Con datos de",
+  "pspAccessHeading": "Quién puede acceder",
+  "pspAccessOpen": "Sin permisos: cualquier persona con una wallet",
+  "pspAccessOpenNote": "Este proyecto no está en la lista de DeFi Garden de proyectos restringidos (acceso solo con KYC o solo para inversionistas acreditados). Los términos del propio protocolo y las restricciones regionales aún pueden aplicar.",
+  "pspAccessRestricted": "Con permisos / solo KYC",
+  "pspAccessRestrictedNote": "Este proyecto está en la lista de DeFi Garden de proyectos restringidos (acceso con KYC, para inversionistas acreditados o compradores calificados). La mayoría de los usuarios individuales no puede depositar directamente.",
+  "pspAccuracyLink": "Mira cómo les fue a los pronósticos pasados",
+  "pspBaseApy": "APY base",
+  "pspBreadcrumbPools": "Pools",
+  "pspChartCaption": "Línea continua: APY diario de DefiLlama. Área sombreada: rango de p10 a p90 del modelo, dibujado como un abanico recto desde la tasa de hoy hasta el final del horizonte de pronóstico (no son cuantiles diarios). Línea punteada: trayectoria mediana del modelo.",
+  "pspChartHeading": "Historial y pronóstico del APY",
+  "pspChartHorizon": (days) => `+${days}d`,
   "pspChartTitle": (name, sym, chain, histDays, horizon, p10, p90) =>
-      `${name} ${sym} on ${chain}: APY over the last ${histDays} days, then a ${horizon}-day forecast band from ${p10} to ${p90}`,  // TODO-TRANSLATE
-  "pspChartToday": "today",  // TODO-TRANSLATE
-  "pspCrashRisk": (level) => ({ LOW: "Low crash risk", MEDIUM: "Medium crash risk", HIGH: "High crash risk" }[level] || `Crash risk: ${level}`),  // TODO-TRANSLATE
-  "pspCta": "Open in the Decision Terminal →",  // TODO-TRANSLATE
-  "pspDataAsOf": (date) => `Data as of ${date}. Source: DefiLlama pool data; score and forecast computed by DeFi Garden.`,  // TODO-TRANSLATE
-  "pspDatasetDescription": (name, sym, chain) => `Live DefiLlama yield data for ${name} ${sym} on ${chain}, with the DeFi Garden DeFi Score breakdown and a 14-day model forecast band.`,  // TODO-TRANSLATE
-  "pspDatasetName": (name, sym, chain) => `${name} ${sym} on ${chain}: APY, DeFi Score and 14-day forecast`,  // TODO-TRANSLATE
+      `${name} ${sym} en ${chain}: APY de los últimos ${histDays} días y, después, una banda de pronóstico de ${horizon} días, de ${p10} a ${p90}`,
+  "pspChartToday": "hoy",
+  "pspCrashRisk": (level) => ({ LOW: "Riesgo bajo de caída brusca", MEDIUM: "Riesgo medio de caída brusca", HIGH: "Riesgo alto de caída brusca" }[level] || `Riesgo de caída brusca: ${level}`),
+  "pspCta": "Abrir en el Decision Terminal →",
+  "pspDataAsOf": (date) => `Fecha de los datos: ${date}. Fuente: datos de pools de DefiLlama; la puntuación y el pronóstico los calcula DeFi Garden.`,
+  "pspDatasetDescription": (name, sym, chain) => `Datos de rendimiento en vivo de DefiLlama para ${name} ${sym} en ${chain}, con el desglose del DeFi Score de DeFi Garden y una banda de pronóstico del modelo a 14 días.`,
+  "pspDatasetName": (name, sym, chain) => `${name} ${sym} en ${chain}: APY, DeFi Score y pronóstico a 14 días`,
   "pspDescription": (name, sym, chain, apy, mean30, tvl, score, p10, p90, date) =>
-      `${name} ${sym} on ${chain}: ${apy} APY live, ${mean30} 30-day mean, ${tvl} TVL, DeFi Score ${score}/100, 14-day model forecast ${p10} to ${p90}. Data as of ${date}.`,  // TODO-TRANSLATE
-  "pspExposureMulti": "Exposure: multiple assets.",  // TODO-TRANSLATE
-  "pspExposureSingle": "Exposure: a single asset.",  // TODO-TRANSLATE
+      `${name} ${sym} en ${chain}: APY ${apy} en vivo, promedio de 30d ${mean30}, TVL ${tvl}, DeFi Score ${score}/100, pronóstico del modelo a 14 días ${p10} a ${p90}. Fecha: ${date}.`,
+  "pspExposureMulti": "Exposición: varios activos.",
+  "pspExposureSingle": "Exposición: un solo activo.",
   "pspForecastDisclaimer": (totalRuns, noBetter, evaluated) => {
-      if (!totalRuns || Number(totalRuns) <= 0) return "Experimental model: not yet shown to be more accurate than assuming today's rate holds. Past evaluation is publicly documented.";
-      let s = `Experimental model: across ${totalRuns} resolved test runs`;
-      if (noBetter != null && evaluated != null) s += `, in ${noBetter} of ${evaluated} assuming today's rate holds was at least as accurate`;
-      return s + '. Past multi-run evaluation is publicly documented.';
-    },  // TODO-TRANSLATE
-  "pspForecastFlat": (cur, p50) => `Read: the model expects the rate to stay roughly flat, from ${cur} today to about ${p50}.`,  // TODO-TRANSLATE
-  "pspForecastHeading": "14-day forecast band (experimental)",  // TODO-TRANSLATE
-  "pspForecastHigher": (cur, p50) => `Read: the model expects the rate to drift higher, from ${cur} today to about ${p50}.`,  // TODO-TRANSLATE
-  "pspForecastLead": (days, p50, p10, p90) => `Model forecast for the next ${days} days: median ${p50}, range ${p10} to ${p90} (p10 to p90).`,  // TODO-TRANSLATE
-  "pspForecastLower": (cur, p50) => `Read: the model expects the rate to drift lower, from ${cur} today to about ${p50}.`,  // TODO-TRANSLATE
-  "pspH1": (name, sym, chain) => `${name} ${sym} on ${chain}: APY, DeFi Score & 14-day forecast`,  // TODO-TRANSLATE
-  "pspHubDescription": (count) => `${count} large DeFi pools with live APY, a DeFi Score breakdown and a 14-day forecast band.`,  // TODO-TRANSLATE
-  "pspHubHeading": "Scored DeFi pools",  // TODO-TRANSLATE
-  "pspHubIntro": "Each page shows the live rate, the DeFi Score pillars, a 14-day model forecast band, who can access the pool and the main risks. Numbers come from DefiLlama; scores and forecasts are model outputs.",  // TODO-TRANSLATE
-  "pspHubLink": "Browse scored pools →",  // TODO-TRANSLATE
-  "pspHubSub": (count, tvlFloor) => `${count} pools with at least ${tvlFloor} TVL and 30 days of history.`,  // TODO-TRANSLATE
-  "pspHubTitle": "Scored DeFi Pools: APY, DeFi Score & Forecast | DeFi Garden",  // TODO-TRANSLATE
-  "pspIlNo": "DefiLlama flags no impermanent-loss risk for this pool.",  // TODO-TRANSLATE
-  "pspIlYes": "DefiLlama flags impermanent-loss risk for this pool.",  // TODO-TRANSLATE
-  "pspLegendBand": "Forecast p10 to p90",  // TODO-TRANSLATE
-  "pspLegendHistory": "Observed APY",  // TODO-TRANSLATE
-  "pspLegendMedian": "Forecast median",  // TODO-TRANSLATE
-  "pspLiveApy": "Live APY",  // TODO-TRANSLATE
-  "pspMean30": "30-day mean APY",  // TODO-TRANSLATE
-  "pspMethodologyLink": "Score and forecast details (MCP server)",  // TODO-TRANSLATE
-  "pspNotAdvice": "Education, not financial advice. DeFi carries smart-contract, market and regulatory risk, and you can lose money.",  // TODO-TRANSLATE
-  "pspP10": "Low case (p10)",  // TODO-TRANSLATE
-  "pspP50": "Median (p50)",  // TODO-TRANSLATE
-  "pspP90": "High case (p90)",  // TODO-TRANSLATE
-  "pspPillarLiquidity": "Exit liquidity",  // TODO-TRANSLATE
-  "pspPillarStability": "Yield stability",  // TODO-TRANSLATE
-  "pspPillarStickiness": "Capital stickiness",  // TODO-TRANSLATE
-  "pspPillarSustainability": "Sustainability",  // TODO-TRANSLATE
-  "pspPoolMeta": (meta) => `Pool variant: ${meta}.`,  // TODO-TRANSLATE
-  "pspRewardApy": "Reward APY",  // TODO-TRANSLATE
-  "pspRiskContract": "Smart-contract risk: a bug or exploit in the protocol or its dependencies can lose deposited funds.",  // TODO-TRANSLATE
-  "pspRiskCrash": (label) => `Model flag: ${label} for the next 14 days.`,  // TODO-TRANSLATE
-  "pspRiskIl": "Impermanent loss: this pool's value can fall behind simply holding the assets if their prices diverge.",  // TODO-TRANSLATE
-  "pspRiskNone": "No pool-specific warning flags in the data beyond the standing risks above.",  // TODO-TRANSLATE
-  "pspRiskReward": (pct) => `Reward decay: ${pct} of the headline APY is paid in emitted tokens, which can shrink or stop.`,  // TODO-TRANSLATE
-  "pspRiskTvlDown": (pct) => `Shrinking deposits: TVL changed ${pct} over the tracked window, so capital is leaving.`,  // TODO-TRANSLATE
-  "pspRiskTvlUp": (pct) => `Growing deposits: TVL changed ${pct} over the tracked window. That is one sign of demand, not a guarantee, and a rising TVL can dilute rewards.`,  // TODO-TRANSLATE
-  "pspRiskVol": (stdev, apy) => `Volatile rate: the 30-day standard deviation is ${stdev} against a ${apy} current rate.`,  // TODO-TRANSLATE
-  "pspRisksHeading": "Risks",  // TODO-TRANSLATE
-  "pspScoreHeading": "DeFi Score: Yield Quality",  // TODO-TRANSLATE
-  "pspScoreNote": "The score evaluates yield quality across four pillars (stability, fee sustainability, depositor stickiness, exit liquidity). Note: capital stickiness incorporates default estimates where on-chain wallet distribution is unindexed.",  // TODO-TRANSLATE
-  "pspScoreValue": (score) => `Score ${score} / 100`,  // TODO-TRANSLATE
-  "pspSecondaryChain": (chain) => `More ${chain} pools →`,  // TODO-TRANSLATE
-  "pspSecondaryProtocol": (name) => `Go to ${name} →`,  // TODO-TRANSLATE
-  "pspSimilarHeading": "Similar pools",  // TODO-TRANSLATE
-  "pspSimilarItem": (name, sym, chain, tvl) => `${name} ${sym} on ${chain} (${tvl} TVL)`,  // TODO-TRANSLATE
-  "pspSourceBase": (apy, pct) => `${apy} (${pct} of the total) is base yield: trading fees or interest paid by the protocol's users.`,  // TODO-TRANSLATE
-  "pspSourceHeading": "What produces this yield",  // TODO-TRANSLATE
-  "pspSourceNone": "DefiLlama reports no base or reward APY for this pool right now.",  // TODO-TRANSLATE
-  "pspSourceReward": (apy, pct) => `${apy} (${pct} of the total) comes from reward tokens the protocol emits to attract deposits. Emissions can be cut or end.`,  // TODO-TRANSLATE
-  "pspSummaryHeading": "Summary",  // TODO-TRANSLATE
-  "pspTitleBare": (name, sym, chain) => `${name} ${sym} APY on ${chain}`,  // TODO-TRANSLATE
-  "pspTitleDated": (name, sym, chain, date) => `${name} ${sym} APY on ${chain} (${date}) | DeFi Garden`,  // TODO-TRANSLATE
-  "pspTitleUndated": (name, sym, chain) => `${name} ${sym} APY on ${chain} | DeFi Garden`,  // TODO-TRANSLATE
-  "pspTvl": "TVL",  // TODO-TRANSLATE
-  "pspWithdrawGeneric": "Lock-ups, cooldowns and withdrawal queues are set by the protocol's contracts and are not in the DefiLlama feed. Check the protocol's documentation before depositing.",  // TODO-TRANSLATE
-  "pspWithdrawHeading": "Withdrawal notes",  // TODO-TRANSLATE
-  "pspWithdrawLiquidity": (tvl, score, max) => `Exit liquidity pillar: ${score} / ${max}, with ${tvl} in the pool.`,  // TODO-TRANSLATE
-  "pspWithdrawTvlForecast": (pred, delta) => `The model projects TVL of ${pred} in 14 days (${delta}).`,  // TODO-TRANSLATE
-  "tcpAllChainsHeading": "All chains",  // TODO-TRANSLATE
+      if (!totalRuns || Number(totalRuns) <= 0) return "Modelo experimental: aún no se ha demostrado que sea más preciso que suponer que la tasa de hoy se mantiene. La evaluación pasada está documentada públicamente.";
+      let s = `Modelo experimental: en ${totalRuns} ejecuciones de prueba con resultado ya conocido`;
+      if (noBetter != null && evaluated != null) s += `, en ${noBetter} de ${evaluated} suponer que la tasa de hoy se mantiene fue al menos tan preciso como el modelo`;
+      return s + '. La evaluación pasada, con varias ejecuciones, está documentada públicamente.';
+    },
+  "pspForecastFlat": (cur, p50) => `Lectura: el modelo espera que la tasa se mantenga más o menos estable, de ${cur} hoy a cerca de ${p50}.`,
+  "pspForecastHeading": "Banda de pronóstico a 14 días (experimental)",
+  "pspForecastHigher": (cur, p50) => `Lectura: el modelo espera que la tasa tienda a subir, de ${cur} hoy a cerca de ${p50}.`,
+  "pspForecastLead": (days, p50, p10, p90) => `Pronóstico del modelo para los próximos ${days} días: mediana de ${p50}, rango de ${p10} a ${p90} (p10 a p90).`,
+  "pspForecastLower": (cur, p50) => `Lectura: el modelo espera que la tasa tienda a bajar, de ${cur} hoy a cerca de ${p50}.`,
+  "pspH1": (name, sym, chain) => `${name} ${sym} en ${chain}: APY, DeFi Score y pronóstico a 14 días`,
+  "pspHubDescription": (count) => `${count} pools DeFi grandes con APY en vivo, desglose del DeFi Score y banda de pronóstico a 14 días.`,
+  "pspHubHeading": "Pools DeFi evaluados",
+  "pspHubIntro": "Cada página muestra la tasa en vivo, los pilares del DeFi Score, una banda de pronóstico del modelo a 14 días, quién puede acceder al pool y los principales riesgos. Los números vienen de DefiLlama; los scores y los pronósticos son resultados de un modelo.",
+  "pspHubLink": "Ver pools evaluados →",
+  "pspHubSub": (count, tvlFloor) => `${count} pools con al menos ${tvlFloor} de TVL y 30 días de historial.`,
+  "pspHubTitle": "Pools DeFi evaluados: APY, DeFi Score y pronóstico | DeFi Garden",
+  "pspIlNo": "DefiLlama no señala riesgo de pérdida impermanente en este pool.",
+  "pspIlYes": "DefiLlama señala riesgo de pérdida impermanente en este pool.",
+  "pspLegendBand": "Pronóstico p10 a p90",
+  "pspLegendHistory": "APY observado",
+  "pspLegendMedian": "Mediana del pronóstico",
+  "pspLiveApy": "APY en vivo",
+  "pspMean30": "APY promedio de 30 días",
+  "pspMethodologyLink": "Detalles del score y del pronóstico (servidor MCP)",
+  "pspNotAdvice": "Educación, no asesoría financiera. DeFi implica riesgo de contrato inteligente, de mercado y regulatorio, y puedes perder dinero.",
+  "pspP10": "Escenario bajo (p10)",
+  "pspP50": "Mediana (p50)",
+  "pspP90": "Escenario alto (p90)",
+  "pspPillarLiquidity": "Liquidez de salida",
+  "pspPillarStability": "Estabilidad del rendimiento",
+  "pspPillarStickiness": "Permanencia del capital",
+  "pspPillarSustainability": "Sostenibilidad",
+  "pspPoolMeta": (meta) => `Variante del pool: ${meta}.`,
+  "pspRewardApy": "APY de recompensas",
+  "pspRiskContract": "Riesgo de contrato inteligente: un error o exploit en el protocolo o en sus dependencias puede hacer perder los fondos depositados.",
+  "pspRiskCrash": (label) => `Alerta del modelo: ${label} para los próximos 14 días.`,
+  "pspRiskIl": "Pérdida impermanente: el valor de este pool puede quedar por debajo de lo que tendrías con solo mantener los activos, si sus precios se separan.",
+  "pspRiskNone": "No hay alertas específicas de este pool en los datos, más allá de los riesgos permanentes de arriba.",
+  "pspRiskReward": (pct) => `Caída de las recompensas: ${pct} del APY publicado se paga en tokens emitidos, que pueden reducirse o dejar de pagarse.`,
+  "pspRiskTvlDown": (pct) => `Depósitos a la baja: el TVL cambió ${pct} en el periodo analizado, es decir, está saliendo capital.`,
+  "pspRiskTvlUp": (pct) => `Depósitos al alza: el TVL cambió ${pct} en el periodo analizado. Es una señal de demanda, no una garantía, y un TVL en aumento puede diluir las recompensas.`,
+  "pspRiskVol": (stdev, apy) => `Tasa volátil: la desviación estándar de 30 días es ${stdev}, frente a una tasa actual de ${apy}.`,
+  "pspRisksHeading": "Riesgos",
+  "pspScoreHeading": "DeFi Score: calidad del rendimiento",
+  "pspScoreNote": "La puntuación evalúa la calidad del rendimiento en cuatro pilares (estabilidad, sostenibilidad de las comisiones, permanencia de los depositantes, liquidez de salida). Nota: la permanencia del capital usa estimaciones por defecto cuando la distribución de wallets on-chain no está indexada.",
+  "pspScoreValue": (score) => `Puntuación ${score} / 100`,
+  "pspSecondaryChain": (chain) => `Más pools en ${chain} →`,
+  "pspSecondaryProtocol": (name) => `Ir a ${name} →`,
+  "pspSimilarHeading": "Pools similares",
+  "pspSimilarItem": (name, sym, chain, tvl) => `${name} ${sym} en ${chain} (${tvl} de TVL)`,
+  "pspSourceBase": (apy, pct) => `${apy} (${pct} del total) es rendimiento base: comisiones de trading o intereses que pagan los usuarios del protocolo.`,
+  "pspSourceHeading": "Qué genera este rendimiento",
+  "pspSourceNone": "DefiLlama no reporta APY base ni APY de recompensas para este pool por ahora.",
+  "pspSourceReward": (apy, pct) => `${apy} (${pct} del total) viene de tokens de recompensa que el protocolo emite para atraer depósitos. Las emisiones pueden recortarse o terminar.`,
+  "pspSummaryHeading": "Resumen",
+  "pspTitleBare": (name, sym, chain) => `APY de ${name} ${sym} en ${chain}`,
+  "pspTitleDated": (name, sym, chain, date) => `APY de ${name} ${sym} en ${chain} (${date}) | DeFi Garden`,
+  "pspTitleUndated": (name, sym, chain) => `APY de ${name} ${sym} en ${chain} | DeFi Garden`,
+  "pspTvl": "TVL",
+  "pspWithdrawGeneric": "Los periodos de bloqueo, las esperas y las colas de retiro los definen los contratos del protocolo y no están en el feed de DefiLlama. Revisa la documentación del protocolo antes de depositar.",
+  "pspWithdrawHeading": "Notas sobre retiros",
+  "pspWithdrawLiquidity": (tvl, score, max) => `Pilar de liquidez de salida: ${score} / ${max}, con ${tvl} en el pool.`,
+  "pspWithdrawTvlForecast": (pred, delta) => `El modelo proyecta un TVL de ${pred} en 14 días (${delta}).`,
+  "tcpAllChainsHeading": "Todas las redes",
   "tcpAnswer": (label, apyStr, project, chain, count, floorStr) =>
-      `The highest honest ${label} yield right now is ${apyStr} on ${project} (${chain}), among ${count} ${String(count) === '1' ? 'pool' : 'pools'} above the ${floorStr} TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.`,  // TODO-TRANSLATE
-  "tcpAvailableOnHeading": "Available on",  // TODO-TRANSLATE
-  "tcpAzBackCta": "← All tokens",  // TODO-TRANSLATE
-  "tcpAzDescription": (letter, count) => `${count} DeFi tokens starting with "${letter}" with live, trust-filtered yield data on DeFi Garden.`,  // TODO-TRANSLATE
-  "tcpAzHeading": (letter) => `Tokens starting with ${letter}`,  // TODO-TRANSLATE
-  "tcpAzSub": (count) => `${count} tokens`,  // TODO-TRANSLATE
-  "tcpAzTitle": (letter) => `Tokens starting with ${letter} | DeFi Garden 🌱`,  // TODO-TRANSLATE
-  "tcpBreadcrumbChains": "Chains",  // TODO-TRANSLATE
-  "tcpBreadcrumbHome": "Home",  // TODO-TRANSLATE
-  "tcpBreadcrumbTokens": "Tokens",  // TODO-TRANSLATE
-  "tcpBrowseAZHeading": "Browse all tokens A–Z",  // TODO-TRANSLATE
-  "tcpByCategoryHeading": "By category",  // TODO-TRANSLATE
-  "tcpChainCta": (chain) => `See live pools on ${chain} →`,  // TODO-TRANSLATE
+      `El mayor rendimiento honesto de ${label} ahora es ${apyStr} en ${project} (${chain}), entre ${count} ${poolWord(count)} por encima del TVL mínimo de ${floorStr}. Las tasas son en vivo de DefiLlama y excluyen pools anómalos (APY >1000%).`,
+  "tcpAvailableOnHeading": "Disponible en",
+  "tcpAzBackCta": "← Todos los tokens",
+  "tcpAzDescription": (letter, count) => `${count} tokens DeFi que empiezan con "${letter}", con datos de rendimiento en vivo y filtrados por confianza en DeFi Garden.`,
+  "tcpAzHeading": (letter) => `Tokens que empiezan con ${letter}`,
+  "tcpAzSub": (count) => `${count} tokens`,
+  "tcpAzTitle": (letter) => `Tokens que empiezan con ${letter} | DeFi Garden 🌱`,
+  "tcpBreadcrumbChains": "Redes",
+  "tcpBreadcrumbHome": "Inicio",
+  "tcpBreadcrumbTokens": "Tokens",
+  "tcpBrowseAZHeading": "Explorar todos los tokens de la A a la Z",
+  "tcpByCategoryHeading": "Por categoría",
+  "tcpChainCta": (chain) => `Ver pools activos en ${chain} →`,
   "tcpChainDescription": (chain, count, apy, tokenCount, floorStr) =>
-      `${count} live ${String(count) === '1' ? 'pool' : 'pools'} on ${chain} above the ${floorStr} TVL floor, up to ${apy} APY, across ${tokenCount} ${String(tokenCount) === '1' ? 'token' : 'tokens'}. Honest yields from DefiLlama data — no anomalous rates.`,  // TODO-TRANSLATE
-  "tcpChainHeading": (chain) => `${chain} DeFi Yields`,  // TODO-TRANSLATE
-  "tcpChainHubDescription": (count) => `${count} chains with live, trust-filtered DeFi yield data, ranked by TVL. Honest yields from DefiLlama, no anomalous rates.`,  // TODO-TRANSLATE
-  "tcpChainHubHeading": "All Chain Yield Pages",  // TODO-TRANSLATE
-  "tcpChainHubIntro": (floorStr) => `Every DeFi Garden chain page in one place — live pools ranked by TVL, filtered through a ${floorStr} TVL floor and anomaly rails.`,  // TODO-TRANSLATE
-  "tcpChainHubSub": (count) => `${count} chains with live, trust-filtered yield data`,  // TODO-TRANSLATE
-  "tcpChainHubTitle": "Every Chain's Live DeFi Yields | DeFi Garden 🌱",  // TODO-TRANSLATE
+      `${count} ${livePoolWord(count)} en ${chain} sobre el TVL mínimo de ${floorStr}, hasta ${apy} APY, en ${tokenCount} ${tokenWord(tokenCount)}. Rendimientos honestos con datos de DefiLlama, sin tasas anómalas.`,
+  "tcpChainHeading": (chain) => `Rendimientos DeFi en ${chain}`,
+  "tcpChainHubDescription": (count) => `${count} redes con datos de rendimiento DeFi en vivo y filtrados por confianza, ordenadas por TVL. Rendimientos honestos de DefiLlama, sin tasas anómalas.`,
+  "tcpChainHubHeading": "Rendimientos de todas las redes",
+  "tcpChainHubIntro": (floorStr) => `Todas las páginas de redes de DeFi Garden en un solo lugar: pools en vivo ordenados por TVL, filtrados con un TVL mínimo de ${floorStr} y con filtros de anomalías.`,
+  "tcpChainHubSub": (count) => `${count} redes con datos de rendimiento en vivo y filtrados por confianza`,
+  "tcpChainHubTitle": "Rendimientos DeFi en vivo de todas las redes | DeFi Garden 🌱",
   "tcpChainIntro": (chain, project, symbol, apy, tvl, count, tokenCount, totalTvl, floorStr) =>
-      `${chain}'s largest live pool is ${project} (${symbol}) at ${apy} (${tvl} TVL). ${count} ${String(count) === '1' ? 'pool' : 'pools'} across ${tokenCount} ${String(tokenCount) === '1' ? 'token' : 'tokens'} clear this page's ${floorStr} TVL floor, ${totalTvl} in total.`,  // TODO-TRANSLATE
+      `El mayor pool activo en ${chain} es ${project} (${symbol}), con ${apy} (${tvl} de TVL). ${count} ${poolWord(count)} en ${tokenCount} ${tokenWord(tokenCount)} ${one(count) ? 'alcanza' : 'alcanzan'} el TVL mínimo de ${floorStr} de esta página, ${totalTvl} en total.`,
   "tcpChainTitle": (chain, dateStr) => dateStr
-      ? `Best ${chain} Yield Rates (${dateStr}) — Live Pools Compared | DeFi Garden`
-      : `${chain} DeFi Yields — Live Pools by TVL | DeFi Garden`,  // TODO-TRANSLATE
-  "tcpChainsAriaLabel": "Chains",  // TODO-TRANSLATE
-  "tcpColApy": "APY",  // TODO-TRANSLATE
-  "tcpColChain": "Chain",  // TODO-TRANSLATE
-  "tcpColProtocol": "Protocol",  // TODO-TRANSLATE
-  "tcpColToken": "Token",  // TODO-TRANSLATE
-  "tcpColTvl": "TVL",  // TODO-TRANSLATE
-  "tcpDatasetChainDescription": (chain, floorStr) => `Live DefiLlama yield data for ${chain} pools on DeFi Garden, filtered by a ${floorStr} TVL floor and anomalous-APY exclusion.`,  // TODO-TRANSLATE
-  "tcpDatasetChainName": (chain) => `${chain} DeFi Yields Dataset`,  // TODO-TRANSLATE
-  "tcpDatasetTokenDescription": (sym, floorStr) => `Live DefiLlama yield data for ${sym} pools on DeFi Garden, filtered by a ${floorStr} TVL floor and anomalous-APY exclusion.`,  // TODO-TRANSLATE
-  "tcpDatasetTokenName": (sym) => `${sym} DeFi Yields Dataset`,  // TODO-TRANSLATE
-  "tcpDepthColMix": "Yield mix",  // TODO-TRANSLATE
-  "tcpDepthHeading": "How this rate has behaved",  // TODO-TRANSLATE
+      ? `Rendimiento en ${chain} (${dateStr}) — pools comparados | DeFi Garden`
+      : `Rendimiento DeFi en ${chain} — pools por TVL | DeFi Garden`,
+  "tcpChainsAriaLabel": "Redes",
+  "tcpColApy": "APY",
+  "tcpColChain": "Red",
+  "tcpColProtocol": "Protocolo",
+  "tcpColToken": "Token",
+  "tcpColTvl": "TVL",
+  "tcpDatasetChainDescription": (chain, floorStr) => `Datos de rendimiento en vivo de DefiLlama para pools en ${chain} en DeFi Garden, filtrados con un TVL mínimo de ${floorStr} y con exclusión de APY anómalo.`,
+  "tcpDatasetChainName": (chain) => `Dataset de rendimientos DeFi en ${chain}`,
+  "tcpDatasetTokenDescription": (sym, floorStr) => `Datos de rendimiento en vivo de DefiLlama para pools de ${sym} en DeFi Garden, filtrados con un TVL mínimo de ${floorStr} y con exclusión de APY anómalo.`,
+  "tcpDatasetTokenName": (sym) => `Dataset de rendimientos DeFi de ${sym}`,
+  "tcpDepthColMix": "Composición del rendimiento",
+  "tcpDepthHeading": "Cómo se ha comportado esta tasa",
   "tcpDepthIlExposure": (ilCount, poolCount) =>
-      `${ilCount} of ${poolCount} ${Number(poolCount) === 1 ? 'pool' : 'pools'} ${Number(ilCount) === 1 ? 'carries' : 'carry'} impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.`,  // TODO-TRANSLATE
+      `${ilCount} de ${poolCount} ${poolWord(poolCount)} ${one(ilCount) ? 'tiene' : 'tienen'} riesgo de pérdida impermanente, es decir, una posición con dos activos puede perder valor frente a simplemente mantener los activos, incluso mientras genera rendimiento.`,
   "tcpDepthMean": (meanCount, poolCount, medianMeanStr) =>
-      `${meanCount} of these ${poolCount} ${Number(poolCount) === 1 ? 'pool' : 'pools'} ${Number(meanCount) === 1 ? 'has' : 'have'} a trustworthy 30-day average on file, with a median of ${medianMeanStr} — a useful check against today's number for whether the rate is steady or just having a good day.`,  // TODO-TRANSLATE
+      `${meanCount} de ${poolCount} ${poolWord(poolCount)} ${one(meanCount) ? 'tiene' : 'tienen'} un promedio de 30 días confiable registrado, con una mediana de ${medianMeanStr} — una buena referencia frente al número de hoy para saber si la tasa es estable o si hoy es solo un buen día.`,
   "tcpDepthMixAllBase": (poolCount) =>
-      `All ${poolCount} ${Number(poolCount) === 1 ? 'pool pays' : 'pools pay'} a plain base rate right now — no incentive or reward APY mixed in.`,  // TODO-TRANSLATE
-  "tcpDepthMixBaseCell": "Base rate",  // TODO-TRANSLATE
-  "tcpDepthMixIncentiveCell": (shareStr) => `${shareStr} incentives`,  // TODO-TRANSLATE
+      one(poolCount)
+        ? 'El único pool paga una tasa base simple por ahora, sin APY de incentivos ni de recompensas mezclado.'
+        : `Los ${poolCount} pools pagan una tasa base simple por ahora, sin APY de incentivos ni de recompensas mezclado.`,
+  "tcpDepthMixBaseCell": "Tasa base",
+  "tcpDepthMixIncentiveCell": (shareStr) => `${shareStr} de incentivos`,
   "tcpDepthMixIncentives": (rewardCount, poolCount) =>
-      `${rewardCount} of ${poolCount} ${Number(poolCount) === 1 ? 'pool' : 'pools'} ${Number(rewardCount) === 1 ? 'blends' : 'blend'} in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.`,  // TODO-TRANSLATE
+      `${rewardCount} de ${poolCount} ${poolWord(poolCount)} ${one(rewardCount) ? 'combina' : 'combinan'} APY de incentivos o de recompensas además de la tasa base. El rendimiento por incentivos se reduce con el tiempo, a medida que se agotan los programas de recompensas; la tasa base es el número más duradero.`,
   "tcpDepthNote": (floorStr) =>
-      `The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a ${floorStr} minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.`,  // TODO-TRANSLATE
+      `El promedio de 30 días viene directo de DefiLlama y solo aparece cuando pasa el mismo filtro de sensatez que todos los demás números de esta página. Un guion significa que no pasó ese filtro, no que se esté ocultando. Todos los pools de aquí ya cumplen un TVL mínimo de ${floorStr}. Las tasas cambian a diario, así que tómalo como una foto del momento, no como una promesa.`,
   "tcpDepthSpread": (symbol, poolCount, lowApyStr, highApyStr, chainCount) =>
-      `${symbol} shows up in ${poolCount} ${poolCount === 1 ? 'pool' : 'pools'} here, with rates from ${lowApyStr} to ${highApyStr} APY across ${chainCount} ${chainCount === 1 ? 'chain' : 'chains'} — the rate depends on which protocol and chain you pick, not just the token.`,  // TODO-TRANSLATE
-  "tcpFaqA1": (apyStr, project, chain) => `${apyStr} APY on ${project} (${chain}), based on live DefiLlama data.`,  // TODO-TRANSLATE
-  "tcpFaqA2": (count, tvlStr, floorStr) => `${count} live ${String(count) === '1' ? 'pool' : 'pools'} clear this page's ${floorStr} TVL floor, ${tvlStr} in total.`,  // TODO-TRANSLATE
-  "tcpFaqA3": (floorStr) => `Pools listed on this page clear a ${floorStr} minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.`,  // TODO-TRANSLATE
-  "tcpFaqHeading": "Frequently asked questions",  // TODO-TRANSLATE
-  "tcpFaqQ1": (label) => `What's the highest ${label} yield today?`,  // TODO-TRANSLATE
-  "tcpFaqQ2": (label) => `How many ${label} pools clear the TVL floor?`,  // TODO-TRANSLATE
-  "tcpFaqQ3": "Are these rates safe?",  // TODO-TRANSLATE
-  "tcpFooterTagline": "plan your DeFi savings by goal.",  // TODO-TRANSLATE
-  "tcpHubBackCta": "← Back to DeFi Garden",  // TODO-TRANSLATE
-  "tcpItemListName": (project, chain) => `${project} on ${chain}`,  // TODO-TRANSLATE
-  "tcpLanguageLabel": "Language",  // TODO-TRANSLATE
-  "tcpLastUpdated": (date) => `Last updated ${date}`,  // TODO-TRANSLATE
-  "tcpMonthYear": (monthShortEn, month, year) => `${monthShortEn} ${year}`,  // TODO-TRANSLATE
-  "tcpPoolCategoriesAriaLabel": "Pool categories",  // TODO-TRANSLATE
+      `${symbol} aparece en ${poolCount} ${poolWord(poolCount)} aquí, con tasas de ${lowApyStr} a ${highApyStr} APY en ${chainCount} ${chainWord(chainCount)} — la tasa depende del protocolo y de la red que elijas, no solo del token.`,
+  "tcpFaqA1": (apyStr, project, chain) => `${apyStr} de APY en ${project} (${chain}), según datos en vivo de DefiLlama.`,
+  "tcpFaqA2": (count, tvlStr, floorStr) => `${count} ${livePoolWord(count)} ${one(count) ? 'alcanza' : 'alcanzan'} el TVL mínimo de ${floorStr} de esta página, ${tvlStr} en total.`,
+  "tcpFaqA3": (floorStr) => `Los pools de esta página alcanzan un TVL mínimo de ${floorStr} y excluyen tasas anómalas (APY >1000%). Ese es el criterio de listado de esta página, no una garantía de seguridad. Esto es educación, no asesoría financiera; DeFi implica riesgo de contrato inteligente y de mercado, sin importar la tasa que se muestre.`,
+  "tcpFaqHeading": "Preguntas frecuentes",
+  "tcpFaqQ1": (label) => `¿Cuál es el mayor rendimiento de ${label} hoy?`,
+  "tcpFaqQ2": (label) => `¿Cuántos pools de ${label} alcanzan el TVL mínimo?`,
+  "tcpFaqQ3": "¿Son seguras estas tasas?",
+  "tcpFooterTagline": "planifica tu ahorro en DeFi por objetivo.",
+  "tcpHubBackCta": "← Volver a DeFi Garden",
+  "tcpItemListName": (project, chain) => `${project} en ${chain}`,
+  "tcpLanguageLabel": "Idioma",
+  "tcpLastUpdated": (date) => `Última actualización: ${date}`,
+  "tcpMonthYear": (monthShortEn, month, year) => `${MONTHS[Number(month) - 1] || monthShortEn} ${year}`,
+  "tcpPoolCategoriesAriaLabel": "Categorías de pools",
+  "tcpPoolTypeLabel": (type) => ({ 'Lending': 'Préstamos', 'Yield Derivatives': 'Derivados de rendimiento', 'Yield Farming': 'Yield farming', 'LP/DEX': 'LP/DEX', 'Staking': 'Staking', 'RWA': 'RWA' }[type] || type),
   "tcpRateStabilityCandidate": (project, chain, apyStr, tvlStr, href) =>
-      `${project} (${chain}), ${apyStr} APY, ${tvlStr} TVL, ${href}`,  // TODO-TRANSLATE
-  "tcpRateStabilityColRank": "Rank",  // TODO-TRANSLATE
-  "tcpRateStabilityFaqQ": (symbol) => `Which ${symbol} pools have the most stable APY history?`,  // TODO-TRANSLATE
-  "tcpRateStabilityHeading": "Rate stability from APY history",  // TODO-TRANSLATE
+      `${project} (${chain}), APY de ${apyStr}, TVL de ${tvlStr}, ${href}`,
+  "tcpRateStabilityColRank": "Posición",
+  "tcpRateStabilityFaqQ": (symbol) => `¿Qué pools de ${symbol} tienen el historial de APY más estable?`,
+  "tcpRateStabilityHeading": "Estabilidad de la tasa según el historial de APY",
   "tcpRateStabilityInsufficientAnswer": (symbol) =>
-      `There is not enough qualifying APY history to rank ${symbol} pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.`,  // TODO-TRANSLATE
+      `No hay suficiente historial de APY válido para clasificar los pools de ${symbol}. Esta vista cubre solo el historial de APY y no mide riesgo de protocolo, de exploit, de depeg, de liquidez, de gobernanza ni de pérdida de capital.`,
   "tcpRateStabilityRankedAnswer": (symbol, candidates) =>
-      `Based on APY history only, ${symbol}'s lower-variability candidates are ${candidates}. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.`,  // TODO-TRANSLATE
-  "tcpRelatedChainsHeading": "Related chains",  // TODO-TRANSLATE
-  "tcpRelatedTokensHeading": "Related tokens",  // TODO-TRANSLATE
-  "tcpRestrictedAccessTitle": "Restricted access (KYC/accredited)",  // TODO-TRANSLATE
-  "tcpSubLine": (count, floorStr) => `${count} live ${String(count) === '1' ? 'pool' : 'pools'} above the ${floorStr} TVL floor · ranked by TVL`,  // TODO-TRANSLATE
-  "tcpTokenCta": (sym) => `See live ${sym} pools →`,  // TODO-TRANSLATE
+      `Con base solo en el historial de APY, los candidatos de ${symbol} con menor variabilidad son ${candidates}. Esta comparación no mide riesgo de protocolo, de exploit, de depeg, de liquidez, de gobernanza ni de pérdida de capital.`,
+  "tcpRelatedChainsHeading": "Redes relacionadas",
+  "tcpRelatedTokensHeading": "Tokens relacionados",
+  "tcpRestrictedAccessTitle": "Acceso restringido (KYC/inversionistas acreditados)",
+  "tcpSubLine": (count, floorStr) => `${count} ${livePoolWord(count)} por encima del TVL mínimo de ${floorStr} · ordenados por TVL`,
+  "tcpTokenCta": (sym) => `Ver pools activos de ${sym} →`,
   "tcpTokenDescription": (sym, count, apy, chainCount, floorStr) =>
-      `${count} live ${sym} ${String(count) === '1' ? 'pool' : 'pools'} above the ${floorStr} TVL floor, up to ${apy} APY, across ${chainCount} ${String(chainCount) === '1' ? 'chain' : 'chains'}. Honest yields from DefiLlama data — no anomalous rates.`,  // TODO-TRANSLATE
-  "tcpTokenHeading": (sym) => `${sym} DeFi Yields`,  // TODO-TRANSLATE
-  "tcpTokenHubDescription": (count) => `${count} tokens with live, trust-filtered DeFi yield data — top pools by TVL, browsable by name. Honest yields from DefiLlama, no anomalous rates.`,  // TODO-TRANSLATE
-  "tcpTokenHubHeading": "All Token Yield Pages",  // TODO-TRANSLATE
-  "tcpTokenHubIntro": (floorStr) => `Every DeFi Garden token page in one place — live pools ranked by TVL, filtered through a ${floorStr} TVL floor and anomaly rails. Start with the top tokens by TVL, or jump straight to a letter.`,  // TODO-TRANSLATE
-  "tcpTokenHubSub": (count) => `${count} tokens with live, trust-filtered yield data`,  // TODO-TRANSLATE
-  "tcpTokenHubTitle": "Every DeFi Token's Live Yields | DeFi Garden 🌱",  // TODO-TRANSLATE
+      `${count} ${livePoolWord(count)} de ${sym} sobre el TVL mínimo de ${floorStr}, hasta ${apy} APY, en ${chainCount} ${chainWord(chainCount)}. Rendimientos honestos con datos de DefiLlama, sin tasas anómalas.`,
+  "tcpTokenHeading": (sym) => `Rendimientos DeFi de ${sym}`,
+  "tcpTokenHubDescription": (count) => `${count} tokens con datos de rendimiento DeFi en vivo y filtrados por confianza: los principales pools por TVL, con navegación por nombre. Rendimientos honestos de DefiLlama, sin tasas anómalas.`,
+  "tcpTokenHubHeading": "Rendimientos de todos los tokens",
+  "tcpTokenHubIntro": (floorStr) => `Todas las páginas de tokens de DeFi Garden en un solo lugar: pools en vivo ordenados por TVL, filtrados con un TVL mínimo de ${floorStr} y con filtros de anomalías. Empieza por los principales tokens por TVL o salta directo a una letra.`,
+  "tcpTokenHubSub": (count) => `${count} tokens con datos de rendimiento en vivo y filtrados por confianza`,
+  "tcpTokenHubTitle": "Rendimientos en vivo de todos los tokens DeFi | DeFi Garden 🌱",
   "tcpTokenIntro": (sym, project, chain, apy, tvl, count, chainCount, totalTvl, floorStr) =>
-      `${sym}'s largest live pool is ${project} on ${chain} at ${apy} (${tvl} TVL). ${count} ${sym} ${String(count) === '1' ? 'pool' : 'pools'} across ${chainCount} ${String(chainCount) === '1' ? 'chain' : 'chains'} clear this page's ${floorStr} TVL floor, ${totalTvl} in total.`,  // TODO-TRANSLATE
-  "tcpTokenTitle": (sym) => `${sym} DeFi Yields — Live Pools by TVL | DeFi Garden 🌱`,  // TODO-TRANSLATE
-  "tcpTopScoredHeading": (subject) => `Top ${subject} Yields by DeFi Score (Lowest Risk)`,  // TODO-TRANSLATE
-  "tcpTopScoredSub": "Top 5 retail-accessible pools ranked by quantitative stability (35%), fee sustainability (25%), capital stickiness (25%), and liquidity depth (15%). No permissioned or accredited-only vaults.",  // TODO-TRANSLATE
-  "tcpTopTokensByTvlHeading": "Top tokens by TVL",  // TODO-TRANSLATE
-  "tcpTopTokensOnHeading": (chain) => `Top tokens on ${chain}`,  // TODO-TRANSLATE
-  "tcpTrustNote": (floorStr) => `Yields are live from DefiLlama. Pools on this page clear a ${floorStr} minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.`,  // TODO-TRANSLATE
-  "tcpWaitlistCta": "Join the waitlist →",  // TODO-TRANSLATE
-  "tcpWaitlistHeading": "Get early access to the card",  // TODO-TRANSLATE
-  "tcpWaitlistMicro": "Free to join • Card doesn't exist yet • We'll email you when it does",  // TODO-TRANSLATE
-  "tcpWaitlistPitchChain": (chain) => `A card that spends the yield from your ${chain} positions — never the principal. Join the waitlist and be first when it's ready.`,  // TODO-TRANSLATE
-  "tcpWaitlistPitchHub": "A card that spends your DeFi yield — never your principal. Join the waitlist and be first when it's ready.",  // TODO-TRANSLATE
-  "tcpWaitlistPitchToken": (sym) => `A card that spends your ${sym} yield — never your ${sym} itself. Join the waitlist and be first when it's ready.`,  // TODO-TRANSLATE
+      `El mayor pool activo de ${sym} es ${project} en ${chain}, con ${apy} (${tvl} de TVL). ${count} ${poolWord(count)} de ${sym} en ${chainCount} ${chainWord(chainCount)} ${one(count) ? 'alcanza' : 'alcanzan'} el TVL mínimo de ${floorStr} de esta página, ${totalTvl} en total.`,
+  "tcpTokenTitle": (sym) => `Rendimiento DeFi de ${sym} — pools por TVL | DeFi Garden 🌱`,
+  "tcpTopScoredHeading": (subject) => `Principales rendimientos de ${subject} por DeFi Score (menor riesgo)`,
+  "tcpTopScoredSub": "Los 5 principales pools accesibles para inversionistas individuales, clasificados por estabilidad cuantitativa (35%), sostenibilidad de las comisiones (25%), permanencia del capital (25%) y profundidad de liquidez (15%). Sin vaults con permisos ni restringidos a inversionistas acreditados.",
+  "tcpTopTokensByTvlHeading": "Principales tokens por TVL",
+  "tcpTopTokensOnHeading": (chain) => `Principales tokens en ${chain}`,
+  "tcpTrustNote": (floorStr) => `Los rendimientos son en vivo de DefiLlama. Los pools de esta página alcanzan un TVL mínimo de ${floorStr} y excluyen tasas anómalas — ese es el criterio de listado de esta página, no una garantía de seguridad. Solo educación, no asesoría financiera.`,
+  "tcpWaitlistCta": "Unirme a la lista de espera →",
+  "tcpWaitlistHeading": "Acceso anticipado a la tarjeta",
+  "tcpWaitlistMicro": "Unirse es gratis • La tarjeta aún no existe • Te avisaremos por correo cuando exista",
+  "tcpWaitlistPitchChain": (chain) => `Una tarjeta que gasta el rendimiento de tus posiciones en ${chain}, nunca el capital. Súmate a la lista de espera y sé de los primeros en enterarte cuando esté lista.`,
+  "tcpWaitlistPitchHub": "Una tarjeta que gasta tu rendimiento DeFi, nunca tu capital. Súmate a la lista de espera y sé de los primeros en enterarte cuando esté lista.",
+  "tcpWaitlistPitchToken": (sym) => `Una tarjeta que gasta el rendimiento de tu ${sym}, nunca el ${sym} en sí. Súmate a la lista de espera y sé de los primeros en enterarte cuando esté lista.`,
   "tcpYieldHeadline": (sym, apyStr, foreverAmtStr, monthly, subLabel) =>
-      `Your idle ${sym} could earn ~${apyStr} — park ${foreverAmtStr} and it could run a $${monthly}/mo ${subLabel} subscription, forever.`,  // TODO-TRANSLATE
+      `Tu ${sym} sin usar podría rendir ~${apyStr} — deja ${foreverAmtStr} y podría pagar una suscripción de ${subLabel} de $${monthly}/mes, para siempre.`,
   "tcpYieldHeadlineChain": (chain, apyStr, foreverAmtStr, monthly, subLabel) =>
-      `Idle assets on ${chain} could earn ~${apyStr} — park ${foreverAmtStr} and it could run a $${monthly}/mo ${subLabel} subscription, forever.`,  // TODO-TRANSLATE
+      `Los fondos sin usar en ${chain} podrían rendir ~${apyStr} — deja ${foreverAmtStr} y podrían pagar una suscripción de ${subLabel} de $${monthly}/mes, para siempre.`,
   "tokenHeadTitle": (sym, count, dateStr) => dateStr
-      ? `Best ${sym} Yields (${dateStr}) — ${count} Live Pools Compared | DeFi Garden`
-      : `Best ${sym} Yield Rates Today — ${count} Live Pools Compared | DeFi Garden`,  // TODO-TRANSLATE
-  "tokenHowBaseReward": "Total APY reflects two distinct components: base APY (apyBase), earned directly from borrower interest or trading fees paid in the underlying asset, and reward APY (apyReward), distributed in secondary governance or incentive tokens that fluctuate independently.",  // TODO-TRANSLATE
-  "tokenHowRisk": "All DeFi yields carry inherent risk. Smart contract vulnerabilities, protocol economic exploits, stablecoin depeg events, and liquidation cascades can result in loss of principal. DeFi products are not bank deposits and are not insured by the FDIC, SIPC, or any government entity. Information provided is for educational purposes only and does not constitute financial advice.",  // TODO-TRANSLATE
-  "tokenHowSources": (sym) => `Yield on ${sym} comes from four primary on-chain mechanisms: lending spreads paid by borrowers on money markets, trading fees distributed to automated market maker (AMM) liquidity providers, native consensus or liquid staking rewards where applicable, and protocol incentives designed to attract liquidity.`,  // TODO-TRANSLATE
-  "tokenHowTitle": (sym) => `How ${sym} Yield is Generated`,  // TODO-TRANSLATE
-  "tokenUpdated": (date) => `Pool data verified from DefiLlama at generation time: ${date}. Rates change continuously.`,  // TODO-TRANSLATE
+      ? `Rendimiento de ${sym} (${dateStr}) — ${count} pools comparados | DeFi Garden`
+      : `Rendimiento de ${sym} hoy — ${count} pools comparados | DeFi Garden`,
+  "tokenHowBaseReward": "El APY total refleja dos componentes distintos: el APY base (apyBase), que viene directamente de los intereses que pagan quienes piden préstamos o de las comisiones de trading, en el activo subyacente, y el APY de recompensas (apyReward), que se reparte en tokens secundarios de gobernanza o de incentivo, que fluctúan de forma independiente.",
+  "tokenHowRisk": "Todo rendimiento en DeFi conlleva riesgo. Las vulnerabilidades de los contratos inteligentes, los exploits económicos del protocolo, los eventos de depeg de stablecoins y las cascadas de liquidación pueden causar pérdida del capital. Los productos DeFi no son depósitos bancarios y no están asegurados por la FDIC, la SIPC ni ninguna entidad gubernamental. La información es solo educativa y no constituye asesoría financiera.",
+  "tokenHowSources": (sym) => `El rendimiento de ${sym} viene de cuatro mecanismos principales on-chain: el diferencial de intereses de los préstamos que pagan quienes piden prestado en los mercados monetarios, las comisiones de trading que se reparten a quienes aportan liquidez a los creadores de mercado automatizados (AMM), las recompensas nativas de consenso o de liquid staking, cuando aplican, y los incentivos del protocolo diseñados para atraer liquidez.`,
+  "tokenHowTitle": (sym) => `Cómo se genera el rendimiento de ${sym}`,
+  "tokenUpdated": (date) => `Datos de los pools verificados en DefiLlama al momento de la generación: ${date}. Las tasas cambian constantemente.`,
 };

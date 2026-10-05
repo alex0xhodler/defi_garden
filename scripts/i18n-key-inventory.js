@@ -68,7 +68,13 @@ const IDENTICAL_OK = new Set([
   'pspTvl',               // "TVL"
   'defillamaApi',         // "DefiLlama API" (data-source brand)
   'planner.ladderClaude', // "Claude Pro" (product name)
-  'pspChartHorizon'       // "+14d" — compact horizon label on the chart axis
+  'pspChartHorizon',      // "+14d" — compact horizon label on the chart axis ("d" = dias / días)
+  'pspBreadcrumbPools',   // "Pools" — the loanword BR / LatAm users type (pt "pool", es "pool")
+  'tcpBreadcrumbTokens',  // "Tokens" — same word in pt and es
+  'tcpColToken',          // "Token" — same word in pt and es
+  'tcpPoolTypeLabel',     // maps the app's taxonomy values (Lending -> Empréstimos / Préstamos ...); an unmapped value passes through, which is all the non-string sentinel render shows
+  'tcpAzSub',             // "<n> tokens" — same word in pt and es; only the count varies
+  'tcpMonthYear'          // picks the month name from the month NUMBER; the inventory's non-numeric sentinels hit the EN-short-month fallback by design
 ]);
 
 /**

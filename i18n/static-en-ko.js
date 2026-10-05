@@ -30,7 +30,11 @@ module.exports = {
     // title="" tooltip on the lock icon next to a permissioned pool's name.
     tcpRestrictedAccessTitle: 'Restricted access (KYC/accredited)',
     // aria-label of the language switcher <nav>.
-    tcpLanguageLabel: 'Language'
+    tcpLanguageLabel: 'Language',
+    // Visible label of a pool-type category link (the app's poolTypes taxonomy
+    // value is also the link's query param and is NEVER translated — only the
+    // anchor text is). EN/KO keep the taxonomy value byte-for-byte.
+    tcpPoolTypeLabel: (type) => type
   },
   ko: {
     tcpMonthYear: (monthShortEn, month, year) => `${year}년 ${month}월`,
@@ -39,6 +43,7 @@ module.exports = {
     // Pre-existing: the tooltip was hard-coded English on every language
     // variant, KO included. Kept byte-identical here (not a regression).
     tcpRestrictedAccessTitle: 'Restricted access (KYC/accredited)',
-    tcpLanguageLabel: '언어'
+    tcpLanguageLabel: '언어',
+    tcpPoolTypeLabel: (type) => type
   }
 };
