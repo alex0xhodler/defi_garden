@@ -366,8 +366,9 @@
       activeUwPool = uwPools.find(function (p) { return p.pool === activeUwId; }) || uwPools[0];
     }
 
-    function toggleLanguage() {
-      var next = language === 'en' ? 'ko' : 'en';
+    // EN/KO only — PT/ES are plain links rendered by LangMenu (lang-menu.js).
+    function selectLanguage(next) {
+      if (next !== 'en' && next !== 'ko') return;
       setLanguage(next);
       try { localStorage.setItem('defi-garden-lang', next); } catch (err) {}
       var url = new URL(window.location.href);
@@ -413,10 +414,9 @@
           e('a', { href: '/agents' }, copy.navAgents || 'AI Agents & MCP')
         ),
         e('div', { className: 'landing-header-actions' },
-          e('button', {
-            type: 'button', className: 'landing-icon-button', onClick: toggleLanguage,
-            'aria-label': language === 'en' ? copy.languageKorean : copy.languageEnglish
-          }, language === 'en' ? 'KO' : 'EN'),
+          window.LangMenu ? e(window.LangMenu.Menu, {
+            language: language, onSelect: selectLanguage, onOpen: closeMenu, triggerClassName: 'landing-icon-button'
+          }) : null,
           e('button', {
             type: 'button', className: 'landing-icon-button landing-theme-button', onClick: function () { setDark(!dark); },
             'aria-label': dark ? copy.themeLight : copy.themeDark
@@ -437,6 +437,7 @@
       ),
       e('main', { className: 'landing-main' },
         e('div', { id: 'underwriting-section', className: 'landing-section-wrapper landing-underwriting-wrapper' },
+          window.LangMenu ? e(window.LangMenu.Suggest) : null,
           e('section', { className: 'landing-hero-underwriting', 'data-testid': 'landing-underwriting-card', 'aria-labelledby': 'landing-uw-title' },
             e('div', { className: 'landing-uw-copy' },
               e('p', { className: 'landing-uw-status' },

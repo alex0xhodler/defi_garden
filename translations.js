@@ -224,6 +224,12 @@ projectionHeading: "The long game",
     chainPageTitle: (chain) => `${chain} DeFi Yields | DeFi Garden 🌱`,
     poolPageTitle: (symbol, project) => `${symbol} on ${project} | DeFi Garden 🌱`,
     
+    // Header language menu (lang-menu.js). EN/KO switch in-app; PT/ES are plain
+    // links whose labels/hrefs live in lang-menu.js, not in this dictionary.
+    langMenuLabel: "Language",
+    langNameEn: "English",
+    langNameKo: "한국어",
+
     // Meta descriptions
     metaDescription: "Find the best DeFi yields for your tokens with DeFi Garden. Compare lending, staking, and LP rewards across 50+ protocols and all major chains. Real-time APY data from Defillama API with intelligent filtering by token, chain, TVL, and pool type.",
 
@@ -233,7 +239,7 @@ projectionHeading: "The long game",
 
     // Search-first landing
     landing: {
-      pageTitle: "DeFi Yield Finder & Savings Planner — Live On-Chain Rates | DeFi Garden 🌱",
+      pageTitle: "DeFi Yields Scored & Forecasted: Live Rates Above $100K TVL | DeFi Garden",
       metaDescription: "Compare live, trust-filtered DeFi yields across 50+ protocols and 30+ chains with a goal-based savings calculator. $100K TVL floor. Data from DefiLlama. Education, not advice.",
       navSearch: "Search yields",
       navPlanner: "Savings Planner",
@@ -244,8 +250,6 @@ projectionHeading: "The long game",
       navClose: "Close menu",
       themeLight: "Switch to light mode",
       themeDark: "Switch to dark mode",
-      languageEnglish: "Switch to English",
-      languageKorean: "Switch to Korean",
       thesisLabel: "The Invariant:",
       thesisQuote: "\"Buy it outright and the money is gone. Garden it and you keep the money AND get the subscription.\"",
       agentStatus: "DeFi Garden Yield Agent · Live onchain data",
@@ -1328,6 +1332,11 @@ projectionHeading: "The long game",
     chainPageTitle: (chain) => `${chain} DeFi 수익률 | DeFi Garden 🌱`,
     poolPageTitle: (symbol, project) => `${symbol} (${project}) | DeFi Garden 🌱`,
     
+    // Header language menu (lang-menu.js)
+    langMenuLabel: "언어",
+    langNameEn: "English",
+    langNameKo: "한국어",
+
     // Meta descriptions
     metaDescription: "DeFi Garden으로 토큰의 최고 DeFi 수익률을 찾아보세요. 50개 이상의 프로토콜에서 대출, 스테이킹, LP 보상을 비교하세요. Defillama API의 실시간 APY 데이터와 토큰, 체인, TVL, 풀 타입별 지능형 필터링.",
 
@@ -1337,7 +1346,7 @@ projectionHeading: "The long game",
 
     // Search-first landing
     landing: {
-      pageTitle: "DeFi 수익률 탐색 & 저축 플래너 — 실시간 온체인 금리 | DeFi Garden 🌱",
+      pageTitle: "DeFi 수익률 점수·전망: TVL $100K 이상 실시간 금리 | DeFi Garden",
       metaDescription: "50개 이상의 프로토콜, 30개 이상의 체인에서 신뢰 필터를 거친 실시간 DeFi 수익률을 목표 기반 저축 계산기와 함께 비교하세요. $100K TVL 기준. DefiLlama 데이터. 투자 조언이 아닌 교육용입니다.",
       navSearch: "수익률 검색",
       navPlanner: "저축 플래너",
@@ -1348,8 +1357,6 @@ projectionHeading: "The long game",
       navClose: "메뉴 닫기",
       themeLight: "라이트 모드로 전환",
       themeDark: "다크 모드로 전환",
-      languageEnglish: "영어로 전환",
-      languageKorean: "한국어로 전환",
       thesisLabel: "핵심 불변성:",
       thesisQuote: "\"직접 구매하면 돈이 사라지지만, 가드닝하면 원금을 지키면서 서비스를 받습니다.\"",
       pagerPage1: "01 구독 볼트",

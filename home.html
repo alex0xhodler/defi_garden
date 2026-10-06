@@ -226,6 +226,11 @@
          Minified in CI (backlog 053); edit planner.js, never planner.min.js. -->
     <script defer src="planner.min.js"></script>
 
+    <!-- Header language menu (EN · KO · PT · ES) + landing language suggestion —
+         shared by landing.js and app.js; static defer so window.LangMenu exists
+         before either mounts (the analytics bundles boot on DOMContentLoaded). -->
+    <script defer src="lang-menu.js"></script>
+
     <!-- Search-first landing script — mounts only when the router selects it. -->
     <script defer src="landing.js"></script>
 

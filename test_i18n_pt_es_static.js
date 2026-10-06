@@ -137,18 +137,41 @@ test('home.html / plan.html (the interactive app shells) never load the i18n fil
     assert.ok(!/\/(?:pt|es)\/(?:tokens|chains|pools)/.test(html), f + ' links the pt/es static estate');
   });
 });
-test('translations.js / translations.min.js are byte-identical to origin/main (skipped when the ref is unresolvable)', () => {
+// The static pt/es work must add ZERO bytes to the browser bundle. The header
+// language menu (lang-menu.js, a separate script) later needed three EN+KO keys
+// and the landing <title> was de-staled, so "byte-identical" became "identical
+// except for this explicit allow-list": every key the baseline had must have the
+// same value, and the ONLY additions/changes are the entries below. A pt/es
+// dictionary, or any other drift, still fails. Update the list only for an
+// intentional, separately-reviewed translations.js change (or set
+// I18N_SKIP_BUNDLE_BASELINE=1).
+const ALLOWED_NEW_KEYS = ['langMenuLabel', 'langNameEn', 'langNameKo'];          // top-level, en + ko
+const ALLOWED_REMOVED_LANDING_KEYS = ['languageEnglish', 'languageKorean'];       // old EN<->KO toggle's aria strings
+const ALLOWED_CHANGED = ['landing.pageTitle'];                                    // planner-era title -> the HTML <title>
+test('translations.js is identical to origin/main except the allow-listed language-menu keys / landing title', () => {
   const ref = process.env.I18N_BUNDLE_BASELINE_REF || 'origin/main';
   if (process.env.I18N_SKIP_BUNDLE_BASELINE === '1') { console.log('    (skipped: I18N_SKIP_BUNDLE_BASELINE=1)'); return; }
   const rev = cp.spawnSync('git', ['rev-parse', '--verify', '--quiet', ref + '^{commit}'], { cwd: ROOT, encoding: 'utf8' });
   if (rev.status !== 0) { console.log('    (skipped: ' + ref + ' is not resolvable in this checkout)'); return; }
-  BUNDLES.forEach(f => {
-    const base = cp.spawnSync('git', ['show', ref + ':' + f], { cwd: ROOT, maxBuffer: 64 * 1024 * 1024 });
-    if (base.status !== 0) return; // file did not exist at the baseline
-    const now = fs.readFileSync(path.join(ROOT, f));
-    assert.ok(Buffer.compare(base.stdout, now) === 0,
-      f + ' differs from ' + ref + ' (' + base.stdout.length + ' -> ' + now.length + ' bytes). The static pt/es work must add ZERO bytes to the browser bundle; ' +
-      'set I18N_SKIP_BUNDLE_BASELINE=1 only for an intentional, separately-reviewed translations.js change.');
+  const baseSrc = cp.spawnSync('git', ['show', ref + ':translations.js'], { cwd: ROOT, maxBuffer: 64 * 1024 * 1024 });
+  if (baseSrc.status !== 0) return; // file did not exist at the baseline
+  const load = (src) => { const m = { exports: {} }; new Function('module', 'exports', 'require', String(src))(m, m.exports, require); return m.exports.translations; };
+  const base = load(baseSrc.stdout);
+  const now = load(fs.readFileSync(path.join(ROOT, 'translations.js')));
+  assert.deepStrictEqual(Object.keys(now), Object.keys(base), 'language set changed');
+  Object.keys(base).forEach(lang => {
+    const flat = (d) => { const o = {}; Object.keys(d).forEach(k => { if (k === 'landing') Object.keys(d.landing).forEach(lk => { o['landing.' + lk] = d.landing[lk]; }); else o[k] = d[k]; }); return o; };
+    const b = flat(base[lang]); const n = flat(now[lang]);
+    Object.keys(b).forEach(k => {
+      if (ALLOWED_REMOVED_LANDING_KEYS.some(r => k === 'landing.' + r)) return;
+      assert.ok(k in n, lang + '.' + k + ' was removed (not allow-listed)');
+      if (ALLOWED_CHANGED.includes(k)) return;
+      assert.strictEqual(String(n[k]), String(b[k]), lang + '.' + k + ' changed (not allow-listed)');
+    });
+    Object.keys(n).forEach(k => {
+      if (!(k in b)) assert.ok(ALLOWED_NEW_KEYS.includes(k), lang + '.' + k + ' is a new key outside the allow-list — the static pt/es work must not grow the browser bundle');
+    });
+    ALLOWED_NEW_KEYS.forEach(k => assert.ok(typeof n[k] === 'string' && n[k], lang + '.' + k + ' missing'));
   });
 });
 
