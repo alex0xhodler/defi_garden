@@ -1,12 +1,12 @@
 # YMVKATV2 DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
 
-The highest honest YMVKATV2 yield right now is 3.89% on morpho-blue (Katana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YMVKATV2 yield right now is 3.91% on morpho-blue (Katana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=674ba053-28a6-4e66-b129-4d0f0b967184#src=seo_token) | Katana | 3.89% | $327.9K |
+| [morpho-blue →](https://www.defi.garden/?pool=674ba053-28a6-4e66-b129-4d0f0b967184#src=seo_token) | Katana | 3.91% | $321.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest YMVKATV2 yield today?
 
-3.89% APY on morpho-blue (Katana), based on live DefiLlama data.
+3.91% APY on morpho-blue (Katana), based on live DefiLlama data.
 
 ### How many YMVKATV2 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $327.9K in total.
+1 live pool clear this page's $100K TVL floor, $321.8K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank YMVKATV2 pools. This view cov
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [STEAKUSDC](https://www.defi.garden/tokens/steakusdc)
 - [BBQUSDC](https://www.defi.garden/tokens/bbqusdc)
+- [FXRP](https://www.defi.garden/tokens/fxrp)
 - [YMVOG](https://www.defi.garden/tokens/ymvog)
 - [VBWBTC](https://www.defi.garden/tokens/vbwbtc)
-- [YOG](https://www.defi.garden/tokens/yog)
 
 ## Available on
 
 - [Katana](https://www.defi.garden/chains/katana)
 
-## Last updated October 5, 2026
+## Last updated October 6, 2026

@@ -1,33 +1,33 @@
 # VBUSDC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
 
-The highest honest VBUSDC yield right now is 5.19% on yearn-finance (Katana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VBUSDC yield right now is 5.15% on yearn-finance (Katana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=0f185c65-9d48-48d2-85ab-7728314988e6#src=seo_token) | Katana | 5.19% | $6.68M |
-| [morpho-blue →](https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a#src=seo_token) | Katana | 3.33% | $3.39M |
-| [spectra-metavaults →](https://www.defi.garden/?pool=75208693-9e71-431c-886a-e10d7c3c4da4#src=seo_token) | Katana | 5.09% | $420.4K |
+| [yearn-finance →](https://www.defi.garden/?pool=0f185c65-9d48-48d2-85ab-7728314988e6#src=seo_token) | Katana | 5.15% | $6.68M |
+| [morpho-blue →](https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a#src=seo_token) | Katana | 3.34% | $3.39M |
+| [spectra-metavaults →](https://www.defi.garden/?pool=75208693-9e71-431c-886a-e10d7c3c4da4#src=seo_token) | Katana | 5.11% | $420.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, VBUSDC's lower-variability candidates are yearn-finance (Katana), 5.19% APY, $6.68M TVL, https://www.defi.garden/?pool=0f185c65-9d48-48d2-85ab-7728314988e6#src=seo_token; morpho-blue (Katana), 3.33% APY, $3.39M TVL, https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a#src=seo_token; spectra-metavaults (Katana), 5.09% APY, $420.4K TVL, https://www.defi.garden/?pool=75208693-9e71-431c-886a-e10d7c3c4da4#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, VBUSDC's lower-variability candidates are yearn-finance (Katana), 5.15% APY, $6.68M TVL, https://www.defi.garden/?pool=0f185c65-9d48-48d2-85ab-7728314988e6#src=seo_token; morpho-blue (Katana), 3.34% APY, $3.39M TVL, https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a#src=seo_token; spectra-metavaults (Katana), 5.11% APY, $420.4K TVL, https://www.defi.garden/?pool=75208693-9e71-431c-886a-e10d7c3c4da4#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [yearn-finance →](https://www.defi.garden/?pool=0f185c65-9d48-48d2-85ab-7728314988e6#src=seo_token) | Katana | 5.19% | $6.68M |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a#src=seo_token) | Katana | 3.33% | $3.39M |
-| 3 | [spectra-metavaults →](https://www.defi.garden/?pool=75208693-9e71-431c-886a-e10d7c3c4da4#src=seo_token) | Katana | 5.09% | $420.4K |
+| 1 | [yearn-finance →](https://www.defi.garden/?pool=0f185c65-9d48-48d2-85ab-7728314988e6#src=seo_token) | Katana | 5.15% | $6.68M |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a#src=seo_token) | Katana | 3.34% | $3.39M |
+| 3 | [spectra-metavaults →](https://www.defi.garden/?pool=75208693-9e71-431c-886a-e10d7c3c4da4#src=seo_token) | Katana | 5.11% | $420.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-VBUSDC shows up in 3 pools here, with rates from 3.33% to 5.19% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+VBUSDC shows up in 3 pools here, with rates from 3.34% to 5.15% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 5.19% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 5.17% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 3 of 3 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -35,9 +35,9 @@ VBUSDC shows up in 3 pools here, with rates from 3.33% to 5.19% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| yearn-finance | 5.19% | 5.19% | 73.49% incentives |
-| morpho-blue | 3.33% | 3.62% | 25.24% incentives |
-| spectra-metavaults | 5.09% | 6.11% | 52.37% incentives |
+| yearn-finance | 5.15% | 5.17% | 72.80% incentives |
+| morpho-blue | 3.34% | 3.59% | 32.45% incentives |
+| spectra-metavaults | 5.11% | 6.13% | 52.62% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,7 +45,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest VBUSDC yield today?
 
-5.19% APY on yearn-finance (Katana), based on live DefiLlama data.
+5.15% APY on yearn-finance (Katana), based on live DefiLlama data.
 
 ### How many VBUSDC pools clear the TVL floor?
 
@@ -57,19 +57,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which VBUSDC pools have the most stable APY history?
 
-Based on APY history only, VBUSDC's lower-variability candidates are yearn-finance (Katana), 5.19% APY, $6.68M TVL, https://www.defi.garden/?pool=0f185c65-9d48-48d2-85ab-7728314988e6#src=seo_token; morpho-blue (Katana), 3.33% APY, $3.39M TVL, https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a#src=seo_token; spectra-metavaults (Katana), 5.09% APY, $420.4K TVL, https://www.defi.garden/?pool=75208693-9e71-431c-886a-e10d7c3c4da4#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, VBUSDC's lower-variability candidates are yearn-finance (Katana), 5.15% APY, $6.68M TVL, https://www.defi.garden/?pool=0f185c65-9d48-48d2-85ab-7728314988e6#src=seo_token; morpho-blue (Katana), 3.34% APY, $3.39M TVL, https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a#src=seo_token; spectra-metavaults (Katana), 5.11% APY, $420.4K TVL, https://www.defi.garden/?pool=75208693-9e71-431c-886a-e10d7c3c4da4#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [STEAKUSDC](https://www.defi.garden/tokens/steakusdc)
 - [BBQUSDC](https://www.defi.garden/tokens/bbqusdc)
+- [FXRP](https://www.defi.garden/tokens/fxrp)
 - [YMVOG](https://www.defi.garden/tokens/ymvog)
 - [VBWBTC](https://www.defi.garden/tokens/vbwbtc)
-- [YOG](https://www.defi.garden/tokens/yog)
 
 ## Available on
 
 - [Katana](https://www.defi.garden/chains/katana)
 
-## Last updated October 5, 2026
+## Last updated October 6, 2026

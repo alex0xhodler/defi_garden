@@ -1,13 +1,13 @@
 # JUMP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
 
-The highest honest JUMP yield right now is 76.07% on uniswap-v2 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JUMP yield right now is 76.07% on uniswap-v2 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v2 →](https://www.defi.garden/?pool=5678a704-4489-5cb7-9315-0e47a3cc6154#src=seo_token) | Base | 76.07% | $305.5K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=4e1bb812-132d-5889-8d48-83c6576e7bff#src=seo_token) | Base | 61.69% | $109.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=4e1bb812-132d-5889-8d48-83c6576e7bff#src=seo_token) | Base | 34.99% | $112.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-JUMP shows up in 2 pools here, with rates from 61.69% to 76.07% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+JUMP shows up in 2 pools here, with rates from 34.99% to 76.07% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 128.16% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 124.47% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -29,7 +29,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | uniswap-v2 | 76.07% | 122.98% | Base rate |
-| uniswap-v2 | 61.69% | 133.35% | Base rate |
+| uniswap-v2 | 34.99% | 125.96% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -41,7 +41,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many JUMP pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $555.7K in total.
+2 live pools clear this page's $100K TVL floor, $418.1K in total.
 
 ### Are these rates safe?
 
@@ -64,4 +64,4 @@ There is not enough qualifying APY history to rank JUMP pools. This view covers 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 5, 2026
+## Last updated October 6, 2026

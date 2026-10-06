@@ -1,12 +1,12 @@
 # NIGGABUTT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
 
-The highest honest NIGGABUTT yield right now is 9.45% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NIGGABUTT yield right now is 8.60% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=fe0311d4-0567-4b20-84c1-3d329c583e9c#src=seo_token) | Solana | 9.45% | $114.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=fe0311d4-0567-4b20-84c1-3d329c583e9c#src=seo_token) | Solana | 8.60% | $113.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NIGGABUTT yield today?
 
-9.45% APY on raydium-amm (Solana), based on live DefiLlama data.
+8.60% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many NIGGABUTT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $114.4K in total.
+1 live pool clear this page's $100K TVL floor, $113.4K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank NIGGABUTT pools. This view co
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 5, 2026
+## Last updated October 6, 2026

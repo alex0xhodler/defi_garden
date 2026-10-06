@@ -1,12 +1,12 @@
 # MOONDAY DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
 
 The highest honest MOONDAY yield right now is 0.11% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=c0916b4b-5ae7-467c-acea-97c23518895b#src=seo_token) | Ethereum | 0.11% | $147.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=c0916b4b-5ae7-467c-acea-97c23518895b#src=seo_token) | Ethereum | 0.11% | $146.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MOONDAY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $147.2K in total.
+1 live pool clear this page's $100K TVL floor, $146.7K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank MOONDAY pools. This view cove
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 5, 2026
+## Last updated October 6, 2026

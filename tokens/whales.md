@@ -1,12 +1,12 @@
 # WHALES DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
 
-The highest honest WHALES yield right now is 5.08% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WHALES yield right now is 4.82% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=24d7f98e-4985-4a0b-bd70-8c84a4c0c5db#src=seo_token) | Solana | 5.08% | $163.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=24d7f98e-4985-4a0b-bd70-8c84a4c0c5db#src=seo_token) | Solana | 4.82% | $165.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WHALES yield today?
 
-5.08% APY on raydium-amm (Solana), based on live DefiLlama data.
+4.82% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many WHALES pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $163.5K in total.
+1 live pool clear this page's $100K TVL floor, $165.5K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank WHALES pools. This view cover
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 5, 2026
+## Last updated October 6, 2026

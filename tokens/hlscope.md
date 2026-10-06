@@ -1,6 +1,6 @@
 # HLSCOPE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
 
 The highest honest HLSCOPE yield right now is 3.26% on hamilton-lane-senior-credit-opportunities-securitize-fund (Polygon), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -68,4 +68,4 @@ Based on APY history only, HLSCOPE's lower-variability candidates are hamilton-l
 - [Polygon](https://www.defi.garden/chains/polygon)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 5, 2026
+## Last updated October 6, 2026

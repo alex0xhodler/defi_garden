@@ -1,6 +1,6 @@
 # BUIDL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
 
 The highest honest BUIDL yield right now is 3.81% on blackrock-buidl (Ethereum), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -43,9 +43,9 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| blackrock-buidl | 3.78% | 3.66% | Base rate |
+| blackrock-buidl | 3.78% | 3.67% | Base rate |
 | blackrock-buidl | 3.47% | 3.36% | Base rate |
-| blackrock-buidl | 3.78% | 3.66% | Base rate |
+| blackrock-buidl | 3.78% | 3.67% | Base rate |
 | blackrock-buidl | 3.81% | 3.70% | Base rate |
 | blackrock-buidl | 3.47% | 3.36% | Base rate |
 | blackrock-buidl | 3.47% | 3.36% | Base rate |
@@ -91,4 +91,4 @@ Based on APY history only, BUIDL's lower-variability candidates are blackrock-bu
 - [OP Mainnet](https://www.defi.garden/chains/op-mainnet)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated October 5, 2026
+## Last updated October 6, 2026

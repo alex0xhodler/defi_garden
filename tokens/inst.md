@@ -1,33 +1,33 @@
 # INST DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
 
-The highest honest INST yield right now is 88.20% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest INST yield right now is 142.73% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=ab8c01f0-0586-4077-bae8-86b3e05704c3#src=seo_token) | Ethereum | 35.05% | $4.92M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=6e54e59d-43ae-4d2c-8c87-1d8c7e71710d#src=seo_token) | Polygon | 76.92% | $841.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=91075e50-5155-44e4-a32e-3d2b137ee284#src=seo_token) | Ethereum | 88.20% | $575.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ab8c01f0-0586-4077-bae8-86b3e05704c3#src=seo_token) | Ethereum | 59.42% | $4.53M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6e54e59d-43ae-4d2c-8c87-1d8c7e71710d#src=seo_token) | Polygon | 126.64% | $792.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=91075e50-5155-44e4-a32e-3d2b137ee284#src=seo_token) | Ethereum | 142.73% | $535.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, INST's lower-variability candidates are uniswap-v3 (Ethereum), 35.05% APY, $4.92M TVL, https://www.defi.garden/?pool=ab8c01f0-0586-4077-bae8-86b3e05704c3#src=seo_token; uniswap-v3 (Polygon), 76.92% APY, $841.4K TVL, https://www.defi.garden/?pool=6e54e59d-43ae-4d2c-8c87-1d8c7e71710d#src=seo_token; uniswap-v3 (Ethereum), 88.20% APY, $575.7K TVL, https://www.defi.garden/?pool=91075e50-5155-44e4-a32e-3d2b137ee284#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, INST's lower-variability candidates are uniswap-v3 (Ethereum), 59.42% APY, $4.53M TVL, https://www.defi.garden/?pool=ab8c01f0-0586-4077-bae8-86b3e05704c3#src=seo_token; uniswap-v3 (Polygon), 126.64% APY, $792.4K TVL, https://www.defi.garden/?pool=6e54e59d-43ae-4d2c-8c87-1d8c7e71710d#src=seo_token; uniswap-v3 (Ethereum), 142.73% APY, $535.8K TVL, https://www.defi.garden/?pool=91075e50-5155-44e4-a32e-3d2b137ee284#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=ab8c01f0-0586-4077-bae8-86b3e05704c3#src=seo_token) | Ethereum | 35.05% | $4.92M |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=6e54e59d-43ae-4d2c-8c87-1d8c7e71710d#src=seo_token) | Polygon | 76.92% | $841.4K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=91075e50-5155-44e4-a32e-3d2b137ee284#src=seo_token) | Ethereum | 88.20% | $575.7K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=ab8c01f0-0586-4077-bae8-86b3e05704c3#src=seo_token) | Ethereum | 59.42% | $4.53M |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=6e54e59d-43ae-4d2c-8c87-1d8c7e71710d#src=seo_token) | Polygon | 126.64% | $792.4K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=91075e50-5155-44e4-a32e-3d2b137ee284#src=seo_token) | Ethereum | 142.73% | $535.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-INST shows up in 3 pools here, with rates from 35.05% to 88.20% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+INST shows up in 3 pools here, with rates from 59.42% to 142.73% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 5.32% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 6.99% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -35,9 +35,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 35.05% | 1.60% | Base rate |
-| uniswap-v3 | 76.92% | 5.32% | Base rate |
-| uniswap-v3 | 88.20% | 8.19% | Base rate |
+| uniswap-v3 | 59.42% | 2.35% | Base rate |
+| uniswap-v3 | 126.64% | 6.99% | Base rate |
+| uniswap-v3 | 142.73% | 9.93% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,11 +45,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest INST yield today?
 
-88.20% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+142.73% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many INST pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $6.34M in total.
+3 live pools clear this page's $100K TVL floor, $5.86M in total.
 
 ### Are these rates safe?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which INST pools have the most stable APY history?
 
-Based on APY history only, INST's lower-variability candidates are uniswap-v3 (Ethereum), 35.05% APY, $4.92M TVL, https://www.defi.garden/?pool=ab8c01f0-0586-4077-bae8-86b3e05704c3#src=seo_token; uniswap-v3 (Polygon), 76.92% APY, $841.4K TVL, https://www.defi.garden/?pool=6e54e59d-43ae-4d2c-8c87-1d8c7e71710d#src=seo_token; uniswap-v3 (Ethereum), 88.20% APY, $575.7K TVL, https://www.defi.garden/?pool=91075e50-5155-44e4-a32e-3d2b137ee284#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, INST's lower-variability candidates are uniswap-v3 (Ethereum), 59.42% APY, $4.53M TVL, https://www.defi.garden/?pool=ab8c01f0-0586-4077-bae8-86b3e05704c3#src=seo_token; uniswap-v3 (Polygon), 126.64% APY, $792.4K TVL, https://www.defi.garden/?pool=6e54e59d-43ae-4d2c-8c87-1d8c7e71710d#src=seo_token; uniswap-v3 (Ethereum), 142.73% APY, $535.8K TVL, https://www.defi.garden/?pool=91075e50-5155-44e4-a32e-3d2b137ee284#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -73,4 +73,4 @@ Based on APY history only, INST's lower-variability candidates are uniswap-v3 (E
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated October 5, 2026
+## Last updated October 6, 2026

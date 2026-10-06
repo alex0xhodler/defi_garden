@@ -1,12 +1,12 @@
 # POND DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
 
 The highest honest POND yield right now is 3.23% on orca-dex (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=19a40c5f-6176-447c-96f1-02fade0ceb3f#src=seo_token) | Ethereum | 11.72% | $176.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=19a40c5f-6176-447c-96f1-02fade0ceb3f#src=seo_token) | Ethereum | 8.83% | $172.6K |
 | [orca-dex →](https://www.defi.garden/?pool=16c15378-ff9d-5309-9497-4871e79ff3cb#src=seo_token) | Solana | 3.23% | $102.8K |
 
 <!-- rate-stability:insufficient -->
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-POND shows up in 2 pools here, with rates from 3.23% to 11.72% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+POND shows up in 2 pools here, with rates from 3.23% to 8.83% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 16.58% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -28,7 +28,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 11.72% | 29.93% | Base rate |
+| uniswap-v2 | 8.83% | 29.94% | Base rate |
 | orca-dex | 3.23% | 3.23% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -41,7 +41,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many POND pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $279.3K in total.
+2 live pools clear this page's $100K TVL floor, $275.5K in total.
 
 ### Are these rates safe?
 
@@ -65,4 +65,4 @@ There is not enough qualifying APY history to rank POND pools. This view covers 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 5, 2026
+## Last updated October 6, 2026

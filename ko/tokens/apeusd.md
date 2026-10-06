@@ -1,23 +1,23 @@
 # APEUSD 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 5, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 6, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 APEUSD의 가장 높은 정직한 수익률은 Ethereum의 curve-dex에서 0.01%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=b23bf709-7cf7-4fa9-aaa6-94ac9f8bb589#src=seo_token) | Ethereum | 0.01% | $134.6K |
-| [convex-finance →](https://www.defi.garden/?pool=504dc086-c35f-4987-8b48-67f302d92576#src=seo_token) | Ethereum | 0.01% | $132.5K |
+| [convex-finance →](https://www.defi.garden/?pool=504dc086-c35f-4987-8b48-67f302d92576#src=seo_token) | Ethereum | 0.01% | $132.4K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 APEUSD의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.01%, TVL $134.6K, https://www.defi.garden/?pool=b23bf709-7cf7-4fa9-aaa6-94ac9f8bb589#src=seo_token; Ethereum의 convex-finance, APY 0.01%, TVL $132.5K, https://www.defi.garden/?pool=504dc086-c35f-4987-8b48-67f302d92576#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 APEUSD의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.01%, TVL $134.6K, https://www.defi.garden/?pool=b23bf709-7cf7-4fa9-aaa6-94ac9f8bb589#src=seo_token; Ethereum의 convex-finance, APY 0.01%, TVL $132.4K, https://www.defi.garden/?pool=504dc086-c35f-4987-8b48-67f302d92576#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [curve-dex →](https://www.defi.garden/?pool=b23bf709-7cf7-4fa9-aaa6-94ac9f8bb589#src=seo_token) | Ethereum | 0.01% | $134.6K |
-| 2 | [convex-finance →](https://www.defi.garden/?pool=504dc086-c35f-4987-8b48-67f302d92576#src=seo_token) | Ethereum | 0.01% | $132.5K |
+| 2 | [convex-finance →](https://www.defi.garden/?pool=504dc086-c35f-4987-8b48-67f302d92576#src=seo_token) | Ethereum | 0.01% | $132.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -52,7 +52,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 0.01%예�
 
 ### APEUSD 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 APEUSD의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.01%, TVL $134.6K, https://www.defi.garden/?pool=b23bf709-7cf7-4fa9-aaa6-94ac9f8bb589#src=seo_token; Ethereum의 convex-finance, APY 0.01%, TVL $132.5K, https://www.defi.garden/?pool=504dc086-c35f-4987-8b48-67f302d92576#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 APEUSD의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.01%, TVL $134.6K, https://www.defi.garden/?pool=b23bf709-7cf7-4fa9-aaa6-94ac9f8bb589#src=seo_token; Ethereum의 convex-finance, APY 0.01%, TVL $132.4K, https://www.defi.garden/?pool=504dc086-c35f-4987-8b48-67f302d92576#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -67,4 +67,4 @@ APY 이력만 기준으로 비교한 APEUSD의 변동성 낮은 후보는 Ethere
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: October 5, 2026
+## 마지막 업데이트: October 6, 2026

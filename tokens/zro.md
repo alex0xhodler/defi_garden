@@ -1,13 +1,13 @@
 # ZRO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
 
-The highest honest ZRO yield right now is 681.51% on aerodrome-slipstream (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZRO yield right now is 154.68% on uniswap-v4 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=9b9497ab-56f4-4650-a162-e323b90d0c4c#src=seo_token) | Base | 681.51% | $170.2K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=1a64e7af-3c5a-585b-b0bb-985a3bd67593#src=seo_token) | Base | 108.12% | $134.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=1a64e7af-3c5a-585b-b0bb-985a3bd67593#src=seo_token) | Base | 154.68% | $135.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c48e0049-063d-4976-88c2-961df59ec51a#src=seo_token) | Arbitrum | 92.82% | $109K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,18 +18,18 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-ZRO shows up in 2 pools here, with rates from 108.12% to 681.51% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+ZRO shows up in 2 pools here, with rates from 92.82% to 154.68% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 336.07% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 112.50% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 681.51% | 513.81% | 39.40% incentives |
-| uniswap-v4 | 108.12% | 158.34% | Base rate |
+| uniswap-v4 | 154.68% | 157.70% | Base rate |
+| uniswap-v3 | 92.82% | 67.30% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ZRO yield today?
 
-681.51% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+154.68% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many ZRO pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $446.3K in total.
+3 live pools clear this page's $100K TVL floor, $387.3K in total.
 
 ### Are these rates safe?
 
@@ -57,11 +57,12 @@ There is not enough qualifying APY history to rank ZRO pools. This view covers A
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [USDE](https://www.defi.garden/tokens/usde)
-- [USDS](https://www.defi.garden/tokens/usds)
+- [WBTC](https://www.defi.garden/tokens/wbtc)
+- [SUSDS](https://www.defi.garden/tokens/susds)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
+- [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated October 5, 2026
+## Last updated October 6, 2026

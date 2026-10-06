@@ -1,14 +1,14 @@
 # WUSCC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
 
-The highest honest WUSCC yield right now is 34.73% on 3f (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WUSCC yield right now is 34.81% on 3f (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [3f →](https://www.defi.garden/?pool=b8900f72-3fe1-5910-b523-1835a235c8cf#src=seo_token) | Ethereum | 34.73% | $295.1K |
-| [3f →](https://www.defi.garden/?pool=2291f099-f432-5492-a381-764026007316#src=seo_token) | Ethereum | 66.85% | $203.2K |
-| [3f →](https://www.defi.garden/?pool=231cc228-b5b6-5584-9d01-4dc8a06d3ed5#src=seo_token) | Ethereum | 43.55% | $150.4K |
+| [3f →](https://www.defi.garden/?pool=b8900f72-3fe1-5910-b523-1835a235c8cf#src=seo_token) | Ethereum | 34.81% | $294.9K |
+| [3f →](https://www.defi.garden/?pool=2291f099-f432-5492-a381-764026007316#src=seo_token) | Ethereum | 67.07% | $203K |
+| [3f →](https://www.defi.garden/?pool=231cc228-b5b6-5584-9d01-4dc8a06d3ed5#src=seo_token) | Ethereum | 43.67% | $150.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,17 +19,17 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-WUSCC shows up in 3 pools here, with rates from 34.73% to 66.85% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+WUSCC shows up in 3 pools here, with rates from 34.81% to 67.07% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 20.58% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 21.26% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| 3f | 34.73% | 25.09% | Base rate |
-| 3f | 66.85% | 16.81% | Base rate |
-| 3f | 43.55% | 20.58% | Base rate |
+| 3f | 34.81% | 25.36% | Base rate |
+| 3f | 67.07% | 18.38% | Base rate |
+| 3f | 43.67% | 21.26% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WUSCC yield today?
 
-34.73% APY on 3f (Ethereum), based on live DefiLlama data.
+34.81% APY on 3f (Ethereum), based on live DefiLlama data.
 
 ### How many WUSCC pools clear the TVL floor?
 
@@ -64,4 +64,4 @@ There is not enough qualifying APY history to rank WUSCC pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 5, 2026
+## Last updated October 6, 2026

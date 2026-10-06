@@ -1,33 +1,43 @@
 # NVDAC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
 
-The highest honest NVDAC yield right now is 166.14% on aerodrome-slipstream (Base), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NVDAC yield right now is 391.28% on aerodrome-slipstream (Base), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=f07ec582-f302-5fab-9531-eabc3f8f291c#src=seo_token) | Base | 166.14% | $2.08M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=f07ec582-f302-5fab-9531-eabc3f8f291c#src=seo_token) | Base | 391.28% | $1.9M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=ede76535-ee34-5723-bfcb-f48732cac28a#src=seo_token) | Base | 77.36% | $236.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=3a94d317-15cc-5bc1-be68-a5ad8c2c92a2#src=seo_token) | Base | 8.73% | $116K |
 
-<!-- rate-stability:insufficient -->
+<!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-There is not enough qualifying APY history to rank NVDAC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NVDAC's lower-variability candidates are uniswap-v4 (Base), 8.73% APY, $116K TVL, https://www.defi.garden/?pool=3a94d317-15cc-5bc1-be68-a5ad8c2c92a2#src=seo_token; aerodrome-slipstream (Base), 391.28% APY, $1.9M TVL, https://www.defi.garden/?pool=f07ec582-f302-5fab-9531-eabc3f8f291c#src=seo_token; uniswap-v4 (Base), 77.36% APY, $236.3K TVL, https://www.defi.garden/?pool=ede76535-ee34-5723-bfcb-f48732cac28a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+| Rank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=3a94d317-15cc-5bc1-be68-a5ad8c2c92a2#src=seo_token) | Base | 8.73% | $116K |
+| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=f07ec582-f302-5fab-9531-eabc3f8f291c#src=seo_token) | Base | 391.28% | $1.9M |
+| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=ede76535-ee34-5723-bfcb-f48732cac28a#src=seo_token) | Base | 77.36% | $236.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-NVDAC shows up in 1 pools here, with rates from 166.14% to 166.14% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+NVDAC shows up in 3 pools here, with rates from 8.73% to 391.28% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 350.61% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 34.93% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-1 of 1 pool blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
-1 of 1 pool carries impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+3 of 3 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 166.14% | 350.61% | 72.84% incentives |
+| aerodrome-slipstream | 391.28% | 351.61% | 87.65% incentives |
+| uniswap-v4 | 77.36% | 34.93% | Base rate |
+| uniswap-v4 | 8.73% | 27.80% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +45,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest NVDAC yield today?
 
-166.14% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+391.28% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many NVDAC pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $2.97M in total.
+5 live pools clear this page's $100K TVL floor, $2.8M in total.
 
 ### Are these rates safe?
 
@@ -47,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which NVDAC pools have the most stable APY history?
 
-There is not enough qualifying APY history to rank NVDAC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NVDAC's lower-variability candidates are uniswap-v4 (Base), 8.73% APY, $116K TVL, https://www.defi.garden/?pool=3a94d317-15cc-5bc1-be68-a5ad8c2c92a2#src=seo_token; aerodrome-slipstream (Base), 391.28% APY, $1.9M TVL, https://www.defi.garden/?pool=f07ec582-f302-5fab-9531-eabc3f8f291c#src=seo_token; uniswap-v4 (Base), 77.36% APY, $236.3K TVL, https://www.defi.garden/?pool=ede76535-ee34-5723-bfcb-f48732cac28a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -62,4 +72,4 @@ There is not enough qualifying APY history to rank NVDAC pools. This view covers
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 5, 2026
+## Last updated October 6, 2026

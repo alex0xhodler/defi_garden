@@ -4,14 +4,14 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| HGRAM | [hipo →](https://www.defi.garden/?pool=691a2aaa-cef5-4a6a-a3f3-86170fada8f4#src=seo_chain) | 17.61% | $12.12M |
-| GRAM-USD₮ | [ston.fi →](https://www.defi.garden/?pool=4c139e6e-1a29-496e-b916-7edd07069340#src=seo_chain) | 3.86% | $5.41M |
-| GRAM-USD₮ | [ston.fi →](https://www.defi.garden/?pool=ad078c5e-e07c-4a25-97ab-c04d2c9d8908#src=seo_chain) | 6.42% | $5.27M |
+| HGRAM | [hipo →](https://www.defi.garden/?pool=691a2aaa-cef5-4a6a-a3f3-86170fada8f4#src=seo_chain) | 17.61% | $12.16M |
+| GRAM-USD₮ | [ston.fi →](https://www.defi.garden/?pool=4c139e6e-1a29-496e-b916-7edd07069340#src=seo_chain) | 3.68% | $5.5M |
+| GRAM-USD₮ | [ston.fi →](https://www.defi.garden/?pool=ad078c5e-e07c-4a25-97ab-c04d2c9d8908#src=seo_chain) | 5.92% | $5.35M |
 | USDT | [storm-trade →](https://www.defi.garden/?pool=94623cbe-f6ac-47da-b157-776073f2ac13#src=seo_chain) | 4.74% | $2.71M |
-| TSTON-USD₮ | [tonco-v1 →](https://www.defi.garden/?pool=92dba085-11b3-5951-aeec-f7d65c21e854#src=seo_chain) | 35.04% | $2.56M |
-| GRAM | [storm-trade →](https://www.defi.garden/?pool=4c4efd02-2cb9-412f-b2d3-8b05208847ae#src=seo_chain) | 6.10% | $1.64M |
-| AFFSENTORA-USDT | [affluent →](https://www.defi.garden/?pool=1553ad7f-648c-46b2-ac37-b6863311e83c#src=seo_chain) | 1.77% | $1.21M |
-| STON-USD₮ | [ston.fi →](https://www.defi.garden/?pool=31d19516-8eb0-40e7-a6e8-03ef10a505f1#src=seo_chain) | 15.71% | $871.7K |
+| TSTON-USD₮ | [tonco-v1 →](https://www.defi.garden/?pool=92dba085-11b3-5951-aeec-f7d65c21e854#src=seo_chain) | 41.04% | $2.59M |
+| GRAM | [storm-trade →](https://www.defi.garden/?pool=4c4efd02-2cb9-412f-b2d3-8b05208847ae#src=seo_chain) | 6.10% | $1.69M |
+| AFFSENTORA-USDT | [affluent →](https://www.defi.garden/?pool=1553ad7f-648c-46b2-ac37-b6863311e83c#src=seo_chain) | 1.78% | $1.21M |
+| STON-USD₮ | [ston.fi →](https://www.defi.garden/?pool=31d19516-8eb0-40e7-a6e8-03ef10a505f1#src=seo_chain) | 15.82% | $874.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, TON의 hipo에서 APY 17.61%예요.
 
 ### TON 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 53개이며, 합산 TVL은 $51.36M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 53개이며, 합산 TVL은 $51.86M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -47,4 +47,4 @@ DefiLlama 실시간 데이터 기준, TON의 hipo에서 APY 17.61%예요.
 - [AFFSENTORA](https://www.defi.garden/ko/tokens/affsentora)
 - [STON](https://www.defi.garden/ko/tokens/ston)
 
-## 마지막 업데이트: October 5, 2026
+## 마지막 업데이트: October 6, 2026

@@ -1,12 +1,12 @@
 # BRLA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
 
-The highest honest BRLA yield right now is 120.22% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BRLA yield right now is 111.59% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=9788bb03-a6fc-4d68-8e50-125caf1b2cec#src=seo_token) | Polygon | 120.22% | $147.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=9788bb03-a6fc-4d68-8e50-125caf1b2cec#src=seo_token) | Polygon | 111.59% | $152.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BRLA yield today?
 
-120.22% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
+111.59% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
 
 ### How many BRLA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $147.7K in total.
+1 live pool clear this page's $100K TVL floor, $152.3K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank BRLA pools. This view covers 
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated October 5, 2026
+## Last updated October 6, 2026

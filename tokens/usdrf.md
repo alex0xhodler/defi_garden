@@ -1,12 +1,12 @@
 # USDRF DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
 
-The highest honest USDRF yield right now is 1.71% on liqwid (Cardano), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDRF yield right now is 1.72% on liqwid (Cardano), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [liqwid →](https://www.defi.garden/?pool=cc5f9296-3e23-59cd-b498-25fc5e62fd5e#src=seo_token) | Cardano | 1.71% | $213K |
+| [liqwid →](https://www.defi.garden/?pool=cc5f9296-3e23-59cd-b498-25fc5e62fd5e#src=seo_token) | Cardano | 1.72% | $212.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest USDRF yield today?
 
-1.71% APY on liqwid (Cardano), based on live DefiLlama data.
+1.72% APY on liqwid (Cardano), based on live DefiLlama data.
 
 ### How many USDRF pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $213K in total.
+1 live pool clear this page's $100K TVL floor, $212.5K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank USDRF pools. This view covers
 
 - [Cardano](https://www.defi.garden/chains/cardano)
 
-## Last updated October 5, 2026
+## Last updated October 6, 2026

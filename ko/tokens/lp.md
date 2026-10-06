@@ -1,6 +1,6 @@
 # LP 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 5, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 6, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 LP의 가장 높은 정직한 수익률은 Arbitrum의 wombat-exchange에서 0.10%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
@@ -41,7 +41,7 @@ LP 풀은 여기 5개가 있고, 2개 체인에서 APY가 0.01%부터 0.10%까�
 |---|---|---|---|
 | wombat-exchange | 0.01% | 0.01% | 인센티브 100.00% |
 | wombat-exchange | 0.03% | 0.03% | 인센티브 100.00% |
-| wombat-exchange | 0.04% | 0.05% | 인센티브 99.76% |
+| wombat-exchange | 0.04% | 0.05% | 인센티브 99.07% |
 | wombat-exchange | 0.07% | 0.08% | 인센티브 100.00% |
 | wombat-exchange | 0.10% | 0.28% | 인센티브 100.00% |
 
@@ -79,4 +79,4 @@ APY 이력만 기준으로 비교한 LP의 변동성 낮은 후보는 BSC의 wom
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
-## 마지막 업데이트: October 5, 2026
+## 마지막 업데이트: October 6, 2026

@@ -1,43 +1,43 @@
 # VELO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
 
-The highest honest VELO yield right now is 102.90% on velodrome-v3 (OP Mainnet), among 10 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VELO yield right now is 95.81% on velodrome-v2 (OP Mainnet), among 10 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [velodrome-v2 →](https://www.defi.garden/?pool=d4831935-4ab6-48cd-81a7-1986fd6cdaf9#src=seo_token) | OP Mainnet | 28.79% | $1.02M |
-| [velodrome-v2 →](https://www.defi.garden/?pool=8ba5248e-fb39-40c6-8fbe-611542c2780e#src=seo_token) | OP Mainnet | 96.43% | $999.6K |
-| [velodrome-v2 →](https://www.defi.garden/?pool=09921e93-8c35-46fb-94ba-9fe0580a2a88#src=seo_token) | OP Mainnet | 26.14% | $342.1K |
-| [velodrome-v3 →](https://www.defi.garden/?pool=46a80298-8bac-4311-b96b-8d9b6a07a94e#src=seo_token) | OP Mainnet | 102.90% | $326.7K |
-| [extra-finance-leverage-farming →](https://www.defi.garden/?pool=91ebb282-e9ed-4f28-ab05-2787578b1c3f#src=seo_token) | OP Mainnet | 33.27% | $277.2K |
-| [velodrome-v2 →](https://www.defi.garden/?pool=366c295f-4366-475b-bea3-287292cb5b7a#src=seo_token) | OP Mainnet | 44.05% | $190.9K |
-| [extra-finance-leverage-farming →](https://www.defi.garden/?pool=433c0852-c262-4ad0-acb7-c9efa5f34c40#src=seo_token) | OP Mainnet | 0.04% | $179K |
-| [velodrome-v2 →](https://www.defi.garden/?pool=9104e2f4-e7c2-4d7d-b778-8c83dca24f56#src=seo_token) | OP Mainnet | 34.69% | $175.1K |
+| [velodrome-v2 →](https://www.defi.garden/?pool=d4831935-4ab6-48cd-81a7-1986fd6cdaf9#src=seo_token) | OP Mainnet | 28.54% | $1.01M |
+| [velodrome-v2 →](https://www.defi.garden/?pool=8ba5248e-fb39-40c6-8fbe-611542c2780e#src=seo_token) | OP Mainnet | 95.81% | $988.8K |
+| [velodrome-v3 →](https://www.defi.garden/?pool=46a80298-8bac-4311-b96b-8d9b6a07a94e#src=seo_token) | OP Mainnet | 76.77% | $344.8K |
+| [velodrome-v2 →](https://www.defi.garden/?pool=09921e93-8c35-46fb-94ba-9fe0580a2a88#src=seo_token) | OP Mainnet | 25.95% | $338.8K |
+| [extra-finance-leverage-farming →](https://www.defi.garden/?pool=91ebb282-e9ed-4f28-ab05-2787578b1c3f#src=seo_token) | OP Mainnet | 32.94% | $274.8K |
+| [velodrome-v2 →](https://www.defi.garden/?pool=366c295f-4366-475b-bea3-287292cb5b7a#src=seo_token) | OP Mainnet | 44.42% | $186.1K |
+| [extra-finance-leverage-farming →](https://www.defi.garden/?pool=433c0852-c262-4ad0-acb7-c9efa5f34c40#src=seo_token) | OP Mainnet | 0.04% | $175.9K |
+| [velodrome-v2 →](https://www.defi.garden/?pool=9104e2f4-e7c2-4d7d-b778-8c83dca24f56#src=seo_token) | OP Mainnet | 34.35% | $173.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, VELO's lower-variability candidates are extra-finance-leverage-farming (OP Mainnet), 0.04% APY, $179K TVL, https://www.defi.garden/?pool=433c0852-c262-4ad0-acb7-c9efa5f34c40#src=seo_token; velodrome-v2 (OP Mainnet), 26.14% APY, $342.1K TVL, https://www.defi.garden/?pool=09921e93-8c35-46fb-94ba-9fe0580a2a88#src=seo_token; velodrome-v2 (OP Mainnet), 44.05% APY, $190.9K TVL, https://www.defi.garden/?pool=366c295f-4366-475b-bea3-287292cb5b7a#src=seo_token; velodrome-v2 (OP Mainnet), 34.69% APY, $175.1K TVL, https://www.defi.garden/?pool=9104e2f4-e7c2-4d7d-b778-8c83dca24f56#src=seo_token; velodrome-v2 (OP Mainnet), 28.79% APY, $1.02M TVL, https://www.defi.garden/?pool=d4831935-4ab6-48cd-81a7-1986fd6cdaf9#src=seo_token; extra-finance-leverage-farming (OP Mainnet), 33.27% APY, $277.2K TVL, https://www.defi.garden/?pool=91ebb282-e9ed-4f28-ab05-2787578b1c3f#src=seo_token; velodrome-v3 (OP Mainnet), 102.90% APY, $326.7K TVL, https://www.defi.garden/?pool=46a80298-8bac-4311-b96b-8d9b6a07a94e#src=seo_token; velodrome-v2 (OP Mainnet), 96.43% APY, $999.6K TVL, https://www.defi.garden/?pool=8ba5248e-fb39-40c6-8fbe-611542c2780e#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, VELO's lower-variability candidates are extra-finance-leverage-farming (OP Mainnet), 0.04% APY, $175.9K TVL, https://www.defi.garden/?pool=433c0852-c262-4ad0-acb7-c9efa5f34c40#src=seo_token; velodrome-v2 (OP Mainnet), 25.95% APY, $338.8K TVL, https://www.defi.garden/?pool=09921e93-8c35-46fb-94ba-9fe0580a2a88#src=seo_token; velodrome-v2 (OP Mainnet), 44.42% APY, $186.1K TVL, https://www.defi.garden/?pool=366c295f-4366-475b-bea3-287292cb5b7a#src=seo_token; velodrome-v2 (OP Mainnet), 34.35% APY, $173.8K TVL, https://www.defi.garden/?pool=9104e2f4-e7c2-4d7d-b778-8c83dca24f56#src=seo_token; velodrome-v2 (OP Mainnet), 28.54% APY, $1.01M TVL, https://www.defi.garden/?pool=d4831935-4ab6-48cd-81a7-1986fd6cdaf9#src=seo_token; extra-finance-leverage-farming (OP Mainnet), 32.94% APY, $274.8K TVL, https://www.defi.garden/?pool=91ebb282-e9ed-4f28-ab05-2787578b1c3f#src=seo_token; velodrome-v3 (OP Mainnet), 76.77% APY, $344.8K TVL, https://www.defi.garden/?pool=46a80298-8bac-4311-b96b-8d9b6a07a94e#src=seo_token; velodrome-v2 (OP Mainnet), 95.81% APY, $988.8K TVL, https://www.defi.garden/?pool=8ba5248e-fb39-40c6-8fbe-611542c2780e#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [extra-finance-leverage-farming →](https://www.defi.garden/?pool=433c0852-c262-4ad0-acb7-c9efa5f34c40#src=seo_token) | OP Mainnet | 0.04% | $179K |
-| 2 | [velodrome-v2 →](https://www.defi.garden/?pool=09921e93-8c35-46fb-94ba-9fe0580a2a88#src=seo_token) | OP Mainnet | 26.14% | $342.1K |
-| 3 | [velodrome-v2 →](https://www.defi.garden/?pool=366c295f-4366-475b-bea3-287292cb5b7a#src=seo_token) | OP Mainnet | 44.05% | $190.9K |
-| 4 | [velodrome-v2 →](https://www.defi.garden/?pool=9104e2f4-e7c2-4d7d-b778-8c83dca24f56#src=seo_token) | OP Mainnet | 34.69% | $175.1K |
-| 5 | [velodrome-v2 →](https://www.defi.garden/?pool=d4831935-4ab6-48cd-81a7-1986fd6cdaf9#src=seo_token) | OP Mainnet | 28.79% | $1.02M |
-| 6 | [extra-finance-leverage-farming →](https://www.defi.garden/?pool=91ebb282-e9ed-4f28-ab05-2787578b1c3f#src=seo_token) | OP Mainnet | 33.27% | $277.2K |
-| 7 | [velodrome-v3 →](https://www.defi.garden/?pool=46a80298-8bac-4311-b96b-8d9b6a07a94e#src=seo_token) | OP Mainnet | 102.90% | $326.7K |
-| 8 | [velodrome-v2 →](https://www.defi.garden/?pool=8ba5248e-fb39-40c6-8fbe-611542c2780e#src=seo_token) | OP Mainnet | 96.43% | $999.6K |
+| 1 | [extra-finance-leverage-farming →](https://www.defi.garden/?pool=433c0852-c262-4ad0-acb7-c9efa5f34c40#src=seo_token) | OP Mainnet | 0.04% | $175.9K |
+| 2 | [velodrome-v2 →](https://www.defi.garden/?pool=09921e93-8c35-46fb-94ba-9fe0580a2a88#src=seo_token) | OP Mainnet | 25.95% | $338.8K |
+| 3 | [velodrome-v2 →](https://www.defi.garden/?pool=366c295f-4366-475b-bea3-287292cb5b7a#src=seo_token) | OP Mainnet | 44.42% | $186.1K |
+| 4 | [velodrome-v2 →](https://www.defi.garden/?pool=9104e2f4-e7c2-4d7d-b778-8c83dca24f56#src=seo_token) | OP Mainnet | 34.35% | $173.8K |
+| 5 | [velodrome-v2 →](https://www.defi.garden/?pool=d4831935-4ab6-48cd-81a7-1986fd6cdaf9#src=seo_token) | OP Mainnet | 28.54% | $1.01M |
+| 6 | [extra-finance-leverage-farming →](https://www.defi.garden/?pool=91ebb282-e9ed-4f28-ab05-2787578b1c3f#src=seo_token) | OP Mainnet | 32.94% | $274.8K |
+| 7 | [velodrome-v3 →](https://www.defi.garden/?pool=46a80298-8bac-4311-b96b-8d9b6a07a94e#src=seo_token) | OP Mainnet | 76.77% | $344.8K |
+| 8 | [velodrome-v2 →](https://www.defi.garden/?pool=8ba5248e-fb39-40c6-8fbe-611542c2780e#src=seo_token) | OP Mainnet | 95.81% | $988.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-VELO shows up in 8 pools here, with rates from 0.04% to 102.90% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+VELO shows up in 8 pools here, with rates from 0.04% to 95.81% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 30.98% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 31.00% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 6 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -45,14 +45,14 @@ VELO shows up in 8 pools here, with rates from 0.04% to 102.90% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| velodrome-v2 | 28.79% | 29.81% | 100.00% incentives |
-| velodrome-v2 | 96.43% | 104.15% | 100.00% incentives |
-| velodrome-v2 | 26.14% | 25.51% | 100.00% incentives |
-| velodrome-v3 | 102.90% | 120.54% | 100.00% incentives |
-| extra-finance-leverage-farming | 33.27% | 31.42% | Base rate |
-| velodrome-v2 | 44.05% | 31.52% | 100.00% incentives |
+| velodrome-v2 | 28.54% | 29.79% | 100.00% incentives |
+| velodrome-v2 | 95.81% | 104.84% | 100.00% incentives |
+| velodrome-v3 | 76.77% | 119.46% | 100.00% incentives |
+| velodrome-v2 | 25.95% | 25.57% | 100.00% incentives |
+| extra-finance-leverage-farming | 32.94% | 31.40% | Base rate |
+| velodrome-v2 | 44.42% | 31.78% | 100.00% incentives |
 | extra-finance-leverage-farming | 0.04% | 0.04% | Base rate |
-| velodrome-v2 | 34.69% | 30.53% | 100.00% incentives |
+| velodrome-v2 | 34.35% | 30.60% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -60,11 +60,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest VELO yield today?
 
-102.90% APY on velodrome-v3 (OP Mainnet), based on live DefiLlama data.
+95.81% APY on velodrome-v2 (OP Mainnet), based on live DefiLlama data.
 
 ### How many VELO pools clear the TVL floor?
 
-10 live pools clear this page's $100K TVL floor, $4.2M in total.
+10 live pools clear this page's $100K TVL floor, $4.17M in total.
 
 ### Are these rates safe?
 
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which VELO pools have the most stable APY history?
 
-Based on APY history only, VELO's lower-variability candidates are extra-finance-leverage-farming (OP Mainnet), 0.04% APY, $179K TVL, https://www.defi.garden/?pool=433c0852-c262-4ad0-acb7-c9efa5f34c40#src=seo_token; velodrome-v2 (OP Mainnet), 26.14% APY, $342.1K TVL, https://www.defi.garden/?pool=09921e93-8c35-46fb-94ba-9fe0580a2a88#src=seo_token; velodrome-v2 (OP Mainnet), 44.05% APY, $190.9K TVL, https://www.defi.garden/?pool=366c295f-4366-475b-bea3-287292cb5b7a#src=seo_token; velodrome-v2 (OP Mainnet), 34.69% APY, $175.1K TVL, https://www.defi.garden/?pool=9104e2f4-e7c2-4d7d-b778-8c83dca24f56#src=seo_token; velodrome-v2 (OP Mainnet), 28.79% APY, $1.02M TVL, https://www.defi.garden/?pool=d4831935-4ab6-48cd-81a7-1986fd6cdaf9#src=seo_token; extra-finance-leverage-farming (OP Mainnet), 33.27% APY, $277.2K TVL, https://www.defi.garden/?pool=91ebb282-e9ed-4f28-ab05-2787578b1c3f#src=seo_token; velodrome-v3 (OP Mainnet), 102.90% APY, $326.7K TVL, https://www.defi.garden/?pool=46a80298-8bac-4311-b96b-8d9b6a07a94e#src=seo_token; velodrome-v2 (OP Mainnet), 96.43% APY, $999.6K TVL, https://www.defi.garden/?pool=8ba5248e-fb39-40c6-8fbe-611542c2780e#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, VELO's lower-variability candidates are extra-finance-leverage-farming (OP Mainnet), 0.04% APY, $175.9K TVL, https://www.defi.garden/?pool=433c0852-c262-4ad0-acb7-c9efa5f34c40#src=seo_token; velodrome-v2 (OP Mainnet), 25.95% APY, $338.8K TVL, https://www.defi.garden/?pool=09921e93-8c35-46fb-94ba-9fe0580a2a88#src=seo_token; velodrome-v2 (OP Mainnet), 44.42% APY, $186.1K TVL, https://www.defi.garden/?pool=366c295f-4366-475b-bea3-287292cb5b7a#src=seo_token; velodrome-v2 (OP Mainnet), 34.35% APY, $173.8K TVL, https://www.defi.garden/?pool=9104e2f4-e7c2-4d7d-b778-8c83dca24f56#src=seo_token; velodrome-v2 (OP Mainnet), 28.54% APY, $1.01M TVL, https://www.defi.garden/?pool=d4831935-4ab6-48cd-81a7-1986fd6cdaf9#src=seo_token; extra-finance-leverage-farming (OP Mainnet), 32.94% APY, $274.8K TVL, https://www.defi.garden/?pool=91ebb282-e9ed-4f28-ab05-2787578b1c3f#src=seo_token; velodrome-v3 (OP Mainnet), 76.77% APY, $344.8K TVL, https://www.defi.garden/?pool=46a80298-8bac-4311-b96b-8d9b6a07a94e#src=seo_token; velodrome-v2 (OP Mainnet), 95.81% APY, $988.8K TVL, https://www.defi.garden/?pool=8ba5248e-fb39-40c6-8fbe-611542c2780e#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -87,4 +87,4 @@ Based on APY history only, VELO's lower-variability candidates are extra-finance
 
 - [OP Mainnet](https://www.defi.garden/chains/op-mainnet)
 
-## Last updated October 5, 2026
+## Last updated October 6, 2026

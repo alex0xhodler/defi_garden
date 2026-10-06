@@ -1,31 +1,31 @@
 # AIOZ DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
 
-The highest honest AIOZ yield right now is 13.54% on pancakeswap-amm-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AIOZ yield right now is 10.55% on pancakeswap-amm-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=b7c4bd5c-cb8e-4317-9ee0-b9e0109bdaed#src=seo_token) | Ethereum | 7.94% | $1.85M |
-| [pancakeswap-amm-v3 →](https://www.defi.garden/?pool=84af8ced-9cac-460a-b062-6887147c6fb8#src=seo_token) | Ethereum | 13.54% | $278.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b7c4bd5c-cb8e-4317-9ee0-b9e0109bdaed#src=seo_token) | Ethereum | 6.76% | $1.82M |
+| [pancakeswap-amm-v3 →](https://www.defi.garden/?pool=84af8ced-9cac-460a-b062-6887147c6fb8#src=seo_token) | Ethereum | 10.55% | $275.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, AIOZ's lower-variability candidates are uniswap-v3 (Ethereum), 7.94% APY, $1.85M TVL, https://www.defi.garden/?pool=b7c4bd5c-cb8e-4317-9ee0-b9e0109bdaed#src=seo_token; pancakeswap-amm-v3 (Ethereum), 13.54% APY, $278.3K TVL, https://www.defi.garden/?pool=84af8ced-9cac-460a-b062-6887147c6fb8#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AIOZ's lower-variability candidates are uniswap-v3 (Ethereum), 6.76% APY, $1.82M TVL, https://www.defi.garden/?pool=b7c4bd5c-cb8e-4317-9ee0-b9e0109bdaed#src=seo_token; pancakeswap-amm-v3 (Ethereum), 10.55% APY, $275.2K TVL, https://www.defi.garden/?pool=84af8ced-9cac-460a-b062-6887147c6fb8#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=b7c4bd5c-cb8e-4317-9ee0-b9e0109bdaed#src=seo_token) | Ethereum | 7.94% | $1.85M |
-| 2 | [pancakeswap-amm-v3 →](https://www.defi.garden/?pool=84af8ced-9cac-460a-b062-6887147c6fb8#src=seo_token) | Ethereum | 13.54% | $278.3K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=b7c4bd5c-cb8e-4317-9ee0-b9e0109bdaed#src=seo_token) | Ethereum | 6.76% | $1.82M |
+| 2 | [pancakeswap-amm-v3 →](https://www.defi.garden/?pool=84af8ced-9cac-460a-b062-6887147c6fb8#src=seo_token) | Ethereum | 10.55% | $275.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-AIOZ shows up in 2 pools here, with rates from 7.94% to 13.54% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+AIOZ shows up in 2 pools here, with rates from 6.76% to 10.55% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 17.44% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 17.52% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 7.94% | 14.10% | Base rate |
-| pancakeswap-amm-v3 | 13.54% | 20.78% | Base rate |
+| uniswap-v3 | 6.76% | 14.18% | Base rate |
+| pancakeswap-amm-v3 | 10.55% | 20.85% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest AIOZ yield today?
 
-13.54% APY on pancakeswap-amm-v3 (Ethereum), based on live DefiLlama data.
+10.55% APY on pancakeswap-amm-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many AIOZ pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $2.12M in total.
+2 live pools clear this page's $100K TVL floor, $2.1M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which AIOZ pools have the most stable APY history?
 
-Based on APY history only, AIOZ's lower-variability candidates are uniswap-v3 (Ethereum), 7.94% APY, $1.85M TVL, https://www.defi.garden/?pool=b7c4bd5c-cb8e-4317-9ee0-b9e0109bdaed#src=seo_token; pancakeswap-amm-v3 (Ethereum), 13.54% APY, $278.3K TVL, https://www.defi.garden/?pool=84af8ced-9cac-460a-b062-6887147c6fb8#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AIOZ's lower-variability candidates are uniswap-v3 (Ethereum), 6.76% APY, $1.82M TVL, https://www.defi.garden/?pool=b7c4bd5c-cb8e-4317-9ee0-b9e0109bdaed#src=seo_token; pancakeswap-amm-v3 (Ethereum), 10.55% APY, $275.2K TVL, https://www.defi.garden/?pool=84af8ced-9cac-460a-b062-6887147c6fb8#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +69,4 @@ Based on APY history only, AIOZ's lower-variability candidates are uniswap-v3 (E
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 5, 2026
+## Last updated October 6, 2026

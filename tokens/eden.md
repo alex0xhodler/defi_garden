@@ -1,12 +1,12 @@
 # EDEN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
 
-The highest honest EDEN yield right now is 16.92% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EDEN yield right now is 16.28% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=5f810995-6401-4230-8d11-14e791f63da4#src=seo_token) | Ethereum | 16.92% | $607.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=5f810995-6401-4230-8d11-14e791f63da4#src=seo_token) | Ethereum | 16.28% | $607.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EDEN yield today?
 
-16.92% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+16.28% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many EDEN pools clear the TVL floor?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank EDEN pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 5, 2026
+## Last updated October 6, 2026

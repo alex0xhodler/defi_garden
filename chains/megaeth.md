@@ -4,8 +4,8 @@ The highest honest MegaETH yield right now is 5.54% on aave-v3 (MegaETH), among 
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| USDM | [aave-v3 →](https://www.defi.garden/?pool=5c994437-94bf-4c96-a4c1-5b8ae446dfd0#src=seo_chain) | 5.54% | $500.4K |
-| WETH | [aave-v3 →](https://www.defi.garden/?pool=1b9f6e32-d7d0-4261-8fd8-7921d8a43d91#src=seo_chain) | 0.69% | $237.7K |
+| USDM | [aave-v3 →](https://www.defi.garden/?pool=5c994437-94bf-4c96-a4c1-5b8ae446dfd0#src=seo_chain) | 5.54% | $503.7K |
+| WETH | [aave-v3 →](https://www.defi.garden/?pool=1b9f6e32-d7d0-4261-8fd8-7921d8a43d91#src=seo_chain) | 0.69% | $237.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MegaETH pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $12.14M in total.
+4 live pools clear this page's $100K TVL floor, $12.15M in total.
 
 ### Are these rates safe?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [USDM](https://www.defi.garden/tokens/usdm)
 - [WETH](https://www.defi.garden/tokens/weth)
 
-## Last updated October 5, 2026
+## Last updated October 6, 2026

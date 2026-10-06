@@ -1,12 +1,12 @@
 # BRK.BX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
 
-The highest honest BRK.BX yield right now is 15.84% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BRK.BX yield right now is 12.74% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=b808f728-041d-4a95-aa63-9828625f1521#src=seo_token) | Solana | 15.84% | $103.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=b808f728-041d-4a95-aa63-9828625f1521#src=seo_token) | Solana | 12.74% | $103.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BRK.BX yield today?
 
-15.84% APY on raydium-amm (Solana), based on live DefiLlama data.
+12.74% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many BRK.BX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $103.8K in total.
+1 live pool clear this page's $100K TVL floor, $103.7K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank BRK.BX pools. This view cover
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 5, 2026
+## Last updated October 6, 2026

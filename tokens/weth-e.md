@@ -1,43 +1,43 @@
 # WETH.E DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
 
-The highest honest WETH.E yield right now is 54.69% on pharaoh-v3 (Avalanche), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WETH.E yield right now is 49.09% on uniswap-v3 (Avalanche), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=c715efe7-a70d-4358-b2c2-c149cf658612#src=seo_token) | Avalanche | 0.84% | $11.21M |
-| [pharaoh-v3 →](https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc#src=seo_token) | Avalanche | 54.69% | $3.72M |
-| [benqi-lending →](https://www.defi.garden/?pool=caf50276-7bfe-4af0-8a47-5504fdc96393#src=seo_token) | Avalanche | 3.30% | $1.03M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a#src=seo_token) | Avalanche | 5.37% | $835.7K |
-| [aave-v4 →](https://www.defi.garden/?pool=a193d23a-5508-5069-9a55-a16f42e24a07#src=seo_token) | Avalanche | 0.33% | $504.4K |
-| [pangolin-v2 →](https://www.defi.garden/?pool=e5064c41-7f36-4fd4-9e64-15353d48dbf2#src=seo_token) | Avalanche | 1.39% | $239.7K |
-| [deltaprime →](https://www.defi.garden/?pool=44cae4d5-0848-4c16-bc48-b65d20e443bd#src=seo_token) | Avalanche | 3.14% | $227.6K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=df1b2ef3-465f-4338-9e1e-5fd3eed17b8a#src=seo_token) | Avalanche | 22.68% | $110.8K |
+| [aave-v3 →](https://www.defi.garden/?pool=c715efe7-a70d-4358-b2c2-c149cf658612#src=seo_token) | Avalanche | 0.84% | $11.12M |
+| [pharaoh-v3 →](https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc#src=seo_token) | Avalanche | 43.07% | $3.73M |
+| [benqi-lending →](https://www.defi.garden/?pool=caf50276-7bfe-4af0-8a47-5504fdc96393#src=seo_token) | Avalanche | 3.51% | $970.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a#src=seo_token) | Avalanche | 7.79% | $904.7K |
+| [aave-v4 →](https://www.defi.garden/?pool=a193d23a-5508-5069-9a55-a16f42e24a07#src=seo_token) | Avalanche | 0.33% | $502.5K |
+| [pangolin-v2 →](https://www.defi.garden/?pool=e5064c41-7f36-4fd4-9e64-15353d48dbf2#src=seo_token) | Avalanche | 2.70% | $243.1K |
+| [deltaprime →](https://www.defi.garden/?pool=44cae4d5-0848-4c16-bc48-b65d20e443bd#src=seo_token) | Avalanche | 3.14% | $227.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=df1b2ef3-465f-4338-9e1e-5fd3eed17b8a#src=seo_token) | Avalanche | 49.09% | $112.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WETH.E's lower-variability candidates are aave-v4 (Avalanche), 0.33% APY, $504.4K TVL, https://www.defi.garden/?pool=a193d23a-5508-5069-9a55-a16f42e24a07#src=seo_token; benqi-lending (Avalanche), 3.30% APY, $1.03M TVL, https://www.defi.garden/?pool=caf50276-7bfe-4af0-8a47-5504fdc96393#src=seo_token; aave-v3 (Avalanche), 0.84% APY, $11.21M TVL, https://www.defi.garden/?pool=c715efe7-a70d-4358-b2c2-c149cf658612#src=seo_token; deltaprime (Avalanche), 3.14% APY, $227.6K TVL, https://www.defi.garden/?pool=44cae4d5-0848-4c16-bc48-b65d20e443bd#src=seo_token; uniswap-v3 (Avalanche), 5.37% APY, $835.7K TVL, https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a#src=seo_token; uniswap-v3 (Avalanche), 22.68% APY, $110.8K TVL, https://www.defi.garden/?pool=df1b2ef3-465f-4338-9e1e-5fd3eed17b8a#src=seo_token; pangolin-v2 (Avalanche), 1.39% APY, $239.7K TVL, https://www.defi.garden/?pool=e5064c41-7f36-4fd4-9e64-15353d48dbf2#src=seo_token; pharaoh-v3 (Avalanche), 54.69% APY, $3.72M TVL, https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WETH.E's lower-variability candidates are aave-v4 (Avalanche), 0.33% APY, $502.5K TVL, https://www.defi.garden/?pool=a193d23a-5508-5069-9a55-a16f42e24a07#src=seo_token; benqi-lending (Avalanche), 3.51% APY, $970.1K TVL, https://www.defi.garden/?pool=caf50276-7bfe-4af0-8a47-5504fdc96393#src=seo_token; aave-v3 (Avalanche), 0.84% APY, $11.12M TVL, https://www.defi.garden/?pool=c715efe7-a70d-4358-b2c2-c149cf658612#src=seo_token; deltaprime (Avalanche), 3.14% APY, $227.1K TVL, https://www.defi.garden/?pool=44cae4d5-0848-4c16-bc48-b65d20e443bd#src=seo_token; uniswap-v3 (Avalanche), 7.79% APY, $904.7K TVL, https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a#src=seo_token; uniswap-v3 (Avalanche), 49.09% APY, $112.7K TVL, https://www.defi.garden/?pool=df1b2ef3-465f-4338-9e1e-5fd3eed17b8a#src=seo_token; pangolin-v2 (Avalanche), 2.70% APY, $243.1K TVL, https://www.defi.garden/?pool=e5064c41-7f36-4fd4-9e64-15353d48dbf2#src=seo_token; pharaoh-v3 (Avalanche), 43.07% APY, $3.73M TVL, https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aave-v4 →](https://www.defi.garden/?pool=a193d23a-5508-5069-9a55-a16f42e24a07#src=seo_token) | Avalanche | 0.33% | $504.4K |
-| 2 | [benqi-lending →](https://www.defi.garden/?pool=caf50276-7bfe-4af0-8a47-5504fdc96393#src=seo_token) | Avalanche | 3.30% | $1.03M |
-| 3 | [aave-v3 →](https://www.defi.garden/?pool=c715efe7-a70d-4358-b2c2-c149cf658612#src=seo_token) | Avalanche | 0.84% | $11.21M |
-| 4 | [deltaprime →](https://www.defi.garden/?pool=44cae4d5-0848-4c16-bc48-b65d20e443bd#src=seo_token) | Avalanche | 3.14% | $227.6K |
-| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a#src=seo_token) | Avalanche | 5.37% | $835.7K |
-| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=df1b2ef3-465f-4338-9e1e-5fd3eed17b8a#src=seo_token) | Avalanche | 22.68% | $110.8K |
-| 7 | [pangolin-v2 →](https://www.defi.garden/?pool=e5064c41-7f36-4fd4-9e64-15353d48dbf2#src=seo_token) | Avalanche | 1.39% | $239.7K |
-| 8 | [pharaoh-v3 →](https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc#src=seo_token) | Avalanche | 54.69% | $3.72M |
+| 1 | [aave-v4 →](https://www.defi.garden/?pool=a193d23a-5508-5069-9a55-a16f42e24a07#src=seo_token) | Avalanche | 0.33% | $502.5K |
+| 2 | [benqi-lending →](https://www.defi.garden/?pool=caf50276-7bfe-4af0-8a47-5504fdc96393#src=seo_token) | Avalanche | 3.51% | $970.1K |
+| 3 | [aave-v3 →](https://www.defi.garden/?pool=c715efe7-a70d-4358-b2c2-c149cf658612#src=seo_token) | Avalanche | 0.84% | $11.12M |
+| 4 | [deltaprime →](https://www.defi.garden/?pool=44cae4d5-0848-4c16-bc48-b65d20e443bd#src=seo_token) | Avalanche | 3.14% | $227.1K |
+| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a#src=seo_token) | Avalanche | 7.79% | $904.7K |
+| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=df1b2ef3-465f-4338-9e1e-5fd3eed17b8a#src=seo_token) | Avalanche | 49.09% | $112.7K |
+| 7 | [pangolin-v2 →](https://www.defi.garden/?pool=e5064c41-7f36-4fd4-9e64-15353d48dbf2#src=seo_token) | Avalanche | 2.70% | $243.1K |
+| 8 | [pharaoh-v3 →](https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc#src=seo_token) | Avalanche | 43.07% | $3.73M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WETH.E shows up in 8 pools here, with rates from 0.33% to 54.69% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+WETH.E shows up in 8 pools here, with rates from 0.33% to 49.09% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 4.76% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 4.77% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 8 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -45,14 +45,14 @@ WETH.E shows up in 8 pools here, with rates from 0.33% to 54.69% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aave-v3 | 0.84% | 1.41% | Base rate |
-| pharaoh-v3 | 54.69% | 77.67% | 100.00% incentives |
-| benqi-lending | 3.30% | 3.53% | Base rate |
-| uniswap-v3 | 5.37% | 18.22% | Base rate |
-| aave-v4 | 0.33% | 0.40% | Base rate |
-| pangolin-v2 | 1.39% | 6.00% | Base rate |
-| deltaprime | 3.14% | 2.03% | Base rate |
-| uniswap-v3 | 22.68% | 69.62% | Base rate |
+| aave-v3 | 0.84% | 1.40% | Base rate |
+| pharaoh-v3 | 43.07% | 78.56% | 100.00% incentives |
+| benqi-lending | 3.51% | 3.51% | Base rate |
+| uniswap-v3 | 7.79% | 18.25% | Base rate |
+| aave-v4 | 0.33% | 0.41% | Base rate |
+| pangolin-v2 | 2.70% | 6.02% | Base rate |
+| deltaprime | 3.14% | 2.06% | Base rate |
+| uniswap-v3 | 49.09% | 70.27% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -60,11 +60,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WETH.E yield today?
 
-54.69% APY on pharaoh-v3 (Avalanche), based on live DefiLlama data.
+49.09% APY on uniswap-v3 (Avalanche), based on live DefiLlama data.
 
 ### How many WETH.E pools clear the TVL floor?
 
-9 live pools clear this page's $100K TVL floor, $18.11M in total.
+9 live pools clear this page's $100K TVL floor, $18.04M in total.
 
 ### Are these rates safe?
 
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WETH.E pools have the most stable APY history?
 
-Based on APY history only, WETH.E's lower-variability candidates are aave-v4 (Avalanche), 0.33% APY, $504.4K TVL, https://www.defi.garden/?pool=a193d23a-5508-5069-9a55-a16f42e24a07#src=seo_token; benqi-lending (Avalanche), 3.30% APY, $1.03M TVL, https://www.defi.garden/?pool=caf50276-7bfe-4af0-8a47-5504fdc96393#src=seo_token; aave-v3 (Avalanche), 0.84% APY, $11.21M TVL, https://www.defi.garden/?pool=c715efe7-a70d-4358-b2c2-c149cf658612#src=seo_token; deltaprime (Avalanche), 3.14% APY, $227.6K TVL, https://www.defi.garden/?pool=44cae4d5-0848-4c16-bc48-b65d20e443bd#src=seo_token; uniswap-v3 (Avalanche), 5.37% APY, $835.7K TVL, https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a#src=seo_token; uniswap-v3 (Avalanche), 22.68% APY, $110.8K TVL, https://www.defi.garden/?pool=df1b2ef3-465f-4338-9e1e-5fd3eed17b8a#src=seo_token; pangolin-v2 (Avalanche), 1.39% APY, $239.7K TVL, https://www.defi.garden/?pool=e5064c41-7f36-4fd4-9e64-15353d48dbf2#src=seo_token; pharaoh-v3 (Avalanche), 54.69% APY, $3.72M TVL, https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WETH.E's lower-variability candidates are aave-v4 (Avalanche), 0.33% APY, $502.5K TVL, https://www.defi.garden/?pool=a193d23a-5508-5069-9a55-a16f42e24a07#src=seo_token; benqi-lending (Avalanche), 3.51% APY, $970.1K TVL, https://www.defi.garden/?pool=caf50276-7bfe-4af0-8a47-5504fdc96393#src=seo_token; aave-v3 (Avalanche), 0.84% APY, $11.12M TVL, https://www.defi.garden/?pool=c715efe7-a70d-4358-b2c2-c149cf658612#src=seo_token; deltaprime (Avalanche), 3.14% APY, $227.1K TVL, https://www.defi.garden/?pool=44cae4d5-0848-4c16-bc48-b65d20e443bd#src=seo_token; uniswap-v3 (Avalanche), 7.79% APY, $904.7K TVL, https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a#src=seo_token; uniswap-v3 (Avalanche), 49.09% APY, $112.7K TVL, https://www.defi.garden/?pool=df1b2ef3-465f-4338-9e1e-5fd3eed17b8a#src=seo_token; pangolin-v2 (Avalanche), 2.70% APY, $243.1K TVL, https://www.defi.garden/?pool=e5064c41-7f36-4fd4-9e64-15353d48dbf2#src=seo_token; pharaoh-v3 (Avalanche), 43.07% APY, $3.73M TVL, https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -80,11 +80,11 @@ Based on APY history only, WETH.E's lower-variability candidates are aave-v4 (Av
 - [SAVAX](https://www.defi.garden/tokens/savax)
 - [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
 - [WAVAX](https://www.defi.garden/tokens/wavax)
+- [SAVUSD](https://www.defi.garden/tokens/savusd)
 - [BTC.B](https://www.defi.garden/tokens/btc-b)
-- [VBILL](https://www.defi.garden/tokens/vbill)
 
 ## Available on
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated October 5, 2026
+## Last updated October 6, 2026

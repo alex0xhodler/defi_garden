@@ -1,12 +1,12 @@
 # PPX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
 
-The highest honest PPX yield right now is 0.25% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PPX yield right now is 0.01% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=3e30e763-daf4-489a-a0f8-056673298ebc#src=seo_token) | Base | 0.25% | $149.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=3e30e763-daf4-489a-a0f8-056673298ebc#src=seo_token) | Base | 0.01% | $149.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PPX yield today?
 
-0.25% APY on uniswap-v4 (Base), based on live DefiLlama data.
+0.01% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many PPX pools clear the TVL floor?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank PPX pools. This view covers A
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 5, 2026
+## Last updated October 6, 2026

@@ -1,12 +1,12 @@
 # COIN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
 
 The highest honest COIN yield right now is 0.05% on uniswap-v3 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=fe6edd87-fd9f-4320-97b3-b4aad91a468a#src=seo_token) | Base | 0.05% | $127.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=fe6edd87-fd9f-4320-97b3-b4aad91a468a#src=seo_token) | Base | 0.05% | $126.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many COIN pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $341.5K in total.
+3 live pools clear this page's $100K TVL floor, $341.1K in total.
 
 ### Are these rates safe?
 
@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank COIN pools. This view covers 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 5, 2026
+## Last updated October 6, 2026

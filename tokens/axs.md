@@ -1,12 +1,12 @@
 # AXS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
 
-The highest honest AXS yield right now is 0.60% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AXS yield right now is 0.16% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=36eae28d-687b-43fd-8377-7422a53bfc91#src=seo_token) | Ethereum | 0.60% | $109.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=36eae28d-687b-43fd-8377-7422a53bfc91#src=seo_token) | Ethereum | 0.16% | $109.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AXS yield today?
 
-0.60% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+0.16% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many AXS pools clear the TVL floor?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank AXS pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 5, 2026
+## Last updated October 6, 2026

@@ -1,29 +1,29 @@
 # XWBTC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
 
-The highest honest XWBTC yield right now is 4.17% on ekubo (Starknet), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XWBTC yield right now is 4.58% on ekubo (Starknet), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ekubo →](https://www.defi.garden/?pool=3b3b2d81-da38-450b-ae70-28911fd214d2#src=seo_token) | Starknet | 4.17% | $813.6K |
-| [troves →](https://www.defi.garden/?pool=279fa648-fb09-47e9-a63a-1c8ffaeee212#src=seo_token) | Starknet | 1.54% | $812.2K |
+| [ekubo →](https://www.defi.garden/?pool=3b3b2d81-da38-450b-ae70-28911fd214d2#src=seo_token) | Starknet | 4.58% | $808.2K |
+| [troves →](https://www.defi.garden/?pool=279fa648-fb09-47e9-a63a-1c8ffaeee212#src=seo_token) | Starknet | 1.03% | $807.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, XWBTC's lower-variability candidates are troves (Starknet), 1.54% APY, $812.2K TVL, https://www.defi.garden/?pool=279fa648-fb09-47e9-a63a-1c8ffaeee212#src=seo_token; ekubo (Starknet), 4.17% APY, $813.6K TVL, https://www.defi.garden/?pool=3b3b2d81-da38-450b-ae70-28911fd214d2#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, XWBTC's lower-variability candidates are troves (Starknet), 1.03% APY, $807.1K TVL, https://www.defi.garden/?pool=279fa648-fb09-47e9-a63a-1c8ffaeee212#src=seo_token; ekubo (Starknet), 4.58% APY, $808.2K TVL, https://www.defi.garden/?pool=3b3b2d81-da38-450b-ae70-28911fd214d2#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [troves →](https://www.defi.garden/?pool=279fa648-fb09-47e9-a63a-1c8ffaeee212#src=seo_token) | Starknet | 1.54% | $812.2K |
-| 2 | [ekubo →](https://www.defi.garden/?pool=3b3b2d81-da38-450b-ae70-28911fd214d2#src=seo_token) | Starknet | 4.17% | $813.6K |
+| 1 | [troves →](https://www.defi.garden/?pool=279fa648-fb09-47e9-a63a-1c8ffaeee212#src=seo_token) | Starknet | 1.03% | $807.1K |
+| 2 | [ekubo →](https://www.defi.garden/?pool=3b3b2d81-da38-450b-ae70-28911fd214d2#src=seo_token) | Starknet | 4.58% | $808.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-XWBTC shows up in 2 pools here, with rates from 1.54% to 4.17% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+XWBTC shows up in 2 pools here, with rates from 1.03% to 4.58% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.71% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -31,8 +31,8 @@ XWBTC shows up in 2 pools here, with rates from 1.54% to 4.17% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| ekubo | 4.17% | 3.97% | 99.99% incentives |
-| troves | 1.54% | 1.46% | Base rate |
+| ekubo | 4.58% | 3.94% | 99.91% incentives |
+| troves | 1.03% | 1.48% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest XWBTC yield today?
 
-4.17% APY on ekubo (Starknet), based on live DefiLlama data.
+4.58% APY on ekubo (Starknet), based on live DefiLlama data.
 
 ### How many XWBTC pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $6.21M in total.
+4 live pools clear this page's $100K TVL floor, $6.18M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which XWBTC pools have the most stable APY history?
 
-Based on APY history only, XWBTC's lower-variability candidates are troves (Starknet), 1.54% APY, $812.2K TVL, https://www.defi.garden/?pool=279fa648-fb09-47e9-a63a-1c8ffaeee212#src=seo_token; ekubo (Starknet), 4.17% APY, $813.6K TVL, https://www.defi.garden/?pool=3b3b2d81-da38-450b-ae70-28911fd214d2#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, XWBTC's lower-variability candidates are troves (Starknet), 1.03% APY, $807.1K TVL, https://www.defi.garden/?pool=279fa648-fb09-47e9-a63a-1c8ffaeee212#src=seo_token; ekubo (Starknet), 4.58% APY, $808.2K TVL, https://www.defi.garden/?pool=3b3b2d81-da38-450b-ae70-28911fd214d2#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -60,11 +60,11 @@ Based on APY history only, XWBTC's lower-variability candidates are troves (Star
 - [STRKBTC](https://www.defi.garden/tokens/strkbtc)
 - [ZEC](https://www.defi.garden/tokens/zec)
 - [STRK](https://www.defi.garden/tokens/strk)
+- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [XSTRK](https://www.defi.garden/tokens/xstrk)
-- [XSTRKBTC](https://www.defi.garden/tokens/xstrkbtc)
 
 ## Available on
 
 - [Starknet](https://www.defi.garden/chains/starknet)
 
-## Last updated October 5, 2026
+## Last updated October 6, 2026

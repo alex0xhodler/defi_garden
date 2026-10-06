@@ -1,43 +1,43 @@
 # XRP 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 5, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 6, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 XRP의 가장 높은 정직한 수익률은 BSC의 uniswap-v3에서 9.55%이며, $100K TVL 기준을 넘는 15개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 XRP의 가장 높은 정직한 수익률은 XRPL EVM의 midas-rwa에서 2.21%이며, $100K TVL 기준을 넘는 15개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [venus-core-pool →](https://www.defi.garden/?pool=0204c8ff-0805-4515-a27e-742d23a15719#src=seo_token) | BSC | 0.09% | $9.27M |
-| [midas-rwa →](https://www.defi.garden/?pool=54478c15-57c9-4d0f-bbf5-1ea33b027423#src=seo_token) | XRPL EVM | 2.21% | $941K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=e8d19139-6a5c-4e51-b3f5-a4230b65a871#src=seo_token) | BSC | 15.21% | $471.9K |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=c279bec9-4f14-4d9d-8543-50aa2758c9b3#src=seo_token) | BSC | 1.50% | $425.8K |
-| [vvs-standard →](https://www.defi.garden/?pool=980baf38-bcaa-43b6-89a6-279ed6740add#src=seo_token) | Cronos | 2.16% | $376K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=96da613c-8ae3-49b3-98a7-613e924fcd56#src=seo_token) | BSC | 9.55% | $161.8K |
-| [gmx-solana →](https://www.defi.garden/?pool=7a0f46c7-e8ad-47bf-b5d0-80fb9ed249f1#src=seo_token) | Solana | 0.22% | $136.1K |
-| [raydium-amm →](https://www.defi.garden/?pool=b0563bfc-20f5-41cd-a411-5d2f5c3d3a29#src=seo_token) | Solana | 1.90% | $134.3K |
+| [venus-core-pool →](https://www.defi.garden/?pool=0204c8ff-0805-4515-a27e-742d23a15719#src=seo_token) | BSC | 0.09% | $9.33M |
+| [midas-rwa →](https://www.defi.garden/?pool=54478c15-57c9-4d0f-bbf5-1ea33b027423#src=seo_token) | XRPL EVM | 2.21% | $936.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e8d19139-6a5c-4e51-b3f5-a4230b65a871#src=seo_token) | BSC | 11.50% | $471.8K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=c279bec9-4f14-4d9d-8543-50aa2758c9b3#src=seo_token) | BSC | 0.90% | $422.6K |
+| [vvs-standard →](https://www.defi.garden/?pool=980baf38-bcaa-43b6-89a6-279ed6740add#src=seo_token) | Cronos | 1.58% | $371.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=96da613c-8ae3-49b3-98a7-613e924fcd56#src=seo_token) | BSC | 5.38% | $161.5K |
+| [gmx-solana →](https://www.defi.garden/?pool=7a0f46c7-e8ad-47bf-b5d0-80fb9ed249f1#src=seo_token) | Solana | 0.16% | $136.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=b0563bfc-20f5-41cd-a411-5d2f5c3d3a29#src=seo_token) | Solana | 2.06% | $134.3K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 XRP의 변동성 낮은 후보는 XRPL EVM의 midas-rwa, APY 2.21%, TVL $941K, https://www.defi.garden/?pool=54478c15-57c9-4d0f-bbf5-1ea33b027423#src=seo_token; BSC의 venus-core-pool, APY 0.09%, TVL $9.27M, https://www.defi.garden/?pool=0204c8ff-0805-4515-a27e-742d23a15719#src=seo_token; BSC의 pancakeswap-amm, APY 1.50%, TVL $425.8K, https://www.defi.garden/?pool=c279bec9-4f14-4d9d-8543-50aa2758c9b3#src=seo_token; Cronos의 vvs-standard, APY 2.16%, TVL $376K, https://www.defi.garden/?pool=980baf38-bcaa-43b6-89a6-279ed6740add#src=seo_token; Solana의 raydium-amm, APY 1.90%, TVL $134.3K, https://www.defi.garden/?pool=b0563bfc-20f5-41cd-a411-5d2f5c3d3a29#src=seo_token; Solana의 gmx-solana, APY 0.22%, TVL $136.1K, https://www.defi.garden/?pool=7a0f46c7-e8ad-47bf-b5d0-80fb9ed249f1#src=seo_token; BSC의 uniswap-v3, APY 9.55%, TVL $161.8K, https://www.defi.garden/?pool=96da613c-8ae3-49b3-98a7-613e924fcd56#src=seo_token; BSC의 uniswap-v3, APY 15.21%, TVL $471.9K, https://www.defi.garden/?pool=e8d19139-6a5c-4e51-b3f5-a4230b65a871#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 XRP의 변동성 낮은 후보는 XRPL EVM의 midas-rwa, APY 2.21%, TVL $936.5K, https://www.defi.garden/?pool=54478c15-57c9-4d0f-bbf5-1ea33b027423#src=seo_token; BSC의 venus-core-pool, APY 0.09%, TVL $9.33M, https://www.defi.garden/?pool=0204c8ff-0805-4515-a27e-742d23a15719#src=seo_token; BSC의 pancakeswap-amm, APY 0.90%, TVL $422.6K, https://www.defi.garden/?pool=c279bec9-4f14-4d9d-8543-50aa2758c9b3#src=seo_token; Cronos의 vvs-standard, APY 1.58%, TVL $371.9K, https://www.defi.garden/?pool=980baf38-bcaa-43b6-89a6-279ed6740add#src=seo_token; Solana의 raydium-amm, APY 2.06%, TVL $134.3K, https://www.defi.garden/?pool=b0563bfc-20f5-41cd-a411-5d2f5c3d3a29#src=seo_token; Solana의 gmx-solana, APY 0.16%, TVL $136.1K, https://www.defi.garden/?pool=7a0f46c7-e8ad-47bf-b5d0-80fb9ed249f1#src=seo_token; BSC의 uniswap-v3, APY 5.38%, TVL $161.5K, https://www.defi.garden/?pool=96da613c-8ae3-49b3-98a7-613e924fcd56#src=seo_token; BSC의 uniswap-v3, APY 11.50%, TVL $471.8K, https://www.defi.garden/?pool=e8d19139-6a5c-4e51-b3f5-a4230b65a871#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [midas-rwa →](https://www.defi.garden/?pool=54478c15-57c9-4d0f-bbf5-1ea33b027423#src=seo_token) | XRPL EVM | 2.21% | $941K |
-| 2 | [venus-core-pool →](https://www.defi.garden/?pool=0204c8ff-0805-4515-a27e-742d23a15719#src=seo_token) | BSC | 0.09% | $9.27M |
-| 3 | [pancakeswap-amm →](https://www.defi.garden/?pool=c279bec9-4f14-4d9d-8543-50aa2758c9b3#src=seo_token) | BSC | 1.50% | $425.8K |
-| 4 | [vvs-standard →](https://www.defi.garden/?pool=980baf38-bcaa-43b6-89a6-279ed6740add#src=seo_token) | Cronos | 2.16% | $376K |
-| 5 | [raydium-amm →](https://www.defi.garden/?pool=b0563bfc-20f5-41cd-a411-5d2f5c3d3a29#src=seo_token) | Solana | 1.90% | $134.3K |
-| 6 | [gmx-solana →](https://www.defi.garden/?pool=7a0f46c7-e8ad-47bf-b5d0-80fb9ed249f1#src=seo_token) | Solana | 0.22% | $136.1K |
-| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=96da613c-8ae3-49b3-98a7-613e924fcd56#src=seo_token) | BSC | 9.55% | $161.8K |
-| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=e8d19139-6a5c-4e51-b3f5-a4230b65a871#src=seo_token) | BSC | 15.21% | $471.9K |
+| 1 | [midas-rwa →](https://www.defi.garden/?pool=54478c15-57c9-4d0f-bbf5-1ea33b027423#src=seo_token) | XRPL EVM | 2.21% | $936.5K |
+| 2 | [venus-core-pool →](https://www.defi.garden/?pool=0204c8ff-0805-4515-a27e-742d23a15719#src=seo_token) | BSC | 0.09% | $9.33M |
+| 3 | [pancakeswap-amm →](https://www.defi.garden/?pool=c279bec9-4f14-4d9d-8543-50aa2758c9b3#src=seo_token) | BSC | 0.90% | $422.6K |
+| 4 | [vvs-standard →](https://www.defi.garden/?pool=980baf38-bcaa-43b6-89a6-279ed6740add#src=seo_token) | Cronos | 1.58% | $371.9K |
+| 5 | [raydium-amm →](https://www.defi.garden/?pool=b0563bfc-20f5-41cd-a411-5d2f5c3d3a29#src=seo_token) | Solana | 2.06% | $134.3K |
+| 6 | [gmx-solana →](https://www.defi.garden/?pool=7a0f46c7-e8ad-47bf-b5d0-80fb9ed249f1#src=seo_token) | Solana | 0.16% | $136.1K |
+| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=96da613c-8ae3-49b3-98a7-613e924fcd56#src=seo_token) | BSC | 5.38% | $161.5K |
+| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=e8d19139-6a5c-4e51-b3f5-a4230b65a871#src=seo_token) | BSC | 11.50% | $471.8K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-XRP 풀은 여기 8개가 있고, 4개 체인에서 APY가 0.09%부터 15.21%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+XRP 풀은 여기 8개가 있고, 4개 체인에서 APY가 0.09%부터 11.50%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 4.51%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 4.49%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 현재 8개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
@@ -47,12 +47,12 @@ XRP 풀은 여기 8개가 있고, 4개 체인에서 APY가 0.09%부터 15.21%까
 |---|---|---|---|
 | venus-core-pool | 0.09% | 0.45% | 기본 금리 |
 | midas-rwa | 2.21% | 2.21% | 기본 금리 |
-| uniswap-v3 | 15.21% | 45.12% | 기본 금리 |
-| pancakeswap-amm | 1.50% | 3.82% | 기본 금리 |
-| vvs-standard | 2.16% | 5.19% | 기본 금리 |
-| uniswap-v3 | 9.55% | 17.90% | 기본 금리 |
-| gmx-solana | 0.22% | 42.53% | 기본 금리 |
-| raydium-amm | 1.90% | 2.07% | 기본 금리 |
+| uniswap-v3 | 11.50% | 44.99% | 기본 금리 |
+| pancakeswap-amm | 0.90% | 3.77% | 기본 금리 |
+| vvs-standard | 1.58% | 5.20% | 기본 금리 |
+| uniswap-v3 | 5.38% | 17.73% | 기본 금리 |
+| gmx-solana | 0.16% | 41.55% | 기본 금리 |
+| raydium-amm | 2.06% | 2.07% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -60,11 +60,11 @@ XRP 풀은 여기 8개가 있고, 4개 체인에서 APY가 0.09%부터 15.21%까
 
 ### 오늘 XRP의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, BSC의 uniswap-v3에서 APY 9.55%예요.
+DefiLlama 실시간 데이터 기준, XRPL EVM의 midas-rwa에서 APY 2.21%예요.
 
 ### XRP 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 15개이며, 합산 TVL은 $15.28M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 15개이며, 합산 TVL은 $15.32M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -72,7 +72,7 @@ DefiLlama 실시간 데이터 기준, BSC의 uniswap-v3에서 APY 9.55%예요.
 
 ### XRP 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 XRP의 변동성 낮은 후보는 XRPL EVM의 midas-rwa, APY 2.21%, TVL $941K, https://www.defi.garden/?pool=54478c15-57c9-4d0f-bbf5-1ea33b027423#src=seo_token; BSC의 venus-core-pool, APY 0.09%, TVL $9.27M, https://www.defi.garden/?pool=0204c8ff-0805-4515-a27e-742d23a15719#src=seo_token; BSC의 pancakeswap-amm, APY 1.50%, TVL $425.8K, https://www.defi.garden/?pool=c279bec9-4f14-4d9d-8543-50aa2758c9b3#src=seo_token; Cronos의 vvs-standard, APY 2.16%, TVL $376K, https://www.defi.garden/?pool=980baf38-bcaa-43b6-89a6-279ed6740add#src=seo_token; Solana의 raydium-amm, APY 1.90%, TVL $134.3K, https://www.defi.garden/?pool=b0563bfc-20f5-41cd-a411-5d2f5c3d3a29#src=seo_token; Solana의 gmx-solana, APY 0.22%, TVL $136.1K, https://www.defi.garden/?pool=7a0f46c7-e8ad-47bf-b5d0-80fb9ed249f1#src=seo_token; BSC의 uniswap-v3, APY 9.55%, TVL $161.8K, https://www.defi.garden/?pool=96da613c-8ae3-49b3-98a7-613e924fcd56#src=seo_token; BSC의 uniswap-v3, APY 15.21%, TVL $471.9K, https://www.defi.garden/?pool=e8d19139-6a5c-4e51-b3f5-a4230b65a871#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 XRP의 변동성 낮은 후보는 XRPL EVM의 midas-rwa, APY 2.21%, TVL $936.5K, https://www.defi.garden/?pool=54478c15-57c9-4d0f-bbf5-1ea33b027423#src=seo_token; BSC의 venus-core-pool, APY 0.09%, TVL $9.33M, https://www.defi.garden/?pool=0204c8ff-0805-4515-a27e-742d23a15719#src=seo_token; BSC의 pancakeswap-amm, APY 0.90%, TVL $422.6K, https://www.defi.garden/?pool=c279bec9-4f14-4d9d-8543-50aa2758c9b3#src=seo_token; Cronos의 vvs-standard, APY 1.58%, TVL $371.9K, https://www.defi.garden/?pool=980baf38-bcaa-43b6-89a6-279ed6740add#src=seo_token; Solana의 raydium-amm, APY 2.06%, TVL $134.3K, https://www.defi.garden/?pool=b0563bfc-20f5-41cd-a411-5d2f5c3d3a29#src=seo_token; Solana의 gmx-solana, APY 0.16%, TVL $136.1K, https://www.defi.garden/?pool=7a0f46c7-e8ad-47bf-b5d0-80fb9ed249f1#src=seo_token; BSC의 uniswap-v3, APY 5.38%, TVL $161.5K, https://www.defi.garden/?pool=96da613c-8ae3-49b3-98a7-613e924fcd56#src=seo_token; BSC의 uniswap-v3, APY 11.50%, TVL $471.8K, https://www.defi.garden/?pool=e8d19139-6a5c-4e51-b3f5-a4230b65a871#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -90,4 +90,4 @@ APY 이력만 기준으로 비교한 XRP의 변동성 낮은 후보는 XRPL EVM�
 - [Cronos](https://www.defi.garden/ko/chains/cronos)
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: October 5, 2026
+## 마지막 업데이트: October 6, 2026

@@ -1,31 +1,31 @@
 # LHYPE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
 
-The highest honest LHYPE yield right now is 0.08% on hyperswap-v3 (Hyperliquid L1), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LHYPE yield right now is 0.02% on hyperswap-v3 (Hyperliquid L1), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [looped-hype →](https://www.defi.garden/?pool=3bdaa03c-63e2-40be-afde-e1ae13c684e9#src=seo_token) | Hyperliquid L1 | 6.06% | $8.82M |
-| [hyperswap-v3 →](https://www.defi.garden/?pool=dea14cd0-9028-474c-a927-41d86927a224#src=seo_token) | Hyperliquid L1 | 0.08% | $113.9K |
+| [looped-hype →](https://www.defi.garden/?pool=3bdaa03c-63e2-40be-afde-e1ae13c684e9#src=seo_token) | Hyperliquid L1 | 6.06% | $8.65M |
+| [hyperswap-v3 →](https://www.defi.garden/?pool=dea14cd0-9028-474c-a927-41d86927a224#src=seo_token) | Hyperliquid L1 | 0.02% | $113.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, LHYPE's lower-variability candidates are hyperswap-v3 (Hyperliquid L1), 0.08% APY, $113.9K TVL, https://www.defi.garden/?pool=dea14cd0-9028-474c-a927-41d86927a224#src=seo_token; looped-hype (Hyperliquid L1), 6.06% APY, $8.82M TVL, https://www.defi.garden/?pool=3bdaa03c-63e2-40be-afde-e1ae13c684e9#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LHYPE's lower-variability candidates are hyperswap-v3 (Hyperliquid L1), 0.02% APY, $113.7K TVL, https://www.defi.garden/?pool=dea14cd0-9028-474c-a927-41d86927a224#src=seo_token; looped-hype (Hyperliquid L1), 6.06% APY, $8.65M TVL, https://www.defi.garden/?pool=3bdaa03c-63e2-40be-afde-e1ae13c684e9#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [hyperswap-v3 →](https://www.defi.garden/?pool=dea14cd0-9028-474c-a927-41d86927a224#src=seo_token) | Hyperliquid L1 | 0.08% | $113.9K |
-| 2 | [looped-hype →](https://www.defi.garden/?pool=3bdaa03c-63e2-40be-afde-e1ae13c684e9#src=seo_token) | Hyperliquid L1 | 6.06% | $8.82M |
+| 1 | [hyperswap-v3 →](https://www.defi.garden/?pool=dea14cd0-9028-474c-a927-41d86927a224#src=seo_token) | Hyperliquid L1 | 0.02% | $113.7K |
+| 2 | [looped-hype →](https://www.defi.garden/?pool=3bdaa03c-63e2-40be-afde-e1ae13c684e9#src=seo_token) | Hyperliquid L1 | 6.06% | $8.65M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-LHYPE shows up in 2 pools here, with rates from 0.08% to 6.06% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+LHYPE shows up in 2 pools here, with rates from 0.02% to 6.06% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.67% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.72% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| looped-hype | 6.06% | 1.21% | Base rate |
-| hyperswap-v3 | 0.08% | 0.13% | Base rate |
+| looped-hype | 6.06% | 1.30% | Base rate |
+| hyperswap-v3 | 0.02% | 0.14% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest LHYPE yield today?
 
-0.08% APY on hyperswap-v3 (Hyperliquid L1), based on live DefiLlama data.
+0.02% APY on hyperswap-v3 (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many LHYPE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $8.93M in total.
+2 live pools clear this page's $100K TVL floor, $8.76M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which LHYPE pools have the most stable APY history?
 
-Based on APY history only, LHYPE's lower-variability candidates are hyperswap-v3 (Hyperliquid L1), 0.08% APY, $113.9K TVL, https://www.defi.garden/?pool=dea14cd0-9028-474c-a927-41d86927a224#src=seo_token; looped-hype (Hyperliquid L1), 6.06% APY, $8.82M TVL, https://www.defi.garden/?pool=3bdaa03c-63e2-40be-afde-e1ae13c684e9#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LHYPE's lower-variability candidates are hyperswap-v3 (Hyperliquid L1), 0.02% APY, $113.7K TVL, https://www.defi.garden/?pool=dea14cd0-9028-474c-a927-41d86927a224#src=seo_token; looped-hype (Hyperliquid L1), 6.06% APY, $8.65M TVL, https://www.defi.garden/?pool=3bdaa03c-63e2-40be-afde-e1ae13c684e9#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +69,4 @@ Based on APY history only, LHYPE's lower-variability candidates are hyperswap-v3
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated October 5, 2026
+## Last updated October 6, 2026

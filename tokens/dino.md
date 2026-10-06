@@ -1,12 +1,12 @@
 # DINO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
 
-The highest honest DINO yield right now is 0.16% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DINO yield right now is 0.09% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=c11562a5-29bd-444a-9223-f7362f4a89d2#src=seo_token) | Base | 0.16% | $3.24M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=c11562a5-29bd-444a-9223-f7362f4a89d2#src=seo_token) | Base | 0.09% | $3.24M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DINO yield today?
 
-0.16% APY on uniswap-v2 (Base), based on live DefiLlama data.
+0.09% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many DINO pools clear the TVL floor?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank DINO pools. This view covers 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 5, 2026
+## Last updated October 6, 2026

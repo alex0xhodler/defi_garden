@@ -1,12 +1,12 @@
 # SPCXON DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
 
-The highest honest SPCXON yield right now is 631.06% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SPCXON yield right now is 947.71% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=a4fcc4af-1bd3-55ef-85e0-48ff64320ab4#src=seo_token) | Ethereum | 631.06% | $255.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a4fcc4af-1bd3-55ef-85e0-48ff64320ab4#src=seo_token) | Ethereum | 947.71% | $152.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SPCXON yield today?
 
-631.06% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+947.71% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many SPCXON pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $255.6K in total.
+1 live pool clear this page's $100K TVL floor, $152.3K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank SPCXON pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 5, 2026
+## Last updated October 6, 2026

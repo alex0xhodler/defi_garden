@@ -1,16 +1,16 @@
 # Tron DeFi Yields
 
-The highest honest Tron yield right now is 11.57% on tr-energy (Tron), among 23 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Tron yield right now is 11.31% on tr-energy (Tron), among 23 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| TRX | [justlend-v1 →](https://www.defi.garden/?pool=90d3f42a-8700-4b9f-baa8-090a3c4322c9#src=seo_chain) | 0.32% | $690.71M |
+| TRX | [justlend-v1 →](https://www.defi.garden/?pool=90d3f42a-8700-4b9f-baa8-090a3c4322c9#src=seo_chain) | 0.31% | $691.89M |
 | BTC | [justlend-v1 →](https://www.defi.garden/?pool=71418c17-d2aa-4eff-b68a-806fff9ec951#src=seo_chain) | 0.01% | $561.5M |
-| USDD | [justlend-v1 →](https://www.defi.garden/pools/justlend-v1-usdd-tron) | 4.02% | $419.96M |
-| USDT | [justlend-v1 →](https://www.defi.garden/?pool=dac406f6-5600-437e-849d-f03daa383864#src=seo_chain) | 2.03% | $92.09M |
-| TRX | [tr-energy →](https://www.defi.garden/?pool=cf7a5142-ff74-4b1d-8267-98148c90b72c#src=seo_chain) | 11.57% | $91.04M |
-| JST | [justlend-v1 →](https://www.defi.garden/?pool=aa3b8470-cd15-4e02-a83d-b83fae993855#src=seo_chain) | 0.27% | $12.7M |
-| SUN | [justlend-v1 →](https://www.defi.garden/?pool=873e1048-9094-4b63-a6f4-bd62325ecc81#src=seo_chain) | 1.11% | $4.81M |
+| USDD | [justlend-v1 →](https://www.defi.garden/pools/justlend-v1-usdd-tron) | 3.99% | $423.09M |
+| TRX | [tr-energy →](https://www.defi.garden/?pool=cf7a5142-ff74-4b1d-8267-98148c90b72c#src=seo_chain) | 11.31% | $91.11M |
+| USDT | [justlend-v1 →](https://www.defi.garden/?pool=dac406f6-5600-437e-849d-f03daa383864#src=seo_chain) | 2.13% | $87.81M |
+| JST | [justlend-v1 →](https://www.defi.garden/?pool=aa3b8470-cd15-4e02-a83d-b83fae993855#src=seo_chain) | 0.26% | $12.86M |
+| SUN | [justlend-v1 →](https://www.defi.garden/?pool=873e1048-9094-4b63-a6f4-bd62325ecc81#src=seo_chain) | 1.12% | $4.76M |
 | U | [justlend-v1 →](https://www.defi.garden/?pool=d598a9e0-b347-5baf-b61a-94c2e8e730d0#src=seo_chain) | 1.18% | $3.1M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Tron yield today?
 
-11.57% APY on tr-energy (Tron), based on live DefiLlama data.
+11.31% APY on tr-energy (Tron), based on live DefiLlama data.
 
 ### How many Tron pools clear the TVL floor?
 
@@ -47,4 +47,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [JST](https://www.defi.garden/tokens/jst)
 - [SUN](https://www.defi.garden/tokens/sun)
 
-## Last updated October 5, 2026
+## Last updated October 6, 2026

@@ -1,10 +1,10 @@
 # Thorchain DeFi Yields
 
-The highest honest Thorchain yield right now is 1.41% on rujira-money-market (Thorchain), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Thorchain yield right now is 1.42% on rujira-money-market (Thorchain), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| USDC | [rujira-money-market →](https://www.defi.garden/?pool=2200031a-b125-55eb-8971-2fda47b9ae48#src=seo_chain) | 1.41% | $274.1K |
+| USDC | [rujira-money-market →](https://www.defi.garden/?pool=2200031a-b125-55eb-8971-2fda47b9ae48#src=seo_chain) | 1.42% | $274.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Thorchain yield today?
 
-1.41% APY on rujira-money-market (Thorchain), based on live DefiLlama data.
+1.42% APY on rujira-money-market (Thorchain), based on live DefiLlama data.
 
 ### How many Thorchain pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $14.37M in total.
+4 live pools clear this page's $100K TVL floor, $14.12M in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 
-## Last updated October 5, 2026
+## Last updated October 6, 2026

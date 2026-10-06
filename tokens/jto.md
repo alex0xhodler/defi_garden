@@ -1,35 +1,35 @@
 # JTO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
 
-The highest honest JTO yield right now is 22.15% on orca-dex (Solana), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JTO yield right now is 18.76% on orca-dex (Solana), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=cc5c8175-bdfa-442f-870b-6f2cdec94854#src=seo_token) | Solana | 22.15% | $1.42M |
-| [kamino-liquidity →](https://www.defi.garden/?pool=059175e4-9cc8-4703-944f-b54ecaf02f00#src=seo_token) | Solana | 15.62% | $1.25M |
-| [project-0 →](https://www.defi.garden/?pool=168aeeff-71df-47ef-83b8-62701e813305#src=seo_token) | Solana | 0.02% | $1.12M |
-| [orca-dex →](https://www.defi.garden/?pool=5754f3c9-ba5a-4772-a9de-a7d544fd2d4d#src=seo_token) | Solana | 9.04% | $118.5K |
+| [orca-dex →](https://www.defi.garden/?pool=cc5c8175-bdfa-442f-870b-6f2cdec94854#src=seo_token) | Solana | 18.76% | $1.41M |
+| [kamino-liquidity →](https://www.defi.garden/?pool=059175e4-9cc8-4703-944f-b54ecaf02f00#src=seo_token) | Solana | 15.15% | $1.24M |
+| [project-0 →](https://www.defi.garden/?pool=168aeeff-71df-47ef-83b8-62701e813305#src=seo_token) | Solana | 0.02% | $1.1M |
+| [orca-dex →](https://www.defi.garden/?pool=5754f3c9-ba5a-4772-a9de-a7d544fd2d4d#src=seo_token) | Solana | 6.96% | $117.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, JTO's lower-variability candidates are project-0 (Solana), 0.02% APY, $1.12M TVL, https://www.defi.garden/?pool=168aeeff-71df-47ef-83b8-62701e813305#src=seo_token; orca-dex (Solana), 9.04% APY, $118.5K TVL, https://www.defi.garden/?pool=5754f3c9-ba5a-4772-a9de-a7d544fd2d4d#src=seo_token; orca-dex (Solana), 22.15% APY, $1.42M TVL, https://www.defi.garden/?pool=cc5c8175-bdfa-442f-870b-6f2cdec94854#src=seo_token; kamino-liquidity (Solana), 15.62% APY, $1.25M TVL, https://www.defi.garden/?pool=059175e4-9cc8-4703-944f-b54ecaf02f00#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, JTO's lower-variability candidates are project-0 (Solana), 0.02% APY, $1.1M TVL, https://www.defi.garden/?pool=168aeeff-71df-47ef-83b8-62701e813305#src=seo_token; orca-dex (Solana), 6.96% APY, $117.4K TVL, https://www.defi.garden/?pool=5754f3c9-ba5a-4772-a9de-a7d544fd2d4d#src=seo_token; orca-dex (Solana), 18.76% APY, $1.41M TVL, https://www.defi.garden/?pool=cc5c8175-bdfa-442f-870b-6f2cdec94854#src=seo_token; kamino-liquidity (Solana), 15.15% APY, $1.24M TVL, https://www.defi.garden/?pool=059175e4-9cc8-4703-944f-b54ecaf02f00#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [project-0 →](https://www.defi.garden/?pool=168aeeff-71df-47ef-83b8-62701e813305#src=seo_token) | Solana | 0.02% | $1.12M |
-| 2 | [orca-dex →](https://www.defi.garden/?pool=5754f3c9-ba5a-4772-a9de-a7d544fd2d4d#src=seo_token) | Solana | 9.04% | $118.5K |
-| 3 | [orca-dex →](https://www.defi.garden/?pool=cc5c8175-bdfa-442f-870b-6f2cdec94854#src=seo_token) | Solana | 22.15% | $1.42M |
-| 4 | [kamino-liquidity →](https://www.defi.garden/?pool=059175e4-9cc8-4703-944f-b54ecaf02f00#src=seo_token) | Solana | 15.62% | $1.25M |
+| 1 | [project-0 →](https://www.defi.garden/?pool=168aeeff-71df-47ef-83b8-62701e813305#src=seo_token) | Solana | 0.02% | $1.1M |
+| 2 | [orca-dex →](https://www.defi.garden/?pool=5754f3c9-ba5a-4772-a9de-a7d544fd2d4d#src=seo_token) | Solana | 6.96% | $117.4K |
+| 3 | [orca-dex →](https://www.defi.garden/?pool=cc5c8175-bdfa-442f-870b-6f2cdec94854#src=seo_token) | Solana | 18.76% | $1.41M |
+| 4 | [kamino-liquidity →](https://www.defi.garden/?pool=059175e4-9cc8-4703-944f-b54ecaf02f00#src=seo_token) | Solana | 15.15% | $1.24M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-JTO shows up in 4 pools here, with rates from 0.02% to 22.15% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+JTO shows up in 4 pools here, with rates from 0.02% to 18.76% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 16.51% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 16.56% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -37,10 +37,10 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| orca-dex | 22.15% | 27.59% | Base rate |
-| kamino-liquidity | 15.62% | 22.15% | Base rate |
+| orca-dex | 18.76% | 27.68% | Base rate |
+| kamino-liquidity | 15.15% | 22.21% | Base rate |
 | project-0 | 0.02% | 0.02% | Base rate |
-| orca-dex | 9.04% | 10.88% | Base rate |
+| orca-dex | 6.96% | 10.91% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -48,11 +48,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest JTO yield today?
 
-22.15% APY on orca-dex (Solana), based on live DefiLlama data.
+18.76% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many JTO pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $4.31M in total.
+5 live pools clear this page's $100K TVL floor, $4.26M in total.
 
 ### Are these rates safe?
 
@@ -60,7 +60,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which JTO pools have the most stable APY history?
 
-Based on APY history only, JTO's lower-variability candidates are project-0 (Solana), 0.02% APY, $1.12M TVL, https://www.defi.garden/?pool=168aeeff-71df-47ef-83b8-62701e813305#src=seo_token; orca-dex (Solana), 9.04% APY, $118.5K TVL, https://www.defi.garden/?pool=5754f3c9-ba5a-4772-a9de-a7d544fd2d4d#src=seo_token; orca-dex (Solana), 22.15% APY, $1.42M TVL, https://www.defi.garden/?pool=cc5c8175-bdfa-442f-870b-6f2cdec94854#src=seo_token; kamino-liquidity (Solana), 15.62% APY, $1.25M TVL, https://www.defi.garden/?pool=059175e4-9cc8-4703-944f-b54ecaf02f00#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, JTO's lower-variability candidates are project-0 (Solana), 0.02% APY, $1.1M TVL, https://www.defi.garden/?pool=168aeeff-71df-47ef-83b8-62701e813305#src=seo_token; orca-dex (Solana), 6.96% APY, $117.4K TVL, https://www.defi.garden/?pool=5754f3c9-ba5a-4772-a9de-a7d544fd2d4d#src=seo_token; orca-dex (Solana), 18.76% APY, $1.41M TVL, https://www.defi.garden/?pool=cc5c8175-bdfa-442f-870b-6f2cdec94854#src=seo_token; kamino-liquidity (Solana), 15.15% APY, $1.24M TVL, https://www.defi.garden/?pool=059175e4-9cc8-4703-944f-b54ecaf02f00#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -75,4 +75,4 @@ Based on APY history only, JTO's lower-variability candidates are project-0 (Sol
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 5, 2026
+## Last updated October 6, 2026

@@ -1,19 +1,19 @@
 # WSTETH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
 
-The highest honest WSTETH yield right now is 2.34% on pendle-v2 (Ethereum), among 154 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WSTETH yield right now is 2.34% on pendle-v2 (Ethereum), among 153 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fluid-lending →](https://www.defi.garden/?pool=69b12bf9-edb6-46d9-b5bc-761cf9efe137#src=seo_token) | Ethereum | 0.04% | $184.69M |
-| [aave-v3 →](https://www.defi.garden/?pool=d541708e-1283-4feb-bc7a-457fc5f8db2c#src=seo_token) | Ethereum | 0.03% | $141.53M |
-| [fluid-dex →](https://www.defi.garden/?pool=4f715567-420c-400d-9a62-0059331e3940#src=seo_token) | Ethereum | 0.06% | $95.07M |
-| [symbiotic →](https://www.defi.garden/?pool=c7b1c392-37c3-5c73-9725-e10bdb13b988#src=seo_token) | Ethereum | 1.25% | $17.01M |
-| [fluid-lending →](https://www.defi.garden/?pool=e278d5a4-b0b5-43d5-8064-c65a3f386b8a#src=seo_token) | Ethereum | 0.04% | $8.45M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=ecd0c563-8aa2-423e-b8e9-d3259a316df9#src=seo_token) | Ethereum | 1.32% | $6.69M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=efeb2357-5a2b-44a4-8d94-3fd8a82b826c#src=seo_token) | Ethereum | 2.14% | $6.63M |
-| [pendle-v2 →](https://www.defi.garden/?pool=66329c23-3419-48cf-82ea-f0a058e899a4#src=seo_token) | Ethereum | 2.34% | $5.58M |
+| [fluid-lending →](https://www.defi.garden/?pool=69b12bf9-edb6-46d9-b5bc-761cf9efe137#src=seo_token) | Ethereum | 0.04% | $184.11M |
+| [aave-v3 →](https://www.defi.garden/?pool=d541708e-1283-4feb-bc7a-457fc5f8db2c#src=seo_token) | Ethereum | 0.03% | $141.07M |
+| [fluid-dex →](https://www.defi.garden/?pool=4f715567-420c-400d-9a62-0059331e3940#src=seo_token) | Ethereum | 0.07% | $95.12M |
+| [symbiotic →](https://www.defi.garden/?pool=c7b1c392-37c3-5c73-9725-e10bdb13b988#src=seo_token) | Ethereum | 1.25% | $16.96M |
+| [fluid-lending →](https://www.defi.garden/?pool=e278d5a4-b0b5-43d5-8064-c65a3f386b8a#src=seo_token) | Ethereum | 0.04% | $8.42M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ecd0c563-8aa2-423e-b8e9-d3259a316df9#src=seo_token) | Ethereum | 1.34% | $6.68M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=efeb2357-5a2b-44a4-8d94-3fd8a82b826c#src=seo_token) | Ethereum | 1.11% | $6.6M |
+| [pendle-v2 →](https://www.defi.garden/?pool=66329c23-3419-48cf-82ea-f0a058e899a4#src=seo_token) | Ethereum | 2.34% | $5.56M |
 
 ## How WSTETH Yield is Generated
 
@@ -26,18 +26,18 @@ All DeFi yields carry inherent risk. Smart contract vulnerabilities, protocol ec
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WSTETH's lower-variability candidates are fluid-lending (Ethereum), 0.04% APY, $184.69M TVL, https://www.defi.garden/?pool=69b12bf9-edb6-46d9-b5bc-761cf9efe137#src=seo_token; fluid-lending (Ethereum), 0.04% APY, $8.45M TVL, https://www.defi.garden/?pool=e278d5a4-b0b5-43d5-8064-c65a3f386b8a#src=seo_token; aave-v3 (Ethereum), 0.03% APY, $141.53M TVL, https://www.defi.garden/?pool=d541708e-1283-4feb-bc7a-457fc5f8db2c#src=seo_token; symbiotic (Ethereum), 1.25% APY, $17.01M TVL, https://www.defi.garden/?pool=c7b1c392-37c3-5c73-9725-e10bdb13b988#src=seo_token; fluid-dex (Ethereum), 0.06% APY, $95.07M TVL, https://www.defi.garden/?pool=4f715567-420c-400d-9a62-0059331e3940#src=seo_token; pendle-v2 (Ethereum), 2.34% APY, $5.58M TVL, https://www.defi.garden/?pool=66329c23-3419-48cf-82ea-f0a058e899a4#src=seo_token; uniswap-v3 (Ethereum), 1.32% APY, $6.69M TVL, https://www.defi.garden/?pool=ecd0c563-8aa2-423e-b8e9-d3259a316df9#src=seo_token; uniswap-v4 (Ethereum), 2.14% APY, $6.63M TVL, https://www.defi.garden/?pool=efeb2357-5a2b-44a4-8d94-3fd8a82b826c#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WSTETH's lower-variability candidates are fluid-lending (Ethereum), 0.04% APY, $184.11M TVL, https://www.defi.garden/?pool=69b12bf9-edb6-46d9-b5bc-761cf9efe137#src=seo_token; fluid-lending (Ethereum), 0.04% APY, $8.42M TVL, https://www.defi.garden/?pool=e278d5a4-b0b5-43d5-8064-c65a3f386b8a#src=seo_token; aave-v3 (Ethereum), 0.03% APY, $141.07M TVL, https://www.defi.garden/?pool=d541708e-1283-4feb-bc7a-457fc5f8db2c#src=seo_token; symbiotic (Ethereum), 1.25% APY, $16.96M TVL, https://www.defi.garden/?pool=c7b1c392-37c3-5c73-9725-e10bdb13b988#src=seo_token; fluid-dex (Ethereum), 0.07% APY, $95.12M TVL, https://www.defi.garden/?pool=4f715567-420c-400d-9a62-0059331e3940#src=seo_token; pendle-v2 (Ethereum), 2.34% APY, $5.56M TVL, https://www.defi.garden/?pool=66329c23-3419-48cf-82ea-f0a058e899a4#src=seo_token; uniswap-v3 (Ethereum), 1.34% APY, $6.68M TVL, https://www.defi.garden/?pool=ecd0c563-8aa2-423e-b8e9-d3259a316df9#src=seo_token; uniswap-v4 (Ethereum), 1.11% APY, $6.6M TVL, https://www.defi.garden/?pool=efeb2357-5a2b-44a4-8d94-3fd8a82b826c#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [fluid-lending →](https://www.defi.garden/?pool=69b12bf9-edb6-46d9-b5bc-761cf9efe137#src=seo_token) | Ethereum | 0.04% | $184.69M |
-| 2 | [fluid-lending →](https://www.defi.garden/?pool=e278d5a4-b0b5-43d5-8064-c65a3f386b8a#src=seo_token) | Ethereum | 0.04% | $8.45M |
-| 3 | [aave-v3 →](https://www.defi.garden/?pool=d541708e-1283-4feb-bc7a-457fc5f8db2c#src=seo_token) | Ethereum | 0.03% | $141.53M |
-| 4 | [symbiotic →](https://www.defi.garden/?pool=c7b1c392-37c3-5c73-9725-e10bdb13b988#src=seo_token) | Ethereum | 1.25% | $17.01M |
-| 5 | [fluid-dex →](https://www.defi.garden/?pool=4f715567-420c-400d-9a62-0059331e3940#src=seo_token) | Ethereum | 0.06% | $95.07M |
-| 6 | [pendle-v2 →](https://www.defi.garden/?pool=66329c23-3419-48cf-82ea-f0a058e899a4#src=seo_token) | Ethereum | 2.34% | $5.58M |
-| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=ecd0c563-8aa2-423e-b8e9-d3259a316df9#src=seo_token) | Ethereum | 1.32% | $6.69M |
-| 8 | [uniswap-v4 →](https://www.defi.garden/?pool=efeb2357-5a2b-44a4-8d94-3fd8a82b826c#src=seo_token) | Ethereum | 2.14% | $6.63M |
+| 1 | [fluid-lending →](https://www.defi.garden/?pool=69b12bf9-edb6-46d9-b5bc-761cf9efe137#src=seo_token) | Ethereum | 0.04% | $184.11M |
+| 2 | [fluid-lending →](https://www.defi.garden/?pool=e278d5a4-b0b5-43d5-8064-c65a3f386b8a#src=seo_token) | Ethereum | 0.04% | $8.42M |
+| 3 | [aave-v3 →](https://www.defi.garden/?pool=d541708e-1283-4feb-bc7a-457fc5f8db2c#src=seo_token) | Ethereum | 0.03% | $141.07M |
+| 4 | [symbiotic →](https://www.defi.garden/?pool=c7b1c392-37c3-5c73-9725-e10bdb13b988#src=seo_token) | Ethereum | 1.25% | $16.96M |
+| 5 | [fluid-dex →](https://www.defi.garden/?pool=4f715567-420c-400d-9a62-0059331e3940#src=seo_token) | Ethereum | 0.07% | $95.12M |
+| 6 | [pendle-v2 →](https://www.defi.garden/?pool=66329c23-3419-48cf-82ea-f0a058e899a4#src=seo_token) | Ethereum | 2.34% | $5.56M |
+| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=ecd0c563-8aa2-423e-b8e9-d3259a316df9#src=seo_token) | Ethereum | 1.34% | $6.68M |
+| 8 | [uniswap-v4 →](https://www.defi.garden/?pool=efeb2357-5a2b-44a4-8d94-3fd8a82b826c#src=seo_token) | Ethereum | 1.11% | $6.6M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -55,12 +55,12 @@ WSTETH shows up in 8 pools here, with rates from 0.03% to 2.34% APY across 1 cha
 |---|---|---|---|
 | fluid-lending | 0.04% | 0.03% | Base rate |
 | aave-v3 | 0.03% | 0.03% | Base rate |
-| fluid-dex | 0.06% | 0.38% | Base rate |
+| fluid-dex | 0.07% | 0.39% | Base rate |
 | symbiotic | 1.25% | 1.53% | 100.00% incentives |
 | fluid-lending | 0.04% | 0.03% | Base rate |
-| uniswap-v3 | 1.32% | 2.54% | Base rate |
-| uniswap-v4 | 2.14% | 8.23% | Base rate |
-| pendle-v2 | 2.34% | 2.45% | 4.14% incentives |
+| uniswap-v3 | 1.34% | 2.55% | Base rate |
+| uniswap-v4 | 1.11% | 7.98% | Base rate |
+| pendle-v2 | 2.34% | 2.44% | 4.09% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -72,7 +72,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many WSTETH pools clear the TVL floor?
 
-154 live pools clear this page's $100K TVL floor, $8.48B in total.
+153 live pools clear this page's $100K TVL floor, $8.46B in total.
 
 ### Are these rates safe?
 
@@ -80,7 +80,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WSTETH pools have the most stable APY history?
 
-Based on APY history only, WSTETH's lower-variability candidates are fluid-lending (Ethereum), 0.04% APY, $184.69M TVL, https://www.defi.garden/?pool=69b12bf9-edb6-46d9-b5bc-761cf9efe137#src=seo_token; fluid-lending (Ethereum), 0.04% APY, $8.45M TVL, https://www.defi.garden/?pool=e278d5a4-b0b5-43d5-8064-c65a3f386b8a#src=seo_token; aave-v3 (Ethereum), 0.03% APY, $141.53M TVL, https://www.defi.garden/?pool=d541708e-1283-4feb-bc7a-457fc5f8db2c#src=seo_token; symbiotic (Ethereum), 1.25% APY, $17.01M TVL, https://www.defi.garden/?pool=c7b1c392-37c3-5c73-9725-e10bdb13b988#src=seo_token; fluid-dex (Ethereum), 0.06% APY, $95.07M TVL, https://www.defi.garden/?pool=4f715567-420c-400d-9a62-0059331e3940#src=seo_token; pendle-v2 (Ethereum), 2.34% APY, $5.58M TVL, https://www.defi.garden/?pool=66329c23-3419-48cf-82ea-f0a058e899a4#src=seo_token; uniswap-v3 (Ethereum), 1.32% APY, $6.69M TVL, https://www.defi.garden/?pool=ecd0c563-8aa2-423e-b8e9-d3259a316df9#src=seo_token; uniswap-v4 (Ethereum), 2.14% APY, $6.63M TVL, https://www.defi.garden/?pool=efeb2357-5a2b-44a4-8d94-3fd8a82b826c#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WSTETH's lower-variability candidates are fluid-lending (Ethereum), 0.04% APY, $184.11M TVL, https://www.defi.garden/?pool=69b12bf9-edb6-46d9-b5bc-761cf9efe137#src=seo_token; fluid-lending (Ethereum), 0.04% APY, $8.42M TVL, https://www.defi.garden/?pool=e278d5a4-b0b5-43d5-8064-c65a3f386b8a#src=seo_token; aave-v3 (Ethereum), 0.03% APY, $141.07M TVL, https://www.defi.garden/?pool=d541708e-1283-4feb-bc7a-457fc5f8db2c#src=seo_token; symbiotic (Ethereum), 1.25% APY, $16.96M TVL, https://www.defi.garden/?pool=c7b1c392-37c3-5c73-9725-e10bdb13b988#src=seo_token; fluid-dex (Ethereum), 0.07% APY, $95.12M TVL, https://www.defi.garden/?pool=4f715567-420c-400d-9a62-0059331e3940#src=seo_token; pendle-v2 (Ethereum), 2.34% APY, $5.56M TVL, https://www.defi.garden/?pool=66329c23-3419-48cf-82ea-f0a058e899a4#src=seo_token; uniswap-v3 (Ethereum), 1.34% APY, $6.68M TVL, https://www.defi.garden/?pool=ecd0c563-8aa2-423e-b8e9-d3259a316df9#src=seo_token; uniswap-v4 (Ethereum), 1.11% APY, $6.6M TVL, https://www.defi.garden/?pool=efeb2357-5a2b-44a4-8d94-3fd8a82b826c#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -95,4 +95,4 @@ Based on APY history only, WSTETH's lower-variability candidates are fluid-lendi
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 5, 2026
+## Last updated October 6, 2026

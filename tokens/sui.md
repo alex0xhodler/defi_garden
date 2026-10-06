@@ -1,43 +1,43 @@
 # SUI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
 
-The highest honest SUI yield right now is 115.86% on cetus-clmm (Sui), among 29 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUI yield right now is 91.93% on cetus-clmm (Sui), among 29 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [navi-lending →](https://www.defi.garden/?pool=f8ffbfd7-7448-45f4-9cc4-f8c1185489a2#src=seo_token) | Sui | 1.68% | $11.16M |
-| [cetus-clmm →](https://www.defi.garden/?pool=1249e3d1-af05-4308-a9d8-75127ec2e4c2#src=seo_token) | Sui | 114.37% | $4.64M |
-| [cetus-clmm →](https://www.defi.garden/?pool=0aa735e0-4cef-4b56-87ea-f75919b2bab0#src=seo_token) | Sui | 0.09% | $4.32M |
-| [ember-protocol →](https://www.defi.garden/?pool=7434e429-9a41-4060-8a48-f0338dd3c23e#src=seo_token) | Sui | 7.13% | $4.31M |
-| [scallop-lend →](https://www.defi.garden/?pool=f77d3465-d067-43ff-a325-3450716aed9c#src=seo_token) | Sui | 1.58% | $2.8M |
-| [current →](https://www.defi.garden/?pool=b76828a9-a0f4-4909-b6fe-03d1bf74f599#src=seo_token) | Sui | 4.44% | $2.68M |
-| [bluefin-spot →](https://www.defi.garden/?pool=0a30fdbe-ed8c-4cd2-86a6-67d199fff83a#src=seo_token) | Sui | 6.87% | $1.34M |
-| [cetus-clmm →](https://www.defi.garden/?pool=7f0299d7-e03a-4914-933c-abc994c17086#src=seo_token) | Sui | 115.86% | $991.4K |
+| [navi-lending →](https://www.defi.garden/?pool=f8ffbfd7-7448-45f4-9cc4-f8c1185489a2#src=seo_token) | Sui | 1.68% | $10.88M |
+| [cetus-clmm →](https://www.defi.garden/?pool=0aa735e0-4cef-4b56-87ea-f75919b2bab0#src=seo_token) | Sui | 0.03% | $4.21M |
+| [ember-protocol →](https://www.defi.garden/?pool=7434e429-9a41-4060-8a48-f0338dd3c23e#src=seo_token) | Sui | 7.13% | $4.21M |
+| [cetus-clmm →](https://www.defi.garden/?pool=1249e3d1-af05-4308-a9d8-75127ec2e4c2#src=seo_token) | Sui | 91.93% | $4.03M |
+| [scallop-lend →](https://www.defi.garden/?pool=f77d3465-d067-43ff-a325-3450716aed9c#src=seo_token) | Sui | 1.57% | $2.72M |
+| [current →](https://www.defi.garden/?pool=b76828a9-a0f4-4909-b6fe-03d1bf74f599#src=seo_token) | Sui | 4.43% | $2.64M |
+| [bluefin-spot →](https://www.defi.garden/?pool=0a30fdbe-ed8c-4cd2-86a6-67d199fff83a#src=seo_token) | Sui | 7.01% | $1.31M |
+| [cetus-clmm →](https://www.defi.garden/?pool=39b502cc-d1f2-4c44-8725-c03c04b60864#src=seo_token) | Sui | 86.52% | $1.11M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SUI's lower-variability candidates are ember-protocol (Sui), 7.13% APY, $4.31M TVL, https://www.defi.garden/?pool=7434e429-9a41-4060-8a48-f0338dd3c23e#src=seo_token; current (Sui), 4.44% APY, $2.68M TVL, https://www.defi.garden/?pool=b76828a9-a0f4-4909-b6fe-03d1bf74f599#src=seo_token; cetus-clmm (Sui), 0.09% APY, $4.32M TVL, https://www.defi.garden/?pool=0aa735e0-4cef-4b56-87ea-f75919b2bab0#src=seo_token; bluefin-spot (Sui), 6.87% APY, $1.34M TVL, https://www.defi.garden/?pool=0a30fdbe-ed8c-4cd2-86a6-67d199fff83a#src=seo_token; scallop-lend (Sui), 1.58% APY, $2.8M TVL, https://www.defi.garden/?pool=f77d3465-d067-43ff-a325-3450716aed9c#src=seo_token; navi-lending (Sui), 1.68% APY, $11.16M TVL, https://www.defi.garden/?pool=f8ffbfd7-7448-45f4-9cc4-f8c1185489a2#src=seo_token; cetus-clmm (Sui), 115.86% APY, $991.4K TVL, https://www.defi.garden/?pool=7f0299d7-e03a-4914-933c-abc994c17086#src=seo_token; cetus-clmm (Sui), 114.37% APY, $4.64M TVL, https://www.defi.garden/?pool=1249e3d1-af05-4308-a9d8-75127ec2e4c2#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SUI's lower-variability candidates are ember-protocol (Sui), 7.13% APY, $4.21M TVL, https://www.defi.garden/?pool=7434e429-9a41-4060-8a48-f0338dd3c23e#src=seo_token; current (Sui), 4.43% APY, $2.64M TVL, https://www.defi.garden/?pool=b76828a9-a0f4-4909-b6fe-03d1bf74f599#src=seo_token; cetus-clmm (Sui), 0.03% APY, $4.21M TVL, https://www.defi.garden/?pool=0aa735e0-4cef-4b56-87ea-f75919b2bab0#src=seo_token; bluefin-spot (Sui), 7.01% APY, $1.31M TVL, https://www.defi.garden/?pool=0a30fdbe-ed8c-4cd2-86a6-67d199fff83a#src=seo_token; scallop-lend (Sui), 1.57% APY, $2.72M TVL, https://www.defi.garden/?pool=f77d3465-d067-43ff-a325-3450716aed9c#src=seo_token; navi-lending (Sui), 1.68% APY, $10.88M TVL, https://www.defi.garden/?pool=f8ffbfd7-7448-45f4-9cc4-f8c1185489a2#src=seo_token; cetus-clmm (Sui), 91.93% APY, $4.03M TVL, https://www.defi.garden/?pool=1249e3d1-af05-4308-a9d8-75127ec2e4c2#src=seo_token; cetus-clmm (Sui), 86.52% APY, $1.11M TVL, https://www.defi.garden/?pool=39b502cc-d1f2-4c44-8725-c03c04b60864#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [ember-protocol →](https://www.defi.garden/?pool=7434e429-9a41-4060-8a48-f0338dd3c23e#src=seo_token) | Sui | 7.13% | $4.31M |
-| 2 | [current →](https://www.defi.garden/?pool=b76828a9-a0f4-4909-b6fe-03d1bf74f599#src=seo_token) | Sui | 4.44% | $2.68M |
-| 3 | [cetus-clmm →](https://www.defi.garden/?pool=0aa735e0-4cef-4b56-87ea-f75919b2bab0#src=seo_token) | Sui | 0.09% | $4.32M |
-| 4 | [bluefin-spot →](https://www.defi.garden/?pool=0a30fdbe-ed8c-4cd2-86a6-67d199fff83a#src=seo_token) | Sui | 6.87% | $1.34M |
-| 5 | [scallop-lend →](https://www.defi.garden/?pool=f77d3465-d067-43ff-a325-3450716aed9c#src=seo_token) | Sui | 1.58% | $2.8M |
-| 6 | [navi-lending →](https://www.defi.garden/?pool=f8ffbfd7-7448-45f4-9cc4-f8c1185489a2#src=seo_token) | Sui | 1.68% | $11.16M |
-| 7 | [cetus-clmm →](https://www.defi.garden/?pool=7f0299d7-e03a-4914-933c-abc994c17086#src=seo_token) | Sui | 115.86% | $991.4K |
-| 8 | [cetus-clmm →](https://www.defi.garden/?pool=1249e3d1-af05-4308-a9d8-75127ec2e4c2#src=seo_token) | Sui | 114.37% | $4.64M |
+| 1 | [ember-protocol →](https://www.defi.garden/?pool=7434e429-9a41-4060-8a48-f0338dd3c23e#src=seo_token) | Sui | 7.13% | $4.21M |
+| 2 | [current →](https://www.defi.garden/?pool=b76828a9-a0f4-4909-b6fe-03d1bf74f599#src=seo_token) | Sui | 4.43% | $2.64M |
+| 3 | [cetus-clmm →](https://www.defi.garden/?pool=0aa735e0-4cef-4b56-87ea-f75919b2bab0#src=seo_token) | Sui | 0.03% | $4.21M |
+| 4 | [bluefin-spot →](https://www.defi.garden/?pool=0a30fdbe-ed8c-4cd2-86a6-67d199fff83a#src=seo_token) | Sui | 7.01% | $1.31M |
+| 5 | [scallop-lend →](https://www.defi.garden/?pool=f77d3465-d067-43ff-a325-3450716aed9c#src=seo_token) | Sui | 1.57% | $2.72M |
+| 6 | [navi-lending →](https://www.defi.garden/?pool=f8ffbfd7-7448-45f4-9cc4-f8c1185489a2#src=seo_token) | Sui | 1.68% | $10.88M |
+| 7 | [cetus-clmm →](https://www.defi.garden/?pool=1249e3d1-af05-4308-a9d8-75127ec2e4c2#src=seo_token) | Sui | 91.93% | $4.03M |
+| 8 | [cetus-clmm →](https://www.defi.garden/?pool=39b502cc-d1f2-4c44-8725-c03c04b60864#src=seo_token) | Sui | 86.52% | $1.11M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SUI shows up in 8 pools here, with rates from 0.09% to 115.86% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SUI shows up in 8 pools here, with rates from 0.03% to 91.93% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 4.76% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 4.78% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 5 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -45,14 +45,14 @@ SUI shows up in 8 pools here, with rates from 0.09% to 115.86% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| navi-lending | 1.68% | 1.97% | 20.61% incentives |
-| cetus-clmm | 114.37% | 157.67% | 20.19% incentives |
-| cetus-clmm | 0.09% | 0.06% | Base rate |
-| ember-protocol | 7.13% | 5.82% | Base rate |
-| scallop-lend | 1.58% | 1.82% | Base rate |
-| current | 4.44% | 3.71% | 82.49% incentives |
-| bluefin-spot | 6.87% | 11.46% | 99.43% incentives |
-| cetus-clmm | 115.86% | 134.93% | 13.63% incentives |
+| navi-lending | 1.68% | 1.96% | 20.58% incentives |
+| cetus-clmm | 0.03% | 0.06% | Base rate |
+| ember-protocol | 7.13% | 5.83% | Base rate |
+| cetus-clmm | 91.93% | 156.87% | 28.20% incentives |
+| scallop-lend | 1.57% | 1.82% | Base rate |
+| current | 4.43% | 3.73% | 82.50% incentives |
+| bluefin-spot | 7.01% | 11.46% | 99.40% incentives |
+| cetus-clmm | 86.52% | 142.22% | 60.56% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -60,11 +60,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SUI yield today?
 
-115.86% APY on cetus-clmm (Sui), based on live DefiLlama data.
+91.93% APY on cetus-clmm (Sui), based on live DefiLlama data.
 
 ### How many SUI pools clear the TVL floor?
 
-29 live pools clear this page's $100K TVL floor, $38.5M in total.
+29 live pools clear this page's $100K TVL floor, $37.31M in total.
 
 ### Are these rates safe?
 
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SUI pools have the most stable APY history?
 
-Based on APY history only, SUI's lower-variability candidates are ember-protocol (Sui), 7.13% APY, $4.31M TVL, https://www.defi.garden/?pool=7434e429-9a41-4060-8a48-f0338dd3c23e#src=seo_token; current (Sui), 4.44% APY, $2.68M TVL, https://www.defi.garden/?pool=b76828a9-a0f4-4909-b6fe-03d1bf74f599#src=seo_token; cetus-clmm (Sui), 0.09% APY, $4.32M TVL, https://www.defi.garden/?pool=0aa735e0-4cef-4b56-87ea-f75919b2bab0#src=seo_token; bluefin-spot (Sui), 6.87% APY, $1.34M TVL, https://www.defi.garden/?pool=0a30fdbe-ed8c-4cd2-86a6-67d199fff83a#src=seo_token; scallop-lend (Sui), 1.58% APY, $2.8M TVL, https://www.defi.garden/?pool=f77d3465-d067-43ff-a325-3450716aed9c#src=seo_token; navi-lending (Sui), 1.68% APY, $11.16M TVL, https://www.defi.garden/?pool=f8ffbfd7-7448-45f4-9cc4-f8c1185489a2#src=seo_token; cetus-clmm (Sui), 115.86% APY, $991.4K TVL, https://www.defi.garden/?pool=7f0299d7-e03a-4914-933c-abc994c17086#src=seo_token; cetus-clmm (Sui), 114.37% APY, $4.64M TVL, https://www.defi.garden/?pool=1249e3d1-af05-4308-a9d8-75127ec2e4c2#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SUI's lower-variability candidates are ember-protocol (Sui), 7.13% APY, $4.21M TVL, https://www.defi.garden/?pool=7434e429-9a41-4060-8a48-f0338dd3c23e#src=seo_token; current (Sui), 4.43% APY, $2.64M TVL, https://www.defi.garden/?pool=b76828a9-a0f4-4909-b6fe-03d1bf74f599#src=seo_token; cetus-clmm (Sui), 0.03% APY, $4.21M TVL, https://www.defi.garden/?pool=0aa735e0-4cef-4b56-87ea-f75919b2bab0#src=seo_token; bluefin-spot (Sui), 7.01% APY, $1.31M TVL, https://www.defi.garden/?pool=0a30fdbe-ed8c-4cd2-86a6-67d199fff83a#src=seo_token; scallop-lend (Sui), 1.57% APY, $2.72M TVL, https://www.defi.garden/?pool=f77d3465-d067-43ff-a325-3450716aed9c#src=seo_token; navi-lending (Sui), 1.68% APY, $10.88M TVL, https://www.defi.garden/?pool=f8ffbfd7-7448-45f4-9cc4-f8c1185489a2#src=seo_token; cetus-clmm (Sui), 91.93% APY, $4.03M TVL, https://www.defi.garden/?pool=1249e3d1-af05-4308-a9d8-75127ec2e4c2#src=seo_token; cetus-clmm (Sui), 86.52% APY, $1.11M TVL, https://www.defi.garden/?pool=39b502cc-d1f2-4c44-8725-c03c04b60864#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -87,4 +87,4 @@ Based on APY history only, SUI's lower-variability candidates are ember-protocol
 
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated October 5, 2026
+## Last updated October 6, 2026

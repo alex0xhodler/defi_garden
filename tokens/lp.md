@@ -1,6 +1,6 @@
 # LP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
 
 The highest honest LP yield right now is 0.10% on wombat-exchange (Arbitrum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -41,7 +41,7 @@ LP shows up in 5 pools here, with rates from 0.01% to 0.10% APY across 2 chains 
 |---|---|---|---|
 | wombat-exchange | 0.01% | 0.01% | 100.00% incentives |
 | wombat-exchange | 0.03% | 0.03% | 100.00% incentives |
-| wombat-exchange | 0.04% | 0.05% | 99.76% incentives |
+| wombat-exchange | 0.04% | 0.05% | 99.07% incentives |
 | wombat-exchange | 0.07% | 0.08% | 100.00% incentives |
 | wombat-exchange | 0.10% | 0.28% | 100.00% incentives |
 
@@ -79,4 +79,4 @@ Based on APY history only, LP's lower-variability candidates are wombat-exchange
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated October 5, 2026
+## Last updated October 6, 2026

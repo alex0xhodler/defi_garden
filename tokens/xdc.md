@@ -1,6 +1,6 @@
 # XDC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
 
 The highest honest XDC yield right now is 0.07% on raydium-amm (Solana), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -10,7 +10,7 @@ The highest honest XDC yield right now is 0.07% on raydium-amm (Solana), among 7
 | [raydium-amm →](https://www.defi.garden/?pool=5684d802-e4d9-5383-b67c-367e10a5057b#src=seo_token) | Solana | 0.05% | $34.18M |
 | [raydium-amm →](https://www.defi.garden/?pool=e8105a88-2a99-52cd-8102-8acc4418894d#src=seo_token) | Solana | 0.02% | $34.09M |
 | [raydium-amm →](https://www.defi.garden/?pool=9c17a393-77ae-5da5-901e-c6eff1105f65#src=seo_token) | Solana | 0.07% | $33.1M |
-| [raydium-amm →](https://www.defi.garden/?pool=052b8797-6b8e-5d62-b661-52c7d5252240#src=seo_token) | Solana | 0.04% | $32.98M |
+| [raydium-amm →](https://www.defi.garden/?pool=052b8797-6b8e-5d62-b661-52c7d5252240#src=seo_token) | Solana | 0.05% | $32.98M |
 | [raydium-amm →](https://www.defi.garden/?pool=edb52a20-ff7f-5a5d-b4a7-649559e00266#src=seo_token) | Solana | 0.03% | $32.13M |
 
 <!-- rate-stability:insufficient -->
@@ -36,7 +36,7 @@ All 6 pools pay a plain base rate right now — no incentive or reward APY mixed
 | raydium-amm | 0.05% | 0.05% | Base rate |
 | raydium-amm | 0.02% | 0.01% | Base rate |
 | raydium-amm | 0.07% | 0.04% | Base rate |
-| raydium-amm | 0.04% | 0.02% | Base rate |
+| raydium-amm | 0.05% | 0.03% | Base rate |
 | raydium-amm | 0.03% | 0.03% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -72,4 +72,4 @@ There is not enough qualifying APY history to rank XDC pools. This view covers A
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 5, 2026
+## Last updated October 6, 2026

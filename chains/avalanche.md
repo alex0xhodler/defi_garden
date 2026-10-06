@@ -1,17 +1,17 @@
 # Avalanche DeFi Yields
 
-The highest honest Avalanche yield right now is 4.60% on aave-v4 (Avalanche), among 130 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Avalanche yield right now is 7.59% on avant-avusd (Avalanche), among 130 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
 | BUIDL | [blackrock-buidl →](https://www.defi.garden/pools/blackrock-buidl-buidl-avalanche) | 3.78% | $483.33M |
-| SAVAX | [benqi-staked-avax →](https://www.defi.garden/pools/benqi-staked-avax-savax-avalanche) | 3.89% | $256.54M |
-| WAVAX | [aave-v3 →](https://www.defi.garden/pools/aave-v3-wavax-avalanche) | 0.74% | $132.47M |
-| BTC.B | [aave-v3 →](https://www.defi.garden/?pool=94e3f442-ab03-4138-a7a8-910bac548058#src=seo_chain) | 0.01% | $95.17M |
-| WETH.E | [aave-v3 →](https://www.defi.garden/?pool=c715efe7-a70d-4358-b2c2-c149cf658612#src=seo_chain) | 0.84% | $11.21M |
-| TAVAX | [treehouse-protocol →](https://www.defi.garden/?pool=40a1e447-058d-4c5b-b567-30543ea185c3#src=seo_chain) | 0.45% | $9.64M |
-| USDC | [spark-savings →](https://www.defi.garden/?pool=e96cbd55-a0a0-446a-89ba-ada6e2991d50#src=seo_chain) | 3.60% | $6.74M |
-| USDC | [aave-v4 →](https://www.defi.garden/?pool=22323e90-bde5-54a1-8686-53b4205b61b7#src=seo_chain) | 4.60% | $6.67M |
+| SAVAX | [benqi-staked-avax →](https://www.defi.garden/pools/benqi-staked-avax-savax-avalanche) | 3.63% | $264.76M |
+| WAVAX | [aave-v3 →](https://www.defi.garden/pools/aave-v3-wavax-avalanche) | 0.74% | $136.68M |
+| SAVUSD | [avant-avusd →](https://www.defi.garden/?pool=c74227a1-e738-4021-bbe1-13363815aecb#src=seo_chain) | 7.59% | $104.74M |
+| BTC.B | [aave-v3 →](https://www.defi.garden/?pool=94e3f442-ab03-4138-a7a8-910bac548058#src=seo_chain) | 0.01% | $94.86M |
+| WETH.E | [aave-v3 →](https://www.defi.garden/?pool=c715efe7-a70d-4358-b2c2-c149cf658612#src=seo_chain) | 0.84% | $11.12M |
+| TAVAX | [treehouse-protocol →](https://www.defi.garden/?pool=40a1e447-058d-4c5b-b567-30543ea185c3#src=seo_chain) | 0.45% | $9.97M |
+| USDC | [aave-v4 →](https://www.defi.garden/?pool=22323e90-bde5-54a1-8686-53b4205b61b7#src=seo_chain) | 4.60% | $7.44M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Avalanche yield today?
 
-4.60% APY on aave-v4 (Avalanche), based on live DefiLlama data.
+7.59% APY on avant-avusd (Avalanche), based on live DefiLlama data.
 
 ### How many Avalanche pools clear the TVL floor?
 
-130 live pools clear this page's $100K TVL floor, $1.7B in total.
+130 live pools clear this page's $100K TVL floor, $1.72B in total.
 
 ### Are these rates safe?
 
@@ -43,9 +43,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [SAVAX](https://www.defi.garden/tokens/savax)
 - [WAVAX](https://www.defi.garden/tokens/wavax)
+- [SAVUSD](https://www.defi.garden/tokens/savusd)
 - [BTC.B](https://www.defi.garden/tokens/btc-b)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WETH.E](https://www.defi.garden/tokens/weth-e)
 - [TAVAX](https://www.defi.garden/tokens/tavax)
+- [USDC](https://www.defi.garden/tokens/usdc)
 
-## Last updated October 5, 2026
+## Last updated October 6, 2026

@@ -1,33 +1,33 @@
 # BLACK DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
 
-The highest honest BLACK yield right now is 46.76% on blackhole-amm (Avalanche), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BLACK yield right now is 45.08% on blackhole-amm (Avalanche), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [blackhole-amm →](https://www.defi.garden/?pool=7f1d52de-191f-462b-981e-fff521ab6180#src=seo_token) | Avalanche | 13.55% | $426.5K |
-| [blackhole-amm →](https://www.defi.garden/?pool=88188705-18c5-47ed-98ae-3902b4fd1d53#src=seo_token) | Avalanche | 39.15% | $111.4K |
-| [blackhole-amm →](https://www.defi.garden/?pool=fabbdba4-d417-48b1-8eef-8d9d112253d7#src=seo_token) | Avalanche | 46.76% | $103.2K |
+| [blackhole-amm →](https://www.defi.garden/?pool=7f1d52de-191f-462b-981e-fff521ab6180#src=seo_token) | Avalanche | 13.22% | $429.6K |
+| [blackhole-amm →](https://www.defi.garden/?pool=88188705-18c5-47ed-98ae-3902b4fd1d53#src=seo_token) | Avalanche | 37.04% | $111.3K |
+| [blackhole-amm →](https://www.defi.garden/?pool=fabbdba4-d417-48b1-8eef-8d9d112253d7#src=seo_token) | Avalanche | 45.08% | $104.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, BLACK's lower-variability candidates are blackhole-amm (Avalanche), 39.15% APY, $111.4K TVL, https://www.defi.garden/?pool=88188705-18c5-47ed-98ae-3902b4fd1d53#src=seo_token; blackhole-amm (Avalanche), 46.76% APY, $103.2K TVL, https://www.defi.garden/?pool=fabbdba4-d417-48b1-8eef-8d9d112253d7#src=seo_token; blackhole-amm (Avalanche), 13.55% APY, $426.5K TVL, https://www.defi.garden/?pool=7f1d52de-191f-462b-981e-fff521ab6180#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BLACK's lower-variability candidates are blackhole-amm (Avalanche), 37.04% APY, $111.3K TVL, https://www.defi.garden/?pool=88188705-18c5-47ed-98ae-3902b4fd1d53#src=seo_token; blackhole-amm (Avalanche), 45.08% APY, $104.6K TVL, https://www.defi.garden/?pool=fabbdba4-d417-48b1-8eef-8d9d112253d7#src=seo_token; blackhole-amm (Avalanche), 13.22% APY, $429.6K TVL, https://www.defi.garden/?pool=7f1d52de-191f-462b-981e-fff521ab6180#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [blackhole-amm →](https://www.defi.garden/?pool=88188705-18c5-47ed-98ae-3902b4fd1d53#src=seo_token) | Avalanche | 39.15% | $111.4K |
-| 2 | [blackhole-amm →](https://www.defi.garden/?pool=fabbdba4-d417-48b1-8eef-8d9d112253d7#src=seo_token) | Avalanche | 46.76% | $103.2K |
-| 3 | [blackhole-amm →](https://www.defi.garden/?pool=7f1d52de-191f-462b-981e-fff521ab6180#src=seo_token) | Avalanche | 13.55% | $426.5K |
+| 1 | [blackhole-amm →](https://www.defi.garden/?pool=88188705-18c5-47ed-98ae-3902b4fd1d53#src=seo_token) | Avalanche | 37.04% | $111.3K |
+| 2 | [blackhole-amm →](https://www.defi.garden/?pool=fabbdba4-d417-48b1-8eef-8d9d112253d7#src=seo_token) | Avalanche | 45.08% | $104.6K |
+| 3 | [blackhole-amm →](https://www.defi.garden/?pool=7f1d52de-191f-462b-981e-fff521ab6180#src=seo_token) | Avalanche | 13.22% | $429.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-BLACK shows up in 3 pools here, with rates from 13.55% to 46.76% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+BLACK shows up in 3 pools here, with rates from 13.22% to 45.08% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 32.03% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 32.48% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 3 of 3 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -35,9 +35,9 @@ BLACK shows up in 3 pools here, with rates from 13.55% to 46.76% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| blackhole-amm | 13.55% | 14.09% | 74.28% incentives |
-| blackhole-amm | 39.15% | 32.90% | 66.25% incentives |
-| blackhole-amm | 46.76% | 32.03% | 72.12% incentives |
+| blackhole-amm | 13.22% | 14.15% | 76.13% incentives |
+| blackhole-amm | 37.04% | 33.26% | 70.59% incentives |
+| blackhole-amm | 45.08% | 32.48% | 74.33% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,11 +45,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BLACK yield today?
 
-46.76% APY on blackhole-amm (Avalanche), based on live DefiLlama data.
+45.08% APY on blackhole-amm (Avalanche), based on live DefiLlama data.
 
 ### How many BLACK pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $641.2K in total.
+3 live pools clear this page's $100K TVL floor, $645.5K in total.
 
 ### Are these rates safe?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BLACK pools have the most stable APY history?
 
-Based on APY history only, BLACK's lower-variability candidates are blackhole-amm (Avalanche), 39.15% APY, $111.4K TVL, https://www.defi.garden/?pool=88188705-18c5-47ed-98ae-3902b4fd1d53#src=seo_token; blackhole-amm (Avalanche), 46.76% APY, $103.2K TVL, https://www.defi.garden/?pool=fabbdba4-d417-48b1-8eef-8d9d112253d7#src=seo_token; blackhole-amm (Avalanche), 13.55% APY, $426.5K TVL, https://www.defi.garden/?pool=7f1d52de-191f-462b-981e-fff521ab6180#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BLACK's lower-variability candidates are blackhole-amm (Avalanche), 37.04% APY, $111.3K TVL, https://www.defi.garden/?pool=88188705-18c5-47ed-98ae-3902b4fd1d53#src=seo_token; blackhole-amm (Avalanche), 45.08% APY, $104.6K TVL, https://www.defi.garden/?pool=fabbdba4-d417-48b1-8eef-8d9d112253d7#src=seo_token; blackhole-amm (Avalanche), 13.22% APY, $429.6K TVL, https://www.defi.garden/?pool=7f1d52de-191f-462b-981e-fff521ab6180#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -65,11 +65,11 @@ Based on APY history only, BLACK's lower-variability candidates are blackhole-am
 - [SAVAX](https://www.defi.garden/tokens/savax)
 - [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
 - [WAVAX](https://www.defi.garden/tokens/wavax)
+- [SAVUSD](https://www.defi.garden/tokens/savusd)
 - [BTC.B](https://www.defi.garden/tokens/btc-b)
-- [VBILL](https://www.defi.garden/tokens/vbill)
 
 ## Available on
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated October 5, 2026
+## Last updated October 6, 2026

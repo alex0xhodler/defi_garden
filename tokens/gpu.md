@@ -1,12 +1,12 @@
 # GPU DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 5, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
 
-The highest honest GPU yield right now is 2.48% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GPU yield right now is 2.08% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=d0ae2616-48cf-4c04-a77c-a636c3fa6903#src=seo_token) | Ethereum | 2.48% | $233.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=d0ae2616-48cf-4c04-a77c-a636c3fa6903#src=seo_token) | Ethereum | 2.08% | $230.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GPU yield today?
 
-2.48% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+2.08% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many GPU pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $233.3K in total.
+1 live pool clear this page's $100K TVL floor, $230.9K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank GPU pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 5, 2026
+## Last updated October 6, 2026

@@ -1,14 +1,14 @@
 # SFI 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 5, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 6, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 SFI의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 0.98%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SFI의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v2에서 3.24%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=e6bc0e08-df6b-5817-ae73-f21f6c4b883c#src=seo_token) | Ethereum | 0.22% | $1.3M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=57a26552-1978-5462-be39-f7d30fb813b3#src=seo_token) | Ethereum | 0.98% | $635.2K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=9e9e97db-3cbc-4303-9bd8-d2d28d5f2a30#src=seo_token) | Ethereum | 1.44% | $127.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e6bc0e08-df6b-5817-ae73-f21f6c4b883c#src=seo_token) | Ethereum | 0.12% | $1.29M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=57a26552-1978-5462-be39-f7d30fb813b3#src=seo_token) | Ethereum | 1.31% | $621K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=9e9e97db-3cbc-4303-9bd8-d2d28d5f2a30#src=seo_token) | Ethereum | 3.24% | $127.5K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,9 +19,9 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-SFI 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.22%부터 1.44%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+SFI 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.12%부터 3.24%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 2.53%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 2.50%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 현재 3개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
@@ -29,9 +29,9 @@ SFI 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.22%부터 1.44%까�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v3 | 0.22% | 2.53% | 기본 금리 |
-| uniswap-v3 | 0.98% | 1.14% | 기본 금리 |
-| uniswap-v2 | 1.44% | 4.92% | 기본 금리 |
+| uniswap-v3 | 0.12% | 2.50% | 기본 금리 |
+| uniswap-v3 | 1.31% | 1.14% | 기본 금리 |
+| uniswap-v2 | 3.24% | 4.27% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -39,11 +39,11 @@ SFI 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.22%부터 1.44%까�
 
 ### 오늘 SFI의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 0.98%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v2에서 APY 3.24%예요.
 
 ### SFI 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $2.06M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $2.04M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -66,4 +66,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 0.98%예�
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: October 5, 2026
+## 마지막 업데이트: October 6, 2026
