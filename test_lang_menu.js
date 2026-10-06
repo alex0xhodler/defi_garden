@@ -238,7 +238,20 @@ async function menuBehaviour(page, label) {
       await test(`landing ${q || '(EN)'}: document.title + og:title`, async () => {
         await openLanding(page, q);
         await page.waitForFunction((ko) => ko ? /[가-힣]/.test(document.title) : document.title.length > 0, expectKo);
-        const got = await page.evaluate(() => ({ title: document.title, og: document.querySelector('meta[property="og:title"]').content }));
+        const got = await page.evaluate(() => ({
+          title: document.title,
+          og: document.querySelector('meta[property="og:title"]').content,
+          desc: document.querySelector('meta[name="description"]').content,
+          ogDesc: document.querySelector('meta[property="og:description"]').content
+        }));
+        // The landing JS must not re-stale the description with planner-era copy.
+        assert.ok(!/savings calculator|저축 계산기/.test(got.desc), 'meta description is not planner-era copy: ' + got.desc);
+        assert.strictEqual(got.ogDesc, got.desc, 'og:description matches meta description');
+        if (!expectKo) {
+          const html = require('fs').readFileSync(require('path').join(__dirname, 'home.html'), 'utf8');
+          const m = html.match(/<meta name="description" content="([^"]+)"/);
+          assert.strictEqual(got.desc, m[1], 'EN landing meta description equals home.html static description');
+        }
         if (expectKo) {
           const { translations } = require('./translations.js');
           assert.strictEqual(got.title, translations.ko.landing.pageTitle);

@@ -147,7 +147,7 @@ test('home.html / plan.html (the interactive app shells) never load the i18n fil
 // I18N_SKIP_BUNDLE_BASELINE=1).
 const ALLOWED_NEW_KEYS = ['langMenuLabel', 'langNameEn', 'langNameKo'];          // top-level, en + ko
 const ALLOWED_REMOVED_LANDING_KEYS = ['languageEnglish', 'languageKorean'];       // old EN<->KO toggle's aria strings
-const ALLOWED_CHANGED = ['landing.pageTitle'];                                    // planner-era title -> the HTML <title>
+const ALLOWED_CHANGED = ['landing.pageTitle', 'landing.metaDescription'];           // planner-era title/description -> the HTML <title>/<meta>
 test('translations.js is identical to origin/main except the allow-listed language-menu keys / landing title', () => {
   const ref = process.env.I18N_BUNDLE_BASELINE_REF || 'origin/main';
   if (process.env.I18N_SKIP_BUNDLE_BASELINE === '1') { console.log('    (skipped: I18N_SKIP_BUNDLE_BASELINE=1)'); return; }

@@ -240,7 +240,7 @@ projectionHeading: "The long game",
     // Search-first landing
     landing: {
       pageTitle: "DeFi Yields Scored & Forecasted: Live Rates Above $100K TVL | DeFi Garden",
-      metaDescription: "Compare live, trust-filtered DeFi yields across 50+ protocols and 30+ chains with a goal-based savings calculator. $100K TVL floor. Data from DefiLlama. Education, not advice.",
+      metaDescription: "Compare live DeFi yields scored by risk stability and forecasted 14 days out. 7,400+ pools across 30+ chains with a $100K TVL floor. DefiLlama data. Education, not advice.",
       navSearch: "Search yields",
       navPlanner: "Savings Planner",
       navAgents: "AI Agents & MCP",
@@ -1347,7 +1347,7 @@ projectionHeading: "The long game",
     // Search-first landing
     landing: {
       pageTitle: "DeFi 수익률 점수·전망: TVL $100K 이상 실시간 금리 | DeFi Garden",
-      metaDescription: "50개 이상의 프로토콜, 30개 이상의 체인에서 신뢰 필터를 거친 실시간 DeFi 수익률을 목표 기반 저축 계산기와 함께 비교하세요. $100K TVL 기준. DefiLlama 데이터. 투자 조언이 아닌 교육용입니다.",
+      metaDescription: "리스크 안정성으로 점수를 매기고 14일 앞을 전망한 실시간 DeFi 수익률을 비교하세요. 30개 이상 체인의 7,400개 이상 풀, $100K TVL 기준. DefiLlama 데이터. 투자 조언이 아닌 교육용입니다.",
       navSearch: "수익률 검색",
       navPlanner: "저축 플래너",
       navAgents: "AI 에이전트 & MCP",
