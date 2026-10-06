@@ -412,7 +412,11 @@ async function main() {
 
     await test('(4) 360px: clicking the visible language toggle flips the ?lang URL state en<->ko', async () => {
       const beforeLang = new URL(page.url()).searchParams.get('lang') || 'en';
+      // The language control is a disclosure menu now (lang-menu.js): the
+      // trigger (still `.language-toggle`) opens EN/KO/PT/ES; EN/KO switch in-app.
+      const targetLang = beforeLang === 'en' ? 'ko' : 'en';
       await page.locator('.language-toggle:visible').click({ timeout: 5000 });
+      await page.locator(`.lang-menu-item[data-lang="${targetLang}"]:visible`).click({ timeout: 5000 });
       await page.waitForTimeout(150);
       const afterLang = new URL(page.url()).searchParams.get('lang') || 'en';
       if (afterLang === beforeLang) {

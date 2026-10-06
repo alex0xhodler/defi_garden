@@ -888,3 +888,70 @@
 .landing-app .seo-chip {
   border-radius: 2px !important;
 }
+
+/* ── Language suggestion (lang-menu.js Suggest): one dismissible line, only for
+   pt/es browsers. Absolutely positioned in the free band above the hero copy so
+   it adds ZERO height — the desktop scroll-snap sections and the mobile hero
+   card sit exactly where they do for everyone else. Mobile: the 20px gap between
+   the header and the section plus the section's 24px top padding; desktop: the
+   section's 32px top padding. 28px tall in both. Hairline + surface-muted, no
+   shadow, no motion. */
+.landing-underwriting-wrapper { position: relative; }
+.lang-suggest {
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  max-width: calc(100% - 32px);
+  height: 28px;
+  box-sizing: border-box;
+  padding: 0 2px 0 12px;
+  background: var(--ui-surface-muted);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-pill);
+  font-size: var(--font-size-base);
+  line-height: 1.2;
+}
+@media (min-width: 769px) {
+  .lang-suggest { top: 2px; }
+}
+.lang-suggest-link {
+  min-width: 0;
+  display: inline-flex;
+  align-items: center;
+  height: 100%;
+  color: var(--ui-text);
+  font-weight: var(--font-weight-medium);
+  text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.lang-suggest-link:hover { color: var(--color-primary); text-decoration: underline; }
+.lang-suggest-link:focus-visible,
+.lang-suggest-dismiss:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); border-radius: var(--ui-radius-sm); }
+.lang-suggest-dismiss {
+  flex: 0 0 auto;
+  width: 24px;
+  height: 24px;
+  margin-left: 4px;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: var(--ui-radius-pill);
+  background: transparent;
+  color: var(--ui-text-secondary);
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+}
+.lang-suggest-dismiss:hover { color: var(--ui-text); background: var(--ui-surface-sunken); }
+.lang-suggest-dismiss:active { background: var(--ui-surface-sunken); transform: translateY(1px); }
+@media (prefers-reduced-motion: reduce) {
+  .lang-suggest-dismiss:active { transform: none; }
+}

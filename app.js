@@ -3556,11 +3556,13 @@ function App() {
 
       // Controls (theme, language)
       React.createElement('div', { className: 'app-header-controls' },
-        React.createElement('button', {
-          className: 'app-control-btn language-toggle',
-          onClick: () => changeLanguage(language === 'en' ? 'ko' : 'en'),
-          'aria-label': `Switch to ${language === 'en' ? 'Korean' : 'English'}`
-        }, language === 'en' ? 'KO' : 'EN'),
+        // EN/KO switch in-app (changeLanguage); PT/ES are plain links to the
+        // translated static hubs — see lang-menu.js.
+        window.LangMenu ? React.createElement(window.LangMenu.Menu, {
+          language,
+          onSelect: changeLanguage,
+          triggerClassName: 'app-control-btn language-toggle'
+        }) : null,
         React.createElement('button', {
           className: 'app-control-btn theme-toggle',
           onClick: toggleTheme,

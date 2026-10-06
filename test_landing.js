@@ -267,9 +267,11 @@ async function main() {
 
     // Test Korean language toggle
     await page.goto(`http://localhost:${PORT}/?lang=en`, { waitUntil: 'load', timeout: 20000 });
-    await page.waitForSelector('.landing-header-actions .landing-icon-button', { timeout: 10000 });
-    const langBtn = page.locator('.landing-header-actions .landing-icon-button').first();
+    await page.waitForSelector('.landing-header-actions .lang-menu-trigger', { timeout: 10000 });
+    // The EN/KO toggle is a language menu now (lang-menu.js): trigger -> item.
+    const langBtn = page.locator('.landing-header-actions .lang-menu-trigger');
     await langBtn.click();
+    await page.locator('.lang-menu-item[data-lang="ko"]').click();
     await page.waitForFunction(() => {
       const el = document.querySelector('.landing-uw-status');
       return el && el.textContent.includes('실시간');
@@ -280,6 +282,7 @@ async function main() {
 
     // Switch back to EN
     await langBtn.click();
+    await page.locator('.lang-menu-item[data-lang="en"]').click();
     await page.waitForFunction(() => {
       const el = document.querySelector('.landing-uw-status');
       return el && el.textContent.includes('live DefiLlama rates');

@@ -7594,6 +7594,67 @@ a.hub-cta:active {
   .theme-toggle:active, .language-toggle:active { transform: none; }
 }
 
+/* ── Header language menu (lang-menu.js): EN · KO · PT · ES ──────────────────
+   One disclosure: the trigger is the existing icon button (`.language-toggle`
+   in the app header, `.landing-icon-button` on the landing — they keep their
+   own look); only the wrapper and the floating panel are new. The panel is a
+   genuinely floating element, so it is the one place `--ui-shadow-overlay`
+   applies; right-aligned to the trigger so it opens leftwards and stays inside
+   a 360px viewport. EN/KO are buttons, PT/ES are links — same row styling. */
+.lang-menu { position: relative; display: inline-flex; }
+.lang-menu-panel {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  z-index: 1100;
+  min-width: 176px;
+  margin: 0;
+  padding: 4px;
+  list-style: none;
+  box-sizing: border-box;
+  background: var(--ui-surface);
+  border: 1px solid var(--ui-border-strong);
+  border-radius: var(--ui-radius-md);
+  box-shadow: var(--ui-shadow-overlay);
+}
+.lang-menu-panel li { margin: 0; padding: 0; }
+.lang-menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  width: 100%;
+  min-height: 40px;
+  padding: 0 12px;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: var(--ui-radius-sm);
+  background: transparent;
+  color: var(--ui-text);
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  line-height: 1.2;
+  text-align: left;
+  text-decoration: none;
+  cursor: pointer;
+}
+.lang-menu-item:hover { background: var(--ui-surface-muted); color: var(--ui-text); text-decoration: none; }
+.lang-menu-item:active { background: var(--ui-surface-sunken); transform: translateY(1px); }
+.lang-menu-item:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+.lang-menu-item[aria-current="true"] {
+  background: var(--ui-accent-soft);
+  font-weight: var(--font-weight-bold);
+}
+.lang-menu-code {
+  font-size: var(--font-size-xs);
+  letter-spacing: .04em;
+  color: var(--ui-text-muted);
+}
+@media (prefers-reduced-motion: reduce) {
+  .lang-menu-item:active { transform: none; }
+}
+
 /* ═══ 247 WORLD — GENERATED ESTATE AS THE SAME SHEET ═════════════════════
    /tokens, /chains, hubs, A–Z and KO twins: the baked page blocks only set
    font-size/margin/color on their h2s and layout on their wraps, so these
