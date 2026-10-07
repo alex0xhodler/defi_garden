@@ -1,14 +1,14 @@
 # Near DeFi Yields
 
-The highest honest Near yield right now is 10.26% on rhea-lend (Near), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Near yield right now is 7.95% on rhea-lend (Near), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| RNEAR | [rhea-lst →](https://www.defi.garden/?pool=b5b80cad-b4bc-5c49-b9c1-52e16856ce26#src=seo_chain) | 4.42% | $44.59M |
-| XRHEA | [rhea-lst →](https://www.defi.garden/?pool=9f402ef0-5c94-501b-aae4-42fe2f152494#src=seo_chain) | 3.69% | $13.33M |
-| USDT | [rhea-lend →](https://www.defi.garden/?pool=d4c96d26-5869-5771-90d5-08fd54e1455e#src=seo_chain) | 10.26% | $1.73M |
-| USDC | [rhea-lend →](https://www.defi.garden/?pool=1a54c607-d829-5621-87a7-e3b7debc51a1#src=seo_chain) | 10.00% | $1.66M |
-| USDT-USDC-USDT.E-USDC.E | [rhea-dex →](https://www.defi.garden/?pool=2fc37959-7f8b-5016-a18d-902ab72b0d4b#src=seo_chain) | 8.04% | $101.7K |
+| RNEAR | [rhea-lst →](https://www.defi.garden/?pool=b5b80cad-b4bc-5c49-b9c1-52e16856ce26#src=seo_chain) | 4.42% | $44.03M |
+| XRHEA | [rhea-lst →](https://www.defi.garden/?pool=9f402ef0-5c94-501b-aae4-42fe2f152494#src=seo_chain) | 3.69% | $10.74M |
+| USDT | [rhea-lend →](https://www.defi.garden/?pool=d4c96d26-5869-5771-90d5-08fd54e1455e#src=seo_chain) | 7.77% | $1.97M |
+| USDC | [rhea-lend →](https://www.defi.garden/?pool=1a54c607-d829-5621-87a7-e3b7debc51a1#src=seo_chain) | 7.95% | $1.85M |
+| USDT-USDC-USDT.E-USDC.E | [rhea-dex →](https://www.defi.garden/?pool=2fc37959-7f8b-5016-a18d-902ab72b0d4b#src=seo_chain) | 4.57% | $101.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,11 +16,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Near yield today?
 
-10.26% APY on rhea-lend (Near), based on live DefiLlama data.
+7.95% APY on rhea-lend (Near), based on live DefiLlama data.
 
 ### How many Near pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $61.42M in total.
+5 live pools clear this page's $100K TVL floor, $58.69M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [USDT.E](https://www.defi.garden/tokens/usdt-e)
 - [USDC.E](https://www.defi.garden/tokens/usdc-e)
 
-## Last updated October 6, 2026
+## Last updated October 7, 2026

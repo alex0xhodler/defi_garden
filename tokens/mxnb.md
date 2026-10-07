@@ -1,35 +1,35 @@
 # MXNB DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 7, 2026. Rates change continuously.*
 
-The highest honest MXNB yield right now is 29.62% on aerodrome-slipstream (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MXNB yield right now is 17.06% on aerodrome-slipstream (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=f2308992-d35b-42a3-a846-594f709fff0d#src=seo_token) | Arbitrum | 0.27% | $159.6K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=50fa251e-e773-4fcd-b7bf-1a77aa61676d#src=seo_token) | Arbitrum | 13.14% | $144.6K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7bce560f-a3a7-4c09-8af7-d382ccee7636#src=seo_token) | Polygon | 3.99% | $143.6K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=a19395f8-284d-4af0-a56b-2dee133132ee#src=seo_token) | Base | 29.62% | $104K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f2308992-d35b-42a3-a846-594f709fff0d#src=seo_token) | Arbitrum | 0.38% | $159.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=50fa251e-e773-4fcd-b7bf-1a77aa61676d#src=seo_token) | Arbitrum | 7.93% | $144.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7bce560f-a3a7-4c09-8af7-d382ccee7636#src=seo_token) | Polygon | 4.90% | $143.7K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=a19395f8-284d-4af0-a56b-2dee133132ee#src=seo_token) | Base | 17.06% | $109.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, MXNB's lower-variability candidates are uniswap-v3 (Arbitrum), 0.27% APY, $159.6K TVL, https://www.defi.garden/?pool=f2308992-d35b-42a3-a846-594f709fff0d#src=seo_token; uniswap-v3 (Polygon), 3.99% APY, $143.6K TVL, https://www.defi.garden/?pool=7bce560f-a3a7-4c09-8af7-d382ccee7636#src=seo_token; uniswap-v3 (Arbitrum), 13.14% APY, $144.6K TVL, https://www.defi.garden/?pool=50fa251e-e773-4fcd-b7bf-1a77aa61676d#src=seo_token; aerodrome-slipstream (Base), 29.62% APY, $104K TVL, https://www.defi.garden/?pool=a19395f8-284d-4af0-a56b-2dee133132ee#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MXNB's lower-variability candidates are uniswap-v3 (Arbitrum), 0.38% APY, $159.6K TVL, https://www.defi.garden/?pool=f2308992-d35b-42a3-a846-594f709fff0d#src=seo_token; uniswap-v3 (Polygon), 4.90% APY, $143.7K TVL, https://www.defi.garden/?pool=7bce560f-a3a7-4c09-8af7-d382ccee7636#src=seo_token; uniswap-v3 (Arbitrum), 7.93% APY, $144.6K TVL, https://www.defi.garden/?pool=50fa251e-e773-4fcd-b7bf-1a77aa61676d#src=seo_token; aerodrome-slipstream (Base), 17.06% APY, $109.5K TVL, https://www.defi.garden/?pool=a19395f8-284d-4af0-a56b-2dee133132ee#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=f2308992-d35b-42a3-a846-594f709fff0d#src=seo_token) | Arbitrum | 0.27% | $159.6K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=7bce560f-a3a7-4c09-8af7-d382ccee7636#src=seo_token) | Polygon | 3.99% | $143.6K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=50fa251e-e773-4fcd-b7bf-1a77aa61676d#src=seo_token) | Arbitrum | 13.14% | $144.6K |
-| 4 | [aerodrome-slipstream →](https://www.defi.garden/?pool=a19395f8-284d-4af0-a56b-2dee133132ee#src=seo_token) | Base | 29.62% | $104K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=f2308992-d35b-42a3-a846-594f709fff0d#src=seo_token) | Arbitrum | 0.38% | $159.6K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=7bce560f-a3a7-4c09-8af7-d382ccee7636#src=seo_token) | Polygon | 4.90% | $143.7K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=50fa251e-e773-4fcd-b7bf-1a77aa61676d#src=seo_token) | Arbitrum | 7.93% | $144.6K |
+| 4 | [aerodrome-slipstream →](https://www.defi.garden/?pool=a19395f8-284d-4af0-a56b-2dee133132ee#src=seo_token) | Base | 17.06% | $109.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-MXNB shows up in 4 pools here, with rates from 0.27% to 29.62% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+MXNB shows up in 4 pools here, with rates from 0.38% to 17.06% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 2.94% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 3.24% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 4 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -37,10 +37,10 @@ MXNB shows up in 4 pools here, with rates from 0.27% to 29.62% APY across 3 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 0.27% | 0.33% | Base rate |
-| uniswap-v3 | 13.14% | 5.02% | Base rate |
-| uniswap-v3 | 3.99% | 0.86% | Base rate |
-| aerodrome-slipstream | 29.62% | 22.38% | 49.16% incentives |
+| uniswap-v3 | 0.38% | 0.34% | Base rate |
+| uniswap-v3 | 7.93% | 5.41% | Base rate |
+| uniswap-v3 | 4.90% | 1.06% | Base rate |
+| aerodrome-slipstream | 17.06% | 23.00% | 62.61% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -48,11 +48,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MXNB yield today?
 
-29.62% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+17.06% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many MXNB pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $551.8K in total.
+4 live pools clear this page's $100K TVL floor, $557.4K in total.
 
 ### Are these rates safe?
 
@@ -60,7 +60,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which MXNB pools have the most stable APY history?
 
-Based on APY history only, MXNB's lower-variability candidates are uniswap-v3 (Arbitrum), 0.27% APY, $159.6K TVL, https://www.defi.garden/?pool=f2308992-d35b-42a3-a846-594f709fff0d#src=seo_token; uniswap-v3 (Polygon), 3.99% APY, $143.6K TVL, https://www.defi.garden/?pool=7bce560f-a3a7-4c09-8af7-d382ccee7636#src=seo_token; uniswap-v3 (Arbitrum), 13.14% APY, $144.6K TVL, https://www.defi.garden/?pool=50fa251e-e773-4fcd-b7bf-1a77aa61676d#src=seo_token; aerodrome-slipstream (Base), 29.62% APY, $104K TVL, https://www.defi.garden/?pool=a19395f8-284d-4af0-a56b-2dee133132ee#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MXNB's lower-variability candidates are uniswap-v3 (Arbitrum), 0.38% APY, $159.6K TVL, https://www.defi.garden/?pool=f2308992-d35b-42a3-a846-594f709fff0d#src=seo_token; uniswap-v3 (Polygon), 4.90% APY, $143.7K TVL, https://www.defi.garden/?pool=7bce560f-a3a7-4c09-8af7-d382ccee7636#src=seo_token; uniswap-v3 (Arbitrum), 7.93% APY, $144.6K TVL, https://www.defi.garden/?pool=50fa251e-e773-4fcd-b7bf-1a77aa61676d#src=seo_token; aerodrome-slipstream (Base), 17.06% APY, $109.5K TVL, https://www.defi.garden/?pool=a19395f8-284d-4af0-a56b-2dee133132ee#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -77,4 +77,4 @@ Based on APY history only, MXNB's lower-variability candidates are uniswap-v3 (A
 - [Polygon](https://www.defi.garden/chains/polygon)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 6, 2026
+## Last updated October 7, 2026

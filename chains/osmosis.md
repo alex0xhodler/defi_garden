@@ -7,11 +7,11 @@ The highest honest Osmosis yield right now is 500.00% on osmosis-dex (Osmosis), 
 | MILKTIA-CDT | [osmosis-dex →](https://www.defi.garden/?pool=db6f7c5d-65be-45ab-9e00-d3574c35ac31#src=seo_chain) | 83.85% | $19.88M |
 | CDT-BTC | [osmosis-dex →](https://www.defi.garden/?pool=afb34fe0-dd27-48b7-be00-654768e9acc7#src=seo_chain) | 500.00% | $5.88M |
 | CDT-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=82a6a2b1-acc6-4f97-95ef-e4353a67a5eb#src=seo_chain) | 315.20% | $2.56M |
-| USDC-BTC | [osmosis-dex →](https://www.defi.garden/?pool=de19671b-9715-54c4-8a65-f631796cd1b9#src=seo_chain) | 0.01% | $799.6K |
-| ATOM-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58#src=seo_chain) | 4.42% | $784.8K |
-| WETH-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=b52fb9a6-f7df-4920-b82c-7c090455ac6e#src=seo_chain) | 0.20% | $379K |
-| ATOM-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66#src=seo_chain) | 0.05% | $368.3K |
-| USDC-ATOM | [osmosis-dex →](https://www.defi.garden/?pool=37d80b3b-3a0f-5068-ae55-909a42c5037f#src=seo_chain) | 0.06% | $312.9K |
+| ATOM-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58#src=seo_chain) | 4.29% | $747.9K |
+| WETH-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=b52fb9a6-f7df-4920-b82c-7c090455ac6e#src=seo_chain) | 0.14% | $365.6K |
+| ATOM-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66#src=seo_chain) | 0.05% | $350.9K |
+| USDC-ATOM | [osmosis-dex →](https://www.defi.garden/?pool=37d80b3b-3a0f-5068-ae55-909a42c5037f#src=seo_chain) | 0.15% | $299.6K |
+| MBRN-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=f0693056-87f1-4374-b5d4-d6242ecf1c19#src=seo_chain) | 3.39% | $285.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Osmosis pools clear the TVL floor?
 
-24 live pools clear this page's $100K TVL floor, $36.22M in total.
+24 live pools clear this page's $100K TVL floor, $35.96M in total.
 
 ### Are these rates safe?
 
@@ -45,7 +45,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [BTC](https://www.defi.garden/tokens/btc)
 - [OSMO](https://www.defi.garden/tokens/osmo)
 - [ATOM](https://www.defi.garden/tokens/atom)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WETH](https://www.defi.garden/tokens/weth)
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [MBRN](https://www.defi.garden/tokens/mbrn)
 
-## Last updated October 6, 2026
+## Last updated October 7, 2026

@@ -1,12 +1,12 @@
 # POD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 7, 2026. Rates change continuously.*
 
 The highest honest POD yield right now is 362.15% on uniswap-v4 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=371fd70e-301d-49e0-b072-a8af7470d8d4#src=seo_token) | Base | 35.93% | $8.81M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=371fd70e-301d-49e0-b072-a8af7470d8d4#src=seo_token) | Base | 102.46% | $8.39M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=079adb02-b5df-5d59-83b8-62898ca2ade3#src=seo_token) | Base | 362.15% | $187K |
 
 <!-- rate-stability:insufficient -->
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-POD shows up in 2 pools here, with rates from 35.93% to 362.15% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+POD shows up in 2 pools here, with rates from 102.46% to 362.15% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 203.82% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 204.16% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -28,7 +28,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 35.93% | 45.48% | Base rate |
+| uniswap-v4 | 102.46% | 46.18% | Base rate |
 | uniswap-v4 | 362.15% | 362.15% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -41,7 +41,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many POD pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $9M in total.
+2 live pools clear this page's $100K TVL floor, $8.58M in total.
 
 ### Are these rates safe?
 
@@ -64,4 +64,4 @@ There is not enough qualifying APY history to rank POD pools. This view covers A
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 6, 2026
+## Last updated October 7, 2026

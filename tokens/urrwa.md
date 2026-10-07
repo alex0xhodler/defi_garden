@@ -1,12 +1,12 @@
 # URRWA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 7, 2026. Rates change continuously.*
 
-The highest honest URRWA yield right now is 3.74% on morpho-blue (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest URRWA yield right now is 3.20% on morpho-blue (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=e45fd043-86ee-4620-8cd9-3c787c5728a7#src=seo_token) | Monad | 3.74% | $193.5K |
+| [morpho-blue →](https://www.defi.garden/?pool=e45fd043-86ee-4620-8cd9-3c787c5728a7#src=seo_token) | Monad | 3.20% | $193.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest URRWA yield today?
 
-3.74% APY on morpho-blue (Monad), based on live DefiLlama data.
+3.20% APY on morpho-blue (Monad), based on live DefiLlama data.
 
 ### How many URRWA pools clear the TVL floor?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank URRWA pools. This view covers
 
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated October 6, 2026
+## Last updated October 7, 2026

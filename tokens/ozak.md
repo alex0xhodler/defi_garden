@@ -1,6 +1,6 @@
 # OZAK DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 7, 2026. Rates change continuously.*
 
 The highest honest OZAK yield right now is 135.65% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank OZAK pools. This view covers 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 6, 2026
+## Last updated October 7, 2026

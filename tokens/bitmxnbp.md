@@ -1,12 +1,12 @@
 # BITMXNBP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 7, 2026. Rates change continuously.*
 
-The highest honest BITMXNBP yield right now is 9.99% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BITMXNBP yield right now is 10.01% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=0fce1c82-7429-451f-a41f-301fb9b28075#src=seo_token) | Base | 9.99% | $229.4K |
+| [morpho-blue →](https://www.defi.garden/?pool=0fce1c82-7429-451f-a41f-301fb9b28075#src=seo_token) | Base | 10.01% | $209.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BITMXNBP yield today?
 
-9.99% APY on morpho-blue (Base), based on live DefiLlama data.
+10.01% APY on morpho-blue (Base), based on live DefiLlama data.
 
 ### How many BITMXNBP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $229.4K in total.
+1 live pool clear this page's $100K TVL floor, $209.5K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank BITMXNBP pools. This view cov
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 6, 2026
+## Last updated October 7, 2026

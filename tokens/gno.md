@@ -1,43 +1,40 @@
 # GNO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 7, 2026. Rates change continuously.*
 
-The highest honest GNO yield right now is 0.11% on aave-v3 (Gnosis), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GNO yield right now is 0.11% on aave-v3 (Gnosis), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=25b57085-9668-46e8-b464-a46a37d45f9d#src=seo_token) | Gnosis | 0.11% | $7.24M |
-| [balancer-v2 →](https://www.defi.garden/?pool=685974d1-530d-442a-ac70-cdda142e6a40#src=seo_token) | Ethereum | 1.10% | $358.3K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=9168b7ba-4684-4778-a5a0-8f99ab95cc4b#src=seo_token) | Ethereum | 42.02% | $102K |
+| [aave-v3 →](https://www.defi.garden/?pool=25b57085-9668-46e8-b464-a46a37d45f9d#src=seo_token) | Gnosis | 0.11% | $7.14M |
+| [balancer-v2 →](https://www.defi.garden/?pool=685974d1-530d-442a-ac70-cdda142e6a40#src=seo_token) | Ethereum | 4.03% | $348.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, GNO's lower-variability candidates are aave-v3 (Gnosis), 0.11% APY, $7.24M TVL, https://www.defi.garden/?pool=25b57085-9668-46e8-b464-a46a37d45f9d#src=seo_token; balancer-v2 (Ethereum), 1.10% APY, $358.3K TVL, https://www.defi.garden/?pool=685974d1-530d-442a-ac70-cdda142e6a40#src=seo_token; uniswap-v3 (Ethereum), 42.02% APY, $102K TVL, https://www.defi.garden/?pool=9168b7ba-4684-4778-a5a0-8f99ab95cc4b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GNO's lower-variability candidates are aave-v3 (Gnosis), 0.11% APY, $7.14M TVL, https://www.defi.garden/?pool=25b57085-9668-46e8-b464-a46a37d45f9d#src=seo_token; balancer-v2 (Ethereum), 4.03% APY, $348.3K TVL, https://www.defi.garden/?pool=685974d1-530d-442a-ac70-cdda142e6a40#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aave-v3 →](https://www.defi.garden/?pool=25b57085-9668-46e8-b464-a46a37d45f9d#src=seo_token) | Gnosis | 0.11% | $7.24M |
-| 2 | [balancer-v2 →](https://www.defi.garden/?pool=685974d1-530d-442a-ac70-cdda142e6a40#src=seo_token) | Ethereum | 1.10% | $358.3K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=9168b7ba-4684-4778-a5a0-8f99ab95cc4b#src=seo_token) | Ethereum | 42.02% | $102K |
+| 1 | [aave-v3 →](https://www.defi.garden/?pool=25b57085-9668-46e8-b464-a46a37d45f9d#src=seo_token) | Gnosis | 0.11% | $7.14M |
+| 2 | [balancer-v2 →](https://www.defi.garden/?pool=685974d1-530d-442a-ac70-cdda142e6a40#src=seo_token) | Ethereum | 4.03% | $348.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-GNO shows up in 3 pools here, with rates from 0.11% to 42.02% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+GNO shows up in 2 pools here, with rates from 0.11% to 4.03% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 2.85% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 1.32% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-2 of 3 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+1 of 2 pools carries impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | aave-v3 | 0.11% | 0.11% | Base rate |
-| balancer-v2 | 1.10% | 2.85% | Base rate |
-| uniswap-v3 | 42.02% | 94.40% | Base rate |
+| balancer-v2 | 4.03% | 2.53% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -49,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many GNO pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $8.49M in total.
+3 live pools clear this page's $100K TVL floor, $8.27M in total.
 
 ### Are these rates safe?
 
@@ -57,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which GNO pools have the most stable APY history?
 
-Based on APY history only, GNO's lower-variability candidates are aave-v3 (Gnosis), 0.11% APY, $7.24M TVL, https://www.defi.garden/?pool=25b57085-9668-46e8-b464-a46a37d45f9d#src=seo_token; balancer-v2 (Ethereum), 1.10% APY, $358.3K TVL, https://www.defi.garden/?pool=685974d1-530d-442a-ac70-cdda142e6a40#src=seo_token; uniswap-v3 (Ethereum), 42.02% APY, $102K TVL, https://www.defi.garden/?pool=9168b7ba-4684-4778-a5a0-8f99ab95cc4b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GNO's lower-variability candidates are aave-v3 (Gnosis), 0.11% APY, $7.14M TVL, https://www.defi.garden/?pool=25b57085-9668-46e8-b464-a46a37d45f9d#src=seo_token; balancer-v2 (Ethereum), 4.03% APY, $348.3K TVL, https://www.defi.garden/?pool=685974d1-530d-442a-ac70-cdda142e6a40#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -73,4 +70,4 @@ Based on APY history only, GNO's lower-variability candidates are aave-v3 (Gnosi
 - [Gnosis](https://www.defi.garden/chains/gnosis)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 6, 2026
+## Last updated October 7, 2026

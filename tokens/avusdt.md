@@ -1,12 +1,12 @@
 # AVUSDT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 7, 2026. Rates change continuously.*
 
 The highest honest AVUSDT yield right now is 1.26% on curve-dex (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=8a6c2832-a53d-4d30-b8b9-184ff915bccd#src=seo_token) | Avalanche | 1.26% | $1.32M |
+| [curve-dex →](https://www.defi.garden/?pool=8a6c2832-a53d-4d30-b8b9-184ff915bccd#src=seo_token) | Avalanche | 1.26% | $1.31M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AVUSDT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.32M in total.
+1 live pool clear this page's $100K TVL floor, $1.31M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank AVUSDT pools. This view cover
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated October 6, 2026
+## Last updated October 7, 2026

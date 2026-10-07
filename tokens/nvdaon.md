@@ -1,12 +1,12 @@
 # NVDAON DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 7, 2026. Rates change continuously.*
 
-The highest honest NVDAON yield right now is 156.15% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NVDAON yield right now is 114.74% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=9c94f854-3143-53d9-9c38-58def8cebf24#src=seo_token) | Ethereum | 156.15% | $310.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=9c94f854-3143-53d9-9c38-58def8cebf24#src=seo_token) | Ethereum | 114.74% | $308K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NVDAON yield today?
 
-156.15% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+114.74% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many NVDAON pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $310.2K in total.
+1 live pool clear this page's $100K TVL floor, $308K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank NVDAON pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 6, 2026
+## Last updated October 7, 2026

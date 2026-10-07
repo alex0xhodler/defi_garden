@@ -1,41 +1,41 @@
 # SDOLA 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 6, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 7, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 SDOLA의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 16.93%이며, $100K TVL 기준을 넘는 18개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SDOLA의 가장 높은 정직한 수익률은 Ethereum의 stake-dao-yield에서 15.86%이며, $100K TVL 기준을 넘는 18개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [inverse-finance-firm →](https://www.defi.garden/?pool=bf0f95c9-bc46-467d-9762-1d80ff50cd74#src=seo_token) | Ethereum | 5.77% | $18.19M |
-| [curve-dex →](https://www.defi.garden/?pool=c69a5fa3-0948-428e-9a01-34057a08fde4#src=seo_token) | Ethereum | 10.21% | $5.68M |
-| [curve-dex →](https://www.defi.garden/?pool=6ba003eb-fb87-4771-a542-e41d352e7c82#src=seo_token) | Ethereum | 6.47% | $5.24M |
-| [stake-dao-yield →](https://www.defi.garden/?pool=54c9a039-42a2-4756-896a-50b81b239ba9#src=seo_token) | Ethereum | 6.84% | $5.09M |
-| [stake-dao-yield →](https://www.defi.garden/?pool=7255c661-892b-4c4c-b869-537a1326b669#src=seo_token) | Ethereum | 16.37% | $3.26M |
-| [convex-finance →](https://www.defi.garden/?pool=9cf047db-5b50-4546-b901-0f34fe5ef2f7#src=seo_token) | Ethereum | 16.93% | $1.71M |
-| [curve-dex →](https://www.defi.garden/?pool=d92e6b85-90ec-4796-a77c-0c56a65e6734#src=seo_token) | Ethereum | 5.63% | $955.3K |
-| [stake-dao-yield →](https://www.defi.garden/?pool=0a80e72c-4590-4e62-b0e8-e47fc718f260#src=seo_token) | Ethereum | 5.66% | $955.2K |
+| [inverse-finance-firm →](https://www.defi.garden/?pool=bf0f95c9-bc46-467d-9762-1d80ff50cd74#src=seo_token) | Ethereum | 5.65% | $18.59M |
+| [curve-dex →](https://www.defi.garden/?pool=c69a5fa3-0948-428e-9a01-34057a08fde4#src=seo_token) | Ethereum | 9.64% | $5.7M |
+| [curve-dex →](https://www.defi.garden/?pool=6ba003eb-fb87-4771-a542-e41d352e7c82#src=seo_token) | Ethereum | 6.56% | $5.24M |
+| [stake-dao-yield →](https://www.defi.garden/?pool=54c9a039-42a2-4756-896a-50b81b239ba9#src=seo_token) | Ethereum | 6.81% | $5.09M |
+| [stake-dao-yield →](https://www.defi.garden/?pool=7255c661-892b-4c4c-b869-537a1326b669#src=seo_token) | Ethereum | 15.86% | $3.26M |
+| [convex-finance →](https://www.defi.garden/?pool=9cf047db-5b50-4546-b901-0f34fe5ef2f7#src=seo_token) | Ethereum | 15.83% | $1.75M |
+| [curve-dex →](https://www.defi.garden/?pool=0877b39a-c1a8-4155-b5dc-082600fdc26e#src=seo_token) | Ethereum | 3.77% | $891.7K |
+| [curve-dex →](https://www.defi.garden/?pool=d92e6b85-90ec-4796-a77c-0c56a65e6734#src=seo_token) | Ethereum | 6.05% | $874.9K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 SDOLA의 변동성 낮은 후보는 Ethereum의 inverse-finance-firm, APY 5.77%, TVL $18.19M, https://www.defi.garden/?pool=bf0f95c9-bc46-467d-9762-1d80ff50cd74#src=seo_token; Ethereum의 curve-dex, APY 10.21%, TVL $5.68M, https://www.defi.garden/?pool=c69a5fa3-0948-428e-9a01-34057a08fde4#src=seo_token; Ethereum의 curve-dex, APY 5.63%, TVL $955.3K, https://www.defi.garden/?pool=d92e6b85-90ec-4796-a77c-0c56a65e6734#src=seo_token; Ethereum의 stake-dao-yield, APY 5.66%, TVL $955.2K, https://www.defi.garden/?pool=0a80e72c-4590-4e62-b0e8-e47fc718f260#src=seo_token; Ethereum의 convex-finance, APY 16.93%, TVL $1.71M, https://www.defi.garden/?pool=9cf047db-5b50-4546-b901-0f34fe5ef2f7#src=seo_token; Ethereum의 stake-dao-yield, APY 6.84%, TVL $5.09M, https://www.defi.garden/?pool=54c9a039-42a2-4756-896a-50b81b239ba9#src=seo_token; Ethereum의 curve-dex, APY 6.47%, TVL $5.24M, https://www.defi.garden/?pool=6ba003eb-fb87-4771-a542-e41d352e7c82#src=seo_token; Ethereum의 stake-dao-yield, APY 16.37%, TVL $3.26M, https://www.defi.garden/?pool=7255c661-892b-4c4c-b869-537a1326b669#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SDOLA의 변동성 낮은 후보는 Ethereum의 inverse-finance-firm, APY 5.65%, TVL $18.59M, https://www.defi.garden/?pool=bf0f95c9-bc46-467d-9762-1d80ff50cd74#src=seo_token; Ethereum의 curve-dex, APY 9.64%, TVL $5.7M, https://www.defi.garden/?pool=c69a5fa3-0948-428e-9a01-34057a08fde4#src=seo_token; Ethereum의 curve-dex, APY 6.05%, TVL $874.9K, https://www.defi.garden/?pool=d92e6b85-90ec-4796-a77c-0c56a65e6734#src=seo_token; Ethereum의 convex-finance, APY 15.83%, TVL $1.75M, https://www.defi.garden/?pool=9cf047db-5b50-4546-b901-0f34fe5ef2f7#src=seo_token; Ethereum의 stake-dao-yield, APY 6.81%, TVL $5.09M, https://www.defi.garden/?pool=54c9a039-42a2-4756-896a-50b81b239ba9#src=seo_token; Ethereum의 curve-dex, APY 6.56%, TVL $5.24M, https://www.defi.garden/?pool=6ba003eb-fb87-4771-a542-e41d352e7c82#src=seo_token; Ethereum의 curve-dex, APY 3.77%, TVL $891.7K, https://www.defi.garden/?pool=0877b39a-c1a8-4155-b5dc-082600fdc26e#src=seo_token; Ethereum의 stake-dao-yield, APY 15.86%, TVL $3.26M, https://www.defi.garden/?pool=7255c661-892b-4c4c-b869-537a1326b669#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [inverse-finance-firm →](https://www.defi.garden/?pool=bf0f95c9-bc46-467d-9762-1d80ff50cd74#src=seo_token) | Ethereum | 5.77% | $18.19M |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=c69a5fa3-0948-428e-9a01-34057a08fde4#src=seo_token) | Ethereum | 10.21% | $5.68M |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=d92e6b85-90ec-4796-a77c-0c56a65e6734#src=seo_token) | Ethereum | 5.63% | $955.3K |
-| 4 | [stake-dao-yield →](https://www.defi.garden/?pool=0a80e72c-4590-4e62-b0e8-e47fc718f260#src=seo_token) | Ethereum | 5.66% | $955.2K |
-| 5 | [convex-finance →](https://www.defi.garden/?pool=9cf047db-5b50-4546-b901-0f34fe5ef2f7#src=seo_token) | Ethereum | 16.93% | $1.71M |
-| 6 | [stake-dao-yield →](https://www.defi.garden/?pool=54c9a039-42a2-4756-896a-50b81b239ba9#src=seo_token) | Ethereum | 6.84% | $5.09M |
-| 7 | [curve-dex →](https://www.defi.garden/?pool=6ba003eb-fb87-4771-a542-e41d352e7c82#src=seo_token) | Ethereum | 6.47% | $5.24M |
-| 8 | [stake-dao-yield →](https://www.defi.garden/?pool=7255c661-892b-4c4c-b869-537a1326b669#src=seo_token) | Ethereum | 16.37% | $3.26M |
+| 1 | [inverse-finance-firm →](https://www.defi.garden/?pool=bf0f95c9-bc46-467d-9762-1d80ff50cd74#src=seo_token) | Ethereum | 5.65% | $18.59M |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=c69a5fa3-0948-428e-9a01-34057a08fde4#src=seo_token) | Ethereum | 9.64% | $5.7M |
+| 3 | [curve-dex →](https://www.defi.garden/?pool=d92e6b85-90ec-4796-a77c-0c56a65e6734#src=seo_token) | Ethereum | 6.05% | $874.9K |
+| 4 | [convex-finance →](https://www.defi.garden/?pool=9cf047db-5b50-4546-b901-0f34fe5ef2f7#src=seo_token) | Ethereum | 15.83% | $1.75M |
+| 5 | [stake-dao-yield →](https://www.defi.garden/?pool=54c9a039-42a2-4756-896a-50b81b239ba9#src=seo_token) | Ethereum | 6.81% | $5.09M |
+| 6 | [curve-dex →](https://www.defi.garden/?pool=6ba003eb-fb87-4771-a542-e41d352e7c82#src=seo_token) | Ethereum | 6.56% | $5.24M |
+| 7 | [curve-dex →](https://www.defi.garden/?pool=0877b39a-c1a8-4155-b5dc-082600fdc26e#src=seo_token) | Ethereum | 3.77% | $891.7K |
+| 8 | [stake-dao-yield →](https://www.defi.garden/?pool=7255c661-892b-4c4c-b869-537a1326b669#src=seo_token) | Ethereum | 15.86% | $3.26M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-SDOLA 풀은 여기 8개가 있고, 1개 체인에서 APY가 5.63%부터 16.93%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+SDOLA 풀은 여기 8개가 있고, 1개 체인에서 APY가 3.77%부터 15.86%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 6.75%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -43,14 +43,14 @@ SDOLA 풀은 여기 8개가 있고, 1개 체인에서 APY가 5.63%부터 16.93%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| inverse-finance-firm | 5.77% | 6.06% | 기본 금리 |
-| curve-dex | 10.21% | 10.66% | 인센티브 82.27% |
-| curve-dex | 6.47% | 6.67% | 인센티브 20.56% |
-| stake-dao-yield | 6.84% | 6.84% | 인센티브 21.91% |
-| stake-dao-yield | 16.37% | 16.13% | 인센티브 89.98% |
-| convex-finance | 16.93% | 16.13% | 인센티브 89.31% |
-| curve-dex | 5.63% | 6.03% | 인센티브 17.40% |
-| stake-dao-yield | 5.66% | 6.24% | 인센티브 19.37% |
+| inverse-finance-firm | 5.65% | 6.04% | 기본 금리 |
+| curve-dex | 9.64% | 10.52% | 인센티브 83.29% |
+| curve-dex | 6.56% | 6.66% | 인센티브 19.52% |
+| stake-dao-yield | 6.81% | 6.84% | 인센티브 21.45% |
+| stake-dao-yield | 15.86% | 16.07% | 인센티브 89.91% |
+| convex-finance | 15.83% | 16.08% | 인센티브 89.83% |
+| curve-dex | 3.77% | 3.35% | 인센티브 73.45% |
+| curve-dex | 6.05% | 6.02% | 인센티브 17.02% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -58,11 +58,11 @@ SDOLA 풀은 여기 8개가 있고, 1개 체인에서 APY가 5.63%부터 16.93%�
 
 ### 오늘 SDOLA의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 16.93%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 stake-dao-yield에서 APY 15.86%예요.
 
 ### SDOLA 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 18개이며, 합산 TVL은 $48.73M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 18개이며, 합산 TVL은 $48.77M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -70,7 +70,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 16.93
 
 ### SDOLA 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 SDOLA의 변동성 낮은 후보는 Ethereum의 inverse-finance-firm, APY 5.77%, TVL $18.19M, https://www.defi.garden/?pool=bf0f95c9-bc46-467d-9762-1d80ff50cd74#src=seo_token; Ethereum의 curve-dex, APY 10.21%, TVL $5.68M, https://www.defi.garden/?pool=c69a5fa3-0948-428e-9a01-34057a08fde4#src=seo_token; Ethereum의 curve-dex, APY 5.63%, TVL $955.3K, https://www.defi.garden/?pool=d92e6b85-90ec-4796-a77c-0c56a65e6734#src=seo_token; Ethereum의 stake-dao-yield, APY 5.66%, TVL $955.2K, https://www.defi.garden/?pool=0a80e72c-4590-4e62-b0e8-e47fc718f260#src=seo_token; Ethereum의 convex-finance, APY 16.93%, TVL $1.71M, https://www.defi.garden/?pool=9cf047db-5b50-4546-b901-0f34fe5ef2f7#src=seo_token; Ethereum의 stake-dao-yield, APY 6.84%, TVL $5.09M, https://www.defi.garden/?pool=54c9a039-42a2-4756-896a-50b81b239ba9#src=seo_token; Ethereum의 curve-dex, APY 6.47%, TVL $5.24M, https://www.defi.garden/?pool=6ba003eb-fb87-4771-a542-e41d352e7c82#src=seo_token; Ethereum의 stake-dao-yield, APY 16.37%, TVL $3.26M, https://www.defi.garden/?pool=7255c661-892b-4c4c-b869-537a1326b669#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SDOLA의 변동성 낮은 후보는 Ethereum의 inverse-finance-firm, APY 5.65%, TVL $18.59M, https://www.defi.garden/?pool=bf0f95c9-bc46-467d-9762-1d80ff50cd74#src=seo_token; Ethereum의 curve-dex, APY 9.64%, TVL $5.7M, https://www.defi.garden/?pool=c69a5fa3-0948-428e-9a01-34057a08fde4#src=seo_token; Ethereum의 curve-dex, APY 6.05%, TVL $874.9K, https://www.defi.garden/?pool=d92e6b85-90ec-4796-a77c-0c56a65e6734#src=seo_token; Ethereum의 convex-finance, APY 15.83%, TVL $1.75M, https://www.defi.garden/?pool=9cf047db-5b50-4546-b901-0f34fe5ef2f7#src=seo_token; Ethereum의 stake-dao-yield, APY 6.81%, TVL $5.09M, https://www.defi.garden/?pool=54c9a039-42a2-4756-896a-50b81b239ba9#src=seo_token; Ethereum의 curve-dex, APY 6.56%, TVL $5.24M, https://www.defi.garden/?pool=6ba003eb-fb87-4771-a542-e41d352e7c82#src=seo_token; Ethereum의 curve-dex, APY 3.77%, TVL $891.7K, https://www.defi.garden/?pool=0877b39a-c1a8-4155-b5dc-082600fdc26e#src=seo_token; Ethereum의 stake-dao-yield, APY 15.86%, TVL $3.26M, https://www.defi.garden/?pool=7255c661-892b-4c4c-b869-537a1326b669#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -85,4 +85,4 @@ APY 이력만 기준으로 비교한 SDOLA의 변동성 낮은 후보는 Ethereu
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: October 6, 2026
+## 마지막 업데이트: October 7, 2026

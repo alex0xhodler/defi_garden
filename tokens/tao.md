@@ -1,28 +1,33 @@
 # TAO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 7, 2026. Rates change continuously.*
 
-The highest honest TAO yield right now is 73.16% on uniswap-v3 (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TAO yield right now is 224.15% on orca-dex (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=784e8a38-c0b3-53d4-8f73-0f95a6ff4245#src=seo_token) | Base | 58.15% | $522.8K |
-| [orca-dex →](https://www.defi.garden/?pool=ae8d815f-f545-56ef-8e6a-e8b6a2bdf303#src=seo_token) | Solana | 44.61% | $238.3K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=5e86c21c-6d1e-5861-85ca-a45276ae4737#src=seo_token) | Base | 73.16% | $164.9K |
-| [raydium-amm →](https://www.defi.garden/?pool=a510c815-555a-500e-9427-ea711c5977f6#src=seo_token) | Solana | 61.69% | $106.2K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=784e8a38-c0b3-53d4-8f73-0f95a6ff4245#src=seo_token) | Base | 39.14% | $568.3K |
+| [orca-dex →](https://www.defi.garden/?pool=ae8d815f-f545-56ef-8e6a-e8b6a2bdf303#src=seo_token) | Solana | 224.15% | $235.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=5e86c21c-6d1e-5861-85ca-a45276ae4737#src=seo_token) | Base | 92.39% | $160.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=a510c815-555a-500e-9427-ea711c5977f6#src=seo_token) | Solana | 116.14% | $106K |
 
-<!-- rate-stability:insufficient -->
+<!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-There is not enough qualifying APY history to rank TAO pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TAO's lower-variability candidates are aerodrome-slipstream (Base), 39.14% APY, $568.3K TVL, https://www.defi.garden/?pool=784e8a38-c0b3-53d4-8f73-0f95a6ff4245#src=seo_token; orca-dex (Solana), 224.15% APY, $235.7K TVL, https://www.defi.garden/?pool=ae8d815f-f545-56ef-8e6a-e8b6a2bdf303#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+| Rank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [aerodrome-slipstream →](https://www.defi.garden/?pool=784e8a38-c0b3-53d4-8f73-0f95a6ff4245#src=seo_token) | Base | 39.14% | $568.3K |
+| 2 | [orca-dex →](https://www.defi.garden/?pool=ae8d815f-f545-56ef-8e6a-e8b6a2bdf303#src=seo_token) | Solana | 224.15% | $235.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-TAO shows up in 4 pools here, with rates from 44.61% to 73.16% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+TAO shows up in 4 pools here, with rates from 39.14% to 224.15% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 223.79% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 214.69% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 4 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -30,10 +35,10 @@ TAO shows up in 4 pools here, with rates from 44.61% to 73.16% APY across 2 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 58.15% | 208.32% | 58.84% incentives |
-| orca-dex | 44.61% | 356.36% | Base rate |
-| uniswap-v3 | 73.16% | 212.91% | Base rate |
-| raydium-amm | 61.69% | 234.68% | Base rate |
+| aerodrome-slipstream | 39.14% | 189.86% | 32.68% incentives |
+| orca-dex | 224.15% | 347.61% | Base rate |
+| uniswap-v3 | 92.39% | 205.46% | Base rate |
+| raydium-amm | 116.14% | 223.93% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -41,11 +46,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest TAO yield today?
 
-73.16% APY on uniswap-v3 (Base), based on live DefiLlama data.
+224.15% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many TAO pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.03M in total.
+4 live pools clear this page's $100K TVL floor, $1.07M in total.
 
 ### Are these rates safe?
 
@@ -53,7 +58,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which TAO pools have the most stable APY history?
 
-There is not enough qualifying APY history to rank TAO pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TAO's lower-variability candidates are aerodrome-slipstream (Base), 39.14% APY, $568.3K TVL, https://www.defi.garden/?pool=784e8a38-c0b3-53d4-8f73-0f95a6ff4245#src=seo_token; orca-dex (Solana), 224.15% APY, $235.7K TVL, https://www.defi.garden/?pool=ae8d815f-f545-56ef-8e6a-e8b6a2bdf303#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +74,4 @@ There is not enough qualifying APY history to rank TAO pools. This view covers A
 - [Base](https://www.defi.garden/chains/base)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 6, 2026
+## Last updated October 7, 2026

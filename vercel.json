@@ -300,6 +300,26 @@
       "permanent": true
     },
     {
+      "source": "/pools/aave-v3-usdt-ethereum",
+      "destination": "/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/aave-v3-usdt-ethereum",
+      "destination": "/ko/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pt/pools/aave-v3-usdt-ethereum",
+      "destination": "/pt/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/es/pools/aave-v3-usdt-ethereum",
+      "destination": "/es/chains/ethereum",
+      "permanent": true
+    },
+    {
       "source": "/pools/aave-v3-wbtc-arbitrum",
       "destination": "/chains/arbitrum",
       "permanent": true
@@ -756,26 +776,6 @@
     },
     {
       "source": "/es/pools/morpho-blue-prime-ethereum",
-      "destination": "/es/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/pools/morpho-blue-steakusdc-ethereum",
-      "destination": "/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/ko/pools/morpho-blue-steakusdc-ethereum",
-      "destination": "/ko/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/pt/pools/morpho-blue-steakusdc-ethereum",
-      "destination": "/pt/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/es/pools/morpho-blue-steakusdc-ethereum",
       "destination": "/es/chains/ethereum",
       "permanent": true
     },

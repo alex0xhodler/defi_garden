@@ -1,12 +1,12 @@
 # PUSSY DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 7, 2026. Rates change continuously.*
 
-The highest honest PUSSY yield right now is 4.05% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PUSSY yield right now is 0.43% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=471b57c9-619d-41b6-a9ec-5a1fb4897ea8#src=seo_token) | Ethereum | 4.05% | $389.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=471b57c9-619d-41b6-a9ec-5a1fb4897ea8#src=seo_token) | Ethereum | 0.43% | $369.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PUSSY yield today?
 
-4.05% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.43% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many PUSSY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $389.7K in total.
+1 live pool clear this page's $100K TVL floor, $369.6K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank PUSSY pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 6, 2026
+## Last updated October 7, 2026

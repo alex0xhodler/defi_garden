@@ -1,35 +1,35 @@
 # SUPER DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 7, 2026. Rates change continuously.*
 
-The highest honest SUPER yield right now is 52.09% on blackhole-amm (Avalanche), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUPER yield right now is 49.72% on blackhole-amm (Avalanche), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=2b62066c-f6f8-4609-b9f8-375525ea628e#src=seo_token) | Ethereum | 5.52% | $4.07M |
-| [blackhole-amm →](https://www.defi.garden/?pool=7f1d52de-191f-462b-981e-fff521ab6180#src=seo_token) | Avalanche | 13.22% | $429.6K |
-| [blackhole-amm →](https://www.defi.garden/?pool=7f1ad5bf-9d12-4af7-a447-2e06647b16d4#src=seo_token) | Avalanche | 52.09% | $406K |
-| [supernova-amm →](https://www.defi.garden/?pool=ee0b1ca0-25c4-4bf5-b407-de290a23e9fa#src=seo_token) | Ethereum | 9.70% | $128.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=2b62066c-f6f8-4609-b9f8-375525ea628e#src=seo_token) | Ethereum | 6.68% | $3.89M |
+| [blackhole-amm →](https://www.defi.garden/?pool=7f1d52de-191f-462b-981e-fff521ab6180#src=seo_token) | Avalanche | 12.59% | $418K |
+| [blackhole-amm →](https://www.defi.garden/?pool=7f1ad5bf-9d12-4af7-a447-2e06647b16d4#src=seo_token) | Avalanche | 49.72% | $397.2K |
+| [supernova-amm →](https://www.defi.garden/?pool=ee0b1ca0-25c4-4bf5-b407-de290a23e9fa#src=seo_token) | Ethereum | 10.57% | $119.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SUPER's lower-variability candidates are uniswap-v2 (Ethereum), 5.52% APY, $4.07M TVL, https://www.defi.garden/?pool=2b62066c-f6f8-4609-b9f8-375525ea628e#src=seo_token; blackhole-amm (Avalanche), 13.22% APY, $429.6K TVL, https://www.defi.garden/?pool=7f1d52de-191f-462b-981e-fff521ab6180#src=seo_token; blackhole-amm (Avalanche), 52.09% APY, $406K TVL, https://www.defi.garden/?pool=7f1ad5bf-9d12-4af7-a447-2e06647b16d4#src=seo_token; supernova-amm (Ethereum), 9.70% APY, $128.1K TVL, https://www.defi.garden/?pool=ee0b1ca0-25c4-4bf5-b407-de290a23e9fa#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SUPER's lower-variability candidates are uniswap-v2 (Ethereum), 6.68% APY, $3.89M TVL, https://www.defi.garden/?pool=2b62066c-f6f8-4609-b9f8-375525ea628e#src=seo_token; blackhole-amm (Avalanche), 12.59% APY, $418K TVL, https://www.defi.garden/?pool=7f1d52de-191f-462b-981e-fff521ab6180#src=seo_token; blackhole-amm (Avalanche), 49.72% APY, $397.2K TVL, https://www.defi.garden/?pool=7f1ad5bf-9d12-4af7-a447-2e06647b16d4#src=seo_token; supernova-amm (Ethereum), 10.57% APY, $119.8K TVL, https://www.defi.garden/?pool=ee0b1ca0-25c4-4bf5-b407-de290a23e9fa#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=2b62066c-f6f8-4609-b9f8-375525ea628e#src=seo_token) | Ethereum | 5.52% | $4.07M |
-| 2 | [blackhole-amm →](https://www.defi.garden/?pool=7f1d52de-191f-462b-981e-fff521ab6180#src=seo_token) | Avalanche | 13.22% | $429.6K |
-| 3 | [blackhole-amm →](https://www.defi.garden/?pool=7f1ad5bf-9d12-4af7-a447-2e06647b16d4#src=seo_token) | Avalanche | 52.09% | $406K |
-| 4 | [supernova-amm →](https://www.defi.garden/?pool=ee0b1ca0-25c4-4bf5-b407-de290a23e9fa#src=seo_token) | Ethereum | 9.70% | $128.1K |
+| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=2b62066c-f6f8-4609-b9f8-375525ea628e#src=seo_token) | Ethereum | 6.68% | $3.89M |
+| 2 | [blackhole-amm →](https://www.defi.garden/?pool=7f1d52de-191f-462b-981e-fff521ab6180#src=seo_token) | Avalanche | 12.59% | $418K |
+| 3 | [blackhole-amm →](https://www.defi.garden/?pool=7f1ad5bf-9d12-4af7-a447-2e06647b16d4#src=seo_token) | Avalanche | 49.72% | $397.2K |
+| 4 | [supernova-amm →](https://www.defi.garden/?pool=ee0b1ca0-25c4-4bf5-b407-de290a23e9fa#src=seo_token) | Ethereum | 10.57% | $119.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SUPER shows up in 4 pools here, with rates from 5.52% to 52.09% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+SUPER shows up in 4 pools here, with rates from 6.68% to 49.72% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 14.04% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 14.15% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 3 of 4 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -37,10 +37,10 @@ SUPER shows up in 4 pools here, with rates from 5.52% to 52.09% APY across 2 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 5.52% | 13.94% | Base rate |
-| blackhole-amm | 13.22% | 14.15% | 76.13% incentives |
-| blackhole-amm | 52.09% | 41.35% | 81.20% incentives |
-| supernova-amm | 9.70% | 11.14% | 75.90% incentives |
+| uniswap-v2 | 6.68% | 14.02% | Base rate |
+| blackhole-amm | 12.59% | 14.28% | 78.21% incentives |
+| blackhole-amm | 49.72% | 42.26% | 79.93% incentives |
+| supernova-amm | 10.57% | 11.13% | 67.62% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -48,11 +48,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SUPER yield today?
 
-52.09% APY on blackhole-amm (Avalanche), based on live DefiLlama data.
+49.72% APY on blackhole-amm (Avalanche), based on live DefiLlama data.
 
 ### How many SUPER pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $5.03M in total.
+4 live pools clear this page's $100K TVL floor, $4.83M in total.
 
 ### Are these rates safe?
 
@@ -60,7 +60,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SUPER pools have the most stable APY history?
 
-Based on APY history only, SUPER's lower-variability candidates are uniswap-v2 (Ethereum), 5.52% APY, $4.07M TVL, https://www.defi.garden/?pool=2b62066c-f6f8-4609-b9f8-375525ea628e#src=seo_token; blackhole-amm (Avalanche), 13.22% APY, $429.6K TVL, https://www.defi.garden/?pool=7f1d52de-191f-462b-981e-fff521ab6180#src=seo_token; blackhole-amm (Avalanche), 52.09% APY, $406K TVL, https://www.defi.garden/?pool=7f1ad5bf-9d12-4af7-a447-2e06647b16d4#src=seo_token; supernova-amm (Ethereum), 9.70% APY, $128.1K TVL, https://www.defi.garden/?pool=ee0b1ca0-25c4-4bf5-b407-de290a23e9fa#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SUPER's lower-variability candidates are uniswap-v2 (Ethereum), 6.68% APY, $3.89M TVL, https://www.defi.garden/?pool=2b62066c-f6f8-4609-b9f8-375525ea628e#src=seo_token; blackhole-amm (Avalanche), 12.59% APY, $418K TVL, https://www.defi.garden/?pool=7f1d52de-191f-462b-981e-fff521ab6180#src=seo_token; blackhole-amm (Avalanche), 49.72% APY, $397.2K TVL, https://www.defi.garden/?pool=7f1ad5bf-9d12-4af7-a447-2e06647b16d4#src=seo_token; supernova-amm (Ethereum), 10.57% APY, $119.8K TVL, https://www.defi.garden/?pool=ee0b1ca0-25c4-4bf5-b407-de290a23e9fa#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -76,4 +76,4 @@ Based on APY history only, SUPER's lower-variability candidates are uniswap-v2 (
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated October 6, 2026
+## Last updated October 7, 2026

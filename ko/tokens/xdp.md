@@ -1,13 +1,13 @@
 # XDP 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 6, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 7, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 XDP의 가장 높은 정직한 수익률은 Base의 uniswap-v3에서 328.74%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 XDP의 가장 높은 정직한 수익률은 Base의 uniswap-v3에서 387.89%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=8fd70feb-b241-5cd3-b8c1-daabdecbb7a7#src=seo_token) | Base | 328.74% | $1.86M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=c203ba4d-0b60-5c67-bcce-33f6a6250613#src=seo_token) | Base | 335.10% | $1.03M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=c203ba4d-0b60-5c67-bcce-33f6a6250613#src=seo_token) | Base | 199.47% | $1.83M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=8fd70feb-b241-5cd3-b8c1-daabdecbb7a7#src=seo_token) | Base | 387.89% | $1.81M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=d97c9e55-772e-5401-b64e-18bb159e2834#src=seo_token) | Base | 124.77% | $114.5K |
 
 <!-- rate-stability:insufficient -->
@@ -19,9 +19,9 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-XDP 풀은 여기 3개가 있고, 1개 체인에서 APY가 124.77%부터 335.10%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+XDP 풀은 여기 3개가 있고, 1개 체인에서 APY가 124.77%부터 387.89%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 411.35%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 405.41%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 3개 풀 중 1개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -29,8 +29,8 @@ XDP 풀은 여기 3개가 있고, 1개 체인에서 APY가 124.77%부터 335.10%
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v3 | 328.74% | 411.35% | 기본 금리 |
-| aerodrome-slipstream | 335.10% | 826.21% | 인센티브 53.84% |
+| aerodrome-slipstream | 199.47% | 756.73% | 인센티브 34.63% |
+| uniswap-v3 | 387.89% | 405.41% | 기본 금리 |
 | uniswap-v4 | 124.77% | 68.66% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -39,11 +39,11 @@ XDP 풀은 여기 3개가 있고, 1개 체인에서 APY가 124.77%부터 335.10%
 
 ### 오늘 XDP의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 328.74%예요.
+DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 387.89%예요.
 
 ### XDP 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $3.01M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $3.75M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -66,4 +66,4 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 328.74%예요
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: October 6, 2026
+## 마지막 업데이트: October 7, 2026

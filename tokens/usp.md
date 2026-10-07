@@ -1,31 +1,38 @@
 # USP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 7, 2026. Rates change continuously.*
 
-The highest honest USP yield right now is 3.03% on curve-dex (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USP yield right now is 240.42% on curve-dex (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=d9d5e264-59e4-4a5c-84ff-bd55554ade2c#src=seo_token) | Ethereum | 3.03% | $125.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=db0e1560-796b-4067-a115-369abdf96e68#src=seo_token) | Ethereum | 1.29% | $144.5K |
+| [curve-dex →](https://www.defi.garden/?pool=d9d5e264-59e4-4a5c-84ff-bd55554ade2c#src=seo_token) | Ethereum | 240.42% | $125.3K |
 
-<!-- rate-stability:insufficient -->
+<!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-There is not enough qualifying APY history to rank USP pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USP's lower-variability candidates are uniswap-v4 (Ethereum), 1.29% APY, $144.5K TVL, https://www.defi.garden/?pool=db0e1560-796b-4067-a115-369abdf96e68#src=seo_token; curve-dex (Ethereum), 240.42% APY, $125.3K TVL, https://www.defi.garden/?pool=d9d5e264-59e4-4a5c-84ff-bd55554ade2c#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+| Rank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=db0e1560-796b-4067-a115-369abdf96e68#src=seo_token) | Ethereum | 1.29% | $144.5K |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=d9d5e264-59e4-4a5c-84ff-bd55554ade2c#src=seo_token) | Ethereum | 240.42% | $125.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-USP shows up in 1 pools here, with rates from 3.03% to 3.03% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+USP shows up in 2 pools here, with rates from 1.29% to 240.42% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 285.19% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 137.11% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
+All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 3.03% | 285.19% | Base rate |
+| uniswap-v4 | 1.29% | 1.98% | Base rate |
+| curve-dex | 240.42% | 272.23% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -33,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USP yield today?
 
-3.03% APY on curve-dex (Ethereum), based on live DefiLlama data.
+240.42% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many USP pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $407K in total.
+3 live pools clear this page's $100K TVL floor, $407.9K in total.
 
 ### Are these rates safe?
 
@@ -45,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USP pools have the most stable APY history?
 
-There is not enough qualifying APY history to rank USP pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USP's lower-variability candidates are uniswap-v4 (Ethereum), 1.29% APY, $144.5K TVL, https://www.defi.garden/?pool=db0e1560-796b-4067-a115-369abdf96e68#src=seo_token; curve-dex (Ethereum), 240.42% APY, $125.3K TVL, https://www.defi.garden/?pool=d9d5e264-59e4-4a5c-84ff-bd55554ade2c#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -60,4 +67,4 @@ There is not enough qualifying APY history to rank USP pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 6, 2026
+## Last updated October 7, 2026

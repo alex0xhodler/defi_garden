@@ -1,15 +1,14 @@
 # Stellar DeFi Yields
 
-The highest honest Stellar yield right now is 10.00% on gami-labs (Stellar), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Stellar yield right now is 10.00% on gami-labs (Stellar), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| USDY | [ondo-yield-assets →](https://www.defi.garden/pools/ondo-yield-assets-usdy-stellar) | 3.63% | $537M |
-| EARNUSDC | [gami-labs →](https://www.defi.garden/?pool=038cb9c0-814d-41cc-ac43-b4fefd95da53#src=seo_chain) | 10.00% | $25M |
-| USDC | [blend-pools-v2 →](https://www.defi.garden/?pool=ecf788e3-d2ef-4fdd-9ece-8a2d96226ddf#src=seo_chain) | 6.69% | $11.45M |
-| EARNXLM | [gami-labs →](https://www.defi.garden/?pool=879fac16-fff2-4985-b516-366eeb9c0c6c#src=seo_chain) | 5.00% | $4.4M |
-| XLM | [blend-pools-v2 →](https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d#src=seo_chain) | 0.01% | $134.9K |
-| EURC | [blend-pools-v2 →](https://www.defi.garden/?pool=3a61420f-6f6e-45f9-accc-8d23f5a32d33#src=seo_chain) | 0.20% | $105.3K |
+| USDY | [ondo-yield-assets →](https://www.defi.garden/pools/ondo-yield-assets-usdy-stellar) | 3.63% | $537.06M |
+| EARNUSDC | [gami-labs →](https://www.defi.garden/?pool=038cb9c0-814d-41cc-ac43-b4fefd95da53#src=seo_chain) | 10.00% | $25.01M |
+| USDC | [blend-pools-v2 →](https://www.defi.garden/?pool=ecf788e3-d2ef-4fdd-9ece-8a2d96226ddf#src=seo_chain) | 6.66% | $11.56M |
+| EARNXLM | [gami-labs →](https://www.defi.garden/?pool=879fac16-fff2-4985-b516-366eeb9c0c6c#src=seo_chain) | 5.00% | $4.34M |
+| XLM | [blend-pools-v2 →](https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d#src=seo_chain) | 0.01% | $129.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -21,7 +20,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Stellar pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $728.29M in total.
+6 live pools clear this page's $100K TVL floor, $722.57M in total.
 
 ### Are these rates safe?
 
@@ -43,6 +42,5 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [EARNXLM](https://www.defi.garden/tokens/earnxlm)
 - [XLM](https://www.defi.garden/tokens/xlm)
-- [EURC](https://www.defi.garden/tokens/eurc)
 
-## Last updated October 6, 2026
+## Last updated October 7, 2026

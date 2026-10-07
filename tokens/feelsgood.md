@@ -1,12 +1,12 @@
 # FEELSGOOD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 7, 2026. Rates change continuously.*
 
-The highest honest FEELSGOOD yield right now is 121.99% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FEELSGOOD yield right now is 141.01% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=0e1b937c-495e-5268-bd89-5f29f6bd86c2#src=seo_token) | Solana | 121.99% | $115.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=0e1b937c-495e-5268-bd89-5f29f6bd86c2#src=seo_token) | Solana | 141.01% | $124.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FEELSGOOD yield today?
 
-121.99% APY on raydium-amm (Solana), based on live DefiLlama data.
+141.01% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many FEELSGOOD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $115.4K in total.
+1 live pool clear this page's $100K TVL floor, $124.9K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank FEELSGOOD pools. This view co
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 6, 2026
+## Last updated October 7, 2026

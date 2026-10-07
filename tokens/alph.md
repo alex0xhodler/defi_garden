@@ -1,12 +1,12 @@
 # ALPH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 7, 2026. Rates change continuously.*
 
-The highest honest ALPH yield right now is 44.42% on powfi (Alephium), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ALPH yield right now is 16.40% on powfi (Alephium), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [powfi →](https://www.defi.garden/?pool=cb7dc9f8-e46f-5a0d-8b65-9fe108ed66bd#src=seo_token) | Alephium | 44.42% | $144.8K |
+| [powfi →](https://www.defi.garden/?pool=cb7dc9f8-e46f-5a0d-8b65-9fe108ed66bd#src=seo_token) | Alephium | 16.40% | $140.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ALPH yield today?
 
-44.42% APY on powfi (Alephium), based on live DefiLlama data.
+16.40% APY on powfi (Alephium), based on live DefiLlama data.
 
 ### How many ALPH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $144.8K in total.
+1 live pool clear this page's $100K TVL floor, $140.7K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank ALPH pools. This view covers 
 
 - [Alephium](https://www.defi.garden/chains/alephium)
 
-## Last updated October 6, 2026
+## Last updated October 7, 2026

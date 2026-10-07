@@ -1,19 +1,19 @@
 # WETH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 7, 2026. Rates change continuously.*
 
-The highest honest WETH yield right now is 2.50% on euler-v2 (Monad), among 1,845 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WETH yield right now is 42.33% on uniswap-v3 (Base), among 1,806 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/pools/aave-v3-weth-ethereum) | Ethereum | 1.36% | $980.23M |
-| [sparklend →](https://www.defi.garden/pools/sparklend-weth-ethereum) | Ethereum | 1.46% | $314.49M |
-| [uniswap-v3 →](https://www.defi.garden/pools/uniswap-v3-weth-usdc-base) | Base | 29.15% | $162.8M |
-| [uniswap-v3 →](https://www.defi.garden/pools/uniswap-v3-weth-usdt-ethereum) | Ethereum | 16.71% | $111.67M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=665dc8bc-c79d-4800-97f7-304bf368e547#src=seo_token) | Ethereum | 4.37% | $98.03M |
-| [euler-v2 →](https://www.defi.garden/?pool=951e4e49-9760-49a3-aea9-bd832384219f#src=seo_token) | Monad | 2.50% | $65.37M |
-| [curve-dex →](https://www.defi.garden/?pool=077b47b8-76c9-4081-97f2-9ca43ebdbaa0#src=seo_token) | Ethereum | 1.56% | $56.82M |
-| [curve-dex →](https://www.defi.garden/?pool=0fe44dca-3690-4bd2-85a6-77d823b283c5#src=seo_token) | Ethereum | 0.26% | $53.16M |
+| [aave-v3 →](https://www.defi.garden/pools/aave-v3-weth-ethereum) | Ethereum | 1.35% | $980.46M |
+| [sparklend →](https://www.defi.garden/pools/sparklend-weth-ethereum) | Ethereum | 1.42% | $351.21M |
+| [uniswap-v3 →](https://www.defi.garden/pools/uniswap-v3-weth-usdc-base) | Base | 42.33% | $160.4M |
+| [uniswap-v3 →](https://www.defi.garden/pools/uniswap-v3-weth-usdt-ethereum) | Ethereum | 27.08% | $109.91M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=665dc8bc-c79d-4800-97f7-304bf368e547#src=seo_token) | Ethereum | 5.93% | $97.19M |
+| [euler-v2 →](https://www.defi.garden/?pool=951e4e49-9760-49a3-aea9-bd832384219f#src=seo_token) | Monad | 2.57% | $58.25M |
+| [curve-dex →](https://www.defi.garden/?pool=077b47b8-76c9-4081-97f2-9ca43ebdbaa0#src=seo_token) | Ethereum | 1.54% | $55.64M |
+| [curve-dex →](https://www.defi.garden/?pool=0fe44dca-3690-4bd2-85a6-77d823b283c5#src=seo_token) | Ethereum | 0.04% | $50.97M |
 
 ## How WETH Yield is Generated
 
@@ -26,26 +26,26 @@ All DeFi yields carry inherent risk. Smart contract vulnerabilities, protocol ec
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WETH's lower-variability candidates are aave-v3 (Ethereum), 1.36% APY, $980.23M TVL, https://www.defi.garden/pools/aave-v3-weth-ethereum; sparklend (Ethereum), 1.46% APY, $314.49M TVL, https://www.defi.garden/pools/sparklend-weth-ethereum; euler-v2 (Monad), 2.50% APY, $65.37M TVL, https://www.defi.garden/?pool=951e4e49-9760-49a3-aea9-bd832384219f#src=seo_token; curve-dex (Ethereum), 0.26% APY, $53.16M TVL, https://www.defi.garden/?pool=0fe44dca-3690-4bd2-85a6-77d823b283c5#src=seo_token; curve-dex (Ethereum), 1.56% APY, $56.82M TVL, https://www.defi.garden/?pool=077b47b8-76c9-4081-97f2-9ca43ebdbaa0#src=seo_token; uniswap-v3 (Ethereum), 4.37% APY, $98.03M TVL, https://www.defi.garden/?pool=665dc8bc-c79d-4800-97f7-304bf368e547#src=seo_token; uniswap-v3 (Ethereum), 16.71% APY, $111.67M TVL, https://www.defi.garden/pools/uniswap-v3-weth-usdt-ethereum; uniswap-v3 (Base), 29.15% APY, $162.8M TVL, https://www.defi.garden/pools/uniswap-v3-weth-usdc-base. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WETH's lower-variability candidates are aave-v3 (Ethereum), 1.35% APY, $980.46M TVL, https://www.defi.garden/pools/aave-v3-weth-ethereum; sparklend (Ethereum), 1.42% APY, $351.21M TVL, https://www.defi.garden/pools/sparklend-weth-ethereum; euler-v2 (Monad), 2.57% APY, $58.25M TVL, https://www.defi.garden/?pool=951e4e49-9760-49a3-aea9-bd832384219f#src=seo_token; curve-dex (Ethereum), 0.04% APY, $50.97M TVL, https://www.defi.garden/?pool=0fe44dca-3690-4bd2-85a6-77d823b283c5#src=seo_token; curve-dex (Ethereum), 1.54% APY, $55.64M TVL, https://www.defi.garden/?pool=077b47b8-76c9-4081-97f2-9ca43ebdbaa0#src=seo_token; uniswap-v3 (Ethereum), 5.93% APY, $97.19M TVL, https://www.defi.garden/?pool=665dc8bc-c79d-4800-97f7-304bf368e547#src=seo_token; uniswap-v3 (Ethereum), 27.08% APY, $109.91M TVL, https://www.defi.garden/pools/uniswap-v3-weth-usdt-ethereum; uniswap-v3 (Base), 42.33% APY, $160.4M TVL, https://www.defi.garden/pools/uniswap-v3-weth-usdc-base. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aave-v3 →](https://www.defi.garden/pools/aave-v3-weth-ethereum) | Ethereum | 1.36% | $980.23M |
-| 2 | [sparklend →](https://www.defi.garden/pools/sparklend-weth-ethereum) | Ethereum | 1.46% | $314.49M |
-| 3 | [euler-v2 →](https://www.defi.garden/?pool=951e4e49-9760-49a3-aea9-bd832384219f#src=seo_token) | Monad | 2.50% | $65.37M |
-| 4 | [curve-dex →](https://www.defi.garden/?pool=0fe44dca-3690-4bd2-85a6-77d823b283c5#src=seo_token) | Ethereum | 0.26% | $53.16M |
-| 5 | [curve-dex →](https://www.defi.garden/?pool=077b47b8-76c9-4081-97f2-9ca43ebdbaa0#src=seo_token) | Ethereum | 1.56% | $56.82M |
-| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=665dc8bc-c79d-4800-97f7-304bf368e547#src=seo_token) | Ethereum | 4.37% | $98.03M |
-| 7 | [uniswap-v3 →](https://www.defi.garden/pools/uniswap-v3-weth-usdt-ethereum) | Ethereum | 16.71% | $111.67M |
-| 8 | [uniswap-v3 →](https://www.defi.garden/pools/uniswap-v3-weth-usdc-base) | Base | 29.15% | $162.8M |
+| 1 | [aave-v3 →](https://www.defi.garden/pools/aave-v3-weth-ethereum) | Ethereum | 1.35% | $980.46M |
+| 2 | [sparklend →](https://www.defi.garden/pools/sparklend-weth-ethereum) | Ethereum | 1.42% | $351.21M |
+| 3 | [euler-v2 →](https://www.defi.garden/?pool=951e4e49-9760-49a3-aea9-bd832384219f#src=seo_token) | Monad | 2.57% | $58.25M |
+| 4 | [curve-dex →](https://www.defi.garden/?pool=0fe44dca-3690-4bd2-85a6-77d823b283c5#src=seo_token) | Ethereum | 0.04% | $50.97M |
+| 5 | [curve-dex →](https://www.defi.garden/?pool=077b47b8-76c9-4081-97f2-9ca43ebdbaa0#src=seo_token) | Ethereum | 1.54% | $55.64M |
+| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=665dc8bc-c79d-4800-97f7-304bf368e547#src=seo_token) | Ethereum | 5.93% | $97.19M |
+| 7 | [uniswap-v3 →](https://www.defi.garden/pools/uniswap-v3-weth-usdt-ethereum) | Ethereum | 27.08% | $109.91M |
+| 8 | [uniswap-v3 →](https://www.defi.garden/pools/uniswap-v3-weth-usdc-base) | Base | 42.33% | $160.4M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WETH shows up in 8 pools here, with rates from 0.26% to 29.15% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+WETH shows up in 8 pools here, with rates from 0.04% to 42.33% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 6.19% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 5.94% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -53,14 +53,14 @@ WETH shows up in 8 pools here, with rates from 0.26% to 29.15% APY across 3 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aave-v3 | 1.36% | 1.45% | Base rate |
-| sparklend | 1.46% | 1.45% | Base rate |
-| uniswap-v3 | 29.15% | 62.95% | Base rate |
-| uniswap-v3 | 16.71% | 39.22% | Base rate |
-| uniswap-v3 | 4.37% | 10.75% | Base rate |
-| euler-v2 | 2.50% | 2.67% | 52.73% incentives |
-| curve-dex | 1.56% | 1.56% | 99.36% incentives |
-| curve-dex | 0.26% | 9.72% | Base rate |
+| aave-v3 | 1.35% | 1.45% | Base rate |
+| sparklend | 1.42% | 1.45% | Base rate |
+| uniswap-v3 | 42.33% | 62.68% | Base rate |
+| uniswap-v3 | 27.08% | 39.07% | Base rate |
+| uniswap-v3 | 5.93% | 10.61% | Base rate |
+| euler-v2 | 2.57% | 2.65% | 53.60% incentives |
+| curve-dex | 1.54% | 1.57% | 99.35% incentives |
+| curve-dex | 0.04% | 9.23% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -68,11 +68,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WETH yield today?
 
-2.50% APY on euler-v2 (Monad), based on live DefiLlama data.
+42.33% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many WETH pools clear the TVL floor?
 
-1,845 live pools clear this page's $100K TVL floor, $6.32B in total.
+1,806 live pools clear this page's $100K TVL floor, $6.2B in total.
 
 ### Are these rates safe?
 
@@ -80,7 +80,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WETH pools have the most stable APY history?
 
-Based on APY history only, WETH's lower-variability candidates are aave-v3 (Ethereum), 1.36% APY, $980.23M TVL, https://www.defi.garden/pools/aave-v3-weth-ethereum; sparklend (Ethereum), 1.46% APY, $314.49M TVL, https://www.defi.garden/pools/sparklend-weth-ethereum; euler-v2 (Monad), 2.50% APY, $65.37M TVL, https://www.defi.garden/?pool=951e4e49-9760-49a3-aea9-bd832384219f#src=seo_token; curve-dex (Ethereum), 0.26% APY, $53.16M TVL, https://www.defi.garden/?pool=0fe44dca-3690-4bd2-85a6-77d823b283c5#src=seo_token; curve-dex (Ethereum), 1.56% APY, $56.82M TVL, https://www.defi.garden/?pool=077b47b8-76c9-4081-97f2-9ca43ebdbaa0#src=seo_token; uniswap-v3 (Ethereum), 4.37% APY, $98.03M TVL, https://www.defi.garden/?pool=665dc8bc-c79d-4800-97f7-304bf368e547#src=seo_token; uniswap-v3 (Ethereum), 16.71% APY, $111.67M TVL, https://www.defi.garden/pools/uniswap-v3-weth-usdt-ethereum; uniswap-v3 (Base), 29.15% APY, $162.8M TVL, https://www.defi.garden/pools/uniswap-v3-weth-usdc-base. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WETH's lower-variability candidates are aave-v3 (Ethereum), 1.35% APY, $980.46M TVL, https://www.defi.garden/pools/aave-v3-weth-ethereum; sparklend (Ethereum), 1.42% APY, $351.21M TVL, https://www.defi.garden/pools/sparklend-weth-ethereum; euler-v2 (Monad), 2.57% APY, $58.25M TVL, https://www.defi.garden/?pool=951e4e49-9760-49a3-aea9-bd832384219f#src=seo_token; curve-dex (Ethereum), 0.04% APY, $50.97M TVL, https://www.defi.garden/?pool=0fe44dca-3690-4bd2-85a6-77d823b283c5#src=seo_token; curve-dex (Ethereum), 1.54% APY, $55.64M TVL, https://www.defi.garden/?pool=077b47b8-76c9-4081-97f2-9ca43ebdbaa0#src=seo_token; uniswap-v3 (Ethereum), 5.93% APY, $97.19M TVL, https://www.defi.garden/?pool=665dc8bc-c79d-4800-97f7-304bf368e547#src=seo_token; uniswap-v3 (Ethereum), 27.08% APY, $109.91M TVL, https://www.defi.garden/pools/uniswap-v3-weth-usdt-ethereum; uniswap-v3 (Base), 42.33% APY, $160.4M TVL, https://www.defi.garden/pools/uniswap-v3-weth-usdc-base. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -97,4 +97,4 @@ Based on APY history only, WETH's lower-variability candidates are aave-v3 (Ethe
 - [Base](https://www.defi.garden/chains/base)
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated October 6, 2026
+## Last updated October 7, 2026

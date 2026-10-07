@@ -1,12 +1,12 @@
 # WLD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 6, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 7, 2026. Rates change continuously.*
 
-The highest honest WLD yield right now is 59.73% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WLD yield right now is 71.06% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=882e600d-27b3-4408-85a3-140ab0910ec6#src=seo_token) | Ethereum | 59.73% | $234.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=882e600d-27b3-4408-85a3-140ab0910ec6#src=seo_token) | Ethereum | 71.06% | $223.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,9 +17,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-WLD shows up in 1 pools here, with rates from 59.73% to 59.73% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+WLD shows up in 1 pools here, with rates from 71.06% to 71.06% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 116.59% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 118.11% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -27,7 +27,7 @@ All 1 pool pays a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 59.73% | 116.59% | Base rate |
+| uniswap-v3 | 71.06% | 118.11% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WLD yield today?
 
-59.73% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+71.06% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many WLD pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $429K in total.
+2 live pools clear this page's $100K TVL floor, $417.4K in total.
 
 ### Are these rates safe?
 
@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank WLD pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 6, 2026
+## Last updated October 7, 2026
