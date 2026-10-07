@@ -802,12 +802,17 @@ const Analytics = {
   },
 
   isReturningUser() {
-    const hasVisited = localStorage.getItem('defi_garden_visited');
-    if (!hasVisited) {
-      localStorage.setItem('defi_garden_visited', Date.now().toString());
+    // Blocked or disabled storage must not throw: treat as a first visit.
+    try {
+      const hasVisited = localStorage.getItem('defi_garden_visited');
+      if (!hasVisited) {
+        localStorage.setItem('defi_garden_visited', Date.now().toString());
+        return false;
+      }
+      return true;
+    } catch (err) {
       return false;
     }
-    return true;
   }
 };
 

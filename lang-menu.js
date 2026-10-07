@@ -1,40 +1,23 @@
 /* lang-menu.js — the header language menu (EN · KO · PT · ES) and the landing's
  * one-line language suggestion. Plain script, React.createElement only (no JSX,
- * no build step); loaded by home.html before landing.js, and read as
- * `window.LangMenu` by landing.js (landing header) and app.js (analytics grid +
- * pool-detail header — one renderHeaderRow serves both).
+ * no build step); loaded by home.html after translations.js and before
+ * landing.js, and read as `window.LangMenu` by landing.js (landing header) and
+ * app.js (analytics grid + pool-detail header — one renderHeaderRow serves both).
  *
- * EN and KO are IN-APP languages (the host's own switch: localStorage
- * `defi-garden-lang` + `?lang`). PT and ES are NOT: the interactive surfaces
- * stay EN/KO only, so those two items are plain <a href> links out to the
- * translated static hubs. The hrefs and native names live HERE and not in
- * translations.js on purpose — the interactive-app dictionary carries exactly
- * en + ko (test_i18n_pt_es_static.js) and the hrefs mirror languages.js
- * (pathPrefix) — test_lang_menu.js keeps the two in step.
- *
- * Hubs only, never a per-token/chain deep link: whether /pt/tokens/<slug> exists
- * (pt/es are 'head' scope — thin tokens are never generated) cannot be known
- * client-side without a network request, and a link that might 404 is worse than
- * the hub.
+ * All four languages are IN-APP switches: every item is a <button> that calls
+ * the host's onSelect(code) (localStorage `defi-garden-lang` + `?lang`). The
+ * item names (native) and the suggestion copy live in translations.js
+ * (langName*, langSuggestText, langSuggestDismiss). The static /pt/tokens and
+ * /es/tokens hubs are untouched and no longer linked from this menu.
  */
 (function () {
   'use strict';
 
-  var PT_ES = [
-    { code: 'pt', href: '/pt/tokens', lang: 'pt-BR', hreflang: 'pt', name: 'Português',
-      aria: 'Português — páginas de rendimento' },
-    { code: 'es', href: '/es/tokens', lang: 'es', hreflang: 'es', name: 'Español',
-      aria: 'Español — páginas de rendimientos' }
-  ];
+  var LANGS = ['en', 'ko', 'pt', 'es'];
 
   var SUGGEST_KEY = 'defi-garden-lang-suggest-dismissed';
 
-  var SUGGEST_COPY = {
-    pt: { lang: 'pt-BR', href: '/pt/tokens', hreflang: 'pt', text: 'Ver rendimentos em português →', dismiss: 'Dispensar sugestão de idioma' },
-    es: { lang: 'es', href: '/es/tokens', hreflang: 'es', text: 'Ver rendimientos en español →', dismiss: 'Descartar sugerencia de idioma' }
-  };
-
-  // Resolve a string from the interactive dictionary (en/ko only), per-key
+  // Resolve a string from the interactive dictionary (en/ko/pt/es), per-key
   // fallback to EN — the same contract as createTranslationFunction.
   function tr(language, key) {
     var all = (typeof translations !== 'undefined') ? translations : null;
@@ -47,7 +30,7 @@
   function Menu(props) {
     var React = window.React;
     var e = React.createElement;
-    var language = props.language === 'ko' ? 'ko' : 'en';
+    var language = LANGS.indexOf(props.language) !== -1 ? props.language : 'en';
     var open = React.useState(false);
     var isOpen = open[0];
     var setOpen = open[1];
@@ -78,7 +61,12 @@
     }, [isOpen]);
 
     var menuLabel = tr(language, 'langMenuLabel');
-    var names = { en: tr(language, 'langNameEn'), ko: tr(language, 'langNameKo') };
+    var names = {
+      en: tr(language, 'langNameEn'),
+      ko: tr(language, 'langNameKo'),
+      pt: tr(language, 'langNamePt'),
+      es: tr(language, 'langNameEs')
+    };
 
     function pick(code) {
       setOpen(false);
@@ -100,19 +88,6 @@
       );
     }
 
-    function linkItem(item) {
-      return e('li', { key: item.code },
-        e('a', {
-          className: 'lang-menu-item',
-          href: item.href,
-          lang: item.lang,
-          hreflang: item.hreflang,
-          'aria-label': item.aria,
-          'data-lang': item.code
-        }, e('span', null, item.name), e('span', { className: 'lang-menu-code', 'aria-hidden': 'true' }, item.code.toUpperCase()))
-      );
-    }
-
     return e('div', { className: 'lang-menu', ref: rootRef },
       e('button', {
         type: 'button',
@@ -127,14 +102,18 @@
         }
       }, language.toUpperCase()),
       isOpen ? e('ul', { className: 'lang-menu-panel', 'aria-label': menuLabel },
-        appItem('en'),
-        appItem('ko'),
-        PT_ES.map(linkItem)
+        LANGS.map(appItem)
       ) : null
     );
   }
 
-  // First pt/es entry of navigator.languages (falls back to navigator.language).
+  function normalize(value) {
+    if (typeof normalizeLanguageCode === 'function') return normalizeLanguageCode(value);
+    var base = String(value || '').toLowerCase().split('-')[0];
+    return LANGS.indexOf(base) !== -1 ? base : null;
+  }
+
+  // First supported entry of navigator.languages (falls back to navigator.language).
   function suggestedLanguage() {
     var list = [];
     try {
@@ -142,9 +121,8 @@
       else if (navigator.language) list = [navigator.language];
     } catch (err) { list = []; }
     for (var i = 0; i < list.length; i++) {
-      var tag = String(list[i] || '').toLowerCase();
-      if (tag === 'pt' || tag.indexOf('pt-') === 0) return 'pt';
-      if (tag === 'es' || tag.indexOf('es-') === 0) return 'es';
+      var code = normalize(list[i]);
+      if (code) return code;
     }
     return null;
   }
@@ -153,24 +131,27 @@
     try { return window.localStorage.getItem(SUGGEST_KEY) === '1'; } catch (err) { return false; }
   }
 
-  // Renders nothing unless the browser prefers pt/es and the notice was not
-  // dismissed. Never redirects; a link and a close button, nothing else.
-  function Suggest() {
+  // Renders nothing unless the browser prefers a supported language other than
+  // the current app language and the notice was not dismissed. Never redirects;
+  // a button (in-app switch via props.onSelect) and a close button, nothing else.
+  function Suggest(props) {
     var React = window.React;
     var e = React.createElement;
-    var lang = React.useState(function () { return wasDismissed() ? null : suggestedLanguage(); });
-    var code = lang[0];
-    if (!code) return null;
-    var copy = SUGGEST_COPY[code];
+    var current = LANGS.indexOf(props && props.language) !== -1 ? props.language : 'en';
+    var dismissedState = React.useState(function () { return wasDismissed(); });
+    var code = dismissedState[0] ? null : suggestedLanguage();
+    if (!code || code === current || !props || typeof props.onSelect !== 'function') return null;
+    var all = (typeof translations !== 'undefined') ? translations : null;
+    var dict = (all && all[code]) ? code : 'en';
     function dismiss() {
       try { window.localStorage.setItem(SUGGEST_KEY, '1'); } catch (err) { /* in-session dismiss still works */ }
-      lang[1](null);
+      dismissedState[1](true);
     }
-    return e('div', { className: 'lang-suggest', 'data-testid': 'lang-suggest', 'data-lang': code, lang: copy.lang },
-      e('a', { className: 'lang-suggest-link', href: copy.href, hreflang: copy.hreflang }, copy.text),
-      e('button', { type: 'button', className: 'lang-suggest-dismiss', 'aria-label': copy.dismiss, onClick: dismiss }, '×')
+    return e('div', { className: 'lang-suggest', 'data-testid': 'lang-suggest', 'data-lang': code, lang: code === 'pt' ? 'pt-BR' : code },
+      e('button', { type: 'button', className: 'lang-suggest-link', onClick: function () { props.onSelect(code); } }, tr(dict, 'langSuggestText')),
+      e('button', { type: 'button', className: 'lang-suggest-dismiss', 'aria-label': tr(dict, 'langSuggestDismiss'), onClick: dismiss }, '\u00d7')
     );
   }
 
-  window.LangMenu = { Menu: Menu, Suggest: Suggest, PT_ES: PT_ES, SUGGEST_KEY: SUGGEST_KEY, suggestedLanguage: suggestedLanguage };
+  window.LangMenu = { Menu: Menu, Suggest: Suggest, LANGS: LANGS, SUGGEST_KEY: SUGGEST_KEY, suggestedLanguage: suggestedLanguage };
 })();

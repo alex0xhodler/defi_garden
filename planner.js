@@ -844,16 +844,31 @@
   // ---------------------------------------------------------------------------
   // i18n
   // ---------------------------------------------------------------------------
+  // Four in-app languages. Mirrors translations.js's normalizeLanguageCode /
+  // HTML_LANG (top-level there); local copies keep the planner working if
+  // translations.min.js has not loaded yet (spec 082 graceful degradation).
+  var PLANNER_LANGS = ['en', 'ko', 'pt', 'es'];
+  var PLANNER_HTML_LANG = { en: 'en', ko: 'ko', pt: 'pt-BR', es: 'es' };
+  function plannerLangCode(value) {
+    if (typeof normalizeLanguageCode === 'function') return normalizeLanguageCode(value);
+    var base = String(value || '').toLowerCase().split('-')[0];
+    return PLANNER_LANGS.indexOf(base) !== -1 ? base : null;
+  }
+  // Order: saved localStorage -> ?lang -> browser languages; first supported wins.
   function detectLang() {
     try {
-      var saved = localStorage.getItem('defi-garden-lang');
-      if (saved && (saved === 'en' || saved === 'ko')) return saved;
+      var saved = plannerLangCode(localStorage.getItem('defi-garden-lang'));
+      if (saved) return saved;
     } catch (e2) {}
     var params = new URLSearchParams(window.location.search);
-    var p = params.get('lang');
-    if (p === 'en' || p === 'ko') return p;
-    var bl = (navigator.language || 'en').toLowerCase();
-    return bl.indexOf('ko') === 0 ? 'ko' : 'en';
+    var p = plannerLangCode(params.get('lang'));
+    if (p) return p;
+    var list = (navigator.languages && navigator.languages.length) ? navigator.languages : [navigator.language || 'en'];
+    for (var i = 0; i < list.length; i++) {
+      var c = plannerLangCode(list[i]);
+      if (c) return c;
+    }
+    return 'en';
   }
   // Resilient accessor for the `translations` global (loaded via a separate
   // deferred translations.min.js). If that script failed / was interrupted /
@@ -4625,15 +4640,20 @@
       } catch (eFooterI18n) {}
     }, [lang]);
 
-    // Post-mount KO localization for static SEO content on plan.html (Plan Step 3).
-    // Ships EN in raw HTML for crawlers; when language is KO, localize visible
-    // strings from translations.ko.planner. Fails safe if translations global,
-    // dictionary, or key is missing. No-op in EN; never throws.
+    // <html lang> follows the active in-app language (en, ko, pt-BR, es).
     useEffect(function () {
-      if (lang !== 'ko') return;
+      try { document.documentElement.lang = PLANNER_HTML_LANG[lang] || 'en'; } catch (eHtmlLang) {}
+    }, [lang]);
+
+    // Post-mount localization for static SEO content on plan.html (Plan Step 3).
+    // Ships EN in raw HTML for crawlers; for any non-EN language (ko, pt, es),
+    // localize visible strings from translations[lang].planner. Fails safe if
+    // translations global, dictionary, or key is missing. No-op in EN; never throws.
+    useEffect(function () {
+      if (lang === 'en') return;
       try {
         var tr = safeTranslations();
-        var pDict = tr && ((tr[lang] && tr[lang].planner) || (tr.ko && tr.ko.planner));
+        var pDict = tr && tr[lang] && tr[lang].planner;
         if (!pDict) return;
         var map = {
           'seo-calc-title': 'seoCalcTitle',
