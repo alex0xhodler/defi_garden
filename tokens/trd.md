@@ -1,12 +1,12 @@
 # TRD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 7, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
 
-The highest honest TRD yield right now is 142.63% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TRD yield right now is 133.81% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=80f7085e-e693-5635-8146-2986f3371085#src=seo_token) | Base | 142.63% | $166.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=80f7085e-e693-5635-8146-2986f3371085#src=seo_token) | Base | 133.81% | $178.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TRD yield today?
 
-142.63% APY on uniswap-v2 (Base), based on live DefiLlama data.
+133.81% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many TRD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $166.8K in total.
+1 live pool clear this page's $100K TVL floor, $178.5K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank TRD pools. This view covers A
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 7, 2026
+## Last updated October 8, 2026

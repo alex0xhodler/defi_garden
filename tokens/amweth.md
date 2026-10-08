@@ -1,12 +1,12 @@
 # AMWETH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 7, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
 
 The highest honest AMWETH yield right now is 0.01% on curve-dex (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=e646248a-065d-4035-a2b3-2b9d1af767cd#src=seo_token) | Polygon | 0.01% | $2.33M |
+| [curve-dex →](https://www.defi.garden/?pool=e646248a-065d-4035-a2b3-2b9d1af767cd#src=seo_token) | Polygon | 0.01% | $2.18M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AMWETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.33M in total.
+1 live pool clear this page's $100K TVL floor, $2.18M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank AMWETH pools. This view cover
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated October 7, 2026
+## Last updated October 8, 2026

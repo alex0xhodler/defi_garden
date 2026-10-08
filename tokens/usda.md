@@ -1,31 +1,31 @@
 # USDA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 7, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
 
-The highest honest USDA yield right now is 16.58% on minswap-dex (Cardano), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDA yield right now is 16.64% on minswap-dex (Cardano), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=f40020a4-d465-489b-b6ab-d2a0d6cda763#src=seo_token) | Cardano | 16.58% | $785.1K |
-| [liqwid →](https://www.defi.garden/?pool=fa66f3f5-24ba-4929-8549-9b811b68ef48#src=seo_token) | Cardano | 14.14% | $282.1K |
+| [minswap-dex →](https://www.defi.garden/?pool=f40020a4-d465-489b-b6ab-d2a0d6cda763#src=seo_token) | Cardano | 16.64% | $773.2K |
+| [liqwid →](https://www.defi.garden/?pool=fa66f3f5-24ba-4929-8549-9b811b68ef48#src=seo_token) | Cardano | 14.29% | $277.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, USDA's lower-variability candidates are liqwid (Cardano), 14.14% APY, $282.1K TVL, https://www.defi.garden/?pool=fa66f3f5-24ba-4929-8549-9b811b68ef48#src=seo_token; minswap-dex (Cardano), 16.58% APY, $785.1K TVL, https://www.defi.garden/?pool=f40020a4-d465-489b-b6ab-d2a0d6cda763#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDA's lower-variability candidates are liqwid (Cardano), 14.29% APY, $277.1K TVL, https://www.defi.garden/?pool=fa66f3f5-24ba-4929-8549-9b811b68ef48#src=seo_token; minswap-dex (Cardano), 16.64% APY, $773.2K TVL, https://www.defi.garden/?pool=f40020a4-d465-489b-b6ab-d2a0d6cda763#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [liqwid →](https://www.defi.garden/?pool=fa66f3f5-24ba-4929-8549-9b811b68ef48#src=seo_token) | Cardano | 14.14% | $282.1K |
-| 2 | [minswap-dex →](https://www.defi.garden/?pool=f40020a4-d465-489b-b6ab-d2a0d6cda763#src=seo_token) | Cardano | 16.58% | $785.1K |
+| 1 | [liqwid →](https://www.defi.garden/?pool=fa66f3f5-24ba-4929-8549-9b811b68ef48#src=seo_token) | Cardano | 14.29% | $277.1K |
+| 2 | [minswap-dex →](https://www.defi.garden/?pool=f40020a4-d465-489b-b6ab-d2a0d6cda763#src=seo_token) | Cardano | 16.64% | $773.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-USDA shows up in 2 pools here, with rates from 14.14% to 16.58% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+USDA shows up in 2 pools here, with rates from 14.29% to 16.64% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 20.90% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 20.64% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -33,8 +33,8 @@ USDA shows up in 2 pools here, with rates from 14.14% to 16.58% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| minswap-dex | 16.58% | 20.85% | 71.47% incentives |
-| liqwid | 14.14% | 20.94% | Base rate |
+| minswap-dex | 16.64% | 20.64% | 71.27% incentives |
+| liqwid | 14.29% | 20.64% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USDA yield today?
 
-16.58% APY on minswap-dex (Cardano), based on live DefiLlama data.
+16.64% APY on minswap-dex (Cardano), based on live DefiLlama data.
 
 ### How many USDA pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $3.58M in total.
+4 live pools clear this page's $100K TVL floor, $3.56M in total.
 
 ### Are these rates safe?
 
@@ -54,13 +54,13 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USDA pools have the most stable APY history?
 
-Based on APY history only, USDA's lower-variability candidates are liqwid (Cardano), 14.14% APY, $282.1K TVL, https://www.defi.garden/?pool=fa66f3f5-24ba-4929-8549-9b811b68ef48#src=seo_token; minswap-dex (Cardano), 16.58% APY, $785.1K TVL, https://www.defi.garden/?pool=f40020a4-d465-489b-b6ab-d2a0d6cda763#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDA's lower-variability candidates are liqwid (Cardano), 14.29% APY, $277.1K TVL, https://www.defi.garden/?pool=fa66f3f5-24ba-4929-8549-9b811b68ef48#src=seo_token; minswap-dex (Cardano), 16.64% APY, $773.2K TVL, https://www.defi.garden/?pool=f40020a4-d465-489b-b6ab-d2a0d6cda763#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [NIGHT](https://www.defi.garden/tokens/night)
-- [USDM](https://www.defi.garden/tokens/usdm)
 - [ADA](https://www.defi.garden/tokens/ada)
+- [USDM](https://www.defi.garden/tokens/usdm)
 - [USDCX](https://www.defi.garden/tokens/usdcx)
 - [IUSD](https://www.defi.garden/tokens/iusd)
 - [FET](https://www.defi.garden/tokens/fet)
@@ -69,4 +69,4 @@ Based on APY history only, USDA's lower-variability candidates are liqwid (Carda
 
 - [Cardano](https://www.defi.garden/chains/cardano)
 
-## Last updated October 7, 2026
+## Last updated October 8, 2026

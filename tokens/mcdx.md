@@ -1,31 +1,31 @@
 # MCDX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 7, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
 
-The highest honest MCDX yield right now is 126.65% on orca-dex (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MCDX yield right now is 57.27% on orca-dex (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=ac16d8a8-a559-4035-a467-02041145a363#src=seo_token) | Solana | 18.47% | $224.8K |
-| [orca-dex →](https://www.defi.garden/?pool=790b3a95-9ec8-532e-9488-a95fadf52bfe#src=seo_token) | Solana | 126.65% | $106.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=ac16d8a8-a559-4035-a467-02041145a363#src=seo_token) | Solana | 7.99% | $186.6K |
+| [orca-dex →](https://www.defi.garden/?pool=790b3a95-9ec8-532e-9488-a95fadf52bfe#src=seo_token) | Solana | 57.27% | $107.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, MCDX's lower-variability candidates are orca-dex (Solana), 126.65% APY, $106.3K TVL, https://www.defi.garden/?pool=790b3a95-9ec8-532e-9488-a95fadf52bfe#src=seo_token; raydium-amm (Solana), 18.47% APY, $224.8K TVL, https://www.defi.garden/?pool=ac16d8a8-a559-4035-a467-02041145a363#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MCDX's lower-variability candidates are orca-dex (Solana), 57.27% APY, $107.3K TVL, https://www.defi.garden/?pool=790b3a95-9ec8-532e-9488-a95fadf52bfe#src=seo_token; raydium-amm (Solana), 7.99% APY, $186.6K TVL, https://www.defi.garden/?pool=ac16d8a8-a559-4035-a467-02041145a363#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [orca-dex →](https://www.defi.garden/?pool=790b3a95-9ec8-532e-9488-a95fadf52bfe#src=seo_token) | Solana | 126.65% | $106.3K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=ac16d8a8-a559-4035-a467-02041145a363#src=seo_token) | Solana | 18.47% | $224.8K |
+| 1 | [orca-dex →](https://www.defi.garden/?pool=790b3a95-9ec8-532e-9488-a95fadf52bfe#src=seo_token) | Solana | 57.27% | $107.3K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=ac16d8a8-a559-4035-a467-02041145a363#src=seo_token) | Solana | 7.99% | $186.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-MCDX shows up in 2 pools here, with rates from 18.47% to 126.65% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+MCDX shows up in 2 pools here, with rates from 7.99% to 57.27% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 440.33% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 374.89% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 18.47% | 487.56% | Base rate |
-| orca-dex | 126.65% | 393.10% | Base rate |
+| raydium-amm | 7.99% | 394.19% | Base rate |
+| orca-dex | 57.27% | 355.60% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MCDX yield today?
 
-126.65% APY on orca-dex (Solana), based on live DefiLlama data.
+57.27% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many MCDX pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $331.1K in total.
+2 live pools clear this page's $100K TVL floor, $293.9K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which MCDX pools have the most stable APY history?
 
-Based on APY history only, MCDX's lower-variability candidates are orca-dex (Solana), 126.65% APY, $106.3K TVL, https://www.defi.garden/?pool=790b3a95-9ec8-532e-9488-a95fadf52bfe#src=seo_token; raydium-amm (Solana), 18.47% APY, $224.8K TVL, https://www.defi.garden/?pool=ac16d8a8-a559-4035-a467-02041145a363#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MCDX's lower-variability candidates are orca-dex (Solana), 57.27% APY, $107.3K TVL, https://www.defi.garden/?pool=790b3a95-9ec8-532e-9488-a95fadf52bfe#src=seo_token; raydium-amm (Solana), 7.99% APY, $186.6K TVL, https://www.defi.garden/?pool=ac16d8a8-a559-4035-a467-02041145a363#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +69,4 @@ Based on APY history only, MCDX's lower-variability candidates are orca-dex (Sol
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 7, 2026
+## Last updated October 8, 2026

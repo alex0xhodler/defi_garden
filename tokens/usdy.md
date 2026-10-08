@@ -1,41 +1,41 @@
 # USDY DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 7, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
 
-The highest honest USDY yield right now is 0.09% on cetus-clmm (Sui), among 12 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDY yield right now is 0.05% on cetus-clmm (Sui), among 12 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ondo-yield-assets →](https://www.defi.garden/pools/ondo-yield-assets-usdy-ethereum) | Ethereum | 3.63% | $1.21B |
-| [ondo-yield-assets →](https://www.defi.garden/pools/ondo-yield-assets-usdy-stellar) | Stellar | 3.63% | $537.06M |
-| [ondo-yield-assets →](https://www.defi.garden/pools/ondo-yield-assets-usdy-sei) | Sei | 3.63% | $259.41M |
-| [ondo-yield-assets →](https://www.defi.garden/pools/ondo-yield-assets-usdy-solana) | Solana | 3.63% | $179.75M |
-| [ondo-yield-assets →](https://www.defi.garden/?pool=3007b64e-331d-425d-a7ae-33b8691da1a9#src=seo_token) | Sui | 3.63% | $14.35M |
-| [ondo-yield-assets →](https://www.defi.garden/?pool=1767cdec-8dad-4b8c-a61c-fa10ab4d3f92#src=seo_token) | Arbitrum | 3.63% | $3.13M |
-| [orca-dex →](https://www.defi.garden/?pool=22f79b01-3ba8-4a75-a12d-615151633875#src=seo_token) | Solana | 4.20% | $2.92M |
-| [cetus-clmm →](https://www.defi.garden/?pool=3d5a0f12-4a68-4429-a109-df4a3fafddc5#src=seo_token) | Sui | 0.09% | $2.05M |
+| [ondo-yield-assets →](https://www.defi.garden/pools/ondo-yield-assets-usdy-ethereum) | Ethereum | 3.64% | $1.22B |
+| [ondo-yield-assets →](https://www.defi.garden/pools/ondo-yield-assets-usdy-stellar) | Stellar | 3.64% | $537.11M |
+| [ondo-yield-assets →](https://www.defi.garden/pools/ondo-yield-assets-usdy-sei) | Sei | 3.64% | $259.43M |
+| [ondo-yield-assets →](https://www.defi.garden/pools/ondo-yield-assets-usdy-solana) | Solana | 3.64% | $179.77M |
+| [ondo-yield-assets →](https://www.defi.garden/?pool=3007b64e-331d-425d-a7ae-33b8691da1a9#src=seo_token) | Sui | 3.64% | $14.35M |
+| [ondo-yield-assets →](https://www.defi.garden/?pool=1767cdec-8dad-4b8c-a61c-fa10ab4d3f92#src=seo_token) | Arbitrum | 3.64% | $3.13M |
+| [orca-dex →](https://www.defi.garden/?pool=22f79b01-3ba8-4a75-a12d-615151633875#src=seo_token) | Solana | 0.82% | $2.92M |
+| [cetus-clmm →](https://www.defi.garden/?pool=3d5a0f12-4a68-4429-a109-df4a3fafddc5#src=seo_token) | Sui | 0.05% | $2.05M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, USDY's lower-variability candidates are ondo-yield-assets (Arbitrum), 3.63% APY, $3.13M TVL, https://www.defi.garden/?pool=1767cdec-8dad-4b8c-a61c-fa10ab4d3f92#src=seo_token; ondo-yield-assets (Ethereum), 3.63% APY, $1.21B TVL, https://www.defi.garden/pools/ondo-yield-assets-usdy-ethereum; ondo-yield-assets (Sei), 3.63% APY, $259.41M TVL, https://www.defi.garden/pools/ondo-yield-assets-usdy-sei; ondo-yield-assets (Solana), 3.63% APY, $179.75M TVL, https://www.defi.garden/pools/ondo-yield-assets-usdy-solana; ondo-yield-assets (Stellar), 3.63% APY, $537.06M TVL, https://www.defi.garden/pools/ondo-yield-assets-usdy-stellar; ondo-yield-assets (Sui), 3.63% APY, $14.35M TVL, https://www.defi.garden/?pool=3007b64e-331d-425d-a7ae-33b8691da1a9#src=seo_token; orca-dex (Solana), 4.20% APY, $2.92M TVL, https://www.defi.garden/?pool=22f79b01-3ba8-4a75-a12d-615151633875#src=seo_token; cetus-clmm (Sui), 0.09% APY, $2.05M TVL, https://www.defi.garden/?pool=3d5a0f12-4a68-4429-a109-df4a3fafddc5#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDY's lower-variability candidates are ondo-yield-assets (Arbitrum), 3.64% APY, $3.13M TVL, https://www.defi.garden/?pool=1767cdec-8dad-4b8c-a61c-fa10ab4d3f92#src=seo_token; ondo-yield-assets (Ethereum), 3.64% APY, $1.22B TVL, https://www.defi.garden/pools/ondo-yield-assets-usdy-ethereum; ondo-yield-assets (Sei), 3.64% APY, $259.43M TVL, https://www.defi.garden/pools/ondo-yield-assets-usdy-sei; ondo-yield-assets (Solana), 3.64% APY, $179.77M TVL, https://www.defi.garden/pools/ondo-yield-assets-usdy-solana; ondo-yield-assets (Stellar), 3.64% APY, $537.11M TVL, https://www.defi.garden/pools/ondo-yield-assets-usdy-stellar; ondo-yield-assets (Sui), 3.64% APY, $14.35M TVL, https://www.defi.garden/?pool=3007b64e-331d-425d-a7ae-33b8691da1a9#src=seo_token; orca-dex (Solana), 0.82% APY, $2.92M TVL, https://www.defi.garden/?pool=22f79b01-3ba8-4a75-a12d-615151633875#src=seo_token; cetus-clmm (Sui), 0.05% APY, $2.05M TVL, https://www.defi.garden/?pool=3d5a0f12-4a68-4429-a109-df4a3fafddc5#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [ondo-yield-assets →](https://www.defi.garden/?pool=1767cdec-8dad-4b8c-a61c-fa10ab4d3f92#src=seo_token) | Arbitrum | 3.63% | $3.13M |
-| 2 | [ondo-yield-assets →](https://www.defi.garden/pools/ondo-yield-assets-usdy-ethereum) | Ethereum | 3.63% | $1.21B |
-| 3 | [ondo-yield-assets →](https://www.defi.garden/pools/ondo-yield-assets-usdy-sei) | Sei | 3.63% | $259.41M |
-| 4 | [ondo-yield-assets →](https://www.defi.garden/pools/ondo-yield-assets-usdy-solana) | Solana | 3.63% | $179.75M |
-| 5 | [ondo-yield-assets →](https://www.defi.garden/pools/ondo-yield-assets-usdy-stellar) | Stellar | 3.63% | $537.06M |
-| 6 | [ondo-yield-assets →](https://www.defi.garden/?pool=3007b64e-331d-425d-a7ae-33b8691da1a9#src=seo_token) | Sui | 3.63% | $14.35M |
-| 7 | [orca-dex →](https://www.defi.garden/?pool=22f79b01-3ba8-4a75-a12d-615151633875#src=seo_token) | Solana | 4.20% | $2.92M |
-| 8 | [cetus-clmm →](https://www.defi.garden/?pool=3d5a0f12-4a68-4429-a109-df4a3fafddc5#src=seo_token) | Sui | 0.09% | $2.05M |
+| 1 | [ondo-yield-assets →](https://www.defi.garden/?pool=1767cdec-8dad-4b8c-a61c-fa10ab4d3f92#src=seo_token) | Arbitrum | 3.64% | $3.13M |
+| 2 | [ondo-yield-assets →](https://www.defi.garden/pools/ondo-yield-assets-usdy-ethereum) | Ethereum | 3.64% | $1.22B |
+| 3 | [ondo-yield-assets →](https://www.defi.garden/pools/ondo-yield-assets-usdy-sei) | Sei | 3.64% | $259.43M |
+| 4 | [ondo-yield-assets →](https://www.defi.garden/pools/ondo-yield-assets-usdy-solana) | Solana | 3.64% | $179.77M |
+| 5 | [ondo-yield-assets →](https://www.defi.garden/pools/ondo-yield-assets-usdy-stellar) | Stellar | 3.64% | $537.11M |
+| 6 | [ondo-yield-assets →](https://www.defi.garden/?pool=3007b64e-331d-425d-a7ae-33b8691da1a9#src=seo_token) | Sui | 3.64% | $14.35M |
+| 7 | [orca-dex →](https://www.defi.garden/?pool=22f79b01-3ba8-4a75-a12d-615151633875#src=seo_token) | Solana | 0.82% | $2.92M |
+| 8 | [cetus-clmm →](https://www.defi.garden/?pool=3d5a0f12-4a68-4429-a109-df4a3fafddc5#src=seo_token) | Sui | 0.05% | $2.05M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-USDY shows up in 8 pools here, with rates from 0.09% to 4.20% APY across 6 chains — the rate depends on which protocol and chain you pick, not just the token.
+USDY shows up in 8 pools here, with rates from 0.05% to 3.64% APY across 6 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 3.59% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -43,14 +43,14 @@ USDY shows up in 8 pools here, with rates from 0.09% to 4.20% APY across 6 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| ondo-yield-assets | 3.63% | 3.59% | Base rate |
-| ondo-yield-assets | 3.63% | 3.59% | Base rate |
-| ondo-yield-assets | 3.63% | 3.59% | Base rate |
-| ondo-yield-assets | 3.63% | 3.59% | Base rate |
-| ondo-yield-assets | 3.63% | 3.59% | Base rate |
-| ondo-yield-assets | 3.63% | 3.59% | Base rate |
-| orca-dex | 4.20% | 1.99% | Base rate |
-| cetus-clmm | 0.09% | 0.13% | 55.82% incentives |
+| ondo-yield-assets | 3.64% | 3.59% | Base rate |
+| ondo-yield-assets | 3.64% | 3.59% | Base rate |
+| ondo-yield-assets | 3.64% | 3.59% | Base rate |
+| ondo-yield-assets | 3.64% | 3.59% | Base rate |
+| ondo-yield-assets | 3.64% | 3.59% | Base rate |
+| ondo-yield-assets | 3.64% | 3.59% | Base rate |
+| orca-dex | 0.82% | 2.04% | Base rate |
+| cetus-clmm | 0.05% | 0.11% | 85.58% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -58,11 +58,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USDY yield today?
 
-0.09% APY on cetus-clmm (Sui), based on live DefiLlama data.
+0.05% APY on cetus-clmm (Sui), based on live DefiLlama data.
 
 ### How many USDY pools clear the TVL floor?
 
-12 live pools clear this page's $100K TVL floor, $2.21B in total.
+12 live pools clear this page's $100K TVL floor, $2.22B in total.
 
 ### Are these rates safe?
 
@@ -70,7 +70,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USDY pools have the most stable APY history?
 
-Based on APY history only, USDY's lower-variability candidates are ondo-yield-assets (Arbitrum), 3.63% APY, $3.13M TVL, https://www.defi.garden/?pool=1767cdec-8dad-4b8c-a61c-fa10ab4d3f92#src=seo_token; ondo-yield-assets (Ethereum), 3.63% APY, $1.21B TVL, https://www.defi.garden/pools/ondo-yield-assets-usdy-ethereum; ondo-yield-assets (Sei), 3.63% APY, $259.41M TVL, https://www.defi.garden/pools/ondo-yield-assets-usdy-sei; ondo-yield-assets (Solana), 3.63% APY, $179.75M TVL, https://www.defi.garden/pools/ondo-yield-assets-usdy-solana; ondo-yield-assets (Stellar), 3.63% APY, $537.06M TVL, https://www.defi.garden/pools/ondo-yield-assets-usdy-stellar; ondo-yield-assets (Sui), 3.63% APY, $14.35M TVL, https://www.defi.garden/?pool=3007b64e-331d-425d-a7ae-33b8691da1a9#src=seo_token; orca-dex (Solana), 4.20% APY, $2.92M TVL, https://www.defi.garden/?pool=22f79b01-3ba8-4a75-a12d-615151633875#src=seo_token; cetus-clmm (Sui), 0.09% APY, $2.05M TVL, https://www.defi.garden/?pool=3d5a0f12-4a68-4429-a109-df4a3fafddc5#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDY's lower-variability candidates are ondo-yield-assets (Arbitrum), 3.64% APY, $3.13M TVL, https://www.defi.garden/?pool=1767cdec-8dad-4b8c-a61c-fa10ab4d3f92#src=seo_token; ondo-yield-assets (Ethereum), 3.64% APY, $1.22B TVL, https://www.defi.garden/pools/ondo-yield-assets-usdy-ethereum; ondo-yield-assets (Sei), 3.64% APY, $259.43M TVL, https://www.defi.garden/pools/ondo-yield-assets-usdy-sei; ondo-yield-assets (Solana), 3.64% APY, $179.77M TVL, https://www.defi.garden/pools/ondo-yield-assets-usdy-solana; ondo-yield-assets (Stellar), 3.64% APY, $537.11M TVL, https://www.defi.garden/pools/ondo-yield-assets-usdy-stellar; ondo-yield-assets (Sui), 3.64% APY, $14.35M TVL, https://www.defi.garden/?pool=3007b64e-331d-425d-a7ae-33b8691da1a9#src=seo_token; orca-dex (Solana), 0.82% APY, $2.92M TVL, https://www.defi.garden/?pool=22f79b01-3ba8-4a75-a12d-615151633875#src=seo_token; cetus-clmm (Sui), 0.05% APY, $2.05M TVL, https://www.defi.garden/?pool=3d5a0f12-4a68-4429-a109-df4a3fafddc5#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -90,4 +90,4 @@ Based on APY history only, USDY's lower-variability candidates are ondo-yield-as
 - [Sui](https://www.defi.garden/chains/sui)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated October 7, 2026
+## Last updated October 8, 2026

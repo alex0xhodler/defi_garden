@@ -1,12 +1,12 @@
 # BA3PUMP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 7, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
 
-The highest honest BA3PUMP yield right now is 12.06% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BA3PUMP yield right now is 30.19% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=df5837a4-b342-587a-aba8-20156929734e#src=seo_token) | Base | 12.06% | $138.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=df5837a4-b342-587a-aba8-20156929734e#src=seo_token) | Base | 30.19% | $131.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BA3PUMP yield today?
 
-12.06% APY on uniswap-v3 (Base), based on live DefiLlama data.
+30.19% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many BA3PUMP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $138.1K in total.
+1 live pool clear this page's $100K TVL floor, $131.3K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank BA3PUMP pools. This view cove
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 7, 2026
+## Last updated October 8, 2026

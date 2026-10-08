@@ -1,31 +1,31 @@
 # SYRUP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 7, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
 
-The highest honest SYRUP yield right now is 31.97% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SYRUP yield right now is 26.02% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=d8490bb4-a01e-4f21-aaaf-15e6e953951d#src=seo_token) | Ethereum | 11.66% | $2.97M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7f1c4126-3998-4334-9ce3-c640e869d682#src=seo_token) | Ethereum | 31.97% | $1.2M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=d8490bb4-a01e-4f21-aaaf-15e6e953951d#src=seo_token) | Ethereum | 11.67% | $2.9M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7f1c4126-3998-4334-9ce3-c640e869d682#src=seo_token) | Ethereum | 26.02% | $1.16M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SYRUP's lower-variability candidates are uniswap-v4 (Ethereum), 11.66% APY, $2.97M TVL, https://www.defi.garden/?pool=d8490bb4-a01e-4f21-aaaf-15e6e953951d#src=seo_token; uniswap-v3 (Ethereum), 31.97% APY, $1.2M TVL, https://www.defi.garden/?pool=7f1c4126-3998-4334-9ce3-c640e869d682#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SYRUP's lower-variability candidates are uniswap-v4 (Ethereum), 11.67% APY, $2.9M TVL, https://www.defi.garden/?pool=d8490bb4-a01e-4f21-aaaf-15e6e953951d#src=seo_token; uniswap-v3 (Ethereum), 26.02% APY, $1.16M TVL, https://www.defi.garden/?pool=7f1c4126-3998-4334-9ce3-c640e869d682#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=d8490bb4-a01e-4f21-aaaf-15e6e953951d#src=seo_token) | Ethereum | 11.66% | $2.97M |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=7f1c4126-3998-4334-9ce3-c640e869d682#src=seo_token) | Ethereum | 31.97% | $1.2M |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=d8490bb4-a01e-4f21-aaaf-15e6e953951d#src=seo_token) | Ethereum | 11.67% | $2.9M |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=7f1c4126-3998-4334-9ce3-c640e869d682#src=seo_token) | Ethereum | 26.02% | $1.16M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SYRUP shows up in 2 pools here, with rates from 11.66% to 31.97% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SYRUP shows up in 2 pools here, with rates from 11.67% to 26.02% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 49.28% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 47.98% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 11.66% | 37.99% | Base rate |
-| uniswap-v3 | 31.97% | 60.57% | Base rate |
+| uniswap-v4 | 11.67% | 36.98% | Base rate |
+| uniswap-v3 | 26.02% | 58.97% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SYRUP yield today?
 
-31.97% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+26.02% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many SYRUP pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $4.77M in total.
+4 live pools clear this page's $100K TVL floor, $4.68M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SYRUP pools have the most stable APY history?
 
-Based on APY history only, SYRUP's lower-variability candidates are uniswap-v4 (Ethereum), 11.66% APY, $2.97M TVL, https://www.defi.garden/?pool=d8490bb4-a01e-4f21-aaaf-15e6e953951d#src=seo_token; uniswap-v3 (Ethereum), 31.97% APY, $1.2M TVL, https://www.defi.garden/?pool=7f1c4126-3998-4334-9ce3-c640e869d682#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SYRUP's lower-variability candidates are uniswap-v4 (Ethereum), 11.67% APY, $2.9M TVL, https://www.defi.garden/?pool=d8490bb4-a01e-4f21-aaaf-15e6e953951d#src=seo_token; uniswap-v3 (Ethereum), 26.02% APY, $1.16M TVL, https://www.defi.garden/?pool=7f1c4126-3998-4334-9ce3-c640e869d682#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +69,4 @@ Based on APY history only, SYRUP's lower-variability candidates are uniswap-v4 (
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 7, 2026
+## Last updated October 8, 2026

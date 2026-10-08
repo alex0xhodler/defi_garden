@@ -1,12 +1,12 @@
 # EGLD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 7, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
 
-The highest honest EGLD yield right now is 1.21% on hatom-lending (MultiversX), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EGLD yield right now is 1.29% on hatom-lending (MultiversX), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hatom-lending →](https://www.defi.garden/?pool=5ce5d5ed-2151-4715-8585-a06a4e2e09cb#src=seo_token) | MultiversX | 1.21% | $436.3K |
+| [hatom-lending →](https://www.defi.garden/?pool=5ce5d5ed-2151-4715-8585-a06a4e2e09cb#src=seo_token) | MultiversX | 1.29% | $409.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EGLD yield today?
 
-1.21% APY on hatom-lending (MultiversX), based on live DefiLlama data.
+1.29% APY on hatom-lending (MultiversX), based on live DefiLlama data.
 
 ### How many EGLD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $436.3K in total.
+1 live pool clear this page's $100K TVL floor, $409.7K in total.
 
 ### Are these rates safe?
 
@@ -35,15 +35,15 @@ There is not enough qualifying APY history to rank EGLD pools. This view covers 
 
 ## Related tokens
 
-- [WTAO](https://www.defi.garden/tokens/wtao)
 - [WEGLD](https://www.defi.garden/tokens/wegld)
 - [HTM](https://www.defi.garden/tokens/htm)
 - [SWTAO](https://www.defi.garden/tokens/swtao)
 - [MEX](https://www.defi.garden/tokens/mex)
 - [USH](https://www.defi.garden/tokens/ush)
+- [FOXSY](https://www.defi.garden/tokens/foxsy)
 
 ## Available on
 
 - [MultiversX](https://www.defi.garden/chains/multiversx)
 
-## Last updated October 7, 2026
+## Last updated October 8, 2026

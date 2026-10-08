@@ -1,12 +1,12 @@
 # JESUS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 7, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
 
-The highest honest JESUS yield right now is 0.70% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JESUS yield right now is 0.39% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=b8d6ceaf-7230-4e81-85e5-b1899adf6a6e#src=seo_token) | Ethereum | 0.70% | $847K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=b8d6ceaf-7230-4e81-85e5-b1899adf6a6e#src=seo_token) | Ethereum | 0.39% | $836.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest JESUS yield today?
 
-0.70% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.39% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many JESUS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $847K in total.
+1 live pool clear this page's $100K TVL floor, $836.8K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank JESUS pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 7, 2026
+## Last updated October 8, 2026

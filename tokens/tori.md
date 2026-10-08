@@ -1,12 +1,12 @@
 # TORI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 7, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
 
-The highest honest TORI yield right now is 16.36% on morpho-blue (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TORI yield right now is 10.69% on morpho-blue (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=01af270b-f10c-57b4-8ae2-34c9c6f085ad#src=seo_token) | Monad | 16.36% | $5.27M |
+| [morpho-blue →](https://www.defi.garden/?pool=01af270b-f10c-57b4-8ae2-34c9c6f085ad#src=seo_token) | Monad | 10.69% | $5.95M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TORI yield today?
 
-16.36% APY on morpho-blue (Monad), based on live DefiLlama data.
+10.69% APY on morpho-blue (Monad), based on live DefiLlama data.
 
 ### How many TORI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $5.27M in total.
+1 live pool clear this page's $100K TVL floor, $5.95M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank TORI pools. This view covers 
 
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated October 7, 2026
+## Last updated October 8, 2026

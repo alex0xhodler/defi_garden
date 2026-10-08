@@ -1,13 +1,13 @@
 # NGI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 7, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
 
-The highest honest NGI yield right now is 27.59% on pendle-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NGI yield right now is 17.86% on pendle-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle-v2 →](https://www.defi.garden/?pool=9b043479-0b54-5a44-9a3a-c676606873d6#src=seo_token) | Ethereum | 16.59% | $248.7K |
-| [pendle-v2 →](https://www.defi.garden/?pool=747a36df-2470-5763-93a3-de681b109c9b#src=seo_token) | Ethereum | 27.59% | $248.7K |
+| [pendle-v2 →](https://www.defi.garden/?pool=9b043479-0b54-5a44-9a3a-c676606873d6#src=seo_token) | Ethereum | 17.86% | $248.5K |
+| [pendle-v2 →](https://www.defi.garden/?pool=747a36df-2470-5763-93a3-de681b109c9b#src=seo_token) | Ethereum | 10.70% | $248.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-NGI shows up in 2 pools here, with rates from 16.59% to 27.59% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+NGI shows up in 2 pools here, with rates from 10.70% to 17.86% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 22.97% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 22.59% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -28,8 +28,8 @@ NGI shows up in 2 pools here, with rates from 16.59% to 27.59% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle-v2 | 16.59% | 16.72% | Base rate |
-| pendle-v2 | 27.59% | 29.21% | 68.80% incentives |
+| pendle-v2 | 17.86% | 16.75% | Base rate |
+| pendle-v2 | 10.70% | 28.43% | 3.83% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest NGI yield today?
 
-27.59% APY on pendle-v2 (Ethereum), based on live DefiLlama data.
+17.86% APY on pendle-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many NGI pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $497.3K in total.
+2 live pools clear this page's $100K TVL floor, $497K in total.
 
 ### Are these rates safe?
 
@@ -64,4 +64,4 @@ There is not enough qualifying APY history to rank NGI pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 7, 2026
+## Last updated October 8, 2026

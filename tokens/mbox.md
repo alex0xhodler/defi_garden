@@ -1,12 +1,12 @@
 # MBOX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 7, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
 
-The highest honest MBOX yield right now is 0.37% on pancakeswap-amm (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MBOX yield right now is 0.97% on pancakeswap-amm (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pancakeswap-amm →](https://www.defi.garden/?pool=7c9047b4-7e96-44ac-b8e0-afd60b6812d6#src=seo_token) | BSC | 0.37% | $169.4K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=7c9047b4-7e96-44ac-b8e0-afd60b6812d6#src=seo_token) | BSC | 0.97% | $169.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MBOX yield today?
 
-0.37% APY on pancakeswap-amm (BSC), based on live DefiLlama data.
+0.97% APY on pancakeswap-amm (BSC), based on live DefiLlama data.
 
 ### How many MBOX pools clear the TVL floor?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank MBOX pools. This view covers 
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated October 7, 2026
+## Last updated October 8, 2026

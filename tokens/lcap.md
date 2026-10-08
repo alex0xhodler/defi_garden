@@ -1,55 +1,55 @@
 # LCAP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 7, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
 
-The highest honest LCAP yield right now is 44.23% on stake-dao-yield (Base), among 10 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LCAP yield right now is 47.15% on curve-dex (Base), among 10 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=0116270f-73ee-485c-ac5e-496f063c15c4#src=seo_token) | Base | 16.54% | $586.3K |
-| [curve-dex →](https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3#src=seo_token) | Base | 42.08% | $328.5K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=5d98651c-3954-4061-9f5c-58783e030604#src=seo_token) | Base | 37.02% | $244.4K |
-| [stake-dao-yield →](https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b#src=seo_token) | Base | 44.23% | $232.3K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=d7ee4c3f-8154-4201-bfe9-42f981c8b7b8#src=seo_token) | Base | 7.97% | $201.6K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=12a13c04-5762-4a65-9893-1309e3a03bed#src=seo_token) | Base | 19.26% | $177.3K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=60648541-35cb-4900-b464-016b0ca0abd2#src=seo_token) | Base | 44.05% | $175.3K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=0116270f-73ee-485c-ac5e-496f063c15c4#src=seo_token) | Base | 14.70% | $569.6K |
+| [curve-dex →](https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3#src=seo_token) | Base | 47.15% | $324.5K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=5d98651c-3954-4061-9f5c-58783e030604#src=seo_token) | Base | 32.70% | $241.5K |
+| [stake-dao-yield →](https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b#src=seo_token) | Base | 0.27% | $230.8K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=d7ee4c3f-8154-4201-bfe9-42f981c8b7b8#src=seo_token) | Base | 7.04% | $199.4K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=12a13c04-5762-4a65-9893-1309e3a03bed#src=seo_token) | Base | 17.16% | $173.7K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=60648541-35cb-4900-b464-016b0ca0abd2#src=seo_token) | Base | 31.73% | $173.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, LCAP's lower-variability candidates are aerodrome-v1 (Base), 19.26% APY, $177.3K TVL, https://www.defi.garden/?pool=12a13c04-5762-4a65-9893-1309e3a03bed#src=seo_token; aerodrome-v1 (Base), 7.97% APY, $201.6K TVL, https://www.defi.garden/?pool=d7ee4c3f-8154-4201-bfe9-42f981c8b7b8#src=seo_token; aerodrome-slipstream (Base), 16.54% APY, $586.3K TVL, https://www.defi.garden/?pool=0116270f-73ee-485c-ac5e-496f063c15c4#src=seo_token; stake-dao-yield (Base), 44.23% APY, $232.3K TVL, https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b#src=seo_token; aerodrome-v1 (Base), 37.02% APY, $244.4K TVL, https://www.defi.garden/?pool=5d98651c-3954-4061-9f5c-58783e030604#src=seo_token; curve-dex (Base), 42.08% APY, $328.5K TVL, https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3#src=seo_token; aerodrome-slipstream (Base), 44.05% APY, $175.3K TVL, https://www.defi.garden/?pool=60648541-35cb-4900-b464-016b0ca0abd2#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LCAP's lower-variability candidates are aerodrome-v1 (Base), 17.16% APY, $173.7K TVL, https://www.defi.garden/?pool=12a13c04-5762-4a65-9893-1309e3a03bed#src=seo_token; aerodrome-v1 (Base), 7.04% APY, $199.4K TVL, https://www.defi.garden/?pool=d7ee4c3f-8154-4201-bfe9-42f981c8b7b8#src=seo_token; aerodrome-slipstream (Base), 14.70% APY, $569.6K TVL, https://www.defi.garden/?pool=0116270f-73ee-485c-ac5e-496f063c15c4#src=seo_token; stake-dao-yield (Base), 0.27% APY, $230.8K TVL, https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b#src=seo_token; aerodrome-v1 (Base), 32.70% APY, $241.5K TVL, https://www.defi.garden/?pool=5d98651c-3954-4061-9f5c-58783e030604#src=seo_token; curve-dex (Base), 47.15% APY, $324.5K TVL, https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3#src=seo_token; aerodrome-slipstream (Base), 31.73% APY, $173.2K TVL, https://www.defi.garden/?pool=60648541-35cb-4900-b464-016b0ca0abd2#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=12a13c04-5762-4a65-9893-1309e3a03bed#src=seo_token) | Base | 19.26% | $177.3K |
-| 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=d7ee4c3f-8154-4201-bfe9-42f981c8b7b8#src=seo_token) | Base | 7.97% | $201.6K |
-| 3 | [aerodrome-slipstream →](https://www.defi.garden/?pool=0116270f-73ee-485c-ac5e-496f063c15c4#src=seo_token) | Base | 16.54% | $586.3K |
-| 4 | [stake-dao-yield →](https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b#src=seo_token) | Base | 44.23% | $232.3K |
-| 5 | [aerodrome-v1 →](https://www.defi.garden/?pool=5d98651c-3954-4061-9f5c-58783e030604#src=seo_token) | Base | 37.02% | $244.4K |
-| 6 | [curve-dex →](https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3#src=seo_token) | Base | 42.08% | $328.5K |
-| 7 | [aerodrome-slipstream →](https://www.defi.garden/?pool=60648541-35cb-4900-b464-016b0ca0abd2#src=seo_token) | Base | 44.05% | $175.3K |
+| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=12a13c04-5762-4a65-9893-1309e3a03bed#src=seo_token) | Base | 17.16% | $173.7K |
+| 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=d7ee4c3f-8154-4201-bfe9-42f981c8b7b8#src=seo_token) | Base | 7.04% | $199.4K |
+| 3 | [aerodrome-slipstream →](https://www.defi.garden/?pool=0116270f-73ee-485c-ac5e-496f063c15c4#src=seo_token) | Base | 14.70% | $569.6K |
+| 4 | [stake-dao-yield →](https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b#src=seo_token) | Base | 0.27% | $230.8K |
+| 5 | [aerodrome-v1 →](https://www.defi.garden/?pool=5d98651c-3954-4061-9f5c-58783e030604#src=seo_token) | Base | 32.70% | $241.5K |
+| 6 | [curve-dex →](https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3#src=seo_token) | Base | 47.15% | $324.5K |
+| 7 | [aerodrome-slipstream →](https://www.defi.garden/?pool=60648541-35cb-4900-b464-016b0ca0abd2#src=seo_token) | Base | 31.73% | $173.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-LCAP shows up in 7 pools here, with rates from 7.97% to 44.23% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+LCAP shows up in 7 pools here, with rates from 0.27% to 47.15% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-7 of these 7 pools have a trustworthy 30-day average on file, with a median of 39.61% — a useful check against today's number for whether the rate is steady or just having a good day.
+7 of these 7 pools have a trustworthy 30-day average on file, with a median of 39.46% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-7 of 7 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+6 of 7 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 7 of 7 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 16.54% | 17.89% | 28.11% incentives |
-| curve-dex | 42.08% | 39.61% | 99.26% incentives |
-| aerodrome-v1 | 37.02% | 39.73% | 100.00% incentives |
-| stake-dao-yield | 44.23% | 41.63% | 99.53% incentives |
-| aerodrome-v1 | 7.97% | 6.80% | 100.00% incentives |
-| aerodrome-v1 | 19.26% | 16.51% | 100.00% incentives |
-| aerodrome-slipstream | 44.05% | 44.80% | 63.32% incentives |
+| aerodrome-slipstream | 14.70% | 17.89% | 39.45% incentives |
+| curve-dex | 47.15% | 39.46% | 98.69% incentives |
+| aerodrome-v1 | 32.70% | 39.67% | 100.00% incentives |
+| stake-dao-yield | 0.27% | 41.38% | Base rate |
+| aerodrome-v1 | 7.04% | 6.88% | 100.00% incentives |
+| aerodrome-v1 | 17.16% | 16.69% | 100.00% incentives |
+| aerodrome-slipstream | 31.73% | 44.70% | 64.31% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -57,11 +57,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest LCAP yield today?
 
-44.23% APY on stake-dao-yield (Base), based on live DefiLlama data.
+47.15% APY on curve-dex (Base), based on live DefiLlama data.
 
 ### How many LCAP pools clear the TVL floor?
 
-10 live pools clear this page's $100K TVL floor, $2.44M in total.
+10 live pools clear this page's $100K TVL floor, $2.4M in total.
 
 ### Are these rates safe?
 
@@ -69,7 +69,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which LCAP pools have the most stable APY history?
 
-Based on APY history only, LCAP's lower-variability candidates are aerodrome-v1 (Base), 19.26% APY, $177.3K TVL, https://www.defi.garden/?pool=12a13c04-5762-4a65-9893-1309e3a03bed#src=seo_token; aerodrome-v1 (Base), 7.97% APY, $201.6K TVL, https://www.defi.garden/?pool=d7ee4c3f-8154-4201-bfe9-42f981c8b7b8#src=seo_token; aerodrome-slipstream (Base), 16.54% APY, $586.3K TVL, https://www.defi.garden/?pool=0116270f-73ee-485c-ac5e-496f063c15c4#src=seo_token; stake-dao-yield (Base), 44.23% APY, $232.3K TVL, https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b#src=seo_token; aerodrome-v1 (Base), 37.02% APY, $244.4K TVL, https://www.defi.garden/?pool=5d98651c-3954-4061-9f5c-58783e030604#src=seo_token; curve-dex (Base), 42.08% APY, $328.5K TVL, https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3#src=seo_token; aerodrome-slipstream (Base), 44.05% APY, $175.3K TVL, https://www.defi.garden/?pool=60648541-35cb-4900-b464-016b0ca0abd2#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LCAP's lower-variability candidates are aerodrome-v1 (Base), 17.16% APY, $173.7K TVL, https://www.defi.garden/?pool=12a13c04-5762-4a65-9893-1309e3a03bed#src=seo_token; aerodrome-v1 (Base), 7.04% APY, $199.4K TVL, https://www.defi.garden/?pool=d7ee4c3f-8154-4201-bfe9-42f981c8b7b8#src=seo_token; aerodrome-slipstream (Base), 14.70% APY, $569.6K TVL, https://www.defi.garden/?pool=0116270f-73ee-485c-ac5e-496f063c15c4#src=seo_token; stake-dao-yield (Base), 0.27% APY, $230.8K TVL, https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b#src=seo_token; aerodrome-v1 (Base), 32.70% APY, $241.5K TVL, https://www.defi.garden/?pool=5d98651c-3954-4061-9f5c-58783e030604#src=seo_token; curve-dex (Base), 47.15% APY, $324.5K TVL, https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3#src=seo_token; aerodrome-slipstream (Base), 31.73% APY, $173.2K TVL, https://www.defi.garden/?pool=60648541-35cb-4900-b464-016b0ca0abd2#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -84,4 +84,4 @@ Based on APY history only, LCAP's lower-variability candidates are aerodrome-v1 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 7, 2026
+## Last updated October 8, 2026

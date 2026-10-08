@@ -1,12 +1,12 @@
 # TENSOR DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 7, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
 
-The highest honest TENSOR yield right now is 2.56% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TENSOR yield right now is 0.30% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=cd47c759-fab0-4e12-80d5-477667a672bb#src=seo_token) | Ethereum | 2.56% | $1.3M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=cd47c759-fab0-4e12-80d5-477667a672bb#src=seo_token) | Ethereum | 0.30% | $1.3M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TENSOR yield today?
 
-2.56% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.30% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many TENSOR pools clear the TVL floor?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank TENSOR pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 7, 2026
+## Last updated October 8, 2026

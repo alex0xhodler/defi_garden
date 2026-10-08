@@ -1,12 +1,11 @@
 # XOPAI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 7, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
 
-The highest honest XOPAI yield right now is 673.76% on uniswap-v4 (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XOPAI yield right now is 31.32% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=307de3de-05e6-567a-a89c-2cfdc56013fb#src=seo_token) | BSC | 673.76% | $109.2K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=ad0936c4-27f1-5454-b97f-ef63064aee9b#src=seo_token) | BSC | 31.32% | $103.2K |
 
 <!-- rate-stability:insufficient -->
@@ -16,32 +15,15 @@ There is not enough qualifying APY history to rank XOPAI pools. This view covers
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
-## How this rate has behaved
-
-XOPAI shows up in 2 pools here, with rates from 31.32% to 673.76% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
-
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 668.29% — a useful check against today's number for whether the rate is steady or just having a good day.
-
-All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
-
-2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
-
-| Protocol | APY | 30d Mean APY | Yield mix |
-|---|---|---|---|
-| uniswap-v4 | 673.76% | 565.89% | Base rate |
-| uniswap-v4 | 31.32% | 770.69% | Base rate |
-
-The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
-
 ## Frequently asked questions
 
 ### What's the highest XOPAI yield today?
 
-673.76% APY on uniswap-v4 (BSC), based on live DefiLlama data.
+31.32% APY on uniswap-v4 (BSC), based on live DefiLlama data.
 
 ### How many XOPAI pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $212.3K in total.
+1 live pool clear this page's $100K TVL floor, $103.2K in total.
 
 ### Are these rates safe?
 
@@ -64,4 +46,4 @@ There is not enough qualifying APY history to rank XOPAI pools. This view covers
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated October 7, 2026
+## Last updated October 8, 2026

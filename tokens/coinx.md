@@ -1,31 +1,31 @@
 # COINX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 7, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
 
-The highest honest COINX yield right now is 52.42% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest COINX yield right now is 37.62% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=b561548e-daa8-4945-9d24-e04aafcf5fda#src=seo_token) | Solana | 52.42% | $1.51M |
-| [raydium-amm →](https://www.defi.garden/?pool=1aa2981e-1565-4471-879c-bcd0d2e8236a#src=seo_token) | Solana | 23.67% | $123.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=b561548e-daa8-4945-9d24-e04aafcf5fda#src=seo_token) | Solana | 37.62% | $1.49M |
+| [raydium-amm →](https://www.defi.garden/?pool=1aa2981e-1565-4471-879c-bcd0d2e8236a#src=seo_token) | Solana | 11.22% | $120.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, COINX's lower-variability candidates are raydium-amm (Solana), 52.42% APY, $1.51M TVL, https://www.defi.garden/?pool=b561548e-daa8-4945-9d24-e04aafcf5fda#src=seo_token; raydium-amm (Solana), 23.67% APY, $123.9K TVL, https://www.defi.garden/?pool=1aa2981e-1565-4471-879c-bcd0d2e8236a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, COINX's lower-variability candidates are raydium-amm (Solana), 37.62% APY, $1.49M TVL, https://www.defi.garden/?pool=b561548e-daa8-4945-9d24-e04aafcf5fda#src=seo_token; raydium-amm (Solana), 11.22% APY, $120.7K TVL, https://www.defi.garden/?pool=1aa2981e-1565-4471-879c-bcd0d2e8236a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=b561548e-daa8-4945-9d24-e04aafcf5fda#src=seo_token) | Solana | 52.42% | $1.51M |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=1aa2981e-1565-4471-879c-bcd0d2e8236a#src=seo_token) | Solana | 23.67% | $123.9K |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=b561548e-daa8-4945-9d24-e04aafcf5fda#src=seo_token) | Solana | 37.62% | $1.49M |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=1aa2981e-1565-4471-879c-bcd0d2e8236a#src=seo_token) | Solana | 11.22% | $120.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-COINX shows up in 2 pools here, with rates from 23.67% to 52.42% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+COINX shows up in 2 pools here, with rates from 11.22% to 37.62% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 99.74% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 98.70% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 52.42% | 87.77% | Base rate |
-| raydium-amm | 23.67% | 111.70% | Base rate |
+| raydium-amm | 37.62% | 85.09% | Base rate |
+| raydium-amm | 11.22% | 112.31% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest COINX yield today?
 
-52.42% APY on raydium-amm (Solana), based on live DefiLlama data.
+37.62% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many COINX pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.63M in total.
+2 live pools clear this page's $100K TVL floor, $1.61M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which COINX pools have the most stable APY history?
 
-Based on APY history only, COINX's lower-variability candidates are raydium-amm (Solana), 52.42% APY, $1.51M TVL, https://www.defi.garden/?pool=b561548e-daa8-4945-9d24-e04aafcf5fda#src=seo_token; raydium-amm (Solana), 23.67% APY, $123.9K TVL, https://www.defi.garden/?pool=1aa2981e-1565-4471-879c-bcd0d2e8236a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, COINX's lower-variability candidates are raydium-amm (Solana), 37.62% APY, $1.49M TVL, https://www.defi.garden/?pool=b561548e-daa8-4945-9d24-e04aafcf5fda#src=seo_token; raydium-amm (Solana), 11.22% APY, $120.7K TVL, https://www.defi.garden/?pool=1aa2981e-1565-4471-879c-bcd0d2e8236a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +69,4 @@ Based on APY history only, COINX's lower-variability candidates are raydium-amm 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 7, 2026
+## Last updated October 8, 2026

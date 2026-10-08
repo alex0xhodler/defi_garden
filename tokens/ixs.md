@@ -1,33 +1,33 @@
 # IXS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 7, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
 
-The highest honest IXS yield right now is 41.77% on uniswap-v4 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest IXS yield right now is 30.57% on uniswap-v4 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=c7bb64fd-ed91-4d17-a3c3-b42e015f6851#src=seo_token) | Ethereum | 41.77% | $821.6K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=523a693b-1fd7-42a4-8931-0eddbe3d8e7e#src=seo_token) | Ethereum | 32.71% | $414.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=bbfa3b60-8b00-42f2-91e3-5bc9762046e2#src=seo_token) | Base | 19.91% | $121.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=c7bb64fd-ed91-4d17-a3c3-b42e015f6851#src=seo_token) | Ethereum | 30.57% | $783.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=523a693b-1fd7-42a4-8931-0eddbe3d8e7e#src=seo_token) | Ethereum | 23.00% | $390.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=bbfa3b60-8b00-42f2-91e3-5bc9762046e2#src=seo_token) | Base | 13.64% | $112.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, IXS's lower-variability candidates are uniswap-v4 (Ethereum), 41.77% APY, $821.6K TVL, https://www.defi.garden/?pool=c7bb64fd-ed91-4d17-a3c3-b42e015f6851#src=seo_token; uniswap-v3 (Base), 19.91% APY, $121.6K TVL, https://www.defi.garden/?pool=bbfa3b60-8b00-42f2-91e3-5bc9762046e2#src=seo_token; uniswap-v2 (Ethereum), 32.71% APY, $414.5K TVL, https://www.defi.garden/?pool=523a693b-1fd7-42a4-8931-0eddbe3d8e7e#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, IXS's lower-variability candidates are uniswap-v4 (Ethereum), 30.57% APY, $783.6K TVL, https://www.defi.garden/?pool=c7bb64fd-ed91-4d17-a3c3-b42e015f6851#src=seo_token; uniswap-v3 (Base), 13.64% APY, $112.5K TVL, https://www.defi.garden/?pool=bbfa3b60-8b00-42f2-91e3-5bc9762046e2#src=seo_token; uniswap-v2 (Ethereum), 23.00% APY, $390.9K TVL, https://www.defi.garden/?pool=523a693b-1fd7-42a4-8931-0eddbe3d8e7e#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=c7bb64fd-ed91-4d17-a3c3-b42e015f6851#src=seo_token) | Ethereum | 41.77% | $821.6K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=bbfa3b60-8b00-42f2-91e3-5bc9762046e2#src=seo_token) | Base | 19.91% | $121.6K |
-| 3 | [uniswap-v2 →](https://www.defi.garden/?pool=523a693b-1fd7-42a4-8931-0eddbe3d8e7e#src=seo_token) | Ethereum | 32.71% | $414.5K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=c7bb64fd-ed91-4d17-a3c3-b42e015f6851#src=seo_token) | Ethereum | 30.57% | $783.6K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=bbfa3b60-8b00-42f2-91e3-5bc9762046e2#src=seo_token) | Base | 13.64% | $112.5K |
+| 3 | [uniswap-v2 →](https://www.defi.garden/?pool=523a693b-1fd7-42a4-8931-0eddbe3d8e7e#src=seo_token) | Ethereum | 23.00% | $390.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-IXS shows up in 3 pools here, with rates from 19.91% to 41.77% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+IXS shows up in 3 pools here, with rates from 13.64% to 30.57% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 13.24% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 13.83% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -35,9 +35,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 41.77% | 23.59% | Base rate |
-| uniswap-v2 | 32.71% | 13.24% | Base rate |
-| uniswap-v3 | 19.91% | 10.37% | Base rate |
+| uniswap-v4 | 30.57% | 23.98% | Base rate |
+| uniswap-v2 | 23.00% | 13.83% | Base rate |
+| uniswap-v3 | 13.64% | 10.20% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,11 +45,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest IXS yield today?
 
-41.77% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+30.57% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many IXS pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.36M in total.
+3 live pools clear this page's $100K TVL floor, $1.29M in total.
 
 ### Are these rates safe?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which IXS pools have the most stable APY history?
 
-Based on APY history only, IXS's lower-variability candidates are uniswap-v4 (Ethereum), 41.77% APY, $821.6K TVL, https://www.defi.garden/?pool=c7bb64fd-ed91-4d17-a3c3-b42e015f6851#src=seo_token; uniswap-v3 (Base), 19.91% APY, $121.6K TVL, https://www.defi.garden/?pool=bbfa3b60-8b00-42f2-91e3-5bc9762046e2#src=seo_token; uniswap-v2 (Ethereum), 32.71% APY, $414.5K TVL, https://www.defi.garden/?pool=523a693b-1fd7-42a4-8931-0eddbe3d8e7e#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, IXS's lower-variability candidates are uniswap-v4 (Ethereum), 30.57% APY, $783.6K TVL, https://www.defi.garden/?pool=c7bb64fd-ed91-4d17-a3c3-b42e015f6851#src=seo_token; uniswap-v3 (Base), 13.64% APY, $112.5K TVL, https://www.defi.garden/?pool=bbfa3b60-8b00-42f2-91e3-5bc9762046e2#src=seo_token; uniswap-v2 (Ethereum), 23.00% APY, $390.9K TVL, https://www.defi.garden/?pool=523a693b-1fd7-42a4-8931-0eddbe3d8e7e#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -73,4 +73,4 @@ Based on APY history only, IXS's lower-variability candidates are uniswap-v4 (Et
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 7, 2026
+## Last updated October 8, 2026

@@ -300,26 +300,6 @@
       "permanent": true
     },
     {
-      "source": "/pools/aave-v3-usdt-ethereum",
-      "destination": "/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/ko/pools/aave-v3-usdt-ethereum",
-      "destination": "/ko/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/pt/pools/aave-v3-usdt-ethereum",
-      "destination": "/pt/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/es/pools/aave-v3-usdt-ethereum",
-      "destination": "/es/chains/ethereum",
-      "permanent": true
-    },
-    {
       "source": "/pools/aave-v3-wbtc-arbitrum",
       "destination": "/chains/arbitrum",
       "permanent": true
@@ -420,43 +400,43 @@
       "permanent": true
     },
     {
-      "source": "/pools/centrifuge-protocol-usat-ethereum",
+      "source": "/pools/bitwise-uscc-uscc-ethereum",
       "destination": "/chains/ethereum",
       "permanent": true
     },
     {
-      "source": "/ko/pools/centrifuge-protocol-usat-ethereum",
+      "source": "/ko/pools/bitwise-uscc-uscc-ethereum",
       "destination": "/ko/chains/ethereum",
       "permanent": true
     },
     {
-      "source": "/pt/pools/centrifuge-protocol-usat-ethereum",
+      "source": "/pt/pools/bitwise-uscc-uscc-ethereum",
       "destination": "/pt/chains/ethereum",
       "permanent": true
     },
     {
-      "source": "/es/pools/centrifuge-protocol-usat-ethereum",
+      "source": "/es/pools/bitwise-uscc-uscc-ethereum",
       "destination": "/es/chains/ethereum",
       "permanent": true
     },
     {
-      "source": "/pools/centrifuge-protocol-usdc-avalanche",
-      "destination": "/chains/avalanche",
+      "source": "/pools/blazestake-bsol-solana",
+      "destination": "/chains/solana",
       "permanent": true
     },
     {
-      "source": "/ko/pools/centrifuge-protocol-usdc-avalanche",
-      "destination": "/ko/chains/avalanche",
+      "source": "/ko/pools/blazestake-bsol-solana",
+      "destination": "/ko/chains/solana",
       "permanent": true
     },
     {
-      "source": "/pt/pools/centrifuge-protocol-usdc-avalanche",
-      "destination": "/pt/chains/avalanche",
+      "source": "/pt/pools/blazestake-bsol-solana",
+      "destination": "/pt/chains/solana",
       "permanent": true
     },
     {
-      "source": "/es/pools/centrifuge-protocol-usdc-avalanche",
-      "destination": "/es/chains/avalanche",
+      "source": "/es/pools/blazestake-bsol-solana",
+      "destination": "/es/chains/solana",
       "permanent": true
     },
     {
@@ -956,6 +936,26 @@
     },
     {
       "source": "/es/pools/sparklend-wsteth-ethereum",
+      "destination": "/es/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pools/uniswap-v3-weth-usdt-ethereum",
+      "destination": "/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/uniswap-v3-weth-usdt-ethereum",
+      "destination": "/ko/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pt/pools/uniswap-v3-weth-usdt-ethereum",
+      "destination": "/pt/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/es/pools/uniswap-v3-weth-usdt-ethereum",
       "destination": "/es/chains/ethereum",
       "permanent": true
     },

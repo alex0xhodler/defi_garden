@@ -1,12 +1,12 @@
 # DUST 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 7, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 8, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 DUST의 가장 높은 정직한 수익률은 TON의 dedust에서 5.66%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 DUST의 가장 높은 정직한 수익률은 TON의 dedust에서 3.32%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [dedust →](https://www.defi.garden/?pool=1a2f063e-26cf-4840-adc6-dfc5df54a393#src=seo_token) | TON | 5.66% | $113.1K |
+| [dedust →](https://www.defi.garden/?pool=1a2f063e-26cf-4840-adc6-dfc5df54a393#src=seo_token) | TON | 3.32% | $113.1K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,7 +19,7 @@
 
 ### 오늘 DUST의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, TON의 dedust에서 APY 5.66%예요.
+DefiLlama 실시간 데이터 기준, TON의 dedust에서 APY 3.32%예요.
 
 ### DUST 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -40,10 +40,10 @@ DefiLlama 실시간 데이터 기준, TON의 dedust에서 APY 5.66%예요.
 - [TSTON](https://www.defi.garden/ko/tokens/tston)
 - [XAUT0](https://www.defi.garden/ko/tokens/xaut0)
 - [BABYDOGE](https://www.defi.garden/ko/tokens/babydoge)
-- [STON](https://www.defi.garden/ko/tokens/ston)
+- [AFFSENTORA](https://www.defi.garden/ko/tokens/affsentora)
 
 ## 이용 가능한 체인
 
 - [TON](https://www.defi.garden/ko/chains/ton)
 
-## 마지막 업데이트: October 7, 2026
+## 마지막 업데이트: October 8, 2026

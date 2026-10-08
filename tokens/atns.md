@@ -1,12 +1,12 @@
 # ATNS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 7, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
 
-The highest honest ATNS yield right now is 109.74% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ATNS yield right now is 80.38% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=196f934d-e8f3-5438-9292-e746adee6f04#src=seo_token) | Base | 109.74% | $220.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=196f934d-e8f3-5438-9292-e746adee6f04#src=seo_token) | Base | 80.38% | $270K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ATNS yield today?
 
-109.74% APY on uniswap-v2 (Base), based on live DefiLlama data.
+80.38% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many ATNS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $220.3K in total.
+1 live pool clear this page's $100K TVL floor, $270K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank ATNS pools. This view covers 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 7, 2026
+## Last updated October 8, 2026

@@ -1,31 +1,31 @@
 # CRO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 7, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
 
 The highest honest CRO yield right now is 0.18% on tectonic (Cronos), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [tectonic →](https://www.defi.garden/?pool=75ed00fb-d519-41e7-883e-149b4952811d#src=seo_token) | Cronos | 0.18% | $1.87M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=b71f50a6-9744-4399-9578-70cdbfd00808#src=seo_token) | Ethereum | 6.73% | $822.6K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=c2859369-1954-46b0-a692-8a9c5aa77624#src=seo_token) | Ethereum | 0.94% | $183.3K |
+| [tectonic →](https://www.defi.garden/?pool=75ed00fb-d519-41e7-883e-149b4952811d#src=seo_token) | Cronos | 0.18% | $1.83M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=b71f50a6-9744-4399-9578-70cdbfd00808#src=seo_token) | Ethereum | 7.94% | $804.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c2859369-1954-46b0-a692-8a9c5aa77624#src=seo_token) | Ethereum | 1.10% | $178.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, CRO's lower-variability candidates are tectonic (Cronos), 0.18% APY, $1.87M TVL, https://www.defi.garden/?pool=75ed00fb-d519-41e7-883e-149b4952811d#src=seo_token; uniswap-v4 (Ethereum), 6.73% APY, $822.6K TVL, https://www.defi.garden/?pool=b71f50a6-9744-4399-9578-70cdbfd00808#src=seo_token; uniswap-v3 (Ethereum), 0.94% APY, $183.3K TVL, https://www.defi.garden/?pool=c2859369-1954-46b0-a692-8a9c5aa77624#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CRO's lower-variability candidates are tectonic (Cronos), 0.18% APY, $1.83M TVL, https://www.defi.garden/?pool=75ed00fb-d519-41e7-883e-149b4952811d#src=seo_token; uniswap-v4 (Ethereum), 7.94% APY, $804.5K TVL, https://www.defi.garden/?pool=b71f50a6-9744-4399-9578-70cdbfd00808#src=seo_token; uniswap-v3 (Ethereum), 1.10% APY, $178.9K TVL, https://www.defi.garden/?pool=c2859369-1954-46b0-a692-8a9c5aa77624#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [tectonic →](https://www.defi.garden/?pool=75ed00fb-d519-41e7-883e-149b4952811d#src=seo_token) | Cronos | 0.18% | $1.87M |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=b71f50a6-9744-4399-9578-70cdbfd00808#src=seo_token) | Ethereum | 6.73% | $822.6K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=c2859369-1954-46b0-a692-8a9c5aa77624#src=seo_token) | Ethereum | 0.94% | $183.3K |
+| 1 | [tectonic →](https://www.defi.garden/?pool=75ed00fb-d519-41e7-883e-149b4952811d#src=seo_token) | Cronos | 0.18% | $1.83M |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=b71f50a6-9744-4399-9578-70cdbfd00808#src=seo_token) | Ethereum | 7.94% | $804.5K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=c2859369-1954-46b0-a692-8a9c5aa77624#src=seo_token) | Ethereum | 1.10% | $178.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CRO shows up in 3 pools here, with rates from 0.18% to 6.73% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+CRO shows up in 3 pools here, with rates from 0.18% to 7.94% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 5.07% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -35,9 +35,9 @@ CRO shows up in 3 pools here, with rates from 0.18% to 6.73% APY across 2 chains
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| tectonic | 0.18% | 0.16% | 3.10% incentives |
-| uniswap-v4 | 6.73% | 23.79% | Base rate |
-| uniswap-v3 | 0.94% | 5.07% | Base rate |
+| tectonic | 0.18% | 0.16% | 2.92% incentives |
+| uniswap-v4 | 7.94% | 23.89% | Base rate |
+| uniswap-v3 | 1.10% | 5.07% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -49,7 +49,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many CRO pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $2.88M in total.
+3 live pools clear this page's $100K TVL floor, $2.82M in total.
 
 ### Are these rates safe?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which CRO pools have the most stable APY history?
 
-Based on APY history only, CRO's lower-variability candidates are tectonic (Cronos), 0.18% APY, $1.87M TVL, https://www.defi.garden/?pool=75ed00fb-d519-41e7-883e-149b4952811d#src=seo_token; uniswap-v4 (Ethereum), 6.73% APY, $822.6K TVL, https://www.defi.garden/?pool=b71f50a6-9744-4399-9578-70cdbfd00808#src=seo_token; uniswap-v3 (Ethereum), 0.94% APY, $183.3K TVL, https://www.defi.garden/?pool=c2859369-1954-46b0-a692-8a9c5aa77624#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CRO's lower-variability candidates are tectonic (Cronos), 0.18% APY, $1.83M TVL, https://www.defi.garden/?pool=75ed00fb-d519-41e7-883e-149b4952811d#src=seo_token; uniswap-v4 (Ethereum), 7.94% APY, $804.5K TVL, https://www.defi.garden/?pool=b71f50a6-9744-4399-9578-70cdbfd00808#src=seo_token; uniswap-v3 (Ethereum), 1.10% APY, $178.9K TVL, https://www.defi.garden/?pool=c2859369-1954-46b0-a692-8a9c5aa77624#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -73,4 +73,4 @@ Based on APY history only, CRO's lower-variability candidates are tectonic (Cron
 - [Cronos](https://www.defi.garden/chains/cronos)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 7, 2026
+## Last updated October 8, 2026

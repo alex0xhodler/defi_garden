@@ -1,12 +1,12 @@
 # CGBP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 7, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
 
 The highest honest CGBP yield right now is 0.03% on uniswap-v3 (Celo), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=a6976aa3-85e5-4323-a3e5-79f87db2e315#src=seo_token) | Celo | 0.03% | $106K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a6976aa3-85e5-4323-a3e5-79f87db2e315#src=seo_token) | Celo | 0.03% | $105.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CGBP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $106K in total.
+1 live pool clear this page's $100K TVL floor, $105.9K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank CGBP pools. This view covers 
 
 - [USAT](https://www.defi.garden/tokens/usat)
 - [WARS](https://www.defi.garden/tokens/wars)
-- [CELO](https://www.defi.garden/tokens/celo)
 - [XAUT0](https://www.defi.garden/tokens/xaut0)
+- [CELO](https://www.defi.garden/tokens/celo)
 - [CUSD](https://www.defi.garden/tokens/cusd)
 - [EURM](https://www.defi.garden/tokens/eurm)
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank CGBP pools. This view covers 
 
 - [Celo](https://www.defi.garden/chains/celo)
 
-## Last updated October 7, 2026
+## Last updated October 8, 2026

@@ -1,31 +1,31 @@
 # FUL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 7, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
 
-The highest honest FUL yield right now is 2.59% on vvs-standard (Cronos), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FUL yield right now is 0.24% on vvs-standard (Cronos), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=f6a666d9-44b7-4589-9a6d-93b8712ed427#src=seo_token) | Cronos | 2.59% | $455.2K |
-| [vvs-standard →](https://www.defi.garden/?pool=876d4985-1421-415c-8711-d1225a5df1ed#src=seo_token) | Cronos | 1.38% | $110.8K |
+| [vvs-standard →](https://www.defi.garden/?pool=f6a666d9-44b7-4589-9a6d-93b8712ed427#src=seo_token) | Cronos | 0.24% | $447.3K |
+| [vvs-standard →](https://www.defi.garden/?pool=876d4985-1421-415c-8711-d1225a5df1ed#src=seo_token) | Cronos | 0.05% | $109K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, FUL's lower-variability candidates are vvs-standard (Cronos), 2.59% APY, $455.2K TVL, https://www.defi.garden/?pool=f6a666d9-44b7-4589-9a6d-93b8712ed427#src=seo_token; vvs-standard (Cronos), 1.38% APY, $110.8K TVL, https://www.defi.garden/?pool=876d4985-1421-415c-8711-d1225a5df1ed#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FUL's lower-variability candidates are vvs-standard (Cronos), 0.24% APY, $447.3K TVL, https://www.defi.garden/?pool=f6a666d9-44b7-4589-9a6d-93b8712ed427#src=seo_token; vvs-standard (Cronos), 0.05% APY, $109K TVL, https://www.defi.garden/?pool=876d4985-1421-415c-8711-d1225a5df1ed#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [vvs-standard →](https://www.defi.garden/?pool=f6a666d9-44b7-4589-9a6d-93b8712ed427#src=seo_token) | Cronos | 2.59% | $455.2K |
-| 2 | [vvs-standard →](https://www.defi.garden/?pool=876d4985-1421-415c-8711-d1225a5df1ed#src=seo_token) | Cronos | 1.38% | $110.8K |
+| 1 | [vvs-standard →](https://www.defi.garden/?pool=f6a666d9-44b7-4589-9a6d-93b8712ed427#src=seo_token) | Cronos | 0.24% | $447.3K |
+| 2 | [vvs-standard →](https://www.defi.garden/?pool=876d4985-1421-415c-8711-d1225a5df1ed#src=seo_token) | Cronos | 0.05% | $109K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-FUL shows up in 2 pools here, with rates from 1.38% to 2.59% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+FUL shows up in 2 pools here, with rates from 0.05% to 0.24% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.75% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.76% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| vvs-standard | 2.59% | 0.84% | Base rate |
-| vvs-standard | 1.38% | 0.66% | Base rate |
+| vvs-standard | 0.24% | 0.86% | Base rate |
+| vvs-standard | 0.05% | 0.65% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest FUL yield today?
 
-2.59% APY on vvs-standard (Cronos), based on live DefiLlama data.
+0.24% APY on vvs-standard (Cronos), based on live DefiLlama data.
 
 ### How many FUL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $566K in total.
+2 live pools clear this page's $100K TVL floor, $556.4K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which FUL pools have the most stable APY history?
 
-Based on APY history only, FUL's lower-variability candidates are vvs-standard (Cronos), 2.59% APY, $455.2K TVL, https://www.defi.garden/?pool=f6a666d9-44b7-4589-9a6d-93b8712ed427#src=seo_token; vvs-standard (Cronos), 1.38% APY, $110.8K TVL, https://www.defi.garden/?pool=876d4985-1421-415c-8711-d1225a5df1ed#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FUL's lower-variability candidates are vvs-standard (Cronos), 0.24% APY, $447.3K TVL, https://www.defi.garden/?pool=f6a666d9-44b7-4589-9a6d-93b8712ed427#src=seo_token; vvs-standard (Cronos), 0.05% APY, $109K TVL, https://www.defi.garden/?pool=876d4985-1421-415c-8711-d1225a5df1ed#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +69,4 @@ Based on APY history only, FUL's lower-variability candidates are vvs-standard (
 
 - [Cronos](https://www.defi.garden/chains/cronos)
 
-## Last updated October 7, 2026
+## Last updated October 8, 2026

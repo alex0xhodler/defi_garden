@@ -1,12 +1,12 @@
 # WSTGBP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 7, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
 
 The highest honest WSTGBP yield right now is 0.02% on curve-dex (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=7f04af29-bd45-5af9-827d-a9a15217337a#src=seo_token) | Ethereum | 0.02% | $105.7K |
+| [curve-dex →](https://www.defi.garden/?pool=7f04af29-bd45-5af9-827d-a9a15217337a#src=seo_token) | Ethereum | 0.02% | $105.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WSTGBP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $105.7K in total.
+1 live pool clear this page's $100K TVL floor, $105.6K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank WSTGBP pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 7, 2026
+## Last updated October 8, 2026

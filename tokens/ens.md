@@ -1,35 +1,35 @@
 # ENS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 7, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
 
-The highest honest ENS yield right now is 0.21% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ENS yield right now is 5.09% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=fa10346f-5056-49ad-afac-9400688e44ed#src=seo_token) | Ethereum | 1.17% | $699.2K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=db8671ad-bb4b-4015-83bd-577c63acfa58#src=seo_token) | Ethereum | 0.21% | $305.2K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=0e1ddaae-78bb-4aca-9731-7c79cc0291a5#src=seo_token) | Ethereum | 3.24% | $124.1K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=11ffc131-8256-42f8-b839-7896d5f8e2d7#src=seo_token) | Ethereum | 0.02% | $123K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=fa10346f-5056-49ad-afac-9400688e44ed#src=seo_token) | Ethereum | 2.02% | $703.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=db8671ad-bb4b-4015-83bd-577c63acfa58#src=seo_token) | Ethereum | 0.15% | $309.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0e1ddaae-78bb-4aca-9731-7c79cc0291a5#src=seo_token) | Ethereum | 5.09% | $124.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=11ffc131-8256-42f8-b839-7896d5f8e2d7#src=seo_token) | Ethereum | 0.02% | $124K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ENS's lower-variability candidates are uniswap-v3 (Ethereum), 0.02% APY, $123K TVL, https://www.defi.garden/?pool=11ffc131-8256-42f8-b839-7896d5f8e2d7#src=seo_token; uniswap-v3 (Ethereum), 3.24% APY, $124.1K TVL, https://www.defi.garden/?pool=0e1ddaae-78bb-4aca-9731-7c79cc0291a5#src=seo_token; uniswap-v3 (Ethereum), 0.21% APY, $305.2K TVL, https://www.defi.garden/?pool=db8671ad-bb4b-4015-83bd-577c63acfa58#src=seo_token; uniswap-v3 (Ethereum), 1.17% APY, $699.2K TVL, https://www.defi.garden/?pool=fa10346f-5056-49ad-afac-9400688e44ed#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ENS's lower-variability candidates are uniswap-v3 (Ethereum), 0.02% APY, $124K TVL, https://www.defi.garden/?pool=11ffc131-8256-42f8-b839-7896d5f8e2d7#src=seo_token; uniswap-v3 (Ethereum), 5.09% APY, $124.8K TVL, https://www.defi.garden/?pool=0e1ddaae-78bb-4aca-9731-7c79cc0291a5#src=seo_token; uniswap-v3 (Ethereum), 0.15% APY, $309.1K TVL, https://www.defi.garden/?pool=db8671ad-bb4b-4015-83bd-577c63acfa58#src=seo_token; uniswap-v3 (Ethereum), 2.02% APY, $703.6K TVL, https://www.defi.garden/?pool=fa10346f-5056-49ad-afac-9400688e44ed#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=11ffc131-8256-42f8-b839-7896d5f8e2d7#src=seo_token) | Ethereum | 0.02% | $123K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=0e1ddaae-78bb-4aca-9731-7c79cc0291a5#src=seo_token) | Ethereum | 3.24% | $124.1K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=db8671ad-bb4b-4015-83bd-577c63acfa58#src=seo_token) | Ethereum | 0.21% | $305.2K |
-| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=fa10346f-5056-49ad-afac-9400688e44ed#src=seo_token) | Ethereum | 1.17% | $699.2K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=11ffc131-8256-42f8-b839-7896d5f8e2d7#src=seo_token) | Ethereum | 0.02% | $124K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=0e1ddaae-78bb-4aca-9731-7c79cc0291a5#src=seo_token) | Ethereum | 5.09% | $124.8K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=db8671ad-bb4b-4015-83bd-577c63acfa58#src=seo_token) | Ethereum | 0.15% | $309.1K |
+| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=fa10346f-5056-49ad-afac-9400688e44ed#src=seo_token) | Ethereum | 2.02% | $703.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ENS shows up in 4 pools here, with rates from 0.02% to 3.24% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+ENS shows up in 4 pools here, with rates from 0.02% to 5.09% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 1.67% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 1.63% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -37,9 +37,9 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 1.17% | 3.06% | Base rate |
-| uniswap-v3 | 0.21% | 0.28% | Base rate |
-| uniswap-v3 | 3.24% | 7.53% | Base rate |
+| uniswap-v3 | 2.02% | 2.98% | Base rate |
+| uniswap-v3 | 0.15% | 0.27% | Base rate |
+| uniswap-v3 | 5.09% | 7.52% | Base rate |
 | uniswap-v3 | 0.02% | 0.03% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -48,11 +48,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ENS yield today?
 
-0.21% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+5.09% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many ENS pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.25M in total.
+4 live pools clear this page's $100K TVL floor, $1.26M in total.
 
 ### Are these rates safe?
 
@@ -60,7 +60,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ENS pools have the most stable APY history?
 
-Based on APY history only, ENS's lower-variability candidates are uniswap-v3 (Ethereum), 0.02% APY, $123K TVL, https://www.defi.garden/?pool=11ffc131-8256-42f8-b839-7896d5f8e2d7#src=seo_token; uniswap-v3 (Ethereum), 3.24% APY, $124.1K TVL, https://www.defi.garden/?pool=0e1ddaae-78bb-4aca-9731-7c79cc0291a5#src=seo_token; uniswap-v3 (Ethereum), 0.21% APY, $305.2K TVL, https://www.defi.garden/?pool=db8671ad-bb4b-4015-83bd-577c63acfa58#src=seo_token; uniswap-v3 (Ethereum), 1.17% APY, $699.2K TVL, https://www.defi.garden/?pool=fa10346f-5056-49ad-afac-9400688e44ed#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ENS's lower-variability candidates are uniswap-v3 (Ethereum), 0.02% APY, $124K TVL, https://www.defi.garden/?pool=11ffc131-8256-42f8-b839-7896d5f8e2d7#src=seo_token; uniswap-v3 (Ethereum), 5.09% APY, $124.8K TVL, https://www.defi.garden/?pool=0e1ddaae-78bb-4aca-9731-7c79cc0291a5#src=seo_token; uniswap-v3 (Ethereum), 0.15% APY, $309.1K TVL, https://www.defi.garden/?pool=db8671ad-bb4b-4015-83bd-577c63acfa58#src=seo_token; uniswap-v3 (Ethereum), 2.02% APY, $703.6K TVL, https://www.defi.garden/?pool=fa10346f-5056-49ad-afac-9400688e44ed#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -75,4 +75,4 @@ Based on APY history only, ENS's lower-variability candidates are uniswap-v3 (Et
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 7, 2026
+## Last updated October 8, 2026

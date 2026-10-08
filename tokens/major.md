@@ -1,12 +1,12 @@
 # MAJOR DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 7, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
 
-The highest honest MAJOR yield right now is 6.45% on ston.fi (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MAJOR yield right now is 4.53% on ston.fi (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ston.fi →](https://www.defi.garden/?pool=78c2ca48-1f34-4bce-9ea9-97de17237715#src=seo_token) | TON | 6.45% | $140.5K |
+| [ston.fi →](https://www.defi.garden/?pool=78c2ca48-1f34-4bce-9ea9-97de17237715#src=seo_token) | TON | 4.53% | $136.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MAJOR yield today?
 
-6.45% APY on ston.fi (TON), based on live DefiLlama data.
+4.53% APY on ston.fi (TON), based on live DefiLlama data.
 
 ### How many MAJOR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $140.5K in total.
+1 live pool clear this page's $100K TVL floor, $136.3K in total.
 
 ### Are these rates safe?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank MAJOR pools. This view covers
 - [TSTON](https://www.defi.garden/tokens/tston)
 - [XAUT0](https://www.defi.garden/tokens/xaut0)
 - [BABYDOGE](https://www.defi.garden/tokens/babydoge)
-- [STON](https://www.defi.garden/tokens/ston)
+- [AFFSENTORA](https://www.defi.garden/tokens/affsentora)
 
 ## Available on
 
 - [TON](https://www.defi.garden/chains/ton)
 
-## Last updated October 7, 2026
+## Last updated October 8, 2026
