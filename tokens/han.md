@@ -1,12 +1,12 @@
 # HAN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
 
-The highest honest HAN yield right now is 1.12% on uniswap-v3 (OP Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HAN yield right now is 0.53% on uniswap-v3 (OP Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=59a6ad92-662b-4030-9fc8-f75204773ffa#src=seo_token) | OP Mainnet | 1.12% | $108.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=59a6ad92-662b-4030-9fc8-f75204773ffa#src=seo_token) | OP Mainnet | 0.53% | $107.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HAN yield today?
 
-1.12% APY on uniswap-v3 (OP Mainnet), based on live DefiLlama data.
+0.53% APY on uniswap-v3 (OP Mainnet), based on live DefiLlama data.
 
 ### How many HAN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $108.7K in total.
+1 live pool clear this page's $100K TVL floor, $107.8K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank HAN pools. This view covers A
 
 - [OP Mainnet](https://www.defi.garden/chains/op-mainnet)
 
-## Last updated October 8, 2026
+## Last updated October 9, 2026

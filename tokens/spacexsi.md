@@ -1,12 +1,12 @@
 # SPACEXSI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
 
-The highest honest SPACEXSI yield right now is 500.21% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SPACEXSI yield right now is 395.60% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=ba318068-4e0a-5ad0-9c25-678c64e6ebaa#src=seo_token) | Solana | 500.21% | $104K |
+| [raydium-amm →](https://www.defi.garden/?pool=ba318068-4e0a-5ad0-9c25-678c64e6ebaa#src=seo_token) | Solana | 395.60% | $102.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SPACEXSI yield today?
 
-500.21% APY on raydium-amm (Solana), based on live DefiLlama data.
+395.60% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many SPACEXSI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $104K in total.
+1 live pool clear this page's $100K TVL floor, $102.8K in total.
 
 ### Are these rates safe?
 
@@ -36,14 +36,14 @@ There is not enough qualifying APY history to rank SPACEXSI pools. This view cov
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [BNSOL](https://www.defi.garden/tokens/bnsol)
-- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 8, 2026
+## Last updated October 9, 2026

@@ -1,6 +1,6 @@
 # CDT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
 
 The highest honest CDT yield right now is 500.00% on osmosis-dex (Osmosis), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -66,4 +66,4 @@ There is not enough qualifying APY history to rank CDT pools. This view covers A
 
 - [Osmosis](https://www.defi.garden/chains/osmosis)
 
-## Last updated October 8, 2026
+## Last updated October 9, 2026

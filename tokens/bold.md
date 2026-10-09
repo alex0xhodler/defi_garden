@@ -1,58 +1,56 @@
 # BOLD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
 
-The highest honest BOLD yield right now is 13.19% on uniswap-v4 (Ethereum), among 17 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BOLD yield right now is 6.31% on curve-dex (Ethereum), among 17 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=755529b5-fcf4-4ef0-a7c7-e4f49376706f#src=seo_token) | Ethereum | 1.04% | $9.39M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=d0c42a48-871a-4e83-9ef2-b3f60b3e0e90#src=seo_token) | Ethereum | 3.04% | $3.11M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=8d4931e1-b573-4802-856d-244645926b19#src=seo_token) | Ethereum | 0.95% | $1.41M |
-| [curve-dex →](https://www.defi.garden/?pool=80011215-3cbe-4d82-b6c6-5b7a69f729ce#src=seo_token) | Ethereum | 0.10% | $630.3K |
-| [stake-dao-yield →](https://www.defi.garden/?pool=522041df-0037-41aa-8a54-87054a78ddbe#src=seo_token) | Ethereum | 4.83% | $388.6K |
-| [curve-dex →](https://www.defi.garden/?pool=1cb41712-6417-485e-aa23-db1d99a57b2b#src=seo_token) | Ethereum | 5.02% | $328K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=5bf5569b-2e3c-4ee2-b587-64f52ca0efaf#src=seo_token) | Ethereum | 13.19% | $317.6K |
-| [convex-finance →](https://www.defi.garden/?pool=beb8b374-06a3-40d5-a89b-8f7e8d0fcee6#src=seo_token) | Ethereum | 1.68% | $254K |
+| [curve-dex →](https://www.defi.garden/?pool=755529b5-fcf4-4ef0-a7c7-e4f49376706f#src=seo_token) | Ethereum | 1.38% | $9.4M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=d0c42a48-871a-4e83-9ef2-b3f60b3e0e90#src=seo_token) | Ethereum | 3.68% | $3.77M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=8d4931e1-b573-4802-856d-244645926b19#src=seo_token) | Ethereum | 1.10% | $1.41M |
+| [curve-dex →](https://www.defi.garden/?pool=80011215-3cbe-4d82-b6c6-5b7a69f729ce#src=seo_token) | Ethereum | 0.20% | $630.8K |
+| [stake-dao-yield →](https://www.defi.garden/?pool=522041df-0037-41aa-8a54-87054a78ddbe#src=seo_token) | Ethereum | 4.74% | $389K |
+| [convex-finance →](https://www.defi.garden/?pool=beb8b374-06a3-40d5-a89b-8f7e8d0fcee6#src=seo_token) | Ethereum | 1.95% | $254.2K |
+| [curve-dex →](https://www.defi.garden/?pool=1cb41712-6417-485e-aa23-db1d99a57b2b#src=seo_token) | Ethereum | 6.31% | $253.4K |
+| [euler-v2 →](https://www.defi.garden/?pool=412fd68d-364e-4193-bcf2-52fc32bef889#src=seo_token) | Ethereum | 0.73% | $183K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, BOLD's lower-variability candidates are convex-finance (Ethereum), 1.68% APY, $254K TVL, https://www.defi.garden/?pool=beb8b374-06a3-40d5-a89b-8f7e8d0fcee6#src=seo_token; curve-dex (Ethereum), 1.04% APY, $9.39M TVL, https://www.defi.garden/?pool=755529b5-fcf4-4ef0-a7c7-e4f49376706f#src=seo_token; uniswap-v3 (Ethereum), 0.95% APY, $1.41M TVL, https://www.defi.garden/?pool=8d4931e1-b573-4802-856d-244645926b19#src=seo_token; stake-dao-yield (Ethereum), 4.83% APY, $388.6K TVL, https://www.defi.garden/?pool=522041df-0037-41aa-8a54-87054a78ddbe#src=seo_token; curve-dex (Ethereum), 0.10% APY, $630.3K TVL, https://www.defi.garden/?pool=80011215-3cbe-4d82-b6c6-5b7a69f729ce#src=seo_token; uniswap-v4 (Ethereum), 3.04% APY, $3.11M TVL, https://www.defi.garden/?pool=d0c42a48-871a-4e83-9ef2-b3f60b3e0e90#src=seo_token; curve-dex (Ethereum), 5.02% APY, $328K TVL, https://www.defi.garden/?pool=1cb41712-6417-485e-aa23-db1d99a57b2b#src=seo_token; uniswap-v4 (Ethereum), 13.19% APY, $317.6K TVL, https://www.defi.garden/?pool=5bf5569b-2e3c-4ee2-b587-64f52ca0efaf#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BOLD's lower-variability candidates are convex-finance (Ethereum), 1.95% APY, $254.2K TVL, https://www.defi.garden/?pool=beb8b374-06a3-40d5-a89b-8f7e8d0fcee6#src=seo_token; curve-dex (Ethereum), 1.38% APY, $9.4M TVL, https://www.defi.garden/?pool=755529b5-fcf4-4ef0-a7c7-e4f49376706f#src=seo_token; uniswap-v3 (Ethereum), 1.10% APY, $1.41M TVL, https://www.defi.garden/?pool=8d4931e1-b573-4802-856d-244645926b19#src=seo_token; stake-dao-yield (Ethereum), 4.74% APY, $389K TVL, https://www.defi.garden/?pool=522041df-0037-41aa-8a54-87054a78ddbe#src=seo_token; curve-dex (Ethereum), 0.20% APY, $630.8K TVL, https://www.defi.garden/?pool=80011215-3cbe-4d82-b6c6-5b7a69f729ce#src=seo_token; uniswap-v4 (Ethereum), 3.68% APY, $3.77M TVL, https://www.defi.garden/?pool=d0c42a48-871a-4e83-9ef2-b3f60b3e0e90#src=seo_token; curve-dex (Ethereum), 6.31% APY, $253.4K TVL, https://www.defi.garden/?pool=1cb41712-6417-485e-aa23-db1d99a57b2b#src=seo_token; euler-v2 (Ethereum), 0.73% APY, $183K TVL, https://www.defi.garden/?pool=412fd68d-364e-4193-bcf2-52fc32bef889#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [convex-finance →](https://www.defi.garden/?pool=beb8b374-06a3-40d5-a89b-8f7e8d0fcee6#src=seo_token) | Ethereum | 1.68% | $254K |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=755529b5-fcf4-4ef0-a7c7-e4f49376706f#src=seo_token) | Ethereum | 1.04% | $9.39M |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=8d4931e1-b573-4802-856d-244645926b19#src=seo_token) | Ethereum | 0.95% | $1.41M |
-| 4 | [stake-dao-yield →](https://www.defi.garden/?pool=522041df-0037-41aa-8a54-87054a78ddbe#src=seo_token) | Ethereum | 4.83% | $388.6K |
-| 5 | [curve-dex →](https://www.defi.garden/?pool=80011215-3cbe-4d82-b6c6-5b7a69f729ce#src=seo_token) | Ethereum | 0.10% | $630.3K |
-| 6 | [uniswap-v4 →](https://www.defi.garden/?pool=d0c42a48-871a-4e83-9ef2-b3f60b3e0e90#src=seo_token) | Ethereum | 3.04% | $3.11M |
-| 7 | [curve-dex →](https://www.defi.garden/?pool=1cb41712-6417-485e-aa23-db1d99a57b2b#src=seo_token) | Ethereum | 5.02% | $328K |
-| 8 | [uniswap-v4 →](https://www.defi.garden/?pool=5bf5569b-2e3c-4ee2-b587-64f52ca0efaf#src=seo_token) | Ethereum | 13.19% | $317.6K |
+| 1 | [convex-finance →](https://www.defi.garden/?pool=beb8b374-06a3-40d5-a89b-8f7e8d0fcee6#src=seo_token) | Ethereum | 1.95% | $254.2K |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=755529b5-fcf4-4ef0-a7c7-e4f49376706f#src=seo_token) | Ethereum | 1.38% | $9.4M |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=8d4931e1-b573-4802-856d-244645926b19#src=seo_token) | Ethereum | 1.10% | $1.41M |
+| 4 | [stake-dao-yield →](https://www.defi.garden/?pool=522041df-0037-41aa-8a54-87054a78ddbe#src=seo_token) | Ethereum | 4.74% | $389K |
+| 5 | [curve-dex →](https://www.defi.garden/?pool=80011215-3cbe-4d82-b6c6-5b7a69f729ce#src=seo_token) | Ethereum | 0.20% | $630.8K |
+| 6 | [uniswap-v4 →](https://www.defi.garden/?pool=d0c42a48-871a-4e83-9ef2-b3f60b3e0e90#src=seo_token) | Ethereum | 3.68% | $3.77M |
+| 7 | [curve-dex →](https://www.defi.garden/?pool=1cb41712-6417-485e-aa23-db1d99a57b2b#src=seo_token) | Ethereum | 6.31% | $253.4K |
+| 8 | [euler-v2 →](https://www.defi.garden/?pool=412fd68d-364e-4193-bcf2-52fc32bef889#src=seo_token) | Ethereum | 0.73% | $183K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-BOLD shows up in 8 pools here, with rates from 0.10% to 13.19% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+BOLD shows up in 8 pools here, with rates from 0.20% to 6.31% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 2.26% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 1.28% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 4 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
-1 of 8 pools carries impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
-
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 1.04% | 0.85% | 53.10% incentives |
-| uniswap-v4 | 3.04% | 2.85% | Base rate |
-| uniswap-v3 | 0.95% | 0.69% | Base rate |
-| curve-dex | 0.10% | 0.09% | Base rate |
-| stake-dao-yield | 4.83% | 4.03% | 91.31% incentives |
-| curve-dex | 5.02% | 6.03% | 100.00% incentives |
-| uniswap-v4 | 13.19% | 18.50% | Base rate |
-| convex-finance | 1.68% | 1.67% | 70.91% incentives |
+| curve-dex | 1.38% | 0.87% | 34.97% incentives |
+| uniswap-v4 | 3.68% | 3.03% | Base rate |
+| uniswap-v3 | 1.10% | 0.72% | Base rate |
+| curve-dex | 0.20% | 0.09% | Base rate |
+| stake-dao-yield | 4.74% | 4.05% | 90.08% incentives |
+| convex-finance | 1.95% | 1.69% | 53.86% incentives |
+| curve-dex | 6.31% | 5.93% | 84.62% incentives |
+| euler-v2 | 0.73% | 0.59% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -60,11 +58,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BOLD yield today?
 
-13.19% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+6.31% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many BOLD pools clear the TVL floor?
 
-17 live pools clear this page's $100K TVL floor, $45.57M in total.
+17 live pools clear this page's $100K TVL floor, $46.07M in total.
 
 ### Are these rates safe?
 
@@ -72,7 +70,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BOLD pools have the most stable APY history?
 
-Based on APY history only, BOLD's lower-variability candidates are convex-finance (Ethereum), 1.68% APY, $254K TVL, https://www.defi.garden/?pool=beb8b374-06a3-40d5-a89b-8f7e8d0fcee6#src=seo_token; curve-dex (Ethereum), 1.04% APY, $9.39M TVL, https://www.defi.garden/?pool=755529b5-fcf4-4ef0-a7c7-e4f49376706f#src=seo_token; uniswap-v3 (Ethereum), 0.95% APY, $1.41M TVL, https://www.defi.garden/?pool=8d4931e1-b573-4802-856d-244645926b19#src=seo_token; stake-dao-yield (Ethereum), 4.83% APY, $388.6K TVL, https://www.defi.garden/?pool=522041df-0037-41aa-8a54-87054a78ddbe#src=seo_token; curve-dex (Ethereum), 0.10% APY, $630.3K TVL, https://www.defi.garden/?pool=80011215-3cbe-4d82-b6c6-5b7a69f729ce#src=seo_token; uniswap-v4 (Ethereum), 3.04% APY, $3.11M TVL, https://www.defi.garden/?pool=d0c42a48-871a-4e83-9ef2-b3f60b3e0e90#src=seo_token; curve-dex (Ethereum), 5.02% APY, $328K TVL, https://www.defi.garden/?pool=1cb41712-6417-485e-aa23-db1d99a57b2b#src=seo_token; uniswap-v4 (Ethereum), 13.19% APY, $317.6K TVL, https://www.defi.garden/?pool=5bf5569b-2e3c-4ee2-b587-64f52ca0efaf#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BOLD's lower-variability candidates are convex-finance (Ethereum), 1.95% APY, $254.2K TVL, https://www.defi.garden/?pool=beb8b374-06a3-40d5-a89b-8f7e8d0fcee6#src=seo_token; curve-dex (Ethereum), 1.38% APY, $9.4M TVL, https://www.defi.garden/?pool=755529b5-fcf4-4ef0-a7c7-e4f49376706f#src=seo_token; uniswap-v3 (Ethereum), 1.10% APY, $1.41M TVL, https://www.defi.garden/?pool=8d4931e1-b573-4802-856d-244645926b19#src=seo_token; stake-dao-yield (Ethereum), 4.74% APY, $389K TVL, https://www.defi.garden/?pool=522041df-0037-41aa-8a54-87054a78ddbe#src=seo_token; curve-dex (Ethereum), 0.20% APY, $630.8K TVL, https://www.defi.garden/?pool=80011215-3cbe-4d82-b6c6-5b7a69f729ce#src=seo_token; uniswap-v4 (Ethereum), 3.68% APY, $3.77M TVL, https://www.defi.garden/?pool=d0c42a48-871a-4e83-9ef2-b3f60b3e0e90#src=seo_token; curve-dex (Ethereum), 6.31% APY, $253.4K TVL, https://www.defi.garden/?pool=1cb41712-6417-485e-aa23-db1d99a57b2b#src=seo_token; euler-v2 (Ethereum), 0.73% APY, $183K TVL, https://www.defi.garden/?pool=412fd68d-364e-4193-bcf2-52fc32bef889#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -87,4 +85,4 @@ Based on APY history only, BOLD's lower-variability candidates are convex-financ
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 8, 2026
+## Last updated October 9, 2026

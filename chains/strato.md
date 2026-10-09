@@ -4,7 +4,7 @@ The highest honest Strato yield right now is 5.00% on strato (Strato), among 2 p
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| USDST | [strato →](https://www.defi.garden/?pool=3d1f50ff-60fc-5456-966d-c66a6542d20f#src=seo_chain) | 5.00% | $1.71M |
+| USDST | [strato →](https://www.defi.garden/?pool=3d1f50ff-60fc-5456-966d-c66a6542d20f#src=seo_chain) | 5.00% | $1.7M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [USDST](https://www.defi.garden/tokens/usdst)
 
-## Last updated October 8, 2026
+## Last updated October 9, 2026

@@ -1,12 +1,12 @@
 # SHIRO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
 
-The highest honest SHIRO yield right now is 74.26% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SHIRO yield right now is 26.36% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=fc841609-e819-4def-b8fc-53c2a5bd750d#src=seo_token) | Ethereum | 74.26% | $122.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=fc841609-e819-4def-b8fc-53c2a5bd750d#src=seo_token) | Ethereum | 26.36% | $121.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SHIRO yield today?
 
-74.26% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+26.36% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many SHIRO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $122.9K in total.
+1 live pool clear this page's $100K TVL floor, $121.5K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank SHIRO pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 8, 2026
+## Last updated October 9, 2026

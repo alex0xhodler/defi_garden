@@ -1,12 +1,13 @@
 # BUNKER DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
 
-The highest honest BUNKER yield right now is 12.72% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BUNKER yield right now is 347.83% on uniswap-v2 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=80fdaac6-62fa-43b6-b6cc-332d625cd4e0#src=seo_token) | Solana | 12.72% | $149K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=3444b7b0-1969-547c-a68f-a2599b70f12e#src=seo_token) | Base | 347.83% | $155.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=80fdaac6-62fa-43b6-b6cc-332d625cd4e0#src=seo_token) | Solana | 26.34% | $135.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,17 +18,18 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-BUNKER shows up in 1 pools here, with rates from 12.72% to 12.72% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+BUNKER shows up in 2 pools here, with rates from 26.34% to 347.83% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 7.96% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 196.86% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
+All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-1 of 1 pool carries impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 12.72% | 7.96% | Base rate |
+| uniswap-v2 | 347.83% | 377.42% | Base rate |
+| raydium-amm | 26.34% | 16.29% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BUNKER yield today?
 
-12.72% APY on raydium-amm (Solana), based on live DefiLlama data.
+347.83% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many BUNKER pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $267.8K in total.
+3 live pools clear this page's $100K TVL floor, $444.9K in total.
 
 ### Are these rates safe?
 
@@ -51,15 +53,16 @@ There is not enough qualifying APY history to rank BUNKER pools. This view cover
 
 ## Related tokens
 
+- [WEETH](https://www.defi.garden/tokens/weeth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WETH](https://www.defi.garden/tokens/weth)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [BNSOL](https://www.defi.garden/tokens/bnsol)
-- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
+- [Base](https://www.defi.garden/chains/base)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 8, 2026
+## Last updated October 9, 2026

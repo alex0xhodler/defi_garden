@@ -1,43 +1,43 @@
 # USDM DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
 
-The highest honest USDM yield right now is 25.08% on mento-v3 (Monad), among 12 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDM yield right now is 25.02% on mento-v3 (Monad), among 11 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=eb21dc22-0b56-4dad-90df-331373f26d34#src=seo_token) | Ethereum | 2.34% | $10.41M |
-| [mento-v3 →](https://www.defi.garden/?pool=ce74b9e0-376d-45ea-b1a4-362de60c12ce#src=seo_token) | Monad | 12.42% | $2.49M |
-| [minswap-dex →](https://www.defi.garden/?pool=d66c9dc4-6ce4-41ba-b446-edb89e19cce6#src=seo_token) | Cardano | 20.55% | $967.2K |
-| [mento-v3 →](https://www.defi.garden/?pool=51f3ee86-2dd5-41e7-951c-c8c27165abbf#src=seo_token) | Monad | 24.35% | $621.9K |
-| [mento-v3 →](https://www.defi.garden/?pool=85dded37-c55d-4b2c-aca1-a136854bec51#src=seo_token) | Monad | 25.08% | $611K |
-| [aave-v3 →](https://www.defi.garden/?pool=5c994437-94bf-4c96-a4c1-5b8ae446dfd0#src=seo_token) | MegaETH | 5.23% | $524.9K |
-| [liqwid →](https://www.defi.garden/?pool=ce3021c9-af52-46b0-a61a-3e92acdfd79b#src=seo_token) | Cardano | 15.02% | $524.2K |
-| [mento-v3 →](https://www.defi.garden/?pool=b4fe9dc1-d635-4d15-8a4f-0a38e880e572#src=seo_token) | Monad | 14.61% | $323.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=eb21dc22-0b56-4dad-90df-331373f26d34#src=seo_token) | Ethereum | 3.86% | $7.31M |
+| [mento-v3 →](https://www.defi.garden/?pool=ce74b9e0-376d-45ea-b1a4-362de60c12ce#src=seo_token) | Monad | 12.55% | $2.47M |
+| [minswap-dex →](https://www.defi.garden/?pool=d66c9dc4-6ce4-41ba-b446-edb89e19cce6#src=seo_token) | Cardano | 21.10% | $947.1K |
+| [mento-v3 →](https://www.defi.garden/?pool=51f3ee86-2dd5-41e7-951c-c8c27165abbf#src=seo_token) | Monad | 24.14% | $628.1K |
+| [mento-v3 →](https://www.defi.garden/?pool=85dded37-c55d-4b2c-aca1-a136854bec51#src=seo_token) | Monad | 25.02% | $613.7K |
+| [aave-v3 →](https://www.defi.garden/?pool=5c994437-94bf-4c96-a4c1-5b8ae446dfd0#src=seo_token) | MegaETH | 5.55% | $500.9K |
+| [liqwid →](https://www.defi.garden/?pool=ce3021c9-af52-46b0-a61a-3e92acdfd79b#src=seo_token) | Cardano | 16.06% | $459.6K |
+| [mento-v3 →](https://www.defi.garden/?pool=b4fe9dc1-d635-4d15-8a4f-0a38e880e572#src=seo_token) | Monad | 14.77% | $324K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, USDM's lower-variability candidates are uniswap-v3 (Ethereum), 2.34% APY, $10.41M TVL, https://www.defi.garden/?pool=eb21dc22-0b56-4dad-90df-331373f26d34#src=seo_token; aave-v3 (MegaETH), 5.23% APY, $524.9K TVL, https://www.defi.garden/?pool=5c994437-94bf-4c96-a4c1-5b8ae446dfd0#src=seo_token; mento-v3 (Monad), 24.35% APY, $621.9K TVL, https://www.defi.garden/?pool=51f3ee86-2dd5-41e7-951c-c8c27165abbf#src=seo_token; mento-v3 (Monad), 25.08% APY, $611K TVL, https://www.defi.garden/?pool=85dded37-c55d-4b2c-aca1-a136854bec51#src=seo_token; mento-v3 (Monad), 12.42% APY, $2.49M TVL, https://www.defi.garden/?pool=ce74b9e0-376d-45ea-b1a4-362de60c12ce#src=seo_token; liqwid (Cardano), 15.02% APY, $524.2K TVL, https://www.defi.garden/?pool=ce3021c9-af52-46b0-a61a-3e92acdfd79b#src=seo_token; mento-v3 (Monad), 14.61% APY, $323.6K TVL, https://www.defi.garden/?pool=b4fe9dc1-d635-4d15-8a4f-0a38e880e572#src=seo_token; minswap-dex (Cardano), 20.55% APY, $967.2K TVL, https://www.defi.garden/?pool=d66c9dc4-6ce4-41ba-b446-edb89e19cce6#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDM's lower-variability candidates are uniswap-v3 (Ethereum), 3.86% APY, $7.31M TVL, https://www.defi.garden/?pool=eb21dc22-0b56-4dad-90df-331373f26d34#src=seo_token; aave-v3 (MegaETH), 5.55% APY, $500.9K TVL, https://www.defi.garden/?pool=5c994437-94bf-4c96-a4c1-5b8ae446dfd0#src=seo_token; mento-v3 (Monad), 24.14% APY, $628.1K TVL, https://www.defi.garden/?pool=51f3ee86-2dd5-41e7-951c-c8c27165abbf#src=seo_token; mento-v3 (Monad), 25.02% APY, $613.7K TVL, https://www.defi.garden/?pool=85dded37-c55d-4b2c-aca1-a136854bec51#src=seo_token; mento-v3 (Monad), 12.55% APY, $2.47M TVL, https://www.defi.garden/?pool=ce74b9e0-376d-45ea-b1a4-362de60c12ce#src=seo_token; liqwid (Cardano), 16.06% APY, $459.6K TVL, https://www.defi.garden/?pool=ce3021c9-af52-46b0-a61a-3e92acdfd79b#src=seo_token; mento-v3 (Monad), 14.77% APY, $324K TVL, https://www.defi.garden/?pool=b4fe9dc1-d635-4d15-8a4f-0a38e880e572#src=seo_token; minswap-dex (Cardano), 21.10% APY, $947.1K TVL, https://www.defi.garden/?pool=d66c9dc4-6ce4-41ba-b446-edb89e19cce6#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=eb21dc22-0b56-4dad-90df-331373f26d34#src=seo_token) | Ethereum | 2.34% | $10.41M |
-| 2 | [aave-v3 →](https://www.defi.garden/?pool=5c994437-94bf-4c96-a4c1-5b8ae446dfd0#src=seo_token) | MegaETH | 5.23% | $524.9K |
-| 3 | [mento-v3 →](https://www.defi.garden/?pool=51f3ee86-2dd5-41e7-951c-c8c27165abbf#src=seo_token) | Monad | 24.35% | $621.9K |
-| 4 | [mento-v3 →](https://www.defi.garden/?pool=85dded37-c55d-4b2c-aca1-a136854bec51#src=seo_token) | Monad | 25.08% | $611K |
-| 5 | [mento-v3 →](https://www.defi.garden/?pool=ce74b9e0-376d-45ea-b1a4-362de60c12ce#src=seo_token) | Monad | 12.42% | $2.49M |
-| 6 | [liqwid →](https://www.defi.garden/?pool=ce3021c9-af52-46b0-a61a-3e92acdfd79b#src=seo_token) | Cardano | 15.02% | $524.2K |
-| 7 | [mento-v3 →](https://www.defi.garden/?pool=b4fe9dc1-d635-4d15-8a4f-0a38e880e572#src=seo_token) | Monad | 14.61% | $323.6K |
-| 8 | [minswap-dex →](https://www.defi.garden/?pool=d66c9dc4-6ce4-41ba-b446-edb89e19cce6#src=seo_token) | Cardano | 20.55% | $967.2K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=eb21dc22-0b56-4dad-90df-331373f26d34#src=seo_token) | Ethereum | 3.86% | $7.31M |
+| 2 | [aave-v3 →](https://www.defi.garden/?pool=5c994437-94bf-4c96-a4c1-5b8ae446dfd0#src=seo_token) | MegaETH | 5.55% | $500.9K |
+| 3 | [mento-v3 →](https://www.defi.garden/?pool=51f3ee86-2dd5-41e7-951c-c8c27165abbf#src=seo_token) | Monad | 24.14% | $628.1K |
+| 4 | [mento-v3 →](https://www.defi.garden/?pool=85dded37-c55d-4b2c-aca1-a136854bec51#src=seo_token) | Monad | 25.02% | $613.7K |
+| 5 | [mento-v3 →](https://www.defi.garden/?pool=ce74b9e0-376d-45ea-b1a4-362de60c12ce#src=seo_token) | Monad | 12.55% | $2.47M |
+| 6 | [liqwid →](https://www.defi.garden/?pool=ce3021c9-af52-46b0-a61a-3e92acdfd79b#src=seo_token) | Cardano | 16.06% | $459.6K |
+| 7 | [mento-v3 →](https://www.defi.garden/?pool=b4fe9dc1-d635-4d15-8a4f-0a38e880e572#src=seo_token) | Monad | 14.77% | $324K |
+| 8 | [minswap-dex →](https://www.defi.garden/?pool=d66c9dc4-6ce4-41ba-b446-edb89e19cce6#src=seo_token) | Cardano | 21.10% | $947.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-USDM shows up in 8 pools here, with rates from 2.34% to 25.08% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
+USDM shows up in 8 pools here, with rates from 3.86% to 25.02% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 15.43% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 15.38% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 5 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -45,14 +45,14 @@ USDM shows up in 8 pools here, with rates from 2.34% to 25.08% APY across 4 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 2.34% | 0.50% | Base rate |
-| mento-v3 | 12.42% | 14.03% | 97.96% incentives |
-| minswap-dex | 20.55% | 35.79% | 25.64% incentives |
-| mento-v3 | 24.35% | 24.56% | 99.92% incentives |
-| mento-v3 | 25.08% | 23.13% | 98.73% incentives |
-| aave-v3 | 5.23% | 4.45% | Base rate |
-| liqwid | 15.02% | 16.83% | Base rate |
-| mento-v3 | 14.61% | 13.50% | 80.13% incentives |
+| uniswap-v3 | 3.86% | 0.86% | Base rate |
+| mento-v3 | 12.55% | 13.95% | 97.60% incentives |
+| minswap-dex | 21.10% | 35.74% | 24.83% incentives |
+| mento-v3 | 24.14% | 24.49% | 99.92% incentives |
+| mento-v3 | 25.02% | 23.22% | 98.72% incentives |
+| aave-v3 | 5.55% | 4.51% | Base rate |
+| liqwid | 16.06% | 16.80% | Base rate |
+| mento-v3 | 14.77% | 13.61% | 79.05% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -60,11 +60,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USDM yield today?
 
-25.08% APY on mento-v3 (Monad), based on live DefiLlama data.
+25.02% APY on mento-v3 (Monad), based on live DefiLlama data.
 
 ### How many USDM pools clear the TVL floor?
 
-12 live pools clear this page's $100K TVL floor, $16.99M in total.
+11 live pools clear this page's $100K TVL floor, $13.66M in total.
 
 ### Are these rates safe?
 
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USDM pools have the most stable APY history?
 
-Based on APY history only, USDM's lower-variability candidates are uniswap-v3 (Ethereum), 2.34% APY, $10.41M TVL, https://www.defi.garden/?pool=eb21dc22-0b56-4dad-90df-331373f26d34#src=seo_token; aave-v3 (MegaETH), 5.23% APY, $524.9K TVL, https://www.defi.garden/?pool=5c994437-94bf-4c96-a4c1-5b8ae446dfd0#src=seo_token; mento-v3 (Monad), 24.35% APY, $621.9K TVL, https://www.defi.garden/?pool=51f3ee86-2dd5-41e7-951c-c8c27165abbf#src=seo_token; mento-v3 (Monad), 25.08% APY, $611K TVL, https://www.defi.garden/?pool=85dded37-c55d-4b2c-aca1-a136854bec51#src=seo_token; mento-v3 (Monad), 12.42% APY, $2.49M TVL, https://www.defi.garden/?pool=ce74b9e0-376d-45ea-b1a4-362de60c12ce#src=seo_token; liqwid (Cardano), 15.02% APY, $524.2K TVL, https://www.defi.garden/?pool=ce3021c9-af52-46b0-a61a-3e92acdfd79b#src=seo_token; mento-v3 (Monad), 14.61% APY, $323.6K TVL, https://www.defi.garden/?pool=b4fe9dc1-d635-4d15-8a4f-0a38e880e572#src=seo_token; minswap-dex (Cardano), 20.55% APY, $967.2K TVL, https://www.defi.garden/?pool=d66c9dc4-6ce4-41ba-b446-edb89e19cce6#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDM's lower-variability candidates are uniswap-v3 (Ethereum), 3.86% APY, $7.31M TVL, https://www.defi.garden/?pool=eb21dc22-0b56-4dad-90df-331373f26d34#src=seo_token; aave-v3 (MegaETH), 5.55% APY, $500.9K TVL, https://www.defi.garden/?pool=5c994437-94bf-4c96-a4c1-5b8ae446dfd0#src=seo_token; mento-v3 (Monad), 24.14% APY, $628.1K TVL, https://www.defi.garden/?pool=51f3ee86-2dd5-41e7-951c-c8c27165abbf#src=seo_token; mento-v3 (Monad), 25.02% APY, $613.7K TVL, https://www.defi.garden/?pool=85dded37-c55d-4b2c-aca1-a136854bec51#src=seo_token; mento-v3 (Monad), 12.55% APY, $2.47M TVL, https://www.defi.garden/?pool=ce74b9e0-376d-45ea-b1a4-362de60c12ce#src=seo_token; liqwid (Cardano), 16.06% APY, $459.6K TVL, https://www.defi.garden/?pool=ce3021c9-af52-46b0-a61a-3e92acdfd79b#src=seo_token; mento-v3 (Monad), 14.77% APY, $324K TVL, https://www.defi.garden/?pool=b4fe9dc1-d635-4d15-8a4f-0a38e880e572#src=seo_token; minswap-dex (Cardano), 21.10% APY, $947.1K TVL, https://www.defi.garden/?pool=d66c9dc4-6ce4-41ba-b446-edb89e19cce6#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -90,4 +90,4 @@ Based on APY history only, USDM's lower-variability candidates are uniswap-v3 (E
 - [Cardano](https://www.defi.garden/chains/cardano)
 - [MegaETH](https://www.defi.garden/chains/megaeth)
 
-## Last updated October 8, 2026
+## Last updated October 9, 2026

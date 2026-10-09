@@ -1,12 +1,12 @@
 # TOBY DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
 
-The highest honest TOBY yield right now is 4.73% on sushiswap (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TOBY yield right now is 2.48% on sushiswap (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sushiswap →](https://www.defi.garden/?pool=b4d427a7-2530-4510-a47c-54b99d57de12#src=seo_token) | Base | 4.73% | $173.5K |
+| [sushiswap →](https://www.defi.garden/?pool=b4d427a7-2530-4510-a47c-54b99d57de12#src=seo_token) | Base | 2.48% | $174.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TOBY yield today?
 
-4.73% APY on sushiswap (Base), based on live DefiLlama data.
+2.48% APY on sushiswap (Base), based on live DefiLlama data.
 
 ### How many TOBY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $173.5K in total.
+1 live pool clear this page's $100K TVL floor, $174.1K in total.
 
 ### Are these rates safe?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank TOBY pools. This view covers 
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [USDS](https://www.defi.garden/tokens/usds)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 8, 2026
+## Last updated October 9, 2026

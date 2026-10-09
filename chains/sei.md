@@ -4,11 +4,11 @@ The highest honest Sei yield right now is 12.03% on takara-lend (Sei), among 10 
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| USDY | [ondo-yield-assets →](https://www.defi.garden/pools/ondo-yield-assets-usdy-sei) | 3.64% | $259.43M |
-| SYZUSD | [yuzu-money →](https://www.defi.garden/?pool=20ccc2e5-0eca-4d9d-abd0-313908f51b31#src=seo_chain) | 7.95% | $8.81M |
-| WSEI | [takara-lend →](https://www.defi.garden/?pool=450812cf-e0cb-4609-9645-2df1e9cf01a5#src=seo_chain) | 1.09% | $1.4M |
-| USD₮0 | [takara-lend →](https://www.defi.garden/?pool=45cb0bd0-a5d1-4c28-bf84-1dcdf4a93321#src=seo_chain) | 12.03% | $445.4K |
-| USDC | [takara-lend →](https://www.defi.garden/?pool=099e1398-4924-41bc-9ec5-c164dc236cea#src=seo_chain) | 10.59% | $194.6K |
+| USDY | [ondo-yield-assets →](https://www.defi.garden/pools/ondo-yield-assets-usdy-sei) | 3.65% | $259.46M |
+| SYZUSD | [yuzu-money →](https://www.defi.garden/?pool=20ccc2e5-0eca-4d9d-abd0-313908f51b31#src=seo_chain) | 7.97% | $8.81M |
+| WSEI | [takara-lend →](https://www.defi.garden/?pool=450812cf-e0cb-4609-9645-2df1e9cf01a5#src=seo_chain) | 1.09% | $1.37M |
+| USD₮0 | [takara-lend →](https://www.defi.garden/?pool=45cb0bd0-a5d1-4c28-bf84-1dcdf4a93321#src=seo_chain) | 12.03% | $442.6K |
+| USDC | [takara-lend →](https://www.defi.garden/?pool=099e1398-4924-41bc-9ec5-c164dc236cea#src=seo_chain) | 10.69% | $192.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,7 +20,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Sei pools clear the TVL floor?
 
-10 live pools clear this page's $100K TVL floor, $335.38M in total.
+10 live pools clear this page's $100K TVL floor, $334.98M in total.
 
 ### Are these rates safe?
 
@@ -42,4 +42,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WSEI](https://www.defi.garden/tokens/wsei)
 - [USDC](https://www.defi.garden/tokens/usdc)
 
-## Last updated October 8, 2026
+## Last updated October 9, 2026

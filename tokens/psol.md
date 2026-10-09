@@ -1,31 +1,31 @@
 # PSOL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
 
 The highest honest PSOL yield right now is 5.61% on phantom-sol (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [phantom-sol →](https://www.defi.garden/pools/phantom-sol-psol-solana) | Solana | 5.61% | $184.19M |
-| [orca-dex →](https://www.defi.garden/?pool=f77695be-107f-40d3-9414-f718c459f225#src=seo_token) | Solana | 0.15% | $2.22M |
+| [phantom-sol →](https://www.defi.garden/pools/phantom-sol-psol-solana) | Solana | 5.61% | $176.71M |
+| [orca-dex →](https://www.defi.garden/?pool=f77695be-107f-40d3-9414-f718c459f225#src=seo_token) | Solana | 0.03% | $2.13M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, PSOL's lower-variability candidates are orca-dex (Solana), 0.15% APY, $2.22M TVL, https://www.defi.garden/?pool=f77695be-107f-40d3-9414-f718c459f225#src=seo_token; phantom-sol (Solana), 5.61% APY, $184.19M TVL, https://www.defi.garden/pools/phantom-sol-psol-solana. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PSOL's lower-variability candidates are orca-dex (Solana), 0.03% APY, $2.13M TVL, https://www.defi.garden/?pool=f77695be-107f-40d3-9414-f718c459f225#src=seo_token; phantom-sol (Solana), 5.61% APY, $176.71M TVL, https://www.defi.garden/pools/phantom-sol-psol-solana. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [orca-dex →](https://www.defi.garden/?pool=f77695be-107f-40d3-9414-f718c459f225#src=seo_token) | Solana | 0.15% | $2.22M |
-| 2 | [phantom-sol →](https://www.defi.garden/pools/phantom-sol-psol-solana) | Solana | 5.61% | $184.19M |
+| 1 | [orca-dex →](https://www.defi.garden/?pool=f77695be-107f-40d3-9414-f718c459f225#src=seo_token) | Solana | 0.03% | $2.13M |
+| 2 | [phantom-sol →](https://www.defi.garden/pools/phantom-sol-psol-solana) | Solana | 5.61% | $176.71M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-PSOL shows up in 2 pools here, with rates from 0.15% to 5.61% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+PSOL shows up in 2 pools here, with rates from 0.03% to 5.61% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.24% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.25% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| phantom-sol | 5.61% | 4.21% | Base rate |
-| orca-dex | 0.15% | 0.28% | Base rate |
+| phantom-sol | 5.61% | 4.23% | Base rate |
+| orca-dex | 0.03% | 0.28% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many PSOL pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $192.81M in total.
+3 live pools clear this page's $100K TVL floor, $185.03M in total.
 
 ### Are these rates safe?
 
@@ -54,19 +54,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which PSOL pools have the most stable APY history?
 
-Based on APY history only, PSOL's lower-variability candidates are orca-dex (Solana), 0.15% APY, $2.22M TVL, https://www.defi.garden/?pool=f77695be-107f-40d3-9414-f718c459f225#src=seo_token; phantom-sol (Solana), 5.61% APY, $184.19M TVL, https://www.defi.garden/pools/phantom-sol-psol-solana. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PSOL's lower-variability candidates are orca-dex (Solana), 0.03% APY, $2.13M TVL, https://www.defi.garden/?pool=f77695be-107f-40d3-9414-f718c459f225#src=seo_token; phantom-sol (Solana), 5.61% APY, $176.71M TVL, https://www.defi.garden/pools/phantom-sol-psol-solana. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [BNSOL](https://www.defi.garden/tokens/bnsol)
-- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 8, 2026
+## Last updated October 9, 2026

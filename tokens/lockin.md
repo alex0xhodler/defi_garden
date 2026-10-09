@@ -1,12 +1,12 @@
 # LOCKIN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
 
-The highest honest LOCKIN yield right now is 1.99% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LOCKIN yield right now is 1.67% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=b3aa20ae-6e2c-4f68-b1ed-b36b76caa649#src=seo_token) | Solana | 1.99% | $298.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=b3aa20ae-6e2c-4f68-b1ed-b36b76caa649#src=seo_token) | Solana | 1.67% | $282.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LOCKIN yield today?
 
-1.99% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.67% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many LOCKIN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $298.1K in total.
+1 live pool clear this page's $100K TVL floor, $282.2K in total.
 
 ### Are these rates safe?
 
@@ -36,14 +36,14 @@ There is not enough qualifying APY history to rank LOCKIN pools. This view cover
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [BNSOL](https://www.defi.garden/tokens/bnsol)
-- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 8, 2026
+## Last updated October 9, 2026

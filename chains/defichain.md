@@ -1,14 +1,11 @@
 # Defichain DeFi Yields
 
-The highest honest Defichain yield right now is 0.47% on defichain-dex (Defichain), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Defichain yield right now is 0.01% on defichain-dex (Defichain), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| DUSD-DFI | [defichain-dex →](https://www.defi.garden/?pool=74ab9394-5d6d-41a6-955e-b246ecc8dede#src=seo_chain) | 0.30% | $628K |
-| TSLA-DUSD | [defichain-dex →](https://www.defi.garden/?pool=dc833f4f-eafc-4d50-ac5d-b0237641ba5a#src=seo_chain) | 0.79% | $275.5K |
-| MSTR-DUSD | [defichain-dex →](https://www.defi.garden/?pool=4f4e18b0-ad83-4322-bd49-299f51092ea9#src=seo_chain) | 0.29% | $253.3K |
-| SPY-DUSD | [defichain-dex →](https://www.defi.garden/?pool=d6f831a7-0079-4400-b2c5-a8436358d53a#src=seo_chain) | 0.57% | $193.4K |
-| NVDA-DUSD | [defichain-dex →](https://www.defi.garden/?pool=a13e4841-8f66-4426-9ed1-472c9e159e93#src=seo_chain) | 0.47% | $154.8K |
+| DUSD-DFI | [defichain-dex →](https://www.defi.garden/?pool=74ab9394-5d6d-41a6-955e-b246ecc8dede#src=seo_chain) | 0.04% | $628.7K |
+| MSTR-DUSD | [defichain-dex →](https://www.defi.garden/?pool=4f4e18b0-ad83-4322-bd49-299f51092ea9#src=seo_chain) | 0.01% | $253.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Defichain yield today?
 
-0.47% APY on defichain-dex (Defichain), based on live DefiLlama data.
+0.01% APY on defichain-dex (Defichain), based on live DefiLlama data.
 
 ### How many Defichain pools clear the TVL floor?
 
@@ -39,9 +36,6 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [DUSD](https://www.defi.garden/tokens/dusd)
 - [DFI](https://www.defi.garden/tokens/dfi)
-- [TSLA](https://www.defi.garden/tokens/tsla)
 - [MSTR](https://www.defi.garden/tokens/mstr)
-- [SPY](https://www.defi.garden/tokens/spy)
-- [NVDA](https://www.defi.garden/tokens/nvda)
 
-## Last updated October 8, 2026
+## Last updated October 9, 2026

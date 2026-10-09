@@ -1,31 +1,31 @@
 # CARV DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
 
-The highest honest CARV yield right now is 108.22% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CARV yield right now is 100.75% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=eda66f9b-6a81-47e2-9143-1702bfbdfa41#src=seo_token) | Base | 132.77% | $258.4K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=3483ab4a-266c-494a-93f9-1caee16102f1#src=seo_token) | Base | 108.22% | $101.7K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=eda66f9b-6a81-47e2-9143-1702bfbdfa41#src=seo_token) | Base | 122.09% | $257.7K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=3483ab4a-266c-494a-93f9-1caee16102f1#src=seo_token) | Base | 100.75% | $101.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, CARV's lower-variability candidates are aerodrome-slipstream (Base), 108.22% APY, $101.7K TVL, https://www.defi.garden/?pool=3483ab4a-266c-494a-93f9-1caee16102f1#src=seo_token; aerodrome-slipstream (Base), 132.77% APY, $258.4K TVL, https://www.defi.garden/?pool=eda66f9b-6a81-47e2-9143-1702bfbdfa41#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CARV's lower-variability candidates are aerodrome-slipstream (Base), 100.75% APY, $101.8K TVL, https://www.defi.garden/?pool=3483ab4a-266c-494a-93f9-1caee16102f1#src=seo_token; aerodrome-slipstream (Base), 122.09% APY, $257.7K TVL, https://www.defi.garden/?pool=eda66f9b-6a81-47e2-9143-1702bfbdfa41#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aerodrome-slipstream →](https://www.defi.garden/?pool=3483ab4a-266c-494a-93f9-1caee16102f1#src=seo_token) | Base | 108.22% | $101.7K |
-| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=eda66f9b-6a81-47e2-9143-1702bfbdfa41#src=seo_token) | Base | 132.77% | $258.4K |
+| 1 | [aerodrome-slipstream →](https://www.defi.garden/?pool=3483ab4a-266c-494a-93f9-1caee16102f1#src=seo_token) | Base | 100.75% | $101.8K |
+| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=eda66f9b-6a81-47e2-9143-1702bfbdfa41#src=seo_token) | Base | 122.09% | $257.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CARV shows up in 2 pools here, with rates from 108.22% to 132.77% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CARV shows up in 2 pools here, with rates from 100.75% to 122.09% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 244.16% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 244.11% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 2 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -33,8 +33,8 @@ CARV shows up in 2 pools here, with rates from 108.22% to 132.77% APY across 1 c
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 132.77% | 317.27% | 96.85% incentives |
-| aerodrome-slipstream | 108.22% | 171.05% | 70.71% incentives |
+| aerodrome-slipstream | 122.09% | 317.98% | 98.53% incentives |
+| aerodrome-slipstream | 100.75% | 170.24% | 72.40% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CARV yield today?
 
-108.22% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+100.75% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many CARV pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $360K in total.
+2 live pools clear this page's $100K TVL floor, $359.5K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which CARV pools have the most stable APY history?
 
-Based on APY history only, CARV's lower-variability candidates are aerodrome-slipstream (Base), 108.22% APY, $101.7K TVL, https://www.defi.garden/?pool=3483ab4a-266c-494a-93f9-1caee16102f1#src=seo_token; aerodrome-slipstream (Base), 132.77% APY, $258.4K TVL, https://www.defi.garden/?pool=eda66f9b-6a81-47e2-9143-1702bfbdfa41#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CARV's lower-variability candidates are aerodrome-slipstream (Base), 100.75% APY, $101.8K TVL, https://www.defi.garden/?pool=3483ab4a-266c-494a-93f9-1caee16102f1#src=seo_token; aerodrome-slipstream (Base), 122.09% APY, $257.7K TVL, https://www.defi.garden/?pool=eda66f9b-6a81-47e2-9143-1702bfbdfa41#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -63,10 +63,10 @@ Based on APY history only, CARV's lower-variability candidates are aerodrome-sli
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [USDS](https://www.defi.garden/tokens/usds)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 8, 2026
+## Last updated October 9, 2026

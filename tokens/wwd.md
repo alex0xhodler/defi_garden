@@ -1,12 +1,12 @@
 # WWD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
 
-The highest honest WWD yield right now is 0.15% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WWD yield right now is 0.03% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=bf5dac09-8ea3-4ce2-af60-4c65754f9de5#src=seo_token) | Polygon | 0.15% | $270.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=bf5dac09-8ea3-4ce2-af60-4c65754f9de5#src=seo_token) | Polygon | 0.03% | $269.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WWD yield today?
 
-0.15% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
+0.03% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
 
 ### How many WWD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $270.1K in total.
+1 live pool clear this page's $100K TVL floor, $269.7K in total.
 
 ### Are these rates safe?
 
@@ -36,14 +36,14 @@ There is not enough qualifying APY history to rank WWD pools. This view covers A
 ## Related tokens
 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [DAI](https://www.defi.garden/tokens/dai)
 - [LINK](https://www.defi.garden/tokens/link)
 - [AAVE](https://www.defi.garden/tokens/aave)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
-- [BET](https://www.defi.garden/tokens/bet)
 
 ## Available on
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated October 8, 2026
+## Last updated October 9, 2026

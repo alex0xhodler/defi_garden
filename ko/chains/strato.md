@@ -4,7 +4,7 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| USDST | [strato →](https://www.defi.garden/?pool=3d1f50ff-60fc-5456-966d-c66a6542d20f#src=seo_chain) | 5.00% | $1.71M |
+| USDST | [strato →](https://www.defi.garden/?pool=3d1f50ff-60fc-5456-966d-c66a6542d20f#src=seo_chain) | 5.00% | $1.7M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Strato의 strato에서 APY 5.00%예요.
 
 - [USDST](https://www.defi.garden/ko/tokens/usdst)
 
-## 마지막 업데이트: October 8, 2026
+## 마지막 업데이트: October 9, 2026

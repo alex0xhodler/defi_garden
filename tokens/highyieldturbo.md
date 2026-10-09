@@ -1,12 +1,12 @@
 # HIGHYIELDTURBO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
 
-The highest honest HIGHYIELDTURBO yield right now is 1.52% on steakhouse-financial (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HIGHYIELDTURBO yield right now is 1.44% on steakhouse-financial (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [steakhouse-financial →](https://www.defi.garden/?pool=230d2275-8440-4154-8136-d307370def09#src=seo_token) | Ethereum | 1.52% | $182.4K |
+| [steakhouse-financial →](https://www.defi.garden/?pool=230d2275-8440-4154-8136-d307370def09#src=seo_token) | Ethereum | 1.44% | $181.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HIGHYIELDTURBO yield today?
 
-1.52% APY on steakhouse-financial (Ethereum), based on live DefiLlama data.
+1.44% APY on steakhouse-financial (Ethereum), based on live DefiLlama data.
 
 ### How many HIGHYIELDTURBO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $182.4K in total.
+1 live pool clear this page's $100K TVL floor, $181.5K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank HIGHYIELDTURBO pools. This vi
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 8, 2026
+## Last updated October 9, 2026

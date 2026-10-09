@@ -1,17 +1,17 @@
 # Solana DeFi Yields
 
-The highest honest Solana yield right now is 11.02% on onre (Solana), among 974 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Solana yield right now is 11.02% on onre (Solana), among 984 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| JITOSOL | [jito-liquid-staking →](https://www.defi.garden/pools/jito-liquid-staking-jitosol-solana) | 4.82% | $1.2B |
-| BNSOL | [binance-staked-sol →](https://www.defi.garden/pools/binance-staked-sol-bnsol-solana) | 4.69% | $1.18B |
-| BUIDL | [blackrock-buidl →](https://www.defi.garden/pools/blackrock-buidl-buidl-solana) | 3.78% | $930.17M |
-| JUPSOL | [jupiter-staked-sol →](https://www.defi.garden/pools/jupiter-staked-sol-jupsol-solana) | 5.43% | $596.11M |
-| USDC | [jupiter-lend →](https://www.defi.garden/?pool=d783c8df-e2ed-44b4-8317-161ccc1b5f06#src=seo_chain) | 4.18% | $527.04M |
-| DSOL | [drift-staked-sol →](https://www.defi.garden/pools/drift-staked-sol-dsol-solana) | 4.96% | $320.03M |
-| ONYC | [onre →](https://www.defi.garden/pools/onre-onyc-solana) | 11.02% | $287.61M |
-| MSOL | [marinade-liquid-staking →](https://www.defi.garden/pools/marinade-liquid-staking-msol-solana) | 5.72% | $258.36M |
+| JITOSOL | [jito-liquid-staking →](https://www.defi.garden/pools/jito-liquid-staking-jitosol-solana) | 4.82% | $1.15B |
+| BNSOL | [binance-staked-sol →](https://www.defi.garden/pools/binance-staked-sol-bnsol-solana) | 4.69% | $1.13B |
+| BUIDL | [blackrock-buidl →](https://www.defi.garden/pools/blackrock-buidl-buidl-solana) | 3.78% | $924.57M |
+| JUPSOL | [jupiter-staked-sol →](https://www.defi.garden/pools/jupiter-staked-sol-jupsol-solana) | 5.43% | $571.22M |
+| USDC | [jupiter-lend →](https://www.defi.garden/?pool=d783c8df-e2ed-44b4-8317-161ccc1b5f06#src=seo_chain) | 4.49% | $512.26M |
+| DSOL | [drift-staked-sol →](https://www.defi.garden/pools/drift-staked-sol-dsol-solana) | 4.96% | $306.86M |
+| ONYC | [onre →](https://www.defi.garden/pools/onre-onyc-solana) | 11.02% | $288.08M |
+| MSOL | [marinade-liquid-staking →](https://www.defi.garden/pools/marinade-liquid-staking-msol-solana) | 4.74% | $247.61M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Solana pools clear the TVL floor?
 
-974 live pools clear this page's $100K TVL floor, $11.7B in total.
+984 live pools clear this page's $100K TVL floor, $11.41B in total.
 
 ### Are these rates safe?
 
@@ -49,4 +49,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [ONYC](https://www.defi.garden/tokens/onyc)
 - [MSOL](https://www.defi.garden/tokens/msol)
 
-## Last updated October 8, 2026
+## Last updated October 9, 2026

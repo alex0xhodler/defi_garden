@@ -1,12 +1,12 @@
 # KULT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
 
 The highest honest KULT yield right now is 0.71% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=cd5f3777-5c8f-4015-9ada-7b8c36c5d496#src=seo_token) | Base | 0.71% | $197.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=cd5f3777-5c8f-4015-9ada-7b8c36c5d496#src=seo_token) | Base | 0.71% | $191.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many KULT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $197.1K in total.
+1 live pool clear this page's $100K TVL floor, $191.5K in total.
 
 ### Are these rates safe?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank KULT pools. This view covers 
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [USDS](https://www.defi.garden/tokens/usds)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 8, 2026
+## Last updated October 9, 2026

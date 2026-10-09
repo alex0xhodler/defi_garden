@@ -1,12 +1,12 @@
 # JELLYJELLY DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
 
-The highest honest JELLYJELLY yield right now is 3.10% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JELLYJELLY yield right now is 3.94% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=d3f1bb4f-6d3a-41f2-af1a-ae6baa4edd66#src=seo_token) | Solana | 3.10% | $5.2M |
+| [raydium-amm →](https://www.defi.garden/?pool=d3f1bb4f-6d3a-41f2-af1a-ae6baa4edd66#src=seo_token) | Solana | 3.94% | $5.03M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest JELLYJELLY yield today?
 
-3.10% APY on raydium-amm (Solana), based on live DefiLlama data.
+3.94% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many JELLYJELLY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $5.2M in total.
+1 live pool clear this page's $100K TVL floor, $5.03M in total.
 
 ### Are these rates safe?
 
@@ -36,14 +36,14 @@ There is not enough qualifying APY history to rank JELLYJELLY pools. This view c
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [BNSOL](https://www.defi.garden/tokens/bnsol)
-- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 8, 2026
+## Last updated October 9, 2026

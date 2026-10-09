@@ -1,12 +1,12 @@
 # GUSDGST DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
 
-The highest honest GUSDGST yield right now is 2.36% on morpho-blue (Robinhood Chain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GUSDGST yield right now is 4.03% on morpho-blue (Robinhood Chain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=07caf4ad-86b5-5c84-adaa-84e9efc34d1a#src=seo_token) | Robinhood Chain | 2.36% | $2M |
+| [morpho-blue →](https://www.defi.garden/?pool=07caf4ad-86b5-5c84-adaa-84e9efc34d1a#src=seo_token) | Robinhood Chain | 4.03% | $2M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GUSDGST yield today?
 
-2.36% APY on morpho-blue (Robinhood Chain), based on live DefiLlama data.
+4.03% APY on morpho-blue (Robinhood Chain), based on live DefiLlama data.
 
 ### How many GUSDGST pools clear the TVL floor?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank GUSDGST pools. This view cove
 
 - [Robinhood Chain](https://www.defi.garden/chains/robinhood-chain)
 
-## Last updated October 8, 2026
+## Last updated October 9, 2026

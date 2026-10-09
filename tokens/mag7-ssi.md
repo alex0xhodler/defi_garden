@@ -1,12 +1,12 @@
 # MAG7.SSI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
 
-The highest honest MAG7.SSI yield right now is 5.50% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MAG7.SSI yield right now is 13.21% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=eb267ce8-5183-47b6-be35-fbb560757086#src=seo_token) | Base | 5.50% | $2.02M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=eb267ce8-5183-47b6-be35-fbb560757086#src=seo_token) | Base | 13.21% | $2.02M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MAG7.SSI yield today?
 
-5.50% APY on uniswap-v3 (Base), based on live DefiLlama data.
+13.21% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many MAG7.SSI pools clear the TVL floor?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank MAG7.SSI pools. This view cov
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [USDS](https://www.defi.garden/tokens/usds)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 8, 2026
+## Last updated October 9, 2026

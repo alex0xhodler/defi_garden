@@ -1,12 +1,12 @@
 # CTZIGUSD1 DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
 
-The highest honest CTZIGUSD1 yield right now is 9.31% on concrete (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CTZIGUSD1 yield right now is 9.30% on concrete (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [concrete →](https://www.defi.garden/?pool=83e4e0e2-1830-510d-8040-2ab064e5d97d#src=seo_token) | Ethereum | 9.31% | $10.1M |
+| [concrete →](https://www.defi.garden/?pool=83e4e0e2-1830-510d-8040-2ab064e5d97d#src=seo_token) | Ethereum | 9.30% | $10.11M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CTZIGUSD1 yield today?
 
-9.31% APY on concrete (Ethereum), based on live DefiLlama data.
+9.30% APY on concrete (Ethereum), based on live DefiLlama data.
 
 ### How many CTZIGUSD1 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $10.1M in total.
+1 live pool clear this page's $100K TVL floor, $10.11M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank CTZIGUSD1 pools. This view co
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 8, 2026
+## Last updated October 9, 2026

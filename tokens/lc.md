@@ -1,12 +1,12 @@
 # LC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
 
-The highest honest LC yield right now is 25.38% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LC yield right now is 5.54% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=b2fd2d6a-d7c2-4594-b7b7-84a920c64468#src=seo_token) | Solana | 25.38% | $143.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=b2fd2d6a-d7c2-4594-b7b7-84a920c64468#src=seo_token) | Solana | 5.54% | $138.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LC yield today?
 
-25.38% APY on raydium-amm (Solana), based on live DefiLlama data.
+5.54% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many LC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $143.5K in total.
+1 live pool clear this page's $100K TVL floor, $138.1K in total.
 
 ### Are these rates safe?
 
@@ -36,14 +36,14 @@ There is not enough qualifying APY history to rank LC pools. This view covers AP
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [BNSOL](https://www.defi.garden/tokens/bnsol)
-- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 8, 2026
+## Last updated October 9, 2026

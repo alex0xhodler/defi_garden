@@ -1,12 +1,12 @@
 # DCM DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
 
-The highest honest DCM yield right now is 8.03% on makina (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DCM yield right now is 8.70% on makina (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [makina →](https://www.defi.garden/?pool=40ecc2e0-7464-5869-800e-2b66d2a6ac0e#src=seo_token) | Ethereum | 8.03% | $4.33M |
+| [makina →](https://www.defi.garden/?pool=40ecc2e0-7464-5869-800e-2b66d2a6ac0e#src=seo_token) | Ethereum | 8.70% | $4.33M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DCM yield today?
 
-8.03% APY on makina (Ethereum), based on live DefiLlama data.
+8.70% APY on makina (Ethereum), based on live DefiLlama data.
 
 ### How many DCM pools clear the TVL floor?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank DCM pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 8, 2026
+## Last updated October 9, 2026

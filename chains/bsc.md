@@ -1,17 +1,17 @@
 # BSC DeFi Yields
 
-The highest honest BSC yield right now is 2.26% on binance-staked-eth (BSC), among 268 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BSC yield right now is 2.22% on binance-staked-eth (BSC), among 268 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| USYC | [circle-usyc →](https://www.defi.garden/pools/circle-usyc-usyc-bsc) | 3.64% | $2.36B |
-| SLISBNB | [lista-liquid-staking →](https://www.defi.garden/pools/lista-liquid-staking-slisbnb-bsc) | 0.97% | $797.55M |
-| WBETH | [binance-staked-eth →](https://www.defi.garden/pools/binance-staked-eth-wbeth-bsc) | 2.26% | $542.7M |
-| WBNB | [venus-core-pool →](https://www.defi.garden/?pool=747b58ab-aefd-42e1-a312-01ad5a0ab7f5#src=seo_chain) | 0.03% | $379.59M |
-| BNB | [lista-lending →](https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471#src=seo_chain) | 0.21% | $376.29M |
-| BTCB | [venus-core-pool →](https://www.defi.garden/?pool=87c8ee0d-b812-47c1-803f-f91a3907079e#src=seo_chain) | 0.20% | $341.68M |
-| BUIDL | [blackrock-buidl →](https://www.defi.garden/pools/blackrock-buidl-buidl-bsc) | 3.47% | $146.72M |
-| USD1 | [lista-lending →](https://www.defi.garden/pools/lista-lending-usd1-bsc) | 1.27% | $138.21M |
+| USYC | [circle-usyc →](https://www.defi.garden/pools/circle-usyc-usyc-bsc) | 3.33% | $2.36B |
+| SLISBNB | [lista-liquid-staking →](https://www.defi.garden/pools/lista-liquid-staking-slisbnb-bsc) | 0.91% | $772.73M |
+| WBETH | [binance-staked-eth →](https://www.defi.garden/pools/binance-staked-eth-wbeth-bsc) | 2.22% | $528.94M |
+| WBNB | [venus-core-pool →](https://www.defi.garden/?pool=747b58ab-aefd-42e1-a312-01ad5a0ab7f5#src=seo_chain) | 0.02% | $374.8M |
+| BNB | [lista-lending →](https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471#src=seo_chain) | 0.21% | $359.16M |
+| BTCB | [venus-core-pool →](https://www.defi.garden/?pool=87c8ee0d-b812-47c1-803f-f91a3907079e#src=seo_chain) | 0.20% | $341M |
+| BUIDL | [blackrock-buidl →](https://www.defi.garden/pools/blackrock-buidl-buidl-bsc) | 3.47% | $146.74M |
+| USD1 | [lista-lending →](https://www.defi.garden/pools/lista-lending-usd1-bsc) | 1.22% | $138.19M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BSC yield today?
 
-2.26% APY on binance-staked-eth (BSC), based on live DefiLlama data.
+2.22% APY on binance-staked-eth (BSC), based on live DefiLlama data.
 
 ### How many BSC pools clear the TVL floor?
 
-268 live pools clear this page's $100K TVL floor, $6.55B in total.
+268 live pools clear this page's $100K TVL floor, $6.47B in total.
 
 ### Are these rates safe?
 
@@ -49,4 +49,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USD1](https://www.defi.garden/tokens/usd1)
 
-## Last updated October 8, 2026
+## Last updated October 9, 2026

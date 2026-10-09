@@ -1,39 +1,39 @@
 # WAL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
 
-The highest honest WAL yield right now is 152.14% on cetus-clmm (Sui), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WAL yield right now is 171.22% on cetus-clmm (Sui), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [navi-lending →](https://www.defi.garden/?pool=d881b1cf-fe86-43cc-b76a-96444bd850ec#src=seo_token) | Sui | 13.32% | $3.66M |
-| [cetus-clmm →](https://www.defi.garden/?pool=bde28b9b-cb39-4aab-8aa6-4a817661c2a8#src=seo_token) | Sui | 0.01% | $659.9K |
-| [cetus-clmm →](https://www.defi.garden/?pool=593f459f-867e-40c5-9f8a-4724dfaa5bfc#src=seo_token) | Sui | 152.14% | $218.8K |
-| [bluefin-spot →](https://www.defi.garden/?pool=09d1e6b1-5187-494c-a75a-445e54cf8d8a#src=seo_token) | Sui | 130.32% | $147.3K |
-| [bluefin-spot →](https://www.defi.garden/?pool=daaa9d90-8187-4da9-95ff-4e004a9cb9e7#src=seo_token) | Sui | 24.09% | $130.3K |
-| [scallop-lend →](https://www.defi.garden/?pool=a0e4e33f-0adb-4466-b80c-1119e47e9c7f#src=seo_token) | Sui | 1.46% | $115.3K |
+| [navi-lending →](https://www.defi.garden/?pool=d881b1cf-fe86-43cc-b76a-96444bd850ec#src=seo_token) | Sui | 13.41% | $3.51M |
+| [cetus-clmm →](https://www.defi.garden/?pool=bde28b9b-cb39-4aab-8aa6-4a817661c2a8#src=seo_token) | Sui | 0.14% | $608.8K |
+| [cetus-clmm →](https://www.defi.garden/?pool=593f459f-867e-40c5-9f8a-4724dfaa5bfc#src=seo_token) | Sui | 171.22% | $174.8K |
+| [bluefin-spot →](https://www.defi.garden/?pool=09d1e6b1-5187-494c-a75a-445e54cf8d8a#src=seo_token) | Sui | 104.39% | $145.9K |
+| [bluefin-spot →](https://www.defi.garden/?pool=daaa9d90-8187-4da9-95ff-4e004a9cb9e7#src=seo_token) | Sui | 22.50% | $130.5K |
+| [scallop-lend →](https://www.defi.garden/?pool=a0e4e33f-0adb-4466-b80c-1119e47e9c7f#src=seo_token) | Sui | 0.61% | $121K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WAL's lower-variability candidates are cetus-clmm (Sui), 0.01% APY, $659.9K TVL, https://www.defi.garden/?pool=bde28b9b-cb39-4aab-8aa6-4a817661c2a8#src=seo_token; navi-lending (Sui), 13.32% APY, $3.66M TVL, https://www.defi.garden/?pool=d881b1cf-fe86-43cc-b76a-96444bd850ec#src=seo_token; bluefin-spot (Sui), 24.09% APY, $130.3K TVL, https://www.defi.garden/?pool=daaa9d90-8187-4da9-95ff-4e004a9cb9e7#src=seo_token; scallop-lend (Sui), 1.46% APY, $115.3K TVL, https://www.defi.garden/?pool=a0e4e33f-0adb-4466-b80c-1119e47e9c7f#src=seo_token; bluefin-spot (Sui), 130.32% APY, $147.3K TVL, https://www.defi.garden/?pool=09d1e6b1-5187-494c-a75a-445e54cf8d8a#src=seo_token; cetus-clmm (Sui), 152.14% APY, $218.8K TVL, https://www.defi.garden/?pool=593f459f-867e-40c5-9f8a-4724dfaa5bfc#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WAL's lower-variability candidates are cetus-clmm (Sui), 0.14% APY, $608.8K TVL, https://www.defi.garden/?pool=bde28b9b-cb39-4aab-8aa6-4a817661c2a8#src=seo_token; navi-lending (Sui), 13.41% APY, $3.51M TVL, https://www.defi.garden/?pool=d881b1cf-fe86-43cc-b76a-96444bd850ec#src=seo_token; bluefin-spot (Sui), 22.50% APY, $130.5K TVL, https://www.defi.garden/?pool=daaa9d90-8187-4da9-95ff-4e004a9cb9e7#src=seo_token; scallop-lend (Sui), 0.61% APY, $121K TVL, https://www.defi.garden/?pool=a0e4e33f-0adb-4466-b80c-1119e47e9c7f#src=seo_token; bluefin-spot (Sui), 104.39% APY, $145.9K TVL, https://www.defi.garden/?pool=09d1e6b1-5187-494c-a75a-445e54cf8d8a#src=seo_token; cetus-clmm (Sui), 171.22% APY, $174.8K TVL, https://www.defi.garden/?pool=593f459f-867e-40c5-9f8a-4724dfaa5bfc#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [cetus-clmm →](https://www.defi.garden/?pool=bde28b9b-cb39-4aab-8aa6-4a817661c2a8#src=seo_token) | Sui | 0.01% | $659.9K |
-| 2 | [navi-lending →](https://www.defi.garden/?pool=d881b1cf-fe86-43cc-b76a-96444bd850ec#src=seo_token) | Sui | 13.32% | $3.66M |
-| 3 | [bluefin-spot →](https://www.defi.garden/?pool=daaa9d90-8187-4da9-95ff-4e004a9cb9e7#src=seo_token) | Sui | 24.09% | $130.3K |
-| 4 | [scallop-lend →](https://www.defi.garden/?pool=a0e4e33f-0adb-4466-b80c-1119e47e9c7f#src=seo_token) | Sui | 1.46% | $115.3K |
-| 5 | [bluefin-spot →](https://www.defi.garden/?pool=09d1e6b1-5187-494c-a75a-445e54cf8d8a#src=seo_token) | Sui | 130.32% | $147.3K |
-| 6 | [cetus-clmm →](https://www.defi.garden/?pool=593f459f-867e-40c5-9f8a-4724dfaa5bfc#src=seo_token) | Sui | 152.14% | $218.8K |
+| 1 | [cetus-clmm →](https://www.defi.garden/?pool=bde28b9b-cb39-4aab-8aa6-4a817661c2a8#src=seo_token) | Sui | 0.14% | $608.8K |
+| 2 | [navi-lending →](https://www.defi.garden/?pool=d881b1cf-fe86-43cc-b76a-96444bd850ec#src=seo_token) | Sui | 13.41% | $3.51M |
+| 3 | [bluefin-spot →](https://www.defi.garden/?pool=daaa9d90-8187-4da9-95ff-4e004a9cb9e7#src=seo_token) | Sui | 22.50% | $130.5K |
+| 4 | [scallop-lend →](https://www.defi.garden/?pool=a0e4e33f-0adb-4466-b80c-1119e47e9c7f#src=seo_token) | Sui | 0.61% | $121K |
+| 5 | [bluefin-spot →](https://www.defi.garden/?pool=09d1e6b1-5187-494c-a75a-445e54cf8d8a#src=seo_token) | Sui | 104.39% | $145.9K |
+| 6 | [cetus-clmm →](https://www.defi.garden/?pool=593f459f-867e-40c5-9f8a-4724dfaa5bfc#src=seo_token) | Sui | 171.22% | $174.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WAL shows up in 6 pools here, with rates from 0.01% to 152.14% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+WAL shows up in 6 pools here, with rates from 0.14% to 171.22% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-6 of these 6 pools have a trustworthy 30-day average on file, with a median of 16.89% — a useful check against today's number for whether the rate is steady or just having a good day.
+6 of these 6 pools have a trustworthy 30-day average on file, with a median of 17.13% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 4 of 6 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -41,12 +41,12 @@ WAL shows up in 6 pools here, with rates from 0.01% to 152.14% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| navi-lending | 13.32% | 17.43% | 90.97% incentives |
-| cetus-clmm | 0.01% | 0.05% | Base rate |
-| cetus-clmm | 152.14% | 202.71% | 41.22% incentives |
-| bluefin-spot | 130.32% | 82.39% | 37.53% incentives |
-| bluefin-spot | 24.09% | 16.35% | 82.86% incentives |
-| scallop-lend | 1.46% | 1.84% | Base rate |
+| navi-lending | 13.41% | 17.21% | 90.98% incentives |
+| cetus-clmm | 0.14% | 0.05% | Base rate |
+| cetus-clmm | 171.22% | 199.39% | 44.68% incentives |
+| bluefin-spot | 104.39% | 85.19% | 47.29% incentives |
+| bluefin-spot | 22.50% | 17.05% | 88.61% incentives |
+| scallop-lend | 0.61% | 1.81% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -54,11 +54,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WAL yield today?
 
-152.14% APY on cetus-clmm (Sui), based on live DefiLlama data.
+171.22% APY on cetus-clmm (Sui), based on live DefiLlama data.
 
 ### How many WAL pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $4.94M in total.
+6 live pools clear this page's $100K TVL floor, $4.69M in total.
 
 ### Are these rates safe?
 
@@ -66,7 +66,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WAL pools have the most stable APY history?
 
-Based on APY history only, WAL's lower-variability candidates are cetus-clmm (Sui), 0.01% APY, $659.9K TVL, https://www.defi.garden/?pool=bde28b9b-cb39-4aab-8aa6-4a817661c2a8#src=seo_token; navi-lending (Sui), 13.32% APY, $3.66M TVL, https://www.defi.garden/?pool=d881b1cf-fe86-43cc-b76a-96444bd850ec#src=seo_token; bluefin-spot (Sui), 24.09% APY, $130.3K TVL, https://www.defi.garden/?pool=daaa9d90-8187-4da9-95ff-4e004a9cb9e7#src=seo_token; scallop-lend (Sui), 1.46% APY, $115.3K TVL, https://www.defi.garden/?pool=a0e4e33f-0adb-4466-b80c-1119e47e9c7f#src=seo_token; bluefin-spot (Sui), 130.32% APY, $147.3K TVL, https://www.defi.garden/?pool=09d1e6b1-5187-494c-a75a-445e54cf8d8a#src=seo_token; cetus-clmm (Sui), 152.14% APY, $218.8K TVL, https://www.defi.garden/?pool=593f459f-867e-40c5-9f8a-4724dfaa5bfc#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WAL's lower-variability candidates are cetus-clmm (Sui), 0.14% APY, $608.8K TVL, https://www.defi.garden/?pool=bde28b9b-cb39-4aab-8aa6-4a817661c2a8#src=seo_token; navi-lending (Sui), 13.41% APY, $3.51M TVL, https://www.defi.garden/?pool=d881b1cf-fe86-43cc-b76a-96444bd850ec#src=seo_token; bluefin-spot (Sui), 22.50% APY, $130.5K TVL, https://www.defi.garden/?pool=daaa9d90-8187-4da9-95ff-4e004a9cb9e7#src=seo_token; scallop-lend (Sui), 0.61% APY, $121K TVL, https://www.defi.garden/?pool=a0e4e33f-0adb-4466-b80c-1119e47e9c7f#src=seo_token; bluefin-spot (Sui), 104.39% APY, $145.9K TVL, https://www.defi.garden/?pool=09d1e6b1-5187-494c-a75a-445e54cf8d8a#src=seo_token; cetus-clmm (Sui), 171.22% APY, $174.8K TVL, https://www.defi.garden/?pool=593f459f-867e-40c5-9f8a-4724dfaa5bfc#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -81,4 +81,4 @@ Based on APY history only, WAL's lower-variability candidates are cetus-clmm (Su
 
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated October 8, 2026
+## Last updated October 9, 2026

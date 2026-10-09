@@ -1,12 +1,12 @@
 # ANYONE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
 
-The highest honest ANYONE yield right now is 34.72% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ANYONE yield right now is 78.30% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=65f92e91-63be-4595-b9ec-52206a540a0d#src=seo_token) | Ethereum | 34.72% | $842.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=65f92e91-63be-4595-b9ec-52206a540a0d#src=seo_token) | Ethereum | 78.30% | $847K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=ed9de5d2-9ade-5b7b-9874-d2bea2e7ab03#src=seo_token) | Base | 26.40% | $229.1K |
 
 <!-- rate-stability:insufficient -->
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-ANYONE shows up in 2 pools here, with rates from 26.40% to 34.72% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+ANYONE shows up in 2 pools here, with rates from 26.40% to 78.30% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 39.53% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 37.51% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -28,7 +28,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 34.72% | 58.65% | Base rate |
+| uniswap-v3 | 78.30% | 54.61% | Base rate |
 | uniswap-v4 | 26.40% | 20.40% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -37,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ANYONE yield today?
 
-34.72% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+78.30% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many ANYONE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.07M in total.
+2 live pools clear this page's $100K TVL floor, $1.08M in total.
 
 ### Are these rates safe?
 
@@ -65,4 +65,4 @@ There is not enough qualifying APY history to rank ANYONE pools. This view cover
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 8, 2026
+## Last updated October 9, 2026

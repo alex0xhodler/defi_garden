@@ -1,17 +1,17 @@
 # Sui 디파이 수익률
 
-현재 Sui의 가장 높은 정직한 수익률은 Sui의 ember-protocol에서 12.00%이며, $100K TVL 기준을 넘는 113개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 Sui의 가장 높은 정직한 수익률은 Sui의 ember-protocol에서 12.00%이며, $100K TVL 기준을 넘는 110개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| USDC | [current →](https://www.defi.garden/?pool=a0860ad8-ba2a-4ff8-8a13-348788864f23#src=seo_chain) | 7.07% | $25.59M |
-| HASUI | [navi-lending →](https://www.defi.garden/?pool=01d96249-c69b-46de-a749-479facf4b806#src=seo_chain) | 1.12% | $24.78M |
-| VSUI | [navi-lending →](https://www.defi.garden/?pool=acf5436b-602b-4606-b226-60080cb3e79c#src=seo_chain) | 1.07% | $17.91M |
-| BUCK | [navi-lending →](https://www.defi.garden/?pool=1c81c0b0-db5e-4140-95bc-664c973e2d36#src=seo_chain) | 0.26% | $16.96M |
-| USDY | [ondo-yield-assets →](https://www.defi.garden/?pool=3007b64e-331d-425d-a7ae-33b8691da1a9#src=seo_chain) | 3.64% | $14.35M |
-| SUI | [navi-lending →](https://www.defi.garden/?pool=f8ffbfd7-7448-45f4-9cc4-f8c1185489a2#src=seo_chain) | 1.64% | $10.88M |
+| USDC | [current →](https://www.defi.garden/?pool=a0860ad8-ba2a-4ff8-8a13-348788864f23#src=seo_chain) | 6.81% | $25.21M |
+| HASUI | [navi-lending →](https://www.defi.garden/?pool=01d96249-c69b-46de-a749-479facf4b806#src=seo_chain) | 1.12% | $23.54M |
+| VSUI | [navi-lending →](https://www.defi.garden/?pool=acf5436b-602b-4606-b226-60080cb3e79c#src=seo_chain) | 1.06% | $17.12M |
+| BUCK | [navi-lending →](https://www.defi.garden/?pool=1c81c0b0-db5e-4140-95bc-664c973e2d36#src=seo_chain) | 0.26% | $16.97M |
+| USDY | [ondo-yield-assets →](https://www.defi.garden/?pool=3007b64e-331d-425d-a7ae-33b8691da1a9#src=seo_chain) | 3.65% | $14.35M |
+| USDC | [navi-lending →](https://www.defi.garden/?pool=0fddbf5d-ec14-4570-80d3-a70c85573d3e#src=seo_chain) | 5.23% | $10.02M |
 | USDC | [ember-protocol →](https://www.defi.garden/?pool=a1a9916c-63b2-49a1-b4b0-cbe8a9e7275c#src=seo_chain) | 10.16% | $10M |
-| USDC | [ember-protocol →](https://www.defi.garden/?pool=0ce62070-5201-47d1-84d5-f76d7e0cf5c0#src=seo_chain) | 12.00% | $8.88M |
+| USDC | [ember-protocol →](https://www.defi.garden/?pool=0ce62070-5201-47d1-84d5-f76d7e0cf5c0#src=seo_chain) | 12.00% | $8.89M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Sui의 ember-protocol에서 APY 12.00%예�
 
 ### Sui 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 113개이며, 합산 TVL은 $320.58M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 110개이며, 합산 TVL은 $314.11M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -45,6 +45,5 @@ DefiLlama 실시간 데이터 기준, Sui의 ember-protocol에서 APY 12.00%예�
 - [VSUI](https://www.defi.garden/ko/tokens/vsui)
 - [BUCK](https://www.defi.garden/ko/tokens/buck)
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
-- [SUI](https://www.defi.garden/ko/tokens/sui)
 
-## 마지막 업데이트: October 8, 2026
+## 마지막 업데이트: October 9, 2026

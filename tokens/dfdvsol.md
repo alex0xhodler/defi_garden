@@ -1,23 +1,23 @@
 # DFDVSOL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
 
 The highest honest DFDVSOL yield right now is 4.94% on dfdv-staked-sol (Solana), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [dfdv-staked-sol →](https://www.defi.garden/pools/dfdv-staked-sol-dfdvsol-solana) | Solana | 4.94% | $210.85M |
-| [project-0 →](https://www.defi.garden/?pool=ef4495dc-3b2a-432b-ad71-ad0c84cc8494#src=seo_token) | Solana | 0.01% | $871.2K |
+| [dfdv-staked-sol →](https://www.defi.garden/pools/dfdv-staked-sol-dfdvsol-solana) | Solana | 4.94% | $202.62M |
+| [project-0 →](https://www.defi.garden/?pool=ef4495dc-3b2a-432b-ad71-ad0c84cc8494#src=seo_token) | Solana | 0.01% | $838.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, DFDVSOL's lower-variability candidates are project-0 (Solana), 0.01% APY, $871.2K TVL, https://www.defi.garden/?pool=ef4495dc-3b2a-432b-ad71-ad0c84cc8494#src=seo_token; dfdv-staked-sol (Solana), 4.94% APY, $210.85M TVL, https://www.defi.garden/pools/dfdv-staked-sol-dfdvsol-solana. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, DFDVSOL's lower-variability candidates are project-0 (Solana), 0.01% APY, $838.3K TVL, https://www.defi.garden/?pool=ef4495dc-3b2a-432b-ad71-ad0c84cc8494#src=seo_token; dfdv-staked-sol (Solana), 4.94% APY, $202.62M TVL, https://www.defi.garden/pools/dfdv-staked-sol-dfdvsol-solana. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [project-0 →](https://www.defi.garden/?pool=ef4495dc-3b2a-432b-ad71-ad0c84cc8494#src=seo_token) | Solana | 0.01% | $871.2K |
-| 2 | [dfdv-staked-sol →](https://www.defi.garden/pools/dfdv-staked-sol-dfdvsol-solana) | Solana | 4.94% | $210.85M |
+| 1 | [project-0 →](https://www.defi.garden/?pool=ef4495dc-3b2a-432b-ad71-ad0c84cc8494#src=seo_token) | Solana | 0.01% | $838.3K |
+| 2 | [dfdv-staked-sol →](https://www.defi.garden/pools/dfdv-staked-sol-dfdvsol-solana) | Solana | 4.94% | $202.62M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -32,7 +32,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | dfdv-staked-sol | 4.94% | 5.02% | Base rate |
-| project-0 | 0.01% | 0.05% | Base rate |
+| project-0 | 0.01% | 0.04% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many DFDVSOL pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $282.15M in total.
+5 live pools clear this page's $100K TVL floor, $271.15M in total.
 
 ### Are these rates safe?
 
@@ -52,19 +52,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which DFDVSOL pools have the most stable APY history?
 
-Based on APY history only, DFDVSOL's lower-variability candidates are project-0 (Solana), 0.01% APY, $871.2K TVL, https://www.defi.garden/?pool=ef4495dc-3b2a-432b-ad71-ad0c84cc8494#src=seo_token; dfdv-staked-sol (Solana), 4.94% APY, $210.85M TVL, https://www.defi.garden/pools/dfdv-staked-sol-dfdvsol-solana. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, DFDVSOL's lower-variability candidates are project-0 (Solana), 0.01% APY, $838.3K TVL, https://www.defi.garden/?pool=ef4495dc-3b2a-432b-ad71-ad0c84cc8494#src=seo_token; dfdv-staked-sol (Solana), 4.94% APY, $202.62M TVL, https://www.defi.garden/pools/dfdv-staked-sol-dfdvsol-solana. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [BNSOL](https://www.defi.garden/tokens/bnsol)
-- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 8, 2026
+## Last updated October 9, 2026

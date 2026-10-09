@@ -1,14 +1,14 @@
 # STONKEX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
 
-The highest honest STONKEX yield right now is 154.43% on uniswap-v3 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STONKEX yield right now is 235.82% on uniswap-v3 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=53aec296-bf0d-5fd9-bc2e-f5b9891257df#src=seo_token) | Base | 154.43% | $383.1K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=3f76960c-e861-54bc-a0b0-d3ce91fd83f0#src=seo_token) | Base | 29.10% | $220.7K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=3aa3152d-b3a4-5048-845e-1bc8652d5b11#src=seo_token) | Base | 150.96% | $125.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=53aec296-bf0d-5fd9-bc2e-f5b9891257df#src=seo_token) | Base | 235.82% | $380.4K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=3f76960c-e861-54bc-a0b0-d3ce91fd83f0#src=seo_token) | Base | 30.70% | $218.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=3aa3152d-b3a4-5048-845e-1bc8652d5b11#src=seo_token) | Base | 191.31% | $126.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,9 +19,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-STONKEX shows up in 3 pools here, with rates from 29.10% to 154.43% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+STONKEX shows up in 3 pools here, with rates from 30.70% to 235.82% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 3 pools have a trustworthy 30-day average on file, with a median of 272.08% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 457.54% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -29,9 +29,9 @@ STONKEX shows up in 3 pools here, with rates from 29.10% to 154.43% APY across 1
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 154.43% | 479.56% | Base rate |
-| aerodrome-v1 | 29.10% | 64.60% | 100.00% incentives |
-| uniswap-v4 | 150.96% | — | Base rate |
+| uniswap-v3 | 235.82% | 457.54% | Base rate |
+| aerodrome-v1 | 30.70% | 63.11% | 100.00% incentives |
+| uniswap-v4 | 191.31% | 964.93% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -39,11 +39,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest STONKEX yield today?
 
-154.43% APY on uniswap-v3 (Base), based on live DefiLlama data.
+235.82% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many STONKEX pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $729.3K in total.
+3 live pools clear this page's $100K TVL floor, $725.8K in total.
 
 ### Are these rates safe?
 
@@ -60,10 +60,10 @@ There is not enough qualifying APY history to rank STONKEX pools. This view cove
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [USDS](https://www.defi.garden/tokens/usds)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 8, 2026
+## Last updated October 9, 2026

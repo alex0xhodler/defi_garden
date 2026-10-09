@@ -1,12 +1,12 @@
 # 8LNDS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
 
 The highest honest 8LNDS yield right now is 1.00% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=37a96f7e-aa4a-45db-a57f-cca6531c59a0#src=seo_token) | Base | 1.00% | $887.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=37a96f7e-aa4a-45db-a57f-cca6531c59a0#src=seo_token) | Base | 1.00% | $881K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many 8LNDS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $887.4K in total.
+1 live pool clear this page's $100K TVL floor, $881K in total.
 
 ### Are these rates safe?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank 8LNDS pools. This view covers
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [USDS](https://www.defi.garden/tokens/usds)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 8, 2026
+## Last updated October 9, 2026

@@ -1,6 +1,6 @@
 # XOPAI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
 
 The highest honest XOPAI yield right now is 31.32% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank XOPAI pools. This view covers
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated October 8, 2026
+## Last updated October 9, 2026

@@ -1,12 +1,12 @@
 # EDGEUSDC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
 
-The highest honest EDGEUSDC yield right now is 9.10% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EDGEUSDC yield right now is 8.57% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=c29704a4-3537-459d-bc4d-1f8812f28bcd#src=seo_token) | Base | 9.10% | $459.5K |
+| [morpho-blue →](https://www.defi.garden/?pool=c29704a4-3537-459d-bc4d-1f8812f28bcd#src=seo_token) | Base | 8.57% | $456.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EDGEUSDC yield today?
 
-9.10% APY on morpho-blue (Base), based on live DefiLlama data.
+8.57% APY on morpho-blue (Base), based on live DefiLlama data.
 
 ### How many EDGEUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $459.5K in total.
+1 live pool clear this page's $100K TVL floor, $456.3K in total.
 
 ### Are these rates safe?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank EDGEUSDC pools. This view cov
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [USDS](https://www.defi.garden/tokens/usds)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 8, 2026
+## Last updated October 9, 2026

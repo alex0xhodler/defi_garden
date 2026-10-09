@@ -1,11 +1,11 @@
 # XRPL DeFi Yields
 
-The highest honest XRPL yield right now is 3.35% on openeden-tbill (XRPL), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XRPL yield right now is 3.80% on openeden-tbill (XRPL), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| OUSG | [ondo-yield-assets →](https://www.defi.garden/pools/ondo-yield-assets-ousg-xrpl) | 3.91% | $187.58M |
-| TBL | [openeden-tbill →](https://www.defi.garden/?pool=8032e541-5c60-4c68-9202-2812e75dab57#src=seo_chain) | 3.35% | $62.76M |
+| OUSG | [ondo-yield-assets →](https://www.defi.garden/pools/ondo-yield-assets-ousg-xrpl) | 3.58% | $187.59M |
+| TBL | [openeden-tbill →](https://www.defi.garden/?pool=8032e541-5c60-4c68-9202-2812e75dab57#src=seo_chain) | 3.80% | $62.79M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest XRPL yield today?
 
-3.35% APY on openeden-tbill (XRPL), based on live DefiLlama data.
+3.80% APY on openeden-tbill (XRPL), based on live DefiLlama data.
 
 ### How many XRPL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $250.33M in total.
+2 live pools clear this page's $100K TVL floor, $250.38M in total.
 
 ### Are these rates safe?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [OUSG](https://www.defi.garden/tokens/ousg)
 - [TBL](https://www.defi.garden/tokens/tbl)
 
-## Last updated October 8, 2026
+## Last updated October 9, 2026

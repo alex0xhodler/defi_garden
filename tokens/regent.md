@@ -1,12 +1,12 @@
 # REGENT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
 
-The highest honest REGENT yield right now is 6.14% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest REGENT yield right now is 6.18% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=cad84bf8-8484-4534-987f-eac464d3f712#src=seo_token) | Base | 6.14% | $267K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=cad84bf8-8484-4534-987f-eac464d3f712#src=seo_token) | Base | 6.18% | $271.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest REGENT yield today?
 
-6.14% APY on uniswap-v4 (Base), based on live DefiLlama data.
+6.18% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many REGENT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $267K in total.
+1 live pool clear this page's $100K TVL floor, $271.9K in total.
 
 ### Are these rates safe?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank REGENT pools. This view cover
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [USDS](https://www.defi.garden/tokens/usds)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 8, 2026
+## Last updated October 9, 2026

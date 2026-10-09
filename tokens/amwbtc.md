@@ -1,12 +1,12 @@
 # AMWBTC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
 
-The highest honest AMWBTC yield right now is 0.01% on curve-dex (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AMWBTC yield right now is 0.06% on curve-dex (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=e646248a-065d-4035-a2b3-2b9d1af767cd#src=seo_token) | Polygon | 0.01% | $2.18M |
+| [curve-dex →](https://www.defi.garden/?pool=e646248a-065d-4035-a2b3-2b9d1af767cd#src=seo_token) | Polygon | 0.06% | $2.25M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AMWBTC yield today?
 
-0.01% APY on curve-dex (Polygon), based on live DefiLlama data.
+0.06% APY on curve-dex (Polygon), based on live DefiLlama data.
 
 ### How many AMWBTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.18M in total.
+1 live pool clear this page's $100K TVL floor, $2.25M in total.
 
 ### Are these rates safe?
 
@@ -36,14 +36,14 @@ There is not enough qualifying APY history to rank AMWBTC pools. This view cover
 ## Related tokens
 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [DAI](https://www.defi.garden/tokens/dai)
 - [LINK](https://www.defi.garden/tokens/link)
 - [AAVE](https://www.defi.garden/tokens/aave)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
-- [BET](https://www.defi.garden/tokens/bet)
 
 ## Available on
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated October 8, 2026
+## Last updated October 9, 2026

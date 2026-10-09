@@ -1,31 +1,31 @@
 # CBXRP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
 
-The highest honest CBXRP yield right now is 126.61% on aerodrome-slipstream (Base), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CBXRP yield right now is 131.91% on aerodrome-slipstream (Base), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=ad247753-74a9-4958-ab00-82a6b436ee03#src=seo_token) | Base | 126.61% | $568.9K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=0330d308-62db-468f-b4b9-990bb810020b#src=seo_token) | Base | 59.51% | $525.7K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=ad247753-74a9-4958-ab00-82a6b436ee03#src=seo_token) | Base | 118.19% | $778.9K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=0330d308-62db-468f-b4b9-990bb810020b#src=seo_token) | Base | 131.91% | $553.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, CBXRP's lower-variability candidates are aerodrome-slipstream (Base), 126.61% APY, $568.9K TVL, https://www.defi.garden/?pool=ad247753-74a9-4958-ab00-82a6b436ee03#src=seo_token; aerodrome-slipstream (Base), 59.51% APY, $525.7K TVL, https://www.defi.garden/?pool=0330d308-62db-468f-b4b9-990bb810020b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CBXRP's lower-variability candidates are aerodrome-slipstream (Base), 118.19% APY, $778.9K TVL, https://www.defi.garden/?pool=ad247753-74a9-4958-ab00-82a6b436ee03#src=seo_token; aerodrome-slipstream (Base), 131.91% APY, $553.5K TVL, https://www.defi.garden/?pool=0330d308-62db-468f-b4b9-990bb810020b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aerodrome-slipstream →](https://www.defi.garden/?pool=ad247753-74a9-4958-ab00-82a6b436ee03#src=seo_token) | Base | 126.61% | $568.9K |
-| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=0330d308-62db-468f-b4b9-990bb810020b#src=seo_token) | Base | 59.51% | $525.7K |
+| 1 | [aerodrome-slipstream →](https://www.defi.garden/?pool=ad247753-74a9-4958-ab00-82a6b436ee03#src=seo_token) | Base | 118.19% | $778.9K |
+| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=0330d308-62db-468f-b4b9-990bb810020b#src=seo_token) | Base | 131.91% | $553.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CBXRP shows up in 2 pools here, with rates from 59.51% to 126.61% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CBXRP shows up in 2 pools here, with rates from 118.19% to 131.91% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 99.64% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 101.16% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 2 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -33,8 +33,8 @@ CBXRP shows up in 2 pools here, with rates from 59.51% to 126.61% APY across 1 c
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 126.61% | 100.59% | 44.01% incentives |
-| aerodrome-slipstream | 59.51% | 98.69% | 8.84% incentives |
+| aerodrome-slipstream | 118.19% | 101.34% | 7.82% incentives |
+| aerodrome-slipstream | 131.91% | 100.98% | 3.65% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CBXRP yield today?
 
-126.61% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+131.91% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many CBXRP pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $160.31M in total.
+6 live pools clear this page's $100K TVL floor, $159.09M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which CBXRP pools have the most stable APY history?
 
-Based on APY history only, CBXRP's lower-variability candidates are aerodrome-slipstream (Base), 126.61% APY, $568.9K TVL, https://www.defi.garden/?pool=ad247753-74a9-4958-ab00-82a6b436ee03#src=seo_token; aerodrome-slipstream (Base), 59.51% APY, $525.7K TVL, https://www.defi.garden/?pool=0330d308-62db-468f-b4b9-990bb810020b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CBXRP's lower-variability candidates are aerodrome-slipstream (Base), 118.19% APY, $778.9K TVL, https://www.defi.garden/?pool=ad247753-74a9-4958-ab00-82a6b436ee03#src=seo_token; aerodrome-slipstream (Base), 131.91% APY, $553.5K TVL, https://www.defi.garden/?pool=0330d308-62db-468f-b4b9-990bb810020b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -63,10 +63,10 @@ Based on APY history only, CBXRP's lower-variability candidates are aerodrome-sl
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [USDS](https://www.defi.garden/tokens/usds)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 8, 2026
+## Last updated October 9, 2026

@@ -1,33 +1,33 @@
 # CRCLX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
 
-The highest honest CRCLX yield right now is 44.26% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CRCLX yield right now is 56.28% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=e480f2c3-9422-441c-8901-9c32ab359447#src=seo_token) | Solana | 33.90% | $2.26M |
-| [raydium-amm →](https://www.defi.garden/?pool=2619cf7a-535e-43a6-8163-a0d1265611a6#src=seo_token) | Solana | 44.26% | $1.1M |
-| [raydium-amm →](https://www.defi.garden/?pool=62d12119-752e-4978-b96e-d5d6ecbc44ba#src=seo_token) | Solana | 7.34% | $193.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=e480f2c3-9422-441c-8901-9c32ab359447#src=seo_token) | Solana | 36.47% | $2.34M |
+| [raydium-amm →](https://www.defi.garden/?pool=2619cf7a-535e-43a6-8163-a0d1265611a6#src=seo_token) | Solana | 56.28% | $1.1M |
+| [raydium-amm →](https://www.defi.garden/?pool=62d12119-752e-4978-b96e-d5d6ecbc44ba#src=seo_token) | Solana | 9.98% | $198.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, CRCLX's lower-variability candidates are raydium-amm (Solana), 33.90% APY, $2.26M TVL, https://www.defi.garden/?pool=e480f2c3-9422-441c-8901-9c32ab359447#src=seo_token; raydium-amm (Solana), 44.26% APY, $1.1M TVL, https://www.defi.garden/?pool=2619cf7a-535e-43a6-8163-a0d1265611a6#src=seo_token; raydium-amm (Solana), 7.34% APY, $193.7K TVL, https://www.defi.garden/?pool=62d12119-752e-4978-b96e-d5d6ecbc44ba#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CRCLX's lower-variability candidates are raydium-amm (Solana), 36.47% APY, $2.34M TVL, https://www.defi.garden/?pool=e480f2c3-9422-441c-8901-9c32ab359447#src=seo_token; raydium-amm (Solana), 56.28% APY, $1.1M TVL, https://www.defi.garden/?pool=2619cf7a-535e-43a6-8163-a0d1265611a6#src=seo_token; raydium-amm (Solana), 9.98% APY, $198.2K TVL, https://www.defi.garden/?pool=62d12119-752e-4978-b96e-d5d6ecbc44ba#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=e480f2c3-9422-441c-8901-9c32ab359447#src=seo_token) | Solana | 33.90% | $2.26M |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=2619cf7a-535e-43a6-8163-a0d1265611a6#src=seo_token) | Solana | 44.26% | $1.1M |
-| 3 | [raydium-amm →](https://www.defi.garden/?pool=62d12119-752e-4978-b96e-d5d6ecbc44ba#src=seo_token) | Solana | 7.34% | $193.7K |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=e480f2c3-9422-441c-8901-9c32ab359447#src=seo_token) | Solana | 36.47% | $2.34M |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=2619cf7a-535e-43a6-8163-a0d1265611a6#src=seo_token) | Solana | 56.28% | $1.1M |
+| 3 | [raydium-amm →](https://www.defi.garden/?pool=62d12119-752e-4978-b96e-d5d6ecbc44ba#src=seo_token) | Solana | 9.98% | $198.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CRCLX shows up in 3 pools here, with rates from 7.34% to 44.26% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CRCLX shows up in 3 pools here, with rates from 9.98% to 56.28% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 50.06% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 49.90% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -35,9 +35,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 33.90% | 50.06% | Base rate |
-| raydium-amm | 44.26% | 59.57% | Base rate |
-| raydium-amm | 7.34% | 46.64% | Base rate |
+| raydium-amm | 36.47% | 49.90% | Base rate |
+| raydium-amm | 56.28% | 60.03% | Base rate |
+| raydium-amm | 9.98% | 45.78% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,11 +45,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CRCLX yield today?
 
-44.26% APY on raydium-amm (Solana), based on live DefiLlama data.
+56.28% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many CRCLX pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $4.5M in total.
+4 live pools clear this page's $100K TVL floor, $4.59M in total.
 
 ### Are these rates safe?
 
@@ -57,19 +57,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which CRCLX pools have the most stable APY history?
 
-Based on APY history only, CRCLX's lower-variability candidates are raydium-amm (Solana), 33.90% APY, $2.26M TVL, https://www.defi.garden/?pool=e480f2c3-9422-441c-8901-9c32ab359447#src=seo_token; raydium-amm (Solana), 44.26% APY, $1.1M TVL, https://www.defi.garden/?pool=2619cf7a-535e-43a6-8163-a0d1265611a6#src=seo_token; raydium-amm (Solana), 7.34% APY, $193.7K TVL, https://www.defi.garden/?pool=62d12119-752e-4978-b96e-d5d6ecbc44ba#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CRCLX's lower-variability candidates are raydium-amm (Solana), 36.47% APY, $2.34M TVL, https://www.defi.garden/?pool=e480f2c3-9422-441c-8901-9c32ab359447#src=seo_token; raydium-amm (Solana), 56.28% APY, $1.1M TVL, https://www.defi.garden/?pool=2619cf7a-535e-43a6-8163-a0d1265611a6#src=seo_token; raydium-amm (Solana), 9.98% APY, $198.2K TVL, https://www.defi.garden/?pool=62d12119-752e-4978-b96e-d5d6ecbc44ba#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [BNSOL](https://www.defi.garden/tokens/bnsol)
-- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 8, 2026
+## Last updated October 9, 2026

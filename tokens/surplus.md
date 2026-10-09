@@ -1,12 +1,12 @@
 # SURPLUS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
 
-The highest honest SURPLUS yield right now is 27.90% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SURPLUS yield right now is 44.02% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=74af654d-1d20-448a-8f8b-151d4c1df070#src=seo_token) | Base | 27.90% | $3.12M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=74af654d-1d20-448a-8f8b-151d4c1df070#src=seo_token) | Base | 44.02% | $3.59M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SURPLUS yield today?
 
-27.90% APY on uniswap-v4 (Base), based on live DefiLlama data.
+44.02% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many SURPLUS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $3.12M in total.
+1 live pool clear this page's $100K TVL floor, $3.59M in total.
 
 ### Are these rates safe?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank SURPLUS pools. This view cove
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [USDS](https://www.defi.garden/tokens/usds)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 8, 2026
+## Last updated October 9, 2026

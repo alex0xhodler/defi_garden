@@ -1,31 +1,31 @@
 # CORE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
 
-The highest honest CORE yield right now is 13.60% on b14g (CORE), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CORE yield right now is 12.38% on b14g (CORE), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [b14g →](https://www.defi.garden/?pool=f183f1a4-5d17-4bfa-8270-32d861a13fd3#src=seo_token) | CORE | 13.60% | $1.76M |
-| [morpho-blue →](https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4#src=seo_token) | Ethereum | 4.45% | $552.5K |
+| [b14g →](https://www.defi.garden/?pool=f183f1a4-5d17-4bfa-8270-32d861a13fd3#src=seo_token) | CORE | 12.38% | $1.75M |
+| [morpho-blue →](https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4#src=seo_token) | Ethereum | 4.51% | $552.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, CORE's lower-variability candidates are morpho-blue (Ethereum), 4.45% APY, $552.5K TVL, https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4#src=seo_token; b14g (CORE), 13.60% APY, $1.76M TVL, https://www.defi.garden/?pool=f183f1a4-5d17-4bfa-8270-32d861a13fd3#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CORE's lower-variability candidates are morpho-blue (Ethereum), 4.51% APY, $552.5K TVL, https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4#src=seo_token; b14g (CORE), 12.38% APY, $1.75M TVL, https://www.defi.garden/?pool=f183f1a4-5d17-4bfa-8270-32d861a13fd3#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4#src=seo_token) | Ethereum | 4.45% | $552.5K |
-| 2 | [b14g →](https://www.defi.garden/?pool=f183f1a4-5d17-4bfa-8270-32d861a13fd3#src=seo_token) | CORE | 13.60% | $1.76M |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4#src=seo_token) | Ethereum | 4.51% | $552.5K |
+| 2 | [b14g →](https://www.defi.garden/?pool=f183f1a4-5d17-4bfa-8270-32d861a13fd3#src=seo_token) | CORE | 12.38% | $1.75M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CORE shows up in 2 pools here, with rates from 4.45% to 13.60% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+CORE shows up in 2 pools here, with rates from 4.51% to 12.38% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 9.45% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 9.43% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| b14g | 13.60% | 14.42% | Base rate |
-| morpho-blue | 4.45% | 4.47% | Base rate |
+| b14g | 12.38% | 14.39% | Base rate |
+| morpho-blue | 4.51% | 4.47% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CORE yield today?
 
-13.60% APY on b14g (CORE), based on live DefiLlama data.
+12.38% APY on b14g (CORE), based on live DefiLlama data.
 
 ### How many CORE pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $14.19M in total.
+5 live pools clear this page's $100K TVL floor, $13.89M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which CORE pools have the most stable APY history?
 
-Based on APY history only, CORE's lower-variability candidates are morpho-blue (Ethereum), 4.45% APY, $552.5K TVL, https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4#src=seo_token; b14g (CORE), 13.60% APY, $1.76M TVL, https://www.defi.garden/?pool=f183f1a4-5d17-4bfa-8270-32d861a13fd3#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CORE's lower-variability candidates are morpho-blue (Ethereum), 4.51% APY, $552.5K TVL, https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4#src=seo_token; b14g (CORE), 12.38% APY, $1.75M TVL, https://www.defi.garden/?pool=f183f1a4-5d17-4bfa-8270-32d861a13fd3#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +70,4 @@ Based on APY history only, CORE's lower-variability candidates are morpho-blue (
 - [CORE](https://www.defi.garden/chains/core)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 8, 2026
+## Last updated October 9, 2026

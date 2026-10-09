@@ -1,12 +1,12 @@
 # DOFT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
 
-The highest honest DOFT yield right now is 5.72% on uniswap-v4 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DOFT yield right now is 50.07% on uniswap-v4 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=85e0f5d6-1e3e-560e-869d-9deb2d9249a2#src=seo_token) | Base | 5.72% | $134.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=85e0f5d6-1e3e-560e-869d-9deb2d9249a2#src=seo_token) | Base | 35.14% | $143.1K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=946df614-aa0c-5b56-8689-5e26919abc0f#src=seo_token) | Base | 50.07% | $115.1K |
 
 <!-- rate-stability:insufficient -->
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-DOFT shows up in 2 pools here, with rates from 5.72% to 50.07% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+DOFT shows up in 2 pools here, with rates from 35.14% to 50.07% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 18.41% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 26.14% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -28,7 +28,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 5.72% | 5.72% | Base rate |
+| uniswap-v4 | 35.14% | 21.18% | Base rate |
 | uniswap-v4 | 50.07% | 31.10% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -37,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest DOFT yield today?
 
-5.72% APY on uniswap-v4 (Base), based on live DefiLlama data.
+50.07% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many DOFT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $249.7K in total.
+2 live pools clear this page's $100K TVL floor, $258.2K in total.
 
 ### Are these rates safe?
 
@@ -58,10 +58,10 @@ There is not enough qualifying APY history to rank DOFT pools. This view covers 
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [USDS](https://www.defi.garden/tokens/usds)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 8, 2026
+## Last updated October 9, 2026

@@ -1,12 +1,12 @@
 # ID DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
 
-The highest honest ID yield right now is 3.91% on sushiswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ID yield right now is 15.89% on sushiswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sushiswap-v3 →](https://www.defi.garden/?pool=e63417fc-c05b-41df-b332-9ae301f39743#src=seo_token) | Ethereum | 3.91% | $644K |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=e63417fc-c05b-41df-b332-9ae301f39743#src=seo_token) | Ethereum | 15.89% | $642.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ID yield today?
 
-3.91% APY on sushiswap-v3 (Ethereum), based on live DefiLlama data.
+15.89% APY on sushiswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many ID pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $644K in total.
+1 live pool clear this page's $100K TVL floor, $642.3K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank ID pools. This view covers AP
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 8, 2026
+## Last updated October 9, 2026

@@ -1,12 +1,12 @@
 # 1CLAWAI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
 
-The highest honest 1CLAWAI yield right now is 2.56% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest 1CLAWAI yield right now is 3.65% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=1435aece-221b-4654-96d5-274c2d88404a#src=seo_token) | Base | 2.56% | $185K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=1435aece-221b-4654-96d5-274c2d88404a#src=seo_token) | Base | 3.65% | $180.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest 1CLAWAI yield today?
 
-2.56% APY on uniswap-v4 (Base), based on live DefiLlama data.
+3.65% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many 1CLAWAI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $185K in total.
+1 live pool clear this page's $100K TVL floor, $180.5K in total.
 
 ### Are these rates safe?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank 1CLAWAI pools. This view cove
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [USDS](https://www.defi.garden/tokens/usds)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 8, 2026
+## Last updated October 9, 2026

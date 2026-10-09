@@ -1,11 +1,10 @@
 # ZKsync Era DeFi Yields
 
-The highest honest ZKsync Era yield right now is 1.49% on zkswap-v2 (ZKsync Era), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZKsync Era yield right now is 1.97% on zkswap-v2 (ZKsync Era), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| USDC.E-WETH | [zkswap-v2 →](https://www.defi.garden/?pool=275cc0a1-571b-41f2-a467-ec69efbf4e47#src=seo_chain) | 1.49% | $124.5K |
-| USDC.E | [symbiosis →](https://www.defi.garden/?pool=55cef2b5-318a-4cd2-be72-17e31311c32d#src=seo_chain) | 0.04% | $120.6K |
+| USDC.E-WETH | [zkswap-v2 →](https://www.defi.garden/?pool=275cc0a1-571b-41f2-a467-ec69efbf4e47#src=seo_chain) | 1.97% | $122.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ZKsync Era yield today?
 
-1.49% APY on zkswap-v2 (ZKsync Era), based on live DefiLlama data.
+1.97% APY on zkswap-v2 (ZKsync Era), based on live DefiLlama data.
 
 ### How many ZKsync Era pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $485.1K in total.
+3 live pools clear this page's $100K TVL floor, $476.4K in total.
 
 ### Are these rates safe?
 
@@ -28,8 +27,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 - [Polygon](https://www.defi.garden/chains/polygon)
 - [Berachain](https://www.defi.garden/chains/berachain)
-- [Gnosis](https://www.defi.garden/chains/gnosis)
 - [Flare](https://www.defi.garden/chains/flare)
+- [Gnosis](https://www.defi.garden/chains/gnosis)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
 ## Top tokens on ZKsync Era
@@ -37,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [WETH](https://www.defi.garden/tokens/weth)
 
-## Last updated October 8, 2026
+## Last updated October 9, 2026

@@ -1,50 +1,50 @@
 # AVUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 8, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
 
-The highest honest AVUSD yield right now is 13.22% on convex-finance (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AVUSD yield right now is 11.67% on convex-finance (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=86d04138-6712-5be0-85f4-1d92331ca1d5#src=seo_token) | Monad | 9.01% | $2.06M |
-| [curve-dex →](https://www.defi.garden/?pool=1044613e-47c3-48b8-b608-9986da8fbe7b#src=seo_token) | Ethereum | 5.29% | $562.4K |
-| [curve-dex →](https://www.defi.garden/?pool=1cb41712-6417-485e-aa23-db1d99a57b2b#src=seo_token) | Ethereum | 5.02% | $328K |
-| [convex-finance →](https://www.defi.garden/?pool=cc5ab66c-6759-4772-a360-34436b940460#src=seo_token) | Ethereum | 13.22% | $302.1K |
-| [stake-dao-yield →](https://www.defi.garden/?pool=2bffeb0a-aeae-4c72-bcf2-ed4555e7d5a2#src=seo_token) | Ethereum | 9.40% | $256.5K |
-| [stake-dao-yield →](https://www.defi.garden/?pool=a740c473-a566-5478-bf1c-ecc69326d260#src=seo_token) | Ethereum | 6.59% | $195.2K |
+| [balancer-v3 →](https://www.defi.garden/?pool=86d04138-6712-5be0-85f4-1d92331ca1d5#src=seo_token) | Monad | 9.46% | $2.06M |
+| [curve-dex →](https://www.defi.garden/?pool=1044613e-47c3-48b8-b608-9986da8fbe7b#src=seo_token) | Ethereum | 4.66% | $562.4K |
+| [convex-finance →](https://www.defi.garden/?pool=cc5ab66c-6759-4772-a360-34436b940460#src=seo_token) | Ethereum | 11.67% | $302.1K |
+| [stake-dao-yield →](https://www.defi.garden/?pool=2bffeb0a-aeae-4c72-bcf2-ed4555e7d5a2#src=seo_token) | Ethereum | 8.24% | $256.5K |
+| [curve-dex →](https://www.defi.garden/?pool=1cb41712-6417-485e-aa23-db1d99a57b2b#src=seo_token) | Ethereum | 6.31% | $253.4K |
+| [stake-dao-yield →](https://www.defi.garden/?pool=a740c473-a566-5478-bf1c-ecc69326d260#src=seo_token) | Ethereum | 6.32% | $120.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, AVUSD's lower-variability candidates are curve-dex (Ethereum), 5.29% APY, $562.4K TVL, https://www.defi.garden/?pool=1044613e-47c3-48b8-b608-9986da8fbe7b#src=seo_token; stake-dao-yield (Ethereum), 9.40% APY, $256.5K TVL, https://www.defi.garden/?pool=2bffeb0a-aeae-4c72-bcf2-ed4555e7d5a2#src=seo_token; stake-dao-yield (Ethereum), 6.59% APY, $195.2K TVL, https://www.defi.garden/?pool=a740c473-a566-5478-bf1c-ecc69326d260#src=seo_token; balancer-v3 (Monad), 9.01% APY, $2.06M TVL, https://www.defi.garden/?pool=86d04138-6712-5be0-85f4-1d92331ca1d5#src=seo_token; curve-dex (Ethereum), 5.02% APY, $328K TVL, https://www.defi.garden/?pool=1cb41712-6417-485e-aa23-db1d99a57b2b#src=seo_token; convex-finance (Ethereum), 13.22% APY, $302.1K TVL, https://www.defi.garden/?pool=cc5ab66c-6759-4772-a360-34436b940460#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AVUSD's lower-variability candidates are curve-dex (Ethereum), 4.66% APY, $562.4K TVL, https://www.defi.garden/?pool=1044613e-47c3-48b8-b608-9986da8fbe7b#src=seo_token; stake-dao-yield (Ethereum), 8.24% APY, $256.5K TVL, https://www.defi.garden/?pool=2bffeb0a-aeae-4c72-bcf2-ed4555e7d5a2#src=seo_token; stake-dao-yield (Ethereum), 6.32% APY, $120.5K TVL, https://www.defi.garden/?pool=a740c473-a566-5478-bf1c-ecc69326d260#src=seo_token; balancer-v3 (Monad), 9.46% APY, $2.06M TVL, https://www.defi.garden/?pool=86d04138-6712-5be0-85f4-1d92331ca1d5#src=seo_token; curve-dex (Ethereum), 6.31% APY, $253.4K TVL, https://www.defi.garden/?pool=1cb41712-6417-485e-aa23-db1d99a57b2b#src=seo_token; convex-finance (Ethereum), 11.67% APY, $302.1K TVL, https://www.defi.garden/?pool=cc5ab66c-6759-4772-a360-34436b940460#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=1044613e-47c3-48b8-b608-9986da8fbe7b#src=seo_token) | Ethereum | 5.29% | $562.4K |
-| 2 | [stake-dao-yield →](https://www.defi.garden/?pool=2bffeb0a-aeae-4c72-bcf2-ed4555e7d5a2#src=seo_token) | Ethereum | 9.40% | $256.5K |
-| 3 | [stake-dao-yield →](https://www.defi.garden/?pool=a740c473-a566-5478-bf1c-ecc69326d260#src=seo_token) | Ethereum | 6.59% | $195.2K |
-| 4 | [balancer-v3 →](https://www.defi.garden/?pool=86d04138-6712-5be0-85f4-1d92331ca1d5#src=seo_token) | Monad | 9.01% | $2.06M |
-| 5 | [curve-dex →](https://www.defi.garden/?pool=1cb41712-6417-485e-aa23-db1d99a57b2b#src=seo_token) | Ethereum | 5.02% | $328K |
-| 6 | [convex-finance →](https://www.defi.garden/?pool=cc5ab66c-6759-4772-a360-34436b940460#src=seo_token) | Ethereum | 13.22% | $302.1K |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=1044613e-47c3-48b8-b608-9986da8fbe7b#src=seo_token) | Ethereum | 4.66% | $562.4K |
+| 2 | [stake-dao-yield →](https://www.defi.garden/?pool=2bffeb0a-aeae-4c72-bcf2-ed4555e7d5a2#src=seo_token) | Ethereum | 8.24% | $256.5K |
+| 3 | [stake-dao-yield →](https://www.defi.garden/?pool=a740c473-a566-5478-bf1c-ecc69326d260#src=seo_token) | Ethereum | 6.32% | $120.5K |
+| 4 | [balancer-v3 →](https://www.defi.garden/?pool=86d04138-6712-5be0-85f4-1d92331ca1d5#src=seo_token) | Monad | 9.46% | $2.06M |
+| 5 | [curve-dex →](https://www.defi.garden/?pool=1cb41712-6417-485e-aa23-db1d99a57b2b#src=seo_token) | Ethereum | 6.31% | $253.4K |
+| 6 | [convex-finance →](https://www.defi.garden/?pool=cc5ab66c-6759-4772-a360-34436b940460#src=seo_token) | Ethereum | 11.67% | $302.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-AVUSD shows up in 6 pools here, with rates from 5.02% to 13.22% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+AVUSD shows up in 6 pools here, with rates from 4.66% to 11.67% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-6 of these 6 pools have a trustworthy 30-day average on file, with a median of 7.00% — a useful check against today's number for whether the rate is steady or just having a good day.
+6 of these 6 pools have a trustworthy 30-day average on file, with a median of 6.90% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 6 of 6 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| balancer-v3 | 9.01% | 6.23% | 95.32% incentives |
-| curve-dex | 5.29% | 5.48% | 99.24% incentives |
-| curve-dex | 5.02% | 6.03% | 100.00% incentives |
-| convex-finance | 13.22% | 11.97% | 99.70% incentives |
-| stake-dao-yield | 9.40% | 9.90% | 99.89% incentives |
-| stake-dao-yield | 6.59% | 7.77% | 99.55% incentives |
+| balancer-v3 | 9.46% | 6.17% | 91.60% incentives |
+| curve-dex | 4.66% | 5.43% | 98.50% incentives |
+| convex-finance | 11.67% | 11.82% | 99.40% incentives |
+| stake-dao-yield | 8.24% | 9.80% | 99.88% incentives |
+| curve-dex | 6.31% | 5.93% | 84.62% incentives |
+| stake-dao-yield | 6.32% | 7.64% | 99.37% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -52,11 +52,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest AVUSD yield today?
 
-13.22% APY on convex-finance (Ethereum), based on live DefiLlama data.
+11.67% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many AVUSD pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $3.7M in total.
+6 live pools clear this page's $100K TVL floor, $3.56M in total.
 
 ### Are these rates safe?
 
@@ -64,7 +64,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which AVUSD pools have the most stable APY history?
 
-Based on APY history only, AVUSD's lower-variability candidates are curve-dex (Ethereum), 5.29% APY, $562.4K TVL, https://www.defi.garden/?pool=1044613e-47c3-48b8-b608-9986da8fbe7b#src=seo_token; stake-dao-yield (Ethereum), 9.40% APY, $256.5K TVL, https://www.defi.garden/?pool=2bffeb0a-aeae-4c72-bcf2-ed4555e7d5a2#src=seo_token; stake-dao-yield (Ethereum), 6.59% APY, $195.2K TVL, https://www.defi.garden/?pool=a740c473-a566-5478-bf1c-ecc69326d260#src=seo_token; balancer-v3 (Monad), 9.01% APY, $2.06M TVL, https://www.defi.garden/?pool=86d04138-6712-5be0-85f4-1d92331ca1d5#src=seo_token; curve-dex (Ethereum), 5.02% APY, $328K TVL, https://www.defi.garden/?pool=1cb41712-6417-485e-aa23-db1d99a57b2b#src=seo_token; convex-finance (Ethereum), 13.22% APY, $302.1K TVL, https://www.defi.garden/?pool=cc5ab66c-6759-4772-a360-34436b940460#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AVUSD's lower-variability candidates are curve-dex (Ethereum), 4.66% APY, $562.4K TVL, https://www.defi.garden/?pool=1044613e-47c3-48b8-b608-9986da8fbe7b#src=seo_token; stake-dao-yield (Ethereum), 8.24% APY, $256.5K TVL, https://www.defi.garden/?pool=2bffeb0a-aeae-4c72-bcf2-ed4555e7d5a2#src=seo_token; stake-dao-yield (Ethereum), 6.32% APY, $120.5K TVL, https://www.defi.garden/?pool=a740c473-a566-5478-bf1c-ecc69326d260#src=seo_token; balancer-v3 (Monad), 9.46% APY, $2.06M TVL, https://www.defi.garden/?pool=86d04138-6712-5be0-85f4-1d92331ca1d5#src=seo_token; curve-dex (Ethereum), 6.31% APY, $253.4K TVL, https://www.defi.garden/?pool=1cb41712-6417-485e-aa23-db1d99a57b2b#src=seo_token; convex-finance (Ethereum), 11.67% APY, $302.1K TVL, https://www.defi.garden/?pool=cc5ab66c-6759-4772-a360-34436b940460#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -80,4 +80,4 @@ Based on APY history only, AVUSD's lower-variability candidates are curve-dex (E
 - [Monad](https://www.defi.garden/chains/monad)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 8, 2026
+## Last updated October 9, 2026
