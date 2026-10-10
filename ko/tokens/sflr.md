@@ -1,37 +1,37 @@
 # SFLR 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 9, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 10, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 SFLR의 가장 높은 정직한 수익률은 Flare의 sceptre-liquid에서 8.73%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SFLR의 가장 높은 정직한 수익률은 Flare의 sceptre-liquid에서 7.80%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [sceptre-liquid →](https://www.defi.garden/?pool=fa132efa-f62b-40f0-addc-8afe0b4a810a#src=seo_token) | Flare | 8.73% | $14.34M |
-| [kinetic →](https://www.defi.garden/?pool=5219817c-dfdb-47cc-b417-f218fb12227d#src=seo_token) | Flare | 0.33% | $4.81M |
-| [sparkdex-v4 →](https://www.defi.garden/?pool=9ea77171-3c46-4d50-b2fa-888e7c490164#src=seo_token) | Flare | 6.14% | $1.13M |
-| [spectra-v2 →](https://www.defi.garden/?pool=14591204-80a5-55a7-b1ab-be8f22a78485#src=seo_token) | Flare | 9.48% | $394.9K |
-| [spectra-v2 →](https://www.defi.garden/?pool=2adaddc0-8eab-513b-921d-272f614712fc#src=seo_token) | Flare | 2.96% | $394.9K |
-| [sparkdex-v3.1 →](https://www.defi.garden/?pool=eaa4cf8c-5f2f-40bb-9248-adaa243d0728#src=seo_token) | Flare | 1.91% | $167.5K |
+| [sceptre-liquid →](https://www.defi.garden/?pool=fa132efa-f62b-40f0-addc-8afe0b4a810a#src=seo_token) | Flare | 7.80% | $15.31M |
+| [kinetic →](https://www.defi.garden/?pool=5219817c-dfdb-47cc-b417-f218fb12227d#src=seo_token) | Flare | 0.33% | $5.13M |
+| [sparkdex-v4 →](https://www.defi.garden/?pool=9ea77171-3c46-4d50-b2fa-888e7c490164#src=seo_token) | Flare | 5.89% | $1.19M |
+| [spectra-v2 →](https://www.defi.garden/?pool=14591204-80a5-55a7-b1ab-be8f22a78485#src=seo_token) | Flare | 8.13% | $429K |
+| [spectra-v2 →](https://www.defi.garden/?pool=2adaddc0-8eab-513b-921d-272f614712fc#src=seo_token) | Flare | 1.59% | $429K |
+| [sparkdex-v3.1 →](https://www.defi.garden/?pool=eaa4cf8c-5f2f-40bb-9248-adaa243d0728#src=seo_token) | Flare | 1.14% | $172K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 SFLR의 변동성 낮은 후보는 Flare의 kinetic, APY 0.33%, TVL $4.81M, https://www.defi.garden/?pool=5219817c-dfdb-47cc-b417-f218fb12227d#src=seo_token; Flare의 sparkdex-v4, APY 6.14%, TVL $1.13M, https://www.defi.garden/?pool=9ea77171-3c46-4d50-b2fa-888e7c490164#src=seo_token; Flare의 sparkdex-v3.1, APY 1.91%, TVL $167.5K, https://www.defi.garden/?pool=eaa4cf8c-5f2f-40bb-9248-adaa243d0728#src=seo_token; Flare의 sceptre-liquid, APY 8.73%, TVL $14.34M, https://www.defi.garden/?pool=fa132efa-f62b-40f0-addc-8afe0b4a810a#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SFLR의 변동성 낮은 후보는 Flare의 kinetic, APY 0.33%, TVL $5.13M, https://www.defi.garden/?pool=5219817c-dfdb-47cc-b417-f218fb12227d#src=seo_token; Flare의 sparkdex-v4, APY 5.89%, TVL $1.19M, https://www.defi.garden/?pool=9ea77171-3c46-4d50-b2fa-888e7c490164#src=seo_token; Flare의 sparkdex-v3.1, APY 1.14%, TVL $172K, https://www.defi.garden/?pool=eaa4cf8c-5f2f-40bb-9248-adaa243d0728#src=seo_token; Flare의 sceptre-liquid, APY 7.80%, TVL $15.31M, https://www.defi.garden/?pool=fa132efa-f62b-40f0-addc-8afe0b4a810a#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [kinetic →](https://www.defi.garden/?pool=5219817c-dfdb-47cc-b417-f218fb12227d#src=seo_token) | Flare | 0.33% | $4.81M |
-| 2 | [sparkdex-v4 →](https://www.defi.garden/?pool=9ea77171-3c46-4d50-b2fa-888e7c490164#src=seo_token) | Flare | 6.14% | $1.13M |
-| 3 | [sparkdex-v3.1 →](https://www.defi.garden/?pool=eaa4cf8c-5f2f-40bb-9248-adaa243d0728#src=seo_token) | Flare | 1.91% | $167.5K |
-| 4 | [sceptre-liquid →](https://www.defi.garden/?pool=fa132efa-f62b-40f0-addc-8afe0b4a810a#src=seo_token) | Flare | 8.73% | $14.34M |
+| 1 | [kinetic →](https://www.defi.garden/?pool=5219817c-dfdb-47cc-b417-f218fb12227d#src=seo_token) | Flare | 0.33% | $5.13M |
+| 2 | [sparkdex-v4 →](https://www.defi.garden/?pool=9ea77171-3c46-4d50-b2fa-888e7c490164#src=seo_token) | Flare | 5.89% | $1.19M |
+| 3 | [sparkdex-v3.1 →](https://www.defi.garden/?pool=eaa4cf8c-5f2f-40bb-9248-adaa243d0728#src=seo_token) | Flare | 1.14% | $172K |
+| 4 | [sceptre-liquid →](https://www.defi.garden/?pool=fa132efa-f62b-40f0-addc-8afe0b4a810a#src=seo_token) | Flare | 7.80% | $15.31M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-SFLR 풀은 여기 6개가 있고, 1개 체인에서 APY가 0.33%부터 9.48%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+SFLR 풀은 여기 6개가 있고, 1개 체인에서 APY가 0.33%부터 8.13%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-6개 풀 중 6개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 5.21%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+6개 풀 중 6개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 5.14%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 6개 풀 중 3개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -39,12 +39,12 @@ SFLR 풀은 여기 6개가 있고, 1개 체인에서 APY가 0.33%부터 9.48%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| sceptre-liquid | 8.73% | 8.47% | 기본 금리 |
-| kinetic | 0.33% | 0.48% | 인센티브 72.53% |
-| sparkdex-v4 | 6.14% | 6.54% | 인센티브 92.20% |
-| spectra-v2 | 9.48% | 100.27% | 기본 금리 |
-| spectra-v2 | 2.96% | 3.88% | 기본 금리 |
-| sparkdex-v3.1 | 1.91% | 1.28% | 인센티브 57.71% |
+| sceptre-liquid | 7.80% | 8.47% | 기본 금리 |
+| kinetic | 0.33% | 0.47% | 인센티브 72.57% |
+| sparkdex-v4 | 5.89% | 6.50% | 인센티브 98.87% |
+| spectra-v2 | 8.13% | 91.13% | 기본 금리 |
+| spectra-v2 | 1.59% | 3.78% | 기본 금리 |
+| sparkdex-v3.1 | 1.14% | 1.28% | 인센티브 95.77% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -52,11 +52,11 @@ SFLR 풀은 여기 6개가 있고, 1개 체인에서 APY가 0.33%부터 9.48%까
 
 ### 오늘 SFLR의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Flare의 sceptre-liquid에서 APY 8.73%예요.
+DefiLlama 실시간 데이터 기준, Flare의 sceptre-liquid에서 APY 7.80%예요.
 
 ### SFLR 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $21.24M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $22.65M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -64,7 +64,7 @@ DefiLlama 실시간 데이터 기준, Flare의 sceptre-liquid에서 APY 8.73%예
 
 ### SFLR 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 SFLR의 변동성 낮은 후보는 Flare의 kinetic, APY 0.33%, TVL $4.81M, https://www.defi.garden/?pool=5219817c-dfdb-47cc-b417-f218fb12227d#src=seo_token; Flare의 sparkdex-v4, APY 6.14%, TVL $1.13M, https://www.defi.garden/?pool=9ea77171-3c46-4d50-b2fa-888e7c490164#src=seo_token; Flare의 sparkdex-v3.1, APY 1.91%, TVL $167.5K, https://www.defi.garden/?pool=eaa4cf8c-5f2f-40bb-9248-adaa243d0728#src=seo_token; Flare의 sceptre-liquid, APY 8.73%, TVL $14.34M, https://www.defi.garden/?pool=fa132efa-f62b-40f0-addc-8afe0b4a810a#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SFLR의 변동성 낮은 후보는 Flare의 kinetic, APY 0.33%, TVL $5.13M, https://www.defi.garden/?pool=5219817c-dfdb-47cc-b417-f218fb12227d#src=seo_token; Flare의 sparkdex-v4, APY 5.89%, TVL $1.19M, https://www.defi.garden/?pool=9ea77171-3c46-4d50-b2fa-888e7c490164#src=seo_token; Flare의 sparkdex-v3.1, APY 1.14%, TVL $172K, https://www.defi.garden/?pool=eaa4cf8c-5f2f-40bb-9248-adaa243d0728#src=seo_token; Flare의 sceptre-liquid, APY 7.80%, TVL $15.31M, https://www.defi.garden/?pool=fa132efa-f62b-40f0-addc-8afe0b4a810a#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -79,4 +79,4 @@ APY 이력만 기준으로 비교한 SFLR의 변동성 낮은 후보는 Flare의
 
 - [Flare](https://www.defi.garden/ko/chains/flare)
 
-## 마지막 업데이트: October 9, 2026
+## 마지막 업데이트: October 10, 2026

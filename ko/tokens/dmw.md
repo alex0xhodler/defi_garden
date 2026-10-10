@@ -1,12 +1,12 @@
 # DMW 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 9, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 10, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 DMW의 가장 높은 정직한 수익률은 Ethereum의 makina에서 5.43%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [makina →](https://www.defi.garden/?pool=42d048a5-73a5-58bb-9d4a-8b4e88d1f28b#src=seo_token) | Ethereum | 5.43% | $654.3K |
+| [makina →](https://www.defi.garden/?pool=42d048a5-73a5-58bb-9d4a-8b4e88d1f28b#src=seo_token) | Ethereum | 5.43% | $654.4K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 makina에서 APY 5.43%예요.
 
 ### DMW 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $654.3K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $654.4K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -46,4 +46,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 makina에서 APY 5.43%예요.
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: October 9, 2026
+## 마지막 업데이트: October 10, 2026

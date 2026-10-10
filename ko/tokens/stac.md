@@ -1,12 +1,12 @@
 # STAC 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 9, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 10, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 STAC의 가장 높은 정직한 수익률은 Ethereum의 securitize-tokenized-aaa-clo-fund에서 3.49%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [securitize-tokenized-aaa-clo-fund →](https://www.defi.garden/?pool=19494e5c-a34e-448d-9679-7d34df7f8745#src=seo_token) | Ethereum | 3.49% | $104.24M |
+| [securitize-tokenized-aaa-clo-fund →](https://www.defi.garden/ko/pools/securitize-tokenized-aaa-clo-fund-stac-ethereum) | Ethereum | 3.49% | $104.24M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -46,4 +46,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 securitize-tokenized-aaa-clo-f
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: October 9, 2026
+## 마지막 업데이트: October 10, 2026

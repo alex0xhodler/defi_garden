@@ -1,12 +1,12 @@
 # CKUSDC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 10, 2026. Rates change continuously.*
 
-The highest honest CKUSDC yield right now is 36.62% on icpswap (ICP), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CKUSDC yield right now is 22.23% on icpswap (ICP), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [icpswap →](https://www.defi.garden/?pool=8d70550f-b6b4-4b01-9885-878f69f3d690#src=seo_token) | ICP | 36.62% | $739.7K |
+| [icpswap →](https://www.defi.garden/?pool=8d70550f-b6b4-4b01-9885-878f69f3d690#src=seo_token) | ICP | 22.23% | $753.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CKUSDC yield today?
 
-36.62% APY on icpswap (ICP), based on live DefiLlama data.
+22.23% APY on icpswap (ICP), based on live DefiLlama data.
 
 ### How many CKUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $739.7K in total.
+1 live pool clear this page's $100K TVL floor, $753.6K in total.
 
 ### Are these rates safe?
 
@@ -35,15 +35,15 @@ There is not enough qualifying APY history to rank CKUSDC pools. This view cover
 
 ## Related tokens
 
+- [BTC](https://www.defi.garden/tokens/btc)
 - [NICP](https://www.defi.garden/tokens/nicp)
 - [ICP](https://www.defi.garden/tokens/icp)
 - [VCHF](https://www.defi.garden/tokens/vchf)
 - [CKBTC](https://www.defi.garden/tokens/ckbtc)
 - [GLDT](https://www.defi.garden/tokens/gldt)
-- [CKUSDT](https://www.defi.garden/tokens/ckusdt)
 
 ## Available on
 
 - [ICP](https://www.defi.garden/chains/icp)
 
-## Last updated October 9, 2026
+## Last updated October 10, 2026

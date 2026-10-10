@@ -1,12 +1,12 @@
 # SENOUSDMAIN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 10, 2026. Rates change continuously.*
 
-The highest honest SENOUSDMAIN yield right now is 0.76% on morpho-blue (Tempo), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SENOUSDMAIN yield right now is 3.59% on morpho-blue (Tempo), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=4a1d1d0c-eceb-5afe-bc3c-39398586577a#src=seo_token) | Tempo | 0.76% | $24.92M |
+| [morpho-blue →](https://www.defi.garden/?pool=4a1d1d0c-eceb-5afe-bc3c-39398586577a#src=seo_token) | Tempo | 3.59% | $24.97M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SENOUSDMAIN yield today?
 
-0.76% APY on morpho-blue (Tempo), based on live DefiLlama data.
+3.59% APY on morpho-blue (Tempo), based on live DefiLlama data.
 
 ### How many SENOUSDMAIN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $24.92M in total.
+1 live pool clear this page's $100K TVL floor, $24.97M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank SENOUSDMAIN pools. This view 
 
 - [Tempo](https://www.defi.garden/chains/tempo)
 
-## Last updated October 9, 2026
+## Last updated October 10, 2026

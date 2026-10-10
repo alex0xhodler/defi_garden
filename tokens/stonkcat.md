@@ -1,12 +1,12 @@
 # STONKCAT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 10, 2026. Rates change continuously.*
 
-The highest honest STONKCAT yield right now is 299.55% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STONKCAT yield right now is 151.80% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=5e9ecae0-cfb7-584b-9a62-02109200dcaa#src=seo_token) | Solana | 299.55% | $244.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=5e9ecae0-cfb7-584b-9a62-02109200dcaa#src=seo_token) | Solana | 151.80% | $209K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest STONKCAT yield today?
 
-299.55% APY on raydium-amm (Solana), based on live DefiLlama data.
+151.80% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many STONKCAT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $244.4K in total.
+1 live pool clear this page's $100K TVL floor, $209K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank STONKCAT pools. This view cov
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 9, 2026
+## Last updated October 10, 2026

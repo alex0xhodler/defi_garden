@@ -1,12 +1,12 @@
 # Tempo DeFi Yields
 
-The highest honest Tempo yield right now is 3.49% on morpho-blue (Tempo), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Tempo yield right now is 3.59% on morpho-blue (Tempo), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| SENPATHUSD | [morpho-blue →](https://www.defi.garden/?pool=8ee39d92-b2b7-457b-b636-46e655892a11#src=seo_chain) | 3.49% | $39.91M |
-| SENOUSDMAIN | [morpho-blue →](https://www.defi.garden/?pool=4a1d1d0c-eceb-5afe-bc3c-39398586577a#src=seo_chain) | 0.76% | $24.92M |
-| GTPATHUSDP | [morpho-blue →](https://www.defi.garden/?pool=c9ea92cc-f58c-495f-a664-077823a70386#src=seo_chain) | 3.48% | $277.4K |
+| SENPATHUSD | [morpho-blue →](https://www.defi.garden/?pool=8ee39d92-b2b7-457b-b636-46e655892a11#src=seo_chain) | 3.49% | $39.76M |
+| SENOUSDMAIN | [morpho-blue →](https://www.defi.garden/?pool=4a1d1d0c-eceb-5afe-bc3c-39398586577a#src=seo_chain) | 3.59% | $24.97M |
+| GTPATHUSDP | [morpho-blue →](https://www.defi.garden/?pool=c9ea92cc-f58c-495f-a664-077823a70386#src=seo_chain) | 3.46% | $272.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Tempo yield today?
 
-3.49% APY on morpho-blue (Tempo), based on live DefiLlama data.
+3.59% APY on morpho-blue (Tempo), based on live DefiLlama data.
 
 ### How many Tempo pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $65.44M in total.
+4 live pools clear this page's $100K TVL floor, $65.33M in total.
 
 ### Are these rates safe?
 
@@ -39,4 +39,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [SENOUSDMAIN](https://www.defi.garden/tokens/senousdmain)
 - [GTPATHUSDP](https://www.defi.garden/tokens/gtpathusdp)
 
-## Last updated October 9, 2026
+## Last updated October 10, 2026

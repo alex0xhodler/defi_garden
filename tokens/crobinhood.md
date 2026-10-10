@@ -1,12 +1,12 @@
 # CROBINHOOD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 10, 2026. Rates change continuously.*
 
-The highest honest CROBINHOOD yield right now is 8.60% on vvs-standard (Cronos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CROBINHOOD yield right now is 45.63% on vvs-standard (Cronos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=38715f39-3df5-5083-83d7-ac71ae5805d9#src=seo_token) | Cronos | 8.60% | $110.2K |
+| [vvs-standard →](https://www.defi.garden/?pool=38715f39-3df5-5083-83d7-ac71ae5805d9#src=seo_token) | Cronos | 45.63% | $150.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CROBINHOOD yield today?
 
-8.60% APY on vvs-standard (Cronos), based on live DefiLlama data.
+45.63% APY on vvs-standard (Cronos), based on live DefiLlama data.
 
 ### How many CROBINHOOD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $110.2K in total.
+1 live pool clear this page's $100K TVL floor, $150.5K in total.
 
 ### Are these rates safe?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank CROBINHOOD pools. This view c
 - [VVS](https://www.defi.garden/tokens/vvs)
 - [CDCETH](https://www.defi.garden/tokens/cdceth)
 - [XRP](https://www.defi.garden/tokens/xrp)
-- [LION](https://www.defi.garden/tokens/lion)
+- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 
 ## Available on
 
 - [Cronos](https://www.defi.garden/chains/cronos)
 
-## Last updated October 9, 2026
+## Last updated October 10, 2026

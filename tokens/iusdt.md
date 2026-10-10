@@ -1,12 +1,12 @@
 # IUSDT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 10, 2026. Rates change continuously.*
 
-The highest honest IUSDT yield right now is 119.47% on curve-dex (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest IUSDT yield right now is 511.88% on curve-dex (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=7e218bc2-186c-473d-af0c-415bcdfe392b#src=seo_token) | Ethereum | 119.47% | $1.94M |
+| [curve-dex →](https://www.defi.garden/?pool=7e218bc2-186c-473d-af0c-415bcdfe392b#src=seo_token) | Ethereum | 511.88% | $2.01M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest IUSDT yield today?
 
-119.47% APY on curve-dex (Ethereum), based on live DefiLlama data.
+511.88% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many IUSDT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.94M in total.
+1 live pool clear this page's $100K TVL floor, $2.01M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank IUSDT pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 9, 2026
+## Last updated October 10, 2026

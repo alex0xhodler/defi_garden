@@ -1,31 +1,31 @@
 # LAPTOP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 10, 2026. Rates change continuously.*
 
-The highest honest LAPTOP yield right now is 126.15% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LAPTOP yield right now is 120.92% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=51c95ffa-1cf1-55e2-9458-08cfe77c4ae7#src=seo_token) | Base | 126.15% | $1.19M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=6bc90193-c20c-5c72-8a30-9840106ffc60#src=seo_token) | Base | 0.32% | $314.9K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=51c95ffa-1cf1-55e2-9458-08cfe77c4ae7#src=seo_token) | Base | 120.92% | $436.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=6bc90193-c20c-5c72-8a30-9840106ffc60#src=seo_token) | Base | 0.02% | $315.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, LAPTOP's lower-variability candidates are uniswap-v4 (Base), 0.32% APY, $314.9K TVL, https://www.defi.garden/?pool=6bc90193-c20c-5c72-8a30-9840106ffc60#src=seo_token; aerodrome-slipstream (Base), 126.15% APY, $1.19M TVL, https://www.defi.garden/?pool=51c95ffa-1cf1-55e2-9458-08cfe77c4ae7#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LAPTOP's lower-variability candidates are uniswap-v4 (Base), 0.02% APY, $315.2K TVL, https://www.defi.garden/?pool=6bc90193-c20c-5c72-8a30-9840106ffc60#src=seo_token; aerodrome-slipstream (Base), 120.92% APY, $436.6K TVL, https://www.defi.garden/?pool=51c95ffa-1cf1-55e2-9458-08cfe77c4ae7#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=6bc90193-c20c-5c72-8a30-9840106ffc60#src=seo_token) | Base | 0.32% | $314.9K |
-| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=51c95ffa-1cf1-55e2-9458-08cfe77c4ae7#src=seo_token) | Base | 126.15% | $1.19M |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=6bc90193-c20c-5c72-8a30-9840106ffc60#src=seo_token) | Base | 0.02% | $315.2K |
+| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=51c95ffa-1cf1-55e2-9458-08cfe77c4ae7#src=seo_token) | Base | 120.92% | $436.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-LAPTOP shows up in 2 pools here, with rates from 0.32% to 126.15% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+LAPTOP shows up in 2 pools here, with rates from 0.02% to 120.92% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 2 pools has a trustworthy 30-day average on file, with a median of 454.56% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 2 pools has a trustworthy 30-day average on file, with a median of 7.75% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -33,8 +33,8 @@ LAPTOP shows up in 2 pools here, with rates from 0.32% to 126.15% APY across 1 c
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 126.15% | — | 65.36% incentives |
-| uniswap-v4 | 0.32% | 454.56% | Base rate |
+| aerodrome-slipstream | 120.92% | — | 51.29% incentives |
+| uniswap-v4 | 0.02% | 7.75% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest LAPTOP yield today?
 
-126.15% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+120.92% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many LAPTOP pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.5M in total.
+2 live pools clear this page's $100K TVL floor, $751.7K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which LAPTOP pools have the most stable APY history?
 
-Based on APY history only, LAPTOP's lower-variability candidates are uniswap-v4 (Base), 0.32% APY, $314.9K TVL, https://www.defi.garden/?pool=6bc90193-c20c-5c72-8a30-9840106ffc60#src=seo_token; aerodrome-slipstream (Base), 126.15% APY, $1.19M TVL, https://www.defi.garden/?pool=51c95ffa-1cf1-55e2-9458-08cfe77c4ae7#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LAPTOP's lower-variability candidates are uniswap-v4 (Base), 0.02% APY, $315.2K TVL, https://www.defi.garden/?pool=6bc90193-c20c-5c72-8a30-9840106ffc60#src=seo_token; aerodrome-slipstream (Base), 120.92% APY, $436.6K TVL, https://www.defi.garden/?pool=51c95ffa-1cf1-55e2-9458-08cfe77c4ae7#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +69,4 @@ Based on APY history only, LAPTOP's lower-variability candidates are uniswap-v4 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 9, 2026
+## Last updated October 10, 2026

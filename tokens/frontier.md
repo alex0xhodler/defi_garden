@@ -1,12 +1,12 @@
 # FRONTIER DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 10, 2026. Rates change continuously.*
 
-The highest honest FRONTIER yield right now is 0.47% on concrete (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FRONTIER yield right now is 11.98% on concrete (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [concrete →](https://www.defi.garden/?pool=1267aba9-a8ea-5aae-9f55-27632686a83a#src=seo_token) | Ethereum | 0.47% | $249.6K |
+| [concrete →](https://www.defi.garden/?pool=1267aba9-a8ea-5aae-9f55-27632686a83a#src=seo_token) | Ethereum | 11.98% | $249.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FRONTIER yield today?
 
-0.47% APY on concrete (Ethereum), based on live DefiLlama data.
+11.98% APY on concrete (Ethereum), based on live DefiLlama data.
 
 ### How many FRONTIER pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $249.6K in total.
+1 live pool clear this page's $100K TVL floor, $249.7K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank FRONTIER pools. This view cov
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 9, 2026
+## Last updated October 10, 2026

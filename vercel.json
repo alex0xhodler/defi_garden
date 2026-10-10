@@ -520,6 +520,26 @@
       "permanent": true
     },
     {
+      "source": "/pools/helius-staked-sol-hsol-solana",
+      "destination": "/chains/solana",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/helius-staked-sol-hsol-solana",
+      "destination": "/ko/chains/solana",
+      "permanent": true
+    },
+    {
+      "source": "/pt/pools/helius-staked-sol-hsol-solana",
+      "destination": "/pt/chains/solana",
+      "permanent": true
+    },
+    {
+      "source": "/es/pools/helius-staked-sol-hsol-solana",
+      "destination": "/es/chains/solana",
+      "permanent": true
+    },
+    {
       "source": "/pools/hyperlend-pooled-khype-hyperliquid-l1",
       "destination": "/chains/hyperliquid-l1",
       "permanent": true

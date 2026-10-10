@@ -1,12 +1,12 @@
 # PRCL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 10, 2026. Rates change continuously.*
 
-The highest honest PRCL yield right now is 23.71% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PRCL yield right now is 7.41% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=2682c66e-7e8f-58b4-9e5a-05e010278322#src=seo_token) | Solana | 23.71% | $137.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=2682c66e-7e8f-58b4-9e5a-05e010278322#src=seo_token) | Solana | 7.41% | $140.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PRCL yield today?
 
-23.71% APY on raydium-amm (Solana), based on live DefiLlama data.
+7.41% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many PRCL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $137.5K in total.
+1 live pool clear this page's $100K TVL floor, $140.4K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank PRCL pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 9, 2026
+## Last updated October 10, 2026

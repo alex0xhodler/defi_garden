@@ -1,17 +1,17 @@
 # Ethereum 디파이 수익률
 
-현재 Ethereum의 가장 높은 정직한 수익률은 Ethereum의 ethena-usde에서 5.46%이며, $100K TVL 기준을 넘는 3,373개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 Ethereum의 가장 높은 정직한 수익률은 Ethereum의 ethena-usde에서 5.49%이며, $100K TVL 기준을 넘는 3,369개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| STETH | [lido →](https://www.defi.garden/ko/pools/lido-steth-ethereum) | 2.24% | $24.25B |
-| WBETH | [binance-staked-eth →](https://www.defi.garden/ko/pools/binance-staked-eth-wbeth-ethereum) | 2.22% | $8.8B |
-| WEETH | [ether.fi-stake →](https://www.defi.garden/ko/pools/ether-fi-stake-weeth-ethereum) | 2.27% | $5.53B |
-| SUSDS | [sky-lending →](https://www.defi.garden/ko/pools/sky-lending-susds-ethereum) | 3.80% | $4.92B |
-| USDC | [maple →](https://www.defi.garden/ko/pools/maple-usdc-ethereum) | 5.21% | $2.78B |
-| RETH | [rocket-pool →](https://www.defi.garden/ko/pools/rocket-pool-reth-ethereum) | 2.17% | $1.3B |
+| STETH | [lido →](https://www.defi.garden/ko/pools/lido-steth-ethereum) | 2.24% | $24.16B |
+| WBETH | [binance-staked-eth →](https://www.defi.garden/ko/pools/binance-staked-eth-wbeth-ethereum) | 2.30% | $8.77B |
+| WEETH | [ether.fi-stake →](https://www.defi.garden/ko/pools/ether-fi-stake-weeth-ethereum) | 2.32% | $5.51B |
+| SUSDS | [sky-lending →](https://www.defi.garden/ko/pools/sky-lending-susds-ethereum) | 3.80% | $4.9B |
+| USDC | [maple →](https://www.defi.garden/ko/pools/maple-usdc-ethereum) | 5.21% | $2.82B |
+| RETH | [rocket-pool →](https://www.defi.garden/ko/pools/rocket-pool-reth-ethereum) | 2.19% | $1.3B |
 | USDY | [ondo-yield-assets →](https://www.defi.garden/ko/pools/ondo-yield-assets-usdy-ethereum) | 3.65% | $1.22B |
-| SUSDE | [ethena-usde →](https://www.defi.garden/ko/pools/ethena-usde-susde-ethereum) | 5.46% | $1.22B |
+| SUSDE | [ethena-usde →](https://www.defi.garden/ko/pools/ethena-usde-susde-ethereum) | 5.49% | $1.21B |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,11 +19,11 @@
 
 ### 오늘 Ethereum의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 ethena-usde에서 APY 5.46%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 ethena-usde에서 APY 5.49%예요.
 
 ### Ethereum 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3,373개이며, 합산 TVL은 $105B예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3,369개이며, 합산 TVL은 $104.74B예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -36,7 +36,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 ethena-usde에서 APY 5.46%예
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Tron](https://www.defi.garden/ko/chains/tron)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
-- [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
+- [Avalanche](https://www.defi.garden/ko/chains/avalanche)
 
 ## Ethereum의 인기 토큰
 
@@ -49,4 +49,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 ethena-usde에서 APY 5.46%예
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [SUSDE](https://www.defi.garden/ko/tokens/susde)
 
-## 마지막 업데이트: October 9, 2026
+## 마지막 업데이트: October 10, 2026

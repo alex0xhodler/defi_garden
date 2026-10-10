@@ -1,12 +1,12 @@
 # XPD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 10, 2026. Rates change continuously.*
 
-The highest honest XPD yield right now is 1.63% on gmx-solana (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XPD yield right now is 1.46% on gmx-solana (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmx-solana →](https://www.defi.garden/?pool=36384f68-0f24-4775-8efd-c1f6828f8f08#src=seo_token) | Solana | 1.63% | $190.7K |
+| [gmx-solana →](https://www.defi.garden/?pool=36384f68-0f24-4775-8efd-c1f6828f8f08#src=seo_token) | Solana | 1.46% | $190.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest XPD yield today?
 
-1.63% APY on gmx-solana (Solana), based on live DefiLlama data.
+1.46% APY on gmx-solana (Solana), based on live DefiLlama data.
 
 ### How many XPD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $190.7K in total.
+1 live pool clear this page's $100K TVL floor, $190.9K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank XPD pools. This view covers A
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 9, 2026
+## Last updated October 10, 2026

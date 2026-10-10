@@ -1,12 +1,12 @@
 # SIMD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 10, 2026. Rates change continuously.*
 
-The highest honest SIMD yield right now is 28.53% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SIMD yield right now is 34.70% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=406698c8-32f9-59b9-b164-83a128796b71#src=seo_token) | Ethereum | 28.53% | $486.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=406698c8-32f9-59b9-b164-83a128796b71#src=seo_token) | Ethereum | 34.70% | $406.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SIMD yield today?
 
-28.53% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+34.70% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many SIMD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $486.3K in total.
+1 live pool clear this page's $100K TVL floor, $406.7K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank SIMD pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 9, 2026
+## Last updated October 10, 2026

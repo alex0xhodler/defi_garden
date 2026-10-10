@@ -1,19 +1,19 @@
 # BTC 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 9, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 10, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 BTC의 가장 높은 정직한 수익률은 Osmosis의 osmosis-dex에서 500.00%이며, $100K TVL 기준을 넘는 22개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 BTC의 가장 높은 정직한 수익률은 Ethereum의 midas-rwa에서 3.13%이며, $100K TVL 기준을 넘는 21개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [justlend-v1 →](https://www.defi.garden/?pool=71418c17-d2aa-4eff-b68a-806fff9ec951#src=seo_token) | Tron | 0.01% | $538.47M |
-| [b14g →](https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec#src=seo_token) | Bitcoin | 0.10% | $193.32M |
-| [mezo-earn →](https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c#src=seo_token) | Mezo | 2.88% | $66.62M |
-| [midas-rwa →](https://www.defi.garden/?pool=d2b2bdd9-6535-4acc-8e84-2b0838bd63bb#src=seo_token) | Ethereum | 3.13% | $23.66M |
-| [osmosis-dex →](https://www.defi.garden/?pool=afb34fe0-dd27-48b7-be00-654768e9acc7#src=seo_token) | Osmosis | 500.00% | $5.88M |
-| [chainflip-amm →](https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490#src=seo_token) | Bitcoin | 2.33% | $5.33M |
-| [midas-rwa →](https://www.defi.garden/?pool=24514f34-853f-4678-9faa-7cebf550aba7#src=seo_token) | Monad | 3.13% | $4.84M |
+| [justlend-v1 →](https://www.defi.garden/?pool=71418c17-d2aa-4eff-b68a-806fff9ec951#src=seo_token) | Tron | 0.01% | $543.37M |
+| [b14g →](https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec#src=seo_token) | Bitcoin | 0.12% | $172.72M |
+| [mezo-earn →](https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c#src=seo_token) | Mezo | 2.88% | $66.45M |
+| [midas-rwa →](https://www.defi.garden/?pool=d2b2bdd9-6535-4acc-8e84-2b0838bd63bb#src=seo_token) | Ethereum | 3.13% | $23.71M |
+| [chainflip-amm →](https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490#src=seo_token) | Bitcoin | 2.89% | $5.34M |
+| [midas-rwa →](https://www.defi.garden/?pool=24514f34-853f-4678-9faa-7cebf550aba7#src=seo_token) | Monad | 3.13% | $4.85M |
 | [chainflip-lending →](https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66#src=seo_token) | Bitcoin | 0.42% | $2.02M |
+| [liquidium →](https://www.defi.garden/?pool=8df2c295-0906-4d91-9dad-45353f41b99f#src=seo_token) | ICP | 0.01% | $1.76M |
 
 ## BTC 디파이 수익률 생성 원리
 
@@ -26,40 +26,39 @@ BTC의 수익률은 주로 네 가지 온체인 메커니즘을 통해 발생합
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 BTC의 변동성 낮은 후보는 Tron의 justlend-v1, APY 0.01%, TVL $538.47M, https://www.defi.garden/?pool=71418c17-d2aa-4eff-b68a-806fff9ec951#src=seo_token; Bitcoin의 b14g, APY 0.10%, TVL $193.32M, https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec#src=seo_token; Ethereum의 midas-rwa, APY 3.13%, TVL $23.66M, https://www.defi.garden/?pool=d2b2bdd9-6535-4acc-8e84-2b0838bd63bb#src=seo_token; Monad의 midas-rwa, APY 3.13%, TVL $4.84M, https://www.defi.garden/?pool=24514f34-853f-4678-9faa-7cebf550aba7#src=seo_token; Mezo의 mezo-earn, APY 2.88%, TVL $66.62M, https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c#src=seo_token; Bitcoin의 chainflip-lending, APY 0.42%, TVL $2.02M, https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66#src=seo_token; Bitcoin의 chainflip-amm, APY 2.33%, TVL $5.33M, https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 BTC의 변동성 낮은 후보는 ICP의 liquidium, APY 0.01%, TVL $1.76M, https://www.defi.garden/?pool=8df2c295-0906-4d91-9dad-45353f41b99f#src=seo_token; Tron의 justlend-v1, APY 0.01%, TVL $543.37M, https://www.defi.garden/?pool=71418c17-d2aa-4eff-b68a-806fff9ec951#src=seo_token; Bitcoin의 b14g, APY 0.12%, TVL $172.72M, https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec#src=seo_token; Ethereum의 midas-rwa, APY 3.13%, TVL $23.71M, https://www.defi.garden/?pool=d2b2bdd9-6535-4acc-8e84-2b0838bd63bb#src=seo_token; Monad의 midas-rwa, APY 3.13%, TVL $4.85M, https://www.defi.garden/?pool=24514f34-853f-4678-9faa-7cebf550aba7#src=seo_token; Mezo의 mezo-earn, APY 2.88%, TVL $66.45M, https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c#src=seo_token; Bitcoin의 chainflip-lending, APY 0.42%, TVL $2.02M, https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66#src=seo_token; Bitcoin의 chainflip-amm, APY 2.89%, TVL $5.34M, https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [justlend-v1 →](https://www.defi.garden/?pool=71418c17-d2aa-4eff-b68a-806fff9ec951#src=seo_token) | Tron | 0.01% | $538.47M |
-| 2 | [b14g →](https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec#src=seo_token) | Bitcoin | 0.10% | $193.32M |
-| 3 | [midas-rwa →](https://www.defi.garden/?pool=d2b2bdd9-6535-4acc-8e84-2b0838bd63bb#src=seo_token) | Ethereum | 3.13% | $23.66M |
-| 4 | [midas-rwa →](https://www.defi.garden/?pool=24514f34-853f-4678-9faa-7cebf550aba7#src=seo_token) | Monad | 3.13% | $4.84M |
-| 5 | [mezo-earn →](https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c#src=seo_token) | Mezo | 2.88% | $66.62M |
-| 6 | [chainflip-lending →](https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66#src=seo_token) | Bitcoin | 0.42% | $2.02M |
-| 7 | [chainflip-amm →](https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490#src=seo_token) | Bitcoin | 2.33% | $5.33M |
+| 1 | [liquidium →](https://www.defi.garden/?pool=8df2c295-0906-4d91-9dad-45353f41b99f#src=seo_token) | ICP | 0.01% | $1.76M |
+| 2 | [justlend-v1 →](https://www.defi.garden/?pool=71418c17-d2aa-4eff-b68a-806fff9ec951#src=seo_token) | Tron | 0.01% | $543.37M |
+| 3 | [b14g →](https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec#src=seo_token) | Bitcoin | 0.12% | $172.72M |
+| 4 | [midas-rwa →](https://www.defi.garden/?pool=d2b2bdd9-6535-4acc-8e84-2b0838bd63bb#src=seo_token) | Ethereum | 3.13% | $23.71M |
+| 5 | [midas-rwa →](https://www.defi.garden/?pool=24514f34-853f-4678-9faa-7cebf550aba7#src=seo_token) | Monad | 3.13% | $4.85M |
+| 6 | [mezo-earn →](https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c#src=seo_token) | Mezo | 2.88% | $66.45M |
+| 7 | [chainflip-lending →](https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66#src=seo_token) | Bitcoin | 0.42% | $2.02M |
+| 8 | [chainflip-amm →](https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490#src=seo_token) | Bitcoin | 2.89% | $5.34M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-BTC 풀은 여기 8개가 있고, 6개 체인에서 APY가 0.01%부터 500.00%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+BTC 풀은 여기 8개가 있고, 6개 체인에서 APY가 0.01%부터 3.13%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 2.11%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 1.29%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 1개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
-
-8개 풀 중 1개는 비영구적 손실(IL) 위험이 있어요 — 두 자산을 맞춰 넣는 포지션은 수익이 나는 중에도 그냥 들고 있는 것보다 가치가 줄어들 수 있어요.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | justlend-v1 | 0.01% | 0.01% | 기본 금리 |
-| b14g | 0.10% | 0.12% | 기본 금리 |
+| b14g | 0.12% | 0.12% | 기본 금리 |
 | mezo-earn | 2.88% | 2.90% | 인센티브 98.00% |
-| midas-rwa | 3.13% | 2.12% | 기본 금리 |
-| osmosis-dex | 500.00% | 446.36% | 기본 금리 |
-| chainflip-amm | 2.33% | 3.08% | 기본 금리 |
-| midas-rwa | 3.13% | 2.10% | 기본 금리 |
-| chainflip-lending | 0.42% | 0.42% | 기본 금리 |
+| midas-rwa | 3.13% | 2.18% | 기본 금리 |
+| chainflip-amm | 2.89% | 3.07% | 기본 금리 |
+| midas-rwa | 3.13% | 2.16% | 기본 금리 |
+| chainflip-lending | 0.42% | 0.43% | 기본 금리 |
+| liquidium | 0.01% | 0.01% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -67,11 +66,11 @@ BTC 풀은 여기 8개가 있고, 6개 체인에서 APY가 0.01%부터 500.00%�
 
 ### 오늘 BTC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Osmosis의 osmosis-dex에서 APY 500.00%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 midas-rwa에서 APY 3.13%예요.
 
 ### BTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 22개이며, 합산 TVL은 $856.15M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 21개이며, 합산 TVL은 $834.5M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -79,7 +78,7 @@ DefiLlama 실시간 데이터 기준, Osmosis의 osmosis-dex에서 APY 500.00%�
 
 ### BTC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 BTC의 변동성 낮은 후보는 Tron의 justlend-v1, APY 0.01%, TVL $538.47M, https://www.defi.garden/?pool=71418c17-d2aa-4eff-b68a-806fff9ec951#src=seo_token; Bitcoin의 b14g, APY 0.10%, TVL $193.32M, https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec#src=seo_token; Ethereum의 midas-rwa, APY 3.13%, TVL $23.66M, https://www.defi.garden/?pool=d2b2bdd9-6535-4acc-8e84-2b0838bd63bb#src=seo_token; Monad의 midas-rwa, APY 3.13%, TVL $4.84M, https://www.defi.garden/?pool=24514f34-853f-4678-9faa-7cebf550aba7#src=seo_token; Mezo의 mezo-earn, APY 2.88%, TVL $66.62M, https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c#src=seo_token; Bitcoin의 chainflip-lending, APY 0.42%, TVL $2.02M, https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66#src=seo_token; Bitcoin의 chainflip-amm, APY 2.33%, TVL $5.33M, https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 BTC의 변동성 낮은 후보는 ICP의 liquidium, APY 0.01%, TVL $1.76M, https://www.defi.garden/?pool=8df2c295-0906-4d91-9dad-45353f41b99f#src=seo_token; Tron의 justlend-v1, APY 0.01%, TVL $543.37M, https://www.defi.garden/?pool=71418c17-d2aa-4eff-b68a-806fff9ec951#src=seo_token; Bitcoin의 b14g, APY 0.12%, TVL $172.72M, https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec#src=seo_token; Ethereum의 midas-rwa, APY 3.13%, TVL $23.71M, https://www.defi.garden/?pool=d2b2bdd9-6535-4acc-8e84-2b0838bd63bb#src=seo_token; Monad의 midas-rwa, APY 3.13%, TVL $4.85M, https://www.defi.garden/?pool=24514f34-853f-4678-9faa-7cebf550aba7#src=seo_token; Mezo의 mezo-earn, APY 2.88%, TVL $66.45M, https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c#src=seo_token; Bitcoin의 chainflip-lending, APY 0.42%, TVL $2.02M, https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66#src=seo_token; Bitcoin의 chainflip-amm, APY 2.89%, TVL $5.34M, https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -96,7 +95,7 @@ APY 이력만 기준으로 비교한 BTC의 변동성 낮은 후보는 Tron의 j
 - [Bitcoin](https://www.defi.garden/ko/chains/bitcoin)
 - [Mezo](https://www.defi.garden/ko/chains/mezo)
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
-- [Osmosis](https://www.defi.garden/ko/chains/osmosis)
 - [Monad](https://www.defi.garden/ko/chains/monad)
+- [ICP](https://www.defi.garden/ko/chains/icp)
 
-## 마지막 업데이트: October 9, 2026
+## 마지막 업데이트: October 10, 2026

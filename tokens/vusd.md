@@ -1,44 +1,44 @@
 # VUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 10, 2026. Rates change continuously.*
 
-The highest honest VUSD yield right now is 29.29% on sushiswap-v3 (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VUSD yield right now is 27.30% on sushiswap-v3 (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curvance →](https://www.defi.garden/?pool=7e178994-eb38-4b0d-a3fd-ee60ab2e57ea#src=seo_token) | Monad | 0.63% | $25.88M |
-| [curve-dex →](https://www.defi.garden/?pool=6bb5e798-b1f7-4e0b-9df2-ce23a6c77e2b#src=seo_token) | Ethereum | 13.88% | $701.8K |
-| [stake-dao-yield →](https://www.defi.garden/?pool=e379b5a9-c066-4d10-baa5-e767d8055ed9#src=seo_token) | Ethereum | 16.55% | $553.5K |
-| [sushiswap-v3 →](https://www.defi.garden/?pool=d289bf6c-1254-4a0d-b143-3ae41c431003#src=seo_token) | Ethereum | 29.29% | $103.6K |
+| [curvance →](https://www.defi.garden/?pool=7e178994-eb38-4b0d-a3fd-ee60ab2e57ea#src=seo_token) | Monad | 0.63% | $25.89M |
+| [curve-dex →](https://www.defi.garden/?pool=6bb5e798-b1f7-4e0b-9df2-ce23a6c77e2b#src=seo_token) | Ethereum | 14.56% | $699.1K |
+| [stake-dao-yield →](https://www.defi.garden/?pool=e379b5a9-c066-4d10-baa5-e767d8055ed9#src=seo_token) | Ethereum | 17.57% | $550.7K |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=d289bf6c-1254-4a0d-b143-3ae41c431003#src=seo_token) | Ethereum | 27.30% | $103.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, VUSD's lower-variability candidates are curvance (Monad), 0.63% APY, $25.88M TVL, https://www.defi.garden/?pool=7e178994-eb38-4b0d-a3fd-ee60ab2e57ea#src=seo_token; curve-dex (Ethereum), 13.88% APY, $701.8K TVL, https://www.defi.garden/?pool=6bb5e798-b1f7-4e0b-9df2-ce23a6c77e2b#src=seo_token; stake-dao-yield (Ethereum), 16.55% APY, $553.5K TVL, https://www.defi.garden/?pool=e379b5a9-c066-4d10-baa5-e767d8055ed9#src=seo_token; sushiswap-v3 (Ethereum), 29.29% APY, $103.6K TVL, https://www.defi.garden/?pool=d289bf6c-1254-4a0d-b143-3ae41c431003#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, VUSD's lower-variability candidates are curvance (Monad), 0.63% APY, $25.89M TVL, https://www.defi.garden/?pool=7e178994-eb38-4b0d-a3fd-ee60ab2e57ea#src=seo_token; curve-dex (Ethereum), 14.56% APY, $699.1K TVL, https://www.defi.garden/?pool=6bb5e798-b1f7-4e0b-9df2-ce23a6c77e2b#src=seo_token; stake-dao-yield (Ethereum), 17.57% APY, $550.7K TVL, https://www.defi.garden/?pool=e379b5a9-c066-4d10-baa5-e767d8055ed9#src=seo_token; sushiswap-v3 (Ethereum), 27.30% APY, $103.8K TVL, https://www.defi.garden/?pool=d289bf6c-1254-4a0d-b143-3ae41c431003#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curvance →](https://www.defi.garden/?pool=7e178994-eb38-4b0d-a3fd-ee60ab2e57ea#src=seo_token) | Monad | 0.63% | $25.88M |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=6bb5e798-b1f7-4e0b-9df2-ce23a6c77e2b#src=seo_token) | Ethereum | 13.88% | $701.8K |
-| 3 | [stake-dao-yield →](https://www.defi.garden/?pool=e379b5a9-c066-4d10-baa5-e767d8055ed9#src=seo_token) | Ethereum | 16.55% | $553.5K |
-| 4 | [sushiswap-v3 →](https://www.defi.garden/?pool=d289bf6c-1254-4a0d-b143-3ae41c431003#src=seo_token) | Ethereum | 29.29% | $103.6K |
+| 1 | [curvance →](https://www.defi.garden/?pool=7e178994-eb38-4b0d-a3fd-ee60ab2e57ea#src=seo_token) | Monad | 0.63% | $25.89M |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=6bb5e798-b1f7-4e0b-9df2-ce23a6c77e2b#src=seo_token) | Ethereum | 14.56% | $699.1K |
+| 3 | [stake-dao-yield →](https://www.defi.garden/?pool=e379b5a9-c066-4d10-baa5-e767d8055ed9#src=seo_token) | Ethereum | 17.57% | $550.7K |
+| 4 | [sushiswap-v3 →](https://www.defi.garden/?pool=d289bf6c-1254-4a0d-b143-3ae41c431003#src=seo_token) | Ethereum | 27.30% | $103.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-VUSD shows up in 4 pools here, with rates from 0.63% to 29.29% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+VUSD shows up in 4 pools here, with rates from 0.63% to 27.30% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 19.49% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 19.62% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 4 of 4 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | curvance | 0.63% | 0.68% | 100.00% incentives |
-| curve-dex | 13.88% | 16.64% | 99.78% incentives |
-| stake-dao-yield | 16.55% | 22.34% | 99.76% incentives |
-| sushiswap-v3 | 29.29% | 30.36% | 93.36% incentives |
+| curve-dex | 14.56% | 16.82% | 100.00% incentives |
+| stake-dao-yield | 17.57% | 22.42% | 99.83% incentives |
+| sushiswap-v3 | 27.30% | 30.28% | 99.94% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest VUSD yield today?
 
-29.29% APY on sushiswap-v3 (Ethereum), based on live DefiLlama data.
+27.30% APY on sushiswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many VUSD pools clear the TVL floor?
 
@@ -58,7 +58,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which VUSD pools have the most stable APY history?
 
-Based on APY history only, VUSD's lower-variability candidates are curvance (Monad), 0.63% APY, $25.88M TVL, https://www.defi.garden/?pool=7e178994-eb38-4b0d-a3fd-ee60ab2e57ea#src=seo_token; curve-dex (Ethereum), 13.88% APY, $701.8K TVL, https://www.defi.garden/?pool=6bb5e798-b1f7-4e0b-9df2-ce23a6c77e2b#src=seo_token; stake-dao-yield (Ethereum), 16.55% APY, $553.5K TVL, https://www.defi.garden/?pool=e379b5a9-c066-4d10-baa5-e767d8055ed9#src=seo_token; sushiswap-v3 (Ethereum), 29.29% APY, $103.6K TVL, https://www.defi.garden/?pool=d289bf6c-1254-4a0d-b143-3ae41c431003#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, VUSD's lower-variability candidates are curvance (Monad), 0.63% APY, $25.89M TVL, https://www.defi.garden/?pool=7e178994-eb38-4b0d-a3fd-ee60ab2e57ea#src=seo_token; curve-dex (Ethereum), 14.56% APY, $699.1K TVL, https://www.defi.garden/?pool=6bb5e798-b1f7-4e0b-9df2-ce23a6c77e2b#src=seo_token; stake-dao-yield (Ethereum), 17.57% APY, $550.7K TVL, https://www.defi.garden/?pool=e379b5a9-c066-4d10-baa5-e767d8055ed9#src=seo_token; sushiswap-v3 (Ethereum), 27.30% APY, $103.8K TVL, https://www.defi.garden/?pool=d289bf6c-1254-4a0d-b143-3ae41c431003#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -74,4 +74,4 @@ Based on APY history only, VUSD's lower-variability candidates are curvance (Mon
 - [Monad](https://www.defi.garden/chains/monad)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 9, 2026
+## Last updated October 10, 2026

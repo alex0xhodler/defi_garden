@@ -1,12 +1,12 @@
 # VAULT7 DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 10, 2026. Rates change continuously.*
 
-The highest honest VAULT7 yield right now is 5.15% on affluent (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VAULT7 yield right now is 4.96% on affluent (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [affluent →](https://www.defi.garden/?pool=a4c64e2f-df0e-41e8-9f25-28105181cd93#src=seo_token) | TON | 5.15% | $285.8K |
+| [affluent →](https://www.defi.garden/?pool=a4c64e2f-df0e-41e8-9f25-28105181cd93#src=seo_token) | TON | 4.96% | $287.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest VAULT7 yield today?
 
-5.15% APY on affluent (TON), based on live DefiLlama data.
+4.96% APY on affluent (TON), based on live DefiLlama data.
 
 ### How many VAULT7 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $285.8K in total.
+1 live pool clear this page's $100K TVL floor, $287.8K in total.
 
 ### Are these rates safe?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank VAULT7 pools. This view cover
 - [TSTON](https://www.defi.garden/tokens/tston)
 - [XAUT0](https://www.defi.garden/tokens/xaut0)
 - [BABYDOGE](https://www.defi.garden/tokens/babydoge)
-- [AFFSENTORA](https://www.defi.garden/tokens/affsentora)
+- [STON](https://www.defi.garden/tokens/ston)
 
 ## Available on
 
 - [TON](https://www.defi.garden/chains/ton)
 
-## Last updated October 9, 2026
+## Last updated October 10, 2026

@@ -1,33 +1,38 @@
 # XGLD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 10, 2026. Rates change continuously.*
 
-The highest honest XGLD yield right now is 5.63% on pendle-v2 (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XGLD yield right now is 6.66% on pendle-v2 (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle-v2 →](https://www.defi.garden/?pool=cc62faeb-3b03-55ad-8020-7ba58f4a97ee#src=seo_token) | BSC | 4.74% | $175.9K |
-| [pendle-v2 →](https://www.defi.garden/?pool=c2c265fe-c192-5773-955e-316cbf74fa70#src=seo_token) | BSC | 5.63% | $175.9K |
+| [pendle-v2 →](https://www.defi.garden/?pool=c2c265fe-c192-5773-955e-316cbf74fa70#src=seo_token) | BSC | 6.66% | $175.4K |
+| [pendle-v2 →](https://www.defi.garden/?pool=cc62faeb-3b03-55ad-8020-7ba58f4a97ee#src=seo_token) | BSC | 6.01% | $175.4K |
 
-<!-- rate-stability:insufficient -->
+<!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-There is not enough qualifying APY history to rank XGLD pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, XGLD's lower-variability candidates are pendle-v2 (BSC), 6.66% APY, $175.4K TVL, https://www.defi.garden/?pool=c2c265fe-c192-5773-955e-316cbf74fa70#src=seo_token; pendle-v2 (BSC), 6.01% APY, $175.4K TVL, https://www.defi.garden/?pool=cc62faeb-3b03-55ad-8020-7ba58f4a97ee#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+| Rank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [pendle-v2 →](https://www.defi.garden/?pool=c2c265fe-c192-5773-955e-316cbf74fa70#src=seo_token) | BSC | 6.66% | $175.4K |
+| 2 | [pendle-v2 →](https://www.defi.garden/?pool=cc62faeb-3b03-55ad-8020-7ba58f4a97ee#src=seo_token) | BSC | 6.01% | $175.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-XGLD shows up in 2 pools here, with rates from 4.74% to 5.63% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+XGLD shows up in 2 pools here, with rates from 6.01% to 6.66% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 6.44% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 6.41% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle-v2 | 4.74% | 7.79% | Base rate |
-| pendle-v2 | 5.63% | 5.09% | Base rate |
+| pendle-v2 | 6.66% | 5.12% | Base rate |
+| pendle-v2 | 6.01% | 7.70% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest XGLD yield today?
 
-5.63% APY on pendle-v2 (BSC), based on live DefiLlama data.
+6.66% APY on pendle-v2 (BSC), based on live DefiLlama data.
 
 ### How many XGLD pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $351.9K in total.
+2 live pools clear this page's $100K TVL floor, $350.8K in total.
 
 ### Are these rates safe?
 
@@ -47,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which XGLD pools have the most stable APY history?
 
-There is not enough qualifying APY history to rank XGLD pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, XGLD's lower-variability candidates are pendle-v2 (BSC), 6.66% APY, $175.4K TVL, https://www.defi.garden/?pool=c2c265fe-c192-5773-955e-316cbf74fa70#src=seo_token; pendle-v2 (BSC), 6.01% APY, $175.4K TVL, https://www.defi.garden/?pool=cc62faeb-3b03-55ad-8020-7ba58f4a97ee#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -62,4 +67,4 @@ There is not enough qualifying APY history to rank XGLD pools. This view covers 
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated October 9, 2026
+## Last updated October 10, 2026

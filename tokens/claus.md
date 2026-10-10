@@ -1,12 +1,14 @@
 # CLAUS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 10, 2026. Rates change continuously.*
 
-The highest honest CLAUS yield right now is 168.14% on uniswap-v2 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CLAUS yield right now is 169.30% on uniswap-v2 (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=48636e86-8222-5b6a-ac09-6702c60d6978#src=seo_token) | Base | 168.14% | $334.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=5f95f092-96f0-5d21-82c6-d2be3c70e126#src=seo_token) | Ethereum | 512.39% | $397.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=48636e86-8222-5b6a-ac09-6702c60d6978#src=seo_token) | Base | 169.30% | $336.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=0f038b5b-f905-583f-b192-9f461c2e5c2a#src=seo_token) | Ethereum | 154.57% | $238.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,17 +19,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-CLAUS shows up in 1 pools here, with rates from 168.14% to 168.14% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CLAUS shows up in 3 pools here, with rates from 154.57% to 512.39% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 243.03% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 3 pools has a trustworthy 30-day average on file, with a median of 240.77% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
+All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-1 of 1 pool carries impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+3 of 3 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 168.14% | 243.03% | Base rate |
+| uniswap-v2 | 512.39% | — | Base rate |
+| uniswap-v2 | 169.30% | 240.77% | Base rate |
+| uniswap-v4 | 154.57% | — | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +39,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CLAUS yield today?
 
-168.14% APY on uniswap-v2 (Base), based on live DefiLlama data.
+169.30% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many CLAUS pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $879.9K in total.
+4 live pools clear this page's $100K TVL floor, $1.59M in total.
 
 ### Are these rates safe?
 
@@ -51,15 +55,16 @@ There is not enough qualifying APY history to rank CLAUS pools. This view covers
 
 ## Related tokens
 
+- [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
-- [WETH](https://www.defi.garden/tokens/weth)
-- [USDE](https://www.defi.garden/tokens/usde)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
+- [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 9, 2026
+## Last updated October 10, 2026

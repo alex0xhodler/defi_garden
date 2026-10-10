@@ -1,14 +1,15 @@
 # DHN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 10, 2026. Rates change continuously.*
 
-The highest honest DHN yield right now is 0.97% on uniswap-v4 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DHN yield right now is 0.04% on uniswap-v4 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=b1cfd876-2f08-5df6-9f52-50e46808942e#src=seo_token) | Ethereum | 0.97% | $6.65M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=1904ea9d-380f-50df-b7f9-8ce1192b1875#src=seo_token) | Ethereum | 0.24% | $3.52M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=221e2ea5-0cbc-5168-b93c-15a6c8bc482a#src=seo_token) | Ethereum | 0.34% | $2.45M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=1904ea9d-380f-50df-b7f9-8ce1192b1875#src=seo_token) | Ethereum | 0.05% | $3.52M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=221e2ea5-0cbc-5168-b93c-15a6c8bc482a#src=seo_token) | Ethereum | 0.06% | $2.45M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=7dfebd60-e781-5fec-b610-05d4553bc190#src=seo_token) | Ethereum | 0.04% | $511.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=9a800677-2f1c-59b7-a604-7bb044c81045#src=seo_token) | Ethereum | 0.02% | $510.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,19 +20,20 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-DHN shows up in 3 pools here, with rates from 0.24% to 0.97% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+DHN shows up in 4 pools here, with rates from 0.02% to 0.06% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 8.24% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 2.59% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-3 of 3 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+4 of 4 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 0.97% | 8.24% | Base rate |
-| uniswap-v4 | 0.24% | 10.10% | Base rate |
-| uniswap-v4 | 0.34% | 6.30% | Base rate |
+| uniswap-v4 | 0.05% | 7.61% | Base rate |
+| uniswap-v4 | 0.06% | 5.14% | Base rate |
+| uniswap-v4 | 0.04% | 0.04% | Base rate |
+| uniswap-v4 | 0.02% | 0.01% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -39,11 +41,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest DHN yield today?
 
-0.97% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+0.04% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many DHN pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $12.62M in total.
+4 live pools clear this page's $100K TVL floor, $6.99M in total.
 
 ### Are these rates safe?
 
@@ -66,4 +68,4 @@ There is not enough qualifying APY history to rank DHN pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 9, 2026
+## Last updated October 10, 2026

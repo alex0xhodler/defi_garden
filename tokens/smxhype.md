@@ -1,29 +1,29 @@
 # SMXHYPE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 10, 2026. Rates change continuously.*
 
-The highest honest SMXHYPE yield right now is 1.61% on monetrix-mxhype (Hyperliquid L1), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SMXHYPE yield right now is 1.70% on monetrix-mxhype (Hyperliquid L1), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [monetrix-mxhype →](https://www.defi.garden/?pool=98bbe9cc-1633-5241-85be-4162ef7957f5#src=seo_token) | Hyperliquid L1 | 1.61% | $1.62M |
-| [hybra-v4 →](https://www.defi.garden/?pool=0e466d1f-a242-5fe9-b9de-b64361947fba#src=seo_token) | Hyperliquid L1 | 0.30% | $125.6K |
+| [monetrix-mxhype →](https://www.defi.garden/?pool=98bbe9cc-1633-5241-85be-4162ef7957f5#src=seo_token) | Hyperliquid L1 | 1.70% | $1.58M |
+| [hybra-v4 →](https://www.defi.garden/?pool=0e466d1f-a242-5fe9-b9de-b64361947fba#src=seo_token) | Hyperliquid L1 | 0.30% | $125.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SMXHYPE's lower-variability candidates are monetrix-mxhype (Hyperliquid L1), 1.61% APY, $1.62M TVL, https://www.defi.garden/?pool=98bbe9cc-1633-5241-85be-4162ef7957f5#src=seo_token; hybra-v4 (Hyperliquid L1), 0.30% APY, $125.6K TVL, https://www.defi.garden/?pool=0e466d1f-a242-5fe9-b9de-b64361947fba#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SMXHYPE's lower-variability candidates are monetrix-mxhype (Hyperliquid L1), 1.70% APY, $1.58M TVL, https://www.defi.garden/?pool=98bbe9cc-1633-5241-85be-4162ef7957f5#src=seo_token; hybra-v4 (Hyperliquid L1), 0.30% APY, $125.3K TVL, https://www.defi.garden/?pool=0e466d1f-a242-5fe9-b9de-b64361947fba#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [monetrix-mxhype →](https://www.defi.garden/?pool=98bbe9cc-1633-5241-85be-4162ef7957f5#src=seo_token) | Hyperliquid L1 | 1.61% | $1.62M |
-| 2 | [hybra-v4 →](https://www.defi.garden/?pool=0e466d1f-a242-5fe9-b9de-b64361947fba#src=seo_token) | Hyperliquid L1 | 0.30% | $125.6K |
+| 1 | [monetrix-mxhype →](https://www.defi.garden/?pool=98bbe9cc-1633-5241-85be-4162ef7957f5#src=seo_token) | Hyperliquid L1 | 1.70% | $1.58M |
+| 2 | [hybra-v4 →](https://www.defi.garden/?pool=0e466d1f-a242-5fe9-b9de-b64361947fba#src=seo_token) | Hyperliquid L1 | 0.30% | $125.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SMXHYPE shows up in 2 pools here, with rates from 0.30% to 1.61% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SMXHYPE shows up in 2 pools here, with rates from 0.30% to 1.70% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 1.25% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -33,7 +33,7 @@ SMXHYPE shows up in 2 pools here, with rates from 0.30% to 1.61% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| monetrix-mxhype | 1.61% | 2.28% | Base rate |
+| monetrix-mxhype | 1.70% | 2.28% | Base rate |
 | hybra-v4 | 0.30% | 0.22% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SMXHYPE yield today?
 
-1.61% APY on monetrix-mxhype (Hyperliquid L1), based on live DefiLlama data.
+1.70% APY on monetrix-mxhype (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many SMXHYPE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.74M in total.
+2 live pools clear this page's $100K TVL floor, $1.71M in total.
 
 ### Are these rates safe?
 
@@ -54,19 +54,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SMXHYPE pools have the most stable APY history?
 
-Based on APY history only, SMXHYPE's lower-variability candidates are monetrix-mxhype (Hyperliquid L1), 1.61% APY, $1.62M TVL, https://www.defi.garden/?pool=98bbe9cc-1633-5241-85be-4162ef7957f5#src=seo_token; hybra-v4 (Hyperliquid L1), 0.30% APY, $125.6K TVL, https://www.defi.garden/?pool=0e466d1f-a242-5fe9-b9de-b64361947fba#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SMXHYPE's lower-variability candidates are monetrix-mxhype (Hyperliquid L1), 1.70% APY, $1.58M TVL, https://www.defi.garden/?pool=98bbe9cc-1633-5241-85be-4162ef7957f5#src=seo_token; hybra-v4 (Hyperliquid L1), 0.30% APY, $125.3K TVL, https://www.defi.garden/?pool=0e466d1f-a242-5fe9-b9de-b64361947fba#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [KHYPE](https://www.defi.garden/tokens/khype)
 - [WHYPE](https://www.defi.garden/tokens/whype)
 - [THBILL](https://www.defi.garden/tokens/thbill)
-- [WSTHYPE](https://www.defi.garden/tokens/wsthype)
 - [UBTC](https://www.defi.garden/tokens/ubtc)
+- [WSTHYPE](https://www.defi.garden/tokens/wsthype)
 - [XBTC](https://www.defi.garden/tokens/xbtc)
 
 ## Available on
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated October 9, 2026
+## Last updated October 10, 2026

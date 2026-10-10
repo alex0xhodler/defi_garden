@@ -1,13 +1,13 @@
 # SUSDFR DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 10, 2026. Rates change continuously.*
 
-The highest honest SUSDFR yield right now is 31.71% on pendle-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUSDFR yield right now is 32.64% on pendle-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle-v2 →](https://www.defi.garden/?pool=503c86b9-ac8d-5fdf-992c-8655699454ee#src=seo_token) | Ethereum | 31.71% | $1.77M |
-| [pendle-v2 →](https://www.defi.garden/?pool=7e58effd-f52d-5c3f-8fc7-f013c5b00b3c#src=seo_token) | Ethereum | 30.00% | $1.77M |
+| [pendle-v2 →](https://www.defi.garden/?pool=503c86b9-ac8d-5fdf-992c-8655699454ee#src=seo_token) | Ethereum | 32.64% | $1.78M |
+| [pendle-v2 →](https://www.defi.garden/?pool=7e58effd-f52d-5c3f-8fc7-f013c5b00b3c#src=seo_token) | Ethereum | 29.41% | $1.78M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,16 +18,16 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-SUSDFR shows up in 2 pools here, with rates from 30.00% to 31.71% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SUSDFR shows up in 2 pools here, with rates from 29.41% to 32.64% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 30.86% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 31.35% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle-v2 | 31.71% | 31.71% | Base rate |
-| pendle-v2 | 30.00% | 30.00% | Base rate |
+| pendle-v2 | 32.64% | 32.77% | 3.50% incentives |
+| pendle-v2 | 29.41% | 29.94% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SUSDFR yield today?
 
-31.71% APY on pendle-v2 (Ethereum), based on live DefiLlama data.
+32.64% APY on pendle-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many SUSDFR pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $4.04M in total.
+3 live pools clear this page's $100K TVL floor, $4.05M in total.
 
 ### Are these rates safe?
 
@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank SUSDFR pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 9, 2026
+## Last updated October 10, 2026

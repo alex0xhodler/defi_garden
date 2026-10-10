@@ -1,40 +1,43 @@
 # XSTRK DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 9, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 10, 2026. Rates change continuously.*
 
-The highest honest XSTRK yield right now is 18.07% on troves (Starknet), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XSTRK yield right now is 18.16% on troves (Starknet), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ekubo →](https://www.defi.garden/?pool=b022bb22-e9c8-4386-b30f-f40b42d91d4f#src=seo_token) | Starknet | 0.33% | $2.3M |
-| [troves →](https://www.defi.garden/?pool=8edcec10-f9bd-491e-9145-345f74a7c570#src=seo_token) | Starknet | 18.07% | $818.5K |
+| [ekubo →](https://www.defi.garden/?pool=b022bb22-e9c8-4386-b30f-f40b42d91d4f#src=seo_token) | Starknet | 0.35% | $2.31M |
+| [troves →](https://www.defi.garden/?pool=8edcec10-f9bd-491e-9145-345f74a7c570#src=seo_token) | Starknet | 18.16% | $850.1K |
+| [troves →](https://www.defi.garden/?pool=4658fb22-9c8c-43fb-acd7-ccb49c1e7299#src=seo_token) | Starknet | 0.02% | $394.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, XSTRK's lower-variability candidates are ekubo (Starknet), 0.33% APY, $2.3M TVL, https://www.defi.garden/?pool=b022bb22-e9c8-4386-b30f-f40b42d91d4f#src=seo_token; troves (Starknet), 18.07% APY, $818.5K TVL, https://www.defi.garden/?pool=8edcec10-f9bd-491e-9145-345f74a7c570#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, XSTRK's lower-variability candidates are ekubo (Starknet), 0.35% APY, $2.31M TVL, https://www.defi.garden/?pool=b022bb22-e9c8-4386-b30f-f40b42d91d4f#src=seo_token; troves (Starknet), 0.02% APY, $394.7K TVL, https://www.defi.garden/?pool=4658fb22-9c8c-43fb-acd7-ccb49c1e7299#src=seo_token; troves (Starknet), 18.16% APY, $850.1K TVL, https://www.defi.garden/?pool=8edcec10-f9bd-491e-9145-345f74a7c570#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [ekubo →](https://www.defi.garden/?pool=b022bb22-e9c8-4386-b30f-f40b42d91d4f#src=seo_token) | Starknet | 0.33% | $2.3M |
-| 2 | [troves →](https://www.defi.garden/?pool=8edcec10-f9bd-491e-9145-345f74a7c570#src=seo_token) | Starknet | 18.07% | $818.5K |
+| 1 | [ekubo →](https://www.defi.garden/?pool=b022bb22-e9c8-4386-b30f-f40b42d91d4f#src=seo_token) | Starknet | 0.35% | $2.31M |
+| 2 | [troves →](https://www.defi.garden/?pool=4658fb22-9c8c-43fb-acd7-ccb49c1e7299#src=seo_token) | Starknet | 0.02% | $394.7K |
+| 3 | [troves →](https://www.defi.garden/?pool=8edcec10-f9bd-491e-9145-345f74a7c570#src=seo_token) | Starknet | 18.16% | $850.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-XSTRK shows up in 2 pools here, with rates from 0.33% to 18.07% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+XSTRK shows up in 3 pools here, with rates from 0.02% to 18.16% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 9.16% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 3.97% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-1 of 2 pools carries impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+2 of 3 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| ekubo | 0.33% | 0.44% | Base rate |
-| troves | 18.07% | 17.88% | Base rate |
+| ekubo | 0.35% | 0.44% | Base rate |
+| troves | 18.16% | 17.81% | Base rate |
+| troves | 0.02% | 3.97% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +45,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest XSTRK yield today?
 
-18.07% APY on troves (Starknet), based on live DefiLlama data.
+18.16% APY on troves (Starknet), based on live DefiLlama data.
 
 ### How many XSTRK pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $9.25M in total.
+6 live pools clear this page's $100K TVL floor, $9.28M in total.
 
 ### Are these rates safe?
 
@@ -54,14 +57,14 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which XSTRK pools have the most stable APY history?
 
-Based on APY history only, XSTRK's lower-variability candidates are ekubo (Starknet), 0.33% APY, $2.3M TVL, https://www.defi.garden/?pool=b022bb22-e9c8-4386-b30f-f40b42d91d4f#src=seo_token; troves (Starknet), 18.07% APY, $818.5K TVL, https://www.defi.garden/?pool=8edcec10-f9bd-491e-9145-345f74a7c570#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, XSTRK's lower-variability candidates are ekubo (Starknet), 0.35% APY, $2.31M TVL, https://www.defi.garden/?pool=b022bb22-e9c8-4386-b30f-f40b42d91d4f#src=seo_token; troves (Starknet), 0.02% APY, $394.7K TVL, https://www.defi.garden/?pool=4658fb22-9c8c-43fb-acd7-ccb49c1e7299#src=seo_token; troves (Starknet), 18.16% APY, $850.1K TVL, https://www.defi.garden/?pool=8edcec10-f9bd-491e-9145-345f74a7c570#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
+- [STRKBTC](https://www.defi.garden/tokens/strkbtc)
 - [STRK](https://www.defi.garden/tokens/strk)
 - [ZEC](https://www.defi.garden/tokens/zec)
-- [STRKBTC](https://www.defi.garden/tokens/strkbtc)
 - [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [XWBTC](https://www.defi.garden/tokens/xwbtc)
 
@@ -69,4 +72,4 @@ Based on APY history only, XSTRK's lower-variability candidates are ekubo (Stark
 
 - [Starknet](https://www.defi.garden/chains/starknet)
 
-## Last updated October 9, 2026
+## Last updated October 10, 2026
