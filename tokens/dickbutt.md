@@ -1,6 +1,6 @@
 # DICKBUTT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 11, 2026. Rates change continuously.*
 
 The highest honest DICKBUTT yield right now is 0.24% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank DICKBUTT pools. This view cov
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 10, 2026
+## Last updated October 11, 2026

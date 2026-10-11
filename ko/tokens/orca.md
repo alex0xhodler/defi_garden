@@ -1,36 +1,36 @@
 # ORCA 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 10, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 11, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 ORCA의 가장 높은 정직한 수익률은 Solana의 orca-dex에서 254.43%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 ORCA의 가장 높은 정직한 수익률은 Solana의 orca-dex에서 322.47%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=558efc67-8544-434b-bf15-ea152f5c5e1d#src=seo_token) | Solana | 254.43% | $1.65M |
-| [orca-dex →](https://www.defi.garden/?pool=c255352a-52e6-428e-8610-98e6a97d3a50#src=seo_token) | Solana | 2.17% | $657.4K |
+| [orca-dex →](https://www.defi.garden/?pool=558efc67-8544-434b-bf15-ea152f5c5e1d#src=seo_token) | Solana | 322.47% | $1.39M |
+| [orca-dex →](https://www.defi.garden/?pool=c255352a-52e6-428e-8610-98e6a97d3a50#src=seo_token) | Solana | 2.41% | $684.9K |
 | [orca-dex →](https://www.defi.garden/?pool=399eb50c-58d8-4f14-ae03-e6e7676efc7e#src=seo_token) | Solana | 0.90% | $429.7K |
-| [orca-dex →](https://www.defi.garden/?pool=fb9a8e26-6fb3-5a5b-8ea0-fe94e70d9e46#src=seo_token) | Solana | 0.02% | $312.8K |
-| [orca-dex →](https://www.defi.garden/?pool=1e98f4e4-2579-4488-bfa1-f0a7c71eccd1#src=seo_token) | Solana | 33.69% | $146.7K |
+| [orca-dex →](https://www.defi.garden/?pool=fb9a8e26-6fb3-5a5b-8ea0-fe94e70d9e46#src=seo_token) | Solana | 1.34% | $325K |
+| [orca-dex →](https://www.defi.garden/?pool=1e98f4e4-2579-4488-bfa1-f0a7c71eccd1#src=seo_token) | Solana | 22.77% | $196.4K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 ORCA의 변동성 낮은 후보는 Solana의 orca-dex, APY 0.90%, TVL $429.7K, https://www.defi.garden/?pool=399eb50c-58d8-4f14-ae03-e6e7676efc7e#src=seo_token; Solana의 orca-dex, APY 2.17%, TVL $657.4K, https://www.defi.garden/?pool=c255352a-52e6-428e-8610-98e6a97d3a50#src=seo_token; Solana의 orca-dex, APY 33.69%, TVL $146.7K, https://www.defi.garden/?pool=1e98f4e4-2579-4488-bfa1-f0a7c71eccd1#src=seo_token; Solana의 orca-dex, APY 254.43%, TVL $1.65M, https://www.defi.garden/?pool=558efc67-8544-434b-bf15-ea152f5c5e1d#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 ORCA의 변동성 낮은 후보는 Solana의 orca-dex, APY 0.90%, TVL $429.7K, https://www.defi.garden/?pool=399eb50c-58d8-4f14-ae03-e6e7676efc7e#src=seo_token; Solana의 orca-dex, APY 2.41%, TVL $684.9K, https://www.defi.garden/?pool=c255352a-52e6-428e-8610-98e6a97d3a50#src=seo_token; Solana의 orca-dex, APY 22.77%, TVL $196.4K, https://www.defi.garden/?pool=1e98f4e4-2579-4488-bfa1-f0a7c71eccd1#src=seo_token; Solana의 orca-dex, APY 322.47%, TVL $1.39M, https://www.defi.garden/?pool=558efc67-8544-434b-bf15-ea152f5c5e1d#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [orca-dex →](https://www.defi.garden/?pool=399eb50c-58d8-4f14-ae03-e6e7676efc7e#src=seo_token) | Solana | 0.90% | $429.7K |
-| 2 | [orca-dex →](https://www.defi.garden/?pool=c255352a-52e6-428e-8610-98e6a97d3a50#src=seo_token) | Solana | 2.17% | $657.4K |
-| 3 | [orca-dex →](https://www.defi.garden/?pool=1e98f4e4-2579-4488-bfa1-f0a7c71eccd1#src=seo_token) | Solana | 33.69% | $146.7K |
-| 4 | [orca-dex →](https://www.defi.garden/?pool=558efc67-8544-434b-bf15-ea152f5c5e1d#src=seo_token) | Solana | 254.43% | $1.65M |
+| 2 | [orca-dex →](https://www.defi.garden/?pool=c255352a-52e6-428e-8610-98e6a97d3a50#src=seo_token) | Solana | 2.41% | $684.9K |
+| 3 | [orca-dex →](https://www.defi.garden/?pool=1e98f4e4-2579-4488-bfa1-f0a7c71eccd1#src=seo_token) | Solana | 22.77% | $196.4K |
+| 4 | [orca-dex →](https://www.defi.garden/?pool=558efc67-8544-434b-bf15-ea152f5c5e1d#src=seo_token) | Solana | 322.47% | $1.39M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-ORCA 풀은 여기 5개가 있고, 1개 체인에서 APY가 0.02%부터 254.43%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+ORCA 풀은 여기 5개가 있고, 1개 체인에서 APY가 0.90%부터 322.47%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 1.16%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 1.22%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 현재 5개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
@@ -38,11 +38,11 @@ ORCA 풀은 여기 5개가 있고, 1개 체인에서 APY가 0.02%부터 254.43%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| orca-dex | 254.43% | 206.18% | 기본 금리 |
-| orca-dex | 2.17% | 1.16% | 기본 금리 |
+| orca-dex | 322.47% | 213.66% | 기본 금리 |
+| orca-dex | 2.41% | 1.22% | 기본 금리 |
 | orca-dex | 0.90% | 0.05% | 기본 금리 |
-| orca-dex | 0.02% | 0.01% | 기본 금리 |
-| orca-dex | 33.69% | 89.36% | 기본 금리 |
+| orca-dex | 1.34% | 0.28% | 기본 금리 |
+| orca-dex | 22.77% | 89.49% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -50,11 +50,11 @@ ORCA 풀은 여기 5개가 있고, 1개 체인에서 APY가 0.02%부터 254.43%�
 
 ### 오늘 ORCA의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 254.43%예요.
+DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 322.47%예요.
 
 ### ORCA 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $3.2M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $3.03M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -62,7 +62,7 @@ DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 254.43%예요
 
 ### ORCA 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 ORCA의 변동성 낮은 후보는 Solana의 orca-dex, APY 0.90%, TVL $429.7K, https://www.defi.garden/?pool=399eb50c-58d8-4f14-ae03-e6e7676efc7e#src=seo_token; Solana의 orca-dex, APY 2.17%, TVL $657.4K, https://www.defi.garden/?pool=c255352a-52e6-428e-8610-98e6a97d3a50#src=seo_token; Solana의 orca-dex, APY 33.69%, TVL $146.7K, https://www.defi.garden/?pool=1e98f4e4-2579-4488-bfa1-f0a7c71eccd1#src=seo_token; Solana의 orca-dex, APY 254.43%, TVL $1.65M, https://www.defi.garden/?pool=558efc67-8544-434b-bf15-ea152f5c5e1d#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 ORCA의 변동성 낮은 후보는 Solana의 orca-dex, APY 0.90%, TVL $429.7K, https://www.defi.garden/?pool=399eb50c-58d8-4f14-ae03-e6e7676efc7e#src=seo_token; Solana의 orca-dex, APY 2.41%, TVL $684.9K, https://www.defi.garden/?pool=c255352a-52e6-428e-8610-98e6a97d3a50#src=seo_token; Solana의 orca-dex, APY 22.77%, TVL $196.4K, https://www.defi.garden/?pool=1e98f4e4-2579-4488-bfa1-f0a7c71eccd1#src=seo_token; Solana의 orca-dex, APY 322.47%, TVL $1.39M, https://www.defi.garden/?pool=558efc67-8544-434b-bf15-ea152f5c5e1d#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -77,4 +77,4 @@ APY 이력만 기준으로 비교한 ORCA의 변동성 낮은 후보는 Solana�
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: October 10, 2026
+## 마지막 업데이트: October 11, 2026

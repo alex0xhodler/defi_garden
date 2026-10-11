@@ -1,12 +1,12 @@
 # OBS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 11, 2026. Rates change continuously.*
 
-The highest honest OBS yield right now is 52.70% on vvs-flawless (Cronos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OBS yield right now is 23.93% on vvs-flawless (Cronos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-flawless →](https://www.defi.garden/?pool=b77a35d1-8cf3-5d88-acda-a8ae8834e7ca#src=seo_token) | Cronos | 52.70% | $100.5K |
+| [vvs-flawless →](https://www.defi.garden/?pool=b77a35d1-8cf3-5d88-acda-a8ae8834e7ca#src=seo_token) | Cronos | 23.93% | $102.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest OBS yield today?
 
-52.70% APY on vvs-flawless (Cronos), based on live DefiLlama data.
+23.93% APY on vvs-flawless (Cronos), based on live DefiLlama data.
 
 ### How many OBS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $100.5K in total.
+1 live pool clear this page's $100K TVL floor, $102.7K in total.
 
 ### Are these rates safe?
 
@@ -37,13 +37,13 @@ There is not enough qualifying APY history to rank OBS pools. This view covers A
 
 - [XLM](https://www.defi.garden/tokens/xlm)
 - [WCRO](https://www.defi.garden/tokens/wcro)
+- [PAXG](https://www.defi.garden/tokens/paxg)
 - [VVS](https://www.defi.garden/tokens/vvs)
 - [CDCETH](https://www.defi.garden/tokens/cdceth)
 - [XRP](https://www.defi.garden/tokens/xrp)
-- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 
 ## Available on
 
 - [Cronos](https://www.defi.garden/chains/cronos)
 
-## Last updated October 10, 2026
+## Last updated October 11, 2026

@@ -1,43 +1,43 @@
 # VVV 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 10, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 11, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 VVV의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 182.41%이며, $100K TVL 기준을 넘는 17개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 VVV의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 163.56%이며, $100K TVL 기준을 넘는 17개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=a703f8c8-d94c-4bce-8c8b-a1ec8556f500#src=seo_token) | Base | 26.01% | $15.52M |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=7dff6cc0-5cdb-42cc-afa0-3b647f071399#src=seo_token) | Base | 1.25% | $8.18M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=c5bfb4c1-f788-4d05-8714-42c603c81534#src=seo_token) | Base | 30.35% | $5.93M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=7185982b-0632-4e70-89ca-441c2f0b2618#src=seo_token) | Base | 182.41% | $2.08M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=d88f6c28-38d8-4962-b041-98a481776a99#src=seo_token) | Base | 48.15% | $805.6K |
-| [extra-finance-leverage-farming →](https://www.defi.garden/?pool=84884749-d26f-4105-8ea9-2a0ca92a69a5#src=seo_token) | Base | 13.74% | $410.8K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=a703f8c8-d94c-4bce-8c8b-a1ec8556f500#src=seo_token) | Base | 30.41% | $15.44M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=7dff6cc0-5cdb-42cc-afa0-3b647f071399#src=seo_token) | Base | 1.47% | $8.07M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=c5bfb4c1-f788-4d05-8714-42c603c81534#src=seo_token) | Base | 23.35% | $5.85M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=7185982b-0632-4e70-89ca-441c2f0b2618#src=seo_token) | Base | 163.56% | $2.06M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=d88f6c28-38d8-4962-b041-98a481776a99#src=seo_token) | Base | 10.56% | $1.01M |
+| [extra-finance-leverage-farming →](https://www.defi.garden/?pool=84884749-d26f-4105-8ea9-2a0ca92a69a5#src=seo_token) | Base | 15.93% | $408.7K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=1666d5a3-22ab-456c-9ef7-66bba0733c39#src=seo_token) | Base | 36.47% | $396.6K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=92b604cb-5cba-42a4-ba87-f65b9f7db56d#src=seo_token) | Base | 3.95% | $391.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=92b604cb-5cba-42a4-ba87-f65b9f7db56d#src=seo_token) | Base | 4.13% | $392.5K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 VVV의 변동성 낮은 후보는 Base의 extra-finance-leverage-farming, APY 13.74%, TVL $410.8K, https://www.defi.garden/?pool=84884749-d26f-4105-8ea9-2a0ca92a69a5#src=seo_token; Base의 aerodrome-v1, APY 26.01%, TVL $15.52M, https://www.defi.garden/?pool=a703f8c8-d94c-4bce-8c8b-a1ec8556f500#src=seo_token; Base의 aerodrome-v1, APY 1.25%, TVL $8.18M, https://www.defi.garden/?pool=7dff6cc0-5cdb-42cc-afa0-3b647f071399#src=seo_token; Base의 aerodrome-slipstream, APY 30.35%, TVL $5.93M, https://www.defi.garden/?pool=c5bfb4c1-f788-4d05-8714-42c603c81534#src=seo_token; Base의 aerodrome-slipstream, APY 48.15%, TVL $805.6K, https://www.defi.garden/?pool=d88f6c28-38d8-4962-b041-98a481776a99#src=seo_token; Base의 uniswap-v4, APY 3.95%, TVL $391.4K, https://www.defi.garden/?pool=92b604cb-5cba-42a4-ba87-f65b9f7db56d#src=seo_token; Base의 aerodrome-slipstream, APY 182.41%, TVL $2.08M, https://www.defi.garden/?pool=7185982b-0632-4e70-89ca-441c2f0b2618#src=seo_token; Base의 uniswap-v3, APY 36.47%, TVL $396.6K, https://www.defi.garden/?pool=1666d5a3-22ab-456c-9ef7-66bba0733c39#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 VVV의 변동성 낮은 후보는 Base의 extra-finance-leverage-farming, APY 15.93%, TVL $408.7K, https://www.defi.garden/?pool=84884749-d26f-4105-8ea9-2a0ca92a69a5#src=seo_token; Base의 aerodrome-v1, APY 30.41%, TVL $15.44M, https://www.defi.garden/?pool=a703f8c8-d94c-4bce-8c8b-a1ec8556f500#src=seo_token; Base의 aerodrome-v1, APY 1.47%, TVL $8.07M, https://www.defi.garden/?pool=7dff6cc0-5cdb-42cc-afa0-3b647f071399#src=seo_token; Base의 aerodrome-slipstream, APY 23.35%, TVL $5.85M, https://www.defi.garden/?pool=c5bfb4c1-f788-4d05-8714-42c603c81534#src=seo_token; Base의 aerodrome-slipstream, APY 10.56%, TVL $1.01M, https://www.defi.garden/?pool=d88f6c28-38d8-4962-b041-98a481776a99#src=seo_token; Base의 uniswap-v4, APY 4.13%, TVL $392.5K, https://www.defi.garden/?pool=92b604cb-5cba-42a4-ba87-f65b9f7db56d#src=seo_token; Base의 aerodrome-slipstream, APY 163.56%, TVL $2.06M, https://www.defi.garden/?pool=7185982b-0632-4e70-89ca-441c2f0b2618#src=seo_token; Base의 uniswap-v3, APY 36.47%, TVL $396.6K, https://www.defi.garden/?pool=1666d5a3-22ab-456c-9ef7-66bba0733c39#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [extra-finance-leverage-farming →](https://www.defi.garden/?pool=84884749-d26f-4105-8ea9-2a0ca92a69a5#src=seo_token) | Base | 13.74% | $410.8K |
-| 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=a703f8c8-d94c-4bce-8c8b-a1ec8556f500#src=seo_token) | Base | 26.01% | $15.52M |
-| 3 | [aerodrome-v1 →](https://www.defi.garden/?pool=7dff6cc0-5cdb-42cc-afa0-3b647f071399#src=seo_token) | Base | 1.25% | $8.18M |
-| 4 | [aerodrome-slipstream →](https://www.defi.garden/?pool=c5bfb4c1-f788-4d05-8714-42c603c81534#src=seo_token) | Base | 30.35% | $5.93M |
-| 5 | [aerodrome-slipstream →](https://www.defi.garden/?pool=d88f6c28-38d8-4962-b041-98a481776a99#src=seo_token) | Base | 48.15% | $805.6K |
-| 6 | [uniswap-v4 →](https://www.defi.garden/?pool=92b604cb-5cba-42a4-ba87-f65b9f7db56d#src=seo_token) | Base | 3.95% | $391.4K |
-| 7 | [aerodrome-slipstream →](https://www.defi.garden/?pool=7185982b-0632-4e70-89ca-441c2f0b2618#src=seo_token) | Base | 182.41% | $2.08M |
+| 1 | [extra-finance-leverage-farming →](https://www.defi.garden/?pool=84884749-d26f-4105-8ea9-2a0ca92a69a5#src=seo_token) | Base | 15.93% | $408.7K |
+| 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=a703f8c8-d94c-4bce-8c8b-a1ec8556f500#src=seo_token) | Base | 30.41% | $15.44M |
+| 3 | [aerodrome-v1 →](https://www.defi.garden/?pool=7dff6cc0-5cdb-42cc-afa0-3b647f071399#src=seo_token) | Base | 1.47% | $8.07M |
+| 4 | [aerodrome-slipstream →](https://www.defi.garden/?pool=c5bfb4c1-f788-4d05-8714-42c603c81534#src=seo_token) | Base | 23.35% | $5.85M |
+| 5 | [aerodrome-slipstream →](https://www.defi.garden/?pool=d88f6c28-38d8-4962-b041-98a481776a99#src=seo_token) | Base | 10.56% | $1.01M |
+| 6 | [uniswap-v4 →](https://www.defi.garden/?pool=92b604cb-5cba-42a4-ba87-f65b9f7db56d#src=seo_token) | Base | 4.13% | $392.5K |
+| 7 | [aerodrome-slipstream →](https://www.defi.garden/?pool=7185982b-0632-4e70-89ca-441c2f0b2618#src=seo_token) | Base | 163.56% | $2.06M |
 | 8 | [uniswap-v3 →](https://www.defi.garden/?pool=1666d5a3-22ab-456c-9ef7-66bba0733c39#src=seo_token) | Base | 36.47% | $396.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-VVV 풀은 여기 8개가 있고, 1개 체인에서 APY가 1.25%부터 182.41%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+VVV 풀은 여기 8개가 있고, 1개 체인에서 APY가 1.47%부터 163.56%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 48.41%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 47.90%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 5개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -45,14 +45,14 @@ VVV 풀은 여기 8개가 있고, 1개 체인에서 APY가 1.25%부터 182.41%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| aerodrome-v1 | 26.01% | 36.13% | 인센티브 100.00% |
-| aerodrome-v1 | 1.25% | 2.73% | 인센티브 100.00% |
-| aerodrome-slipstream | 30.35% | 73.34% | 인센티브 71.56% |
-| aerodrome-slipstream | 182.41% | 325.71% | 인센티브 22.23% |
-| aerodrome-slipstream | 48.15% | 60.69% | 인센티브 19.62% |
-| extra-finance-leverage-farming | 13.74% | 19.56% | 기본 금리 |
-| uniswap-v3 | 36.47% | 177.21% | 기본 금리 |
-| uniswap-v4 | 3.95% | 27.46% | 기본 금리 |
+| aerodrome-v1 | 30.41% | 36.52% | 인센티브 100.00% |
+| aerodrome-v1 | 1.47% | 2.75% | 인센티브 100.00% |
+| aerodrome-slipstream | 23.35% | 65.85% | 인센티브 82.99% |
+| aerodrome-slipstream | 163.56% | 305.36% | 인센티브 26.94% |
+| aerodrome-slipstream | 10.56% | 59.29% | 인센티브 66.07% |
+| extra-finance-leverage-farming | 15.93% | 19.82% | 기본 금리 |
+| uniswap-v3 | 36.47% | 162.30% | 기본 금리 |
+| uniswap-v4 | 4.13% | 27.10% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -60,11 +60,11 @@ VVV 풀은 여기 8개가 있고, 1개 체인에서 APY가 1.25%부터 182.41%�
 
 ### 오늘 VVV의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 182.41%예요.
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 163.56%예요.
 
 ### VVV 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 17개이며, 합산 TVL은 $38.06M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 17개이며, 합산 TVL은 $37.99M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -72,7 +72,7 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 182
 
 ### VVV 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 VVV의 변동성 낮은 후보는 Base의 extra-finance-leverage-farming, APY 13.74%, TVL $410.8K, https://www.defi.garden/?pool=84884749-d26f-4105-8ea9-2a0ca92a69a5#src=seo_token; Base의 aerodrome-v1, APY 26.01%, TVL $15.52M, https://www.defi.garden/?pool=a703f8c8-d94c-4bce-8c8b-a1ec8556f500#src=seo_token; Base의 aerodrome-v1, APY 1.25%, TVL $8.18M, https://www.defi.garden/?pool=7dff6cc0-5cdb-42cc-afa0-3b647f071399#src=seo_token; Base의 aerodrome-slipstream, APY 30.35%, TVL $5.93M, https://www.defi.garden/?pool=c5bfb4c1-f788-4d05-8714-42c603c81534#src=seo_token; Base의 aerodrome-slipstream, APY 48.15%, TVL $805.6K, https://www.defi.garden/?pool=d88f6c28-38d8-4962-b041-98a481776a99#src=seo_token; Base의 uniswap-v4, APY 3.95%, TVL $391.4K, https://www.defi.garden/?pool=92b604cb-5cba-42a4-ba87-f65b9f7db56d#src=seo_token; Base의 aerodrome-slipstream, APY 182.41%, TVL $2.08M, https://www.defi.garden/?pool=7185982b-0632-4e70-89ca-441c2f0b2618#src=seo_token; Base의 uniswap-v3, APY 36.47%, TVL $396.6K, https://www.defi.garden/?pool=1666d5a3-22ab-456c-9ef7-66bba0733c39#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 VVV의 변동성 낮은 후보는 Base의 extra-finance-leverage-farming, APY 15.93%, TVL $408.7K, https://www.defi.garden/?pool=84884749-d26f-4105-8ea9-2a0ca92a69a5#src=seo_token; Base의 aerodrome-v1, APY 30.41%, TVL $15.44M, https://www.defi.garden/?pool=a703f8c8-d94c-4bce-8c8b-a1ec8556f500#src=seo_token; Base의 aerodrome-v1, APY 1.47%, TVL $8.07M, https://www.defi.garden/?pool=7dff6cc0-5cdb-42cc-afa0-3b647f071399#src=seo_token; Base의 aerodrome-slipstream, APY 23.35%, TVL $5.85M, https://www.defi.garden/?pool=c5bfb4c1-f788-4d05-8714-42c603c81534#src=seo_token; Base의 aerodrome-slipstream, APY 10.56%, TVL $1.01M, https://www.defi.garden/?pool=d88f6c28-38d8-4962-b041-98a481776a99#src=seo_token; Base의 uniswap-v4, APY 4.13%, TVL $392.5K, https://www.defi.garden/?pool=92b604cb-5cba-42a4-ba87-f65b9f7db56d#src=seo_token; Base의 aerodrome-slipstream, APY 163.56%, TVL $2.06M, https://www.defi.garden/?pool=7185982b-0632-4e70-89ca-441c2f0b2618#src=seo_token; Base의 uniswap-v3, APY 36.47%, TVL $396.6K, https://www.defi.garden/?pool=1666d5a3-22ab-456c-9ef7-66bba0733c39#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -87,4 +87,4 @@ APY 이력만 기준으로 비교한 VVV의 변동성 낮은 후보는 Base의 e
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: October 10, 2026
+## 마지막 업데이트: October 11, 2026

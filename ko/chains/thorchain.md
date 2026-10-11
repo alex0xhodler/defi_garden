@@ -16,7 +16,7 @@ DefiLlama 실시간 데이터 기준, Thorchain의 rujira-money-market에서 APY
 
 ### Thorchain 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $12.9M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $12.94M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -29,10 +29,10 @@ DefiLlama 실시간 데이터 기준, Thorchain의 rujira-money-market에서 APY
 - [Base](https://www.defi.garden/ko/chains/base)
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
-- [Avalanche](https://www.defi.garden/ko/chains/avalanche)
+- [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
 
 ## Thorchain의 인기 토큰
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 
-## 마지막 업데이트: October 10, 2026
+## 마지막 업데이트: October 11, 2026

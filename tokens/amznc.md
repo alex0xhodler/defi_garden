@@ -1,12 +1,12 @@
 # AMZNC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 11, 2026. Rates change continuously.*
 
 The highest honest AMZNC yield right now is 295.17% on uniswap-v3 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=9e36fb91-c96a-54e8-aa6c-34d68a7afdab#src=seo_token) | Base | 60.53% | $2.18M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=9e36fb91-c96a-54e8-aa6c-34d68a7afdab#src=seo_token) | Base | 35.27% | $2.21M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=3b91d3b1-4086-58cf-bc03-e914055bf562#src=seo_token) | Base | 295.17% | $108.8K |
 
 <!-- rate-stability:insufficient -->
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-AMZNC shows up in 2 pools here, with rates from 60.53% to 295.17% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+AMZNC shows up in 2 pools here, with rates from 35.27% to 295.17% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 2 pools has a trustworthy 30-day average on file, with a median of 349.85% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 2 pools has a trustworthy 30-day average on file, with a median of 338.73% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -28,7 +28,7 @@ AMZNC shows up in 2 pools here, with rates from 60.53% to 295.17% APY across 1 c
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 60.53% | 349.85% | 50.92% incentives |
+| aerodrome-slipstream | 35.27% | 338.73% | 82.36% incentives |
 | uniswap-v3 | 295.17% | — | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -41,7 +41,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many AMZNC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $2.29M in total.
+2 live pools clear this page's $100K TVL floor, $2.32M in total.
 
 ### Are these rates safe?
 
@@ -64,4 +64,4 @@ There is not enough qualifying APY history to rank AMZNC pools. This view covers
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 10, 2026
+## Last updated October 11, 2026

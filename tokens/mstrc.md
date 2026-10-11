@@ -1,12 +1,12 @@
 # MSTRC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 11, 2026. Rates change continuously.*
 
-The highest honest MSTRC yield right now is 373.91% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MSTRC yield right now is 300.99% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=06ae14ef-c2e3-5e30-9876-3e06c8b2f9a9#src=seo_token) | Base | 373.91% | $1.63M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=06ae14ef-c2e3-5e30-9876-3e06c8b2f9a9#src=seo_token) | Base | 300.99% | $1.7M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MSTRC yield today?
 
-373.91% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+300.99% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many MSTRC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.63M in total.
+1 live pool clear this page's $100K TVL floor, $1.7M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank MSTRC pools. This view covers
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 10, 2026
+## Last updated October 11, 2026

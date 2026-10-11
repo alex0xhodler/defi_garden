@@ -1,14 +1,14 @@
 # STOCKER DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 11, 2026. Rates change continuously.*
 
-The highest honest STOCKER yield right now is 365.97% on uniswap-v4 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STOCKER yield right now is 305.86% on uniswap-v4 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=f8a05d16-6721-5db4-bc11-2d2e914e82cb#src=seo_token) | Ethereum | 365.97% | $277.7K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=0ed7a1ff-f154-51e2-bd0c-c74caaca712f#src=seo_token) | Ethereum | 0.09% | $230.4K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=7dab92ba-ce81-589a-a7ac-c02e7518cbf9#src=seo_token) | Ethereum | 8.54% | $122.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f8a05d16-6721-5db4-bc11-2d2e914e82cb#src=seo_token) | Ethereum | 305.86% | $254.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=0ed7a1ff-f154-51e2-bd0c-c74caaca712f#src=seo_token) | Ethereum | 0.16% | $206.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=7dab92ba-ce81-589a-a7ac-c02e7518cbf9#src=seo_token) | Ethereum | 87.85% | $114K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,9 +19,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-STOCKER shows up in 3 pools here, with rates from 0.09% to 365.97% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+STOCKER shows up in 3 pools here, with rates from 0.16% to 305.86% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 3 pools have a trustworthy 30-day average on file, with a median of 557.29% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 3 pools have a trustworthy 30-day average on file, with a median of 445.89% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -29,9 +29,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 365.97% | 864.46% | Base rate |
-| uniswap-v4 | 0.09% | 250.13% | Base rate |
-| uniswap-v4 | 8.54% | — | Base rate |
+| uniswap-v4 | 305.86% | 699.49% | Base rate |
+| uniswap-v4 | 0.16% | 192.29% | Base rate |
+| uniswap-v4 | 87.85% | — | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -39,11 +39,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest STOCKER yield today?
 
-365.97% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+305.86% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many STOCKER pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $884.3K in total.
+4 live pools clear this page's $100K TVL floor, $811.7K in total.
 
 ### Are these rates safe?
 
@@ -66,4 +66,4 @@ There is not enough qualifying APY history to rank STOCKER pools. This view cove
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 10, 2026
+## Last updated October 11, 2026

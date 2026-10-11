@@ -1,37 +1,37 @@
 # USX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 11, 2026. Rates change continuously.*
 
-The highest honest USX yield right now is 2.00% on kamino-lend (Solana), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USX yield right now is 1.97% on kamino-lend (Solana), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=57eb6e5d-ac96-4f39-8535-0ae9c7420b13#src=seo_token) | Solana | 0.11% | $19.65M |
-| [orca-dex →](https://www.defi.garden/?pool=761e502e-9b40-48e0-b025-8e083b4fdeda#src=seo_token) | Solana | 0.09% | $2.98M |
-| [kamino-lend →](https://www.defi.garden/?pool=3c4e1d81-1242-44dc-9d45-86cdcb12b9a0#src=seo_token) | Solana | 2.00% | $1.99M |
-| [raydium-amm →](https://www.defi.garden/?pool=0cb32474-2651-4624-8f39-eae66580778e#src=seo_token) | Solana | 0.87% | $537.1K |
-| [orca-dex →](https://www.defi.garden/?pool=31ea8935-a82e-491e-9cd9-3af57dab0430#src=seo_token) | Solana | 4.37% | $469.8K |
-| [velodrome-v2 →](https://www.defi.garden/?pool=a6a5b3cb-246a-4a2d-a5a7-b5ceb44ae1ed#src=seo_token) | OP Mainnet | 0.36% | $100.9K |
+| [orca-dex →](https://www.defi.garden/?pool=57eb6e5d-ac96-4f39-8535-0ae9c7420b13#src=seo_token) | Solana | 0.01% | $19.65M |
+| [orca-dex →](https://www.defi.garden/?pool=761e502e-9b40-48e0-b025-8e083b4fdeda#src=seo_token) | Solana | 0.03% | $2.98M |
+| [kamino-lend →](https://www.defi.garden/?pool=3c4e1d81-1242-44dc-9d45-86cdcb12b9a0#src=seo_token) | Solana | 1.97% | $2.03M |
+| [raydium-amm →](https://www.defi.garden/?pool=0cb32474-2651-4624-8f39-eae66580778e#src=seo_token) | Solana | 0.07% | $537.1K |
+| [orca-dex →](https://www.defi.garden/?pool=31ea8935-a82e-491e-9cd9-3af57dab0430#src=seo_token) | Solana | 0.06% | $469.7K |
+| [velodrome-v2 →](https://www.defi.garden/?pool=a6a5b3cb-246a-4a2d-a5a7-b5ceb44ae1ed#src=seo_token) | OP Mainnet | 0.41% | $100.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, USX's lower-variability candidates are orca-dex (Solana), 0.11% APY, $19.65M TVL, https://www.defi.garden/?pool=57eb6e5d-ac96-4f39-8535-0ae9c7420b13#src=seo_token; orca-dex (Solana), 4.37% APY, $469.8K TVL, https://www.defi.garden/?pool=31ea8935-a82e-491e-9cd9-3af57dab0430#src=seo_token; raydium-amm (Solana), 0.87% APY, $537.1K TVL, https://www.defi.garden/?pool=0cb32474-2651-4624-8f39-eae66580778e#src=seo_token; orca-dex (Solana), 0.09% APY, $2.98M TVL, https://www.defi.garden/?pool=761e502e-9b40-48e0-b025-8e083b4fdeda#src=seo_token; kamino-lend (Solana), 2.00% APY, $1.99M TVL, https://www.defi.garden/?pool=3c4e1d81-1242-44dc-9d45-86cdcb12b9a0#src=seo_token; velodrome-v2 (OP Mainnet), 0.36% APY, $100.9K TVL, https://www.defi.garden/?pool=a6a5b3cb-246a-4a2d-a5a7-b5ceb44ae1ed#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USX's lower-variability candidates are orca-dex (Solana), 0.01% APY, $19.65M TVL, https://www.defi.garden/?pool=57eb6e5d-ac96-4f39-8535-0ae9c7420b13#src=seo_token; orca-dex (Solana), 0.06% APY, $469.7K TVL, https://www.defi.garden/?pool=31ea8935-a82e-491e-9cd9-3af57dab0430#src=seo_token; raydium-amm (Solana), 0.07% APY, $537.1K TVL, https://www.defi.garden/?pool=0cb32474-2651-4624-8f39-eae66580778e#src=seo_token; orca-dex (Solana), 0.03% APY, $2.98M TVL, https://www.defi.garden/?pool=761e502e-9b40-48e0-b025-8e083b4fdeda#src=seo_token; kamino-lend (Solana), 1.97% APY, $2.03M TVL, https://www.defi.garden/?pool=3c4e1d81-1242-44dc-9d45-86cdcb12b9a0#src=seo_token; velodrome-v2 (OP Mainnet), 0.41% APY, $100.9K TVL, https://www.defi.garden/?pool=a6a5b3cb-246a-4a2d-a5a7-b5ceb44ae1ed#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [orca-dex →](https://www.defi.garden/?pool=57eb6e5d-ac96-4f39-8535-0ae9c7420b13#src=seo_token) | Solana | 0.11% | $19.65M |
-| 2 | [orca-dex →](https://www.defi.garden/?pool=31ea8935-a82e-491e-9cd9-3af57dab0430#src=seo_token) | Solana | 4.37% | $469.8K |
-| 3 | [raydium-amm →](https://www.defi.garden/?pool=0cb32474-2651-4624-8f39-eae66580778e#src=seo_token) | Solana | 0.87% | $537.1K |
-| 4 | [orca-dex →](https://www.defi.garden/?pool=761e502e-9b40-48e0-b025-8e083b4fdeda#src=seo_token) | Solana | 0.09% | $2.98M |
-| 5 | [kamino-lend →](https://www.defi.garden/?pool=3c4e1d81-1242-44dc-9d45-86cdcb12b9a0#src=seo_token) | Solana | 2.00% | $1.99M |
-| 6 | [velodrome-v2 →](https://www.defi.garden/?pool=a6a5b3cb-246a-4a2d-a5a7-b5ceb44ae1ed#src=seo_token) | OP Mainnet | 0.36% | $100.9K |
+| 1 | [orca-dex →](https://www.defi.garden/?pool=57eb6e5d-ac96-4f39-8535-0ae9c7420b13#src=seo_token) | Solana | 0.01% | $19.65M |
+| 2 | [orca-dex →](https://www.defi.garden/?pool=31ea8935-a82e-491e-9cd9-3af57dab0430#src=seo_token) | Solana | 0.06% | $469.7K |
+| 3 | [raydium-amm →](https://www.defi.garden/?pool=0cb32474-2651-4624-8f39-eae66580778e#src=seo_token) | Solana | 0.07% | $537.1K |
+| 4 | [orca-dex →](https://www.defi.garden/?pool=761e502e-9b40-48e0-b025-8e083b4fdeda#src=seo_token) | Solana | 0.03% | $2.98M |
+| 5 | [kamino-lend →](https://www.defi.garden/?pool=3c4e1d81-1242-44dc-9d45-86cdcb12b9a0#src=seo_token) | Solana | 1.97% | $2.03M |
+| 6 | [velodrome-v2 →](https://www.defi.garden/?pool=a6a5b3cb-246a-4a2d-a5a7-b5ceb44ae1ed#src=seo_token) | OP Mainnet | 0.41% | $100.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-USX shows up in 6 pools here, with rates from 0.09% to 4.37% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+USX shows up in 6 pools here, with rates from 0.01% to 1.97% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 6 of these 6 pools have a trustworthy 30-day average on file, with a median of 0.24% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -39,12 +39,12 @@ USX shows up in 6 pools here, with rates from 0.09% to 4.37% APY across 2 chains
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| orca-dex | 0.11% | 0.20% | Base rate |
-| orca-dex | 0.09% | 0.22% | Base rate |
-| kamino-lend | 2.00% | 2.02% | Base rate |
-| raydium-amm | 0.87% | 0.14% | Base rate |
-| orca-dex | 4.37% | 0.25% | Base rate |
-| velodrome-v2 | 0.36% | 0.34% | 100.00% incentives |
+| orca-dex | 0.01% | 0.20% | Base rate |
+| orca-dex | 0.03% | 0.21% | Base rate |
+| kamino-lend | 1.97% | 2.04% | Base rate |
+| raydium-amm | 0.07% | 0.15% | Base rate |
+| orca-dex | 0.06% | 0.27% | Base rate |
+| velodrome-v2 | 0.41% | 0.34% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -52,7 +52,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USX yield today?
 
-2.00% APY on kamino-lend (Solana), based on live DefiLlama data.
+1.97% APY on kamino-lend (Solana), based on live DefiLlama data.
 
 ### How many USX pools clear the TVL floor?
 
@@ -64,7 +64,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USX pools have the most stable APY history?
 
-Based on APY history only, USX's lower-variability candidates are orca-dex (Solana), 0.11% APY, $19.65M TVL, https://www.defi.garden/?pool=57eb6e5d-ac96-4f39-8535-0ae9c7420b13#src=seo_token; orca-dex (Solana), 4.37% APY, $469.8K TVL, https://www.defi.garden/?pool=31ea8935-a82e-491e-9cd9-3af57dab0430#src=seo_token; raydium-amm (Solana), 0.87% APY, $537.1K TVL, https://www.defi.garden/?pool=0cb32474-2651-4624-8f39-eae66580778e#src=seo_token; orca-dex (Solana), 0.09% APY, $2.98M TVL, https://www.defi.garden/?pool=761e502e-9b40-48e0-b025-8e083b4fdeda#src=seo_token; kamino-lend (Solana), 2.00% APY, $1.99M TVL, https://www.defi.garden/?pool=3c4e1d81-1242-44dc-9d45-86cdcb12b9a0#src=seo_token; velodrome-v2 (OP Mainnet), 0.36% APY, $100.9K TVL, https://www.defi.garden/?pool=a6a5b3cb-246a-4a2d-a5a7-b5ceb44ae1ed#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USX's lower-variability candidates are orca-dex (Solana), 0.01% APY, $19.65M TVL, https://www.defi.garden/?pool=57eb6e5d-ac96-4f39-8535-0ae9c7420b13#src=seo_token; orca-dex (Solana), 0.06% APY, $469.7K TVL, https://www.defi.garden/?pool=31ea8935-a82e-491e-9cd9-3af57dab0430#src=seo_token; raydium-amm (Solana), 0.07% APY, $537.1K TVL, https://www.defi.garden/?pool=0cb32474-2651-4624-8f39-eae66580778e#src=seo_token; orca-dex (Solana), 0.03% APY, $2.98M TVL, https://www.defi.garden/?pool=761e502e-9b40-48e0-b025-8e083b4fdeda#src=seo_token; kamino-lend (Solana), 1.97% APY, $2.03M TVL, https://www.defi.garden/?pool=3c4e1d81-1242-44dc-9d45-86cdcb12b9a0#src=seo_token; velodrome-v2 (OP Mainnet), 0.41% APY, $100.9K TVL, https://www.defi.garden/?pool=a6a5b3cb-246a-4a2d-a5a7-b5ceb44ae1ed#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -80,4 +80,4 @@ Based on APY history only, USX's lower-variability candidates are orca-dex (Sola
 - [Solana](https://www.defi.garden/chains/solana)
 - [OP Mainnet](https://www.defi.garden/chains/op-mainnet)
 
-## Last updated October 10, 2026
+## Last updated October 11, 2026

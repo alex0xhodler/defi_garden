@@ -1,12 +1,12 @@
 # FOXSY DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 11, 2026. Rates change continuously.*
 
-The highest honest FOXSY yield right now is 7.54% on xexchange (MultiversX), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FOXSY yield right now is 10.91% on xexchange (MultiversX), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [xexchange →](https://www.defi.garden/?pool=0aa7fe49-8253-43ab-8d60-b3c8b47570e4#src=seo_token) | MultiversX | 7.54% | $102.9K |
+| [xexchange →](https://www.defi.garden/?pool=0aa7fe49-8253-43ab-8d60-b3c8b47570e4#src=seo_token) | MultiversX | 10.91% | $103.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FOXSY yield today?
 
-7.54% APY on xexchange (MultiversX), based on live DefiLlama data.
+10.91% APY on xexchange (MultiversX), based on live DefiLlama data.
 
 ### How many FOXSY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $102.9K in total.
+1 live pool clear this page's $100K TVL floor, $103.1K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank FOXSY pools. This view covers
 
 - [MultiversX](https://www.defi.garden/chains/multiversx)
 
-## Last updated October 10, 2026
+## Last updated October 11, 2026

@@ -1,12 +1,12 @@
 # NINJACAT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 11, 2026. Rates change continuously.*
 
-The highest honest NINJACAT yield right now is 301.83% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NINJACAT yield right now is 171.43% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=7527ef0c-c393-541d-85bb-81ff7922fb44#src=seo_token) | Solana | 301.83% | $121.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=7527ef0c-c393-541d-85bb-81ff7922fb44#src=seo_token) | Solana | 171.43% | $121.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NINJACAT yield today?
 
-301.83% APY on raydium-amm (Solana), based on live DefiLlama data.
+171.43% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many NINJACAT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $121.3K in total.
+1 live pool clear this page's $100K TVL floor, $121.8K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank NINJACAT pools. This view cov
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 10, 2026
+## Last updated October 11, 2026

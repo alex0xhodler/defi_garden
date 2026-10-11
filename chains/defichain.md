@@ -4,7 +4,7 @@ The highest honest Defichain yield right now is 0.06% on defichain-dex (Defichai
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| MSTR-DUSD | [defichain-dex →](https://www.defi.garden/?pool=4f4e18b0-ad83-4322-bd49-299f51092ea9#src=seo_chain) | 0.06% | $252.8K |
+| DUSD-DFI | [defichain-dex →](https://www.defi.garden/?pool=74ab9394-5d6d-41a6-955e-b246ecc8dede#src=seo_chain) | 0.06% | $630K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -33,7 +33,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ## Top tokens on Defichain
 
-- [MSTR](https://www.defi.garden/tokens/mstr)
 - [DUSD](https://www.defi.garden/tokens/dusd)
+- [DFI](https://www.defi.garden/tokens/dfi)
 
-## Last updated October 10, 2026
+## Last updated October 11, 2026

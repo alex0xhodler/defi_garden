@@ -1,43 +1,43 @@
 # LINK 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 10, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 11, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 LINK의 가장 높은 정직한 수익률은 Arbitrum의 gmx-v2-perps에서 3.75%이며, $100K TVL 기준을 넘는 47개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 LINK의 가장 높은 정직한 수익률은 Ethereum의 bancor-v3에서 0.04%이며, $100K TVL 기준을 넘는 47개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=b847133f-f5d5-4692-b74e-d815d51988fc#src=seo_token) | Ethereum | 0.02% | $95.02M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=46ac97f1-cb18-40ad-9ae6-b6c31981684c#src=seo_token) | Ethereum | 0.30% | $20.37M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=3025b6b3-e95f-490e-ba10-540c9b1b08f9#src=seo_token) | Ethereum | 3.92% | $14.15M |
-| [bancor-v3 →](https://www.defi.garden/?pool=6f61c337-7cee-4ed9-a369-d645caf7748b#src=seo_token) | Ethereum | 0.03% | $7.93M |
-| [curve-dex →](https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3#src=seo_token) | Ethereum | 0.19% | $6.08M |
-| [aave-v3 →](https://www.defi.garden/?pool=43644487-e26c-450c-8bcb-fb10c1e512e0#src=seo_token) | Arbitrum | 0.01% | $4.11M |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=dffb3514-d667-4f2f-8df3-f716ebe09c93#src=seo_token) | Arbitrum | 3.75% | $2.72M |
+| [aave-v3 →](https://www.defi.garden/?pool=b847133f-f5d5-4692-b74e-d815d51988fc#src=seo_token) | Ethereum | 0.02% | $95.32M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=46ac97f1-cb18-40ad-9ae6-b6c31981684c#src=seo_token) | Ethereum | 0.84% | $20.44M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=3025b6b3-e95f-490e-ba10-540c9b1b08f9#src=seo_token) | Ethereum | 10.45% | $14.17M |
+| [bancor-v3 →](https://www.defi.garden/?pool=6f61c337-7cee-4ed9-a369-d645caf7748b#src=seo_token) | Ethereum | 0.04% | $7.93M |
+| [curve-dex →](https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3#src=seo_token) | Ethereum | 0.01% | $6.07M |
+| [aave-v3 →](https://www.defi.garden/?pool=43644487-e26c-450c-8bcb-fb10c1e512e0#src=seo_token) | Arbitrum | 0.01% | $4.08M |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=dffb3514-d667-4f2f-8df3-f716ebe09c93#src=seo_token) | Arbitrum | 7.82% | $2.73M |
 | [aave-v3 →](https://www.defi.garden/?pool=995a6317-1c32-48c2-a8c9-683263b8412e#src=seo_token) | Polygon | 0.02% | $1.9M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 LINK의 변동성 낮은 후보는 Ethereum의 aave-v3, APY 0.02%, TVL $95.02M, https://www.defi.garden/?pool=b847133f-f5d5-4692-b74e-d815d51988fc#src=seo_token; Arbitrum의 aave-v3, APY 0.01%, TVL $4.11M, https://www.defi.garden/?pool=43644487-e26c-450c-8bcb-fb10c1e512e0#src=seo_token; Ethereum의 bancor-v3, APY 0.03%, TVL $7.93M, https://www.defi.garden/?pool=6f61c337-7cee-4ed9-a369-d645caf7748b#src=seo_token; Polygon의 aave-v3, APY 0.02%, TVL $1.9M, https://www.defi.garden/?pool=995a6317-1c32-48c2-a8c9-683263b8412e#src=seo_token; Ethereum의 curve-dex, APY 0.19%, TVL $6.08M, https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3#src=seo_token; Arbitrum의 gmx-v2-perps, APY 3.75%, TVL $2.72M, https://www.defi.garden/?pool=dffb3514-d667-4f2f-8df3-f716ebe09c93#src=seo_token; Ethereum의 uniswap-v4, APY 0.30%, TVL $20.37M, https://www.defi.garden/?pool=46ac97f1-cb18-40ad-9ae6-b6c31981684c#src=seo_token; Ethereum의 uniswap-v3, APY 3.92%, TVL $14.15M, https://www.defi.garden/?pool=3025b6b3-e95f-490e-ba10-540c9b1b08f9#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 LINK의 변동성 낮은 후보는 Ethereum의 aave-v3, APY 0.02%, TVL $95.32M, https://www.defi.garden/?pool=b847133f-f5d5-4692-b74e-d815d51988fc#src=seo_token; Arbitrum의 aave-v3, APY 0.01%, TVL $4.08M, https://www.defi.garden/?pool=43644487-e26c-450c-8bcb-fb10c1e512e0#src=seo_token; Ethereum의 bancor-v3, APY 0.04%, TVL $7.93M, https://www.defi.garden/?pool=6f61c337-7cee-4ed9-a369-d645caf7748b#src=seo_token; Polygon의 aave-v3, APY 0.02%, TVL $1.9M, https://www.defi.garden/?pool=995a6317-1c32-48c2-a8c9-683263b8412e#src=seo_token; Ethereum의 curve-dex, APY 0.01%, TVL $6.07M, https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3#src=seo_token; Arbitrum의 gmx-v2-perps, APY 7.82%, TVL $2.73M, https://www.defi.garden/?pool=dffb3514-d667-4f2f-8df3-f716ebe09c93#src=seo_token; Ethereum의 uniswap-v4, APY 0.84%, TVL $20.44M, https://www.defi.garden/?pool=46ac97f1-cb18-40ad-9ae6-b6c31981684c#src=seo_token; Ethereum의 uniswap-v3, APY 10.45%, TVL $14.17M, https://www.defi.garden/?pool=3025b6b3-e95f-490e-ba10-540c9b1b08f9#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aave-v3 →](https://www.defi.garden/?pool=b847133f-f5d5-4692-b74e-d815d51988fc#src=seo_token) | Ethereum | 0.02% | $95.02M |
-| 2 | [aave-v3 →](https://www.defi.garden/?pool=43644487-e26c-450c-8bcb-fb10c1e512e0#src=seo_token) | Arbitrum | 0.01% | $4.11M |
-| 3 | [bancor-v3 →](https://www.defi.garden/?pool=6f61c337-7cee-4ed9-a369-d645caf7748b#src=seo_token) | Ethereum | 0.03% | $7.93M |
+| 1 | [aave-v3 →](https://www.defi.garden/?pool=b847133f-f5d5-4692-b74e-d815d51988fc#src=seo_token) | Ethereum | 0.02% | $95.32M |
+| 2 | [aave-v3 →](https://www.defi.garden/?pool=43644487-e26c-450c-8bcb-fb10c1e512e0#src=seo_token) | Arbitrum | 0.01% | $4.08M |
+| 3 | [bancor-v3 →](https://www.defi.garden/?pool=6f61c337-7cee-4ed9-a369-d645caf7748b#src=seo_token) | Ethereum | 0.04% | $7.93M |
 | 4 | [aave-v3 →](https://www.defi.garden/?pool=995a6317-1c32-48c2-a8c9-683263b8412e#src=seo_token) | Polygon | 0.02% | $1.9M |
-| 5 | [curve-dex →](https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3#src=seo_token) | Ethereum | 0.19% | $6.08M |
-| 6 | [gmx-v2-perps →](https://www.defi.garden/?pool=dffb3514-d667-4f2f-8df3-f716ebe09c93#src=seo_token) | Arbitrum | 3.75% | $2.72M |
-| 7 | [uniswap-v4 →](https://www.defi.garden/?pool=46ac97f1-cb18-40ad-9ae6-b6c31981684c#src=seo_token) | Ethereum | 0.30% | $20.37M |
-| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=3025b6b3-e95f-490e-ba10-540c9b1b08f9#src=seo_token) | Ethereum | 3.92% | $14.15M |
+| 5 | [curve-dex →](https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3#src=seo_token) | Ethereum | 0.01% | $6.07M |
+| 6 | [gmx-v2-perps →](https://www.defi.garden/?pool=dffb3514-d667-4f2f-8df3-f716ebe09c93#src=seo_token) | Arbitrum | 7.82% | $2.73M |
+| 7 | [uniswap-v4 →](https://www.defi.garden/?pool=46ac97f1-cb18-40ad-9ae6-b6c31981684c#src=seo_token) | Ethereum | 0.84% | $20.44M |
+| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=3025b6b3-e95f-490e-ba10-540c9b1b08f9#src=seo_token) | Ethereum | 10.45% | $14.17M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-LINK 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.01%부터 3.92%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+LINK 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.01%부터 10.45%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 1.25%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 1.24%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 현재 8개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
@@ -46,12 +46,12 @@ LINK 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.01%부터 3.92%까
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | aave-v3 | 0.02% | 0.02% | 기본 금리 |
-| uniswap-v4 | 0.30% | 24.12% | 기본 금리 |
-| uniswap-v3 | 3.92% | 22.58% | 기본 금리 |
-| bancor-v3 | 0.03% | 0.10% | 기본 금리 |
-| curve-dex | 0.19% | 2.40% | 기본 금리 |
+| uniswap-v4 | 0.84% | 23.30% | 기본 금리 |
+| uniswap-v3 | 10.45% | 22.10% | 기본 금리 |
+| bancor-v3 | 0.04% | 0.10% | 기본 금리 |
+| curve-dex | 0.01% | 2.39% | 기본 금리 |
 | aave-v3 | 0.01% | 0.00% | 기본 금리 |
-| gmx-v2-perps | 3.75% | 4.31% | 기본 금리 |
+| gmx-v2-perps | 7.82% | 4.41% | 기본 금리 |
 | aave-v3 | 0.02% | 0.02% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -60,11 +60,11 @@ LINK 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.01%부터 3.92%까
 
 ### 오늘 LINK의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Arbitrum의 gmx-v2-perps에서 APY 3.75%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 bancor-v3에서 APY 0.04%예요.
 
 ### LINK 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 47개이며, 합산 TVL은 $188.91M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 47개이며, 합산 TVL은 $189.28M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -72,7 +72,7 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 gmx-v2-perps에서 APY 3.75%�
 
 ### LINK 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 LINK의 변동성 낮은 후보는 Ethereum의 aave-v3, APY 0.02%, TVL $95.02M, https://www.defi.garden/?pool=b847133f-f5d5-4692-b74e-d815d51988fc#src=seo_token; Arbitrum의 aave-v3, APY 0.01%, TVL $4.11M, https://www.defi.garden/?pool=43644487-e26c-450c-8bcb-fb10c1e512e0#src=seo_token; Ethereum의 bancor-v3, APY 0.03%, TVL $7.93M, https://www.defi.garden/?pool=6f61c337-7cee-4ed9-a369-d645caf7748b#src=seo_token; Polygon의 aave-v3, APY 0.02%, TVL $1.9M, https://www.defi.garden/?pool=995a6317-1c32-48c2-a8c9-683263b8412e#src=seo_token; Ethereum의 curve-dex, APY 0.19%, TVL $6.08M, https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3#src=seo_token; Arbitrum의 gmx-v2-perps, APY 3.75%, TVL $2.72M, https://www.defi.garden/?pool=dffb3514-d667-4f2f-8df3-f716ebe09c93#src=seo_token; Ethereum의 uniswap-v4, APY 0.30%, TVL $20.37M, https://www.defi.garden/?pool=46ac97f1-cb18-40ad-9ae6-b6c31981684c#src=seo_token; Ethereum의 uniswap-v3, APY 3.92%, TVL $14.15M, https://www.defi.garden/?pool=3025b6b3-e95f-490e-ba10-540c9b1b08f9#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 LINK의 변동성 낮은 후보는 Ethereum의 aave-v3, APY 0.02%, TVL $95.32M, https://www.defi.garden/?pool=b847133f-f5d5-4692-b74e-d815d51988fc#src=seo_token; Arbitrum의 aave-v3, APY 0.01%, TVL $4.08M, https://www.defi.garden/?pool=43644487-e26c-450c-8bcb-fb10c1e512e0#src=seo_token; Ethereum의 bancor-v3, APY 0.04%, TVL $7.93M, https://www.defi.garden/?pool=6f61c337-7cee-4ed9-a369-d645caf7748b#src=seo_token; Polygon의 aave-v3, APY 0.02%, TVL $1.9M, https://www.defi.garden/?pool=995a6317-1c32-48c2-a8c9-683263b8412e#src=seo_token; Ethereum의 curve-dex, APY 0.01%, TVL $6.07M, https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3#src=seo_token; Arbitrum의 gmx-v2-perps, APY 7.82%, TVL $2.73M, https://www.defi.garden/?pool=dffb3514-d667-4f2f-8df3-f716ebe09c93#src=seo_token; Ethereum의 uniswap-v4, APY 0.84%, TVL $20.44M, https://www.defi.garden/?pool=46ac97f1-cb18-40ad-9ae6-b6c31981684c#src=seo_token; Ethereum의 uniswap-v3, APY 10.45%, TVL $14.17M, https://www.defi.garden/?pool=3025b6b3-e95f-490e-ba10-540c9b1b08f9#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -89,4 +89,4 @@ APY 이력만 기준으로 비교한 LINK의 변동성 낮은 후보는 Ethereum
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 - [Polygon](https://www.defi.garden/ko/chains/polygon)
 
-## 마지막 업데이트: October 10, 2026
+## 마지막 업데이트: October 11, 2026

@@ -4,14 +4,14 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| NOPAL | [plume-vaults →](https://www.defi.garden/ko/pools/plume-vaults-nopal-plume-mainnet) | 10.94% | $117.72M |
+| NOPAL | [plume-vaults →](https://www.defi.garden/ko/pools/plume-vaults-nopal-plume-mainnet) | 10.86% | $121.15M |
 | NETHERFI | [plume-vaults →](https://www.defi.garden/?pool=7dfc2ee6-0801-5e4b-b4af-1c668b036644#src=seo_chain) | 6.39% | $34.23M |
-| NPRIME | [plume-vaults →](https://www.defi.garden/?pool=8b4f699b-9545-5c1c-8189-c32b8cb93e84#src=seo_chain) | 5.86% | $21.26M |
+| NPRIME | [plume-vaults →](https://www.defi.garden/?pool=8b4f699b-9545-5c1c-8189-c32b8cb93e84#src=seo_chain) | 5.93% | $21.26M |
 | USDC | [centrifuge-protocol →](https://www.defi.garden/?pool=1dee4660-d688-4800-8e0f-7af0d77bcde1#src=seo_chain) | 0.33% | $20.68M |
-| USCC | [bitwise-uscc →](https://www.defi.garden/?pool=ea1d8316-9160-48f0-ad18-a1298473f826#src=seo_chain) | 4.85% | $16.99M |
-| NFALCON | [plume-vaults →](https://www.defi.garden/?pool=ad047a62-5c88-4b43-bf42-4e4d0858c53a#src=seo_chain) | 7.97% | $14.96M |
+| USCC | [bitwise-uscc →](https://www.defi.garden/?pool=ea1d8316-9160-48f0-ad18-a1298473f826#src=seo_chain) | 4.41% | $16.99M |
+| NFALCON | [plume-vaults →](https://www.defi.garden/?pool=ad047a62-5c88-4b43-bf42-4e4d0858c53a#src=seo_chain) | 7.96% | $14.96M |
 | NBYBIT3 | [plume-vaults →](https://www.defi.garden/?pool=59e19dae-c96f-52fc-84d8-be19b6d407f1#src=seo_chain) | 11.00% | $13.19M |
-| NALPHA | [plume-vaults →](https://www.defi.garden/?pool=f6793703-310d-4d55-9295-38d39047f18c#src=seo_chain) | 8.58% | $12.61M |
+| NALPHA | [plume-vaults →](https://www.defi.garden/?pool=f6793703-310d-4d55-9295-38d39047f18c#src=seo_chain) | 8.15% | $12.53M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Plume Mainnet의 plume-vaults에서 APY 11
 
 ### Plume Mainnet 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 23개이며, 합산 TVL은 $290.27M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 23개이며, 합산 TVL은 $293.63M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -36,7 +36,7 @@ DefiLlama 실시간 데이터 기준, Plume Mainnet의 plume-vaults에서 APY 11
 - [Base](https://www.defi.garden/ko/chains/base)
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
-- [Avalanche](https://www.defi.garden/ko/chains/avalanche)
+- [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
 
 ## Plume Mainnet의 인기 토큰
 
@@ -49,4 +49,4 @@ DefiLlama 실시간 데이터 기준, Plume Mainnet의 plume-vaults에서 APY 11
 - [NBYBIT3](https://www.defi.garden/ko/tokens/nbybit3)
 - [NALPHA](https://www.defi.garden/ko/tokens/nalpha)
 
-## 마지막 업데이트: October 10, 2026
+## 마지막 업데이트: October 11, 2026

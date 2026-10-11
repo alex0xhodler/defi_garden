@@ -1,12 +1,12 @@
 # HUMA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 11, 2026. Rates change continuously.*
 
-The highest honest HUMA yield right now is 20.27% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HUMA yield right now is 17.70% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=0793eda0-3c6e-490d-b9c4-fd24315c5a48#src=seo_token) | Solana | 20.27% | $247.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=0793eda0-3c6e-490d-b9c4-fd24315c5a48#src=seo_token) | Solana | 17.70% | $247.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HUMA yield today?
 
-20.27% APY on raydium-amm (Solana), based on live DefiLlama data.
+17.70% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many HUMA pools clear the TVL floor?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank HUMA pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 10, 2026
+## Last updated October 11, 2026

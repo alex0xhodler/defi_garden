@@ -1,12 +1,12 @@
 # NUMMUS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 11, 2026. Rates change continuously.*
 
-The highest honest NUMMUS yield right now is 4.11% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NUMMUS yield right now is 1.70% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=500336d0-f56d-4038-90b8-c663d6c9febe#src=seo_token) | Solana | 4.11% | $121.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=500336d0-f56d-4038-90b8-c663d6c9febe#src=seo_token) | Solana | 1.70% | $120.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NUMMUS yield today?
 
-4.11% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.70% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many NUMMUS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $121.3K in total.
+1 live pool clear this page's $100K TVL floor, $120.2K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank NUMMUS pools. This view cover
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 10, 2026
+## Last updated October 11, 2026

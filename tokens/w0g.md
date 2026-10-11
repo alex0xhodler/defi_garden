@@ -1,13 +1,13 @@
 # W0G DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 11, 2026. Rates change continuously.*
 
 The highest honest W0G yield right now is 7.52% on uniswap-v3 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=f7583a03-2f3b-5b32-b87f-f9a9b343af29#src=seo_token) | Base | 7.52% | $213.5K |
-| [raydium-amm →](https://www.defi.garden/?pool=22cb1289-2fb5-5832-a0bf-7839462b0931#src=seo_token) | Solana | 4.16% | $208K |
+| [raydium-amm →](https://www.defi.garden/?pool=22cb1289-2fb5-5832-a0bf-7839462b0931#src=seo_token) | Solana | 4.97% | $209.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-W0G shows up in 2 pools here, with rates from 4.16% to 7.52% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+W0G shows up in 2 pools here, with rates from 4.97% to 7.52% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 8.18% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 7.99% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -29,7 +29,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | uniswap-v3 | 7.52% | 7.44% | Base rate |
-| raydium-amm | 4.16% | 8.93% | Base rate |
+| raydium-amm | 4.97% | 8.54% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -41,7 +41,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many W0G pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $421.5K in total.
+2 live pools clear this page's $100K TVL floor, $423K in total.
 
 ### Are these rates safe?
 
@@ -65,4 +65,4 @@ There is not enough qualifying APY history to rank W0G pools. This view covers A
 - [Base](https://www.defi.garden/chains/base)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 10, 2026
+## Last updated October 11, 2026

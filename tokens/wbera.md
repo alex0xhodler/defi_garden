@@ -1,35 +1,35 @@
 # WBERA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 11, 2026. Rates change continuously.*
 
-The highest honest WBERA yield right now is 34.72% on berapaw (Berachain), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WBERA yield right now is 41.33% on berapaw (Berachain), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [dolomite →](https://www.defi.garden/?pool=0ca7c0e0-ec43-4bd2-b11c-cde41006cb82#src=seo_token) | Berachain | 3.06% | $398.4K |
-| [berapaw →](https://www.defi.garden/?pool=b1a757d8-5004-46d9-99c7-085c045bed09#src=seo_token) | Berachain | 34.72% | $301.5K |
-| [berapaw →](https://www.defi.garden/?pool=18329564-f261-4b1a-ac91-b77c7e8e9fb8#src=seo_token) | Berachain | 29.84% | $287.7K |
-| [bex →](https://www.defi.garden/?pool=7bab2ac1-eb5c-4ed6-bd9c-652c29fe6a7e#src=seo_token) | Berachain | 3.18% | $155.4K |
+| [dolomite →](https://www.defi.garden/?pool=0ca7c0e0-ec43-4bd2-b11c-cde41006cb82#src=seo_token) | Berachain | 2.88% | $409.2K |
+| [berapaw →](https://www.defi.garden/?pool=b1a757d8-5004-46d9-99c7-085c045bed09#src=seo_token) | Berachain | 41.33% | $305.4K |
+| [berapaw →](https://www.defi.garden/?pool=18329564-f261-4b1a-ac91-b77c7e8e9fb8#src=seo_token) | Berachain | 36.36% | $291.7K |
+| [bex →](https://www.defi.garden/?pool=7bab2ac1-eb5c-4ed6-bd9c-652c29fe6a7e#src=seo_token) | Berachain | 1.72% | $156.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WBERA's lower-variability candidates are bex (Berachain), 3.18% APY, $155.4K TVL, https://www.defi.garden/?pool=7bab2ac1-eb5c-4ed6-bd9c-652c29fe6a7e#src=seo_token; berapaw (Berachain), 34.72% APY, $301.5K TVL, https://www.defi.garden/?pool=b1a757d8-5004-46d9-99c7-085c045bed09#src=seo_token; berapaw (Berachain), 29.84% APY, $287.7K TVL, https://www.defi.garden/?pool=18329564-f261-4b1a-ac91-b77c7e8e9fb8#src=seo_token; dolomite (Berachain), 3.06% APY, $398.4K TVL, https://www.defi.garden/?pool=0ca7c0e0-ec43-4bd2-b11c-cde41006cb82#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WBERA's lower-variability candidates are bex (Berachain), 1.72% APY, $156.8K TVL, https://www.defi.garden/?pool=7bab2ac1-eb5c-4ed6-bd9c-652c29fe6a7e#src=seo_token; berapaw (Berachain), 41.33% APY, $305.4K TVL, https://www.defi.garden/?pool=b1a757d8-5004-46d9-99c7-085c045bed09#src=seo_token; berapaw (Berachain), 36.36% APY, $291.7K TVL, https://www.defi.garden/?pool=18329564-f261-4b1a-ac91-b77c7e8e9fb8#src=seo_token; dolomite (Berachain), 2.88% APY, $409.2K TVL, https://www.defi.garden/?pool=0ca7c0e0-ec43-4bd2-b11c-cde41006cb82#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [bex →](https://www.defi.garden/?pool=7bab2ac1-eb5c-4ed6-bd9c-652c29fe6a7e#src=seo_token) | Berachain | 3.18% | $155.4K |
-| 2 | [berapaw →](https://www.defi.garden/?pool=b1a757d8-5004-46d9-99c7-085c045bed09#src=seo_token) | Berachain | 34.72% | $301.5K |
-| 3 | [berapaw →](https://www.defi.garden/?pool=18329564-f261-4b1a-ac91-b77c7e8e9fb8#src=seo_token) | Berachain | 29.84% | $287.7K |
-| 4 | [dolomite →](https://www.defi.garden/?pool=0ca7c0e0-ec43-4bd2-b11c-cde41006cb82#src=seo_token) | Berachain | 3.06% | $398.4K |
+| 1 | [bex →](https://www.defi.garden/?pool=7bab2ac1-eb5c-4ed6-bd9c-652c29fe6a7e#src=seo_token) | Berachain | 1.72% | $156.8K |
+| 2 | [berapaw →](https://www.defi.garden/?pool=b1a757d8-5004-46d9-99c7-085c045bed09#src=seo_token) | Berachain | 41.33% | $305.4K |
+| 3 | [berapaw →](https://www.defi.garden/?pool=18329564-f261-4b1a-ac91-b77c7e8e9fb8#src=seo_token) | Berachain | 36.36% | $291.7K |
+| 4 | [dolomite →](https://www.defi.garden/?pool=0ca7c0e0-ec43-4bd2-b11c-cde41006cb82#src=seo_token) | Berachain | 2.88% | $409.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WBERA shows up in 4 pools here, with rates from 3.06% to 34.72% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+WBERA shows up in 4 pools here, with rates from 1.72% to 41.33% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 21.13% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 21.06% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 4 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -37,10 +37,10 @@ WBERA shows up in 4 pools here, with rates from 3.06% to 34.72% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| dolomite | 3.06% | 1.68% | Base rate |
-| berapaw | 34.72% | 48.12% | 100.00% incentives |
-| berapaw | 29.84% | 36.52% | 100.00% incentives |
-| bex | 3.18% | 5.74% | Base rate |
+| dolomite | 2.88% | 1.75% | Base rate |
+| berapaw | 41.33% | 48.13% | 100.00% incentives |
+| berapaw | 36.36% | 36.44% | 100.00% incentives |
+| bex | 1.72% | 5.67% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -48,11 +48,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WBERA yield today?
 
-34.72% APY on berapaw (Berachain), based on live DefiLlama data.
+41.33% APY on berapaw (Berachain), based on live DefiLlama data.
 
 ### How many WBERA pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $1.32M in total.
+5 live pools clear this page's $100K TVL floor, $1.34M in total.
 
 ### Are these rates safe?
 
@@ -60,19 +60,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WBERA pools have the most stable APY history?
 
-Based on APY history only, WBERA's lower-variability candidates are bex (Berachain), 3.18% APY, $155.4K TVL, https://www.defi.garden/?pool=7bab2ac1-eb5c-4ed6-bd9c-652c29fe6a7e#src=seo_token; berapaw (Berachain), 34.72% APY, $301.5K TVL, https://www.defi.garden/?pool=b1a757d8-5004-46d9-99c7-085c045bed09#src=seo_token; berapaw (Berachain), 29.84% APY, $287.7K TVL, https://www.defi.garden/?pool=18329564-f261-4b1a-ac91-b77c7e8e9fb8#src=seo_token; dolomite (Berachain), 3.06% APY, $398.4K TVL, https://www.defi.garden/?pool=0ca7c0e0-ec43-4bd2-b11c-cde41006cb82#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WBERA's lower-variability candidates are bex (Berachain), 1.72% APY, $156.8K TVL, https://www.defi.garden/?pool=7bab2ac1-eb5c-4ed6-bd9c-652c29fe6a7e#src=seo_token; berapaw (Berachain), 41.33% APY, $305.4K TVL, https://www.defi.garden/?pool=b1a757d8-5004-46d9-99c7-085c045bed09#src=seo_token; berapaw (Berachain), 36.36% APY, $291.7K TVL, https://www.defi.garden/?pool=18329564-f261-4b1a-ac91-b77c7e8e9fb8#src=seo_token; dolomite (Berachain), 2.88% APY, $409.2K TVL, https://www.defi.garden/?pool=0ca7c0e0-ec43-4bd2-b11c-cde41006cb82#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [IBERA](https://www.defi.garden/tokens/ibera)
+- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [BUSD](https://www.defi.garden/tokens/busd)
 - [RE7HONEY](https://www.defi.garden/tokens/re7honey)
 - [CSRHONEY](https://www.defi.garden/tokens/csrhoney)
 - [HONEY](https://www.defi.garden/tokens/honey)
-- [KODIUSDE](https://www.defi.garden/tokens/kodiusde)
 
 ## Available on
 
 - [Berachain](https://www.defi.garden/chains/berachain)
 
-## Last updated October 10, 2026
+## Last updated October 11, 2026

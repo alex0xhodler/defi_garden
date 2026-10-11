@@ -1,12 +1,12 @@
 # ALLOX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 11, 2026. Rates change continuously.*
 
-The highest honest ALLOX yield right now is 147.80% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ALLOX yield right now is 106.40% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=8fe7bc9d-57cd-555a-85fc-85e28d447298#src=seo_token) | Base | 147.80% | $143.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=8fe7bc9d-57cd-555a-85fc-85e28d447298#src=seo_token) | Base | 106.40% | $212.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ALLOX yield today?
 
-147.80% APY on uniswap-v2 (Base), based on live DefiLlama data.
+106.40% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many ALLOX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $143.7K in total.
+1 live pool clear this page's $100K TVL floor, $212.1K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank ALLOX pools. This view covers
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 10, 2026
+## Last updated October 11, 2026

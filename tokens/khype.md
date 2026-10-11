@@ -1,39 +1,39 @@
 # KHYPE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 11, 2026. Rates change continuously.*
 
-The highest honest KHYPE yield right now is 2.85% on harmonix-finance (Hyperliquid L1), among 22 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KHYPE yield right now is 2.85% on harmonix-finance (Hyperliquid L1), among 23 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [kinetiq-khype →](https://www.defi.garden/pools/kinetiq-khype-khype-hyperliquid-l1) | Hyperliquid L1 | 2.25% | $890.72M |
-| [nest-cl →](https://www.defi.garden/?pool=ecae90d4-d05d-4485-a1c2-2abf75c96df8#src=seo_token) | Hyperliquid L1 | 5.86% | $5.44M |
-| [harmonix-finance →](https://www.defi.garden/?pool=2576d6eb-44a0-459c-8f95-b364bdf86d63#src=seo_token) | Hyperliquid L1 | 2.85% | $5.03M |
-| [hypurrfi-pooled →](https://www.defi.garden/?pool=aa88cdff-f2ca-4644-9900-8a565e12378c#src=seo_token) | Hyperliquid L1 | 0.02% | $2.38M |
-| [pendle-v2 →](https://www.defi.garden/?pool=99b2f4e5-34ee-53dd-97ec-6da96a9d796c#src=seo_token) | Hyperliquid L1 | 2.32% | $2.07M |
-| [pendle-v2 →](https://www.defi.garden/?pool=579c0332-5262-5b12-9f59-8c9d5d307dee#src=seo_token) | Hyperliquid L1 | 1.95% | $2.07M |
-| [project-x →](https://www.defi.garden/?pool=b7b3264a-0114-46b1-b961-ff9484339860#src=seo_token) | Hyperliquid L1 | 0.14% | $1.46M |
-| [nest-cl →](https://www.defi.garden/?pool=0551cdb2-2ebd-4ed5-9c13-73b8216ba47a#src=seo_token) | Hyperliquid L1 | 106.09% | $259.8K |
+| [kinetiq-khype →](https://www.defi.garden/pools/kinetiq-khype-khype-hyperliquid-l1) | Hyperliquid L1 | 1.98% | $895.8M |
+| [nest-cl →](https://www.defi.garden/?pool=ecae90d4-d05d-4485-a1c2-2abf75c96df8#src=seo_token) | Hyperliquid L1 | 5.92% | $5.54M |
+| [harmonix-finance →](https://www.defi.garden/?pool=2576d6eb-44a0-459c-8f95-b364bdf86d63#src=seo_token) | Hyperliquid L1 | 2.85% | $5.06M |
+| [hypurrfi-pooled →](https://www.defi.garden/?pool=aa88cdff-f2ca-4644-9900-8a565e12378c#src=seo_token) | Hyperliquid L1 | 0.02% | $2.4M |
+| [pendle-v2 →](https://www.defi.garden/?pool=99b2f4e5-34ee-53dd-97ec-6da96a9d796c#src=seo_token) | Hyperliquid L1 | 2.24% | $2.09M |
+| [pendle-v2 →](https://www.defi.garden/?pool=579c0332-5262-5b12-9f59-8c9d5d307dee#src=seo_token) | Hyperliquid L1 | 1.98% | $2.09M |
+| [project-x →](https://www.defi.garden/?pool=b7b3264a-0114-46b1-b961-ff9484339860#src=seo_token) | Hyperliquid L1 | 0.05% | $1.47M |
+| [nest-cl →](https://www.defi.garden/?pool=0551cdb2-2ebd-4ed5-9c13-73b8216ba47a#src=seo_token) | Hyperliquid L1 | 127.06% | $271.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, KHYPE's lower-variability candidates are hypurrfi-pooled (Hyperliquid L1), 0.02% APY, $2.38M TVL, https://www.defi.garden/?pool=aa88cdff-f2ca-4644-9900-8a565e12378c#src=seo_token; kinetiq-khype (Hyperliquid L1), 2.25% APY, $890.72M TVL, https://www.defi.garden/pools/kinetiq-khype-khype-hyperliquid-l1; harmonix-finance (Hyperliquid L1), 2.85% APY, $5.03M TVL, https://www.defi.garden/?pool=2576d6eb-44a0-459c-8f95-b364bdf86d63#src=seo_token; project-x (Hyperliquid L1), 0.14% APY, $1.46M TVL, https://www.defi.garden/?pool=b7b3264a-0114-46b1-b961-ff9484339860#src=seo_token; nest-cl (Hyperliquid L1), 5.86% APY, $5.44M TVL, https://www.defi.garden/?pool=ecae90d4-d05d-4485-a1c2-2abf75c96df8#src=seo_token; nest-cl (Hyperliquid L1), 106.09% APY, $259.8K TVL, https://www.defi.garden/?pool=0551cdb2-2ebd-4ed5-9c13-73b8216ba47a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, KHYPE's lower-variability candidates are hypurrfi-pooled (Hyperliquid L1), 0.02% APY, $2.4M TVL, https://www.defi.garden/?pool=aa88cdff-f2ca-4644-9900-8a565e12378c#src=seo_token; kinetiq-khype (Hyperliquid L1), 1.98% APY, $895.8M TVL, https://www.defi.garden/pools/kinetiq-khype-khype-hyperliquid-l1; harmonix-finance (Hyperliquid L1), 2.85% APY, $5.06M TVL, https://www.defi.garden/?pool=2576d6eb-44a0-459c-8f95-b364bdf86d63#src=seo_token; project-x (Hyperliquid L1), 0.05% APY, $1.47M TVL, https://www.defi.garden/?pool=b7b3264a-0114-46b1-b961-ff9484339860#src=seo_token; nest-cl (Hyperliquid L1), 5.92% APY, $5.54M TVL, https://www.defi.garden/?pool=ecae90d4-d05d-4485-a1c2-2abf75c96df8#src=seo_token; nest-cl (Hyperliquid L1), 127.06% APY, $271.6K TVL, https://www.defi.garden/?pool=0551cdb2-2ebd-4ed5-9c13-73b8216ba47a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [hypurrfi-pooled →](https://www.defi.garden/?pool=aa88cdff-f2ca-4644-9900-8a565e12378c#src=seo_token) | Hyperliquid L1 | 0.02% | $2.38M |
-| 2 | [kinetiq-khype →](https://www.defi.garden/pools/kinetiq-khype-khype-hyperliquid-l1) | Hyperliquid L1 | 2.25% | $890.72M |
-| 3 | [harmonix-finance →](https://www.defi.garden/?pool=2576d6eb-44a0-459c-8f95-b364bdf86d63#src=seo_token) | Hyperliquid L1 | 2.85% | $5.03M |
-| 4 | [project-x →](https://www.defi.garden/?pool=b7b3264a-0114-46b1-b961-ff9484339860#src=seo_token) | Hyperliquid L1 | 0.14% | $1.46M |
-| 5 | [nest-cl →](https://www.defi.garden/?pool=ecae90d4-d05d-4485-a1c2-2abf75c96df8#src=seo_token) | Hyperliquid L1 | 5.86% | $5.44M |
-| 6 | [nest-cl →](https://www.defi.garden/?pool=0551cdb2-2ebd-4ed5-9c13-73b8216ba47a#src=seo_token) | Hyperliquid L1 | 106.09% | $259.8K |
+| 1 | [hypurrfi-pooled →](https://www.defi.garden/?pool=aa88cdff-f2ca-4644-9900-8a565e12378c#src=seo_token) | Hyperliquid L1 | 0.02% | $2.4M |
+| 2 | [kinetiq-khype →](https://www.defi.garden/pools/kinetiq-khype-khype-hyperliquid-l1) | Hyperliquid L1 | 1.98% | $895.8M |
+| 3 | [harmonix-finance →](https://www.defi.garden/?pool=2576d6eb-44a0-459c-8f95-b364bdf86d63#src=seo_token) | Hyperliquid L1 | 2.85% | $5.06M |
+| 4 | [project-x →](https://www.defi.garden/?pool=b7b3264a-0114-46b1-b961-ff9484339860#src=seo_token) | Hyperliquid L1 | 0.05% | $1.47M |
+| 5 | [nest-cl →](https://www.defi.garden/?pool=ecae90d4-d05d-4485-a1c2-2abf75c96df8#src=seo_token) | Hyperliquid L1 | 5.92% | $5.54M |
+| 6 | [nest-cl →](https://www.defi.garden/?pool=0551cdb2-2ebd-4ed5-9c13-73b8216ba47a#src=seo_token) | Hyperliquid L1 | 127.06% | $271.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-KHYPE shows up in 8 pools here, with rates from 0.02% to 106.09% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+KHYPE shows up in 8 pools here, with rates from 0.02% to 127.06% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 2.44% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -43,14 +43,14 @@ KHYPE shows up in 8 pools here, with rates from 0.02% to 106.09% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| kinetiq-khype | 2.25% | 2.01% | Base rate |
-| nest-cl | 5.86% | 35.12% | 100.00% incentives |
+| kinetiq-khype | 1.98% | 2.03% | Base rate |
+| nest-cl | 5.92% | 33.26% | 100.00% incentives |
 | harmonix-finance | 2.85% | 2.85% | Base rate |
 | hypurrfi-pooled | 0.02% | 0.02% | Base rate |
-| pendle-v2 | 2.32% | 6.26% | 9.56% incentives |
-| pendle-v2 | 1.95% | 2.03% | Base rate |
-| project-x | 0.14% | 1.23% | Base rate |
-| nest-cl | 106.09% | 69.12% | 100.00% incentives |
+| pendle-v2 | 2.24% | 6.08% | 9.86% incentives |
+| pendle-v2 | 1.98% | 2.03% | Base rate |
+| project-x | 0.05% | 1.19% | Base rate |
+| nest-cl | 127.06% | 71.69% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -62,7 +62,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many KHYPE pools clear the TVL floor?
 
-22 live pools clear this page's $100K TVL floor, $1.26B in total.
+23 live pools clear this page's $100K TVL floor, $1.27B in total.
 
 ### Are these rates safe?
 
@@ -70,7 +70,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which KHYPE pools have the most stable APY history?
 
-Based on APY history only, KHYPE's lower-variability candidates are hypurrfi-pooled (Hyperliquid L1), 0.02% APY, $2.38M TVL, https://www.defi.garden/?pool=aa88cdff-f2ca-4644-9900-8a565e12378c#src=seo_token; kinetiq-khype (Hyperliquid L1), 2.25% APY, $890.72M TVL, https://www.defi.garden/pools/kinetiq-khype-khype-hyperliquid-l1; harmonix-finance (Hyperliquid L1), 2.85% APY, $5.03M TVL, https://www.defi.garden/?pool=2576d6eb-44a0-459c-8f95-b364bdf86d63#src=seo_token; project-x (Hyperliquid L1), 0.14% APY, $1.46M TVL, https://www.defi.garden/?pool=b7b3264a-0114-46b1-b961-ff9484339860#src=seo_token; nest-cl (Hyperliquid L1), 5.86% APY, $5.44M TVL, https://www.defi.garden/?pool=ecae90d4-d05d-4485-a1c2-2abf75c96df8#src=seo_token; nest-cl (Hyperliquid L1), 106.09% APY, $259.8K TVL, https://www.defi.garden/?pool=0551cdb2-2ebd-4ed5-9c13-73b8216ba47a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, KHYPE's lower-variability candidates are hypurrfi-pooled (Hyperliquid L1), 0.02% APY, $2.4M TVL, https://www.defi.garden/?pool=aa88cdff-f2ca-4644-9900-8a565e12378c#src=seo_token; kinetiq-khype (Hyperliquid L1), 1.98% APY, $895.8M TVL, https://www.defi.garden/pools/kinetiq-khype-khype-hyperliquid-l1; harmonix-finance (Hyperliquid L1), 2.85% APY, $5.06M TVL, https://www.defi.garden/?pool=2576d6eb-44a0-459c-8f95-b364bdf86d63#src=seo_token; project-x (Hyperliquid L1), 0.05% APY, $1.47M TVL, https://www.defi.garden/?pool=b7b3264a-0114-46b1-b961-ff9484339860#src=seo_token; nest-cl (Hyperliquid L1), 5.92% APY, $5.54M TVL, https://www.defi.garden/?pool=ecae90d4-d05d-4485-a1c2-2abf75c96df8#src=seo_token; nest-cl (Hyperliquid L1), 127.06% APY, $271.6K TVL, https://www.defi.garden/?pool=0551cdb2-2ebd-4ed5-9c13-73b8216ba47a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -85,4 +85,4 @@ Based on APY history only, KHYPE's lower-variability candidates are hypurrfi-poo
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated October 10, 2026
+## Last updated October 11, 2026

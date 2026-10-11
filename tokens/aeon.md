@@ -1,12 +1,12 @@
 # AEON DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 11, 2026. Rates change continuously.*
 
-The highest honest AEON yield right now is 21.18% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AEON yield right now is 4.22% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=94bc651b-84b2-4d6f-99f3-4ecaac2af47a#src=seo_token) | Base | 21.18% | $1.33M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=94bc651b-84b2-4d6f-99f3-4ecaac2af47a#src=seo_token) | Base | 4.22% | $1.33M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AEON yield today?
 
-21.18% APY on uniswap-v4 (Base), based on live DefiLlama data.
+4.22% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many AEON pools clear the TVL floor?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank AEON pools. This view covers 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 10, 2026
+## Last updated October 11, 2026

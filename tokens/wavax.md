@@ -1,43 +1,43 @@
 # WAVAX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 11, 2026. Rates change continuously.*
 
-The highest honest WAVAX yield right now is 411.31% on pharaoh-v3 (Avalanche), among 29 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WAVAX yield right now is 1.43% on aave-v4 (Avalanche), among 27 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/pools/aave-v3-wavax-avalanche) | Avalanche | 0.74% | $127.57M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7ae7a327-9d57-4dbc-afd6-b8b2f4918d68#src=seo_token) | Avalanche | 20.01% | $5.94M |
-| [pharaoh-v3 →](https://www.defi.garden/?pool=6c627c56-d108-482a-976b-48050d688af0#src=seo_token) | Avalanche | 411.31% | $3.69M |
-| [pharaoh-v3 →](https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814#src=seo_token) | Avalanche | 38.21% | $3.55M |
-| [pharaoh-v3 →](https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc#src=seo_token) | Avalanche | 62.06% | $3.41M |
-| [aave-v4 →](https://www.defi.garden/?pool=e14e18bc-e998-5eb1-89aa-e539cfaef544#src=seo_token) | Avalanche | 1.41% | $3.22M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a#src=seo_token) | Avalanche | 12.08% | $843.9K |
-| [joe-v2.2 →](https://www.defi.garden/?pool=e8e45a86-cd5f-4d8e-9614-0dbd178da741#src=seo_token) | Avalanche | 55.38% | $458.5K |
+| [aave-v3 →](https://www.defi.garden/pools/aave-v3-wavax-avalanche) | Avalanche | 0.74% | $124.58M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7ae7a327-9d57-4dbc-afd6-b8b2f4918d68#src=seo_token) | Avalanche | 15.74% | $5.84M |
+| [pharaoh-v3 →](https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814#src=seo_token) | Avalanche | 22.80% | $3.53M |
+| [pharaoh-v3 →](https://www.defi.garden/?pool=6c627c56-d108-482a-976b-48050d688af0#src=seo_token) | Avalanche | 199.64% | $3.42M |
+| [pharaoh-v3 →](https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc#src=seo_token) | Avalanche | 25.63% | $3.39M |
+| [aave-v4 →](https://www.defi.garden/?pool=e14e18bc-e998-5eb1-89aa-e539cfaef544#src=seo_token) | Avalanche | 1.43% | $3.12M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a#src=seo_token) | Avalanche | 6.58% | $835.6K |
+| [joe-v2.2 →](https://www.defi.garden/?pool=e8e45a86-cd5f-4d8e-9614-0dbd178da741#src=seo_token) | Avalanche | 22.47% | $471K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WAVAX's lower-variability candidates are aave-v4 (Avalanche), 1.41% APY, $3.22M TVL, https://www.defi.garden/?pool=e14e18bc-e998-5eb1-89aa-e539cfaef544#src=seo_token; aave-v3 (Avalanche), 0.74% APY, $127.57M TVL, https://www.defi.garden/pools/aave-v3-wavax-avalanche; uniswap-v3 (Avalanche), 12.08% APY, $843.9K TVL, https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a#src=seo_token; pharaoh-v3 (Avalanche), 38.21% APY, $3.55M TVL, https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814#src=seo_token; pharaoh-v3 (Avalanche), 62.06% APY, $3.41M TVL, https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc#src=seo_token; uniswap-v3 (Avalanche), 20.01% APY, $5.94M TVL, https://www.defi.garden/?pool=7ae7a327-9d57-4dbc-afd6-b8b2f4918d68#src=seo_token; joe-v2.2 (Avalanche), 55.38% APY, $458.5K TVL, https://www.defi.garden/?pool=e8e45a86-cd5f-4d8e-9614-0dbd178da741#src=seo_token; pharaoh-v3 (Avalanche), 411.31% APY, $3.69M TVL, https://www.defi.garden/?pool=6c627c56-d108-482a-976b-48050d688af0#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WAVAX's lower-variability candidates are aave-v4 (Avalanche), 1.43% APY, $3.12M TVL, https://www.defi.garden/?pool=e14e18bc-e998-5eb1-89aa-e539cfaef544#src=seo_token; aave-v3 (Avalanche), 0.74% APY, $124.58M TVL, https://www.defi.garden/pools/aave-v3-wavax-avalanche; uniswap-v3 (Avalanche), 6.58% APY, $835.6K TVL, https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a#src=seo_token; pharaoh-v3 (Avalanche), 22.80% APY, $3.53M TVL, https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814#src=seo_token; pharaoh-v3 (Avalanche), 25.63% APY, $3.39M TVL, https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc#src=seo_token; uniswap-v3 (Avalanche), 15.74% APY, $5.84M TVL, https://www.defi.garden/?pool=7ae7a327-9d57-4dbc-afd6-b8b2f4918d68#src=seo_token; joe-v2.2 (Avalanche), 22.47% APY, $471K TVL, https://www.defi.garden/?pool=e8e45a86-cd5f-4d8e-9614-0dbd178da741#src=seo_token; pharaoh-v3 (Avalanche), 199.64% APY, $3.42M TVL, https://www.defi.garden/?pool=6c627c56-d108-482a-976b-48050d688af0#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aave-v4 →](https://www.defi.garden/?pool=e14e18bc-e998-5eb1-89aa-e539cfaef544#src=seo_token) | Avalanche | 1.41% | $3.22M |
-| 2 | [aave-v3 →](https://www.defi.garden/pools/aave-v3-wavax-avalanche) | Avalanche | 0.74% | $127.57M |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a#src=seo_token) | Avalanche | 12.08% | $843.9K |
-| 4 | [pharaoh-v3 →](https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814#src=seo_token) | Avalanche | 38.21% | $3.55M |
-| 5 | [pharaoh-v3 →](https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc#src=seo_token) | Avalanche | 62.06% | $3.41M |
-| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=7ae7a327-9d57-4dbc-afd6-b8b2f4918d68#src=seo_token) | Avalanche | 20.01% | $5.94M |
-| 7 | [joe-v2.2 →](https://www.defi.garden/?pool=e8e45a86-cd5f-4d8e-9614-0dbd178da741#src=seo_token) | Avalanche | 55.38% | $458.5K |
-| 8 | [pharaoh-v3 →](https://www.defi.garden/?pool=6c627c56-d108-482a-976b-48050d688af0#src=seo_token) | Avalanche | 411.31% | $3.69M |
+| 1 | [aave-v4 →](https://www.defi.garden/?pool=e14e18bc-e998-5eb1-89aa-e539cfaef544#src=seo_token) | Avalanche | 1.43% | $3.12M |
+| 2 | [aave-v3 →](https://www.defi.garden/pools/aave-v3-wavax-avalanche) | Avalanche | 0.74% | $124.58M |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a#src=seo_token) | Avalanche | 6.58% | $835.6K |
+| 4 | [pharaoh-v3 →](https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814#src=seo_token) | Avalanche | 22.80% | $3.53M |
+| 5 | [pharaoh-v3 →](https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc#src=seo_token) | Avalanche | 25.63% | $3.39M |
+| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=7ae7a327-9d57-4dbc-afd6-b8b2f4918d68#src=seo_token) | Avalanche | 15.74% | $5.84M |
+| 7 | [joe-v2.2 →](https://www.defi.garden/?pool=e8e45a86-cd5f-4d8e-9614-0dbd178da741#src=seo_token) | Avalanche | 22.47% | $471K |
+| 8 | [pharaoh-v3 →](https://www.defi.garden/?pool=6c627c56-d108-482a-976b-48050d688af0#src=seo_token) | Avalanche | 199.64% | $3.42M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WAVAX shows up in 8 pools here, with rates from 0.74% to 411.31% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+WAVAX shows up in 8 pools here, with rates from 0.74% to 199.64% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 61.40% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 61.94% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 3 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -45,14 +45,14 @@ WAVAX shows up in 8 pools here, with rates from 0.74% to 411.31% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aave-v3 | 0.74% | 0.76% | Base rate |
-| uniswap-v3 | 20.01% | 39.23% | Base rate |
-| pharaoh-v3 | 411.31% | 428.54% | 100.00% incentives |
-| pharaoh-v3 | 38.21% | 88.92% | 100.00% incentives |
-| pharaoh-v3 | 62.06% | 83.57% | 100.00% incentives |
-| aave-v4 | 1.41% | 1.50% | Base rate |
-| uniswap-v3 | 12.08% | 20.38% | Base rate |
-| joe-v2.2 | 55.38% | 103.64% | Base rate |
+| aave-v3 | 0.74% | 0.75% | Base rate |
+| uniswap-v3 | 15.74% | 39.52% | Base rate |
+| pharaoh-v3 | 22.80% | 89.63% | 100.00% incentives |
+| pharaoh-v3 | 199.64% | 430.60% | 100.00% incentives |
+| pharaoh-v3 | 25.63% | 84.36% | 100.00% incentives |
+| aave-v4 | 1.43% | 1.50% | Base rate |
+| uniswap-v3 | 6.58% | 20.50% | Base rate |
+| joe-v2.2 | 22.47% | 101.18% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -60,11 +60,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WAVAX yield today?
 
-411.31% APY on pharaoh-v3 (Avalanche), based on live DefiLlama data.
+1.43% APY on aave-v4 (Avalanche), based on live DefiLlama data.
 
 ### How many WAVAX pools clear the TVL floor?
 
-29 live pools clear this page's $100K TVL floor, $152.48M in total.
+27 live pools clear this page's $100K TVL floor, $148.69M in total.
 
 ### Are these rates safe?
 
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WAVAX pools have the most stable APY history?
 
-Based on APY history only, WAVAX's lower-variability candidates are aave-v4 (Avalanche), 1.41% APY, $3.22M TVL, https://www.defi.garden/?pool=e14e18bc-e998-5eb1-89aa-e539cfaef544#src=seo_token; aave-v3 (Avalanche), 0.74% APY, $127.57M TVL, https://www.defi.garden/pools/aave-v3-wavax-avalanche; uniswap-v3 (Avalanche), 12.08% APY, $843.9K TVL, https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a#src=seo_token; pharaoh-v3 (Avalanche), 38.21% APY, $3.55M TVL, https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814#src=seo_token; pharaoh-v3 (Avalanche), 62.06% APY, $3.41M TVL, https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc#src=seo_token; uniswap-v3 (Avalanche), 20.01% APY, $5.94M TVL, https://www.defi.garden/?pool=7ae7a327-9d57-4dbc-afd6-b8b2f4918d68#src=seo_token; joe-v2.2 (Avalanche), 55.38% APY, $458.5K TVL, https://www.defi.garden/?pool=e8e45a86-cd5f-4d8e-9614-0dbd178da741#src=seo_token; pharaoh-v3 (Avalanche), 411.31% APY, $3.69M TVL, https://www.defi.garden/?pool=6c627c56-d108-482a-976b-48050d688af0#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WAVAX's lower-variability candidates are aave-v4 (Avalanche), 1.43% APY, $3.12M TVL, https://www.defi.garden/?pool=e14e18bc-e998-5eb1-89aa-e539cfaef544#src=seo_token; aave-v3 (Avalanche), 0.74% APY, $124.58M TVL, https://www.defi.garden/pools/aave-v3-wavax-avalanche; uniswap-v3 (Avalanche), 6.58% APY, $835.6K TVL, https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a#src=seo_token; pharaoh-v3 (Avalanche), 22.80% APY, $3.53M TVL, https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814#src=seo_token; pharaoh-v3 (Avalanche), 25.63% APY, $3.39M TVL, https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc#src=seo_token; uniswap-v3 (Avalanche), 15.74% APY, $5.84M TVL, https://www.defi.garden/?pool=7ae7a327-9d57-4dbc-afd6-b8b2f4918d68#src=seo_token; joe-v2.2 (Avalanche), 22.47% APY, $471K TVL, https://www.defi.garden/?pool=e8e45a86-cd5f-4d8e-9614-0dbd178da741#src=seo_token; pharaoh-v3 (Avalanche), 199.64% APY, $3.42M TVL, https://www.defi.garden/?pool=6c627c56-d108-482a-976b-48050d688af0#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -87,4 +87,4 @@ Based on APY history only, WAVAX's lower-variability candidates are aave-v4 (Ava
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated October 10, 2026
+## Last updated October 11, 2026

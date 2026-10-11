@@ -1,12 +1,12 @@
 # SPCM DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 11, 2026. Rates change continuously.*
 
-The highest honest SPCM yield right now is 114.88% on joe-v2.2 (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SPCM yield right now is 71.98% on joe-v2.2 (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [joe-v2.2 →](https://www.defi.garden/?pool=dea75dca-805f-5fe3-87ad-cc59900dd91e#src=seo_token) | Avalanche | 114.88% | $117.1K |
+| [joe-v2.2 →](https://www.defi.garden/?pool=dea75dca-805f-5fe3-87ad-cc59900dd91e#src=seo_token) | Avalanche | 71.98% | $116.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SPCM yield today?
 
-114.88% APY on joe-v2.2 (Avalanche), based on live DefiLlama data.
+71.98% APY on joe-v2.2 (Avalanche), based on live DefiLlama data.
 
 ### How many SPCM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $117.1K in total.
+1 live pool clear this page's $100K TVL floor, $116.8K in total.
 
 ### Are these rates safe?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank SPCM pools. This view covers 
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [SAVAX](https://www.defi.garden/tokens/savax)
 - [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
-- [WAVAX](https://www.defi.garden/tokens/wavax)
 - [SAVUSD](https://www.defi.garden/tokens/savusd)
+- [WAVAX](https://www.defi.garden/tokens/wavax)
 
 ## Available on
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated October 10, 2026
+## Last updated October 11, 2026

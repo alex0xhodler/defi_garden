@@ -1,6 +1,6 @@
 # CGBP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 11, 2026. Rates change continuously.*
 
 The highest honest CGBP yield right now is 0.02% on uniswap-v3 (Celo), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -36,14 +36,14 @@ There is not enough qualifying APY history to rank CGBP pools. This view covers 
 ## Related tokens
 
 - [USAT](https://www.defi.garden/tokens/usat)
-- [WARS](https://www.defi.garden/tokens/wars)
 - [CELO](https://www.defi.garden/tokens/celo)
 - [XAUT0](https://www.defi.garden/tokens/xaut0)
 - [CUSD](https://www.defi.garden/tokens/cusd)
 - [EURM](https://www.defi.garden/tokens/eurm)
+- [CNGN](https://www.defi.garden/tokens/cngn)
 
 ## Available on
 
 - [Celo](https://www.defi.garden/chains/celo)
 
-## Last updated October 10, 2026
+## Last updated October 11, 2026

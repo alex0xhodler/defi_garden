@@ -1,12 +1,12 @@
 # MOT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 10, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 11, 2026. Rates change continuously.*
 
-The highest honest MOT yield right now is 5.75% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MOT yield right now is 4.41% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=a2426826-42bb-47fa-bfa5-3625705c5c25#src=seo_token) | Solana | 5.75% | $130.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=a2426826-42bb-47fa-bfa5-3625705c5c25#src=seo_token) | Solana | 4.41% | $130.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MOT yield today?
 
-5.75% APY on raydium-amm (Solana), based on live DefiLlama data.
+4.41% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MOT pools clear the TVL floor?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank MOT pools. This view covers A
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 10, 2026
+## Last updated October 11, 2026
