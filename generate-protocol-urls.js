@@ -43,8 +43,9 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-const PROTOCOLS_API = 'https://api.llama.fi/protocols';
-const POOLS_API = 'https://yields.llama.fi/pools';
+// DefiLlama URLs live in llama-endpoints.js (env: LLAMA_API_BASE / LLAMA_YIELDS_BASE / LLAMA_PRO_API_KEY).
+const PROTOCOLS_API = require('./llama-endpoints.js').protocols();
+const POOLS_API = require('./llama-endpoints.js').pools();
 const SCHEMA_VERSION = 1;
 
 // PROTOCOL_KEY_TRANSFORM (single source of truth — test_protocol_url_keys.js asserts app.js and generate-protocol-urls.js agree)

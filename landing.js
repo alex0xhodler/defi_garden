@@ -21,7 +21,6 @@
   // baked snapshot values (labelled as such) when that fetch fails. Trust rails
   // (window.TRUST_RAILS) are applied to whichever value is displayed.
   var LANDING_POOLS_URL = '/data/landing-pools.json';
-  var LLAMA_CHART_URL = 'https://yields.llama.fi/chart/';
   var SCORE_PILLARS = [
     { key: 'stability', max: 35, labelKey: 'uwPillarStability' },
     { key: 'sustainability', max: 25, labelKey: 'uwPillarSustainability' },
@@ -37,7 +36,7 @@
   }
 
   function fetchLivePoint(poolId) {
-    return fetch(LLAMA_CHART_URL + poolId)
+    return fetch(window.LLAMA_ENDPOINTS.chart(poolId))
       .then(function (res) { if (!res.ok) throw new Error('chart ' + res.status); return res.json(); })
       .then(function (body) {
         var series = body && body.data;

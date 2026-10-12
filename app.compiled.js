@@ -1537,7 +1537,7 @@ function App() {
     // are never falsely rejected as stale throughout the day.
     var SNAPSHOT_MAX_AGE_MS = 48 * 60 * 60 * 1000;
     var loadLive = async startTime => {
-      var response = await fetch('https://yields.llama.fi/pools');
+      var response = await fetch(window.LLAMA_ENDPOINTS.pools());
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
@@ -1720,7 +1720,7 @@ function App() {
     var alive = true;
     (async () => {
       try {
-        var response = await fetch('https://yields.llama.fi/pools');
+        var response = await fetch(window.LLAMA_ENDPOINTS.pools());
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
         var data = await response.json();
         if (!alive) return;
@@ -1899,7 +1899,7 @@ function App() {
         }
 
         // Fetch from API if not cached
-        var response = await fetch('https://api.llama.fi/protocols');
+        var response = await fetch(window.LLAMA_ENDPOINTS.protocols());
         if (!response.ok) return; // Fail silently, use static fallback
 
         var protocols = await response.json();

@@ -1530,7 +1530,7 @@ function App() {
     const SNAPSHOT_MAX_AGE_MS = 48 * 60 * 60 * 1000;
 
     const loadLive = async (startTime) => {
-      const response = await fetch('https://yields.llama.fi/pools');
+      const response = await fetch(window.LLAMA_ENDPOINTS.pools());
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
@@ -1699,7 +1699,7 @@ function App() {
     let alive = true;
     (async () => {
       try {
-        const response = await fetch('https://yields.llama.fi/pools');
+        const response = await fetch(window.LLAMA_ENDPOINTS.pools());
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
         const data = await response.json();
         if (!alive) return;
@@ -1876,7 +1876,7 @@ function App() {
         }
 
         // Fetch from API if not cached
-        const response = await fetch('https://api.llama.fi/protocols');
+        const response = await fetch(window.LLAMA_ENDPOINTS.protocols());
         if (!response.ok) return; // Fail silently, use static fallback
 
         const protocols = await response.json();
