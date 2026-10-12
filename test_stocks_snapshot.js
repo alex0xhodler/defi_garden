@@ -227,4 +227,69 @@ if (fs.existsSync(outputPath)) {
   });
 }
 
+// ── slim client payload (data/stocks-pools.json) ───────────────────────────
+const { buildStocksPools, parseForecastEval, verifiedIssuer } = gen;
+const slimPath = path.join(__dirname, 'data', 'stocks-pools.json');
+
+check('slim payload: carries only rendered fields (no onchain hints, trajectories, p50 or exclusion list)', () => {
+  const full = build([pool(), pool({ chain: 'Solana', project: 'raydium-amm', symbol: 'NVDAX-USDC', poolMeta: 'Concentrated - 0.1%', underlyingTokens: [NVDAX, USDC_SOL] })]);
+  const slim = buildStocksPools(full, { forecastStatus: 'Experimental forward forecast: In 8 of 15 test runs, assuming today\'s rate holds was more accurate than this forecast.' });
+  assert.strictEqual(slim.pools.length, 2);
+  const json = JSON.stringify(slim);
+  ['onchain', 'trajectory', 'p50', 'excluded":[', 'poolAddress', 'heuristicClip'].forEach(k => assert.ok(json.indexOf(k) < 0, k));
+  assert.deepStrictEqual(slim.forecast.eval, { baselineWins: 8, runs: 15 });
+  const p = slim.pools[0];
+  assert.strictEqual(p.id, full.pools[0].pool);
+  assert.strictEqual(p.proj, full.pools[0].honestProjection);
+  assert.strictEqual(p.clip, full.pools[0].heuristicClip.usd);
+  assert.deepStrictEqual(p.band, [43.06, 3896.8]);
+});
+
+check('slim payload: issuer is named only when every equity token has a verified issuer', () => {
+  const full = build([pool(), pool({ chain: 'Solana', project: 'raydium-amm', symbol: 'NVDAX-USDC', poolMeta: 'Concentrated - 0.1%', underlyingTokens: [NVDAX, USDC_SOL] })]);
+  const slim = buildStocksPools(full, null);
+  const base = slim.pools.find(p => p.chain === 'Base'), sol = slim.pools.find(p => p.chain === 'Solana');
+  assert.strictEqual(base.issuer, null);
+  assert.strictEqual(sol.issuer, 'xStocks (Backed)');
+  assert.strictEqual(verifiedIssuer({ equityTokens: [{ issuer: 'xStocks (Backed)' }, { issuer: 'unverified' }] }), null);
+  assert.strictEqual(verifiedIssuer({ equityTokens: [] }), null);
+  assert.strictEqual(slim.forecast, null);
+});
+
+check('slim payload: forecast label parsing is strict (no numbers invented)', () => {
+  assert.deepStrictEqual(parseForecastEval('In 3 of 12 test runs'), { baselineWins: 3, runs: 12 });
+  assert.strictEqual(parseForecastEval('No evaluation yet'), null);
+  assert.strictEqual(parseForecastEval(null), null);
+  assert.strictEqual(parseForecastEval('In 3 of 0 test runs'), null);
+});
+
+if (fs.existsSync(slimPath) && fs.existsSync(outputPath)) {
+  check('committed data/stocks-pools.json: no NaN, every id exists in the full snapshot, rails hold, <= 40 KB', () => {
+    const raw = fs.readFileSync(slimPath, 'utf8');
+    assert.ok(Buffer.byteLength(raw) <= 40000, 'slim payload is ' + Buffer.byteLength(raw) + ' bytes');
+    assert.ok(!/NaN|undefined|Infinity/.test(raw));
+    const slim = JSON.parse(raw);
+    const full = JSON.parse(fs.readFileSync(outputPath, 'utf8'));
+    const fullById = new Map(full.pools.map(p => [p.pool, p]));
+    assert.strictEqual(slim.schemaVersion, 1);
+    assert.strictEqual(slim.pools.length, full.pools.length);
+    assert.strictEqual(slim.counts.pools, slim.pools.length);
+    assert.deepStrictEqual(slim.rails.tierMinTvl, { 1: 2000000, 2: 500000, 3: 100000 });
+    walk(slim, (v, trail) => { if (typeof v === 'number') assert.ok(Number.isFinite(v), 'non-finite at ' + trail); }, '$');
+    slim.pools.forEach(p => {
+      const f = fullById.get(p.id);
+      assert.ok(f, 'slim pool id missing from the full snapshot: ' + p.id);
+      assert.strictEqual(p.tvl, f.tvlUsd);
+      assert.strictEqual(p.proj, f.honestProjection);
+      assert.strictEqual(p.apy, f.headlineApy);
+      assert.ok(p.proj <= p.apy, p.symbol);
+      assert.ok(p.apy <= 500 && p.tvl >= 100000, p.symbol);
+      assert.ok([1, 2, 3].indexOf(p.tier) >= 0, p.symbol);
+      assert.ok(Number.isFinite(p.clip) && p.clip >= 0, p.symbol);
+      if (p.issuer !== null) assert.notStrictEqual(p.issuer, 'unverified', p.symbol);
+      if (p.band) assert.ok(p.band.length === 2 && p.band[0] <= p.band[1], p.symbol);
+    });
+  });
+}
+
 console.log('\n' + passed + ' checks passed');

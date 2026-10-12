@@ -29,12 +29,17 @@
  * Headline APY = apyBase + apyReward (nulls as 0), the same rule as
  * generate-landing-pools.js.
  *
- * Freshness discipline (081/083 pattern): nothing is written when the output is
- * identical to what's on disk modulo `generatedAt`.
+ * It ALSO writes data/stocks-pools.json: the slim client payload that
+ * stocks.js fetches (only the fields the page renders, minified; no
+ * trajectories, no onchain hints). The full snapshot stays the audit artifact
+ * and the Phase 4 input.
+ *
+ * Freshness discipline (081/083 pattern): neither file is written when its
+ * output is identical to what's on disk modulo `generatedAt`.
  *
  * Usage:
- *   node generate-stocks-snapshot.js                 # read ./data, write ./data/stocks-snapshot.json
- *   node generate-stocks-snapshot.js --out <dir>     # write <dir>/stocks-snapshot.json
+ *   node generate-stocks-snapshot.js                 # read ./data, write ./data/stocks-{snapshot,pools}.json
+ *   node generate-stocks-snapshot.js --out <dir>     # write <dir>/stocks-{snapshot,pools}.json
  */
 
 const fs = require('fs');
@@ -349,6 +354,109 @@ function sortObject(o) {
   return out;
 }
 
+const VERIFIED_ISSUER_NONE = 'unverified';
+const SLIM_FLAGS = ['forcedHighIL', 'thinLiquidity', 'nearZeroYield', 'forecastAboveHeadline'];
+
+// A pool names an issuer only when EVERY equity token in it has a verified one;
+// otherwise null (the page then shows "Issuer unverified").
+function verifiedIssuer(pool) {
+  const toks = pool.equityTokens || [];
+  if (!toks.length) return null;
+  if (toks.some(t => !t.issuer || t.issuer === VERIFIED_ISSUER_NONE)) return null;
+  const names = [];
+  toks.forEach(t => { if (names.indexOf(t.issuer) < 0) names.push(t.issuer); });
+  return names.join(' + ');
+}
+
+// "In 8 of 15 test runs, ..." -> { baselineWins: 8, runs: 15 } so the page can
+// localize the sentence without re-typing the numbers. Null when it doesn't parse.
+function parseForecastEval(label) {
+  const m = String(label || '').match(/(\d+)\s+of\s+(\d+)\s+test runs/i);
+  if (!m) return null;
+  const wins = Number(m[1]), runs = Number(m[2]);
+  return Number.isFinite(wins) && Number.isFinite(runs) && runs > 0 ? { baselineWins: wins, runs: runs } : null;
+}
+
+/**
+ * Slim client payload: pure function of the full snapshot (+ the optional
+ * data/pool-scores.json `labels` block). Contains exactly what stocks.js
+ * renders, short keys, no onchain hints / forecast p50 / exclusion list.
+ */
+function buildStocksPools(full, scoreLabels) {
+  const label = scoreLabels && typeof scoreLabels.forecastStatus === 'string' ? scoreLabels.forecastStatus : null;
+  const pools = (full.pools || []).map(p => {
+    const first = (p.equityTokens && p.equityTokens[0]) || {};
+    const score = p.defiScore && Number.isFinite(Number(p.defiScore.score)) ? p.defiScore : null;
+    const b = score && score.breakdown ? score.breakdown : {};
+    return {
+      id: p.pool,
+      symbol: p.symbol,
+      project: p.project,
+      chain: p.chain,
+      type: p.poolType,
+      underlying: p.underlying,
+      // Only the non-default asset class is carried ('etf'); absent = single stock.
+      ...(first.assetClass && first.assetClass !== 'equity' ? { assetClass: first.assetClass } : {}),
+      issuer: verifiedIssuer(p),
+      tvl: p.tvlUsd,
+      tier: p.tier,
+      apy: p.headlineApy,
+      // Emission split, only when there are emissions (absent reward = 0, base = apy).
+      ...(p.apyReward > 0 ? { base: p.apyBase, reward: p.apyReward } : {}),
+      proj: p.honestProjection,
+      // [p10, p90] of the experimental TimesFM band; null when absent or all-zero.
+      band: p.forecastBand && p.forecastBand.p90 > 0 ? [p.forecastBand.p10, p.forecastBand.p90] : null,
+      flags: (p.flags || []).filter(f => SLIM_FLAGS.indexOf(f) >= 0),
+      clip: p.heuristicClip.usd,
+      score: score ? {
+        v: score.score, r: score.rating == null ? null : score.rating,
+        st: num(b.stability), su: num(b.sustainability), sk: num(b.stickiness), li: num(b.liquidity)
+      } : null
+    };
+  });
+  return {
+    schemaVersion: 1,
+    generatedAt: full.generatedAt,
+    sourceGeneratedAt: full.sourceGeneratedAt,
+    rails: {
+      minTvl: full.rails.minTvl,
+      equityApyCap: full.rails.equityApyCap,
+      haircut: full.rails.haircut,
+      redemptionNotice: full.rails.redemptionNotice,
+      // Tier floors (tier 1 = deepest) so the page never hard-codes the cut-offs.
+      tierMinTvl: full.rails.tiers.reduce((o, t) => { o[t.tier] = t.minTvl; return o; }, {})
+    },
+    forecast: label ? { label: label, eval: parseForecastEval(label) } : null,
+    counts: { pools: pools.length, excluded: full.counts.excluded },
+    pools: pools
+  };
+}
+
+// Write `result` to outPath unless it equals what is on disk modulo generatedAt.
+function writeIfChanged(outPath, result, indent, name) {
+  const next = JSON.stringify(result, null, indent) + '\n';
+  if (fs.existsSync(outPath)) {
+    const prev = JSON.parse(fs.readFileSync(outPath, 'utf8'));
+    const strip = o => JSON.stringify(Object.assign({}, o, { generatedAt: null }));
+    if (strip(prev) === strip(result)) {
+      console.log('generate-stocks-snapshot: no data change in ' + name + ', not writing');
+      return false;
+    }
+  }
+  fs.mkdirSync(path.dirname(outPath), { recursive: true });
+  fs.writeFileSync(outPath, next);
+  console.log('generate-stocks-snapshot: wrote ' + name + ' (' + Buffer.byteLength(next) + ' bytes) to ' + outPath);
+  return true;
+}
+
+function readScoreLabels() {
+  try {
+    return JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'pool-scores.json'), 'utf8')).labels || null;
+  } catch (err) {
+    return null;
+  }
+}
+
 function main() {
   const args = process.argv.slice(2);
   const outIdx = args.indexOf('--out');
@@ -361,25 +469,17 @@ function main() {
     process.exit(1);
   }
 
-  const outPath = path.join(outDir, 'stocks-snapshot.json');
-  const next = JSON.stringify(result, null, 2) + '\n';
-  if (fs.existsSync(outPath)) {
-    const prev = JSON.parse(fs.readFileSync(outPath, 'utf8'));
-    const strip = o => JSON.stringify(Object.assign({}, o, { generatedAt: null }));
-    if (strip(prev) === strip(result)) {
-      console.log('generate-stocks-snapshot: no data change, not writing');
-      return;
-    }
-  }
-  fs.mkdirSync(outDir, { recursive: true });
-  fs.writeFileSync(outPath, next);
-  console.log('generate-stocks-snapshot: wrote ' + result.pools.length + ' pools (' + result.excluded.length + ' excluded) to ' + outPath);
+  writeIfChanged(path.join(outDir, 'stocks-snapshot.json'), result, 2, 'stocks-snapshot.json');
+  // Slim payload is derived from the in-memory snapshot (not the file on disk),
+  // so it is rewritten even when the full snapshot was unchanged but the slim
+  // file is missing or stale. Compact JSON: it ships to every /stocks visitor.
+  writeIfChanged(path.join(outDir, 'stocks-pools.json'), buildStocksPools(result, readScoreLabels()), 0, 'stocks-pools.json');
 }
 
 if (require.main === module) main();
 
 module.exports = {
-  buildStocksSnapshot, headlineApy, honestProjection, tierFor, poolTypeFor, heuristicClip,
+  buildStocksSnapshot, buildStocksPools, parseForecastEval, verifiedIssuer, headlineApy, honestProjection, tierFor, poolTypeFor, heuristicClip,
   forecastBand, normalizeAddress, indexRegistry,
   MIN_TVL, EQUITY_APY_CAP, REWARD_HAIRCUT, TIERS, DEPTH_FACTORS
 };

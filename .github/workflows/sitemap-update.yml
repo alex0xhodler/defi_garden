@@ -119,8 +119,9 @@ jobs:
     - name: Generate /stocks terminal data (curated equity registry x pools snapshot)
       # Needs snapshot + forecasts + DeFi Score above. Non-fatal: a registry/data
       # problem turns this step red but must not block the daily sitemap run; the
-      # previously committed data/stocks-snapshot.json stays in place. The output
-      # is committed by the `git add ... data ...` step below.
+      # previously committed data/stocks-snapshot.json stays in place. The same
+      # script also writes the slim client payload data/stocks-pools.json that
+      # /stocks fetches. Both are committed by the `git add ... data ...` step below.
       continue-on-error: true
       run: |
         node generate-stocks-snapshot.js
