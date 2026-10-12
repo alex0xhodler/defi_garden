@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-12T14:44:58.229Z",
+  "source": "https://hermes.pyth.network/v2/price_feeds?asset_type=equity",
+  "rule": "exact symbol Equity.US.<TICKER>/USD only; no fuzzy match, no Equity.Index / Crypto feeds",
+  "feeds": {
+    "AAPL": {
+      "id": "49f6b65cb1de6b10eaf75e7c03ca029c306d0357e91b5311b175084a5ad55688",
+      "symbol": "Equity.US.AAPL/USD"
+    },
+    "AMZN": {
+      "id": "b5d0e0fa58a1f8b81498ae670ce93c872d14434b72c364885d4fa1b257cbb07a",
+      "symbol": "Equity.US.AMZN/USD"
+    },
+    "AVGO": {
+      "id": "d0c9aef79b28308b256db7742a0a9b08aaa5009db67a52ea7fa30ed6853f243b",
+      "symbol": "Equity.US.AVGO/USD"
+    },
+    "BRK.B": {
+      "id": "e21c688b7fc65b4606a50f3635f466f6986db129bf16979875d160f9c508e8c7",
+      "symbol": "Equity.US.BRK-B/USD"
+    },
+    "COIN": {
+      "id": "fee33f2a978bf32dd6b662b65ba8083c6773b494f8401194ec1870c640860245",
+      "symbol": "Equity.US.COIN/USD"
+    },
+    "CRCL": {
+      "id": "92b8527aabe59ea2b12230f7b532769b133ffb118dfbd48ff676f14b273f1365",
+      "symbol": "Equity.US.CRCL/USD"
+    },
+    "GLD": {
+      "id": "e190f467043db04548200354889dfe0d9d314c08b8d4e62fabf4d5a3140fecca",
+      "symbol": "Equity.US.GLD/USD"
+    },
+    "GME": {
+      "id": "6f9cd89ef1b7fd39f667101a91ad578b6c6ace4579d5f7f285a4b06aa4504be6",
+      "symbol": "Equity.US.GME/USD"
+    },
+    "GOOGL": {
+      "id": "5a48c03e9b9cb337801073ed9d166817473697efff0d138874e0f6a33d6d5aa6",
+      "symbol": "Equity.US.GOOGL/USD"
+    },
+    "HOOD": {
+      "id": "306736a4035846ba15a3496eed57225b64cc19230a50d14f3ed20fd7219b7849",
+      "symbol": "Equity.US.HOOD/USD"
+    },
+    "MCD": {
+      "id": "d3178156b7c0f6ce10d6da7d347952a672467b51708baaf1a57ffe1fb005824a",
+      "symbol": "Equity.US.MCD/USD"
+    },
+    "META": {
+      "id": "78a3e3b8e676a8f73c439f5d749737034b139bbbe899ba5775216fba596607fe",
+      "symbol": "Equity.US.META/USD"
+    },
+    "MSFT": {
+      "id": "d0ca23c1cc005e004ccf1db5bf76aeb6a49218f43dac3d4b275e92de12ded4d1",
+      "symbol": "Equity.US.MSFT/USD"
+    },
+    "MSTR": {
+      "id": "e1e80251e5f5184f2195008382538e847fafc36f751896889dd3d1b1f6111f09",
+      "symbol": "Equity.US.MSTR/USD"
+    },
+    "MU": {
+      "id": "152244dc24665ca7dd3f257b8f442dc449b6346f48235b7b229268cb770dda2d",
+      "symbol": "Equity.US.MU/USD"
+    },
+    "NVDA": {
+      "id": "b1073854ed24cbc755dc527418f52b7d271f6cc967bbf8d8129112b18860a593",
+      "symbol": "Equity.US.NVDA/USD"
+    },
+    "PLTR": {
+      "id": "11a70634863ddffb71f2b11f2cff29f73f3db8f6d0b78c49f2b5f4ad36e885f0",
+      "symbol": "Equity.US.PLTR/USD"
+    },
+    "QQQ": {
+      "id": "9695e2b96ea7b3859da9ed25b7a46a920a776e2fdae19a7bcfdf2b219230452d",
+      "symbol": "Equity.US.QQQ/USD"
+    },
+    "SGOV": {
+      "id": "8d6a29bb5ed522931d711bb12c4bbf92af986936e52af582032913b5ffcbf4d5",
+      "symbol": "Equity.US.SGOV/USD"
+    },
+    "SLV": {
+      "id": "6fc08c9963d266069cbd9780d98383dabf2668322a5bef0b9491e11d67e5d7e7",
+      "symbol": "Equity.US.SLV/USD"
+    },
+    "SNDK": {
+      "id": "c86a1f20cd7d5d07932baea30bcd8e479b775c4f51f82526bf1de6dc79fa3f76",
+      "symbol": "Equity.US.SNDK/USD"
+    },
+    "SPCX": {
+      "id": "8a593d6edde7a3095213c88116d8840d01e93c2ddeb800bc891772eb8b93bb94",
+      "symbol": "Equity.US.SPCX/USD"
+    },
+    "SPY": {
+      "id": "19e09bb805456ada3979a7d1cbb4b6d63babc3a0f8e8a9509f68afa5c4c11cd5",
+      "symbol": "Equity.US.SPY/USD"
+    },
+    "SPYM": {
+      "id": "2e5723d0391f26ff4004f8d276a7286cc52ad8ceb98c62ba64e10b0309ede63b",
+      "symbol": "Equity.US.SPYM/USD"
+    },
+    "STRC": {
+      "id": "27c7bbc9755d847f7fc63620c2edcc6a91d2c0c67a28c7999907b59c505b3c17",
+      "symbol": "Equity.US.STRC/USD"
+    },
+    "TSLA": {
+      "id": "16dad506d7db8da01c87581c87ca897a012a153557d4d578c3b9c9e1bc0632f1",
+      "symbol": "Equity.US.TSLA/USD"
+    }
+  },
+  "missing": [
+    "SPX"
+  ]
+}
