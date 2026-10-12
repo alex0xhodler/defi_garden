@@ -410,6 +410,7 @@
           e('a', { href: '/?app=1' }, copy.navSearch),
           e('a', { href: 'plan.html' }, copy.navPlanner || 'Savings Planner'),
           e('a', { href: '/for/claude', 'data-testid': 'landing-nav-card' }, copy.navCard),
+          e('a', { href: '/stocks', 'data-testid': 'landing-nav-stocks' }, copy.navStocks || 'Stocks'),
           e('a', { href: '/agents' }, copy.navAgents || 'AI Agents & MCP')
         ),
         e('div', { className: 'landing-header-actions' },
@@ -432,6 +433,7 @@
         e('a', { href: '/?app=1', onClick: closeMenu }, copy.navSearch),
         e('a', { href: 'plan.html', onClick: closeMenu }, copy.navPlanner || 'Savings Planner'),
         e('a', { href: '/for/claude', onClick: closeMenu, 'data-testid': 'landing-nav-card' }, copy.navCard),
+        e('a', { href: '/stocks', onClick: closeMenu, 'data-testid': 'landing-nav-stocks' }, copy.navStocks || 'Stocks'),
         e('a', { href: '/agents', onClick: closeMenu }, copy.navAgents || 'AI Agents & MCP')
       ),
       e('main', { className: 'landing-main' },

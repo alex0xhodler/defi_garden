@@ -1,0 +1,418 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-12T14:51:14.211Z",
+  "sourceGeneratedAt": "2026-10-12T13:50:04.547Z",
+  "source": "factory getPool/getPair via eth_call (EVM JSON-RPC); pair cross-checked against pool token0/token1",
+  "factories": {
+    "uniswap-v3": {
+      "Ethereum": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
+      "Arbitrum": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
+      "Base": "0x33128a8fC17869897dcE68Ed026d694621f6FDfD",
+      "BSC": "0xdB1d10011AD0Ff90774D0C6Bb92e5C5c8b4461F7"
+    },
+    "slipstream": {
+      "Base": "0xF8f2eb4940CFE7D13603dDDd87f123820Fc061eF"
+    },
+    "uniswap-v2": {
+      "Ethereum": "0x5C69bEE701ef814a2B6a3EDD4B1652CB9cc5aA6f",
+      "Arbitrum": "0xf1D7CC64Fb4452F05c498126312eBE29f30Fbcf9",
+      "Base": "0x8909Dc15e40173Ff4699343b6eB8132c65e18eC6",
+      "BSC": "0x8909Dc15e40173Ff4699343b6eB8132c65e18eC6"
+    }
+  },
+  "pools": {
+    "d791dc1b-88d8-5e0e-99e6-fa4041b6e340": {
+      "chain": "Base",
+      "kind": "slipstream",
+      "address": "0xeaf57753bc382e0324a1d43f72e7027705a2273e",
+      "equitySide": 1,
+      "token0": {
+        "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+        "decimals": 6
+      },
+      "token1": {
+        "address": "0xb2000000000000000000008bc8786b856e61707c",
+        "decimals": 8
+      },
+      "tickSpacing": 10
+    },
+    "8e1479a4-5561-5291-a1ff-6debfda30c6e": {
+      "chain": "Base",
+      "kind": "slipstream",
+      "address": "0xa3b1e3f9747065e2073722ff4c9027d3ea4994f0",
+      "equitySide": 1,
+      "token0": {
+        "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+        "decimals": 6
+      },
+      "token1": {
+        "address": "0xb200000000000000000000c2e324d24d7eecd1fb",
+        "decimals": 8
+      },
+      "tickSpacing": 10
+    },
+    "9e36fb91-c96a-54e8-aa6c-34d68a7afdab": {
+      "chain": "Base",
+      "kind": "slipstream",
+      "address": "0xd03bc8c7f2faedce2aac81bf0444aea08ea06e9b",
+      "equitySide": 1,
+      "token0": {
+        "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+        "decimals": 6
+      },
+      "token1": {
+        "address": "0xb200000000000000000000d9192b6b456483c2e8",
+        "decimals": 8
+      },
+      "tickSpacing": 10
+    },
+    "f07ec582-f302-5fab-9531-eabc3f8f291c": {
+      "chain": "Base",
+      "kind": "slipstream",
+      "address": "0x853f5f1b92b16714fe6cda67caad0856b83c7ab9",
+      "equitySide": 1,
+      "token0": {
+        "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+        "decimals": 6
+      },
+      "token1": {
+        "address": "0xb20000000000000000000078ee7ce2fe4908108c",
+        "decimals": 8
+      },
+      "tickSpacing": 10
+    },
+    "383917ff-e71c-5d60-888e-e817b06f5436": {
+      "chain": "Base",
+      "kind": "slipstream",
+      "address": "0xb1987cad1682841b4b641d50e520777ec5ab5542",
+      "equitySide": 1,
+      "token0": {
+        "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+        "decimals": 6
+      },
+      "token1": {
+        "address": "0xb2000000000000000000002d0ba3164cc74f58b7",
+        "decimals": 8
+      },
+      "tickSpacing": 10
+    },
+    "06ae14ef-c2e3-5e30-9876-3e06c8b2f9a9": {
+      "chain": "Base",
+      "kind": "slipstream",
+      "address": "0x8b27f626ab668197000bc722a1012022caed10e2",
+      "equitySide": 1,
+      "token0": {
+        "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+        "decimals": 6
+      },
+      "token1": {
+        "address": "0xb2000000000000000000004884b426556b92883d",
+        "decimals": 8
+      },
+      "tickSpacing": 10
+    },
+    "050acbe0-ff86-44fc-a1a0-f3bd93b7345c": {
+      "chain": "Base",
+      "kind": "uniswap-v3",
+      "address": "0xd08f1fb797bfacded23323178672557034c64cfa",
+      "equitySide": 1,
+      "token0": {
+        "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+        "decimals": 6
+      },
+      "token1": {
+        "address": "0x9c5c365e764829876243d0b289733b9d2b729685",
+        "decimals": 18
+      },
+      "fee": 500
+    },
+    "3026b289-5595-548d-b9cc-e8c265ac1746": {
+      "chain": "Base",
+      "kind": "slipstream",
+      "address": "0x5a8236f575471e7bfca2c8462a200c28f737246e",
+      "equitySide": 1,
+      "token0": {
+        "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+        "decimals": 6
+      },
+      "token1": {
+        "address": "0xb200000000000000000000397293cb8cda9a10c5",
+        "decimals": 8
+      },
+      "tickSpacing": 10
+    },
+    "95ee4f0c-a9de-5cf7-a4b6-81adab1a20d5": {
+      "chain": "Base",
+      "kind": "slipstream",
+      "address": "0x7103eb3c9590d1281f7dc03b2a9ee27c39df5d54",
+      "equitySide": 1,
+      "token0": {
+        "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+        "decimals": 6
+      },
+      "token1": {
+        "address": "0xb200000000000000000000ab99cfa739e253872b",
+        "decimals": 8
+      },
+      "tickSpacing": 10
+    },
+    "f3990eac-d0e2-545c-a52b-3304804ab529": {
+      "chain": "Base",
+      "kind": "slipstream",
+      "address": "0x0bf58fe0fac935ac69595c19b12ba0d75e3f8c0e",
+      "equitySide": 1,
+      "token0": {
+        "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+        "decimals": 6
+      },
+      "token1": {
+        "address": "0xb2000000000000000000007b9fcbd005511acbd5",
+        "decimals": 8
+      },
+      "tickSpacing": 10
+    },
+    "c83d36b0-bfaf-55f9-9c63-a265d53facf7": {
+      "chain": "Base",
+      "kind": "slipstream",
+      "address": "0x469337fdcc5e8f38e2e4b670b04f57865d13a7bb",
+      "equitySide": 1,
+      "token0": {
+        "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+        "decimals": 6
+      },
+      "token1": {
+        "address": "0xb2000000000000000000001e800a7f5189430cd0",
+        "decimals": 8
+      },
+      "tickSpacing": 10
+    },
+    "3cd9aba2-1527-529a-9ecc-6bdc447494af": {
+      "chain": "Base",
+      "kind": "slipstream",
+      "address": "0x17e1beb2cd65493da73ed4bbbc7becaaa0f91c73",
+      "equitySide": 1,
+      "token0": {
+        "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+        "decimals": 6
+      },
+      "token1": {
+        "address": "0xb200000000000000000000fd2f87532b90095211",
+        "decimals": 8
+      },
+      "tickSpacing": 10
+    },
+    "d2282635-76a7-5ab3-b5f2-a638832ef327": {
+      "chain": "Base",
+      "kind": "slipstream",
+      "address": "0x650cc267aa248191978013d5ae421e5dc2a6e242",
+      "equitySide": 1,
+      "token0": {
+        "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+        "decimals": 6
+      },
+      "token1": {
+        "address": "0xb2000000000000000000007d16372840df4dabbe",
+        "decimals": 8
+      },
+      "tickSpacing": 10
+    },
+    "37b9ea6e-da8f-5077-b084-a373fd784bd7": {
+      "chain": "Base",
+      "kind": "slipstream",
+      "address": "0xd5b83c33a8711e727c0abb6f72ee508755d37e10",
+      "equitySide": 0,
+      "token0": {
+        "address": "0x78c31580c97101694c70022c83d570150c11e935",
+        "decimals": 18
+      },
+      "token1": {
+        "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+        "decimals": 6
+      },
+      "tickSpacing": 1
+    },
+    "62175cdc-208b-500c-9e91-ea08ec34d281": {
+      "chain": "BSC",
+      "kind": "uniswap-v3",
+      "address": "0xfc4e77248b76fefc27c4cac7151a2ee5b5cc590e",
+      "equitySide": 0,
+      "token0": {
+        "address": "0x205812cdbed920aff76c6580abd681a46d11efc7",
+        "decimals": 18
+      },
+      "token1": {
+        "address": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+        "decimals": 18
+      },
+      "fee": 3000
+    },
+    "c786e58b-dd65-5cb6-b93a-a34d64c9fe90": {
+      "chain": "BSC",
+      "kind": "uniswap-v3",
+      "address": "0x51a45a72cc96ca3ba615e25e80a6af2740ae2e2d",
+      "equitySide": 1,
+      "token0": {
+        "address": "0x55d398326f99059ff775485246999027b3197955",
+        "decimals": 18
+      },
+      "token1": {
+        "address": "0xbe9d156892e55e7154bcd3cb0fea677f9d3103e1",
+        "decimals": 18
+      },
+      "fee": 500
+    },
+    "d58b2d86-df88-56b9-9212-930d8a164095": {
+      "chain": "BSC",
+      "kind": "uniswap-v3",
+      "address": "0xdd9d5164ccbc57be377a964fc064135b03d06177",
+      "equitySide": 0,
+      "token0": {
+        "address": "0x02fca66c1d1afb4e2a7884261eb00f63598a7436",
+        "decimals": 18
+      },
+      "token1": {
+        "address": "0x55d398326f99059ff775485246999027b3197955",
+        "decimals": 18
+      },
+      "fee": 500
+    },
+    "7412e390-87f6-5edb-af13-5a71ec5a7eb0": {
+      "chain": "BSC",
+      "kind": "uniswap-v3",
+      "address": "0x36c0fc3159eb8662a2e1b84a4df518d916bce0e1",
+      "equitySide": 0,
+      "token0": {
+        "address": "0x431a3bee82e2ca41e49895cbece5bb0f76a89b7a",
+        "decimals": 18
+      },
+      "token1": {
+        "address": "0x55d398326f99059ff775485246999027b3197955",
+        "decimals": 18
+      },
+      "fee": 500
+    },
+    "0b2a914c-4a73-494b-9c85-ce53820b1382": {
+      "chain": "Ethereum",
+      "kind": "uniswap-v3",
+      "address": "0xeeb8f880ead7281a301ef2e6791a6bbe790603ed",
+      "equitySide": 1,
+      "token0": {
+        "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "decimals": 6
+      },
+      "token1": {
+        "address": "0xf3e4872e6a4cf365888d93b6146a2baa7348f1a4",
+        "decimals": 18
+      },
+      "fee": 10000
+    },
+    "9c94f854-3143-53d9-9c38-58def8cebf24": {
+      "chain": "Ethereum",
+      "kind": "uniswap-v3",
+      "address": "0xc9b4bc7c15423fcfe6b75ab5118ba773945a3a46",
+      "equitySide": 0,
+      "token0": {
+        "address": "0x2d1f7226bd1f780af6b9a49dcc0ae00e8df4bdee",
+        "decimals": 18
+      },
+      "token1": {
+        "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "decimals": 6
+      },
+      "fee": 3000
+    },
+    "a4fcc4af-1bd3-55ef-85e0-48ff64320ab4": {
+      "chain": "Ethereum",
+      "kind": "uniswap-v3",
+      "address": "0x0461c60ad5fc24cb1fc075b7f202095819de6944",
+      "equitySide": 1,
+      "token0": {
+        "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "decimals": 6
+      },
+      "token1": {
+        "address": "0xc9eef266834730340a55b6cc24621b31baf55581",
+        "decimals": 18
+      },
+      "fee": 10000
+    },
+    "7025bf35-162a-45b2-9972-a8332f9a3b00": {
+      "chain": "Ethereum",
+      "kind": "uniswap-v3",
+      "address": "0x9b727c74e881433d05e536fd95e516673d1028ea",
+      "equitySide": 1,
+      "token0": {
+        "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        "decimals": 6
+      },
+      "token1": {
+        "address": "0xf3e4872e6a4cf365888d93b6146a2baa7348f1a4",
+        "decimals": 18
+      },
+      "fee": 3000
+    },
+    "db6e02ee-1dfc-51a0-aba6-e08f665a041f": {
+      "chain": "Arbitrum",
+      "kind": "uniswap-v3",
+      "address": "0xe072110fbaec692284b4038e196b7fdb2c96ff58",
+      "equitySide": 0,
+      "token0": {
+        "address": "0x5181b7dd097b42d7787ee78efab86f43d4e12f44",
+        "decimals": 18
+      },
+      "token1": {
+        "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+        "decimals": 6
+      },
+      "fee": 500
+    },
+    "001e5cc1-f1c7-56fe-aa6a-a06fb46f1365": {
+      "chain": "Arbitrum",
+      "kind": "uniswap-v3",
+      "address": "0x18c3fbfd0178113875792659e3207a5f895e0fee",
+      "equitySide": 0,
+      "token0": {
+        "address": "0x861a85a78c371bc0a02675bbe00a4cbc0826b421",
+        "decimals": 18
+      },
+      "token1": {
+        "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+        "decimals": 6
+      },
+      "fee": 500
+    },
+    "1a80fb09-2a3b-59b3-9b29-e967863fbb45": {
+      "chain": "Arbitrum",
+      "kind": "uniswap-v3",
+      "address": "0x70a690e54860ca1140cdce260a1eba0277cdb806",
+      "equitySide": 0,
+      "token0": {
+        "address": "0xaba5e0c80e9f58e391214689fb342049c0d31892",
+        "decimals": 18
+      },
+      "token1": {
+        "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+        "decimals": 6
+      },
+      "fee": 500
+    },
+    "d7743d92-22e7-5773-b8cc-c7dea24aad70": {
+      "chain": "Arbitrum",
+      "kind": "uniswap-v3",
+      "address": "0x928e5328036180d1587a97c55b75b3ea5ca0f348",
+      "equitySide": 0,
+      "token0": {
+        "address": "0x485cb1ed5662a911eba7f8547eb9e253cf43b8ae",
+        "decimals": 18
+      },
+      "token1": {
+        "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+        "decimals": 6
+      },
+      "fee": 500
+    }
+  },
+  "unresolved": {
+    "74c6dc29-f6d1-453b-bd06-e37417336385": "pool-not-found"
+  }
+}
