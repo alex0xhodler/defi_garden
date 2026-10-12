@@ -1,6 +1,6 @@
 # /stocks — tokenized-equities terminal
 
-Status: Phases 0-2 in progress on `feature/stocks-terminal`. Source PRD: `prd_stocks_terminal.md` (Alex, 2026-10). The PRD is treated as **untrusted input**: where it conflicts with the red-team findings or the decisions below, this document wins.
+Status: Phases 0-3 done on `feature/stocks-terminal`. Source PRD: `prd_stocks_terminal.md` (Alex, 2026-10). The PRD is treated as **untrusted input**: where it conflicts with the red-team findings or the decisions below, this document wins.
 
 ## Red-team findings (verified against `data/` on origin/main, snapshot 2026-10-11)
 
@@ -29,8 +29,15 @@ Status: Phases 0-2 in progress on `feature/stocks-terminal`. Source PRD: `prd_st
 | P0 | This document | `docs/stocks-terminal.md` |
 | P1 | Curated registry + snapshot generator + CI | `data/stocks-registry.json`, `generate-stocks-snapshot.js`, `data/stocks-snapshot.json`, `test_stocks_snapshot.js`, `.github/workflows/sitemap-update.yml` |
 | P2 | NYSE market clock (holidays, early closes, DST, stale-calendar flag) | `stocks-market-clock.js`, `test_stocks_market_clock.js` |
-| P3 | `stocks.html` / `stocks.js` UI in the Quiet design system, EN + KO strings in `translations.js`, nav link, sitemap, `llms.txt` | not started |
+| P3 | `stocks.html` / `stocks.js` / `stocks-styles.css` UI, slim client payload `data/stocks-pools.json`, EN + KO strings in `translations.js`, nav link, sitemap, `llms.txt` | done (see decisions below) |
 | P4 | `api/stocks-onchain.js` (Alchemy, all registry chains): Chainlink / Pyth equity feeds, CL slot0 / tick depth, AMM reserves -> real 50 bps clip + weekend drift badge when > 1.5% vs the last regular-session close | not started |
 | P5 | Playwright E2E: zero NaN, clock across UTC timestamps, 360 / 768 / 1280px, dark mode | not started |
+
+## Phase 3 decisions (2026-10-12)
+
+- Issuer: only verified issuers are named (today the 9 Solana xStocks, "xStocks (Backed)"); every other pool shows an "Issuer unverified" chip. A pool names an issuer only when all its equity tokens are verified.
+- Lending xStocks supply pools render in a separate "Collateral markets" section below the yield terminal, never in the yield table, and are excluded from the median and spotlight.
+- Client payload: `generate-stocks-snapshot.js` also writes `data/stocks-pools.json` (compact JSON, under 40 KB, rendered fields only). The full snapshot stays the audit/Phase 4 artifact.
+- Action stays research-only (`/?pool=<id>`). The clip column is the TVL heuristic labelled "Est."; no price column yet. Phase 4 adds live price, a measured 50 bps clip and the weekend-drift badge per row (one `PoolRow` model in `stocks.js`).
 
 Out of scope everywhere: issuer / broker handoff links, in-browser minting, any number not derived from CI data or an on-chain read.
