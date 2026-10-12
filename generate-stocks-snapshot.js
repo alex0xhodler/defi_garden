@@ -100,11 +100,15 @@ const QUOTES = {
   'Robinhood Chain': {
     // USDG: the Alandale SPY-USDG pair's quote token (symbol from the pool name).
     '0x5fc5360d0400a0fd4f2af552add042d716f1d168': 'stable'
+  },
+  'Hyperliquid L1': {
+    // HyperEVM native USDC: the nest-cl WNVDAX-USDC pair's quote token (symbol from the pool name).
+    '0xb88339cb7199b77e23db6e890353e22632ba630f': 'stable'
   }
 };
 
 // EVM chain ids (null = not asserted; Phase 4 must supply them, not guess).
-const CHAIN_IDS = { Ethereum: 1, Base: 8453, Arbitrum: 42161, BSC: 56, Solana: null, 'Robinhood Chain': null };
+const CHAIN_IDS = { Ethereum: 1, Base: 8453, Arbitrum: 42161, BSC: 56, Solana: null, 'Robinhood Chain': null, 'Hyperliquid L1': null };
 
 const AMM_TYPES = {
   'aerodrome-slipstream': { ammType: 'slipstream-cl', strategy: 'factory-getPool' },
@@ -235,6 +239,25 @@ function classifyQuote(chain, address, registryIndex) {
   return table[normalizeAddress(chain, address)] || (table[address] || null);
 }
 
+// Issuer metadata for the pools that name one, keyed by display name (the
+// same string a pool carries in `issuer`). Pure projection of registry.issuers.
+function issuersByName(registry, names) {
+  const out = {};
+  const all = (registry && registry.issuers) || {};
+  Object.keys(all).sort().forEach(slug => {
+    const i = all[slug];
+    if (!i || !i.name || names.indexOf(i.name) < 0) return;
+    out[i.name] = {
+      slug: slug,
+      legalEntity: i.legalEntity == null ? null : i.legalEntity,
+      jurisdiction: i.jurisdiction == null ? null : i.jurisdiction,
+      usPersons: i.usPersons === true || i.usPersons === false ? i.usPersons : null,
+      sources: Array.isArray(i.sources) ? i.sources.slice() : []
+    };
+  });
+  return out;
+}
+
 function sortKey(a, b) {
   return a < b ? -1 : a > b ? 1 : 0;
 }
@@ -300,7 +323,7 @@ function buildStocksSnapshot(snapshot, registry, opts) {
       quote: quoteToken ? quoteToken.role : (tokens.length > 1 ? 'equity' : null),
       equityTokens: equityTokens.map(t => ({
         symbol: t.symbol, underlying: t.underlying, assetClass: t.assetClass,
-        issuer: t.issuer, issuerBasis: t.issuerBasis, address: t.address
+        issuer: t.issuer, issuerBasis: t.issuerBasis, issuerSource: t.issuerSource || null, address: t.address
       })),
       tvlUsd: Math.round(tvlUsd),
       tier: tier,
@@ -342,10 +365,19 @@ function buildStocksSnapshot(snapshot, registry, opts) {
       depthFactors: DEPTH_FACTORS,
       redemptionNotice: 'Primary redemption subject to issuer/broker hours'
     },
+    issuers: issuersByName(registry, equityIssuerNames(pools)),
     counts: { pools: pools.length, byTier: byTier, byChain: sortObject(byChain), excluded: excluded.length, excludedByReason: sortObject(excludedByReason) },
     pools: pools,
     excluded: excluded
   };
+}
+
+function equityIssuerNames(pools) {
+  const names = [];
+  pools.forEach(p => p.equityTokens.forEach(t => {
+    if (t.issuer && t.issuer !== 'unverified' && names.indexOf(t.issuer) < 0) names.push(t.issuer);
+  }));
+  return names;
 }
 
 function sortObject(o) {
@@ -375,6 +407,17 @@ function parseForecastEval(label) {
   if (!m) return null;
   const wins = Number(m[1]), runs = Number(m[2]);
   return Number.isFinite(wins) && Number.isFinite(runs) && runs > 0 ? { baselineWins: wins, runs: runs } : null;
+}
+
+function slimIssuers(issuers, pools) {
+  const used = [];
+  pools.forEach(p => String(p.issuer || '').split(' + ').forEach(n => { if (n && used.indexOf(n) < 0) used.push(n); }));
+  const out = {};
+  used.sort().forEach(n => {
+    const i = (issuers || {})[n];
+    if (i) out[n] = { e: i.legalEntity, j: i.jurisdiction, us: i.usPersons };
+  });
+  return out;
 }
 
 /**
@@ -428,6 +471,8 @@ function buildStocksPools(full, scoreLabels) {
     },
     forecast: label ? { label: label, eval: parseForecastEval(label) } : null,
     counts: { pools: pools.length, excluded: full.counts.excluded },
+    // Issuer facts for the names pools carry (tooltip: legal entity, jurisdiction, US-person eligibility).
+    issuers: slimIssuers(full.issuers, pools),
     pools: pools
   };
 }

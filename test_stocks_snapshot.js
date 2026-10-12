@@ -188,6 +188,70 @@ if (fs.existsSync(registryPath)) {
     const bad = /FARTCOIN|PEPECOIN|BITCOIN|TONCOIN|BOTCOIN|STONK/i;
     Object.keys(reg.tokens).forEach(k => assert.ok(!bad.test(reg.tokens[k].symbol), k));
   });
+
+  // ---- issuer attribution: by verified exact address only ----
+  const WEAK_BASES = ['address-prefix', 'symbol-prefix', 'symbol-suffix', 'symbol-only', 'corroborated-pair'];
+  const attributed = Object.keys(reg.tokens).filter(k => reg.tokens[k].issuer !== 'unverified');
+  check('registry: every attributed token names a known issuer, a strong basis and a source (never a prefix / symbol pattern)', () => {
+    assert.ok(attributed.length > 0);
+    attributed.forEach(k => {
+      const t = reg.tokens[k];
+      assert.ok(t.issuerSlug && reg.issuers[t.issuerSlug], k + ' issuerSlug must be a key of registry.issuers');
+      assert.strictEqual(t.issuer, reg.issuers[t.issuerSlug].name, k);
+      assert.ok(typeof t.issuerSource === 'string' && t.issuerSource.length > 10, k + ' attributed without an issuerSource');
+      assert.ok(WEAK_BASES.indexOf(t.issuerBasis) < 0, k + ' attributed on a weak basis: ' + t.issuerBasis);
+    });
+    Object.keys(reg.issuers).forEach(slug => {
+      const i = reg.issuers[slug];
+      assert.ok(i.name && Array.isArray(i.sources) && i.sources.length > 0, slug);
+      assert.ok(i.usPersons === true || i.usPersons === false || i.usPersons === 'unknown', slug);
+    });
+  });
+  check('registry: no Base 0xb2000... token is attributed by its prefix alone (each carries an exact-address source)', () => {
+    const b20 = Object.keys(reg.tokens).filter(k => /^Base:0xb2000/.test(k));
+    assert.ok(b20.length >= 12);
+    b20.forEach(k => {
+      const t = reg.tokens[k];
+      if (t.issuer === 'unverified') return;
+      assert.strictEqual(t.issuerSlug, 'coinbase', k);
+      assert.strictEqual(t.issuerBasis, 'official-registry', k);
+      assert.ok(/coinbase\.com|base\.org/.test(t.issuerSource), k + ' source ' + t.issuerSource);
+    });
+    // The excluded non-equity B20 lookalikes stay out.
+    reg.excluded.filter(e => /^0xb2000/.test(e.address)).forEach(e => assert.ok(!reg.tokens['Base:' + e.address], e.symbol));
+  });
+  check('registry: the five pool-present tokens missing from v1 are listed with their issuer', () => {
+    [
+      ['Base:0x5cda0e1ca4ce2af96315f7f8963c85399c172204', 'WTCOIN', 'st0x'],
+      ['Base:0x31c2c14134e6e3b7ef9478297f199331133fc2d8', 'WTSPYM', 'st0x'],
+      ['Base:0x78c31580c97101694c70022c83d570150c11e935', 'WTSGOV', 'st0x'],
+      ['BSC:0x995add4ba29a628a57930a8a185c62ca044ec090', 'MCDON', 'ondo'],
+      ['Hyperliquid L1:0xa8ddb5cd96b5222afe198316e9a57caa642850d5', 'WNVDAX', 'xstocks']
+    ].forEach(([key, sym, slug]) => {
+      assert.ok(reg.tokens[key], key + ' missing');
+      assert.strictEqual(reg.tokens[key].symbol, sym);
+      assert.strictEqual(reg.tokens[key].issuerSlug, slug);
+    });
+    assert.ok(!reg.excluded.some(e => e.address === '0xa8ddb5cd96b5222afe198316e9a57caa642850d5' && e.chain === 'Hyperliquid L1'));
+  });
+  check('registry: DESPXA is a Centrifuge fund token, not a Dinari dShare', () => {
+    const d = reg.tokens['Base:0x9c5c365e764829876243d0b289733b9d2b729685'];
+    assert.ok(d);
+    assert.strictEqual(d.issuerSlug, 'centrifuge');
+    assert.notStrictEqual(d.issuer, 'Dinari');
+    assert.ok(/Centrifuge/.test(d.name));
+    assert.ok(!reg.issuers.dinari);
+    assert.ok(!/dinari/i.test(JSON.stringify(Object.assign({}, d, { issuerSource: '' }))));
+  });
+  check('registry: address-verified cross-issuer cases (Reality not Robinhood, Backpack SPCX not xStocks, Robinhood Chain SPY)', () => {
+    ['RAAPL', 'RHOOD', 'RCRCL', 'RSPCX'].forEach(sym => {
+      const t = Object.values(reg.tokens).find(x => x.chain === 'Arbitrum' && x.symbol === sym);
+      assert.strictEqual(t.issuerSlug, 'reality', sym);
+    });
+    assert.strictEqual(reg.tokens['Solana:SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb'].issuerSlug, 'backpack-securities');
+    assert.strictEqual(Object.values(reg.tokens).find(x => x.chain === 'Robinhood Chain').issuerSlug, 'robinhood');
+    assert.strictEqual(reg.tokens['Solana:Xs3oZwbHvqis4NYcf4YKWmEia2eC84wSiVrcYcTqpH8'].issuerSlug, 'xstocks');
+  });
   if (fs.existsSync(snapshotPath)) {
     const snap = JSON.parse(fs.readFileSync(snapshotPath, 'utf8'));
     check('registry: every token address is justified by an underlyingTokens entry in the pools snapshot', () => {
@@ -256,6 +320,17 @@ check('slim payload: issuer is named only when every equity token has a verified
   assert.strictEqual(slim.forecast, null);
 });
 
+check('slim payload: issuer facts (entity, jurisdiction, US-person eligibility) ride along only for named issuers', () => {
+  const reg2 = Object.assign({}, registry, { issuers: {
+    xs: { name: 'xStocks (Backed)', legalEntity: 'Backed Assets (JE) Limited', jurisdiction: 'Jersey', usPersons: false, sources: ['u'] },
+    other: { name: 'Unused', legalEntity: 'X', jurisdiction: 'Y', usPersons: true, sources: ['u'] }
+  } });
+  const full = buildStocksSnapshot({ generatedAt: 'g', pools: [pool(), pool({ chain: 'Solana', project: 'raydium-amm', symbol: 'NVDAX-USDC', poolMeta: 'Concentrated - 0.1%', underlyingTokens: [NVDAX, USDC_SOL] })] }, reg2, { generatedAt: 'x' });
+  const slim = buildStocksPools(full, null);
+  assert.deepStrictEqual(slim.issuers, { 'xStocks (Backed)': { e: 'Backed Assets (JE) Limited', j: 'Jersey', us: false } });
+  assert.deepStrictEqual(buildStocksPools(build([pool()]), null).issuers, {});
+});
+
 check('slim payload: forecast label parsing is strict (no numbers invented)', () => {
   assert.deepStrictEqual(parseForecastEval('In 3 of 12 test runs'), { baselineWins: 3, runs: 12 });
   assert.strictEqual(parseForecastEval('No evaluation yet'), null);
@@ -264,9 +339,9 @@ check('slim payload: forecast label parsing is strict (no numbers invented)', ()
 });
 
 if (fs.existsSync(slimPath) && fs.existsSync(outputPath)) {
-  check('committed data/stocks-pools.json: no NaN, every id exists in the full snapshot, rails hold, <= 40 KB', () => {
+  check('committed data/stocks-pools.json: no NaN, every id exists in the full snapshot, rails hold, <= 48 KB', () => {
     const raw = fs.readFileSync(slimPath, 'utf8');
-    assert.ok(Buffer.byteLength(raw) <= 40000, 'slim payload is ' + Buffer.byteLength(raw) + ' bytes');
+    assert.ok(Buffer.byteLength(raw) <= 48000, 'slim payload is ' + Buffer.byteLength(raw) + ' bytes');
     assert.ok(!/NaN|undefined|Infinity/.test(raw));
     const slim = JSON.parse(raw);
     const full = JSON.parse(fs.readFileSync(outputPath, 'utf8'));

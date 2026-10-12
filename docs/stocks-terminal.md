@@ -35,9 +35,15 @@ Status: Phases 0-3 done on `feature/stocks-terminal`. Source PRD: `prd_stocks_te
 
 ## Phase 3 decisions (2026-10-12)
 
-- Issuer: only verified issuers are named (today the 9 Solana xStocks, "xStocks (Backed)"); every other pool shows an "Issuer unverified" chip. A pool names an issuer only when all its equity tokens are verified.
+- Issuer: only verified issuers are named; any token without a verified attribution shows an "Issuer unverified" chip. A pool names an issuer only when all its equity tokens are verified. (Method updated 2026-10-12, see "Issuer attribution" below.)
 - Lending xStocks supply pools render in a separate "Collateral markets" section below the yield terminal, never in the yield table, and are excluded from the median and spotlight.
-- Client payload: `generate-stocks-snapshot.js` also writes `data/stocks-pools.json` (compact JSON, under 40 KB, rendered fields only). The full snapshot stays the audit/Phase 4 artifact.
+- Client payload: `generate-stocks-snapshot.js` also writes `data/stocks-pools.json` (compact JSON, under 48 KB, rendered fields only). The full snapshot stays the audit/Phase 4 artifact.
 - Action stays research-only (`/?pool=<id>`). The clip column is the TVL heuristic labelled "Est."; no price column yet. Phase 4 adds live price, a measured 50 bps clip and the weekend-drift badge per row (one `PoolRow` model in `stocks.js`).
+
+## Issuer attribution (2026-10-12)
+
+- **By exact address only.** A registry token gets an `issuer` only when its exact address was verified in the issuer's own published list/API (xStocks, Coinbase, Ondo, bStocks, Robinhood Chain, ST0x), in an on-chain record (Reality beacon logs, Centrifuge `name()`), or in the issuer's official announcement (Backpack SPCX). Each attributed token stores `issuerSlug`, `issuerBasis` and `issuerSource`; issuer facts (display name, legal entity, jurisdiction, US-person eligibility, source URLs) live in `registry.issuers`. A symbol convention or address prefix is never evidence: the Base `0xb2000...` prefix is shared by non-equity tokens, `R`/`B`/`ON` suffix conventions collide across issuers (Arbitrum `R*` tokens are Reality/Bitget, not Robinhood; Solana `SPCXxcq...` is Backpack via Sunrise, not xStocks). Unattributable tokens stay `issuer: "unverified"` with an `issuerHint`.
+- **Corrections:** Base `DESPXA` (0x9c5c...) is "S&P 500 DeFi (Centrifuge)", not a Dinari dShare. Kept as an index-fund (`etf`) exposure with issuer "Centrifuge" (named by the token itself; legal entity not confirmed) rather than excluded, because it is a single S&P 500 exposure like SPY. Added the five pool-present tokens the v1 registry missed: ST0x `wtCOIN`/`wtSPYM`/`wtSGOV` (Base), Ondo `MCDon` (BSC), xStocks `wNVDAx` (Hyperliquid L1). Issuer-published wrappers are listed; third-party wrappers (Mantle `W*`, Ethereum `WSPYX`) stay excluded.
+- **UI:** the Chain & issuer cell and the spotlight card name the issuer; hovering it shows the legal entity, jurisdiction and US-person eligibility (from the slim payload's `issuers` map, never typed in the page). Only Dinari (not currently in the registry) offers a US-person path; ST0x, Backpack and Centrifuge are "not confirmed"; all other attributed issuers exclude US persons. The slim payload limit rose from 40 KB to 48 KB to carry the new tokens and issuer facts.
 
 Out of scope everywhere: issuer / broker handoff links, in-browser minting, any number not derived from CI data or an on-chain read.

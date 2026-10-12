@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T07:39:44.896Z",
+  "generatedAt": "2026-10-12T13:45:06.608Z",
   "sourceGeneratedAt": "2026-10-11T08:18:18.526Z",
   "rails": {
     "minTvl": 100000,
@@ -37,25 +37,117 @@
     },
     "redemptionNotice": "Primary redemption subject to issuer/broker hours"
   },
+  "issuers": {
+    "Backpack Securities": {
+      "slug": "backpack-securities",
+      "legalEntity": null,
+      "jurisdiction": null,
+      "usPersons": null,
+      "sources": [
+        "https://x.com/Backpack/status/2065464739749323171",
+        "https://www.coindesk.com/tech/2026/06/10/spacex-stock-is-coming-to-solana-on-the-same-day-it-lists-on-nasdaq"
+      ]
+    },
+    "bStocks": {
+      "slug": "bstocks",
+      "legalEntity": "BTech Holdings Ltd",
+      "jurisdiction": "Abu Dhabi Global Market (ADGM)",
+      "usPersons": false,
+      "sources": [
+        "https://web3.binance.com/en/dev-docs/products/agentic-wallet/use-cases/campaigns/bstock-eligible-tokens",
+        "https://defillama.com/rwa/platform/bstocks"
+      ]
+    },
+    "Centrifuge": {
+      "slug": "centrifuge",
+      "legalEntity": null,
+      "jurisdiction": null,
+      "usPersons": null,
+      "sources": [
+        "on-chain name() of Base 0x9c5c365e764829876243d0b289733b9d2b729685 = \"S&P 500 DeFi (Centrifuge)\""
+      ]
+    },
+    "Coinbase": {
+      "slug": "coinbase",
+      "legalEntity": "Coinbase Onchain SPV Ltd",
+      "jurisdiction": "Abu Dhabi Global Market (ADGM)",
+      "usPersons": false,
+      "sources": [
+        "https://api.coinbase.com/v1/tokenized-stocks",
+        "https://www.base.org/stocks#registry"
+      ]
+    },
+    "Ondo": {
+      "slug": "ondo",
+      "legalEntity": "Ondo Global Markets (BVI) Limited",
+      "jurisdiction": "British Virgin Islands",
+      "usPersons": false,
+      "sources": [
+        "https://docs.ondo.finance/addresses",
+        "https://docs.ondo.finance/partner-docs/tokens"
+      ]
+    },
+    "Reality": {
+      "slug": "reality",
+      "legalEntity": "BG El Salvador, S.A. de C.V. (Bitget subsidiary)",
+      "jurisdiction": "El Salvador",
+      "usPersons": false,
+      "sources": [
+        "https://realityfinance.xyz/",
+        "https://defillama.com/rwa/platform/reality"
+      ]
+    },
+    "Robinhood": {
+      "slug": "robinhood",
+      "legalEntity": "Robinhood Assets (Jersey) Limited",
+      "jurisdiction": "Jersey",
+      "usPersons": false,
+      "sources": [
+        "https://docs.robinhood.com/chain/contracts/",
+        "https://docs.robinhood.com/chain/stock-tokens"
+      ]
+    },
+    "ST0x": {
+      "slug": "st0x",
+      "legalEntity": "S01 Issuer GmbH",
+      "jurisdiction": "Germany",
+      "usPersons": null,
+      "sources": [
+        "https://www.st0x.io/faqs",
+        "https://defillama.com/rwa/platform/st0x"
+      ]
+    },
+    "xStocks": {
+      "slug": "xstocks",
+      "legalEntity": "Backed Assets (JE) Limited",
+      "jurisdiction": "Jersey",
+      "usPersons": false,
+      "sources": [
+        "https://api.xstocks.fi/api/v2/public/assets",
+        "https://defillama.com/rwa/platform/xstocks"
+      ]
+    }
+  },
   "counts": {
-    "pools": 110,
+    "pools": 114,
     "byTier": {
       "1": 20,
       "2": 35,
-      "3": 55
+      "3": 59
     },
     "byChain": {
       "Arbitrum": 4,
-      "BSC": 11,
-      "Base": 16,
+      "BSC": 12,
+      "Base": 18,
       "Ethereum": 9,
+      "Hyperliquid L1": 1,
       "Robinhood Chain": 1,
       "Solana": 69
     },
-    "excluded": 23,
+    "excluded": 24,
     "excludedByReason": {
       "apy-above-cap": 1,
-      "unrecognized-counterparty": 10,
+      "unrecognized-counterparty": 11,
       "vault-wrapper": 12
     }
   },
@@ -75,8 +167,9 @@
           "symbol": "SPYX",
           "underlying": "SPY",
           "assetClass": "etf",
-          "issuer": "xStocks (Backed)",
-          "issuerBasis": "poolMeta",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W"
         }
       ],
@@ -146,8 +239,9 @@
           "symbol": "SPCX",
           "underlying": "SPCX",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "corroborated-pair",
+          "issuer": "Backpack Securities",
+          "issuerBasis": "official-announcement",
+          "issuerSource": "https://x.com/Backpack/status/2065464739749323171",
           "address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb"
         }
       ],
@@ -222,8 +316,9 @@
           "symbol": "SPYX",
           "underlying": "SPY",
           "assetClass": "etf",
-          "issuer": "xStocks (Backed)",
-          "issuerBasis": "poolMeta",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W"
         }
       ],
@@ -293,8 +388,9 @@
           "symbol": "SPYON",
           "underlying": "SPY",
           "assetClass": "etf",
-          "issuer": "unverified",
-          "issuerBasis": "symbol-suffix",
+          "issuer": "Ondo",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://docs.ondo.finance/addresses",
           "address": "0xfedc5f4a6c38211c1338aa411018dfaf26612c08"
         }
       ],
@@ -364,8 +460,9 @@
           "symbol": "MSTRX",
           "underlying": "MSTR",
           "assetClass": "equity",
-          "issuer": "xStocks (Backed)",
-          "issuerBasis": "poolMeta",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "XsP7xzNPvEHS1m6qfanPUGjNmdnmsLKEoNAnHjdxxyZ"
         }
       ],
@@ -435,8 +532,9 @@
           "symbol": "GOOGLX",
           "underlying": "GOOGL",
           "assetClass": "equity",
-          "issuer": "xStocks (Backed)",
-          "issuerBasis": "poolMeta",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "XsCPL9dNWBMvFtTmwcCA5v3xWPSMEBCszbQdiLLq6aN"
         }
       ],
@@ -506,8 +604,9 @@
           "symbol": "NVDAX",
           "underlying": "NVDA",
           "assetClass": "equity",
-          "issuer": "xStocks (Backed)",
-          "issuerBasis": "poolMeta",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh"
         }
       ],
@@ -583,8 +682,9 @@
           "symbol": "TSLAX",
           "underlying": "TSLA",
           "assetClass": "equity",
-          "issuer": "xStocks (Backed)",
-          "issuerBasis": "poolMeta",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "XsDoVfqeBukxuZHWhdvWHBhgEHjGNst4MLodqsJHzoB"
         }
       ],
@@ -654,8 +754,9 @@
           "symbol": "QQQX",
           "underlying": "QQQ",
           "assetClass": "etf",
-          "issuer": "xStocks (Backed)",
-          "issuerBasis": "poolMeta",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "Xs8S1uUs1zvS2p7iwtsG3b6fkhpvmwz4GYU3gWAmWHZ"
         }
       ],
@@ -726,8 +827,9 @@
           "symbol": "METAC",
           "underlying": "META",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "address-prefix",
+          "issuer": "Coinbase",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.coinbase.com/v1/tokenized-stocks",
           "address": "0xb2000000000000000000008bc8786b856e61707c"
         }
       ],
@@ -803,8 +905,9 @@
           "symbol": "NVDAX",
           "underlying": "NVDA",
           "assetClass": "equity",
-          "issuer": "xStocks (Backed)",
-          "issuerBasis": "poolMeta",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh"
         }
       ],
@@ -874,8 +977,9 @@
           "symbol": "CRCLX",
           "underlying": "CRCL",
           "assetClass": "equity",
-          "issuer": "xStocks (Backed)",
-          "issuerBasis": "poolMeta",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "XsueG8BtpquVJX9LVLLEGuViXUungE6WmK5YZ3p3bd1"
         }
       ],
@@ -951,8 +1055,9 @@
           "symbol": "TSLAX",
           "underlying": "TSLA",
           "assetClass": "equity",
-          "issuer": "xStocks (Backed)",
-          "issuerBasis": "poolMeta",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "XsDoVfqeBukxuZHWhdvWHBhgEHjGNst4MLodqsJHzoB"
         }
       ],
@@ -1028,8 +1133,9 @@
           "symbol": "AAPLC",
           "underlying": "AAPL",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "address-prefix",
+          "issuer": "Coinbase",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.coinbase.com/v1/tokenized-stocks",
           "address": "0xb200000000000000000000c2e324d24d7eecd1fb"
         }
       ],
@@ -1105,8 +1211,9 @@
           "symbol": "QQQX",
           "underlying": "QQQ",
           "assetClass": "etf",
-          "issuer": "xStocks (Backed)",
-          "issuerBasis": "poolMeta",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "Xs8S1uUs1zvS2p7iwtsG3b6fkhpvmwz4GYU3gWAmWHZ"
         }
       ],
@@ -1182,8 +1289,9 @@
           "symbol": "AMZNC",
           "underlying": "AMZN",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "address-prefix",
+          "issuer": "Coinbase",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.coinbase.com/v1/tokenized-stocks",
           "address": "0xb200000000000000000000d9192b6b456483c2e8"
         }
       ],
@@ -1259,8 +1367,9 @@
           "symbol": "SPYX",
           "underlying": "SPY",
           "assetClass": "etf",
-          "issuer": "xStocks (Backed)",
-          "issuerBasis": "poolMeta",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W"
         }
       ],
@@ -1337,8 +1446,9 @@
           "symbol": "NVDAC",
           "underlying": "NVDA",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "address-prefix",
+          "issuer": "Coinbase",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.coinbase.com/v1/tokenized-stocks",
           "address": "0xb20000000000000000000078ee7ce2fe4908108c"
         }
       ],
@@ -1414,8 +1524,9 @@
           "symbol": "GOOGLC",
           "underlying": "GOOGL",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "address-prefix",
+          "issuer": "Coinbase",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.coinbase.com/v1/tokenized-stocks",
           "address": "0xb2000000000000000000002d0ba3164cc74f58b7"
         }
       ],
@@ -1491,8 +1602,9 @@
           "symbol": "SPYX",
           "underlying": "SPY",
           "assetClass": "etf",
-          "issuer": "xStocks (Backed)",
-          "issuerBasis": "poolMeta",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W"
         }
       ],
@@ -1562,8 +1674,9 @@
           "symbol": "MSTRC",
           "underlying": "MSTR",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "address-prefix",
+          "issuer": "Coinbase",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.coinbase.com/v1/tokenized-stocks",
           "address": "0xb2000000000000000000004884b426556b92883d"
         }
       ],
@@ -1639,8 +1752,9 @@
           "symbol": "DESPXA",
           "underlying": "SPX",
           "assetClass": "etf",
-          "issuer": "unverified",
-          "issuerBasis": "symbol-only",
+          "issuer": "Centrifuge",
+          "issuerBasis": "onchain-name",
+          "issuerSource": "on-chain name() = \"S&P 500 DeFi (Centrifuge)\", symbol() = \"deSPXA\" (Base RPC eth_call); not a Dinari dShare",
           "address": "0x9c5c365e764829876243d0b289733b9d2b729685"
         }
       ],
@@ -1716,8 +1830,9 @@
           "symbol": "QQQB",
           "underlying": "QQQ",
           "assetClass": "etf",
-          "issuer": "unverified",
-          "issuerBasis": "symbol-suffix",
+          "issuer": "bStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://web3.binance.com/en/dev-docs/products/agentic-wallet/use-cases/campaigns/bstock-eligible-tokens",
           "address": "0x205812cdbed920aff76c6580abd681a46d11efc7"
         }
       ],
@@ -1787,8 +1902,9 @@
           "symbol": "GOOGLX",
           "underlying": "GOOGL",
           "assetClass": "equity",
-          "issuer": "xStocks (Backed)",
-          "issuerBasis": "poolMeta",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "XsCPL9dNWBMvFtTmwcCA5v3xWPSMEBCszbQdiLLq6aN"
         }
       ],
@@ -1864,8 +1980,9 @@
           "symbol": "COINX",
           "underlying": "COIN",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "address-prefix",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "Xs7ZdzSHLU9ftNJsii5fCeJhoRWSC32SQGzGQtePxNu"
         }
       ],
@@ -1941,8 +2058,9 @@
           "symbol": "HOODX",
           "underlying": "HOOD",
           "assetClass": "equity",
-          "issuer": "xStocks (Backed)",
-          "issuerBasis": "poolMeta",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "XsvNBAYkrDRNhA7wPHQfX3ZUXZyZLdnCQDfHZ56bzpg"
         }
       ],
@@ -2018,8 +2136,9 @@
           "symbol": "SPCXX",
           "underlying": "SPCX",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "address-prefix",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "Xs3oZwbHvqis4NYcf4YKWmEia2eC84wSiVrcYcTqpH8"
         }
       ],
@@ -2095,8 +2214,9 @@
           "symbol": "NVDAX",
           "underlying": "NVDA",
           "assetClass": "equity",
-          "issuer": "xStocks (Backed)",
-          "issuerBasis": "poolMeta",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh"
         }
       ],
@@ -2166,8 +2286,9 @@
           "symbol": "SNDKC",
           "underlying": "SNDK",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "address-prefix",
+          "issuer": "Coinbase",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.coinbase.com/v1/tokenized-stocks",
           "address": "0xb200000000000000000000397293cb8cda9a10c5"
         }
       ],
@@ -2243,8 +2364,9 @@
           "symbol": "MSFTC",
           "underlying": "MSFT",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "address-prefix",
+          "issuer": "Coinbase",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.coinbase.com/v1/tokenized-stocks",
           "address": "0xb200000000000000000000ab99cfa739e253872b"
         }
       ],
@@ -2320,8 +2442,9 @@
           "symbol": "STRCX",
           "underlying": "STRC",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "symbol-only",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "0x1aad217b8f78dba5e6693460e8470f8b1a3977f3"
         }
       ],
@@ -2389,8 +2512,9 @@
           "symbol": "SPCXC",
           "underlying": "SPCX",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "address-prefix",
+          "issuer": "Coinbase",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.coinbase.com/v1/tokenized-stocks",
           "address": "0xb2000000000000000000007b9fcbd005511acbd5"
         }
       ],
@@ -2466,8 +2590,9 @@
           "symbol": "CRCLX",
           "underlying": "CRCL",
           "assetClass": "equity",
-          "issuer": "xStocks (Backed)",
-          "issuerBasis": "poolMeta",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "XsueG8BtpquVJX9LVLLEGuViXUungE6WmK5YZ3p3bd1"
         }
       ],
@@ -2543,8 +2668,9 @@
           "symbol": "TSLAC",
           "underlying": "TSLA",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "address-prefix",
+          "issuer": "Coinbase",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.coinbase.com/v1/tokenized-stocks",
           "address": "0xb2000000000000000000001e800a7f5189430cd0"
         }
       ],
@@ -2620,8 +2746,9 @@
           "symbol": "MUC",
           "underlying": "MU",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "address-prefix",
+          "issuer": "Coinbase",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.coinbase.com/v1/tokenized-stocks",
           "address": "0xb200000000000000000000fd2f87532b90095211"
         }
       ],
@@ -2681,8 +2808,9 @@
           "symbol": "SPYX",
           "underlying": "SPY",
           "assetClass": "etf",
-          "issuer": "xStocks (Backed)",
-          "issuerBasis": "poolMeta",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W"
         }
       ],
@@ -2758,8 +2886,9 @@
           "symbol": "CRCLX",
           "underlying": "CRCL",
           "assetClass": "equity",
-          "issuer": "xStocks (Backed)",
-          "issuerBasis": "poolMeta",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "XsueG8BtpquVJX9LVLLEGuViXUungE6WmK5YZ3p3bd1"
         }
       ],
@@ -2829,8 +2958,9 @@
           "symbol": "GLDX",
           "underlying": "GLD",
           "assetClass": "commodity-etf",
-          "issuer": "unverified",
-          "issuerBasis": "address-prefix",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "Xsv9hRk1z5ystj9MhnA7Lq4vjSsLwzL2nxrwmwtD3re"
         }
       ],
@@ -2905,8 +3035,9 @@
           "symbol": "QQQB",
           "underlying": "QQQ",
           "assetClass": "etf",
-          "issuer": "unverified",
-          "issuerBasis": "symbol-suffix",
+          "issuer": "bStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://web3.binance.com/en/dev-docs/products/agentic-wallet/use-cases/campaigns/bstock-eligible-tokens",
           "address": "0x205812cdbed920aff76c6580abd681a46d11efc7"
         }
       ],
@@ -2982,8 +3113,9 @@
           "symbol": "SPCXB",
           "underlying": "SPCX",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "symbol-suffix",
+          "issuer": "bStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://web3.binance.com/en/dev-docs/products/agentic-wallet/use-cases/campaigns/bstock-eligible-tokens",
           "address": "0xbe9d156892e55e7154bcd3cb0fea677f9d3103e1"
         }
       ],
@@ -3059,8 +3191,9 @@
           "symbol": "MSTRX",
           "underlying": "MSTR",
           "assetClass": "equity",
-          "issuer": "xStocks (Backed)",
-          "issuerBasis": "poolMeta",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "XsP7xzNPvEHS1m6qfanPUGjNmdnmsLKEoNAnHjdxxyZ"
         }
       ],
@@ -3136,8 +3269,9 @@
           "symbol": "MSTRX",
           "underlying": "MSTR",
           "assetClass": "equity",
-          "issuer": "xStocks (Backed)",
-          "issuerBasis": "poolMeta",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "XsP7xzNPvEHS1m6qfanPUGjNmdnmsLKEoNAnHjdxxyZ"
         }
       ],
@@ -3213,8 +3347,9 @@
           "symbol": "METAX",
           "underlying": "META",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "address-prefix",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "Xsa62P5mvPszXL1krVUnU5ar38bBSVcWAB6fmPCo5Zu"
         }
       ],
@@ -3290,8 +3425,9 @@
           "symbol": "SPCXX",
           "underlying": "SPCX",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "address-prefix",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "Xs3oZwbHvqis4NYcf4YKWmEia2eC84wSiVrcYcTqpH8"
         }
       ],
@@ -3351,8 +3487,9 @@
           "symbol": "PLTRC",
           "underlying": "PLTR",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "address-prefix",
+          "issuer": "Coinbase",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.coinbase.com/v1/tokenized-stocks",
           "address": "0xb2000000000000000000007d16372840df4dabbe"
         }
       ],
@@ -3412,8 +3549,9 @@
           "symbol": "TSLAX",
           "underlying": "TSLA",
           "assetClass": "equity",
-          "issuer": "xStocks (Backed)",
-          "issuerBasis": "poolMeta",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "XsDoVfqeBukxuZHWhdvWHBhgEHjGNst4MLodqsJHzoB"
         }
       ],
@@ -3483,8 +3621,9 @@
           "symbol": "STRCX",
           "underlying": "STRC",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "address-prefix",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "Xs78JED6PFZxWc2wCEPspZW9kL3Se5J7L5TChKgsidH"
         }
       ],
@@ -3554,8 +3693,9 @@
           "symbol": "SPYB",
           "underlying": "SPY",
           "assetClass": "etf",
-          "issuer": "unverified",
-          "issuerBasis": "symbol-suffix",
+          "issuer": "bStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://web3.binance.com/en/dev-docs/products/agentic-wallet/use-cases/campaigns/bstock-eligible-tokens",
           "address": "0x7138b48df7d98d7e3cc221bfe7192d0a178182d8"
         }
       ],
@@ -3632,8 +3772,9 @@
           "symbol": "HOODX",
           "underlying": "HOOD",
           "assetClass": "equity",
-          "issuer": "xStocks (Backed)",
-          "issuerBasis": "poolMeta",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "XsvNBAYkrDRNhA7wPHQfX3ZUXZyZLdnCQDfHZ56bzpg"
         }
       ],
@@ -3703,8 +3844,9 @@
           "symbol": "MSFTX",
           "underlying": "MSFT",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "address-prefix",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "XspzcW1PRtgf6Wj92HCiZdjzKCyFekVD8P5Ueh3dRMX"
         }
       ],
@@ -3780,8 +3922,9 @@
           "symbol": "SLVON",
           "underlying": "SLV",
           "assetClass": "commodity-etf",
-          "issuer": "unverified",
-          "issuerBasis": "symbol-suffix",
+          "issuer": "Ondo",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://docs.ondo.finance/addresses",
           "address": "0xf3e4872e6a4cf365888d93b6146a2baa7348f1a4"
         }
       ],
@@ -3858,8 +4001,9 @@
           "symbol": "SPYX",
           "underlying": "SPY",
           "assetClass": "etf",
-          "issuer": "xStocks (Backed)",
-          "issuerBasis": "poolMeta",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W"
         }
       ],
@@ -3929,8 +4073,9 @@
           "symbol": "NVDAB",
           "underlying": "NVDA",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "symbol-suffix",
+          "issuer": "bStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://web3.binance.com/en/dev-docs/products/agentic-wallet/use-cases/campaigns/bstock-eligible-tokens",
           "address": "0x02fca66c1d1afb4e2a7884261eb00f63598a7436"
         }
       ],
@@ -4006,8 +4151,9 @@
           "symbol": "SPYX",
           "underlying": "SPY",
           "assetClass": "etf",
-          "issuer": "xStocks (Backed)",
-          "issuerBasis": "poolMeta",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W"
         }
       ],
@@ -4082,8 +4228,9 @@
           "symbol": "NVDAX",
           "underlying": "NVDA",
           "assetClass": "equity",
-          "issuer": "xStocks (Backed)",
-          "issuerBasis": "poolMeta",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh"
         }
       ],
@@ -4153,8 +4300,9 @@
           "symbol": "QQQX",
           "underlying": "QQQ",
           "assetClass": "etf",
-          "issuer": "xStocks (Backed)",
-          "issuerBasis": "poolMeta",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "Xs8S1uUs1zvS2p7iwtsG3b6fkhpvmwz4GYU3gWAmWHZ"
         }
       ],
@@ -4225,8 +4373,9 @@
           "symbol": "NVDAX",
           "underlying": "NVDA",
           "assetClass": "equity",
-          "issuer": "xStocks (Backed)",
-          "issuerBasis": "poolMeta",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh"
         }
       ],
@@ -4303,8 +4452,9 @@
           "symbol": "AAPLX",
           "underlying": "AAPL",
           "assetClass": "equity",
-          "issuer": "xStocks (Backed)",
-          "issuerBasis": "poolMeta",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "XsbEhLAtcf6HdfpFZ5xEMdqW8nfAvcsP5bdudRLJzJp"
         }
       ],
@@ -4375,8 +4525,9 @@
           "symbol": "QQQX",
           "underlying": "QQQ",
           "assetClass": "etf",
-          "issuer": "xStocks (Backed)",
-          "issuerBasis": "poolMeta",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "Xs8S1uUs1zvS2p7iwtsG3b6fkhpvmwz4GYU3gWAmWHZ"
         }
       ],
@@ -4447,8 +4598,9 @@
           "symbol": "AMZNX",
           "underlying": "AMZN",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "address-prefix",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "Xs3eBt7uRfJX8QUs4suhyU8p2M6DoUDrJyWBa8LLZsg"
         }
       ],
@@ -4525,8 +4677,9 @@
           "symbol": "TSLAX",
           "underlying": "TSLA",
           "assetClass": "equity",
-          "issuer": "xStocks (Backed)",
-          "issuerBasis": "poolMeta",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "XsDoVfqeBukxuZHWhdvWHBhgEHjGNst4MLodqsJHzoB"
         }
       ],
@@ -4604,8 +4757,9 @@
           "symbol": "MSFTX",
           "underlying": "MSFT",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "address-prefix",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "XspzcW1PRtgf6Wj92HCiZdjzKCyFekVD8P5Ueh3dRMX"
         }
       ],
@@ -4682,8 +4836,9 @@
           "symbol": "TSLAON",
           "underlying": "TSLA",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "symbol-suffix",
+          "issuer": "Ondo",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://docs.ondo.finance/addresses",
           "address": "0xf6b1117ec07684d3958cad8beb1b302bfd21103f"
         }
       ],
@@ -4761,8 +4916,9 @@
           "symbol": "NVDAB",
           "underlying": "NVDA",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "symbol-suffix",
+          "issuer": "bStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://web3.binance.com/en/dev-docs/products/agentic-wallet/use-cases/campaigns/bstock-eligible-tokens",
           "address": "0x02fca66c1d1afb4e2a7884261eb00f63598a7436"
         }
       ],
@@ -4833,8 +4989,9 @@
           "symbol": "AAPLX",
           "underlying": "AAPL",
           "assetClass": "equity",
-          "issuer": "xStocks (Backed)",
-          "issuerBasis": "poolMeta",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "XsbEhLAtcf6HdfpFZ5xEMdqW8nfAvcsP5bdudRLJzJp"
         }
       ],
@@ -4911,8 +5068,9 @@
           "symbol": "SPCXX",
           "underlying": "SPCX",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "address-prefix",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "Xs3oZwbHvqis4NYcf4YKWmEia2eC84wSiVrcYcTqpH8"
         }
       ],
@@ -4973,8 +5131,9 @@
           "symbol": "SPYX",
           "underlying": "SPY",
           "assetClass": "etf",
-          "issuer": "xStocks (Backed)",
-          "issuerBasis": "poolMeta",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W"
         }
       ],
@@ -5052,8 +5211,9 @@
           "symbol": "NVDAON",
           "underlying": "NVDA",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "symbol-suffix",
+          "issuer": "Ondo",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://docs.ondo.finance/addresses",
           "address": "0x2d1f7226bd1f780af6b9a49dcc0ae00e8df4bdee"
         }
       ],
@@ -5114,8 +5274,9 @@
           "symbol": "SPY",
           "underlying": "SPY",
           "assetClass": "etf",
-          "issuer": "unverified",
-          "issuerBasis": "symbol-only",
+          "issuer": "Robinhood",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://docs.robinhood.com/chain/contracts/",
           "address": "0x117cc2133c37b721f49de2a7a74833232b3b4c0c"
         }
       ],
@@ -5192,8 +5353,9 @@
           "symbol": "GMEX",
           "underlying": "GME",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "address-prefix",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "Xsf9mBktVB9BSU5kf4nHxPq5hCBJ2j2ui3ecFGxPRGc"
         }
       ],
@@ -5256,6 +5418,85 @@
       }
     },
     {
+      "pool": "74c6dc29-f6d1-453b-bd06-e37417336385",
+      "symbol": "WTCOIN-USDC",
+      "project": "aerodrome-slipstream",
+      "chain": "Base",
+      "poolMeta": "CL200 - 0.3%",
+      "poolType": "cl",
+      "exposure": "multi",
+      "underlying": "COIN",
+      "quote": "stable",
+      "equityTokens": [
+        {
+          "symbol": "WTCOIN",
+          "underlying": "COIN",
+          "assetClass": "equity",
+          "issuer": "ST0x",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://www.st0x.io/faqs (issuer asset list; symbol() verified on Base RPC)",
+          "address": "0x5cda0e1ca4ce2af96315f7f8963c85399c172204"
+        }
+      ],
+      "tvlUsd": 283641,
+      "tier": 3,
+      "apyBase": 2.85,
+      "apyReward": 12.4,
+      "headlineApy": 15.25,
+      "apyMean30d": 262.81,
+      "honestProjection": 11.12,
+      "forecastBand": {
+        "p10": 4.92,
+        "p50": 102.42,
+        "p90": 275.32,
+        "horizonDays": 14,
+        "label": "experimental"
+      },
+      "ilRisk": "high",
+      "flags": [
+        "forcedHighIL",
+        "forecastAboveHeadline",
+        "thinLiquidity"
+      ],
+      "heuristicClip": {
+        "usd": 1418,
+        "method": "tvl-heuristic",
+        "depthFactor": 0.005,
+        "estimate": true
+      },
+      "defiScore": {
+        "score": 50.7,
+        "rating": "BBB",
+        "breakdown": {
+          "stability": 10,
+          "sustainability": 16.9,
+          "stickiness": 20.2,
+          "liquidity": 3.6
+        }
+      },
+      "onchain": {
+        "chain": "Base",
+        "chainId": 8453,
+        "poolAddress": null,
+        "poolAddressStrategy": "factory-getPool",
+        "ammType": "slipstream-cl",
+        "feeTierPct": 0.3,
+        "tickSpacing": 200,
+        "tokens": [
+          {
+            "address": "0x5cda0e1ca4ce2af96315f7f8963c85399c172204",
+            "role": "equity",
+            "symbol": "WTCOIN"
+          },
+          {
+            "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+            "role": "stable",
+            "symbol": null
+          }
+        ]
+      }
+    },
+    {
       "pool": "dd3a85f8-0963-40d1-bf6e-fa3a5c9f9507",
       "symbol": "SPCX-SPCXX",
       "project": "raydium-amm",
@@ -5270,16 +5511,18 @@
           "symbol": "SPCX",
           "underlying": "SPCX",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "corroborated-pair",
+          "issuer": "Backpack Securities",
+          "issuerBasis": "official-announcement",
+          "issuerSource": "https://x.com/Backpack/status/2065464739749323171",
           "address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb"
         },
         {
           "symbol": "SPCXX",
           "underlying": "SPCX",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "address-prefix",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "Xs3oZwbHvqis4NYcf4YKWmEia2eC84wSiVrcYcTqpH8"
         }
       ],
@@ -5356,8 +5599,9 @@
           "symbol": "NVDAX",
           "underlying": "NVDA",
           "assetClass": "equity",
-          "issuer": "xStocks (Backed)",
-          "issuerBasis": "poolMeta",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh"
         }
       ],
@@ -5434,8 +5678,9 @@
           "symbol": "QQQX",
           "underlying": "QQQ",
           "assetClass": "etf",
-          "issuer": "xStocks (Backed)",
-          "issuerBasis": "poolMeta",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "Xs8S1uUs1zvS2p7iwtsG3b6fkhpvmwz4GYU3gWAmWHZ"
         }
       ],
@@ -5506,8 +5751,9 @@
           "symbol": "TSLAX",
           "underlying": "TSLA",
           "assetClass": "equity",
-          "issuer": "xStocks (Backed)",
-          "issuerBasis": "poolMeta",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "XsDoVfqeBukxuZHWhdvWHBhgEHjGNst4MLodqsJHzoB"
         }
       ],
@@ -5578,8 +5824,9 @@
           "symbol": "SPCXB",
           "underlying": "SPCX",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "symbol-suffix",
+          "issuer": "bStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://web3.binance.com/en/dev-docs/products/agentic-wallet/use-cases/campaigns/bstock-eligible-tokens",
           "address": "0xbe9d156892e55e7154bcd3cb0fea677f9d3103e1"
         }
       ],
@@ -5650,8 +5897,9 @@
           "symbol": "TSLAON",
           "underlying": "TSLA",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "symbol-suffix",
+          "issuer": "Ondo",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://docs.ondo.finance/addresses",
           "address": "0xf6b1117ec07684d3958cad8beb1b302bfd21103f"
         }
       ],
@@ -5728,8 +5976,9 @@
           "symbol": "AAPLX",
           "underlying": "AAPL",
           "assetClass": "equity",
-          "issuer": "xStocks (Backed)",
-          "issuerBasis": "poolMeta",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "XsbEhLAtcf6HdfpFZ5xEMdqW8nfAvcsP5bdudRLJzJp"
         }
       ],
@@ -5806,8 +6055,9 @@
           "symbol": "MCDX",
           "underlying": "MCD",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "address-prefix",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "XsqE9cRRpzxcGKDXj1BJ7Xmg4GRhZoyY1KpmGSxAWT2"
         }
       ],
@@ -5884,8 +6134,9 @@
           "symbol": "NVDAC",
           "underlying": "NVDA",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "address-prefix",
+          "issuer": "Coinbase",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.coinbase.com/v1/tokenized-stocks",
           "address": "0xb20000000000000000000078ee7ce2fe4908108c"
         }
       ],
@@ -5947,8 +6198,9 @@
           "symbol": "STRCX",
           "underlying": "STRC",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "address-prefix",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "Xs78JED6PFZxWc2wCEPspZW9kL3Se5J7L5TChKgsidH"
         }
       ],
@@ -6025,8 +6277,9 @@
           "symbol": "CRCLX",
           "underlying": "CRCL",
           "assetClass": "equity",
-          "issuer": "xStocks (Backed)",
-          "issuerBasis": "poolMeta",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "XsueG8BtpquVJX9LVLLEGuViXUungE6WmK5YZ3p3bd1"
         }
       ],
@@ -6089,6 +6342,85 @@
       }
     },
     {
+      "pool": "37b9ea6e-da8f-5077-b084-a373fd784bd7",
+      "symbol": "WTSGOV-USDC",
+      "project": "aerodrome-slipstream",
+      "chain": "Base",
+      "poolMeta": "CL1 - 0.01%",
+      "poolType": "cl",
+      "exposure": "multi",
+      "underlying": "SGOV",
+      "quote": "stable",
+      "equityTokens": [
+        {
+          "symbol": "WTSGOV",
+          "underlying": "SGOV",
+          "assetClass": "etf",
+          "issuer": "ST0x",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://www.st0x.io/faqs (issuer asset list; symbol() verified on Base RPC)",
+          "address": "0x78c31580c97101694c70022c83d570150c11e935"
+        }
+      ],
+      "tvlUsd": 210339,
+      "tier": 3,
+      "apyBase": 0,
+      "apyReward": 4.45,
+      "headlineApy": 4.45,
+      "apyMean30d": 50.56,
+      "honestProjection": 2.97,
+      "forecastBand": {
+        "p10": 3.31,
+        "p50": 4.78,
+        "p90": 19.63,
+        "horizonDays": 14,
+        "label": "experimental"
+      },
+      "ilRisk": "high",
+      "flags": [
+        "forcedHighIL",
+        "forecastAboveHeadline",
+        "thinLiquidity"
+      ],
+      "heuristicClip": {
+        "usd": 1052,
+        "method": "tvl-heuristic",
+        "depthFactor": 0.005,
+        "estimate": true
+      },
+      "defiScore": {
+        "score": 37.6,
+        "rating": "HIGH RISK",
+        "breakdown": {
+          "stability": 0,
+          "sustainability": 13,
+          "stickiness": 21,
+          "liquidity": 3.6
+        }
+      },
+      "onchain": {
+        "chain": "Base",
+        "chainId": 8453,
+        "poolAddress": null,
+        "poolAddressStrategy": "factory-getPool",
+        "ammType": "slipstream-cl",
+        "feeTierPct": 0.01,
+        "tickSpacing": 1,
+        "tokens": [
+          {
+            "address": "0x78c31580c97101694c70022c83d570150c11e935",
+            "role": "equity",
+            "symbol": "WTSGOV"
+          },
+          {
+            "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+            "role": "stable",
+            "symbol": null
+          }
+        ]
+      }
+    },
+    {
       "pool": "db6e02ee-1dfc-51a0-aba6-e08f665a041f",
       "symbol": "RSPCX-USDC",
       "project": "uniswap-v3",
@@ -6103,8 +6435,9 @@
           "symbol": "RSPCX",
           "underlying": "SPCX",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "symbol-prefix",
+          "issuer": "Reality",
+          "issuerBasis": "onchain-beacon",
+          "issuerSource": "on-chain: BeaconUpgraded logs of the Reality beacon 0x9a570740faf9c77255e389a7bccb7d460a5f4948 on Arbitrum (arbitrum.blockscout.com getLogs)",
           "address": "0x5181b7dd097b42d7787ee78efab86f43d4e12f44"
         }
       ],
@@ -6182,8 +6515,9 @@
           "symbol": "SPCX",
           "underlying": "SPCX",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "corroborated-pair",
+          "issuer": "Backpack Securities",
+          "issuerBasis": "official-announcement",
+          "issuerSource": "https://x.com/Backpack/status/2065464739749323171",
           "address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb"
         }
       ],
@@ -6244,8 +6578,9 @@
           "symbol": "GLDX",
           "underlying": "GLD",
           "assetClass": "commodity-etf",
-          "issuer": "unverified",
-          "issuerBasis": "address-prefix",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "Xsv9hRk1z5ystj9MhnA7Lq4vjSsLwzL2nxrwmwtD3re"
         }
       ],
@@ -6322,8 +6657,9 @@
           "symbol": "RCRCL",
           "underlying": "CRCL",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "symbol-prefix",
+          "issuer": "Reality",
+          "issuerBasis": "onchain-beacon",
+          "issuerSource": "on-chain: BeaconUpgraded logs of the Reality beacon 0x9a570740faf9c77255e389a7bccb7d460a5f4948 on Arbitrum (arbitrum.blockscout.com getLogs)",
           "address": "0x861a85a78c371bc0a02675bbe00a4cbc0826b421"
         }
       ],
@@ -6401,8 +6737,9 @@
           "symbol": "RAAPL",
           "underlying": "AAPL",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "symbol-prefix",
+          "issuer": "Reality",
+          "issuerBasis": "onchain-beacon",
+          "issuerSource": "on-chain: BeaconUpgraded logs of the Reality beacon 0x9a570740faf9c77255e389a7bccb7d460a5f4948 on Arbitrum (arbitrum.blockscout.com getLogs)",
           "address": "0xaba5e0c80e9f58e391214689fb342049c0d31892"
         }
       ],
@@ -6480,8 +6817,9 @@
           "symbol": "SPCXB",
           "underlying": "SPCX",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "symbol-suffix",
+          "issuer": "bStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://web3.binance.com/en/dev-docs/products/agentic-wallet/use-cases/campaigns/bstock-eligible-tokens",
           "address": "0xbe9d156892e55e7154bcd3cb0fea677f9d3103e1"
         }
       ],
@@ -6558,8 +6896,9 @@
           "symbol": "RHOOD",
           "underlying": "HOOD",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "symbol-prefix",
+          "issuer": "Reality",
+          "issuerBasis": "onchain-beacon",
+          "issuerSource": "on-chain: BeaconUpgraded logs of the Reality beacon 0x9a570740faf9c77255e389a7bccb7d460a5f4948 on Arbitrum (arbitrum.blockscout.com getLogs)",
           "address": "0x485cb1ed5662a911eba7f8547eb9e253cf43b8ae"
         }
       ],
@@ -6623,6 +6962,86 @@
       }
     },
     {
+      "pool": "b16ae550-4668-53a3-9665-3d014af39c66",
+      "symbol": "USDT-MCDON",
+      "project": "uniswap-v4",
+      "chain": "BSC",
+      "poolMeta": "5.09%",
+      "poolType": "cl",
+      "exposure": "multi",
+      "underlying": "MCD",
+      "quote": "stable",
+      "equityTokens": [
+        {
+          "symbol": "MCDON",
+          "underlying": "MCD",
+          "assetClass": "equity",
+          "issuer": "Ondo",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://docs.ondo.finance/addresses",
+          "address": "0x995add4ba29a628a57930a8a185c62ca044ec090"
+        }
+      ],
+      "tvlUsd": 177451,
+      "tier": 3,
+      "apyBase": 0.26,
+      "apyReward": 0,
+      "headlineApy": 0.26,
+      "apyMean30d": 986.15,
+      "honestProjection": 0.26,
+      "forecastBand": {
+        "p10": 3.08,
+        "p50": 25.6,
+        "p90": 1049.32,
+        "horizonDays": 14,
+        "label": "experimental"
+      },
+      "ilRisk": "high",
+      "flags": [
+        "forcedHighIL",
+        "forecastAboveHeadline",
+        "nearZeroYield",
+        "thinLiquidity"
+      ],
+      "heuristicClip": {
+        "usd": 887,
+        "method": "tvl-heuristic",
+        "depthFactor": 0.005,
+        "estimate": true
+      },
+      "defiScore": {
+        "score": 59.7,
+        "rating": "A",
+        "breakdown": {
+          "stability": 10,
+          "sustainability": 25,
+          "stickiness": 21.1,
+          "liquidity": 3.6
+        }
+      },
+      "onchain": {
+        "chain": "BSC",
+        "chainId": 56,
+        "poolAddress": null,
+        "poolAddressStrategy": "v4-pool-id",
+        "ammType": "uniswap-v4",
+        "feeTierPct": 5.09,
+        "tickSpacing": null,
+        "tokens": [
+          {
+            "address": "0x55d398326f99059ff775485246999027b3197955",
+            "role": "stable",
+            "symbol": null
+          },
+          {
+            "address": "0x995add4ba29a628a57930a8a185c62ca044ec090",
+            "role": "equity",
+            "symbol": "MCDON"
+          }
+        ]
+      }
+    },
+    {
       "pool": "5877c8cd-f400-4dec-a998-2b54a6676c5c",
       "symbol": "AVGOX-USDC",
       "project": "raydium-amm",
@@ -6637,8 +7056,9 @@
           "symbol": "AVGOX",
           "underlying": "AVGO",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "address-prefix",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "XsgSaSvNSqLTtFuyWPBhK9196Xb9Bbdyjj4fH3cPJGo"
         }
       ],
@@ -6715,8 +7135,9 @@
           "symbol": "SPCXON",
           "underlying": "SPCX",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "symbol-suffix",
+          "issuer": "Ondo",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://docs.ondo.finance/addresses",
           "address": "0xc9eef266834730340a55b6cc24621b31baf55581"
         }
       ],
@@ -6777,8 +7198,9 @@
           "symbol": "GLDX",
           "underlying": "GLD",
           "assetClass": "commodity-etf",
-          "issuer": "unverified",
-          "issuerBasis": "address-prefix",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "Xsv9hRk1z5ystj9MhnA7Lq4vjSsLwzL2nxrwmwtD3re"
         }
       ],
@@ -6855,8 +7277,9 @@
           "symbol": "NVDAC",
           "underlying": "NVDA",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "address-prefix",
+          "issuer": "Coinbase",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.coinbase.com/v1/tokenized-stocks",
           "address": "0xb20000000000000000000078ee7ce2fe4908108c"
         }
       ],
@@ -6933,8 +7356,9 @@
           "symbol": "NVDAX",
           "underlying": "NVDA",
           "assetClass": "equity",
-          "issuer": "xStocks (Backed)",
-          "issuerBasis": "poolMeta",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh"
         }
       ],
@@ -7005,8 +7429,9 @@
           "symbol": "GOOGLB",
           "underlying": "GOOGL",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "symbol-suffix",
+          "issuer": "bStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://web3.binance.com/en/dev-docs/products/agentic-wallet/use-cases/campaigns/bstock-eligible-tokens",
           "address": "0x3f53de71c126bdabae20f9cd64848d317f6c3238"
         }
       ],
@@ -7083,8 +7508,9 @@
           "symbol": "SPCX",
           "underlying": "SPCX",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "corroborated-pair",
+          "issuer": "Backpack Securities",
+          "issuerBasis": "official-announcement",
+          "issuerSource": "https://x.com/Backpack/status/2065464739749323171",
           "address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb"
         }
       ],
@@ -7145,8 +7571,9 @@
           "symbol": "SLVON",
           "underlying": "SLV",
           "assetClass": "commodity-etf",
-          "issuer": "unverified",
-          "issuerBasis": "symbol-suffix",
+          "issuer": "Ondo",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://docs.ondo.finance/addresses",
           "address": "0xf3e4872e6a4cf365888d93b6146a2baa7348f1a4"
         }
       ],
@@ -7210,6 +7637,85 @@
       }
     },
     {
+      "pool": "036a5d36-9d52-5616-9acb-cb54d34939a3",
+      "symbol": "WNVDAX-USDC",
+      "project": "nest-cl",
+      "chain": "Hyperliquid L1",
+      "poolMeta": "0.3%",
+      "poolType": "cl",
+      "exposure": "multi",
+      "underlying": "NVDA",
+      "quote": "stable",
+      "equityTokens": [
+        {
+          "symbol": "WNVDAX",
+          "underlying": "NVDA",
+          "assetClass": "equity",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets (field wrapperAddressV2)",
+          "address": "0xa8ddb5cd96b5222afe198316e9a57caa642850d5"
+        }
+      ],
+      "tvlUsd": 126523,
+      "tier": 3,
+      "apyBase": 0,
+      "apyReward": 23.54,
+      "headlineApy": 23.54,
+      "apyMean30d": 59.82,
+      "honestProjection": 15.69,
+      "forecastBand": {
+        "p10": 16.43,
+        "p50": 34.32,
+        "p90": 79.24,
+        "horizonDays": 14,
+        "label": "experimental"
+      },
+      "ilRisk": "high",
+      "flags": [
+        "forcedHighIL",
+        "forecastAboveHeadline",
+        "thinLiquidity"
+      ],
+      "heuristicClip": {
+        "usd": 633,
+        "method": "tvl-heuristic",
+        "depthFactor": 0.005,
+        "estimate": true
+      },
+      "defiScore": {
+        "score": 49.9,
+        "rating": "BBB",
+        "breakdown": {
+          "stability": 10,
+          "sustainability": 15,
+          "stickiness": 21.2,
+          "liquidity": 3.6
+        }
+      },
+      "onchain": {
+        "chain": "Hyperliquid L1",
+        "chainId": null,
+        "poolAddress": null,
+        "poolAddressStrategy": "unknown",
+        "ammType": "unknown",
+        "feeTierPct": 0.3,
+        "tickSpacing": null,
+        "tokens": [
+          {
+            "address": "0xa8ddb5cd96b5222afe198316e9a57caa642850d5",
+            "role": "equity",
+            "symbol": "WNVDAX"
+          },
+          {
+            "address": "0xb88339cb7199b77e23db6e890353e22632ba630f",
+            "role": "stable",
+            "symbol": null
+          }
+        ]
+      }
+    },
+    {
       "pool": "06244737-82e1-41f3-b178-80a17165219c",
       "symbol": "PLTRX-USDC",
       "project": "orca-dex",
@@ -7224,8 +7730,9 @@
           "symbol": "PLTRX",
           "underlying": "PLTR",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "address-prefix",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "XsoBhf2ufR8fTyNSjqfU71DYGaE6Z3SUGAidpzriAA4"
         }
       ],
@@ -7302,8 +7809,9 @@
           "symbol": "SPCXX",
           "underlying": "SPCX",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "address-prefix",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "Xs3oZwbHvqis4NYcf4YKWmEia2eC84wSiVrcYcTqpH8"
         }
       ],
@@ -7364,8 +7872,9 @@
           "symbol": "COINX",
           "underlying": "COIN",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "address-prefix",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "Xs7ZdzSHLU9ftNJsii5fCeJhoRWSC32SQGzGQtePxNu"
         }
       ],
@@ -7442,8 +7951,9 @@
           "symbol": "QQQX",
           "underlying": "QQQ",
           "assetClass": "etf",
-          "issuer": "xStocks (Backed)",
-          "issuerBasis": "poolMeta",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "Xs8S1uUs1zvS2p7iwtsG3b6fkhpvmwz4GYU3gWAmWHZ"
         }
       ],
@@ -7520,8 +8030,9 @@
           "symbol": "GLDX",
           "underlying": "GLD",
           "assetClass": "commodity-etf",
-          "issuer": "unverified",
-          "issuerBasis": "address-prefix",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "Xsv9hRk1z5ystj9MhnA7Lq4vjSsLwzL2nxrwmwtD3re"
         }
       ],
@@ -7598,8 +8109,9 @@
           "symbol": "NVDAX",
           "underlying": "NVDA",
           "assetClass": "equity",
-          "issuer": "xStocks (Backed)",
-          "issuerBasis": "poolMeta",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh"
         }
       ],
@@ -7676,8 +8188,9 @@
           "symbol": "GOOGLX",
           "underlying": "GOOGL",
           "assetClass": "equity",
-          "issuer": "xStocks (Backed)",
-          "issuerBasis": "poolMeta",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "XsCPL9dNWBMvFtTmwcCA5v3xWPSMEBCszbQdiLLq6aN"
         }
       ],
@@ -7738,8 +8251,9 @@
           "symbol": "STRCX",
           "underlying": "STRC",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "symbol-only",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "0x1aad217b8f78dba5e6693460e8470f8b1a3977f3"
         }
       ],
@@ -7800,8 +8314,9 @@
           "symbol": "NVDAC",
           "underlying": "NVDA",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "address-prefix",
+          "issuer": "Coinbase",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.coinbase.com/v1/tokenized-stocks",
           "address": "0xb20000000000000000000078ee7ce2fe4908108c"
         }
       ],
@@ -7879,8 +8394,9 @@
           "symbol": "BRK.BX",
           "underlying": "BRK.B",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "address-prefix",
+          "issuer": "xStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
           "address": "Xs6B6zawENwAbWVi7w92rjazLuAr5Az59qgWKcNb45x"
         }
       ],
@@ -7957,8 +8473,9 @@
           "symbol": "SPYB",
           "underlying": "SPY",
           "assetClass": "etf",
-          "issuer": "unverified",
-          "issuerBasis": "symbol-suffix",
+          "issuer": "bStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://web3.binance.com/en/dev-docs/products/agentic-wallet/use-cases/campaigns/bstock-eligible-tokens",
           "address": "0x7138b48df7d98d7e3cc221bfe7192d0a178182d8"
         }
       ],
@@ -8028,8 +8545,9 @@
           "symbol": "AAPLB",
           "underlying": "AAPL",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "symbol-suffix",
+          "issuer": "bStocks",
+          "issuerBasis": "official-registry",
+          "issuerSource": "https://web3.binance.com/en/dev-docs/products/agentic-wallet/use-cases/campaigns/bstock-eligible-tokens",
           "address": "0x431a3bee82e2ca41e49895cbece5bb0f76a89b7a"
         }
       ],
@@ -8106,8 +8624,9 @@
           "symbol": "SPCX",
           "underlying": "SPCX",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "corroborated-pair",
+          "issuer": "Backpack Securities",
+          "issuerBasis": "official-announcement",
+          "issuerSource": "https://x.com/Backpack/status/2065464739749323171",
           "address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb"
         }
       ],
@@ -8168,8 +8687,9 @@
           "symbol": "SPCX",
           "underlying": "SPCX",
           "assetClass": "equity",
-          "issuer": "unverified",
-          "issuerBasis": "corroborated-pair",
+          "issuer": "Backpack Securities",
+          "issuerBasis": "official-announcement",
+          "issuerSource": "https://x.com/Backpack/status/2065464739749323171",
           "address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb"
         }
       ],
@@ -8312,6 +8832,14 @@
       "project": "raydium-amm",
       "chain": "Solana",
       "tvlUsd": 153193,
+      "reason": "unrecognized-counterparty"
+    },
+    {
+      "pool": "169a6e74-2643-50f4-a41e-f7047343efa6",
+      "symbol": "WTSPYM-STONX",
+      "project": "uniswap-v4",
+      "chain": "Base",
+      "tvlUsd": 243181,
       "reason": "unrecognized-counterparty"
     },
     {
