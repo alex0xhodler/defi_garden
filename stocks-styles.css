@@ -120,6 +120,9 @@
 .stocks-spot-facts dd { margin: 2px 0 0; font-size: 13px; color: var(--ui-text); overflow-wrap: anywhere; }
 .stocks-spot-card .stocks-action { margin-top: auto; align-self: stretch; }
 
+/* ── Live-data status line ── */
+.stocks-live-note { margin: -4px 0 8px; font-size: 12px; line-height: 1.45; color: var(--ui-text-muted); }
+
 /* ── Filters ── */
 .stocks-filters { display: flex; flex-direction: column; gap: 10px; margin: 6px 0 14px; }
 .stocks-filter-group { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
@@ -164,7 +167,7 @@
 .stocks-th-btn:hover, .stocks-th-btn.is-active { color: var(--ui-accent); }
 .stocks-th-btn:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); border-radius: 2px; }
 
-.stocks-pair-cell, .stocks-chain-cell, .stocks-score, .stocks-apy-cell, .stocks-tvl-cell, .stocks-clip-cell {
+.stocks-pair-cell, .stocks-chain-cell, .stocks-score, .stocks-apy-cell, .stocks-price-cell, .stocks-tvl-cell, .stocks-clip-cell {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -175,6 +178,10 @@
 .stocks-sub { font-size: 12px; line-height: 1.4; color: var(--ui-text-secondary); }
 .stocks-muted { font-size: 13px; color: var(--ui-text-muted); }
 .stocks-chain, .stocks-tvl, .stocks-clip { font-weight: 600; }
+.stocks-price { font-size: 15px; font-weight: 600; }
+.stocks-drift { font-weight: 600; color: var(--ui-text-secondary); }
+/* A move of 1.5% or more since the close: same hairline chip treatment, accent text, no glow. */
+.stocks-drift.is-notable { color: var(--ui-accent); }
 .stocks-score-num { font-size: 16px; font-weight: 700; }
 .stocks-apy-num {
   font-family: var(--font-family-display);

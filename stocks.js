@@ -12,10 +12,12 @@
  *      market-clock strip, notice, aggregates, spotlight, filterable terminal
  *      table, collateral markets, method notes.
  *
- * Phase 4 will add live on-chain data (price, measured 50 bps clip, weekend
- * drift). Rows are built from one `PoolRow` model so a price/drift cell can be
- * added without touching the logic layer; today the clip is the TVL heuristic
- * and is always labelled "Est.".
+ * Live layer (Phase 4): /api/stocks-onchain is fetched once on load and every
+ * 60s while the tab is visible. It adds the token price, the after-hours move
+ * ("vs last close", only while the US market is closed) and an on-chain +-2%
+ * depth where the pool address is derivable. Every live field is optional: while
+ * it loads, or when it fails, the page keeps rendering from the snapshot and the
+ * depth cell keeps the labelled TVL estimate.
  */
 (function (root) {
   'use strict';
@@ -36,12 +38,21 @@
   var ISSUER_SEP = ' + ';
   var SORTS = ['default', 'proj', 'tvl', 'score'];
   var DASH = '—';
+  var LIVE_URL = '/api/stocks-onchain';
+  var LIVE_REFRESH_MS = 60000;
+  var LIVE_TIMEOUT_MS = 8000;
+  // A move bigger than this since the close gets the emphasised drift style.
+  var DRIFT_NOTABLE_PCT = 1.5;
+  var DRIFT_SOURCES = ['pyth', 'defillama-token'];
 
   var NF_PCT = new Intl.NumberFormat('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
   var NF_COMPACT_2 = new Intl.NumberFormat('en-US', { notation: 'compact', maximumFractionDigits: 2 });
   var NF_COMPACT_1 = new Intl.NumberFormat('en-US', { notation: 'compact', maximumFractionDigits: 1 });
   var NF_INT = new Intl.NumberFormat('en-US', { maximumFractionDigits: 0 });
   var NF_SCORE = new Intl.NumberFormat('en-US', { maximumFractionDigits: 1 });
+  var NF_PRICE = new Intl.NumberFormat('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  var NF_PRICE_SMALL = new Intl.NumberFormat('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 4 });
+  var NF_DRIFT = new Intl.NumberFormat('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2, signDisplay: 'exceptZero' });
 
   function isNum(v) { return typeof v === 'number' && isFinite(v); }
 
@@ -50,6 +61,8 @@
   function fmtUsdShort(v, dash) { return isNum(v) ? '$' + NF_COMPACT_1.format(v) : (dash || DASH); }
   function fmtInt(v, dash) { return isNum(v) ? NF_INT.format(v) : (dash || DASH); }
   function fmtScore(v, dash) { return isNum(v) ? NF_SCORE.format(v) : (dash || DASH); }
+  function fmtPrice(v, dash) { return isNum(v) && v > 0 ? '$' + (v < 1 ? NF_PRICE_SMALL : NF_PRICE).format(v) : (dash || DASH); }
+  function fmtDrift(v, dash) { return isNum(v) ? NF_DRIFT.format(v) + '%' : (dash || DASH); }
 
   // A date as "Oct 12, 2026" (en-US pinned, like every other number on the site).
   function fmtDate(iso) {
@@ -246,8 +259,48 @@
 
   function poolHref(id) { return '/?pool=' + encodeURIComponent(id); }
 
+  // ---- live layer (api/stocks-onchain) ----
+
+  // Keep only finite, well-typed live fields, keyed by pool id. Anything else is
+  // dropped so a render path can never print NaN or an unlabelled number.
+  function normalizeLive(raw) {
+    if (!raw || !Array.isArray(raw.pools) || !raw.market || typeof raw.market !== 'object') return null;
+    var byId = {};
+    var depthCount = 0;
+    raw.pools.forEach(function (p) {
+      if (!p || typeof p.pool !== 'string' || !p.pool) return;
+      var src = p.driftRef && DRIFT_SOURCES.indexOf(p.driftRef.source) >= 0 ? p.driftRef.source : null;
+      var depth = p.depthSource === 'rpc' && isNum(p.depth2pct) && p.depth2pct >= 0 ? p.depth2pct : null;
+      if (depth !== null) depthCount += 1;
+      byId[p.pool] = {
+        price: isNum(p.price) && p.price > 0 ? p.price : null,
+        priceTs: typeof p.priceTs === 'string' ? p.priceTs : null,
+        drift: src && isNum(p.drift) ? p.drift : null,
+        driftSource: src,
+        depth: depth,
+        depthCapped: depth !== null && p.depthCapped === true
+      };
+    });
+    return {
+      generatedAt: typeof raw.generatedAt === 'string' ? raw.generatedAt : null,
+      market: { isRegularSession: raw.market.isRegularSession === true, calendarStale: raw.market.calendarStale === true },
+      byId: byId,
+      depthCount: depthCount
+    };
+  }
+
+  // After-hours move is shown only while the US regular session is closed, per
+  // BOTH the server's session state and this browser's own market clock.
+  function driftVisible(live, entry, clientState) {
+    if (!live || !entry || !isNum(entry.drift)) return false;
+    if (live.market.isRegularSession || live.market.calendarStale) return false;
+    return clientState !== 'open';
+  }
+
   var logic = {
     DATA_URL: DATA_URL, EQUITY_APY_CAP: EQUITY_APY_CAP, MIN_TVL: MIN_TVL, SORTS: SORTS, DASH: DASH,
+    LIVE_URL: LIVE_URL, DRIFT_NOTABLE_PCT: DRIFT_NOTABLE_PCT, normalizeLive: normalizeLive, driftVisible: driftVisible,
+    fmtPrice: fmtPrice, fmtDrift: fmtDrift,
     isNum: isNum, fmtPct: fmtPct, fmtUsd: fmtUsd, fmtUsdShort: fmtUsdShort, fmtInt: fmtInt, fmtScore: fmtScore,
     fmtDate: fmtDate, fmtDateTime: fmtDateTime,
     isValidPool: isValidPool, normalizePool: normalizePool, sanitizePools: sanitizePools,
@@ -549,11 +602,39 @@
     );
   }
 
+  // Depth: the on-chain +-2% figure when the live layer measured it, otherwise the
+  // TVL-based estimate with its own label. The two are never mixed in one label.
   function ClipCell(props) {
-    var p = props.pool, copy = props.copy;
-    return e('div', { className: 'stocks-clip-cell' },
+    var p = props.pool, copy = props.copy, live = props.live;
+    if (live && isNum(live.depth)) {
+      var tip = copy.depthTip + (live.depthCapped ? ' ' + copy.depthCappedNote : '');
+      return e('div', { className: 'stocks-clip-cell', 'data-source': 'rpc' },
+        e('span', { className: 'stocks-clip' }, fmtUsdShort(live.depth, copy.dash)),
+        e('span', { className: 'stocks-sub' }, e(Tip, { text: tip }, copy.depthOnchain))
+      );
+    }
+    return e('div', { className: 'stocks-clip-cell', 'data-source': 'heuristic' },
       e('span', { className: 'stocks-clip' }, fmtUsdShort(p.clip, copy.dash)),
       e('span', { className: 'stocks-sub' }, e(Tip, { text: props.tip || copy.clipTip }, copy.clipEst))
+    );
+  }
+
+  // Token price from the live layer, plus the after-hours move once the US market
+  // is closed. With no live data the cell is a dash; it never invents a value.
+  function PriceCell(props) {
+    var copy = props.copy, live = props.live;
+    if (!live || !isNum(live.price)) {
+      return e('div', { className: 'stocks-price-cell', 'data-state': props.loading ? 'loading' : 'none' },
+        e('span', { className: 'stocks-muted' }, copy.dash));
+    }
+    var when = live.priceTs ? fmtDateTime(new Date(live.priceTs)) : copy.dash;
+    var drift = props.showDrift ? e('span', {
+      className: 'stocks-sub stocks-drift' + (Math.abs(live.drift) >= DRIFT_NOTABLE_PCT ? ' is-notable' : ''),
+      'data-testid': 'stocks-drift'
+    }, e(Tip, { text: live.driftSource === 'pyth' ? copy.driftTipUnderlying : copy.driftTipToken }, copy.driftVsClose(fmtDrift(live.drift, copy.dash)))) : null;
+    return e('div', { className: 'stocks-price-cell', 'data-state': 'ready' },
+      e(Tip, { text: copy.priceTip(when), label: copy.colPrice }, e('span', { className: 'stocks-price', 'data-testid': 'stocks-price' }, fmtPrice(live.price, copy.dash))),
+      drift
     );
   }
 
@@ -603,18 +684,21 @@
         e('th', { scope: 'col', className: 'dt-panel-label' }, copy.colChain),
         e(SortHeader, { label: copy.colScore, sortKey: 'score', sort: props.sort, onSort: props.onSort }),
         e(SortHeader, { label: copy.colApy, sortKey: 'proj', sort: props.sort, onSort: props.onSort }),
+        e('th', { scope: 'col', className: 'dt-panel-label' }, copy.colPrice),
         e(SortHeader, { label: copy.colTvl, sortKey: 'tvl', sort: props.sort, onSort: props.onSort }),
         e('th', { scope: 'col', className: 'dt-panel-label' }, copy.colClip),
         e('th', { scope: 'col', className: 'dt-panel-label' }, copy.colAction)
       )),
       e('tbody', null, props.pools.map(function (p) {
+        var lv = props.live ? props.live.byId[p.id] || null : null;
         return e('tr', { key: p.id, 'data-testid': 'stocks-row', 'data-tier': p.tier },
           e('td', { className: 'stocks-td-pair' }, e(PairCell, { pool: p, copy: copy, redemption: true })),
           e('td', { 'data-label': copy.colChain }, e(IssuerCell, { pool: p, copy: copy })),
           e('td', { 'data-label': copy.colScore }, e(ScoreCell, { pool: p, copy: copy })),
           e('td', { 'data-label': copy.colApy }, e(ApyCell, { pool: p, copy: copy, forecastNote: props.forecastNote })),
+          e('td', { 'data-label': copy.colPrice }, e(PriceCell, { copy: copy, live: lv, loading: props.liveLoading, showDrift: driftVisible(props.live, lv, props.clientState) })),
           e('td', { 'data-label': copy.colTvl }, e(TvlCell, { pool: p, copy: copy, tierMin: props.tierMin })),
-          e('td', { 'data-label': copy.colClip }, e(ClipCell, { pool: p, copy: copy })),
+          e('td', { 'data-label': copy.colClip }, e(ClipCell, { pool: p, copy: copy, live: lv })),
           e('td', { className: 'stocks-td-action' }, e(ActionLink, { pool: p, copy: copy, source: 'terminal' }))
         );
       }))
@@ -652,6 +736,14 @@
     }, props.children);
   }
 
+  function leadDepth(lead, live, copy) {
+    var lv = live ? live.byId[lead.id] : null;
+    if (lv && isNum(lv.depth)) {
+      return [fmtUsdShort(lv.depth, copy.dash) + ' ', e('span', { key: 's', className: 'stocks-sub' }, e(Tip, { text: copy.depthTip + (lv.depthCapped ? ' ' + copy.depthCappedNote : '') }, copy.depthOnchain))];
+    }
+    return [fmtUsdShort(lead.clip, copy.dash) + ' ', e('span', { key: 's', className: 'stocks-sub' }, e(Tip, { text: copy.clipTip }, copy.clipEst))];
+  }
+
   function Spotlight(props) {
     var copy = props.copy;
     if (!props.items.length) return null;
@@ -672,7 +764,7 @@
             e('div', null, e('dt', null, copy.spotLead), e('dd', null, g.lead.symbol + ' · ' + g.lead.project + ' · ' + g.lead.chain)),
             g.lead.issuer ? e('div', null, e('dt', null, copy.spotIssuer), e('dd', null, e(Tip, { text: issuerTipText(g.lead.issuerInfo, copy) }, g.lead.issuer))) : null,
             e('div', null, e('dt', null, copy.spotTvl), e('dd', null, fmtUsd(g.tvl, copy.dash))),
-            e('div', null, e('dt', null, copy.colClip), e('dd', null, fmtUsdShort(g.lead.clip, copy.dash) + ' ', e('span', { className: 'stocks-sub' }, e(Tip, { text: copy.clipTip }, copy.clipEst))))
+            e('div', null, e('dt', null, copy.colClip), e('dd', null, leadDepth(g.lead, props.live, copy)))
           ),
           e(ActionLink, { pool: g.lead, copy: copy, source: 'spotlight' })
         );
@@ -691,6 +783,7 @@
       copy.notesCap(fmtPct(EQUITY_APY_CAP, dash).replace('.00', ''), fmtUsd(MIN_TVL, dash), fmtInt(data.excluded, dash)),
       copy.notesScore,
       copy.notesClip,
+      copy.notesLive,
       copy.notesIssuer,
       props.forecastNote
     ];
@@ -705,6 +798,65 @@
       return copy.forecastEval(fmtInt(forecast.eval.baselineWins, copy.dash), fmtInt(forecast.eval.runs, copy.dash));
     }
     return copy.forecastEvalGeneric;
+  }
+
+  // ---- live layer hook ----
+
+  // Fetches /api/stocks-onchain on mount and every minute while the tab is
+  // visible. A failed refresh keeps the last good data (status 'stale'); with no
+  // data at all the status is 'error' and the page runs on snapshot values.
+  function useLive() {
+    var state = useState({ status: 'loading', live: null });
+    var s = state[0];
+    var setS = state[1];
+    useEffect(function () {
+      var cancelled = false;
+      var inflight = false;
+      var last = 0;
+      function load() {
+        if (inflight) return;
+        inflight = true;
+        var ctl = typeof root.AbortController === 'function' ? new root.AbortController() : null;
+        var timer = ctl ? root.setTimeout(function () { ctl.abort(); }, LIVE_TIMEOUT_MS) : null;
+        root.fetch(LIVE_URL, ctl ? { signal: ctl.signal } : undefined)
+          .then(function (res) { if (!res.ok) throw new Error('stocks-onchain ' + res.status); return res.json(); })
+          .then(function (raw) {
+            var live = normalizeLive(raw);
+            if (!live) throw new Error('stocks-onchain shape');
+            if (!cancelled) setS({ status: 'ready', live: live });
+          })
+          .catch(function () {
+            if (!cancelled) setS(function (prev) { return prev.live ? { status: 'stale', live: prev.live } : { status: 'error', live: null }; });
+          })
+          .then(function () {
+            inflight = false;
+            last = Date.now();
+            if (timer) root.clearTimeout(timer);
+          });
+      }
+      function onVisibility() { if (!root.document.hidden && Date.now() - last >= LIVE_REFRESH_MS) load(); }
+      var interval = root.setInterval(function () { if (!root.document.hidden) load(); }, LIVE_REFRESH_MS);
+      root.document.addEventListener('visibilitychange', onVisibility);
+      load();
+      return function () {
+        cancelled = true;
+        root.clearInterval(interval);
+        root.document.removeEventListener('visibilitychange', onVisibility);
+      };
+    }, []);
+    return s;
+  }
+
+  function LiveNote(props) {
+    var copy = props.copy, s = props.state;
+    var text;
+    if (s.status === 'loading') text = copy.liveLoading;
+    else if (s.status === 'error') text = copy.liveError;
+    else {
+      var at = s.live.generatedAt ? fmtDateTime(new Date(s.live.generatedAt)) : copy.dash;
+      text = s.status === 'stale' ? copy.liveStale(at) : copy.liveReady(at, fmtInt(s.live.depthCount, copy.dash), fmtInt(props.total, copy.dash));
+    }
+    return e('p', { className: 'stocks-live-note', role: 'status', 'data-testid': 'stocks-live-note', 'data-state': s.status }, text);
   }
 
   function Page(props) {
@@ -771,6 +923,11 @@
     var collRows = useMemo(function () { return sortPools(visible.filter(function (p) { return !isYieldPool(p); }), 'default'); }, [visible]);
     var forecastNote = forecastNoteFor(copy, data.forecast);
     var tierMin = data.rails.tierMinTvl || {};
+    var liveState = useLive();
+    var live = liveState.live;
+    // The browser's own market clock gates the after-hours move too, so a cached
+    // server response can never show a "vs last close" move once the session opens.
+    var clientState = root.StocksMarketClock ? root.StocksMarketClock.getMarketState(new Date()).state : null;
 
     var chainCounts = chains;
     var sortOptions = [
@@ -803,10 +960,11 @@
             e('div', { className: 'dt-metric-name' }, e(Tip, { text: copy.statMedianHint }, copy.statMedian)),
             e('div', { className: 'dt-metric-val' }, fmtPct(agg.medianProj, copy.dash)))
         ),
-        e(Spotlight, { items: spots, copy: copy }),
+        e(Spotlight, { items: spots, copy: copy, live: live }),
         e('section', { className: 'stocks-section', 'aria-labelledby': 'stocks-terminal-h' },
           e('h2', { id: 'stocks-terminal-h', className: 'stocks-h2' }, copy.terminalTitle),
           e('p', { className: 'stocks-section-sub' }, copy.terminalSub),
+          e(LiveNote, { copy: copy, state: liveState, total: data.pools.filter(isYieldPool).length }),
           e('div', { className: 'stocks-filters', 'data-testid': 'stocks-filters' },
             e('div', { className: 'stocks-filter-group', role: 'group', 'aria-label': copy.filterChain },
               e('span', { className: 'dt-panel-label stocks-filter-label' }, copy.filterChain),
@@ -829,7 +987,7 @@
               })
             )
           ),
-          yieldRows.length ? e(YieldTable, { pools: yieldRows, copy: copy, sort: filters.sort, onSort: function (s) { updateFilters({ sort: s }); }, tierMin: tierMin, forecastNote: forecastNote }) : null
+          yieldRows.length ? e(YieldTable, { pools: yieldRows, copy: copy, sort: filters.sort, onSort: function (s) { updateFilters({ sort: s }); }, tierMin: tierMin, forecastNote: forecastNote, live: live, liveLoading: liveState.status === 'loading', clientState: clientState }) : null
         ),
         collRows.length ? e('section', { className: 'stocks-section', 'aria-labelledby': 'stocks-coll-h', 'data-testid': 'stocks-collateral' },
           e('h2', { id: 'stocks-coll-h', className: 'stocks-h2' }, copy.collTitle),

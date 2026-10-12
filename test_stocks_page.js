@@ -180,6 +180,67 @@ check('i18n: function entries take pre-formatted strings and never print undefin
   });
 });
 
+check('live layer: normalizeLive keeps only finite, typed fields and never trusts an unknown drift source', () => {
+  const raw = {
+    generatedAt: '2026-10-10T15:00:00.000Z', market: { isRegularSession: false, state: 'weekend' },
+    pools: [
+      { pool: 'a', price: 229.57, priceTs: '2026-10-10T14:58:00.000Z', drift: 2.22, driftRef: { source: 'defillama-token', kind: 'last-close' }, depth2pct: 123456, depthSource: 'rpc', depthCapped: true },
+      { pool: 'b', price: NaN, drift: 1, driftRef: { source: 'made-up' }, depth2pct: 5, depthSource: 'heuristic' },
+      { pool: 'c', price: -3, drift: null, depth2pct: NaN, depthSource: 'rpc' },
+      { price: 1 }, null
+    ]
+  };
+  const live = logic.normalizeLive(raw);
+  assert.deepStrictEqual(Object.keys(live.byId), ['a', 'b', 'c']);
+  assert.deepStrictEqual(live.byId.a, { price: 229.57, priceTs: '2026-10-10T14:58:00.000Z', drift: 2.22, driftSource: 'defillama-token', depth: 123456, depthCapped: true });
+  assert.strictEqual(live.byId.b.price, null);
+  assert.strictEqual(live.byId.b.drift, null, 'an unknown reference source drops the drift');
+  assert.strictEqual(live.byId.b.depth, null, 'a heuristic depth is never shown as on-chain');
+  assert.strictEqual(live.byId.c.depth, null);
+  assert.strictEqual(live.depthCount, 1);
+  assert.strictEqual(logic.normalizeLive(null), null);
+  assert.strictEqual(logic.normalizeLive({ pools: [] }), null);
+  assert.strictEqual(logic.normalizeLive({ market: {}, pools: 'x' }), null);
+});
+
+check('live layer: price and drift formatting is en-US, signed and dashes missing values', () => {
+  assert.strictEqual(logic.fmtPrice(229.5681), '$229.57');
+  assert.strictEqual(logic.fmtPrice(1478.185), '$1,478.19');
+  assert.strictEqual(logic.fmtPrice(0.12345), '$0.1235');
+  assert.strictEqual(logic.fmtPrice(0), '—');
+  assert.strictEqual(logic.fmtPrice(NaN), '—');
+  assert.strictEqual(logic.fmtDrift(2.222), '+2.22%');
+  assert.strictEqual(logic.fmtDrift(-1.5), '-1.50%');
+  assert.strictEqual(logic.fmtDrift(0.001), '0.00%');
+  assert.strictEqual(logic.fmtDrift(null), '—');
+});
+
+check('live layer: the after-hours move shows only when BOTH the server and this browser say the session is closed', () => {
+  const entry = { drift: 1.8 };
+  const closed = { market: { isRegularSession: false, calendarStale: false } };
+  assert.ok(logic.driftVisible(closed, entry, 'weekend'));
+  assert.ok(logic.driftVisible(closed, entry, 'after'));
+  assert.ok(!logic.driftVisible(closed, entry, 'open'), 'browser clock says open');
+  assert.ok(!logic.driftVisible({ market: { isRegularSession: true, calendarStale: false } }, entry, 'weekend'));
+  assert.ok(!logic.driftVisible({ market: { isRegularSession: false, calendarStale: true } }, entry, 'weekend'));
+  assert.ok(!logic.driftVisible(closed, { drift: null }, 'weekend'));
+  assert.ok(!logic.driftVisible(null, entry, 'weekend'));
+});
+
+check('live layer copy: EN + KO exist for every new string and no API key name reaches the browser', () => {
+  ['colPrice', 'depthOnchain', 'depthTip', 'depthCappedNote', 'priceTip', 'driftVsClose', 'driftTipUnderlying', 'driftTipToken',
+    'liveLoading', 'liveReady', 'liveStale', 'liveError', 'notesLive'].forEach(k => {
+    assert.ok(translations.en.stocks[k], 'en ' + k);
+    assert.ok(translations.ko.stocks[k], 'ko ' + k);
+  });
+  assert.strictEqual(translations.en.stocks.driftVsClose('+1.00%'), '+1.00% vs last close');
+  assert.ok(/[가-힣]/.test(translations.ko.stocks.driftVsClose('+1.00%')));
+  assert.ok(translations.en.stocks.liveReady('t', '26', '114').includes('26 of 114'));
+  const client = fs.readFileSync('stocks.js', 'utf8') + JSON.stringify(translations);
+  ['ALCHEMY', 'PYTH_API', 'g.alchemy.com', 'hermes'].forEach(w => assert.ok(client.indexOf(w) < 0, w));
+  assert.strictEqual(logic.LIVE_URL, '/api/stocks-onchain');
+});
+
 check('copy never names a guessed issuer as fact', () => {
   const blob = JSON.stringify(translations.en.stocks) + JSON.stringify(translations.ko.stocks) + fs.readFileSync('stocks.js', 'utf8');
   ['Dinari', 'Ondo', 'Alpaca', 'B20'].forEach(w => assert.ok(blob.indexOf(w) < 0, w));
