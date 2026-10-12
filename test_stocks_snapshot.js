@@ -6,7 +6,7 @@ const assert = require('assert');
 const fs = require('fs');
 const path = require('path');
 const gen = require('./generate-stocks-snapshot');
-const { buildStocksSnapshot, headlineApy, honestProjection, tierFor } = gen;
+const { buildStocksSnapshot, headlineApy, honestProjection, tierFor, isVerifiedToken, VERIFIED_BASES } = gen;
 
 let passed = 0;
 function check(name, fn) { fn(); passed++; console.log('  ✓ ' + name); }
@@ -19,7 +19,7 @@ const NVDAX = 'Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh';
 const registry = {
   tokens: {
     ['Base:' + MSTRC]: { symbol: 'MSTRC', underlying: 'MSTR', assetClass: 'equity', issuer: 'unverified', issuerBasis: 'address-prefix', chain: 'Base', address: MSTRC },
-    ['Solana:' + NVDAX]: { symbol: 'NVDAX', underlying: 'NVDA', assetClass: 'equity', issuer: 'xStocks (Backed)', issuerBasis: 'poolMeta', chain: 'Solana', address: NVDAX }
+    ['Solana:' + NVDAX]: { symbol: 'NVDAX', underlying: 'NVDA', assetClass: 'equity', issuer: 'xStocks (Backed)', issuerBasis: 'official-registry', chain: 'Solana', address: NVDAX }
   }
 };
 
@@ -243,6 +243,15 @@ if (fs.existsSync(registryPath)) {
     assert.ok(!reg.issuers.dinari);
     assert.ok(!/dinari/i.test(JSON.stringify(Object.assign({}, d, { issuerSource: '' }))));
   });
+  check('registry: a self-reported on-chain name() does not verify an issuer (DESPXA shows unverified)', () => {
+    assert.deepStrictEqual(VERIFIED_BASES.slice().sort(), ['official-announcement', 'official-registry', 'onchain-beacon']);
+    const d = reg.tokens['Base:0x9c5c365e764829876243d0b289733b9d2b729685'];
+    assert.strictEqual(d.issuerBasis, 'onchain-name');
+    assert.strictEqual(isVerifiedToken(d), false);
+    assert.strictEqual(gen.verifiedIssuer({ equityTokens: [d] }), null);
+    assert.strictEqual(isVerifiedToken({ issuer: 'Centrifuge', issuerBasis: 'onchain-name' }), false);
+    assert.strictEqual(isVerifiedToken({ issuer: 'Coinbase', issuerBasis: 'official-registry' }), true);
+  });
   check('registry: address-verified cross-issuer cases (Reality not Robinhood, Backpack SPCX not xStocks, Robinhood Chain SPY)', () => {
     ['RAAPL', 'RHOOD', 'RCRCL', 'RSPCX'].forEach(sym => {
       const t = Object.values(reg.tokens).find(x => x.chain === 'Arbitrum' && x.symbol === sym);
@@ -315,7 +324,8 @@ check('slim payload: issuer is named only when every equity token has a verified
   const base = slim.pools.find(p => p.chain === 'Base'), sol = slim.pools.find(p => p.chain === 'Solana');
   assert.strictEqual(base.issuer, null);
   assert.strictEqual(sol.issuer, 'xStocks (Backed)');
-  assert.strictEqual(verifiedIssuer({ equityTokens: [{ issuer: 'xStocks (Backed)' }, { issuer: 'unverified' }] }), null);
+  assert.strictEqual(verifiedIssuer({ equityTokens: [{ issuer: 'xStocks (Backed)', issuerBasis: 'official-registry' }, { issuer: 'unverified' }] }), null);
+  assert.strictEqual(verifiedIssuer({ equityTokens: [{ issuer: 'xStocks (Backed)', issuerBasis: 'official-registry' }] }), 'xStocks (Backed)');
   assert.strictEqual(verifiedIssuer({ equityTokens: [] }), null);
   assert.strictEqual(slim.forecast, null);
 });
@@ -362,6 +372,7 @@ if (fs.existsSync(slimPath) && fs.existsSync(outputPath)) {
       assert.ok([1, 2, 3].indexOf(p.tier) >= 0, p.symbol);
       assert.ok(Number.isFinite(p.clip) && p.clip >= 0, p.symbol);
       if (p.issuer !== null) assert.notStrictEqual(p.issuer, 'unverified', p.symbol);
+      if (p.symbol && /DESPXA/i.test(p.symbol)) assert.strictEqual(p.issuer, null, 'DESPXA must not name an issuer');
       if (p.band) assert.ok(p.band.length === 2 && p.band[0] <= p.band[1], p.symbol);
     });
   });

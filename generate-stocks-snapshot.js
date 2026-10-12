@@ -375,7 +375,7 @@ function buildStocksSnapshot(snapshot, registry, opts) {
 function equityIssuerNames(pools) {
   const names = [];
   pools.forEach(p => p.equityTokens.forEach(t => {
-    if (t.issuer && t.issuer !== 'unverified' && names.indexOf(t.issuer) < 0) names.push(t.issuer);
+    if (isVerifiedToken(t) && names.indexOf(t.issuer) < 0) names.push(t.issuer);
   }));
   return names;
 }
@@ -387,6 +387,13 @@ function sortObject(o) {
 }
 
 const VERIFIED_ISSUER_NONE = 'unverified';
+// Only these attribution bases verify an issuer. A token's self-reported
+// on-chain name() ('onchain-name') is NOT verification: any contract can set it.
+const VERIFIED_BASES = ['official-registry', 'official-announcement', 'onchain-beacon'];
+
+function isVerifiedToken(t) {
+  return !!t && !!t.issuer && t.issuer !== VERIFIED_ISSUER_NONE && VERIFIED_BASES.indexOf(t.issuerBasis) >= 0;
+}
 const SLIM_FLAGS = ['forcedHighIL', 'thinLiquidity', 'nearZeroYield', 'forecastAboveHeadline'];
 
 // A pool names an issuer only when EVERY equity token in it has a verified one;
@@ -394,7 +401,7 @@ const SLIM_FLAGS = ['forcedHighIL', 'thinLiquidity', 'nearZeroYield', 'forecastA
 function verifiedIssuer(pool) {
   const toks = pool.equityTokens || [];
   if (!toks.length) return null;
-  if (toks.some(t => !t.issuer || t.issuer === VERIFIED_ISSUER_NONE)) return null;
+  if (toks.some(t => !isVerifiedToken(t))) return null;
   const names = [];
   toks.forEach(t => { if (names.indexOf(t.issuer) < 0) names.push(t.issuer); });
   return names.join(' + ');
@@ -524,7 +531,7 @@ function main() {
 if (require.main === module) main();
 
 module.exports = {
-  buildStocksSnapshot, buildStocksPools, parseForecastEval, verifiedIssuer, headlineApy, honestProjection, tierFor, poolTypeFor, heuristicClip,
+  buildStocksSnapshot, buildStocksPools, parseForecastEval, verifiedIssuer, isVerifiedToken, VERIFIED_BASES, headlineApy, honestProjection, tierFor, poolTypeFor, heuristicClip,
   forecastBand, normalizeAddress, indexRegistry,
   MIN_TVL, EQUITY_APY_CAP, REWARD_HAIRCUT, TIERS, DEPTH_FACTORS
 };

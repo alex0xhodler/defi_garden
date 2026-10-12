@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T13:45:06.608Z",
+  "generatedAt": "2026-10-12T13:50:04.547Z",
   "sourceGeneratedAt": "2026-10-11T08:18:18.526Z",
   "rails": {
     "minTvl": 100000,
@@ -56,15 +56,6 @@
       "sources": [
         "https://web3.binance.com/en/dev-docs/products/agentic-wallet/use-cases/campaigns/bstock-eligible-tokens",
         "https://defillama.com/rwa/platform/bstocks"
-      ]
-    },
-    "Centrifuge": {
-      "slug": "centrifuge",
-      "legalEntity": null,
-      "jurisdiction": null,
-      "usPersons": null,
-      "sources": [
-        "on-chain name() of Base 0x9c5c365e764829876243d0b289733b9d2b729685 = \"S&P 500 DeFi (Centrifuge)\""
       ]
     },
     "Coinbase": {
