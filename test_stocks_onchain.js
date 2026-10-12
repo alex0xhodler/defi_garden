@@ -474,6 +474,98 @@ check('handler: an unreadable snapshot is a 503 that is not cached', async () =>
   } finally { fs.readFileSync = realRead; globalThis.fetch = realFetch; core.resetMemo(); }
 });
 
+// ============================================================ resolver ========
+
+const resolver = require('./scripts/resolve-stocks-pools.js');
+const snap = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'stocks-snapshot.json'), 'utf8'));
+
+check('resolver plan: v3 -> fee from the tier, slipstream -> tick spacing, everything else skipped with a reason', () => {
+  const v3 = snap.pools.find((p) => p.onchain.ammType === 'uniswap-v3' && p.chain === 'Ethereum' && p.onchain.feeTierPct === 0.3);
+  const plan = resolver.planPool(v3);
+  assert.strictEqual(plan.kind, 'uniswap-v3');
+  assert.strictEqual(plan.fee, 3000);
+  assert.strictEqual(plan.factory, resolver.FACTORIES['uniswap-v3'].Ethereum);
+  const sl = resolver.planPool(snap.pools.find((p) => p.onchain.ammType === 'slipstream-cl' && p.onchain.tickSpacing === 10));
+  assert.strictEqual(sl.kind, 'slipstream');
+  assert.strictEqual(sl.tickSpacing, 10);
+  assert.deepStrictEqual(resolver.planPool(snap.pools.find((p) => p.onchain.ammType === 'uniswap-v4')), { skip: 'no-resolver' });
+  assert.deepStrictEqual(resolver.planPool(snap.pools.find((p) => p.chain === 'Solana')), { skip: 'no-resolver' });
+  const rh = Object.assign({}, v3, { chain: 'Robinhood Chain' });
+  assert.deepStrictEqual(resolver.planPool(rh), { skip: 'chain-unsupported' });
+  const odd = JSON.parse(JSON.stringify(v3)); odd.onchain.feeTierPct = 0.004;
+  assert.deepStrictEqual(resolver.planPool(odd), { skip: 'unsupported-fee-tier' });
+});
+
+check('resolver: getPool calldata encodes selector, both tokens and the fee/tick-spacing word', () => {
+  const data = resolver.getPoolCall({ kind: 'uniswap-v3', equity: NVDA_BASE, quote: USDC_BASE, fee: 500 });
+  assert.strictEqual(data, '0x1698ee82' + '0'.repeat(24) + NVDA_BASE.slice(2) + '0'.repeat(24) + USDC_BASE.slice(2) + (500).toString(16).padStart(64, '0'));
+  const neg = core.intWord(-1);
+  assert.strictEqual(neg, 'f'.repeat(64));
+});
+
+check('resolver: derives pool + decimals, rejects a zero address and a pair mismatch, never writes a half-verified pool', async () => {
+  const wordAddr = (a) => '0x' + '0'.repeat(24) + a.slice(2);
+  const P1 = '0x00000000000000000000000000000000000000a1';
+  const P2 = '0x00000000000000000000000000000000000000a2';
+  const WRONG = '0x00000000000000000000000000000000000000ff';
+  let n = 0;
+  const f = mockFetch([['alchemy.com', (_url, init) => {
+    const calls = JSON.parse(init.body);
+    return { body: calls.map((c) => {
+      const d = c.params[0].data;
+      const to = c.params[0].to.toLowerCase();
+      if (d.startsWith(core.SEL.slipstreamGetPool)) { n++; return { id: c.id, result: wordAddr(n === 1 ? P1 : n === 2 ? P2 : '0x' + '0'.repeat(40)) }; }
+      if (d === core.SEL.token0) return { id: c.id, result: wordAddr(to === P1 ? USDC_BASE : WRONG) };
+      if (d === core.SEL.token1) return { id: c.id, result: wordAddr(NVDA_BASE) };
+      if (d === core.SEL.decimals) return { id: c.id, result: '0x' + (c.params[0].to.toLowerCase() === USDC_BASE ? 6 : 8).toString(16).padStart(64, '0') };
+      return { id: c.id, error: {} };
+    }) };
+  }]]);
+  const mkPool = (id) => ({ pool: id, chain: 'Base', onchain: { ammType: 'slipstream-cl', tickSpacing: 10, tokens: [{ address: USDC_BASE, role: 'stable' }, { address: NVDA_BASE, role: 'equity' }] } });
+  const out = await resolver.resolve({ fetch: f, env: { ALCHEMY_API_KEY: KEY } }, { pools: [mkPool('a'), mkPool('b'), mkPool('c')] });
+  assert.deepStrictEqual(Object.keys(out.pools), ['a']);
+  assert.strictEqual(out.pools.a.address, P1);
+  assert.strictEqual(out.pools.a.equitySide, 1);
+  assert.strictEqual(out.pools.a.token0.decimals, 6);
+  assert.strictEqual(out.pools.a.token1.decimals, 8);
+  assert.strictEqual(out.pools.a.tickSpacing, 10);
+  assert.strictEqual(out.unresolved.b, 'pair-mismatch');
+  assert.strictEqual(out.unresolved.c, 'pool-not-found');
+  assert.ok(!JSON.stringify(out).includes(KEY));
+});
+
+check('resolver CLI without ALCHEMY_API_KEY writes nothing and says so', () => {
+  const { spawnSync } = require('child_process');
+  const os = require('os');
+  const out = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'stocks-resolve-')), 'addr.json');
+  const env = Object.assign({}, process.env); delete env.ALCHEMY_API_KEY;
+  const r = spawnSync(process.execPath, [path.join(__dirname, 'scripts', 'resolve-stocks-pools.js'), '--out', out], { env, encoding: 'utf8' });
+  assert.strictEqual(r.status, 0);
+  assert.ok(/ALCHEMY_API_KEY is not set: nothing resolved/.test(r.stdout));
+  assert.ok(!fs.existsSync(out));
+});
+
+check('committed pool addresses: every entry maps to a snapshot pool, the right pair and a sane shape', () => {
+  const file = path.join(__dirname, 'data', 'stocks-pool-addresses.json');
+  if (!fs.existsSync(file)) return; // not resolved yet (needs a key): the function degrades, see tests above
+  const data = JSON.parse(fs.readFileSync(file, 'utf8'));
+  const byId = new Map(snap.pools.map((p) => [p.pool, p]));
+  assert.ok(Object.keys(data.pools).length > 0);
+  Object.entries(data.pools).forEach(([id, e]) => {
+    const p = byId.get(id);
+    assert.ok(p, id + ' is a snapshot pool');
+    assert.strictEqual(e.chain, p.chain);
+    assert.strictEqual(core.RESOLVABLE_AMMS[p.onchain.ammType], e.kind);
+    assert.ok(/^0x[0-9a-f]{40}$/.test(e.address) && e.address !== '0x' + '0'.repeat(40));
+    const eq = p.onchain.tokens.find((t) => t.role === 'equity').address.toLowerCase();
+    const q = p.onchain.tokens.find((t) => t.role === 'stable').address.toLowerCase();
+    assert.deepStrictEqual([e.token0.address, e.token1.address].sort(), [eq, q].sort());
+    assert.strictEqual((e.equitySide === 0 ? e.token0 : e.token1).address, eq);
+    [e.token0.decimals, e.token1.decimals].forEach((d) => assert.ok(Number.isInteger(d) && d >= 0 && d <= 36));
+    assert.ok(!JSON.stringify(e).includes('alchemy'));
+  });
+});
+
 // ============================================================ deploy wiring ===
 
 check('deploy: the function, its core and its data files are not excluded by .vercelignore', () => {
