@@ -532,6 +532,22 @@ function writeIfContentChanged(filePath, newContent, now) {
 }
 
 /**
+ * "Tokenized Stocks" section: one pointer to /stocks. Static prose only - no
+ * number is stated here (every figure on that page comes from the CI-baked
+ * data/stocks-pools.json), and the honesty rules travel with the link.
+ */
+function buildStocksSection(meta) {
+  return [
+    '## Tokenized Stocks',
+    'TL;DR: A research-only terminal for yield pools that hold tokenized stocks and ETFs. ' +
+      'Projected APY is base yield plus two thirds of reward emissions and never exceeds the current rate; ' +
+      'each pool carries a DeFi Score (not a smart-contract audit) and a TVL liquidity tier. ' +
+      'Education, not investment advice; tokenized stocks are generally not offered to US persons.',
+    `- Tokenized stocks yield terminal: ${meta.baseUrl}/stocks`
+  ];
+}
+
+/**
  * Shared "## Garden Planner" section emitter (spec 168), used by BOTH
  * buildConcise() and buildFull() — never two divergent copies of this copy.
  * `rate` is the output of `plannerRate()` (or `null`); `opts.full` toggles a
@@ -688,6 +704,8 @@ function buildConcise(meta, categories, highYield, yieldAnalysis, plannerRateRes
   // shared copy and its honesty constraints.
   lines.push(...buildPlannerSection(meta, plannerRateResult, { full: false }));
   lines.push('');
+  lines.push(...buildStocksSection(meta));
+  lines.push('');
   lines.push(...buildAgentEndpointsSection(meta));
   lines.push('');
 
@@ -810,6 +828,8 @@ function buildFull(meta, categories, highYield, yieldAnalysis, plannerRateResult
 
   // Garden Planner section (spec 168) — shared emitter, fuller body (opts.full).
   lines.push(...buildPlannerSection(meta, plannerRateResult, { full: true }));
+  lines.push('');
+  lines.push(...buildStocksSection(meta));
   lines.push('');
   lines.push(...buildAgentEndpointsSection(meta));
   lines.push('');
