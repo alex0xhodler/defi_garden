@@ -133,6 +133,23 @@ check('committed data/stocks-pools.json: every spotlight card leads with a Tier 
   });
 });
 
+check('issuer facts: tooltip text is built from data + localized copy; unknown issuers get no guessed facts', () => {
+  const issuers = { Coinbase: { e: 'Coinbase Onchain SPV Ltd', j: 'Abu Dhabi Global Market (ADGM)', us: false }, ST0x: { e: 'S01 Issuer GmbH', j: 'Germany', us: null }, Centrifuge: { e: null, j: null, us: null } };
+  const [a, b, c] = ['Coinbase', 'ST0x', 'Centrifuge'].map(n => logic.normalizePool(pool({ issuer: n }), issuers));
+  assert.deepStrictEqual(a.issuerInfo, [{ name: 'Coinbase', entity: 'Coinbase Onchain SPV Ltd', jurisdiction: 'Abu Dhabi Global Market (ADGM)', us: false }]);
+  assert.deepStrictEqual(logic.normalizePool(pool({ issuer: 'Nobody' }), issuers).issuerInfo, []);
+  assert.deepStrictEqual(logic.normalizePool(pool({ issuer: null }), issuers).issuerInfo, []);
+  assert.deepStrictEqual(logic.normalizePool(pool({ issuer: 'Coinbase' })).issuerInfo, []);
+  ['en', 'ko'].forEach(l => {
+    const copy = translations[l].stocks;
+    const ta = logic.issuerTipText(a.issuerInfo, copy), tb = logic.issuerTipText(b.issuerInfo, copy), tc = logic.issuerTipText(c.issuerInfo, copy);
+    assert.ok(ta.includes('Coinbase Onchain SPV Ltd') && ta.includes('ADGM') && ta.includes(copy.issuerUsNo), l);
+    assert.ok(tb.includes('S01 Issuer GmbH') && tb.includes(copy.issuerUsUnknown), l);
+    assert.ok(tc.includes('Centrifuge') && tc.includes(copy.issuerUsUnknown) && !/undefined|null/.test(tc), l);
+    assert.strictEqual(logic.issuerTipText([], copy), copy.issuerUnverifiedTip);
+  });
+});
+
 check('URL params round-trip (c / tier / sort) and ignore unknown values; lang is preserved', () => {
   assert.deepStrictEqual(logic.parseParams('?c=Base&tier=2&sort=tvl', ['Base']), { chain: 'Base', tier: '2', sort: 'tvl' });
   assert.deepStrictEqual(logic.parseParams('?c=Mars&tier=9&sort=x', ['Base']), { chain: 'all', tier: 'all', sort: 'default' });

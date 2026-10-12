@@ -375,9 +375,10 @@ projectionHeading: "The long game",
 
       // Spotlight
       spotTitle: "Deepest underlyings",
-      spotSub: "Top four by total TVL across their yield pools",
+      spotSub: "Top four by total TVL across their yield pools. The lead pool is Tier 1 or 2 with a projected APY of 1% to 100%.",
       spotPools: (n) => (n === "1" ? "1 pool" : `${n} pools`),
       spotLead: "Lead pool",
+      spotIssuer: "Issuer",
       spotProjected: "Projected APY",
       spotTvl: "Total TVL",
 
@@ -418,6 +419,11 @@ projectionHeading: "The long game",
       assetEtf: "ETF",
       issuerUnverified: "Issuer unverified",
       issuerUnverifiedTip: "We could not verify who issues this token from public data, so no issuer is named.",
+      issuerTipEntity: (entity, place) => `Issued by ${entity} (${place}).`,
+      issuerTipEntityOnly: (entity) => `Issued by ${entity}.`,
+      issuerTipNoEntity: (name) => `${name} is the named issuer. We could not confirm its legal entity from public data.`,
+      issuerUsNo: "Not offered to US persons.",
+      issuerUsUnknown: "US-person eligibility is not confirmed.",
       headlineApy: (pct) => `Headline ${pct}`,
       apyTipBase: (base, reward, proj, head) => `Base ${base} + rewards ${reward} × ⅔ = ${proj}, never above the ${head} headline. Reward emissions tend to fade, so only two thirds of them are counted.`,
       apyTipFlat: (head) => `No reward emissions, so the projection equals the ${head} headline.`,
@@ -458,7 +464,7 @@ projectionHeading: "The long game",
       notesCap: (cap, floor, count) => `Pools above ${cap} APY or below ${floor} TVL are excluded (${count} excluded in this snapshot), as are vault wrappers and pools paired with unrecognised tokens.`,
       notesScore: "DeFi Score measures yield stability, fee sustainability, depositor stickiness and exit liquidity. It is not a smart-contract audit.",
       notesClip: "Est. clip is a TVL-based estimate, not measured on-chain depth.",
-      notesIssuer: "Only issuers we could verify are named; every other token is marked Issuer unverified."
+      notesIssuer: "An issuer is named only when the token's exact address appears in the issuer's own published list, an on-chain record or its official announcement. A symbol or address pattern is never enough; any other token is marked Issuer unverified."
     },
 
     // Garden Planner v2
@@ -1603,9 +1609,10 @@ projectionHeading: "The long game",
       statMedianHint: "수익률 풀 전체의 예상 APY(헤드라인 아님) 중앙값",
 
       spotTitle: "유동성이 가장 깊은 기초자산",
-      spotSub: "수익률 풀 TVL 합계 기준 상위 4개",
+      spotSub: "수익률 풀 TVL 합계 기준 상위 4개. 대표 풀은 1·2등급이면서 예상 APY가 1%에서 100% 사이인 풀입니다.",
       spotPools: (n) => `풀 ${n}개`,
       spotLead: "대표 풀",
+      spotIssuer: "발행사",
       spotProjected: "예상 APY",
       spotTvl: "총 TVL",
 
@@ -1644,6 +1651,11 @@ projectionHeading: "The long game",
       assetEtf: "ETF 상품",
       issuerUnverified: "발행사 미확인",
       issuerUnverifiedTip: "공개 데이터로는 이 토큰의 발행사를 확인하지 못해 발행사를 표시하지 않습니다.",
+      issuerTipEntity: (entity, place) => `발행 주체: ${entity} (${place}).`,
+      issuerTipEntityOnly: (entity) => `발행 주체: ${entity}.`,
+      issuerTipNoEntity: (name) => `발행사: ${name}. 다만 공개 데이터로는 법인명을 확인하지 못했습니다.`,
+      issuerUsNo: "미국인에게는 제공되지 않습니다.",
+      issuerUsUnknown: "미국인 이용 가능 여부는 확인되지 않았습니다.",
       headlineApy: (pct) => `헤드라인 ${pct}`,
       apyTipBase: (base, reward, proj, head) => `기본 수익 ${base} + 보상 ${reward} × ⅔ = ${proj}이며, 헤드라인 ${head}를 넘지 않습니다. 보상은 줄어드는 경향이 있어 3분의 2만 반영합니다.`,
       apyTipFlat: (head) => `보상 발행이 없어 예상 APY가 헤드라인 ${head}와 같습니다.`,
@@ -1682,7 +1694,7 @@ projectionHeading: "The long game",
       notesCap: (cap, floor, count) => `APY가 ${cap}를 넘거나 TVL이 ${floor} 미만인 풀은 제외하며(이번 스냅샷에서 ${count}개 제외), 볼트 래퍼와 확인되지 않은 토큰과 짝지어진 풀도 제외합니다.`,
       notesScore: "DeFi 점수는 수익 안정성, 수수료 지속 가능성, 예치자 유지력, 출금 유동성을 측정합니다. 스마트 컨트랙트 감사가 아닙니다.",
       notesClip: "추정 거래 규모는 TVL 기반 추정치이며 온체인에서 측정한 유동성 깊이가 아닙니다.",
-      notesIssuer: "확인된 발행사만 이름을 표시하며, 나머지 토큰은 발행사 미확인으로 표시합니다."
+      notesIssuer: "토큰의 정확한 주소가 발행사가 직접 공개한 목록, 온체인 기록 또는 공식 발표에 있을 때만 발행사를 표시합니다. 심볼이나 주소 패턴만으로는 판단하지 않으며, 그 외 토큰은 발행사 미확인으로 표시합니다."
     },
 
     // Garden Planner

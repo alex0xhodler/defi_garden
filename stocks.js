@@ -33,6 +33,7 @@
   // triple-digit farms still appear in the tables, never as the headline.
   var SPOTLIGHT_MIN_PROJ = 1;
   var SPOTLIGHT_MAX_PROJ = 100;
+  var ISSUER_SEP = ' + ';
   var SORTS = ['default', 'proj', 'tvl', 'score'];
   var DASH = '—';
 
@@ -75,9 +76,27 @@
     return true;
   }
 
+  // Issuer facts (legal entity, jurisdiction, US-person eligibility) for the names
+  // a pool carries; unknown names yield no entry, never a guess.
+  function issuerInfoFor(issuer, issuers) {
+    if (typeof issuer !== 'string' || !issuer || !issuers || typeof issuers !== 'object') return [];
+    var out = [];
+    issuer.split(ISSUER_SEP).forEach(function (name) {
+      var i = Object.prototype.hasOwnProperty.call(issuers, name) ? issuers[name] : null;
+      if (!i || typeof i !== 'object') return;
+      out.push({
+        name: name,
+        entity: typeof i.e === 'string' && i.e ? i.e : null,
+        jurisdiction: typeof i.j === 'string' && i.j ? i.j : null,
+        us: i.us === true || i.us === false ? i.us : null
+      });
+    });
+    return out;
+  }
+
   // Normalise one pool: finite-or-null for every optional number, so a render
   // path can never print NaN/undefined.
-  function normalizePool(p) {
+  function normalizePool(p, issuers) {
     var score = p.score && isNum(p.score.v) ? {
       v: p.score.v,
       r: typeof p.score.r === 'string' ? p.score.r : null,
@@ -93,6 +112,7 @@
       underlying: typeof p.underlying === 'string' && p.underlying ? p.underlying : p.symbol,
       etf: p.assetClass === 'etf',
       issuer: typeof p.issuer === 'string' && p.issuer ? p.issuer : null,
+      issuerInfo: issuerInfoFor(p.issuer, issuers),
       tvl: p.tvl, tier: p.tier, apy: p.apy, proj: p.proj,
       base: isNum(p.base) ? p.base : null,
       reward: isNum(p.reward) ? p.reward : 0,
@@ -103,10 +123,10 @@
     };
   }
 
-  function sanitizePools(list) {
+  function sanitizePools(list, issuers) {
     var out = [];
     (Array.isArray(list) ? list : []).forEach(function (p) {
-      if (isValidPool(p)) out.push(normalizePool(p));
+      if (isValidPool(p)) out.push(normalizePool(p, issuers));
     });
     return out;
   }
@@ -211,6 +231,19 @@
     return s ? '?' + s : '';
   }
 
+  // Tooltip sentence for a pool's named issuer(s), from the localized `copy`
+  // functions plus the data-driven entity / jurisdiction / US-eligibility facts.
+  function issuerTipText(info, copy) {
+    if (!info || !info.length) return copy.issuerUnverifiedTip;
+    return info.map(function (i) {
+      var who = i.entity && i.jurisdiction ? copy.issuerTipEntity(i.entity, i.jurisdiction)
+        : i.entity ? copy.issuerTipEntityOnly(i.entity)
+        : copy.issuerTipNoEntity(i.name);
+      var us = i.us === false ? copy.issuerUsNo : copy.issuerUsUnknown;
+      return who + ' ' + us;
+    }).join(' ');
+  }
+
   function poolHref(id) { return '/?pool=' + encodeURIComponent(id); }
 
   var logic = {
@@ -220,6 +253,7 @@
     isValidPool: isValidPool, normalizePool: normalizePool, sanitizePools: sanitizePools,
     median: median, isYieldPool: isYieldPool, sortPools: sortPools, filterPools: filterPools,
     chainsOf: chainsOf, spotlight: spotlight, isSpotlightLead: isSpotlightLead, aggregates: aggregates,
+    issuerInfoFor: issuerInfoFor, issuerTipText: issuerTipText,
     SPOTLIGHT_MIN_PROJ: SPOTLIGHT_MIN_PROJ, SPOTLIGHT_MAX_PROJ: SPOTLIGHT_MAX_PROJ,
     parseParams: parseParams, buildSearch: buildSearch, poolHref: poolHref
   };
@@ -467,7 +501,8 @@
     return e('div', { className: 'stocks-chain-cell' },
       e('span', { className: 'stocks-chain' }, p.chain),
       p.issuer
-        ? e('span', { className: 'stocks-sub' }, p.issuer)
+        ? e('span', { className: 'stocks-sub', 'data-testid': 'stocks-issuer' },
+            e(Tip, { text: issuerTipText(p.issuerInfo, copy) }, p.issuer))
         : e('span', { className: 'dt-engine-pill stocks-badge' },
             e(Tip, { text: copy.issuerUnverifiedTip }, copy.issuerUnverified))
     );
@@ -635,6 +670,7 @@
           ),
           e('dl', { className: 'stocks-spot-facts' },
             e('div', null, e('dt', null, copy.spotLead), e('dd', null, g.lead.symbol + ' · ' + g.lead.project + ' · ' + g.lead.chain)),
+            g.lead.issuer ? e('div', null, e('dt', null, copy.spotIssuer), e('dd', null, e(Tip, { text: issuerTipText(g.lead.issuerInfo, copy) }, g.lead.issuer))) : null,
             e('div', null, e('dt', null, copy.spotTvl), e('dd', null, fmtUsd(g.tvl, copy.dash))),
             e('div', null, e('dt', null, copy.colClip), e('dd', null, fmtUsdShort(g.lead.clip, copy.dash) + ' ', e('span', { className: 'stocks-sub' }, e(Tip, { text: copy.clipTip }, copy.clipEst))))
           ),
@@ -844,7 +880,7 @@
         .then(function (res) { if (!res.ok) throw new Error('stocks-pools ' + res.status); return res.json(); })
         .then(function (raw) {
           if (cancelled) return;
-          var pools = sanitizePools(raw && raw.pools);
+          var pools = sanitizePools(raw && raw.pools, raw && raw.issuers);
           if (!pools.length || !raw.rails) throw new Error('stocks-pools empty');
           setS({
             phase: 'ready',
