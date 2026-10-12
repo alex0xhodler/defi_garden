@@ -32,6 +32,7 @@
 const fs = require('fs');
 const path = require('path');
 const clock = require('../stocks-market-clock.js');
+const llama = require('../llama-endpoints.js');
 
 const MEMO_TTL_MS = 60 * 1000;
 const UPSTREAM_TIMEOUT_MS = 4000;
@@ -116,8 +117,10 @@ async function httpJson(deps, url, init, timeoutMs) {
 }
 
 function coinsBase(deps) {
-  // chore/llama-endpoints will centralise the DefiLlama base URLs; fold this env read into it then.
-  return String((deps.env && deps.env.LLAMA_COINS_BASE) || 'https://coins.llama.fi').replace(/\/+$/, '');
+  // Shared registry (llama-endpoints.js): LLAMA_COINS_BASE override, default https://coins.llama.fi.
+  // deps.env is injectable for tests; without it the registry's own process.env instance is used.
+  const reg = deps.env ? llama.build(deps.env) : llama;
+  return reg.COINS_BASE;
 }
 
 // ---------------------------------------------------------------- prices ---
