@@ -28,6 +28,11 @@
   var EQUITY_APY_CAP = 500;
   var MIN_TVL = 100000;
   var SPOTLIGHT_COUNT = 4;
+  // A spotlight card leads only with a pool a saver could plausibly hold: Tier 1-2
+  // and a projected APY between 1% and 100%. Near-zero collateral positions and
+  // triple-digit farms still appear in the tables, never as the headline.
+  var SPOTLIGHT_MIN_PROJ = 1;
+  var SPOTLIGHT_MAX_PROJ = 100;
   var SORTS = ['default', 'proj', 'tvl', 'score'];
   var DASH = '—';
 
@@ -150,17 +155,25 @@
       .map(function (c) { return { chain: c, count: count[c] }; });
   }
 
-  // Top underlyings by total TVL across their YIELD pools; the lead pool is the
-  // highest tier (lowest number), then the biggest TVL.
+  // A pool may lead a spotlight card only at Tier 1-2 with 1% <= projected APY <= 100%.
+  function isSpotlightLead(p) {
+    return (p.tier === 1 || p.tier === 2) && p.proj >= SPOTLIGHT_MIN_PROJ && p.proj <= SPOTLIGHT_MAX_PROJ;
+  }
+
+  // Top underlyings by total TVL across their YIELD pools (all of them: the card
+  // still counts every pool). The lead pool is the highest tier (lowest number),
+  // then the biggest TVL, among qualifying pools only; an underlying with no
+  // qualifying pool is dropped and the next one by TVL takes its place.
   function spotlight(pools, limit) {
     var groups = {};
     pools.filter(isYieldPool).forEach(function (p) {
       var g = groups[p.underlying] || (groups[p.underlying] = { underlying: p.underlying, etf: p.etf, tvl: 0, count: 0, lead: null });
       g.tvl += p.tvl;
       g.count += 1;
-      if (!g.lead || byTierThenTvl(p, g.lead) < 0) g.lead = p;
+      if (isSpotlightLead(p) && (!g.lead || byTierThenTvl(p, g.lead) < 0)) g.lead = p;
     });
     return Object.keys(groups).map(function (k) { return groups[k]; })
+      .filter(function (g) { return g.lead !== null; })
       .sort(function (a, b) { return (b.tvl - a.tvl) || (a.underlying < b.underlying ? -1 : 1); })
       .slice(0, limit == null ? SPOTLIGHT_COUNT : limit);
   }
@@ -206,7 +219,8 @@
     fmtDate: fmtDate, fmtDateTime: fmtDateTime,
     isValidPool: isValidPool, normalizePool: normalizePool, sanitizePools: sanitizePools,
     median: median, isYieldPool: isYieldPool, sortPools: sortPools, filterPools: filterPools,
-    chainsOf: chainsOf, spotlight: spotlight, aggregates: aggregates,
+    chainsOf: chainsOf, spotlight: spotlight, isSpotlightLead: isSpotlightLead, aggregates: aggregates,
+    SPOTLIGHT_MIN_PROJ: SPOTLIGHT_MIN_PROJ, SPOTLIGHT_MAX_PROJ: SPOTLIGHT_MAX_PROJ,
     parseParams: parseParams, buildSearch: buildSearch, poolHref: poolHref
   };
 

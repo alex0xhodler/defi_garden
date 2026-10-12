@@ -46,4 +46,8 @@ Status: Phases 0-3 done on `feature/stocks-terminal`. Source PRD: `prd_stocks_te
 - **Corrections:** Base `DESPXA` (0x9c5c...) is "S&P 500 DeFi (Centrifuge)", not a Dinari dShare. Kept as an index-fund (`etf`) exposure with issuer "Centrifuge" (named by the token itself; legal entity not confirmed) rather than excluded, because it is a single S&P 500 exposure like SPY. Added the five pool-present tokens the v1 registry missed: ST0x `wtCOIN`/`wtSPYM`/`wtSGOV` (Base), Ondo `MCDon` (BSC), xStocks `wNVDAx` (Hyperliquid L1). Issuer-published wrappers are listed; third-party wrappers (Mantle `W*`, Ethereum `WSPYX`) stay excluded.
 - **UI:** the Chain & issuer cell and the spotlight card name the issuer; hovering it shows the legal entity, jurisdiction and US-person eligibility (from the slim payload's `issuers` map, never typed in the page). Only Dinari (not currently in the registry) offers a US-person path; ST0x, Backpack and Centrifuge are "not confirmed"; all other attributed issuers exclude US persons. The slim payload limit rose from 40 KB to 48 KB to carry the new tokens and issuer facts.
 
+## Spotlight rule (2026-10-12)
+
+A spotlight card leads only with a pool at **Tier 1-2 with a projected APY from 1% to 100% inclusive**; the pool count and total TVL on the card still cover every yield pool. An underlying with no qualifying pool is dropped and the next one by total TVL takes its place. Near-zero collateral positions (SPY at 0.00%) and farms in the hundreds of percent (SPCX at a 248% headline) still appear in the tables, never as the headline.
+
 Out of scope everywhere: issuer / broker handoff links, in-browser minting, any number not derived from CI data or an on-chain read.

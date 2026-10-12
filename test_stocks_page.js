@@ -87,6 +87,52 @@ check('spotlight ranks underlyings by yield-pool TVL; lead = best tier then TVL;
   assert.strictEqual(sp[1].tvl, 3e6);
 });
 
+check('spotlight lead rule: Tier 1-2 only, projected APY within 1%..100% inclusive; others never lead', () => {
+  const lead = ps => logic.spotlight(ps, 10);
+  // boundaries
+  assert.ok(logic.isSpotlightLead(pool({ proj: 1 })));
+  assert.ok(logic.isSpotlightLead(pool({ proj: 100 })));
+  assert.ok(!logic.isSpotlightLead(pool({ proj: 0.99 })));
+  assert.ok(!logic.isSpotlightLead(pool({ proj: 100.01 })));
+  assert.ok(!logic.isSpotlightLead(pool({ proj: 0 })));
+  assert.ok(!logic.isSpotlightLead(pool({ tier: 3, proj: 20 })));
+  // SPCX-like: a 212% Backpack farm must not lead; the plausible tier-2 pool does
+  const spcx = lead([pool({ id: 'farm', underlying: 'SPCX', tier: 1, tvl: 9e6, proj: 212 }), pool({ id: 'ok', underlying: 'SPCX', tier: 2, tvl: 1e6, proj: 12 })]);
+  assert.strictEqual(spcx[0].lead.id, 'ok');
+  assert.strictEqual(spcx[0].count, 2);          // the card still counts every yield pool
+  assert.strictEqual(spcx[0].tvl, 1e7);
+  // SPY-like: a 0.00% collateral position must not lead
+  const spy = lead([pool({ id: 'zero', underlying: 'SPY', tier: 1, tvl: 9e6, proj: 0 }), pool({ id: 'ok', underlying: 'SPY', tier: 2, tvl: 6e5, proj: 4 })]);
+  assert.strictEqual(spy[0].lead.id, 'ok');
+  // best qualifying tier then TVL
+  const t = lead([pool({ id: 'a', underlying: 'X', tier: 2, tvl: 1.9e6, proj: 5 }), pool({ id: 'b', underlying: 'X', tier: 1, tvl: 3e6, proj: 7 }), pool({ id: 'c', underlying: 'X', tier: 1, tvl: 4e6, proj: 300 })]);
+  assert.strictEqual(t[0].lead.id, 'b');
+});
+
+check('spotlight drops an underlying with no qualifying pool and takes the next by TVL', () => {
+  const ps = [
+    pool({ id: 'big', underlying: 'BIG', tier: 1, tvl: 9e9, proj: 248 }),          // absurd only -> dropped
+    pool({ id: 'thin', underlying: 'THIN', tier: 3, tvl: 4e5, proj: 15 }),          // tier 3 only -> dropped
+    pool({ id: 'a', underlying: 'AAA', tier: 1, tvl: 5e6, proj: 8 }),
+    pool({ id: 'b', underlying: 'BBB', tier: 2, tvl: 4e6, proj: 3 }),
+    pool({ id: 'c', underlying: 'CCC', tier: 2, tvl: 3e6, proj: 2 })
+  ];
+  const sp = logic.spotlight(ps, 2);
+  assert.deepStrictEqual(sp.map(g => g.underlying), ['AAA', 'BBB']);
+  assert.deepStrictEqual(logic.spotlight([pool({ underlying: 'Z', proj: 0 })], 4), []);
+  sp.forEach(g => assert.ok(logic.isSpotlightLead(g.lead)));
+});
+
+check('committed data/stocks-pools.json: every spotlight card leads with a Tier 1-2 pool at 1%..100%', () => {
+  const raw = JSON.parse(fs.readFileSync('data/stocks-pools.json', 'utf8'));
+  const sp = logic.spotlight(logic.sanitizePools(raw.pools, raw.issuers), 4);
+  assert.ok(sp.length >= 3);
+  sp.forEach(g => {
+    assert.ok(g.lead.tier <= 2, g.underlying);
+    assert.ok(g.lead.proj >= 1 && g.lead.proj <= 100, g.underlying + ' ' + g.lead.proj);
+  });
+});
+
 check('URL params round-trip (c / tier / sort) and ignore unknown values; lang is preserved', () => {
   assert.deepStrictEqual(logic.parseParams('?c=Base&tier=2&sort=tvl', ['Base']), { chain: 'Base', tier: '2', sort: 'tvl' });
   assert.deepStrictEqual(logic.parseParams('?c=Mars&tier=9&sort=x', ['Base']), { chain: 'all', tier: 'all', sort: 'default' });
