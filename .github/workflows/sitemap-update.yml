@@ -19,6 +19,8 @@ on:
       - 'generate-pool-score-pages.js'
       - 'pool-page-links.js'
       - 'permissioned-projects.js'
+      - 'llama-endpoints.js'
+      - 'scripts/llama-canary.js'
       - 'compile-app.js'
       - 'minify-assets.js'
       - 'app.js'
@@ -61,6 +63,16 @@ jobs:
     
     - name: Install dependencies
       run: npm install --only=production
+
+    - name: DefiLlama canary (free /pools + /chart still up, 200, same shape)
+      # Fail-fast on purpose, placed right after install and BEFORE any
+      # generator: every later step bakes pages/sitemaps/forecasts from this
+      # feed and the job then commits them to main, so a degraded or
+      # reshaped feed must stop the run before garbage is published (the
+      # next daily cron simply retries). The script itself retries 5xx/network
+      # blips 3x, so a single hiccup does not page anyone. See
+      # docs/defillama-api.md for what to do when this goes red.
+      run: node scripts/llama-canary.js
 
     - name: Compile app.js / PoolDetail.js (backlog 052 — drop in-browser Babel)
       run: |
