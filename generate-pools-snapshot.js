@@ -45,7 +45,8 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-const YIELDS_API = 'https://yields.llama.fi/pools';
+// DefiLlama URLs live in llama-endpoints.js (env: LLAMA_YIELDS_BASE / LLAMA_PRO_API_KEY).
+const YIELDS_API = require('./llama-endpoints.js').pools();
 
 // TRUST RAILS — mirrored VERBATIM from app.js:729-730. Never relax here.
 const APY_SANITY_LIMIT = 1000;        // total APY above this = anomalous (KEPT + flagged client-side)

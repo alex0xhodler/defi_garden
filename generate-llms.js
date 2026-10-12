@@ -33,7 +33,7 @@ const OUTPUT_DIR = process.env.LLMS_OUTPUT_DIR || path.dirname(SITEMAP_PATH);
 // sitemap.xml (repo root in production; overridable so tests can point both
 // at an isolated scratch dir independently of SITEMAP_PATH).
 const ESTATE_ROOT = process.env.LLMS_ESTATE_ROOT || path.dirname(SITEMAP_PATH);
-const DEFILLAMA_YIELDS_URL = process.env.DEFILLAMA_YIELDS_URL || 'https://yields.llama.fi/pools';
+const DEFILLAMA_YIELDS_URL = process.env.DEFILLAMA_YIELDS_URL || require('./llama-endpoints.js').pools();
 // spec 180 R3 / Territory T2: the committed pools snapshot audit-app.js's own
 // text-surface level-3 re-check reads (apyBase+apyReward shape, no `apy`
 // field) — read-only here, this generator never writes it.

@@ -13,8 +13,9 @@
  */
 
 import core from './poller-core.js';
+import llama from '../llama-endpoints.js';
 
-const YIELDS_API = 'https://yields.llama.fi/pools';
+const YIELDS_API = llama.pools(); // llama-endpoints.js (Workers: always the free default)
 const BATCH_SIZE = 100;       // stay within D1's per-batch statement limit
 const MAX_DAYS = 365;         // cap the read window
 

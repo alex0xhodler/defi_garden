@@ -9,6 +9,7 @@
 const fs = require('fs');
 const path = require('path');
 const { PERMISSIONED_PROJECT_LIST } = require('../permissioned-projects.js');
+const llama = require('../llama-endpoints.js');
 
 // Every data file is read through a literal path.join(__dirname, '../data/<file>')
 // so Vercel's file tracer bundles it with the function. Do not build these paths
@@ -362,7 +363,8 @@ function handleToolCall(name, args, pools) {
   if (name === "explain_rails") {
     return {
       rails: TRUST_RAILS,
-      data_source: "DefiLlama pools feed (https://yields.llama.fi/pools), snapshotted daily; all chains DefiLlama tracks are covered.",
+      // Display-only: keyless base, never pools() (would print a Pro key if configured).
+      data_source: "DefiLlama pools feed (" + llama.YIELDS_BASE + "/pools), snapshotted daily; all chains DefiLlama tracks are covered.",
       timestamp: new Date().toISOString()
     };
   }

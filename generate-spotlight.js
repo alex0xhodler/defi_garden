@@ -63,7 +63,8 @@ const { foreverNumber } = require('./planner.js');
 const { COLORS, CARD_W, CARD_H } = require('./generate-og-images.js');
 const { translations } = require('./translations.js');
 
-const YIELDS_API = 'https://yields.llama.fi/pools';
+// DefiLlama URLs live in llama-endpoints.js (env: LLAMA_YIELDS_BASE / LLAMA_PRO_API_KEY).
+const YIELDS_API = require('./llama-endpoints.js').pools();
 const SITE_URL = 'https://www.defi.garden';
 
 // --- Trust rails (app.js:730 / planner.js parity) ---------------------------

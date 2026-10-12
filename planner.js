@@ -17,7 +17,6 @@
   // Constants & sanity rails (mirrors app.js)
   // ---------------------------------------------------------------------------
   var APY_SANITY_LIMIT = 1000;
-  var POOLS_API = 'https://yields.llama.fi/pools';
   var BANK_APY = 0.5;
   var STORAGE_KEY = 'garden-plan';
   var PLAN_VERSION = 3;
@@ -4698,7 +4697,7 @@
       // Snapshot-first (spec 059 C1): the planner's floors are all >= $10M, so
       // the railed static snapshot always covers it. Try the small snapshot
       // behind a freshness gate; ANY failure at ANY step falls straight
-      // through to the live POOLS_API fetch — exactly today's path. Planner
+      // through to the live pools() fetch — exactly today's path. Planner
       // rails (floors, sanity limit, stable curation, degen haircut) run
       // unchanged on whichever payload loads, so no relax/escape-hatch exists.
       // 6h ≈ 2× the slowest observed CI-bake gap (spec 140) — same constant
@@ -4706,7 +4705,7 @@
       // ~85–90% of the day so bare `/` sessions paid the slow live fetch.
       var SNAPSHOT_MAX_AGE_MS = 6 * 60 * 60 * 1000;
       function goLive() {
-        fetch(POOLS_API)
+        fetch(window.LLAMA_ENDPOINTS.pools())
           .then(function (r) { return r.json(); })
           .then(function (j) {
             if (!alive) return;

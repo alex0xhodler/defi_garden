@@ -15,7 +15,8 @@ const vm = require('vm');
 const SITE_URL = (process.env.SITE_URL || 'https://www.defi.garden').replace(/\/$/, '') + '/';
 
 // Defillama API endpoint
-const YIELDS_API = 'https://yields.llama.fi/pools';
+// DefiLlama URLs live in llama-endpoints.js (env: LLAMA_YIELDS_BASE / LLAMA_PRO_API_KEY).
+const YIELDS_API = require('./llama-endpoints.js').pools();
 
 // Languages of the INTERACTIVE app (the `?lang=` URLs): every language whose
 // scope is 'all' in languages.js (today en + ko). The static SEO hubs

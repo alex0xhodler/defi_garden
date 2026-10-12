@@ -94,6 +94,7 @@ import apiCore from './api-core.js';
 import mcpCore from './mcp-core.js';
 import x402Core from './x402-core.js';
 import webBotAuth from './web-bot-auth-core.js';
+import llama from '../llama-endpoints.js';
 
 // backlog 234 (spec 234): the extended (12-column) INSERT is attempted
 // FIRST on every write; INSERT_SQL_LEGACY is the byte-identical original
@@ -173,7 +174,9 @@ export default {
 // is untouched by any of this.
 // ---------------------------------------------------------------------------
 
-const POOLS_UPSTREAM = 'https://yields.llama.fi/pools';
+// DefiLlama URL comes from llama-endpoints.js (Workers have no process.env, so
+// this is always the free default here; switching to Pro is a code change there).
+const POOLS_UPSTREAM = llama.pools();
 const POOLS_CACHE_TTL_SECONDS = 300; // matches the Cache-Control this Worker sends on /api responses
 const POOLS_MEMO_TTL_MS = POOLS_CACHE_TTL_SECONDS * 1000;
 

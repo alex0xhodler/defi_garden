@@ -60,6 +60,8 @@
 
 const trustRails = require('../trust-rails.js');
 const planner = require('../planner.js');
+// DefiLlama URLs live in ../llama-endpoints.js (bundled by Wrangler like trust-rails.js).
+const llama = require('../llama-endpoints.js');
 
 const APY_SANITY_LIMIT = trustRails.APY_SANITY_LIMIT;
 const DEFAULT_MIN_TVL = trustRails.DEFAULT_MIN_TVL;
@@ -302,7 +304,9 @@ function buildContractDoc(pricingState) {
       'exclusion and a TVL floor — sourced from one shared module (trust-rails.js), never re-implemented ' +
       'here. See the "rails" object on every response, including this one.',
     dataSource: {
-      upstream: 'https://yields.llama.fi/pools',
+      // Display-only (public contract doc): the keyless base, never pools() — that
+      // would print a Pro API key if one were ever configured.
+      upstream: llama.YIELDS_BASE + '/pools',
       attribution: 'Pool data is DefiLlama\'s; this API adds curation (the rails) on top of it, not new data.',
       cacheTtlSeconds: 300,
     },

@@ -83,6 +83,13 @@
          anywhere downstream — see trust-rails.js's own header. -->
     <script src="trust-rails.js"></script>
 
+    <!-- DefiLlama endpoint registry — the only place the DefiLlama API URLs are
+         named. Synchronous, no defer, same load-order guarantee as the two
+         scripts above: window.LLAMA_ENDPOINTS must exist before landing.js,
+         planner.min.js, the analytics bundles and the modelContext tool below
+         call it. Browser build is free-URLs-only and never reads an API key. -->
+    <script src="llama-endpoints.js"></script>
+
     <script>
         // IA Router — runs before React loads. Zero flash. Zero double-load.
         // ANALYTICS PARAMS: any of these mean "show the analytics app"
@@ -267,7 +274,7 @@
                             }
                         },
                         execute: function(args) {
-                            return fetch("https://yields.llama.fi/pools")
+                            return fetch(window.LLAMA_ENDPOINTS.pools())
                                 .then(function(res) { return res.json(); })
                                 .then(function(json) {
                                     var pools = json.data || [];
