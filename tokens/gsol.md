@@ -1,12 +1,12 @@
 # GSOL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
 
-The highest honest GSOL yield right now is 8.27% on hydration-dex (Polkadot), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GSOL yield right now is 8.26% on hydration-dex (Polkadot), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hydration-dex →](https://www.defi.garden/?pool=295565ac-3307-46d1-a9e7-509e3446f4f6#src=seo_token) | Polkadot | 8.27% | $1.19M |
+| [hydration-dex →](https://www.defi.garden/?pool=295565ac-3307-46d1-a9e7-509e3446f4f6#src=seo_token) | Polkadot | 8.26% | $1.21M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GSOL yield today?
 
-8.27% APY on hydration-dex (Polkadot), based on live DefiLlama data.
+8.26% APY on hydration-dex (Polkadot), based on live DefiLlama data.
 
 ### How many GSOL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.19M in total.
+1 live pool clear this page's $100K TVL floor, $1.21M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank GSOL pools. This view covers 
 
 - [Polkadot](https://www.defi.garden/chains/polkadot)
 
-## Last updated October 11, 2026
+## Last updated October 12, 2026

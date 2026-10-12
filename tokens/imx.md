@@ -1,12 +1,12 @@
 # IMX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
 
-The highest honest IMX yield right now is 81.77% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest IMX yield right now is 62.06% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=9aad93e3-e017-4eaa-81fd-ae56e3aa8d59#src=seo_token) | Ethereum | 81.77% | $168.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=9aad93e3-e017-4eaa-81fd-ae56e3aa8d59#src=seo_token) | Ethereum | 62.06% | $169.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest IMX yield today?
 
-81.77% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+62.06% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many IMX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $168.7K in total.
+1 live pool clear this page's $100K TVL floor, $169.1K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank IMX pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 11, 2026
+## Last updated October 12, 2026

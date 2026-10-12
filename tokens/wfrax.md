@@ -1,35 +1,35 @@
 # WFRAX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
 
-The highest honest WFRAX yield right now is 31.14% on stake-dao-yield (Fraxtal), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WFRAX yield right now is 31.50% on stake-dao-yield (Fraxtal), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [frax →](https://www.defi.garden/?pool=cb446ce4-bc96-4ab2-ab92-803d70e94a6b#src=seo_token) | Ethereum | 0.36% | $2.11M |
-| [curve-dex →](https://www.defi.garden/?pool=f071ba3c-20a5-4e7a-b058-963aca464e10#src=seo_token) | Fraxtal | 27.85% | $150.4K |
-| [curve-dex →](https://www.defi.garden/?pool=1863bcee-a2ff-44d3-aa59-f81667be97c2#src=seo_token) | Ethereum | 1.11% | $146.6K |
-| [stake-dao-yield →](https://www.defi.garden/?pool=4d66e5e2-02a7-45fc-be6b-50dc4d206ac3#src=seo_token) | Fraxtal | 31.14% | $108.2K |
+| [frax →](https://www.defi.garden/?pool=cb446ce4-bc96-4ab2-ab92-803d70e94a6b#src=seo_token) | Ethereum | 0.40% | $2.16M |
+| [curve-dex →](https://www.defi.garden/?pool=f071ba3c-20a5-4e7a-b058-963aca464e10#src=seo_token) | Fraxtal | 22.99% | $153.5K |
+| [curve-dex →](https://www.defi.garden/?pool=1863bcee-a2ff-44d3-aa59-f81667be97c2#src=seo_token) | Ethereum | 0.51% | $150.6K |
+| [stake-dao-yield →](https://www.defi.garden/?pool=4d66e5e2-02a7-45fc-be6b-50dc4d206ac3#src=seo_token) | Fraxtal | 31.50% | $109.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WFRAX's lower-variability candidates are curve-dex (Ethereum), 1.11% APY, $146.6K TVL, https://www.defi.garden/?pool=1863bcee-a2ff-44d3-aa59-f81667be97c2#src=seo_token; frax (Ethereum), 0.36% APY, $2.11M TVL, https://www.defi.garden/?pool=cb446ce4-bc96-4ab2-ab92-803d70e94a6b#src=seo_token; curve-dex (Fraxtal), 27.85% APY, $150.4K TVL, https://www.defi.garden/?pool=f071ba3c-20a5-4e7a-b058-963aca464e10#src=seo_token; stake-dao-yield (Fraxtal), 31.14% APY, $108.2K TVL, https://www.defi.garden/?pool=4d66e5e2-02a7-45fc-be6b-50dc4d206ac3#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WFRAX's lower-variability candidates are curve-dex (Ethereum), 0.51% APY, $150.6K TVL, https://www.defi.garden/?pool=1863bcee-a2ff-44d3-aa59-f81667be97c2#src=seo_token; frax (Ethereum), 0.40% APY, $2.16M TVL, https://www.defi.garden/?pool=cb446ce4-bc96-4ab2-ab92-803d70e94a6b#src=seo_token; curve-dex (Fraxtal), 22.99% APY, $153.5K TVL, https://www.defi.garden/?pool=f071ba3c-20a5-4e7a-b058-963aca464e10#src=seo_token; stake-dao-yield (Fraxtal), 31.50% APY, $109.7K TVL, https://www.defi.garden/?pool=4d66e5e2-02a7-45fc-be6b-50dc4d206ac3#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=1863bcee-a2ff-44d3-aa59-f81667be97c2#src=seo_token) | Ethereum | 1.11% | $146.6K |
-| 2 | [frax →](https://www.defi.garden/?pool=cb446ce4-bc96-4ab2-ab92-803d70e94a6b#src=seo_token) | Ethereum | 0.36% | $2.11M |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=f071ba3c-20a5-4e7a-b058-963aca464e10#src=seo_token) | Fraxtal | 27.85% | $150.4K |
-| 4 | [stake-dao-yield →](https://www.defi.garden/?pool=4d66e5e2-02a7-45fc-be6b-50dc4d206ac3#src=seo_token) | Fraxtal | 31.14% | $108.2K |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=1863bcee-a2ff-44d3-aa59-f81667be97c2#src=seo_token) | Ethereum | 0.51% | $150.6K |
+| 2 | [frax →](https://www.defi.garden/?pool=cb446ce4-bc96-4ab2-ab92-803d70e94a6b#src=seo_token) | Ethereum | 0.40% | $2.16M |
+| 3 | [curve-dex →](https://www.defi.garden/?pool=f071ba3c-20a5-4e7a-b058-963aca464e10#src=seo_token) | Fraxtal | 22.99% | $153.5K |
+| 4 | [stake-dao-yield →](https://www.defi.garden/?pool=4d66e5e2-02a7-45fc-be6b-50dc4d206ac3#src=seo_token) | Fraxtal | 31.50% | $109.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WFRAX shows up in 4 pools here, with rates from 0.36% to 31.14% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+WFRAX shows up in 4 pools here, with rates from 0.40% to 31.50% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 11.26% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 11.28% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 4 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -37,10 +37,10 @@ WFRAX shows up in 4 pools here, with rates from 0.36% to 31.14% APY across 2 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| frax | 0.36% | 0.17% | Base rate |
-| curve-dex | 27.85% | 22.36% | 73.22% incentives |
-| curve-dex | 1.11% | 0.17% | Base rate |
-| stake-dao-yield | 31.14% | 30.66% | 92.45% incentives |
+| frax | 0.40% | 0.18% | Base rate |
+| curve-dex | 22.99% | 22.37% | 88.99% incentives |
+| curve-dex | 0.51% | 0.19% | Base rate |
+| stake-dao-yield | 31.50% | 30.62% | 91.97% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -48,11 +48,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WFRAX yield today?
 
-31.14% APY on stake-dao-yield (Fraxtal), based on live DefiLlama data.
+31.50% APY on stake-dao-yield (Fraxtal), based on live DefiLlama data.
 
 ### How many WFRAX pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $3.22M in total.
+7 live pools clear this page's $100K TVL floor, $3.27M in total.
 
 ### Are these rates safe?
 
@@ -60,7 +60,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WFRAX pools have the most stable APY history?
 
-Based on APY history only, WFRAX's lower-variability candidates are curve-dex (Ethereum), 1.11% APY, $146.6K TVL, https://www.defi.garden/?pool=1863bcee-a2ff-44d3-aa59-f81667be97c2#src=seo_token; frax (Ethereum), 0.36% APY, $2.11M TVL, https://www.defi.garden/?pool=cb446ce4-bc96-4ab2-ab92-803d70e94a6b#src=seo_token; curve-dex (Fraxtal), 27.85% APY, $150.4K TVL, https://www.defi.garden/?pool=f071ba3c-20a5-4e7a-b058-963aca464e10#src=seo_token; stake-dao-yield (Fraxtal), 31.14% APY, $108.2K TVL, https://www.defi.garden/?pool=4d66e5e2-02a7-45fc-be6b-50dc4d206ac3#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WFRAX's lower-variability candidates are curve-dex (Ethereum), 0.51% APY, $150.6K TVL, https://www.defi.garden/?pool=1863bcee-a2ff-44d3-aa59-f81667be97c2#src=seo_token; frax (Ethereum), 0.40% APY, $2.16M TVL, https://www.defi.garden/?pool=cb446ce4-bc96-4ab2-ab92-803d70e94a6b#src=seo_token; curve-dex (Fraxtal), 22.99% APY, $153.5K TVL, https://www.defi.garden/?pool=f071ba3c-20a5-4e7a-b058-963aca464e10#src=seo_token; stake-dao-yield (Fraxtal), 31.50% APY, $109.7K TVL, https://www.defi.garden/?pool=4d66e5e2-02a7-45fc-be6b-50dc4d206ac3#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -76,4 +76,4 @@ Based on APY history only, WFRAX's lower-variability candidates are curve-dex (E
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Fraxtal](https://www.defi.garden/chains/fraxtal)
 
-## Last updated October 11, 2026
+## Last updated October 12, 2026

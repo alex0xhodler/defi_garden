@@ -1,31 +1,31 @@
 # STONKS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
 
-The highest honest STONKS yield right now is 0.01% on hyperswap-v2 (Hyperliquid L1), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STONKS yield right now is 0.03% on hyperswap-v2 (Hyperliquid L1), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=2ca06d81-f94d-5f41-86fd-7e3062149357#src=seo_token) | Solana | 19.84% | $313K |
-| [hyperswap-v2 →](https://www.defi.garden/?pool=0ec69e97-4f27-42b2-8d88-02a97f5fa1f2#src=seo_token) | Hyperliquid L1 | 0.01% | $111.2K |
+| [hyperswap-v2 →](https://www.defi.garden/?pool=0ec69e97-4f27-42b2-8d88-02a97f5fa1f2#src=seo_token) | Hyperliquid L1 | 0.03% | $113.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, STONKS's lower-variability candidates are hyperswap-v2 (Hyperliquid L1), 0.01% APY, $111.2K TVL, https://www.defi.garden/?pool=0ec69e97-4f27-42b2-8d88-02a97f5fa1f2#src=seo_token; raydium-amm (Solana), 19.84% APY, $313K TVL, https://www.defi.garden/?pool=2ca06d81-f94d-5f41-86fd-7e3062149357#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STONKS's lower-variability candidates are hyperswap-v2 (Hyperliquid L1), 0.03% APY, $113.7K TVL, https://www.defi.garden/?pool=0ec69e97-4f27-42b2-8d88-02a97f5fa1f2#src=seo_token; raydium-amm (Solana), 19.84% APY, $313K TVL, https://www.defi.garden/?pool=2ca06d81-f94d-5f41-86fd-7e3062149357#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [hyperswap-v2 →](https://www.defi.garden/?pool=0ec69e97-4f27-42b2-8d88-02a97f5fa1f2#src=seo_token) | Hyperliquid L1 | 0.01% | $111.2K |
+| 1 | [hyperswap-v2 →](https://www.defi.garden/?pool=0ec69e97-4f27-42b2-8d88-02a97f5fa1f2#src=seo_token) | Hyperliquid L1 | 0.03% | $113.7K |
 | 2 | [raydium-amm →](https://www.defi.garden/?pool=2ca06d81-f94d-5f41-86fd-7e3062149357#src=seo_token) | Solana | 19.84% | $313K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-STONKS shows up in 2 pools here, with rates from 0.01% to 19.84% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+STONKS shows up in 2 pools here, with rates from 0.03% to 19.84% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 32.56% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 27.45% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 19.84% | 65.10% | Base rate |
-| hyperswap-v2 | 0.01% | 0.01% | Base rate |
+| raydium-amm | 19.84% | 54.89% | Base rate |
+| hyperswap-v2 | 0.03% | 0.01% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest STONKS yield today?
 
-0.01% APY on hyperswap-v2 (Hyperliquid L1), based on live DefiLlama data.
+0.03% APY on hyperswap-v2 (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many STONKS pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $424.2K in total.
+2 live pools clear this page's $100K TVL floor, $426.8K in total.
 
 ### Are these rates safe?
 
@@ -54,20 +54,20 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which STONKS pools have the most stable APY history?
 
-Based on APY history only, STONKS's lower-variability candidates are hyperswap-v2 (Hyperliquid L1), 0.01% APY, $111.2K TVL, https://www.defi.garden/?pool=0ec69e97-4f27-42b2-8d88-02a97f5fa1f2#src=seo_token; raydium-amm (Solana), 19.84% APY, $313K TVL, https://www.defi.garden/?pool=2ca06d81-f94d-5f41-86fd-7e3062149357#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STONKS's lower-variability candidates are hyperswap-v2 (Hyperliquid L1), 0.03% APY, $113.7K TVL, https://www.defi.garden/?pool=0ec69e97-4f27-42b2-8d88-02a97f5fa1f2#src=seo_token; raydium-amm (Solana), 19.84% APY, $313K TVL, https://www.defi.garden/?pool=2ca06d81-f94d-5f41-86fd-7e3062149357#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
-- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [KHYPE](https://www.defi.garden/tokens/khype)
+- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated October 11, 2026
+## Last updated October 12, 2026

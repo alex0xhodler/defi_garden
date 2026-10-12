@@ -1,12 +1,12 @@
 # BTW DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
 
-The highest honest BTW yield right now is 539.25% on uniswap-v3 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BTW yield right now is 596.40% on uniswap-v3 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=a18a2dbe-eb6a-473e-b6e5-208eedd603a3#src=seo_token) | BSC | 539.25% | $147K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a18a2dbe-eb6a-473e-b6e5-208eedd603a3#src=seo_token) | BSC | 596.40% | $153.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BTW yield today?
 
-539.25% APY on uniswap-v3 (BSC), based on live DefiLlama data.
+596.40% APY on uniswap-v3 (BSC), based on live DefiLlama data.
 
 ### How many BTW pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $147K in total.
+1 live pool clear this page's $100K TVL floor, $153.3K in total.
 
 ### Are these rates safe?
 
@@ -36,14 +36,14 @@ There is not enough qualifying APY history to rank BTW pools. This view covers A
 ## Related tokens
 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USYC](https://www.defi.garden/tokens/usyc)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
 - [TRX](https://www.defi.garden/tokens/trx)
 - [BTCB](https://www.defi.garden/tokens/btcb)
+- [WBNB](https://www.defi.garden/tokens/wbnb)
 
 ## Available on
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated October 11, 2026
+## Last updated October 12, 2026

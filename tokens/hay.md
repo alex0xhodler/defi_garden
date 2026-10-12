@@ -1,6 +1,6 @@
 # HAY DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
 
 The highest honest HAY yield right now is 0.04% on wombat-exchange (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -34,7 +34,7 @@ HAY shows up in 2 pools here, with rates from 0.01% to 0.04% APY across 1 chains
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | wombat-exchange | 0.01% | 0.01% | 100.00% incentives |
-| wombat-exchange | 0.04% | 0.05% | 98.10% incentives |
+| wombat-exchange | 0.04% | 0.05% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -59,14 +59,14 @@ Based on APY history only, HAY's lower-variability candidates are wombat-exchang
 ## Related tokens
 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USYC](https://www.defi.garden/tokens/usyc)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
 - [TRX](https://www.defi.garden/tokens/trx)
 - [BTCB](https://www.defi.garden/tokens/btcb)
+- [WBNB](https://www.defi.garden/tokens/wbnb)
 
 ## Available on
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated October 11, 2026
+## Last updated October 12, 2026

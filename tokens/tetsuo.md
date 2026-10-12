@@ -1,12 +1,12 @@
 # TETSUO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
 
-The highest honest TETSUO yield right now is 27.03% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TETSUO yield right now is 3.14% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=3c2ec146-be6d-4f5c-89fa-9105f64d1014#src=seo_token) | Solana | 27.03% | $164K |
+| [raydium-amm →](https://www.defi.garden/?pool=3c2ec146-be6d-4f5c-89fa-9105f64d1014#src=seo_token) | Solana | 3.14% | $165.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TETSUO yield today?
 
-27.03% APY on raydium-amm (Solana), based on live DefiLlama data.
+3.14% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many TETSUO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $164K in total.
+1 live pool clear this page's $100K TVL floor, $165.3K in total.
 
 ### Are these rates safe?
 
@@ -37,13 +37,13 @@ There is not enough qualifying APY history to rank TETSUO pools. This view cover
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
-- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [BNSOL](https://www.defi.garden/tokens/bnsol)
+- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 11, 2026
+## Last updated October 12, 2026

@@ -1,12 +1,12 @@
 # CTM DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
 
-The highest honest CTM yield right now is 0.11% on uniswap-v4 (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CTM yield right now is 0.02% on uniswap-v4 (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=c290709e-49a9-4fa6-a4d2-ff4d78c45df5#src=seo_token) | BSC | 0.11% | $2.51M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=c290709e-49a9-4fa6-a4d2-ff4d78c45df5#src=seo_token) | BSC | 0.02% | $2.52M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,9 +17,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-CTM shows up in 1 pools here, with rates from 0.11% to 0.11% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CTM shows up in 1 pools here, with rates from 0.02% to 0.02% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 0.17% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 0.16% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -27,7 +27,7 @@ All 1 pool pays a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 0.11% | 0.17% | Base rate |
+| uniswap-v4 | 0.02% | 0.16% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CTM yield today?
 
-0.11% APY on uniswap-v4 (BSC), based on live DefiLlama data.
+0.02% APY on uniswap-v4 (BSC), based on live DefiLlama data.
 
 ### How many CTM pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $5.02M in total.
+2 live pools clear this page's $100K TVL floor, $5.06M in total.
 
 ### Are these rates safe?
 
@@ -52,14 +52,14 @@ There is not enough qualifying APY history to rank CTM pools. This view covers A
 ## Related tokens
 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USYC](https://www.defi.garden/tokens/usyc)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
 - [TRX](https://www.defi.garden/tokens/trx)
 - [BTCB](https://www.defi.garden/tokens/btcb)
+- [WBNB](https://www.defi.garden/tokens/wbnb)
 
 ## Available on
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated October 11, 2026
+## Last updated October 12, 2026

@@ -1,12 +1,12 @@
 # PSTR DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
 
-The highest honest PSTR yield right now is 286.24% on hyperswap-v3 (Hyperliquid L1), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PSTR yield right now is 177.31% on hyperswap-v2 (Hyperliquid L1), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hyperswap-v3 →](https://www.defi.garden/?pool=aaf8c772-2b46-5162-9009-52e9b0337a55#src=seo_token) | Hyperliquid L1 | 286.24% | $123K |
+| [hyperswap-v2 →](https://www.defi.garden/?pool=053a4fa2-cd08-5ff5-ba49-61bce0a61812#src=seo_token) | Hyperliquid L1 | 177.31% | $334.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,9 +17,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-PSTR shows up in 1 pools here, with rates from 286.24% to 286.24% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+PSTR shows up in 1 pools here, with rates from 177.31% to 177.31% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 286.24% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 310.38% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -27,7 +27,7 @@ All 1 pool pays a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| hyperswap-v3 | 286.24% | 286.24% | Base rate |
+| hyperswap-v2 | 177.31% | 310.38% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest PSTR yield today?
 
-286.24% APY on hyperswap-v3 (Hyperliquid L1), based on live DefiLlama data.
+177.31% APY on hyperswap-v2 (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many PSTR pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $250.3K in total.
+2 live pools clear this page's $100K TVL floor, $462.1K in total.
 
 ### Are these rates safe?
 
@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank PSTR pools. This view covers 
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated October 11, 2026
+## Last updated October 12, 2026

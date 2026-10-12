@@ -1,15 +1,15 @@
 # ZC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
 
-The highest honest ZC yield right now is 204.14% on uniswap-v2 (Base), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZC yield right now is 402.51% on uniswap-v4 (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=8aa37b75-ae41-5980-8f84-250aacc016d6#src=seo_token) | Ethereum | 662.95% | $359.7K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=4ce12363-9513-5f84-b003-9d874e265c83#src=seo_token) | Base | 204.14% | $322.5K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=88362329-5b46-5eb9-8fa3-aa9f8497968c#src=seo_token) | Ethereum | 761.33% | $294.6K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=bd1a6986-bf19-586a-b794-cbbf9fd83d6c#src=seo_token) | Ethereum | 7.11% | $158.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=8aa37b75-ae41-5980-8f84-250aacc016d6#src=seo_token) | Ethereum | 157.75% | $343K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=88362329-5b46-5eb9-8fa3-aa9f8497968c#src=seo_token) | Ethereum | 307.13% | $253.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=bd1a6986-bf19-586a-b794-cbbf9fd83d6c#src=seo_token) | Ethereum | 2.72% | $144K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=cbd3b8f0-82c1-5478-8c9d-09cc9ec6b476#src=seo_token) | Ethereum | 402.51% | $125.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -20,9 +20,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-ZC shows up in 4 pools here, with rates from 7.11% to 761.33% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
-
-1 of these 4 pools has a trustworthy 30-day average on file, with a median of 238.52% — a useful check against today's number for whether the rate is steady or just having a good day.
+ZC shows up in 4 pools here, with rates from 2.72% to 402.51% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -30,10 +28,10 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 662.95% | — | Base rate |
-| uniswap-v2 | 204.14% | 238.52% | Base rate |
-| uniswap-v4 | 761.33% | — | Base rate |
-| uniswap-v4 | 7.11% | — | Base rate |
+| uniswap-v4 | 157.75% | — | Base rate |
+| uniswap-v4 | 307.13% | — | Base rate |
+| uniswap-v4 | 2.72% | — | Base rate |
+| uniswap-v4 | 402.51% | — | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -41,11 +39,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ZC yield today?
 
-204.14% APY on uniswap-v2 (Base), based on live DefiLlama data.
+402.51% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many ZC pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $1.62M in total.
+6 live pools clear this page's $100K TVL floor, $1.31M in total.
 
 ### Are these rates safe?
 
@@ -67,6 +65,5 @@ There is not enough qualifying APY history to rank ZC pools. This view covers AP
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
-- [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 11, 2026
+## Last updated October 12, 2026

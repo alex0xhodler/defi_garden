@@ -1,31 +1,26 @@
 # LTC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
 
-The highest honest LTC yield right now is 0.04% on venus-core-pool (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LTC yield right now is 1.08% on uniswap-v4 (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [venus-core-pool →](https://www.defi.garden/?pool=15cbd370-c6dd-4258-89a4-4623e17c2865#src=seo_token) | BSC | 0.04% | $2.77M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b9eb784d-d154-4f26-8fdd-74929e028aa9#src=seo_token) | BSC | 3.67% | $197.3K |
+| [venus-core-pool →](https://www.defi.garden/?pool=15cbd370-c6dd-4258-89a4-4623e17c2865#src=seo_token) | BSC | 0.04% | $2.85M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=68345d3b-fbed-557f-b03e-eeb852172519#src=seo_token) | BSC | 1.08% | $112.4K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, LTC's lower-variability candidates are venus-core-pool (BSC), 0.04% APY, $2.77M TVL, https://www.defi.garden/?pool=15cbd370-c6dd-4258-89a4-4623e17c2865#src=seo_token; uniswap-v3 (BSC), 3.67% APY, $197.3K TVL, https://www.defi.garden/?pool=b9eb784d-d154-4f26-8fdd-74929e028aa9#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [venus-core-pool →](https://www.defi.garden/?pool=15cbd370-c6dd-4258-89a4-4623e17c2865#src=seo_token) | BSC | 0.04% | $2.77M |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=b9eb784d-d154-4f26-8fdd-74929e028aa9#src=seo_token) | BSC | 3.67% | $197.3K |
+There is not enough qualifying APY history to rank LTC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-LTC shows up in 2 pools here, with rates from 0.04% to 3.67% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+LTC shows up in 2 pools here, with rates from 0.04% to 1.08% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 9.87% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.56% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -34,7 +29,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | venus-core-pool | 0.04% | 0.04% | Base rate |
-| uniswap-v3 | 3.67% | 19.69% | Base rate |
+| uniswap-v4 | 1.08% | 1.08% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest LTC yield today?
 
-0.04% APY on venus-core-pool (BSC), based on live DefiLlama data.
+1.08% APY on uniswap-v4 (BSC), based on live DefiLlama data.
 
 ### How many LTC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $2.97M in total.
+2 live pools clear this page's $100K TVL floor, $2.96M in total.
 
 ### Are these rates safe?
 
@@ -54,19 +49,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which LTC pools have the most stable APY history?
 
-Based on APY history only, LTC's lower-variability candidates are venus-core-pool (BSC), 0.04% APY, $2.77M TVL, https://www.defi.garden/?pool=15cbd370-c6dd-4258-89a4-4623e17c2865#src=seo_token; uniswap-v3 (BSC), 3.67% APY, $197.3K TVL, https://www.defi.garden/?pool=b9eb784d-d154-4f26-8fdd-74929e028aa9#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank LTC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USYC](https://www.defi.garden/tokens/usyc)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
 - [TRX](https://www.defi.garden/tokens/trx)
 - [BTCB](https://www.defi.garden/tokens/btcb)
+- [WBNB](https://www.defi.garden/tokens/wbnb)
 
 ## Available on
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated October 11, 2026
+## Last updated October 12, 2026

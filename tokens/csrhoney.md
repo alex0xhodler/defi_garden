@@ -1,12 +1,12 @@
 # CSRHONEY DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
 
-The highest honest CSRHONEY yield right now is 8.26% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CSRHONEY yield right now is 8.91% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=4aa13699-f779-47aa-aa34-078c3a8b489e#src=seo_token) | Berachain | 8.26% | $2.85M |
+| [berapaw →](https://www.defi.garden/?pool=4aa13699-f779-47aa-aa34-078c3a8b489e#src=seo_token) | Berachain | 8.91% | $2.84M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CSRHONEY yield today?
 
-8.26% APY on berapaw (Berachain), based on live DefiLlama data.
+8.91% APY on berapaw (Berachain), based on live DefiLlama data.
 
 ### How many CSRHONEY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.85M in total.
+1 live pool clear this page's $100K TVL floor, $2.84M in total.
 
 ### Are these rates safe?
 
@@ -36,14 +36,14 @@ There is not enough qualifying APY history to rank CSRHONEY pools. This view cov
 ## Related tokens
 
 - [IBERA](https://www.defi.garden/tokens/ibera)
-- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [BUSD](https://www.defi.garden/tokens/busd)
 - [RE7HONEY](https://www.defi.garden/tokens/re7honey)
 - [HONEY](https://www.defi.garden/tokens/honey)
 - [KODIUSDE](https://www.defi.garden/tokens/kodiusde)
+- [KODIWBTC](https://www.defi.garden/tokens/kodiwbtc)
 
 ## Available on
 
 - [Berachain](https://www.defi.garden/chains/berachain)
 
-## Last updated October 11, 2026
+## Last updated October 12, 2026

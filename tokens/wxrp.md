@@ -1,12 +1,12 @@
 # WXRP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
 
-The highest honest WXRP yield right now is 3.80% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WXRP yield right now is 9.90% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=6ac5b118-6705-41aa-a7bd-fcbd111c043a#src=seo_token) | Ethereum | 3.80% | $256K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6ac5b118-6705-41aa-a7bd-fcbd111c043a#src=seo_token) | Ethereum | 9.90% | $258.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WXRP yield today?
 
-3.80% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+9.90% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many WXRP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $256K in total.
+1 live pool clear this page's $100K TVL floor, $258.2K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank WXRP pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 11, 2026
+## Last updated October 12, 2026

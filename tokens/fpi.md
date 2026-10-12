@@ -1,23 +1,23 @@
 # FPI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
 
 The highest honest FPI yield right now is 0.01% on curve-dex (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=b03c1486-fde6-4f75-a89a-068f9aa19d0f#src=seo_token) | Ethereum | 0.01% | $164.1K |
-| [convex-finance →](https://www.defi.garden/?pool=b302f3bb-ceb3-4121-95a6-6bb1fdb42326#src=seo_token) | Ethereum | 0.01% | $164K |
+| [curve-dex →](https://www.defi.garden/?pool=b03c1486-fde6-4f75-a89a-068f9aa19d0f#src=seo_token) | Ethereum | 0.01% | $164.2K |
+| [convex-finance →](https://www.defi.garden/?pool=b302f3bb-ceb3-4121-95a6-6bb1fdb42326#src=seo_token) | Ethereum | 0.01% | $164.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, FPI's lower-variability candidates are curve-dex (Ethereum), 0.01% APY, $164.1K TVL, https://www.defi.garden/?pool=b03c1486-fde6-4f75-a89a-068f9aa19d0f#src=seo_token; convex-finance (Ethereum), 0.01% APY, $164K TVL, https://www.defi.garden/?pool=b302f3bb-ceb3-4121-95a6-6bb1fdb42326#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FPI's lower-variability candidates are curve-dex (Ethereum), 0.01% APY, $164.2K TVL, https://www.defi.garden/?pool=b03c1486-fde6-4f75-a89a-068f9aa19d0f#src=seo_token; convex-finance (Ethereum), 0.01% APY, $164.1K TVL, https://www.defi.garden/?pool=b302f3bb-ceb3-4121-95a6-6bb1fdb42326#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=b03c1486-fde6-4f75-a89a-068f9aa19d0f#src=seo_token) | Ethereum | 0.01% | $164.1K |
-| 2 | [convex-finance →](https://www.defi.garden/?pool=b302f3bb-ceb3-4121-95a6-6bb1fdb42326#src=seo_token) | Ethereum | 0.01% | $164K |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=b03c1486-fde6-4f75-a89a-068f9aa19d0f#src=seo_token) | Ethereum | 0.01% | $164.2K |
+| 2 | [convex-finance →](https://www.defi.garden/?pool=b302f3bb-ceb3-4121-95a6-6bb1fdb42326#src=seo_token) | Ethereum | 0.01% | $164.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which FPI pools have the most stable APY history?
 
-Based on APY history only, FPI's lower-variability candidates are curve-dex (Ethereum), 0.01% APY, $164.1K TVL, https://www.defi.garden/?pool=b03c1486-fde6-4f75-a89a-068f9aa19d0f#src=seo_token; convex-finance (Ethereum), 0.01% APY, $164K TVL, https://www.defi.garden/?pool=b302f3bb-ceb3-4121-95a6-6bb1fdb42326#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FPI's lower-variability candidates are curve-dex (Ethereum), 0.01% APY, $164.2K TVL, https://www.defi.garden/?pool=b03c1486-fde6-4f75-a89a-068f9aa19d0f#src=seo_token; convex-finance (Ethereum), 0.01% APY, $164.1K TVL, https://www.defi.garden/?pool=b302f3bb-ceb3-4121-95a6-6bb1fdb42326#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -67,4 +67,4 @@ Based on APY history only, FPI's lower-variability candidates are curve-dex (Eth
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 11, 2026
+## Last updated October 12, 2026

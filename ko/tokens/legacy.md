@@ -1,12 +1,12 @@
 # LEGACY 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 11, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 12, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 LEGACY의 가장 높은 정직한 수익률은 Starknet의 ekubo에서 0.04%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 LEGACY의 가장 높은 정직한 수익률은 Starknet의 ekubo에서 0.03%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [ekubo →](https://www.defi.garden/?pool=adddea21-5be6-499f-b448-53ef0d9b8311#src=seo_token) | Starknet | 0.04% | $164.6K |
+| [ekubo →](https://www.defi.garden/?pool=adddea21-5be6-499f-b448-53ef0d9b8311#src=seo_token) | Starknet | 0.03% | $168.4K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,11 +19,11 @@
 
 ### 오늘 LEGACY의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Starknet의 ekubo에서 APY 0.04%예요.
+DefiLlama 실시간 데이터 기준, Starknet의 ekubo에서 APY 0.03%예요.
 
 ### LEGACY 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $164.6K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $168.4K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -39,11 +39,11 @@ DefiLlama 실시간 데이터 기준, Starknet의 ekubo에서 APY 0.04%예요.
 - [STRK](https://www.defi.garden/ko/tokens/strk)
 - [STRKBTC](https://www.defi.garden/ko/tokens/strkbtc)
 - [ZEC](https://www.defi.garden/ko/tokens/zec)
-- [XSTRK](https://www.defi.garden/ko/tokens/xstrk)
 - [USDC.E](https://www.defi.garden/ko/tokens/usdc-e)
+- [XSTRK](https://www.defi.garden/ko/tokens/xstrk)
 
 ## 이용 가능한 체인
 
 - [Starknet](https://www.defi.garden/ko/chains/starknet)
 
-## 마지막 업데이트: October 11, 2026
+## 마지막 업데이트: October 12, 2026

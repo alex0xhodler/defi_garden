@@ -1,12 +1,12 @@
 # STUFF DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
 
-The highest honest STUFF yield right now is 21.27% on minswap-dex (Cardano), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STUFF yield right now is 20.99% on minswap-dex (Cardano), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=67dccb2c-0950-488c-a65b-036fee4abf9f#src=seo_token) | Cardano | 21.27% | $214K |
+| [minswap-dex →](https://www.defi.garden/?pool=67dccb2c-0950-488c-a65b-036fee4abf9f#src=seo_token) | Cardano | 20.99% | $214.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest STUFF yield today?
 
-21.27% APY on minswap-dex (Cardano), based on live DefiLlama data.
+20.99% APY on minswap-dex (Cardano), based on live DefiLlama data.
 
 ### How many STUFF pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $214K in total.
+1 live pool clear this page's $100K TVL floor, $214.6K in total.
 
 ### Are these rates safe?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank STUFF pools. This view covers
 - [ADA](https://www.defi.garden/tokens/ada)
 - [USDM](https://www.defi.garden/tokens/usdm)
 - [USDCX](https://www.defi.garden/tokens/usdcx)
-- [USDA](https://www.defi.garden/tokens/usda)
 - [IUSD](https://www.defi.garden/tokens/iusd)
+- [USDA](https://www.defi.garden/tokens/usda)
 
 ## Available on
 
 - [Cardano](https://www.defi.garden/chains/cardano)
 
-## Last updated October 11, 2026
+## Last updated October 12, 2026

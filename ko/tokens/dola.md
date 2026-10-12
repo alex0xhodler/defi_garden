@@ -1,43 +1,43 @@
 # DOLA 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 11, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 12, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 DOLA의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 6.67%이며, $100K TVL 기준을 넘는 15개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 DOLA의 가장 높은 정직한 수익률은 Ethereum의 yearn-finance에서 6.84%이며, $100K TVL 기준을 넘는 15개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720#src=seo_token) | Ethereum | 4.33% | $60.21M |
-| [convex-finance →](https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183#src=seo_token) | Ethereum | 6.67% | $47.12M |
-| [yearn-finance →](https://www.defi.garden/?pool=77a6c1f4-fc04-47ff-aa62-090bcb20e3db#src=seo_token) | Ethereum | 6.03% | $12.94M |
-| [curve-dex →](https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1#src=seo_token) | Ethereum | 4.14% | $6.73M |
-| [convex-finance →](https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566#src=seo_token) | Ethereum | 6.30% | $5.59M |
-| [yearn-finance →](https://www.defi.garden/?pool=b6c74919-d481-4a45-8e03-60513866c112#src=seo_token) | Ethereum | 6.61% | $1.13M |
-| [curve-dex →](https://www.defi.garden/?pool=168a12f8-56b3-47e6-86d6-9de16bcb45ec#src=seo_token) | Ethereum | 2.72% | $855K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=3fb276c8-b618-4abc-b015-829b90701c07#src=seo_token) | Base | 1.59% | $329.8K |
+| [curve-dex →](https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720#src=seo_token) | Ethereum | 4.40% | $60.2M |
+| [convex-finance →](https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183#src=seo_token) | Ethereum | 6.79% | $47.11M |
+| [yearn-finance →](https://www.defi.garden/?pool=77a6c1f4-fc04-47ff-aa62-090bcb20e3db#src=seo_token) | Ethereum | 6.13% | $12.94M |
+| [curve-dex →](https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1#src=seo_token) | Ethereum | 4.23% | $6.72M |
+| [convex-finance →](https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566#src=seo_token) | Ethereum | 6.43% | $5.59M |
+| [yearn-finance →](https://www.defi.garden/?pool=b6c74919-d481-4a45-8e03-60513866c112#src=seo_token) | Ethereum | 6.84% | $1.14M |
+| [curve-dex →](https://www.defi.garden/?pool=168a12f8-56b3-47e6-86d6-9de16bcb45ec#src=seo_token) | Ethereum | 2.49% | $859.1K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=3fb276c8-b618-4abc-b015-829b90701c07#src=seo_token) | Base | 1.55% | $329.9K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 DOLA의 변동성 낮은 후보는 Base의 aerodrome-v1, APY 1.59%, TVL $329.8K, https://www.defi.garden/?pool=3fb276c8-b618-4abc-b015-829b90701c07#src=seo_token; Ethereum의 curve-dex, APY 2.72%, TVL $855K, https://www.defi.garden/?pool=168a12f8-56b3-47e6-86d6-9de16bcb45ec#src=seo_token; Ethereum의 convex-finance, APY 6.67%, TVL $47.12M, https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183#src=seo_token; Ethereum의 convex-finance, APY 6.30%, TVL $5.59M, https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566#src=seo_token; Ethereum의 yearn-finance, APY 6.03%, TVL $12.94M, https://www.defi.garden/?pool=77a6c1f4-fc04-47ff-aa62-090bcb20e3db#src=seo_token; Ethereum의 curve-dex, APY 4.33%, TVL $60.21M, https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720#src=seo_token; Ethereum의 curve-dex, APY 4.14%, TVL $6.73M, https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1#src=seo_token; Ethereum의 yearn-finance, APY 6.61%, TVL $1.13M, https://www.defi.garden/?pool=b6c74919-d481-4a45-8e03-60513866c112#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 DOLA의 변동성 낮은 후보는 Base의 aerodrome-v1, APY 1.55%, TVL $329.9K, https://www.defi.garden/?pool=3fb276c8-b618-4abc-b015-829b90701c07#src=seo_token; Ethereum의 curve-dex, APY 2.49%, TVL $859.1K, https://www.defi.garden/?pool=168a12f8-56b3-47e6-86d6-9de16bcb45ec#src=seo_token; Ethereum의 convex-finance, APY 6.79%, TVL $47.11M, https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183#src=seo_token; Ethereum의 convex-finance, APY 6.43%, TVL $5.59M, https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566#src=seo_token; Ethereum의 yearn-finance, APY 6.13%, TVL $12.94M, https://www.defi.garden/?pool=77a6c1f4-fc04-47ff-aa62-090bcb20e3db#src=seo_token; Ethereum의 curve-dex, APY 4.40%, TVL $60.2M, https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720#src=seo_token; Ethereum의 curve-dex, APY 4.23%, TVL $6.72M, https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1#src=seo_token; Ethereum의 yearn-finance, APY 6.84%, TVL $1.14M, https://www.defi.garden/?pool=b6c74919-d481-4a45-8e03-60513866c112#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=3fb276c8-b618-4abc-b015-829b90701c07#src=seo_token) | Base | 1.59% | $329.8K |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=168a12f8-56b3-47e6-86d6-9de16bcb45ec#src=seo_token) | Ethereum | 2.72% | $855K |
-| 3 | [convex-finance →](https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183#src=seo_token) | Ethereum | 6.67% | $47.12M |
-| 4 | [convex-finance →](https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566#src=seo_token) | Ethereum | 6.30% | $5.59M |
-| 5 | [yearn-finance →](https://www.defi.garden/?pool=77a6c1f4-fc04-47ff-aa62-090bcb20e3db#src=seo_token) | Ethereum | 6.03% | $12.94M |
-| 6 | [curve-dex →](https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720#src=seo_token) | Ethereum | 4.33% | $60.21M |
-| 7 | [curve-dex →](https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1#src=seo_token) | Ethereum | 4.14% | $6.73M |
-| 8 | [yearn-finance →](https://www.defi.garden/?pool=b6c74919-d481-4a45-8e03-60513866c112#src=seo_token) | Ethereum | 6.61% | $1.13M |
+| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=3fb276c8-b618-4abc-b015-829b90701c07#src=seo_token) | Base | 1.55% | $329.9K |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=168a12f8-56b3-47e6-86d6-9de16bcb45ec#src=seo_token) | Ethereum | 2.49% | $859.1K |
+| 3 | [convex-finance →](https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183#src=seo_token) | Ethereum | 6.79% | $47.11M |
+| 4 | [convex-finance →](https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566#src=seo_token) | Ethereum | 6.43% | $5.59M |
+| 5 | [yearn-finance →](https://www.defi.garden/?pool=77a6c1f4-fc04-47ff-aa62-090bcb20e3db#src=seo_token) | Ethereum | 6.13% | $12.94M |
+| 6 | [curve-dex →](https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720#src=seo_token) | Ethereum | 4.40% | $60.2M |
+| 7 | [curve-dex →](https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1#src=seo_token) | Ethereum | 4.23% | $6.72M |
+| 8 | [yearn-finance →](https://www.defi.garden/?pool=b6c74919-d481-4a45-8e03-60513866c112#src=seo_token) | Ethereum | 6.84% | $1.14M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-DOLA 풀은 여기 8개가 있고, 2개 체인에서 APY가 1.59%부터 6.67%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+DOLA 풀은 여기 8개가 있고, 2개 체인에서 APY가 1.55%부터 6.84%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 4.94%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 4.98%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 5개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -45,14 +45,14 @@ DOLA 풀은 여기 8개가 있고, 2개 체인에서 APY가 1.59%부터 6.67%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| curve-dex | 4.33% | 4.18% | 인센티브 69.49% |
-| convex-finance | 6.67% | 5.70% | 인센티브 80.20% |
-| yearn-finance | 6.03% | 5.97% | 기본 금리 |
-| curve-dex | 4.14% | 4.12% | 인센티브 76.80% |
-| convex-finance | 6.30% | 5.85% | 인센티브 84.76% |
-| yearn-finance | 6.61% | 6.89% | 기본 금리 |
-| curve-dex | 2.72% | 3.22% | 기본 금리 |
-| aerodrome-v1 | 1.59% | 1.29% | 인센티브 100.00% |
+| curve-dex | 4.40% | 4.20% | 인센티브 69.79% |
+| convex-finance | 6.79% | 5.77% | 인센티브 80.41% |
+| yearn-finance | 6.13% | 5.99% | 기본 금리 |
+| curve-dex | 4.23% | 4.14% | 인센티브 76.84% |
+| convex-finance | 6.43% | 5.90% | 인센티브 84.76% |
+| yearn-finance | 6.84% | 6.89% | 기본 금리 |
+| curve-dex | 2.49% | 3.18% | 기본 금리 |
+| aerodrome-v1 | 1.55% | 1.30% | 인센티브 100.00% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -60,11 +60,11 @@ DOLA 풀은 여기 8개가 있고, 2개 체인에서 APY가 1.59%부터 6.67%까
 
 ### 오늘 DOLA의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 6.67%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 yearn-finance에서 APY 6.84%예요.
 
 ### DOLA 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 15개이며, 합산 TVL은 $202.1M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 15개이며, 합산 TVL은 $202.11M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -72,7 +72,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 6.67%
 
 ### DOLA 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 DOLA의 변동성 낮은 후보는 Base의 aerodrome-v1, APY 1.59%, TVL $329.8K, https://www.defi.garden/?pool=3fb276c8-b618-4abc-b015-829b90701c07#src=seo_token; Ethereum의 curve-dex, APY 2.72%, TVL $855K, https://www.defi.garden/?pool=168a12f8-56b3-47e6-86d6-9de16bcb45ec#src=seo_token; Ethereum의 convex-finance, APY 6.67%, TVL $47.12M, https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183#src=seo_token; Ethereum의 convex-finance, APY 6.30%, TVL $5.59M, https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566#src=seo_token; Ethereum의 yearn-finance, APY 6.03%, TVL $12.94M, https://www.defi.garden/?pool=77a6c1f4-fc04-47ff-aa62-090bcb20e3db#src=seo_token; Ethereum의 curve-dex, APY 4.33%, TVL $60.21M, https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720#src=seo_token; Ethereum의 curve-dex, APY 4.14%, TVL $6.73M, https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1#src=seo_token; Ethereum의 yearn-finance, APY 6.61%, TVL $1.13M, https://www.defi.garden/?pool=b6c74919-d481-4a45-8e03-60513866c112#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 DOLA의 변동성 낮은 후보는 Base의 aerodrome-v1, APY 1.55%, TVL $329.9K, https://www.defi.garden/?pool=3fb276c8-b618-4abc-b015-829b90701c07#src=seo_token; Ethereum의 curve-dex, APY 2.49%, TVL $859.1K, https://www.defi.garden/?pool=168a12f8-56b3-47e6-86d6-9de16bcb45ec#src=seo_token; Ethereum의 convex-finance, APY 6.79%, TVL $47.11M, https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183#src=seo_token; Ethereum의 convex-finance, APY 6.43%, TVL $5.59M, https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566#src=seo_token; Ethereum의 yearn-finance, APY 6.13%, TVL $12.94M, https://www.defi.garden/?pool=77a6c1f4-fc04-47ff-aa62-090bcb20e3db#src=seo_token; Ethereum의 curve-dex, APY 4.40%, TVL $60.2M, https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720#src=seo_token; Ethereum의 curve-dex, APY 4.23%, TVL $6.72M, https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1#src=seo_token; Ethereum의 yearn-finance, APY 6.84%, TVL $1.14M, https://www.defi.garden/?pool=b6c74919-d481-4a45-8e03-60513866c112#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -88,4 +88,4 @@ APY 이력만 기준으로 비교한 DOLA의 변동성 낮은 후보는 Base의 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: October 11, 2026
+## 마지막 업데이트: October 12, 2026

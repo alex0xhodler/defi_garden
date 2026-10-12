@@ -1,31 +1,31 @@
 # MIM DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
 
-The highest honest MIM yield right now is 32.15% on convex-finance (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MIM yield right now is 31.96% on convex-finance (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=fb6676ba-0a45-44c8-86f6-63956956ebe1#src=seo_token) | Ethereum | 17.11% | $140.3K |
-| [convex-finance →](https://www.defi.garden/?pool=8a20c472-142c-4442-b724-40f2183c073e#src=seo_token) | Ethereum | 32.15% | $102.8K |
+| [curve-dex →](https://www.defi.garden/?pool=fb6676ba-0a45-44c8-86f6-63956956ebe1#src=seo_token) | Ethereum | 17.04% | $144K |
+| [convex-finance →](https://www.defi.garden/?pool=8a20c472-142c-4442-b724-40f2183c073e#src=seo_token) | Ethereum | 31.96% | $105.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, MIM's lower-variability candidates are curve-dex (Ethereum), 17.11% APY, $140.3K TVL, https://www.defi.garden/?pool=fb6676ba-0a45-44c8-86f6-63956956ebe1#src=seo_token; convex-finance (Ethereum), 32.15% APY, $102.8K TVL, https://www.defi.garden/?pool=8a20c472-142c-4442-b724-40f2183c073e#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MIM's lower-variability candidates are curve-dex (Ethereum), 17.04% APY, $144K TVL, https://www.defi.garden/?pool=fb6676ba-0a45-44c8-86f6-63956956ebe1#src=seo_token; convex-finance (Ethereum), 31.96% APY, $105.5K TVL, https://www.defi.garden/?pool=8a20c472-142c-4442-b724-40f2183c073e#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=fb6676ba-0a45-44c8-86f6-63956956ebe1#src=seo_token) | Ethereum | 17.11% | $140.3K |
-| 2 | [convex-finance →](https://www.defi.garden/?pool=8a20c472-142c-4442-b724-40f2183c073e#src=seo_token) | Ethereum | 32.15% | $102.8K |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=fb6676ba-0a45-44c8-86f6-63956956ebe1#src=seo_token) | Ethereum | 17.04% | $144K |
+| 2 | [convex-finance →](https://www.defi.garden/?pool=8a20c472-142c-4442-b724-40f2183c073e#src=seo_token) | Ethereum | 31.96% | $105.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-MIM shows up in 2 pools here, with rates from 17.11% to 32.15% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+MIM shows up in 2 pools here, with rates from 17.04% to 31.96% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 32.73% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 32.59% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 2 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -33,8 +33,8 @@ MIM shows up in 2 pools here, with rates from 17.11% to 32.15% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 17.11% | 22.06% | 99.82% incentives |
-| convex-finance | 32.15% | 43.40% | 99.91% incentives |
+| curve-dex | 17.04% | 21.94% | 99.88% incentives |
+| convex-finance | 31.96% | 43.23% | 99.94% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MIM yield today?
 
-32.15% APY on convex-finance (Ethereum), based on live DefiLlama data.
+31.96% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many MIM pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $919.9K in total.
+3 live pools clear this page's $100K TVL floor, $1.01M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which MIM pools have the most stable APY history?
 
-Based on APY history only, MIM's lower-variability candidates are curve-dex (Ethereum), 17.11% APY, $140.3K TVL, https://www.defi.garden/?pool=fb6676ba-0a45-44c8-86f6-63956956ebe1#src=seo_token; convex-finance (Ethereum), 32.15% APY, $102.8K TVL, https://www.defi.garden/?pool=8a20c472-142c-4442-b724-40f2183c073e#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MIM's lower-variability candidates are curve-dex (Ethereum), 17.04% APY, $144K TVL, https://www.defi.garden/?pool=fb6676ba-0a45-44c8-86f6-63956956ebe1#src=seo_token; convex-finance (Ethereum), 31.96% APY, $105.5K TVL, https://www.defi.garden/?pool=8a20c472-142c-4442-b724-40f2183c073e#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +69,4 @@ Based on APY history only, MIM's lower-variability candidates are curve-dex (Eth
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 11, 2026
+## Last updated October 12, 2026

@@ -1,12 +1,12 @@
 # XPR DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
 
-The highest honest XPR yield right now is 57.90% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XPR yield right now is 32.63% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=005c20d2-5e52-47eb-b814-47d870a608d2#src=seo_token) | Ethereum | 57.90% | $101.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=005c20d2-5e52-47eb-b814-47d870a608d2#src=seo_token) | Ethereum | 32.63% | $101.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest XPR yield today?
 
-57.90% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+32.63% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many XPR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $101.1K in total.
+1 live pool clear this page's $100K TVL floor, $101.6K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank XPR pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 11, 2026
+## Last updated October 12, 2026

@@ -1,31 +1,31 @@
 # SMON DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
 
-The highest honest SMON yield right now is 12.68% on kintsu (Monad), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SMON yield right now is 14.62% on kintsu (Monad), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [kintsu →](https://www.defi.garden/?pool=73c511a9-4dc0-4397-babe-e578fd75f0dd#src=seo_token) | Monad | 12.68% | $1.85M |
-| [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7#src=seo_token) | Monad | 8.00% | $508.6K |
+| [kintsu →](https://www.defi.garden/?pool=73c511a9-4dc0-4397-babe-e578fd75f0dd#src=seo_token) | Monad | 14.62% | $1.94M |
+| [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7#src=seo_token) | Monad | 8.00% | $508.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SMON's lower-variability candidates are kintsu (Monad), 12.68% APY, $1.85M TVL, https://www.defi.garden/?pool=73c511a9-4dc0-4397-babe-e578fd75f0dd#src=seo_token; curve-dex (Monad), 8.00% APY, $508.6K TVL, https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SMON's lower-variability candidates are kintsu (Monad), 14.62% APY, $1.94M TVL, https://www.defi.garden/?pool=73c511a9-4dc0-4397-babe-e578fd75f0dd#src=seo_token; curve-dex (Monad), 8.00% APY, $508.9K TVL, https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [kintsu →](https://www.defi.garden/?pool=73c511a9-4dc0-4397-babe-e578fd75f0dd#src=seo_token) | Monad | 12.68% | $1.85M |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7#src=seo_token) | Monad | 8.00% | $508.6K |
+| 1 | [kintsu →](https://www.defi.garden/?pool=73c511a9-4dc0-4397-babe-e578fd75f0dd#src=seo_token) | Monad | 14.62% | $1.94M |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7#src=seo_token) | Monad | 8.00% | $508.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SMON shows up in 2 pools here, with rates from 8.00% to 12.68% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SMON shows up in 2 pools here, with rates from 8.00% to 14.62% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 8.99% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 9.06% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -33,8 +33,8 @@ SMON shows up in 2 pools here, with rates from 8.00% to 12.68% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| kintsu | 12.68% | 11.72% | Base rate |
-| curve-dex | 8.00% | 6.27% | 100.00% incentives |
+| kintsu | 14.62% | 11.76% | Base rate |
+| curve-dex | 8.00% | 6.36% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SMON yield today?
 
-12.68% APY on kintsu (Monad), based on live DefiLlama data.
+14.62% APY on kintsu (Monad), based on live DefiLlama data.
 
 ### How many SMON pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $2.87M in total.
+4 live pools clear this page's $100K TVL floor, $2.98M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SMON pools have the most stable APY history?
 
-Based on APY history only, SMON's lower-variability candidates are kintsu (Monad), 12.68% APY, $1.85M TVL, https://www.defi.garden/?pool=73c511a9-4dc0-4397-babe-e578fd75f0dd#src=seo_token; curve-dex (Monad), 8.00% APY, $508.6K TVL, https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SMON's lower-variability candidates are kintsu (Monad), 14.62% APY, $1.94M TVL, https://www.defi.garden/?pool=73c511a9-4dc0-4397-babe-e578fd75f0dd#src=seo_token; curve-dex (Monad), 8.00% APY, $508.9K TVL, https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +69,4 @@ Based on APY history only, SMON's lower-variability candidates are kintsu (Monad
 
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated October 11, 2026
+## Last updated October 12, 2026

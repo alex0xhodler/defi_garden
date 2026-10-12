@@ -1,17 +1,17 @@
 # Polkadot DeFi Yields
 
-The highest honest Polkadot yield right now is 16.06% on hydration-dex (Polkadot), among 28 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Polkadot yield right now is 15.82% on hydration-dex (Polkadot), among 28 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| VDOT | [bifrost-liquid-staking →](https://www.defi.garden/?pool=ff05ab26-971e-4e68-b1c6-c61a4c12c364#src=seo_chain) | 3.55% | $10.18M |
-| VDOT-ADOT | [hydration-dex →](https://www.defi.garden/?pool=89f2d7f2-de12-488e-9c8f-53a7625db94a#src=seo_chain) | 0.19% | $4.53M |
-| AETH-WSTETH | [hydration-dex →](https://www.defi.garden/?pool=d3c48526-63c5-48c4-a2bc-11dd4172a458#src=seo_chain) | 0.19% | $4.31M |
-| TBTC | [hydration-dex →](https://www.defi.garden/?pool=eab4ef8c-f35c-434b-a2ea-f8136f1cbc29#src=seo_chain) | 5.53% | $2.43M |
-| GETH | [hydration-dex →](https://www.defi.garden/?pool=8b5616b9-a6af-412d-b0f2-0b5708dc9d01#src=seo_chain) | 4.84% | $2.32M |
-| HOLLAR | [hydration-dex →](https://www.defi.garden/?pool=e6ae5236-a78a-4ddb-b5f7-da2fea18f96c#src=seo_chain) | 16.06% | $2.23M |
-| ADOT | [hydration-dex →](https://www.defi.garden/?pool=328f9944-f7cc-4a53-af5a-6e8eaa2fa72b#src=seo_chain) | 4.12% | $1.76M |
-| JITOSOL-ASOL | [hydration-dex →](https://www.defi.garden/?pool=262671f7-0c85-53cc-8042-571ab6e3cf18#src=seo_chain) | 0.22% | $1.71M |
+| VDOT | [bifrost-liquid-staking →](https://www.defi.garden/?pool=ff05ab26-971e-4e68-b1c6-c61a4c12c364#src=seo_chain) | 3.64% | $10.49M |
+| VDOT-ADOT | [hydration-dex →](https://www.defi.garden/?pool=89f2d7f2-de12-488e-9c8f-53a7625db94a#src=seo_chain) | 0.19% | $4.63M |
+| AETH-WSTETH | [hydration-dex →](https://www.defi.garden/?pool=d3c48526-63c5-48c4-a2bc-11dd4172a458#src=seo_chain) | 0.18% | $4.4M |
+| TBTC | [hydration-dex →](https://www.defi.garden/?pool=eab4ef8c-f35c-434b-a2ea-f8136f1cbc29#src=seo_chain) | 5.49% | $2.46M |
+| GETH | [hydration-dex →](https://www.defi.garden/?pool=8b5616b9-a6af-412d-b0f2-0b5708dc9d01#src=seo_chain) | 4.82% | $2.36M |
+| HOLLAR | [hydration-dex →](https://www.defi.garden/?pool=e6ae5236-a78a-4ddb-b5f7-da2fea18f96c#src=seo_chain) | 15.82% | $2.26M |
+| ADOT | [hydration-dex →](https://www.defi.garden/?pool=328f9944-f7cc-4a53-af5a-6e8eaa2fa72b#src=seo_chain) | 4.10% | $1.79M |
+| JITOSOL-ASOL | [hydration-dex →](https://www.defi.garden/?pool=262671f7-0c85-53cc-8042-571ab6e3cf18#src=seo_chain) | 0.21% | $1.75M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Polkadot yield today?
 
-16.06% APY on hydration-dex (Polkadot), based on live DefiLlama data.
+15.82% APY on hydration-dex (Polkadot), based on live DefiLlama data.
 
 ### How many Polkadot pools clear the TVL floor?
 
-28 live pools clear this page's $100K TVL floor, $41.46M in total.
+28 live pools clear this page's $100K TVL floor, $42.21M in total.
 
 ### Are these rates safe?
 
@@ -49,4 +49,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [HOLLAR](https://www.defi.garden/tokens/hollar)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
-## Last updated October 11, 2026
+## Last updated October 12, 2026

@@ -1,12 +1,12 @@
 # BALLZ DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
 
 The highest honest BALLZ yield right now is 0.01% on vvs-standard (Cronos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=adcdf709-5943-4cfb-b532-3921e74addb1#src=seo_token) | Cronos | 0.01% | $552.5K |
+| [vvs-standard →](https://www.defi.garden/?pool=adcdf709-5943-4cfb-b532-3921e74addb1#src=seo_token) | Cronos | 0.01% | $568.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BALLZ pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $552.5K in total.
+1 live pool clear this page's $100K TVL floor, $568.4K in total.
 
 ### Are these rates safe?
 
@@ -37,13 +37,13 @@ There is not enough qualifying APY history to rank BALLZ pools. This view covers
 
 - [XLM](https://www.defi.garden/tokens/xlm)
 - [WCRO](https://www.defi.garden/tokens/wcro)
-- [PAXG](https://www.defi.garden/tokens/paxg)
 - [VVS](https://www.defi.garden/tokens/vvs)
 - [CDCETH](https://www.defi.garden/tokens/cdceth)
+- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [XRP](https://www.defi.garden/tokens/xrp)
 
 ## Available on
 
 - [Cronos](https://www.defi.garden/chains/cronos)
 
-## Last updated October 11, 2026
+## Last updated October 12, 2026

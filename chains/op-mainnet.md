@@ -1,17 +1,17 @@
 # OP Mainnet DeFi Yields
 
-The highest honest OP Mainnet yield right now is 5.30% on zerobase-cedefi (OP Mainnet), among 182 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OP Mainnet yield right now is 61.69% on uniswap-v3 (OP Mainnet), among 182 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| BUIDL | [blackrock-buidl →](https://www.defi.garden/?pool=a12d730b-9f47-47f9-95b6-c8689faf966c#src=seo_chain) | 3.47% | $26.49M |
-| WBTC | [aave-v3 →](https://www.defi.garden/?pool=e053590b-54f1-40aa-ae0d-14e701ca734c#src=seo_chain) | 0.02% | $14.74M |
-| ETH | [midas-rwa →](https://www.defi.garden/?pool=7380a44d-da0e-460b-b149-0c2f2f271316#src=seo_chain) | 2.00% | $12.13M |
-| USDT | [zerobase-cedefi →](https://www.defi.garden/?pool=08ab92f4-a0e0-4660-9349-54596b224ebe#src=seo_chain) | 5.30% | $8.09M |
-| USD₮0-USDT | [velodrome-v3 →](https://www.defi.garden/?pool=3a1cf484-1082-4fcd-8ff0-3e1429ef2cdd#src=seo_chain) | 0.70% | $6.26M |
-| WETH | [aave-v3 →](https://www.defi.garden/?pool=3e332a41-3a15-41bc-8d5c-438c09609349#src=seo_chain) | 1.08% | $6.07M |
-| USDC-WETH | [uniswap-v3 →](https://www.defi.garden/?pool=b2cca178-6e44-4e34-bdec-693994727bc4#src=seo_chain) | 5.36% | $5.5M |
+| WBTC | [aave-v3 →](https://www.defi.garden/?pool=e053590b-54f1-40aa-ae0d-14e701ca734c#src=seo_chain) | 0.02% | $14.91M |
+| ETH | [midas-rwa →](https://www.defi.garden/?pool=7380a44d-da0e-460b-b149-0c2f2f271316#src=seo_chain) | 2.00% | $12.42M |
+| USDT | [zerobase-cedefi →](https://www.defi.garden/?pool=08ab92f4-a0e0-4660-9349-54596b224ebe#src=seo_chain) | 5.30% | $8.1M |
+| USD₮0-USDT | [velodrome-v3 →](https://www.defi.garden/?pool=3a1cf484-1082-4fcd-8ff0-3e1429ef2cdd#src=seo_chain) | 0.67% | $6.26M |
+| WETH | [aave-v3 →](https://www.defi.garden/?pool=3e332a41-3a15-41bc-8d5c-438c09609349#src=seo_chain) | 1.08% | $6.18M |
+| USDC-WETH | [uniswap-v3 →](https://www.defi.garden/?pool=b2cca178-6e44-4e34-bdec-693994727bc4#src=seo_chain) | 61.69% | $5.52M |
 | SUSDS | [sky-lending →](https://www.defi.garden/?pool=0af18cf7-b21c-5a85-93e5-bd58289a2d6d#src=seo_chain) | 3.80% | $5.14M |
+| ALETH-WETH | [velodrome-v2 →](https://www.defi.garden/?pool=e2952fae-baab-4c1e-a3fb-b4815c7e1c8d#src=seo_chain) | 7.66% | $3.45M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest OP Mainnet yield today?
 
-5.30% APY on zerobase-cedefi (OP Mainnet), based on live DefiLlama data.
+61.69% APY on uniswap-v3 (OP Mainnet), based on live DefiLlama data.
 
 ### How many OP Mainnet pools clear the TVL floor?
 
-182 live pools clear this page's $100K TVL floor, $210.56M in total.
+182 live pools clear this page's $100K TVL floor, $212.38M in total.
 
 ### Are these rates safe?
 
@@ -40,12 +40,12 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ## Top tokens on OP Mainnet
 
-- [BUIDL](https://www.defi.garden/tokens/buidl)
+- [WETH](https://www.defi.garden/tokens/weth)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [ETH](https://www.defi.garden/tokens/eth)
-- [WETH](https://www.defi.garden/tokens/weth)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [SUSDS](https://www.defi.garden/tokens/susds)
+- [ALETH](https://www.defi.garden/tokens/aleth)
 
-## Last updated October 11, 2026
+## Last updated October 12, 2026

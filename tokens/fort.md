@@ -1,12 +1,12 @@
 # FORT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
 
-The highest honest FORT yield right now is 16.27% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FORT yield right now is 10.70% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=40643c9a-567d-5558-aae8-f88509b8b5a2#src=seo_token) | Ethereum | 16.27% | $163.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=40643c9a-567d-5558-aae8-f88509b8b5a2#src=seo_token) | Ethereum | 10.70% | $165.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FORT yield today?
 
-16.27% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+10.70% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many FORT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $163.5K in total.
+1 live pool clear this page's $100K TVL floor, $165.5K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank FORT pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 11, 2026
+## Last updated October 12, 2026

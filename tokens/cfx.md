@@ -1,12 +1,12 @@
 # CFX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
 
-The highest honest CFX yield right now is 0.10% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CFX yield right now is 0.06% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=621b0964-9017-5a58-83b1-cce145c4666b#src=seo_token) | Solana | 0.10% | $5.87M |
+| [raydium-amm →](https://www.defi.garden/?pool=621b0964-9017-5a58-83b1-cce145c4666b#src=seo_token) | Solana | 0.06% | $5.87M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CFX yield today?
 
-0.10% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.06% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many CFX pools clear the TVL floor?
 
@@ -37,13 +37,13 @@ There is not enough qualifying APY history to rank CFX pools. This view covers A
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
-- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [BNSOL](https://www.defi.garden/tokens/bnsol)
+- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 11, 2026
+## Last updated October 12, 2026

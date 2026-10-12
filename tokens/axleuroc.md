@@ -1,6 +1,6 @@
 # AXLEUROC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 11, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
 
 The highest honest AXLEUROC yield right now is 8.87% on mento-v3 (Celo), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -36,14 +36,14 @@ There is not enough qualifying APY history to rank AXLEUROC pools. This view cov
 ## Related tokens
 
 - [USAT](https://www.defi.garden/tokens/usat)
-- [CELO](https://www.defi.garden/tokens/celo)
+- [WARS](https://www.defi.garden/tokens/wars)
 - [XAUT0](https://www.defi.garden/tokens/xaut0)
+- [CELO](https://www.defi.garden/tokens/celo)
 - [CUSD](https://www.defi.garden/tokens/cusd)
 - [EURM](https://www.defi.garden/tokens/eurm)
-- [CNGN](https://www.defi.garden/tokens/cngn)
 
 ## Available on
 
 - [Celo](https://www.defi.garden/chains/celo)
 
-## Last updated October 11, 2026
+## Last updated October 12, 2026

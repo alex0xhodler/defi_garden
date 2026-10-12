@@ -1,25 +1,25 @@
 # JRROYAPYUSD 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 11, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 12, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 JRROYAPYUSD의 가장 높은 정직한 수익률은 Ethereum의 pendle-v2에서 19.32%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [royco-v2 →](https://www.defi.garden/?pool=168147fa-b90d-5ffd-bfb3-9ea4e737ff5e#src=seo_token) | Ethereum | 14.68% | $1.22M |
-| [pendle-v2 →](https://www.defi.garden/?pool=3208bd1b-43c2-435e-a28c-779cdddf8453#src=seo_token) | Ethereum | 8.28% | $984.7K |
-| [pendle-v2 →](https://www.defi.garden/?pool=bfbbf2f7-d7d8-4bb7-8c4e-f7d0399f77d0#src=seo_token) | Ethereum | 19.32% | $984.7K |
+| [royco-v2 →](https://www.defi.garden/?pool=168147fa-b90d-5ffd-bfb3-9ea4e737ff5e#src=seo_token) | Ethereum | 14.65% | $1.22M |
+| [pendle-v2 →](https://www.defi.garden/?pool=3208bd1b-43c2-435e-a28c-779cdddf8453#src=seo_token) | Ethereum | 8.28% | $985K |
+| [pendle-v2 →](https://www.defi.garden/?pool=bfbbf2f7-d7d8-4bb7-8c4e-f7d0399f77d0#src=seo_token) | Ethereum | 19.32% | $985K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 JRROYAPYUSD의 변동성 낮은 후보는 Ethereum의 pendle-v2, APY 19.32%, TVL $984.7K, https://www.defi.garden/?pool=bfbbf2f7-d7d8-4bb7-8c4e-f7d0399f77d0#src=seo_token; Ethereum의 pendle-v2, APY 8.28%, TVL $984.7K, https://www.defi.garden/?pool=3208bd1b-43c2-435e-a28c-779cdddf8453#src=seo_token; Ethereum의 royco-v2, APY 14.68%, TVL $1.22M, https://www.defi.garden/?pool=168147fa-b90d-5ffd-bfb3-9ea4e737ff5e#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 JRROYAPYUSD의 변동성 낮은 후보는 Ethereum의 pendle-v2, APY 19.32%, TVL $985K, https://www.defi.garden/?pool=bfbbf2f7-d7d8-4bb7-8c4e-f7d0399f77d0#src=seo_token; Ethereum의 pendle-v2, APY 8.28%, TVL $985K, https://www.defi.garden/?pool=3208bd1b-43c2-435e-a28c-779cdddf8453#src=seo_token; Ethereum의 royco-v2, APY 14.65%, TVL $1.22M, https://www.defi.garden/?pool=168147fa-b90d-5ffd-bfb3-9ea4e737ff5e#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [pendle-v2 →](https://www.defi.garden/?pool=bfbbf2f7-d7d8-4bb7-8c4e-f7d0399f77d0#src=seo_token) | Ethereum | 19.32% | $984.7K |
-| 2 | [pendle-v2 →](https://www.defi.garden/?pool=3208bd1b-43c2-435e-a28c-779cdddf8453#src=seo_token) | Ethereum | 8.28% | $984.7K |
-| 3 | [royco-v2 →](https://www.defi.garden/?pool=168147fa-b90d-5ffd-bfb3-9ea4e737ff5e#src=seo_token) | Ethereum | 14.68% | $1.22M |
+| 1 | [pendle-v2 →](https://www.defi.garden/?pool=bfbbf2f7-d7d8-4bb7-8c4e-f7d0399f77d0#src=seo_token) | Ethereum | 19.32% | $985K |
+| 2 | [pendle-v2 →](https://www.defi.garden/?pool=3208bd1b-43c2-435e-a28c-779cdddf8453#src=seo_token) | Ethereum | 8.28% | $985K |
+| 3 | [royco-v2 →](https://www.defi.garden/?pool=168147fa-b90d-5ffd-bfb3-9ea4e737ff5e#src=seo_token) | Ethereum | 14.65% | $1.22M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -33,8 +33,8 @@ JRROYAPYUSD 풀은 여기 3개가 있고, 1개 체인에서 APY가 8.28%부터 1
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| royco-v2 | 14.68% | 75.09% | 기본 금리 |
-| pendle-v2 | 8.28% | 8.16% | 인센티브 2.33% |
+| royco-v2 | 14.65% | 70.85% | 기본 금리 |
+| pendle-v2 | 8.28% | 8.17% | 인센티브 2.39% |
 | pendle-v2 | 19.32% | 19.29% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -55,7 +55,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle-v2에서 APY 19.32%예�
 
 ### JRROYAPYUSD 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 JRROYAPYUSD의 변동성 낮은 후보는 Ethereum의 pendle-v2, APY 19.32%, TVL $984.7K, https://www.defi.garden/?pool=bfbbf2f7-d7d8-4bb7-8c4e-f7d0399f77d0#src=seo_token; Ethereum의 pendle-v2, APY 8.28%, TVL $984.7K, https://www.defi.garden/?pool=3208bd1b-43c2-435e-a28c-779cdddf8453#src=seo_token; Ethereum의 royco-v2, APY 14.68%, TVL $1.22M, https://www.defi.garden/?pool=168147fa-b90d-5ffd-bfb3-9ea4e737ff5e#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 JRROYAPYUSD의 변동성 낮은 후보는 Ethereum의 pendle-v2, APY 19.32%, TVL $985K, https://www.defi.garden/?pool=bfbbf2f7-d7d8-4bb7-8c4e-f7d0399f77d0#src=seo_token; Ethereum의 pendle-v2, APY 8.28%, TVL $985K, https://www.defi.garden/?pool=3208bd1b-43c2-435e-a28c-779cdddf8453#src=seo_token; Ethereum의 royco-v2, APY 14.65%, TVL $1.22M, https://www.defi.garden/?pool=168147fa-b90d-5ffd-bfb3-9ea4e737ff5e#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -70,4 +70,4 @@ APY 이력만 기준으로 비교한 JRROYAPYUSD의 변동성 낮은 후보는 E
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: October 11, 2026
+## 마지막 업데이트: October 12, 2026
