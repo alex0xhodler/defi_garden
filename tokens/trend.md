@@ -6,7 +6,7 @@ The highest honest TREND yield right now is 0.30% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=8443b01e-5cc9-5304-a011-907a1246fe11#src=seo_token) | Ethereum | 0.30% | $105.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=8443b01e-5cc9-5304-a011-907a1246fe11#src=seo_token) | Ethereum | 0.30% | $105.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TREND pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $105.8K in total.
+1 live pool clear this page's $100K TVL floor, $105.2K in total.
 
 ### Are these rates safe?
 

@@ -2,33 +2,33 @@
 
 *DefiLlama 데이터 생성 시점 검증: October 13, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 USDY의 가장 높은 정직한 수익률은 Sui의 cetus-clmm에서 0.10%이며, $100K TVL 기준을 넘는 12개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 USDY의 가장 높은 정직한 수익률은 Solana의 orca-dex에서 2.15%이며, $100K TVL 기준을 넘는 12개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [ondo-yield-assets →](https://www.defi.garden/ko/pools/ondo-yield-assets-usdy-ethereum) | Ethereum | 3.67% | $1.24B |
+| [ondo-yield-assets →](https://www.defi.garden/ko/pools/ondo-yield-assets-usdy-ethereum) | Ethereum | 3.67% | $1.25B |
 | [ondo-yield-assets →](https://www.defi.garden/ko/pools/ondo-yield-assets-usdy-stellar) | Stellar | 3.67% | $537.38M |
 | [ondo-yield-assets →](https://www.defi.garden/ko/pools/ondo-yield-assets-usdy-sei) | Sei | 3.67% | $259.55M |
 | [ondo-yield-assets →](https://www.defi.garden/ko/pools/ondo-yield-assets-usdy-solana) | Solana | 3.67% | $179.86M |
 | [ondo-yield-assets →](https://www.defi.garden/?pool=3007b64e-331d-425d-a7ae-33b8691da1a9#src=seo_token) | Sui | 3.67% | $14.36M |
 | [ondo-yield-assets →](https://www.defi.garden/?pool=1767cdec-8dad-4b8c-a61c-fa10ab4d3f92#src=seo_token) | Arbitrum | 3.67% | $3.14M |
-| [orca-dex →](https://www.defi.garden/?pool=22f79b01-3ba8-4a75-a12d-615151633875#src=seo_token) | Solana | 0.42% | $2.92M |
+| [orca-dex →](https://www.defi.garden/?pool=22f79b01-3ba8-4a75-a12d-615151633875#src=seo_token) | Solana | 2.15% | $2.92M |
 | [cetus-clmm →](https://www.defi.garden/?pool=3d5a0f12-4a68-4429-a109-df4a3fafddc5#src=seo_token) | Sui | 0.10% | $2.05M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 USDY의 변동성 낮은 후보는 Arbitrum의 ondo-yield-assets, APY 3.67%, TVL $3.14M, https://www.defi.garden/?pool=1767cdec-8dad-4b8c-a61c-fa10ab4d3f92#src=seo_token; Ethereum의 ondo-yield-assets, APY 3.67%, TVL $1.24B, https://www.defi.garden/ko/pools/ondo-yield-assets-usdy-ethereum; Sei의 ondo-yield-assets, APY 3.67%, TVL $259.55M, https://www.defi.garden/ko/pools/ondo-yield-assets-usdy-sei; Solana의 ondo-yield-assets, APY 3.67%, TVL $179.86M, https://www.defi.garden/ko/pools/ondo-yield-assets-usdy-solana; Stellar의 ondo-yield-assets, APY 3.67%, TVL $537.38M, https://www.defi.garden/ko/pools/ondo-yield-assets-usdy-stellar; Sui의 ondo-yield-assets, APY 3.67%, TVL $14.36M, https://www.defi.garden/?pool=3007b64e-331d-425d-a7ae-33b8691da1a9#src=seo_token; Solana의 orca-dex, APY 0.42%, TVL $2.92M, https://www.defi.garden/?pool=22f79b01-3ba8-4a75-a12d-615151633875#src=seo_token; Sui의 cetus-clmm, APY 0.10%, TVL $2.05M, https://www.defi.garden/?pool=3d5a0f12-4a68-4429-a109-df4a3fafddc5#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USDY의 변동성 낮은 후보는 Arbitrum의 ondo-yield-assets, APY 3.67%, TVL $3.14M, https://www.defi.garden/?pool=1767cdec-8dad-4b8c-a61c-fa10ab4d3f92#src=seo_token; Ethereum의 ondo-yield-assets, APY 3.67%, TVL $1.25B, https://www.defi.garden/ko/pools/ondo-yield-assets-usdy-ethereum; Sei의 ondo-yield-assets, APY 3.67%, TVL $259.55M, https://www.defi.garden/ko/pools/ondo-yield-assets-usdy-sei; Solana의 ondo-yield-assets, APY 3.67%, TVL $179.86M, https://www.defi.garden/ko/pools/ondo-yield-assets-usdy-solana; Stellar의 ondo-yield-assets, APY 3.67%, TVL $537.38M, https://www.defi.garden/ko/pools/ondo-yield-assets-usdy-stellar; Sui의 ondo-yield-assets, APY 3.67%, TVL $14.36M, https://www.defi.garden/?pool=3007b64e-331d-425d-a7ae-33b8691da1a9#src=seo_token; Solana의 orca-dex, APY 2.15%, TVL $2.92M, https://www.defi.garden/?pool=22f79b01-3ba8-4a75-a12d-615151633875#src=seo_token; Sui의 cetus-clmm, APY 0.10%, TVL $2.05M, https://www.defi.garden/?pool=3d5a0f12-4a68-4429-a109-df4a3fafddc5#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [ondo-yield-assets →](https://www.defi.garden/?pool=1767cdec-8dad-4b8c-a61c-fa10ab4d3f92#src=seo_token) | Arbitrum | 3.67% | $3.14M |
-| 2 | [ondo-yield-assets →](https://www.defi.garden/ko/pools/ondo-yield-assets-usdy-ethereum) | Ethereum | 3.67% | $1.24B |
+| 2 | [ondo-yield-assets →](https://www.defi.garden/ko/pools/ondo-yield-assets-usdy-ethereum) | Ethereum | 3.67% | $1.25B |
 | 3 | [ondo-yield-assets →](https://www.defi.garden/ko/pools/ondo-yield-assets-usdy-sei) | Sei | 3.67% | $259.55M |
 | 4 | [ondo-yield-assets →](https://www.defi.garden/ko/pools/ondo-yield-assets-usdy-solana) | Solana | 3.67% | $179.86M |
 | 5 | [ondo-yield-assets →](https://www.defi.garden/ko/pools/ondo-yield-assets-usdy-stellar) | Stellar | 3.67% | $537.38M |
 | 6 | [ondo-yield-assets →](https://www.defi.garden/?pool=3007b64e-331d-425d-a7ae-33b8691da1a9#src=seo_token) | Sui | 3.67% | $14.36M |
-| 7 | [orca-dex →](https://www.defi.garden/?pool=22f79b01-3ba8-4a75-a12d-615151633875#src=seo_token) | Solana | 0.42% | $2.92M |
+| 7 | [orca-dex →](https://www.defi.garden/?pool=22f79b01-3ba8-4a75-a12d-615151633875#src=seo_token) | Solana | 2.15% | $2.92M |
 | 8 | [cetus-clmm →](https://www.defi.garden/?pool=3d5a0f12-4a68-4429-a109-df4a3fafddc5#src=seo_token) | Sui | 0.10% | $2.05M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -49,8 +49,8 @@ USDY 풀은 여기 8개가 있고, 6개 체인에서 APY가 0.10%부터 3.67%까
 | ondo-yield-assets | 3.67% | 3.61% | 기본 금리 |
 | ondo-yield-assets | 3.67% | 3.61% | 기본 금리 |
 | ondo-yield-assets | 3.67% | 3.61% | 기본 금리 |
-| orca-dex | 0.42% | 2.07% | 기본 금리 |
-| cetus-clmm | 0.10% | 0.12% | 인센티브 45.20% |
+| orca-dex | 2.15% | 2.09% | 기본 금리 |
+| cetus-clmm | 0.10% | 0.12% | 인센티브 44.10% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -58,11 +58,11 @@ USDY 풀은 여기 8개가 있고, 6개 체인에서 APY가 0.10%부터 3.67%까
 
 ### 오늘 USDY의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Sui의 cetus-clmm에서 APY 0.10%예요.
+DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 2.15%예요.
 
 ### USDY 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 12개이며, 합산 TVL은 $2.24B예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 12개이며, 합산 TVL은 $2.25B예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -70,7 +70,7 @@ DefiLlama 실시간 데이터 기준, Sui의 cetus-clmm에서 APY 0.10%예요.
 
 ### USDY 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 USDY의 변동성 낮은 후보는 Arbitrum의 ondo-yield-assets, APY 3.67%, TVL $3.14M, https://www.defi.garden/?pool=1767cdec-8dad-4b8c-a61c-fa10ab4d3f92#src=seo_token; Ethereum의 ondo-yield-assets, APY 3.67%, TVL $1.24B, https://www.defi.garden/ko/pools/ondo-yield-assets-usdy-ethereum; Sei의 ondo-yield-assets, APY 3.67%, TVL $259.55M, https://www.defi.garden/ko/pools/ondo-yield-assets-usdy-sei; Solana의 ondo-yield-assets, APY 3.67%, TVL $179.86M, https://www.defi.garden/ko/pools/ondo-yield-assets-usdy-solana; Stellar의 ondo-yield-assets, APY 3.67%, TVL $537.38M, https://www.defi.garden/ko/pools/ondo-yield-assets-usdy-stellar; Sui의 ondo-yield-assets, APY 3.67%, TVL $14.36M, https://www.defi.garden/?pool=3007b64e-331d-425d-a7ae-33b8691da1a9#src=seo_token; Solana의 orca-dex, APY 0.42%, TVL $2.92M, https://www.defi.garden/?pool=22f79b01-3ba8-4a75-a12d-615151633875#src=seo_token; Sui의 cetus-clmm, APY 0.10%, TVL $2.05M, https://www.defi.garden/?pool=3d5a0f12-4a68-4429-a109-df4a3fafddc5#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USDY의 변동성 낮은 후보는 Arbitrum의 ondo-yield-assets, APY 3.67%, TVL $3.14M, https://www.defi.garden/?pool=1767cdec-8dad-4b8c-a61c-fa10ab4d3f92#src=seo_token; Ethereum의 ondo-yield-assets, APY 3.67%, TVL $1.25B, https://www.defi.garden/ko/pools/ondo-yield-assets-usdy-ethereum; Sei의 ondo-yield-assets, APY 3.67%, TVL $259.55M, https://www.defi.garden/ko/pools/ondo-yield-assets-usdy-sei; Solana의 ondo-yield-assets, APY 3.67%, TVL $179.86M, https://www.defi.garden/ko/pools/ondo-yield-assets-usdy-solana; Stellar의 ondo-yield-assets, APY 3.67%, TVL $537.38M, https://www.defi.garden/ko/pools/ondo-yield-assets-usdy-stellar; Sui의 ondo-yield-assets, APY 3.67%, TVL $14.36M, https://www.defi.garden/?pool=3007b64e-331d-425d-a7ae-33b8691da1a9#src=seo_token; Solana의 orca-dex, APY 2.15%, TVL $2.92M, https://www.defi.garden/?pool=22f79b01-3ba8-4a75-a12d-615151633875#src=seo_token; Sui의 cetus-clmm, APY 0.10%, TVL $2.05M, https://www.defi.garden/?pool=3d5a0f12-4a68-4429-a109-df4a3fafddc5#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

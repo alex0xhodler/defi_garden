@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest CCBCH yield right now is 2.96% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CCBCH yield right now is 2.97% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=44a84afc-5268-4e08-af87-72682663a37c#src=seo_token) | Ethereum | 2.96% | $313.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=44a84afc-5268-4e08-af87-72682663a37c#src=seo_token) | Ethereum | 2.97% | $312.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CCBCH yield today?
 
-2.96% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+2.97% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many CCBCH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $313.8K in total.
+1 live pool clear this page's $100K TVL floor, $312.1K in total.
 
 ### Are these rates safe?
 

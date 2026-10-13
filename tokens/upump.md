@@ -2,32 +2,32 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest UPUMP yield right now is 142.22% on nest-cl (Hyperliquid L1), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest UPUMP yield right now is 141.54% on nest-cl (Hyperliquid L1), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [project-x →](https://www.defi.garden/?pool=b6d03552-bf47-4bc5-9d29-264453bfad0d#src=seo_token) | Hyperliquid L1 | 27.67% | $1.14M |
-| [project-x →](https://www.defi.garden/?pool=7bc2a542-ecdb-4510-930d-a7dc54d5d14b#src=seo_token) | Hyperliquid L1 | 19.19% | $157.8K |
-| [nest-cl →](https://www.defi.garden/?pool=939e7f8b-dbbe-42f7-98f3-f18a0a4e53f0#src=seo_token) | Hyperliquid L1 | 142.22% | $133.9K |
+| [project-x →](https://www.defi.garden/?pool=b6d03552-bf47-4bc5-9d29-264453bfad0d#src=seo_token) | Hyperliquid L1 | 50.14% | $1.11M |
+| [project-x →](https://www.defi.garden/?pool=7bc2a542-ecdb-4510-930d-a7dc54d5d14b#src=seo_token) | Hyperliquid L1 | 50.78% | $164K |
+| [nest-cl →](https://www.defi.garden/?pool=939e7f8b-dbbe-42f7-98f3-f18a0a4e53f0#src=seo_token) | Hyperliquid L1 | 141.54% | $133.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, UPUMP's lower-variability candidates are nest-cl (Hyperliquid L1), 142.22% APY, $133.9K TVL, https://www.defi.garden/?pool=939e7f8b-dbbe-42f7-98f3-f18a0a4e53f0#src=seo_token; project-x (Hyperliquid L1), 27.67% APY, $1.14M TVL, https://www.defi.garden/?pool=b6d03552-bf47-4bc5-9d29-264453bfad0d#src=seo_token; project-x (Hyperliquid L1), 19.19% APY, $157.8K TVL, https://www.defi.garden/?pool=7bc2a542-ecdb-4510-930d-a7dc54d5d14b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, UPUMP's lower-variability candidates are nest-cl (Hyperliquid L1), 141.54% APY, $133.7K TVL, https://www.defi.garden/?pool=939e7f8b-dbbe-42f7-98f3-f18a0a4e53f0#src=seo_token; project-x (Hyperliquid L1), 50.14% APY, $1.11M TVL, https://www.defi.garden/?pool=b6d03552-bf47-4bc5-9d29-264453bfad0d#src=seo_token; project-x (Hyperliquid L1), 50.78% APY, $164K TVL, https://www.defi.garden/?pool=7bc2a542-ecdb-4510-930d-a7dc54d5d14b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [nest-cl →](https://www.defi.garden/?pool=939e7f8b-dbbe-42f7-98f3-f18a0a4e53f0#src=seo_token) | Hyperliquid L1 | 142.22% | $133.9K |
-| 2 | [project-x →](https://www.defi.garden/?pool=b6d03552-bf47-4bc5-9d29-264453bfad0d#src=seo_token) | Hyperliquid L1 | 27.67% | $1.14M |
-| 3 | [project-x →](https://www.defi.garden/?pool=7bc2a542-ecdb-4510-930d-a7dc54d5d14b#src=seo_token) | Hyperliquid L1 | 19.19% | $157.8K |
+| 1 | [nest-cl →](https://www.defi.garden/?pool=939e7f8b-dbbe-42f7-98f3-f18a0a4e53f0#src=seo_token) | Hyperliquid L1 | 141.54% | $133.7K |
+| 2 | [project-x →](https://www.defi.garden/?pool=b6d03552-bf47-4bc5-9d29-264453bfad0d#src=seo_token) | Hyperliquid L1 | 50.14% | $1.11M |
+| 3 | [project-x →](https://www.defi.garden/?pool=7bc2a542-ecdb-4510-930d-a7dc54d5d14b#src=seo_token) | Hyperliquid L1 | 50.78% | $164K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-UPUMP shows up in 3 pools here, with rates from 19.19% to 142.22% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+UPUMP shows up in 3 pools here, with rates from 50.14% to 141.54% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 94.37% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 93.58% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -35,9 +35,9 @@ UPUMP shows up in 3 pools here, with rates from 19.19% to 142.22% APY across 1 c
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| project-x | 27.67% | 74.77% | Base rate |
-| project-x | 19.19% | 94.37% | Base rate |
-| nest-cl | 142.22% | 122.98% | 100.00% incentives |
+| project-x | 50.14% | 74.27% | Base rate |
+| project-x | 50.78% | 93.58% | Base rate |
+| nest-cl | 141.54% | 123.55% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,11 +45,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest UPUMP yield today?
 
-142.22% APY on nest-cl (Hyperliquid L1), based on live DefiLlama data.
+141.54% APY on nest-cl (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many UPUMP pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.44M in total.
+3 live pools clear this page's $100K TVL floor, $1.41M in total.
 
 ### Are these rates safe?
 
@@ -57,16 +57,16 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which UPUMP pools have the most stable APY history?
 
-Based on APY history only, UPUMP's lower-variability candidates are nest-cl (Hyperliquid L1), 142.22% APY, $133.9K TVL, https://www.defi.garden/?pool=939e7f8b-dbbe-42f7-98f3-f18a0a4e53f0#src=seo_token; project-x (Hyperliquid L1), 27.67% APY, $1.14M TVL, https://www.defi.garden/?pool=b6d03552-bf47-4bc5-9d29-264453bfad0d#src=seo_token; project-x (Hyperliquid L1), 19.19% APY, $157.8K TVL, https://www.defi.garden/?pool=7bc2a542-ecdb-4510-930d-a7dc54d5d14b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, UPUMP's lower-variability candidates are nest-cl (Hyperliquid L1), 141.54% APY, $133.7K TVL, https://www.defi.garden/?pool=939e7f8b-dbbe-42f7-98f3-f18a0a4e53f0#src=seo_token; project-x (Hyperliquid L1), 50.14% APY, $1.11M TVL, https://www.defi.garden/?pool=b6d03552-bf47-4bc5-9d29-264453bfad0d#src=seo_token; project-x (Hyperliquid L1), 50.78% APY, $164K TVL, https://www.defi.garden/?pool=7bc2a542-ecdb-4510-930d-a7dc54d5d14b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [KHYPE](https://www.defi.garden/tokens/khype)
 - [WHYPE](https://www.defi.garden/tokens/whype)
-- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [THBILL](https://www.defi.garden/tokens/thbill)
 - [UBTC](https://www.defi.garden/tokens/ubtc)
 - [WSTHYPE](https://www.defi.garden/tokens/wsthype)
+- [XBTC](https://www.defi.garden/tokens/xbtc)
 
 ## Available on
 

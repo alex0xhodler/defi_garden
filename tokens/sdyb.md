@@ -2,34 +2,34 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest SDYB yield right now is 8.24% on stake-dao-yield (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SDYB yield right now is 8.10% on stake-dao-yield (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [stake-dao-yield →](https://www.defi.garden/?pool=265b1b8f-d19e-4ebc-9303-0eeab9f723f8#src=seo_token) | Ethereum | 0.56% | $507.5K |
-| [curve-dex →](https://www.defi.garden/?pool=f13c7bc3-690f-44fb-bca6-698784176a29#src=seo_token) | Ethereum | 4.20% | $192.2K |
-| [stake-dao-yield →](https://www.defi.garden/?pool=44f659b4-51c3-4897-baf2-6b351d4eaf0d#src=seo_token) | Ethereum | 8.24% | $150K |
-| [convex-finance →](https://www.defi.garden/?pool=ada8ac24-70a8-4ac5-b545-6b61b73b240c#src=seo_token) | Ethereum | 7.66% | $131.3K |
+| [stake-dao-yield →](https://www.defi.garden/?pool=265b1b8f-d19e-4ebc-9303-0eeab9f723f8#src=seo_token) | Ethereum | 0.59% | $484.8K |
+| [curve-dex →](https://www.defi.garden/?pool=f13c7bc3-690f-44fb-bca6-698784176a29#src=seo_token) | Ethereum | 4.08% | $183.1K |
+| [stake-dao-yield →](https://www.defi.garden/?pool=44f659b4-51c3-4897-baf2-6b351d4eaf0d#src=seo_token) | Ethereum | 8.10% | $148.9K |
+| [convex-finance →](https://www.defi.garden/?pool=ada8ac24-70a8-4ac5-b545-6b61b73b240c#src=seo_token) | Ethereum | 7.46% | $125.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SDYB's lower-variability candidates are stake-dao-yield (Ethereum), 8.24% APY, $150K TVL, https://www.defi.garden/?pool=44f659b4-51c3-4897-baf2-6b351d4eaf0d#src=seo_token; curve-dex (Ethereum), 4.20% APY, $192.2K TVL, https://www.defi.garden/?pool=f13c7bc3-690f-44fb-bca6-698784176a29#src=seo_token; convex-finance (Ethereum), 7.66% APY, $131.3K TVL, https://www.defi.garden/?pool=ada8ac24-70a8-4ac5-b545-6b61b73b240c#src=seo_token; stake-dao-yield (Ethereum), 0.56% APY, $507.5K TVL, https://www.defi.garden/?pool=265b1b8f-d19e-4ebc-9303-0eeab9f723f8#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SDYB's lower-variability candidates are stake-dao-yield (Ethereum), 8.10% APY, $148.9K TVL, https://www.defi.garden/?pool=44f659b4-51c3-4897-baf2-6b351d4eaf0d#src=seo_token; curve-dex (Ethereum), 4.08% APY, $183.1K TVL, https://www.defi.garden/?pool=f13c7bc3-690f-44fb-bca6-698784176a29#src=seo_token; convex-finance (Ethereum), 7.46% APY, $125.1K TVL, https://www.defi.garden/?pool=ada8ac24-70a8-4ac5-b545-6b61b73b240c#src=seo_token; stake-dao-yield (Ethereum), 0.59% APY, $484.8K TVL, https://www.defi.garden/?pool=265b1b8f-d19e-4ebc-9303-0eeab9f723f8#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [stake-dao-yield →](https://www.defi.garden/?pool=44f659b4-51c3-4897-baf2-6b351d4eaf0d#src=seo_token) | Ethereum | 8.24% | $150K |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=f13c7bc3-690f-44fb-bca6-698784176a29#src=seo_token) | Ethereum | 4.20% | $192.2K |
-| 3 | [convex-finance →](https://www.defi.garden/?pool=ada8ac24-70a8-4ac5-b545-6b61b73b240c#src=seo_token) | Ethereum | 7.66% | $131.3K |
-| 4 | [stake-dao-yield →](https://www.defi.garden/?pool=265b1b8f-d19e-4ebc-9303-0eeab9f723f8#src=seo_token) | Ethereum | 0.56% | $507.5K |
+| 1 | [stake-dao-yield →](https://www.defi.garden/?pool=44f659b4-51c3-4897-baf2-6b351d4eaf0d#src=seo_token) | Ethereum | 8.10% | $148.9K |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=f13c7bc3-690f-44fb-bca6-698784176a29#src=seo_token) | Ethereum | 4.08% | $183.1K |
+| 3 | [convex-finance →](https://www.defi.garden/?pool=ada8ac24-70a8-4ac5-b545-6b61b73b240c#src=seo_token) | Ethereum | 7.46% | $125.1K |
+| 4 | [stake-dao-yield →](https://www.defi.garden/?pool=265b1b8f-d19e-4ebc-9303-0eeab9f723f8#src=seo_token) | Ethereum | 0.59% | $484.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SDYB shows up in 4 pools here, with rates from 0.56% to 8.24% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SDYB shows up in 4 pools here, with rates from 0.59% to 8.10% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 7.56% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 7.49% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 4 of 4 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -37,10 +37,10 @@ SDYB shows up in 4 pools here, with rates from 0.56% to 8.24% APY across 1 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| stake-dao-yield | 0.56% | 1.58% | 100.00% incentives |
-| curve-dex | 4.20% | 5.08% | 100.00% incentives |
-| stake-dao-yield | 8.24% | 10.04% | 99.51% incentives |
-| convex-finance | 7.66% | 10.76% | 99.48% incentives |
+| stake-dao-yield | 0.59% | 1.49% | 100.00% incentives |
+| curve-dex | 4.08% | 5.04% | 100.00% incentives |
+| stake-dao-yield | 8.10% | 9.94% | 99.51% incentives |
+| convex-finance | 7.46% | 10.69% | 99.46% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -48,11 +48,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SDYB yield today?
 
-8.24% APY on stake-dao-yield (Ethereum), based on live DefiLlama data.
+8.10% APY on stake-dao-yield (Ethereum), based on live DefiLlama data.
 
 ### How many SDYB pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $980.9K in total.
+4 live pools clear this page's $100K TVL floor, $942K in total.
 
 ### Are these rates safe?
 
@@ -60,7 +60,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SDYB pools have the most stable APY history?
 
-Based on APY history only, SDYB's lower-variability candidates are stake-dao-yield (Ethereum), 8.24% APY, $150K TVL, https://www.defi.garden/?pool=44f659b4-51c3-4897-baf2-6b351d4eaf0d#src=seo_token; curve-dex (Ethereum), 4.20% APY, $192.2K TVL, https://www.defi.garden/?pool=f13c7bc3-690f-44fb-bca6-698784176a29#src=seo_token; convex-finance (Ethereum), 7.66% APY, $131.3K TVL, https://www.defi.garden/?pool=ada8ac24-70a8-4ac5-b545-6b61b73b240c#src=seo_token; stake-dao-yield (Ethereum), 0.56% APY, $507.5K TVL, https://www.defi.garden/?pool=265b1b8f-d19e-4ebc-9303-0eeab9f723f8#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SDYB's lower-variability candidates are stake-dao-yield (Ethereum), 8.10% APY, $148.9K TVL, https://www.defi.garden/?pool=44f659b4-51c3-4897-baf2-6b351d4eaf0d#src=seo_token; curve-dex (Ethereum), 4.08% APY, $183.1K TVL, https://www.defi.garden/?pool=f13c7bc3-690f-44fb-bca6-698784176a29#src=seo_token; convex-finance (Ethereum), 7.46% APY, $125.1K TVL, https://www.defi.garden/?pool=ada8ac24-70a8-4ac5-b545-6b61b73b240c#src=seo_token; stake-dao-yield (Ethereum), 0.59% APY, $484.8K TVL, https://www.defi.garden/?pool=265b1b8f-d19e-4ebc-9303-0eeab9f723f8#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

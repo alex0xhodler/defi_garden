@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest AGI yield right now is 194.95% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AGI yield right now is 235.43% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=93c1f0bc-7b2d-521d-b58c-333850173825#src=seo_token) | Solana | 194.95% | $142.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=93c1f0bc-7b2d-521d-b58c-333850173825#src=seo_token) | Solana | 235.43% | $125.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AGI yield today?
 
-194.95% APY on raydium-amm (Solana), based on live DefiLlama data.
+235.43% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many AGI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $142.7K in total.
+1 live pool clear this page's $100K TVL floor, $125.6K in total.
 
 ### Are these rates safe?
 

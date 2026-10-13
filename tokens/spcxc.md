@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest SPCXC yield right now is 391.50% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SPCXC yield right now is 534.83% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=f3990eac-d0e2-545c-a52b-3304804ab529#src=seo_token) | Base | 391.50% | $996.5K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=f3990eac-d0e2-545c-a52b-3304804ab529#src=seo_token) | Base | 534.83% | $975.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SPCXC yield today?
 
-391.50% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+534.83% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many SPCXC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $996.5K in total.
+1 live pool clear this page's $100K TVL floor, $975.9K in total.
 
 ### Are these rates safe?
 

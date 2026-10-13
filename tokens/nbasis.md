@@ -6,7 +6,7 @@ The highest honest NBASIS yield right now is 1.21% on plume-vaults (Plume Mainne
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [plume-vaults →](https://www.defi.garden/?pool=b5331747-f55e-457e-aadc-9635c96ed38a#src=seo_token) | Plume Mainnet | 1.21% | $164.8K |
+| [plume-vaults →](https://www.defi.garden/?pool=b5331747-f55e-457e-aadc-9635c96ed38a#src=seo_token) | Plume Mainnet | 1.21% | $164.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NBASIS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $164.8K in total.
+1 live pool clear this page's $100K TVL floor, $164.9K in total.
 
 ### Are these rates safe?
 

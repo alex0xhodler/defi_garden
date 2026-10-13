@@ -7,7 +7,7 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=e4886c32-4757-5747-b9bc-d9aa26834f1a#src=seo_token) | Solana | 0.05% | $34.88M |
-| [raydium-amm →](https://www.defi.garden/?pool=e33228d3-fedb-5c78-9361-277fd54834e8#src=seo_token) | Solana | 0.01% | $33.98M |
+| [raydium-amm →](https://www.defi.garden/?pool=e33228d3-fedb-5c78-9361-277fd54834e8#src=seo_token) | Solana | 0.01% | $33.99M |
 | [raydium-amm →](https://www.defi.garden/?pool=052b8797-6b8e-5d62-b661-52c7d5252240#src=seo_token) | Solana | 0.05% | $32.98M |
 | [raydium-amm →](https://www.defi.garden/?pool=edb52a20-ff7f-5a5d-b4a7-649559e00266#src=seo_token) | Solana | 0.02% | $32.13M |
 
@@ -31,7 +31,7 @@ XDC 풀은 여기 4개가 있고, 1개 체인에서 APY가 0.01%부터 0.05%까�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | raydium-amm | 0.05% | 0.04% | 기본 금리 |
-| raydium-amm | 0.01% | 14.26% | 기본 금리 |
+| raydium-amm | 0.01% | 12.83% | 기본 금리 |
 | raydium-amm | 0.05% | 0.05% | 기본 금리 |
 | raydium-amm | 0.02% | 0.03% | 기본 금리 |
 
@@ -45,7 +45,7 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 0.05%예�
 
 ### XDC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $169.05M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $169.06M예요.
 
 ### 이 수익률은 안전한가요?
 

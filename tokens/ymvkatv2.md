@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest YMVKATV2 yield right now is 4.48% on morpho-blue (Katana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YMVKATV2 yield right now is 4.65% on morpho-blue (Katana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=674ba053-28a6-4e66-b129-4d0f0b967184#src=seo_token) | Katana | 4.48% | $299K |
+| [morpho-blue →](https://www.defi.garden/?pool=674ba053-28a6-4e66-b129-4d0f0b967184#src=seo_token) | Katana | 4.65% | $291K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest YMVKATV2 yield today?
 
-4.48% APY on morpho-blue (Katana), based on live DefiLlama data.
+4.65% APY on morpho-blue (Katana), based on live DefiLlama data.
 
 ### How many YMVKATV2 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $299K in total.
+1 live pool clear this page's $100K TVL floor, $291K in total.
 
 ### Are these rates safe?
 
@@ -35,12 +35,12 @@ There is not enough qualifying APY history to rank YMVKATV2 pools. This view cov
 
 ## Related tokens
 
+- [WEETH](https://www.defi.garden/tokens/weeth)
 - [STEAKUSDC](https://www.defi.garden/tokens/steakusdc)
 - [BBQUSDC](https://www.defi.garden/tokens/bbqusdc)
 - [YMVOG](https://www.defi.garden/tokens/ymvog)
 - [VBWBTC](https://www.defi.garden/tokens/vbwbtc)
 - [VBUSDC](https://www.defi.garden/tokens/vbusdc)
-- [YOG](https://www.defi.garden/tokens/yog)
 
 ## Available on
 

@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [monetrix-usdm →](https://www.defi.garden/?pool=7bc0e89a-cec0-50e9-b371-e6cb66a80098#src=seo_token) | Hyperliquid L1 | 6.30% | $2.69M |
+| [monetrix-usdm →](https://www.defi.garden/?pool=7bc0e89a-cec0-50e9-b371-e6cb66a80098#src=seo_token) | Hyperliquid L1 | 6.30% | $2.7M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 monetrix-usdm에서 APY 
 
 ### SUSDM 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $2.69M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $2.7M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -37,10 +37,10 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 monetrix-usdm에서 APY 
 
 - [KHYPE](https://www.defi.garden/ko/tokens/khype)
 - [WHYPE](https://www.defi.garden/ko/tokens/whype)
-- [USDT0](https://www.defi.garden/ko/tokens/usdt0)
 - [THBILL](https://www.defi.garden/ko/tokens/thbill)
 - [UBTC](https://www.defi.garden/ko/tokens/ubtc)
 - [WSTHYPE](https://www.defi.garden/ko/tokens/wsthype)
+- [XBTC](https://www.defi.garden/ko/tokens/xbtc)
 
 ## 이용 가능한 체인
 

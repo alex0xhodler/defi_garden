@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest UWATT yield right now is 41.58% on curve-dex (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest UWATT yield right now is 42.49% on curve-dex (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=bb3242b8-f3f6-53c2-87ca-715f40d2433c#src=seo_token) | Ethereum | 41.58% | $108.6K |
+| [curve-dex →](https://www.defi.garden/?pool=bb3242b8-f3f6-53c2-87ca-715f40d2433c#src=seo_token) | Ethereum | 42.49% | $108K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest UWATT yield today?
 
-41.58% APY on curve-dex (Ethereum), based on live DefiLlama data.
+42.49% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many UWATT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $108.6K in total.
+1 live pool clear this page's $100K TVL floor, $108K in total.
 
 ### Are these rates safe?
 

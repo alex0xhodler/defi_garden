@@ -4,14 +4,14 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| STETH | [lido →](https://www.defi.garden/ko/pools/lido-steth-ethereum) | 2.22% | $24.41B |
-| WBETH | [binance-staked-eth →](https://www.defi.garden/ko/pools/binance-staked-eth-wbeth-ethereum) | 2.20% | $8.9B |
-| WEETH | [ether.fi-stake →](https://www.defi.garden/ko/pools/ether-fi-stake-weeth-ethereum) | 2.31% | $5.59B |
+| STETH | [lido →](https://www.defi.garden/ko/pools/lido-steth-ethereum) | 2.25% | $24.33B |
+| WBETH | [binance-staked-eth →](https://www.defi.garden/ko/pools/binance-staked-eth-wbeth-ethereum) | 2.22% | $8.85B |
+| WEETH | [ether.fi-stake →](https://www.defi.garden/ko/pools/ether-fi-stake-weeth-ethereum) | 2.31% | $5.53B |
 | SUSDS | [sky-lending →](https://www.defi.garden/ko/pools/sky-lending-susds-ethereum) | 3.80% | $5.03B |
-| USDC | [maple →](https://www.defi.garden/ko/pools/maple-usdc-ethereum) | 5.26% | $2.86B |
-| RETH | [rocket-pool →](https://www.defi.garden/ko/pools/rocket-pool-reth-ethereum) | 2.18% | $1.32B |
-| USDY | [ondo-yield-assets →](https://www.defi.garden/ko/pools/ondo-yield-assets-usdy-ethereum) | 3.67% | $1.24B |
-| SUSDE | [ethena-usde →](https://www.defi.garden/ko/pools/ethena-usde-susde-ethereum) | 4.87% | $1.21B |
+| USDC | [maple →](https://www.defi.garden/ko/pools/maple-usdc-ethereum) | 5.26% | $2.85B |
+| RETH | [rocket-pool →](https://www.defi.garden/ko/pools/rocket-pool-reth-ethereum) | 2.18% | $1.31B |
+| USDY | [ondo-yield-assets →](https://www.defi.garden/ko/pools/ondo-yield-assets-usdy-ethereum) | 3.67% | $1.25B |
+| SUSDE | [ethena-usde →](https://www.defi.garden/ko/pools/ethena-usde-susde-ethereum) | 5.09% | $1.21B |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 maple에서 APY 5.26%예요.
 
 ### Ethereum 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3,395개이며, 합산 TVL은 $106.17B예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3,395개이며, 합산 TVL은 $105.76B예요.
 
 ### 이 수익률은 안전한가요?
 

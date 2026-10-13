@@ -6,8 +6,8 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [bulk →](https://www.defi.garden/?pool=4fd9a102-4cc5-520f-bd85-14f830fe1d2a#src=seo_token) | Solana | 4.65% | $23.26M |
-| [project-0 →](https://www.defi.garden/?pool=2962a15d-3634-4237-a378-1620af130b89#src=seo_token) | Solana | 0.02% | $158.9K |
+| [bulk →](https://www.defi.garden/?pool=4fd9a102-4cc5-520f-bd85-14f830fe1d2a#src=seo_token) | Solana | 4.65% | $22.92M |
+| [project-0 →](https://www.defi.garden/?pool=2962a15d-3634-4237-a378-1620af130b89#src=seo_token) | Solana | 0.02% | $157.6K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -39,7 +39,7 @@ DefiLlama 실시간 데이터 기준, Solana의 bulk에서 APY 4.65%예요.
 
 ### BULKSOL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $23.42M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $23.07M예요.
 
 ### 이 수익률은 안전한가요?
 

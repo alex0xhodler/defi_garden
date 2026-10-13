@@ -6,7 +6,7 @@ The highest honest ICHI yield right now is 0.13% on sushiswap (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sushiswap →](https://www.defi.garden/?pool=cff7ac9a-29b9-4057-bb87-20f790e13a15#src=seo_token) | Ethereum | 0.13% | $157.2K |
+| [sushiswap →](https://www.defi.garden/?pool=cff7ac9a-29b9-4057-bb87-20f790e13a15#src=seo_token) | Ethereum | 0.13% | $156K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ICHI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $157.2K in total.
+1 live pool clear this page's $100K TVL floor, $156K in total.
 
 ### Are these rates safe?
 

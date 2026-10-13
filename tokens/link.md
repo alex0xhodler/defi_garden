@@ -2,42 +2,42 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest LINK yield right now is 18.15% on uniswap-v3 (Ethereum), among 48 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LINK yield right now is 17.49% on uniswap-v3 (Ethereum), among 47 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=b847133f-f5d5-4692-b74e-d815d51988fc#src=seo_token) | Ethereum | 0.02% | $97.1M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=46ac97f1-cb18-40ad-9ae6-b6c31981684c#src=seo_token) | Ethereum | 1.52% | $20.66M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=3025b6b3-e95f-490e-ba10-540c9b1b08f9#src=seo_token) | Ethereum | 18.15% | $14.34M |
+| [aave-v3 →](https://www.defi.garden/?pool=b847133f-f5d5-4692-b74e-d815d51988fc#src=seo_token) | Ethereum | 0.02% | $95.74M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=46ac97f1-cb18-40ad-9ae6-b6c31981684c#src=seo_token) | Ethereum | 1.72% | $20.55M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=3025b6b3-e95f-490e-ba10-540c9b1b08f9#src=seo_token) | Ethereum | 17.49% | $14.22M |
 | [bancor-v3 →](https://www.defi.garden/?pool=6f61c337-7cee-4ed9-a369-d645caf7748b#src=seo_token) | Ethereum | 0.04% | $7.93M |
-| [curve-dex →](https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3#src=seo_token) | Ethereum | 16.17% | $6.17M |
-| [aave-v3 →](https://www.defi.garden/?pool=43644487-e26c-450c-8bcb-fb10c1e512e0#src=seo_token) | Arbitrum | 0.01% | $4.1M |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=dffb3514-d667-4f2f-8df3-f716ebe09c93#src=seo_token) | Arbitrum | 9.73% | $2.73M |
-| [aave-v3 →](https://www.defi.garden/?pool=995a6317-1c32-48c2-a8c9-683263b8412e#src=seo_token) | Polygon | 0.02% | $1.91M |
+| [curve-dex →](https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3#src=seo_token) | Ethereum | 16.13% | $6.08M |
+| [aave-v3 →](https://www.defi.garden/?pool=43644487-e26c-450c-8bcb-fb10c1e512e0#src=seo_token) | Arbitrum | 0.01% | $4.04M |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=dffb3514-d667-4f2f-8df3-f716ebe09c93#src=seo_token) | Arbitrum | 9.69% | $2.71M |
+| [aave-v3 →](https://www.defi.garden/?pool=995a6317-1c32-48c2-a8c9-683263b8412e#src=seo_token) | Polygon | 0.02% | $1.89M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, LINK's lower-variability candidates are aave-v3 (Ethereum), 0.02% APY, $97.1M TVL, https://www.defi.garden/?pool=b847133f-f5d5-4692-b74e-d815d51988fc#src=seo_token; aave-v3 (Arbitrum), 0.01% APY, $4.1M TVL, https://www.defi.garden/?pool=43644487-e26c-450c-8bcb-fb10c1e512e0#src=seo_token; bancor-v3 (Ethereum), 0.04% APY, $7.93M TVL, https://www.defi.garden/?pool=6f61c337-7cee-4ed9-a369-d645caf7748b#src=seo_token; aave-v3 (Polygon), 0.02% APY, $1.91M TVL, https://www.defi.garden/?pool=995a6317-1c32-48c2-a8c9-683263b8412e#src=seo_token; curve-dex (Ethereum), 16.17% APY, $6.17M TVL, https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3#src=seo_token; gmx-v2-perps (Arbitrum), 9.73% APY, $2.73M TVL, https://www.defi.garden/?pool=dffb3514-d667-4f2f-8df3-f716ebe09c93#src=seo_token; uniswap-v4 (Ethereum), 1.52% APY, $20.66M TVL, https://www.defi.garden/?pool=46ac97f1-cb18-40ad-9ae6-b6c31981684c#src=seo_token; uniswap-v3 (Ethereum), 18.15% APY, $14.34M TVL, https://www.defi.garden/?pool=3025b6b3-e95f-490e-ba10-540c9b1b08f9#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LINK's lower-variability candidates are aave-v3 (Ethereum), 0.02% APY, $95.74M TVL, https://www.defi.garden/?pool=b847133f-f5d5-4692-b74e-d815d51988fc#src=seo_token; aave-v3 (Arbitrum), 0.01% APY, $4.04M TVL, https://www.defi.garden/?pool=43644487-e26c-450c-8bcb-fb10c1e512e0#src=seo_token; bancor-v3 (Ethereum), 0.04% APY, $7.93M TVL, https://www.defi.garden/?pool=6f61c337-7cee-4ed9-a369-d645caf7748b#src=seo_token; aave-v3 (Polygon), 0.02% APY, $1.89M TVL, https://www.defi.garden/?pool=995a6317-1c32-48c2-a8c9-683263b8412e#src=seo_token; curve-dex (Ethereum), 16.13% APY, $6.08M TVL, https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3#src=seo_token; gmx-v2-perps (Arbitrum), 9.69% APY, $2.71M TVL, https://www.defi.garden/?pool=dffb3514-d667-4f2f-8df3-f716ebe09c93#src=seo_token; uniswap-v4 (Ethereum), 1.72% APY, $20.55M TVL, https://www.defi.garden/?pool=46ac97f1-cb18-40ad-9ae6-b6c31981684c#src=seo_token; uniswap-v3 (Ethereum), 17.49% APY, $14.22M TVL, https://www.defi.garden/?pool=3025b6b3-e95f-490e-ba10-540c9b1b08f9#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aave-v3 →](https://www.defi.garden/?pool=b847133f-f5d5-4692-b74e-d815d51988fc#src=seo_token) | Ethereum | 0.02% | $97.1M |
-| 2 | [aave-v3 →](https://www.defi.garden/?pool=43644487-e26c-450c-8bcb-fb10c1e512e0#src=seo_token) | Arbitrum | 0.01% | $4.1M |
+| 1 | [aave-v3 →](https://www.defi.garden/?pool=b847133f-f5d5-4692-b74e-d815d51988fc#src=seo_token) | Ethereum | 0.02% | $95.74M |
+| 2 | [aave-v3 →](https://www.defi.garden/?pool=43644487-e26c-450c-8bcb-fb10c1e512e0#src=seo_token) | Arbitrum | 0.01% | $4.04M |
 | 3 | [bancor-v3 →](https://www.defi.garden/?pool=6f61c337-7cee-4ed9-a369-d645caf7748b#src=seo_token) | Ethereum | 0.04% | $7.93M |
-| 4 | [aave-v3 →](https://www.defi.garden/?pool=995a6317-1c32-48c2-a8c9-683263b8412e#src=seo_token) | Polygon | 0.02% | $1.91M |
-| 5 | [curve-dex →](https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3#src=seo_token) | Ethereum | 16.17% | $6.17M |
-| 6 | [gmx-v2-perps →](https://www.defi.garden/?pool=dffb3514-d667-4f2f-8df3-f716ebe09c93#src=seo_token) | Arbitrum | 9.73% | $2.73M |
-| 7 | [uniswap-v4 →](https://www.defi.garden/?pool=46ac97f1-cb18-40ad-9ae6-b6c31981684c#src=seo_token) | Ethereum | 1.52% | $20.66M |
-| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=3025b6b3-e95f-490e-ba10-540c9b1b08f9#src=seo_token) | Ethereum | 18.15% | $14.34M |
+| 4 | [aave-v3 →](https://www.defi.garden/?pool=995a6317-1c32-48c2-a8c9-683263b8412e#src=seo_token) | Polygon | 0.02% | $1.89M |
+| 5 | [curve-dex →](https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3#src=seo_token) | Ethereum | 16.13% | $6.08M |
+| 6 | [gmx-v2-perps →](https://www.defi.garden/?pool=dffb3514-d667-4f2f-8df3-f716ebe09c93#src=seo_token) | Arbitrum | 9.69% | $2.71M |
+| 7 | [uniswap-v4 →](https://www.defi.garden/?pool=46ac97f1-cb18-40ad-9ae6-b6c31981684c#src=seo_token) | Ethereum | 1.72% | $20.55M |
+| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=3025b6b3-e95f-490e-ba10-540c9b1b08f9#src=seo_token) | Ethereum | 17.49% | $14.22M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-LINK shows up in 8 pools here, with rates from 0.01% to 18.15% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+LINK shows up in 8 pools here, with rates from 0.01% to 17.49% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 1.42% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 1.51% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 8 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -46,12 +46,12 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | aave-v3 | 0.02% | 0.02% | Base rate |
-| uniswap-v4 | 1.52% | 20.81% | Base rate |
-| uniswap-v3 | 18.15% | 22.06% | Base rate |
+| uniswap-v4 | 1.72% | 20.71% | Base rate |
+| uniswap-v3 | 17.49% | 22.20% | Base rate |
 | bancor-v3 | 0.04% | 0.09% | Base rate |
-| curve-dex | 16.17% | 2.75% | Base rate |
+| curve-dex | 16.13% | 2.94% | Base rate |
 | aave-v3 | 0.01% | 0.00% | Base rate |
-| gmx-v2-perps | 9.73% | 4.75% | Base rate |
+| gmx-v2-perps | 9.69% | 4.81% | Base rate |
 | aave-v3 | 0.02% | 0.02% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -60,11 +60,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest LINK yield today?
 
-18.15% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+17.49% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many LINK pools clear the TVL floor?
 
-48 live pools clear this page's $100K TVL floor, $191.51M in total.
+47 live pools clear this page's $100K TVL floor, $189.55M in total.
 
 ### Are these rates safe?
 
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which LINK pools have the most stable APY history?
 
-Based on APY history only, LINK's lower-variability candidates are aave-v3 (Ethereum), 0.02% APY, $97.1M TVL, https://www.defi.garden/?pool=b847133f-f5d5-4692-b74e-d815d51988fc#src=seo_token; aave-v3 (Arbitrum), 0.01% APY, $4.1M TVL, https://www.defi.garden/?pool=43644487-e26c-450c-8bcb-fb10c1e512e0#src=seo_token; bancor-v3 (Ethereum), 0.04% APY, $7.93M TVL, https://www.defi.garden/?pool=6f61c337-7cee-4ed9-a369-d645caf7748b#src=seo_token; aave-v3 (Polygon), 0.02% APY, $1.91M TVL, https://www.defi.garden/?pool=995a6317-1c32-48c2-a8c9-683263b8412e#src=seo_token; curve-dex (Ethereum), 16.17% APY, $6.17M TVL, https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3#src=seo_token; gmx-v2-perps (Arbitrum), 9.73% APY, $2.73M TVL, https://www.defi.garden/?pool=dffb3514-d667-4f2f-8df3-f716ebe09c93#src=seo_token; uniswap-v4 (Ethereum), 1.52% APY, $20.66M TVL, https://www.defi.garden/?pool=46ac97f1-cb18-40ad-9ae6-b6c31981684c#src=seo_token; uniswap-v3 (Ethereum), 18.15% APY, $14.34M TVL, https://www.defi.garden/?pool=3025b6b3-e95f-490e-ba10-540c9b1b08f9#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LINK's lower-variability candidates are aave-v3 (Ethereum), 0.02% APY, $95.74M TVL, https://www.defi.garden/?pool=b847133f-f5d5-4692-b74e-d815d51988fc#src=seo_token; aave-v3 (Arbitrum), 0.01% APY, $4.04M TVL, https://www.defi.garden/?pool=43644487-e26c-450c-8bcb-fb10c1e512e0#src=seo_token; bancor-v3 (Ethereum), 0.04% APY, $7.93M TVL, https://www.defi.garden/?pool=6f61c337-7cee-4ed9-a369-d645caf7748b#src=seo_token; aave-v3 (Polygon), 0.02% APY, $1.89M TVL, https://www.defi.garden/?pool=995a6317-1c32-48c2-a8c9-683263b8412e#src=seo_token; curve-dex (Ethereum), 16.13% APY, $6.08M TVL, https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3#src=seo_token; gmx-v2-perps (Arbitrum), 9.69% APY, $2.71M TVL, https://www.defi.garden/?pool=dffb3514-d667-4f2f-8df3-f716ebe09c93#src=seo_token; uniswap-v4 (Ethereum), 1.72% APY, $20.55M TVL, https://www.defi.garden/?pool=46ac97f1-cb18-40ad-9ae6-b6c31981684c#src=seo_token; uniswap-v3 (Ethereum), 17.49% APY, $14.22M TVL, https://www.defi.garden/?pool=3025b6b3-e95f-490e-ba10-540c9b1b08f9#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

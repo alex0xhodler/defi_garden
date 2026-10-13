@@ -6,30 +6,30 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [blackrock-buidl →](https://www.defi.garden/ko/pools/blackrock-buidl-buidl-aptos) | Aptos | 3.47% | $967.65M |
-| [blackrock-buidl →](https://www.defi.garden/ko/pools/blackrock-buidl-buidl-solana) | Solana | 3.78% | $931.06M |
-| [blackrock-buidl →](https://www.defi.garden/ko/pools/blackrock-buidl-buidl-avalanche) | Avalanche | 3.78% | $483.53M |
-| [blackrock-buidl →](https://www.defi.garden/ko/pools/blackrock-buidl-buidl-ethereum) | Ethereum | 3.81% | $240.07M |
-| [blackrock-buidl →](https://www.defi.garden/ko/pools/blackrock-buidl-buidl-ethereum-b2b1d9) | Ethereum | 3.47% | $195.72M |
-| [blackrock-buidl →](https://www.defi.garden/ko/pools/blackrock-buidl-buidl-bsc) | BSC | 3.47% | $146.75M |
-| [blackrock-buidl →](https://www.defi.garden/?pool=a12d730b-9f47-47f9-95b6-c8689faf966c#src=seo_token) | OP Mainnet | 3.47% | $26.49M |
-| [blackrock-buidl →](https://www.defi.garden/?pool=0715f02b-1803-417f-98ec-4e6e950ff498#src=seo_token) | Polygon | 3.78% | $11.94M |
+| [blackrock-buidl →](https://www.defi.garden/ko/pools/blackrock-buidl-buidl-aptos) | Aptos | 3.47% | $967.71M |
+| [blackrock-buidl →](https://www.defi.garden/ko/pools/blackrock-buidl-buidl-solana) | Solana | 3.78% | $931.44M |
+| [blackrock-buidl →](https://www.defi.garden/ko/pools/blackrock-buidl-buidl-avalanche) | Avalanche | 3.78% | $483.72M |
+| [blackrock-buidl →](https://www.defi.garden/ko/pools/blackrock-buidl-buidl-ethereum) | Ethereum | 3.81% | $240.16M |
+| [blackrock-buidl →](https://www.defi.garden/ko/pools/blackrock-buidl-buidl-ethereum-b2b1d9) | Ethereum | 3.47% | $195.8M |
+| [blackrock-buidl →](https://www.defi.garden/ko/pools/blackrock-buidl-buidl-bsc) | BSC | 3.47% | $146.81M |
+| [blackrock-buidl →](https://www.defi.garden/?pool=a12d730b-9f47-47f9-95b6-c8689faf966c#src=seo_token) | OP Mainnet | 3.47% | $26.5M |
+| [blackrock-buidl →](https://www.defi.garden/?pool=0715f02b-1803-417f-98ec-4e6e950ff498#src=seo_token) | Polygon | 3.78% | $11.95M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 BUIDL의 변동성 낮은 후보는 Aptos의 blackrock-buidl, APY 3.47%, TVL $967.65M, https://www.defi.garden/ko/pools/blackrock-buidl-buidl-aptos; BSC의 blackrock-buidl, APY 3.47%, TVL $146.75M, https://www.defi.garden/ko/pools/blackrock-buidl-buidl-bsc; Ethereum의 blackrock-buidl, APY 3.47%, TVL $195.72M, https://www.defi.garden/ko/pools/blackrock-buidl-buidl-ethereum-b2b1d9; OP Mainnet의 blackrock-buidl, APY 3.47%, TVL $26.49M, https://www.defi.garden/?pool=a12d730b-9f47-47f9-95b6-c8689faf966c#src=seo_token; Solana의 blackrock-buidl, APY 3.78%, TVL $931.06M, https://www.defi.garden/ko/pools/blackrock-buidl-buidl-solana; Avalanche의 blackrock-buidl, APY 3.78%, TVL $483.53M, https://www.defi.garden/ko/pools/blackrock-buidl-buidl-avalanche; Polygon의 blackrock-buidl, APY 3.78%, TVL $11.94M, https://www.defi.garden/?pool=0715f02b-1803-417f-98ec-4e6e950ff498#src=seo_token; Ethereum의 blackrock-buidl, APY 3.81%, TVL $240.07M, https://www.defi.garden/ko/pools/blackrock-buidl-buidl-ethereum예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 BUIDL의 변동성 낮은 후보는 Aptos의 blackrock-buidl, APY 3.47%, TVL $967.71M, https://www.defi.garden/ko/pools/blackrock-buidl-buidl-aptos; BSC의 blackrock-buidl, APY 3.47%, TVL $146.81M, https://www.defi.garden/ko/pools/blackrock-buidl-buidl-bsc; Ethereum의 blackrock-buidl, APY 3.47%, TVL $195.8M, https://www.defi.garden/ko/pools/blackrock-buidl-buidl-ethereum-b2b1d9; OP Mainnet의 blackrock-buidl, APY 3.47%, TVL $26.5M, https://www.defi.garden/?pool=a12d730b-9f47-47f9-95b6-c8689faf966c#src=seo_token; Solana의 blackrock-buidl, APY 3.78%, TVL $931.44M, https://www.defi.garden/ko/pools/blackrock-buidl-buidl-solana; Avalanche의 blackrock-buidl, APY 3.78%, TVL $483.72M, https://www.defi.garden/ko/pools/blackrock-buidl-buidl-avalanche; Polygon의 blackrock-buidl, APY 3.78%, TVL $11.95M, https://www.defi.garden/?pool=0715f02b-1803-417f-98ec-4e6e950ff498#src=seo_token; Ethereum의 blackrock-buidl, APY 3.81%, TVL $240.16M, https://www.defi.garden/ko/pools/blackrock-buidl-buidl-ethereum예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [blackrock-buidl →](https://www.defi.garden/ko/pools/blackrock-buidl-buidl-aptos) | Aptos | 3.47% | $967.65M |
-| 2 | [blackrock-buidl →](https://www.defi.garden/ko/pools/blackrock-buidl-buidl-bsc) | BSC | 3.47% | $146.75M |
-| 3 | [blackrock-buidl →](https://www.defi.garden/ko/pools/blackrock-buidl-buidl-ethereum-b2b1d9) | Ethereum | 3.47% | $195.72M |
-| 4 | [blackrock-buidl →](https://www.defi.garden/?pool=a12d730b-9f47-47f9-95b6-c8689faf966c#src=seo_token) | OP Mainnet | 3.47% | $26.49M |
-| 5 | [blackrock-buidl →](https://www.defi.garden/ko/pools/blackrock-buidl-buidl-solana) | Solana | 3.78% | $931.06M |
-| 6 | [blackrock-buidl →](https://www.defi.garden/ko/pools/blackrock-buidl-buidl-avalanche) | Avalanche | 3.78% | $483.53M |
-| 7 | [blackrock-buidl →](https://www.defi.garden/?pool=0715f02b-1803-417f-98ec-4e6e950ff498#src=seo_token) | Polygon | 3.78% | $11.94M |
-| 8 | [blackrock-buidl →](https://www.defi.garden/ko/pools/blackrock-buidl-buidl-ethereum) | Ethereum | 3.81% | $240.07M |
+| 1 | [blackrock-buidl →](https://www.defi.garden/ko/pools/blackrock-buidl-buidl-aptos) | Aptos | 3.47% | $967.71M |
+| 2 | [blackrock-buidl →](https://www.defi.garden/ko/pools/blackrock-buidl-buidl-bsc) | BSC | 3.47% | $146.81M |
+| 3 | [blackrock-buidl →](https://www.defi.garden/ko/pools/blackrock-buidl-buidl-ethereum-b2b1d9) | Ethereum | 3.47% | $195.8M |
+| 4 | [blackrock-buidl →](https://www.defi.garden/?pool=a12d730b-9f47-47f9-95b6-c8689faf966c#src=seo_token) | OP Mainnet | 3.47% | $26.5M |
+| 5 | [blackrock-buidl →](https://www.defi.garden/ko/pools/blackrock-buidl-buidl-solana) | Solana | 3.78% | $931.44M |
+| 6 | [blackrock-buidl →](https://www.defi.garden/ko/pools/blackrock-buidl-buidl-avalanche) | Avalanche | 3.78% | $483.72M |
+| 7 | [blackrock-buidl →](https://www.defi.garden/?pool=0715f02b-1803-417f-98ec-4e6e950ff498#src=seo_token) | Polygon | 3.78% | $11.95M |
+| 8 | [blackrock-buidl →](https://www.defi.garden/ko/pools/blackrock-buidl-buidl-ethereum) | Ethereum | 3.81% | $240.16M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -70,7 +70,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 blackrock-buidl에서 APY 3.81
 
 ### BUIDL 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 BUIDL의 변동성 낮은 후보는 Aptos의 blackrock-buidl, APY 3.47%, TVL $967.65M, https://www.defi.garden/ko/pools/blackrock-buidl-buidl-aptos; BSC의 blackrock-buidl, APY 3.47%, TVL $146.75M, https://www.defi.garden/ko/pools/blackrock-buidl-buidl-bsc; Ethereum의 blackrock-buidl, APY 3.47%, TVL $195.72M, https://www.defi.garden/ko/pools/blackrock-buidl-buidl-ethereum-b2b1d9; OP Mainnet의 blackrock-buidl, APY 3.47%, TVL $26.49M, https://www.defi.garden/?pool=a12d730b-9f47-47f9-95b6-c8689faf966c#src=seo_token; Solana의 blackrock-buidl, APY 3.78%, TVL $931.06M, https://www.defi.garden/ko/pools/blackrock-buidl-buidl-solana; Avalanche의 blackrock-buidl, APY 3.78%, TVL $483.53M, https://www.defi.garden/ko/pools/blackrock-buidl-buidl-avalanche; Polygon의 blackrock-buidl, APY 3.78%, TVL $11.94M, https://www.defi.garden/?pool=0715f02b-1803-417f-98ec-4e6e950ff498#src=seo_token; Ethereum의 blackrock-buidl, APY 3.81%, TVL $240.07M, https://www.defi.garden/ko/pools/blackrock-buidl-buidl-ethereum예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 BUIDL의 변동성 낮은 후보는 Aptos의 blackrock-buidl, APY 3.47%, TVL $967.71M, https://www.defi.garden/ko/pools/blackrock-buidl-buidl-aptos; BSC의 blackrock-buidl, APY 3.47%, TVL $146.81M, https://www.defi.garden/ko/pools/blackrock-buidl-buidl-bsc; Ethereum의 blackrock-buidl, APY 3.47%, TVL $195.8M, https://www.defi.garden/ko/pools/blackrock-buidl-buidl-ethereum-b2b1d9; OP Mainnet의 blackrock-buidl, APY 3.47%, TVL $26.5M, https://www.defi.garden/?pool=a12d730b-9f47-47f9-95b6-c8689faf966c#src=seo_token; Solana의 blackrock-buidl, APY 3.78%, TVL $931.44M, https://www.defi.garden/ko/pools/blackrock-buidl-buidl-solana; Avalanche의 blackrock-buidl, APY 3.78%, TVL $483.72M, https://www.defi.garden/ko/pools/blackrock-buidl-buidl-avalanche; Polygon의 blackrock-buidl, APY 3.78%, TVL $11.95M, https://www.defi.garden/?pool=0715f02b-1803-417f-98ec-4e6e950ff498#src=seo_token; Ethereum의 blackrock-buidl, APY 3.81%, TVL $240.16M, https://www.defi.garden/ko/pools/blackrock-buidl-buidl-ethereum예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

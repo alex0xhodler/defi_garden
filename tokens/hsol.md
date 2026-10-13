@@ -6,7 +6,7 @@ The highest honest HSOL yield right now is 5.32% on helius-staked-sol (Solana), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [helius-staked-sol →](https://www.defi.garden/?pool=d7e101d6-8e6c-4348-9c5f-62398872a301#src=seo_token) | Solana | 5.32% | $102.85M |
+| [helius-staked-sol →](https://www.defi.garden/?pool=d7e101d6-8e6c-4348-9c5f-62398872a301#src=seo_token) | Solana | 5.32% | $101.26M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many HSOL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $120.98M in total.
+2 live pools clear this page's $100K TVL floor, $119.12M in total.
 
 ### Are these rates safe?
 

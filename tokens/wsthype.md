@@ -6,7 +6,7 @@ The highest honest WSTHYPE yield right now is 0.09% on hypurrfi-pooled (Hyperliq
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hypurrfi-pooled →](https://www.defi.garden/?pool=55cf1cbe-b007-4fa6-8837-a54d872bb1f4#src=seo_token) | Hyperliquid L1 | 0.09% | $937.9K |
+| [hypurrfi-pooled →](https://www.defi.garden/?pool=55cf1cbe-b007-4fa6-8837-a54d872bb1f4#src=seo_token) | Hyperliquid L1 | 0.09% | $927.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many WSTHYPE pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $42.89M in total.
+5 live pools clear this page's $100K TVL floor, $42.61M in total.
 
 ### Are these rates safe?
 
@@ -51,10 +51,10 @@ There is not enough qualifying APY history to rank WSTHYPE pools. This view cove
 
 - [KHYPE](https://www.defi.garden/tokens/khype)
 - [WHYPE](https://www.defi.garden/tokens/whype)
-- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [THBILL](https://www.defi.garden/tokens/thbill)
 - [UBTC](https://www.defi.garden/tokens/ubtc)
 - [XBTC](https://www.defi.garden/tokens/xbtc)
+- [HYPE](https://www.defi.garden/tokens/hype)
 
 ## Available on
 

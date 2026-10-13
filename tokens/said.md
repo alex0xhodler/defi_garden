@@ -6,7 +6,7 @@ The highest honest SAID yield right now is 10.79% on gaib (Ethereum), among 1 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gaib →](https://www.defi.garden/?pool=e575606e-5642-4f87-b9ad-3e53d6f83c82#src=seo_token) | Ethereum | 10.79% | $15.81M |
+| [gaib →](https://www.defi.garden/?pool=e575606e-5642-4f87-b9ad-3e53d6f83c82#src=seo_token) | Ethereum | 10.79% | $15.82M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SAID pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $15.81M in total.
+1 live pool clear this page's $100K TVL floor, $15.82M in total.
 
 ### Are these rates safe?
 

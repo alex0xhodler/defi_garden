@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest LSEA yield right now is 0.54% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LSEA yield right now is 1.39% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=b417d809-6294-4029-9c4f-4bd745b8a3f8#src=seo_token) | Base | 0.54% | $137.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b417d809-6294-4029-9c4f-4bd745b8a3f8#src=seo_token) | Base | 1.39% | $136K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LSEA yield today?
 
-0.54% APY on uniswap-v3 (Base), based on live DefiLlama data.
+1.39% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many LSEA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $137.5K in total.
+1 live pool clear this page's $100K TVL floor, $136K in total.
 
 ### Are these rates safe?
 

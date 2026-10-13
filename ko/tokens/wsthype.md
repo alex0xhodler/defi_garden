@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [hypurrfi-pooled →](https://www.defi.garden/?pool=55cf1cbe-b007-4fa6-8837-a54d872bb1f4#src=seo_token) | Hyperliquid L1 | 0.09% | $937.9K |
+| [hypurrfi-pooled →](https://www.defi.garden/?pool=55cf1cbe-b007-4fa6-8837-a54d872bb1f4#src=seo_token) | Hyperliquid L1 | 0.09% | $927.4K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -37,7 +37,7 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 hypurrfi-pooled에서 AP
 
 ### WSTHYPE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $42.89M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $42.61M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -51,10 +51,10 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 hypurrfi-pooled에서 AP
 
 - [KHYPE](https://www.defi.garden/ko/tokens/khype)
 - [WHYPE](https://www.defi.garden/ko/tokens/whype)
-- [USDT0](https://www.defi.garden/ko/tokens/usdt0)
 - [THBILL](https://www.defi.garden/ko/tokens/thbill)
 - [UBTC](https://www.defi.garden/ko/tokens/ubtc)
 - [XBTC](https://www.defi.garden/ko/tokens/xbtc)
+- [HYPE](https://www.defi.garden/ko/tokens/hype)
 
 ## 이용 가능한 체인
 

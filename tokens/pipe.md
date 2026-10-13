@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest PIPE yield right now is 0.43% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PIPE yield right now is 0.65% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=103578cd-888c-4124-8a8c-c7094f4a20b1#src=seo_token) | Solana | 0.43% | $107.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=103578cd-888c-4124-8a8c-c7094f4a20b1#src=seo_token) | Solana | 0.65% | $107.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PIPE yield today?
 
-0.43% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.65% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many PIPE pools clear the TVL floor?
 

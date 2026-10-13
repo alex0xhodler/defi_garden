@@ -6,7 +6,7 @@ The highest honest NOPAL yield right now is 9.91% on plume-vaults (Plume Mainnet
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [plume-vaults →](https://www.defi.garden/pools/plume-vaults-nopal-plume-mainnet) | Plume Mainnet | 9.91% | $121.71M |
+| [plume-vaults →](https://www.defi.garden/pools/plume-vaults-nopal-plume-mainnet) | Plume Mainnet | 9.91% | $121.47M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,13 +19,13 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 NOPAL shows up in 1 pools here, with rates from 9.91% to 9.91% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 11.02% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 11.01% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| plume-vaults | 9.91% | 11.02% | Base rate |
+| plume-vaults | 9.91% | 11.01% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many NOPAL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $127.77M in total.
+2 live pools clear this page's $100K TVL floor, $127.52M in total.
 
 ### Are these rates safe?
 

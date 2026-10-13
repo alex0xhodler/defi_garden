@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest ULTI yield right now is 349.28% on vvs-standard (Cronos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ULTI yield right now is 502.35% on vvs-standard (Cronos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=c8fabc63-53d0-5bc1-9a49-762e1f0f6a1d#src=seo_token) | Cronos | 349.28% | $120.7K |
+| [vvs-standard →](https://www.defi.garden/?pool=c8fabc63-53d0-5bc1-9a49-762e1f0f6a1d#src=seo_token) | Cronos | 502.35% | $101.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ULTI yield today?
 
-349.28% APY on vvs-standard (Cronos), based on live DefiLlama data.
+502.35% APY on vvs-standard (Cronos), based on live DefiLlama data.
 
 ### How many ULTI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $120.7K in total.
+1 live pool clear this page's $100K TVL floor, $101.7K in total.
 
 ### Are these rates safe?
 

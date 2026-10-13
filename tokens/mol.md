@@ -6,7 +6,7 @@ The highest honest MOL yield right now is 0.01% on uniswap-v3 (Base), among 2 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=69f93895-6727-4fd9-86c4-b82fb71d3c35#src=seo_token) | Base | 0.01% | $215.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=69f93895-6727-4fd9-86c4-b82fb71d3c35#src=seo_token) | Base | 0.01% | $214.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many MOL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $318.7K in total.
+2 live pools clear this page's $100K TVL floor, $316.8K in total.
 
 ### Are these rates safe?
 

@@ -6,7 +6,7 @@ The highest honest WMTWETH yield right now is 3.75% on wildcat-protocol (Ethereu
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [wildcat-protocol →](https://www.defi.garden/?pool=75b6c515-f06f-4408-8347-74e29be7fc62#src=seo_token) | Ethereum | 3.75% | $169.4K |
+| [wildcat-protocol →](https://www.defi.garden/?pool=75b6c515-f06f-4408-8347-74e29be7fc62#src=seo_token) | Ethereum | 3.75% | $172.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WMTWETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $169.4K in total.
+1 live pool clear this page's $100K TVL floor, $172.2K in total.
 
 ### Are these rates safe?
 

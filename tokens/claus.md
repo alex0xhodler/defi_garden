@@ -8,7 +8,7 @@ The highest honest CLAUS yield right now is 169.30% on uniswap-v2 (Base), among 
 |---|---|---|---|
 | [uniswap-v2 →](https://www.defi.garden/?pool=48636e86-8222-5b6a-ac09-6702c60d6978#src=seo_token) | Base | 169.30% | $336.3K |
 | [uniswap-v2 →](https://www.defi.garden/?pool=5f95f092-96f0-5d21-82c6-d2be3c70e126#src=seo_token) | Ethereum | 88.90% | $204.4K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=0f038b5b-f905-583f-b192-9f461c2e5c2a#src=seo_token) | Ethereum | 58.34% | $181.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=0f038b5b-f905-583f-b192-9f461c2e5c2a#src=seo_token) | Ethereum | 73.36% | $158.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-CLAUS shows up in 3 pools here, with rates from 58.34% to 169.30% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+CLAUS shows up in 3 pools here, with rates from 73.36% to 169.30% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 3 pools have a trustworthy 30-day average on file, with a median of 576.66% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -31,7 +31,7 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 |---|---|---|---|
 | uniswap-v2 | 169.30% | 240.77% | Base rate |
 | uniswap-v2 | 88.90% | 912.55% | Base rate |
-| uniswap-v4 | 58.34% | — | Base rate |
+| uniswap-v4 | 73.36% | — | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -43,7 +43,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many CLAUS pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.28M in total.
+4 live pools clear this page's $100K TVL floor, $1.2M in total.
 
 ### Are these rates safe?
 

@@ -6,7 +6,7 @@ The highest honest WPE yield right now is 0.04% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=528328a8-1883-4732-b9fe-a2ff0471ec50#src=seo_token) | Ethereum | 0.04% | $143.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=528328a8-1883-4732-b9fe-a2ff0471ec50#src=seo_token) | Ethereum | 0.04% | $142.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WPE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $143.9K in total.
+1 live pool clear this page's $100K TVL floor, $142.8K in total.
 
 ### Are these rates safe?
 

@@ -6,17 +6,17 @@ The highest honest KUMA yield right now is 8.26% on raydium-amm (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=c266e9e5-65f7-412f-9730-5a348dfdeb59#src=seo_token) | Ethereum | 0.01% | $586.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=c266e9e5-65f7-412f-9730-5a348dfdeb59#src=seo_token) | Ethereum | 0.01% | $583.6K |
 | [raydium-amm →](https://www.defi.garden/?pool=73146d49-e662-4dc2-a38e-85b0e5b0d053#src=seo_token) | Solana | 8.26% | $113K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, KUMA's lower-variability candidates are uniswap-v2 (Ethereum), 0.01% APY, $586.4K TVL, https://www.defi.garden/?pool=c266e9e5-65f7-412f-9730-5a348dfdeb59#src=seo_token; raydium-amm (Solana), 8.26% APY, $113K TVL, https://www.defi.garden/?pool=73146d49-e662-4dc2-a38e-85b0e5b0d053#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, KUMA's lower-variability candidates are uniswap-v2 (Ethereum), 0.01% APY, $583.6K TVL, https://www.defi.garden/?pool=c266e9e5-65f7-412f-9730-5a348dfdeb59#src=seo_token; raydium-amm (Solana), 8.26% APY, $113K TVL, https://www.defi.garden/?pool=73146d49-e662-4dc2-a38e-85b0e5b0d053#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=c266e9e5-65f7-412f-9730-5a348dfdeb59#src=seo_token) | Ethereum | 0.01% | $586.4K |
+| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=c266e9e5-65f7-412f-9730-5a348dfdeb59#src=seo_token) | Ethereum | 0.01% | $583.6K |
 | 2 | [raydium-amm →](https://www.defi.garden/?pool=73146d49-e662-4dc2-a38e-85b0e5b0d053#src=seo_token) | Solana | 8.26% | $113K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many KUMA pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $699.4K in total.
+2 live pools clear this page's $100K TVL floor, $696.6K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which KUMA pools have the most stable APY history?
 
-Based on APY history only, KUMA's lower-variability candidates are uniswap-v2 (Ethereum), 0.01% APY, $586.4K TVL, https://www.defi.garden/?pool=c266e9e5-65f7-412f-9730-5a348dfdeb59#src=seo_token; raydium-amm (Solana), 8.26% APY, $113K TVL, https://www.defi.garden/?pool=73146d49-e662-4dc2-a38e-85b0e5b0d053#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, KUMA's lower-variability candidates are uniswap-v2 (Ethereum), 0.01% APY, $583.6K TVL, https://www.defi.garden/?pool=c266e9e5-65f7-412f-9730-5a348dfdeb59#src=seo_token; raydium-amm (Solana), 8.26% APY, $113K TVL, https://www.defi.garden/?pool=73146d49-e662-4dc2-a38e-85b0e5b0d053#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

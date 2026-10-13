@@ -1,17 +1,17 @@
 # Polygon DeFi Yields
 
-The highest honest Polygon yield right now is 3.34% on aave-v3 (Polygon), among 177 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Polygon yield right now is 3.32% on aave-v3 (Polygon), among 175 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| WBTC | [aave-v3 →](https://www.defi.garden/?pool=58d18059-f1d1-45ed-acd3-f386e98cc506#src=seo_chain) | 0.01% | $67.99M |
-| WETH | [aave-v3 →](https://www.defi.garden/?pool=2b9bf1c6-a018-4e93-a32f-7cf6ccd311fc#src=seo_chain) | 0.43% | $25.62M |
-| BET-USDT | [uniswap-v3 →](https://www.defi.garden/?pool=3e80e8c9-e344-4a52-aea2-d2ae0c204ed3#src=seo_chain) | 0.01% | $17.31M |
-| BUIDL | [blackrock-buidl →](https://www.defi.garden/?pool=0715f02b-1803-417f-98ec-4e6e950ff498#src=seo_chain) | 3.78% | $11.94M |
-| USDC | [aave-v3 →](https://www.defi.garden/?pool=1b8b4cdb-0728-42a8-bf13-2c8fea7427ee#src=seo_chain) | 3.08% | $10.54M |
-| USDT0 | [aave-v3 →](https://www.defi.garden/?pool=7e7821a2-3d20-4ae7-9c3d-04cd57904555#src=seo_chain) | 3.34% | $10.21M |
-| WPOL | [aave-v3 →](https://www.defi.garden/?pool=f67c3baa-613a-409e-940e-5366f474871b#src=seo_chain) | 0.33% | $5.99M |
-| FUN-DAI | [quickswap-dex →](https://www.defi.garden/?pool=e21e94a1-1ad0-4b9c-965b-7d4efe95de76#src=seo_chain) | 0.47% | $4.56M |
+| WBTC | [aave-v3 →](https://www.defi.garden/?pool=58d18059-f1d1-45ed-acd3-f386e98cc506#src=seo_chain) | 0.01% | $67.48M |
+| WETH | [aave-v3 →](https://www.defi.garden/?pool=2b9bf1c6-a018-4e93-a32f-7cf6ccd311fc#src=seo_chain) | 0.43% | $25.35M |
+| BET-USDT | [uniswap-v3 →](https://www.defi.garden/?pool=3e80e8c9-e344-4a52-aea2-d2ae0c204ed3#src=seo_chain) | 0.01% | $17.26M |
+| BUIDL | [blackrock-buidl →](https://www.defi.garden/?pool=0715f02b-1803-417f-98ec-4e6e950ff498#src=seo_chain) | 3.78% | $11.95M |
+| USDC | [aave-v3 →](https://www.defi.garden/?pool=1b8b4cdb-0728-42a8-bf13-2c8fea7427ee#src=seo_chain) | 3.13% | $10.33M |
+| USDT0 | [aave-v3 →](https://www.defi.garden/?pool=7e7821a2-3d20-4ae7-9c3d-04cd57904555#src=seo_chain) | 3.32% | $10.27M |
+| WPOL | [aave-v3 →](https://www.defi.garden/?pool=f67c3baa-613a-409e-940e-5366f474871b#src=seo_chain) | 0.33% | $5.68M |
+| FUN-DAI | [quickswap-dex →](https://www.defi.garden/?pool=e21e94a1-1ad0-4b9c-965b-7d4efe95de76#src=seo_chain) | 0.33% | $4.56M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Polygon yield today?
 
-3.34% APY on aave-v3 (Polygon), based on live DefiLlama data.
+3.32% APY on aave-v3 (Polygon), based on live DefiLlama data.
 
 ### How many Polygon pools clear the TVL floor?
 
-177 live pools clear this page's $100K TVL floor, $247.26M in total.
+175 live pools clear this page's $100K TVL floor, $244.51M in total.
 
 ### Are these rates safe?
 

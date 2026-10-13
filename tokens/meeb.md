@@ -6,7 +6,7 @@ The highest honest MEEB yield right now is 0.23% on sushiswap (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sushiswap →](https://www.defi.garden/?pool=89ee04fe-d9f5-4966-8e7d-734c5436e876#src=seo_token) | Ethereum | 0.23% | $323.2K |
+| [sushiswap →](https://www.defi.garden/?pool=89ee04fe-d9f5-4966-8e7d-734c5436e876#src=seo_token) | Ethereum | 0.23% | $322.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MEEB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $323.2K in total.
+1 live pool clear this page's $100K TVL floor, $322.2K in total.
 
 ### Are these rates safe?
 

@@ -4,10 +4,10 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| WBTC | [native-core-clob →](https://www.defi.garden/?pool=cddba699-1af3-52d6-8272-f540492796b0#src=seo_chain) | 1.02% | $1.45M |
-| USDC | [native-core-clob →](https://www.defi.garden/?pool=ecaff9e1-ee58-5042-9680-a1c12bc233a4#src=seo_chain) | 5.37% | $696.6K |
-| ETH | [native-core-clob →](https://www.defi.garden/?pool=9ec34926-8df8-5c86-9534-af15a68fbbc7#src=seo_chain) | 2.73% | $326.7K |
-| USDT | [native-core-clob →](https://www.defi.garden/?pool=a3fa51c6-62dd-500d-9d15-348940355d2b#src=seo_chain) | 3.26% | $163K |
+| WBTC | [native-core-clob →](https://www.defi.garden/?pool=cddba699-1af3-52d6-8272-f540492796b0#src=seo_chain) | 1.02% | $1.44M |
+| USDC | [native-core-clob →](https://www.defi.garden/?pool=ecaff9e1-ee58-5042-9680-a1c12bc233a4#src=seo_chain) | 5.37% | $696.7K |
+| ETH | [native-core-clob →](https://www.defi.garden/?pool=9ec34926-8df8-5c86-9534-af15a68fbbc7#src=seo_chain) | 2.73% | $325.8K |
+| USDT | [native-core-clob →](https://www.defi.garden/?pool=a3fa51c6-62dd-500d-9d15-348940355d2b#src=seo_chain) | 3.26% | $163.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,7 +19,7 @@ DefiLlama 실시간 데이터 기준, Native Core의 native-core-clob에서 APY 
 
 ### Native Core 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $2.64M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $2.63M예요.
 
 ### 이 수익률은 안전한가요?
 

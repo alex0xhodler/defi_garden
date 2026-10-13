@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest MARSCOIN yield right now is 249.42% on uniswap-v3 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MARSCOIN yield right now is 234.00% on uniswap-v3 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=9bfee195-b9a4-5dc7-b442-ea3c46124fb4#src=seo_token) | BSC | 249.42% | $226.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=9bfee195-b9a4-5dc7-b442-ea3c46124fb4#src=seo_token) | BSC | 234.00% | $212.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MARSCOIN yield today?
 
-249.42% APY on uniswap-v3 (BSC), based on live DefiLlama data.
+234.00% APY on uniswap-v3 (BSC), based on live DefiLlama data.
 
 ### How many MARSCOIN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $226.2K in total.
+1 live pool clear this page's $100K TVL floor, $212.4K in total.
 
 ### Are these rates safe?
 

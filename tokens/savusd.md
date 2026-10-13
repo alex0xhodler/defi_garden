@@ -6,7 +6,7 @@ The highest honest SAVUSD yield right now is 7.55% on avant-avusd (Avalanche), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [avant-avusd →](https://www.defi.garden/?pool=c74227a1-e738-4021-bbe1-13363815aecb#src=seo_token) | Avalanche | 7.55% | $99.37M |
+| [avant-avusd →](https://www.defi.garden/?pool=c74227a1-e738-4021-bbe1-13363815aecb#src=seo_token) | Avalanche | 7.55% | $99.62M |
 | [morpho-blue →](https://www.defi.garden/?pool=fad7bc2b-3ac7-5554-bfd1-52cb1b2d4bcb#src=seo_token) | Base | 1.17% | $4.32M |
 
 <!-- rate-stability:insufficient -->
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SAVUSD pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $146.18M in total.
+8 live pools clear this page's $100K TVL floor, $146.41M in total.
 
 ### Are these rates safe?
 

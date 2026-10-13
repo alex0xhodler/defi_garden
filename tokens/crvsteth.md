@@ -6,7 +6,7 @@ The highest honest CRVSTETH yield right now is 1.25% on yearn-finance (Ethereum)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=19120993-4a4c-4f35-a4cd-ad29fee7b022#src=seo_token) | Ethereum | 1.25% | $5.73M |
+| [yearn-finance →](https://www.defi.garden/?pool=19120993-4a4c-4f35-a4cd-ad29fee7b022#src=seo_token) | Ethereum | 1.25% | $5.72M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CRVSTETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $5.73M in total.
+1 live pool clear this page's $100K TVL floor, $5.72M in total.
 
 ### Are these rates safe?
 

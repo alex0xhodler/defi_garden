@@ -2,11 +2,11 @@
 
 *DefiLlama 데이터 생성 시점 검증: October 13, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 BITUSDCP의 가장 높은 정직한 수익률은 Base의 morpho-blue에서 4.48%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 BITUSDCP의 가장 높은 정직한 수익률은 Base의 morpho-blue에서 4.49%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=3c9e2fb0-6bf6-53aa-9ff6-d78ff4d044a1#src=seo_token) | Base | 4.48% | $1.14M |
+| [morpho-blue →](https://www.defi.garden/?pool=3c9e2fb0-6bf6-53aa-9ff6-d78ff4d044a1#src=seo_token) | Base | 4.49% | $1.14M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,7 +19,7 @@
 
 ### 오늘 BITUSDCP의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 morpho-blue에서 APY 4.48%예요.
+DefiLlama 실시간 데이터 기준, Base의 morpho-blue에서 APY 4.49%예요.
 
 ### BITUSDCP 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

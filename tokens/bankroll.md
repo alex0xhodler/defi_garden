@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest BANKROLL yield right now is 83.99% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BANKROLL yield right now is 61.02% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=4c83b1ce-0d77-5d7e-b4bd-5a676eb9f26e#src=seo_token) | Solana | 83.99% | $180.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=4c83b1ce-0d77-5d7e-b4bd-5a676eb9f26e#src=seo_token) | Solana | 61.02% | $213.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BANKROLL yield today?
 
-83.99% APY on raydium-amm (Solana), based on live DefiLlama data.
+61.02% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many BANKROLL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $180.6K in total.
+1 live pool clear this page's $100K TVL floor, $213.1K in total.
 
 ### Are these rates safe?
 

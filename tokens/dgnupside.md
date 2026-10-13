@@ -6,7 +6,7 @@ The highest honest DGNUPSIDE yield right now is 120.70% on d2-finance (Hyperliqu
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [d2-finance →](https://www.defi.garden/?pool=1cec1be3-ba60-505a-b397-dc66276ccc9e#src=seo_token) | Hyperliquid L1 | 120.70% | $802.6K |
+| [d2-finance →](https://www.defi.garden/?pool=1cec1be3-ba60-505a-b397-dc66276ccc9e#src=seo_token) | Hyperliquid L1 | 120.70% | $795.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DGNUPSIDE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $802.6K in total.
+1 live pool clear this page's $100K TVL floor, $795.2K in total.
 
 ### Are these rates safe?
 
@@ -37,10 +37,10 @@ There is not enough qualifying APY history to rank DGNUPSIDE pools. This view co
 
 - [KHYPE](https://www.defi.garden/tokens/khype)
 - [WHYPE](https://www.defi.garden/tokens/whype)
-- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [THBILL](https://www.defi.garden/tokens/thbill)
 - [UBTC](https://www.defi.garden/tokens/ubtc)
 - [WSTHYPE](https://www.defi.garden/tokens/wsthype)
+- [XBTC](https://www.defi.garden/tokens/xbtc)
 
 ## Available on
 

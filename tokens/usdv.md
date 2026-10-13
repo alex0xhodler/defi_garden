@@ -2,33 +2,33 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest USDV yield right now is 64.98% on nest-cl (Hyperliquid L1), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDV yield right now is 74.20% on nest-cl (Hyperliquid L1), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=7ce36657-8a88-51d8-b3dc-30805ec3ff72#src=seo_token) | Solana | 0.10% | $1.68M |
-| [raydium-amm →](https://www.defi.garden/?pool=8f50502a-0e73-5f6b-8b06-a13bd680a980#src=seo_token) | Solana | 5.01% | $737.8K |
-| [nest-cl →](https://www.defi.garden/?pool=747795c7-837b-5b87-887c-208244ee9dbe#src=seo_token) | Hyperliquid L1 | 34.24% | $588.2K |
-| [raydium-amm →](https://www.defi.garden/?pool=1ccc1484-368a-570d-81f9-f11ab11e4131#src=seo_token) | Solana | 2.97% | $215K |
-| [nest-cl →](https://www.defi.garden/?pool=321ea206-8710-522e-890f-2ef70fe7c9d1#src=seo_token) | Hyperliquid L1 | 64.98% | $168.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=7ce36657-8a88-51d8-b3dc-30805ec3ff72#src=seo_token) | Solana | 0.11% | $1.68M |
+| [raydium-amm →](https://www.defi.garden/?pool=8f50502a-0e73-5f6b-8b06-a13bd680a980#src=seo_token) | Solana | 4.77% | $737.2K |
+| [nest-cl →](https://www.defi.garden/?pool=747795c7-837b-5b87-887c-208244ee9dbe#src=seo_token) | Hyperliquid L1 | 33.10% | $588.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=1ccc1484-368a-570d-81f9-f11ab11e4131#src=seo_token) | Solana | 3.74% | $214.8K |
+| [nest-cl →](https://www.defi.garden/?pool=321ea206-8710-522e-890f-2ef70fe7c9d1#src=seo_token) | Hyperliquid L1 | 74.20% | $164.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, USDV's lower-variability candidates are nest-cl (Hyperliquid L1), 64.98% APY, $168.2K TVL, https://www.defi.garden/?pool=321ea206-8710-522e-890f-2ef70fe7c9d1#src=seo_token; nest-cl (Hyperliquid L1), 34.24% APY, $588.2K TVL, https://www.defi.garden/?pool=747795c7-837b-5b87-887c-208244ee9dbe#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDV's lower-variability candidates are nest-cl (Hyperliquid L1), 74.20% APY, $164.5K TVL, https://www.defi.garden/?pool=321ea206-8710-522e-890f-2ef70fe7c9d1#src=seo_token; nest-cl (Hyperliquid L1), 33.10% APY, $588.3K TVL, https://www.defi.garden/?pool=747795c7-837b-5b87-887c-208244ee9dbe#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [nest-cl →](https://www.defi.garden/?pool=321ea206-8710-522e-890f-2ef70fe7c9d1#src=seo_token) | Hyperliquid L1 | 64.98% | $168.2K |
-| 2 | [nest-cl →](https://www.defi.garden/?pool=747795c7-837b-5b87-887c-208244ee9dbe#src=seo_token) | Hyperliquid L1 | 34.24% | $588.2K |
+| 1 | [nest-cl →](https://www.defi.garden/?pool=321ea206-8710-522e-890f-2ef70fe7c9d1#src=seo_token) | Hyperliquid L1 | 74.20% | $164.5K |
+| 2 | [nest-cl →](https://www.defi.garden/?pool=747795c7-837b-5b87-887c-208244ee9dbe#src=seo_token) | Hyperliquid L1 | 33.10% | $588.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-USDV shows up in 5 pools here, with rates from 0.10% to 64.98% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+USDV shows up in 5 pools here, with rates from 0.11% to 74.20% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-5 of these 5 pools have a trustworthy 30-day average on file, with a median of 9.28% — a useful check against today's number for whether the rate is steady or just having a good day.
+5 of these 5 pools have a trustworthy 30-day average on file, with a median of 9.17% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 5 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -36,11 +36,11 @@ USDV shows up in 5 pools here, with rates from 0.10% to 64.98% APY across 2 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 0.10% | 0.24% | Base rate |
-| raydium-amm | 5.01% | 9.28% | Base rate |
-| nest-cl | 34.24% | 38.82% | 100.00% incentives |
-| raydium-amm | 2.97% | 5.32% | Base rate |
-| nest-cl | 64.98% | 92.88% | 100.00% incentives |
+| raydium-amm | 0.11% | 0.24% | Base rate |
+| raydium-amm | 4.77% | 9.17% | Base rate |
+| nest-cl | 33.10% | 38.86% | 100.00% incentives |
+| raydium-amm | 3.74% | 4.96% | Base rate |
+| nest-cl | 74.20% | 92.34% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -48,7 +48,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USDV yield today?
 
-64.98% APY on nest-cl (Hyperliquid L1), based on live DefiLlama data.
+74.20% APY on nest-cl (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many USDV pools clear the TVL floor?
 
@@ -60,7 +60,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USDV pools have the most stable APY history?
 
-Based on APY history only, USDV's lower-variability candidates are nest-cl (Hyperliquid L1), 64.98% APY, $168.2K TVL, https://www.defi.garden/?pool=321ea206-8710-522e-890f-2ef70fe7c9d1#src=seo_token; nest-cl (Hyperliquid L1), 34.24% APY, $588.2K TVL, https://www.defi.garden/?pool=747795c7-837b-5b87-887c-208244ee9dbe#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDV's lower-variability candidates are nest-cl (Hyperliquid L1), 74.20% APY, $164.5K TVL, https://www.defi.garden/?pool=321ea206-8710-522e-890f-2ef70fe7c9d1#src=seo_token; nest-cl (Hyperliquid L1), 33.10% APY, $588.3K TVL, https://www.defi.garden/?pool=747795c7-837b-5b87-887c-208244ee9dbe#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

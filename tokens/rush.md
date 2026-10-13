@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest RUSH yield right now is 14.79% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RUSH yield right now is 19.62% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=0c72c28b-1c0d-5002-8391-cd5dd0a52934#src=seo_token) | Solana | 14.79% | $658.2K |
+| [orca-dex →](https://www.defi.garden/?pool=0c72c28b-1c0d-5002-8391-cd5dd0a52934#src=seo_token) | Solana | 19.62% | $662K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RUSH yield today?
 
-14.79% APY on orca-dex (Solana), based on live DefiLlama data.
+19.62% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many RUSH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $658.2K in total.
+1 live pool clear this page's $100K TVL floor, $662K in total.
 
 ### Are these rates safe?
 

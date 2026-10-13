@@ -6,7 +6,7 @@ The highest honest ASOL yield right now is 0.21% on hydration-dex (Polkadot), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hydration-dex →](https://www.defi.garden/?pool=262671f7-0c85-53cc-8042-571ab6e3cf18#src=seo_token) | Polkadot | 0.21% | $1.71M |
+| [hydration-dex →](https://www.defi.garden/?pool=262671f7-0c85-53cc-8042-571ab6e3cf18#src=seo_token) | Polkadot | 0.21% | $1.68M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ASOL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.71M in total.
+1 live pool clear this page's $100K TVL floor, $1.68M in total.
 
 ### Are these rates safe?
 

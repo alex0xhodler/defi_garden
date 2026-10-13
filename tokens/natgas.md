@@ -6,7 +6,7 @@ The highest honest NATGAS yield right now is 1.94% on gmx-solana (Solana), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmx-solana →](https://www.defi.garden/?pool=3054c3ba-1a66-5d63-9696-e80dde59a7b3#src=seo_token) | Solana | 1.94% | $106.3K |
+| [gmx-solana →](https://www.defi.garden/?pool=3054c3ba-1a66-5d63-9696-e80dde59a7b3#src=seo_token) | Solana | 1.94% | $110.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NATGAS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $106.3K in total.
+1 live pool clear this page's $100K TVL floor, $110.5K in total.
 
 ### Are these rates safe?
 

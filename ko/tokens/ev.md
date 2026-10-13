@@ -2,11 +2,11 @@
 
 *DefiLlama 데이터 생성 시점 검증: October 13, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 EV의 가장 높은 정직한 수익률은 Arbitrum의 everything에서 43.30%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 EV의 가장 높은 정직한 수익률은 Arbitrum의 everything에서 42.58%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [everything →](https://www.defi.garden/?pool=b71ad0aa-78ce-4eae-9200-745b19b37701#src=seo_token) | Arbitrum | 43.30% | $1.64M |
+| [everything →](https://www.defi.garden/?pool=b71ad0aa-78ce-4eae-9200-745b19b37701#src=seo_token) | Arbitrum | 42.58% | $1.64M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,7 +19,7 @@
 
 ### 오늘 EV의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Arbitrum의 everything에서 APY 43.30%예요.
+DefiLlama 실시간 데이터 기준, Arbitrum의 everything에서 APY 42.58%예요.
 
 ### EV 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

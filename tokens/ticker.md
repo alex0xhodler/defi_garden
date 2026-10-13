@@ -6,7 +6,7 @@ The highest honest TICKER yield right now is 0.01% on uniswap-v3 (Base), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=f6c31668-606a-4ebe-a357-c46bb47c38b9#src=seo_token) | Base | 0.01% | $1.37M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f6c31668-606a-4ebe-a357-c46bb47c38b9#src=seo_token) | Base | 0.01% | $1.36M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TICKER pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.37M in total.
+1 live pool clear this page's $100K TVL floor, $1.36M in total.
 
 ### Are these rates safe?
 

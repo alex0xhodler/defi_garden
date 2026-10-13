@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest SUZ yield right now is 1.02% on blackhole-amm (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUZ yield right now is 0.99% on blackhole-amm (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [blackhole-amm →](https://www.defi.garden/?pool=022c25d4-ebdb-4274-b4f0-9dcfc42da4df#src=seo_token) | Avalanche | 1.02% | $131.6K |
+| [blackhole-amm →](https://www.defi.garden/?pool=022c25d4-ebdb-4274-b4f0-9dcfc42da4df#src=seo_token) | Avalanche | 0.99% | $131.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SUZ yield today?
 
-1.02% APY on blackhole-amm (Avalanche), based on live DefiLlama data.
+0.99% APY on blackhole-amm (Avalanche), based on live DefiLlama data.
 
 ### How many SUZ pools clear the TVL floor?
 
@@ -39,8 +39,8 @@ There is not enough qualifying APY history to rank SUZ pools. This view covers A
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [SAVAX](https://www.defi.garden/tokens/savax)
 - [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
-- [WAVAX](https://www.defi.garden/tokens/wavax)
 - [SAVUSD](https://www.defi.garden/tokens/savusd)
+- [WAVAX](https://www.defi.garden/tokens/wavax)
 
 ## Available on
 

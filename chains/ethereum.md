@@ -4,14 +4,14 @@ The highest honest Ethereum yield right now is 5.26% on maple (Ethereum), among 
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| STETH | [lido →](https://www.defi.garden/pools/lido-steth-ethereum) | 2.22% | $24.41B |
-| WBETH | [binance-staked-eth →](https://www.defi.garden/pools/binance-staked-eth-wbeth-ethereum) | 2.20% | $8.9B |
-| WEETH | [ether.fi-stake →](https://www.defi.garden/pools/ether-fi-stake-weeth-ethereum) | 2.31% | $5.59B |
+| STETH | [lido →](https://www.defi.garden/pools/lido-steth-ethereum) | 2.25% | $24.33B |
+| WBETH | [binance-staked-eth →](https://www.defi.garden/pools/binance-staked-eth-wbeth-ethereum) | 2.22% | $8.85B |
+| WEETH | [ether.fi-stake →](https://www.defi.garden/pools/ether-fi-stake-weeth-ethereum) | 2.31% | $5.53B |
 | SUSDS | [sky-lending →](https://www.defi.garden/pools/sky-lending-susds-ethereum) | 3.80% | $5.03B |
-| USDC | [maple →](https://www.defi.garden/pools/maple-usdc-ethereum) | 5.26% | $2.86B |
-| RETH | [rocket-pool →](https://www.defi.garden/pools/rocket-pool-reth-ethereum) | 2.18% | $1.32B |
-| USDY | [ondo-yield-assets →](https://www.defi.garden/pools/ondo-yield-assets-usdy-ethereum) | 3.67% | $1.24B |
-| SUSDE | [ethena-usde →](https://www.defi.garden/pools/ethena-usde-susde-ethereum) | 4.87% | $1.21B |
+| USDC | [maple →](https://www.defi.garden/pools/maple-usdc-ethereum) | 5.26% | $2.85B |
+| RETH | [rocket-pool →](https://www.defi.garden/pools/rocket-pool-reth-ethereum) | 2.18% | $1.31B |
+| USDY | [ondo-yield-assets →](https://www.defi.garden/pools/ondo-yield-assets-usdy-ethereum) | 3.67% | $1.25B |
+| SUSDE | [ethena-usde →](https://www.defi.garden/pools/ethena-usde-susde-ethereum) | 5.09% | $1.21B |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Ethereum pools clear the TVL floor?
 
-3,395 live pools clear this page's $100K TVL floor, $106.17B in total.
+3,395 live pools clear this page's $100K TVL floor, $105.76B in total.
 
 ### Are these rates safe?
 

@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest TETSUO yield right now is 1.77% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TETSUO yield right now is 2.26% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=3c2ec146-be6d-4f5c-89fa-9105f64d1014#src=seo_token) | Solana | 1.77% | $158.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=3c2ec146-be6d-4f5c-89fa-9105f64d1014#src=seo_token) | Solana | 2.26% | $150.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TETSUO yield today?
 
-1.77% APY on raydium-amm (Solana), based on live DefiLlama data.
+2.26% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many TETSUO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $158.6K in total.
+1 live pool clear this page's $100K TVL floor, $150.9K in total.
 
 ### Are these rates safe?
 

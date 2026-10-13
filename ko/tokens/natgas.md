@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [gmx-solana →](https://www.defi.garden/?pool=3054c3ba-1a66-5d63-9696-e80dde59a7b3#src=seo_token) | Solana | 1.94% | $106.3K |
+| [gmx-solana →](https://www.defi.garden/?pool=3054c3ba-1a66-5d63-9696-e80dde59a7b3#src=seo_token) | Solana | 1.94% | $110.5K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Solana의 gmx-solana에서 APY 1.94%예요
 
 ### NATGAS 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $106.3K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $110.5K예요.
 
 ### 이 수익률은 안전한가요?
 

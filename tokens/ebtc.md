@@ -2,30 +2,30 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest EBTC yield right now is 0.58% on curve-dex (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EBTC yield right now is 0.54% on curve-dex (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ether.fi-stake →](https://www.defi.garden/?pool=f6568026-ff92-463d-8712-b9e8f8ea1408#src=seo_token) | Ethereum | 0.11% | $21.72M |
-| [curve-dex →](https://www.defi.garden/?pool=369fe157-a536-440e-9e9c-c080a369cbcb#src=seo_token) | Ethereum | 0.58% | $105.5K |
-| [convex-finance →](https://www.defi.garden/?pool=149c89b1-c592-41ea-95b4-901295f69c37#src=seo_token) | Ethereum | 1.87% | $105.5K |
+| [ether.fi-stake →](https://www.defi.garden/?pool=f6568026-ff92-463d-8712-b9e8f8ea1408#src=seo_token) | Ethereum | 0.11% | $21.59M |
+| [curve-dex →](https://www.defi.garden/?pool=369fe157-a536-440e-9e9c-c080a369cbcb#src=seo_token) | Ethereum | 0.54% | $105.2K |
+| [convex-finance →](https://www.defi.garden/?pool=149c89b1-c592-41ea-95b4-901295f69c37#src=seo_token) | Ethereum | 1.81% | $105.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, EBTC's lower-variability candidates are ether.fi-stake (Ethereum), 0.11% APY, $21.72M TVL, https://www.defi.garden/?pool=f6568026-ff92-463d-8712-b9e8f8ea1408#src=seo_token; convex-finance (Ethereum), 1.87% APY, $105.5K TVL, https://www.defi.garden/?pool=149c89b1-c592-41ea-95b4-901295f69c37#src=seo_token; curve-dex (Ethereum), 0.58% APY, $105.5K TVL, https://www.defi.garden/?pool=369fe157-a536-440e-9e9c-c080a369cbcb#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, EBTC's lower-variability candidates are ether.fi-stake (Ethereum), 0.11% APY, $21.59M TVL, https://www.defi.garden/?pool=f6568026-ff92-463d-8712-b9e8f8ea1408#src=seo_token; convex-finance (Ethereum), 1.81% APY, $105.2K TVL, https://www.defi.garden/?pool=149c89b1-c592-41ea-95b4-901295f69c37#src=seo_token; curve-dex (Ethereum), 0.54% APY, $105.2K TVL, https://www.defi.garden/?pool=369fe157-a536-440e-9e9c-c080a369cbcb#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [ether.fi-stake →](https://www.defi.garden/?pool=f6568026-ff92-463d-8712-b9e8f8ea1408#src=seo_token) | Ethereum | 0.11% | $21.72M |
-| 2 | [convex-finance →](https://www.defi.garden/?pool=149c89b1-c592-41ea-95b4-901295f69c37#src=seo_token) | Ethereum | 1.87% | $105.5K |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=369fe157-a536-440e-9e9c-c080a369cbcb#src=seo_token) | Ethereum | 0.58% | $105.5K |
+| 1 | [ether.fi-stake →](https://www.defi.garden/?pool=f6568026-ff92-463d-8712-b9e8f8ea1408#src=seo_token) | Ethereum | 0.11% | $21.59M |
+| 2 | [convex-finance →](https://www.defi.garden/?pool=149c89b1-c592-41ea-95b4-901295f69c37#src=seo_token) | Ethereum | 1.81% | $105.2K |
+| 3 | [curve-dex →](https://www.defi.garden/?pool=369fe157-a536-440e-9e9c-c080a369cbcb#src=seo_token) | Ethereum | 0.54% | $105.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-EBTC shows up in 3 pools here, with rates from 0.11% to 1.87% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+EBTC shows up in 3 pools here, with rates from 0.11% to 1.81% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.59% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -33,9 +33,9 @@ EBTC shows up in 3 pools here, with rates from 0.11% to 1.87% APY across 1 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| ether.fi-stake | 0.11% | 0.33% | Base rate |
-| curve-dex | 0.58% | 0.59% | 100.00% incentives |
-| convex-finance | 1.87% | 0.96% | 47.08% incentives |
+| ether.fi-stake | 0.11% | 0.32% | Base rate |
+| curve-dex | 0.54% | 0.59% | 100.00% incentives |
+| convex-finance | 1.81% | 0.98% | 45.28% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -43,11 +43,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest EBTC yield today?
 
-0.58% APY on curve-dex (Ethereum), based on live DefiLlama data.
+0.54% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many EBTC pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $34.37M in total.
+6 live pools clear this page's $100K TVL floor, $34.2M in total.
 
 ### Are these rates safe?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which EBTC pools have the most stable APY history?
 
-Based on APY history only, EBTC's lower-variability candidates are ether.fi-stake (Ethereum), 0.11% APY, $21.72M TVL, https://www.defi.garden/?pool=f6568026-ff92-463d-8712-b9e8f8ea1408#src=seo_token; convex-finance (Ethereum), 1.87% APY, $105.5K TVL, https://www.defi.garden/?pool=149c89b1-c592-41ea-95b4-901295f69c37#src=seo_token; curve-dex (Ethereum), 0.58% APY, $105.5K TVL, https://www.defi.garden/?pool=369fe157-a536-440e-9e9c-c080a369cbcb#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, EBTC's lower-variability candidates are ether.fi-stake (Ethereum), 0.11% APY, $21.59M TVL, https://www.defi.garden/?pool=f6568026-ff92-463d-8712-b9e8f8ea1408#src=seo_token; convex-finance (Ethereum), 1.81% APY, $105.2K TVL, https://www.defi.garden/?pool=149c89b1-c592-41ea-95b4-901295f69c37#src=seo_token; curve-dex (Ethereum), 0.54% APY, $105.2K TVL, https://www.defi.garden/?pool=369fe157-a536-440e-9e9c-c080a369cbcb#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

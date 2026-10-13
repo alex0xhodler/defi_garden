@@ -7,7 +7,7 @@ The highest honest XDC yield right now is 0.05% on raydium-amm (Solana), among 5
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=e4886c32-4757-5747-b9bc-d9aa26834f1a#src=seo_token) | Solana | 0.05% | $34.88M |
-| [raydium-amm →](https://www.defi.garden/?pool=e33228d3-fedb-5c78-9361-277fd54834e8#src=seo_token) | Solana | 0.01% | $33.98M |
+| [raydium-amm →](https://www.defi.garden/?pool=e33228d3-fedb-5c78-9361-277fd54834e8#src=seo_token) | Solana | 0.01% | $33.99M |
 | [raydium-amm →](https://www.defi.garden/?pool=052b8797-6b8e-5d62-b661-52c7d5252240#src=seo_token) | Solana | 0.05% | $32.98M |
 | [raydium-amm →](https://www.defi.garden/?pool=edb52a20-ff7f-5a5d-b4a7-649559e00266#src=seo_token) | Solana | 0.02% | $32.13M |
 
@@ -31,7 +31,7 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | raydium-amm | 0.05% | 0.04% | Base rate |
-| raydium-amm | 0.01% | 14.26% | Base rate |
+| raydium-amm | 0.01% | 12.83% | Base rate |
 | raydium-amm | 0.05% | 0.05% | Base rate |
 | raydium-amm | 0.02% | 0.03% | Base rate |
 
@@ -45,7 +45,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many XDC pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $169.05M in total.
+5 live pools clear this page's $100K TVL floor, $169.06M in total.
 
 ### Are these rates safe?
 

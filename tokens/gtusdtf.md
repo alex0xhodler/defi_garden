@@ -7,17 +7,17 @@ The highest honest GTUSDTF yield right now is 3.13% on morpho-blue (Ethereum), a
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [morpho-blue →](https://www.defi.garden/?pool=0f25159f-753d-4eef-84f5-1f9b47394033#src=seo_token) | Ethereum | 2.39% | $8.67M |
-| [morpho-blue →](https://www.defi.garden/?pool=3bb1186e-cbf3-4615-b5bb-8b0a4f4c8363#src=seo_token) | Ethereum | 3.13% | $1.33M |
+| [morpho-blue →](https://www.defi.garden/?pool=3bb1186e-cbf3-4615-b5bb-8b0a4f4c8363#src=seo_token) | Ethereum | 3.13% | $1.13M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, GTUSDTF's lower-variability candidates are morpho-blue (Ethereum), 2.39% APY, $8.67M TVL, https://www.defi.garden/?pool=0f25159f-753d-4eef-84f5-1f9b47394033#src=seo_token; morpho-blue (Ethereum), 3.13% APY, $1.33M TVL, https://www.defi.garden/?pool=3bb1186e-cbf3-4615-b5bb-8b0a4f4c8363#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GTUSDTF's lower-variability candidates are morpho-blue (Ethereum), 2.39% APY, $8.67M TVL, https://www.defi.garden/?pool=0f25159f-753d-4eef-84f5-1f9b47394033#src=seo_token; morpho-blue (Ethereum), 3.13% APY, $1.13M TVL, https://www.defi.garden/?pool=3bb1186e-cbf3-4615-b5bb-8b0a4f4c8363#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [morpho-blue →](https://www.defi.garden/?pool=0f25159f-753d-4eef-84f5-1f9b47394033#src=seo_token) | Ethereum | 2.39% | $8.67M |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=3bb1186e-cbf3-4615-b5bb-8b0a4f4c8363#src=seo_token) | Ethereum | 3.13% | $1.33M |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=3bb1186e-cbf3-4615-b5bb-8b0a4f4c8363#src=seo_token) | Ethereum | 3.13% | $1.13M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many GTUSDTF pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $10M in total.
+2 live pools clear this page's $100K TVL floor, $9.8M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which GTUSDTF pools have the most stable APY history?
 
-Based on APY history only, GTUSDTF's lower-variability candidates are morpho-blue (Ethereum), 2.39% APY, $8.67M TVL, https://www.defi.garden/?pool=0f25159f-753d-4eef-84f5-1f9b47394033#src=seo_token; morpho-blue (Ethereum), 3.13% APY, $1.33M TVL, https://www.defi.garden/?pool=3bb1186e-cbf3-4615-b5bb-8b0a4f4c8363#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GTUSDTF's lower-variability candidates are morpho-blue (Ethereum), 2.39% APY, $8.67M TVL, https://www.defi.garden/?pool=0f25159f-753d-4eef-84f5-1f9b47394033#src=seo_token; morpho-blue (Ethereum), 3.13% APY, $1.13M TVL, https://www.defi.garden/?pool=3bb1186e-cbf3-4615-b5bb-8b0a4f4c8363#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

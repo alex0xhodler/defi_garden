@@ -2,12 +2,12 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest W0G yield right now is 8.25% on uniswap-v3 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest W0G yield right now is 8.31% on uniswap-v3 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=f7583a03-2f3b-5b32-b87f-f9a9b343af29#src=seo_token) | Base | 8.25% | $214.6K |
-| [raydium-amm →](https://www.defi.garden/?pool=22cb1289-2fb5-5832-a0bf-7839462b0931#src=seo_token) | Solana | 5.79% | $206.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f7583a03-2f3b-5b32-b87f-f9a9b343af29#src=seo_token) | Base | 8.31% | $211.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=22cb1289-2fb5-5832-a0bf-7839462b0931#src=seo_token) | Solana | 6.37% | $204.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-W0G shows up in 2 pools here, with rates from 5.79% to 8.25% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+W0G shows up in 2 pools here, with rates from 6.37% to 8.31% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 7.38% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 7.37% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -28,8 +28,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 8.25% | 7.20% | Base rate |
-| raydium-amm | 5.79% | 7.56% | Base rate |
+| uniswap-v3 | 8.31% | 7.22% | Base rate |
+| raydium-amm | 6.37% | 7.52% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest W0G yield today?
 
-8.25% APY on uniswap-v3 (Base), based on live DefiLlama data.
+8.31% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many W0G pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $421.3K in total.
+2 live pools clear this page's $100K TVL floor, $416.6K in total.
 
 ### Are these rates safe?
 

@@ -2,37 +2,30 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest STAK yield right now is 0.07% on spectra-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STAK yield right now is 19.92% on spectra-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [spectra-v2 →](https://www.defi.garden/?pool=0903d3e4-a569-426a-b1e8-ba79f0d69efe#src=seo_token) | Ethereum | 17.28% | $198.7K |
-| [spectra-v2 →](https://www.defi.garden/?pool=65b1e722-a49d-478e-9f16-e696a2355f25#src=seo_token) | Ethereum | 0.07% | $177.9K |
+| [spectra-v2 →](https://www.defi.garden/?pool=0903d3e4-a569-426a-b1e8-ba79f0d69efe#src=seo_token) | Ethereum | 19.92% | $176.3K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, STAK's lower-variability candidates are spectra-v2 (Ethereum), 0.07% APY, $177.9K TVL, https://www.defi.garden/?pool=65b1e722-a49d-478e-9f16-e696a2355f25#src=seo_token; spectra-v2 (Ethereum), 17.28% APY, $198.7K TVL, https://www.defi.garden/?pool=0903d3e4-a569-426a-b1e8-ba79f0d69efe#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [spectra-v2 →](https://www.defi.garden/?pool=65b1e722-a49d-478e-9f16-e696a2355f25#src=seo_token) | Ethereum | 0.07% | $177.9K |
-| 2 | [spectra-v2 →](https://www.defi.garden/?pool=0903d3e4-a569-426a-b1e8-ba79f0d69efe#src=seo_token) | Ethereum | 17.28% | $198.7K |
+There is not enough qualifying APY history to rank STAK pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-STAK shows up in 2 pools here, with rates from 0.07% to 17.28% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+STAK shows up in 1 pools here, with rates from 19.92% to 19.92% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 5.68% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 11.40% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| spectra-v2 | 17.28% | 11.31% | Base rate |
-| spectra-v2 | 0.07% | 0.04% | Base rate |
+| spectra-v2 | 19.92% | 11.40% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +33,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest STAK yield today?
 
-0.07% APY on spectra-v2 (Ethereum), based on live DefiLlama data.
+19.92% APY on spectra-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many STAK pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $545.7K in total.
+2 live pools clear this page's $100K TVL floor, $344.9K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +45,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which STAK pools have the most stable APY history?
 
-Based on APY history only, STAK's lower-variability candidates are spectra-v2 (Ethereum), 0.07% APY, $177.9K TVL, https://www.defi.garden/?pool=65b1e722-a49d-478e-9f16-e696a2355f25#src=seo_token; spectra-v2 (Ethereum), 17.28% APY, $198.7K TVL, https://www.defi.garden/?pool=0903d3e4-a569-426a-b1e8-ba79f0d69efe#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank STAK pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

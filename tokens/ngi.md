@@ -6,8 +6,8 @@ The highest honest NGI yield right now is 18.27% on pendle-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle-v2 →](https://www.defi.garden/?pool=747a36df-2470-5763-93a3-de681b109c9b#src=seo_token) | Ethereum | 10.81% | $248.6K |
-| [pendle-v2 →](https://www.defi.garden/?pool=9b043479-0b54-5a44-9a3a-c676606873d6#src=seo_token) | Ethereum | 18.27% | $248.6K |
+| [pendle-v2 →](https://www.defi.garden/?pool=9b043479-0b54-5a44-9a3a-c676606873d6#src=seo_token) | Ethereum | 18.27% | $345.9K |
+| [pendle-v2 →](https://www.defi.garden/?pool=747a36df-2470-5763-93a3-de681b109c9b#src=seo_token) | Ethereum | 10.75% | $345.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-NGI shows up in 2 pools here, with rates from 10.81% to 18.27% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+NGI shows up in 2 pools here, with rates from 10.75% to 18.27% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 21.03% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 20.95% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -28,8 +28,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle-v2 | 10.81% | 25.04% | Base rate |
-| pendle-v2 | 18.27% | 17.02% | Base rate |
+| pendle-v2 | 18.27% | 17.03% | Base rate |
+| pendle-v2 | 10.75% | 24.86% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -41,7 +41,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many NGI pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $497.3K in total.
+2 live pools clear this page's $100K TVL floor, $691.7K in total.
 
 ### Are these rates safe?
 

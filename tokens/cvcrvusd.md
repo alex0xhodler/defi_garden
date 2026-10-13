@@ -2,40 +2,40 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest CVCRVUSD yield right now is 16.34% on stake-dao-yield (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CVCRVUSD yield right now is 15.99% on stake-dao-yield (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=5ae68ccd-1f75-42a7-a2e6-23f80e98b874#src=seo_token) | Ethereum | 8.14% | $756.8K |
-| [convex-finance →](https://www.defi.garden/?pool=184e49b8-644a-434c-9628-089b6213c273#src=seo_token) | Ethereum | 15.92% | $460K |
-| [stake-dao-yield →](https://www.defi.garden/?pool=92c51b42-a228-41d0-a656-628601219660#src=seo_token) | Ethereum | 16.34% | $181.1K |
+| [curve-dex →](https://www.defi.garden/?pool=5ae68ccd-1f75-42a7-a2e6-23f80e98b874#src=seo_token) | Ethereum | 7.56% | $756.8K |
+| [convex-finance →](https://www.defi.garden/?pool=184e49b8-644a-434c-9628-089b6213c273#src=seo_token) | Ethereum | 14.77% | $460K |
+| [stake-dao-yield →](https://www.defi.garden/?pool=92c51b42-a228-41d0-a656-628601219660#src=seo_token) | Ethereum | 15.99% | $181.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, CVCRVUSD's lower-variability candidates are convex-finance (Ethereum), 15.92% APY, $460K TVL, https://www.defi.garden/?pool=184e49b8-644a-434c-9628-089b6213c273#src=seo_token; curve-dex (Ethereum), 8.14% APY, $756.8K TVL, https://www.defi.garden/?pool=5ae68ccd-1f75-42a7-a2e6-23f80e98b874#src=seo_token; stake-dao-yield (Ethereum), 16.34% APY, $181.1K TVL, https://www.defi.garden/?pool=92c51b42-a228-41d0-a656-628601219660#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CVCRVUSD's lower-variability candidates are convex-finance (Ethereum), 14.77% APY, $460K TVL, https://www.defi.garden/?pool=184e49b8-644a-434c-9628-089b6213c273#src=seo_token; curve-dex (Ethereum), 7.56% APY, $756.8K TVL, https://www.defi.garden/?pool=5ae68ccd-1f75-42a7-a2e6-23f80e98b874#src=seo_token; stake-dao-yield (Ethereum), 15.99% APY, $181.2K TVL, https://www.defi.garden/?pool=92c51b42-a228-41d0-a656-628601219660#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [convex-finance →](https://www.defi.garden/?pool=184e49b8-644a-434c-9628-089b6213c273#src=seo_token) | Ethereum | 15.92% | $460K |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=5ae68ccd-1f75-42a7-a2e6-23f80e98b874#src=seo_token) | Ethereum | 8.14% | $756.8K |
-| 3 | [stake-dao-yield →](https://www.defi.garden/?pool=92c51b42-a228-41d0-a656-628601219660#src=seo_token) | Ethereum | 16.34% | $181.1K |
+| 1 | [convex-finance →](https://www.defi.garden/?pool=184e49b8-644a-434c-9628-089b6213c273#src=seo_token) | Ethereum | 14.77% | $460K |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=5ae68ccd-1f75-42a7-a2e6-23f80e98b874#src=seo_token) | Ethereum | 7.56% | $756.8K |
+| 3 | [stake-dao-yield →](https://www.defi.garden/?pool=92c51b42-a228-41d0-a656-628601219660#src=seo_token) | Ethereum | 15.99% | $181.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CVCRVUSD shows up in 3 pools here, with rates from 8.14% to 16.34% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CVCRVUSD shows up in 3 pools here, with rates from 7.56% to 15.99% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 16.91% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 16.88% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 3 of 3 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 8.14% | 8.70% | 100.00% incentives |
-| convex-finance | 15.92% | 16.91% | 98.93% incentives |
-| stake-dao-yield | 16.34% | 17.23% | 98.96% incentives |
+| curve-dex | 7.56% | 8.69% | 100.00% incentives |
+| convex-finance | 14.77% | 16.88% | 98.85% incentives |
+| stake-dao-yield | 15.99% | 17.21% | 98.94% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -43,7 +43,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CVCRVUSD yield today?
 
-16.34% APY on stake-dao-yield (Ethereum), based on live DefiLlama data.
+15.99% APY on stake-dao-yield (Ethereum), based on live DefiLlama data.
 
 ### How many CVCRVUSD pools clear the TVL floor?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which CVCRVUSD pools have the most stable APY history?
 
-Based on APY history only, CVCRVUSD's lower-variability candidates are convex-finance (Ethereum), 15.92% APY, $460K TVL, https://www.defi.garden/?pool=184e49b8-644a-434c-9628-089b6213c273#src=seo_token; curve-dex (Ethereum), 8.14% APY, $756.8K TVL, https://www.defi.garden/?pool=5ae68ccd-1f75-42a7-a2e6-23f80e98b874#src=seo_token; stake-dao-yield (Ethereum), 16.34% APY, $181.1K TVL, https://www.defi.garden/?pool=92c51b42-a228-41d0-a656-628601219660#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CVCRVUSD's lower-variability candidates are convex-finance (Ethereum), 14.77% APY, $460K TVL, https://www.defi.garden/?pool=184e49b8-644a-434c-9628-089b6213c273#src=seo_token; curve-dex (Ethereum), 7.56% APY, $756.8K TVL, https://www.defi.garden/?pool=5ae68ccd-1f75-42a7-a2e6-23f80e98b874#src=seo_token; stake-dao-yield (Ethereum), 15.99% APY, $181.2K TVL, https://www.defi.garden/?pool=92c51b42-a228-41d0-a656-628601219660#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

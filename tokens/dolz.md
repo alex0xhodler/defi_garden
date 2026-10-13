@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest DOLZ yield right now is 0.05% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DOLZ yield right now is 0.02% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=228a1b06-1993-440d-bfc0-a900629e560b#src=seo_token) | Polygon | 0.05% | $188.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=228a1b06-1993-440d-bfc0-a900629e560b#src=seo_token) | Polygon | 0.02% | $187.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DOLZ yield today?
 
-0.05% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
+0.02% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
 
 ### How many DOLZ pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $188.5K in total.
+1 live pool clear this page's $100K TVL floor, $187.9K in total.
 
 ### Are these rates safe?
 

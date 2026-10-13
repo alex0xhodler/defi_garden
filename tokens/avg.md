@@ -6,7 +6,7 @@ The highest honest AVG yield right now is 0.01% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=e983543c-75d1-47ce-80c0-1dcd77b3d424#src=seo_token) | Ethereum | 0.01% | $124.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=e983543c-75d1-47ce-80c0-1dcd77b3d424#src=seo_token) | Ethereum | 0.01% | $122.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AVG pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $124.5K in total.
+1 live pool clear this page's $100K TVL floor, $122.9K in total.
 
 ### Are these rates safe?
 

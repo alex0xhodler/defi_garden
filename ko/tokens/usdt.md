@@ -2,18 +2,18 @@
 
 *DefiLlama 데이터 생성 시점 검증: October 13, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 USDT의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 41.19%이며, $100K TVL 기준을 넘는 489개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 USDT의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 45.20%이며, $100K TVL 기준을 넘는 485개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [spark-savings →](https://www.defi.garden/ko/pools/spark-savings-usdt-ethereum) | Ethereum | 3.75% | $740.77M |
-| [maple →](https://www.defi.garden/ko/pools/maple-usdt-ethereum) | Ethereum | 5.47% | $712.07M |
-| [aave-v3 →](https://www.defi.garden/ko/pools/aave-v3-usdt-ethereum) | Ethereum | 3.40% | $279.31M |
-| [fluid-lending →](https://www.defi.garden/ko/pools/fluid-lending-usdt-ethereum) | Ethereum | 3.93% | $128.94M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=fc9f488e-8183-416f-a61e-4e5c571d4395#src=seo_token) | Ethereum | 41.19% | $97.21M |
-| [justlend-v1 →](https://www.defi.garden/?pool=dac406f6-5600-437e-849d-f03daa383864#src=seo_token) | Tron | 2.57% | $69.58M |
-| [aave-v3 →](https://www.defi.garden/?pool=a90d554a-b548-4f50-b03e-9dcb724b7777#src=seo_token) | Ethereum | 5.03% | $62.55M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=f71737e5-f02e-4964-b23e-19d1a6c7a6bf#src=seo_token) | Ethereum | 0.32% | $49.53M |
+| [spark-savings →](https://www.defi.garden/ko/pools/spark-savings-usdt-ethereum) | Ethereum | 3.75% | $739.01M |
+| [maple →](https://www.defi.garden/ko/pools/maple-usdt-ethereum) | Ethereum | 5.47% | $725.68M |
+| [aave-v3 →](https://www.defi.garden/ko/pools/aave-v3-usdt-ethereum) | Ethereum | 3.17% | $373.45M |
+| [fluid-lending →](https://www.defi.garden/ko/pools/fluid-lending-usdt-ethereum) | Ethereum | 4.10% | $129.11M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=fc9f488e-8183-416f-a61e-4e5c571d4395#src=seo_token) | Ethereum | 45.20% | $97.27M |
+| [justlend-v1 →](https://www.defi.garden/?pool=dac406f6-5600-437e-849d-f03daa383864#src=seo_token) | Tron | 2.46% | $71.66M |
+| [aave-v3 →](https://www.defi.garden/?pool=a90d554a-b548-4f50-b03e-9dcb724b7777#src=seo_token) | Ethereum | 4.80% | $62.54M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f71737e5-f02e-4964-b23e-19d1a6c7a6bf#src=seo_token) | Ethereum | 0.02% | $49.53M |
 
 ## USDT 디파이 수익률 생성 원리
 
@@ -26,24 +26,24 @@ USDT의 수익률은 주로 네 가지 온체인 메커니즘을 통해 발생�
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 USDT의 변동성 낮은 후보는 Ethereum의 spark-savings, APY 3.75%, TVL $740.77M, https://www.defi.garden/ko/pools/spark-savings-usdt-ethereum; Ethereum의 aave-v3, APY 5.03%, TVL $62.55M, https://www.defi.garden/?pool=a90d554a-b548-4f50-b03e-9dcb724b7777#src=seo_token; Tron의 justlend-v1, APY 2.57%, TVL $69.58M, https://www.defi.garden/?pool=dac406f6-5600-437e-849d-f03daa383864#src=seo_token; Ethereum의 maple, APY 5.47%, TVL $712.07M, https://www.defi.garden/ko/pools/maple-usdt-ethereum; Ethereum의 aave-v3, APY 3.40%, TVL $279.31M, https://www.defi.garden/ko/pools/aave-v3-usdt-ethereum; Ethereum의 fluid-lending, APY 3.93%, TVL $128.94M, https://www.defi.garden/ko/pools/fluid-lending-usdt-ethereum; Ethereum의 uniswap-v3, APY 41.19%, TVL $97.21M, https://www.defi.garden/?pool=fc9f488e-8183-416f-a61e-4e5c571d4395#src=seo_token; Ethereum의 uniswap-v4, APY 0.32%, TVL $49.53M, https://www.defi.garden/?pool=f71737e5-f02e-4964-b23e-19d1a6c7a6bf#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USDT의 변동성 낮은 후보는 Ethereum의 spark-savings, APY 3.75%, TVL $739.01M, https://www.defi.garden/ko/pools/spark-savings-usdt-ethereum; Ethereum의 aave-v3, APY 4.80%, TVL $62.54M, https://www.defi.garden/?pool=a90d554a-b548-4f50-b03e-9dcb724b7777#src=seo_token; Tron의 justlend-v1, APY 2.46%, TVL $71.66M, https://www.defi.garden/?pool=dac406f6-5600-437e-849d-f03daa383864#src=seo_token; Ethereum의 maple, APY 5.47%, TVL $725.68M, https://www.defi.garden/ko/pools/maple-usdt-ethereum; Ethereum의 aave-v3, APY 3.17%, TVL $373.45M, https://www.defi.garden/ko/pools/aave-v3-usdt-ethereum; Ethereum의 fluid-lending, APY 4.10%, TVL $129.11M, https://www.defi.garden/ko/pools/fluid-lending-usdt-ethereum; Ethereum의 uniswap-v3, APY 45.20%, TVL $97.27M, https://www.defi.garden/?pool=fc9f488e-8183-416f-a61e-4e5c571d4395#src=seo_token; Ethereum의 uniswap-v4, APY 0.02%, TVL $49.53M, https://www.defi.garden/?pool=f71737e5-f02e-4964-b23e-19d1a6c7a6bf#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [spark-savings →](https://www.defi.garden/ko/pools/spark-savings-usdt-ethereum) | Ethereum | 3.75% | $740.77M |
-| 2 | [aave-v3 →](https://www.defi.garden/?pool=a90d554a-b548-4f50-b03e-9dcb724b7777#src=seo_token) | Ethereum | 5.03% | $62.55M |
-| 3 | [justlend-v1 →](https://www.defi.garden/?pool=dac406f6-5600-437e-849d-f03daa383864#src=seo_token) | Tron | 2.57% | $69.58M |
-| 4 | [maple →](https://www.defi.garden/ko/pools/maple-usdt-ethereum) | Ethereum | 5.47% | $712.07M |
-| 5 | [aave-v3 →](https://www.defi.garden/ko/pools/aave-v3-usdt-ethereum) | Ethereum | 3.40% | $279.31M |
-| 6 | [fluid-lending →](https://www.defi.garden/ko/pools/fluid-lending-usdt-ethereum) | Ethereum | 3.93% | $128.94M |
-| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=fc9f488e-8183-416f-a61e-4e5c571d4395#src=seo_token) | Ethereum | 41.19% | $97.21M |
-| 8 | [uniswap-v4 →](https://www.defi.garden/?pool=f71737e5-f02e-4964-b23e-19d1a6c7a6bf#src=seo_token) | Ethereum | 0.32% | $49.53M |
+| 1 | [spark-savings →](https://www.defi.garden/ko/pools/spark-savings-usdt-ethereum) | Ethereum | 3.75% | $739.01M |
+| 2 | [aave-v3 →](https://www.defi.garden/?pool=a90d554a-b548-4f50-b03e-9dcb724b7777#src=seo_token) | Ethereum | 4.80% | $62.54M |
+| 3 | [justlend-v1 →](https://www.defi.garden/?pool=dac406f6-5600-437e-849d-f03daa383864#src=seo_token) | Tron | 2.46% | $71.66M |
+| 4 | [maple →](https://www.defi.garden/ko/pools/maple-usdt-ethereum) | Ethereum | 5.47% | $725.68M |
+| 5 | [aave-v3 →](https://www.defi.garden/ko/pools/aave-v3-usdt-ethereum) | Ethereum | 3.17% | $373.45M |
+| 6 | [fluid-lending →](https://www.defi.garden/ko/pools/fluid-lending-usdt-ethereum) | Ethereum | 4.10% | $129.11M |
+| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=fc9f488e-8183-416f-a61e-4e5c571d4395#src=seo_token) | Ethereum | 45.20% | $97.27M |
+| 8 | [uniswap-v4 →](https://www.defi.garden/?pool=f71737e5-f02e-4964-b23e-19d1a6c7a6bf#src=seo_token) | Ethereum | 0.02% | $49.53M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-USDT 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.32%부터 41.19%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+USDT 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.02%부터 45.20%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 4.18%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -54,13 +54,13 @@ USDT 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.32%부터 41.19%�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | spark-savings | 3.75% | 3.57% | 기본 금리 |
-| maple | 5.47% | 5.09% | 기본 금리 |
-| aave-v3 | 3.40% | 3.86% | 기본 금리 |
-| fluid-lending | 3.93% | 4.50% | 기본 금리 |
-| uniswap-v3 | 41.19% | 35.97% | 기본 금리 |
-| justlend-v1 | 2.57% | 2.13% | 기본 금리 |
-| aave-v3 | 5.03% | 5.41% | 인센티브 32.43% |
-| uniswap-v4 | 0.32% | 0.42% | 기본 금리 |
+| maple | 5.47% | 5.10% | 기본 금리 |
+| aave-v3 | 3.17% | 3.86% | 기본 금리 |
+| fluid-lending | 4.10% | 4.49% | 기본 금리 |
+| uniswap-v3 | 45.20% | 36.35% | 기본 금리 |
+| justlend-v1 | 2.46% | 2.13% | 기본 금리 |
+| aave-v3 | 4.80% | 5.41% | 인센티브 33.93% |
+| uniswap-v4 | 0.02% | 0.41% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -68,11 +68,11 @@ USDT 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.32%부터 41.19%�
 
 ### 오늘 USDT의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 41.19%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 45.20%예요.
 
 ### USDT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 489개이며, 합산 TVL은 $3.31B예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 485개이며, 합산 TVL은 $3.42B예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -80,7 +80,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 41.19%예
 
 ### USDT 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 USDT의 변동성 낮은 후보는 Ethereum의 spark-savings, APY 3.75%, TVL $740.77M, https://www.defi.garden/ko/pools/spark-savings-usdt-ethereum; Ethereum의 aave-v3, APY 5.03%, TVL $62.55M, https://www.defi.garden/?pool=a90d554a-b548-4f50-b03e-9dcb724b7777#src=seo_token; Tron의 justlend-v1, APY 2.57%, TVL $69.58M, https://www.defi.garden/?pool=dac406f6-5600-437e-849d-f03daa383864#src=seo_token; Ethereum의 maple, APY 5.47%, TVL $712.07M, https://www.defi.garden/ko/pools/maple-usdt-ethereum; Ethereum의 aave-v3, APY 3.40%, TVL $279.31M, https://www.defi.garden/ko/pools/aave-v3-usdt-ethereum; Ethereum의 fluid-lending, APY 3.93%, TVL $128.94M, https://www.defi.garden/ko/pools/fluid-lending-usdt-ethereum; Ethereum의 uniswap-v3, APY 41.19%, TVL $97.21M, https://www.defi.garden/?pool=fc9f488e-8183-416f-a61e-4e5c571d4395#src=seo_token; Ethereum의 uniswap-v4, APY 0.32%, TVL $49.53M, https://www.defi.garden/?pool=f71737e5-f02e-4964-b23e-19d1a6c7a6bf#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USDT의 변동성 낮은 후보는 Ethereum의 spark-savings, APY 3.75%, TVL $739.01M, https://www.defi.garden/ko/pools/spark-savings-usdt-ethereum; Ethereum의 aave-v3, APY 4.80%, TVL $62.54M, https://www.defi.garden/?pool=a90d554a-b548-4f50-b03e-9dcb724b7777#src=seo_token; Tron의 justlend-v1, APY 2.46%, TVL $71.66M, https://www.defi.garden/?pool=dac406f6-5600-437e-849d-f03daa383864#src=seo_token; Ethereum의 maple, APY 5.47%, TVL $725.68M, https://www.defi.garden/ko/pools/maple-usdt-ethereum; Ethereum의 aave-v3, APY 3.17%, TVL $373.45M, https://www.defi.garden/ko/pools/aave-v3-usdt-ethereum; Ethereum의 fluid-lending, APY 4.10%, TVL $129.11M, https://www.defi.garden/ko/pools/fluid-lending-usdt-ethereum; Ethereum의 uniswap-v3, APY 45.20%, TVL $97.27M, https://www.defi.garden/?pool=fc9f488e-8183-416f-a61e-4e5c571d4395#src=seo_token; Ethereum의 uniswap-v4, APY 0.02%, TVL $49.53M, https://www.defi.garden/?pool=f71737e5-f02e-4964-b23e-19d1a6c7a6bf#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

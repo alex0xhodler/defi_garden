@@ -242,22 +242,22 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/pools/jupiter-staked-sol-jupsol-solana</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/pools/jupiter-staked-sol-jupsol-solana" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/pools/jupiter-staked-sol-jupsol-solana" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/pools/jupiter-staked-sol-jupsol-solana" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/pools/jupiter-staked-sol-jupsol-solana" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/pools/jupiter-staked-sol-jupsol-solana" />
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.defi.garden/ko/pools/sparklend-usds-ethereum</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/pools/sparklend-usds-ethereum" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/pools/sparklend-usds-ethereum" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/pools/sparklend-usds-ethereum" />
     <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/pools/sparklend-usds-ethereum" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/pools/sparklend-usds-ethereum" />
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/ko/pools/jupiter-staked-sol-jupsol-solana</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/pools/jupiter-staked-sol-jupsol-solana" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/pools/jupiter-staked-sol-jupsol-solana" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/pools/jupiter-staked-sol-jupsol-solana" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/pools/jupiter-staked-sol-jupsol-solana" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/pools/jupiter-staked-sol-jupsol-solana" />
     <lastmod>2026-10-13</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -362,22 +362,22 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/pools/morpho-blue-sparkusdc-base</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/pools/morpho-blue-sparkusdc-base" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/pools/morpho-blue-sparkusdc-base" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/pools/morpho-blue-sparkusdc-base" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/pools/morpho-blue-sparkusdc-base" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/pools/morpho-blue-sparkusdc-base" />
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.defi.garden/ko/pools/hastra-prime-ethereum</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/pools/hastra-prime-ethereum" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/pools/hastra-prime-ethereum" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/pools/hastra-prime-ethereum" />
     <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/pools/hastra-prime-ethereum" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/pools/hastra-prime-ethereum" />
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/ko/pools/morpho-blue-sparkusdc-base</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/pools/morpho-blue-sparkusdc-base" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/pools/morpho-blue-sparkusdc-base" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/pools/morpho-blue-sparkusdc-base" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/pools/morpho-blue-sparkusdc-base" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/pools/morpho-blue-sparkusdc-base" />
     <lastmod>2026-10-13</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -438,6 +438,16 @@
     <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/pools/morpho-blue-usde-base" />
     <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/pools/morpho-blue-usde-base" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/pools/morpho-blue-usde-base" />
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/ko/pools/aave-v3-usdt-ethereum</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/pools/aave-v3-usdt-ethereum" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/pools/aave-v3-usdt-ethereum" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/pools/aave-v3-usdt-ethereum" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/pools/aave-v3-usdt-ethereum" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/pools/aave-v3-usdt-ethereum" />
     <lastmod>2026-10-13</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -512,22 +522,22 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/pools/drift-staked-sol-dsol-solana</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/pools/drift-staked-sol-dsol-solana" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/pools/drift-staked-sol-dsol-solana" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/pools/drift-staked-sol-dsol-solana" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/pools/drift-staked-sol-dsol-solana" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/pools/drift-staked-sol-dsol-solana" />
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.defi.garden/ko/pools/re-reusd-ethereum</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/pools/re-reusd-ethereum" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/pools/re-reusd-ethereum" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/pools/re-reusd-ethereum" />
     <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/pools/re-reusd-ethereum" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/pools/re-reusd-ethereum" />
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/ko/pools/drift-staked-sol-dsol-solana</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/pools/drift-staked-sol-dsol-solana" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/pools/drift-staked-sol-dsol-solana" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/pools/drift-staked-sol-dsol-solana" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/pools/drift-staked-sol-dsol-solana" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/pools/drift-staked-sol-dsol-solana" />
     <lastmod>2026-10-13</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -548,16 +558,6 @@
     <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/pools/onre-onyc-solana" />
     <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/pools/onre-onyc-solana" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/pools/onre-onyc-solana" />
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/ko/pools/aave-v3-usdt-ethereum</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/pools/aave-v3-usdt-ethereum" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/pools/aave-v3-usdt-ethereum" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/pools/aave-v3-usdt-ethereum" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/pools/aave-v3-usdt-ethereum" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/pools/aave-v3-usdt-ethereum" />
     <lastmod>2026-10-13</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -592,22 +592,22 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/pools/benqi-staked-avax-savax-avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/pools/benqi-staked-avax-savax-avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/pools/benqi-staked-avax-savax-avalanche" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/pools/benqi-staked-avax-savax-avalanche" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/pools/benqi-staked-avax-savax-avalanche" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/pools/benqi-staked-avax-savax-avalanche" />
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.defi.garden/ko/pools/blackrock-buidl-buidl-ethereum</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/pools/blackrock-buidl-buidl-ethereum" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/pools/blackrock-buidl-buidl-ethereum" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/pools/blackrock-buidl-buidl-ethereum" />
     <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/pools/blackrock-buidl-buidl-ethereum" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/pools/blackrock-buidl-buidl-ethereum" />
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/ko/pools/benqi-staked-avax-savax-avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/pools/benqi-staked-avax-savax-avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/pools/benqi-staked-avax-savax-avalanche" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/pools/benqi-staked-avax-savax-avalanche" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/pools/benqi-staked-avax-savax-avalanche" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/pools/benqi-staked-avax-savax-avalanche" />
     <lastmod>2026-10-13</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -632,22 +632,22 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/pools/sanctum-infinity-inf-solana</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/pools/sanctum-infinity-inf-solana" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/pools/sanctum-infinity-inf-solana" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/pools/sanctum-infinity-inf-solana" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/pools/sanctum-infinity-inf-solana" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/pools/sanctum-infinity-inf-solana" />
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.defi.garden/ko/pools/sky-lending-sdai-ethereum</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/pools/sky-lending-sdai-ethereum" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/pools/sky-lending-sdai-ethereum" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/pools/sky-lending-sdai-ethereum" />
     <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/pools/sky-lending-sdai-ethereum" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/pools/sky-lending-sdai-ethereum" />
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/ko/pools/sanctum-infinity-inf-solana</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/pools/sanctum-infinity-inf-solana" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/pools/sanctum-infinity-inf-solana" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/pools/sanctum-infinity-inf-solana" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/pools/sanctum-infinity-inf-solana" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/pools/sanctum-infinity-inf-solana" />
     <lastmod>2026-10-13</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -672,6 +672,16 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://www.defi.garden/ko/pools/morpho-blue-gtusdcp-base-df7ccf</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/pools/morpho-blue-gtusdcp-base-df7ccf" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/pools/morpho-blue-gtusdcp-base-df7ccf" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/pools/morpho-blue-gtusdcp-base-df7ccf" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/pools/morpho-blue-gtusdcp-base-df7ccf" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/pools/morpho-blue-gtusdcp-base-df7ccf" />
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://www.defi.garden/ko/pools/ether-fi-stake-weeth-linea</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/pools/ether-fi-stake-weeth-linea" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/pools/ether-fi-stake-weeth-linea" />
@@ -682,12 +692,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/pools/morpho-blue-gtusdcp-base-df7ccf</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/pools/morpho-blue-gtusdcp-base-df7ccf" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/pools/morpho-blue-gtusdcp-base-df7ccf" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/pools/morpho-blue-gtusdcp-base-df7ccf" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/pools/morpho-blue-gtusdcp-base-df7ccf" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/pools/morpho-blue-gtusdcp-base-df7ccf" />
+    <loc>https://www.defi.garden/ko/pools/ondo-yield-assets-ousg-xrpl</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/pools/ondo-yield-assets-ousg-xrpl" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/pools/ondo-yield-assets-ousg-xrpl" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/pools/ondo-yield-assets-ousg-xrpl" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/pools/ondo-yield-assets-ousg-xrpl" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/pools/ondo-yield-assets-ousg-xrpl" />
     <lastmod>2026-10-13</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -708,16 +718,6 @@
     <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/pools/morpho-blue-steakusdc-base" />
     <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/pools/morpho-blue-steakusdc-base" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/pools/morpho-blue-steakusdc-base" />
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/ko/pools/ondo-yield-assets-ousg-xrpl</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/pools/ondo-yield-assets-ousg-xrpl" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/pools/ondo-yield-assets-ousg-xrpl" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/pools/ondo-yield-assets-ousg-xrpl" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/pools/ondo-yield-assets-ousg-xrpl" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/pools/ondo-yield-assets-ousg-xrpl" />
     <lastmod>2026-10-13</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -752,16 +752,6 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/pools/apyx-protocol-apxusd-ethereum</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/pools/apyx-protocol-apxusd-ethereum" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/pools/apyx-protocol-apxusd-ethereum" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/pools/apyx-protocol-apxusd-ethereum" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/pools/apyx-protocol-apxusd-ethereum" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/pools/apyx-protocol-apxusd-ethereum" />
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.defi.garden/ko/pools/aave-v3-syrupusdc-monad</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/pools/aave-v3-syrupusdc-monad" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/pools/aave-v3-syrupusdc-monad" />
@@ -772,12 +762,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/pools/aave-v3-usdc-ethereum</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/pools/aave-v3-usdc-ethereum" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/pools/aave-v3-usdc-ethereum" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/pools/aave-v3-usdc-ethereum" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/pools/aave-v3-usdc-ethereum" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/pools/aave-v3-usdc-ethereum" />
+    <loc>https://www.defi.garden/ko/pools/apyx-protocol-apxusd-ethereum</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/pools/apyx-protocol-apxusd-ethereum" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/pools/apyx-protocol-apxusd-ethereum" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/pools/apyx-protocol-apxusd-ethereum" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/pools/apyx-protocol-apxusd-ethereum" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/pools/apyx-protocol-apxusd-ethereum" />
     <lastmod>2026-10-13</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -802,16 +792,6 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/pools/sky-lending-usds-ethereum</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/pools/sky-lending-usds-ethereum" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/pools/sky-lending-usds-ethereum" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/pools/sky-lending-usds-ethereum" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/pools/sky-lending-usds-ethereum" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/pools/sky-lending-usds-ethereum" />
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.defi.garden/ko/pools/morpho-blue-steakeurcv-ethereum</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/pools/morpho-blue-steakeurcv-ethereum" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/pools/morpho-blue-steakeurcv-ethereum" />
@@ -822,12 +802,32 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://www.defi.garden/ko/pools/sky-lending-usds-ethereum</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/pools/sky-lending-usds-ethereum" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/pools/sky-lending-usds-ethereum" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/pools/sky-lending-usds-ethereum" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/pools/sky-lending-usds-ethereum" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/pools/sky-lending-usds-ethereum" />
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://www.defi.garden/ko/pools/blackrock-buidl-buidl-bsc</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/pools/blackrock-buidl-buidl-bsc" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/pools/blackrock-buidl-buidl-bsc" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/pools/blackrock-buidl-buidl-bsc" />
     <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/pools/blackrock-buidl-buidl-bsc" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/pools/blackrock-buidl-buidl-bsc" />
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/ko/pools/aave-v3-usde-monad</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/pools/aave-v3-usde-monad" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/pools/aave-v3-usde-monad" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/pools/aave-v3-usde-monad" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/pools/aave-v3-usde-monad" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/pools/aave-v3-usde-monad" />
     <lastmod>2026-10-13</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -862,12 +862,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/pools/aave-v3-usde-monad</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/pools/aave-v3-usde-monad" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/pools/aave-v3-usde-monad" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/pools/aave-v3-usde-monad" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/pools/aave-v3-usde-monad" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/pools/aave-v3-usde-monad" />
+    <loc>https://www.defi.garden/ko/pools/aave-v3-usdc-ethereum</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/pools/aave-v3-usdc-ethereum" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/pools/aave-v3-usdc-ethereum" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/pools/aave-v3-usdc-ethereum" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/pools/aave-v3-usdc-ethereum" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/pools/aave-v3-usdc-ethereum" />
     <lastmod>2026-10-13</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -902,26 +902,6 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/pools/pareto-credit-usdc-ethereum</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/pools/pareto-credit-usdc-ethereum" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/pools/pareto-credit-usdc-ethereum" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/pools/pareto-credit-usdc-ethereum" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/pools/pareto-credit-usdc-ethereum" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/pools/pareto-credit-usdc-ethereum" />
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/ko/pools/aave-v3-wavax-avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/pools/aave-v3-wavax-avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/pools/aave-v3-wavax-avalanche" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/pools/aave-v3-wavax-avalanche" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/pools/aave-v3-wavax-avalanche" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/pools/aave-v3-wavax-avalanche" />
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.defi.garden/ko/pools/morpho-blue-gtusdcp-ethereum</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/pools/morpho-blue-gtusdcp-ethereum" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/pools/morpho-blue-gtusdcp-ethereum" />
@@ -932,12 +912,32 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://www.defi.garden/ko/pools/pareto-credit-usdc-ethereum</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/pools/pareto-credit-usdc-ethereum" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/pools/pareto-credit-usdc-ethereum" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/pools/pareto-credit-usdc-ethereum" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/pools/pareto-credit-usdc-ethereum" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/pools/pareto-credit-usdc-ethereum" />
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://www.defi.garden/ko/pools/plume-vaults-nopal-plume-mainnet</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/pools/plume-vaults-nopal-plume-mainnet" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/pools/plume-vaults-nopal-plume-mainnet" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/pools/plume-vaults-nopal-plume-mainnet" />
     <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/pools/plume-vaults-nopal-plume-mainnet" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/pools/plume-vaults-nopal-plume-mainnet" />
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/ko/pools/aave-v3-wavax-avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/pools/aave-v3-wavax-avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/pools/aave-v3-wavax-avalanche" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/pools/aave-v3-wavax-avalanche" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/pools/aave-v3-wavax-avalanche" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/pools/aave-v3-wavax-avalanche" />
     <lastmod>2026-10-13</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -982,22 +982,22 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/pools/morpho-blue-steakusdc-ethereum</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/pools/morpho-blue-steakusdc-ethereum" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/pools/morpho-blue-steakusdc-ethereum" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/pools/morpho-blue-steakusdc-ethereum" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/pools/morpho-blue-steakusdc-ethereum" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/pools/morpho-blue-steakusdc-ethereum" />
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.defi.garden/ko/pools/sentora-curator-pyusd-solana</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/pools/sentora-curator-pyusd-solana" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/pools/sentora-curator-pyusd-solana" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/pools/sentora-curator-pyusd-solana" />
     <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/pools/sentora-curator-pyusd-solana" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/pools/sentora-curator-pyusd-solana" />
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/ko/pools/morpho-blue-steakusdc-ethereum</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/pools/morpho-blue-steakusdc-ethereum" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/pools/morpho-blue-steakusdc-ethereum" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.defi.garden/pt/pools/morpho-blue-steakusdc-ethereum" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.defi.garden/es/pools/morpho-blue-steakusdc-ethereum" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/pools/morpho-blue-steakusdc-ethereum" />
     <lastmod>2026-10-13</lastmod>
     <changefreq>daily</changefreq>
   </url>

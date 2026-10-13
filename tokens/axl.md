@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest AXL yield right now is 5.71% on osmosis-dex (Osmosis), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AXL yield right now is 6.87% on osmosis-dex (Osmosis), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [osmosis-dex →](https://www.defi.garden/?pool=f021f564-b0d4-4bbd-8f34-49cec582e934#src=seo_token) | Osmosis | 5.71% | $115.2K |
+| [osmosis-dex →](https://www.defi.garden/?pool=f021f564-b0d4-4bbd-8f34-49cec582e934#src=seo_token) | Osmosis | 6.87% | $103.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AXL yield today?
 
-5.71% APY on osmosis-dex (Osmosis), based on live DefiLlama data.
+6.87% APY on osmosis-dex (Osmosis), based on live DefiLlama data.
 
 ### How many AXL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $115.2K in total.
+1 live pool clear this page's $100K TVL floor, $103.4K in total.
 
 ### Are these rates safe?
 
@@ -40,7 +40,7 @@ There is not enough qualifying APY history to rank AXL pools. This view covers A
 - [USDC.N](https://www.defi.garden/tokens/usdc-n)
 - [AKT](https://www.defi.garden/tokens/akt)
 - [ATONE](https://www.defi.garden/tokens/atone)
-- [STETH](https://www.defi.garden/tokens/steth)
+- [VERONA](https://www.defi.garden/tokens/verona)
 
 ## Available on
 

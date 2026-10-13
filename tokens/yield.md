@@ -2,53 +2,55 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest YIELD yield right now is 22.12% on morpho-blue (Ethereum), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YIELD yield right now is 24.16% on morpho-blue (Ethereum), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=4c1b8c3d-3b3d-4dac-b334-49c405d9bf8f#src=seo_token) | Ethereum | 6.56% | $9.87M |
-| [morpho-blue →](https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39#src=seo_token) | Ethereum | 22.12% | $7.29M |
-| [morpho-blue →](https://www.defi.garden/?pool=9552e250-19fd-595b-85bd-f76ae0e1b2b6#src=seo_token) | Base | 7.12% | $4.7M |
-| [phase-stake →](https://www.defi.garden/?pool=85311903-9421-5247-9ee3-83bceeb90aff#src=seo_token) | Solana | 4.20% | $3.26M |
-| [morpho-blue →](https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558#src=seo_token) | Ethereum | 2.76% | $2.35M |
-| [morpho-blue →](https://www.defi.garden/?pool=ea36b2a8-fde0-5579-a9ed-73e8fe3a7aa8#src=seo_token) | Ethereum | 6.66% | $967.3K |
+| [morpho-blue →](https://www.defi.garden/?pool=4c1b8c3d-3b3d-4dac-b334-49c405d9bf8f#src=seo_token) | Ethereum | 6.45% | $13.23M |
+| [morpho-blue →](https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39#src=seo_token) | Ethereum | 24.16% | $6.96M |
+| [morpho-blue →](https://www.defi.garden/?pool=9552e250-19fd-595b-85bd-f76ae0e1b2b6#src=seo_token) | Base | 7.06% | $4.71M |
+| [phase-stake →](https://www.defi.garden/?pool=85311903-9421-5247-9ee3-83bceeb90aff#src=seo_token) | Solana | 4.20% | $3.21M |
+| [morpho-blue →](https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558#src=seo_token) | Ethereum | 2.71% | $2.52M |
+| [morpho-blue →](https://www.defi.garden/?pool=ea36b2a8-fde0-5579-a9ed-73e8fe3a7aa8#src=seo_token) | Ethereum | 6.55% | $942.6K |
+| [morpho-blue →](https://www.defi.garden/?pool=87ef22ba-c8fa-5648-95eb-b104c3f031b3#src=seo_token) | Arbitrum | 2.62% | $491.9K |
 | [morpho-blue →](https://www.defi.garden/?pool=dcd12f85-bb70-41a5-b862-29a7e25fc055#src=seo_token) | Ethereum | 0.74% | $268.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, YIELD's lower-variability candidates are phase-stake (Solana), 4.20% APY, $3.26M TVL, https://www.defi.garden/?pool=85311903-9421-5247-9ee3-83bceeb90aff#src=seo_token; morpho-blue (Ethereum), 0.74% APY, $268.7K TVL, https://www.defi.garden/?pool=dcd12f85-bb70-41a5-b862-29a7e25fc055#src=seo_token; morpho-blue (Ethereum), 6.66% APY, $967.3K TVL, https://www.defi.garden/?pool=ea36b2a8-fde0-5579-a9ed-73e8fe3a7aa8#src=seo_token; morpho-blue (Ethereum), 2.76% APY, $2.35M TVL, https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558#src=seo_token; morpho-blue (Ethereum), 6.56% APY, $9.87M TVL, https://www.defi.garden/?pool=4c1b8c3d-3b3d-4dac-b334-49c405d9bf8f#src=seo_token; morpho-blue (Ethereum), 22.12% APY, $7.29M TVL, https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, YIELD's lower-variability candidates are phase-stake (Solana), 4.20% APY, $3.21M TVL, https://www.defi.garden/?pool=85311903-9421-5247-9ee3-83bceeb90aff#src=seo_token; morpho-blue (Ethereum), 0.74% APY, $268.7K TVL, https://www.defi.garden/?pool=dcd12f85-bb70-41a5-b862-29a7e25fc055#src=seo_token; morpho-blue (Ethereum), 6.55% APY, $942.6K TVL, https://www.defi.garden/?pool=ea36b2a8-fde0-5579-a9ed-73e8fe3a7aa8#src=seo_token; morpho-blue (Ethereum), 2.71% APY, $2.52M TVL, https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558#src=seo_token; morpho-blue (Ethereum), 6.45% APY, $13.23M TVL, https://www.defi.garden/?pool=4c1b8c3d-3b3d-4dac-b334-49c405d9bf8f#src=seo_token; morpho-blue (Ethereum), 24.16% APY, $6.96M TVL, https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [phase-stake →](https://www.defi.garden/?pool=85311903-9421-5247-9ee3-83bceeb90aff#src=seo_token) | Solana | 4.20% | $3.26M |
+| 1 | [phase-stake →](https://www.defi.garden/?pool=85311903-9421-5247-9ee3-83bceeb90aff#src=seo_token) | Solana | 4.20% | $3.21M |
 | 2 | [morpho-blue →](https://www.defi.garden/?pool=dcd12f85-bb70-41a5-b862-29a7e25fc055#src=seo_token) | Ethereum | 0.74% | $268.7K |
-| 3 | [morpho-blue →](https://www.defi.garden/?pool=ea36b2a8-fde0-5579-a9ed-73e8fe3a7aa8#src=seo_token) | Ethereum | 6.66% | $967.3K |
-| 4 | [morpho-blue →](https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558#src=seo_token) | Ethereum | 2.76% | $2.35M |
-| 5 | [morpho-blue →](https://www.defi.garden/?pool=4c1b8c3d-3b3d-4dac-b334-49c405d9bf8f#src=seo_token) | Ethereum | 6.56% | $9.87M |
-| 6 | [morpho-blue →](https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39#src=seo_token) | Ethereum | 22.12% | $7.29M |
+| 3 | [morpho-blue →](https://www.defi.garden/?pool=ea36b2a8-fde0-5579-a9ed-73e8fe3a7aa8#src=seo_token) | Ethereum | 6.55% | $942.6K |
+| 4 | [morpho-blue →](https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558#src=seo_token) | Ethereum | 2.71% | $2.52M |
+| 5 | [morpho-blue →](https://www.defi.garden/?pool=4c1b8c3d-3b3d-4dac-b334-49c405d9bf8f#src=seo_token) | Ethereum | 6.45% | $13.23M |
+| 6 | [morpho-blue →](https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39#src=seo_token) | Ethereum | 24.16% | $6.96M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-YIELD shows up in 7 pools here, with rates from 0.74% to 22.12% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+YIELD shows up in 8 pools here, with rates from 0.74% to 24.16% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-7 of these 7 pools have a trustworthy 30-day average on file, with a median of 6.66% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 6.27% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-4 of 7 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+5 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
-6 of 7 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+7 of 8 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 6.56% | 6.66% | 1.20% incentives |
-| morpho-blue | 22.12% | 23.68% | 98.17% incentives |
-| morpho-blue | 7.12% | 7.01% | 12.28% incentives |
-| phase-stake | 4.20% | 5.92% | Base rate |
-| morpho-blue | 2.76% | 3.00% | Base rate |
-| morpho-blue | 6.66% | 7.07% | 4.90% incentives |
-| morpho-blue | 0.74% | 2.82% | Base rate |
+| morpho-blue | 6.45% | 6.64% | 2.36% incentives |
+| morpho-blue | 24.16% | 23.67% | 100.00% incentives |
+| morpho-blue | 7.06% | 7.01% | 12.35% incentives |
+| phase-stake | 4.20% | 5.90% | Base rate |
+| morpho-blue | 2.71% | 2.99% | Base rate |
+| morpho-blue | 6.55% | 7.07% | 5.00% incentives |
+| morpho-blue | 2.62% | 2.69% | 100.00% incentives |
+| morpho-blue | 0.74% | 2.81% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -56,11 +58,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest YIELD yield today?
 
-22.12% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+24.16% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many YIELD pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $30.05M in total.
+9 live pools clear this page's $100K TVL floor, $33.65M in total.
 
 ### Are these rates safe?
 
@@ -68,7 +70,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which YIELD pools have the most stable APY history?
 
-Based on APY history only, YIELD's lower-variability candidates are phase-stake (Solana), 4.20% APY, $3.26M TVL, https://www.defi.garden/?pool=85311903-9421-5247-9ee3-83bceeb90aff#src=seo_token; morpho-blue (Ethereum), 0.74% APY, $268.7K TVL, https://www.defi.garden/?pool=dcd12f85-bb70-41a5-b862-29a7e25fc055#src=seo_token; morpho-blue (Ethereum), 6.66% APY, $967.3K TVL, https://www.defi.garden/?pool=ea36b2a8-fde0-5579-a9ed-73e8fe3a7aa8#src=seo_token; morpho-blue (Ethereum), 2.76% APY, $2.35M TVL, https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558#src=seo_token; morpho-blue (Ethereum), 6.56% APY, $9.87M TVL, https://www.defi.garden/?pool=4c1b8c3d-3b3d-4dac-b334-49c405d9bf8f#src=seo_token; morpho-blue (Ethereum), 22.12% APY, $7.29M TVL, https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, YIELD's lower-variability candidates are phase-stake (Solana), 4.20% APY, $3.21M TVL, https://www.defi.garden/?pool=85311903-9421-5247-9ee3-83bceeb90aff#src=seo_token; morpho-blue (Ethereum), 0.74% APY, $268.7K TVL, https://www.defi.garden/?pool=dcd12f85-bb70-41a5-b862-29a7e25fc055#src=seo_token; morpho-blue (Ethereum), 6.55% APY, $942.6K TVL, https://www.defi.garden/?pool=ea36b2a8-fde0-5579-a9ed-73e8fe3a7aa8#src=seo_token; morpho-blue (Ethereum), 2.71% APY, $2.52M TVL, https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558#src=seo_token; morpho-blue (Ethereum), 6.45% APY, $13.23M TVL, https://www.defi.garden/?pool=4c1b8c3d-3b3d-4dac-b334-49c405d9bf8f#src=seo_token; morpho-blue (Ethereum), 24.16% APY, $6.96M TVL, https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -84,5 +86,6 @@ Based on APY history only, YIELD's lower-variability candidates are phase-stake 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 - [Solana](https://www.defi.garden/chains/solana)
+- [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
 ## Last updated October 13, 2026

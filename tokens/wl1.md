@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest WL1 yield right now is 12.33% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WL1 yield right now is 10.19% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=7a84b5db-89b2-501b-a494-0f2a811f3f17#src=seo_token) | Base | 12.33% | $367.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7a84b5db-89b2-501b-a494-0f2a811f3f17#src=seo_token) | Base | 10.19% | $351.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WL1 yield today?
 
-12.33% APY on uniswap-v3 (Base), based on live DefiLlama data.
+10.19% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many WL1 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $367.7K in total.
+1 live pool clear this page's $100K TVL floor, $351.2K in total.
 
 ### Are these rates safe?
 

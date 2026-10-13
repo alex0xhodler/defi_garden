@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest SWFL yield right now is 0.04% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SWFL yield right now is 0.07% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=2511bbcc-2982-4f3c-ae05-f83faeed1bc1#src=seo_token) | Ethereum | 0.04% | $3.44M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=2511bbcc-2982-4f3c-ae05-f83faeed1bc1#src=seo_token) | Ethereum | 0.07% | $3.47M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SWFL yield today?
 
-0.04% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.07% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many SWFL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $3.44M in total.
+1 live pool clear this page's $100K TVL floor, $3.47M in total.
 
 ### Are these rates safe?
 

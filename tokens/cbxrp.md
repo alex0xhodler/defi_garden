@@ -2,30 +2,30 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest CBXRP yield right now is 71.85% on aerodrome-slipstream (Base), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CBXRP yield right now is 65.51% on aerodrome-slipstream (Base), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=ad247753-74a9-4958-ab00-82a6b436ee03#src=seo_token) | Base | 71.85% | $716.9K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=0330d308-62db-468f-b4b9-990bb810020b#src=seo_token) | Base | 32.29% | $426.4K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=ad247753-74a9-4958-ab00-82a6b436ee03#src=seo_token) | Base | 65.51% | $785.7K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=0330d308-62db-468f-b4b9-990bb810020b#src=seo_token) | Base | 33.35% | $436.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, CBXRP's lower-variability candidates are aerodrome-slipstream (Base), 71.85% APY, $716.9K TVL, https://www.defi.garden/?pool=ad247753-74a9-4958-ab00-82a6b436ee03#src=seo_token; aerodrome-slipstream (Base), 32.29% APY, $426.4K TVL, https://www.defi.garden/?pool=0330d308-62db-468f-b4b9-990bb810020b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CBXRP's lower-variability candidates are aerodrome-slipstream (Base), 65.51% APY, $785.7K TVL, https://www.defi.garden/?pool=ad247753-74a9-4958-ab00-82a6b436ee03#src=seo_token; aerodrome-slipstream (Base), 33.35% APY, $436.2K TVL, https://www.defi.garden/?pool=0330d308-62db-468f-b4b9-990bb810020b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aerodrome-slipstream →](https://www.defi.garden/?pool=ad247753-74a9-4958-ab00-82a6b436ee03#src=seo_token) | Base | 71.85% | $716.9K |
-| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=0330d308-62db-468f-b4b9-990bb810020b#src=seo_token) | Base | 32.29% | $426.4K |
+| 1 | [aerodrome-slipstream →](https://www.defi.garden/?pool=ad247753-74a9-4958-ab00-82a6b436ee03#src=seo_token) | Base | 65.51% | $785.7K |
+| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=0330d308-62db-468f-b4b9-990bb810020b#src=seo_token) | Base | 33.35% | $436.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CBXRP shows up in 2 pools here, with rates from 32.29% to 71.85% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CBXRP shows up in 2 pools here, with rates from 33.35% to 65.51% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 101.09% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 101.61% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 2 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -33,8 +33,8 @@ CBXRP shows up in 2 pools here, with rates from 32.29% to 71.85% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 71.85% | 102.15% | 19.91% incentives |
-| aerodrome-slipstream | 32.29% | 100.04% | 37.47% incentives |
+| aerodrome-slipstream | 65.51% | 102.81% | 15.57% incentives |
+| aerodrome-slipstream | 33.35% | 100.41% | 32.16% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CBXRP yield today?
 
-71.85% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+65.51% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many CBXRP pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $158.45M in total.
+6 live pools clear this page's $100K TVL floor, $157.6M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which CBXRP pools have the most stable APY history?
 
-Based on APY history only, CBXRP's lower-variability candidates are aerodrome-slipstream (Base), 71.85% APY, $716.9K TVL, https://www.defi.garden/?pool=ad247753-74a9-4958-ab00-82a6b436ee03#src=seo_token; aerodrome-slipstream (Base), 32.29% APY, $426.4K TVL, https://www.defi.garden/?pool=0330d308-62db-468f-b4b9-990bb810020b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CBXRP's lower-variability candidates are aerodrome-slipstream (Base), 65.51% APY, $785.7K TVL, https://www.defi.garden/?pool=ad247753-74a9-4958-ab00-82a6b436ee03#src=seo_token; aerodrome-slipstream (Base), 33.35% APY, $436.2K TVL, https://www.defi.garden/?pool=0330d308-62db-468f-b4b9-990bb810020b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

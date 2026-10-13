@@ -6,7 +6,7 @@ The highest honest SPOL yield right now is 0.02% on uniswap-v3 (Polygon), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=383ba314-d65f-4bce-824a-10357b5bf3ba#src=seo_token) | Polygon | 0.02% | $942.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=383ba314-d65f-4bce-824a-10357b5bf3ba#src=seo_token) | Polygon | 0.02% | $892.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SPOL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.06M in total.
+2 live pools clear this page's $100K TVL floor, $1.01M in total.
 
 ### Are these rates safe?
 

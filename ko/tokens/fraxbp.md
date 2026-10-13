@@ -2,42 +2,42 @@
 
 *DefiLlama 데이터 생성 시점 검증: October 13, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 FRAXBP의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 32.71%이며, $100K TVL 기준을 넘는 12개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 FRAXBP의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 30.29%이며, $100K TVL 기준을 넘는 12개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=62ca653d-a58c-4363-9ffb-b6ceea56a712#src=seo_token) | Ethereum | 0.48% | $1.09M |
-| [convex-finance →](https://www.defi.garden/?pool=5b0d9168-00ca-4326-bdd5-04eed0e9b4a7#src=seo_token) | Ethereum | 0.76% | $924K |
-| [curve-dex →](https://www.defi.garden/?pool=dc8cd648-9df1-4a15-920f-7af845786469#src=seo_token) | Ethereum | 18.64% | $614.7K |
-| [convex-finance →](https://www.defi.garden/?pool=17d0b914-7a7d-474c-a97b-35062fbd2273#src=seo_token) | Ethereum | 32.71% | $399.6K |
-| [curve-dex →](https://www.defi.garden/?pool=817329d2-07cb-4cbd-82ac-eb9bc0add450#src=seo_token) | Ethereum | 1.76% | $226.6K |
-| [convex-finance →](https://www.defi.garden/?pool=c04005c9-7e34-41a6-91c4-295834ed8ac0#src=seo_token) | Ethereum | 1.76% | $226.1K |
-| [curve-dex →](https://www.defi.garden/?pool=652ec67f-20b1-4138-8fc3-d78458f47e1a#src=seo_token) | Ethereum | 0.17% | $176.1K |
-| [convex-finance →](https://www.defi.garden/?pool=42de7839-da37-4a99-8992-d6352177c4db#src=seo_token) | Ethereum | 0.37% | $165.6K |
+| [curve-dex →](https://www.defi.garden/?pool=62ca653d-a58c-4363-9ffb-b6ceea56a712#src=seo_token) | Ethereum | 0.45% | $1.09M |
+| [convex-finance →](https://www.defi.garden/?pool=5b0d9168-00ca-4326-bdd5-04eed0e9b4a7#src=seo_token) | Ethereum | 0.71% | $924K |
+| [curve-dex →](https://www.defi.garden/?pool=dc8cd648-9df1-4a15-920f-7af845786469#src=seo_token) | Ethereum | 17.26% | $614.5K |
+| [convex-finance →](https://www.defi.garden/?pool=17d0b914-7a7d-474c-a97b-35062fbd2273#src=seo_token) | Ethereum | 30.29% | $399.5K |
+| [curve-dex →](https://www.defi.garden/?pool=817329d2-07cb-4cbd-82ac-eb9bc0add450#src=seo_token) | Ethereum | 1.09% | $226.6K |
+| [convex-finance →](https://www.defi.garden/?pool=c04005c9-7e34-41a6-91c4-295834ed8ac0#src=seo_token) | Ethereum | 1.09% | $226.1K |
+| [curve-dex →](https://www.defi.garden/?pool=652ec67f-20b1-4138-8fc3-d78458f47e1a#src=seo_token) | Ethereum | 0.10% | $176.1K |
+| [convex-finance →](https://www.defi.garden/?pool=42de7839-da37-4a99-8992-d6352177c4db#src=seo_token) | Ethereum | 0.29% | $165.6K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 FRAXBP의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 1.76%, TVL $226.6K, https://www.defi.garden/?pool=817329d2-07cb-4cbd-82ac-eb9bc0add450#src=seo_token; Ethereum의 convex-finance, APY 0.37%, TVL $165.6K, https://www.defi.garden/?pool=42de7839-da37-4a99-8992-d6352177c4db#src=seo_token; Ethereum의 curve-dex, APY 0.17%, TVL $176.1K, https://www.defi.garden/?pool=652ec67f-20b1-4138-8fc3-d78458f47e1a#src=seo_token; Ethereum의 convex-finance, APY 1.76%, TVL $226.1K, https://www.defi.garden/?pool=c04005c9-7e34-41a6-91c4-295834ed8ac0#src=seo_token; Ethereum의 curve-dex, APY 0.48%, TVL $1.09M, https://www.defi.garden/?pool=62ca653d-a58c-4363-9ffb-b6ceea56a712#src=seo_token; Ethereum의 convex-finance, APY 0.76%, TVL $924K, https://www.defi.garden/?pool=5b0d9168-00ca-4326-bdd5-04eed0e9b4a7#src=seo_token; Ethereum의 curve-dex, APY 18.64%, TVL $614.7K, https://www.defi.garden/?pool=dc8cd648-9df1-4a15-920f-7af845786469#src=seo_token; Ethereum의 convex-finance, APY 32.71%, TVL $399.6K, https://www.defi.garden/?pool=17d0b914-7a7d-474c-a97b-35062fbd2273#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 FRAXBP의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 1.09%, TVL $226.6K, https://www.defi.garden/?pool=817329d2-07cb-4cbd-82ac-eb9bc0add450#src=seo_token; Ethereum의 convex-finance, APY 0.29%, TVL $165.6K, https://www.defi.garden/?pool=42de7839-da37-4a99-8992-d6352177c4db#src=seo_token; Ethereum의 curve-dex, APY 0.10%, TVL $176.1K, https://www.defi.garden/?pool=652ec67f-20b1-4138-8fc3-d78458f47e1a#src=seo_token; Ethereum의 convex-finance, APY 1.09%, TVL $226.1K, https://www.defi.garden/?pool=c04005c9-7e34-41a6-91c4-295834ed8ac0#src=seo_token; Ethereum의 curve-dex, APY 0.45%, TVL $1.09M, https://www.defi.garden/?pool=62ca653d-a58c-4363-9ffb-b6ceea56a712#src=seo_token; Ethereum의 convex-finance, APY 0.71%, TVL $924K, https://www.defi.garden/?pool=5b0d9168-00ca-4326-bdd5-04eed0e9b4a7#src=seo_token; Ethereum의 curve-dex, APY 17.26%, TVL $614.5K, https://www.defi.garden/?pool=dc8cd648-9df1-4a15-920f-7af845786469#src=seo_token; Ethereum의 convex-finance, APY 30.29%, TVL $399.5K, https://www.defi.garden/?pool=17d0b914-7a7d-474c-a97b-35062fbd2273#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=817329d2-07cb-4cbd-82ac-eb9bc0add450#src=seo_token) | Ethereum | 1.76% | $226.6K |
-| 2 | [convex-finance →](https://www.defi.garden/?pool=42de7839-da37-4a99-8992-d6352177c4db#src=seo_token) | Ethereum | 0.37% | $165.6K |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=652ec67f-20b1-4138-8fc3-d78458f47e1a#src=seo_token) | Ethereum | 0.17% | $176.1K |
-| 4 | [convex-finance →](https://www.defi.garden/?pool=c04005c9-7e34-41a6-91c4-295834ed8ac0#src=seo_token) | Ethereum | 1.76% | $226.1K |
-| 5 | [curve-dex →](https://www.defi.garden/?pool=62ca653d-a58c-4363-9ffb-b6ceea56a712#src=seo_token) | Ethereum | 0.48% | $1.09M |
-| 6 | [convex-finance →](https://www.defi.garden/?pool=5b0d9168-00ca-4326-bdd5-04eed0e9b4a7#src=seo_token) | Ethereum | 0.76% | $924K |
-| 7 | [curve-dex →](https://www.defi.garden/?pool=dc8cd648-9df1-4a15-920f-7af845786469#src=seo_token) | Ethereum | 18.64% | $614.7K |
-| 8 | [convex-finance →](https://www.defi.garden/?pool=17d0b914-7a7d-474c-a97b-35062fbd2273#src=seo_token) | Ethereum | 32.71% | $399.6K |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=817329d2-07cb-4cbd-82ac-eb9bc0add450#src=seo_token) | Ethereum | 1.09% | $226.6K |
+| 2 | [convex-finance →](https://www.defi.garden/?pool=42de7839-da37-4a99-8992-d6352177c4db#src=seo_token) | Ethereum | 0.29% | $165.6K |
+| 3 | [curve-dex →](https://www.defi.garden/?pool=652ec67f-20b1-4138-8fc3-d78458f47e1a#src=seo_token) | Ethereum | 0.10% | $176.1K |
+| 4 | [convex-finance →](https://www.defi.garden/?pool=c04005c9-7e34-41a6-91c4-295834ed8ac0#src=seo_token) | Ethereum | 1.09% | $226.1K |
+| 5 | [curve-dex →](https://www.defi.garden/?pool=62ca653d-a58c-4363-9ffb-b6ceea56a712#src=seo_token) | Ethereum | 0.45% | $1.09M |
+| 6 | [convex-finance →](https://www.defi.garden/?pool=5b0d9168-00ca-4326-bdd5-04eed0e9b4a7#src=seo_token) | Ethereum | 0.71% | $924K |
+| 7 | [curve-dex →](https://www.defi.garden/?pool=dc8cd648-9df1-4a15-920f-7af845786469#src=seo_token) | Ethereum | 17.26% | $614.5K |
+| 8 | [convex-finance →](https://www.defi.garden/?pool=17d0b914-7a7d-474c-a97b-35062fbd2273#src=seo_token) | Ethereum | 30.29% | $399.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-FRAXBP 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.17%부터 32.71%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+FRAXBP 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.10%부터 30.29%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 0.74%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 0.72%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 6개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -45,14 +45,14 @@ FRAXBP 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.17%부터 32.71%
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| curve-dex | 0.48% | 1.07% | 인센티브 83.36% |
-| convex-finance | 0.76% | 2.91% | 인센티브 89.53% |
-| curve-dex | 18.64% | 17.37% | 인센티브 97.05% |
-| convex-finance | 32.71% | 28.31% | 인센티브 98.32% |
-| curve-dex | 1.76% | 0.41% | 기본 금리 |
-| convex-finance | 1.76% | 0.41% | 기본 금리 |
-| curve-dex | 0.17% | 0.11% | 인센티브 21.95% |
-| convex-finance | 0.37% | 0.15% | 인센티브 64.56% |
+| curve-dex | 0.45% | 1.02% | 인센티브 82.30% |
+| convex-finance | 0.71% | 2.83% | 인센티브 88.80% |
+| curve-dex | 17.26% | 17.38% | 인센티브 97.33% |
+| convex-finance | 30.29% | 28.34% | 인센티브 98.48% |
+| curve-dex | 1.09% | 0.43% | 기본 금리 |
+| convex-finance | 1.09% | 0.43% | 기본 금리 |
+| curve-dex | 0.10% | 0.11% | 인센티브 32.65% |
+| convex-finance | 0.29% | 0.15% | 인센티브 75.82% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -60,7 +60,7 @@ FRAXBP 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.17%부터 32.71%
 
 ### 오늘 FRAXBP의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 32.71%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 30.29%예요.
 
 ### FRAXBP 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -72,7 +72,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 32.71
 
 ### FRAXBP 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 FRAXBP의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 1.76%, TVL $226.6K, https://www.defi.garden/?pool=817329d2-07cb-4cbd-82ac-eb9bc0add450#src=seo_token; Ethereum의 convex-finance, APY 0.37%, TVL $165.6K, https://www.defi.garden/?pool=42de7839-da37-4a99-8992-d6352177c4db#src=seo_token; Ethereum의 curve-dex, APY 0.17%, TVL $176.1K, https://www.defi.garden/?pool=652ec67f-20b1-4138-8fc3-d78458f47e1a#src=seo_token; Ethereum의 convex-finance, APY 1.76%, TVL $226.1K, https://www.defi.garden/?pool=c04005c9-7e34-41a6-91c4-295834ed8ac0#src=seo_token; Ethereum의 curve-dex, APY 0.48%, TVL $1.09M, https://www.defi.garden/?pool=62ca653d-a58c-4363-9ffb-b6ceea56a712#src=seo_token; Ethereum의 convex-finance, APY 0.76%, TVL $924K, https://www.defi.garden/?pool=5b0d9168-00ca-4326-bdd5-04eed0e9b4a7#src=seo_token; Ethereum의 curve-dex, APY 18.64%, TVL $614.7K, https://www.defi.garden/?pool=dc8cd648-9df1-4a15-920f-7af845786469#src=seo_token; Ethereum의 convex-finance, APY 32.71%, TVL $399.6K, https://www.defi.garden/?pool=17d0b914-7a7d-474c-a97b-35062fbd2273#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 FRAXBP의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 1.09%, TVL $226.6K, https://www.defi.garden/?pool=817329d2-07cb-4cbd-82ac-eb9bc0add450#src=seo_token; Ethereum의 convex-finance, APY 0.29%, TVL $165.6K, https://www.defi.garden/?pool=42de7839-da37-4a99-8992-d6352177c4db#src=seo_token; Ethereum의 curve-dex, APY 0.10%, TVL $176.1K, https://www.defi.garden/?pool=652ec67f-20b1-4138-8fc3-d78458f47e1a#src=seo_token; Ethereum의 convex-finance, APY 1.09%, TVL $226.1K, https://www.defi.garden/?pool=c04005c9-7e34-41a6-91c4-295834ed8ac0#src=seo_token; Ethereum의 curve-dex, APY 0.45%, TVL $1.09M, https://www.defi.garden/?pool=62ca653d-a58c-4363-9ffb-b6ceea56a712#src=seo_token; Ethereum의 convex-finance, APY 0.71%, TVL $924K, https://www.defi.garden/?pool=5b0d9168-00ca-4326-bdd5-04eed0e9b4a7#src=seo_token; Ethereum의 curve-dex, APY 17.26%, TVL $614.5K, https://www.defi.garden/?pool=dc8cd648-9df1-4a15-920f-7af845786469#src=seo_token; Ethereum의 convex-finance, APY 30.29%, TVL $399.5K, https://www.defi.garden/?pool=17d0b914-7a7d-474c-a97b-35062fbd2273#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

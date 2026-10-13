@@ -2,12 +2,13 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest USDFR yield right now is 5.72% on pendle-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDFR yield right now is 5.83% on pendle-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle-v2 →](https://www.defi.garden/?pool=8b2e08d0-e29a-5e28-9d8a-f10e58c421a4#src=seo_token) | Ethereum | 5.72% | $251.6K |
-| [pendle-v2 →](https://www.defi.garden/?pool=2f799b5a-18de-5439-9de8-8a61f1c18f39#src=seo_token) | Ethereum | 3.41% | $251.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=d1d4409d-1d90-5e62-b513-cc980b9a0ab3#src=seo_token) | Ethereum | 0.09% | $2.69M |
+| [pendle-v2 →](https://www.defi.garden/?pool=8b2e08d0-e29a-5e28-9d8a-f10e58c421a4#src=seo_token) | Ethereum | 5.83% | $251.6K |
+| [pendle-v2 →](https://www.defi.garden/?pool=2f799b5a-18de-5439-9de8-8a61f1c18f39#src=seo_token) | Ethereum | 3.40% | $251.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,16 +19,17 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-USDFR shows up in 2 pools here, with rates from 3.41% to 5.72% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+USDFR shows up in 3 pools here, with rates from 0.09% to 5.83% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 4.43% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 3.33% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle-v2 | 5.72% | 5.54% | Base rate |
-| pendle-v2 | 3.41% | 3.33% | 59.19% incentives |
+| uniswap-v4 | 0.09% | 0.02% | Base rate |
+| pendle-v2 | 5.83% | 5.56% | Base rate |
+| pendle-v2 | 3.40% | 3.33% | 57.51% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USDFR yield today?
 
-5.72% APY on pendle-v2 (Ethereum), based on live DefiLlama data.
+5.83% APY on pendle-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many USDFR pools clear the TVL floor?
 

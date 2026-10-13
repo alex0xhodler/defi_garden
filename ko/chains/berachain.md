@@ -1,17 +1,17 @@
 # Berachain 디파이 수익률
 
-현재 Berachain의 가장 높은 정직한 수익률은 Berachain의 berapaw에서 17.31%이며, $100K TVL 기준을 넘는 47개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 Berachain의 가장 높은 정직한 수익률은 Berachain의 berapaw에서 17.08%이며, $100K TVL 기준을 넘는 47개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| IBERA | [infrared-finance →](https://www.defi.garden/?pool=2b9e97cd-15f2-406c-8e18-a426e451d09d#src=seo_chain) | 2.82% | $18.61M |
-| RE7HONEY | [berapaw →](https://www.defi.garden/?pool=6e43f0da-2563-40f3-95fa-8bcf6e10b72b#src=seo_chain) | 8.60% | $6.15M |
-| CSRHONEY | [berapaw →](https://www.defi.garden/?pool=4aa13699-f779-47aa-aa34-078c3a8b489e#src=seo_chain) | 8.43% | $2.85M |
-| KODIUSDE-HONEY | [berapaw →](https://www.defi.garden/?pool=63e9c699-9eaf-4106-aaf5-653297e0b9dd#src=seo_chain) | 10.39% | $1.9M |
-| KODISAIL.R-USDE | [berapaw →](https://www.defi.garden/?pool=3b4012c9-b702-4ee9-8215-b60732fdf513#src=seo_chain) | 17.31% | $1.29M |
+| IBERA | [infrared-finance →](https://www.defi.garden/?pool=2b9e97cd-15f2-406c-8e18-a426e451d09d#src=seo_chain) | 2.88% | $18.11M |
+| RE7HONEY | [berapaw →](https://www.defi.garden/?pool=6e43f0da-2563-40f3-95fa-8bcf6e10b72b#src=seo_chain) | 8.53% | $6.16M |
+| CSRHONEY | [berapaw →](https://www.defi.garden/?pool=4aa13699-f779-47aa-aa34-078c3a8b489e#src=seo_chain) | 8.37% | $2.86M |
+| KODIUSDE-HONEY | [berapaw →](https://www.defi.garden/?pool=63e9c699-9eaf-4106-aaf5-653297e0b9dd#src=seo_chain) | 10.29% | $1.9M |
+| KODISAIL.R-USDE | [berapaw →](https://www.defi.garden/?pool=3b4012c9-b702-4ee9-8215-b60732fdf513#src=seo_chain) | 17.08% | $1.29M |
 | KODIWBTC-WETH | [berapaw →](https://www.defi.garden/?pool=47444258-5cc2-4e33-95a7-1bc5df79b83b#src=seo_chain) | 2.63% | $1.12M |
-| KODISWBERA-OSBGT | [berapaw →](https://www.defi.garden/?pool=ef1b824f-d2d4-4630-83ac-3c09236019e9#src=seo_chain) | 10.27% | $890.8K |
-| KODIEWBERA-4-OSBGT | [berapaw →](https://www.defi.garden/?pool=122967c8-2fd5-4f43-95ff-ffcaeb99da09#src=seo_chain) | 10.72% | $821.1K |
+| KODISWBERA-OSBGT | [berapaw →](https://www.defi.garden/?pool=ef1b824f-d2d4-4630-83ac-3c09236019e9#src=seo_chain) | 10.23% | $888.4K |
+| KODIEWBERA-4-OSBGT | [berapaw →](https://www.defi.garden/?pool=122967c8-2fd5-4f43-95ff-ffcaeb99da09#src=seo_chain) | 10.68% | $819K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,11 +19,11 @@
 
 ### 오늘 Berachain의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Berachain의 berapaw에서 APY 17.31%예요.
+DefiLlama 실시간 데이터 기준, Berachain의 berapaw에서 APY 17.08%예요.
 
 ### Berachain 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 47개이며, 합산 TVL은 $142.43M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 47개이며, 합산 TVL은 $141.57M예요.
 
 ### 이 수익률은 안전한가요?
 

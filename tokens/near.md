@@ -2,40 +2,40 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest NEAR yield right now is 437.46% on orca-dex (Solana), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NEAR yield right now is 516.97% on orca-dex (Solana), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=ff85a528-d8f4-4955-b678-8a870579932d#src=seo_token) | Solana | 28.03% | $2.78M |
-| [raydium-amm →](https://www.defi.garden/?pool=45c64e65-e826-58ec-a6a9-6e837e97e617#src=seo_token) | Solana | 182.92% | $1.33M |
-| [orca-dex →](https://www.defi.garden/?pool=c0c916e6-b9a0-59b6-9672-332a2498bb94#src=seo_token) | Solana | 437.46% | $1.28M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=39ef0cc9-67ff-4a00-b4ab-633225030e24#src=seo_token) | Ethereum | 127.83% | $912.7K |
-| [orca-dex →](https://www.defi.garden/?pool=48119ee8-2175-5f86-b142-87ad91f4909d#src=seo_token) | Solana | 188.07% | $428.8K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=50e5df26-3e32-4de1-9a99-f966e10865f6#src=seo_token) | Ethereum | 124.22% | $390.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=41a16a1e-5e87-4fbf-8307-d22a0dad9473#src=seo_token) | BSC | 317.23% | $359.3K |
-| [raydium-amm →](https://www.defi.garden/?pool=c2eb5e20-8908-5bc5-b107-274a1690edb0#src=seo_token) | Solana | 46.35% | $350.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=ff85a528-d8f4-4955-b678-8a870579932d#src=seo_token) | Solana | 27.43% | $2.72M |
+| [raydium-amm →](https://www.defi.garden/?pool=45c64e65-e826-58ec-a6a9-6e837e97e617#src=seo_token) | Solana | 149.55% | $1.29M |
+| [orca-dex →](https://www.defi.garden/?pool=c0c916e6-b9a0-59b6-9672-332a2498bb94#src=seo_token) | Solana | 516.97% | $1.27M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=39ef0cc9-67ff-4a00-b4ab-633225030e24#src=seo_token) | Ethereum | 141.28% | $886.5K |
+| [orca-dex →](https://www.defi.garden/?pool=48119ee8-2175-5f86-b142-87ad91f4909d#src=seo_token) | Solana | 213.21% | $433.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=50e5df26-3e32-4de1-9a99-f966e10865f6#src=seo_token) | Ethereum | 121.73% | $386.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=41a16a1e-5e87-4fbf-8307-d22a0dad9473#src=seo_token) | BSC | 304.97% | $352.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=c2eb5e20-8908-5bc5-b107-274a1690edb0#src=seo_token) | Solana | 37.33% | $321K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, NEAR's lower-variability candidates are raydium-amm (Solana), 28.03% APY, $2.78M TVL, https://www.defi.garden/?pool=ff85a528-d8f4-4955-b678-8a870579932d#src=seo_token; uniswap-v3 (Ethereum), 127.83% APY, $912.7K TVL, https://www.defi.garden/?pool=39ef0cc9-67ff-4a00-b4ab-633225030e24#src=seo_token; uniswap-v3 (BSC), 317.23% APY, $359.3K TVL, https://www.defi.garden/?pool=41a16a1e-5e87-4fbf-8307-d22a0dad9473#src=seo_token; uniswap-v3 (Ethereum), 124.22% APY, $390.4K TVL, https://www.defi.garden/?pool=50e5df26-3e32-4de1-9a99-f966e10865f6#src=seo_token; orca-dex (Solana), 188.07% APY, $428.8K TVL, https://www.defi.garden/?pool=48119ee8-2175-5f86-b142-87ad91f4909d#src=seo_token; raydium-amm (Solana), 46.35% APY, $350.4K TVL, https://www.defi.garden/?pool=c2eb5e20-8908-5bc5-b107-274a1690edb0#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NEAR's lower-variability candidates are raydium-amm (Solana), 27.43% APY, $2.72M TVL, https://www.defi.garden/?pool=ff85a528-d8f4-4955-b678-8a870579932d#src=seo_token; uniswap-v3 (Ethereum), 141.28% APY, $886.5K TVL, https://www.defi.garden/?pool=39ef0cc9-67ff-4a00-b4ab-633225030e24#src=seo_token; uniswap-v3 (BSC), 304.97% APY, $352.6K TVL, https://www.defi.garden/?pool=41a16a1e-5e87-4fbf-8307-d22a0dad9473#src=seo_token; uniswap-v3 (Ethereum), 121.73% APY, $386.6K TVL, https://www.defi.garden/?pool=50e5df26-3e32-4de1-9a99-f966e10865f6#src=seo_token; orca-dex (Solana), 213.21% APY, $433.2K TVL, https://www.defi.garden/?pool=48119ee8-2175-5f86-b142-87ad91f4909d#src=seo_token; raydium-amm (Solana), 37.33% APY, $321K TVL, https://www.defi.garden/?pool=c2eb5e20-8908-5bc5-b107-274a1690edb0#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=ff85a528-d8f4-4955-b678-8a870579932d#src=seo_token) | Solana | 28.03% | $2.78M |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=39ef0cc9-67ff-4a00-b4ab-633225030e24#src=seo_token) | Ethereum | 127.83% | $912.7K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=41a16a1e-5e87-4fbf-8307-d22a0dad9473#src=seo_token) | BSC | 317.23% | $359.3K |
-| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=50e5df26-3e32-4de1-9a99-f966e10865f6#src=seo_token) | Ethereum | 124.22% | $390.4K |
-| 5 | [orca-dex →](https://www.defi.garden/?pool=48119ee8-2175-5f86-b142-87ad91f4909d#src=seo_token) | Solana | 188.07% | $428.8K |
-| 6 | [raydium-amm →](https://www.defi.garden/?pool=c2eb5e20-8908-5bc5-b107-274a1690edb0#src=seo_token) | Solana | 46.35% | $350.4K |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=ff85a528-d8f4-4955-b678-8a870579932d#src=seo_token) | Solana | 27.43% | $2.72M |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=39ef0cc9-67ff-4a00-b4ab-633225030e24#src=seo_token) | Ethereum | 141.28% | $886.5K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=41a16a1e-5e87-4fbf-8307-d22a0dad9473#src=seo_token) | BSC | 304.97% | $352.6K |
+| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=50e5df26-3e32-4de1-9a99-f966e10865f6#src=seo_token) | Ethereum | 121.73% | $386.6K |
+| 5 | [orca-dex →](https://www.defi.garden/?pool=48119ee8-2175-5f86-b142-87ad91f4909d#src=seo_token) | Solana | 213.21% | $433.2K |
+| 6 | [raydium-amm →](https://www.defi.garden/?pool=c2eb5e20-8908-5bc5-b107-274a1690edb0#src=seo_token) | Solana | 37.33% | $321K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-NEAR shows up in 8 pools here, with rates from 28.03% to 437.46% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+NEAR shows up in 8 pools here, with rates from 27.43% to 516.97% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 189.70% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 189.83% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 8 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -43,14 +43,14 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 28.03% | 36.14% | Base rate |
-| raydium-amm | 182.92% | 179.12% | Base rate |
-| orca-dex | 437.46% | 358.06% | Base rate |
-| uniswap-v3 | 127.83% | 114.16% | Base rate |
-| orca-dex | 188.07% | 454.41% | Base rate |
-| uniswap-v3 | 124.22% | 200.28% | Base rate |
-| uniswap-v3 | 317.23% | 275.43% | Base rate |
-| raydium-amm | 46.35% | 147.83% | Base rate |
+| raydium-amm | 27.43% | 36.16% | Base rate |
+| raydium-amm | 149.55% | 178.38% | Base rate |
+| orca-dex | 516.97% | 360.85% | Base rate |
+| uniswap-v3 | 141.28% | 115.67% | Base rate |
+| orca-dex | 213.21% | 449.23% | Base rate |
+| uniswap-v3 | 121.73% | 201.28% | Base rate |
+| uniswap-v3 | 304.97% | 278.25% | Base rate |
+| raydium-amm | 37.33% | 143.04% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -58,11 +58,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest NEAR yield today?
 
-437.46% APY on orca-dex (Solana), based on live DefiLlama data.
+516.97% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many NEAR pools clear the TVL floor?
 
-9 live pools clear this page's $100K TVL floor, $8.03M in total.
+9 live pools clear this page's $100K TVL floor, $7.83M in total.
 
 ### Are these rates safe?
 
@@ -70,7 +70,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which NEAR pools have the most stable APY history?
 
-Based on APY history only, NEAR's lower-variability candidates are raydium-amm (Solana), 28.03% APY, $2.78M TVL, https://www.defi.garden/?pool=ff85a528-d8f4-4955-b678-8a870579932d#src=seo_token; uniswap-v3 (Ethereum), 127.83% APY, $912.7K TVL, https://www.defi.garden/?pool=39ef0cc9-67ff-4a00-b4ab-633225030e24#src=seo_token; uniswap-v3 (BSC), 317.23% APY, $359.3K TVL, https://www.defi.garden/?pool=41a16a1e-5e87-4fbf-8307-d22a0dad9473#src=seo_token; uniswap-v3 (Ethereum), 124.22% APY, $390.4K TVL, https://www.defi.garden/?pool=50e5df26-3e32-4de1-9a99-f966e10865f6#src=seo_token; orca-dex (Solana), 188.07% APY, $428.8K TVL, https://www.defi.garden/?pool=48119ee8-2175-5f86-b142-87ad91f4909d#src=seo_token; raydium-amm (Solana), 46.35% APY, $350.4K TVL, https://www.defi.garden/?pool=c2eb5e20-8908-5bc5-b107-274a1690edb0#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NEAR's lower-variability candidates are raydium-amm (Solana), 27.43% APY, $2.72M TVL, https://www.defi.garden/?pool=ff85a528-d8f4-4955-b678-8a870579932d#src=seo_token; uniswap-v3 (Ethereum), 141.28% APY, $886.5K TVL, https://www.defi.garden/?pool=39ef0cc9-67ff-4a00-b4ab-633225030e24#src=seo_token; uniswap-v3 (BSC), 304.97% APY, $352.6K TVL, https://www.defi.garden/?pool=41a16a1e-5e87-4fbf-8307-d22a0dad9473#src=seo_token; uniswap-v3 (Ethereum), 121.73% APY, $386.6K TVL, https://www.defi.garden/?pool=50e5df26-3e32-4de1-9a99-f966e10865f6#src=seo_token; orca-dex (Solana), 213.21% APY, $433.2K TVL, https://www.defi.garden/?pool=48119ee8-2175-5f86-b142-87ad91f4909d#src=seo_token; raydium-amm (Solana), 37.33% APY, $321K TVL, https://www.defi.garden/?pool=c2eb5e20-8908-5bc5-b107-274a1690edb0#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

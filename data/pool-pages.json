@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T08:57:30.440Z",
+  "generatedAt": "2026-10-13T17:07:51.865Z",
   "count": 100,
   "pages": [
     {
@@ -95,12 +95,12 @@
       "pool": "b9f2f00a-ba96-4589-a171-dde979a23d87"
     },
     {
-      "slug": "jupiter-staked-sol-jupsol-solana",
-      "pool": "52bd72a7-9e81-4112-abb4-71673e8de9bf"
-    },
-    {
       "slug": "sparklend-usds-ethereum",
       "pool": "54e9b138-3146-4c1f-8dce-1cb948f5ef96"
+    },
+    {
+      "slug": "jupiter-staked-sol-jupsol-solana",
+      "pool": "52bd72a7-9e81-4112-abb4-71673e8de9bf"
     },
     {
       "slug": "usd-ai-susdai-arbitrum",
@@ -143,12 +143,12 @@
       "pool": "8276be38-acc6-4005-ab0d-62680f49f4df"
     },
     {
-      "slug": "morpho-blue-sparkusdc-base",
-      "pool": "a5fab52f-73fa-4f44-9c09-9af1eb20996c"
-    },
-    {
       "slug": "hastra-prime-ethereum",
       "pool": "acfc00cf-5f1f-5172-acc7-4827e5ddd0b7"
+    },
+    {
+      "slug": "morpho-blue-sparkusdc-base",
+      "pool": "a5fab52f-73fa-4f44-9c09-9af1eb20996c"
     },
     {
       "slug": "justlend-v1-usdd-tron",
@@ -173,6 +173,10 @@
     {
       "slug": "morpho-blue-usde-base",
       "pool": "2d3b68a8-33d3-47e0-a4c0-0bafef4b01d5"
+    },
+    {
+      "slug": "aave-v3-usdt-ethereum",
+      "pool": "f981a304-bb6c-45b8-b0c5-fd2f515ad23a"
     },
     {
       "slug": "morpho-blue-usde-robinhood-chain",
@@ -203,12 +207,12 @@
       "pool": "c5c74dd1-995c-4445-9d84-3e710bad7d52"
     },
     {
-      "slug": "drift-staked-sol-dsol-solana",
-      "pool": "296651fc-25f6-4434-b8ec-17c2af9808da"
-    },
-    {
       "slug": "re-reusd-ethereum",
       "pool": "1c312830-ee96-40c9-b55f-b0f209ca6ebd"
+    },
+    {
+      "slug": "drift-staked-sol-dsol-solana",
+      "pool": "296651fc-25f6-4434-b8ec-17c2af9808da"
     },
     {
       "slug": "centrifuge-protocol-usat-ethereum",
@@ -217,10 +221,6 @@
     {
       "slug": "onre-onyc-solana",
       "pool": "7083d6a5-e3cb-4eeb-8204-f1b735e4ecbb"
-    },
-    {
-      "slug": "aave-v3-usdt-ethereum",
-      "pool": "f981a304-bb6c-45b8-b0c5-fd2f515ad23a"
     },
     {
       "slug": "centrifuge-protocol-usdc-avalanche",
@@ -235,12 +235,12 @@
       "pool": "b3f93865-5ec8-4662-90a0-11808e0aa2bd"
     },
     {
-      "slug": "benqi-staked-avax-savax-avalanche",
-      "pool": "3790c3e5-8644-4f6b-8feb-12434d8b99f9"
-    },
-    {
       "slug": "blackrock-buidl-buidl-ethereum",
       "pool": "b663ca59-c7e6-4435-ae4a-28d339ce6a15"
+    },
+    {
+      "slug": "benqi-staked-avax-savax-avalanche",
+      "pool": "3790c3e5-8644-4f6b-8feb-12434d8b99f9"
     },
     {
       "slug": "morpho-blue-senpyusdprimev2-ethereum",
@@ -251,12 +251,12 @@
       "pool": "568bbb48-dc88-4313-b1cc-ab1d4e763d6d"
     },
     {
-      "slug": "sanctum-infinity-inf-solana",
-      "pool": "3075a746-bdd1-4aac-bcd5-b035abee2622"
-    },
-    {
       "slug": "sky-lending-sdai-ethereum",
       "pool": "c8a24fee-ec00-4f38-86c0-9f6daebc4225"
+    },
+    {
+      "slug": "sanctum-infinity-inf-solana",
+      "pool": "3075a746-bdd1-4aac-bcd5-b035abee2622"
     },
     {
       "slug": "stader-ethx-ethereum",
@@ -267,12 +267,16 @@
       "pool": "b2b1d98f-cac1-4e7b-8cd8-d67b576fd259"
     },
     {
+      "slug": "morpho-blue-gtusdcp-base-df7ccf",
+      "pool": "df7ccfd1-2642-4d79-851a-a5b07d9b8a97"
+    },
+    {
       "slug": "ether-fi-stake-weeth-linea",
       "pool": "d13ce20b-9c18-466e-be47-31ae642b0754"
     },
     {
-      "slug": "morpho-blue-gtusdcp-base-df7ccf",
-      "pool": "df7ccfd1-2642-4d79-851a-a5b07d9b8a97"
+      "slug": "ondo-yield-assets-ousg-xrpl",
+      "pool": "36e8a552-9e64-42da-b8f8-1a20866510d8"
     },
     {
       "slug": "sky-lending-stusds-ethereum",
@@ -281,10 +285,6 @@
     {
       "slug": "morpho-blue-steakusdc-base",
       "pool": "ba68527f-8ec2-4c55-827a-8f4673ae047c"
-    },
-    {
-      "slug": "ondo-yield-assets-ousg-xrpl",
-      "pool": "36e8a552-9e64-42da-b8f8-1a20866510d8"
     },
     {
       "slug": "ondo-yield-assets-usdy-solana",
@@ -299,16 +299,12 @@
       "pool": "7f5c2e8b-0428-431b-ba6e-571c38a57010"
     },
     {
-      "slug": "apyx-protocol-apxusd-ethereum",
-      "pool": "cb6139f9-4a68-4efd-8245-0312a92aee55"
-    },
-    {
       "slug": "aave-v3-syrupusdc-monad",
       "pool": "9829fc1f-8f3a-5b29-a4b1-843b2996c95d"
     },
     {
-      "slug": "aave-v3-usdc-ethereum",
-      "pool": "aa70268e-4b52-42bf-a116-608b370f9501"
+      "slug": "apyx-protocol-apxusd-ethereum",
+      "pool": "cb6139f9-4a68-4efd-8245-0312a92aee55"
     },
     {
       "slug": "uniswap-v3-weth-usdc-base",
@@ -319,16 +315,20 @@
       "pool": "f76cc844-73a2-4cc7-8de7-f9fb874c626d"
     },
     {
-      "slug": "sky-lending-usds-ethereum",
-      "pool": "4d87430b-688a-5ac5-a593-4e31ac715d02"
-    },
-    {
       "slug": "morpho-blue-steakeurcv-ethereum",
       "pool": "d3b28212-a46b-4db8-8bb7-2c946b3cbe76"
     },
     {
+      "slug": "sky-lending-usds-ethereum",
+      "pool": "4d87430b-688a-5ac5-a593-4e31ac715d02"
+    },
+    {
       "slug": "blackrock-buidl-buidl-bsc",
       "pool": "55402b0b-af35-452b-b015-627b4233f0f1"
+    },
+    {
+      "slug": "aave-v3-usde-monad",
+      "pool": "34f65227-f3f9-5c3f-9182-f6eca85ae729"
     },
     {
       "slug": "the-vault-liquid-staking-vsol-solana",
@@ -343,8 +343,8 @@
       "pool": "d6fec854-4258-495b-95df-e4066214f41d"
     },
     {
-      "slug": "aave-v3-usde-monad",
-      "pool": "34f65227-f3f9-5c3f-9182-f6eca85ae729"
+      "slug": "aave-v3-usdc-ethereum",
+      "pool": "aa70268e-4b52-42bf-a116-608b370f9501"
     },
     {
       "slug": "ondo-yield-assets-ousg-ethereum",
@@ -359,20 +359,20 @@
       "pool": "4e8cc592-c8d5-4824-8155-128ba521e903"
     },
     {
-      "slug": "pareto-credit-usdc-ethereum",
-      "pool": "2eb2bdf8-c3e3-5b30-8d49-8d5232294184"
-    },
-    {
-      "slug": "aave-v3-wavax-avalanche",
-      "pool": "a1e18d7d-9a5f-4251-acb4-a87e005fe2c5"
-    },
-    {
       "slug": "morpho-blue-gtusdcp-ethereum",
       "pool": "71b34441-5a46-431b-a9b3-8c081cd0d74c"
     },
     {
+      "slug": "pareto-credit-usdc-ethereum",
+      "pool": "2eb2bdf8-c3e3-5b30-8d49-8d5232294184"
+    },
+    {
       "slug": "plume-vaults-nopal-plume-mainnet",
       "pool": "f21c4938-864a-44bd-91fb-c492864fcb46"
+    },
+    {
+      "slug": "aave-v3-wavax-avalanche",
+      "pool": "a1e18d7d-9a5f-4251-acb4-a87e005fe2c5"
     },
     {
       "slug": "morpho-blue-steakusdc-base-81ae88",
@@ -391,12 +391,12 @@
       "pool": "e28e32b5-e356-41d9-8dc7-a376ece56619"
     },
     {
-      "slug": "morpho-blue-steakusdc-ethereum",
-      "pool": "931ea9be-5f4d-428e-beaf-205fc5b4e2b5"
-    },
-    {
       "slug": "sentora-curator-pyusd-solana",
       "pool": "77602b5c-3d34-5275-acbd-a18a69ccb206"
+    },
+    {
+      "slug": "morpho-blue-steakusdc-ethereum",
+      "pool": "931ea9be-5f4d-428e-beaf-205fc5b4e2b5"
     },
     {
       "slug": "securitize-tokenized-aaa-clo-fund-stac-ethereum",

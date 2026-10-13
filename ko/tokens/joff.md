@@ -2,11 +2,11 @@
 
 *DefiLlama 데이터 생성 시점 검증: October 13, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 JOFF의 가장 높은 정직한 수익률은 Hyperliquid L1의 hyperswap-v2에서 1.04%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 JOFF의 가장 높은 정직한 수익률은 Hyperliquid L1의 hyperswap-v2에서 1.11%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [hyperswap-v2 →](https://www.defi.garden/?pool=a755afb7-6299-46ea-9b9e-b25ee174a16a#src=seo_token) | Hyperliquid L1 | 1.04% | $678.3K |
+| [hyperswap-v2 →](https://www.defi.garden/?pool=a755afb7-6299-46ea-9b9e-b25ee174a16a#src=seo_token) | Hyperliquid L1 | 1.11% | $670.7K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,11 +19,11 @@
 
 ### 오늘 JOFF의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Hyperliquid L1의 hyperswap-v2에서 APY 1.04%예요.
+DefiLlama 실시간 데이터 기준, Hyperliquid L1의 hyperswap-v2에서 APY 1.11%예요.
 
 ### JOFF 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $678.3K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $670.7K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -37,10 +37,10 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 hyperswap-v2에서 APY 1
 
 - [KHYPE](https://www.defi.garden/ko/tokens/khype)
 - [WHYPE](https://www.defi.garden/ko/tokens/whype)
-- [USDT0](https://www.defi.garden/ko/tokens/usdt0)
 - [THBILL](https://www.defi.garden/ko/tokens/thbill)
 - [UBTC](https://www.defi.garden/ko/tokens/ubtc)
 - [WSTHYPE](https://www.defi.garden/ko/tokens/wsthype)
+- [XBTC](https://www.defi.garden/ko/tokens/xbtc)
 
 ## 이용 가능한 체인
 

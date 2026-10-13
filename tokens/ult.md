@@ -6,7 +6,7 @@ The highest honest ULT yield right now is 0.01% on uniswap-v3 (Polygon), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=23964261-b655-43bc-b036-78cd11461238#src=seo_token) | Polygon | 0.01% | $185.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=23964261-b655-43bc-b036-78cd11461238#src=seo_token) | Polygon | 0.01% | $184.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ULT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $185.7K in total.
+1 live pool clear this page's $100K TVL floor, $184.3K in total.
 
 ### Are these rates safe?
 

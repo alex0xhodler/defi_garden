@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest EARNAUSDLOOP yield right now is 2.83% on upshift (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EARNAUSDLOOP yield right now is 4.30% on upshift (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [upshift →](https://www.defi.garden/?pool=09aa7857-e782-5752-a198-8f880759c0f5#src=seo_token) | Monad | 2.83% | $3.04M |
+| [upshift →](https://www.defi.garden/?pool=09aa7857-e782-5752-a198-8f880759c0f5#src=seo_token) | Monad | 4.30% | $2.43M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EARNAUSDLOOP yield today?
 
-2.83% APY on upshift (Monad), based on live DefiLlama data.
+4.30% APY on upshift (Monad), based on live DefiLlama data.
 
 ### How many EARNAUSDLOOP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $3.04M in total.
+1 live pool clear this page's $100K TVL floor, $2.43M in total.
 
 ### Are these rates safe?
 

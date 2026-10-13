@@ -6,7 +6,7 @@ The highest honest BZ yield right now is 2.46% on gmx-solana (Solana), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmx-solana →](https://www.defi.garden/?pool=d975e7a2-68d6-56c8-8519-4481266d3e10#src=seo_token) | Solana | 2.46% | $105.3K |
+| [gmx-solana →](https://www.defi.garden/?pool=d975e7a2-68d6-56c8-8519-4481266d3e10#src=seo_token) | Solana | 2.46% | $105.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BZ pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $105.3K in total.
+1 live pool clear this page's $100K TVL floor, $105.8K in total.
 
 ### Are these rates safe?
 

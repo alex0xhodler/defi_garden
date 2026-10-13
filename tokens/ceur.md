@@ -6,7 +6,7 @@ The highest honest CEUR yield right now is 0.26% on moola-market (Celo), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [moola-market →](https://www.defi.garden/?pool=d28c0d39-f65b-403a-9760-19ba8ac0ae2d#src=seo_token) | Celo | 0.26% | $159.6K |
+| [moola-market →](https://www.defi.garden/?pool=d28c0d39-f65b-403a-9760-19ba8ac0ae2d#src=seo_token) | Celo | 0.26% | $158.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CEUR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $159.6K in total.
+1 live pool clear this page's $100K TVL floor, $158.8K in total.
 
 ### Are these rates safe?
 
@@ -39,8 +39,8 @@ There is not enough qualifying APY history to rank CEUR pools. This view covers 
 - [WARS](https://www.defi.garden/tokens/wars)
 - [XAUT0](https://www.defi.garden/tokens/xaut0)
 - [CELO](https://www.defi.garden/tokens/celo)
-- [CUSD](https://www.defi.garden/tokens/cusd)
 - [STCELO](https://www.defi.garden/tokens/stcelo)
+- [CUSD](https://www.defi.garden/tokens/cusd)
 
 ## Available on
 

@@ -6,18 +6,18 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [unitas-usdu →](https://www.defi.garden/?pool=3e78432a-f58b-46b2-ba69-1b446efc3e21#src=seo_token) | BSC | 11.61% | $38.33M |
-| [unitas-usdu →](https://www.defi.garden/?pool=7f980c43-5b87-4690-a11a-b0e8a5e37a63#src=seo_token) | Solana | 10.71% | $4.21M |
+| [unitas-usdu →](https://www.defi.garden/?pool=3e78432a-f58b-46b2-ba69-1b446efc3e21#src=seo_token) | BSC | 11.61% | $38.36M |
+| [unitas-usdu →](https://www.defi.garden/?pool=7f980c43-5b87-4690-a11a-b0e8a5e37a63#src=seo_token) | Solana | 10.71% | $4.22M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 SUSDU의 변동성 낮은 후보는 BSC의 unitas-usdu, APY 11.61%, TVL $38.33M, https://www.defi.garden/?pool=3e78432a-f58b-46b2-ba69-1b446efc3e21#src=seo_token; Solana의 unitas-usdu, APY 10.71%, TVL $4.21M, https://www.defi.garden/?pool=7f980c43-5b87-4690-a11a-b0e8a5e37a63#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SUSDU의 변동성 낮은 후보는 BSC의 unitas-usdu, APY 11.61%, TVL $38.36M, https://www.defi.garden/?pool=3e78432a-f58b-46b2-ba69-1b446efc3e21#src=seo_token; Solana의 unitas-usdu, APY 10.71%, TVL $4.22M, https://www.defi.garden/?pool=7f980c43-5b87-4690-a11a-b0e8a5e37a63#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [unitas-usdu →](https://www.defi.garden/?pool=3e78432a-f58b-46b2-ba69-1b446efc3e21#src=seo_token) | BSC | 11.61% | $38.33M |
-| 2 | [unitas-usdu →](https://www.defi.garden/?pool=7f980c43-5b87-4690-a11a-b0e8a5e37a63#src=seo_token) | Solana | 10.71% | $4.21M |
+| 1 | [unitas-usdu →](https://www.defi.garden/?pool=3e78432a-f58b-46b2-ba69-1b446efc3e21#src=seo_token) | BSC | 11.61% | $38.36M |
+| 2 | [unitas-usdu →](https://www.defi.garden/?pool=7f980c43-5b87-4690-a11a-b0e8a5e37a63#src=seo_token) | Solana | 10.71% | $4.22M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -44,7 +44,7 @@ DefiLlama 실시간 데이터 기준, BSC의 unitas-usdu에서 APY 11.61%예요.
 
 ### SUSDU 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $42.54M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $42.57M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -52,7 +52,7 @@ DefiLlama 실시간 데이터 기준, BSC의 unitas-usdu에서 APY 11.61%예요.
 
 ### SUSDU 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 SUSDU의 변동성 낮은 후보는 BSC의 unitas-usdu, APY 11.61%, TVL $38.33M, https://www.defi.garden/?pool=3e78432a-f58b-46b2-ba69-1b446efc3e21#src=seo_token; Solana의 unitas-usdu, APY 10.71%, TVL $4.21M, https://www.defi.garden/?pool=7f980c43-5b87-4690-a11a-b0e8a5e37a63#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SUSDU의 변동성 낮은 후보는 BSC의 unitas-usdu, APY 11.61%, TVL $38.36M, https://www.defi.garden/?pool=3e78432a-f58b-46b2-ba69-1b446efc3e21#src=seo_token; Solana의 unitas-usdu, APY 10.71%, TVL $4.22M, https://www.defi.garden/?pool=7f980c43-5b87-4690-a11a-b0e8a5e37a63#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

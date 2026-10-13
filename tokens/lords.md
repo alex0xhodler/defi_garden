@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest LORDS yield right now is 318.41% on ekubo (Starknet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LORDS yield right now is 62.72% on ekubo (Starknet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ekubo →](https://www.defi.garden/?pool=49d721a3-e252-4573-b727-c287ec304ff4#src=seo_token) | Starknet | 318.41% | $106.1K |
+| [ekubo →](https://www.defi.garden/?pool=49d721a3-e252-4573-b727-c287ec304ff4#src=seo_token) | Starknet | 62.72% | $105.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LORDS yield today?
 
-318.41% APY on ekubo (Starknet), based on live DefiLlama data.
+62.72% APY on ekubo (Starknet), based on live DefiLlama data.
 
 ### How many LORDS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $106.1K in total.
+1 live pool clear this page's $100K TVL floor, $105.8K in total.
 
 ### Are these rates safe?
 
@@ -40,7 +40,7 @@ There is not enough qualifying APY history to rank LORDS pools. This view covers
 - [STRKBTC](https://www.defi.garden/tokens/strkbtc)
 - [ZEC](https://www.defi.garden/tokens/zec)
 - [USDC.E](https://www.defi.garden/tokens/usdc-e)
-- [SUSN](https://www.defi.garden/tokens/susn)
+- [XSTRK](https://www.defi.garden/tokens/xstrk)
 
 ## Available on
 

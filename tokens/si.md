@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest SI yield right now is 83.60% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SI yield right now is 88.19% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=087d7f6a-e646-5119-9390-bf28ec79adde#src=seo_token) | Solana | 83.60% | $599.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=087d7f6a-e646-5119-9390-bf28ec79adde#src=seo_token) | Solana | 88.19% | $585.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SI yield today?
 
-83.60% APY on raydium-amm (Solana), based on live DefiLlama data.
+88.19% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many SI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $599.1K in total.
+1 live pool clear this page's $100K TVL floor, $585.4K in total.
 
 ### Are these rates safe?
 

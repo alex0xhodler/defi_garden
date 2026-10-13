@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [avant-avusd →](https://www.defi.garden/?pool=c74227a1-e738-4021-bbe1-13363815aecb#src=seo_token) | Avalanche | 7.55% | $99.37M |
+| [avant-avusd →](https://www.defi.garden/?pool=c74227a1-e738-4021-bbe1-13363815aecb#src=seo_token) | Avalanche | 7.55% | $99.62M |
 | [morpho-blue →](https://www.defi.garden/?pool=fad7bc2b-3ac7-5554-bfd1-52cb1b2d4bcb#src=seo_token) | Base | 1.17% | $4.32M |
 
 <!-- rate-stability:insufficient -->
@@ -39,7 +39,7 @@ DefiLlama 실시간 데이터 기준, Avalanche의 avant-avusd에서 APY 7.55%�
 
 ### SAVUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $146.18M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $146.41M예요.
 
 ### 이 수익률은 안전한가요?
 

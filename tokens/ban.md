@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest BAN yield right now is 5.97% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BAN yield right now is 5.58% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=a24db72d-5c6a-4028-b81e-de1480fa0f81#src=seo_token) | Solana | 5.97% | $2.77M |
+| [raydium-amm →](https://www.defi.garden/?pool=a24db72d-5c6a-4028-b81e-de1480fa0f81#src=seo_token) | Solana | 5.58% | $2.73M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BAN yield today?
 
-5.97% APY on raydium-amm (Solana), based on live DefiLlama data.
+5.58% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many BAN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.77M in total.
+1 live pool clear this page's $100K TVL floor, $2.73M in total.
 
 ### Are these rates safe?
 
