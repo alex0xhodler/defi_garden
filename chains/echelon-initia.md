@@ -1,11 +1,11 @@
 # Echelon Initia DeFi Yields
 
-The highest honest Echelon Initia yield right now is 12.82% on echelon-market (Echelon Initia), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Echelon Initia yield right now is 12.83% on echelon-market (Echelon Initia), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| SXINIT | [echelon-market →](https://www.defi.garden/?pool=1ef7473e-2947-4faa-a0c1-c6bdb5734369#src=seo_chain) | 3.06% | $488.1K |
-| INIT | [echelon-market →](https://www.defi.garden/?pool=7323a295-f367-45b2-b58d-280a0ee9efa3#src=seo_chain) | 12.82% | $444.9K |
+| SXINIT | [echelon-market →](https://www.defi.garden/?pool=1ef7473e-2947-4faa-a0c1-c6bdb5734369#src=seo_chain) | 3.06% | $482K |
+| INIT | [echelon-market →](https://www.defi.garden/?pool=7323a295-f367-45b2-b58d-280a0ee9efa3#src=seo_chain) | 12.83% | $437.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Echelon Initia yield today?
 
-12.82% APY on echelon-market (Echelon Initia), based on live DefiLlama data.
+12.83% APY on echelon-market (Echelon Initia), based on live DefiLlama data.
 
 ### How many Echelon Initia pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.43M in total.
+3 live pools clear this page's $100K TVL floor, $1.42M in total.
 
 ### Are these rates safe?
 

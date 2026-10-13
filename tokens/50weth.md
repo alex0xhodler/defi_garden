@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest 50WETH yield right now is 5.36% on balancer-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest 50WETH yield right now is 4.47% on balancer-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=9dc8d002-85cd-4d9f-b6c9-452331ea01b1#src=seo_token) | Ethereum | 5.36% | $146.6K |
+| [balancer-v3 →](https://www.defi.garden/?pool=9dc8d002-85cd-4d9f-b6c9-452331ea01b1#src=seo_token) | Ethereum | 4.47% | $146.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest 50WETH yield today?
 
-5.36% APY on balancer-v3 (Ethereum), based on live DefiLlama data.
+4.47% APY on balancer-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many 50WETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $146.6K in total.
+1 live pool clear this page's $100K TVL floor, $146.7K in total.
 
 ### Are these rates safe?
 

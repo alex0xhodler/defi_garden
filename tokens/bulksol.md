@@ -6,8 +6,8 @@ The highest honest BULKSOL yield right now is 4.65% on bulk (Solana), among 2 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [bulk →](https://www.defi.garden/?pool=4fd9a102-4cc5-520f-bd85-14f830fe1d2a#src=seo_token) | Solana | 4.65% | $23.21M |
-| [project-0 →](https://www.defi.garden/?pool=2962a15d-3634-4237-a378-1620af130b89#src=seo_token) | Solana | 0.02% | $158.7K |
+| [bulk →](https://www.defi.garden/?pool=4fd9a102-4cc5-520f-bd85-14f830fe1d2a#src=seo_token) | Solana | 4.65% | $23.26M |
+| [project-0 →](https://www.defi.garden/?pool=2962a15d-3634-4237-a378-1620af130b89#src=seo_token) | Solana | 0.02% | $158.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many BULKSOL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $23.37M in total.
+2 live pools clear this page's $100K TVL floor, $23.42M in total.
 
 ### Are these rates safe?
 

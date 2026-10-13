@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [venus-core-pool →](https://www.defi.garden/?pool=15cbd370-c6dd-4258-89a4-4623e17c2865#src=seo_token) | BSC | 0.04% | $2.69M |
+| [venus-core-pool →](https://www.defi.garden/?pool=15cbd370-c6dd-4258-89a4-4623e17c2865#src=seo_token) | BSC | 0.04% | $2.71M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=68345d3b-fbed-557f-b03e-eeb852172519#src=seo_token) | BSC | 1.08% | $112.4K |
 
 <!-- rate-stability:insufficient -->
@@ -41,7 +41,7 @@ DefiLlama 실시간 데이터 기준, BSC의 uniswap-v4에서 APY 1.08%예요.
 
 ### LTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $2.8M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $2.82M예요.
 
 ### 이 수익률은 안전한가요?
 

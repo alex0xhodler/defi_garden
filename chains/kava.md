@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Kava pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $20.14M in total.
+8 live pools clear this page's $100K TVL floor, $20.16M in total.
 
 ### Are these rates safe?
 

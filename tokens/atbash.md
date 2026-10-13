@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest ATBASH yield right now is 2.14% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ATBASH yield right now is 1.15% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=7493ae23-8eb2-4b7a-aff8-0796a71dd3ea#src=seo_token) | Base | 2.14% | $175.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=7493ae23-8eb2-4b7a-aff8-0796a71dd3ea#src=seo_token) | Base | 1.15% | $176.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ATBASH yield today?
 
-2.14% APY on uniswap-v4 (Base), based on live DefiLlama data.
+1.15% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many ATBASH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $175.6K in total.
+1 live pool clear this page's $100K TVL floor, $176.8K in total.
 
 ### Are these rates safe?
 

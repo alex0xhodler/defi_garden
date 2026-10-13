@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest LIKER yield right now is 91.10% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LIKER yield right now is 98.56% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=f3357504-6e09-50a3-9431-1cb1aa59cb26#src=seo_token) | Solana | 91.10% | $104K |
+| [raydium-amm →](https://www.defi.garden/?pool=f3357504-6e09-50a3-9431-1cb1aa59cb26#src=seo_token) | Solana | 98.56% | $116.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LIKER yield today?
 
-91.10% APY on raydium-amm (Solana), based on live DefiLlama data.
+98.56% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many LIKER pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $104K in total.
+1 live pool clear this page's $100K TVL floor, $116.1K in total.
 
 ### Are these rates safe?
 

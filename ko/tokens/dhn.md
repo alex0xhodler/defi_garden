@@ -6,10 +6,10 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=7dfebd60-e781-5fec-b610-05d4553bc190#src=seo_token) | Ethereum | 0.02% | $4.79M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=7dfebd60-e781-5fec-b610-05d4553bc190#src=seo_token) | Ethereum | 0.02% | $4.78M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=9a800677-2f1c-59b7-a604-7bb044c81045#src=seo_token) | Ethereum | 0.01% | $4.03M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=1904ea9d-380f-50df-b7f9-8ce1192b1875#src=seo_token) | Ethereum | 0.05% | $3.52M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=767c8e93-7531-59ad-ad69-d837cb2142f1#src=seo_token) | Ethereum | 0.02% | $3.03M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=767c8e93-7531-59ad-ad69-d837cb2142f1#src=seo_token) | Ethereum | 0.02% | $3.02M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=221e2ea5-0cbc-5168-b93c-15a6c8bc482a#src=seo_token) | Ethereum | 0.06% | $2.45M |
 
 <!-- rate-stability:insufficient -->
@@ -47,7 +47,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 0.02%예�
 
 ### DHN 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $17.82M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $17.8M예요.
 
 ### 이 수익률은 안전한가요?
 

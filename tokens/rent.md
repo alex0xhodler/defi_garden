@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest RENT yield right now is 0.19% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RENT yield right now is 0.18% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=7978dd33-a9b7-487e-9fe0-845757e76169#src=seo_token) | Base | 0.19% | $191.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=7978dd33-a9b7-487e-9fe0-845757e76169#src=seo_token) | Base | 0.18% | $192.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RENT yield today?
 
-0.19% APY on uniswap-v4 (Base), based on live DefiLlama data.
+0.18% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many RENT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $191.3K in total.
+1 live pool clear this page's $100K TVL floor, $192.6K in total.
 
 ### Are these rates safe?
 

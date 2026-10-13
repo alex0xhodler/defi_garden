@@ -6,7 +6,7 @@ The highest honest YUTY yield right now is 11.72% on pendle-v2 (Base), among 2 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle-v2 →](https://www.defi.garden/?pool=0985d423-87f2-52af-b61f-3e9d699f9d42#src=seo_token) | Base | 5.03% | $112.9K |
+| [pendle-v2 →](https://www.defi.garden/?pool=0985d423-87f2-52af-b61f-3e9d699f9d42#src=seo_token) | Base | 4.81% | $112.9K |
 | [pendle-v2 →](https://www.defi.garden/?pool=060d76cc-fe89-5e9b-9dc3-7c6b10f2fed0#src=seo_token) | Base | 11.72% | $112.9K |
 
 <!-- rate-stability:insufficient -->
@@ -18,15 +18,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-YUTY shows up in 2 pools here, with rates from 5.03% to 11.72% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+YUTY shows up in 2 pools here, with rates from 4.81% to 11.72% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 12.36% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 12.33% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle-v2 | 5.03% | 13.10% | 13.05% incentives |
+| pendle-v2 | 4.81% | 13.05% | 9.14% incentives |
 | pendle-v2 | 11.72% | 11.61% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.

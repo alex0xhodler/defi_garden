@@ -7,7 +7,7 @@ The highest honest USD.INFRA yield right now is 5.16% on loopscale-lending (Sola
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [loopscale-lending →](https://www.defi.garden/?pool=90b06c3d-8518-5a6d-a4e3-eb725ab9c8e7#src=seo_token) | Solana | 5.16% | $8.02M |
-| [orca-dex →](https://www.defi.garden/?pool=a08f952a-7ad4-5dfc-9902-5b678987b09f#src=seo_token) | Solana | 0.01% | $817.1K |
+| [orca-dex →](https://www.defi.garden/?pool=a08f952a-7ad4-5dfc-9902-5b678987b09f#src=seo_token) | Solana | 0.01% | $817K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

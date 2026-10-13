@@ -6,7 +6,7 @@ The highest honest OPENCLAW yield right now is 0.13% on uniswap-v4 (Base), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=a93b4a2d-e50c-42d9-806d-ccdad7e97c43#src=seo_token) | Base | 0.13% | $120.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a93b4a2d-e50c-42d9-806d-ccdad7e97c43#src=seo_token) | Base | 0.13% | $121.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many OPENCLAW pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $120.8K in total.
+1 live pool clear this page's $100K TVL floor, $121.7K in total.
 
 ### Are these rates safe?
 

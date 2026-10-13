@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest USFD yield right now is 34.73% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USFD yield right now is 29.98% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=7ec586ec-7b1e-5317-ab94-3766ac22b489#src=seo_token) | Base | 34.73% | $108.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=7ec586ec-7b1e-5317-ab94-3766ac22b489#src=seo_token) | Base | 29.98% | $118K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest USFD yield today?
 
-34.73% APY on uniswap-v4 (Base), based on live DefiLlama data.
+29.98% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many USFD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $108.9K in total.
+1 live pool clear this page's $100K TVL floor, $118K in total.
 
 ### Are these rates safe?
 

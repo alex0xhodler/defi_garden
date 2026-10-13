@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [backpack-sol →](https://www.defi.garden/?pool=f2aad126-ae18-5512-bc64-8fa59c136331#src=seo_token) | Solana | 5.56% | $6.75M |
+| [backpack-sol →](https://www.defi.garden/?pool=f2aad126-ae18-5512-bc64-8fa59c136331#src=seo_token) | Solana | 5.56% | $6.76M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Solana의 backpack-sol에서 APY 5.56%예�
 
 ### BPSOL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $6.75M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $6.76M예요.
 
 ### 이 수익률은 안전한가요?
 

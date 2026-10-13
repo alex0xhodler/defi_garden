@@ -6,7 +6,7 @@ The highest honest MTX yield right now is 0.11% on uniswap-v3 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=13201fe0-48a2-4e06-a653-237c407fe97e#src=seo_token) | Ethereum | 0.11% | $2.56M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=13201fe0-48a2-4e06-a653-237c407fe97e#src=seo_token) | Ethereum | 0.11% | $2.55M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MTX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.56M in total.
+1 live pool clear this page's $100K TVL floor, $2.55M in total.
 
 ### Are these rates safe?
 

@@ -4,14 +4,14 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| FXRP | [kinetic →](https://www.defi.garden/?pool=28c0f086-2e1a-40f0-a5f5-763d706c0806#src=seo_chain) | 0.58% | $25.7M |
+| FXRP | [kinetic →](https://www.defi.garden/?pool=28c0f086-2e1a-40f0-a5f5-763d706c0806#src=seo_chain) | 0.58% | $25.82M |
 | USDX | [clearpool-lending →](https://www.defi.garden/?pool=be50b874-8147-440d-b8ca-f2c202e9ed64#src=seo_chain) | 3.50% | $16.78M |
 | SFLR | [sceptre-liquid →](https://www.defi.garden/?pool=fa132efa-f62b-40f0-addc-8afe0b4a810a#src=seo_chain) | 7.51% | $14.76M |
-| STXRP-FXRP | [sparkdex-v4 →](https://www.defi.garden/?pool=fe56d007-4f9f-4eaf-84e2-ea4248769975#src=seo_chain) | 1.99% | $7.16M |
-| SFLR | [kinetic →](https://www.defi.garden/?pool=5219817c-dfdb-47cc-b417-f218fb12227d#src=seo_chain) | 0.35% | $4.99M |
-| STXRP | [spectra-v2 →](https://www.defi.garden/?pool=027455a8-ee05-573e-ab0b-f090594a9e0c#src=seo_chain) | 0.64% | $3.71M |
-| STXRP | [spectra-v2 →](https://www.defi.garden/?pool=ff0b0d1d-a21e-430b-95f4-61f7142736bc#src=seo_chain) | 4.38% | $3.71M |
-| USD₮0-USDC.E | [sparkdex-v3.1 →](https://www.defi.garden/?pool=a2851527-da35-4688-bacb-2ad86991d9db#src=seo_chain) | 0.23% | $3.48M |
+| STXRP-FXRP | [sparkdex-v4 →](https://www.defi.garden/?pool=fe56d007-4f9f-4eaf-84e2-ea4248769975#src=seo_chain) | 1.99% | $7.18M |
+| SFLR | [kinetic →](https://www.defi.garden/?pool=5219817c-dfdb-47cc-b417-f218fb12227d#src=seo_chain) | 0.36% | $4.86M |
+| STXRP | [spectra-v2 →](https://www.defi.garden/?pool=027455a8-ee05-573e-ab0b-f090594a9e0c#src=seo_chain) | 0.64% | $3.73M |
+| STXRP | [spectra-v2 →](https://www.defi.garden/?pool=ff0b0d1d-a21e-430b-95f4-61f7142736bc#src=seo_chain) | 4.37% | $3.73M |
+| USD₮0-USDC.E | [sparkdex-v3.1 →](https://www.defi.garden/?pool=a2851527-da35-4688-bacb-2ad86991d9db#src=seo_chain) | 0.22% | $3.48M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 

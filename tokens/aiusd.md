@@ -6,7 +6,7 @@ The highest honest AIUSD yield right now is 21.37% on yield-yak-aggregator (Aval
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yield-yak-aggregator →](https://www.defi.garden/?pool=41fa2437-d7a3-4f0b-a5a3-6cd59a8e65ce#src=seo_token) | Avalanche | 21.37% | $959.4K |
+| [yield-yak-aggregator →](https://www.defi.garden/?pool=41fa2437-d7a3-4f0b-a5a3-6cd59a8e65ce#src=seo_token) | Avalanche | 21.37% | $959.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AIUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $959.4K in total.
+1 live pool clear this page's $100K TVL floor, $959.2K in total.
 
 ### Are these rates safe?
 
@@ -39,8 +39,8 @@ There is not enough qualifying APY history to rank AIUSD pools. This view covers
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [SAVAX](https://www.defi.garden/tokens/savax)
 - [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
-- [SAVUSD](https://www.defi.garden/tokens/savusd)
 - [WAVAX](https://www.defi.garden/tokens/wavax)
+- [SAVUSD](https://www.defi.garden/tokens/savusd)
 
 ## Available on
 

@@ -6,7 +6,7 @@ The highest honest LTC yield right now is 1.08% on uniswap-v4 (BSC), among 2 poo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [venus-core-pool →](https://www.defi.garden/?pool=15cbd370-c6dd-4258-89a4-4623e17c2865#src=seo_token) | BSC | 0.04% | $2.69M |
+| [venus-core-pool →](https://www.defi.garden/?pool=15cbd370-c6dd-4258-89a4-4623e17c2865#src=seo_token) | BSC | 0.04% | $2.71M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=68345d3b-fbed-557f-b03e-eeb852172519#src=seo_token) | BSC | 1.08% | $112.4K |
 
 <!-- rate-stability:insufficient -->
@@ -41,7 +41,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many LTC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $2.8M in total.
+2 live pools clear this page's $100K TVL floor, $2.82M in total.
 
 ### Are these rates safe?
 

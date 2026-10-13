@@ -6,18 +6,18 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [dfdv-staked-sol →](https://www.defi.garden/ko/pools/dfdv-staked-sol-dfdvsol-solana) | Solana | 5.07% | $209.29M |
-| [project-0 →](https://www.defi.garden/?pool=ef4495dc-3b2a-432b-ad71-ad0c84cc8494#src=seo_token) | Solana | 0.01% | $822.1K |
+| [dfdv-staked-sol →](https://www.defi.garden/ko/pools/dfdv-staked-sol-dfdvsol-solana) | Solana | 5.07% | $210.36M |
+| [project-0 →](https://www.defi.garden/?pool=ef4495dc-3b2a-432b-ad71-ad0c84cc8494#src=seo_token) | Solana | 0.01% | $823.2K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 DFDVSOL의 변동성 낮은 후보는 Solana의 project-0, APY 0.01%, TVL $822.1K, https://www.defi.garden/?pool=ef4495dc-3b2a-432b-ad71-ad0c84cc8494#src=seo_token; Solana의 dfdv-staked-sol, APY 5.07%, TVL $209.29M, https://www.defi.garden/ko/pools/dfdv-staked-sol-dfdvsol-solana예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 DFDVSOL의 변동성 낮은 후보는 Solana의 project-0, APY 0.01%, TVL $823.2K, https://www.defi.garden/?pool=ef4495dc-3b2a-432b-ad71-ad0c84cc8494#src=seo_token; Solana의 dfdv-staked-sol, APY 5.07%, TVL $210.36M, https://www.defi.garden/ko/pools/dfdv-staked-sol-dfdvsol-solana예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [project-0 →](https://www.defi.garden/?pool=ef4495dc-3b2a-432b-ad71-ad0c84cc8494#src=seo_token) | Solana | 0.01% | $822.1K |
-| 2 | [dfdv-staked-sol →](https://www.defi.garden/ko/pools/dfdv-staked-sol-dfdvsol-solana) | Solana | 5.07% | $209.29M |
+| 1 | [project-0 →](https://www.defi.garden/?pool=ef4495dc-3b2a-432b-ad71-ad0c84cc8494#src=seo_token) | Solana | 0.01% | $823.2K |
+| 2 | [dfdv-staked-sol →](https://www.defi.garden/ko/pools/dfdv-staked-sol-dfdvsol-solana) | Solana | 5.07% | $210.36M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -44,7 +44,7 @@ DefiLlama 실시간 데이터 기준, Solana의 dfdv-staked-sol에서 APY 5.07%�
 
 ### DFDVSOL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $287.82M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $289.01M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -52,7 +52,7 @@ DefiLlama 실시간 데이터 기준, Solana의 dfdv-staked-sol에서 APY 5.07%�
 
 ### DFDVSOL 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 DFDVSOL의 변동성 낮은 후보는 Solana의 project-0, APY 0.01%, TVL $822.1K, https://www.defi.garden/?pool=ef4495dc-3b2a-432b-ad71-ad0c84cc8494#src=seo_token; Solana의 dfdv-staked-sol, APY 5.07%, TVL $209.29M, https://www.defi.garden/ko/pools/dfdv-staked-sol-dfdvsol-solana예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 DFDVSOL의 변동성 낮은 후보는 Solana의 project-0, APY 0.01%, TVL $823.2K, https://www.defi.garden/?pool=ef4495dc-3b2a-432b-ad71-ad0c84cc8494#src=seo_token; Solana의 dfdv-staked-sol, APY 5.07%, TVL $210.36M, https://www.defi.garden/ko/pools/dfdv-staked-sol-dfdvsol-solana예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

@@ -2,13 +2,13 @@
 
 *DefiLlama 데이터 생성 시점 검증: October 13, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 SJEUR의 가장 높은 정직한 수익률은 Base의 spectra-v2에서 25.88%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SJEUR의 가장 높은 정직한 수익률은 Base의 spectra-v2에서 25.87%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [spectra-v2 →](https://www.defi.garden/?pool=1a22730d-077c-5186-8bcb-bfb86412717b#src=seo_token) | Base | 34.52% | $195.1K |
 | [spectra-v2 →](https://www.defi.garden/?pool=32af4747-0aa4-5575-8a7a-e48f60de06f7#src=seo_token) | Base | 3.56% | $195.1K |
-| [spectra-v2 →](https://www.defi.garden/?pool=d87a2b4b-50d5-587d-b816-ca9bb97587cc#src=seo_token) | Base | 25.88% | $131.4K |
+| [spectra-v2 →](https://www.defi.garden/?pool=d87a2b4b-50d5-587d-b816-ca9bb97587cc#src=seo_token) | Base | 25.87% | $131.4K |
 | [spectra-v2 →](https://www.defi.garden/?pool=e9a78dfb-7dbc-5467-9782-903f1f7098d8#src=seo_token) | Base | 3.54% | $131.4K |
 
 <!-- rate-stability:ranked -->
@@ -35,8 +35,8 @@ SJEUR 풀은 여기 4개가 있고, 1개 체인에서 APY가 3.54%부터 34.52%�
 |---|---|---|---|
 | spectra-v2 | 34.52% | 18.98% | 인센티브 19.73% |
 | spectra-v2 | 3.56% | 3.74% | 기본 금리 |
-| spectra-v2 | 25.88% | 37.62% | 인센티브 38.98% |
-| spectra-v2 | 3.54% | 3.56% | 기본 금리 |
+| spectra-v2 | 25.87% | 35.82% | 인센티브 38.99% |
+| spectra-v2 | 3.54% | 3.55% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -44,7 +44,7 @@ SJEUR 풀은 여기 4개가 있고, 1개 체인에서 APY가 3.54%부터 34.52%�
 
 ### 오늘 SJEUR의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 spectra-v2에서 APY 25.88%예요.
+DefiLlama 실시간 데이터 기준, Base의 spectra-v2에서 APY 25.87%예요.
 
 ### SJEUR 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

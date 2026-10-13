@@ -6,18 +6,18 @@ The highest honest NICP yield right now is 7.95% on waterneuron (ICP), among 2 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [waterneuron →](https://www.defi.garden/?pool=4450335c-bad3-4293-947b-64896b893a5b#src=seo_token) | ICP | 7.95% | $7.62M |
-| [icpswap →](https://www.defi.garden/?pool=48e0cceb-d027-485f-9622-2ee278dc0a56#src=seo_token) | ICP | 1.63% | $146.5K |
+| [waterneuron →](https://www.defi.garden/?pool=4450335c-bad3-4293-947b-64896b893a5b#src=seo_token) | ICP | 7.95% | $7.68M |
+| [icpswap →](https://www.defi.garden/?pool=48e0cceb-d027-485f-9622-2ee278dc0a56#src=seo_token) | ICP | 1.63% | $146.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, NICP's lower-variability candidates are waterneuron (ICP), 7.95% APY, $7.62M TVL, https://www.defi.garden/?pool=4450335c-bad3-4293-947b-64896b893a5b#src=seo_token; icpswap (ICP), 1.63% APY, $146.5K TVL, https://www.defi.garden/?pool=48e0cceb-d027-485f-9622-2ee278dc0a56#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NICP's lower-variability candidates are waterneuron (ICP), 7.95% APY, $7.68M TVL, https://www.defi.garden/?pool=4450335c-bad3-4293-947b-64896b893a5b#src=seo_token; icpswap (ICP), 1.63% APY, $146.7K TVL, https://www.defi.garden/?pool=48e0cceb-d027-485f-9622-2ee278dc0a56#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [waterneuron →](https://www.defi.garden/?pool=4450335c-bad3-4293-947b-64896b893a5b#src=seo_token) | ICP | 7.95% | $7.62M |
-| 2 | [icpswap →](https://www.defi.garden/?pool=48e0cceb-d027-485f-9622-2ee278dc0a56#src=seo_token) | ICP | 1.63% | $146.5K |
+| 1 | [waterneuron →](https://www.defi.garden/?pool=4450335c-bad3-4293-947b-64896b893a5b#src=seo_token) | ICP | 7.95% | $7.68M |
+| 2 | [icpswap →](https://www.defi.garden/?pool=48e0cceb-d027-485f-9622-2ee278dc0a56#src=seo_token) | ICP | 1.63% | $146.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many NICP pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $7.77M in total.
+2 live pools clear this page's $100K TVL floor, $7.83M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which NICP pools have the most stable APY history?
 
-Based on APY history only, NICP's lower-variability candidates are waterneuron (ICP), 7.95% APY, $7.62M TVL, https://www.defi.garden/?pool=4450335c-bad3-4293-947b-64896b893a5b#src=seo_token; icpswap (ICP), 1.63% APY, $146.5K TVL, https://www.defi.garden/?pool=48e0cceb-d027-485f-9622-2ee278dc0a56#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NICP's lower-variability candidates are waterneuron (ICP), 7.95% APY, $7.68M TVL, https://www.defi.garden/?pool=4450335c-bad3-4293-947b-64896b893a5b#src=seo_token; icpswap (ICP), 1.63% APY, $146.7K TVL, https://www.defi.garden/?pool=48e0cceb-d027-485f-9622-2ee278dc0a56#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

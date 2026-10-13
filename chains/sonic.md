@@ -5,13 +5,13 @@ The highest honest Sonic yield right now is 9.78% on flying-tulip-ftusd (Sonic),
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
 | EVAUSDT-EVAUSDC | [shadow-exchange-legacy →](https://www.defi.garden/?pool=b344826d-1c25-43e5-8e75-3b7510531c4c#src=seo_chain) | 8.52% | $711.6K |
-| BPT-FBEETS-STS | [beets-dex →](https://www.defi.garden/?pool=f06686d4-25aa-4600-8910-87844cf3b1c3#src=seo_chain) | 67.66% | $665K |
-| STS-WS | [beets-dex-v3 →](https://www.defi.garden/?pool=e23ed03a-aaaf-4531-82af-36dc959149ae#src=seo_chain) | 8.13% | $623.1K |
+| BPT-FBEETS-STS | [beets-dex →](https://www.defi.garden/?pool=f06686d4-25aa-4600-8910-87844cf3b1c3#src=seo_chain) | 67.60% | $657K |
+| STS-WS | [beets-dex-v3 →](https://www.defi.garden/?pool=e23ed03a-aaaf-4531-82af-36dc959149ae#src=seo_chain) | 8.28% | $614.9K |
 | SFTUSD | [flying-tulip-ftusd →](https://www.defi.garden/?pool=1b7b94f8-5889-42e1-b0ef-9e4736505d8d#src=seo_chain) | 9.78% | $610.4K |
 | USDC | [silo-v2 →](https://www.defi.garden/?pool=ce77c1eb-f51d-4652-8c25-b53f8254827a#src=seo_chain) | 1.43% | $563.8K |
-| USDC.E-USDT | [shadow-exchange-clmm →](https://www.defi.garden/?pool=97b1770c-f7a3-4128-8937-525cdaba68d4#src=seo_chain) | 3.40% | $535.9K |
-| WS | [silo-v2 →](https://www.defi.garden/?pool=d7657d6f-da8b-4935-b6ac-a30545df8dbc#src=seo_chain) | 1.82% | $518.9K |
-| STS | [silo-v2 →](https://www.defi.garden/?pool=68892078-2e21-4f27-b458-015d1d842636#src=seo_chain) | 0.90% | $238.6K |
+| USDC.E-USDT | [shadow-exchange-clmm →](https://www.defi.garden/?pool=97b1770c-f7a3-4128-8937-525cdaba68d4#src=seo_chain) | 3.26% | $536K |
+| WS | [silo-v2 →](https://www.defi.garden/?pool=d7657d6f-da8b-4935-b6ac-a30545df8dbc#src=seo_chain) | 1.82% | $514.4K |
+| STS | [silo-v2 →](https://www.defi.garden/?pool=68892078-2e21-4f27-b458-015d1d842636#src=seo_chain) | 0.90% | $235.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Sonic pools clear the TVL floor?
 
-24 live pools clear this page's $100K TVL floor, $32.32M in total.
+24 live pools clear this page's $100K TVL floor, $32.37M in total.
 
 ### Are these rates safe?
 

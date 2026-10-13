@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest RSC yield right now is 256.47% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RSC yield right now is 331.52% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=7edc3f3c-b861-4c62-9e4c-9e39cb8183bd#src=seo_token) | Base | 256.47% | $150.2K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=7edc3f3c-b861-4c62-9e4c-9e39cb8183bd#src=seo_token) | Base | 331.52% | $149.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RSC yield today?
 
-256.47% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+331.52% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many RSC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $150.2K in total.
+1 live pool clear this page's $100K TVL floor, $149.9K in total.
 
 ### Are these rates safe?
 

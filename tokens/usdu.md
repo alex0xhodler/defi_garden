@@ -6,7 +6,7 @@ The highest honest USDU yield right now is 0.06% on orca-dex (Solana), among 5 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=5fd4f164-50d7-4d9e-9cb8-6eb62ac9f44c#src=seo_token) | Solana | 0.06% | $3.66M |
+| [orca-dex →](https://www.defi.garden/?pool=5fd4f164-50d7-4d9e-9cb8-6eb62ac9f44c#src=seo_token) | Solana | 0.06% | $3.64M |
 | [curve-dex →](https://www.defi.garden/?pool=614da229-4365-50a9-9261-4bf7fe8d5ccf#src=seo_token) | Ethereum | 0.01% | $197K |
 
 <!-- rate-stability:insufficient -->
@@ -41,7 +41,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many USDU pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $8.61M in total.
+5 live pools clear this page's $100K TVL floor, $8.58M in total.
 
 ### Are these rates safe?
 

@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest GTUSDCB yield right now is 3.64% on morpho-blue (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GTUSDCB yield right now is 3.52% on morpho-blue (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=f73ea1af-90f3-4e48-b160-f678f9a4f8aa#src=seo_token) | Arbitrum | 3.64% | $161.8K |
+| [morpho-blue →](https://www.defi.garden/?pool=f73ea1af-90f3-4e48-b160-f678f9a4f8aa#src=seo_token) | Arbitrum | 3.52% | $161.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GTUSDCB yield today?
 
-3.64% APY on morpho-blue (Arbitrum), based on live DefiLlama data.
+3.52% APY on morpho-blue (Arbitrum), based on live DefiLlama data.
 
 ### How many GTUSDCB pools clear the TVL floor?
 

@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=33aeaa63-daa1-4ab2-b074-18047faa7be2#src=seo_token) | Base | 0.15% | $337K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=33aeaa63-daa1-4ab2-b074-18047faa7be2#src=seo_token) | Base | 0.15% | $338.6K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 0.15%예요.
 
 ### CYB3RWR3N 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $337K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $338.6K예요.
 
 ### 이 수익률은 안전한가요?
 

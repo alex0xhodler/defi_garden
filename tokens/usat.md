@@ -6,18 +6,18 @@ The highest honest USAT yield right now is 0.81% on uniswap-v3 (Celo), among 3 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [centrifuge-protocol →](https://www.defi.garden/pools/centrifuge-protocol-usat-ethereum) | Ethereum | 5.54% | $296.28M |
+| [centrifuge-protocol →](https://www.defi.garden/pools/centrifuge-protocol-usat-ethereum) | Ethereum | 5.54% | $296.29M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=7ce2ad39-2599-5ab3-9363-8b2f0a10b24f#src=seo_token) | Celo | 0.81% | $105.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, USAT's lower-variability candidates are uniswap-v3 (Celo), 0.81% APY, $105.7K TVL, https://www.defi.garden/?pool=7ce2ad39-2599-5ab3-9363-8b2f0a10b24f#src=seo_token; centrifuge-protocol (Ethereum), 5.54% APY, $296.28M TVL, https://www.defi.garden/pools/centrifuge-protocol-usat-ethereum. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USAT's lower-variability candidates are uniswap-v3 (Celo), 0.81% APY, $105.7K TVL, https://www.defi.garden/?pool=7ce2ad39-2599-5ab3-9363-8b2f0a10b24f#src=seo_token; centrifuge-protocol (Ethereum), 5.54% APY, $296.29M TVL, https://www.defi.garden/pools/centrifuge-protocol-usat-ethereum. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v3 →](https://www.defi.garden/?pool=7ce2ad39-2599-5ab3-9363-8b2f0a10b24f#src=seo_token) | Celo | 0.81% | $105.7K |
-| 2 | [centrifuge-protocol →](https://www.defi.garden/pools/centrifuge-protocol-usat-ethereum) | Ethereum | 5.54% | $296.28M |
+| 2 | [centrifuge-protocol →](https://www.defi.garden/pools/centrifuge-protocol-usat-ethereum) | Ethereum | 5.54% | $296.29M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many USAT pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $306.39M in total.
+3 live pools clear this page's $100K TVL floor, $306.4M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USAT pools have the most stable APY history?
 
-Based on APY history only, USAT's lower-variability candidates are uniswap-v3 (Celo), 0.81% APY, $105.7K TVL, https://www.defi.garden/?pool=7ce2ad39-2599-5ab3-9363-8b2f0a10b24f#src=seo_token; centrifuge-protocol (Ethereum), 5.54% APY, $296.28M TVL, https://www.defi.garden/pools/centrifuge-protocol-usat-ethereum. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USAT's lower-variability candidates are uniswap-v3 (Celo), 0.81% APY, $105.7K TVL, https://www.defi.garden/?pool=7ce2ad39-2599-5ab3-9363-8b2f0a10b24f#src=seo_token; centrifuge-protocol (Ethereum), 5.54% APY, $296.29M TVL, https://www.defi.garden/pools/centrifuge-protocol-usat-ethereum. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

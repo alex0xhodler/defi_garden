@@ -6,7 +6,7 @@ The highest honest AUROSUSDC yield right now is 10.00% on wildcat-protocol (Ethe
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [wildcat-protocol →](https://www.defi.garden/?pool=929e29e2-80be-4e0f-aa4c-1f0802338801#src=seo_token) | Ethereum | 10.00% | $112.1K |
+| [wildcat-protocol →](https://www.defi.garden/?pool=929e29e2-80be-4e0f-aa4c-1f0802338801#src=seo_token) | Ethereum | 10.00% | $433.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AUROSUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $112.1K in total.
+1 live pool clear this page's $100K TVL floor, $433.6K in total.
 
 ### Are these rates safe?
 

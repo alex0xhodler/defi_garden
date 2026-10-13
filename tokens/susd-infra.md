@@ -7,7 +7,7 @@ The highest honest SUSD.INFRA yield right now is 0.01% on orca-dex (Solana), amo
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [orca-dex →](https://www.defi.garden/?pool=68a8e75a-b55f-56ea-8280-00859c618189#src=seo_token) | Solana | 0.01% | $1.61M |
-| [orca-dex →](https://www.defi.garden/?pool=a08f952a-7ad4-5dfc-9902-5b678987b09f#src=seo_token) | Solana | 0.01% | $817.1K |
+| [orca-dex →](https://www.defi.garden/?pool=a08f952a-7ad4-5dfc-9902-5b678987b09f#src=seo_token) | Solana | 0.01% | $817K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

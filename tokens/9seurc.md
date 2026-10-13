@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest 9SEURC yield right now is 3.48% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest 9SEURC yield right now is 3.19% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=514d3a59-9783-45d9-834f-c8a08d30e9a1#src=seo_token) | Ethereum | 3.48% | $795.5K |
+| [lagoon →](https://www.defi.garden/?pool=514d3a59-9783-45d9-834f-c8a08d30e9a1#src=seo_token) | Ethereum | 3.19% | $795.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest 9SEURC yield today?
 
-3.48% APY on lagoon (Ethereum), based on live DefiLlama data.
+3.19% APY on lagoon (Ethereum), based on live DefiLlama data.
 
 ### How many 9SEURC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $795.5K in total.
+1 live pool clear this page's $100K TVL floor, $795.7K in total.
 
 ### Are these rates safe?
 

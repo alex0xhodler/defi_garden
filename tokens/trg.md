@@ -6,17 +6,17 @@ The highest honest TRG yield right now is 0.23% on uniswap-v3 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=3703ccf3-951b-4527-b7aa-b171ae490988#src=seo_token) | Ethereum | 0.23% | $384.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=3703ccf3-951b-4527-b7aa-b171ae490988#src=seo_token) | Ethereum | 0.23% | $384K |
 | [uniswap-v2 →](https://www.defi.garden/?pool=88087553-c06f-44af-a05d-7e6e0d8aa1d8#src=seo_token) | Ethereum | 0.23% | $130K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, TRG's lower-variability candidates are uniswap-v3 (Ethereum), 0.23% APY, $384.1K TVL, https://www.defi.garden/?pool=3703ccf3-951b-4527-b7aa-b171ae490988#src=seo_token; uniswap-v2 (Ethereum), 0.23% APY, $130K TVL, https://www.defi.garden/?pool=88087553-c06f-44af-a05d-7e6e0d8aa1d8#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TRG's lower-variability candidates are uniswap-v3 (Ethereum), 0.23% APY, $384K TVL, https://www.defi.garden/?pool=3703ccf3-951b-4527-b7aa-b171ae490988#src=seo_token; uniswap-v2 (Ethereum), 0.23% APY, $130K TVL, https://www.defi.garden/?pool=88087553-c06f-44af-a05d-7e6e0d8aa1d8#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=3703ccf3-951b-4527-b7aa-b171ae490988#src=seo_token) | Ethereum | 0.23% | $384.1K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=3703ccf3-951b-4527-b7aa-b171ae490988#src=seo_token) | Ethereum | 0.23% | $384K |
 | 2 | [uniswap-v2 →](https://www.defi.garden/?pool=88087553-c06f-44af-a05d-7e6e0d8aa1d8#src=seo_token) | Ethereum | 0.23% | $130K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which TRG pools have the most stable APY history?
 
-Based on APY history only, TRG's lower-variability candidates are uniswap-v3 (Ethereum), 0.23% APY, $384.1K TVL, https://www.defi.garden/?pool=3703ccf3-951b-4527-b7aa-b171ae490988#src=seo_token; uniswap-v2 (Ethereum), 0.23% APY, $130K TVL, https://www.defi.garden/?pool=88087553-c06f-44af-a05d-7e6e0d8aa1d8#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TRG's lower-variability candidates are uniswap-v3 (Ethereum), 0.23% APY, $384K TVL, https://www.defi.garden/?pool=3703ccf3-951b-4527-b7aa-b171ae490988#src=seo_token; uniswap-v2 (Ethereum), 0.23% APY, $130K TVL, https://www.defi.garden/?pool=88087553-c06f-44af-a05d-7e6e0d8aa1d8#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

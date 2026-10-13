@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest QOM yield right now is 0.04% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest QOM yield right now is 0.11% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=b4609df1-5671-4cd0-849a-ab0f27d572c0#src=seo_token) | Ethereum | 0.04% | $711.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=b4609df1-5671-4cd0-849a-ab0f27d572c0#src=seo_token) | Ethereum | 0.11% | $711.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest QOM yield today?
 
-0.04% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.11% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many QOM pools clear the TVL floor?
 

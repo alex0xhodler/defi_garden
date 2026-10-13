@@ -2,32 +2,32 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest KODIWBTC yield right now is 37.35% on berapaw (Berachain), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KODIWBTC yield right now is 37.16% on berapaw (Berachain), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=47444258-5cc2-4e33-95a7-1bc5df79b83b#src=seo_token) | Berachain | 2.67% | $1.12M |
-| [berapaw →](https://www.defi.garden/?pool=18329564-f261-4b1a-ac91-b77c7e8e9fb8#src=seo_token) | Berachain | 37.35% | $292.8K |
-| [berapaw →](https://www.defi.garden/?pool=f98f4cb5-7e5c-4281-ae93-ac1a0688308e#src=seo_token) | Berachain | 11.19% | $170.8K |
-| [berapaw →](https://www.defi.garden/?pool=b3b28743-f20b-4849-8250-1b2f3047c436#src=seo_token) | Berachain | 21.18% | $133.5K |
+| [berapaw →](https://www.defi.garden/?pool=47444258-5cc2-4e33-95a7-1bc5df79b83b#src=seo_token) | Berachain | 2.63% | $1.12M |
+| [berapaw →](https://www.defi.garden/?pool=18329564-f261-4b1a-ac91-b77c7e8e9fb8#src=seo_token) | Berachain | 37.16% | $291.6K |
+| [berapaw →](https://www.defi.garden/?pool=f98f4cb5-7e5c-4281-ae93-ac1a0688308e#src=seo_token) | Berachain | 11.08% | $170.8K |
+| [berapaw →](https://www.defi.garden/?pool=b3b28743-f20b-4849-8250-1b2f3047c436#src=seo_token) | Berachain | 20.84% | $133.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, KODIWBTC's lower-variability candidates are berapaw (Berachain), 21.18% APY, $133.5K TVL, https://www.defi.garden/?pool=b3b28743-f20b-4849-8250-1b2f3047c436#src=seo_token; berapaw (Berachain), 2.67% APY, $1.12M TVL, https://www.defi.garden/?pool=47444258-5cc2-4e33-95a7-1bc5df79b83b#src=seo_token; berapaw (Berachain), 37.35% APY, $292.8K TVL, https://www.defi.garden/?pool=18329564-f261-4b1a-ac91-b77c7e8e9fb8#src=seo_token; berapaw (Berachain), 11.19% APY, $170.8K TVL, https://www.defi.garden/?pool=f98f4cb5-7e5c-4281-ae93-ac1a0688308e#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, KODIWBTC's lower-variability candidates are berapaw (Berachain), 20.84% APY, $133.8K TVL, https://www.defi.garden/?pool=b3b28743-f20b-4849-8250-1b2f3047c436#src=seo_token; berapaw (Berachain), 2.63% APY, $1.12M TVL, https://www.defi.garden/?pool=47444258-5cc2-4e33-95a7-1bc5df79b83b#src=seo_token; berapaw (Berachain), 37.16% APY, $291.6K TVL, https://www.defi.garden/?pool=18329564-f261-4b1a-ac91-b77c7e8e9fb8#src=seo_token; berapaw (Berachain), 11.08% APY, $170.8K TVL, https://www.defi.garden/?pool=f98f4cb5-7e5c-4281-ae93-ac1a0688308e#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [berapaw →](https://www.defi.garden/?pool=b3b28743-f20b-4849-8250-1b2f3047c436#src=seo_token) | Berachain | 21.18% | $133.5K |
-| 2 | [berapaw →](https://www.defi.garden/?pool=47444258-5cc2-4e33-95a7-1bc5df79b83b#src=seo_token) | Berachain | 2.67% | $1.12M |
-| 3 | [berapaw →](https://www.defi.garden/?pool=18329564-f261-4b1a-ac91-b77c7e8e9fb8#src=seo_token) | Berachain | 37.35% | $292.8K |
-| 4 | [berapaw →](https://www.defi.garden/?pool=f98f4cb5-7e5c-4281-ae93-ac1a0688308e#src=seo_token) | Berachain | 11.19% | $170.8K |
+| 1 | [berapaw →](https://www.defi.garden/?pool=b3b28743-f20b-4849-8250-1b2f3047c436#src=seo_token) | Berachain | 20.84% | $133.8K |
+| 2 | [berapaw →](https://www.defi.garden/?pool=47444258-5cc2-4e33-95a7-1bc5df79b83b#src=seo_token) | Berachain | 2.63% | $1.12M |
+| 3 | [berapaw →](https://www.defi.garden/?pool=18329564-f261-4b1a-ac91-b77c7e8e9fb8#src=seo_token) | Berachain | 37.16% | $291.6K |
+| 4 | [berapaw →](https://www.defi.garden/?pool=f98f4cb5-7e5c-4281-ae93-ac1a0688308e#src=seo_token) | Berachain | 11.08% | $170.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-KODIWBTC shows up in 4 pools here, with rates from 2.67% to 37.35% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+KODIWBTC shows up in 4 pools here, with rates from 2.63% to 37.16% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 4 of these 4 pools have a trustworthy 30-day average on file, with a median of 14.78% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -37,10 +37,10 @@ KODIWBTC shows up in 4 pools here, with rates from 2.67% to 37.35% APY across 1 
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| berapaw | 2.67% | 2.41% | 100.00% incentives |
-| berapaw | 37.35% | 36.54% | 100.00% incentives |
-| berapaw | 11.19% | 7.38% | 100.00% incentives |
-| berapaw | 21.18% | 22.17% | 100.00% incentives |
+| berapaw | 2.63% | 2.41% | 100.00% incentives |
+| berapaw | 37.16% | 36.54% | 100.00% incentives |
+| berapaw | 11.08% | 7.38% | 100.00% incentives |
+| berapaw | 20.84% | 22.18% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -48,7 +48,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest KODIWBTC yield today?
 
-37.35% APY on berapaw (Berachain), based on live DefiLlama data.
+37.16% APY on berapaw (Berachain), based on live DefiLlama data.
 
 ### How many KODIWBTC pools clear the TVL floor?
 
@@ -60,7 +60,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which KODIWBTC pools have the most stable APY history?
 
-Based on APY history only, KODIWBTC's lower-variability candidates are berapaw (Berachain), 21.18% APY, $133.5K TVL, https://www.defi.garden/?pool=b3b28743-f20b-4849-8250-1b2f3047c436#src=seo_token; berapaw (Berachain), 2.67% APY, $1.12M TVL, https://www.defi.garden/?pool=47444258-5cc2-4e33-95a7-1bc5df79b83b#src=seo_token; berapaw (Berachain), 37.35% APY, $292.8K TVL, https://www.defi.garden/?pool=18329564-f261-4b1a-ac91-b77c7e8e9fb8#src=seo_token; berapaw (Berachain), 11.19% APY, $170.8K TVL, https://www.defi.garden/?pool=f98f4cb5-7e5c-4281-ae93-ac1a0688308e#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, KODIWBTC's lower-variability candidates are berapaw (Berachain), 20.84% APY, $133.8K TVL, https://www.defi.garden/?pool=b3b28743-f20b-4849-8250-1b2f3047c436#src=seo_token; berapaw (Berachain), 2.63% APY, $1.12M TVL, https://www.defi.garden/?pool=47444258-5cc2-4e33-95a7-1bc5df79b83b#src=seo_token; berapaw (Berachain), 37.16% APY, $291.6K TVL, https://www.defi.garden/?pool=18329564-f261-4b1a-ac91-b77c7e8e9fb8#src=seo_token; berapaw (Berachain), 11.08% APY, $170.8K TVL, https://www.defi.garden/?pool=f98f4cb5-7e5c-4281-ae93-ac1a0688308e#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

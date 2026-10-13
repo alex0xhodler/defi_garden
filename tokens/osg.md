@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest OSG yield right now is 1.72% on quickswap-dex (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OSG yield right now is 1.66% on quickswap-dex (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [quickswap-dex →](https://www.defi.garden/?pool=92284843-bc0d-46bc-870c-2c7bf510c9f0#src=seo_token) | Polygon | 1.72% | $263.3K |
+| [quickswap-dex →](https://www.defi.garden/?pool=92284843-bc0d-46bc-870c-2c7bf510c9f0#src=seo_token) | Polygon | 1.66% | $267.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest OSG yield today?
 
-1.72% APY on quickswap-dex (Polygon), based on live DefiLlama data.
+1.66% APY on quickswap-dex (Polygon), based on live DefiLlama data.
 
 ### How many OSG pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $263.3K in total.
+1 live pool clear this page's $100K TVL floor, $267.7K in total.
 
 ### Are these rates safe?
 

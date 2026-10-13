@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [hyperswap-v3 →](https://www.defi.garden/?pool=4bfe6806-6c47-4a90-9003-4cceed4dd026#src=seo_token) | Hyperliquid L1 | 0.04% | $302.4K |
+| [hyperswap-v3 →](https://www.defi.garden/?pool=4bfe6806-6c47-4a90-9003-4cceed4dd026#src=seo_token) | Hyperliquid L1 | 0.04% | $301.8K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -53,10 +53,10 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 hyperswap-v3에서 APY 0
 
 - [KHYPE](https://www.defi.garden/ko/tokens/khype)
 - [WHYPE](https://www.defi.garden/ko/tokens/whype)
+- [USDT0](https://www.defi.garden/ko/tokens/usdt0)
 - [THBILL](https://www.defi.garden/ko/tokens/thbill)
 - [UBTC](https://www.defi.garden/ko/tokens/ubtc)
 - [WSTHYPE](https://www.defi.garden/ko/tokens/wsthype)
-- [XBTC](https://www.defi.garden/ko/tokens/xbtc)
 
 ## 이용 가능한 체인
 

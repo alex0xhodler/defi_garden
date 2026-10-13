@@ -6,17 +6,17 @@ The highest honest YNUSDX yield right now is 0.16% on stake-dao-yield (Ethereum)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=3ede185c-be5c-4610-a411-7aedb3a3b58e#src=seo_token) | Ethereum | 0.03% | $216.8K |
+| [curve-dex →](https://www.defi.garden/?pool=3ede185c-be5c-4610-a411-7aedb3a3b58e#src=seo_token) | Ethereum | 0.03% | $215.6K |
 | [stake-dao-yield →](https://www.defi.garden/?pool=8cd0ad37-055d-4ec5-aa2d-b435367aa872#src=seo_token) | Ethereum | 0.16% | $203.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, YNUSDX's lower-variability candidates are curve-dex (Ethereum), 0.03% APY, $216.8K TVL, https://www.defi.garden/?pool=3ede185c-be5c-4610-a411-7aedb3a3b58e#src=seo_token; stake-dao-yield (Ethereum), 0.16% APY, $203.3K TVL, https://www.defi.garden/?pool=8cd0ad37-055d-4ec5-aa2d-b435367aa872#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, YNUSDX's lower-variability candidates are curve-dex (Ethereum), 0.03% APY, $215.6K TVL, https://www.defi.garden/?pool=3ede185c-be5c-4610-a411-7aedb3a3b58e#src=seo_token; stake-dao-yield (Ethereum), 0.16% APY, $203.3K TVL, https://www.defi.garden/?pool=8cd0ad37-055d-4ec5-aa2d-b435367aa872#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=3ede185c-be5c-4610-a411-7aedb3a3b58e#src=seo_token) | Ethereum | 0.03% | $216.8K |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=3ede185c-be5c-4610-a411-7aedb3a3b58e#src=seo_token) | Ethereum | 0.03% | $215.6K |
 | 2 | [stake-dao-yield →](https://www.defi.garden/?pool=8cd0ad37-055d-4ec5-aa2d-b435367aa872#src=seo_token) | Ethereum | 0.16% | $203.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many YNUSDX pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $768.6K in total.
+3 live pools clear this page's $100K TVL floor, $767.4K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which YNUSDX pools have the most stable APY history?
 
-Based on APY history only, YNUSDX's lower-variability candidates are curve-dex (Ethereum), 0.03% APY, $216.8K TVL, https://www.defi.garden/?pool=3ede185c-be5c-4610-a411-7aedb3a3b58e#src=seo_token; stake-dao-yield (Ethereum), 0.16% APY, $203.3K TVL, https://www.defi.garden/?pool=8cd0ad37-055d-4ec5-aa2d-b435367aa872#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, YNUSDX's lower-variability candidates are curve-dex (Ethereum), 0.03% APY, $215.6K TVL, https://www.defi.garden/?pool=3ede185c-be5c-4610-a411-7aedb3a3b58e#src=seo_token; stake-dao-yield (Ethereum), 0.16% APY, $203.3K TVL, https://www.defi.garden/?pool=8cd0ad37-055d-4ec5-aa2d-b435367aa872#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

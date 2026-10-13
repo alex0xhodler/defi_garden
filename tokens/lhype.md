@@ -6,7 +6,7 @@ The highest honest LHYPE yield right now is 0.85% on hyperswap-v3 (Hyperliquid L
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hyperswap-v3 →](https://www.defi.garden/?pool=dea14cd0-9028-474c-a927-41d86927a224#src=seo_token) | Hyperliquid L1 | 0.85% | $100.8K |
+| [hyperswap-v3 →](https://www.defi.garden/?pool=dea14cd0-9028-474c-a927-41d86927a224#src=seo_token) | Hyperliquid L1 | 0.85% | $101.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many LHYPE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $6.92M in total.
+2 live pools clear this page's $100K TVL floor, $6.94M in total.
 
 ### Are these rates safe?
 
@@ -53,10 +53,10 @@ There is not enough qualifying APY history to rank LHYPE pools. This view covers
 
 - [KHYPE](https://www.defi.garden/tokens/khype)
 - [WHYPE](https://www.defi.garden/tokens/whype)
+- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [THBILL](https://www.defi.garden/tokens/thbill)
 - [UBTC](https://www.defi.garden/tokens/ubtc)
 - [WSTHYPE](https://www.defi.garden/tokens/wsthype)
-- [XBTC](https://www.defi.garden/tokens/xbtc)
 
 ## Available on
 

@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest NFLX yield right now is 325.71% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NFLX yield right now is 341.74% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=7a98d5a6-e2ca-5d0c-bf0f-ffc7f9085584#src=seo_token) | Solana | 325.71% | $136.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=7a98d5a6-e2ca-5d0c-bf0f-ffc7f9085584#src=seo_token) | Solana | 341.74% | $115K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NFLX yield today?
 
-325.71% APY on raydium-amm (Solana), based on live DefiLlama data.
+341.74% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many NFLX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $136.3K in total.
+1 live pool clear this page's $100K TVL floor, $115K in total.
 
 ### Are these rates safe?
 

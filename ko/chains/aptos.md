@@ -6,8 +6,8 @@
 |---|---|---|---|
 | BUIDL | [blackrock-buidl →](https://www.defi.garden/ko/pools/blackrock-buidl-buidl-aptos) | 3.47% | $967.65M |
 | USDT-USDC | [hyperion →](https://www.defi.garden/?pool=a34c8a80-0001-4fc3-9402-7d6ac3e5234a#src=seo_chain) | 15.13% | $6.29M |
-| APT | [amnis-finance →](https://www.defi.garden/?pool=490006e3-284b-4107-9bb9-99906b7880b2#src=seo_chain) | 2.36% | $3.73M |
-| APT | [echelon-market →](https://www.defi.garden/?pool=cf6fa110-1204-486e-9cfe-6e83bace42b0#src=seo_chain) | 0.14% | $2.92M |
+| APT | [amnis-finance →](https://www.defi.garden/?pool=490006e3-284b-4107-9bb9-99906b7880b2#src=seo_chain) | 2.36% | $3.76M |
+| APT | [echelon-market →](https://www.defi.garden/?pool=cf6fa110-1204-486e-9cfe-6e83bace42b0#src=seo_chain) | 0.14% | $2.94M |
 | APT-AMAPT | [hyperion →](https://www.defi.garden/?pool=75c32bdd-1121-408b-a7b3-ca415a1233c4#src=seo_chain) | 4.80% | $1.58M |
 | APT-TRUAPT | [hyperion →](https://www.defi.garden/?pool=c0d0a7a7-4d21-4d0f-9de0-f0b0f73ca28c#src=seo_chain) | 1.12% | $1.44M |
 | USDC | [echelon-market →](https://www.defi.garden/?pool=5a97dc57-ea99-4d8b-aac9-b1b8b80c6b60#src=seo_chain) | 6.66% | $1.23M |
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Aptos의 hyperion에서 APY 15.13%예요.
 
 ### Aptos 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 27개이며, 합산 TVL은 $994.91M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 27개이며, 합산 TVL은 $995.01M예요.
 
 ### 이 수익률은 안전한가요?
 

@@ -35,7 +35,7 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| b14g | 17.37% | 14.60% | Base rate |
+| b14g | 17.37% | 14.61% | Base rate |
 | uniswap-v2 | 0.06% | 0.02% | Base rate |
 | morpho-blue | 4.48% | 4.49% | Base rate |
 

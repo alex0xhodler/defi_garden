@@ -6,24 +6,24 @@ The highest honest SPRK yield right now is 13.48% on sparkdex-v4 (Flare), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sparkdex-v3.1 →](https://www.defi.garden/?pool=4813a787-4ed2-46e0-b752-b2bd9b91e5f1#src=seo_token) | Flare | 1.97% | $380.5K |
-| [sparkdex-v4 →](https://www.defi.garden/?pool=794d5a98-5779-4c84-9948-e366c468a9d3#src=seo_token) | Flare | 13.48% | $157.2K |
+| [sparkdex-v3.1 →](https://www.defi.garden/?pool=4813a787-4ed2-46e0-b752-b2bd9b91e5f1#src=seo_token) | Flare | 1.98% | $380.5K |
+| [sparkdex-v4 →](https://www.defi.garden/?pool=794d5a98-5779-4c84-9948-e366c468a9d3#src=seo_token) | Flare | 13.48% | $157.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SPRK's lower-variability candidates are sparkdex-v4 (Flare), 13.48% APY, $157.2K TVL, https://www.defi.garden/?pool=794d5a98-5779-4c84-9948-e366c468a9d3#src=seo_token; sparkdex-v3.1 (Flare), 1.97% APY, $380.5K TVL, https://www.defi.garden/?pool=4813a787-4ed2-46e0-b752-b2bd9b91e5f1#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SPRK's lower-variability candidates are sparkdex-v4 (Flare), 13.48% APY, $157.6K TVL, https://www.defi.garden/?pool=794d5a98-5779-4c84-9948-e366c468a9d3#src=seo_token; sparkdex-v3.1 (Flare), 1.98% APY, $380.5K TVL, https://www.defi.garden/?pool=4813a787-4ed2-46e0-b752-b2bd9b91e5f1#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [sparkdex-v4 →](https://www.defi.garden/?pool=794d5a98-5779-4c84-9948-e366c468a9d3#src=seo_token) | Flare | 13.48% | $157.2K |
-| 2 | [sparkdex-v3.1 →](https://www.defi.garden/?pool=4813a787-4ed2-46e0-b752-b2bd9b91e5f1#src=seo_token) | Flare | 1.97% | $380.5K |
+| 1 | [sparkdex-v4 →](https://www.defi.garden/?pool=794d5a98-5779-4c84-9948-e366c468a9d3#src=seo_token) | Flare | 13.48% | $157.6K |
+| 2 | [sparkdex-v3.1 →](https://www.defi.garden/?pool=4813a787-4ed2-46e0-b752-b2bd9b91e5f1#src=seo_token) | Flare | 1.98% | $380.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SPRK shows up in 2 pools here, with rates from 1.97% to 13.48% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SPRK shows up in 2 pools here, with rates from 1.98% to 13.48% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 8.60% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -33,8 +33,8 @@ SPRK shows up in 2 pools here, with rates from 1.97% to 13.48% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| sparkdex-v3.1 | 1.97% | 2.93% | 53.30% incentives |
-| sparkdex-v4 | 13.48% | 14.28% | 95.26% incentives |
+| sparkdex-v3.1 | 1.98% | 2.93% | 53.54% incentives |
+| sparkdex-v4 | 13.48% | 14.28% | 95.27% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SPRK pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $537.7K in total.
+2 live pools clear this page's $100K TVL floor, $538.1K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SPRK pools have the most stable APY history?
 
-Based on APY history only, SPRK's lower-variability candidates are sparkdex-v4 (Flare), 13.48% APY, $157.2K TVL, https://www.defi.garden/?pool=794d5a98-5779-4c84-9948-e366c468a9d3#src=seo_token; sparkdex-v3.1 (Flare), 1.97% APY, $380.5K TVL, https://www.defi.garden/?pool=4813a787-4ed2-46e0-b752-b2bd9b91e5f1#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SPRK's lower-variability candidates are sparkdex-v4 (Flare), 13.48% APY, $157.6K TVL, https://www.defi.garden/?pool=794d5a98-5779-4c84-9948-e366c468a9d3#src=seo_token; sparkdex-v3.1 (Flare), 1.98% APY, $380.5K TVL, https://www.defi.garden/?pool=4813a787-4ed2-46e0-b752-b2bd9b91e5f1#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

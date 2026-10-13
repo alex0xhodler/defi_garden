@@ -6,7 +6,7 @@ The highest honest WYLDS yield right now is 3.52% on hastra (Ethereum), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hastra →](https://www.defi.garden/?pool=3fc5604e-608a-51d6-99cc-f6f632902a5c#src=seo_token) | Ethereum | 3.52% | $2.11M |
+| [hastra →](https://www.defi.garden/?pool=3fc5604e-608a-51d6-99cc-f6f632902a5c#src=seo_token) | Ethereum | 3.52% | $2.28M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WYLDS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.11M in total.
+1 live pool clear this page's $100K TVL floor, $2.28M in total.
 
 ### Are these rates safe?
 

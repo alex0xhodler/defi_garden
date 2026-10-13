@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest JUSTICE yield right now is 48.55% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JUSTICE yield right now is 34.99% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=345d5f7d-742e-4016-af91-a67e46cba9c0#src=seo_token) | Ethereum | 48.55% | $114.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=345d5f7d-742e-4016-af91-a67e46cba9c0#src=seo_token) | Ethereum | 34.99% | $114.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest JUSTICE yield today?
 
-48.55% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+34.99% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many JUSTICE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $114.3K in total.
+1 live pool clear this page's $100K TVL floor, $114.2K in total.
 
 ### Are these rates safe?
 

@@ -55,8 +55,8 @@ DefiLlama 실시간 데이터 기준, TON의 affluent에서 APY 5.13%예요.
 - [HGRAM](https://www.defi.garden/ko/tokens/hgram)
 - [TSTON](https://www.defi.garden/ko/tokens/tston)
 - [XAUT0](https://www.defi.garden/ko/tokens/xaut0)
-- [AFFSENTORA](https://www.defi.garden/ko/tokens/affsentora)
 - [BABYDOGE](https://www.defi.garden/ko/tokens/babydoge)
+- [AFFSENTORA](https://www.defi.garden/ko/tokens/affsentora)
 
 ## 이용 가능한 체인
 

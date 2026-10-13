@@ -37,10 +37,10 @@ There is not enough qualifying APY history to rank LIQD pools. This view covers 
 
 - [KHYPE](https://www.defi.garden/tokens/khype)
 - [WHYPE](https://www.defi.garden/tokens/whype)
+- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [THBILL](https://www.defi.garden/tokens/thbill)
 - [UBTC](https://www.defi.garden/tokens/ubtc)
 - [WSTHYPE](https://www.defi.garden/tokens/wsthype)
-- [XBTC](https://www.defi.garden/tokens/xbtc)
 
 ## Available on
 

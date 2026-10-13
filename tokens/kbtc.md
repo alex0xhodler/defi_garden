@@ -2,32 +2,32 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest KBTC yield right now is 0.07% on uniswap-v3 (Ethereum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KBTC yield right now is 10.30% on velodrome-v3 (Ink), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [tydro →](https://www.defi.garden/?pool=1357e23b-83d2-4183-bda0-a36913510b98#src=seo_token) | Ink | 0.01% | $90.46M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7b78fe2f-6f67-46ef-8a42-1e36de8d0dfc#src=seo_token) | Ethereum | 0.07% | $38.8M |
-| [velodrome-v3 →](https://www.defi.garden/?pool=558d461e-3bf6-41f6-bce8-e4d6271d209e#src=seo_token) | Ink | 5.92% | $554.6K |
-| [velodrome-v3 →](https://www.defi.garden/?pool=f624e335-a9c0-455d-86ed-c54578e99bdf#src=seo_token) | Ink | 46.08% | $160K |
+| [tydro →](https://www.defi.garden/?pool=1357e23b-83d2-4183-bda0-a36913510b98#src=seo_token) | Ink | 0.01% | $90.75M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7b78fe2f-6f67-46ef-8a42-1e36de8d0dfc#src=seo_token) | Ethereum | 0.08% | $38.91M |
+| [velodrome-v3 →](https://www.defi.garden/?pool=558d461e-3bf6-41f6-bce8-e4d6271d209e#src=seo_token) | Ink | 10.30% | $434.6K |
+| [velodrome-v3 →](https://www.defi.garden/?pool=f624e335-a9c0-455d-86ed-c54578e99bdf#src=seo_token) | Ink | 6.88% | $276.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, KBTC's lower-variability candidates are tydro (Ink), 0.01% APY, $90.46M TVL, https://www.defi.garden/?pool=1357e23b-83d2-4183-bda0-a36913510b98#src=seo_token; uniswap-v3 (Ethereum), 0.07% APY, $38.8M TVL, https://www.defi.garden/?pool=7b78fe2f-6f67-46ef-8a42-1e36de8d0dfc#src=seo_token; velodrome-v3 (Ink), 46.08% APY, $160K TVL, https://www.defi.garden/?pool=f624e335-a9c0-455d-86ed-c54578e99bdf#src=seo_token; velodrome-v3 (Ink), 5.92% APY, $554.6K TVL, https://www.defi.garden/?pool=558d461e-3bf6-41f6-bce8-e4d6271d209e#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, KBTC's lower-variability candidates are tydro (Ink), 0.01% APY, $90.75M TVL, https://www.defi.garden/?pool=1357e23b-83d2-4183-bda0-a36913510b98#src=seo_token; uniswap-v3 (Ethereum), 0.08% APY, $38.91M TVL, https://www.defi.garden/?pool=7b78fe2f-6f67-46ef-8a42-1e36de8d0dfc#src=seo_token; velodrome-v3 (Ink), 6.88% APY, $276.8K TVL, https://www.defi.garden/?pool=f624e335-a9c0-455d-86ed-c54578e99bdf#src=seo_token; velodrome-v3 (Ink), 10.30% APY, $434.6K TVL, https://www.defi.garden/?pool=558d461e-3bf6-41f6-bce8-e4d6271d209e#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [tydro →](https://www.defi.garden/?pool=1357e23b-83d2-4183-bda0-a36913510b98#src=seo_token) | Ink | 0.01% | $90.46M |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=7b78fe2f-6f67-46ef-8a42-1e36de8d0dfc#src=seo_token) | Ethereum | 0.07% | $38.8M |
-| 3 | [velodrome-v3 →](https://www.defi.garden/?pool=f624e335-a9c0-455d-86ed-c54578e99bdf#src=seo_token) | Ink | 46.08% | $160K |
-| 4 | [velodrome-v3 →](https://www.defi.garden/?pool=558d461e-3bf6-41f6-bce8-e4d6271d209e#src=seo_token) | Ink | 5.92% | $554.6K |
+| 1 | [tydro →](https://www.defi.garden/?pool=1357e23b-83d2-4183-bda0-a36913510b98#src=seo_token) | Ink | 0.01% | $90.75M |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=7b78fe2f-6f67-46ef-8a42-1e36de8d0dfc#src=seo_token) | Ethereum | 0.08% | $38.91M |
+| 3 | [velodrome-v3 →](https://www.defi.garden/?pool=f624e335-a9c0-455d-86ed-c54578e99bdf#src=seo_token) | Ink | 6.88% | $276.8K |
+| 4 | [velodrome-v3 →](https://www.defi.garden/?pool=558d461e-3bf6-41f6-bce8-e4d6271d209e#src=seo_token) | Ink | 10.30% | $434.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-KBTC shows up in 4 pools here, with rates from 0.01% to 46.08% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+KBTC shows up in 4 pools here, with rates from 0.01% to 10.30% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 4 of these 4 pools have a trustworthy 30-day average on file, with a median of 4.25% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -38,9 +38,9 @@ KBTC shows up in 4 pools here, with rates from 0.01% to 46.08% APY across 2 chai
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | tydro | 0.01% | 0.01% | Base rate |
-| uniswap-v3 | 0.07% | 0.23% | Base rate |
-| velodrome-v3 | 5.92% | 13.87% | 100.00% incentives |
-| velodrome-v3 | 46.08% | 8.27% | 100.00% incentives |
+| uniswap-v3 | 0.08% | 0.23% | Base rate |
+| velodrome-v3 | 10.30% | 13.87% | 100.00% incentives |
+| velodrome-v3 | 6.88% | 8.28% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -48,11 +48,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest KBTC yield today?
 
-0.07% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+10.30% APY on velodrome-v3 (Ink), based on live DefiLlama data.
 
 ### How many KBTC pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $677.99M in total.
+7 live pools clear this page's $100K TVL floor, $680.12M in total.
 
 ### Are these rates safe?
 
@@ -60,7 +60,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which KBTC pools have the most stable APY history?
 
-Based on APY history only, KBTC's lower-variability candidates are tydro (Ink), 0.01% APY, $90.46M TVL, https://www.defi.garden/?pool=1357e23b-83d2-4183-bda0-a36913510b98#src=seo_token; uniswap-v3 (Ethereum), 0.07% APY, $38.8M TVL, https://www.defi.garden/?pool=7b78fe2f-6f67-46ef-8a42-1e36de8d0dfc#src=seo_token; velodrome-v3 (Ink), 46.08% APY, $160K TVL, https://www.defi.garden/?pool=f624e335-a9c0-455d-86ed-c54578e99bdf#src=seo_token; velodrome-v3 (Ink), 5.92% APY, $554.6K TVL, https://www.defi.garden/?pool=558d461e-3bf6-41f6-bce8-e4d6271d209e#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, KBTC's lower-variability candidates are tydro (Ink), 0.01% APY, $90.75M TVL, https://www.defi.garden/?pool=1357e23b-83d2-4183-bda0-a36913510b98#src=seo_token; uniswap-v3 (Ethereum), 0.08% APY, $38.91M TVL, https://www.defi.garden/?pool=7b78fe2f-6f67-46ef-8a42-1e36de8d0dfc#src=seo_token; velodrome-v3 (Ink), 6.88% APY, $276.8K TVL, https://www.defi.garden/?pool=f624e335-a9c0-455d-86ed-c54578e99bdf#src=seo_token; velodrome-v3 (Ink), 10.30% APY, $434.6K TVL, https://www.defi.garden/?pool=558d461e-3bf6-41f6-bce8-e4d6271d209e#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

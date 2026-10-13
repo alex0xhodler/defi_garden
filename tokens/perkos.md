@@ -6,7 +6,7 @@ The highest honest PERKOS yield right now is 0.03% on uniswap-v4 (Base), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=e30f5d09-6b47-44bd-829d-53716d5e6115#src=seo_token) | Base | 0.03% | $102.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=e30f5d09-6b47-44bd-829d-53716d5e6115#src=seo_token) | Base | 0.03% | $103K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PERKOS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $102.5K in total.
+1 live pool clear this page's $100K TVL floor, $103K in total.
 
 ### Are these rates safe?
 

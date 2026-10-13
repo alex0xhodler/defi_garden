@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest HY yield right now is 2.36% on pancakeswap-amm (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HY yield right now is 1.37% on pancakeswap-amm (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pancakeswap-amm →](https://www.defi.garden/?pool=821a9ed4-3dc7-547c-b4ca-e52580764427#src=seo_token) | Arbitrum | 2.36% | $215.4K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=821a9ed4-3dc7-547c-b4ca-e52580764427#src=seo_token) | Arbitrum | 1.37% | $215.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HY yield today?
 
-2.36% APY on pancakeswap-amm (Arbitrum), based on live DefiLlama data.
+1.37% APY on pancakeswap-amm (Arbitrum), based on live DefiLlama data.
 
 ### How many HY pools clear the TVL floor?
 

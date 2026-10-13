@@ -6,7 +6,7 @@ The highest honest KAZONOMICS yield right now is 1.18% on uniswap-v4 (Base), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=35073fec-dc78-42ab-83c8-91e3c7c7c447#src=seo_token) | Base | 1.18% | $132.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=35073fec-dc78-42ab-83c8-91e3c7c7c447#src=seo_token) | Base | 1.18% | $133.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many KAZONOMICS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $132.3K in total.
+1 live pool clear this page's $100K TVL floor, $133.1K in total.
 
 ### Are these rates safe?
 

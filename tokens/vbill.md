@@ -29,7 +29,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 VBILL shows up in 4 pools here, with rates from 3.72% to 3.72% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 3.67% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 3.68% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 

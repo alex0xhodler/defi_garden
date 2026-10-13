@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest STCELO yield right now is 11.74% on uniswap-v3 (Celo), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STCELO yield right now is 11.75% on uniswap-v3 (Celo), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=88ada026-2f5a-4cb8-b591-4e46e32fedc5#src=seo_token) | Celo | 11.74% | $891.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=88ada026-2f5a-4cb8-b591-4e46e32fedc5#src=seo_token) | Celo | 11.75% | $895.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest STCELO yield today?
 
-11.74% APY on uniswap-v3 (Celo), based on live DefiLlama data.
+11.75% APY on uniswap-v3 (Celo), based on live DefiLlama data.
 
 ### How many STCELO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $891.1K in total.
+1 live pool clear this page's $100K TVL floor, $895.5K in total.
 
 ### Are these rates safe?
 

@@ -6,7 +6,7 @@ The highest honest YVVBETH yield right now is 0.69% on morpho-blue (Katana), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=e0371d3d-f729-4805-9614-bedb48c685e0#src=seo_token) | Katana | 0.69% | $4.72M |
+| [morpho-blue →](https://www.defi.garden/?pool=e0371d3d-f729-4805-9614-bedb48c685e0#src=seo_token) | Katana | 0.69% | $4.74M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many YVVBETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $4.72M in total.
+1 live pool clear this page's $100K TVL floor, $4.74M in total.
 
 ### Are these rates safe?
 
@@ -35,12 +35,12 @@ There is not enough qualifying APY history to rank YVVBETH pools. This view cove
 
 ## Related tokens
 
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [STEAKUSDC](https://www.defi.garden/tokens/steakusdc)
 - [BBQUSDC](https://www.defi.garden/tokens/bbqusdc)
 - [YMVOG](https://www.defi.garden/tokens/ymvog)
 - [VBWBTC](https://www.defi.garden/tokens/vbwbtc)
 - [VBUSDC](https://www.defi.garden/tokens/vbusdc)
+- [YOG](https://www.defi.garden/tokens/yog)
 
 ## Available on
 

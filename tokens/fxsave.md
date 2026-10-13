@@ -2,36 +2,36 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest FXSAVE yield right now is 9.98% on pendle-v2 (Ethereum), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FXSAVE yield right now is 9.91% on pendle-v2 (Ethereum), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=9357d127-efb2-55fb-ab2f-005bf18f6d32#src=seo_token) | Ethereum | 3.92% | $33.76M |
-| [pendle-v2 →](https://www.defi.garden/?pool=3e79042b-3018-4559-8fdf-6851ae2537c5#src=seo_token) | Ethereum | 9.98% | $1.53M |
+| [morpho-blue →](https://www.defi.garden/?pool=9357d127-efb2-55fb-ab2f-005bf18f6d32#src=seo_token) | Ethereum | 3.94% | $33.75M |
+| [pendle-v2 →](https://www.defi.garden/?pool=3e79042b-3018-4559-8fdf-6851ae2537c5#src=seo_token) | Ethereum | 9.91% | $1.53M |
 | [pendle-v2 →](https://www.defi.garden/?pool=62f77482-8595-4279-872d-a02a806e9127#src=seo_token) | Ethereum | 8.71% | $1.53M |
-| [morpho-blue →](https://www.defi.garden/?pool=61c9f747-788b-526f-858b-90458925ec3e#src=seo_token) | Ethereum | 3.28% | $1.45M |
-| [curve-dex →](https://www.defi.garden/?pool=d2cec87c-a53a-45bd-aeae-c98cbc599bc6#src=seo_token) | Ethereum | 3.02% | $794.8K |
-| [convex-finance →](https://www.defi.garden/?pool=c9c1eb2b-3a22-41e1-b896-4cbfc5c0ddb1#src=seo_token) | Ethereum | 3.02% | $485.9K |
+| [morpho-blue →](https://www.defi.garden/?pool=61c9f747-788b-526f-858b-90458925ec3e#src=seo_token) | Ethereum | 3.17% | $1.45M |
+| [curve-dex →](https://www.defi.garden/?pool=d2cec87c-a53a-45bd-aeae-c98cbc599bc6#src=seo_token) | Ethereum | 3.02% | $794.9K |
+| [convex-finance →](https://www.defi.garden/?pool=c9c1eb2b-3a22-41e1-b896-4cbfc5c0ddb1#src=seo_token) | Ethereum | 3.02% | $486K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, FXSAVE's lower-variability candidates are morpho-blue (Ethereum), 3.92% APY, $33.76M TVL, https://www.defi.garden/?pool=9357d127-efb2-55fb-ab2f-005bf18f6d32#src=seo_token; pendle-v2 (Ethereum), 8.71% APY, $1.53M TVL, https://www.defi.garden/?pool=62f77482-8595-4279-872d-a02a806e9127#src=seo_token; morpho-blue (Ethereum), 3.28% APY, $1.45M TVL, https://www.defi.garden/?pool=61c9f747-788b-526f-858b-90458925ec3e#src=seo_token; pendle-v2 (Ethereum), 9.98% APY, $1.53M TVL, https://www.defi.garden/?pool=3e79042b-3018-4559-8fdf-6851ae2537c5#src=seo_token; convex-finance (Ethereum), 3.02% APY, $485.9K TVL, https://www.defi.garden/?pool=c9c1eb2b-3a22-41e1-b896-4cbfc5c0ddb1#src=seo_token; curve-dex (Ethereum), 3.02% APY, $794.8K TVL, https://www.defi.garden/?pool=d2cec87c-a53a-45bd-aeae-c98cbc599bc6#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FXSAVE's lower-variability candidates are morpho-blue (Ethereum), 3.94% APY, $33.75M TVL, https://www.defi.garden/?pool=9357d127-efb2-55fb-ab2f-005bf18f6d32#src=seo_token; pendle-v2 (Ethereum), 8.71% APY, $1.53M TVL, https://www.defi.garden/?pool=62f77482-8595-4279-872d-a02a806e9127#src=seo_token; morpho-blue (Ethereum), 3.17% APY, $1.45M TVL, https://www.defi.garden/?pool=61c9f747-788b-526f-858b-90458925ec3e#src=seo_token; pendle-v2 (Ethereum), 9.91% APY, $1.53M TVL, https://www.defi.garden/?pool=3e79042b-3018-4559-8fdf-6851ae2537c5#src=seo_token; convex-finance (Ethereum), 3.02% APY, $486K TVL, https://www.defi.garden/?pool=c9c1eb2b-3a22-41e1-b896-4cbfc5c0ddb1#src=seo_token; curve-dex (Ethereum), 3.02% APY, $794.9K TVL, https://www.defi.garden/?pool=d2cec87c-a53a-45bd-aeae-c98cbc599bc6#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=9357d127-efb2-55fb-ab2f-005bf18f6d32#src=seo_token) | Ethereum | 3.92% | $33.76M |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=9357d127-efb2-55fb-ab2f-005bf18f6d32#src=seo_token) | Ethereum | 3.94% | $33.75M |
 | 2 | [pendle-v2 →](https://www.defi.garden/?pool=62f77482-8595-4279-872d-a02a806e9127#src=seo_token) | Ethereum | 8.71% | $1.53M |
-| 3 | [morpho-blue →](https://www.defi.garden/?pool=61c9f747-788b-526f-858b-90458925ec3e#src=seo_token) | Ethereum | 3.28% | $1.45M |
-| 4 | [pendle-v2 →](https://www.defi.garden/?pool=3e79042b-3018-4559-8fdf-6851ae2537c5#src=seo_token) | Ethereum | 9.98% | $1.53M |
-| 5 | [convex-finance →](https://www.defi.garden/?pool=c9c1eb2b-3a22-41e1-b896-4cbfc5c0ddb1#src=seo_token) | Ethereum | 3.02% | $485.9K |
-| 6 | [curve-dex →](https://www.defi.garden/?pool=d2cec87c-a53a-45bd-aeae-c98cbc599bc6#src=seo_token) | Ethereum | 3.02% | $794.8K |
+| 3 | [morpho-blue →](https://www.defi.garden/?pool=61c9f747-788b-526f-858b-90458925ec3e#src=seo_token) | Ethereum | 3.17% | $1.45M |
+| 4 | [pendle-v2 →](https://www.defi.garden/?pool=3e79042b-3018-4559-8fdf-6851ae2537c5#src=seo_token) | Ethereum | 9.91% | $1.53M |
+| 5 | [convex-finance →](https://www.defi.garden/?pool=c9c1eb2b-3a22-41e1-b896-4cbfc5c0ddb1#src=seo_token) | Ethereum | 3.02% | $486K |
+| 6 | [curve-dex →](https://www.defi.garden/?pool=d2cec87c-a53a-45bd-aeae-c98cbc599bc6#src=seo_token) | Ethereum | 3.02% | $794.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-FXSAVE shows up in 6 pools here, with rates from 3.02% to 9.98% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+FXSAVE shows up in 6 pools here, with rates from 3.02% to 9.91% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 6 of these 6 pools have a trustworthy 30-day average on file, with a median of 4.83% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -41,10 +41,10 @@ FXSAVE shows up in 6 pools here, with rates from 3.02% to 9.98% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 3.92% | 5.32% | 100.00% incentives |
-| pendle-v2 | 9.98% | 11.48% | 2.71% incentives |
+| morpho-blue | 3.94% | 5.31% | 100.00% incentives |
+| pendle-v2 | 9.91% | 11.47% | 2.71% incentives |
 | pendle-v2 | 8.71% | 8.77% | Base rate |
-| morpho-blue | 3.28% | 4.34% | 100.00% incentives |
+| morpho-blue | 3.17% | 4.35% | 100.00% incentives |
 | curve-dex | 3.02% | 3.88% | 0.01% incentives |
 | convex-finance | 3.02% | 3.88% | Base rate |
 
@@ -54,11 +54,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest FXSAVE yield today?
 
-9.98% APY on pendle-v2 (Ethereum), based on live DefiLlama data.
+9.91% APY on pendle-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many FXSAVE pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $124.71M in total.
+8 live pools clear this page's $100K TVL floor, $124.7M in total.
 
 ### Are these rates safe?
 
@@ -66,7 +66,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which FXSAVE pools have the most stable APY history?
 
-Based on APY history only, FXSAVE's lower-variability candidates are morpho-blue (Ethereum), 3.92% APY, $33.76M TVL, https://www.defi.garden/?pool=9357d127-efb2-55fb-ab2f-005bf18f6d32#src=seo_token; pendle-v2 (Ethereum), 8.71% APY, $1.53M TVL, https://www.defi.garden/?pool=62f77482-8595-4279-872d-a02a806e9127#src=seo_token; morpho-blue (Ethereum), 3.28% APY, $1.45M TVL, https://www.defi.garden/?pool=61c9f747-788b-526f-858b-90458925ec3e#src=seo_token; pendle-v2 (Ethereum), 9.98% APY, $1.53M TVL, https://www.defi.garden/?pool=3e79042b-3018-4559-8fdf-6851ae2537c5#src=seo_token; convex-finance (Ethereum), 3.02% APY, $485.9K TVL, https://www.defi.garden/?pool=c9c1eb2b-3a22-41e1-b896-4cbfc5c0ddb1#src=seo_token; curve-dex (Ethereum), 3.02% APY, $794.8K TVL, https://www.defi.garden/?pool=d2cec87c-a53a-45bd-aeae-c98cbc599bc6#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FXSAVE's lower-variability candidates are morpho-blue (Ethereum), 3.94% APY, $33.75M TVL, https://www.defi.garden/?pool=9357d127-efb2-55fb-ab2f-005bf18f6d32#src=seo_token; pendle-v2 (Ethereum), 8.71% APY, $1.53M TVL, https://www.defi.garden/?pool=62f77482-8595-4279-872d-a02a806e9127#src=seo_token; morpho-blue (Ethereum), 3.17% APY, $1.45M TVL, https://www.defi.garden/?pool=61c9f747-788b-526f-858b-90458925ec3e#src=seo_token; pendle-v2 (Ethereum), 9.91% APY, $1.53M TVL, https://www.defi.garden/?pool=3e79042b-3018-4559-8fdf-6851ae2537c5#src=seo_token; convex-finance (Ethereum), 3.02% APY, $486K TVL, https://www.defi.garden/?pool=c9c1eb2b-3a22-41e1-b896-4cbfc5c0ddb1#src=seo_token; curve-dex (Ethereum), 3.02% APY, $794.9K TVL, https://www.defi.garden/?pool=d2cec87c-a53a-45bd-aeae-c98cbc599bc6#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

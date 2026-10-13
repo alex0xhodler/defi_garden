@@ -4,14 +4,14 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| VDOT | [bifrost-liquid-staking →](https://www.defi.garden/?pool=ff05ab26-971e-4e68-b1c6-c61a4c12c364#src=seo_chain) | 3.71% | $9.97M |
-| VDOT-ADOT | [hydration-dex →](https://www.defi.garden/?pool=89f2d7f2-de12-488e-9c8f-53a7625db94a#src=seo_chain) | 0.22% | $4.35M |
+| VDOT | [bifrost-liquid-staking →](https://www.defi.garden/?pool=ff05ab26-971e-4e68-b1c6-c61a4c12c364#src=seo_chain) | 3.71% | $10.04M |
+| VDOT-ADOT | [hydration-dex →](https://www.defi.garden/?pool=89f2d7f2-de12-488e-9c8f-53a7625db94a#src=seo_chain) | 0.22% | $4.37M |
 | AETH-WSTETH | [hydration-dex →](https://www.defi.garden/?pool=d3c48526-63c5-48c4-a2bc-11dd4172a458#src=seo_chain) | 0.17% | $4.33M |
-| TBTC | [hydration-dex →](https://www.defi.garden/?pool=eab4ef8c-f35c-434b-a2ea-f8136f1cbc29#src=seo_chain) | 5.56% | $2.43M |
+| TBTC | [hydration-dex →](https://www.defi.garden/?pool=eab4ef8c-f35c-434b-a2ea-f8136f1cbc29#src=seo_chain) | 5.56% | $2.44M |
 | GETH | [hydration-dex →](https://www.defi.garden/?pool=8b5616b9-a6af-412d-b0f2-0b5708dc9d01#src=seo_chain) | 4.85% | $2.32M |
 | HOLLAR | [hydration-dex →](https://www.defi.garden/?pool=e6ae5236-a78a-4ddb-b5f7-da2fea18f96c#src=seo_chain) | 16.11% | $2.22M |
-| ADOT | [hydration-dex →](https://www.defi.garden/?pool=328f9944-f7cc-4a53-af5a-6e8eaa2fa72b#src=seo_chain) | 4.22% | $1.73M |
-| JITOSOL-ASOL | [hydration-dex →](https://www.defi.garden/?pool=262671f7-0c85-53cc-8042-571ab6e3cf18#src=seo_chain) | 0.21% | $1.7M |
+| ADOT | [hydration-dex →](https://www.defi.garden/?pool=328f9944-f7cc-4a53-af5a-6e8eaa2fa72b#src=seo_chain) | 4.22% | $1.74M |
+| JITOSOL-ASOL | [hydration-dex →](https://www.defi.garden/?pool=262671f7-0c85-53cc-8042-571ab6e3cf18#src=seo_chain) | 0.21% | $1.71M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 

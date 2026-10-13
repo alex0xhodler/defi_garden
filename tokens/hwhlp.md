@@ -6,7 +6,7 @@ The highest honest HWHLP yield right now is 4.49% on hyperwave (Hyperliquid L1),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hyperwave →](https://www.defi.garden/?pool=06a8d79e-8307-4064-ab01-2d00c4532c5d#src=seo_token) | Hyperliquid L1 | 4.49% | $303.7K |
+| [hyperwave →](https://www.defi.garden/?pool=06a8d79e-8307-4064-ab01-2d00c4532c5d#src=seo_token) | Hyperliquid L1 | 4.49% | $302.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many HWHLP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $303.7K in total.
+1 live pool clear this page's $100K TVL floor, $302.3K in total.
 
 ### Are these rates safe?
 
@@ -37,10 +37,10 @@ There is not enough qualifying APY history to rank HWHLP pools. This view covers
 
 - [KHYPE](https://www.defi.garden/tokens/khype)
 - [WHYPE](https://www.defi.garden/tokens/whype)
+- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [THBILL](https://www.defi.garden/tokens/thbill)
 - [UBTC](https://www.defi.garden/tokens/ubtc)
 - [WSTHYPE](https://www.defi.garden/tokens/wsthype)
-- [XBTC](https://www.defi.garden/tokens/xbtc)
 
 ## Available on
 

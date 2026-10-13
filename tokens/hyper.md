@@ -6,7 +6,7 @@ The highest honest HYPER yield right now is 220.23% on symbiotic (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [symbiotic →](https://www.defi.garden/?pool=e8b1e4cc-da84-5a59-8359-76b5c0a0ece6#src=seo_token) | Ethereum | 220.23% | $1.48M |
+| [symbiotic →](https://www.defi.garden/?pool=e8b1e4cc-da84-5a59-8359-76b5c0a0ece6#src=seo_token) | Ethereum | 220.23% | $1.46M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many HYPER pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $2.22M in total.
+5 live pools clear this page's $100K TVL floor, $2.19M in total.
 
 ### Are these rates safe?
 

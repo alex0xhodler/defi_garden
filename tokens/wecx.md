@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest WECX yield right now is 745.74% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WECX yield right now is 715.02% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=a85a5521-d622-5da6-bb25-23f98cc7abd2#src=seo_token) | Solana | 745.74% | $539.4K |
+| [orca-dex →](https://www.defi.garden/?pool=a85a5521-d622-5da6-bb25-23f98cc7abd2#src=seo_token) | Solana | 715.02% | $537.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WECX yield today?
 
-745.74% APY on orca-dex (Solana), based on live DefiLlama data.
+715.02% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many WECX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $539.4K in total.
+1 live pool clear this page's $100K TVL floor, $537.8K in total.
 
 ### Are these rates safe?
 

@@ -51,10 +51,10 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 hypurrfi-pooled에서 AP
 
 - [KHYPE](https://www.defi.garden/ko/tokens/khype)
 - [WHYPE](https://www.defi.garden/ko/tokens/whype)
+- [USDT0](https://www.defi.garden/ko/tokens/usdt0)
 - [THBILL](https://www.defi.garden/ko/tokens/thbill)
 - [UBTC](https://www.defi.garden/ko/tokens/ubtc)
 - [XBTC](https://www.defi.garden/ko/tokens/xbtc)
-- [HYPE](https://www.defi.garden/ko/tokens/hype)
 
 ## 이용 가능한 체인
 

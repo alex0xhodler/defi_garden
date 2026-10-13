@@ -31,7 +31,7 @@ STHYPE shows up in 2 pools here, with rates from 1.97% to 2.08% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle-v2 | 1.97% | 2.33% | 10.50% incentives |
+| pendle-v2 | 1.97% | 2.33% | 10.43% incentives |
 | pendle-v2 | 2.08% | 2.19% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -58,10 +58,10 @@ Based on APY history only, STHYPE's lower-variability candidates are pendle-v2 (
 
 - [KHYPE](https://www.defi.garden/tokens/khype)
 - [WHYPE](https://www.defi.garden/tokens/whype)
+- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [THBILL](https://www.defi.garden/tokens/thbill)
 - [UBTC](https://www.defi.garden/tokens/ubtc)
 - [WSTHYPE](https://www.defi.garden/tokens/wsthype)
-- [XBTC](https://www.defi.garden/tokens/xbtc)
 
 ## Available on
 

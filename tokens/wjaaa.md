@@ -2,12 +2,12 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest WJAAA yield right now is 17.27% on 3f (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WJAAA yield right now is 17.28% on 3f (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [3f →](https://www.defi.garden/?pool=edbabe24-9b16-5b90-9789-6a2339be3d3a#src=seo_token) | Ethereum | 17.27% | $428.9K |
-| [3f →](https://www.defi.garden/?pool=fd3336c5-a91e-58ca-8db9-85e9fed4afbc#src=seo_token) | Ethereum | 17.26% | $198.8K |
+| [3f →](https://www.defi.garden/?pool=edbabe24-9b16-5b90-9789-6a2339be3d3a#src=seo_token) | Ethereum | 17.28% | $428.9K |
+| [3f →](https://www.defi.garden/?pool=fd3336c5-a91e-58ca-8db9-85e9fed4afbc#src=seo_token) | Ethereum | 17.27% | $198.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,16 +18,16 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-WJAAA shows up in 2 pools here, with rates from 17.26% to 17.27% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+WJAAA shows up in 2 pools here, with rates from 17.27% to 17.28% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 6.13% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 6.18% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| 3f | 17.27% | 7.44% | Base rate |
-| 3f | 17.26% | 4.83% | Base rate |
+| 3f | 17.28% | 7.47% | Base rate |
+| 3f | 17.27% | 4.88% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WJAAA yield today?
 
-17.27% APY on 3f (Ethereum), based on live DefiLlama data.
+17.28% APY on 3f (Ethereum), based on live DefiLlama data.
 
 ### How many WJAAA pools clear the TVL floor?
 

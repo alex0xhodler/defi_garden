@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest BERT yield right now is 10.22% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BERT yield right now is 9.52% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=56f5337d-13a2-4757-ad4c-8175c03a4052#src=seo_token) | Solana | 10.22% | $1.07M |
+| [raydium-amm →](https://www.defi.garden/?pool=56f5337d-13a2-4757-ad4c-8175c03a4052#src=seo_token) | Solana | 9.52% | $1.07M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BERT yield today?
 
-10.22% APY on raydium-amm (Solana), based on live DefiLlama data.
+9.52% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many BERT pools clear the TVL floor?
 

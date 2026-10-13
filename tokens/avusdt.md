@@ -39,8 +39,8 @@ There is not enough qualifying APY history to rank AVUSDT pools. This view cover
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [SAVAX](https://www.defi.garden/tokens/savax)
 - [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
-- [SAVUSD](https://www.defi.garden/tokens/savusd)
 - [WAVAX](https://www.defi.garden/tokens/wavax)
+- [SAVUSD](https://www.defi.garden/tokens/savusd)
 
 ## Available on
 

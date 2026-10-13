@@ -7,19 +7,19 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [binance-staked-eth →](https://www.defi.garden/ko/pools/binance-staked-eth-wbeth-ethereum) | Ethereum | 2.20% | $8.9B |
-| [binance-staked-eth →](https://www.defi.garden/ko/pools/binance-staked-eth-wbeth-bsc) | BSC | 2.20% | $534.73M |
-| [venus-core-pool →](https://www.defi.garden/?pool=b8872d86-c39e-423c-83dd-8b32f7eea91d#src=seo_token) | BSC | 0.01% | $27.79M |
+| [binance-staked-eth →](https://www.defi.garden/ko/pools/binance-staked-eth-wbeth-bsc) | BSC | 2.20% | $534.68M |
+| [venus-core-pool →](https://www.defi.garden/?pool=b8872d86-c39e-423c-83dd-8b32f7eea91d#src=seo_token) | BSC | 0.01% | $27.85M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 WBETH의 변동성 낮은 후보는 BSC의 binance-staked-eth, APY 2.20%, TVL $534.73M, https://www.defi.garden/ko/pools/binance-staked-eth-wbeth-bsc; Ethereum의 binance-staked-eth, APY 2.20%, TVL $8.9B, https://www.defi.garden/ko/pools/binance-staked-eth-wbeth-ethereum; BSC의 venus-core-pool, APY 0.01%, TVL $27.79M, https://www.defi.garden/?pool=b8872d86-c39e-423c-83dd-8b32f7eea91d#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 WBETH의 변동성 낮은 후보는 BSC의 binance-staked-eth, APY 2.20%, TVL $534.68M, https://www.defi.garden/ko/pools/binance-staked-eth-wbeth-bsc; Ethereum의 binance-staked-eth, APY 2.20%, TVL $8.9B, https://www.defi.garden/ko/pools/binance-staked-eth-wbeth-ethereum; BSC의 venus-core-pool, APY 0.01%, TVL $27.85M, https://www.defi.garden/?pool=b8872d86-c39e-423c-83dd-8b32f7eea91d#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [binance-staked-eth →](https://www.defi.garden/ko/pools/binance-staked-eth-wbeth-bsc) | BSC | 2.20% | $534.73M |
+| 1 | [binance-staked-eth →](https://www.defi.garden/ko/pools/binance-staked-eth-wbeth-bsc) | BSC | 2.20% | $534.68M |
 | 2 | [binance-staked-eth →](https://www.defi.garden/ko/pools/binance-staked-eth-wbeth-ethereum) | Ethereum | 2.20% | $8.9B |
-| 3 | [venus-core-pool →](https://www.defi.garden/?pool=b8872d86-c39e-423c-83dd-8b32f7eea91d#src=seo_token) | BSC | 0.01% | $27.79M |
+| 3 | [venus-core-pool →](https://www.defi.garden/?pool=b8872d86-c39e-423c-83dd-8b32f7eea91d#src=seo_token) | BSC | 0.01% | $27.85M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -55,7 +55,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 binance-staked-eth에서 APY 2
 
 ### WBETH 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 WBETH의 변동성 낮은 후보는 BSC의 binance-staked-eth, APY 2.20%, TVL $534.73M, https://www.defi.garden/ko/pools/binance-staked-eth-wbeth-bsc; Ethereum의 binance-staked-eth, APY 2.20%, TVL $8.9B, https://www.defi.garden/ko/pools/binance-staked-eth-wbeth-ethereum; BSC의 venus-core-pool, APY 0.01%, TVL $27.79M, https://www.defi.garden/?pool=b8872d86-c39e-423c-83dd-8b32f7eea91d#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 WBETH의 변동성 낮은 후보는 BSC의 binance-staked-eth, APY 2.20%, TVL $534.68M, https://www.defi.garden/ko/pools/binance-staked-eth-wbeth-bsc; Ethereum의 binance-staked-eth, APY 2.20%, TVL $8.9B, https://www.defi.garden/ko/pools/binance-staked-eth-wbeth-ethereum; BSC의 venus-core-pool, APY 0.01%, TVL $27.85M, https://www.defi.garden/?pool=b8872d86-c39e-423c-83dd-8b32f7eea91d#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

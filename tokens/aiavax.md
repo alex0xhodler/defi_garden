@@ -6,7 +6,7 @@ The highest honest AIAVAX yield right now is 24.05% on yield-yak-aggregator (Ava
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yield-yak-aggregator →](https://www.defi.garden/?pool=6a6ec71a-4e41-4db9-b206-edb9f87a7746#src=seo_token) | Avalanche | 24.05% | $2.25M |
+| [yield-yak-aggregator →](https://www.defi.garden/?pool=6a6ec71a-4e41-4db9-b206-edb9f87a7746#src=seo_token) | Avalanche | 24.05% | $2.21M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AIAVAX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.25M in total.
+1 live pool clear this page's $100K TVL floor, $2.21M in total.
 
 ### Are these rates safe?
 
@@ -39,8 +39,8 @@ There is not enough qualifying APY history to rank AIAVAX pools. This view cover
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [SAVAX](https://www.defi.garden/tokens/savax)
 - [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
-- [SAVUSD](https://www.defi.garden/tokens/savusd)
 - [WAVAX](https://www.defi.garden/tokens/wavax)
+- [SAVUSD](https://www.defi.garden/tokens/savusd)
 
 ## Available on
 

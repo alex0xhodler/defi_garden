@@ -2,42 +2,42 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest BUSD yield right now is 11.93% on berapaw (Berachain), among 14 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BUSD yield right now is 11.80% on berapaw (Berachain), among 14 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [wombat-exchange →](https://www.defi.garden/?pool=7ba5de17-c0ff-4e5d-80f2-d701a600f364#src=seo_token) | BSC | 0.03% | $2.05M |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=1ba6ccca-7122-47ce-854e-06883f9b2897#src=seo_token) | BSC | 2.00% | $1.27M |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=6dab81ee-8eea-4163-a38a-58986dd65595#src=seo_token) | BSC | 0.93% | $534.4K |
-| [berapaw →](https://www.defi.garden/?pool=afa4cd8e-4b07-4e8c-918f-9675a4f103d3#src=seo_token) | Berachain | 11.93% | $526.6K |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=062c254e-89bf-44ab-8b04-242bf5916f0a#src=seo_token) | BSC | 3.96% | $396.1K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=1ba6ccca-7122-47ce-854e-06883f9b2897#src=seo_token) | BSC | 1.92% | $1.27M |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=6dab81ee-8eea-4163-a38a-58986dd65595#src=seo_token) | BSC | 0.87% | $534.5K |
+| [berapaw →](https://www.defi.garden/?pool=afa4cd8e-4b07-4e8c-918f-9675a4f103d3#src=seo_token) | Berachain | 11.80% | $527.3K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=062c254e-89bf-44ab-8b04-242bf5916f0a#src=seo_token) | BSC | 3.58% | $395.4K |
 | [pancakeswap-amm →](https://www.defi.garden/?pool=b6fa8f40-7e6b-414e-850d-807750249031#src=seo_token) | BSC | 0.08% | $264.8K |
 | [mdex →](https://www.defi.garden/?pool=59dfe38a-a776-4966-a5f7-02e0c362d104#src=seo_token) | BSC | 0.29% | $254.2K |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=0b2fde3f-330e-47e3-843e-244a96c50746#src=seo_token) | BSC | 1.90% | $178.6K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=0b2fde3f-330e-47e3-843e-244a96c50746#src=seo_token) | BSC | 1.88% | $178.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, BUSD's lower-variability candidates are wombat-exchange (BSC), 0.03% APY, $2.05M TVL, https://www.defi.garden/?pool=7ba5de17-c0ff-4e5d-80f2-d701a600f364#src=seo_token; mdex (BSC), 0.29% APY, $254.2K TVL, https://www.defi.garden/?pool=59dfe38a-a776-4966-a5f7-02e0c362d104#src=seo_token; pancakeswap-amm (BSC), 0.93% APY, $534.4K TVL, https://www.defi.garden/?pool=6dab81ee-8eea-4163-a38a-58986dd65595#src=seo_token; pancakeswap-amm (BSC), 1.90% APY, $178.6K TVL, https://www.defi.garden/?pool=0b2fde3f-330e-47e3-843e-244a96c50746#src=seo_token; pancakeswap-amm (BSC), 0.08% APY, $264.8K TVL, https://www.defi.garden/?pool=b6fa8f40-7e6b-414e-850d-807750249031#src=seo_token; pancakeswap-amm (BSC), 2.00% APY, $1.27M TVL, https://www.defi.garden/?pool=1ba6ccca-7122-47ce-854e-06883f9b2897#src=seo_token; berapaw (Berachain), 11.93% APY, $526.6K TVL, https://www.defi.garden/?pool=afa4cd8e-4b07-4e8c-918f-9675a4f103d3#src=seo_token; pancakeswap-amm (BSC), 3.96% APY, $396.1K TVL, https://www.defi.garden/?pool=062c254e-89bf-44ab-8b04-242bf5916f0a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BUSD's lower-variability candidates are wombat-exchange (BSC), 0.03% APY, $2.05M TVL, https://www.defi.garden/?pool=7ba5de17-c0ff-4e5d-80f2-d701a600f364#src=seo_token; mdex (BSC), 0.29% APY, $254.2K TVL, https://www.defi.garden/?pool=59dfe38a-a776-4966-a5f7-02e0c362d104#src=seo_token; pancakeswap-amm (BSC), 0.87% APY, $534.5K TVL, https://www.defi.garden/?pool=6dab81ee-8eea-4163-a38a-58986dd65595#src=seo_token; pancakeswap-amm (BSC), 1.88% APY, $178.8K TVL, https://www.defi.garden/?pool=0b2fde3f-330e-47e3-843e-244a96c50746#src=seo_token; pancakeswap-amm (BSC), 0.08% APY, $264.8K TVL, https://www.defi.garden/?pool=b6fa8f40-7e6b-414e-850d-807750249031#src=seo_token; pancakeswap-amm (BSC), 1.92% APY, $1.27M TVL, https://www.defi.garden/?pool=1ba6ccca-7122-47ce-854e-06883f9b2897#src=seo_token; berapaw (Berachain), 11.80% APY, $527.3K TVL, https://www.defi.garden/?pool=afa4cd8e-4b07-4e8c-918f-9675a4f103d3#src=seo_token; pancakeswap-amm (BSC), 3.58% APY, $395.4K TVL, https://www.defi.garden/?pool=062c254e-89bf-44ab-8b04-242bf5916f0a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [wombat-exchange →](https://www.defi.garden/?pool=7ba5de17-c0ff-4e5d-80f2-d701a600f364#src=seo_token) | BSC | 0.03% | $2.05M |
 | 2 | [mdex →](https://www.defi.garden/?pool=59dfe38a-a776-4966-a5f7-02e0c362d104#src=seo_token) | BSC | 0.29% | $254.2K |
-| 3 | [pancakeswap-amm →](https://www.defi.garden/?pool=6dab81ee-8eea-4163-a38a-58986dd65595#src=seo_token) | BSC | 0.93% | $534.4K |
-| 4 | [pancakeswap-amm →](https://www.defi.garden/?pool=0b2fde3f-330e-47e3-843e-244a96c50746#src=seo_token) | BSC | 1.90% | $178.6K |
+| 3 | [pancakeswap-amm →](https://www.defi.garden/?pool=6dab81ee-8eea-4163-a38a-58986dd65595#src=seo_token) | BSC | 0.87% | $534.5K |
+| 4 | [pancakeswap-amm →](https://www.defi.garden/?pool=0b2fde3f-330e-47e3-843e-244a96c50746#src=seo_token) | BSC | 1.88% | $178.8K |
 | 5 | [pancakeswap-amm →](https://www.defi.garden/?pool=b6fa8f40-7e6b-414e-850d-807750249031#src=seo_token) | BSC | 0.08% | $264.8K |
-| 6 | [pancakeswap-amm →](https://www.defi.garden/?pool=1ba6ccca-7122-47ce-854e-06883f9b2897#src=seo_token) | BSC | 2.00% | $1.27M |
-| 7 | [berapaw →](https://www.defi.garden/?pool=afa4cd8e-4b07-4e8c-918f-9675a4f103d3#src=seo_token) | Berachain | 11.93% | $526.6K |
-| 8 | [pancakeswap-amm →](https://www.defi.garden/?pool=062c254e-89bf-44ab-8b04-242bf5916f0a#src=seo_token) | BSC | 3.96% | $396.1K |
+| 6 | [pancakeswap-amm →](https://www.defi.garden/?pool=1ba6ccca-7122-47ce-854e-06883f9b2897#src=seo_token) | BSC | 1.92% | $1.27M |
+| 7 | [berapaw →](https://www.defi.garden/?pool=afa4cd8e-4b07-4e8c-918f-9675a4f103d3#src=seo_token) | Berachain | 11.80% | $527.3K |
+| 8 | [pancakeswap-amm →](https://www.defi.garden/?pool=062c254e-89bf-44ab-8b04-242bf5916f0a#src=seo_token) | BSC | 3.58% | $395.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-BUSD shows up in 8 pools here, with rates from 0.03% to 11.93% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+BUSD shows up in 8 pools here, with rates from 0.03% to 11.80% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 1.37% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 1.38% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 3 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -46,13 +46,13 @@ BUSD shows up in 8 pools here, with rates from 0.03% to 11.93% APY across 2 chai
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | wombat-exchange | 0.03% | 0.03% | 100.00% incentives |
-| pancakeswap-amm | 2.00% | 1.91% | Base rate |
-| pancakeswap-amm | 0.93% | 1.20% | Base rate |
-| berapaw | 11.93% | 11.41% | 100.00% incentives |
-| pancakeswap-amm | 3.96% | 4.07% | Base rate |
+| pancakeswap-amm | 1.92% | 1.92% | Base rate |
+| pancakeswap-amm | 0.87% | 1.20% | Base rate |
+| berapaw | 11.80% | 11.42% | 100.00% incentives |
+| pancakeswap-amm | 3.58% | 4.07% | Base rate |
 | pancakeswap-amm | 0.08% | 0.31% | Base rate |
 | mdex | 0.29% | 0.26% | 85.45% incentives |
-| pancakeswap-amm | 1.90% | 1.54% | Base rate |
+| pancakeswap-amm | 1.88% | 1.55% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -60,7 +60,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BUSD yield today?
 
-11.93% APY on berapaw (Berachain), based on live DefiLlama data.
+11.80% APY on berapaw (Berachain), based on live DefiLlama data.
 
 ### How many BUSD pools clear the TVL floor?
 
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BUSD pools have the most stable APY history?
 
-Based on APY history only, BUSD's lower-variability candidates are wombat-exchange (BSC), 0.03% APY, $2.05M TVL, https://www.defi.garden/?pool=7ba5de17-c0ff-4e5d-80f2-d701a600f364#src=seo_token; mdex (BSC), 0.29% APY, $254.2K TVL, https://www.defi.garden/?pool=59dfe38a-a776-4966-a5f7-02e0c362d104#src=seo_token; pancakeswap-amm (BSC), 0.93% APY, $534.4K TVL, https://www.defi.garden/?pool=6dab81ee-8eea-4163-a38a-58986dd65595#src=seo_token; pancakeswap-amm (BSC), 1.90% APY, $178.6K TVL, https://www.defi.garden/?pool=0b2fde3f-330e-47e3-843e-244a96c50746#src=seo_token; pancakeswap-amm (BSC), 0.08% APY, $264.8K TVL, https://www.defi.garden/?pool=b6fa8f40-7e6b-414e-850d-807750249031#src=seo_token; pancakeswap-amm (BSC), 2.00% APY, $1.27M TVL, https://www.defi.garden/?pool=1ba6ccca-7122-47ce-854e-06883f9b2897#src=seo_token; berapaw (Berachain), 11.93% APY, $526.6K TVL, https://www.defi.garden/?pool=afa4cd8e-4b07-4e8c-918f-9675a4f103d3#src=seo_token; pancakeswap-amm (BSC), 3.96% APY, $396.1K TVL, https://www.defi.garden/?pool=062c254e-89bf-44ab-8b04-242bf5916f0a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BUSD's lower-variability candidates are wombat-exchange (BSC), 0.03% APY, $2.05M TVL, https://www.defi.garden/?pool=7ba5de17-c0ff-4e5d-80f2-d701a600f364#src=seo_token; mdex (BSC), 0.29% APY, $254.2K TVL, https://www.defi.garden/?pool=59dfe38a-a776-4966-a5f7-02e0c362d104#src=seo_token; pancakeswap-amm (BSC), 0.87% APY, $534.5K TVL, https://www.defi.garden/?pool=6dab81ee-8eea-4163-a38a-58986dd65595#src=seo_token; pancakeswap-amm (BSC), 1.88% APY, $178.8K TVL, https://www.defi.garden/?pool=0b2fde3f-330e-47e3-843e-244a96c50746#src=seo_token; pancakeswap-amm (BSC), 0.08% APY, $264.8K TVL, https://www.defi.garden/?pool=b6fa8f40-7e6b-414e-850d-807750249031#src=seo_token; pancakeswap-amm (BSC), 1.92% APY, $1.27M TVL, https://www.defi.garden/?pool=1ba6ccca-7122-47ce-854e-06883f9b2897#src=seo_token; berapaw (Berachain), 11.80% APY, $527.3K TVL, https://www.defi.garden/?pool=afa4cd8e-4b07-4e8c-918f-9675a4f103d3#src=seo_token; pancakeswap-amm (BSC), 3.58% APY, $395.4K TVL, https://www.defi.garden/?pool=062c254e-89bf-44ab-8b04-242bf5916f0a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

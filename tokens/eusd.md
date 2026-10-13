@@ -2,34 +2,34 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest EUSD yield right now is 46.03% on stake-dao-yield (Base), among 15 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EUSD yield right now is 46.71% on stake-dao-yield (Base), among 15 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1#src=seo_token) | Ethereum | 77.79% | $1.49M |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=bde35fef-649f-4514-a564-e7e7da05eb52#src=seo_token) | Base | 10.96% | $562.2K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=aeb97af6-bd75-4a34-975b-9166427a0ce3#src=seo_token) | Base | 5.88% | $452.5K |
+| [curve-dex →](https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1#src=seo_token) | Ethereum | 77.79% | $1.48M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=bde35fef-649f-4514-a564-e7e7da05eb52#src=seo_token) | Base | 10.93% | $562.6K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=aeb97af6-bd75-4a34-975b-9166427a0ce3#src=seo_token) | Base | 5.16% | $520.9K |
 | [curve-dex →](https://www.defi.garden/?pool=3e4081dd-324d-4a46-8aba-01320ac68fa2#src=seo_token) | Ethereum | 32.70% | $380.7K |
-| [curve-dex →](https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3#src=seo_token) | Base | 44.49% | $321.1K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=5d98651c-3954-4061-9f5c-58783e030604#src=seo_token) | Base | 38.16% | $239.8K |
-| [stake-dao-yield →](https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b#src=seo_token) | Base | 46.03% | $226.8K |
-| [curve-dex →](https://www.defi.garden/?pool=817329d2-07cb-4cbd-82ac-eb9bc0add450#src=seo_token) | Ethereum | 1.76% | $226.7K |
+| [curve-dex →](https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3#src=seo_token) | Base | 44.57% | $321.3K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=5d98651c-3954-4061-9f5c-58783e030604#src=seo_token) | Base | 38.02% | $240K |
+| [stake-dao-yield →](https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b#src=seo_token) | Base | 46.71% | $227.2K |
+| [curve-dex →](https://www.defi.garden/?pool=817329d2-07cb-4cbd-82ac-eb9bc0add450#src=seo_token) | Ethereum | 1.76% | $226.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, EUSD's lower-variability candidates are aerodrome-v1 (Base), 10.96% APY, $562.2K TVL, https://www.defi.garden/?pool=bde35fef-649f-4514-a564-e7e7da05eb52#src=seo_token; curve-dex (Ethereum), 77.79% APY, $1.49M TVL, https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1#src=seo_token; curve-dex (Ethereum), 1.76% APY, $226.7K TVL, https://www.defi.garden/?pool=817329d2-07cb-4cbd-82ac-eb9bc0add450#src=seo_token; curve-dex (Ethereum), 32.70% APY, $380.7K TVL, https://www.defi.garden/?pool=3e4081dd-324d-4a46-8aba-01320ac68fa2#src=seo_token; aerodrome-slipstream (Base), 5.88% APY, $452.5K TVL, https://www.defi.garden/?pool=aeb97af6-bd75-4a34-975b-9166427a0ce3#src=seo_token; stake-dao-yield (Base), 46.03% APY, $226.8K TVL, https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b#src=seo_token; aerodrome-v1 (Base), 38.16% APY, $239.8K TVL, https://www.defi.garden/?pool=5d98651c-3954-4061-9f5c-58783e030604#src=seo_token; curve-dex (Base), 44.49% APY, $321.1K TVL, https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, EUSD's lower-variability candidates are aerodrome-v1 (Base), 10.93% APY, $562.6K TVL, https://www.defi.garden/?pool=bde35fef-649f-4514-a564-e7e7da05eb52#src=seo_token; curve-dex (Ethereum), 77.79% APY, $1.48M TVL, https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1#src=seo_token; curve-dex (Ethereum), 1.76% APY, $226.6K TVL, https://www.defi.garden/?pool=817329d2-07cb-4cbd-82ac-eb9bc0add450#src=seo_token; curve-dex (Ethereum), 32.70% APY, $380.7K TVL, https://www.defi.garden/?pool=3e4081dd-324d-4a46-8aba-01320ac68fa2#src=seo_token; aerodrome-slipstream (Base), 5.16% APY, $520.9K TVL, https://www.defi.garden/?pool=aeb97af6-bd75-4a34-975b-9166427a0ce3#src=seo_token; stake-dao-yield (Base), 46.71% APY, $227.2K TVL, https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b#src=seo_token; aerodrome-v1 (Base), 38.02% APY, $240K TVL, https://www.defi.garden/?pool=5d98651c-3954-4061-9f5c-58783e030604#src=seo_token; curve-dex (Base), 44.57% APY, $321.3K TVL, https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=bde35fef-649f-4514-a564-e7e7da05eb52#src=seo_token) | Base | 10.96% | $562.2K |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1#src=seo_token) | Ethereum | 77.79% | $1.49M |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=817329d2-07cb-4cbd-82ac-eb9bc0add450#src=seo_token) | Ethereum | 1.76% | $226.7K |
+| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=bde35fef-649f-4514-a564-e7e7da05eb52#src=seo_token) | Base | 10.93% | $562.6K |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1#src=seo_token) | Ethereum | 77.79% | $1.48M |
+| 3 | [curve-dex →](https://www.defi.garden/?pool=817329d2-07cb-4cbd-82ac-eb9bc0add450#src=seo_token) | Ethereum | 1.76% | $226.6K |
 | 4 | [curve-dex →](https://www.defi.garden/?pool=3e4081dd-324d-4a46-8aba-01320ac68fa2#src=seo_token) | Ethereum | 32.70% | $380.7K |
-| 5 | [aerodrome-slipstream →](https://www.defi.garden/?pool=aeb97af6-bd75-4a34-975b-9166427a0ce3#src=seo_token) | Base | 5.88% | $452.5K |
-| 6 | [stake-dao-yield →](https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b#src=seo_token) | Base | 46.03% | $226.8K |
-| 7 | [aerodrome-v1 →](https://www.defi.garden/?pool=5d98651c-3954-4061-9f5c-58783e030604#src=seo_token) | Base | 38.16% | $239.8K |
-| 8 | [curve-dex →](https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3#src=seo_token) | Base | 44.49% | $321.1K |
+| 5 | [aerodrome-slipstream →](https://www.defi.garden/?pool=aeb97af6-bd75-4a34-975b-9166427a0ce3#src=seo_token) | Base | 5.16% | $520.9K |
+| 6 | [stake-dao-yield →](https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b#src=seo_token) | Base | 46.71% | $227.2K |
+| 7 | [aerodrome-v1 →](https://www.defi.garden/?pool=5d98651c-3954-4061-9f5c-58783e030604#src=seo_token) | Base | 38.02% | $240K |
+| 8 | [curve-dex →](https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3#src=seo_token) | Base | 44.57% | $321.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -45,13 +45,13 @@ EUSD shows up in 8 pools here, with rates from 1.76% to 77.79% APY across 2 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 77.79% | 2.94% | Base rate |
-| aerodrome-v1 | 10.96% | 11.40% | 100.00% incentives |
-| aerodrome-slipstream | 5.88% | 5.86% | 82.12% incentives |
-| curve-dex | 32.70% | 2.02% | Base rate |
-| curve-dex | 44.49% | 40.43% | 97.93% incentives |
-| aerodrome-v1 | 38.16% | 38.62% | 100.00% incentives |
-| stake-dao-yield | 46.03% | 42.32% | 98.85% incentives |
+| curve-dex | 77.79% | 3.15% | Base rate |
+| aerodrome-v1 | 10.93% | 11.40% | 100.00% incentives |
+| aerodrome-slipstream | 5.16% | 5.87% | 76.48% incentives |
+| curve-dex | 32.70% | 2.11% | Base rate |
+| curve-dex | 44.57% | 40.44% | 97.94% incentives |
+| aerodrome-v1 | 38.02% | 38.60% | 100.00% incentives |
+| stake-dao-yield | 46.71% | 42.33% | 98.87% incentives |
 | curve-dex | 1.76% | 0.41% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -60,11 +60,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest EUSD yield today?
 
-46.03% APY on stake-dao-yield (Base), based on live DefiLlama data.
+46.71% APY on stake-dao-yield (Base), based on live DefiLlama data.
 
 ### How many EUSD pools clear the TVL floor?
 
-15 live pools clear this page's $100K TVL floor, $30.65M in total.
+15 live pools clear this page's $100K TVL floor, $30.71M in total.
 
 ### Are these rates safe?
 
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which EUSD pools have the most stable APY history?
 
-Based on APY history only, EUSD's lower-variability candidates are aerodrome-v1 (Base), 10.96% APY, $562.2K TVL, https://www.defi.garden/?pool=bde35fef-649f-4514-a564-e7e7da05eb52#src=seo_token; curve-dex (Ethereum), 77.79% APY, $1.49M TVL, https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1#src=seo_token; curve-dex (Ethereum), 1.76% APY, $226.7K TVL, https://www.defi.garden/?pool=817329d2-07cb-4cbd-82ac-eb9bc0add450#src=seo_token; curve-dex (Ethereum), 32.70% APY, $380.7K TVL, https://www.defi.garden/?pool=3e4081dd-324d-4a46-8aba-01320ac68fa2#src=seo_token; aerodrome-slipstream (Base), 5.88% APY, $452.5K TVL, https://www.defi.garden/?pool=aeb97af6-bd75-4a34-975b-9166427a0ce3#src=seo_token; stake-dao-yield (Base), 46.03% APY, $226.8K TVL, https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b#src=seo_token; aerodrome-v1 (Base), 38.16% APY, $239.8K TVL, https://www.defi.garden/?pool=5d98651c-3954-4061-9f5c-58783e030604#src=seo_token; curve-dex (Base), 44.49% APY, $321.1K TVL, https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, EUSD's lower-variability candidates are aerodrome-v1 (Base), 10.93% APY, $562.6K TVL, https://www.defi.garden/?pool=bde35fef-649f-4514-a564-e7e7da05eb52#src=seo_token; curve-dex (Ethereum), 77.79% APY, $1.48M TVL, https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1#src=seo_token; curve-dex (Ethereum), 1.76% APY, $226.6K TVL, https://www.defi.garden/?pool=817329d2-07cb-4cbd-82ac-eb9bc0add450#src=seo_token; curve-dex (Ethereum), 32.70% APY, $380.7K TVL, https://www.defi.garden/?pool=3e4081dd-324d-4a46-8aba-01320ac68fa2#src=seo_token; aerodrome-slipstream (Base), 5.16% APY, $520.9K TVL, https://www.defi.garden/?pool=aeb97af6-bd75-4a34-975b-9166427a0ce3#src=seo_token; stake-dao-yield (Base), 46.71% APY, $227.2K TVL, https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b#src=seo_token; aerodrome-v1 (Base), 38.02% APY, $240K TVL, https://www.defi.garden/?pool=5d98651c-3954-4061-9f5c-58783e030604#src=seo_token; curve-dex (Base), 44.57% APY, $321.3K TVL, https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

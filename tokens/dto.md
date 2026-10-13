@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest DTO yield right now is 0.33% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DTO yield right now is 0.32% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=30c1212f-1ebf-41bc-be9d-bd722ac9c8bd#src=seo_token) | Ethereum | 0.33% | $100.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=30c1212f-1ebf-41bc-be9d-bd722ac9c8bd#src=seo_token) | Ethereum | 0.32% | $100.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DTO yield today?
 
-0.33% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.32% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many DTO pools clear the TVL floor?
 

@@ -1,16 +1,16 @@
 # Cardano DeFi Yields
 
-The highest honest Cardano yield right now is 28.98% on minswap-dex (Cardano), among 36 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Cardano yield right now is 28.97% on minswap-dex (Cardano), among 36 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
 | ADA | [liqwid →](https://www.defi.garden/?pool=79e042b5-e55d-4a4e-b0b0-6661a570470b#src=seo_chain) | 3.17% | $5.03M |
-| ADA-NIGHT | [minswap-dex →](https://www.defi.garden/?pool=3f86eb49-a1fd-4236-ab2d-d90f9afc8f27#src=seo_chain) | 37.51% | $1.8M |
-| ADA-MIN | [minswap-dex →](https://www.defi.garden/?pool=25a7770b-4a3e-4e47-a215-06e2a7854c27#src=seo_chain) | 4.07% | $1.53M |
-| ADA-SNEK | [minswap-dex →](https://www.defi.garden/?pool=d7a2badf-9a75-4b90-9396-1e7c293cb454#src=seo_chain) | 32.29% | $1.09M |
-| ADA-USDM | [minswap-dex →](https://www.defi.garden/?pool=d66c9dc4-6ce4-41ba-b446-edb89e19cce6#src=seo_chain) | 21.01% | $947.3K |
-| ADA-USDA | [minswap-dex →](https://www.defi.garden/?pool=f40020a4-d465-489b-b6ab-d2a0d6cda763#src=seo_chain) | 17.20% | $758K |
-| ADA-FLDT | [minswap-dex →](https://www.defi.garden/?pool=d314f243-a440-4a4c-83f5-4da7e67c629a#src=seo_chain) | 28.98% | $689.4K |
+| ADA-NIGHT | [minswap-dex →](https://www.defi.garden/?pool=3f86eb49-a1fd-4236-ab2d-d90f9afc8f27#src=seo_chain) | 37.63% | $1.79M |
+| ADA-MIN | [minswap-dex →](https://www.defi.garden/?pool=25a7770b-4a3e-4e47-a215-06e2a7854c27#src=seo_chain) | 4.12% | $1.53M |
+| ADA-SNEK | [minswap-dex →](https://www.defi.garden/?pool=d7a2badf-9a75-4b90-9396-1e7c293cb454#src=seo_chain) | 32.42% | $1.1M |
+| ADA-USDM | [minswap-dex →](https://www.defi.garden/?pool=d66c9dc4-6ce4-41ba-b446-edb89e19cce6#src=seo_chain) | 21.02% | $943.3K |
+| ADA-USDA | [minswap-dex →](https://www.defi.garden/?pool=f40020a4-d465-489b-b6ab-d2a0d6cda763#src=seo_chain) | 17.20% | $756.5K |
+| ADA-FLDT | [minswap-dex →](https://www.defi.garden/?pool=d314f243-a440-4a4c-83f5-4da7e67c629a#src=seo_chain) | 28.97% | $687.7K |
 | NIGHT-SNEK | [minswap-dex →](https://www.defi.garden/?pool=dec4ed30-5969-4c36-804c-637ec8976856#src=seo_chain) | 23.36% | $595K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Cardano yield today?
 
-28.98% APY on minswap-dex (Cardano), based on live DefiLlama data.
+28.97% APY on minswap-dex (Cardano), based on live DefiLlama data.
 
 ### How many Cardano pools clear the TVL floor?
 
-36 live pools clear this page's $100K TVL floor, $22.95M in total.
+36 live pools clear this page's $100K TVL floor, $22.92M in total.
 
 ### Are these rates safe?
 

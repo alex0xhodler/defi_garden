@@ -2,23 +2,23 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest BUNKER yield right now is 32.76% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BUNKER yield right now is 32.72% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=57053816-e4aa-526a-9ae2-dca7eede2703#src=seo_token) | Ethereum | 32.76% | $506.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=57053816-e4aa-526a-9ae2-dca7eede2703#src=seo_token) | Ethereum | 32.72% | $502.7K |
 | [uniswap-v2 →](https://www.defi.garden/?pool=3444b7b0-1969-547c-a68f-a2599b70f12e#src=seo_token) | Base | 386.39% | $160.5K |
 | [raydium-amm →](https://www.defi.garden/?pool=80fdaac6-62fa-43b6-b6cc-332d625cd4e0#src=seo_token) | Solana | 1.74% | $125.8K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=448c07cb-a4d0-4b98-a5b5-6e1a8fae6501#src=seo_token) | Base | 0.02% | $115.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=448c07cb-a4d0-4b98-a5b5-6e1a8fae6501#src=seo_token) | Base | 0.02% | $116.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, BUNKER's lower-variability candidates are uniswap-v4 (Base), 0.02% APY, $115.5K TVL, https://www.defi.garden/?pool=448c07cb-a4d0-4b98-a5b5-6e1a8fae6501#src=seo_token; raydium-amm (Solana), 1.74% APY, $125.8K TVL, https://www.defi.garden/?pool=80fdaac6-62fa-43b6-b6cc-332d625cd4e0#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BUNKER's lower-variability candidates are uniswap-v4 (Base), 0.02% APY, $116.1K TVL, https://www.defi.garden/?pool=448c07cb-a4d0-4b98-a5b5-6e1a8fae6501#src=seo_token; raydium-amm (Solana), 1.74% APY, $125.8K TVL, https://www.defi.garden/?pool=80fdaac6-62fa-43b6-b6cc-332d625cd4e0#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=448c07cb-a4d0-4b98-a5b5-6e1a8fae6501#src=seo_token) | Base | 0.02% | $115.5K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=448c07cb-a4d0-4b98-a5b5-6e1a8fae6501#src=seo_token) | Base | 0.02% | $116.1K |
 | 2 | [raydium-amm →](https://www.defi.garden/?pool=80fdaac6-62fa-43b6-b6cc-332d625cd4e0#src=seo_token) | Solana | 1.74% | $125.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -27,7 +27,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 BUNKER shows up in 4 pools here, with rates from 0.02% to 386.39% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 29.99% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 29.81% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -35,7 +35,7 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 32.76% | 44.60% | Base rate |
+| uniswap-v3 | 32.72% | 44.26% | Base rate |
 | uniswap-v2 | 386.39% | 240.61% | Base rate |
 | raydium-amm | 1.74% | 15.37% | Base rate |
 | uniswap-v4 | 0.02% | 0.09% | Base rate |
@@ -46,11 +46,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BUNKER yield today?
 
-32.76% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+32.72% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many BUNKER pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $908K in total.
+4 live pools clear this page's $100K TVL floor, $905.2K in total.
 
 ### Are these rates safe?
 
@@ -58,7 +58,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BUNKER pools have the most stable APY history?
 
-Based on APY history only, BUNKER's lower-variability candidates are uniswap-v4 (Base), 0.02% APY, $115.5K TVL, https://www.defi.garden/?pool=448c07cb-a4d0-4b98-a5b5-6e1a8fae6501#src=seo_token; raydium-amm (Solana), 1.74% APY, $125.8K TVL, https://www.defi.garden/?pool=80fdaac6-62fa-43b6-b6cc-332d625cd4e0#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BUNKER's lower-variability candidates are uniswap-v4 (Base), 0.02% APY, $116.1K TVL, https://www.defi.garden/?pool=448c07cb-a4d0-4b98-a5b5-6e1a8fae6501#src=seo_token; raydium-amm (Solana), 1.74% APY, $125.8K TVL, https://www.defi.garden/?pool=80fdaac6-62fa-43b6-b6cc-332d625cd4e0#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

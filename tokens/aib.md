@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest AIB yield right now is 95.97% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AIB yield right now is 96.70% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=80e0f210-a5bc-454f-9146-3469cfce0e11#src=seo_token) | Ethereum | 95.97% | $111.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=80e0f210-a5bc-454f-9146-3469cfce0e11#src=seo_token) | Ethereum | 96.70% | $111.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AIB yield today?
 
-95.97% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+96.70% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many AIB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $111.3K in total.
+1 live pool clear this page's $100K TVL floor, $111.4K in total.
 
 ### Are these rates safe?
 

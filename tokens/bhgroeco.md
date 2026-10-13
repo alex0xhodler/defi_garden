@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest BHGROECO yield right now is 5.20% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BHGROECO yield right now is 5.28% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=cae9ccc7-7082-527b-b22f-76d08422a15d#src=seo_token) | Base | 5.20% | $112.4K |
+| [morpho-blue →](https://www.defi.garden/?pool=cae9ccc7-7082-527b-b22f-76d08422a15d#src=seo_token) | Base | 5.28% | $112.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BHGROECO yield today?
 
-5.20% APY on morpho-blue (Base), based on live DefiLlama data.
+5.28% APY on morpho-blue (Base), based on live DefiLlama data.
 
 ### How many BHGROECO pools clear the TVL floor?
 

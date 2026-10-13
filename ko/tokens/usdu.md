@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=5fd4f164-50d7-4d9e-9cb8-6eb62ac9f44c#src=seo_token) | Solana | 0.06% | $3.66M |
+| [orca-dex →](https://www.defi.garden/?pool=5fd4f164-50d7-4d9e-9cb8-6eb62ac9f44c#src=seo_token) | Solana | 0.06% | $3.64M |
 | [curve-dex →](https://www.defi.garden/?pool=614da229-4365-50a9-9261-4bf7fe8d5ccf#src=seo_token) | Ethereum | 0.01% | $197K |
 
 <!-- rate-stability:insufficient -->
@@ -41,7 +41,7 @@ DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 0.06%예요.
 
 ### USDU 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $8.61M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $8.58M예요.
 
 ### 이 수익률은 안전한가요?
 

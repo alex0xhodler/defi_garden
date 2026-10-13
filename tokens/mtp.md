@@ -22,7 +22,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 MTP shows up in 4 pools here, with rates from 5.72% to 14.86% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 7.01% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 7.00% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -30,10 +30,10 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| lagoon | 8.36% | 14.96% | Base rate |
+| lagoon | 8.36% | 14.92% | Base rate |
 | lagoon | 6.78% | 7.86% | Base rate |
 | lagoon | 5.72% | 6.15% | Base rate |
-| lagoon | 14.86% | 3.16% | Base rate |
+| lagoon | 14.86% | 3.24% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

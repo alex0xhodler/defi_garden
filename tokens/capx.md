@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest CAPX yield right now is 3.31% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CAPX yield right now is 3.28% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=ed309d3d-19bd-54fa-9673-39dd33813b18#src=seo_token) | Solana | 3.31% | $937.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=ed309d3d-19bd-54fa-9673-39dd33813b18#src=seo_token) | Solana | 3.28% | $943.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CAPX yield today?
 
-3.31% APY on raydium-amm (Solana), based on live DefiLlama data.
+3.28% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many CAPX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $937.3K in total.
+1 live pool clear this page's $100K TVL floor, $943.3K in total.
 
 ### Are these rates safe?
 

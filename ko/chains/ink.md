@@ -4,14 +4,14 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| KBTC | [tydro →](https://www.defi.garden/?pool=1357e23b-83d2-4183-bda0-a36913510b98#src=seo_chain) | 0.01% | $90.46M |
-| USDC | [tydro →](https://www.defi.garden/?pool=4d296741-940d-44c1-a729-f6bd1f330f6f#src=seo_chain) | 4.12% | $18.9M |
-| WETH | [tydro →](https://www.defi.garden/?pool=15baa435-9e38-4688-a345-6fe5783235ae#src=seo_chain) | 0.04% | $12.88M |
-| USD₮0-USDG | [velodrome-v3 →](https://www.defi.garden/?pool=b9ba5af5-01a6-49c7-bc56-516053a29e96#src=seo_chain) | 4.29% | $1.68M |
-| USD₮0 | [tydro →](https://www.defi.garden/?pool=ae25cef1-2ded-4c05-af5e-09f6420a2bce#src=seo_chain) | 3.04% | $1.66M |
-| USD₮0-GHO | [velodrome-v3 →](https://www.defi.garden/?pool=804b2c6e-ebc9-4bd6-9077-6f9abce69d05#src=seo_chain) | 2.25% | $1.17M |
+| KBTC | [tydro →](https://www.defi.garden/?pool=1357e23b-83d2-4183-bda0-a36913510b98#src=seo_chain) | 0.01% | $90.75M |
+| USDC | [tydro →](https://www.defi.garden/?pool=4d296741-940d-44c1-a729-f6bd1f330f6f#src=seo_chain) | 4.12% | $18.89M |
+| WETH | [tydro →](https://www.defi.garden/?pool=15baa435-9e38-4688-a345-6fe5783235ae#src=seo_chain) | 0.04% | $12.93M |
+| USD₮0-USDG | [velodrome-v3 →](https://www.defi.garden/?pool=b9ba5af5-01a6-49c7-bc56-516053a29e96#src=seo_chain) | 3.47% | $1.81M |
+| USD₮0 | [tydro →](https://www.defi.garden/?pool=ae25cef1-2ded-4c05-af5e-09f6420a2bce#src=seo_chain) | 3.02% | $1.71M |
+| USD₮0-GHO | [velodrome-v3 →](https://www.defi.garden/?pool=804b2c6e-ebc9-4bd6-9077-6f9abce69d05#src=seo_chain) | 2.24% | $1.17M |
 | USDG | [tydro →](https://www.defi.garden/?pool=065ea91c-deff-4da0-a06f-64c642780936#src=seo_chain) | 1.73% | $1.02M |
-| USD₮0-USDC | [velodrome-v3 →](https://www.defi.garden/?pool=4ba3a2f3-daa9-49fd-a25c-19e7cc5f77b8#src=seo_chain) | 2.49% | $871.1K |
+| USD₮0-USDC | [velodrome-v3 →](https://www.defi.garden/?pool=4ba3a2f3-daa9-49fd-a25c-19e7cc5f77b8#src=seo_chain) | 2.48% | $871.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Ink의 tydro에서 APY 4.12%예요.
 
 ### Ink 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 18개이며, 합산 TVL은 $155.73M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 18개이며, 합산 TVL은 $156.36M예요.
 
 ### 이 수익률은 안전한가요?
 

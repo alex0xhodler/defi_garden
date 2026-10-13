@@ -2,18 +2,18 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest DAI yield right now is 7.97% on uniswap-v3 (Ethereum), among 66 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DAI yield right now is 7.96% on uniswap-v3 (Ethereum), among 66 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sparklend →](https://www.defi.garden/?pool=e26ce7d9-db75-4aa4-b1db-cc21ae17bdfb#src=seo_token) | Ethereum | 2.85% | $75.25M |
+| [sparklend →](https://www.defi.garden/?pool=e26ce7d9-db75-4aa4-b1db-cc21ae17bdfb#src=seo_token) | Ethereum | 2.85% | $75.28M |
 | [aave-v3 →](https://www.defi.garden/?pool=3665ee7e-6c5d-49d9-abb7-c47ab5d9d4ac#src=seo_token) | Ethereum | 3.39% | $11.45M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=011b1887-e763-44cc-be06-7764fc3d194c#src=seo_token) | Ethereum | 3.64% | $9.21M |
-| [sushiswap-v3 →](https://www.defi.garden/?pool=089a0c17-446b-4bbd-97ee-882e30684ad7#src=seo_token) | Ethereum | 15.69% | $9.09M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=011b1887-e763-44cc-be06-7764fc3d194c#src=seo_token) | Ethereum | 3.47% | $9.21M |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=089a0c17-446b-4bbd-97ee-882e30684ad7#src=seo_token) | Ethereum | 16.38% | $9.09M |
 | [yearn-finance →](https://www.defi.garden/?pool=3fbb0e46-2efe-47cc-acbe-5c892fa56845#src=seo_token) | Ethereum | 2.88% | $7.06M |
-| [quickswap-dex →](https://www.defi.garden/?pool=e21e94a1-1ad0-4b9c-965b-7d4efe95de76#src=seo_token) | Polygon | 0.49% | $4.56M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=c7a4d490-cd63-49a2-a969-61854b80344e#src=seo_token) | Ethereum | 10.54% | $3.54M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=6e4f40e1-36a5-4f86-bea5-a1781c002a45#src=seo_token) | Ethereum | 7.97% | $1.46M |
+| [quickswap-dex →](https://www.defi.garden/?pool=e21e94a1-1ad0-4b9c-965b-7d4efe95de76#src=seo_token) | Polygon | 0.47% | $4.56M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c7a4d490-cd63-49a2-a969-61854b80344e#src=seo_token) | Ethereum | 10.03% | $3.54M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6e4f40e1-36a5-4f86-bea5-a1781c002a45#src=seo_token) | Ethereum | 7.96% | $1.46M |
 
 ## How DAI Yield is Generated
 
@@ -26,24 +26,24 @@ All DeFi yields carry inherent risk. Smart contract vulnerabilities, protocol ec
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, DAI's lower-variability candidates are quickswap-dex (Polygon), 0.49% APY, $4.56M TVL, https://www.defi.garden/?pool=e21e94a1-1ad0-4b9c-965b-7d4efe95de76#src=seo_token; sparklend (Ethereum), 2.85% APY, $75.25M TVL, https://www.defi.garden/?pool=e26ce7d9-db75-4aa4-b1db-cc21ae17bdfb#src=seo_token; aave-v3 (Ethereum), 3.39% APY, $11.45M TVL, https://www.defi.garden/?pool=3665ee7e-6c5d-49d9-abb7-c47ab5d9d4ac#src=seo_token; yearn-finance (Ethereum), 2.88% APY, $7.06M TVL, https://www.defi.garden/?pool=3fbb0e46-2efe-47cc-acbe-5c892fa56845#src=seo_token; uniswap-v2 (Ethereum), 3.64% APY, $9.21M TVL, https://www.defi.garden/?pool=011b1887-e763-44cc-be06-7764fc3d194c#src=seo_token; sushiswap-v3 (Ethereum), 15.69% APY, $9.09M TVL, https://www.defi.garden/?pool=089a0c17-446b-4bbd-97ee-882e30684ad7#src=seo_token; uniswap-v3 (Ethereum), 10.54% APY, $3.54M TVL, https://www.defi.garden/?pool=c7a4d490-cd63-49a2-a969-61854b80344e#src=seo_token; uniswap-v3 (Ethereum), 7.97% APY, $1.46M TVL, https://www.defi.garden/?pool=6e4f40e1-36a5-4f86-bea5-a1781c002a45#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, DAI's lower-variability candidates are quickswap-dex (Polygon), 0.47% APY, $4.56M TVL, https://www.defi.garden/?pool=e21e94a1-1ad0-4b9c-965b-7d4efe95de76#src=seo_token; sparklend (Ethereum), 2.85% APY, $75.28M TVL, https://www.defi.garden/?pool=e26ce7d9-db75-4aa4-b1db-cc21ae17bdfb#src=seo_token; aave-v3 (Ethereum), 3.39% APY, $11.45M TVL, https://www.defi.garden/?pool=3665ee7e-6c5d-49d9-abb7-c47ab5d9d4ac#src=seo_token; yearn-finance (Ethereum), 2.88% APY, $7.06M TVL, https://www.defi.garden/?pool=3fbb0e46-2efe-47cc-acbe-5c892fa56845#src=seo_token; uniswap-v2 (Ethereum), 3.47% APY, $9.21M TVL, https://www.defi.garden/?pool=011b1887-e763-44cc-be06-7764fc3d194c#src=seo_token; sushiswap-v3 (Ethereum), 16.38% APY, $9.09M TVL, https://www.defi.garden/?pool=089a0c17-446b-4bbd-97ee-882e30684ad7#src=seo_token; uniswap-v3 (Ethereum), 10.03% APY, $3.54M TVL, https://www.defi.garden/?pool=c7a4d490-cd63-49a2-a969-61854b80344e#src=seo_token; uniswap-v3 (Ethereum), 7.96% APY, $1.46M TVL, https://www.defi.garden/?pool=6e4f40e1-36a5-4f86-bea5-a1781c002a45#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [quickswap-dex →](https://www.defi.garden/?pool=e21e94a1-1ad0-4b9c-965b-7d4efe95de76#src=seo_token) | Polygon | 0.49% | $4.56M |
-| 2 | [sparklend →](https://www.defi.garden/?pool=e26ce7d9-db75-4aa4-b1db-cc21ae17bdfb#src=seo_token) | Ethereum | 2.85% | $75.25M |
+| 1 | [quickswap-dex →](https://www.defi.garden/?pool=e21e94a1-1ad0-4b9c-965b-7d4efe95de76#src=seo_token) | Polygon | 0.47% | $4.56M |
+| 2 | [sparklend →](https://www.defi.garden/?pool=e26ce7d9-db75-4aa4-b1db-cc21ae17bdfb#src=seo_token) | Ethereum | 2.85% | $75.28M |
 | 3 | [aave-v3 →](https://www.defi.garden/?pool=3665ee7e-6c5d-49d9-abb7-c47ab5d9d4ac#src=seo_token) | Ethereum | 3.39% | $11.45M |
 | 4 | [yearn-finance →](https://www.defi.garden/?pool=3fbb0e46-2efe-47cc-acbe-5c892fa56845#src=seo_token) | Ethereum | 2.88% | $7.06M |
-| 5 | [uniswap-v2 →](https://www.defi.garden/?pool=011b1887-e763-44cc-be06-7764fc3d194c#src=seo_token) | Ethereum | 3.64% | $9.21M |
-| 6 | [sushiswap-v3 →](https://www.defi.garden/?pool=089a0c17-446b-4bbd-97ee-882e30684ad7#src=seo_token) | Ethereum | 15.69% | $9.09M |
-| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=c7a4d490-cd63-49a2-a969-61854b80344e#src=seo_token) | Ethereum | 10.54% | $3.54M |
-| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=6e4f40e1-36a5-4f86-bea5-a1781c002a45#src=seo_token) | Ethereum | 7.97% | $1.46M |
+| 5 | [uniswap-v2 →](https://www.defi.garden/?pool=011b1887-e763-44cc-be06-7764fc3d194c#src=seo_token) | Ethereum | 3.47% | $9.21M |
+| 6 | [sushiswap-v3 →](https://www.defi.garden/?pool=089a0c17-446b-4bbd-97ee-882e30684ad7#src=seo_token) | Ethereum | 16.38% | $9.09M |
+| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=c7a4d490-cd63-49a2-a969-61854b80344e#src=seo_token) | Ethereum | 10.03% | $3.54M |
+| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=6e4f40e1-36a5-4f86-bea5-a1781c002a45#src=seo_token) | Ethereum | 7.96% | $1.46M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-DAI shows up in 8 pools here, with rates from 0.49% to 15.69% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+DAI shows up in 8 pools here, with rates from 0.47% to 16.38% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 3.08% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -53,14 +53,14 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| sparklend | 2.85% | 2.66% | Base rate |
+| sparklend | 2.85% | 2.67% | Base rate |
 | aave-v3 | 3.39% | 3.23% | Base rate |
-| uniswap-v2 | 3.64% | 2.20% | Base rate |
-| sushiswap-v3 | 15.69% | 9.40% | Base rate |
+| uniswap-v2 | 3.47% | 2.21% | Base rate |
+| sushiswap-v3 | 16.38% | 9.44% | Base rate |
 | yearn-finance | 2.88% | 2.92% | Base rate |
-| quickswap-dex | 0.49% | 0.60% | Base rate |
-| uniswap-v3 | 10.54% | 6.40% | Base rate |
-| uniswap-v3 | 7.97% | 6.81% | Base rate |
+| quickswap-dex | 0.47% | 0.60% | Base rate |
+| uniswap-v3 | 10.03% | 6.42% | Base rate |
+| uniswap-v3 | 7.96% | 6.83% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -68,11 +68,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest DAI yield today?
 
-7.97% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+7.96% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many DAI pools clear the TVL floor?
 
-66 live pools clear this page's $100K TVL floor, $315.89M in total.
+66 live pools clear this page's $100K TVL floor, $315.92M in total.
 
 ### Are these rates safe?
 
@@ -80,7 +80,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which DAI pools have the most stable APY history?
 
-Based on APY history only, DAI's lower-variability candidates are quickswap-dex (Polygon), 0.49% APY, $4.56M TVL, https://www.defi.garden/?pool=e21e94a1-1ad0-4b9c-965b-7d4efe95de76#src=seo_token; sparklend (Ethereum), 2.85% APY, $75.25M TVL, https://www.defi.garden/?pool=e26ce7d9-db75-4aa4-b1db-cc21ae17bdfb#src=seo_token; aave-v3 (Ethereum), 3.39% APY, $11.45M TVL, https://www.defi.garden/?pool=3665ee7e-6c5d-49d9-abb7-c47ab5d9d4ac#src=seo_token; yearn-finance (Ethereum), 2.88% APY, $7.06M TVL, https://www.defi.garden/?pool=3fbb0e46-2efe-47cc-acbe-5c892fa56845#src=seo_token; uniswap-v2 (Ethereum), 3.64% APY, $9.21M TVL, https://www.defi.garden/?pool=011b1887-e763-44cc-be06-7764fc3d194c#src=seo_token; sushiswap-v3 (Ethereum), 15.69% APY, $9.09M TVL, https://www.defi.garden/?pool=089a0c17-446b-4bbd-97ee-882e30684ad7#src=seo_token; uniswap-v3 (Ethereum), 10.54% APY, $3.54M TVL, https://www.defi.garden/?pool=c7a4d490-cd63-49a2-a969-61854b80344e#src=seo_token; uniswap-v3 (Ethereum), 7.97% APY, $1.46M TVL, https://www.defi.garden/?pool=6e4f40e1-36a5-4f86-bea5-a1781c002a45#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, DAI's lower-variability candidates are quickswap-dex (Polygon), 0.47% APY, $4.56M TVL, https://www.defi.garden/?pool=e21e94a1-1ad0-4b9c-965b-7d4efe95de76#src=seo_token; sparklend (Ethereum), 2.85% APY, $75.28M TVL, https://www.defi.garden/?pool=e26ce7d9-db75-4aa4-b1db-cc21ae17bdfb#src=seo_token; aave-v3 (Ethereum), 3.39% APY, $11.45M TVL, https://www.defi.garden/?pool=3665ee7e-6c5d-49d9-abb7-c47ab5d9d4ac#src=seo_token; yearn-finance (Ethereum), 2.88% APY, $7.06M TVL, https://www.defi.garden/?pool=3fbb0e46-2efe-47cc-acbe-5c892fa56845#src=seo_token; uniswap-v2 (Ethereum), 3.47% APY, $9.21M TVL, https://www.defi.garden/?pool=011b1887-e763-44cc-be06-7764fc3d194c#src=seo_token; sushiswap-v3 (Ethereum), 16.38% APY, $9.09M TVL, https://www.defi.garden/?pool=089a0c17-446b-4bbd-97ee-882e30684ad7#src=seo_token; uniswap-v3 (Ethereum), 10.03% APY, $3.54M TVL, https://www.defi.garden/?pool=c7a4d490-cd63-49a2-a969-61854b80344e#src=seo_token; uniswap-v3 (Ethereum), 7.96% APY, $1.46M TVL, https://www.defi.garden/?pool=6e4f40e1-36a5-4f86-bea5-a1781c002a45#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

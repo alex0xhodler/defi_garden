@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest FEUSDT0V2 yield right now is 6.78% on morpho-blue (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FEUSDT0V2 yield right now is 6.77% on morpho-blue (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=11b994db-6487-56d9-b17d-727b24e89c4e#src=seo_token) | Hyperliquid L1 | 6.78% | $5.17M |
+| [morpho-blue →](https://www.defi.garden/?pool=11b994db-6487-56d9-b17d-727b24e89c4e#src=seo_token) | Hyperliquid L1 | 6.77% | $5.14M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FEUSDT0V2 yield today?
 
-6.78% APY on morpho-blue (Hyperliquid L1), based on live DefiLlama data.
+6.77% APY on morpho-blue (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many FEUSDT0V2 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $5.17M in total.
+1 live pool clear this page's $100K TVL floor, $5.14M in total.
 
 ### Are these rates safe?
 
@@ -37,10 +37,10 @@ There is not enough qualifying APY history to rank FEUSDT0V2 pools. This view co
 
 - [KHYPE](https://www.defi.garden/tokens/khype)
 - [WHYPE](https://www.defi.garden/tokens/whype)
+- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [THBILL](https://www.defi.garden/tokens/thbill)
 - [UBTC](https://www.defi.garden/tokens/ubtc)
 - [WSTHYPE](https://www.defi.garden/tokens/wsthype)
-- [XBTC](https://www.defi.garden/tokens/xbtc)
 
 ## Available on
 

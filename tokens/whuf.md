@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest WHUF yield right now is 763.93% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WHUF yield right now is 591.63% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=606bd835-c50f-5bb4-aba8-1454c9967e2f#src=seo_token) | Base | 763.93% | $263.7K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=606bd835-c50f-5bb4-aba8-1454c9967e2f#src=seo_token) | Base | 591.63% | $259.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WHUF yield today?
 
-763.93% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+591.63% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many WHUF pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $263.7K in total.
+1 live pool clear this page's $100K TVL floor, $259.5K in total.
 
 ### Are these rates safe?
 

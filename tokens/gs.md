@@ -6,7 +6,7 @@ The highest honest GS yield right now is 0.12% on uniswap-v4 (Base), among 1 poo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=69fb112f-0e9c-5206-95ab-fadb9f216007#src=seo_token) | Base | 0.12% | $305.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=69fb112f-0e9c-5206-95ab-fadb9f216007#src=seo_token) | Base | 0.12% | $306K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $305.2K in total.
+1 live pool clear this page's $100K TVL floor, $306K in total.
 
 ### Are these rates safe?
 

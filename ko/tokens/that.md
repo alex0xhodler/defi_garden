@@ -2,11 +2,11 @@
 
 *DefiLlama 데이터 생성 시점 검증: October 13, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 THAT의 가장 높은 정직한 수익률은 Polygon의 uniswap-v3에서 6.65%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 THAT의 가장 높은 정직한 수익률은 Polygon의 uniswap-v3에서 6.85%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=577dc1e4-1336-44c2-86bd-712af4ae2127#src=seo_token) | Polygon | 6.65% | $237.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=577dc1e4-1336-44c2-86bd-712af4ae2127#src=seo_token) | Polygon | 6.85% | $237.9K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,11 +19,11 @@
 
 ### 오늘 THAT의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Polygon의 uniswap-v3에서 APY 6.65%예요.
+DefiLlama 실시간 데이터 기준, Polygon의 uniswap-v3에서 APY 6.85%예요.
 
 ### THAT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $237.1K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $237.9K예요.
 
 ### 이 수익률은 안전한가요?
 

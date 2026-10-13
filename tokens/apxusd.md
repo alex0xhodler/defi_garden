@@ -6,36 +6,36 @@ The highest honest APXUSD yield right now is 12.16% on pendle-v2 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [apyx-protocol →](https://www.defi.garden/pools/apyx-protocol-apxusd-ethereum) | Ethereum | 11.93% | $161.28M |
-| [curve-dex →](https://www.defi.garden/?pool=7b3e4cca-a90e-4a45-95ac-a6b637a850b2#src=seo_token) | Ethereum | 8.33% | $16.73M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=02d27f9f-e63d-497f-bbd9-826261b0d976#src=seo_token) | Ethereum | 2.45% | $10.17M |
-| [orca-dex →](https://www.defi.garden/?pool=2bc1e48c-3395-587a-b52e-e75ff5e90beb#src=seo_token) | Solana | 0.33% | $7.39M |
-| [curve-dex →](https://www.defi.garden/?pool=10155a57-e18b-53f7-b91a-e8bd90122e0a#src=seo_token) | Ethereum | 5.39% | $4.76M |
-| [orca-dex →](https://www.defi.garden/?pool=6d512187-0ad5-571e-9102-924dc6e19293#src=seo_token) | Solana | 2.15% | $1.5M |
+| [apyx-protocol →](https://www.defi.garden/pools/apyx-protocol-apxusd-ethereum) | Ethereum | 11.94% | $161.16M |
+| [curve-dex →](https://www.defi.garden/?pool=7b3e4cca-a90e-4a45-95ac-a6b637a850b2#src=seo_token) | Ethereum | 8.33% | $16.71M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=02d27f9f-e63d-497f-bbd9-826261b0d976#src=seo_token) | Ethereum | 1.27% | $10.17M |
+| [orca-dex →](https://www.defi.garden/?pool=2bc1e48c-3395-587a-b52e-e75ff5e90beb#src=seo_token) | Solana | 0.36% | $7.39M |
+| [curve-dex →](https://www.defi.garden/?pool=10155a57-e18b-53f7-b91a-e8bd90122e0a#src=seo_token) | Ethereum | 5.39% | $4.75M |
+| [orca-dex →](https://www.defi.garden/?pool=6d512187-0ad5-571e-9102-924dc6e19293#src=seo_token) | Solana | 1.97% | $1.5M |
 | [pendle-v2 →](https://www.defi.garden/?pool=37fbd051-f7b6-4698-9ea6-ecb57ee1593b#src=seo_token) | Ethereum | 12.16% | $1.47M |
 | [pendle-v2 →](https://www.defi.garden/?pool=e7f25daf-de52-4fa1-ae9d-707bd7266751#src=seo_token) | Ethereum | 4.88% | $1.47M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, APXUSD's lower-variability candidates are orca-dex (Solana), 0.33% APY, $7.39M TVL, https://www.defi.garden/?pool=2bc1e48c-3395-587a-b52e-e75ff5e90beb#src=seo_token; apyx-protocol (Ethereum), 11.93% APY, $161.28M TVL, https://www.defi.garden/pools/apyx-protocol-apxusd-ethereum; pendle-v2 (Ethereum), 12.16% APY, $1.47M TVL, https://www.defi.garden/?pool=37fbd051-f7b6-4698-9ea6-ecb57ee1593b#src=seo_token; orca-dex (Solana), 2.15% APY, $1.5M TVL, https://www.defi.garden/?pool=6d512187-0ad5-571e-9102-924dc6e19293#src=seo_token; curve-dex (Ethereum), 5.39% APY, $4.76M TVL, https://www.defi.garden/?pool=10155a57-e18b-53f7-b91a-e8bd90122e0a#src=seo_token; curve-dex (Ethereum), 8.33% APY, $16.73M TVL, https://www.defi.garden/?pool=7b3e4cca-a90e-4a45-95ac-a6b637a850b2#src=seo_token; pendle-v2 (Ethereum), 4.88% APY, $1.47M TVL, https://www.defi.garden/?pool=e7f25daf-de52-4fa1-ae9d-707bd7266751#src=seo_token; uniswap-v4 (Ethereum), 2.45% APY, $10.17M TVL, https://www.defi.garden/?pool=02d27f9f-e63d-497f-bbd9-826261b0d976#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, APXUSD's lower-variability candidates are orca-dex (Solana), 0.36% APY, $7.39M TVL, https://www.defi.garden/?pool=2bc1e48c-3395-587a-b52e-e75ff5e90beb#src=seo_token; apyx-protocol (Ethereum), 11.94% APY, $161.16M TVL, https://www.defi.garden/pools/apyx-protocol-apxusd-ethereum; pendle-v2 (Ethereum), 12.16% APY, $1.47M TVL, https://www.defi.garden/?pool=37fbd051-f7b6-4698-9ea6-ecb57ee1593b#src=seo_token; orca-dex (Solana), 1.97% APY, $1.5M TVL, https://www.defi.garden/?pool=6d512187-0ad5-571e-9102-924dc6e19293#src=seo_token; curve-dex (Ethereum), 5.39% APY, $4.75M TVL, https://www.defi.garden/?pool=10155a57-e18b-53f7-b91a-e8bd90122e0a#src=seo_token; curve-dex (Ethereum), 8.33% APY, $16.71M TVL, https://www.defi.garden/?pool=7b3e4cca-a90e-4a45-95ac-a6b637a850b2#src=seo_token; pendle-v2 (Ethereum), 4.88% APY, $1.47M TVL, https://www.defi.garden/?pool=e7f25daf-de52-4fa1-ae9d-707bd7266751#src=seo_token; uniswap-v4 (Ethereum), 1.27% APY, $10.17M TVL, https://www.defi.garden/?pool=02d27f9f-e63d-497f-bbd9-826261b0d976#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [orca-dex →](https://www.defi.garden/?pool=2bc1e48c-3395-587a-b52e-e75ff5e90beb#src=seo_token) | Solana | 0.33% | $7.39M |
-| 2 | [apyx-protocol →](https://www.defi.garden/pools/apyx-protocol-apxusd-ethereum) | Ethereum | 11.93% | $161.28M |
+| 1 | [orca-dex →](https://www.defi.garden/?pool=2bc1e48c-3395-587a-b52e-e75ff5e90beb#src=seo_token) | Solana | 0.36% | $7.39M |
+| 2 | [apyx-protocol →](https://www.defi.garden/pools/apyx-protocol-apxusd-ethereum) | Ethereum | 11.94% | $161.16M |
 | 3 | [pendle-v2 →](https://www.defi.garden/?pool=37fbd051-f7b6-4698-9ea6-ecb57ee1593b#src=seo_token) | Ethereum | 12.16% | $1.47M |
-| 4 | [orca-dex →](https://www.defi.garden/?pool=6d512187-0ad5-571e-9102-924dc6e19293#src=seo_token) | Solana | 2.15% | $1.5M |
-| 5 | [curve-dex →](https://www.defi.garden/?pool=10155a57-e18b-53f7-b91a-e8bd90122e0a#src=seo_token) | Ethereum | 5.39% | $4.76M |
-| 6 | [curve-dex →](https://www.defi.garden/?pool=7b3e4cca-a90e-4a45-95ac-a6b637a850b2#src=seo_token) | Ethereum | 8.33% | $16.73M |
+| 4 | [orca-dex →](https://www.defi.garden/?pool=6d512187-0ad5-571e-9102-924dc6e19293#src=seo_token) | Solana | 1.97% | $1.5M |
+| 5 | [curve-dex →](https://www.defi.garden/?pool=10155a57-e18b-53f7-b91a-e8bd90122e0a#src=seo_token) | Ethereum | 5.39% | $4.75M |
+| 6 | [curve-dex →](https://www.defi.garden/?pool=7b3e4cca-a90e-4a45-95ac-a6b637a850b2#src=seo_token) | Ethereum | 8.33% | $16.71M |
 | 7 | [pendle-v2 →](https://www.defi.garden/?pool=e7f25daf-de52-4fa1-ae9d-707bd7266751#src=seo_token) | Ethereum | 4.88% | $1.47M |
-| 8 | [uniswap-v4 →](https://www.defi.garden/?pool=02d27f9f-e63d-497f-bbd9-826261b0d976#src=seo_token) | Ethereum | 2.45% | $10.17M |
+| 8 | [uniswap-v4 →](https://www.defi.garden/?pool=02d27f9f-e63d-497f-bbd9-826261b0d976#src=seo_token) | Ethereum | 1.27% | $10.17M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-APXUSD shows up in 8 pools here, with rates from 0.33% to 12.16% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+APXUSD shows up in 8 pools here, with rates from 0.36% to 12.16% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 8.22% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -43,14 +43,14 @@ APXUSD shows up in 8 pools here, with rates from 0.33% to 12.16% APY across 2 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| apyx-protocol | 11.93% | 12.97% | Base rate |
-| curve-dex | 8.33% | 8.48% | Base rate |
-| uniswap-v4 | 2.45% | 12.85% | Base rate |
-| orca-dex | 0.33% | 0.36% | Base rate |
-| curve-dex | 5.39% | 6.98% | Base rate |
-| orca-dex | 2.15% | 1.97% | Base rate |
+| apyx-protocol | 11.94% | 12.97% | Base rate |
+| curve-dex | 8.33% | 8.49% | Base rate |
+| uniswap-v4 | 1.27% | 12.80% | Base rate |
+| orca-dex | 0.36% | 0.36% | Base rate |
+| curve-dex | 5.39% | 6.99% | Base rate |
+| orca-dex | 1.97% | 1.97% | Base rate |
 | pendle-v2 | 12.16% | 12.89% | Base rate |
-| pendle-v2 | 4.88% | 7.95% | 8.64% incentives |
+| pendle-v2 | 4.88% | 7.95% | 8.59% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -62,7 +62,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many APXUSD pools clear the TVL floor?
 
-26 live pools clear this page's $100K TVL floor, $213.56M in total.
+26 live pools clear this page's $100K TVL floor, $213.41M in total.
 
 ### Are these rates safe?
 
@@ -70,7 +70,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which APXUSD pools have the most stable APY history?
 
-Based on APY history only, APXUSD's lower-variability candidates are orca-dex (Solana), 0.33% APY, $7.39M TVL, https://www.defi.garden/?pool=2bc1e48c-3395-587a-b52e-e75ff5e90beb#src=seo_token; apyx-protocol (Ethereum), 11.93% APY, $161.28M TVL, https://www.defi.garden/pools/apyx-protocol-apxusd-ethereum; pendle-v2 (Ethereum), 12.16% APY, $1.47M TVL, https://www.defi.garden/?pool=37fbd051-f7b6-4698-9ea6-ecb57ee1593b#src=seo_token; orca-dex (Solana), 2.15% APY, $1.5M TVL, https://www.defi.garden/?pool=6d512187-0ad5-571e-9102-924dc6e19293#src=seo_token; curve-dex (Ethereum), 5.39% APY, $4.76M TVL, https://www.defi.garden/?pool=10155a57-e18b-53f7-b91a-e8bd90122e0a#src=seo_token; curve-dex (Ethereum), 8.33% APY, $16.73M TVL, https://www.defi.garden/?pool=7b3e4cca-a90e-4a45-95ac-a6b637a850b2#src=seo_token; pendle-v2 (Ethereum), 4.88% APY, $1.47M TVL, https://www.defi.garden/?pool=e7f25daf-de52-4fa1-ae9d-707bd7266751#src=seo_token; uniswap-v4 (Ethereum), 2.45% APY, $10.17M TVL, https://www.defi.garden/?pool=02d27f9f-e63d-497f-bbd9-826261b0d976#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, APXUSD's lower-variability candidates are orca-dex (Solana), 0.36% APY, $7.39M TVL, https://www.defi.garden/?pool=2bc1e48c-3395-587a-b52e-e75ff5e90beb#src=seo_token; apyx-protocol (Ethereum), 11.94% APY, $161.16M TVL, https://www.defi.garden/pools/apyx-protocol-apxusd-ethereum; pendle-v2 (Ethereum), 12.16% APY, $1.47M TVL, https://www.defi.garden/?pool=37fbd051-f7b6-4698-9ea6-ecb57ee1593b#src=seo_token; orca-dex (Solana), 1.97% APY, $1.5M TVL, https://www.defi.garden/?pool=6d512187-0ad5-571e-9102-924dc6e19293#src=seo_token; curve-dex (Ethereum), 5.39% APY, $4.75M TVL, https://www.defi.garden/?pool=10155a57-e18b-53f7-b91a-e8bd90122e0a#src=seo_token; curve-dex (Ethereum), 8.33% APY, $16.71M TVL, https://www.defi.garden/?pool=7b3e4cca-a90e-4a45-95ac-a6b637a850b2#src=seo_token; pendle-v2 (Ethereum), 4.88% APY, $1.47M TVL, https://www.defi.garden/?pool=e7f25daf-de52-4fa1-ae9d-707bd7266751#src=seo_token; uniswap-v4 (Ethereum), 1.27% APY, $10.17M TVL, https://www.defi.garden/?pool=02d27f9f-e63d-497f-bbd9-826261b0d976#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

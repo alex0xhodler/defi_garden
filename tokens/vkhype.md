@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 VKHYPE shows up in 3 pools here, with rates from 0.60% to 2.22% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 4.64% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 4.63% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -29,9 +29,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| project-x | 0.88% | 4.64% | Base rate |
+| project-x | 0.88% | 4.63% | Base rate |
 | pendle-v2 | 2.22% | 2.37% | Base rate |
-| pendle-v2 | 0.60% | 7.43% | Base rate |
+| pendle-v2 | 0.60% | 7.41% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -43,7 +43,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many VKHYPE pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $977.2K in total.
+3 live pools clear this page's $100K TVL floor, $977.4K in total.
 
 ### Are these rates safe?
 
@@ -57,10 +57,10 @@ There is not enough qualifying APY history to rank VKHYPE pools. This view cover
 
 - [KHYPE](https://www.defi.garden/tokens/khype)
 - [WHYPE](https://www.defi.garden/tokens/whype)
+- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [THBILL](https://www.defi.garden/tokens/thbill)
 - [UBTC](https://www.defi.garden/tokens/ubtc)
 - [WSTHYPE](https://www.defi.garden/tokens/wsthype)
-- [XBTC](https://www.defi.garden/tokens/xbtc)
 
 ## Available on
 

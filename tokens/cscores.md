@@ -6,7 +6,7 @@ The highest honest CSCORES yield right now is 8.23% on morpho-blue (Katana), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=36d00dc7-505a-4c7d-b82a-08e89f39e0dc#src=seo_token) | Katana | 8.23% | $562.2K |
+| [morpho-blue →](https://www.defi.garden/?pool=36d00dc7-505a-4c7d-b82a-08e89f39e0dc#src=seo_token) | Katana | 8.23% | $562.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CSCORES pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $562.2K in total.
+1 live pool clear this page's $100K TVL floor, $562.3K in total.
 
 ### Are these rates safe?
 
@@ -35,12 +35,12 @@ There is not enough qualifying APY history to rank CSCORES pools. This view cove
 
 ## Related tokens
 
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [STEAKUSDC](https://www.defi.garden/tokens/steakusdc)
 - [BBQUSDC](https://www.defi.garden/tokens/bbqusdc)
 - [YMVOG](https://www.defi.garden/tokens/ymvog)
 - [VBWBTC](https://www.defi.garden/tokens/vbwbtc)
 - [VBUSDC](https://www.defi.garden/tokens/vbusdc)
+- [YOG](https://www.defi.garden/tokens/yog)
 
 ## Available on
 

@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest EBCC yield right now is 15.57% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EBCC yield right now is 16.39% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=1d622203-fbb7-5d8f-b2b5-303c6f289418#src=seo_token) | Polygon | 15.57% | $140.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1d622203-fbb7-5d8f-b2b5-303c6f289418#src=seo_token) | Polygon | 16.39% | $140.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EBCC yield today?
 
-15.57% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
+16.39% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
 
 ### How many EBCC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $140.9K in total.
+1 live pool clear this page's $100K TVL floor, $140.8K in total.
 
 ### Are these rates safe?
 

@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest PNK yield right now is 2.64% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PNK yield right now is 2.34% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=f40da205-8c3e-446c-bbcd-298cb183d323#src=seo_token) | Ethereum | 2.64% | $1.4M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f40da205-8c3e-446c-bbcd-298cb183d323#src=seo_token) | Ethereum | 2.34% | $1.4M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PNK yield today?
 
-2.64% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+2.34% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many PNK pools clear the TVL floor?
 

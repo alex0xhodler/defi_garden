@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest TKN yield right now is 35.00% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TKN yield right now is 34.95% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=6f1941c4-91d5-41a7-8bf5-5797f9d66a08#src=seo_token) | Base | 35.00% | $117.7K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=6f1941c4-91d5-41a7-8bf5-5797f9d66a08#src=seo_token) | Base | 34.95% | $117.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TKN yield today?
 
-35.00% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+34.95% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many TKN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $117.7K in total.
+1 live pool clear this page's $100K TVL floor, $117.5K in total.
 
 ### Are these rates safe?
 

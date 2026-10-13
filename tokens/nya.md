@@ -6,20 +6,20 @@ The highest honest NYA yield right now is 0.08% on uniswap-v3 (Avalanche), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=89b0b4fd-06ff-4d9c-813a-4c0ed46a294c#src=seo_token) | Base | 0.02% | $194.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=4b0214bf-be80-464d-9058-8712af9c0cab#src=seo_token) | Arbitrum | 0.02% | $194K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=bc8c743a-42e2-43bc-ba3f-eb0fc223afdb#src=seo_token) | Avalanche | 0.08% | $133.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=89b0b4fd-06ff-4d9c-813a-4c0ed46a294c#src=seo_token) | Base | 0.02% | $194.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4b0214bf-be80-464d-9058-8712af9c0cab#src=seo_token) | Arbitrum | 0.02% | $194.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=bc8c743a-42e2-43bc-ba3f-eb0fc223afdb#src=seo_token) | Avalanche | 0.08% | $132.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, NYA's lower-variability candidates are uniswap-v3 (Arbitrum), 0.02% APY, $194K TVL, https://www.defi.garden/?pool=4b0214bf-be80-464d-9058-8712af9c0cab#src=seo_token; uniswap-v3 (Base), 0.02% APY, $194.4K TVL, https://www.defi.garden/?pool=89b0b4fd-06ff-4d9c-813a-4c0ed46a294c#src=seo_token; uniswap-v3 (Avalanche), 0.08% APY, $133.2K TVL, https://www.defi.garden/?pool=bc8c743a-42e2-43bc-ba3f-eb0fc223afdb#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NYA's lower-variability candidates are uniswap-v3 (Arbitrum), 0.02% APY, $194.3K TVL, https://www.defi.garden/?pool=4b0214bf-be80-464d-9058-8712af9c0cab#src=seo_token; uniswap-v3 (Base), 0.02% APY, $194.7K TVL, https://www.defi.garden/?pool=89b0b4fd-06ff-4d9c-813a-4c0ed46a294c#src=seo_token; uniswap-v3 (Avalanche), 0.08% APY, $132.6K TVL, https://www.defi.garden/?pool=bc8c743a-42e2-43bc-ba3f-eb0fc223afdb#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=4b0214bf-be80-464d-9058-8712af9c0cab#src=seo_token) | Arbitrum | 0.02% | $194K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=89b0b4fd-06ff-4d9c-813a-4c0ed46a294c#src=seo_token) | Base | 0.02% | $194.4K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=bc8c743a-42e2-43bc-ba3f-eb0fc223afdb#src=seo_token) | Avalanche | 0.08% | $133.2K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=4b0214bf-be80-464d-9058-8712af9c0cab#src=seo_token) | Arbitrum | 0.02% | $194.3K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=89b0b4fd-06ff-4d9c-813a-4c0ed46a294c#src=seo_token) | Base | 0.02% | $194.7K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=bc8c743a-42e2-43bc-ba3f-eb0fc223afdb#src=seo_token) | Avalanche | 0.08% | $132.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -49,7 +49,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many NYA pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $715.7K in total.
+4 live pools clear this page's $100K TVL floor, $716K in total.
 
 ### Are these rates safe?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which NYA pools have the most stable APY history?
 
-Based on APY history only, NYA's lower-variability candidates are uniswap-v3 (Arbitrum), 0.02% APY, $194K TVL, https://www.defi.garden/?pool=4b0214bf-be80-464d-9058-8712af9c0cab#src=seo_token; uniswap-v3 (Base), 0.02% APY, $194.4K TVL, https://www.defi.garden/?pool=89b0b4fd-06ff-4d9c-813a-4c0ed46a294c#src=seo_token; uniswap-v3 (Avalanche), 0.08% APY, $133.2K TVL, https://www.defi.garden/?pool=bc8c743a-42e2-43bc-ba3f-eb0fc223afdb#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NYA's lower-variability candidates are uniswap-v3 (Arbitrum), 0.02% APY, $194.3K TVL, https://www.defi.garden/?pool=4b0214bf-be80-464d-9058-8712af9c0cab#src=seo_token; uniswap-v3 (Base), 0.02% APY, $194.7K TVL, https://www.defi.garden/?pool=89b0b4fd-06ff-4d9c-813a-4c0ed46a294c#src=seo_token; uniswap-v3 (Avalanche), 0.08% APY, $132.6K TVL, https://www.defi.garden/?pool=bc8c743a-42e2-43bc-ba3f-eb0fc223afdb#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

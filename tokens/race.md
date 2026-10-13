@@ -2,11 +2,11 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest RACE yield right now is 325.75% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RACE yield right now is 375.61% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=1541a928-a359-5d38-a7fd-ecc07ae4d100#src=seo_token) | Solana | 325.75% | $121.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=1541a928-a359-5d38-a7fd-ecc07ae4d100#src=seo_token) | Solana | 375.61% | $100.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RACE yield today?
 
-325.75% APY on raydium-amm (Solana), based on live DefiLlama data.
+375.61% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many RACE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $121.1K in total.
+1 live pool clear this page's $100K TVL floor, $100.5K in total.
 
 ### Are these rates safe?
 

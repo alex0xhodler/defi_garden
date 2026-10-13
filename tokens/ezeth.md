@@ -6,7 +6,7 @@ The highest honest EZETH yield right now is 2.22% on renzo (Ethereum), among 8 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [renzo →](https://www.defi.garden/pools/renzo-ezeth-ethereum) | Ethereum | 2.22% | $110.7M |
+| [renzo →](https://www.defi.garden/pools/renzo-ezeth-ethereum) | Ethereum | 2.22% | $111.07M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many EZETH pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $113.89M in total.
+8 live pools clear this page's $100K TVL floor, $114.27M in total.
 
 ### Are these rates safe?
 

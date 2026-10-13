@@ -2,30 +2,30 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest MSTR yield right now is 45.37% on raydium-amm (Solana), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MSTR yield right now is 42.16% on raydium-amm (Solana), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=19b50b0e-0205-57c1-a76c-f07c26cbf6ab#src=seo_token) | Solana | 45.37% | $305.9K |
-| [raydium-amm →](https://www.defi.garden/?pool=124d25b1-784a-5ef8-8e70-41d95f8e51fe#src=seo_token) | Solana | 13.34% | $129.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=19b50b0e-0205-57c1-a76c-f07c26cbf6ab#src=seo_token) | Solana | 42.16% | $306K |
+| [raydium-amm →](https://www.defi.garden/?pool=124d25b1-784a-5ef8-8e70-41d95f8e51fe#src=seo_token) | Solana | 12.20% | $130.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, MSTR's lower-variability candidates are raydium-amm (Solana), 45.37% APY, $305.9K TVL, https://www.defi.garden/?pool=19b50b0e-0205-57c1-a76c-f07c26cbf6ab#src=seo_token; raydium-amm (Solana), 13.34% APY, $129.8K TVL, https://www.defi.garden/?pool=124d25b1-784a-5ef8-8e70-41d95f8e51fe#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MSTR's lower-variability candidates are raydium-amm (Solana), 42.16% APY, $306K TVL, https://www.defi.garden/?pool=19b50b0e-0205-57c1-a76c-f07c26cbf6ab#src=seo_token; raydium-amm (Solana), 12.20% APY, $130.1K TVL, https://www.defi.garden/?pool=124d25b1-784a-5ef8-8e70-41d95f8e51fe#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=19b50b0e-0205-57c1-a76c-f07c26cbf6ab#src=seo_token) | Solana | 45.37% | $305.9K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=124d25b1-784a-5ef8-8e70-41d95f8e51fe#src=seo_token) | Solana | 13.34% | $129.8K |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=19b50b0e-0205-57c1-a76c-f07c26cbf6ab#src=seo_token) | Solana | 42.16% | $306K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=124d25b1-784a-5ef8-8e70-41d95f8e51fe#src=seo_token) | Solana | 12.20% | $130.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-MSTR shows up in 2 pools here, with rates from 13.34% to 45.37% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+MSTR shows up in 2 pools here, with rates from 12.20% to 42.16% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 31.02% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 31.01% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 45.37% | 42.22% | Base rate |
-| raydium-amm | 13.34% | 19.81% | Base rate |
+| raydium-amm | 42.16% | 42.22% | Base rate |
+| raydium-amm | 12.20% | 19.79% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,7 +42,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MSTR yield today?
 
-45.37% APY on raydium-amm (Solana), based on live DefiLlama data.
+42.16% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MSTR pools clear the TVL floor?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which MSTR pools have the most stable APY history?
 
-Based on APY history only, MSTR's lower-variability candidates are raydium-amm (Solana), 45.37% APY, $305.9K TVL, https://www.defi.garden/?pool=19b50b0e-0205-57c1-a76c-f07c26cbf6ab#src=seo_token; raydium-amm (Solana), 13.34% APY, $129.8K TVL, https://www.defi.garden/?pool=124d25b1-784a-5ef8-8e70-41d95f8e51fe#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MSTR's lower-variability candidates are raydium-amm (Solana), 42.16% APY, $306K TVL, https://www.defi.garden/?pool=19b50b0e-0205-57c1-a76c-f07c26cbf6ab#src=seo_token; raydium-amm (Solana), 12.20% APY, $130.1K TVL, https://www.defi.garden/?pool=124d25b1-784a-5ef8-8e70-41d95f8e51fe#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

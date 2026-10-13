@@ -2,39 +2,39 @@
 
 *Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest GEOD yield right now is 82.47% on raydium-amm (Solana), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GEOD yield right now is 79.59% on raydium-amm (Solana), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=2c815609-3786-54bb-98e5-d29060ca8940#src=seo_token) | Solana | 31.99% | $438.7K |
-| [raydium-amm →](https://www.defi.garden/?pool=a02cd4c1-d31d-4a3b-811a-7f2f13d5e365#src=seo_token) | Solana | 82.47% | $360.4K |
-| [orca-dex →](https://www.defi.garden/?pool=96b9309a-9bd2-4906-b5dc-b2552fc9f5e3#src=seo_token) | Solana | 43.93% | $328.8K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=ba905104-5086-4740-a862-af12d1229f07#src=seo_token) | Polygon | 19.82% | $310.9K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=6675562c-b3b8-4757-8be0-3289b24809be#src=seo_token) | Polygon | 14.99% | $206.8K |
-| [raydium-amm →](https://www.defi.garden/?pool=89ec3fc7-817b-4f44-98b2-fbb2b86c9194#src=seo_token) | Solana | 21.64% | $200.1K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=f2224af1-30eb-4c1a-bcba-b517d54ff3b8#src=seo_token) | Polygon | 0.65% | $111.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=2c815609-3786-54bb-98e5-d29060ca8940#src=seo_token) | Solana | 32.41% | $445.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=a02cd4c1-d31d-4a3b-811a-7f2f13d5e365#src=seo_token) | Solana | 79.59% | $365.4K |
+| [orca-dex →](https://www.defi.garden/?pool=96b9309a-9bd2-4906-b5dc-b2552fc9f5e3#src=seo_token) | Solana | 41.65% | $331.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ba905104-5086-4740-a862-af12d1229f07#src=seo_token) | Polygon | 20.35% | $313.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6675562c-b3b8-4757-8be0-3289b24809be#src=seo_token) | Polygon | 14.27% | $208.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=89ec3fc7-817b-4f44-98b2-fbb2b86c9194#src=seo_token) | Solana | 20.75% | $202K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f2224af1-30eb-4c1a-bcba-b517d54ff3b8#src=seo_token) | Polygon | 0.59% | $112.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, GEOD's lower-variability candidates are uniswap-v3 (Polygon), 0.65% APY, $111.3K TVL, https://www.defi.garden/?pool=f2224af1-30eb-4c1a-bcba-b517d54ff3b8#src=seo_token; raydium-amm (Solana), 21.64% APY, $200.1K TVL, https://www.defi.garden/?pool=89ec3fc7-817b-4f44-98b2-fbb2b86c9194#src=seo_token; uniswap-v3 (Polygon), 14.99% APY, $206.8K TVL, https://www.defi.garden/?pool=6675562c-b3b8-4757-8be0-3289b24809be#src=seo_token; uniswap-v3 (Polygon), 19.82% APY, $310.9K TVL, https://www.defi.garden/?pool=ba905104-5086-4740-a862-af12d1229f07#src=seo_token; raydium-amm (Solana), 82.47% APY, $360.4K TVL, https://www.defi.garden/?pool=a02cd4c1-d31d-4a3b-811a-7f2f13d5e365#src=seo_token; orca-dex (Solana), 43.93% APY, $328.8K TVL, https://www.defi.garden/?pool=96b9309a-9bd2-4906-b5dc-b2552fc9f5e3#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GEOD's lower-variability candidates are uniswap-v3 (Polygon), 0.59% APY, $112.6K TVL, https://www.defi.garden/?pool=f2224af1-30eb-4c1a-bcba-b517d54ff3b8#src=seo_token; raydium-amm (Solana), 20.75% APY, $202K TVL, https://www.defi.garden/?pool=89ec3fc7-817b-4f44-98b2-fbb2b86c9194#src=seo_token; uniswap-v3 (Polygon), 14.27% APY, $208.8K TVL, https://www.defi.garden/?pool=6675562c-b3b8-4757-8be0-3289b24809be#src=seo_token; uniswap-v3 (Polygon), 20.35% APY, $313.2K TVL, https://www.defi.garden/?pool=ba905104-5086-4740-a862-af12d1229f07#src=seo_token; raydium-amm (Solana), 79.59% APY, $365.4K TVL, https://www.defi.garden/?pool=a02cd4c1-d31d-4a3b-811a-7f2f13d5e365#src=seo_token; orca-dex (Solana), 41.65% APY, $331.6K TVL, https://www.defi.garden/?pool=96b9309a-9bd2-4906-b5dc-b2552fc9f5e3#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=f2224af1-30eb-4c1a-bcba-b517d54ff3b8#src=seo_token) | Polygon | 0.65% | $111.3K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=89ec3fc7-817b-4f44-98b2-fbb2b86c9194#src=seo_token) | Solana | 21.64% | $200.1K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=6675562c-b3b8-4757-8be0-3289b24809be#src=seo_token) | Polygon | 14.99% | $206.8K |
-| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=ba905104-5086-4740-a862-af12d1229f07#src=seo_token) | Polygon | 19.82% | $310.9K |
-| 5 | [raydium-amm →](https://www.defi.garden/?pool=a02cd4c1-d31d-4a3b-811a-7f2f13d5e365#src=seo_token) | Solana | 82.47% | $360.4K |
-| 6 | [orca-dex →](https://www.defi.garden/?pool=96b9309a-9bd2-4906-b5dc-b2552fc9f5e3#src=seo_token) | Solana | 43.93% | $328.8K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=f2224af1-30eb-4c1a-bcba-b517d54ff3b8#src=seo_token) | Polygon | 0.59% | $112.6K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=89ec3fc7-817b-4f44-98b2-fbb2b86c9194#src=seo_token) | Solana | 20.75% | $202K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=6675562c-b3b8-4757-8be0-3289b24809be#src=seo_token) | Polygon | 14.27% | $208.8K |
+| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=ba905104-5086-4740-a862-af12d1229f07#src=seo_token) | Polygon | 20.35% | $313.2K |
+| 5 | [raydium-amm →](https://www.defi.garden/?pool=a02cd4c1-d31d-4a3b-811a-7f2f13d5e365#src=seo_token) | Solana | 79.59% | $365.4K |
+| 6 | [orca-dex →](https://www.defi.garden/?pool=96b9309a-9bd2-4906-b5dc-b2552fc9f5e3#src=seo_token) | Solana | 41.65% | $331.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-GEOD shows up in 7 pools here, with rates from 0.65% to 82.47% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+GEOD shows up in 7 pools here, with rates from 0.59% to 79.59% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-7 of these 7 pools have a trustworthy 30-day average on file, with a median of 35.96% — a useful check against today's number for whether the rate is steady or just having a good day.
+7 of these 7 pools have a trustworthy 30-day average on file, with a median of 36.02% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 7 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -42,13 +42,13 @@ All 7 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 31.99% | 101.29% | Base rate |
-| raydium-amm | 82.47% | 147.52% | Base rate |
-| orca-dex | 43.93% | 85.04% | Base rate |
-| uniswap-v3 | 19.82% | 35.96% | Base rate |
-| uniswap-v3 | 14.99% | 25.87% | Base rate |
-| raydium-amm | 21.64% | 30.28% | Base rate |
-| uniswap-v3 | 0.65% | 4.19% | Base rate |
+| raydium-amm | 32.41% | 101.06% | Base rate |
+| raydium-amm | 79.59% | 147.73% | Base rate |
+| orca-dex | 41.65% | 85.14% | Base rate |
+| uniswap-v3 | 20.35% | 36.02% | Base rate |
+| uniswap-v3 | 14.27% | 25.91% | Base rate |
+| raydium-amm | 20.75% | 30.32% | Base rate |
+| uniswap-v3 | 0.59% | 4.19% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -56,11 +56,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest GEOD yield today?
 
-82.47% APY on raydium-amm (Solana), based on live DefiLlama data.
+79.59% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many GEOD pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $1.96M in total.
+7 live pools clear this page's $100K TVL floor, $1.98M in total.
 
 ### Are these rates safe?
 
@@ -68,7 +68,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which GEOD pools have the most stable APY history?
 
-Based on APY history only, GEOD's lower-variability candidates are uniswap-v3 (Polygon), 0.65% APY, $111.3K TVL, https://www.defi.garden/?pool=f2224af1-30eb-4c1a-bcba-b517d54ff3b8#src=seo_token; raydium-amm (Solana), 21.64% APY, $200.1K TVL, https://www.defi.garden/?pool=89ec3fc7-817b-4f44-98b2-fbb2b86c9194#src=seo_token; uniswap-v3 (Polygon), 14.99% APY, $206.8K TVL, https://www.defi.garden/?pool=6675562c-b3b8-4757-8be0-3289b24809be#src=seo_token; uniswap-v3 (Polygon), 19.82% APY, $310.9K TVL, https://www.defi.garden/?pool=ba905104-5086-4740-a862-af12d1229f07#src=seo_token; raydium-amm (Solana), 82.47% APY, $360.4K TVL, https://www.defi.garden/?pool=a02cd4c1-d31d-4a3b-811a-7f2f13d5e365#src=seo_token; orca-dex (Solana), 43.93% APY, $328.8K TVL, https://www.defi.garden/?pool=96b9309a-9bd2-4906-b5dc-b2552fc9f5e3#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GEOD's lower-variability candidates are uniswap-v3 (Polygon), 0.59% APY, $112.6K TVL, https://www.defi.garden/?pool=f2224af1-30eb-4c1a-bcba-b517d54ff3b8#src=seo_token; raydium-amm (Solana), 20.75% APY, $202K TVL, https://www.defi.garden/?pool=89ec3fc7-817b-4f44-98b2-fbb2b86c9194#src=seo_token; uniswap-v3 (Polygon), 14.27% APY, $208.8K TVL, https://www.defi.garden/?pool=6675562c-b3b8-4757-8be0-3289b24809be#src=seo_token; uniswap-v3 (Polygon), 20.35% APY, $313.2K TVL, https://www.defi.garden/?pool=ba905104-5086-4740-a862-af12d1229f07#src=seo_token; raydium-amm (Solana), 79.59% APY, $365.4K TVL, https://www.defi.garden/?pool=a02cd4c1-d31d-4a3b-811a-7f2f13d5e365#src=seo_token; orca-dex (Solana), 41.65% APY, $331.6K TVL, https://www.defi.garden/?pool=96b9309a-9bd2-4906-b5dc-b2552fc9f5e3#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

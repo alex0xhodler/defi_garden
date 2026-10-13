@@ -6,7 +6,7 @@ The highest honest FEUSD yield right now is 0.04% on hyperswap-v3 (Hyperliquid L
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hyperswap-v3 →](https://www.defi.garden/?pool=4bfe6806-6c47-4a90-9003-4cceed4dd026#src=seo_token) | Hyperliquid L1 | 0.04% | $302.4K |
+| [hyperswap-v3 →](https://www.defi.garden/?pool=4bfe6806-6c47-4a90-9003-4cceed4dd026#src=seo_token) | Hyperliquid L1 | 0.04% | $301.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -53,10 +53,10 @@ There is not enough qualifying APY history to rank FEUSD pools. This view covers
 
 - [KHYPE](https://www.defi.garden/tokens/khype)
 - [WHYPE](https://www.defi.garden/tokens/whype)
+- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [THBILL](https://www.defi.garden/tokens/thbill)
 - [UBTC](https://www.defi.garden/tokens/ubtc)
 - [WSTHYPE](https://www.defi.garden/tokens/wsthype)
-- [XBTC](https://www.defi.garden/tokens/xbtc)
 
 ## Available on
 

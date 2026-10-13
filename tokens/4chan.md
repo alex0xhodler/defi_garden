@@ -6,7 +6,7 @@ The highest honest 4CHAN yield right now is 0.82% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=c94138f4-a5de-4fc4-9433-b1de82eeeeb6#src=seo_token) | Ethereum | 0.82% | $463.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=c94138f4-a5de-4fc4-9433-b1de82eeeeb6#src=seo_token) | Ethereum | 0.82% | $464.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many 4CHAN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $463.9K in total.
+1 live pool clear this page's $100K TVL floor, $464.6K in total.
 
 ### Are these rates safe?
 

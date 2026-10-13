@@ -6,18 +6,18 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [mezo-vaults →](https://www.defi.garden/?pool=3331548c-0ff8-40b6-8502-8260623a37df#src=seo_token) | Mezo | 0.95% | $5.3M |
+| [mezo-vaults →](https://www.defi.garden/?pool=3331548c-0ff8-40b6-8502-8260623a37df#src=seo_token) | Mezo | 0.95% | $5.31M |
 | [mezo-vaults →](https://www.defi.garden/?pool=515e257a-3a9c-418b-93fc-acabf4021905#src=seo_token) | Mezo | 0.74% | $2.08M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 SMUSD의 변동성 낮은 후보는 Mezo의 mezo-vaults, APY 0.74%, TVL $2.08M, https://www.defi.garden/?pool=515e257a-3a9c-418b-93fc-acabf4021905#src=seo_token; Mezo의 mezo-vaults, APY 0.95%, TVL $5.3M, https://www.defi.garden/?pool=3331548c-0ff8-40b6-8502-8260623a37df#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SMUSD의 변동성 낮은 후보는 Mezo의 mezo-vaults, APY 0.74%, TVL $2.08M, https://www.defi.garden/?pool=515e257a-3a9c-418b-93fc-acabf4021905#src=seo_token; Mezo의 mezo-vaults, APY 0.95%, TVL $5.31M, https://www.defi.garden/?pool=3331548c-0ff8-40b6-8502-8260623a37df#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [mezo-vaults →](https://www.defi.garden/?pool=515e257a-3a9c-418b-93fc-acabf4021905#src=seo_token) | Mezo | 0.74% | $2.08M |
-| 2 | [mezo-vaults →](https://www.defi.garden/?pool=3331548c-0ff8-40b6-8502-8260623a37df#src=seo_token) | Mezo | 0.95% | $5.3M |
+| 2 | [mezo-vaults →](https://www.defi.garden/?pool=3331548c-0ff8-40b6-8502-8260623a37df#src=seo_token) | Mezo | 0.95% | $5.31M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -52,7 +52,7 @@ DefiLlama 실시간 데이터 기준, Mezo의 mezo-vaults에서 APY 0.95%예요.
 
 ### SMUSD 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 SMUSD의 변동성 낮은 후보는 Mezo의 mezo-vaults, APY 0.74%, TVL $2.08M, https://www.defi.garden/?pool=515e257a-3a9c-418b-93fc-acabf4021905#src=seo_token; Mezo의 mezo-vaults, APY 0.95%, TVL $5.3M, https://www.defi.garden/?pool=3331548c-0ff8-40b6-8502-8260623a37df#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SMUSD의 변동성 낮은 후보는 Mezo의 mezo-vaults, APY 0.74%, TVL $2.08M, https://www.defi.garden/?pool=515e257a-3a9c-418b-93fc-acabf4021905#src=seo_token; Mezo의 mezo-vaults, APY 0.95%, TVL $5.31M, https://www.defi.garden/?pool=3331548c-0ff8-40b6-8502-8260623a37df#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

@@ -6,7 +6,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=4a1d1d0c-eceb-5afe-bc3c-39398586577a#src=seo_token) | Tempo | 3.59% | $24.98M |
+| [morpho-blue →](https://www.defi.garden/?pool=4a1d1d0c-eceb-5afe-bc3c-39398586577a#src=seo_token) | Tempo | 3.59% | $24.96M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Tempo의 morpho-blue에서 APY 3.59%예요
 
 ### SENOUSDMAIN 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $24.98M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $24.96M예요.
 
 ### 이 수익률은 안전한가요?
 

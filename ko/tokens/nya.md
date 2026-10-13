@@ -6,20 +6,20 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=89b0b4fd-06ff-4d9c-813a-4c0ed46a294c#src=seo_token) | Base | 0.02% | $194.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=4b0214bf-be80-464d-9058-8712af9c0cab#src=seo_token) | Arbitrum | 0.02% | $194K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=bc8c743a-42e2-43bc-ba3f-eb0fc223afdb#src=seo_token) | Avalanche | 0.08% | $133.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=89b0b4fd-06ff-4d9c-813a-4c0ed46a294c#src=seo_token) | Base | 0.02% | $194.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4b0214bf-be80-464d-9058-8712af9c0cab#src=seo_token) | Arbitrum | 0.02% | $194.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=bc8c743a-42e2-43bc-ba3f-eb0fc223afdb#src=seo_token) | Avalanche | 0.08% | $132.6K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 NYA의 변동성 낮은 후보는 Arbitrum의 uniswap-v3, APY 0.02%, TVL $194K, https://www.defi.garden/?pool=4b0214bf-be80-464d-9058-8712af9c0cab#src=seo_token; Base의 uniswap-v3, APY 0.02%, TVL $194.4K, https://www.defi.garden/?pool=89b0b4fd-06ff-4d9c-813a-4c0ed46a294c#src=seo_token; Avalanche의 uniswap-v3, APY 0.08%, TVL $133.2K, https://www.defi.garden/?pool=bc8c743a-42e2-43bc-ba3f-eb0fc223afdb#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 NYA의 변동성 낮은 후보는 Arbitrum의 uniswap-v3, APY 0.02%, TVL $194.3K, https://www.defi.garden/?pool=4b0214bf-be80-464d-9058-8712af9c0cab#src=seo_token; Base의 uniswap-v3, APY 0.02%, TVL $194.7K, https://www.defi.garden/?pool=89b0b4fd-06ff-4d9c-813a-4c0ed46a294c#src=seo_token; Avalanche의 uniswap-v3, APY 0.08%, TVL $132.6K, https://www.defi.garden/?pool=bc8c743a-42e2-43bc-ba3f-eb0fc223afdb#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=4b0214bf-be80-464d-9058-8712af9c0cab#src=seo_token) | Arbitrum | 0.02% | $194K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=89b0b4fd-06ff-4d9c-813a-4c0ed46a294c#src=seo_token) | Base | 0.02% | $194.4K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=bc8c743a-42e2-43bc-ba3f-eb0fc223afdb#src=seo_token) | Avalanche | 0.08% | $133.2K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=4b0214bf-be80-464d-9058-8712af9c0cab#src=seo_token) | Arbitrum | 0.02% | $194.3K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=89b0b4fd-06ff-4d9c-813a-4c0ed46a294c#src=seo_token) | Base | 0.02% | $194.7K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=bc8c743a-42e2-43bc-ba3f-eb0fc223afdb#src=seo_token) | Avalanche | 0.08% | $132.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -49,7 +49,7 @@ DefiLlama 실시간 데이터 기준, Avalanche의 uniswap-v3에서 APY 0.08%예
 
 ### NYA 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $715.7K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $716K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -57,7 +57,7 @@ DefiLlama 실시간 데이터 기준, Avalanche의 uniswap-v3에서 APY 0.08%예
 
 ### NYA 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 NYA의 변동성 낮은 후보는 Arbitrum의 uniswap-v3, APY 0.02%, TVL $194K, https://www.defi.garden/?pool=4b0214bf-be80-464d-9058-8712af9c0cab#src=seo_token; Base의 uniswap-v3, APY 0.02%, TVL $194.4K, https://www.defi.garden/?pool=89b0b4fd-06ff-4d9c-813a-4c0ed46a294c#src=seo_token; Avalanche의 uniswap-v3, APY 0.08%, TVL $133.2K, https://www.defi.garden/?pool=bc8c743a-42e2-43bc-ba3f-eb0fc223afdb#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 NYA의 변동성 낮은 후보는 Arbitrum의 uniswap-v3, APY 0.02%, TVL $194.3K, https://www.defi.garden/?pool=4b0214bf-be80-464d-9058-8712af9c0cab#src=seo_token; Base의 uniswap-v3, APY 0.02%, TVL $194.7K, https://www.defi.garden/?pool=89b0b4fd-06ff-4d9c-813a-4c0ed46a294c#src=seo_token; Avalanche의 uniswap-v3, APY 0.08%, TVL $132.6K, https://www.defi.garden/?pool=bc8c743a-42e2-43bc-ba3f-eb0fc223afdb#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
