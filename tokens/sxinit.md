@@ -1,12 +1,12 @@
 # SXINIT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest SXINIT yield right now is 3.05% on echelon-market (Echelon Initia), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SXINIT yield right now is 3.06% on echelon-market (Echelon Initia), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [echelon-market →](https://www.defi.garden/?pool=1ef7473e-2947-4faa-a0c1-c6bdb5734369#src=seo_token) | Echelon Initia | 3.05% | $461.7K |
+| [echelon-market →](https://www.defi.garden/?pool=1ef7473e-2947-4faa-a0c1-c6bdb5734369#src=seo_token) | Echelon Initia | 3.06% | $482K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SXINIT yield today?
 
-3.05% APY on echelon-market (Echelon Initia), based on live DefiLlama data.
+3.06% APY on echelon-market (Echelon Initia), based on live DefiLlama data.
 
 ### How many SXINIT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $461.7K in total.
+1 live pool clear this page's $100K TVL floor, $482K in total.
 
 ### Are these rates safe?
 
@@ -35,15 +35,15 @@ There is not enough qualifying APY history to rank SXINIT pools. This view cover
 
 ## Related tokens
 
-- [IUSD](https://www.defi.garden/tokens/iusd)
 - [INIT](https://www.defi.garden/tokens/init)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 
 ## Available on
 
 - [Echelon Initia](https://www.defi.garden/chains/echelon-initia)
 
-## Last updated October 12, 2026
+## Last updated October 13, 2026

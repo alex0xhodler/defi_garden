@@ -1,12 +1,12 @@
 # ALARSAIL.R DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest ALARSAIL.R yield right now is 17.39% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ALARSAIL.R yield right now is 16.53% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=3f0c4095-02b6-486f-adb0-688b8da944c2#src=seo_token) | Berachain | 17.39% | $446K |
+| [berapaw →](https://www.defi.garden/?pool=3f0c4095-02b6-486f-adb0-688b8da944c2#src=seo_token) | Berachain | 16.53% | $446.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ALARSAIL.R yield today?
 
-17.39% APY on berapaw (Berachain), based on live DefiLlama data.
+16.53% APY on berapaw (Berachain), based on live DefiLlama data.
 
 ### How many ALARSAIL.R pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $446K in total.
+1 live pool clear this page's $100K TVL floor, $446.1K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank ALARSAIL.R pools. This view c
 - [IBERA](https://www.defi.garden/tokens/ibera)
 - [BUSD](https://www.defi.garden/tokens/busd)
 - [RE7HONEY](https://www.defi.garden/tokens/re7honey)
-- [CSRHONEY](https://www.defi.garden/tokens/csrhoney)
 - [HONEY](https://www.defi.garden/tokens/honey)
+- [CSRHONEY](https://www.defi.garden/tokens/csrhoney)
 - [KODIUSDE](https://www.defi.garden/tokens/kodiusde)
 
 ## Available on
 
 - [Berachain](https://www.defi.garden/chains/berachain)
 
-## Last updated October 12, 2026
+## Last updated October 13, 2026

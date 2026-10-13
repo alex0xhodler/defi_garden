@@ -1,12 +1,12 @@
 # FEUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
 The highest honest FEUSD yield right now is 0.04% on hyperswap-v3 (Hyperliquid L1), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hyperswap-v3 →](https://www.defi.garden/?pool=4bfe6806-6c47-4a90-9003-4cceed4dd026#src=seo_token) | Hyperliquid L1 | 0.04% | $315.1K |
+| [hyperswap-v3 →](https://www.defi.garden/?pool=4bfe6806-6c47-4a90-9003-4cceed4dd026#src=seo_token) | Hyperliquid L1 | 0.04% | $301.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many FEUSD pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $8.64M in total.
+5 live pools clear this page's $100K TVL floor, $8.57M in total.
 
 ### Are these rates safe?
 
@@ -53,13 +53,13 @@ There is not enough qualifying APY history to rank FEUSD pools. This view covers
 
 - [KHYPE](https://www.defi.garden/tokens/khype)
 - [WHYPE](https://www.defi.garden/tokens/whype)
+- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [THBILL](https://www.defi.garden/tokens/thbill)
 - [UBTC](https://www.defi.garden/tokens/ubtc)
 - [WSTHYPE](https://www.defi.garden/tokens/wsthype)
-- [XBTC](https://www.defi.garden/tokens/xbtc)
 
 ## Available on
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated October 12, 2026
+## Last updated October 13, 2026

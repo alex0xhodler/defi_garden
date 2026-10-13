@@ -1,12 +1,12 @@
 # SNRUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest SNRUSD yield right now is 13.92% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SNRUSD yield right now is 13.76% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=7cda51b1-4378-423f-b77d-7304b8b9386c#src=seo_token) | Berachain | 13.92% | $184.7K |
+| [berapaw →](https://www.defi.garden/?pool=7cda51b1-4378-423f-b77d-7304b8b9386c#src=seo_token) | Berachain | 13.76% | $184.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SNRUSD yield today?
 
-13.92% APY on berapaw (Berachain), based on live DefiLlama data.
+13.76% APY on berapaw (Berachain), based on live DefiLlama data.
 
 ### How many SNRUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $184.7K in total.
+1 live pool clear this page's $100K TVL floor, $184.8K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank SNRUSD pools. This view cover
 - [IBERA](https://www.defi.garden/tokens/ibera)
 - [BUSD](https://www.defi.garden/tokens/busd)
 - [RE7HONEY](https://www.defi.garden/tokens/re7honey)
-- [CSRHONEY](https://www.defi.garden/tokens/csrhoney)
 - [HONEY](https://www.defi.garden/tokens/honey)
+- [CSRHONEY](https://www.defi.garden/tokens/csrhoney)
 - [KODIUSDE](https://www.defi.garden/tokens/kodiusde)
 
 ## Available on
 
 - [Berachain](https://www.defi.garden/chains/berachain)
 
-## Last updated October 12, 2026
+## Last updated October 13, 2026

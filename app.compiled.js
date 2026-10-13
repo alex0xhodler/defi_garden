@@ -1319,24 +1319,23 @@ function App() {
   // Language state management
   var [language, setLanguage] = useState(() => {
     // Check for saved language preference first
-    var savedLang = localStorage.getItem('defi-garden-lang');
-    if (savedLang && ['en', 'ko'].includes(savedLang)) {
+    var savedLang = null;
+    try {
+      savedLang = normalizeLanguageCode(localStorage.getItem('defi-garden-lang'));
+    } catch (e) {}
+    if (savedLang) {
       return savedLang;
     }
 
     // Check URL parameter
     var urlParams = new URLSearchParams(window.location.search);
-    var langParam = urlParams.get('lang');
-    if (langParam && ['en', 'ko'].includes(langParam)) {
+    var langParam = normalizeLanguageCode(urlParams.get('lang'));
+    if (langParam) {
       return langParam;
     }
 
     // Auto-detect browser language
-    var browserLang = navigator.language.toLowerCase();
-    if (browserLang.startsWith('ko')) {
-      return 'ko';
-    }
-    return 'en';
+    return detectUserLanguage();
   });
 
   // Create translation function for current language
@@ -2148,7 +2147,7 @@ function App() {
   // Language management effect
   useEffect(() => {
     // Apply language to document root
-    document.documentElement.lang = language;
+    document.documentElement.lang = HTML_LANG[language] || language;
 
     // Update page title with localized text
     if (chainMode && selectedChain && !selectedToken) {
@@ -3599,39 +3598,39 @@ function App() {
     var smartLenses = [{
       id: 'all',
       icon: 'all',
-      label: language === 'ko' ? '모든 수익률' : 'All Yields'
+      label: t('appFilter.allYields')
     }, {
       id: 'robinhood',
       icon: 'chains',
-      label: language === 'ko' ? 'Robinhood 체인' : 'Robinhood Chain'
+      label: t('appFilter.robinhoodChain')
     }, {
       id: 'pendle_pts',
       icon: 'yieldderiv',
-      label: language === 'ko' ? 'Pendle PTs' : 'Pendle PTs'
+      label: t('appFilter.pendlePts')
     }, {
       id: 'stables',
       icon: 'vault',
-      label: language === 'ko' ? '안정 스테이블 > 3%' : 'Stables > 3%'
+      label: t('appFilter.stablesOver3')
     }, {
       id: 'high_yield',
       icon: 'apy',
-      label: language === 'ko' ? '고수익 > 8%' : 'High APY > 8%'
+      label: t('appFilter.highApyOver8')
     }, {
       id: 'base_l2',
       icon: 'zap',
-      label: language === 'ko' ? 'Base & L2s' : 'Base & L2s'
+      label: t('appFilter.baseL2s')
     }, {
       id: 'lst',
       icon: 'staking',
-      label: language === 'ko' ? '유동성 스테이킹' : 'Liquid Staking'
+      label: t('appFilter.liquidStaking')
     }, {
       id: 'rwa',
       icon: 'rwa',
-      label: language === 'ko' ? '실물자산 (RWA)' : 'Real World Assets'
+      label: t('appFilter.realWorldAssets')
     }];
     var popularChains = [{
       name: 'All',
-      label: language === 'ko' ? '모든 체인' : 'All Chains'
+      label: t('allChains')
     }, {
       name: 'Ethereum',
       label: 'Ethereum'
@@ -3680,7 +3679,7 @@ function App() {
       }
     }, navIcon('search'), React.createElement('input', {
       type: 'text',
-      placeholder: selectedToken || chainMode && selectedChain || (language === 'ko' ? '토큰, 체인 또는 프로토콜 검색...' : 'Search token, chain, or protocol...'),
+      placeholder: selectedToken || chainMode && selectedChain || t('appSearch.placeholder'),
       value: searchInput,
       onChange: handleSearchInputChange,
       onKeyDown: handleKeyDown,
@@ -3700,7 +3699,7 @@ function App() {
       className: 'drawer-section'
     }, React.createElement('div', {
       className: 'section-label'
-    }, React.createElement('span', null, language === 'ko' ? '토큰 바로가기' : 'Quick Token Focus'), selectedToken && React.createElement('span', {
+    }, React.createElement('span', null, t('appFilter.quickTokenFocus')), selectedToken && React.createElement('span', {
       style: {
         color: 'var(--ui-accent)',
         fontSize: '10px',
@@ -3711,7 +3710,7 @@ function App() {
         setChainMode(true);
         setSelectedChain('All');
       }
-    }, language === 'ko' ? '초기화' : 'Clear')), React.createElement('div', {
+    }, t('appFilter.clear'))), React.createElement('div', {
       className: 'quick-token-row'
     }, CURATED_DRAWER_TOKENS.map(tok => React.createElement('span', {
       key: tok.symbol,
@@ -3733,7 +3732,7 @@ function App() {
       className: 'drawer-section'
     }, React.createElement('div', {
       className: 'section-label'
-    }, React.createElement('span', null, language === 'ko' ? '체인 생태계' : 'Chain Ecosystem')), React.createElement('div', {
+    }, React.createElement('span', null, t('appFilter.chainEcosystem'))), React.createElement('div', {
       className: 'chain-matrix-grid'
     }, popularChains.map(ch => React.createElement('div', {
       key: ch.name,
@@ -3750,7 +3749,7 @@ function App() {
       className: 'drawer-section'
     }, React.createElement('div', {
       className: 'section-label'
-    }, React.createElement('span', null, language === 'ko' ? '정렬 기준' : 'Sort Metric')), React.createElement('div', {
+    }, React.createElement('span', null, t('appFilter.sortMetric'))), React.createElement('div', {
       className: 'sort-segment-row'
     }, React.createElement('button', {
       className: `sort-segment-btn ${sortBy === 'apy' ? 'active' : ''}`,
@@ -3775,14 +3774,14 @@ function App() {
     }, sortBy === 'sharpe' ? [React.createElement('div', {
       className: 'section-label',
       key: 'label'
-    }, React.createElement('span', null, language === 'ko' ? '샤프 지수 / 위험 조정 기준' : 'Risk-Adjusted Stability (Sharpe Ratio)'), minSharpe > 0 && React.createElement('span', {
+    }, React.createElement('span', null, t('appFilter.riskAdjustedStability')), minSharpe > 0 && React.createElement('span', {
       style: {
         color: 'var(--ui-accent)',
         fontSize: '10px',
         cursor: 'pointer'
       },
       onClick: () => setMinSharpe(0)
-    }, language === 'ko' ? '초기화' : 'Reset')), React.createElement('div', {
+    }, t('appFilter.reset'))), React.createElement('div', {
       className: 'slider-box',
       key: 'slider'
     }, React.createElement('input', {
@@ -3800,12 +3799,12 @@ function App() {
         color: 'var(--ui-accent)',
         fontWeight: '700'
       }
-    }, minSharpe === 0 ? language === 'ko' ? '모든 위험 등급' : 'All Risk Profiles' : minSharpe >= 2.5 ? `≥ ${minSharpe} Sharpe · ${language === 'ko' ? '최상위 안정성' : 'Pristine Stability'}` : minSharpe >= 1.5 ? `≥ ${minSharpe} Sharpe · ${language === 'ko' ? '검증된 트랙레코드' : 'Battle-Tested'}` : `≥ ${minSharpe} Sharpe · ${language === 'ko' ? '안정성 양호' : 'Good Stability'}`), React.createElement('span', null, '3.0+ (Max)')), React.createElement('div', {
+    }, minSharpe === 0 ? t('appFilter.allRiskProfiles') : minSharpe >= 2.5 ? `≥ ${minSharpe} Sharpe · ${t('appFilter.pristineStability')}` : minSharpe >= 1.5 ? `≥ ${minSharpe} Sharpe · ${t('appFilter.battleTested')}` : `≥ ${minSharpe} Sharpe · ${t('appFilter.goodStability')}`), React.createElement('span', null, '3.0+ (Max)')), React.createElement('div', {
       className: 'yield-card-presets',
       key: 'presets'
     }, [{
       val: 0,
-      label: language === 'ko' ? '전체' : 'All Risk'
+      label: t('appFilter.allRisk')
     }, {
       val: 1.0,
       label: '≥ 1.0'
@@ -3825,14 +3824,14 @@ function App() {
     }, p.label))))] : sortBy === 'apy' ? [React.createElement('div', {
       className: 'section-label',
       key: 'label'
-    }, React.createElement('span', null, language === 'ko' ? '최소 수익률 (APY)' : 'Minimum APY Filter'), minApy > 0 && React.createElement('span', {
+    }, React.createElement('span', null, t('appFilter.minApyFilter')), minApy > 0 && React.createElement('span', {
       style: {
         color: 'var(--ui-accent)',
         fontSize: '10px',
         cursor: 'pointer'
       },
       onClick: () => setMinApy(0)
-    }, language === 'ko' ? '초기화' : 'Reset')), React.createElement('div', {
+    }, t('appFilter.reset'))), React.createElement('div', {
       className: 'slider-box',
       key: 'slider'
     }, React.createElement('input', {
@@ -3850,12 +3849,12 @@ function App() {
         color: 'var(--ui-accent)',
         fontWeight: '700'
       }
-    }, minApy > 0 ? `≥ ${minApy}% APY` : language === 'ko' ? '모든 수익률' : 'Any APY'), React.createElement('span', null, '20%+')), React.createElement('div', {
+    }, minApy > 0 ? `≥ ${minApy}% APY` : t('appFilter.anyApyLabel')), React.createElement('span', null, '20%+')), React.createElement('div', {
       className: 'yield-card-presets',
       key: 'presets'
     }, [{
       val: 0,
-      label: language === 'ko' ? '전체' : 'Any APY'
+      label: t('appFilter.anyApyPreset')
     }, {
       val: 3,
       label: '3%+'
@@ -3875,14 +3874,14 @@ function App() {
     }, p.label))))] : [React.createElement('div', {
       className: 'section-label',
       key: 'label'
-    }, React.createElement('span', null, language === 'ko' ? '최소 유동성 (TVL Floor)' : 'Minimum TVL Liquidity Floor'), minTvl > 0 && React.createElement('span', {
+    }, React.createElement('span', null, t('appFilter.minTvlFloor')), minTvl > 0 && React.createElement('span', {
       style: {
         color: 'var(--ui-accent)',
         fontSize: '10px',
         cursor: 'pointer'
       },
       onClick: () => setMinTvl(0)
-    }, language === 'ko' ? '초기화' : 'Reset')), React.createElement('div', {
+    }, t('appFilter.reset'))), React.createElement('div', {
       className: 'slider-box',
       key: 'slider'
     }, React.createElement('input', {
@@ -3903,7 +3902,7 @@ function App() {
         color: 'var(--ui-accent)',
         fontWeight: '700'
       }
-    }, minTvl === 0 ? language === 'ko' ? '제한 없음' : 'No Floor ($0)' : minTvl >= 10000000 ? language === 'ko' ? '≥ $10M (기관급 유동성)' : '≥ $10M (Institutional)' : minTvl >= 1000000 ? language === 'ko' ? '≥ $1M (깊은 유동성)' : '≥ $1M (Deep Liquidity)' : minTvl >= 100000 ? language === 'ko' ? '≥ $100K (기본 검증)' : '≥ $100K (Verified Base)' : '≥ $10K+'), React.createElement('span', null, '$10M+')), React.createElement('div', {
+    }, minTvl === 0 ? t('appFilter.noFloor') : minTvl >= 10000000 ? t('appFilter.tvlInstitutional') : minTvl >= 1000000 ? t('appFilter.tvlDeep') : minTvl >= 100000 ? t('appFilter.tvlVerifiedBase') : '≥ $10K+'), React.createElement('span', null, '$10M+')), React.createElement('div', {
       className: 'yield-card-presets',
       key: 'presets'
     }, [{
@@ -3931,7 +3930,7 @@ function App() {
           behavior: 'smooth'
         });
       }
-    }, `${language === 'ko' ? '결과 보기' : 'Apply Filters'} (${filteredPools.length} ${language === 'ko' ? '개 풀' : 'Pools'})`)), mobileDrawerStage !== 'peek' && React.createElement('div', {
+    }, `${t('appFilter.applyFilters')} (${filteredPools.length} ${t('appFilter.poolsUnit')})`)), mobileDrawerStage !== 'peek' && React.createElement('div', {
       key: 'spatial-backdrop',
       className: 'mobile-drawer-backdrop show',
       onClick: () => setMobileDrawerStage('peek')
@@ -4112,7 +4111,7 @@ function App() {
   // Plan-aware: if user has a saved plan, show their projection instead of generic CTA.
   !selectedToken && !chainMode && React.createElement('a', {
     className: 'planner-entry',
-    href: language === 'ko' ? 'plan.html?lang=ko' : 'plan.html'
+    href: language !== 'en' ? `plan.html?lang=${language}` : 'plan.html'
   }, (() => {
     try {
       var saved = localStorage.getItem('garden-plan');

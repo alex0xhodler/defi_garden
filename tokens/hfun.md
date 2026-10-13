@@ -1,12 +1,12 @@
 # HFUN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest HFUN yield right now is 1.21% on hyperswap-v2 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HFUN yield right now is 3.46% on hyperswap-v2 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hyperswap-v2 →](https://www.defi.garden/?pool=f132ce75-c39b-43ef-9476-72487161a105#src=seo_token) | Hyperliquid L1 | 1.21% | $463.1K |
+| [hyperswap-v2 →](https://www.defi.garden/?pool=f132ce75-c39b-43ef-9476-72487161a105#src=seo_token) | Hyperliquid L1 | 3.46% | $449.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HFUN yield today?
 
-1.21% APY on hyperswap-v2 (Hyperliquid L1), based on live DefiLlama data.
+3.46% APY on hyperswap-v2 (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many HFUN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $463.1K in total.
+1 live pool clear this page's $100K TVL floor, $449.4K in total.
 
 ### Are these rates safe?
 
@@ -37,13 +37,13 @@ There is not enough qualifying APY history to rank HFUN pools. This view covers 
 
 - [KHYPE](https://www.defi.garden/tokens/khype)
 - [WHYPE](https://www.defi.garden/tokens/whype)
+- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [THBILL](https://www.defi.garden/tokens/thbill)
 - [UBTC](https://www.defi.garden/tokens/ubtc)
 - [WSTHYPE](https://www.defi.garden/tokens/wsthype)
-- [XBTC](https://www.defi.garden/tokens/xbtc)
 
 ## Available on
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated October 12, 2026
+## Last updated October 13, 2026

@@ -1,22 +1,22 @@
 # CUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
 The highest honest CUSD yield right now is 0.63% on uniswap-v3 (Celo), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=ad10fdd6-8351-4d9b-8695-deb1bf2dc33a#src=seo_token) | Celo | 0.63% | $643.5K |
-| [moola-market →](https://www.defi.garden/?pool=905730f7-04b6-4deb-8e59-707d3d457f6b#src=seo_token) | Celo | 0.40% | $399.2K |
+| [moola-market →](https://www.defi.garden/?pool=905730f7-04b6-4deb-8e59-707d3d457f6b#src=seo_token) | Celo | 0.40% | $398.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, CUSD's lower-variability candidates are moola-market (Celo), 0.40% APY, $399.2K TVL, https://www.defi.garden/?pool=905730f7-04b6-4deb-8e59-707d3d457f6b#src=seo_token; uniswap-v3 (Celo), 0.63% APY, $643.5K TVL, https://www.defi.garden/?pool=ad10fdd6-8351-4d9b-8695-deb1bf2dc33a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CUSD's lower-variability candidates are moola-market (Celo), 0.40% APY, $398.8K TVL, https://www.defi.garden/?pool=905730f7-04b6-4deb-8e59-707d3d457f6b#src=seo_token; uniswap-v3 (Celo), 0.63% APY, $643.5K TVL, https://www.defi.garden/?pool=ad10fdd6-8351-4d9b-8695-deb1bf2dc33a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [moola-market →](https://www.defi.garden/?pool=905730f7-04b6-4deb-8e59-707d3d457f6b#src=seo_token) | Celo | 0.40% | $399.2K |
+| 1 | [moola-market →](https://www.defi.garden/?pool=905730f7-04b6-4deb-8e59-707d3d457f6b#src=seo_token) | Celo | 0.40% | $398.8K |
 | 2 | [uniswap-v3 →](https://www.defi.garden/?pool=ad10fdd6-8351-4d9b-8695-deb1bf2dc33a#src=seo_token) | Celo | 0.63% | $643.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -34,7 +34,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | uniswap-v3 | 0.63% | 0.35% | Base rate |
-| moola-market | 0.40% | 0.30% | Base rate |
+| moola-market | 0.40% | 0.32% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which CUSD pools have the most stable APY history?
 
-Based on APY history only, CUSD's lower-variability candidates are moola-market (Celo), 0.40% APY, $399.2K TVL, https://www.defi.garden/?pool=905730f7-04b6-4deb-8e59-707d3d457f6b#src=seo_token; uniswap-v3 (Celo), 0.63% APY, $643.5K TVL, https://www.defi.garden/?pool=ad10fdd6-8351-4d9b-8695-deb1bf2dc33a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CUSD's lower-variability candidates are moola-market (Celo), 0.40% APY, $398.8K TVL, https://www.defi.garden/?pool=905730f7-04b6-4deb-8e59-707d3d457f6b#src=seo_token; uniswap-v3 (Celo), 0.63% APY, $643.5K TVL, https://www.defi.garden/?pool=ad10fdd6-8351-4d9b-8695-deb1bf2dc33a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -62,11 +62,11 @@ Based on APY history only, CUSD's lower-variability candidates are moola-market 
 - [WARS](https://www.defi.garden/tokens/wars)
 - [XAUT0](https://www.defi.garden/tokens/xaut0)
 - [CELO](https://www.defi.garden/tokens/celo)
+- [STCELO](https://www.defi.garden/tokens/stcelo)
 - [EURM](https://www.defi.garden/tokens/eurm)
-- [CNGN](https://www.defi.garden/tokens/cngn)
 
 ## Available on
 
 - [Celo](https://www.defi.garden/chains/celo)
 
-## Last updated October 12, 2026
+## Last updated October 13, 2026

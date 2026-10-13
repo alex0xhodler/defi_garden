@@ -1,35 +1,35 @@
 # JUPSOL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest JUPSOL yield right now is 47.69% on kamino-liquidity (Solana), among 14 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JUPSOL yield right now is 5.47% on jupiter-staked-sol (Solana), among 14 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [jupiter-staked-sol →](https://www.defi.garden/pools/jupiter-staked-sol-jupsol-solana) | Solana | 5.51% | $582.81M |
-| [orca-dex →](https://www.defi.garden/?pool=ee677538-15f3-4567-8510-22e31e3ff065#src=seo_token) | Solana | 1.68% | $267.2K |
-| [orca-dex →](https://www.defi.garden/?pool=5ff68f29-adcc-4551-8947-56ddda389f17#src=seo_token) | Solana | 1.43% | $142.2K |
-| [kamino-liquidity →](https://www.defi.garden/?pool=15802f03-83bf-498f-ae6a-6f0c14de6c6a#src=seo_token) | Solana | 47.69% | $121.1K |
+| [jupiter-staked-sol →](https://www.defi.garden/pools/jupiter-staked-sol-jupsol-solana) | Solana | 5.47% | $562.62M |
+| [orca-dex →](https://www.defi.garden/?pool=ee677538-15f3-4567-8510-22e31e3ff065#src=seo_token) | Solana | 3.08% | $263.4K |
+| [orca-dex →](https://www.defi.garden/?pool=5ff68f29-adcc-4551-8947-56ddda389f17#src=seo_token) | Solana | 3.63% | $137K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=15802f03-83bf-498f-ae6a-6f0c14de6c6a#src=seo_token) | Solana | 22.09% | $117.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, JUPSOL's lower-variability candidates are jupiter-staked-sol (Solana), 5.51% APY, $582.81M TVL, https://www.defi.garden/pools/jupiter-staked-sol-jupsol-solana; orca-dex (Solana), 1.68% APY, $267.2K TVL, https://www.defi.garden/?pool=ee677538-15f3-4567-8510-22e31e3ff065#src=seo_token; orca-dex (Solana), 1.43% APY, $142.2K TVL, https://www.defi.garden/?pool=5ff68f29-adcc-4551-8947-56ddda389f17#src=seo_token; kamino-liquidity (Solana), 47.69% APY, $121.1K TVL, https://www.defi.garden/?pool=15802f03-83bf-498f-ae6a-6f0c14de6c6a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, JUPSOL's lower-variability candidates are jupiter-staked-sol (Solana), 5.47% APY, $562.62M TVL, https://www.defi.garden/pools/jupiter-staked-sol-jupsol-solana; orca-dex (Solana), 3.08% APY, $263.4K TVL, https://www.defi.garden/?pool=ee677538-15f3-4567-8510-22e31e3ff065#src=seo_token; orca-dex (Solana), 3.63% APY, $137K TVL, https://www.defi.garden/?pool=5ff68f29-adcc-4551-8947-56ddda389f17#src=seo_token; kamino-liquidity (Solana), 22.09% APY, $117.8K TVL, https://www.defi.garden/?pool=15802f03-83bf-498f-ae6a-6f0c14de6c6a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [jupiter-staked-sol →](https://www.defi.garden/pools/jupiter-staked-sol-jupsol-solana) | Solana | 5.51% | $582.81M |
-| 2 | [orca-dex →](https://www.defi.garden/?pool=ee677538-15f3-4567-8510-22e31e3ff065#src=seo_token) | Solana | 1.68% | $267.2K |
-| 3 | [orca-dex →](https://www.defi.garden/?pool=5ff68f29-adcc-4551-8947-56ddda389f17#src=seo_token) | Solana | 1.43% | $142.2K |
-| 4 | [kamino-liquidity →](https://www.defi.garden/?pool=15802f03-83bf-498f-ae6a-6f0c14de6c6a#src=seo_token) | Solana | 47.69% | $121.1K |
+| 1 | [jupiter-staked-sol →](https://www.defi.garden/pools/jupiter-staked-sol-jupsol-solana) | Solana | 5.47% | $562.62M |
+| 2 | [orca-dex →](https://www.defi.garden/?pool=ee677538-15f3-4567-8510-22e31e3ff065#src=seo_token) | Solana | 3.08% | $263.4K |
+| 3 | [orca-dex →](https://www.defi.garden/?pool=5ff68f29-adcc-4551-8947-56ddda389f17#src=seo_token) | Solana | 3.63% | $137K |
+| 4 | [kamino-liquidity →](https://www.defi.garden/?pool=15802f03-83bf-498f-ae6a-6f0c14de6c6a#src=seo_token) | Solana | 22.09% | $117.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-JUPSOL shows up in 4 pools here, with rates from 1.43% to 47.69% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+JUPSOL shows up in 4 pools here, with rates from 3.08% to 22.09% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 3.65% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 3.70% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -37,10 +37,10 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| jupiter-staked-sol | 5.51% | 5.46% | Base rate |
-| orca-dex | 1.68% | 1.13% | Base rate |
-| orca-dex | 1.43% | 1.83% | Base rate |
-| kamino-liquidity | 47.69% | 67.18% | Base rate |
+| jupiter-staked-sol | 5.47% | 5.46% | Base rate |
+| orca-dex | 3.08% | 1.20% | Base rate |
+| orca-dex | 3.63% | 1.94% | Base rate |
+| kamino-liquidity | 22.09% | 67.39% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -48,11 +48,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest JUPSOL yield today?
 
-47.69% APY on kamino-liquidity (Solana), based on live DefiLlama data.
+5.47% APY on jupiter-staked-sol (Solana), based on live DefiLlama data.
 
 ### How many JUPSOL pools clear the TVL floor?
 
-14 live pools clear this page's $100K TVL floor, $787.19M in total.
+14 live pools clear this page's $100K TVL floor, $756.85M in total.
 
 ### Are these rates safe?
 
@@ -60,19 +60,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which JUPSOL pools have the most stable APY history?
 
-Based on APY history only, JUPSOL's lower-variability candidates are jupiter-staked-sol (Solana), 5.51% APY, $582.81M TVL, https://www.defi.garden/pools/jupiter-staked-sol-jupsol-solana; orca-dex (Solana), 1.68% APY, $267.2K TVL, https://www.defi.garden/?pool=ee677538-15f3-4567-8510-22e31e3ff065#src=seo_token; orca-dex (Solana), 1.43% APY, $142.2K TVL, https://www.defi.garden/?pool=5ff68f29-adcc-4551-8947-56ddda389f17#src=seo_token; kamino-liquidity (Solana), 47.69% APY, $121.1K TVL, https://www.defi.garden/?pool=15802f03-83bf-498f-ae6a-6f0c14de6c6a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, JUPSOL's lower-variability candidates are jupiter-staked-sol (Solana), 5.47% APY, $562.62M TVL, https://www.defi.garden/pools/jupiter-staked-sol-jupsol-solana; orca-dex (Solana), 3.08% APY, $263.4K TVL, https://www.defi.garden/?pool=ee677538-15f3-4567-8510-22e31e3ff065#src=seo_token; orca-dex (Solana), 3.63% APY, $137K TVL, https://www.defi.garden/?pool=5ff68f29-adcc-4551-8947-56ddda389f17#src=seo_token; kamino-liquidity (Solana), 22.09% APY, $117.8K TVL, https://www.defi.garden/?pool=15802f03-83bf-498f-ae6a-6f0c14de6c6a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [BNSOL](https://www.defi.garden/tokens/bnsol)
-- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 12, 2026
+## Last updated October 13, 2026

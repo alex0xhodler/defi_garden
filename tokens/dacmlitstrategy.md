@@ -1,12 +1,12 @@
 # DACMLITSTRATEGY DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest DACMLITSTRATEGY yield right now is 19.92% on lagoon (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DACMLITSTRATEGY yield right now is 9.95% on lagoon (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=694c7731-fbbe-4a34-a100-fcc637296df0#src=seo_token) | Arbitrum | 19.92% | $446.6K |
+| [lagoon →](https://www.defi.garden/?pool=694c7731-fbbe-4a34-a100-fcc637296df0#src=seo_token) | Arbitrum | 9.95% | $448.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DACMLITSTRATEGY yield today?
 
-19.92% APY on lagoon (Arbitrum), based on live DefiLlama data.
+9.95% APY on lagoon (Arbitrum), based on live DefiLlama data.
 
 ### How many DACMLITSTRATEGY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $446.6K in total.
+1 live pool clear this page's $100K TVL floor, $448.2K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank DACMLITSTRATEGY pools. This v
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated October 12, 2026
+## Last updated October 13, 2026

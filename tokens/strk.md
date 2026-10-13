@@ -1,40 +1,40 @@
 # STRK DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest STRK yield right now is 622.50% on ekubo (Starknet), among 14 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STRK yield right now is 6.55% on endur (Starknet), among 12 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [endur →](https://www.defi.garden/?pool=1ce1d44a-0bff-48ef-80c9-f8b6bd78bd17#src=seo_token) | Starknet | 6.55% | $15.36M |
-| [ekubo →](https://www.defi.garden/?pool=b022bb22-e9c8-4386-b30f-f40b42d91d4f#src=seo_token) | Starknet | 9.81% | $3.05M |
-| [vesu →](https://www.defi.garden/?pool=fd37bf57-da05-4024-b089-250f12caa86b#src=seo_token) | Starknet | 0.98% | $1.4M |
-| [ekubo →](https://www.defi.garden/?pool=55ee94b7-d355-404d-8b60-d822e1856adb#src=seo_token) | Starknet | 622.50% | $1.1M |
-| [ekubo →](https://www.defi.garden/?pool=5304a5af-cd2e-466d-8fbe-728aeda406fa#src=seo_token) | Starknet | 114.11% | $980.2K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=8261191b-4d80-55c1-aa10-1ccd0dbe6766#src=seo_token) | Ethereum | 362.46% | $852.4K |
-| [ekubo →](https://www.defi.garden/?pool=d030033c-6076-4caf-942a-9f928b857035#src=seo_token) | Starknet | 662.63% | $591.7K |
-| [vesu →](https://www.defi.garden/?pool=180a9afd-5402-4c12-954a-1745114b31dc#src=seo_token) | Starknet | 2.01% | $541.4K |
+| [endur →](https://www.defi.garden/?pool=1ce1d44a-0bff-48ef-80c9-f8b6bd78bd17#src=seo_token) | Starknet | 6.55% | $12.32M |
+| [ekubo →](https://www.defi.garden/?pool=b022bb22-e9c8-4386-b30f-f40b42d91d4f#src=seo_token) | Starknet | 2.45% | $2.49M |
+| [ekubo →](https://www.defi.garden/?pool=5304a5af-cd2e-466d-8fbe-728aeda406fa#src=seo_token) | Starknet | 174.21% | $970.5K |
+| [vesu →](https://www.defi.garden/?pool=fd37bf57-da05-4024-b089-250f12caa86b#src=seo_token) | Starknet | 1.18% | $746.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=8261191b-4d80-55c1-aa10-1ccd0dbe6766#src=seo_token) | Ethereum | 195.86% | $723K |
+| [ekubo →](https://www.defi.garden/?pool=d030033c-6076-4caf-942a-9f928b857035#src=seo_token) | Starknet | 169.30% | $579.1K |
+| [troves →](https://www.defi.garden/?pool=d875fe4d-9cf1-42e2-80ee-bb6fc3c566b1#src=seo_token) | Starknet | 309.56% | $518.1K |
+| [vesu →](https://www.defi.garden/?pool=ece0d1a5-7b4c-4a65-9938-3e07d505a95b#src=seo_token) | Starknet | 0.06% | $405.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, STRK's lower-variability candidates are vesu (Starknet), 2.01% APY, $541.4K TVL, https://www.defi.garden/?pool=180a9afd-5402-4c12-954a-1745114b31dc#src=seo_token; ekubo (Starknet), 9.81% APY, $3.05M TVL, https://www.defi.garden/?pool=b022bb22-e9c8-4386-b30f-f40b42d91d4f#src=seo_token; vesu (Starknet), 0.98% APY, $1.4M TVL, https://www.defi.garden/?pool=fd37bf57-da05-4024-b089-250f12caa86b#src=seo_token; endur (Starknet), 6.55% APY, $15.36M TVL, https://www.defi.garden/?pool=1ce1d44a-0bff-48ef-80c9-f8b6bd78bd17#src=seo_token; ekubo (Starknet), 114.11% APY, $980.2K TVL, https://www.defi.garden/?pool=5304a5af-cd2e-466d-8fbe-728aeda406fa#src=seo_token; ekubo (Starknet), 622.50% APY, $1.1M TVL, https://www.defi.garden/?pool=55ee94b7-d355-404d-8b60-d822e1856adb#src=seo_token; ekubo (Starknet), 662.63% APY, $591.7K TVL, https://www.defi.garden/?pool=d030033c-6076-4caf-942a-9f928b857035#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STRK's lower-variability candidates are ekubo (Starknet), 2.45% APY, $2.49M TVL, https://www.defi.garden/?pool=b022bb22-e9c8-4386-b30f-f40b42d91d4f#src=seo_token; vesu (Starknet), 1.18% APY, $746.3K TVL, https://www.defi.garden/?pool=fd37bf57-da05-4024-b089-250f12caa86b#src=seo_token; vesu (Starknet), 0.06% APY, $405.2K TVL, https://www.defi.garden/?pool=ece0d1a5-7b4c-4a65-9938-3e07d505a95b#src=seo_token; endur (Starknet), 6.55% APY, $12.32M TVL, https://www.defi.garden/?pool=1ce1d44a-0bff-48ef-80c9-f8b6bd78bd17#src=seo_token; ekubo (Starknet), 174.21% APY, $970.5K TVL, https://www.defi.garden/?pool=5304a5af-cd2e-466d-8fbe-728aeda406fa#src=seo_token; troves (Starknet), 309.56% APY, $518.1K TVL, https://www.defi.garden/?pool=d875fe4d-9cf1-42e2-80ee-bb6fc3c566b1#src=seo_token; ekubo (Starknet), 169.30% APY, $579.1K TVL, https://www.defi.garden/?pool=d030033c-6076-4caf-942a-9f928b857035#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [vesu →](https://www.defi.garden/?pool=180a9afd-5402-4c12-954a-1745114b31dc#src=seo_token) | Starknet | 2.01% | $541.4K |
-| 2 | [ekubo →](https://www.defi.garden/?pool=b022bb22-e9c8-4386-b30f-f40b42d91d4f#src=seo_token) | Starknet | 9.81% | $3.05M |
-| 3 | [vesu →](https://www.defi.garden/?pool=fd37bf57-da05-4024-b089-250f12caa86b#src=seo_token) | Starknet | 0.98% | $1.4M |
-| 4 | [endur →](https://www.defi.garden/?pool=1ce1d44a-0bff-48ef-80c9-f8b6bd78bd17#src=seo_token) | Starknet | 6.55% | $15.36M |
-| 5 | [ekubo →](https://www.defi.garden/?pool=5304a5af-cd2e-466d-8fbe-728aeda406fa#src=seo_token) | Starknet | 114.11% | $980.2K |
-| 6 | [ekubo →](https://www.defi.garden/?pool=55ee94b7-d355-404d-8b60-d822e1856adb#src=seo_token) | Starknet | 622.50% | $1.1M |
-| 7 | [ekubo →](https://www.defi.garden/?pool=d030033c-6076-4caf-942a-9f928b857035#src=seo_token) | Starknet | 662.63% | $591.7K |
+| 1 | [ekubo →](https://www.defi.garden/?pool=b022bb22-e9c8-4386-b30f-f40b42d91d4f#src=seo_token) | Starknet | 2.45% | $2.49M |
+| 2 | [vesu →](https://www.defi.garden/?pool=fd37bf57-da05-4024-b089-250f12caa86b#src=seo_token) | Starknet | 1.18% | $746.3K |
+| 3 | [vesu →](https://www.defi.garden/?pool=ece0d1a5-7b4c-4a65-9938-3e07d505a95b#src=seo_token) | Starknet | 0.06% | $405.2K |
+| 4 | [endur →](https://www.defi.garden/?pool=1ce1d44a-0bff-48ef-80c9-f8b6bd78bd17#src=seo_token) | Starknet | 6.55% | $12.32M |
+| 5 | [ekubo →](https://www.defi.garden/?pool=5304a5af-cd2e-466d-8fbe-728aeda406fa#src=seo_token) | Starknet | 174.21% | $970.5K |
+| 6 | [troves →](https://www.defi.garden/?pool=d875fe4d-9cf1-42e2-80ee-bb6fc3c566b1#src=seo_token) | Starknet | 309.56% | $518.1K |
+| 7 | [ekubo →](https://www.defi.garden/?pool=d030033c-6076-4caf-942a-9f928b857035#src=seo_token) | Starknet | 169.30% | $579.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-STRK shows up in 8 pools here, with rates from 0.98% to 662.63% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+STRK shows up in 8 pools here, with rates from 0.06% to 309.56% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 7 of these 8 pools have a trustworthy 30-day average on file, with a median of 6.50% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -45,13 +45,13 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | endur | 6.55% | 6.50% | Base rate |
-| ekubo | 9.81% | 0.43% | Base rate |
-| vesu | 0.98% | 1.30% | Base rate |
-| ekubo | 622.50% | 427.95% | Base rate |
-| ekubo | 114.11% | 38.92% | Base rate |
-| uniswap-v4 | 362.46% | 425.64% | Base rate |
-| ekubo | 662.63% | — | Base rate |
-| vesu | 2.01% | 2.54% | Base rate |
+| ekubo | 2.45% | 0.73% | Base rate |
+| ekubo | 174.21% | 44.66% | Base rate |
+| vesu | 1.18% | 1.30% | Base rate |
+| uniswap-v4 | 195.86% | 411.50% | Base rate |
+| ekubo | 169.30% | — | Base rate |
+| troves | 309.56% | 150.50% | Base rate |
+| vesu | 0.06% | 0.08% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -59,11 +59,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest STRK yield today?
 
-622.50% APY on ekubo (Starknet), based on live DefiLlama data.
+6.55% APY on endur (Starknet), based on live DefiLlama data.
 
 ### How many STRK pools clear the TVL floor?
 
-14 live pools clear this page's $100K TVL floor, $25.69M in total.
+12 live pools clear this page's $100K TVL floor, $19.85M in total.
 
 ### Are these rates safe?
 
@@ -71,7 +71,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which STRK pools have the most stable APY history?
 
-Based on APY history only, STRK's lower-variability candidates are vesu (Starknet), 2.01% APY, $541.4K TVL, https://www.defi.garden/?pool=180a9afd-5402-4c12-954a-1745114b31dc#src=seo_token; ekubo (Starknet), 9.81% APY, $3.05M TVL, https://www.defi.garden/?pool=b022bb22-e9c8-4386-b30f-f40b42d91d4f#src=seo_token; vesu (Starknet), 0.98% APY, $1.4M TVL, https://www.defi.garden/?pool=fd37bf57-da05-4024-b089-250f12caa86b#src=seo_token; endur (Starknet), 6.55% APY, $15.36M TVL, https://www.defi.garden/?pool=1ce1d44a-0bff-48ef-80c9-f8b6bd78bd17#src=seo_token; ekubo (Starknet), 114.11% APY, $980.2K TVL, https://www.defi.garden/?pool=5304a5af-cd2e-466d-8fbe-728aeda406fa#src=seo_token; ekubo (Starknet), 622.50% APY, $1.1M TVL, https://www.defi.garden/?pool=55ee94b7-d355-404d-8b60-d822e1856adb#src=seo_token; ekubo (Starknet), 662.63% APY, $591.7K TVL, https://www.defi.garden/?pool=d030033c-6076-4caf-942a-9f928b857035#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STRK's lower-variability candidates are ekubo (Starknet), 2.45% APY, $2.49M TVL, https://www.defi.garden/?pool=b022bb22-e9c8-4386-b30f-f40b42d91d4f#src=seo_token; vesu (Starknet), 1.18% APY, $746.3K TVL, https://www.defi.garden/?pool=fd37bf57-da05-4024-b089-250f12caa86b#src=seo_token; vesu (Starknet), 0.06% APY, $405.2K TVL, https://www.defi.garden/?pool=ece0d1a5-7b4c-4a65-9938-3e07d505a95b#src=seo_token; endur (Starknet), 6.55% APY, $12.32M TVL, https://www.defi.garden/?pool=1ce1d44a-0bff-48ef-80c9-f8b6bd78bd17#src=seo_token; ekubo (Starknet), 174.21% APY, $970.5K TVL, https://www.defi.garden/?pool=5304a5af-cd2e-466d-8fbe-728aeda406fa#src=seo_token; troves (Starknet), 309.56% APY, $518.1K TVL, https://www.defi.garden/?pool=d875fe4d-9cf1-42e2-80ee-bb6fc3c566b1#src=seo_token; ekubo (Starknet), 169.30% APY, $579.1K TVL, https://www.defi.garden/?pool=d030033c-6076-4caf-942a-9f928b857035#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -87,4 +87,4 @@ Based on APY history only, STRK's lower-variability candidates are vesu (Starkne
 - [Starknet](https://www.defi.garden/chains/starknet)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 12, 2026
+## Last updated October 13, 2026

@@ -920,6 +920,11 @@
 }
 .lang-suggest-link {
   min-width: 0;
+  background: none;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
   display: inline-flex;
   align-items: center;
   height: 100%;

@@ -266,7 +266,11 @@ if (fs.existsSync(registryPath)) {
     check('registry: every token address is justified by an underlyingTokens entry in the pools snapshot', () => {
       const seen = new Set();
       snap.pools.forEach(p => (p.underlyingTokens || []).forEach(a => seen.add(p.chain + ':' + gen.normalizeAddress(p.chain, a))));
-      Object.keys(reg.tokens).forEach(k => assert.ok(seen.has(k), k + ' not present in pools-snapshot.json'));
+      if (fs.existsSync(outputPath)) {
+        const stocksSnap = JSON.parse(fs.readFileSync(outputPath, 'utf8'));
+        stocksSnap.pools.forEach(p => (p.equityTokens || []).forEach(t => seen.add(p.chain + ':' + gen.normalizeAddress(p.chain, t.address))));
+      }
+      Object.keys(reg.tokens).forEach(k => assert.ok(seen.has(k), k + ' not present in pools-snapshot.json or stocks-snapshot.json'));
     });
     check('generator on the real snapshot: no NaN/undefined/Infinity anywhere, haircut <= headline, tiers match TVL', () => {
       const out = buildStocksSnapshot(snap, reg, { generatedAt: 'x' });

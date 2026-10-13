@@ -1,12 +1,12 @@
 # GUSDGST DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
 The highest honest GUSDGST yield right now is 4.03% on morpho-blue (Robinhood Chain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=07caf4ad-86b5-5c84-adaa-84e9efc34d1a#src=seo_token) | Robinhood Chain | 4.03% | $2.1M |
+| [morpho-blue →](https://www.defi.garden/?pool=07caf4ad-86b5-5c84-adaa-84e9efc34d1a#src=seo_token) | Robinhood Chain | 4.03% | $2.11M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GUSDGST pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.1M in total.
+1 live pool clear this page's $100K TVL floor, $2.11M in total.
 
 ### Are these rates safe?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank GUSDGST pools. This view cove
 - [USDG](https://www.defi.garden/tokens/usdg)
 - [STEAKUSDG](https://www.defi.garden/tokens/steakusdg)
 - [STONX](https://www.defi.garden/tokens/stonx)
-- [GAMIWBTC](https://www.defi.garden/tokens/gamiwbtc)
 - [SPY](https://www.defi.garden/tokens/spy)
+- [KFV](https://www.defi.garden/tokens/kfv)
 
 ## Available on
 
 - [Robinhood Chain](https://www.defi.garden/chains/robinhood-chain)
 
-## Last updated October 12, 2026
+## Last updated October 13, 2026

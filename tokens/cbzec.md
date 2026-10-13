@@ -1,26 +1,31 @@
 # CBZEC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest CBZEC yield right now is 156.69% on uniswap-v3 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CBZEC yield right now is 198.19% on uniswap-v3 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=acb09125-1c72-5483-bbc4-7abe7e913686#src=seo_token) | Base | 301.58% | $442.7K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=5ff0b98d-e450-53dd-9d8d-53bb0cc310f6#src=seo_token) | Base | 156.69% | $125.8K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=acb09125-1c72-5483-bbc4-7abe7e913686#src=seo_token) | Base | 243.80% | $626.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=5ff0b98d-e450-53dd-9d8d-53bb0cc310f6#src=seo_token) | Base | 198.19% | $121.1K |
 
-<!-- rate-stability:insufficient -->
+<!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-There is not enough qualifying APY history to rank CBZEC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CBZEC's lower-variability candidates are uniswap-v3 (Base), 198.19% APY, $121.1K TVL, https://www.defi.garden/?pool=5ff0b98d-e450-53dd-9d8d-53bb0cc310f6#src=seo_token; aerodrome-slipstream (Base), 243.80% APY, $626.4K TVL, https://www.defi.garden/?pool=acb09125-1c72-5483-bbc4-7abe7e913686#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+| Rank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=5ff0b98d-e450-53dd-9d8d-53bb0cc310f6#src=seo_token) | Base | 198.19% | $121.1K |
+| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=acb09125-1c72-5483-bbc4-7abe7e913686#src=seo_token) | Base | 243.80% | $626.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CBZEC shows up in 2 pools here, with rates from 156.69% to 301.58% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CBZEC shows up in 2 pools here, with rates from 198.19% to 243.80% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 156.44% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 161.87% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -28,8 +33,8 @@ CBZEC shows up in 2 pools here, with rates from 156.69% to 301.58% APY across 1 
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 301.58% | 138.43% | 15.94% incentives |
-| uniswap-v3 | 156.69% | 174.45% | Base rate |
+| aerodrome-slipstream | 243.80% | 147.64% | 9.30% incentives |
+| uniswap-v3 | 198.19% | 176.11% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CBZEC yield today?
 
-156.69% APY on uniswap-v3 (Base), based on live DefiLlama data.
+198.19% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many CBZEC pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $6.26M in total.
+3 live pools clear this page's $100K TVL floor, $6.13M in total.
 
 ### Are these rates safe?
 
@@ -49,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which CBZEC pools have the most stable APY history?
 
-There is not enough qualifying APY history to rank CBZEC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CBZEC's lower-variability candidates are uniswap-v3 (Base), 198.19% APY, $121.1K TVL, https://www.defi.garden/?pool=5ff0b98d-e450-53dd-9d8d-53bb0cc310f6#src=seo_token; aerodrome-slipstream (Base), 243.80% APY, $626.4K TVL, https://www.defi.garden/?pool=acb09125-1c72-5483-bbc4-7abe7e913686#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -64,4 +69,4 @@ There is not enough qualifying APY history to rank CBZEC pools. This view covers
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 12, 2026
+## Last updated October 13, 2026

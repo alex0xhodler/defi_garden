@@ -1,12 +1,12 @@
 # ANKRBNB DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
 The highest honest ANKRBNB yield right now is 0.78% on ankr (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ankr →](https://www.defi.garden/?pool=76ce5019-2483-4d1b-ae06-01b890360045#src=seo_token) | BSC | 0.78% | $546.8K |
+| [ankr →](https://www.defi.garden/?pool=76ce5019-2483-4d1b-ae06-01b890360045#src=seo_token) | BSC | 0.78% | $538.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ANKRBNB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $546.8K in total.
+1 live pool clear this page's $100K TVL floor, $538.8K in total.
 
 ### Are these rates safe?
 
@@ -36,14 +36,14 @@ There is not enough qualifying APY history to rank ANKRBNB pools. This view cove
 ## Related tokens
 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USYC](https://www.defi.garden/tokens/usyc)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
 - [TRX](https://www.defi.garden/tokens/trx)
 - [BTCB](https://www.defi.garden/tokens/btcb)
-- [WBNB](https://www.defi.garden/tokens/wbnb)
 
 ## Available on
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated October 12, 2026
+## Last updated October 13, 2026

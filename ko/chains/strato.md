@@ -16,7 +16,7 @@ DefiLlama 실시간 데이터 기준, Strato의 strato에서 APY 5.00%예요.
 
 ### Strato 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $2.57M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $2.56M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Strato의 strato에서 APY 5.00%예요.
 
 - [USDST](https://www.defi.garden/ko/tokens/usdst)
 
-## 마지막 업데이트: October 12, 2026
+## 마지막 업데이트: October 13, 2026

@@ -1,6 +1,6 @@
 # TRUAPT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
 The highest honest TRUAPT yield right now is 1.12% on hyperion (Aptos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -35,15 +35,15 @@ There is not enough qualifying APY history to rank TRUAPT pools. This view cover
 
 ## Related tokens
 
+- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USD1](https://www.defi.garden/tokens/usd1)
 - [SYZUSD](https://www.defi.garden/tokens/syzusd)
 - [XBTC](https://www.defi.garden/tokens/xbtc)
 - [APT](https://www.defi.garden/tokens/apt)
 - [AMAPT](https://www.defi.garden/tokens/amapt)
-- [STAPT](https://www.defi.garden/tokens/stapt)
 
 ## Available on
 
 - [Aptos](https://www.defi.garden/chains/aptos)
 
-## Last updated October 12, 2026
+## Last updated October 13, 2026

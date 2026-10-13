@@ -1,14 +1,14 @@
 # VKHYPE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
 The highest honest VKHYPE yield right now is 2.22% on pendle-v2 (Hyperliquid L1), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [project-x →](https://www.defi.garden/?pool=f790f1f3-435e-4706-aaf2-19b08dde32ed#src=seo_token) | Hyperliquid L1 | 0.77% | $570.4K |
-| [pendle-v2 →](https://www.defi.garden/?pool=5858bab6-4ef3-533b-a781-dfcbb7b2db4b#src=seo_token) | Hyperliquid L1 | 2.22% | $226.3K |
-| [pendle-v2 →](https://www.defi.garden/?pool=838e51ee-a8d8-5bde-a04a-2ee7457e9d14#src=seo_token) | Hyperliquid L1 | 0.60% | $226.3K |
+| [project-x →](https://www.defi.garden/?pool=f790f1f3-435e-4706-aaf2-19b08dde32ed#src=seo_token) | Hyperliquid L1 | 0.88% | $549.3K |
+| [pendle-v2 →](https://www.defi.garden/?pool=5858bab6-4ef3-533b-a781-dfcbb7b2db4b#src=seo_token) | Hyperliquid L1 | 2.22% | $214K |
+| [pendle-v2 →](https://www.defi.garden/?pool=838e51ee-a8d8-5bde-a04a-2ee7457e9d14#src=seo_token) | Hyperliquid L1 | 0.60% | $214K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 VKHYPE shows up in 3 pools here, with rates from 0.60% to 2.22% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 4.79% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 4.63% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -29,9 +29,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| project-x | 0.77% | 4.79% | Base rate |
-| pendle-v2 | 2.22% | 2.38% | Base rate |
-| pendle-v2 | 0.60% | 7.70% | Base rate |
+| project-x | 0.88% | 4.63% | Base rate |
+| pendle-v2 | 2.22% | 2.37% | Base rate |
+| pendle-v2 | 0.60% | 7.41% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -43,7 +43,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many VKHYPE pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.02M in total.
+3 live pools clear this page's $100K TVL floor, $977.4K in total.
 
 ### Are these rates safe?
 
@@ -57,13 +57,13 @@ There is not enough qualifying APY history to rank VKHYPE pools. This view cover
 
 - [KHYPE](https://www.defi.garden/tokens/khype)
 - [WHYPE](https://www.defi.garden/tokens/whype)
+- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [THBILL](https://www.defi.garden/tokens/thbill)
 - [UBTC](https://www.defi.garden/tokens/ubtc)
 - [WSTHYPE](https://www.defi.garden/tokens/wsthype)
-- [XBTC](https://www.defi.garden/tokens/xbtc)
 
 ## Available on
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated October 12, 2026
+## Last updated October 13, 2026

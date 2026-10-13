@@ -1,41 +1,41 @@
 # BALANCERRETH 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 12, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 13, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 BALANCERRETH의 가장 높은 정직한 수익률은 Arbitrum의 balancer-v3에서 11.89%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 BALANCERRETH의 가장 높은 정직한 수익률은 Arbitrum의 balancer-v3에서 6.99%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442#src=seo_token) | OP Mainnet | 8.26% | $353.4K |
-| [balancer-v3 →](https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3#src=seo_token) | Arbitrum | 11.89% | $282.2K |
-| [balancer-v3 →](https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6#src=seo_token) | Base | 11.69% | $246.7K |
+| [balancer-v3 →](https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442#src=seo_token) | OP Mainnet | 4.20% | $348.8K |
+| [balancer-v3 →](https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3#src=seo_token) | Arbitrum | 6.99% | $278.7K |
+| [balancer-v3 →](https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6#src=seo_token) | Base | 6.67% | $243.6K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 BALANCERRETH의 변동성 낮은 후보는 Base의 balancer-v3, APY 11.69%, TVL $246.7K, https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6#src=seo_token; Arbitrum의 balancer-v3, APY 11.89%, TVL $282.2K, https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3#src=seo_token; OP Mainnet의 balancer-v3, APY 8.26%, TVL $353.4K, https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 BALANCERRETH의 변동성 낮은 후보는 Base의 balancer-v3, APY 6.67%, TVL $243.6K, https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6#src=seo_token; Arbitrum의 balancer-v3, APY 6.99%, TVL $278.7K, https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3#src=seo_token; OP Mainnet의 balancer-v3, APY 4.20%, TVL $348.8K, https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [balancer-v3 →](https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6#src=seo_token) | Base | 11.69% | $246.7K |
-| 2 | [balancer-v3 →](https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3#src=seo_token) | Arbitrum | 11.89% | $282.2K |
-| 3 | [balancer-v3 →](https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442#src=seo_token) | OP Mainnet | 8.26% | $353.4K |
+| 1 | [balancer-v3 →](https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6#src=seo_token) | Base | 6.67% | $243.6K |
+| 2 | [balancer-v3 →](https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3#src=seo_token) | Arbitrum | 6.99% | $278.7K |
+| 3 | [balancer-v3 →](https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442#src=seo_token) | OP Mainnet | 4.20% | $348.8K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-BALANCERRETH 풀은 여기 3개가 있고, 3개 체인에서 APY가 8.26%부터 11.89%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+BALANCERRETH 풀은 여기 3개가 있고, 3개 체인에서 APY가 4.20%부터 6.99%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 7.23%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 7.29%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 3개 풀 중 3개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| balancer-v3 | 8.26% | 4.50% | 인센티브 78.72% |
-| balancer-v3 | 11.89% | 7.37% | 인센티브 84.11% |
-| balancer-v3 | 11.69% | 7.23% | 인센티브 85.55% |
+| balancer-v3 | 4.20% | 4.54% | 인센티브 62.27% |
+| balancer-v3 | 6.99% | 7.45% | 인센티브 68.98% |
+| balancer-v3 | 6.67% | 7.29% | 인센티브 74.88% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -43,11 +43,11 @@ BALANCERRETH 풀은 여기 3개가 있고, 3개 체인에서 APY가 8.26%부터 
 
 ### 오늘 BALANCERRETH의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Arbitrum의 balancer-v3에서 APY 11.89%예요.
+DefiLlama 실시간 데이터 기준, Arbitrum의 balancer-v3에서 APY 6.99%예요.
 
 ### BALANCERRETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $882.2K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $871.1K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -55,7 +55,7 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 balancer-v3에서 APY 11.89%�
 
 ### BALANCERRETH 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 BALANCERRETH의 변동성 낮은 후보는 Base의 balancer-v3, APY 11.69%, TVL $246.7K, https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6#src=seo_token; Arbitrum의 balancer-v3, APY 11.89%, TVL $282.2K, https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3#src=seo_token; OP Mainnet의 balancer-v3, APY 8.26%, TVL $353.4K, https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 BALANCERRETH의 변동성 낮은 후보는 Base의 balancer-v3, APY 6.67%, TVL $243.6K, https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6#src=seo_token; Arbitrum의 balancer-v3, APY 6.99%, TVL $278.7K, https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3#src=seo_token; OP Mainnet의 balancer-v3, APY 4.20%, TVL $348.8K, https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -72,4 +72,4 @@ APY 이력만 기준으로 비교한 BALANCERRETH의 변동성 낮은 후보는 
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: October 12, 2026
+## 마지막 업데이트: October 13, 2026

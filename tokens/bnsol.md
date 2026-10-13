@@ -1,12 +1,12 @@
 # BNSOL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
 The highest honest BNSOL yield right now is 4.49% on binance-staked-sol (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [binance-staked-sol →](https://www.defi.garden/pools/binance-staked-sol-bnsol-solana) | Solana | 4.49% | $1.16B |
+| [binance-staked-sol →](https://www.defi.garden/pools/binance-staked-sol-bnsol-solana) | Solana | 4.49% | $1.12B |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many BNSOL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.16B in total.
+2 live pools clear this page's $100K TVL floor, $1.12B in total.
 
 ### Are these rates safe?
 
@@ -51,13 +51,13 @@ There is not enough qualifying APY history to rank BNSOL pools. This view covers
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [PRIME](https://www.defi.garden/tokens/prime)
-- [JUPSOL](https://www.defi.garden/tokens/jupsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 12, 2026
+## Last updated October 13, 2026

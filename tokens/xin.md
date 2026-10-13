@@ -1,12 +1,12 @@
 # XIN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest XIN yield right now is 3.59% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XIN yield right now is 3.01% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=19254afd-cf31-4333-9b39-cc535fb04c79#src=seo_token) | Solana | 3.59% | $110.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=19254afd-cf31-4333-9b39-cc535fb04c79#src=seo_token) | Solana | 3.01% | $111.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest XIN yield today?
 
-3.59% APY on raydium-amm (Solana), based on live DefiLlama data.
+3.01% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many XIN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $110.8K in total.
+1 live pool clear this page's $100K TVL floor, $111.5K in total.
 
 ### Are these rates safe?
 
@@ -37,13 +37,13 @@ There is not enough qualifying APY history to rank XIN pools. This view covers A
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [BNSOL](https://www.defi.garden/tokens/bnsol)
-- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 12, 2026
+## Last updated October 13, 2026

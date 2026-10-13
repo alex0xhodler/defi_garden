@@ -1,12 +1,12 @@
 # BOOE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest BOOE yield right now is 3.06% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BOOE yield right now is 2.79% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=e20cd35f-a0bb-4926-aa19-a3d78087a0e6#src=seo_token) | Ethereum | 3.06% | $545K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=e20cd35f-a0bb-4926-aa19-a3d78087a0e6#src=seo_token) | Ethereum | 2.79% | $522.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BOOE yield today?
 
-3.06% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+2.79% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many BOOE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $545K in total.
+1 live pool clear this page's $100K TVL floor, $522.4K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank BOOE pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 12, 2026
+## Last updated October 13, 2026

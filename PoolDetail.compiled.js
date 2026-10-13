@@ -5,6 +5,68 @@ var {
   useEffect
 } = typeof React !== 'undefined' ? React : {};
 
+// i18n (en/ko/pt/es). The language is resolved exactly the way app.js does it
+// (localStorage 'defi-garden-lang', then ?lang, then the browser language) so
+// PoolDetail never disagrees with the `t` the app passes down. translations.js
+// is a plain script loaded before this file; every global is guarded so the
+// pure helpers below still load in a bare Node test harness.
+var POOL_DETAIL_LANGS = ['en', 'ko', 'pt', 'es'];
+function normalizePoolDetailLang(value) {
+  if (typeof normalizeLanguageCode === 'function') return normalizeLanguageCode(value);
+  var base = String(value || '').toLowerCase().split('-')[0];
+  return POOL_DETAIL_LANGS.includes(base) ? base : null;
+}
+function resolvePoolDetailLanguage() {
+  if (typeof window === 'undefined') return 'en';
+  try {
+    var saved = normalizePoolDetailLang(localStorage.getItem('defi-garden-lang'));
+    if (saved) return saved;
+  } catch (_) {}
+  try {
+    var fromUrl = normalizePoolDetailLang(new URLSearchParams(window.location.search).get('lang'));
+    if (fromUrl) return fromUrl;
+  } catch (_) {}
+  var detected = 'en';
+  if (typeof detectUserLanguage === 'function') {
+    try {
+      detected = detectUserLanguage();
+    } catch (_) {}
+  } else if (typeof navigator !== 'undefined' && (navigator.language || '').toLowerCase().startsWith('ko')) {
+    detected = 'ko';
+  }
+  // Historical behaviour: a Seoul time zone with no explicit choice means Korean.
+  if (detected === 'en' && typeof Intl !== 'undefined' && Intl.DateTimeFormat && Intl.DateTimeFormat().resolvedOptions().timeZone === 'Asia/Seoul') {
+    return 'ko';
+  }
+  return detected;
+}
+
+// Translation function for the resolved language. Falls back to the `t` the
+// caller passed (tests / SSR without translations.js), then to the bare key.
+function createPoolDetailT(lang, fallbackT) {
+  if (typeof createTranslationFunction === 'function') return createTranslationFunction(lang);
+  return fallbackT || (k => k);
+}
+
+// The Laso virtual-card pitch (issuance flow, "Get ... Yield Card" CTA and the
+// yield-card widget) is only shown to en/ko audiences: the card is US-only and
+// the international card carries a $100 minimum load + 3.8% deposit fee, so the
+// pitch would mislead pt/es (Brazil/LatAm) readers. Mirrors lasoCard=false in
+// the static-page language config.
+function isCardFlowLanguage(lang) {
+  return lang === 'en' || lang === 'ko';
+}
+
+// pool type (getPoolTypeShared output, also used in logic) -> display key
+var POOL_TYPE_LABEL_KEYS = {
+  'Yield Farming': 'poolDetail.type.yieldFarming',
+  'RWA': 'poolDetail.type.rwa',
+  'Yield Derivatives': 'poolDetail.type.yieldDerivatives',
+  'Lending': 'poolDetail.type.lending',
+  'LP/DEX': 'poolDetail.type.lpDex',
+  'Staking': 'poolDetail.type.staking'
+};
+
 // Yield-Funded Virtual Card Catalogs & Pure Mathematical Helpers (PRD Design 3)
 function calculateMonthlyYield(deposit, netApy) {
   var C = Number(deposit) || 0;
@@ -704,8 +766,14 @@ function YieldCardWidget({
   formatUsd,
   formatNum,
   formatApy,
-  riskAssessment
+  riskAssessment,
+  lang: langProp
 }) {
+  var lang = langProp || resolvePoolDetailLanguage();
+  var tl = createPoolDetailT(lang, t);
+  // Korean is the only language with KRW pricing and the KR catalog.
+  var useKrw = lang === 'ko';
+  var showCardFlow = isCardFlowLanguage(lang);
   var [depositAmount, setDepositAmount] = useState(4000);
   var [selectedGoalIds, setSelectedGoalIds] = useState(() => [resolveInitialSub(sub)]);
   useEffect(() => {
@@ -725,6 +793,7 @@ function YieldCardWidget({
   var [tokenPrice, setTokenPrice] = useState(null);
   var isStable = isStableSymbol(pool && pool.symbol);
   useEffect(() => {
+    if (!showCardFlow) return;
     if (isStable) {
       setTokenPrice(1.0);
       return;
@@ -756,8 +825,7 @@ function YieldCardWidget({
     maximumFractionDigits: f || 2
   }));
   var _formatNum = formatNum || (n => Number(n || 0).toLocaleString('en-US'));
-  var isKorean = typeof window !== 'undefined' && (localStorage.getItem('defi-garden-lang') === 'ko' || navigator.language && navigator.language.toLowerCase().startsWith('ko') || typeof Intl !== 'undefined' && Intl.DateTimeFormat && Intl.DateTimeFormat().resolvedOptions().timeZone === 'Asia/Seoul');
-  var catalog = getYieldCardCatalog(isKorean ? 'ko' : 'en');
+  var catalog = getYieldCardCatalog(lang);
   var selectedSubs = catalog.filter(i => selectedGoalIds.includes(i.id));
   var activeSubs = selectedSubs.length > 0 ? selectedSubs : [catalog.find(i => i.id === 'opencode_go') || catalog[0]];
   var selectedSub = activeSubs[0];
@@ -800,7 +868,7 @@ function YieldCardWidget({
 
   // Automatic Pending Order Recovery
   useEffect(() => {
-    if (typeof window === 'undefined' || !window.LasoService) return;
+    if (!showCardFlow || typeof window === 'undefined' || !window.LasoService) return;
     try {
       var cards = window.LasoService.getStoredCards();
       if (cards && cards.length) {
@@ -811,7 +879,7 @@ function YieldCardWidget({
             setShowLasoTerminal(true);
             setLasoIssuingState('issuing');
             setLasoProgressStep(5);
-            setLasoProgressMessage(isKorean ? `발급 재개 중 (${latest.card_id})...` : `Resuming pending card provisioning (${latest.card_id})...`);
+            setLasoProgressMessage(tl('poolDetail.lasoResuming', latest.card_id));
             window.LasoService.pollCardUntilReady({
               cardId: latest.card_id,
               idToken: latest.id_token,
@@ -910,7 +978,7 @@ function YieldCardWidget({
     setLasoIssuingState('issuing');
     setLasoProgressStep(1);
     if (!lasoSimMode) {
-      setLasoProgressMessage(isKorean ? '지갑 연결 및 Base 네트워크 확인 중...' : 'Connecting wallet & verifying Base network...');
+      setLasoProgressMessage(tl('poolDetail.lasoConnecting'));
       try {
         if (typeof window !== 'undefined' && window.LasoService && window.LasoService.issueCardWithLiveWallet) {
           var card = await window.LasoService.issueCardWithLiveWallet({
@@ -932,7 +1000,7 @@ function YieldCardWidget({
         setLasoProgressMessage(err.message || 'Live issuance failed');
       }
     } else {
-      setLasoProgressMessage(isKorean ? '지갑 서명 (SIWx CAIP-122) 요청 중...' : 'Requesting CAIP-122 wallet signature (SIWx)...');
+      setLasoProgressMessage(tl('poolDetail.lasoRequestingSig'));
       try {
         if (typeof window !== 'undefined' && window.LasoService) {
           var _card = await window.LasoService.simulateIssuance({
@@ -958,6 +1026,7 @@ function YieldCardWidget({
     }
   };
   var renderLasoTerminal = () => {
+    if (!showCardFlow) return null;
     return React.createElement('div', {
       className: 'laso-terminal-container animate-on-mount'
     },
@@ -985,25 +1054,25 @@ function YieldCardWidget({
         className: 'laso-idle-card'
       }, React.createElement('p', {
         className: 'laso-terminal-desc'
-      }, !lasoSimMode ? isKorean ? 'Base 체인 x402 마이크로 결제로 즉시 발급되는 미국 가상 Visa 데빗 카드입니다. Coinbase 릴레이어로 가스비 0원 후원. 6개월 유효, 미국 온라인 가맹점 결제, 0% 충전 수수료.' : 'Instant USA Prepaid Visa Debit card funded via x402 USDC on Base. Gasless onchain payment via Coinbase facilitator. 6-month validity, US merchant online checkout, 0% load fee.' : isKorean ? 'Laso BaaS 발급, SIWx 지갑 인증 및 Base x402 마이크로 결제를 시뮬레이션하는 인터랙티브 테스트 환경입니다.' : 'Interactive test simulator mimicking live Laso BaaS issuance, SIWx auth, and Base x402 micro-payments.'), React.createElement('div', {
+      }, !lasoSimMode ? tl('poolDetail.lasoDescLive') : tl('poolDetail.lasoDescSim')), React.createElement('div', {
         className: 'laso-amount-section'
       }, React.createElement('span', {
         className: 'laso-amount-label'
-      }, isKorean ? '카드 충전 금액 선택:' : 'Card Load Amount:'), React.createElement('div', {
+      }, tl('poolDetail.lasoAmountLabel')), React.createElement('div', {
         className: 'laso-amount-chips-row'
       }, React.createElement('button', {
         type: 'button',
         className: `laso-amount-chip ${lasoAmountPreset === 'test5' ? 'is-active' : ''}`,
         onClick: () => setLasoAmountPreset('test5')
-      }, isKorean ? '🧪 테스트 최소 $5.00' : '🧪 Test Min $5.00'), React.createElement('button', {
+      }, tl('poolDetail.lasoAmountTest')), React.createElement('button', {
         type: 'button',
         className: `laso-amount-chip ${lasoAmountPreset === 'service' ? 'is-active' : ''}`,
         onClick: () => setLasoAmountPreset('service')
-      }, isKorean ? `💼 구독료 $${sAmount.toFixed(2)}` : `💼 Service Bill $${sAmount.toFixed(2)}`), React.createElement('button', {
+      }, tl('poolDetail.lasoAmountService', sAmount.toFixed(2))), React.createElement('button', {
         type: 'button',
         className: `laso-amount-chip ${lasoAmountPreset === 'custom' ? 'is-active' : ''}`,
         onClick: () => setLasoAmountPreset('custom')
-      }, isKorean ? '✏️ 직접 입력' : '✏️ Custom')), lasoAmountPreset === 'custom' && React.createElement('div', {
+      }, tl('poolDetail.lasoAmountCustom'))), lasoAmountPreset === 'custom' && React.createElement('div', {
         className: 'laso-custom-amount-row'
       }, React.createElement('span', null, '$'), React.createElement('input', {
         type: 'number',
@@ -1039,7 +1108,7 @@ function YieldCardWidget({
         type: 'button',
         className: 'laso-issue-cta-btn',
         onClick: handleStartLasoIssuance
-      }, !lasoSimMode ? isKorean ? `⚡ 지갑 연결 및 실시간 발급 ($${currentAmount.toFixed(2)} USDC) →` : `⚡ Connect Wallet & Issue Live Card ($${currentAmount.toFixed(2)} USDC) →` : isKorean ? `🧪 가상 카드 발급 시뮬레이션 ($${currentAmount.toFixed(2)}) →` : `🧪 Simulate Card Issuance ($${currentAmount.toFixed(2)}) →`));
+      }, !lasoSimMode ? tl('poolDetail.lasoIssueLive', currentAmount.toFixed(2)) : tl('poolDetail.lasoIssueSim', currentAmount.toFixed(2))));
     })(), lasoIssuingState === 'issuing' && React.createElement('div', {
       className: 'laso-issuing-progress-box'
     }, React.createElement('div', {
@@ -1142,12 +1211,12 @@ function YieldCardWidget({
       className: 'laso-siwx-unlock-banner animate-on-mount'
     }, React.createElement('div', null, React.createElement('span', {
       className: 'laso-siwx-note'
-    }, isKorean ? '카드 정보가 잠겨 있습니다. 지갑 서명으로 복호화합니다.' : 'Credentials locked for security. Authenticate to decrypt.')), React.createElement('button', {
+    }, tl('poolDetail.lasoCredsLocked'))), React.createElement('button', {
       type: 'button',
       className: 'laso-siwx-unlock-btn',
       onClick: handleSiwxUnlock,
       disabled: lasoSiwxUnlocking
-    }, lasoSiwxUnlocking ? isKorean ? '서명 중…' : 'Signing…' : isKorean ? '🔓 지갑 서명으로 카드 확인' : '🔓 Sign with Wallet to Reveal')),
+    }, lasoSiwxUnlocking ? tl('poolDetail.lasoSigning') : tl('poolDetail.lasoSignReveal'))),
     // Merchant Acceptance Search Tool
     React.createElement('form', {
       className: 'laso-merchant-search-box',
@@ -1193,7 +1262,7 @@ function YieldCardWidget({
     }, '← Back & Try Again')));
   };
   var formatReqCap = (costUsd, costKrw) => {
-    var cost = isKorean && costKrw ? costKrw / 1380 : costUsd;
+    var cost = useKrw && costKrw ? costKrw / 1380 : costUsd;
     var req = calculateRequiredCapital(cost * 1.2, totalApy);
     if (!Number.isFinite(req) || req <= 0) return '—';
     if (req >= 1000) {
@@ -1396,9 +1465,10 @@ function YieldCardWidget({
     var sym = pool.symbol || 'USDC';
     var apyStr = Number(totalApy || 0).toFixed(1);
     var subName = selectedSub.name;
-    var costStr = isKorean && selectedSub.monthlyCostKrw ? `₩${_formatNum(selectedSub.monthlyCostKrw)}/월` : `$${selectedSub.monthlyCostUsd.toFixed(2)}/mo`;
+    var perMo = tl('poolDetail.perMonthShort');
+    var costStr = useKrw && selectedSub.monthlyCostKrw ? `₩${_formatNum(selectedSub.monthlyCostKrw)}${perMo}` : `$${selectedSub.monthlyCostUsd.toFixed(2)}${perMo}`;
     var shareUrl = getShareUrl();
-    var text = isKorean ? `DeFi Garden에서 ${sym} 풀 이자(${apyStr}%)로 ${subName} (${costStr}) 구독료를 100% 자동 결제하는 가상 Visa 카드를 신청했습니다! 🌱💳\n\n원금은 100% 보존. 1명 초대 시 즉시 알파 액세스:` : `I just reserved a yield-funded Virtual Visa Card on @defigarden! 🌱💳\n\nPaying for ${subName} (${costStr}) using 100% idle yield from ${sym} (${apyStr}% APY). Principal stays 100% untouched.\n\nInvite 1 friend for instant Alpha Access:`;
+    var text = tl('poolDetail.twitterShare', sym, apyStr, subName, costStr);
     var tweetUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(shareUrl)}`;
     if (typeof window !== 'undefined') {
       window.open(tweetUrl, '_blank', 'noopener,noreferrer');
@@ -1427,6 +1497,9 @@ function YieldCardWidget({
       } catch (_) {}
     }
   };
+
+  // pt/es: the Laso card pitch is not shown (see isCardFlowLanguage).
+  if (!showCardFlow) return null;
   return React.createElement('div', {
     id: 'yield-card-widget',
     className: 'yield-card-terminal animate-on-mount'
@@ -1494,7 +1567,7 @@ function YieldCardWidget({
     className: 'visa-card-pan'
   }, '•••• •••• •••• 8453'), React.createElement('div', {
     className: 'visa-card-funded-label'
-  }, activeSubs.length > 1 ? `${activeSubs.map(s => s.name.split(' ')[0].toUpperCase()).slice(0, 3).join(' + ')}${activeSubs.length > 3 ? ` +${activeSubs.length - 3}` : ''} FUNDED` : isKorean ? `${selectedSub.name} ${_t('yieldCard.cardDedicatedSuffix') !== 'yieldCard.cardDedicatedSuffix' && _t('yieldCard.cardDedicatedSuffix') || '결제 전용'}` : `${selectedSub.name.toUpperCase()} ${_t('yieldCard.cardFundedSuffix') !== 'yieldCard.cardFundedSuffix' && _t('yieldCard.cardFundedSuffix') || 'FUNDED'}`)),
+  }, activeSubs.length > 1 ? `${activeSubs.map(s => s.name.split(' ')[0].toUpperCase()).slice(0, 3).join(' + ')}${activeSubs.length > 3 ? ` +${activeSubs.length - 3}` : ''} FUNDED` : tl('poolDetail.cardFundedLabel', selectedSub.name))),
   // Card bottom row: Expiration, Network info & Spend cap badge
   React.createElement('div', {
     className: 'visa-card-bottom-row'
@@ -1504,22 +1577,22 @@ function YieldCardWidget({
     className: 'visa-card-expiry'
   }, 'VALID 08/31'), React.createElement('span', {
     className: 'visa-card-network-info'
-  }, isKorean ? `${pool.symbol || 'USDC'} • ${Number(totalApy || 0).toFixed(1)}% 이자 직결` : `${pool.symbol || 'USDC'} · YIELD FUNDED`)), React.createElement('div', {
+  }, tl('poolDetail.cardNetworkInfo', pool.symbol || 'USDC', Number(totalApy || 0).toFixed(1)))), React.createElement('div', {
     className: 'visa-card-meta-right'
   }, React.createElement('div', {
     className: 'visa-card-hologram',
     'aria-hidden': 'true'
   }), React.createElement('div', {
     className: 'visa-card-cap-badge'
-  }, renderLockIcon(), React.createElement('span', null, isKorean && totalMonthlyKrw ? `월 한도: ₩${_formatNum(totalMonthlyKrw)}${activeSubs.length > 1 ? ` (${activeSubs.length}개)` : ''}` : `🟢 ACTIVE ($${totalMonthlyWithBuffer.toFixed(2)}/MO)`)))))), React.createElement('div', {
+  }, renderLockIcon(), React.createElement('span', null, tl('poolDetail.cardMonthlyCap', useKrw ? _formatNum(totalMonthlyKrw) : totalMonthlyWithBuffer.toFixed(2), activeSubs.length))))))), React.createElement('div', {
     className: 'yield-card-reservation-wrapper'
   }, React.createElement('div', {
     className: 'yield-card-reservation'
   }, React.createElement('h3', {
     className: 'reservation-title'
-  }, isKorean ? `${pool.symbol || 'USDC'} 이자 직결 가상 Visa 카드` : `Get ${pool.symbol || 'USDC'} Yield Card`), React.createElement('p', {
+  }, tl('poolDetail.reserveTitle', pool.symbol || 'USDC')), React.createElement('p', {
     className: 'reservation-subtitle'
-  }, isKorean ? '원금 100% 보존 • 전 세계 Visa 결제 • Laso 공식 파트너 제휴' : 'Spend your idle yield anywhere Visa is accepted worldwide • 100% principal protected'), React.createElement('a', {
+  }, tl('poolDetail.reserveSubtitle')), React.createElement('a', {
     className: 'reserve-submit-btn',
     href: 'https://laso.finance?ref=lmretyujvzr9jiutxi4d',
     target: '_blank',
@@ -1536,9 +1609,9 @@ function YieldCardWidget({
       marginTop: '16px',
       boxSizing: 'border-box'
     }
-  }, isKorean ? '⚡ Laso에서 Visa 카드 발급받기 →' : 'Get Visa Card on Laso →'), React.createElement('p', {
+  }, tl('poolDetail.reserveCta')), React.createElement('p', {
     className: 'reservation-micro-hint'
-  }, isKorean ? '파트너 제휴 링크 적용 • 발급 수수료 면제 • 전 세계 Visa Debit' : 'Sponsored partner referral • Zero issuance fee • Worldwide Visa Debit')))),
+  }, tl('poolDetail.reserveHint'))))),
   // Deposit simulator slider section (Second controller in widget)
   React.createElement('div', {
     className: 'yield-card-slider-section'
@@ -1650,7 +1723,7 @@ function YieldCardWidget({
       className: 'yield-card-item-bottom'
     }, React.createElement('span', {
       className: 'yield-card-item-price'
-    }, isKorean && item.monthlyCostKrw ? `₩${_formatNum(item.monthlyCostKrw)}/mo` : `$${item.monthlyCostUsd.toFixed(2)}/mo`), React.createElement('span', {
+    }, useKrw && item.monthlyCostKrw ? `₩${_formatNum(item.monthlyCostKrw)}${tl('poolDetail.perMonthPill')}` : `$${item.monthlyCostUsd.toFixed(2)}${tl('poolDetail.perMonthPill')}`), React.createElement('span', {
       className: `yield-card-status-pill ${isCovered ? 'pill-covered' : 'pill-locked'}`
     }, isCovered ? _t('yieldCard.statusCovered') || '✓ COVERED' : _t('yieldCard.requiresCapital', formatReqCap(item.monthlyCostUsd, item.monthlyCostKrw)) || `Requires ${formatReqCap(item.monthlyCostUsd, item.monthlyCostKrw)}`)));
   }))));
@@ -1804,6 +1877,10 @@ function PoolDetail({
   t,
   AnimatedNumber
 }) {
+  // Language for every PoolDetail-owned string (same resolution as app.js).
+  var lang = resolvePoolDetailLanguage();
+  var tl = createPoolDetailT(lang, t);
+  var showCardFlow = isCardFlowLanguage(lang);
   // Fallback formatters when not passed (e.g. SSR/tests)
   var _formatUsd = formatUsd || ((n, f) => '$' + Number(n || 0).toLocaleString('en-US', {
     maximumFractionDigits: f || 2
@@ -1857,7 +1934,7 @@ function PoolDetail({
   if (!pool) {
     return React.createElement('div', {
       className: 'pool-detail-empty'
-    }, React.createElement('p', null, 'No pool selected'), React.createElement('button', {
+    }, React.createElement('p', null, tl('poolDetail.noPoolSelected')), React.createElement('button', {
       className: 'back-button',
       onClick: () => {
         // Analytics tracking for back navigation from pool detail
@@ -1925,6 +2002,7 @@ function PoolDetail({
   // Determine pool type (must be defined before getRiskAssessment) — single
   // shared classifier (spec 130); same categories as the analytics grid.
   var poolType = getPoolTypeShared(pool);
+  var poolTypeLabel = POOL_TYPE_LABEL_KEYS[poolType] ? tl(POOL_TYPE_LABEL_KEYS[poolType]) : poolType;
   var APY_SANITY_LIMIT_LOCAL = 1000; // mirror of app.js constant
 
   // 144: apyMean30d is presented as fact; anything outside the trust rail is not
@@ -1943,7 +2021,7 @@ function PoolDetail({
       return {
         level: t ? t('highRisk') : 'High',
         color: 'var(--color-error)',
-        description: 'Anomalous yield — extreme caution',
+        description: tl('poolDetail.riskDescAnomalous'),
         factors,
         score: 100
       };
@@ -1993,15 +2071,15 @@ function PoolDetail({
     if (riskScore <= 25) {
       level = t ? t('lowRisk') : 'Low';
       color = 'var(--color-success)';
-      description = 'Conservative DeFi strategy';
+      description = tl('poolDetail.riskDescConservative');
     } else if (riskScore <= 50) {
       level = t ? t('mediumRisk') : 'Medium';
       color = 'var(--color-warning)';
-      description = 'Moderate risk profile';
+      description = tl('poolDetail.riskDescModerate');
     } else {
       level = t ? t('highRisk') : 'High';
       color = 'var(--color-error)';
-      description = 'Advanced DeFi strategy';
+      description = tl('poolDetail.riskDescAdvanced');
     }
     return {
       level,
@@ -2105,102 +2183,102 @@ function PoolDetail({
   var isLending = !isPendle && (poolTypeLower.includes('lending') || ['aave', 'compound', 'morpho', 'spark', 'fluid', 'sky-lending', 'maker', 'euler'].some(p => projectLower.includes(p)));
   var isClmm = !isPendle && !isLending && (poolTypeLower.includes('lp') || poolTypeLower.includes('dex') || ['uniswap', 'aerodrome', 'curve', 'balancer', 'pancakeswap', 'sushiswap', 'camelot', 'trader-joe'].some(p => projectLower.includes(p)));
   var archetypeTag = 'Lending';
-  var engineSubtitle = 'Borrower utilization kink & atomic cash capacity underwriting';
+  var engineSubtitle = tl('poolDetail.dt.lendingSubtitle');
   var enginePill = 'Quant AI + Closed-Form Jump IRM';
 
   // Hero strip items
-  var heroMetric1Label = 'Cash Headroom';
+  var heroMetric1Label = tl('poolDetail.dt.cashHeadroom');
   var heroMetric1Value = formatCurrency(poolTvl * (1 - 0.78));
-  var heroMetric2Label = 'Kink Buffer';
+  var heroMetric2Label = tl('poolDetail.dt.kinkBuffer');
   var heroMetric2Value = formatCurrency(Math.max(0, poolTvl * (1 - 0.78 / 0.90)));
-  var heroStatusLabel = '✓ Safe Headroom';
+  var heroStatusLabel = tl('poolDetail.dt.safeHeadroom');
   var heroStatusColor = 'var(--cert-green, #7CC9A0)';
 
   // Terminal Card 1: Yield Decomposition
-  var yieldOrganicLabel = 'Organic Base Yield';
+  var yieldOrganicLabel = tl('poolDetail.dt.organicBaseYield');
   var yieldOrganicVal = _formatApy(pool.apyBase || 0);
-  var yieldOrganicHint = 'Realized borrower interest cash flows';
-  var yieldRewardLabel = 'Perishable Rewards';
+  var yieldOrganicHint = tl('poolDetail.dt.lendingOrganicHint');
+  var yieldRewardLabel = tl('poolDetail.dt.perishableRewards');
   var yieldRewardVal = pool.apyReward > 0 ? '+' + _formatApy(pool.apyReward) : '0.00%';
-  var yieldRewardHint = pool.apyReward > 0 ? 'Subject to emissions decay & cliff risk' : 'Zero token emission dependency';
+  var yieldRewardHint = pool.apyReward > 0 ? tl('poolDetail.dt.rewardHintDecay') : tl('poolDetail.dt.rewardHintNone');
 
   // Terminal Card 2: Exit Liquidity
-  var exitMetric1Label = 'Atomic Cash Headroom';
+  var exitMetric1Label = tl('poolDetail.dt.atomicCashHeadroom');
   var exitMetric1Val = formatCurrency(poolTvl * (1 - 0.78));
-  var exitMetric1Hint = 'Unborrowed cash available for immediate withdrawal';
-  var exitMetric2Label = 'Kink Distance Headroom';
+  var exitMetric1Hint = tl('poolDetail.dt.atomicCashHint');
+  var exitMetric2Label = tl('poolDetail.dt.kinkDistanceHeadroom');
   var exitMetric2Val = formatCurrency(Math.max(0, poolTvl * (1 - 0.78 / 0.90)));
-  var exitMetric2Hint = 'Buffer before borrowing interest rate jumps';
+  var exitMetric2Hint = tl('poolDetail.dt.kinkDistanceHint');
   var trafficLight = 'GREEN';
-  var trafficLightText = '✓ Safe Headroom';
+  var trafficLightText = tl('poolDetail.dt.safeHeadroom');
   var trafficLightColor = 'var(--cert-green, #7CC9A0)';
   var postDepositApy = totalApy;
   var dilutionBps = 0;
   if (isPendle) {
     archetypeTag = 'Pendle';
-    engineSubtitle = 'Fixed-maturity yield curve & PT/YT liquidity underwriting';
+    engineSubtitle = tl('poolDetail.dt.pendleSubtitle');
     enginePill = 'Quant AI + Pendle AMM Curve';
     var impliedApy = (pool.apyBase || 0) > 0 ? pool.apyBase : 1.68;
     var forwardApy = pool.forecast && typeof pool.forecast.p50 === 'number' ? pool.forecast.p50 : impliedApy * 1.14;
     var spreadBps = Math.round((forwardApy - impliedApy) * 100);
     var ptDepth = poolTvl * 0.45;
-    heroMetric1Label = 'Pool Depth';
+    heroMetric1Label = tl('poolDetail.dt.poolDepth');
     heroMetric1Value = formatCurrency(ptDepth);
-    heroMetric2Label = 'Forward Spread';
+    heroMetric2Label = tl('poolDetail.dt.forwardSpread');
     heroMetric2Value = (spreadBps >= 0 ? '+' : '') + spreadBps + ' bps';
-    heroStatusLabel = pool.apyReward > 0 ? '⚠ Points Campaign' : '✓ Maturity Matched';
+    heroStatusLabel = pool.apyReward > 0 ? tl('poolDetail.dt.pointsCampaign') : tl('poolDetail.dt.maturityMatched');
     heroStatusColor = pool.apyReward > 0 ? 'var(--cert-amber, #F0B35C)' : 'var(--cert-green, #7CC9A0)';
-    yieldOrganicLabel = 'Underlying Asset Yield';
+    yieldOrganicLabel = tl('poolDetail.dt.underlyingAssetYield');
     yieldOrganicVal = _formatApy(pool.apyBase || 0);
-    yieldOrganicHint = 'Native protocol cash flows (SY yield pass-through)';
-    yieldRewardLabel = 'Pendle / Points Multipliers';
+    yieldOrganicHint = tl('poolDetail.dt.pendleOrganicHint');
+    yieldRewardLabel = tl('poolDetail.dt.pendlePointsLabel');
     yieldRewardVal = pool.apyReward > 0 ? '+' + _formatApy(pool.apyReward) : '0.00%';
-    yieldRewardHint = pool.apyReward > 0 ? 'Off-chain points campaign (unmodeled cliff risk)' : 'Pure yield trading (no token emissions)';
-    exitMetric1Label = 'PT/YT AMM Liquidity Depth';
+    yieldRewardHint = pool.apyReward > 0 ? tl('poolDetail.dt.pendleRewardHintPoints') : tl('poolDetail.dt.pendleRewardHintNone');
+    exitMetric1Label = tl('poolDetail.dt.ptYtDepth');
     exitMetric1Val = formatCurrency(ptDepth);
-    exitMetric1Hint = 'Active liquidity for instant swap/redemption before maturity';
-    exitMetric2Label = 'Fair Forward Spread (Δ)';
+    exitMetric1Hint = tl('poolDetail.dt.ptYtDepthHint');
+    exitMetric2Label = tl('poolDetail.dt.fairSpread');
     exitMetric2Val = (spreadBps >= 0 ? '+' : '') + spreadBps + ' bps';
-    exitMetric2Hint = 'Quant AI 30d fair yield vs market implied yield';
+    exitMetric2Hint = tl('poolDetail.dt.fairSpreadHint');
     var ptSlippage = Math.min(0.85, simTicketSize / ptDepth * 0.5);
     postDepositApy = Math.max(0, totalApy * (1 - ptSlippage));
     dilutionBps = Math.round((totalApy - postDepositApy) * 100);
     if (simTicketSize > ptDepth * 0.25) {
       trafficLight = 'RED';
-      trafficLightText = '⛔ Severe AMM Price Impact (>25% Depth)';
+      trafficLightText = tl('poolDetail.dt.pendleRed');
       trafficLightColor = 'var(--cert-red, #E58A80)';
     } else if (simTicketSize > ptDepth * 0.10) {
       trafficLight = 'AMBER';
-      trafficLightText = '⚠ Moderate PT/YT Slippage (10-25% Depth)';
+      trafficLightText = tl('poolDetail.dt.pendleAmber');
       trafficLightColor = 'var(--cert-amber, #F0B35C)';
     } else {
       trafficLight = 'GREEN';
-      trafficLightText = '✓ Minimal AMM Price Impact (<10% Depth)';
+      trafficLightText = tl('poolDetail.dt.pendleGreen');
       trafficLightColor = 'var(--cert-green, #7CC9A0)';
     }
   } else if (isLending) {
     archetypeTag = 'LENDING JUMP-IRM';
-    engineSubtitle = 'Borrower utilization kink & atomic cash capacity underwriting';
+    engineSubtitle = tl('poolDetail.dt.lendingSubtitle');
     enginePill = 'Quant AI + Closed-Form Jump IRM';
     var currentUtil = 0.78;
     var kinkUtil = 0.90;
     var wMaxAtomic = poolTvl * (1 - currentUtil);
     var wKinkFrozen = Math.max(0, poolTvl * (1 - currentUtil / kinkUtil));
-    heroMetric1Label = 'Cash Headroom';
+    heroMetric1Label = tl('poolDetail.dt.cashHeadroom');
     heroMetric1Value = formatCurrency(wMaxAtomic);
-    heroMetric2Label = 'Kink Buffer';
+    heroMetric2Label = tl('poolDetail.dt.kinkBuffer');
     heroMetric2Value = formatCurrency(wKinkFrozen);
     if (simTicketSize > wKinkFrozen) {
       trafficLight = 'RED';
-      trafficLightText = '⛔ Risk: Kink Breach / Cash Depletion';
+      trafficLightText = tl('poolDetail.dt.lendingRed');
       trafficLightColor = 'var(--cert-red, #E58A80)';
     } else if (simTicketSize > wKinkFrozen / 2) {
       trafficLight = 'AMBER';
-      trafficLightText = '⚠ Caution: Near Kink Threshold';
+      trafficLightText = tl('poolDetail.dt.lendingAmber');
       trafficLightColor = 'var(--cert-amber, #F0B35C)';
     } else {
       trafficLight = 'GREEN';
-      trafficLightText = '✓ Safe Underwriting Headroom';
+      trafficLightText = tl('poolDetail.dt.lendingGreen');
       trafficLightColor = 'var(--cert-green, #7CC9A0)';
     }
     heroStatusLabel = trafficLightText;
@@ -2213,72 +2291,72 @@ function PoolDetail({
     dilutionBps = Math.round((totalApy - postDepositApy) * 100);
   } else if (isClmm) {
     archetypeTag = 'CLMM';
-    engineSubtitle = 'Concentrated liquidity depth & tick-dropout volatility underwriting';
+    engineSubtitle = tl('poolDetail.dt.clmmSubtitle');
     enginePill = 'Quant AI + CLMM Tick Elasticity';
     var pIn = poolTvl > 10000000 ? 92.4 : 78.5;
     var compressionCap = poolTvl * 0.30;
-    heroMetric1Label = 'Active Depth';
+    heroMetric1Label = tl('poolDetail.dt.activeDepth');
     heroMetric1Value = formatCurrency(poolTvl);
-    heroMetric2Label = '30d In-Range';
+    heroMetric2Label = tl('poolDetail.dt.inRange30d');
     heroMetric2Value = pIn + '%';
-    heroStatusLabel = '✓ Active Range Depth';
+    heroStatusLabel = tl('poolDetail.dt.activeRangeDepth');
     heroStatusColor = 'var(--cert-green, #7CC9A0)';
-    yieldOrganicLabel = 'DEX Swap Fee Yield';
+    yieldOrganicLabel = tl('poolDetail.dt.dexSwapFeeYield');
     yieldOrganicVal = _formatApy(pool.apyBase || 0);
-    yieldOrganicHint = 'Trading volume capture across concentrated tick bounds';
-    yieldRewardLabel = 'Gauge / Farming Bribes';
+    yieldOrganicHint = tl('poolDetail.dt.clmmOrganicHint');
+    yieldRewardLabel = tl('poolDetail.dt.gaugeBribes');
     yieldRewardVal = pool.apyReward > 0 ? '+' + _formatApy(pool.apyReward) : '0.00%';
-    yieldRewardHint = pool.apyReward > 0 ? 'Secondary emission rewards (gauge vote dependent)' : 'Organic trading fee yield only';
-    exitMetric1Label = '20% Fee Compression Cap';
+    yieldRewardHint = pool.apyReward > 0 ? tl('poolDetail.dt.clmmRewardHintGauge') : tl('poolDetail.dt.clmmRewardHintNone');
+    exitMetric1Label = tl('poolDetail.dt.feeCompressionCap');
     exitMetric1Val = formatCurrency(compressionCap);
-    exitMetric1Hint = 'Max liquidity addition before 20% fee compression';
-    exitMetric2Label = 'Range Occupancy Probability';
+    exitMetric1Hint = tl('poolDetail.dt.feeCompressionHint');
+    exitMetric2Label = tl('poolDetail.dt.rangeOccupancy');
     exitMetric2Val = pIn + '%';
-    exitMetric2Hint = 'Estimated probability price remains within position tick range';
+    exitMetric2Hint = tl('poolDetail.dt.rangeOccupancyHint');
     var kappa = 0.85;
     postDepositApy = totalApy * Math.pow(poolTvl / (poolTvl + simTicketSize), kappa);
     dilutionBps = Math.round((totalApy - postDepositApy) * 100);
     if (simTicketSize > compressionCap) {
       trafficLight = 'RED';
-      trafficLightText = '⛔ Severe Fee Compression (>20% Dilution)';
+      trafficLightText = tl('poolDetail.dt.clmmRed');
       trafficLightColor = 'var(--cert-red, #E58A80)';
     } else if (simTicketSize > compressionCap * 0.5) {
       trafficLight = 'AMBER';
-      trafficLightText = '⚠ Noticeable Fee Dilution (10-20%)';
+      trafficLightText = tl('poolDetail.dt.clmmAmber');
       trafficLightColor = 'var(--cert-amber, #F0B35C)';
     } else {
       trafficLight = 'GREEN';
-      trafficLightText = '✓ Stable In-Range Capacity (<10% Dilution)';
+      trafficLightText = tl('poolDetail.dt.clmmGreen');
       trafficLightColor = 'var(--cert-green, #7CC9A0)';
     }
   } else {
     // Staking / RWA
     archetypeTag = 'Staking / RWA';
-    engineSubtitle = 'Validator rewards, queue latency & secondary liquidity underwriting';
+    engineSubtitle = tl('poolDetail.dt.stakingSubtitle');
     enginePill = 'Quant AI + Staking Epoch Model';
     var secDepth = poolTvl * 0.35;
-    heroMetric1Label = 'Secondary Liquidity';
+    heroMetric1Label = tl('poolDetail.dt.secondaryLiquidity');
     heroMetric1Value = formatCurrency(secDepth);
-    heroMetric2Label = 'Redemption Time';
-    heroMetric2Value = '~1-3 Days';
-    heroStatusLabel = '✓ Deep Secondary Peg';
+    heroMetric2Label = tl('poolDetail.dt.redemptionTime');
+    heroMetric2Value = tl('poolDetail.dt.days13Approx');
+    heroStatusLabel = tl('poolDetail.dt.deepSecondaryPeg');
     heroStatusColor = 'var(--cert-green, #7CC9A0)';
-    yieldOrganicLabel = 'Consensus / Execution Yield';
+    yieldOrganicLabel = tl('poolDetail.dt.consensusYield');
     yieldOrganicVal = _formatApy(pool.apyBase || 0);
-    yieldOrganicHint = 'Validator staking rewards or real-world treasury yield';
-    yieldRewardLabel = 'Protocol Incentives';
+    yieldOrganicHint = tl('poolDetail.dt.stakingOrganicHint');
+    yieldRewardLabel = tl('poolDetail.dt.protocolIncentives');
     yieldRewardVal = pool.apyReward > 0 ? '+' + _formatApy(pool.apyReward) : '0.00%';
-    yieldRewardHint = pool.apyReward > 0 ? 'L2/LST ecosystem incentives' : 'No synthetic token subsidies';
-    exitMetric1Label = 'Instant Secondary Depth';
+    yieldRewardHint = pool.apyReward > 0 ? tl('poolDetail.dt.stakingRewardHintL2') : tl('poolDetail.dt.stakingRewardHintNone');
+    exitMetric1Label = tl('poolDetail.dt.instantSecondaryDepth');
     exitMetric1Val = formatCurrency(secDepth);
-    exitMetric1Hint = 'DEX liquidity for instant non-queue exit';
-    exitMetric2Label = 'Queue Exit Latency';
-    exitMetric2Val = '1 - 3 Days';
-    exitMetric2Hint = 'Contractual redemption queue duration';
+    exitMetric1Hint = tl('poolDetail.dt.instantSecondaryHint');
+    exitMetric2Label = tl('poolDetail.dt.queueExitLatency');
+    exitMetric2Val = tl('poolDetail.dt.days13Spaced');
+    exitMetric2Hint = tl('poolDetail.dt.queueExitHint');
     postDepositApy = totalApy * (poolTvl / (poolTvl + simTicketSize));
     dilutionBps = Math.round((totalApy - postDepositApy) * 100);
     trafficLight = 'GREEN';
-    trafficLightText = '✓ Liquid Secondary Market';
+    trafficLightText = tl('poolDetail.dt.liquidSecondaryMarket');
     trafficLightColor = 'var(--cert-green, #7CC9A0)';
   }
   if (isNaN(dilutionBps) || dilutionBps < 0) dilutionBps = 0;
@@ -2347,7 +2425,7 @@ function PoolDetail({
     className: 'trust-indicators'
   }, React.createElement('div', {
     className: 'pool-type-badge-hero hero-chip'
-  }, poolType), React.createElement('div', {
+  }, poolTypeLabel), React.createElement('div', {
     className: 'trust-badge hero-chip',
     style: {
       color: 'var(--color-success)'
@@ -2376,7 +2454,7 @@ function PoolDetail({
     style: {
       color: pool.defiScore.score >= 75 ? 'var(--color-success)' : pool.defiScore.score >= 50 ? 'var(--color-primary)' : 'var(--color-warning)'
     }
-  }, `Score: ${Math.round(pool.defiScore.score)} (${pool.defiScore.rating})`))),
+  }, tl('poolDetail.scoreChip', Math.round(pool.defiScore.score), pool.defiScore.rating)))),
   // Headline metric — the number and its honest qualifier are one unit.
   React.createElement('div', {
     className: 'pool-hero-metric'
@@ -2462,7 +2540,7 @@ function PoolDetail({
     className: 'hero-uw-header'
   }, React.createElement('span', {
     className: 'hero-uw-tag'
-  }, 'Underwriting · ' + archetypeTag), React.createElement('a', {
+  }, tl('poolDetail.uwTag', archetypeTag)), React.createElement('a', {
     className: 'hero-uw-jump',
     href: '#decision-terminal',
     onClick: e => {
@@ -2471,7 +2549,7 @@ function PoolDetail({
         behavior: 'smooth'
       });
     }
-  }, 'Decision Terminal ↓')), React.createElement('div', {
+  }, tl('poolDetail.dtJump'))), React.createElement('div', {
     className: 'hero-uw-grid'
   }, React.createElement('div', {
     className: 'hero-uw-cell'
@@ -2489,7 +2567,7 @@ function PoolDetail({
     className: 'hero-uw-cell'
   }, React.createElement('div', {
     className: 'hero-uw-cell-label'
-  }, 'Capacity Status'), React.createElement('div', {
+  }, tl('poolDetail.capacityStatus')), React.createElement('div', {
     className: 'hero-uw-cell-status',
     style: {
       color: heroStatusColor
@@ -2501,7 +2579,10 @@ function PoolDetail({
   // protocol link (markup/events/payloads unchanged).
   React.createElement('div', {
     className: 'pool-hero-actions'
-  }, React.createElement('div', {
+  },
+  // pt/es: the primary CTA scrolls to the Laso yield-card widget, which is not
+  // rendered for those languages (see isCardFlowLanguage).
+  showCardFlow && React.createElement('div', {
     className: 'pool-hero-action-primary'
   },
   // Primary CTA — garden this pool (deep-links into the planner
@@ -2560,7 +2641,7 @@ function PoolDetail({
     className: 'dt-header-left'
   }, React.createElement('span', {
     className: 'dt-badge-tag'
-  }, 'INSTITUTIONAL UNDERWRITING · ' + archetypeTag), React.createElement('h2', {
+  }, tl('poolDetail.dtBadge', archetypeTag)), React.createElement('h2', {
     className: 'dt-title'
   }, t ? t('decisionTerminalTitle') : 'Liquidity & Forward Dilution Terminal'), React.createElement('p', {
     className: 'dt-subtitle'
@@ -2576,7 +2657,7 @@ function PoolDetail({
     className: 'dt-panel'
   }, React.createElement('div', {
     className: 'dt-panel-label'
-  }, '1. Yield Cash Flow Attribution'), React.createElement('div', {
+  }, tl('poolDetail.dtPanel1')), React.createElement('div', {
     className: 'dt-yield-pair'
   }, React.createElement('div', {
     className: 'dt-yield-box dt-yield-organic'
@@ -2600,7 +2681,7 @@ function PoolDetail({
     className: 'dt-panel'
   }, React.createElement('div', {
     className: 'dt-panel-label'
-  }, '2. Protocol Capacity & Exit Gauge'), React.createElement('div', {
+  }, tl('poolDetail.dtPanel2')), React.createElement('div', {
     className: 'dt-metric-row'
   }, React.createElement('div', {
     className: 'dt-metric'
@@ -2645,7 +2726,7 @@ function PoolDetail({
     className: 'dt-panel dt-panel-full'
   }, React.createElement('div', {
     className: 'dt-panel-label'
-  }, '3. Interactive Ticket Impact Simulator'), React.createElement('div', {
+  }, tl('poolDetail.dtPanel3')), React.createElement('div', {
     className: 'dt-ticket-presets'
   }, [100000, 500000, 1000000, 5000000, 10000000].map(function (amt) {
     return React.createElement('button', {
@@ -2677,7 +2758,7 @@ function PoolDetail({
     className: 'dt-sim-item'
   }, React.createElement('span', {
     className: 'dt-sim-lbl'
-  }, isPendle ? 'AMM Slippage Drag' : t ? t('dilutionBps') : 'Dilution Impact'), React.createElement('span', {
+  }, isPendle ? tl('poolDetail.ammSlippageDrag') : t ? t('dilutionBps') : 'Dilution Impact'), React.createElement('span', {
     className: 'dt-sim-val',
     style: {
       color: dilutionBps > 50 ? 'var(--cert-red)' : 'var(--cert-amber)'
@@ -2817,9 +2898,9 @@ function PoolDetail({
     className: 'calc-tabs'
   }, ['1day', '7days', '30days'].map(tab => {
     var tabLabels = {
-      '1day': '1 Day',
-      '7days': '7 Days',
-      '30days': '30 Days'
+      '1day': tl('poolDetail.calcTab1Day'),
+      '7days': tl('poolDetail.calcTab7Days'),
+      '30days': tl('poolDetail.calcTab30Days')
     };
     return React.createElement('button', {
       key: tab,
@@ -2837,7 +2918,7 @@ function PoolDetail({
     className: 'calc-readout-label',
     onMouseEnter: e => {
       var tooltip = document.createElement('div');
-      tooltip.textContent = 'Calculations are estimates. Actual yields may vary based on market conditions.';
+      tooltip.textContent = tl('poolDetail.calcEstimateTooltip');
       tooltip.style.cssText = `
                 position: absolute;
                 bottom: 100%;
@@ -3159,7 +3240,7 @@ function PoolDetail({
     }, token);
   }))))),
   // Engraved rule between Pool Information and Yield Card Terminal
-  React.createElement('div', {
+  showCardFlow && React.createElement('div', {
     className: 'cert-divider',
     'aria-hidden': 'true'
   }, React.createElement('span', {
@@ -3170,7 +3251,8 @@ function PoolDetail({
     className: 'orn-band cert-divider-strand'
   })),
   // Yield-Funded Virtual Card Terminal (PRD Design 3)
-  React.createElement(YieldCardWidget, {
+  showCardFlow && React.createElement(YieldCardWidget, {
+    lang: lang,
     pool: pool,
     totalApy: totalApy,
     sub: sub,

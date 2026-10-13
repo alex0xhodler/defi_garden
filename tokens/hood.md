@@ -1,13 +1,13 @@
 # HOOD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest HOOD yield right now is 155.82% on uniswap-v2 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HOOD yield right now is 16.49% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=b8b0e6a0-4e4b-5bea-a7d4-1c380cd3e76e#src=seo_token) | Solana | 2.22% | $273.8K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=a844a60b-9d0d-537e-ba06-0acac4f3bd9b#src=seo_token) | Base | 155.82% | $132.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=b8b0e6a0-4e4b-5bea-a7d4-1c380cd3e76e#src=seo_token) | Solana | 16.49% | $271.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=a844a60b-9d0d-537e-ba06-0acac4f3bd9b#src=seo_token) | Base | 11.60% | $130.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-HOOD shows up in 2 pools here, with rates from 2.22% to 155.82% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+HOOD shows up in 2 pools here, with rates from 11.60% to 16.49% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 40.82% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 42.63% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -28,8 +28,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 2.22% | 22.79% | Base rate |
-| uniswap-v2 | 155.82% | 58.86% | Base rate |
+| raydium-amm | 16.49% | 22.67% | Base rate |
+| uniswap-v2 | 11.60% | 62.59% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest HOOD yield today?
 
-155.82% APY on uniswap-v2 (Base), based on live DefiLlama data.
+16.49% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many HOOD pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $406K in total.
+2 live pools clear this page's $100K TVL floor, $402.3K in total.
 
 ### Are these rates safe?
 
@@ -57,12 +57,12 @@ There is not enough qualifying APY history to rank HOOD pools. This view covers 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 12, 2026
+## Last updated October 13, 2026

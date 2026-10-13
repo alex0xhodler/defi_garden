@@ -1,29 +1,52 @@
 # ZEUS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest ZEUS yield right now is 6.27% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZEUS yield right now is 852.04% on orca-dex (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=42bb5dc7-76d6-40d7-8a84-4ecb913233e0#src=seo_token) | Ethereum | 6.27% | $239.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=42bb5dc7-76d6-40d7-8a84-4ecb913233e0#src=seo_token) | Ethereum | 4.18% | $233.5K |
+| [orca-dex →](https://www.defi.garden/?pool=1bf575be-09e6-4c00-aef9-70f9b7aa582b#src=seo_token) | Solana | 852.04% | $105.2K |
 
-<!-- rate-stability:insufficient -->
+<!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-There is not enough qualifying APY history to rank ZEUS pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ZEUS's lower-variability candidates are uniswap-v2 (Ethereum), 4.18% APY, $233.5K TVL, https://www.defi.garden/?pool=42bb5dc7-76d6-40d7-8a84-4ecb913233e0#src=seo_token; orca-dex (Solana), 852.04% APY, $105.2K TVL, https://www.defi.garden/?pool=1bf575be-09e6-4c00-aef9-70f9b7aa582b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+| Rank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=42bb5dc7-76d6-40d7-8a84-4ecb913233e0#src=seo_token) | Ethereum | 4.18% | $233.5K |
+| 2 | [orca-dex →](https://www.defi.garden/?pool=1bf575be-09e6-4c00-aef9-70f9b7aa582b#src=seo_token) | Solana | 852.04% | $105.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
+
+## How this rate has behaved
+
+ZEUS shows up in 2 pools here, with rates from 4.18% to 852.04% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 297.92% — a useful check against today's number for whether the rate is steady or just having a good day.
+
+All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+
+2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+
+| Protocol | APY | 30d Mean APY | Yield mix |
+|---|---|---|---|
+| uniswap-v2 | 4.18% | 4.70% | Base rate |
+| orca-dex | 852.04% | 591.13% | Base rate |
+
+The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
 ## Frequently asked questions
 
 ### What's the highest ZEUS yield today?
 
-6.27% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+852.04% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many ZEUS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $239.9K in total.
+2 live pools clear this page's $100K TVL floor, $338.7K in total.
 
 ### Are these rates safe?
 
@@ -31,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ZEUS pools have the most stable APY history?
 
-There is not enough qualifying APY history to rank ZEUS pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ZEUS's lower-variability candidates are uniswap-v2 (Ethereum), 4.18% APY, $233.5K TVL, https://www.defi.garden/?pool=42bb5dc7-76d6-40d7-8a84-4ecb913233e0#src=seo_token; orca-dex (Solana), 852.04% APY, $105.2K TVL, https://www.defi.garden/?pool=1bf575be-09e6-4c00-aef9-70f9b7aa582b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -45,5 +68,6 @@ There is not enough qualifying APY history to rank ZEUS pools. This view covers 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
+- [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 12, 2026
+## Last updated October 13, 2026
