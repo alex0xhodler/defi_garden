@@ -89,14 +89,28 @@
     }
   }
 
+  var LANDING_LANGS = ['en', 'ko', 'pt', 'es'];
+  var LANDING_HTML_LANG = { en: 'en', ko: 'ko', pt: 'pt-BR', es: 'es' };
+  function landingLangCode(value) {
+    if (typeof normalizeLanguageCode === 'function') return normalizeLanguageCode(value);
+    var base = String(value || '').toLowerCase().split('-')[0];
+    return LANDING_LANGS.indexOf(base) !== -1 ? base : null;
+  }
+
+  // Order: saved localStorage -> ?lang -> browser languages; first supported wins.
   function detectLanguage() {
     try {
-      var saved = localStorage.getItem('defi-garden-lang');
-      if (saved === 'en' || saved === 'ko') return saved;
+      var saved = landingLangCode(localStorage.getItem('defi-garden-lang'));
+      if (saved) return saved;
     } catch (err) {}
-    var param = new URLSearchParams(window.location.search).get('lang');
-    if (param === 'en' || param === 'ko') return param;
-    return (navigator.language || '').toLowerCase().indexOf('ko') === 0 ? 'ko' : 'en';
+    var param = landingLangCode(new URLSearchParams(window.location.search).get('lang'));
+    if (param) return param;
+    var list = (navigator.languages && navigator.languages.length) ? navigator.languages : [navigator.language || 'en'];
+    for (var i = 0; i < list.length; i++) {
+      var code = landingLangCode(list[i]);
+      if (code) return code;
+    }
+    return 'en';
   }
 
   function getCopy(language) {
@@ -278,7 +292,7 @@
     }
 
     useEffect(function () {
-      document.documentElement.lang = language;
+      document.documentElement.lang = LANDING_HTML_LANG[language] || 'en';
       document.title = copy.pageTitle;
       var meta = document.querySelector('meta[name="description"]');
       if (meta) meta.content = copy.metaDescription;
@@ -289,11 +303,13 @@
       writeTheme(dark);
     }, [language, dark, copy]);
 
-    // Post-mount KO localization for static SEO content section (fintech-seo v2)
+    // Post-mount localization for the static SEO content section (fintech-seo v2).
+    // EN ships in raw HTML; any other language (ko, pt, es) is written from
+    // translations[language].landing (falls back to EN via getCopy).
     useEffect(function () {
-      if (detectLanguage() !== 'ko') return;
+      if (language === 'en') return;
       try {
-        var landingCopy = getCopy('ko');
+        var landingCopy = getCopy(language);
         if (!landingCopy) return;
         var seoMap = {
           'seo-eyebrow': 'seoEyebrow',
@@ -366,9 +382,10 @@
       activeUwPool = uwPools.find(function (p) { return p.pool === activeUwId; }) || uwPools[0];
     }
 
-    // EN/KO only — PT/ES are plain links rendered by LangMenu (lang-menu.js).
+    // In-app switch for all four languages (en, ko, pt, es); used by the header
+    // LangMenu and the LangMenu.Suggest banner.
     function selectLanguage(next) {
-      if (next !== 'en' && next !== 'ko') return;
+      if (LANDING_LANGS.indexOf(next) === -1) return;
       setLanguage(next);
       try { localStorage.setItem('defi-garden-lang', next); } catch (err) {}
       var url = new URL(window.location.href);
@@ -437,7 +454,7 @@
       ),
       e('main', { className: 'landing-main' },
         e('div', { id: 'underwriting-section', className: 'landing-section-wrapper landing-underwriting-wrapper' },
-          window.LangMenu ? e(window.LangMenu.Suggest) : null,
+          window.LangMenu ? e(window.LangMenu.Suggest, { language: language, onSelect: selectLanguage }) : null,
           e('section', { className: 'landing-hero-underwriting', 'data-testid': 'landing-underwriting-card', 'aria-labelledby': 'landing-uw-title' },
             e('div', { className: 'landing-uw-copy' },
               e('p', { className: 'landing-uw-status' },
