@@ -56,7 +56,8 @@ const fixtures = [
   { pool: 'token-mismatch', project: 'fixture-protocol', symbol: 'DAI', chain: 'Base',
     tvlUsd: TRUST_RAILS.DEFAULT_MIN_TVL, apyBase: 20, apyReward: 0, apy: 20 }
 ];
-const window = { navigator, TRUST_RAILS: trackedRails };
+// home.html loads llama-endpoints.js synchronously before the WebMCP block; mirror that.
+const window = { navigator, TRUST_RAILS: trackedRails, LLAMA_ENDPOINTS: require('./llama-endpoints.js') };
 vm.runInNewContext(webmcpSource, {
   window,
   navigator,

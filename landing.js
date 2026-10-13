@@ -21,7 +21,6 @@
   // baked snapshot values (labelled as such) when that fetch fails. Trust rails
   // (window.TRUST_RAILS) are applied to whichever value is displayed.
   var LANDING_POOLS_URL = '/data/landing-pools.json';
-  var LLAMA_CHART_URL = 'https://yields.llama.fi/chart/';
   var SCORE_PILLARS = [
     { key: 'stability', max: 35, labelKey: 'uwPillarStability' },
     { key: 'sustainability', max: 25, labelKey: 'uwPillarSustainability' },
@@ -37,7 +36,7 @@
   }
 
   function fetchLivePoint(poolId) {
-    return fetch(LLAMA_CHART_URL + poolId)
+    return fetch(window.LLAMA_ENDPOINTS.chart(poolId))
       .then(function (res) { if (!res.ok) throw new Error('chart ' + res.status); return res.json(); })
       .then(function (body) {
         var series = body && body.data;
@@ -428,6 +427,7 @@
           e('a', { href: '/?app=1' }, copy.navSearch),
           e('a', { href: 'plan.html' }, copy.navPlanner || 'Savings Planner'),
           e('a', { href: '/for/claude', 'data-testid': 'landing-nav-card' }, copy.navCard),
+          e('a', { href: '/stocks', 'data-testid': 'landing-nav-stocks' }, copy.navStocks || 'Stocks'),
           e('a', { href: '/agents' }, copy.navAgents || 'AI Agents & MCP')
         ),
         e('div', { className: 'landing-header-actions' },
@@ -450,6 +450,7 @@
         e('a', { href: '/?app=1', onClick: closeMenu }, copy.navSearch),
         e('a', { href: 'plan.html', onClick: closeMenu }, copy.navPlanner || 'Savings Planner'),
         e('a', { href: '/for/claude', onClick: closeMenu, 'data-testid': 'landing-nav-card' }, copy.navCard),
+        e('a', { href: '/stocks', onClick: closeMenu, 'data-testid': 'landing-nav-stocks' }, copy.navStocks || 'Stocks'),
         e('a', { href: '/agents', onClick: closeMenu }, copy.navAgents || 'AI Agents & MCP')
       ),
       e('main', { className: 'landing-main' },

@@ -17,11 +17,22 @@ import glob
 import json
 import time
 import argparse
+import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 import numpy as np
 
 DEFAULT_ALCHEMY_KEY = "dKXngnd_Ab-UtHfz-Pw8V"
+
+# DefiLlama chart endpoint. Mirrors llama-endpoints.js (same env vars, same
+# defaults) — Python can't import the JS module, so keep the two in step.
+def llama_chart_url(pool_id):
+    key = (os.environ.get("LLAMA_PRO_API_KEY") or "").strip()
+    if key:
+        pro = (os.environ.get("LLAMA_PRO_BASE") or "").strip().rstrip("/") or "https://pro-api.llama.fi"
+        return f"{pro}/{urllib.parse.quote(key, safe='')}/yields/v1/chart/{pool_id}"
+    base = (os.environ.get("LLAMA_YIELDS_BASE") or "").strip().rstrip("/") or "https://yields.llama.fi"
+    return f"{base}/chart/{pool_id}"
 
 # Aave v3 Ethereum Contracts
 AAVE_POOL_ADDR = "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2"
@@ -136,7 +147,7 @@ def fetch_pool_charts_concurrent(pool_ids, max_workers=10):
 
     def fetch_one(pid):
         try:
-            url = f"https://yields.llama.fi/chart/{pid}"
+            url = llama_chart_url(pid)
             req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
             with urllib.request.urlopen(req, timeout=5) as resp:
                 d = json.loads(resp.read().decode())

@@ -57,7 +57,8 @@ const SUPPORTED_LANGS = LANG_CODES.slice();
 
 // Canonical site URL — matches plan.html / home.html / generate-stories.js
 const SITE_URL = 'https://www.defi.garden';
-const YIELDS_API = 'https://yields.llama.fi/pools';
+// DefiLlama URLs live in llama-endpoints.js (env: LLAMA_YIELDS_BASE / LLAMA_PRO_API_KEY).
+const YIELDS_API = require('./llama-endpoints.js').pools();
 
 // --- Sanity rails & eligibility --------------------------------------------
 // APY_SANITY_LIMIT is a TRUST RAIL (mirrors app.js:729 / planner.js): a pool

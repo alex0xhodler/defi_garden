@@ -15,7 +15,8 @@ const vm = require('vm');
 const SITE_URL = (process.env.SITE_URL || 'https://www.defi.garden').replace(/\/$/, '') + '/';
 
 // Defillama API endpoint
-const YIELDS_API = 'https://yields.llama.fi/pools';
+// DefiLlama URLs live in llama-endpoints.js (env: LLAMA_YIELDS_BASE / LLAMA_PRO_API_KEY).
+const YIELDS_API = require('./llama-endpoints.js').pools();
 
 // Languages of the INTERACTIVE app (the `?lang=` URLs): every language whose
 // scope is 'all' in languages.js (today en + ko). The static SEO hubs
@@ -670,6 +671,8 @@ async function generateSitemapSuite(poolsOverride) {
     console.log('📝 Building sitemap-main.xml...');
     sitemaps['sitemap-main.xml'].push(generateUrlXml(SITE_URL, LASTMOD_PLACEHOLDER, '1.0', 'daily'));
     sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}plan.html`, LASTMOD_PLACEHOLDER, '0.9', 'weekly'));
+    // /stocks tokenized-equities terminal (stocks.html via cleanUrls; data/stocks-pools.json refreshed daily).
+    sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}stocks`, LASTMOD_PLACEHOLDER, '0.8', 'daily'));
     sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}guide/defi-yield-rates-explained`, LASTMOD_PLACEHOLDER, '0.8', 'monthly'));
     // forecast-accuracy temporarily omitted while pipeline is rebuilt (P0-1)
     sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}mcp`, LASTMOD_PLACEHOLDER, '0.9', 'daily'));

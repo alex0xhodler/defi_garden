@@ -60,7 +60,8 @@ const {
   isPermissionedPool, renderTopScoredPoolsHtml
 } = tp;
 
-const YIELDS_API = 'https://yields.llama.fi/pools';
+// DefiLlama URLs live in llama-endpoints.js (env: LLAMA_YIELDS_BASE / LLAMA_PRO_API_KEY).
+const YIELDS_API = require('./llama-endpoints.js').pools();
 const POOLS_PER_PAGE = 8; // how many pools to list on each page
 
 /**

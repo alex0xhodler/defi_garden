@@ -85,6 +85,11 @@ function handleLasoProxy(req, res) {
 }
 
 const server = http.createServer((req, res) => {
+  // Vercel functions that the static server can mount directly (local testing only).
+  if (req.url && (req.url === '/api/stocks-onchain' || req.url.startsWith('/api/stocks-onchain?'))) {
+    require('./api/stocks-onchain.js')(req, res);
+    return;
+  }
   if (req.url && (req.url === '/api/laso' || req.url.startsWith('/api/laso/') || req.url.startsWith('/api/laso?'))) {
     handleLasoProxy(req, res);
     return;

@@ -1,0 +1,1104 @@
+{
+  "schemaVersion": 1,
+  "_comment": "Hand-maintained registry of tokenized-equity TOKENS for the /stocks terminal. Curation rule: a token is listed ONLY if (1) its exact address (EVM lowercase; Solana base58 kept case-exact because base58 is case-sensitive) appears in data/pools-snapshot.json underlyingTokens, AND (2) there is positive evidence it is a tokenized equity/ETF. ISSUER ATTRIBUTION is by exact address only: `issuer` is a display name (a key of `issuers`) and is set ONLY with `issuerSource` naming where that exact address was verified (the issuer's own published address list/API, an on-chain read, or the issuer's official announcement); `issuerBasis` says which. A symbol convention or address prefix (the 0xb2000... Base prefix is shared by non-equity B20 tokens, and `R`/`B`/`ON` symbol conventions collide across issuers) is NEVER evidence: such tokens stay `issuer: \"unverified\"` with an `issuerHint`. Pools are matched by ADDRESS only, never by ticker substring, so FARTCOIN/PEPECOIN/BITCOIN/TONCOIN/BOTCOIN/STONK-type memecoins can never match. Third-party wrapper (W-prefix), vault (beefy, superform) and synthetic (DeFiChain dToken) representations are excluded; issuer-published wrapper tokens whose address the issuer itself lists (ST0x wt*, xStocks wrapperAddressV2) are listed. Add a token only with an address copied from the snapshot; extend `excluded` with a reason when you reject a candidate.",
+  "issuers": {
+    "xstocks": {
+      "name": "xStocks",
+      "legalEntity": "Backed Assets (JE) Limited",
+      "jurisdiction": "Jersey",
+      "usPersons": false,
+      "sources": [
+        "https://api.xstocks.fi/api/v2/public/assets",
+        "https://defillama.com/rwa/platform/xstocks"
+      ]
+    },
+    "coinbase": {
+      "name": "Coinbase",
+      "legalEntity": "Coinbase Onchain SPV Ltd",
+      "jurisdiction": "Abu Dhabi Global Market (ADGM)",
+      "usPersons": false,
+      "sources": [
+        "https://api.coinbase.com/v1/tokenized-stocks",
+        "https://www.base.org/stocks#registry"
+      ]
+    },
+    "ondo": {
+      "name": "Ondo",
+      "legalEntity": "Ondo Global Markets (BVI) Limited",
+      "jurisdiction": "British Virgin Islands",
+      "usPersons": false,
+      "sources": [
+        "https://docs.ondo.finance/addresses",
+        "https://docs.ondo.finance/partner-docs/tokens"
+      ]
+    },
+    "bstocks": {
+      "name": "bStocks",
+      "legalEntity": "BTech Holdings Ltd",
+      "jurisdiction": "Abu Dhabi Global Market (ADGM)",
+      "usPersons": false,
+      "sources": [
+        "https://web3.binance.com/en/dev-docs/products/agentic-wallet/use-cases/campaigns/bstock-eligible-tokens",
+        "https://defillama.com/rwa/platform/bstocks"
+      ]
+    },
+    "robinhood": {
+      "name": "Robinhood",
+      "legalEntity": "Robinhood Assets (Jersey) Limited",
+      "jurisdiction": "Jersey",
+      "usPersons": false,
+      "sources": [
+        "https://docs.robinhood.com/chain/contracts/",
+        "https://docs.robinhood.com/chain/stock-tokens"
+      ]
+    },
+    "reality": {
+      "name": "Reality",
+      "legalEntity": "BG El Salvador, S.A. de C.V. (Bitget subsidiary)",
+      "jurisdiction": "El Salvador",
+      "usPersons": false,
+      "sources": [
+        "https://realityfinance.xyz/",
+        "https://defillama.com/rwa/platform/reality"
+      ]
+    },
+    "backpack-securities": {
+      "name": "Backpack Securities",
+      "legalEntity": null,
+      "jurisdiction": null,
+      "usPersons": "unknown",
+      "sources": [
+        "https://x.com/Backpack/status/2065464739749323171",
+        "https://www.coindesk.com/tech/2026/06/10/spacex-stock-is-coming-to-solana-on-the-same-day-it-lists-on-nasdaq"
+      ]
+    },
+    "st0x": {
+      "name": "ST0x",
+      "legalEntity": "S01 Issuer GmbH",
+      "jurisdiction": "Germany",
+      "usPersons": "unknown",
+      "sources": [
+        "https://www.st0x.io/faqs",
+        "https://defillama.com/rwa/platform/st0x"
+      ]
+    },
+    "centrifuge": {
+      "name": "Centrifuge",
+      "legalEntity": null,
+      "jurisdiction": null,
+      "usPersons": "unknown",
+      "sources": [
+        "on-chain name() of Base 0x9c5c365e764829876243d0b289733b9d2b729685 = \"S&P 500 DeFi (Centrifuge)\""
+      ]
+    }
+  },
+  "tokens": {
+    "Arbitrum:0x485cb1ed5662a911eba7f8547eb9e253cf43b8ae": {
+      "symbol": "RHOOD",
+      "underlying": "HOOD",
+      "name": "Robinhood Markets",
+      "assetClass": "equity",
+      "issuer": "Reality",
+      "issuerSlug": "reality",
+      "issuerBasis": "onchain-beacon",
+      "issuerSource": "on-chain: BeaconUpgraded logs of the Reality beacon 0x9a570740faf9c77255e389a7bccb7d460a5f4948 on Arbitrum (arbitrum.blockscout.com getLogs)",
+      "chain": "Arbitrum",
+      "address": "0x485cb1ed5662a911eba7f8547eb9e253cf43b8ae",
+      "evidence": "uniswap-v3 RHOOD-USDC"
+    },
+    "Arbitrum:0x5181b7dd097b42d7787ee78efab86f43d4e12f44": {
+      "symbol": "RSPCX",
+      "underlying": "SPCX",
+      "name": "SPCX (underlying name not verifiable from data)",
+      "assetClass": "equity",
+      "issuer": "Reality",
+      "issuerSlug": "reality",
+      "issuerBasis": "onchain-beacon",
+      "issuerSource": "on-chain: BeaconUpgraded logs of the Reality beacon 0x9a570740faf9c77255e389a7bccb7d460a5f4948 on Arbitrum (arbitrum.blockscout.com getLogs)",
+      "chain": "Arbitrum",
+      "address": "0x5181b7dd097b42d7787ee78efab86f43d4e12f44",
+      "evidence": "uniswap-v3 RSPCX-USDC"
+    },
+    "Arbitrum:0x861a85a78c371bc0a02675bbe00a4cbc0826b421": {
+      "symbol": "RCRCL",
+      "underlying": "CRCL",
+      "name": "Circle Internet Group",
+      "assetClass": "equity",
+      "issuer": "Reality",
+      "issuerSlug": "reality",
+      "issuerBasis": "onchain-beacon",
+      "issuerSource": "on-chain: BeaconUpgraded logs of the Reality beacon 0x9a570740faf9c77255e389a7bccb7d460a5f4948 on Arbitrum (arbitrum.blockscout.com getLogs)",
+      "chain": "Arbitrum",
+      "address": "0x861a85a78c371bc0a02675bbe00a4cbc0826b421",
+      "evidence": "uniswap-v3 RCRCL-USDC"
+    },
+    "Arbitrum:0xaba5e0c80e9f58e391214689fb342049c0d31892": {
+      "symbol": "RAAPL",
+      "underlying": "AAPL",
+      "name": "Apple Inc",
+      "assetClass": "equity",
+      "issuer": "Reality",
+      "issuerSlug": "reality",
+      "issuerBasis": "onchain-beacon",
+      "issuerSource": "on-chain: BeaconUpgraded logs of the Reality beacon 0x9a570740faf9c77255e389a7bccb7d460a5f4948 on Arbitrum (arbitrum.blockscout.com getLogs)",
+      "chain": "Arbitrum",
+      "address": "0xaba5e0c80e9f58e391214689fb342049c0d31892",
+      "evidence": "uniswap-v3 RAAPL-USDC"
+    },
+    "BSC:0x02fca66c1d1afb4e2a7884261eb00f63598a7436": {
+      "symbol": "NVDAB",
+      "underlying": "NVDA",
+      "name": "NVIDIA Corp",
+      "assetClass": "equity",
+      "issuer": "bStocks",
+      "issuerSlug": "bstocks",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://web3.binance.com/en/dev-docs/products/agentic-wallet/use-cases/campaigns/bstock-eligible-tokens",
+      "chain": "BSC",
+      "address": "0x02fca66c1d1afb4e2a7884261eb00f63598a7436",
+      "evidence": "BSC pools symbol NVDAB"
+    },
+    "BSC:0x205812cdbed920aff76c6580abd681a46d11efc7": {
+      "symbol": "QQQB",
+      "underlying": "QQQ",
+      "name": "Invesco QQQ Trust",
+      "assetClass": "etf",
+      "issuer": "bStocks",
+      "issuerSlug": "bstocks",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://web3.binance.com/en/dev-docs/products/agentic-wallet/use-cases/campaigns/bstock-eligible-tokens",
+      "chain": "BSC",
+      "address": "0x205812cdbed920aff76c6580abd681a46d11efc7",
+      "evidence": "BSC pools symbol QQQB"
+    },
+    "BSC:0x3f53de71c126bdabae20f9cd64848d317f6c3238": {
+      "symbol": "GOOGLB",
+      "underlying": "GOOGL",
+      "name": "Alphabet Inc Class A",
+      "assetClass": "equity",
+      "issuer": "bStocks",
+      "issuerSlug": "bstocks",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://web3.binance.com/en/dev-docs/products/agentic-wallet/use-cases/campaigns/bstock-eligible-tokens",
+      "chain": "BSC",
+      "address": "0x3f53de71c126bdabae20f9cd64848d317f6c3238",
+      "evidence": "BSC pools symbol GOOGLB"
+    },
+    "BSC:0x431a3bee82e2ca41e49895cbece5bb0f76a89b7a": {
+      "symbol": "AAPLB",
+      "underlying": "AAPL",
+      "name": "Apple Inc",
+      "assetClass": "equity",
+      "issuer": "bStocks",
+      "issuerSlug": "bstocks",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://web3.binance.com/en/dev-docs/products/agentic-wallet/use-cases/campaigns/bstock-eligible-tokens",
+      "chain": "BSC",
+      "address": "0x431a3bee82e2ca41e49895cbece5bb0f76a89b7a",
+      "evidence": "BSC pools symbol AAPLB"
+    },
+    "BSC:0x7138b48df7d98d7e3cc221bfe7192d0a178182d8": {
+      "symbol": "SPYB",
+      "underlying": "SPY",
+      "name": "SPDR S&P 500 ETF Trust",
+      "assetClass": "etf",
+      "issuer": "bStocks",
+      "issuerSlug": "bstocks",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://web3.binance.com/en/dev-docs/products/agentic-wallet/use-cases/campaigns/bstock-eligible-tokens",
+      "chain": "BSC",
+      "address": "0x7138b48df7d98d7e3cc221bfe7192d0a178182d8",
+      "evidence": "BSC pools symbol SPYB"
+    },
+    "BSC:0x995add4ba29a628a57930a8a185c62ca044ec090": {
+      "symbol": "MCDON",
+      "underlying": "MCD",
+      "name": "McDonald's Corp",
+      "assetClass": "equity",
+      "issuer": "Ondo",
+      "issuerSlug": "ondo",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://docs.ondo.finance/addresses",
+      "chain": "BSC",
+      "address": "0x995add4ba29a628a57930a8a185c62ca044ec090",
+      "evidence": "uniswap-v4 USDT-MCDON; Ondo Global Markets token list"
+    },
+    "BSC:0xbe9d156892e55e7154bcd3cb0fea677f9d3103e1": {
+      "symbol": "SPCXB",
+      "underlying": "SPCX",
+      "name": "SPCX (underlying name not verifiable from data)",
+      "assetClass": "equity",
+      "issuer": "bStocks",
+      "issuerSlug": "bstocks",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://web3.binance.com/en/dev-docs/products/agentic-wallet/use-cases/campaigns/bstock-eligible-tokens",
+      "chain": "BSC",
+      "address": "0xbe9d156892e55e7154bcd3cb0fea677f9d3103e1",
+      "evidence": "BSC pools symbol SPCXB"
+    },
+    "Base:0x31c2c14134e6e3b7ef9478297f199331133fc2d8": {
+      "symbol": "WTSPYM",
+      "underlying": "SPYM",
+      "name": "SPDR Portfolio S&P 500 ETF (ST0x wrapped token)",
+      "assetClass": "etf",
+      "issuer": "ST0x",
+      "issuerSlug": "st0x",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://www.st0x.io/faqs (issuer asset list; symbol() verified on Base RPC)",
+      "chain": "Base",
+      "address": "0x31c2c14134e6e3b7ef9478297f199331133fc2d8",
+      "evidence": "uniswap-v4 WTSPYM-STONX; issuer-published wrapper (wt*) address"
+    },
+    "Base:0x5cda0e1ca4ce2af96315f7f8963c85399c172204": {
+      "symbol": "WTCOIN",
+      "underlying": "COIN",
+      "name": "Coinbase Global (ST0x wrapped token)",
+      "assetClass": "equity",
+      "issuer": "ST0x",
+      "issuerSlug": "st0x",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://www.st0x.io/faqs (issuer asset list; symbol() verified on Base RPC)",
+      "chain": "Base",
+      "address": "0x5cda0e1ca4ce2af96315f7f8963c85399c172204",
+      "evidence": "aerodrome-slipstream WTCOIN-USDC; issuer-published wrapper (wt*) address"
+    },
+    "Base:0x78c31580c97101694c70022c83d570150c11e935": {
+      "symbol": "WTSGOV",
+      "underlying": "SGOV",
+      "name": "iShares 0-3 Month Treasury Bond ETF (ST0x wrapped token)",
+      "assetClass": "etf",
+      "issuer": "ST0x",
+      "issuerSlug": "st0x",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://www.st0x.io/faqs (issuer asset list; symbol() verified on Base RPC)",
+      "chain": "Base",
+      "address": "0x78c31580c97101694c70022c83d570150c11e935",
+      "evidence": "aerodrome-slipstream WTSGOV-USDC; issuer-published wrapper (wt*) address"
+    },
+    "Base:0x9c5c365e764829876243d0b289733b9d2b729685": {
+      "symbol": "DESPXA",
+      "underlying": "SPX",
+      "name": "S&P 500 DeFi (Centrifuge)",
+      "assetClass": "etf",
+      "issuer": "Centrifuge",
+      "issuerSlug": "centrifuge",
+      "issuerBasis": "onchain-name",
+      "issuerSource": "on-chain name() = \"S&P 500 DeFi (Centrifuge)\", symbol() = \"deSPXA\" (Base RPC eth_call); not a Dinari dShare",
+      "chain": "Base",
+      "address": "0x9c5c365e764829876243d0b289733b9d2b729685",
+      "evidence": "uniswap-v3 USDC-DESPXA"
+    },
+    "Base:0xb2000000000000000000001e800a7f5189430cd0": {
+      "symbol": "TSLAC",
+      "underlying": "TSLA",
+      "name": "Tesla Inc",
+      "assetClass": "equity",
+      "issuer": "Coinbase",
+      "issuerSlug": "coinbase",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://api.coinbase.com/v1/tokenized-stocks",
+      "chain": "Base",
+      "address": "0xb2000000000000000000001e800a7f5189430cd0",
+      "evidence": "aerodrome-slipstream USDC-TSLAC"
+    },
+    "Base:0xb2000000000000000000002d0ba3164cc74f58b7": {
+      "symbol": "GOOGLC",
+      "underlying": "GOOGL",
+      "name": "Alphabet Inc Class A",
+      "assetClass": "equity",
+      "issuer": "Coinbase",
+      "issuerSlug": "coinbase",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://api.coinbase.com/v1/tokenized-stocks",
+      "chain": "Base",
+      "address": "0xb2000000000000000000002d0ba3164cc74f58b7",
+      "evidence": "aerodrome-slipstream USDC-GOOGLC"
+    },
+    "Base:0xb200000000000000000000397293cb8cda9a10c5": {
+      "symbol": "SNDKC",
+      "underlying": "SNDK",
+      "name": "Sandisk Corp",
+      "assetClass": "equity",
+      "issuer": "Coinbase",
+      "issuerSlug": "coinbase",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://api.coinbase.com/v1/tokenized-stocks",
+      "chain": "Base",
+      "address": "0xb200000000000000000000397293cb8cda9a10c5",
+      "evidence": "aerodrome-slipstream USDC-SNDKC"
+    },
+    "Base:0xb2000000000000000000004884b426556b92883d": {
+      "symbol": "MSTRC",
+      "underlying": "MSTR",
+      "name": "Strategy Inc",
+      "assetClass": "equity",
+      "issuer": "Coinbase",
+      "issuerSlug": "coinbase",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://api.coinbase.com/v1/tokenized-stocks",
+      "chain": "Base",
+      "address": "0xb2000000000000000000004884b426556b92883d",
+      "evidence": "aerodrome-slipstream USDC-MSTRC"
+    },
+    "Base:0xb20000000000000000000078ee7ce2fe4908108c": {
+      "symbol": "NVDAC",
+      "underlying": "NVDA",
+      "name": "NVIDIA Corp",
+      "assetClass": "equity",
+      "issuer": "Coinbase",
+      "issuerSlug": "coinbase",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://api.coinbase.com/v1/tokenized-stocks",
+      "chain": "Base",
+      "address": "0xb20000000000000000000078ee7ce2fe4908108c",
+      "evidence": "aerodrome-slipstream USDC-NVDAC"
+    },
+    "Base:0xb2000000000000000000007b9fcbd005511acbd5": {
+      "symbol": "SPCXC",
+      "underlying": "SPCX",
+      "name": "SPCX (underlying name not verifiable from data)",
+      "assetClass": "equity",
+      "issuer": "Coinbase",
+      "issuerSlug": "coinbase",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://api.coinbase.com/v1/tokenized-stocks",
+      "chain": "Base",
+      "address": "0xb2000000000000000000007b9fcbd005511acbd5",
+      "evidence": "aerodrome-slipstream USDC-SPCXC"
+    },
+    "Base:0xb2000000000000000000007d16372840df4dabbe": {
+      "symbol": "PLTRC",
+      "underlying": "PLTR",
+      "name": "Palantir Technologies",
+      "assetClass": "equity",
+      "issuer": "Coinbase",
+      "issuerSlug": "coinbase",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://api.coinbase.com/v1/tokenized-stocks",
+      "chain": "Base",
+      "address": "0xb2000000000000000000007d16372840df4dabbe",
+      "evidence": "aerodrome-slipstream USDC-PLTRC"
+    },
+    "Base:0xb2000000000000000000008bc8786b856e61707c": {
+      "symbol": "METAC",
+      "underlying": "META",
+      "name": "Meta Platforms",
+      "assetClass": "equity",
+      "issuer": "Coinbase",
+      "issuerSlug": "coinbase",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://api.coinbase.com/v1/tokenized-stocks",
+      "chain": "Base",
+      "address": "0xb2000000000000000000008bc8786b856e61707c",
+      "evidence": "aerodrome-slipstream USDC-METAC"
+    },
+    "Base:0xb200000000000000000000ab99cfa739e253872b": {
+      "symbol": "MSFTC",
+      "underlying": "MSFT",
+      "name": "Microsoft Corp",
+      "assetClass": "equity",
+      "issuer": "Coinbase",
+      "issuerSlug": "coinbase",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://api.coinbase.com/v1/tokenized-stocks",
+      "chain": "Base",
+      "address": "0xb200000000000000000000ab99cfa739e253872b",
+      "evidence": "aerodrome-slipstream USDC-MSFTC"
+    },
+    "Base:0xb200000000000000000000c2e324d24d7eecd1fb": {
+      "symbol": "AAPLC",
+      "underlying": "AAPL",
+      "name": "Apple Inc",
+      "assetClass": "equity",
+      "issuer": "Coinbase",
+      "issuerSlug": "coinbase",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://api.coinbase.com/v1/tokenized-stocks",
+      "chain": "Base",
+      "address": "0xb200000000000000000000c2e324d24d7eecd1fb",
+      "evidence": "aerodrome-slipstream USDC-AAPLC"
+    },
+    "Base:0xb200000000000000000000d9192b6b456483c2e8": {
+      "symbol": "AMZNC",
+      "underlying": "AMZN",
+      "name": "Amazon.com",
+      "assetClass": "equity",
+      "issuer": "Coinbase",
+      "issuerSlug": "coinbase",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://api.coinbase.com/v1/tokenized-stocks",
+      "chain": "Base",
+      "address": "0xb200000000000000000000d9192b6b456483c2e8",
+      "evidence": "aerodrome-slipstream USDC-AMZNC"
+    },
+    "Base:0xb200000000000000000000fd2f87532b90095211": {
+      "symbol": "MUC",
+      "underlying": "MU",
+      "name": "Micron Technology (inferred from symbol MU+C)",
+      "assetClass": "equity",
+      "issuer": "Coinbase",
+      "issuerSlug": "coinbase",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://api.coinbase.com/v1/tokenized-stocks",
+      "chain": "Base",
+      "address": "0xb200000000000000000000fd2f87532b90095211",
+      "evidence": "aerodrome-slipstream USDC-MUC"
+    },
+    "Ethereum:0x1aad217b8f78dba5e6693460e8470f8b1a3977f3": {
+      "symbol": "STRCX",
+      "underlying": "STRC",
+      "name": "Strategy Variable Rate Series A Perpetual Stretch Preferred",
+      "assetClass": "equity",
+      "issuer": "xStocks",
+      "issuerSlug": "xstocks",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
+      "chain": "Ethereum",
+      "address": "0x1aad217b8f78dba5e6693460e8470f8b1a3977f3",
+      "evidence": "pendle-v2 STRCX (PT-STRCx), uniswap-v4 STRCX-USDC"
+    },
+    "Ethereum:0x2d1f7226bd1f780af6b9a49dcc0ae00e8df4bdee": {
+      "symbol": "NVDAON",
+      "underlying": "NVDA",
+      "name": "NVIDIA Corp",
+      "assetClass": "equity",
+      "issuer": "Ondo",
+      "issuerSlug": "ondo",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://docs.ondo.finance/addresses",
+      "chain": "Ethereum",
+      "address": "0x2d1f7226bd1f780af6b9a49dcc0ae00e8df4bdee",
+      "evidence": "uniswap-v3 NVDAON-USDC"
+    },
+    "Ethereum:0xc9eef266834730340a55b6cc24621b31baf55581": {
+      "symbol": "SPCXON",
+      "underlying": "SPCX",
+      "name": "SPCX (underlying name not verifiable from data)",
+      "assetClass": "equity",
+      "issuer": "Ondo",
+      "issuerSlug": "ondo",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://docs.ondo.finance/addresses",
+      "chain": "Ethereum",
+      "address": "0xc9eef266834730340a55b6cc24621b31baf55581",
+      "evidence": "uniswap-v3 USDC-SPCXON"
+    },
+    "Ethereum:0xf3e4872e6a4cf365888d93b6146a2baa7348f1a4": {
+      "symbol": "SLVON",
+      "underlying": "SLV",
+      "name": "iShares Silver Trust",
+      "assetClass": "commodity-etf",
+      "issuer": "Ondo",
+      "issuerSlug": "ondo",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://docs.ondo.finance/addresses",
+      "chain": "Ethereum",
+      "address": "0xf3e4872e6a4cf365888d93b6146a2baa7348f1a4",
+      "evidence": "uniswap-v3 USDC-SLVON"
+    },
+    "Ethereum:0xf6b1117ec07684d3958cad8beb1b302bfd21103f": {
+      "symbol": "TSLAON",
+      "underlying": "TSLA",
+      "name": "Tesla Inc",
+      "assetClass": "equity",
+      "issuer": "Ondo",
+      "issuerSlug": "ondo",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://docs.ondo.finance/addresses",
+      "chain": "Ethereum",
+      "address": "0xf6b1117ec07684d3958cad8beb1b302bfd21103f",
+      "evidence": "uniswap-v4 USDT-TSLAON, USDC-TSLAON"
+    },
+    "Ethereum:0xfedc5f4a6c38211c1338aa411018dfaf26612c08": {
+      "symbol": "SPYON",
+      "underlying": "SPY",
+      "name": "SPDR S&P 500 ETF Trust",
+      "assetClass": "etf",
+      "issuer": "Ondo",
+      "issuerSlug": "ondo",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://docs.ondo.finance/addresses",
+      "chain": "Ethereum",
+      "address": "0xfedc5f4a6c38211c1338aa411018dfaf26612c08",
+      "evidence": "frankencoin SPYON position"
+    },
+    "Hyperliquid L1:0xa8ddb5cd96b5222afe198316e9a57caa642850d5": {
+      "symbol": "WNVDAX",
+      "underlying": "NVDA",
+      "name": "NVIDIA Corp (xStocks wrapped token)",
+      "assetClass": "equity",
+      "issuer": "xStocks",
+      "issuerSlug": "xstocks",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://api.xstocks.fi/api/v2/public/assets (field wrapperAddressV2)",
+      "chain": "Hyperliquid L1",
+      "address": "0xa8ddb5cd96b5222afe198316e9a57caa642850d5",
+      "evidence": "nest-cl WNVDAX-USDC; issuer-published wrapper address"
+    },
+    "Robinhood Chain:0x117cc2133c37b721f49de2a7a74833232b3b4c0c": {
+      "symbol": "SPY",
+      "underlying": "SPY",
+      "name": "SPDR S&P 500 ETF Trust",
+      "assetClass": "etf",
+      "issuer": "Robinhood",
+      "issuerSlug": "robinhood",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://docs.robinhood.com/chain/contracts/",
+      "chain": "Robinhood Chain",
+      "address": "0x117cc2133c37b721f49de2a7a74833232b3b4c0c",
+      "evidence": "alandale-v3 SPY-USDG on Robinhood Chain"
+    },
+    "Solana:SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb": {
+      "symbol": "SPCX",
+      "underlying": "SPCX",
+      "name": "SPCX (underlying name not verifiable from data)",
+      "assetClass": "equity",
+      "issuer": "Backpack Securities",
+      "issuerSlug": "backpack-securities",
+      "issuerBasis": "official-announcement",
+      "issuerSource": "https://x.com/Backpack/status/2065464739749323171",
+      "chain": "Solana",
+      "address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+      "evidence": "raydium SPCX-SPCXX 0.01% pair against the Xs SPCXX mint (arbitrage-style pairing of two representations); raydium/orca SPCX-USDC"
+    },
+    "Solana:Xs3eBt7uRfJX8QUs4suhyU8p2M6DoUDrJyWBa8LLZsg": {
+      "symbol": "AMZNX",
+      "underlying": "AMZN",
+      "name": "Amazon.com",
+      "assetClass": "equity",
+      "issuer": "xStocks",
+      "issuerSlug": "xstocks",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
+      "chain": "Solana",
+      "address": "Xs3eBt7uRfJX8QUs4suhyU8p2M6DoUDrJyWBa8LLZsg",
+      "evidence": "Xs-prefix mint; raydium AMZNX-USDC"
+    },
+    "Solana:Xs3oZwbHvqis4NYcf4YKWmEia2eC84wSiVrcYcTqpH8": {
+      "symbol": "SPCXX",
+      "underlying": "SPCX",
+      "name": "SPCX (underlying name not verifiable from data)",
+      "assetClass": "equity",
+      "issuer": "xStocks",
+      "issuerSlug": "xstocks",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
+      "chain": "Solana",
+      "address": "Xs3oZwbHvqis4NYcf4YKWmEia2eC84wSiVrcYcTqpH8",
+      "evidence": "Xs-prefix mint; raydium/orca SPCXX-USDC"
+    },
+    "Solana:Xs6B6zawENwAbWVi7w92rjazLuAr5Az59qgWKcNb45x": {
+      "symbol": "BRK.BX",
+      "underlying": "BRK.B",
+      "name": "Berkshire Hathaway Class B",
+      "assetClass": "equity",
+      "issuer": "xStocks",
+      "issuerSlug": "xstocks",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
+      "chain": "Solana",
+      "address": "Xs6B6zawENwAbWVi7w92rjazLuAr5Az59qgWKcNb45x",
+      "evidence": "Xs-prefix mint; raydium BRK.BX-USDC"
+    },
+    "Solana:Xs78JED6PFZxWc2wCEPspZW9kL3Se5J7L5TChKgsidH": {
+      "symbol": "STRCX",
+      "underlying": "STRC",
+      "name": "Strategy Variable Rate Series A Perpetual Stretch Preferred",
+      "assetClass": "equity",
+      "issuer": "xStocks",
+      "issuerSlug": "xstocks",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
+      "chain": "Solana",
+      "address": "Xs78JED6PFZxWc2wCEPspZW9kL3Se5J7L5TChKgsidH",
+      "evidence": "Xs-prefix mint; kamino-lend market named \"STRCx Market\" (not \"xStocks Market\")"
+    },
+    "Solana:Xs7ZdzSHLU9ftNJsii5fCeJhoRWSC32SQGzGQtePxNu": {
+      "symbol": "COINX",
+      "underlying": "COIN",
+      "name": "Coinbase Global",
+      "assetClass": "equity",
+      "issuer": "xStocks",
+      "issuerSlug": "xstocks",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
+      "chain": "Solana",
+      "address": "Xs7ZdzSHLU9ftNJsii5fCeJhoRWSC32SQGzGQtePxNu",
+      "evidence": "Xs-prefix mint; raydium COINX-USDC"
+    },
+    "Solana:Xs8S1uUs1zvS2p7iwtsG3b6fkhpvmwz4GYU3gWAmWHZ": {
+      "symbol": "QQQX",
+      "underlying": "QQQ",
+      "name": "Invesco QQQ Trust",
+      "assetClass": "etf",
+      "issuer": "xStocks",
+      "issuerSlug": "xstocks",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
+      "chain": "Solana",
+      "address": "Xs8S1uUs1zvS2p7iwtsG3b6fkhpvmwz4GYU3gWAmWHZ",
+      "evidence": "kamino-lend QQQX poolMeta \"xStocks Market\"; jupiter-lend \"QQQx/USDC\""
+    },
+    "Solana:XsCPL9dNWBMvFtTmwcCA5v3xWPSMEBCszbQdiLLq6aN": {
+      "symbol": "GOOGLX",
+      "underlying": "GOOGL",
+      "name": "Alphabet Inc Class A",
+      "assetClass": "equity",
+      "issuer": "xStocks",
+      "issuerSlug": "xstocks",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
+      "chain": "Solana",
+      "address": "XsCPL9dNWBMvFtTmwcCA5v3xWPSMEBCszbQdiLLq6aN",
+      "evidence": "kamino-lend GOOGLX poolMeta \"xStocks Market\""
+    },
+    "Solana:XsDoVfqeBukxuZHWhdvWHBhgEHjGNst4MLodqsJHzoB": {
+      "symbol": "TSLAX",
+      "underlying": "TSLA",
+      "name": "Tesla Inc",
+      "assetClass": "equity",
+      "issuer": "xStocks",
+      "issuerSlug": "xstocks",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
+      "chain": "Solana",
+      "address": "XsDoVfqeBukxuZHWhdvWHBhgEHjGNst4MLodqsJHzoB",
+      "evidence": "kamino-lend TSLAX poolMeta \"xStocks Market\"; jupiter-lend \"TSLAx/USDC\""
+    },
+    "Solana:XsP7xzNPvEHS1m6qfanPUGjNmdnmsLKEoNAnHjdxxyZ": {
+      "symbol": "MSTRX",
+      "underlying": "MSTR",
+      "name": "Strategy Inc",
+      "assetClass": "equity",
+      "issuer": "xStocks",
+      "issuerSlug": "xstocks",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
+      "chain": "Solana",
+      "address": "XsP7xzNPvEHS1m6qfanPUGjNmdnmsLKEoNAnHjdxxyZ",
+      "evidence": "kamino-lend MSTRX poolMeta \"xStocks Market\""
+    },
+    "Solana:Xsa62P5mvPszXL1krVUnU5ar38bBSVcWAB6fmPCo5Zu": {
+      "symbol": "METAX",
+      "underlying": "META",
+      "name": "Meta Platforms",
+      "assetClass": "equity",
+      "issuer": "xStocks",
+      "issuerSlug": "xstocks",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
+      "chain": "Solana",
+      "address": "Xsa62P5mvPszXL1krVUnU5ar38bBSVcWAB6fmPCo5Zu",
+      "evidence": "Xs-prefix mint; raydium METAX-USDC"
+    },
+    "Solana:XsbEhLAtcf6HdfpFZ5xEMdqW8nfAvcsP5bdudRLJzJp": {
+      "symbol": "AAPLX",
+      "underlying": "AAPL",
+      "name": "Apple Inc",
+      "assetClass": "equity",
+      "issuer": "xStocks",
+      "issuerSlug": "xstocks",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
+      "chain": "Solana",
+      "address": "XsbEhLAtcf6HdfpFZ5xEMdqW8nfAvcsP5bdudRLJzJp",
+      "evidence": "kamino-lend AAPLX poolMeta \"xStocks Market\""
+    },
+    "Solana:Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh": {
+      "symbol": "NVDAX",
+      "underlying": "NVDA",
+      "name": "NVIDIA Corp",
+      "assetClass": "equity",
+      "issuer": "xStocks",
+      "issuerSlug": "xstocks",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
+      "chain": "Solana",
+      "address": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh",
+      "evidence": "kamino-lend NVDAX poolMeta \"xStocks Market\"; jupiter-lend \"NVDAx/USDC\""
+    },
+    "Solana:Xsf9mBktVB9BSU5kf4nHxPq5hCBJ2j2ui3ecFGxPRGc": {
+      "symbol": "GMEX",
+      "underlying": "GME",
+      "name": "GameStop Corp",
+      "assetClass": "equity",
+      "issuer": "xStocks",
+      "issuerSlug": "xstocks",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
+      "chain": "Solana",
+      "address": "Xsf9mBktVB9BSU5kf4nHxPq5hCBJ2j2ui3ecFGxPRGc",
+      "evidence": "Xs-prefix mint; orca GMEX-USDC"
+    },
+    "Solana:XsgSaSvNSqLTtFuyWPBhK9196Xb9Bbdyjj4fH3cPJGo": {
+      "symbol": "AVGOX",
+      "underlying": "AVGO",
+      "name": "Broadcom Inc",
+      "assetClass": "equity",
+      "issuer": "xStocks",
+      "issuerSlug": "xstocks",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
+      "chain": "Solana",
+      "address": "XsgSaSvNSqLTtFuyWPBhK9196Xb9Bbdyjj4fH3cPJGo",
+      "evidence": "Xs-prefix mint; raydium AVGOX-USDC"
+    },
+    "Solana:XsoBhf2ufR8fTyNSjqfU71DYGaE6Z3SUGAidpzriAA4": {
+      "symbol": "PLTRX",
+      "underlying": "PLTR",
+      "name": "Palantir Technologies",
+      "assetClass": "equity",
+      "issuer": "xStocks",
+      "issuerSlug": "xstocks",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
+      "chain": "Solana",
+      "address": "XsoBhf2ufR8fTyNSjqfU71DYGaE6Z3SUGAidpzriAA4",
+      "evidence": "Xs-prefix mint; orca PLTRX-USDC"
+    },
+    "Solana:XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W": {
+      "symbol": "SPYX",
+      "underlying": "SPY",
+      "name": "SPDR S&P 500 ETF Trust",
+      "assetClass": "etf",
+      "issuer": "xStocks",
+      "issuerSlug": "xstocks",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
+      "chain": "Solana",
+      "address": "XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W",
+      "evidence": "kamino-lend SPYX poolMeta \"xStocks Market\"; jupiter-lend \"SPYx/USDC\""
+    },
+    "Solana:XspzcW1PRtgf6Wj92HCiZdjzKCyFekVD8P5Ueh3dRMX": {
+      "symbol": "MSFTX",
+      "underlying": "MSFT",
+      "name": "Microsoft Corp",
+      "assetClass": "equity",
+      "issuer": "xStocks",
+      "issuerSlug": "xstocks",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
+      "chain": "Solana",
+      "address": "XspzcW1PRtgf6Wj92HCiZdjzKCyFekVD8P5Ueh3dRMX",
+      "evidence": "Xs-prefix mint; raydium MSFTX-USDC"
+    },
+    "Solana:XsqE9cRRpzxcGKDXj1BJ7Xmg4GRhZoyY1KpmGSxAWT2": {
+      "symbol": "MCDX",
+      "underlying": "MCD",
+      "name": "McDonald's Corp",
+      "assetClass": "equity",
+      "issuer": "xStocks",
+      "issuerSlug": "xstocks",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
+      "chain": "Solana",
+      "address": "XsqE9cRRpzxcGKDXj1BJ7Xmg4GRhZoyY1KpmGSxAWT2",
+      "evidence": "Xs-prefix mint; raydium MCDX-USDC"
+    },
+    "Solana:XsueG8BtpquVJX9LVLLEGuViXUungE6WmK5YZ3p3bd1": {
+      "symbol": "CRCLX",
+      "underlying": "CRCL",
+      "name": "Circle Internet Group",
+      "assetClass": "equity",
+      "issuer": "xStocks",
+      "issuerSlug": "xstocks",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
+      "chain": "Solana",
+      "address": "XsueG8BtpquVJX9LVLLEGuViXUungE6WmK5YZ3p3bd1",
+      "evidence": "kamino-lend CRCLX poolMeta \"xStocks Market\""
+    },
+    "Solana:Xsv9hRk1z5ystj9MhnA7Lq4vjSsLwzL2nxrwmwtD3re": {
+      "symbol": "GLDX",
+      "underlying": "GLD",
+      "name": "SPDR Gold Shares",
+      "assetClass": "commodity-etf",
+      "issuer": "xStocks",
+      "issuerSlug": "xstocks",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
+      "chain": "Solana",
+      "address": "Xsv9hRk1z5ystj9MhnA7Lq4vjSsLwzL2nxrwmwtD3re",
+      "evidence": "Xs-prefix mint; raydium GLDX-USDC"
+    },
+    "Solana:XsvNBAYkrDRNhA7wPHQfX3ZUXZyZLdnCQDfHZ56bzpg": {
+      "symbol": "HOODX",
+      "underlying": "HOOD",
+      "name": "Robinhood Markets",
+      "assetClass": "equity",
+      "issuer": "xStocks",
+      "issuerSlug": "xstocks",
+      "issuerBasis": "official-registry",
+      "issuerSource": "https://api.xstocks.fi/api/v2/public/assets",
+      "chain": "Solana",
+      "address": "XsvNBAYkrDRNhA7wPHQfX3ZUXZyZLdnCQDfHZ56bzpg",
+      "evidence": "kamino-lend HOODX poolMeta \"xStocks Market\""
+    }
+  },
+  "excluded": [
+    {
+      "chain": "Base",
+      "symbol": "BASECAT",
+      "address": "0xb2000000000000000000004c27f6523082f41d01",
+      "reason": "non-equity token that shares the 0xb2000... B20 address prefix"
+    },
+    {
+      "chain": "Base",
+      "symbol": "BLUECHIP",
+      "address": "0xb200000000000000000000cfbdf64a8706a94a01",
+      "reason": "non-equity token that shares the 0xb2000... B20 address prefix"
+    },
+    {
+      "chain": "Base",
+      "symbol": "BRIAN",
+      "address": "0xb2000000000000000000007bf6d5cbb0e24cb301",
+      "reason": "non-equity token that shares the 0xb2000... B20 address prefix"
+    },
+    {
+      "chain": "Base",
+      "symbol": "CBHYPE",
+      "address": "0xb200000000000000000000451d033a5000cb479e",
+      "reason": "non-equity token that shares the 0xb2000... B20 address prefix"
+    },
+    {
+      "chain": "Base",
+      "symbol": "CBZEC",
+      "address": "0xb2000000000000000000008501b13360000cb2ec",
+      "reason": "non-equity token that shares the 0xb2000... B20 address prefix"
+    },
+    {
+      "chain": "Base",
+      "symbol": "COIN",
+      "address": "0x8e16d46cb2da01cdd49601ec73d7b0344969ae33",
+      "reason": "ticker-named memecoin lookalike; not a tokenized equity"
+    },
+    {
+      "chain": "Base",
+      "symbol": "GME",
+      "address": "0x8069ef9b21bf292ba05ae527e1960c9676816ee6",
+      "reason": "ticker-named memecoin lookalike; not a tokenized equity"
+    },
+    {
+      "chain": "Base",
+      "symbol": "HOOD",
+      "address": "0x2f061beceeeb12380841ab77f7318e6ed87937b2",
+      "reason": "ticker-named memecoin lookalike; not a tokenized equity"
+    },
+    {
+      "chain": "Base",
+      "symbol": "OUSD",
+      "address": "0xb2000000000000000000002feb517dfec7415344",
+      "reason": "non-equity token that shares the 0xb2000... B20 address prefix"
+    },
+    {
+      "chain": "Base",
+      "symbol": "RWAGMI",
+      "address": "0xb200000000000000000000bf0548ab2ebd00ba5e",
+      "reason": "non-equity token that shares the 0xb2000... B20 address prefix"
+    },
+    {
+      "chain": "Base",
+      "symbol": "SPIKE",
+      "address": "0xb20000000000000000000070f6c1a66d7c1e4d01",
+      "reason": "non-equity token that shares the 0xb2000... B20 address prefix"
+    },
+    {
+      "chain": "Defichain",
+      "symbol": "COIN",
+      "address": "303",
+      "reason": "DeFiChain dToken: synthetic price-tracker, not a custodied tokenized equity; numeric token id, not an address"
+    },
+    {
+      "chain": "Defichain",
+      "symbol": "MSTR",
+      "address": "363",
+      "reason": "DeFiChain dToken: synthetic price-tracker, not a custodied tokenized equity; numeric token id, not an address"
+    },
+    {
+      "chain": "Defichain",
+      "symbol": "NVDA",
+      "address": "358",
+      "reason": "DeFiChain dToken: synthetic price-tracker, not a custodied tokenized equity; numeric token id, not an address"
+    },
+    {
+      "chain": "Defichain",
+      "symbol": "SPY",
+      "address": "295",
+      "reason": "DeFiChain dToken: synthetic price-tracker, not a custodied tokenized equity; numeric token id, not an address"
+    },
+    {
+      "chain": "Defichain",
+      "symbol": "TSLA",
+      "address": "331",
+      "reason": "DeFiChain dToken: synthetic price-tracker, not a custodied tokenized equity; numeric token id, not an address"
+    },
+    {
+      "chain": "Ethereum",
+      "symbol": "CAT",
+      "address": "0x59f4f336bf3d0c49dbfba4a74ebd2a6ace40539a",
+      "reason": "ticker-named memecoin lookalike (e.g. 0x42069... vanity); not a tokenized equity"
+    },
+    {
+      "chain": "Ethereum",
+      "symbol": "GME",
+      "address": "0xc56c7a0eaa804f854b536a5f3d5f49d2ec4b12b8",
+      "reason": "ticker-named memecoin lookalike (e.g. 0x42069... vanity); not a tokenized equity"
+    },
+    {
+      "chain": "Ethereum",
+      "symbol": "MSTR",
+      "address": "0x42069026eac8eee0fd9b5f7adfa4f6e6d69a2b39",
+      "reason": "ticker-named memecoin lookalike (e.g. 0x42069... vanity); not a tokenized equity"
+    },
+    {
+      "chain": "Ethereum",
+      "symbol": "MSTR",
+      "address": "0xfb96e5da37163d6cbea9d5cd5196dd55b70994b7",
+      "reason": "ticker-named memecoin lookalike (e.g. 0x42069... vanity); not a tokenized equity"
+    },
+    {
+      "chain": "Ethereum",
+      "symbol": "WSPYX",
+      "address": "0xc88fcd8b874fdb3256e8b55b3decb8c24eab4c02",
+      "reason": "wrapped xStocks (W-prefix) wrapper token; not attributable"
+    },
+    {
+      "chain": "Mantle",
+      "symbol": "WAAPLX",
+      "address": "0x5aa7649fdbda47de64a07ac81d64b682af9c0724",
+      "reason": "wrapped xStocks (W-prefix) wrapper token; issuer chain of custody not attributable from data"
+    },
+    {
+      "chain": "Mantle",
+      "symbol": "WGOOGLX",
+      "address": "0x1630f08370917e79df0b7572395a5e907508bbbc",
+      "reason": "wrapped xStocks (W-prefix) wrapper token; issuer chain of custody not attributable from data"
+    },
+    {
+      "chain": "Mantle",
+      "symbol": "WHOODX",
+      "address": "0x953707d7a1cb30cc5c636bda8eaebe410341eb14",
+      "reason": "wrapped xStocks (W-prefix) wrapper token; issuer chain of custody not attributable from data"
+    },
+    {
+      "chain": "Mantle",
+      "symbol": "WMETAX",
+      "address": "0x4e41a262caa93c6575d336e0a4eb79f3c67caa06",
+      "reason": "wrapped xStocks (W-prefix) wrapper token; issuer chain of custody not attributable from data"
+    },
+    {
+      "chain": "Mantle",
+      "symbol": "WMSTRX",
+      "address": "0x266e5923f6118f8b340ca5a23ae7f71897361476",
+      "reason": "wrapped xStocks (W-prefix) wrapper token; issuer chain of custody not attributable from data"
+    },
+    {
+      "chain": "Mantle",
+      "symbol": "WNVDAX",
+      "address": "0x93e62845c1dd5822ebc807ab71a5fb750decd15a",
+      "reason": "wrapped xStocks (W-prefix) wrapper token; issuer chain of custody not attributable from data"
+    },
+    {
+      "chain": "Mantle",
+      "symbol": "WQQQX",
+      "address": "0xdbd9232fee15351068fe02f0683146e16d9f2cea",
+      "reason": "wrapped xStocks (W-prefix) wrapper token; issuer chain of custody not attributable from data"
+    },
+    {
+      "chain": "Mantle",
+      "symbol": "WSPYX",
+      "address": "0xc88fcd8b874fdb3256e8b55b3decb8c24eab4c02",
+      "reason": "wrapped xStocks (W-prefix) wrapper token; issuer chain of custody not attributable from data"
+    },
+    {
+      "chain": "Mantle",
+      "symbol": "WTSLAX",
+      "address": "0x43680abf18cf54898be84c6ef78237cfbd441883",
+      "reason": "wrapped xStocks (W-prefix) wrapper token; issuer chain of custody not attributable from data"
+    },
+    {
+      "chain": "Solana",
+      "symbol": "BABA",
+      "address": "BABANGA4JE7Kkam4nTrALAwAVgsNJUuFJnnkF7S16BZp",
+      "reason": "ticker-named Solana mint with no corroborating evidence in the snapshot (no Xs prefix, no paired representation); may be a non-equity lookalike"
+    },
+    {
+      "chain": "Solana",
+      "symbol": "DJT",
+      "address": "DJTu7vi8norVzdVAffgvb39VP7wjKeTsgaMBJrzfxvoF",
+      "reason": "ticker-named Solana mint with no corroborating evidence in the snapshot (no Xs prefix, no paired representation); may be a non-equity lookalike"
+    },
+    {
+      "chain": "Solana",
+      "symbol": "DKNG",
+      "address": "DKNGQFNGQmoBdXSRGKJ8tTu7uPDasw5JDcfMmWniNfow",
+      "reason": "ticker-named Solana mint with no corroborating evidence in the snapshot (no Xs prefix, no paired representation); may be a non-equity lookalike"
+    },
+    {
+      "chain": "Solana",
+      "symbol": "GME",
+      "address": "8wXtPeU6557ETkp9WHFY1n1EcU6NxDvbAggHGsMYiHsB",
+      "reason": "ticker-named Solana mint with no corroborating evidence in the snapshot (no Xs prefix, no paired representation); may be a non-equity lookalike"
+    },
+    {
+      "chain": "Solana",
+      "symbol": "HIMS",
+      "address": "HiMSSzzwkZkrXJ4PGVJRdtfLaANeAztjjcgk5Dxe7Lwx",
+      "reason": "ticker-named Solana mint with no corroborating evidence in the snapshot (no Xs prefix, no paired representation); may be a non-equity lookalike"
+    },
+    {
+      "chain": "Solana",
+      "symbol": "HOOD",
+      "address": "HooDYv5RewLRiMLnEVq3VJqdqxhuE6c5eYvqejMC3e9A",
+      "reason": "ticker-named Solana mint with no corroborating evidence in the snapshot (no Xs prefix, no paired representation); may be a non-equity lookalike"
+    },
+    {
+      "chain": "Solana",
+      "symbol": "INTC",
+      "address": "iNTCy1qTsUEZQe3DSocLz1ZXXai34Gdw8THQh5rxFaF",
+      "reason": "ticker-named Solana mint with no corroborating evidence in the snapshot (no Xs prefix, no paired representation); may be a non-equity lookalike"
+    },
+    {
+      "chain": "Solana",
+      "symbol": "META",
+      "address": "METAwkXcqyXKy1AtsSgJ8JiUHwGCafnZL38n3vYmeta",
+      "reason": "ticker-named Solana mint with no corroborating evidence in the snapshot (no Xs prefix, no paired representation); may be a non-equity lookalike"
+    },
+    {
+      "chain": "Solana",
+      "symbol": "MSTR",
+      "address": "MSTRdWXMeZxdE8osAQy3fA4rvTY5rgummDSMEx6U7Nz",
+      "reason": "ticker-named Solana mint with no corroborating evidence in the snapshot (no Xs prefix, no paired representation); may be a non-equity lookalike"
+    },
+    {
+      "chain": "Solana",
+      "symbol": "NFLX",
+      "address": "NFLX7qV57zuVxCoHy3s1jiGZyALraLNwttbxdvmYJLJ",
+      "reason": "ticker-named Solana mint with no corroborating evidence in the snapshot (no Xs prefix, no paired representation); may be a non-equity lookalike"
+    },
+    {
+      "chain": "Solana",
+      "symbol": "NKE",
+      "address": "NKEda5nHhNGgjrE9nDdMvaEmkmJ96qqxzBVZEcKmjSg",
+      "reason": "ticker-named Solana mint with no corroborating evidence in the snapshot (no Xs prefix, no paired representation); may be a non-equity lookalike"
+    },
+    {
+      "chain": "Solana",
+      "symbol": "RDDT",
+      "address": "RDDTGbhHwVXfyCvQMXzzowKjf5qrYBZAnehoXW83ooh",
+      "reason": "ticker-named Solana mint with no corroborating evidence in the snapshot (no Xs prefix, no paired representation); may be a non-equity lookalike"
+    },
+    {
+      "chain": "Solana",
+      "symbol": "SNDK",
+      "address": "8t5C4AWDg4CroMChxdo7rG2e8nJM31QG2GG7Czx9X7x2",
+      "reason": "ticker-named Solana mint with no corroborating evidence in the snapshot (no Xs prefix, no paired representation); may be a non-equity lookalike"
+    },
+    {
+      "chain": "Solana",
+      "symbol": "SNDK",
+      "address": "SNDKbwMUQvZhnLnxLduradgLHG5KrPuKwpnrkkGRhfH",
+      "reason": "ticker-named Solana mint with no corroborating evidence in the snapshot (no Xs prefix, no paired representation); may be a non-equity lookalike"
+    }
+  ]
+}

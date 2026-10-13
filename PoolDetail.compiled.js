@@ -806,7 +806,7 @@ function YieldCardWidget({
     var chainSlug = (pool.chain || 'ethereum').toLowerCase().replace(/\s+/g, '-');
     var coinKey = token.includes(':') ? token : `${chainSlug === 'avalanche' ? 'avax' : chainSlug === 'binance' ? 'bsc' : chainSlug}:${token}`;
     if (typeof fetch !== 'undefined') {
-      fetch(`https://coins.llama.fi/prices/current/${coinKey}`).then(res => res.json()).then(data => {
+      fetch(window.LLAMA_ENDPOINTS.coinsPrices(coinKey)).then(res => res.json()).then(data => {
         if (!isMounted) return;
         if (data && data.coins) {
           var matched = data.coins[coinKey] || Object.values(data.coins)[0];

@@ -463,7 +463,7 @@ function YieldCardWidget({
       : `${chainSlug === 'avalanche' ? 'avax' : (chainSlug === 'binance' ? 'bsc' : chainSlug)}:${token}`;
 
     if (typeof fetch !== 'undefined') {
-      fetch(`https://coins.llama.fi/prices/current/${coinKey}`)
+      fetch(window.LLAMA_ENDPOINTS.coinsPrices(coinKey))
         .then(res => res.json())
         .then(data => {
           if (!isMounted) return;

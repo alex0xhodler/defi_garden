@@ -26,7 +26,8 @@ const { formatTvlFloor } = require('./trust-rails.js');
 const SITE_URL = 'https://www.defi.garden';
 
 // Defillama API endpoint
-const YIELDS_API = 'https://yields.llama.fi/pools';
+// DefiLlama URLs live in llama-endpoints.js (env: LLAMA_YIELDS_BASE / LLAMA_PRO_API_KEY).
+const YIELDS_API = require('./llama-endpoints.js').pools();
 
 // ---------------------------------------------------------------------------
 // Sanity rails & curation — mirrors planner.js exactly (pure functions)
