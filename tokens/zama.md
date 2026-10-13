@@ -1,13 +1,13 @@
 # ZAMA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest ZAMA yield right now is 103.10% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZAMA yield right now is 152.87% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=fa9297a7-7620-4ad3-9d22-5cf6cbf2531a#src=seo_token) | Ethereum | 7.45% | $629.5K |
-| [raydium-amm →](https://www.defi.garden/?pool=edaad1ad-9cfb-56ea-8b95-368e4a28a4ac#src=seo_token) | Solana | 103.10% | $124.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=fa9297a7-7620-4ad3-9d22-5cf6cbf2531a#src=seo_token) | Ethereum | 16.61% | $639.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=edaad1ad-9cfb-56ea-8b95-368e4a28a4ac#src=seo_token) | Solana | 152.87% | $127.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-ZAMA shows up in 2 pools here, with rates from 7.45% to 103.10% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+ZAMA shows up in 2 pools here, with rates from 16.61% to 152.87% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 159.80% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 155.31% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -28,8 +28,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 7.45% | 31.52% | Base rate |
-| raydium-amm | 103.10% | 288.09% | Base rate |
+| uniswap-v3 | 16.61% | 30.91% | Base rate |
+| raydium-amm | 152.87% | 279.71% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ZAMA yield today?
 
-103.10% APY on raydium-amm (Solana), based on live DefiLlama data.
+152.87% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many ZAMA pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $754.2K in total.
+2 live pools clear this page's $100K TVL floor, $766.8K in total.
 
 ### Are these rates safe?
 
@@ -65,4 +65,4 @@ There is not enough qualifying APY history to rank ZAMA pools. This view covers 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 12, 2026
+## Last updated October 13, 2026

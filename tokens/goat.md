@@ -1,12 +1,12 @@
 # GOAT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest GOAT yield right now is 2.83% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GOAT yield right now is 3.68% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=f840ec7e-3d8c-40ea-b761-66515f8f17b9#src=seo_token) | Solana | 2.83% | $1.63M |
+| [raydium-amm →](https://www.defi.garden/?pool=f840ec7e-3d8c-40ea-b761-66515f8f17b9#src=seo_token) | Solana | 3.68% | $1.56M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GOAT yield today?
 
-2.83% APY on raydium-amm (Solana), based on live DefiLlama data.
+3.68% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many GOAT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.63M in total.
+1 live pool clear this page's $100K TVL floor, $1.56M in total.
 
 ### Are these rates safe?
 
@@ -37,13 +37,13 @@ There is not enough qualifying APY history to rank GOAT pools. This view covers 
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [BNSOL](https://www.defi.garden/tokens/bnsol)
-- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 12, 2026
+## Last updated October 13, 2026

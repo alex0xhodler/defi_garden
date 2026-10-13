@@ -1,12 +1,12 @@
 # OBS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest OBS yield right now is 4.85% on vvs-flawless (Cronos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OBS yield right now is 6.78% on vvs-flawless (Cronos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-flawless →](https://www.defi.garden/?pool=b77a35d1-8cf3-5d88-acda-a8ae8834e7ca#src=seo_token) | Cronos | 4.85% | $105.8K |
+| [vvs-flawless →](https://www.defi.garden/?pool=b77a35d1-8cf3-5d88-acda-a8ae8834e7ca#src=seo_token) | Cronos | 6.78% | $100.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest OBS yield today?
 
-4.85% APY on vvs-flawless (Cronos), based on live DefiLlama data.
+6.78% APY on vvs-flawless (Cronos), based on live DefiLlama data.
 
 ### How many OBS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $105.8K in total.
+1 live pool clear this page's $100K TVL floor, $100.3K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank OBS pools. This view covers A
 
 - [XLM](https://www.defi.garden/tokens/xlm)
 - [WCRO](https://www.defi.garden/tokens/wcro)
-- [VVS](https://www.defi.garden/tokens/vvs)
 - [CDCETH](https://www.defi.garden/tokens/cdceth)
+- [VVS](https://www.defi.garden/tokens/vvs)
 - [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [XRP](https://www.defi.garden/tokens/xrp)
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank OBS pools. This view covers A
 
 - [Cronos](https://www.defi.garden/chains/cronos)
 
-## Last updated October 12, 2026
+## Last updated October 13, 2026

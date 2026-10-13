@@ -1,12 +1,12 @@
 # HOSKY DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest HOSKY yield right now is 41.24% on minswap-dex (Cardano), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HOSKY yield right now is 43.08% on minswap-dex (Cardano), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=823c81ea-67bd-4c14-8c1b-98c6e95b898a#src=seo_token) | Cardano | 41.24% | $223.4K |
+| [minswap-dex →](https://www.defi.garden/?pool=823c81ea-67bd-4c14-8c1b-98c6e95b898a#src=seo_token) | Cardano | 43.08% | $221.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HOSKY yield today?
 
-41.24% APY on minswap-dex (Cardano), based on live DefiLlama data.
+43.08% APY on minswap-dex (Cardano), based on live DefiLlama data.
 
 ### How many HOSKY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $223.4K in total.
+1 live pool clear this page's $100K TVL floor, $221.9K in total.
 
 ### Are these rates safe?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank HOSKY pools. This view covers
 - [ADA](https://www.defi.garden/tokens/ada)
 - [USDM](https://www.defi.garden/tokens/usdm)
 - [USDCX](https://www.defi.garden/tokens/usdcx)
-- [IUSD](https://www.defi.garden/tokens/iusd)
 - [USDA](https://www.defi.garden/tokens/usda)
+- [IUSD](https://www.defi.garden/tokens/iusd)
 
 ## Available on
 
 - [Cardano](https://www.defi.garden/chains/cardano)
 
-## Last updated October 12, 2026
+## Last updated October 13, 2026

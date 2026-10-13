@@ -1,12 +1,12 @@
 # KODIEWBERA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest KODIEWBERA yield right now is 11.23% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KODIEWBERA yield right now is 10.82% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=122967c8-2fd5-4f43-95ff-ffcaeb99da09#src=seo_token) | Berachain | 11.23% | $826.3K |
+| [berapaw →](https://www.defi.garden/?pool=122967c8-2fd5-4f43-95ff-ffcaeb99da09#src=seo_token) | Berachain | 10.82% | $821.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KODIEWBERA yield today?
 
-11.23% APY on berapaw (Berachain), based on live DefiLlama data.
+10.82% APY on berapaw (Berachain), based on live DefiLlama data.
 
 ### How many KODIEWBERA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $826.3K in total.
+1 live pool clear this page's $100K TVL floor, $821.1K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank KODIEWBERA pools. This view c
 - [IBERA](https://www.defi.garden/tokens/ibera)
 - [BUSD](https://www.defi.garden/tokens/busd)
 - [RE7HONEY](https://www.defi.garden/tokens/re7honey)
-- [CSRHONEY](https://www.defi.garden/tokens/csrhoney)
 - [HONEY](https://www.defi.garden/tokens/honey)
+- [CSRHONEY](https://www.defi.garden/tokens/csrhoney)
 - [KODIUSDE](https://www.defi.garden/tokens/kodiusde)
 
 ## Available on
 
 - [Berachain](https://www.defi.garden/chains/berachain)
 
-## Last updated October 12, 2026
+## Last updated October 13, 2026

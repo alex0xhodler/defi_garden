@@ -1,14 +1,14 @@
 # Sei DeFi Yields
 
-The highest honest Sei yield right now is 12.58% on takara-lend (Sei), among 10 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Sei yield right now is 11.76% on takara-lend (Sei), among 10 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| USDY | [ondo-yield-assets →](https://www.defi.garden/pools/ondo-yield-assets-usdy-sei) | 3.66% | $259.54M |
+| USDY | [ondo-yield-assets →](https://www.defi.garden/pools/ondo-yield-assets-usdy-sei) | 3.67% | $259.55M |
 | SYZUSD | [yuzu-money →](https://www.defi.garden/?pool=20ccc2e5-0eca-4d9d-abd0-313908f51b31#src=seo_chain) | 7.95% | $8.82M |
-| WSEI | [takara-lend →](https://www.defi.garden/?pool=450812cf-e0cb-4609-9645-2df1e9cf01a5#src=seo_chain) | 1.09% | $1.43M |
-| USD₮0 | [takara-lend →](https://www.defi.garden/?pool=45cb0bd0-a5d1-4c28-bf84-1dcdf4a93321#src=seo_chain) | 12.58% | $404.6K |
-| USDC | [takara-lend →](https://www.defi.garden/?pool=099e1398-4924-41bc-9ec5-c164dc236cea#src=seo_chain) | 11.19% | $181.3K |
+| WSEI | [takara-lend →](https://www.defi.garden/?pool=450812cf-e0cb-4609-9645-2df1e9cf01a5#src=seo_chain) | 1.09% | $1.32M |
+| USD₮0 | [takara-lend →](https://www.defi.garden/?pool=45cb0bd0-a5d1-4c28-bf84-1dcdf4a93321#src=seo_chain) | 11.76% | $460.6K |
+| USDC | [takara-lend →](https://www.defi.garden/?pool=099e1398-4924-41bc-9ec5-c164dc236cea#src=seo_chain) | 11.66% | $171.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,11 +16,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Sei yield today?
 
-12.58% APY on takara-lend (Sei), based on live DefiLlama data.
+11.76% APY on takara-lend (Sei), based on live DefiLlama data.
 
 ### How many Sei pools clear the TVL floor?
 
-10 live pools clear this page's $100K TVL floor, $336.15M in total.
+10 live pools clear this page's $100K TVL floor, $335.45M in total.
 
 ### Are these rates safe?
 
@@ -33,7 +33,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Base](https://www.defi.garden/chains/base)
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
-- [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
+- [Avalanche](https://www.defi.garden/chains/avalanche)
 
 ## Top tokens on Sei
 
@@ -42,4 +42,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WSEI](https://www.defi.garden/tokens/wsei)
 - [USDC](https://www.defi.garden/tokens/usdc)
 
-## Last updated October 12, 2026
+## Last updated October 13, 2026

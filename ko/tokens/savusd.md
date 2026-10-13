@@ -1,12 +1,12 @@
 # SAVUSD 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 12, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 13, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 SAVUSD의 가장 높은 정직한 수익률은 Avalanche의 avant-avusd에서 7.53%이며, $100K TVL 기준을 넘는 8개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SAVUSD의 가장 높은 정직한 수익률은 Avalanche의 avant-avusd에서 7.54%이며, $100K TVL 기준을 넘는 8개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [avant-avusd →](https://www.defi.garden/ko/pools/avant-avusd-savusd-avalanche) | Avalanche | 7.53% | $101.44M |
+| [avant-avusd →](https://www.defi.garden/?pool=c74227a1-e738-4021-bbe1-13363815aecb#src=seo_token) | Avalanche | 7.54% | $101.48M |
 | [morpho-blue →](https://www.defi.garden/?pool=fad7bc2b-3ac7-5554-bfd1-52cb1b2d4bcb#src=seo_token) | Base | 1.17% | $4.32M |
 
 <!-- rate-stability:insufficient -->
@@ -18,7 +18,7 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-SAVUSD 풀은 여기 2개가 있고, 2개 체인에서 APY가 1.17%부터 7.53%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+SAVUSD 풀은 여기 2개가 있고, 2개 체인에서 APY가 1.17%부터 7.54%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 2개 풀 중 2개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 4.34%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -26,8 +26,8 @@ SAVUSD 풀은 여기 2개가 있고, 2개 체인에서 APY가 1.17%부터 7.53%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| avant-avusd | 7.53% | 7.66% | 기본 금리 |
-| morpho-blue | 1.17% | 1.02% | 인센티브 100.00% |
+| avant-avusd | 7.54% | 7.66% | 기본 금리 |
+| morpho-blue | 1.17% | 1.03% | 인센티브 100.00% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -35,11 +35,11 @@ SAVUSD 풀은 여기 2개가 있고, 2개 체인에서 APY가 1.17%부터 7.53%�
 
 ### 오늘 SAVUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Avalanche의 avant-avusd에서 APY 7.53%예요.
+DefiLlama 실시간 데이터 기준, Avalanche의 avant-avusd에서 APY 7.54%예요.
 
 ### SAVUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $151.23M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $150.99M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -55,12 +55,12 @@ DefiLlama 실시간 데이터 기준, Avalanche의 avant-avusd에서 APY 7.53%�
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [WETH](https://www.defi.garden/ko/tokens/weth)
+- [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USDE](https://www.defi.garden/ko/tokens/usde)
-- [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
 
 ## 이용 가능한 체인
 
 - [Avalanche](https://www.defi.garden/ko/chains/avalanche)
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: October 12, 2026
+## 마지막 업데이트: October 13, 2026

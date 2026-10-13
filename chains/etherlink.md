@@ -1,10 +1,10 @@
 # Etherlink DeFi Yields
 
-The highest honest Etherlink yield right now is 5.87% on midas-rwa (Etherlink), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Etherlink yield right now is 3.77% on midas-rwa (Etherlink), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| USDC | [midas-rwa →](https://www.defi.garden/?pool=c7a1e6c3-e50e-41a7-8bbe-33c88d26b8d0#src=seo_chain) | 5.87% | $4.95M |
+| USDC | [midas-rwa →](https://www.defi.garden/?pool=c7a1e6c3-e50e-41a7-8bbe-33c88d26b8d0#src=seo_chain) | 3.61% | $4.95M |
 | USDC | [midas-rwa →](https://www.defi.garden/?pool=6e44d831-b95d-4273-b5d2-acc7cae00e0f#src=seo_chain) | 3.73% | $1.22M |
 | USDC | [midas-rwa →](https://www.defi.garden/?pool=161f03a5-e1cc-4c43-8483-5842789441c8#src=seo_chain) | 3.77% | $1.13M |
 | USDC | [gearbox →](https://www.defi.garden/?pool=ec15a095-9ee2-42b0-a50e-76aed2342ef4#src=seo_chain) | 0.88% | $588.2K |
@@ -15,7 +15,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Etherlink yield today?
 
-5.87% APY on midas-rwa (Etherlink), based on live DefiLlama data.
+3.77% APY on midas-rwa (Etherlink), based on live DefiLlama data.
 
 ### How many Etherlink pools clear the TVL floor?
 
@@ -32,10 +32,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Base](https://www.defi.garden/chains/base)
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
-- [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
+- [Avalanche](https://www.defi.garden/chains/avalanche)
 
 ## Top tokens on Etherlink
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 
-## Last updated October 12, 2026
+## Last updated October 13, 2026

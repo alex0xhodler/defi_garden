@@ -1,12 +1,12 @@
 # LILPEPE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
 The highest honest LILPEPE yield right now is 0.05% on uniswap-v3 (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=d5221500-fb1c-5fed-91c6-4ad054c682d5#src=seo_token) | Base | 0.05% | $140K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d5221500-fb1c-5fed-91c6-4ad054c682d5#src=seo_token) | Base | 0.05% | $137.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many LILPEPE pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $911.5K in total.
+4 live pools clear this page's $100K TVL floor, $899.2K in total.
 
 ### Are these rates safe?
 
@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank LILPEPE pools. This view cove
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 12, 2026
+## Last updated October 13, 2026

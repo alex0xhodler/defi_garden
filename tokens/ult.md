@@ -1,12 +1,12 @@
 # ULT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
 The highest honest ULT yield right now is 0.01% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=23964261-b655-43bc-b036-78cd11461238#src=seo_token) | Polygon | 0.01% | $186K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=23964261-b655-43bc-b036-78cd11461238#src=seo_token) | Polygon | 0.01% | $185.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ULT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $186K in total.
+1 live pool clear this page's $100K TVL floor, $185.2K in total.
 
 ### Are these rates safe?
 
@@ -36,14 +36,14 @@ There is not enough qualifying APY history to rank ULT pools. This view covers A
 ## Related tokens
 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [DAI](https://www.defi.garden/tokens/dai)
 - [LINK](https://www.defi.garden/tokens/link)
 - [AAVE](https://www.defi.garden/tokens/aave)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
-- [FUN](https://www.defi.garden/tokens/fun)
 
 ## Available on
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated October 12, 2026
+## Last updated October 13, 2026

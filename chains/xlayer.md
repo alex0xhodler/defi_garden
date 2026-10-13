@@ -1,15 +1,15 @@
 # Xlayer DeFi Yields
 
-The highest honest Xlayer yield right now is 3.31% on aave-v3 (Xlayer), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Xlayer yield right now is 3.48% on aave-v3 (Xlayer), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| USD₮0 | [aave-v3 →](https://www.defi.garden/?pool=19d8ae87-7e6c-4b18-93eb-fa4060ddcc4b#src=seo_chain) | 2.82% | $13.27M |
-| XETH | [aave-v3 →](https://www.defi.garden/?pool=29b6ce50-f9f0-432f-ac0f-a8e949c9392b#src=seo_chain) | 0.37% | $9.01M |
-| XSOL | [aave-v3 →](https://www.defi.garden/?pool=0a7f26f7-2dc7-4302-ab7f-9845584708a8#src=seo_chain) | 0.65% | $1.48M |
-| XBTC | [aave-v3 →](https://www.defi.garden/?pool=a3675606-082b-4185-9673-db66a4287545#src=seo_chain) | 0.01% | $620.5K |
-| USDG | [aave-v3 →](https://www.defi.garden/?pool=8bac9ade-e894-489d-9cb8-f062f16d85de#src=seo_chain) | 2.12% | $549.6K |
-| USDC | [aave-v3 →](https://www.defi.garden/?pool=b832eb4f-63e0-59fe-8292-e82c845b3407#src=seo_chain) | 3.31% | $512.5K |
+| USD₮0 | [aave-v3 →](https://www.defi.garden/?pool=19d8ae87-7e6c-4b18-93eb-fa4060ddcc4b#src=seo_chain) | 2.74% | $13.76M |
+| XETH | [aave-v3 →](https://www.defi.garden/?pool=29b6ce50-f9f0-432f-ac0f-a8e949c9392b#src=seo_chain) | 0.35% | $9.11M |
+| XSOL | [aave-v3 →](https://www.defi.garden/?pool=0a7f26f7-2dc7-4302-ab7f-9845584708a8#src=seo_chain) | 0.71% | $1.43M |
+| XBTC | [aave-v3 →](https://www.defi.garden/?pool=a3675606-082b-4185-9673-db66a4287545#src=seo_chain) | 0.01% | $639.1K |
+| USDC | [aave-v3 →](https://www.defi.garden/?pool=b832eb4f-63e0-59fe-8292-e82c845b3407#src=seo_chain) | 3.48% | $419.2K |
+| USDG | [aave-v3 →](https://www.defi.garden/?pool=8bac9ade-e894-489d-9cb8-f062f16d85de#src=seo_chain) | 2.97% | $328.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Xlayer yield today?
 
-3.31% APY on aave-v3 (Xlayer), based on live DefiLlama data.
+3.48% APY on aave-v3 (Xlayer), based on live DefiLlama data.
 
 ### How many Xlayer pools clear the TVL floor?
 
-9 live pools clear this page's $100K TVL floor, $103.84M in total.
+9 live pools clear this page's $100K TVL floor, $101.43M in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Base](https://www.defi.garden/chains/base)
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
-- [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
+- [Avalanche](https://www.defi.garden/chains/avalanche)
 
 ## Top tokens on Xlayer
 
 - [XETH](https://www.defi.garden/tokens/xeth)
 - [XSOL](https://www.defi.garden/tokens/xsol)
 - [XBTC](https://www.defi.garden/tokens/xbtc)
-- [USDG](https://www.defi.garden/tokens/usdg)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [USDG](https://www.defi.garden/tokens/usdg)
 
-## Last updated October 12, 2026
+## Last updated October 13, 2026

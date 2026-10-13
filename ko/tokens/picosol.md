@@ -1,12 +1,12 @@
 # PICOSOL 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 12, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 13, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 PICOSOL의 가장 높은 정직한 수익률은 Solana의 pico-staked-sol에서 5.04%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [pico-staked-sol →](https://www.defi.garden/?pool=924e2834-3086-439e-b10d-8b55e1acaa29#src=seo_token) | Solana | 5.04% | $2.06M |
+| [pico-staked-sol →](https://www.defi.garden/?pool=924e2834-3086-439e-b10d-8b55e1acaa29#src=seo_token) | Solana | 5.04% | $1.98M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -37,7 +37,7 @@ DefiLlama 실시간 데이터 기준, Solana의 pico-staked-sol에서 APY 5.04%�
 
 ### PICOSOL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $2.68M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $2.57M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -51,13 +51,13 @@ DefiLlama 실시간 데이터 기준, Solana의 pico-staked-sol에서 APY 5.04%�
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
+- [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
 - [BNSOL](https://www.defi.garden/ko/tokens/bnsol)
-- [PRIME](https://www.defi.garden/ko/tokens/prime)
 
 ## 이용 가능한 체인
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: October 12, 2026
+## 마지막 업데이트: October 13, 2026

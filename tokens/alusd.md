@@ -1,56 +1,56 @@
 # ALUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest ALUSD yield right now is 15.16% on velodrome-v2 (OP Mainnet), among 17 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ALUSD yield right now is 14.85% on velodrome-v2 (OP Mainnet), among 17 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=0baca69f-f88b-4dc3-9410-02a77c96df69#src=seo_token) | Ethereum | 5.27% | $2.18M |
-| [alchemix-v3 →](https://www.defi.garden/?pool=d0cde295-6e3a-58b5-97c1-a83d9863f87d#src=seo_token) | Ethereum | 11.04% | $1.96M |
-| [convex-finance →](https://www.defi.garden/?pool=398fc5e7-b9e3-45a2-b9bb-e65913bb02a6#src=seo_token) | Ethereum | 8.33% | $1.93M |
-| [velodrome-v2 →](https://www.defi.garden/?pool=8154fad0-f9ba-46d3-a54a-872080279ec8#src=seo_token) | OP Mainnet | 15.16% | $1.7M |
-| [curve-dex →](https://www.defi.garden/?pool=0877b39a-c1a8-4155-b5dc-082600fdc26e#src=seo_token) | Ethereum | 3.69% | $897.8K |
-| [convex-finance →](https://www.defi.garden/?pool=1fa89639-b77f-4876-bebc-21ba6f36aab1#src=seo_token) | Ethereum | 5.65% | $718.7K |
-| [lagoon →](https://www.defi.garden/?pool=7565527d-6925-4e8d-8678-794999db45a5#src=seo_token) | Ethereum | 1.38% | $360.8K |
-| [curve-dex →](https://www.defi.garden/?pool=abd14430-0463-4146-a90a-cb63e118750f#src=seo_token) | Arbitrum | 18.38% | $287.7K |
+| [curve-dex →](https://www.defi.garden/?pool=0baca69f-f88b-4dc3-9410-02a77c96df69#src=seo_token) | Ethereum | 5.09% | $2.18M |
+| [alchemix-v3 →](https://www.defi.garden/?pool=d0cde295-6e3a-58b5-97c1-a83d9863f87d#src=seo_token) | Ethereum | 10.86% | $1.97M |
+| [convex-finance →](https://www.defi.garden/?pool=398fc5e7-b9e3-45a2-b9bb-e65913bb02a6#src=seo_token) | Ethereum | 8.47% | $1.93M |
+| [velodrome-v2 →](https://www.defi.garden/?pool=8154fad0-f9ba-46d3-a54a-872080279ec8#src=seo_token) | OP Mainnet | 14.85% | $1.7M |
+| [curve-dex →](https://www.defi.garden/?pool=0877b39a-c1a8-4155-b5dc-082600fdc26e#src=seo_token) | Ethereum | 3.60% | $897.6K |
+| [convex-finance →](https://www.defi.garden/?pool=1fa89639-b77f-4876-bebc-21ba6f36aab1#src=seo_token) | Ethereum | 5.55% | $718.6K |
+| [lagoon →](https://www.defi.garden/?pool=7565527d-6925-4e8d-8678-794999db45a5#src=seo_token) | Ethereum | 1.41% | $360.2K |
+| [curve-dex →](https://www.defi.garden/?pool=abd14430-0463-4146-a90a-cb63e118750f#src=seo_token) | Arbitrum | 17.93% | $288.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ALUSD's lower-variability candidates are lagoon (Ethereum), 1.38% APY, $360.8K TVL, https://www.defi.garden/?pool=7565527d-6925-4e8d-8678-794999db45a5#src=seo_token; alchemix-v3 (Ethereum), 11.04% APY, $1.96M TVL, https://www.defi.garden/?pool=d0cde295-6e3a-58b5-97c1-a83d9863f87d#src=seo_token; convex-finance (Ethereum), 8.33% APY, $1.93M TVL, https://www.defi.garden/?pool=398fc5e7-b9e3-45a2-b9bb-e65913bb02a6#src=seo_token; curve-dex (Ethereum), 5.27% APY, $2.18M TVL, https://www.defi.garden/?pool=0baca69f-f88b-4dc3-9410-02a77c96df69#src=seo_token; curve-dex (Arbitrum), 18.38% APY, $287.7K TVL, https://www.defi.garden/?pool=abd14430-0463-4146-a90a-cb63e118750f#src=seo_token; velodrome-v2 (OP Mainnet), 15.16% APY, $1.7M TVL, https://www.defi.garden/?pool=8154fad0-f9ba-46d3-a54a-872080279ec8#src=seo_token; convex-finance (Ethereum), 5.65% APY, $718.7K TVL, https://www.defi.garden/?pool=1fa89639-b77f-4876-bebc-21ba6f36aab1#src=seo_token; curve-dex (Ethereum), 3.69% APY, $897.8K TVL, https://www.defi.garden/?pool=0877b39a-c1a8-4155-b5dc-082600fdc26e#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ALUSD's lower-variability candidates are lagoon (Ethereum), 1.41% APY, $360.2K TVL, https://www.defi.garden/?pool=7565527d-6925-4e8d-8678-794999db45a5#src=seo_token; alchemix-v3 (Ethereum), 10.86% APY, $1.97M TVL, https://www.defi.garden/?pool=d0cde295-6e3a-58b5-97c1-a83d9863f87d#src=seo_token; convex-finance (Ethereum), 8.47% APY, $1.93M TVL, https://www.defi.garden/?pool=398fc5e7-b9e3-45a2-b9bb-e65913bb02a6#src=seo_token; curve-dex (Ethereum), 5.09% APY, $2.18M TVL, https://www.defi.garden/?pool=0baca69f-f88b-4dc3-9410-02a77c96df69#src=seo_token; curve-dex (Arbitrum), 17.93% APY, $288.1K TVL, https://www.defi.garden/?pool=abd14430-0463-4146-a90a-cb63e118750f#src=seo_token; velodrome-v2 (OP Mainnet), 14.85% APY, $1.7M TVL, https://www.defi.garden/?pool=8154fad0-f9ba-46d3-a54a-872080279ec8#src=seo_token; convex-finance (Ethereum), 5.55% APY, $718.6K TVL, https://www.defi.garden/?pool=1fa89639-b77f-4876-bebc-21ba6f36aab1#src=seo_token; curve-dex (Ethereum), 3.60% APY, $897.6K TVL, https://www.defi.garden/?pool=0877b39a-c1a8-4155-b5dc-082600fdc26e#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [lagoon →](https://www.defi.garden/?pool=7565527d-6925-4e8d-8678-794999db45a5#src=seo_token) | Ethereum | 1.38% | $360.8K |
-| 2 | [alchemix-v3 →](https://www.defi.garden/?pool=d0cde295-6e3a-58b5-97c1-a83d9863f87d#src=seo_token) | Ethereum | 11.04% | $1.96M |
-| 3 | [convex-finance →](https://www.defi.garden/?pool=398fc5e7-b9e3-45a2-b9bb-e65913bb02a6#src=seo_token) | Ethereum | 8.33% | $1.93M |
-| 4 | [curve-dex →](https://www.defi.garden/?pool=0baca69f-f88b-4dc3-9410-02a77c96df69#src=seo_token) | Ethereum | 5.27% | $2.18M |
-| 5 | [curve-dex →](https://www.defi.garden/?pool=abd14430-0463-4146-a90a-cb63e118750f#src=seo_token) | Arbitrum | 18.38% | $287.7K |
-| 6 | [velodrome-v2 →](https://www.defi.garden/?pool=8154fad0-f9ba-46d3-a54a-872080279ec8#src=seo_token) | OP Mainnet | 15.16% | $1.7M |
-| 7 | [convex-finance →](https://www.defi.garden/?pool=1fa89639-b77f-4876-bebc-21ba6f36aab1#src=seo_token) | Ethereum | 5.65% | $718.7K |
-| 8 | [curve-dex →](https://www.defi.garden/?pool=0877b39a-c1a8-4155-b5dc-082600fdc26e#src=seo_token) | Ethereum | 3.69% | $897.8K |
+| 1 | [lagoon →](https://www.defi.garden/?pool=7565527d-6925-4e8d-8678-794999db45a5#src=seo_token) | Ethereum | 1.41% | $360.2K |
+| 2 | [alchemix-v3 →](https://www.defi.garden/?pool=d0cde295-6e3a-58b5-97c1-a83d9863f87d#src=seo_token) | Ethereum | 10.86% | $1.97M |
+| 3 | [convex-finance →](https://www.defi.garden/?pool=398fc5e7-b9e3-45a2-b9bb-e65913bb02a6#src=seo_token) | Ethereum | 8.47% | $1.93M |
+| 4 | [curve-dex →](https://www.defi.garden/?pool=0baca69f-f88b-4dc3-9410-02a77c96df69#src=seo_token) | Ethereum | 5.09% | $2.18M |
+| 5 | [curve-dex →](https://www.defi.garden/?pool=abd14430-0463-4146-a90a-cb63e118750f#src=seo_token) | Arbitrum | 17.93% | $288.1K |
+| 6 | [velodrome-v2 →](https://www.defi.garden/?pool=8154fad0-f9ba-46d3-a54a-872080279ec8#src=seo_token) | OP Mainnet | 14.85% | $1.7M |
+| 7 | [convex-finance →](https://www.defi.garden/?pool=1fa89639-b77f-4876-bebc-21ba6f36aab1#src=seo_token) | Ethereum | 5.55% | $718.6K |
+| 8 | [curve-dex →](https://www.defi.garden/?pool=0877b39a-c1a8-4155-b5dc-082600fdc26e#src=seo_token) | Ethereum | 3.60% | $897.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ALUSD shows up in 8 pools here, with rates from 1.38% to 18.38% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+ALUSD shows up in 8 pools here, with rates from 1.41% to 17.93% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 7.64% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 7.69% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 6 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 5.27% | 5.87% | 99.05% incentives |
-| alchemix-v3 | 11.04% | 11.23% | Base rate |
-| convex-finance | 8.33% | 9.55% | 99.40% incentives |
-| velodrome-v2 | 15.16% | 15.16% | 100.00% incentives |
-| curve-dex | 3.69% | 3.48% | 78.31% incentives |
-| convex-finance | 5.65% | 5.01% | 85.85% incentives |
-| lagoon | 1.38% | 1.13% | Base rate |
-| curve-dex | 18.38% | 9.41% | 99.35% incentives |
+| curve-dex | 5.09% | 5.85% | 100.00% incentives |
+| alchemix-v3 | 10.86% | 11.25% | Base rate |
+| convex-finance | 8.47% | 9.53% | 95.99% incentives |
+| velodrome-v2 | 14.85% | 15.21% | 100.00% incentives |
+| curve-dex | 3.60% | 3.50% | 78.31% incentives |
+| convex-finance | 5.55% | 5.04% | 85.94% incentives |
+| lagoon | 1.41% | 1.14% | Base rate |
+| curve-dex | 17.93% | 9.70% | 99.61% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -58,11 +58,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ALUSD yield today?
 
-15.16% APY on velodrome-v2 (OP Mainnet), based on live DefiLlama data.
+14.85% APY on velodrome-v2 (OP Mainnet), based on live DefiLlama data.
 
 ### How many ALUSD pools clear the TVL floor?
 
-17 live pools clear this page's $100K TVL floor, $11.6M in total.
+17 live pools clear this page's $100K TVL floor, $11.61M in total.
 
 ### Are these rates safe?
 
@@ -70,7 +70,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ALUSD pools have the most stable APY history?
 
-Based on APY history only, ALUSD's lower-variability candidates are lagoon (Ethereum), 1.38% APY, $360.8K TVL, https://www.defi.garden/?pool=7565527d-6925-4e8d-8678-794999db45a5#src=seo_token; alchemix-v3 (Ethereum), 11.04% APY, $1.96M TVL, https://www.defi.garden/?pool=d0cde295-6e3a-58b5-97c1-a83d9863f87d#src=seo_token; convex-finance (Ethereum), 8.33% APY, $1.93M TVL, https://www.defi.garden/?pool=398fc5e7-b9e3-45a2-b9bb-e65913bb02a6#src=seo_token; curve-dex (Ethereum), 5.27% APY, $2.18M TVL, https://www.defi.garden/?pool=0baca69f-f88b-4dc3-9410-02a77c96df69#src=seo_token; curve-dex (Arbitrum), 18.38% APY, $287.7K TVL, https://www.defi.garden/?pool=abd14430-0463-4146-a90a-cb63e118750f#src=seo_token; velodrome-v2 (OP Mainnet), 15.16% APY, $1.7M TVL, https://www.defi.garden/?pool=8154fad0-f9ba-46d3-a54a-872080279ec8#src=seo_token; convex-finance (Ethereum), 5.65% APY, $718.7K TVL, https://www.defi.garden/?pool=1fa89639-b77f-4876-bebc-21ba6f36aab1#src=seo_token; curve-dex (Ethereum), 3.69% APY, $897.8K TVL, https://www.defi.garden/?pool=0877b39a-c1a8-4155-b5dc-082600fdc26e#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ALUSD's lower-variability candidates are lagoon (Ethereum), 1.41% APY, $360.2K TVL, https://www.defi.garden/?pool=7565527d-6925-4e8d-8678-794999db45a5#src=seo_token; alchemix-v3 (Ethereum), 10.86% APY, $1.97M TVL, https://www.defi.garden/?pool=d0cde295-6e3a-58b5-97c1-a83d9863f87d#src=seo_token; convex-finance (Ethereum), 8.47% APY, $1.93M TVL, https://www.defi.garden/?pool=398fc5e7-b9e3-45a2-b9bb-e65913bb02a6#src=seo_token; curve-dex (Ethereum), 5.09% APY, $2.18M TVL, https://www.defi.garden/?pool=0baca69f-f88b-4dc3-9410-02a77c96df69#src=seo_token; curve-dex (Arbitrum), 17.93% APY, $288.1K TVL, https://www.defi.garden/?pool=abd14430-0463-4146-a90a-cb63e118750f#src=seo_token; velodrome-v2 (OP Mainnet), 14.85% APY, $1.7M TVL, https://www.defi.garden/?pool=8154fad0-f9ba-46d3-a54a-872080279ec8#src=seo_token; convex-finance (Ethereum), 5.55% APY, $718.6K TVL, https://www.defi.garden/?pool=1fa89639-b77f-4876-bebc-21ba6f36aab1#src=seo_token; curve-dex (Ethereum), 3.60% APY, $897.6K TVL, https://www.defi.garden/?pool=0877b39a-c1a8-4155-b5dc-082600fdc26e#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -87,4 +87,4 @@ Based on APY history only, ALUSD's lower-variability candidates are lagoon (Ethe
 - [OP Mainnet](https://www.defi.garden/chains/op-mainnet)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated October 12, 2026
+## Last updated October 13, 2026

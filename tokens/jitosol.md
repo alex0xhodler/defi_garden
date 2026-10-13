@@ -1,42 +1,42 @@
 # JITOSOL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest JITOSOL yield right now is 4.78% on jito-liquid-staking (Solana), among 32 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JITOSOL yield right now is 4.74% on jito-liquid-staking (Solana), among 32 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [jito-liquid-staking →](https://www.defi.garden/pools/jito-liquid-staking-jitosol-solana) | Solana | 4.78% | $1.18B |
-| [uniswap-v3 →](https://www.defi.garden/?pool=94996334-b27b-5d0f-8389-f418c2da9cdb#src=seo_token) | Base | 0.23% | $15.07M |
-| [project-0 →](https://www.defi.garden/?pool=ba625871-0591-4b44-b9da-eb3f34943f9f#src=seo_token) | Solana | 0.15% | $8.14M |
-| [orca-dex →](https://www.defi.garden/?pool=923d43c8-455e-4196-9b5d-afcc966c934f#src=seo_token) | Solana | 0.21% | $6.42M |
-| [kamino-liquidity →](https://www.defi.garden/?pool=55616349-b749-4467-8edc-abbb40ae80f6#src=seo_token) | Solana | 0.17% | $6.36M |
-| [raydium-amm →](https://www.defi.garden/?pool=ce89c76d-e6d5-4de0-9706-df3f33d309c7#src=seo_token) | Solana | 0.28% | $1.84M |
-| [hydration-dex →](https://www.defi.garden/?pool=262671f7-0c85-53cc-8042-571ab6e3cf18#src=seo_token) | Polkadot | 0.21% | $1.75M |
-| [kamino-liquidity →](https://www.defi.garden/?pool=fdcccd6a-a491-4c30-8024-5677bd3f0993#src=seo_token) | Solana | 0.27% | $1.56M |
+| [jito-liquid-staking →](https://www.defi.garden/pools/jito-liquid-staking-jitosol-solana) | Solana | 4.74% | $1.13B |
+| [uniswap-v3 →](https://www.defi.garden/?pool=94996334-b27b-5d0f-8389-f418c2da9cdb#src=seo_token) | Base | 0.42% | $14.77M |
+| [project-0 →](https://www.defi.garden/?pool=ba625871-0591-4b44-b9da-eb3f34943f9f#src=seo_token) | Solana | 0.15% | $7.91M |
+| [orca-dex →](https://www.defi.garden/?pool=923d43c8-455e-4196-9b5d-afcc966c934f#src=seo_token) | Solana | 0.27% | $6.18M |
+| [kamino-liquidity →](https://www.defi.garden/?pool=55616349-b749-4467-8edc-abbb40ae80f6#src=seo_token) | Solana | 0.24% | $6.12M |
+| [raydium-amm →](https://www.defi.garden/?pool=ce89c76d-e6d5-4de0-9706-df3f33d309c7#src=seo_token) | Solana | 0.40% | $1.77M |
+| [hydration-dex →](https://www.defi.garden/?pool=262671f7-0c85-53cc-8042-571ab6e3cf18#src=seo_token) | Polkadot | 0.21% | $1.7M |
+| [kamino-liquidity →](https://www.defi.garden/?pool=fdcccd6a-a491-4c30-8024-5677bd3f0993#src=seo_token) | Solana | 0.20% | $1.5M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, JITOSOL's lower-variability candidates are project-0 (Solana), 0.15% APY, $8.14M TVL, https://www.defi.garden/?pool=ba625871-0591-4b44-b9da-eb3f34943f9f#src=seo_token; uniswap-v3 (Base), 0.23% APY, $15.07M TVL, https://www.defi.garden/?pool=94996334-b27b-5d0f-8389-f418c2da9cdb#src=seo_token; jito-liquid-staking (Solana), 4.78% APY, $1.18B TVL, https://www.defi.garden/pools/jito-liquid-staking-jitosol-solana; kamino-liquidity (Solana), 0.17% APY, $6.36M TVL, https://www.defi.garden/?pool=55616349-b749-4467-8edc-abbb40ae80f6#src=seo_token; kamino-liquidity (Solana), 0.27% APY, $1.56M TVL, https://www.defi.garden/?pool=fdcccd6a-a491-4c30-8024-5677bd3f0993#src=seo_token; raydium-amm (Solana), 0.28% APY, $1.84M TVL, https://www.defi.garden/?pool=ce89c76d-e6d5-4de0-9706-df3f33d309c7#src=seo_token; orca-dex (Solana), 0.21% APY, $6.42M TVL, https://www.defi.garden/?pool=923d43c8-455e-4196-9b5d-afcc966c934f#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, JITOSOL's lower-variability candidates are project-0 (Solana), 0.15% APY, $7.91M TVL, https://www.defi.garden/?pool=ba625871-0591-4b44-b9da-eb3f34943f9f#src=seo_token; uniswap-v3 (Base), 0.42% APY, $14.77M TVL, https://www.defi.garden/?pool=94996334-b27b-5d0f-8389-f418c2da9cdb#src=seo_token; jito-liquid-staking (Solana), 4.74% APY, $1.13B TVL, https://www.defi.garden/pools/jito-liquid-staking-jitosol-solana; kamino-liquidity (Solana), 0.24% APY, $6.12M TVL, https://www.defi.garden/?pool=55616349-b749-4467-8edc-abbb40ae80f6#src=seo_token; kamino-liquidity (Solana), 0.20% APY, $1.5M TVL, https://www.defi.garden/?pool=fdcccd6a-a491-4c30-8024-5677bd3f0993#src=seo_token; raydium-amm (Solana), 0.40% APY, $1.77M TVL, https://www.defi.garden/?pool=ce89c76d-e6d5-4de0-9706-df3f33d309c7#src=seo_token; orca-dex (Solana), 0.27% APY, $6.18M TVL, https://www.defi.garden/?pool=923d43c8-455e-4196-9b5d-afcc966c934f#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [project-0 →](https://www.defi.garden/?pool=ba625871-0591-4b44-b9da-eb3f34943f9f#src=seo_token) | Solana | 0.15% | $8.14M |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=94996334-b27b-5d0f-8389-f418c2da9cdb#src=seo_token) | Base | 0.23% | $15.07M |
-| 3 | [jito-liquid-staking →](https://www.defi.garden/pools/jito-liquid-staking-jitosol-solana) | Solana | 4.78% | $1.18B |
-| 4 | [kamino-liquidity →](https://www.defi.garden/?pool=55616349-b749-4467-8edc-abbb40ae80f6#src=seo_token) | Solana | 0.17% | $6.36M |
-| 5 | [kamino-liquidity →](https://www.defi.garden/?pool=fdcccd6a-a491-4c30-8024-5677bd3f0993#src=seo_token) | Solana | 0.27% | $1.56M |
-| 6 | [raydium-amm →](https://www.defi.garden/?pool=ce89c76d-e6d5-4de0-9706-df3f33d309c7#src=seo_token) | Solana | 0.28% | $1.84M |
-| 7 | [orca-dex →](https://www.defi.garden/?pool=923d43c8-455e-4196-9b5d-afcc966c934f#src=seo_token) | Solana | 0.21% | $6.42M |
+| 1 | [project-0 →](https://www.defi.garden/?pool=ba625871-0591-4b44-b9da-eb3f34943f9f#src=seo_token) | Solana | 0.15% | $7.91M |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=94996334-b27b-5d0f-8389-f418c2da9cdb#src=seo_token) | Base | 0.42% | $14.77M |
+| 3 | [jito-liquid-staking →](https://www.defi.garden/pools/jito-liquid-staking-jitosol-solana) | Solana | 4.74% | $1.13B |
+| 4 | [kamino-liquidity →](https://www.defi.garden/?pool=55616349-b749-4467-8edc-abbb40ae80f6#src=seo_token) | Solana | 0.24% | $6.12M |
+| 5 | [kamino-liquidity →](https://www.defi.garden/?pool=fdcccd6a-a491-4c30-8024-5677bd3f0993#src=seo_token) | Solana | 0.20% | $1.5M |
+| 6 | [raydium-amm →](https://www.defi.garden/?pool=ce89c76d-e6d5-4de0-9706-df3f33d309c7#src=seo_token) | Solana | 0.40% | $1.77M |
+| 7 | [orca-dex →](https://www.defi.garden/?pool=923d43c8-455e-4196-9b5d-afcc966c934f#src=seo_token) | Solana | 0.27% | $6.18M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-JITOSOL shows up in 8 pools here, with rates from 0.15% to 4.78% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+JITOSOL shows up in 8 pools here, with rates from 0.15% to 4.74% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 0.27% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 0.28% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 8 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -44,14 +44,14 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| jito-liquid-staking | 4.78% | 4.86% | Base rate |
-| uniswap-v3 | 0.23% | 0.25% | Base rate |
+| jito-liquid-staking | 4.74% | 4.85% | Base rate |
+| uniswap-v3 | 0.42% | 0.25% | Base rate |
 | project-0 | 0.15% | 0.15% | Base rate |
-| orca-dex | 0.21% | 0.30% | Base rate |
-| kamino-liquidity | 0.17% | 0.24% | Base rate |
-| raydium-amm | 0.28% | 0.42% | Base rate |
+| orca-dex | 0.27% | 0.31% | Base rate |
+| kamino-liquidity | 0.24% | 0.24% | Base rate |
+| raydium-amm | 0.40% | 0.41% | Base rate |
 | hydration-dex | 0.21% | 0.23% | Base rate |
-| kamino-liquidity | 0.27% | 0.37% | Base rate |
+| kamino-liquidity | 0.20% | 0.38% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -59,11 +59,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest JITOSOL yield today?
 
-4.78% APY on jito-liquid-staking (Solana), based on live DefiLlama data.
+4.74% APY on jito-liquid-staking (Solana), based on live DefiLlama data.
 
 ### How many JITOSOL pools clear the TVL floor?
 
-32 live pools clear this page's $100K TVL floor, $1.38B in total.
+32 live pools clear this page's $100K TVL floor, $1.33B in total.
 
 ### Are these rates safe?
 
@@ -71,7 +71,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which JITOSOL pools have the most stable APY history?
 
-Based on APY history only, JITOSOL's lower-variability candidates are project-0 (Solana), 0.15% APY, $8.14M TVL, https://www.defi.garden/?pool=ba625871-0591-4b44-b9da-eb3f34943f9f#src=seo_token; uniswap-v3 (Base), 0.23% APY, $15.07M TVL, https://www.defi.garden/?pool=94996334-b27b-5d0f-8389-f418c2da9cdb#src=seo_token; jito-liquid-staking (Solana), 4.78% APY, $1.18B TVL, https://www.defi.garden/pools/jito-liquid-staking-jitosol-solana; kamino-liquidity (Solana), 0.17% APY, $6.36M TVL, https://www.defi.garden/?pool=55616349-b749-4467-8edc-abbb40ae80f6#src=seo_token; kamino-liquidity (Solana), 0.27% APY, $1.56M TVL, https://www.defi.garden/?pool=fdcccd6a-a491-4c30-8024-5677bd3f0993#src=seo_token; raydium-amm (Solana), 0.28% APY, $1.84M TVL, https://www.defi.garden/?pool=ce89c76d-e6d5-4de0-9706-df3f33d309c7#src=seo_token; orca-dex (Solana), 0.21% APY, $6.42M TVL, https://www.defi.garden/?pool=923d43c8-455e-4196-9b5d-afcc966c934f#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, JITOSOL's lower-variability candidates are project-0 (Solana), 0.15% APY, $7.91M TVL, https://www.defi.garden/?pool=ba625871-0591-4b44-b9da-eb3f34943f9f#src=seo_token; uniswap-v3 (Base), 0.42% APY, $14.77M TVL, https://www.defi.garden/?pool=94996334-b27b-5d0f-8389-f418c2da9cdb#src=seo_token; jito-liquid-staking (Solana), 4.74% APY, $1.13B TVL, https://www.defi.garden/pools/jito-liquid-staking-jitosol-solana; kamino-liquidity (Solana), 0.24% APY, $6.12M TVL, https://www.defi.garden/?pool=55616349-b749-4467-8edc-abbb40ae80f6#src=seo_token; kamino-liquidity (Solana), 0.20% APY, $1.5M TVL, https://www.defi.garden/?pool=fdcccd6a-a491-4c30-8024-5677bd3f0993#src=seo_token; raydium-amm (Solana), 0.40% APY, $1.77M TVL, https://www.defi.garden/?pool=ce89c76d-e6d5-4de0-9706-df3f33d309c7#src=seo_token; orca-dex (Solana), 0.27% APY, $6.18M TVL, https://www.defi.garden/?pool=923d43c8-455e-4196-9b5d-afcc966c934f#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -79,8 +79,8 @@ Based on APY history only, JITOSOL's lower-variability candidates are project-0 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
@@ -88,4 +88,4 @@ Based on APY history only, JITOSOL's lower-variability candidates are project-0 
 - [Base](https://www.defi.garden/chains/base)
 - [Polkadot](https://www.defi.garden/chains/polkadot)
 
-## Last updated October 12, 2026
+## Last updated October 13, 2026

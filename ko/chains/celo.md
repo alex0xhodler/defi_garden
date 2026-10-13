@@ -4,14 +4,14 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| WETH | [aave-v3 →](https://www.defi.garden/?pool=5335b797-b623-4ed1-a492-880cbabb053a#src=seo_chain) | 1.90% | $1.69M |
 | USD₮ | [aave-v3 →](https://www.defi.garden/?pool=8a6cda27-aa2b-4201-bb05-9cfcfc4ab6fd#src=seo_chain) | 5.76% | $1.67M |
+| WETH | [aave-v3 →](https://www.defi.garden/?pool=5335b797-b623-4ed1-a492-880cbabb053a#src=seo_chain) | 1.93% | $1.66M |
+| CELO-STCELO | [uniswap-v3 →](https://www.defi.garden/?pool=88ada026-2f5a-4cb8-b591-4e46e32fedc5#src=seo_chain) | 11.74% | $891.1K |
 | USD₮-CUSD | [uniswap-v3 →](https://www.defi.garden/?pool=ad10fdd6-8351-4d9b-8695-deb1bf2dc33a#src=seo_chain) | 0.63% | $643.5K |
-| CELO | [moola-market →](https://www.defi.garden/?pool=236a6312-5752-41b5-af7e-55e3ec95dbd4#src=seo_chain) | 0.01% | $477.9K |
-| CUSD | [moola-market →](https://www.defi.garden/?pool=905730f7-04b6-4deb-8e59-707d3d457f6b#src=seo_chain) | 0.40% | $399.2K |
+| CELO | [moola-market →](https://www.defi.garden/?pool=236a6312-5752-41b5-af7e-55e3ec95dbd4#src=seo_chain) | 0.01% | $449.7K |
+| CUSD | [moola-market →](https://www.defi.garden/?pool=905730f7-04b6-4deb-8e59-707d3d457f6b#src=seo_chain) | 0.40% | $397.1K |
 | USD₮-WBTC | [uniswap-v3 →](https://www.defi.garden/?pool=8f5e5824-7c41-4af2-899b-2db398962bea#src=seo_chain) | 30.55% | $217.8K |
 | CELO-USD₮ | [uniswap-v3 →](https://www.defi.garden/?pool=8cf372d2-191c-4b6b-a56b-def814e5d78e#src=seo_chain) | 8.17% | $205.6K |
-| USD₮-WETH | [uniswap-v3 →](https://www.defi.garden/?pool=ad87c260-8a41-4553-a0ba-47c58d798364#src=seo_chain) | 3.84% | $196.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Celo의 uniswap-v3에서 APY 30.55%예요.
 
 ### Celo 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 20개이며, 합산 TVL은 $8.02M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 20개이며, 합산 TVL은 $7.9M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -41,8 +41,9 @@ DefiLlama 실시간 데이터 기준, Celo의 uniswap-v3에서 APY 30.55%예요.
 ## Celo의 인기 토큰
 
 - [WETH](https://www.defi.garden/ko/tokens/weth)
-- [CUSD](https://www.defi.garden/ko/tokens/cusd)
 - [CELO](https://www.defi.garden/ko/tokens/celo)
+- [CUSD](https://www.defi.garden/ko/tokens/cusd)
+- [STCELO](https://www.defi.garden/ko/tokens/stcelo)
 - [WBTC](https://www.defi.garden/ko/tokens/wbtc)
 
-## 마지막 업데이트: October 12, 2026
+## 마지막 업데이트: October 13, 2026

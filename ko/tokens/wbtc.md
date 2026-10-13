@@ -1,19 +1,19 @@
 # WBTC 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 12, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 13, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 WBTC의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 11.28%이며, $100K TVL 기준을 넘는 301개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 WBTC의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 25.75%이며, $100K TVL 기준을 넘는 302개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=7c5e69a4-2430-4fa2-b7cb-857f79d7d1bf#src=seo_token) | Arbitrum | 0.02% | $243.15M |
-| [aave-v3 →](https://www.defi.garden/?pool=58d18059-f1d1-45ed-acd3-f386e98cc506#src=seo_token) | Polygon | 0.01% | $68.13M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=c5599b3a-ea73-4017-a867-72eb971301d1#src=seo_token) | Ethereum | 0.83% | $42.6M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=d59a5728-d391-4989-86f6-a94e11e0eb3b#src=seo_token) | Ethereum | 4.07% | $39.7M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7b78fe2f-6f67-46ef-8a42-1e36de8d0dfc#src=seo_token) | Ethereum | 0.03% | $38.93M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=bb7e9353-129f-4e01-b822-f4250d0abb8a#src=seo_token) | Arbitrum | 8.00% | $34.99M |
-| [yield-basis →](https://www.defi.garden/?pool=13ee3ea5-7546-573e-8597-161917ad00f5#src=seo_token) | Ethereum | 4.35% | $31.74M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=3dd2c646-c05a-4483-98f4-d7a924a6d6d3#src=seo_token) | Ethereum | 11.28% | $30.54M |
+| [aave-v3 →](https://www.defi.garden/?pool=7c5e69a4-2430-4fa2-b7cb-857f79d7d1bf#src=seo_token) | Arbitrum | 0.02% | $242.7M |
+| [curve-dex →](https://www.defi.garden/?pool=128b253a-0903-476f-9a70-6007b336e395#src=seo_token) | Ethereum | 2.29% | $70.21M |
+| [aave-v3 →](https://www.defi.garden/?pool=58d18059-f1d1-45ed-acd3-f386e98cc506#src=seo_token) | Polygon | 0.01% | $67.77M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c5599b3a-ea73-4017-a867-72eb971301d1#src=seo_token) | Ethereum | 2.32% | $42.06M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d59a5728-d391-4989-86f6-a94e11e0eb3b#src=seo_token) | Ethereum | 8.27% | $39.53M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7b78fe2f-6f67-46ef-8a42-1e36de8d0dfc#src=seo_token) | Ethereum | 0.07% | $38.8M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=bb7e9353-129f-4e01-b822-f4250d0abb8a#src=seo_token) | Arbitrum | 14.69% | $34.66M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=3dd2c646-c05a-4483-98f4-d7a924a6d6d3#src=seo_token) | Ethereum | 25.75% | $32.02M |
 
 ## WBTC 디파이 수익률 생성 원리
 
@@ -26,40 +26,41 @@ WBTC의 수익률은 주로 네 가지 온체인 메커니즘을 통해 발생�
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 WBTC의 변동성 낮은 후보는 Polygon의 aave-v3, APY 0.01%, TVL $68.13M, https://www.defi.garden/?pool=58d18059-f1d1-45ed-acd3-f386e98cc506#src=seo_token; Arbitrum의 aave-v3, APY 0.02%, TVL $243.15M, https://www.defi.garden/?pool=7c5e69a4-2430-4fa2-b7cb-857f79d7d1bf#src=seo_token; Ethereum의 uniswap-v3, APY 0.03%, TVL $38.93M, https://www.defi.garden/?pool=7b78fe2f-6f67-46ef-8a42-1e36de8d0dfc#src=seo_token; Ethereum의 uniswap-v3, APY 0.83%, TVL $42.6M, https://www.defi.garden/?pool=c5599b3a-ea73-4017-a867-72eb971301d1#src=seo_token; Ethereum의 uniswap-v3, APY 4.07%, TVL $39.7M, https://www.defi.garden/?pool=d59a5728-d391-4989-86f6-a94e11e0eb3b#src=seo_token; Arbitrum의 uniswap-v3, APY 8.00%, TVL $34.99M, https://www.defi.garden/?pool=bb7e9353-129f-4e01-b822-f4250d0abb8a#src=seo_token; Ethereum의 uniswap-v3, APY 11.28%, TVL $30.54M, https://www.defi.garden/?pool=3dd2c646-c05a-4483-98f4-d7a924a6d6d3#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 WBTC의 변동성 낮은 후보는 Polygon의 aave-v3, APY 0.01%, TVL $67.77M, https://www.defi.garden/?pool=58d18059-f1d1-45ed-acd3-f386e98cc506#src=seo_token; Arbitrum의 aave-v3, APY 0.02%, TVL $242.7M, https://www.defi.garden/?pool=7c5e69a4-2430-4fa2-b7cb-857f79d7d1bf#src=seo_token; Ethereum의 uniswap-v3, APY 0.07%, TVL $38.8M, https://www.defi.garden/?pool=7b78fe2f-6f67-46ef-8a42-1e36de8d0dfc#src=seo_token; Ethereum의 curve-dex, APY 2.29%, TVL $70.21M, https://www.defi.garden/?pool=128b253a-0903-476f-9a70-6007b336e395#src=seo_token; Ethereum의 uniswap-v3, APY 2.32%, TVL $42.06M, https://www.defi.garden/?pool=c5599b3a-ea73-4017-a867-72eb971301d1#src=seo_token; Ethereum의 uniswap-v3, APY 8.27%, TVL $39.53M, https://www.defi.garden/?pool=d59a5728-d391-4989-86f6-a94e11e0eb3b#src=seo_token; Arbitrum의 uniswap-v3, APY 14.69%, TVL $34.66M, https://www.defi.garden/?pool=bb7e9353-129f-4e01-b822-f4250d0abb8a#src=seo_token; Ethereum의 uniswap-v3, APY 25.75%, TVL $32.02M, https://www.defi.garden/?pool=3dd2c646-c05a-4483-98f4-d7a924a6d6d3#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aave-v3 →](https://www.defi.garden/?pool=58d18059-f1d1-45ed-acd3-f386e98cc506#src=seo_token) | Polygon | 0.01% | $68.13M |
-| 2 | [aave-v3 →](https://www.defi.garden/?pool=7c5e69a4-2430-4fa2-b7cb-857f79d7d1bf#src=seo_token) | Arbitrum | 0.02% | $243.15M |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=7b78fe2f-6f67-46ef-8a42-1e36de8d0dfc#src=seo_token) | Ethereum | 0.03% | $38.93M |
-| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=c5599b3a-ea73-4017-a867-72eb971301d1#src=seo_token) | Ethereum | 0.83% | $42.6M |
-| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=d59a5728-d391-4989-86f6-a94e11e0eb3b#src=seo_token) | Ethereum | 4.07% | $39.7M |
-| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=bb7e9353-129f-4e01-b822-f4250d0abb8a#src=seo_token) | Arbitrum | 8.00% | $34.99M |
-| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=3dd2c646-c05a-4483-98f4-d7a924a6d6d3#src=seo_token) | Ethereum | 11.28% | $30.54M |
+| 1 | [aave-v3 →](https://www.defi.garden/?pool=58d18059-f1d1-45ed-acd3-f386e98cc506#src=seo_token) | Polygon | 0.01% | $67.77M |
+| 2 | [aave-v3 →](https://www.defi.garden/?pool=7c5e69a4-2430-4fa2-b7cb-857f79d7d1bf#src=seo_token) | Arbitrum | 0.02% | $242.7M |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=7b78fe2f-6f67-46ef-8a42-1e36de8d0dfc#src=seo_token) | Ethereum | 0.07% | $38.8M |
+| 4 | [curve-dex →](https://www.defi.garden/?pool=128b253a-0903-476f-9a70-6007b336e395#src=seo_token) | Ethereum | 2.29% | $70.21M |
+| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=c5599b3a-ea73-4017-a867-72eb971301d1#src=seo_token) | Ethereum | 2.32% | $42.06M |
+| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=d59a5728-d391-4989-86f6-a94e11e0eb3b#src=seo_token) | Ethereum | 8.27% | $39.53M |
+| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=bb7e9353-129f-4e01-b822-f4250d0abb8a#src=seo_token) | Arbitrum | 14.69% | $34.66M |
+| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=3dd2c646-c05a-4483-98f4-d7a924a6d6d3#src=seo_token) | Ethereum | 25.75% | $32.02M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-WBTC 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.01%부터 11.28%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+WBTC 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.01%부터 25.75%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 3.01%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 1.56%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
-8개 풀 중 1개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
+현재 8개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
 8개 풀 중 5개는 비영구적 손실(IL) 위험이 있어요 — 두 자산을 맞춰 넣는 포지션은 수익이 나는 중에도 그냥 들고 있는 것보다 가치가 줄어들 수 있어요.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | aave-v3 | 0.02% | 0.02% | 기본 금리 |
+| curve-dex | 2.29% | 1.68% | 기본 금리 |
 | aave-v3 | 0.01% | 0.01% | 기본 금리 |
-| uniswap-v3 | 0.83% | 1.44% | 기본 금리 |
-| uniswap-v3 | 4.07% | 8.32% | 기본 금리 |
-| uniswap-v3 | 0.03% | 0.23% | 기본 금리 |
-| uniswap-v3 | 8.00% | 10.73% | 기본 금리 |
-| yield-basis | 4.35% | 4.59% | 인센티브 100.00% |
-| uniswap-v3 | 11.28% | 19.67% | 기본 금리 |
+| uniswap-v3 | 2.32% | 1.43% | 기본 금리 |
+| uniswap-v3 | 8.27% | 8.34% | 기본 금리 |
+| uniswap-v3 | 0.07% | 0.23% | 기본 금리 |
+| uniswap-v3 | 14.69% | 10.78% | 기본 금리 |
+| uniswap-v3 | 25.75% | 19.93% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -67,11 +68,11 @@ WBTC 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.01%부터 11.28%�
 
 ### 오늘 WBTC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 11.28%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 25.75%예요.
 
 ### WBTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 301개이며, 합산 TVL은 $5.7B예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 302개이며, 합산 TVL은 $5.68B예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -79,7 +80,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 11.28%예
 
 ### WBTC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 WBTC의 변동성 낮은 후보는 Polygon의 aave-v3, APY 0.01%, TVL $68.13M, https://www.defi.garden/?pool=58d18059-f1d1-45ed-acd3-f386e98cc506#src=seo_token; Arbitrum의 aave-v3, APY 0.02%, TVL $243.15M, https://www.defi.garden/?pool=7c5e69a4-2430-4fa2-b7cb-857f79d7d1bf#src=seo_token; Ethereum의 uniswap-v3, APY 0.03%, TVL $38.93M, https://www.defi.garden/?pool=7b78fe2f-6f67-46ef-8a42-1e36de8d0dfc#src=seo_token; Ethereum의 uniswap-v3, APY 0.83%, TVL $42.6M, https://www.defi.garden/?pool=c5599b3a-ea73-4017-a867-72eb971301d1#src=seo_token; Ethereum의 uniswap-v3, APY 4.07%, TVL $39.7M, https://www.defi.garden/?pool=d59a5728-d391-4989-86f6-a94e11e0eb3b#src=seo_token; Arbitrum의 uniswap-v3, APY 8.00%, TVL $34.99M, https://www.defi.garden/?pool=bb7e9353-129f-4e01-b822-f4250d0abb8a#src=seo_token; Ethereum의 uniswap-v3, APY 11.28%, TVL $30.54M, https://www.defi.garden/?pool=3dd2c646-c05a-4483-98f4-d7a924a6d6d3#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 WBTC의 변동성 낮은 후보는 Polygon의 aave-v3, APY 0.01%, TVL $67.77M, https://www.defi.garden/?pool=58d18059-f1d1-45ed-acd3-f386e98cc506#src=seo_token; Arbitrum의 aave-v3, APY 0.02%, TVL $242.7M, https://www.defi.garden/?pool=7c5e69a4-2430-4fa2-b7cb-857f79d7d1bf#src=seo_token; Ethereum의 uniswap-v3, APY 0.07%, TVL $38.8M, https://www.defi.garden/?pool=7b78fe2f-6f67-46ef-8a42-1e36de8d0dfc#src=seo_token; Ethereum의 curve-dex, APY 2.29%, TVL $70.21M, https://www.defi.garden/?pool=128b253a-0903-476f-9a70-6007b336e395#src=seo_token; Ethereum의 uniswap-v3, APY 2.32%, TVL $42.06M, https://www.defi.garden/?pool=c5599b3a-ea73-4017-a867-72eb971301d1#src=seo_token; Ethereum의 uniswap-v3, APY 8.27%, TVL $39.53M, https://www.defi.garden/?pool=d59a5728-d391-4989-86f6-a94e11e0eb3b#src=seo_token; Arbitrum의 uniswap-v3, APY 14.69%, TVL $34.66M, https://www.defi.garden/?pool=bb7e9353-129f-4e01-b822-f4250d0abb8a#src=seo_token; Ethereum의 uniswap-v3, APY 25.75%, TVL $32.02M, https://www.defi.garden/?pool=3dd2c646-c05a-4483-98f4-d7a924a6d6d3#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -93,7 +94,7 @@ APY 이력만 기준으로 비교한 WBTC의 변동성 낮은 후보는 Polygon�
 ## 이용 가능한 체인
 
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
-- [Polygon](https://www.defi.garden/ko/chains/polygon)
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
+- [Polygon](https://www.defi.garden/ko/chains/polygon)
 
-## 마지막 업데이트: October 12, 2026
+## 마지막 업데이트: October 13, 2026

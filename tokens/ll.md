@@ -1,12 +1,12 @@
 # LL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest LL yield right now is 18.59% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LL yield right now is 18.09% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=8d652008-80f1-49ba-b6fc-e1bf89d85bd9#src=seo_token) | Ethereum | 18.59% | $109.7K |
+| [yearn-finance →](https://www.defi.garden/?pool=8d652008-80f1-49ba-b6fc-e1bf89d85bd9#src=seo_token) | Ethereum | 18.09% | $109.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LL yield today?
 
-18.59% APY on yearn-finance (Ethereum), based on live DefiLlama data.
+18.09% APY on yearn-finance (Ethereum), based on live DefiLlama data.
 
 ### How many LL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $109.7K in total.
+1 live pool clear this page's $100K TVL floor, $109.6K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank LL pools. This view covers AP
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 12, 2026
+## Last updated October 13, 2026

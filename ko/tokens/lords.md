@@ -1,12 +1,12 @@
 # LORDS 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 12, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 13, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 LORDS의 가장 높은 정직한 수익률은 Starknet의 ekubo에서 832.15%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 LORDS의 가장 높은 정직한 수익률은 Starknet의 ekubo에서 321.13%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [ekubo →](https://www.defi.garden/?pool=49d721a3-e252-4573-b727-c287ec304ff4#src=seo_token) | Starknet | 832.15% | $113.4K |
+| [ekubo →](https://www.defi.garden/?pool=49d721a3-e252-4573-b727-c287ec304ff4#src=seo_token) | Starknet | 321.13% | $106.1K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,11 +19,11 @@
 
 ### 오늘 LORDS의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Starknet의 ekubo에서 APY 832.15%예요.
+DefiLlama 실시간 데이터 기준, Starknet의 ekubo에서 APY 321.13%예요.
 
 ### LORDS 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $113.4K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $106.1K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -40,10 +40,10 @@ DefiLlama 실시간 데이터 기준, Starknet의 ekubo에서 APY 832.15%예요.
 - [STRKBTC](https://www.defi.garden/ko/tokens/strkbtc)
 - [ZEC](https://www.defi.garden/ko/tokens/zec)
 - [USDC.E](https://www.defi.garden/ko/tokens/usdc-e)
-- [XSTRK](https://www.defi.garden/ko/tokens/xstrk)
+- [SUSN](https://www.defi.garden/ko/tokens/susn)
 
 ## 이용 가능한 체인
 
 - [Starknet](https://www.defi.garden/ko/chains/starknet)
 
-## 마지막 업데이트: October 12, 2026
+## 마지막 업데이트: October 13, 2026

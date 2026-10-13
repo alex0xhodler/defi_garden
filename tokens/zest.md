@@ -1,40 +1,42 @@
 # ZEST DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest ZEST yield right now is 13.16% on uniswap-v4 (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZEST yield right now is 342.57% on uniswap-v2 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=ecd8b20a-b231-4c2a-8960-da94caf140cf#src=seo_token) | Ethereum | 152.25% | $226.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=ecd8b20a-b231-4c2a-8960-da94caf140cf#src=seo_token) | Ethereum | 77.78% | $230.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=8fbab4e5-db05-58d8-9adf-646c1e07f298#src=seo_token) | Base | 342.57% | $171.4K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=e6cb8d81-ea00-4c6e-945f-0d99f310d228#src=seo_token) | BSC | 13.16% | $135.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ZEST's lower-variability candidates are uniswap-v4 (Ethereum), 152.25% APY, $226.4K TVL, https://www.defi.garden/?pool=ecd8b20a-b231-4c2a-8960-da94caf140cf#src=seo_token; uniswap-v4 (BSC), 13.16% APY, $135.8K TVL, https://www.defi.garden/?pool=e6cb8d81-ea00-4c6e-945f-0d99f310d228#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ZEST's lower-variability candidates are uniswap-v4 (Ethereum), 77.78% APY, $230.3K TVL, https://www.defi.garden/?pool=ecd8b20a-b231-4c2a-8960-da94caf140cf#src=seo_token; uniswap-v4 (BSC), 13.16% APY, $135.8K TVL, https://www.defi.garden/?pool=e6cb8d81-ea00-4c6e-945f-0d99f310d228#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=ecd8b20a-b231-4c2a-8960-da94caf140cf#src=seo_token) | Ethereum | 152.25% | $226.4K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=ecd8b20a-b231-4c2a-8960-da94caf140cf#src=seo_token) | Ethereum | 77.78% | $230.3K |
 | 2 | [uniswap-v4 →](https://www.defi.garden/?pool=e6cb8d81-ea00-4c6e-945f-0d99f310d228#src=seo_token) | BSC | 13.16% | $135.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ZEST shows up in 2 pools here, with rates from 13.16% to 152.25% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+ZEST shows up in 3 pools here, with rates from 13.16% to 342.57% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 26.02% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 48.44% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+3 of 3 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 152.25% | 37.59% | Base rate |
-| uniswap-v4 | 13.16% | 14.45% | Base rate |
+| uniswap-v4 | 77.78% | 48.44% | Base rate |
+| uniswap-v2 | 342.57% | 342.57% | Base rate |
+| uniswap-v4 | 13.16% | 14.04% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +44,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ZEST yield today?
 
-13.16% APY on uniswap-v4 (BSC), based on live DefiLlama data.
+342.57% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many ZEST pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $362.1K in total.
+3 live pools clear this page's $100K TVL floor, $537.5K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +56,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ZEST pools have the most stable APY history?
 
-Based on APY history only, ZEST's lower-variability candidates are uniswap-v4 (Ethereum), 152.25% APY, $226.4K TVL, https://www.defi.garden/?pool=ecd8b20a-b231-4c2a-8960-da94caf140cf#src=seo_token; uniswap-v4 (BSC), 13.16% APY, $135.8K TVL, https://www.defi.garden/?pool=e6cb8d81-ea00-4c6e-945f-0d99f310d228#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ZEST's lower-variability candidates are uniswap-v4 (Ethereum), 77.78% APY, $230.3K TVL, https://www.defi.garden/?pool=ecd8b20a-b231-4c2a-8960-da94caf140cf#src=seo_token; uniswap-v4 (BSC), 13.16% APY, $135.8K TVL, https://www.defi.garden/?pool=e6cb8d81-ea00-4c6e-945f-0d99f310d228#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -68,6 +70,7 @@ Based on APY history only, ZEST's lower-variability candidates are uniswap-v4 (E
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
+- [Base](https://www.defi.garden/chains/base)
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated October 12, 2026
+## Last updated October 13, 2026

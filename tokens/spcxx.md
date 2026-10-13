@@ -1,49 +1,47 @@
 # SPCXX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest SPCXX yield right now is 9.41% on raydium-amm (Solana), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SPCXX yield right now is 10.14% on raydium-amm (Solana), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=8feb7ee9-2530-4168-860a-ee444c809da7#src=seo_token) | Solana | 17.62% | $1.36M |
-| [raydium-amm →](https://www.defi.garden/?pool=9c9c6c56-8fa4-505d-8e4d-a1c94f2eb771#src=seo_token) | Solana | 71.03% | $983.6K |
-| [orca-dex →](https://www.defi.garden/?pool=e03b2380-b1c3-5ae3-9df3-925fb89cfc72#src=seo_token) | Solana | 49.44% | $292.5K |
-| [raydium-amm →](https://www.defi.garden/?pool=dd3a85f8-0963-40d1-bf6e-fa3a5c9f9507#src=seo_token) | Solana | 9.41% | $284.3K |
-| [orca-dex →](https://www.defi.garden/?pool=3beb57d9-04a7-4d5a-b54b-632ca22d8558#src=seo_token) | Solana | 81.31% | $117.8K |
-| [raydium-amm →](https://www.defi.garden/?pool=a829d5d9-dbd7-5dca-b0c1-d2844df6e287#src=seo_token) | Solana | 201.29% | $114K |
+| [raydium-amm →](https://www.defi.garden/?pool=8feb7ee9-2530-4168-860a-ee444c809da7#src=seo_token) | Solana | 65.80% | $1.14M |
+| [raydium-amm →](https://www.defi.garden/?pool=9c9c6c56-8fa4-505d-8e4d-a1c94f2eb771#src=seo_token) | Solana | 67.54% | $955.3K |
+| [orca-dex →](https://www.defi.garden/?pool=e03b2380-b1c3-5ae3-9df3-925fb89cfc72#src=seo_token) | Solana | 81.85% | $288.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=dd3a85f8-0963-40d1-bf6e-fa3a5c9f9507#src=seo_token) | Solana | 10.14% | $283.6K |
+| [orca-dex →](https://www.defi.garden/?pool=3beb57d9-04a7-4d5a-b54b-632ca22d8558#src=seo_token) | Solana | 177.72% | $116K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SPCXX's lower-variability candidates are raydium-amm (Solana), 9.41% APY, $284.3K TVL, https://www.defi.garden/?pool=dd3a85f8-0963-40d1-bf6e-fa3a5c9f9507#src=seo_token; raydium-amm (Solana), 17.62% APY, $1.36M TVL, https://www.defi.garden/?pool=8feb7ee9-2530-4168-860a-ee444c809da7#src=seo_token; orca-dex (Solana), 81.31% APY, $117.8K TVL, https://www.defi.garden/?pool=3beb57d9-04a7-4d5a-b54b-632ca22d8558#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SPCXX's lower-variability candidates are raydium-amm (Solana), 10.14% APY, $283.6K TVL, https://www.defi.garden/?pool=dd3a85f8-0963-40d1-bf6e-fa3a5c9f9507#src=seo_token; raydium-amm (Solana), 65.80% APY, $1.14M TVL, https://www.defi.garden/?pool=8feb7ee9-2530-4168-860a-ee444c809da7#src=seo_token; orca-dex (Solana), 177.72% APY, $116K TVL, https://www.defi.garden/?pool=3beb57d9-04a7-4d5a-b54b-632ca22d8558#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=dd3a85f8-0963-40d1-bf6e-fa3a5c9f9507#src=seo_token) | Solana | 9.41% | $284.3K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=8feb7ee9-2530-4168-860a-ee444c809da7#src=seo_token) | Solana | 17.62% | $1.36M |
-| 3 | [orca-dex →](https://www.defi.garden/?pool=3beb57d9-04a7-4d5a-b54b-632ca22d8558#src=seo_token) | Solana | 81.31% | $117.8K |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=dd3a85f8-0963-40d1-bf6e-fa3a5c9f9507#src=seo_token) | Solana | 10.14% | $283.6K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=8feb7ee9-2530-4168-860a-ee444c809da7#src=seo_token) | Solana | 65.80% | $1.14M |
+| 3 | [orca-dex →](https://www.defi.garden/?pool=3beb57d9-04a7-4d5a-b54b-632ca22d8558#src=seo_token) | Solana | 177.72% | $116K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SPCXX shows up in 6 pools here, with rates from 9.41% to 201.29% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SPCXX shows up in 5 pools here, with rates from 10.14% to 177.72% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-5 of these 6 pools have a trustworthy 30-day average on file, with a median of 336.22% — a useful check against today's number for whether the rate is steady or just having a good day.
+5 of these 5 pools have a trustworthy 30-day average on file, with a median of 323.77% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 6 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 5 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-6 of 6 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+5 of 5 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 17.62% | 223.82% | Base rate |
-| raydium-amm | 71.03% | 551.05% | Base rate |
-| orca-dex | 49.44% | 336.22% | Base rate |
-| raydium-amm | 9.41% | 15.82% | Base rate |
-| orca-dex | 81.31% | 400.93% | Base rate |
-| raydium-amm | 201.29% | — | Base rate |
+| raydium-amm | 65.80% | 216.09% | Base rate |
+| raydium-amm | 67.54% | 526.17% | Base rate |
+| orca-dex | 81.85% | 323.77% | Base rate |
+| raydium-amm | 10.14% | 15.90% | Base rate |
+| orca-dex | 177.72% | 398.44% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -51,11 +49,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SPCXX yield today?
 
-9.41% APY on raydium-amm (Solana), based on live DefiLlama data.
+10.14% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many SPCXX pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $3.15M in total.
+5 live pools clear this page's $100K TVL floor, $2.79M in total.
 
 ### Are these rates safe?
 
@@ -63,19 +61,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SPCXX pools have the most stable APY history?
 
-Based on APY history only, SPCXX's lower-variability candidates are raydium-amm (Solana), 9.41% APY, $284.3K TVL, https://www.defi.garden/?pool=dd3a85f8-0963-40d1-bf6e-fa3a5c9f9507#src=seo_token; raydium-amm (Solana), 17.62% APY, $1.36M TVL, https://www.defi.garden/?pool=8feb7ee9-2530-4168-860a-ee444c809da7#src=seo_token; orca-dex (Solana), 81.31% APY, $117.8K TVL, https://www.defi.garden/?pool=3beb57d9-04a7-4d5a-b54b-632ca22d8558#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SPCXX's lower-variability candidates are raydium-amm (Solana), 10.14% APY, $283.6K TVL, https://www.defi.garden/?pool=dd3a85f8-0963-40d1-bf6e-fa3a5c9f9507#src=seo_token; raydium-amm (Solana), 65.80% APY, $1.14M TVL, https://www.defi.garden/?pool=8feb7ee9-2530-4168-860a-ee444c809da7#src=seo_token; orca-dex (Solana), 177.72% APY, $116K TVL, https://www.defi.garden/?pool=3beb57d9-04a7-4d5a-b54b-632ca22d8558#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [BNSOL](https://www.defi.garden/tokens/bnsol)
-- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 12, 2026
+## Last updated October 13, 2026

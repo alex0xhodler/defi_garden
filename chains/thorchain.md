@@ -4,7 +4,7 @@ The highest honest Thorchain yield right now is 1.42% on rujira-money-market (Th
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| USDC | [rujira-money-market →](https://www.defi.garden/?pool=2200031a-b125-55eb-8971-2fda47b9ae48#src=seo_chain) | 1.42% | $274K |
+| USDC | [rujira-money-market →](https://www.defi.garden/?pool=2200031a-b125-55eb-8971-2fda47b9ae48#src=seo_chain) | 1.42% | $274.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Thorchain pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $13.38M in total.
+4 live pools clear this page's $100K TVL floor, $12.78M in total.
 
 ### Are these rates safe?
 
@@ -29,10 +29,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Base](https://www.defi.garden/chains/base)
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
-- [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
+- [Avalanche](https://www.defi.garden/chains/avalanche)
 
 ## Top tokens on Thorchain
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 
-## Last updated October 12, 2026
+## Last updated October 13, 2026

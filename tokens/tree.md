@@ -1,34 +1,34 @@
 # TREE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest TREE yield right now is 1.61% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TREE yield right now is 2.97% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=ad4acc7e-f5d4-411f-8774-7744f806cc89#src=seo_token) | Ethereum | 0.49% | $1.3M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b241433a-e7a0-4d38-b14d-2cfdd1028ec8#src=seo_token) | Base | 0.27% | $504.4K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=f8257bf6-a337-4bf8-89b4-18929e81976a#src=seo_token) | Ethereum | 3.83% | $334.7K |
-| [raydium-amm →](https://www.defi.garden/?pool=369f0674-d7b6-54fd-8fb7-cb0bf8d24a34#src=seo_token) | Solana | 1.61% | $262.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ad4acc7e-f5d4-411f-8774-7744f806cc89#src=seo_token) | Ethereum | 2.27% | $1.3M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b241433a-e7a0-4d38-b14d-2cfdd1028ec8#src=seo_token) | Base | 2.84% | $502.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f8257bf6-a337-4bf8-89b4-18929e81976a#src=seo_token) | Ethereum | 38.75% | $321.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=369f0674-d7b6-54fd-8fb7-cb0bf8d24a34#src=seo_token) | Solana | 2.97% | $267.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, TREE's lower-variability candidates are uniswap-v3 (Base), 0.27% APY, $504.4K TVL, https://www.defi.garden/?pool=b241433a-e7a0-4d38-b14d-2cfdd1028ec8#src=seo_token; uniswap-v3 (Ethereum), 0.49% APY, $1.3M TVL, https://www.defi.garden/?pool=ad4acc7e-f5d4-411f-8774-7744f806cc89#src=seo_token; uniswap-v4 (Ethereum), 3.83% APY, $334.7K TVL, https://www.defi.garden/?pool=f8257bf6-a337-4bf8-89b4-18929e81976a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TREE's lower-variability candidates are uniswap-v3 (Base), 2.84% APY, $502.9K TVL, https://www.defi.garden/?pool=b241433a-e7a0-4d38-b14d-2cfdd1028ec8#src=seo_token; uniswap-v3 (Ethereum), 2.27% APY, $1.3M TVL, https://www.defi.garden/?pool=ad4acc7e-f5d4-411f-8774-7744f806cc89#src=seo_token; uniswap-v4 (Ethereum), 38.75% APY, $321.9K TVL, https://www.defi.garden/?pool=f8257bf6-a337-4bf8-89b4-18929e81976a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=b241433a-e7a0-4d38-b14d-2cfdd1028ec8#src=seo_token) | Base | 0.27% | $504.4K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=ad4acc7e-f5d4-411f-8774-7744f806cc89#src=seo_token) | Ethereum | 0.49% | $1.3M |
-| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=f8257bf6-a337-4bf8-89b4-18929e81976a#src=seo_token) | Ethereum | 3.83% | $334.7K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=b241433a-e7a0-4d38-b14d-2cfdd1028ec8#src=seo_token) | Base | 2.84% | $502.9K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=ad4acc7e-f5d4-411f-8774-7744f806cc89#src=seo_token) | Ethereum | 2.27% | $1.3M |
+| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=f8257bf6-a337-4bf8-89b4-18929e81976a#src=seo_token) | Ethereum | 38.75% | $321.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-TREE shows up in 4 pools here, with rates from 0.27% to 3.83% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+TREE shows up in 4 pools here, with rates from 2.27% to 38.75% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 4 pools have a trustworthy 30-day average on file, with a median of 0.94% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 4 pools have a trustworthy 30-day average on file, with a median of 0.98% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -36,10 +36,10 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 0.49% | 0.94% | Base rate |
-| uniswap-v3 | 0.27% | 0.85% | Base rate |
-| uniswap-v4 | 3.83% | — | Base rate |
-| raydium-amm | 1.61% | 2.73% | Base rate |
+| uniswap-v3 | 2.27% | 0.98% | Base rate |
+| uniswap-v3 | 2.84% | 0.90% | Base rate |
+| uniswap-v4 | 38.75% | — | Base rate |
+| raydium-amm | 2.97% | 2.90% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -47,11 +47,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest TREE yield today?
 
-1.61% APY on raydium-amm (Solana), based on live DefiLlama data.
+2.97% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many TREE pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $2.41M in total.
+4 live pools clear this page's $100K TVL floor, $2.39M in total.
 
 ### Are these rates safe?
 
@@ -59,7 +59,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which TREE pools have the most stable APY history?
 
-Based on APY history only, TREE's lower-variability candidates are uniswap-v3 (Base), 0.27% APY, $504.4K TVL, https://www.defi.garden/?pool=b241433a-e7a0-4d38-b14d-2cfdd1028ec8#src=seo_token; uniswap-v3 (Ethereum), 0.49% APY, $1.3M TVL, https://www.defi.garden/?pool=ad4acc7e-f5d4-411f-8774-7744f806cc89#src=seo_token; uniswap-v4 (Ethereum), 3.83% APY, $334.7K TVL, https://www.defi.garden/?pool=f8257bf6-a337-4bf8-89b4-18929e81976a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TREE's lower-variability candidates are uniswap-v3 (Base), 2.84% APY, $502.9K TVL, https://www.defi.garden/?pool=b241433a-e7a0-4d38-b14d-2cfdd1028ec8#src=seo_token; uniswap-v3 (Ethereum), 2.27% APY, $1.3M TVL, https://www.defi.garden/?pool=ad4acc7e-f5d4-411f-8774-7744f806cc89#src=seo_token; uniswap-v4 (Ethereum), 38.75% APY, $321.9K TVL, https://www.defi.garden/?pool=f8257bf6-a337-4bf8-89b4-18929e81976a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -76,4 +76,4 @@ Based on APY history only, TREE's lower-variability candidates are uniswap-v3 (B
 - [Base](https://www.defi.garden/chains/base)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 12, 2026
+## Last updated October 13, 2026

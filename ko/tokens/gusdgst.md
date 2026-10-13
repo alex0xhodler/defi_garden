@@ -1,6 +1,6 @@
 # GUSDGST 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 12, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 13, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 GUSDGST의 가장 높은 정직한 수익률은 Robinhood Chain의 morpho-blue에서 4.03%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
@@ -39,11 +39,11 @@ DefiLlama 실시간 데이터 기준, Robinhood Chain의 morpho-blue에서 APY 4
 - [USDG](https://www.defi.garden/ko/tokens/usdg)
 - [STEAKUSDG](https://www.defi.garden/ko/tokens/steakusdg)
 - [STONX](https://www.defi.garden/ko/tokens/stonx)
-- [GAMIWBTC](https://www.defi.garden/ko/tokens/gamiwbtc)
 - [SPY](https://www.defi.garden/ko/tokens/spy)
+- [KFV](https://www.defi.garden/ko/tokens/kfv)
 
 ## 이용 가능한 체인
 
 - [Robinhood Chain](https://www.defi.garden/ko/chains/robinhood-chain)
 
-## 마지막 업데이트: October 12, 2026
+## 마지막 업데이트: October 13, 2026

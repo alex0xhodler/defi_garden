@@ -1,55 +1,55 @@
 # LBTC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest LBTC yield right now is 2.00% on curve-dex (Monad), among 24 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LBTC yield right now is 1.90% on navi-lending (Sui), among 23 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lombard-lbtc →](https://www.defi.garden/?pool=c9762afb-7746-4b5a-a484-a8881a348999#src=seo_token) | Ethereum | 0.32% | $659.17M |
-| [symbiotic →](https://www.defi.garden/?pool=e96d1b6a-78d9-5e86-af04-2e8467e96f48#src=seo_token) | Ethereum | 1.71% | $48.99M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=bcbf0f11-17c5-5182-ab62-534b045d367a#src=seo_token) | Ethereum | 0.57% | $11.5M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=ff009fa1-2dda-43e0-a0e2-302787e736c8#src=seo_token) | Base | 4.47% | $4.58M |
-| [curve-dex →](https://www.defi.garden/?pool=1a97c851-f2e5-4408-9113-ef80f1c1fea6#src=seo_token) | Monad | 2.00% | $3.64M |
-| [navi-lending →](https://www.defi.garden/?pool=b4e2b1a6-9617-4aa7-89f4-72128b325812#src=seo_token) | Sui | 2.00% | $2.68M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=1ae5dff2-3f5d-5f68-8699-973bb4ff5f48#src=seo_token) | Ethereum | 0.22% | $2.52M |
-| [fluid-dex →](https://www.defi.garden/?pool=a346d9ce-65df-4681-b9fa-777b91d8d72a#src=seo_token) | Ethereum | 1.40% | $1.69M |
+| [lombard-lbtc →](https://www.defi.garden/?pool=c9762afb-7746-4b5a-a484-a8881a348999#src=seo_token) | Ethereum | 0.13% | $655.43M |
+| [symbiotic →](https://www.defi.garden/?pool=e96d1b6a-78d9-5e86-af04-2e8467e96f48#src=seo_token) | Ethereum | 1.73% | $48.71M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=bcbf0f11-17c5-5182-ab62-534b045d367a#src=seo_token) | Ethereum | 0.62% | $11.44M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=ff009fa1-2dda-43e0-a0e2-302787e736c8#src=seo_token) | Base | 81.57% | $4.53M |
+| [curve-dex →](https://www.defi.garden/?pool=1a97c851-f2e5-4408-9113-ef80f1c1fea6#src=seo_token) | Monad | 1.38% | $3.62M |
+| [navi-lending →](https://www.defi.garden/?pool=b4e2b1a6-9617-4aa7-89f4-72128b325812#src=seo_token) | Sui | 1.90% | $2.68M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1ae5dff2-3f5d-5f68-8699-973bb4ff5f48#src=seo_token) | Ethereum | 0.65% | $2.51M |
+| [fluid-dex →](https://www.defi.garden/?pool=a346d9ce-65df-4681-b9fa-777b91d8d72a#src=seo_token) | Ethereum | 4.64% | $1.76M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, LBTC's lower-variability candidates are lombard-lbtc (Ethereum), 0.32% APY, $659.17M TVL, https://www.defi.garden/?pool=c9762afb-7746-4b5a-a484-a8881a348999#src=seo_token; symbiotic (Ethereum), 1.71% APY, $48.99M TVL, https://www.defi.garden/?pool=e96d1b6a-78d9-5e86-af04-2e8467e96f48#src=seo_token; uniswap-v4 (Ethereum), 0.57% APY, $11.5M TVL, https://www.defi.garden/?pool=bcbf0f11-17c5-5182-ab62-534b045d367a#src=seo_token; navi-lending (Sui), 2.00% APY, $2.68M TVL, https://www.defi.garden/?pool=b4e2b1a6-9617-4aa7-89f4-72128b325812#src=seo_token; fluid-dex (Ethereum), 1.40% APY, $1.69M TVL, https://www.defi.garden/?pool=a346d9ce-65df-4681-b9fa-777b91d8d72a#src=seo_token; curve-dex (Monad), 2.00% APY, $3.64M TVL, https://www.defi.garden/?pool=1a97c851-f2e5-4408-9113-ef80f1c1fea6#src=seo_token; aerodrome-slipstream (Base), 4.47% APY, $4.58M TVL, https://www.defi.garden/?pool=ff009fa1-2dda-43e0-a0e2-302787e736c8#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LBTC's lower-variability candidates are lombard-lbtc (Ethereum), 0.13% APY, $655.43M TVL, https://www.defi.garden/?pool=c9762afb-7746-4b5a-a484-a8881a348999#src=seo_token; symbiotic (Ethereum), 1.73% APY, $48.71M TVL, https://www.defi.garden/?pool=e96d1b6a-78d9-5e86-af04-2e8467e96f48#src=seo_token; uniswap-v4 (Ethereum), 0.62% APY, $11.44M TVL, https://www.defi.garden/?pool=bcbf0f11-17c5-5182-ab62-534b045d367a#src=seo_token; navi-lending (Sui), 1.90% APY, $2.68M TVL, https://www.defi.garden/?pool=b4e2b1a6-9617-4aa7-89f4-72128b325812#src=seo_token; fluid-dex (Ethereum), 4.64% APY, $1.76M TVL, https://www.defi.garden/?pool=a346d9ce-65df-4681-b9fa-777b91d8d72a#src=seo_token; curve-dex (Monad), 1.38% APY, $3.62M TVL, https://www.defi.garden/?pool=1a97c851-f2e5-4408-9113-ef80f1c1fea6#src=seo_token; aerodrome-slipstream (Base), 81.57% APY, $4.53M TVL, https://www.defi.garden/?pool=ff009fa1-2dda-43e0-a0e2-302787e736c8#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [lombard-lbtc →](https://www.defi.garden/?pool=c9762afb-7746-4b5a-a484-a8881a348999#src=seo_token) | Ethereum | 0.32% | $659.17M |
-| 2 | [symbiotic →](https://www.defi.garden/?pool=e96d1b6a-78d9-5e86-af04-2e8467e96f48#src=seo_token) | Ethereum | 1.71% | $48.99M |
-| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=bcbf0f11-17c5-5182-ab62-534b045d367a#src=seo_token) | Ethereum | 0.57% | $11.5M |
-| 4 | [navi-lending →](https://www.defi.garden/?pool=b4e2b1a6-9617-4aa7-89f4-72128b325812#src=seo_token) | Sui | 2.00% | $2.68M |
-| 5 | [fluid-dex →](https://www.defi.garden/?pool=a346d9ce-65df-4681-b9fa-777b91d8d72a#src=seo_token) | Ethereum | 1.40% | $1.69M |
-| 6 | [curve-dex →](https://www.defi.garden/?pool=1a97c851-f2e5-4408-9113-ef80f1c1fea6#src=seo_token) | Monad | 2.00% | $3.64M |
-| 7 | [aerodrome-slipstream →](https://www.defi.garden/?pool=ff009fa1-2dda-43e0-a0e2-302787e736c8#src=seo_token) | Base | 4.47% | $4.58M |
+| 1 | [lombard-lbtc →](https://www.defi.garden/?pool=c9762afb-7746-4b5a-a484-a8881a348999#src=seo_token) | Ethereum | 0.13% | $655.43M |
+| 2 | [symbiotic →](https://www.defi.garden/?pool=e96d1b6a-78d9-5e86-af04-2e8467e96f48#src=seo_token) | Ethereum | 1.73% | $48.71M |
+| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=bcbf0f11-17c5-5182-ab62-534b045d367a#src=seo_token) | Ethereum | 0.62% | $11.44M |
+| 4 | [navi-lending →](https://www.defi.garden/?pool=b4e2b1a6-9617-4aa7-89f4-72128b325812#src=seo_token) | Sui | 1.90% | $2.68M |
+| 5 | [fluid-dex →](https://www.defi.garden/?pool=a346d9ce-65df-4681-b9fa-777b91d8d72a#src=seo_token) | Ethereum | 4.64% | $1.76M |
+| 6 | [curve-dex →](https://www.defi.garden/?pool=1a97c851-f2e5-4408-9113-ef80f1c1fea6#src=seo_token) | Monad | 1.38% | $3.62M |
+| 7 | [aerodrome-slipstream →](https://www.defi.garden/?pool=ff009fa1-2dda-43e0-a0e2-302787e736c8#src=seo_token) | Base | 81.57% | $4.53M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-LBTC shows up in 8 pools here, with rates from 0.22% to 4.47% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
+LBTC shows up in 8 pools here, with rates from 0.13% to 81.57% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 1.62% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 1.64% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 4 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| lombard-lbtc | 0.32% | 0.17% | Base rate |
-| symbiotic | 1.71% | 1.50% | 100.00% incentives |
-| uniswap-v4 | 0.57% | 0.44% | Base rate |
-| aerodrome-slipstream | 4.47% | 12.30% | 99.38% incentives |
-| curve-dex | 2.00% | 1.77% | 100.00% incentives |
-| navi-lending | 2.00% | 1.74% | 99.83% incentives |
-| uniswap-v3 | 0.22% | 0.52% | Base rate |
-| fluid-dex | 1.40% | 2.65% | Base rate |
+| lombard-lbtc | 0.13% | 0.17% | Base rate |
+| symbiotic | 1.73% | 1.51% | 100.00% incentives |
+| uniswap-v4 | 0.62% | 0.46% | Base rate |
+| aerodrome-slipstream | 81.57% | 13.52% | 99.98% incentives |
+| curve-dex | 1.38% | 1.78% | 100.00% incentives |
+| navi-lending | 1.90% | 1.76% | 99.82% incentives |
+| uniswap-v3 | 0.65% | 0.49% | Base rate |
+| fluid-dex | 4.64% | 2.71% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -57,11 +57,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest LBTC yield today?
 
-2.00% APY on curve-dex (Monad), based on live DefiLlama data.
+1.90% APY on navi-lending (Sui), based on live DefiLlama data.
 
 ### How many LBTC pools clear the TVL floor?
 
-24 live pools clear this page's $100K TVL floor, $1.16B in total.
+23 live pools clear this page's $100K TVL floor, $1.16B in total.
 
 ### Are these rates safe?
 
@@ -69,7 +69,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which LBTC pools have the most stable APY history?
 
-Based on APY history only, LBTC's lower-variability candidates are lombard-lbtc (Ethereum), 0.32% APY, $659.17M TVL, https://www.defi.garden/?pool=c9762afb-7746-4b5a-a484-a8881a348999#src=seo_token; symbiotic (Ethereum), 1.71% APY, $48.99M TVL, https://www.defi.garden/?pool=e96d1b6a-78d9-5e86-af04-2e8467e96f48#src=seo_token; uniswap-v4 (Ethereum), 0.57% APY, $11.5M TVL, https://www.defi.garden/?pool=bcbf0f11-17c5-5182-ab62-534b045d367a#src=seo_token; navi-lending (Sui), 2.00% APY, $2.68M TVL, https://www.defi.garden/?pool=b4e2b1a6-9617-4aa7-89f4-72128b325812#src=seo_token; fluid-dex (Ethereum), 1.40% APY, $1.69M TVL, https://www.defi.garden/?pool=a346d9ce-65df-4681-b9fa-777b91d8d72a#src=seo_token; curve-dex (Monad), 2.00% APY, $3.64M TVL, https://www.defi.garden/?pool=1a97c851-f2e5-4408-9113-ef80f1c1fea6#src=seo_token; aerodrome-slipstream (Base), 4.47% APY, $4.58M TVL, https://www.defi.garden/?pool=ff009fa1-2dda-43e0-a0e2-302787e736c8#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LBTC's lower-variability candidates are lombard-lbtc (Ethereum), 0.13% APY, $655.43M TVL, https://www.defi.garden/?pool=c9762afb-7746-4b5a-a484-a8881a348999#src=seo_token; symbiotic (Ethereum), 1.73% APY, $48.71M TVL, https://www.defi.garden/?pool=e96d1b6a-78d9-5e86-af04-2e8467e96f48#src=seo_token; uniswap-v4 (Ethereum), 0.62% APY, $11.44M TVL, https://www.defi.garden/?pool=bcbf0f11-17c5-5182-ab62-534b045d367a#src=seo_token; navi-lending (Sui), 1.90% APY, $2.68M TVL, https://www.defi.garden/?pool=b4e2b1a6-9617-4aa7-89f4-72128b325812#src=seo_token; fluid-dex (Ethereum), 4.64% APY, $1.76M TVL, https://www.defi.garden/?pool=a346d9ce-65df-4681-b9fa-777b91d8d72a#src=seo_token; curve-dex (Monad), 1.38% APY, $3.62M TVL, https://www.defi.garden/?pool=1a97c851-f2e5-4408-9113-ef80f1c1fea6#src=seo_token; aerodrome-slipstream (Base), 81.57% APY, $4.53M TVL, https://www.defi.garden/?pool=ff009fa1-2dda-43e0-a0e2-302787e736c8#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -87,4 +87,4 @@ Based on APY history only, LBTC's lower-variability candidates are lombard-lbtc 
 - [Monad](https://www.defi.garden/chains/monad)
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated October 12, 2026
+## Last updated October 13, 2026

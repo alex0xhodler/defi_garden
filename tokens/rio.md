@@ -1,31 +1,31 @@
 # RIO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest RIO yield right now is 14.32% on uniswap-v4 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RIO yield right now is 42.52% on uniswap-v4 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=f12f53aa-4d96-5dbb-a6be-8a9a76452338#src=seo_token) | Ethereum | 14.32% | $110.2K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=54dacb8d-cb59-45cb-b4f0-9ea6e5fce946#src=seo_token) | Ethereum | 11.63% | $101.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f12f53aa-4d96-5dbb-a6be-8a9a76452338#src=seo_token) | Ethereum | 42.52% | $109.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=54dacb8d-cb59-45cb-b4f0-9ea6e5fce946#src=seo_token) | Ethereum | 21.93% | $102K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, RIO's lower-variability candidates are uniswap-v3 (Ethereum), 11.63% APY, $101.4K TVL, https://www.defi.garden/?pool=54dacb8d-cb59-45cb-b4f0-9ea6e5fce946#src=seo_token; uniswap-v4 (Ethereum), 14.32% APY, $110.2K TVL, https://www.defi.garden/?pool=f12f53aa-4d96-5dbb-a6be-8a9a76452338#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RIO's lower-variability candidates are uniswap-v3 (Ethereum), 21.93% APY, $102K TVL, https://www.defi.garden/?pool=54dacb8d-cb59-45cb-b4f0-9ea6e5fce946#src=seo_token; uniswap-v4 (Ethereum), 42.52% APY, $109.9K TVL, https://www.defi.garden/?pool=f12f53aa-4d96-5dbb-a6be-8a9a76452338#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=54dacb8d-cb59-45cb-b4f0-9ea6e5fce946#src=seo_token) | Ethereum | 11.63% | $101.4K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=f12f53aa-4d96-5dbb-a6be-8a9a76452338#src=seo_token) | Ethereum | 14.32% | $110.2K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=54dacb8d-cb59-45cb-b4f0-9ea6e5fce946#src=seo_token) | Ethereum | 21.93% | $102K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=f12f53aa-4d96-5dbb-a6be-8a9a76452338#src=seo_token) | Ethereum | 42.52% | $109.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-RIO shows up in 2 pools here, with rates from 11.63% to 14.32% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+RIO shows up in 2 pools here, with rates from 21.93% to 42.52% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 106.85% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 105.93% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 14.32% | 159.07% | Base rate |
-| uniswap-v3 | 11.63% | 54.62% | Base rate |
+| uniswap-v4 | 42.52% | 158.43% | Base rate |
+| uniswap-v3 | 21.93% | 53.42% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest RIO yield today?
 
-14.32% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+42.52% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many RIO pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $325.7K in total.
+3 live pools clear this page's $100K TVL floor, $327.5K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which RIO pools have the most stable APY history?
 
-Based on APY history only, RIO's lower-variability candidates are uniswap-v3 (Ethereum), 11.63% APY, $101.4K TVL, https://www.defi.garden/?pool=54dacb8d-cb59-45cb-b4f0-9ea6e5fce946#src=seo_token; uniswap-v4 (Ethereum), 14.32% APY, $110.2K TVL, https://www.defi.garden/?pool=f12f53aa-4d96-5dbb-a6be-8a9a76452338#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RIO's lower-variability candidates are uniswap-v3 (Ethereum), 21.93% APY, $102K TVL, https://www.defi.garden/?pool=54dacb8d-cb59-45cb-b4f0-9ea6e5fce946#src=seo_token; uniswap-v4 (Ethereum), 42.52% APY, $109.9K TVL, https://www.defi.garden/?pool=f12f53aa-4d96-5dbb-a6be-8a9a76452338#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +69,4 @@ Based on APY history only, RIO's lower-variability candidates are uniswap-v3 (Et
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 12, 2026
+## Last updated October 13, 2026

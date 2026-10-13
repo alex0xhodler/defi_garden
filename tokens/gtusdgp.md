@@ -1,12 +1,12 @@
 # GTUSDGP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
 The highest honest GTUSDGP yield right now is 8.00% on morpho-blue (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=f6915ff0-ca54-509c-bf17-bd7ad2d0b614#src=seo_token) | Arbitrum | 8.00% | $11.22M |
+| [morpho-blue →](https://www.defi.garden/?pool=f6915ff0-ca54-509c-bf17-bd7ad2d0b614#src=seo_token) | Arbitrum | 8.00% | $11.73M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GTUSDGP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $11.22M in total.
+1 live pool clear this page's $100K TVL floor, $11.73M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank GTUSDGP pools. This view cove
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated October 12, 2026
+## Last updated October 13, 2026

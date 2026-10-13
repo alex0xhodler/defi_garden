@@ -1,41 +1,41 @@
 # SCRVUSD 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 12, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 13, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 SCRVUSD의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 16.10%이며, $100K TVL 기준을 넘는 18개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SCRVUSD의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 15.86%이며, $100K TVL 기준을 넘는 18개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [crvusd →](https://www.defi.garden/?pool=5fd328af-4203-471b-bd16-1705c726d926#src=seo_token) | Ethereum | 2.78% | $16.33M |
-| [curve-dex →](https://www.defi.garden/?pool=5c4940c7-c193-440d-b95e-9148d017e12c#src=seo_token) | Ethereum | 8.47% | $15.45M |
-| [convex-finance →](https://www.defi.garden/?pool=1971c939-46e4-4b86-87d9-78308de47af7#src=seo_token) | Ethereum | 16.10% | $9.14M |
-| [stake-dao-yield →](https://www.defi.garden/?pool=321b0f91-21ca-438b-966e-78946e275589#src=seo_token) | Ethereum | 15.33% | $7.91M |
-| [curve-dex →](https://www.defi.garden/?pool=6ba003eb-fb87-4771-a542-e41d352e7c82#src=seo_token) | Ethereum | 7.24% | $5.25M |
-| [stake-dao-yield →](https://www.defi.garden/?pool=54c9a039-42a2-4756-896a-50b81b239ba9#src=seo_token) | Ethereum | 6.93% | $5.09M |
-| [curve-dex →](https://www.defi.garden/?pool=0d6b4d03-fb91-4b6f-bd55-544e7aa71200#src=seo_token) | Ethereum | 5.74% | $1.92M |
-| [convex-finance →](https://www.defi.garden/?pool=18d68b7b-1674-4616-b5a8-65bbfb3723cd#src=seo_token) | Ethereum | 6.88% | $1.44M |
+| [crvusd →](https://www.defi.garden/?pool=5fd328af-4203-471b-bd16-1705c726d926#src=seo_token) | Ethereum | 2.34% | $16.36M |
+| [curve-dex →](https://www.defi.garden/?pool=5c4940c7-c193-440d-b95e-9148d017e12c#src=seo_token) | Ethereum | 8.35% | $15.44M |
+| [convex-finance →](https://www.defi.garden/?pool=1971c939-46e4-4b86-87d9-78308de47af7#src=seo_token) | Ethereum | 15.86% | $9.13M |
+| [stake-dao-yield →](https://www.defi.garden/?pool=321b0f91-21ca-438b-966e-78946e275589#src=seo_token) | Ethereum | 14.87% | $7.9M |
+| [curve-dex →](https://www.defi.garden/?pool=6ba003eb-fb87-4771-a542-e41d352e7c82#src=seo_token) | Ethereum | 6.89% | $5.24M |
+| [stake-dao-yield →](https://www.defi.garden/?pool=54c9a039-42a2-4756-896a-50b81b239ba9#src=seo_token) | Ethereum | 7.02% | $5.09M |
+| [curve-dex →](https://www.defi.garden/?pool=0d6b4d03-fb91-4b6f-bd55-544e7aa71200#src=seo_token) | Ethereum | 5.54% | $1.95M |
+| [convex-finance →](https://www.defi.garden/?pool=18d68b7b-1674-4616-b5a8-65bbfb3723cd#src=seo_token) | Ethereum | 6.71% | $1.44M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 SCRVUSD의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 8.47%, TVL $15.45M, https://www.defi.garden/?pool=5c4940c7-c193-440d-b95e-9148d017e12c#src=seo_token; Ethereum의 stake-dao-yield, APY 15.33%, TVL $7.91M, https://www.defi.garden/?pool=321b0f91-21ca-438b-966e-78946e275589#src=seo_token; Ethereum의 crvusd, APY 2.78%, TVL $16.33M, https://www.defi.garden/?pool=5fd328af-4203-471b-bd16-1705c726d926#src=seo_token; Ethereum의 convex-finance, APY 16.10%, TVL $9.14M, https://www.defi.garden/?pool=1971c939-46e4-4b86-87d9-78308de47af7#src=seo_token; Ethereum의 curve-dex, APY 5.74%, TVL $1.92M, https://www.defi.garden/?pool=0d6b4d03-fb91-4b6f-bd55-544e7aa71200#src=seo_token; Ethereum의 convex-finance, APY 6.88%, TVL $1.44M, https://www.defi.garden/?pool=18d68b7b-1674-4616-b5a8-65bbfb3723cd#src=seo_token; Ethereum의 stake-dao-yield, APY 6.93%, TVL $5.09M, https://www.defi.garden/?pool=54c9a039-42a2-4756-896a-50b81b239ba9#src=seo_token; Ethereum의 curve-dex, APY 7.24%, TVL $5.25M, https://www.defi.garden/?pool=6ba003eb-fb87-4771-a542-e41d352e7c82#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SCRVUSD의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 8.35%, TVL $15.44M, https://www.defi.garden/?pool=5c4940c7-c193-440d-b95e-9148d017e12c#src=seo_token; Ethereum의 stake-dao-yield, APY 14.87%, TVL $7.9M, https://www.defi.garden/?pool=321b0f91-21ca-438b-966e-78946e275589#src=seo_token; Ethereum의 crvusd, APY 2.34%, TVL $16.36M, https://www.defi.garden/?pool=5fd328af-4203-471b-bd16-1705c726d926#src=seo_token; Ethereum의 convex-finance, APY 15.86%, TVL $9.13M, https://www.defi.garden/?pool=1971c939-46e4-4b86-87d9-78308de47af7#src=seo_token; Ethereum의 curve-dex, APY 5.54%, TVL $1.95M, https://www.defi.garden/?pool=0d6b4d03-fb91-4b6f-bd55-544e7aa71200#src=seo_token; Ethereum의 convex-finance, APY 6.71%, TVL $1.44M, https://www.defi.garden/?pool=18d68b7b-1674-4616-b5a8-65bbfb3723cd#src=seo_token; Ethereum의 stake-dao-yield, APY 7.02%, TVL $5.09M, https://www.defi.garden/?pool=54c9a039-42a2-4756-896a-50b81b239ba9#src=seo_token; Ethereum의 curve-dex, APY 6.89%, TVL $5.24M, https://www.defi.garden/?pool=6ba003eb-fb87-4771-a542-e41d352e7c82#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=5c4940c7-c193-440d-b95e-9148d017e12c#src=seo_token) | Ethereum | 8.47% | $15.45M |
-| 2 | [stake-dao-yield →](https://www.defi.garden/?pool=321b0f91-21ca-438b-966e-78946e275589#src=seo_token) | Ethereum | 15.33% | $7.91M |
-| 3 | [crvusd →](https://www.defi.garden/?pool=5fd328af-4203-471b-bd16-1705c726d926#src=seo_token) | Ethereum | 2.78% | $16.33M |
-| 4 | [convex-finance →](https://www.defi.garden/?pool=1971c939-46e4-4b86-87d9-78308de47af7#src=seo_token) | Ethereum | 16.10% | $9.14M |
-| 5 | [curve-dex →](https://www.defi.garden/?pool=0d6b4d03-fb91-4b6f-bd55-544e7aa71200#src=seo_token) | Ethereum | 5.74% | $1.92M |
-| 6 | [convex-finance →](https://www.defi.garden/?pool=18d68b7b-1674-4616-b5a8-65bbfb3723cd#src=seo_token) | Ethereum | 6.88% | $1.44M |
-| 7 | [stake-dao-yield →](https://www.defi.garden/?pool=54c9a039-42a2-4756-896a-50b81b239ba9#src=seo_token) | Ethereum | 6.93% | $5.09M |
-| 8 | [curve-dex →](https://www.defi.garden/?pool=6ba003eb-fb87-4771-a542-e41d352e7c82#src=seo_token) | Ethereum | 7.24% | $5.25M |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=5c4940c7-c193-440d-b95e-9148d017e12c#src=seo_token) | Ethereum | 8.35% | $15.44M |
+| 2 | [stake-dao-yield →](https://www.defi.garden/?pool=321b0f91-21ca-438b-966e-78946e275589#src=seo_token) | Ethereum | 14.87% | $7.9M |
+| 3 | [crvusd →](https://www.defi.garden/?pool=5fd328af-4203-471b-bd16-1705c726d926#src=seo_token) | Ethereum | 2.34% | $16.36M |
+| 4 | [convex-finance →](https://www.defi.garden/?pool=1971c939-46e4-4b86-87d9-78308de47af7#src=seo_token) | Ethereum | 15.86% | $9.13M |
+| 5 | [curve-dex →](https://www.defi.garden/?pool=0d6b4d03-fb91-4b6f-bd55-544e7aa71200#src=seo_token) | Ethereum | 5.54% | $1.95M |
+| 6 | [convex-finance →](https://www.defi.garden/?pool=18d68b7b-1674-4616-b5a8-65bbfb3723cd#src=seo_token) | Ethereum | 6.71% | $1.44M |
+| 7 | [stake-dao-yield →](https://www.defi.garden/?pool=54c9a039-42a2-4756-896a-50b81b239ba9#src=seo_token) | Ethereum | 7.02% | $5.09M |
+| 8 | [curve-dex →](https://www.defi.garden/?pool=6ba003eb-fb87-4771-a542-e41d352e7c82#src=seo_token) | Ethereum | 6.89% | $5.24M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-SCRVUSD 풀은 여기 8개가 있고, 1개 체인에서 APY가 2.78%부터 16.10%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+SCRVUSD 풀은 여기 8개가 있고, 1개 체인에서 APY가 2.34%부터 15.86%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 7.32%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -43,14 +43,14 @@ SCRVUSD 풀은 여기 8개가 있고, 1개 체인에서 APY가 2.78%부터 16.10
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| crvusd | 2.78% | 2.88% | 기본 금리 |
-| curve-dex | 8.47% | 8.61% | 인센티브 90.32% |
-| convex-finance | 16.10% | 15.64% | 인센티브 94.91% |
-| stake-dao-yield | 15.33% | 15.89% | 인센티브 94.72% |
-| curve-dex | 7.24% | 6.69% | 인센티브 18.54% |
-| stake-dao-yield | 6.93% | 6.84% | 인센티브 21.63% |
-| curve-dex | 5.74% | 6.36% | 인센티브 30.14% |
-| convex-finance | 6.88% | 7.80% | 인센티브 41.72% |
+| crvusd | 2.34% | 2.89% | 기본 금리 |
+| curve-dex | 8.35% | 8.61% | 인센티브 89.94% |
+| convex-finance | 15.86% | 15.69% | 인센티브 94.70% |
+| stake-dao-yield | 14.87% | 15.89% | 인센티브 94.48% |
+| curve-dex | 6.89% | 6.70% | 인센티브 19.00% |
+| stake-dao-yield | 7.02% | 6.85% | 인센티브 20.49% |
+| curve-dex | 5.54% | 6.36% | 인센티브 29.85% |
+| convex-finance | 6.71% | 7.79% | 인센티브 42.04% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -58,11 +58,11 @@ SCRVUSD 풀은 여기 8개가 있고, 1개 체인에서 APY가 2.78%부터 16.10
 
 ### 오늘 SCRVUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 16.10%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 15.86%예요.
 
 ### SCRVUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 18개이며, 합산 TVL은 $68.23M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 18개이며, 합산 TVL은 $68.3M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -70,7 +70,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 16.10
 
 ### SCRVUSD 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 SCRVUSD의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 8.47%, TVL $15.45M, https://www.defi.garden/?pool=5c4940c7-c193-440d-b95e-9148d017e12c#src=seo_token; Ethereum의 stake-dao-yield, APY 15.33%, TVL $7.91M, https://www.defi.garden/?pool=321b0f91-21ca-438b-966e-78946e275589#src=seo_token; Ethereum의 crvusd, APY 2.78%, TVL $16.33M, https://www.defi.garden/?pool=5fd328af-4203-471b-bd16-1705c726d926#src=seo_token; Ethereum의 convex-finance, APY 16.10%, TVL $9.14M, https://www.defi.garden/?pool=1971c939-46e4-4b86-87d9-78308de47af7#src=seo_token; Ethereum의 curve-dex, APY 5.74%, TVL $1.92M, https://www.defi.garden/?pool=0d6b4d03-fb91-4b6f-bd55-544e7aa71200#src=seo_token; Ethereum의 convex-finance, APY 6.88%, TVL $1.44M, https://www.defi.garden/?pool=18d68b7b-1674-4616-b5a8-65bbfb3723cd#src=seo_token; Ethereum의 stake-dao-yield, APY 6.93%, TVL $5.09M, https://www.defi.garden/?pool=54c9a039-42a2-4756-896a-50b81b239ba9#src=seo_token; Ethereum의 curve-dex, APY 7.24%, TVL $5.25M, https://www.defi.garden/?pool=6ba003eb-fb87-4771-a542-e41d352e7c82#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SCRVUSD의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 8.35%, TVL $15.44M, https://www.defi.garden/?pool=5c4940c7-c193-440d-b95e-9148d017e12c#src=seo_token; Ethereum의 stake-dao-yield, APY 14.87%, TVL $7.9M, https://www.defi.garden/?pool=321b0f91-21ca-438b-966e-78946e275589#src=seo_token; Ethereum의 crvusd, APY 2.34%, TVL $16.36M, https://www.defi.garden/?pool=5fd328af-4203-471b-bd16-1705c726d926#src=seo_token; Ethereum의 convex-finance, APY 15.86%, TVL $9.13M, https://www.defi.garden/?pool=1971c939-46e4-4b86-87d9-78308de47af7#src=seo_token; Ethereum의 curve-dex, APY 5.54%, TVL $1.95M, https://www.defi.garden/?pool=0d6b4d03-fb91-4b6f-bd55-544e7aa71200#src=seo_token; Ethereum의 convex-finance, APY 6.71%, TVL $1.44M, https://www.defi.garden/?pool=18d68b7b-1674-4616-b5a8-65bbfb3723cd#src=seo_token; Ethereum의 stake-dao-yield, APY 7.02%, TVL $5.09M, https://www.defi.garden/?pool=54c9a039-42a2-4756-896a-50b81b239ba9#src=seo_token; Ethereum의 curve-dex, APY 6.89%, TVL $5.24M, https://www.defi.garden/?pool=6ba003eb-fb87-4771-a542-e41d352e7c82#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -85,4 +85,4 @@ APY 이력만 기준으로 비교한 SCRVUSD의 변동성 낮은 후보는 Ether
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: October 12, 2026
+## 마지막 업데이트: October 13, 2026

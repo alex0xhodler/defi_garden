@@ -1,12 +1,12 @@
 # USDC.N DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest USDC.N yield right now is 0.21% on osmosis-dex (Osmosis), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDC.N yield right now is 0.32% on osmosis-dex (Osmosis), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [osmosis-dex →](https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850#src=seo_token) | Osmosis | 0.21% | $139K |
+| [osmosis-dex →](https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850#src=seo_token) | Osmosis | 0.32% | $135.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,9 +17,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-USDC.N shows up in 1 pools here, with rates from 0.21% to 0.21% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+USDC.N shows up in 1 pools here, with rates from 0.32% to 0.32% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 0.56% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 0.55% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -27,7 +27,7 @@ All 1 pool pays a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| osmosis-dex | 0.21% | 0.56% | Base rate |
+| osmosis-dex | 0.32% | 0.55% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USDC.N yield today?
 
-0.21% APY on osmosis-dex (Osmosis), based on live DefiLlama data.
+0.32% APY on osmosis-dex (Osmosis), based on live DefiLlama data.
 
 ### How many USDC.N pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $914K in total.
+4 live pools clear this page's $100K TVL floor, $910.4K in total.
 
 ### Are these rates safe?
 
@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank USDC.N pools. This view cover
 
 - [Osmosis](https://www.defi.garden/chains/osmosis)
 
-## Last updated October 12, 2026
+## Last updated October 13, 2026

@@ -1,12 +1,12 @@
 # EBCC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 12, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
 
-The highest honest EBCC yield right now is 21.97% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EBCC yield right now is 15.57% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=1d622203-fbb7-5d8f-b2b5-303c6f289418#src=seo_token) | Polygon | 21.97% | $141K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1d622203-fbb7-5d8f-b2b5-303c6f289418#src=seo_token) | Polygon | 15.57% | $140.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EBCC yield today?
 
-21.97% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
+15.57% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
 
 ### How many EBCC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $141K in total.
+1 live pool clear this page's $100K TVL floor, $140.9K in total.
 
 ### Are these rates safe?
 
@@ -36,14 +36,14 @@ There is not enough qualifying APY history to rank EBCC pools. This view covers 
 ## Related tokens
 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [DAI](https://www.defi.garden/tokens/dai)
 - [LINK](https://www.defi.garden/tokens/link)
 - [AAVE](https://www.defi.garden/tokens/aave)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
-- [FUN](https://www.defi.garden/tokens/fun)
 
 ## Available on
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated October 12, 2026
+## Last updated October 13, 2026
