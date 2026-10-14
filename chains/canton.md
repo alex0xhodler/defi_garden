@@ -1,11 +1,11 @@
 # Canton DeFi Yields
 
-The highest honest Canton yield right now is 12.60% on alpend (Canton), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Canton yield right now is 12.63% on alpend (Canton), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| CC | [alpend →](https://www.defi.garden/?pool=480418ff-6a3c-5c1b-8e4c-2b4518d05d35#src=seo_chain) | 4.21% | $2.07M |
-| CBTC | [alpend →](https://www.defi.garden/?pool=cfb2faa5-ccf0-5109-a9b1-28f9a86f86c1#src=seo_chain) | 12.60% | $157.3K |
+| CC | [alpend →](https://www.defi.garden/?pool=480418ff-6a3c-5c1b-8e4c-2b4518d05d35#src=seo_chain) | 4.21% | $2.03M |
+| CBTC | [alpend →](https://www.defi.garden/?pool=cfb2faa5-ccf0-5109-a9b1-28f9a86f86c1#src=seo_chain) | 12.63% | $157.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Canton yield today?
 
-12.60% APY on alpend (Canton), based on live DefiLlama data.
+12.63% APY on alpend (Canton), based on live DefiLlama data.
 
 ### How many Canton pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $2.23M in total.
+2 live pools clear this page's $100K TVL floor, $2.19M in total.
 
 ### Are these rates safe?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [CC](https://www.defi.garden/tokens/cc)
 - [CBTC](https://www.defi.garden/tokens/cbtc)
 
-## Last updated October 13, 2026
+## Last updated October 14, 2026

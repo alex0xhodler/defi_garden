@@ -1,6 +1,6 @@
 # USPC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
 
 The highest honest USPC yield right now is 3.33% on convex-finance (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -32,7 +32,7 @@ USPC shows up in 2 pools here, with rates from 2.21% to 3.33% APY across 1 chain
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | curve-dex | 2.21% | 2.33% | 100.00% incentives |
-| convex-finance | 3.33% | 3.57% | 99.70% incentives |
+| convex-finance | 3.33% | 3.56% | 99.70% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many USPC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $476.7K in total.
+2 live pools clear this page's $100K TVL floor, $476.8K in total.
 
 ### Are these rates safe?
 
@@ -67,4 +67,4 @@ Based on APY history only, USPC's lower-variability candidates are curve-dex (Et
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 13, 2026
+## Last updated October 14, 2026

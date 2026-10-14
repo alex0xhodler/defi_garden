@@ -1,31 +1,31 @@
 # FAI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
 
-The highest honest FAI yield right now is 7.90% on aerodrome-v1 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FAI yield right now is 7.98% on aerodrome-v1 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=8133b48a-be1b-4448-9cf7-b740e9946da3#src=seo_token) | Base | 7.90% | $2.46M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=3ae837aa-eec6-4b68-821f-11b74edf9f73#src=seo_token) | Base | 2.53% | $250K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=8133b48a-be1b-4448-9cf7-b740e9946da3#src=seo_token) | Base | 7.98% | $2.45M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=3ae837aa-eec6-4b68-821f-11b74edf9f73#src=seo_token) | Base | 0.47% | $250.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, FAI's lower-variability candidates are aerodrome-v1 (Base), 7.90% APY, $2.46M TVL, https://www.defi.garden/?pool=8133b48a-be1b-4448-9cf7-b740e9946da3#src=seo_token; uniswap-v3 (Base), 2.53% APY, $250K TVL, https://www.defi.garden/?pool=3ae837aa-eec6-4b68-821f-11b74edf9f73#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FAI's lower-variability candidates are aerodrome-v1 (Base), 7.98% APY, $2.45M TVL, https://www.defi.garden/?pool=8133b48a-be1b-4448-9cf7-b740e9946da3#src=seo_token; uniswap-v3 (Base), 0.47% APY, $250.3K TVL, https://www.defi.garden/?pool=3ae837aa-eec6-4b68-821f-11b74edf9f73#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=8133b48a-be1b-4448-9cf7-b740e9946da3#src=seo_token) | Base | 7.90% | $2.46M |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=3ae837aa-eec6-4b68-821f-11b74edf9f73#src=seo_token) | Base | 2.53% | $250K |
+| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=8133b48a-be1b-4448-9cf7-b740e9946da3#src=seo_token) | Base | 7.98% | $2.45M |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=3ae837aa-eec6-4b68-821f-11b74edf9f73#src=seo_token) | Base | 0.47% | $250.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-FAI shows up in 2 pools here, with rates from 2.53% to 7.90% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+FAI shows up in 2 pools here, with rates from 0.47% to 7.98% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 5.48% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 5.45% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -33,8 +33,8 @@ FAI shows up in 2 pools here, with rates from 2.53% to 7.90% APY across 1 chains
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-v1 | 7.90% | 6.84% | 100.00% incentives |
-| uniswap-v3 | 2.53% | 4.12% | Base rate |
+| aerodrome-v1 | 7.98% | 6.87% | 100.00% incentives |
+| uniswap-v3 | 0.47% | 4.02% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest FAI yield today?
 
-7.90% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+7.98% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many FAI pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $2.71M in total.
+2 live pools clear this page's $100K TVL floor, $2.7M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which FAI pools have the most stable APY history?
 
-Based on APY history only, FAI's lower-variability candidates are aerodrome-v1 (Base), 7.90% APY, $2.46M TVL, https://www.defi.garden/?pool=8133b48a-be1b-4448-9cf7-b740e9946da3#src=seo_token; uniswap-v3 (Base), 2.53% APY, $250K TVL, https://www.defi.garden/?pool=3ae837aa-eec6-4b68-821f-11b74edf9f73#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FAI's lower-variability candidates are aerodrome-v1 (Base), 7.98% APY, $2.45M TVL, https://www.defi.garden/?pool=8133b48a-be1b-4448-9cf7-b740e9946da3#src=seo_token; uniswap-v3 (Base), 0.47% APY, $250.3K TVL, https://www.defi.garden/?pool=3ae837aa-eec6-4b68-821f-11b74edf9f73#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +69,4 @@ Based on APY history only, FAI's lower-variability candidates are aerodrome-v1 (
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 13, 2026
+## Last updated October 14, 2026

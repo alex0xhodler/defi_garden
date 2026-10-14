@@ -1,12 +1,12 @@
 # KINS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
 
-The highest honest KINS yield right now is 21.35% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KINS yield right now is 55.43% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=0bf909c2-d299-5bd4-8a25-af0f52a25e0b#src=seo_token) | Solana | 21.35% | $132K |
+| [raydium-amm →](https://www.defi.garden/?pool=0bf909c2-d299-5bd4-8a25-af0f52a25e0b#src=seo_token) | Solana | 55.43% | $126.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KINS yield today?
 
-21.35% APY on raydium-amm (Solana), based on live DefiLlama data.
+55.43% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many KINS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $132K in total.
+1 live pool clear this page's $100K TVL floor, $126.3K in total.
 
 ### Are these rates safe?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank KINS pools. This view covers 
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [BNSOL](https://www.defi.garden/tokens/bnsol)
+- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 13, 2026
+## Last updated October 14, 2026

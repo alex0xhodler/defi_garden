@@ -1,12 +1,12 @@
 # FTM DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
 
-The highest honest FTM yield right now is 23.63% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FTM yield right now is 25.60% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=271c816f-3772-4e69-a291-1520774dc23a#src=seo_token) | Ethereum | 23.63% | $103.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=271c816f-3772-4e69-a291-1520774dc23a#src=seo_token) | Ethereum | 25.60% | $102.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FTM yield today?
 
-23.63% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+25.60% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many FTM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $103.1K in total.
+1 live pool clear this page's $100K TVL floor, $102.9K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank FTM pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 13, 2026
+## Last updated October 14, 2026

@@ -1,12 +1,12 @@
 # QANX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
 
-The highest honest QANX yield right now is 8.44% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest QANX yield right now is 15.48% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=ff83b42d-1ded-4c85-974c-4155155fd8dd#src=seo_token) | Ethereum | 8.44% | $339.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ff83b42d-1ded-4c85-974c-4155155fd8dd#src=seo_token) | Ethereum | 15.48% | $343.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest QANX yield today?
 
-8.44% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+15.48% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many QANX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $339.4K in total.
+1 live pool clear this page's $100K TVL floor, $343.9K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank QANX pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 13, 2026
+## Last updated October 14, 2026

@@ -1,41 +1,41 @@
 # JRUSDE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
 
 The highest honest JRUSDE yield right now is 6.86% on strata-markets (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [strata-markets →](https://www.defi.garden/?pool=8352355c-5ad7-45c5-aca2-628de224f8d8#src=seo_token) | Ethereum | 6.86% | $6.42M |
-| [pendle-v2 →](https://www.defi.garden/?pool=12b61e91-463f-4c33-bd9c-d35fb2d216c2#src=seo_token) | Ethereum | 6.54% | $716.3K |
-| [pendle-v2 →](https://www.defi.garden/?pool=44d0a60d-99d5-41a0-87ad-da85ae8682f7#src=seo_token) | Ethereum | 6.80% | $716.3K |
+| [pendle-v2 →](https://www.defi.garden/?pool=12b61e91-463f-4c33-bd9c-d35fb2d216c2#src=seo_token) | Ethereum | 6.79% | $716.4K |
+| [pendle-v2 →](https://www.defi.garden/?pool=44d0a60d-99d5-41a0-87ad-da85ae8682f7#src=seo_token) | Ethereum | 6.80% | $716.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, JRUSDE's lower-variability candidates are pendle-v2 (Ethereum), 6.80% APY, $716.3K TVL, https://www.defi.garden/?pool=44d0a60d-99d5-41a0-87ad-da85ae8682f7#src=seo_token; pendle-v2 (Ethereum), 6.54% APY, $716.3K TVL, https://www.defi.garden/?pool=12b61e91-463f-4c33-bd9c-d35fb2d216c2#src=seo_token; strata-markets (Ethereum), 6.86% APY, $6.42M TVL, https://www.defi.garden/?pool=8352355c-5ad7-45c5-aca2-628de224f8d8#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, JRUSDE's lower-variability candidates are pendle-v2 (Ethereum), 6.80% APY, $716.4K TVL, https://www.defi.garden/?pool=44d0a60d-99d5-41a0-87ad-da85ae8682f7#src=seo_token; pendle-v2 (Ethereum), 6.79% APY, $716.4K TVL, https://www.defi.garden/?pool=12b61e91-463f-4c33-bd9c-d35fb2d216c2#src=seo_token; strata-markets (Ethereum), 6.86% APY, $6.42M TVL, https://www.defi.garden/?pool=8352355c-5ad7-45c5-aca2-628de224f8d8#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [pendle-v2 →](https://www.defi.garden/?pool=44d0a60d-99d5-41a0-87ad-da85ae8682f7#src=seo_token) | Ethereum | 6.80% | $716.3K |
-| 2 | [pendle-v2 →](https://www.defi.garden/?pool=12b61e91-463f-4c33-bd9c-d35fb2d216c2#src=seo_token) | Ethereum | 6.54% | $716.3K |
+| 1 | [pendle-v2 →](https://www.defi.garden/?pool=44d0a60d-99d5-41a0-87ad-da85ae8682f7#src=seo_token) | Ethereum | 6.80% | $716.4K |
+| 2 | [pendle-v2 →](https://www.defi.garden/?pool=12b61e91-463f-4c33-bd9c-d35fb2d216c2#src=seo_token) | Ethereum | 6.79% | $716.4K |
 | 3 | [strata-markets →](https://www.defi.garden/?pool=8352355c-5ad7-45c5-aca2-628de224f8d8#src=seo_token) | Ethereum | 6.86% | $6.42M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-JRUSDE shows up in 3 pools here, with rates from 6.54% to 6.86% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+JRUSDE shows up in 3 pools here, with rates from 6.79% to 6.86% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 6.74% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 6.72% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| strata-markets | 6.86% | 5.99% | Base rate |
-| pendle-v2 | 6.54% | 6.74% | 3.05% incentives |
-| pendle-v2 | 6.80% | 6.75% | Base rate |
+| strata-markets | 6.86% | 5.98% | Base rate |
+| pendle-v2 | 6.79% | 6.72% | 3.08% incentives |
+| pendle-v2 | 6.80% | 6.74% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which JRUSDE pools have the most stable APY history?
 
-Based on APY history only, JRUSDE's lower-variability candidates are pendle-v2 (Ethereum), 6.80% APY, $716.3K TVL, https://www.defi.garden/?pool=44d0a60d-99d5-41a0-87ad-da85ae8682f7#src=seo_token; pendle-v2 (Ethereum), 6.54% APY, $716.3K TVL, https://www.defi.garden/?pool=12b61e91-463f-4c33-bd9c-d35fb2d216c2#src=seo_token; strata-markets (Ethereum), 6.86% APY, $6.42M TVL, https://www.defi.garden/?pool=8352355c-5ad7-45c5-aca2-628de224f8d8#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, JRUSDE's lower-variability candidates are pendle-v2 (Ethereum), 6.80% APY, $716.4K TVL, https://www.defi.garden/?pool=44d0a60d-99d5-41a0-87ad-da85ae8682f7#src=seo_token; pendle-v2 (Ethereum), 6.79% APY, $716.4K TVL, https://www.defi.garden/?pool=12b61e91-463f-4c33-bd9c-d35fb2d216c2#src=seo_token; strata-markets (Ethereum), 6.86% APY, $6.42M TVL, https://www.defi.garden/?pool=8352355c-5ad7-45c5-aca2-628de224f8d8#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +70,4 @@ Based on APY history only, JRUSDE's lower-variability candidates are pendle-v2 (
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 13, 2026
+## Last updated October 14, 2026

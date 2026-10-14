@@ -1,12 +1,12 @@
 # EUNICE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
 
-The highest honest EUNICE yield right now is 92.03% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EUNICE yield right now is 51.64% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=43462394-d737-5919-888c-d832fa8c4181#src=seo_token) | Base | 92.03% | $108.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=43462394-d737-5919-888c-d832fa8c4181#src=seo_token) | Base | 51.64% | $108.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EUNICE yield today?
 
-92.03% APY on uniswap-v2 (Base), based on live DefiLlama data.
+51.64% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many EUNICE pools clear the TVL floor?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank EUNICE pools. This view cover
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 13, 2026
+## Last updated October 14, 2026

@@ -1,12 +1,12 @@
 # BOT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
 
-The highest honest BOT yield right now is 266.98% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BOT yield right now is 727.18% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=2f3b0bd1-dc1e-5265-b8e2-4089cc7fbcce#src=seo_token) | Solana | 266.98% | $102K |
+| [raydium-amm →](https://www.defi.garden/?pool=2f3b0bd1-dc1e-5265-b8e2-4089cc7fbcce#src=seo_token) | Solana | 727.18% | $138K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BOT yield today?
 
-266.98% APY on raydium-amm (Solana), based on live DefiLlama data.
+727.18% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many BOT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $102K in total.
+1 live pool clear this page's $100K TVL floor, $138K in total.
 
 ### Are these rates safe?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank BOT pools. This view covers A
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [BNSOL](https://www.defi.garden/tokens/bnsol)
+- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 13, 2026
+## Last updated October 14, 2026

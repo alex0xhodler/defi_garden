@@ -1,58 +1,58 @@
 # USD1 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 13, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 14, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 USD1의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 34.19%이며, $100K TVL 기준을 넘는 18개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 USD1의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 27.41%이며, $100K TVL 기준을 넘는 18개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [lista-lending →](https://www.defi.garden/ko/pools/lista-lending-usd1-bsc) | BSC | 1.35% | $138.15M |
-| [dolomite →](https://www.defi.garden/?pool=86e18974-35ca-4948-9c82-694facf9d082#src=seo_token) | Ethereum | 7.84% | $85.81M |
-| [curve-dex →](https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23#src=seo_token) | Ethereum | 0.33% | $10.06M |
-| [raydium-amm →](https://www.defi.garden/?pool=d14d4632-727b-47c2-b69a-def5691b4155#src=seo_token) | Solana | 0.41% | $9.9M |
-| [raydium-amm →](https://www.defi.garden/?pool=866092b0-6627-432a-af86-e1af0c4dae6c#src=seo_token) | Solana | 34.19% | $4.72M |
-| [echelon-market →](https://www.defi.garden/?pool=77602b93-35e4-48eb-bd66-043d13f442b1#src=seo_token) | Aptos | 8.27% | $634.4K |
-| [venus-core-pool →](https://www.defi.garden/?pool=406b11b4-c4f9-4253-bfd3-388c208a4ecd#src=seo_token) | BSC | 1.74% | $499.9K |
-| [hyperion →](https://www.defi.garden/?pool=0178abb0-ea19-49cc-9bf2-0896437ed982#src=seo_token) | Aptos | 6.40% | $402.9K |
+| [lista-lending →](https://www.defi.garden/ko/pools/lista-lending-usd1-bsc) | BSC | 1.45% | $138.2M |
+| [dolomite →](https://www.defi.garden/?pool=86e18974-35ca-4948-9c82-694facf9d082#src=seo_token) | Ethereum | 7.90% | $85.84M |
+| [concrete →](https://www.defi.garden/?pool=c47fc8ce-12b3-5f57-8763-7ce72ed4bcea#src=seo_token) | Ethereum | 54.40% | $28.29M |
+| [curve-dex →](https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23#src=seo_token) | Ethereum | 0.38% | $10.06M |
+| [raydium-amm →](https://www.defi.garden/?pool=d14d4632-727b-47c2-b69a-def5691b4155#src=seo_token) | Solana | 0.63% | $9.9M |
+| [raydium-amm →](https://www.defi.garden/?pool=866092b0-6627-432a-af86-e1af0c4dae6c#src=seo_token) | Solana | 27.41% | $4.73M |
+| [echelon-market →](https://www.defi.garden/?pool=77602b93-35e4-48eb-bd66-043d13f442b1#src=seo_token) | Aptos | 6.75% | $698.5K |
+| [venus-core-pool →](https://www.defi.garden/?pool=406b11b4-c4f9-4253-bfd3-388c208a4ecd#src=seo_token) | BSC | 1.74% | $499.8K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 USD1의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.33%, TVL $10.06M, https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23#src=seo_token; Aptos의 echelon-market, APY 8.27%, TVL $634.4K, https://www.defi.garden/?pool=77602b93-35e4-48eb-bd66-043d13f442b1#src=seo_token; BSC의 lista-lending, APY 1.35%, TVL $138.15M, https://www.defi.garden/ko/pools/lista-lending-usd1-bsc; Solana의 raydium-amm, APY 0.41%, TVL $9.9M, https://www.defi.garden/?pool=d14d4632-727b-47c2-b69a-def5691b4155#src=seo_token; BSC의 venus-core-pool, APY 1.74%, TVL $499.9K, https://www.defi.garden/?pool=406b11b4-c4f9-4253-bfd3-388c208a4ecd#src=seo_token; Ethereum의 dolomite, APY 7.84%, TVL $85.81M, https://www.defi.garden/?pool=86e18974-35ca-4948-9c82-694facf9d082#src=seo_token; Aptos의 hyperion, APY 6.40%, TVL $402.9K, https://www.defi.garden/?pool=0178abb0-ea19-49cc-9bf2-0896437ed982#src=seo_token; Solana의 raydium-amm, APY 34.19%, TVL $4.72M, https://www.defi.garden/?pool=866092b0-6627-432a-af86-e1af0c4dae6c#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USD1의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.38%, TVL $10.06M, https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23#src=seo_token; Aptos의 echelon-market, APY 6.75%, TVL $698.5K, https://www.defi.garden/?pool=77602b93-35e4-48eb-bd66-043d13f442b1#src=seo_token; BSC의 lista-lending, APY 1.45%, TVL $138.2M, https://www.defi.garden/ko/pools/lista-lending-usd1-bsc; Solana의 raydium-amm, APY 0.63%, TVL $9.9M, https://www.defi.garden/?pool=d14d4632-727b-47c2-b69a-def5691b4155#src=seo_token; BSC의 venus-core-pool, APY 1.74%, TVL $499.8K, https://www.defi.garden/?pool=406b11b4-c4f9-4253-bfd3-388c208a4ecd#src=seo_token; Ethereum의 dolomite, APY 7.90%, TVL $85.84M, https://www.defi.garden/?pool=86e18974-35ca-4948-9c82-694facf9d082#src=seo_token; Ethereum의 concrete, APY 54.40%, TVL $28.29M, https://www.defi.garden/?pool=c47fc8ce-12b3-5f57-8763-7ce72ed4bcea#src=seo_token; Solana의 raydium-amm, APY 27.41%, TVL $4.73M, https://www.defi.garden/?pool=866092b0-6627-432a-af86-e1af0c4dae6c#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23#src=seo_token) | Ethereum | 0.33% | $10.06M |
-| 2 | [echelon-market →](https://www.defi.garden/?pool=77602b93-35e4-48eb-bd66-043d13f442b1#src=seo_token) | Aptos | 8.27% | $634.4K |
-| 3 | [lista-lending →](https://www.defi.garden/ko/pools/lista-lending-usd1-bsc) | BSC | 1.35% | $138.15M |
-| 4 | [raydium-amm →](https://www.defi.garden/?pool=d14d4632-727b-47c2-b69a-def5691b4155#src=seo_token) | Solana | 0.41% | $9.9M |
-| 5 | [venus-core-pool →](https://www.defi.garden/?pool=406b11b4-c4f9-4253-bfd3-388c208a4ecd#src=seo_token) | BSC | 1.74% | $499.9K |
-| 6 | [dolomite →](https://www.defi.garden/?pool=86e18974-35ca-4948-9c82-694facf9d082#src=seo_token) | Ethereum | 7.84% | $85.81M |
-| 7 | [hyperion →](https://www.defi.garden/?pool=0178abb0-ea19-49cc-9bf2-0896437ed982#src=seo_token) | Aptos | 6.40% | $402.9K |
-| 8 | [raydium-amm →](https://www.defi.garden/?pool=866092b0-6627-432a-af86-e1af0c4dae6c#src=seo_token) | Solana | 34.19% | $4.72M |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23#src=seo_token) | Ethereum | 0.38% | $10.06M |
+| 2 | [echelon-market →](https://www.defi.garden/?pool=77602b93-35e4-48eb-bd66-043d13f442b1#src=seo_token) | Aptos | 6.75% | $698.5K |
+| 3 | [lista-lending →](https://www.defi.garden/ko/pools/lista-lending-usd1-bsc) | BSC | 1.45% | $138.2M |
+| 4 | [raydium-amm →](https://www.defi.garden/?pool=d14d4632-727b-47c2-b69a-def5691b4155#src=seo_token) | Solana | 0.63% | $9.9M |
+| 5 | [venus-core-pool →](https://www.defi.garden/?pool=406b11b4-c4f9-4253-bfd3-388c208a4ecd#src=seo_token) | BSC | 1.74% | $499.8K |
+| 6 | [dolomite →](https://www.defi.garden/?pool=86e18974-35ca-4948-9c82-694facf9d082#src=seo_token) | Ethereum | 7.90% | $85.84M |
+| 7 | [concrete →](https://www.defi.garden/?pool=c47fc8ce-12b3-5f57-8763-7ce72ed4bcea#src=seo_token) | Ethereum | 54.40% | $28.29M |
+| 8 | [raydium-amm →](https://www.defi.garden/?pool=866092b0-6627-432a-af86-e1af0c4dae6c#src=seo_token) | Solana | 27.41% | $4.73M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-USD1 풀은 여기 8개가 있고, 4개 체인에서 APY가 0.33%부터 34.19%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+USD1 풀은 여기 8개가 있고, 4개 체인에서 APY가 0.38%부터 54.40%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 3.23%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 3.25%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
-8개 풀 중 3개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
+8개 풀 중 2개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
-8개 풀 중 2개는 비영구적 손실(IL) 위험이 있어요 — 두 자산을 맞춰 넣는 포지션은 수익이 나는 중에도 그냥 들고 있는 것보다 가치가 줄어들 수 있어요.
+8개 풀 중 3개는 비영구적 손실(IL) 위험이 있어요 — 두 자산을 맞춰 넣는 포지션은 수익이 나는 중에도 그냥 들고 있는 것보다 가치가 줄어들 수 있어요.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| lista-lending | 1.35% | 1.21% | 기본 금리 |
-| dolomite | 7.84% | 7.89% | 인센티브 64.97% |
-| curve-dex | 0.33% | 0.32% | 기본 금리 |
-| raydium-amm | 0.41% | 0.59% | 기본 금리 |
-| raydium-amm | 34.19% | 23.72% | 기본 금리 |
-| echelon-market | 8.27% | 4.64% | 인센티브 10.61% |
-| venus-core-pool | 1.74% | 1.81% | 기본 금리 |
-| hyperion | 6.40% | 6.40% | 인센티브 84.88% |
+| lista-lending | 1.45% | 1.21% | 기본 금리 |
+| dolomite | 7.90% | 7.87% | 인센티브 65.25% |
+| concrete | 54.40% | 8.03% | 기본 금리 |
+| curve-dex | 0.38% | 0.32% | 기본 금리 |
+| raydium-amm | 0.63% | 0.59% | 기본 금리 |
+| raydium-amm | 27.41% | 24.12% | 기본 금리 |
+| echelon-market | 6.75% | 4.68% | 인센티브 12.37% |
+| venus-core-pool | 1.74% | 1.82% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -60,11 +60,11 @@ USD1 풀은 여기 8개가 있고, 4개 체인에서 APY가 0.33%부터 34.19%�
 
 ### 오늘 USD1의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 34.19%예요.
+DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 27.41%예요.
 
 ### USD1 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 18개이며, 합산 TVL은 $284.19M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 18개이며, 합산 TVL은 $284.4M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -72,7 +72,7 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 34.19%예�
 
 ### USD1 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 USD1의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.33%, TVL $10.06M, https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23#src=seo_token; Aptos의 echelon-market, APY 8.27%, TVL $634.4K, https://www.defi.garden/?pool=77602b93-35e4-48eb-bd66-043d13f442b1#src=seo_token; BSC의 lista-lending, APY 1.35%, TVL $138.15M, https://www.defi.garden/ko/pools/lista-lending-usd1-bsc; Solana의 raydium-amm, APY 0.41%, TVL $9.9M, https://www.defi.garden/?pool=d14d4632-727b-47c2-b69a-def5691b4155#src=seo_token; BSC의 venus-core-pool, APY 1.74%, TVL $499.9K, https://www.defi.garden/?pool=406b11b4-c4f9-4253-bfd3-388c208a4ecd#src=seo_token; Ethereum의 dolomite, APY 7.84%, TVL $85.81M, https://www.defi.garden/?pool=86e18974-35ca-4948-9c82-694facf9d082#src=seo_token; Aptos의 hyperion, APY 6.40%, TVL $402.9K, https://www.defi.garden/?pool=0178abb0-ea19-49cc-9bf2-0896437ed982#src=seo_token; Solana의 raydium-amm, APY 34.19%, TVL $4.72M, https://www.defi.garden/?pool=866092b0-6627-432a-af86-e1af0c4dae6c#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USD1의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.38%, TVL $10.06M, https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23#src=seo_token; Aptos의 echelon-market, APY 6.75%, TVL $698.5K, https://www.defi.garden/?pool=77602b93-35e4-48eb-bd66-043d13f442b1#src=seo_token; BSC의 lista-lending, APY 1.45%, TVL $138.2M, https://www.defi.garden/ko/pools/lista-lending-usd1-bsc; Solana의 raydium-amm, APY 0.63%, TVL $9.9M, https://www.defi.garden/?pool=d14d4632-727b-47c2-b69a-def5691b4155#src=seo_token; BSC의 venus-core-pool, APY 1.74%, TVL $499.8K, https://www.defi.garden/?pool=406b11b4-c4f9-4253-bfd3-388c208a4ecd#src=seo_token; Ethereum의 dolomite, APY 7.90%, TVL $85.84M, https://www.defi.garden/?pool=86e18974-35ca-4948-9c82-694facf9d082#src=seo_token; Ethereum의 concrete, APY 54.40%, TVL $28.29M, https://www.defi.garden/?pool=c47fc8ce-12b3-5f57-8763-7ce72ed4bcea#src=seo_token; Solana의 raydium-amm, APY 27.41%, TVL $4.73M, https://www.defi.garden/?pool=866092b0-6627-432a-af86-e1af0c4dae6c#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -90,4 +90,4 @@ APY 이력만 기준으로 비교한 USD1의 변동성 낮은 후보는 Ethereum
 - [Solana](https://www.defi.garden/ko/chains/solana)
 - [Aptos](https://www.defi.garden/ko/chains/aptos)
 
-## 마지막 업데이트: October 13, 2026
+## 마지막 업데이트: October 14, 2026

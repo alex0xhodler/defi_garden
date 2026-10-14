@@ -1,12 +1,12 @@
 # PLTRC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
 
-The highest honest PLTRC yield right now is 717.66% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PLTRC yield right now is 258.22% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=d2282635-76a7-5ab3-b5f2-a638832ef327#src=seo_token) | Base | 717.66% | $694.1K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=d2282635-76a7-5ab3-b5f2-a638832ef327#src=seo_token) | Base | 258.22% | $738.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PLTRC yield today?
 
-717.66% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+258.22% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many PLTRC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $694.1K in total.
+1 live pool clear this page's $100K TVL floor, $738.8K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank PLTRC pools. This view covers
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 13, 2026
+## Last updated October 14, 2026

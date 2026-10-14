@@ -1,12 +1,12 @@
 # CRVFRAX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
 
-The highest honest CRVFRAX yield right now is 31.97% on stake-dao-yield (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CRVFRAX yield right now is 33.03% on stake-dao-yield (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [stake-dao-yield →](https://www.defi.garden/?pool=e415d94c-8c95-47de-b912-4b17b5b097c3#src=seo_token) | Ethereum | 31.97% | $166.2K |
+| [stake-dao-yield →](https://www.defi.garden/?pool=e415d94c-8c95-47de-b912-4b17b5b097c3#src=seo_token) | Ethereum | 33.03% | $166.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CRVFRAX yield today?
 
-31.97% APY on stake-dao-yield (Ethereum), based on live DefiLlama data.
+33.03% APY on stake-dao-yield (Ethereum), based on live DefiLlama data.
 
 ### How many CRVFRAX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $166.2K in total.
+1 live pool clear this page's $100K TVL floor, $166.1K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank CRVFRAX pools. This view cove
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 13, 2026
+## Last updated October 14, 2026

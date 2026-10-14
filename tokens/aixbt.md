@@ -1,31 +1,31 @@
 # AIXBT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
 
-The highest honest AIXBT yield right now is 9.73% on uniswap-v3 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AIXBT yield right now is 6.06% on uniswap-v3 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=80771dca-2020-453d-8d97-dc82935d7fb0#src=seo_token) | Base | 9.73% | $305.5K |
-| [raydium-amm →](https://www.defi.garden/?pool=b7109838-b4d4-4e87-948e-fe5aeedaddc0#src=seo_token) | Solana | 5.23% | $103K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=80771dca-2020-453d-8d97-dc82935d7fb0#src=seo_token) | Base | 6.06% | $309.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=b7109838-b4d4-4e87-948e-fe5aeedaddc0#src=seo_token) | Solana | 4.33% | $103.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, AIXBT's lower-variability candidates are raydium-amm (Solana), 5.23% APY, $103K TVL, https://www.defi.garden/?pool=b7109838-b4d4-4e87-948e-fe5aeedaddc0#src=seo_token; uniswap-v3 (Base), 9.73% APY, $305.5K TVL, https://www.defi.garden/?pool=80771dca-2020-453d-8d97-dc82935d7fb0#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AIXBT's lower-variability candidates are raydium-amm (Solana), 4.33% APY, $103.8K TVL, https://www.defi.garden/?pool=b7109838-b4d4-4e87-948e-fe5aeedaddc0#src=seo_token; uniswap-v3 (Base), 6.06% APY, $309.7K TVL, https://www.defi.garden/?pool=80771dca-2020-453d-8d97-dc82935d7fb0#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=b7109838-b4d4-4e87-948e-fe5aeedaddc0#src=seo_token) | Solana | 5.23% | $103K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=80771dca-2020-453d-8d97-dc82935d7fb0#src=seo_token) | Base | 9.73% | $305.5K |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=b7109838-b4d4-4e87-948e-fe5aeedaddc0#src=seo_token) | Solana | 4.33% | $103.8K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=80771dca-2020-453d-8d97-dc82935d7fb0#src=seo_token) | Base | 6.06% | $309.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-AIXBT shows up in 2 pools here, with rates from 5.23% to 9.73% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+AIXBT shows up in 2 pools here, with rates from 4.33% to 6.06% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 7.26% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 7.29% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 9.73% | 8.88% | Base rate |
-| raydium-amm | 5.23% | 5.63% | Base rate |
+| uniswap-v3 | 6.06% | 8.98% | Base rate |
+| raydium-amm | 4.33% | 5.60% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest AIXBT yield today?
 
-9.73% APY on uniswap-v3 (Base), based on live DefiLlama data.
+6.06% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many AIXBT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $408.5K in total.
+2 live pools clear this page's $100K TVL floor, $413.5K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which AIXBT pools have the most stable APY history?
 
-Based on APY history only, AIXBT's lower-variability candidates are raydium-amm (Solana), 5.23% APY, $103K TVL, https://www.defi.garden/?pool=b7109838-b4d4-4e87-948e-fe5aeedaddc0#src=seo_token; uniswap-v3 (Base), 9.73% APY, $305.5K TVL, https://www.defi.garden/?pool=80771dca-2020-453d-8d97-dc82935d7fb0#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AIXBT's lower-variability candidates are raydium-amm (Solana), 4.33% APY, $103.8K TVL, https://www.defi.garden/?pool=b7109838-b4d4-4e87-948e-fe5aeedaddc0#src=seo_token; uniswap-v3 (Base), 6.06% APY, $309.7K TVL, https://www.defi.garden/?pool=80771dca-2020-453d-8d97-dc82935d7fb0#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +70,4 @@ Based on APY history only, AIXBT's lower-variability candidates are raydium-amm 
 - [Base](https://www.defi.garden/chains/base)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 13, 2026
+## Last updated October 14, 2026

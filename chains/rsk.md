@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [BTC](https://www.defi.garden/tokens/btc)
 
-## Last updated October 13, 2026
+## Last updated October 14, 2026

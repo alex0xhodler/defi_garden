@@ -1,12 +1,12 @@
 # ROXCUSDC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
 
-The highest honest ROXCUSDC yield right now is 12.18% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ROXCUSDC yield right now is 12.45% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=dc48e5dc-b5c0-5700-a300-206f13fe9c57#src=seo_token) | Ethereum | 12.18% | $26.85M |
+| [morpho-blue →](https://www.defi.garden/?pool=dc48e5dc-b5c0-5700-a300-206f13fe9c57#src=seo_token) | Ethereum | 12.45% | $26.83M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ROXCUSDC yield today?
 
-12.18% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+12.45% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many ROXCUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $26.85M in total.
+1 live pool clear this page's $100K TVL floor, $26.83M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank ROXCUSDC pools. This view cov
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 13, 2026
+## Last updated October 14, 2026

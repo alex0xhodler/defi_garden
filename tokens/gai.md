@@ -1,12 +1,12 @@
 # GAI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
 
-The highest honest GAI yield right now is 2.06% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GAI yield right now is 2.07% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=67c44fd4-5eff-4198-8d3d-e8b9ef264c21#src=seo_token) | Base | 2.06% | $219.8K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=67c44fd4-5eff-4198-8d3d-e8b9ef264c21#src=seo_token) | Base | 2.07% | $219.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GAI yield today?
 
-2.06% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+2.07% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many GAI pools clear the TVL floor?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank GAI pools. This view covers A
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 13, 2026
+## Last updated October 14, 2026

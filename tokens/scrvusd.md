@@ -1,56 +1,56 @@
 # SCRVUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
 
-The highest honest SCRVUSD yield right now is 14.61% on convex-finance (Ethereum), among 18 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SCRVUSD yield right now is 14.62% on convex-finance (Ethereum), among 18 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [crvusd →](https://www.defi.garden/?pool=5fd328af-4203-471b-bd16-1705c726d926#src=seo_token) | Ethereum | 2.34% | $16.34M |
-| [curve-dex →](https://www.defi.garden/?pool=5c4940c7-c193-440d-b95e-9148d017e12c#src=seo_token) | Ethereum | 7.82% | $15.46M |
-| [convex-finance →](https://www.defi.garden/?pool=1971c939-46e4-4b86-87d9-78308de47af7#src=seo_token) | Ethereum | 14.61% | $9.15M |
-| [stake-dao-yield →](https://www.defi.garden/?pool=321b0f91-21ca-438b-966e-78946e275589#src=seo_token) | Ethereum | 14.55% | $7.92M |
-| [curve-dex →](https://www.defi.garden/?pool=6ba003eb-fb87-4771-a542-e41d352e7c82#src=seo_token) | Ethereum | 6.79% | $5.25M |
-| [stake-dao-yield →](https://www.defi.garden/?pool=54c9a039-42a2-4756-896a-50b81b239ba9#src=seo_token) | Ethereum | 7.02% | $5.09M |
-| [curve-dex →](https://www.defi.garden/?pool=0d6b4d03-fb91-4b6f-bd55-544e7aa71200#src=seo_token) | Ethereum | 5.32% | $1.95M |
-| [convex-finance →](https://www.defi.garden/?pool=18d68b7b-1674-4616-b5a8-65bbfb3723cd#src=seo_token) | Ethereum | 6.37% | $1.44M |
+| [crvusd →](https://www.defi.garden/?pool=5fd328af-4203-471b-bd16-1705c726d926#src=seo_token) | Ethereum | 2.35% | $16.19M |
+| [curve-dex →](https://www.defi.garden/?pool=5c4940c7-c193-440d-b95e-9148d017e12c#src=seo_token) | Ethereum | 7.79% | $15.4M |
+| [convex-finance →](https://www.defi.garden/?pool=1971c939-46e4-4b86-87d9-78308de47af7#src=seo_token) | Ethereum | 14.62% | $9.09M |
+| [stake-dao-yield →](https://www.defi.garden/?pool=321b0f91-21ca-438b-966e-78946e275589#src=seo_token) | Ethereum | 14.59% | $7.92M |
+| [curve-dex →](https://www.defi.garden/?pool=6ba003eb-fb87-4771-a542-e41d352e7c82#src=seo_token) | Ethereum | 6.79% | $5.24M |
+| [stake-dao-yield →](https://www.defi.garden/?pool=54c9a039-42a2-4756-896a-50b81b239ba9#src=seo_token) | Ethereum | 7.04% | $5.09M |
+| [curve-dex →](https://www.defi.garden/?pool=0d6b4d03-fb91-4b6f-bd55-544e7aa71200#src=seo_token) | Ethereum | 5.17% | $1.95M |
+| [convex-finance →](https://www.defi.garden/?pool=18d68b7b-1674-4616-b5a8-65bbfb3723cd#src=seo_token) | Ethereum | 6.22% | $1.44M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SCRVUSD's lower-variability candidates are curve-dex (Ethereum), 7.82% APY, $15.46M TVL, https://www.defi.garden/?pool=5c4940c7-c193-440d-b95e-9148d017e12c#src=seo_token; stake-dao-yield (Ethereum), 14.55% APY, $7.92M TVL, https://www.defi.garden/?pool=321b0f91-21ca-438b-966e-78946e275589#src=seo_token; crvusd (Ethereum), 2.34% APY, $16.34M TVL, https://www.defi.garden/?pool=5fd328af-4203-471b-bd16-1705c726d926#src=seo_token; convex-finance (Ethereum), 14.61% APY, $9.15M TVL, https://www.defi.garden/?pool=1971c939-46e4-4b86-87d9-78308de47af7#src=seo_token; curve-dex (Ethereum), 5.32% APY, $1.95M TVL, https://www.defi.garden/?pool=0d6b4d03-fb91-4b6f-bd55-544e7aa71200#src=seo_token; convex-finance (Ethereum), 6.37% APY, $1.44M TVL, https://www.defi.garden/?pool=18d68b7b-1674-4616-b5a8-65bbfb3723cd#src=seo_token; stake-dao-yield (Ethereum), 7.02% APY, $5.09M TVL, https://www.defi.garden/?pool=54c9a039-42a2-4756-896a-50b81b239ba9#src=seo_token; curve-dex (Ethereum), 6.79% APY, $5.25M TVL, https://www.defi.garden/?pool=6ba003eb-fb87-4771-a542-e41d352e7c82#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SCRVUSD's lower-variability candidates are curve-dex (Ethereum), 7.79% APY, $15.4M TVL, https://www.defi.garden/?pool=5c4940c7-c193-440d-b95e-9148d017e12c#src=seo_token; stake-dao-yield (Ethereum), 14.59% APY, $7.92M TVL, https://www.defi.garden/?pool=321b0f91-21ca-438b-966e-78946e275589#src=seo_token; crvusd (Ethereum), 2.35% APY, $16.19M TVL, https://www.defi.garden/?pool=5fd328af-4203-471b-bd16-1705c726d926#src=seo_token; convex-finance (Ethereum), 14.62% APY, $9.09M TVL, https://www.defi.garden/?pool=1971c939-46e4-4b86-87d9-78308de47af7#src=seo_token; curve-dex (Ethereum), 5.17% APY, $1.95M TVL, https://www.defi.garden/?pool=0d6b4d03-fb91-4b6f-bd55-544e7aa71200#src=seo_token; convex-finance (Ethereum), 6.22% APY, $1.44M TVL, https://www.defi.garden/?pool=18d68b7b-1674-4616-b5a8-65bbfb3723cd#src=seo_token; stake-dao-yield (Ethereum), 7.04% APY, $5.09M TVL, https://www.defi.garden/?pool=54c9a039-42a2-4756-896a-50b81b239ba9#src=seo_token; curve-dex (Ethereum), 6.79% APY, $5.24M TVL, https://www.defi.garden/?pool=6ba003eb-fb87-4771-a542-e41d352e7c82#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=5c4940c7-c193-440d-b95e-9148d017e12c#src=seo_token) | Ethereum | 7.82% | $15.46M |
-| 2 | [stake-dao-yield →](https://www.defi.garden/?pool=321b0f91-21ca-438b-966e-78946e275589#src=seo_token) | Ethereum | 14.55% | $7.92M |
-| 3 | [crvusd →](https://www.defi.garden/?pool=5fd328af-4203-471b-bd16-1705c726d926#src=seo_token) | Ethereum | 2.34% | $16.34M |
-| 4 | [convex-finance →](https://www.defi.garden/?pool=1971c939-46e4-4b86-87d9-78308de47af7#src=seo_token) | Ethereum | 14.61% | $9.15M |
-| 5 | [curve-dex →](https://www.defi.garden/?pool=0d6b4d03-fb91-4b6f-bd55-544e7aa71200#src=seo_token) | Ethereum | 5.32% | $1.95M |
-| 6 | [convex-finance →](https://www.defi.garden/?pool=18d68b7b-1674-4616-b5a8-65bbfb3723cd#src=seo_token) | Ethereum | 6.37% | $1.44M |
-| 7 | [stake-dao-yield →](https://www.defi.garden/?pool=54c9a039-42a2-4756-896a-50b81b239ba9#src=seo_token) | Ethereum | 7.02% | $5.09M |
-| 8 | [curve-dex →](https://www.defi.garden/?pool=6ba003eb-fb87-4771-a542-e41d352e7c82#src=seo_token) | Ethereum | 6.79% | $5.25M |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=5c4940c7-c193-440d-b95e-9148d017e12c#src=seo_token) | Ethereum | 7.79% | $15.4M |
+| 2 | [stake-dao-yield →](https://www.defi.garden/?pool=321b0f91-21ca-438b-966e-78946e275589#src=seo_token) | Ethereum | 14.59% | $7.92M |
+| 3 | [crvusd →](https://www.defi.garden/?pool=5fd328af-4203-471b-bd16-1705c726d926#src=seo_token) | Ethereum | 2.35% | $16.19M |
+| 4 | [convex-finance →](https://www.defi.garden/?pool=1971c939-46e4-4b86-87d9-78308de47af7#src=seo_token) | Ethereum | 14.62% | $9.09M |
+| 5 | [curve-dex →](https://www.defi.garden/?pool=0d6b4d03-fb91-4b6f-bd55-544e7aa71200#src=seo_token) | Ethereum | 5.17% | $1.95M |
+| 6 | [convex-finance →](https://www.defi.garden/?pool=18d68b7b-1674-4616-b5a8-65bbfb3723cd#src=seo_token) | Ethereum | 6.22% | $1.44M |
+| 7 | [stake-dao-yield →](https://www.defi.garden/?pool=54c9a039-42a2-4756-896a-50b81b239ba9#src=seo_token) | Ethereum | 7.04% | $5.09M |
+| 8 | [curve-dex →](https://www.defi.garden/?pool=6ba003eb-fb87-4771-a542-e41d352e7c82#src=seo_token) | Ethereum | 6.79% | $5.24M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SCRVUSD shows up in 8 pools here, with rates from 2.34% to 14.61% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SCRVUSD shows up in 8 pools here, with rates from 2.35% to 14.62% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 7.31% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 7.30% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 7 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| crvusd | 2.34% | 2.89% | Base rate |
-| curve-dex | 7.82% | 8.60% | 89.65% incentives |
-| convex-finance | 14.61% | 15.67% | 94.45% incentives |
-| stake-dao-yield | 14.55% | 15.89% | 94.43% incentives |
-| curve-dex | 6.79% | 6.70% | 18.01% incentives |
-| stake-dao-yield | 7.02% | 6.85% | 20.06% incentives |
-| curve-dex | 5.32% | 6.35% | 29.10% incentives |
-| convex-finance | 6.37% | 7.77% | 40.78% incentives |
+| crvusd | 2.35% | 2.90% | Base rate |
+| curve-dex | 7.79% | 8.59% | 90.24% incentives |
+| convex-finance | 14.62% | 15.64% | 94.80% incentives |
+| stake-dao-yield | 14.59% | 15.87% | 94.31% incentives |
+| curve-dex | 6.79% | 6.70% | 17.98% incentives |
+| stake-dao-yield | 7.04% | 6.85% | 20.04% incentives |
+| curve-dex | 5.17% | 6.33% | 29.84% incentives |
+| convex-finance | 6.22% | 7.74% | 41.65% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -58,11 +58,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SCRVUSD yield today?
 
-14.61% APY on convex-finance (Ethereum), based on live DefiLlama data.
+14.62% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many SCRVUSD pools clear the TVL floor?
 
-18 live pools clear this page's $100K TVL floor, $68.33M in total.
+18 live pools clear this page's $100K TVL floor, $68M in total.
 
 ### Are these rates safe?
 
@@ -70,7 +70,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SCRVUSD pools have the most stable APY history?
 
-Based on APY history only, SCRVUSD's lower-variability candidates are curve-dex (Ethereum), 7.82% APY, $15.46M TVL, https://www.defi.garden/?pool=5c4940c7-c193-440d-b95e-9148d017e12c#src=seo_token; stake-dao-yield (Ethereum), 14.55% APY, $7.92M TVL, https://www.defi.garden/?pool=321b0f91-21ca-438b-966e-78946e275589#src=seo_token; crvusd (Ethereum), 2.34% APY, $16.34M TVL, https://www.defi.garden/?pool=5fd328af-4203-471b-bd16-1705c726d926#src=seo_token; convex-finance (Ethereum), 14.61% APY, $9.15M TVL, https://www.defi.garden/?pool=1971c939-46e4-4b86-87d9-78308de47af7#src=seo_token; curve-dex (Ethereum), 5.32% APY, $1.95M TVL, https://www.defi.garden/?pool=0d6b4d03-fb91-4b6f-bd55-544e7aa71200#src=seo_token; convex-finance (Ethereum), 6.37% APY, $1.44M TVL, https://www.defi.garden/?pool=18d68b7b-1674-4616-b5a8-65bbfb3723cd#src=seo_token; stake-dao-yield (Ethereum), 7.02% APY, $5.09M TVL, https://www.defi.garden/?pool=54c9a039-42a2-4756-896a-50b81b239ba9#src=seo_token; curve-dex (Ethereum), 6.79% APY, $5.25M TVL, https://www.defi.garden/?pool=6ba003eb-fb87-4771-a542-e41d352e7c82#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SCRVUSD's lower-variability candidates are curve-dex (Ethereum), 7.79% APY, $15.4M TVL, https://www.defi.garden/?pool=5c4940c7-c193-440d-b95e-9148d017e12c#src=seo_token; stake-dao-yield (Ethereum), 14.59% APY, $7.92M TVL, https://www.defi.garden/?pool=321b0f91-21ca-438b-966e-78946e275589#src=seo_token; crvusd (Ethereum), 2.35% APY, $16.19M TVL, https://www.defi.garden/?pool=5fd328af-4203-471b-bd16-1705c726d926#src=seo_token; convex-finance (Ethereum), 14.62% APY, $9.09M TVL, https://www.defi.garden/?pool=1971c939-46e4-4b86-87d9-78308de47af7#src=seo_token; curve-dex (Ethereum), 5.17% APY, $1.95M TVL, https://www.defi.garden/?pool=0d6b4d03-fb91-4b6f-bd55-544e7aa71200#src=seo_token; convex-finance (Ethereum), 6.22% APY, $1.44M TVL, https://www.defi.garden/?pool=18d68b7b-1674-4616-b5a8-65bbfb3723cd#src=seo_token; stake-dao-yield (Ethereum), 7.04% APY, $5.09M TVL, https://www.defi.garden/?pool=54c9a039-42a2-4756-896a-50b81b239ba9#src=seo_token; curve-dex (Ethereum), 6.79% APY, $5.24M TVL, https://www.defi.garden/?pool=6ba003eb-fb87-4771-a542-e41d352e7c82#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -85,4 +85,4 @@ Based on APY history only, SCRVUSD's lower-variability candidates are curve-dex 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 13, 2026
+## Last updated October 14, 2026

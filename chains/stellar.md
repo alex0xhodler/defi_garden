@@ -4,11 +4,11 @@ The highest honest Stellar yield right now is 10.00% on gami-labs (Stellar), amo
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| USDY | [ondo-yield-assets →](https://www.defi.garden/pools/ondo-yield-assets-usdy-stellar) | 3.67% | $537.38M |
-| EARNUSDC | [gami-labs →](https://www.defi.garden/?pool=038cb9c0-814d-41cc-ac43-b4fefd95da53#src=seo_chain) | 10.00% | $25.04M |
-| USDC | [blend-pools-v2 →](https://www.defi.garden/?pool=ecf788e3-d2ef-4fdd-9ece-8a2d96226ddf#src=seo_chain) | 7.41% | $10.39M |
-| EARNXLM | [gami-labs →](https://www.defi.garden/?pool=879fac16-fff2-4985-b516-366eeb9c0c6c#src=seo_chain) | 5.00% | $3.9M |
-| XLM | [blend-pools-v2 →](https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d#src=seo_chain) | 0.01% | $119.7K |
+| USDY | [ondo-yield-assets →](https://www.defi.garden/pools/ondo-yield-assets-usdy-stellar) | 3.67% | $537.44M |
+| EARNUSDC | [gami-labs →](https://www.defi.garden/?pool=038cb9c0-814d-41cc-ac43-b4fefd95da53#src=seo_chain) | 10.00% | $25.74M |
+| USDC | [blend-pools-v2 →](https://www.defi.garden/?pool=ecf788e3-d2ef-4fdd-9ece-8a2d96226ddf#src=seo_chain) | 7.36% | $10.43M |
+| EARNXLM | [gami-labs →](https://www.defi.garden/?pool=879fac16-fff2-4985-b516-366eeb9c0c6c#src=seo_chain) | 5.00% | $3.89M |
+| XLM | [blend-pools-v2 →](https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d#src=seo_chain) | 0.01% | $118.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,7 +20,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Stellar pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $710.08M in total.
+6 live pools clear this page's $100K TVL floor, $709.99M in total.
 
 ### Are these rates safe?
 
@@ -43,4 +43,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [EARNXLM](https://www.defi.garden/tokens/earnxlm)
 - [XLM](https://www.defi.garden/tokens/xlm)
 
-## Last updated October 13, 2026
+## Last updated October 14, 2026

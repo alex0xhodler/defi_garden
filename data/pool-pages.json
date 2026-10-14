@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T17:07:51.865Z",
+  "generatedAt": "2026-10-14T07:06:26.958Z",
   "count": 100,
   "pages": [
     {
@@ -71,12 +71,12 @@
       "pool": "50bb5f69-85ea-4f70-81da-3661a1633fc4"
     },
     {
-      "slug": "spark-savings-usdt-ethereum",
-      "pool": "a5d67f7e-5b51-4a9d-969d-caf051a7f5a4"
-    },
-    {
       "slug": "maple-usdt-ethereum",
       "pool": "8edfdf02-cdbb-43f7-bca6-954e5fe56813"
+    },
+    {
+      "slug": "spark-savings-usdt-ethereum",
+      "pool": "a5d67f7e-5b51-4a9d-969d-caf051a7f5a4"
     },
     {
       "slug": "liquid-collective-lseth-ethereum",
@@ -95,12 +95,12 @@
       "pool": "b9f2f00a-ba96-4589-a171-dde979a23d87"
     },
     {
-      "slug": "sparklend-usds-ethereum",
-      "pool": "54e9b138-3146-4c1f-8dce-1cb948f5ef96"
-    },
-    {
       "slug": "jupiter-staked-sol-jupsol-solana",
       "pool": "52bd72a7-9e81-4112-abb4-71673e8de9bf"
+    },
+    {
+      "slug": "sparklend-usds-ethereum",
+      "pool": "54e9b138-3146-4c1f-8dce-1cb948f5ef96"
     },
     {
       "slug": "usd-ai-susdai-arbitrum",
@@ -135,16 +135,16 @@
       "pool": "0906793c-ec02-4c77-9e0e-eee007269d2f"
     },
     {
+      "slug": "hastra-prime-ethereum",
+      "pool": "acfc00cf-5f1f-5172-acc7-4827e5ddd0b7"
+    },
+    {
       "slug": "morpho-blue-senrlusdv2-ethereum",
       "pool": "2e53bb82-f13f-4157-a3bf-b1a91b94b6a4"
     },
     {
       "slug": "morpho-blue-sirloinusdc-base",
       "pool": "8276be38-acc6-4005-ab0d-62680f49f4df"
-    },
-    {
-      "slug": "hastra-prime-ethereum",
-      "pool": "acfc00cf-5f1f-5172-acc7-4827e5ddd0b7"
     },
     {
       "slug": "morpho-blue-sparkusdc-base",
@@ -175,20 +175,16 @@
       "pool": "2d3b68a8-33d3-47e0-a4c0-0bafef4b01d5"
     },
     {
-      "slug": "aave-v3-usdt-ethereum",
-      "pool": "f981a304-bb6c-45b8-b0c5-fd2f515ad23a"
-    },
-    {
-      "slug": "morpho-blue-usde-robinhood-chain",
-      "pool": "d3ed814d-9763-5436-8b25-66bdbabd36f8"
-    },
-    {
       "slug": "sky-lending-susds-arbitrum",
       "pool": "3637ce7b-529b-49c1-964c-710a50b2939c"
     },
     {
       "slug": "spark-savings-usds-arbitrum",
       "pool": "9d499222-a01a-45bb-bbc9-f01c7923693b"
+    },
+    {
+      "slug": "morpho-blue-usde-robinhood-chain",
+      "pool": "d3ed814d-9763-5436-8b25-66bdbabd36f8"
     },
     {
       "slug": "ether-fi-liquid-liquideth-ethereum",
@@ -201,6 +197,10 @@
     {
       "slug": "centrifuge-protocol-usds-ethereum",
       "pool": "ff1bb959-d160-4906-bad2-d3e37a1e92e8"
+    },
+    {
+      "slug": "aave-v3-usdt-ethereum",
+      "pool": "f981a304-bb6c-45b8-b0c5-fd2f515ad23a"
     },
     {
       "slug": "spark-savings-usdc-ethereum",
@@ -307,12 +307,12 @@
       "pool": "cb6139f9-4a68-4efd-8245-0312a92aee55"
     },
     {
-      "slug": "uniswap-v3-weth-usdc-base",
-      "pool": "b99bcdf5-1350-4269-981e-0e9b5cccb007"
-    },
-    {
       "slug": "bybit-staked-sol-bbsol-solana",
       "pool": "f76cc844-73a2-4cc7-8de7-f9fb874c626d"
+    },
+    {
+      "slug": "uniswap-v3-weth-usdc-base",
+      "pool": "b99bcdf5-1350-4269-981e-0e9b5cccb007"
     },
     {
       "slug": "morpho-blue-steakeurcv-ethereum",
@@ -325,6 +325,10 @@
     {
       "slug": "blackrock-buidl-buidl-bsc",
       "pool": "55402b0b-af35-452b-b015-627b4233f0f1"
+    },
+    {
+      "slug": "aave-v3-usdc-ethereum",
+      "pool": "aa70268e-4b52-42bf-a116-608b370f9501"
     },
     {
       "slug": "aave-v3-usde-monad",
@@ -343,10 +347,6 @@
       "pool": "d6fec854-4258-495b-95df-e4066214f41d"
     },
     {
-      "slug": "aave-v3-usdc-ethereum",
-      "pool": "aa70268e-4b52-42bf-a116-608b370f9501"
-    },
-    {
       "slug": "ondo-yield-assets-ousg-ethereum",
       "pool": "7436db9b-2872-46c8-81a2-da6baff902b7"
     },
@@ -355,52 +355,52 @@
       "pool": "177d0a37-d0fb-4b18-b290-f46bbe8d307f"
     },
     {
-      "slug": "fluid-lending-usdt-ethereum",
-      "pool": "4e8cc592-c8d5-4824-8155-128ba521e903"
-    },
-    {
       "slug": "morpho-blue-gtusdcp-ethereum",
       "pool": "71b34441-5a46-431b-a9b3-8c081cd0d74c"
-    },
-    {
-      "slug": "pareto-credit-usdc-ethereum",
-      "pool": "2eb2bdf8-c3e3-5b30-8d49-8d5232294184"
-    },
-    {
-      "slug": "plume-vaults-nopal-plume-mainnet",
-      "pool": "f21c4938-864a-44bd-91fb-c492864fcb46"
-    },
-    {
-      "slug": "aave-v3-wavax-avalanche",
-      "pool": "a1e18d7d-9a5f-4251-acb4-a87e005fe2c5"
-    },
-    {
-      "slug": "morpho-blue-steakusdc-base-81ae88",
-      "pool": "81ae8812-f04f-4f6e-9d71-ee5778f3a178"
     },
     {
       "slug": "hastra-prime-solana",
       "pool": "76bb34c2-e68a-4398-9fba-d8a14c0caa44"
     },
     {
-      "slug": "phase-delegation-pdsol-solana",
-      "pool": "a4bbdd3c-0515-54b9-bad6-babb62a41084"
+      "slug": "pareto-credit-usdc-ethereum",
+      "pool": "2eb2bdf8-c3e3-5b30-8d49-8d5232294184"
     },
     {
-      "slug": "renzo-ezeth-ethereum",
-      "pool": "e28e32b5-e356-41d9-8dc7-a376ece56619"
+      "slug": "fluid-lending-usdt-ethereum",
+      "pool": "4e8cc592-c8d5-4824-8155-128ba521e903"
+    },
+    {
+      "slug": "plume-vaults-nopal-plume-mainnet",
+      "pool": "f21c4938-864a-44bd-91fb-c492864fcb46"
+    },
+    {
+      "slug": "morpho-blue-steakusdc-base-81ae88",
+      "pool": "81ae8812-f04f-4f6e-9d71-ee5778f3a178"
+    },
+    {
+      "slug": "aave-v3-wavax-avalanche",
+      "pool": "a1e18d7d-9a5f-4251-acb4-a87e005fe2c5"
+    },
+    {
+      "slug": "phase-delegation-pdsol-solana",
+      "pool": "a4bbdd3c-0515-54b9-bad6-babb62a41084"
     },
     {
       "slug": "sentora-curator-pyusd-solana",
       "pool": "77602b5c-3d34-5275-acbd-a18a69ccb206"
     },
     {
+      "slug": "renzo-ezeth-ethereum",
+      "pool": "e28e32b5-e356-41d9-8dc7-a376ece56619"
+    },
+    {
       "slug": "morpho-blue-steakusdc-ethereum",
       "pool": "931ea9be-5f4d-428e-beaf-205fc5b4e2b5"
     },
     {
-      "slug": "securitize-tokenized-aaa-clo-fund-stac-ethereum",
-      "pool": "19494e5c-a34e-448d-9679-7d34df7f8745"
+      "slug": "concrete-ctwlficx-prime-ethereum",
+      "pool": "51bd33e6-0849-5a87-abc0-e02e384c6086"
     }
   ]
 }

@@ -1,25 +1,25 @@
 # UNIETH 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 13, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 14, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 UNIETH의 가장 높은 정직한 수익률은 Ethereum의 bedrock-unieth에서 2.48%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [bedrock-unieth →](https://www.defi.garden/?pool=ad383eed-61d8-4378-80bd-a197d9a11c79#src=seo_token) | Ethereum | 2.48% | $25.79M |
-| [morpho-blue →](https://www.defi.garden/?pool=25524efa-1a20-5e0d-ac23-dc3254dc84f3#src=seo_token) | Ethereum | 1.55% | $1.68M |
-| [curve-dex →](https://www.defi.garden/?pool=656524d2-7cf6-4ed4-ab49-929053005759#src=seo_token) | Ethereum | 0.06% | $551.8K |
+| [morpho-blue →](https://www.defi.garden/?pool=25524efa-1a20-5e0d-ac23-dc3254dc84f3#src=seo_token) | Ethereum | 1.58% | $1.67M |
+| [curve-dex →](https://www.defi.garden/?pool=656524d2-7cf6-4ed4-ab49-929053005759#src=seo_token) | Ethereum | 0.06% | $552.2K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 UNIETH의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 1.55%, TVL $1.68M, https://www.defi.garden/?pool=25524efa-1a20-5e0d-ac23-dc3254dc84f3#src=seo_token; Ethereum의 bedrock-unieth, APY 2.48%, TVL $25.79M, https://www.defi.garden/?pool=ad383eed-61d8-4378-80bd-a197d9a11c79#src=seo_token; Ethereum의 curve-dex, APY 0.06%, TVL $551.8K, https://www.defi.garden/?pool=656524d2-7cf6-4ed4-ab49-929053005759#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 UNIETH의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 1.58%, TVL $1.67M, https://www.defi.garden/?pool=25524efa-1a20-5e0d-ac23-dc3254dc84f3#src=seo_token; Ethereum의 bedrock-unieth, APY 2.48%, TVL $25.79M, https://www.defi.garden/?pool=ad383eed-61d8-4378-80bd-a197d9a11c79#src=seo_token; Ethereum의 curve-dex, APY 0.06%, TVL $552.2K, https://www.defi.garden/?pool=656524d2-7cf6-4ed4-ab49-929053005759#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=25524efa-1a20-5e0d-ac23-dc3254dc84f3#src=seo_token) | Ethereum | 1.55% | $1.68M |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=25524efa-1a20-5e0d-ac23-dc3254dc84f3#src=seo_token) | Ethereum | 1.58% | $1.67M |
 | 2 | [bedrock-unieth →](https://www.defi.garden/?pool=ad383eed-61d8-4378-80bd-a197d9a11c79#src=seo_token) | Ethereum | 2.48% | $25.79M |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=656524d2-7cf6-4ed4-ab49-929053005759#src=seo_token) | Ethereum | 0.06% | $551.8K |
+| 3 | [curve-dex →](https://www.defi.garden/?pool=656524d2-7cf6-4ed4-ab49-929053005759#src=seo_token) | Ethereum | 0.06% | $552.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -33,8 +33,8 @@ UNIETH 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.06%부터 2.48%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| bedrock-unieth | 2.48% | 2.45% | 기본 금리 |
-| morpho-blue | 1.55% | 1.94% | 기본 금리 |
+| bedrock-unieth | 2.48% | 2.44% | 기본 금리 |
+| morpho-blue | 1.58% | 1.94% | 기본 금리 |
 | curve-dex | 0.06% | 0.81% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -55,7 +55,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 bedrock-unieth에서 APY 2.48%
 
 ### UNIETH 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 UNIETH의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 1.55%, TVL $1.68M, https://www.defi.garden/?pool=25524efa-1a20-5e0d-ac23-dc3254dc84f3#src=seo_token; Ethereum의 bedrock-unieth, APY 2.48%, TVL $25.79M, https://www.defi.garden/?pool=ad383eed-61d8-4378-80bd-a197d9a11c79#src=seo_token; Ethereum의 curve-dex, APY 0.06%, TVL $551.8K, https://www.defi.garden/?pool=656524d2-7cf6-4ed4-ab49-929053005759#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 UNIETH의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 1.58%, TVL $1.67M, https://www.defi.garden/?pool=25524efa-1a20-5e0d-ac23-dc3254dc84f3#src=seo_token; Ethereum의 bedrock-unieth, APY 2.48%, TVL $25.79M, https://www.defi.garden/?pool=ad383eed-61d8-4378-80bd-a197d9a11c79#src=seo_token; Ethereum의 curve-dex, APY 0.06%, TVL $552.2K, https://www.defi.garden/?pool=656524d2-7cf6-4ed4-ab49-929053005759#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -70,4 +70,4 @@ APY 이력만 기준으로 비교한 UNIETH의 변동성 낮은 후보는 Ethere
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: October 13, 2026
+## 마지막 업데이트: October 14, 2026

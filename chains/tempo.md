@@ -4,9 +4,9 @@ The highest honest Tempo yield right now is 3.60% on morpho-blue (Tempo), among 
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| SENPATHUSD | [morpho-blue →](https://www.defi.garden/?pool=8ee39d92-b2b7-457b-b636-46e655892a11#src=seo_chain) | 3.50% | $39.64M |
-| SENOUSDMAIN | [morpho-blue →](https://www.defi.garden/?pool=4a1d1d0c-eceb-5afe-bc3c-39398586577a#src=seo_chain) | 3.60% | $24.99M |
-| GTPATHUSDP | [morpho-blue →](https://www.defi.garden/?pool=c9ea92cc-f58c-495f-a664-077823a70386#src=seo_chain) | 3.44% | $270.4K |
+| SENPATHUSD | [morpho-blue →](https://www.defi.garden/?pool=8ee39d92-b2b7-457b-b636-46e655892a11#src=seo_chain) | 3.50% | $39.98M |
+| SENOUSDMAIN | [morpho-blue →](https://www.defi.garden/?pool=4a1d1d0c-eceb-5afe-bc3c-39398586577a#src=seo_chain) | 3.60% | $25M |
+| GTPATHUSDP | [morpho-blue →](https://www.defi.garden/?pool=c9ea92cc-f58c-495f-a664-077823a70386#src=seo_chain) | 3.44% | $272.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Tempo pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $65.24M in total.
+4 live pools clear this page's $100K TVL floor, $65.59M in total.
 
 ### Are these rates safe?
 
@@ -39,4 +39,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [SENOUSDMAIN](https://www.defi.garden/tokens/senousdmain)
 - [GTPATHUSDP](https://www.defi.garden/tokens/gtpathusdp)
 
-## Last updated October 13, 2026
+## Last updated October 14, 2026

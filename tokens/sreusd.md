@@ -1,12 +1,12 @@
 # SREUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
 
 The highest honest SREUSD yield right now is 1.61% on resupply (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [resupply →](https://www.defi.garden/?pool=a1b05c10-6d01-4b64-9247-4e86ca82a291#src=seo_token) | Ethereum | 1.61% | $28.13M |
+| [resupply →](https://www.defi.garden/?pool=a1b05c10-6d01-4b64-9247-4e86ca82a291#src=seo_token) | Ethereum | 1.61% | $28.12M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank SREUSD pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 13, 2026
+## Last updated October 14, 2026

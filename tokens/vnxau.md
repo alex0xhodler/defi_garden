@@ -1,12 +1,12 @@
 # VNXAU DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
 
-The highest honest VNXAU yield right now is 2.27% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VNXAU yield right now is 0.65% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=a26d57e4-7e35-4113-9e94-1f4c5127c34e#src=seo_token) | Solana | 2.27% | $259.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=a26d57e4-7e35-4113-9e94-1f4c5127c34e#src=seo_token) | Solana | 0.65% | $259.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,9 +17,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-VNXAU shows up in 1 pools here, with rates from 2.27% to 2.27% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+VNXAU shows up in 1 pools here, with rates from 0.65% to 0.65% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 2.70% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 2.65% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -27,7 +27,7 @@ All 1 pool pays a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 2.27% | 2.70% | Base rate |
+| raydium-amm | 0.65% | 2.65% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest VNXAU yield today?
 
-2.27% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.65% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many VNXAU pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $360.6K in total.
+2 live pools clear this page's $100K TVL floor, $360.3K in total.
 
 ### Are these rates safe?
 
@@ -56,10 +56,10 @@ There is not enough qualifying APY history to rank VNXAU pools. This view covers
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [BNSOL](https://www.defi.garden/tokens/bnsol)
+- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 13, 2026
+## Last updated October 14, 2026

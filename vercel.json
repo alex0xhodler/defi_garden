@@ -860,6 +860,26 @@
       "permanent": true
     },
     {
+      "source": "/pools/securitize-tokenized-aaa-clo-fund-stac-ethereum",
+      "destination": "/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/securitize-tokenized-aaa-clo-fund-stac-ethereum",
+      "destination": "/ko/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pt/pools/securitize-tokenized-aaa-clo-fund-stac-ethereum",
+      "destination": "/pt/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/es/pools/securitize-tokenized-aaa-clo-fund-stac-ethereum",
+      "destination": "/es/chains/ethereum",
+      "permanent": true
+    },
+    {
       "source": "/pools/sky-lending-weth-ethereum",
       "destination": "/chains/ethereum",
       "permanent": true

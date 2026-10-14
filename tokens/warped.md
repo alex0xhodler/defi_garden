@@ -1,12 +1,12 @@
 # WARPED DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
 
-The highest honest WARPED yield right now is 0.66% on cetus-clmm (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WARPED yield right now is 0.33% on cetus-clmm (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [cetus-clmm →](https://www.defi.garden/?pool=5a600ec7-5f86-41db-acdb-c836d56c566e#src=seo_token) | Sui | 0.66% | $188.4K |
+| [cetus-clmm →](https://www.defi.garden/?pool=5a600ec7-5f86-41db-acdb-c836d56c566e#src=seo_token) | Sui | 0.33% | $179.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WARPED yield today?
 
-0.66% APY on cetus-clmm (Sui), based on live DefiLlama data.
+0.33% APY on cetus-clmm (Sui), based on live DefiLlama data.
 
 ### How many WARPED pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $188.4K in total.
+1 live pool clear this page's $100K TVL floor, $179.2K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank WARPED pools. This view cover
 
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated October 13, 2026
+## Last updated October 14, 2026

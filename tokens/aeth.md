@@ -1,23 +1,23 @@
 # AETH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
 
 The highest honest AETH yield right now is 0.17% on hydration-dex (Polkadot), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hydration-dex →](https://www.defi.garden/?pool=d3c48526-63c5-48c4-a2bc-11dd4172a458#src=seo_token) | Polkadot | 0.17% | $4.29M |
-| [hydration-dex →](https://www.defi.garden/?pool=b90433eb-4df0-4ebe-9cc5-dedfc256474e#src=seo_token) | Polkadot | 0.05% | $252.7K |
+| [hydration-dex →](https://www.defi.garden/?pool=d3c48526-63c5-48c4-a2bc-11dd4172a458#src=seo_token) | Polkadot | 0.17% | $4.28M |
+| [hydration-dex →](https://www.defi.garden/?pool=b90433eb-4df0-4ebe-9cc5-dedfc256474e#src=seo_token) | Polkadot | 0.05% | $251.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, AETH's lower-variability candidates are hydration-dex (Polkadot), 0.05% APY, $252.7K TVL, https://www.defi.garden/?pool=b90433eb-4df0-4ebe-9cc5-dedfc256474e#src=seo_token; hydration-dex (Polkadot), 0.17% APY, $4.29M TVL, https://www.defi.garden/?pool=d3c48526-63c5-48c4-a2bc-11dd4172a458#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AETH's lower-variability candidates are hydration-dex (Polkadot), 0.05% APY, $251.5K TVL, https://www.defi.garden/?pool=b90433eb-4df0-4ebe-9cc5-dedfc256474e#src=seo_token; hydration-dex (Polkadot), 0.17% APY, $4.28M TVL, https://www.defi.garden/?pool=d3c48526-63c5-48c4-a2bc-11dd4172a458#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [hydration-dex →](https://www.defi.garden/?pool=b90433eb-4df0-4ebe-9cc5-dedfc256474e#src=seo_token) | Polkadot | 0.05% | $252.7K |
-| 2 | [hydration-dex →](https://www.defi.garden/?pool=d3c48526-63c5-48c4-a2bc-11dd4172a458#src=seo_token) | Polkadot | 0.17% | $4.29M |
+| 1 | [hydration-dex →](https://www.defi.garden/?pool=b90433eb-4df0-4ebe-9cc5-dedfc256474e#src=seo_token) | Polkadot | 0.05% | $251.5K |
+| 2 | [hydration-dex →](https://www.defi.garden/?pool=d3c48526-63c5-48c4-a2bc-11dd4172a458#src=seo_token) | Polkadot | 0.17% | $4.28M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many AETH pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $4.55M in total.
+2 live pools clear this page's $100K TVL floor, $4.53M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which AETH pools have the most stable APY history?
 
-Based on APY history only, AETH's lower-variability candidates are hydration-dex (Polkadot), 0.05% APY, $252.7K TVL, https://www.defi.garden/?pool=b90433eb-4df0-4ebe-9cc5-dedfc256474e#src=seo_token; hydration-dex (Polkadot), 0.17% APY, $4.29M TVL, https://www.defi.garden/?pool=d3c48526-63c5-48c4-a2bc-11dd4172a458#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AETH's lower-variability candidates are hydration-dex (Polkadot), 0.05% APY, $251.5K TVL, https://www.defi.garden/?pool=b90433eb-4df0-4ebe-9cc5-dedfc256474e#src=seo_token; hydration-dex (Polkadot), 0.17% APY, $4.28M TVL, https://www.defi.garden/?pool=d3c48526-63c5-48c4-a2bc-11dd4172a458#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -67,4 +67,4 @@ Based on APY history only, AETH's lower-variability candidates are hydration-dex
 
 - [Polkadot](https://www.defi.garden/chains/polkadot)
 
-## Last updated October 13, 2026
+## Last updated October 14, 2026

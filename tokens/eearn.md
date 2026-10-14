@@ -1,12 +1,12 @@
 # EEARN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
 
-The highest honest EEARN yield right now is 10.78% on current (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EEARN yield right now is 10.79% on current (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [current →](https://www.defi.garden/?pool=c9e32cbc-6404-4cbe-ba9d-8d7a7912d831#src=seo_token) | Sui | 10.78% | $1.15M |
+| [current →](https://www.defi.garden/?pool=c9e32cbc-6404-4cbe-ba9d-8d7a7912d831#src=seo_token) | Sui | 10.79% | $1.12M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EEARN yield today?
 
-10.78% APY on current (Sui), based on live DefiLlama data.
+10.79% APY on current (Sui), based on live DefiLlama data.
 
 ### How many EEARN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.15M in total.
+1 live pool clear this page's $100K TVL floor, $1.12M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank EEARN pools. This view covers
 
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated October 13, 2026
+## Last updated October 14, 2026

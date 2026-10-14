@@ -1,37 +1,37 @@
 # HYUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
 
-The highest honest HYUSD yield right now is 5.60% on loopscale-lending (Solana), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HYUSD yield right now is 9.02% on orca-dex (Solana), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=e9e0d806-6138-4591-9ba5-6f63848d4345#src=seo_token) | Solana | 1.11% | $2.74M |
-| [kamino-liquidity →](https://www.defi.garden/?pool=e1014444-6a83-4816-a8ac-6f9daca0dc79#src=seo_token) | Solana | 0.89% | $2.73M |
-| [loopscale-lending →](https://www.defi.garden/?pool=da576830-547b-4119-a0aa-6e837fcc5b47#src=seo_token) | Solana | 5.60% | $589.1K |
-| [orca-dex →](https://www.defi.garden/?pool=4d5a655b-4228-4341-8485-f8c22a048a55#src=seo_token) | Solana | 13.94% | $125.3K |
-| [kamino-liquidity →](https://www.defi.garden/?pool=70e45373-e1b0-48b7-9d51-4f683d1326c8#src=seo_token) | Solana | 10.88% | $125.2K |
+| [orca-dex →](https://www.defi.garden/?pool=e9e0d806-6138-4591-9ba5-6f63848d4345#src=seo_token) | Solana | 0.62% | $2.74M |
+| [kamino-liquidity →](https://www.defi.garden/?pool=e1014444-6a83-4816-a8ac-6f9daca0dc79#src=seo_token) | Solana | 0.57% | $2.74M |
+| [loopscale-lending →](https://www.defi.garden/?pool=da576830-547b-4119-a0aa-6e837fcc5b47#src=seo_token) | Solana | 5.14% | $626.9K |
+| [orca-dex →](https://www.defi.garden/?pool=4d5a655b-4228-4341-8485-f8c22a048a55#src=seo_token) | Solana | 9.02% | $125.1K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=70e45373-e1b0-48b7-9d51-4f683d1326c8#src=seo_token) | Solana | 7.95% | $125.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, HYUSD's lower-variability candidates are loopscale-lending (Solana), 5.60% APY, $589.1K TVL, https://www.defi.garden/?pool=da576830-547b-4119-a0aa-6e837fcc5b47#src=seo_token; orca-dex (Solana), 1.11% APY, $2.74M TVL, https://www.defi.garden/?pool=e9e0d806-6138-4591-9ba5-6f63848d4345#src=seo_token; kamino-liquidity (Solana), 0.89% APY, $2.73M TVL, https://www.defi.garden/?pool=e1014444-6a83-4816-a8ac-6f9daca0dc79#src=seo_token; orca-dex (Solana), 13.94% APY, $125.3K TVL, https://www.defi.garden/?pool=4d5a655b-4228-4341-8485-f8c22a048a55#src=seo_token; kamino-liquidity (Solana), 10.88% APY, $125.2K TVL, https://www.defi.garden/?pool=70e45373-e1b0-48b7-9d51-4f683d1326c8#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, HYUSD's lower-variability candidates are loopscale-lending (Solana), 5.14% APY, $626.9K TVL, https://www.defi.garden/?pool=da576830-547b-4119-a0aa-6e837fcc5b47#src=seo_token; orca-dex (Solana), 0.62% APY, $2.74M TVL, https://www.defi.garden/?pool=e9e0d806-6138-4591-9ba5-6f63848d4345#src=seo_token; kamino-liquidity (Solana), 0.57% APY, $2.74M TVL, https://www.defi.garden/?pool=e1014444-6a83-4816-a8ac-6f9daca0dc79#src=seo_token; orca-dex (Solana), 9.02% APY, $125.1K TVL, https://www.defi.garden/?pool=4d5a655b-4228-4341-8485-f8c22a048a55#src=seo_token; kamino-liquidity (Solana), 7.95% APY, $125.1K TVL, https://www.defi.garden/?pool=70e45373-e1b0-48b7-9d51-4f683d1326c8#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [loopscale-lending →](https://www.defi.garden/?pool=da576830-547b-4119-a0aa-6e837fcc5b47#src=seo_token) | Solana | 5.60% | $589.1K |
-| 2 | [orca-dex →](https://www.defi.garden/?pool=e9e0d806-6138-4591-9ba5-6f63848d4345#src=seo_token) | Solana | 1.11% | $2.74M |
-| 3 | [kamino-liquidity →](https://www.defi.garden/?pool=e1014444-6a83-4816-a8ac-6f9daca0dc79#src=seo_token) | Solana | 0.89% | $2.73M |
-| 4 | [orca-dex →](https://www.defi.garden/?pool=4d5a655b-4228-4341-8485-f8c22a048a55#src=seo_token) | Solana | 13.94% | $125.3K |
-| 5 | [kamino-liquidity →](https://www.defi.garden/?pool=70e45373-e1b0-48b7-9d51-4f683d1326c8#src=seo_token) | Solana | 10.88% | $125.2K |
+| 1 | [loopscale-lending →](https://www.defi.garden/?pool=da576830-547b-4119-a0aa-6e837fcc5b47#src=seo_token) | Solana | 5.14% | $626.9K |
+| 2 | [orca-dex →](https://www.defi.garden/?pool=e9e0d806-6138-4591-9ba5-6f63848d4345#src=seo_token) | Solana | 0.62% | $2.74M |
+| 3 | [kamino-liquidity →](https://www.defi.garden/?pool=e1014444-6a83-4816-a8ac-6f9daca0dc79#src=seo_token) | Solana | 0.57% | $2.74M |
+| 4 | [orca-dex →](https://www.defi.garden/?pool=4d5a655b-4228-4341-8485-f8c22a048a55#src=seo_token) | Solana | 9.02% | $125.1K |
+| 5 | [kamino-liquidity →](https://www.defi.garden/?pool=70e45373-e1b0-48b7-9d51-4f683d1326c8#src=seo_token) | Solana | 7.95% | $125.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-HYUSD shows up in 5 pools here, with rates from 0.89% to 13.94% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+HYUSD shows up in 5 pools here, with rates from 0.57% to 9.02% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-5 of these 5 pools have a trustworthy 30-day average on file, with a median of 7.09% — a useful check against today's number for whether the rate is steady or just having a good day.
+5 of these 5 pools have a trustworthy 30-day average on file, with a median of 7.22% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 5 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -39,11 +39,11 @@ All 5 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| orca-dex | 1.11% | 2.46% | Base rate |
-| kamino-liquidity | 0.89% | 2.08% | Base rate |
-| loopscale-lending | 5.60% | 8.69% | Base rate |
-| orca-dex | 13.94% | 8.57% | Base rate |
-| kamino-liquidity | 10.88% | 7.09% | Base rate |
+| orca-dex | 0.62% | 2.46% | Base rate |
+| kamino-liquidity | 0.57% | 2.09% | Base rate |
+| loopscale-lending | 5.14% | 8.67% | Base rate |
+| orca-dex | 9.02% | 8.73% | Base rate |
+| kamino-liquidity | 7.95% | 7.22% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -51,11 +51,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest HYUSD yield today?
 
-5.60% APY on loopscale-lending (Solana), based on live DefiLlama data.
+9.02% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many HYUSD pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $6.31M in total.
+5 live pools clear this page's $100K TVL floor, $6.36M in total.
 
 ### Are these rates safe?
 
@@ -63,7 +63,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which HYUSD pools have the most stable APY history?
 
-Based on APY history only, HYUSD's lower-variability candidates are loopscale-lending (Solana), 5.60% APY, $589.1K TVL, https://www.defi.garden/?pool=da576830-547b-4119-a0aa-6e837fcc5b47#src=seo_token; orca-dex (Solana), 1.11% APY, $2.74M TVL, https://www.defi.garden/?pool=e9e0d806-6138-4591-9ba5-6f63848d4345#src=seo_token; kamino-liquidity (Solana), 0.89% APY, $2.73M TVL, https://www.defi.garden/?pool=e1014444-6a83-4816-a8ac-6f9daca0dc79#src=seo_token; orca-dex (Solana), 13.94% APY, $125.3K TVL, https://www.defi.garden/?pool=4d5a655b-4228-4341-8485-f8c22a048a55#src=seo_token; kamino-liquidity (Solana), 10.88% APY, $125.2K TVL, https://www.defi.garden/?pool=70e45373-e1b0-48b7-9d51-4f683d1326c8#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, HYUSD's lower-variability candidates are loopscale-lending (Solana), 5.14% APY, $626.9K TVL, https://www.defi.garden/?pool=da576830-547b-4119-a0aa-6e837fcc5b47#src=seo_token; orca-dex (Solana), 0.62% APY, $2.74M TVL, https://www.defi.garden/?pool=e9e0d806-6138-4591-9ba5-6f63848d4345#src=seo_token; kamino-liquidity (Solana), 0.57% APY, $2.74M TVL, https://www.defi.garden/?pool=e1014444-6a83-4816-a8ac-6f9daca0dc79#src=seo_token; orca-dex (Solana), 9.02% APY, $125.1K TVL, https://www.defi.garden/?pool=4d5a655b-4228-4341-8485-f8c22a048a55#src=seo_token; kamino-liquidity (Solana), 7.95% APY, $125.1K TVL, https://www.defi.garden/?pool=70e45373-e1b0-48b7-9d51-4f683d1326c8#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -72,10 +72,10 @@ Based on APY history only, HYUSD's lower-variability candidates are loopscale-le
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [BNSOL](https://www.defi.garden/tokens/bnsol)
+- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 13, 2026
+## Last updated October 14, 2026

@@ -1,12 +1,12 @@
 # BZ DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
 
 The highest honest BZ yield right now is 2.46% on gmx-solana (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmx-solana →](https://www.defi.garden/?pool=d975e7a2-68d6-56c8-8519-4481266d3e10#src=seo_token) | Solana | 2.46% | $105.8K |
+| [gmx-solana →](https://www.defi.garden/?pool=d975e7a2-68d6-56c8-8519-4481266d3e10#src=seo_token) | Solana | 2.46% | $100.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BZ pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $105.8K in total.
+1 live pool clear this page's $100K TVL floor, $100.7K in total.
 
 ### Are these rates safe?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank BZ pools. This view covers AP
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [BNSOL](https://www.defi.garden/tokens/bnsol)
+- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 13, 2026
+## Last updated October 14, 2026

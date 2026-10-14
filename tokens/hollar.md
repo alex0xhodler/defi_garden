@@ -1,41 +1,41 @@
 # HOLLAR DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
 
-The highest honest HOLLAR yield right now is 16.21% on hydration-dex (Polkadot), among 10 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HOLLAR yield right now is 16.17% on hydration-dex (Polkadot), among 10 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hydration-dex →](https://www.defi.garden/?pool=e6ae5236-a78a-4ddb-b5f7-da2fea18f96c#src=seo_token) | Polkadot | 16.21% | $2.2M |
-| [hydration-dex →](https://www.defi.garden/?pool=ac63a425-ea86-4395-ae51-e849620399f7#src=seo_token) | Polkadot | 2.64% | $1.5M |
-| [hydration-dex →](https://www.defi.garden/?pool=470f1399-4e87-4146-a9f6-4c1294c4959a#src=seo_token) | Polkadot | 1.42% | $1.46M |
-| [hydration-dex →](https://www.defi.garden/?pool=8702c691-9b2c-4722-a9c1-4eb6289bca94#src=seo_token) | Polkadot | 0.47% | $955.1K |
-| [hydration-dex →](https://www.defi.garden/?pool=b365d27e-3eb3-4d68-a5a4-ecdceda06c6b#src=seo_token) | Polkadot | 0.63% | $800.1K |
-| [hydration-dex →](https://www.defi.garden/?pool=725ad84c-242e-4ddc-9bda-e2462466119a#src=seo_token) | Polkadot | 0.97% | $685.8K |
-| [hydration-dex →](https://www.defi.garden/?pool=9714729f-22d5-472e-b3fb-ed799a6bd4a5#src=seo_token) | Polkadot | 0.44% | $602.5K |
-| [hydration-dex →](https://www.defi.garden/?pool=030640cd-7bd6-534b-a389-a0475c8f926f#src=seo_token) | Polkadot | 0.23% | $310.3K |
+| [hydration-dex →](https://www.defi.garden/?pool=e6ae5236-a78a-4ddb-b5f7-da2fea18f96c#src=seo_token) | Polkadot | 16.17% | $2.2M |
+| [hydration-dex →](https://www.defi.garden/?pool=ac63a425-ea86-4395-ae51-e849620399f7#src=seo_token) | Polkadot | 2.69% | $1.53M |
+| [hydration-dex →](https://www.defi.garden/?pool=470f1399-4e87-4146-a9f6-4c1294c4959a#src=seo_token) | Polkadot | 1.44% | $1.46M |
+| [hydration-dex →](https://www.defi.garden/?pool=8702c691-9b2c-4722-a9c1-4eb6289bca94#src=seo_token) | Polkadot | 0.47% | $953.2K |
+| [hydration-dex →](https://www.defi.garden/?pool=b365d27e-3eb3-4d68-a5a4-ecdceda06c6b#src=seo_token) | Polkadot | 0.63% | $804.7K |
+| [hydration-dex →](https://www.defi.garden/?pool=725ad84c-242e-4ddc-9bda-e2462466119a#src=seo_token) | Polkadot | 0.97% | $687.9K |
+| [hydration-dex →](https://www.defi.garden/?pool=9714729f-22d5-472e-b3fb-ed799a6bd4a5#src=seo_token) | Polkadot | 0.44% | $602.2K |
+| [hydration-dex →](https://www.defi.garden/?pool=030640cd-7bd6-534b-a389-a0475c8f926f#src=seo_token) | Polkadot | 0.23% | $310K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, HOLLAR's lower-variability candidates are hydration-dex (Polkadot), 0.23% APY, $310.3K TVL, https://www.defi.garden/?pool=030640cd-7bd6-534b-a389-a0475c8f926f#src=seo_token; hydration-dex (Polkadot), 0.47% APY, $955.1K TVL, https://www.defi.garden/?pool=8702c691-9b2c-4722-a9c1-4eb6289bca94#src=seo_token; hydration-dex (Polkadot), 0.44% APY, $602.5K TVL, https://www.defi.garden/?pool=9714729f-22d5-472e-b3fb-ed799a6bd4a5#src=seo_token; hydration-dex (Polkadot), 1.42% APY, $1.46M TVL, https://www.defi.garden/?pool=470f1399-4e87-4146-a9f6-4c1294c4959a#src=seo_token; hydration-dex (Polkadot), 2.64% APY, $1.5M TVL, https://www.defi.garden/?pool=ac63a425-ea86-4395-ae51-e849620399f7#src=seo_token; hydration-dex (Polkadot), 0.97% APY, $685.8K TVL, https://www.defi.garden/?pool=725ad84c-242e-4ddc-9bda-e2462466119a#src=seo_token; hydration-dex (Polkadot), 0.63% APY, $800.1K TVL, https://www.defi.garden/?pool=b365d27e-3eb3-4d68-a5a4-ecdceda06c6b#src=seo_token; hydration-dex (Polkadot), 16.21% APY, $2.2M TVL, https://www.defi.garden/?pool=e6ae5236-a78a-4ddb-b5f7-da2fea18f96c#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, HOLLAR's lower-variability candidates are hydration-dex (Polkadot), 0.23% APY, $310K TVL, https://www.defi.garden/?pool=030640cd-7bd6-534b-a389-a0475c8f926f#src=seo_token; hydration-dex (Polkadot), 0.47% APY, $953.2K TVL, https://www.defi.garden/?pool=8702c691-9b2c-4722-a9c1-4eb6289bca94#src=seo_token; hydration-dex (Polkadot), 0.44% APY, $602.2K TVL, https://www.defi.garden/?pool=9714729f-22d5-472e-b3fb-ed799a6bd4a5#src=seo_token; hydration-dex (Polkadot), 1.44% APY, $1.46M TVL, https://www.defi.garden/?pool=470f1399-4e87-4146-a9f6-4c1294c4959a#src=seo_token; hydration-dex (Polkadot), 2.69% APY, $1.53M TVL, https://www.defi.garden/?pool=ac63a425-ea86-4395-ae51-e849620399f7#src=seo_token; hydration-dex (Polkadot), 0.97% APY, $687.9K TVL, https://www.defi.garden/?pool=725ad84c-242e-4ddc-9bda-e2462466119a#src=seo_token; hydration-dex (Polkadot), 0.63% APY, $804.7K TVL, https://www.defi.garden/?pool=b365d27e-3eb3-4d68-a5a4-ecdceda06c6b#src=seo_token; hydration-dex (Polkadot), 16.17% APY, $2.2M TVL, https://www.defi.garden/?pool=e6ae5236-a78a-4ddb-b5f7-da2fea18f96c#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [hydration-dex →](https://www.defi.garden/?pool=030640cd-7bd6-534b-a389-a0475c8f926f#src=seo_token) | Polkadot | 0.23% | $310.3K |
-| 2 | [hydration-dex →](https://www.defi.garden/?pool=8702c691-9b2c-4722-a9c1-4eb6289bca94#src=seo_token) | Polkadot | 0.47% | $955.1K |
-| 3 | [hydration-dex →](https://www.defi.garden/?pool=9714729f-22d5-472e-b3fb-ed799a6bd4a5#src=seo_token) | Polkadot | 0.44% | $602.5K |
-| 4 | [hydration-dex →](https://www.defi.garden/?pool=470f1399-4e87-4146-a9f6-4c1294c4959a#src=seo_token) | Polkadot | 1.42% | $1.46M |
-| 5 | [hydration-dex →](https://www.defi.garden/?pool=ac63a425-ea86-4395-ae51-e849620399f7#src=seo_token) | Polkadot | 2.64% | $1.5M |
-| 6 | [hydration-dex →](https://www.defi.garden/?pool=725ad84c-242e-4ddc-9bda-e2462466119a#src=seo_token) | Polkadot | 0.97% | $685.8K |
-| 7 | [hydration-dex →](https://www.defi.garden/?pool=b365d27e-3eb3-4d68-a5a4-ecdceda06c6b#src=seo_token) | Polkadot | 0.63% | $800.1K |
-| 8 | [hydration-dex →](https://www.defi.garden/?pool=e6ae5236-a78a-4ddb-b5f7-da2fea18f96c#src=seo_token) | Polkadot | 16.21% | $2.2M |
+| 1 | [hydration-dex →](https://www.defi.garden/?pool=030640cd-7bd6-534b-a389-a0475c8f926f#src=seo_token) | Polkadot | 0.23% | $310K |
+| 2 | [hydration-dex →](https://www.defi.garden/?pool=8702c691-9b2c-4722-a9c1-4eb6289bca94#src=seo_token) | Polkadot | 0.47% | $953.2K |
+| 3 | [hydration-dex →](https://www.defi.garden/?pool=9714729f-22d5-472e-b3fb-ed799a6bd4a5#src=seo_token) | Polkadot | 0.44% | $602.2K |
+| 4 | [hydration-dex →](https://www.defi.garden/?pool=470f1399-4e87-4146-a9f6-4c1294c4959a#src=seo_token) | Polkadot | 1.44% | $1.46M |
+| 5 | [hydration-dex →](https://www.defi.garden/?pool=ac63a425-ea86-4395-ae51-e849620399f7#src=seo_token) | Polkadot | 2.69% | $1.53M |
+| 6 | [hydration-dex →](https://www.defi.garden/?pool=725ad84c-242e-4ddc-9bda-e2462466119a#src=seo_token) | Polkadot | 0.97% | $687.9K |
+| 7 | [hydration-dex →](https://www.defi.garden/?pool=b365d27e-3eb3-4d68-a5a4-ecdceda06c6b#src=seo_token) | Polkadot | 0.63% | $804.7K |
+| 8 | [hydration-dex →](https://www.defi.garden/?pool=e6ae5236-a78a-4ddb-b5f7-da2fea18f96c#src=seo_token) | Polkadot | 16.17% | $2.2M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-HOLLAR shows up in 8 pools here, with rates from 0.23% to 16.21% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+HOLLAR shows up in 8 pools here, with rates from 0.23% to 16.17% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 0.75% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -45,12 +45,12 @@ HOLLAR shows up in 8 pools here, with rates from 0.23% to 16.21% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| hydration-dex | 16.21% | 15.80% | 75.94% incentives |
-| hydration-dex | 2.64% | 1.87% | Base rate |
-| hydration-dex | 1.42% | 0.99% | Base rate |
+| hydration-dex | 16.17% | 15.80% | 76.15% incentives |
+| hydration-dex | 2.69% | 1.89% | Base rate |
+| hydration-dex | 1.44% | 1.00% | Base rate |
 | hydration-dex | 0.47% | 0.28% | Base rate |
 | hydration-dex | 0.63% | 0.81% | Base rate |
-| hydration-dex | 0.97% | 0.68% | Base rate |
+| hydration-dex | 0.97% | 0.69% | Base rate |
 | hydration-dex | 0.44% | 0.41% | Base rate |
 | hydration-dex | 0.23% | 0.22% | Base rate |
 
@@ -60,11 +60,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest HOLLAR yield today?
 
-16.21% APY on hydration-dex (Polkadot), based on live DefiLlama data.
+16.17% APY on hydration-dex (Polkadot), based on live DefiLlama data.
 
 ### How many HOLLAR pools clear the TVL floor?
 
-10 live pools clear this page's $100K TVL floor, $8.76M in total.
+10 live pools clear this page's $100K TVL floor, $8.78M in total.
 
 ### Are these rates safe?
 
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which HOLLAR pools have the most stable APY history?
 
-Based on APY history only, HOLLAR's lower-variability candidates are hydration-dex (Polkadot), 0.23% APY, $310.3K TVL, https://www.defi.garden/?pool=030640cd-7bd6-534b-a389-a0475c8f926f#src=seo_token; hydration-dex (Polkadot), 0.47% APY, $955.1K TVL, https://www.defi.garden/?pool=8702c691-9b2c-4722-a9c1-4eb6289bca94#src=seo_token; hydration-dex (Polkadot), 0.44% APY, $602.5K TVL, https://www.defi.garden/?pool=9714729f-22d5-472e-b3fb-ed799a6bd4a5#src=seo_token; hydration-dex (Polkadot), 1.42% APY, $1.46M TVL, https://www.defi.garden/?pool=470f1399-4e87-4146-a9f6-4c1294c4959a#src=seo_token; hydration-dex (Polkadot), 2.64% APY, $1.5M TVL, https://www.defi.garden/?pool=ac63a425-ea86-4395-ae51-e849620399f7#src=seo_token; hydration-dex (Polkadot), 0.97% APY, $685.8K TVL, https://www.defi.garden/?pool=725ad84c-242e-4ddc-9bda-e2462466119a#src=seo_token; hydration-dex (Polkadot), 0.63% APY, $800.1K TVL, https://www.defi.garden/?pool=b365d27e-3eb3-4d68-a5a4-ecdceda06c6b#src=seo_token; hydration-dex (Polkadot), 16.21% APY, $2.2M TVL, https://www.defi.garden/?pool=e6ae5236-a78a-4ddb-b5f7-da2fea18f96c#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, HOLLAR's lower-variability candidates are hydration-dex (Polkadot), 0.23% APY, $310K TVL, https://www.defi.garden/?pool=030640cd-7bd6-534b-a389-a0475c8f926f#src=seo_token; hydration-dex (Polkadot), 0.47% APY, $953.2K TVL, https://www.defi.garden/?pool=8702c691-9b2c-4722-a9c1-4eb6289bca94#src=seo_token; hydration-dex (Polkadot), 0.44% APY, $602.2K TVL, https://www.defi.garden/?pool=9714729f-22d5-472e-b3fb-ed799a6bd4a5#src=seo_token; hydration-dex (Polkadot), 1.44% APY, $1.46M TVL, https://www.defi.garden/?pool=470f1399-4e87-4146-a9f6-4c1294c4959a#src=seo_token; hydration-dex (Polkadot), 2.69% APY, $1.53M TVL, https://www.defi.garden/?pool=ac63a425-ea86-4395-ae51-e849620399f7#src=seo_token; hydration-dex (Polkadot), 0.97% APY, $687.9K TVL, https://www.defi.garden/?pool=725ad84c-242e-4ddc-9bda-e2462466119a#src=seo_token; hydration-dex (Polkadot), 0.63% APY, $804.7K TVL, https://www.defi.garden/?pool=b365d27e-3eb3-4d68-a5a4-ecdceda06c6b#src=seo_token; hydration-dex (Polkadot), 16.17% APY, $2.2M TVL, https://www.defi.garden/?pool=e6ae5236-a78a-4ddb-b5f7-da2fea18f96c#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -87,4 +87,4 @@ Based on APY history only, HOLLAR's lower-variability candidates are hydration-d
 
 - [Polkadot](https://www.defi.garden/chains/polkadot)
 
-## Last updated October 13, 2026
+## Last updated October 14, 2026

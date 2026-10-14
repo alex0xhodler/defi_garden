@@ -1,13 +1,13 @@
 # GAMIUSDC 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 13, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 14, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 GAMIUSDC의 가장 높은 정직한 수익률은 Ethereum의 gami-labs에서 9.62%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [gami-labs →](https://www.defi.garden/?pool=aabf8498-4b0d-47e6-863d-5742bf563bd2#src=seo_token) | Ethereum | 9.62% | $8.86M |
 | [lagoon →](https://www.defi.garden/?pool=b49e91d4-961e-49f1-98cd-f3b6d4422b65#src=seo_token) | Ethereum | 9.20% | $8.86M |
+| [gami-labs →](https://www.defi.garden/?pool=aabf8498-4b0d-47e6-863d-5742bf563bd2#src=seo_token) | Ethereum | 9.62% | $8.86M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
@@ -31,8 +31,8 @@ GAMIUSDC 풀은 여기 2개가 있고, 1개 체인에서 APY가 9.20%부터 9.62
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| gami-labs | 9.62% | 9.70% | 기본 금리 |
 | lagoon | 9.20% | 9.29% | 기본 금리 |
+| gami-labs | 9.62% | 9.70% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -67,4 +67,4 @@ APY 이력만 기준으로 비교한 GAMIUSDC의 변동성 낮은 후보는 Ethe
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: October 13, 2026
+## 마지막 업데이트: October 14, 2026

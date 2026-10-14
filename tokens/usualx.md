@@ -1,29 +1,29 @@
 # USUALX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
 
-The highest honest USUALX yield right now is 31.46% on usual-usd0 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USUALX yield right now is 31.88% on usual-usd0 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [usual-usd0 →](https://www.defi.garden/?pool=e19c3745-6e2d-4228-b7e0-c28f12b0c727#src=seo_token) | Ethereum | 31.46% | $8.51M |
-| [usual-usd0 →](https://www.defi.garden/?pool=f5f2d217-e073-45df-bbee-5b698d2b8488#src=seo_token) | Ethereum | 11.93% | $1.78M |
+| [usual-usd0 →](https://www.defi.garden/?pool=e19c3745-6e2d-4228-b7e0-c28f12b0c727#src=seo_token) | Ethereum | 31.88% | $8.44M |
+| [usual-usd0 →](https://www.defi.garden/?pool=f5f2d217-e073-45df-bbee-5b698d2b8488#src=seo_token) | Ethereum | 12.27% | $1.78M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, USUALX's lower-variability candidates are usual-usd0 (Ethereum), 31.46% APY, $8.51M TVL, https://www.defi.garden/?pool=e19c3745-6e2d-4228-b7e0-c28f12b0c727#src=seo_token; usual-usd0 (Ethereum), 11.93% APY, $1.78M TVL, https://www.defi.garden/?pool=f5f2d217-e073-45df-bbee-5b698d2b8488#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USUALX's lower-variability candidates are usual-usd0 (Ethereum), 31.88% APY, $8.44M TVL, https://www.defi.garden/?pool=e19c3745-6e2d-4228-b7e0-c28f12b0c727#src=seo_token; usual-usd0 (Ethereum), 12.27% APY, $1.78M TVL, https://www.defi.garden/?pool=f5f2d217-e073-45df-bbee-5b698d2b8488#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [usual-usd0 →](https://www.defi.garden/?pool=e19c3745-6e2d-4228-b7e0-c28f12b0c727#src=seo_token) | Ethereum | 31.46% | $8.51M |
-| 2 | [usual-usd0 →](https://www.defi.garden/?pool=f5f2d217-e073-45df-bbee-5b698d2b8488#src=seo_token) | Ethereum | 11.93% | $1.78M |
+| 1 | [usual-usd0 →](https://www.defi.garden/?pool=e19c3745-6e2d-4228-b7e0-c28f12b0c727#src=seo_token) | Ethereum | 31.88% | $8.44M |
+| 2 | [usual-usd0 →](https://www.defi.garden/?pool=f5f2d217-e073-45df-bbee-5b698d2b8488#src=seo_token) | Ethereum | 12.27% | $1.78M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-USUALX shows up in 2 pools here, with rates from 11.93% to 31.46% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+USUALX shows up in 2 pools here, with rates from 12.27% to 31.88% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 20.61% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -31,8 +31,8 @@ USUALX shows up in 2 pools here, with rates from 11.93% to 31.46% APY across 1 c
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| usual-usd0 | 31.46% | 29.05% | 62.09% incentives |
-| usual-usd0 | 11.93% | 12.17% | Base rate |
+| usual-usd0 | 31.88% | 29.05% | 61.52% incentives |
+| usual-usd0 | 12.27% | 12.17% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USUALX yield today?
 
-31.46% APY on usual-usd0 (Ethereum), based on live DefiLlama data.
+31.88% APY on usual-usd0 (Ethereum), based on live DefiLlama data.
 
 ### How many USUALX pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $10.44M in total.
+3 live pools clear this page's $100K TVL floor, $10.36M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USUALX pools have the most stable APY history?
 
-Based on APY history only, USUALX's lower-variability candidates are usual-usd0 (Ethereum), 31.46% APY, $8.51M TVL, https://www.defi.garden/?pool=e19c3745-6e2d-4228-b7e0-c28f12b0c727#src=seo_token; usual-usd0 (Ethereum), 11.93% APY, $1.78M TVL, https://www.defi.garden/?pool=f5f2d217-e073-45df-bbee-5b698d2b8488#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USUALX's lower-variability candidates are usual-usd0 (Ethereum), 31.88% APY, $8.44M TVL, https://www.defi.garden/?pool=e19c3745-6e2d-4228-b7e0-c28f12b0c727#src=seo_token; usual-usd0 (Ethereum), 12.27% APY, $1.78M TVL, https://www.defi.garden/?pool=f5f2d217-e073-45df-bbee-5b698d2b8488#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -67,4 +67,4 @@ Based on APY history only, USUALX's lower-variability candidates are usual-usd0 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 13, 2026
+## Last updated October 14, 2026

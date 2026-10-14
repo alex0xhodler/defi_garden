@@ -1,12 +1,12 @@
 # HIMS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
 
-The highest honest HIMS yield right now is 846.31% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HIMS yield right now is 132.70% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=5ed16434-7fb5-5964-8ff3-55aea6036a44#src=seo_token) | Solana | 846.31% | $168.6K |
+| [orca-dex →](https://www.defi.garden/?pool=5ed16434-7fb5-5964-8ff3-55aea6036a44#src=seo_token) | Solana | 132.70% | $184.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HIMS yield today?
 
-846.31% APY on orca-dex (Solana), based on live DefiLlama data.
+132.70% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many HIMS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $168.6K in total.
+1 live pool clear this page's $100K TVL floor, $184.1K in total.
 
 ### Are these rates safe?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank HIMS pools. This view covers 
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [BNSOL](https://www.defi.garden/tokens/bnsol)
+- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 13, 2026
+## Last updated October 14, 2026

@@ -1,12 +1,12 @@
 # INF DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
 
-The highest honest INF yield right now is 5.58% on sanctum-infinity (Solana), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest INF yield right now is 5.65% on sanctum-infinity (Solana), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sanctum-infinity →](https://www.defi.garden/pools/sanctum-infinity-inf-solana) | Solana | 5.58% | $200.15M |
+| [sanctum-infinity →](https://www.defi.garden/pools/sanctum-infinity-inf-solana) | Solana | 5.65% | $200.55M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,15 +17,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-INF shows up in 1 pools here, with rates from 5.58% to 5.58% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+INF shows up in 1 pools here, with rates from 5.65% to 5.65% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 5.49% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 5.48% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| sanctum-infinity | 5.58% | 5.49% | Base rate |
+| sanctum-infinity | 5.65% | 5.48% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -33,11 +33,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest INF yield today?
 
-5.58% APY on sanctum-infinity (Solana), based on live DefiLlama data.
+5.65% APY on sanctum-infinity (Solana), based on live DefiLlama data.
 
 ### How many INF pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $213.1M in total.
+6 live pools clear this page's $100K TVL floor, $213.42M in total.
 
 ### Are these rates safe?
 
@@ -54,10 +54,10 @@ There is not enough qualifying APY history to rank INF pools. This view covers A
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [BNSOL](https://www.defi.garden/tokens/bnsol)
+- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 13, 2026
+## Last updated October 14, 2026

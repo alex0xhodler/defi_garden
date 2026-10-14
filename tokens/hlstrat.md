@@ -1,12 +1,12 @@
 # HLSTRAT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
 
-The highest honest HLSTRAT yield right now is 14.86% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HLSTRAT yield right now is 14.82% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=57be91d8-9218-5fa6-a2ba-a1ccd6bb1cc8#src=seo_token) | Ethereum | 14.86% | $111.5K |
+| [lagoon →](https://www.defi.garden/?pool=57be91d8-9218-5fa6-a2ba-a1ccd6bb1cc8#src=seo_token) | Ethereum | 14.82% | $111.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HLSTRAT yield today?
 
-14.86% APY on lagoon (Ethereum), based on live DefiLlama data.
+14.82% APY on lagoon (Ethereum), based on live DefiLlama data.
 
 ### How many HLSTRAT pools clear the TVL floor?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank HLSTRAT pools. This view cove
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 13, 2026
+## Last updated October 14, 2026

@@ -1,31 +1,31 @@
 # AAVEUSDC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
 
-The highest honest AAVEUSDC yield right now is 6.31% on balancer-v3 (Arbitrum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AAVEUSDC yield right now is 6.06% on balancer-v3 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=c3f33e70-a3b9-4c5a-b5b7-2a79654c6403#src=seo_token) | Arbitrum | 6.31% | $272.5K |
-| [balancer-v3 →](https://www.defi.garden/?pool=96a2dc74-8cb5-43a8-9a86-75612cf7f904#src=seo_token) | Base | 6.85% | $191K |
+| [balancer-v3 →](https://www.defi.garden/?pool=c3f33e70-a3b9-4c5a-b5b7-2a79654c6403#src=seo_token) | Arbitrum | 5.40% | $272.5K |
+| [balancer-v3 →](https://www.defi.garden/?pool=96a2dc74-8cb5-43a8-9a86-75612cf7f904#src=seo_token) | Base | 6.06% | $191K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, AAVEUSDC's lower-variability candidates are balancer-v3 (Base), 6.85% APY, $191K TVL, https://www.defi.garden/?pool=96a2dc74-8cb5-43a8-9a86-75612cf7f904#src=seo_token; balancer-v3 (Arbitrum), 6.31% APY, $272.5K TVL, https://www.defi.garden/?pool=c3f33e70-a3b9-4c5a-b5b7-2a79654c6403#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AAVEUSDC's lower-variability candidates are balancer-v3 (Base), 6.06% APY, $191K TVL, https://www.defi.garden/?pool=96a2dc74-8cb5-43a8-9a86-75612cf7f904#src=seo_token; balancer-v3 (Arbitrum), 5.40% APY, $272.5K TVL, https://www.defi.garden/?pool=c3f33e70-a3b9-4c5a-b5b7-2a79654c6403#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [balancer-v3 →](https://www.defi.garden/?pool=96a2dc74-8cb5-43a8-9a86-75612cf7f904#src=seo_token) | Base | 6.85% | $191K |
-| 2 | [balancer-v3 →](https://www.defi.garden/?pool=c3f33e70-a3b9-4c5a-b5b7-2a79654c6403#src=seo_token) | Arbitrum | 6.31% | $272.5K |
+| 1 | [balancer-v3 →](https://www.defi.garden/?pool=96a2dc74-8cb5-43a8-9a86-75612cf7f904#src=seo_token) | Base | 6.06% | $191K |
+| 2 | [balancer-v3 →](https://www.defi.garden/?pool=c3f33e70-a3b9-4c5a-b5b7-2a79654c6403#src=seo_token) | Arbitrum | 5.40% | $272.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-AAVEUSDC shows up in 2 pools here, with rates from 6.31% to 6.85% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+AAVEUSDC shows up in 2 pools here, with rates from 5.40% to 6.06% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 7.74% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 7.77% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| balancer-v3 | 6.31% | 11.06% | Base rate |
-| balancer-v3 | 6.85% | 4.43% | Base rate |
+| balancer-v3 | 5.40% | 11.07% | Base rate |
+| balancer-v3 | 6.06% | 4.47% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest AAVEUSDC yield today?
 
-6.31% APY on balancer-v3 (Arbitrum), based on live DefiLlama data.
+6.06% APY on balancer-v3 (Base), based on live DefiLlama data.
 
 ### How many AAVEUSDC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $463.4K in total.
+2 live pools clear this page's $100K TVL floor, $463.5K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which AAVEUSDC pools have the most stable APY history?
 
-Based on APY history only, AAVEUSDC's lower-variability candidates are balancer-v3 (Base), 6.85% APY, $191K TVL, https://www.defi.garden/?pool=96a2dc74-8cb5-43a8-9a86-75612cf7f904#src=seo_token; balancer-v3 (Arbitrum), 6.31% APY, $272.5K TVL, https://www.defi.garden/?pool=c3f33e70-a3b9-4c5a-b5b7-2a79654c6403#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AAVEUSDC's lower-variability candidates are balancer-v3 (Base), 6.06% APY, $191K TVL, https://www.defi.garden/?pool=96a2dc74-8cb5-43a8-9a86-75612cf7f904#src=seo_token; balancer-v3 (Arbitrum), 5.40% APY, $272.5K TVL, https://www.defi.garden/?pool=c3f33e70-a3b9-4c5a-b5b7-2a79654c6403#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +70,4 @@ Based on APY history only, AAVEUSDC's lower-variability candidates are balancer-
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 13, 2026
+## Last updated October 14, 2026

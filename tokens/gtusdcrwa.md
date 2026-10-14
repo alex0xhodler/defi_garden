@@ -1,13 +1,13 @@
 # GTUSDCRWA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
 
-The highest honest GTUSDCRWA yield right now is 4.64% on morpho-blue (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GTUSDCRWA yield right now is 8.19% on morpho-blue (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=086d98c3-e23e-42b2-9425-cb8915724337#src=seo_token) | Ethereum | 4.64% | $10.89M |
-| [morpho-blue →](https://www.defi.garden/?pool=91d30c34-819d-593e-8386-406d373cff9f#src=seo_token) | Ethereum | 8.60% | $180.5K |
+| [morpho-blue →](https://www.defi.garden/?pool=086d98c3-e23e-42b2-9425-cb8915724337#src=seo_token) | Ethereum | 4.62% | $10.83M |
+| [morpho-blue →](https://www.defi.garden/?pool=91d30c34-819d-593e-8386-406d373cff9f#src=seo_token) | Ethereum | 8.19% | $179.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,16 +18,16 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-GTUSDCRWA shows up in 2 pools here, with rates from 4.64% to 8.60% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+GTUSDCRWA shows up in 2 pools here, with rates from 4.62% to 8.19% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 5.48% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 5.52% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 4.64% | 5.47% | Base rate |
-| morpho-blue | 8.60% | 5.49% | Base rate |
+| morpho-blue | 4.62% | 5.45% | Base rate |
+| morpho-blue | 8.19% | 5.59% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest GTUSDCRWA yield today?
 
-4.64% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+8.19% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many GTUSDCRWA pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $11.07M in total.
+2 live pools clear this page's $100K TVL floor, $11.01M in total.
 
 ### Are these rates safe?
 
@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank GTUSDCRWA pools. This view co
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 13, 2026
+## Last updated October 14, 2026

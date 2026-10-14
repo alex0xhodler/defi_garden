@@ -1,35 +1,35 @@
 # DOG DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
 
-The highest honest DOG yield right now is 1.06% on raydium-amm (Solana), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DOG yield right now is 0.70% on aerodrome-v1 (Base), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=c0288de1-2d00-457c-ab70-56e3a6295dcc#src=seo_token) | Ethereum | 0.05% | $1.47M |
-| [raydium-amm →](https://www.defi.garden/?pool=5002328b-b428-446c-ac12-9846c560219f#src=seo_token) | Solana | 1.06% | $581K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c0288de1-2d00-457c-ab70-56e3a6295dcc#src=seo_token) | Ethereum | 0.02% | $1.47M |
+| [raydium-amm →](https://www.defi.garden/?pool=5002328b-b428-446c-ac12-9846c560219f#src=seo_token) | Solana | 0.59% | $580.9K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=6430a6d8-5208-48fa-870e-2bbd81f04592#src=seo_token) | Base | 0.12% | $125.3K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=18337fa4-0cfb-4726-b34a-3d9b00e3db72#src=seo_token) | Base | 0.70% | $107.9K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=18337fa4-0cfb-4726-b34a-3d9b00e3db72#src=seo_token) | Base | 0.70% | $107.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, DOG's lower-variability candidates are raydium-amm (Solana), 1.06% APY, $581K TVL, https://www.defi.garden/?pool=5002328b-b428-446c-ac12-9846c560219f#src=seo_token; aerodrome-v1 (Base), 0.70% APY, $107.9K TVL, https://www.defi.garden/?pool=18337fa4-0cfb-4726-b34a-3d9b00e3db72#src=seo_token; uniswap-v3 (Ethereum), 0.05% APY, $1.47M TVL, https://www.defi.garden/?pool=c0288de1-2d00-457c-ab70-56e3a6295dcc#src=seo_token; uniswap-v3 (Base), 0.12% APY, $125.3K TVL, https://www.defi.garden/?pool=6430a6d8-5208-48fa-870e-2bbd81f04592#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, DOG's lower-variability candidates are raydium-amm (Solana), 0.59% APY, $580.9K TVL, https://www.defi.garden/?pool=5002328b-b428-446c-ac12-9846c560219f#src=seo_token; aerodrome-v1 (Base), 0.70% APY, $107.4K TVL, https://www.defi.garden/?pool=18337fa4-0cfb-4726-b34a-3d9b00e3db72#src=seo_token; uniswap-v3 (Ethereum), 0.02% APY, $1.47M TVL, https://www.defi.garden/?pool=c0288de1-2d00-457c-ab70-56e3a6295dcc#src=seo_token; uniswap-v3 (Base), 0.12% APY, $125.3K TVL, https://www.defi.garden/?pool=6430a6d8-5208-48fa-870e-2bbd81f04592#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=5002328b-b428-446c-ac12-9846c560219f#src=seo_token) | Solana | 1.06% | $581K |
-| 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=18337fa4-0cfb-4726-b34a-3d9b00e3db72#src=seo_token) | Base | 0.70% | $107.9K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=c0288de1-2d00-457c-ab70-56e3a6295dcc#src=seo_token) | Ethereum | 0.05% | $1.47M |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=5002328b-b428-446c-ac12-9846c560219f#src=seo_token) | Solana | 0.59% | $580.9K |
+| 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=18337fa4-0cfb-4726-b34a-3d9b00e3db72#src=seo_token) | Base | 0.70% | $107.4K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=c0288de1-2d00-457c-ab70-56e3a6295dcc#src=seo_token) | Ethereum | 0.02% | $1.47M |
 | 4 | [uniswap-v3 →](https://www.defi.garden/?pool=6430a6d8-5208-48fa-870e-2bbd81f04592#src=seo_token) | Base | 0.12% | $125.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-DOG shows up in 4 pools here, with rates from 0.05% to 1.06% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+DOG shows up in 4 pools here, with rates from 0.02% to 0.70% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 0.98% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 0.96% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 4 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -37,8 +37,8 @@ DOG shows up in 4 pools here, with rates from 0.05% to 1.06% APY across 3 chains
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 0.05% | 0.03% | Base rate |
-| raydium-amm | 1.06% | 1.19% | Base rate |
+| uniswap-v3 | 0.02% | 0.03% | Base rate |
+| raydium-amm | 0.59% | 1.15% | Base rate |
 | uniswap-v3 | 0.12% | 11.58% | Base rate |
 | aerodrome-v1 | 0.70% | 0.77% | 100.00% incentives |
 
@@ -48,11 +48,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest DOG yield today?
 
-1.06% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.70% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many DOG pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $2.61M in total.
+6 live pools clear this page's $100K TVL floor, $2.6M in total.
 
 ### Are these rates safe?
 
@@ -60,7 +60,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which DOG pools have the most stable APY history?
 
-Based on APY history only, DOG's lower-variability candidates are raydium-amm (Solana), 1.06% APY, $581K TVL, https://www.defi.garden/?pool=5002328b-b428-446c-ac12-9846c560219f#src=seo_token; aerodrome-v1 (Base), 0.70% APY, $107.9K TVL, https://www.defi.garden/?pool=18337fa4-0cfb-4726-b34a-3d9b00e3db72#src=seo_token; uniswap-v3 (Ethereum), 0.05% APY, $1.47M TVL, https://www.defi.garden/?pool=c0288de1-2d00-457c-ab70-56e3a6295dcc#src=seo_token; uniswap-v3 (Base), 0.12% APY, $125.3K TVL, https://www.defi.garden/?pool=6430a6d8-5208-48fa-870e-2bbd81f04592#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, DOG's lower-variability candidates are raydium-amm (Solana), 0.59% APY, $580.9K TVL, https://www.defi.garden/?pool=5002328b-b428-446c-ac12-9846c560219f#src=seo_token; aerodrome-v1 (Base), 0.70% APY, $107.4K TVL, https://www.defi.garden/?pool=18337fa4-0cfb-4726-b34a-3d9b00e3db72#src=seo_token; uniswap-v3 (Ethereum), 0.02% APY, $1.47M TVL, https://www.defi.garden/?pool=c0288de1-2d00-457c-ab70-56e3a6295dcc#src=seo_token; uniswap-v3 (Base), 0.12% APY, $125.3K TVL, https://www.defi.garden/?pool=6430a6d8-5208-48fa-870e-2bbd81f04592#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -77,4 +77,4 @@ Based on APY history only, DOG's lower-variability candidates are raydium-amm (S
 - [Solana](https://www.defi.garden/chains/solana)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 13, 2026
+## Last updated October 14, 2026

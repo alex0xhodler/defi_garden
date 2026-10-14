@@ -1,12 +1,12 @@
 # CC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
 
 The highest honest CC yield right now is 4.21% on alpend (Canton), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [alpend →](https://www.defi.garden/?pool=480418ff-6a3c-5c1b-8e4c-2b4518d05d35#src=seo_token) | Canton | 4.21% | $2.07M |
+| [alpend →](https://www.defi.garden/?pool=480418ff-6a3c-5c1b-8e4c-2b4518d05d35#src=seo_token) | Canton | 4.21% | $2.03M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -25,7 +25,7 @@ CC shows up in 1 pools here, with rates from 4.21% to 4.21% APY across 1 chains 
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| alpend | 4.21% | 4.21% | 94.99% incentives |
+| alpend | 4.21% | 4.21% | 95.03% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many CC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $2.26M in total.
+2 live pools clear this page's $100K TVL floor, $2.21M in total.
 
 ### Are these rates safe?
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank CC pools. This view covers AP
 
 - [Canton](https://www.defi.garden/chains/canton)
 
-## Last updated October 13, 2026
+## Last updated October 14, 2026

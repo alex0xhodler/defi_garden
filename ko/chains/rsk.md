@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, RSK의 midas-rwa에서 APY 2.53%예요.
 
 - [BTC](https://www.defi.garden/ko/tokens/btc)
 
-## 마지막 업데이트: October 13, 2026
+## 마지막 업데이트: October 14, 2026

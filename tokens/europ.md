@@ -1,31 +1,31 @@
 # EUROP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
 
-The highest honest EUROP yield right now is 0.29% on orca-dex (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EUROP yield right now is 1.15% on curve-dex (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=0d2c2ed8-d206-5ade-9cfc-08b2b3ab601f#src=seo_token) | Solana | 0.29% | $1.16M |
-| [curve-dex →](https://www.defi.garden/?pool=323b2ebe-96cc-43ac-a1fb-4441334e22f8#src=seo_token) | Ethereum | 0.02% | $111.9K |
+| [orca-dex →](https://www.defi.garden/?pool=0d2c2ed8-d206-5ade-9cfc-08b2b3ab601f#src=seo_token) | Solana | 0.24% | $1.16M |
+| [curve-dex →](https://www.defi.garden/?pool=323b2ebe-96cc-43ac-a1fb-4441334e22f8#src=seo_token) | Ethereum | 1.15% | $112.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, EUROP's lower-variability candidates are curve-dex (Ethereum), 0.02% APY, $111.9K TVL, https://www.defi.garden/?pool=323b2ebe-96cc-43ac-a1fb-4441334e22f8#src=seo_token; orca-dex (Solana), 0.29% APY, $1.16M TVL, https://www.defi.garden/?pool=0d2c2ed8-d206-5ade-9cfc-08b2b3ab601f#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, EUROP's lower-variability candidates are curve-dex (Ethereum), 1.15% APY, $112.1K TVL, https://www.defi.garden/?pool=323b2ebe-96cc-43ac-a1fb-4441334e22f8#src=seo_token; orca-dex (Solana), 0.24% APY, $1.16M TVL, https://www.defi.garden/?pool=0d2c2ed8-d206-5ade-9cfc-08b2b3ab601f#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=323b2ebe-96cc-43ac-a1fb-4441334e22f8#src=seo_token) | Ethereum | 0.02% | $111.9K |
-| 2 | [orca-dex →](https://www.defi.garden/?pool=0d2c2ed8-d206-5ade-9cfc-08b2b3ab601f#src=seo_token) | Solana | 0.29% | $1.16M |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=323b2ebe-96cc-43ac-a1fb-4441334e22f8#src=seo_token) | Ethereum | 1.15% | $112.1K |
+| 2 | [orca-dex →](https://www.defi.garden/?pool=0d2c2ed8-d206-5ade-9cfc-08b2b3ab601f#src=seo_token) | Solana | 0.24% | $1.16M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-EUROP shows up in 2 pools here, with rates from 0.02% to 0.29% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+EUROP shows up in 2 pools here, with rates from 0.24% to 1.15% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.65% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.66% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| orca-dex | 0.29% | 0.64% | Base rate |
-| curve-dex | 0.02% | 0.67% | Base rate |
+| orca-dex | 0.24% | 0.64% | Base rate |
+| curve-dex | 1.15% | 0.68% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest EUROP yield today?
 
-0.29% APY on orca-dex (Solana), based on live DefiLlama data.
+1.15% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many EUROP pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $5.75M in total.
+3 live pools clear this page's $100K TVL floor, $5.76M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which EUROP pools have the most stable APY history?
 
-Based on APY history only, EUROP's lower-variability candidates are curve-dex (Ethereum), 0.02% APY, $111.9K TVL, https://www.defi.garden/?pool=323b2ebe-96cc-43ac-a1fb-4441334e22f8#src=seo_token; orca-dex (Solana), 0.29% APY, $1.16M TVL, https://www.defi.garden/?pool=0d2c2ed8-d206-5ade-9cfc-08b2b3ab601f#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, EUROP's lower-variability candidates are curve-dex (Ethereum), 1.15% APY, $112.1K TVL, https://www.defi.garden/?pool=323b2ebe-96cc-43ac-a1fb-4441334e22f8#src=seo_token; orca-dex (Solana), 0.24% APY, $1.16M TVL, https://www.defi.garden/?pool=0d2c2ed8-d206-5ade-9cfc-08b2b3ab601f#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +70,4 @@ Based on APY history only, EUROP's lower-variability candidates are curve-dex (E
 - [Solana](https://www.defi.garden/chains/solana)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 13, 2026
+## Last updated October 14, 2026

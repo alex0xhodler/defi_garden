@@ -1,13 +1,13 @@
 # Native Core DeFi Yields
 
-The highest honest Native Core yield right now is 5.37% on native-core-clob (Native Core), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Native Core yield right now is 6.08% on native-core-clob (Native Core), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
 | WBTC | [native-core-clob →](https://www.defi.garden/?pool=cddba699-1af3-52d6-8272-f540492796b0#src=seo_chain) | 1.02% | $1.44M |
-| USDC | [native-core-clob →](https://www.defi.garden/?pool=ecaff9e1-ee58-5042-9680-a1c12bc233a4#src=seo_chain) | 5.37% | $696.7K |
-| ETH | [native-core-clob →](https://www.defi.garden/?pool=9ec34926-8df8-5c86-9534-af15a68fbbc7#src=seo_chain) | 2.73% | $325.8K |
-| USDT | [native-core-clob →](https://www.defi.garden/?pool=a3fa51c6-62dd-500d-9d15-348940355d2b#src=seo_chain) | 3.26% | $163.1K |
+| USDC | [native-core-clob →](https://www.defi.garden/?pool=ecaff9e1-ee58-5042-9680-a1c12bc233a4#src=seo_chain) | 6.08% | $696.8K |
+| ETH | [native-core-clob →](https://www.defi.garden/?pool=9ec34926-8df8-5c86-9534-af15a68fbbc7#src=seo_chain) | 2.74% | $323.6K |
+| USDT | [native-core-clob →](https://www.defi.garden/?pool=a3fa51c6-62dd-500d-9d15-348940355d2b#src=seo_chain) | 3.89% | $163.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,7 +15,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Native Core yield today?
 
-5.37% APY on native-core-clob (Native Core), based on live DefiLlama data.
+6.08% APY on native-core-clob (Native Core), based on live DefiLlama data.
 
 ### How many Native Core pools clear the TVL floor?
 
@@ -41,4 +41,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [ETH](https://www.defi.garden/tokens/eth)
 - [USDT](https://www.defi.garden/tokens/usdt)
 
-## Last updated October 13, 2026
+## Last updated October 14, 2026

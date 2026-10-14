@@ -1,25 +1,25 @@
 # LUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
 
 The highest honest LUSD yield right now is 0.96% on aave-v3 (Arbitrum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=836e7def-cb99-46f6-8e22-1056a81e4040#src=seo_token) | Ethereum | 1.39% | $12.93M |
+| [curve-dex →](https://www.defi.garden/?pool=836e7def-cb99-46f6-8e22-1056a81e4040#src=seo_token) | Ethereum | 0.04% | $12.93M |
 | [aave-v3 →](https://www.defi.garden/?pool=ef8fbf02-ac96-4453-a78c-37bda4cd65e3#src=seo_token) | Ethereum | 0.56% | $1.26M |
-| [curve-dex →](https://www.defi.garden/?pool=80011215-3cbe-4d82-b6c6-5b7a69f729ce#src=seo_token) | Ethereum | 0.27% | $630.1K |
+| [curve-dex →](https://www.defi.garden/?pool=80011215-3cbe-4d82-b6c6-5b7a69f729ce#src=seo_token) | Ethereum | 0.03% | $630.4K |
 | [aave-v3 →](https://www.defi.garden/?pool=b6d41555-60e5-485f-9629-ae292c563a5d#src=seo_token) | Arbitrum | 0.96% | $119.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, LUSD's lower-variability candidates are curve-dex (Ethereum), 1.39% APY, $12.93M TVL, https://www.defi.garden/?pool=836e7def-cb99-46f6-8e22-1056a81e4040#src=seo_token; curve-dex (Ethereum), 0.27% APY, $630.1K TVL, https://www.defi.garden/?pool=80011215-3cbe-4d82-b6c6-5b7a69f729ce#src=seo_token; aave-v3 (Ethereum), 0.56% APY, $1.26M TVL, https://www.defi.garden/?pool=ef8fbf02-ac96-4453-a78c-37bda4cd65e3#src=seo_token; aave-v3 (Arbitrum), 0.96% APY, $119.1K TVL, https://www.defi.garden/?pool=b6d41555-60e5-485f-9629-ae292c563a5d#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LUSD's lower-variability candidates are curve-dex (Ethereum), 0.04% APY, $12.93M TVL, https://www.defi.garden/?pool=836e7def-cb99-46f6-8e22-1056a81e4040#src=seo_token; curve-dex (Ethereum), 0.03% APY, $630.4K TVL, https://www.defi.garden/?pool=80011215-3cbe-4d82-b6c6-5b7a69f729ce#src=seo_token; aave-v3 (Ethereum), 0.56% APY, $1.26M TVL, https://www.defi.garden/?pool=ef8fbf02-ac96-4453-a78c-37bda4cd65e3#src=seo_token; aave-v3 (Arbitrum), 0.96% APY, $119.1K TVL, https://www.defi.garden/?pool=b6d41555-60e5-485f-9629-ae292c563a5d#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=836e7def-cb99-46f6-8e22-1056a81e4040#src=seo_token) | Ethereum | 1.39% | $12.93M |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=80011215-3cbe-4d82-b6c6-5b7a69f729ce#src=seo_token) | Ethereum | 0.27% | $630.1K |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=836e7def-cb99-46f6-8e22-1056a81e4040#src=seo_token) | Ethereum | 0.04% | $12.93M |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=80011215-3cbe-4d82-b6c6-5b7a69f729ce#src=seo_token) | Ethereum | 0.03% | $630.4K |
 | 3 | [aave-v3 →](https://www.defi.garden/?pool=ef8fbf02-ac96-4453-a78c-37bda4cd65e3#src=seo_token) | Ethereum | 0.56% | $1.26M |
 | 4 | [aave-v3 →](https://www.defi.garden/?pool=b6d41555-60e5-485f-9629-ae292c563a5d#src=seo_token) | Arbitrum | 0.96% | $119.1K |
 
@@ -27,7 +27,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-LUSD shows up in 4 pools here, with rates from 0.27% to 1.39% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+LUSD shows up in 4 pools here, with rates from 0.03% to 0.96% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 4 of these 4 pools have a trustworthy 30-day average on file, with a median of 0.31% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -37,9 +37,9 @@ LUSD shows up in 4 pools here, with rates from 0.27% to 1.39% APY across 2 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 1.39% | 0.08% | 0.00% incentives |
+| curve-dex | 0.04% | 0.07% | 0.15% incentives |
 | aave-v3 | 0.56% | 0.55% | Base rate |
-| curve-dex | 0.27% | 0.07% | Base rate |
+| curve-dex | 0.03% | 0.07% | Base rate |
 | aave-v3 | 0.96% | 0.98% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -60,7 +60,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which LUSD pools have the most stable APY history?
 
-Based on APY history only, LUSD's lower-variability candidates are curve-dex (Ethereum), 1.39% APY, $12.93M TVL, https://www.defi.garden/?pool=836e7def-cb99-46f6-8e22-1056a81e4040#src=seo_token; curve-dex (Ethereum), 0.27% APY, $630.1K TVL, https://www.defi.garden/?pool=80011215-3cbe-4d82-b6c6-5b7a69f729ce#src=seo_token; aave-v3 (Ethereum), 0.56% APY, $1.26M TVL, https://www.defi.garden/?pool=ef8fbf02-ac96-4453-a78c-37bda4cd65e3#src=seo_token; aave-v3 (Arbitrum), 0.96% APY, $119.1K TVL, https://www.defi.garden/?pool=b6d41555-60e5-485f-9629-ae292c563a5d#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LUSD's lower-variability candidates are curve-dex (Ethereum), 0.04% APY, $12.93M TVL, https://www.defi.garden/?pool=836e7def-cb99-46f6-8e22-1056a81e4040#src=seo_token; curve-dex (Ethereum), 0.03% APY, $630.4K TVL, https://www.defi.garden/?pool=80011215-3cbe-4d82-b6c6-5b7a69f729ce#src=seo_token; aave-v3 (Ethereum), 0.56% APY, $1.26M TVL, https://www.defi.garden/?pool=ef8fbf02-ac96-4453-a78c-37bda4cd65e3#src=seo_token; aave-v3 (Arbitrum), 0.96% APY, $119.1K TVL, https://www.defi.garden/?pool=b6d41555-60e5-485f-9629-ae292c563a5d#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -76,4 +76,4 @@ Based on APY history only, LUSD's lower-variability candidates are curve-dex (Et
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated October 13, 2026
+## Last updated October 14, 2026

@@ -1,13 +1,13 @@
 # GAMIUSDC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
 
 The highest honest GAMIUSDC yield right now is 9.62% on gami-labs (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gami-labs →](https://www.defi.garden/?pool=aabf8498-4b0d-47e6-863d-5742bf563bd2#src=seo_token) | Ethereum | 9.62% | $8.86M |
 | [lagoon →](https://www.defi.garden/?pool=b49e91d4-961e-49f1-98cd-f3b6d4422b65#src=seo_token) | Ethereum | 9.20% | $8.86M |
+| [gami-labs →](https://www.defi.garden/?pool=aabf8498-4b0d-47e6-863d-5742bf563bd2#src=seo_token) | Ethereum | 9.62% | $8.86M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| gami-labs | 9.62% | 9.70% | Base rate |
 | lagoon | 9.20% | 9.29% | Base rate |
+| gami-labs | 9.62% | 9.70% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -67,4 +67,4 @@ Based on APY history only, GAMIUSDC's lower-variability candidates are gami-labs
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 13, 2026
+## Last updated October 14, 2026

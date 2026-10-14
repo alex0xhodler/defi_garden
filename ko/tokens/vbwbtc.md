@@ -1,23 +1,23 @@
 # VBWBTC 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 13, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 14, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 VBWBTC의 가장 높은 정직한 수익률은 Katana의 yearn-finance에서 2.09%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=1866605d-6b79-49a6-84dd-31ff632858f0#src=seo_token) | Katana | 0.55% | $10.29M |
+| [morpho-blue →](https://www.defi.garden/?pool=1866605d-6b79-49a6-84dd-31ff632858f0#src=seo_token) | Katana | 0.55% | $10.31M |
 | [yearn-finance →](https://www.defi.garden/?pool=b554437b-2ad2-46c7-91d0-d3bc2163ff36#src=seo_token) | Katana | 1.10% | $1.5M |
 | [yearn-finance →](https://www.defi.garden/?pool=adaebb6c-fea5-4c74-a3b6-d4dae2bc50f8#src=seo_token) | Katana | 2.09% | $1.02M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 VBWBTC의 변동성 낮은 후보는 Katana의 morpho-blue, APY 0.55%, TVL $10.29M, https://www.defi.garden/?pool=1866605d-6b79-49a6-84dd-31ff632858f0#src=seo_token; Katana의 yearn-finance, APY 2.09%, TVL $1.02M, https://www.defi.garden/?pool=adaebb6c-fea5-4c74-a3b6-d4dae2bc50f8#src=seo_token; Katana의 yearn-finance, APY 1.10%, TVL $1.5M, https://www.defi.garden/?pool=b554437b-2ad2-46c7-91d0-d3bc2163ff36#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 VBWBTC의 변동성 낮은 후보는 Katana의 morpho-blue, APY 0.55%, TVL $10.31M, https://www.defi.garden/?pool=1866605d-6b79-49a6-84dd-31ff632858f0#src=seo_token; Katana의 yearn-finance, APY 2.09%, TVL $1.02M, https://www.defi.garden/?pool=adaebb6c-fea5-4c74-a3b6-d4dae2bc50f8#src=seo_token; Katana의 yearn-finance, APY 1.10%, TVL $1.5M, https://www.defi.garden/?pool=b554437b-2ad2-46c7-91d0-d3bc2163ff36#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=1866605d-6b79-49a6-84dd-31ff632858f0#src=seo_token) | Katana | 0.55% | $10.29M |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=1866605d-6b79-49a6-84dd-31ff632858f0#src=seo_token) | Katana | 0.55% | $10.31M |
 | 2 | [yearn-finance →](https://www.defi.garden/?pool=adaebb6c-fea5-4c74-a3b6-d4dae2bc50f8#src=seo_token) | Katana | 2.09% | $1.02M |
 | 3 | [yearn-finance →](https://www.defi.garden/?pool=b554437b-2ad2-46c7-91d0-d3bc2163ff36#src=seo_token) | Katana | 1.10% | $1.5M |
 
@@ -47,7 +47,7 @@ DefiLlama 실시간 데이터 기준, Katana의 yearn-finance에서 APY 2.09%예
 
 ### VBWBTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $13.1M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $13.12M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -55,19 +55,19 @@ DefiLlama 실시간 데이터 기준, Katana의 yearn-finance에서 APY 2.09%예
 
 ### VBWBTC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 VBWBTC의 변동성 낮은 후보는 Katana의 morpho-blue, APY 0.55%, TVL $10.29M, https://www.defi.garden/?pool=1866605d-6b79-49a6-84dd-31ff632858f0#src=seo_token; Katana의 yearn-finance, APY 2.09%, TVL $1.02M, https://www.defi.garden/?pool=adaebb6c-fea5-4c74-a3b6-d4dae2bc50f8#src=seo_token; Katana의 yearn-finance, APY 1.10%, TVL $1.5M, https://www.defi.garden/?pool=b554437b-2ad2-46c7-91d0-d3bc2163ff36#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 VBWBTC의 변동성 낮은 후보는 Katana의 morpho-blue, APY 0.55%, TVL $10.31M, https://www.defi.garden/?pool=1866605d-6b79-49a6-84dd-31ff632858f0#src=seo_token; Katana의 yearn-finance, APY 2.09%, TVL $1.02M, https://www.defi.garden/?pool=adaebb6c-fea5-4c74-a3b6-d4dae2bc50f8#src=seo_token; Katana의 yearn-finance, APY 1.10%, TVL $1.5M, https://www.defi.garden/?pool=b554437b-2ad2-46c7-91d0-d3bc2163ff36#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [STEAKUSDC](https://www.defi.garden/ko/tokens/steakusdc)
 - [BBQUSDC](https://www.defi.garden/ko/tokens/bbqusdc)
+- [FXRP](https://www.defi.garden/ko/tokens/fxrp)
 - [YMVOG](https://www.defi.garden/ko/tokens/ymvog)
 - [VBUSDC](https://www.defi.garden/ko/tokens/vbusdc)
-- [YOG](https://www.defi.garden/ko/tokens/yog)
 
 ## 이용 가능한 체인
 
 - [Katana](https://www.defi.garden/ko/chains/katana)
 
-## 마지막 업데이트: October 13, 2026
+## 마지막 업데이트: October 14, 2026

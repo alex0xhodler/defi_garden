@@ -1,12 +1,12 @@
 # KNOTS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
 
-The highest honest KNOTS yield right now is 20.26% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KNOTS yield right now is 35.58% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=455170b3-b1e4-50f1-ad05-a9f07bc6c628#src=seo_token) | Solana | 20.26% | $321.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=455170b3-b1e4-50f1-ad05-a9f07bc6c628#src=seo_token) | Solana | 35.58% | $315.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KNOTS yield today?
 
-20.26% APY on raydium-amm (Solana), based on live DefiLlama data.
+35.58% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many KNOTS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $321.3K in total.
+1 live pool clear this page's $100K TVL floor, $315.5K in total.
 
 ### Are these rates safe?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank KNOTS pools. This view covers
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [BNSOL](https://www.defi.garden/tokens/bnsol)
+- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 13, 2026
+## Last updated October 14, 2026

@@ -1,6 +1,6 @@
 # MTP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
 
 The highest honest MTP yield right now is 8.36% on lagoon (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -9,7 +9,7 @@ The highest honest MTP yield right now is 8.36% on lagoon (Ethereum), among 4 po
 | [lagoon →](https://www.defi.garden/?pool=9001fed4-1523-54c0-a166-048ee08301ef#src=seo_token) | Ethereum | 8.36% | $538.8K |
 | [lagoon →](https://www.defi.garden/?pool=4d1e48c1-5e2d-510d-88a3-172f9e737f5d#src=seo_token) | Ethereum | 6.78% | $354K |
 | [lagoon →](https://www.defi.garden/?pool=696205c3-50f9-531f-8c83-8b480ff348fd#src=seo_token) | Ethereum | 5.72% | $168.7K |
-| [lagoon →](https://www.defi.garden/?pool=57be91d8-9218-5fa6-a2ba-a1ccd6bb1cc8#src=seo_token) | Ethereum | 14.86% | $111.5K |
+| [lagoon →](https://www.defi.garden/?pool=57be91d8-9218-5fa6-a2ba-a1ccd6bb1cc8#src=seo_token) | Ethereum | 14.82% | $111.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -20,9 +20,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-MTP shows up in 4 pools here, with rates from 5.72% to 14.86% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+MTP shows up in 4 pools here, with rates from 5.72% to 14.82% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 6.98% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 6.95% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -30,10 +30,10 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| lagoon | 8.36% | 14.75% | Base rate |
-| lagoon | 6.78% | 7.83% | Base rate |
-| lagoon | 5.72% | 6.14% | Base rate |
-| lagoon | 14.86% | 3.54% | Base rate |
+| lagoon | 8.36% | 14.48% | Base rate |
+| lagoon | 6.78% | 7.78% | Base rate |
+| lagoon | 5.72% | 6.12% | Base rate |
+| lagoon | 14.82% | 4.04% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -68,4 +68,4 @@ There is not enough qualifying APY history to rank MTP pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 13, 2026
+## Last updated October 14, 2026

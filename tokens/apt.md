@@ -1,6 +1,6 @@
 # APT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
 
 The highest honest APT yield right now is 195.25% on hyperion (Aptos), among 11 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -84,4 +84,4 @@ Based on APY history only, APT's lower-variability candidates are hyperion (Apto
 
 - [Aptos](https://www.defi.garden/chains/aptos)
 
-## Last updated October 13, 2026
+## Last updated October 14, 2026

@@ -1,34 +1,34 @@
 # ONDO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 13, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
 
-The highest honest ONDO yield right now is 75.60% on uniswap-v3 (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ONDO yield right now is 57.83% on orca-dex (Solana), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=67958842-74c0-4d3e-b113-5e6cf83893b6#src=seo_token) | Ethereum | 75.60% | $1.8M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=e6d3edc1-aaa5-4ab0-baf8-63b553a8139e#src=seo_token) | Ethereum | 38.37% | $463K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=f7a7c55d-5fea-4cde-933d-e181e0632c3e#src=seo_token) | Ethereum | 26.31% | $235.8K |
-| [orca-dex →](https://www.defi.garden/?pool=740b2db8-8837-537a-81ff-3372cdac3754#src=seo_token) | Solana | 131.03% | $148.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=67958842-74c0-4d3e-b113-5e6cf83893b6#src=seo_token) | Ethereum | 44.98% | $1.79M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=e6d3edc1-aaa5-4ab0-baf8-63b553a8139e#src=seo_token) | Ethereum | 21.91% | $459.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f7a7c55d-5fea-4cde-933d-e181e0632c3e#src=seo_token) | Ethereum | 10.95% | $234.8K |
+| [orca-dex →](https://www.defi.garden/?pool=740b2db8-8837-537a-81ff-3372cdac3754#src=seo_token) | Solana | 57.83% | $137.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ONDO's lower-variability candidates are uniswap-v3 (Ethereum), 75.60% APY, $1.8M TVL, https://www.defi.garden/?pool=67958842-74c0-4d3e-b113-5e6cf83893b6#src=seo_token; uniswap-v4 (Ethereum), 38.37% APY, $463K TVL, https://www.defi.garden/?pool=e6d3edc1-aaa5-4ab0-baf8-63b553a8139e#src=seo_token; uniswap-v4 (Ethereum), 26.31% APY, $235.8K TVL, https://www.defi.garden/?pool=f7a7c55d-5fea-4cde-933d-e181e0632c3e#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ONDO's lower-variability candidates are uniswap-v3 (Ethereum), 44.98% APY, $1.79M TVL, https://www.defi.garden/?pool=67958842-74c0-4d3e-b113-5e6cf83893b6#src=seo_token; uniswap-v4 (Ethereum), 21.91% APY, $459.8K TVL, https://www.defi.garden/?pool=e6d3edc1-aaa5-4ab0-baf8-63b553a8139e#src=seo_token; uniswap-v4 (Ethereum), 10.95% APY, $234.8K TVL, https://www.defi.garden/?pool=f7a7c55d-5fea-4cde-933d-e181e0632c3e#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=67958842-74c0-4d3e-b113-5e6cf83893b6#src=seo_token) | Ethereum | 75.60% | $1.8M |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=e6d3edc1-aaa5-4ab0-baf8-63b553a8139e#src=seo_token) | Ethereum | 38.37% | $463K |
-| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=f7a7c55d-5fea-4cde-933d-e181e0632c3e#src=seo_token) | Ethereum | 26.31% | $235.8K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=67958842-74c0-4d3e-b113-5e6cf83893b6#src=seo_token) | Ethereum | 44.98% | $1.79M |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=e6d3edc1-aaa5-4ab0-baf8-63b553a8139e#src=seo_token) | Ethereum | 21.91% | $459.8K |
+| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=f7a7c55d-5fea-4cde-933d-e181e0632c3e#src=seo_token) | Ethereum | 10.95% | $234.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ONDO shows up in 4 pools here, with rates from 26.31% to 131.03% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+ONDO shows up in 4 pools here, with rates from 10.95% to 57.83% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 104.57% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 105.22% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -36,10 +36,10 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 75.60% | 128.54% | Base rate |
-| uniswap-v4 | 38.37% | 80.61% | Base rate |
-| uniswap-v4 | 26.31% | 27.13% | Base rate |
-| orca-dex | 131.03% | 278.28% | Base rate |
+| uniswap-v3 | 44.98% | 129.50% | Base rate |
+| uniswap-v4 | 21.91% | 80.95% | Base rate |
+| uniswap-v4 | 10.95% | 27.39% | Base rate |
+| orca-dex | 57.83% | 269.16% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -47,11 +47,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ONDO yield today?
 
-75.60% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+57.83% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many ONDO pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $4.38M in total.
+6 live pools clear this page's $100K TVL floor, $4.34M in total.
 
 ### Are these rates safe?
 
@@ -59,7 +59,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ONDO pools have the most stable APY history?
 
-Based on APY history only, ONDO's lower-variability candidates are uniswap-v3 (Ethereum), 75.60% APY, $1.8M TVL, https://www.defi.garden/?pool=67958842-74c0-4d3e-b113-5e6cf83893b6#src=seo_token; uniswap-v4 (Ethereum), 38.37% APY, $463K TVL, https://www.defi.garden/?pool=e6d3edc1-aaa5-4ab0-baf8-63b553a8139e#src=seo_token; uniswap-v4 (Ethereum), 26.31% APY, $235.8K TVL, https://www.defi.garden/?pool=f7a7c55d-5fea-4cde-933d-e181e0632c3e#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ONDO's lower-variability candidates are uniswap-v3 (Ethereum), 44.98% APY, $1.79M TVL, https://www.defi.garden/?pool=67958842-74c0-4d3e-b113-5e6cf83893b6#src=seo_token; uniswap-v4 (Ethereum), 21.91% APY, $459.8K TVL, https://www.defi.garden/?pool=e6d3edc1-aaa5-4ab0-baf8-63b553a8139e#src=seo_token; uniswap-v4 (Ethereum), 10.95% APY, $234.8K TVL, https://www.defi.garden/?pool=f7a7c55d-5fea-4cde-933d-e181e0632c3e#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -75,4 +75,4 @@ Based on APY history only, ONDO's lower-variability candidates are uniswap-v3 (E
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 13, 2026
+## Last updated October 14, 2026
