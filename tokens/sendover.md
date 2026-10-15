@@ -1,12 +1,12 @@
 # SENDOVER DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
 
-The highest honest SENDOVER yield right now is 263.21% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SENDOVER yield right now is 181.62% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=f92c5529-12be-5caa-a5cf-c7a3bc83ad21#src=seo_token) | Ethereum | 263.21% | $132.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f92c5529-12be-5caa-a5cf-c7a3bc83ad21#src=seo_token) | Ethereum | 181.62% | $124.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SENDOVER yield today?
 
-263.21% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+181.62% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many SENDOVER pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $132.8K in total.
+1 live pool clear this page's $100K TVL floor, $124.7K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank SENDOVER pools. This view cov
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 14, 2026
+## Last updated October 15, 2026

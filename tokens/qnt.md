@@ -1,33 +1,33 @@
 # QNT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
 
-The highest honest QNT yield right now is 143.19% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest QNT yield right now is 122.88% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=6be00be4-c239-5481-a3f8-3419bb609f76#src=seo_token) | Ethereum | 127.69% | $1.49M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=2c32828c-2105-406e-b76a-57599f1dc97c#src=seo_token) | Ethereum | 143.19% | $860.3K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=2ff2b579-4ced-4401-a856-73af29c3b763#src=seo_token) | Ethereum | 28.25% | $122.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=6be00be4-c239-5481-a3f8-3419bb609f76#src=seo_token) | Ethereum | 118.98% | $1.41M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2c32828c-2105-406e-b76a-57599f1dc97c#src=seo_token) | Ethereum | 122.88% | $802.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=2ff2b579-4ced-4401-a856-73af29c3b763#src=seo_token) | Ethereum | 19.87% | $113.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, QNT's lower-variability candidates are uniswap-v2 (Ethereum), 28.25% APY, $122.6K TVL, https://www.defi.garden/?pool=2ff2b579-4ced-4401-a856-73af29c3b763#src=seo_token; uniswap-v3 (Ethereum), 143.19% APY, $860.3K TVL, https://www.defi.garden/?pool=2c32828c-2105-406e-b76a-57599f1dc97c#src=seo_token; uniswap-v4 (Ethereum), 127.69% APY, $1.49M TVL, https://www.defi.garden/?pool=6be00be4-c239-5481-a3f8-3419bb609f76#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, QNT's lower-variability candidates are uniswap-v2 (Ethereum), 19.87% APY, $113.2K TVL, https://www.defi.garden/?pool=2ff2b579-4ced-4401-a856-73af29c3b763#src=seo_token; uniswap-v3 (Ethereum), 122.88% APY, $802.6K TVL, https://www.defi.garden/?pool=2c32828c-2105-406e-b76a-57599f1dc97c#src=seo_token; uniswap-v4 (Ethereum), 118.98% APY, $1.41M TVL, https://www.defi.garden/?pool=6be00be4-c239-5481-a3f8-3419bb609f76#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=2ff2b579-4ced-4401-a856-73af29c3b763#src=seo_token) | Ethereum | 28.25% | $122.6K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=2c32828c-2105-406e-b76a-57599f1dc97c#src=seo_token) | Ethereum | 143.19% | $860.3K |
-| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=6be00be4-c239-5481-a3f8-3419bb609f76#src=seo_token) | Ethereum | 127.69% | $1.49M |
+| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=2ff2b579-4ced-4401-a856-73af29c3b763#src=seo_token) | Ethereum | 19.87% | $113.2K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=2c32828c-2105-406e-b76a-57599f1dc97c#src=seo_token) | Ethereum | 122.88% | $802.6K |
+| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=6be00be4-c239-5481-a3f8-3419bb609f76#src=seo_token) | Ethereum | 118.98% | $1.41M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-QNT shows up in 3 pools here, with rates from 28.25% to 143.19% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+QNT shows up in 3 pools here, with rates from 19.87% to 122.88% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 194.28% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 197.73% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -35,9 +35,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 127.69% | 194.28% | Base rate |
-| uniswap-v3 | 143.19% | 223.79% | Base rate |
-| uniswap-v2 | 28.25% | 163.13% | Base rate |
+| uniswap-v4 | 118.98% | 197.73% | Base rate |
+| uniswap-v3 | 122.88% | 227.24% | Base rate |
+| uniswap-v2 | 19.87% | 155.96% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,11 +45,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest QNT yield today?
 
-143.19% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+122.88% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many QNT pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $2.48M in total.
+3 live pools clear this page's $100K TVL floor, $2.33M in total.
 
 ### Are these rates safe?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which QNT pools have the most stable APY history?
 
-Based on APY history only, QNT's lower-variability candidates are uniswap-v2 (Ethereum), 28.25% APY, $122.6K TVL, https://www.defi.garden/?pool=2ff2b579-4ced-4401-a856-73af29c3b763#src=seo_token; uniswap-v3 (Ethereum), 143.19% APY, $860.3K TVL, https://www.defi.garden/?pool=2c32828c-2105-406e-b76a-57599f1dc97c#src=seo_token; uniswap-v4 (Ethereum), 127.69% APY, $1.49M TVL, https://www.defi.garden/?pool=6be00be4-c239-5481-a3f8-3419bb609f76#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, QNT's lower-variability candidates are uniswap-v2 (Ethereum), 19.87% APY, $113.2K TVL, https://www.defi.garden/?pool=2ff2b579-4ced-4401-a856-73af29c3b763#src=seo_token; uniswap-v3 (Ethereum), 122.88% APY, $802.6K TVL, https://www.defi.garden/?pool=2c32828c-2105-406e-b76a-57599f1dc97c#src=seo_token; uniswap-v4 (Ethereum), 118.98% APY, $1.41M TVL, https://www.defi.garden/?pool=6be00be4-c239-5481-a3f8-3419bb609f76#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -72,4 +72,4 @@ Based on APY history only, QNT's lower-variability candidates are uniswap-v2 (Et
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 14, 2026
+## Last updated October 15, 2026

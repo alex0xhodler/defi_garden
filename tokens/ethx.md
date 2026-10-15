@@ -1,44 +1,44 @@
 # ETHX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
 
-The highest honest ETHX yield right now is 6.85% on stake-dao-yield (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ETHX yield right now is 6.69% on stake-dao-yield (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [stader →](https://www.defi.garden/pools/stader-ethx-ethereum) | Ethereum | 2.13% | $196.27M |
-| [curve-dex →](https://www.defi.garden/?pool=f78f31b0-80ed-4504-bf89-74e0162e998f#src=seo_token) | Ethereum | 5.26% | $591.6K |
-| [stake-dao-yield →](https://www.defi.garden/?pool=c572b921-0373-439d-b224-caf54b78f358#src=seo_token) | Ethereum | 6.85% | $373.4K |
-| [convex-finance →](https://www.defi.garden/?pool=65b7d01f-52de-4071-a735-698c52d3643e#src=seo_token) | Ethereum | 6.52% | $212.6K |
+| [stader →](https://www.defi.garden/pools/stader-ethx-ethereum) | Ethereum | 2.07% | $184.15M |
+| [curve-dex →](https://www.defi.garden/?pool=f78f31b0-80ed-4504-bf89-74e0162e998f#src=seo_token) | Ethereum | 1.65% | $492.8K |
+| [stake-dao-yield →](https://www.defi.garden/?pool=c572b921-0373-439d-b224-caf54b78f358#src=seo_token) | Ethereum | 6.69% | $364.2K |
+| [convex-finance →](https://www.defi.garden/?pool=65b7d01f-52de-4071-a735-698c52d3643e#src=seo_token) | Ethereum | 13.33% | $135.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ETHX's lower-variability candidates are stader (Ethereum), 2.13% APY, $196.27M TVL, https://www.defi.garden/pools/stader-ethx-ethereum; curve-dex (Ethereum), 5.26% APY, $591.6K TVL, https://www.defi.garden/?pool=f78f31b0-80ed-4504-bf89-74e0162e998f#src=seo_token; convex-finance (Ethereum), 6.52% APY, $212.6K TVL, https://www.defi.garden/?pool=65b7d01f-52de-4071-a735-698c52d3643e#src=seo_token; stake-dao-yield (Ethereum), 6.85% APY, $373.4K TVL, https://www.defi.garden/?pool=c572b921-0373-439d-b224-caf54b78f358#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ETHX's lower-variability candidates are stader (Ethereum), 2.07% APY, $184.15M TVL, https://www.defi.garden/pools/stader-ethx-ethereum; curve-dex (Ethereum), 1.65% APY, $492.8K TVL, https://www.defi.garden/?pool=f78f31b0-80ed-4504-bf89-74e0162e998f#src=seo_token; convex-finance (Ethereum), 13.33% APY, $135.6K TVL, https://www.defi.garden/?pool=65b7d01f-52de-4071-a735-698c52d3643e#src=seo_token; stake-dao-yield (Ethereum), 6.69% APY, $364.2K TVL, https://www.defi.garden/?pool=c572b921-0373-439d-b224-caf54b78f358#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [stader →](https://www.defi.garden/pools/stader-ethx-ethereum) | Ethereum | 2.13% | $196.27M |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=f78f31b0-80ed-4504-bf89-74e0162e998f#src=seo_token) | Ethereum | 5.26% | $591.6K |
-| 3 | [convex-finance →](https://www.defi.garden/?pool=65b7d01f-52de-4071-a735-698c52d3643e#src=seo_token) | Ethereum | 6.52% | $212.6K |
-| 4 | [stake-dao-yield →](https://www.defi.garden/?pool=c572b921-0373-439d-b224-caf54b78f358#src=seo_token) | Ethereum | 6.85% | $373.4K |
+| 1 | [stader →](https://www.defi.garden/pools/stader-ethx-ethereum) | Ethereum | 2.07% | $184.15M |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=f78f31b0-80ed-4504-bf89-74e0162e998f#src=seo_token) | Ethereum | 1.65% | $492.8K |
+| 3 | [convex-finance →](https://www.defi.garden/?pool=65b7d01f-52de-4071-a735-698c52d3643e#src=seo_token) | Ethereum | 13.33% | $135.6K |
+| 4 | [stake-dao-yield →](https://www.defi.garden/?pool=c572b921-0373-439d-b224-caf54b78f358#src=seo_token) | Ethereum | 6.69% | $364.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ETHX shows up in 4 pools here, with rates from 2.13% to 6.85% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+ETHX shows up in 4 pools here, with rates from 1.65% to 13.33% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 5.19% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 5.18% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-3 of 4 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+2 of 4 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| stader | 2.13% | 2.31% | Base rate |
-| curve-dex | 5.26% | 4.64% | 71.27% incentives |
-| stake-dao-yield | 6.85% | 5.75% | 72.70% incentives |
-| convex-finance | 6.52% | 6.90% | 76.83% incentives |
+| stader | 2.07% | 2.31% | Base rate |
+| curve-dex | 1.65% | 4.63% | Base rate |
+| stake-dao-yield | 6.69% | 5.74% | 73.25% incentives |
+| convex-finance | 13.33% | 6.98% | 87.62% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,11 +46,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ETHX yield today?
 
-6.85% APY on stake-dao-yield (Ethereum), based on live DefiLlama data.
+6.69% APY on stake-dao-yield (Ethereum), based on live DefiLlama data.
 
 ### How many ETHX pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $197.6M in total.
+5 live pools clear this page's $100K TVL floor, $185.27M in total.
 
 ### Are these rates safe?
 
@@ -58,7 +58,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ETHX pools have the most stable APY history?
 
-Based on APY history only, ETHX's lower-variability candidates are stader (Ethereum), 2.13% APY, $196.27M TVL, https://www.defi.garden/pools/stader-ethx-ethereum; curve-dex (Ethereum), 5.26% APY, $591.6K TVL, https://www.defi.garden/?pool=f78f31b0-80ed-4504-bf89-74e0162e998f#src=seo_token; convex-finance (Ethereum), 6.52% APY, $212.6K TVL, https://www.defi.garden/?pool=65b7d01f-52de-4071-a735-698c52d3643e#src=seo_token; stake-dao-yield (Ethereum), 6.85% APY, $373.4K TVL, https://www.defi.garden/?pool=c572b921-0373-439d-b224-caf54b78f358#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ETHX's lower-variability candidates are stader (Ethereum), 2.07% APY, $184.15M TVL, https://www.defi.garden/pools/stader-ethx-ethereum; curve-dex (Ethereum), 1.65% APY, $492.8K TVL, https://www.defi.garden/?pool=f78f31b0-80ed-4504-bf89-74e0162e998f#src=seo_token; convex-finance (Ethereum), 13.33% APY, $135.6K TVL, https://www.defi.garden/?pool=65b7d01f-52de-4071-a735-698c52d3643e#src=seo_token; stake-dao-yield (Ethereum), 6.69% APY, $364.2K TVL, https://www.defi.garden/?pool=c572b921-0373-439d-b224-caf54b78f358#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -73,4 +73,4 @@ Based on APY history only, ETHX's lower-variability candidates are stader (Ether
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 14, 2026
+## Last updated October 15, 2026

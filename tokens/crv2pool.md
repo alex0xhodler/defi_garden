@@ -1,33 +1,33 @@
 # CRV2POOL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
 
-The highest honest CRV2POOL yield right now is 2.37% on curve-dex (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CRV2POOL yield right now is 0.22% on stake-dao-yield (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23#src=seo_token) | Ethereum | 0.38% | $10.06M |
-| [curve-dex →](https://www.defi.garden/?pool=c27e64f8-21d5-47a5-be7a-7d6382eb43a8#src=seo_token) | Ethereum | 2.37% | $602.6K |
-| [stake-dao-yield →](https://www.defi.garden/?pool=7cf95f65-3f7a-4297-873b-bbdd1a86904d#src=seo_token) | Ethereum | 0.30% | $524.3K |
+| [curve-dex →](https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23#src=seo_token) | Ethereum | 0.18% | $10.05M |
+| [curve-dex →](https://www.defi.garden/?pool=c27e64f8-21d5-47a5-be7a-7d6382eb43a8#src=seo_token) | Ethereum | 12.99% | $602.2K |
+| [stake-dao-yield →](https://www.defi.garden/?pool=7cf95f65-3f7a-4297-873b-bbdd1a86904d#src=seo_token) | Ethereum | 0.22% | $524.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, CRV2POOL's lower-variability candidates are curve-dex (Ethereum), 0.38% APY, $10.06M TVL, https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23#src=seo_token; curve-dex (Ethereum), 2.37% APY, $602.6K TVL, https://www.defi.garden/?pool=c27e64f8-21d5-47a5-be7a-7d6382eb43a8#src=seo_token; stake-dao-yield (Ethereum), 0.30% APY, $524.3K TVL, https://www.defi.garden/?pool=7cf95f65-3f7a-4297-873b-bbdd1a86904d#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CRV2POOL's lower-variability candidates are curve-dex (Ethereum), 0.18% APY, $10.05M TVL, https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23#src=seo_token; curve-dex (Ethereum), 12.99% APY, $602.2K TVL, https://www.defi.garden/?pool=c27e64f8-21d5-47a5-be7a-7d6382eb43a8#src=seo_token; stake-dao-yield (Ethereum), 0.22% APY, $524.5K TVL, https://www.defi.garden/?pool=7cf95f65-3f7a-4297-873b-bbdd1a86904d#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23#src=seo_token) | Ethereum | 0.38% | $10.06M |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=c27e64f8-21d5-47a5-be7a-7d6382eb43a8#src=seo_token) | Ethereum | 2.37% | $602.6K |
-| 3 | [stake-dao-yield →](https://www.defi.garden/?pool=7cf95f65-3f7a-4297-873b-bbdd1a86904d#src=seo_token) | Ethereum | 0.30% | $524.3K |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23#src=seo_token) | Ethereum | 0.18% | $10.05M |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=c27e64f8-21d5-47a5-be7a-7d6382eb43a8#src=seo_token) | Ethereum | 12.99% | $602.2K |
+| 3 | [stake-dao-yield →](https://www.defi.garden/?pool=7cf95f65-3f7a-4297-873b-bbdd1a86904d#src=seo_token) | Ethereum | 0.22% | $524.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CRV2POOL shows up in 3 pools here, with rates from 0.30% to 2.37% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CRV2POOL shows up in 3 pools here, with rates from 0.18% to 12.99% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.68% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.56% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -35,9 +35,9 @@ CRV2POOL shows up in 3 pools here, with rates from 0.30% to 2.37% APY across 1 c
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 0.38% | 0.32% | Base rate |
-| curve-dex | 2.37% | 2.08% | 94.09% incentives |
-| stake-dao-yield | 0.30% | 0.68% | Base rate |
+| curve-dex | 0.18% | 0.33% | Base rate |
+| curve-dex | 12.99% | 2.26% | 99.69% incentives |
+| stake-dao-yield | 0.22% | 0.56% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,7 +45,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CRV2POOL yield today?
 
-2.37% APY on curve-dex (Ethereum), based on live DefiLlama data.
+0.22% APY on stake-dao-yield (Ethereum), based on live DefiLlama data.
 
 ### How many CRV2POOL pools clear the TVL floor?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which CRV2POOL pools have the most stable APY history?
 
-Based on APY history only, CRV2POOL's lower-variability candidates are curve-dex (Ethereum), 0.38% APY, $10.06M TVL, https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23#src=seo_token; curve-dex (Ethereum), 2.37% APY, $602.6K TVL, https://www.defi.garden/?pool=c27e64f8-21d5-47a5-be7a-7d6382eb43a8#src=seo_token; stake-dao-yield (Ethereum), 0.30% APY, $524.3K TVL, https://www.defi.garden/?pool=7cf95f65-3f7a-4297-873b-bbdd1a86904d#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CRV2POOL's lower-variability candidates are curve-dex (Ethereum), 0.18% APY, $10.05M TVL, https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23#src=seo_token; curve-dex (Ethereum), 12.99% APY, $602.2K TVL, https://www.defi.garden/?pool=c27e64f8-21d5-47a5-be7a-7d6382eb43a8#src=seo_token; stake-dao-yield (Ethereum), 0.22% APY, $524.5K TVL, https://www.defi.garden/?pool=7cf95f65-3f7a-4297-873b-bbdd1a86904d#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -72,4 +72,4 @@ Based on APY history only, CRV2POOL's lower-variability candidates are curve-dex
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 14, 2026
+## Last updated October 15, 2026

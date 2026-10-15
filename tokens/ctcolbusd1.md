@@ -1,12 +1,12 @@
 # CTCOLBUSD1 DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
 
-The highest honest CTCOLBUSD1 yield right now is 69.02% on concrete (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CTCOLBUSD1 yield right now is 19.10% on concrete (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [concrete →](https://www.defi.garden/?pool=a892f0ed-0387-5d9a-b6a8-2ab4e561447f#src=seo_token) | Ethereum | 69.02% | $10.14M |
+| [concrete →](https://www.defi.garden/?pool=a892f0ed-0387-5d9a-b6a8-2ab4e561447f#src=seo_token) | Ethereum | 19.10% | $10.14M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CTCOLBUSD1 yield today?
 
-69.02% APY on concrete (Ethereum), based on live DefiLlama data.
+19.10% APY on concrete (Ethereum), based on live DefiLlama data.
 
 ### How many CTCOLBUSD1 pools clear the TVL floor?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank CTCOLBUSD1 pools. This view c
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 14, 2026
+## Last updated October 15, 2026

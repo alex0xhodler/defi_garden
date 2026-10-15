@@ -1,12 +1,12 @@
 # MCDX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
 
-The highest honest MCDX yield right now is 68.39% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MCDX yield right now is 68.40% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=ac16d8a8-a559-4035-a467-02041145a363#src=seo_token) | Solana | 68.39% | $272.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=ac16d8a8-a559-4035-a467-02041145a363#src=seo_token) | Solana | 68.40% | $276.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MCDX yield today?
 
-68.39% APY on raydium-amm (Solana), based on live DefiLlama data.
+68.40% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MCDX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $272.5K in total.
+1 live pool clear this page's $100K TVL floor, $276.2K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank MCDX pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 14, 2026
+## Last updated October 15, 2026

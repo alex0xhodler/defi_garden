@@ -1,17 +1,17 @@
 # Ethereum DeFi Yields
 
-The highest honest Ethereum yield right now is 5.26% on maple (Ethereum), among 3,390 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Ethereum yield right now is 5.29% on maple (Ethereum), among 3,321 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| STETH | [lido →](https://www.defi.garden/pools/lido-steth-ethereum) | 2.25% | $24.23B |
-| WBETH | [binance-staked-eth →](https://www.defi.garden/pools/binance-staked-eth-wbeth-ethereum) | 2.22% | $8.81B |
-| WEETH | [ether.fi-stake →](https://www.defi.garden/pools/ether-fi-stake-weeth-ethereum) | 2.30% | $5.53B |
-| SUSDS | [sky-lending →](https://www.defi.garden/pools/sky-lending-susds-ethereum) | 3.80% | $4.99B |
-| USDC | [maple →](https://www.defi.garden/pools/maple-usdc-ethereum) | 5.26% | $2.85B |
-| RETH | [rocket-pool →](https://www.defi.garden/pools/rocket-pool-reth-ethereum) | 2.18% | $1.31B |
-| USDY | [ondo-yield-assets →](https://www.defi.garden/pools/ondo-yield-assets-usdy-ethereum) | 3.67% | $1.25B |
-| SUSDE | [ethena-usde →](https://www.defi.garden/pools/ethena-usde-susde-ethereum) | 4.87% | $1.21B |
+| STETH | [lido →](https://www.defi.garden/pools/lido-steth-ethereum) | 2.21% | $22.82B |
+| WBETH | [binance-staked-eth →](https://www.defi.garden/pools/binance-staked-eth-wbeth-ethereum) | 2.24% | $8.26B |
+| WEETH | [ether.fi-stake →](https://www.defi.garden/pools/ether-fi-stake-weeth-ethereum) | 2.23% | $5.19B |
+| SUSDS | [sky-lending →](https://www.defi.garden/pools/sky-lending-susds-ethereum) | 3.80% | $4.94B |
+| USDC | [maple →](https://www.defi.garden/pools/maple-usdc-ethereum) | 5.29% | $2.78B |
+| USDY | [ondo-yield-assets →](https://www.defi.garden/pools/ondo-yield-assets-usdy-ethereum) | 3.68% | $1.26B |
+| RETH | [rocket-pool →](https://www.defi.garden/pools/rocket-pool-reth-ethereum) | 2.15% | $1.23B |
+| SUSDE | [ethena-usde →](https://www.defi.garden/pools/ethena-usde-susde-ethereum) | 4.89% | $1.21B |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Ethereum yield today?
 
-5.26% APY on maple (Ethereum), based on live DefiLlama data.
+5.29% APY on maple (Ethereum), based on live DefiLlama data.
 
 ### How many Ethereum pools clear the TVL floor?
 
-3,390 live pools clear this page's $100K TVL floor, $105.51B in total.
+3,321 live pools clear this page's $100K TVL floor, $101.19B in total.
 
 ### Are these rates safe?
 
@@ -45,8 +45,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [SUSDS](https://www.defi.garden/tokens/susds)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [RETH](https://www.defi.garden/tokens/reth)
 - [USDY](https://www.defi.garden/tokens/usdy)
+- [RETH](https://www.defi.garden/tokens/reth)
 - [SUSDE](https://www.defi.garden/tokens/susde)
 
-## Last updated October 14, 2026
+## Last updated October 15, 2026

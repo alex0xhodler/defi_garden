@@ -1,6 +1,6 @@
 # BASENYANCAT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
 
 The highest honest BASENYANCAT yield right now is 10.45% on uniswap-v4 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -64,4 +64,4 @@ There is not enough qualifying APY history to rank BASENYANCAT pools. This view 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 14, 2026
+## Last updated October 15, 2026

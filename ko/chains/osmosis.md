@@ -1,17 +1,17 @@
 # Osmosis 디파이 수익률
 
-현재 Osmosis의 가장 높은 정직한 수익률은 Osmosis의 osmosis-dex에서 10.51%이며, $100K TVL 기준을 넘는 20개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 Osmosis의 가장 높은 정직한 수익률은 Osmosis의 osmosis-dex에서 11.72%이며, $100K TVL 기준을 넘는 19개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| ATOM-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58#src=seo_chain) | 12.90% | $831.2K |
-| USDC-ATOM | [osmosis-dex →](https://www.defi.garden/?pool=37d80b3b-3a0f-5068-ae55-909a42c5037f#src=seo_chain) | 0.36% | $407.2K |
-| ATOM-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66#src=seo_chain) | 0.53% | $386K |
-| WETH-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=b52fb9a6-f7df-4920-b82c-7c090455ac6e#src=seo_chain) | 0.60% | $384.9K |
-| AKT-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=59814a74-463d-4fb8-ba51-44443a7a7d83#src=seo_chain) | 0.22% | $241.4K |
-| ATOM-ATONE | [osmosis-dex →](https://www.defi.garden/?pool=5384c5b1-9e14-4e75-b182-509654974b10#src=seo_chain) | 11.06% | $215.9K |
-| AKT-ATOM | [osmosis-dex →](https://www.defi.garden/?pool=11766fcf-b92b-4d3f-b32e-768c897db73b#src=seo_chain) | 10.51% | $210.9K |
-| USDC-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=5daa5b34-9dd8-45c5-b2f6-b1f2e2bd6c28#src=seo_chain) | 37.29% | $164.8K |
+| ATOM-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58#src=seo_chain) | 15.19% | $828.9K |
+| WETH-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=b52fb9a6-f7df-4920-b82c-7c090455ac6e#src=seo_chain) | 0.67% | $386.5K |
+| ATOM-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66#src=seo_chain) | 0.61% | $385K |
+| USDC-ATOM | [osmosis-dex →](https://www.defi.garden/?pool=37d80b3b-3a0f-5068-ae55-909a42c5037f#src=seo_chain) | 1.12% | $379.4K |
+| AKT-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=59814a74-463d-4fb8-ba51-44443a7a7d83#src=seo_chain) | 0.26% | $243.6K |
+| ATOM-ATONE | [osmosis-dex →](https://www.defi.garden/?pool=5384c5b1-9e14-4e75-b182-509654974b10#src=seo_chain) | 10.61% | $200.2K |
+| AKT-ATOM | [osmosis-dex →](https://www.defi.garden/?pool=11766fcf-b92b-4d3f-b32e-768c897db73b#src=seo_chain) | 11.72% | $198.7K |
+| USDC-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=5daa5b34-9dd8-45c5-b2f6-b1f2e2bd6c28#src=seo_chain) | 45.31% | $170.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,11 +19,11 @@
 
 ### 오늘 Osmosis의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Osmosis의 osmosis-dex에서 APY 10.51%예요.
+DefiLlama 실시간 데이터 기준, Osmosis의 osmosis-dex에서 APY 11.72%예요.
 
 ### Osmosis 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 20개이며, 합산 TVL은 $6.71M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 19개이며, 합산 TVL은 $6.47M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -40,11 +40,11 @@ DefiLlama 실시간 데이터 기준, Osmosis의 osmosis-dex에서 APY 10.51%예
 
 ## Osmosis의 인기 토큰
 
-- [ATOM](https://www.defi.garden/ko/tokens/atom)
 - [OSMO](https://www.defi.garden/ko/tokens/osmo)
+- [ATOM](https://www.defi.garden/ko/tokens/atom)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [AKT](https://www.defi.garden/ko/tokens/akt)
 - [WETH](https://www.defi.garden/ko/tokens/weth)
 - [ATONE](https://www.defi.garden/ko/tokens/atone)
 
-## 마지막 업데이트: October 14, 2026
+## 마지막 업데이트: October 15, 2026

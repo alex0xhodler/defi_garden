@@ -1,35 +1,35 @@
 # USDE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
 
 The highest honest USDE yield right now is 5.39% on aave-v4 (Ethereum), among 39 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=42eaf290-24c3-4ce0-82ab-c1276444871b#src=seo_token) | Plasma | 0.26% | $574.64M |
-| [morpho-blue →](https://www.defi.garden/pools/morpho-blue-usde-base) | Base | 4.75% | $385.79M |
-| [morpho-blue →](https://www.defi.garden/pools/morpho-blue-usde-robinhood-chain) | Robinhood Chain | 4.75% | $363.57M |
-| [aave-v3 →](https://www.defi.garden/?pool=21e1ac8a-b3aa-4576-9506-0b40137721a0#src=seo_token) | Ethereum | 0.31% | $234.81M |
-| [aave-v3 →](https://www.defi.garden/pools/aave-v3-usde-monad) | Monad | 1.01% | $142.05M |
-| [curve-dex →](https://www.defi.garden/?pool=12ca9565-0369-404e-b209-631305e4012a#src=seo_token) | Ethereum | 2.69% | $34.04M |
-| [convex-finance →](https://www.defi.garden/?pool=5fac4a47-5360-49b7-8b61-66f88a3d939f#src=seo_token) | Ethereum | 4.04% | $33.93M |
-| [aave-v4 →](https://www.defi.garden/?pool=06e31808-bec8-435c-a2b2-2c539bffb231#src=seo_token) | Ethereum | 5.39% | $26.81M |
+| [aave-v3 →](https://www.defi.garden/?pool=42eaf290-24c3-4ce0-82ab-c1276444871b#src=seo_token) | Plasma | 0.26% | $563.53M |
+| [morpho-blue →](https://www.defi.garden/pools/morpho-blue-usde-base) | Base | 4.75% | $385.57M |
+| [morpho-blue →](https://www.defi.garden/pools/morpho-blue-usde-robinhood-chain) | Robinhood Chain | 4.75% | $351.81M |
+| [aave-v3 →](https://www.defi.garden/?pool=21e1ac8a-b3aa-4576-9506-0b40137721a0#src=seo_token) | Ethereum | 0.29% | $245.83M |
+| [aave-v3 →](https://www.defi.garden/pools/aave-v3-usde-monad) | Monad | 1.01% | $139.77M |
+| [curve-dex →](https://www.defi.garden/?pool=12ca9565-0369-404e-b209-631305e4012a#src=seo_token) | Ethereum | 2.87% | $34.03M |
+| [convex-finance →](https://www.defi.garden/?pool=5fac4a47-5360-49b7-8b61-66f88a3d939f#src=seo_token) | Ethereum | 4.01% | $33.92M |
+| [aave-v4 →](https://www.defi.garden/?pool=06e31808-bec8-435c-a2b2-2c539bffb231#src=seo_token) | Ethereum | 5.39% | $26.72M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, USDE's lower-variability candidates are morpho-blue (Robinhood Chain), 4.75% APY, $363.57M TVL, https://www.defi.garden/pools/morpho-blue-usde-robinhood-chain; aave-v3 (Plasma), 0.26% APY, $574.64M TVL, https://www.defi.garden/?pool=42eaf290-24c3-4ce0-82ab-c1276444871b#src=seo_token; aave-v4 (Ethereum), 5.39% APY, $26.81M TVL, https://www.defi.garden/?pool=06e31808-bec8-435c-a2b2-2c539bffb231#src=seo_token; morpho-blue (Base), 4.75% APY, $385.79M TVL, https://www.defi.garden/pools/morpho-blue-usde-base; aave-v3 (Monad), 1.01% APY, $142.05M TVL, https://www.defi.garden/pools/aave-v3-usde-monad; aave-v3 (Ethereum), 0.31% APY, $234.81M TVL, https://www.defi.garden/?pool=21e1ac8a-b3aa-4576-9506-0b40137721a0#src=seo_token; convex-finance (Ethereum), 4.04% APY, $33.93M TVL, https://www.defi.garden/?pool=5fac4a47-5360-49b7-8b61-66f88a3d939f#src=seo_token; curve-dex (Ethereum), 2.69% APY, $34.04M TVL, https://www.defi.garden/?pool=12ca9565-0369-404e-b209-631305e4012a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDE's lower-variability candidates are morpho-blue (Robinhood Chain), 4.75% APY, $351.81M TVL, https://www.defi.garden/pools/morpho-blue-usde-robinhood-chain; aave-v3 (Plasma), 0.26% APY, $563.53M TVL, https://www.defi.garden/?pool=42eaf290-24c3-4ce0-82ab-c1276444871b#src=seo_token; aave-v4 (Ethereum), 5.39% APY, $26.72M TVL, https://www.defi.garden/?pool=06e31808-bec8-435c-a2b2-2c539bffb231#src=seo_token; morpho-blue (Base), 4.75% APY, $385.57M TVL, https://www.defi.garden/pools/morpho-blue-usde-base; aave-v3 (Monad), 1.01% APY, $139.77M TVL, https://www.defi.garden/pools/aave-v3-usde-monad; aave-v3 (Ethereum), 0.29% APY, $245.83M TVL, https://www.defi.garden/?pool=21e1ac8a-b3aa-4576-9506-0b40137721a0#src=seo_token; convex-finance (Ethereum), 4.01% APY, $33.92M TVL, https://www.defi.garden/?pool=5fac4a47-5360-49b7-8b61-66f88a3d939f#src=seo_token; curve-dex (Ethereum), 2.87% APY, $34.03M TVL, https://www.defi.garden/?pool=12ca9565-0369-404e-b209-631305e4012a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/pools/morpho-blue-usde-robinhood-chain) | Robinhood Chain | 4.75% | $363.57M |
-| 2 | [aave-v3 →](https://www.defi.garden/?pool=42eaf290-24c3-4ce0-82ab-c1276444871b#src=seo_token) | Plasma | 0.26% | $574.64M |
-| 3 | [aave-v4 →](https://www.defi.garden/?pool=06e31808-bec8-435c-a2b2-2c539bffb231#src=seo_token) | Ethereum | 5.39% | $26.81M |
-| 4 | [morpho-blue →](https://www.defi.garden/pools/morpho-blue-usde-base) | Base | 4.75% | $385.79M |
-| 5 | [aave-v3 →](https://www.defi.garden/pools/aave-v3-usde-monad) | Monad | 1.01% | $142.05M |
-| 6 | [aave-v3 →](https://www.defi.garden/?pool=21e1ac8a-b3aa-4576-9506-0b40137721a0#src=seo_token) | Ethereum | 0.31% | $234.81M |
-| 7 | [convex-finance →](https://www.defi.garden/?pool=5fac4a47-5360-49b7-8b61-66f88a3d939f#src=seo_token) | Ethereum | 4.04% | $33.93M |
-| 8 | [curve-dex →](https://www.defi.garden/?pool=12ca9565-0369-404e-b209-631305e4012a#src=seo_token) | Ethereum | 2.69% | $34.04M |
+| 1 | [morpho-blue →](https://www.defi.garden/pools/morpho-blue-usde-robinhood-chain) | Robinhood Chain | 4.75% | $351.81M |
+| 2 | [aave-v3 →](https://www.defi.garden/?pool=42eaf290-24c3-4ce0-82ab-c1276444871b#src=seo_token) | Plasma | 0.26% | $563.53M |
+| 3 | [aave-v4 →](https://www.defi.garden/?pool=06e31808-bec8-435c-a2b2-2c539bffb231#src=seo_token) | Ethereum | 5.39% | $26.72M |
+| 4 | [morpho-blue →](https://www.defi.garden/pools/morpho-blue-usde-base) | Base | 4.75% | $385.57M |
+| 5 | [aave-v3 →](https://www.defi.garden/pools/aave-v3-usde-monad) | Monad | 1.01% | $139.77M |
+| 6 | [aave-v3 →](https://www.defi.garden/?pool=21e1ac8a-b3aa-4576-9506-0b40137721a0#src=seo_token) | Ethereum | 0.29% | $245.83M |
+| 7 | [convex-finance →](https://www.defi.garden/?pool=5fac4a47-5360-49b7-8b61-66f88a3d939f#src=seo_token) | Ethereum | 4.01% | $33.92M |
+| 8 | [curve-dex →](https://www.defi.garden/?pool=12ca9565-0369-404e-b209-631305e4012a#src=seo_token) | Ethereum | 2.87% | $34.03M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -37,20 +37,20 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 USDE shows up in 8 pools here, with rates from 0.26% to 5.39% APY across 5 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 3.38% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 3.36% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 6 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aave-v3 | 0.26% | 0.74% | Base rate |
+| aave-v3 | 0.26% | 0.59% | Base rate |
 | morpho-blue | 4.75% | 4.79% | 100.00% incentives |
 | morpho-blue | 4.75% | 4.80% | 100.00% incentives |
-| aave-v3 | 0.31% | 0.74% | Base rate |
-| aave-v3 | 1.01% | 1.63% | 99.18% incentives |
-| curve-dex | 2.69% | 2.67% | 100.00% incentives |
-| convex-finance | 4.04% | 4.08% | 100.00% incentives |
-| aave-v4 | 5.39% | 5.49% | 99.97% incentives |
+| aave-v3 | 0.29% | 0.59% | Base rate |
+| aave-v3 | 1.01% | 1.47% | 99.16% incentives |
+| curve-dex | 2.87% | 2.66% | 99.65% incentives |
+| convex-finance | 4.01% | 4.07% | 99.75% incentives |
+| aave-v4 | 5.39% | 5.46% | 99.97% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -62,7 +62,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many USDE pools clear the TVL floor?
 
-39 live pools clear this page's $100K TVL floor, $2.1B in total.
+39 live pools clear this page's $100K TVL floor, $2.07B in total.
 
 ### Are these rates safe?
 
@@ -70,7 +70,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USDE pools have the most stable APY history?
 
-Based on APY history only, USDE's lower-variability candidates are morpho-blue (Robinhood Chain), 4.75% APY, $363.57M TVL, https://www.defi.garden/pools/morpho-blue-usde-robinhood-chain; aave-v3 (Plasma), 0.26% APY, $574.64M TVL, https://www.defi.garden/?pool=42eaf290-24c3-4ce0-82ab-c1276444871b#src=seo_token; aave-v4 (Ethereum), 5.39% APY, $26.81M TVL, https://www.defi.garden/?pool=06e31808-bec8-435c-a2b2-2c539bffb231#src=seo_token; morpho-blue (Base), 4.75% APY, $385.79M TVL, https://www.defi.garden/pools/morpho-blue-usde-base; aave-v3 (Monad), 1.01% APY, $142.05M TVL, https://www.defi.garden/pools/aave-v3-usde-monad; aave-v3 (Ethereum), 0.31% APY, $234.81M TVL, https://www.defi.garden/?pool=21e1ac8a-b3aa-4576-9506-0b40137721a0#src=seo_token; convex-finance (Ethereum), 4.04% APY, $33.93M TVL, https://www.defi.garden/?pool=5fac4a47-5360-49b7-8b61-66f88a3d939f#src=seo_token; curve-dex (Ethereum), 2.69% APY, $34.04M TVL, https://www.defi.garden/?pool=12ca9565-0369-404e-b209-631305e4012a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDE's lower-variability candidates are morpho-blue (Robinhood Chain), 4.75% APY, $351.81M TVL, https://www.defi.garden/pools/morpho-blue-usde-robinhood-chain; aave-v3 (Plasma), 0.26% APY, $563.53M TVL, https://www.defi.garden/?pool=42eaf290-24c3-4ce0-82ab-c1276444871b#src=seo_token; aave-v4 (Ethereum), 5.39% APY, $26.72M TVL, https://www.defi.garden/?pool=06e31808-bec8-435c-a2b2-2c539bffb231#src=seo_token; morpho-blue (Base), 4.75% APY, $385.57M TVL, https://www.defi.garden/pools/morpho-blue-usde-base; aave-v3 (Monad), 1.01% APY, $139.77M TVL, https://www.defi.garden/pools/aave-v3-usde-monad; aave-v3 (Ethereum), 0.29% APY, $245.83M TVL, https://www.defi.garden/?pool=21e1ac8a-b3aa-4576-9506-0b40137721a0#src=seo_token; convex-finance (Ethereum), 4.01% APY, $33.92M TVL, https://www.defi.garden/?pool=5fac4a47-5360-49b7-8b61-66f88a3d939f#src=seo_token; curve-dex (Ethereum), 2.87% APY, $34.03M TVL, https://www.defi.garden/?pool=12ca9565-0369-404e-b209-631305e4012a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -89,4 +89,4 @@ Based on APY history only, USDE's lower-variability candidates are morpho-blue (
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated October 14, 2026
+## Last updated October 15, 2026

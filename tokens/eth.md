@@ -1,19 +1,19 @@
 # ETH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
 
-The highest honest ETH yield right now is 2.44% on gmx-v2-perps (Arbitrum), among 447 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ETH yield right now is 2.59% on gmx-v2-perps (Arbitrum), among 428 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [stakewise-v3 →](https://www.defi.garden/?pool=05fca0cd-a063-547f-9dc4-41b41337e792#src=seo_token) | Ethereum | 2.39% | $102.2M |
-| [curve-dex →](https://www.defi.garden/?pool=57d30b9c-fc66-4ac2-b666-69ad5f410cce#src=seo_token) | Ethereum | 1.20% | $96.33M |
-| [fluid-dex →](https://www.defi.garden/?pool=4f715567-420c-400d-9a62-0059331e3940#src=seo_token) | Ethereum | 0.04% | $87.85M |
-| [fluid-lending →](https://www.defi.garden/?pool=1262521f-3ba5-47d7-b035-ace072a0d0df#src=seo_token) | Ethereum | 1.81% | $62.21M |
-| [fluid-lending →](https://www.defi.garden/?pool=cbb9fc26-2b9e-436a-95d0-c75e2c0f5869#src=seo_token) | Ethereum | 1.81% | $60.14M |
-| [convex-finance →](https://www.defi.garden/?pool=5ce23e7e-3800-4c9c-ad30-6db3db0515a1#src=seo_token) | Ethereum | 1.20% | $55M |
-| [spark-savings →](https://www.defi.garden/?pool=bace601a-530a-432c-9b79-8c6451de25ea#src=seo_token) | Ethereum | 1.45% | $49.89M |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=61b4c35c-97f6-4c05-a5ff-aeb4426adf5b#src=seo_token) | Arbitrum | 2.44% | $46.47M |
+| [stakewise-v3 →](https://www.defi.garden/?pool=05fca0cd-a063-547f-9dc4-41b41337e792#src=seo_token) | Ethereum | 2.39% | $95.25M |
+| [curve-dex →](https://www.defi.garden/?pool=57d30b9c-fc66-4ac2-b666-69ad5f410cce#src=seo_token) | Ethereum | 1.18% | $90.95M |
+| [fluid-dex →](https://www.defi.garden/?pool=4f715567-420c-400d-9a62-0059331e3940#src=seo_token) | Ethereum | 0.06% | $82.44M |
+| [fluid-lending →](https://www.defi.garden/?pool=1262521f-3ba5-47d7-b035-ace072a0d0df#src=seo_token) | Ethereum | 1.78% | $58.26M |
+| [fluid-lending →](https://www.defi.garden/?pool=cbb9fc26-2b9e-436a-95d0-c75e2c0f5869#src=seo_token) | Ethereum | 1.78% | $56.3M |
+| [convex-finance →](https://www.defi.garden/?pool=5ce23e7e-3800-4c9c-ad30-6db3db0515a1#src=seo_token) | Ethereum | 1.18% | $51.92M |
+| [spark-savings →](https://www.defi.garden/?pool=bace601a-530a-432c-9b79-8c6451de25ea#src=seo_token) | Ethereum | 1.40% | $47.25M |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=61b4c35c-97f6-4c05-a5ff-aeb4426adf5b#src=seo_token) | Arbitrum | 2.59% | $44.84M |
 
 ## How ETH Yield is Generated
 
@@ -26,24 +26,24 @@ All DeFi yields carry inherent risk. Smart contract vulnerabilities, protocol ec
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ETH's lower-variability candidates are stakewise-v3 (Ethereum), 2.39% APY, $102.2M TVL, https://www.defi.garden/?pool=05fca0cd-a063-547f-9dc4-41b41337e792#src=seo_token; spark-savings (Ethereum), 1.45% APY, $49.89M TVL, https://www.defi.garden/?pool=bace601a-530a-432c-9b79-8c6451de25ea#src=seo_token; fluid-dex (Ethereum), 0.04% APY, $87.85M TVL, https://www.defi.garden/?pool=4f715567-420c-400d-9a62-0059331e3940#src=seo_token; convex-finance (Ethereum), 1.20% APY, $55M TVL, https://www.defi.garden/?pool=5ce23e7e-3800-4c9c-ad30-6db3db0515a1#src=seo_token; fluid-lending (Ethereum), 1.81% APY, $62.21M TVL, https://www.defi.garden/?pool=1262521f-3ba5-47d7-b035-ace072a0d0df#src=seo_token; fluid-lending (Ethereum), 1.81% APY, $60.14M TVL, https://www.defi.garden/?pool=cbb9fc26-2b9e-436a-95d0-c75e2c0f5869#src=seo_token; gmx-v2-perps (Arbitrum), 2.44% APY, $46.47M TVL, https://www.defi.garden/?pool=61b4c35c-97f6-4c05-a5ff-aeb4426adf5b#src=seo_token; curve-dex (Ethereum), 1.20% APY, $96.33M TVL, https://www.defi.garden/?pool=57d30b9c-fc66-4ac2-b666-69ad5f410cce#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ETH's lower-variability candidates are stakewise-v3 (Ethereum), 2.39% APY, $95.25M TVL, https://www.defi.garden/?pool=05fca0cd-a063-547f-9dc4-41b41337e792#src=seo_token; spark-savings (Ethereum), 1.40% APY, $47.25M TVL, https://www.defi.garden/?pool=bace601a-530a-432c-9b79-8c6451de25ea#src=seo_token; fluid-dex (Ethereum), 0.06% APY, $82.44M TVL, https://www.defi.garden/?pool=4f715567-420c-400d-9a62-0059331e3940#src=seo_token; convex-finance (Ethereum), 1.18% APY, $51.92M TVL, https://www.defi.garden/?pool=5ce23e7e-3800-4c9c-ad30-6db3db0515a1#src=seo_token; fluid-lending (Ethereum), 1.78% APY, $58.26M TVL, https://www.defi.garden/?pool=1262521f-3ba5-47d7-b035-ace072a0d0df#src=seo_token; fluid-lending (Ethereum), 1.78% APY, $56.3M TVL, https://www.defi.garden/?pool=cbb9fc26-2b9e-436a-95d0-c75e2c0f5869#src=seo_token; gmx-v2-perps (Arbitrum), 2.59% APY, $44.84M TVL, https://www.defi.garden/?pool=61b4c35c-97f6-4c05-a5ff-aeb4426adf5b#src=seo_token; curve-dex (Ethereum), 1.18% APY, $90.95M TVL, https://www.defi.garden/?pool=57d30b9c-fc66-4ac2-b666-69ad5f410cce#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [stakewise-v3 →](https://www.defi.garden/?pool=05fca0cd-a063-547f-9dc4-41b41337e792#src=seo_token) | Ethereum | 2.39% | $102.2M |
-| 2 | [spark-savings →](https://www.defi.garden/?pool=bace601a-530a-432c-9b79-8c6451de25ea#src=seo_token) | Ethereum | 1.45% | $49.89M |
-| 3 | [fluid-dex →](https://www.defi.garden/?pool=4f715567-420c-400d-9a62-0059331e3940#src=seo_token) | Ethereum | 0.04% | $87.85M |
-| 4 | [convex-finance →](https://www.defi.garden/?pool=5ce23e7e-3800-4c9c-ad30-6db3db0515a1#src=seo_token) | Ethereum | 1.20% | $55M |
-| 5 | [fluid-lending →](https://www.defi.garden/?pool=1262521f-3ba5-47d7-b035-ace072a0d0df#src=seo_token) | Ethereum | 1.81% | $62.21M |
-| 6 | [fluid-lending →](https://www.defi.garden/?pool=cbb9fc26-2b9e-436a-95d0-c75e2c0f5869#src=seo_token) | Ethereum | 1.81% | $60.14M |
-| 7 | [gmx-v2-perps →](https://www.defi.garden/?pool=61b4c35c-97f6-4c05-a5ff-aeb4426adf5b#src=seo_token) | Arbitrum | 2.44% | $46.47M |
-| 8 | [curve-dex →](https://www.defi.garden/?pool=57d30b9c-fc66-4ac2-b666-69ad5f410cce#src=seo_token) | Ethereum | 1.20% | $96.33M |
+| 1 | [stakewise-v3 →](https://www.defi.garden/?pool=05fca0cd-a063-547f-9dc4-41b41337e792#src=seo_token) | Ethereum | 2.39% | $95.25M |
+| 2 | [spark-savings →](https://www.defi.garden/?pool=bace601a-530a-432c-9b79-8c6451de25ea#src=seo_token) | Ethereum | 1.40% | $47.25M |
+| 3 | [fluid-dex →](https://www.defi.garden/?pool=4f715567-420c-400d-9a62-0059331e3940#src=seo_token) | Ethereum | 0.06% | $82.44M |
+| 4 | [convex-finance →](https://www.defi.garden/?pool=5ce23e7e-3800-4c9c-ad30-6db3db0515a1#src=seo_token) | Ethereum | 1.18% | $51.92M |
+| 5 | [fluid-lending →](https://www.defi.garden/?pool=1262521f-3ba5-47d7-b035-ace072a0d0df#src=seo_token) | Ethereum | 1.78% | $58.26M |
+| 6 | [fluid-lending →](https://www.defi.garden/?pool=cbb9fc26-2b9e-436a-95d0-c75e2c0f5869#src=seo_token) | Ethereum | 1.78% | $56.3M |
+| 7 | [gmx-v2-perps →](https://www.defi.garden/?pool=61b4c35c-97f6-4c05-a5ff-aeb4426adf5b#src=seo_token) | Arbitrum | 2.59% | $44.84M |
+| 8 | [curve-dex →](https://www.defi.garden/?pool=57d30b9c-fc66-4ac2-b666-69ad5f410cce#src=seo_token) | Ethereum | 1.18% | $90.95M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ETH shows up in 8 pools here, with rates from 0.04% to 2.44% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+ETH shows up in 8 pools here, with rates from 0.06% to 2.59% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 1.70% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -54,13 +54,13 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | stakewise-v3 | 2.39% | 2.37% | Base rate |
-| curve-dex | 1.20% | 1.30% | Base rate |
-| fluid-dex | 0.04% | 0.40% | Base rate |
-| fluid-lending | 1.81% | 1.94% | Base rate |
-| fluid-lending | 1.81% | 1.94% | Base rate |
-| convex-finance | 1.20% | 1.30% | Base rate |
-| spark-savings | 1.45% | 1.46% | Base rate |
-| gmx-v2-perps | 2.44% | 2.46% | Base rate |
+| curve-dex | 1.18% | 1.30% | Base rate |
+| fluid-dex | 0.06% | 0.39% | Base rate |
+| fluid-lending | 1.78% | 1.94% | Base rate |
+| fluid-lending | 1.78% | 1.94% | Base rate |
+| convex-finance | 1.18% | 1.30% | Base rate |
+| spark-savings | 1.40% | 1.46% | Base rate |
+| gmx-v2-perps | 2.59% | 2.40% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -68,11 +68,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ETH yield today?
 
-2.44% APY on gmx-v2-perps (Arbitrum), based on live DefiLlama data.
+2.59% APY on gmx-v2-perps (Arbitrum), based on live DefiLlama data.
 
 ### How many ETH pools clear the TVL floor?
 
-447 live pools clear this page's $100K TVL floor, $2.84B in total.
+428 live pools clear this page's $100K TVL floor, $2.67B in total.
 
 ### Are these rates safe?
 
@@ -80,7 +80,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ETH pools have the most stable APY history?
 
-Based on APY history only, ETH's lower-variability candidates are stakewise-v3 (Ethereum), 2.39% APY, $102.2M TVL, https://www.defi.garden/?pool=05fca0cd-a063-547f-9dc4-41b41337e792#src=seo_token; spark-savings (Ethereum), 1.45% APY, $49.89M TVL, https://www.defi.garden/?pool=bace601a-530a-432c-9b79-8c6451de25ea#src=seo_token; fluid-dex (Ethereum), 0.04% APY, $87.85M TVL, https://www.defi.garden/?pool=4f715567-420c-400d-9a62-0059331e3940#src=seo_token; convex-finance (Ethereum), 1.20% APY, $55M TVL, https://www.defi.garden/?pool=5ce23e7e-3800-4c9c-ad30-6db3db0515a1#src=seo_token; fluid-lending (Ethereum), 1.81% APY, $62.21M TVL, https://www.defi.garden/?pool=1262521f-3ba5-47d7-b035-ace072a0d0df#src=seo_token; fluid-lending (Ethereum), 1.81% APY, $60.14M TVL, https://www.defi.garden/?pool=cbb9fc26-2b9e-436a-95d0-c75e2c0f5869#src=seo_token; gmx-v2-perps (Arbitrum), 2.44% APY, $46.47M TVL, https://www.defi.garden/?pool=61b4c35c-97f6-4c05-a5ff-aeb4426adf5b#src=seo_token; curve-dex (Ethereum), 1.20% APY, $96.33M TVL, https://www.defi.garden/?pool=57d30b9c-fc66-4ac2-b666-69ad5f410cce#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ETH's lower-variability candidates are stakewise-v3 (Ethereum), 2.39% APY, $95.25M TVL, https://www.defi.garden/?pool=05fca0cd-a063-547f-9dc4-41b41337e792#src=seo_token; spark-savings (Ethereum), 1.40% APY, $47.25M TVL, https://www.defi.garden/?pool=bace601a-530a-432c-9b79-8c6451de25ea#src=seo_token; fluid-dex (Ethereum), 0.06% APY, $82.44M TVL, https://www.defi.garden/?pool=4f715567-420c-400d-9a62-0059331e3940#src=seo_token; convex-finance (Ethereum), 1.18% APY, $51.92M TVL, https://www.defi.garden/?pool=5ce23e7e-3800-4c9c-ad30-6db3db0515a1#src=seo_token; fluid-lending (Ethereum), 1.78% APY, $58.26M TVL, https://www.defi.garden/?pool=1262521f-3ba5-47d7-b035-ace072a0d0df#src=seo_token; fluid-lending (Ethereum), 1.78% APY, $56.3M TVL, https://www.defi.garden/?pool=cbb9fc26-2b9e-436a-95d0-c75e2c0f5869#src=seo_token; gmx-v2-perps (Arbitrum), 2.59% APY, $44.84M TVL, https://www.defi.garden/?pool=61b4c35c-97f6-4c05-a5ff-aeb4426adf5b#src=seo_token; curve-dex (Ethereum), 1.18% APY, $90.95M TVL, https://www.defi.garden/?pool=57d30b9c-fc66-4ac2-b666-69ad5f410cce#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -96,4 +96,4 @@ Based on APY history only, ETH's lower-variability candidates are stakewise-v3 (
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated October 14, 2026
+## Last updated October 15, 2026

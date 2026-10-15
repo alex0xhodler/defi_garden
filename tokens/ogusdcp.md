@@ -1,12 +1,12 @@
 # OGUSDCP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
 
-The highest honest OGUSDCP yield right now is 4.52% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OGUSDCP yield right now is 4.31% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=485a6091-2c75-54dc-847f-b07c02b7958f#src=seo_token) | Ethereum | 4.52% | $599.9K |
+| [morpho-blue →](https://www.defi.garden/?pool=485a6091-2c75-54dc-847f-b07c02b7958f#src=seo_token) | Ethereum | 4.31% | $5M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest OGUSDCP yield today?
 
-4.52% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+4.31% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many OGUSDCP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $599.9K in total.
+1 live pool clear this page's $100K TVL floor, $5M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank OGUSDCP pools. This view cove
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 14, 2026
+## Last updated October 15, 2026

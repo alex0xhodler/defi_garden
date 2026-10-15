@@ -1,41 +1,31 @@
 # USDAI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
 
-The highest honest USDAI yield right now is 15.91% on pendle-v2 (Arbitrum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDAI yield right now is 3.30% on fluid-dex (Arbitrum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle-v2 →](https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c#src=seo_token) | Arbitrum | 6.52% | $50.42M |
-| [pendle-v2 →](https://www.defi.garden/?pool=2785c8d0-348b-4e8f-904e-4b02819993b9#src=seo_token) | Arbitrum | 15.91% | $50.42M |
-| [fluid-dex →](https://www.defi.garden/?pool=9383bed8-c5cd-4ca1-8692-a8447773a360#src=seo_token) | Arbitrum | 0.07% | $4.17M |
+| [fluid-dex →](https://www.defi.garden/?pool=9383bed8-c5cd-4ca1-8692-a8447773a360#src=seo_token) | Arbitrum | 3.30% | $2.9M |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, USDAI's lower-variability candidates are pendle-v2 (Arbitrum), 15.91% APY, $50.42M TVL, https://www.defi.garden/?pool=2785c8d0-348b-4e8f-904e-4b02819993b9#src=seo_token; fluid-dex (Arbitrum), 0.07% APY, $4.17M TVL, https://www.defi.garden/?pool=9383bed8-c5cd-4ca1-8692-a8447773a360#src=seo_token; pendle-v2 (Arbitrum), 6.52% APY, $50.42M TVL, https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [pendle-v2 →](https://www.defi.garden/?pool=2785c8d0-348b-4e8f-904e-4b02819993b9#src=seo_token) | Arbitrum | 15.91% | $50.42M |
-| 2 | [fluid-dex →](https://www.defi.garden/?pool=9383bed8-c5cd-4ca1-8692-a8447773a360#src=seo_token) | Arbitrum | 0.07% | $4.17M |
-| 3 | [pendle-v2 →](https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c#src=seo_token) | Arbitrum | 6.52% | $50.42M |
+There is not enough qualifying APY history to rank USDAI pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-USDAI shows up in 3 pools here, with rates from 0.07% to 15.91% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+USDAI shows up in 1 pools here, with rates from 3.30% to 3.30% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 2.89% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 1.22% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle-v2 | 6.52% | 2.89% | 0.35% incentives |
-| pendle-v2 | 15.91% | 10.91% | Base rate |
-| fluid-dex | 0.07% | 1.19% | Base rate |
+| fluid-dex | 3.30% | 1.22% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -43,11 +33,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USDAI yield today?
 
-15.91% APY on pendle-v2 (Arbitrum), based on live DefiLlama data.
+3.30% APY on fluid-dex (Arbitrum), based on live DefiLlama data.
 
 ### How many USDAI pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $108.48M in total.
+4 live pools clear this page's $100K TVL floor, $5.65M in total.
 
 ### Are these rates safe?
 
@@ -55,12 +45,12 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USDAI pools have the most stable APY history?
 
-Based on APY history only, USDAI's lower-variability candidates are pendle-v2 (Arbitrum), 15.91% APY, $50.42M TVL, https://www.defi.garden/?pool=2785c8d0-348b-4e8f-904e-4b02819993b9#src=seo_token; fluid-dex (Arbitrum), 0.07% APY, $4.17M TVL, https://www.defi.garden/?pool=9383bed8-c5cd-4ca1-8692-a8447773a360#src=seo_token; pendle-v2 (Arbitrum), 6.52% APY, $50.42M TVL, https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank USDAI pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
-- [WBTC](https://www.defi.garden/tokens/wbtc)
 - [SUSDS](https://www.defi.garden/tokens/susds)
+- [WBTC](https://www.defi.garden/tokens/wbtc)
 - [ETH](https://www.defi.garden/tokens/eth)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [USDS](https://www.defi.garden/tokens/usds)
@@ -70,4 +60,4 @@ Based on APY history only, USDAI's lower-variability candidates are pendle-v2 (A
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated October 14, 2026
+## Last updated October 15, 2026

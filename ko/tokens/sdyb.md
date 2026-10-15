@@ -1,35 +1,35 @@
 # SDYB 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 14, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 15, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 SDYB의 가장 높은 정직한 수익률은 Ethereum의 stake-dao-yield에서 8.16%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SDYB의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 9.33%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [stake-dao-yield →](https://www.defi.garden/?pool=265b1b8f-d19e-4ebc-9303-0eeab9f723f8#src=seo_token) | Ethereum | 0.59% | $485.3K |
-| [curve-dex →](https://www.defi.garden/?pool=f13c7bc3-690f-44fb-bca6-698784176a29#src=seo_token) | Ethereum | 4.01% | $186.1K |
-| [stake-dao-yield →](https://www.defi.garden/?pool=44f659b4-51c3-4897-baf2-6b351d4eaf0d#src=seo_token) | Ethereum | 8.16% | $147.8K |
-| [convex-finance →](https://www.defi.garden/?pool=ada8ac24-70a8-4ac5-b545-6b61b73b240c#src=seo_token) | Ethereum | 7.31% | $127.1K |
+| [stake-dao-yield →](https://www.defi.garden/?pool=265b1b8f-d19e-4ebc-9303-0eeab9f723f8#src=seo_token) | Ethereum | 0.67% | $427.9K |
+| [curve-dex →](https://www.defi.garden/?pool=f13c7bc3-690f-44fb-bca6-698784176a29#src=seo_token) | Ethereum | 5.76% | $168.3K |
+| [stake-dao-yield →](https://www.defi.garden/?pool=44f659b4-51c3-4897-baf2-6b351d4eaf0d#src=seo_token) | Ethereum | 7.94% | $146.9K |
+| [convex-finance →](https://www.defi.garden/?pool=ada8ac24-70a8-4ac5-b545-6b61b73b240c#src=seo_token) | Ethereum | 9.33% | $116.4K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 SDYB의 변동성 낮은 후보는 Ethereum의 stake-dao-yield, APY 8.16%, TVL $147.8K, https://www.defi.garden/?pool=44f659b4-51c3-4897-baf2-6b351d4eaf0d#src=seo_token; Ethereum의 curve-dex, APY 4.01%, TVL $186.1K, https://www.defi.garden/?pool=f13c7bc3-690f-44fb-bca6-698784176a29#src=seo_token; Ethereum의 convex-finance, APY 7.31%, TVL $127.1K, https://www.defi.garden/?pool=ada8ac24-70a8-4ac5-b545-6b61b73b240c#src=seo_token; Ethereum의 stake-dao-yield, APY 0.59%, TVL $485.3K, https://www.defi.garden/?pool=265b1b8f-d19e-4ebc-9303-0eeab9f723f8#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SDYB의 변동성 낮은 후보는 Ethereum의 stake-dao-yield, APY 7.94%, TVL $146.9K, https://www.defi.garden/?pool=44f659b4-51c3-4897-baf2-6b351d4eaf0d#src=seo_token; Ethereum의 curve-dex, APY 5.76%, TVL $168.3K, https://www.defi.garden/?pool=f13c7bc3-690f-44fb-bca6-698784176a29#src=seo_token; Ethereum의 convex-finance, APY 9.33%, TVL $116.4K, https://www.defi.garden/?pool=ada8ac24-70a8-4ac5-b545-6b61b73b240c#src=seo_token; Ethereum의 stake-dao-yield, APY 0.67%, TVL $427.9K, https://www.defi.garden/?pool=265b1b8f-d19e-4ebc-9303-0eeab9f723f8#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [stake-dao-yield →](https://www.defi.garden/?pool=44f659b4-51c3-4897-baf2-6b351d4eaf0d#src=seo_token) | Ethereum | 8.16% | $147.8K |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=f13c7bc3-690f-44fb-bca6-698784176a29#src=seo_token) | Ethereum | 4.01% | $186.1K |
-| 3 | [convex-finance →](https://www.defi.garden/?pool=ada8ac24-70a8-4ac5-b545-6b61b73b240c#src=seo_token) | Ethereum | 7.31% | $127.1K |
-| 4 | [stake-dao-yield →](https://www.defi.garden/?pool=265b1b8f-d19e-4ebc-9303-0eeab9f723f8#src=seo_token) | Ethereum | 0.59% | $485.3K |
+| 1 | [stake-dao-yield →](https://www.defi.garden/?pool=44f659b4-51c3-4897-baf2-6b351d4eaf0d#src=seo_token) | Ethereum | 7.94% | $146.9K |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=f13c7bc3-690f-44fb-bca6-698784176a29#src=seo_token) | Ethereum | 5.76% | $168.3K |
+| 3 | [convex-finance →](https://www.defi.garden/?pool=ada8ac24-70a8-4ac5-b545-6b61b73b240c#src=seo_token) | Ethereum | 9.33% | $116.4K |
+| 4 | [stake-dao-yield →](https://www.defi.garden/?pool=265b1b8f-d19e-4ebc-9303-0eeab9f723f8#src=seo_token) | Ethereum | 0.67% | $427.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-SDYB 풀은 여기 4개가 있고, 1개 체인에서 APY가 0.59%부터 8.16%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+SDYB 풀은 여기 4개가 있고, 1개 체인에서 APY가 0.67%부터 9.33%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 7.36%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 7.15%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 4개 풀 중 4개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -37,10 +37,10 @@ SDYB 풀은 여기 4개가 있고, 1개 체인에서 APY가 0.59%부터 8.16%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| stake-dao-yield | 0.59% | 1.34% | 인센티브 100.00% |
-| curve-dex | 4.01% | 4.96% | 인센티브 100.00% |
-| stake-dao-yield | 8.16% | 9.76% | 인센티브 99.75% |
-| convex-finance | 7.31% | 10.54% | 인센티브 99.73% |
+| stake-dao-yield | 0.67% | 1.08% | 인센티브 100.00% |
+| curve-dex | 5.76% | 4.86% | 인센티브 74.63% |
+| stake-dao-yield | 7.94% | 9.44% | 인센티브 97.10% |
+| convex-finance | 9.33% | 10.28% | 인센티브 84.35% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -48,11 +48,11 @@ SDYB 풀은 여기 4개가 있고, 1개 체인에서 APY가 0.59%부터 8.16%까
 
 ### 오늘 SDYB의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 stake-dao-yield에서 APY 8.16%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 9.33%예요.
 
 ### SDYB 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $946.3K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $859.6K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -60,7 +60,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 stake-dao-yield에서 APY 8.16
 
 ### SDYB 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 SDYB의 변동성 낮은 후보는 Ethereum의 stake-dao-yield, APY 8.16%, TVL $147.8K, https://www.defi.garden/?pool=44f659b4-51c3-4897-baf2-6b351d4eaf0d#src=seo_token; Ethereum의 curve-dex, APY 4.01%, TVL $186.1K, https://www.defi.garden/?pool=f13c7bc3-690f-44fb-bca6-698784176a29#src=seo_token; Ethereum의 convex-finance, APY 7.31%, TVL $127.1K, https://www.defi.garden/?pool=ada8ac24-70a8-4ac5-b545-6b61b73b240c#src=seo_token; Ethereum의 stake-dao-yield, APY 0.59%, TVL $485.3K, https://www.defi.garden/?pool=265b1b8f-d19e-4ebc-9303-0eeab9f723f8#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SDYB의 변동성 낮은 후보는 Ethereum의 stake-dao-yield, APY 7.94%, TVL $146.9K, https://www.defi.garden/?pool=44f659b4-51c3-4897-baf2-6b351d4eaf0d#src=seo_token; Ethereum의 curve-dex, APY 5.76%, TVL $168.3K, https://www.defi.garden/?pool=f13c7bc3-690f-44fb-bca6-698784176a29#src=seo_token; Ethereum의 convex-finance, APY 9.33%, TVL $116.4K, https://www.defi.garden/?pool=ada8ac24-70a8-4ac5-b545-6b61b73b240c#src=seo_token; Ethereum의 stake-dao-yield, APY 0.67%, TVL $427.9K, https://www.defi.garden/?pool=265b1b8f-d19e-4ebc-9303-0eeab9f723f8#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -75,4 +75,4 @@ APY 이력만 기준으로 비교한 SDYB의 변동성 낮은 후보는 Ethereum
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: October 14, 2026
+## 마지막 업데이트: October 15, 2026

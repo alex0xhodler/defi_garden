@@ -1,17 +1,17 @@
 # Gnosis DeFi Yields
 
-The highest honest Gnosis yield right now is 4.58% on sdai (Gnosis), among 12 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Gnosis yield right now is 4.59% on sdai (Gnosis), among 12 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| SDAI | [sdai →](https://www.defi.garden/?pool=13392973-be6e-4b2f-bce9-4f7dd53d1c3a#src=seo_chain) | 4.58% | $41.73M |
-| GNO | [aave-v3 →](https://www.defi.garden/?pool=25b57085-9668-46e8-b464-a46a37d45f9d#src=seo_chain) | 0.04% | $7.19M |
-| EURE | [aave-v3 →](https://www.defi.garden/?pool=eb089ddf-77ba-459c-8e87-7a66c7fc3f27#src=seo_chain) | 2.17% | $5.95M |
-| ZCHF | [frankencoin →](https://www.defi.garden/?pool=75ff7280-15a9-4111-9b68-25254d741529#src=seo_chain) | 3.50% | $1.49M |
-| WXDAI-USDC-USDT | [curve-dex →](https://www.defi.garden/?pool=2569b270-835a-4c3e-b915-9cb48ed413da#src=seo_chain) | 0.12% | $448.3K |
-| OLAS-WXDAI | [balancer-v2 →](https://www.defi.garden/?pool=506bc142-e8cc-46d8-8844-0f37e653a3f9#src=seo_chain) | 0.63% | $401.4K |
-| WXDAI | [aave-v3 →](https://www.defi.garden/?pool=21091399-1187-4242-8e03-9b06032f9a8f#src=seo_chain) | 1.20% | $352.9K |
-| EURE-X3CRV | [curve-dex →](https://www.defi.garden/?pool=ce825a16-4166-4849-ba8b-0f913f192710#src=seo_chain) | 2.99% | $226.3K |
+| SDAI | [sdai →](https://www.defi.garden/?pool=13392973-be6e-4b2f-bce9-4f7dd53d1c3a#src=seo_chain) | 4.59% | $41.64M |
+| GNO | [aave-v3 →](https://www.defi.garden/?pool=25b57085-9668-46e8-b464-a46a37d45f9d#src=seo_chain) | 0.04% | $7.02M |
+| EURE | [aave-v3 →](https://www.defi.garden/?pool=eb089ddf-77ba-459c-8e87-7a66c7fc3f27#src=seo_chain) | 2.35% | $5.31M |
+| ZCHF | [frankencoin →](https://www.defi.garden/?pool=75ff7280-15a9-4111-9b68-25254d741529#src=seo_chain) | 3.50% | $1.6M |
+| WXDAI-USDC-USDT | [curve-dex →](https://www.defi.garden/?pool=2569b270-835a-4c3e-b915-9cb48ed413da#src=seo_chain) | 0.15% | $437.2K |
+| OLAS-WXDAI | [balancer-v2 →](https://www.defi.garden/?pool=506bc142-e8cc-46d8-8844-0f37e653a3f9#src=seo_chain) | 0.98% | $387.6K |
+| WXDAI | [aave-v3 →](https://www.defi.garden/?pool=21091399-1187-4242-8e03-9b06032f9a8f#src=seo_chain) | 0.95% | $387.3K |
+| EURE-X3CRV | [curve-dex →](https://www.defi.garden/?pool=ce825a16-4166-4849-ba8b-0f913f192710#src=seo_chain) | 5.79% | $226.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Gnosis yield today?
 
-4.58% APY on sdai (Gnosis), based on live DefiLlama data.
+4.59% APY on sdai (Gnosis), based on live DefiLlama data.
 
 ### How many Gnosis pools clear the TVL floor?
 
-12 live pools clear this page's $100K TVL floor, $99.32M in total.
+12 live pools clear this page's $100K TVL floor, $96.3M in total.
 
 ### Are these rates safe?
 
@@ -49,4 +49,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [OLAS](https://www.defi.garden/tokens/olas)
 
-## Last updated October 14, 2026
+## Last updated October 15, 2026

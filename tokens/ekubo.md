@@ -1,12 +1,12 @@
 # EKUBO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
 
-The highest honest EKUBO yield right now is 566.38% on ekubo (Starknet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EKUBO yield right now is 62.46% on ekubo (Starknet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ekubo →](https://www.defi.garden/?pool=e78240f4-01b8-5e4e-9786-eeeb66c4426d#src=seo_token) | Starknet | 566.38% | $129.5K |
+| [ekubo →](https://www.defi.garden/?pool=e78240f4-01b8-5e4e-9786-eeeb66c4426d#src=seo_token) | Starknet | 62.46% | $124.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EKUBO yield today?
 
-566.38% APY on ekubo (Starknet), based on live DefiLlama data.
+62.46% APY on ekubo (Starknet), based on live DefiLlama data.
 
 ### How many EKUBO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $129.5K in total.
+1 live pool clear this page's $100K TVL floor, $124.5K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank EKUBO pools. This view covers
 
 - [Starknet](https://www.defi.garden/chains/starknet)
 
-## Last updated October 14, 2026
+## Last updated October 15, 2026

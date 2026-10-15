@@ -1,53 +1,51 @@
 # PEPE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
 
-The highest honest PEPE yield right now is 11.00% on uniswap-v4 (Ethereum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PEPE yield right now is 5.64% on uniswap-v2 (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=9f79f58d-6192-4ea1-944e-e1ae866fc2b2#src=seo_token) | Ethereum | 4.17% | $30.04M |
-| [raydium-amm →](https://www.defi.garden/?pool=04316895-b7ef-5c85-b917-2a94d98fc1db#src=seo_token) | Solana | 0.05% | $3.89M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=a673879e-cf84-4ff6-8561-f7734133bade#src=seo_token) | Ethereum | 3.67% | $2.41M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=0c9d30bd-d127-4350-8193-963dcdaa01ce#src=seo_token) | Base | 4.92% | $312.2K |
-| [raydium-amm →](https://www.defi.garden/?pool=6c84068e-d2da-404f-9430-f8086d072d8b#src=seo_token) | Solana | 0.88% | $307.5K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=5bc939b7-9b68-442b-89de-ed4f3833cfda#src=seo_token) | Ethereum | 11.00% | $270.6K |
-| [raydium-amm →](https://www.defi.garden/?pool=0e1b937c-495e-5268-bd89-5f29f6bd86c2#src=seo_token) | Solana | 52.98% | $107.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=9f79f58d-6192-4ea1-944e-e1ae866fc2b2#src=seo_token) | Ethereum | 5.64% | $28.01M |
+| [raydium-amm →](https://www.defi.garden/?pool=04316895-b7ef-5c85-b917-2a94d98fc1db#src=seo_token) | Solana | 0.36% | $3.89M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a673879e-cf84-4ff6-8561-f7734133bade#src=seo_token) | Ethereum | 4.80% | $2.23M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0c9d30bd-d127-4350-8193-963dcdaa01ce#src=seo_token) | Base | 5.45% | $296.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=6c84068e-d2da-404f-9430-f8086d072d8b#src=seo_token) | Solana | 18.86% | $287.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=5bc939b7-9b68-442b-89de-ed4f3833cfda#src=seo_token) | Ethereum | 6.50% | $250.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, PEPE's lower-variability candidates are uniswap-v4 (Ethereum), 11.00% APY, $270.6K TVL, https://www.defi.garden/?pool=5bc939b7-9b68-442b-89de-ed4f3833cfda#src=seo_token; raydium-amm (Solana), 0.88% APY, $307.5K TVL, https://www.defi.garden/?pool=6c84068e-d2da-404f-9430-f8086d072d8b#src=seo_token; uniswap-v3 (Base), 4.92% APY, $312.2K TVL, https://www.defi.garden/?pool=0c9d30bd-d127-4350-8193-963dcdaa01ce#src=seo_token; uniswap-v2 (Ethereum), 4.17% APY, $30.04M TVL, https://www.defi.garden/?pool=9f79f58d-6192-4ea1-944e-e1ae866fc2b2#src=seo_token; uniswap-v3 (Ethereum), 3.67% APY, $2.41M TVL, https://www.defi.garden/?pool=a673879e-cf84-4ff6-8561-f7734133bade#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PEPE's lower-variability candidates are uniswap-v4 (Ethereum), 6.50% APY, $250.9K TVL, https://www.defi.garden/?pool=5bc939b7-9b68-442b-89de-ed4f3833cfda#src=seo_token; raydium-amm (Solana), 18.86% APY, $287.1K TVL, https://www.defi.garden/?pool=6c84068e-d2da-404f-9430-f8086d072d8b#src=seo_token; uniswap-v3 (Base), 5.45% APY, $296.1K TVL, https://www.defi.garden/?pool=0c9d30bd-d127-4350-8193-963dcdaa01ce#src=seo_token; uniswap-v2 (Ethereum), 5.64% APY, $28.01M TVL, https://www.defi.garden/?pool=9f79f58d-6192-4ea1-944e-e1ae866fc2b2#src=seo_token; uniswap-v3 (Ethereum), 4.80% APY, $2.23M TVL, https://www.defi.garden/?pool=a673879e-cf84-4ff6-8561-f7734133bade#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=5bc939b7-9b68-442b-89de-ed4f3833cfda#src=seo_token) | Ethereum | 11.00% | $270.6K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=6c84068e-d2da-404f-9430-f8086d072d8b#src=seo_token) | Solana | 0.88% | $307.5K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=0c9d30bd-d127-4350-8193-963dcdaa01ce#src=seo_token) | Base | 4.92% | $312.2K |
-| 4 | [uniswap-v2 →](https://www.defi.garden/?pool=9f79f58d-6192-4ea1-944e-e1ae866fc2b2#src=seo_token) | Ethereum | 4.17% | $30.04M |
-| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=a673879e-cf84-4ff6-8561-f7734133bade#src=seo_token) | Ethereum | 3.67% | $2.41M |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=5bc939b7-9b68-442b-89de-ed4f3833cfda#src=seo_token) | Ethereum | 6.50% | $250.9K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=6c84068e-d2da-404f-9430-f8086d072d8b#src=seo_token) | Solana | 18.86% | $287.1K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=0c9d30bd-d127-4350-8193-963dcdaa01ce#src=seo_token) | Base | 5.45% | $296.1K |
+| 4 | [uniswap-v2 →](https://www.defi.garden/?pool=9f79f58d-6192-4ea1-944e-e1ae866fc2b2#src=seo_token) | Ethereum | 5.64% | $28.01M |
+| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=a673879e-cf84-4ff6-8561-f7734133bade#src=seo_token) | Ethereum | 4.80% | $2.23M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-PEPE shows up in 7 pools here, with rates from 0.05% to 52.98% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+PEPE shows up in 6 pools here, with rates from 0.36% to 18.86% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-7 of these 7 pools have a trustworthy 30-day average on file, with a median of 10.96% — a useful check against today's number for whether the rate is steady or just having a good day.
+6 of these 6 pools have a trustworthy 30-day average on file, with a median of 9.13% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 7 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 6 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-7 of 7 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+6 of 6 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 4.17% | 7.17% | Base rate |
-| raydium-amm | 0.05% | 0.05% | Base rate |
-| uniswap-v3 | 3.67% | 5.37% | Base rate |
-| uniswap-v3 | 4.92% | 10.96% | Base rate |
-| raydium-amm | 0.88% | 80.51% | Base rate |
-| uniswap-v4 | 11.00% | 13.37% | Base rate |
-| raydium-amm | 52.98% | 229.60% | Base rate |
+| uniswap-v2 | 5.64% | 7.21% | Base rate |
+| raydium-amm | 0.36% | 0.23% | Base rate |
+| uniswap-v3 | 4.80% | 5.47% | Base rate |
+| uniswap-v3 | 5.45% | 11.05% | Base rate |
+| raydium-amm | 18.86% | 76.96% | Base rate |
+| uniswap-v4 | 6.50% | 13.46% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -55,11 +53,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest PEPE yield today?
 
-11.00% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+5.64% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many PEPE pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $37.35M in total.
+6 live pools clear this page's $100K TVL floor, $34.97M in total.
 
 ### Are these rates safe?
 
@@ -67,7 +65,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which PEPE pools have the most stable APY history?
 
-Based on APY history only, PEPE's lower-variability candidates are uniswap-v4 (Ethereum), 11.00% APY, $270.6K TVL, https://www.defi.garden/?pool=5bc939b7-9b68-442b-89de-ed4f3833cfda#src=seo_token; raydium-amm (Solana), 0.88% APY, $307.5K TVL, https://www.defi.garden/?pool=6c84068e-d2da-404f-9430-f8086d072d8b#src=seo_token; uniswap-v3 (Base), 4.92% APY, $312.2K TVL, https://www.defi.garden/?pool=0c9d30bd-d127-4350-8193-963dcdaa01ce#src=seo_token; uniswap-v2 (Ethereum), 4.17% APY, $30.04M TVL, https://www.defi.garden/?pool=9f79f58d-6192-4ea1-944e-e1ae866fc2b2#src=seo_token; uniswap-v3 (Ethereum), 3.67% APY, $2.41M TVL, https://www.defi.garden/?pool=a673879e-cf84-4ff6-8561-f7734133bade#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PEPE's lower-variability candidates are uniswap-v4 (Ethereum), 6.50% APY, $250.9K TVL, https://www.defi.garden/?pool=5bc939b7-9b68-442b-89de-ed4f3833cfda#src=seo_token; raydium-amm (Solana), 18.86% APY, $287.1K TVL, https://www.defi.garden/?pool=6c84068e-d2da-404f-9430-f8086d072d8b#src=seo_token; uniswap-v3 (Base), 5.45% APY, $296.1K TVL, https://www.defi.garden/?pool=0c9d30bd-d127-4350-8193-963dcdaa01ce#src=seo_token; uniswap-v2 (Ethereum), 5.64% APY, $28.01M TVL, https://www.defi.garden/?pool=9f79f58d-6192-4ea1-944e-e1ae866fc2b2#src=seo_token; uniswap-v3 (Ethereum), 4.80% APY, $2.23M TVL, https://www.defi.garden/?pool=a673879e-cf84-4ff6-8561-f7734133bade#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -84,4 +82,4 @@ Based on APY history only, PEPE's lower-variability candidates are uniswap-v4 (E
 - [Solana](https://www.defi.garden/chains/solana)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 14, 2026
+## Last updated October 15, 2026

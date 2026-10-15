@@ -1,17 +1,17 @@
 # Flare 디파이 수익률
 
-현재 Flare의 가장 높은 정직한 수익률은 Flare의 sceptre-liquid에서 7.51%이며, $100K TVL 기준을 넘는 36개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 Flare의 가장 높은 정직한 수익률은 Flare의 sceptre-liquid에서 6.35%이며, $100K TVL 기준을 넘는 35개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| FXRP | [kinetic →](https://www.defi.garden/?pool=28c0f086-2e1a-40f0-a5f5-763d706c0806#src=seo_chain) | 0.59% | $25.19M |
-| SFLR | [sceptre-liquid →](https://www.defi.garden/?pool=fa132efa-f62b-40f0-addc-8afe0b4a810a#src=seo_chain) | 7.51% | $14.78M |
-| USDX | [clearpool-lending →](https://www.defi.garden/?pool=be50b874-8147-440d-b8ca-f2c202e9ed64#src=seo_chain) | 3.50% | $11.01M |
-| STXRP-FXRP | [sparkdex-v4 →](https://www.defi.garden/?pool=fe56d007-4f9f-4eaf-84e2-ea4248769975#src=seo_chain) | 1.98% | $7.15M |
-| SFLR | [kinetic →](https://www.defi.garden/?pool=5219817c-dfdb-47cc-b417-f218fb12227d#src=seo_chain) | 0.36% | $4.96M |
-| STXRP | [spectra-v2 →](https://www.defi.garden/?pool=ff0b0d1d-a21e-430b-95f4-61f7142736bc#src=seo_chain) | 4.38% | $3.7M |
-| STXRP | [spectra-v2 →](https://www.defi.garden/?pool=027455a8-ee05-573e-ab0b-f090594a9e0c#src=seo_chain) | 0.64% | $3.7M |
-| USD₮0-USDC.E | [sparkdex-v3.1 →](https://www.defi.garden/?pool=a2851527-da35-4688-bacb-2ad86991d9db#src=seo_chain) | 0.15% | $3.46M |
+| FXRP | [kinetic →](https://www.defi.garden/?pool=28c0f086-2e1a-40f0-a5f5-763d706c0806#src=seo_chain) | 0.61% | $23.67M |
+| SFLR | [sceptre-liquid →](https://www.defi.garden/?pool=fa132efa-f62b-40f0-addc-8afe0b4a810a#src=seo_chain) | 6.35% | $14.3M |
+| USDX | [clearpool-lending →](https://www.defi.garden/?pool=be50b874-8147-440d-b8ca-f2c202e9ed64#src=seo_chain) | 3.50% | $11.03M |
+| STXRP-FXRP | [sparkdex-v4 →](https://www.defi.garden/?pool=fe56d007-4f9f-4eaf-84e2-ea4248769975#src=seo_chain) | 1.99% | $6.75M |
+| SFLR | [kinetic →](https://www.defi.garden/?pool=5219817c-dfdb-47cc-b417-f218fb12227d#src=seo_chain) | 0.36% | $4.75M |
+| STXRP | [spectra-v2 →](https://www.defi.garden/?pool=ff0b0d1d-a21e-430b-95f4-61f7142736bc#src=seo_chain) | 4.42% | $3.51M |
+| STXRP | [spectra-v2 →](https://www.defi.garden/?pool=027455a8-ee05-573e-ab0b-f090594a9e0c#src=seo_chain) | 0.64% | $3.51M |
+| USD₮0-USDC.E | [sparkdex-v3.1 →](https://www.defi.garden/?pool=a2851527-da35-4688-bacb-2ad86991d9db#src=seo_chain) | 0.22% | $3.46M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,11 +19,11 @@
 
 ### 오늘 Flare의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Flare의 sceptre-liquid에서 APY 7.51%예요.
+DefiLlama 실시간 데이터 기준, Flare의 sceptre-liquid에서 APY 6.35%예요.
 
 ### Flare 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 36개이며, 합산 TVL은 $97.99M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 35개이며, 합산 TVL은 $94.43M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -46,4 +46,4 @@ DefiLlama 실시간 데이터 기준, Flare의 sceptre-liquid에서 APY 7.51%예
 - [USDX](https://www.defi.garden/ko/tokens/usdx)
 - [USDC.E](https://www.defi.garden/ko/tokens/usdc-e)
 
-## 마지막 업데이트: October 14, 2026
+## 마지막 업데이트: October 15, 2026

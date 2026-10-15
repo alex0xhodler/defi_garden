@@ -1,12 +1,12 @@
 # ECOR DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
 
-The highest honest ECOR yield right now is 0.44% on dedust (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ECOR yield right now is 0.33% on dedust (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [dedust →](https://www.defi.garden/?pool=9e21f88a-d8de-4c69-b1a5-4b708d2cb5cd#src=seo_token) | TON | 0.44% | $126.1K |
+| [dedust →](https://www.defi.garden/?pool=9e21f88a-d8de-4c69-b1a5-4b708d2cb5cd#src=seo_token) | TON | 0.33% | $125.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ECOR yield today?
 
-0.44% APY on dedust (TON), based on live DefiLlama data.
+0.33% APY on dedust (TON), based on live DefiLlama data.
 
 ### How many ECOR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $126.1K in total.
+1 live pool clear this page's $100K TVL floor, $125.7K in total.
 
 ### Are these rates safe?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank ECOR pools. This view covers 
 - [HGRAM](https://www.defi.garden/tokens/hgram)
 - [TSTON](https://www.defi.garden/tokens/tston)
 - [XAUT0](https://www.defi.garden/tokens/xaut0)
-- [BABYDOGE](https://www.defi.garden/tokens/babydoge)
 - [AFFSENTORA](https://www.defi.garden/tokens/affsentora)
+- [STON](https://www.defi.garden/tokens/ston)
 
 ## Available on
 
 - [TON](https://www.defi.garden/chains/ton)
 
-## Last updated October 14, 2026
+## Last updated October 15, 2026

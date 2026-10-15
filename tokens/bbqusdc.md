@@ -1,43 +1,43 @@
 # BBQUSDC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
 
-The highest honest BBQUSDC yield right now is 6.51% on morpho-blue (Arbitrum), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BBQUSDC yield right now is 6.54% on morpho-blue (Katana), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=f8d7740c-4cef-420e-a944-1b7caffde643#src=seo_token) | Ethereum | 5.89% | $46.47M |
-| [morpho-blue →](https://www.defi.garden/?pool=02db57d9-3ba8-40b9-9ae5-557a4da4b3df#src=seo_token) | Ethereum | 4.42% | $30.34M |
-| [morpho-blue →](https://www.defi.garden/?pool=832c94db-4948-4f14-aa65-af6e737d984e#src=seo_token) | Base | 5.56% | $29.06M |
-| [morpho-blue →](https://www.defi.garden/?pool=36977448-9ad9-43ea-85f2-60ee1b92ecd0#src=seo_token) | Ethereum | 5.55% | $12.73M |
-| [morpho-blue →](https://www.defi.garden/?pool=c13f1940-9965-4eee-b7e8-af785591ceda#src=seo_token) | Arbitrum | 6.51% | $2.44M |
-| [morpho-blue →](https://www.defi.garden/?pool=938e1047-c2df-4b13-acaa-15fa76db50cc#src=seo_token) | Katana | 6.47% | $1.49M |
-| [morpho-blue →](https://www.defi.garden/?pool=bf346d43-ef94-4277-b159-ebadb93caef1#src=seo_token) | Base | 5.74% | $838.4K |
-| [morpho-blue →](https://www.defi.garden/?pool=ee11e86e-1771-4847-8b49-40c68f85cd46#src=seo_token) | Monad | 2.81% | $244.8K |
+| [morpho-blue →](https://www.defi.garden/?pool=f8d7740c-4cef-420e-a944-1b7caffde643#src=seo_token) | Ethereum | 5.61% | $46.06M |
+| [morpho-blue →](https://www.defi.garden/?pool=832c94db-4948-4f14-aa65-af6e737d984e#src=seo_token) | Base | 5.60% | $29.17M |
+| [morpho-blue →](https://www.defi.garden/?pool=36977448-9ad9-43ea-85f2-60ee1b92ecd0#src=seo_token) | Ethereum | 5.21% | $12.54M |
+| [morpho-blue →](https://www.defi.garden/?pool=02db57d9-3ba8-40b9-9ae5-557a4da4b3df#src=seo_token) | Ethereum | 4.34% | $3.02M |
+| [morpho-blue →](https://www.defi.garden/?pool=c13f1940-9965-4eee-b7e8-af785591ceda#src=seo_token) | Arbitrum | 5.61% | $2.27M |
+| [morpho-blue →](https://www.defi.garden/?pool=938e1047-c2df-4b13-acaa-15fa76db50cc#src=seo_token) | Katana | 6.54% | $1.49M |
+| [morpho-blue →](https://www.defi.garden/?pool=bf346d43-ef94-4277-b159-ebadb93caef1#src=seo_token) | Base | 5.77% | $771.5K |
+| [morpho-blue →](https://www.defi.garden/?pool=ee11e86e-1771-4847-8b49-40c68f85cd46#src=seo_token) | Monad | 1.92% | $244.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, BBQUSDC's lower-variability candidates are morpho-blue (Ethereum), 4.42% APY, $30.34M TVL, https://www.defi.garden/?pool=02db57d9-3ba8-40b9-9ae5-557a4da4b3df#src=seo_token; morpho-blue (Base), 5.56% APY, $29.06M TVL, https://www.defi.garden/?pool=832c94db-4948-4f14-aa65-af6e737d984e#src=seo_token; morpho-blue (Base), 5.74% APY, $838.4K TVL, https://www.defi.garden/?pool=bf346d43-ef94-4277-b159-ebadb93caef1#src=seo_token; morpho-blue (Ethereum), 5.89% APY, $46.47M TVL, https://www.defi.garden/?pool=f8d7740c-4cef-420e-a944-1b7caffde643#src=seo_token; morpho-blue (Ethereum), 5.55% APY, $12.73M TVL, https://www.defi.garden/?pool=36977448-9ad9-43ea-85f2-60ee1b92ecd0#src=seo_token; morpho-blue (Arbitrum), 6.51% APY, $2.44M TVL, https://www.defi.garden/?pool=c13f1940-9965-4eee-b7e8-af785591ceda#src=seo_token; morpho-blue (Monad), 2.81% APY, $244.8K TVL, https://www.defi.garden/?pool=ee11e86e-1771-4847-8b49-40c68f85cd46#src=seo_token; morpho-blue (Katana), 6.47% APY, $1.49M TVL, https://www.defi.garden/?pool=938e1047-c2df-4b13-acaa-15fa76db50cc#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BBQUSDC's lower-variability candidates are morpho-blue (Ethereum), 4.34% APY, $3.02M TVL, https://www.defi.garden/?pool=02db57d9-3ba8-40b9-9ae5-557a4da4b3df#src=seo_token; morpho-blue (Base), 5.60% APY, $29.17M TVL, https://www.defi.garden/?pool=832c94db-4948-4f14-aa65-af6e737d984e#src=seo_token; morpho-blue (Base), 5.77% APY, $771.5K TVL, https://www.defi.garden/?pool=bf346d43-ef94-4277-b159-ebadb93caef1#src=seo_token; morpho-blue (Ethereum), 5.61% APY, $46.06M TVL, https://www.defi.garden/?pool=f8d7740c-4cef-420e-a944-1b7caffde643#src=seo_token; morpho-blue (Ethereum), 5.21% APY, $12.54M TVL, https://www.defi.garden/?pool=36977448-9ad9-43ea-85f2-60ee1b92ecd0#src=seo_token; morpho-blue (Arbitrum), 5.61% APY, $2.27M TVL, https://www.defi.garden/?pool=c13f1940-9965-4eee-b7e8-af785591ceda#src=seo_token; morpho-blue (Monad), 1.92% APY, $244.4K TVL, https://www.defi.garden/?pool=ee11e86e-1771-4847-8b49-40c68f85cd46#src=seo_token; morpho-blue (Katana), 6.54% APY, $1.49M TVL, https://www.defi.garden/?pool=938e1047-c2df-4b13-acaa-15fa76db50cc#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=02db57d9-3ba8-40b9-9ae5-557a4da4b3df#src=seo_token) | Ethereum | 4.42% | $30.34M |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=832c94db-4948-4f14-aa65-af6e737d984e#src=seo_token) | Base | 5.56% | $29.06M |
-| 3 | [morpho-blue →](https://www.defi.garden/?pool=bf346d43-ef94-4277-b159-ebadb93caef1#src=seo_token) | Base | 5.74% | $838.4K |
-| 4 | [morpho-blue →](https://www.defi.garden/?pool=f8d7740c-4cef-420e-a944-1b7caffde643#src=seo_token) | Ethereum | 5.89% | $46.47M |
-| 5 | [morpho-blue →](https://www.defi.garden/?pool=36977448-9ad9-43ea-85f2-60ee1b92ecd0#src=seo_token) | Ethereum | 5.55% | $12.73M |
-| 6 | [morpho-blue →](https://www.defi.garden/?pool=c13f1940-9965-4eee-b7e8-af785591ceda#src=seo_token) | Arbitrum | 6.51% | $2.44M |
-| 7 | [morpho-blue →](https://www.defi.garden/?pool=ee11e86e-1771-4847-8b49-40c68f85cd46#src=seo_token) | Monad | 2.81% | $244.8K |
-| 8 | [morpho-blue →](https://www.defi.garden/?pool=938e1047-c2df-4b13-acaa-15fa76db50cc#src=seo_token) | Katana | 6.47% | $1.49M |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=02db57d9-3ba8-40b9-9ae5-557a4da4b3df#src=seo_token) | Ethereum | 4.34% | $3.02M |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=832c94db-4948-4f14-aa65-af6e737d984e#src=seo_token) | Base | 5.60% | $29.17M |
+| 3 | [morpho-blue →](https://www.defi.garden/?pool=bf346d43-ef94-4277-b159-ebadb93caef1#src=seo_token) | Base | 5.77% | $771.5K |
+| 4 | [morpho-blue →](https://www.defi.garden/?pool=f8d7740c-4cef-420e-a944-1b7caffde643#src=seo_token) | Ethereum | 5.61% | $46.06M |
+| 5 | [morpho-blue →](https://www.defi.garden/?pool=36977448-9ad9-43ea-85f2-60ee1b92ecd0#src=seo_token) | Ethereum | 5.21% | $12.54M |
+| 6 | [morpho-blue →](https://www.defi.garden/?pool=c13f1940-9965-4eee-b7e8-af785591ceda#src=seo_token) | Arbitrum | 5.61% | $2.27M |
+| 7 | [morpho-blue →](https://www.defi.garden/?pool=ee11e86e-1771-4847-8b49-40c68f85cd46#src=seo_token) | Monad | 1.92% | $244.4K |
+| 8 | [morpho-blue →](https://www.defi.garden/?pool=938e1047-c2df-4b13-acaa-15fa76db50cc#src=seo_token) | Katana | 6.54% | $1.49M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-BBQUSDC shows up in 8 pools here, with rates from 2.81% to 6.51% APY across 5 chains — the rate depends on which protocol and chain you pick, not just the token.
+BBQUSDC shows up in 8 pools here, with rates from 1.92% to 6.54% APY across 5 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 5.54% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 5.59% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -45,14 +45,14 @@ BBQUSDC shows up in 8 pools here, with rates from 2.81% to 6.51% APY across 5 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 5.89% | 5.74% | Base rate |
-| morpho-blue | 4.42% | 4.55% | Base rate |
-| morpho-blue | 5.56% | 5.11% | Base rate |
-| morpho-blue | 5.55% | 5.46% | Base rate |
-| morpho-blue | 6.51% | 5.63% | Base rate |
-| morpho-blue | 6.47% | 6.52% | 69.69% incentives |
-| morpho-blue | 5.74% | 5.33% | Base rate |
-| morpho-blue | 2.81% | 6.34% | 3.07% incentives |
+| morpho-blue | 5.61% | 5.75% | Base rate |
+| morpho-blue | 5.60% | 5.13% | Base rate |
+| morpho-blue | 5.21% | 5.47% | Base rate |
+| morpho-blue | 4.34% | 4.55% | Base rate |
+| morpho-blue | 5.61% | 5.70% | Base rate |
+| morpho-blue | 6.54% | 6.48% | 68.41% incentives |
+| morpho-blue | 5.77% | 5.35% | Base rate |
+| morpho-blue | 1.92% | 6.19% | 3.53% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -60,11 +60,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BBQUSDC yield today?
 
-6.51% APY on morpho-blue (Arbitrum), based on live DefiLlama data.
+6.54% APY on morpho-blue (Katana), based on live DefiLlama data.
 
 ### How many BBQUSDC pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $123.61M in total.
+8 live pools clear this page's $100K TVL floor, $95.57M in total.
 
 ### Are these rates safe?
 
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BBQUSDC pools have the most stable APY history?
 
-Based on APY history only, BBQUSDC's lower-variability candidates are morpho-blue (Ethereum), 4.42% APY, $30.34M TVL, https://www.defi.garden/?pool=02db57d9-3ba8-40b9-9ae5-557a4da4b3df#src=seo_token; morpho-blue (Base), 5.56% APY, $29.06M TVL, https://www.defi.garden/?pool=832c94db-4948-4f14-aa65-af6e737d984e#src=seo_token; morpho-blue (Base), 5.74% APY, $838.4K TVL, https://www.defi.garden/?pool=bf346d43-ef94-4277-b159-ebadb93caef1#src=seo_token; morpho-blue (Ethereum), 5.89% APY, $46.47M TVL, https://www.defi.garden/?pool=f8d7740c-4cef-420e-a944-1b7caffde643#src=seo_token; morpho-blue (Ethereum), 5.55% APY, $12.73M TVL, https://www.defi.garden/?pool=36977448-9ad9-43ea-85f2-60ee1b92ecd0#src=seo_token; morpho-blue (Arbitrum), 6.51% APY, $2.44M TVL, https://www.defi.garden/?pool=c13f1940-9965-4eee-b7e8-af785591ceda#src=seo_token; morpho-blue (Monad), 2.81% APY, $244.8K TVL, https://www.defi.garden/?pool=ee11e86e-1771-4847-8b49-40c68f85cd46#src=seo_token; morpho-blue (Katana), 6.47% APY, $1.49M TVL, https://www.defi.garden/?pool=938e1047-c2df-4b13-acaa-15fa76db50cc#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BBQUSDC's lower-variability candidates are morpho-blue (Ethereum), 4.34% APY, $3.02M TVL, https://www.defi.garden/?pool=02db57d9-3ba8-40b9-9ae5-557a4da4b3df#src=seo_token; morpho-blue (Base), 5.60% APY, $29.17M TVL, https://www.defi.garden/?pool=832c94db-4948-4f14-aa65-af6e737d984e#src=seo_token; morpho-blue (Base), 5.77% APY, $771.5K TVL, https://www.defi.garden/?pool=bf346d43-ef94-4277-b159-ebadb93caef1#src=seo_token; morpho-blue (Ethereum), 5.61% APY, $46.06M TVL, https://www.defi.garden/?pool=f8d7740c-4cef-420e-a944-1b7caffde643#src=seo_token; morpho-blue (Ethereum), 5.21% APY, $12.54M TVL, https://www.defi.garden/?pool=36977448-9ad9-43ea-85f2-60ee1b92ecd0#src=seo_token; morpho-blue (Arbitrum), 5.61% APY, $2.27M TVL, https://www.defi.garden/?pool=c13f1940-9965-4eee-b7e8-af785591ceda#src=seo_token; morpho-blue (Monad), 1.92% APY, $244.4K TVL, https://www.defi.garden/?pool=ee11e86e-1771-4847-8b49-40c68f85cd46#src=seo_token; morpho-blue (Katana), 6.54% APY, $1.49M TVL, https://www.defi.garden/?pool=938e1047-c2df-4b13-acaa-15fa76db50cc#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -91,4 +91,4 @@ Based on APY history only, BBQUSDC's lower-variability candidates are morpho-blu
 - [Katana](https://www.defi.garden/chains/katana)
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated October 14, 2026
+## Last updated October 15, 2026

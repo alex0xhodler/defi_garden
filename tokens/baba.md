@@ -1,12 +1,12 @@
 # BABA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
 
-The highest honest BABA yield right now is 570.86% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BABA yield right now is 811.61% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=f1300657-9408-5def-8299-9a48a7fc4dad#src=seo_token) | Solana | 570.86% | $155.4K |
+| [orca-dex →](https://www.defi.garden/?pool=f1300657-9408-5def-8299-9a48a7fc4dad#src=seo_token) | Solana | 811.61% | $175.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BABA yield today?
 
-570.86% APY on orca-dex (Solana), based on live DefiLlama data.
+811.61% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many BABA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $155.4K in total.
+1 live pool clear this page's $100K TVL floor, $175.1K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank BABA pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 14, 2026
+## Last updated October 15, 2026

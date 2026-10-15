@@ -1,6 +1,6 @@
 # SUSDRF DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
 
 The highest honest SUSDRF yield right now is 0.27% on liqwid (Cardano), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -36,8 +36,8 @@ There is not enough qualifying APY history to rank SUSDRF pools. This view cover
 ## Related tokens
 
 - [NIGHT](https://www.defi.garden/tokens/night)
-- [ADA](https://www.defi.garden/tokens/ada)
 - [USDM](https://www.defi.garden/tokens/usdm)
+- [ADA](https://www.defi.garden/tokens/ada)
 - [USDCX](https://www.defi.garden/tokens/usdcx)
 - [USDA](https://www.defi.garden/tokens/usda)
 - [IUSD](https://www.defi.garden/tokens/iusd)
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank SUSDRF pools. This view cover
 
 - [Cardano](https://www.defi.garden/chains/cardano)
 
-## Last updated October 14, 2026
+## Last updated October 15, 2026

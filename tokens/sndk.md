@@ -1,14 +1,14 @@
 # SNDK DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
 
-The highest honest SNDK yield right now is 110.07% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SNDK yield right now is 145.87% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=32f16ca3-205e-58db-b8cf-1574f52d115a#src=seo_token) | Solana | 132.59% | $152K |
-| [raydium-amm →](https://www.defi.garden/?pool=32f16ca3-205e-58db-b8cf-1574f52d115a#src=seo_token) | Solana | 132.59% | $152K |
-| [raydium-amm →](https://www.defi.garden/?pool=1868e098-b4a7-4a4f-aa49-333c03abced8#src=seo_token) | Solana | 110.07% | $114.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=1868e098-b4a7-4a4f-aa49-333c03abced8#src=seo_token) | Solana | 108.22% | $104.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=32f16ca3-205e-58db-b8cf-1574f52d115a#src=seo_token) | Solana | 145.87% | $102.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=32f16ca3-205e-58db-b8cf-1574f52d115a#src=seo_token) | Solana | 145.87% | $102.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,9 +19,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-SNDK shows up in 3 pools here, with rates from 110.07% to 132.59% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SNDK shows up in 3 pools here, with rates from 108.22% to 145.87% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 266.75% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 259.09% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -29,9 +29,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 132.59% | 266.75% | Base rate |
-| raydium-amm | 132.59% | 266.75% | Base rate |
-| raydium-amm | 110.07% | 117.52% | Base rate |
+| raydium-amm | 108.22% | 116.83% | Base rate |
+| raydium-amm | 145.87% | 259.09% | Base rate |
+| raydium-amm | 145.87% | 259.09% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -39,11 +39,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SNDK yield today?
 
-110.07% APY on raydium-amm (Solana), based on live DefiLlama data.
+145.87% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many SNDK pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $526.4K in total.
+4 live pools clear this page's $100K TVL floor, $410.3K in total.
 
 ### Are these rates safe?
 
@@ -66,4 +66,4 @@ There is not enough qualifying APY history to rank SNDK pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 14, 2026
+## Last updated October 15, 2026

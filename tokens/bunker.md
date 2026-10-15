@@ -1,6 +1,6 @@
 # BUNKER DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 14, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
 
 The highest honest BUNKER yield right now is 29.10% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -43,7 +43,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many BUNKER pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $865.6K in total.
+4 live pools clear this page's $100K TVL floor, $897.7K in total.
 
 ### Are these rates safe?
 
@@ -68,4 +68,4 @@ There is not enough qualifying APY history to rank BUNKER pools. This view cover
 - [Base](https://www.defi.garden/chains/base)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 14, 2026
+## Last updated October 15, 2026
