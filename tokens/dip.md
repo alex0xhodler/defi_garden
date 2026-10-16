@@ -1,12 +1,12 @@
 # DIP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
 
 The highest honest DIP yield right now is 0.01% on vvs-standard (Cronos), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=7e35aad6-a8ef-42d1-8857-a46a188be426#src=seo_token) | Cronos | 0.01% | $2.43M |
+| [vvs-standard →](https://www.defi.garden/?pool=7e35aad6-a8ef-42d1-8857-a46a188be426#src=seo_token) | Cronos | 0.01% | $2.54M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many DIP pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $2.55M in total.
+2 live pools clear this page's $100K TVL floor, $2.66M in total.
 
 ### Are these rates safe?
 
@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank DIP pools. This view covers A
 
 - [Cronos](https://www.defi.garden/chains/cronos)
 
-## Last updated October 15, 2026
+## Last updated October 16, 2026

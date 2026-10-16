@@ -1,13 +1,13 @@
 # MON DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
 
-The highest honest MON yield right now is 135.96% on orca-dex (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MON yield right now is 31.61% on orca-dex (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=01af270b-f10c-57b4-8ae2-34c9c6f085ad#src=seo_token) | Monad | 9.71% | $6.84M |
-| [orca-dex →](https://www.defi.garden/?pool=c1fd5822-df73-4241-8fbb-575a3325ffb8#src=seo_token) | Solana | 135.96% | $109.7K |
+| [morpho-blue →](https://www.defi.garden/?pool=01af270b-f10c-57b4-8ae2-34c9c6f085ad#src=seo_token) | Monad | 8.28% | $6.85M |
+| [orca-dex →](https://www.defi.garden/?pool=c1fd5822-df73-4241-8fbb-575a3325ffb8#src=seo_token) | Solana | 31.61% | $123.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-MON shows up in 2 pools here, with rates from 9.71% to 135.96% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+MON shows up in 2 pools here, with rates from 8.28% to 31.61% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 316.01% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 314.77% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -28,8 +28,8 @@ MON shows up in 2 pools here, with rates from 9.71% to 135.96% APY across 2 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 9.71% | 109.94% | 24.63% incentives |
-| orca-dex | 135.96% | 522.08% | Base rate |
+| morpho-blue | 8.28% | 105.48% | 28.50% incentives |
+| orca-dex | 31.61% | 524.05% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MON yield today?
 
-135.96% APY on orca-dex (Solana), based on live DefiLlama data.
+31.61% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many MON pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $6.95M in total.
+2 live pools clear this page's $100K TVL floor, $6.97M in total.
 
 ### Are these rates safe?
 
@@ -65,4 +65,4 @@ There is not enough qualifying APY history to rank MON pools. This view covers A
 - [Monad](https://www.defi.garden/chains/monad)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 15, 2026
+## Last updated October 16, 2026

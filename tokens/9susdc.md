@@ -1,12 +1,12 @@
 # 9SUSDC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
 
-The highest honest 9SUSDC yield right now is 5.08% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest 9SUSDC yield right now is 5.75% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=2bc0cfec-842e-4319-8da3-85374f087c33#src=seo_token) | Ethereum | 5.08% | $5.41M |
+| [lagoon →](https://www.defi.garden/?pool=2bc0cfec-842e-4319-8da3-85374f087c33#src=seo_token) | Ethereum | 5.75% | $5.6M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest 9SUSDC yield today?
 
-5.08% APY on lagoon (Ethereum), based on live DefiLlama data.
+5.75% APY on lagoon (Ethereum), based on live DefiLlama data.
 
 ### How many 9SUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $5.41M in total.
+1 live pool clear this page's $100K TVL floor, $5.6M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank 9SUSDC pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 15, 2026
+## Last updated October 16, 2026

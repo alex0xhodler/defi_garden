@@ -1,33 +1,33 @@
 # BONK DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
 
-The highest honest BONK yield right now is 25.74% on orca-dex (Solana), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BONK yield right now is 15.16% on orca-dex (Solana), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=4420a9de-a883-4ba9-a4c6-4ed12734ab94#src=seo_token) | Solana | 25.74% | $324.6K |
-| [raydium-amm →](https://www.defi.garden/?pool=a4c4203d-62c9-47e3-b96d-63fd03dc9e94#src=seo_token) | Solana | 12.09% | $206.1K |
-| [orca-dex →](https://www.defi.garden/?pool=78110730-cd1c-432a-bc06-c2eed825e841#src=seo_token) | Solana | 2.84% | $136.1K |
+| [orca-dex →](https://www.defi.garden/?pool=4420a9de-a883-4ba9-a4c6-4ed12734ab94#src=seo_token) | Solana | 15.16% | $318.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=a4c4203d-62c9-47e3-b96d-63fd03dc9e94#src=seo_token) | Solana | 12.36% | $211.6K |
+| [orca-dex →](https://www.defi.garden/?pool=78110730-cd1c-432a-bc06-c2eed825e841#src=seo_token) | Solana | 0.25% | $142.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, BONK's lower-variability candidates are orca-dex (Solana), 25.74% APY, $324.6K TVL, https://www.defi.garden/?pool=4420a9de-a883-4ba9-a4c6-4ed12734ab94#src=seo_token; raydium-amm (Solana), 12.09% APY, $206.1K TVL, https://www.defi.garden/?pool=a4c4203d-62c9-47e3-b96d-63fd03dc9e94#src=seo_token; orca-dex (Solana), 2.84% APY, $136.1K TVL, https://www.defi.garden/?pool=78110730-cd1c-432a-bc06-c2eed825e841#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BONK's lower-variability candidates are orca-dex (Solana), 15.16% APY, $318.3K TVL, https://www.defi.garden/?pool=4420a9de-a883-4ba9-a4c6-4ed12734ab94#src=seo_token; raydium-amm (Solana), 12.36% APY, $211.6K TVL, https://www.defi.garden/?pool=a4c4203d-62c9-47e3-b96d-63fd03dc9e94#src=seo_token; orca-dex (Solana), 0.25% APY, $142.6K TVL, https://www.defi.garden/?pool=78110730-cd1c-432a-bc06-c2eed825e841#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [orca-dex →](https://www.defi.garden/?pool=4420a9de-a883-4ba9-a4c6-4ed12734ab94#src=seo_token) | Solana | 25.74% | $324.6K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=a4c4203d-62c9-47e3-b96d-63fd03dc9e94#src=seo_token) | Solana | 12.09% | $206.1K |
-| 3 | [orca-dex →](https://www.defi.garden/?pool=78110730-cd1c-432a-bc06-c2eed825e841#src=seo_token) | Solana | 2.84% | $136.1K |
+| 1 | [orca-dex →](https://www.defi.garden/?pool=4420a9de-a883-4ba9-a4c6-4ed12734ab94#src=seo_token) | Solana | 15.16% | $318.3K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=a4c4203d-62c9-47e3-b96d-63fd03dc9e94#src=seo_token) | Solana | 12.36% | $211.6K |
+| 3 | [orca-dex →](https://www.defi.garden/?pool=78110730-cd1c-432a-bc06-c2eed825e841#src=seo_token) | Solana | 0.25% | $142.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-BONK shows up in 3 pools here, with rates from 2.84% to 25.74% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+BONK shows up in 3 pools here, with rates from 0.25% to 15.16% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 33.45% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 33.12% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -35,9 +35,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| orca-dex | 25.74% | 59.21% | Base rate |
-| raydium-amm | 12.09% | 33.45% | Base rate |
-| orca-dex | 2.84% | 13.67% | Base rate |
+| orca-dex | 15.16% | 58.50% | Base rate |
+| raydium-amm | 12.36% | 33.12% | Base rate |
+| orca-dex | 0.25% | 13.14% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,11 +45,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BONK yield today?
 
-25.74% APY on orca-dex (Solana), based on live DefiLlama data.
+15.16% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many BONK pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $1.88M in total.
+6 live pools clear this page's $100K TVL floor, $1.95M in total.
 
 ### Are these rates safe?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BONK pools have the most stable APY history?
 
-Based on APY history only, BONK's lower-variability candidates are orca-dex (Solana), 25.74% APY, $324.6K TVL, https://www.defi.garden/?pool=4420a9de-a883-4ba9-a4c6-4ed12734ab94#src=seo_token; raydium-amm (Solana), 12.09% APY, $206.1K TVL, https://www.defi.garden/?pool=a4c4203d-62c9-47e3-b96d-63fd03dc9e94#src=seo_token; orca-dex (Solana), 2.84% APY, $136.1K TVL, https://www.defi.garden/?pool=78110730-cd1c-432a-bc06-c2eed825e841#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BONK's lower-variability candidates are orca-dex (Solana), 15.16% APY, $318.3K TVL, https://www.defi.garden/?pool=4420a9de-a883-4ba9-a4c6-4ed12734ab94#src=seo_token; raydium-amm (Solana), 12.36% APY, $211.6K TVL, https://www.defi.garden/?pool=a4c4203d-62c9-47e3-b96d-63fd03dc9e94#src=seo_token; orca-dex (Solana), 0.25% APY, $142.6K TVL, https://www.defi.garden/?pool=78110730-cd1c-432a-bc06-c2eed825e841#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -65,11 +65,11 @@ Based on APY history only, BONK's lower-variability candidates are orca-dex (Sol
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
+- [USDE](https://www.defi.garden/tokens/usde)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 15, 2026
+## Last updated October 16, 2026

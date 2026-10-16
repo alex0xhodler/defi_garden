@@ -1,12 +1,12 @@
 # OGPU DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
 
-The highest honest OGPU yield right now is 0.32% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OGPU yield right now is 6.51% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=63e1bdb8-265f-4bf0-8ffd-8ec45bedae35#src=seo_token) | Ethereum | 0.32% | $181.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=63e1bdb8-265f-4bf0-8ffd-8ec45bedae35#src=seo_token) | Ethereum | 6.51% | $176.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest OGPU yield today?
 
-0.32% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+6.51% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many OGPU pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $181.2K in total.
+1 live pool clear this page's $100K TVL floor, $176.9K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank OGPU pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 15, 2026
+## Last updated October 16, 2026

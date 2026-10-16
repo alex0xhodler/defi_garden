@@ -1,32 +1,32 @@
 # ESP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
 
-The highest honest ESP yield right now is 48.54% on uniswap-v4 (Arbitrum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ESP yield right now is 24.52% on uniswap-v4 (Arbitrum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=3a75f7c6-05ee-538f-baf8-84a91618882a#src=seo_token) | Arbitrum | 48.54% | $575.1K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=0db42fb8-7518-4f3e-ae69-1312cb1624e4#src=seo_token) | Ethereum | 61.63% | $436.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=34ccf582-38d6-41e1-9ff2-3cfcbc2888a2#src=seo_token) | Arbitrum | 4.95% | $308.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=3a75f7c6-05ee-538f-baf8-84a91618882a#src=seo_token) | Arbitrum | 24.52% | $578.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=0db42fb8-7518-4f3e-ae69-1312cb1624e4#src=seo_token) | Ethereum | 14.13% | $436.5K |
+| [curve-dex →](https://www.defi.garden/?pool=a8b88f04-5a32-5d5e-b772-3d4d8d72baaf#src=seo_token) | Ethereum | 2.99% | $279.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ESP's lower-variability candidates are uniswap-v3 (Arbitrum), 4.95% APY, $308.3K TVL, https://www.defi.garden/?pool=34ccf582-38d6-41e1-9ff2-3cfcbc2888a2#src=seo_token; uniswap-v4 (Ethereum), 61.63% APY, $436.4K TVL, https://www.defi.garden/?pool=0db42fb8-7518-4f3e-ae69-1312cb1624e4#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ESP's lower-variability candidates are curve-dex (Ethereum), 2.99% APY, $279.4K TVL, https://www.defi.garden/?pool=a8b88f04-5a32-5d5e-b772-3d4d8d72baaf#src=seo_token; uniswap-v4 (Ethereum), 14.13% APY, $436.5K TVL, https://www.defi.garden/?pool=0db42fb8-7518-4f3e-ae69-1312cb1624e4#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=34ccf582-38d6-41e1-9ff2-3cfcbc2888a2#src=seo_token) | Arbitrum | 4.95% | $308.3K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=0db42fb8-7518-4f3e-ae69-1312cb1624e4#src=seo_token) | Ethereum | 61.63% | $436.4K |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=a8b88f04-5a32-5d5e-b772-3d4d8d72baaf#src=seo_token) | Ethereum | 2.99% | $279.4K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=0db42fb8-7518-4f3e-ae69-1312cb1624e4#src=seo_token) | Ethereum | 14.13% | $436.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ESP shows up in 3 pools here, with rates from 4.95% to 61.63% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+ESP shows up in 3 pools here, with rates from 2.99% to 24.52% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 36.55% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 37.12% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -34,9 +34,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 48.54% | 37.23% | Base rate |
-| uniswap-v4 | 61.63% | 36.55% | Base rate |
-| uniswap-v3 | 4.95% | 3.85% | Base rate |
+| uniswap-v4 | 24.52% | 37.12% | Base rate |
+| uniswap-v4 | 14.13% | 38.15% | Base rate |
+| curve-dex | 2.99% | 1.53% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -44,11 +44,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ESP yield today?
 
-48.54% APY on uniswap-v4 (Arbitrum), based on live DefiLlama data.
+24.52% APY on uniswap-v4 (Arbitrum), based on live DefiLlama data.
 
 ### How many ESP pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.6M in total.
+3 live pools clear this page's $100K TVL floor, $1.29M in total.
 
 ### Are these rates safe?
 
@@ -56,7 +56,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ESP pools have the most stable APY history?
 
-Based on APY history only, ESP's lower-variability candidates are uniswap-v3 (Arbitrum), 4.95% APY, $308.3K TVL, https://www.defi.garden/?pool=34ccf582-38d6-41e1-9ff2-3cfcbc2888a2#src=seo_token; uniswap-v4 (Ethereum), 61.63% APY, $436.4K TVL, https://www.defi.garden/?pool=0db42fb8-7518-4f3e-ae69-1312cb1624e4#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ESP's lower-variability candidates are curve-dex (Ethereum), 2.99% APY, $279.4K TVL, https://www.defi.garden/?pool=a8b88f04-5a32-5d5e-b772-3d4d8d72baaf#src=seo_token; uniswap-v4 (Ethereum), 14.13% APY, $436.5K TVL, https://www.defi.garden/?pool=0db42fb8-7518-4f3e-ae69-1312cb1624e4#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -72,4 +72,4 @@ Based on APY history only, ESP's lower-variability candidates are uniswap-v3 (Ar
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 15, 2026
+## Last updated October 16, 2026

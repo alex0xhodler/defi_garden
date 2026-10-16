@@ -1,12 +1,12 @@
 # CHATOSHI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
 
-The highest honest CHATOSHI yield right now is 9.68% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CHATOSHI yield right now is 10.72% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=3b19ce63-4aa2-45b1-b4dc-c46efcb3ffc0#src=seo_token) | Solana | 9.68% | $144K |
+| [raydium-amm →](https://www.defi.garden/?pool=3b19ce63-4aa2-45b1-b4dc-c46efcb3ffc0#src=seo_token) | Solana | 10.72% | $149.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CHATOSHI yield today?
 
-9.68% APY on raydium-amm (Solana), based on live DefiLlama data.
+10.72% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many CHATOSHI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $144K in total.
+1 live pool clear this page's $100K TVL floor, $149.6K in total.
 
 ### Are these rates safe?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank CHATOSHI pools. This view cov
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
+- [USDE](https://www.defi.garden/tokens/usde)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 15, 2026
+## Last updated October 16, 2026

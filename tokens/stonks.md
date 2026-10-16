@@ -1,12 +1,12 @@
 # STONKS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
 
-The highest honest STONKS yield right now is 0.02% on hyperswap-v2 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STONKS yield right now is 0.01% on hyperswap-v2 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hyperswap-v2 →](https://www.defi.garden/?pool=0ec69e97-4f27-42b2-8d88-02a97f5fa1f2#src=seo_token) | Hyperliquid L1 | 0.02% | $102.2K |
+| [hyperswap-v2 →](https://www.defi.garden/?pool=0ec69e97-4f27-42b2-8d88-02a97f5fa1f2#src=seo_token) | Hyperliquid L1 | 0.01% | $106.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest STONKS yield today?
 
-0.02% APY on hyperswap-v2 (Hyperliquid L1), based on live DefiLlama data.
+0.01% APY on hyperswap-v2 (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many STONKS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $102.2K in total.
+1 live pool clear this page's $100K TVL floor, $106.2K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank STONKS pools. This view cover
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated October 15, 2026
+## Last updated October 16, 2026

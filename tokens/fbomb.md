@@ -1,43 +1,43 @@
 # FBOMB DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
 
-The highest honest FBOMB yield right now is 226.27% on aerodrome-v1 (Base), among 11 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FBOMB yield right now is 234.28% on aerodrome-v1 (Base), among 10 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=e2c7a30e-cae6-419d-af75-b4bebd506879#src=seo_token) | Base | 226.27% | $5.2M |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=ddf0bc37-9835-443b-bf1c-696cbd373e2d#src=seo_token) | Base | 236.03% | $1.85M |
-| [velodrome-v2 →](https://www.defi.garden/?pool=8ba5248e-fb39-40c6-8fbe-611542c2780e#src=seo_token) | OP Mainnet | 161.32% | $1M |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=f5d42b5f-40b7-45b8-b5f2-b15c39378cde#src=seo_token) | Base | 29.05% | $343.8K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=3f76960c-e861-54bc-a0b0-d3ce91fd83f0#src=seo_token) | Base | 29.23% | $198.4K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=3571b159-37b6-4f12-903e-55212ddfc6bc#src=seo_token) | Base | 5.91% | $171.3K |
-| [shadow-exchange-legacy →](https://www.defi.garden/?pool=79e3b6bc-bc73-4526-bb66-13878cf8f0e2#src=seo_token) | Sonic | 8.52% | $157.1K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=9d4a4da4-6e1a-4c45-9174-5fc0f08cef15#src=seo_token) | Base | 313.07% | $134.2K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=e2c7a30e-cae6-419d-af75-b4bebd506879#src=seo_token) | Base | 234.28% | $5.52M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=ddf0bc37-9835-443b-bf1c-696cbd373e2d#src=seo_token) | Base | 260.55% | $1.84M |
+| [velodrome-v2 →](https://www.defi.garden/?pool=8ba5248e-fb39-40c6-8fbe-611542c2780e#src=seo_token) | OP Mainnet | 167.82% | $1.06M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=f5d42b5f-40b7-45b8-b5f2-b15c39378cde#src=seo_token) | Base | 32.71% | $335.7K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=3f76960c-e861-54bc-a0b0-d3ce91fd83f0#src=seo_token) | Base | 31.00% | $205.6K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=3571b159-37b6-4f12-903e-55212ddfc6bc#src=seo_token) | Base | 6.40% | $174.1K |
+| [shadow-exchange-legacy →](https://www.defi.garden/?pool=79e3b6bc-bc73-4526-bb66-13878cf8f0e2#src=seo_token) | Sonic | 9.53% | $159.9K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=9d4a4da4-6e1a-4c45-9174-5fc0f08cef15#src=seo_token) | Base | 329.87% | $140K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, FBOMB's lower-variability candidates are shadow-exchange-legacy (Sonic), 8.52% APY, $157.1K TVL, https://www.defi.garden/?pool=79e3b6bc-bc73-4526-bb66-13878cf8f0e2#src=seo_token; aerodrome-v1 (Base), 29.05% APY, $343.8K TVL, https://www.defi.garden/?pool=f5d42b5f-40b7-45b8-b5f2-b15c39378cde#src=seo_token; aerodrome-v1 (Base), 5.91% APY, $171.3K TVL, https://www.defi.garden/?pool=3571b159-37b6-4f12-903e-55212ddfc6bc#src=seo_token; aerodrome-v1 (Base), 236.03% APY, $1.85M TVL, https://www.defi.garden/?pool=ddf0bc37-9835-443b-bf1c-696cbd373e2d#src=seo_token; aerodrome-v1 (Base), 226.27% APY, $5.2M TVL, https://www.defi.garden/?pool=e2c7a30e-cae6-419d-af75-b4bebd506879#src=seo_token; aerodrome-v1 (Base), 29.23% APY, $198.4K TVL, https://www.defi.garden/?pool=3f76960c-e861-54bc-a0b0-d3ce91fd83f0#src=seo_token; velodrome-v2 (OP Mainnet), 161.32% APY, $1M TVL, https://www.defi.garden/?pool=8ba5248e-fb39-40c6-8fbe-611542c2780e#src=seo_token; aerodrome-v1 (Base), 313.07% APY, $134.2K TVL, https://www.defi.garden/?pool=9d4a4da4-6e1a-4c45-9174-5fc0f08cef15#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FBOMB's lower-variability candidates are shadow-exchange-legacy (Sonic), 9.53% APY, $159.9K TVL, https://www.defi.garden/?pool=79e3b6bc-bc73-4526-bb66-13878cf8f0e2#src=seo_token; aerodrome-v1 (Base), 32.71% APY, $335.7K TVL, https://www.defi.garden/?pool=f5d42b5f-40b7-45b8-b5f2-b15c39378cde#src=seo_token; aerodrome-v1 (Base), 6.40% APY, $174.1K TVL, https://www.defi.garden/?pool=3571b159-37b6-4f12-903e-55212ddfc6bc#src=seo_token; aerodrome-v1 (Base), 260.55% APY, $1.84M TVL, https://www.defi.garden/?pool=ddf0bc37-9835-443b-bf1c-696cbd373e2d#src=seo_token; aerodrome-v1 (Base), 234.28% APY, $5.52M TVL, https://www.defi.garden/?pool=e2c7a30e-cae6-419d-af75-b4bebd506879#src=seo_token; aerodrome-v1 (Base), 31.00% APY, $205.6K TVL, https://www.defi.garden/?pool=3f76960c-e861-54bc-a0b0-d3ce91fd83f0#src=seo_token; velodrome-v2 (OP Mainnet), 167.82% APY, $1.06M TVL, https://www.defi.garden/?pool=8ba5248e-fb39-40c6-8fbe-611542c2780e#src=seo_token; aerodrome-v1 (Base), 329.87% APY, $140K TVL, https://www.defi.garden/?pool=9d4a4da4-6e1a-4c45-9174-5fc0f08cef15#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [shadow-exchange-legacy →](https://www.defi.garden/?pool=79e3b6bc-bc73-4526-bb66-13878cf8f0e2#src=seo_token) | Sonic | 8.52% | $157.1K |
-| 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=f5d42b5f-40b7-45b8-b5f2-b15c39378cde#src=seo_token) | Base | 29.05% | $343.8K |
-| 3 | [aerodrome-v1 →](https://www.defi.garden/?pool=3571b159-37b6-4f12-903e-55212ddfc6bc#src=seo_token) | Base | 5.91% | $171.3K |
-| 4 | [aerodrome-v1 →](https://www.defi.garden/?pool=ddf0bc37-9835-443b-bf1c-696cbd373e2d#src=seo_token) | Base | 236.03% | $1.85M |
-| 5 | [aerodrome-v1 →](https://www.defi.garden/?pool=e2c7a30e-cae6-419d-af75-b4bebd506879#src=seo_token) | Base | 226.27% | $5.2M |
-| 6 | [aerodrome-v1 →](https://www.defi.garden/?pool=3f76960c-e861-54bc-a0b0-d3ce91fd83f0#src=seo_token) | Base | 29.23% | $198.4K |
-| 7 | [velodrome-v2 →](https://www.defi.garden/?pool=8ba5248e-fb39-40c6-8fbe-611542c2780e#src=seo_token) | OP Mainnet | 161.32% | $1M |
-| 8 | [aerodrome-v1 →](https://www.defi.garden/?pool=9d4a4da4-6e1a-4c45-9174-5fc0f08cef15#src=seo_token) | Base | 313.07% | $134.2K |
+| 1 | [shadow-exchange-legacy →](https://www.defi.garden/?pool=79e3b6bc-bc73-4526-bb66-13878cf8f0e2#src=seo_token) | Sonic | 9.53% | $159.9K |
+| 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=f5d42b5f-40b7-45b8-b5f2-b15c39378cde#src=seo_token) | Base | 32.71% | $335.7K |
+| 3 | [aerodrome-v1 →](https://www.defi.garden/?pool=3571b159-37b6-4f12-903e-55212ddfc6bc#src=seo_token) | Base | 6.40% | $174.1K |
+| 4 | [aerodrome-v1 →](https://www.defi.garden/?pool=ddf0bc37-9835-443b-bf1c-696cbd373e2d#src=seo_token) | Base | 260.55% | $1.84M |
+| 5 | [aerodrome-v1 →](https://www.defi.garden/?pool=e2c7a30e-cae6-419d-af75-b4bebd506879#src=seo_token) | Base | 234.28% | $5.52M |
+| 6 | [aerodrome-v1 →](https://www.defi.garden/?pool=3f76960c-e861-54bc-a0b0-d3ce91fd83f0#src=seo_token) | Base | 31.00% | $205.6K |
+| 7 | [velodrome-v2 →](https://www.defi.garden/?pool=8ba5248e-fb39-40c6-8fbe-611542c2780e#src=seo_token) | OP Mainnet | 167.82% | $1.06M |
+| 8 | [aerodrome-v1 →](https://www.defi.garden/?pool=9d4a4da4-6e1a-4c45-9174-5fc0f08cef15#src=seo_token) | Base | 329.87% | $140K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-FBOMB shows up in 8 pools here, with rates from 5.91% to 313.07% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+FBOMB shows up in 8 pools here, with rates from 6.40% to 329.87% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 88.84% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 88.97% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 8 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -45,14 +45,14 @@ FBOMB shows up in 8 pools here, with rates from 5.91% to 313.07% APY across 3 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-v1 | 226.27% | 153.27% | 100.00% incentives |
-| aerodrome-v1 | 236.03% | 144.87% | 100.00% incentives |
-| velodrome-v2 | 161.32% | 120.78% | 100.00% incentives |
-| aerodrome-v1 | 29.05% | 42.32% | 100.00% incentives |
-| aerodrome-v1 | 29.23% | 56.89% | 100.00% incentives |
-| aerodrome-v1 | 5.91% | 24.02% | 100.00% incentives |
-| shadow-exchange-legacy | 8.52% | 5.98% | 100.00% incentives |
-| aerodrome-v1 | 313.07% | 150.91% | 100.00% incentives |
+| aerodrome-v1 | 234.28% | 160.92% | 100.00% incentives |
+| aerodrome-v1 | 260.55% | 153.07% | 100.00% incentives |
+| velodrome-v2 | 167.82% | 121.99% | 100.00% incentives |
+| aerodrome-v1 | 32.71% | 42.56% | 100.00% incentives |
+| aerodrome-v1 | 31.00% | 55.95% | 100.00% incentives |
+| aerodrome-v1 | 6.40% | 23.88% | 100.00% incentives |
+| shadow-exchange-legacy | 9.53% | 6.13% | 100.00% incentives |
+| aerodrome-v1 | 329.87% | 161.61% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -60,11 +60,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest FBOMB yield today?
 
-226.27% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+234.28% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many FBOMB pools clear the TVL floor?
 
-11 live pools clear this page's $100K TVL floor, $9.42M in total.
+10 live pools clear this page's $100K TVL floor, $9.68M in total.
 
 ### Are these rates safe?
 
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which FBOMB pools have the most stable APY history?
 
-Based on APY history only, FBOMB's lower-variability candidates are shadow-exchange-legacy (Sonic), 8.52% APY, $157.1K TVL, https://www.defi.garden/?pool=79e3b6bc-bc73-4526-bb66-13878cf8f0e2#src=seo_token; aerodrome-v1 (Base), 29.05% APY, $343.8K TVL, https://www.defi.garden/?pool=f5d42b5f-40b7-45b8-b5f2-b15c39378cde#src=seo_token; aerodrome-v1 (Base), 5.91% APY, $171.3K TVL, https://www.defi.garden/?pool=3571b159-37b6-4f12-903e-55212ddfc6bc#src=seo_token; aerodrome-v1 (Base), 236.03% APY, $1.85M TVL, https://www.defi.garden/?pool=ddf0bc37-9835-443b-bf1c-696cbd373e2d#src=seo_token; aerodrome-v1 (Base), 226.27% APY, $5.2M TVL, https://www.defi.garden/?pool=e2c7a30e-cae6-419d-af75-b4bebd506879#src=seo_token; aerodrome-v1 (Base), 29.23% APY, $198.4K TVL, https://www.defi.garden/?pool=3f76960c-e861-54bc-a0b0-d3ce91fd83f0#src=seo_token; velodrome-v2 (OP Mainnet), 161.32% APY, $1M TVL, https://www.defi.garden/?pool=8ba5248e-fb39-40c6-8fbe-611542c2780e#src=seo_token; aerodrome-v1 (Base), 313.07% APY, $134.2K TVL, https://www.defi.garden/?pool=9d4a4da4-6e1a-4c45-9174-5fc0f08cef15#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FBOMB's lower-variability candidates are shadow-exchange-legacy (Sonic), 9.53% APY, $159.9K TVL, https://www.defi.garden/?pool=79e3b6bc-bc73-4526-bb66-13878cf8f0e2#src=seo_token; aerodrome-v1 (Base), 32.71% APY, $335.7K TVL, https://www.defi.garden/?pool=f5d42b5f-40b7-45b8-b5f2-b15c39378cde#src=seo_token; aerodrome-v1 (Base), 6.40% APY, $174.1K TVL, https://www.defi.garden/?pool=3571b159-37b6-4f12-903e-55212ddfc6bc#src=seo_token; aerodrome-v1 (Base), 260.55% APY, $1.84M TVL, https://www.defi.garden/?pool=ddf0bc37-9835-443b-bf1c-696cbd373e2d#src=seo_token; aerodrome-v1 (Base), 234.28% APY, $5.52M TVL, https://www.defi.garden/?pool=e2c7a30e-cae6-419d-af75-b4bebd506879#src=seo_token; aerodrome-v1 (Base), 31.00% APY, $205.6K TVL, https://www.defi.garden/?pool=3f76960c-e861-54bc-a0b0-d3ce91fd83f0#src=seo_token; velodrome-v2 (OP Mainnet), 167.82% APY, $1.06M TVL, https://www.defi.garden/?pool=8ba5248e-fb39-40c6-8fbe-611542c2780e#src=seo_token; aerodrome-v1 (Base), 329.87% APY, $140K TVL, https://www.defi.garden/?pool=9d4a4da4-6e1a-4c45-9174-5fc0f08cef15#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -89,4 +89,4 @@ Based on APY history only, FBOMB's lower-variability candidates are shadow-excha
 - [OP Mainnet](https://www.defi.garden/chains/op-mainnet)
 - [Sonic](https://www.defi.garden/chains/sonic)
 
-## Last updated October 15, 2026
+## Last updated October 16, 2026

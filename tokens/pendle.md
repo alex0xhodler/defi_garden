@@ -1,43 +1,43 @@
 # PENDLE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
 
-The highest honest PENDLE yield right now is 116.79% on aerodrome-slipstream (Base), among 14 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PENDLE yield right now is 77.97% on uniswap-v3 (Ethereum), among 12 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [camelot-v2 →](https://www.defi.garden/?pool=054b89fc-997b-4600-a4ab-00dbd72c0474#src=seo_token) | Arbitrum | 7.35% | $2.04M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=a978c15f-c41a-433b-b02f-3434256ba66f#src=seo_token) | Arbitrum | 44.82% | $960.1K |
-| [curve-dex →](https://www.defi.garden/?pool=2b667896-bd77-46b3-8ddd-bfbb7eafea73#src=seo_token) | Ethereum | 0.03% | $651.6K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=18f93685-c199-44e7-8e25-154781d0a575#src=seo_token) | Arbitrum | 92.30% | $546.6K |
-| [dolomite →](https://www.defi.garden/?pool=9cb7fc60-9b7d-459e-8bf1-8f5189631cac#src=seo_token) | Arbitrum | 2.24% | $516.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=e889bc1c-15fe-4d3b-95e7-f72b7501e0f4#src=seo_token) | Ethereum | 109.43% | $396.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=090bbc01-1bfb-435d-b928-58ea9bdc8a25#src=seo_token) | Arbitrum | 43.02% | $289.8K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=145ca243-2a20-48f4-bc20-88515fa23dd1#src=seo_token) | Base | 116.79% | $194.5K |
+| [camelot-v2 →](https://www.defi.garden/?pool=054b89fc-997b-4600-a4ab-00dbd72c0474#src=seo_token) | Arbitrum | 6.24% | $2.16M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a978c15f-c41a-433b-b02f-3434256ba66f#src=seo_token) | Arbitrum | 33.94% | $1.06M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=18f93685-c199-44e7-8e25-154781d0a575#src=seo_token) | Arbitrum | 65.17% | $571.3K |
+| [dolomite →](https://www.defi.garden/?pool=9cb7fc60-9b7d-459e-8bf1-8f5189631cac#src=seo_token) | Arbitrum | 2.24% | $566.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e889bc1c-15fe-4d3b-95e7-f72b7501e0f4#src=seo_token) | Ethereum | 77.97% | $431.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=090bbc01-1bfb-435d-b928-58ea9bdc8a25#src=seo_token) | Arbitrum | 30.41% | $312.1K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=145ca243-2a20-48f4-bc20-88515fa23dd1#src=seo_token) | Base | 55.95% | $211.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c4f27457-0d3d-4f6d-8c3e-eb1a0e6e91b8#src=seo_token) | Arbitrum | 14.10% | $169.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, PENDLE's lower-variability candidates are dolomite (Arbitrum), 2.24% APY, $516.5K TVL, https://www.defi.garden/?pool=9cb7fc60-9b7d-459e-8bf1-8f5189631cac#src=seo_token; curve-dex (Ethereum), 0.03% APY, $651.6K TVL, https://www.defi.garden/?pool=2b667896-bd77-46b3-8ddd-bfbb7eafea73#src=seo_token; uniswap-v3 (Arbitrum), 43.02% APY, $289.8K TVL, https://www.defi.garden/?pool=090bbc01-1bfb-435d-b928-58ea9bdc8a25#src=seo_token; camelot-v2 (Arbitrum), 7.35% APY, $2.04M TVL, https://www.defi.garden/?pool=054b89fc-997b-4600-a4ab-00dbd72c0474#src=seo_token; uniswap-v3 (Arbitrum), 44.82% APY, $960.1K TVL, https://www.defi.garden/?pool=a978c15f-c41a-433b-b02f-3434256ba66f#src=seo_token; uniswap-v3 (Ethereum), 109.43% APY, $396.4K TVL, https://www.defi.garden/?pool=e889bc1c-15fe-4d3b-95e7-f72b7501e0f4#src=seo_token; aerodrome-slipstream (Base), 116.79% APY, $194.5K TVL, https://www.defi.garden/?pool=145ca243-2a20-48f4-bc20-88515fa23dd1#src=seo_token; uniswap-v3 (Arbitrum), 92.30% APY, $546.6K TVL, https://www.defi.garden/?pool=18f93685-c199-44e7-8e25-154781d0a575#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PENDLE's lower-variability candidates are dolomite (Arbitrum), 2.24% APY, $566.6K TVL, https://www.defi.garden/?pool=9cb7fc60-9b7d-459e-8bf1-8f5189631cac#src=seo_token; uniswap-v3 (Arbitrum), 30.41% APY, $312.1K TVL, https://www.defi.garden/?pool=090bbc01-1bfb-435d-b928-58ea9bdc8a25#src=seo_token; camelot-v2 (Arbitrum), 6.24% APY, $2.16M TVL, https://www.defi.garden/?pool=054b89fc-997b-4600-a4ab-00dbd72c0474#src=seo_token; uniswap-v3 (Arbitrum), 14.10% APY, $169.6K TVL, https://www.defi.garden/?pool=c4f27457-0d3d-4f6d-8c3e-eb1a0e6e91b8#src=seo_token; uniswap-v3 (Arbitrum), 33.94% APY, $1.06M TVL, https://www.defi.garden/?pool=a978c15f-c41a-433b-b02f-3434256ba66f#src=seo_token; uniswap-v3 (Ethereum), 77.97% APY, $431.6K TVL, https://www.defi.garden/?pool=e889bc1c-15fe-4d3b-95e7-f72b7501e0f4#src=seo_token; aerodrome-slipstream (Base), 55.95% APY, $211.2K TVL, https://www.defi.garden/?pool=145ca243-2a20-48f4-bc20-88515fa23dd1#src=seo_token; uniswap-v3 (Arbitrum), 65.17% APY, $571.3K TVL, https://www.defi.garden/?pool=18f93685-c199-44e7-8e25-154781d0a575#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [dolomite →](https://www.defi.garden/?pool=9cb7fc60-9b7d-459e-8bf1-8f5189631cac#src=seo_token) | Arbitrum | 2.24% | $516.5K |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=2b667896-bd77-46b3-8ddd-bfbb7eafea73#src=seo_token) | Ethereum | 0.03% | $651.6K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=090bbc01-1bfb-435d-b928-58ea9bdc8a25#src=seo_token) | Arbitrum | 43.02% | $289.8K |
-| 4 | [camelot-v2 →](https://www.defi.garden/?pool=054b89fc-997b-4600-a4ab-00dbd72c0474#src=seo_token) | Arbitrum | 7.35% | $2.04M |
-| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=a978c15f-c41a-433b-b02f-3434256ba66f#src=seo_token) | Arbitrum | 44.82% | $960.1K |
-| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=e889bc1c-15fe-4d3b-95e7-f72b7501e0f4#src=seo_token) | Ethereum | 109.43% | $396.4K |
-| 7 | [aerodrome-slipstream →](https://www.defi.garden/?pool=145ca243-2a20-48f4-bc20-88515fa23dd1#src=seo_token) | Base | 116.79% | $194.5K |
-| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=18f93685-c199-44e7-8e25-154781d0a575#src=seo_token) | Arbitrum | 92.30% | $546.6K |
+| 1 | [dolomite →](https://www.defi.garden/?pool=9cb7fc60-9b7d-459e-8bf1-8f5189631cac#src=seo_token) | Arbitrum | 2.24% | $566.6K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=090bbc01-1bfb-435d-b928-58ea9bdc8a25#src=seo_token) | Arbitrum | 30.41% | $312.1K |
+| 3 | [camelot-v2 →](https://www.defi.garden/?pool=054b89fc-997b-4600-a4ab-00dbd72c0474#src=seo_token) | Arbitrum | 6.24% | $2.16M |
+| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=c4f27457-0d3d-4f6d-8c3e-eb1a0e6e91b8#src=seo_token) | Arbitrum | 14.10% | $169.6K |
+| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=a978c15f-c41a-433b-b02f-3434256ba66f#src=seo_token) | Arbitrum | 33.94% | $1.06M |
+| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=e889bc1c-15fe-4d3b-95e7-f72b7501e0f4#src=seo_token) | Ethereum | 77.97% | $431.6K |
+| 7 | [aerodrome-slipstream →](https://www.defi.garden/?pool=145ca243-2a20-48f4-bc20-88515fa23dd1#src=seo_token) | Base | 55.95% | $211.2K |
+| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=18f93685-c199-44e7-8e25-154781d0a575#src=seo_token) | Arbitrum | 65.17% | $571.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-PENDLE shows up in 8 pools here, with rates from 0.03% to 116.79% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+PENDLE shows up in 8 pools here, with rates from 2.24% to 77.97% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 36.92% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 36.45% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 8 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -45,14 +45,14 @@ PENDLE shows up in 8 pools here, with rates from 0.03% to 116.79% APY across 3 c
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| camelot-v2 | 7.35% | 8.14% | Base rate |
-| uniswap-v3 | 44.82% | 40.58% | Base rate |
-| curve-dex | 0.03% | 0.15% | Base rate |
-| uniswap-v3 | 92.30% | 61.59% | Base rate |
-| dolomite | 2.24% | 1.27% | Base rate |
-| uniswap-v3 | 109.43% | 63.27% | Base rate |
-| uniswap-v3 | 43.02% | 33.25% | Base rate |
-| aerodrome-slipstream | 116.79% | 150.67% | 96.98% incentives |
+| camelot-v2 | 6.24% | 7.96% | Base rate |
+| uniswap-v3 | 33.94% | 40.12% | Base rate |
+| uniswap-v3 | 65.17% | 61.93% | Base rate |
+| dolomite | 2.24% | 1.33% | Base rate |
+| uniswap-v3 | 77.97% | 62.51% | Base rate |
+| uniswap-v3 | 30.41% | 32.79% | Base rate |
+| aerodrome-slipstream | 55.95% | 148.79% | 93.19% incentives |
+| uniswap-v3 | 14.10% | 15.68% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -60,11 +60,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest PENDLE yield today?
 
-116.79% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+77.97% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many PENDLE pools clear the TVL floor?
 
-14 live pools clear this page's $100K TVL floor, $7.02M in total.
+12 live pools clear this page's $100K TVL floor, $6.76M in total.
 
 ### Are these rates safe?
 
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which PENDLE pools have the most stable APY history?
 
-Based on APY history only, PENDLE's lower-variability candidates are dolomite (Arbitrum), 2.24% APY, $516.5K TVL, https://www.defi.garden/?pool=9cb7fc60-9b7d-459e-8bf1-8f5189631cac#src=seo_token; curve-dex (Ethereum), 0.03% APY, $651.6K TVL, https://www.defi.garden/?pool=2b667896-bd77-46b3-8ddd-bfbb7eafea73#src=seo_token; uniswap-v3 (Arbitrum), 43.02% APY, $289.8K TVL, https://www.defi.garden/?pool=090bbc01-1bfb-435d-b928-58ea9bdc8a25#src=seo_token; camelot-v2 (Arbitrum), 7.35% APY, $2.04M TVL, https://www.defi.garden/?pool=054b89fc-997b-4600-a4ab-00dbd72c0474#src=seo_token; uniswap-v3 (Arbitrum), 44.82% APY, $960.1K TVL, https://www.defi.garden/?pool=a978c15f-c41a-433b-b02f-3434256ba66f#src=seo_token; uniswap-v3 (Ethereum), 109.43% APY, $396.4K TVL, https://www.defi.garden/?pool=e889bc1c-15fe-4d3b-95e7-f72b7501e0f4#src=seo_token; aerodrome-slipstream (Base), 116.79% APY, $194.5K TVL, https://www.defi.garden/?pool=145ca243-2a20-48f4-bc20-88515fa23dd1#src=seo_token; uniswap-v3 (Arbitrum), 92.30% APY, $546.6K TVL, https://www.defi.garden/?pool=18f93685-c199-44e7-8e25-154781d0a575#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PENDLE's lower-variability candidates are dolomite (Arbitrum), 2.24% APY, $566.6K TVL, https://www.defi.garden/?pool=9cb7fc60-9b7d-459e-8bf1-8f5189631cac#src=seo_token; uniswap-v3 (Arbitrum), 30.41% APY, $312.1K TVL, https://www.defi.garden/?pool=090bbc01-1bfb-435d-b928-58ea9bdc8a25#src=seo_token; camelot-v2 (Arbitrum), 6.24% APY, $2.16M TVL, https://www.defi.garden/?pool=054b89fc-997b-4600-a4ab-00dbd72c0474#src=seo_token; uniswap-v3 (Arbitrum), 14.10% APY, $169.6K TVL, https://www.defi.garden/?pool=c4f27457-0d3d-4f6d-8c3e-eb1a0e6e91b8#src=seo_token; uniswap-v3 (Arbitrum), 33.94% APY, $1.06M TVL, https://www.defi.garden/?pool=a978c15f-c41a-433b-b02f-3434256ba66f#src=seo_token; uniswap-v3 (Ethereum), 77.97% APY, $431.6K TVL, https://www.defi.garden/?pool=e889bc1c-15fe-4d3b-95e7-f72b7501e0f4#src=seo_token; aerodrome-slipstream (Base), 55.95% APY, $211.2K TVL, https://www.defi.garden/?pool=145ca243-2a20-48f4-bc20-88515fa23dd1#src=seo_token; uniswap-v3 (Arbitrum), 65.17% APY, $571.3K TVL, https://www.defi.garden/?pool=18f93685-c199-44e7-8e25-154781d0a575#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -89,4 +89,4 @@ Based on APY history only, PENDLE's lower-variability candidates are dolomite (A
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 15, 2026
+## Last updated October 16, 2026

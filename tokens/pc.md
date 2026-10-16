@@ -1,12 +1,12 @@
 # PC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
 
 The highest honest PC yield right now is 0.22% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=0af06677-4169-4d9d-bfb6-f9910be749cc#src=seo_token) | Ethereum | 0.22% | $250.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=0af06677-4169-4d9d-bfb6-f9910be749cc#src=seo_token) | Ethereum | 0.22% | $260.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $250.9K in total.
+1 live pool clear this page's $100K TVL floor, $260.5K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank PC pools. This view covers AP
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 15, 2026
+## Last updated October 16, 2026

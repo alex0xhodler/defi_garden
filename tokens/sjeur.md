@@ -1,13 +1,13 @@
 # SJEUR DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
 
-The highest honest SJEUR yield right now is 16.64% on spectra-v2 (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SJEUR yield right now is 17.08% on spectra-v2 (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [spectra-v2 →](https://www.defi.garden/?pool=d87a2b4b-50d5-587d-b816-ca9bb97587cc#src=seo_token) | Base | 16.64% | $237.4K |
-| [spectra-v2 →](https://www.defi.garden/?pool=e9a78dfb-7dbc-5467-9782-903f1f7098d8#src=seo_token) | Base | 3.81% | $237.4K |
+| [spectra-v2 →](https://www.defi.garden/?pool=d87a2b4b-50d5-587d-b816-ca9bb97587cc#src=seo_token) | Base | 17.08% | $237.5K |
+| [spectra-v2 →](https://www.defi.garden/?pool=e9a78dfb-7dbc-5467-9782-903f1f7098d8#src=seo_token) | Base | 3.99% | $237.5K |
 | [spectra-v2 →](https://www.defi.garden/?pool=1a22730d-077c-5186-8bcb-bfb86412717b#src=seo_token) | Base | 34.52% | $195.1K |
 | [spectra-v2 →](https://www.defi.garden/?pool=32af4747-0aa4-5575-8a7a-e48f60de06f7#src=seo_token) | Base | 3.56% | $195.1K |
 
@@ -33,10 +33,10 @@ SJEUR shows up in 4 pools here, with rates from 3.56% to 34.52% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| spectra-v2 | 16.64% | 22.96% | 33.50% incentives |
-| spectra-v2 | 3.81% | 3.64% | Base rate |
-| spectra-v2 | 34.52% | 19.26% | 19.73% incentives |
-| spectra-v2 | 3.56% | 3.73% | Base rate |
+| spectra-v2 | 17.08% | 21.17% | 32.68% incentives |
+| spectra-v2 | 3.99% | 3.72% | Base rate |
+| spectra-v2 | 34.52% | 19.27% | 19.73% incentives |
+| spectra-v2 | 3.56% | 3.72% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SJEUR yield today?
 
-16.64% APY on spectra-v2 (Base), based on live DefiLlama data.
+17.08% APY on spectra-v2 (Base), based on live DefiLlama data.
 
 ### How many SJEUR pools clear the TVL floor?
 
@@ -71,4 +71,4 @@ Based on APY history only, SJEUR's lower-variability candidates are spectra-v2 (
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 15, 2026
+## Last updated October 16, 2026

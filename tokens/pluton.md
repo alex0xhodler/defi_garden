@@ -1,12 +1,12 @@
 # PLUTON DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
 
-The highest honest PLUTON yield right now is 517.56% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PLUTON yield right now is 538.26% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=6c4bce3b-cd3e-558f-8119-e1f3d4f36293#src=seo_token) | Base | 517.56% | $188.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=6c4bce3b-cd3e-558f-8119-e1f3d4f36293#src=seo_token) | Base | 538.26% | $187K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PLUTON yield today?
 
-517.56% APY on uniswap-v2 (Base), based on live DefiLlama data.
+538.26% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many PLUTON pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $188.4K in total.
+1 live pool clear this page's $100K TVL floor, $187K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank PLUTON pools. This view cover
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 15, 2026
+## Last updated October 16, 2026

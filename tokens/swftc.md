@@ -1,12 +1,12 @@
 # SWFTC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
 
 The highest honest SWFTC yield right now is 0.01% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=0cfba3e8-db11-4b72-b219-5dfff007e9ee#src=seo_token) | Ethereum | 0.01% | $145.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=0cfba3e8-db11-4b72-b219-5dfff007e9ee#src=seo_token) | Ethereum | 0.01% | $149.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SWFTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $145.8K in total.
+1 live pool clear this page's $100K TVL floor, $149.7K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank SWFTC pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 15, 2026
+## Last updated October 16, 2026

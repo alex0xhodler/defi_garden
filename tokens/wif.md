@@ -1,12 +1,12 @@
 # WIF DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
 
-The highest honest WIF yield right now is 31.23% on kamino-liquidity (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WIF yield right now is 10.96% on kamino-liquidity (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [kamino-liquidity →](https://www.defi.garden/?pool=b725a0c1-e766-42e9-af8c-927ece966d34#src=seo_token) | Solana | 31.23% | $115.9K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=b725a0c1-e766-42e9-af8c-927ece966d34#src=seo_token) | Solana | 10.96% | $122.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WIF yield today?
 
-31.23% APY on kamino-liquidity (Solana), based on live DefiLlama data.
+10.96% APY on kamino-liquidity (Solana), based on live DefiLlama data.
 
 ### How many WIF pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $115.9K in total.
+1 live pool clear this page's $100K TVL floor, $122.5K in total.
 
 ### Are these rates safe?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank WIF pools. This view covers A
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
+- [USDE](https://www.defi.garden/tokens/usde)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 15, 2026
+## Last updated October 16, 2026

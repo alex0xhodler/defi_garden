@@ -1,12 +1,12 @@
 # STAC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
 
-The highest honest STAC yield right now is 3.33% on securitize-tokenized-aaa-clo-fund (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STAC yield right now is 3.47% on securitize-tokenized-aaa-clo-fund (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [securitize-tokenized-aaa-clo-fund →](https://www.defi.garden/pools/securitize-tokenized-aaa-clo-fund-stac-ethereum) | Ethereum | 3.33% | $104.31M |
+| [securitize-tokenized-aaa-clo-fund →](https://www.defi.garden/pools/securitize-tokenized-aaa-clo-fund-stac-ethereum) | Ethereum | 3.47% | $104.32M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest STAC yield today?
 
-3.33% APY on securitize-tokenized-aaa-clo-fund (Ethereum), based on live DefiLlama data.
+3.47% APY on securitize-tokenized-aaa-clo-fund (Ethereum), based on live DefiLlama data.
 
 ### How many STAC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $104.31M in total.
+1 live pool clear this page's $100K TVL floor, $104.32M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank STAC pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 15, 2026
+## Last updated October 16, 2026

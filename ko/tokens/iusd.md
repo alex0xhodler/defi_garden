@@ -1,33 +1,40 @@
 # IUSD 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 15, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 16, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 IUSD의 가장 높은 정직한 수익률은 Cardano의 minswap-dex에서 13.33%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 IUSD의 가장 높은 정직한 수익률은 Echelon Initia의 echelon-market에서 11.73%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=af811c95-f061-4695-a4d4-2fecdea7b043#src=seo_token) | Cardano | 13.33% | $163.5K |
+| [minswap-dex →](https://www.defi.garden/?pool=af811c95-f061-4695-a4d4-2fecdea7b043#src=seo_token) | Cardano | 9.29% | $167.9K |
+| [echelon-market →](https://www.defi.garden/?pool=efd30884-7381-4f3b-930a-39f617d0bb03#src=seo_token) | Echelon Initia | 11.73% | $104.4K |
 
-<!-- rate-stability:insufficient -->
+<!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-비교할 수 있는 IUSD 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 IUSD의 변동성 낮은 후보는 Echelon Initia의 echelon-market, APY 11.73%, TVL $104.4K, https://www.defi.garden/?pool=efd30884-7381-4f3b-930a-39f617d0bb03#src=seo_token; Cardano의 minswap-dex, APY 9.29%, TVL $167.9K, https://www.defi.garden/?pool=af811c95-f061-4695-a4d4-2fecdea7b043#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+
+| 순위 | 프로토콜 | 체인 | APY | TVL |
+|---|---|---|---|---|
+| 1 | [echelon-market →](https://www.defi.garden/?pool=efd30884-7381-4f3b-930a-39f617d0bb03#src=seo_token) | Echelon Initia | 11.73% | $104.4K |
+| 2 | [minswap-dex →](https://www.defi.garden/?pool=af811c95-f061-4695-a4d4-2fecdea7b043#src=seo_token) | Cardano | 9.29% | $167.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-IUSD 풀은 여기 1개가 있고, 1개 체인에서 APY가 13.33%부터 13.33%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+IUSD 풀은 여기 2개가 있고, 2개 체인에서 APY가 9.29%부터 11.73%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-1개 풀 중 1개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 14.20%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+2개 풀 중 2개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 12.05%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
-1개 풀 중 1개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
+2개 풀 중 2개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
-1개 풀 중 1개는 비영구적 손실(IL) 위험이 있어요 — 두 자산을 맞춰 넣는 포지션은 수익이 나는 중에도 그냥 들고 있는 것보다 가치가 줄어들 수 있어요.
+2개 풀 중 1개는 비영구적 손실(IL) 위험이 있어요 — 두 자산을 맞춰 넣는 포지션은 수익이 나는 중에도 그냥 들고 있는 것보다 가치가 줄어들 수 있어요.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| minswap-dex | 13.33% | 14.20% | 인센티브 17.18% |
+| minswap-dex | 9.29% | 14.03% | 인센티브 25.40% |
+| echelon-market | 11.73% | 10.07% | 인센티브 51.73% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -35,11 +42,11 @@ IUSD 풀은 여기 1개가 있고, 1개 체인에서 APY가 13.33%부터 13.33%�
 
 ### 오늘 IUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Cardano의 minswap-dex에서 APY 13.33%예요.
+DefiLlama 실시간 데이터 기준, Echelon Initia의 echelon-market에서 APY 11.73%예요.
 
 ### IUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $3M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $3.28M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -47,7 +54,7 @@ DefiLlama 실시간 데이터 기준, Cardano의 minswap-dex에서 APY 13.33%예
 
 ### IUSD 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-비교할 수 있는 IUSD 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 IUSD의 변동성 낮은 후보는 Echelon Initia의 echelon-market, APY 11.73%, TVL $104.4K, https://www.defi.garden/?pool=efd30884-7381-4f3b-930a-39f617d0bb03#src=seo_token; Cardano의 minswap-dex, APY 9.29%, TVL $167.9K, https://www.defi.garden/?pool=af811c95-f061-4695-a4d4-2fecdea7b043#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -61,5 +68,6 @@ DefiLlama 실시간 데이터 기준, Cardano의 minswap-dex에서 APY 13.33%예
 ## 이용 가능한 체인
 
 - [Cardano](https://www.defi.garden/ko/chains/cardano)
+- [Echelon Initia](https://www.defi.garden/ko/chains/echelon-initia)
 
-## 마지막 업데이트: October 15, 2026
+## 마지막 업데이트: October 16, 2026

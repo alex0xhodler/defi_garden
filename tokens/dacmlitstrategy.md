@@ -1,12 +1,12 @@
 # DACMLITSTRATEGY DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
 
-The highest honest DACMLITSTRATEGY yield right now is 9.68% on lagoon (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DACMLITSTRATEGY yield right now is 9.85% on lagoon (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=694c7731-fbbe-4a34-a100-fcc637296df0#src=seo_token) | Arbitrum | 9.68% | $448.3K |
+| [lagoon →](https://www.defi.garden/?pool=694c7731-fbbe-4a34-a100-fcc637296df0#src=seo_token) | Arbitrum | 9.85% | $448.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DACMLITSTRATEGY yield today?
 
-9.68% APY on lagoon (Arbitrum), based on live DefiLlama data.
+9.85% APY on lagoon (Arbitrum), based on live DefiLlama data.
 
 ### How many DACMLITSTRATEGY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $448.3K in total.
+1 live pool clear this page's $100K TVL floor, $448.6K in total.
 
 ### Are these rates safe?
 
@@ -35,8 +35,8 @@ There is not enough qualifying APY history to rank DACMLITSTRATEGY pools. This v
 
 ## Related tokens
 
-- [SUSDS](https://www.defi.garden/tokens/susds)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
+- [SUSDS](https://www.defi.garden/tokens/susds)
 - [ETH](https://www.defi.garden/tokens/eth)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [USDS](https://www.defi.garden/tokens/usds)
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank DACMLITSTRATEGY pools. This v
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated October 15, 2026
+## Last updated October 16, 2026

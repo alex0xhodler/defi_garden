@@ -1,12 +1,12 @@
 # HDX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
 
 The highest honest HDX yield right now is 0.69% on hydration-dex (Polkadot), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hydration-dex →](https://www.defi.garden/?pool=31638f93-8c0a-4b69-9c13-51dd81464c86#src=seo_token) | Polkadot | 0.69% | $1.18M |
+| [hydration-dex →](https://www.defi.garden/?pool=31638f93-8c0a-4b69-9c13-51dd81464c86#src=seo_token) | Polkadot | 0.69% | $1.19M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many HDX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.18M in total.
+1 live pool clear this page's $100K TVL floor, $1.19M in total.
 
 ### Are these rates safe?
 
@@ -36,7 +36,7 @@ There is not enough qualifying APY history to rank HDX pools. This view covers A
 ## Related tokens
 
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [TBTC](https://www.defi.garden/tokens/tbtc)
+- [SKY](https://www.defi.garden/tokens/sky)
 - [APYUSD](https://www.defi.garden/tokens/apyusd)
 - [GETH](https://www.defi.garden/tokens/geth)
 - [VDOT](https://www.defi.garden/tokens/vdot)
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank HDX pools. This view covers A
 
 - [Polkadot](https://www.defi.garden/chains/polkadot)
 
-## Last updated October 15, 2026
+## Last updated October 16, 2026

@@ -1,12 +1,12 @@
 # LMTS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
 
-The highest honest LMTS yield right now is 155.86% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LMTS yield right now is 82.11% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=e606cbde-282e-44c6-b498-bfa85acc262d#src=seo_token) | Base | 155.86% | $309.6K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=e606cbde-282e-44c6-b498-bfa85acc262d#src=seo_token) | Base | 82.11% | $307.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LMTS yield today?
 
-155.86% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+82.11% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many LMTS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $309.6K in total.
+1 live pool clear this page's $100K TVL floor, $307.7K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank LMTS pools. This view covers 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 15, 2026
+## Last updated October 16, 2026

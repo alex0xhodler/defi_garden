@@ -1,52 +1,29 @@
 # TLOS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
 
-The highest honest TLOS yield right now is 159.52% on aerodrome-v1 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TLOS yield right now is 179.07% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=9d3d9149-6be9-4cf0-94b8-7718a82b0cf8#src=seo_token) | Base | 159.52% | $223.4K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=dba41558-d891-42b8-bfd5-4dd556433c9f#src=seo_token) | Ethereum | 8.79% | $102.1K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=9d3d9149-6be9-4cf0-94b8-7718a82b0cf8#src=seo_token) | Base | 179.07% | $218.8K |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, TLOS's lower-variability candidates are aerodrome-v1 (Base), 159.52% APY, $223.4K TVL, https://www.defi.garden/?pool=9d3d9149-6be9-4cf0-94b8-7718a82b0cf8#src=seo_token; uniswap-v4 (Ethereum), 8.79% APY, $102.1K TVL, https://www.defi.garden/?pool=dba41558-d891-42b8-bfd5-4dd556433c9f#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=9d3d9149-6be9-4cf0-94b8-7718a82b0cf8#src=seo_token) | Base | 159.52% | $223.4K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=dba41558-d891-42b8-bfd5-4dd556433c9f#src=seo_token) | Ethereum | 8.79% | $102.1K |
+There is not enough qualifying APY history to rank TLOS pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
-
-## How this rate has behaved
-
-TLOS shows up in 2 pools here, with rates from 8.79% to 159.52% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
-
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 45.54% — a useful check against today's number for whether the rate is steady or just having a good day.
-
-1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
-
-2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
-
-| Protocol | APY | 30d Mean APY | Yield mix |
-|---|---|---|---|
-| aerodrome-v1 | 159.52% | 85.78% | 100.00% incentives |
-| uniswap-v4 | 8.79% | 5.30% | Base rate |
-
-The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
 ## Frequently asked questions
 
 ### What's the highest TLOS yield today?
 
-159.52% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+179.07% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many TLOS pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $325.5K in total.
+1 live pool clear this page's $100K TVL floor, $218.8K in total.
 
 ### Are these rates safe?
 
@@ -54,20 +31,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which TLOS pools have the most stable APY history?
 
-Based on APY history only, TLOS's lower-variability candidates are aerodrome-v1 (Base), 159.52% APY, $223.4K TVL, https://www.defi.garden/?pool=9d3d9149-6be9-4cf0-94b8-7718a82b0cf8#src=seo_token; uniswap-v4 (Ethereum), 8.79% APY, $102.1K TVL, https://www.defi.garden/?pool=dba41558-d891-42b8-bfd5-4dd556433c9f#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank TLOS pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
-- [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WETH](https://www.defi.garden/tokens/weth)
+- [USDE](https://www.defi.garden/tokens/usde)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
-- [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 15, 2026
+## Last updated October 16, 2026

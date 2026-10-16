@@ -1,12 +1,12 @@
 # HYPER DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
 
-The highest honest HYPER yield right now is 220.27% on symbiotic (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HYPER yield right now is 220.28% on symbiotic (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [symbiotic →](https://www.defi.garden/?pool=e8b1e4cc-da84-5a59-8359-76b5c0a0ece6#src=seo_token) | Ethereum | 220.27% | $1.26M |
+| [symbiotic →](https://www.defi.garden/?pool=e8b1e4cc-da84-5a59-8359-76b5c0a0ece6#src=seo_token) | Ethereum | 220.28% | $1.32M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-HYPER shows up in 1 pools here, with rates from 220.27% to 220.27% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+HYPER shows up in 1 pools here, with rates from 220.28% to 220.28% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 1 of these 1 pool has a trustworthy 30-day average on file, with a median of 220.11% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -25,7 +25,7 @@ HYPER shows up in 1 pools here, with rates from 220.27% to 220.27% APY across 1 
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| symbiotic | 220.27% | 220.11% | 100.00% incentives |
+| symbiotic | 220.28% | 220.11% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -33,11 +33,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest HYPER yield today?
 
-220.27% APY on symbiotic (Ethereum), based on live DefiLlama data.
+220.28% APY on symbiotic (Ethereum), based on live DefiLlama data.
 
 ### How many HYPER pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.85M in total.
+5 live pools clear this page's $100K TVL floor, $2.03M in total.
 
 ### Are these rates safe?
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank HYPER pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 15, 2026
+## Last updated October 16, 2026

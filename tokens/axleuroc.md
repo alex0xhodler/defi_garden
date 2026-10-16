@@ -1,12 +1,12 @@
 # AXLEUROC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
 
-The highest honest AXLEUROC yield right now is 1.52% on mento-v3 (Celo), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AXLEUROC yield right now is 1.87% on mento-v3 (Celo), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [mento-v3 →](https://www.defi.garden/?pool=facf4a31-0db6-4618-b8c5-1c4c62e743dd#src=seo_token) | Celo | 1.52% | $127.3K |
+| [mento-v3 →](https://www.defi.garden/?pool=facf4a31-0db6-4618-b8c5-1c4c62e743dd#src=seo_token) | Celo | 1.87% | $127.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AXLEUROC yield today?
 
-1.52% APY on mento-v3 (Celo), based on live DefiLlama data.
+1.87% APY on mento-v3 (Celo), based on live DefiLlama data.
 
 ### How many AXLEUROC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $127.3K in total.
+1 live pool clear this page's $100K TVL floor, $127.7K in total.
 
 ### Are these rates safe?
 
@@ -37,13 +37,13 @@ There is not enough qualifying APY history to rank AXLEUROC pools. This view cov
 
 - [USAT](https://www.defi.garden/tokens/usat)
 - [WARS](https://www.defi.garden/tokens/wars)
-- [XAUT0](https://www.defi.garden/tokens/xaut0)
 - [CELO](https://www.defi.garden/tokens/celo)
-- [CUSD](https://www.defi.garden/tokens/cusd)
+- [STCELO](https://www.defi.garden/tokens/stcelo)
 - [EURM](https://www.defi.garden/tokens/eurm)
+- [CUSD](https://www.defi.garden/tokens/cusd)
 
 ## Available on
 
 - [Celo](https://www.defi.garden/chains/celo)
 
-## Last updated October 15, 2026
+## Last updated October 16, 2026

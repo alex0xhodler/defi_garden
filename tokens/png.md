@@ -1,12 +1,12 @@
 # PNG DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
 
-The highest honest PNG yield right now is 5.24% on pangolin-v2 (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PNG yield right now is 10.27% on pangolin-v2 (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pangolin-v2 →](https://www.defi.garden/?pool=566f2380-2a31-4a98-8700-d7bc6bd0c29c#src=seo_token) | Avalanche | 5.24% | $244.9K |
+| [pangolin-v2 →](https://www.defi.garden/?pool=566f2380-2a31-4a98-8700-d7bc6bd0c29c#src=seo_token) | Avalanche | 10.27% | $260.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PNG yield today?
 
-5.24% APY on pangolin-v2 (Avalanche), based on live DefiLlama data.
+10.27% APY on pangolin-v2 (Avalanche), based on live DefiLlama data.
 
 ### How many PNG pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $244.9K in total.
+1 live pool clear this page's $100K TVL floor, $260.5K in total.
 
 ### Are these rates safe?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank PNG pools. This view covers A
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [SAVAX](https://www.defi.garden/tokens/savax)
 - [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
-- [SAVUSD](https://www.defi.garden/tokens/savusd)
 - [WAVAX](https://www.defi.garden/tokens/wavax)
+- [SAVUSD](https://www.defi.garden/tokens/savusd)
 
 ## Available on
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated October 15, 2026
+## Last updated October 16, 2026

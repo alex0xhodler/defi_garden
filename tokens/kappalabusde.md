@@ -1,12 +1,12 @@
 # KAPPALABUSDE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
 
-The highest honest KAPPALABUSDE yield right now is 9.00% on wildcat-protocol (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KAPPALABUSDE yield right now is 7.00% on wildcat-protocol (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [wildcat-protocol →](https://www.defi.garden/?pool=2d2d3e18-f08c-442a-985d-d9d448404bfa#src=seo_token) | Ethereum | 9.00% | $118.5K |
+| [wildcat-protocol →](https://www.defi.garden/?pool=2d2d3e18-f08c-442a-985d-d9d448404bfa#src=seo_token) | Ethereum | 7.00% | $118.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KAPPALABUSDE yield today?
 
-9.00% APY on wildcat-protocol (Ethereum), based on live DefiLlama data.
+7.00% APY on wildcat-protocol (Ethereum), based on live DefiLlama data.
 
 ### How many KAPPALABUSDE pools clear the TVL floor?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank KAPPALABUSDE pools. This view
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 15, 2026
+## Last updated October 16, 2026

@@ -1,12 +1,12 @@
 # NCLOA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
 
-The highest honest NCLOA yield right now is 5.84% on plume-vaults (Plume Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NCLOA yield right now is 5.81% on plume-vaults (Plume Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [plume-vaults →](https://www.defi.garden/?pool=a960f0fd-0ed0-51dc-afcb-4196ae033c68#src=seo_token) | Plume Mainnet | 5.84% | $2.62M |
+| [plume-vaults →](https://www.defi.garden/?pool=a960f0fd-0ed0-51dc-afcb-4196ae033c68#src=seo_token) | Plume Mainnet | 5.81% | $2.62M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NCLOA yield today?
 
-5.84% APY on plume-vaults (Plume Mainnet), based on live DefiLlama data.
+5.81% APY on plume-vaults (Plume Mainnet), based on live DefiLlama data.
 
 ### How many NCLOA pools clear the TVL floor?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank NCLOA pools. This view covers
 - [USTB](https://www.defi.garden/tokens/ustb)
 - [USCC](https://www.defi.garden/tokens/uscc)
 - [NOPAL](https://www.defi.garden/tokens/nopal)
-- [NETHERFI](https://www.defi.garden/tokens/netherfi)
 - [NPRIME](https://www.defi.garden/tokens/nprime)
 - [NFALCON](https://www.defi.garden/tokens/nfalcon)
+- [NALPHA](https://www.defi.garden/tokens/nalpha)
 
 ## Available on
 
 - [Plume Mainnet](https://www.defi.garden/chains/plume-mainnet)
 
-## Last updated October 15, 2026
+## Last updated October 16, 2026

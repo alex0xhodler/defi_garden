@@ -1,12 +1,12 @@
 # SKHY DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
 
-The highest honest SKHY yield right now is 36.93% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SKHY yield right now is 53.73% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=2e706a8c-9bce-5e88-9640-d322a70130a5#src=seo_token) | Solana | 36.93% | $492.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=2e706a8c-9bce-5e88-9640-d322a70130a5#src=seo_token) | Solana | 53.73% | $512.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SKHY yield today?
 
-36.93% APY on raydium-amm (Solana), based on live DefiLlama data.
+53.73% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many SKHY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $492.9K in total.
+1 live pool clear this page's $100K TVL floor, $512.6K in total.
 
 ### Are these rates safe?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank SKHY pools. This view covers 
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
+- [USDE](https://www.defi.garden/tokens/usde)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 15, 2026
+## Last updated October 16, 2026

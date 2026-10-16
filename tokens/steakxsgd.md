@@ -1,12 +1,12 @@
 # STEAKXSGD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
 
 The highest honest STEAKXSGD yield right now is 0.21% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=0dfc66d9-74eb-41be-a9d1-1d73f452934f#src=seo_token) | Base | 0.21% | $1.08M |
+| [morpho-blue →](https://www.defi.garden/?pool=0dfc66d9-74eb-41be-a9d1-1d73f452934f#src=seo_token) | Base | 0.21% | $1.09M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many STEAKXSGD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.08M in total.
+1 live pool clear this page's $100K TVL floor, $1.09M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank STEAKXSGD pools. This view co
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 15, 2026
+## Last updated October 16, 2026

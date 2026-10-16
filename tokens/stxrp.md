@@ -1,35 +1,35 @@
 # STXRP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
 
-The highest honest STXRP yield right now is 4.42% on spectra-v2 (Flare), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STXRP yield right now is 4.47% on spectra-v2 (Flare), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sparkdex-v4 →](https://www.defi.garden/?pool=fe56d007-4f9f-4eaf-84e2-ea4248769975#src=seo_token) | Flare | 1.99% | $6.75M |
-| [spectra-v2 →](https://www.defi.garden/?pool=ff0b0d1d-a21e-430b-95f4-61f7142736bc#src=seo_token) | Flare | 4.42% | $3.51M |
-| [spectra-v2 →](https://www.defi.garden/?pool=027455a8-ee05-573e-ab0b-f090594a9e0c#src=seo_token) | Flare | 0.64% | $3.51M |
-| [spectra-v2 →](https://www.defi.garden/?pool=f3fa272e-0ca7-4d1c-b616-fcb8009af17d#src=seo_token) | Flare | 0.64% | $229.8K |
-| [spectra-v2 →](https://www.defi.garden/?pool=121077f0-d508-4a6a-af0b-ecd70f79be41#src=seo_token) | Flare | 0.87% | $229.8K |
+| [sparkdex-v4 →](https://www.defi.garden/?pool=fe56d007-4f9f-4eaf-84e2-ea4248769975#src=seo_token) | Flare | 1.98% | $6.96M |
+| [spectra-v2 →](https://www.defi.garden/?pool=ff0b0d1d-a21e-430b-95f4-61f7142736bc#src=seo_token) | Flare | 4.47% | $3.62M |
+| [spectra-v2 →](https://www.defi.garden/?pool=027455a8-ee05-573e-ab0b-f090594a9e0c#src=seo_token) | Flare | 0.85% | $3.62M |
+| [spectra-v2 →](https://www.defi.garden/?pool=f3fa272e-0ca7-4d1c-b616-fcb8009af17d#src=seo_token) | Flare | 0.85% | $237.5K |
+| [spectra-v2 →](https://www.defi.garden/?pool=121077f0-d508-4a6a-af0b-ecd70f79be41#src=seo_token) | Flare | 1.00% | $237.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, STXRP's lower-variability candidates are sparkdex-v4 (Flare), 1.99% APY, $6.75M TVL, https://www.defi.garden/?pool=fe56d007-4f9f-4eaf-84e2-ea4248769975#src=seo_token; spectra-v2 (Flare), 4.42% APY, $3.51M TVL, https://www.defi.garden/?pool=ff0b0d1d-a21e-430b-95f4-61f7142736bc#src=seo_token; spectra-v2 (Flare), 0.87% APY, $229.8K TVL, https://www.defi.garden/?pool=121077f0-d508-4a6a-af0b-ecd70f79be41#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STXRP's lower-variability candidates are sparkdex-v4 (Flare), 1.98% APY, $6.96M TVL, https://www.defi.garden/?pool=fe56d007-4f9f-4eaf-84e2-ea4248769975#src=seo_token; spectra-v2 (Flare), 4.47% APY, $3.62M TVL, https://www.defi.garden/?pool=ff0b0d1d-a21e-430b-95f4-61f7142736bc#src=seo_token; spectra-v2 (Flare), 1.00% APY, $237.5K TVL, https://www.defi.garden/?pool=121077f0-d508-4a6a-af0b-ecd70f79be41#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [sparkdex-v4 →](https://www.defi.garden/?pool=fe56d007-4f9f-4eaf-84e2-ea4248769975#src=seo_token) | Flare | 1.99% | $6.75M |
-| 2 | [spectra-v2 →](https://www.defi.garden/?pool=ff0b0d1d-a21e-430b-95f4-61f7142736bc#src=seo_token) | Flare | 4.42% | $3.51M |
-| 3 | [spectra-v2 →](https://www.defi.garden/?pool=121077f0-d508-4a6a-af0b-ecd70f79be41#src=seo_token) | Flare | 0.87% | $229.8K |
+| 1 | [sparkdex-v4 →](https://www.defi.garden/?pool=fe56d007-4f9f-4eaf-84e2-ea4248769975#src=seo_token) | Flare | 1.98% | $6.96M |
+| 2 | [spectra-v2 →](https://www.defi.garden/?pool=ff0b0d1d-a21e-430b-95f4-61f7142736bc#src=seo_token) | Flare | 4.47% | $3.62M |
+| 3 | [spectra-v2 →](https://www.defi.garden/?pool=121077f0-d508-4a6a-af0b-ecd70f79be41#src=seo_token) | Flare | 1.00% | $237.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-STXRP shows up in 5 pools here, with rates from 0.64% to 4.42% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+STXRP shows up in 5 pools here, with rates from 0.85% to 4.47% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-5 of these 5 pools have a trustworthy 30-day average on file, with a median of 0.60% — a useful check against today's number for whether the rate is steady or just having a good day.
+5 of these 5 pools have a trustworthy 30-day average on file, with a median of 0.62% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 5 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -37,11 +37,11 @@ STXRP shows up in 5 pools here, with rates from 0.64% to 4.42% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| sparkdex-v4 | 1.99% | 1.93% | 99.37% incentives |
-| spectra-v2 | 4.42% | 3.52% | Base rate |
-| spectra-v2 | 0.64% | 0.60% | Base rate |
-| spectra-v2 | 0.64% | 0.60% | Base rate |
-| spectra-v2 | 0.87% | 0.22% | Base rate |
+| sparkdex-v4 | 1.98% | 1.94% | 99.71% incentives |
+| spectra-v2 | 4.47% | 3.59% | Base rate |
+| spectra-v2 | 0.85% | 0.62% | Base rate |
+| spectra-v2 | 0.85% | 0.62% | Base rate |
+| spectra-v2 | 1.00% | 0.25% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -49,11 +49,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest STXRP yield today?
 
-4.42% APY on spectra-v2 (Flare), based on live DefiLlama data.
+4.47% APY on spectra-v2 (Flare), based on live DefiLlama data.
 
 ### How many STXRP pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $14.23M in total.
+5 live pools clear this page's $100K TVL floor, $14.69M in total.
 
 ### Are these rates safe?
 
@@ -61,7 +61,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which STXRP pools have the most stable APY history?
 
-Based on APY history only, STXRP's lower-variability candidates are sparkdex-v4 (Flare), 1.99% APY, $6.75M TVL, https://www.defi.garden/?pool=fe56d007-4f9f-4eaf-84e2-ea4248769975#src=seo_token; spectra-v2 (Flare), 4.42% APY, $3.51M TVL, https://www.defi.garden/?pool=ff0b0d1d-a21e-430b-95f4-61f7142736bc#src=seo_token; spectra-v2 (Flare), 0.87% APY, $229.8K TVL, https://www.defi.garden/?pool=121077f0-d508-4a6a-af0b-ecd70f79be41#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STXRP's lower-variability candidates are sparkdex-v4 (Flare), 1.98% APY, $6.96M TVL, https://www.defi.garden/?pool=fe56d007-4f9f-4eaf-84e2-ea4248769975#src=seo_token; spectra-v2 (Flare), 4.47% APY, $3.62M TVL, https://www.defi.garden/?pool=ff0b0d1d-a21e-430b-95f4-61f7142736bc#src=seo_token; spectra-v2 (Flare), 1.00% APY, $237.5K TVL, https://www.defi.garden/?pool=121077f0-d508-4a6a-af0b-ecd70f79be41#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -76,4 +76,4 @@ Based on APY history only, STXRP's lower-variability candidates are sparkdex-v4 
 
 - [Flare](https://www.defi.garden/chains/flare)
 
-## Last updated October 15, 2026
+## Last updated October 16, 2026

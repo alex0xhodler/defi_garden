@@ -175,12 +175,12 @@
             </div>
             <div class="kpi-cell">
                 <div class="kpi-label">Median Model MAE</div>
-                <div class="kpi-val">1.11 pp</div>
+                <div class="kpi-val">1.13 pp</div>
                 <div class="kpi-sub">Mean error vs median forecast</div>
             </div>
             <div class="kpi-cell">
                 <div class="kpi-label">Naive Baseline MAE</div>
-                <div class="kpi-val">1.10 pp</div>
+                <div class="kpi-val">1.11 pp</div>
                 <div class="kpi-sub">Mean error assuming "no change"</div>
             </div>
             <div class="kpi-cell">
@@ -193,7 +193,7 @@
         </div>
 
         <div class="score-lede" style="background:var(--ui-surface-muted, rgba(0,0,0,0.03)); border:1px solid var(--ui-border); padding:16px 20px; border-radius:var(--ui-radius-md); font-size:0.92rem;">
-          <strong>Key Research Finding:</strong> Across 20 resolved daily test runs, the empirical 80% confidence interval captures <strong>71.1%</strong> of actual outcomes. However, the median forecast skill score sits at <strong>0.00</strong>: <em>in our first 10 test runs, assuming today's rate holds was more accurate than this forecast</em>. Roughly 60% of lending yields barely moved (&lt;0.1 pp), which the model handled well, but on pools with meaningful rate movement (&ge;0.5 pp), assuming no change was substantially closer. Individual venue pages mark forecasts as experimental.
+          <strong>Key Research Finding:</strong> Across 21 resolved daily test runs, the empirical 80% confidence interval captures <strong>71.1%</strong> of actual outcomes. However, the median forecast skill score sits at <strong>0.00</strong>: <em>in our first 10 test runs, assuming today's rate holds was more accurate than this forecast</em>. Roughly 60% of lending yields barely moved (&lt;0.1 pp), which the model handled well, but on pools with meaningful rate movement (&ge;0.5 pp), assuming no change was substantially closer. Individual venue pages mark forecasts as experimental.
         </div>
 
         <h2 style="font-size:1.25rem; margin:32px 0 10px;">Daily Resolved Evaluation Runs (14-Day Horizon)</h2>
@@ -494,6 +494,20 @@
       </td>
       <td class="num">65.5%</td>
       <td class="num">70.2%</td>
+    </tr>
+    <tr>
+      <td style="font-weight:600;">2026-10-02 &rarr; 10-16</td>
+      <td><a href="https://github.com/alex0xhodler/defi_garden/commit/92d6a1bfc09" target="_blank" rel="noopener" style="font-family:monospace; font-size:0.8rem; color:var(--ui-accent);">92d6a1bfc09</a> (08:02 UTC)</td>
+      <td class="num">2,557</td>
+      <td class="num">114</td>
+      <td class="num" style="font-weight:600;">70.2%</td>
+      <td class="num">1.26 pp</td>
+      <td class="num" style="color:var(--ui-text-secondary);">1.24 pp</td>
+      <td class="num" style="font-weight:600; color:#d9534f;">
+        -0.01
+      </td>
+      <td class="num">67.3%</td>
+      <td class="num">72.0%</td>
     </tr>
                     </tbody>
                 </table>

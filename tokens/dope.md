@@ -1,12 +1,12 @@
 # DOPE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
 
-The highest honest DOPE yield right now is 52.89% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DOPE yield right now is 59.41% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=ff2f0fa6-84b5-5237-b908-3a886113560e#src=seo_token) | Ethereum | 52.89% | $412.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ff2f0fa6-84b5-5237-b908-3a886113560e#src=seo_token) | Ethereum | 59.41% | $315.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DOPE yield today?
 
-52.89% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+59.41% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many DOPE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $412.4K in total.
+1 live pool clear this page's $100K TVL floor, $315.9K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank DOPE pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 15, 2026
+## Last updated October 16, 2026

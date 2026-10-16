@@ -1,12 +1,12 @@
 # ANKRBNB DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
 
-The highest honest ANKRBNB yield right now is 0.65% on ankr (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ANKRBNB yield right now is 0.63% on ankr (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ankr →](https://www.defi.garden/?pool=76ce5019-2483-4d1b-ae06-01b890360045#src=seo_token) | BSC | 0.65% | $521.7K |
+| [ankr →](https://www.defi.garden/?pool=76ce5019-2483-4d1b-ae06-01b890360045#src=seo_token) | BSC | 0.63% | $528.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ANKRBNB yield today?
 
-0.65% APY on ankr (BSC), based on live DefiLlama data.
+0.63% APY on ankr (BSC), based on live DefiLlama data.
 
 ### How many ANKRBNB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $521.7K in total.
+1 live pool clear this page's $100K TVL floor, $528.9K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank ANKRBNB pools. This view cove
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated October 15, 2026
+## Last updated October 16, 2026

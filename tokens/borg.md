@@ -1,33 +1,33 @@
 # BORG DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
 
-The highest honest BORG yield right now is 53.32% on orca-dex (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BORG yield right now is 54.77% on orca-dex (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=7b0b84dc-d49e-4cf8-8dbb-55a6a694d397#src=seo_token) | Solana | 0.77% | $678.6K |
-| [orca-dex →](https://www.defi.garden/?pool=490a8764-1b70-4d7f-889a-70637e61a21a#src=seo_token) | Solana | 27.77% | $467.4K |
-| [orca-dex →](https://www.defi.garden/?pool=14849874-9e8a-44e1-bc49-c6ab4e327367#src=seo_token) | Solana | 53.32% | $151.6K |
+| [orca-dex →](https://www.defi.garden/?pool=490a8764-1b70-4d7f-889a-70637e61a21a#src=seo_token) | Solana | 27.34% | $482.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=7b0b84dc-d49e-4cf8-8dbb-55a6a694d397#src=seo_token) | Solana | 2.53% | $210.8K |
+| [orca-dex →](https://www.defi.garden/?pool=14849874-9e8a-44e1-bc49-c6ab4e327367#src=seo_token) | Solana | 54.77% | $165.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, BORG's lower-variability candidates are raydium-amm (Solana), 0.77% APY, $678.6K TVL, https://www.defi.garden/?pool=7b0b84dc-d49e-4cf8-8dbb-55a6a694d397#src=seo_token; orca-dex (Solana), 27.77% APY, $467.4K TVL, https://www.defi.garden/?pool=490a8764-1b70-4d7f-889a-70637e61a21a#src=seo_token; orca-dex (Solana), 53.32% APY, $151.6K TVL, https://www.defi.garden/?pool=14849874-9e8a-44e1-bc49-c6ab4e327367#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BORG's lower-variability candidates are raydium-amm (Solana), 2.53% APY, $210.8K TVL, https://www.defi.garden/?pool=7b0b84dc-d49e-4cf8-8dbb-55a6a694d397#src=seo_token; orca-dex (Solana), 27.34% APY, $482.5K TVL, https://www.defi.garden/?pool=490a8764-1b70-4d7f-889a-70637e61a21a#src=seo_token; orca-dex (Solana), 54.77% APY, $165.8K TVL, https://www.defi.garden/?pool=14849874-9e8a-44e1-bc49-c6ab4e327367#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=7b0b84dc-d49e-4cf8-8dbb-55a6a694d397#src=seo_token) | Solana | 0.77% | $678.6K |
-| 2 | [orca-dex →](https://www.defi.garden/?pool=490a8764-1b70-4d7f-889a-70637e61a21a#src=seo_token) | Solana | 27.77% | $467.4K |
-| 3 | [orca-dex →](https://www.defi.garden/?pool=14849874-9e8a-44e1-bc49-c6ab4e327367#src=seo_token) | Solana | 53.32% | $151.6K |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=7b0b84dc-d49e-4cf8-8dbb-55a6a694d397#src=seo_token) | Solana | 2.53% | $210.8K |
+| 2 | [orca-dex →](https://www.defi.garden/?pool=490a8764-1b70-4d7f-889a-70637e61a21a#src=seo_token) | Solana | 27.34% | $482.5K |
+| 3 | [orca-dex →](https://www.defi.garden/?pool=14849874-9e8a-44e1-bc49-c6ab4e327367#src=seo_token) | Solana | 54.77% | $165.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-BORG shows up in 3 pools here, with rates from 0.77% to 53.32% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+BORG shows up in 3 pools here, with rates from 2.53% to 54.77% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 35.94% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 35.68% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -35,9 +35,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 0.77% | 7.86% | Base rate |
-| orca-dex | 27.77% | 35.94% | Base rate |
-| orca-dex | 53.32% | 56.83% | Base rate |
+| orca-dex | 27.34% | 35.68% | Base rate |
+| raydium-amm | 2.53% | 7.60% | Base rate |
+| orca-dex | 54.77% | 57.58% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,11 +45,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BORG yield today?
 
-53.32% APY on orca-dex (Solana), based on live DefiLlama data.
+54.77% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many BORG pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.41M in total.
+4 live pools clear this page's $100K TVL floor, $972.5K in total.
 
 ### Are these rates safe?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BORG pools have the most stable APY history?
 
-Based on APY history only, BORG's lower-variability candidates are raydium-amm (Solana), 0.77% APY, $678.6K TVL, https://www.defi.garden/?pool=7b0b84dc-d49e-4cf8-8dbb-55a6a694d397#src=seo_token; orca-dex (Solana), 27.77% APY, $467.4K TVL, https://www.defi.garden/?pool=490a8764-1b70-4d7f-889a-70637e61a21a#src=seo_token; orca-dex (Solana), 53.32% APY, $151.6K TVL, https://www.defi.garden/?pool=14849874-9e8a-44e1-bc49-c6ab4e327367#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BORG's lower-variability candidates are raydium-amm (Solana), 2.53% APY, $210.8K TVL, https://www.defi.garden/?pool=7b0b84dc-d49e-4cf8-8dbb-55a6a694d397#src=seo_token; orca-dex (Solana), 27.34% APY, $482.5K TVL, https://www.defi.garden/?pool=490a8764-1b70-4d7f-889a-70637e61a21a#src=seo_token; orca-dex (Solana), 54.77% APY, $165.8K TVL, https://www.defi.garden/?pool=14849874-9e8a-44e1-bc49-c6ab4e327367#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -65,11 +65,11 @@ Based on APY history only, BORG's lower-variability candidates are raydium-amm (
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
+- [USDE](https://www.defi.garden/tokens/usde)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 15, 2026
+## Last updated October 16, 2026

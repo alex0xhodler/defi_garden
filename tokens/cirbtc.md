@@ -1,27 +1,33 @@
 # CIRBTC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
 
-The highest honest CIRBTC yield right now is 1.85% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CIRBTC yield right now is 1.18% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=2b653b93-56aa-5bb1-a05e-3372e2e0fcf2#src=seo_token) | Ethereum | 0.57% | $24.22M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=93533d37-2a0a-5ae3-a69b-0be8cc4b2542#src=seo_token) | Ethereum | 1.85% | $5.67M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=f52d4484-76a3-5f08-8f73-367ed0884e70#src=seo_token) | Ethereum | 1.51% | $5.63M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2b653b93-56aa-5bb1-a05e-3372e2e0fcf2#src=seo_token) | Ethereum | 3.00% | $24.69M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f52d4484-76a3-5f08-8f73-367ed0884e70#src=seo_token) | Ethereum | 0.64% | $5.8M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=93533d37-2a0a-5ae3-a69b-0be8cc4b2542#src=seo_token) | Ethereum | 1.18% | $5.72M |
 
-<!-- rate-stability:insufficient -->
+<!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-There is not enough qualifying APY history to rank CIRBTC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CIRBTC's lower-variability candidates are uniswap-v3 (Ethereum), 0.64% APY, $5.8M TVL, https://www.defi.garden/?pool=f52d4484-76a3-5f08-8f73-367ed0884e70#src=seo_token; uniswap-v3 (Ethereum), 1.18% APY, $5.72M TVL, https://www.defi.garden/?pool=93533d37-2a0a-5ae3-a69b-0be8cc4b2542#src=seo_token; uniswap-v3 (Ethereum), 3.00% APY, $24.69M TVL, https://www.defi.garden/?pool=2b653b93-56aa-5bb1-a05e-3372e2e0fcf2#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+| Rank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=f52d4484-76a3-5f08-8f73-367ed0884e70#src=seo_token) | Ethereum | 0.64% | $5.8M |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=93533d37-2a0a-5ae3-a69b-0be8cc4b2542#src=seo_token) | Ethereum | 1.18% | $5.72M |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=2b653b93-56aa-5bb1-a05e-3372e2e0fcf2#src=seo_token) | Ethereum | 3.00% | $24.69M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CIRBTC shows up in 3 pools here, with rates from 0.57% to 1.85% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CIRBTC shows up in 3 pools here, with rates from 0.64% to 3.00% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.74% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.78% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -29,9 +35,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 0.57% | 1.31% | Base rate |
-| uniswap-v3 | 1.85% | 0.74% | Base rate |
-| uniswap-v3 | 1.51% | 0.39% | Base rate |
+| uniswap-v3 | 3.00% | 1.32% | Base rate |
+| uniswap-v3 | 0.64% | 0.43% | Base rate |
+| uniswap-v3 | 1.18% | 0.78% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -39,11 +45,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CIRBTC yield today?
 
-1.85% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+1.18% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many CIRBTC pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $35.52M in total.
+3 live pools clear this page's $100K TVL floor, $36.21M in total.
 
 ### Are these rates safe?
 
@@ -51,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which CIRBTC pools have the most stable APY history?
 
-There is not enough qualifying APY history to rank CIRBTC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CIRBTC's lower-variability candidates are uniswap-v3 (Ethereum), 0.64% APY, $5.8M TVL, https://www.defi.garden/?pool=f52d4484-76a3-5f08-8f73-367ed0884e70#src=seo_token; uniswap-v3 (Ethereum), 1.18% APY, $5.72M TVL, https://www.defi.garden/?pool=93533d37-2a0a-5ae3-a69b-0be8cc4b2542#src=seo_token; uniswap-v3 (Ethereum), 3.00% APY, $24.69M TVL, https://www.defi.garden/?pool=2b653b93-56aa-5bb1-a05e-3372e2e0fcf2#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -66,4 +72,4 @@ There is not enough qualifying APY history to rank CIRBTC pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 15, 2026
+## Last updated October 16, 2026

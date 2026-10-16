@@ -1,6 +1,6 @@
 # HAY DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
 
 The highest honest HAY yield right now is 0.04% on wombat-exchange (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -34,7 +34,7 @@ HAY shows up in 2 pools here, with rates from 0.01% to 0.04% APY across 1 chains
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | wombat-exchange | 0.01% | 0.01% | 100.00% incentives |
-| wombat-exchange | 0.04% | 0.05% | 99.78% incentives |
+| wombat-exchange | 0.04% | 0.04% | 99.92% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -69,4 +69,4 @@ Based on APY history only, HAY's lower-variability candidates are wombat-exchang
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated October 15, 2026
+## Last updated October 16, 2026

@@ -1,6 +1,6 @@
 # ECOR DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
 
 The highest honest ECOR yield right now is 0.33% on dedust (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank ECOR pools. This view covers 
 - [TSTON](https://www.defi.garden/tokens/tston)
 - [XAUT0](https://www.defi.garden/tokens/xaut0)
 - [AFFSENTORA](https://www.defi.garden/tokens/affsentora)
-- [STON](https://www.defi.garden/tokens/ston)
+- [BABYDOGE](https://www.defi.garden/tokens/babydoge)
 
 ## Available on
 
 - [TON](https://www.defi.garden/chains/ton)
 
-## Last updated October 15, 2026
+## Last updated October 16, 2026

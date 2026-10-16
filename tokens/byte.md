@@ -1,12 +1,12 @@
 # BYTE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
 
-The highest honest BYTE yield right now is 0.19% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BYTE yield right now is 1.40% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=2e1b9a7b-642b-45dd-8504-cb4a496aace4#src=seo_token) | Ethereum | 0.19% | $413.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=2e1b9a7b-642b-45dd-8504-cb4a496aace4#src=seo_token) | Ethereum | 1.40% | $430.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BYTE yield today?
 
-0.19% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+1.40% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many BYTE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $413.9K in total.
+1 live pool clear this page's $100K TVL floor, $430.6K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank BYTE pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 15, 2026
+## Last updated October 16, 2026

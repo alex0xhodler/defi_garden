@@ -1,12 +1,12 @@
 # VSOL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
 
 The highest honest VSOL yield right now is 4.86% on the-vault-liquid-staking (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [the-vault-liquid-staking →](https://www.defi.garden/pools/the-vault-liquid-staking-vsol-solana) | Solana | 4.86% | $132.88M |
+| [the-vault-liquid-staking →](https://www.defi.garden/pools/the-vault-liquid-staking-vsol-solana) | Solana | 4.86% | $138.33M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many VSOL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $148.16M in total.
+2 live pools clear this page's $100K TVL floor, $154.31M in total.
 
 ### Are these rates safe?
 
@@ -53,11 +53,11 @@ There is not enough qualifying APY history to rank VSOL pools. This view covers 
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
+- [USDE](https://www.defi.garden/tokens/usde)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 15, 2026
+## Last updated October 16, 2026

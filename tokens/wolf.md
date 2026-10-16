@@ -1,35 +1,35 @@
 # WOLF DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
 
-The highest honest WOLF yield right now is 1.52% on raydium-amm (Solana), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WOLF yield right now is 4.09% on uniswap-v2 (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=5e5d5503-d46f-4c46-a895-c92f615dd852#src=seo_token) | Ethereum | 2.30% | $733.8K |
-| [raydium-amm →](https://www.defi.garden/?pool=9bf970e6-2689-4694-8ea2-ed3350fdcb1e#src=seo_token) | Solana | 0.94% | $619.6K |
-| [raydium-amm →](https://www.defi.garden/?pool=1bba4b68-1742-4547-90a4-18b60f30ce63#src=seo_token) | Solana | 1.52% | $275K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=5e5d5503-d46f-4c46-a895-c92f615dd852#src=seo_token) | Ethereum | 4.09% | $764K |
+| [raydium-amm →](https://www.defi.garden/?pool=9bf970e6-2689-4694-8ea2-ed3350fdcb1e#src=seo_token) | Solana | 0.71% | $646.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=1bba4b68-1742-4547-90a4-18b60f30ce63#src=seo_token) | Solana | 1.17% | $286.8K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=1b93a3e1-6442-4365-9d3f-ee912f684311#src=seo_token) | Base | 0.11% | $106K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WOLF's lower-variability candidates are raydium-amm (Solana), 0.94% APY, $619.6K TVL, https://www.defi.garden/?pool=9bf970e6-2689-4694-8ea2-ed3350fdcb1e#src=seo_token; raydium-amm (Solana), 1.52% APY, $275K TVL, https://www.defi.garden/?pool=1bba4b68-1742-4547-90a4-18b60f30ce63#src=seo_token; uniswap-v2 (Ethereum), 2.30% APY, $733.8K TVL, https://www.defi.garden/?pool=5e5d5503-d46f-4c46-a895-c92f615dd852#src=seo_token; uniswap-v4 (Base), 0.11% APY, $106K TVL, https://www.defi.garden/?pool=1b93a3e1-6442-4365-9d3f-ee912f684311#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WOLF's lower-variability candidates are raydium-amm (Solana), 0.71% APY, $646.1K TVL, https://www.defi.garden/?pool=9bf970e6-2689-4694-8ea2-ed3350fdcb1e#src=seo_token; raydium-amm (Solana), 1.17% APY, $286.8K TVL, https://www.defi.garden/?pool=1bba4b68-1742-4547-90a4-18b60f30ce63#src=seo_token; uniswap-v2 (Ethereum), 4.09% APY, $764K TVL, https://www.defi.garden/?pool=5e5d5503-d46f-4c46-a895-c92f615dd852#src=seo_token; uniswap-v4 (Base), 0.11% APY, $106K TVL, https://www.defi.garden/?pool=1b93a3e1-6442-4365-9d3f-ee912f684311#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=9bf970e6-2689-4694-8ea2-ed3350fdcb1e#src=seo_token) | Solana | 0.94% | $619.6K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=1bba4b68-1742-4547-90a4-18b60f30ce63#src=seo_token) | Solana | 1.52% | $275K |
-| 3 | [uniswap-v2 →](https://www.defi.garden/?pool=5e5d5503-d46f-4c46-a895-c92f615dd852#src=seo_token) | Ethereum | 2.30% | $733.8K |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=9bf970e6-2689-4694-8ea2-ed3350fdcb1e#src=seo_token) | Solana | 0.71% | $646.1K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=1bba4b68-1742-4547-90a4-18b60f30ce63#src=seo_token) | Solana | 1.17% | $286.8K |
+| 3 | [uniswap-v2 →](https://www.defi.garden/?pool=5e5d5503-d46f-4c46-a895-c92f615dd852#src=seo_token) | Ethereum | 4.09% | $764K |
 | 4 | [uniswap-v4 →](https://www.defi.garden/?pool=1b93a3e1-6442-4365-9d3f-ee912f684311#src=seo_token) | Base | 0.11% | $106K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WOLF shows up in 4 pools here, with rates from 0.11% to 2.30% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+WOLF shows up in 4 pools here, with rates from 0.11% to 4.09% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 2.05% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 2.04% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -37,10 +37,10 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 2.30% | 5.03% | Base rate |
-| raydium-amm | 0.94% | 0.62% | Base rate |
-| raydium-amm | 1.52% | 1.07% | Base rate |
-| uniswap-v4 | 0.11% | 3.04% | Base rate |
+| uniswap-v2 | 4.09% | 4.77% | Base rate |
+| raydium-amm | 0.71% | 0.66% | Base rate |
+| raydium-amm | 1.17% | 1.15% | Base rate |
+| uniswap-v4 | 0.11% | 2.93% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -48,11 +48,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WOLF yield today?
 
-1.52% APY on raydium-amm (Solana), based on live DefiLlama data.
+4.09% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many WOLF pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $1.94M in total.
+5 live pools clear this page's $100K TVL floor, $2.02M in total.
 
 ### Are these rates safe?
 
@@ -60,7 +60,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WOLF pools have the most stable APY history?
 
-Based on APY history only, WOLF's lower-variability candidates are raydium-amm (Solana), 0.94% APY, $619.6K TVL, https://www.defi.garden/?pool=9bf970e6-2689-4694-8ea2-ed3350fdcb1e#src=seo_token; raydium-amm (Solana), 1.52% APY, $275K TVL, https://www.defi.garden/?pool=1bba4b68-1742-4547-90a4-18b60f30ce63#src=seo_token; uniswap-v2 (Ethereum), 2.30% APY, $733.8K TVL, https://www.defi.garden/?pool=5e5d5503-d46f-4c46-a895-c92f615dd852#src=seo_token; uniswap-v4 (Base), 0.11% APY, $106K TVL, https://www.defi.garden/?pool=1b93a3e1-6442-4365-9d3f-ee912f684311#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WOLF's lower-variability candidates are raydium-amm (Solana), 0.71% APY, $646.1K TVL, https://www.defi.garden/?pool=9bf970e6-2689-4694-8ea2-ed3350fdcb1e#src=seo_token; raydium-amm (Solana), 1.17% APY, $286.8K TVL, https://www.defi.garden/?pool=1bba4b68-1742-4547-90a4-18b60f30ce63#src=seo_token; uniswap-v2 (Ethereum), 4.09% APY, $764K TVL, https://www.defi.garden/?pool=5e5d5503-d46f-4c46-a895-c92f615dd852#src=seo_token; uniswap-v4 (Base), 0.11% APY, $106K TVL, https://www.defi.garden/?pool=1b93a3e1-6442-4365-9d3f-ee912f684311#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -77,4 +77,4 @@ Based on APY history only, WOLF's lower-variability candidates are raydium-amm (
 - [Solana](https://www.defi.garden/chains/solana)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 15, 2026
+## Last updated October 16, 2026

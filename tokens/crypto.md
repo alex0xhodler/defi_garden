@@ -1,12 +1,12 @@
 # CRYPTO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
 
-The highest honest CRYPTO yield right now is 0.09% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CRYPTO yield right now is 0.14% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=a0adee00-d1ff-42da-860d-5a0b4662a62d#src=seo_token) | Arbitrum | 0.09% | $293.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a0adee00-d1ff-42da-860d-5a0b4662a62d#src=seo_token) | Arbitrum | 0.14% | $305.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CRYPTO yield today?
 
-0.09% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
+0.14% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many CRYPTO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $293.6K in total.
+1 live pool clear this page's $100K TVL floor, $305.7K in total.
 
 ### Are these rates safe?
 
@@ -35,8 +35,8 @@ There is not enough qualifying APY history to rank CRYPTO pools. This view cover
 
 ## Related tokens
 
-- [SUSDS](https://www.defi.garden/tokens/susds)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
+- [SUSDS](https://www.defi.garden/tokens/susds)
 - [ETH](https://www.defi.garden/tokens/eth)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [USDS](https://www.defi.garden/tokens/usds)
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank CRYPTO pools. This view cover
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated October 15, 2026
+## Last updated October 16, 2026

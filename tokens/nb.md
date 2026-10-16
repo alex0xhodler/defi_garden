@@ -1,6 +1,6 @@
 # NB DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 15, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
 
 The highest honest NB yield right now is 327.69% on uniswap-v4 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank NB pools. This view covers AP
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated October 15, 2026
+## Last updated October 16, 2026
