@@ -1,43 +1,43 @@
 # BTC.B 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 16, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 17, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 BTC.B의 가장 높은 정직한 수익률은 Avalanche의 pharaoh-v3에서 53.52%이며, $100K TVL 기준을 넘는 17개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 BTC.B의 가장 높은 정직한 수익률은 Avalanche의 blackhole-clmm에서 873.89%이며, $100K TVL 기준을 넘는 18개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=bbc7744d-97f8-538a-a61f-3c82ba6c0c6d#src=seo_token) | Ethereum | 0.06% | $8.21M |
-| [benqi-lending →](https://www.defi.garden/?pool=0a842b8b-c003-4f6c-8f4e-b231c4cdaec8#src=seo_token) | Avalanche | 1.44% | $3.91M |
-| [pharaoh-v3 →](https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814#src=seo_token) | Avalanche | 53.52% | $3.31M |
-| [joe-v2.1 →](https://www.defi.garden/?pool=1ebb561a-fcec-4ea8-8bd7-a4f557d644d4#src=seo_token) | Avalanche | 89.81% | $1.02M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=02b0c0a6-71d5-4276-b490-2679daac9b8c#src=seo_token) | Avalanche | 19.89% | $476.7K |
-| [blackhole-clmm →](https://www.defi.garden/?pool=b9e8f5be-35d4-4eb7-8d38-2bce5678c69d#src=seo_token) | Avalanche | 0.16% | $369.6K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b03fe15c-c70f-4aec-a561-17536444c9bf#src=seo_token) | Avalanche | 3.52% | $310.7K |
-| [joe-v2.1 →](https://www.defi.garden/?pool=6bfd664d-9fa1-46f1-b769-b7f92259f0bf#src=seo_token) | Avalanche | 0.38% | $289.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=bbc7744d-97f8-538a-a61f-3c82ba6c0c6d#src=seo_token) | Ethereum | 0.22% | $8.14M |
+| [benqi-lending →](https://www.defi.garden/?pool=0a842b8b-c003-4f6c-8f4e-b231c4cdaec8#src=seo_token) | Avalanche | 1.44% | $3.89M |
+| [pharaoh-v3 →](https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814#src=seo_token) | Avalanche | 44.96% | $3.29M |
+| [joe-v2.1 →](https://www.defi.garden/?pool=1ebb561a-fcec-4ea8-8bd7-a4f557d644d4#src=seo_token) | Avalanche | 98.32% | $1.01M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=02b0c0a6-71d5-4276-b490-2679daac9b8c#src=seo_token) | Avalanche | 15.63% | $472.9K |
+| [blackhole-clmm →](https://www.defi.garden/?pool=b9e8f5be-35d4-4eb7-8d38-2bce5678c69d#src=seo_token) | Avalanche | 873.89% | $366.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b03fe15c-c70f-4aec-a561-17536444c9bf#src=seo_token) | Avalanche | 2.23% | $309.6K |
+| [joe-v2.1 →](https://www.defi.garden/?pool=6bfd664d-9fa1-46f1-b769-b7f92259f0bf#src=seo_token) | Avalanche | 0.61% | $285K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 BTC.B의 변동성 낮은 후보는 Ethereum의 uniswap-v4, APY 0.06%, TVL $8.21M, https://www.defi.garden/?pool=bbc7744d-97f8-538a-a61f-3c82ba6c0c6d#src=seo_token; Avalanche의 benqi-lending, APY 1.44%, TVL $3.91M, https://www.defi.garden/?pool=0a842b8b-c003-4f6c-8f4e-b231c4cdaec8#src=seo_token; Avalanche의 joe-v2.1, APY 0.38%, TVL $289.8K, https://www.defi.garden/?pool=6bfd664d-9fa1-46f1-b769-b7f92259f0bf#src=seo_token; Avalanche의 uniswap-v3, APY 19.89%, TVL $476.7K, https://www.defi.garden/?pool=02b0c0a6-71d5-4276-b490-2679daac9b8c#src=seo_token; Avalanche의 pharaoh-v3, APY 53.52%, TVL $3.31M, https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814#src=seo_token; Avalanche의 uniswap-v3, APY 3.52%, TVL $310.7K, https://www.defi.garden/?pool=b03fe15c-c70f-4aec-a561-17536444c9bf#src=seo_token; Avalanche의 joe-v2.1, APY 89.81%, TVL $1.02M, https://www.defi.garden/?pool=1ebb561a-fcec-4ea8-8bd7-a4f557d644d4#src=seo_token; Avalanche의 blackhole-clmm, APY 0.16%, TVL $369.6K, https://www.defi.garden/?pool=b9e8f5be-35d4-4eb7-8d38-2bce5678c69d#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 BTC.B의 변동성 낮은 후보는 Ethereum의 uniswap-v4, APY 0.22%, TVL $8.14M, https://www.defi.garden/?pool=bbc7744d-97f8-538a-a61f-3c82ba6c0c6d#src=seo_token; Avalanche의 benqi-lending, APY 1.44%, TVL $3.89M, https://www.defi.garden/?pool=0a842b8b-c003-4f6c-8f4e-b231c4cdaec8#src=seo_token; Avalanche의 joe-v2.1, APY 0.61%, TVL $285K, https://www.defi.garden/?pool=6bfd664d-9fa1-46f1-b769-b7f92259f0bf#src=seo_token; Avalanche의 uniswap-v3, APY 15.63%, TVL $472.9K, https://www.defi.garden/?pool=02b0c0a6-71d5-4276-b490-2679daac9b8c#src=seo_token; Avalanche의 pharaoh-v3, APY 44.96%, TVL $3.29M, https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814#src=seo_token; Avalanche의 uniswap-v3, APY 2.23%, TVL $309.6K, https://www.defi.garden/?pool=b03fe15c-c70f-4aec-a561-17536444c9bf#src=seo_token; Avalanche의 joe-v2.1, APY 98.32%, TVL $1.01M, https://www.defi.garden/?pool=1ebb561a-fcec-4ea8-8bd7-a4f557d644d4#src=seo_token; Avalanche의 blackhole-clmm, APY 873.89%, TVL $366.4K, https://www.defi.garden/?pool=b9e8f5be-35d4-4eb7-8d38-2bce5678c69d#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=bbc7744d-97f8-538a-a61f-3c82ba6c0c6d#src=seo_token) | Ethereum | 0.06% | $8.21M |
-| 2 | [benqi-lending →](https://www.defi.garden/?pool=0a842b8b-c003-4f6c-8f4e-b231c4cdaec8#src=seo_token) | Avalanche | 1.44% | $3.91M |
-| 3 | [joe-v2.1 →](https://www.defi.garden/?pool=6bfd664d-9fa1-46f1-b769-b7f92259f0bf#src=seo_token) | Avalanche | 0.38% | $289.8K |
-| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=02b0c0a6-71d5-4276-b490-2679daac9b8c#src=seo_token) | Avalanche | 19.89% | $476.7K |
-| 5 | [pharaoh-v3 →](https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814#src=seo_token) | Avalanche | 53.52% | $3.31M |
-| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=b03fe15c-c70f-4aec-a561-17536444c9bf#src=seo_token) | Avalanche | 3.52% | $310.7K |
-| 7 | [joe-v2.1 →](https://www.defi.garden/?pool=1ebb561a-fcec-4ea8-8bd7-a4f557d644d4#src=seo_token) | Avalanche | 89.81% | $1.02M |
-| 8 | [blackhole-clmm →](https://www.defi.garden/?pool=b9e8f5be-35d4-4eb7-8d38-2bce5678c69d#src=seo_token) | Avalanche | 0.16% | $369.6K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=bbc7744d-97f8-538a-a61f-3c82ba6c0c6d#src=seo_token) | Ethereum | 0.22% | $8.14M |
+| 2 | [benqi-lending →](https://www.defi.garden/?pool=0a842b8b-c003-4f6c-8f4e-b231c4cdaec8#src=seo_token) | Avalanche | 1.44% | $3.89M |
+| 3 | [joe-v2.1 →](https://www.defi.garden/?pool=6bfd664d-9fa1-46f1-b769-b7f92259f0bf#src=seo_token) | Avalanche | 0.61% | $285K |
+| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=02b0c0a6-71d5-4276-b490-2679daac9b8c#src=seo_token) | Avalanche | 15.63% | $472.9K |
+| 5 | [pharaoh-v3 →](https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814#src=seo_token) | Avalanche | 44.96% | $3.29M |
+| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=b03fe15c-c70f-4aec-a561-17536444c9bf#src=seo_token) | Avalanche | 2.23% | $309.6K |
+| 7 | [joe-v2.1 →](https://www.defi.garden/?pool=1ebb561a-fcec-4ea8-8bd7-a4f557d644d4#src=seo_token) | Avalanche | 98.32% | $1.01M |
+| 8 | [blackhole-clmm →](https://www.defi.garden/?pool=b9e8f5be-35d4-4eb7-8d38-2bce5678c69d#src=seo_token) | Avalanche | 873.89% | $366.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-BTC.B 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.06%부터 89.81%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+BTC.B 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.22%부터 873.89%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 2.77%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 2.79%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 2개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -45,14 +45,14 @@ BTC.B 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.06%부터 89.81%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v4 | 0.06% | 0.02% | 기본 금리 |
-| benqi-lending | 1.44% | 1.33% | 기본 금리 |
-| pharaoh-v3 | 53.52% | 102.24% | 인센티브 100.00% |
-| joe-v2.1 | 89.81% | 51.56% | 기본 금리 |
-| uniswap-v3 | 19.89% | 18.11% | 기본 금리 |
-| blackhole-clmm | 0.16% | — | 인센티브 100.00% |
-| uniswap-v3 | 3.52% | 2.77% | 기본 금리 |
-| joe-v2.1 | 0.38% | 0.93% | 기본 금리 |
+| uniswap-v4 | 0.22% | 0.02% | 기본 금리 |
+| benqi-lending | 1.44% | 1.34% | 기본 금리 |
+| pharaoh-v3 | 44.96% | 103.58% | 인센티브 100.00% |
+| joe-v2.1 | 98.32% | 56.37% | 기본 금리 |
+| uniswap-v3 | 15.63% | 17.95% | 기본 금리 |
+| blackhole-clmm | 873.89% | — | 인센티브 100.00% |
+| uniswap-v3 | 2.23% | 2.79% | 기본 금리 |
+| joe-v2.1 | 0.61% | 0.94% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -60,11 +60,11 @@ BTC.B 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.06%부터 89.81%�
 
 ### 오늘 BTC.B의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Avalanche의 pharaoh-v3에서 APY 53.52%예요.
+DefiLlama 실시간 데이터 기준, Avalanche의 blackhole-clmm에서 APY 873.89%예요.
 
 ### BTC.B 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 17개이며, 합산 TVL은 $120.88M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 18개이며, 합산 TVL은 $120.07M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -72,7 +72,7 @@ DefiLlama 실시간 데이터 기준, Avalanche의 pharaoh-v3에서 APY 53.52%�
 
 ### BTC.B 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 BTC.B의 변동성 낮은 후보는 Ethereum의 uniswap-v4, APY 0.06%, TVL $8.21M, https://www.defi.garden/?pool=bbc7744d-97f8-538a-a61f-3c82ba6c0c6d#src=seo_token; Avalanche의 benqi-lending, APY 1.44%, TVL $3.91M, https://www.defi.garden/?pool=0a842b8b-c003-4f6c-8f4e-b231c4cdaec8#src=seo_token; Avalanche의 joe-v2.1, APY 0.38%, TVL $289.8K, https://www.defi.garden/?pool=6bfd664d-9fa1-46f1-b769-b7f92259f0bf#src=seo_token; Avalanche의 uniswap-v3, APY 19.89%, TVL $476.7K, https://www.defi.garden/?pool=02b0c0a6-71d5-4276-b490-2679daac9b8c#src=seo_token; Avalanche의 pharaoh-v3, APY 53.52%, TVL $3.31M, https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814#src=seo_token; Avalanche의 uniswap-v3, APY 3.52%, TVL $310.7K, https://www.defi.garden/?pool=b03fe15c-c70f-4aec-a561-17536444c9bf#src=seo_token; Avalanche의 joe-v2.1, APY 89.81%, TVL $1.02M, https://www.defi.garden/?pool=1ebb561a-fcec-4ea8-8bd7-a4f557d644d4#src=seo_token; Avalanche의 blackhole-clmm, APY 0.16%, TVL $369.6K, https://www.defi.garden/?pool=b9e8f5be-35d4-4eb7-8d38-2bce5678c69d#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 BTC.B의 변동성 낮은 후보는 Ethereum의 uniswap-v4, APY 0.22%, TVL $8.14M, https://www.defi.garden/?pool=bbc7744d-97f8-538a-a61f-3c82ba6c0c6d#src=seo_token; Avalanche의 benqi-lending, APY 1.44%, TVL $3.89M, https://www.defi.garden/?pool=0a842b8b-c003-4f6c-8f4e-b231c4cdaec8#src=seo_token; Avalanche의 joe-v2.1, APY 0.61%, TVL $285K, https://www.defi.garden/?pool=6bfd664d-9fa1-46f1-b769-b7f92259f0bf#src=seo_token; Avalanche의 uniswap-v3, APY 15.63%, TVL $472.9K, https://www.defi.garden/?pool=02b0c0a6-71d5-4276-b490-2679daac9b8c#src=seo_token; Avalanche의 pharaoh-v3, APY 44.96%, TVL $3.29M, https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814#src=seo_token; Avalanche의 uniswap-v3, APY 2.23%, TVL $309.6K, https://www.defi.garden/?pool=b03fe15c-c70f-4aec-a561-17536444c9bf#src=seo_token; Avalanche의 joe-v2.1, APY 98.32%, TVL $1.01M, https://www.defi.garden/?pool=1ebb561a-fcec-4ea8-8bd7-a4f557d644d4#src=seo_token; Avalanche의 blackhole-clmm, APY 873.89%, TVL $366.4K, https://www.defi.garden/?pool=b9e8f5be-35d4-4eb7-8d38-2bce5678c69d#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -88,4 +88,4 @@ APY 이력만 기준으로 비교한 BTC.B의 변동성 낮은 후보는 Ethereu
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Avalanche](https://www.defi.garden/ko/chains/avalanche)
 
-## 마지막 업데이트: October 16, 2026
+## 마지막 업데이트: October 17, 2026

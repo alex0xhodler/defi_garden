@@ -1,12 +1,12 @@
 # FBEETS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
 
-The highest honest FBEETS yield right now is 67.51% on beets-dex (Sonic), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FBEETS yield right now is 66.68% on beets-dex (Sonic), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [beets-dex →](https://www.defi.garden/?pool=f06686d4-25aa-4600-8910-87844cf3b1c3#src=seo_token) | Sonic | 67.51% | $653.4K |
+| [beets-dex →](https://www.defi.garden/?pool=f06686d4-25aa-4600-8910-87844cf3b1c3#src=seo_token) | Sonic | 66.68% | $621.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FBEETS yield today?
 
-67.51% APY on beets-dex (Sonic), based on live DefiLlama data.
+66.68% APY on beets-dex (Sonic), based on live DefiLlama data.
 
 ### How many FBEETS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $653.4K in total.
+1 live pool clear this page's $100K TVL floor, $621.4K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank FBEETS pools. This view cover
 
 - [Sonic](https://www.defi.garden/chains/sonic)
 
-## Last updated October 16, 2026
+## Last updated October 17, 2026

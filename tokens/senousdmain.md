@@ -1,12 +1,12 @@
 # SENOUSDMAIN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
 
 The highest honest SENOUSDMAIN yield right now is 3.60% on morpho-blue (Tempo), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=4a1d1d0c-eceb-5afe-bc3c-39398586577a#src=seo_token) | Tempo | 3.60% | $42.01M |
+| [morpho-blue →](https://www.defi.garden/?pool=4a1d1d0c-eceb-5afe-bc3c-39398586577a#src=seo_token) | Tempo | 3.60% | $42.35M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SENOUSDMAIN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $42.01M in total.
+1 live pool clear this page's $100K TVL floor, $42.35M in total.
 
 ### Are these rates safe?
 
@@ -36,14 +36,14 @@ There is not enough qualifying APY history to rank SENOUSDMAIN pools. This view 
 ## Related tokens
 
 - [SENPATHUSD](https://www.defi.garden/tokens/senpathusd)
-- [GTPATHUSDP](https://www.defi.garden/tokens/gtpathusdp)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 
 ## Available on
 
 - [Tempo](https://www.defi.garden/chains/tempo)
 
-## Last updated October 16, 2026
+## Last updated October 17, 2026

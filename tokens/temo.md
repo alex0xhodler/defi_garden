@@ -1,12 +1,12 @@
 # TEMO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
 
-The highest honest TEMO yield right now is 389.50% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TEMO yield right now is 293.01% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=9bf8248a-c0f1-50c4-a372-f52f0fe1d4c9#src=seo_token) | Base | 389.50% | $134.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=9bf8248a-c0f1-50c4-a372-f52f0fe1d4c9#src=seo_token) | Base | 293.01% | $186.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TEMO yield today?
 
-389.50% APY on uniswap-v2 (Base), based on live DefiLlama data.
+293.01% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many TEMO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $134.1K in total.
+1 live pool clear this page's $100K TVL floor, $186.1K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank TEMO pools. This view covers 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 16, 2026
+## Last updated October 17, 2026

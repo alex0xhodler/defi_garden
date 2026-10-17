@@ -1,12 +1,12 @@
 # CROCAT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
 
-The highest honest CROCAT yield right now is 20.43% on vvs-standard (Cronos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CROCAT yield right now is 5.23% on vvs-standard (Cronos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=363d1335-4cea-5270-a1ce-2fac46639114#src=seo_token) | Cronos | 20.43% | $276.6K |
+| [vvs-standard →](https://www.defi.garden/?pool=363d1335-4cea-5270-a1ce-2fac46639114#src=seo_token) | Cronos | 5.23% | $267.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CROCAT yield today?
 
-20.43% APY on vvs-standard (Cronos), based on live DefiLlama data.
+5.23% APY on vvs-standard (Cronos), based on live DefiLlama data.
 
 ### How many CROCAT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $276.6K in total.
+1 live pool clear this page's $100K TVL floor, $267.9K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank CROCAT pools. This view cover
 
 - [Cronos](https://www.defi.garden/chains/cronos)
 
-## Last updated October 16, 2026
+## Last updated October 17, 2026

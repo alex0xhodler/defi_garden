@@ -1,12 +1,12 @@
 # EKUBO 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 16, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 17, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 EKUBO의 가장 높은 정직한 수익률은 Starknet의 ekubo에서 178.29%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 EKUBO의 가장 높은 정직한 수익률은 Starknet의 ekubo에서 29.16%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [ekubo →](https://www.defi.garden/?pool=e78240f4-01b8-5e4e-9786-eeeb66c4426d#src=seo_token) | Starknet | 178.29% | $146.3K |
+| [ekubo →](https://www.defi.garden/?pool=e78240f4-01b8-5e4e-9786-eeeb66c4426d#src=seo_token) | Starknet | 29.16% | $128.8K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,11 +19,11 @@
 
 ### 오늘 EKUBO의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Starknet의 ekubo에서 APY 178.29%예요.
+DefiLlama 실시간 데이터 기준, Starknet의 ekubo에서 APY 29.16%예요.
 
 ### EKUBO 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $146.3K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $128.8K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -40,10 +40,10 @@ DefiLlama 실시간 데이터 기준, Starknet의 ekubo에서 APY 178.29%예요.
 - [STRKBTC](https://www.defi.garden/ko/tokens/strkbtc)
 - [ZEC](https://www.defi.garden/ko/tokens/zec)
 - [USDC.E](https://www.defi.garden/ko/tokens/usdc-e)
-- [SUSN](https://www.defi.garden/ko/tokens/susn)
+- [XSTRK](https://www.defi.garden/ko/tokens/xstrk)
 
 ## 이용 가능한 체인
 
 - [Starknet](https://www.defi.garden/ko/chains/starknet)
 
-## 마지막 업데이트: October 16, 2026
+## 마지막 업데이트: October 17, 2026

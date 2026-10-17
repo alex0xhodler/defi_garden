@@ -1,12 +1,12 @@
 # NET 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 16, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 17, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 NET의 가장 높은 정직한 수익률은 Robinhood Chain의 arrowfarm에서 971.52%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 NET의 가장 높은 정직한 수익률은 Robinhood Chain의 arrowfarm에서 838.78%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [arrowfarm →](https://www.defi.garden/?pool=fda2903a-66af-5450-8a26-8ff69ee330fe#src=seo_token) | Robinhood Chain | 971.52% | $110.4K |
+| [arrowfarm →](https://www.defi.garden/?pool=fda2903a-66af-5450-8a26-8ff69ee330fe#src=seo_token) | Robinhood Chain | 838.78% | $105.6K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,11 +19,11 @@
 
 ### 오늘 NET의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Robinhood Chain의 arrowfarm에서 APY 971.52%예요.
+DefiLlama 실시간 데이터 기준, Robinhood Chain의 arrowfarm에서 APY 838.78%예요.
 
 ### NET 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $110.4K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $105.6K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -40,10 +40,10 @@ DefiLlama 실시간 데이터 기준, Robinhood Chain의 arrowfarm에서 APY 971
 - [STEAKUSDG](https://www.defi.garden/ko/tokens/steakusdg)
 - [GUSDGST](https://www.defi.garden/ko/tokens/gusdgst)
 - [STONX](https://www.defi.garden/ko/tokens/stonx)
-- [SPY](https://www.defi.garden/ko/tokens/spy)
+- [GAMIWBTC](https://www.defi.garden/ko/tokens/gamiwbtc)
 
 ## 이용 가능한 체인
 
 - [Robinhood Chain](https://www.defi.garden/ko/chains/robinhood-chain)
 
-## 마지막 업데이트: October 16, 2026
+## 마지막 업데이트: October 17, 2026

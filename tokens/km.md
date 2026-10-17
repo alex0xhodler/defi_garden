@@ -1,12 +1,12 @@
 # KM DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
 
-The highest honest KM yield right now is 2.17% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KM yield right now is 29.00% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=dc159e5f-c0f6-438a-9138-6a16b7ff038d#src=seo_token) | Solana | 2.17% | $142.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=dc159e5f-c0f6-438a-9138-6a16b7ff038d#src=seo_token) | Solana | 29.00% | $110.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KM yield today?
 
-2.17% APY on raydium-amm (Solana), based on live DefiLlama data.
+29.00% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many KM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $142.1K in total.
+1 live pool clear this page's $100K TVL floor, $110.1K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank KM pools. This view covers AP
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 16, 2026
+## Last updated October 17, 2026

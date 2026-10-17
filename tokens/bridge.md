@@ -1,12 +1,12 @@
 # BRIDGE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
 
-The highest honest BRIDGE yield right now is 0.60% on project-x (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BRIDGE yield right now is 3.75% on project-x (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [project-x →](https://www.defi.garden/?pool=b00225ec-6445-4c0f-bd52-5e772975cd88#src=seo_token) | Hyperliquid L1 | 0.60% | $185.3K |
+| [project-x →](https://www.defi.garden/?pool=b00225ec-6445-4c0f-bd52-5e772975cd88#src=seo_token) | Hyperliquid L1 | 3.75% | $170.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BRIDGE yield today?
 
-0.60% APY on project-x (Hyperliquid L1), based on live DefiLlama data.
+3.75% APY on project-x (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many BRIDGE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $185.3K in total.
+1 live pool clear this page's $100K TVL floor, $170.7K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank BRIDGE pools. This view cover
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated October 16, 2026
+## Last updated October 17, 2026

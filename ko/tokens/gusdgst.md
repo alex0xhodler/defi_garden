@@ -1,12 +1,12 @@
 # GUSDGST 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 16, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 17, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 GUSDGST의 가장 높은 정직한 수익률은 Robinhood Chain의 morpho-blue에서 4.03%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 GUSDGST의 가장 높은 정직한 수익률은 Robinhood Chain의 morpho-blue에서 1.04%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=07caf4ad-86b5-5c84-adaa-84e9efc34d1a#src=seo_token) | Robinhood Chain | 4.03% | $2.14M |
+| [morpho-blue →](https://www.defi.garden/?pool=07caf4ad-86b5-5c84-adaa-84e9efc34d1a#src=seo_token) | Robinhood Chain | 1.04% | $2.11M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,11 +19,11 @@
 
 ### 오늘 GUSDGST의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Robinhood Chain의 morpho-blue에서 APY 4.03%예요.
+DefiLlama 실시간 데이터 기준, Robinhood Chain의 morpho-blue에서 APY 1.04%예요.
 
 ### GUSDGST 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $2.14M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $2.11M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -39,11 +39,11 @@ DefiLlama 실시간 데이터 기준, Robinhood Chain의 morpho-blue에서 APY 4
 - [USDG](https://www.defi.garden/ko/tokens/usdg)
 - [STEAKUSDG](https://www.defi.garden/ko/tokens/steakusdg)
 - [STONX](https://www.defi.garden/ko/tokens/stonx)
+- [GAMIWBTC](https://www.defi.garden/ko/tokens/gamiwbtc)
 - [SPY](https://www.defi.garden/ko/tokens/spy)
-- [KFV](https://www.defi.garden/ko/tokens/kfv)
 
 ## 이용 가능한 체인
 
 - [Robinhood Chain](https://www.defi.garden/ko/chains/robinhood-chain)
 
-## 마지막 업데이트: October 16, 2026
+## 마지막 업데이트: October 17, 2026

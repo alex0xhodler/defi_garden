@@ -1,31 +1,31 @@
 # LINGO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
 
-The highest honest LINGO yield right now is 2.81% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LINGO yield right now is 5.54% on uniswap-v3 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=227d7b30-5ab9-464b-b40c-f4f4b6e4d7db#src=seo_token) | Base | 22.38% | $103.6K |
 | [raydium-amm →](https://www.defi.garden/?pool=f898bba5-e6f3-46f0-abaf-df2f727423f9#src=seo_token) | Solana | 2.81% | $101.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=227d7b30-5ab9-464b-b40c-f4f4b6e4d7db#src=seo_token) | Base | 5.54% | $101.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, LINGO's lower-variability candidates are raydium-amm (Solana), 2.81% APY, $101.9K TVL, https://www.defi.garden/?pool=f898bba5-e6f3-46f0-abaf-df2f727423f9#src=seo_token; uniswap-v3 (Base), 22.38% APY, $103.6K TVL, https://www.defi.garden/?pool=227d7b30-5ab9-464b-b40c-f4f4b6e4d7db#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LINGO's lower-variability candidates are raydium-amm (Solana), 2.81% APY, $101.9K TVL, https://www.defi.garden/?pool=f898bba5-e6f3-46f0-abaf-df2f727423f9#src=seo_token; uniswap-v3 (Base), 5.54% APY, $101.3K TVL, https://www.defi.garden/?pool=227d7b30-5ab9-464b-b40c-f4f4b6e4d7db#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [raydium-amm →](https://www.defi.garden/?pool=f898bba5-e6f3-46f0-abaf-df2f727423f9#src=seo_token) | Solana | 2.81% | $101.9K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=227d7b30-5ab9-464b-b40c-f4f4b6e4d7db#src=seo_token) | Base | 22.38% | $103.6K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=227d7b30-5ab9-464b-b40c-f4f4b6e4d7db#src=seo_token) | Base | 5.54% | $101.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-LINGO shows up in 2 pools here, with rates from 2.81% to 22.38% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+LINGO shows up in 2 pools here, with rates from 2.81% to 5.54% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 5.23% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 5.40% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 22.38% | 7.53% | Base rate |
 | raydium-amm | 2.81% | 2.92% | Base rate |
+| uniswap-v3 | 5.54% | 7.87% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest LINGO yield today?
 
-2.81% APY on raydium-amm (Solana), based on live DefiLlama data.
+5.54% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many LINGO pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $205.6K in total.
+2 live pools clear this page's $100K TVL floor, $203.3K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which LINGO pools have the most stable APY history?
 
-Based on APY history only, LINGO's lower-variability candidates are raydium-amm (Solana), 2.81% APY, $101.9K TVL, https://www.defi.garden/?pool=f898bba5-e6f3-46f0-abaf-df2f727423f9#src=seo_token; uniswap-v3 (Base), 22.38% APY, $103.6K TVL, https://www.defi.garden/?pool=227d7b30-5ab9-464b-b40c-f4f4b6e4d7db#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LINGO's lower-variability candidates are raydium-amm (Solana), 2.81% APY, $101.9K TVL, https://www.defi.garden/?pool=f898bba5-e6f3-46f0-abaf-df2f727423f9#src=seo_token; uniswap-v3 (Base), 5.54% APY, $101.3K TVL, https://www.defi.garden/?pool=227d7b30-5ab9-464b-b40c-f4f4b6e4d7db#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -67,7 +67,7 @@ Based on APY history only, LINGO's lower-variability candidates are raydium-amm 
 
 ## Available on
 
-- [Base](https://www.defi.garden/chains/base)
 - [Solana](https://www.defi.garden/chains/solana)
+- [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 16, 2026
+## Last updated October 17, 2026

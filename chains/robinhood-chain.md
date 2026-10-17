@@ -1,17 +1,17 @@
 # Robinhood Chain DeFi Yields
 
-The highest honest Robinhood Chain yield right now is 22.88% on alandale-v3 (Robinhood Chain), among 20 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Robinhood Chain yield right now is 19.43% on alandale-v3 (Robinhood Chain), among 23 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| STEAKUSDG | [morpho-blue →](https://www.defi.garden/pools/morpho-blue-steakusdg-robinhood-chain) | 7.07% | $525.84M |
-| USDE | [morpho-blue →](https://www.defi.garden/pools/morpho-blue-usde-robinhood-chain) | 4.75% | $351M |
+| STEAKUSDG | [morpho-blue →](https://www.defi.garden/pools/morpho-blue-steakusdg-robinhood-chain) | 7.08% | $525.06M |
+| USDE | [morpho-blue →](https://www.defi.garden/pools/morpho-blue-usde-robinhood-chain) | 4.75% | $350.69M |
 | USDC | [midas-rwa →](https://www.defi.garden/?pool=38cae0ab-6989-5f2e-a9b0-04e5d088d580#src=seo_chain) | 6.20% | $36.04M |
-| USDG | [spark-savings →](https://www.defi.garden/?pool=a1371c8f-592f-56d4-a506-7f1530f35a00#src=seo_chain) | 3.80% | $9.65M |
-| GUSDGST | [morpho-blue →](https://www.defi.garden/?pool=07caf4ad-86b5-5c84-adaa-84e9efc34d1a#src=seo_chain) | 4.03% | $2.14M |
-| USDE | [accountable →](https://www.defi.garden/?pool=8f8bdead-177c-5019-8dba-a1f13fe2dc61#src=seo_chain) | 1.60% | $2.08M |
-| STONX-USDG | [ekubo →](https://www.defi.garden/?pool=6fcba3d7-c4b0-58a7-b611-35c6f01ba579#src=seo_chain) | 40.72% | $538.9K |
-| SPY-USDG | [alandale-v3 →](https://www.defi.garden/?pool=51a012d7-5876-5949-ab84-33d6041e88b4#src=seo_chain) | 22.88% | $289.7K |
+| USDG | [spark-savings →](https://www.defi.garden/?pool=a1371c8f-592f-56d4-a506-7f1530f35a00#src=seo_chain) | 3.80% | $10.34M |
+| GUSDGST | [morpho-blue →](https://www.defi.garden/?pool=07caf4ad-86b5-5c84-adaa-84e9efc34d1a#src=seo_chain) | 1.04% | $2.11M |
+| GAMIWBTC | [gami-labs →](https://www.defi.garden/?pool=39cf03af-3463-520a-9a35-dce6a72d872a#src=seo_chain) | 1.77% | $607.8K |
+| STONX-USDG | [ekubo →](https://www.defi.garden/?pool=6fcba3d7-c4b0-58a7-b611-35c6f01ba579#src=seo_chain) | 37.23% | $537.1K |
+| SPY-USDG | [alandale-v3 →](https://www.defi.garden/?pool=51a012d7-5876-5949-ab84-33d6041e88b4#src=seo_chain) | 19.43% | $304.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Robinhood Chain yield today?
 
-22.88% APY on alandale-v3 (Robinhood Chain), based on live DefiLlama data.
+19.43% APY on alandale-v3 (Robinhood Chain), based on live DefiLlama data.
 
 ### How many Robinhood Chain pools clear the TVL floor?
 
-20 live pools clear this page's $100K TVL floor, $1.11B in total.
+23 live pools clear this page's $100K TVL floor, $1.11B in total.
 
 ### Are these rates safe?
 
@@ -45,7 +45,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [USDG](https://www.defi.garden/tokens/usdg)
 - [GUSDGST](https://www.defi.garden/tokens/gusdgst)
+- [GAMIWBTC](https://www.defi.garden/tokens/gamiwbtc)
 - [STONX](https://www.defi.garden/tokens/stonx)
 - [SPY](https://www.defi.garden/tokens/spy)
 
-## Last updated October 16, 2026
+## Last updated October 17, 2026

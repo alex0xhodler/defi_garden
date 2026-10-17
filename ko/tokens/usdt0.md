@@ -1,43 +1,43 @@
 # USDT0 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 16, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 17, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 USDT0의 가장 높은 정직한 수익률은 Monad의 aave-v3에서 5.62%이며, $100K TVL 기준을 넘는 26개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 USDT0의 가장 높은 정직한 수익률은 Monad의 curve-dex에서 5.14%이며, $100K TVL 기준을 넘는 27개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=e338c687-a5d8-4abf-bc04-127990811b0a#src=seo_token) | Plasma | 3.79% | $72.55M |
-| [aave-v3 →](https://www.defi.garden/?pool=47da0cdd-7b1d-4927-9545-20b53b73afa8#src=seo_token) | Mantle | 4.41% | $21.71M |
+| [aave-v3 →](https://www.defi.garden/?pool=e338c687-a5d8-4abf-bc04-127990811b0a#src=seo_token) | Plasma | 3.76% | $74.76M |
+| [aave-v3 →](https://www.defi.garden/?pool=47da0cdd-7b1d-4927-9545-20b53b73afa8#src=seo_token) | Mantle | 4.45% | $20.99M |
 | [fluid-lending →](https://www.defi.garden/?pool=21e972fb-b330-4289-8bfa-6a14e925ecdb#src=seo_token) | Plasma | 4.64% | $20.25M |
-| [aave-v3 →](https://www.defi.garden/?pool=7e7821a2-3d20-4ae7-9c3d-04cd57904555#src=seo_token) | Polygon | 3.44% | $9.85M |
-| [aave-v3 →](https://www.defi.garden/?pool=8bba1554-1318-54ad-9143-0972406e9428#src=seo_token) | Monad | 5.62% | $6.84M |
-| [fluxion-network →](https://www.defi.garden/?pool=70f8fccf-080b-5d78-8a67-0e87a0a578a5#src=seo_token) | Mantle | 2.82% | $5.06M |
-| [curve-dex →](https://www.defi.garden/?pool=ceb80408-8ab8-4293-b274-162efff518a6#src=seo_token) | Monad | 5.23% | $2.28M |
-| [fluxion-network →](https://www.defi.garden/?pool=269c72aa-ab12-57fd-a84d-79471faa170c#src=seo_token) | Mantle | 2.01% | $583.4K |
+| [aave-v3 →](https://www.defi.garden/?pool=8bba1554-1318-54ad-9143-0972406e9428#src=seo_token) | Monad | 4.96% | $12.72M |
+| [aave-v3 →](https://www.defi.garden/?pool=7e7821a2-3d20-4ae7-9c3d-04cd57904555#src=seo_token) | Polygon | 3.50% | $9.67M |
+| [fluxion-network →](https://www.defi.garden/?pool=70f8fccf-080b-5d78-8a67-0e87a0a578a5#src=seo_token) | Mantle | 0.79% | $5.04M |
+| [curve-dex →](https://www.defi.garden/?pool=ceb80408-8ab8-4293-b274-162efff518a6#src=seo_token) | Monad | 5.14% | $2.28M |
+| [fluxion-network →](https://www.defi.garden/?pool=269c72aa-ab12-57fd-a84d-79471faa170c#src=seo_token) | Mantle | 0.64% | $585K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 USDT0의 변동성 낮은 후보는 Plasma의 aave-v3, APY 3.79%, TVL $72.55M, https://www.defi.garden/?pool=e338c687-a5d8-4abf-bc04-127990811b0a#src=seo_token; Plasma의 fluid-lending, APY 4.64%, TVL $20.25M, https://www.defi.garden/?pool=21e972fb-b330-4289-8bfa-6a14e925ecdb#src=seo_token; Mantle의 aave-v3, APY 4.41%, TVL $21.71M, https://www.defi.garden/?pool=47da0cdd-7b1d-4927-9545-20b53b73afa8#src=seo_token; Polygon의 aave-v3, APY 3.44%, TVL $9.85M, https://www.defi.garden/?pool=7e7821a2-3d20-4ae7-9c3d-04cd57904555#src=seo_token; Monad의 aave-v3, APY 5.62%, TVL $6.84M, https://www.defi.garden/?pool=8bba1554-1318-54ad-9143-0972406e9428#src=seo_token; Monad의 curve-dex, APY 5.23%, TVL $2.28M, https://www.defi.garden/?pool=ceb80408-8ab8-4293-b274-162efff518a6#src=seo_token; Mantle의 fluxion-network, APY 2.82%, TVL $5.06M, https://www.defi.garden/?pool=70f8fccf-080b-5d78-8a67-0e87a0a578a5#src=seo_token; Mantle의 fluxion-network, APY 2.01%, TVL $583.4K, https://www.defi.garden/?pool=269c72aa-ab12-57fd-a84d-79471faa170c#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USDT0의 변동성 낮은 후보는 Plasma의 aave-v3, APY 3.76%, TVL $74.76M, https://www.defi.garden/?pool=e338c687-a5d8-4abf-bc04-127990811b0a#src=seo_token; Plasma의 fluid-lending, APY 4.64%, TVL $20.25M, https://www.defi.garden/?pool=21e972fb-b330-4289-8bfa-6a14e925ecdb#src=seo_token; Mantle의 aave-v3, APY 4.45%, TVL $20.99M, https://www.defi.garden/?pool=47da0cdd-7b1d-4927-9545-20b53b73afa8#src=seo_token; Polygon의 aave-v3, APY 3.50%, TVL $9.67M, https://www.defi.garden/?pool=7e7821a2-3d20-4ae7-9c3d-04cd57904555#src=seo_token; Monad의 aave-v3, APY 4.96%, TVL $12.72M, https://www.defi.garden/?pool=8bba1554-1318-54ad-9143-0972406e9428#src=seo_token; Monad의 curve-dex, APY 5.14%, TVL $2.28M, https://www.defi.garden/?pool=ceb80408-8ab8-4293-b274-162efff518a6#src=seo_token; Mantle의 fluxion-network, APY 0.79%, TVL $5.04M, https://www.defi.garden/?pool=70f8fccf-080b-5d78-8a67-0e87a0a578a5#src=seo_token; Mantle의 fluxion-network, APY 0.64%, TVL $585K, https://www.defi.garden/?pool=269c72aa-ab12-57fd-a84d-79471faa170c#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aave-v3 →](https://www.defi.garden/?pool=e338c687-a5d8-4abf-bc04-127990811b0a#src=seo_token) | Plasma | 3.79% | $72.55M |
+| 1 | [aave-v3 →](https://www.defi.garden/?pool=e338c687-a5d8-4abf-bc04-127990811b0a#src=seo_token) | Plasma | 3.76% | $74.76M |
 | 2 | [fluid-lending →](https://www.defi.garden/?pool=21e972fb-b330-4289-8bfa-6a14e925ecdb#src=seo_token) | Plasma | 4.64% | $20.25M |
-| 3 | [aave-v3 →](https://www.defi.garden/?pool=47da0cdd-7b1d-4927-9545-20b53b73afa8#src=seo_token) | Mantle | 4.41% | $21.71M |
-| 4 | [aave-v3 →](https://www.defi.garden/?pool=7e7821a2-3d20-4ae7-9c3d-04cd57904555#src=seo_token) | Polygon | 3.44% | $9.85M |
-| 5 | [aave-v3 →](https://www.defi.garden/?pool=8bba1554-1318-54ad-9143-0972406e9428#src=seo_token) | Monad | 5.62% | $6.84M |
-| 6 | [curve-dex →](https://www.defi.garden/?pool=ceb80408-8ab8-4293-b274-162efff518a6#src=seo_token) | Monad | 5.23% | $2.28M |
-| 7 | [fluxion-network →](https://www.defi.garden/?pool=70f8fccf-080b-5d78-8a67-0e87a0a578a5#src=seo_token) | Mantle | 2.82% | $5.06M |
-| 8 | [fluxion-network →](https://www.defi.garden/?pool=269c72aa-ab12-57fd-a84d-79471faa170c#src=seo_token) | Mantle | 2.01% | $583.4K |
+| 3 | [aave-v3 →](https://www.defi.garden/?pool=47da0cdd-7b1d-4927-9545-20b53b73afa8#src=seo_token) | Mantle | 4.45% | $20.99M |
+| 4 | [aave-v3 →](https://www.defi.garden/?pool=7e7821a2-3d20-4ae7-9c3d-04cd57904555#src=seo_token) | Polygon | 3.50% | $9.67M |
+| 5 | [aave-v3 →](https://www.defi.garden/?pool=8bba1554-1318-54ad-9143-0972406e9428#src=seo_token) | Monad | 4.96% | $12.72M |
+| 6 | [curve-dex →](https://www.defi.garden/?pool=ceb80408-8ab8-4293-b274-162efff518a6#src=seo_token) | Monad | 5.14% | $2.28M |
+| 7 | [fluxion-network →](https://www.defi.garden/?pool=70f8fccf-080b-5d78-8a67-0e87a0a578a5#src=seo_token) | Mantle | 0.79% | $5.04M |
+| 8 | [fluxion-network →](https://www.defi.garden/?pool=269c72aa-ab12-57fd-a84d-79471faa170c#src=seo_token) | Mantle | 0.64% | $585K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-USDT0 풀은 여기 8개가 있고, 4개 체인에서 APY가 2.01%부터 5.62%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+USDT0 풀은 여기 8개가 있고, 4개 체인에서 APY가 0.64%부터 5.14%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 5.58%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 5.59%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 3개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -45,14 +45,14 @@ USDT0 풀은 여기 8개가 있고, 4개 체인에서 APY가 2.01%부터 5.62%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| aave-v3 | 3.79% | 4.88% | 기본 금리 |
-| aave-v3 | 4.41% | 4.46% | 인센티브 32.29% |
-| fluid-lending | 4.64% | 5.30% | 기본 금리 |
-| aave-v3 | 3.44% | 3.19% | 기본 금리 |
-| aave-v3 | 5.62% | 5.97% | 인센티브 28.95% |
-| fluxion-network | 2.82% | 8.50% | 기본 금리 |
-| curve-dex | 5.23% | 5.85% | 인센티브 100.00% |
-| fluxion-network | 2.01% | 85.72% | 기본 금리 |
+| aave-v3 | 3.76% | 4.87% | 기본 금리 |
+| aave-v3 | 4.45% | 4.46% | 인센티브 32.11% |
+| fluid-lending | 4.64% | 5.32% | 기본 금리 |
+| aave-v3 | 4.96% | 5.93% | 인센티브 31.20% |
+| aave-v3 | 3.50% | 3.20% | 기본 금리 |
+| fluxion-network | 0.79% | 8.39% | 기본 금리 |
+| curve-dex | 5.14% | 5.85% | 인센티브 100.00% |
+| fluxion-network | 0.64% | 86.37% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -60,11 +60,11 @@ USDT0 풀은 여기 8개가 있고, 4개 체인에서 APY가 2.01%부터 5.62%�
 
 ### 오늘 USDT0의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Monad의 aave-v3에서 APY 5.62%예요.
+DefiLlama 실시간 데이터 기준, Monad의 curve-dex에서 APY 5.14%예요.
 
 ### USDT0 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 26개이며, 합산 TVL은 $146.53M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 27개이며, 합산 TVL은 $153.95M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -72,7 +72,7 @@ DefiLlama 실시간 데이터 기준, Monad의 aave-v3에서 APY 5.62%예요.
 
 ### USDT0 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 USDT0의 변동성 낮은 후보는 Plasma의 aave-v3, APY 3.79%, TVL $72.55M, https://www.defi.garden/?pool=e338c687-a5d8-4abf-bc04-127990811b0a#src=seo_token; Plasma의 fluid-lending, APY 4.64%, TVL $20.25M, https://www.defi.garden/?pool=21e972fb-b330-4289-8bfa-6a14e925ecdb#src=seo_token; Mantle의 aave-v3, APY 4.41%, TVL $21.71M, https://www.defi.garden/?pool=47da0cdd-7b1d-4927-9545-20b53b73afa8#src=seo_token; Polygon의 aave-v3, APY 3.44%, TVL $9.85M, https://www.defi.garden/?pool=7e7821a2-3d20-4ae7-9c3d-04cd57904555#src=seo_token; Monad의 aave-v3, APY 5.62%, TVL $6.84M, https://www.defi.garden/?pool=8bba1554-1318-54ad-9143-0972406e9428#src=seo_token; Monad의 curve-dex, APY 5.23%, TVL $2.28M, https://www.defi.garden/?pool=ceb80408-8ab8-4293-b274-162efff518a6#src=seo_token; Mantle의 fluxion-network, APY 2.82%, TVL $5.06M, https://www.defi.garden/?pool=70f8fccf-080b-5d78-8a67-0e87a0a578a5#src=seo_token; Mantle의 fluxion-network, APY 2.01%, TVL $583.4K, https://www.defi.garden/?pool=269c72aa-ab12-57fd-a84d-79471faa170c#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USDT0의 변동성 낮은 후보는 Plasma의 aave-v3, APY 3.76%, TVL $74.76M, https://www.defi.garden/?pool=e338c687-a5d8-4abf-bc04-127990811b0a#src=seo_token; Plasma의 fluid-lending, APY 4.64%, TVL $20.25M, https://www.defi.garden/?pool=21e972fb-b330-4289-8bfa-6a14e925ecdb#src=seo_token; Mantle의 aave-v3, APY 4.45%, TVL $20.99M, https://www.defi.garden/?pool=47da0cdd-7b1d-4927-9545-20b53b73afa8#src=seo_token; Polygon의 aave-v3, APY 3.50%, TVL $9.67M, https://www.defi.garden/?pool=7e7821a2-3d20-4ae7-9c3d-04cd57904555#src=seo_token; Monad의 aave-v3, APY 4.96%, TVL $12.72M, https://www.defi.garden/?pool=8bba1554-1318-54ad-9143-0972406e9428#src=seo_token; Monad의 curve-dex, APY 5.14%, TVL $2.28M, https://www.defi.garden/?pool=ceb80408-8ab8-4293-b274-162efff518a6#src=seo_token; Mantle의 fluxion-network, APY 0.79%, TVL $5.04M, https://www.defi.garden/?pool=70f8fccf-080b-5d78-8a67-0e87a0a578a5#src=seo_token; Mantle의 fluxion-network, APY 0.64%, TVL $585K, https://www.defi.garden/?pool=269c72aa-ab12-57fd-a84d-79471faa170c#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -80,14 +80,14 @@ APY 이력만 기준으로 비교한 USDT0의 변동성 낮은 후보는 Plasma�
 - [WETH](https://www.defi.garden/ko/tokens/weth)
 - [WBTC](https://www.defi.garden/ko/tokens/wbtc)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
-- [USDE](https://www.defi.garden/ko/tokens/usde)
 - [SUSDE](https://www.defi.garden/ko/tokens/susde)
+- [USDE](https://www.defi.garden/ko/tokens/usde)
 
 ## 이용 가능한 체인
 
 - [Plasma](https://www.defi.garden/ko/chains/plasma)
 - [Mantle](https://www.defi.garden/ko/chains/mantle)
-- [Polygon](https://www.defi.garden/ko/chains/polygon)
 - [Monad](https://www.defi.garden/ko/chains/monad)
+- [Polygon](https://www.defi.garden/ko/chains/polygon)
 
-## 마지막 업데이트: October 16, 2026
+## 마지막 업데이트: October 17, 2026

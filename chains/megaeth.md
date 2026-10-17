@@ -4,8 +4,8 @@ The highest honest MegaETH yield right now is 5.86% on aave-v3 (MegaETH), among 
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| USDM | [aave-v3 →](https://www.defi.garden/?pool=5c994437-94bf-4c96-a4c1-5b8ae446dfd0#src=seo_chain) | 5.86% | $483.8K |
-| WETH | [aave-v3 →](https://www.defi.garden/?pool=1b9f6e32-d7d0-4261-8fd8-7921d8a43d91#src=seo_chain) | 0.77% | $189.8K |
+| USDM | [aave-v3 →](https://www.defi.garden/?pool=5c994437-94bf-4c96-a4c1-5b8ae446dfd0#src=seo_chain) | 5.86% | $483.5K |
+| WETH | [aave-v3 →](https://www.defi.garden/?pool=1b9f6e32-d7d0-4261-8fd8-7921d8a43d91#src=seo_chain) | 0.77% | $188.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -30,11 +30,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 - [Monad](https://www.defi.garden/chains/monad)
-- [Sui](https://www.defi.garden/chains/sui)
+- [Robinhood Chain](https://www.defi.garden/chains/robinhood-chain)
 
 ## Top tokens on MegaETH
 
 - [USDM](https://www.defi.garden/tokens/usdm)
 - [WETH](https://www.defi.garden/tokens/weth)
 
-## Last updated October 16, 2026
+## Last updated October 17, 2026

@@ -1,12 +1,12 @@
 # YZM DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
 
 The highest honest YZM yield right now is 0.44% on curvance (Monad), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curvance →](https://www.defi.garden/?pool=ff62c40e-0541-4409-862f-d93d8269b018#src=seo_token) | Monad | 0.44% | $214.6K |
+| [curvance →](https://www.defi.garden/?pool=ff62c40e-0541-4409-862f-d93d8269b018#src=seo_token) | Monad | 0.44% | $216.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,13 +19,13 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 YZM shows up in 1 pools here, with rates from 0.44% to 0.44% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 0.45% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 0.46% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 1 pool blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curvance | 0.44% | 0.45% | 100.00% incentives |
+| curvance | 0.44% | 0.46% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many YZM pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.38M in total.
+2 live pools clear this page's $100K TVL floor, $1.39M in total.
 
 ### Are these rates safe?
 
@@ -51,8 +51,8 @@ There is not enough qualifying APY history to rank YZM pools. This view covers A
 
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [USDE](https://www.defi.garden/tokens/usde)
 - [SUSDE](https://www.defi.garden/tokens/susde)
+- [USDE](https://www.defi.garden/tokens/usde)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
 - [BTC](https://www.defi.garden/tokens/btc)
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank YZM pools. This view covers A
 
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated October 16, 2026
+## Last updated October 17, 2026

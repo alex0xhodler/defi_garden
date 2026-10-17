@@ -1,14 +1,14 @@
 # ZC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
 
-The highest honest ZC yield right now is 282.89% on uniswap-v4 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZC yield right now is 110.97% on uniswap-v4 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=8aa37b75-ae41-5980-8f84-250aacc016d6#src=seo_token) | Ethereum | 153.97% | $280K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=88362329-5b46-5eb9-8fa3-aa9f8497968c#src=seo_token) | Ethereum | 282.89% | $157.3K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=bd1a6986-bf19-586a-b794-cbbf9fd83d6c#src=seo_token) | Ethereum | 1.46% | $101K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=8aa37b75-ae41-5980-8f84-250aacc016d6#src=seo_token) | Ethereum | 102.35% | $283.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=88362329-5b46-5eb9-8fa3-aa9f8497968c#src=seo_token) | Ethereum | 110.97% | $161.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=bd1a6986-bf19-586a-b794-cbbf9fd83d6c#src=seo_token) | Ethereum | 2.28% | $101.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-ZC shows up in 3 pools here, with rates from 1.46% to 282.89% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+ZC shows up in 3 pools here, with rates from 2.28% to 110.97% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -27,9 +27,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 153.97% | — | Base rate |
-| uniswap-v4 | 282.89% | — | Base rate |
-| uniswap-v4 | 1.46% | — | Base rate |
+| uniswap-v4 | 102.35% | — | Base rate |
+| uniswap-v4 | 110.97% | — | Base rate |
+| uniswap-v4 | 2.28% | — | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ZC yield today?
 
-282.89% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+110.97% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many ZC pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $723.1K in total.
+4 live pools clear this page's $100K TVL floor, $733.7K in total.
 
 ### Are these rates safe?
 
@@ -64,4 +64,4 @@ There is not enough qualifying APY history to rank ZC pools. This view covers AP
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 16, 2026
+## Last updated October 17, 2026

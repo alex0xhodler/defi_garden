@@ -1,13 +1,14 @@
 # ESF DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
 
-The highest honest ESF yield right now is 11.27% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ESF yield right now is 127.37% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=6a27afef-d24b-57a0-8966-97d6de6b9e7f#src=seo_token) | Solana | 6.22% | $197.3K |
-| [raydium-amm →](https://www.defi.garden/?pool=2682c66e-7e8f-58b4-9e5a-05e010278322#src=seo_token) | Solana | 11.27% | $188.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=6a27afef-d24b-57a0-8966-97d6de6b9e7f#src=seo_token) | Solana | 39.73% | $164.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=2682c66e-7e8f-58b4-9e5a-05e010278322#src=seo_token) | Solana | 14.23% | $157.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=1050bc62-0149-55e8-a4a4-e30ddbec1e94#src=seo_token) | Solana | 127.37% | $111.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,18 +19,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-ESF shows up in 2 pools here, with rates from 6.22% to 11.27% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+ESF shows up in 3 pools here, with rates from 14.23% to 127.37% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 179.45% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 3 pools have a trustworthy 30-day average on file, with a median of 183.38% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+3 of 3 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 6.22% | 231.31% | Base rate |
-| raydium-amm | 11.27% | 127.58% | Base rate |
+| raydium-amm | 39.73% | 246.98% | Base rate |
+| raydium-amm | 14.23% | 119.78% | Base rate |
+| raydium-amm | 127.37% | — | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +39,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ESF yield today?
 
-11.27% APY on raydium-amm (Solana), based on live DefiLlama data.
+127.37% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many ESF pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $385.8K in total.
+3 live pools clear this page's $100K TVL floor, $434.1K in total.
 
 ### Are these rates safe?
 
@@ -64,4 +66,4 @@ There is not enough qualifying APY history to rank ESF pools. This view covers A
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 16, 2026
+## Last updated October 17, 2026

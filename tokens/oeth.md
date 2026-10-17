@@ -1,35 +1,35 @@
 # OETH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
 
-The highest honest OETH yield right now is 3.92% on stake-dao-yield (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OETH yield right now is 3.83% on stake-dao-yield (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [origin-ether →](https://www.defi.garden/?pool=423681e3-4787-40ce-ae43-e9f67c5269b3#src=seo_token) | Ethereum | 2.65% | $55.18M |
-| [curve-dex →](https://www.defi.garden/?pool=077b47b8-76c9-4081-97f2-9ca43ebdbaa0#src=seo_token) | Ethereum | 1.86% | $51.25M |
-| [curve-dex →](https://www.defi.garden/?pool=540d4202-fb1d-4bfd-bba9-508fc93b9249#src=seo_token) | Ethereum | 12.82% | $2.66M |
-| [stake-dao-yield →](https://www.defi.garden/?pool=02e8f190-ec31-4850-946a-185627abe6dc#src=seo_token) | Ethereum | 3.92% | $127K |
+| [origin-ether →](https://www.defi.garden/?pool=423681e3-4787-40ce-ae43-e9f67c5269b3#src=seo_token) | Ethereum | 2.65% | $54.69M |
+| [curve-dex →](https://www.defi.garden/?pool=077b47b8-76c9-4081-97f2-9ca43ebdbaa0#src=seo_token) | Ethereum | 1.83% | $51.27M |
+| [curve-dex →](https://www.defi.garden/?pool=540d4202-fb1d-4bfd-bba9-508fc93b9249#src=seo_token) | Ethereum | 11.36% | $2.69M |
+| [stake-dao-yield →](https://www.defi.garden/?pool=02e8f190-ec31-4850-946a-185627abe6dc#src=seo_token) | Ethereum | 3.83% | $127.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, OETH's lower-variability candidates are stake-dao-yield (Ethereum), 3.92% APY, $127K TVL, https://www.defi.garden/?pool=02e8f190-ec31-4850-946a-185627abe6dc#src=seo_token; origin-ether (Ethereum), 2.65% APY, $55.18M TVL, https://www.defi.garden/?pool=423681e3-4787-40ce-ae43-e9f67c5269b3#src=seo_token; curve-dex (Ethereum), 12.82% APY, $2.66M TVL, https://www.defi.garden/?pool=540d4202-fb1d-4bfd-bba9-508fc93b9249#src=seo_token; curve-dex (Ethereum), 1.86% APY, $51.25M TVL, https://www.defi.garden/?pool=077b47b8-76c9-4081-97f2-9ca43ebdbaa0#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, OETH's lower-variability candidates are stake-dao-yield (Ethereum), 3.83% APY, $127.3K TVL, https://www.defi.garden/?pool=02e8f190-ec31-4850-946a-185627abe6dc#src=seo_token; origin-ether (Ethereum), 2.65% APY, $54.69M TVL, https://www.defi.garden/?pool=423681e3-4787-40ce-ae43-e9f67c5269b3#src=seo_token; curve-dex (Ethereum), 11.36% APY, $2.69M TVL, https://www.defi.garden/?pool=540d4202-fb1d-4bfd-bba9-508fc93b9249#src=seo_token; curve-dex (Ethereum), 1.83% APY, $51.27M TVL, https://www.defi.garden/?pool=077b47b8-76c9-4081-97f2-9ca43ebdbaa0#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [stake-dao-yield →](https://www.defi.garden/?pool=02e8f190-ec31-4850-946a-185627abe6dc#src=seo_token) | Ethereum | 3.92% | $127K |
-| 2 | [origin-ether →](https://www.defi.garden/?pool=423681e3-4787-40ce-ae43-e9f67c5269b3#src=seo_token) | Ethereum | 2.65% | $55.18M |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=540d4202-fb1d-4bfd-bba9-508fc93b9249#src=seo_token) | Ethereum | 12.82% | $2.66M |
-| 4 | [curve-dex →](https://www.defi.garden/?pool=077b47b8-76c9-4081-97f2-9ca43ebdbaa0#src=seo_token) | Ethereum | 1.86% | $51.25M |
+| 1 | [stake-dao-yield →](https://www.defi.garden/?pool=02e8f190-ec31-4850-946a-185627abe6dc#src=seo_token) | Ethereum | 3.83% | $127.3K |
+| 2 | [origin-ether →](https://www.defi.garden/?pool=423681e3-4787-40ce-ae43-e9f67c5269b3#src=seo_token) | Ethereum | 2.65% | $54.69M |
+| 3 | [curve-dex →](https://www.defi.garden/?pool=540d4202-fb1d-4bfd-bba9-508fc93b9249#src=seo_token) | Ethereum | 11.36% | $2.69M |
+| 4 | [curve-dex →](https://www.defi.garden/?pool=077b47b8-76c9-4081-97f2-9ca43ebdbaa0#src=seo_token) | Ethereum | 1.83% | $51.27M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-OETH shows up in 4 pools here, with rates from 1.86% to 12.82% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+OETH shows up in 4 pools here, with rates from 1.83% to 11.36% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 3.01% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 3.03% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 3 of 4 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -38,9 +38,9 @@ OETH shows up in 4 pools here, with rates from 1.86% to 12.82% APY across 1 chai
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | origin-ether | 2.65% | 2.65% | Base rate |
-| curve-dex | 1.86% | 1.63% | 100.00% incentives |
-| curve-dex | 12.82% | 28.56% | 74.33% incentives |
-| stake-dao-yield | 3.92% | 3.37% | 99.49% incentives |
+| curve-dex | 1.83% | 1.64% | 100.00% incentives |
+| curve-dex | 11.36% | 28.64% | 81.96% incentives |
+| stake-dao-yield | 3.83% | 3.40% | 99.74% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -48,11 +48,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest OETH yield today?
 
-3.92% APY on stake-dao-yield (Ethereum), based on live DefiLlama data.
+3.83% APY on stake-dao-yield (Ethereum), based on live DefiLlama data.
 
 ### How many OETH pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $130.57M in total.
+5 live pools clear this page's $100K TVL floor, $129.95M in total.
 
 ### Are these rates safe?
 
@@ -60,7 +60,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which OETH pools have the most stable APY history?
 
-Based on APY history only, OETH's lower-variability candidates are stake-dao-yield (Ethereum), 3.92% APY, $127K TVL, https://www.defi.garden/?pool=02e8f190-ec31-4850-946a-185627abe6dc#src=seo_token; origin-ether (Ethereum), 2.65% APY, $55.18M TVL, https://www.defi.garden/?pool=423681e3-4787-40ce-ae43-e9f67c5269b3#src=seo_token; curve-dex (Ethereum), 12.82% APY, $2.66M TVL, https://www.defi.garden/?pool=540d4202-fb1d-4bfd-bba9-508fc93b9249#src=seo_token; curve-dex (Ethereum), 1.86% APY, $51.25M TVL, https://www.defi.garden/?pool=077b47b8-76c9-4081-97f2-9ca43ebdbaa0#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, OETH's lower-variability candidates are stake-dao-yield (Ethereum), 3.83% APY, $127.3K TVL, https://www.defi.garden/?pool=02e8f190-ec31-4850-946a-185627abe6dc#src=seo_token; origin-ether (Ethereum), 2.65% APY, $54.69M TVL, https://www.defi.garden/?pool=423681e3-4787-40ce-ae43-e9f67c5269b3#src=seo_token; curve-dex (Ethereum), 11.36% APY, $2.69M TVL, https://www.defi.garden/?pool=540d4202-fb1d-4bfd-bba9-508fc93b9249#src=seo_token; curve-dex (Ethereum), 1.83% APY, $51.27M TVL, https://www.defi.garden/?pool=077b47b8-76c9-4081-97f2-9ca43ebdbaa0#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -75,4 +75,4 @@ Based on APY history only, OETH's lower-variability candidates are stake-dao-yie
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 16, 2026
+## Last updated October 17, 2026

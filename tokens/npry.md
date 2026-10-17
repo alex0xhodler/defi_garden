@@ -1,12 +1,12 @@
 # NPRY DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
 
-The highest honest NPRY yield right now is 37.64% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NPRY yield right now is 2.99% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=a9ba51b1-fc62-4e99-8234-6778bfc27314#src=seo_token) | Solana | 37.64% | $101.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=a9ba51b1-fc62-4e99-8234-6778bfc27314#src=seo_token) | Solana | 2.99% | $102.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NPRY yield today?
 
-37.64% APY on raydium-amm (Solana), based on live DefiLlama data.
+2.99% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many NPRY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $101.1K in total.
+1 live pool clear this page's $100K TVL floor, $102.8K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank NPRY pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 16, 2026
+## Last updated October 17, 2026

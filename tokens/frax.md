@@ -1,58 +1,58 @@
 # FRAX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
 
-The highest honest FRAX yield right now is 4.62% on curve-dex (Ethereum), among 35 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FRAX yield right now is 4.51% on curve-dex (Ethereum), among 35 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=12ca9565-0369-404e-b209-631305e4012a#src=seo_token) | Ethereum | 3.02% | $34.04M |
-| [convex-finance →](https://www.defi.garden/?pool=5fac4a47-5360-49b7-8b61-66f88a3d939f#src=seo_token) | Ethereum | 4.25% | $33.92M |
-| [curve-dex →](https://www.defi.garden/?pool=a7dc71cb-77cc-435c-b7bc-006651c6c1c0#src=seo_token) | Ethereum | 0.02% | $4.08M |
-| [frax →](https://www.defi.garden/?pool=4966c7ac-99d8-449d-97c9-37bdc9858b07#src=seo_token) | Fraxtal | 1.56% | $2.96M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=674bdd49-b1cc-4345-b75e-5bd7df953838#src=seo_token) | Ethereum | 2.33% | $2.63M |
-| [curve-dex →](https://www.defi.garden/?pool=3f6aa14f-eb0c-4738-bf74-8bc666f7d2b1#src=seo_token) | Ethereum | 4.62% | $2M |
-| [frax →](https://www.defi.garden/?pool=0635869c-31a6-47da-95e5-c75af405c84a#src=seo_token) | Ethereum | 2.74% | $1.92M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=d371fc69-9a77-4336-a129-ec79c9548266#src=seo_token) | Ethereum | 0.03% | $1.51M |
+| [curve-dex →](https://www.defi.garden/?pool=12ca9565-0369-404e-b209-631305e4012a#src=seo_token) | Ethereum | 2.98% | $34.03M |
+| [convex-finance →](https://www.defi.garden/?pool=5fac4a47-5360-49b7-8b61-66f88a3d939f#src=seo_token) | Ethereum | 4.19% | $33.92M |
+| [frax →](https://www.defi.garden/?pool=4966c7ac-99d8-449d-97c9-37bdc9858b07#src=seo_token) | Fraxtal | 1.75% | $2.95M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=674bdd49-b1cc-4345-b75e-5bd7df953838#src=seo_token) | Ethereum | 1.55% | $2.62M |
+| [curve-dex →](https://www.defi.garden/?pool=3f6aa14f-eb0c-4738-bf74-8bc666f7d2b1#src=seo_token) | Ethereum | 4.51% | $1.99M |
+| [frax →](https://www.defi.garden/?pool=0635869c-31a6-47da-95e5-c75af405c84a#src=seo_token) | Ethereum | 2.76% | $1.9M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d371fc69-9a77-4336-a129-ec79c9548266#src=seo_token) | Ethereum | 0.01% | $1.51M |
+| [frax →](https://www.defi.garden/?pool=80a19d30-a586-44ea-82b0-03cf63290a79#src=seo_token) | Fraxtal | 0.98% | $1.41M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, FRAX's lower-variability candidates are curve-dex (Ethereum), 0.02% APY, $4.08M TVL, https://www.defi.garden/?pool=a7dc71cb-77cc-435c-b7bc-006651c6c1c0#src=seo_token; uniswap-v3 (Ethereum), 2.33% APY, $2.63M TVL, https://www.defi.garden/?pool=674bdd49-b1cc-4345-b75e-5bd7df953838#src=seo_token; uniswap-v3 (Ethereum), 0.03% APY, $1.51M TVL, https://www.defi.garden/?pool=d371fc69-9a77-4336-a129-ec79c9548266#src=seo_token; frax (Fraxtal), 1.56% APY, $2.96M TVL, https://www.defi.garden/?pool=4966c7ac-99d8-449d-97c9-37bdc9858b07#src=seo_token; curve-dex (Ethereum), 4.62% APY, $2M TVL, https://www.defi.garden/?pool=3f6aa14f-eb0c-4738-bf74-8bc666f7d2b1#src=seo_token; frax (Ethereum), 2.74% APY, $1.92M TVL, https://www.defi.garden/?pool=0635869c-31a6-47da-95e5-c75af405c84a#src=seo_token; convex-finance (Ethereum), 4.25% APY, $33.92M TVL, https://www.defi.garden/?pool=5fac4a47-5360-49b7-8b61-66f88a3d939f#src=seo_token; curve-dex (Ethereum), 3.02% APY, $34.04M TVL, https://www.defi.garden/?pool=12ca9565-0369-404e-b209-631305e4012a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FRAX's lower-variability candidates are uniswap-v3 (Ethereum), 1.55% APY, $2.62M TVL, https://www.defi.garden/?pool=674bdd49-b1cc-4345-b75e-5bd7df953838#src=seo_token; uniswap-v3 (Ethereum), 0.01% APY, $1.51M TVL, https://www.defi.garden/?pool=d371fc69-9a77-4336-a129-ec79c9548266#src=seo_token; frax (Fraxtal), 1.75% APY, $2.95M TVL, https://www.defi.garden/?pool=4966c7ac-99d8-449d-97c9-37bdc9858b07#src=seo_token; curve-dex (Ethereum), 4.51% APY, $1.99M TVL, https://www.defi.garden/?pool=3f6aa14f-eb0c-4738-bf74-8bc666f7d2b1#src=seo_token; frax (Ethereum), 2.76% APY, $1.9M TVL, https://www.defi.garden/?pool=0635869c-31a6-47da-95e5-c75af405c84a#src=seo_token; convex-finance (Ethereum), 4.19% APY, $33.92M TVL, https://www.defi.garden/?pool=5fac4a47-5360-49b7-8b61-66f88a3d939f#src=seo_token; curve-dex (Ethereum), 2.98% APY, $34.03M TVL, https://www.defi.garden/?pool=12ca9565-0369-404e-b209-631305e4012a#src=seo_token; frax (Fraxtal), 0.98% APY, $1.41M TVL, https://www.defi.garden/?pool=80a19d30-a586-44ea-82b0-03cf63290a79#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=a7dc71cb-77cc-435c-b7bc-006651c6c1c0#src=seo_token) | Ethereum | 0.02% | $4.08M |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=674bdd49-b1cc-4345-b75e-5bd7df953838#src=seo_token) | Ethereum | 2.33% | $2.63M |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=d371fc69-9a77-4336-a129-ec79c9548266#src=seo_token) | Ethereum | 0.03% | $1.51M |
-| 4 | [frax →](https://www.defi.garden/?pool=4966c7ac-99d8-449d-97c9-37bdc9858b07#src=seo_token) | Fraxtal | 1.56% | $2.96M |
-| 5 | [curve-dex →](https://www.defi.garden/?pool=3f6aa14f-eb0c-4738-bf74-8bc666f7d2b1#src=seo_token) | Ethereum | 4.62% | $2M |
-| 6 | [frax →](https://www.defi.garden/?pool=0635869c-31a6-47da-95e5-c75af405c84a#src=seo_token) | Ethereum | 2.74% | $1.92M |
-| 7 | [convex-finance →](https://www.defi.garden/?pool=5fac4a47-5360-49b7-8b61-66f88a3d939f#src=seo_token) | Ethereum | 4.25% | $33.92M |
-| 8 | [curve-dex →](https://www.defi.garden/?pool=12ca9565-0369-404e-b209-631305e4012a#src=seo_token) | Ethereum | 3.02% | $34.04M |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=674bdd49-b1cc-4345-b75e-5bd7df953838#src=seo_token) | Ethereum | 1.55% | $2.62M |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=d371fc69-9a77-4336-a129-ec79c9548266#src=seo_token) | Ethereum | 0.01% | $1.51M |
+| 3 | [frax →](https://www.defi.garden/?pool=4966c7ac-99d8-449d-97c9-37bdc9858b07#src=seo_token) | Fraxtal | 1.75% | $2.95M |
+| 4 | [curve-dex →](https://www.defi.garden/?pool=3f6aa14f-eb0c-4738-bf74-8bc666f7d2b1#src=seo_token) | Ethereum | 4.51% | $1.99M |
+| 5 | [frax →](https://www.defi.garden/?pool=0635869c-31a6-47da-95e5-c75af405c84a#src=seo_token) | Ethereum | 2.76% | $1.9M |
+| 6 | [convex-finance →](https://www.defi.garden/?pool=5fac4a47-5360-49b7-8b61-66f88a3d939f#src=seo_token) | Ethereum | 4.19% | $33.92M |
+| 7 | [curve-dex →](https://www.defi.garden/?pool=12ca9565-0369-404e-b209-631305e4012a#src=seo_token) | Ethereum | 2.98% | $34.03M |
+| 8 | [frax →](https://www.defi.garden/?pool=80a19d30-a586-44ea-82b0-03cf63290a79#src=seo_token) | Fraxtal | 0.98% | $1.41M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-FRAX shows up in 8 pools here, with rates from 0.02% to 4.62% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+FRAX shows up in 8 pools here, with rates from 0.01% to 4.51% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 2.13% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 2.14% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 3 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
-3 of 8 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+4 of 8 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 3.02% | 2.67% | 100.00% incentives |
-| convex-finance | 4.25% | 4.07% | 99.76% incentives |
-| curve-dex | 0.02% | 0.01% | Base rate |
-| frax | 1.56% | 1.60% | Base rate |
-| uniswap-v3 | 2.33% | 1.42% | Base rate |
-| curve-dex | 4.62% | 4.41% | 98.05% incentives |
-| frax | 2.74% | 3.59% | Base rate |
-| uniswap-v3 | 0.03% | 0.05% | Base rate |
+| curve-dex | 2.98% | 2.68% | 100.00% incentives |
+| convex-finance | 4.19% | 4.07% | 99.76% incentives |
+| frax | 1.75% | 1.59% | Base rate |
+| uniswap-v3 | 1.55% | 1.42% | Base rate |
+| curve-dex | 4.51% | 4.41% | 98.67% incentives |
+| frax | 2.76% | 3.27% | Base rate |
+| uniswap-v3 | 0.01% | 0.05% | Base rate |
+| frax | 0.98% | 0.52% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -60,11 +60,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest FRAX yield today?
 
-4.62% APY on curve-dex (Ethereum), based on live DefiLlama data.
+4.51% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many FRAX pools clear the TVL floor?
 
-35 live pools clear this page's $100K TVL floor, $99.92M in total.
+35 live pools clear this page's $100K TVL floor, $99.85M in total.
 
 ### Are these rates safe?
 
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which FRAX pools have the most stable APY history?
 
-Based on APY history only, FRAX's lower-variability candidates are curve-dex (Ethereum), 0.02% APY, $4.08M TVL, https://www.defi.garden/?pool=a7dc71cb-77cc-435c-b7bc-006651c6c1c0#src=seo_token; uniswap-v3 (Ethereum), 2.33% APY, $2.63M TVL, https://www.defi.garden/?pool=674bdd49-b1cc-4345-b75e-5bd7df953838#src=seo_token; uniswap-v3 (Ethereum), 0.03% APY, $1.51M TVL, https://www.defi.garden/?pool=d371fc69-9a77-4336-a129-ec79c9548266#src=seo_token; frax (Fraxtal), 1.56% APY, $2.96M TVL, https://www.defi.garden/?pool=4966c7ac-99d8-449d-97c9-37bdc9858b07#src=seo_token; curve-dex (Ethereum), 4.62% APY, $2M TVL, https://www.defi.garden/?pool=3f6aa14f-eb0c-4738-bf74-8bc666f7d2b1#src=seo_token; frax (Ethereum), 2.74% APY, $1.92M TVL, https://www.defi.garden/?pool=0635869c-31a6-47da-95e5-c75af405c84a#src=seo_token; convex-finance (Ethereum), 4.25% APY, $33.92M TVL, https://www.defi.garden/?pool=5fac4a47-5360-49b7-8b61-66f88a3d939f#src=seo_token; curve-dex (Ethereum), 3.02% APY, $34.04M TVL, https://www.defi.garden/?pool=12ca9565-0369-404e-b209-631305e4012a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FRAX's lower-variability candidates are uniswap-v3 (Ethereum), 1.55% APY, $2.62M TVL, https://www.defi.garden/?pool=674bdd49-b1cc-4345-b75e-5bd7df953838#src=seo_token; uniswap-v3 (Ethereum), 0.01% APY, $1.51M TVL, https://www.defi.garden/?pool=d371fc69-9a77-4336-a129-ec79c9548266#src=seo_token; frax (Fraxtal), 1.75% APY, $2.95M TVL, https://www.defi.garden/?pool=4966c7ac-99d8-449d-97c9-37bdc9858b07#src=seo_token; curve-dex (Ethereum), 4.51% APY, $1.99M TVL, https://www.defi.garden/?pool=3f6aa14f-eb0c-4738-bf74-8bc666f7d2b1#src=seo_token; frax (Ethereum), 2.76% APY, $1.9M TVL, https://www.defi.garden/?pool=0635869c-31a6-47da-95e5-c75af405c84a#src=seo_token; convex-finance (Ethereum), 4.19% APY, $33.92M TVL, https://www.defi.garden/?pool=5fac4a47-5360-49b7-8b61-66f88a3d939f#src=seo_token; curve-dex (Ethereum), 2.98% APY, $34.03M TVL, https://www.defi.garden/?pool=12ca9565-0369-404e-b209-631305e4012a#src=seo_token; frax (Fraxtal), 0.98% APY, $1.41M TVL, https://www.defi.garden/?pool=80a19d30-a586-44ea-82b0-03cf63290a79#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -88,4 +88,4 @@ Based on APY history only, FRAX's lower-variability candidates are curve-dex (Et
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Fraxtal](https://www.defi.garden/chains/fraxtal)
 
-## Last updated October 16, 2026
+## Last updated October 17, 2026

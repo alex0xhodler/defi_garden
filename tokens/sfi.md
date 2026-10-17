@@ -1,32 +1,32 @@
 # SFI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
 
-The highest honest SFI yield right now is 1.19% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SFI yield right now is 2.08% on uniswap-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=e6bc0e08-df6b-5817-ae73-f21f6c4b883c#src=seo_token) | Ethereum | 0.56% | $1.25M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=57a26552-1978-5462-be39-f7d30fb813b3#src=seo_token) | Ethereum | 1.19% | $583.2K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=9e9e97db-3cbc-4303-9bd8-d2d28d5f2a30#src=seo_token) | Ethereum | 1.46% | $119.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e6bc0e08-df6b-5817-ae73-f21f6c4b883c#src=seo_token) | Ethereum | 1.89% | $1.24M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=57a26552-1978-5462-be39-f7d30fb813b3#src=seo_token) | Ethereum | 1.12% | $572.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=9e9e97db-3cbc-4303-9bd8-d2d28d5f2a30#src=seo_token) | Ethereum | 2.08% | $117.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SFI's lower-variability candidates are uniswap-v3 (Ethereum), 0.56% APY, $1.25M TVL, https://www.defi.garden/?pool=e6bc0e08-df6b-5817-ae73-f21f6c4b883c#src=seo_token; uniswap-v2 (Ethereum), 1.46% APY, $119.2K TVL, https://www.defi.garden/?pool=9e9e97db-3cbc-4303-9bd8-d2d28d5f2a30#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SFI's lower-variability candidates are uniswap-v3 (Ethereum), 1.89% APY, $1.24M TVL, https://www.defi.garden/?pool=e6bc0e08-df6b-5817-ae73-f21f6c4b883c#src=seo_token; uniswap-v2 (Ethereum), 2.08% APY, $117.6K TVL, https://www.defi.garden/?pool=9e9e97db-3cbc-4303-9bd8-d2d28d5f2a30#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=e6bc0e08-df6b-5817-ae73-f21f6c4b883c#src=seo_token) | Ethereum | 0.56% | $1.25M |
-| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=9e9e97db-3cbc-4303-9bd8-d2d28d5f2a30#src=seo_token) | Ethereum | 1.46% | $119.2K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=e6bc0e08-df6b-5817-ae73-f21f6c4b883c#src=seo_token) | Ethereum | 1.89% | $1.24M |
+| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=9e9e97db-3cbc-4303-9bd8-d2d28d5f2a30#src=seo_token) | Ethereum | 2.08% | $117.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SFI shows up in 3 pools here, with rates from 0.56% to 1.46% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SFI shows up in 3 pools here, with rates from 1.12% to 2.08% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 2.64% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 2.43% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -34,9 +34,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 0.56% | 2.64% | Base rate |
-| uniswap-v3 | 1.19% | 1.88% | Base rate |
-| uniswap-v2 | 1.46% | 3.32% | Base rate |
+| uniswap-v3 | 1.89% | 2.43% | Base rate |
+| uniswap-v3 | 1.12% | 1.85% | Base rate |
+| uniswap-v2 | 2.08% | 3.25% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -44,11 +44,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SFI yield today?
 
-1.19% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+2.08% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many SFI pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.96M in total.
+3 live pools clear this page's $100K TVL floor, $1.93M in total.
 
 ### Are these rates safe?
 
@@ -56,7 +56,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SFI pools have the most stable APY history?
 
-Based on APY history only, SFI's lower-variability candidates are uniswap-v3 (Ethereum), 0.56% APY, $1.25M TVL, https://www.defi.garden/?pool=e6bc0e08-df6b-5817-ae73-f21f6c4b883c#src=seo_token; uniswap-v2 (Ethereum), 1.46% APY, $119.2K TVL, https://www.defi.garden/?pool=9e9e97db-3cbc-4303-9bd8-d2d28d5f2a30#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SFI's lower-variability candidates are uniswap-v3 (Ethereum), 1.89% APY, $1.24M TVL, https://www.defi.garden/?pool=e6bc0e08-df6b-5817-ae73-f21f6c4b883c#src=seo_token; uniswap-v2 (Ethereum), 2.08% APY, $117.6K TVL, https://www.defi.garden/?pool=9e9e97db-3cbc-4303-9bd8-d2d28d5f2a30#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -71,4 +71,4 @@ Based on APY history only, SFI's lower-variability candidates are uniswap-v3 (Et
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 16, 2026
+## Last updated October 17, 2026

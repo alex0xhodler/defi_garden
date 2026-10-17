@@ -1,17 +1,17 @@
 # Monad DeFi Yields
 
-The highest honest Monad yield right now is 9.79% on accountable (Monad), among 171 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Monad yield right now is 9.80% on accountable (Monad), among 168 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| SYRUPUSDC | [aave-v3 →](https://www.defi.garden/pools/aave-v3-syrupusdc-monad) | 1.11% | $160.11M |
-| USDE | [aave-v3 →](https://www.defi.garden/pools/aave-v3-usde-monad) | 1.01% | $129.72M |
-| AUSD | [accountable →](https://www.defi.garden/?pool=4baffdfd-8015-4713-bad4-10a199b30157#src=seo_chain) | 6.67% | $100.56M |
-| USDC | [accountable →](https://www.defi.garden/?pool=1a9c61c7-4094-4ee7-8d46-6ea8fb5689f1#src=seo_chain) | 9.79% | $74.98M |
-| HYPERUSDCA | [morpho-blue →](https://www.defi.garden/?pool=ec6a71a7-41ae-4e72-942f-b4bc99c3b3cb#src=seo_chain) | 7.29% | $51.88M |
-| WETH | [euler-v2 →](https://www.defi.garden/?pool=951e4e49-9760-49a3-aea9-bd832384219f#src=seo_chain) | 2.75% | $49.89M |
-| AHYPER | [morpho-blue →](https://www.defi.garden/?pool=8ee92b15-1846-4a9c-8ce8-254a745e2b62#src=seo_chain) | 0.82% | $45.2M |
-| CBBTC | [accountable →](https://www.defi.garden/?pool=5528e3be-2b9b-4062-a2c0-80d3345c7c0f#src=seo_chain) | 3.92% | $40.49M |
+| SYRUPUSDC | [aave-v3 →](https://www.defi.garden/pools/aave-v3-syrupusdc-monad) | 1.13% | $154.17M |
+| USDE | [aave-v3 →](https://www.defi.garden/pools/aave-v3-usde-monad) | 1.01% | $126.82M |
+| AUSD | [accountable →](https://www.defi.garden/?pool=4baffdfd-8015-4713-bad4-10a199b30157#src=seo_chain) | 6.67% | $100.54M |
+| USDC | [accountable →](https://www.defi.garden/?pool=1a9c61c7-4094-4ee7-8d46-6ea8fb5689f1#src=seo_chain) | 9.80% | $74.97M |
+| HYPERUSDCA | [morpho-blue →](https://www.defi.garden/?pool=ec6a71a7-41ae-4e72-942f-b4bc99c3b3cb#src=seo_chain) | 7.26% | $50.56M |
+| WETH | [euler-v2 →](https://www.defi.garden/?pool=951e4e49-9760-49a3-aea9-bd832384219f#src=seo_chain) | 2.75% | $49.47M |
+| AHYPER | [morpho-blue →](https://www.defi.garden/?pool=8ee92b15-1846-4a9c-8ce8-254a745e2b62#src=seo_chain) | 0.88% | $44.87M |
+| CBBTC | [accountable →](https://www.defi.garden/?pool=5528e3be-2b9b-4062-a2c0-80d3345c7c0f#src=seo_chain) | 3.92% | $40.11M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Monad yield today?
 
-9.79% APY on accountable (Monad), based on live DefiLlama data.
+9.80% APY on accountable (Monad), based on live DefiLlama data.
 
 ### How many Monad pools clear the TVL floor?
 
-171 live pools clear this page's $100K TVL floor, $1.38B in total.
+168 live pools clear this page's $100K TVL floor, $1.37B in total.
 
 ### Are these rates safe?
 
@@ -49,4 +49,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [AHYPER](https://www.defi.garden/tokens/ahyper)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
-## Last updated October 16, 2026
+## Last updated October 17, 2026

@@ -1,12 +1,12 @@
 # AEURC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
 
-The highest honest AEURC yield right now is 0.50% on hydration-dex (Polkadot), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AEURC yield right now is 0.51% on hydration-dex (Polkadot), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hydration-dex →](https://www.defi.garden/?pool=8702c691-9b2c-4722-a9c1-4eb6289bca94#src=seo_token) | Polkadot | 0.50% | $898.3K |
+| [hydration-dex →](https://www.defi.garden/?pool=8702c691-9b2c-4722-a9c1-4eb6289bca94#src=seo_token) | Polkadot | 0.51% | $858.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AEURC yield today?
 
-0.50% APY on hydration-dex (Polkadot), based on live DefiLlama data.
+0.51% APY on hydration-dex (Polkadot), based on live DefiLlama data.
 
 ### How many AEURC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $898.3K in total.
+1 live pool clear this page's $100K TVL floor, $858.3K in total.
 
 ### Are these rates safe?
 
@@ -36,7 +36,7 @@ There is not enough qualifying APY history to rank AEURC pools. This view covers
 ## Related tokens
 
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [SKY](https://www.defi.garden/tokens/sky)
+- [PRIME](https://www.defi.garden/tokens/prime)
 - [APYUSD](https://www.defi.garden/tokens/apyusd)
 - [GETH](https://www.defi.garden/tokens/geth)
 - [VDOT](https://www.defi.garden/tokens/vdot)
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank AEURC pools. This view covers
 
 - [Polkadot](https://www.defi.garden/chains/polkadot)
 
-## Last updated October 16, 2026
+## Last updated October 17, 2026

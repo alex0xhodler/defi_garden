@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-16T06:51:09.769Z",
+  "generatedAt": "2026-10-17T06:41:09.104Z",
   "summary": {
-    "totalRuns": 21,
-    "medianBandCapture": 71.1,
-    "medianModelMae": 1.13,
-    "medianNaiveMae": 1.11,
-    "medianSkillScore": 0,
+    "totalRuns": 22,
+    "medianBandCapture": 71.05,
+    "medianModelMae": 1.115,
+    "medianNaiveMae": 1.1,
+    "medianSkillScore": -0.005,
     "stablecoins": {
-      "medianBandCapture": 68.1,
+      "medianBandCapture": 67.8,
       "medianSkillScore": 0.02
     },
     "highLiquidity": {
@@ -622,6 +622,35 @@
         "bandCapturePct": 72,
         "modelMae": 0.32,
         "naiveMae": 0.32,
+        "skillScore": -0.02
+      }
+    },
+    {
+      "issueDate": "2026-10-03",
+      "outcomeDate": "2026-10-17",
+      "commit": "349305c90b1",
+      "commitTime": "07:41:19",
+      "totalIssued": 2670,
+      "evaluated": 2551,
+      "droppedOut": 119,
+      "overall": {
+        "bandCapturePct": 70.5,
+        "modelMae": 1.1,
+        "naiveMae": 1.09,
+        "skillScore": -0.01
+      },
+      "stablecoins": {
+        "evaluated": 1042,
+        "bandCapturePct": 67.5,
+        "modelMae": 1.37,
+        "naiveMae": 1.37,
+        "skillScore": 0
+      },
+      "highLiquidity": {
+        "evaluated": 620,
+        "bandCapturePct": 71.5,
+        "modelMae": 0.31,
+        "naiveMae": 0.31,
         "skillScore": -0.02
       }
     }

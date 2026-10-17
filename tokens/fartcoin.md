@@ -1,35 +1,35 @@
 # FARTCOIN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
 
-The highest honest FARTCOIN yield right now is 8.58% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FARTCOIN yield right now is 38.86% on orca-dex (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=c66d7944-6582-4638-881a-360e5918e4b4#src=seo_token) | Solana | 8.58% | $7.86M |
-| [orca-dex →](https://www.defi.garden/?pool=c77ca0bf-41cd-48d9-8b25-9804ee98b142#src=seo_token) | Solana | 26.21% | $1.09M |
-| [orca-dex →](https://www.defi.garden/?pool=5da12137-c29a-45bb-8893-f6c01400ae02#src=seo_token) | Solana | 4.29% | $263.2K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=6ec6bad9-3a52-4444-9053-21a8441ec454#src=seo_token) | Base | 0.03% | $162.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=c66d7944-6582-4638-881a-360e5918e4b4#src=seo_token) | Solana | 18.00% | $7.74M |
+| [orca-dex →](https://www.defi.garden/?pool=c77ca0bf-41cd-48d9-8b25-9804ee98b142#src=seo_token) | Solana | 38.86% | $1.07M |
+| [orca-dex →](https://www.defi.garden/?pool=5da12137-c29a-45bb-8893-f6c01400ae02#src=seo_token) | Solana | 18.71% | $257.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6ec6bad9-3a52-4444-9053-21a8441ec454#src=seo_token) | Base | 0.08% | $159K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, FARTCOIN's lower-variability candidates are raydium-amm (Solana), 8.58% APY, $7.86M TVL, https://www.defi.garden/?pool=c66d7944-6582-4638-881a-360e5918e4b4#src=seo_token; uniswap-v3 (Base), 0.03% APY, $162.7K TVL, https://www.defi.garden/?pool=6ec6bad9-3a52-4444-9053-21a8441ec454#src=seo_token; orca-dex (Solana), 26.21% APY, $1.09M TVL, https://www.defi.garden/?pool=c77ca0bf-41cd-48d9-8b25-9804ee98b142#src=seo_token; orca-dex (Solana), 4.29% APY, $263.2K TVL, https://www.defi.garden/?pool=5da12137-c29a-45bb-8893-f6c01400ae02#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FARTCOIN's lower-variability candidates are raydium-amm (Solana), 18.00% APY, $7.74M TVL, https://www.defi.garden/?pool=c66d7944-6582-4638-881a-360e5918e4b4#src=seo_token; uniswap-v3 (Base), 0.08% APY, $159K TVL, https://www.defi.garden/?pool=6ec6bad9-3a52-4444-9053-21a8441ec454#src=seo_token; orca-dex (Solana), 38.86% APY, $1.07M TVL, https://www.defi.garden/?pool=c77ca0bf-41cd-48d9-8b25-9804ee98b142#src=seo_token; orca-dex (Solana), 18.71% APY, $257.5K TVL, https://www.defi.garden/?pool=5da12137-c29a-45bb-8893-f6c01400ae02#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=c66d7944-6582-4638-881a-360e5918e4b4#src=seo_token) | Solana | 8.58% | $7.86M |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=6ec6bad9-3a52-4444-9053-21a8441ec454#src=seo_token) | Base | 0.03% | $162.7K |
-| 3 | [orca-dex →](https://www.defi.garden/?pool=c77ca0bf-41cd-48d9-8b25-9804ee98b142#src=seo_token) | Solana | 26.21% | $1.09M |
-| 4 | [orca-dex →](https://www.defi.garden/?pool=5da12137-c29a-45bb-8893-f6c01400ae02#src=seo_token) | Solana | 4.29% | $263.2K |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=c66d7944-6582-4638-881a-360e5918e4b4#src=seo_token) | Solana | 18.00% | $7.74M |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=6ec6bad9-3a52-4444-9053-21a8441ec454#src=seo_token) | Base | 0.08% | $159K |
+| 3 | [orca-dex →](https://www.defi.garden/?pool=c77ca0bf-41cd-48d9-8b25-9804ee98b142#src=seo_token) | Solana | 38.86% | $1.07M |
+| 4 | [orca-dex →](https://www.defi.garden/?pool=5da12137-c29a-45bb-8893-f6c01400ae02#src=seo_token) | Solana | 18.71% | $257.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-FARTCOIN shows up in 4 pools here, with rates from 0.03% to 26.21% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+FARTCOIN shows up in 4 pools here, with rates from 0.08% to 38.86% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 11.34% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 11.41% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -37,10 +37,10 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 8.58% | 14.17% | Base rate |
-| orca-dex | 26.21% | 60.71% | Base rate |
-| orca-dex | 4.29% | 8.51% | Base rate |
-| uniswap-v3 | 0.03% | 3.28% | Base rate |
+| raydium-amm | 18.00% | 14.17% | Base rate |
+| orca-dex | 38.86% | 60.64% | Base rate |
+| orca-dex | 18.71% | 8.65% | Base rate |
+| uniswap-v3 | 0.08% | 3.26% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -48,11 +48,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest FARTCOIN yield today?
 
-8.58% APY on raydium-amm (Solana), based on live DefiLlama data.
+38.86% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many FARTCOIN pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $9.38M in total.
+4 live pools clear this page's $100K TVL floor, $9.23M in total.
 
 ### Are these rates safe?
 
@@ -60,7 +60,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which FARTCOIN pools have the most stable APY history?
 
-Based on APY history only, FARTCOIN's lower-variability candidates are raydium-amm (Solana), 8.58% APY, $7.86M TVL, https://www.defi.garden/?pool=c66d7944-6582-4638-881a-360e5918e4b4#src=seo_token; uniswap-v3 (Base), 0.03% APY, $162.7K TVL, https://www.defi.garden/?pool=6ec6bad9-3a52-4444-9053-21a8441ec454#src=seo_token; orca-dex (Solana), 26.21% APY, $1.09M TVL, https://www.defi.garden/?pool=c77ca0bf-41cd-48d9-8b25-9804ee98b142#src=seo_token; orca-dex (Solana), 4.29% APY, $263.2K TVL, https://www.defi.garden/?pool=5da12137-c29a-45bb-8893-f6c01400ae02#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FARTCOIN's lower-variability candidates are raydium-amm (Solana), 18.00% APY, $7.74M TVL, https://www.defi.garden/?pool=c66d7944-6582-4638-881a-360e5918e4b4#src=seo_token; uniswap-v3 (Base), 0.08% APY, $159K TVL, https://www.defi.garden/?pool=6ec6bad9-3a52-4444-9053-21a8441ec454#src=seo_token; orca-dex (Solana), 38.86% APY, $1.07M TVL, https://www.defi.garden/?pool=c77ca0bf-41cd-48d9-8b25-9804ee98b142#src=seo_token; orca-dex (Solana), 18.71% APY, $257.5K TVL, https://www.defi.garden/?pool=5da12137-c29a-45bb-8893-f6c01400ae02#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -76,4 +76,4 @@ Based on APY history only, FARTCOIN's lower-variability candidates are raydium-a
 - [Solana](https://www.defi.garden/chains/solana)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 16, 2026
+## Last updated October 17, 2026

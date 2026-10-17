@@ -1,41 +1,41 @@
 # DUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
 
-The highest honest DUSD yield right now is 15.28% on stake-dao-yield (Ethereum), among 12 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DUSD yield right now is 14.92% on stake-dao-yield (Ethereum), among 12 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=a3418d18-b05c-4b42-b6fb-d42571791ed2#src=seo_token) | Ethereum | 7.30% | $4.49M |
-| [convex-finance →](https://www.defi.garden/?pool=c77b9508-1a53-4ea1-9913-0207ce711fa2#src=seo_token) | Ethereum | 11.69% | $3.32M |
+| [curve-dex →](https://www.defi.garden/?pool=a3418d18-b05c-4b42-b6fb-d42571791ed2#src=seo_token) | Ethereum | 7.17% | $4.5M |
+| [convex-finance →](https://www.defi.garden/?pool=c77b9508-1a53-4ea1-9913-0207ce711fa2#src=seo_token) | Ethereum | 11.54% | $3.32M |
 | [makina →](https://www.defi.garden/?pool=a0387f4b-18ba-5fb5-8171-0f177254dfeb#src=seo_token) | Ethereum | 5.05% | $1.91M |
-| [stake-dao-yield →](https://www.defi.garden/?pool=2bf7dfb1-cc93-5f4b-ba8a-6cf8bd63eff6#src=seo_token) | Ethereum | 15.28% | $873K |
-| [curve-dex →](https://www.defi.garden/?pool=15692d23-4da2-4a73-99c0-9c93c1aa86d9#src=seo_token) | Ethereum | 1.02% | $853.6K |
-| [defichain-dex →](https://www.defi.garden/?pool=74ab9394-5d6d-41a6-955e-b246ecc8dede#src=seo_token) | Defichain | 0.09% | $640.5K |
-| [raydium-amm →](https://www.defi.garden/?pool=dd71d1a6-4292-4e94-9ff8-a48ec9cb9d21#src=seo_token) | Solana | 7.33% | $138.9K |
+| [stake-dao-yield →](https://www.defi.garden/?pool=2bf7dfb1-cc93-5f4b-ba8a-6cf8bd63eff6#src=seo_token) | Ethereum | 14.92% | $884K |
+| [curve-dex →](https://www.defi.garden/?pool=15692d23-4da2-4a73-99c0-9c93c1aa86d9#src=seo_token) | Ethereum | 1.00% | $853.9K |
+| [defichain-dex →](https://www.defi.garden/?pool=74ab9394-5d6d-41a6-955e-b246ecc8dede#src=seo_token) | Defichain | 6.15% | $638.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=dd71d1a6-4292-4e94-9ff8-a48ec9cb9d21#src=seo_token) | Solana | 2.29% | $138.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, DUSD's lower-variability candidates are curve-dex (Ethereum), 1.02% APY, $853.6K TVL, https://www.defi.garden/?pool=15692d23-4da2-4a73-99c0-9c93c1aa86d9#src=seo_token; raydium-amm (Solana), 7.33% APY, $138.9K TVL, https://www.defi.garden/?pool=dd71d1a6-4292-4e94-9ff8-a48ec9cb9d21#src=seo_token; curve-dex (Ethereum), 7.30% APY, $4.49M TVL, https://www.defi.garden/?pool=a3418d18-b05c-4b42-b6fb-d42571791ed2#src=seo_token; makina (Ethereum), 5.05% APY, $1.91M TVL, https://www.defi.garden/?pool=a0387f4b-18ba-5fb5-8171-0f177254dfeb#src=seo_token; stake-dao-yield (Ethereum), 15.28% APY, $873K TVL, https://www.defi.garden/?pool=2bf7dfb1-cc93-5f4b-ba8a-6cf8bd63eff6#src=seo_token; convex-finance (Ethereum), 11.69% APY, $3.32M TVL, https://www.defi.garden/?pool=c77b9508-1a53-4ea1-9913-0207ce711fa2#src=seo_token; defichain-dex (Defichain), 0.09% APY, $640.5K TVL, https://www.defi.garden/?pool=74ab9394-5d6d-41a6-955e-b246ecc8dede#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, DUSD's lower-variability candidates are curve-dex (Ethereum), 1.00% APY, $853.9K TVL, https://www.defi.garden/?pool=15692d23-4da2-4a73-99c0-9c93c1aa86d9#src=seo_token; raydium-amm (Solana), 2.29% APY, $138.4K TVL, https://www.defi.garden/?pool=dd71d1a6-4292-4e94-9ff8-a48ec9cb9d21#src=seo_token; curve-dex (Ethereum), 7.17% APY, $4.5M TVL, https://www.defi.garden/?pool=a3418d18-b05c-4b42-b6fb-d42571791ed2#src=seo_token; makina (Ethereum), 5.05% APY, $1.91M TVL, https://www.defi.garden/?pool=a0387f4b-18ba-5fb5-8171-0f177254dfeb#src=seo_token; stake-dao-yield (Ethereum), 14.92% APY, $884K TVL, https://www.defi.garden/?pool=2bf7dfb1-cc93-5f4b-ba8a-6cf8bd63eff6#src=seo_token; convex-finance (Ethereum), 11.54% APY, $3.32M TVL, https://www.defi.garden/?pool=c77b9508-1a53-4ea1-9913-0207ce711fa2#src=seo_token; defichain-dex (Defichain), 6.15% APY, $638.8K TVL, https://www.defi.garden/?pool=74ab9394-5d6d-41a6-955e-b246ecc8dede#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=15692d23-4da2-4a73-99c0-9c93c1aa86d9#src=seo_token) | Ethereum | 1.02% | $853.6K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=dd71d1a6-4292-4e94-9ff8-a48ec9cb9d21#src=seo_token) | Solana | 7.33% | $138.9K |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=a3418d18-b05c-4b42-b6fb-d42571791ed2#src=seo_token) | Ethereum | 7.30% | $4.49M |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=15692d23-4da2-4a73-99c0-9c93c1aa86d9#src=seo_token) | Ethereum | 1.00% | $853.9K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=dd71d1a6-4292-4e94-9ff8-a48ec9cb9d21#src=seo_token) | Solana | 2.29% | $138.4K |
+| 3 | [curve-dex →](https://www.defi.garden/?pool=a3418d18-b05c-4b42-b6fb-d42571791ed2#src=seo_token) | Ethereum | 7.17% | $4.5M |
 | 4 | [makina →](https://www.defi.garden/?pool=a0387f4b-18ba-5fb5-8171-0f177254dfeb#src=seo_token) | Ethereum | 5.05% | $1.91M |
-| 5 | [stake-dao-yield →](https://www.defi.garden/?pool=2bf7dfb1-cc93-5f4b-ba8a-6cf8bd63eff6#src=seo_token) | Ethereum | 15.28% | $873K |
-| 6 | [convex-finance →](https://www.defi.garden/?pool=c77b9508-1a53-4ea1-9913-0207ce711fa2#src=seo_token) | Ethereum | 11.69% | $3.32M |
-| 7 | [defichain-dex →](https://www.defi.garden/?pool=74ab9394-5d6d-41a6-955e-b246ecc8dede#src=seo_token) | Defichain | 0.09% | $640.5K |
+| 5 | [stake-dao-yield →](https://www.defi.garden/?pool=2bf7dfb1-cc93-5f4b-ba8a-6cf8bd63eff6#src=seo_token) | Ethereum | 14.92% | $884K |
+| 6 | [convex-finance →](https://www.defi.garden/?pool=c77b9508-1a53-4ea1-9913-0207ce711fa2#src=seo_token) | Ethereum | 11.54% | $3.32M |
+| 7 | [defichain-dex →](https://www.defi.garden/?pool=74ab9394-5d6d-41a6-955e-b246ecc8dede#src=seo_token) | Defichain | 6.15% | $638.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-DUSD shows up in 7 pools here, with rates from 0.09% to 15.28% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+DUSD shows up in 7 pools here, with rates from 1.00% to 14.92% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-7 of these 7 pools have a trustworthy 30-day average on file, with a median of 7.59% — a useful check against today's number for whether the rate is steady or just having a good day.
+7 of these 7 pools have a trustworthy 30-day average on file, with a median of 7.56% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 4 of 7 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -43,13 +43,13 @@ DUSD shows up in 7 pools here, with rates from 0.09% to 15.28% APY across 3 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 7.30% | 7.62% | 100.00% incentives |
-| convex-finance | 11.69% | 13.88% | 100.00% incentives |
-| makina | 5.05% | 7.59% | Base rate |
-| stake-dao-yield | 15.28% | 15.79% | 100.00% incentives |
-| curve-dex | 1.02% | 6.10% | 0.22% incentives |
-| defichain-dex | 0.09% | 0.76% | Base rate |
-| raydium-amm | 7.33% | 0.98% | Base rate |
+| curve-dex | 7.17% | 7.56% | 99.86% incentives |
+| convex-finance | 11.54% | 13.70% | 99.91% incentives |
+| makina | 5.05% | 7.62% | Base rate |
+| stake-dao-yield | 14.92% | 15.65% | 100.00% incentives |
+| curve-dex | 1.00% | 5.95% | 0.22% incentives |
+| defichain-dex | 6.15% | 0.85% | Base rate |
+| raydium-amm | 2.29% | 1.14% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -57,11 +57,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest DUSD yield today?
 
-15.28% APY on stake-dao-yield (Ethereum), based on live DefiLlama data.
+14.92% APY on stake-dao-yield (Ethereum), based on live DefiLlama data.
 
 ### How many DUSD pools clear the TVL floor?
 
-12 live pools clear this page's $100K TVL floor, $13.2M in total.
+12 live pools clear this page's $100K TVL floor, $13.22M in total.
 
 ### Are these rates safe?
 
@@ -69,7 +69,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which DUSD pools have the most stable APY history?
 
-Based on APY history only, DUSD's lower-variability candidates are curve-dex (Ethereum), 1.02% APY, $853.6K TVL, https://www.defi.garden/?pool=15692d23-4da2-4a73-99c0-9c93c1aa86d9#src=seo_token; raydium-amm (Solana), 7.33% APY, $138.9K TVL, https://www.defi.garden/?pool=dd71d1a6-4292-4e94-9ff8-a48ec9cb9d21#src=seo_token; curve-dex (Ethereum), 7.30% APY, $4.49M TVL, https://www.defi.garden/?pool=a3418d18-b05c-4b42-b6fb-d42571791ed2#src=seo_token; makina (Ethereum), 5.05% APY, $1.91M TVL, https://www.defi.garden/?pool=a0387f4b-18ba-5fb5-8171-0f177254dfeb#src=seo_token; stake-dao-yield (Ethereum), 15.28% APY, $873K TVL, https://www.defi.garden/?pool=2bf7dfb1-cc93-5f4b-ba8a-6cf8bd63eff6#src=seo_token; convex-finance (Ethereum), 11.69% APY, $3.32M TVL, https://www.defi.garden/?pool=c77b9508-1a53-4ea1-9913-0207ce711fa2#src=seo_token; defichain-dex (Defichain), 0.09% APY, $640.5K TVL, https://www.defi.garden/?pool=74ab9394-5d6d-41a6-955e-b246ecc8dede#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, DUSD's lower-variability candidates are curve-dex (Ethereum), 1.00% APY, $853.9K TVL, https://www.defi.garden/?pool=15692d23-4da2-4a73-99c0-9c93c1aa86d9#src=seo_token; raydium-amm (Solana), 2.29% APY, $138.4K TVL, https://www.defi.garden/?pool=dd71d1a6-4292-4e94-9ff8-a48ec9cb9d21#src=seo_token; curve-dex (Ethereum), 7.17% APY, $4.5M TVL, https://www.defi.garden/?pool=a3418d18-b05c-4b42-b6fb-d42571791ed2#src=seo_token; makina (Ethereum), 5.05% APY, $1.91M TVL, https://www.defi.garden/?pool=a0387f4b-18ba-5fb5-8171-0f177254dfeb#src=seo_token; stake-dao-yield (Ethereum), 14.92% APY, $884K TVL, https://www.defi.garden/?pool=2bf7dfb1-cc93-5f4b-ba8a-6cf8bd63eff6#src=seo_token; convex-finance (Ethereum), 11.54% APY, $3.32M TVL, https://www.defi.garden/?pool=c77b9508-1a53-4ea1-9913-0207ce711fa2#src=seo_token; defichain-dex (Defichain), 6.15% APY, $638.8K TVL, https://www.defi.garden/?pool=74ab9394-5d6d-41a6-955e-b246ecc8dede#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -86,4 +86,4 @@ Based on APY history only, DUSD's lower-variability candidates are curve-dex (Et
 - [Defichain](https://www.defi.garden/chains/defichain)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 16, 2026
+## Last updated October 17, 2026

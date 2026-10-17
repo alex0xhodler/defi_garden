@@ -1,12 +1,12 @@
 # USTB — invesco-ustb on Ethereum
 
-**Total APY:** 3.57% (3.57% Base · + 0.00% Rewards)
+**Total APY:** 3.58% (3.58% Base · + 0.00% Rewards)
 
-**TVL:** $605.37M
+**TVL:** $600.65M
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 3.57%
+**30d Mean APY:** 3.56%
 
 **Exposure:** single
 
@@ -30,4 +30,4 @@ Steady so far: across the 30 days we've tracked it, this pool's rate has stayed 
 
 [Start Earning on invesco-ustb](https://superstate.com/?ref=defi.garden)
 
-Last updated October 16, 2026
+Last updated October 17, 2026

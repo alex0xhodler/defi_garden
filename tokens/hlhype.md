@@ -1,12 +1,12 @@
 # HLHYPE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
 
-The highest honest HLHYPE yield right now is 0.03% on project-x (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HLHYPE yield right now is 0.01% on project-x (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [project-x →](https://www.defi.garden/?pool=aacad0bf-3201-4a24-aac6-63a8d56aca81#src=seo_token) | Hyperliquid L1 | 0.03% | $204.5K |
+| [project-x →](https://www.defi.garden/?pool=aacad0bf-3201-4a24-aac6-63a8d56aca81#src=seo_token) | Hyperliquid L1 | 0.01% | $200.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HLHYPE yield today?
 
-0.03% APY on project-x (Hyperliquid L1), based on live DefiLlama data.
+0.01% APY on project-x (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many HLHYPE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $204.5K in total.
+1 live pool clear this page's $100K TVL floor, $200.4K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank HLHYPE pools. This view cover
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated October 16, 2026
+## Last updated October 17, 2026

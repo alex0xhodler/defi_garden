@@ -1,31 +1,31 @@
 # EEARN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
 
-The highest honest EEARN yield right now is 14.87% on bluefin-spot (Sui), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EEARN yield right now is 14.22% on bluefin-spot (Sui), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [current →](https://www.defi.garden/?pool=c9e32cbc-6404-4cbe-ba9d-8d7a7912d831#src=seo_token) | Sui | 10.79% | $1.13M |
-| [bluefin-spot →](https://www.defi.garden/?pool=c508dc44-d2aa-4507-a506-83397cbeb0f2#src=seo_token) | Sui | 14.87% | $134.3K |
+| [current →](https://www.defi.garden/?pool=c9e32cbc-6404-4cbe-ba9d-8d7a7912d831#src=seo_token) | Sui | 10.78% | $1.09M |
+| [bluefin-spot →](https://www.defi.garden/?pool=c508dc44-d2aa-4507-a506-83397cbeb0f2#src=seo_token) | Sui | 14.22% | $134.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, EEARN's lower-variability candidates are current (Sui), 10.79% APY, $1.13M TVL, https://www.defi.garden/?pool=c9e32cbc-6404-4cbe-ba9d-8d7a7912d831#src=seo_token; bluefin-spot (Sui), 14.87% APY, $134.3K TVL, https://www.defi.garden/?pool=c508dc44-d2aa-4507-a506-83397cbeb0f2#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, EEARN's lower-variability candidates are current (Sui), 10.78% APY, $1.09M TVL, https://www.defi.garden/?pool=c9e32cbc-6404-4cbe-ba9d-8d7a7912d831#src=seo_token; bluefin-spot (Sui), 14.22% APY, $134.4K TVL, https://www.defi.garden/?pool=c508dc44-d2aa-4507-a506-83397cbeb0f2#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [current →](https://www.defi.garden/?pool=c9e32cbc-6404-4cbe-ba9d-8d7a7912d831#src=seo_token) | Sui | 10.79% | $1.13M |
-| 2 | [bluefin-spot →](https://www.defi.garden/?pool=c508dc44-d2aa-4507-a506-83397cbeb0f2#src=seo_token) | Sui | 14.87% | $134.3K |
+| 1 | [current →](https://www.defi.garden/?pool=c9e32cbc-6404-4cbe-ba9d-8d7a7912d831#src=seo_token) | Sui | 10.78% | $1.09M |
+| 2 | [bluefin-spot →](https://www.defi.garden/?pool=c508dc44-d2aa-4507-a506-83397cbeb0f2#src=seo_token) | Sui | 14.22% | $134.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-EEARN shows up in 2 pools here, with rates from 10.79% to 14.87% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+EEARN shows up in 2 pools here, with rates from 10.78% to 14.22% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 19.17% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 18.88% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 2 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -33,8 +33,8 @@ EEARN shows up in 2 pools here, with rates from 10.79% to 14.87% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| current | 10.79% | 11.08% | 5.97% incentives |
-| bluefin-spot | 14.87% | 27.26% | 99.99% incentives |
+| current | 10.78% | 11.07% | 6.05% incentives |
+| bluefin-spot | 14.22% | 26.68% | 99.93% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest EEARN yield today?
 
-14.87% APY on bluefin-spot (Sui), based on live DefiLlama data.
+14.22% APY on bluefin-spot (Sui), based on live DefiLlama data.
 
 ### How many EEARN pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.27M in total.
+2 live pools clear this page's $100K TVL floor, $1.23M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which EEARN pools have the most stable APY history?
 
-Based on APY history only, EEARN's lower-variability candidates are current (Sui), 10.79% APY, $1.13M TVL, https://www.defi.garden/?pool=c9e32cbc-6404-4cbe-ba9d-8d7a7912d831#src=seo_token; bluefin-spot (Sui), 14.87% APY, $134.3K TVL, https://www.defi.garden/?pool=c508dc44-d2aa-4507-a506-83397cbeb0f2#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, EEARN's lower-variability candidates are current (Sui), 10.78% APY, $1.09M TVL, https://www.defi.garden/?pool=c9e32cbc-6404-4cbe-ba9d-8d7a7912d831#src=seo_token; bluefin-spot (Sui), 14.22% APY, $134.4K TVL, https://www.defi.garden/?pool=c508dc44-d2aa-4507-a506-83397cbeb0f2#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +69,4 @@ Based on APY history only, EEARN's lower-variability candidates are current (Sui
 
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated October 16, 2026
+## Last updated October 17, 2026

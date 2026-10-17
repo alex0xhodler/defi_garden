@@ -1,12 +1,12 @@
 # SUSDRF DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
 
 The highest honest SUSDRF yield right now is 0.29% on liqwid (Cardano), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [liqwid →](https://www.defi.garden/?pool=9a6ef9c4-9583-5961-a20a-5b0cf38fbde2#src=seo_token) | Cardano | 0.29% | $134.7K |
+| [liqwid →](https://www.defi.garden/?pool=9a6ef9c4-9583-5961-a20a-5b0cf38fbde2#src=seo_token) | Cardano | 0.29% | $134.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SUSDRF pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $134.7K in total.
+1 live pool clear this page's $100K TVL floor, $134.6K in total.
 
 ### Are these rates safe?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank SUSDRF pools. This view cover
 - [USDM](https://www.defi.garden/tokens/usdm)
 - [ADA](https://www.defi.garden/tokens/ada)
 - [USDCX](https://www.defi.garden/tokens/usdcx)
-- [IUSD](https://www.defi.garden/tokens/iusd)
 - [USDA](https://www.defi.garden/tokens/usda)
+- [IUSD](https://www.defi.garden/tokens/iusd)
 
 ## Available on
 
 - [Cardano](https://www.defi.garden/chains/cardano)
 
-## Last updated October 16, 2026
+## Last updated October 17, 2026

@@ -1,13 +1,13 @@
 # ELON DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
 
-The highest honest ELON yield right now is 1.19% on uniswap-v3 (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ELON yield right now is 1.12% on uniswap-v3 (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=6220e7aa-f086-4340-bd72-2ef46efb5418#src=seo_token) | Ethereum | 0.27% | $5.2M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=57a26552-1978-5462-be39-f7d30fb813b3#src=seo_token) | Ethereum | 1.19% | $583.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=6220e7aa-f086-4340-bd72-2ef46efb5418#src=seo_token) | Ethereum | 0.19% | $5.14M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=57a26552-1978-5462-be39-f7d30fb813b3#src=seo_token) | Ethereum | 1.12% | $572.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-ELON shows up in 2 pools here, with rates from 0.27% to 1.19% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+ELON shows up in 2 pools here, with rates from 0.19% to 1.12% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 1.16% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 1.14% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -28,8 +28,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 0.27% | 0.44% | Base rate |
-| uniswap-v3 | 1.19% | 1.88% | Base rate |
+| uniswap-v2 | 0.19% | 0.43% | Base rate |
+| uniswap-v3 | 1.12% | 1.85% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ELON yield today?
 
-1.19% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+1.12% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many ELON pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $8.31M in total.
+5 live pools clear this page's $100K TVL floor, $8.2M in total.
 
 ### Are these rates safe?
 
@@ -64,4 +64,4 @@ There is not enough qualifying APY history to rank ELON pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 16, 2026
+## Last updated October 17, 2026

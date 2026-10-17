@@ -1,12 +1,12 @@
 # CURVANCE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
 
-The highest honest CURVANCE yield right now is 1.85% on balancer-v3 (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CURVANCE yield right now is 1.54% on balancer-v3 (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=6f3597a8-45a3-5d66-9bce-c658fc893c03#src=seo_token) | Monad | 1.85% | $102K |
+| [balancer-v3 →](https://www.defi.garden/?pool=6f3597a8-45a3-5d66-9bce-c658fc893c03#src=seo_token) | Monad | 1.54% | $102K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CURVANCE yield today?
 
-1.85% APY on balancer-v3 (Monad), based on live DefiLlama data.
+1.54% APY on balancer-v3 (Monad), based on live DefiLlama data.
 
 ### How many CURVANCE pools clear the TVL floor?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank CURVANCE pools. This view cov
 
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [USDE](https://www.defi.garden/tokens/usde)
 - [SUSDE](https://www.defi.garden/tokens/susde)
+- [USDE](https://www.defi.garden/tokens/usde)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
 - [BTC](https://www.defi.garden/tokens/btc)
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank CURVANCE pools. This view cov
 
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated October 16, 2026
+## Last updated October 17, 2026

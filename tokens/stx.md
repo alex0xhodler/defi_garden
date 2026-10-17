@@ -1,12 +1,12 @@
 # STX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 16, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
 
-The highest honest STX yield right now is 2.00% on zest-v2 (Stacks), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STX yield right now is 2.14% on zest-v2 (Stacks), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [zest-v2 →](https://www.defi.garden/?pool=3020a368-7997-45d2-8f70-0439acb472c2#src=seo_token) | Stacks | 2.00% | $690.8K |
+| [zest-v2 →](https://www.defi.garden/?pool=3020a368-7997-45d2-8f70-0439acb472c2#src=seo_token) | Stacks | 2.14% | $581.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest STX yield today?
 
-2.00% APY on zest-v2 (Stacks), based on live DefiLlama data.
+2.14% APY on zest-v2 (Stacks), based on live DefiLlama data.
 
 ### How many STX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $690.8K in total.
+1 live pool clear this page's $100K TVL floor, $581.4K in total.
 
 ### Are these rates safe?
 
@@ -37,13 +37,13 @@ There is not enough qualifying APY history to rank STX pools. This view covers A
 
 - [STBTC](https://www.defi.garden/tokens/stbtc)
 - [STSTX](https://www.defi.garden/tokens/ststx)
+- [SBTC](https://www.defi.garden/tokens/sbtc)
 - [STSTXBTC](https://www.defi.garden/tokens/ststxbtc)
 - [USDCX](https://www.defi.garden/tokens/usdcx)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 
 ## Available on
 
 - [Stacks](https://www.defi.garden/chains/stacks)
 
-## Last updated October 16, 2026
+## Last updated October 17, 2026
