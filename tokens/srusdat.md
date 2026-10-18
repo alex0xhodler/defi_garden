@@ -1,47 +1,47 @@
 # SRUSDAT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 18, 2026. Rates change continuously.*
 
-The highest honest SRUSDAT yield right now is 11.25% on pendle-v2 (Monad), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SRUSDAT yield right now is 11.22% on pendle-v2 (Monad), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [strata-markets →](https://www.defi.garden/?pool=d0f93146-6936-4fac-841e-68178b5a59b2#src=seo_token) | Ethereum | 8.11% | $5.27M |
-| [pendle-v2 →](https://www.defi.garden/?pool=2a1a339c-5221-51f1-94bf-2fce313b23fd#src=seo_token) | Monad | 10.49% | $382.6K |
-| [pendle-v2 →](https://www.defi.garden/?pool=808eba20-0889-5afb-9ce7-e3de0c44f326#src=seo_token) | Monad | 11.25% | $382.6K |
-| [pendle-v2 →](https://www.defi.garden/?pool=09b1bf32-8c00-582d-aaa9-b88ac051ef6c#src=seo_token) | Ethereum | 9.60% | $209.2K |
-| [pendle-v2 →](https://www.defi.garden/?pool=69baaaab-b02b-5b4f-a415-113c11736cae#src=seo_token) | Ethereum | 10.85% | $209.2K |
+| [pendle-v2 →](https://www.defi.garden/?pool=2a1a339c-5221-51f1-94bf-2fce313b23fd#src=seo_token) | Monad | 10.46% | $387.7K |
+| [pendle-v2 →](https://www.defi.garden/?pool=808eba20-0889-5afb-9ce7-e3de0c44f326#src=seo_token) | Monad | 11.22% | $387.7K |
+| [pendle-v2 →](https://www.defi.garden/?pool=09b1bf32-8c00-582d-aaa9-b88ac051ef6c#src=seo_token) | Ethereum | 9.49% | $209.3K |
+| [pendle-v2 →](https://www.defi.garden/?pool=69baaaab-b02b-5b4f-a415-113c11736cae#src=seo_token) | Ethereum | 10.69% | $209.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SRUSDAT's lower-variability candidates are strata-markets (Ethereum), 8.11% APY, $5.27M TVL, https://www.defi.garden/?pool=d0f93146-6936-4fac-841e-68178b5a59b2#src=seo_token; pendle-v2 (Ethereum), 10.85% APY, $209.2K TVL, https://www.defi.garden/?pool=69baaaab-b02b-5b4f-a415-113c11736cae#src=seo_token; pendle-v2 (Monad), 11.25% APY, $382.6K TVL, https://www.defi.garden/?pool=808eba20-0889-5afb-9ce7-e3de0c44f326#src=seo_token; pendle-v2 (Monad), 10.49% APY, $382.6K TVL, https://www.defi.garden/?pool=2a1a339c-5221-51f1-94bf-2fce313b23fd#src=seo_token; pendle-v2 (Ethereum), 9.60% APY, $209.2K TVL, https://www.defi.garden/?pool=09b1bf32-8c00-582d-aaa9-b88ac051ef6c#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SRUSDAT's lower-variability candidates are strata-markets (Ethereum), 8.11% APY, $5.27M TVL, https://www.defi.garden/?pool=d0f93146-6936-4fac-841e-68178b5a59b2#src=seo_token; pendle-v2 (Ethereum), 10.69% APY, $209.3K TVL, https://www.defi.garden/?pool=69baaaab-b02b-5b4f-a415-113c11736cae#src=seo_token; pendle-v2 (Monad), 11.22% APY, $387.7K TVL, https://www.defi.garden/?pool=808eba20-0889-5afb-9ce7-e3de0c44f326#src=seo_token; pendle-v2 (Monad), 10.46% APY, $387.7K TVL, https://www.defi.garden/?pool=2a1a339c-5221-51f1-94bf-2fce313b23fd#src=seo_token; pendle-v2 (Ethereum), 9.49% APY, $209.3K TVL, https://www.defi.garden/?pool=09b1bf32-8c00-582d-aaa9-b88ac051ef6c#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [strata-markets →](https://www.defi.garden/?pool=d0f93146-6936-4fac-841e-68178b5a59b2#src=seo_token) | Ethereum | 8.11% | $5.27M |
-| 2 | [pendle-v2 →](https://www.defi.garden/?pool=69baaaab-b02b-5b4f-a415-113c11736cae#src=seo_token) | Ethereum | 10.85% | $209.2K |
-| 3 | [pendle-v2 →](https://www.defi.garden/?pool=808eba20-0889-5afb-9ce7-e3de0c44f326#src=seo_token) | Monad | 11.25% | $382.6K |
-| 4 | [pendle-v2 →](https://www.defi.garden/?pool=2a1a339c-5221-51f1-94bf-2fce313b23fd#src=seo_token) | Monad | 10.49% | $382.6K |
-| 5 | [pendle-v2 →](https://www.defi.garden/?pool=09b1bf32-8c00-582d-aaa9-b88ac051ef6c#src=seo_token) | Ethereum | 9.60% | $209.2K |
+| 2 | [pendle-v2 →](https://www.defi.garden/?pool=69baaaab-b02b-5b4f-a415-113c11736cae#src=seo_token) | Ethereum | 10.69% | $209.3K |
+| 3 | [pendle-v2 →](https://www.defi.garden/?pool=808eba20-0889-5afb-9ce7-e3de0c44f326#src=seo_token) | Monad | 11.22% | $387.7K |
+| 4 | [pendle-v2 →](https://www.defi.garden/?pool=2a1a339c-5221-51f1-94bf-2fce313b23fd#src=seo_token) | Monad | 10.46% | $387.7K |
+| 5 | [pendle-v2 →](https://www.defi.garden/?pool=09b1bf32-8c00-582d-aaa9-b88ac051ef6c#src=seo_token) | Ethereum | 9.49% | $209.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SRUSDAT shows up in 5 pools here, with rates from 8.11% to 11.25% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+SRUSDAT shows up in 5 pools here, with rates from 8.11% to 11.22% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-5 of these 5 pools have a trustworthy 30-day average on file, with a median of 10.05% — a useful check against today's number for whether the rate is steady or just having a good day.
+5 of these 5 pools have a trustworthy 30-day average on file, with a median of 10.08% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 5 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | strata-markets | 8.11% | 8.11% | Base rate |
-| pendle-v2 | 10.49% | 10.05% | Base rate |
-| pendle-v2 | 11.25% | 10.59% | Base rate |
-| pendle-v2 | 9.60% | 9.40% | Base rate |
-| pendle-v2 | 10.85% | 10.17% | Base rate |
+| pendle-v2 | 10.46% | 10.08% | Base rate |
+| pendle-v2 | 11.22% | 10.62% | Base rate |
+| pendle-v2 | 9.49% | 9.43% | Base rate |
+| pendle-v2 | 10.69% | 10.22% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -49,11 +49,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SRUSDAT yield today?
 
-11.25% APY on pendle-v2 (Monad), based on live DefiLlama data.
+11.22% APY on pendle-v2 (Monad), based on live DefiLlama data.
 
 ### How many SRUSDAT pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $6.79M in total.
+6 live pools clear this page's $100K TVL floor, $6.81M in total.
 
 ### Are these rates safe?
 
@@ -61,7 +61,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SRUSDAT pools have the most stable APY history?
 
-Based on APY history only, SRUSDAT's lower-variability candidates are strata-markets (Ethereum), 8.11% APY, $5.27M TVL, https://www.defi.garden/?pool=d0f93146-6936-4fac-841e-68178b5a59b2#src=seo_token; pendle-v2 (Ethereum), 10.85% APY, $209.2K TVL, https://www.defi.garden/?pool=69baaaab-b02b-5b4f-a415-113c11736cae#src=seo_token; pendle-v2 (Monad), 11.25% APY, $382.6K TVL, https://www.defi.garden/?pool=808eba20-0889-5afb-9ce7-e3de0c44f326#src=seo_token; pendle-v2 (Monad), 10.49% APY, $382.6K TVL, https://www.defi.garden/?pool=2a1a339c-5221-51f1-94bf-2fce313b23fd#src=seo_token; pendle-v2 (Ethereum), 9.60% APY, $209.2K TVL, https://www.defi.garden/?pool=09b1bf32-8c00-582d-aaa9-b88ac051ef6c#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SRUSDAT's lower-variability candidates are strata-markets (Ethereum), 8.11% APY, $5.27M TVL, https://www.defi.garden/?pool=d0f93146-6936-4fac-841e-68178b5a59b2#src=seo_token; pendle-v2 (Ethereum), 10.69% APY, $209.3K TVL, https://www.defi.garden/?pool=69baaaab-b02b-5b4f-a415-113c11736cae#src=seo_token; pendle-v2 (Monad), 11.22% APY, $387.7K TVL, https://www.defi.garden/?pool=808eba20-0889-5afb-9ce7-e3de0c44f326#src=seo_token; pendle-v2 (Monad), 10.46% APY, $387.7K TVL, https://www.defi.garden/?pool=2a1a339c-5221-51f1-94bf-2fce313b23fd#src=seo_token; pendle-v2 (Ethereum), 9.49% APY, $209.3K TVL, https://www.defi.garden/?pool=09b1bf32-8c00-582d-aaa9-b88ac051ef6c#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -77,4 +77,4 @@ Based on APY history only, SRUSDAT's lower-variability candidates are strata-mar
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated October 17, 2026
+## Last updated October 18, 2026

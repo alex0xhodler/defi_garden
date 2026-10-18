@@ -1,22 +1,22 @@
 # CTM DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 18, 2026. Rates change continuously.*
 
 The highest honest CTM yield right now is 0.02% on uniswap-v4 (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=c290709e-49a9-4fa6-a4d2-ff4d78c45df5#src=seo_token) | BSC | 0.02% | $2.52M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=908fff6a-287e-4c25-93ed-40acc4effab5#src=seo_token) | Ethereum | 0.01% | $2.44M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=908fff6a-287e-4c25-93ed-40acc4effab5#src=seo_token) | Ethereum | 0.01% | $2.42M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, CTM's lower-variability candidates are uniswap-v4 (Ethereum), 0.01% APY, $2.44M TVL, https://www.defi.garden/?pool=908fff6a-287e-4c25-93ed-40acc4effab5#src=seo_token; uniswap-v4 (BSC), 0.02% APY, $2.52M TVL, https://www.defi.garden/?pool=c290709e-49a9-4fa6-a4d2-ff4d78c45df5#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CTM's lower-variability candidates are uniswap-v4 (Ethereum), 0.01% APY, $2.42M TVL, https://www.defi.garden/?pool=908fff6a-287e-4c25-93ed-40acc4effab5#src=seo_token; uniswap-v4 (BSC), 0.02% APY, $2.52M TVL, https://www.defi.garden/?pool=c290709e-49a9-4fa6-a4d2-ff4d78c45df5#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=908fff6a-287e-4c25-93ed-40acc4effab5#src=seo_token) | Ethereum | 0.01% | $2.44M |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=908fff6a-287e-4c25-93ed-40acc4effab5#src=seo_token) | Ethereum | 0.01% | $2.42M |
 | 2 | [uniswap-v4 →](https://www.defi.garden/?pool=c290709e-49a9-4fa6-a4d2-ff4d78c45df5#src=seo_token) | BSC | 0.02% | $2.52M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many CTM pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $4.95M in total.
+2 live pools clear this page's $100K TVL floor, $4.93M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which CTM pools have the most stable APY history?
 
-Based on APY history only, CTM's lower-variability candidates are uniswap-v4 (Ethereum), 0.01% APY, $2.44M TVL, https://www.defi.garden/?pool=908fff6a-287e-4c25-93ed-40acc4effab5#src=seo_token; uniswap-v4 (BSC), 0.02% APY, $2.52M TVL, https://www.defi.garden/?pool=c290709e-49a9-4fa6-a4d2-ff4d78c45df5#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CTM's lower-variability candidates are uniswap-v4 (Ethereum), 0.01% APY, $2.42M TVL, https://www.defi.garden/?pool=908fff6a-287e-4c25-93ed-40acc4effab5#src=seo_token; uniswap-v4 (BSC), 0.02% APY, $2.52M TVL, https://www.defi.garden/?pool=c290709e-49a9-4fa6-a4d2-ff4d78c45df5#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +70,4 @@ Based on APY history only, CTM's lower-variability candidates are uniswap-v4 (Et
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 17, 2026
+## Last updated October 18, 2026

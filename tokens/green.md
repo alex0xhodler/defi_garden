@@ -1,12 +1,12 @@
 # GREEN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 18, 2026. Rates change continuously.*
 
-The highest honest GREEN yield right now is 14.64% on ripe-protocol (Robinhood Chain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GREEN yield right now is 15.83% on ripe-protocol (Robinhood Chain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ripe-protocol →](https://www.defi.garden/?pool=4b8560f9-027f-5d1d-ab95-487a9dbbde74#src=seo_token) | Robinhood Chain | 14.64% | $152.2K |
+| [ripe-protocol →](https://www.defi.garden/?pool=4b8560f9-027f-5d1d-ab95-487a9dbbde74#src=seo_token) | Robinhood Chain | 15.83% | $152.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GREEN yield today?
 
-14.64% APY on ripe-protocol (Robinhood Chain), based on live DefiLlama data.
+15.83% APY on ripe-protocol (Robinhood Chain), based on live DefiLlama data.
 
 ### How many GREEN pools clear the TVL floor?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank GREEN pools. This view covers
 - [USDE](https://www.defi.garden/tokens/usde)
 - [USDG](https://www.defi.garden/tokens/usdg)
 - [STEAKUSDG](https://www.defi.garden/tokens/steakusdg)
-- [GUSDGST](https://www.defi.garden/tokens/gusdgst)
 - [STONX](https://www.defi.garden/tokens/stonx)
 - [GAMIWBTC](https://www.defi.garden/tokens/gamiwbtc)
+- [KFV](https://www.defi.garden/tokens/kfv)
 
 ## Available on
 
 - [Robinhood Chain](https://www.defi.garden/chains/robinhood-chain)
 
-## Last updated October 17, 2026
+## Last updated October 18, 2026

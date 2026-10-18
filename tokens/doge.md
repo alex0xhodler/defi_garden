@@ -1,41 +1,41 @@
 # DOGE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 18, 2026. Rates change continuously.*
 
-The highest honest DOGE yield right now is 18.81% on pancakeswap-amm (BSC), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DOGE yield right now is 2.22% on uniswap-v2 (Ethereum), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=dfbcf833-57cb-4bce-9e78-188dc3ab2e6d#src=seo_token) | Ethereum | 2.08% | $2.88M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=f6d93812-7302-4692-b656-41f91b59d2e9#src=seo_token) | Ethereum | 0.61% | $2.84M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=ae2dafd7-bda7-4529-aaa8-edba41e37b61#src=seo_token) | Ethereum | 2.54% | $424.5K |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=aa6b78c6-b4e9-4b49-b674-5d0bf3c27c1b#src=seo_token) | BSC | 18.81% | $331.2K |
-| [raydium-amm →](https://www.defi.garden/?pool=3b5cf974-1a52-5a0d-8154-f209160333d9#src=seo_token) | Solana | 147.13% | $283.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=dfbcf833-57cb-4bce-9e78-188dc3ab2e6d#src=seo_token) | Ethereum | 2.22% | $2.86M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=f6d93812-7302-4692-b656-41f91b59d2e9#src=seo_token) | Ethereum | 1.17% | $2.81M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=ae2dafd7-bda7-4529-aaa8-edba41e37b61#src=seo_token) | Ethereum | 1.04% | $416.5K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=aa6b78c6-b4e9-4b49-b674-5d0bf3c27c1b#src=seo_token) | BSC | 4.26% | $327.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=3b5cf974-1a52-5a0d-8154-f209160333d9#src=seo_token) | Solana | 75.59% | $278.1K |
 | [mdex →](https://www.defi.garden/?pool=372ce454-1efb-49d7-975a-ddf0862ceb24#src=seo_token) | Heco | 0.07% | $143.7K |
-| [gmx-solana →](https://www.defi.garden/?pool=581dff4f-995c-4e1e-b567-90f89598f4e6#src=seo_token) | Solana | 0.08% | $137.8K |
+| [gmx-solana →](https://www.defi.garden/?pool=581dff4f-995c-4e1e-b567-90f89598f4e6#src=seo_token) | Solana | 0.09% | $136.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, DOGE's lower-variability candidates are mdex (Heco), 0.07% APY, $143.7K TVL, https://www.defi.garden/?pool=372ce454-1efb-49d7-975a-ddf0862ceb24#src=seo_token; uniswap-v2 (Ethereum), 0.61% APY, $2.84M TVL, https://www.defi.garden/?pool=f6d93812-7302-4692-b656-41f91b59d2e9#src=seo_token; uniswap-v2 (Ethereum), 2.08% APY, $2.88M TVL, https://www.defi.garden/?pool=dfbcf833-57cb-4bce-9e78-188dc3ab2e6d#src=seo_token; pancakeswap-amm (BSC), 18.81% APY, $331.2K TVL, https://www.defi.garden/?pool=aa6b78c6-b4e9-4b49-b674-5d0bf3c27c1b#src=seo_token; gmx-solana (Solana), 0.08% APY, $137.8K TVL, https://www.defi.garden/?pool=581dff4f-995c-4e1e-b567-90f89598f4e6#src=seo_token; uniswap-v2 (Ethereum), 2.54% APY, $424.5K TVL, https://www.defi.garden/?pool=ae2dafd7-bda7-4529-aaa8-edba41e37b61#src=seo_token; raydium-amm (Solana), 147.13% APY, $283.5K TVL, https://www.defi.garden/?pool=3b5cf974-1a52-5a0d-8154-f209160333d9#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, DOGE's lower-variability candidates are mdex (Heco), 0.07% APY, $143.7K TVL, https://www.defi.garden/?pool=372ce454-1efb-49d7-975a-ddf0862ceb24#src=seo_token; uniswap-v2 (Ethereum), 1.17% APY, $2.81M TVL, https://www.defi.garden/?pool=f6d93812-7302-4692-b656-41f91b59d2e9#src=seo_token; uniswap-v2 (Ethereum), 2.22% APY, $2.86M TVL, https://www.defi.garden/?pool=dfbcf833-57cb-4bce-9e78-188dc3ab2e6d#src=seo_token; pancakeswap-amm (BSC), 4.26% APY, $327.8K TVL, https://www.defi.garden/?pool=aa6b78c6-b4e9-4b49-b674-5d0bf3c27c1b#src=seo_token; gmx-solana (Solana), 0.09% APY, $136.3K TVL, https://www.defi.garden/?pool=581dff4f-995c-4e1e-b567-90f89598f4e6#src=seo_token; uniswap-v2 (Ethereum), 1.04% APY, $416.5K TVL, https://www.defi.garden/?pool=ae2dafd7-bda7-4529-aaa8-edba41e37b61#src=seo_token; raydium-amm (Solana), 75.59% APY, $278.1K TVL, https://www.defi.garden/?pool=3b5cf974-1a52-5a0d-8154-f209160333d9#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [mdex →](https://www.defi.garden/?pool=372ce454-1efb-49d7-975a-ddf0862ceb24#src=seo_token) | Heco | 0.07% | $143.7K |
-| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=f6d93812-7302-4692-b656-41f91b59d2e9#src=seo_token) | Ethereum | 0.61% | $2.84M |
-| 3 | [uniswap-v2 →](https://www.defi.garden/?pool=dfbcf833-57cb-4bce-9e78-188dc3ab2e6d#src=seo_token) | Ethereum | 2.08% | $2.88M |
-| 4 | [pancakeswap-amm →](https://www.defi.garden/?pool=aa6b78c6-b4e9-4b49-b674-5d0bf3c27c1b#src=seo_token) | BSC | 18.81% | $331.2K |
-| 5 | [gmx-solana →](https://www.defi.garden/?pool=581dff4f-995c-4e1e-b567-90f89598f4e6#src=seo_token) | Solana | 0.08% | $137.8K |
-| 6 | [uniswap-v2 →](https://www.defi.garden/?pool=ae2dafd7-bda7-4529-aaa8-edba41e37b61#src=seo_token) | Ethereum | 2.54% | $424.5K |
-| 7 | [raydium-amm →](https://www.defi.garden/?pool=3b5cf974-1a52-5a0d-8154-f209160333d9#src=seo_token) | Solana | 147.13% | $283.5K |
+| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=f6d93812-7302-4692-b656-41f91b59d2e9#src=seo_token) | Ethereum | 1.17% | $2.81M |
+| 3 | [uniswap-v2 →](https://www.defi.garden/?pool=dfbcf833-57cb-4bce-9e78-188dc3ab2e6d#src=seo_token) | Ethereum | 2.22% | $2.86M |
+| 4 | [pancakeswap-amm →](https://www.defi.garden/?pool=aa6b78c6-b4e9-4b49-b674-5d0bf3c27c1b#src=seo_token) | BSC | 4.26% | $327.8K |
+| 5 | [gmx-solana →](https://www.defi.garden/?pool=581dff4f-995c-4e1e-b567-90f89598f4e6#src=seo_token) | Solana | 0.09% | $136.3K |
+| 6 | [uniswap-v2 →](https://www.defi.garden/?pool=ae2dafd7-bda7-4529-aaa8-edba41e37b61#src=seo_token) | Ethereum | 1.04% | $416.5K |
+| 7 | [raydium-amm →](https://www.defi.garden/?pool=3b5cf974-1a52-5a0d-8154-f209160333d9#src=seo_token) | Solana | 75.59% | $278.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-DOGE shows up in 7 pools here, with rates from 0.07% to 147.13% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
+DOGE shows up in 7 pools here, with rates from 0.07% to 75.59% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-7 of these 7 pools have a trustworthy 30-day average on file, with a median of 4.12% — a useful check against today's number for whether the rate is steady or just having a good day.
+7 of these 7 pools have a trustworthy 30-day average on file, with a median of 4.09% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 7 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -43,13 +43,13 @@ DOGE shows up in 7 pools here, with rates from 0.07% to 147.13% APY across 4 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 2.08% | 4.12% | Base rate |
-| uniswap-v2 | 0.61% | 1.84% | Base rate |
-| uniswap-v2 | 2.54% | 1.35% | Base rate |
-| pancakeswap-amm | 18.81% | 24.24% | Base rate |
-| raydium-amm | 147.13% | 462.43% | Base rate |
+| uniswap-v2 | 2.22% | 4.09% | Base rate |
+| uniswap-v2 | 1.17% | 1.85% | Base rate |
+| uniswap-v2 | 1.04% | 1.41% | Base rate |
+| pancakeswap-amm | 4.26% | 24.07% | Base rate |
+| raydium-amm | 75.59% | 457.68% | Base rate |
 | mdex | 0.07% | 0.07% | 96.90% incentives |
-| gmx-solana | 0.08% | 17.80% | Base rate |
+| gmx-solana | 0.09% | 15.57% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -57,11 +57,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest DOGE yield today?
 
-18.81% APY on pancakeswap-amm (BSC), based on live DefiLlama data.
+2.22% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many DOGE pools clear the TVL floor?
 
-9 live pools clear this page's $100K TVL floor, $13.65M in total.
+9 live pools clear this page's $100K TVL floor, $13.49M in total.
 
 ### Are these rates safe?
 
@@ -69,7 +69,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which DOGE pools have the most stable APY history?
 
-Based on APY history only, DOGE's lower-variability candidates are mdex (Heco), 0.07% APY, $143.7K TVL, https://www.defi.garden/?pool=372ce454-1efb-49d7-975a-ddf0862ceb24#src=seo_token; uniswap-v2 (Ethereum), 0.61% APY, $2.84M TVL, https://www.defi.garden/?pool=f6d93812-7302-4692-b656-41f91b59d2e9#src=seo_token; uniswap-v2 (Ethereum), 2.08% APY, $2.88M TVL, https://www.defi.garden/?pool=dfbcf833-57cb-4bce-9e78-188dc3ab2e6d#src=seo_token; pancakeswap-amm (BSC), 18.81% APY, $331.2K TVL, https://www.defi.garden/?pool=aa6b78c6-b4e9-4b49-b674-5d0bf3c27c1b#src=seo_token; gmx-solana (Solana), 0.08% APY, $137.8K TVL, https://www.defi.garden/?pool=581dff4f-995c-4e1e-b567-90f89598f4e6#src=seo_token; uniswap-v2 (Ethereum), 2.54% APY, $424.5K TVL, https://www.defi.garden/?pool=ae2dafd7-bda7-4529-aaa8-edba41e37b61#src=seo_token; raydium-amm (Solana), 147.13% APY, $283.5K TVL, https://www.defi.garden/?pool=3b5cf974-1a52-5a0d-8154-f209160333d9#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, DOGE's lower-variability candidates are mdex (Heco), 0.07% APY, $143.7K TVL, https://www.defi.garden/?pool=372ce454-1efb-49d7-975a-ddf0862ceb24#src=seo_token; uniswap-v2 (Ethereum), 1.17% APY, $2.81M TVL, https://www.defi.garden/?pool=f6d93812-7302-4692-b656-41f91b59d2e9#src=seo_token; uniswap-v2 (Ethereum), 2.22% APY, $2.86M TVL, https://www.defi.garden/?pool=dfbcf833-57cb-4bce-9e78-188dc3ab2e6d#src=seo_token; pancakeswap-amm (BSC), 4.26% APY, $327.8K TVL, https://www.defi.garden/?pool=aa6b78c6-b4e9-4b49-b674-5d0bf3c27c1b#src=seo_token; gmx-solana (Solana), 0.09% APY, $136.3K TVL, https://www.defi.garden/?pool=581dff4f-995c-4e1e-b567-90f89598f4e6#src=seo_token; uniswap-v2 (Ethereum), 1.04% APY, $416.5K TVL, https://www.defi.garden/?pool=ae2dafd7-bda7-4529-aaa8-edba41e37b61#src=seo_token; raydium-amm (Solana), 75.59% APY, $278.1K TVL, https://www.defi.garden/?pool=3b5cf974-1a52-5a0d-8154-f209160333d9#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -87,4 +87,4 @@ Based on APY history only, DOGE's lower-variability candidates are mdex (Heco), 
 - [Solana](https://www.defi.garden/chains/solana)
 - [Heco](https://www.defi.garden/chains/heco)
 
-## Last updated October 17, 2026
+## Last updated October 18, 2026

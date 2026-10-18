@@ -1,12 +1,12 @@
 # UNIUSDC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 18, 2026. Rates change continuously.*
 
 The highest honest UNIUSDC yield right now is 4.51% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=7f9532c2-20c3-525d-b029-fa9e5e0c1eb7#src=seo_token) | Ethereum | 4.51% | $6.06M |
+| [morpho-blue →](https://www.defi.garden/?pool=7f9532c2-20c3-525d-b029-fa9e5e0c1eb7#src=seo_token) | Ethereum | 4.51% | $6.17M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many UNIUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $6.06M in total.
+1 live pool clear this page's $100K TVL floor, $6.17M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank UNIUSDC pools. This view cove
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 17, 2026
+## Last updated October 18, 2026

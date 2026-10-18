@@ -1,12 +1,12 @@
 # NET DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 18, 2026. Rates change continuously.*
 
-The highest honest NET yield right now is 838.78% on arrowfarm (Robinhood Chain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NET yield right now is 704.11% on arrowfarm (Robinhood Chain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [arrowfarm →](https://www.defi.garden/?pool=fda2903a-66af-5450-8a26-8ff69ee330fe#src=seo_token) | Robinhood Chain | 838.78% | $105.6K |
+| [arrowfarm →](https://www.defi.garden/?pool=fda2903a-66af-5450-8a26-8ff69ee330fe#src=seo_token) | Robinhood Chain | 704.11% | $105K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NET yield today?
 
-838.78% APY on arrowfarm (Robinhood Chain), based on live DefiLlama data.
+704.11% APY on arrowfarm (Robinhood Chain), based on live DefiLlama data.
 
 ### How many NET pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $105.6K in total.
+1 live pool clear this page's $100K TVL floor, $105K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank NET pools. This view covers A
 - [USDE](https://www.defi.garden/tokens/usde)
 - [USDG](https://www.defi.garden/tokens/usdg)
 - [STEAKUSDG](https://www.defi.garden/tokens/steakusdg)
-- [GUSDGST](https://www.defi.garden/tokens/gusdgst)
 - [STONX](https://www.defi.garden/tokens/stonx)
 - [GAMIWBTC](https://www.defi.garden/tokens/gamiwbtc)
+- [KFV](https://www.defi.garden/tokens/kfv)
 
 ## Available on
 
 - [Robinhood Chain](https://www.defi.garden/chains/robinhood-chain)
 
-## Last updated October 17, 2026
+## Last updated October 18, 2026

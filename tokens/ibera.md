@@ -1,12 +1,12 @@
 # IBERA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 18, 2026. Rates change continuously.*
 
-The highest honest IBERA yield right now is 2.83% on infrared-finance (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest IBERA yield right now is 2.74% on infrared-finance (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [infrared-finance →](https://www.defi.garden/?pool=2b9e97cd-15f2-406c-8e18-a426e451d09d#src=seo_token) | Berachain | 2.83% | $15.74M |
+| [infrared-finance →](https://www.defi.garden/?pool=2b9e97cd-15f2-406c-8e18-a426e451d09d#src=seo_token) | Berachain | 2.74% | $14.96M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest IBERA yield today?
 
-2.83% APY on infrared-finance (Berachain), based on live DefiLlama data.
+2.74% APY on infrared-finance (Berachain), based on live DefiLlama data.
 
 ### How many IBERA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $15.74M in total.
+1 live pool clear this page's $100K TVL floor, $14.96M in total.
 
 ### Are these rates safe?
 
@@ -35,15 +35,15 @@ There is not enough qualifying APY history to rank IBERA pools. This view covers
 
 ## Related tokens
 
+- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [BUSD](https://www.defi.garden/tokens/busd)
 - [RE7HONEY](https://www.defi.garden/tokens/re7honey)
 - [HONEY](https://www.defi.garden/tokens/honey)
 - [CSRHONEY](https://www.defi.garden/tokens/csrhoney)
 - [KODIUSDE](https://www.defi.garden/tokens/kodiusde)
-- [OSBGT](https://www.defi.garden/tokens/osbgt)
 
 ## Available on
 
 - [Berachain](https://www.defi.garden/chains/berachain)
 
-## Last updated October 17, 2026
+## Last updated October 18, 2026

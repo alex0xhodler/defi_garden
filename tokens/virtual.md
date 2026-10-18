@@ -1,43 +1,43 @@
 # VIRTUAL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 18, 2026. Rates change continuously.*
 
-The highest honest VIRTUAL yield right now is 256.65% on aerodrome-v1 (Base), among 21 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VIRTUAL yield right now is 248.93% on aerodrome-v1 (Base), among 21 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=2669bac4-c8c1-4436-b00c-0b9287681b3f#src=seo_token) | Base | 17.54% | $4.7M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=eeb01a7f-dd5d-4d34-8c99-25fe47ba6c2d#src=seo_token) | Base | 7.44% | $1.32M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=2df3e378-a3c7-4187-995f-51fe7ff18ccb#src=seo_token) | Base | 53.49% | $803.3K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=19512b42-f6bb-4b90-b813-1f968df20b5c#src=seo_token) | Base | 256.65% | $689.5K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=29bd1f1e-f7e8-461d-a9c9-ddb6148d799e#src=seo_token) | Base | 5.05% | $577.5K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=4304484b-d197-45d5-8d53-39c52b139377#src=seo_token) | Base | 48.88% | $567.7K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=3e406e0c-c916-4a02-b40e-558e67d37983#src=seo_token) | Base | 36.49% | $531.4K |
-| [extra-finance-leverage-farming →](https://www.defi.garden/?pool=b447fdcf-c371-4802-80c6-b15395d34332#src=seo_token) | Base | 2.10% | $497.2K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=2669bac4-c8c1-4436-b00c-0b9287681b3f#src=seo_token) | Base | 16.99% | $4.6M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=eeb01a7f-dd5d-4d34-8c99-25fe47ba6c2d#src=seo_token) | Base | 3.53% | $1.3M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2df3e378-a3c7-4187-995f-51fe7ff18ccb#src=seo_token) | Base | 29.56% | $793.9K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=19512b42-f6bb-4b90-b813-1f968df20b5c#src=seo_token) | Base | 248.93% | $672.2K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=29bd1f1e-f7e8-461d-a9c9-ddb6148d799e#src=seo_token) | Base | 4.87% | $567.6K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=4304484b-d197-45d5-8d53-39c52b139377#src=seo_token) | Base | 52.28% | $530.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=3e406e0c-c916-4a02-b40e-558e67d37983#src=seo_token) | Base | 13.58% | $513.5K |
+| [extra-finance-leverage-farming →](https://www.defi.garden/?pool=b447fdcf-c371-4802-80c6-b15395d34332#src=seo_token) | Base | 2.12% | $476.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, VIRTUAL's lower-variability candidates are aerodrome-v1 (Base), 5.05% APY, $577.5K TVL, https://www.defi.garden/?pool=29bd1f1e-f7e8-461d-a9c9-ddb6148d799e#src=seo_token; aerodrome-v1 (Base), 17.54% APY, $4.7M TVL, https://www.defi.garden/?pool=2669bac4-c8c1-4436-b00c-0b9287681b3f#src=seo_token; extra-finance-leverage-farming (Base), 2.10% APY, $497.2K TVL, https://www.defi.garden/?pool=b447fdcf-c371-4802-80c6-b15395d34332#src=seo_token; uniswap-v2 (Base), 7.44% APY, $1.32M TVL, https://www.defi.garden/?pool=eeb01a7f-dd5d-4d34-8c99-25fe47ba6c2d#src=seo_token; aerodrome-slipstream (Base), 48.88% APY, $567.7K TVL, https://www.defi.garden/?pool=4304484b-d197-45d5-8d53-39c52b139377#src=seo_token; uniswap-v3 (Base), 36.49% APY, $531.4K TVL, https://www.defi.garden/?pool=3e406e0c-c916-4a02-b40e-558e67d37983#src=seo_token; uniswap-v3 (Base), 53.49% APY, $803.3K TVL, https://www.defi.garden/?pool=2df3e378-a3c7-4187-995f-51fe7ff18ccb#src=seo_token; aerodrome-v1 (Base), 256.65% APY, $689.5K TVL, https://www.defi.garden/?pool=19512b42-f6bb-4b90-b813-1f968df20b5c#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, VIRTUAL's lower-variability candidates are aerodrome-v1 (Base), 4.87% APY, $567.6K TVL, https://www.defi.garden/?pool=29bd1f1e-f7e8-461d-a9c9-ddb6148d799e#src=seo_token; aerodrome-v1 (Base), 16.99% APY, $4.6M TVL, https://www.defi.garden/?pool=2669bac4-c8c1-4436-b00c-0b9287681b3f#src=seo_token; extra-finance-leverage-farming (Base), 2.12% APY, $476.5K TVL, https://www.defi.garden/?pool=b447fdcf-c371-4802-80c6-b15395d34332#src=seo_token; uniswap-v2 (Base), 3.53% APY, $1.3M TVL, https://www.defi.garden/?pool=eeb01a7f-dd5d-4d34-8c99-25fe47ba6c2d#src=seo_token; aerodrome-slipstream (Base), 52.28% APY, $530.7K TVL, https://www.defi.garden/?pool=4304484b-d197-45d5-8d53-39c52b139377#src=seo_token; uniswap-v3 (Base), 13.58% APY, $513.5K TVL, https://www.defi.garden/?pool=3e406e0c-c916-4a02-b40e-558e67d37983#src=seo_token; uniswap-v3 (Base), 29.56% APY, $793.9K TVL, https://www.defi.garden/?pool=2df3e378-a3c7-4187-995f-51fe7ff18ccb#src=seo_token; aerodrome-v1 (Base), 248.93% APY, $672.2K TVL, https://www.defi.garden/?pool=19512b42-f6bb-4b90-b813-1f968df20b5c#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=29bd1f1e-f7e8-461d-a9c9-ddb6148d799e#src=seo_token) | Base | 5.05% | $577.5K |
-| 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=2669bac4-c8c1-4436-b00c-0b9287681b3f#src=seo_token) | Base | 17.54% | $4.7M |
-| 3 | [extra-finance-leverage-farming →](https://www.defi.garden/?pool=b447fdcf-c371-4802-80c6-b15395d34332#src=seo_token) | Base | 2.10% | $497.2K |
-| 4 | [uniswap-v2 →](https://www.defi.garden/?pool=eeb01a7f-dd5d-4d34-8c99-25fe47ba6c2d#src=seo_token) | Base | 7.44% | $1.32M |
-| 5 | [aerodrome-slipstream →](https://www.defi.garden/?pool=4304484b-d197-45d5-8d53-39c52b139377#src=seo_token) | Base | 48.88% | $567.7K |
-| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=3e406e0c-c916-4a02-b40e-558e67d37983#src=seo_token) | Base | 36.49% | $531.4K |
-| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=2df3e378-a3c7-4187-995f-51fe7ff18ccb#src=seo_token) | Base | 53.49% | $803.3K |
-| 8 | [aerodrome-v1 →](https://www.defi.garden/?pool=19512b42-f6bb-4b90-b813-1f968df20b5c#src=seo_token) | Base | 256.65% | $689.5K |
+| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=29bd1f1e-f7e8-461d-a9c9-ddb6148d799e#src=seo_token) | Base | 4.87% | $567.6K |
+| 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=2669bac4-c8c1-4436-b00c-0b9287681b3f#src=seo_token) | Base | 16.99% | $4.6M |
+| 3 | [extra-finance-leverage-farming →](https://www.defi.garden/?pool=b447fdcf-c371-4802-80c6-b15395d34332#src=seo_token) | Base | 2.12% | $476.5K |
+| 4 | [uniswap-v2 →](https://www.defi.garden/?pool=eeb01a7f-dd5d-4d34-8c99-25fe47ba6c2d#src=seo_token) | Base | 3.53% | $1.3M |
+| 5 | [aerodrome-slipstream →](https://www.defi.garden/?pool=4304484b-d197-45d5-8d53-39c52b139377#src=seo_token) | Base | 52.28% | $530.7K |
+| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=3e406e0c-c916-4a02-b40e-558e67d37983#src=seo_token) | Base | 13.58% | $513.5K |
+| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=2df3e378-a3c7-4187-995f-51fe7ff18ccb#src=seo_token) | Base | 29.56% | $793.9K |
+| 8 | [aerodrome-v1 →](https://www.defi.garden/?pool=19512b42-f6bb-4b90-b813-1f968df20b5c#src=seo_token) | Base | 248.93% | $672.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-VIRTUAL shows up in 8 pools here, with rates from 2.10% to 256.65% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+VIRTUAL shows up in 8 pools here, with rates from 2.12% to 248.93% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 40.36% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 40.08% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 4 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -45,14 +45,14 @@ VIRTUAL shows up in 8 pools here, with rates from 2.10% to 256.65% APY across 1 
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-v1 | 17.54% | 17.22% | 100.00% incentives |
-| uniswap-v2 | 7.44% | 10.09% | Base rate |
-| uniswap-v3 | 53.49% | 118.59% | Base rate |
-| aerodrome-v1 | 256.65% | 373.93% | 100.00% incentives |
-| aerodrome-v1 | 5.05% | 12.96% | 100.00% incentives |
-| aerodrome-slipstream | 48.88% | 126.33% | 55.85% incentives |
-| uniswap-v3 | 36.49% | 63.50% | Base rate |
-| extra-finance-leverage-farming | 2.10% | 3.39% | Base rate |
+| aerodrome-v1 | 16.99% | 17.15% | 100.00% incentives |
+| uniswap-v2 | 3.53% | 10.09% | Base rate |
+| uniswap-v3 | 29.56% | 116.81% | Base rate |
+| aerodrome-v1 | 248.93% | 364.61% | 100.00% incentives |
+| aerodrome-v1 | 4.87% | 12.71% | 100.00% incentives |
+| aerodrome-slipstream | 52.28% | 125.16% | 82.37% incentives |
+| uniswap-v3 | 13.58% | 63.01% | Base rate |
+| extra-finance-leverage-farming | 2.12% | 3.40% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -60,11 +60,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest VIRTUAL yield today?
 
-256.65% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+248.93% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many VIRTUAL pools clear the TVL floor?
 
-21 live pools clear this page's $100K TVL floor, $13.45M in total.
+21 live pools clear this page's $100K TVL floor, $13.14M in total.
 
 ### Are these rates safe?
 
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which VIRTUAL pools have the most stable APY history?
 
-Based on APY history only, VIRTUAL's lower-variability candidates are aerodrome-v1 (Base), 5.05% APY, $577.5K TVL, https://www.defi.garden/?pool=29bd1f1e-f7e8-461d-a9c9-ddb6148d799e#src=seo_token; aerodrome-v1 (Base), 17.54% APY, $4.7M TVL, https://www.defi.garden/?pool=2669bac4-c8c1-4436-b00c-0b9287681b3f#src=seo_token; extra-finance-leverage-farming (Base), 2.10% APY, $497.2K TVL, https://www.defi.garden/?pool=b447fdcf-c371-4802-80c6-b15395d34332#src=seo_token; uniswap-v2 (Base), 7.44% APY, $1.32M TVL, https://www.defi.garden/?pool=eeb01a7f-dd5d-4d34-8c99-25fe47ba6c2d#src=seo_token; aerodrome-slipstream (Base), 48.88% APY, $567.7K TVL, https://www.defi.garden/?pool=4304484b-d197-45d5-8d53-39c52b139377#src=seo_token; uniswap-v3 (Base), 36.49% APY, $531.4K TVL, https://www.defi.garden/?pool=3e406e0c-c916-4a02-b40e-558e67d37983#src=seo_token; uniswap-v3 (Base), 53.49% APY, $803.3K TVL, https://www.defi.garden/?pool=2df3e378-a3c7-4187-995f-51fe7ff18ccb#src=seo_token; aerodrome-v1 (Base), 256.65% APY, $689.5K TVL, https://www.defi.garden/?pool=19512b42-f6bb-4b90-b813-1f968df20b5c#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, VIRTUAL's lower-variability candidates are aerodrome-v1 (Base), 4.87% APY, $567.6K TVL, https://www.defi.garden/?pool=29bd1f1e-f7e8-461d-a9c9-ddb6148d799e#src=seo_token; aerodrome-v1 (Base), 16.99% APY, $4.6M TVL, https://www.defi.garden/?pool=2669bac4-c8c1-4436-b00c-0b9287681b3f#src=seo_token; extra-finance-leverage-farming (Base), 2.12% APY, $476.5K TVL, https://www.defi.garden/?pool=b447fdcf-c371-4802-80c6-b15395d34332#src=seo_token; uniswap-v2 (Base), 3.53% APY, $1.3M TVL, https://www.defi.garden/?pool=eeb01a7f-dd5d-4d34-8c99-25fe47ba6c2d#src=seo_token; aerodrome-slipstream (Base), 52.28% APY, $530.7K TVL, https://www.defi.garden/?pool=4304484b-d197-45d5-8d53-39c52b139377#src=seo_token; uniswap-v3 (Base), 13.58% APY, $513.5K TVL, https://www.defi.garden/?pool=3e406e0c-c916-4a02-b40e-558e67d37983#src=seo_token; uniswap-v3 (Base), 29.56% APY, $793.9K TVL, https://www.defi.garden/?pool=2df3e378-a3c7-4187-995f-51fe7ff18ccb#src=seo_token; aerodrome-v1 (Base), 248.93% APY, $672.2K TVL, https://www.defi.garden/?pool=19512b42-f6bb-4b90-b813-1f968df20b5c#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -87,4 +87,4 @@ Based on APY history only, VIRTUAL's lower-variability candidates are aerodrome-
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 17, 2026
+## Last updated October 18, 2026

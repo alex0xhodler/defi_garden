@@ -1,43 +1,43 @@
 # MSUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 18, 2026. Rates change continuously.*
 
-The highest honest MSUSD yield right now is 51.65% on aerodrome-slipstream (Base), among 18 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MSUSD yield right now is 30.88% on aerodrome-slipstream (Base), among 18 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [mainstreet →](https://www.defi.garden/?pool=8a28570f-2316-488a-94a7-67c87e76c1f1#src=seo_token) | Ethereum | 6.55% | $75.63M |
-| [vesper →](https://www.defi.garden/?pool=3987099a-9165-47a3-a92f-df14e8d60e45#src=seo_token) | Ethereum | 0.07% | $31.95M |
-| [curve-dex →](https://www.defi.garden/?pool=54a73b0a-d1f0-4a82-9e9f-2a6520351527#src=seo_token) | Ethereum | 7.99% | $6.19M |
-| [stake-dao-yield →](https://www.defi.garden/?pool=fd1b5014-9f4d-4401-be3d-1188da497c6a#src=seo_token) | Ethereum | 10.13% | $4.28M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=3fea9aec-48b6-4ad3-bd04-f69188bead1d#src=seo_token) | Base | 51.65% | $3.36M |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=9652fa5a-8b82-4b48-b1b8-5a5d41ddcc42#src=seo_token) | Base | 47.78% | $2M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=aae6cc3a-783b-4a76-bea7-c3edccd28d62#src=seo_token) | Base | 17.37% | $1.95M |
-| [convex-finance →](https://www.defi.garden/?pool=ee024c35-c5c3-4a41-9018-75f72ec7ae4a#src=seo_token) | Ethereum | 15.95% | $1.73M |
+| [mainstreet →](https://www.defi.garden/?pool=8a28570f-2316-488a-94a7-67c87e76c1f1#src=seo_token) | Ethereum | 6.56% | $75.65M |
+| [vesper →](https://www.defi.garden/?pool=3987099a-9165-47a3-a92f-df14e8d60e45#src=seo_token) | Ethereum | 0.06% | $31.95M |
+| [curve-dex →](https://www.defi.garden/?pool=54a73b0a-d1f0-4a82-9e9f-2a6520351527#src=seo_token) | Ethereum | 7.25% | $6.5M |
+| [stake-dao-yield →](https://www.defi.garden/?pool=fd1b5014-9f4d-4401-be3d-1188da497c6a#src=seo_token) | Ethereum | 9.45% | $4.28M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=3fea9aec-48b6-4ad3-bd04-f69188bead1d#src=seo_token) | Base | 30.88% | $3.44M |
+| [convex-finance →](https://www.defi.garden/?pool=ee024c35-c5c3-4a41-9018-75f72ec7ae4a#src=seo_token) | Ethereum | 13.19% | $2.05M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=aae6cc3a-783b-4a76-bea7-c3edccd28d62#src=seo_token) | Base | 12.82% | $2.03M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=9652fa5a-8b82-4b48-b1b8-5a5d41ddcc42#src=seo_token) | Base | 45.46% | $2M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, MSUSD's lower-variability candidates are vesper (Ethereum), 0.07% APY, $31.95M TVL, https://www.defi.garden/?pool=3987099a-9165-47a3-a92f-df14e8d60e45#src=seo_token; mainstreet (Ethereum), 6.55% APY, $75.63M TVL, https://www.defi.garden/?pool=8a28570f-2316-488a-94a7-67c87e76c1f1#src=seo_token; aerodrome-v1 (Base), 47.78% APY, $2M TVL, https://www.defi.garden/?pool=9652fa5a-8b82-4b48-b1b8-5a5d41ddcc42#src=seo_token; curve-dex (Ethereum), 7.99% APY, $6.19M TVL, https://www.defi.garden/?pool=54a73b0a-d1f0-4a82-9e9f-2a6520351527#src=seo_token; convex-finance (Ethereum), 15.95% APY, $1.73M TVL, https://www.defi.garden/?pool=ee024c35-c5c3-4a41-9018-75f72ec7ae4a#src=seo_token; stake-dao-yield (Ethereum), 10.13% APY, $4.28M TVL, https://www.defi.garden/?pool=fd1b5014-9f4d-4401-be3d-1188da497c6a#src=seo_token; aerodrome-slipstream (Base), 51.65% APY, $3.36M TVL, https://www.defi.garden/?pool=3fea9aec-48b6-4ad3-bd04-f69188bead1d#src=seo_token; aerodrome-slipstream (Base), 17.37% APY, $1.95M TVL, https://www.defi.garden/?pool=aae6cc3a-783b-4a76-bea7-c3edccd28d62#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MSUSD's lower-variability candidates are vesper (Ethereum), 0.06% APY, $31.95M TVL, https://www.defi.garden/?pool=3987099a-9165-47a3-a92f-df14e8d60e45#src=seo_token; mainstreet (Ethereum), 6.56% APY, $75.65M TVL, https://www.defi.garden/?pool=8a28570f-2316-488a-94a7-67c87e76c1f1#src=seo_token; aerodrome-v1 (Base), 45.46% APY, $2M TVL, https://www.defi.garden/?pool=9652fa5a-8b82-4b48-b1b8-5a5d41ddcc42#src=seo_token; curve-dex (Ethereum), 7.25% APY, $6.5M TVL, https://www.defi.garden/?pool=54a73b0a-d1f0-4a82-9e9f-2a6520351527#src=seo_token; convex-finance (Ethereum), 13.19% APY, $2.05M TVL, https://www.defi.garden/?pool=ee024c35-c5c3-4a41-9018-75f72ec7ae4a#src=seo_token; stake-dao-yield (Ethereum), 9.45% APY, $4.28M TVL, https://www.defi.garden/?pool=fd1b5014-9f4d-4401-be3d-1188da497c6a#src=seo_token; aerodrome-slipstream (Base), 30.88% APY, $3.44M TVL, https://www.defi.garden/?pool=3fea9aec-48b6-4ad3-bd04-f69188bead1d#src=seo_token; aerodrome-slipstream (Base), 12.82% APY, $2.03M TVL, https://www.defi.garden/?pool=aae6cc3a-783b-4a76-bea7-c3edccd28d62#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [vesper →](https://www.defi.garden/?pool=3987099a-9165-47a3-a92f-df14e8d60e45#src=seo_token) | Ethereum | 0.07% | $31.95M |
-| 2 | [mainstreet →](https://www.defi.garden/?pool=8a28570f-2316-488a-94a7-67c87e76c1f1#src=seo_token) | Ethereum | 6.55% | $75.63M |
-| 3 | [aerodrome-v1 →](https://www.defi.garden/?pool=9652fa5a-8b82-4b48-b1b8-5a5d41ddcc42#src=seo_token) | Base | 47.78% | $2M |
-| 4 | [curve-dex →](https://www.defi.garden/?pool=54a73b0a-d1f0-4a82-9e9f-2a6520351527#src=seo_token) | Ethereum | 7.99% | $6.19M |
-| 5 | [convex-finance →](https://www.defi.garden/?pool=ee024c35-c5c3-4a41-9018-75f72ec7ae4a#src=seo_token) | Ethereum | 15.95% | $1.73M |
-| 6 | [stake-dao-yield →](https://www.defi.garden/?pool=fd1b5014-9f4d-4401-be3d-1188da497c6a#src=seo_token) | Ethereum | 10.13% | $4.28M |
-| 7 | [aerodrome-slipstream →](https://www.defi.garden/?pool=3fea9aec-48b6-4ad3-bd04-f69188bead1d#src=seo_token) | Base | 51.65% | $3.36M |
-| 8 | [aerodrome-slipstream →](https://www.defi.garden/?pool=aae6cc3a-783b-4a76-bea7-c3edccd28d62#src=seo_token) | Base | 17.37% | $1.95M |
+| 1 | [vesper →](https://www.defi.garden/?pool=3987099a-9165-47a3-a92f-df14e8d60e45#src=seo_token) | Ethereum | 0.06% | $31.95M |
+| 2 | [mainstreet →](https://www.defi.garden/?pool=8a28570f-2316-488a-94a7-67c87e76c1f1#src=seo_token) | Ethereum | 6.56% | $75.65M |
+| 3 | [aerodrome-v1 →](https://www.defi.garden/?pool=9652fa5a-8b82-4b48-b1b8-5a5d41ddcc42#src=seo_token) | Base | 45.46% | $2M |
+| 4 | [curve-dex →](https://www.defi.garden/?pool=54a73b0a-d1f0-4a82-9e9f-2a6520351527#src=seo_token) | Ethereum | 7.25% | $6.5M |
+| 5 | [convex-finance →](https://www.defi.garden/?pool=ee024c35-c5c3-4a41-9018-75f72ec7ae4a#src=seo_token) | Ethereum | 13.19% | $2.05M |
+| 6 | [stake-dao-yield →](https://www.defi.garden/?pool=fd1b5014-9f4d-4401-be3d-1188da497c6a#src=seo_token) | Ethereum | 9.45% | $4.28M |
+| 7 | [aerodrome-slipstream →](https://www.defi.garden/?pool=3fea9aec-48b6-4ad3-bd04-f69188bead1d#src=seo_token) | Base | 30.88% | $3.44M |
+| 8 | [aerodrome-slipstream →](https://www.defi.garden/?pool=aae6cc3a-783b-4a76-bea7-c3edccd28d62#src=seo_token) | Base | 12.82% | $2.03M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-MSUSD shows up in 8 pools here, with rates from 0.07% to 51.65% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+MSUSD shows up in 8 pools here, with rates from 0.06% to 45.46% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 11.83% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 11.86% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 6 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -45,14 +45,14 @@ MSUSD shows up in 8 pools here, with rates from 0.07% to 51.65% APY across 2 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| mainstreet | 6.55% | 6.60% | Base rate |
-| vesper | 0.07% | 0.07% | Base rate |
-| curve-dex | 7.99% | 6.94% | 99.87% incentives |
-| stake-dao-yield | 10.13% | 9.22% | 99.21% incentives |
-| aerodrome-slipstream | 51.65% | 35.71% | 52.75% incentives |
-| aerodrome-v1 | 47.78% | 26.67% | 100.00% incentives |
-| aerodrome-slipstream | 17.37% | 64.18% | 53.48% incentives |
-| convex-finance | 15.95% | 14.45% | 99.94% incentives |
+| mainstreet | 6.56% | 6.60% | Base rate |
+| vesper | 0.06% | 0.07% | Base rate |
+| curve-dex | 7.25% | 6.87% | 99.86% incentives |
+| stake-dao-yield | 9.45% | 9.24% | 99.15% incentives |
+| aerodrome-slipstream | 30.88% | 35.91% | 54.94% incentives |
+| convex-finance | 13.19% | 14.47% | 99.92% incentives |
+| aerodrome-slipstream | 12.82% | 58.91% | 63.48% incentives |
+| aerodrome-v1 | 45.46% | 27.88% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -60,11 +60,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MSUSD yield today?
 
-51.65% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+30.88% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many MSUSD pools clear the TVL floor?
 
-18 live pools clear this page's $100K TVL floor, $132.16M in total.
+18 live pools clear this page's $100K TVL floor, $132.78M in total.
 
 ### Are these rates safe?
 
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which MSUSD pools have the most stable APY history?
 
-Based on APY history only, MSUSD's lower-variability candidates are vesper (Ethereum), 0.07% APY, $31.95M TVL, https://www.defi.garden/?pool=3987099a-9165-47a3-a92f-df14e8d60e45#src=seo_token; mainstreet (Ethereum), 6.55% APY, $75.63M TVL, https://www.defi.garden/?pool=8a28570f-2316-488a-94a7-67c87e76c1f1#src=seo_token; aerodrome-v1 (Base), 47.78% APY, $2M TVL, https://www.defi.garden/?pool=9652fa5a-8b82-4b48-b1b8-5a5d41ddcc42#src=seo_token; curve-dex (Ethereum), 7.99% APY, $6.19M TVL, https://www.defi.garden/?pool=54a73b0a-d1f0-4a82-9e9f-2a6520351527#src=seo_token; convex-finance (Ethereum), 15.95% APY, $1.73M TVL, https://www.defi.garden/?pool=ee024c35-c5c3-4a41-9018-75f72ec7ae4a#src=seo_token; stake-dao-yield (Ethereum), 10.13% APY, $4.28M TVL, https://www.defi.garden/?pool=fd1b5014-9f4d-4401-be3d-1188da497c6a#src=seo_token; aerodrome-slipstream (Base), 51.65% APY, $3.36M TVL, https://www.defi.garden/?pool=3fea9aec-48b6-4ad3-bd04-f69188bead1d#src=seo_token; aerodrome-slipstream (Base), 17.37% APY, $1.95M TVL, https://www.defi.garden/?pool=aae6cc3a-783b-4a76-bea7-c3edccd28d62#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MSUSD's lower-variability candidates are vesper (Ethereum), 0.06% APY, $31.95M TVL, https://www.defi.garden/?pool=3987099a-9165-47a3-a92f-df14e8d60e45#src=seo_token; mainstreet (Ethereum), 6.56% APY, $75.65M TVL, https://www.defi.garden/?pool=8a28570f-2316-488a-94a7-67c87e76c1f1#src=seo_token; aerodrome-v1 (Base), 45.46% APY, $2M TVL, https://www.defi.garden/?pool=9652fa5a-8b82-4b48-b1b8-5a5d41ddcc42#src=seo_token; curve-dex (Ethereum), 7.25% APY, $6.5M TVL, https://www.defi.garden/?pool=54a73b0a-d1f0-4a82-9e9f-2a6520351527#src=seo_token; convex-finance (Ethereum), 13.19% APY, $2.05M TVL, https://www.defi.garden/?pool=ee024c35-c5c3-4a41-9018-75f72ec7ae4a#src=seo_token; stake-dao-yield (Ethereum), 9.45% APY, $4.28M TVL, https://www.defi.garden/?pool=fd1b5014-9f4d-4401-be3d-1188da497c6a#src=seo_token; aerodrome-slipstream (Base), 30.88% APY, $3.44M TVL, https://www.defi.garden/?pool=3fea9aec-48b6-4ad3-bd04-f69188bead1d#src=seo_token; aerodrome-slipstream (Base), 12.82% APY, $2.03M TVL, https://www.defi.garden/?pool=aae6cc3a-783b-4a76-bea7-c3edccd28d62#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -88,4 +88,4 @@ Based on APY history only, MSUSD's lower-variability candidates are vesper (Ethe
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 17, 2026
+## Last updated October 18, 2026

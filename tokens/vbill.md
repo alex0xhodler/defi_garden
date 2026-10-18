@@ -1,6 +1,6 @@
 # VBILL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 18, 2026. Rates change continuously.*
 
 The highest honest VBILL yield right now is 3.76% on vaneck-treasury-fund (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -35,10 +35,10 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
+| vaneck-treasury-fund | 3.76% | 3.66% | Base rate |
 | vaneck-treasury-fund | 3.76% | 3.67% | Base rate |
-| vaneck-treasury-fund | 3.76% | 3.68% | Base rate |
 | vaneck-treasury-fund | 3.76% | 3.67% | Base rate |
-| vaneck-treasury-fund | 3.76% | 3.68% | Base rate |
+| vaneck-treasury-fund | 3.76% | 3.67% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -76,4 +76,4 @@ Based on APY history only, VBILL's lower-variability candidates are vaneck-treas
 - [Solana](https://www.defi.garden/chains/solana)
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated October 17, 2026
+## Last updated October 18, 2026

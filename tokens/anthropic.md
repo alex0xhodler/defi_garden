@@ -1,13 +1,13 @@
 # ANTHROPIC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 18, 2026. Rates change continuously.*
 
-The highest honest ANTHROPIC yield right now is 5.85% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ANTHROPIC yield right now is 6.34% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=1c636a3a-fa98-56fa-a38a-0a2716ccd8c7#src=seo_token) | Solana | 5.85% | $2.09M |
-| [raydium-amm →](https://www.defi.garden/?pool=93c1f0bc-7b2d-521d-b58c-333850173825#src=seo_token) | Solana | 79.65% | $126.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=1c636a3a-fa98-56fa-a38a-0a2716ccd8c7#src=seo_token) | Solana | 6.34% | $2.05M |
+| [raydium-amm →](https://www.defi.garden/?pool=93c1f0bc-7b2d-521d-b58c-333850173825#src=seo_token) | Solana | 69.01% | $118.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-ANTHROPIC shows up in 2 pools here, with rates from 5.85% to 79.65% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+ANTHROPIC shows up in 2 pools here, with rates from 6.34% to 69.01% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 144.40% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 131.87% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -28,8 +28,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 5.85% | 4.18% | Base rate |
-| raydium-amm | 79.65% | 284.61% | Base rate |
+| raydium-amm | 6.34% | 4.81% | Base rate |
+| raydium-amm | 69.01% | 258.92% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ANTHROPIC yield today?
 
-5.85% APY on raydium-amm (Solana), based on live DefiLlama data.
+6.34% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many ANTHROPIC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $2.22M in total.
+2 live pools clear this page's $100K TVL floor, $2.17M in total.
 
 ### Are these rates safe?
 
@@ -64,4 +64,4 @@ There is not enough qualifying APY history to rank ANTHROPIC pools. This view co
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 17, 2026
+## Last updated October 18, 2026

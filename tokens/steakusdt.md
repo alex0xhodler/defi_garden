@@ -1,23 +1,23 @@
 # STEAKUSDT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 18, 2026. Rates change continuously.*
 
 The highest honest STEAKUSDT yield right now is 2.51% on morpho-blue (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=ded5a855-23c1-459d-8390-ba2707fac7c5#src=seo_token) | Ethereum | 2.38% | $77.85M |
-| [morpho-blue →](https://www.defi.garden/?pool=ef5d3acb-b974-4db1-8076-e8db9f142493#src=seo_token) | Ethereum | 2.51% | $65.58M |
+| [morpho-blue →](https://www.defi.garden/?pool=ded5a855-23c1-459d-8390-ba2707fac7c5#src=seo_token) | Ethereum | 2.38% | $77.86M |
+| [morpho-blue →](https://www.defi.garden/?pool=ef5d3acb-b974-4db1-8076-e8db9f142493#src=seo_token) | Ethereum | 2.51% | $64.94M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, STEAKUSDT's lower-variability candidates are morpho-blue (Ethereum), 2.38% APY, $77.85M TVL, https://www.defi.garden/?pool=ded5a855-23c1-459d-8390-ba2707fac7c5#src=seo_token; morpho-blue (Ethereum), 2.51% APY, $65.58M TVL, https://www.defi.garden/?pool=ef5d3acb-b974-4db1-8076-e8db9f142493#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STEAKUSDT's lower-variability candidates are morpho-blue (Ethereum), 2.38% APY, $77.86M TVL, https://www.defi.garden/?pool=ded5a855-23c1-459d-8390-ba2707fac7c5#src=seo_token; morpho-blue (Ethereum), 2.51% APY, $64.94M TVL, https://www.defi.garden/?pool=ef5d3acb-b974-4db1-8076-e8db9f142493#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=ded5a855-23c1-459d-8390-ba2707fac7c5#src=seo_token) | Ethereum | 2.38% | $77.85M |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=ef5d3acb-b974-4db1-8076-e8db9f142493#src=seo_token) | Ethereum | 2.51% | $65.58M |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=ded5a855-23c1-459d-8390-ba2707fac7c5#src=seo_token) | Ethereum | 2.38% | $77.86M |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=ef5d3acb-b974-4db1-8076-e8db9f142493#src=seo_token) | Ethereum | 2.51% | $64.94M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many STEAKUSDT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $143.42M in total.
+2 live pools clear this page's $100K TVL floor, $142.8M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which STEAKUSDT pools have the most stable APY history?
 
-Based on APY history only, STEAKUSDT's lower-variability candidates are morpho-blue (Ethereum), 2.38% APY, $77.85M TVL, https://www.defi.garden/?pool=ded5a855-23c1-459d-8390-ba2707fac7c5#src=seo_token; morpho-blue (Ethereum), 2.51% APY, $65.58M TVL, https://www.defi.garden/?pool=ef5d3acb-b974-4db1-8076-e8db9f142493#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STEAKUSDT's lower-variability candidates are morpho-blue (Ethereum), 2.38% APY, $77.86M TVL, https://www.defi.garden/?pool=ded5a855-23c1-459d-8390-ba2707fac7c5#src=seo_token; morpho-blue (Ethereum), 2.51% APY, $64.94M TVL, https://www.defi.garden/?pool=ef5d3acb-b974-4db1-8076-e8db9f142493#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -67,4 +67,4 @@ Based on APY history only, STEAKUSDT's lower-variability candidates are morpho-b
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 17, 2026
+## Last updated October 18, 2026

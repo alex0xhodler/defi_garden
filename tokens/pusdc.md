@@ -1,12 +1,12 @@
 # PUSDC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 18, 2026. Rates change continuously.*
 
-The highest honest PUSDC yield right now is 4.27% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PUSDC yield right now is 4.24% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=c1949c46-0c01-445f-8017-b3192d9913bc#src=seo_token) | Base | 4.27% | $10.58M |
+| [morpho-blue →](https://www.defi.garden/?pool=c1949c46-0c01-445f-8017-b3192d9913bc#src=seo_token) | Base | 4.24% | $10.78M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PUSDC yield today?
 
-4.27% APY on morpho-blue (Base), based on live DefiLlama data.
+4.24% APY on morpho-blue (Base), based on live DefiLlama data.
 
 ### How many PUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $10.58M in total.
+1 live pool clear this page's $100K TVL floor, $10.78M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank PUSDC pools. This view covers
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 17, 2026
+## Last updated October 18, 2026

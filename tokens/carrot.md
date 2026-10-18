@@ -1,12 +1,12 @@
 # CARROT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 18, 2026. Rates change continuously.*
 
-The highest honest CARROT yield right now is 193.32% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CARROT yield right now is 180.01% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=fdd3dad9-ecd6-4c79-b378-5c7733873797#src=seo_token) | Ethereum | 193.32% | $118K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=fdd3dad9-ecd6-4c79-b378-5c7733873797#src=seo_token) | Ethereum | 180.01% | $117.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CARROT yield today?
 
-193.32% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+180.01% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many CARROT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $118K in total.
+1 live pool clear this page's $100K TVL floor, $117.2K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank CARROT pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 17, 2026
+## Last updated October 18, 2026

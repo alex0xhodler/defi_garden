@@ -4,8 +4,8 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| CC | [alpend →](https://www.defi.garden/?pool=480418ff-6a3c-5c1b-8e4c-2b4518d05d35#src=seo_chain) | 4.11% | $1.86M |
-| CBTC | [alpend →](https://www.defi.garden/?pool=cfb2faa5-ccf0-5109-a9b1-28f9a86f86c1#src=seo_chain) | 10.94% | $236.4K |
+| CC | [alpend →](https://www.defi.garden/?pool=480418ff-6a3c-5c1b-8e4c-2b4518d05d35#src=seo_chain) | 4.10% | $1.81M |
+| CBTC | [alpend →](https://www.defi.garden/?pool=cfb2faa5-ccf0-5109-a9b1-28f9a86f86c1#src=seo_chain) | 10.94% | $236.6K |
 | USDCX | [alpend →](https://www.defi.garden/?pool=0822ec9c-8120-5193-ae90-b94cc46cfe6c#src=seo_chain) | 15.42% | $126.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -18,7 +18,7 @@ DefiLlama 실시간 데이터 기준, Canton의 alpend에서 APY 15.42%예요.
 
 ### Canton 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $2.22M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $2.17M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -27,11 +27,11 @@ DefiLlama 실시간 데이터 기준, Canton의 alpend에서 APY 15.42%예요.
 ## 관련 체인
 
 - [Stacks](https://www.defi.garden/ko/chains/stacks)
+- [Cardano](https://www.defi.garden/ko/chains/cardano)
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Solana](https://www.defi.garden/ko/chains/solana)
 - [Base](https://www.defi.garden/ko/chains/base)
 - [BSC](https://www.defi.garden/ko/chains/bsc)
-- [Tron](https://www.defi.garden/ko/chains/tron)
 
 ## Canton의 인기 토큰
 
@@ -39,4 +39,4 @@ DefiLlama 실시간 데이터 기준, Canton의 alpend에서 APY 15.42%예요.
 - [CBTC](https://www.defi.garden/ko/tokens/cbtc)
 - [USDCX](https://www.defi.garden/ko/tokens/usdcx)
 
-## 마지막 업데이트: October 17, 2026
+## 마지막 업데이트: October 18, 2026

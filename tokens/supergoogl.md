@@ -1,12 +1,12 @@
 # SUPERGOOGL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 18, 2026. Rates change continuously.*
 
-The highest honest SUPERGOOGL yield right now is 22.07% on superform (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUPERGOOGL yield right now is 22.43% on superform (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [superform →](https://www.defi.garden/?pool=6a9a0fe1-962e-5393-9be6-811022d51e8a#src=seo_token) | Base | 22.07% | $182.3K |
+| [superform →](https://www.defi.garden/?pool=6a9a0fe1-962e-5393-9be6-811022d51e8a#src=seo_token) | Base | 22.43% | $183.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SUPERGOOGL yield today?
 
-22.07% APY on superform (Base), based on live DefiLlama data.
+22.43% APY on superform (Base), based on live DefiLlama data.
 
 ### How many SUPERGOOGL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $182.3K in total.
+1 live pool clear this page's $100K TVL floor, $183.5K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank SUPERGOOGL pools. This view c
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 17, 2026
+## Last updated October 18, 2026

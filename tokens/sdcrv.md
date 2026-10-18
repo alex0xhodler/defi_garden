@@ -1,35 +1,35 @@
 # SDCRV DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 18, 2026. Rates change continuously.*
 
-The highest honest SDCRV yield right now is 26.38% on convex-finance (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SDCRV yield right now is 26.10% on convex-finance (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [stake-dao-yield →](https://www.defi.garden/?pool=0d9e7113-c9bc-4fb6-b138-5ca6f6944d6d#src=seo_token) | Ethereum | 13.10% | $41.04M |
-| [curve-dex →](https://www.defi.garden/?pool=6e1583f9-f13b-44e2-bb17-816a2e2ba6bb#src=seo_token) | Ethereum | 11.77% | $1.41M |
-| [stake-dao-yield →](https://www.defi.garden/?pool=6403b2cc-ecc7-4054-8fc6-7a6586888e82#src=seo_token) | Ethereum | 14.95% | $849.6K |
-| [convex-finance →](https://www.defi.garden/?pool=5ce7439d-3c4f-406d-b284-6189a0b63198#src=seo_token) | Ethereum | 26.38% | $293.8K |
+| [stake-dao-yield →](https://www.defi.garden/?pool=0d9e7113-c9bc-4fb6-b138-5ca6f6944d6d#src=seo_token) | Ethereum | 13.16% | $40.35M |
+| [curve-dex →](https://www.defi.garden/?pool=6e1583f9-f13b-44e2-bb17-816a2e2ba6bb#src=seo_token) | Ethereum | 11.39% | $1.4M |
+| [stake-dao-yield →](https://www.defi.garden/?pool=6403b2cc-ecc7-4054-8fc6-7a6586888e82#src=seo_token) | Ethereum | 14.73% | $851.2K |
+| [convex-finance →](https://www.defi.garden/?pool=5ce7439d-3c4f-406d-b284-6189a0b63198#src=seo_token) | Ethereum | 26.10% | $288.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SDCRV's lower-variability candidates are stake-dao-yield (Ethereum), 14.95% APY, $849.6K TVL, https://www.defi.garden/?pool=6403b2cc-ecc7-4054-8fc6-7a6586888e82#src=seo_token; stake-dao-yield (Ethereum), 13.10% APY, $41.04M TVL, https://www.defi.garden/?pool=0d9e7113-c9bc-4fb6-b138-5ca6f6944d6d#src=seo_token; curve-dex (Ethereum), 11.77% APY, $1.41M TVL, https://www.defi.garden/?pool=6e1583f9-f13b-44e2-bb17-816a2e2ba6bb#src=seo_token; convex-finance (Ethereum), 26.38% APY, $293.8K TVL, https://www.defi.garden/?pool=5ce7439d-3c4f-406d-b284-6189a0b63198#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SDCRV's lower-variability candidates are stake-dao-yield (Ethereum), 14.73% APY, $851.2K TVL, https://www.defi.garden/?pool=6403b2cc-ecc7-4054-8fc6-7a6586888e82#src=seo_token; stake-dao-yield (Ethereum), 13.16% APY, $40.35M TVL, https://www.defi.garden/?pool=0d9e7113-c9bc-4fb6-b138-5ca6f6944d6d#src=seo_token; curve-dex (Ethereum), 11.39% APY, $1.4M TVL, https://www.defi.garden/?pool=6e1583f9-f13b-44e2-bb17-816a2e2ba6bb#src=seo_token; convex-finance (Ethereum), 26.10% APY, $288.6K TVL, https://www.defi.garden/?pool=5ce7439d-3c4f-406d-b284-6189a0b63198#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [stake-dao-yield →](https://www.defi.garden/?pool=6403b2cc-ecc7-4054-8fc6-7a6586888e82#src=seo_token) | Ethereum | 14.95% | $849.6K |
-| 2 | [stake-dao-yield →](https://www.defi.garden/?pool=0d9e7113-c9bc-4fb6-b138-5ca6f6944d6d#src=seo_token) | Ethereum | 13.10% | $41.04M |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=6e1583f9-f13b-44e2-bb17-816a2e2ba6bb#src=seo_token) | Ethereum | 11.77% | $1.41M |
-| 4 | [convex-finance →](https://www.defi.garden/?pool=5ce7439d-3c4f-406d-b284-6189a0b63198#src=seo_token) | Ethereum | 26.38% | $293.8K |
+| 1 | [stake-dao-yield →](https://www.defi.garden/?pool=6403b2cc-ecc7-4054-8fc6-7a6586888e82#src=seo_token) | Ethereum | 14.73% | $851.2K |
+| 2 | [stake-dao-yield →](https://www.defi.garden/?pool=0d9e7113-c9bc-4fb6-b138-5ca6f6944d6d#src=seo_token) | Ethereum | 13.16% | $40.35M |
+| 3 | [curve-dex →](https://www.defi.garden/?pool=6e1583f9-f13b-44e2-bb17-816a2e2ba6bb#src=seo_token) | Ethereum | 11.39% | $1.4M |
+| 4 | [convex-finance →](https://www.defi.garden/?pool=5ce7439d-3c4f-406d-b284-6189a0b63198#src=seo_token) | Ethereum | 26.10% | $288.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SDCRV shows up in 4 pools here, with rates from 11.77% to 26.38% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SDCRV shows up in 4 pools here, with rates from 11.39% to 26.10% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 13.80% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 13.79% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 4 of 4 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -37,10 +37,10 @@ SDCRV shows up in 4 pools here, with rates from 11.77% to 26.38% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| stake-dao-yield | 13.10% | 12.57% | 100.00% incentives |
-| curve-dex | 11.77% | 12.16% | 91.93% incentives |
-| stake-dao-yield | 14.95% | 15.03% | 91.90% incentives |
-| convex-finance | 26.38% | 24.90% | 96.40% incentives |
+| stake-dao-yield | 13.16% | 12.58% | 100.00% incentives |
+| curve-dex | 11.39% | 12.13% | 93.24% incentives |
+| stake-dao-yield | 14.73% | 15.00% | 91.92% incentives |
+| convex-finance | 26.10% | 24.90% | 97.05% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -48,11 +48,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SDCRV yield today?
 
-26.38% APY on convex-finance (Ethereum), based on live DefiLlama data.
+26.10% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many SDCRV pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $43.59M in total.
+4 live pools clear this page's $100K TVL floor, $42.89M in total.
 
 ### Are these rates safe?
 
@@ -60,7 +60,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SDCRV pools have the most stable APY history?
 
-Based on APY history only, SDCRV's lower-variability candidates are stake-dao-yield (Ethereum), 14.95% APY, $849.6K TVL, https://www.defi.garden/?pool=6403b2cc-ecc7-4054-8fc6-7a6586888e82#src=seo_token; stake-dao-yield (Ethereum), 13.10% APY, $41.04M TVL, https://www.defi.garden/?pool=0d9e7113-c9bc-4fb6-b138-5ca6f6944d6d#src=seo_token; curve-dex (Ethereum), 11.77% APY, $1.41M TVL, https://www.defi.garden/?pool=6e1583f9-f13b-44e2-bb17-816a2e2ba6bb#src=seo_token; convex-finance (Ethereum), 26.38% APY, $293.8K TVL, https://www.defi.garden/?pool=5ce7439d-3c4f-406d-b284-6189a0b63198#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SDCRV's lower-variability candidates are stake-dao-yield (Ethereum), 14.73% APY, $851.2K TVL, https://www.defi.garden/?pool=6403b2cc-ecc7-4054-8fc6-7a6586888e82#src=seo_token; stake-dao-yield (Ethereum), 13.16% APY, $40.35M TVL, https://www.defi.garden/?pool=0d9e7113-c9bc-4fb6-b138-5ca6f6944d6d#src=seo_token; curve-dex (Ethereum), 11.39% APY, $1.4M TVL, https://www.defi.garden/?pool=6e1583f9-f13b-44e2-bb17-816a2e2ba6bb#src=seo_token; convex-finance (Ethereum), 26.10% APY, $288.6K TVL, https://www.defi.garden/?pool=5ce7439d-3c4f-406d-b284-6189a0b63198#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -75,4 +75,4 @@ Based on APY history only, SDCRV's lower-variability candidates are stake-dao-yi
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 17, 2026
+## Last updated October 18, 2026

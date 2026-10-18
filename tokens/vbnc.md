@@ -1,12 +1,12 @@
 # VBNC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 18, 2026. Rates change continuously.*
 
-The highest honest VBNC yield right now is 1.24% on bifrost-liquid-staking (Bifrost), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VBNC yield right now is 1.28% on bifrost-liquid-staking (Bifrost), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [bifrost-liquid-staking →](https://www.defi.garden/?pool=eadcb734-fe5e-4f8b-ac19-096906cc12b5#src=seo_token) | Bifrost | 1.24% | $214.9K |
+| [bifrost-liquid-staking →](https://www.defi.garden/?pool=eadcb734-fe5e-4f8b-ac19-096906cc12b5#src=seo_token) | Bifrost | 1.28% | $217.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest VBNC yield today?
 
-1.24% APY on bifrost-liquid-staking (Bifrost), based on live DefiLlama data.
+1.28% APY on bifrost-liquid-staking (Bifrost), based on live DefiLlama data.
 
 ### How many VBNC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $214.9K in total.
+1 live pool clear this page's $100K TVL floor, $217.4K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank VBNC pools. This view covers 
 
 - [Bifrost](https://www.defi.garden/chains/bifrost)
 
-## Last updated October 17, 2026
+## Last updated October 18, 2026

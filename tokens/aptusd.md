@@ -1,12 +1,12 @@
 # APTUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 18, 2026. Rates change continuously.*
 
 The highest honest APTUSD yield right now is 7.56% on pendle-v2 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=50972843-bdd2-58a7-83f0-40b0a3ed7d24#src=seo_token) | Ethereum | 1.90% | $1.99M |
+| [curve-dex →](https://www.defi.garden/?pool=50972843-bdd2-58a7-83f0-40b0a3ed7d24#src=seo_token) | Ethereum | 1.91% | $1.99M |
 | [pendle-v2 →](https://www.defi.garden/?pool=b21aa5be-cc99-52e5-a983-433d3a46fe89#src=seo_token) | Ethereum | 7.04% | $103.2K |
 | [pendle-v2 →](https://www.defi.garden/?pool=ced10418-bf2f-5202-bffb-90ea33a80ee3#src=seo_token) | Ethereum | 7.56% | $103.2K |
 
@@ -19,9 +19,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-APTUSD shows up in 3 pools here, with rates from 1.90% to 7.56% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+APTUSD shows up in 3 pools here, with rates from 1.91% to 7.56% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 6.40% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 6.45% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -29,9 +29,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 1.90% | 1.86% | Base rate |
-| pendle-v2 | 7.04% | 6.60% | Base rate |
-| pendle-v2 | 7.56% | 6.40% | Base rate |
+| curve-dex | 1.91% | 1.86% | Base rate |
+| pendle-v2 | 7.04% | 6.62% | Base rate |
+| pendle-v2 | 7.56% | 6.45% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -66,4 +66,4 @@ There is not enough qualifying APY history to rank APTUSD pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 17, 2026
+## Last updated October 18, 2026

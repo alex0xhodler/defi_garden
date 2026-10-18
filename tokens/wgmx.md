@@ -1,49 +1,46 @@
 # WGMX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 18, 2026. Rates change continuously.*
 
-The highest honest WGMX yield right now is 0.33% on gmx-solana (Solana), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WGMX yield right now is 0.41% on gmx-solana (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmx-solana →](https://www.defi.garden/?pool=4f1a20fc-cd3d-45f8-ab2d-637d537e3a4b#src=seo_token) | Solana | 0.21% | $360.4K |
-| [gmx-solana →](https://www.defi.garden/?pool=f34faa07-f81b-4214-8656-3f2d6ead7494#src=seo_token) | Solana | 0.27% | $205.5K |
-| [gmx-solana →](https://www.defi.garden/?pool=7ed8954f-c9e8-4e06-9c93-025e887142cb#src=seo_token) | Solana | 0.33% | $152.5K |
-| [gmx-solana →](https://www.defi.garden/?pool=892ecfd5-1eb1-4294-af2a-9a6ad79bdd18#src=seo_token) | Solana | 0.24% | $145.2K |
-| [gmx-solana →](https://www.defi.garden/?pool=e499e730-6f52-50d7-9b73-00ed86b6cea9#src=seo_token) | Solana | 0.18% | $104.4K |
+| [gmx-solana →](https://www.defi.garden/?pool=4f1a20fc-cd3d-45f8-ab2d-637d537e3a4b#src=seo_token) | Solana | 0.18% | $340.5K |
+| [gmx-solana →](https://www.defi.garden/?pool=f34faa07-f81b-4214-8656-3f2d6ead7494#src=seo_token) | Solana | 0.27% | $202.5K |
+| [gmx-solana →](https://www.defi.garden/?pool=892ecfd5-1eb1-4294-af2a-9a6ad79bdd18#src=seo_token) | Solana | 0.27% | $145.1K |
+| [gmx-solana →](https://www.defi.garden/?pool=7ed8954f-c9e8-4e06-9c93-025e887142cb#src=seo_token) | Solana | 0.41% | $140.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WGMX's lower-variability candidates are gmx-solana (Solana), 0.21% APY, $360.4K TVL, https://www.defi.garden/?pool=4f1a20fc-cd3d-45f8-ab2d-637d537e3a4b#src=seo_token; gmx-solana (Solana), 0.33% APY, $152.5K TVL, https://www.defi.garden/?pool=7ed8954f-c9e8-4e06-9c93-025e887142cb#src=seo_token; gmx-solana (Solana), 0.24% APY, $145.2K TVL, https://www.defi.garden/?pool=892ecfd5-1eb1-4294-af2a-9a6ad79bdd18#src=seo_token; gmx-solana (Solana), 0.27% APY, $205.5K TVL, https://www.defi.garden/?pool=f34faa07-f81b-4214-8656-3f2d6ead7494#src=seo_token; gmx-solana (Solana), 0.18% APY, $104.4K TVL, https://www.defi.garden/?pool=e499e730-6f52-50d7-9b73-00ed86b6cea9#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WGMX's lower-variability candidates are gmx-solana (Solana), 0.18% APY, $340.5K TVL, https://www.defi.garden/?pool=4f1a20fc-cd3d-45f8-ab2d-637d537e3a4b#src=seo_token; gmx-solana (Solana), 0.41% APY, $140.8K TVL, https://www.defi.garden/?pool=7ed8954f-c9e8-4e06-9c93-025e887142cb#src=seo_token; gmx-solana (Solana), 0.27% APY, $145.1K TVL, https://www.defi.garden/?pool=892ecfd5-1eb1-4294-af2a-9a6ad79bdd18#src=seo_token; gmx-solana (Solana), 0.27% APY, $202.5K TVL, https://www.defi.garden/?pool=f34faa07-f81b-4214-8656-3f2d6ead7494#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [gmx-solana →](https://www.defi.garden/?pool=4f1a20fc-cd3d-45f8-ab2d-637d537e3a4b#src=seo_token) | Solana | 0.21% | $360.4K |
-| 2 | [gmx-solana →](https://www.defi.garden/?pool=7ed8954f-c9e8-4e06-9c93-025e887142cb#src=seo_token) | Solana | 0.33% | $152.5K |
-| 3 | [gmx-solana →](https://www.defi.garden/?pool=892ecfd5-1eb1-4294-af2a-9a6ad79bdd18#src=seo_token) | Solana | 0.24% | $145.2K |
-| 4 | [gmx-solana →](https://www.defi.garden/?pool=f34faa07-f81b-4214-8656-3f2d6ead7494#src=seo_token) | Solana | 0.27% | $205.5K |
-| 5 | [gmx-solana →](https://www.defi.garden/?pool=e499e730-6f52-50d7-9b73-00ed86b6cea9#src=seo_token) | Solana | 0.18% | $104.4K |
+| 1 | [gmx-solana →](https://www.defi.garden/?pool=4f1a20fc-cd3d-45f8-ab2d-637d537e3a4b#src=seo_token) | Solana | 0.18% | $340.5K |
+| 2 | [gmx-solana →](https://www.defi.garden/?pool=7ed8954f-c9e8-4e06-9c93-025e887142cb#src=seo_token) | Solana | 0.41% | $140.8K |
+| 3 | [gmx-solana →](https://www.defi.garden/?pool=892ecfd5-1eb1-4294-af2a-9a6ad79bdd18#src=seo_token) | Solana | 0.27% | $145.1K |
+| 4 | [gmx-solana →](https://www.defi.garden/?pool=f34faa07-f81b-4214-8656-3f2d6ead7494#src=seo_token) | Solana | 0.27% | $202.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WGMX shows up in 5 pools here, with rates from 0.18% to 0.33% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+WGMX shows up in 4 pools here, with rates from 0.18% to 0.41% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-5 of these 5 pools have a trustworthy 30-day average on file, with a median of 29.07% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 23.86% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 5 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-5 of 5 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+4 of 4 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| gmx-solana | 0.21% | 1.04% | Base rate |
-| gmx-solana | 0.27% | 29.07% | Base rate |
-| gmx-solana | 0.33% | 33.94% | Base rate |
-| gmx-solana | 0.24% | 25.30% | Base rate |
-| gmx-solana | 0.18% | 32.40% | Base rate |
+| gmx-solana | 0.18% | 0.96% | Base rate |
+| gmx-solana | 0.27% | 26.22% | Base rate |
+| gmx-solana | 0.27% | 21.50% | Base rate |
+| gmx-solana | 0.41% | 31.95% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -51,11 +48,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WGMX yield today?
 
-0.33% APY on gmx-solana (Solana), based on live DefiLlama data.
+0.41% APY on gmx-solana (Solana), based on live DefiLlama data.
 
 ### How many WGMX pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $968.1K in total.
+4 live pools clear this page's $100K TVL floor, $828.9K in total.
 
 ### Are these rates safe?
 
@@ -63,7 +60,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WGMX pools have the most stable APY history?
 
-Based on APY history only, WGMX's lower-variability candidates are gmx-solana (Solana), 0.21% APY, $360.4K TVL, https://www.defi.garden/?pool=4f1a20fc-cd3d-45f8-ab2d-637d537e3a4b#src=seo_token; gmx-solana (Solana), 0.33% APY, $152.5K TVL, https://www.defi.garden/?pool=7ed8954f-c9e8-4e06-9c93-025e887142cb#src=seo_token; gmx-solana (Solana), 0.24% APY, $145.2K TVL, https://www.defi.garden/?pool=892ecfd5-1eb1-4294-af2a-9a6ad79bdd18#src=seo_token; gmx-solana (Solana), 0.27% APY, $205.5K TVL, https://www.defi.garden/?pool=f34faa07-f81b-4214-8656-3f2d6ead7494#src=seo_token; gmx-solana (Solana), 0.18% APY, $104.4K TVL, https://www.defi.garden/?pool=e499e730-6f52-50d7-9b73-00ed86b6cea9#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WGMX's lower-variability candidates are gmx-solana (Solana), 0.18% APY, $340.5K TVL, https://www.defi.garden/?pool=4f1a20fc-cd3d-45f8-ab2d-637d537e3a4b#src=seo_token; gmx-solana (Solana), 0.41% APY, $140.8K TVL, https://www.defi.garden/?pool=7ed8954f-c9e8-4e06-9c93-025e887142cb#src=seo_token; gmx-solana (Solana), 0.27% APY, $145.1K TVL, https://www.defi.garden/?pool=892ecfd5-1eb1-4294-af2a-9a6ad79bdd18#src=seo_token; gmx-solana (Solana), 0.27% APY, $202.5K TVL, https://www.defi.garden/?pool=f34faa07-f81b-4214-8656-3f2d6ead7494#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -78,4 +75,4 @@ Based on APY history only, WGMX's lower-variability candidates are gmx-solana (S
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 17, 2026
+## Last updated October 18, 2026

@@ -1,13 +1,13 @@
 # JUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 18, 2026. Rates change continuously.*
 
 The highest honest JUSD yield right now is 12.22% on jusd-finance (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [jusd-finance →](https://www.defi.garden/?pool=eda98ff9-24b1-53bc-8c9e-9d3ba547b73c#src=seo_token) | Ethereum | 12.22% | $12.38M |
-| [jusd-finance →](https://www.defi.garden/?pool=88d7696e-f8c7-5fec-a4b2-18e0c522b695#src=seo_token) | Arbitrum | 11.99% | $11.55M |
+| [jusd-finance →](https://www.defi.garden/?pool=eda98ff9-24b1-53bc-8c9e-9d3ba547b73c#src=seo_token) | Ethereum | 12.22% | $12.39M |
+| [jusd-finance →](https://www.defi.garden/?pool=88d7696e-f8c7-5fec-a4b2-18e0c522b695#src=seo_token) | Arbitrum | 11.81% | $11.55M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,16 +18,16 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-JUSD shows up in 2 pools here, with rates from 11.99% to 12.22% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+JUSD shows up in 2 pools here, with rates from 11.81% to 12.22% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 12.21% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 12.17% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| jusd-finance | 12.22% | 12.25% | Base rate |
-| jusd-finance | 11.99% | 12.17% | Base rate |
+| jusd-finance | 12.22% | 12.24% | Base rate |
+| jusd-finance | 11.81% | 12.09% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many JUSD pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $23.93M in total.
+2 live pools clear this page's $100K TVL floor, $23.94M in total.
 
 ### Are these rates safe?
 
@@ -63,4 +63,4 @@ There is not enough qualifying APY history to rank JUSD pools. This view covers 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated October 17, 2026
+## Last updated October 18, 2026

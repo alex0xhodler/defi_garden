@@ -1,43 +1,43 @@
 # VVS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 18, 2026. Rates change continuously.*
 
-The highest honest VVS yield right now is 1.71% on vvs-standard (Cronos), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VVS yield right now is 0.06% on vvs-standard (Cronos), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=2fca7a84-651c-440a-beb3-eced492a7bea#src=seo_token) | Cronos | 0.10% | $30.11M |
-| [vvs-standard →](https://www.defi.garden/?pool=40c95e2e-0d7b-4715-852c-341525e463b8#src=seo_token) | Cronos | 1.71% | $563K |
-| [vvs-standard →](https://www.defi.garden/?pool=1bd80748-3e6d-4852-aac9-6a8c6b6bee10#src=seo_token) | Cronos | 1.29% | $316.8K |
-| [vvs-standard →](https://www.defi.garden/?pool=eb29a2ea-1c01-59f4-b808-2ca987295086#src=seo_token) | Cronos | 0.06% | $223.4K |
-| [vvs-flawless →](https://www.defi.garden/?pool=00062f7e-aad2-5bdf-bb23-75237829e4da#src=seo_token) | Cronos | 2.55% | $168.1K |
-| [vvs-standard →](https://www.defi.garden/?pool=f9358618-5c20-4d3c-bae7-8af83995de78#src=seo_token) | Cronos | 0.39% | $137.7K |
-| [vvs-standard →](https://www.defi.garden/?pool=1b4fbfb0-ef9b-4e1f-98f4-a6e6d722b108#src=seo_token) | Cronos | 0.26% | $130.9K |
-| [vvs-standard →](https://www.defi.garden/?pool=fb048c68-903d-4e88-b0e4-9400d9e604c4#src=seo_token) | Cronos | 0.04% | $109.2K |
+| [vvs-standard →](https://www.defi.garden/?pool=2fca7a84-651c-440a-beb3-eced492a7bea#src=seo_token) | Cronos | 0.06% | $29.44M |
+| [vvs-standard →](https://www.defi.garden/?pool=40c95e2e-0d7b-4715-852c-341525e463b8#src=seo_token) | Cronos | 0.74% | $556.3K |
+| [vvs-standard →](https://www.defi.garden/?pool=1bd80748-3e6d-4852-aac9-6a8c6b6bee10#src=seo_token) | Cronos | 0.62% | $313K |
+| [vvs-standard →](https://www.defi.garden/?pool=eb29a2ea-1c01-59f4-b808-2ca987295086#src=seo_token) | Cronos | 0.02% | $218.8K |
+| [vvs-flawless →](https://www.defi.garden/?pool=00062f7e-aad2-5bdf-bb23-75237829e4da#src=seo_token) | Cronos | 2.08% | $164.3K |
+| [vvs-standard →](https://www.defi.garden/?pool=f9358618-5c20-4d3c-bae7-8af83995de78#src=seo_token) | Cronos | 0.18% | $135.8K |
+| [vvs-standard →](https://www.defi.garden/?pool=1b4fbfb0-ef9b-4e1f-98f4-a6e6d722b108#src=seo_token) | Cronos | 0.08% | $129.1K |
+| [vvs-standard →](https://www.defi.garden/?pool=fb048c68-903d-4e88-b0e4-9400d9e604c4#src=seo_token) | Cronos | 0.01% | $106.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, VVS's lower-variability candidates are vvs-standard (Cronos), 0.06% APY, $223.4K TVL, https://www.defi.garden/?pool=eb29a2ea-1c01-59f4-b808-2ca987295086#src=seo_token; vvs-standard (Cronos), 0.26% APY, $130.9K TVL, https://www.defi.garden/?pool=1b4fbfb0-ef9b-4e1f-98f4-a6e6d722b108#src=seo_token; vvs-standard (Cronos), 1.29% APY, $316.8K TVL, https://www.defi.garden/?pool=1bd80748-3e6d-4852-aac9-6a8c6b6bee10#src=seo_token; vvs-flawless (Cronos), 2.55% APY, $168.1K TVL, https://www.defi.garden/?pool=00062f7e-aad2-5bdf-bb23-75237829e4da#src=seo_token; vvs-standard (Cronos), 1.71% APY, $563K TVL, https://www.defi.garden/?pool=40c95e2e-0d7b-4715-852c-341525e463b8#src=seo_token; vvs-standard (Cronos), 0.10% APY, $30.11M TVL, https://www.defi.garden/?pool=2fca7a84-651c-440a-beb3-eced492a7bea#src=seo_token; vvs-standard (Cronos), 0.04% APY, $109.2K TVL, https://www.defi.garden/?pool=fb048c68-903d-4e88-b0e4-9400d9e604c4#src=seo_token; vvs-standard (Cronos), 0.39% APY, $137.7K TVL, https://www.defi.garden/?pool=f9358618-5c20-4d3c-bae7-8af83995de78#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, VVS's lower-variability candidates are vvs-standard (Cronos), 0.02% APY, $218.8K TVL, https://www.defi.garden/?pool=eb29a2ea-1c01-59f4-b808-2ca987295086#src=seo_token; vvs-standard (Cronos), 0.08% APY, $129.1K TVL, https://www.defi.garden/?pool=1b4fbfb0-ef9b-4e1f-98f4-a6e6d722b108#src=seo_token; vvs-standard (Cronos), 0.62% APY, $313K TVL, https://www.defi.garden/?pool=1bd80748-3e6d-4852-aac9-6a8c6b6bee10#src=seo_token; vvs-flawless (Cronos), 2.08% APY, $164.3K TVL, https://www.defi.garden/?pool=00062f7e-aad2-5bdf-bb23-75237829e4da#src=seo_token; vvs-standard (Cronos), 0.74% APY, $556.3K TVL, https://www.defi.garden/?pool=40c95e2e-0d7b-4715-852c-341525e463b8#src=seo_token; vvs-standard (Cronos), 0.06% APY, $29.44M TVL, https://www.defi.garden/?pool=2fca7a84-651c-440a-beb3-eced492a7bea#src=seo_token; vvs-standard (Cronos), 0.01% APY, $106.7K TVL, https://www.defi.garden/?pool=fb048c68-903d-4e88-b0e4-9400d9e604c4#src=seo_token; vvs-standard (Cronos), 0.18% APY, $135.8K TVL, https://www.defi.garden/?pool=f9358618-5c20-4d3c-bae7-8af83995de78#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [vvs-standard →](https://www.defi.garden/?pool=eb29a2ea-1c01-59f4-b808-2ca987295086#src=seo_token) | Cronos | 0.06% | $223.4K |
-| 2 | [vvs-standard →](https://www.defi.garden/?pool=1b4fbfb0-ef9b-4e1f-98f4-a6e6d722b108#src=seo_token) | Cronos | 0.26% | $130.9K |
-| 3 | [vvs-standard →](https://www.defi.garden/?pool=1bd80748-3e6d-4852-aac9-6a8c6b6bee10#src=seo_token) | Cronos | 1.29% | $316.8K |
-| 4 | [vvs-flawless →](https://www.defi.garden/?pool=00062f7e-aad2-5bdf-bb23-75237829e4da#src=seo_token) | Cronos | 2.55% | $168.1K |
-| 5 | [vvs-standard →](https://www.defi.garden/?pool=40c95e2e-0d7b-4715-852c-341525e463b8#src=seo_token) | Cronos | 1.71% | $563K |
-| 6 | [vvs-standard →](https://www.defi.garden/?pool=2fca7a84-651c-440a-beb3-eced492a7bea#src=seo_token) | Cronos | 0.10% | $30.11M |
-| 7 | [vvs-standard →](https://www.defi.garden/?pool=fb048c68-903d-4e88-b0e4-9400d9e604c4#src=seo_token) | Cronos | 0.04% | $109.2K |
-| 8 | [vvs-standard →](https://www.defi.garden/?pool=f9358618-5c20-4d3c-bae7-8af83995de78#src=seo_token) | Cronos | 0.39% | $137.7K |
+| 1 | [vvs-standard →](https://www.defi.garden/?pool=eb29a2ea-1c01-59f4-b808-2ca987295086#src=seo_token) | Cronos | 0.02% | $218.8K |
+| 2 | [vvs-standard →](https://www.defi.garden/?pool=1b4fbfb0-ef9b-4e1f-98f4-a6e6d722b108#src=seo_token) | Cronos | 0.08% | $129.1K |
+| 3 | [vvs-standard →](https://www.defi.garden/?pool=1bd80748-3e6d-4852-aac9-6a8c6b6bee10#src=seo_token) | Cronos | 0.62% | $313K |
+| 4 | [vvs-flawless →](https://www.defi.garden/?pool=00062f7e-aad2-5bdf-bb23-75237829e4da#src=seo_token) | Cronos | 2.08% | $164.3K |
+| 5 | [vvs-standard →](https://www.defi.garden/?pool=40c95e2e-0d7b-4715-852c-341525e463b8#src=seo_token) | Cronos | 0.74% | $556.3K |
+| 6 | [vvs-standard →](https://www.defi.garden/?pool=2fca7a84-651c-440a-beb3-eced492a7bea#src=seo_token) | Cronos | 0.06% | $29.44M |
+| 7 | [vvs-standard →](https://www.defi.garden/?pool=fb048c68-903d-4e88-b0e4-9400d9e604c4#src=seo_token) | Cronos | 0.01% | $106.7K |
+| 8 | [vvs-standard →](https://www.defi.garden/?pool=f9358618-5c20-4d3c-bae7-8af83995de78#src=seo_token) | Cronos | 0.18% | $135.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-VVS shows up in 8 pools here, with rates from 0.04% to 2.55% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+VVS shows up in 8 pools here, with rates from 0.01% to 2.08% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 0.73% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 0.72% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 8 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -45,14 +45,14 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| vvs-standard | 0.10% | 0.08% | Base rate |
-| vvs-standard | 1.71% | 2.97% | Base rate |
-| vvs-standard | 1.29% | 2.00% | Base rate |
-| vvs-standard | 0.06% | 0.03% | Base rate |
-| vvs-flawless | 2.55% | 5.38% | Base rate |
-| vvs-standard | 0.39% | 0.71% | Base rate |
-| vvs-standard | 0.26% | 0.75% | Base rate |
-| vvs-standard | 0.04% | 0.09% | Base rate |
+| vvs-standard | 0.06% | 0.08% | Base rate |
+| vvs-standard | 0.74% | 2.94% | Base rate |
+| vvs-standard | 0.62% | 1.96% | Base rate |
+| vvs-standard | 0.02% | 0.02% | Base rate |
+| vvs-flawless | 2.08% | 5.23% | Base rate |
+| vvs-standard | 0.18% | 0.71% | Base rate |
+| vvs-standard | 0.08% | 0.74% | Base rate |
+| vvs-standard | 0.01% | 0.09% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -60,11 +60,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest VVS yield today?
 
-1.71% APY on vvs-standard (Cronos), based on live DefiLlama data.
+0.06% APY on vvs-standard (Cronos), based on live DefiLlama data.
 
 ### How many VVS pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $31.76M in total.
+8 live pools clear this page's $100K TVL floor, $31.06M in total.
 
 ### Are these rates safe?
 
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which VVS pools have the most stable APY history?
 
-Based on APY history only, VVS's lower-variability candidates are vvs-standard (Cronos), 0.06% APY, $223.4K TVL, https://www.defi.garden/?pool=eb29a2ea-1c01-59f4-b808-2ca987295086#src=seo_token; vvs-standard (Cronos), 0.26% APY, $130.9K TVL, https://www.defi.garden/?pool=1b4fbfb0-ef9b-4e1f-98f4-a6e6d722b108#src=seo_token; vvs-standard (Cronos), 1.29% APY, $316.8K TVL, https://www.defi.garden/?pool=1bd80748-3e6d-4852-aac9-6a8c6b6bee10#src=seo_token; vvs-flawless (Cronos), 2.55% APY, $168.1K TVL, https://www.defi.garden/?pool=00062f7e-aad2-5bdf-bb23-75237829e4da#src=seo_token; vvs-standard (Cronos), 1.71% APY, $563K TVL, https://www.defi.garden/?pool=40c95e2e-0d7b-4715-852c-341525e463b8#src=seo_token; vvs-standard (Cronos), 0.10% APY, $30.11M TVL, https://www.defi.garden/?pool=2fca7a84-651c-440a-beb3-eced492a7bea#src=seo_token; vvs-standard (Cronos), 0.04% APY, $109.2K TVL, https://www.defi.garden/?pool=fb048c68-903d-4e88-b0e4-9400d9e604c4#src=seo_token; vvs-standard (Cronos), 0.39% APY, $137.7K TVL, https://www.defi.garden/?pool=f9358618-5c20-4d3c-bae7-8af83995de78#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, VVS's lower-variability candidates are vvs-standard (Cronos), 0.02% APY, $218.8K TVL, https://www.defi.garden/?pool=eb29a2ea-1c01-59f4-b808-2ca987295086#src=seo_token; vvs-standard (Cronos), 0.08% APY, $129.1K TVL, https://www.defi.garden/?pool=1b4fbfb0-ef9b-4e1f-98f4-a6e6d722b108#src=seo_token; vvs-standard (Cronos), 0.62% APY, $313K TVL, https://www.defi.garden/?pool=1bd80748-3e6d-4852-aac9-6a8c6b6bee10#src=seo_token; vvs-flawless (Cronos), 2.08% APY, $164.3K TVL, https://www.defi.garden/?pool=00062f7e-aad2-5bdf-bb23-75237829e4da#src=seo_token; vvs-standard (Cronos), 0.74% APY, $556.3K TVL, https://www.defi.garden/?pool=40c95e2e-0d7b-4715-852c-341525e463b8#src=seo_token; vvs-standard (Cronos), 0.06% APY, $29.44M TVL, https://www.defi.garden/?pool=2fca7a84-651c-440a-beb3-eced492a7bea#src=seo_token; vvs-standard (Cronos), 0.01% APY, $106.7K TVL, https://www.defi.garden/?pool=fb048c68-903d-4e88-b0e4-9400d9e604c4#src=seo_token; vvs-standard (Cronos), 0.18% APY, $135.8K TVL, https://www.defi.garden/?pool=f9358618-5c20-4d3c-bae7-8af83995de78#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -87,4 +87,4 @@ Based on APY history only, VVS's lower-variability candidates are vvs-standard (
 
 - [Cronos](https://www.defi.garden/chains/cronos)
 
-## Last updated October 17, 2026
+## Last updated October 18, 2026

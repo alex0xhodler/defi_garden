@@ -1,12 +1,12 @@
 # USDHL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 18, 2026. Rates change continuously.*
 
-The highest honest USDHL yield right now is 0.01% on hyperswap-v3 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDHL yield right now is 0.10% on hyperswap-v3 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hyperswap-v3 →](https://www.defi.garden/?pool=39bdd699-8e90-4724-988d-4533b0031fdc#src=seo_token) | Hyperliquid L1 | 0.01% | $142.8K |
+| [hyperswap-v3 →](https://www.defi.garden/?pool=39bdd699-8e90-4724-988d-4533b0031fdc#src=seo_token) | Hyperliquid L1 | 0.10% | $141.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest USDHL yield today?
 
-0.01% APY on hyperswap-v3 (Hyperliquid L1), based on live DefiLlama data.
+0.10% APY on hyperswap-v3 (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many USDHL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $142.8K in total.
+1 live pool clear this page's $100K TVL floor, $141.7K in total.
 
 ### Are these rates safe?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank USDHL pools. This view covers
 - [THBILL](https://www.defi.garden/tokens/thbill)
 - [UBTC](https://www.defi.garden/tokens/ubtc)
 - [WSTHYPE](https://www.defi.garden/tokens/wsthype)
-- [XBTC](https://www.defi.garden/tokens/xbtc)
+- [USDM](https://www.defi.garden/tokens/usdm)
 
 ## Available on
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated October 17, 2026
+## Last updated October 18, 2026

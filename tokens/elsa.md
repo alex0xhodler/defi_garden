@@ -1,12 +1,12 @@
 # ELSA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 18, 2026. Rates change continuously.*
 
-The highest honest ELSA yield right now is 5.37% on fluxion-network (Mantle), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ELSA yield right now is 1.22% on fluxion-network (Mantle), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fluxion-network →](https://www.defi.garden/?pool=649bee89-0a34-4eb1-b8ab-7c5fdee07ccd#src=seo_token) | Mantle | 5.37% | $166.9K |
+| [fluxion-network →](https://www.defi.garden/?pool=649bee89-0a34-4eb1-b8ab-7c5fdee07ccd#src=seo_token) | Mantle | 1.22% | $164.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ELSA yield today?
 
-5.37% APY on fluxion-network (Mantle), based on live DefiLlama data.
+1.22% APY on fluxion-network (Mantle), based on live DefiLlama data.
 
 ### How many ELSA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $166.9K in total.
+1 live pool clear this page's $100K TVL floor, $164.7K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank ELSA pools. This view covers 
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [WSPYX](https://www.defi.garden/tokens/wspyx)
 - [KII](https://www.defi.garden/tokens/kii)
-- [BSB](https://www.defi.garden/tokens/bsb)
 - [BILL](https://www.defi.garden/tokens/bill)
 - [WNVDAX](https://www.defi.garden/tokens/wnvdax)
+- [WAAPLX](https://www.defi.garden/tokens/waaplx)
 
 ## Available on
 
 - [Mantle](https://www.defi.garden/chains/mantle)
 
-## Last updated October 17, 2026
+## Last updated October 18, 2026

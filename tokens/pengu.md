@@ -1,12 +1,12 @@
 # PENGU DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 18, 2026. Rates change continuously.*
 
-The highest honest PENGU yield right now is 12.04% on orca-dex (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PENGU yield right now is 11.26% on orca-dex (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=b3414aaf-595d-4bb0-9ff8-78f93d2128fa#src=seo_token) | Solana | 12.04% | $3.44M |
+| [orca-dex →](https://www.defi.garden/?pool=b3414aaf-595d-4bb0-9ff8-78f93d2128fa#src=seo_token) | Solana | 11.26% | $3.37M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,9 +17,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-PENGU shows up in 1 pools here, with rates from 12.04% to 12.04% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+PENGU shows up in 1 pools here, with rates from 11.26% to 11.26% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 35.38% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 35.39% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -27,7 +27,7 @@ All 1 pool pays a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| orca-dex | 12.04% | 35.38% | Base rate |
+| orca-dex | 11.26% | 35.39% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest PENGU yield today?
 
-12.04% APY on orca-dex (Solana), based on live DefiLlama data.
+11.26% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many PENGU pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $3.62M in total.
+2 live pools clear this page's $100K TVL floor, $3.55M in total.
 
 ### Are these rates safe?
 
@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank PENGU pools. This view covers
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 17, 2026
+## Last updated October 18, 2026

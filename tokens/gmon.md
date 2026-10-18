@@ -1,31 +1,31 @@
 # GMON DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 18, 2026. Rates change continuously.*
 
-The highest honest GMON yield right now is 10.89% on magma-staking (Monad), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GMON yield right now is 10.54% on magma-staking (Monad), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [magma-staking →](https://www.defi.garden/?pool=96f74061-dc9a-4ef7-8117-6cd3935230de#src=seo_token) | Monad | 10.89% | $742.2K |
-| [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7#src=seo_token) | Monad | 8.00% | $520.1K |
+| [magma-staking →](https://www.defi.garden/?pool=96f74061-dc9a-4ef7-8117-6cd3935230de#src=seo_token) | Monad | 10.54% | $685.2K |
+| [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7#src=seo_token) | Monad | 8.00% | $521.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, GMON's lower-variability candidates are curve-dex (Monad), 8.00% APY, $520.1K TVL, https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7#src=seo_token; magma-staking (Monad), 10.89% APY, $742.2K TVL, https://www.defi.garden/?pool=96f74061-dc9a-4ef7-8117-6cd3935230de#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GMON's lower-variability candidates are curve-dex (Monad), 8.00% APY, $521.9K TVL, https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7#src=seo_token; magma-staking (Monad), 10.54% APY, $685.2K TVL, https://www.defi.garden/?pool=96f74061-dc9a-4ef7-8117-6cd3935230de#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7#src=seo_token) | Monad | 8.00% | $520.1K |
-| 2 | [magma-staking →](https://www.defi.garden/?pool=96f74061-dc9a-4ef7-8117-6cd3935230de#src=seo_token) | Monad | 10.89% | $742.2K |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7#src=seo_token) | Monad | 8.00% | $521.9K |
+| 2 | [magma-staking →](https://www.defi.garden/?pool=96f74061-dc9a-4ef7-8117-6cd3935230de#src=seo_token) | Monad | 10.54% | $685.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-GMON shows up in 2 pools here, with rates from 8.00% to 10.89% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+GMON shows up in 2 pools here, with rates from 8.00% to 10.54% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 8.77% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 8.82% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -33,8 +33,8 @@ GMON shows up in 2 pools here, with rates from 8.00% to 10.89% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| magma-staking | 10.89% | 10.74% | Base rate |
-| curve-dex | 8.00% | 6.80% | 100.00% incentives |
+| magma-staking | 10.54% | 10.74% | Base rate |
+| curve-dex | 8.00% | 6.89% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest GMON yield today?
 
-10.89% APY on magma-staking (Monad), based on live DefiLlama data.
+10.54% APY on magma-staking (Monad), based on live DefiLlama data.
 
 ### How many GMON pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.39M in total.
+3 live pools clear this page's $100K TVL floor, $1.32M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which GMON pools have the most stable APY history?
 
-Based on APY history only, GMON's lower-variability candidates are curve-dex (Monad), 8.00% APY, $520.1K TVL, https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7#src=seo_token; magma-staking (Monad), 10.89% APY, $742.2K TVL, https://www.defi.garden/?pool=96f74061-dc9a-4ef7-8117-6cd3935230de#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GMON's lower-variability candidates are curve-dex (Monad), 8.00% APY, $521.9K TVL, https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7#src=seo_token; magma-staking (Monad), 10.54% APY, $685.2K TVL, https://www.defi.garden/?pool=96f74061-dc9a-4ef7-8117-6cd3935230de#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +69,4 @@ Based on APY history only, GMON's lower-variability candidates are curve-dex (Mo
 
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated October 17, 2026
+## Last updated October 18, 2026

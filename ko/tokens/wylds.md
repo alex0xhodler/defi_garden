@@ -1,24 +1,24 @@
 # WYLDS 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 17, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 18, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 WYLDS의 가장 높은 정직한 수익률은 Solana의 kamino-lend에서 4.53%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [kamino-lend →](https://www.defi.garden/?pool=65be9bac-dea7-5d51-a834-e3ae988c6f0e#src=seo_token) | Solana | 4.53% | $62.6M |
-| [hastra →](https://www.defi.garden/?pool=2218b935-52b4-496b-9fb2-a59116503cf1#src=seo_token) | Solana | 3.54% | $7.97M |
-| [hastra →](https://www.defi.garden/?pool=3fc5604e-608a-51d6-99cc-f6f632902a5c#src=seo_token) | Ethereum | 3.54% | $4.64M |
+| [kamino-lend →](https://www.defi.garden/?pool=65be9bac-dea7-5d51-a834-e3ae988c6f0e#src=seo_token) | Solana | 4.53% | $62.61M |
+| [hastra →](https://www.defi.garden/?pool=2218b935-52b4-496b-9fb2-a59116503cf1#src=seo_token) | Solana | 3.54% | $7.91M |
+| [hastra →](https://www.defi.garden/?pool=3fc5604e-608a-51d6-99cc-f6f632902a5c#src=seo_token) | Ethereum | 3.54% | $4.7M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 WYLDS의 변동성 낮은 후보는 Solana의 hastra, APY 3.54%, TVL $7.97M, https://www.defi.garden/?pool=2218b935-52b4-496b-9fb2-a59116503cf1#src=seo_token; Ethereum의 hastra, APY 3.54%, TVL $4.64M, https://www.defi.garden/?pool=3fc5604e-608a-51d6-99cc-f6f632902a5c#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 WYLDS의 변동성 낮은 후보는 Solana의 hastra, APY 3.54%, TVL $7.91M, https://www.defi.garden/?pool=2218b935-52b4-496b-9fb2-a59116503cf1#src=seo_token; Ethereum의 hastra, APY 3.54%, TVL $4.7M, https://www.defi.garden/?pool=3fc5604e-608a-51d6-99cc-f6f632902a5c#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [hastra →](https://www.defi.garden/?pool=2218b935-52b4-496b-9fb2-a59116503cf1#src=seo_token) | Solana | 3.54% | $7.97M |
-| 2 | [hastra →](https://www.defi.garden/?pool=3fc5604e-608a-51d6-99cc-f6f632902a5c#src=seo_token) | Ethereum | 3.54% | $4.64M |
+| 1 | [hastra →](https://www.defi.garden/?pool=2218b935-52b4-496b-9fb2-a59116503cf1#src=seo_token) | Solana | 3.54% | $7.91M |
+| 2 | [hastra →](https://www.defi.garden/?pool=3fc5604e-608a-51d6-99cc-f6f632902a5c#src=seo_token) | Ethereum | 3.54% | $4.7M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -32,7 +32,7 @@ WYLDS 풀은 여기 3개가 있고, 2개 체인에서 APY가 3.54%부터 4.53%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| kamino-lend | 4.53% | 4.85% | 기본 금리 |
+| kamino-lend | 4.53% | 4.68% | 기본 금리 |
 | hastra | 3.54% | 3.52% | 기본 금리 |
 | hastra | 3.54% | 3.52% | 기본 금리 |
 
@@ -54,7 +54,7 @@ DefiLlama 실시간 데이터 기준, Solana의 kamino-lend에서 APY 4.53%예�
 
 ### WYLDS 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 WYLDS의 변동성 낮은 후보는 Solana의 hastra, APY 3.54%, TVL $7.97M, https://www.defi.garden/?pool=2218b935-52b4-496b-9fb2-a59116503cf1#src=seo_token; Ethereum의 hastra, APY 3.54%, TVL $4.64M, https://www.defi.garden/?pool=3fc5604e-608a-51d6-99cc-f6f632902a5c#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 WYLDS의 변동성 낮은 후보는 Solana의 hastra, APY 3.54%, TVL $7.91M, https://www.defi.garden/?pool=2218b935-52b4-496b-9fb2-a59116503cf1#src=seo_token; Ethereum의 hastra, APY 3.54%, TVL $4.7M, https://www.defi.garden/?pool=3fc5604e-608a-51d6-99cc-f6f632902a5c#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -70,4 +70,4 @@ APY 이력만 기준으로 비교한 WYLDS의 변동성 낮은 후보는 Solana�
 - [Solana](https://www.defi.garden/ko/chains/solana)
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: October 17, 2026
+## 마지막 업데이트: October 18, 2026

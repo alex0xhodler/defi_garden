@@ -1,31 +1,31 @@
 # TTWO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 17, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 18, 2026. Rates change continuously.*
 
-The highest honest TTWO yield right now is 786.92% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TTWO yield right now is 202.33% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=7293b4f5-43df-54db-803b-decb9a3d5a53#src=seo_token) | Solana | 122.36% | $453.5K |
-| [raydium-amm →](https://www.defi.garden/?pool=fecc3a72-9111-564e-a107-904097d7a0e6#src=seo_token) | Solana | 786.92% | $154.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=7293b4f5-43df-54db-803b-decb9a3d5a53#src=seo_token) | Solana | 115.25% | $553K |
+| [raydium-amm →](https://www.defi.garden/?pool=fecc3a72-9111-564e-a107-904097d7a0e6#src=seo_token) | Solana | 202.33% | $152K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, TTWO's lower-variability candidates are raydium-amm (Solana), 122.36% APY, $453.5K TVL, https://www.defi.garden/?pool=7293b4f5-43df-54db-803b-decb9a3d5a53#src=seo_token; raydium-amm (Solana), 786.92% APY, $154.1K TVL, https://www.defi.garden/?pool=fecc3a72-9111-564e-a107-904097d7a0e6#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TTWO's lower-variability candidates are raydium-amm (Solana), 115.25% APY, $553K TVL, https://www.defi.garden/?pool=7293b4f5-43df-54db-803b-decb9a3d5a53#src=seo_token; raydium-amm (Solana), 202.33% APY, $152K TVL, https://www.defi.garden/?pool=fecc3a72-9111-564e-a107-904097d7a0e6#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=7293b4f5-43df-54db-803b-decb9a3d5a53#src=seo_token) | Solana | 122.36% | $453.5K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=fecc3a72-9111-564e-a107-904097d7a0e6#src=seo_token) | Solana | 786.92% | $154.1K |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=7293b4f5-43df-54db-803b-decb9a3d5a53#src=seo_token) | Solana | 115.25% | $553K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=fecc3a72-9111-564e-a107-904097d7a0e6#src=seo_token) | Solana | 202.33% | $152K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-TTWO shows up in 2 pools here, with rates from 122.36% to 786.92% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+TTWO shows up in 2 pools here, with rates from 115.25% to 202.33% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 349.00% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 350.36% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 122.36% | 472.65% | Base rate |
-| raydium-amm | 786.92% | 225.35% | Base rate |
+| raydium-amm | 115.25% | 458.84% | Base rate |
+| raydium-amm | 202.33% | 241.89% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest TTWO yield today?
 
-786.92% APY on raydium-amm (Solana), based on live DefiLlama data.
+202.33% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many TTWO pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $607.6K in total.
+2 live pools clear this page's $100K TVL floor, $705K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which TTWO pools have the most stable APY history?
 
-Based on APY history only, TTWO's lower-variability candidates are raydium-amm (Solana), 122.36% APY, $453.5K TVL, https://www.defi.garden/?pool=7293b4f5-43df-54db-803b-decb9a3d5a53#src=seo_token; raydium-amm (Solana), 786.92% APY, $154.1K TVL, https://www.defi.garden/?pool=fecc3a72-9111-564e-a107-904097d7a0e6#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TTWO's lower-variability candidates are raydium-amm (Solana), 115.25% APY, $553K TVL, https://www.defi.garden/?pool=7293b4f5-43df-54db-803b-decb9a3d5a53#src=seo_token; raydium-amm (Solana), 202.33% APY, $152K TVL, https://www.defi.garden/?pool=fecc3a72-9111-564e-a107-904097d7a0e6#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +69,4 @@ Based on APY history only, TTWO's lower-variability candidates are raydium-amm (
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 17, 2026
+## Last updated October 18, 2026
