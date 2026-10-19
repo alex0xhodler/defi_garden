@@ -420,26 +420,6 @@
       "permanent": true
     },
     {
-      "source": "/pools/bitwise-uscc-uscc-ethereum",
-      "destination": "/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/ko/pools/bitwise-uscc-uscc-ethereum",
-      "destination": "/ko/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/pt/pools/bitwise-uscc-uscc-ethereum",
-      "destination": "/pt/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/es/pools/bitwise-uscc-uscc-ethereum",
-      "destination": "/es/chains/ethereum",
-      "permanent": true
-    },
-    {
       "source": "/pools/blazestake-bsol-solana",
       "destination": "/chains/solana",
       "permanent": true
@@ -697,6 +677,26 @@
     {
       "source": "/es/pools/kamino-lend-dsol-solana",
       "destination": "/es/chains/solana",
+      "permanent": true
+    },
+    {
+      "source": "/pools/kinetiq-khype-khype-hyperliquid-l1",
+      "destination": "/chains/hyperliquid-l1",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/kinetiq-khype-khype-hyperliquid-l1",
+      "destination": "/ko/chains/hyperliquid-l1",
+      "permanent": true
+    },
+    {
+      "source": "/pt/pools/kinetiq-khype-khype-hyperliquid-l1",
+      "destination": "/pt/chains/hyperliquid-l1",
+      "permanent": true
+    },
+    {
+      "source": "/es/pools/kinetiq-khype-khype-hyperliquid-l1",
+      "destination": "/es/chains/hyperliquid-l1",
       "permanent": true
     },
     {

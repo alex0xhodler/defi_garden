@@ -1,12 +1,12 @@
 # ROXIFI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
 
-The highest honest ROXIFI yield right now is 7.13% on morpho-blue (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ROXIFI yield right now is 6.83% on morpho-blue (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=31ab824d-a5b1-546f-8e41-0a40271bfe41#src=seo_token) | Monad | 7.13% | $2.9M |
+| [morpho-blue →](https://www.defi.garden/?pool=31ab824d-a5b1-546f-8e41-0a40271bfe41#src=seo_token) | Monad | 6.83% | $2.9M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ROXIFI yield today?
 
-7.13% APY on morpho-blue (Monad), based on live DefiLlama data.
+6.83% APY on morpho-blue (Monad), based on live DefiLlama data.
 
 ### How many ROXIFI pools clear the TVL floor?
 
@@ -36,14 +36,14 @@ There is not enough qualifying APY history to rank ROXIFI pools. This view cover
 ## Related tokens
 
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
-- [WETH](https://www.defi.garden/tokens/weth)
 - [SUSDE](https://www.defi.garden/tokens/susde)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
 - [BTC](https://www.defi.garden/tokens/btc)
+- [PT](https://www.defi.garden/tokens/pt)
 
 ## Available on
 
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated October 18, 2026
+## Last updated October 19, 2026

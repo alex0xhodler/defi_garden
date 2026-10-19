@@ -1,12 +1,12 @@
 # DNA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
 
-The highest honest DNA yield right now is 2.79% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DNA yield right now is 680.86% on uniswap-v3 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=d43c7c54-6d59-48f3-9607-450e3e4f8c12#src=seo_token) | Solana | 2.79% | $100.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=72462ba7-081b-5698-a975-cf3c7e709493#src=seo_token) | BSC | 680.86% | $132K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DNA yield today?
 
-2.79% APY on raydium-amm (Solana), based on live DefiLlama data.
+680.86% APY on uniswap-v3 (BSC), based on live DefiLlama data.
 
 ### How many DNA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $100.1K in total.
+1 live pool clear this page's $100K TVL floor, $132K in total.
 
 ### Are these rates safe?
 
@@ -35,15 +35,15 @@ There is not enough qualifying APY history to rank DNA pools. This view covers A
 
 ## Related tokens
 
-- [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [USDY](https://www.defi.garden/tokens/usdy)
-- [USDE](https://www.defi.garden/tokens/usde)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [USYC](https://www.defi.garden/tokens/usyc)
+- [SLISBNB](https://www.defi.garden/tokens/slisbnb)
+- [TRX](https://www.defi.garden/tokens/trx)
 
 ## Available on
 
-- [Solana](https://www.defi.garden/chains/solana)
+- [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated October 18, 2026
+## Last updated October 19, 2026

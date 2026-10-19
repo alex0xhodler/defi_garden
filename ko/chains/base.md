@@ -1,17 +1,17 @@
 # Base 디파이 수익률
 
-현재 Base의 가장 높은 정직한 수익률은 Base의 morpho-blue에서 5.80%이며, $100K TVL 기준을 넘는 1,072개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 Base의 가장 높은 정직한 수익률은 Base의 morpho-blue에서 5.79%이며, $100K TVL 기준을 넘는 1,068개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| SPARKUSDC | [morpho-blue →](https://www.defi.garden/ko/pools/morpho-blue-sparkusdc-base) | 4.24% | $480.82M |
-| SIRLOINUSDC | [morpho-blue →](https://www.defi.garden/ko/pools/morpho-blue-sirloinusdc-base) | 5.80% | $466.38M |
-| GTUSDCP | [morpho-blue →](https://www.defi.garden/ko/pools/morpho-blue-gtusdcp-base) | 4.72% | $413.12M |
-| USDE | [morpho-blue →](https://www.defi.garden/ko/pools/morpho-blue-usde-base) | 4.75% | $387.34M |
-| GROVE-STEAKUSDC | [morpho-blue →](https://www.defi.garden/?pool=28470287-2c5b-5744-bc13-b9f1c0190b7b#src=seo_chain) | 4.72% | $378.78M |
-| CBBTC | [aave-v3 →](https://www.defi.garden/?pool=89bc7c4c-d71c-435c-ab28-56c803d51320#src=seo_chain) | 0.01% | $232.95M |
-| GTUSDCP | [morpho-blue →](https://www.defi.garden/ko/pools/morpho-blue-gtusdcp-base-df7ccf) | 4.72% | $169.05M |
-| STEAKUSDC | [morpho-blue →](https://www.defi.garden/ko/pools/morpho-blue-steakusdc-base) | 4.72% | $147.97M |
+| SIRLOINUSDC | [morpho-blue →](https://www.defi.garden/ko/pools/morpho-blue-sirloinusdc-base) | 5.79% | $470.35M |
+| SPARKUSDC | [morpho-blue →](https://www.defi.garden/ko/pools/morpho-blue-sparkusdc-base) | 4.23% | $451.25M |
+| GTUSDCP | [morpho-blue →](https://www.defi.garden/ko/pools/morpho-blue-gtusdcp-base) | 4.71% | $413.34M |
+| GROVE-STEAKUSDC | [morpho-blue →](https://www.defi.garden/?pool=28470287-2c5b-5744-bc13-b9f1c0190b7b#src=seo_chain) | 4.71% | $398.24M |
+| USDE | [morpho-blue →](https://www.defi.garden/ko/pools/morpho-blue-usde-base) | 4.75% | $385.11M |
+| CBBTC | [aave-v3 →](https://www.defi.garden/?pool=89bc7c4c-d71c-435c-ab28-56c803d51320#src=seo_chain) | 0.01% | $235.09M |
+| GTUSDCP | [morpho-blue →](https://www.defi.garden/ko/pools/morpho-blue-gtusdcp-base-df7ccf) | 4.71% | $168.16M |
+| STEAKUSDC | [morpho-blue →](https://www.defi.garden/ko/pools/morpho-blue-steakusdc-base) | 4.71% | $148.27M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,11 +19,11 @@
 
 ### 오늘 Base의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 morpho-blue에서 APY 5.80%예요.
+DefiLlama 실시간 데이터 기준, Base의 morpho-blue에서 APY 5.79%예요.
 
 ### Base 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1,072개이며, 합산 TVL은 $8.26B예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1,068개이며, 합산 TVL은 $8.31B예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -42,10 +42,10 @@ DefiLlama 실시간 데이터 기준, Base의 morpho-blue에서 APY 5.80%예요.
 
 - [GTUSDCP](https://www.defi.garden/ko/tokens/gtusdcp)
 - [STEAKUSDC](https://www.defi.garden/ko/tokens/steakusdc)
-- [SPARKUSDC](https://www.defi.garden/ko/tokens/sparkusdc)
 - [SIRLOINUSDC](https://www.defi.garden/ko/tokens/sirloinusdc)
-- [USDE](https://www.defi.garden/ko/tokens/usde)
+- [SPARKUSDC](https://www.defi.garden/ko/tokens/sparkusdc)
 - [GROVE](https://www.defi.garden/ko/tokens/grove)
+- [USDE](https://www.defi.garden/ko/tokens/usde)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
-## 마지막 업데이트: October 18, 2026
+## 마지막 업데이트: October 19, 2026

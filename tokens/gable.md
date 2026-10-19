@@ -1,12 +1,12 @@
 # GABLE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
 
-The highest honest GABLE yield right now is 29.17% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GABLE yield right now is 16.45% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=1050bc62-0149-55e8-a4a4-e30ddbec1e94#src=seo_token) | Solana | 29.17% | $110.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=1050bc62-0149-55e8-a4a4-e30ddbec1e94#src=seo_token) | Solana | 16.45% | $117.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GABLE yield today?
 
-29.17% APY on raydium-amm (Solana), based on live DefiLlama data.
+16.45% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many GABLE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $110.7K in total.
+1 live pool clear this page's $100K TVL floor, $117.2K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank GABLE pools. This view covers
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 18, 2026
+## Last updated October 19, 2026

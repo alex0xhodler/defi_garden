@@ -1,12 +1,12 @@
 # SRNUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
 
-The highest honest SRNUSD yield right now is 4.69% on strata-markets (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SRNUSD yield right now is 4.71% on strata-markets (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=979711ce-d0c0-4aae-a5fc-d7b76e868649#src=seo_token) | Ethereum | 4.69% | $185.3K |
+| [strata-markets →](https://www.defi.garden/?pool=979711ce-d0c0-4aae-a5fc-d7b76e868649#src=seo_token) | Ethereum | 4.71% | $123.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SRNUSD yield today?
 
-4.69% APY on strata-markets (Ethereum), based on live DefiLlama data.
+4.71% APY on strata-markets (Ethereum), based on live DefiLlama data.
 
 ### How many SRNUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $185.3K in total.
+1 live pool clear this page's $100K TVL floor, $123.2K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank SRNUSD pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 18, 2026
+## Last updated October 19, 2026

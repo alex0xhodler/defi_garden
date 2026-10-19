@@ -1,35 +1,35 @@
 # LIUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
 
-The highest honest LIUSD yield right now is 10.09% on infinifi (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LIUSD yield right now is 9.97% on infinifi (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [infinifi →](https://www.defi.garden/?pool=cda362c2-3822-4d0f-bc56-383bdc5ed3fc#src=seo_token) | Ethereum | 9.37% | $5.22M |
-| [infinifi →](https://www.defi.garden/?pool=01def518-e633-4f6f-a497-e1e29deedd2b#src=seo_token) | Ethereum | 10.09% | $4.4M |
-| [infinifi →](https://www.defi.garden/?pool=a83398f6-9f44-4046-8e30-12bae393e54d#src=seo_token) | Ethereum | 8.28% | $2.67M |
-| [infinifi →](https://www.defi.garden/?pool=fef01bce-008a-43b0-85f9-5377a56411c4#src=seo_token) | Ethereum | 6.86% | $1.01M |
+| [infinifi →](https://www.defi.garden/?pool=cda362c2-3822-4d0f-bc56-383bdc5ed3fc#src=seo_token) | Ethereum | 9.25% | $5.21M |
+| [infinifi →](https://www.defi.garden/?pool=01def518-e633-4f6f-a497-e1e29deedd2b#src=seo_token) | Ethereum | 9.97% | $4.4M |
+| [infinifi →](https://www.defi.garden/?pool=a83398f6-9f44-4046-8e30-12bae393e54d#src=seo_token) | Ethereum | 8.18% | $2.67M |
+| [infinifi →](https://www.defi.garden/?pool=fef01bce-008a-43b0-85f9-5377a56411c4#src=seo_token) | Ethereum | 6.78% | $1.01M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, LIUSD's lower-variability candidates are infinifi (Ethereum), 9.37% APY, $5.22M TVL, https://www.defi.garden/?pool=cda362c2-3822-4d0f-bc56-383bdc5ed3fc#src=seo_token; infinifi (Ethereum), 10.09% APY, $4.4M TVL, https://www.defi.garden/?pool=01def518-e633-4f6f-a497-e1e29deedd2b#src=seo_token; infinifi (Ethereum), 6.86% APY, $1.01M TVL, https://www.defi.garden/?pool=fef01bce-008a-43b0-85f9-5377a56411c4#src=seo_token; infinifi (Ethereum), 8.28% APY, $2.67M TVL, https://www.defi.garden/?pool=a83398f6-9f44-4046-8e30-12bae393e54d#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LIUSD's lower-variability candidates are infinifi (Ethereum), 9.25% APY, $5.21M TVL, https://www.defi.garden/?pool=cda362c2-3822-4d0f-bc56-383bdc5ed3fc#src=seo_token; infinifi (Ethereum), 9.97% APY, $4.4M TVL, https://www.defi.garden/?pool=01def518-e633-4f6f-a497-e1e29deedd2b#src=seo_token; infinifi (Ethereum), 6.78% APY, $1.01M TVL, https://www.defi.garden/?pool=fef01bce-008a-43b0-85f9-5377a56411c4#src=seo_token; infinifi (Ethereum), 8.18% APY, $2.67M TVL, https://www.defi.garden/?pool=a83398f6-9f44-4046-8e30-12bae393e54d#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [infinifi →](https://www.defi.garden/?pool=cda362c2-3822-4d0f-bc56-383bdc5ed3fc#src=seo_token) | Ethereum | 9.37% | $5.22M |
-| 2 | [infinifi →](https://www.defi.garden/?pool=01def518-e633-4f6f-a497-e1e29deedd2b#src=seo_token) | Ethereum | 10.09% | $4.4M |
-| 3 | [infinifi →](https://www.defi.garden/?pool=fef01bce-008a-43b0-85f9-5377a56411c4#src=seo_token) | Ethereum | 6.86% | $1.01M |
-| 4 | [infinifi →](https://www.defi.garden/?pool=a83398f6-9f44-4046-8e30-12bae393e54d#src=seo_token) | Ethereum | 8.28% | $2.67M |
+| 1 | [infinifi →](https://www.defi.garden/?pool=cda362c2-3822-4d0f-bc56-383bdc5ed3fc#src=seo_token) | Ethereum | 9.25% | $5.21M |
+| 2 | [infinifi →](https://www.defi.garden/?pool=01def518-e633-4f6f-a497-e1e29deedd2b#src=seo_token) | Ethereum | 9.97% | $4.4M |
+| 3 | [infinifi →](https://www.defi.garden/?pool=fef01bce-008a-43b0-85f9-5377a56411c4#src=seo_token) | Ethereum | 6.78% | $1.01M |
+| 4 | [infinifi →](https://www.defi.garden/?pool=a83398f6-9f44-4046-8e30-12bae393e54d#src=seo_token) | Ethereum | 8.18% | $2.67M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-LIUSD shows up in 4 pools here, with rates from 6.86% to 10.09% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+LIUSD shows up in 4 pools here, with rates from 6.78% to 9.97% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 8.42% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 8.43% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -37,10 +37,10 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| infinifi | 9.37% | 8.93% | Base rate |
-| infinifi | 10.09% | 9.62% | Base rate |
-| infinifi | 8.28% | 7.90% | Base rate |
-| infinifi | 6.86% | 6.54% | Base rate |
+| infinifi | 9.25% | 8.95% | Base rate |
+| infinifi | 9.97% | 9.64% | Base rate |
+| infinifi | 8.18% | 7.92% | Base rate |
+| infinifi | 6.78% | 6.55% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -48,7 +48,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest LIUSD yield today?
 
-10.09% APY on infinifi (Ethereum), based on live DefiLlama data.
+9.97% APY on infinifi (Ethereum), based on live DefiLlama data.
 
 ### How many LIUSD pools clear the TVL floor?
 
@@ -60,7 +60,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which LIUSD pools have the most stable APY history?
 
-Based on APY history only, LIUSD's lower-variability candidates are infinifi (Ethereum), 9.37% APY, $5.22M TVL, https://www.defi.garden/?pool=cda362c2-3822-4d0f-bc56-383bdc5ed3fc#src=seo_token; infinifi (Ethereum), 10.09% APY, $4.4M TVL, https://www.defi.garden/?pool=01def518-e633-4f6f-a497-e1e29deedd2b#src=seo_token; infinifi (Ethereum), 6.86% APY, $1.01M TVL, https://www.defi.garden/?pool=fef01bce-008a-43b0-85f9-5377a56411c4#src=seo_token; infinifi (Ethereum), 8.28% APY, $2.67M TVL, https://www.defi.garden/?pool=a83398f6-9f44-4046-8e30-12bae393e54d#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LIUSD's lower-variability candidates are infinifi (Ethereum), 9.25% APY, $5.21M TVL, https://www.defi.garden/?pool=cda362c2-3822-4d0f-bc56-383bdc5ed3fc#src=seo_token; infinifi (Ethereum), 9.97% APY, $4.4M TVL, https://www.defi.garden/?pool=01def518-e633-4f6f-a497-e1e29deedd2b#src=seo_token; infinifi (Ethereum), 6.78% APY, $1.01M TVL, https://www.defi.garden/?pool=fef01bce-008a-43b0-85f9-5377a56411c4#src=seo_token; infinifi (Ethereum), 8.18% APY, $2.67M TVL, https://www.defi.garden/?pool=a83398f6-9f44-4046-8e30-12bae393e54d#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -75,4 +75,4 @@ Based on APY history only, LIUSD's lower-variability candidates are infinifi (Et
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 18, 2026
+## Last updated October 19, 2026

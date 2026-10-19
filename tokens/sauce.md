@@ -1,12 +1,12 @@
 # SAUCE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
 
-The highest honest SAUCE yield right now is 7.37% on saucerswap-v1 (Hedera), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SAUCE yield right now is 6.56% on saucerswap-v1 (Hedera), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [saucerswap-v1 →](https://www.defi.garden/?pool=d88fe316-2ed0-4dd1-b205-739be5aa5814#src=seo_token) | Hedera | 7.37% | $767.4K |
+| [saucerswap-v1 →](https://www.defi.garden/?pool=d88fe316-2ed0-4dd1-b205-739be5aa5814#src=seo_token) | Hedera | 6.56% | $752.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SAUCE yield today?
 
-7.37% APY on saucerswap-v1 (Hedera), based on live DefiLlama data.
+6.56% APY on saucerswap-v1 (Hedera), based on live DefiLlama data.
 
 ### How many SAUCE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $767.4K in total.
+1 live pool clear this page's $100K TVL floor, $752.9K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank SAUCE pools. This view covers
 
 - [Hedera](https://www.defi.garden/chains/hedera)
 
-## Last updated October 18, 2026
+## Last updated October 19, 2026

@@ -1,12 +1,12 @@
 # GAMIWBTC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
 
-The highest honest GAMIWBTC yield right now is 1.77% on gami-labs (Robinhood Chain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GAMIWBTC yield right now is 2.61% on gami-labs (Robinhood Chain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gami-labs →](https://www.defi.garden/?pool=39cf03af-3463-520a-9a35-dce6a72d872a#src=seo_token) | Robinhood Chain | 1.77% | $609K |
+| [gami-labs →](https://www.defi.garden/?pool=39cf03af-3463-520a-9a35-dce6a72d872a#src=seo_token) | Robinhood Chain | 2.61% | $616.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GAMIWBTC yield today?
 
-1.77% APY on gami-labs (Robinhood Chain), based on live DefiLlama data.
+2.61% APY on gami-labs (Robinhood Chain), based on live DefiLlama data.
 
 ### How many GAMIWBTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $609K in total.
+1 live pool clear this page's $100K TVL floor, $616.3K in total.
 
 ### Are these rates safe?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank GAMIWBTC pools. This view cov
 - [USDG](https://www.defi.garden/tokens/usdg)
 - [STEAKUSDG](https://www.defi.garden/tokens/steakusdg)
 - [STONX](https://www.defi.garden/tokens/stonx)
+- [SPY](https://www.defi.garden/tokens/spy)
 - [KFV](https://www.defi.garden/tokens/kfv)
-- [GREEN](https://www.defi.garden/tokens/green)
 
 ## Available on
 
 - [Robinhood Chain](https://www.defi.garden/chains/robinhood-chain)
 
-## Last updated October 18, 2026
+## Last updated October 19, 2026

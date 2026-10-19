@@ -1,12 +1,12 @@
 # ULTCAT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
 
-The highest honest ULTCAT yield right now is 10.26% on vvs-standard (Cronos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ULTCAT yield right now is 18.84% on vvs-standard (Cronos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=bbcccd86-376a-51f1-81a3-cc5cf8930444#src=seo_token) | Cronos | 10.26% | $104.3K |
+| [vvs-standard →](https://www.defi.garden/?pool=bbcccd86-376a-51f1-81a3-cc5cf8930444#src=seo_token) | Cronos | 18.84% | $101.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ULTCAT yield today?
 
-10.26% APY on vvs-standard (Cronos), based on live DefiLlama data.
+18.84% APY on vvs-standard (Cronos), based on live DefiLlama data.
 
 ### How many ULTCAT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $104.3K in total.
+1 live pool clear this page's $100K TVL floor, $101.3K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank ULTCAT pools. This view cover
 
 - [Cronos](https://www.defi.garden/chains/cronos)
 
-## Last updated October 18, 2026
+## Last updated October 19, 2026

@@ -1,12 +1,12 @@
 # BPSOL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
 
-The highest honest BPSOL yield right now is 5.73% on backpack-sol (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BPSOL yield right now is 4.89% on backpack-sol (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [backpack-sol →](https://www.defi.garden/?pool=f2aad126-ae18-5512-bc64-8fa59c136331#src=seo_token) | Solana | 5.73% | $6.45M |
+| [backpack-sol →](https://www.defi.garden/?pool=f2aad126-ae18-5512-bc64-8fa59c136331#src=seo_token) | Solana | 4.89% | $6.59M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BPSOL yield today?
 
-5.73% APY on backpack-sol (Solana), based on live DefiLlama data.
+4.89% APY on backpack-sol (Solana), based on live DefiLlama data.
 
 ### How many BPSOL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $6.45M in total.
+1 live pool clear this page's $100K TVL floor, $6.59M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank BPSOL pools. This view covers
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 18, 2026
+## Last updated October 19, 2026

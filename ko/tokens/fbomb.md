@@ -1,43 +1,43 @@
 # FBOMB 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 18, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 19, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 FBOMB의 가장 높은 정직한 수익률은 Base의 aerodrome-v1에서 238.05%이며, $100K TVL 기준을 넘는 10개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 FBOMB의 가장 높은 정직한 수익률은 Base의 aerodrome-v1에서 237.60%이며, $100K TVL 기준을 넘는 10개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=e2c7a30e-cae6-419d-af75-b4bebd506879#src=seo_token) | Base | 225.80% | $5.16M |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=ddf0bc37-9835-443b-bf1c-696cbd373e2d#src=seo_token) | Base | 238.05% | $1.82M |
-| [velodrome-v2 →](https://www.defi.garden/?pool=8ba5248e-fb39-40c6-8fbe-611542c2780e#src=seo_token) | OP Mainnet | 164.92% | $978.5K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=f5d42b5f-40b7-45b8-b5f2-b15c39378cde#src=seo_token) | Base | 30.71% | $322.5K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=3f76960c-e861-54bc-a0b0-d3ce91fd83f0#src=seo_token) | Base | 30.96% | $185.7K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=3571b159-37b6-4f12-903e-55212ddfc6bc#src=seo_token) | Base | 5.97% | $168.1K |
-| [shadow-exchange-legacy →](https://www.defi.garden/?pool=79e3b6bc-bc73-4526-bb66-13878cf8f0e2#src=seo_token) | Sonic | 8.61% | $149.8K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=9d4a4da4-6e1a-4c45-9174-5fc0f08cef15#src=seo_token) | Base | 305.93% | $136.1K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=e2c7a30e-cae6-419d-af75-b4bebd506879#src=seo_token) | Base | 225.02% | $4.93M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=ddf0bc37-9835-443b-bf1c-696cbd373e2d#src=seo_token) | Base | 237.60% | $1.73M |
+| [velodrome-v2 →](https://www.defi.garden/?pool=8ba5248e-fb39-40c6-8fbe-611542c2780e#src=seo_token) | OP Mainnet | 164.41% | $934.9K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=f5d42b5f-40b7-45b8-b5f2-b15c39378cde#src=seo_token) | Base | 29.75% | $317K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=3f76960c-e861-54bc-a0b0-d3ce91fd83f0#src=seo_token) | Base | 29.18% | $187.6K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=3571b159-37b6-4f12-903e-55212ddfc6bc#src=seo_token) | Base | 5.77% | $165.6K |
+| [shadow-exchange-legacy →](https://www.defi.garden/?pool=79e3b6bc-bc73-4526-bb66-13878cf8f0e2#src=seo_token) | Sonic | 9.24% | $143.2K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=9d4a4da4-6e1a-4c45-9174-5fc0f08cef15#src=seo_token) | Base | 294.32% | $134.7K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 FBOMB의 변동성 낮은 후보는 Sonic의 shadow-exchange-legacy, APY 8.61%, TVL $149.8K, https://www.defi.garden/?pool=79e3b6bc-bc73-4526-bb66-13878cf8f0e2#src=seo_token; Base의 aerodrome-v1, APY 30.71%, TVL $322.5K, https://www.defi.garden/?pool=f5d42b5f-40b7-45b8-b5f2-b15c39378cde#src=seo_token; Base의 aerodrome-v1, APY 5.97%, TVL $168.1K, https://www.defi.garden/?pool=3571b159-37b6-4f12-903e-55212ddfc6bc#src=seo_token; Base의 aerodrome-v1, APY 238.05%, TVL $1.82M, https://www.defi.garden/?pool=ddf0bc37-9835-443b-bf1c-696cbd373e2d#src=seo_token; Base의 aerodrome-v1, APY 225.80%, TVL $5.16M, https://www.defi.garden/?pool=e2c7a30e-cae6-419d-af75-b4bebd506879#src=seo_token; Base의 aerodrome-v1, APY 30.96%, TVL $185.7K, https://www.defi.garden/?pool=3f76960c-e861-54bc-a0b0-d3ce91fd83f0#src=seo_token; OP Mainnet의 velodrome-v2, APY 164.92%, TVL $978.5K, https://www.defi.garden/?pool=8ba5248e-fb39-40c6-8fbe-611542c2780e#src=seo_token; Base의 aerodrome-v1, APY 305.93%, TVL $136.1K, https://www.defi.garden/?pool=9d4a4da4-6e1a-4c45-9174-5fc0f08cef15#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 FBOMB의 변동성 낮은 후보는 Sonic의 shadow-exchange-legacy, APY 9.24%, TVL $143.2K, https://www.defi.garden/?pool=79e3b6bc-bc73-4526-bb66-13878cf8f0e2#src=seo_token; Base의 aerodrome-v1, APY 29.75%, TVL $317K, https://www.defi.garden/?pool=f5d42b5f-40b7-45b8-b5f2-b15c39378cde#src=seo_token; Base의 aerodrome-v1, APY 5.77%, TVL $165.6K, https://www.defi.garden/?pool=3571b159-37b6-4f12-903e-55212ddfc6bc#src=seo_token; Base의 aerodrome-v1, APY 237.60%, TVL $1.73M, https://www.defi.garden/?pool=ddf0bc37-9835-443b-bf1c-696cbd373e2d#src=seo_token; Base의 aerodrome-v1, APY 225.02%, TVL $4.93M, https://www.defi.garden/?pool=e2c7a30e-cae6-419d-af75-b4bebd506879#src=seo_token; Base의 aerodrome-v1, APY 29.18%, TVL $187.6K, https://www.defi.garden/?pool=3f76960c-e861-54bc-a0b0-d3ce91fd83f0#src=seo_token; OP Mainnet의 velodrome-v2, APY 164.41%, TVL $934.9K, https://www.defi.garden/?pool=8ba5248e-fb39-40c6-8fbe-611542c2780e#src=seo_token; Base의 aerodrome-v1, APY 294.32%, TVL $134.7K, https://www.defi.garden/?pool=9d4a4da4-6e1a-4c45-9174-5fc0f08cef15#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [shadow-exchange-legacy →](https://www.defi.garden/?pool=79e3b6bc-bc73-4526-bb66-13878cf8f0e2#src=seo_token) | Sonic | 8.61% | $149.8K |
-| 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=f5d42b5f-40b7-45b8-b5f2-b15c39378cde#src=seo_token) | Base | 30.71% | $322.5K |
-| 3 | [aerodrome-v1 →](https://www.defi.garden/?pool=3571b159-37b6-4f12-903e-55212ddfc6bc#src=seo_token) | Base | 5.97% | $168.1K |
-| 4 | [aerodrome-v1 →](https://www.defi.garden/?pool=ddf0bc37-9835-443b-bf1c-696cbd373e2d#src=seo_token) | Base | 238.05% | $1.82M |
-| 5 | [aerodrome-v1 →](https://www.defi.garden/?pool=e2c7a30e-cae6-419d-af75-b4bebd506879#src=seo_token) | Base | 225.80% | $5.16M |
-| 6 | [aerodrome-v1 →](https://www.defi.garden/?pool=3f76960c-e861-54bc-a0b0-d3ce91fd83f0#src=seo_token) | Base | 30.96% | $185.7K |
-| 7 | [velodrome-v2 →](https://www.defi.garden/?pool=8ba5248e-fb39-40c6-8fbe-611542c2780e#src=seo_token) | OP Mainnet | 164.92% | $978.5K |
-| 8 | [aerodrome-v1 →](https://www.defi.garden/?pool=9d4a4da4-6e1a-4c45-9174-5fc0f08cef15#src=seo_token) | Base | 305.93% | $136.1K |
+| 1 | [shadow-exchange-legacy →](https://www.defi.garden/?pool=79e3b6bc-bc73-4526-bb66-13878cf8f0e2#src=seo_token) | Sonic | 9.24% | $143.2K |
+| 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=f5d42b5f-40b7-45b8-b5f2-b15c39378cde#src=seo_token) | Base | 29.75% | $317K |
+| 3 | [aerodrome-v1 →](https://www.defi.garden/?pool=3571b159-37b6-4f12-903e-55212ddfc6bc#src=seo_token) | Base | 5.77% | $165.6K |
+| 4 | [aerodrome-v1 →](https://www.defi.garden/?pool=ddf0bc37-9835-443b-bf1c-696cbd373e2d#src=seo_token) | Base | 237.60% | $1.73M |
+| 5 | [aerodrome-v1 →](https://www.defi.garden/?pool=e2c7a30e-cae6-419d-af75-b4bebd506879#src=seo_token) | Base | 225.02% | $4.93M |
+| 6 | [aerodrome-v1 →](https://www.defi.garden/?pool=3f76960c-e861-54bc-a0b0-d3ce91fd83f0#src=seo_token) | Base | 29.18% | $187.6K |
+| 7 | [velodrome-v2 →](https://www.defi.garden/?pool=8ba5248e-fb39-40c6-8fbe-611542c2780e#src=seo_token) | OP Mainnet | 164.41% | $934.9K |
+| 8 | [aerodrome-v1 →](https://www.defi.garden/?pool=9d4a4da4-6e1a-4c45-9174-5fc0f08cef15#src=seo_token) | Base | 294.32% | $134.7K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-FBOMB 풀은 여기 8개가 있고, 3개 체인에서 APY가 5.97%부터 305.93%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+FBOMB 풀은 여기 8개가 있고, 3개 체인에서 APY가 5.77%부터 294.32%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 88.17%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 86.43%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 8개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -45,14 +45,14 @@ FBOMB 풀은 여기 8개가 있고, 3개 체인에서 APY가 5.97%부터 305.93%
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| aerodrome-v1 | 225.80% | 168.32% | 인센티브 100.00% |
-| aerodrome-v1 | 238.05% | 168.22% | 인센티브 100.00% |
-| velodrome-v2 | 164.92% | 125.47% | 인센티브 100.00% |
-| aerodrome-v1 | 30.71% | 40.25% | 인센티브 100.00% |
-| aerodrome-v1 | 30.96% | 50.87% | 인센티브 100.00% |
-| aerodrome-v1 | 5.97% | 22.96% | 인센티브 100.00% |
-| shadow-exchange-legacy | 8.61% | 6.44% | 인센티브 100.00% |
-| aerodrome-v1 | 305.93% | 174.85% | 인센티브 100.00% |
+| aerodrome-v1 | 225.02% | 169.65% | 인센티브 100.00% |
+| aerodrome-v1 | 237.60% | 174.75% | 인센티브 100.00% |
+| velodrome-v2 | 164.41% | 127.33% | 인센티브 100.00% |
+| aerodrome-v1 | 29.75% | 38.86% | 인센티브 100.00% |
+| aerodrome-v1 | 29.18% | 45.54% | 인센티브 100.00% |
+| aerodrome-v1 | 5.77% | 22.25% | 인센티브 100.00% |
+| shadow-exchange-legacy | 9.24% | 6.57% | 인센티브 100.00% |
+| aerodrome-v1 | 294.32% | 178.20% | 인센티브 100.00% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -60,11 +60,11 @@ FBOMB 풀은 여기 8개가 있고, 3개 체인에서 APY가 5.97%부터 305.93%
 
 ### 오늘 FBOMB의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 238.05%예요.
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 237.60%예요.
 
 ### FBOMB 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 10개이며, 합산 TVL은 $9.15M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 10개이며, 합산 TVL은 $8.78M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -72,7 +72,7 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 238.05%예�
 
 ### FBOMB 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 FBOMB의 변동성 낮은 후보는 Sonic의 shadow-exchange-legacy, APY 8.61%, TVL $149.8K, https://www.defi.garden/?pool=79e3b6bc-bc73-4526-bb66-13878cf8f0e2#src=seo_token; Base의 aerodrome-v1, APY 30.71%, TVL $322.5K, https://www.defi.garden/?pool=f5d42b5f-40b7-45b8-b5f2-b15c39378cde#src=seo_token; Base의 aerodrome-v1, APY 5.97%, TVL $168.1K, https://www.defi.garden/?pool=3571b159-37b6-4f12-903e-55212ddfc6bc#src=seo_token; Base의 aerodrome-v1, APY 238.05%, TVL $1.82M, https://www.defi.garden/?pool=ddf0bc37-9835-443b-bf1c-696cbd373e2d#src=seo_token; Base의 aerodrome-v1, APY 225.80%, TVL $5.16M, https://www.defi.garden/?pool=e2c7a30e-cae6-419d-af75-b4bebd506879#src=seo_token; Base의 aerodrome-v1, APY 30.96%, TVL $185.7K, https://www.defi.garden/?pool=3f76960c-e861-54bc-a0b0-d3ce91fd83f0#src=seo_token; OP Mainnet의 velodrome-v2, APY 164.92%, TVL $978.5K, https://www.defi.garden/?pool=8ba5248e-fb39-40c6-8fbe-611542c2780e#src=seo_token; Base의 aerodrome-v1, APY 305.93%, TVL $136.1K, https://www.defi.garden/?pool=9d4a4da4-6e1a-4c45-9174-5fc0f08cef15#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 FBOMB의 변동성 낮은 후보는 Sonic의 shadow-exchange-legacy, APY 9.24%, TVL $143.2K, https://www.defi.garden/?pool=79e3b6bc-bc73-4526-bb66-13878cf8f0e2#src=seo_token; Base의 aerodrome-v1, APY 29.75%, TVL $317K, https://www.defi.garden/?pool=f5d42b5f-40b7-45b8-b5f2-b15c39378cde#src=seo_token; Base의 aerodrome-v1, APY 5.77%, TVL $165.6K, https://www.defi.garden/?pool=3571b159-37b6-4f12-903e-55212ddfc6bc#src=seo_token; Base의 aerodrome-v1, APY 237.60%, TVL $1.73M, https://www.defi.garden/?pool=ddf0bc37-9835-443b-bf1c-696cbd373e2d#src=seo_token; Base의 aerodrome-v1, APY 225.02%, TVL $4.93M, https://www.defi.garden/?pool=e2c7a30e-cae6-419d-af75-b4bebd506879#src=seo_token; Base의 aerodrome-v1, APY 29.18%, TVL $187.6K, https://www.defi.garden/?pool=3f76960c-e861-54bc-a0b0-d3ce91fd83f0#src=seo_token; OP Mainnet의 velodrome-v2, APY 164.41%, TVL $934.9K, https://www.defi.garden/?pool=8ba5248e-fb39-40c6-8fbe-611542c2780e#src=seo_token; Base의 aerodrome-v1, APY 294.32%, TVL $134.7K, https://www.defi.garden/?pool=9d4a4da4-6e1a-4c45-9174-5fc0f08cef15#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -89,4 +89,4 @@ APY 이력만 기준으로 비교한 FBOMB의 변동성 낮은 후보는 Sonic�
 - [OP Mainnet](https://www.defi.garden/ko/chains/op-mainnet)
 - [Sonic](https://www.defi.garden/ko/chains/sonic)
 
-## 마지막 업데이트: October 18, 2026
+## 마지막 업데이트: October 19, 2026

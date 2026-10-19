@@ -1,12 +1,12 @@
 # ETHENAUSDC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
 
-The highest honest ETHENAUSDC yield right now is 0.30% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ETHENAUSDC yield right now is 0.58% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=14170877-8941-4c7d-b12c-06517c70f1e7#src=seo_token) | Base | 0.30% | $102.7K |
+| [morpho-blue →](https://www.defi.garden/?pool=14170877-8941-4c7d-b12c-06517c70f1e7#src=seo_token) | Base | 0.58% | $102.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ETHENAUSDC yield today?
 
-0.30% APY on morpho-blue (Base), based on live DefiLlama data.
+0.58% APY on morpho-blue (Base), based on live DefiLlama data.
 
 ### How many ETHENAUSDC pools clear the TVL floor?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank ETHENAUSDC pools. This view c
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [USDS](https://www.defi.garden/tokens/usds)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 18, 2026
+## Last updated October 19, 2026

@@ -1,12 +1,12 @@
 # HY DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
 
-The highest honest HY yield right now is 1.30% on pancakeswap-amm (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HY yield right now is 0.63% on pancakeswap-amm (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pancakeswap-amm →](https://www.defi.garden/?pool=821a9ed4-3dc7-547c-b4ca-e52580764427#src=seo_token) | Arbitrum | 1.30% | $237.8K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=821a9ed4-3dc7-547c-b4ca-e52580764427#src=seo_token) | Arbitrum | 0.63% | $242K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HY yield today?
 
-1.30% APY on pancakeswap-amm (Arbitrum), based on live DefiLlama data.
+0.63% APY on pancakeswap-amm (Arbitrum), based on live DefiLlama data.
 
 ### How many HY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $237.8K in total.
+1 live pool clear this page's $100K TVL floor, $242K in total.
 
 ### Are these rates safe?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank HY pools. This view covers AP
 - [ETH](https://www.defi.garden/tokens/eth)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDG](https://www.defi.garden/tokens/usdg)
+- [SUSDAI](https://www.defi.garden/tokens/susdai)
 
 ## Available on
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated October 18, 2026
+## Last updated October 19, 2026

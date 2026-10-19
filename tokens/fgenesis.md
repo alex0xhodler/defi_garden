@@ -1,12 +1,12 @@
 # FGENESIS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
 
-The highest honest FGENESIS yield right now is 7.14% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FGENESIS yield right now is 6.64% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=91c63558-4abe-474b-96a0-9c84b518eb6e#src=seo_token) | Ethereum | 7.14% | $224.2K |
+| [morpho-blue →](https://www.defi.garden/?pool=91c63558-4abe-474b-96a0-9c84b518eb6e#src=seo_token) | Ethereum | 6.64% | $226.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FGENESIS yield today?
 
-7.14% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+6.64% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many FGENESIS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $224.2K in total.
+1 live pool clear this page's $100K TVL floor, $226.2K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank FGENESIS pools. This view cov
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 18, 2026
+## Last updated October 19, 2026

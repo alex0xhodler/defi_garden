@@ -1,43 +1,43 @@
 # ALETH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
 
-The highest honest ALETH yield right now is 10.06% on velodrome-v2 (OP Mainnet), among 14 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ALETH yield right now is 9.83% on yearn-finance (OP Mainnet), among 14 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=7619ddc5-29c3-4d65-b15e-9fb7abf0da88#src=seo_token) | Ethereum | 1.91% | $5.01M |
-| [alchemix-v3 →](https://www.defi.garden/?pool=739a70c7-fb99-58e5-a066-02e2d892abe4#src=seo_token) | Ethereum | 6.70% | $4.46M |
-| [curve-dex →](https://www.defi.garden/?pool=92d8447d-f8fa-4862-889c-7defd260b9dc#src=seo_token) | Ethereum | 1.35% | $3.64M |
-| [velodrome-v2 →](https://www.defi.garden/?pool=e2952fae-baab-4c1e-a3fb-b4815c7e1c8d#src=seo_token) | OP Mainnet | 10.06% | $3.23M |
-| [stake-dao-yield →](https://www.defi.garden/?pool=de391743-3009-42b5-8bc3-621443573221#src=seo_token) | Ethereum | 1.69% | $2.28M |
-| [stake-dao-yield →](https://www.defi.garden/?pool=24ddfb84-4b83-4028-991c-56bfcfef76c2#src=seo_token) | Ethereum | 2.98% | $1.95M |
-| [convex-finance →](https://www.defi.garden/?pool=191a1676-b210-41c5-887a-0ef981a4c50e#src=seo_token) | Ethereum | 2.71% | $1.33M |
+| [curve-dex →](https://www.defi.garden/?pool=7619ddc5-29c3-4d65-b15e-9fb7abf0da88#src=seo_token) | Ethereum | 1.96% | $5.02M |
+| [alchemix-v3 →](https://www.defi.garden/?pool=739a70c7-fb99-58e5-a066-02e2d892abe4#src=seo_token) | Ethereum | 6.43% | $4.49M |
+| [curve-dex →](https://www.defi.garden/?pool=92d8447d-f8fa-4862-889c-7defd260b9dc#src=seo_token) | Ethereum | 1.36% | $3.65M |
+| [velodrome-v2 →](https://www.defi.garden/?pool=e2952fae-baab-4c1e-a3fb-b4815c7e1c8d#src=seo_token) | OP Mainnet | 9.49% | $3.26M |
+| [stake-dao-yield →](https://www.defi.garden/?pool=de391743-3009-42b5-8bc3-621443573221#src=seo_token) | Ethereum | 1.74% | $2.28M |
+| [stake-dao-yield →](https://www.defi.garden/?pool=24ddfb84-4b83-4028-991c-56bfcfef76c2#src=seo_token) | Ethereum | 3.08% | $1.95M |
+| [convex-finance →](https://www.defi.garden/?pool=191a1676-b210-41c5-887a-0ef981a4c50e#src=seo_token) | Ethereum | 2.77% | $1.34M |
 | [yearn-finance →](https://www.defi.garden/?pool=2a6bb29a-5dbb-4bbc-b31a-0737453b1ee9#src=seo_token) | OP Mainnet | 9.83% | $1.06M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ALETH's lower-variability candidates are alchemix-v3 (Ethereum), 6.70% APY, $4.46M TVL, https://www.defi.garden/?pool=739a70c7-fb99-58e5-a066-02e2d892abe4#src=seo_token; stake-dao-yield (Ethereum), 2.98% APY, $1.95M TVL, https://www.defi.garden/?pool=24ddfb84-4b83-4028-991c-56bfcfef76c2#src=seo_token; stake-dao-yield (Ethereum), 1.69% APY, $2.28M TVL, https://www.defi.garden/?pool=de391743-3009-42b5-8bc3-621443573221#src=seo_token; curve-dex (Ethereum), 1.35% APY, $3.64M TVL, https://www.defi.garden/?pool=92d8447d-f8fa-4862-889c-7defd260b9dc#src=seo_token; convex-finance (Ethereum), 2.71% APY, $1.33M TVL, https://www.defi.garden/?pool=191a1676-b210-41c5-887a-0ef981a4c50e#src=seo_token; velodrome-v2 (OP Mainnet), 10.06% APY, $3.23M TVL, https://www.defi.garden/?pool=e2952fae-baab-4c1e-a3fb-b4815c7e1c8d#src=seo_token; yearn-finance (OP Mainnet), 9.83% APY, $1.06M TVL, https://www.defi.garden/?pool=2a6bb29a-5dbb-4bbc-b31a-0737453b1ee9#src=seo_token; curve-dex (Ethereum), 1.91% APY, $5.01M TVL, https://www.defi.garden/?pool=7619ddc5-29c3-4d65-b15e-9fb7abf0da88#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ALETH's lower-variability candidates are alchemix-v3 (Ethereum), 6.43% APY, $4.49M TVL, https://www.defi.garden/?pool=739a70c7-fb99-58e5-a066-02e2d892abe4#src=seo_token; stake-dao-yield (Ethereum), 3.08% APY, $1.95M TVL, https://www.defi.garden/?pool=24ddfb84-4b83-4028-991c-56bfcfef76c2#src=seo_token; stake-dao-yield (Ethereum), 1.74% APY, $2.28M TVL, https://www.defi.garden/?pool=de391743-3009-42b5-8bc3-621443573221#src=seo_token; curve-dex (Ethereum), 1.36% APY, $3.65M TVL, https://www.defi.garden/?pool=92d8447d-f8fa-4862-889c-7defd260b9dc#src=seo_token; convex-finance (Ethereum), 2.77% APY, $1.34M TVL, https://www.defi.garden/?pool=191a1676-b210-41c5-887a-0ef981a4c50e#src=seo_token; velodrome-v2 (OP Mainnet), 9.49% APY, $3.26M TVL, https://www.defi.garden/?pool=e2952fae-baab-4c1e-a3fb-b4815c7e1c8d#src=seo_token; yearn-finance (OP Mainnet), 9.83% APY, $1.06M TVL, https://www.defi.garden/?pool=2a6bb29a-5dbb-4bbc-b31a-0737453b1ee9#src=seo_token; curve-dex (Ethereum), 1.96% APY, $5.02M TVL, https://www.defi.garden/?pool=7619ddc5-29c3-4d65-b15e-9fb7abf0da88#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [alchemix-v3 →](https://www.defi.garden/?pool=739a70c7-fb99-58e5-a066-02e2d892abe4#src=seo_token) | Ethereum | 6.70% | $4.46M |
-| 2 | [stake-dao-yield →](https://www.defi.garden/?pool=24ddfb84-4b83-4028-991c-56bfcfef76c2#src=seo_token) | Ethereum | 2.98% | $1.95M |
-| 3 | [stake-dao-yield →](https://www.defi.garden/?pool=de391743-3009-42b5-8bc3-621443573221#src=seo_token) | Ethereum | 1.69% | $2.28M |
-| 4 | [curve-dex →](https://www.defi.garden/?pool=92d8447d-f8fa-4862-889c-7defd260b9dc#src=seo_token) | Ethereum | 1.35% | $3.64M |
-| 5 | [convex-finance →](https://www.defi.garden/?pool=191a1676-b210-41c5-887a-0ef981a4c50e#src=seo_token) | Ethereum | 2.71% | $1.33M |
-| 6 | [velodrome-v2 →](https://www.defi.garden/?pool=e2952fae-baab-4c1e-a3fb-b4815c7e1c8d#src=seo_token) | OP Mainnet | 10.06% | $3.23M |
+| 1 | [alchemix-v3 →](https://www.defi.garden/?pool=739a70c7-fb99-58e5-a066-02e2d892abe4#src=seo_token) | Ethereum | 6.43% | $4.49M |
+| 2 | [stake-dao-yield →](https://www.defi.garden/?pool=24ddfb84-4b83-4028-991c-56bfcfef76c2#src=seo_token) | Ethereum | 3.08% | $1.95M |
+| 3 | [stake-dao-yield →](https://www.defi.garden/?pool=de391743-3009-42b5-8bc3-621443573221#src=seo_token) | Ethereum | 1.74% | $2.28M |
+| 4 | [curve-dex →](https://www.defi.garden/?pool=92d8447d-f8fa-4862-889c-7defd260b9dc#src=seo_token) | Ethereum | 1.36% | $3.65M |
+| 5 | [convex-finance →](https://www.defi.garden/?pool=191a1676-b210-41c5-887a-0ef981a4c50e#src=seo_token) | Ethereum | 2.77% | $1.34M |
+| 6 | [velodrome-v2 →](https://www.defi.garden/?pool=e2952fae-baab-4c1e-a3fb-b4815c7e1c8d#src=seo_token) | OP Mainnet | 9.49% | $3.26M |
 | 7 | [yearn-finance →](https://www.defi.garden/?pool=2a6bb29a-5dbb-4bbc-b31a-0737453b1ee9#src=seo_token) | OP Mainnet | 9.83% | $1.06M |
-| 8 | [curve-dex →](https://www.defi.garden/?pool=7619ddc5-29c3-4d65-b15e-9fb7abf0da88#src=seo_token) | Ethereum | 1.91% | $5.01M |
+| 8 | [curve-dex →](https://www.defi.garden/?pool=7619ddc5-29c3-4d65-b15e-9fb7abf0da88#src=seo_token) | Ethereum | 1.96% | $5.02M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ALETH shows up in 8 pools here, with rates from 1.35% to 10.06% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+ALETH shows up in 8 pools here, with rates from 1.36% to 9.83% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 2.72% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 2.74% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 6 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -45,14 +45,14 @@ ALETH shows up in 8 pools here, with rates from 1.35% to 10.06% APY across 2 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 1.91% | 1.74% | 96.86% incentives |
-| alchemix-v3 | 6.70% | 6.06% | Base rate |
-| curve-dex | 1.35% | 1.39% | 94.06% incentives |
-| velodrome-v2 | 10.06% | 8.02% | 100.00% incentives |
-| stake-dao-yield | 1.69% | 1.78% | 98.81% incentives |
-| stake-dao-yield | 2.98% | 2.80% | 99.66% incentives |
-| convex-finance | 2.71% | 2.64% | 97.04% incentives |
-| yearn-finance | 9.83% | 7.67% | Base rate |
+| curve-dex | 1.96% | 1.76% | 98.47% incentives |
+| alchemix-v3 | 6.43% | 6.07% | Base rate |
+| curve-dex | 1.36% | 1.40% | 97.06% incentives |
+| velodrome-v2 | 9.49% | 8.12% | 100.00% incentives |
+| stake-dao-yield | 1.74% | 1.78% | 98.85% incentives |
+| stake-dao-yield | 3.08% | 2.84% | 99.35% incentives |
+| convex-finance | 2.77% | 2.65% | 98.56% incentives |
+| yearn-finance | 9.83% | 7.78% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -60,11 +60,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ALETH yield today?
 
-10.06% APY on velodrome-v2 (OP Mainnet), based on live DefiLlama data.
+9.83% APY on yearn-finance (OP Mainnet), based on live DefiLlama data.
 
 ### How many ALETH pools clear the TVL floor?
 
-14 live pools clear this page's $100K TVL floor, $25.19M in total.
+14 live pools clear this page's $100K TVL floor, $25.3M in total.
 
 ### Are these rates safe?
 
@@ -72,7 +72,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ALETH pools have the most stable APY history?
 
-Based on APY history only, ALETH's lower-variability candidates are alchemix-v3 (Ethereum), 6.70% APY, $4.46M TVL, https://www.defi.garden/?pool=739a70c7-fb99-58e5-a066-02e2d892abe4#src=seo_token; stake-dao-yield (Ethereum), 2.98% APY, $1.95M TVL, https://www.defi.garden/?pool=24ddfb84-4b83-4028-991c-56bfcfef76c2#src=seo_token; stake-dao-yield (Ethereum), 1.69% APY, $2.28M TVL, https://www.defi.garden/?pool=de391743-3009-42b5-8bc3-621443573221#src=seo_token; curve-dex (Ethereum), 1.35% APY, $3.64M TVL, https://www.defi.garden/?pool=92d8447d-f8fa-4862-889c-7defd260b9dc#src=seo_token; convex-finance (Ethereum), 2.71% APY, $1.33M TVL, https://www.defi.garden/?pool=191a1676-b210-41c5-887a-0ef981a4c50e#src=seo_token; velodrome-v2 (OP Mainnet), 10.06% APY, $3.23M TVL, https://www.defi.garden/?pool=e2952fae-baab-4c1e-a3fb-b4815c7e1c8d#src=seo_token; yearn-finance (OP Mainnet), 9.83% APY, $1.06M TVL, https://www.defi.garden/?pool=2a6bb29a-5dbb-4bbc-b31a-0737453b1ee9#src=seo_token; curve-dex (Ethereum), 1.91% APY, $5.01M TVL, https://www.defi.garden/?pool=7619ddc5-29c3-4d65-b15e-9fb7abf0da88#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ALETH's lower-variability candidates are alchemix-v3 (Ethereum), 6.43% APY, $4.49M TVL, https://www.defi.garden/?pool=739a70c7-fb99-58e5-a066-02e2d892abe4#src=seo_token; stake-dao-yield (Ethereum), 3.08% APY, $1.95M TVL, https://www.defi.garden/?pool=24ddfb84-4b83-4028-991c-56bfcfef76c2#src=seo_token; stake-dao-yield (Ethereum), 1.74% APY, $2.28M TVL, https://www.defi.garden/?pool=de391743-3009-42b5-8bc3-621443573221#src=seo_token; curve-dex (Ethereum), 1.36% APY, $3.65M TVL, https://www.defi.garden/?pool=92d8447d-f8fa-4862-889c-7defd260b9dc#src=seo_token; convex-finance (Ethereum), 2.77% APY, $1.34M TVL, https://www.defi.garden/?pool=191a1676-b210-41c5-887a-0ef981a4c50e#src=seo_token; velodrome-v2 (OP Mainnet), 9.49% APY, $3.26M TVL, https://www.defi.garden/?pool=e2952fae-baab-4c1e-a3fb-b4815c7e1c8d#src=seo_token; yearn-finance (OP Mainnet), 9.83% APY, $1.06M TVL, https://www.defi.garden/?pool=2a6bb29a-5dbb-4bbc-b31a-0737453b1ee9#src=seo_token; curve-dex (Ethereum), 1.96% APY, $5.02M TVL, https://www.defi.garden/?pool=7619ddc5-29c3-4d65-b15e-9fb7abf0da88#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -88,4 +88,4 @@ Based on APY history only, ALETH's lower-variability candidates are alchemix-v3 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [OP Mainnet](https://www.defi.garden/chains/op-mainnet)
 
-## Last updated October 18, 2026
+## Last updated October 19, 2026

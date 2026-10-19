@@ -175,12 +175,12 @@
             </div>
             <div class="kpi-cell">
                 <div class="kpi-label">Median Model MAE</div>
-                <div class="kpi-val">1.10 pp</div>
+                <div class="kpi-val">1.11 pp</div>
                 <div class="kpi-sub">Mean error vs median forecast</div>
             </div>
             <div class="kpi-cell">
                 <div class="kpi-label">Naive Baseline MAE</div>
-                <div class="kpi-val">1.09 pp</div>
+                <div class="kpi-val">1.10 pp</div>
                 <div class="kpi-sub">Mean error assuming "no change"</div>
             </div>
             <div class="kpi-cell">
@@ -193,7 +193,7 @@
         </div>
 
         <div class="score-lede" style="background:var(--ui-surface-muted, rgba(0,0,0,0.03)); border:1px solid var(--ui-border); padding:16px 20px; border-radius:var(--ui-radius-md); font-size:0.92rem;">
-          <strong>Key Research Finding:</strong> Across 23 resolved daily test runs, the empirical 80% confidence interval captures <strong>71.0%</strong> of actual outcomes. However, the median forecast skill score sits at <strong>-0.01</strong>: <em>in our first 10 test runs, assuming today's rate holds was more accurate than this forecast</em>. Roughly 60% of lending yields barely moved (&lt;0.1 pp), which the model handled well, but on pools with meaningful rate movement (&ge;0.5 pp), assuming no change was substantially closer. Individual venue pages mark forecasts as experimental.
+          <strong>Key Research Finding:</strong> Across 24 resolved daily test runs, the empirical 80% confidence interval captures <strong>71.0%</strong> of actual outcomes. However, the median forecast skill score sits at <strong>-0.01</strong>: <em>in our first 10 test runs, assuming today's rate holds was more accurate than this forecast</em>. Roughly 60% of lending yields barely moved (&lt;0.1 pp), which the model handled well, but on pools with meaningful rate movement (&ge;0.5 pp), assuming no change was substantially closer. Individual venue pages mark forecasts as experimental.
         </div>
 
         <h2 style="font-size:1.25rem; margin:32px 0 10px;">Daily Resolved Evaluation Runs (14-Day Horizon)</h2>
@@ -536,6 +536,20 @@
       </td>
       <td class="num">64.1%</td>
       <td class="num">70.3%</td>
+    </tr>
+    <tr>
+      <td style="font-weight:600;">2026-10-05 &rarr; 10-19</td>
+      <td>02:00 UTC</td>
+      <td class="num">2,568</td>
+      <td class="num">114</td>
+      <td class="num" style="font-weight:600;">69.4%</td>
+      <td class="num">1.25 pp</td>
+      <td class="num" style="color:var(--ui-text-secondary);">1.21 pp</td>
+      <td class="num" style="font-weight:600; color:#d9534f;">
+        -0.04
+      </td>
+      <td class="num">65.1%</td>
+      <td class="num">69.3%</td>
     </tr>
                     </tbody>
                 </table>

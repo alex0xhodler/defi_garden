@@ -1,12 +1,12 @@
 # LITHO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
 
-The highest honest LITHO yield right now is 61.72% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LITHO yield right now is 52.57% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=fd490208-c835-5085-8ea8-1b1c4e8d2cbf#src=seo_token) | Base | 61.72% | $340.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=fd490208-c835-5085-8ea8-1b1c4e8d2cbf#src=seo_token) | Base | 52.57% | $401.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LITHO yield today?
 
-61.72% APY on uniswap-v2 (Base), based on live DefiLlama data.
+52.57% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many LITHO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $340.9K in total.
+1 live pool clear this page's $100K TVL floor, $401.1K in total.
 
 ### Are these rates safe?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank LITHO pools. This view covers
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [USDS](https://www.defi.garden/tokens/usds)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 18, 2026
+## Last updated October 19, 2026

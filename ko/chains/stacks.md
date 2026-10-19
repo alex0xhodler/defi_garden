@@ -1,17 +1,17 @@
 # Stacks 디파이 수익률
 
-현재 Stacks의 가장 높은 정직한 수익률은 Stacks의 stackingdao에서 7.79%이며, $100K TVL 기준을 넘는 11개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 Stacks의 가장 높은 정직한 수익률은 Stacks의 stackingdao에서 7.97%이며, $100K TVL 기준을 넘는 11개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| STBTC | [stackingdao →](https://www.defi.garden/?pool=ce85a606-365c-5829-8fd4-1bfdf6cbaf00#src=seo_chain) | 1.69% | $51.83M |
-| STSTX | [stackingdao →](https://www.defi.garden/?pool=c91935ee-bd59-5219-9c63-1a63c023fce5#src=seo_chain) | 7.79% | $18.36M |
-| SBTC | [zest-v2 →](https://www.defi.garden/?pool=f003d6df-fb8f-4a74-8cfb-aee8cc44f433#src=seo_chain) | 0.81% | $13.71M |
-| STSTXBTC | [stackingdao →](https://www.defi.garden/?pool=a6d74d81-d4fc-50e5-8a44-58121d37551b#src=seo_chain) | 7.79% | $9.85M |
-| STSTX | [zest-v2 →](https://www.defi.garden/?pool=c9199d93-6e54-48cf-9063-aba26c9887e5#src=seo_chain) | 0.03% | $3.9M |
+| STBTC | [stackingdao →](https://www.defi.garden/?pool=ce85a606-365c-5829-8fd4-1bfdf6cbaf00#src=seo_chain) | 1.70% | $52.49M |
+| STSTX | [stackingdao →](https://www.defi.garden/?pool=c91935ee-bd59-5219-9c63-1a63c023fce5#src=seo_chain) | 7.96% | $18.21M |
+| SBTC | [zest-v2 →](https://www.defi.garden/?pool=f003d6df-fb8f-4a74-8cfb-aee8cc44f433#src=seo_chain) | 0.81% | $13.85M |
+| STSTXBTC | [stackingdao →](https://www.defi.garden/?pool=a6d74d81-d4fc-50e5-8a44-58121d37551b#src=seo_chain) | 7.97% | $9.74M |
+| STSTX | [zest-v2 →](https://www.defi.garden/?pool=c9199d93-6e54-48cf-9063-aba26c9887e5#src=seo_chain) | 0.03% | $3.85M |
 | USDCX | [granite →](https://www.defi.garden/?pool=cf820197-5161-5b6c-afaf-628aa333be7b#src=seo_chain) | 0.26% | $3.83M |
-| USDCX | [zest-v2 →](https://www.defi.garden/?pool=d45867ba-dd86-45f4-9b89-1893b65eaf69#src=seo_chain) | 1.23% | $2.86M |
-| STX | [zest-v2 →](https://www.defi.garden/?pool=3020a368-7997-45d2-8f70-0439acb472c2#src=seo_chain) | 2.06% | $614K |
+| USDCX | [zest-v2 →](https://www.defi.garden/?pool=d45867ba-dd86-45f4-9b89-1893b65eaf69#src=seo_chain) | 1.22% | $2.87M |
+| STX | [zest-v2 →](https://www.defi.garden/?pool=3020a368-7997-45d2-8f70-0439acb472c2#src=seo_chain) | 2.03% | $622.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,11 +19,11 @@
 
 ### 오늘 Stacks의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Stacks의 stackingdao에서 APY 7.79%예요.
+DefiLlama 실시간 데이터 기준, Stacks의 stackingdao에서 APY 7.97%예요.
 
 ### Stacks 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 11개이며, 합산 TVL은 $158.84M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 11개이며, 합산 TVL은 $159.8M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -47,4 +47,4 @@ DefiLlama 실시간 데이터 기준, Stacks의 stackingdao에서 APY 7.79%예�
 - [USDCX](https://www.defi.garden/ko/tokens/usdcx)
 - [STX](https://www.defi.garden/ko/tokens/stx)
 
-## 마지막 업데이트: October 18, 2026
+## 마지막 업데이트: October 19, 2026

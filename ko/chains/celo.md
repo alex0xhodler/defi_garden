@@ -4,12 +4,12 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| WETH | [aave-v3 →](https://www.defi.garden/?pool=5335b797-b623-4ed1-a492-880cbabb053a#src=seo_chain) | 1.77% | $1.43M |
+| CELO-STCELO | [uniswap-v3 →](https://www.defi.garden/?pool=88ada026-2f5a-4cb8-b591-4e46e32fedc5#src=seo_chain) | 11.10% | $1.46M |
+| WETH | [aave-v3 →](https://www.defi.garden/?pool=5335b797-b623-4ed1-a492-880cbabb053a#src=seo_chain) | 1.76% | $1.44M |
 | USD₮ | [aave-v3 →](https://www.defi.garden/?pool=8a6cda27-aa2b-4201-bb05-9cfcfc4ab6fd#src=seo_chain) | 6.71% | $1.38M |
-| CELO-STCELO | [uniswap-v3 →](https://www.defi.garden/?pool=88ada026-2f5a-4cb8-b591-4e46e32fedc5#src=seo_chain) | 11.09% | $794.1K |
 | USD₮-CUSD | [uniswap-v3 →](https://www.defi.garden/?pool=ad10fdd6-8351-4d9b-8695-deb1bf2dc33a#src=seo_chain) | 0.29% | $643.6K |
-| CELO | [moola-market →](https://www.defi.garden/?pool=236a6312-5752-41b5-af7e-55e3ec95dbd4#src=seo_chain) | 0.01% | $398.6K |
-| CUSD | [moola-market →](https://www.defi.garden/?pool=905730f7-04b6-4deb-8e59-707d3d457f6b#src=seo_chain) | 0.41% | $391.8K |
+| CELO | [moola-market →](https://www.defi.garden/?pool=236a6312-5752-41b5-af7e-55e3ec95dbd4#src=seo_chain) | 0.01% | $398.1K |
+| CUSD | [moola-market →](https://www.defi.garden/?pool=905730f7-04b6-4deb-8e59-707d3d457f6b#src=seo_chain) | 0.41% | $392.1K |
 | USD₮-WBTC | [uniswap-v3 →](https://www.defi.garden/?pool=8f5e5824-7c41-4af2-899b-2db398962bea#src=seo_chain) | 27.94% | $226.6K |
 | CELO-USD₮ | [uniswap-v3 →](https://www.defi.garden/?pool=8cf372d2-191c-4b6b-a56b-def814e5d78e#src=seo_chain) | 4.63% | $201.2K |
 
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Celo의 uniswap-v3에서 APY 27.94%예요.
 
 ### Celo 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 19개이며, 합산 TVL은 $7.12M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 19개이며, 합산 TVL은 $7.8M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -40,10 +40,10 @@ DefiLlama 실시간 데이터 기준, Celo의 uniswap-v3에서 APY 27.94%예요.
 
 ## Celo의 인기 토큰
 
-- [WETH](https://www.defi.garden/ko/tokens/weth)
 - [CELO](https://www.defi.garden/ko/tokens/celo)
-- [CUSD](https://www.defi.garden/ko/tokens/cusd)
 - [STCELO](https://www.defi.garden/ko/tokens/stcelo)
+- [WETH](https://www.defi.garden/ko/tokens/weth)
+- [CUSD](https://www.defi.garden/ko/tokens/cusd)
 - [WBTC](https://www.defi.garden/ko/tokens/wbtc)
 
-## 마지막 업데이트: October 18, 2026
+## 마지막 업데이트: October 19, 2026

@@ -1,13 +1,13 @@
 # GOLD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
 
 The highest honest GOLD yield right now is 0.17% on folks-finance-lending (Algorand), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=8f50502a-0e73-5f6b-8b06-a13bd680a980#src=seo_token) | Solana | 0.48% | $736.8K |
-| [folks-finance-lending →](https://www.defi.garden/?pool=6da6f63f-8ebb-49ab-9125-c5a429d49c98#src=seo_token) | Algorand | 0.17% | $478.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=8f50502a-0e73-5f6b-8b06-a13bd680a980#src=seo_token) | Solana | 0.69% | $737.1K |
+| [folks-finance-lending →](https://www.defi.garden/?pool=6da6f63f-8ebb-49ab-9125-c5a429d49c98#src=seo_token) | Algorand | 0.17% | $480.9K |
 | [raydium-amm →](https://www.defi.garden/?pool=1ccc1484-368a-570d-81f9-f11ab11e4131#src=seo_token) | Solana | 0.97% | $214.8K |
 
 <!-- rate-stability:insufficient -->
@@ -29,7 +29,7 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 0.48% | 8.91% | Base rate |
+| raydium-amm | 0.69% | 8.50% | Base rate |
 | folks-finance-lending | 0.17% | 0.17% | Base rate |
 | raydium-amm | 0.97% | 7.75% | Base rate |
 
@@ -43,7 +43,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many GOLD pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $1.94M in total.
+5 live pools clear this page's $100K TVL floor, $1.95M in total.
 
 ### Are these rates safe?
 
@@ -67,4 +67,4 @@ There is not enough qualifying APY history to rank GOLD pools. This view covers 
 - [Solana](https://www.defi.garden/chains/solana)
 - [Algorand](https://www.defi.garden/chains/algorand)
 
-## Last updated October 18, 2026
+## Last updated October 19, 2026

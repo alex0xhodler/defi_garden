@@ -4,14 +4,14 @@ The highest honest TON yield right now is 16.46% on hipo (TON), among 51 pools a
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| HGRAM | [hipo →](https://www.defi.garden/?pool=691a2aaa-cef5-4a6a-a3f3-86170fada8f4#src=seo_chain) | 16.46% | $11.11M |
-| GRAM-USD₮ | [ston.fi →](https://www.defi.garden/?pool=4c139e6e-1a29-496e-b916-7edd07069340#src=seo_chain) | 2.38% | $5.1M |
-| GRAM-USD₮ | [ston.fi →](https://www.defi.garden/?pool=ad078c5e-e07c-4a25-97ab-c04d2c9d8908#src=seo_chain) | 4.22% | $4.97M |
+| HGRAM | [hipo →](https://www.defi.garden/?pool=691a2aaa-cef5-4a6a-a3f3-86170fada8f4#src=seo_chain) | 16.46% | $11.1M |
+| GRAM-USD₮ | [ston.fi →](https://www.defi.garden/?pool=4c139e6e-1a29-496e-b916-7edd07069340#src=seo_chain) | 4.84% | $5.1M |
+| GRAM-USD₮ | [ston.fi →](https://www.defi.garden/?pool=ad078c5e-e07c-4a25-97ab-c04d2c9d8908#src=seo_chain) | 5.87% | $4.97M |
 | USDT | [storm-trade →](https://www.defi.garden/?pool=94623cbe-f6ac-47da-b157-776073f2ac13#src=seo_chain) | 3.67% | $2.68M |
-| TSTON-USD₮ | [tonco-v1 →](https://www.defi.garden/?pool=92dba085-11b3-5951-aeec-f7d65c21e854#src=seo_chain) | 19.45% | $2.53M |
-| GRAM | [storm-trade →](https://www.defi.garden/?pool=4c4efd02-2cb9-412f-b2d3-8b05208847ae#src=seo_chain) | 5.81% | $1.48M |
-| AFFSENTORA-USDT | [affluent →](https://www.defi.garden/?pool=1553ad7f-648c-46b2-ac37-b6863311e83c#src=seo_chain) | 1.79% | $1.24M |
-| USDT | [evaa-protocol →](https://www.defi.garden/?pool=73afa0b0-a513-4fdd-a9af-09c6ceac109b#src=seo_chain) | 1.77% | $899.8K |
+| TSTON-USD₮ | [tonco-v1 →](https://www.defi.garden/?pool=92dba085-11b3-5951-aeec-f7d65c21e854#src=seo_chain) | 31.14% | $2.53M |
+| GRAM | [storm-trade →](https://www.defi.garden/?pool=4c4efd02-2cb9-412f-b2d3-8b05208847ae#src=seo_chain) | 5.82% | $1.49M |
+| AFFSENTORA-USDT | [affluent →](https://www.defi.garden/?pool=1553ad7f-648c-46b2-ac37-b6863311e83c#src=seo_chain) | 1.73% | $1.27M |
+| USDT | [evaa-protocol →](https://www.defi.garden/?pool=73afa0b0-a513-4fdd-a9af-09c6ceac109b#src=seo_chain) | 1.78% | $883.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TON pools clear the TVL floor?
 
-51 live pools clear this page's $100K TVL floor, $47.67M in total.
+51 live pools clear this page's $100K TVL floor, $47.82M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [TSTON](https://www.defi.garden/tokens/tston)
 - [AFFSENTORA](https://www.defi.garden/tokens/affsentora)
 
-## Last updated October 18, 2026
+## Last updated October 19, 2026

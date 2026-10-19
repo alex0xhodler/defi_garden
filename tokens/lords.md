@@ -1,12 +1,12 @@
 # LORDS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
 
-The highest honest LORDS yield right now is 93.75% on ekubo (Starknet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LORDS yield right now is 135.63% on ekubo (Starknet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ekubo →](https://www.defi.garden/?pool=49d721a3-e252-4573-b727-c287ec304ff4#src=seo_token) | Starknet | 93.75% | $103.2K |
+| [ekubo →](https://www.defi.garden/?pool=49d721a3-e252-4573-b727-c287ec304ff4#src=seo_token) | Starknet | 135.63% | $106.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LORDS yield today?
 
-93.75% APY on ekubo (Starknet), based on live DefiLlama data.
+135.63% APY on ekubo (Starknet), based on live DefiLlama data.
 
 ### How many LORDS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $103.2K in total.
+1 live pool clear this page's $100K TVL floor, $106.4K in total.
 
 ### Are these rates safe?
 
@@ -36,14 +36,14 @@ There is not enough qualifying APY history to rank LORDS pools. This view covers
 ## Related tokens
 
 - [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
-- [STRKBTC](https://www.defi.garden/tokens/strkbtc)
 - [ZEC](https://www.defi.garden/tokens/zec)
+- [STRKBTC](https://www.defi.garden/tokens/strkbtc)
 - [STRK](https://www.defi.garden/tokens/strk)
 - [USDC.E](https://www.defi.garden/tokens/usdc-e)
-- [XSTRK](https://www.defi.garden/tokens/xstrk)
+- [SUSN](https://www.defi.garden/tokens/susn)
 
 ## Available on
 
 - [Starknet](https://www.defi.garden/chains/starknet)
 
-## Last updated October 18, 2026
+## Last updated October 19, 2026

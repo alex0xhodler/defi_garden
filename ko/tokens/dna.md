@@ -1,12 +1,12 @@
 # DNA 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 18, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 19, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 DNA의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 2.79%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 DNA의 가장 높은 정직한 수익률은 BSC의 uniswap-v3에서 680.86%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=d43c7c54-6d59-48f3-9607-450e3e4f8c12#src=seo_token) | Solana | 2.79% | $100.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=72462ba7-081b-5698-a975-cf3c7e709493#src=seo_token) | BSC | 680.86% | $132K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,11 +19,11 @@
 
 ### 오늘 DNA의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 2.79%예요.
+DefiLlama 실시간 데이터 기준, BSC의 uniswap-v3에서 APY 680.86%예요.
 
 ### DNA 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $100.1K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $132K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -35,15 +35,15 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 2.79%예�
 
 ## 관련 토큰
 
-- [USDC](https://www.defi.garden/ko/tokens/usdc)
-- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
+- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
+- [USDT](https://www.defi.garden/ko/tokens/usdt)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
-- [USDY](https://www.defi.garden/ko/tokens/usdy)
-- [USDE](https://www.defi.garden/ko/tokens/usde)
-- [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
+- [USYC](https://www.defi.garden/ko/tokens/usyc)
+- [SLISBNB](https://www.defi.garden/ko/tokens/slisbnb)
+- [TRX](https://www.defi.garden/ko/tokens/trx)
 
 ## 이용 가능한 체인
 
-- [Solana](https://www.defi.garden/ko/chains/solana)
+- [BSC](https://www.defi.garden/ko/chains/bsc)
 
-## 마지막 업데이트: October 18, 2026
+## 마지막 업데이트: October 19, 2026

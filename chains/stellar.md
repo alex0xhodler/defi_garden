@@ -4,11 +4,11 @@ The highest honest Stellar yield right now is 10.00% on gami-labs (Stellar), amo
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| USDY | [ondo-yield-assets →](https://www.defi.garden/pools/ondo-yield-assets-usdy-stellar) | 3.69% | $537.65M |
+| USDY | [ondo-yield-assets →](https://www.defi.garden/pools/ondo-yield-assets-usdy-stellar) | 3.70% | $537.71M |
 | EARNUSDC | [gami-labs →](https://www.defi.garden/?pool=038cb9c0-814d-41cc-ac43-b4fefd95da53#src=seo_chain) | 10.00% | $25.25M |
-| USDC | [blend-pools-v2 →](https://www.defi.garden/?pool=ecf788e3-d2ef-4fdd-9ece-8a2d96226ddf#src=seo_chain) | 7.00% | $10.73M |
-| EARNXLM | [gami-labs →](https://www.defi.garden/?pool=879fac16-fff2-4985-b516-366eeb9c0c6c#src=seo_chain) | 5.00% | $3.62M |
-| XLM | [blend-pools-v2 →](https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d#src=seo_chain) | 0.01% | $106.5K |
+| USDC | [blend-pools-v2 →](https://www.defi.garden/?pool=ecf788e3-d2ef-4fdd-9ece-8a2d96226ddf#src=seo_chain) | 7.07% | $10.68M |
+| EARNXLM | [gami-labs →](https://www.defi.garden/?pool=879fac16-fff2-4985-b516-366eeb9c0c6c#src=seo_chain) | 5.00% | $3.65M |
+| XLM | [blend-pools-v2 →](https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d#src=seo_chain) | 0.01% | $107.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,7 +20,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Stellar pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $700.91M in total.
+6 live pools clear this page's $100K TVL floor, $702.33M in total.
 
 ### Are these rates safe?
 
@@ -43,4 +43,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [EARNXLM](https://www.defi.garden/tokens/earnxlm)
 - [XLM](https://www.defi.garden/tokens/xlm)
 
-## Last updated October 18, 2026
+## Last updated October 19, 2026

@@ -1,23 +1,23 @@
 # SVETH 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 18, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 19, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 SVETH의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 1.49%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=c9975691-be71-4086-8d8d-74c87f96dd77#src=seo_token) | Ethereum | 1.49% | $979.3K |
-| [morpho-blue →](https://www.defi.garden/?pool=8ad4f4c1-63dc-432a-a5f0-8d405eb39f13#src=seo_token) | Ethereum | 1.19% | $100.4K |
+| [morpho-blue →](https://www.defi.garden/?pool=c9975691-be71-4086-8d8d-74c87f96dd77#src=seo_token) | Ethereum | 1.49% | $987.2K |
+| [morpho-blue →](https://www.defi.garden/?pool=8ad4f4c1-63dc-432a-a5f0-8d405eb39f13#src=seo_token) | Ethereum | 1.19% | $101.3K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 SVETH의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 1.49%, TVL $979.3K, https://www.defi.garden/?pool=c9975691-be71-4086-8d8d-74c87f96dd77#src=seo_token; Ethereum의 morpho-blue, APY 1.19%, TVL $100.4K, https://www.defi.garden/?pool=8ad4f4c1-63dc-432a-a5f0-8d405eb39f13#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SVETH의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 1.49%, TVL $987.2K, https://www.defi.garden/?pool=c9975691-be71-4086-8d8d-74c87f96dd77#src=seo_token; Ethereum의 morpho-blue, APY 1.19%, TVL $101.3K, https://www.defi.garden/?pool=8ad4f4c1-63dc-432a-a5f0-8d405eb39f13#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=c9975691-be71-4086-8d8d-74c87f96dd77#src=seo_token) | Ethereum | 1.49% | $979.3K |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=8ad4f4c1-63dc-432a-a5f0-8d405eb39f13#src=seo_token) | Ethereum | 1.19% | $100.4K |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=c9975691-be71-4086-8d8d-74c87f96dd77#src=seo_token) | Ethereum | 1.49% | $987.2K |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=8ad4f4c1-63dc-432a-a5f0-8d405eb39f13#src=seo_token) | Ethereum | 1.19% | $101.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -31,7 +31,7 @@ SVETH 풀은 여기 2개가 있고, 1개 체인에서 APY가 1.19%부터 1.49%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| morpho-blue | 1.49% | 1.69% | 기본 금리 |
+| morpho-blue | 1.49% | 1.70% | 기본 금리 |
 | morpho-blue | 1.19% | 1.38% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -44,7 +44,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 1.49%예
 
 ### SVETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $1.08M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $1.09M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -52,7 +52,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 1.49%예
 
 ### SVETH 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 SVETH의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 1.49%, TVL $979.3K, https://www.defi.garden/?pool=c9975691-be71-4086-8d8d-74c87f96dd77#src=seo_token; Ethereum의 morpho-blue, APY 1.19%, TVL $100.4K, https://www.defi.garden/?pool=8ad4f4c1-63dc-432a-a5f0-8d405eb39f13#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SVETH의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 1.49%, TVL $987.2K, https://www.defi.garden/?pool=c9975691-be71-4086-8d8d-74c87f96dd77#src=seo_token; Ethereum의 morpho-blue, APY 1.19%, TVL $101.3K, https://www.defi.garden/?pool=8ad4f4c1-63dc-432a-a5f0-8d405eb39f13#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -67,4 +67,4 @@ APY 이력만 기준으로 비교한 SVETH의 변동성 낮은 후보는 Ethereu
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: October 18, 2026
+## 마지막 업데이트: October 19, 2026

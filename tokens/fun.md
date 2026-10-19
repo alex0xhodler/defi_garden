@@ -1,33 +1,33 @@
 # FUN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
 
-The highest honest FUN yield right now is 0.65% on quickswap-dex (Polygon), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FUN yield right now is 0.56% on quickswap-dex (Polygon), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [quickswap-dex →](https://www.defi.garden/?pool=e21e94a1-1ad0-4b9c-965b-7d4efe95de76#src=seo_token) | Polygon | 0.65% | $4.38M |
-| [quickswap-dex →](https://www.defi.garden/?pool=f58fbf13-f60a-46e4-aecf-ccee64f8cf8b#src=seo_token) | Polygon | 0.56% | $1.24M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=daa92b52-4c90-5323-993f-eb2df787fa0e#src=seo_token) | Ethereum | 0.24% | $298.8K |
-| [raydium-amm →](https://www.defi.garden/?pool=eadfa983-1111-467f-9d80-22c6a275f6c8#src=seo_token) | Solana | 1.34% | $115.7K |
+| [quickswap-dex →](https://www.defi.garden/?pool=e21e94a1-1ad0-4b9c-965b-7d4efe95de76#src=seo_token) | Polygon | 0.35% | $4.37M |
+| [quickswap-dex →](https://www.defi.garden/?pool=f58fbf13-f60a-46e4-aecf-ccee64f8cf8b#src=seo_token) | Polygon | 0.56% | $1.23M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=daa92b52-4c90-5323-993f-eb2df787fa0e#src=seo_token) | Ethereum | 0.16% | $300.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=eadfa983-1111-467f-9d80-22c6a275f6c8#src=seo_token) | Solana | 2.16% | $116K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, FUN's lower-variability candidates are quickswap-dex (Polygon), 0.65% APY, $4.38M TVL, https://www.defi.garden/?pool=e21e94a1-1ad0-4b9c-965b-7d4efe95de76#src=seo_token; quickswap-dex (Polygon), 0.56% APY, $1.24M TVL, https://www.defi.garden/?pool=f58fbf13-f60a-46e4-aecf-ccee64f8cf8b#src=seo_token; uniswap-v4 (Ethereum), 0.24% APY, $298.8K TVL, https://www.defi.garden/?pool=daa92b52-4c90-5323-993f-eb2df787fa0e#src=seo_token; raydium-amm (Solana), 1.34% APY, $115.7K TVL, https://www.defi.garden/?pool=eadfa983-1111-467f-9d80-22c6a275f6c8#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FUN's lower-variability candidates are quickswap-dex (Polygon), 0.35% APY, $4.37M TVL, https://www.defi.garden/?pool=e21e94a1-1ad0-4b9c-965b-7d4efe95de76#src=seo_token; quickswap-dex (Polygon), 0.56% APY, $1.23M TVL, https://www.defi.garden/?pool=f58fbf13-f60a-46e4-aecf-ccee64f8cf8b#src=seo_token; uniswap-v4 (Ethereum), 0.16% APY, $300.1K TVL, https://www.defi.garden/?pool=daa92b52-4c90-5323-993f-eb2df787fa0e#src=seo_token; raydium-amm (Solana), 2.16% APY, $116K TVL, https://www.defi.garden/?pool=eadfa983-1111-467f-9d80-22c6a275f6c8#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [quickswap-dex →](https://www.defi.garden/?pool=e21e94a1-1ad0-4b9c-965b-7d4efe95de76#src=seo_token) | Polygon | 0.65% | $4.38M |
-| 2 | [quickswap-dex →](https://www.defi.garden/?pool=f58fbf13-f60a-46e4-aecf-ccee64f8cf8b#src=seo_token) | Polygon | 0.56% | $1.24M |
-| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=daa92b52-4c90-5323-993f-eb2df787fa0e#src=seo_token) | Ethereum | 0.24% | $298.8K |
-| 4 | [raydium-amm →](https://www.defi.garden/?pool=eadfa983-1111-467f-9d80-22c6a275f6c8#src=seo_token) | Solana | 1.34% | $115.7K |
+| 1 | [quickswap-dex →](https://www.defi.garden/?pool=e21e94a1-1ad0-4b9c-965b-7d4efe95de76#src=seo_token) | Polygon | 0.35% | $4.37M |
+| 2 | [quickswap-dex →](https://www.defi.garden/?pool=f58fbf13-f60a-46e4-aecf-ccee64f8cf8b#src=seo_token) | Polygon | 0.56% | $1.23M |
+| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=daa92b52-4c90-5323-993f-eb2df787fa0e#src=seo_token) | Ethereum | 0.16% | $300.1K |
+| 4 | [raydium-amm →](https://www.defi.garden/?pool=eadfa983-1111-467f-9d80-22c6a275f6c8#src=seo_token) | Solana | 2.16% | $116K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-FUN shows up in 4 pools here, with rates from 0.24% to 1.34% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+FUN shows up in 4 pools here, with rates from 0.16% to 2.16% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 4 of these 4 pools have a trustworthy 30-day average on file, with a median of 0.55% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -37,10 +37,10 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| quickswap-dex | 0.65% | 0.58% | Base rate |
+| quickswap-dex | 0.35% | 0.58% | Base rate |
 | quickswap-dex | 0.56% | 0.51% | Base rate |
-| uniswap-v4 | 0.24% | 0.38% | Base rate |
-| raydium-amm | 1.34% | 11.35% | Base rate |
+| uniswap-v4 | 0.16% | 0.40% | Base rate |
+| raydium-amm | 2.16% | 10.76% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -48,11 +48,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest FUN yield today?
 
-0.65% APY on quickswap-dex (Polygon), based on live DefiLlama data.
+0.56% APY on quickswap-dex (Polygon), based on live DefiLlama data.
 
 ### How many FUN pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $6.03M in total.
+4 live pools clear this page's $100K TVL floor, $6.01M in total.
 
 ### Are these rates safe?
 
@@ -60,7 +60,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which FUN pools have the most stable APY history?
 
-Based on APY history only, FUN's lower-variability candidates are quickswap-dex (Polygon), 0.65% APY, $4.38M TVL, https://www.defi.garden/?pool=e21e94a1-1ad0-4b9c-965b-7d4efe95de76#src=seo_token; quickswap-dex (Polygon), 0.56% APY, $1.24M TVL, https://www.defi.garden/?pool=f58fbf13-f60a-46e4-aecf-ccee64f8cf8b#src=seo_token; uniswap-v4 (Ethereum), 0.24% APY, $298.8K TVL, https://www.defi.garden/?pool=daa92b52-4c90-5323-993f-eb2df787fa0e#src=seo_token; raydium-amm (Solana), 1.34% APY, $115.7K TVL, https://www.defi.garden/?pool=eadfa983-1111-467f-9d80-22c6a275f6c8#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FUN's lower-variability candidates are quickswap-dex (Polygon), 0.35% APY, $4.37M TVL, https://www.defi.garden/?pool=e21e94a1-1ad0-4b9c-965b-7d4efe95de76#src=seo_token; quickswap-dex (Polygon), 0.56% APY, $1.23M TVL, https://www.defi.garden/?pool=f58fbf13-f60a-46e4-aecf-ccee64f8cf8b#src=seo_token; uniswap-v4 (Ethereum), 0.16% APY, $300.1K TVL, https://www.defi.garden/?pool=daa92b52-4c90-5323-993f-eb2df787fa0e#src=seo_token; raydium-amm (Solana), 2.16% APY, $116K TVL, https://www.defi.garden/?pool=eadfa983-1111-467f-9d80-22c6a275f6c8#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -77,4 +77,4 @@ Based on APY history only, FUN's lower-variability candidates are quickswap-dex 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 18, 2026
+## Last updated October 19, 2026

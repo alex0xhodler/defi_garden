@@ -1,12 +1,12 @@
 # SLOTH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 18, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
 
-The highest honest SLOTH yield right now is 6.02% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SLOTH yield right now is 2.43% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=94215474-dbd0-4f1f-9f3a-cf36f221d116#src=seo_token) | Solana | 6.02% | $336.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=94215474-dbd0-4f1f-9f3a-cf36f221d116#src=seo_token) | Solana | 2.43% | $352.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SLOTH yield today?
 
-6.02% APY on raydium-amm (Solana), based on live DefiLlama data.
+2.43% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many SLOTH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $336.7K in total.
+1 live pool clear this page's $100K TVL floor, $352.6K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank SLOTH pools. This view covers
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 18, 2026
+## Last updated October 19, 2026
