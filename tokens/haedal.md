@@ -1,31 +1,31 @@
 # HAEDAL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
 
-The highest honest HAEDAL yield right now is 3.17% on cetus-clmm (Sui), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HAEDAL yield right now is 2.72% on cetus-clmm (Sui), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [cetus-clmm →](https://www.defi.garden/?pool=187a4585-19b3-4b85-b7ed-147bf4e04cc1#src=seo_token) | Sui | 3.17% | $604.7K |
-| [cetus-clmm →](https://www.defi.garden/?pool=6bcf4d70-4a1e-425d-a37d-2377e9ff4d65#src=seo_token) | Sui | 2.03% | $125.7K |
+| [cetus-clmm →](https://www.defi.garden/?pool=187a4585-19b3-4b85-b7ed-147bf4e04cc1#src=seo_token) | Sui | 2.28% | $600.2K |
+| [cetus-clmm →](https://www.defi.garden/?pool=6bcf4d70-4a1e-425d-a37d-2377e9ff4d65#src=seo_token) | Sui | 2.72% | $123.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, HAEDAL's lower-variability candidates are cetus-clmm (Sui), 3.17% APY, $604.7K TVL, https://www.defi.garden/?pool=187a4585-19b3-4b85-b7ed-147bf4e04cc1#src=seo_token; cetus-clmm (Sui), 2.03% APY, $125.7K TVL, https://www.defi.garden/?pool=6bcf4d70-4a1e-425d-a37d-2377e9ff4d65#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, HAEDAL's lower-variability candidates are cetus-clmm (Sui), 2.28% APY, $600.2K TVL, https://www.defi.garden/?pool=187a4585-19b3-4b85-b7ed-147bf4e04cc1#src=seo_token; cetus-clmm (Sui), 2.72% APY, $123.8K TVL, https://www.defi.garden/?pool=6bcf4d70-4a1e-425d-a37d-2377e9ff4d65#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [cetus-clmm →](https://www.defi.garden/?pool=187a4585-19b3-4b85-b7ed-147bf4e04cc1#src=seo_token) | Sui | 3.17% | $604.7K |
-| 2 | [cetus-clmm →](https://www.defi.garden/?pool=6bcf4d70-4a1e-425d-a37d-2377e9ff4d65#src=seo_token) | Sui | 2.03% | $125.7K |
+| 1 | [cetus-clmm →](https://www.defi.garden/?pool=187a4585-19b3-4b85-b7ed-147bf4e04cc1#src=seo_token) | Sui | 2.28% | $600.2K |
+| 2 | [cetus-clmm →](https://www.defi.garden/?pool=6bcf4d70-4a1e-425d-a37d-2377e9ff4d65#src=seo_token) | Sui | 2.72% | $123.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-HAEDAL shows up in 2 pools here, with rates from 2.03% to 3.17% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+HAEDAL shows up in 2 pools here, with rates from 2.28% to 2.72% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 7.59% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 7.41% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| cetus-clmm | 3.17% | 7.39% | Base rate |
-| cetus-clmm | 2.03% | 7.78% | Base rate |
+| cetus-clmm | 2.28% | 7.26% | Base rate |
+| cetus-clmm | 2.72% | 7.56% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest HAEDAL yield today?
 
-3.17% APY on cetus-clmm (Sui), based on live DefiLlama data.
+2.72% APY on cetus-clmm (Sui), based on live DefiLlama data.
 
 ### How many HAEDAL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $730.4K in total.
+2 live pools clear this page's $100K TVL floor, $724K in total.
 
 ### Are these rates safe?
 
@@ -54,19 +54,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which HAEDAL pools have the most stable APY history?
 
-Based on APY history only, HAEDAL's lower-variability candidates are cetus-clmm (Sui), 3.17% APY, $604.7K TVL, https://www.defi.garden/?pool=187a4585-19b3-4b85-b7ed-147bf4e04cc1#src=seo_token; cetus-clmm (Sui), 2.03% APY, $125.7K TVL, https://www.defi.garden/?pool=6bcf4d70-4a1e-425d-a37d-2377e9ff4d65#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, HAEDAL's lower-variability candidates are cetus-clmm (Sui), 2.28% APY, $600.2K TVL, https://www.defi.garden/?pool=187a4585-19b3-4b85-b7ed-147bf4e04cc1#src=seo_token; cetus-clmm (Sui), 2.72% APY, $123.8K TVL, https://www.defi.garden/?pool=6bcf4d70-4a1e-425d-a37d-2377e9ff4d65#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
+- [ENZOBTC](https://www.defi.garden/tokens/enzobtc)
 - [HASUI](https://www.defi.garden/tokens/hasui)
 - [SUI](https://www.defi.garden/tokens/sui)
 - [XBTC](https://www.defi.garden/tokens/xbtc)
-- [BUCK](https://www.defi.garden/tokens/buck)
 
 ## Available on
 
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated October 19, 2026
+## Last updated October 20, 2026

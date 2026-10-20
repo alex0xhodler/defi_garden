@@ -1,14 +1,13 @@
 # ZRO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
 
-The highest honest ZRO yield right now is 376.82% on aerodrome-slipstream (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZRO yield right now is 499.21% on aerodrome-slipstream (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=9b9497ab-56f4-4650-a162-e323b90d0c4c#src=seo_token) | Base | 376.82% | $208.2K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=9b9497ab-56f4-4650-a162-e323b90d0c4c#src=seo_token) | Base | 499.21% | $224.8K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=1a64e7af-3c5a-585b-b0bb-985a3bd67593#src=seo_token) | Base | 77.97% | $129.1K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=804376b4-d138-5ee0-8359-c6a38fcd3b9c#src=seo_token) | Ethereum | 54.16% | $110.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,19 +18,18 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-ZRO shows up in 3 pools here, with rates from 54.16% to 376.82% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+ZRO shows up in 2 pools here, with rates from 77.97% to 499.21% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 144.06% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 425.76% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
-3 of 3 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 376.82% | 696.25% | 29.90% incentives |
+| aerodrome-slipstream | 499.21% | 707.45% | 19.17% incentives |
 | uniswap-v4 | 77.97% | 144.06% | Base rate |
-| uniswap-v4 | 54.16% | 2.39% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -39,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ZRO yield today?
 
-376.82% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+499.21% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many ZRO pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $585.8K in total.
+3 live pools clear this page's $100K TVL floor, $492.3K in total.
 
 ### Are these rates safe?
 
@@ -55,16 +53,15 @@ There is not enough qualifying APY history to rank ZRO pools. This view covers A
 
 ## Related tokens
 
-- [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WETH](https://www.defi.garden/tokens/weth)
+- [USDE](https://www.defi.garden/tokens/usde)
+- [USDS](https://www.defi.garden/tokens/usds)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
-- [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 19, 2026
+## Last updated October 20, 2026

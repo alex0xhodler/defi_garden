@@ -1,6 +1,6 @@
 # ATXM DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
 
 The highest honest ATXM yield right now is 19.46% on uniswap-v4 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank ATXM pools. This view covers 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [DAI](https://www.defi.garden/tokens/dai)
+- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [LINK](https://www.defi.garden/tokens/link)
 - [AAVE](https://www.defi.garden/tokens/aave)
-- [USDT0](https://www.defi.garden/tokens/usdt0)
 
 ## Available on
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated October 19, 2026
+## Last updated October 20, 2026

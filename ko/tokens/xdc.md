@@ -1,6 +1,6 @@
 # XDC 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 19, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 20, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 XDC의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 0.05%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
@@ -31,7 +31,7 @@ XDC 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.02%부터 0.05%까�
 |---|---|---|---|
 | raydium-amm | 0.05% | 0.04% | 기본 금리 |
 | raydium-amm | 0.05% | 0.04% | 기본 금리 |
-| raydium-amm | 0.02% | 4.81% | 기본 금리 |
+| raydium-amm | 0.02% | 4.33% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -59,11 +59,11 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 0.05%예�
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
-- [USDE](https://www.defi.garden/ko/tokens/usde)
 - [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
+- [BNSOL](https://www.defi.garden/ko/tokens/bnsol)
 
 ## 이용 가능한 체인
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: October 19, 2026
+## 마지막 업데이트: October 20, 2026

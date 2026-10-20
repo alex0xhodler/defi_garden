@@ -1,6 +1,6 @@
 # SLGNS 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 19, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 20, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 SLGNS의 가장 높은 정직한 수익률은 Polygon의 uniswap-v4에서 32.10%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
@@ -38,12 +38,12 @@ DefiLlama 실시간 데이터 기준, Polygon의 uniswap-v4에서 APY 32.10%예�
 - [WBTC](https://www.defi.garden/ko/tokens/wbtc)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [DAI](https://www.defi.garden/ko/tokens/dai)
+- [USDT0](https://www.defi.garden/ko/tokens/usdt0)
 - [LINK](https://www.defi.garden/ko/tokens/link)
 - [AAVE](https://www.defi.garden/ko/tokens/aave)
-- [USDT0](https://www.defi.garden/ko/tokens/usdt0)
 
 ## 이용 가능한 체인
 
 - [Polygon](https://www.defi.garden/ko/chains/polygon)
 
-## 마지막 업데이트: October 19, 2026
+## 마지막 업데이트: October 20, 2026

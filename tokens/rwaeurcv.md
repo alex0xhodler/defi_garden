@@ -1,12 +1,12 @@
 # RWAEURCV DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
 
-The highest honest RWAEURCV yield right now is 1.68% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RWAEURCV yield right now is 1.66% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=364bdca0-5f96-512d-a6f7-a69eeaefd920#src=seo_token) | Ethereum | 1.68% | $5.29M |
+| [morpho-blue →](https://www.defi.garden/?pool=364bdca0-5f96-512d-a6f7-a69eeaefd920#src=seo_token) | Ethereum | 1.66% | $5.29M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RWAEURCV yield today?
 
-1.68% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+1.66% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many RWAEURCV pools clear the TVL floor?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank RWAEURCV pools. This view cov
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 19, 2026
+## Last updated October 20, 2026

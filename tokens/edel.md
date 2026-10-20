@@ -1,43 +1,40 @@
 # EDEL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
 
-The highest honest EDEL yield right now is 226.78% on aerodrome-v1 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EDEL yield right now is 221.88% on aerodrome-v1 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=37a01d83-3eed-407a-9703-720f632ce288#src=seo_token) | Base | 226.78% | $1.07M |
-| [orca-dex →](https://www.defi.garden/?pool=984aa151-8333-538c-b57d-3b9e5f1e6ed8#src=seo_token) | Solana | 19.14% | $288.6K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=389dfc96-941e-4e89-b7eb-0a0d521159cc#src=seo_token) | Base | 401.13% | $128.4K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=37a01d83-3eed-407a-9703-720f632ce288#src=seo_token) | Base | 221.88% | $1.1M |
+| [orca-dex →](https://www.defi.garden/?pool=984aa151-8333-538c-b57d-3b9e5f1e6ed8#src=seo_token) | Solana | 8.31% | $291.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, EDEL's lower-variability candidates are aerodrome-v1 (Base), 226.78% APY, $1.07M TVL, https://www.defi.garden/?pool=37a01d83-3eed-407a-9703-720f632ce288#src=seo_token; orca-dex (Solana), 19.14% APY, $288.6K TVL, https://www.defi.garden/?pool=984aa151-8333-538c-b57d-3b9e5f1e6ed8#src=seo_token; aerodrome-slipstream (Base), 401.13% APY, $128.4K TVL, https://www.defi.garden/?pool=389dfc96-941e-4e89-b7eb-0a0d521159cc#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, EDEL's lower-variability candidates are aerodrome-v1 (Base), 221.88% APY, $1.1M TVL, https://www.defi.garden/?pool=37a01d83-3eed-407a-9703-720f632ce288#src=seo_token; orca-dex (Solana), 8.31% APY, $291.6K TVL, https://www.defi.garden/?pool=984aa151-8333-538c-b57d-3b9e5f1e6ed8#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=37a01d83-3eed-407a-9703-720f632ce288#src=seo_token) | Base | 226.78% | $1.07M |
-| 2 | [orca-dex →](https://www.defi.garden/?pool=984aa151-8333-538c-b57d-3b9e5f1e6ed8#src=seo_token) | Solana | 19.14% | $288.6K |
-| 3 | [aerodrome-slipstream →](https://www.defi.garden/?pool=389dfc96-941e-4e89-b7eb-0a0d521159cc#src=seo_token) | Base | 401.13% | $128.4K |
+| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=37a01d83-3eed-407a-9703-720f632ce288#src=seo_token) | Base | 221.88% | $1.1M |
+| 2 | [orca-dex →](https://www.defi.garden/?pool=984aa151-8333-538c-b57d-3b9e5f1e6ed8#src=seo_token) | Solana | 8.31% | $291.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-EDEL shows up in 3 pools here, with rates from 19.14% to 401.13% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+EDEL shows up in 2 pools here, with rates from 8.31% to 221.88% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 3 pools have a trustworthy 30-day average on file, with a median of 164.78% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 163.95% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-2 of 3 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
-3 of 3 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-v1 | 226.78% | 160.73% | 100.00% incentives |
-| orca-dex | 19.14% | 168.84% | Base rate |
-| aerodrome-slipstream | 401.13% | — | 62.44% incentives |
+| aerodrome-v1 | 221.88% | 164.59% | 100.00% incentives |
+| orca-dex | 8.31% | 163.32% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest EDEL yield today?
 
-226.78% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+221.88% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many EDEL pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.49M in total.
+2 live pools clear this page's $100K TVL floor, $1.39M in total.
 
 ### Are these rates safe?
 
@@ -57,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which EDEL pools have the most stable APY history?
 
-Based on APY history only, EDEL's lower-variability candidates are aerodrome-v1 (Base), 226.78% APY, $1.07M TVL, https://www.defi.garden/?pool=37a01d83-3eed-407a-9703-720f632ce288#src=seo_token; orca-dex (Solana), 19.14% APY, $288.6K TVL, https://www.defi.garden/?pool=984aa151-8333-538c-b57d-3b9e5f1e6ed8#src=seo_token; aerodrome-slipstream (Base), 401.13% APY, $128.4K TVL, https://www.defi.garden/?pool=389dfc96-941e-4e89-b7eb-0a0d521159cc#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, EDEL's lower-variability candidates are aerodrome-v1 (Base), 221.88% APY, $1.1M TVL, https://www.defi.garden/?pool=37a01d83-3eed-407a-9703-720f632ce288#src=seo_token; orca-dex (Solana), 8.31% APY, $291.6K TVL, https://www.defi.garden/?pool=984aa151-8333-538c-b57d-3b9e5f1e6ed8#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -73,4 +70,4 @@ Based on APY history only, EDEL's lower-variability candidates are aerodrome-v1 
 - [Base](https://www.defi.garden/chains/base)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 19, 2026
+## Last updated October 20, 2026

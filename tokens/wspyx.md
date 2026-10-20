@@ -1,33 +1,40 @@
 # WSPYX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
 
-The highest honest WSPYX yield right now is 0.01% on fluxion-network (Mantle), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WSPYX yield right now is 35.19% on nest-cl (Hyperliquid L1), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [fluxion-network →](https://www.defi.garden/?pool=913ce101-55b1-4230-93c7-d523f0d9ca03#src=seo_token) | Mantle | 0.01% | $109.2K |
+| [nest-cl →](https://www.defi.garden/?pool=b838b4af-2464-57b5-92f9-3161f675c118#src=seo_token) | Hyperliquid L1 | 35.19% | $106.2K |
 
-<!-- rate-stability:insufficient -->
+<!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-There is not enough qualifying APY history to rank WSPYX pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WSPYX's lower-variability candidates are fluxion-network (Mantle), 0.01% APY, $109.2K TVL, https://www.defi.garden/?pool=913ce101-55b1-4230-93c7-d523f0d9ca03#src=seo_token; nest-cl (Hyperliquid L1), 35.19% APY, $106.2K TVL, https://www.defi.garden/?pool=b838b4af-2464-57b5-92f9-3161f675c118#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+| Rank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [fluxion-network →](https://www.defi.garden/?pool=913ce101-55b1-4230-93c7-d523f0d9ca03#src=seo_token) | Mantle | 0.01% | $109.2K |
+| 2 | [nest-cl →](https://www.defi.garden/?pool=b838b4af-2464-57b5-92f9-3161f675c118#src=seo_token) | Hyperliquid L1 | 35.19% | $106.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WSPYX shows up in 1 pools here, with rates from 0.01% to 0.01% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+WSPYX shows up in 2 pools here, with rates from 0.01% to 35.19% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 0.10% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 18.53% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
+1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
-1 of 1 pool carries impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| fluxion-network | 0.01% | 0.10% | Base rate |
+| fluxion-network | 0.01% | 0.09% | Base rate |
+| nest-cl | 35.19% | 36.98% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WSPYX yield today?
 
-0.01% APY on fluxion-network (Mantle), based on live DefiLlama data.
+35.19% APY on nest-cl (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many WSPYX pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $627.2K in total.
+3 live pools clear this page's $100K TVL floor, $731.2K in total.
 
 ### Are these rates safe?
 
@@ -47,19 +54,20 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WSPYX pools have the most stable APY history?
 
-There is not enough qualifying APY history to rank WSPYX pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WSPYX's lower-variability candidates are fluxion-network (Mantle), 0.01% APY, $109.2K TVL, https://www.defi.garden/?pool=913ce101-55b1-4230-93c7-d523f0d9ca03#src=seo_token; nest-cl (Hyperliquid L1), 35.19% APY, $106.2K TVL, https://www.defi.garden/?pool=b838b4af-2464-57b5-92f9-3161f675c118#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
+- [KHYPE](https://www.defi.garden/tokens/khype)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
-- [KII](https://www.defi.garden/tokens/kii)
-- [BSB](https://www.defi.garden/tokens/bsb)
-- [BILL](https://www.defi.garden/tokens/bill)
-- [WNVDAX](https://www.defi.garden/tokens/wnvdax)
-- [ELSA](https://www.defi.garden/tokens/elsa)
+- [WHYPE](https://www.defi.garden/tokens/whype)
+- [THBILL](https://www.defi.garden/tokens/thbill)
+- [UBTC](https://www.defi.garden/tokens/ubtc)
+- [WSTHYPE](https://www.defi.garden/tokens/wsthype)
 
 ## Available on
 
 - [Mantle](https://www.defi.garden/chains/mantle)
+- [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated October 19, 2026
+## Last updated October 20, 2026

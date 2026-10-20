@@ -1,12 +1,12 @@
 # FEATHERFRXUSD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
 
-The highest honest FEATHERFRXUSD yield right now is 15.02% on morpho-blue (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FEATHERFRXUSD yield right now is 15.06% on morpho-blue (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=4fcb0dbe-1a67-59dd-abd2-76e94fff31e5#src=seo_token) | Polygon | 15.02% | $179.1K |
+| [morpho-blue →](https://www.defi.garden/?pool=4fcb0dbe-1a67-59dd-abd2-76e94fff31e5#src=seo_token) | Polygon | 15.06% | $179.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FEATHERFRXUSD yield today?
 
-15.02% APY on morpho-blue (Polygon), based on live DefiLlama data.
+15.06% APY on morpho-blue (Polygon), based on live DefiLlama data.
 
 ### How many FEATHERFRXUSD pools clear the TVL floor?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank FEATHERFRXUSD pools. This vie
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [DAI](https://www.defi.garden/tokens/dai)
+- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [LINK](https://www.defi.garden/tokens/link)
 - [AAVE](https://www.defi.garden/tokens/aave)
-- [USDT0](https://www.defi.garden/tokens/usdt0)
 
 ## Available on
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated October 19, 2026
+## Last updated October 20, 2026

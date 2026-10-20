@@ -1,31 +1,31 @@
 # ZEUS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
 
-The highest honest ZEUS yield right now is 257.14% on orca-dex (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZEUS yield right now is 3.21% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=42bb5dc7-76d6-40d7-8a84-4ecb913233e0#src=seo_token) | Ethereum | 1.81% | $213.8K |
-| [orca-dex →](https://www.defi.garden/?pool=1bf575be-09e6-4c00-aef9-70f9b7aa582b#src=seo_token) | Solana | 257.14% | $116.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=42bb5dc7-76d6-40d7-8a84-4ecb913233e0#src=seo_token) | Ethereum | 3.21% | $204.9K |
+| [orca-dex →](https://www.defi.garden/?pool=1bf575be-09e6-4c00-aef9-70f9b7aa582b#src=seo_token) | Solana | 153.11% | $108.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ZEUS's lower-variability candidates are uniswap-v2 (Ethereum), 1.81% APY, $213.8K TVL, https://www.defi.garden/?pool=42bb5dc7-76d6-40d7-8a84-4ecb913233e0#src=seo_token; orca-dex (Solana), 257.14% APY, $116.1K TVL, https://www.defi.garden/?pool=1bf575be-09e6-4c00-aef9-70f9b7aa582b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ZEUS's lower-variability candidates are uniswap-v2 (Ethereum), 3.21% APY, $204.9K TVL, https://www.defi.garden/?pool=42bb5dc7-76d6-40d7-8a84-4ecb913233e0#src=seo_token; orca-dex (Solana), 153.11% APY, $108.9K TVL, https://www.defi.garden/?pool=1bf575be-09e6-4c00-aef9-70f9b7aa582b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=42bb5dc7-76d6-40d7-8a84-4ecb913233e0#src=seo_token) | Ethereum | 1.81% | $213.8K |
-| 2 | [orca-dex →](https://www.defi.garden/?pool=1bf575be-09e6-4c00-aef9-70f9b7aa582b#src=seo_token) | Solana | 257.14% | $116.1K |
+| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=42bb5dc7-76d6-40d7-8a84-4ecb913233e0#src=seo_token) | Ethereum | 3.21% | $204.9K |
+| 2 | [orca-dex →](https://www.defi.garden/?pool=1bf575be-09e6-4c00-aef9-70f9b7aa582b#src=seo_token) | Solana | 153.11% | $108.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ZEUS shows up in 2 pools here, with rates from 1.81% to 257.14% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+ZEUS shows up in 2 pools here, with rates from 3.21% to 153.11% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 338.38% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 340.09% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 1.81% | 4.77% | Base rate |
-| orca-dex | 257.14% | 671.99% | Base rate |
+| uniswap-v2 | 3.21% | 4.74% | Base rate |
+| orca-dex | 153.11% | 675.44% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ZEUS yield today?
 
-257.14% APY on orca-dex (Solana), based on live DefiLlama data.
+3.21% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many ZEUS pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $329.9K in total.
+2 live pools clear this page's $100K TVL floor, $313.8K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ZEUS pools have the most stable APY history?
 
-Based on APY history only, ZEUS's lower-variability candidates are uniswap-v2 (Ethereum), 1.81% APY, $213.8K TVL, https://www.defi.garden/?pool=42bb5dc7-76d6-40d7-8a84-4ecb913233e0#src=seo_token; orca-dex (Solana), 257.14% APY, $116.1K TVL, https://www.defi.garden/?pool=1bf575be-09e6-4c00-aef9-70f9b7aa582b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ZEUS's lower-variability candidates are uniswap-v2 (Ethereum), 3.21% APY, $204.9K TVL, https://www.defi.garden/?pool=42bb5dc7-76d6-40d7-8a84-4ecb913233e0#src=seo_token; orca-dex (Solana), 153.11% APY, $108.9K TVL, https://www.defi.garden/?pool=1bf575be-09e6-4c00-aef9-70f9b7aa582b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +70,4 @@ Based on APY history only, ZEUS's lower-variability candidates are uniswap-v2 (E
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 19, 2026
+## Last updated October 20, 2026

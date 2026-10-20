@@ -1,12 +1,12 @@
 # YMVST DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
 
-The highest honest YMVST yield right now is 0.04% on morpho-blue (Robinhood Chain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YMVST yield right now is 0.09% on morpho-blue (Robinhood Chain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=22402907-75bd-5247-ba8f-41f35e3c8f25#src=seo_token) | Robinhood Chain | 0.04% | $199.9K |
+| [morpho-blue →](https://www.defi.garden/?pool=22402907-75bd-5247-ba8f-41f35e3c8f25#src=seo_token) | Robinhood Chain | 0.09% | $200.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest YMVST yield today?
 
-0.04% APY on morpho-blue (Robinhood Chain), based on live DefiLlama data.
+0.09% APY on morpho-blue (Robinhood Chain), based on live DefiLlama data.
 
 ### How many YMVST pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $199.9K in total.
+1 live pool clear this page's $100K TVL floor, $200.1K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank YMVST pools. This view covers
 
 - [Robinhood Chain](https://www.defi.garden/chains/robinhood-chain)
 
-## Last updated October 19, 2026
+## Last updated October 20, 2026

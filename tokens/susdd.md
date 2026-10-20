@@ -1,6 +1,6 @@
 # SUSDD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
 
 The highest honest SUSDD yield right now is 6.19% on pendle-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -31,7 +31,7 @@ SUSDD shows up in 2 pools here, with rates from 5.45% to 6.19% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle-v2 | 6.19% | 6.12% | 2.87% incentives |
+| pendle-v2 | 6.19% | 6.13% | 2.88% incentives |
 | pendle-v2 | 5.45% | 5.40% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -67,4 +67,4 @@ Based on APY history only, SUSDD's lower-variability candidates are pendle-v2 (E
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 19, 2026
+## Last updated October 20, 2026

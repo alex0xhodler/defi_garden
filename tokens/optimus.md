@@ -1,12 +1,12 @@
 # OPTIMUS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
 
-The highest honest OPTIMUS yield right now is 0.21% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OPTIMUS yield right now is 0.44% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=72ad7236-af5c-4390-b179-181d64999f08#src=seo_token) | Ethereum | 0.21% | $120.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=72ad7236-af5c-4390-b179-181d64999f08#src=seo_token) | Ethereum | 0.44% | $117.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest OPTIMUS yield today?
 
-0.21% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.44% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many OPTIMUS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $120.3K in total.
+1 live pool clear this page's $100K TVL floor, $117.6K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank OPTIMUS pools. This view cove
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 19, 2026
+## Last updated October 20, 2026

@@ -1,13 +1,12 @@
 # ESF DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
 
-The highest honest ESF yield right now is 16.45% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ESF yield right now is 16.45% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=6a27afef-d24b-57a0-8966-97d6de6b9e7f#src=seo_token) | Solana | 5.12% | $167.8K |
-| [raydium-amm →](https://www.defi.garden/?pool=2682c66e-7e8f-58b4-9e5a-05e010278322#src=seo_token) | Solana | 4.61% | $166.8K |
 | [raydium-amm →](https://www.defi.garden/?pool=1050bc62-0149-55e8-a4a4-e30ddbec1e94#src=seo_token) | Solana | 16.45% | $117.2K |
 
 <!-- rate-stability:insufficient -->
@@ -19,18 +18,17 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-ESF shows up in 3 pools here, with rates from 4.61% to 16.45% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+ESF shows up in 2 pools here, with rates from 5.12% to 16.45% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 3 pools have a trustworthy 30-day average on file, with a median of 163.47% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 2 pools has a trustworthy 30-day average on file, with a median of 226.24% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-3 of 3 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 5.12% | 225.34% | Base rate |
-| raydium-amm | 4.61% | 101.60% | Base rate |
+| raydium-amm | 5.12% | 226.24% | Base rate |
 | raydium-amm | 16.45% | — | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -43,7 +41,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ESF pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $451.8K in total.
+2 live pools clear this page's $100K TVL floor, $285K in total.
 
 ### Are these rates safe?
 
@@ -59,11 +57,11 @@ There is not enough qualifying APY history to rank ESF pools. This view covers A
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [USDE](https://www.defi.garden/tokens/usde)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 19, 2026
+## Last updated October 20, 2026

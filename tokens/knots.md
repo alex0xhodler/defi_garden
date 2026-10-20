@@ -1,12 +1,12 @@
 # KNOTS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
 
-The highest honest KNOTS yield right now is 33.84% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KNOTS yield right now is 26.73% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=455170b3-b1e4-50f1-ad05-a9f07bc6c628#src=seo_token) | Solana | 33.84% | $293.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=455170b3-b1e4-50f1-ad05-a9f07bc6c628#src=seo_token) | Solana | 26.73% | $286.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KNOTS yield today?
 
-33.84% APY on raydium-amm (Solana), based on live DefiLlama data.
+26.73% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many KNOTS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $293.3K in total.
+1 live pool clear this page's $100K TVL floor, $286.7K in total.
 
 ### Are these rates safe?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank KNOTS pools. This view covers
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [USDE](https://www.defi.garden/tokens/usde)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 19, 2026
+## Last updated October 20, 2026

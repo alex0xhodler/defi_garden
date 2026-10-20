@@ -1,10 +1,9 @@
 # Kava DeFi Yields
 
-The highest honest Kava yield right now is 15.00% on scrubvault (Kava), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Kava yield right now is 15.00% on scrubvault (Kava), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| TIGER-LION | [scrub-invest →](https://www.defi.garden/?pool=bc34f03d-95fe-4ed6-a809-09df91d44727#src=seo_chain) | 6.06% | $7.42M |
 | USDT | [scrubvault →](https://www.defi.garden/?pool=a0c2aee6-f17e-4483-8312-031542fdb67c#src=seo_chain) | 15.00% | $104.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -17,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Kava pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $20.34M in total.
+7 live pools clear this page's $100K TVL floor, $12.9M in total.
 
 ### Are these rates safe?
 
@@ -34,8 +33,6 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ## Top tokens on Kava
 
-- [TIGER](https://www.defi.garden/tokens/tiger)
-- [LION](https://www.defi.garden/tokens/lion)
 - [USDT](https://www.defi.garden/tokens/usdt)
 
-## Last updated October 19, 2026
+## Last updated October 20, 2026

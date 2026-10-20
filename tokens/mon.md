@@ -1,13 +1,13 @@
 # MON DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
 
-The highest honest MON yield right now is 15.55% on orca-dex (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MON yield right now is 14.34% on orca-dex (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=01af270b-f10c-57b4-8ae2-34c9c6f085ad#src=seo_token) | Monad | 11.75% | $6.43M |
-| [orca-dex →](https://www.defi.garden/?pool=c1fd5822-df73-4241-8fbb-575a3325ffb8#src=seo_token) | Solana | 15.55% | $106.3K |
+| [morpho-blue →](https://www.defi.garden/?pool=01af270b-f10c-57b4-8ae2-34c9c6f085ad#src=seo_token) | Monad | 10.18% | $6.71M |
+| [orca-dex →](https://www.defi.garden/?pool=c1fd5822-df73-4241-8fbb-575a3325ffb8#src=seo_token) | Solana | 14.34% | $106.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-MON shows up in 2 pools here, with rates from 11.75% to 15.55% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+MON shows up in 2 pools here, with rates from 10.18% to 14.34% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 295.97% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 198.80% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -28,8 +28,8 @@ MON shows up in 2 pools here, with rates from 11.75% to 15.55% APY across 2 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 11.75% | 94.49% | 33.41% incentives |
-| orca-dex | 15.55% | 497.45% | Base rate |
+| morpho-blue | 10.18% | 91.36% | 36.85% incentives |
+| orca-dex | 14.34% | 306.23% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MON yield today?
 
-15.55% APY on orca-dex (Solana), based on live DefiLlama data.
+14.34% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many MON pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $6.54M in total.
+2 live pools clear this page's $100K TVL floor, $6.82M in total.
 
 ### Are these rates safe?
 
@@ -55,9 +55,9 @@ There is not enough qualifying APY history to rank MON pools. This view covers A
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WETH](https://www.defi.garden/tokens/weth)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [SUSDE](https://www.defi.garden/tokens/susde)
 - [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
@@ -65,4 +65,4 @@ There is not enough qualifying APY history to rank MON pools. This view covers A
 - [Monad](https://www.defi.garden/chains/monad)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 19, 2026
+## Last updated October 20, 2026

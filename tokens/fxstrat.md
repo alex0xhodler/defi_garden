@@ -1,12 +1,12 @@
 # FXSTRAT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
 
-The highest honest FXSTRAT yield right now is 7.27% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FXSTRAT yield right now is 7.33% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=4d1e48c1-5e2d-510d-88a3-172f9e737f5d#src=seo_token) | Ethereum | 7.27% | $354.4K |
+| [lagoon →](https://www.defi.garden/?pool=4d1e48c1-5e2d-510d-88a3-172f9e737f5d#src=seo_token) | Ethereum | 7.33% | $354.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FXSTRAT yield today?
 
-7.27% APY on lagoon (Ethereum), based on live DefiLlama data.
+7.33% APY on lagoon (Ethereum), based on live DefiLlama data.
 
 ### How many FXSTRAT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $354.4K in total.
+1 live pool clear this page's $100K TVL floor, $354.6K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank FXSTRAT pools. This view cove
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 19, 2026
+## Last updated October 20, 2026

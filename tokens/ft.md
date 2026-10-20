@@ -1,32 +1,32 @@
 # FT DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
 
-The highest honest FT yield right now is 26.78% on convex-finance (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FT yield right now is 26.88% on convex-finance (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=01f29b6e-c258-53c1-bc44-728a551491e9#src=seo_token) | Ethereum | 18.06% | $327.1K |
-| [convex-finance →](https://www.defi.garden/?pool=bc14161c-0a0b-54e6-90cf-399dc219a30d#src=seo_token) | Ethereum | 26.78% | $293K |
-| [shadow-exchange-clmm →](https://www.defi.garden/?pool=6f4ffb05-038f-51f3-bcd5-1a80830b1816#src=seo_token) | Sonic | 22.85% | $159.5K |
+| [curve-dex →](https://www.defi.garden/?pool=01f29b6e-c258-53c1-bc44-728a551491e9#src=seo_token) | Ethereum | 17.68% | $324.4K |
+| [convex-finance →](https://www.defi.garden/?pool=bc14161c-0a0b-54e6-90cf-399dc219a30d#src=seo_token) | Ethereum | 26.88% | $290.6K |
+| [shadow-exchange-clmm →](https://www.defi.garden/?pool=6f4ffb05-038f-51f3-bcd5-1a80830b1816#src=seo_token) | Sonic | 22.93% | $159.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, FT's lower-variability candidates are convex-finance (Ethereum), 26.78% APY, $293K TVL, https://www.defi.garden/?pool=bc14161c-0a0b-54e6-90cf-399dc219a30d#src=seo_token; curve-dex (Ethereum), 18.06% APY, $327.1K TVL, https://www.defi.garden/?pool=01f29b6e-c258-53c1-bc44-728a551491e9#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FT's lower-variability candidates are convex-finance (Ethereum), 26.88% APY, $290.6K TVL, https://www.defi.garden/?pool=bc14161c-0a0b-54e6-90cf-399dc219a30d#src=seo_token; curve-dex (Ethereum), 17.68% APY, $324.4K TVL, https://www.defi.garden/?pool=01f29b6e-c258-53c1-bc44-728a551491e9#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [convex-finance →](https://www.defi.garden/?pool=bc14161c-0a0b-54e6-90cf-399dc219a30d#src=seo_token) | Ethereum | 26.78% | $293K |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=01f29b6e-c258-53c1-bc44-728a551491e9#src=seo_token) | Ethereum | 18.06% | $327.1K |
+| 1 | [convex-finance →](https://www.defi.garden/?pool=bc14161c-0a0b-54e6-90cf-399dc219a30d#src=seo_token) | Ethereum | 26.88% | $290.6K |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=01f29b6e-c258-53c1-bc44-728a551491e9#src=seo_token) | Ethereum | 17.68% | $324.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-FT shows up in 3 pools here, with rates from 18.06% to 26.78% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+FT shows up in 3 pools here, with rates from 17.68% to 26.88% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 17.36% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 17.52% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 3 of 3 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -34,9 +34,9 @@ FT shows up in 3 pools here, with rates from 18.06% to 26.78% APY across 2 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 18.06% | 17.36% | 74.52% incentives |
-| convex-finance | 26.78% | 25.16% | 82.83% incentives |
-| shadow-exchange-clmm | 22.85% | 7.25% | 100.00% incentives |
+| curve-dex | 17.68% | 17.52% | 79.81% incentives |
+| convex-finance | 26.88% | 25.37% | 86.72% incentives |
+| shadow-exchange-clmm | 22.93% | 7.80% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -44,11 +44,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest FT yield today?
 
-26.78% APY on convex-finance (Ethereum), based on live DefiLlama data.
+26.88% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many FT pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $779.7K in total.
+3 live pools clear this page's $100K TVL floor, $774.9K in total.
 
 ### Are these rates safe?
 
@@ -56,7 +56,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which FT pools have the most stable APY history?
 
-Based on APY history only, FT's lower-variability candidates are convex-finance (Ethereum), 26.78% APY, $293K TVL, https://www.defi.garden/?pool=bc14161c-0a0b-54e6-90cf-399dc219a30d#src=seo_token; curve-dex (Ethereum), 18.06% APY, $327.1K TVL, https://www.defi.garden/?pool=01f29b6e-c258-53c1-bc44-728a551491e9#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FT's lower-variability candidates are convex-finance (Ethereum), 26.88% APY, $290.6K TVL, https://www.defi.garden/?pool=bc14161c-0a0b-54e6-90cf-399dc219a30d#src=seo_token; curve-dex (Ethereum), 17.68% APY, $324.4K TVL, https://www.defi.garden/?pool=01f29b6e-c258-53c1-bc44-728a551491e9#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -72,4 +72,4 @@ Based on APY history only, FT's lower-variability candidates are convex-finance 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Sonic](https://www.defi.garden/chains/sonic)
 
-## Last updated October 19, 2026
+## Last updated October 20, 2026

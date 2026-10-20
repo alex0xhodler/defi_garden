@@ -1,12 +1,12 @@
 # FEATHERBRZ DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
 
 The highest honest FEATHERBRZ yield right now is 13.62% on morpho-blue (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=a3f368d6-1893-59a9-a6e7-a43fc744b26f#src=seo_token) | Polygon | 13.62% | $201.6K |
+| [morpho-blue →](https://www.defi.garden/?pool=a3f368d6-1893-59a9-a6e7-a43fc744b26f#src=seo_token) | Polygon | 13.62% | $202.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many FEATHERBRZ pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $201.6K in total.
+1 live pool clear this page's $100K TVL floor, $202.9K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank FEATHERBRZ pools. This view c
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [DAI](https://www.defi.garden/tokens/dai)
+- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [LINK](https://www.defi.garden/tokens/link)
 - [AAVE](https://www.defi.garden/tokens/aave)
-- [USDT0](https://www.defi.garden/tokens/usdt0)
 
 ## Available on
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated October 19, 2026
+## Last updated October 20, 2026

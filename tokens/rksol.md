@@ -1,12 +1,12 @@
 # RKSOL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
 
-The highest honest RKSOL yield right now is 5.17% on starke-staked-sol (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RKSOL yield right now is 5.11% on starke-staked-sol (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [starke-staked-sol →](https://www.defi.garden/?pool=b6dbf329-91dd-443e-bfd6-1340bcd4e1aa#src=seo_token) | Solana | 5.17% | $1.12M |
+| [starke-staked-sol →](https://www.defi.garden/?pool=b6dbf329-91dd-443e-bfd6-1340bcd4e1aa#src=seo_token) | Solana | 5.11% | $1.12M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RKSOL yield today?
 
-5.17% APY on starke-staked-sol (Solana), based on live DefiLlama data.
+5.11% APY on starke-staked-sol (Solana), based on live DefiLlama data.
 
 ### How many RKSOL pools clear the TVL floor?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank RKSOL pools. This view covers
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [USDE](https://www.defi.garden/tokens/usde)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 19, 2026
+## Last updated October 20, 2026

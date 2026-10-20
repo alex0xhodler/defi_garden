@@ -1,12 +1,12 @@
 # NZD DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
 
-The highest honest NZD yield right now is 1.51% on gmx-solana (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NZD yield right now is 1.32% on gmx-solana (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmx-solana →](https://www.defi.garden/?pool=399d9968-ff94-47fd-83ee-2a9852e0a9a6#src=seo_token) | Solana | 1.51% | $1.19M |
+| [gmx-solana →](https://www.defi.garden/?pool=399d9968-ff94-47fd-83ee-2a9852e0a9a6#src=seo_token) | Solana | 1.32% | $1.19M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NZD yield today?
 
-1.51% APY on gmx-solana (Solana), based on live DefiLlama data.
+1.32% APY on gmx-solana (Solana), based on live DefiLlama data.
 
 ### How many NZD pools clear the TVL floor?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank NZD pools. This view covers A
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [USDE](https://www.defi.garden/tokens/usde)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 19, 2026
+## Last updated October 20, 2026

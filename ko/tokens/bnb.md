@@ -1,57 +1,55 @@
 # BNB 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 19, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 20, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 BNB의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 14.99%이며, $100K TVL 기준을 넘는 20개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 BNB의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 9.62%이며, $100K TVL 기준을 넘는 7개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [lista-lending →](https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471#src=seo_token) | BSC | 0.21% | $352.76M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=c290709e-49a9-4fa6-a4d2-ff4d78c45df5#src=seo_token) | BSC | 0.02% | $2.52M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=9b2888b1-8ffc-403b-96d6-2384f65db2fd#src=seo_token) | BSC | 4.59% | $1.35M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=cc1bdf46-b963-5bd5-94a8-728c3fdea8f6#src=seo_token) | BSC | 7.75% | $1.26M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=5f15161b-5de8-4c11-962e-7e35d447ec20#src=seo_token) | BSC | 0.02% | $904.5K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=c716ca27-346b-4d61-be6e-aff719566e04#src=seo_token) | BSC | 2.49% | $567.2K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a#src=seo_token) | Ethereum | 14.99% | $317.9K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=9557d375-34b0-4388-a321-9a21ddeeda95#src=seo_token) | BSC | 5.24% | $245.3K |
+| [lista-lending →](https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471#src=seo_token) | BSC | 0.21% | $356.83M |
+| [sovryn-dex →](https://www.defi.garden/?pool=4ced90d6-5aa2-4a56-897e-7e36f06f69a2#src=seo_token) | Rootstock | 0.07% | $707.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a#src=seo_token) | Ethereum | 9.62% | $324.9K |
+| [gmx-evm →](https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec#src=seo_token) | Arbitrum | 0.01% | $203.6K |
+| [kyberswap-fairflow →](https://www.defi.garden/?pool=4f7770b5-e397-4449-9fd4-13c1d1be4ea6#src=seo_token) | BSC | 14.53% | $188.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=35198ecc-588f-4028-8235-e494709c4b38#src=seo_token) | Ethereum | 6.39% | $136K |
+| [orca-dex →](https://www.defi.garden/?pool=1d969a93-7051-49a4-99d7-f3470d26448a#src=seo_token) | Solana | 11.67% | $135.3K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 BNB의 변동성 낮은 후보는 BSC의 uniswap-v4, APY 0.02%, TVL $2.52M, https://www.defi.garden/?pool=c290709e-49a9-4fa6-a4d2-ff4d78c45df5#src=seo_token; BSC의 uniswap-v4, APY 0.02%, TVL $904.5K, https://www.defi.garden/?pool=5f15161b-5de8-4c11-962e-7e35d447ec20#src=seo_token; BSC의 lista-lending, APY 0.21%, TVL $352.76M, https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471#src=seo_token; BSC의 uniswap-v4, APY 2.49%, TVL $567.2K, https://www.defi.garden/?pool=c716ca27-346b-4d61-be6e-aff719566e04#src=seo_token; BSC의 uniswap-v4, APY 4.59%, TVL $1.35M, https://www.defi.garden/?pool=9b2888b1-8ffc-403b-96d6-2384f65db2fd#src=seo_token; BSC의 uniswap-v4, APY 5.24%, TVL $245.3K, https://www.defi.garden/?pool=9557d375-34b0-4388-a321-9a21ddeeda95#src=seo_token; Ethereum의 uniswap-v3, APY 14.99%, TVL $317.9K, https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 BNB의 변동성 낮은 후보는 BSC의 lista-lending, APY 0.21%, TVL $356.83M, https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471#src=seo_token; Rootstock의 sovryn-dex, APY 0.07%, TVL $707.6K, https://www.defi.garden/?pool=4ced90d6-5aa2-4a56-897e-7e36f06f69a2#src=seo_token; Arbitrum의 gmx-evm, APY 0.01%, TVL $203.6K, https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec#src=seo_token; Solana의 orca-dex, APY 11.67%, TVL $135.3K, https://www.defi.garden/?pool=1d969a93-7051-49a4-99d7-f3470d26448a#src=seo_token; BSC의 kyberswap-fairflow, APY 14.53%, TVL $188.7K, https://www.defi.garden/?pool=4f7770b5-e397-4449-9fd4-13c1d1be4ea6#src=seo_token; Ethereum의 uniswap-v3, APY 9.62%, TVL $324.9K, https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a#src=seo_token; Ethereum의 uniswap-v4, APY 6.39%, TVL $136K, https://www.defi.garden/?pool=35198ecc-588f-4028-8235-e494709c4b38#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=c290709e-49a9-4fa6-a4d2-ff4d78c45df5#src=seo_token) | BSC | 0.02% | $2.52M |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=5f15161b-5de8-4c11-962e-7e35d447ec20#src=seo_token) | BSC | 0.02% | $904.5K |
-| 3 | [lista-lending →](https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471#src=seo_token) | BSC | 0.21% | $352.76M |
-| 4 | [uniswap-v4 →](https://www.defi.garden/?pool=c716ca27-346b-4d61-be6e-aff719566e04#src=seo_token) | BSC | 2.49% | $567.2K |
-| 5 | [uniswap-v4 →](https://www.defi.garden/?pool=9b2888b1-8ffc-403b-96d6-2384f65db2fd#src=seo_token) | BSC | 4.59% | $1.35M |
-| 6 | [uniswap-v4 →](https://www.defi.garden/?pool=9557d375-34b0-4388-a321-9a21ddeeda95#src=seo_token) | BSC | 5.24% | $245.3K |
-| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a#src=seo_token) | Ethereum | 14.99% | $317.9K |
+| 1 | [lista-lending →](https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471#src=seo_token) | BSC | 0.21% | $356.83M |
+| 2 | [sovryn-dex →](https://www.defi.garden/?pool=4ced90d6-5aa2-4a56-897e-7e36f06f69a2#src=seo_token) | Rootstock | 0.07% | $707.6K |
+| 3 | [gmx-evm →](https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec#src=seo_token) | Arbitrum | 0.01% | $203.6K |
+| 4 | [orca-dex →](https://www.defi.garden/?pool=1d969a93-7051-49a4-99d7-f3470d26448a#src=seo_token) | Solana | 11.67% | $135.3K |
+| 5 | [kyberswap-fairflow →](https://www.defi.garden/?pool=4f7770b5-e397-4449-9fd4-13c1d1be4ea6#src=seo_token) | BSC | 14.53% | $188.7K |
+| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a#src=seo_token) | Ethereum | 9.62% | $324.9K |
+| 7 | [uniswap-v4 →](https://www.defi.garden/?pool=35198ecc-588f-4028-8235-e494709c4b38#src=seo_token) | Ethereum | 6.39% | $136K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-BNB 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.02%부터 14.99%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+BNB 풀은 여기 7개가 있고, 5개 체인에서 APY가 0.01%부터 14.53%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 4.81%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+7개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 5.50%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
-현재 8개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
+7개 풀 중 2개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
-8개 풀 중 7개는 비영구적 손실(IL) 위험이 있어요 — 두 자산을 맞춰 넣는 포지션은 수익이 나는 중에도 그냥 들고 있는 것보다 가치가 줄어들 수 있어요.
+7개 풀 중 6개는 비영구적 손실(IL) 위험이 있어요 — 두 자산을 맞춰 넣는 포지션은 수익이 나는 중에도 그냥 들고 있는 것보다 가치가 줄어들 수 있어요.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | lista-lending | 0.21% | 0.21% | 기본 금리 |
-| uniswap-v4 | 0.02% | 0.15% | 기본 금리 |
-| uniswap-v4 | 4.59% | 10.85% | 기본 금리 |
-| uniswap-v4 | 7.75% | 17.41% | 기본 금리 |
-| uniswap-v4 | 0.02% | 0.16% | 기본 금리 |
-| uniswap-v4 | 2.49% | 4.23% | 기본 금리 |
-| uniswap-v3 | 14.99% | 16.06% | 기본 금리 |
-| uniswap-v4 | 5.24% | 5.39% | 기본 금리 |
+| sovryn-dex | 0.07% | 0.08% | 인센티브 100.00% |
+| uniswap-v3 | 9.62% | 15.87% | 기본 금리 |
+| gmx-evm | 0.01% | 0.65% | 기본 금리 |
+| kyberswap-fairflow | 14.53% | 5.50% | 인센티브 65.86% |
+| uniswap-v4 | 6.39% | 12.71% | 기본 금리 |
+| orca-dex | 11.67% | 45.51% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -59,11 +57,11 @@ BNB 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.02%부터 14.99%까
 
 ### 오늘 BNB의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 14.99%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 9.62%예요.
 
 ### BNB 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 20개이며, 합산 TVL은 $362.41M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $358.53M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -71,7 +69,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 14.99%예
 
 ### BNB 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 BNB의 변동성 낮은 후보는 BSC의 uniswap-v4, APY 0.02%, TVL $2.52M, https://www.defi.garden/?pool=c290709e-49a9-4fa6-a4d2-ff4d78c45df5#src=seo_token; BSC의 uniswap-v4, APY 0.02%, TVL $904.5K, https://www.defi.garden/?pool=5f15161b-5de8-4c11-962e-7e35d447ec20#src=seo_token; BSC의 lista-lending, APY 0.21%, TVL $352.76M, https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471#src=seo_token; BSC의 uniswap-v4, APY 2.49%, TVL $567.2K, https://www.defi.garden/?pool=c716ca27-346b-4d61-be6e-aff719566e04#src=seo_token; BSC의 uniswap-v4, APY 4.59%, TVL $1.35M, https://www.defi.garden/?pool=9b2888b1-8ffc-403b-96d6-2384f65db2fd#src=seo_token; BSC의 uniswap-v4, APY 5.24%, TVL $245.3K, https://www.defi.garden/?pool=9557d375-34b0-4388-a321-9a21ddeeda95#src=seo_token; Ethereum의 uniswap-v3, APY 14.99%, TVL $317.9K, https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 BNB의 변동성 낮은 후보는 BSC의 lista-lending, APY 0.21%, TVL $356.83M, https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471#src=seo_token; Rootstock의 sovryn-dex, APY 0.07%, TVL $707.6K, https://www.defi.garden/?pool=4ced90d6-5aa2-4a56-897e-7e36f06f69a2#src=seo_token; Arbitrum의 gmx-evm, APY 0.01%, TVL $203.6K, https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec#src=seo_token; Solana의 orca-dex, APY 11.67%, TVL $135.3K, https://www.defi.garden/?pool=1d969a93-7051-49a4-99d7-f3470d26448a#src=seo_token; BSC의 kyberswap-fairflow, APY 14.53%, TVL $188.7K, https://www.defi.garden/?pool=4f7770b5-e397-4449-9fd4-13c1d1be4ea6#src=seo_token; Ethereum의 uniswap-v3, APY 9.62%, TVL $324.9K, https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a#src=seo_token; Ethereum의 uniswap-v4, APY 6.39%, TVL $136K, https://www.defi.garden/?pool=35198ecc-588f-4028-8235-e494709c4b38#src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -85,6 +83,9 @@ APY 이력만 기준으로 비교한 BNB의 변동성 낮은 후보는 BSC의 un
 ## 이용 가능한 체인
 
 - [BSC](https://www.defi.garden/ko/chains/bsc)
+- [Rootstock](https://www.defi.garden/ko/chains/rootstock)
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
+- [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
+- [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: October 19, 2026
+## 마지막 업데이트: October 20, 2026

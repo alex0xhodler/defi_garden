@@ -1,12 +1,12 @@
 # SUIETH DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
 
 The highest honest SUIETH yield right now is 0.01% on navi-lending (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [navi-lending →](https://www.defi.garden/?pool=db06281c-5d43-4e45-ad0b-2ee035fde9c4#src=seo_token) | Sui | 0.01% | $1.84M |
+| [navi-lending →](https://www.defi.garden/?pool=db06281c-5d43-4e45-ad0b-2ee035fde9c4#src=seo_token) | Sui | 0.01% | $1.82M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SUIETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.84M in total.
+1 live pool clear this page's $100K TVL floor, $1.82M in total.
 
 ### Are these rates safe?
 
@@ -37,13 +37,13 @@ There is not enough qualifying APY history to rank SUIETH pools. This view cover
 
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
+- [ENZOBTC](https://www.defi.garden/tokens/enzobtc)
 - [HASUI](https://www.defi.garden/tokens/hasui)
 - [SUI](https://www.defi.garden/tokens/sui)
 - [XBTC](https://www.defi.garden/tokens/xbtc)
-- [BUCK](https://www.defi.garden/tokens/buck)
 
 ## Available on
 
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated October 19, 2026
+## Last updated October 20, 2026

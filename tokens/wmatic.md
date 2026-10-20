@@ -1,43 +1,43 @@
 # WMATIC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
 
-The highest honest WMATIC yield right now is 48.97% on uniswap-v3 (Polygon), among 13 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WMATIC yield right now is 62.53% on uniswap-v3 (Polygon), among 13 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=4d6914cc-4df2-4f1a-8b89-7681721d1758#src=seo_token) | Polygon | 48.97% | $1.04M |
-| [quickswap-dex →](https://www.defi.garden/?pool=81a51af8-4a0e-409b-9688-264323afc1fe#src=seo_token) | Polygon | 5.73% | $584.3K |
-| [quickswap-dex →](https://www.defi.garden/?pool=2a8b1bc2-596e-435c-8518-ba6897ecb225#src=seo_token) | Polygon | 1.94% | $489.2K |
-| [quickswap-dex →](https://www.defi.garden/?pool=92284843-bc0d-46bc-870c-2c7bf510c9f0#src=seo_token) | Polygon | 2.34% | $239K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=05497577-3400-4442-8108-6f59c1bb8d4d#src=seo_token) | Polygon | 24.28% | $223K |
-| [quickswap-dex →](https://www.defi.garden/?pool=e7feb0ba-5b99-496c-9c76-75b0f26f753a#src=seo_token) | Polygon | 36.37% | $207K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=6dfaa280-b16e-4a49-bd12-175082979153#src=seo_token) | Polygon | 14.74% | $180.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=d8ce4c9a-f1cf-4792-ad78-b5446d06a650#src=seo_token) | Polygon | 1.67% | $159.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4d6914cc-4df2-4f1a-8b89-7681721d1758#src=seo_token) | Polygon | 62.53% | $1.03M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=383ba314-d65f-4bce-824a-10357b5bf3ba#src=seo_token) | Polygon | 0.01% | $834.9K |
+| [quickswap-dex →](https://www.defi.garden/?pool=81a51af8-4a0e-409b-9688-264323afc1fe#src=seo_token) | Polygon | 5.29% | $585.9K |
+| [quickswap-dex →](https://www.defi.garden/?pool=2a8b1bc2-596e-435c-8518-ba6897ecb225#src=seo_token) | Polygon | 2.78% | $487.8K |
+| [quickswap-dex →](https://www.defi.garden/?pool=92284843-bc0d-46bc-870c-2c7bf510c9f0#src=seo_token) | Polygon | 0.75% | $245.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=05497577-3400-4442-8108-6f59c1bb8d4d#src=seo_token) | Polygon | 18.22% | $223.9K |
+| [quickswap-dex →](https://www.defi.garden/?pool=e7feb0ba-5b99-496c-9c76-75b0f26f753a#src=seo_token) | Polygon | 14.25% | $216.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6dfaa280-b16e-4a49-bd12-175082979153#src=seo_token) | Polygon | 30.94% | $181.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WMATIC's lower-variability candidates are quickswap-dex (Polygon), 2.34% APY, $239K TVL, https://www.defi.garden/?pool=92284843-bc0d-46bc-870c-2c7bf510c9f0#src=seo_token; quickswap-dex (Polygon), 1.94% APY, $489.2K TVL, https://www.defi.garden/?pool=2a8b1bc2-596e-435c-8518-ba6897ecb225#src=seo_token; quickswap-dex (Polygon), 36.37% APY, $207K TVL, https://www.defi.garden/?pool=e7feb0ba-5b99-496c-9c76-75b0f26f753a#src=seo_token; uniswap-v3 (Polygon), 1.67% APY, $159.5K TVL, https://www.defi.garden/?pool=d8ce4c9a-f1cf-4792-ad78-b5446d06a650#src=seo_token; quickswap-dex (Polygon), 5.73% APY, $584.3K TVL, https://www.defi.garden/?pool=81a51af8-4a0e-409b-9688-264323afc1fe#src=seo_token; uniswap-v3 (Polygon), 24.28% APY, $223K TVL, https://www.defi.garden/?pool=05497577-3400-4442-8108-6f59c1bb8d4d#src=seo_token; uniswap-v3 (Polygon), 14.74% APY, $180.5K TVL, https://www.defi.garden/?pool=6dfaa280-b16e-4a49-bd12-175082979153#src=seo_token; uniswap-v3 (Polygon), 48.97% APY, $1.04M TVL, https://www.defi.garden/?pool=4d6914cc-4df2-4f1a-8b89-7681721d1758#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WMATIC's lower-variability candidates are uniswap-v3 (Polygon), 0.01% APY, $834.9K TVL, https://www.defi.garden/?pool=383ba314-d65f-4bce-824a-10357b5bf3ba#src=seo_token; quickswap-dex (Polygon), 0.75% APY, $245.6K TVL, https://www.defi.garden/?pool=92284843-bc0d-46bc-870c-2c7bf510c9f0#src=seo_token; quickswap-dex (Polygon), 2.78% APY, $487.8K TVL, https://www.defi.garden/?pool=2a8b1bc2-596e-435c-8518-ba6897ecb225#src=seo_token; quickswap-dex (Polygon), 14.25% APY, $216.3K TVL, https://www.defi.garden/?pool=e7feb0ba-5b99-496c-9c76-75b0f26f753a#src=seo_token; quickswap-dex (Polygon), 5.29% APY, $585.9K TVL, https://www.defi.garden/?pool=81a51af8-4a0e-409b-9688-264323afc1fe#src=seo_token; uniswap-v3 (Polygon), 18.22% APY, $223.9K TVL, https://www.defi.garden/?pool=05497577-3400-4442-8108-6f59c1bb8d4d#src=seo_token; uniswap-v3 (Polygon), 30.94% APY, $181.4K TVL, https://www.defi.garden/?pool=6dfaa280-b16e-4a49-bd12-175082979153#src=seo_token; uniswap-v3 (Polygon), 62.53% APY, $1.03M TVL, https://www.defi.garden/?pool=4d6914cc-4df2-4f1a-8b89-7681721d1758#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [quickswap-dex →](https://www.defi.garden/?pool=92284843-bc0d-46bc-870c-2c7bf510c9f0#src=seo_token) | Polygon | 2.34% | $239K |
-| 2 | [quickswap-dex →](https://www.defi.garden/?pool=2a8b1bc2-596e-435c-8518-ba6897ecb225#src=seo_token) | Polygon | 1.94% | $489.2K |
-| 3 | [quickswap-dex →](https://www.defi.garden/?pool=e7feb0ba-5b99-496c-9c76-75b0f26f753a#src=seo_token) | Polygon | 36.37% | $207K |
-| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=d8ce4c9a-f1cf-4792-ad78-b5446d06a650#src=seo_token) | Polygon | 1.67% | $159.5K |
-| 5 | [quickswap-dex →](https://www.defi.garden/?pool=81a51af8-4a0e-409b-9688-264323afc1fe#src=seo_token) | Polygon | 5.73% | $584.3K |
-| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=05497577-3400-4442-8108-6f59c1bb8d4d#src=seo_token) | Polygon | 24.28% | $223K |
-| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=6dfaa280-b16e-4a49-bd12-175082979153#src=seo_token) | Polygon | 14.74% | $180.5K |
-| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=4d6914cc-4df2-4f1a-8b89-7681721d1758#src=seo_token) | Polygon | 48.97% | $1.04M |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=383ba314-d65f-4bce-824a-10357b5bf3ba#src=seo_token) | Polygon | 0.01% | $834.9K |
+| 2 | [quickswap-dex →](https://www.defi.garden/?pool=92284843-bc0d-46bc-870c-2c7bf510c9f0#src=seo_token) | Polygon | 0.75% | $245.6K |
+| 3 | [quickswap-dex →](https://www.defi.garden/?pool=2a8b1bc2-596e-435c-8518-ba6897ecb225#src=seo_token) | Polygon | 2.78% | $487.8K |
+| 4 | [quickswap-dex →](https://www.defi.garden/?pool=e7feb0ba-5b99-496c-9c76-75b0f26f753a#src=seo_token) | Polygon | 14.25% | $216.3K |
+| 5 | [quickswap-dex →](https://www.defi.garden/?pool=81a51af8-4a0e-409b-9688-264323afc1fe#src=seo_token) | Polygon | 5.29% | $585.9K |
+| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=05497577-3400-4442-8108-6f59c1bb8d4d#src=seo_token) | Polygon | 18.22% | $223.9K |
+| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=6dfaa280-b16e-4a49-bd12-175082979153#src=seo_token) | Polygon | 30.94% | $181.4K |
+| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=4d6914cc-4df2-4f1a-8b89-7681721d1758#src=seo_token) | Polygon | 62.53% | $1.03M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WMATIC shows up in 8 pools here, with rates from 1.67% to 48.97% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+WMATIC shows up in 8 pools here, with rates from 0.01% to 62.53% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-6 of these 8 pools have a trustworthy 30-day average on file, with a median of 13.02% — a useful check against today's number for whether the rate is steady or just having a good day.
+6 of these 8 pools have a trustworthy 30-day average on file, with a median of 13.18% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 8 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -45,14 +45,14 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 48.97% | 90.31% | Base rate |
-| quickswap-dex | 5.73% | — | Base rate |
-| quickswap-dex | 1.94% | — | Base rate |
-| quickswap-dex | 2.34% | 1.52% | Base rate |
-| uniswap-v3 | 24.28% | 39.33% | Base rate |
-| quickswap-dex | 36.37% | 11.78% | Base rate |
-| uniswap-v3 | 14.74% | 14.25% | Base rate |
-| uniswap-v3 | 1.67% | 7.83% | Base rate |
+| uniswap-v3 | 62.53% | 87.24% | Base rate |
+| uniswap-v3 | 0.01% | 0.03% | Base rate |
+| quickswap-dex | 5.29% | — | Base rate |
+| quickswap-dex | 2.78% | — | Base rate |
+| quickswap-dex | 0.75% | 1.51% | Base rate |
+| uniswap-v3 | 18.22% | 37.69% | Base rate |
+| quickswap-dex | 14.25% | 11.82% | Base rate |
+| uniswap-v3 | 30.94% | 14.54% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -60,11 +60,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WMATIC yield today?
 
-48.97% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
+62.53% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
 
 ### How many WMATIC pools clear the TVL floor?
 
-13 live pools clear this page's $100K TVL floor, $4.44M in total.
+13 live pools clear this page's $100K TVL floor, $4.46M in total.
 
 ### Are these rates safe?
 
@@ -72,19 +72,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WMATIC pools have the most stable APY history?
 
-Based on APY history only, WMATIC's lower-variability candidates are quickswap-dex (Polygon), 2.34% APY, $239K TVL, https://www.defi.garden/?pool=92284843-bc0d-46bc-870c-2c7bf510c9f0#src=seo_token; quickswap-dex (Polygon), 1.94% APY, $489.2K TVL, https://www.defi.garden/?pool=2a8b1bc2-596e-435c-8518-ba6897ecb225#src=seo_token; quickswap-dex (Polygon), 36.37% APY, $207K TVL, https://www.defi.garden/?pool=e7feb0ba-5b99-496c-9c76-75b0f26f753a#src=seo_token; uniswap-v3 (Polygon), 1.67% APY, $159.5K TVL, https://www.defi.garden/?pool=d8ce4c9a-f1cf-4792-ad78-b5446d06a650#src=seo_token; quickswap-dex (Polygon), 5.73% APY, $584.3K TVL, https://www.defi.garden/?pool=81a51af8-4a0e-409b-9688-264323afc1fe#src=seo_token; uniswap-v3 (Polygon), 24.28% APY, $223K TVL, https://www.defi.garden/?pool=05497577-3400-4442-8108-6f59c1bb8d4d#src=seo_token; uniswap-v3 (Polygon), 14.74% APY, $180.5K TVL, https://www.defi.garden/?pool=6dfaa280-b16e-4a49-bd12-175082979153#src=seo_token; uniswap-v3 (Polygon), 48.97% APY, $1.04M TVL, https://www.defi.garden/?pool=4d6914cc-4df2-4f1a-8b89-7681721d1758#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WMATIC's lower-variability candidates are uniswap-v3 (Polygon), 0.01% APY, $834.9K TVL, https://www.defi.garden/?pool=383ba314-d65f-4bce-824a-10357b5bf3ba#src=seo_token; quickswap-dex (Polygon), 0.75% APY, $245.6K TVL, https://www.defi.garden/?pool=92284843-bc0d-46bc-870c-2c7bf510c9f0#src=seo_token; quickswap-dex (Polygon), 2.78% APY, $487.8K TVL, https://www.defi.garden/?pool=2a8b1bc2-596e-435c-8518-ba6897ecb225#src=seo_token; quickswap-dex (Polygon), 14.25% APY, $216.3K TVL, https://www.defi.garden/?pool=e7feb0ba-5b99-496c-9c76-75b0f26f753a#src=seo_token; quickswap-dex (Polygon), 5.29% APY, $585.9K TVL, https://www.defi.garden/?pool=81a51af8-4a0e-409b-9688-264323afc1fe#src=seo_token; uniswap-v3 (Polygon), 18.22% APY, $223.9K TVL, https://www.defi.garden/?pool=05497577-3400-4442-8108-6f59c1bb8d4d#src=seo_token; uniswap-v3 (Polygon), 30.94% APY, $181.4K TVL, https://www.defi.garden/?pool=6dfaa280-b16e-4a49-bd12-175082979153#src=seo_token; uniswap-v3 (Polygon), 62.53% APY, $1.03M TVL, https://www.defi.garden/?pool=4d6914cc-4df2-4f1a-8b89-7681721d1758#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [DAI](https://www.defi.garden/tokens/dai)
+- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [LINK](https://www.defi.garden/tokens/link)
 - [AAVE](https://www.defi.garden/tokens/aave)
-- [USDT0](https://www.defi.garden/tokens/usdt0)
 
 ## Available on
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated October 19, 2026
+## Last updated October 20, 2026

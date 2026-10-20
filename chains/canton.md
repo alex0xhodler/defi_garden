@@ -1,12 +1,11 @@
 # Canton DeFi Yields
 
-The highest honest Canton yield right now is 15.65% on alpend (Canton), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Canton yield right now is 10.94% on alpend (Canton), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| CC | [alpend →](https://www.defi.garden/?pool=480418ff-6a3c-5c1b-8e4c-2b4518d05d35#src=seo_chain) | 4.11% | $1.8M |
-| CBTC | [alpend →](https://www.defi.garden/?pool=cfb2faa5-ccf0-5109-a9b1-28f9a86f86c1#src=seo_chain) | 10.94% | $239.4K |
-| USDCX | [alpend →](https://www.defi.garden/?pool=0822ec9c-8120-5193-ae90-b94cc46cfe6c#src=seo_chain) | 15.65% | $111.6K |
+| CC | [alpend →](https://www.defi.garden/?pool=480418ff-6a3c-5c1b-8e4c-2b4518d05d35#src=seo_chain) | 4.12% | $1.85M |
+| CBTC | [alpend →](https://www.defi.garden/?pool=cfb2faa5-ccf0-5109-a9b1-28f9a86f86c1#src=seo_chain) | 10.94% | $237.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Canton yield today?
 
-15.65% APY on alpend (Canton), based on live DefiLlama data.
+10.94% APY on alpend (Canton), based on live DefiLlama data.
 
 ### How many Canton pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $2.15M in total.
+2 live pools clear this page's $100K TVL floor, $2.08M in total.
 
 ### Are these rates safe?
 
@@ -26,17 +25,16 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ## Related chains
 
-- [Stacks](https://www.defi.garden/chains/stacks)
-- [Cardano](https://www.defi.garden/chains/cardano)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Solana](https://www.defi.garden/chains/solana)
 - [Base](https://www.defi.garden/chains/base)
 - [BSC](https://www.defi.garden/chains/bsc)
+- [Tron](https://www.defi.garden/chains/tron)
+- [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
 ## Top tokens on Canton
 
 - [CC](https://www.defi.garden/tokens/cc)
 - [CBTC](https://www.defi.garden/tokens/cbtc)
-- [USDCX](https://www.defi.garden/tokens/usdcx)
 
-## Last updated October 19, 2026
+## Last updated October 20, 2026

@@ -1,40 +1,43 @@
 # BITCOIN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
 
-The highest honest BITCOIN yield right now is 3.94% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BITCOIN yield right now is 310.04% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=50f50e9d-4720-45e7-9285-e0fccfbd946a#src=seo_token) | Ethereum | 3.94% | $971.4K |
-| [raydium-amm →](https://www.defi.garden/?pool=24d10918-a07c-4491-a6ba-c107d6f80a91#src=seo_token) | Solana | 87.64% | $106.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=50f50e9d-4720-45e7-9285-e0fccfbd946a#src=seo_token) | Ethereum | 9.91% | $1.01M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=458bebdc-d4d2-410f-9338-93d295c4e934#src=seo_token) | Ethereum | 0.23% | $151.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=24d10918-a07c-4491-a6ba-c107d6f80a91#src=seo_token) | Solana | 310.04% | $108.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, BITCOIN's lower-variability candidates are uniswap-v3 (Ethereum), 3.94% APY, $971.4K TVL, https://www.defi.garden/?pool=50f50e9d-4720-45e7-9285-e0fccfbd946a#src=seo_token; raydium-amm (Solana), 87.64% APY, $106.1K TVL, https://www.defi.garden/?pool=24d10918-a07c-4491-a6ba-c107d6f80a91#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BITCOIN's lower-variability candidates are uniswap-v3 (Ethereum), 9.91% APY, $1.01M TVL, https://www.defi.garden/?pool=50f50e9d-4720-45e7-9285-e0fccfbd946a#src=seo_token; raydium-amm (Solana), 310.04% APY, $108.7K TVL, https://www.defi.garden/?pool=24d10918-a07c-4491-a6ba-c107d6f80a91#src=seo_token; uniswap-v3 (Ethereum), 0.23% APY, $151.9K TVL, https://www.defi.garden/?pool=458bebdc-d4d2-410f-9338-93d295c4e934#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=50f50e9d-4720-45e7-9285-e0fccfbd946a#src=seo_token) | Ethereum | 3.94% | $971.4K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=24d10918-a07c-4491-a6ba-c107d6f80a91#src=seo_token) | Solana | 87.64% | $106.1K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=50f50e9d-4720-45e7-9285-e0fccfbd946a#src=seo_token) | Ethereum | 9.91% | $1.01M |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=24d10918-a07c-4491-a6ba-c107d6f80a91#src=seo_token) | Solana | 310.04% | $108.7K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=458bebdc-d4d2-410f-9338-93d295c4e934#src=seo_token) | Ethereum | 0.23% | $151.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-BITCOIN shows up in 2 pools here, with rates from 3.94% to 87.64% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+BITCOIN shows up in 3 pools here, with rates from 0.23% to 310.04% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 135.35% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 5.90% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+3 of 3 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 3.94% | 5.89% | Base rate |
-| raydium-amm | 87.64% | 264.80% | Base rate |
+| uniswap-v3 | 9.91% | 5.90% | Base rate |
+| uniswap-v3 | 0.23% | 0.37% | Base rate |
+| raydium-amm | 310.04% | 264.05% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +45,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BITCOIN yield today?
 
-3.94% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+310.04% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many BITCOIN pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.23M in total.
+3 live pools clear this page's $100K TVL floor, $1.27M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BITCOIN pools have the most stable APY history?
 
-Based on APY history only, BITCOIN's lower-variability candidates are uniswap-v3 (Ethereum), 3.94% APY, $971.4K TVL, https://www.defi.garden/?pool=50f50e9d-4720-45e7-9285-e0fccfbd946a#src=seo_token; raydium-amm (Solana), 87.64% APY, $106.1K TVL, https://www.defi.garden/?pool=24d10918-a07c-4491-a6ba-c107d6f80a91#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BITCOIN's lower-variability candidates are uniswap-v3 (Ethereum), 9.91% APY, $1.01M TVL, https://www.defi.garden/?pool=50f50e9d-4720-45e7-9285-e0fccfbd946a#src=seo_token; raydium-amm (Solana), 310.04% APY, $108.7K TVL, https://www.defi.garden/?pool=24d10918-a07c-4491-a6ba-c107d6f80a91#src=seo_token; uniswap-v3 (Ethereum), 0.23% APY, $151.9K TVL, https://www.defi.garden/?pool=458bebdc-d4d2-410f-9338-93d295c4e934#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +73,4 @@ Based on APY history only, BITCOIN's lower-variability candidates are uniswap-v3
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 19, 2026
+## Last updated October 20, 2026

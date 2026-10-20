@@ -1,12 +1,12 @@
 # CRAWLER DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
 
-The highest honest CRAWLER yield right now is 172.28% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CRAWLER yield right now is 169.02% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=edf5d99b-1650-50af-94dc-34307ae601e9#src=seo_token) | Base | 172.28% | $299.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=edf5d99b-1650-50af-94dc-34307ae601e9#src=seo_token) | Base | 169.02% | $305.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CRAWLER yield today?
 
-172.28% APY on uniswap-v2 (Base), based on live DefiLlama data.
+169.02% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many CRAWLER pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $299.3K in total.
+1 live pool clear this page's $100K TVL floor, $305.7K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank CRAWLER pools. This view cove
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 19, 2026
+## Last updated October 20, 2026

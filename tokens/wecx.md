@@ -1,12 +1,12 @@
 # WECX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
 
-The highest honest WECX yield right now is 261.40% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WECX yield right now is 65.35% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=a85a5521-d622-5da6-bb25-23f98cc7abd2#src=seo_token) | Solana | 261.40% | $667K |
+| [orca-dex →](https://www.defi.garden/?pool=a85a5521-d622-5da6-bb25-23f98cc7abd2#src=seo_token) | Solana | 65.35% | $665.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WECX yield today?
 
-261.40% APY on orca-dex (Solana), based on live DefiLlama data.
+65.35% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many WECX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $667K in total.
+1 live pool clear this page's $100K TVL floor, $665.8K in total.
 
 ### Are these rates safe?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank WECX pools. This view covers 
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [USDE](https://www.defi.garden/tokens/usde)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 19, 2026
+## Last updated October 20, 2026

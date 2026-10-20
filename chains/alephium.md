@@ -1,10 +1,10 @@
 # Alephium DeFi Yields
 
-The highest honest Alephium yield right now is 1.07% on powfi (Alephium), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Alephium yield right now is 0.25% on powfi (Alephium), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| ALPH-XALPH | [powfi →](https://www.defi.garden/?pool=cb7dc9f8-e46f-5a0d-8b65-9fe108ed66bd#src=seo_chain) | 1.07% | $136.2K |
+| ALPH-XALPH | [powfi →](https://www.defi.garden/?pool=cb7dc9f8-e46f-5a0d-8b65-9fe108ed66bd#src=seo_chain) | 0.25% | $133K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Alephium yield today?
 
-1.07% APY on powfi (Alephium), based on live DefiLlama data.
+0.25% APY on powfi (Alephium), based on live DefiLlama data.
 
 ### How many Alephium pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $136.2K in total.
+1 live pool clear this page's $100K TVL floor, $133K in total.
 
 ### Are these rates safe?
 
@@ -36,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [ALPH](https://www.defi.garden/tokens/alph)
 - [XALPH](https://www.defi.garden/tokens/xalph)
 
-## Last updated October 19, 2026
+## Last updated October 20, 2026

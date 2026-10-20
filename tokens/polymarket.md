@@ -1,12 +1,12 @@
 # POLYMARKET DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
 
-The highest honest POLYMARKET yield right now is 4.97% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest POLYMARKET yield right now is 78.48% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=d1c9de24-6a8e-5ef7-b236-4329e6a717d4#src=seo_token) | Solana | 4.97% | $268.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=d1c9de24-6a8e-5ef7-b236-4329e6a717d4#src=seo_token) | Solana | 78.48% | $305.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest POLYMARKET yield today?
 
-4.97% APY on raydium-amm (Solana), based on live DefiLlama data.
+78.48% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many POLYMARKET pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $268.8K in total.
+1 live pool clear this page's $100K TVL floor, $305.5K in total.
 
 ### Are these rates safe?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank POLYMARKET pools. This view c
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [USDE](https://www.defi.garden/tokens/usde)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 19, 2026
+## Last updated October 20, 2026

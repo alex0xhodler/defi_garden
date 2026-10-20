@@ -1,12 +1,12 @@
 # SWARMS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
 
-The highest honest SWARMS yield right now is 7.38% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SWARMS yield right now is 3.13% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=25cb3610-4aae-43dc-8773-fe13bdec9eb2#src=seo_token) | Solana | 7.38% | $1.38M |
+| [raydium-amm →](https://www.defi.garden/?pool=25cb3610-4aae-43dc-8773-fe13bdec9eb2#src=seo_token) | Solana | 3.13% | $1.38M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SWARMS yield today?
 
-7.38% APY on raydium-amm (Solana), based on live DefiLlama data.
+3.13% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many SWARMS pools clear the TVL floor?
 
@@ -39,11 +39,11 @@ There is not enough qualifying APY history to rank SWARMS pools. This view cover
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [USDE](https://www.defi.garden/tokens/usde)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 19, 2026
+## Last updated October 20, 2026

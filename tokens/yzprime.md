@@ -1,6 +1,6 @@
 # YZPRIME DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
 
 The highest honest YZPRIME yield right now is 6.71% on yuzu-money (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -36,14 +36,14 @@ There is not enough qualifying APY history to rank YZPRIME pools. This view cove
 ## Related tokens
 
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
-- [SUSDE](https://www.defi.garden/tokens/susde)
+- [WETH](https://www.defi.garden/tokens/weth)
 - [USDE](https://www.defi.garden/tokens/usde)
+- [SUSDE](https://www.defi.garden/tokens/susde)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
 - [BTC](https://www.defi.garden/tokens/btc)
-- [PT](https://www.defi.garden/tokens/pt)
 
 ## Available on
 
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated October 19, 2026
+## Last updated October 20, 2026

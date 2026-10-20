@@ -1,12 +1,12 @@
 # BBQUSDG DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
 
-The highest honest BBQUSDG yield right now is 8.00% on morpho-blue (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BBQUSDG yield right now is 8.14% on morpho-blue (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=081571e9-b1da-5bb5-bf2a-f1475efce79b#src=seo_token) | Arbitrum | 8.00% | $10.32M |
+| [morpho-blue →](https://www.defi.garden/?pool=081571e9-b1da-5bb5-bf2a-f1475efce79b#src=seo_token) | Arbitrum | 8.14% | $12.37M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BBQUSDG yield today?
 
-8.00% APY on morpho-blue (Arbitrum), based on live DefiLlama data.
+8.14% APY on morpho-blue (Arbitrum), based on live DefiLlama data.
 
 ### How many BBQUSDG pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $10.32M in total.
+1 live pool clear this page's $100K TVL floor, $12.37M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank BBQUSDG pools. This view cove
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated October 19, 2026
+## Last updated October 20, 2026

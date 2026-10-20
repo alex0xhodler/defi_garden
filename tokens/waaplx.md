@@ -1,6 +1,6 @@
 # WAAPLX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
 
 The highest honest WAAPLX yield right now is 0.75% on fluxion-network (Mantle), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank WAAPLX pools. This view cover
 
 - [Mantle](https://www.defi.garden/chains/mantle)
 
-## Last updated October 19, 2026
+## Last updated October 20, 2026

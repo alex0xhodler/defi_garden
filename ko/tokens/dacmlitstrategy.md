@@ -1,12 +1,12 @@
 # DACMLITSTRATEGY 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 19, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 20, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 DACMLITSTRATEGY의 가장 높은 정직한 수익률은 Arbitrum의 lagoon에서 7.26%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 DACMLITSTRATEGY의 가장 높은 정직한 수익률은 Arbitrum의 lagoon에서 5.83%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=694c7731-fbbe-4a34-a100-fcc637296df0#src=seo_token) | Arbitrum | 7.26% | $448.7K |
+| [lagoon →](https://www.defi.garden/?pool=694c7731-fbbe-4a34-a100-fcc637296df0#src=seo_token) | Arbitrum | 5.83% | $448.7K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,7 +19,7 @@
 
 ### 오늘 DACMLITSTRATEGY의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Arbitrum의 lagoon에서 APY 7.26%예요.
+DefiLlama 실시간 데이터 기준, Arbitrum의 lagoon에서 APY 5.83%예요.
 
 ### DACMLITSTRATEGY 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -46,4 +46,4 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 lagoon에서 APY 7.26%예요.
 
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
-## 마지막 업데이트: October 19, 2026
+## 마지막 업데이트: October 20, 2026

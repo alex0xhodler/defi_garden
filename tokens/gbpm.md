@@ -1,12 +1,12 @@
 # GBPM DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
 
-The highest honest GBPM yield right now is 23.09% on mento-v3 (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GBPM yield right now is 23.14% on mento-v3 (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [mento-v3 →](https://www.defi.garden/?pool=51f3ee86-2dd5-41e7-951c-c8c27165abbf#src=seo_token) | Monad | 23.09% | $473.2K |
+| [mento-v3 →](https://www.defi.garden/?pool=51f3ee86-2dd5-41e7-951c-c8c27165abbf#src=seo_token) | Monad | 23.14% | $472K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GBPM yield today?
 
-23.09% APY on mento-v3 (Monad), based on live DefiLlama data.
+23.14% APY on mento-v3 (Monad), based on live DefiLlama data.
 
 ### How many GBPM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $473.2K in total.
+1 live pool clear this page's $100K TVL floor, $472K in total.
 
 ### Are these rates safe?
 
@@ -36,14 +36,14 @@ There is not enough qualifying APY history to rank GBPM pools. This view covers 
 ## Related tokens
 
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
-- [SUSDE](https://www.defi.garden/tokens/susde)
+- [WETH](https://www.defi.garden/tokens/weth)
 - [USDE](https://www.defi.garden/tokens/usde)
+- [SUSDE](https://www.defi.garden/tokens/susde)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
 - [BTC](https://www.defi.garden/tokens/btc)
-- [PT](https://www.defi.garden/tokens/pt)
 
 ## Available on
 
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated October 19, 2026
+## Last updated October 20, 2026

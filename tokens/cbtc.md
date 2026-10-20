@@ -1,12 +1,12 @@
 # CBTC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 19, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
 
 The highest honest CBTC yield right now is 10.94% on alpend (Canton), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [alpend →](https://www.defi.garden/?pool=cfb2faa5-ccf0-5109-a9b1-28f9a86f86c1#src=seo_token) | Canton | 10.94% | $239.4K |
+| [alpend →](https://www.defi.garden/?pool=cfb2faa5-ccf0-5109-a9b1-28f9a86f86c1#src=seo_token) | Canton | 10.94% | $237.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CBTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $239.4K in total.
+1 live pool clear this page's $100K TVL floor, $237.1K in total.
 
 ### Are these rates safe?
 
@@ -35,15 +35,15 @@ There is not enough qualifying APY history to rank CBTC pools. This view covers 
 
 ## Related tokens
 
-- [USDCX](https://www.defi.garden/tokens/usdcx)
 - [CC](https://www.defi.garden/tokens/cc)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 
 ## Available on
 
 - [Canton](https://www.defi.garden/chains/canton)
 
-## Last updated October 19, 2026
+## Last updated October 20, 2026

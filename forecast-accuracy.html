@@ -170,17 +170,17 @@
         <div class="kpi-row">
             <div class="kpi-cell">
                 <div class="kpi-label">Median Band Capture</div>
-                <div class="kpi-val">71.0%</div>
+                <div class="kpi-val">70.9%</div>
                 <div class="kpi-sub">Target: 80% nominal coverage</div>
             </div>
             <div class="kpi-cell">
                 <div class="kpi-label">Median Model MAE</div>
-                <div class="kpi-val">1.11 pp</div>
+                <div class="kpi-val">1.13 pp</div>
                 <div class="kpi-sub">Mean error vs median forecast</div>
             </div>
             <div class="kpi-cell">
                 <div class="kpi-label">Naive Baseline MAE</div>
-                <div class="kpi-val">1.10 pp</div>
+                <div class="kpi-val">1.11 pp</div>
                 <div class="kpi-sub">Mean error assuming "no change"</div>
             </div>
             <div class="kpi-cell">
@@ -193,7 +193,7 @@
         </div>
 
         <div class="score-lede" style="background:var(--ui-surface-muted, rgba(0,0,0,0.03)); border:1px solid var(--ui-border); padding:16px 20px; border-radius:var(--ui-radius-md); font-size:0.92rem;">
-          <strong>Key Research Finding:</strong> Across 24 resolved daily test runs, the empirical 80% confidence interval captures <strong>71.0%</strong> of actual outcomes. However, the median forecast skill score sits at <strong>-0.01</strong>: <em>in our first 10 test runs, assuming today's rate holds was more accurate than this forecast</em>. Roughly 60% of lending yields barely moved (&lt;0.1 pp), which the model handled well, but on pools with meaningful rate movement (&ge;0.5 pp), assuming no change was substantially closer. Individual venue pages mark forecasts as experimental.
+          <strong>Key Research Finding:</strong> Across 25 resolved daily test runs, the empirical 80% confidence interval captures <strong>70.9%</strong> of actual outcomes. However, the median forecast skill score sits at <strong>-0.01</strong>: <em>in our first 10 test runs, assuming today's rate holds was more accurate than this forecast</em>. Roughly 60% of lending yields barely moved (&lt;0.1 pp), which the model handled well, but on pools with meaningful rate movement (&ge;0.5 pp), assuming no change was substantially closer. Individual venue pages mark forecasts as experimental.
         </div>
 
         <h2 style="font-size:1.25rem; margin:32px 0 10px;">Daily Resolved Evaluation Runs (14-Day Horizon)</h2>
@@ -550,6 +550,20 @@
       </td>
       <td class="num">65.1%</td>
       <td class="num">69.3%</td>
+    </tr>
+    <tr>
+      <td style="font-weight:600;">2026-10-06 &rarr; 10-20</td>
+      <td><a href="https://github.com/alex0xhodler/defi_garden/commit/e73698f3ace4ea99f9bde0e23e2071791f35f8d6" target="_blank" rel="noopener" style="font-family:monospace; font-size:0.8rem; color:var(--ui-accent);">e73698f3ace4ea99f9bde0e23e2071791f35f8d6</a> (02:00 UTC)</td>
+      <td class="num">2,562</td>
+      <td class="num">127</td>
+      <td class="num" style="font-weight:600;">68.9%</td>
+      <td class="num">1.34 pp</td>
+      <td class="num" style="color:var(--ui-text-secondary);">1.34 pp</td>
+      <td class="num" style="font-weight:600; color:#d9534f;">
+        0.00
+      </td>
+      <td class="num">65.4%</td>
+      <td class="num">69.7%</td>
     </tr>
                     </tbody>
                 </table>
