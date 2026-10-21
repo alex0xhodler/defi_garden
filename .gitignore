@@ -57,3 +57,28 @@ docs/outcome/
 
 # Cloudflare Wrangler build/state (109 poller)
 .wrangler/
+
+# Generated site outputs — built by CI and published to alex0xhodler/defi_garden-site.
+# Keep in sync with scripts/site-outputs.txt. Run scripts/restore-site-outputs.sh to
+# get a local copy for dev/tests.
+/tokens/
+/chains/
+/pools/
+/ko/
+/pt/
+/es/
+/og/
+/data/pools/
+/data/pools-snapshot.json
+/data/pools-snapshot-meta.json
+/data/landing-pools.json
+/data/pool-pages.json
+/data/pool-scores.json
+/data/protocol-urls.json
+/data/stocks-pools.json
+/data/stocks-snapshot.json
+/data/forecast-evaluations.json
+/sitemap*.xml
+/llms.txt
+/llms-full.txt
+/forecast-accuracy.html
