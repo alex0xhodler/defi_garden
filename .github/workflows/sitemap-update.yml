@@ -224,7 +224,7 @@ jobs:
       # directory so runner junk (node_modules, caches) can never be published.
       run: |
         OUT="$RUNNER_TEMP/out"; mkdir -p "$OUT"
-        git ls-files -z -- . ':!.github' | rsync -a --from0 --files-from=- ./ "$OUT/"
+        git ls-files -z -- . ':!.github' | rsync -a --from0 --ignore-missing-args --files-from=- ./ "$OUT/"
         shopt -s nullglob
         grep -vE '^\s*(#|$)' scripts/site-outputs.txt | while read -r pattern; do
           for p in $pattern; do mkdir -p "$OUT/$(dirname "$p")"; rsync -a "$p" "$OUT/$(dirname "$p")/"; done
