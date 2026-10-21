@@ -88,9 +88,12 @@ jobs:
         echo "✅ Protocol URL generation completed"
 
     - name: Compute KPIs + retain history (backlog 087 — data-layer leg 2 phase 0; 110 — read from D1 when provisioned)
-      env:
-        HISTORY_ENDPOINT: ${{ secrets.HISTORY_ENDPOINT }}
-        HISTORY_TOKEN: ${{ secrets.HISTORY_TOKEN }}
+      # D1 /history read PAUSED (2026-10-21). It reads ~1.64M rows per call (90 days
+      # of hourly rows) and then 503s (a single JSON response blows the free Worker
+      # 10 ms CPU / 128 MB limits), so every run paid ~1/3 of the 5M/day D1 read
+      # limit and still fell back to data/history/*.json. Without HISTORY_ENDPOINT,
+      # compute-kpis.js takes that file path directly: identical KPIs, ~0 D1 reads.
+      # Re-enabled by the paginated /samples + R2 archive path (history v2).
       run: |
         echo "📈 Appending slim history point + computing per-pool KPIs..."
         node compute-kpis.js
