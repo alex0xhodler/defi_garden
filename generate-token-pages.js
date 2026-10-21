@@ -2189,7 +2189,12 @@ async function main() {
   // /scratch/og/tokens and leaves the repo's committed og/tokens untouched.
   // On the CI path (--out tokens from the repo root) path.dirname(outDir) is
   // the repo root, i.e. byte-identical to the old process.cwd() behavior.
-  const ogImagePaths = generateOgImages(ranked, 'tokens', rec => rec.symbol, path.dirname(outDir));
+  // Only head tokens (the ones the sitemap submits) get a unique card; every
+  // other page falls back to the shared /og-image.png via renderTokenPage.
+  // Cuts ~1,300 PNGs (~55 MB) from every deploy — Vercel Hobby deployment
+  // storage is 10 GB — and generateOgImages' stale cleanup removes the rest.
+  const ogRecords = ranked.filter(rec => headTokens.has(String(rec.symbol).toUpperCase()));
+  const ogImagePaths = generateOgImages(ogRecords, 'tokens', rec => rec.symbol, path.dirname(outDir));
   console.log(`🖼️  Generated ${ogImagePaths.size} token OG images`);
 
   if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
