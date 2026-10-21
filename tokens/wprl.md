@@ -1,15 +1,15 @@
 # WPRL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 21, 2026. Rates change continuously.*
 
-The highest honest WPRL yield right now is 213.06% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WPRL yield right now is 246.33% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=81afe4bd-7141-48be-a0c0-9556cf4cfca8#src=seo_token) | Ethereum | 213.06% | $895.4K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=1285d6a6-fd6f-5658-96fe-7c79c324bc7a#src=seo_token) | Ethereum | 125.14% | $566.4K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=dc002a22-25d3-5fec-83ca-106e0b610b82#src=seo_token) | Ethereum | 101.52% | $225.5K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=37d3cbd7-360c-5209-b072-d04356db2ed2#src=seo_token) | Ethereum | 17.88% | $103.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=81afe4bd-7141-48be-a0c0-9556cf4cfca8#src=seo_token) | Ethereum | 246.33% | $911.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=1285d6a6-fd6f-5658-96fe-7c79c324bc7a#src=seo_token) | Ethereum | 239.15% | $787.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=dc002a22-25d3-5fec-83ca-106e0b610b82#src=seo_token) | Ethereum | 150.68% | $243.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=37d3cbd7-360c-5209-b072-d04356db2ed2#src=seo_token) | Ethereum | 48.32% | $111.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -20,9 +20,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-WPRL shows up in 4 pools here, with rates from 17.88% to 213.06% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+WPRL shows up in 4 pools here, with rates from 48.32% to 246.33% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 449.81% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 446.55% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -30,10 +30,10 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 213.06% | 451.66% | Base rate |
-| uniswap-v4 | 125.14% | 447.96% | Base rate |
-| uniswap-v4 | 101.52% | 206.99% | Base rate |
-| uniswap-v4 | 17.88% | 453.60% | Base rate |
+| uniswap-v3 | 246.33% | 451.09% | Base rate |
+| uniswap-v4 | 239.15% | 442.22% | Base rate |
+| uniswap-v4 | 150.68% | 205.38% | Base rate |
+| uniswap-v4 | 48.32% | 450.88% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -41,11 +41,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WPRL yield today?
 
-213.06% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+246.33% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many WPRL pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.79M in total.
+4 live pools clear this page's $100K TVL floor, $2.05M in total.
 
 ### Are these rates safe?
 
@@ -68,4 +68,4 @@ There is not enough qualifying APY history to rank WPRL pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 20, 2026
+## Last updated October 21, 2026

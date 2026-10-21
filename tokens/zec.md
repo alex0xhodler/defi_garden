@@ -1,41 +1,41 @@
 # ZEC DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 21, 2026. Rates change continuously.*
 
-The highest honest ZEC yield right now is 153.53% on orca-dex (Solana), among 15 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZEC yield right now is 189.31% on raydium-amm (Solana), among 16 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=d3976688-cd2f-404c-be53-dd47ae528811#src=seo_token) | Solana | 104.65% | $4.03M |
-| [orca-dex →](https://www.defi.garden/?pool=3de7947c-e199-4842-a496-a775f59d6ba3#src=seo_token) | Solana | 153.53% | $2.98M |
-| [raydium-amm →](https://www.defi.garden/?pool=45c64e65-e826-58ec-a6a9-6e837e97e617#src=seo_token) | Solana | 94.49% | $2.27M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=9777c6f8-4447-48fe-9250-4be162a078ec#src=seo_token) | BSC | 117.98% | $1.55M |
-| [raydium-amm →](https://www.defi.garden/?pool=2b9b8818-b4e1-5810-9d56-6206e3e7fa76#src=seo_token) | Solana | 108.36% | $1.11M |
-| [raydium-amm →](https://www.defi.garden/?pool=1cffc534-eba9-5987-a36f-78588b7a1489#src=seo_token) | Solana | 37.41% | $803.9K |
-| [raydium-amm →](https://www.defi.garden/?pool=527d643b-1964-4e10-bf38-0fa470a55dc1#src=seo_token) | Solana | 101.91% | $538.2K |
-| [ekubo →](https://www.defi.garden/?pool=ce792a94-391e-5a01-8604-35408ac6d2a7#src=seo_token) | Starknet | 25.54% | $357.8K |
+| [orca-dex →](https://www.defi.garden/?pool=d3976688-cd2f-404c-be53-dd47ae528811#src=seo_token) | Solana | 133.33% | $4.22M |
+| [orca-dex →](https://www.defi.garden/?pool=3de7947c-e199-4842-a496-a775f59d6ba3#src=seo_token) | Solana | 173.36% | $3.32M |
+| [raydium-amm →](https://www.defi.garden/?pool=45c64e65-e826-58ec-a6a9-6e837e97e617#src=seo_token) | Solana | 96.54% | $2.34M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=9777c6f8-4447-48fe-9250-4be162a078ec#src=seo_token) | BSC | 179.80% | $1.38M |
+| [raydium-amm →](https://www.defi.garden/?pool=2b9b8818-b4e1-5810-9d56-6206e3e7fa76#src=seo_token) | Solana | 189.31% | $1.2M |
+| [raydium-amm →](https://www.defi.garden/?pool=1cffc534-eba9-5987-a36f-78588b7a1489#src=seo_token) | Solana | 53.49% | $850.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=527d643b-1964-4e10-bf38-0fa470a55dc1#src=seo_token) | Solana | 156.92% | $574.6K |
+| [ekubo →](https://www.defi.garden/?pool=ce792a94-391e-5a01-8604-35408ac6d2a7#src=seo_token) | Starknet | 169.99% | $392.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ZEC's lower-variability candidates are orca-dex (Solana), 153.53% APY, $2.98M TVL, https://www.defi.garden/?pool=3de7947c-e199-4842-a496-a775f59d6ba3#src=seo_token; orca-dex (Solana), 104.65% APY, $4.03M TVL, https://www.defi.garden/?pool=d3976688-cd2f-404c-be53-dd47ae528811#src=seo_token; uniswap-v3 (BSC), 117.98% APY, $1.55M TVL, https://www.defi.garden/?pool=9777c6f8-4447-48fe-9250-4be162a078ec#src=seo_token; ekubo (Starknet), 25.54% APY, $357.8K TVL, https://www.defi.garden/?pool=ce792a94-391e-5a01-8604-35408ac6d2a7#src=seo_token; raydium-amm (Solana), 101.91% APY, $538.2K TVL, https://www.defi.garden/?pool=527d643b-1964-4e10-bf38-0fa470a55dc1#src=seo_token; raydium-amm (Solana), 108.36% APY, $1.11M TVL, https://www.defi.garden/?pool=2b9b8818-b4e1-5810-9d56-6206e3e7fa76#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ZEC's lower-variability candidates are orca-dex (Solana), 173.36% APY, $3.32M TVL, https://www.defi.garden/?pool=3de7947c-e199-4842-a496-a775f59d6ba3#src=seo_token; orca-dex (Solana), 133.33% APY, $4.22M TVL, https://www.defi.garden/?pool=d3976688-cd2f-404c-be53-dd47ae528811#src=seo_token; uniswap-v3 (BSC), 179.80% APY, $1.38M TVL, https://www.defi.garden/?pool=9777c6f8-4447-48fe-9250-4be162a078ec#src=seo_token; ekubo (Starknet), 169.99% APY, $392.3K TVL, https://www.defi.garden/?pool=ce792a94-391e-5a01-8604-35408ac6d2a7#src=seo_token; raydium-amm (Solana), 156.92% APY, $574.6K TVL, https://www.defi.garden/?pool=527d643b-1964-4e10-bf38-0fa470a55dc1#src=seo_token; raydium-amm (Solana), 189.31% APY, $1.2M TVL, https://www.defi.garden/?pool=2b9b8818-b4e1-5810-9d56-6206e3e7fa76#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [orca-dex →](https://www.defi.garden/?pool=3de7947c-e199-4842-a496-a775f59d6ba3#src=seo_token) | Solana | 153.53% | $2.98M |
-| 2 | [orca-dex →](https://www.defi.garden/?pool=d3976688-cd2f-404c-be53-dd47ae528811#src=seo_token) | Solana | 104.65% | $4.03M |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=9777c6f8-4447-48fe-9250-4be162a078ec#src=seo_token) | BSC | 117.98% | $1.55M |
-| 4 | [ekubo →](https://www.defi.garden/?pool=ce792a94-391e-5a01-8604-35408ac6d2a7#src=seo_token) | Starknet | 25.54% | $357.8K |
-| 5 | [raydium-amm →](https://www.defi.garden/?pool=527d643b-1964-4e10-bf38-0fa470a55dc1#src=seo_token) | Solana | 101.91% | $538.2K |
-| 6 | [raydium-amm →](https://www.defi.garden/?pool=2b9b8818-b4e1-5810-9d56-6206e3e7fa76#src=seo_token) | Solana | 108.36% | $1.11M |
+| 1 | [orca-dex →](https://www.defi.garden/?pool=3de7947c-e199-4842-a496-a775f59d6ba3#src=seo_token) | Solana | 173.36% | $3.32M |
+| 2 | [orca-dex →](https://www.defi.garden/?pool=d3976688-cd2f-404c-be53-dd47ae528811#src=seo_token) | Solana | 133.33% | $4.22M |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=9777c6f8-4447-48fe-9250-4be162a078ec#src=seo_token) | BSC | 179.80% | $1.38M |
+| 4 | [ekubo →](https://www.defi.garden/?pool=ce792a94-391e-5a01-8604-35408ac6d2a7#src=seo_token) | Starknet | 169.99% | $392.3K |
+| 5 | [raydium-amm →](https://www.defi.garden/?pool=527d643b-1964-4e10-bf38-0fa470a55dc1#src=seo_token) | Solana | 156.92% | $574.6K |
+| 6 | [raydium-amm →](https://www.defi.garden/?pool=2b9b8818-b4e1-5810-9d56-6206e3e7fa76#src=seo_token) | Solana | 189.31% | $1.2M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ZEC shows up in 8 pools here, with rates from 25.54% to 153.53% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+ZEC shows up in 8 pools here, with rates from 53.49% to 189.31% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 181.49% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 176.76% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 8 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -43,14 +43,14 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| orca-dex | 104.65% | 152.30% | Base rate |
-| orca-dex | 153.53% | 196.39% | Base rate |
-| raydium-amm | 94.49% | 164.76% | Base rate |
-| uniswap-v3 | 117.98% | 131.38% | Base rate |
-| raydium-amm | 108.36% | 238.73% | Base rate |
-| raydium-amm | 37.41% | 188.78% | Base rate |
-| raydium-amm | 101.91% | 174.20% | Base rate |
-| ekubo | 25.54% | 327.08% | Base rate |
+| orca-dex | 133.33% | 146.63% | Base rate |
+| orca-dex | 173.36% | 192.49% | Base rate |
+| raydium-amm | 96.54% | 161.05% | Base rate |
+| uniswap-v3 | 179.80% | 133.24% | Base rate |
+| raydium-amm | 189.31% | 239.13% | Base rate |
+| raydium-amm | 53.49% | 183.72% | Base rate |
+| raydium-amm | 156.92% | 169.81% | Base rate |
+| ekubo | 169.99% | 324.99% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -58,11 +58,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ZEC yield today?
 
-153.53% APY on orca-dex (Solana), based on live DefiLlama data.
+189.31% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many ZEC pools clear the TVL floor?
 
-15 live pools clear this page's $100K TVL floor, $18.61M in total.
+16 live pools clear this page's $100K TVL floor, $19.8M in total.
 
 ### Are these rates safe?
 
@@ -70,7 +70,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ZEC pools have the most stable APY history?
 
-Based on APY history only, ZEC's lower-variability candidates are orca-dex (Solana), 153.53% APY, $2.98M TVL, https://www.defi.garden/?pool=3de7947c-e199-4842-a496-a775f59d6ba3#src=seo_token; orca-dex (Solana), 104.65% APY, $4.03M TVL, https://www.defi.garden/?pool=d3976688-cd2f-404c-be53-dd47ae528811#src=seo_token; uniswap-v3 (BSC), 117.98% APY, $1.55M TVL, https://www.defi.garden/?pool=9777c6f8-4447-48fe-9250-4be162a078ec#src=seo_token; ekubo (Starknet), 25.54% APY, $357.8K TVL, https://www.defi.garden/?pool=ce792a94-391e-5a01-8604-35408ac6d2a7#src=seo_token; raydium-amm (Solana), 101.91% APY, $538.2K TVL, https://www.defi.garden/?pool=527d643b-1964-4e10-bf38-0fa470a55dc1#src=seo_token; raydium-amm (Solana), 108.36% APY, $1.11M TVL, https://www.defi.garden/?pool=2b9b8818-b4e1-5810-9d56-6206e3e7fa76#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ZEC's lower-variability candidates are orca-dex (Solana), 173.36% APY, $3.32M TVL, https://www.defi.garden/?pool=3de7947c-e199-4842-a496-a775f59d6ba3#src=seo_token; orca-dex (Solana), 133.33% APY, $4.22M TVL, https://www.defi.garden/?pool=d3976688-cd2f-404c-be53-dd47ae528811#src=seo_token; uniswap-v3 (BSC), 179.80% APY, $1.38M TVL, https://www.defi.garden/?pool=9777c6f8-4447-48fe-9250-4be162a078ec#src=seo_token; ekubo (Starknet), 169.99% APY, $392.3K TVL, https://www.defi.garden/?pool=ce792a94-391e-5a01-8604-35408ac6d2a7#src=seo_token; raydium-amm (Solana), 156.92% APY, $574.6K TVL, https://www.defi.garden/?pool=527d643b-1964-4e10-bf38-0fa470a55dc1#src=seo_token; raydium-amm (Solana), 189.31% APY, $1.2M TVL, https://www.defi.garden/?pool=2b9b8818-b4e1-5810-9d56-6206e3e7fa76#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -87,4 +87,4 @@ Based on APY history only, ZEC's lower-variability candidates are orca-dex (Sola
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Starknet](https://www.defi.garden/chains/starknet)
 
-## Last updated October 20, 2026
+## Last updated October 21, 2026

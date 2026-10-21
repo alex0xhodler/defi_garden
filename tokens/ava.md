@@ -1,33 +1,33 @@
 # AVA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 21, 2026. Rates change continuously.*
 
 The highest honest AVA yield right now is 85.56% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=4ad29d1d-ff76-48fb-ba0e-a88dfd71f3e0#src=seo_token) | Solana | 6.74% | $1.17M |
+| [raydium-amm →](https://www.defi.garden/?pool=4ad29d1d-ff76-48fb-ba0e-a88dfd71f3e0#src=seo_token) | Solana | 4.88% | $1.18M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=8f93560a-8aa5-4673-aec6-4c42ce3b6369#src=seo_token) | Ethereum | 85.56% | $214.9K |
-| [raydium-amm →](https://www.defi.garden/?pool=f8e1990e-af40-490f-9d29-bb8c70981492#src=seo_token) | Solana | 93.21% | $163.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=f8e1990e-af40-490f-9d29-bb8c70981492#src=seo_token) | Solana | 49.96% | $150K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, AVA's lower-variability candidates are raydium-amm (Solana), 93.21% APY, $163.6K TVL, https://www.defi.garden/?pool=f8e1990e-af40-490f-9d29-bb8c70981492#src=seo_token; uniswap-v3 (Ethereum), 85.56% APY, $214.9K TVL, https://www.defi.garden/?pool=8f93560a-8aa5-4673-aec6-4c42ce3b6369#src=seo_token; raydium-amm (Solana), 6.74% APY, $1.17M TVL, https://www.defi.garden/?pool=4ad29d1d-ff76-48fb-ba0e-a88dfd71f3e0#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AVA's lower-variability candidates are raydium-amm (Solana), 49.96% APY, $150K TVL, https://www.defi.garden/?pool=f8e1990e-af40-490f-9d29-bb8c70981492#src=seo_token; uniswap-v3 (Ethereum), 85.56% APY, $214.9K TVL, https://www.defi.garden/?pool=8f93560a-8aa5-4673-aec6-4c42ce3b6369#src=seo_token; raydium-amm (Solana), 4.88% APY, $1.18M TVL, https://www.defi.garden/?pool=4ad29d1d-ff76-48fb-ba0e-a88dfd71f3e0#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=f8e1990e-af40-490f-9d29-bb8c70981492#src=seo_token) | Solana | 93.21% | $163.6K |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=f8e1990e-af40-490f-9d29-bb8c70981492#src=seo_token) | Solana | 49.96% | $150K |
 | 2 | [uniswap-v3 →](https://www.defi.garden/?pool=8f93560a-8aa5-4673-aec6-4c42ce3b6369#src=seo_token) | Ethereum | 85.56% | $214.9K |
-| 3 | [raydium-amm →](https://www.defi.garden/?pool=4ad29d1d-ff76-48fb-ba0e-a88dfd71f3e0#src=seo_token) | Solana | 6.74% | $1.17M |
+| 3 | [raydium-amm →](https://www.defi.garden/?pool=4ad29d1d-ff76-48fb-ba0e-a88dfd71f3e0#src=seo_token) | Solana | 4.88% | $1.18M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-AVA shows up in 3 pools here, with rates from 6.74% to 93.21% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+AVA shows up in 3 pools here, with rates from 4.88% to 85.56% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 35.58% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 36.36% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -35,9 +35,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 6.74% | 16.50% | Base rate |
+| raydium-amm | 4.88% | 15.46% | Base rate |
 | uniswap-v3 | 85.56% | 107.40% | Base rate |
-| raydium-amm | 93.21% | 35.58% | Base rate |
+| raydium-amm | 49.96% | 36.36% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which AVA pools have the most stable APY history?
 
-Based on APY history only, AVA's lower-variability candidates are raydium-amm (Solana), 93.21% APY, $163.6K TVL, https://www.defi.garden/?pool=f8e1990e-af40-490f-9d29-bb8c70981492#src=seo_token; uniswap-v3 (Ethereum), 85.56% APY, $214.9K TVL, https://www.defi.garden/?pool=8f93560a-8aa5-4673-aec6-4c42ce3b6369#src=seo_token; raydium-amm (Solana), 6.74% APY, $1.17M TVL, https://www.defi.garden/?pool=4ad29d1d-ff76-48fb-ba0e-a88dfd71f3e0#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AVA's lower-variability candidates are raydium-amm (Solana), 49.96% APY, $150K TVL, https://www.defi.garden/?pool=f8e1990e-af40-490f-9d29-bb8c70981492#src=seo_token; uniswap-v3 (Ethereum), 85.56% APY, $214.9K TVL, https://www.defi.garden/?pool=8f93560a-8aa5-4673-aec6-4c42ce3b6369#src=seo_token; raydium-amm (Solana), 4.88% APY, $1.18M TVL, https://www.defi.garden/?pool=4ad29d1d-ff76-48fb-ba0e-a88dfd71f3e0#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -73,4 +73,4 @@ Based on APY history only, AVA's lower-variability candidates are raydium-amm (S
 - [Solana](https://www.defi.garden/chains/solana)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 20, 2026
+## Last updated October 21, 2026

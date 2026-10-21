@@ -1,13 +1,13 @@
 # YURU DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 21, 2026. Rates change continuously.*
 
-The highest honest YURU yield right now is 6.70% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YURU yield right now is 5.23% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=2bddf557-e728-5c07-83f7-6f0b0e8c8724#src=seo_token) | Solana | 1.42% | $163K |
-| [raydium-amm →](https://www.defi.garden/?pool=9d619eac-edd6-4b53-a1d9-386ddc516c4c#src=seo_token) | Solana | 6.70% | $111.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=2bddf557-e728-5c07-83f7-6f0b0e8c8724#src=seo_token) | Solana | 0.74% | $253.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=9d619eac-edd6-4b53-a1d9-386ddc516c4c#src=seo_token) | Solana | 5.23% | $123.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,9 +18,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-YURU shows up in 2 pools here, with rates from 1.42% to 6.70% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+YURU shows up in 2 pools here, with rates from 0.74% to 5.23% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 9.69% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 9.14% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -28,8 +28,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 1.42% | 9.23% | Base rate |
-| raydium-amm | 6.70% | 10.16% | Base rate |
+| raydium-amm | 0.74% | 8.39% | Base rate |
+| raydium-amm | 5.23% | 9.90% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest YURU yield today?
 
-6.70% APY on raydium-amm (Solana), based on live DefiLlama data.
+5.23% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many YURU pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $274.3K in total.
+2 live pools clear this page's $100K TVL floor, $376.9K in total.
 
 ### Are these rates safe?
 
@@ -64,4 +64,4 @@ There is not enough qualifying APY history to rank YURU pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 20, 2026
+## Last updated October 21, 2026

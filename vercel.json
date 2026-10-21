@@ -880,6 +880,26 @@
       "permanent": true
     },
     {
+      "source": "/pools/plume-vaults-nopal-plume-mainnet",
+      "destination": "/chains/plume-mainnet",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/plume-vaults-nopal-plume-mainnet",
+      "destination": "/ko/chains/plume-mainnet",
+      "permanent": true
+    },
+    {
+      "source": "/pt/pools/plume-vaults-nopal-plume-mainnet",
+      "destination": "/pt/chains/plume-mainnet",
+      "permanent": true
+    },
+    {
+      "source": "/es/pools/plume-vaults-nopal-plume-mainnet",
+      "destination": "/es/chains/plume-mainnet",
+      "permanent": true
+    },
+    {
       "source": "/pools/sky-lending-weth-ethereum",
       "destination": "/chains/ethereum",
       "permanent": true

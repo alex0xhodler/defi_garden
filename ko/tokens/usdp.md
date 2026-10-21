@@ -1,12 +1,12 @@
 # USDP 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 20, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 21, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 USDP의 가장 높은 정직한 수익률은 Base의 uniswap-v4에서 58.17%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=a06aeaa0-2876-46b2-afc2-94e9a7a5559d#src=seo_token) | Hyperliquid L1 | 6.81% | $327K |
+| [balancer-v3 →](https://www.defi.garden/?pool=a06aeaa0-2876-46b2-afc2-94e9a7a5559d#src=seo_token) | Hyperliquid L1 | 6.81% | $327.2K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=c6c0be73-9c49-53ac-b3e0-5ccd48c9ce6c#src=seo_token) | Base | 56.09% | $238.1K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=c5c92aa9-3166-5da4-b664-0253d0dc33af#src=seo_token) | Base | 56.60% | $189K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=d6a490d6-8203-57b7-adb1-a7fc4bafe4fd#src=seo_token) | Base | 58.17% | $177K |
@@ -30,7 +30,7 @@ USDP 풀은 여기 4개가 있고, 2개 체인에서 APY가 6.81%부터 58.17%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| balancer-v3 | 6.81% | 5.18% | 기본 금리 |
+| balancer-v3 | 6.81% | 5.25% | 기본 금리 |
 | uniswap-v4 | 56.09% | 55.94% | 기본 금리 |
 | uniswap-v4 | 56.60% | 56.60% | 기본 금리 |
 | uniswap-v4 | 58.17% | 57.09% | 기본 금리 |
@@ -45,7 +45,7 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 58.17%예요.
 
 ### USDP 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $931.1K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $931.2K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -62,11 +62,11 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 58.17%예요.
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [WETH](https://www.defi.garden/ko/tokens/weth)
 - [USDE](https://www.defi.garden/ko/tokens/usde)
-- [USDS](https://www.defi.garden/ko/tokens/usds)
+- [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
 
 ## 이용 가능한 체인
 
 - [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: October 20, 2026
+## 마지막 업데이트: October 21, 2026

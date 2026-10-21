@@ -1,12 +1,12 @@
 # FXION DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 21, 2026. Rates change continuously.*
 
-The highest honest FXION yield right now is 105.46% on uniswap-v3 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FXION yield right now is 98.21% on uniswap-v3 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=2c5f41b0-aac9-5bbd-80d2-2db31b6ea13c#src=seo_token) | BSC | 105.46% | $131.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2c5f41b0-aac9-5bbd-80d2-2db31b6ea13c#src=seo_token) | BSC | 98.21% | $122.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FXION yield today?
 
-105.46% APY on uniswap-v3 (BSC), based on live DefiLlama data.
+98.21% APY on uniswap-v3 (BSC), based on live DefiLlama data.
 
 ### How many FXION pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $131.2K in total.
+1 live pool clear this page's $100K TVL floor, $122.8K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank FXION pools. This view covers
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated October 20, 2026
+## Last updated October 21, 2026

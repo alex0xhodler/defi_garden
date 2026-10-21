@@ -1,12 +1,12 @@
 # FTR DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 21, 2026. Rates change continuously.*
 
-The highest honest FTR yield right now is 206.64% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FTR yield right now is 188.14% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=74656016-0b29-53a2-a026-28fb20e457e5#src=seo_token) | Base | 206.64% | $277.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=74656016-0b29-53a2-a026-28fb20e457e5#src=seo_token) | Base | 188.14% | $309.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FTR yield today?
 
-206.64% APY on uniswap-v2 (Base), based on live DefiLlama data.
+188.14% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many FTR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $277.5K in total.
+1 live pool clear this page's $100K TVL floor, $309.6K in total.
 
 ### Are these rates safe?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank FTR pools. This view covers A
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [USDS](https://www.defi.garden/tokens/usds)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 20, 2026
+## Last updated October 21, 2026

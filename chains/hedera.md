@@ -1,16 +1,15 @@
 # Hedera DeFi Yields
 
-The highest honest Hedera yield right now is 9.68% on saucerswap-v1 (Hedera), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Hedera yield right now is 28.21% on isle-finance (Hedera), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| SAUCE-HBAR | [saucerswap-v1 →](https://www.defi.garden/?pool=d88fe316-2ed0-4dd1-b205-739be5aa5814#src=seo_chain) | 6.69% | $761.3K |
+| SAUCE-HBAR | [saucerswap-v1 →](https://www.defi.garden/?pool=d88fe316-2ed0-4dd1-b205-739be5aa5814#src=seo_chain) | 6.97% | $760.1K |
 | USDC | [isle-finance →](https://www.defi.garden/?pool=69f3d1b3-aa9f-4ef9-9b4d-e8ce652c4430#src=seo_chain) | 32.37% | $533.3K |
-| USDC-HBAR | [saucerswap-v1 →](https://www.defi.garden/?pool=fd41363a-f064-4e74-b710-ee2b3658c32b#src=seo_chain) | 9.53% | $495K |
+| USDC-HBAR | [saucerswap-v1 →](https://www.defi.garden/?pool=fd41363a-f064-4e74-b710-ee2b3658c32b#src=seo_chain) | 9.00% | $495.1K |
 | USDC | [isle-finance →](https://www.defi.garden/?pool=6ecd5969-737d-4e09-95e5-72561e63e911#src=seo_chain) | 28.21% | $414.4K |
-| HBARX-HBAR | [saucerswap-v1 →](https://www.defi.garden/?pool=9aef43ba-4be9-4958-a186-ba03ac45e3c4#src=seo_chain) | 0.01% | $286.5K |
-| HBAR-XSAUCE | [saucerswap-v1 →](https://www.defi.garden/?pool=a95e97ec-4ed8-4ebc-8dae-2f776d83cdfa#src=seo_chain) | 1.23% | $260.4K |
-| HBAR-DOVU | [saucerswap-v1 →](https://www.defi.garden/?pool=25280848-1b55-488e-b9af-925c8330e8de#src=seo_chain) | 9.68% | $116.5K |
+| HBAR-XSAUCE | [saucerswap-v1 →](https://www.defi.garden/?pool=a95e97ec-4ed8-4ebc-8dae-2f776d83cdfa#src=seo_chain) | 1.41% | $259.9K |
+| HBAR-DOVU | [saucerswap-v1 →](https://www.defi.garden/?pool=25280848-1b55-488e-b9af-925c8330e8de#src=seo_chain) | 10.60% | $115.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Hedera yield today?
 
-9.68% APY on saucerswap-v1 (Hedera), based on live DefiLlama data.
+28.21% APY on isle-finance (Hedera), based on live DefiLlama data.
 
 ### How many Hedera pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $2.87M in total.
+7 live pools clear this page's $100K TVL floor, $2.86M in total.
 
 ### Are these rates safe?
 
@@ -42,8 +41,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [HBAR](https://www.defi.garden/tokens/hbar)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [SAUCE](https://www.defi.garden/tokens/sauce)
-- [HBARX](https://www.defi.garden/tokens/hbarx)
 - [XSAUCE](https://www.defi.garden/tokens/xsauce)
 - [DOVU](https://www.defi.garden/tokens/dovu)
 
-## Last updated October 20, 2026
+## Last updated October 21, 2026

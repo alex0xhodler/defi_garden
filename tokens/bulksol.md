@@ -1,13 +1,13 @@
 # BULKSOL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 21, 2026. Rates change continuously.*
 
-The highest honest BULKSOL yield right now is 4.82% on bulk (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BULKSOL yield right now is 4.80% on bulk (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [bulk →](https://www.defi.garden/?pool=4fd9a102-4cc5-520f-bd85-14f830fe1d2a#src=seo_token) | Solana | 4.82% | $22.25M |
-| [project-0 →](https://www.defi.garden/?pool=2962a15d-3634-4237-a378-1620af130b89#src=seo_token) | Solana | 0.02% | $153.2K |
+| [bulk →](https://www.defi.garden/?pool=4fd9a102-4cc5-520f-bd85-14f830fe1d2a#src=seo_token) | Solana | 4.80% | $22.48M |
+| [project-0 →](https://www.defi.garden/?pool=2962a15d-3634-4237-a378-1620af130b89#src=seo_token) | Solana | 0.02% | $154.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-BULKSOL shows up in 2 pools here, with rates from 0.02% to 4.82% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+BULKSOL shows up in 2 pools here, with rates from 0.02% to 4.80% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.37% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -26,7 +26,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| bulk | 4.82% | 4.72% | Base rate |
+| bulk | 4.80% | 4.73% | Base rate |
 | project-0 | 0.02% | 0.02% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BULKSOL yield today?
 
-4.82% APY on bulk (Solana), based on live DefiLlama data.
+4.80% APY on bulk (Solana), based on live DefiLlama data.
 
 ### How many BULKSOL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $22.41M in total.
+2 live pools clear this page's $100K TVL floor, $22.63M in total.
 
 ### Are these rates safe?
 
@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank BULKSOL pools. This view cove
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 20, 2026
+## Last updated October 21, 2026

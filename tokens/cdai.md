@@ -1,23 +1,23 @@
 # CDAI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 21, 2026. Rates change continuously.*
 
 The highest honest CDAI yield right now is 0.13% on convex-finance (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=8ec9e3e2-1eb5-4c47-82de-edcc825ca4cc#src=seo_token) | Ethereum | 0.01% | $561.6K |
-| [convex-finance →](https://www.defi.garden/?pool=e78f64a8-295d-4441-82e4-d05ebd1a8b38#src=seo_token) | Ethereum | 0.13% | $180K |
+| [curve-dex →](https://www.defi.garden/?pool=8ec9e3e2-1eb5-4c47-82de-edcc825ca4cc#src=seo_token) | Ethereum | 0.01% | $561.7K |
+| [convex-finance →](https://www.defi.garden/?pool=e78f64a8-295d-4441-82e4-d05ebd1a8b38#src=seo_token) | Ethereum | 0.13% | $180.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, CDAI's lower-variability candidates are curve-dex (Ethereum), 0.01% APY, $561.6K TVL, https://www.defi.garden/?pool=8ec9e3e2-1eb5-4c47-82de-edcc825ca4cc#src=seo_token; convex-finance (Ethereum), 0.13% APY, $180K TVL, https://www.defi.garden/?pool=e78f64a8-295d-4441-82e4-d05ebd1a8b38#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CDAI's lower-variability candidates are curve-dex (Ethereum), 0.01% APY, $561.7K TVL, https://www.defi.garden/?pool=8ec9e3e2-1eb5-4c47-82de-edcc825ca4cc#src=seo_token; convex-finance (Ethereum), 0.13% APY, $180.1K TVL, https://www.defi.garden/?pool=e78f64a8-295d-4441-82e4-d05ebd1a8b38#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=8ec9e3e2-1eb5-4c47-82de-edcc825ca4cc#src=seo_token) | Ethereum | 0.01% | $561.6K |
-| 2 | [convex-finance →](https://www.defi.garden/?pool=e78f64a8-295d-4441-82e4-d05ebd1a8b38#src=seo_token) | Ethereum | 0.13% | $180K |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=8ec9e3e2-1eb5-4c47-82de-edcc825ca4cc#src=seo_token) | Ethereum | 0.01% | $561.7K |
+| 2 | [convex-finance →](https://www.defi.garden/?pool=e78f64a8-295d-4441-82e4-d05ebd1a8b38#src=seo_token) | Ethereum | 0.13% | $180.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many CDAI pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $741.7K in total.
+2 live pools clear this page's $100K TVL floor, $741.8K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which CDAI pools have the most stable APY history?
 
-Based on APY history only, CDAI's lower-variability candidates are curve-dex (Ethereum), 0.01% APY, $561.6K TVL, https://www.defi.garden/?pool=8ec9e3e2-1eb5-4c47-82de-edcc825ca4cc#src=seo_token; convex-finance (Ethereum), 0.13% APY, $180K TVL, https://www.defi.garden/?pool=e78f64a8-295d-4441-82e4-d05ebd1a8b38#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CDAI's lower-variability candidates are curve-dex (Ethereum), 0.01% APY, $561.7K TVL, https://www.defi.garden/?pool=8ec9e3e2-1eb5-4c47-82de-edcc825ca4cc#src=seo_token; convex-finance (Ethereum), 0.13% APY, $180.1K TVL, https://www.defi.garden/?pool=e78f64a8-295d-4441-82e4-d05ebd1a8b38#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -67,4 +67,4 @@ Based on APY history only, CDAI's lower-variability candidates are curve-dex (Et
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 20, 2026
+## Last updated October 21, 2026

@@ -4,12 +4,12 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| CELO-STCELO | [uniswap-v3 →](https://www.defi.garden/?pool=88ada026-2f5a-4cb8-b591-4e46e32fedc5#src=seo_chain) | 17.35% | $1.46M |
-| WETH | [aave-v3 →](https://www.defi.garden/?pool=5335b797-b623-4ed1-a492-880cbabb053a#src=seo_chain) | 1.80% | $1.41M |
-| USD₮ | [aave-v3 →](https://www.defi.garden/?pool=8a6cda27-aa2b-4201-bb05-9cfcfc4ab6fd#src=seo_chain) | 6.69% | $1.38M |
+| USD₮ | [aave-v3 →](https://www.defi.garden/?pool=8a6cda27-aa2b-4201-bb05-9cfcfc4ab6fd#src=seo_chain) | 6.08% | $1.57M |
+| CELO-STCELO | [uniswap-v3 →](https://www.defi.garden/?pool=88ada026-2f5a-4cb8-b591-4e46e32fedc5#src=seo_chain) | 17.21% | $1.51M |
+| WETH | [aave-v3 →](https://www.defi.garden/?pool=5335b797-b623-4ed1-a492-880cbabb053a#src=seo_chain) | 1.76% | $1.43M |
 | USD₮-CUSD | [uniswap-v3 →](https://www.defi.garden/?pool=ad10fdd6-8351-4d9b-8695-deb1bf2dc33a#src=seo_chain) | 0.12% | $643.8K |
-| CELO | [moola-market →](https://www.defi.garden/?pool=236a6312-5752-41b5-af7e-55e3ec95dbd4#src=seo_chain) | 0.01% | $398.5K |
-| CUSD | [moola-market →](https://www.defi.garden/?pool=905730f7-04b6-4deb-8e59-707d3d457f6b#src=seo_chain) | 0.41% | $391.1K |
+| CELO | [moola-market →](https://www.defi.garden/?pool=236a6312-5752-41b5-af7e-55e3ec95dbd4#src=seo_chain) | 0.01% | $412.2K |
+| CUSD | [moola-market →](https://www.defi.garden/?pool=905730f7-04b6-4deb-8e59-707d3d457f6b#src=seo_chain) | 0.41% | $393.4K |
 | USD₮-WBTC | [uniswap-v3 →](https://www.defi.garden/?pool=8f5e5824-7c41-4af2-899b-2db398962bea#src=seo_chain) | 34.44% | $228.6K |
 | CELO-USD₮ | [uniswap-v3 →](https://www.defi.garden/?pool=8cf372d2-191c-4b6b-a56b-def814e5d78e#src=seo_chain) | 3.74% | $197.5K |
 
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Celo의 uniswap-v3에서 APY 34.44%예요.
 
 ### Celo 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 19개이며, 합산 TVL은 $7.67M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 19개이며, 합산 TVL은 $7.99M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -46,4 +46,4 @@ DefiLlama 실시간 데이터 기준, Celo의 uniswap-v3에서 APY 34.44%예요.
 - [CUSD](https://www.defi.garden/ko/tokens/cusd)
 - [WBTC](https://www.defi.garden/ko/tokens/wbtc)
 
-## 마지막 업데이트: October 20, 2026
+## 마지막 업데이트: October 21, 2026

@@ -1,12 +1,12 @@
 # MEZO DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 21, 2026. Rates change continuously.*
 
-The highest honest MEZO yield right now is 36.35% on mezo-earn (Mezo), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MEZO yield right now is 36.36% on mezo-earn (Mezo), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [mezo-earn →](https://www.defi.garden/?pool=ca019988-a0e9-47ae-b5cc-3b48554376fe#src=seo_token) | Mezo | 36.35% | $813.4K |
+| [mezo-earn →](https://www.defi.garden/?pool=ca019988-a0e9-47ae-b5cc-3b48554376fe#src=seo_token) | Mezo | 36.36% | $808.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MEZO yield today?
 
-36.35% APY on mezo-earn (Mezo), based on live DefiLlama data.
+36.36% APY on mezo-earn (Mezo), based on live DefiLlama data.
 
 ### How many MEZO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $813.4K in total.
+1 live pool clear this page's $100K TVL floor, $808.2K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank MEZO pools. This view covers 
 
 - [Mezo](https://www.defi.garden/chains/mezo)
 
-## Last updated October 20, 2026
+## Last updated October 21, 2026

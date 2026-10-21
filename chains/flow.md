@@ -1,13 +1,12 @@
 # Flow DeFi Yields
 
-The highest honest Flow yield right now is 11.32% on more-markets (Flow), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Flow yield right now is 7.90% on ankr (Flow), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| ANKRFLOWEVM | [ankr →](https://www.defi.garden/?pool=f1246ee7-9797-46b6-bd87-f9b90bc37e36#src=seo_chain) | 7.90% | $6.29M |
-| WFLOW | [more-markets →](https://www.defi.garden/?pool=bc3005b3-c072-419d-ab4d-ca6ccc58a7cc#src=seo_chain) | 1.63% | $608.8K |
-| STGUSDC | [more-markets →](https://www.defi.garden/?pool=7a8f42b3-2724-46bb-84b6-6e0b6a4670a4#src=seo_chain) | 1.37% | $315K |
-| PYUSD0 | [more-markets →](https://www.defi.garden/?pool=107c6769-4a4f-4279-9a5e-f181d78d09dd#src=seo_chain) | 11.32% | $124.9K |
+| ANKRFLOWEVM | [ankr →](https://www.defi.garden/?pool=f1246ee7-9797-46b6-bd87-f9b90bc37e36#src=seo_chain) | 7.90% | $6.47M |
+| WFLOW | [more-markets →](https://www.defi.garden/?pool=bc3005b3-c072-419d-ab4d-ca6ccc58a7cc#src=seo_chain) | 1.65% | $620.7K |
+| STGUSDC | [more-markets →](https://www.defi.garden/?pool=7a8f42b3-2724-46bb-84b6-6e0b6a4670a4#src=seo_chain) | 1.37% | $314.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Flow yield today?
 
-11.32% APY on more-markets (Flow), based on live DefiLlama data.
+7.90% APY on ankr (Flow), based on live DefiLlama data.
 
 ### How many Flow pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $10.8M in total.
+6 live pools clear this page's $100K TVL floor, $10.97M in total.
 
 ### Are these rates safe?
 
@@ -39,6 +38,5 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [ANKRFLOWEVM](https://www.defi.garden/tokens/ankrflowevm)
 - [WFLOW](https://www.defi.garden/tokens/wflow)
 - [STGUSDC](https://www.defi.garden/tokens/stgusdc)
-- [PYUSD0](https://www.defi.garden/tokens/pyusd0)
 
-## Last updated October 20, 2026
+## Last updated October 21, 2026

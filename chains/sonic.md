@@ -1,17 +1,17 @@
 # Sonic DeFi Yields
 
-The highest honest Sonic yield right now is 9.39% on flying-tulip-ftusd (Sonic), among 23 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Sonic yield right now is 9.82% on flying-tulip-ftusd (Sonic), among 22 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
 | EVAUSDT-EVAUSDC | [shadow-exchange-legacy →](https://www.defi.garden/?pool=b344826d-1c25-43e5-8e75-3b7510531c4c#src=seo_chain) | 8.51% | $711.6K |
-| BPT-FBEETS-STS | [beets-dex →](https://www.defi.garden/?pool=f06686d4-25aa-4600-8910-87844cf3b1c3#src=seo_chain) | 66.67% | $626.5K |
-| STS-WS | [beets-dex-v3 →](https://www.defi.garden/?pool=e23ed03a-aaaf-4531-82af-36dc959149ae#src=seo_chain) | 7.25% | $594.5K |
-| WS | [silo-v2 →](https://www.defi.garden/?pool=d7657d6f-da8b-4935-b6ac-a30545df8dbc#src=seo_chain) | 0.08% | $563.6K |
-| SFTUSD | [flying-tulip-ftusd →](https://www.defi.garden/?pool=1b7b94f8-5889-42e1-b0ef-9e4736505d8d#src=seo_chain) | 9.39% | $551.8K |
-| USDC.E-USDT | [shadow-exchange-clmm →](https://www.defi.garden/?pool=97b1770c-f7a3-4128-8937-525cdaba68d4#src=seo_chain) | 0.92% | $531.3K |
-| USDC | [silo-v2 →](https://www.defi.garden/?pool=ce77c1eb-f51d-4652-8c25-b53f8254827a#src=seo_chain) | 16.04% | $240K |
-| STS | [silo-v2 →](https://www.defi.garden/?pool=68892078-2e21-4f27-b458-015d1d842636#src=seo_chain) | 0.90% | $227.4K |
+| BPT-FBEETS-STS | [beets-dex →](https://www.defi.garden/?pool=f06686d4-25aa-4600-8910-87844cf3b1c3#src=seo_chain) | 67.11% | $637.6K |
+| STS-WS | [beets-dex-v3 →](https://www.defi.garden/?pool=e23ed03a-aaaf-4531-82af-36dc959149ae#src=seo_chain) | 7.95% | $590.1K |
+| SFTUSD | [flying-tulip-ftusd →](https://www.defi.garden/?pool=1b7b94f8-5889-42e1-b0ef-9e4736505d8d#src=seo_chain) | 9.82% | $551K |
+| USDC.E-USDT | [shadow-exchange-clmm →](https://www.defi.garden/?pool=97b1770c-f7a3-4128-8937-525cdaba68d4#src=seo_chain) | 0.94% | $531.4K |
+| WS | [silo-v2 →](https://www.defi.garden/?pool=d7657d6f-da8b-4935-b6ac-a30545df8dbc#src=seo_chain) | 0.07% | $452.2K |
+| USDC | [silo-v2 →](https://www.defi.garden/?pool=ce77c1eb-f51d-4652-8c25-b53f8254827a#src=seo_chain) | 7.54% | $244.1K |
+| STS | [silo-v2 →](https://www.defi.garden/?pool=68892078-2e21-4f27-b458-015d1d842636#src=seo_chain) | 0.88% | $229.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Sonic yield today?
 
-9.39% APY on flying-tulip-ftusd (Sonic), based on live DefiLlama data.
+9.82% APY on flying-tulip-ftusd (Sonic), based on live DefiLlama data.
 
 ### How many Sonic pools clear the TVL floor?
 
-23 live pools clear this page's $100K TVL floor, $32.84M in total.
+22 live pools clear this page's $100K TVL floor, $10.81M in total.
 
 ### Are these rates safe?
 
@@ -49,4 +49,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [SFTUSD](https://www.defi.garden/tokens/sftusd)
 - [USDC.E](https://www.defi.garden/tokens/usdc-e)
 
-## Last updated October 20, 2026
+## Last updated October 21, 2026

@@ -1,12 +1,13 @@
 # CLAUS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 21, 2026. Rates change continuously.*
 
-The highest honest CLAUS yield right now is 9.87% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CLAUS yield right now is 473.93% on uniswap-v4 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=0f038b5b-f905-583f-b192-9f461c2e5c2a#src=seo_token) | Ethereum | 9.87% | $160.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=0e957496-801d-5302-987a-f042b69d689a#src=seo_token) | Ethereum | 473.93% | $539.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=0f038b5b-f905-583f-b192-9f461c2e5c2a#src=seo_token) | Ethereum | 3.38% | $156.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,15 +18,16 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-CLAUS shows up in 1 pools here, with rates from 9.87% to 9.87% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CLAUS shows up in 2 pools here, with rates from 3.38% to 473.93% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
+All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-1 of 1 pool carries impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 9.87% | — | Base rate |
+| uniswap-v4 | 473.93% | — | Base rate |
+| uniswap-v4 | 3.38% | — | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -33,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CLAUS yield today?
 
-9.87% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+473.93% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many CLAUS pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $657K in total.
+3 live pools clear this page's $100K TVL floor, $1.18M in total.
 
 ### Are these rates safe?
 
@@ -60,4 +62,4 @@ There is not enough qualifying APY history to rank CLAUS pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 20, 2026
+## Last updated October 21, 2026

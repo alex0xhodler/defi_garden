@@ -1,31 +1,31 @@
 # GRASS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 21, 2026. Rates change continuously.*
 
-The highest honest GRASS yield right now is 225.94% on orca-dex (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GRASS yield right now is 228.22% on orca-dex (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=acd2a7e0-55ee-46ee-a1b2-66298b60cb0e#src=seo_token) | Solana | 1.61% | $472.7K |
-| [orca-dex →](https://www.defi.garden/?pool=4dea25ec-019b-4843-b7aa-bc12b4b0af95#src=seo_token) | Solana | 225.94% | $164.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=acd2a7e0-55ee-46ee-a1b2-66298b60cb0e#src=seo_token) | Solana | 1.60% | $491.9K |
+| [orca-dex →](https://www.defi.garden/?pool=4dea25ec-019b-4843-b7aa-bc12b4b0af95#src=seo_token) | Solana | 228.22% | $168.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, GRASS's lower-variability candidates are raydium-amm (Solana), 1.61% APY, $472.7K TVL, https://www.defi.garden/?pool=acd2a7e0-55ee-46ee-a1b2-66298b60cb0e#src=seo_token; orca-dex (Solana), 225.94% APY, $164.2K TVL, https://www.defi.garden/?pool=4dea25ec-019b-4843-b7aa-bc12b4b0af95#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GRASS's lower-variability candidates are raydium-amm (Solana), 1.60% APY, $491.9K TVL, https://www.defi.garden/?pool=acd2a7e0-55ee-46ee-a1b2-66298b60cb0e#src=seo_token; orca-dex (Solana), 228.22% APY, $168.6K TVL, https://www.defi.garden/?pool=4dea25ec-019b-4843-b7aa-bc12b4b0af95#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=acd2a7e0-55ee-46ee-a1b2-66298b60cb0e#src=seo_token) | Solana | 1.61% | $472.7K |
-| 2 | [orca-dex →](https://www.defi.garden/?pool=4dea25ec-019b-4843-b7aa-bc12b4b0af95#src=seo_token) | Solana | 225.94% | $164.2K |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=acd2a7e0-55ee-46ee-a1b2-66298b60cb0e#src=seo_token) | Solana | 1.60% | $491.9K |
+| 2 | [orca-dex →](https://www.defi.garden/?pool=4dea25ec-019b-4843-b7aa-bc12b4b0af95#src=seo_token) | Solana | 228.22% | $168.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-GRASS shows up in 2 pools here, with rates from 1.61% to 225.94% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+GRASS shows up in 2 pools here, with rates from 1.60% to 228.22% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 294.61% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 292.44% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 1.61% | 15.80% | Base rate |
-| orca-dex | 225.94% | 573.41% | Base rate |
+| raydium-amm | 1.60% | 15.36% | Base rate |
+| orca-dex | 228.22% | 569.51% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest GRASS yield today?
 
-225.94% APY on orca-dex (Solana), based on live DefiLlama data.
+228.22% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many GRASS pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $636.9K in total.
+2 live pools clear this page's $100K TVL floor, $660.5K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which GRASS pools have the most stable APY history?
 
-Based on APY history only, GRASS's lower-variability candidates are raydium-amm (Solana), 1.61% APY, $472.7K TVL, https://www.defi.garden/?pool=acd2a7e0-55ee-46ee-a1b2-66298b60cb0e#src=seo_token; orca-dex (Solana), 225.94% APY, $164.2K TVL, https://www.defi.garden/?pool=4dea25ec-019b-4843-b7aa-bc12b4b0af95#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GRASS's lower-variability candidates are raydium-amm (Solana), 1.60% APY, $491.9K TVL, https://www.defi.garden/?pool=acd2a7e0-55ee-46ee-a1b2-66298b60cb0e#src=seo_token; orca-dex (Solana), 228.22% APY, $168.6K TVL, https://www.defi.garden/?pool=4dea25ec-019b-4843-b7aa-bc12b4b0af95#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +69,4 @@ Based on APY history only, GRASS's lower-variability candidates are raydium-amm 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 20, 2026
+## Last updated October 21, 2026

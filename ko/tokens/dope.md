@@ -1,12 +1,12 @@
 # DOPE 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 20, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 21, 2026. 수익률은 지속적으로 변동합니다.*
 
 현재 DOPE의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 79.29%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=9fe93f16-a1ac-5f90-8ccc-d190ebcd78b5#src=seo_token) | Solana | 0.03% | $32.13M |
+| [raydium-amm →](https://www.defi.garden/?pool=9fe93f16-a1ac-5f90-8ccc-d190ebcd78b5#src=seo_token) | Solana | 0.02% | $32.13M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=ff2f0fa6-84b5-5237-b908-3a886113560e#src=seo_token) | Ethereum | 79.29% | $277.9K |
 
 <!-- rate-stability:insufficient -->
@@ -18,7 +18,7 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-DOPE 풀은 여기 2개가 있고, 2개 체인에서 APY가 0.03%부터 79.29%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+DOPE 풀은 여기 2개가 있고, 2개 체인에서 APY가 0.02%부터 79.29%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 2개 풀 중 2개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 27.26%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -28,7 +28,7 @@ DOPE 풀은 여기 2개가 있고, 2개 체인에서 APY가 0.03%부터 79.29%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| raydium-amm | 0.03% | 0.02% | 기본 금리 |
+| raydium-amm | 0.02% | 0.02% | 기본 금리 |
 | uniswap-v3 | 79.29% | 54.50% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -65,4 +65,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 79.29%예
 - [Solana](https://www.defi.garden/ko/chains/solana)
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: October 20, 2026
+## 마지막 업데이트: October 21, 2026

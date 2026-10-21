@@ -1,38 +1,38 @@
 # LANTERNSOL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 21, 2026. Rates change continuously.*
 
-The highest honest LANTERNSOL yield right now is 5.65% on lantern-staked-sol (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LANTERNSOL yield right now is 5.53% on lantern-staked-sol (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lantern-staked-sol →](https://www.defi.garden/?pool=3acae3f1-94fe-4a48-a4bf-5669e06dc259#src=seo_token) | Solana | 5.65% | $3.04M |
-| [kamino-lend →](https://www.defi.garden/?pool=37eafe79-0c75-4f95-8daa-3985e7958fe7#src=seo_token) | Solana | 0.86% | $2.77M |
+| [lantern-staked-sol →](https://www.defi.garden/?pool=3acae3f1-94fe-4a48-a4bf-5669e06dc259#src=seo_token) | Solana | 5.53% | $3.03M |
+| [kamino-lend →](https://www.defi.garden/?pool=37eafe79-0c75-4f95-8daa-3985e7958fe7#src=seo_token) | Solana | 0.86% | $2.8M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, LANTERNSOL's lower-variability candidates are kamino-lend (Solana), 0.86% APY, $2.77M TVL, https://www.defi.garden/?pool=37eafe79-0c75-4f95-8daa-3985e7958fe7#src=seo_token; lantern-staked-sol (Solana), 5.65% APY, $3.04M TVL, https://www.defi.garden/?pool=3acae3f1-94fe-4a48-a4bf-5669e06dc259#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LANTERNSOL's lower-variability candidates are kamino-lend (Solana), 0.86% APY, $2.8M TVL, https://www.defi.garden/?pool=37eafe79-0c75-4f95-8daa-3985e7958fe7#src=seo_token; lantern-staked-sol (Solana), 5.53% APY, $3.03M TVL, https://www.defi.garden/?pool=3acae3f1-94fe-4a48-a4bf-5669e06dc259#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [kamino-lend →](https://www.defi.garden/?pool=37eafe79-0c75-4f95-8daa-3985e7958fe7#src=seo_token) | Solana | 0.86% | $2.77M |
-| 2 | [lantern-staked-sol →](https://www.defi.garden/?pool=3acae3f1-94fe-4a48-a4bf-5669e06dc259#src=seo_token) | Solana | 5.65% | $3.04M |
+| 1 | [kamino-lend →](https://www.defi.garden/?pool=37eafe79-0c75-4f95-8daa-3985e7958fe7#src=seo_token) | Solana | 0.86% | $2.8M |
+| 2 | [lantern-staked-sol →](https://www.defi.garden/?pool=3acae3f1-94fe-4a48-a4bf-5669e06dc259#src=seo_token) | Solana | 5.53% | $3.03M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-LANTERNSOL shows up in 2 pools here, with rates from 0.86% to 5.65% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+LANTERNSOL shows up in 2 pools here, with rates from 0.86% to 5.53% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.99% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.01% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| lantern-staked-sol | 5.65% | 5.88% | Base rate |
-| kamino-lend | 0.86% | 0.11% | 100.00% incentives |
+| lantern-staked-sol | 5.53% | 5.87% | Base rate |
+| kamino-lend | 0.86% | 0.14% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest LANTERNSOL yield today?
 
-5.65% APY on lantern-staked-sol (Solana), based on live DefiLlama data.
+5.53% APY on lantern-staked-sol (Solana), based on live DefiLlama data.
 
 ### How many LANTERNSOL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $5.81M in total.
+2 live pools clear this page's $100K TVL floor, $5.83M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which LANTERNSOL pools have the most stable APY history?
 
-Based on APY history only, LANTERNSOL's lower-variability candidates are kamino-lend (Solana), 0.86% APY, $2.77M TVL, https://www.defi.garden/?pool=37eafe79-0c75-4f95-8daa-3985e7958fe7#src=seo_token; lantern-staked-sol (Solana), 5.65% APY, $3.04M TVL, https://www.defi.garden/?pool=3acae3f1-94fe-4a48-a4bf-5669e06dc259#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LANTERNSOL's lower-variability candidates are kamino-lend (Solana), 0.86% APY, $2.8M TVL, https://www.defi.garden/?pool=37eafe79-0c75-4f95-8daa-3985e7958fe7#src=seo_token; lantern-staked-sol (Solana), 5.53% APY, $3.03M TVL, https://www.defi.garden/?pool=3acae3f1-94fe-4a48-a4bf-5669e06dc259#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -67,4 +67,4 @@ Based on APY history only, LANTERNSOL's lower-variability candidates are kamino-
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 20, 2026
+## Last updated October 21, 2026

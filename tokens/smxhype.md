@@ -1,29 +1,52 @@
 # SMXHYPE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 21, 2026. Rates change continuously.*
 
-The highest honest SMXHYPE yield right now is 2.67% on monetrix-mxhype (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SMXHYPE yield right now is 2.58% on monetrix-mxhype (Hyperliquid L1), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [monetrix-mxhype →](https://www.defi.garden/?pool=98bbe9cc-1633-5241-85be-4162ef7957f5#src=seo_token) | Hyperliquid L1 | 2.67% | $1.51M |
+| [monetrix-mxhype →](https://www.defi.garden/?pool=98bbe9cc-1633-5241-85be-4162ef7957f5#src=seo_token) | Hyperliquid L1 | 2.58% | $1.55M |
+| [hybra-v4 →](https://www.defi.garden/?pool=0e466d1f-a242-5fe9-b9de-b64361947fba#src=seo_token) | Hyperliquid L1 | 0.04% | $102.8K |
 
-<!-- rate-stability:insufficient -->
+<!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-There is not enough qualifying APY history to rank SMXHYPE pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SMXHYPE's lower-variability candidates are monetrix-mxhype (Hyperliquid L1), 2.58% APY, $1.55M TVL, https://www.defi.garden/?pool=98bbe9cc-1633-5241-85be-4162ef7957f5#src=seo_token; hybra-v4 (Hyperliquid L1), 0.04% APY, $102.8K TVL, https://www.defi.garden/?pool=0e466d1f-a242-5fe9-b9de-b64361947fba#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+| Rank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [monetrix-mxhype →](https://www.defi.garden/?pool=98bbe9cc-1633-5241-85be-4162ef7957f5#src=seo_token) | Hyperliquid L1 | 2.58% | $1.55M |
+| 2 | [hybra-v4 →](https://www.defi.garden/?pool=0e466d1f-a242-5fe9-b9de-b64361947fba#src=seo_token) | Hyperliquid L1 | 0.04% | $102.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
+
+## How this rate has behaved
+
+SMXHYPE shows up in 2 pools here, with rates from 0.04% to 2.58% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 1.44% — a useful check against today's number for whether the rate is steady or just having a good day.
+
+1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+
+1 of 2 pools carries impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+
+| Protocol | APY | 30d Mean APY | Yield mix |
+|---|---|---|---|
+| monetrix-mxhype | 2.58% | 2.71% | Base rate |
+| hybra-v4 | 0.04% | 0.17% | 100.00% incentives |
+
+The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
 ## Frequently asked questions
 
 ### What's the highest SMXHYPE yield today?
 
-2.67% APY on monetrix-mxhype (Hyperliquid L1), based on live DefiLlama data.
+2.58% APY on monetrix-mxhype (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many SMXHYPE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.51M in total.
+2 live pools clear this page's $100K TVL floor, $1.65M in total.
 
 ### Are these rates safe?
 
@@ -31,19 +54,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SMXHYPE pools have the most stable APY history?
 
-There is not enough qualifying APY history to rank SMXHYPE pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SMXHYPE's lower-variability candidates are monetrix-mxhype (Hyperliquid L1), 2.58% APY, $1.55M TVL, https://www.defi.garden/?pool=98bbe9cc-1633-5241-85be-4162ef7957f5#src=seo_token; hybra-v4 (Hyperliquid L1), 0.04% APY, $102.8K TVL, https://www.defi.garden/?pool=0e466d1f-a242-5fe9-b9de-b64361947fba#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [KHYPE](https://www.defi.garden/tokens/khype)
 - [WHYPE](https://www.defi.garden/tokens/whype)
+- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [THBILL](https://www.defi.garden/tokens/thbill)
 - [UBTC](https://www.defi.garden/tokens/ubtc)
 - [WSTHYPE](https://www.defi.garden/tokens/wsthype)
-- [USDM](https://www.defi.garden/tokens/usdm)
 
 ## Available on
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated October 20, 2026
+## Last updated October 21, 2026

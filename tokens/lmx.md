@@ -1,12 +1,12 @@
 # LMX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 21, 2026. Rates change continuously.*
 
-The highest honest LMX yield right now is 13.04% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LMX yield right now is 15.80% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=919ce100-d62c-4288-a6d5-f41faacc04e4#src=seo_token) | Solana | 13.04% | $127.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=919ce100-d62c-4288-a6d5-f41faacc04e4#src=seo_token) | Solana | 15.80% | $127.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LMX yield today?
 
-13.04% APY on raydium-amm (Solana), based on live DefiLlama data.
+15.80% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many LMX pools clear the TVL floor?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank LMX pools. This view covers A
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 20, 2026
+## Last updated October 21, 2026

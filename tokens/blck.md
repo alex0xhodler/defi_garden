@@ -1,12 +1,12 @@
 # BLCK DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 21, 2026. Rates change continuously.*
 
-The highest honest BLCK yield right now is 0.03% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BLCK yield right now is 0.11% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=b5ac680a-ede0-4caf-a4f0-bfb4ec9c25c5#src=seo_token) | Base | 0.03% | $106.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=b5ac680a-ede0-4caf-a4f0-bfb4ec9c25c5#src=seo_token) | Base | 0.11% | $108K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BLCK yield today?
 
-0.03% APY on uniswap-v2 (Base), based on live DefiLlama data.
+0.11% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many BLCK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $106.4K in total.
+1 live pool clear this page's $100K TVL floor, $108K in total.
 
 ### Are these rates safe?
 
@@ -40,10 +40,10 @@ There is not enough qualifying APY history to rank BLCK pools. This view covers 
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [USDS](https://www.defi.garden/tokens/usds)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 20, 2026
+## Last updated October 21, 2026

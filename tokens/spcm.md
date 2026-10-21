@@ -1,12 +1,12 @@
 # SPCM DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 21, 2026. Rates change continuously.*
 
-The highest honest SPCM yield right now is 24.49% on joe-v2.2 (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SPCM yield right now is 23.78% on joe-v2.2 (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [joe-v2.2 →](https://www.defi.garden/?pool=dea75dca-805f-5fe3-87ad-cc59900dd91e#src=seo_token) | Avalanche | 24.49% | $112.1K |
+| [joe-v2.2 →](https://www.defi.garden/?pool=dea75dca-805f-5fe3-87ad-cc59900dd91e#src=seo_token) | Avalanche | 23.78% | $109.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SPCM yield today?
 
-24.49% APY on joe-v2.2 (Avalanche), based on live DefiLlama data.
+23.78% APY on joe-v2.2 (Avalanche), based on live DefiLlama data.
 
 ### How many SPCM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $112.1K in total.
+1 live pool clear this page's $100K TVL floor, $109.5K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank SPCM pools. This view covers 
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated October 20, 2026
+## Last updated October 21, 2026

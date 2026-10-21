@@ -1,12 +1,12 @@
 # USDP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 21, 2026. Rates change continuously.*
 
 The highest honest USDP yield right now is 58.17% on uniswap-v4 (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=a06aeaa0-2876-46b2-afc2-94e9a7a5559d#src=seo_token) | Hyperliquid L1 | 6.81% | $327K |
+| [balancer-v3 →](https://www.defi.garden/?pool=a06aeaa0-2876-46b2-afc2-94e9a7a5559d#src=seo_token) | Hyperliquid L1 | 6.81% | $327.2K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=c6c0be73-9c49-53ac-b3e0-5ccd48c9ce6c#src=seo_token) | Base | 56.09% | $238.1K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=c5c92aa9-3166-5da4-b664-0253d0dc33af#src=seo_token) | Base | 56.60% | $189K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=d6a490d6-8203-57b7-adb1-a7fc4bafe4fd#src=seo_token) | Base | 58.17% | $177K |
@@ -30,7 +30,7 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| balancer-v3 | 6.81% | 5.18% | Base rate |
+| balancer-v3 | 6.81% | 5.25% | Base rate |
 | uniswap-v4 | 56.09% | 55.94% | Base rate |
 | uniswap-v4 | 56.60% | 56.60% | Base rate |
 | uniswap-v4 | 58.17% | 57.09% | Base rate |
@@ -45,7 +45,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many USDP pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $931.1K in total.
+4 live pools clear this page's $100K TVL floor, $931.2K in total.
 
 ### Are these rates safe?
 
@@ -62,11 +62,11 @@ There is not enough qualifying APY history to rank USDP pools. This view covers 
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [USDS](https://www.defi.garden/tokens/usds)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 20, 2026
+## Last updated October 21, 2026

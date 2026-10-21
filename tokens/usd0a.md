@@ -1,12 +1,12 @@
 # USD0A DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 21, 2026. Rates change continuously.*
 
-The highest honest USD0A yield right now is 5.08% on usual-usd0 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USD0A yield right now is 5.36% on usual-usd0 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [usual-usd0 →](https://www.defi.garden/?pool=59114e98-d254-41cf-b170-1ae93e8dfeb9#src=seo_token) | Ethereum | 5.08% | $583.1K |
+| [usual-usd0 →](https://www.defi.garden/?pool=59114e98-d254-41cf-b170-1ae93e8dfeb9#src=seo_token) | Ethereum | 5.36% | $583.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest USD0A yield today?
 
-5.08% APY on usual-usd0 (Ethereum), based on live DefiLlama data.
+5.36% APY on usual-usd0 (Ethereum), based on live DefiLlama data.
 
 ### How many USD0A pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $583.1K in total.
+1 live pool clear this page's $100K TVL floor, $583.4K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank USD0A pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 20, 2026
+## Last updated October 21, 2026

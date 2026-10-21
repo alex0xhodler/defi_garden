@@ -1,15 +1,15 @@
 # WPRL 디파이 수익률
 
-*DefiLlama 데이터 생성 시점 검증: October 20, 2026. 수익률은 지속적으로 변동합니다.*
+*DefiLlama 데이터 생성 시점 검증: October 21, 2026. 수익률은 지속적으로 변동합니다.*
 
-현재 WPRL의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 213.06%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 WPRL의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 246.33%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=81afe4bd-7141-48be-a0c0-9556cf4cfca8#src=seo_token) | Ethereum | 213.06% | $895.4K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=1285d6a6-fd6f-5658-96fe-7c79c324bc7a#src=seo_token) | Ethereum | 125.14% | $566.4K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=dc002a22-25d3-5fec-83ca-106e0b610b82#src=seo_token) | Ethereum | 101.52% | $225.5K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=37d3cbd7-360c-5209-b072-d04356db2ed2#src=seo_token) | Ethereum | 17.88% | $103.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=81afe4bd-7141-48be-a0c0-9556cf4cfca8#src=seo_token) | Ethereum | 246.33% | $911.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=1285d6a6-fd6f-5658-96fe-7c79c324bc7a#src=seo_token) | Ethereum | 239.15% | $787.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=dc002a22-25d3-5fec-83ca-106e0b610b82#src=seo_token) | Ethereum | 150.68% | $243.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=37d3cbd7-360c-5209-b072-d04356db2ed2#src=seo_token) | Ethereum | 48.32% | $111.3K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -20,9 +20,9 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-WPRL 풀은 여기 4개가 있고, 1개 체인에서 APY가 17.88%부터 213.06%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+WPRL 풀은 여기 4개가 있고, 1개 체인에서 APY가 48.32%부터 246.33%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 449.81%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 446.55%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 현재 4개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
@@ -30,10 +30,10 @@ WPRL 풀은 여기 4개가 있고, 1개 체인에서 APY가 17.88%부터 213.06%
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v3 | 213.06% | 451.66% | 기본 금리 |
-| uniswap-v4 | 125.14% | 447.96% | 기본 금리 |
-| uniswap-v4 | 101.52% | 206.99% | 기본 금리 |
-| uniswap-v4 | 17.88% | 453.60% | 기본 금리 |
+| uniswap-v3 | 246.33% | 451.09% | 기본 금리 |
+| uniswap-v4 | 239.15% | 442.22% | 기본 금리 |
+| uniswap-v4 | 150.68% | 205.38% | 기본 금리 |
+| uniswap-v4 | 48.32% | 450.88% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -41,11 +41,11 @@ WPRL 풀은 여기 4개가 있고, 1개 체인에서 APY가 17.88%부터 213.06%
 
 ### 오늘 WPRL의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 213.06%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 246.33%예요.
 
 ### WPRL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $1.79M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $2.05M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -68,4 +68,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 213.06%�
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: October 20, 2026
+## 마지막 업데이트: October 21, 2026

@@ -1,31 +1,31 @@
 # OGN DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 21, 2026. Rates change continuously.*
 
-The highest honest OGN yield right now is 33.49% on aerodrome-v1 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OGN yield right now is 34.75% on aerodrome-v1 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=540d4202-fb1d-4bfd-bba9-508fc93b9249#src=seo_token) | Ethereum | 11.51% | $2.6M |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=5dc3b4cd-77a0-48bd-938f-a61b2e03c68b#src=seo_token) | Base | 33.49% | $411.8K |
+| [curve-dex →](https://www.defi.garden/?pool=540d4202-fb1d-4bfd-bba9-508fc93b9249#src=seo_token) | Ethereum | 11.90% | $2.61M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=5dc3b4cd-77a0-48bd-938f-a61b2e03c68b#src=seo_token) | Base | 34.75% | $415.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, OGN's lower-variability candidates are curve-dex (Ethereum), 11.51% APY, $2.6M TVL, https://www.defi.garden/?pool=540d4202-fb1d-4bfd-bba9-508fc93b9249#src=seo_token; aerodrome-v1 (Base), 33.49% APY, $411.8K TVL, https://www.defi.garden/?pool=5dc3b4cd-77a0-48bd-938f-a61b2e03c68b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, OGN's lower-variability candidates are curve-dex (Ethereum), 11.90% APY, $2.61M TVL, https://www.defi.garden/?pool=540d4202-fb1d-4bfd-bba9-508fc93b9249#src=seo_token; aerodrome-v1 (Base), 34.75% APY, $415.6K TVL, https://www.defi.garden/?pool=5dc3b4cd-77a0-48bd-938f-a61b2e03c68b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=540d4202-fb1d-4bfd-bba9-508fc93b9249#src=seo_token) | Ethereum | 11.51% | $2.6M |
-| 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=5dc3b4cd-77a0-48bd-938f-a61b2e03c68b#src=seo_token) | Base | 33.49% | $411.8K |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=540d4202-fb1d-4bfd-bba9-508fc93b9249#src=seo_token) | Ethereum | 11.90% | $2.61M |
+| 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=5dc3b4cd-77a0-48bd-938f-a61b2e03c68b#src=seo_token) | Base | 34.75% | $415.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-OGN shows up in 2 pools here, with rates from 11.51% to 33.49% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+OGN shows up in 2 pools here, with rates from 11.90% to 34.75% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 18.97% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 19.35% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 2 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -33,8 +33,8 @@ OGN shows up in 2 pools here, with rates from 11.51% to 33.49% APY across 2 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 11.51% | 27.69% | 89.05% incentives |
-| aerodrome-v1 | 33.49% | 10.24% | 100.00% incentives |
+| curve-dex | 11.90% | 27.33% | 90.59% incentives |
+| aerodrome-v1 | 34.75% | 11.38% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest OGN yield today?
 
-33.49% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+34.75% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many OGN pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $3.01M in total.
+2 live pools clear this page's $100K TVL floor, $3.02M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which OGN pools have the most stable APY history?
 
-Based on APY history only, OGN's lower-variability candidates are curve-dex (Ethereum), 11.51% APY, $2.6M TVL, https://www.defi.garden/?pool=540d4202-fb1d-4bfd-bba9-508fc93b9249#src=seo_token; aerodrome-v1 (Base), 33.49% APY, $411.8K TVL, https://www.defi.garden/?pool=5dc3b4cd-77a0-48bd-938f-a61b2e03c68b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, OGN's lower-variability candidates are curve-dex (Ethereum), 11.90% APY, $2.61M TVL, https://www.defi.garden/?pool=540d4202-fb1d-4bfd-bba9-508fc93b9249#src=seo_token; aerodrome-v1 (Base), 34.75% APY, $415.6K TVL, https://www.defi.garden/?pool=5dc3b4cd-77a0-48bd-938f-a61b2e03c68b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +70,4 @@ Based on APY history only, OGN's lower-variability candidates are curve-dex (Eth
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated October 20, 2026
+## Last updated October 21, 2026

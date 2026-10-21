@@ -1,12 +1,12 @@
 # MU DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 21, 2026. Rates change continuously.*
 
-The highest honest MU yield right now is 79.02% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MU yield right now is 57.04% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=1eae40e5-5378-5d93-b61f-79ceb3d773c3#src=seo_token) | Solana | 79.02% | $100.7K |
+| [orca-dex →](https://www.defi.garden/?pool=1eae40e5-5378-5d93-b61f-79ceb3d773c3#src=seo_token) | Solana | 57.04% | $103.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MU yield today?
 
-79.02% APY on orca-dex (Solana), based on live DefiLlama data.
+57.04% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many MU pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $100.7K in total.
+1 live pool clear this page's $100K TVL floor, $103.6K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank MU pools. This view covers AP
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 20, 2026
+## Last updated October 21, 2026

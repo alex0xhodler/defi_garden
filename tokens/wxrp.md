@@ -1,31 +1,31 @@
 # WXRP DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 21, 2026. Rates change continuously.*
 
-The highest honest WXRP yield right now is 137.87% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WXRP yield right now is 97.92% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=02b9bb25-4320-47d5-91ca-817dafa32d4d#src=seo_token) | Solana | 137.87% | $501.2K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=6ac5b118-6705-41aa-a7bd-fcbd111c043a#src=seo_token) | Ethereum | 3.16% | $224.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=02b9bb25-4320-47d5-91ca-817dafa32d4d#src=seo_token) | Solana | 97.92% | $518.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6ac5b118-6705-41aa-a7bd-fcbd111c043a#src=seo_token) | Ethereum | 22.95% | $231.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WXRP's lower-variability candidates are raydium-amm (Solana), 137.87% APY, $501.2K TVL, https://www.defi.garden/?pool=02b9bb25-4320-47d5-91ca-817dafa32d4d#src=seo_token; uniswap-v3 (Ethereum), 3.16% APY, $224.9K TVL, https://www.defi.garden/?pool=6ac5b118-6705-41aa-a7bd-fcbd111c043a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WXRP's lower-variability candidates are raydium-amm (Solana), 97.92% APY, $518.4K TVL, https://www.defi.garden/?pool=02b9bb25-4320-47d5-91ca-817dafa32d4d#src=seo_token; uniswap-v3 (Ethereum), 22.95% APY, $231.6K TVL, https://www.defi.garden/?pool=6ac5b118-6705-41aa-a7bd-fcbd111c043a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=02b9bb25-4320-47d5-91ca-817dafa32d4d#src=seo_token) | Solana | 137.87% | $501.2K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=6ac5b118-6705-41aa-a7bd-fcbd111c043a#src=seo_token) | Ethereum | 3.16% | $224.9K |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=02b9bb25-4320-47d5-91ca-817dafa32d4d#src=seo_token) | Solana | 97.92% | $518.4K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=6ac5b118-6705-41aa-a7bd-fcbd111c043a#src=seo_token) | Ethereum | 22.95% | $231.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WXRP shows up in 2 pools here, with rates from 3.16% to 137.87% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+WXRP shows up in 2 pools here, with rates from 22.95% to 97.92% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 162.12% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 163.32% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 137.87% | 272.06% | Base rate |
-| uniswap-v3 | 3.16% | 52.18% | Base rate |
+| raydium-amm | 97.92% | 275.21% | Base rate |
+| uniswap-v3 | 22.95% | 51.42% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WXRP yield today?
 
-137.87% APY on raydium-amm (Solana), based on live DefiLlama data.
+97.92% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many WXRP pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $726.1K in total.
+2 live pools clear this page's $100K TVL floor, $750K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WXRP pools have the most stable APY history?
 
-Based on APY history only, WXRP's lower-variability candidates are raydium-amm (Solana), 137.87% APY, $501.2K TVL, https://www.defi.garden/?pool=02b9bb25-4320-47d5-91ca-817dafa32d4d#src=seo_token; uniswap-v3 (Ethereum), 3.16% APY, $224.9K TVL, https://www.defi.garden/?pool=6ac5b118-6705-41aa-a7bd-fcbd111c043a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WXRP's lower-variability candidates are raydium-amm (Solana), 97.92% APY, $518.4K TVL, https://www.defi.garden/?pool=02b9bb25-4320-47d5-91ca-817dafa32d4d#src=seo_token; uniswap-v3 (Ethereum), 22.95% APY, $231.6K TVL, https://www.defi.garden/?pool=6ac5b118-6705-41aa-a7bd-fcbd111c043a#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +70,4 @@ Based on APY history only, WXRP's lower-variability candidates are raydium-amm (
 - [Solana](https://www.defi.garden/chains/solana)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 20, 2026
+## Last updated October 21, 2026

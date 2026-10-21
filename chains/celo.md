@@ -4,12 +4,12 @@ The highest honest Celo yield right now is 34.44% on uniswap-v3 (Celo), among 19
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| CELO-STCELO | [uniswap-v3 →](https://www.defi.garden/?pool=88ada026-2f5a-4cb8-b591-4e46e32fedc5#src=seo_chain) | 17.35% | $1.46M |
-| WETH | [aave-v3 →](https://www.defi.garden/?pool=5335b797-b623-4ed1-a492-880cbabb053a#src=seo_chain) | 1.80% | $1.41M |
-| USD₮ | [aave-v3 →](https://www.defi.garden/?pool=8a6cda27-aa2b-4201-bb05-9cfcfc4ab6fd#src=seo_chain) | 6.69% | $1.38M |
+| USD₮ | [aave-v3 →](https://www.defi.garden/?pool=8a6cda27-aa2b-4201-bb05-9cfcfc4ab6fd#src=seo_chain) | 6.08% | $1.57M |
+| CELO-STCELO | [uniswap-v3 →](https://www.defi.garden/?pool=88ada026-2f5a-4cb8-b591-4e46e32fedc5#src=seo_chain) | 17.21% | $1.51M |
+| WETH | [aave-v3 →](https://www.defi.garden/?pool=5335b797-b623-4ed1-a492-880cbabb053a#src=seo_chain) | 1.76% | $1.43M |
 | USD₮-CUSD | [uniswap-v3 →](https://www.defi.garden/?pool=ad10fdd6-8351-4d9b-8695-deb1bf2dc33a#src=seo_chain) | 0.12% | $643.8K |
-| CELO | [moola-market →](https://www.defi.garden/?pool=236a6312-5752-41b5-af7e-55e3ec95dbd4#src=seo_chain) | 0.01% | $398.5K |
-| CUSD | [moola-market →](https://www.defi.garden/?pool=905730f7-04b6-4deb-8e59-707d3d457f6b#src=seo_chain) | 0.41% | $391.1K |
+| CELO | [moola-market →](https://www.defi.garden/?pool=236a6312-5752-41b5-af7e-55e3ec95dbd4#src=seo_chain) | 0.01% | $412.2K |
+| CUSD | [moola-market →](https://www.defi.garden/?pool=905730f7-04b6-4deb-8e59-707d3d457f6b#src=seo_chain) | 0.41% | $393.4K |
 | USD₮-WBTC | [uniswap-v3 →](https://www.defi.garden/?pool=8f5e5824-7c41-4af2-899b-2db398962bea#src=seo_chain) | 34.44% | $228.6K |
 | CELO-USD₮ | [uniswap-v3 →](https://www.defi.garden/?pool=8cf372d2-191c-4b6b-a56b-def814e5d78e#src=seo_chain) | 3.74% | $197.5K |
 
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Celo pools clear the TVL floor?
 
-19 live pools clear this page's $100K TVL floor, $7.67M in total.
+19 live pools clear this page's $100K TVL floor, $7.99M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [CUSD](https://www.defi.garden/tokens/cusd)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 
-## Last updated October 20, 2026
+## Last updated October 21, 2026

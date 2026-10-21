@@ -1,12 +1,12 @@
 # SUSD.INFRA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 21, 2026. Rates change continuously.*
 
-The highest honest SUSD.INFRA yield right now is 0.01% on orca-dex (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUSD.INFRA yield right now is 0.21% on orca-dex (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=68a8e75a-b55f-56ea-8280-00859c618189#src=seo_token) | Solana | 0.01% | $1.61M |
+| [orca-dex →](https://www.defi.garden/?pool=68a8e75a-b55f-56ea-8280-00859c618189#src=seo_token) | Solana | 0.21% | $1.61M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,15 +17,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-SUSD.INFRA shows up in 1 pools here, with rates from 0.01% to 0.01% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SUSD.INFRA shows up in 1 pools here, with rates from 0.21% to 0.21% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 0.38% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 0.36% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| orca-dex | 0.01% | 0.38% | Base rate |
+| orca-dex | 0.21% | 0.36% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -33,7 +33,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SUSD.INFRA yield today?
 
-0.01% APY on orca-dex (Solana), based on live DefiLlama data.
+0.21% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many SUSD.INFRA pools clear the TVL floor?
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank SUSD.INFRA pools. This view c
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 20, 2026
+## Last updated October 21, 2026

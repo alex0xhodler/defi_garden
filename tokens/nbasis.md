@@ -1,12 +1,12 @@
 # NBASIS DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 21, 2026. Rates change continuously.*
 
-The highest honest NBASIS yield right now is 4.81% on plume-vaults (Plume Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NBASIS yield right now is 5.47% on plume-vaults (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [plume-vaults →](https://www.defi.garden/?pool=b5331747-f55e-457e-aadc-9635c96ed38a#src=seo_token) | Plume Mainnet | 4.81% | $156.8K |
+| [plume-vaults →](https://www.defi.garden/?pool=585d848e-0cee-5181-8ad0-489274342097#src=seo_token) | Ethereum | 5.47% | $107.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NBASIS yield today?
 
-4.81% APY on plume-vaults (Plume Mainnet), based on live DefiLlama data.
+5.47% APY on plume-vaults (Ethereum), based on live DefiLlama data.
 
 ### How many NBASIS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $156.8K in total.
+1 live pool clear this page's $100K TVL floor, $107.8K in total.
 
 ### Are these rates safe?
 
@@ -35,15 +35,15 @@ There is not enough qualifying APY history to rank NBASIS pools. This view cover
 
 ## Related tokens
 
-- [USTB](https://www.defi.garden/tokens/ustb)
-- [USCC](https://www.defi.garden/tokens/uscc)
-- [NOPAL](https://www.defi.garden/tokens/nopal)
-- [NPRIME](https://www.defi.garden/tokens/nprime)
-- [NFALCON](https://www.defi.garden/tokens/nfalcon)
-- [NALPHA](https://www.defi.garden/tokens/nalpha)
+- [STETH](https://www.defi.garden/tokens/steth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
-- [Plume Mainnet](https://www.defi.garden/chains/plume-mainnet)
+- [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 20, 2026
+## Last updated October 21, 2026

@@ -1,12 +1,12 @@
 # BSB DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 21, 2026. Rates change continuously.*
 
-The highest honest BSB yield right now is 0.17% on fluxion-network (Mantle), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BSB yield right now is 0.19% on fluxion-network (Mantle), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fluxion-network →](https://www.defi.garden/?pool=35f2103d-231b-443b-952e-d2cd118d8f29#src=seo_token) | Mantle | 0.17% | $495.2K |
+| [fluxion-network →](https://www.defi.garden/?pool=35f2103d-231b-443b-952e-d2cd118d8f29#src=seo_token) | Mantle | 0.19% | $502.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BSB yield today?
 
-0.17% APY on fluxion-network (Mantle), based on live DefiLlama data.
+0.19% APY on fluxion-network (Mantle), based on live DefiLlama data.
 
 ### How many BSB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $495.2K in total.
+1 live pool clear this page's $100K TVL floor, $502.9K in total.
 
 ### Are these rates safe?
 
@@ -36,8 +36,8 @@ There is not enough qualifying APY history to rank BSB pools. This view covers A
 ## Related tokens
 
 - [USDT0](https://www.defi.garden/tokens/usdt0)
-- [KII](https://www.defi.garden/tokens/kii)
 - [WSPYX](https://www.defi.garden/tokens/wspyx)
+- [KII](https://www.defi.garden/tokens/kii)
 - [BILL](https://www.defi.garden/tokens/bill)
 - [WNVDAX](https://www.defi.garden/tokens/wnvdax)
 - [ELSA](https://www.defi.garden/tokens/elsa)
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank BSB pools. This view covers A
 
 - [Mantle](https://www.defi.garden/chains/mantle)
 
-## Last updated October 20, 2026
+## Last updated October 21, 2026

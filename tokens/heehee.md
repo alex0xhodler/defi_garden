@@ -1,12 +1,12 @@
 # HEEHEE DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 21, 2026. Rates change continuously.*
 
-The highest honest HEEHEE yield right now is 2.07% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HEEHEE yield right now is 1.40% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=67325a87-325a-41b7-9b6c-4957c3656108#src=seo_token) | Solana | 2.07% | $134.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=67325a87-325a-41b7-9b6c-4957c3656108#src=seo_token) | Solana | 1.40% | $133.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HEEHEE yield today?
 
-2.07% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.40% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many HEEHEE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $134.2K in total.
+1 live pool clear this page's $100K TVL floor, $133.3K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank HEEHEE pools. This view cover
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 20, 2026
+## Last updated October 21, 2026

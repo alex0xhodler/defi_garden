@@ -1,35 +1,35 @@
 # PURR DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 21, 2026. Rates change continuously.*
 
-The highest honest PURR yield right now is 208.25% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PURR yield right now is 218.81% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ramses-cl-v2 →](https://www.defi.garden/?pool=c31f72cf-ecff-461b-b23c-cc4ac9927b9f#src=seo_token) | Hyperliquid L1 | 102.85% | $247.1K |
-| [raydium-amm →](https://www.defi.garden/?pool=ce2256fb-c085-58cb-9480-5e8ff2afe498#src=seo_token) | Solana | 208.25% | $166.1K |
-| [project-x →](https://www.defi.garden/?pool=f551bf0d-fb72-45fe-82c4-c5e2a58fa1d8#src=seo_token) | Hyperliquid L1 | 0.08% | $141.2K |
-| [hyperswap-v3 →](https://www.defi.garden/?pool=27a5e572-7b03-40e9-bb4b-017f957c395a#src=seo_token) | Hyperliquid L1 | 0.33% | $128.4K |
+| [ramses-cl-v2 →](https://www.defi.garden/?pool=c31f72cf-ecff-461b-b23c-cc4ac9927b9f#src=seo_token) | Hyperliquid L1 | 103.70% | $251.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=ce2256fb-c085-58cb-9480-5e8ff2afe498#src=seo_token) | Solana | 218.81% | $173.1K |
+| [project-x →](https://www.defi.garden/?pool=f551bf0d-fb72-45fe-82c4-c5e2a58fa1d8#src=seo_token) | Hyperliquid L1 | 1.36% | $140.9K |
+| [hyperswap-v3 →](https://www.defi.garden/?pool=27a5e572-7b03-40e9-bb4b-017f957c395a#src=seo_token) | Hyperliquid L1 | 0.18% | $130.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, PURR's lower-variability candidates are hyperswap-v3 (Hyperliquid L1), 0.33% APY, $128.4K TVL, https://www.defi.garden/?pool=27a5e572-7b03-40e9-bb4b-017f957c395a#src=seo_token; project-x (Hyperliquid L1), 0.08% APY, $141.2K TVL, https://www.defi.garden/?pool=f551bf0d-fb72-45fe-82c4-c5e2a58fa1d8#src=seo_token; ramses-cl-v2 (Hyperliquid L1), 102.85% APY, $247.1K TVL, https://www.defi.garden/?pool=c31f72cf-ecff-461b-b23c-cc4ac9927b9f#src=seo_token; raydium-amm (Solana), 208.25% APY, $166.1K TVL, https://www.defi.garden/?pool=ce2256fb-c085-58cb-9480-5e8ff2afe498#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PURR's lower-variability candidates are hyperswap-v3 (Hyperliquid L1), 0.18% APY, $130.3K TVL, https://www.defi.garden/?pool=27a5e572-7b03-40e9-bb4b-017f957c395a#src=seo_token; project-x (Hyperliquid L1), 1.36% APY, $140.9K TVL, https://www.defi.garden/?pool=f551bf0d-fb72-45fe-82c4-c5e2a58fa1d8#src=seo_token; ramses-cl-v2 (Hyperliquid L1), 103.70% APY, $251.3K TVL, https://www.defi.garden/?pool=c31f72cf-ecff-461b-b23c-cc4ac9927b9f#src=seo_token; raydium-amm (Solana), 218.81% APY, $173.1K TVL, https://www.defi.garden/?pool=ce2256fb-c085-58cb-9480-5e8ff2afe498#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [hyperswap-v3 →](https://www.defi.garden/?pool=27a5e572-7b03-40e9-bb4b-017f957c395a#src=seo_token) | Hyperliquid L1 | 0.33% | $128.4K |
-| 2 | [project-x →](https://www.defi.garden/?pool=f551bf0d-fb72-45fe-82c4-c5e2a58fa1d8#src=seo_token) | Hyperliquid L1 | 0.08% | $141.2K |
-| 3 | [ramses-cl-v2 →](https://www.defi.garden/?pool=c31f72cf-ecff-461b-b23c-cc4ac9927b9f#src=seo_token) | Hyperliquid L1 | 102.85% | $247.1K |
-| 4 | [raydium-amm →](https://www.defi.garden/?pool=ce2256fb-c085-58cb-9480-5e8ff2afe498#src=seo_token) | Solana | 208.25% | $166.1K |
+| 1 | [hyperswap-v3 →](https://www.defi.garden/?pool=27a5e572-7b03-40e9-bb4b-017f957c395a#src=seo_token) | Hyperliquid L1 | 0.18% | $130.3K |
+| 2 | [project-x →](https://www.defi.garden/?pool=f551bf0d-fb72-45fe-82c4-c5e2a58fa1d8#src=seo_token) | Hyperliquid L1 | 1.36% | $140.9K |
+| 3 | [ramses-cl-v2 →](https://www.defi.garden/?pool=c31f72cf-ecff-461b-b23c-cc4ac9927b9f#src=seo_token) | Hyperliquid L1 | 103.70% | $251.3K |
+| 4 | [raydium-amm →](https://www.defi.garden/?pool=ce2256fb-c085-58cb-9480-5e8ff2afe498#src=seo_token) | Solana | 218.81% | $173.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-PURR shows up in 4 pools here, with rates from 0.08% to 208.25% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+PURR shows up in 4 pools here, with rates from 0.18% to 218.81% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 80.79% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 80.66% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 4 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -37,10 +37,10 @@ PURR shows up in 4 pools here, with rates from 0.08% to 208.25% APY across 2 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| ramses-cl-v2 | 102.85% | 150.84% | 36.36% incentives |
-| raydium-amm | 208.25% | 358.26% | Base rate |
-| project-x | 0.08% | 10.75% | Base rate |
-| hyperswap-v3 | 0.33% | 1.72% | Base rate |
+| ramses-cl-v2 | 103.70% | 150.61% | 37.90% incentives |
+| raydium-amm | 218.81% | 344.74% | Base rate |
+| project-x | 1.36% | 10.71% | Base rate |
+| hyperswap-v3 | 0.18% | 1.71% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -48,11 +48,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest PURR yield today?
 
-208.25% APY on raydium-amm (Solana), based on live DefiLlama data.
+218.81% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many PURR pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $682.7K in total.
+4 live pools clear this page's $100K TVL floor, $695.6K in total.
 
 ### Are these rates safe?
 
@@ -60,7 +60,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which PURR pools have the most stable APY history?
 
-Based on APY history only, PURR's lower-variability candidates are hyperswap-v3 (Hyperliquid L1), 0.33% APY, $128.4K TVL, https://www.defi.garden/?pool=27a5e572-7b03-40e9-bb4b-017f957c395a#src=seo_token; project-x (Hyperliquid L1), 0.08% APY, $141.2K TVL, https://www.defi.garden/?pool=f551bf0d-fb72-45fe-82c4-c5e2a58fa1d8#src=seo_token; ramses-cl-v2 (Hyperliquid L1), 102.85% APY, $247.1K TVL, https://www.defi.garden/?pool=c31f72cf-ecff-461b-b23c-cc4ac9927b9f#src=seo_token; raydium-amm (Solana), 208.25% APY, $166.1K TVL, https://www.defi.garden/?pool=ce2256fb-c085-58cb-9480-5e8ff2afe498#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PURR's lower-variability candidates are hyperswap-v3 (Hyperliquid L1), 0.18% APY, $130.3K TVL, https://www.defi.garden/?pool=27a5e572-7b03-40e9-bb4b-017f957c395a#src=seo_token; project-x (Hyperliquid L1), 1.36% APY, $140.9K TVL, https://www.defi.garden/?pool=f551bf0d-fb72-45fe-82c4-c5e2a58fa1d8#src=seo_token; ramses-cl-v2 (Hyperliquid L1), 103.70% APY, $251.3K TVL, https://www.defi.garden/?pool=c31f72cf-ecff-461b-b23c-cc4ac9927b9f#src=seo_token; raydium-amm (Solana), 218.81% APY, $173.1K TVL, https://www.defi.garden/?pool=ce2256fb-c085-58cb-9480-5e8ff2afe498#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -76,4 +76,4 @@ Based on APY history only, PURR's lower-variability candidates are hyperswap-v3 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 20, 2026
+## Last updated October 21, 2026

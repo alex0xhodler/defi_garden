@@ -1,17 +1,17 @@
 # Solana 디파이 수익률
 
-현재 Solana의 가장 높은 정직한 수익률은 Solana의 onre에서 11.02%이며, $100K TVL 기준을 넘는 982개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 Solana의 가장 높은 정직한 수익률은 Solana의 onre에서 11.02%이며, $100K TVL 기준을 넘는 993개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| JITOSOL | [jito-liquid-staking →](https://www.defi.garden/ko/pools/jito-liquid-staking-jitosol-solana) | 4.48% | $1.1B |
-| BNSOL | [binance-staked-sol →](https://www.defi.garden/ko/pools/binance-staked-sol-bnsol-solana) | 4.51% | $1.1B |
-| BUIDL | [blackrock-buidl →](https://www.defi.garden/ko/pools/blackrock-buidl-buidl-solana) | 3.80% | $886.03M |
-| JUPSOL | [jupiter-staked-sol →](https://www.defi.garden/ko/pools/jupiter-staked-sol-jupsol-solana) | 5.28% | $548.95M |
-| USDC | [jupiter-lend →](https://www.defi.garden/?pool=d783c8df-e2ed-44b4-8317-161ccc1b5f06#src=seo_chain) | 5.88% | $485.48M |
-| DSOL | [drift-staked-sol →](https://www.defi.garden/ko/pools/drift-staked-sol-dsol-solana) | 4.97% | $292.88M |
-| ONYC | [onre →](https://www.defi.garden/ko/pools/onre-onyc-solana) | 11.02% | $283.58M |
-| PYUSD | [jupiter-lend →](https://www.defi.garden/?pool=1183ffb5-0049-5e11-859c-c1bf2788214c#src=seo_chain) | 3.74% | $251.16M |
+| BNSOL | [binance-staked-sol →](https://www.defi.garden/ko/pools/binance-staked-sol-bnsol-solana) | 4.53% | $1.11B |
+| JITOSOL | [jito-liquid-staking →](https://www.defi.garden/ko/pools/jito-liquid-staking-jitosol-solana) | 4.84% | $1.1B |
+| BUIDL | [blackrock-buidl →](https://www.defi.garden/ko/pools/blackrock-buidl-buidl-solana) | 3.80% | $886.12M |
+| JUPSOL | [jupiter-staked-sol →](https://www.defi.garden/ko/pools/jupiter-staked-sol-jupsol-solana) | 5.24% | $555.34M |
+| USDC | [jupiter-lend →](https://www.defi.garden/?pool=d783c8df-e2ed-44b4-8317-161ccc1b5f06#src=seo_chain) | 5.66% | $487.46M |
+| DSOL | [drift-staked-sol →](https://www.defi.garden/ko/pools/drift-staked-sol-dsol-solana) | 4.97% | $294.9M |
+| ONYC | [onre →](https://www.defi.garden/ko/pools/onre-onyc-solana) | 11.02% | $282.55M |
+| PYUSD | [jupiter-lend →](https://www.defi.garden/?pool=1183ffb5-0049-5e11-859c-c1bf2788214c#src=seo_chain) | 3.74% | $250.96M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Solana의 onre에서 APY 11.02%예요.
 
 ### Solana 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 982개이며, 합산 TVL은 $11.29B예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 993개이며, 합산 TVL은 $11.38B예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -40,8 +40,8 @@ DefiLlama 실시간 데이터 기준, Solana의 onre에서 APY 11.02%예요.
 
 ## Solana의 인기 토큰
 
-- [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
 - [BNSOL](https://www.defi.garden/ko/tokens/bnsol)
+- [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [JUPSOL](https://www.defi.garden/ko/tokens/jupsol)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
@@ -49,4 +49,4 @@ DefiLlama 실시간 데이터 기준, Solana의 onre에서 APY 11.02%예요.
 - [ONYC](https://www.defi.garden/ko/tokens/onyc)
 - [PYUSD](https://www.defi.garden/ko/tokens/pyusd)
 
-## 마지막 업데이트: October 20, 2026
+## 마지막 업데이트: October 21, 2026

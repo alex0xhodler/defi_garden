@@ -1,12 +1,12 @@
 # BZ DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 21, 2026. Rates change continuously.*
 
-The highest honest BZ yield right now is 2.13% on gmx-solana (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BZ yield right now is 1.95% on gmx-solana (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmx-solana →](https://www.defi.garden/?pool=d975e7a2-68d6-56c8-8519-4481266d3e10#src=seo_token) | Solana | 2.13% | $107.9K |
+| [gmx-solana →](https://www.defi.garden/?pool=d975e7a2-68d6-56c8-8519-4481266d3e10#src=seo_token) | Solana | 1.95% | $119.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BZ yield today?
 
-2.13% APY on gmx-solana (Solana), based on live DefiLlama data.
+1.95% APY on gmx-solana (Solana), based on live DefiLlama data.
 
 ### How many BZ pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $107.9K in total.
+1 live pool clear this page's $100K TVL floor, $119.3K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank BZ pools. This view covers AP
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 20, 2026
+## Last updated October 21, 2026

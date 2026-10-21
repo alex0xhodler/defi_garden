@@ -1,12 +1,12 @@
 # BARA DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 21, 2026. Rates change continuously.*
 
-The highest honest BARA yield right now is 0.28% on vvs-standard (Cronos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BARA yield right now is 0.08% on vvs-standard (Cronos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=8848e2e2-a94c-4db5-a951-8e02e3668166#src=seo_token) | Cronos | 0.28% | $319.5K |
+| [vvs-standard →](https://www.defi.garden/?pool=8848e2e2-a94c-4db5-a951-8e02e3668166#src=seo_token) | Cronos | 0.08% | $323.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BARA yield today?
 
-0.28% APY on vvs-standard (Cronos), based on live DefiLlama data.
+0.08% APY on vvs-standard (Cronos), based on live DefiLlama data.
 
 ### How many BARA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $319.5K in total.
+1 live pool clear this page's $100K TVL floor, $323.3K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank BARA pools. This view covers 
 
 - [Cronos](https://www.defi.garden/chains/cronos)
 
-## Last updated October 20, 2026
+## Last updated October 21, 2026

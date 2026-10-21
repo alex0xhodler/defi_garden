@@ -1,29 +1,29 @@
 # LION DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 21, 2026. Rates change continuously.*
 
-The highest honest LION yield right now is 0.12% on vvs-standard (Cronos), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LION yield right now is 0.13% on vvs-standard (Cronos), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=e67c8f7e-4bf5-49a7-bd5f-e0459b1895b5#src=seo_token) | Cronos | 0.12% | $1.91M |
+| [vvs-standard →](https://www.defi.garden/?pool=e67c8f7e-4bf5-49a7-bd5f-e0459b1895b5#src=seo_token) | Cronos | 0.13% | $1.92M |
 | [raydium-amm →](https://www.defi.garden/?pool=7d53f6d4-b6b3-4164-9fc1-dc1a657d22ae#src=seo_token) | Solana | 0.52% | $413.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, LION's lower-variability candidates are raydium-amm (Solana), 0.52% APY, $413.1K TVL, https://www.defi.garden/?pool=7d53f6d4-b6b3-4164-9fc1-dc1a657d22ae#src=seo_token; vvs-standard (Cronos), 0.12% APY, $1.91M TVL, https://www.defi.garden/?pool=e67c8f7e-4bf5-49a7-bd5f-e0459b1895b5#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LION's lower-variability candidates are raydium-amm (Solana), 0.52% APY, $413.1K TVL, https://www.defi.garden/?pool=7d53f6d4-b6b3-4164-9fc1-dc1a657d22ae#src=seo_token; vvs-standard (Cronos), 0.13% APY, $1.92M TVL, https://www.defi.garden/?pool=e67c8f7e-4bf5-49a7-bd5f-e0459b1895b5#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [raydium-amm →](https://www.defi.garden/?pool=7d53f6d4-b6b3-4164-9fc1-dc1a657d22ae#src=seo_token) | Solana | 0.52% | $413.1K |
-| 2 | [vvs-standard →](https://www.defi.garden/?pool=e67c8f7e-4bf5-49a7-bd5f-e0459b1895b5#src=seo_token) | Cronos | 0.12% | $1.91M |
+| 2 | [vvs-standard →](https://www.defi.garden/?pool=e67c8f7e-4bf5-49a7-bd5f-e0459b1895b5#src=seo_token) | Cronos | 0.13% | $1.92M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-LION shows up in 2 pools here, with rates from 0.12% to 0.52% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+LION shows up in 2 pools here, with rates from 0.13% to 0.52% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 1.13% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -33,7 +33,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| vvs-standard | 0.12% | 0.49% | Base rate |
+| vvs-standard | 0.13% | 0.48% | Base rate |
 | raydium-amm | 0.52% | 1.77% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest LION yield today?
 
-0.12% APY on vvs-standard (Cronos), based on live DefiLlama data.
+0.13% APY on vvs-standard (Cronos), based on live DefiLlama data.
 
 ### How many LION pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $2.32M in total.
+2 live pools clear this page's $100K TVL floor, $2.34M in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which LION pools have the most stable APY history?
 
-Based on APY history only, LION's lower-variability candidates are raydium-amm (Solana), 0.52% APY, $413.1K TVL, https://www.defi.garden/?pool=7d53f6d4-b6b3-4164-9fc1-dc1a657d22ae#src=seo_token; vvs-standard (Cronos), 0.12% APY, $1.91M TVL, https://www.defi.garden/?pool=e67c8f7e-4bf5-49a7-bd5f-e0459b1895b5#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LION's lower-variability candidates are raydium-amm (Solana), 0.52% APY, $413.1K TVL, https://www.defi.garden/?pool=7d53f6d4-b6b3-4164-9fc1-dc1a657d22ae#src=seo_token; vvs-standard (Cronos), 0.13% APY, $1.92M TVL, https://www.defi.garden/?pool=e67c8f7e-4bf5-49a7-bd5f-e0459b1895b5#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +70,4 @@ Based on APY history only, LION's lower-variability candidates are raydium-amm (
 - [Cronos](https://www.defi.garden/chains/cronos)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 20, 2026
+## Last updated October 21, 2026

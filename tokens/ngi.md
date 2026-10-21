@@ -1,31 +1,31 @@
 # NGI DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 21, 2026. Rates change continuously.*
 
-The highest honest NGI yield right now is 14.51% on pendle-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NGI yield right now is 14.94% on pendle-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle-v2 →](https://www.defi.garden/?pool=9b043479-0b54-5a44-9a3a-c676606873d6#src=seo_token) | Ethereum | 14.51% | $347K |
-| [pendle-v2 →](https://www.defi.garden/?pool=747a36df-2470-5763-93a3-de681b109c9b#src=seo_token) | Ethereum | 7.70% | $347K |
+| [pendle-v2 →](https://www.defi.garden/?pool=9b043479-0b54-5a44-9a3a-c676606873d6#src=seo_token) | Ethereum | 14.94% | $356.9K |
+| [pendle-v2 →](https://www.defi.garden/?pool=747a36df-2470-5763-93a3-de681b109c9b#src=seo_token) | Ethereum | 8.09% | $356.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, NGI's lower-variability candidates are pendle-v2 (Ethereum), 14.51% APY, $347K TVL, https://www.defi.garden/?pool=9b043479-0b54-5a44-9a3a-c676606873d6#src=seo_token; pendle-v2 (Ethereum), 7.70% APY, $347K TVL, https://www.defi.garden/?pool=747a36df-2470-5763-93a3-de681b109c9b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NGI's lower-variability candidates are pendle-v2 (Ethereum), 14.94% APY, $356.9K TVL, https://www.defi.garden/?pool=9b043479-0b54-5a44-9a3a-c676606873d6#src=seo_token; pendle-v2 (Ethereum), 8.09% APY, $356.9K TVL, https://www.defi.garden/?pool=747a36df-2470-5763-93a3-de681b109c9b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [pendle-v2 →](https://www.defi.garden/?pool=9b043479-0b54-5a44-9a3a-c676606873d6#src=seo_token) | Ethereum | 14.51% | $347K |
-| 2 | [pendle-v2 →](https://www.defi.garden/?pool=747a36df-2470-5763-93a3-de681b109c9b#src=seo_token) | Ethereum | 7.70% | $347K |
+| 1 | [pendle-v2 →](https://www.defi.garden/?pool=9b043479-0b54-5a44-9a3a-c676606873d6#src=seo_token) | Ethereum | 14.94% | $356.9K |
+| 2 | [pendle-v2 →](https://www.defi.garden/?pool=747a36df-2470-5763-93a3-de681b109c9b#src=seo_token) | Ethereum | 8.09% | $356.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-NGI shows up in 2 pools here, with rates from 7.70% to 14.51% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+NGI shows up in 2 pools here, with rates from 8.09% to 14.94% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 19.70% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 19.40% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,8 +33,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle-v2 | 14.51% | 16.90% | Base rate |
-| pendle-v2 | 7.70% | 22.49% | Base rate |
+| pendle-v2 | 14.94% | 16.71% | Base rate |
+| pendle-v2 | 8.09% | 22.08% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest NGI yield today?
 
-14.51% APY on pendle-v2 (Ethereum), based on live DefiLlama data.
+14.94% APY on pendle-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many NGI pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $802.5K in total.
+3 live pools clear this page's $100K TVL floor, $822.1K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which NGI pools have the most stable APY history?
 
-Based on APY history only, NGI's lower-variability candidates are pendle-v2 (Ethereum), 14.51% APY, $347K TVL, https://www.defi.garden/?pool=9b043479-0b54-5a44-9a3a-c676606873d6#src=seo_token; pendle-v2 (Ethereum), 7.70% APY, $347K TVL, https://www.defi.garden/?pool=747a36df-2470-5763-93a3-de681b109c9b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NGI's lower-variability candidates are pendle-v2 (Ethereum), 14.94% APY, $356.9K TVL, https://www.defi.garden/?pool=9b043479-0b54-5a44-9a3a-c676606873d6#src=seo_token; pendle-v2 (Ethereum), 8.09% APY, $356.9K TVL, https://www.defi.garden/?pool=747a36df-2470-5763-93a3-de681b109c9b#src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +69,4 @@ Based on APY history only, NGI's lower-variability candidates are pendle-v2 (Eth
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 20, 2026
+## Last updated October 21, 2026

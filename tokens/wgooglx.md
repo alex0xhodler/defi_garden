@@ -1,12 +1,12 @@
 # WGOOGLX DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 21, 2026. Rates change continuously.*
 
-The highest honest WGOOGLX yield right now is 0.35% on fluxion-network (Mantle), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WGOOGLX yield right now is 0.01% on fluxion-network (Mantle), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fluxion-network →](https://www.defi.garden/?pool=227e8492-33e9-4953-8beb-28973c9fdb8a#src=seo_token) | Mantle | 0.35% | $109.9K |
+| [fluxion-network →](https://www.defi.garden/?pool=227e8492-33e9-4953-8beb-28973c9fdb8a#src=seo_token) | Mantle | 0.01% | $109.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WGOOGLX yield today?
 
-0.35% APY on fluxion-network (Mantle), based on live DefiLlama data.
+0.01% APY on fluxion-network (Mantle), based on live DefiLlama data.
 
 ### How many WGOOGLX pools clear the TVL floor?
 
@@ -36,8 +36,8 @@ There is not enough qualifying APY history to rank WGOOGLX pools. This view cove
 ## Related tokens
 
 - [USDT0](https://www.defi.garden/tokens/usdt0)
-- [KII](https://www.defi.garden/tokens/kii)
 - [WSPYX](https://www.defi.garden/tokens/wspyx)
+- [KII](https://www.defi.garden/tokens/kii)
 - [BSB](https://www.defi.garden/tokens/bsb)
 - [BILL](https://www.defi.garden/tokens/bill)
 - [WNVDAX](https://www.defi.garden/tokens/wnvdax)
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank WGOOGLX pools. This view cove
 
 - [Mantle](https://www.defi.garden/chains/mantle)
 
-## Last updated October 20, 2026
+## Last updated October 21, 2026

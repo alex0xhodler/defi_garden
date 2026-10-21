@@ -1,12 +1,12 @@
 # PSTR DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 21, 2026. Rates change continuously.*
 
-The highest honest PSTR yield right now is 155.25% on hyperswap-v2 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PSTR yield right now is 199.55% on hyperswap-v2 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hyperswap-v2 →](https://www.defi.garden/?pool=053a4fa2-cd08-5ff5-ba49-61bce0a61812#src=seo_token) | Hyperliquid L1 | 155.25% | $624.5K |
+| [hyperswap-v2 →](https://www.defi.garden/?pool=053a4fa2-cd08-5ff5-ba49-61bce0a61812#src=seo_token) | Hyperliquid L1 | 199.55% | $557.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PSTR yield today?
 
-155.25% APY on hyperswap-v2 (Hyperliquid L1), based on live DefiLlama data.
+199.55% APY on hyperswap-v2 (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many PSTR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $624.5K in total.
+1 live pool clear this page's $100K TVL floor, $557.3K in total.
 
 ### Are these rates safe?
 
@@ -37,13 +37,13 @@ There is not enough qualifying APY history to rank PSTR pools. This view covers 
 
 - [KHYPE](https://www.defi.garden/tokens/khype)
 - [WHYPE](https://www.defi.garden/tokens/whype)
+- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [THBILL](https://www.defi.garden/tokens/thbill)
 - [UBTC](https://www.defi.garden/tokens/ubtc)
 - [WSTHYPE](https://www.defi.garden/tokens/wsthype)
-- [USDM](https://www.defi.garden/tokens/usdm)
 
 ## Available on
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated October 20, 2026
+## Last updated October 21, 2026

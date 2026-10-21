@@ -1,12 +1,12 @@
 # BMNRON DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 21, 2026. Rates change continuously.*
 
-The highest honest BMNRON yield right now is 24.06% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BMNRON yield right now is 2.77% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=18a9a497-6d73-5503-bc1a-92e29e32f864#src=seo_token) | Ethereum | 24.06% | $103.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=18a9a497-6d73-5503-bc1a-92e29e32f864#src=seo_token) | Ethereum | 2.77% | $107.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BMNRON yield today?
 
-24.06% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+2.77% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many BMNRON pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $103.5K in total.
+1 live pool clear this page's $100K TVL floor, $107.9K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank BMNRON pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated October 20, 2026
+## Last updated October 21, 2026

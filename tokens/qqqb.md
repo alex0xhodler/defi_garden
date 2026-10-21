@@ -1,12 +1,12 @@
 # QQQB DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 21, 2026. Rates change continuously.*
 
-The highest honest QQQB yield right now is 11.39% on uniswap-v3 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest QQQB yield right now is 19.66% on uniswap-v3 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=62175cdc-208b-500c-9e91-ea08ec34d281#src=seo_token) | BSC | 11.39% | $571.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=62175cdc-208b-500c-9e91-ea08ec34d281#src=seo_token) | BSC | 19.66% | $567.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest QQQB yield today?
 
-11.39% APY on uniswap-v3 (BSC), based on live DefiLlama data.
+19.66% APY on uniswap-v3 (BSC), based on live DefiLlama data.
 
 ### How many QQQB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $571.6K in total.
+1 live pool clear this page's $100K TVL floor, $567.6K in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ There is not enough qualifying APY history to rank QQQB pools. This view covers 
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated October 20, 2026
+## Last updated October 21, 2026

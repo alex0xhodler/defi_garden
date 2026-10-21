@@ -1,14 +1,14 @@
 # GTR DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 21, 2026. Rates change continuously.*
 
-The highest honest GTR yield right now is 13.84% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GTR yield right now is 15.14% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=ea4c4abb-ec0f-5873-8d5a-166aba838c72#src=seo_token) | Solana | 9.21% | $2.74M |
-| [raydium-amm →](https://www.defi.garden/?pool=b949fe8a-f3dd-522d-828f-a36ece614c64#src=seo_token) | Solana | 13.84% | $183K |
-| [raydium-amm →](https://www.defi.garden/?pool=94ad060a-f455-5907-9123-4b77e1c07451#src=seo_token) | Solana | 1.16% | $124.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=ea4c4abb-ec0f-5873-8d5a-166aba838c72#src=seo_token) | Solana | 14.02% | $2.65M |
+| [raydium-amm →](https://www.defi.garden/?pool=b949fe8a-f3dd-522d-828f-a36ece614c64#src=seo_token) | Solana | 15.14% | $174.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=94ad060a-f455-5907-9123-4b77e1c07451#src=seo_token) | Solana | 1.17% | $122.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,9 +19,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-GTR shows up in 3 pools here, with rates from 1.16% to 13.84% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+GTR shows up in 3 pools here, with rates from 1.17% to 15.14% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 13.50% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 13.42% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -29,9 +29,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 9.21% | 34.04% | Base rate |
-| raydium-amm | 13.84% | 13.50% | Base rate |
-| raydium-amm | 1.16% | 1.18% | Base rate |
+| raydium-amm | 14.02% | 34.23% | Base rate |
+| raydium-amm | 15.14% | 13.42% | Base rate |
+| raydium-amm | 1.17% | 1.19% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -39,11 +39,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest GTR yield today?
 
-13.84% APY on raydium-amm (Solana), based on live DefiLlama data.
+15.14% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many GTR pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $3.05M in total.
+3 live pools clear this page's $100K TVL floor, $2.94M in total.
 
 ### Are these rates safe?
 
@@ -66,4 +66,4 @@ There is not enough qualifying APY history to rank GTR pools. This view covers A
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated October 20, 2026
+## Last updated October 21, 2026

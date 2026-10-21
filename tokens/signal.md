@@ -1,12 +1,12 @@
 # SIGNAL DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 21, 2026. Rates change continuously.*
 
-The highest honest SIGNAL yield right now is 8.61% on project-x (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SIGNAL yield right now is 12.38% on project-x (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [project-x →](https://www.defi.garden/?pool=63671f11-4629-59c7-954b-9923ecf26d65#src=seo_token) | Hyperliquid L1 | 8.61% | $136.6K |
+| [project-x →](https://www.defi.garden/?pool=63671f11-4629-59c7-954b-9923ecf26d65#src=seo_token) | Hyperliquid L1 | 12.38% | $135.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SIGNAL yield today?
 
-8.61% APY on project-x (Hyperliquid L1), based on live DefiLlama data.
+12.38% APY on project-x (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many SIGNAL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $136.6K in total.
+1 live pool clear this page's $100K TVL floor, $135.8K in total.
 
 ### Are these rates safe?
 
@@ -37,13 +37,13 @@ There is not enough qualifying APY history to rank SIGNAL pools. This view cover
 
 - [KHYPE](https://www.defi.garden/tokens/khype)
 - [WHYPE](https://www.defi.garden/tokens/whype)
+- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [THBILL](https://www.defi.garden/tokens/thbill)
 - [UBTC](https://www.defi.garden/tokens/ubtc)
 - [WSTHYPE](https://www.defi.garden/tokens/wsthype)
-- [USDM](https://www.defi.garden/tokens/usdm)
 
 ## Available on
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated October 20, 2026
+## Last updated October 21, 2026

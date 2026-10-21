@@ -1,12 +1,12 @@
 # GT3 DeFi Yields
 
-*Pool data verified from DefiLlama at generation time: October 20, 2026. Rates change continuously.*
+*Pool data verified from DefiLlama at generation time: October 21, 2026. Rates change continuously.*
 
-The highest honest GT3 yield right now is 19.12% on gt3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GT3 yield right now is 19.18% on gt3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gt3 →](https://www.defi.garden/?pool=4d4922a1-03e1-478a-b429-7831fedf0560#src=seo_token) | Polygon | 19.12% | $160.6K |
+| [gt3 →](https://www.defi.garden/?pool=4d4922a1-03e1-478a-b429-7831fedf0560#src=seo_token) | Polygon | 19.18% | $161.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GT3 yield today?
 
-19.12% APY on gt3 (Polygon), based on live DefiLlama data.
+19.18% APY on gt3 (Polygon), based on live DefiLlama data.
 
 ### How many GT3 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $160.6K in total.
+1 live pool clear this page's $100K TVL floor, $161.6K in total.
 
 ### Are these rates safe?
 
@@ -38,12 +38,12 @@ There is not enough qualifying APY history to rank GT3 pools. This view covers A
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [DAI](https://www.defi.garden/tokens/dai)
-- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [LINK](https://www.defi.garden/tokens/link)
 - [AAVE](https://www.defi.garden/tokens/aave)
+- [USDT0](https://www.defi.garden/tokens/usdt0)
 
 ## Available on
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated October 20, 2026
+## Last updated October 21, 2026
