@@ -1,0 +1,31 @@
+# Generated site outputs — built by CI, published to alex0xhodler/defi_garden-site,
+# NEVER committed to this repo (they rewrote ~18k files a day and grew history to 18 GB).
+# One path per line, relative to the repo root. Keep in sync with the
+# "Generated site outputs" block in .gitignore.
+# Each CI run restores these from the last published build before generating, so
+# generators that read their own previous output (sitemap lastmod preservation,
+# pool redirect manifest, stale-page cleanup, stocks/landing fallbacks) behave
+# exactly as they did when the files were committed.
+tokens
+chains
+pools
+ko
+pt
+es
+og
+data/pools
+data/pools-snapshot.json
+data/pools-snapshot-meta.json
+data/landing-pools.json
+data/pool-pages.json
+data/pool-scores.json
+data/protocol-urls.json
+data/stocks-pools.json
+data/stocks-snapshot.json
+data/forecast-evaluations.json
+sitemap.xml
+sitemap-main.xml
+sitemap-*.xml
+llms.txt
+llms-full.txt
+forecast-accuracy.html

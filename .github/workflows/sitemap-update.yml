@@ -1,4 +1,4 @@
-name: 'Update Sitemap'
+name: 'Build & Publish Site'
 
 on:
   schedule:
@@ -6,35 +6,9 @@ on:
     - cron: '0 2 * * *'
   workflow_dispatch: # Allow manual triggering
   push:
+    # Vercel serves alex0xhodler/defi_garden-site, not this repo, so EVERY change
+    # to main has to go through this build to reach production.
     branches: [ main ]
-    paths:
-      - 'generate-sitemap.js'
-      - 'generate-pools-snapshot.js'
-      - 'generate-landing-pools.js'
-      - 'generate-stocks-snapshot.js'
-      - 'data/stocks-registry.json'
-      - 'generate-protocol-urls.js'
-      - 'compute-kpis.js'
-      - 'generate-token-pages.js'
-      - 'generate-chain-pages.js'
-      - 'generate-pool-pages.js'
-      - 'generate-pool-score-pages.js'
-      - 'pool-page-links.js'
-      - 'permissioned-projects.js'
-      - 'llama-endpoints.js'
-      - 'scripts/llama-canary.js'
-      - 'compile-app.js'
-      - 'minify-assets.js'
-      - 'app.js'
-      - 'PoolDetail.js'
-      - 'planner.js'
-      - 'translations.js'
-      - 'languages.js'
-      - 'i18n/**'
-      - 'style.css'
-      - 'planner-styles.css'
-      - 'pool-detail-styles.css'
-      - 'package.json'
 
 # Serialize the daily cron and push-triggered runs so their checkouts/pushes
 # can't interleave (the live 04:32/04:50 collision window — 081). Never cancel an
@@ -55,7 +29,20 @@ jobs:
       uses: actions/checkout@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-    
+
+    - name: Restore last published build (generated outputs are not in this repo)
+      # Generators read their own previous output: sitemap lastmod preservation,
+      # the pool-pages manifest that drives vercel.json 301s, stale-page cleanup,
+      # stocks/landing fallbacks. Restoring the published build keeps all of that
+      # byte-identical to when these files were committed here.
+      env:
+        SITE_DEPLOY_KEY: ${{ secrets.SITE_DEPLOY_KEY }}
+      run: |
+        mkdir -p ~/.ssh && echo "$SITE_DEPLOY_KEY" > ~/.ssh/site_deploy && chmod 600 ~/.ssh/site_deploy
+        export GIT_SSH_COMMAND="ssh -i ~/.ssh/site_deploy -o IdentitiesOnly=yes -o StrictHostKeyChecking=accept-new"
+        git clone --quiet --depth 1 git@github.com:alex0xhodler/defi_garden-site.git "$RUNNER_TEMP/site"
+        scripts/restore-site-outputs.sh "$RUNNER_TEMP/site"
+
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
@@ -205,62 +192,90 @@ jobs:
         # never committed or published.
         node validate-sitemaps.js
     
-    - name: Check for changes
-      id: verify-changed-files
-      run: |
-        if [ -n "$(git status --porcelain)" ]; then
-          echo "changed=true" >> $GITHUB_OUTPUT
-          echo "📝 Changes detected in sitemap files"
-        else
-          echo "changed=false" >> $GITHUB_OUTPUT
-          echo "✅ No changes in sitemap files"
-        fi
-    
-    - name: Commit updated files
-      if: steps.verify-changed-files.outputs.changed == 'true'
+    - name: Commit records + config to main (small files only)
+      # Only state that must be durable and reviewable lives in this repo:
+      # the KPI history window, the point-in-time forecast ledger, vercel.json
+      # (generator-owned 301s for dropped pool pages), robots.txt and the
+      # compiled/minified bundles. Everything else is published to the site repo.
       run: |
         git config --local user.email "alex@0xhodler.nl"
         git config --local user.name "alex0xhodler"
-        
-        git add vercel.json data sitemap.xml sitemap-token-pages.xml tokens sitemap-chain-pages.xml chains pools sitemap-pool-pages.xml sitemap-pool-pages-ko.xml ko pt es sitemap-token-pages-ko.xml sitemap-token-pages-pt.xml sitemap-token-pages-es.xml sitemap-chain-pages-ko.xml sitemap-chain-pages-pt.xml sitemap-chain-pages-es.xml sitemap-pool-pages-pt.xml sitemap-pool-pages-es.xml robots.txt llms.txt llms-full.txt og app.compiled.js PoolDetail.compiled.js app.compiled.min.js PoolDetail.compiled.min.js planner.min.js translations.min.js style.min.css planner-styles.min.css pool-detail-styles.min.css forecast-accuracy.html
-        git add -A -- 'sitemap*.xml'
-        git commit -m "chore: update sitemap and LLM files with latest yields
-        
-        - Regenerated sitemap index with $( { grep -o '<sitemap>' sitemap.xml || true; } | wc -l ) child sitemaps and $( { grep -o '<url>' sitemap*.xml || true; } | wc -l ) total URLs
-        - Updated robots.txt with AI crawler support
-        - Generated llms.txt and llms-full.txt for AI assistants
-        - Includes latest DeFi tokens and yield opportunities
-        
+        git add -A -- data/history data/forecasts vercel.json robots.txt \
+          app.compiled.js PoolDetail.compiled.js app.compiled.min.js PoolDetail.compiled.min.js \
+          planner.min.js translations.min.js style.min.css planner-styles.min.css pool-detail-styles.min.css
+        if git diff --cached --quiet; then
+          echo "✅ No record changes"
+          exit 0
+        fi
+        git commit -q -m "chore: record daily KPI history + forecast ledger
+
         🤖 Automated update via GitHub Actions"
-        
-        echo "✅ Changes committed"
-    
-    - name: Push changes
-      if: steps.verify-changed-files.outputs.changed == 'true'
-      run: |
-        # This job races with any other push to main (a merged PR, a concurrent
-        # run). A plain `git push` fails the whole workflow on rejection — the
-        # actual cause of the red builds. Rebase our regenerated-artifact commit
-        # onto the latest main and retry with backoff instead. The committed
-        # files are all regenerated output, so rebasing them forward is safe.
+        # Same race handling as before: rebase our record commit onto latest main.
         for attempt in 1 2 3 4 5; do
-          if git push origin main; then
-            echo "✅ Changes pushed to repository"
-            exit 0
-          fi
+          if git push origin HEAD:main; then echo "✅ Records pushed"; exit 0; fi
           echo "⚠️ Push rejected (attempt $attempt) — rebasing onto latest main..."
-          # -X theirs: the committed files are all freshly regenerated output,
-          # so on a conflict with main (another regen / merged PR) OUR version
-          # is the current one — take it wholesale instead of failing. ("theirs"
-          # during a rebase = the commit being replayed, i.e. this run's files.)
-          git pull --rebase --autostash -X theirs origin main || {
-            echo "❌ Rebase failed unexpectedly — aborting"; git rebase --abort || true; exit 1;
-          }
+          git pull --rebase --autostash -X theirs origin main || { git rebase --abort || true; exit 1; }
           sleep $((attempt * 3))
         done
-        echo "❌ Could not push after 5 attempts"
+        echo "❌ Could not push records after 5 attempts"; exit 1
+
+    - name: Assemble site tree
+      # Site = every file tracked on main + the generated outputs. Built in a clean
+      # directory so runner junk (node_modules, caches) can never be published.
+      run: |
+        OUT="$RUNNER_TEMP/out"; mkdir -p "$OUT"
+        git ls-files -z -- . ':!.github' | rsync -a --from0 --files-from=- ./ "$OUT/"
+        shopt -s nullglob
+        grep -vE '^\s*(#|$)' scripts/site-outputs.txt | while read -r pattern; do
+          for p in $pattern; do mkdir -p "$OUT/$(dirname "$p")"; rsync -a "$p" "$OUT/$(dirname "$p")/"; done
+        done
+        mv "$RUNNER_TEMP/site/.git" "$OUT/.git"
+        cd "$OUT"
+        # --force: the tree carries main's .gitignore, which ignores every generated
+        # output; without it the site commit would silently drop all of them.
+        git add -A --force
+        git -c user.email=alex@0xhodler.nl -c user.name=alex0xhodler commit -q --allow-empty \
+          -m "site build $(date -u +%FT%TZ) from defi_garden@${GITHUB_SHA::8}"
+        echo "Files: $(git ls-files | wc -l) · changed vs live: $(git diff --name-only HEAD~1 | wc -l)"
+
+    - name: Gate — deployable file set + link integrity
+      # Runs against the exact tree Vercel will serve. A red gate means nothing ships.
+      run: node "$RUNNER_TEMP/out/test_vercelignore.js"
+
+    - name: Publish to site repo (Vercel production deploys from it)
+      # Force-push a single parentless commit: the site repo never accumulates
+      # history, so it cannot grow the way this repo did.
+      run: |
+        export GIT_SSH_COMMAND="ssh -i ~/.ssh/site_deploy -o IdentitiesOnly=yes -o StrictHostKeyChecking=accept-new"
+        cd "$RUNNER_TEMP/out"
+        if git diff --quiet HEAD~1 HEAD; then echo "✅ Site unchanged — nothing to publish"; echo "PUBLISHED=0" >> $GITHUB_ENV; exit 0; fi
+        ORPHAN=$(git commit-tree "HEAD^{tree}" -m "$(git log -1 --format=%s)")
+        git push --force origin "$ORPHAN:refs/heads/main"
+        echo "PUBLISHED=1" >> $GITHUB_ENV
+        echo "✅ Published $ORPHAN"
+
+    - name: Wait for production to serve this build
+      if: env.PUBLISHED == '1'
+      run: |
+        want=$(jq -r .generatedAt data/pools-snapshot-meta.json)
+        for i in $(seq 1 40); do
+          live=$(curl -fsS "https://www.defi.garden/data/pools-snapshot-meta.json?cb=$RANDOM" | jq -r .generatedAt || true)
+          if [ "$live" = "$want" ]; then echo "✅ Live (generatedAt=$live)"; exit 0; fi
+          echo "waiting for deploy ($i/40): live=$live want=$want"; sleep 15
+        done
+        echo "❌ Production did not pick up this build within 10 min"; exit 1
+
+    - name: Post-deploy MCP smoke (Production)
+      if: env.PUBLISHED == '1'
+      env:
+        SMOKE_ALLOW_PROTECTED: '0'
+      run: |
+        for attempt in 1 2 3; do
+          if node test_mcp_post_deploy_smoke.js "https://www.defi.garden"; then exit 0; fi
+          echo "attempt $attempt failed; retrying"; sleep 30
+        done
         exit 1
-    
+
     # NOTE: The old Google and Bing sitemap-ping HTTP endpoints were deprecated
     # in 2023/2022 and now return 404/410 — they no longer accept sitemap
     # notifications. Both point site owners to IndexNow, which the next step
@@ -269,7 +284,9 @@ jobs:
     # nothing — a misleading green in the CI log.
 
     - name: Ping IndexNow
-      if: steps.verify-changed-files.outputs.changed == 'true'
+      # Now runs only once the new build is actually live (it used to fire before
+      # Vercel had finished deploying the pushed commit).
+      if: env.PUBLISHED == '1'
       run: |
         echo "⚡ Submitting changed URLs to IndexNow (Bing + Yandex)..."
         node indexnow-ping.js || echo "IndexNow submission failed"

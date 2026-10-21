@@ -69,14 +69,14 @@ The neumorphic skin and the legacy google-mimic analytics chrome are both GONE (
 
 - Serve: `python3 -m http.server 8000` (any static server) or `node dev-server.js` (proxies `/api/laso` to `laso.finance` for partner testing). No tests/lint pipeline; verification is Playwright-based E2E + critical screenshot review (a working Playwright install is typically at `/tmp/neuro-shots`).
 - Verify both router paths after ANY change near `index.html`: bare `/` → planner, `/?token=USDC` → analytics app with pool cards.
-- **Committed static assets**: `tokens/*.html` and `ko/tokens/*.html` (~4,550 static files) and `for/*.html` are committed static files served directly by the web server. Updating `generate-token-pages.js` or `generate-for-pages.js` alone does NOT update the static files on disk. Always batch-regenerate and commit the static HTML files whenever templates, CTAs, or card layouts change.
+- **Generated static pages are NOT committed here** (since 2026-10-21). Everything listed in `scripts/site-outputs.txt` (`tokens/`, `chains/`, `pools/`, `ko/`, `pt/`, `es/`, `og/`, generated `data/*` snapshots, `sitemap*.xml`, `llms*.txt`, `forecast-accuracy.html`) is gitignored, rebuilt by the `Build & Publish Site` workflow on every push to main and daily, and published to `alex0xhodler/defi_garden-site`, which is what Vercel serves. To change those pages, change the `generate-*.js` script and push — never commit generated output (that is what grew this repo's history to 18 GB). For local dev/tests run `scripts/restore-site-outputs.sh` to pull the current published outputs. `for/*.html` and `stories/` are still committed by hand.
 - **Compilation step**: Any edit to `PoolDetail.js` or `pool-detail-styles.css` requires running `npm run compile && npm run minify` before committing; `home.html` loads the `.compiled.min.js` and `.min.css` bundles.
 - After changing presets/personas, re-run `node generate-stories.js` and commit regenerated `stories/`.
 - Sandbox note: external font/analytics fetches fail locally (ignorable); page errors are not.
 
 ## Deployment
 
-Static hosting (no server rewrites assumed). The sitemap suite + `stories/` + `plan.html` are SEO surface — regenerate via the `generate-*.js` scripts, don't hand-edit.
+Static hosting (no server rewrites assumed). Vercel production deploys from `alex0xhodler/defi_garden-site` (a single force-pushed commit = this repo's tracked files + the generated outputs), NOT from this repo — a push to main reaches production only through the `Build & Publish Site` workflow. The sitemap suite + `stories/` + `plan.html` are SEO surface — regenerate via the `generate-*.js` scripts, don't hand-edit.
 
 ## Outcome loop (added 2026-07-09)
 

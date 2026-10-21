@@ -169,9 +169,14 @@ test('isExcluded(): a file matches if ANY compiled pattern matches it', () => {
    1. Enumerate the real deployable file set, classify KEPT vs EXCLUDED.
    =========================================================================== */
 
+// Generated outputs (scripts/site-outputs.txt) are gitignored on main and only
+// tracked in the published site repo, so the deployable set is tracked files PLUS
+// untracked-but-present files. In CI this runs against the assembled site tree
+// (everything tracked); locally run scripts/restore-site-outputs.sh first.
+const NOT_DEPLOYED_RE = /^(node_modules|\.vercel|\.git)\/|(^|\/)\.env($|\.)/;
 function gitLsFiles() {
-  const out = execFileSync('git', ['ls-files', '-z'], { cwd: ROOT, encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 });
-  return out.split('\0').filter(Boolean);
+  const out = execFileSync('git', ['ls-files', '-z', '--cached', '--others'], { cwd: ROOT, encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 });
+  return [...new Set(out.split('\0').filter(Boolean))].filter(f => !NOT_DEPLOYED_RE.test(f));
 }
 
 const vercelignoreText = fs.readFileSync(VERCELIGNORE_PATH, 'utf8');
@@ -241,6 +246,25 @@ test('(c) non-vacuity: at least one spotlight pack.json is tracked — an empty 
     `spotlight pack.json (${spotlightPackFiles.length}) and card.png (${spotlightCardFiles.length}) counts must match — every committed pack ships both`);
 });
 
+// data/history/<date>.json and pools/<uuid>.{md,json} churn BY DESIGN too:
+// compute-kpis keeps a rolling 30-day history window and the per-pool twins
+// follow the live pool set, so the hardcoded 'data/history/2026-08-04.json' /
+// 'pools/0004a5d4-…' samples went stale and turned this gate red for a reason
+// unrelated to .vercelignore. Same fix as spotlights above: derive the sample
+// from ALL_FILES, with a non-vacuity guard.
+const historySample = ALL_FILES.filter((f) => /^data\/history\/\d{4}-\d{2}-\d{2}\.json$/.test(f)).sort().pop();
+const poolTwinSample = ALL_FILES
+  .filter((f) => /^pools\/[0-9a-f-]{36}\.md$/.test(f))
+  .sort()
+  .find((f) => ALL_FILES_SET.has(f.replace(/\.md$/, '.json')));
+const POOL_TWIN_MD = poolTwinSample || 'pools/<no-uuid-twin-found>.md';
+const POOL_TWIN_JSON = POOL_TWIN_MD.replace(/\.md$/, '.json');
+
+test('(c) non-vacuity: a data/history day file and a pools/<uuid> .md+.json twin are present', () => {
+  assert.ok(historySample, 'expected >=1 data/history/<date>.json — none found (outputs not restored? run scripts/restore-site-outputs.sh)');
+  assert.ok(poolTwinSample, 'expected >=1 pools/<uuid>.md with a .json sibling — none found (outputs not restored? run scripts/restore-site-outputs.sh)');
+});
+
 const MUST_KEEP = [
   // App shell / router.
   'home.html', 'plan.html',
@@ -273,7 +297,7 @@ const MUST_KEEP = [
   'og-yield-card.png',
   // Runtime data (fetched client-side — app.js:1253-class paths).
   'data/pools-snapshot.json', 'data/pools-snapshot-meta.json', 'data/protocol-urls.json',
-  'data/history/2026-08-04.json',
+  ...(historySample ? [historySample] : []),
   'data/pools/chain/ethereum.json', 'data/pools/token/usdc.json',
   // Fonts.
   'fonts/FKGroteskNeue.woff2',
@@ -296,8 +320,8 @@ const MUST_KEEP = [
   'pools/lido-steth-ethereum.html', 'pools/index.html',
   'ko/pools/lido-steth-ethereum.html', 'ko/pools/index.html',
   // pools — the item-212 per-pool .md twin + its .json sibling.
-  'pools/0004a5d4-ce6d-43ba-ab8a-64ff555b3853.json',
-  'pools/0004a5d4-ce6d-43ba-ab8a-64ff555b3853.md',
+  POOL_TWIN_JSON,
+  POOL_TWIN_MD,
   // .well-known — the whole agent-discovery surface, INCLUDING non-JSON
   // files (agent-skills/index.json links a .md; a blanket "*.md" or
   // extension-based exclude would break this).
@@ -523,20 +547,20 @@ console.log('\n(f) self-defeat: in-memory mutated pattern set must flag app.js/p
 
 test('(f) self-defeat: real .vercelignore keeps app.js and a pools/ sample (sanity before mutating)', () => {
   assert.ok(KEPT_SET.has('app.js'), 'sanity: app.js must be KEPT under the real .vercelignore');
-  assert.ok(KEPT_SET.has('pools/0004a5d4-ce6d-43ba-ab8a-64ff555b3853.md'), 'sanity: the pools/ sample must be KEPT under the real .vercelignore');
+  assert.ok(KEPT_SET.has(POOL_TWIN_MD), 'sanity: the pools/ sample must be KEPT under the real .vercelignore');
 });
 
 test('(f) self-defeat: mutated pattern set (adds "/app.js" and "/pools/") DOES flag them excluded', () => {
   const mutatedPatterns = parseVercelignore(vercelignoreText + '\n/app.js\n/pools/\n');
   assert.strictEqual(isExcluded('app.js', mutatedPatterns), true, 'a check that cannot go red is not evidence it works');
-  assert.strictEqual(isExcluded('pools/0004a5d4-ce6d-43ba-ab8a-64ff555b3853.md', mutatedPatterns), true);
-  assert.strictEqual(isExcluded('pools/0004a5d4-ce6d-43ba-ab8a-64ff555b3853.json', mutatedPatterns), true);
+  assert.strictEqual(isExcluded(POOL_TWIN_MD, mutatedPatterns), true);
+  assert.strictEqual(isExcluded(POOL_TWIN_JSON, mutatedPatterns), true);
 });
 
 test('(f) self-defeat restore proof: the REAL (unmutated) pattern set, re-derived fresh from disk, is unaffected by the in-memory mutation above', () => {
   const freshPatterns = parseVercelignore(fs.readFileSync(VERCELIGNORE_PATH, 'utf8'));
   assert.strictEqual(isExcluded('app.js', freshPatterns), false);
-  assert.strictEqual(isExcluded('pools/0004a5d4-ce6d-43ba-ab8a-64ff555b3853.md', freshPatterns), false);
+  assert.strictEqual(isExcluded(POOL_TWIN_MD, freshPatterns), false);
 });
 
 /* ===========================================================================
