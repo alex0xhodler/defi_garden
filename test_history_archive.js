@@ -210,6 +210,48 @@ io.commitMonths(order, oldM, [mkMonth('2026-12', [R(T('2026-12-02T00:00:00Z'), '
 eq(puts[puts.length - 1], 'manifest.json', 'manifest is the LAST put');
 deep(puts, ['raw/2026-12.ndjson.gz', 'daily/2026-12.ndjson.gz', 'manifest.json'], 'month files then manifest');
 
+// --- integrity guards ------------------------------------------------------------------
+const ansiErr = (m) => { const e = new Error('failed'); e.stderr = `\u001b[31m✘ \u001b[41;31m[ERROR]\u001b[49m\u001b[39m \u001b[1m${m}\u001b[22m\n`; return e; };
+const r2g = io.r2Wrangler('bkt', { run: (cmd, argv) => { throw ansiErr(argv.includes('bkt/nf') ? 'The specified key does not exist.' : argv.includes('bkt/cmd') ? 'npx: command not found' : 'The specified bucket does not exist.'); } });
+eq(r2g.get('nf'), null, 'exact "key does not exist" (ANSI-wrapped) -> null');
+throws(() => r2g.get('cmd'), /failed/);
+throws(() => r2g.get('bucket'), /failed/);   // bucket error must NOT be read as an empty object
+const cmdNotFound = io.r2Wrangler('bkt', { run: () => { const e = new Error('spawn npx ENOENT'); e.code = 'ENOENT'; throw e; } });
+throws(() => cmdNotFound.get('x'), /ENOENT/);
+const gdir = path.join(tmp, 'guard'); const gstore = io.localDir(gdir);
+io.commitMonths(gstore, core.emptyManifest(), [mkMonth('2026-10', [R(D0, 'a', 1)])], { watermark: { samples_ts: 5 } });
+const gman = io.loadManifest(gstore);
+ok(io.buildMonth(gstore, gman, '2026-10', [R(D0 + 1, 'a', 2)]).raw.rows === 2, 'verified month rebuilds');
+ok(io.buildMonth(gstore, gman, '2026-11', [R(T('2026-11-02T00:00:00Z'), 'a', 2)]).raw.rows === 1, 'month absent from manifest starts empty');
+const gbytes = (k) => gstore.get(k);
+const gSnapshot = ['manifest.json', 'raw/2026-10.ndjson.gz', 'daily/2026-10.ndjson.gz'].map(gbytes);
+const gcount = { puts: 0 };
+const spy = { name: 's', get: (k) => gstore.get(k), put() { gcount.puts++; } };
+fs.renameSync(path.join(gdir, 'raw/2026-10.ndjson.gz'), path.join(gdir, 'raw-moved'));
+throws(() => io.buildMonth(spy, gman, '2026-10', []), /raw\/2026-10\.ndjson\.gz missing or does not match manifest; refusing to rebuild/);
+fs.renameSync(path.join(gdir, 'raw-moved'), path.join(gdir, 'raw/2026-10.ndjson.gz'));
+fs.renameSync(path.join(gdir, 'daily/2026-10.ndjson.gz'), path.join(gdir, 'daily-moved'));
+throws(() => io.buildMonth(spy, gman, '2026-10', []), /daily\/2026-10\.ndjson\.gz missing or does not match manifest/);
+fs.renameSync(path.join(gdir, 'daily-moved'), path.join(gdir, 'daily/2026-10.ndjson.gz'));
+fs.writeFileSync(path.join(gdir, 'raw/2026-10.ndjson.gz'), core.serializeNdjsonGz([R(D0, 'a', 1), R(D0 + 5, 'x', 1)]));   // valid gzip, wrong sha
+throws(() => io.buildMonth(spy, gman, '2026-10', []), /does not match manifest; refusing to rebuild/);
+fs.writeFileSync(path.join(gdir, 'raw/2026-10.ndjson.gz'), gSnapshot[1]);
+fs.writeFileSync(path.join(gdir, 'raw/2026-12.ndjson.gz'), 'orphan');
+throws(() => io.buildMonth(spy, gman, '2026-12', []), /orphan/);
+fs.rmSync(path.join(gdir, 'raw/2026-12.ndjson.gz'));
+eq(gcount.puts, 0, 'nothing uploaded by any refused rebuild');
+ok(gbytes('manifest.json').equals(gSnapshot[0]), 'manifest untouched');
+// CLI: a manifest month whose file vanished -> exit 1, nothing uploaded, manifest untouched
+const wj = (name, obj) => { const f = path.join(tmp, name); fs.writeFileSync(f, JSON.stringify(obj)); return f; };
+const runNode0 = (script, args) => spawnSync(process.execPath, [path.join(__dirname, 'scripts', script), ...args], { encoding: 'utf8', env: { ...process.env, GITHUB_STEP_SUMMARY: '' } });
+const gcli = ['--store', 'local:' + gdir, '--samples-fixture', wj('g.json', [{ ts: S0_G(), pool_id: 'q', apy: 1, tvl_usd: 1 }]), '--snapshot-fixture', wj('gs.json', {})];
+function S0_G() { return T('2026-10-05T00:00:00Z'); }
+fs.rmSync(path.join(gdir, 'daily/2026-10.ndjson.gz'));
+const gr = runNode0('history-archive.js', gcli);
+eq(gr.status, 1, 'archive CLI refuses when a manifest file is missing');
+ok(/refusing to rebuild/.test(gr.stderr), gr.stderr);
+ok(gbytes('manifest.json').equals(gSnapshot[0]), 'manifest still untouched after CLI refusal');
+
 // --- archive CLI end to end -------------------------------------------------------------
 const bin = path.join(tmp, 'bin'); fs.mkdirSync(bin);
 const marker = path.join(tmp, 'npx-called');
@@ -226,10 +268,15 @@ const samplesF = w('samples.json', [
 const snapF = w('snap.json', { generatedAt: '2026-11-01T07:00:00.000Z', pools: [{ pool: 'a', tvlUsd: 1e6, apyBase: 2, apyReward: 1 }, { pool: 'c', tvlUsd: 5e5, apyBase: 7 }] });
 const storeDir = path.join(tmp, 'store');
 const cli = ['--store', 'local:' + storeDir, '--samples-fixture', samplesF, '--snapshot-fixture', snapF];
-const dry = runNode('history-archive.js', [...cli, '--dry-run']);
+const noInit = runNode('history-archive.js', cli);
+eq(noInit.status, 1, 'missing manifest without --init -> exit 1');
+ok(/no manifest: run the backfill with --init first/.test(noInit.stderr), 'clear message: ' + noInit.stderr);
+ok(!fs.existsSync(storeDir), 'nothing written without --init');
+const INIT = ['--init'];
+const dry = runNode('history-archive.js', [...cli, ...INIT, '--dry-run']);
 eq(dry.status, 0, 'dry-run exit 0: ' + dry.stderr);
 ok(!fs.existsSync(storeDir), 'dry-run writes nothing');
-const run1 = runNode('history-archive.js', cli);
+const run1 = runNode('history-archive.js', [...cli, ...INIT]);
 eq(run1.status, 0, 'run 1 exit 0: ' + run1.stderr);
 ok(/newSamples=4 ciPoints=2 months=2026-10,2026-11 uploadedFiles=4 .*manifest=written trimmed=skipped/.test(run1.stdout), 'summary: ' + run1.stdout);
 const st = io.localDir(storeDir);
@@ -263,7 +310,7 @@ ok(st.get('raw/2026-10.ndjson.gz').equals(before[1]), 'untouched month file unch
 const badStore = path.join(tmp, 'bad');
 fs.mkdirSync(badStore); fs.mkdirSync(path.join(badStore, 'raw'));
 fs.writeFileSync(path.join(badStore, 'raw', '2026-10.ndjson.gz'), 'not gzip');
-const run4 = runNode('history-archive.js', ['--store', 'local:' + badStore, '--samples-fixture', samplesF, '--snapshot-fixture', snapF]);
+const run4 = runNode('history-archive.js', ['--init', '--store', 'local:' + badStore, '--samples-fixture', samplesF, '--snapshot-fixture', snapF]);
 eq(run4.status, 1, 'corrupt existing month -> exit 1');
 ok(!fs.existsSync(path.join(badStore, 'manifest.json')), 'no manifest written on failure');
 eq(runNode('history-archive.js', ['--bogus']).status, 1, 'unknown arg -> exit 1');
@@ -294,7 +341,9 @@ const T1 = T('2026-10-01T10:00:00Z');
 const legacyF = path.join(tmp, 'legacy.sql');
 fs.writeFileSync(legacyF, `INSERT INTO "pool_history" VALUES('a',${T1},2.5,150);\nINSERT INTO "pool_history" VALUES('a',${T1 + 3600},3.5,160),('l',${T1},1,1);\n`);
 const bstore = path.join(tmp, 'bstore');
-const bargs = ['--repo', repo, '--store', 'local:' + bstore, '--legacy-sql', legacyF];
+const bargs = ['--repo', repo, '--store', 'local:' + bstore, '--legacy-sql', legacyF, '--init'];
+eq(runNode('history-backfill.js', bargs.slice(0, -1)).status, 1, 'backfill without --init and no manifest -> exit 1');
+ok(!fs.existsSync(bstore), 'nothing written');
 const bdry = runNode('history-backfill.js', [...bargs, '--dry-run']);
 eq(bdry.status, 0, 'backfill dry-run: ' + bdry.stderr);
 ok(!fs.existsSync(bstore), 'backfill dry-run writes nothing');
@@ -330,7 +379,7 @@ eq(archiveAfter.status, 0, 'archive after backfill: ' + archiveAfter.stderr);
 ok(bst.get('daily/2026-09.ndjson.gz').equals(bBefore[3]), 'archive job leaves git_history daily rows alone');
 // since/until filters
 const bstore2 = path.join(tmp, 'bstore2');
-const bf = runNode('history-backfill.js', ['--repo', repo, '--store', 'local:' + bstore2, '--since', '2026-10-02', '--until', '2026-10-02']);
+const bf = runNode('history-backfill.js', ['--init', '--repo', repo, '--store', 'local:' + bstore2, '--since', '2026-10-02', '--until', '2026-10-02']);
 ok(/git_snapshot=1 points \(1 versions, 0 skipped\) git_history=0 entries legacy_hourly=0/.test(bf.stdout), '--since/--until filter: ' + bf.stdout + bf.stderr);
 eq(runNode('history-backfill.js', ['--since', 'yesterday']).status, 1, 'bad date -> exit 1');
 ok(!fs.existsSync(marker), 'no wrangler/npx call anywhere in the CLI tests');

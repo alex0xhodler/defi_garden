@@ -10,6 +10,8 @@
  *
  * Usage: node scripts/history-backfill.js [--repo <path>] [--legacy-sql <file>]
  *          [--store local:<dir>|r2] [--dry-run] [--since YYYY-MM-DD] [--until YYYY-MM-DD]
+ *   --init  allow a missing manifest.json (first run on an empty store ONLY; without it a missing
+ *           manifest is treated as a failed read and the job exits 1). The workflow never passes it.
  */
 'use strict';
 
@@ -24,13 +26,14 @@ const HISTORY_DIR = 'data/history/';
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 
 function parseArgs(argv) {
-  const args = { repo: process.cwd(), legacySql: null, store: 'r2', dryRun: false, since: null, until: null };
+  const args = { repo: process.cwd(), legacySql: null, store: 'r2', init: false, dryRun: false, since: null, until: null };
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if (a === '--repo') args.repo = argv[++i];
     else if (a === '--legacy-sql') args.legacySql = argv[++i];
     else if (a === '--store') args.store = argv[++i];
     else if (a === '--dry-run') args.dryRun = true;
+    else if (a === '--init') args.init = true;
     else if (a === '--since') args.since = argv[++i];
     else if (a === '--until') args.until = argv[++i];
     else throw new Error(`unknown argument: ${a}`);
@@ -49,7 +52,7 @@ const gitShowJson = (repo, spec) => JSON.parse(git(repo, ['show', spec]));
 function main() {
   const args = parseArgs(process.argv.slice(2));
   const store = io.openStore(args.store);
-  const manifest = io.loadManifest(store);
+  const manifest = io.loadManifest(store, { init: args.init });
   const byMonth = new Map();          // month -> raw points
   const histByMonth = new Map();      // month -> git_history entries
   const counts = { git_snapshot: 0, git_history: 0, legacy_hourly: 0, snapshotVersions: 0, snapshotVersionsSkipped: 0, legacySkipped: 0 };
@@ -112,7 +115,7 @@ function main() {
   // 4. merge with the store, rollup, upload, verify, manifest
   const monthKeys = Array.from(new Set([...byMonth.keys(), ...histByMonth.keys()])).sort();
   const months = monthKeys.map((m) => {
-    const built = io.buildMonth(store, m, byMonth.get(m) || [], histByMonth.get(m) || []);
+    const built = io.buildMonth(store, manifest, m, byMonth.get(m) || [], histByMonth.get(m) || []);
     byMonth.delete(m); histByMonth.delete(m);
     return built;
   });

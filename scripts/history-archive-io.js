@@ -41,7 +41,9 @@ function localDir(dir) {
   };
 }
 
-const NOT_FOUND = /does not exist|not found|10007|NoSuchKey/i;
+// wrangler 4.151.3 prints exactly this for a missing key (ANSI-coloured). Anything else is a real error.
+const NOT_FOUND = /The specified key does not exist\./;
+const stripAnsi = (t) => String(t).replace(/\u001b\[[0-9;]*[A-Za-z]/g, '');
 const contentType = (key) => (key.endsWith('.json') ? 'application/json' : 'application/gzip');
 
 /** R2 through wrangler (auth from CLOUDFLARE_API_TOKEN / CLOUDFLARE_ACCOUNT_ID). `run` is injectable for tests. */
@@ -54,8 +56,7 @@ function r2Wrangler(bucket = BUCKET, { run = execFileSync, attempts = 3 } = {}) 
         return npx(['get', `${bucket}/${key}`, '--remote', '--pipe'],
           { stdio: ['ignore', 'pipe', 'pipe'], maxBuffer: 1024 * 1024 * 1024 });
       } catch (err) {
-        const msg = `${err.stderr || ''} ${err.stdout || ''} ${err.message || ''}`;
-        if (NOT_FOUND.test(msg)) return null;
+        if (NOT_FOUND.test(stripAnsi(err.stderr || ''))) return null;
         throw err;
       }
     },
@@ -83,9 +84,13 @@ function openStore(spec) {
   throw new Error(`history-archive: --store must be "r2" or "local:<dir>", got ${spec}`);
 }
 
-function loadManifest(store) {
+/** A missing manifest is only legitimate for the very first run (`init`); otherwise it means a bad read. */
+function loadManifest(store, { init = false } = {}) {
   const buf = store.get(MANIFEST_KEY);
-  if (!buf) return core.emptyManifest();
+  if (!buf) {
+    if (init) return core.emptyManifest();
+    throw new Error('no manifest: run the backfill with --init first');
+  }
   const m = JSON.parse(buf.toString('utf8'));
   if (!m || m.schemaVersion !== core.MANIFEST_SCHEMA_VERSION) throw new Error('history-archive: unsupported manifest schemaVersion');
   return { ...core.emptyManifest(), ...m, watermark: { ...core.emptyManifest().watermark, ...m.watermark }, months: m.months || {} };
@@ -161,9 +166,18 @@ function commitMonths(store, manifest, months, { watermark = {}, now = new Date(
 }
 
 /** Load a month, merge incoming raw points and rebuild its daily file. Pure aside from store.get. */
-function buildMonth(store, month, incomingRaw, extraHistory = []) {
+function buildMonth(store, manifest, month, incomingRaw, extraHistory = []) {
   const oldRawBuf = store.get(rawKey(month));
   const oldDailyBuf = store.get(dailyKey(month));
+  // Integrity guard: never rebuild from (and so overwrite) data that is missing or differs from the manifest.
+  const known = manifest.months[month];
+  [['raw', rawKey(month), oldRawBuf], ['daily', dailyKey(month), oldDailyBuf]].forEach(([kind, key, buf]) => {
+    if (known) {
+      if (!buf || core.sha256(buf) !== known[kind].sha256) throw new Error(`history-archive: ${key} missing or does not match manifest; refusing to rebuild`);
+    } else if (buf) {
+      throw new Error(`history-archive: ${key} exists but month ${month} is not in the manifest (orphan); needs a human`);
+    }
+  });
   const merged = core.mergeRaw(core.parseNdjsonGz(oldRawBuf), incomingRaw);
   const oldDaily = core.parseNdjsonGz(oldDailyBuf);
   const history = core.gitHistoryFromDaily(oldDaily).concat(extraHistory);

@@ -8,6 +8,8 @@
  *
  * Usage: node scripts/history-archive.js [--dry-run] [--store local:<dir>|r2]
  *          [--samples-fixture <json>] [--snapshot-fixture <json>] [--no-trim]
+ *   --init  allow a missing manifest.json (first run on an empty store ONLY; without it a missing
+ *           manifest is treated as a failed read and the job exits 1). The workflow never passes it.
  *   A --samples-fixture replaces the D1 read and also disables the trim (no D1 is touched).
  * Auth comes from CLOUDFLARE_API_TOKEN / CLOUDFLARE_ACCOUNT_ID; nothing secret is printed.
  */
@@ -23,10 +25,11 @@ const TIMEOUT_MS = 120000;
 const PAGE_SIZE = 5000;
 
 function parseArgs(argv) {
-  const args = { dryRun: false, store: 'r2', samplesFixture: null, snapshotFixture: null, trim: true };
+  const args = { init: false, dryRun: false, store: 'r2', samplesFixture: null, snapshotFixture: null, trim: true };
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if (a === '--dry-run') args.dryRun = true;
+    else if (a === '--init') args.init = true;
     else if (a === '--store') args.store = argv[++i];
     else if (a === '--samples-fixture') args.samplesFixture = argv[++i];
     else if (a === '--snapshot-fixture') args.snapshotFixture = argv[++i];
@@ -90,7 +93,7 @@ async function loadCiSnapshot(args, wm) {
 async function main() {
   const args = parseArgs(process.argv.slice(2));
   const store = io.openStore(args.store);
-  const manifest = io.loadManifest(store);
+  const manifest = io.loadManifest(store, { init: args.init });
   const wm = manifest.watermark;
 
   const samples = loadSamples(args, wm);
@@ -104,7 +107,7 @@ async function main() {
     byMonth.get(m).push(p);
   });
 
-  const months = Array.from(byMonth.keys()).sort().map((m) => io.buildMonth(store, m, byMonth.get(m)));
+  const months = Array.from(byMonth.keys()).sort().map((m) => io.buildMonth(store, manifest, m, byMonth.get(m)));
   const patch = {};
   if (samples.last) { patch.samples_ts = samples.last.ts; patch.samples_pool_id = samples.last.pool_id; }
   if (ci.generatedAt) patch.ci_snapshot_generatedAt = ci.generatedAt;
