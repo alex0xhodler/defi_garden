@@ -342,10 +342,15 @@ test('renders a visible "Last updated <date>" line', () => {
   const dated = gen.renderTokenPage(bySym['BIG'], [], '2026-07-12');
   assert.ok(dated.includes('Last updated 2026-07-12'), 'missing visible "Last updated" line');
 });
-test('visible "Last updated" date is byte-for-byte identical to Dataset.dateModified', () => {
+test('visible "Last updated" date equals Dataset.dateModified when given ISO', () => {
   const dated = gen.renderTokenPage(bySym['BIG'], [], '2026-07-12');
   const dateModified = extractLdJsonBlocks(dated, 'Dataset')[0].dateModified;
   assert.ok(dated.includes(`Last updated ${dateModified}`), 'visible date and Dataset.dateModified must match byte-for-byte');
+});
+test('human-readable visible date stays human; dateModified is its ISO 8601 form', () => {
+  const human = gen.renderTokenPage(bySym['BIG'], [], 'October 22, 2026');
+  assert.ok(human.includes('Last updated October 22, 2026'), 'visible date must stay human-readable');
+  assert.strictEqual(extractLdJsonBlocks(human, 'Dataset')[0].dateModified, '2026-10-22');
 });
 test('default (no generatedDate passed) still renders a "Last updated" line', () => {
   assert.ok(/Last updated .+/.test(html), 'default-dated page missing visible "Last updated" line');
@@ -412,15 +417,24 @@ test('related nav omitted when there are no related tokens', () => {
 });
 
 console.log('021 — token sitemap (renderTokenSitemap)');
+const allowAll = { en: new Set(ranked.map(r => r.slug)), ko: new Set(ranked.map(r => r.slug)) };
+test('thin, non-allowlisted tokens are NOT listed in the sitemap (same decision as the robots meta)', () => {
+  const thin = ranked.filter(r => r.qualifyingCount < gen.NOINDEX_POOL_THRESHOLD);
+  assert.ok(thin.length > 0);
+  const xml = gen.renderTokenSitemap(ranked, '2026-07-11', [], 'en', { allowlist: { en: new Set(), ko: new Set() } });
+  thin.forEach(r => assert.ok(!xml.includes('/tokens/' + r.slug + '</loc>'), r.slug + ' listed'));
+});
 test('emits a valid urlset with one <loc> per ranked token', () => {
-  const xml = gen.renderTokenSitemap(ranked, '2026-07-11');
+  // renderTokenSitemap lists only INDEXABLE pages; the fixture tokens are thin
+  // (<3 pools), so exempt them all via an explicit allowlist (the D1 exemption).
+  const xml = gen.renderTokenSitemap(ranked, '2026-07-11', [], 'en', { allowlist: allowAll });
   assert.ok(xml.startsWith('<?xml'), 'missing xml decl');
   assert.ok(xml.includes('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'), 'missing urlset');
   const locs = (xml.match(/<loc>/g) || []).length;
   assert.strictEqual(locs, ranked.length, 'one loc per token');
 });
 test('sitemap URLs point at the static /tokens/<slug> pages', () => {
-  const xml = gen.renderTokenSitemap(ranked, '2026-07-11');
+  const xml = gen.renderTokenSitemap(ranked, '2026-07-11', [], 'en', { allowlist: allowAll });
   assert.ok(xml.includes('<loc>https://www.defi.garden/tokens/big</loc>'), 'missing token URL');
   assert.ok(xml.includes('<lastmod>2026-07-11</lastmod>'), 'missing lastmod');
 });

@@ -48,6 +48,7 @@ const {
   isQualifyingPool, poolTotalApy, formatUsd, formatApy, escapeHtml,
   renderAnalyticsBootstrap, renderHubStyleBlock, renderFontPreloadLinks, tokenSlug: chainSlug,
   poolHrefFor, poolRelAttr, withSrc, renderItemListJsonLd, renderDatasetJsonLd,
+  TABLE_VARIABLES_MEASURED, markdownDistributionFor,
   buildAnswerAndFaq, renderAnswerBlockHtml, renderFaqBlockHtml, renderFaqJsonLd,
   todayGeneratedDate, renderLastUpdatedHtml, renderHreflangLinks,
   renderLanguageSwitcher, renderLangSwitchStyle, renderSitemapAlternates, neutralPathOfLoc,
@@ -216,7 +217,12 @@ function renderChainPage(rec, related, generatedDate, tokenLinks, lang, ogImageP
     t('tcpDatasetChainName', rec.chain),
     t('tcpDatasetChainDescription', rec.chain, floorStr),
     pageUrl,
-    genDate
+    genDate,
+    {
+      variableMeasured: TABLE_VARIABLES_MEASURED,
+      keywords: [rec.chain, 'DeFi yield', 'APY', 'TVL'],
+      distribution: markdownDistributionFor(pageUrl, language)
+    }
   );
 
   // Direct-answer + FAQ (047, GEO/AEO): built from the SAME gated `rec` the

@@ -21,6 +21,7 @@ const https = require('https');
 // this ONE shared formatter, instead of hand-typing a copy of the number.
 // Never a second `formatTvlFloor` here.
 const { formatTvlFloor } = require('./trust-rails.js');
+const { toIsoDate } = require('./generate-token-pages.js');
 
 // Canonical site URL — matches plan.html / index.html canonicals
 const SITE_URL = 'https://www.defi.garden';
@@ -369,7 +370,8 @@ function renderStatCard(label, valueHtml, note) {
 }
 
 function renderStoryPage(persona, plan) {
-  const pageUrl = `${SITE_URL}/stories/${persona.slug}.html`;
+  // Extensionless: vercel.json cleanUrls 308-redirects /stories/<slug>.html here.
+  const pageUrl = `${SITE_URL}/stories/${persona.slug}`;
   const p = persona;
   const monthlyFmt = formatUsd(p.monthly);
   const depositedFmt = formatUsd(plan.deposited);
@@ -400,9 +402,9 @@ function renderStoryPage(persona, plan) {
       }))
     }).replace(/</g, '\\u003c')}</script>` : '';
 
-  // WebPage JSON-LD (048, freshness signal): dateModified is the SAME
-  // plan.generatedDate string rendered visibly in the footer below — must
-  // byte-for-byte match (Google's must-match-visible-content rule). Emitted
+  // WebPage JSON-LD (048, freshness signal): dateModified is the ISO 8601
+  // form of the SAME plan.generatedDate rendered (human-readable) in the
+  // footer below — same day, schema.org-valid format. Emitted
   // for every persona (unlike faqJsonLd, kevin-only) so all 3 story pages
   // carry a freshness signal.
   const webPageJsonLd = `
@@ -411,7 +413,7 @@ function renderStoryPage(persona, plan) {
       '@type': 'WebPage',
       url: pageUrl,
       name: p.seoTitle,
-      dateModified: plan.generatedDate
+      dateModified: toIsoDate(plan.generatedDate) || plan.generatedDate
     }).replace(/</g, '\\u003c')}</script>`;
 
   const faqHtml = p.faq ? `

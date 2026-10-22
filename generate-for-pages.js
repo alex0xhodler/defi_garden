@@ -432,6 +432,7 @@ function generateHtml(sub) {
         "@id": "https://www.defi.garden/for/${sub.slug}#product",
         "name": "${sub.name} Perpetual Yield Vault",
         "description": "${sub.metaDesc}",
+        "image": "https://www.defi.garden/og-image.png",
         "category": "${sub.category}",
         "offers": {
           "@type": "Offer",
