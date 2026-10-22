@@ -1,0 +1,30 @@
+name: 'TMP verify Cloudflare token'
+on:
+  push:
+    branches: [ tmp/verify-cf-token ]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - name: D1 reachable (metadata + zero-row query)
+        run: |
+          npx -y wrangler@4.151.3 d1 info defi-garden-history | grep -E "name|database_size"
+          npx -y wrangler@4.151.3 d1 execute defi-garden-history --remote --command "SELECT 1 AS ok" --json | jq -c '.[0]|{success, results}'
+      - name: R2 put / get / delete probe
+        run: |
+          echo "probe $(date -u +%FT%TZ)" > probe.txt
+          npx -y wrangler@4.151.3 r2 object put defi-garden-history-archive/_probe/ci.txt --file probe.txt --remote
+          npx -y wrangler@4.151.3 r2 object get defi-garden-history-archive/_probe/ci.txt --file got.txt --remote
+          cmp probe.txt got.txt && echo "R2 roundtrip OK"
+          npx -y wrangler@4.151.3 r2 object delete defi-garden-history-archive/_probe/ci.txt --remote
+      - name: Least privilege — Workers access must be refused
+        run: |
+          if npx -y wrangler@4.151.3 deployments list --name defi-garden-poller >out.txt 2>&1; then
+            echo "❌ token can read Workers deployments (broader than intended)"; cat out.txt; exit 1
+          fi
+          echo "✅ Workers access refused as expected"; grep -m1 -iE "auth|permission|10000|error" out.txt || true
