@@ -369,7 +369,8 @@ function renderStatCard(label, valueHtml, note) {
 }
 
 function renderStoryPage(persona, plan) {
-  const pageUrl = `${SITE_URL}/stories/${persona.slug}.html`;
+  // Extensionless: vercel.json cleanUrls 308-redirects /stories/<slug>.html here.
+  const pageUrl = `${SITE_URL}/stories/${persona.slug}`;
   const p = persona;
   const monthlyFmt = formatUsd(p.monthly);
   const depositedFmt = formatUsd(plan.deposited);

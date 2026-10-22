@@ -486,7 +486,11 @@ function alternateUrlFor(baseUrl, lang) {
  *  hub URLs (which exist in all configured languages). */
 function alternateLangsFor(baseUrl) {
   try {
-    if (STATIC_HUB_PATHS.has(new URL(baseUrl).pathname)) return LANG_CONFIG.LANG_CODES.slice();
+    const u = new URL(baseUrl);
+    if (STATIC_HUB_PATHS.has(u.pathname)) return LANG_CONFIG.LANG_CODES.slice();
+    // Home: no KO landing URL exists (canonical.js folds /?lang=ko into the root),
+    // so no KO alternate is advertised.
+    if (u.pathname === '/' && !u.search) return ['en'];
   } catch { /* fall through */ }
   return LANGUAGES;
 }
@@ -670,12 +674,12 @@ async function generateSitemapSuite(poolsOverride) {
     // 1. Main & Metadata Sitemaps (clean, static canonical URLs only — no parameterized query filters)
     console.log('📝 Building sitemap-main.xml...');
     sitemaps['sitemap-main.xml'].push(generateUrlXml(SITE_URL, LASTMOD_PLACEHOLDER, '1.0', 'daily'));
-    sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}plan.html`, LASTMOD_PLACEHOLDER, '0.9', 'weekly'));
+    sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}plan`, LASTMOD_PLACEHOLDER, '0.9', 'weekly'));
     // /stocks tokenized-equities terminal (stocks.html via cleanUrls; data/stocks-pools.json refreshed daily).
     sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}stocks`, LASTMOD_PLACEHOLDER, '0.8', 'daily'));
     sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}guide/defi-yield-rates-explained`, LASTMOD_PLACEHOLDER, '0.8', 'monthly'));
     // forecast-accuracy temporarily omitted while pipeline is rebuilt (P0-1)
-    sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}mcp`, LASTMOD_PLACEHOLDER, '0.9', 'daily'));
+    // /mcp is intentionally NOT listed: it is the MCP JSON endpoint (application/json), not a page.
 
     // Zero-Distance Intent Portals (/for/<slug>) — First-Class Intent Landing Portals (Priority 0.9, Daily)
     const INTENT_SLUGS = [
@@ -693,7 +697,7 @@ async function generateSitemapSuite(poolsOverride) {
 
     const STORY_SLUGS = ['tomoko', 'kevin', 'lucia'];
     STORY_SLUGS.forEach(slug => {
-      sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}stories/${slug}.html`, LASTMOD_PLACEHOLDER, '0.7', 'monthly'));
+      sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}stories/${slug}`, LASTMOD_PLACEHOLDER, '0.7', 'monthly'));
     });
     // 2. Vertical: Chain-Specific Sitemaps
     console.log('📝 Building Vertical Chain Sitemaps...');

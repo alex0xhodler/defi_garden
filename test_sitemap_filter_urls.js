@@ -142,7 +142,8 @@ async function runA3() {
     check(
       'sitemap-main.xml contains canonical landing hubs',
       locs.includes('https://www.defi.garden/') &&
-      locs.includes('https://www.defi.garden/plan.html') &&
+      locs.includes('https://www.defi.garden/plan') &&
+      !locs.some(l => /\.html($|\?)/.test(l) || l === 'https://www.defi.garden/mcp') &&
       locs.includes('https://www.defi.garden/tokens') &&
       locs.includes('https://www.defi.garden/chains'),
       `locs: ${JSON.stringify(locs)}`

@@ -51,7 +51,8 @@ gen.PERSONAS.forEach(persona => {
   test(`${persona.slug}: pre-existing content (title/canonical) unchanged by this diff`, () => {
     const html = gen.renderStoryPage(persona, fakePlan);
     assert.ok(html.includes(`<title>${persona.seoTitle}`) || html.includes('<title>'), 'title missing');
-    assert.ok(html.includes(`https://www.defi.garden/stories/${persona.slug}.html`), 'canonical missing/changed');
+    assert.ok(html.includes(`<link rel="canonical" href="https://www.defi.garden/stories/${persona.slug}">`), "canonical missing/changed");
+    assert.ok(!html.includes(`/stories/${persona.slug}.html`), "story page must not reference the redirecting .html URL");
   });
 });
 
