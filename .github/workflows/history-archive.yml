@@ -1,0 +1,46 @@
+name: History archive (D1 samples -> R2, daily)
+
+# Purpose: the long-term, keep-forever history store. Every day this job copies new D1
+# `samples` rows (after the manifest watermark) and the published pools-snapshot.json into
+# R2 bucket defi-garden-history-archive (raw/YYYY-MM.ndjson.gz + daily/YYYY-MM.ndjson.gz,
+# manifest.json written last), then trims D1 `samples` to ~120 days. Only rows that are
+# already archived (ts below the manifest watermark) are ever deleted.
+#
+# Runs at 09:30 UTC, after the ~07:00 site build has published the day's snapshot.
+#
+# D1 free-plan budget (5M rows read/day, 100k rows written/day, whole account):
+# ~22k rows read/day for the new samples (keyset pages of 5000), and once 120 days exist the
+# trim deletes ~22k rows/day (a delete bills as a row write). Well inside both limits.
+# R2 stays in the free tier (a few hundred MB gzipped).
+
+on:
+  schedule:
+    - cron: '30 9 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Compute and report but do not write to R2 or trim D1'
+        type: boolean
+        default: false
+
+concurrency:
+  group: history-archive
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Archive
+        run: node scripts/history-archive.js ${{ inputs.dry_run && '--dry-run' || '' }}
