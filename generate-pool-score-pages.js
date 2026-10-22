@@ -61,7 +61,7 @@ try {
 const {
   SITE_URL, isAnomalousApy, poolTotalApy, formatUsd, formatApy, escapeHtml,
   renderAnalyticsBootstrap, renderFontPreloadLinks, renderHreflangLinks,
-  renderDatasetJsonLd, withSrc, OG_FALLBACK_REL_PATH,
+  renderDatasetJsonLd, toIsoDate, withSrc, OG_FALLBACK_REL_PATH,
   renderLanguageSwitcher, renderLangSwitchStyle, renderSitemapAlternates, neutralPathOfLoc,
   SITEMAP_URLSET_OPEN, SITEMAP_URLSET_OPEN_XHTML
 } = tp;
@@ -515,7 +515,28 @@ function renderPoolScorePage(pool, ctx, lang) {
   }).replace(/</g, '\\u003c');
   const breadcrumbHtml = crumbs.map((c, i) => i === crumbs.length - 1
     ? `<li aria-current="page">${esc(c.name)}</li>` : `<li><a href="${c.url}">${esc(c.name)}</a></li>`).join('');
-  const datasetJsonLd = renderDatasetJsonLd(t('pspDatasetName', name, sym, chain), t('pspDatasetDescription', name, sym, chain), pageUrl, genDate);
+  // Dataset JSON-LD: dateModified = the snapshot date (ISO, same instant the
+  // visible genDate is formatted from). variableMeasured lists only what the
+  // page shows (the 30-day mean row exists only when the pool has one).
+  // temporalCoverage = the observed-APY window the chart really plots (first
+  // to last history day-file), else the snapshot date. No distribution: the
+  // pools/<uuid>.md|.json twins exist only for deep-linked ids, not for every
+  // scored page, so none is claimed.
+  const snapIsoDate = toIsoDate(ctx.snapshotIso);
+  const hist = (ctx.series || []).map(pt => pt.date).filter(Boolean).sort();
+  const datasetJsonLd = renderDatasetJsonLd(t('pspDatasetName', name, sym, chain), t('pspDatasetDescription', name, sym, chain), pageUrl, snapIsoDate, {
+    keywords: [sym, name, chain, 'DeFi Score', 'APY forecast'],
+    variableMeasured: [
+      { name: 'APY', unitText: 'percent' },
+      ...(mean30 == null ? [] : [{ name: '30-day mean APY', unitText: 'percent' }]),
+      { name: 'Base APY', unitText: 'percent' },
+      { name: 'Reward APY', unitText: 'percent' },
+      { name: 'TVL', unitText: 'USD' },
+      { name: 'DeFi Score', unitText: 'points out of 100' },
+      { name: `${horizon}-day APY forecast`, unitText: 'percent' }
+    ],
+    temporalCoverage: hist.length >= 2 && hist[0] !== hist[hist.length - 1] ? `${hist[0]}/${hist[hist.length - 1]}` : snapIsoDate
+  });
 
   // summary
   const stat = (label, value) => `<div class="dt-metric"><dt class="dt-metric-name">${esc(label)}</dt><dd class="dt-metric-val">${esc(value)}</dd></div>`;

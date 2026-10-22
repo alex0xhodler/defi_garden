@@ -342,10 +342,15 @@ test('renders a visible "Last updated <date>" line', () => {
   const dated = gen.renderTokenPage(bySym['BIG'], [], '2026-07-12');
   assert.ok(dated.includes('Last updated 2026-07-12'), 'missing visible "Last updated" line');
 });
-test('visible "Last updated" date is byte-for-byte identical to Dataset.dateModified', () => {
+test('visible "Last updated" date equals Dataset.dateModified when given ISO', () => {
   const dated = gen.renderTokenPage(bySym['BIG'], [], '2026-07-12');
   const dateModified = extractLdJsonBlocks(dated, 'Dataset')[0].dateModified;
   assert.ok(dated.includes(`Last updated ${dateModified}`), 'visible date and Dataset.dateModified must match byte-for-byte');
+});
+test('human-readable visible date stays human; dateModified is its ISO 8601 form', () => {
+  const human = gen.renderTokenPage(bySym['BIG'], [], 'October 22, 2026');
+  assert.ok(human.includes('Last updated October 22, 2026'), 'visible date must stay human-readable');
+  assert.strictEqual(extractLdJsonBlocks(human, 'Dataset')[0].dateModified, '2026-10-22');
 });
 test('default (no generatedDate passed) still renders a "Last updated" line', () => {
   assert.ok(/Last updated .+/.test(html), 'default-dated page missing visible "Last updated" line');

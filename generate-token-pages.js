@@ -1185,20 +1185,73 @@ function renderItemListJsonLd(pools, appUrl, lang) {
   }).replace(/</g, '\\u003c');
 }
 
+/** ISO 8601 calendar date (YYYY-MM-DD) for a generation date. Accepts the
+ * en-US long form todayGeneratedDate() produces ("October 22, 2026"), an
+ * already-ISO date or timestamp (first 10 chars kept), or a Date. schema.org
+ * dates must be ISO 8601 while the VISIBLE "Last updated" line stays
+ * human-readable — both derive from the same genDate, so they cannot drift.
+ * Returns null when the input is not a recognisable date (field is omitted). */
+function toIsoDate(d) {
+  if (d instanceof Date) return Number.isNaN(d.getTime()) ? null : d.toISOString().slice(0, 10);
+  const s = String(d == null ? '' : d).trim();
+  if (/^\d{4}-\d{2}-\d{2}(?:$|T)/.test(s)) return s.slice(0, 10);
+  const m = /^([A-Za-z]+)\s+(\d{1,2}),\s*(\d{4})$/.exec(s);
+  if (!m) return null;
+  const mi = ['january','february','march','april','may','june','july','august','september','october','november','december']
+    .indexOf(m[1].toLowerCase());
+  if (mi < 0) return null;
+  return new Date(Date.UTC(Number(m[3]), mi, Number(m[2]))).toISOString().slice(0, 10);
+}
+
 /** Dataset JSON-LD (046) describing the page's live yield dataset. Shared by
- * token and chain pages — callers supply the content-specific name/description. */
-function renderDatasetJsonLd(name, description, pageUrl, generatedDate) {
-  return JSON.stringify({
+ * token, chain and pool-score pages — callers supply the content-specific
+ * name/description. `generatedDate` may be the human en-US string or ISO; the
+ * emitted dateModified/temporalCoverage are always ISO 8601.
+ * `opts` (all optional, each only when TRUE for the page):
+ *   variableMeasured  [{name, unitText?}] — measures the page really shows
+ *   keywords          [string]
+ *   temporalCoverage  ISO date or 'start/end' interval (default: the snapshot date)
+ *   distribution      [{encodingFormat, contentUrl}] — only machine-readable
+ *                     twins the generator actually writes */
+function renderDatasetJsonLd(name, description, pageUrl, generatedDate, opts) {
+  const o = opts || {};
+  const iso = toIsoDate(generatedDate);
+  const obj = {
     '@context': 'https://schema.org',
     '@type': 'Dataset',
     name,
     description,
     url: pageUrl,
     license: 'https://creativecommons.org/publicdomain/zero/1.0/',
+    isAccessibleForFree: true,
     creator: { '@type': 'Organization', name: 'DeFi Garden', url: SITE_URL },
-    publisher: { '@type': 'Organization', name: 'DeFi Garden', url: SITE_URL },
-    dateModified: generatedDate
-  }).replace(/</g, '\\u003c');
+    publisher: { '@type': 'Organization', name: 'DeFi Garden', url: SITE_URL }
+  };
+  if (o.keywords && o.keywords.length) obj.keywords = o.keywords;
+  if (o.variableMeasured && o.variableMeasured.length) {
+    obj.variableMeasured = o.variableMeasured.map(v => Object.assign({ '@type': 'PropertyValue' }, v));
+  }
+  if (iso) obj.dateModified = iso;
+  const tc = o.temporalCoverage || iso;
+  if (tc) obj.temporalCoverage = tc;
+  if (o.distribution && o.distribution.length) {
+    obj.distribution = o.distribution.map(d => ({ '@type': 'DataDownload', encodingFormat: d.encodingFormat, contentUrl: d.contentUrl }));
+  }
+  return JSON.stringify(obj).replace(/</g, '\\u003c');
+}
+
+/** The measures a token/chain page's pool table really displays (APY, TVL). */
+const TABLE_VARIABLES_MEASURED = Object.freeze([
+  Object.freeze({ name: 'APY', unitText: 'percent' }),
+  Object.freeze({ name: 'TVL', unitText: 'USD' })
+]);
+
+/** Markdown-twin distribution entry for a page URL, or [] when the page's
+ * language has no .md twin (only 'all'-scope languages get one — see the
+ * twin-writing loops in this file and generate-chain-pages.js). */
+function markdownDistributionFor(pageUrl, lang) {
+  if (getLanguage(lang).scope !== 'all') return [];
+  return [{ encodingFormat: 'text/markdown', contentUrl: `${pageUrl}.md` }];
 }
 
 /** headlinePoolFor(pools) — item 242. The single pool whose rate AND
@@ -1811,7 +1864,12 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
     t('tcpDatasetTokenName', rec.symbol),
     t('tcpDatasetTokenDescription', rec.symbol, floorStr),
     pageUrl,
-    genDate
+    genDate,
+    {
+      variableMeasured: TABLE_VARIABLES_MEASURED,
+      keywords: [rec.symbol, 'DeFi yield', 'APY', 'TVL'],
+      distribution: markdownDistributionFor(pageUrl, language)
+    }
   );
 
   // Direct-answer + FAQ (047, GEO/AEO): built from the SAME gated `rec` the
@@ -2343,6 +2401,7 @@ module.exports = {
   groupTokensAZ, renderTokenHubPage, renderTokenAzPage, renderHubStyleBlock, HUB_TOP_N,
   HEAD_TOKENS, renderTokenHowHtml, renderTokenHowMarkdown, renderTokenHowStyle, tokenPageTitle,
   poolHrefFor, poolRelAttr, withSrc, renderItemListJsonLd, renderDatasetJsonLd,
+  toIsoDate, TABLE_VARIABLES_MEASURED, markdownDistributionFor,
   buildAnswerAndFaq, renderAnswerBlockHtml, renderFaqBlockHtml, renderFaqJsonLd,
   todayGeneratedDate, renderLastUpdatedHtml, loadFixturePools,
   chainLinksFor, categoryLinksFor, renderLinkNavHtml,
