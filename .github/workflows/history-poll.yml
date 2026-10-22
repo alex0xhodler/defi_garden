@@ -1,0 +1,45 @@
+name: History poll (D1 samples, 3-hourly)
+
+# Replaces the hourly Cloudflare Worker poller (src/poller.js), which used ~78 ms
+# CPU per run against the free plan's 10 ms limit. Actions has no CPU cap, and a
+# 5-20 min cron delay is irrelevant at a 3-hour cadence: ts is floored to the
+# 3-hour UTC slot, so delays and manual re-runs overwrite the same rows (idempotent).
+#
+# D1 free-plan budget (100k rows written/day, 5M read/day, whole account):
+# ~3k rows x 8 runs = ~24k writes/day (samples is WITHOUT ROWID with no secondary
+# indexes, so 1 write per row) + ~24k rows read/day for the sticky lookup.
+# The old Worker keeps running untouched until this is verified.
+
+on:
+  schedule:
+    - cron: '7 */3 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Build the SQL but do not write to D1'
+        type: boolean
+        default: false
+
+concurrency:
+  group: history-poll
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Apply schema (idempotent)
+        run: npx -y wrangler@4.151.3 d1 execute defi-garden-history --remote --yes --file history/schema-v2.sql
+      - name: Poll
+        run: node scripts/history-poll.js ${{ inputs.dry_run && '--dry-run' || '' }}
