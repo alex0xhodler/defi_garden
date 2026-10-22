@@ -74,6 +74,16 @@ const MIN_POOL_TVL = 100000;      // $100K eligibility floor for a page's pools
 const APY_SANITY_LIMIT = 1000;    // TRUST RAIL: total APY above this may NEVER be shown
 const MIN_QUALIFYING_POOLS = 1;   // a token needs >=1 qualifying pool to earn a page
 const NOINDEX_POOL_THRESHOLD = 3; // D1: tokens with fewer qualifying pools get noindex,follow
+// D1 exemption (2026-10-22): a thin page (>=1 but <NOINDEX_POOL_THRESHOLD
+// qualifying pools) stays index,follow when its slug is in the per-language
+// allowlist config/seo-index-allowlist.json. Search Console showed the noindexed
+// thin pages were the site's best performers (153 with impressions in 90 days,
+// avg position ~11 vs ~25 for the indexed set), so pages with proven search
+// demand are exempt. Applies to the 'all'-scope languages (en, ko) only, each
+// against ITS OWN list; head-scope pt/es stay decided by the pool threshold alone.
+// Refresh with scripts/gsc-index-allowlist.js (manual, needs Google credentials).
+// (SEO_INDEX_ALLOWLIST overrides the path; tests use it, CI does not set it.)
+const INDEX_ALLOWLIST_PATH = process.env.SEO_INDEX_ALLOWLIST || path.join(__dirname, 'config', 'seo-index-allowlist.json');
 const DEFAULT_LIMIT = 0;          // 0 = no cap: a page for every eligible token
 const POOLS_PER_PAGE = 8;         // how many pools to list on each page
 
@@ -251,10 +261,12 @@ function renderLastUpdatedHtml(genDate, lang) {
  * rel=canonical>. */
 function renderHreflangLinks(neutralPath, langs) {
   const codes = orderCodes(langs);
-  if (!codes.includes('en')) throw new Error('renderHreflangLinks: EN is the x-default and must exist for ' + neutralPath);
+  if (!codes.length) throw new Error('renderHreflangLinks: no languages for ' + neutralPath);
   const lines = codes.map(code =>
     `    <link rel="alternate" hreflang="${getLanguage(code).hreflang}" href="${langUrl(SITE_URL, code, neutralPath)}">`);
-  lines.push(`    <link rel="alternate" hreflang="x-default" href="${langUrl(SITE_URL, 'en', neutralPath)}">`);
+  // x-default -> EN; only when EN itself is not advertised (a KO-only indexable
+  // page, see the token allowlist) does it fall back to the first listed language.
+  lines.push(`    <link rel="alternate" hreflang="x-default" href="${langUrl(SITE_URL, codes.includes('en') ? 'en' : codes[0], neutralPath)}">`);
   return lines.join('\n') + '\n';
 }
 
@@ -262,11 +274,42 @@ function renderHreflangLinks(neutralPath, langs) {
  * 'head'-scope languages (pt/es) only when the page is indexable — the exact
  * rule that sets `index,follow` below (qualifyingCount >= NOINDEX_POOL_THRESHOLD).
  * A thin noindexed page is therefore never generated in pt/es. */
-function isIndexableToken(rec) {
+function loadIndexAllowlist(file) {
+  const out = {};
+  FULL_SCOPE_CODES.forEach(code => { out[code] = new Set(); });
+  try {
+    const j = JSON.parse(fs.readFileSync(file || INDEX_ALLOWLIST_PATH, 'utf8'));
+    FULL_SCOPE_CODES.forEach(code => { if (Array.isArray(j[code])) out[code] = new Set(j[code]); });
+  } catch (_) { /* no allowlist -> pure pool-threshold rule */ }
+  return out;
+}
+const INDEX_ALLOWLIST = loadIndexAllowlist();
+/** The pool-threshold rule alone (>= NOINDEX_POOL_THRESHOLD). The ONLY rule
+ * head-scope languages (pt/es) use: the allowlist never adds pt/es pages. */
+function meetsPoolThreshold(rec) {
   return rec.qualifyingCount >= NOINDEX_POOL_THRESHOLD;
 }
+/** True when the allowlist exempts this (thin) token in this language. */
+function isAllowlistedToken(rec, lang, allowlist) {
+  const code = normalizeLang(lang || 'en');
+  if (isHeadScope(code)) return false;
+  const set = (allowlist || INDEX_ALLOWLIST)[code];
+  return !!set && set.has(rec.slug) && rec.qualifyingCount >= MIN_QUALIFYING_POOLS;
+}
+/** THE per-page indexability decision (robots meta, noindex manifests, sitemaps). */
+function isIndexableToken(rec, lang, allowlist) {
+  return meetsPoolThreshold(rec) || isAllowlistedToken(rec, lang || 'en', allowlist);
+}
+/** Languages the page exists in (language switcher). */
 function tokenLangCodes(rec) {
-  return orderCodes(FULL_SCOPE_CODES.concat(isIndexableToken(rec) ? HEAD_SCOPE_CODES : []));
+  return orderCodes(FULL_SCOPE_CODES.concat(meetsPoolThreshold(rec) ? HEAD_SCOPE_CODES : []));
+}
+/** Languages advertised as hreflang alternates / sitemap alternates: only the
+ * indexable versions. If none is indexable (a noindexed page), fall back to the
+ * existing-pages set so the annotations stay reciprocal. */
+function tokenHreflangCodes(rec, allowlist) {
+  const codes = tokenLangCodes(rec).filter(c => isIndexableToken(rec, c, allowlist));
+  return codes.length ? codes : tokenLangCodes(rec);
 }
 
 /** Language switcher for a static page (replaces the old single EN<->KO
@@ -1748,13 +1791,14 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
   const language = normalizeLang(lang);
   // 'head'-scope languages (pt/es) only ever get indexable pages — a thin,
   // noindexed token page must never be generated in them (languages.js).
-  if (isHeadScope(language) && !isIndexableToken(rec)) {
+  if (isHeadScope(language) && !meetsPoolThreshold(rec)) {
     throw new Error(`renderTokenPage: refusing to render noindexed thin token page ${rec.slug} in '${language}' (head-scope language)`);
   }
   const t = createTranslationFunction(language);
   const sym = escapeHtml(rec.symbol);
   const neutralPath = `/tokens/${rec.slug}`;
   const pageLangs = tokenLangCodes(rec);
+  const hreflangLangs = tokenHreflangCodes(rec, opts && opts.allowlist);
   const pageUrl = langUrl(SITE_URL, language, neutralPath);
   const appUrl = `${SITE_URL}/?token=${encodeURIComponent(rec.symbol)}&minTvl=${MIN_POOL_TVL}`;
   const genDate = generatedDate || todayGeneratedDate();
@@ -1892,9 +1936,11 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
   // D1 (seo-turnaround-plan): noindex thin token pages (<NOINDEX_POOL_THRESHOLD
   // qualifying pools) to shrink the indexed set during spam-update exposure.
   // Pages stay live for users; `follow` preserved so link equity still flows.
-  const robotsDirective = rec.qualifyingCount < NOINDEX_POOL_THRESHOLD
-    ? 'noindex,follow'
-    : 'index,follow';
+  // Exemption: proven-demand thin pages (Search Console) per config/seo-index-allowlist.json,
+  // decided by isIndexableToken for THIS language (see NOINDEX / INDEX_ALLOWLIST above).
+  const robotsDirective = isIndexableToken(rec, language, opts && opts.allowlist)
+    ? 'index,follow'
+    : 'noindex,follow';
 
   return `<!DOCTYPE html>
 <html lang="${getLanguage(language).htmlLang}">
@@ -1904,7 +1950,7 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
     <title>${escapeHtml(title)}</title>
     <meta name="description" content="${escapeHtml(description)}">
     <link rel="canonical" href="${pageUrl}">
-${renderHreflangLinks(neutralPath, pageLangs)}    <script type="application/ld+json">${breadcrumbJsonLd}</script>
+${renderHreflangLinks(neutralPath, hreflangLangs)}    <script type="application/ld+json">${breadcrumbJsonLd}</script>
     <script type="application/ld+json">${itemListJsonLd}</script>
     <script type="application/ld+json">${datasetJsonLd}</script>
     <meta property="og:type" content="website">
@@ -2097,12 +2143,13 @@ function renderTokenSitemap(ranked, lastmod, extraLocs, lang, opts) {
     const neutral = neutralPathOfLoc(loc, language);
     return `  <url>\n    <loc>${loc}</loc>\n${altTag(neutral, alternates ? alternates(neutral) : [])}${lastmodTag}    <changefreq>daily</changefreq>\n  </url>`;
   });
-  // A head-scope language (pt/es) never lists a thin, noindexed page.
-  const urls = (ranked || []).filter(rec => !isHeadScope(language) || isIndexableToken(rec)).map(rec => {
+  // Only indexable pages are listed (same decision as the page's robots meta);
+  // a head-scope language (pt/es) therefore never lists a thin page either.
+  const urls = (ranked || []).filter(rec => isIndexableToken(rec, language, opts && opts.allowlist)).map(rec => {
     const isHead = HEAD_TOKENS.has(rec.symbol.toUpperCase());
     const priority = isHead ? '0.8' : '0.3';
     const changefreq = isHead ? 'daily' : 'weekly';
-    return `  <url>\n    <loc>${SITE_URL}/${base}/${rec.slug}</loc>\n${altTag(`/tokens/${rec.slug}`, tokenLangCodes(rec))}${lastmodTag}    <changefreq>${changefreq}</changefreq>\n    <priority>${priority}</priority>\n  </url>`;
+    return `  <url>\n    <loc>${SITE_URL}/${base}/${rec.slug}</loc>\n${altTag(`/tokens/${rec.slug}`, tokenHreflangCodes(rec, opts && opts.allowlist))}${lastmodTag}    <changefreq>${changefreq}</changefreq>\n    <priority>${priority}</priority>\n  </url>`;
   });
   return `<?xml version="1.0" encoding="UTF-8"?>\n` +
     `${alternates ? SITEMAP_URLSET_OPEN_XHTML : SITEMAP_URLSET_OPEN}\n${extra.concat(urls).join('\n')}\n</urlset>\n`;
@@ -2236,14 +2283,18 @@ async function main() {
 
   // D1 (seo-turnaround): write noindex manifest so generate-llms.js can
   // exclude thin token pages from llms-full.txt.
+  // Per-language manifest (the allowlist differs per language): EN at
+  // tokens/.noindex-slugs.json, each other 'all'-scope language alongside its
+  // pages (ko/tokens/.noindex-slugs.json). Written from isIndexableToken, the
+  // same decision as the robots meta. Consumers: generate-llms.js, indexnow-ping.js.
   const noindexSlugs = ranked
-    .filter(r => !isIndexableToken(r))
+    .filter(r => !isIndexableToken(r, 'en'))
     .map(r => r.slug);
   fs.writeFileSync(
     path.join(outDir, '.noindex-slugs.json'),
     JSON.stringify(noindexSlugs, null, 0) + '\n'
   );
-  console.log(`🚫 ${noindexSlugs.length} token pages noindexed (<${NOINDEX_POOL_THRESHOLD} qualifying pools)`);
+  console.log(`🚫 ${noindexSlugs.length} en token pages noindexed (<${NOINDEX_POOL_THRESHOLD} qualifying pools, minus ${INDEX_ALLOWLIST.en.size} allowlisted)`);
 
   // Per-language page sets. 'all'-scope languages (en, ko) get every ranked
   // token; 'head'-scope languages (pt, es) get ONLY the indexable ones — never
@@ -2253,7 +2304,7 @@ async function main() {
   const azGroups = groupTokensAZ(ranked);
   const pageSets = {};
   LANGUAGES.forEach(l => {
-    const langRanked = isHeadScope(l.code) ? ranked.filter(isIndexableToken) : ranked;
+    const langRanked = isHeadScope(l.code) ? ranked.filter(meetsPoolThreshold) : ranked;
     pageSets[l.code] = { ranked: langRanked, az: l.code === 'en' ? azGroups : groupTokensAZ(langRanked) };
   });
   // Languages in which the A–Z page for `slug` exists (EN has every letter).
@@ -2296,6 +2347,11 @@ async function main() {
         fs.writeFileSync(path.join(langOutDir, `${rec.slug}.md`), renderTokenPageMarkdown(rec, relatedFor(rec, langRanked), genDate, chainLinks, l.code, opts));
       }
     });
+    if (!isHeadScope(l.code)) {
+      const langNoindex = ranked.filter(r => !isIndexableToken(r, l.code)).map(r => r.slug);
+      fs.writeFileSync(path.join(langOutDir, '.noindex-slugs.json'), JSON.stringify(langNoindex, null, 0) + '\n');
+      console.log(`🚫 ${langNoindex.length} ${l.code} token pages noindexed`);
+    }
     fs.writeFileSync(path.join(langOutDir, 'index.html'), renderTokenHubPage(langRanked, langAz, l.code));
     const langAzDir = path.join(langOutDir, 'az');
     if (!fs.existsSync(langAzDir)) fs.mkdirSync(langAzDir, { recursive: true });
@@ -2314,7 +2370,6 @@ async function main() {
     // source of truth for this gate). Hub + A–Z URLs stay in the sitemap in
     // full. `headTokens` is the SAME Set computed above (232 / territory note
     // 3) — never a second call.
-    const headRanked = ranked.filter(rec => headTokens.has(rec.symbol.toUpperCase()));
     // One sitemap per language (en: args.sitemap; others: <name>-<code>.xml).
     // Each <url> carries the same reciprocal alternates as its page's hreflang.
     const alternates = (neutralPath) => {
@@ -2324,9 +2379,12 @@ async function main() {
     LANGUAGES.forEach(l => {
       const hubUrls = [langUrl(SITE_URL, l.code, '/tokens')].concat(pageSets[l.code].az.map(g => langUrl(SITE_URL, l.code, `/tokens/az/${g.slug}`)));
       const sitemapPath = l.code === 'en' ? args.sitemap : args.sitemap.replace(/\.xml$/, `-${l.code}.xml`);
-      const urlRanked = isHeadScope(l.code) ? headRanked.filter(isIndexableToken) : headRanked;
+      // head curation (226) OR allowlisted proven pages; renderTokenSitemap then
+      // drops anything noindexed, so sitemap and robots meta can't disagree.
+      const urlRanked = ranked.filter(rec => (headTokens.has(rec.symbol.toUpperCase()) || isAllowlistedToken(rec, l.code))
+        && isIndexableToken(rec, l.code));
       fs.writeFileSync(path.resolve(sitemapPath), renderTokenSitemap(urlRanked, lastmod, hubUrls, l.code, { alternates }));
-      console.log(`🗺️  Wrote ${sitemapPath} (${urlRanked.length} head URLs of ${pageSets[l.code].ranked.length} generated pages, + ${hubUrls.length} hub/A–Z URLs)`);
+      console.log(`🗺️  Wrote ${sitemapPath} (${urlRanked.length} head/allowlisted URLs of ${pageSets[l.code].ranked.length} generated pages, + ${hubUrls.length} hub/A–Z URLs)`);
     });
   }
 }
@@ -2349,7 +2407,7 @@ module.exports = {
   renderWaitlistCtaHtml, renderWaitlistCtaStyle,
   renderHreflangLinks, renderFontPreloadLinks, SUPPORTED_LANGS,
   renderLanguageSwitcher, renderLangSwitchStyle, renderSitemapAlternates, neutralPathOfLoc,
-  SITEMAP_URLSET_OPEN, SITEMAP_URLSET_OPEN_XHTML, isIndexableToken, tokenLangCodes,
+  SITEMAP_URLSET_OPEN, SITEMAP_URLSET_OPEN_XHTML, isIndexableToken, meetsPoolThreshold, isAllowlistedToken, loadIndexAllowlist, tokenHreflangCodes, INDEX_ALLOWLIST_PATH, tokenLangCodes,
   yieldHeadlineFor, renderYieldHeadlineHtml, yieldHeadlineAnchor, ladderLabelText, YIELD_HEADLINE_ANCHOR_ID,
   rateBehaviourFor, renderRateBehaviourHtml, renderRateBehaviourMarkdown, renderRateBehaviourStyle, mean30dSane,
   RATE_STABILITY_MIN_OBSERVATIONS, rateStabilityFor, renderRateStabilityHtml, renderRateStabilityMarkdown, rateStabilityFaqItem,

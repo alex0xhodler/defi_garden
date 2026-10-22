@@ -289,11 +289,15 @@ async function main() {
     // Re-derive symbol from slug via the ranked list (slug -> symbol), since
     // <loc> only carries the slug.
     const allRankedTokens = tp.rankTopTokens(pools, 0);
+    const allowlist = tp.loadIndexAllowlist();
+    const allowlistedSlugs = new Set([...allowlist.en, ...allowlist.ko]);
     const slugToSymbol = new Map(allRankedTokens.map(r => [r.slug, r.symbol.toUpperCase()]));
     headTokenSymbols.forEach(slug => {
       const symbol = slugToSymbol.get(slug);
       const count = symbol ? (tokenCounts.get(symbol) || 0) : 0;
-      if (count < gs.HEAD_MIN_RAILED_POOLS) tokenRailFailures++;
+      // Proven-demand pages (config/seo-index-allowlist.json) are listed on top of the
+      // head by design, whatever their pool count.
+      if (count < gs.HEAD_MIN_RAILED_POOLS && !allowlistedSlugs.has(slug)) tokenRailFailures++;
     });
     check(`every head token slug (${headTokenSymbols.size}) independently clears railedTokenPoolCounts >= ${gs.HEAD_MIN_RAILED_POOLS}`,
       tokenRailFailures === 0, `${tokenRailFailures} failure(s)`);

@@ -168,18 +168,16 @@ function buildFullUrlPopulation(sitemapUrls, estateRoot) {
 
   // D1 (seo-turnaround): filter out noindexed thin token pages so they
   // don't appear in llms-full.txt. Read manifests from both en and ko dirs.
+  // Manifests are per language (the proven-demand allowlist differs per language).
+  // A missing ko manifest (older published build) falls back to the EN list.
   const noindexSlugs = new Set();
-  for (const manifest of ['tokens/.noindex-slugs.json', 'ko/tokens/.noindex-slugs.json']) {
-    const fp = path.join(estateRoot, manifest);
-    try {
-      const slugs = JSON.parse(fs.readFileSync(fp, 'utf8'));
-      // Token slugs: exclude both /tokens/<slug> and /ko/tokens/<slug>
-      slugs.forEach(s => {
-        noindexSlugs.add(`/tokens/${s}`);
-        noindexSlugs.add(`/ko/tokens/${s}`);
-      });
-    } catch (_) { /* manifest doesn't exist — skip */ }
-  }
+  const readManifest = (rel) => {
+    try { return JSON.parse(fs.readFileSync(path.join(estateRoot, rel), 'utf8')); } catch (_) { return null; }
+  };
+  const enSlugs = readManifest('tokens/.noindex-slugs.json');
+  const koSlugs = readManifest('ko/tokens/.noindex-slugs.json') || enSlugs;
+  (enSlugs || []).forEach(s => noindexSlugs.add(`/tokens/${s}`));
+  (koSlugs || []).forEach(s => noindexSlugs.add(`/ko/tokens/${s}`));
   const filteredEstateUrls = noindexSlugs.size > 0
     ? estateUrls.filter(u => {
         try { return !noindexSlugs.has(new URL(u).pathname); }
