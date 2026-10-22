@@ -300,6 +300,26 @@
       "permanent": true
     },
     {
+      "source": "/pools/aave-v3-wavax-avalanche",
+      "destination": "/chains/avalanche",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/aave-v3-wavax-avalanche",
+      "destination": "/ko/chains/avalanche",
+      "permanent": true
+    },
+    {
+      "source": "/pt/pools/aave-v3-wavax-avalanche",
+      "destination": "/pt/chains/avalanche",
+      "permanent": true
+    },
+    {
+      "source": "/es/pools/aave-v3-wavax-avalanche",
+      "destination": "/es/chains/avalanche",
+      "permanent": true
+    },
+    {
       "source": "/pools/aave-v3-wbtc-arbitrum",
       "destination": "/chains/arbitrum",
       "permanent": true
@@ -500,26 +520,6 @@
       "permanent": true
     },
     {
-      "source": "/pools/concrete-ctwlficx-prime-ethereum",
-      "destination": "/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/ko/pools/concrete-ctwlficx-prime-ethereum",
-      "destination": "/ko/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/pt/pools/concrete-ctwlficx-prime-ethereum",
-      "destination": "/pt/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/es/pools/concrete-ctwlficx-prime-ethereum",
-      "destination": "/es/chains/ethereum",
-      "permanent": true
-    },
-    {
       "source": "/pools/curve-dex-eth-steth-ethereum",
       "destination": "/chains/ethereum",
       "permanent": true
@@ -560,22 +560,22 @@
       "permanent": true
     },
     {
-      "source": "/pools/hastra-auto-solana",
+      "source": "/pools/helius-staked-sol-hsol-solana",
       "destination": "/chains/solana",
       "permanent": true
     },
     {
-      "source": "/ko/pools/hastra-auto-solana",
+      "source": "/ko/pools/helius-staked-sol-hsol-solana",
       "destination": "/ko/chains/solana",
       "permanent": true
     },
     {
-      "source": "/pt/pools/hastra-auto-solana",
+      "source": "/pt/pools/helius-staked-sol-hsol-solana",
       "destination": "/pt/chains/solana",
       "permanent": true
     },
     {
-      "source": "/es/pools/hastra-auto-solana",
+      "source": "/es/pools/helius-staked-sol-hsol-solana",
       "destination": "/es/chains/solana",
       "permanent": true
     },
