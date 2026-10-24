@@ -679,6 +679,7 @@ function buildConcise(meta, categories, highYield, yieldAnalysis, plannerRateRes
     `We evaluate yield quality across four pillars (stability, fee sustainability, depositor stickiness, liquidity depth) ` +
     `and maintain an empirical, multi-run 14-day forward forecast track record publicly benchmarked against a naive "no-change" baseline.`
   );
+  lines.push(`- Methodology (how the DeFi Score and the 14-day forecast are built and measured): ${meta.baseUrl}/methodology`);
   lines.push(`- Public forecast evaluation scorecard: ${meta.baseUrl}/forecast-accuracy`);
   lines.push(`- Verified scored pools directory: ${meta.baseUrl}/pools`);
   lines.push('');
