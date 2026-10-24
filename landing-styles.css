@@ -423,15 +423,6 @@
   transform: translateY(1px);
 }
 
-.landing-card-hint {
-  font-family: var(--font-family-base);
-  font-size: 0.70rem;
-  color: var(--color-text-secondary);
-  margin-top: 8px;
-  text-align: center;
-  line-height: 1.3;
-}
-
 /* Four nav links need ~960px on one line; below that use the menu. */
 @media (max-width: 960px) {
   .landing-nav { display: none; }
@@ -515,36 +506,12 @@
   flex: 0 0 auto;
 }
 
-.landing-uw-badges {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin: 18px 0 24px 0;
-}
-
-.landing-uw-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 4px 9px;
-  background: var(--ui-surface-muted, rgba(255, 255, 255, 0.04));
-  border: 1px solid var(--cert-rule, var(--ui-border));
-  border-radius: 2px;
-  font-family: var(--font-family-mono, monospace);
-  font-size: 0.72rem;
-  font-weight: 600;
-  color: var(--color-text-secondary);
-  letter-spacing: 0.02em;
-}
-
-.landing-uw-badge.highlight {
-  color: var(--cert-green, #7cc9a0);
-  border-color: rgba(124, 201, 160, 0.35);
-  background: rgba(124, 201, 160, 0.08);
-}
-
 .landing-uw-cta-row {
-  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  margin-top: 16px;
 }
 
 .landing-uw-cta-row .landing-garden-link {
@@ -705,34 +672,6 @@
 }
 .landing-uw-source[data-source="snapshot"] { color: var(--ui-text-secondary); }
 
-/* One-click move from the hero to the rates section (desktop snap layout). */
-.landing-next-section {
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  min-height: 36px;
-  padding: 6px 14px;
-  background: var(--ui-surface);
-  border: 1px solid var(--ui-border);
-  border-radius: 2px;
-  color: var(--ui-text-secondary);
-  font-family: var(--font-family-base);
-  font-size: 0.8rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: color 0.15s ease, border-color 0.15s ease;
-}
-.landing-next-section:hover { color: var(--ui-text); border-color: var(--ui-border-strong); }
-.landing-next-section:active { background: var(--ui-surface-muted); transform: translateX(-50%) translateY(1px); }
-.landing-next-section:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
-@media (prefers-reduced-motion: reduce) {
-  .landing-next-section:active { transform: translateX(-50%); }
-}
-
 /* Reserves the card's footprint while landing-pools.json loads (no CLS). */
 .landing-uw-skeleton {
   min-height: 440px;
@@ -820,30 +759,19 @@
 .landing-uw-terminal-jump:hover { text-decoration: underline; }
 
 @media (max-width: 768px) {
-  /* Mobile order: status -> headline -> the full card (in the first screen)
-     -> subhead -> badges -> CTA. The copy column dissolves so its children
-     can interleave with the card. */
+  /* Single column: copy (status, headline, subhead, search, CTAs), then the
+     scored example card. */
   .landing-hero-underwriting {
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    gap: 0;
+    gap: 24px;
     padding-top: 0;
   }
-  .landing-hero-underwriting .landing-uw-copy { display: contents; }
-  .landing-hero-underwriting .landing-uw-status { order: 1; margin-bottom: 8px; }
-  .landing-hero-underwriting .landing-spotlight-title { order: 2; }
-  .landing-hero-underwriting .landing-uw-terminal-card { order: 3; margin: 8px 0 20px; }
-  .landing-hero-underwriting .landing-spotlight-subhead { order: 4; }
-  .landing-hero-underwriting .landing-uw-badges { order: 5; margin: 4px 0 16px; }
-  .landing-hero-underwriting .landing-uw-cta-row { order: 6; margin-top: 0; }
-  .landing-hero-underwriting .landing-card-hint { order: 7; }
   .landing-uw-terminal-card {
     padding: 16px;
   }
 }
-
-
 
 @media (prefers-reduced-motion: reduce) {
   .landing-app *,
@@ -959,4 +887,205 @@
 .lang-suggest-dismiss:active { background: var(--ui-surface-sunken); transform: translateY(1px); }
 @media (prefers-reduced-motion: reduce) {
   .lang-suggest-dismiss:active { transform: none; }
+}
+
+/* ── Hero search (routes to existing app URLs; see buildSearchHref) ─────── */
+.landing-search-form {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+  max-width: 560px;
+  min-height: 52px;
+  margin: 8px 0 0;
+  background: var(--ui-surface);
+  border: 1px solid var(--ui-border-strong);
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+.landing-search-form:focus-within { box-shadow: var(--ui-focus-ring); }
+.landing-search-form .landing-icon {
+  flex: 0 0 auto;
+  align-self: center;
+  margin: 0 4px 0 14px;
+  color: var(--ui-text-muted);
+}
+.landing-search-input {
+  flex: 1 1 auto;
+  min-width: 0;
+  padding: 0 12px;
+  background: transparent;
+  border: 0;
+  outline: none;
+  color: var(--ui-text);
+  font-family: var(--font-family-base);
+  font-size: 16px; /* >= 16px: iOS does not zoom on focus */
+  text-overflow: ellipsis;
+}
+.landing-search-input::placeholder { color: var(--ui-text-muted); opacity: 1; }
+.landing-search-submit {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 44px;
+  padding: 0 16px;
+  background: var(--ui-surface-muted);
+  border: 0;
+  border-left: 1px solid var(--ui-border);
+  border-radius: 0 1px 1px 0;
+  color: var(--ui-text);
+  font-family: var(--font-family-base);
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.landing-search-submit:hover { background: var(--ui-surface-sunken); }
+.landing-search-submit:active { transform: translateY(1px); }
+.landing-search-submit:focus-visible { outline: none; box-shadow: inset var(--ui-focus-ring); }
+@media (max-width: 440px) {
+  .landing-search-submit-label { display: none; }
+  .landing-search-submit { padding: 0 14px; }
+}
+
+/* The one quiet secondary link under the primary CTA (buy-box law). */
+.landing-quiet-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  color: var(--ui-text-secondary);
+  font-size: 0.92rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+.landing-quiet-link:hover { color: var(--ui-text); text-decoration: underline; }
+.landing-quiet-link:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); border-radius: 2px; }
+
+/* ── Content bands: method, coverage, agents ─────────────── */
+.landing-band {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 48px 16px;
+  border-top: 1px solid var(--ui-border);
+}
+@media (min-width: 769px) { .landing-band { padding: 64px 48px; } }
+.landing-band-inner { width: min(1180px, 100%); margin: 0 auto; text-align: left; }
+.landing-band-head { max-width: 720px; margin: 0 0 28px; }
+.landing-band-title {
+  margin: 0 0 10px;
+  color: var(--ui-text);
+  font-family: var(--font-family-display);
+  font-size: clamp(26px, 3vw, 36px);
+  font-weight: 600;
+  line-height: 1.12;
+  letter-spacing: -0.015em;
+}
+.landing-band-lede {
+  margin: 0;
+  color: var(--ui-text-secondary);
+  font-size: 1rem;
+  line-height: 1.55;
+}
+.landing-band-label {
+  margin: 0 0 10px;
+  color: var(--ui-text-muted);
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.landing-band-link-row { margin: 20px 0 0; }
+.landing-band-link-row a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  color: var(--color-primary, var(--ui-accent));
+  font-weight: 600;
+  text-decoration: none;
+}
+.landing-band-link-row a:hover { text-decoration: underline; }
+.landing-band-link-row a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); border-radius: 2px; }
+
+/* Pillars: four cards, bar width = share of the 100 points. */
+.landing-pillars {
+  list-style: none;
+  margin: 0 0 28px;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+.landing-pillar {
+  padding: 16px;
+  background: var(--ui-surface);
+  border: 1px solid var(--ui-border);
+  border-radius: 2px;
+}
+.landing-pillar-top { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; margin-bottom: 8px; }
+.landing-pillar-name { color: var(--ui-text); font-weight: 700; font-size: 0.95rem; }
+.landing-pillar-desc { margin: 0; color: var(--ui-text-secondary); font-size: 0.86rem; line-height: 1.5; }
+@media (max-width: 960px) { .landing-pillars { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 520px) { .landing-pillars { grid-template-columns: 1fr; } }
+
+/* Bands: five equal-width name chips (no cutoffs shown). */
+.landing-bands {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 2px;
+}
+.landing-band-seg {
+  flex: 1 1 0;
+  align-items: center;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 10px 8px;
+  background: var(--ui-surface);
+  border: 1px solid var(--ui-border);
+  border-top: 3px solid var(--ui-border-strong);
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+.landing-band-seg[data-band="AAA"], .landing-band-seg[data-band="AA"], .landing-band-seg[data-band="A"] { border-top-color: var(--ui-accent); }
+.landing-band-seg[data-band="BBB"] { border-top-color: var(--ui-warning); }
+.landing-band-seg[data-band="HIGH RISK"] { border-top-color: var(--ui-danger); }
+.landing-band-seg-name { color: var(--ui-text); font-family: var(--font-family-mono, monospace); font-size: 0.8rem; font-weight: 700; white-space: nowrap; }
+@media (max-width: 440px) {
+  .landing-band-seg { padding: 8px 4px; }
+  .landing-band-seg-name { font-size: 0.72rem; }
+}
+
+/* Coverage categories (links into the app's category filter; no counts). */
+.landing-categories { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.landing-category-chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 16px;
+  background: var(--ui-surface);
+  border: 1px solid var(--ui-border);
+  border-radius: 2px;
+  color: var(--ui-text);
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+.landing-category-chip:hover { border-color: var(--ui-border-strong); background: var(--ui-surface-muted); }
+.landing-category-chip:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+
+/* For agents: one line, one link. */
+.landing-agents-inner { display: flex; align-items: center; justify-content: space-between; gap: 16px 32px; flex-wrap: wrap; }
+.landing-agents-inner .landing-band-title { font-size: clamp(20px, 2.2vw, 26px); }
+.landing-agents-inner .landing-band-lede { max-width: 640px; }
+.landing-agents-inner .landing-quiet-link { color: var(--color-primary, var(--ui-accent)); }
+
+@media (prefers-reduced-motion: reduce) {
+  .landing-search-submit:active { transform: none; }
+}
+
+@media (min-width: 769px) {
+  html[data-app-mode="landing"] .landing-underwriting-wrapper { padding-top: 56px; padding-bottom: 64px; }
 }

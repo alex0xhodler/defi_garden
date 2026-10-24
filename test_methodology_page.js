@@ -61,4 +61,8 @@ assert.ok(!/plan\.html|\/for\/|\/stocks|hype-harvest/.test(html), 'no legacy-fea
 // Wired into sitemap + llms generators
 assert.ok(/SITE_URL\}methodology/.test(fs.readFileSync(path.join(__dirname, 'generate-sitemap.js'), 'utf8')), 'sitemap entry');
 assert.ok(/\/methodology/.test(fs.readFileSync(path.join(__dirname, 'generate-llms.js'), 'utf8')), 'llms entry');
+
+// Homepage (landing.js) must carry no score constants either (proprietary, 2026-10-25).
+const landingJs = fs.readFileSync(path.join(__dirname, 'landing.js'), 'utf8');
+assert.ok(!/max: \d+|min: (85|70|55|40)\b|forecast-evaluations|EVALUATIONS_URL/.test(landingJs), 'landing.js must not carry pillar maxima, band cutoffs or the evaluation fetch');
 console.log('methodology page: all assertions passed');

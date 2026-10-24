@@ -4365,36 +4365,17 @@ html[data-app-mode="landing"] .seo-content {
     padding: 72px 32px;
   }
 }
-/* Desktop: two full-screen sections — hero, then rates — with mandatory
-   vertical snapping (wheel/PageDown/Space or the hero's next-section button
-   move one section). The footer is a third, end-aligned snap point so it
-   stays reachable. The app's top padding equals the pinned header, so both
-   sections fill exactly the space under it. Short or narrow viewports keep a
-   plain scroll: content taller than the screen must never be trapped. */
-@media (min-width: 769px) and (min-height: 640px) {
+/* The landing is a plain scrolling document at every size (no snapping, no
+   full-screen sections): hero, four content bands, then #seo-content and the
+   footer. The app's top padding equals the pinned header on desktop. */
+@media (min-width: 769px) {
   html[data-app-mode="landing"] {
     --landing-header-h: 56px;
-    scroll-snap-type: y mandatory;
     scroll-padding-top: var(--landing-header-h);
   }
   html[data-app-mode="landing"] .landing-app {
     padding-top: var(--landing-header-h);
   }
-  html[data-app-mode="landing"] .landing-underwriting-wrapper,
-  html[data-app-mode="landing"] .seo-content {
-    min-height: calc(100svh - var(--landing-header-h));
-    justify-content: center;
-    scroll-snap-align: start;
-  }
-  html[data-app-mode="landing"] .landing-underwriting-wrapper {
-    position: relative;
-  }
-  html[data-app-mode="landing"] .app-footer {
-    scroll-snap-align: end;
-  }
-}
-@media (max-width: 768px), (max-height: 639px) {
-  html[data-app-mode="landing"] .landing-next-section { display: none; }
 }
 
 /* Inner wrapper: centered column, same in every layout. */

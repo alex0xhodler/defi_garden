@@ -1,6 +1,10 @@
-/* Search-first DeFi Garden landing surface.
+/* Methodology-led DeFi Garden landing (2026-10-24 "The Standard"): hero + search,
+ * how the DeFi Score works, a live scored example, coverage and the agent API.
  * Plain React UMD, no JSX or build step. The landing is an entry shell only:
- * real pool data and filtering remain owned by the analytics app. */
+ * real pool data and filtering remain owned by the analytics app. Every number
+ * shown comes from CI data (data/landing-pools.json). The score is proprietary
+ * (2026-10-25): pillar and band NAMES only, no weights or cutoffs; the track
+ * record lives only on /forecast-accuracy. */
 (function () {
   'use strict';
 
@@ -21,14 +25,44 @@
   // baked snapshot values (labelled as such) when that fetch fails. Trust rails
   // (window.TRUST_RAILS) are applied to whichever value is displayed.
   var LANDING_POOLS_URL = '/data/landing-pools.json';
-  // Pillar NAMES only; per-pillar values are the 0-100 `defiScore.pillarsPct`
-  // emitted by the scoring engine. No weights or maxima live in public code.
+  // Pillar NAMES (+ one plain line each); per-pillar values are the 0-100
+  // `defiScore.pillarsPct` emitted by the scoring engine. No weights, maxima or
+  // band cutoffs live in public code (owner decision 2026-10-25).
   var SCORE_PILLARS = [
-    { key: 'stability', labelKey: 'uwPillarStability' },
-    { key: 'sustainability', labelKey: 'uwPillarSustainability' },
-    { key: 'stickiness', labelKey: 'uwPillarStickiness' },
-    { key: 'liquidity', labelKey: 'uwPillarLiquidity' }
+    { key: 'stability', labelKey: 'uwPillarStability', descKey: 'methPillarStabilityDesc' },
+    { key: 'sustainability', labelKey: 'uwPillarSustainability', descKey: 'methPillarSustainabilityDesc' },
+    { key: 'stickiness', labelKey: 'uwPillarStickiness', descKey: 'methPillarStickinessDesc' },
+    { key: 'liquidity', labelKey: 'uwPillarLiquidity', descKey: 'methPillarLiquidityDesc' }
   ];
+  var BAND_NAMES = ['AAA', 'AA', 'A', 'BBB', 'HIGH RISK'];
+  // Categories the analytics app can filter on (app.js CATEGORY_TABS; labels
+  // come from the root navCat* keys). No per-category counts: the CI data has
+  // no category field, so a count here would be a guess.
+  var COVERAGE_CATEGORIES = [
+    { key: 'Lending', labelKey: 'navCatLending' },
+    { key: 'Staking', labelKey: 'navCatStaking' },
+    { key: 'LP/DEX', labelKey: 'navCatLpDex' },
+    { key: 'Yield Derivatives', labelKey: 'navCatYieldDerivatives' },
+    { key: 'RWA', labelKey: 'navCatRwa' }
+  ];
+
+  function trackLanding(cta, extra) {
+    if (typeof Analytics !== 'undefined' && Analytics.track) {
+      Analytics.track('landing_cta_clicked', Object.assign({ cta: cta }, extra || {}));
+    }
+  }
+
+  function formatCount(value) {
+    return new Intl.NumberFormat('en-US').format(value);
+  }
+
+  function isNum(value) { return typeof value === 'number' && isFinite(value); }
+
+  function readCoverage(data) {
+    var c = data && data.coverage;
+    if (!c || !isNum(c.scoredPools) || c.scoredPools <= 0 || !isNum(c.protocols) || !isNum(c.chains)) return null;
+    return c;
+  }
 
   function passesTrustRails(pool) {
     var rails = window.TRUST_RAILS;
@@ -166,9 +200,6 @@
     if (!clean) return null;
 
     var lower = clean.toLowerCase();
-    if (lower.indexOf('opencode') !== -1) {
-      return '/for/claude';
-    }
     var params = new URLSearchParams();
     var token = null;
     var chain = null;
@@ -226,14 +257,6 @@
     return '/?' + params.toString();
   }
 
-  function ExampleChip(props) {
-    return e('button', {
-      type: 'button',
-      className: 'landing-example-chip',
-      onClick: function () { props.onChoose(props.value); }
-    }, props.children);
-  }
-
   function Landing() {
     var languageState = useState(detectLanguage());
     var language = languageState[0];
@@ -256,6 +279,9 @@
     var uwScoredAtState = useState('');
     var uwScoredAt = uwScoredAtState[0];
     var setUwScoredAt = uwScoredAtState[1];
+    var coverageState = useState(null);
+    var coverage = coverageState[0];
+    var setCoverage = coverageState[1];
     var activeUwIdState = useState(null);
     var activeUwId = activeUwIdState[0];
     var setActiveUwId = activeUwIdState[1];
@@ -316,7 +342,6 @@
           'seo-eyebrow': 'seoEyebrow',
           'seo-h1': 'seoH1',
           'seo-lede': 'seoLede',
-          'seo-methodology-cta': 'seoMethodologyCta',
           'seo-rails-p': 'seoRailsP',
           'seo-risk': 'seoRisk',
           'seo-guide-link': 'seoGuideLink',
@@ -364,6 +389,7 @@
           if (cancelled) return;
           var baked = (data.pools || []).map(function (p) { return Object.assign({}, p, { source: 'snapshot' }); });
           setUwScoredAt(data.generatedAt || '');
+          setCoverage(readCoverage(data));
           setUwPools(baked.filter(passesTrustRails));
           return Promise.all(baked.map(function (p) {
             return fetchLivePoint(p.pool)
@@ -397,21 +423,15 @@
     function submitSearch(event) {
       event.preventDefault();
       var href = buildSearchHref(query);
-      if (href) window.location.assign(href);
-    }
-
-    function chooseExample(value) {
-      var href = buildSearchHref(value);
-      if (href) window.location.assign(href);
+      if (!href) return;
+      trackLanding('search', { destination: href === '/?app=1' ? 'app' : 'filtered' });
+      window.location.assign(href);
     }
 
     function closeMenu() { setMenuOpen(false); }
-    function goToRates() {
-      var el = document.getElementById('seo-content');
-      if (!el) return;
-      var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-      el.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
-    }
+
+    var floor = window.TRUST_RAILS ? window.TRUST_RAILS.formatTvlFloor(window.TRUST_RAILS.DEFAULT_MIN_TVL) : '';
+    var hasCoverage = !!(coverage && floor);
 
     return e('div', { className: 'landing-app', 'data-mode': 'landing' },
       e('div', { className: 'landing-backdrop', 'aria-hidden': 'true' },
@@ -462,27 +482,38 @@
                   : copy.uwStatusLoading
               ),
               e('h1', { id: 'landing-uw-title', className: 'landing-spotlight-title' },
-                copy.uwTitleBefore || 'DeFi yields,',
+                copy.uwTitleBefore,
                 e('br'),
-                e('span', { className: 'landing-title-accent' }, copy.uwTitleAccent || 'predictively underwritten.')
+                e('span', { className: 'landing-title-accent' }, copy.uwTitleAccent)
               ),
-              e('p', { className: 'landing-spotlight-subhead' },
-                copy.uwSubhead || 'Yield quality scoring, TVL depth analysis, and 14-day forward yield forecasting. Discover vetted pools with organic cash flows and deep exit liquidity.'
-              ),
-              e('div', { className: 'landing-uw-badges' },
-                e('span', { className: 'landing-uw-badge highlight' }, 'TVL ≥ $10M'),
-                e('span', { className: 'landing-uw-badge highlight' }, 'APY ≥ 5.0%'),
-                e('span', { className: 'landing-uw-badge' }, 'Scored Pools'),
-                e('span', { className: 'landing-uw-badge' }, '14d Forecast')
+              e('p', { className: 'landing-spotlight-subhead' }, copy.uwSubhead),
+              e('form', { className: 'landing-search-form', role: 'search', onSubmit: submitSearch },
+                e('label', { className: 'sr-only', htmlFor: 'landing-search' }, copy.searchLabel),
+                e(SearchIcon),
+                e('input', {
+                  id: 'landing-search', 'data-testid': 'landing-search', className: 'landing-search-input',
+                  type: 'search', value: query, placeholder: copy.searchPlaceholder, autoComplete: 'off',
+                  onChange: function (event) { setQuery(event.target.value); }
+                }),
+                e('button', { type: 'submit', className: 'landing-search-submit' },
+                  e('span', { className: 'landing-search-submit-label' }, copy.searchSubmit),
+                  e(ArrowIcon)
+                )
               ),
               e('div', { className: 'landing-uw-cta-row' },
                 e('a', {
                   className: 'landing-garden-link',
-                  href: '/?chain=Popular&minTvl=10000000&minApy=5',
-                  'data-testid': 'landing-underwriting-cta'
-                }, (copy.uwCta || 'Explore Underwritten Yields') + ' →')
-              ),
-              e('p', { className: 'landing-card-hint' }, copy.uwCtaHint || 'Curated filter: Popular Chains • TVL ≥ $10M • APY ≥ 5%')
+                  href: '/methodology',
+                  'data-testid': 'landing-methodology-cta',
+                  onClick: function () { trackLanding('methodology', { placement: 'hero' }); }
+                }, copy.ctaMethodology),
+                e('a', {
+                  className: 'landing-quiet-link',
+                  href: '/?app=1',
+                  'data-testid': 'landing-underwriting-cta',
+                  onClick: function () { trackLanding('explore_scored_yields', { placement: 'hero' }); }
+                }, copy.ctaExplore + ' →')
+              )
             ),
             activeUwPool
               ? e('aside', { className: 'landing-uw-terminal-card', 'aria-label': copy.uwCardTag },
@@ -549,41 +580,77 @@
               : uwPools === null
                 ? e('div', { className: 'landing-uw-terminal-card landing-uw-skeleton', 'aria-hidden': 'true' })
                 : null
-          ),
-          e('button', {
-            type: 'button',
-            className: 'landing-next-section',
-            'data-testid': 'landing-next-section',
-            onClick: goToRates
-          }, e('span', null, copy.nextSection), e('span', { 'aria-hidden': 'true' }, '↓'))
-        )
-        /* SECTION 2 (Commented out):
-        e('div', { id: 'search-section', className: 'landing-section-wrapper landing-search-wrapper' },
-              e('p', { className: 'landing-hero-body' }, copy.heroBody),
-              e('div', { className: 'landing-chat-console' },
-                e('div', { className: 'landing-chat-header' },
-                  e('div', { className: 'landing-chat-agent-badge' }, e('span', { className: 'landing-chat-spark-dot' }), e('span', null, copy.agentStatus || 'DeFi Garden Yield Agent · Live onchain data')),
-                  e('span', { style: { opacity: 0.65 } }, 'Natural Language Search')
-                ),
-                e('form', { className: 'landing-search-form landing-chat-input-row', onSubmit: submitSearch },
-                  e('label', { className: 'sr-only', htmlFor: 'landing-search' }, copy.searchLabel),
-                  e(SearchIcon),
-                  e('input', { id: 'landing-search', 'data-testid': 'landing-search', className: 'landing-search-input landing-chat-input', type: 'search', value: query, placeholder: copy.searchPlaceholder, onChange: function(event) { setQuery(event.target.value); }, autoComplete: 'off' }),
-                  e('button', { type: 'submit', className: 'landing-search-submit landing-chat-send-btn', 'aria-label': copy.searchSubmit }, e('span', { className: 'landing-search-submit-label' }, copy.searchSubmit), e(ArrowIcon))
-                )
-              ),
-              e('div', { className: 'landing-examples' },
-                e('span', { className: 'landing-examples-label' }, copy.examplesLabel),
-                e(ExampleChip, { value: 'OpenCode Go', onChoose: chooseExample }, '⚡ ' + (copy.exampleOpenCode || 'OpenCode Go')),
-                e(ExampleChip, { value: 'USDC on Base', onChoose: chooseExample }, copy.exampleUsdc),
-                e(ExampleChip, { value: 'Pendle PTs', onChoose: chooseExample }, copy.examplePendle || 'Pendle PTs'),
-                e(ExampleChip, { value: 'Morpho vaults', onChoose: chooseExample }, copy.exampleMorpho || 'Morpho vaults'),
-                e(ExampleChip, { value: 'Kamino lending', onChoose: chooseExample }, copy.exampleKamino || 'Kamino lending')
-              )
+          )
+        ),
+
+        // 2. How the score works: pillar and band NAMES only (proprietary).
+        e('section', { id: 'landing-method', className: 'landing-band', 'data-testid': 'landing-method', 'aria-labelledby': 'landing-method-title' },
+          e('div', { className: 'landing-band-inner' },
+            e('div', { className: 'landing-band-head' },
+              e('h2', { id: 'landing-method-title', className: 'landing-band-title' }, copy.methTitle),
+              e('p', { className: 'landing-band-lede' }, copy.methLede)
+            ),
+            e('p', { className: 'landing-band-label' }, copy.methPillarsLabel),
+            e('ol', { className: 'landing-pillars' },
+              SCORE_PILLARS.map(function (pillar) {
+                return e('li', { key: pillar.key, className: 'landing-pillar', 'data-pillar': pillar.key },
+                  e('div', { className: 'landing-pillar-top' },
+                    e('span', { className: 'landing-pillar-name' }, copy[pillar.labelKey])
+                  ),
+                  e('p', { className: 'landing-pillar-desc' }, copy[pillar.descKey])
+                );
+              })
+            ),
+            e('p', { className: 'landing-band-label' }, copy.methBandsLabel),
+            e('ol', { className: 'landing-bands', 'data-testid': 'landing-bands' },
+              BAND_NAMES.map(function (name) {
+                return e('li', { key: name, className: 'landing-band-seg', 'data-band': name },
+                  e('span', { className: 'landing-band-seg-name' }, name)
+                );
+              })
+            ),
+            e('p', { className: 'landing-band-link-row' },
+              e('a', { href: '/methodology', onClick: function () { trackLanding('methodology', { placement: 'method' }); } }, copy.methLink)
             )
           )
+        ),
+
+        // 3. Coverage. Counts come from data/landing-pools.json `coverage`; categories carry no counts.
+        e('section', { id: 'landing-coverage', className: 'landing-band', 'data-testid': 'landing-coverage', 'aria-labelledby': 'landing-coverage-title' },
+          e('div', { className: 'landing-band-inner' },
+            e('div', { className: 'landing-band-head' },
+              e('h2', { id: 'landing-coverage-title', className: 'landing-band-title' }, copy.covTitle),
+              e('p', { className: 'landing-band-lede' },
+                hasCoverage
+                  ? copy.covLede(formatCount(coverage.scoredPools), formatCount(coverage.protocols), formatCount(coverage.chains), floor)
+                  : (floor ? copy.covLedeNoCount(floor) : ''),
+                ' ', copy.covNote)
+            ),
+            e('p', { className: 'landing-band-label' }, copy.covCategoriesLabel),
+            e('ul', { className: 'landing-categories' },
+              COVERAGE_CATEGORIES.map(function (cat) {
+                return e('li', { key: cat.key },
+                  e('a', {
+                    className: 'landing-category-chip',
+                    href: '/?chain=All&poolTypes=' + encodeURIComponent(cat.key),
+                    onClick: function () { trackLanding('category', { category: cat.key }); }
+                  }, rootCopy[cat.labelKey] || cat.key)
+                );
+              })
+            )
+          )
+        ),
+
+        // 4. For agents.
+        e('section', { id: 'landing-agents', className: 'landing-band', 'data-testid': 'landing-agents', 'aria-labelledby': 'landing-agents-title' },
+          e('div', { className: 'landing-band-inner landing-agents-inner' },
+            e('div', null,
+              e('h2', { id: 'landing-agents-title', className: 'landing-band-title' }, copy.agentsTitle),
+              e('p', { className: 'landing-band-lede' }, copy.agentsBody)
+            ),
+            e('a', { className: 'landing-quiet-link', href: '/mcp', 'data-testid': 'landing-agents-link', onClick: function () { trackLanding('api_mcp'); } }, copy.agentsLink)
+          )
         )
-        */
       ),
       e('footer', { className: 'app-footer' },
         e('p', null,
