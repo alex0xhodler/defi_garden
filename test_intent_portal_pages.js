@@ -180,13 +180,14 @@ console.log('--- Intent Portal Browser Smoke Tests ---');
       });
     }
 
-    await asyncTest('landing nav links into the intent portal (/for/claude)', async () => {
+    await asyncTest('landing nav no longer advertises the intent portal, but /for/claude still loads (legacy-but-live)', async () => {
       const page = await browser.newPage({ viewport: { width: 1280, height: 800 } });
       await page.goto(`http://localhost:${PORT}/`, { waitUntil: 'load' });
-      const link = page.locator('.landing-nav a[data-testid="landing-nav-card"]');
-      await link.waitFor({ timeout: 5000 });
-      assert.strictEqual(await link.getAttribute('href'), '/for/claude');
-      await Promise.all([page.waitForURL(/\/for\/claude/, { timeout: 5000 }), link.click()]);
+      await page.locator('.landing-nav').waitFor({ timeout: 5000 });
+      assert.strictEqual(await page.locator('.landing-nav a[href="/for/claude"]').count(), 0, 'landing nav must not link to /for/claude');
+      const resp = await page.goto(`http://localhost:${PORT}/for/claude`, { waitUntil: 'load' });
+      assert.ok(resp && resp.status() === 200, '/for/claude must keep serving');
+      assert.ok(await page.locator('.landing-nav a[href="/methodology"]').count() === 1, '/for/claude nav carries the new Methodology link');
       await page.close();
     });
 

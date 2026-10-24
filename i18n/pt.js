@@ -55,6 +55,7 @@ const MONTHS = ['jan', 'fev', 'mar', 'abr', 'mai', 'jun', 'jul', 'ago', 'set', '
 
 module.exports = {
   "aiAgents": "Agentes de IA e MCP",
+  "apiLink": "API",
   "apyMean30d": "APY médio de 30d",
   "browseChains": "Explorar redes",
   "browseTokens": "Explorar tokens",
@@ -63,6 +64,8 @@ module.exports = {
   "landing.navAgents": "Agentes de IA e MCP",
   "landing.navClose": "Fechar menu",
   "landing.navMenu": "Abrir menu",
+  "landing.navMethodology": "Metodologia",
+  "landing.navApi": "API",
   "landing.navMobile": "Navegação no celular",
   "landing.navPlanner": "Planejador de poupança",
   "landing.navPrimary": "Navegação principal",
@@ -70,6 +73,7 @@ module.exports = {
   "landing.themeDark": "Mudar para o modo escuro",
   "landing.themeLight": "Mudar para o modo claro",
   "planner.ladderClaude": "Claude Pro",
+  "methodologyLink": "Metodologia",
   "poweredBy": "Com dados da",
   "pspAccessHeading": "Quem pode acessar",
   "pspAccessOpen": "Sem permissão: qualquer pessoa com uma wallet",

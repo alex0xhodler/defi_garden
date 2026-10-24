@@ -507,10 +507,8 @@
     var links = function (mobile) {
       return [
         link('/?app=1', lc.navSearch, { key: 'search' }, mobile),
-        link('/plan.html', lc.navPlanner || 'Savings Planner', { key: 'plan' }, mobile),
-        link('/for/claude', lc.navCard, { key: 'card' }, mobile),
-        link('/stocks', lc.navStocks || 'Stocks', { key: 'stocks', 'aria-current': 'page', 'data-testid': 'landing-nav-stocks' }, mobile),
-        link('/agents', lc.navAgents || 'AI Agents & MCP', { key: 'agents' }, mobile)
+        link('/methodology', lc.navMethodology || 'Methodology', { key: 'methodology' }, mobile),
+        link('/mcp', lc.navApi || 'API', { key: 'api' }, mobile)
       ];
     };
 
@@ -1009,7 +1007,8 @@
         e('p', { className: 'app-footer-hub-links' },
           e('a', { href: '/tokens' }, rc.browseTokens), ' · ',
           e('a', { href: '/chains' }, rc.browseChains), ' · ',
-          e('a', { href: '/agents' }, rc.aiAgents || 'AI Agents & MCP')
+          e('a', { href: '/methodology' }, rc.methodologyLink || 'Methodology'), ' · ',
+          e('a', { href: '/mcp' }, rc.apiLink || 'API')
         )
       )
     );

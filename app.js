@@ -3551,6 +3551,17 @@ function App() {
         )
       ),
 
+      // Primary nav — the same three destinations as the landing header
+      // (Search · Methodology · API). 2026-10-24 "The Standard" decision: the
+      // planner / card / stocks features stay live at their direct URLs but
+      // are no longer advertised here. Hidden <=768px (the header row has no
+      // room at 360px); mobile reaches Methodology + API from the footer.
+      React.createElement('nav', { className: 'app-header-nav', 'aria-label': t('primaryNavLabel') },
+        React.createElement('a', { href: '/?app=1' }, t('navSearchLink')),
+        React.createElement('a', { href: '/methodology' }, t('methodologyLink')),
+        React.createElement('a', { href: '/mcp' }, t('apiLink'))
+      ),
+
       // Controls (theme, language)
       React.createElement('div', { className: 'app-header-controls' },
         // EN/KO switch in-app (changeLanguage); PT/ES are plain links to the
@@ -3621,7 +3632,9 @@ function App() {
           ' · ',
           React.createElement('a', { href: '/chains' }, t('browseChains')),
           ' · ',
-          React.createElement('a', { href: '/agents' }, t('aiAgents'))
+          React.createElement('a', { href: '/methodology' }, t('methodologyLink')),
+          ' · ',
+          React.createElement('a', { href: '/mcp' }, t('apiLink'))
         )
       )
     );
@@ -4124,36 +4137,6 @@ function App() {
             },
               React.createElement('span', { className: 'button-text' }, t('feelingDegen'))
             )
-          ),
-
-          // Garden Planner entry — goal-first invitation under the search buttons.
-          // Plan-aware: if user has a saved plan, show their projection instead of generic CTA.
-          !selectedToken && !chainMode && React.createElement('a', {
-            className: 'planner-entry',
-            href: language !== 'en' ? `plan.html?lang=${language}` : 'plan.html'
-          }, (() => {
-            try {
-              var saved = localStorage.getItem('garden-plan');
-              if (saved) {
-                var p = JSON.parse(saved);
-                if (p && (p.version === 1 || p.version === 2) && p.projection && p.savedAt) {
-                  var year = new Date(p.savedAt).getFullYear() + (p.years || 10);
-                  var projFmt = '$' + Math.round(p.projection).toLocaleString('en-US');
-                  return [
-                    React.createElement('span', { key: 'icon', className: 'planner-entry-icon', 'aria-hidden': 'true' }, '🌱'),
-                    // 225 round 3c: the icon span above already carries the
-                    // sprout — the doubled leading emoji in the text is gone.
-                    React.createElement('span', { key: 'q', className: 'planner-entry-question' }, 'Your garden — ≈ ' + projFmt + ' by ' + year + ' →')
-                  ];
-                }
-              }
-            } catch (e2) {}
-            return [
-              React.createElement('span', { key: 'icon', className: 'planner-entry-icon', 'aria-hidden': 'true' }, '🌱'),
-              React.createElement('span', { key: 'q', className: 'planner-entry-question' }, t('plannerEntryQuestion')),
-              React.createElement('span', { key: 'cta', className: 'planner-entry-cta' }, t('plannerEntryCta'))
-            ];
-          })()
           )
         )
       ),
@@ -4504,7 +4487,9 @@ function App() {
         ' · ',
         React.createElement('a', { href: '/chains' }, t('browseChains')),
         ' · ',
-        React.createElement('a', { href: '/agents' }, t('aiAgents'))
+        React.createElement('a', { href: '/methodology' }, t('methodologyLink')),
+        ' · ',
+        React.createElement('a', { href: '/mcp' }, t('apiLink'))
       ),
 
       // Global dropdowns - rendered at top level to avoid any container overflow issues

@@ -314,8 +314,7 @@
           'seo-eyebrow': 'seoEyebrow',
           'seo-h1': 'seoH1',
           'seo-lede': 'seoLede',
-          'seo-calc-p': 'seoCalcP',
-          'seo-calc-cta': 'seoCalcCta',
+          'seo-methodology-cta': 'seoMethodologyCta',
           'seo-rails-p': 'seoRailsP',
           'seo-risk': 'seoRisk',
           'seo-guide-link': 'seoGuideLink',
@@ -425,10 +424,8 @@
         ),
         e('nav', { className: 'landing-nav', 'aria-label': copy.navPrimary },
           e('a', { href: '/?app=1' }, copy.navSearch),
-          e('a', { href: 'plan.html' }, copy.navPlanner || 'Savings Planner'),
-          e('a', { href: '/for/claude', 'data-testid': 'landing-nav-card' }, copy.navCard),
-          e('a', { href: '/stocks', 'data-testid': 'landing-nav-stocks' }, copy.navStocks || 'Stocks'),
-          e('a', { href: '/agents' }, copy.navAgents || 'AI Agents & MCP')
+          e('a', { href: '/methodology' }, copy.navMethodology || 'Methodology'),
+          e('a', { href: '/mcp' }, copy.navApi || 'API')
         ),
         e('div', { className: 'landing-header-actions' },
           window.LangMenu ? e(window.LangMenu.Menu, {
@@ -448,10 +445,8 @@
 
       e('nav', { className: 'landing-mobile-nav' + (menuOpen ? ' is-open' : ''), 'aria-label': copy.navMobile },
         e('a', { href: '/?app=1', onClick: closeMenu }, copy.navSearch),
-        e('a', { href: 'plan.html', onClick: closeMenu }, copy.navPlanner || 'Savings Planner'),
-        e('a', { href: '/for/claude', onClick: closeMenu, 'data-testid': 'landing-nav-card' }, copy.navCard),
-        e('a', { href: '/stocks', onClick: closeMenu, 'data-testid': 'landing-nav-stocks' }, copy.navStocks || 'Stocks'),
-        e('a', { href: '/agents', onClick: closeMenu }, copy.navAgents || 'AI Agents & MCP')
+        e('a', { href: '/methodology', onClick: closeMenu }, copy.navMethodology || 'Methodology'),
+        e('a', { href: '/mcp', onClick: closeMenu }, copy.navApi || 'API')
       ),
       e('main', { className: 'landing-main' },
         e('div', { id: 'underwriting-section', className: 'landing-section-wrapper landing-underwriting-wrapper' },
@@ -599,7 +594,9 @@
           ' · ',
           e('a', { href: '/chains' }, rootCopy.browseChains),
           ' · ',
-          e('a', { href: '/agents' }, rootCopy.aiAgents || 'AI Agents & MCP')
+          e('a', { href: '/methodology' }, copy.navMethodology || 'Methodology'),
+          ' · ',
+          e('a', { href: '/mcp' }, copy.navApi || 'API')
         )
       )
     );

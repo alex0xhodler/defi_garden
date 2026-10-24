@@ -237,7 +237,7 @@ function renderScorecardHtml(stats) {
     <header class=score-header>
         <a href="/" class="score-logo">DeFi Garden 🌱</a>
         <nav class="score-nav">
-            <a href="/plan.html">Savings Planner</a>
+            <a href="/methodology">Methodology</a>
             <a href="/tokens/usdc">USDC Yields</a>
             <a href="/guide/defi-yield-rates-explained">Yield Guide</a>
             <a href="https://www.defi.garden/">Home</a>

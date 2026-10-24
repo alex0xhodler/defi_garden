@@ -259,9 +259,15 @@ async function main() {
     await page.waitForSelector('.landing-nav', { timeout: 10000 });
     const navText = await page.locator('.landing-nav').innerText();
     assert.ok(!navText.includes('How it works'), 'Topnav must not contain "How it works"');
-    assert.ok(navText.includes('Search yields') && navText.includes('Savings Planner'), 'Topnav contains Search yields and Savings Planner');
-    assert.strictEqual(await page.locator('.landing-nav a[data-testid="landing-nav-card"]').getAttribute('href'), '/for/claude');
-    assert.strictEqual(await page.locator('.landing-mobile-nav a[data-testid="landing-nav-card"]').count(), 1, 'card link also in the mobile menu');
+    // 2026-10-24 "The Standard": the nav is exactly Search · Methodology · API; legacy features are not advertised.
+    assert.deepStrictEqual(
+      await page.locator('.landing-nav a').evaluateAll((as) => as.map((a) => [a.textContent.trim(), a.getAttribute('href')])),
+      [['Search yields', '/?app=1'], ['Methodology', '/methodology'], ['API', '/mcp']],
+      'Topnav is exactly Search / Methodology / API'
+    );
+    assert.strictEqual(await page.locator('.landing-mobile-nav a').count(), 3, 'mobile menu mirrors the 3 nav links');
+    assert.ok(!/Savings Planner|Stocks|card/i.test(navText), 'Topnav must not advertise planner / stocks / card');
+    assert.strictEqual(await page.locator('.landing-nav a[href="/for/claude"], .landing-nav a[href="/stocks"], .landing-nav a[href*="plan.html"], .landing-mobile-nav a[data-testid="landing-nav-card"]').count(), 0, 'no legacy-feature links in nav');
     passed++;
     console.log('  ✓ landing topnav contains clean active links without "How it works"');
 
