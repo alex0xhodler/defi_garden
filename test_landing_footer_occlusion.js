@@ -176,7 +176,7 @@ function rectsIntersect(a, b) {
 // Locates the bottom-most content victim before the footer: the CTA hint / CTA button in hero spotlight.
 async function getVictimBoxes(page) {
   return page.evaluate(() => {
-    const victim = document.querySelector('.landing-card-hint') || document.querySelector('[data-testid="landing-intent-cta"]');
+    const victim = document.querySelector('#seo-content .seo-guide-row') || document.querySelector('.landing-card-hint') || document.querySelector('[data-testid="landing-intent-cta"]');
     const bottomSection = document.querySelector('.landing-hero-spotlight') || document.querySelector('.landing-main');
     let lastDescendant = null;
     if (bottomSection) {

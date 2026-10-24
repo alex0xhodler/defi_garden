@@ -53,7 +53,27 @@ function buildLandingPools(snapshot, ids) {
       forecast: p.forecast || null
     });
   });
-  return { schemaVersion: 1, generatedAt: snapshot.generatedAt, pools: pools };
+  return {
+    schemaVersion: 1,
+    generatedAt: snapshot.generatedAt,
+    coverage: buildCoverage(snapshot),
+    pools: pools
+  };
+}
+
+// Homepage coverage line. Counts only pools that actually carry a DeFi Score
+// (the same population the published scores cover), so the landing never
+// claims more than the data behind /pools and the API. There is deliberately
+// no per-category count: the snapshot has no category field (the app derives
+// categories client-side), so any category number here would be a guess.
+function buildCoverage(snapshot) {
+  const scored = (snapshot.pools || []).filter(p => p && p.defiScore && typeof p.defiScore.score === 'number');
+  return {
+    scoredPools: scored.length,
+    protocols: new Set(scored.map(p => p.project)).size,
+    chains: new Set(scored.map(p => p.chain)).size,
+    minTvlUsd: snapshot.minTvlUsd == null ? null : snapshot.minTvlUsd
+  };
 }
 
 function main() {
@@ -85,4 +105,4 @@ function main() {
 
 if (require.main === module) main();
 
-module.exports = { buildLandingPools, LANDING_POOL_IDS };
+module.exports = { buildLandingPools, buildCoverage, LANDING_POOL_IDS };

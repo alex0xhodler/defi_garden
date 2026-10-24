@@ -39,6 +39,13 @@ check('carries the snapshot generatedAt', () => {
   assert.strictEqual(out.generatedAt, snapshot.generatedAt);
 });
 
+check('coverage counts only scored pools, distinct protocols and chains', () => {
+  assert.deepStrictEqual(out.coverage, { scoredPools: 3, protocols: 3, chains: 2, minTvlUsd: null });
+});
+check('coverage carries no per-category counts (the snapshot has no category field)', () => {
+  assert.deepStrictEqual(Object.keys(out.coverage).sort(), ['chains', 'minTvlUsd', 'protocols', 'scoredPools']);
+});
+
 const committed = path.join(__dirname, 'data', 'landing-pools.json');
 check('committed data/landing-pools.json matches the curated list and is scored', () => {
   const data = JSON.parse(fs.readFileSync(committed, 'utf8'));

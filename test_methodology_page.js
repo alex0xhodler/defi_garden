@@ -51,4 +51,12 @@ assert.ok(!/plan\.html|\/for\/|\/stocks|hype-harvest/.test(html), 'no legacy-fea
 // Wired into sitemap + llms generators
 assert.ok(/SITE_URL\}methodology/.test(fs.readFileSync(path.join(__dirname, 'generate-sitemap.js'), 'utf8')), 'sitemap entry');
 assert.ok(/\/methodology/.test(fs.readFileSync(path.join(__dirname, 'generate-llms.js'), 'utf8')), 'llms entry');
+
+// Homepage (landing.js) score model must equal the scoring code too: same pillar caps and band cutoffs.
+const landingJs = fs.readFileSync(path.join(__dirname, 'landing.js'), 'utf8');
+const pillarMax = [...landingJs.matchAll(/key: '(\w+)', max: (\d+),/g)].map(x => [x[1], Number(x[2])]);
+assert.deepStrictEqual(pillarMax, [['stability', 35], ['sustainability', 25], ['stickiness', 25], ['liquidity', 15]], 'landing.js pillar caps');
+assert.strictEqual(pillarMax.reduce((n, x) => n + x[1], 0), 100, 'pillars sum to 100');
+const bandMins = [...landingJs.matchAll(/\{ name: '([A-Z ]+)', min: (\d+) \}/g)].map(x => [x[1], Number(x[2])]);
+assert.deepStrictEqual(bandMins, [['AAA', aaa], ['AA', aa], ['A', a], ['BBB', bbb], ['HIGH RISK', 0]], 'landing.js band cutoffs match compute-forecasts.py');
 console.log('methodology page: all assertions passed');
