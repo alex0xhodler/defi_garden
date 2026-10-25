@@ -1543,7 +1543,7 @@ function App() {
       var data = await response.json();
       poolsSourceRef.current = 'live';
 
-      // Merge CI-baked KPIs, TimesFM forecasts, and DeFi Scores onto live pools
+      // Merge CI-baked KPIs, forecasts, and DeFi Scores onto live pools
       try {
         var snapRes = await fetch('/data/pools-snapshot.json');
         if (snapRes.ok) {
@@ -1725,7 +1725,7 @@ function App() {
         if (!alive) return;
         poolsSourceRef.current = 'live';
 
-        // Merge CI-baked KPIs, TimesFM forecasts, and DeFi Scores onto live pools
+        // Merge CI-baked KPIs, forecasts, and DeFi Scores onto live pools
         try {
           var snapRes = await fetch('/data/pools-snapshot.json');
           if (snapRes.ok) {
@@ -3384,7 +3384,7 @@ function App() {
       className: 'pool-symbol'
     }, pool.symbol), pool.defiScore && typeof pool.defiScore.score === 'number' && React.createElement('div', {
       className: 'pool-score-chip',
-      title: t ? t('defiScoreTooltip', pool.defiScore.score, pool.defiScore.rating) : `DeFi Health Score: ${pool.defiScore.score}/100 (${pool.defiScore.rating})\n\nInstitutional rating based on 4 pillars:\n• Yield Stability (35%): AI forward volatility via Quant AI\n• Sustainability (25%): Organic fees vs reward emissions\n• Capital Stickiness (25%): Depositor retention & whale concentration\n• Exit Liquidity (15%): Total depth & withdrawal capacity`
+      title: t ? t('defiScoreTooltip', pool.defiScore.score, pool.defiScore.rating) : `DeFi Health Score: ${pool.defiScore.score}/100 (${pool.defiScore.rating})\n\nYield quality across four pillars: yield stability, sustainability, capital stickiness and exit liquidity. DeFi Garden's own model output, not a credit rating.`
     }, React.createElement('span', null, 'Score'), React.createElement('strong', null, Math.round(pool.defiScore.score)))), React.createElement('div', {
       className: 'pool-context-inline'
     }, t('onProtocolChain', pool.project, pool.chain, protocolUrl)))), React.createElement('div', {

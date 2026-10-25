@@ -1,10 +1,9 @@
-// /methodology (2026-10-24 "The Standard"): static page whose numbers must match the scoring code.
+// /methodology (2026-10-24 "The Standard"): static public page. Public level only (2026-10-25): no internals.
 const assert = require('assert');
 const fs = require('fs');
 const path = require('path');
 
 const html = fs.readFileSync(path.join(__dirname, 'methodology.html'), 'utf8');
-const py = fs.readFileSync(path.join(__dirname, 'compute-forecasts.py'), 'utf8');
 
 // Metadata
 assert.ok(/<title>[^<]*Methodology[^<]*<\/title>/.test(html), 'title mentions Methodology');
@@ -17,21 +16,32 @@ const article = blocks.find(b => b['@type'] === 'TechArticle');
 assert.ok(article && /^\d{4}-\d{2}-\d{2}$/.test(article.datePublished) && /^\d{4}-\d{2}-\d{2}$/.test(article.dateModified), 'TechArticle with ISO dates');
 assert.ok(blocks.some(b => b['@type'] === 'BreadcrumbList'), 'BreadcrumbList');
 
-// Band thresholds on the page must be the ones in compute-forecasts.py
-const m = py.match(/rating = "AAA" if total >= (\d+) else "AA" if total >= (\d+) else "A" if total >= (\d+) else "BBB" if total >= (\d+) else "HIGH RISK"/);
-assert.ok(m, 'rating line found in compute-forecasts.py');
-const [aaa, aa, a, bbb] = m.slice(1).map(Number);
+// PROPRIETARY (owner decision 2026-10-25, "what, not how"): the page names the bands and
+// the four pillars, and must NOT reveal weights, cutoffs, formulas, constants, model or inputs.
 const flat = html.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ');
-assert.ok(flat.includes(`AAA 85 or higher`.replace('85', aaa)), 'AAA threshold');
-assert.ok(flat.includes(`AA ${aa} to below ${aaa}`), 'AA range');
-assert.ok(flat.includes(`A ${a} to below ${aa}`), 'A range');
-assert.ok(flat.includes(`BBB ${bbb} to below ${a}`), 'BBB range');
-assert.ok(flat.includes(`HIGH RISK below ${bbb}`), 'HIGH RISK range');
-
-// Pillar weights on the page must be the ones in the scoring code (35/25/25/15 = 100)
-const caps = { stability: /min\(35\.0,/, sustainability: /10\.0 \* organic_ratio/, stickiness: /stickiness = 25\.0/, liquidity: /liquidity = 15\.0/ };
-Object.values(caps).forEach(re => assert.ok(re.test(py), 'pillar cap present in code: ' + re));
-['Stability 35', 'Sustainability 25', 'Stickiness 25', 'Liquidity 15'].forEach(s => assert.ok(flat.includes(s), s));
+['AAA', 'AA', 'A', 'BBB', 'HIGH RISK'].forEach(b => assert.ok(new RegExp('<strong>' + b + '</strong>').test(html), 'band name ' + b));
+['Yield stability', 'Sustainability', 'Capital stickiness', 'Exit liquidity'].forEach(p => assert.ok(flat.includes(p), 'pillar name ' + p));
+assert.ok(/low, central and high/i.test(flat), 'forecast described as a low / central / high range');
+const HIDDEN = [
+  [/\b(35|25|15)\s*(pts?|points?|%)/i, 'pillar weights'],
+  [/(Stability|Sustainability|Stickiness|Liquidity)\s*(\(up to )?\d+\b/, 'pillar weight next to a pillar name'],
+  [/max(imum)? points/i, 'max points column'],
+  [/(≥|>=)\s*(85|70|55|40)\b/, 'band cutoffs'],
+  [/\b(85|70|55|40)\s+(or higher|to below)/i, 'band ranges'],
+  [/below (85|70|55|40)\b/i, 'band ranges'],
+  [/timesfm/i, 'model name'],
+  [/google\//i, 'model vendor path'],
+  [/alchemy/i, 'on-chain provider'],
+  [/\baave v3\b/i, 'telemetry market'],
+  [/\bwhale|churn|skewness|Bowley|haircut\b/i, 'internal factors'],
+  [/\b(30|14) (daily )?points?\b|at least 14 daily|last 30 daily/i, 'model input windows'],
+  [/\bp(10|50|90)\b/i, 'quantile jargon'],
+  [/\d\.\d+ ?×|× ?\d/, 'formula coefficients']
+];
+HIDDEN.forEach(([re, why]) => assert.ok(!re.test(flat), 'methodology page must not reveal ' + why + ': ' + (flat.match(re) || [])[0]));
+// No track-record numbers and no live summary fetch (the track record lives only on /forecast-accuracy)
+assert.ok(!/forecast-evaluations/.test(html) && !/<script>(?![^<]*ld\+json)/.test(html.replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/g, '').replace(/<script>try\{var th[\s\S]*?<\/script>/, '')), 'no fetch of evaluation data / no page script');
+assert.ok(!/skill score|band capture|resolved runs|median/i.test(flat), 'no track-record metrics on /methodology');
 
 // Trust rails must match the shared constants
 const rails = require('./trust-rails.js');

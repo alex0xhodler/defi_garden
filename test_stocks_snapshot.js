@@ -29,7 +29,7 @@ function pool(over) {
     tvlUsd: 1700045, apyBase: 47.72533, apyReward: 253.26485, apyMean30d: 100, poolMeta: 'CL10 - 0.05%',
     exposure: 'multi', ilRisk: 'yes', underlyingTokens: [USDC_BASE, MSTRC],
     forecast: { horizonDays: 14, p10: 43.06, p50: 1651.98, p90: 3896.8 },
-    defiScore: { score: 51.5, rating: 'BBB', breakdown: { stability: 10, sustainability: 16.6, stickiness: 21.2, liquidity: 3.6 } }
+    defiScore: { score: 51.5, rating: 'BBB', pillarsPct: { stability: 29, sustainability: 66, stickiness: 85, liquidity: 24 }, breakdown: { stability: 10, sustainability: 16.6, stickiness: 21.2, liquidity: 3.6 } }
   }, over || {});
 }
 const build = pools => buildStocksSnapshot({ generatedAt: '2026-10-11T08:18:18.526Z', pools: pools }, registry, { generatedAt: '2026-10-12T00:00:00.000Z' });
@@ -144,10 +144,10 @@ check('vault wrappers and unrecognised counterparties are excluded with a reason
   assert.deepStrictEqual(out.excluded.map(e => e.reason).sort(), ['unrecognized-counterparty', 'vault-wrapper']);
 });
 
-check('defiScore passes through unchanged; onchain hints carry chain, tokens, AMM type, tick spacing', () => {
+check('defiScore passes through as score + band + pillarsPct only (raw points dropped); onchain hints carry chain, tokens, AMM type, tick spacing', () => {
   const src = pool();
   const p = build([src]).pools[0];
-  assert.deepStrictEqual(p.defiScore, src.defiScore);
+  assert.deepStrictEqual(p.defiScore, { score: src.defiScore.score, rating: src.defiScore.rating, pillarsPct: src.defiScore.pillarsPct });
   assert.strictEqual(p.onchain.chain, 'Base');
   assert.strictEqual(p.onchain.chainId, 8453);
   assert.strictEqual(p.onchain.ammType, 'slipstream-cl');
@@ -314,7 +314,9 @@ check('slim payload: carries only rendered fields (no onchain hints, trajectorie
   assert.strictEqual(slim.pools.length, 2);
   const json = JSON.stringify(slim);
   ['onchain', 'trajectory', 'p50', 'excluded":[', 'poolAddress', 'heuristicClip'].forEach(k => assert.ok(json.indexOf(k) < 0, k));
-  assert.deepStrictEqual(slim.forecast.eval, { baselineWins: 8, runs: 15 });
+  assert.strictEqual(slim.forecast.eval, null, 'track-record run counts must not be carried (only /forecast-accuracy)');
+  assert.ok(!/breakdown/.test(JSON.stringify(full)), 'full snapshot must not carry raw pillar points');
+  assert.deepStrictEqual(slim.pools[0].score, { v: 51.5, r: 'BBB', st: 29, su: 66, sk: 85, li: 24 });
   const p = slim.pools[0];
   assert.strictEqual(p.id, full.pools[0].pool);
   assert.strictEqual(p.proj, full.pools[0].honestProjection);

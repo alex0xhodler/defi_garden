@@ -21,11 +21,13 @@
   // baked snapshot values (labelled as such) when that fetch fails. Trust rails
   // (window.TRUST_RAILS) are applied to whichever value is displayed.
   var LANDING_POOLS_URL = '/data/landing-pools.json';
+  // Pillar NAMES only; per-pillar values are the 0-100 `defiScore.pillarsPct`
+  // emitted by the scoring engine. No weights or maxima live in public code.
   var SCORE_PILLARS = [
-    { key: 'stability', max: 35, labelKey: 'uwPillarStability' },
-    { key: 'sustainability', max: 25, labelKey: 'uwPillarSustainability' },
-    { key: 'stickiness', max: 25, labelKey: 'uwPillarStickiness' },
-    { key: 'liquidity', max: 15, labelKey: 'uwPillarLiquidity' }
+    { key: 'stability', labelKey: 'uwPillarStability' },
+    { key: 'sustainability', labelKey: 'uwPillarSustainability' },
+    { key: 'stickiness', labelKey: 'uwPillarStickiness' },
+    { key: 'liquidity', labelKey: 'uwPillarLiquidity' }
   ];
 
   function passesTrustRails(pool) {
@@ -522,10 +524,11 @@
                   ),
                   e('div', { className: 'landing-uw-pillars-grid' },
                     SCORE_PILLARS.map(function (pillar) {
-                      var pts = activeUwPool.defiScore.breakdown && activeUwPool.defiScore.breakdown[pillar.key];
+                      var pct = activeUwPool.defiScore.pillarsPct && activeUwPool.defiScore.pillarsPct[pillar.key];
+                      var hasPct = typeof pct === 'number' && isFinite(pct);
                       return e('div', { key: pillar.key, className: 'landing-uw-pillar' },
                         e('div', { className: 'landing-uw-pillar-name' }, copy[pillar.labelKey]),
-                        e('div', { className: 'landing-uw-pillar-val' }, (typeof pts === 'number' ? pts.toFixed(1) : '—') + ' / ' + pillar.max)
+                        hasPct ? e('div', { className: 'landing-uw-pillar-val' }, Math.round(pct) + ' / 100') : null
                       );
                     })
                   ),

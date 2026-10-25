@@ -35,6 +35,27 @@ const LANDING_POOL_IDS = [
   '0e7d0722-9054-4907-8593-567b353c0900'  // JITOSOL · jito-liquid-staking · Solana
 ];
 
+// PUBLIC serialization (owner decision 2026-10-25, "what, not how"): the landing
+// slice carries the total score, the band name and the per-pillar 0-100 values
+// (defiScore.pillarsPct, emitted by the scoring engine). Raw pillar points or
+// any other internal field are never copied through.
+const PILLAR_KEYS = ['stability', 'sustainability', 'stickiness', 'liquidity'];
+function publicScore(ds) {
+  const out = { score: ds.score, rating: ds.rating };
+  const pp = ds.pillarsPct;
+  if (pp && PILLAR_KEYS.every(k => Number.isFinite(pp[k]))) {
+    out.pillarsPct = {};
+    PILLAR_KEYS.forEach(k => { out.pillarsPct[k] = Math.max(0, Math.min(100, Math.round(pp[k]))); });
+  }
+  return out;
+}
+function publicForecast(f) {
+  if (!f) return null;
+  const out = {};
+  ['horizonDays', 'p10', 'p50', 'p90', 'crashRisk'].forEach(k => { if (f[k] !== undefined) out[k] = f[k]; });
+  return out;
+}
+
 function buildLandingPools(snapshot, ids) {
   const byId = new Map();
   (snapshot.pools || []).forEach(p => { if (p && p.pool) byId.set(p.pool, p); });
@@ -49,8 +70,8 @@ function buildLandingPools(snapshot, ids) {
       chain: p.chain,
       tvlUsd: p.tvlUsd,
       apy: Math.round(((Number(p.apyBase) || 0) + (Number(p.apyReward) || 0)) * 100) / 100,
-      defiScore: p.defiScore,
-      forecast: p.forecast || null
+      defiScore: publicScore(p.defiScore),
+      forecast: publicForecast(p.forecast)
     });
   });
   return { schemaVersion: 1, generatedAt: snapshot.generatedAt, pools: pools };

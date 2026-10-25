@@ -399,7 +399,12 @@ const MUST_EXCLUDE = [
   'src/poller.js', 'src/poller-core.js',
   'edge/agent-log-core.js', 'edge/agent-log.mjs', 'edge/wrangler.toml',
   'test_fixtures/pools-sample.json', 'test-fixtures/pre166/llms-pre166.txt',
+  // 2026-10-25 (proprietary DeFi Score): engine/ops source must not be served
+  'scripts/evaluate-forecast-accuracy.js', 'keeper/keeper_engine.py', 'tests/test_lending_core.py',
+  'DESIGN.md', 'PRODUCT.md',
 ];
+// The scoring engine is being moved to a private repo; assert it is never served while it is still tracked.
+if (ALL_FILES.includes('compute-forecasts.py')) MUST_EXCLUDE.push('compute-forecasts.py');
 
 // .github's tracked file (workflow path may vary) — resolved from the
 // real tree rather than hardcoded, so this doesn't rot if the workflow file

@@ -30,30 +30,9 @@ function getSnapshot() {
   return { pools, asOf };
 }
 
-let _forecastEval;
-function getForecastEvaluations() {
-  if (_forecastEval !== undefined) return _forecastEval;
-  _forecastEval = readJsonSafe(() => fs.readFileSync(path.join(__dirname, '../data/forecast-evaluations.json'), 'utf8'));
-  return _forecastEval;
-}
-
-/** Forecast status sentence, built from data/forecast-evaluations.json (never typed in). */
+/** Forecast status sentence. Track-record numbers live ONLY on /forecast-accuracy (owner decision 2026-10-25). */
 function forecastStatus() {
-  const generic = "Experimental forward forecast: not shown to be more accurate than assuming today's rate holds.";
-  const ev = getForecastEvaluations();
-  const summary = ev && ev.summary;
-  if (!summary || !Number.isFinite(Number(summary.totalRuns)) || Number(summary.totalRuns) <= 0) return generic;
-  const totalRuns = Number(summary.totalRuns);
-  let sentence = `Experimental forward forecast: across ${totalRuns} resolved test runs`;
-  if (Number.isFinite(Number(summary.medianSkillScore))) {
-    sentence += `, median skill score vs. assuming today's rate holds was ${Number(summary.medianSkillScore)} (at or below 0 means no better)`;
-  }
-  const runs = Array.isArray(ev.resolvedRuns) ? ev.resolvedRuns : null;
-  if (runs && runs.length) {
-    const noBetter = runs.filter(r => r && r.overall && Number(r.overall.skillScore) <= 0).length;
-    sentence += `; in ${noBetter} of ${runs.length} runs assuming today's rate holds was at least as accurate`;
-  }
-  return sentence + '.';
+  return "Experimental forward forecast: not yet shown to be more accurate than assuming today's rate holds. Public track record: https://www.defi.garden/forecast-accuracy";
 }
 
 const TRUST_RAILS = {
@@ -98,7 +77,7 @@ const MCP_TOOLS = [
   },
   {
     name: "get_pool_score",
-    description: "Retrieve the DeFi Score (0-100) with its 4-pillar breakdown (stability, fee sustainability, depositor stickiness, exit liquidity), the experimental 14-day forward yield forecast bands (p10/p50/p90), and retail access restrictions. Look up by pool_id, or by exact asset symbol (highest-TVL railed match, with candidates listed). The forecast is experimental.",
+    description: "Retrieve the DeFi Score (0-100) with its band name (AAA to HIGH RISK; DeFi Garden's own model output, not a credit rating), per-pillar values from 0 to 100 (yield stability, sustainability, capital stickiness, exit liquidity), the experimental 14-day forward yield forecast range (low / central / high), and retail access restrictions. Look up by pool_id, or by exact asset symbol (highest-TVL railed match, with candidates listed). The forecast is experimental.",
     inputSchema: {
       type: "object",
       properties: {
@@ -299,7 +278,8 @@ function handleToolCall(name, args, pools) {
       },
       defi_score: pool.defiScore ? {
         score: pool.defiScore.score,
-        breakdown: pool.defiScore.breakdown,
+        rating: pool.defiScore.rating || null,
+        pillars_pct: pool.defiScore.pillarsPct || null,
         note: "Yield quality score based on stability, fee sustainability, depositor stickiness, and exit liquidity. Not a smart-contract or exploit safety audit."
       } : null,
       forecast: pool.forecast ? {

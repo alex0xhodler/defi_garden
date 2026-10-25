@@ -323,12 +323,12 @@
   var useRef = R.useRef;
   var useMemo = R.useMemo;
 
-  // Score pillar maxima, mirrored read-only from landing.js SCORE_PILLARS.
+  // Score pillar NAMES; values are the engine's 0-100 per-pillar field (pillarsPct).
   var SCORE_PILLARS = [
-    { key: 'st', max: 35, labelKey: 'pillarStability' },
-    { key: 'su', max: 25, labelKey: 'pillarSustainability' },
-    { key: 'sk', max: 25, labelKey: 'pillarStickiness' },
-    { key: 'li', max: 15, labelKey: 'pillarLiquidity' }
+    { key: 'st', labelKey: 'pillarStability' },
+    { key: 'su', labelKey: 'pillarSustainability' },
+    { key: 'sk', labelKey: 'pillarStickiness' },
+    { key: 'li', labelKey: 'pillarLiquidity' }
   ];
   var CLOCK_TICK_MS = 30000;
   var ET_ZONE = 'America/New_York';
@@ -563,7 +563,7 @@
     var s = props.pool.score, copy = props.copy;
     if (!s) return e('span', { className: 'stocks-muted' }, copy.scoreNone);
     var pillars = SCORE_PILLARS.map(function (pl) {
-      return copy[pl.labelKey] + ' ' + fmtScore(s[pl.key], copy.dash) + '/' + pl.max;
+      return isNum(s[pl.key]) ? copy[pl.labelKey] + ' ' + fmtInt(s[pl.key], copy.dash) + '/100' : copy[pl.labelKey];
     }).join(' · ');
     return e('div', { className: 'stocks-score' },
       e(Tip, { text: pillars + '. ' + copy.scoreTip, label: copy.colScore + ' ' + fmtScore(s.v, copy.dash) },
@@ -792,9 +792,6 @@
   }
 
   function forecastNoteFor(copy, forecast) {
-    if (forecast && forecast.eval && isNum(forecast.eval.baselineWins) && isNum(forecast.eval.runs)) {
-      return copy.forecastEval(fmtInt(forecast.eval.baselineWins, copy.dash), fmtInt(forecast.eval.runs, copy.dash));
-    }
     return copy.forecastEvalGeneric;
   }
 

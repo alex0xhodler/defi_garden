@@ -4,24 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Methodology: How the DeFi Score and 14-Day Forecast Work | DeFi Garden</title>
-    <meta name="description" content="How DeFi Garden builds the 0-100 DeFi Score (stability, sustainability, stickiness, liquidity), the AAA to HIGH RISK bands, the 14-day yield forecast, the trust rails and the public accuracy test. Education, not advice.">
+    <meta name="description" content="How DeFi Garden builds the 0-100 DeFi Score (yield stability, sustainability, capital stickiness, exit liquidity), the AAA to HIGH RISK bands, the 14-day yield forecast range, the trust rails and the public track record. Education, not advice.">
     <link rel="canonical" href="https://www.defi.garden/methodology">
     <meta name="robots" content="index,follow">
     <meta property="og:type" content="article">
     <meta property="og:title" content="Methodology: How the DeFi Score and 14-Day Forecast Work | DeFi Garden">
-    <meta property="og:description" content="Exact score components and weights, band thresholds, forecast model, trust rails and how accuracy is measured.">
+    <meta property="og:description" content="What the DeFi Score reflects, the AAA to HIGH RISK bands, the 14-day forecast range, trust rails and where to find the public track record.">
     <meta property="og:url" content="https://www.defi.garden/methodology">
     <meta property="og:site_name" content="DeFi Garden">
     <meta property="og:image" content="https://www.defi.garden/og-image.png">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Methodology: How the DeFi Score and 14-Day Forecast Work | DeFi Garden">
-    <meta name="twitter:description" content="Exact score components and weights, band thresholds, forecast model, trust rails and how accuracy is measured.">
+    <meta name="twitter:description" content="What the DeFi Score reflects, the AAA to HIGH RISK bands, the 14-day forecast range, trust rails and where to find the public track record.">
     <meta name="twitter:image" content="https://www.defi.garden/og-image.png">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
     <link rel="preload" href="/fonts/PublicSans-latin-var.woff2" as="font" type="font/woff2" crossorigin>
     <script>try{var th=localStorage.getItem('theme');if(th)document.documentElement.setAttribute('data-theme',th)}catch(e){}</script>
     <link rel="stylesheet" href="/style.css">
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","headline":"Methodology: how the DeFi Score and the 14-day yield forecast work","description":"How DeFi Garden builds the 0-100 DeFi Score, the AAA to HIGH RISK bands, the 14-day yield forecast, the trust rails and the public accuracy test.","url":"https://www.defi.garden/methodology","mainEntityOfPage":"https://www.defi.garden/methodology","inLanguage":"en","datePublished":"2026-10-24","dateModified":"2026-10-24","author":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden/"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden/","logo":{"@type":"ImageObject","url":"https://www.defi.garden/og-image.png"}}}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","headline":"Methodology: how the DeFi Score and the 14-day yield forecast work","description":"What the 0-100 DeFi Score reflects, the AAA to HIGH RISK bands, the 14-day yield forecast range, the trust rails and where the public track record lives.","url":"https://www.defi.garden/methodology","mainEntityOfPage":"https://www.defi.garden/methodology","inLanguage":"en","datePublished":"2026-10-24","dateModified":"2026-10-25","author":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden/"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden/","logo":{"@type":"ImageObject","url":"https://www.defi.garden/og-image.png"}}}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"DeFi Garden","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Methodology","item":"https://www.defi.garden/methodology"}]}</script>
     <style>
       .meth-header {
@@ -136,20 +136,6 @@
       }
       .meth-table tr:last-child td { border-bottom: none; }
       .meth-table td.num, .meth-table th.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
-      .meth-kpis {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
-        gap: 12px;
-        margin: 14px 0 6px;
-      }
-      .meth-kpi {
-        background: var(--ui-surface);
-        border: 1px solid var(--ui-border);
-        border-radius: var(--ui-radius-md);
-        padding: 14px 16px;
-      }
-      .meth-kpi .k { font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--ui-text-muted); font-weight: 600; margin: 0 0 4px; }
-      .meth-kpi .v { font-size: 1.4rem; font-weight: 700; font-variant-numeric: tabular-nums; line-height: 1.2; margin: 0; }
       .meth-small { font-size: 0.86rem !important; color: var(--ui-text-secondary); }
       .meth-footer {
         max-width: 860px;
@@ -181,9 +167,9 @@
 
     <main class="meth-wrap">
         <h1>Methodology: how the DeFi Score and the 14-day forecast work</h1>
-        <p class="meth-byline">DeFi Garden Research · Last updated October 24, 2026 · Education, not financial advice.</p>
+        <p class="meth-byline">DeFi Garden Research · Last updated October 25, 2026 · Education, not financial advice.</p>
 
-        <p class="meth-lede">DeFi Garden gives every scored DeFi yield a <strong>DeFi Score from 0 to 100</strong> and a <strong>14-day forecast range</strong> for its rate, and publishes a running test of how well those forecasts hold up. This page describes exactly how each part is computed, what the data sources are, what the safeguards are, and where the method is weak. Everything below is taken from the scoring code and the evaluation protocol, not from marketing copy.</p>
+        <p class="meth-lede">DeFi Garden gives every scored DeFi yield a <strong>DeFi Score from 0 to 100</strong> and a <strong>14-day forecast range</strong> for its rate. This page explains what the score reflects, what the safeguards are, where the data comes from and where the method is weak. It describes the what, not the recipe: the exact weights, thresholds and model internals are proprietary.</p>
 
         <div class="meth-notice" role="note">
             <p><strong>Not a credit rating.</strong> The AAA, AA, A, BBB and HIGH RISK bands are DeFi Garden's own model output. They are not a credit rating issued by a registered credit rating agency, and they are not a statement about default probability or about a protocol's security.</p>
@@ -193,12 +179,12 @@
             <strong>On this page</strong>
             <ol>
                 <li><a href="#what-it-is">What the DeFi Score is</a></li>
-                <li><a href="#components">What goes into it</a></li>
+                <li><a href="#components">What it reflects</a></li>
                 <li><a href="#bands">The bands</a></li>
                 <li><a href="#forecast">The 14-day forecast</a></li>
-                <li><a href="#data">Data sources</a></li>
+                <li><a href="#data">Data source</a></li>
                 <li><a href="#rails">Trust rails</a></li>
-                <li><a href="#accuracy">How accuracy is measured</a></li>
+                <li><a href="#accuracy">How accuracy is checked</a></li>
                 <li><a href="#coverage">Coverage</a></li>
                 <li><a href="#limitations">Limitations</a></li>
                 <li><a href="#advice">Education, not financial advice</a></li>
@@ -206,125 +192,63 @@
         </nav>
 
         <h2 id="what-it-is">1. What the DeFi Score is</h2>
-        <p>The DeFi Score is a number from 0 to 100, rounded to one decimal place, that summarizes the <em>quality of a pool's yield</em>: how stable the rate is expected to be, how much of it comes from organic fees rather than temporary incentives, whether deposits are expected to stay, and how deep the pool is. Higher is better.</p>
+        <p>The DeFi Score is a number from 0 to 100 that summarizes the <em>quality of a pool's yield</em>: how stable the rate is expected to be, how much of it comes from organic fees rather than temporary incentives, whether deposits are expected to stay, and how easy it is to get out. Higher is better.</p>
         <p><strong>It is a yield-quality score, not a safety audit.</strong> No smart-contract audit, exploit history, oracle design, admin-key, governance, collateral or curator-risk information goes into it. A pool with a flat, organic, deep yield can score high and still be exploited. Pool pages carry the same note.</p>
 
-        <h2 id="components">2. What goes into it</h2>
-        <p>The score is the sum of four pillars. The weights below are the maximum points each pillar can contribute; they add up to 100.</p>
+        <h2 id="components">2. What it reflects</h2>
+        <p>The score combines four pillars. Each pillar is a different question about the yield.</p>
         <div class="meth-table">
             <table>
-                <thead><tr><th>Pillar</th><th class="num">Max points</th><th>What it measures</th></tr></thead>
+                <thead><tr><th>Pillar</th><th>What it reflects</th></tr></thead>
                 <tbody>
-                    <tr><td><strong>Stability</strong></td><td class="num">35</td><td>How narrow the forecast range is relative to the current rate, minus a penalty for a heavy downside tail.</td></tr>
-                    <tr><td><strong>Sustainability</strong></td><td class="num">25</td><td>The organic (fee-based) share of the forecast yield, plus the expected direction of the rate.</td></tr>
-                    <tr><td><strong>Stickiness</strong></td><td class="num">25</td><td>Whether deposits are expected to stay, based on forecast TVL change, and (where available) depositor concentration and churn.</td></tr>
-                    <tr><td><strong>Liquidity</strong></td><td class="num">15</td><td>Pool size (TVL) on a scale that tops out at $500M, plus a utilization headroom term.</td></tr>
+                    <tr><td><strong>Yield stability</strong></td><td>How steady the rate is expected to be over the forecast window, and how much room there is for it to fall.</td></tr>
+                    <tr><td><strong>Sustainability</strong></td><td>How much of the yield comes from organic fees rather than temporary reward incentives, and where the rate is heading.</td></tr>
+                    <tr><td><strong>Capital stickiness</strong></td><td>Whether deposits are expected to stay in the pool rather than leave.</td></tr>
+                    <tr><td><strong>Exit liquidity</strong></td><td>How deep the pool is, and so how easily a position can be withdrawn.</td></tr>
                 </tbody>
             </table>
         </div>
-
-        <h3>Stability (up to 35)</h3>
-        <ul>
-            <li>Spread = p90 minus p10 of the 14-day forecast (percentage points). Relative volatility = spread divided by the larger of the current APY and 2.0.</li>
-            <li>Points = 35 × (1 − relative volatility ÷ 2.5), limited to the range 0 to 35.</li>
-            <li>Crash-risk penalty: if the downside tail is flagged HIGH, subtract 8 points (floor of 5). If MEDIUM, subtract 3 points (floor of 10).</li>
-            <li>Crash risk uses the Bowley quantile skewness of the forecast, (upside − downside) ÷ spread, where upside = p90 − p50 and downside = p50 − p10. If the spread is below 0.25 percentage points the risk is LOW. HIGH requires skewness below −0.33 and a downside above 1.5 percentage points. MEDIUM is skewness below −0.15 or a downside above 2.0 percentage points. Otherwise LOW.</li>
-        </ul>
-
-        <h3>Sustainability (up to 25)</h3>
-        <ul>
-            <li>Organic share = forecast organic (fee) APY ÷ (forecast organic APY + forecast reward APY). Up to 10 points: 10 × organic share.</li>
-            <li>Trajectory, up to 15 points, from the forecast change versus today's APY (forward delta, in percentage points). If the delta is zero or positive: the smaller of 15 and 12 + 3 × delta. If negative: the larger of 0 and 12 + 2.5 × delta.</li>
-        </ul>
-
-        <h3>Stickiness (up to 25)</h3>
-        <ul>
-            <li>TVL retention = 1.0 if the forecast TVL change is zero or positive; otherwise the larger of 0.4 and 1 + 2 × change.</li>
-            <li>Where on-chain telemetry is available: 25 × (0.4 × whale factor + 0.3 × churn factor + 0.3 × TVL retention). The whale factor is the share of recent mints <em>not</em> held by the three largest depositors; the churn factor compares unique depositors with unique redeemers over 24 hours. At the moment this telemetry is read only for Aave v3 on Ethereum.</li>
-            <li>For every other pool: 25 × (0.6 × 0.75 + 0.4 × TVL retention). The 0.75 is a fixed assumption, not a measurement, so for these pools Stickiness moves only with forecast TVL retention.</li>
-        </ul>
-
-        <h3>Liquidity (up to 15)</h3>
-        <ul>
-            <li>15 × (0.7 × TVL factor + 0.3 × headroom). The TVL factor is the smaller of 1 and TVL in millions ÷ 500, so a pool at or above $500M gets the full TVL term.</li>
-            <li>Headroom is a fixed 0.8 by default. Where on-chain utilization is available, it is the larger of 0.2 and (95 − utilization %) ÷ 15, or 0.2 when utilization is 95% or higher.</li>
-        </ul>
-
-        <p>The total is clamped to 0–100. Three of the four pillars (Stability, Sustainability, Stickiness) are computed from the model's forecast outputs, so the quality of the forecast matters to the score; see <a href="#limitations">Limitations</a>.</p>
+        <p>Most of the score depends on the forecast, so the quality of the forecast matters to the score; see <a href="#limitations">Limitations</a>.</p>
 
         <h2 id="bands">3. The bands</h2>
-        <p>The DeFi Score maps to five bands using fixed thresholds:</p>
-        <div class="meth-table">
-            <table>
-                <thead><tr><th>Band</th><th>Score range</th></tr></thead>
-                <tbody>
-                    <tr><td><strong>AAA</strong></td><td>85 or higher</td></tr>
-                    <tr><td><strong>AA</strong></td><td>70 to below 85</td></tr>
-                    <tr><td><strong>A</strong></td><td>55 to below 70</td></tr>
-                    <tr><td><strong>BBB</strong></td><td>40 to below 55</td></tr>
-                    <tr><td><strong>HIGH RISK</strong></td><td>below 40</td></tr>
-                </tbody>
-            </table>
-        </div>
-        <p>The cutoffs are constants in the scoring code. We do not claim they correspond to default or loss probabilities, and, as stated at the top of this page, the bands are DeFi Garden's own model output rather than a credit rating issued by a registered credit rating agency.</p>
+        <p>The DeFi Score maps to five bands, from strongest to weakest: <strong>AAA</strong>, <strong>AA</strong>, <strong>A</strong>, <strong>BBB</strong> and <strong>HIGH RISK</strong>. The bands are DeFi Garden's own model output. They are not a credit rating issued by a registered credit rating agency, and we do not claim they correspond to default or loss probabilities.</p>
 
         <h2 id="forecast">4. The 14-day forecast</h2>
         <ul>
-            <li><strong>Model.</strong> Google's TimesFM 3.0 (<code>google/timesfm-3.0-pytorch</code>), a pre-trained time-series foundation model. We run it as published; it is not trained or fine-tuned on DeFi Garden data.</li>
-            <li><strong>Inputs.</strong> Three series per pool, forecast jointly: organic (base) APY, reward APY and TVL, using up to the last 30 daily points. A pool needs at least 14 daily points to be forecast.</li>
-            <li><strong>Horizon.</strong> 14 days.</li>
-            <li><strong>What p10, p50 and p90 mean.</strong> The forecast is a range, not a single number. <strong>p10</strong> and <strong>p90</strong> are the model's 10th and 90th percentile outputs for base APY and reward APY, added together and averaged over the 14 days; the band is meant to be an 80% interval, so that about 8 in 10 outcomes should land inside it. <strong>p50</strong> is the central estimate: the average of the model's 14 daily point forecasts for total APY (base plus reward).</li>
-            <li><strong>Snapshots are fixed.</strong> One forecast snapshot is recorded per calendar day and is never edited afterward, so a forecast can only be judged against what actually happened later.</li>
+            <li><strong>A range, not a single number.</strong> The forecast is a 14-day range with three values: low, central and high. The range is meant to capture most outcomes, not all of them.</li>
+            <li><strong>Horizon.</strong> 14 days. It says nothing about what happens after that.</li>
+            <li><strong>Experimental.</strong> We label the forecast experimental and show how it has performed on the public track record.</li>
+            <li><strong>Snapshots are fixed.</strong> One forecast snapshot is recorded per day and is never edited afterward, so a forecast can only be judged against what actually happened later.</li>
         </ul>
 
-        <h2 id="data">5. Data sources</h2>
-        <ul>
-            <li><strong>Pools and rates:</strong> the DefiLlama yields (pools) API. APY, TVL, the base and reward split and the 30-day mean come from DefiLlama; we do not re-measure them on-chain.</li>
-            <li><strong>History:</strong> daily snapshots of pool APY and TVL kept by DeFi Garden, and DefiLlama's per-pool chart series for a priority set of pools (those paying reward incentives first).</li>
-            <li><strong>On-chain telemetry:</strong> a small set of Aave v3 Ethereum market readings (utilization, mints and burns, depositor concentration) via an Ethereum RPC provider; used only for the Stickiness and Liquidity terms described above.</li>
-        </ul>
+        <h2 id="data">5. Data source</h2>
+        <p>Pools, APY, TVL and the base and reward split come from the <a href="https://api-docs.defillama.com/" target="_blank" rel="noopener noreferrer">DefiLlama</a> yields API. We do not re-measure them on-chain. DeFi Garden also keeps its own daily history of pool rates and TVL.</p>
 
         <h2 id="rails">6. Trust rails</h2>
         <p>These safeguards apply to what DeFi Garden displays and are never relaxed to make a number look better.</p>
         <ul>
             <li><strong>$100K TVL floor.</strong> Pools below $100,000 in TVL are not in the working data set and are not shown by default.</li>
-            <li><strong>1,000% APY sanity limit.</strong> A pool whose total APY (base plus reward) exceeds 1,000% is treated as anomalous: it is flagged with a warning, sorted below every sane pool, and excluded from scored pool pages and from the accuracy test.</li>
-            <li><strong>Farm-yield haircut.</strong> Where DeFi Garden shows an illustrative projection for farm-style ("degen") yields, it applies a one-third haircut to the headline APY and says so, because farm rates decay.</li>
+            <li><strong>1,000% APY sanity limit.</strong> A pool whose total APY (base plus reward) exceeds 1,000% is treated as anomalous: it is flagged with a warning, sorted below every sane pool, and excluded from scored pool pages and from the track record.</li>
+            <li><strong>Anomaly flags.</strong> Unusual rates and sub-floor pools are marked explicitly, never hidden inside a score.</li>
             <li><strong>Access labels.</strong> Pool pages state whether a pool is open access or restricted (KYC, accredited or qualified purchasers only), using a maintained list of permissioned projects.</li>
             <li><strong>Numbers come from data.</strong> Every score, rate and forecast shown is computed from the data pipeline. None is typed in by hand.</li>
         </ul>
 
-        <h2 id="accuracy">7. How accuracy is measured</h2>
-        <p>We publish a track record at <a href="/forecast-accuracy">/forecast-accuracy</a>. The protocol was locked on October 5, 2026:</p>
-        <ul>
-            <li>One immutable forecast snapshot per day; each is compared with the realized rate 14 days later. The issue-time APY comes from the same snapshot.</li>
-            <li>Only pools with TVL of at least $100,000 and APY of at most 1,000% at issue time are evaluated.</li>
-            <li>Multi-asset liquidity pools and AMMs (exposed to impermanent loss) are excluded. The evaluation covers single-sided lending markets, yield-bearing vaults and native or liquid staking.</li>
-            <li><strong>Band capture:</strong> the share of pools whose realized 14-day rate falls inside [p10, p90]. The target is 80%.</li>
-            <li><strong>Model error vs. a naive baseline:</strong> mean absolute error of the p50 against the realized rate, compared with the error of simply assuming today's rate holds. <strong>Skill score</strong> = 1 − (model error ÷ naive error). Above zero means the model adds value over "no change".</li>
-            <li>Segments reported: all qualified pools, stablecoins only, and pools with TVL of $10M or more.</li>
-            <li>Pools that delist, break the sanity limit or lose their data between day 0 and day 14 are counted as dropouts, not silently removed.</li>
-            <li><strong>Pre-committed rule:</strong> if the median skill score across resolved runs is zero or below, the forecast must be labeled experimental, and the research report must lead with that finding.</li>
-        </ul>
-
-        <h3>Latest evaluation summary</h3>
-        <div id="meth-eval" aria-live="polite">
-            <p class="meth-small">The live summary loads from <a href="/data/forecast-evaluations.json">/data/forecast-evaluations.json</a>. If it does not appear, see <a href="/forecast-accuracy">/forecast-accuracy</a>.</p>
-        </div>
+        <h2 id="accuracy">7. How accuracy is checked</h2>
+        <p>Forecasts are compared with what actually happened, and the results are published on one page: <a href="/forecast-accuracy">/forecast-accuracy</a>.</p>
 
         <h2 id="coverage">8. Coverage</h2>
-        <p>The aim is to score every DeFi pool that has a yield and at least $100K in TVL on DefiLlama: lending markets, vaults, staking, liquidity pools, tokenized real-world assets and more. In practice a pool receives a score and forecast only if it clears the $100K floor and has at least 14 daily history points. Pools without enough history have no score; we show none rather than guessing. The set is refreshed by the daily build, so the count changes day to day; the scores are published in full in the data behind our <a href="/pools">scored pool pages</a> and the <a href="/mcp">API</a>.</p>
+        <p>The aim is to score every DeFi pool that has a yield and at least $100K in TVL on DefiLlama: lending markets, vaults, staking, liquidity pools, tokenized real-world assets and more. A pool receives a score and forecast only if it clears the TVL floor and has enough history; pools without enough history have no score, and we show none rather than guessing. The set is refreshed by the daily build. Scores are available on the <a href="/pools">scored pool pages</a> and through the <a href="/mcp">API</a>.</p>
 
         <h2 id="limitations">9. Limitations</h2>
         <ul>
             <li><strong>Not a safety measure.</strong> There are no security inputs. Audits, exploit history, oracle design, admin keys, governance and collateral quality are not considered.</li>
-            <li><strong>The forecast is the weak link.</strong> Most of the score depends on forecast outputs, and the forecast's median has not clearly beaten "the rate stays the same" in our own test (see the live summary above and the full record). Most DeFi yields barely move over 14 days; the model handles those cases fine and has been worse on the pools whose rates actually moved.</li>
-            <li><strong>The range can be too narrow.</strong> The p10 to p90 band is designed to capture 80% of outcomes; the measured capture rate is shown in the live summary. A band that captures less than 80% overstates how stable a pool is, which flows into the Stability pillar.</li>
-            <li><strong>Stickiness is partly assumed.</strong> Outside Aave v3 on Ethereum, depositor concentration and churn are replaced by a fixed constant, so those scores cluster closely together.</li>
-            <li><strong>The Aave readings are narrow.</strong> The on-chain telemetry is read from one Aave v3 market on Ethereum and applied to Aave v3 pools on that chain.</li>
+            <li><strong>The forecast is the weak link.</strong> Much of the score depends on the forecast, and the forecast has not clearly beaten "the rate stays the same" in our own test. Most DeFi yields barely move over 14 days; see the track record for the current picture.</li>
+            <li><strong>The range can be too narrow.</strong> A range that captures fewer outcomes than intended overstates how stable a pool is.</li>
+            <li><strong>Some inputs are partial.</strong> Where a signal is not available for a pool, the score relies on the signals that are, so scores for such pools can cluster closely together.</li>
             <li><strong>Garbage in, garbage out.</strong> Rates and TVL come from DefiLlama. Upstream errors, stale data and incentive changes can pass through; the trust rails remove only the most extreme cases.</li>
-            <li><strong>Short horizon, point-in-time.</strong> The forecast looks 14 days ahead and says nothing about what happens after that. Reward emissions can end, rates can reprice and pools can be drained at any time.</li>
-            <li><strong>Evaluation scope.</strong> Accuracy is measured on single-sided lending, vault and staking venues. Liquidity pools and AMMs are scored but are not part of the accuracy test.</li>
+            <li><strong>Short horizon, point-in-time.</strong> Reward emissions can end, rates can reprice and pools can be drained at any time.</li>
+            <li><strong>Evaluation scope.</strong> The track record covers single-sided lending, vault and staking venues. Liquidity pools and AMMs are scored but are not part of it.</li>
             <li><strong>Bands are not calibrated to losses.</strong> See the band note above.</li>
         </ul>
 
@@ -337,30 +261,5 @@
         <p><a href="/tokens">Browse tokens</a> · <a href="/chains">Browse chains</a> · <a href="/methodology">Methodology</a> · <a href="/mcp">API</a></p>
     </footer>
 
-    <script>
-    (function () {
-      var el = document.getElementById('meth-eval');
-      if (!el || !window.fetch) return;
-      function esc(s) { return String(s).replace(/[&<>"']/g, function (c) { return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
-      function num(v, d) { var n = Number(v); return isFinite(n) ? n.toLocaleString('en-US', { minimumFractionDigits: d, maximumFractionDigits: d }) : null; }
-      fetch('/data/forecast-evaluations.json', { cache: 'no-cache' }).then(function (r) { return r.ok ? r.json() : null; }).then(function (d) {
-        var s = d && d.summary;
-        if (!s) return;
-        var runs = num(s.totalRuns, 0), band = num(s.medianBandCapture, 1), skill = num(s.medianSkillScore, 2);
-        var mae = num(s.medianModelMae, 2), naive = num(s.medianNaiveMae, 2);
-        if (!runs || !band || !skill || !mae || !naive) return;
-        var when = d.generatedAt ? String(d.generatedAt).slice(0, 10) : '';
-        el.innerHTML =
-          '<div class="meth-kpis">' +
-          '<div class="meth-kpi"><p class="k">Resolved runs</p><p class="v">' + esc(runs) + '</p></div>' +
-          '<div class="meth-kpi"><p class="k">Median band capture</p><p class="v">' + esc(band) + '%</p></div>' +
-          '<div class="meth-kpi"><p class="k">Median model error</p><p class="v">' + esc(mae) + ' pp</p></div>' +
-          '<div class="meth-kpi"><p class="k">Median no-change error</p><p class="v">' + esc(naive) + ' pp</p></div>' +
-          '<div class="meth-kpi"><p class="k">Median skill score</p><p class="v">' + esc(skill) + '</p></div>' +
-          '</div>' +
-          '<p class="meth-small">Medians across resolved runs, all qualified pools' + (when ? ', generated ' + esc(when) : '') + '. Target band capture is 80%; a skill score above zero means the model beat assuming today\'s rate holds. Full per-run table: <a href="/forecast-accuracy">/forecast-accuracy</a>.</p>';
-      }).catch(function () {});
-    })();
-    </script>
 </body>
 </html>

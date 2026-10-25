@@ -127,7 +127,7 @@ test('api/mcp.js never requires anything under edge/ (edge/ is not deployed)', (
   assert.ok(!/require\([^)]*edge[\\/]/.test(SOURCE), 'api/mcp.js must not require edge/ modules');
 });
 test('data files are read via literal path.join(__dirname, "../data/<file>") paths', () => {
-  for (const f of ['pools-snapshot.json', 'pools-snapshot-meta.json', 'forecast-evaluations.json']) {
+  for (const f of ['pools-snapshot.json', 'pools-snapshot-meta.json']) {
     assert.ok(SOURCE.includes(`path.join(__dirname, '../data/${f}')`), `missing literal path for ${f}`);
   }
 });
@@ -345,21 +345,22 @@ test('asset search: exact symbol (USDC-WETH is not USDC), chain filter, TVL orde
     assert.ok(r.access_restriction.status.startsWith('PERMISSIONED'));
   });
 });
-test('forecast status sentence is built from forecast-evaluations.json (runs with skillScore <= 0 counted)', async () => {
+test('forecast status is generic and carries NO track-record numbers (they live only on /forecast-accuracy)', async () => {
   await withData(SYNTH, async (h) => {
     const s = payloadOf(await callTool(h, 'get_pool_score', { pool_id: 'ok-big' })).forecast.status;
     assert.ok(s.startsWith('Experimental'), s);
-    assert.ok(s.includes('4 resolved test runs'), s);
-    assert.ok(s.includes('-0.25'), s);
-    assert.ok(s.includes('in 3 of 4 runs'), s);
-    assert.ok(!s.includes('first 10 test runs'), 'hard-coded sentence must be gone');
+    assert.ok(s.includes('/forecast-accuracy'), s);
+    assert.ok(!/resolved test runs|\d+ of \d+|-0\.25|skill/i.test(s), s);
   });
 });
-test('forecast status falls back to a generic experimental sentence when the file is missing', async () => {
-  await withData(Object.assign({}, SYNTH, { 'forecast-evaluations.json': null }), async (h) => {
-    const s = payloadOf(await callTool(h, 'get_pool_score', { pool_id: 'ok-big' })).forecast.status;
-    assert.ok(s.startsWith('Experimental'), s);
-    assert.ok(!/\d+ resolved test runs/.test(s), s);
+test('get_pool_score never serves raw pillar points: pillars_pct only, plus the band name', async () => {
+  const withScore = JSON.parse(JSON.stringify(SYNTH));
+  withScore['pools-snapshot.json'].pools.forEach(p => { p.defiScore = { score: 80, rating: 'AA', breakdown: { stability: 30, sustainability: 20, stickiness: 20, liquidity: 10 }, pillarsPct: { stability: 86, sustainability: 80, stickiness: 80, liquidity: 67 } }; });
+  await withData(withScore, async (h) => {
+    const d = payloadOf(await callTool(h, 'get_pool_score', { pool_id: 'ok-big' })).defi_score;
+    assert.strictEqual(d.rating, 'AA');
+    assert.deepStrictEqual(d.pillars_pct, { stability: 86, sustainability: 80, stickiness: 80, liquidity: 67 });
+    assert.ok(!('breakdown' in d), 'raw pillar points must not be served');
   });
 });
 test('missing snapshot degrades to empty results, not a crash; as_of is null', async () => {

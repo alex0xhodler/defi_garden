@@ -5,7 +5,7 @@ const fs = require('fs');
 const path = require('path');
 const { buildLandingPools, LANDING_POOL_IDS } = require('./generate-landing-pools');
 
-const score = { score: 92.3, rating: 'AAA', breakdown: { stability: 35, sustainability: 22, stickiness: 21.2, liquidity: 14.1 } };
+const score = { score: 92.3, rating: 'AAA', pillarsPct: { stability: 99.6, sustainability: 88, stickiness: 85, liquidity: 94 }, breakdown: { stability: 1, sustainability: 2, stickiness: 3, liquidity: 4 }, secret: 'x' };
 const snapshot = {
   generatedAt: '2026-09-27T07:41:44.000Z',
   pools: [
@@ -35,6 +35,11 @@ check('forecast passes through, null when absent', () => {
   assert.strictEqual(out.pools[0].forecast, null);
   assert.deepStrictEqual(out.pools[1].forecast, { p50: 3.5 });
 });
+check('defiScore is serialized publicly: score, rating, integer pillarsPct only', () => {
+  assert.deepStrictEqual(out.pools[0].defiScore, { score: 92.3, rating: 'AAA', pillarsPct: { stability: 100, sustainability: 88, stickiness: 85, liquidity: 94 } });
+  const noPct = buildLandingPools({ pools: [{ pool: 'a', defiScore: { score: 50, rating: 'BBB', breakdown: { stability: 1 } } }] }, ['a']);
+  assert.deepStrictEqual(noPct.pools[0].defiScore, { score: 50, rating: 'BBB' });
+});
 check('carries the snapshot generatedAt', () => {
   assert.strictEqual(out.generatedAt, snapshot.generatedAt);
 });
@@ -46,6 +51,7 @@ check('committed data/landing-pools.json matches the curated list and is scored'
   data.pools.forEach(p => {
     assert.ok(LANDING_POOL_IDS.includes(p.pool), p.pool + ' not curated');
     assert.strictEqual(typeof p.defiScore.score, 'number');
+    assert.ok(!('breakdown' in p.defiScore), 'raw pillar points must not be served');
   });
 });
 
