@@ -63,6 +63,8 @@ const NOT_KEYS = new Set(['chains', 'daily', 'no', 'yes']);
  * must differ from EN.
  */
 const IDENTICAL_OK = new Set([
+  'apiLink',              // "API" — same word in pt and es
+  'landing.navApi',       // "API" — same word in pt and es
   'tcpColApy',            // "APY"
   'tcpColTvl',            // "TVL"
   'pspTvl',               // "TVL"

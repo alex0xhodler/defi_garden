@@ -4,10 +4,10 @@
  * /stocks terminal data slice (tokenized equities).
  *
  * Reads data/pools-snapshot.json (written by generate-pools-snapshot.js and
- * enriched in place by compute-kpis.js + compute-forecasts.py) and the
+ * enriched in place by compute-kpis.js + the scoring step) and the
  * hand-curated data/stocks-registry.json, and writes data/stocks-snapshot.json:
  * only the pools that hold at least one registry token, each with the
- * equity-specific trust rails already applied. Run it AFTER compute-forecasts.py.
+ * equity-specific trust rails already applied. Run it AFTER the scoring step.
  *
  * Matching is by token ADDRESS against the registry (never by ticker
  * substring), so memecoin lookalikes (FARTCOIN, PEPECOIN, BITCOIN, ...) cannot
@@ -20,7 +20,7 @@
  *     counted, never displayed as normal.
  *   - honestProjection = min(headline, apyBase + apyReward * 2/3): the existing
  *     degen one-third haircut on emissions. It can never exceed today's rate.
- *     TimesFM p10-p90 passes through ONLY as a band labelled "experimental"
+ *     the forecast low-high range passes through ONLY as a band labelled "experimental"
  *     (its p50 is frequently ABOVE today's rate for equity LPs).
  *   - Forced High IL on any multi-exposure pair.
  *   - heuristicClip is TVL x constant, an ESTIMATE, not tick depth (Phase 4
@@ -336,7 +336,7 @@ function buildStocksSnapshot(snapshot, registry, opts) {
       ilRisk: multi ? 'high' : (p.ilRisk || 'no'),
       flags: flags,
       heuristicClip: heuristicClip(tvlUsd, poolType),
-      defiScore: p.defiScore || null,
+      defiScore: publicDefiScore(p.defiScore),
       onchain: onchainHints(p, poolType, tokens)
     });
   });
@@ -409,6 +409,15 @@ function verifiedIssuer(pool) {
 
 // "In 8 of 15 test runs, ..." -> { baselineWins: 8, runs: 15 } so the page can
 // localize the sentence without re-typing the numbers. Null when it doesn't parse.
+// PUBLIC serialization of a DeFi Score (2026-10-25 proprietary decision): total, band
+// name and the per-pillar 0-100 `pillarsPct` only. Raw pillar points are never copied.
+function publicDefiScore(ds) {
+  if (!ds || typeof ds !== 'object') return null;
+  const out = { score: ds.score, rating: ds.rating };
+  if (ds.pillarsPct && typeof ds.pillarsPct === 'object') out.pillarsPct = ds.pillarsPct;
+  return out;
+}
+
 function parseForecastEval(label) {
   const m = String(label || '').match(/(\d+)\s+of\s+(\d+)\s+test runs/i);
   if (!m) return null;
@@ -437,7 +446,7 @@ function buildStocksPools(full, scoreLabels) {
   const pools = (full.pools || []).map(p => {
     const first = (p.equityTokens && p.equityTokens[0]) || {};
     const score = p.defiScore && Number.isFinite(Number(p.defiScore.score)) ? p.defiScore : null;
-    const b = score && score.breakdown ? score.breakdown : {};
+    const b = score && score.pillarsPct ? score.pillarsPct : {}; // 0-100 per pillar (no raw points)
     return {
       id: p.pool,
       symbol: p.symbol,
@@ -454,7 +463,7 @@ function buildStocksPools(full, scoreLabels) {
       // Emission split, only when there are emissions (absent reward = 0, base = apy).
       ...(p.apyReward > 0 ? { base: p.apyBase, reward: p.apyReward } : {}),
       proj: p.honestProjection,
-      // [p10, p90] of the experimental TimesFM band; null when absent or all-zero.
+      // [low, high] of the experimental forecast band; null when absent or all-zero.
       band: p.forecastBand && p.forecastBand.p90 > 0 ? [p.forecastBand.p10, p.forecastBand.p90] : null,
       flags: (p.flags || []).filter(f => SLIM_FLAGS.indexOf(f) >= 0),
       clip: p.heuristicClip.usd,
@@ -476,7 +485,8 @@ function buildStocksPools(full, scoreLabels) {
       // Tier floors (tier 1 = deepest) so the page never hard-codes the cut-offs.
       tierMinTvl: full.rails.tiers.reduce((o, t) => { o[t.tier] = t.minTvl; return o; }, {})
     },
-    forecast: label ? { label: label, eval: parseForecastEval(label) } : null,
+    // Track-record numbers live only on /forecast-accuracy (2026-10-25): never carry run counts here.
+    forecast: label ? { label: label, eval: null } : null,
     counts: { pools: pools.length, excluded: full.counts.excluded },
     // Issuer facts for the names pools carry (tooltip: legal entity, jurisdiction, US-person eligibility).
     issuers: slimIssuers(full.issuers, pools),
@@ -531,7 +541,7 @@ function main() {
 if (require.main === module) main();
 
 module.exports = {
-  buildStocksSnapshot, buildStocksPools, parseForecastEval, verifiedIssuer, isVerifiedToken, VERIFIED_BASES, headlineApy, honestProjection, tierFor, poolTypeFor, heuristicClip,
+  buildStocksSnapshot, buildStocksPools, parseForecastEval, publicDefiScore, verifiedIssuer, isVerifiedToken, VERIFIED_BASES, headlineApy, honestProjection, tierFor, poolTypeFor, heuristicClip,
   forecastBand, normalizeAddress, indexRegistry,
   MIN_TVL, EQUITY_APY_CAP, REWARD_HAIRCUT, TIERS, DEPTH_FACTORS
 };

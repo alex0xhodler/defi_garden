@@ -7,12 +7,28 @@ Guidance for Claude Code when working in this repository.
 DeFi Garden (www.defi.garden) is a static, no-backend, no-build-step web app on the DefiLlama pools API, with three faces:
 
 1. **Underwriting landing** (bare `/`, `__APP_MODE === 'landing'`, `landing.js`) — ONE page: the "DeFi yields, predictively underwritten." hero with a live underwriting card, then the static `#seo-content` rates section, then the footer. Desktop (≥769px wide, ≥640px tall) snaps between the two full-screen sections (`scroll-snap-type: y mandatory`); mobile is a plain vertical scroll with the full card inside the first viewport. The old 3-panel horizontal track and the virtual-card panel are gone (2026-09-27); the card funnel is a nav link (`/for/claude`).
-2. **Garden Planner** (`plan.html`, and planner share URLs like `/?goal=`) — the goal-first savings planner.
+2. **Garden Planner** (LEGACY-but-live since 2026-10-24; `plan.html`, and planner share URLs like `/?goal=`) — the goal-first savings planner.
 3. **Analytics app** (every parameterized URL: `/?token=`, `/?chain=`, `/?pool=`, `/?app=1`, etc.) — the yield search/grid and the pool Decision Terminal.
 
-**Landing card data**: pool list, DeFi Score and 14d forecast come from `data/landing-pools.json` (a few KB, written by `generate-landing-pools.js` from `data/pools-snapshot.json` in CI after `compute-forecasts.py`; the curated pool IDs live in that script). APY/TVL are overlaid live from `yields.llama.fi/chart/<pool>` and fall back to the labelled snapshot values. Trust rails (`window.TRUST_RAILS`) are applied to whatever is displayed — anomalous or sub-floor pools never render. Never hard-code numbers in the hero.
+**Landing card data**: pool list, DeFi Score and 14d forecast come from `data/landing-pools.json` (a few KB, written by `generate-landing-pools.js` from `data/pools-snapshot.json` in CI after the scoring step; the curated pool IDs live in that script). APY/TVL are overlaid live from `yields.llama.fi/chart/<pool>` and fall back to the labelled snapshot values. Trust rails (`window.TRUST_RAILS`) are applied to whatever is displayed — anomalous or sub-floor pools never render. Never hard-code numbers in the hero.
 
 An inline IA router in `home.html` (`window.__APP_MODE`) decides which experience loads (this doc previously called it `index.html` — there is no `index.html` file; `home.html` is what `vercel.json` rewrites `/` to). **Existing parameterized URLs are sacred — thousands of sitemap URLs depend on them serving the analytics app unchanged.**
+
+## Product direction — THE STANDARD (decided 2026-10-24, supersedes the 2026-09-27 pivot wording)
+
+- DeFi Garden becomes **the standard for predictive analytics on everything in DeFi that has a yield** (vaults, tokens, LPs, lending, staking, RWA…). v1 coverage = everything DefiLlama tracks with >= $100K TVL. Audience: AI agents, allocators, treasuries, funds and informed retail.
+- **Headline = the DeFi Score** (keep the AAA / AA / A / BBB / HIGH RISK bands from the private scoring engine), with the 14-day forecast band and the public track record underneath. The bands are DeFi Garden's own model output, never a credit rating from a registered agency — say so wherever they are explained (`/methodology`).
+- Business model later: freemium terminal (not in scope yet).
+- **Top nav is minimal: Search · Methodology · API** (`/?app=1`, `/methodology`, `/mcp`). Footers may keep the `/tokens` and `/chains` SEO hub links plus Methodology and API. Homepage becomes a methodology-led landing (next step, screenshot-approved).
+- **Legacy-but-live** (must keep working at their direct URLs, must NOT be advertised in nav, header menus, homepage CTAs or footers): Garden Planner (`plan.html`, `/plan`, `/?goal=` share URLs), the Laso card funnel (`/for/*`), `/stocks`, hype-harvest, `stories/`. Do not delete their files, routes, redirects or sitemap entries without an owner decision. The "Garden Planner" and "Card rail" sections below describe these legacy surfaces.
+- Unchanged: trust rails, honesty rules, Quiet design system, hard rules.
+- **The DeFi Score is PROPRIETARY — "what, not how" (owner decision 2026-10-25).** The scoring engine moves to a private repo; nothing public may reveal how the score is built.
+  - **PUBLIC** (website, llms files, markdown twins, JSON served from the site, MCP/API responses): the 0-100 score; band NAMES (AAA, AA, A, BBB, HIGH RISK) with the note that bands are DeFi Garden's own model output, not a credit rating from a registered credit rating agency; the four pillar NAMES (yield stability, sustainability, capital stickiness, exit liquidity) each with one plain-language line; "the forecast is a 14-day range (low / central / high)"; trust rails ($100K TVL floor, 1,000% APY sanity limit, anomaly flags, access labels); data source (DefiLlama); limitations; education-not-advice.
+  - **HIDDEN** (never public, in code, comments, copy, tests or data): pillar weights / max points (and any "x / 35" style display), band cutoffs, formulas, penalties, any constants, the model name/vendor, model inputs and window lengths, on-chain telemetry specifics (market, RPC provider, whale/churn factors).
+  - **Per-pillar display** reads ONLY `defiScore.pillarsPct` (`{stability, sustainability, stickiness, liquidity}`, integers 0-100, emitted by the private engine). Raw pillar points (`defiScore.breakdown`) must never be read or served by public code; when `pillarsPct` is absent show the pillar names with no value. `test_proprietary_surface.js` guards the public source files.
+  - **Track record** (run counts, band capture, skill, "N of M test runs") appears ONLY on `/forecast-accuracy`. `/methodology` may carry one sentence plus a link, no numbers and no live summary fetch.
+  - `.vercelignore` must keep the engine checkout (`/scoring/`), `*.py` and `scripts/` off the CDN.
+  - **The engine lives in the private repo `alex0xhodler/defi_garden-scoring`** (`compute-forecasts.py`). `sitemap-update.yml` checks it out into `scoring/` with the read-only deploy key `SCORING_DEPLOY_KEY` and runs `scoring/compute-forecasts.py` from the repo root; `scoring/` is gitignored and never part of the site tree. Never re-add the engine, or CI log lines naming the model/provider, to this repo (`test_proprietary_surface.js` fails). Local dev without access to the private repo uses the published `data/pools-snapshot.json` via `scripts/restore-site-outputs.sh`.
 
 ## Product direction — PIVOT (decided 2026-09-27, supersedes the 2026-06 ICP below)
 
@@ -37,7 +53,7 @@ An inline IA router in `home.html` (`window.__APP_MODE`) decides which experienc
 - Data: `https://yields.llama.fi/pools` fetched client-side. Pool deep link: `/?pool=<pool.pool>`.
 - State conventions: theme = localStorage `theme` + `data-theme` attr; language = `?lang` + localStorage `defi-garden-lang`; saved plan = localStorage `garden-plan`.
 
-## Card rail & partner integration architecture (Laso.finance)
+## Card rail & partner integration architecture (Laso.finance) — LEGACY-but-live (2026-10-24: not advertised in nav)
 
 - **DeFi Garden is a yield discovery engine and goal planner, NOT a card issuer or BaaS.**
 - Laso's regulatory compliance and anti-money-laundering (AML) policies strictly prohibit third-party API issuance and white-labeling. End-users must complete direct account onboarding (country confirmation, E-Sign disclosure, Cardholder Agreement) on `laso.finance`.

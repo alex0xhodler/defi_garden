@@ -1,0 +1,56 @@
+// Owner decision 2026-10-25 ("what, not how"): the DeFi Score is PROPRIETARY.
+// Public source files and public serializers must not carry pillar weights/maxima,
+// band cutoffs, the model name/vendor or on-chain telemetry specifics.
+// (The scoring engine itself is not part of the public surface.)
+const assert = require('assert');
+const fs = require('fs');
+const path = require('path');
+
+const PUBLIC_FILES = [
+  'landing.js', 'stocks.js', 'PoolDetail.js', 'app.js', 'translations.js', 'methodology.html', 'mcp-page.html',
+  'generate-landing-pools.js', 'generate-pool-scores-json.js', 'generate-pool-score-pages.js', 'generate-llms.js',
+  'generate-stocks-snapshot.js', 'api/mcp.js', 'i18n/pt.js', 'i18n/es.js', 'i18n/static-en-ko.js',
+  '.well-known/mcp.json', '.well-known/mcp/server-card.json', '.well-known/mcp/server-cards.json'
+];
+const HIDDEN = [
+  [/\b(35|25|15)\s*%\s*\)?[:)]/, 'pillar weight percentage'],
+  [/(?<![\d.])\/\s*(35|25|15)\b(?!\s*(px|%|\d|d\b))/, 'x / max pillar display'],
+  [/\bmax:\s*(35|25|15)\b/, 'pillar max constant'],
+  [/(?:≥|>=)\s*(?:85|70|55|40)\b(?!\s*(?:%|px))(?=[^\n]{0,40}(?:AAA|AA|BBB|rating|band))/, 'band cutoff'],
+  [/timesfm/i, 'model name'],
+  [/google\/timesfm/i, 'model vendor'],
+  [/alchemy/i, 'on-chain provider'],
+  [/pillar breakdown|breakdown: pool\.defiScore\.breakdown/i, 'raw pillar breakdown serialization']
+];
+let bad = [];
+PUBLIC_FILES.forEach(f => {
+  const src = fs.readFileSync(path.join(__dirname, f), 'utf8');
+  src.split('\n').forEach((line, i) => HIDDEN.forEach(([re, why]) => {
+    if (re.test(line)) bad.push(`${f}:${i + 1} ${why}: ${line.trim().slice(0, 100)}`);
+  }));
+});
+assert.deepStrictEqual(bad, [], 'proprietary internals in public source:\n' + bad.join('\n'));
+
+// No public reader of the raw pillar-points field (only pillarsPct, 0-100, may be read)
+const readers = PUBLIC_FILES.filter(f => /\.(js)$/.test(f)).filter(f => /defiScore\.breakdown|ds\.breakdown|score\.breakdown/.test(fs.readFileSync(path.join(__dirname, f), 'utf8')));
+assert.deepStrictEqual(readers, [], 'public files must not read defiScore.breakdown: ' + readers.join(', '));
+// The scoring engine lives in the private repo alex0xhodler/defi_garden-scoring. It must never be
+// tracked here again, and CI logs (public) must not name the model/vendor/provider.
+const { execSync } = require('child_process');
+const tracked = execSync('git ls-files', { cwd: __dirname, encoding: 'utf8', maxBuffer: 1 << 28 }).split('\n');
+const engineTracked = tracked.filter(f => /(^|\/)compute-forecasts\.py$/.test(f) || f.startsWith('scoring/'));
+assert.deepStrictEqual(engineTracked, [], 'scoring engine must not be tracked in the public repo: ' + engineTracked.join(', '));
+const WF_LOG_BAD = /timesfm|google\/|alchemy\.com|per_core_batch|multivariate/i;
+const wfBad = [];
+fs.readdirSync(path.join(__dirname, '.github/workflows')).filter(f => /\.ya?ml$/.test(f)).forEach(f => {
+  fs.readFileSync(path.join(__dirname, '.github/workflows', f), 'utf8').split('\n').forEach((line, i) => {
+    if (/^\s*(-\s+name:|echo\b)/.test(line) && WF_LOG_BAD.test(line)) wfBad.push(f + ':' + (i + 1) + ' ' + line.trim());
+  });
+});
+assert.deepStrictEqual(wfBad, [], 'public workflow step names/echo lines must not name the model or vendor:\n' + wfBad.join('\n'));
+// The public deploy workflow must not name the model at all: the engine's dependencies and
+// model live in the private repo behind scoring/run.sh. Any casing, any line.
+const WF_SITEMAP = fs.readFileSync(path.join(__dirname, '.github/workflows/sitemap-update.yml'), 'utf8');
+const wfModelHits = WF_SITEMAP.split('\n').map((line, i) => (/timesfm/i.test(line) ? 'sitemap-update.yml:' + (i + 1) + ' ' + line.trim() : null)).filter(Boolean);
+assert.deepStrictEqual(wfModelHits, [], 'sitemap-update.yml must not name the forecast model (timesfm):\n' + wfModelHits.join('\n'));
+console.log('proprietary surface: all assertions passed (' + PUBLIC_FILES.length + ' files)');

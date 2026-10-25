@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Methodology: How the DeFi Score and 14-Day Forecast Work | DeFi Garden</title>
+    <meta name="description" content="How DeFi Garden builds the 0-100 DeFi Score (yield stability, sustainability, capital stickiness, exit liquidity), the AAA to HIGH RISK bands, the 14-day yield forecast range, the trust rails and the public track record. Education, not advice.">
+    <link rel="canonical" href="https://www.defi.garden/methodology">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Methodology: How the DeFi Score and 14-Day Forecast Work | DeFi Garden">
+    <meta property="og:description" content="What the DeFi Score reflects, the AAA to HIGH RISK bands, the 14-day forecast range, trust rails and where to find the public track record.">
+    <meta property="og:url" content="https://www.defi.garden/methodology">
+    <meta property="og:site_name" content="DeFi Garden">
+    <meta property="og:image" content="https://www.defi.garden/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Methodology: How the DeFi Score and 14-Day Forecast Work | DeFi Garden">
+    <meta name="twitter:description" content="What the DeFi Score reflects, the AAA to HIGH RISK bands, the 14-day forecast range, trust rails and where to find the public track record.">
+    <meta name="twitter:image" content="https://www.defi.garden/og-image.png">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
+    <link rel="preload" href="/fonts/PublicSans-latin-var.woff2" as="font" type="font/woff2" crossorigin>
+    <script>try{var th=localStorage.getItem('theme');if(th)document.documentElement.setAttribute('data-theme',th)}catch(e){}</script>
+    <link rel="stylesheet" href="/style.css">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","headline":"Methodology: how the DeFi Score and the 14-day yield forecast work","description":"What the 0-100 DeFi Score reflects, the AAA to HIGH RISK bands, the 14-day yield forecast range, the trust rails and where the public track record lives.","url":"https://www.defi.garden/methodology","mainEntityOfPage":"https://www.defi.garden/methodology","inLanguage":"en","datePublished":"2026-10-24","dateModified":"2026-10-25","author":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden/"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden/","logo":{"@type":"ImageObject","url":"https://www.defi.garden/og-image.png"}}}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"DeFi Garden","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Methodology","item":"https://www.defi.garden/methodology"}]}</script>
+    <style>
+      .meth-header {
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 20px 20px 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+        border-bottom: 1px solid var(--ui-border);
+      }
+      .meth-logo {
+        font-family: var(--font-family-display);
+        font-weight: 700;
+        font-size: 1.15rem;
+        color: var(--ui-text);
+        text-decoration: none;
+        white-space: nowrap;
+      }
+      .meth-nav { display: flex; gap: 20px; }
+      .meth-nav a {
+        color: var(--ui-text-secondary);
+        text-decoration: none;
+        font-size: 0.9rem;
+        transition: color .15s ease;
+      }
+      .meth-nav a:hover { color: var(--ui-text); }
+      .meth-nav a[aria-current="page"] { color: var(--ui-text); font-weight: 600; }
+      .meth-nav a:focus-visible,
+      .meth-wrap a:focus-visible,
+      .meth-footer a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); border-radius: var(--ui-radius-sm); }
+      .meth-wrap {
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 32px 20px 60px;
+        color: var(--ui-text);
+        line-height: 1.68;
+      }
+      .meth-wrap h1 {
+        font-family: var(--font-family-display);
+        font-size: 2rem;
+        line-height: 1.25;
+        margin: 0 0 12px;
+      }
+      .meth-wrap h2 {
+        font-family: var(--font-family-display);
+        font-size: 1.35rem;
+        line-height: 1.3;
+        margin: 40px 0 10px;
+        scroll-margin-top: 16px;
+      }
+      .meth-wrap h3 { font-size: 1.02rem; margin: 22px 0 6px; }
+      .meth-wrap p, .meth-wrap li { font-size: 1rem; }
+      .meth-wrap a { color: var(--ui-accent); }
+      .meth-wrap code {
+        font-size: 0.88em;
+        background: var(--ui-surface-muted);
+        border: 1px solid var(--ui-border);
+        border-radius: 6px;
+        padding: 1px 6px;
+      }
+      .meth-byline {
+        font-size: 0.85rem;
+        color: var(--ui-text-muted);
+        margin: 0 0 24px;
+        padding-bottom: 16px;
+        border-bottom: 1px solid var(--ui-border);
+      }
+      .meth-lede { font-size: 1.08rem; line-height: 1.65; margin: 0 0 20px; }
+      .meth-toc {
+        background: var(--ui-surface);
+        border: 1px solid var(--ui-border);
+        border-radius: var(--ui-radius-md);
+        padding: 14px 20px;
+        margin: 0 0 8px;
+      }
+      .meth-toc ol { margin: 6px 0 0; padding-left: 20px; columns: 2; column-gap: 28px; }
+      .meth-toc li { font-size: 0.92rem; margin: 2px 0; break-inside: avoid; }
+      .meth-notice {
+        background: var(--ui-surface-muted);
+        border: 1px solid var(--ui-border);
+        border-radius: var(--ui-radius-md);
+        padding: 14px 18px;
+        margin: 18px 0;
+        font-size: 0.95rem;
+      }
+      .meth-notice p { margin: 0; font-size: 0.95rem; }
+      .meth-table {
+        background: var(--ui-surface);
+        border: 1px solid var(--ui-border);
+        border-radius: var(--ui-radius-lg);
+        padding: 4px 16px;
+        margin: 14px 0 20px;
+        overflow-x: auto;
+      }
+      .meth-table table { width: 100%; border-collapse: collapse; min-width: 520px; }
+      .meth-table th, .meth-table td {
+        text-align: left;
+        vertical-align: top;
+        padding: 11px 8px;
+        border-bottom: 1px solid var(--ui-border);
+        font-size: 0.9rem;
+        color: var(--ui-text);
+      }
+      .meth-table th {
+        color: var(--ui-text-secondary);
+        font-weight: 600;
+        font-size: 0.78rem;
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+      }
+      .meth-table tr:last-child td { border-bottom: none; }
+      .meth-table td.num, .meth-table th.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+      .meth-small { font-size: 0.86rem !important; color: var(--ui-text-secondary); }
+      .meth-footer {
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 24px 20px 40px;
+        border-top: 1px solid var(--ui-border);
+        font-size: 0.85rem;
+        color: var(--ui-text-secondary);
+      }
+      .meth-footer p { margin: 0 0 8px; }
+      .meth-footer a { color: var(--ui-accent); text-decoration: none; }
+      .meth-footer a:hover { text-decoration: underline; }
+      @media (max-width: 560px) {
+        .meth-toc ol { columns: 1; }
+        .meth-wrap h1 { font-size: 1.6rem; }
+        .meth-nav { gap: 14px; }
+      }
+    </style>
+</head>
+<body>
+    <header class="meth-header">
+        <a href="/" class="meth-logo">DeFi Garden 🌱</a>
+        <nav class="meth-nav" aria-label="Primary navigation">
+            <a href="/?app=1">Search</a>
+            <a href="/methodology" aria-current="page">Methodology</a>
+            <a href="/mcp">API</a>
+        </nav>
+    </header>
+
+    <main class="meth-wrap">
+        <h1>Methodology: how the DeFi Score and the 14-day forecast work</h1>
+        <p class="meth-byline">DeFi Garden Research · Last updated October 25, 2026 · Education, not financial advice.</p>
+
+        <p class="meth-lede">DeFi Garden gives every scored DeFi yield a <strong>DeFi Score from 0 to 100</strong> and a <strong>14-day forecast range</strong> for its rate. This page explains what the score reflects, what the safeguards are, where the data comes from and where the method is weak. It describes the what, not the recipe: the exact weights, thresholds and model internals are proprietary.</p>
+
+        <div class="meth-notice" role="note">
+            <p><strong>Not a credit rating.</strong> The AAA, AA, A, BBB and HIGH RISK bands are DeFi Garden's own model output. They are not a credit rating issued by a registered credit rating agency, and they are not a statement about default probability or about a protocol's security.</p>
+        </div>
+
+        <nav class="meth-toc" aria-label="On this page">
+            <strong>On this page</strong>
+            <ol>
+                <li><a href="#what-it-is">What the DeFi Score is</a></li>
+                <li><a href="#components">What it reflects</a></li>
+                <li><a href="#bands">The bands</a></li>
+                <li><a href="#forecast">The 14-day forecast</a></li>
+                <li><a href="#data">Data source</a></li>
+                <li><a href="#rails">Trust rails</a></li>
+                <li><a href="#accuracy">How accuracy is checked</a></li>
+                <li><a href="#coverage">Coverage</a></li>
+                <li><a href="#limitations">Limitations</a></li>
+                <li><a href="#advice">Education, not financial advice</a></li>
+            </ol>
+        </nav>
+
+        <h2 id="what-it-is">1. What the DeFi Score is</h2>
+        <p>The DeFi Score is a number from 0 to 100 that summarizes the <em>quality of a pool's yield</em>: how stable the rate is expected to be, how much of it comes from organic fees rather than temporary incentives, whether deposits are expected to stay, and how easy it is to get out. Higher is better.</p>
+        <p><strong>It is a yield-quality score, not a safety audit.</strong> No smart-contract audit, exploit history, oracle design, admin-key, governance, collateral or curator-risk information goes into it. A pool with a flat, organic, deep yield can score high and still be exploited. Pool pages carry the same note.</p>
+
+        <h2 id="components">2. What it reflects</h2>
+        <p>The score combines four pillars. Each pillar is a different question about the yield.</p>
+        <div class="meth-table">
+            <table>
+                <thead><tr><th>Pillar</th><th>What it reflects</th></tr></thead>
+                <tbody>
+                    <tr><td><strong>Yield stability</strong></td><td>How steady the rate is expected to be over the forecast window, and how much room there is for it to fall.</td></tr>
+                    <tr><td><strong>Sustainability</strong></td><td>How much of the yield comes from organic fees rather than temporary reward incentives, and where the rate is heading.</td></tr>
+                    <tr><td><strong>Capital stickiness</strong></td><td>Whether deposits are expected to stay in the pool rather than leave.</td></tr>
+                    <tr><td><strong>Exit liquidity</strong></td><td>How deep the pool is, and so how easily a position can be withdrawn.</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <p>Most of the score depends on the forecast, so the quality of the forecast matters to the score; see <a href="#limitations">Limitations</a>.</p>
+
+        <h2 id="bands">3. The bands</h2>
+        <p>The DeFi Score maps to five bands, from strongest to weakest: <strong>AAA</strong>, <strong>AA</strong>, <strong>A</strong>, <strong>BBB</strong> and <strong>HIGH RISK</strong>. The bands are DeFi Garden's own model output. They are not a credit rating issued by a registered credit rating agency, and we do not claim they correspond to default or loss probabilities.</p>
+
+        <h2 id="forecast">4. The 14-day forecast</h2>
+        <ul>
+            <li><strong>A range, not a single number.</strong> The forecast is a 14-day range with three values: low, central and high. The range is meant to capture most outcomes, not all of them.</li>
+            <li><strong>Horizon.</strong> 14 days. It says nothing about what happens after that.</li>
+            <li><strong>Experimental.</strong> We label the forecast experimental and show how it has performed on the public track record.</li>
+            <li><strong>Snapshots are fixed.</strong> One forecast snapshot is recorded per day and is never edited afterward, so a forecast can only be judged against what actually happened later.</li>
+        </ul>
+
+        <h2 id="data">5. Data source</h2>
+        <p>Pools, APY, TVL and the base and reward split come from the <a href="https://api-docs.defillama.com/" target="_blank" rel="noopener noreferrer">DefiLlama</a> yields API. We do not re-measure them on-chain. DeFi Garden also keeps its own daily history of pool rates and TVL.</p>
+
+        <h2 id="rails">6. Trust rails</h2>
+        <p>These safeguards apply to what DeFi Garden displays and are never relaxed to make a number look better.</p>
+        <ul>
+            <li><strong>$100K TVL floor.</strong> Pools below $100,000 in TVL are not in the working data set and are not shown by default.</li>
+            <li><strong>1,000% APY sanity limit.</strong> A pool whose total APY (base plus reward) exceeds 1,000% is treated as anomalous: it is flagged with a warning, sorted below every sane pool, and excluded from scored pool pages and from the track record.</li>
+            <li><strong>Anomaly flags.</strong> Unusual rates and sub-floor pools are marked explicitly, never hidden inside a score.</li>
+            <li><strong>Access labels.</strong> Pool pages state whether a pool is open access or restricted (KYC, accredited or qualified purchasers only), using a maintained list of permissioned projects.</li>
+            <li><strong>Numbers come from data.</strong> Every score, rate and forecast shown is computed from the data pipeline. None is typed in by hand.</li>
+        </ul>
+
+        <h2 id="accuracy">7. How accuracy is checked</h2>
+        <p>Forecasts are compared with what actually happened, and the results are published on one page: <a href="/forecast-accuracy">/forecast-accuracy</a>.</p>
+
+        <h2 id="coverage">8. Coverage</h2>
+        <p>The aim is to score every DeFi pool that has a yield and at least $100K in TVL on DefiLlama: lending markets, vaults, staking, liquidity pools, tokenized real-world assets and more. A pool receives a score and forecast only if it clears the TVL floor and has enough history; pools without enough history have no score, and we show none rather than guessing. The set is refreshed by the daily build. Scores are available on the <a href="/pools">scored pool pages</a> and through the <a href="/mcp">API</a>.</p>
+
+        <h2 id="limitations">9. Limitations</h2>
+        <ul>
+            <li><strong>Not a safety measure.</strong> There are no security inputs. Audits, exploit history, oracle design, admin keys, governance and collateral quality are not considered.</li>
+            <li><strong>The forecast is the weak link.</strong> Much of the score depends on the forecast, and the forecast has not clearly beaten "the rate stays the same" in our own test. Most DeFi yields barely move over 14 days; see the track record for the current picture.</li>
+            <li><strong>The range can be too narrow.</strong> A range that captures fewer outcomes than intended overstates how stable a pool is.</li>
+            <li><strong>Some inputs are partial.</strong> Where a signal is not available for a pool, the score relies on the signals that are, so scores for such pools can cluster closely together.</li>
+            <li><strong>Garbage in, garbage out.</strong> Rates and TVL come from DefiLlama. Upstream errors, stale data and incentive changes can pass through; the trust rails remove only the most extreme cases.</li>
+            <li><strong>Short horizon, point-in-time.</strong> Reward emissions can end, rates can reprice and pools can be drained at any time.</li>
+            <li><strong>Evaluation scope.</strong> The track record covers single-sided lending, vault and staking venues. Liquidity pools and AMMs are scored but are not part of it.</li>
+            <li><strong>Bands are not calibrated to losses.</strong> See the band note above.</li>
+        </ul>
+
+        <h2 id="advice">10. Education, not financial advice</h2>
+        <p>DeFi Garden is an educational analytics tool. Scores, bands and forecasts are model outputs about yield quality, not recommendations to buy, sell or deposit, and not a guarantee of future rates or of safety. DeFi carries a risk of total loss. Do your own research and never deposit more than you can afford to lose. The AAA to HIGH RISK bands are not a credit rating issued by a registered credit rating agency.</p>
+    </main>
+
+    <footer class="meth-footer">
+        <p>Powered by <a href="https://api-docs.defillama.com/" target="_blank" rel="noopener noreferrer">DefiLlama API</a>. Education, not advice.</p>
+        <p><a href="/tokens">Browse tokens</a> · <a href="/chains">Browse chains</a> · <a href="/methodology">Methodology</a> · <a href="/mcp">API</a></p>
+    </footer>
+
+</body>
+</html>

@@ -678,6 +678,8 @@ async function generateSitemapSuite(poolsOverride) {
     // /stocks tokenized-equities terminal (stocks.html via cleanUrls; data/stocks-pools.json refreshed daily).
     sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}stocks`, LASTMOD_PLACEHOLDER, '0.8', 'daily'));
     sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}guide/defi-yield-rates-explained`, LASTMOD_PLACEHOLDER, '0.8', 'monthly'));
+    // /methodology (2026-10-24 "The Standard"): static methodology.html — what the DeFi Score is, how it is built, how it is measured.
+    sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}methodology`, LASTMOD_PLACEHOLDER, '0.9', 'monthly'));
     // forecast-accuracy temporarily omitted while pipeline is rebuilt (P0-1)
     // /mcp is intentionally NOT listed: it is the MCP JSON endpoint (application/json), not a page.
 

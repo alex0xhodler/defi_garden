@@ -26,7 +26,7 @@ module.exports = {
     tcpTopScoredHeading: (subject) => `Top ${subject} Yields by DeFi Score (Lowest Risk)`,
     // The 35/25/25/15 weights mirror SCORE_PILLARS in generate-pool-score-pages.js
     // (stability / fee sustainability / capital stickiness / liquidity depth).
-    tcpTopScoredSub: `Top 5 retail-accessible pools ranked by quantitative stability (35%), fee sustainability (25%), capital stickiness (25%), and liquidity depth (15%). No permissioned or accredited-only vaults.`,
+    tcpTopScoredSub: `Top 5 retail-accessible pools ranked by quantitative stability, fee sustainability, capital stickiness and liquidity depth. No permissioned or accredited-only vaults.`,
     // title="" tooltip on the lock icon next to a permissioned pool's name.
     tcpRestrictedAccessTitle: 'Restricted access (KYC/accredited)',
     // aria-label of the language switcher <nav>.
@@ -39,7 +39,7 @@ module.exports = {
   ko: {
     tcpMonthYear: (monthShortEn, month, year) => `${year}년 ${month}월`,
     tcpTopScoredHeading: (subject) => `${subject} 리스크 평가 최고 등급 풀 (DeFi Score)`,
-    tcpTopScoredSub: `수익 안정성(35%), 수수료 지속가능성(25%), 자금 고착도(25%), 유동성 깊이(15%) 기준 상위 5개 풀입니다. 누구나 접근 가능한 공개 풀만 포함됩니다.`,
+    tcpTopScoredSub: `수익 안정성, 수수료 지속가능성, 자금 고착도, 유동성 깊이 기준 상위 5개 풀입니다. 누구나 접근 가능한 공개 풀만 포함됩니다.`,
     // Pre-existing: the tooltip was hard-coded English on every language
     // variant, KO included. Kept byte-identical here (not a regression).
     tcpRestrictedAccessTitle: 'Restricted access (KYC/accredited)',

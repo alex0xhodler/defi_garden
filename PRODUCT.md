@@ -56,3 +56,13 @@ Durable, human-confirmed, future work must preserve:
 Calm, honest, plain-spoken; sentence case. Copy ban-list for in-reach goals: "save up", "afford",
 "budget" (the yield-funded flip). No degen slang on money surfaces (human 2026-08-05, item 240). Korean
 is natural, never machine-literal.
+
+## Direction update (human decision 2026-10-24)
+
+DeFi Garden becomes the standard for predictive analytics on everything in DeFi that has a yield (v1: all
+DefiLlama pools with >= $100K TVL). Audience: AI agents, allocators, treasuries, funds and informed retail.
+Headline is the DeFi Score (AAA / AA / A / BBB / HIGH RISK bands, DeFi Garden's own model output, not a
+credit rating) with the 14-day forecast band and the public track record beneath it. Top nav: Search ·
+Methodology · API. The Garden Planner, the card funnel, /stocks and hype-harvest stay live at their direct
+URLs but are no longer advertised. Business model later: freemium terminal. This supersedes the Users /
+Product Purpose wording above where they conflict; trust rails, voice and design constraints are unchanged.

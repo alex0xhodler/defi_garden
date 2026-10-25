@@ -1,0 +1,68 @@
+// /methodology (2026-10-24 "The Standard"): static public page. Public level only (2026-10-25): no internals.
+const assert = require('assert');
+const fs = require('fs');
+const path = require('path');
+
+const html = fs.readFileSync(path.join(__dirname, 'methodology.html'), 'utf8');
+
+// Metadata
+assert.ok(/<title>[^<]*Methodology[^<]*<\/title>/.test(html), 'title mentions Methodology');
+assert.ok(html.includes('<link rel="canonical" href="https://www.defi.garden/methodology">'), 'canonical');
+assert.ok(html.includes('<meta name="robots" content="index,follow">'), 'page is indexable');
+
+// JSON-LD parses, ISO dates, breadcrumb
+const blocks = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map(m => JSON.parse(m[1]));
+const article = blocks.find(b => b['@type'] === 'TechArticle');
+assert.ok(article && /^\d{4}-\d{2}-\d{2}$/.test(article.datePublished) && /^\d{4}-\d{2}-\d{2}$/.test(article.dateModified), 'TechArticle with ISO dates');
+assert.ok(blocks.some(b => b['@type'] === 'BreadcrumbList'), 'BreadcrumbList');
+
+// PROPRIETARY (owner decision 2026-10-25, "what, not how"): the page names the bands and
+// the four pillars, and must NOT reveal weights, cutoffs, formulas, constants, model or inputs.
+const flat = html.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ');
+['AAA', 'AA', 'A', 'BBB', 'HIGH RISK'].forEach(b => assert.ok(new RegExp('<strong>' + b + '</strong>').test(html), 'band name ' + b));
+['Yield stability', 'Sustainability', 'Capital stickiness', 'Exit liquidity'].forEach(p => assert.ok(flat.includes(p), 'pillar name ' + p));
+assert.ok(/low, central and high/i.test(flat), 'forecast described as a low / central / high range');
+const HIDDEN = [
+  [/\b(35|25|15)\s*(pts?|points?|%)/i, 'pillar weights'],
+  [/(Stability|Sustainability|Stickiness|Liquidity)\s*(\(up to )?\d+\b/, 'pillar weight next to a pillar name'],
+  [/max(imum)? points/i, 'max points column'],
+  [/(≥|>=)\s*(85|70|55|40)\b/, 'band cutoffs'],
+  [/\b(85|70|55|40)\s+(or higher|to below)/i, 'band ranges'],
+  [/below (85|70|55|40)\b/i, 'band ranges'],
+  [/timesfm/i, 'model name'],
+  [/google\//i, 'model vendor path'],
+  [/alchemy/i, 'on-chain provider'],
+  [/\baave v3\b/i, 'telemetry market'],
+  [/\bwhale|churn|skewness|Bowley|haircut\b/i, 'internal factors'],
+  [/\b(30|14) (daily )?points?\b|at least 14 daily|last 30 daily/i, 'model input windows'],
+  [/\bp(10|50|90)\b/i, 'quantile jargon'],
+  [/\d\.\d+ ?×|× ?\d/, 'formula coefficients']
+];
+HIDDEN.forEach(([re, why]) => assert.ok(!re.test(flat), 'methodology page must not reveal ' + why + ': ' + (flat.match(re) || [])[0]));
+// No track-record numbers and no live summary fetch (the track record lives only on /forecast-accuracy)
+assert.ok(!/forecast-evaluations/.test(html) && !/<script>(?![^<]*ld\+json)/.test(html.replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/g, '').replace(/<script>try\{var th[\s\S]*?<\/script>/, '')), 'no fetch of evaluation data / no page script');
+assert.ok(!/skill score|band capture|resolved runs|median/i.test(flat), 'no track-record metrics on /methodology');
+
+// Trust rails must match the shared constants
+const rails = require('./trust-rails.js');
+assert.ok(flat.includes('$' + (rails.DEFAULT_MIN_TVL / 1000).toLocaleString('en-US') + 'K TVL floor'), 'TVL floor');
+assert.ok(flat.includes(rails.APY_SANITY_LIMIT.toLocaleString('en-US') + '% APY sanity limit'), 'APY sanity limit');
+
+// Required honesty wording
+assert.ok(/not a credit rating issued by a registered credit rating agency/i.test(flat), 'not-a-credit-rating note');
+assert.ok(/Education, not financial advice/i.test(flat), 'education not advice');
+assert.ok(html.includes('href="/forecast-accuracy"'), 'links to the accuracy page');
+
+// Nav is exactly Search / Methodology / API; no legacy promotion
+const nav = html.match(/<nav class="meth-nav"[\s\S]*?<\/nav>/)[0];
+assert.deepStrictEqual([...nav.matchAll(/href="([^"]+)"/g)].map(x => x[1]), ['/?app=1', '/methodology', '/mcp']);
+assert.ok(!/plan\.html|\/for\/|\/stocks|hype-harvest/.test(html), 'no legacy-feature links');
+
+// Wired into sitemap + llms generators
+assert.ok(/SITE_URL\}methodology/.test(fs.readFileSync(path.join(__dirname, 'generate-sitemap.js'), 'utf8')), 'sitemap entry');
+assert.ok(/\/methodology/.test(fs.readFileSync(path.join(__dirname, 'generate-llms.js'), 'utf8')), 'llms entry');
+
+// Homepage (landing.js) must carry no score constants either (proprietary, 2026-10-25).
+const landingJs = fs.readFileSync(path.join(__dirname, 'landing.js'), 'utf8');
+assert.ok(!/max: \d+|min: (85|70|55|40)\b|forecast-evaluations|EVALUATIONS_URL/.test(landingJs), 'landing.js must not carry pillar maxima, band cutoffs or the evaluation fetch');
+console.log('methodology page: all assertions passed');

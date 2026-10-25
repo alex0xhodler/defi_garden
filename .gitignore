@@ -82,3 +82,6 @@ docs/outcome/
 /llms.txt
 /llms-full.txt
 /forecast-accuracy.html
+
+# Private scoring engine checkout (CI only; alex0xhodler/defi_garden-scoring)
+/scoring/

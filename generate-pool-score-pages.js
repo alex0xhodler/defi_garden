@@ -4,7 +4,7 @@
  * Static scored pool pages (W1, docs/seo-turnaround-plan-2026-10.md).
  * Writes pools/<slug>.html (EN) and ko/pools/<slug>.html (KO) for the top
  * pools by TVL that clear a hard quality gate, e.g. /pools/aave-v3-usdc-base:
- * live APY, 30-day mean, base/reward split, the DeFi Score pillar breakdown,
+ * live APY, 30-day mean, base/reward split, the DeFi Score pillars,
  * the 14-day forecast band, a static inline-SVG APY history, what produces the
  * yield, who can access it, withdrawal notes, risks and ONE primary CTA into
  * the Decision Terminal (`/?pool=<uuid>`, which stays untouched).
@@ -46,18 +46,6 @@ const {
 const { PERMISSIONED_PROJECT_LIST } = require('./permissioned-projects.js');
 const { assignPoolSlugs, slugify, MANIFEST_REL_PATH } = require('./pool-page-links.js');
 
-// --- forecast-evaluation stats (drives pspForecastDisclaimer) ----------------
-let _feStats = { totalRuns: 0, noBetter: 0, evaluated: 0 };
-try {
-  const _feRaw = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'forecast-evaluations.json'), 'utf8'));
-  const _feS = _feRaw && _feRaw.summary;
-  if (_feS && Number.isFinite(Number(_feS.totalRuns)) && Number(_feS.totalRuns) > 0) {
-    const runs = Array.isArray(_feRaw.resolvedRuns) ? _feRaw.resolvedRuns : [];
-    const noBetter = runs.filter(r => r && r.overall && Number(r.overall.skillScore) <= 0).length;
-    _feStats = { totalRuns: Number(_feS.totalRuns), noBetter, evaluated: runs.length };
-  }
-} catch (_) { /* missing file → fallback sentence via totalRuns=0 */ }
-
 const {
   SITE_URL, isAnomalousApy, poolTotalApy, formatUsd, formatApy, escapeHtml,
   renderAnalyticsBootstrap, renderFontPreloadLinks, renderHreflangLinks,
@@ -93,14 +81,14 @@ const VOLATILITY_RATIO_FLAG = 0.2;    // mirrors planner.js "steady" test: stdev
 const MIN_POINTS_FOR_VOLATILITY = 7;  // mirrors planner.js (hp >= 7)
 const GENERATOR_MARKER = '<!-- generated:pool-score-pages -->';
 
-/** DeFi Score pillar maxima — compute-forecasts.py: stability = min(35.0, ...),
- *  sustainability = 10.0*organic + up to 15.0 trajectory (= 25), stickiness =
- *  25.0 * (...), liquidity = 15.0 * (...). They sum to 100 (test-enforced). */
+/** DeFi Score pillar NAMES. Per-pillar values are the scoring engine's 0-100
+ *  `defiScore.pillarsPct`; when absent only the names render. No weights or
+ *  maxima live in public code (owner decision 2026-10-25). */
 const SCORE_PILLARS = [
-  { key: 'stability', max: 35, labelKey: 'pspPillarStability' },
-  { key: 'sustainability', max: 25, labelKey: 'pspPillarSustainability' },
-  { key: 'stickiness', max: 25, labelKey: 'pspPillarStickiness' },
-  { key: 'liquidity', max: 15, labelKey: 'pspPillarLiquidity' }
+  { key: 'stability', labelKey: 'pspPillarStability' },
+  { key: 'sustainability', labelKey: 'pspPillarSustainability' },
+  { key: 'stickiness', labelKey: 'pspPillarStickiness' },
+  { key: 'liquidity', labelKey: 'pspPillarLiquidity' }
 ];
 
 // --- small formatters (en-US pinned) ----------------------------------------
@@ -128,8 +116,7 @@ function isEligibleScoredPool(p) {
   if (!p || !p.pool || !isNum(p.tvlUsd) || p.tvlUsd < W1_MIN_TVL_USD) return false;
   if (!p.kpis || !(p.kpis.historyPoints >= W1_MIN_HISTORY_POINTS)) return false;
   const ds = p.defiScore;
-  if (!ds || !isNum(ds.score) || !ds.breakdown) return false;
-  if (!SCORE_PILLARS.every(pl => isNum(ds.breakdown[pl.key]))) return false;
+  if (!ds || !isNum(ds.score)) return false;
   const f = p.forecast;
   if (!f || !isNum(f.p10) || !isNum(f.p50) || !isNum(f.p90)) return false;
   if (isAnomalousApy(p)) return false; // trust rail
@@ -438,8 +425,8 @@ function renderChromeScript(lc) {
 function renderSiteHeader(lc, language) {
   const links = [
     ['/?app=1', lc('navSearch')],
-    ['/plan.html', lc('navPlanner')],
-    ['/agents', lc('navAgents')]
+    ['/methodology', lc('navMethodology')],
+    ['/mcp', lc('navApi')]
   ];
   const a = (l) => `<a href="${l[0]}">${escapeHtml(l[1])}</a>`;
   return `    <header class="landing-header">
@@ -466,7 +453,7 @@ function renderSiteFooter(t, language) {
   return `    <footer class="app-footer">
       <p>${escapeHtml(t('poweredBy'))} <a href="https://api-docs.defillama.com/" target="_blank" rel="noopener noreferrer">${escapeHtml(t('defillamaApi'))}</a>. ${escapeHtml(t('footerSignOff'))}</p>
       <p class="app-footer-hub-links">
-        <a href="${base}/tokens">${escapeHtml(t('browseTokens'))}</a> · <a href="${base}/chains">${escapeHtml(t('browseChains'))}</a> · <a href="${base}/pools">${escapeHtml(t('pspHubLink'))}</a> · <a href="/agents">${escapeHtml(t('aiAgents'))}</a>
+        <a href="${base}/tokens">${escapeHtml(t('browseTokens'))}</a> · <a href="${base}/chains">${escapeHtml(t('browseChains'))}</a> · <a href="${base}/pools">${escapeHtml(t('pspHubLink'))}</a> · <a href="/methodology">${escapeHtml(t('methodologyLink'))}</a> · <a href="/mcp">${escapeHtml(t('apiLink'))}</a>
       </p>
     </footer>`;
 }
@@ -558,11 +545,14 @@ function renderPoolScorePage(pool, ctx, lang) {
 
   // score pillars
   const pillars = SCORE_PILLARS.map(pl => {
-    const v = ds.breakdown[pl.key];
-    const pct = Math.max(0, Math.min(100, (v / pl.max) * 100));
+    const raw = ds.pillarsPct && ds.pillarsPct[pl.key];
+    if (!isNum(raw)) return `<li>
+          <div class="psp-pillar-head"><span>${esc(t(pl.labelKey))}</span></div>
+        </li>`;
+    const v = Math.round(Math.max(0, Math.min(100, raw)));
     return `<li>
-          <div class="psp-pillar-head"><span>${esc(t(pl.labelKey))}</span><span>${fmtScore(v)} / ${pl.max}</span></div>
-          <div class="psp-bar" role="meter" aria-label="${esc(t(pl.labelKey))}" aria-valuemin="0" aria-valuemax="${pl.max}" aria-valuenow="${v}"><span style="width:${f1(pct)}%"></span></div>
+          <div class="psp-pillar-head"><span>${esc(t(pl.labelKey))}</span><span>${v} / 100</span></div>
+          <div class="psp-bar" role="meter" aria-label="${esc(t(pl.labelKey))}" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${v}"><span style="width:${v}%"></span></div>
         </li>`;
   }).join('\n        ');
 
@@ -583,8 +573,7 @@ function renderPoolScorePage(pool, ctx, lang) {
   if (pool.poolMeta) srcLines.push(t('pspPoolMeta', pool.poolMeta));
 
   // withdrawal
-  const liq = SCORE_PILLARS.find(p => p.key === 'liquidity');
-  const wLines = [t('pspWithdrawLiquidity', formatUsd(pool.tvlUsd), fmtScore(ds.breakdown.liquidity), liq.max)];
+  const wLines = [t('pspWithdrawLiquidity', formatUsd(pool.tvlUsd))];
   if (isNum(f.predictedTvlUsd) && isNum(f.predictedTvlDelta)) wLines.push(t('pspWithdrawTvlForecast', formatUsd(f.predictedTvlUsd), fmtSignedPct(f.predictedTvlDelta)));
   wLines.push(t('pspWithdrawGeneric'));
 
@@ -666,7 +655,7 @@ ${renderLanguageSwitcher(neutralPath, language, LANG_CODES, t)}    <nav class="p
       </table>
       <p>${esc(forecastRead)}</p>
       ${crashHtml}
-      <p class="psp-note">${esc(t('pspForecastDisclaimer', _feStats.totalRuns, _feStats.noBetter, _feStats.evaluated))}</p>
+      <p class="psp-note">${esc(t('pspForecastDisclaimer'))}</p>
     </section>
 
     <section class="dt-panel dt-panel-full">

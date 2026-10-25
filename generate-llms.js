@@ -623,12 +623,12 @@ function buildAgentEndpointsSection(meta) {
   // LH8 (seo-turnaround): Underwriting & Predictive Scoring Section
   lines.push('## Predictive Underwriting & DeFi Score');
   lines.push(
-    'TL;DR: A yield-quality score (DeFi Score 0-100: stability, fee sustainability, depositor stickiness, exit liquidity) ' +
+    'TL;DR: A yield-quality score (DeFi Score 0-100: yield stability, sustainability, capital stickiness, exit liquidity) ' +
     'and an experimental 14-day forward yield forecast for 7,400+ liquidity venues across 30+ chains, updated daily. ' +
     'The score is not a smart-contract or exploit safety audit.'
   );
-  lines.push('- Methodology: 4 objective pillars — Yield Stability (35%), Fee Sustainability (25%), Capital Stickiness (25%), and Liquidity Depth (15%).');
-  lines.push('- Experimental 14-day forecast bands: probabilistic p10/p50/p90 yield bands; not yet shown to be more accurate than assuming today\'s rate holds.');
+  lines.push('- Methodology: four pillars — yield stability, sustainability, capital stickiness and exit liquidity. Bands AAA / AA / A / BBB / HIGH RISK are DeFi Garden\'s own model output, not a credit rating from a registered credit rating agency. Details: https://www.defi.garden/methodology');
+  lines.push('- Experimental 14-day forecast bands: a 14-day yield range (low / central / high); not yet shown to be more accurate than assuming today\'s rate holds.');
   lines.push('- Verified rails: pools below $100K TVL or with total APY > 1000% are strictly disqualified.');
   lines.push('');
 
@@ -676,9 +676,10 @@ function buildConcise(meta, categories, highYield, yieldAnalysis, plannerRateRes
   lines.push(
     `TL;DR: DeFi Garden is a quantitative yield intelligence engine and goal-based savings planner. ` +
     `Every pool clears strict trust rails ($100K TVL floor, 1000% APY sanity cap). ` +
-    `We evaluate yield quality across four pillars (stability, fee sustainability, depositor stickiness, liquidity depth) ` +
+    `We evaluate yield quality across four pillars (yield stability, sustainability, capital stickiness, exit liquidity) ` +
     `and maintain an empirical, multi-run 14-day forward forecast track record publicly benchmarked against a naive "no-change" baseline.`
   );
+  lines.push(`- Methodology (how the DeFi Score and the 14-day forecast are built and measured): ${meta.baseUrl}/methodology`);
   lines.push(`- Public forecast evaluation scorecard: ${meta.baseUrl}/forecast-accuracy`);
   lines.push(`- Verified scored pools directory: ${meta.baseUrl}/pools`);
   lines.push('');

@@ -6,7 +6,7 @@
  * and retail access flags) in data/pool-scores.json.
  *
  * Compact Array Schema:
- * [score, [stability, sustainability, stickiness, liquidity], [p10, p50, p90, crashRisk, forwardDelta], isRestricted]
+ * [score, [stability, sustainability, stickiness, liquidity] (each 0-100, from defiScore.pillarsPct, or null), [low, central, high, crashRisk, forwardDelta], isRestricted]
  * Shared disclaimer and access text are stored once at top-level.
  */
 
@@ -17,8 +17,14 @@ const path = require('path');
 const { PERMISSIONED_PROJECT_LIST } = require('./permissioned-projects.js');
 
 const SNAPSHOT_PATH = path.join(__dirname, 'data/pools-snapshot.json');
-const EVALUATIONS_PATH = path.join(__dirname, 'data/forecast-evaluations.json');
 const OUT_PATH = path.join(__dirname, 'data/pool-scores.json');
+
+const PILLAR_ORDER = ['stability', 'sustainability', 'stickiness', 'liquidity'];
+function pillarsPctOf(ds) {
+  const pp = ds && ds.pillarsPct;
+  if (!pp || !PILLAR_ORDER.every(k => Number.isFinite(pp[k]))) return null;
+  return PILLAR_ORDER.map(k => Math.max(0, Math.min(100, Math.round(pp[k]))));
+}
 
 function main() {
   if (!fs.existsSync(SNAPSHOT_PATH)) {
@@ -29,18 +35,8 @@ function main() {
   const raw = JSON.parse(fs.readFileSync(SNAPSHOT_PATH, 'utf8'));
   const pools = raw.pools || raw.data || [];
 
-  // Generate disclaimer dynamically from forecast-evaluations.json
-  let forecastDisclaimer = "Experimental forward forecast: In our initial test runs, assuming today's rate holds was more accurate than this forecast.";
-  if (fs.existsSync(EVALUATIONS_PATH)) {
-    try {
-      const evals = JSON.parse(fs.readFileSync(EVALUATIONS_PATH, 'utf8'));
-      const totalRuns = (evals.summary && evals.summary.totalRuns) || 0;
-      const worseRuns = (evals.resolvedRuns || []).filter(r => r.overall && r.overall.skillScore < 0).length;
-      if (totalRuns > 0) {
-        forecastDisclaimer = `Experimental forward forecast: In ${worseRuns} of ${totalRuns} test runs, assuming today's rate holds was more accurate than this forecast.`;
-      }
-    } catch (_e) {}
-  }
+  // Track-record numbers live ONLY on /forecast-accuracy (owner decision 2026-10-25).
+  const forecastDisclaimer = "Experimental forward forecast: not yet shown to be more accurate than assuming today's rate holds. The public track record is at https://www.defi.garden/forecast-accuracy.";
 
   const scores = {};
   for (const p of pools) {
@@ -48,12 +44,7 @@ function main() {
     const isRestricted = PERMISSIONED_PROJECT_LIST.has(String(p.project || '').toLowerCase());
     scores[p.pool] = [
       p.defiScore ? Number(p.defiScore.score.toFixed(1)) : null,
-      p.defiScore && p.defiScore.breakdown ? [
-        Number((p.defiScore.breakdown.stability || 0).toFixed(1)),
-        Number((p.defiScore.breakdown.sustainability || 0).toFixed(1)),
-        Number((p.defiScore.breakdown.stickiness || 0).toFixed(1)),
-        Number((p.defiScore.breakdown.liquidity || 0).toFixed(1))
-      ] : null,
+      pillarsPctOf(p.defiScore),
       p.forecast ? [
         Number(p.forecast.p10.toFixed(2)),
         Number(p.forecast.p50.toFixed(2)),
@@ -66,7 +57,7 @@ function main() {
   }
 
   const payload = {
-    schemaVersion: 2,
+    schemaVersion: 3,
     generatedAt: raw.generatedAt || new Date().toISOString(),
     totalScores: Object.keys(scores).length,
     labels: {
