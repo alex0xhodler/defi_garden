@@ -403,8 +403,12 @@ const MUST_EXCLUDE = [
   'scripts/evaluate-forecast-accuracy.js', 'keeper/keeper_engine.py', 'tests/test_lending_core.py',
   'DESIGN.md', 'PRODUCT.md',
 ];
-// The scoring engine is being moved to a private repo; assert it is never served while it is still tracked.
-if (ALL_FILES.includes('compute-forecasts.py')) MUST_EXCLUDE.push('compute-forecasts.py');
+// The scoring engine lives in a private repo (CI checks it out into scoring/, untracked); it must
+// never be tracked here and never be served.
+test('(d) scoring/ (private engine checkout) is excluded from the CDN and compute-forecasts.py is not tracked', () => {
+  assert.ok(isExcluded('scoring/compute-forecasts.py', parseVercelignore(fs.readFileSync(path.join(ROOT, '.vercelignore'), 'utf8'))), 'scoring/ must be in .vercelignore');
+  assert.ok(!ALL_FILES.includes('compute-forecasts.py') && !ALL_FILES.some((f) => f.startsWith('scoring/')), 'engine must not be tracked in the public repo');
+});
 
 // .github's tracked file (workflow path may vary) — resolved from the
 // real tree rather than hardcoded, so this doesn't rot if the workflow file

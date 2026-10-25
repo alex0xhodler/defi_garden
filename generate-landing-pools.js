@@ -6,9 +6,9 @@
  * The landing's underwriting card shows a short curated list of pools with their
  * DeFi Score and 14d forecast. Those fields only exist in data/pools-snapshot.json
  * (~11 MB, written by generate-pools-snapshot.js and enriched in place by
- * compute-kpis.js + compute-forecasts.py), which is far too heavy for the landing
+ * compute-kpis.js + the scoring step), which is far too heavy for the landing
  * route. This script extracts the curated pools into data/landing-pools.json
- * (a few KB). Run it AFTER compute-forecasts.py.
+ * (a few KB). Run it AFTER the scoring step.
  *
  * APY/TVL here are the snapshot values; landing.js overlays live values from
  * yields.llama.fi/chart/<pool> and only falls back to these when that fails.

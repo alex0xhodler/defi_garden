@@ -4,10 +4,10 @@
  * /stocks terminal data slice (tokenized equities).
  *
  * Reads data/pools-snapshot.json (written by generate-pools-snapshot.js and
- * enriched in place by compute-kpis.js + compute-forecasts.py) and the
+ * enriched in place by compute-kpis.js + the scoring step) and the
  * hand-curated data/stocks-registry.json, and writes data/stocks-snapshot.json:
  * only the pools that hold at least one registry token, each with the
- * equity-specific trust rails already applied. Run it AFTER compute-forecasts.py.
+ * equity-specific trust rails already applied. Run it AFTER the scoring step.
  *
  * Matching is by token ADDRESS against the registry (never by ticker
  * substring), so memecoin lookalikes (FARTCOIN, PEPECOIN, BITCOIN, ...) cannot

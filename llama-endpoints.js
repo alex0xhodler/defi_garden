@@ -23,7 +23,7 @@
  *                           (same frozen response shape, same pool UUIDs).
  *       LLAMA_PRO_BASE      default https://pro-api.llama.fi
  *
- * Mirrored (not imported) in compute-forecasts.py, which reads the same env
+ * Mirrored (not imported) in the private scoring engine, which reads the same env
  * vars with the same defaults.
  */
 (function (root, factory) {

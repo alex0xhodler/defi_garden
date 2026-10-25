@@ -34,4 +34,18 @@ assert.deepStrictEqual(bad, [], 'proprietary internals in public source:\n' + ba
 // No public reader of the raw pillar-points field (only pillarsPct, 0-100, may be read)
 const readers = PUBLIC_FILES.filter(f => /\.(js)$/.test(f)).filter(f => /defiScore\.breakdown|ds\.breakdown|score\.breakdown/.test(fs.readFileSync(path.join(__dirname, f), 'utf8')));
 assert.deepStrictEqual(readers, [], 'public files must not read defiScore.breakdown: ' + readers.join(', '));
+// The scoring engine lives in the private repo alex0xhodler/defi_garden-scoring. It must never be
+// tracked here again, and CI logs (public) must not name the model/vendor/provider.
+const { execSync } = require('child_process');
+const tracked = execSync('git ls-files', { cwd: __dirname, encoding: 'utf8', maxBuffer: 1 << 28 }).split('\n');
+const engineTracked = tracked.filter(f => /(^|\/)compute-forecasts\.py$/.test(f) || f.startsWith('scoring/'));
+assert.deepStrictEqual(engineTracked, [], 'scoring engine must not be tracked in the public repo: ' + engineTracked.join(', '));
+const WF_LOG_BAD = /timesfm|google\/|alchemy\.com|per_core_batch|multivariate/i;
+const wfBad = [];
+fs.readdirSync(path.join(__dirname, '.github/workflows')).filter(f => /\.ya?ml$/.test(f)).forEach(f => {
+  fs.readFileSync(path.join(__dirname, '.github/workflows', f), 'utf8').split('\n').forEach((line, i) => {
+    if (/^\s*(-\s+name:|echo\b)/.test(line) && WF_LOG_BAD.test(line)) wfBad.push(f + ':' + (i + 1) + ' ' + line.trim());
+  });
+});
+assert.deepStrictEqual(wfBad, [], 'public workflow step names/echo lines must not name the model or vendor:\n' + wfBad.join('\n'));
 console.log('proprietary surface: all assertions passed (' + PUBLIC_FILES.length + ' files)');

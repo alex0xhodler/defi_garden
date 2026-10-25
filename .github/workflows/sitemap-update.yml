@@ -99,14 +99,24 @@ jobs:
         node compute-kpis.js
         echo "✅ KPI computation completed"
 
-    - name: Compute TimesFM forecasts + DeFi Score (estate-wide)
+    - name: Checkout scoring engine (private)
+      # The DeFi Score engine is proprietary and lives in a private repo. It is checked
+      # out into scoring/ (gitignored, in .vercelignore, never in the site tree).
+      uses: actions/checkout@v4
+      with:
+        repository: alex0xhodler/defi_garden-scoring
+        path: scoring
+        ssh-key: ${{ secrets.SCORING_DEPLOY_KEY }}
+        persist-credentials: false
+
+    - name: Compute forecasts + DeFi Score
       env:
         ALCHEMY_KEY: ${{ secrets.ALCHEMY_KEY }}
       run: |
-        echo "🧠 Running TimesFM 3.0 estate-wide forecasts + on-chain scoring..."
+        echo "Scoring pools..."
         curl -LsSf https://astral.sh/uv/install.sh | sh
-        $HOME/.local/bin/uv run --with "timesfm[torch]" --with web3 python3 compute-forecasts.py --limit 0
-        echo "✅ TimesFM forecasts & DeFi scores completed"
+        $HOME/.local/bin/uv run --with "timesfm[torch]" --with web3 python3 scoring/compute-forecasts.py --limit 0
+        echo "Scoring done"
 
     - name: Record point-in-time daily forecast ledger (P0-2)
       run: |
@@ -225,6 +235,8 @@ jobs:
     - name: Assemble site tree
       # Site = every file tracked on main + the generated outputs. Built in a clean
       # directory so runner junk (node_modules, caches) can never be published.
+      # scoring/ (private engine checkout) is untracked + gitignored, and not listed in
+      # scripts/site-outputs.txt, so neither copy source below can ever include it.
       run: |
         OUT="$RUNNER_TEMP/out"; mkdir -p "$OUT"
         git ls-files -z -- . ':!.github' | rsync -a --from0 --ignore-missing-args --files-from=- ./ "$OUT/"

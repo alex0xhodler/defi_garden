@@ -37,7 +37,7 @@
 # Scoring / forecast engine and anything that documents its internals. The DeFi
 # Score is PROPRIETARY (owner decision 2026-10-25, "what, not how"): the engine
 # source must never be served. Root-anchored, so .well-known/**/*.py is untouched.
-/compute-forecasts.py
+/scoring/
 /*.py
 /dev-server.js
 /og-image.build.mjs
