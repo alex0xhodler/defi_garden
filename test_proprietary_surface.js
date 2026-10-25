@@ -48,4 +48,9 @@ fs.readdirSync(path.join(__dirname, '.github/workflows')).filter(f => /\.ya?ml$/
   });
 });
 assert.deepStrictEqual(wfBad, [], 'public workflow step names/echo lines must not name the model or vendor:\n' + wfBad.join('\n'));
+// The public deploy workflow must not name the model at all: the engine's dependencies and
+// model live in the private repo behind scoring/run.sh. Any casing, any line.
+const WF_SITEMAP = fs.readFileSync(path.join(__dirname, '.github/workflows/sitemap-update.yml'), 'utf8');
+const wfModelHits = WF_SITEMAP.split('\n').map((line, i) => (/timesfm/i.test(line) ? 'sitemap-update.yml:' + (i + 1) + ' ' + line.trim() : null)).filter(Boolean);
+assert.deepStrictEqual(wfModelHits, [], 'sitemap-update.yml must not name the forecast model (timesfm):\n' + wfModelHits.join('\n'));
 console.log('proprietary surface: all assertions passed (' + PUBLIC_FILES.length + ' files)');
