@@ -37,6 +37,17 @@ function startServer() {
       if (!fs.existsSync(filePath) && fs.existsSync(filePath + '.html')) {
         filePath = filePath + '.html';
       }
+      // 2026-10-26: the card is switched off on the pool view (CARD_FLOW_ENABLED = false
+      // in PoolDetail.js). This suite exercises the widget code kept for reversibility, so
+      // serve a copy of the compiled bundle with the flag flipped on. The production
+      // behaviour (no card on the pool view) is asserted by test_pool_view_no_card.js.
+      if (/\/PoolDetail\.compiled(\.min)?\.js$/.test(urlPath)) {
+        const src = fs.readFileSync(path.join(ROOT, 'PoolDetail.compiled.js'), 'utf8');
+        if (!/var CARD_FLOW_ENABLED = false;/.test(src)) { res.writeHead(500); res.end('CARD_FLOW_ENABLED flag not found'); return; }
+        res.writeHead(200, { 'Content-Type': 'application/javascript' });
+        res.end(src.replace('var CARD_FLOW_ENABLED = false;', 'var CARD_FLOW_ENABLED = true;'));
+        return;
+      }
       fs.readFile(filePath, (err, data) => {
         if (err) { res.writeHead(404); res.end('not found'); return; }
         res.writeHead(200, { 'Content-Type': MIME[path.extname(filePath)] || 'application/octet-stream' });

@@ -50,8 +50,11 @@ function createPoolDetailT(lang, fallbackT) {
 // the international card carries a $100 minimum load + 3.8% deposit fee, so the
 // pitch would mislead pt/es (Brazil/LatAm) readers. Mirrors lasoCard=false in
 // the static-page language config.
+// 2026-10-26 owner decision: the card is not advertised on the pool view at all
+// (THE STANDARD; /for/* stays live at its direct URLs). Flip to true to restore.
+const CARD_FLOW_ENABLED = false;
 function isCardFlowLanguage(lang) {
-  return lang === 'en' || lang === 'ko';
+  return CARD_FLOW_ENABLED && (lang === 'en' || lang === 'ko');
 }
 
 // pool type (getPoolTypeShared output, also used in logic) -> display key
@@ -1691,11 +1694,11 @@ function PoolDetail({
   // becomes both the ctaPlacement analytics prop and this function's arg.
   // Returns an array of the two child elements (button + hint) so a call
   // site can splice them in with `...renderProtocolCtaBlock('hero')`.
-  function renderProtocolCtaBlock(placement) {
+  function renderProtocolCtaBlock(placement, asPrimary) {
     if (protocolUrlWithRef) {
       return [
         React.createElement('button', {
-          className: 'cta-button-protocol',
+          className: asPrimary ? 'cta-button-primary cta-button-protocol' : 'cta-button-protocol',
           onClick: () => {
             if (typeof Analytics !== 'undefined') {
               Analytics.trackPoolClick(pool, 'protocol_link', { ctaPlacement: placement });
@@ -1722,7 +1725,7 @@ function PoolDetail({
     const defillamaUrl = 'https://defillama.com/yields/pool/' + encodeURIComponent(pool.pool);
     return [
       React.createElement('button', {
-        className: 'cta-button-protocol',
+        className: asPrimary ? 'cta-button-primary cta-button-protocol' : 'cta-button-protocol',
         onClick: () => {
           if (typeof Analytics !== 'undefined') {
             Analytics.trackPoolClick(pool, 'defillama_fallback', { ctaPlacement: placement });
@@ -2370,7 +2373,7 @@ function PoolDetail({
         // qualifier (CSS order), so both actions sit side by side in the first
         // viewport on every ?pool= page. Primary = Spend yield; secondary = the
         // protocol link (markup/events/payloads unchanged).
-        React.createElement('div', { className: 'pool-hero-actions' },
+        React.createElement('div', { className: showCardFlow ? 'pool-hero-actions' : 'pool-hero-actions pool-hero-actions--solo' },
           // pt/es: the primary CTA scrolls to the Laso yield-card widget, which is not
           // rendered for those languages (see isCardFlowLanguage).
           showCardFlow && React.createElement('div', { className: 'pool-hero-action-primary' },
@@ -2404,10 +2407,11 @@ function PoolDetail({
             )
           ),
 
-          // Secondary — protocol link, or an honest DefiLlama fallback when
-          // no protocol URL resolves at all (spec 182 leg B/D).
-          React.createElement('div', { className: 'pool-hero-action-secondary' },
-            ...renderProtocolCtaBlock('hero')
+          // Protocol link (or the honest DefiLlama fallback when no protocol URL
+          // resolves, spec 182 leg B/D). With the card flow off it is the ONE
+          // primary action of the buy box; otherwise it is the quiet secondary.
+          React.createElement('div', { className: showCardFlow ? 'pool-hero-action-secondary' : 'pool-hero-action-primary' },
+            ...renderProtocolCtaBlock('hero', !showCardFlow)
           )
         )
       )

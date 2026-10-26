@@ -58,6 +58,7 @@ An inline IA router in `home.html` (`window.__APP_MODE`) decides which experienc
 - **DeFi Garden is a yield discovery engine and goal planner, NOT a card issuer or BaaS.**
 - Laso's regulatory compliance and anti-money-laundering (AML) policies strictly prohibit third-party API issuance and white-labeling. End-users must complete direct account onboarding (country confirmation, E-Sign disclosure, Cardholder Agreement) on `laso.finance`.
 - Card activations hand off via official referral links (`https://laso.finance?ref=lmretyujvzr9jiutxi4d`). Never build in-browser card issuance or simulated white-label payment terminals.
+- **2026-10-26: the pool view (`/?pool=<id>`, `PoolDetail.js`) no longer shows the card in any language** — `CARD_FLOW_ENABLED = false` gates the widget, the Laso terminal, the session-resume path and the "Spend yield" hero CTA; the protocol handoff is the one primary CTA. Code kept (flip the flag to restore); `/for/*` and `laso-service.js` stay live. `test_yield_card_widget.js` serves the bundle with the flag on; `test_pool_view_no_card.js` pins the off state.
 - Geographic constraints: US cards (`/get-card`) are domestic-only and geo-blocked to US residents ($5 min API / $20 web, 0% fee). Non-US/international users are restricted to the International Non-Reloadable Card (`/order-intl-card`), requiring a **$100 minimum load** and **3.8% deposit fee**.
 
 ## Design system — "Quiet" (design reset 2026-08-04, item 225; SUPERSEDES the neumorphic mandate)
