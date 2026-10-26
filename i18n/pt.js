@@ -264,12 +264,6 @@ module.exports = {
   "tcpTopTokensByTvlHeading": "Principais tokens por TVL",
   "tcpTopTokensOnHeading": (chain) => `Principais tokens em ${chain}`,
   "tcpTrustNote": (floorStr) => `Os rendimentos são ao vivo da DefiLlama. Os pools desta página atingem um TVL mínimo de ${floorStr} e excluem taxas anômalas — esse é o critério de listagem desta página, não uma garantia de segurança. Apenas educação, não aconselhamento financeiro.`,
-  "tcpWaitlistCta": "Entrar na lista de espera →",
-  "tcpWaitlistHeading": "Acesso antecipado ao cartão",
-  "tcpWaitlistMicro": "Entrar é grátis • O cartão ainda não existe • Avisaremos por e-mail quando existir",
-  "tcpWaitlistPitchChain": (chain) => `Um cartão que gasta o rendimento das suas posições em ${chain}, nunca o capital. Entre na lista de espera e seja o primeiro a saber quando estiver pronto.`,
-  "tcpWaitlistPitchHub": "Um cartão que gasta o seu rendimento DeFi, nunca o seu capital. Entre na lista de espera e seja o primeiro a saber quando estiver pronto.",
-  "tcpWaitlistPitchToken": (sym) => `Um cartão que gasta o rendimento do seu ${sym}, nunca o ${sym} em si. Entre na lista de espera e seja o primeiro a saber quando estiver pronto.`,
   "tcpYieldHeadline": (sym, apyStr, foreverAmtStr, monthly, subLabel) =>
       `Seu ${sym} parado poderia render ~${apyStr} — deixe ${foreverAmtStr} aplicados e ele poderia pagar uma assinatura de ${subLabel} de $${monthly}/mês, para sempre.`,
   "tcpYieldHeadlineChain": (chain, apyStr, foreverAmtStr, monthly, subLabel) =>

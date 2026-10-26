@@ -1007,15 +1007,6 @@ projectionHeading: "The long game",
     tcpSubLine: (count, floorStr) => `${count} live ${String(count) === '1' ? 'pool' : 'pools'} above the ${floorStr} TVL floor · ranked by TVL`,
     tcpTokenCta: (sym) => `See live ${sym} pools →`,
     tcpChainCta: (chain) => `See live pools on ${chain} →`,
-    // Waitlist CTA (062) — flat top-level keys (like every other tcp* string)
-    // so the Node generators' createTranslationFunction can reach them; the
-    // client app's own waitlistTitle/ctaWaitlist/ctaWaitlistMicro live under
-    // the nested `planner` key instead and use identical copy on purpose.
-    tcpWaitlistPitchToken: (sym) => `A card that spends your ${sym} yield — never your ${sym} itself. Join the waitlist and be first when it's ready.`,
-    tcpWaitlistPitchChain: (chain) => `A card that spends the yield from your ${chain} positions — never the principal. Join the waitlist and be first when it's ready.`,
-    // Generic hub/A-Z pitch (079) — no subject, since a hub spans mixed
-    // tokens/chains; same honest framing as the per-subject pitches above.
-    tcpWaitlistPitchHub: "A card that spends your DeFi yield — never your principal. Join the waitlist and be first when it's ready.",
     // Yield headline (066) — honest per-token custom KPI, computed live from
     // the SAME blended-rate/forever-number math the planner itself uses.
     tcpYieldHeadline: (sym, apyStr, foreverAmtStr, monthly, subLabel) =>
@@ -1024,9 +1015,6 @@ projectionHeading: "The long game",
     // a chain has no single token, so this frames it as "idle assets on <Chain>".
     tcpYieldHeadlineChain: (chain, apyStr, foreverAmtStr, monthly, subLabel) =>
       `Idle assets on ${chain} could earn ~${apyStr} — park ${foreverAmtStr} and it could run a $${monthly}/mo ${subLabel} subscription, forever.`,
-    tcpWaitlistHeading: "Get early access to the card",
-    tcpWaitlistCta: "Join the waitlist →",
-    tcpWaitlistMicro: "Free to join • Card doesn't exist yet • We'll email you when it does",
     tcpColProtocol: "Protocol",
     tcpColChain: "Chain",
     tcpColToken: "Token",
@@ -2398,11 +2386,6 @@ projectionHeading: "The long game",
     tcpSubLine: (count, floorStr) => `${floorStr} TVL 기준을 넘는 실시간 풀 ${count}개 · TVL 순 정렬`,
     tcpTokenCta: (sym) => `${sym} 실시간 풀 보기 →`,
     tcpChainCta: (chain) => `${chain}의 실시간 풀 보기 →`,
-    tcpWaitlistPitchToken: (sym) => `내 ${sym} 수익으로 결제되는 카드예요 — ${sym} 원금은 그대로 남아있어요. 대기자 명단에 등록하고 준비되면 가장 먼저 알림을 받아보세요.`,
-    tcpWaitlistPitchChain: (chain) => `${chain} 포지션의 수익으로 결제되는 카드예요 — 원금은 그대로 남아있어요. 대기자 명단에 등록하고 준비되면 가장 먼저 알림을 받아보세요.`,
-    // Generic hub/A-Z pitch (079) — no subject, since a hub spans mixed
-    // tokens/chains; same honest framing as the per-subject pitches above.
-    tcpWaitlistPitchHub: "내 디파이 수익으로 결제되는 카드예요 — 원금은 그대로 남아있어요. 대기자 명단에 등록하고 준비되면 가장 먼저 알림을 받아보세요.",
     // Yield headline (066) — honest per-token custom KPI, computed live from
     // the SAME blended-rate/forever-number math the planner itself uses.
     tcpYieldHeadline: (sym, apyStr, foreverAmtStr, monthly, subLabel) =>
@@ -2411,9 +2394,6 @@ projectionHeading: "The long game",
     // a chain has no single token, so this frames it as "idle assets on <Chain>".
     tcpYieldHeadlineChain: (chain, apyStr, foreverAmtStr, monthly, subLabel) =>
       `${chain}의 유휴 자산으로 약 ${apyStr}의 수익을 낼 수 있어요 — ${foreverAmtStr}를 예치하면 월 $${monthly} ${subLabel} 구독료를 영원히 낼 수 있어요.`,
-    tcpWaitlistHeading: "카드 얼리 액세스 신청하기",
-    tcpWaitlistCta: "대기자 명단에 등록 →",
-    tcpWaitlistMicro: "무료 가입 • 카드는 아직 없어요 • 준비되면 이메일로 알려드려요",
     tcpColProtocol: "프로토콜",
     tcpColChain: "체인",
     tcpColToken: "토큰",
@@ -3762,16 +3742,10 @@ Nota de qualidade do rendimento em quatro pilares: estabilidade do rendimento, s
     tcpSubLine: (count, floorStr) => `${count} ${String(count) === '1' ? 'pool ativo' : 'pools ativos'} acima do TVL mínimo de ${floorStr} · ordenados por TVL`,
     tcpTokenCta: (sym) => `Ver pools ativos de ${sym} →`,
     tcpChainCta: (chain) => `Ver pools ativos em ${chain} →`,
-    tcpWaitlistPitchToken: (sym) => `Um cartão que gasta o rendimento do seu ${sym}, nunca o ${sym} em si. Entre na lista de espera e seja o primeiro a saber quando estiver pronto.`,
-    tcpWaitlistPitchChain: (chain) => `Um cartão que gasta o rendimento das suas posições em ${chain}, nunca o capital. Entre na lista de espera e seja o primeiro a saber quando estiver pronto.`,
-    tcpWaitlistPitchHub: "Um cartão que gasta o seu rendimento DeFi, nunca o seu capital. Entre na lista de espera e seja o primeiro a saber quando estiver pronto.",
     tcpYieldHeadline: (sym, apyStr, foreverAmtStr, monthly, subLabel) =>
       `Seu ${sym} parado poderia render ~${apyStr} — deixe ${foreverAmtStr} aplicados e ele poderia pagar uma assinatura de ${subLabel} de $${monthly}/mês, para sempre.`,
     tcpYieldHeadlineChain: (chain, apyStr, foreverAmtStr, monthly, subLabel) =>
       `Ativos parados em ${chain} poderiam render ~${apyStr} — deixe ${foreverAmtStr} aplicados e eles poderiam pagar uma assinatura de ${subLabel} de $${monthly}/mês, para sempre.`,
-    tcpWaitlistHeading: "Acesso antecipado ao cartão",
-    tcpWaitlistCta: "Entrar na lista de espera →",
-    tcpWaitlistMicro: "Entrar é grátis • O cartão ainda não existe • Avisaremos por e-mail quando existir",
     tcpColProtocol: "Protocolo",
     tcpColChain: "Rede",
     tcpColToken: "Token",
@@ -5109,16 +5083,10 @@ Calificación de la calidad del rendimiento en cuatro pilares: estabilidad del r
     tcpSubLine: (count, floorStr) => `${count} ${(String(count) === '1' ? 'pool activo' : 'pools activos')} por encima del TVL mínimo de ${floorStr} · ordenados por TVL`,
     tcpTokenCta: (sym) => `Ver pools activos de ${sym} →`,
     tcpChainCta: (chain) => `Ver pools activos en ${chain} →`,
-    tcpWaitlistPitchToken: (sym) => `Una tarjeta que gasta el rendimiento de tu ${sym}, nunca el ${sym} en sí. Súmate a la lista de espera y sé de los primeros en enterarte cuando esté lista.`,
-    tcpWaitlistPitchChain: (chain) => `Una tarjeta que gasta el rendimiento de tus posiciones en ${chain}, nunca el capital. Súmate a la lista de espera y sé de los primeros en enterarte cuando esté lista.`,
-    tcpWaitlistPitchHub: "Una tarjeta que gasta tu rendimiento DeFi, nunca tu capital. Súmate a la lista de espera y sé de los primeros en enterarte cuando esté lista.",
     tcpYieldHeadline: (sym, apyStr, foreverAmtStr, monthly, subLabel) =>
       `Tu ${sym} sin usar podría rendir ~${apyStr} — deja ${foreverAmtStr} y podría pagar una suscripción de ${subLabel} de $${monthly}/mes, para siempre.`,
     tcpYieldHeadlineChain: (chain, apyStr, foreverAmtStr, monthly, subLabel) =>
       `Los fondos sin usar en ${chain} podrían rendir ~${apyStr} — deja ${foreverAmtStr} y podrían pagar una suscripción de ${subLabel} de $${monthly}/mes, para siempre.`,
-    tcpWaitlistHeading: "Acceso anticipado a la tarjeta",
-    tcpWaitlistCta: "Unirme a la lista de espera →",
-    tcpWaitlistMicro: "Unirse es gratis • La tarjeta aún no existe • Te avisaremos por correo cuando exista",
     tcpColProtocol: "Protocolo",
     tcpColChain: "Red",
     tcpColToken: "Token",

@@ -267,12 +267,6 @@ module.exports = {
   "tcpTopTokensByTvlHeading": "Principales tokens por TVL",
   "tcpTopTokensOnHeading": (chain) => `Principales tokens en ${chain}`,
   "tcpTrustNote": (floorStr) => `Los rendimientos son en vivo de DefiLlama. Los pools de esta página alcanzan un TVL mínimo de ${floorStr} y excluyen tasas anómalas — ese es el criterio de listado de esta página, no una garantía de seguridad. Solo educación, no asesoría financiera.`,
-  "tcpWaitlistCta": "Unirme a la lista de espera →",
-  "tcpWaitlistHeading": "Acceso anticipado a la tarjeta",
-  "tcpWaitlistMicro": "Unirse es gratis • La tarjeta aún no existe • Te avisaremos por correo cuando exista",
-  "tcpWaitlistPitchChain": (chain) => `Una tarjeta que gasta el rendimiento de tus posiciones en ${chain}, nunca el capital. Súmate a la lista de espera y sé de los primeros en enterarte cuando esté lista.`,
-  "tcpWaitlistPitchHub": "Una tarjeta que gasta tu rendimiento DeFi, nunca tu capital. Súmate a la lista de espera y sé de los primeros en enterarte cuando esté lista.",
-  "tcpWaitlistPitchToken": (sym) => `Una tarjeta que gasta el rendimiento de tu ${sym}, nunca el ${sym} en sí. Súmate a la lista de espera y sé de los primeros en enterarte cuando esté lista.`,
   "tcpYieldHeadline": (sym, apyStr, foreverAmtStr, monthly, subLabel) =>
       `Tu ${sym} sin usar podría rendir ~${apyStr} — deja ${foreverAmtStr} y podría pagar una suscripción de ${subLabel} de $${monthly}/mes, para siempre.`,
   "tcpYieldHeadlineChain": (chain, apyStr, foreverAmtStr, monthly, subLabel) =>
