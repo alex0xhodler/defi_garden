@@ -180,6 +180,26 @@
       "permanent": true
     },
     {
+      "source": "/pools/3jane-lending-usd3-ethereum",
+      "destination": "/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/3jane-lending-usd3-ethereum",
+      "destination": "/ko/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pt/pools/3jane-lending-usd3-ethereum",
+      "destination": "/pt/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/es/pools/3jane-lending-usd3-ethereum",
+      "destination": "/es/chains/ethereum",
+      "permanent": true
+    },
+    {
       "source": "/pools/aave-v3-cbbtc-base",
       "destination": "/chains/base",
       "permanent": true
@@ -300,6 +320,26 @@
       "permanent": true
     },
     {
+      "source": "/pools/aave-v3-wavax-avalanche",
+      "destination": "/chains/avalanche",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/aave-v3-wavax-avalanche",
+      "destination": "/ko/chains/avalanche",
+      "permanent": true
+    },
+    {
+      "source": "/pt/pools/aave-v3-wavax-avalanche",
+      "destination": "/pt/chains/avalanche",
+      "permanent": true
+    },
+    {
+      "source": "/es/pools/aave-v3-wavax-avalanche",
+      "destination": "/es/chains/avalanche",
+      "permanent": true
+    },
+    {
       "source": "/pools/aave-v3-wbtc-arbitrum",
       "destination": "/chains/arbitrum",
       "permanent": true
@@ -380,6 +420,46 @@
       "permanent": true
     },
     {
+      "source": "/pools/accountable-ausd-monad",
+      "destination": "/chains/monad",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/accountable-ausd-monad",
+      "destination": "/ko/chains/monad",
+      "permanent": true
+    },
+    {
+      "source": "/pt/pools/accountable-ausd-monad",
+      "destination": "/pt/chains/monad",
+      "permanent": true
+    },
+    {
+      "source": "/es/pools/accountable-ausd-monad",
+      "destination": "/es/chains/monad",
+      "permanent": true
+    },
+    {
+      "source": "/pools/avant-avusd-savusd-avalanche",
+      "destination": "/chains/avalanche",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/avant-avusd-savusd-avalanche",
+      "destination": "/ko/chains/avalanche",
+      "permanent": true
+    },
+    {
+      "source": "/pt/pools/avant-avusd-savusd-avalanche",
+      "destination": "/pt/chains/avalanche",
+      "permanent": true
+    },
+    {
+      "source": "/es/pools/avant-avusd-savusd-avalanche",
+      "destination": "/es/chains/avalanche",
+      "permanent": true
+    },
+    {
       "source": "/pools/bitwise-uscc-uscc-ethereum",
       "destination": "/chains/ethereum",
       "permanent": true
@@ -397,126 +477,6 @@
     {
       "source": "/es/pools/bitwise-uscc-uscc-ethereum",
       "destination": "/es/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/pools/blackrock-buidl-buidl-aptos",
-      "destination": "/chains/aptos",
-      "permanent": true
-    },
-    {
-      "source": "/ko/pools/blackrock-buidl-buidl-aptos",
-      "destination": "/ko/chains/aptos",
-      "permanent": true
-    },
-    {
-      "source": "/pt/pools/blackrock-buidl-buidl-aptos",
-      "destination": "/pt/chains/aptos",
-      "permanent": true
-    },
-    {
-      "source": "/es/pools/blackrock-buidl-buidl-aptos",
-      "destination": "/es/chains/aptos",
-      "permanent": true
-    },
-    {
-      "source": "/pools/blackrock-buidl-buidl-avalanche",
-      "destination": "/chains/avalanche",
-      "permanent": true
-    },
-    {
-      "source": "/ko/pools/blackrock-buidl-buidl-avalanche",
-      "destination": "/ko/chains/avalanche",
-      "permanent": true
-    },
-    {
-      "source": "/pt/pools/blackrock-buidl-buidl-avalanche",
-      "destination": "/pt/chains/avalanche",
-      "permanent": true
-    },
-    {
-      "source": "/es/pools/blackrock-buidl-buidl-avalanche",
-      "destination": "/es/chains/avalanche",
-      "permanent": true
-    },
-    {
-      "source": "/pools/blackrock-buidl-buidl-bsc",
-      "destination": "/chains/bsc",
-      "permanent": true
-    },
-    {
-      "source": "/ko/pools/blackrock-buidl-buidl-bsc",
-      "destination": "/ko/chains/bsc",
-      "permanent": true
-    },
-    {
-      "source": "/pt/pools/blackrock-buidl-buidl-bsc",
-      "destination": "/pt/chains/bsc",
-      "permanent": true
-    },
-    {
-      "source": "/es/pools/blackrock-buidl-buidl-bsc",
-      "destination": "/es/chains/bsc",
-      "permanent": true
-    },
-    {
-      "source": "/pools/blackrock-buidl-buidl-ethereum",
-      "destination": "/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/ko/pools/blackrock-buidl-buidl-ethereum",
-      "destination": "/ko/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/pt/pools/blackrock-buidl-buidl-ethereum",
-      "destination": "/pt/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/es/pools/blackrock-buidl-buidl-ethereum",
-      "destination": "/es/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/pools/blackrock-buidl-buidl-ethereum-b2b1d9",
-      "destination": "/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/ko/pools/blackrock-buidl-buidl-ethereum-b2b1d9",
-      "destination": "/ko/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/pt/pools/blackrock-buidl-buidl-ethereum-b2b1d9",
-      "destination": "/pt/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/es/pools/blackrock-buidl-buidl-ethereum-b2b1d9",
-      "destination": "/es/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/pools/blackrock-buidl-buidl-solana",
-      "destination": "/chains/solana",
-      "permanent": true
-    },
-    {
-      "source": "/ko/pools/blackrock-buidl-buidl-solana",
-      "destination": "/ko/chains/solana",
-      "permanent": true
-    },
-    {
-      "source": "/pt/pools/blackrock-buidl-buidl-solana",
-      "destination": "/pt/chains/solana",
-      "permanent": true
-    },
-    {
-      "source": "/es/pools/blackrock-buidl-buidl-solana",
-      "destination": "/es/chains/solana",
       "permanent": true
     },
     {
@@ -637,6 +597,26 @@
     {
       "source": "/es/pools/dolomite-wlfi-ethereum",
       "destination": "/es/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pools/helius-staked-sol-hsol-solana",
+      "destination": "/chains/solana",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/helius-staked-sol-hsol-solana",
+      "destination": "/ko/chains/solana",
+      "permanent": true
+    },
+    {
+      "source": "/pt/pools/helius-staked-sol-hsol-solana",
+      "destination": "/pt/chains/solana",
+      "permanent": true
+    },
+    {
+      "source": "/es/pools/helius-staked-sol-hsol-solana",
+      "destination": "/es/chains/solana",
       "permanent": true
     },
     {
@@ -1096,6 +1076,26 @@
     },
     {
       "source": "/es/pools/sparklend-wsteth-ethereum",
+      "destination": "/es/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pools/stakewise-v3-eth-ethereum",
+      "destination": "/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/stakewise-v3-eth-ethereum",
+      "destination": "/ko/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pt/pools/stakewise-v3-eth-ethereum",
+      "destination": "/pt/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/es/pools/stakewise-v3-eth-ethereum",
       "destination": "/es/chains/ethereum",
       "permanent": true
     },
