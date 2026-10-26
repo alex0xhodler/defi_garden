@@ -627,7 +627,7 @@ function buildAgentEndpointsSection(meta) {
     'and an experimental 14-day forward yield forecast for 7,400+ liquidity venues across 30+ chains, updated daily. ' +
     'The score is not a smart-contract or exploit safety audit.'
   );
-  lines.push('- Methodology: four pillars — yield stability, sustainability, capital stickiness and exit liquidity. Bands AAA / AA / A / BBB / HIGH RISK are DeFi Garden\'s own model output, not a credit rating from a registered credit rating agency. Details: https://www.defi.garden/methodology');
+  lines.push('- Methodology: four pillars — yield stability, sustainability, capital stickiness and exit liquidity, each shown as a High / Medium / Low tier. Bands AAA / AA / A / BBB / HIGH RISK are DeFi Garden\'s own model output, not a credit rating from a registered credit rating agency. Details: https://www.defi.garden/methodology');
   lines.push('- Experimental 14-day forecast bands: a 14-day yield range (low / central / high); not yet shown to be more accurate than assuming today\'s rate holds.');
   lines.push('- Verified rails: pools below $100K TVL or with total APY > 1000% are strictly disqualified.');
   lines.push('');

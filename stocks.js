@@ -107,16 +107,19 @@
     return out;
   }
 
+  var TIER_KEYS = { High: 'pillarTierHigh', Medium: 'pillarTierMedium', Low: 'pillarTierLow' };
+  function tierOrNull(v) { return typeof v === 'string' && Object.prototype.hasOwnProperty.call(TIER_KEYS, v) ? v : null; }
+
   // Normalise one pool: finite-or-null for every optional number, so a render
   // path can never print NaN/undefined.
   function normalizePool(p, issuers) {
     var score = p.score && isNum(p.score.v) ? {
       v: p.score.v,
       r: typeof p.score.r === 'string' ? p.score.r : null,
-      st: isNum(p.score.st) ? p.score.st : null,
-      su: isNum(p.score.su) ? p.score.su : null,
-      sk: isNum(p.score.sk) ? p.score.sk : null,
-      li: isNum(p.score.li) ? p.score.li : null
+      st: tierOrNull(p.score.st),
+      su: tierOrNull(p.score.su),
+      sk: tierOrNull(p.score.sk),
+      li: tierOrNull(p.score.li)
     } : null;
     var band = Array.isArray(p.band) && isNum(p.band[0]) && isNum(p.band[1]) ? [p.band[0], p.band[1]] : null;
     return {
@@ -323,7 +326,7 @@
   var useRef = R.useRef;
   var useMemo = R.useMemo;
 
-  // Score pillar NAMES; values are the engine's 0-100 per-pillar field (pillarsPct).
+  // Score pillar NAMES; values are tiers (High / Medium / Low, pillarsTier), never numbers.
   var SCORE_PILLARS = [
     { key: 'st', labelKey: 'pillarStability' },
     { key: 'su', labelKey: 'pillarSustainability' },
@@ -563,7 +566,7 @@
     var s = props.pool.score, copy = props.copy;
     if (!s) return e('span', { className: 'stocks-muted' }, copy.scoreNone);
     var pillars = SCORE_PILLARS.map(function (pl) {
-      return isNum(s[pl.key]) ? copy[pl.labelKey] + ' ' + fmtInt(s[pl.key], copy.dash) + '/100' : copy[pl.labelKey];
+      return tierOrNull(s[pl.key]) ? copy[pl.labelKey] + ' ' + copy[TIER_KEYS[s[pl.key]]] : copy[pl.labelKey];
     }).join(' · ');
     return e('div', { className: 'stocks-score' },
       e(Tip, { text: pillars + '. ' + copy.scoreTip, label: copy.colScore + ' ' + fmtScore(s.v, copy.dash) },

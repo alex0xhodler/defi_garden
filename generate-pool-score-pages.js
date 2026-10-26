@@ -81,9 +81,11 @@ const VOLATILITY_RATIO_FLAG = 0.2;    // mirrors planner.js "steady" test: stdev
 const MIN_POINTS_FOR_VOLATILITY = 7;  // mirrors planner.js (hp >= 7)
 const GENERATOR_MARKER = '<!-- generated:pool-score-pages -->';
 
-/** DeFi Score pillar NAMES. Per-pillar values are the scoring engine's 0-100
- *  `defiScore.pillarsPct`; when absent only the names render. No weights or
- *  maxima live in public code (owner decision 2026-10-25). */
+/** DeFi Score pillar NAMES. Per-pillar values render as a TIER (High / Medium /
+ *  Low) from the scoring engine's `defiScore.pillarsTier`, never a number
+ *  (owner decision 2026-10-26); when absent only the names render. No weights
+ *  or maxima live in public code (owner decision 2026-10-25). */
+const PILLAR_TIER_LEVEL = { High: 3, Medium: 2, Low: 1 };
 const SCORE_PILLARS = [
   { key: 'stability', labelKey: 'pspPillarStability' },
   { key: 'sustainability', labelKey: 'pspPillarSustainability' },
@@ -324,8 +326,11 @@ function renderStyle() {
       .psp-wrap .dt-panel ul.psp-pillars { padding: 0; }
       .psp-pillar-head { display: flex; justify-content: space-between; gap: 12px; font-size: .92rem; }
       .psp-pillar-head span:last-child { font-family: var(--font-family-mono, monospace); font-size: .85rem; font-variant-numeric: tabular-nums; color: var(--cert-ink-2); }
-      .psp-bar { height: 8px; margin-top: 6px; background: var(--cert-paper-deep); border: 1px solid var(--cert-rule); overflow: hidden; }
-      .psp-bar > span { display: block; height: 100%; background: var(--cert-green); }
+      .psp-tier { display: grid; grid-template-columns: repeat(3, 1fr); gap: 3px; margin-top: 6px; }
+      .psp-tier > span { display: block; height: 8px; background: var(--cert-paper-deep); border: 1px solid var(--cert-rule); }
+      .psp-tier-high > span.on { background: var(--cert-green); border-color: var(--cert-green); }
+      .psp-tier-medium > span.on { background: var(--cert-ink-2); border-color: var(--cert-ink-2); }
+      .psp-tier-low > span.on { background: var(--cert-amber); border-color: var(--cert-amber); }
       .psp-forecast { width: 100%; border-collapse: collapse; }
       .psp-forecast th, .psp-forecast td { text-align: left; padding: 10px 6px; border-bottom: 1px solid var(--cert-rule); color: var(--cert-ink); }
       .psp-forecast th { font-family: var(--font-family-mono, monospace); font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--cert-ink-2); font-weight: 700; }
@@ -545,14 +550,15 @@ function renderPoolScorePage(pool, ctx, lang) {
 
   // score pillars
   const pillars = SCORE_PILLARS.map(pl => {
-    const raw = ds.pillarsPct && ds.pillarsPct[pl.key];
-    if (!isNum(raw)) return `<li>
+    const tier = ds.pillarsTier && ds.pillarsTier[pl.key];
+    if (!Object.prototype.hasOwnProperty.call(PILLAR_TIER_LEVEL, tier)) return `<li>
           <div class="psp-pillar-head"><span>${esc(t(pl.labelKey))}</span></div>
         </li>`;
-    const v = Math.round(Math.max(0, Math.min(100, raw)));
+    const level = PILLAR_TIER_LEVEL[tier];
+    const tierLabel = t('pspTier' + tier);
     return `<li>
-          <div class="psp-pillar-head"><span>${esc(t(pl.labelKey))}</span><span>${v} / 100</span></div>
-          <div class="psp-bar" role="meter" aria-label="${esc(t(pl.labelKey))}" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${v}"><span style="width:${v}%"></span></div>
+          <div class="psp-pillar-head"><span>${esc(t(pl.labelKey))}</span><span>${esc(tierLabel)}</span></div>
+          <div class="psp-tier psp-tier-${tier.toLowerCase()}" data-tier="${tier.toLowerCase()}" aria-hidden="true"><span class="on"></span><span${level >= 2 ? ' class="on"' : ''}></span><span${level >= 3 ? ' class="on"' : ''}></span></div>
         </li>`;
   }).join('\n        ');
 

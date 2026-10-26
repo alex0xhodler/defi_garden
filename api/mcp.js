@@ -77,7 +77,7 @@ const MCP_TOOLS = [
   },
   {
     name: "get_pool_score",
-    description: "Retrieve the DeFi Score (0-100) with its band name (AAA to HIGH RISK; DeFi Garden's own model output, not a credit rating), per-pillar values from 0 to 100 (yield stability, sustainability, capital stickiness, exit liquidity), the experimental 14-day forward yield forecast range (low / central / high), and retail access restrictions. Look up by pool_id, or by exact asset symbol (highest-TVL railed match, with candidates listed). The forecast is experimental.",
+    description: "Retrieve the DeFi Score (0-100) with its band name (AAA to HIGH RISK; DeFi Garden's own model output, not a credit rating), each pillar shown as a High / Medium / Low tier, never a number (yield stability, sustainability, capital stickiness, exit liquidity), the experimental 14-day forward yield forecast range (low / central / high), and retail access restrictions. Look up by pool_id, or by exact asset symbol (highest-TVL railed match, with candidates listed). The forecast is experimental.",
     inputSchema: {
       type: "object",
       properties: {
@@ -115,6 +115,17 @@ class RpcError extends Error {
     super(message);
     this.rpcCode = code;
   }
+}
+
+// Public shape of the per-pillar tiers (owner decision 2026-10-26): only the
+// four High / Medium / Low labels. Never exact pillar numbers.
+const PILLAR_TIER_VALUES = ['High', 'Medium', 'Low'];
+function publicPillarsTier(pt) {
+  const keys = ['stability', 'sustainability', 'stickiness', 'liquidity'];
+  if (!pt || typeof pt !== 'object' || !keys.every(k => PILLAR_TIER_VALUES.includes(pt[k]))) return null;
+  const out = {};
+  keys.forEach(k => { out[k] = pt[k]; });
+  return out;
 }
 
 function totalApyOf(p) {
@@ -279,7 +290,7 @@ function handleToolCall(name, args, pools) {
       defi_score: pool.defiScore ? {
         score: pool.defiScore.score,
         rating: pool.defiScore.rating || null,
-        pillars_pct: pool.defiScore.pillarsPct || null,
+        pillars_tier: publicPillarsTier(pool.defiScore.pillarsTier),
         note: "Yield quality score based on stability, fee sustainability, depositor stickiness, and exit liquidity. Not a smart-contract or exploit safety audit."
       } : null,
       forecast: pool.forecast ? {

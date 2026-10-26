@@ -410,11 +410,19 @@ function verifiedIssuer(pool) {
 // "In 8 of 15 test runs, ..." -> { baselineWins: 8, runs: 15 } so the page can
 // localize the sentence without re-typing the numbers. Null when it doesn't parse.
 // PUBLIC serialization of a DeFi Score (2026-10-25 proprietary decision): total, band
-// name and the per-pillar 0-100 `pillarsPct` only. Raw pillar points are never copied.
+// name and the per-pillar `pillarsTier` ("High"|"Medium"|"Low", 2026-10-26) only.
+// Exact pillar numbers (pillarsPct, allow-pillarsPct) and raw pillar points are never copied.
+const PILLAR_TIERS = ['High', 'Medium', 'Low'];
+const PILLAR_TIER_KEYS = ['stability', 'sustainability', 'stickiness', 'liquidity'];
+const tierOf = v => (PILLAR_TIERS.includes(v) ? v : null);
 function publicDefiScore(ds) {
   if (!ds || typeof ds !== 'object') return null;
   const out = { score: ds.score, rating: ds.rating };
-  if (ds.pillarsPct && typeof ds.pillarsPct === 'object') out.pillarsPct = ds.pillarsPct;
+  const pt = ds.pillarsTier;
+  if (pt && typeof pt === 'object' && PILLAR_TIER_KEYS.every(k => PILLAR_TIERS.includes(pt[k]))) {
+    out.pillarsTier = {};
+    PILLAR_TIER_KEYS.forEach(k => { out.pillarsTier[k] = pt[k]; });
+  }
   return out;
 }
 
@@ -446,7 +454,7 @@ function buildStocksPools(full, scoreLabels) {
   const pools = (full.pools || []).map(p => {
     const first = (p.equityTokens && p.equityTokens[0]) || {};
     const score = p.defiScore && Number.isFinite(Number(p.defiScore.score)) ? p.defiScore : null;
-    const b = score && score.pillarsPct ? score.pillarsPct : {}; // 0-100 per pillar (no raw points)
+    const b = score && score.pillarsTier ? score.pillarsTier : {}; // tier per pillar (no numbers)
     return {
       id: p.pool,
       symbol: p.symbol,
@@ -469,12 +477,12 @@ function buildStocksPools(full, scoreLabels) {
       clip: p.heuristicClip.usd,
       score: score ? {
         v: score.score, r: score.rating == null ? null : score.rating,
-        st: num(b.stability), su: num(b.sustainability), sk: num(b.stickiness), li: num(b.liquidity)
+        st: tierOf(b.stability), su: tierOf(b.sustainability), sk: tierOf(b.stickiness), li: tierOf(b.liquidity)
       } : null
     };
   });
   return {
-    schemaVersion: 1,
+    schemaVersion: 2, // 2: pillar values are tiers ("High"|"Medium"|"Low"), not 0-100 numbers
     generatedAt: full.generatedAt,
     sourceGeneratedAt: full.sourceGeneratedAt,
     rails: {
