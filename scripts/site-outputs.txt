@@ -22,6 +22,8 @@ data/pool-scores.json
 data/protocol-urls.json
 data/stocks-pools.json
 data/stocks-snapshot.json
+data/stocks-versions.json
+data/stocks-versions-slim.json
 data/forecast-evaluations.json
 sitemap.xml
 sitemap-main.xml
