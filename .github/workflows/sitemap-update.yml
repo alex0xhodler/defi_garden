@@ -112,6 +112,7 @@ jobs:
     - name: Compute forecasts + DeFi Score
       env:
         ALCHEMY_KEY: ${{ secrets.ALCHEMY_KEY }}
+        SCORING_WRITE_KEY: ${{ secrets.SCORING_WRITE_KEY }}
       run: |
         echo "Scoring pools..."
         curl -LsSf https://astral.sh/uv/install.sh | sh > /dev/null
