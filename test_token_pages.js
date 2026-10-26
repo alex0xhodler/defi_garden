@@ -601,44 +601,21 @@ test('043 folded in: category leg present without a separate 043 build', () => {
   assert.ok(gen.categoryLinksFor(bySym['BIG'].pools, 'https://www.defi.garden/?token=BIG').length > 0);
 });
 
-console.log('062 — Laso Card & Referral CTA (token pages)');
-test('renders Laso card referral CTA with partner referral link', () => {
-  assert.ok(html.includes('https://laso.finance?ref=lmretyujvzr9jiutxi4d'), 'expected Laso referral link in token CTA');
-  assert.ok(html.includes('id="token-laso-btn"'), 'expected token-laso-btn CTA button');
-});
-test('CTA copy is honest and surfaces partner referral and principal protection', () => {
-  assert.ok(html.includes('Laso.finance') && html.includes('100% self-custodial'), 'missing honest Laso card copy');
-});
-test('pitch line is token-specific and renders metal card for that token', () => {
-  assert.ok(html.includes('BIG Yield Card'), 'missing BIG-specific card header');
-  assert.ok(html.includes('BIG YIELD VAULT'), 'missing BIG-specific cardholder label');
-  const midHtml2 = gen.renderTokenPage(bySym['MID']);
-  assert.ok(midHtml2.includes('MID Yield Card'), 'missing MID-specific card header');
-  assert.ok(midHtml2.includes('MID YIELD VAULT'), 'missing MID-specific cardholder label');
-});
-test('waitlist block uses the --ui-* token system only, no hardcoded hex colors, reuses .tp-cta', () => {
-  const styleBlock = gen.renderWaitlistCtaStyle('tp');
-  assert.ok(!/#[0-9a-fA-F]{3,6}\b/.test(styleBlock), 'hardcoded hex color in the waitlist CTA style block');
-  assert.ok(styleBlock.includes('var(--ui-border)') && styleBlock.includes('.tp-cta'),
-    'must reuse existing --ui-* tokens/button style');
-  assert.ok(html.includes(styleBlock), 'waitlist style block missing from the rendered page <style>');
-  assert.ok(html.match(/<a class="tp-cta/), 'CTA link must reuse the existing .tp-cta button style');
-});
-test('waitlist pitch line escapes a malicious token symbol (cannot inject markup)', () => {
-  const evil = gen.renderTokenPage({ symbol: '<script>alert(1)</script>', slug: 'evil', qualifyingCount: 1,
-    totalTvl: 2e7, pools: [{ project: 'aave', chain: 'Base', tvlUsd: 1e7, apyBase: 5, apyReward: 0, pool: 'p1' }] });
-  const waitlistDiv = evil.match(/<div class="tp-waitlist"[\s\S]*?<\/div>/)[0];
-  assert.ok(!waitlistDiv.includes('<script>alert(1)</script>'), 'unescaped symbol leaked into the waitlist pitch');
-  assert.ok(waitlistDiv.includes('&lt;script&gt;'), 'expected escaped symbol in the waitlist pitch');
-});
-test('every generated token page (en + ko) renders the Laso referral CTA', () => {
+console.log('no card / waitlist CTA on token pages (card lives only at /for/*)');
+test('token pages (en + ko) carry no laso.finance, Yield Card, waitlist=1 or waitlist/card markup', () => {
   ranked.forEach(rec => {
-    const enHtml = gen.renderTokenPage(rec, [], '2026-07-12', [], 'en');
-    const koHtml = gen.renderTokenPage(rec, [], '2026-07-12', [], 'ko');
-    assert.ok(enHtml.includes('https://laso.finance?ref=lmretyujvzr9jiutxi4d'), `EN page missing Laso referral link for ${rec.symbol}`);
-    assert.ok(koHtml.includes('https://laso.finance?ref=lmretyujvzr9jiutxi4d'), `KO page missing Laso referral link for ${rec.symbol}`);
-    assert.ok(koHtml.includes(rec.symbol), `KO page missing token symbol for ${rec.symbol}`);
+    ['en', 'ko'].forEach(lang => {
+      const h = gen.renderTokenPage(rec, [], '2026-07-12', [], lang);
+      assert.ok(!h.includes('laso.finance') && !/laso/i.test(h), `${lang} ${rec.symbol}: Laso`);
+      assert.ok(!h.includes('Yield Card'), `${lang} ${rec.symbol}: Yield Card`);
+      assert.ok(!h.includes('waitlist=1'), `${lang} ${rec.symbol}: waitlist=1`);
+      assert.ok(!/tp-waitlist|token-card-section|virtual-visa-card|dg_laso_token_/.test(h), `${lang} ${rec.symbol}: waitlist/card markup`);
+      assert.ok(h.includes(rec.symbol), `${lang} page missing token symbol for ${rec.symbol}`);
+    });
   });
+});
+test('the primary action survives: the "See live pools" app link still renders (buy-box law)', () => {
+  assert.ok(/<a class="tp-cta"[^>]*src=seo_token/.test(html), 'missing .tp-cta app link');
 });
 
 console.log('066 — yield headline: honest per-token custom KPI, reusing planner.js blend/forever-number math');
