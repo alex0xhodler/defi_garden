@@ -170,6 +170,16 @@
       "permanent": true
     },
     {
+      "source": "/protocols/index",
+      "destination": "/protocols",
+      "permanent": true
+    },
+    {
+      "source": "/ko/protocols/index",
+      "destination": "/ko/protocols",
+      "permanent": true
+    },
+    {
       "source": "/pools/index",
       "destination": "/pools",
       "permanent": true

@@ -8,7 +8,7 @@ const path = require('path');
 
 const PUBLIC_FILES = [
   'landing.js', 'stocks.js', 'PoolDetail.js', 'app.js', 'translations.js', 'methodology.html', 'mcp-page.html',
-  'generate-landing-pools.js', 'generate-pool-scores-json.js', 'generate-pool-score-pages.js', 'generate-llms.js',
+  'generate-landing-pools.js', 'generate-pool-scores-json.js', 'generate-pool-score-pages.js', 'generate-protocol-pages.js', 'generate-protocol-pages-core.js', 'generate-llms.js',
   'generate-stocks-snapshot.js', 'generate-stock-ticker-pages.js', 'api/mcp.js', 'i18n/pt.js', 'i18n/es.js', 'i18n/static-en-ko.js',
   '.well-known/mcp.json', '.well-known/mcp/server-card.json', '.well-known/mcp/server-cards.json'
 ];

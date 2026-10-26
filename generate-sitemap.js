@@ -46,6 +46,8 @@ const FOREIGN_PAGE_SITEMAPS = [].concat(...LANG_CONFIG.LANGUAGES.map(l => {
     `sitemap-chain-pages${suffix}.xml`,
     // W1: owned by generate-pool-score-pages.js
     `sitemap-pool-pages${suffix}.xml`,
+    // W4: owned by generate-protocol-pages.js (en + ko only)
+    `sitemap-protocol-pages${suffix}.xml`,
   ];
 }));
 
@@ -890,7 +892,7 @@ async function generateSitemapSuite(poolsOverride) {
     //    generate-*-pages.js has produced them.
     LANG_CONFIG.LANGUAGES.forEach(l => {
       const suffix = l.code === LANG_CONFIG.DEFAULT_LANG ? '' : '-' + l.code;
-      ['token', 'chain', 'pool'].forEach(kind => {
+      ['token', 'chain', 'pool', 'protocol'].forEach(kind => {
         const file = `sitemap-${kind}-pages${suffix}.xml`;
         if (fs.existsSync(file)) {
           indexEntries.push({ loc: `${SITE_URL}${file}`, lastmod: maxLastmodFromFile(file, now) });

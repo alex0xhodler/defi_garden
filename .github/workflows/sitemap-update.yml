@@ -170,6 +170,15 @@ jobs:
         node generate-pool-score-pages.js --out pools --limit 100
         echo "Pages: $(ls pools/*.html | wc -l) · sitemap URLs: $(grep -c '<loc>' sitemap-pool-pages.xml)"
 
+    - name: Generate protocol pages (W4 — static /protocols/<slug> pages, gated, manifest + sitemaps)
+      # After scoring: reads data/pools-snapshot.json only (gate: >= 3 scored pools and
+      # >= $5M qualifying TVL per protocol, top 80). Must run BEFORE the sitemap and
+      # llms steps, which read sitemap-protocol-pages*.xml and data/protocol-pages.json.
+      run: |
+        echo "Generating static /protocols/ pages..."
+        node generate-protocol-pages.js --out protocols
+        echo "Pages: $(ls protocols/*.html | wc -l) · sitemap URLs: $(grep -c '<loc>' sitemap-protocol-pages.xml)"
+
     - name: Generate token landing pages
       run: |
         echo "🌿 Generating static /tokens/ landing pages + sitemap..."

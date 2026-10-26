@@ -84,7 +84,9 @@ const ESTATE_DIRS = [].concat(
   ESTATE_LANG_PREFIXES.map(p => p + 'tokens'),
   ESTATE_LANG_PREFIXES.map(p => p + 'tokens/az'),
   ESTATE_LANG_PREFIXES.map(p => p + 'chains'),
-  ESTATE_LANG_PREFIXES.map(p => p + 'pools')
+  ESTATE_LANG_PREFIXES.map(p => p + 'pools'),
+  // W4 protocol pages exist in en + ko only; a missing dir is skipped below
+  ESTATE_LANG_PREFIXES.map(p => p + 'protocols')
 );
 
 /**

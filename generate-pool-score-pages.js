@@ -45,6 +45,7 @@ const {
 } = require('./languages.js');
 const { PERMISSIONED_PROJECT_LIST } = require('./permissioned-projects.js');
 const { assignPoolSlugs, slugify, MANIFEST_REL_PATH } = require('./pool-page-links.js');
+const { protocolSlugMap, protocolDisplayName } = require('./generate-protocol-pages-core.js');
 
 const {
   SITE_URL, isAnomalousApy, poolTotalApy, formatUsd, formatApy, escapeHtml,
@@ -80,6 +81,7 @@ const TVL_TREND_FLAG = 0.25;          // mirrors PoolDetail.js: |kpis.tvlTrend| 
 const VOLATILITY_RATIO_FLAG = 0.2;    // mirrors planner.js "steady" test: stdev/APY above this is volatile
 const MIN_POINTS_FOR_VOLATILITY = 7;  // mirrors planner.js (hp >= 7)
 const GENERATOR_MARKER = '<!-- generated:pool-score-pages -->';
+const PROTOCOL_PAGE_LANGS = ['en', 'ko'];  // languages /protocols/* exists in (generate-protocol-pages.js)
 
 /** DeFi Score pillar NAMES. Per-pillar values render as a TIER (High / Medium /
  *  Low) from the scoring engine's `defiScore.pillarsTier`, never a number
@@ -592,6 +594,11 @@ function renderPoolScorePage(pool, ctx, lang) {
     return `<a class="dt-preset-btn" href="${poolsBase(language)}/${s}">${esc(t('pspSimilarItem', displayName(p.project), p.symbol || '—', p.chain || '—', formatUsd(p.tvlUsd)))}</a>`;
   }).join('\n        ');
 
+  // W4: quiet link to the protocol page, only when that page exists (the gate is
+  // a pure function of the snapshot, see generate-protocol-pages-core.js).
+  const protoSlug = PROTOCOL_PAGE_LANGS.includes(language) && ctx.protocolSlugs && ctx.protocolSlugs.get(pool.project);
+  const protocolLink = protoSlug
+    ? `<p class="psp-foot"><a href="${SITE_URL}${langPath(language, '/protocols')}/${protoSlug}">${esc(t('prpLinkFromPool', protocolDisplayName(pool.project)))}</a></p>\n` : '';
   const accuracy = ctx.hasAccuracyPage
     ? `<p class="psp-foot"><a href="${SITE_URL}/forecast-accuracy">${esc(t('pspAccuracyLink'))}</a></p>` : '';
   const chartId = 'psp-chart-title';
@@ -708,7 +715,7 @@ ${renderLanguageSwitcher(neutralPath, language, LANG_CODES, t)}    <nav class="p
     </nav>
 
     <p class="psp-foot">${esc(t('pspNotAdvice'))}</p>
-${accuracy}  </main>
+${protocolLink}${accuracy}  </main>
 ${renderSiteFooter(t, language)}
   </div>
 ${renderChromeScript(lc)}
@@ -777,7 +784,7 @@ ${renderLanguageSwitcher(neutralPath, language, LANG_CODES, t)}    <nav class="p
     <h1>${esc(t('pspHubHeading'))}</h1>
     <p class="psp-note">${esc(t('pspHubSub', selected.length, formatUsd(W1_MIN_TVL_USD)))}</p>
     <p class="psp-note">${esc(t('pspHubIntro'))}</p>
-    <div class="decision-terminal-card">
+${PROTOCOL_PAGE_LANGS.includes(language) && ctx.protocolSlugs && ctx.protocolSlugs.size ? `    <p class="psp-foot"><a href="${SITE_URL}${langPath(language, '/protocols')}">${esc(t('prpHubLinkFromPools'))}</a></p>\n` : ''}    <div class="decision-terminal-card">
     <div class="dt-grid">
 ${sections}
     </div>
@@ -941,6 +948,7 @@ function main() {
   try { fs.readdirSync(path.join(ROOT, 'chains')).forEach(f => { if (f.endsWith('.html') && f !== 'index.html') chainSlugs.add(f.slice(0, -5)); }); } catch (e) { /* none */ }
   const ctxBase = {
     slugOf, selected, snapshotIso, protocolUrls, chainSlugs,
+    protocolSlugs: protocolSlugMap(pools),
     hasAccuracyPage: fs.existsSync(path.join(ROOT, 'forecast-accuracy.html'))
   };
 
@@ -985,7 +993,10 @@ module.exports = {
   isEligibleScoredPool, selectPoolPages, displayName, renderPoolScorePage, renderPoolsHubPage,
   renderPoolsSitemap, renderApyChartSvg, buildManifest, removeStaleOwnedPages, pageTitle,
   loadHistory, seriesFor, protocolUrlFor, riskItems, parseArgs, writeSet,
-  assignPoolSlugs, hasMeaningfulYield, computePoolRedirects, syncPoolRedirectsText
+  assignPoolSlugs, hasMeaningfulYield, computePoolRedirects, syncPoolRedirectsText,
+  // shared page chrome, reused by generate-protocol-pages.js
+  renderStyle, renderSiteHeader, renderSiteFooter, renderChromeScript, chromeCopy, THEME_BOOT_SCRIPT,
+  PILLAR_TIER_LEVEL, fmtNum
 };
 
 if (require.main === module) {
