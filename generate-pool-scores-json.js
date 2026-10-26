@@ -6,7 +6,7 @@
  * and retail access flags) in data/pool-scores.json.
  *
  * Compact Array Schema:
- * [score, [stability, sustainability, stickiness, liquidity] (each 0-100, from defiScore.pillarsPct, or null), [low, central, high, crashRisk, forwardDelta], isRestricted]
+ * [score, [stability, sustainability, stickiness, liquidity] (each "High"|"Medium"|"Low" from defiScore.pillarsTier, or null; never a number), [low, central, high, crashRisk, forwardDelta], isRestricted]
  * Shared disclaimer and access text are stored once at top-level.
  */
 
@@ -20,10 +20,12 @@ const SNAPSHOT_PATH = path.join(__dirname, 'data/pools-snapshot.json');
 const OUT_PATH = path.join(__dirname, 'data/pool-scores.json');
 
 const PILLAR_ORDER = ['stability', 'sustainability', 'stickiness', 'liquidity'];
-function pillarsPctOf(ds) {
-  const pp = ds && ds.pillarsPct;
-  if (!pp || !PILLAR_ORDER.every(k => Number.isFinite(pp[k]))) return null;
-  return PILLAR_ORDER.map(k => Math.max(0, Math.min(100, Math.round(pp[k]))));
+const TIERS = ['High', 'Medium', 'Low'];
+// Owner decision 2026-10-26: public JSON carries the tier only. Exact pillar numbers (pillarsPct, allow-pillarsPct) are never serialized.
+function pillarsTierOf(ds) {
+  const pt = ds && ds.pillarsTier;
+  if (!pt || !PILLAR_ORDER.every(k => TIERS.includes(pt[k]))) return null;
+  return PILLAR_ORDER.map(k => pt[k]);
 }
 
 function main() {
@@ -44,7 +46,7 @@ function main() {
     const isRestricted = PERMISSIONED_PROJECT_LIST.has(String(p.project || '').toLowerCase());
     scores[p.pool] = [
       p.defiScore ? Number(p.defiScore.score.toFixed(1)) : null,
-      pillarsPctOf(p.defiScore),
+      pillarsTierOf(p.defiScore),
       p.forecast ? [
         Number(p.forecast.p10.toFixed(2)),
         Number(p.forecast.p50.toFixed(2)),
@@ -57,7 +59,7 @@ function main() {
   }
 
   const payload = {
-    schemaVersion: 3,
+    schemaVersion: 4,
     generatedAt: raw.generatedAt || new Date().toISOString(),
     totalScores: Object.keys(scores).length,
     labels: {

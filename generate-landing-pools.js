@@ -36,16 +36,18 @@ const LANDING_POOL_IDS = [
 ];
 
 // PUBLIC serialization (owner decision 2026-10-25, "what, not how"): the landing
-// slice carries the total score, the band name and the per-pillar 0-100 values
-// (defiScore.pillarsPct, emitted by the scoring engine). Raw pillar points or
-// any other internal field are never copied through.
+// slice carries the total score, the band name and the per-pillar TIER
+// (defiScore.pillarsTier: "High" | "Medium" | "Low", emitted by the scoring
+// engine; owner decision 2026-10-26). Exact pillar numbers (pillarsPct, allow-pillarsPct), raw
+// pillar points or any other internal field are never copied through.
+const TIERS = ['High', 'Medium', 'Low'];
 const PILLAR_KEYS = ['stability', 'sustainability', 'stickiness', 'liquidity'];
 function publicScore(ds) {
   const out = { score: ds.score, rating: ds.rating };
-  const pp = ds.pillarsPct;
-  if (pp && PILLAR_KEYS.every(k => Number.isFinite(pp[k]))) {
-    out.pillarsPct = {};
-    PILLAR_KEYS.forEach(k => { out.pillarsPct[k] = Math.max(0, Math.min(100, Math.round(pp[k]))); });
+  const pt = ds.pillarsTier;
+  if (pt && PILLAR_KEYS.every(k => TIERS.includes(pt[k]))) {
+    out.pillarsTier = {};
+    PILLAR_KEYS.forEach(k => { out.pillarsTier[k] = pt[k]; });
   }
   return out;
 }

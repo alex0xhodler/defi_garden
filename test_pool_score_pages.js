@@ -28,7 +28,7 @@ function mk(over) {
     apyBase: 3.2, apyReward: 0.8, apyMean30d: 3.5, poolMeta: null, exposure: 'single', ilRisk: 'no',
     kpis: { historyPoints: 30, firstSeen: '2026-09-05', apyStdev: 0.1, apyMean: 3.5, tvlTrend: 0.05 },
     forecast: { horizonDays: 14, p10: 3.1, p50: 3.9, p90: 4.6, crashRisk: 'LOW', predictedTvlUsd: 51000000, predictedTvlDelta: 0.02, trajectory: Array.from({ length: 14 }, (_, i) => 3.9 + i * 0.001) },
-    defiScore: { score: 91.6, rating: 'AAA', pillarsPct: { stability: 98, sustainability: 89, stickiness: 84, liquidity: 94 } }
+    defiScore: { score: 91.6, rating: 'AAA', pillarsPct: { stability: 98, sustainability: 89, stickiness: 84, liquidity: 94 }, pillarsTier: { stability: 'High', sustainability: 'Medium', stickiness: 'Low', liquidity: 'High' } }
   }, over || {});
 }
 const SNAP = '2026-10-04T21:16:57.774Z';
@@ -226,12 +226,17 @@ test('every number equals the snapshot value formatted en-US', () => {
   const total = hi.apyBase + hi.apyReward;
   [formatApy(total), formatApy(hi.apyMean30d), formatApy(hi.apyBase), formatApy(hi.apyReward), formatUsd(hi.tvlUsd),
    formatApy(hi.forecast.p10), formatApy(hi.forecast.p50), formatApy(hi.forecast.p90),
-   'Score 91.6 / 100', '98 / 100', '89 / 100', '84 / 100', '94 / 100', 'October 4, 2026', formatUsd(hi.forecast.predictedTvlUsd)
+   'Score 91.6 / 100', 'October 4, 2026', formatUsd(hi.forecast.predictedTvlUsd)
   ].forEach(s => assert.ok(html.includes(s), `missing ${s}`));
-  assert.ok(ko.includes('98 / 100') && ko.includes(formatUsd(hi.tvlUsd)));
-  assert.ok(html.includes('aria-valuemax="100"'));
+  assert.ok(ko.includes('높음') && ko.includes('낮음') && ko.includes(formatUsd(hi.tvlUsd)));
+  assert.ok(html.includes('data-tier="high"') && html.includes('data-tier="medium"') && html.includes('data-tier="low"'));
+  assert.ok(/>High<\/span>/.test(html) && />Medium<\/span>/.test(html) && />Low<\/span>/.test(html), 'tier labels');
+  assert.ok(!/ \/ 100/.test(html.replace('Score 91.6 / 100', '')) && !html.includes('aria-valuenow') && !html.includes('role="meter"'), 'no pillar numbers or numeric meter');
+  assert.ok(!/>(98|89|84|94)</.test(html), 'exact pillar numbers must not render');
+  const pt = require('./translations.js').createTranslationFunction('en');
+  assert.ok(pt('pspTierHigh') === 'High');
 });
-test('pillars render by name only when pillarsPct is absent; no weights/maxima leak into the page', () => {
+test('pillars render by name only when pillarsTier is absent; no weights/maxima leak into the page', () => {
   const bare = gen.renderPoolScorePage(mk({ defiScore: { score: 70.1, rating: 'AA', breakdown: { stability: 34.2, sustainability: 22.2, stickiness: 21.1, liquidity: 14.1 } } }), ctx, 'en');
   ['Yield stability', 'Sustainability', 'Capital stickiness', 'Exit liquidity'].forEach(n => assert.ok(bare.includes(n), n));
   assert.ok(!/ \/ (35|25|15)\b/.test(bare) && !bare.includes('34.2') && !/aria-valuemax="(35|25|15)"/.test(bare));

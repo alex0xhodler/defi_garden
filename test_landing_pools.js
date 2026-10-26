@@ -5,7 +5,7 @@ const fs = require('fs');
 const path = require('path');
 const { buildLandingPools, LANDING_POOL_IDS } = require('./generate-landing-pools');
 
-const score = { score: 92.3, rating: 'AAA', pillarsPct: { stability: 99.6, sustainability: 88, stickiness: 85, liquidity: 94 }, breakdown: { stability: 1, sustainability: 2, stickiness: 3, liquidity: 4 }, secret: 'x' };
+const score = { score: 92.3, rating: 'AAA', pillarsPct: { stability: 99.6, sustainability: 88, stickiness: 85, liquidity: 94 }, pillarsTier: { stability: 'High', sustainability: 'Medium', stickiness: 'Low', liquidity: 'High' }, breakdown: { stability: 1, sustainability: 2, stickiness: 3, liquidity: 4 }, secret: 'x' };
 const snapshot = {
   generatedAt: '2026-09-27T07:41:44.000Z',
   pools: [
@@ -35,8 +35,11 @@ check('forecast passes through, null when absent', () => {
   assert.strictEqual(out.pools[0].forecast, null);
   assert.deepStrictEqual(out.pools[1].forecast, { p50: 3.5 });
 });
-check('defiScore is serialized publicly: score, rating, integer pillarsPct only', () => {
-  assert.deepStrictEqual(out.pools[0].defiScore, { score: 92.3, rating: 'AAA', pillarsPct: { stability: 100, sustainability: 88, stickiness: 85, liquidity: 94 } });
+check('defiScore is serialized publicly: score, rating, pillarsTier only (never pillarsPct)', () => {
+  assert.deepStrictEqual(out.pools[0].defiScore, { score: 92.3, rating: 'AAA', pillarsTier: { stability: 'High', sustainability: 'Medium', stickiness: 'Low', liquidity: 'High' } });
+  assert.ok(!JSON.stringify(out).includes('pillarsPct'), 'exact pillar numbers must never be served');
+  const badTier = buildLandingPools({ pools: [{ pool: 'a', defiScore: { score: 50, rating: 'BBB', pillarsTier: { stability: 'High', sustainability: 'Huge', stickiness: 'Low', liquidity: 'Low' } } }] }, ['a']);
+  assert.deepStrictEqual(badTier.pools[0].defiScore, { score: 50, rating: 'BBB' });
   const noPct = buildLandingPools({ pools: [{ pool: 'a', defiScore: { score: 50, rating: 'BBB', breakdown: { stability: 1 } } }] }, ['a']);
   assert.deepStrictEqual(noPct.pools[0].defiScore, { score: 50, rating: 'BBB' });
 });

@@ -353,13 +353,14 @@ test('forecast status is generic and carries NO track-record numbers (they live 
     assert.ok(!/resolved test runs|\d+ of \d+|-0\.25|skill/i.test(s), s);
   });
 });
-test('get_pool_score never serves raw pillar points: pillars_pct only, plus the band name', async () => {
+test('get_pool_score never serves raw pillar points: pillars_tier only (never pillars_pct), plus the band name', async () => {
   const withScore = JSON.parse(JSON.stringify(SYNTH));
-  withScore['pools-snapshot.json'].pools.forEach(p => { p.defiScore = { score: 80, rating: 'AA', breakdown: { stability: 30, sustainability: 20, stickiness: 20, liquidity: 10 }, pillarsPct: { stability: 86, sustainability: 80, stickiness: 80, liquidity: 67 } }; });
+  withScore['pools-snapshot.json'].pools.forEach(p => { p.defiScore = { score: 80, rating: 'AA', breakdown: { stability: 30, sustainability: 20, stickiness: 20, liquidity: 10 }, pillarsPct: { stability: 86, sustainability: 80, stickiness: 80, liquidity: 67 }, pillarsTier: { stability: 'High', sustainability: 'Medium', stickiness: 'Low', liquidity: 'High' } }; });
   await withData(withScore, async (h) => {
     const d = payloadOf(await callTool(h, 'get_pool_score', { pool_id: 'ok-big' })).defi_score;
     assert.strictEqual(d.rating, 'AA');
-    assert.deepStrictEqual(d.pillars_pct, { stability: 86, sustainability: 80, stickiness: 80, liquidity: 67 });
+    assert.deepStrictEqual(d.pillars_tier, { stability: 'High', sustainability: 'Medium', stickiness: 'Low', liquidity: 'High' });
+    assert.ok(!('pillars_pct' in d) && !JSON.stringify(d).includes('86'), 'exact pillar numbers must not be served');
     assert.ok(!('breakdown' in d), 'raw pillar points must not be served');
   });
 });

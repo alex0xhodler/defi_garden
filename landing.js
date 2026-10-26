@@ -25,8 +25,9 @@
   // baked snapshot values (labelled as such) when that fetch fails. Trust rails
   // (window.TRUST_RAILS) are applied to whichever value is displayed.
   var LANDING_POOLS_URL = '/data/landing-pools.json';
-  // Pillar NAMES (+ one plain line each); per-pillar values are the 0-100
-  // `defiScore.pillarsPct` emitted by the scoring engine. No weights, maxima or
+  // Pillar NAMES (+ one plain line each); per-pillar values are shown as a TIER
+  // (High / Medium / Low) from `defiScore.pillarsTier` emitted by the scoring
+  // engine, never a number (owner decision 2026-10-26). No weights, maxima or
   // band cutoffs live in public code (owner decision 2026-10-25).
   var SCORE_PILLARS = [
     { key: 'stability', labelKey: 'uwPillarStability', descKey: 'methPillarStabilityDesc' },
@@ -34,6 +35,7 @@
     { key: 'stickiness', labelKey: 'uwPillarStickiness', descKey: 'methPillarStickinessDesc' },
     { key: 'liquidity', labelKey: 'uwPillarLiquidity', descKey: 'methPillarLiquidityDesc' }
   ];
+  var PILLAR_TIERS = { High: 'uwTierHigh', Medium: 'uwTierMedium', Low: 'uwTierLow' };
   var BAND_NAMES = ['AAA', 'AA', 'A', 'BBB', 'HIGH RISK'];
   // Categories the analytics app can filter on (app.js CATEGORY_TABS; labels
   // come from the root navCat* keys). No per-category counts: the CI data has
@@ -555,11 +557,11 @@
                   ),
                   e('div', { className: 'landing-uw-pillars-grid' },
                     SCORE_PILLARS.map(function (pillar) {
-                      var pct = activeUwPool.defiScore.pillarsPct && activeUwPool.defiScore.pillarsPct[pillar.key];
-                      var hasPct = typeof pct === 'number' && isFinite(pct);
+                      var tier = activeUwPool.defiScore.pillarsTier && activeUwPool.defiScore.pillarsTier[pillar.key];
+                      var tierKey = Object.prototype.hasOwnProperty.call(PILLAR_TIERS, tier) ? PILLAR_TIERS[tier] : null;
                       return e('div', { key: pillar.key, className: 'landing-uw-pillar' },
                         e('div', { className: 'landing-uw-pillar-name' }, copy[pillar.labelKey]),
-                        hasPct ? e('div', { className: 'landing-uw-pillar-val' }, Math.round(pct) + ' / 100') : null
+                        tierKey ? e('div', { className: 'landing-uw-pillar-val landing-uw-tier-' + tier.toLowerCase(), 'data-tier': tier.toLowerCase() }, copy[tierKey]) : null
                       );
                     })
                   ),

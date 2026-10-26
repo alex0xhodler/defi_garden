@@ -31,6 +31,18 @@ PUBLIC_FILES.forEach(f => {
 });
 assert.deepStrictEqual(bad, [], 'proprietary internals in public source:\n' + bad.join('\n'));
 
+// Owner decision 2026-10-26: public surfaces show each pillar as a TIER (High / Medium / Low), never the
+// exact 0-100 number. No public source may read or serialize pillarsPct / pillars_pct (the engine may still
+// emit it for a while; generators strip it). A line may carry the marker `allow-pillarsPct` when it is
+// stripping code or a comment explaining the strip.
+const pctReaders = [];
+PUBLIC_FILES.forEach(f => {
+  fs.readFileSync(path.join(__dirname, f), 'utf8').split('\n').forEach((line, i) => {
+    if (/pillarsPct|pillars_pct/.test(line) && !/allow-pillarsPct/.test(line)) pctReaders.push(`${f}:${i + 1} ${line.trim().slice(0, 100)}`);
+  });
+});
+assert.deepStrictEqual(pctReaders, [], 'public sources must not read or serialize pillarsPct (tiers only):\n' + pctReaders.join('\n'));
+
 // No public reader of the raw pillar-points field (only pillarsPct, 0-100, may be read)
 const readers = PUBLIC_FILES.filter(f => /\.(js)$/.test(f)).filter(f => /defiScore\.breakdown|ds\.breakdown|score\.breakdown/.test(fs.readFileSync(path.join(__dirname, f), 'utf8')));
 assert.deepStrictEqual(readers, [], 'public files must not read defiScore.breakdown: ' + readers.join(', '));

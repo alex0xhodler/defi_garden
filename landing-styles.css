@@ -710,6 +710,9 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
+.landing-uw-tier-high { color: var(--ui-accent, var(--color-text)); }
+.landing-uw-tier-medium { color: var(--color-text); }
+.landing-uw-tier-low { color: var(--ui-warning, var(--color-warning)); }
 
 .landing-uw-capacity-row {
   position: relative;

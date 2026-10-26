@@ -14,7 +14,7 @@ function pool(over) {
   return Object.assign({
     id: 'p-' + Math.random().toString(36).slice(2), symbol: 'USDC-NVDAC', project: 'uniswap-v4', chain: 'Base', type: 'cl',
     underlying: 'NVDA', issuer: null, tvl: 1500000, tier: 2, apy: 66, proj: 50, flags: [], clip: 7500,
-    score: { v: 50, r: 'BBB', st: 10, su: 10, sk: 10, li: 3 }
+    score: { v: 50, r: 'BBB', st: 'High', su: 'Medium', sk: 'Low', li: null }
   }, over || {});
 }
 
@@ -31,7 +31,7 @@ check('sanitize drops pools that break the equity rails or carry non-finite numb
 });
 
 check('normalize never leaves a non-finite optional number', () => {
-  const p = logic.normalizePool(pool({ band: [1, NaN], clip: NaN, score: { v: 40, r: null, st: NaN } }));
+  const p = logic.normalizePool(pool({ band: [1, NaN], clip: NaN, score: { v: 40, r: null, st: 17 } }));
   assert.strictEqual(p.band, null);
   assert.strictEqual(p.clip, null);
   assert.strictEqual(p.score.st, null);
