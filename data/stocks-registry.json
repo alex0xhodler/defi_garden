@@ -166,14 +166,14 @@
       "name": "ST0x",
       "legalEntity": "S01 Issuer GmbH",
       "jurisdiction": "Germany",
-      "usPersons": "unknown",
+      "usPersons": false,
       "sources": [
         "https://www.st0x.io/faqs",
         "https://defillama.com/rwa/platform/st0x"
       ],
       "structure": "Issuer-promise token: a right against S01 Issuer GmbH to one share (unsecured claim on the issuer)",
       "structureSource": "https://www.st0x.io/faqs",
-      "usPersonsSource": null,
+      "usPersonsSource": "https://st0x.io/faq",
       "mintRedeem": {
         "hours": null,
         "hoursSource": null,
@@ -1247,8 +1247,7 @@
       "id": "gate",
       "name": "Gate",
       "docs": "https://www.gate.com/docs/developers/apiv4/en/#retrieve-ticker-information",
-      "enabled": false,
-      "disabledReason": "public-data redistribution terms not verified",
+      "enabled": true,
       "issuers": [
         "xstocks",
         "ondo"
@@ -1258,8 +1257,7 @@
       "id": "mexc",
       "name": "MEXC",
       "docs": "https://www.mexc.com/api-docs/spot-v3/market-data-endpoints",
-      "enabled": false,
-      "disabledReason": "public-data redistribution terms not verified",
+      "enabled": true,
       "issuers": [
         "xstocks",
         "ondo"
@@ -1269,8 +1267,7 @@
       "id": "bitget",
       "name": "Bitget",
       "docs": "https://www.bitget.com/api-doc/spot/market/Get-Tickers",
-      "enabled": false,
-      "disabledReason": "public-data redistribution terms not verified",
+      "enabled": true,
       "issuers": [
         "reality"
       ]
