@@ -1684,7 +1684,7 @@ body {
   gap: var(--space-8);
 }
 
-/* "The Standard" nav (2026-10-24): Search · Methodology · API — the same three
+/* "The Standard" nav (2026-10-24): Search · Stocks · Methodology · API — the same four
    links as the landing header. Quiet tokens only; hidden <=768px, where the
    header row has no room (mobile reaches Methodology + API from the footer). */
 .app-header-nav {

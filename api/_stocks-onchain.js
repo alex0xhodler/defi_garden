@@ -520,7 +520,7 @@ function resetMemo() { memo = null; }
 module.exports = {
   getOnchain, buildResponse, resetMemo,
   fetchPrices, fetchTokenCloseRefs, fetchPythRefs, driftFrom, v3Depth, v2Depth, moveCost,
-  rpcBatch, alchemyUrl, httpJson, coinId, marketSummary,
+  rpcBatch, alchemyUrl, httpJson, coinId, marketSummary, chunk, coinsBase, pythBase, isNum, round,
   encodeCall, addrWord, intWord, word, wordToBig, wordToAddress,
   SEL, LLAMA_CHAIN_SLUGS, ALCHEMY_NETWORKS, RESOLVABLE_AMMS,
   MIN_CONFIDENCE, MEMO_TTL_MS, UPSTREAM_TIMEOUT_MS, MAX_PLAUSIBLE_DRIFT_PCT

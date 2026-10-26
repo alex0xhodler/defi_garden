@@ -430,6 +430,7 @@ function renderChromeScript(lc) {
 function renderSiteHeader(lc, language) {
   const links = [
     ['/?app=1', lc('navSearch')],
+    ['/stocks', lc('navStocks')],
     ['/methodology', lc('navMethodology')],
     ['/mcp', lc('navApi')]
   ];
@@ -458,7 +459,7 @@ function renderSiteFooter(t, language) {
   return `    <footer class="app-footer">
       <p>${escapeHtml(t('poweredBy'))} <a href="https://api-docs.defillama.com/" target="_blank" rel="noopener noreferrer">${escapeHtml(t('defillamaApi'))}</a>. ${escapeHtml(t('footerSignOff'))}</p>
       <p class="app-footer-hub-links">
-        <a href="${base}/tokens">${escapeHtml(t('browseTokens'))}</a> · <a href="${base}/chains">${escapeHtml(t('browseChains'))}</a> · <a href="${base}/pools">${escapeHtml(t('pspHubLink'))}</a> · <a href="/methodology">${escapeHtml(t('methodologyLink'))}</a> · <a href="/mcp">${escapeHtml(t('apiLink'))}</a>
+        <a href="${base}/tokens">${escapeHtml(t('browseTokens'))}</a> · <a href="${base}/chains">${escapeHtml(t('browseChains'))}</a> · <a href="${base}/pools">${escapeHtml(t('pspHubLink'))}</a> · <a href="/stocks">${escapeHtml(t('stocksLink'))}</a> · <a href="/methodology">${escapeHtml(t('methodologyLink'))}</a> · <a href="/mcp">${escapeHtml(t('apiLink'))}</a>
       </p>
     </footer>`;
 }

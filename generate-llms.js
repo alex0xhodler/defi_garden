@@ -534,14 +534,33 @@ function writeIfContentChanged(filePath, newContent, now) {
  * number is stated here (every figure on that page comes from the CI-baked
  * data/stocks-pools.json), and the honesty rules travel with the link.
  */
-function buildStocksSection(meta) {
+function buildStocksSection(meta, opts = {}) {
+  // Per-ticker comparison pages (generate-stock-ticker-pages.js): only tickers with
+  // >= 2 verified token versions, from the same eligibility predicate. Tickers and
+  // URLs only - no figures. `meta.stockPages` overrides the data file (tests).
+  let pages = meta.stockPages;
+  if (!pages) {
+    try {
+      const data = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'data', 'stocks-versions.json'), 'utf8'));
+      pages = require('./generate-stock-ticker-pages.js').eligibleTickers(data);
+    } catch (e) { pages = []; }
+  }
+  const pageLines = [];
+  if (pages.length) {
+    if (opts.full) {
+      pages.forEach(p => pageLines.push(`- ${p.ticker} tokenized stock, verified token versions compared side by side: ${meta.baseUrl}/stocks/${p.slug}`));
+    } else {
+      pageLines.push(`- Verified token versions compared per ticker: ${pages.map(p => `${p.ticker} ${meta.baseUrl}/stocks/${p.slug}`).join(', ')}`);
+    }
+  }
   return [
     '## Tokenized Stocks',
     'TL;DR: A research-only terminal for yield pools that hold tokenized stocks and ETFs. ' +
       'Projected APY is base yield plus two thirds of reward emissions and never exceeds the current rate; ' +
       'each pool carries a DeFi Score (not a smart-contract audit) and a TVL liquidity tier. ' +
       'Education, not investment advice; tokenized stocks are generally not offered to US persons.',
-    `- Tokenized stocks yield terminal: ${meta.baseUrl}/stocks`
+    `- Tokenized stocks yield terminal: ${meta.baseUrl}/stocks`,
+    ...pageLines
   ];
 }
 
@@ -828,7 +847,7 @@ function buildFull(meta, categories, highYield, yieldAnalysis, plannerRateResult
   // Garden Planner section (spec 168) — shared emitter, fuller body (opts.full).
   lines.push(...buildPlannerSection(meta, plannerRateResult, { full: true }));
   lines.push('');
-  lines.push(...buildStocksSection(meta));
+  lines.push(...buildStocksSection(meta, { full: true }));
   lines.push('');
   lines.push(...buildAgentEndpointsSection(meta));
   lines.push('');
@@ -1436,6 +1455,7 @@ module.exports = {
   plannerRate,
   buildPlannerSection,
   buildAgentEndpointsSection,
+  buildStocksSection,
   analyzeYieldData,
   buildConcise,
   buildFull,

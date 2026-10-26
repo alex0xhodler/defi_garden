@@ -13,6 +13,11 @@
  *   PYTH_HERMES_BASE optional, default https://pyth.dourolabs.app/hermes
  *   LLAMA_COINS_BASE optional, default https://coins.llama.fi
  *
+ * `?view=versions` returns the token-versions live view instead (per-version
+ * on-chain price, Pyth reference live in the regular session / last regular close
+ * otherwise, premium, session) from data/stocks-versions-slim.json; same cache,
+ * timeouts and reason-code design. PYTH_API_KEY is needed for the live reference.
+ *
  * Caching: s-maxage=60 at the CDN plus a 60s in-memory memo per warm instance.
  * Partial upstream failures still return 200 with nulls and reason codes; only
  * "cannot read the snapshot at all" is a 503 (and is not cached).
@@ -20,6 +25,7 @@
 'use strict';
 
 const core = require('./_stocks-onchain.js');
+const versions = require('./_stocks-versions.js');
 
 const CACHE_OK = 'public, s-maxage=60, stale-while-revalidate=300';
 
@@ -44,7 +50,9 @@ module.exports = async function handleStocksOnchain(req, res) {
     return;
   }
   try {
-    const body = await core.getOnchain({ fetch: globalThis.fetch, now: Date.now, env: process.env });
+    const view = new URL(req.url || '/', 'http://localhost').searchParams.get('view');
+    const deps = { fetch: globalThis.fetch, now: Date.now, env: process.env };
+    const body = view === 'versions' ? await versions.getVersionsView(deps) : await core.getOnchain(deps);
     if (!body) { send(res, 503, { error: 'unavailable' }, 'no-store'); return; }
     send(res, 200, body, CACHE_OK);
   } catch (err) {

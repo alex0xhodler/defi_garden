@@ -288,15 +288,15 @@ async function main() {
     await page.waitForSelector('.landing-nav', { timeout: 10000 });
     const navText = await page.locator('.landing-nav').innerText();
     assert.ok(!navText.includes('How it works'), 'Topnav must not contain "How it works"');
-    // 2026-10-24 "The Standard": the nav is exactly Search · Methodology · API; legacy features are not advertised.
+    // 2026-10-24 "The Standard": the nav is exactly Search · Methodology · API; legacy features are not advertised. 2026-10-26: Stocks returned to the nav.
     assert.deepStrictEqual(
       await page.locator('.landing-nav a').evaluateAll((as) => as.map((a) => [a.textContent.trim(), a.getAttribute('href')])),
-      [['Search yields', '/?app=1'], ['Methodology', '/methodology'], ['API', '/mcp']],
-      'Topnav is exactly Search / Methodology / API'
+      [['Search yields', '/?app=1'], ['Stocks', '/stocks'], ['Methodology', '/methodology'], ['API', '/mcp']],
+      'Topnav is exactly Search / Stocks / Methodology / API'
     );
-    assert.strictEqual(await page.locator('.landing-mobile-nav a').count(), 3, 'mobile menu mirrors the 3 nav links');
-    assert.ok(!/Savings Planner|Stocks|card/i.test(navText), 'Topnav must not advertise planner / stocks / card');
-    assert.strictEqual(await page.locator('.landing-nav a[href="/for/claude"], .landing-nav a[href="/stocks"], .landing-nav a[href*="plan.html"], .landing-mobile-nav a[data-testid="landing-nav-card"]').count(), 0, 'no legacy-feature links in nav');
+    assert.strictEqual(await page.locator('.landing-mobile-nav a').count(), 4, 'mobile menu mirrors the 4 nav links');
+    assert.ok(!/Savings Planner|card/i.test(navText), 'Topnav must not advertise planner / card');
+    assert.strictEqual(await page.locator('.landing-nav a[href="/for/claude"], .landing-nav a[href*="plan.html"], .landing-mobile-nav a[data-testid="landing-nav-card"]').count(), 0, 'no legacy-feature links in nav');
     passed++;
     console.log('  ✓ landing topnav contains clean active links without "How it works"');
 

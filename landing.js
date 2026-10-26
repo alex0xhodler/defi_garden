@@ -448,6 +448,7 @@
         ),
         e('nav', { className: 'landing-nav', 'aria-label': copy.navPrimary },
           e('a', { href: '/?app=1' }, copy.navSearch),
+          e('a', { href: '/stocks' }, copy.navStocks || 'Stocks'),
           e('a', { href: '/methodology' }, copy.navMethodology || 'Methodology'),
           e('a', { href: '/mcp' }, copy.navApi || 'API')
         ),
@@ -469,6 +470,7 @@
 
       e('nav', { className: 'landing-mobile-nav' + (menuOpen ? ' is-open' : ''), 'aria-label': copy.navMobile },
         e('a', { href: '/?app=1', onClick: closeMenu }, copy.navSearch),
+        e('a', { href: '/stocks', onClick: closeMenu }, copy.navStocks || 'Stocks'),
         e('a', { href: '/methodology', onClick: closeMenu }, copy.navMethodology || 'Methodology'),
         e('a', { href: '/mcp', onClick: closeMenu }, copy.navApi || 'API')
       ),
@@ -665,6 +667,8 @@
           e('a', { href: '/tokens' }, rootCopy.browseTokens),
           ' · ',
           e('a', { href: '/chains' }, rootCopy.browseChains),
+          ' · ',
+          e('a', { href: '/stocks' }, copy.navStocks || 'Stocks'),
           ' · ',
           e('a', { href: '/methodology' }, copy.navMethodology || 'Methodology'),
           ' · ',

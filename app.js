@@ -3551,13 +3551,14 @@ function App() {
         )
       ),
 
-      // Primary nav — the same three destinations as the landing header
-      // (Search · Methodology · API). 2026-10-24 "The Standard" decision: the
+      // Primary nav — the same four destinations as the landing header
+      // (Search · Stocks · Methodology · API). 2026-10-24 "The Standard" decision: the
       // planner / card / stocks features stay live at their direct URLs but
       // are no longer advertised here. Hidden <=768px (the header row has no
       // room at 360px); mobile reaches Methodology + API from the footer.
       React.createElement('nav', { className: 'app-header-nav', 'aria-label': t('primaryNavLabel') },
         React.createElement('a', { href: '/?app=1' }, t('navSearchLink')),
+        React.createElement('a', { href: '/stocks' }, t('stocksLink')),
         React.createElement('a', { href: '/methodology' }, t('methodologyLink')),
         React.createElement('a', { href: '/mcp' }, t('apiLink'))
       ),
@@ -3631,6 +3632,8 @@ function App() {
           React.createElement('a', { href: '/tokens' }, t('browseTokens')),
           ' · ',
           React.createElement('a', { href: '/chains' }, t('browseChains')),
+          ' · ',
+          React.createElement('a', { href: '/stocks' }, t('stocksLink')),
           ' · ',
           React.createElement('a', { href: '/methodology' }, t('methodologyLink')),
           ' · ',
@@ -4486,6 +4489,8 @@ function App() {
         React.createElement('a', { href: '/tokens' }, t('browseTokens')),
         ' · ',
         React.createElement('a', { href: '/chains' }, t('browseChains')),
+        ' · ',
+        React.createElement('a', { href: '/stocks' }, t('stocksLink')),
         ' · ',
         React.createElement('a', { href: '/methodology' }, t('methodologyLink')),
         ' · ',

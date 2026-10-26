@@ -73,6 +73,7 @@ module.exports = {
   "landing.navPlanner": "Planificador de ahorro",
   "landing.navPrimary": "Navegación principal",
   "landing.navSearch": "Buscar rendimientos",
+  "landing.navStocks": "Acciones",
   "landing.themeDark": "Cambiar a modo oscuro",
   "landing.themeLight": "Cambiar a modo claro",
   "methodologyLink": "Metodología",
@@ -164,6 +165,7 @@ module.exports = {
   "pspWithdrawHeading": "Notas sobre retiros",
   "pspWithdrawLiquidity": (tvl) => `Liquidez de salida: ${tvl} en el pool.`,
   "pspWithdrawTvlForecast": (pred, delta) => `El modelo proyecta un TVL de ${pred} en 14 días (${delta}).`,
+  "stocksLink": "Acciones",
   "tcpAllChainsHeading": "Todas las redes",
   "tcpAnswer": (label, apyStr, project, chain, count, floorStr) =>
       `El mayor rendimiento honesto de ${label} ahora es ${apyStr} en ${project} (${chain}), entre ${count} ${poolWord(count)} por encima del TVL mínimo de ${floorStr}. Las tasas son en vivo de DefiLlama y excluyen pools anómalos (APY >1000%).`,

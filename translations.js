@@ -219,6 +219,7 @@ projectionHeading: "The long game",
     aiAgents: "AI Agents & MCP",
     navSearchLink: "Search",
     methodologyLink: "Methodology",
+    stocksLink: "Stocks",
     apiLink: "API",
     primaryNavLabel: "Primary navigation",
 
@@ -1651,6 +1652,7 @@ projectionHeading: "The long game",
     aiAgents: "AI 에이전트 & MCP",
     navSearchLink: "검색",
     methodologyLink: "방법론",
+    stocksLink: "주식",
     apiLink: "API",
     primaryNavLabel: "주요 메뉴",
 
@@ -3015,6 +3017,7 @@ Nota de qualidade do rendimento em quatro pilares: estabilidade do rendimento, s
     aiAgents: "Agentes de IA e MCP",
     navSearchLink: "Buscar",
     methodologyLink: "Metodologia",
+    stocksLink: "Ações",
     apiLink: "API",
     primaryNavLabel: "Navegação principal",
 
@@ -4361,6 +4364,7 @@ Calificación de la calidad del rendimiento en cuatro pilares: estabilidad del r
     aiAgents: "Agentes de IA y MCP",
     navSearchLink: "Buscar",
     methodologyLink: "Metodología",
+    stocksLink: "Acciones",
     apiLink: "API",
     primaryNavLabel: "Navegación principal",
 

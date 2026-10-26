@@ -139,6 +139,29 @@ jobs:
       run: |
         node generate-stocks-snapshot.js
 
+    - name: Generate /stocks token-versions comparison (per-underlying side-by-side)
+      # After the stocks snapshot. Non-fatal. Writes data/stocks-versions.json and the
+      # slim live-view input data/stocks-versions-slim.json (generated outputs, published
+      # with the site, never committed). ALCHEMY_KEY enables supply / Ondo multiplier /
+      # +-2% depth reads; PYTH_API_KEY (optional secret) enables the last-close reference
+      # that premiums need. Without a key those fields are null with a reason code.
+      continue-on-error: true
+      env:
+        ALCHEMY_KEY: ${{ secrets.ALCHEMY_KEY }}
+        PYTH_API_KEY: ${{ secrets.PYTH_API_KEY }}
+      run: |
+        node generate-stocks-versions.js
+
+    - name: Generate /stocks/<ticker> comparison pages (>= 2 verified versions)
+      # After the versions step. Non-fatal: if it fails, the previously restored stocks/
+      # pages stay and the sitemap simply lists whatever the data file qualifies.
+      # Writes the stocks/ directory (a generated output in scripts/site-outputs.txt,
+      # never committed). stocks.html (/stocks) is untouched; there is never a stocks/index.html.
+      continue-on-error: true
+      run: |
+        node generate-stock-ticker-pages.js --out stocks
+        echo "Ticker pages: $(ls stocks 2>/dev/null | wc -l)"
+
     - name: Generate scored pool pages (W1 — static /pools/<slug> pages, manifest + sitemaps)
       # Must run BEFORE token/chain pages: they read data/pool-pages.json to
       # repoint pool rows at /pools/<slug>. Needs snapshot + forecasts above.

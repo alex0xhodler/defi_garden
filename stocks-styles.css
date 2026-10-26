@@ -312,3 +312,90 @@
 @media (max-width: 440px) {
   .stocks-main { width: calc(100% - 64px); }
 }
+
+/* ── Token versions ── */
+.stocks-v-picker { display: flex; flex-direction: column; gap: 8px; margin: 4px 0 14px; }
+.stocks-v-search {
+  box-sizing: border-box;
+  width: min(100%, 360px);
+  padding: 10px 12px;
+  border: 1px solid var(--ui-border-strong);
+  border-radius: var(--ui-radius-sm);
+  background: var(--ui-surface);
+  color: var(--ui-text);
+  font: inherit;
+  font-size: 14px;
+}
+.stocks-v-search::placeholder { color: var(--ui-text-muted); }
+.stocks-v-search:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+.stocks-v-chips { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; max-height: 148px; overflow-y: auto; padding: 2px; }
+.stocks-v-group-label { flex-basis: 100%; margin-top: 4px; }
+.stocks-v-group-label:first-child { margin-top: 0; }
+.stocks-v-head { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin-top: 6px; }
+.stocks-v-name { font-family: var(--font-family-base); font-size: 14px; font-weight: 400; color: var(--ui-text-secondary); }
+.stocks-v-market { display: inline-flex; align-items: center; gap: 8px; }
+.stocks-v-static { margin: 0; font-size: 13px; }
+.stocks-v-static a, .stocks-v-source, .stocks-v-pool { color: var(--ui-accent); }
+.stocks-v-static a:focus-visible, .stocks-v-source:focus-visible, .stocks-v-pool:focus-visible,
+.stocks-v-unv summary:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); border-radius: 2px; }
+.stocks-v-ref { margin: 0; font-size: 14px; font-weight: 600; color: var(--ui-text); }
+
+.stocks-table--versions th { padding: 10px 8px; }
+.stocks-table--versions td { padding: 12px 8px; font-size: 13px; }
+.stocks-v-num { font-weight: 600; }
+.stocks-v-list { margin: 0; padding: 0; list-style: none; display: grid; gap: 4px; }
+.stocks-v-facts-cell { max-width: 240px; }
+.stocks-v-facts { font-size: 12px; line-height: 1.4; color: var(--ui-text-secondary); overflow-wrap: anywhere; }
+.stocks-v-fact-label { font-weight: 600; color: var(--ui-text); }
+.stocks-v-yields { display: flex; flex-direction: column; gap: 12px; min-width: 0; }
+.stocks-v-yield { display: flex; flex-direction: column; align-items: flex-start; gap: 3px; min-width: 0; }
+.stocks-v-yield + .stocks-v-yield { padding-top: 10px; border-top: 1px dashed var(--ui-border); }
+.stocks-v-apy { font-family: var(--font-family-display); font-size: 18px; font-weight: 600; line-height: 1.1; color: var(--ui-text); }
+.stocks-v-pool { font-size: 12px; font-weight: 600; }
+.stocks-v-yline { white-space: nowrap; }
+.stocks-v-pillar-details { width: 100%; font-size: 12px; color: var(--ui-text-secondary); }
+.stocks-v-pillar-details summary { cursor: pointer; }
+.stocks-v-pillars { margin: 4px 0 2px; padding: 0; list-style: none; display: grid; gap: 3px; width: 100%; font-size: 12px; color: var(--ui-text-secondary); }
+.stocks-v-pillars li { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.stocks-v-tier { display: inline-flex; align-items: center; gap: 6px; color: var(--ui-text); font-weight: 600; }
+.stocks-v-meter { display: inline-flex; gap: 2px; }
+.stocks-v-meter span { width: 8px; height: 8px; border-radius: 1px; background: var(--ui-border-strong); }
+.stocks-v-meter span.is-on { background: var(--ui-accent); }
+
+.stocks-v-unv { margin-top: 12px; padding: 10px 14px; border: 1px solid var(--ui-border); border-radius: 2px; background: var(--ui-surface); }
+.stocks-v-unv summary { cursor: pointer; font-size: 14px; font-weight: 600; color: var(--ui-text); }
+.stocks-v-unv p { margin: 8px 0; }
+.stocks-v-unv-list { margin: 0; padding: 0; list-style: none; display: grid; gap: 8px; }
+.stocks-v-unv-list li { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 14px; padding-top: 8px; border-top: 1px dashed var(--ui-border); }
+
+/* Cards instead of a wide table below 1180px (the 10-column table needs the full 1160px content box);
+   two columns of cards from 641px, one below. Same pattern as the 960px rule above. */
+@media (max-width: 1180px) {
+  .stocks-table--versions thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  .stocks-table--versions, .stocks-table--versions tr, .stocks-table--versions td { display: block; }
+  .stocks-table--versions tbody { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+  .stocks-table--versions tr { min-width: 0; margin: 0; padding: 14px; border: 1px solid var(--ui-border); border-radius: 2px; background: var(--ui-surface); }
+  .stocks-table--versions tbody tr:hover td { background: none; }
+  .stocks-table--versions td {
+    display: flex; align-items: flex-start; justify-content: space-between; gap: 12px;
+    padding: 9px 0; border-bottom: 0; border-top: 1px dashed var(--ui-border); min-width: 0;
+  }
+  .stocks-table--versions td::before {
+    content: attr(data-label); flex: 0 0 34%;
+    font-family: var(--font-mono, monospace); font-size: 11px; font-weight: 700; letter-spacing: 0.06em;
+    text-transform: uppercase; color: var(--ui-text-secondary);
+  }
+  .stocks-table--versions td.stocks-td-pair { display: block; padding-top: 0; border-top: 0; }
+  .stocks-table--versions td.stocks-td-pair::before { content: none; }
+  .stocks-table--versions td:not(.stocks-td-pair) > div, .stocks-table--versions td > ul { align-items: flex-end; text-align: right; }
+  .stocks-table--versions td.stocks-v-wide { flex-direction: column; align-items: stretch; gap: 8px; }
+  .stocks-table--versions td.stocks-v-wide > div, .stocks-table--versions td.stocks-v-wide > ul { align-items: flex-start; text-align: left; }
+  .stocks-table--versions td.stocks-v-wide .stocks-v-yield { align-items: flex-start; }
+  .stocks-v-facts-cell { max-width: none; }
+}
+@media (max-width: 640px) {
+  .stocks-table--versions tbody { grid-template-columns: minmax(0, 1fr); }
+  .stocks-v-search { width: 100%; }
+}
+.stocks-table--versions .stocks-pair-name { white-space: nowrap; }
+.stocks-table--versions .stocks-chain { white-space: nowrap; }
