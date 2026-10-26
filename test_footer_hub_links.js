@@ -176,11 +176,12 @@ async function main() {
       await applyPrintStylesheets(page);
 
       const links = page.locator('.app-footer .app-footer-hub-links a');
-      // 2026-10-24 "The Standard": tokens + chains SEO hubs plus Methodology + API (planner/card/stocks are never advertised here).
-      if (await links.count() !== 4) throw new Error('expected 4 hub links inside .app-footer, found ' + await links.count());
+      // 2026-10-24 "The Standard": tokens + chains SEO hubs plus Methodology + API (planner/card are never advertised here); 2026-10-26: Stocks returned.
+      if (await links.count() !== 5) throw new Error('expected 5 hub links inside .app-footer, found ' + await links.count());
+      if (await page.locator('.app-footer .app-footer-hub-links a[href="/stocks"]').count() !== 1) throw new Error('footer missing Stocks link');
       if (await page.locator('.app-footer .app-footer-hub-links a[href="/methodology"]').count() !== 1) throw new Error('footer missing Methodology link');
       if (await page.locator('.app-footer .app-footer-hub-links a[href="/mcp"]').count() !== 1) throw new Error('footer missing API link');
-      if (await page.locator('.app-footer a[href*="plan.html"], .app-footer a[href^="/for/"], .app-footer a[href="/stocks"]').count() !== 0) throw new Error('footer must not advertise legacy features');
+      if (await page.locator('.app-footer a[href*="plan.html"], .app-footer a[href^="/for/"]').count() !== 0) throw new Error('footer must not advertise legacy features');
       const tokensLink = page.locator('.app-footer .app-footer-hub-links a[href="/tokens"]');
       const chainsLink = page.locator('.app-footer .app-footer-hub-links a[href="/chains"]');
       if (!await tokensLink.isVisible()) throw new Error('Browse tokens link not visible inside .app-footer');
@@ -224,7 +225,8 @@ async function main() {
       await applyPrintStylesheets(page);
 
       const links = page.locator('.app-footer .app-footer-hub-links a');
-      if (await links.count() !== 4) throw new Error('expected 4 hub links inside the landing .app-footer, found ' + await links.count());
+      if (await links.count() !== 5) throw new Error('expected 5 hub links inside the landing .app-footer, found ' + await links.count());
+      if (await page.locator('.app-footer .app-footer-hub-links a[href="/stocks"]').count() !== 1) throw new Error('landing footer missing Stocks link');
       if (await page.locator('.app-footer .app-footer-hub-links a[href="/methodology"]').count() !== 1) throw new Error('landing footer missing Methodology link');
       if (await page.locator('.app-footer .app-footer-hub-links a[href="/mcp"]').count() !== 1) throw new Error('landing footer missing API link');
       const tokensLink = page.locator('.app-footer .app-footer-hub-links a[href="/tokens"]');

@@ -1954,6 +1954,7 @@ function generateHtml(sub) {
       </a>
       <nav class="landing-nav" aria-label="Primary navigation">
         <a href="/?app=1">Search yields</a>
+        <a href="/stocks">Stocks</a>
         <a href="/methodology">Methodology</a>
         <a href="/mcp">API</a>
       </nav>
@@ -1967,6 +1968,7 @@ function generateHtml(sub) {
     <!-- Mobile Navigation from home.html -->
     <nav class="landing-mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
       <a href="/?app=1">Search yields</a>
+      <a href="/stocks">Stocks</a>
       <a href="/methodology">Methodology</a>
       <a href="/mcp">API</a>
     </nav>
@@ -2231,7 +2233,7 @@ function generateHtml(sub) {
     <footer class="app-footer">
       <p>Powered by <a href="https://api-docs.defillama.com/" target="_blank" rel="noopener noreferrer">DefiLlama API</a>. Education, not advice.</p>
       <p class="app-footer-hub-links">
-        <a href="/tokens">Browse tokens</a> · <a href="/chains">Browse chains</a> · <a href="/methodology">Methodology</a> · <a href="/mcp">API</a>
+        <a href="/tokens">Browse tokens</a> · <a href="/chains">Browse chains</a> · <a href="/stocks">Stocks</a> · <a href="/methodology">Methodology</a> · <a href="/mcp">API</a>
       </p>
     </footer>
   </div>

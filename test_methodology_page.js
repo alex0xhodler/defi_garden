@@ -53,10 +53,10 @@ assert.ok(/not a credit rating issued by a registered credit rating agency/i.tes
 assert.ok(/Education, not financial advice/i.test(flat), 'education not advice');
 assert.ok(html.includes('href="/forecast-accuracy"'), 'links to the accuracy page');
 
-// Nav is exactly Search / Methodology / API; no legacy promotion
+// Nav is exactly Search / Stocks / Methodology / API; no legacy promotion
 const nav = html.match(/<nav class="meth-nav"[\s\S]*?<\/nav>/)[0];
-assert.deepStrictEqual([...nav.matchAll(/href="([^"]+)"/g)].map(x => x[1]), ['/?app=1', '/methodology', '/mcp']);
-assert.ok(!/plan\.html|\/for\/|\/stocks|hype-harvest/.test(html), 'no legacy-feature links');
+assert.deepStrictEqual([...nav.matchAll(/href="([^"]+)"/g)].map(x => x[1]), ['/?app=1', '/stocks', '/methodology', '/mcp']);
+assert.ok(!/plan\.html|\/for\/|hype-harvest/.test(html), 'no legacy-feature links');
 
 // Wired into sitemap + llms generators
 assert.ok(/SITE_URL\}methodology/.test(fs.readFileSync(path.join(__dirname, 'generate-sitemap.js'), 'utf8')), 'sitemap entry');

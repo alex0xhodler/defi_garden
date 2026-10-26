@@ -188,6 +188,7 @@ console.log('--- Intent Portal Browser Smoke Tests ---');
       const resp = await page.goto(`http://localhost:${PORT}/for/claude`, { waitUntil: 'load' });
       assert.ok(resp && resp.status() === 200, '/for/claude must keep serving');
       assert.ok(await page.locator('.landing-nav a[href="/methodology"]').count() === 1, '/for/claude nav carries the new Methodology link');
+      assert.ok(await page.locator('.landing-nav a[href="/stocks"]').count() === 1, '/for/claude nav carries the Stocks link');
       await page.close();
     });
 
