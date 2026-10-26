@@ -270,4 +270,165 @@ check('stocks-styles.css: no gradients, shadows only via the overlay/focus token
   (css.match(/box-shadow:[^;]+;/g) || []).forEach(d => assert.ok(/--ui-shadow-overlay|--ui-focus-ring|none/.test(d), d));
 });
 
+// ---- token versions section (static + live merge, picker, cells) ----
+const VERS = JSON.parse(fs.readFileSync('data/stocks-versions.json', 'utf8'));
+function vcopy(l) { return Object.assign({}, translations[l].stocks, logic.VERSIONS_COPY[l]); }
+function rawTicker(over) {
+  const v = (k, extra) => Object.assign({ key: k, issuer: 'Iss' + k, issuerSlug: 'xstocks', chain: 'Base', symbol: 'S' + k, priceUsd: 100, multiplier: 1,
+    spreadVsMedianPct: 0.5, premiumVsClosePct: null, reasons: { premium: 'pyth-no-key' }, supplyUsd: 5e6, liquidity: { tvlUsd: 1e6, depth2pctUsd: null }, bestYield: {}, risk: {}, cex: [] }, extra || {});
+  return Object.assign({ name: 'Test Corp', versions: [v('a'), v('b', { multiplier: null, multiplierUnknown: true, spreadVsMedianPct: null, reasons: { premium: 'multiplier-unknown' } })], unverified: [] }, over || {});
+}
+function rawData(tickers) { return { generatedAt: '2026-10-26T11:00:00.000Z', issuers: { xstocks: { structureSource: 'https://example.com/s', mintRedeemHoursSource: 'javascript:alert(1)' } }, cexSources: [{ id: 'kraken', name: 'Kraken' }], tickers }; }
+
+check('versions: tickers with >= 2 verified versions come first, single ones after, no-verified tickers dropped', () => {
+  const d = logic.normalizeVersionsData(rawData({
+    ONE: rawTicker({ versions: [rawTicker().versions[0]] }), TWO: rawTicker(), NONE: rawTicker({ versions: [], unverified: [{ symbol: 'X', chain: 'Base', priceUsd: 5 }] }),
+    BIG: rawTicker({ versions: [rawTicker().versions[0], rawTicker().versions[0]].map((x, i) => Object.assign({}, x, { key: 'k' + i, liquidity: { tvlUsd: 9e6 } })) })
+  }));
+  assert.deepStrictEqual(logic.sortTickers(d).map(t => t.ticker), ['BIG', 'TWO', 'ONE']);
+  const real = logic.sortTickers(logic.normalizeVersionsData(VERS));
+  const firstSingle = real.findIndex(t => t.versions.length < 2);
+  assert.ok(firstSingle > 0 && real.slice(0, firstSingle).every(t => t.versions.length >= 2) && real.slice(firstSingle).every(t => t.versions.length < 2));
+  assert.ok(!real.some(t => t.ticker === 'SPX'), 'a ticker with only unverified tokens is not in the picker');
+  assert.strictEqual(logic.defaultTicker(real), 'NVDA');
+  assert.strictEqual(logic.defaultTicker([{ ticker: 'ZZ', versions: [1] }, { ticker: 'NVDA', versions: [1] }]), 'ZZ', 'NVDA needs >= 2 versions to be the default');
+});
+
+check('versions: ?ticker= parsing ignores invalid values; building keeps other params', () => {
+  const list = logic.sortTickers(logic.normalizeVersionsData(VERS));
+  assert.strictEqual(logic.parseTickerParam('?ticker=nvda', list), 'NVDA');
+  assert.strictEqual(logic.parseTickerParam('?ticker=BRK.B', list), 'BRK.B');
+  assert.strictEqual(logic.parseTickerParam('?ticker=ZZZZ', list), null);
+  assert.strictEqual(logic.parseTickerParam('?ticker=SPX', list), null);
+  assert.strictEqual(logic.parseTickerParam('', list), null);
+  assert.strictEqual(logic.buildTickerSearch('?lang=ko&c=Base', 'TSLA'), '?lang=ko&c=Base&ticker=TSLA');
+  assert.strictEqual(logic.buildTickerSearch('?ticker=OLD', 'NVDA'), '?ticker=NVDA');
+  assert.strictEqual(logic.buildTickerSearch('?ticker=OLD', null), '');
+  assert.deepStrictEqual(logic.filterTickers(list, 'nvd').map(t => t.ticker), ['NVDA']);
+  assert.strictEqual(logic.filterTickers(list, 'nvidia')[0].ticker, 'NVDA');
+  assert.strictEqual(logic.filterTickers(list, '').length, list.length);
+  assert.strictEqual(logic.staticPageHref('NVDA'), '/stocks/nvda');
+  assert.strictEqual(logic.staticPageHref('BRK.B'), '/stocks/brk-b');
+});
+
+check('versions: static data is sanitised (unknown multiplier has no spread, bad URLs dropped, unverified kept apart)', () => {
+  const t = rawTicker({ unverified: [{ symbol: 'DESPXA', chain: 'Base', priceUsd: 765.6, flag: 'Issuer unverified' }] });
+  const d = logic.normalizeVersionsData(rawData({ T: t }));
+  const [a, b] = d.tickers.T.versions;
+  assert.strictEqual(a.spreadPct, 0.5);
+  assert.strictEqual(b.multiplierUnknown, true);
+  assert.strictEqual(b.spreadPct, null);
+  assert.strictEqual(d.issuers.xstocks.structureSource, 'https://example.com/s');
+  assert.strictEqual(d.issuers.xstocks.hoursSource, null, 'non-https source links are dropped');
+  const g = logic.groupVersions(d.tickers.T);
+  assert.strictEqual(g.verified.length, 2);
+  assert.strictEqual(g.unverified.length, 1);
+  assert.strictEqual(g.verified.some(v => v.symbol === 'DESPXA'), false);
+  assert.strictEqual(logic.normalizeVersionsData(null), null);
+  assert.strictEqual(logic.normalizeVersionsData({ tickers: 5 }), null);
+});
+
+check('versions: live values overlay the static ones per version; a failed/malformed live view keeps the static data', () => {
+  const base = logic.normalizeVersionsData(rawData({ T: rawTicker() }));
+  const live = { generatedAt: '2026-10-26T15:00:00.000Z', referenceMode: 'live', tickers: { T: {
+    reference: { kind: 'live', source: 'pyth', price: 98, ts: '2026-10-26T15:00:00.000Z' }, medianNormalizedPrice: 101,
+    versions: { a: { price: 102, priceTs: '2026-10-26T14:59:00.000Z', premiumPct: 4.08, spreadVsMedianPct: 0.99 }, b: { price: null, reasons: { price: 'stale-price' } } } } } };
+  const m = logic.mergeLive(base, live);
+  const [a, b] = m.tickers.T.versions;
+  assert.strictEqual(a.price, 102); assert.strictEqual(a.premiumPct, 4.08); assert.strictEqual(a.spreadPct, 0.99); assert.strictEqual(a.priceLive, true);
+  assert.strictEqual(b.price, 100, 'a version the live view cannot price keeps its static price');
+  assert.strictEqual(m.tickers.T.median, 101);
+  assert.strictEqual(m.referenceMode, 'live');
+  assert.strictEqual(base.tickers.T.versions[0].price, 100, 'merge never mutates the static model');
+  assert.strictEqual(logic.mergeLive(base, null), base);
+  assert.strictEqual(logic.mergeLive(base, { tickers: 'x' }), base);
+  // live premium null (reference missing) replaces a stale static premium and carries the live reason
+  const withPrem = logic.normalizeVersionsData(rawData({ T: rawTicker({ versions: [Object.assign(rawTicker().versions[0], { premiumVsClosePct: 2 })] }) }));
+  const m2 = logic.mergeLive(withPrem, { referenceMode: 'last-close', tickers: { T: { reference: null, referenceReason: 'pyth-no-key', versions: { a: { price: 101, premiumPct: null, spreadVsMedianPct: 0, reasons: { premium: 'pyth-no-key' } } } } } });
+  assert.strictEqual(m2.tickers.T.versions[0].premiumPct, null);
+  assert.strictEqual(m2.tickers.T.versions[0].premiumReason, 'pyth-no-key');
+  assert.strictEqual(m2.tickers.T.referenceReason, 'pyth-no-key');
+});
+
+check('versions: premium null shows a dash with its reason; unknown multiplier has no spread; spread label is not a premium', () => {
+  const d = logic.mergeLive(logic.normalizeVersionsData(rawData({ T: rawTicker() })), null);
+  ['en', 'ko'].forEach(l => {
+    const c = vcopy(l);
+    const [a, b] = d.tickers.T.versions;
+    const ca = logic.versionCells(a, c), cb = logic.versionCells(b, c);
+    assert.strictEqual(ca.premiumText, '—'); assert.strictEqual(ca.premiumTip, c.vPremiumNoRef);
+    assert.strictEqual(ca.spreadText, '+0.50%'); assert.strictEqual(ca.spreadTip, c.vSpreadTip);
+    assert.strictEqual(cb.premiumText, '—'); assert.strictEqual(cb.premiumTip, c.vPremiumNoMult);
+    assert.strictEqual(cb.spreadText, '—'); assert.strictEqual(cb.spreadTip, c.vSpreadNoMult);
+    const shown = logic.versionCells(Object.assign({}, a, { premiumPct: -1.234 }), c);
+    assert.strictEqual(shown.premiumText, '-1.23%');
+  });
+  assert.strictEqual(vcopy('en').vColSpread, 'Spread vs median of token versions');
+  assert.strictEqual(vcopy('en').vColPremium, 'Premium vs share');
+  assert.strictEqual(vcopy('en').vSpreadNoMult, 'Multiplier unknown: excluded from the median');
+  assert.strictEqual(vcopy('en').vPremiumNoMult, 'Multiplier unknown: no premium computed');
+  assert.ok(/not a premium vs the real share/.test(vcopy('en').vSpreadTip));
+});
+
+check('versions: reference status line (live / last close / unavailable)', () => {
+  const c = vcopy('en');
+  assert.strictEqual(logic.referenceLine({ reference: { kind: 'live' } }, c), 'Reference: Pyth live');
+  assert.strictEqual(logic.referenceLine({ reference: { kind: 'last-close', date: '2026-10-23' } }, c), 'Reference: last regular close Oct 23, 2026');
+  assert.strictEqual(logic.referenceLine({ reference: null }, c), c.vRefNone);
+  assert.ok(c.vRefNone.startsWith('Reference price unavailable right now. Spreads vs the median of token versions are still shown'));
+});
+
+check('versions: best yield (tier order, honest APY, tier labels only), CEX lines and source links', () => {
+  const by = {
+    lp: { pool: 'p-lp', project: 'raydium-amm', tier: 2, honestProjection: 7.8, defiScore: { score: 59.9, rating: 'A', pillarsTier: { stability: 'Low', sustainability: 'High', stickiness: 'Medium', liquidity: 'bogus' }, pillarsPct: { stability: 12 }, breakdown: { x: 1 } } },
+    lending: { pool: 'p-ld', project: 'kamino-lend', tier: 1, honestProjection: 0.02, defiScore: { rating: 'AA', pillarsTier: {} } }
+  };
+  const c = logic.bestYieldCandidates(by);
+  assert.deepStrictEqual(c.map(x => x.kind), ['lending', 'lp']);
+  assert.deepStrictEqual(c[1].tiers, { stability: 'Low', sustainability: 'High', stickiness: 'Medium', liquidity: null });
+  assert.strictEqual(c[1].apy, 7.8); assert.strictEqual(c[1].rating, 'A');
+  assert.ok(!JSON.stringify(c).match(/pillarsPct|breakdown|12/), 'no pillar numbers or raw points leave the normaliser');
+  assert.deepStrictEqual(logic.bestYieldCandidates({ lp: { pool: 'x', tier: 1, honestProjection: 900 } }), [], 'beyond the equity APY cap is dropped');
+  assert.deepStrictEqual(logic.bestYieldCandidates(null), []);
+  const d = logic.normalizeVersionsData(rawData({ T: rawTicker({ versions: [Object.assign(rawTicker().versions[0], { cex: [{ exchange: 'kraken', priceUsd: 211.17 }, { exchange: 'bybit', priceUsd: 212 }, { exchange: 'x', priceUsd: NaN }], risk: { structure: 'SPV', mintRedeemHours: 'hours', redemptionMinUsd: 1 } })] }) }));
+  const v = d.tickers.T.versions[0];
+  assert.deepStrictEqual(logic.cexLines(v, d.cexNames).map(x => x.text), ['Bybit $212.00', 'Kraken $211.17']);
+  const facts = logic.riskFacts(v, d.issuers, vcopy('en'));
+  assert.deepStrictEqual(facts.map(f => f.key + ':' + f.href), ['structure:https://example.com/s', 'hours:null', 'min:null']);
+  assert.strictEqual(facts[2].text, '$1');
+});
+
+check('versions: real data file renders without gaps (no NaN/undefined in any cell text)', () => {
+  const d = logic.normalizeVersionsData(VERS);
+  const c = vcopy('en');
+  logic.sortTickers(d).forEach(t => t.versions.forEach(v => {
+    const cells = logic.versionCells(v, c);
+    assert.ok(!/NaN|undefined|null/.test(JSON.stringify([cells, logic.cexLines(v, d.cexNames), logic.riskFacts(v, d.issuers, c).map(f => f.text), v.yields.map(y => y.apy)])), t.ticker + ' ' + v.key);
+    if (v.multiplierUnknown) assert.strictEqual(cells.spreadText, '—');
+  }));
+});
+
+check('versions: EN/KO copy parity, Hangul in every KO string, functions never print undefined', () => {
+  const en = logic.VERSIONS_COPY.en, ko = logic.VERSIONS_COPY.ko;
+  assert.deepStrictEqual(Object.keys(ko).sort(), Object.keys(en).sort());
+  Object.keys(ko).forEach(k => {
+    const val = typeof ko[k] === 'function' ? ko[k]('A') : ko[k];
+    assert.ok(/[가-힣]/.test(val) || val === en[k], 'ko ' + k);
+    assert.strictEqual(typeof ko[k], typeof en[k], k);
+  });
+  ['en', 'ko'].forEach(l => Object.keys(logic.VERSIONS_COPY[l]).filter(k => typeof logic.VERSIONS_COPY[l][k] === 'function').forEach(k => assert.ok(!/undefined|NaN/.test(logic.VERSIONS_COPY[l][k]('A')), l + k)));
+  const src = fs.readFileSync('stocks.js', 'utf8');
+  assert.ok(!/pillarsPct|\.breakdown/.test(src.replace(/allow-pillarsPct/g, '')), 'stocks.js never reads pillarsPct or breakdown');
+});
+
+check('stocks.js header: Search / Stocks / Methodology / API with Stocks current; footer links Stocks', () => {
+  const src = fs.readFileSync('stocks.js', 'utf8');
+  const i = src.indexOf("link('/?app=1'");
+  const block = src.slice(i, i + 700);
+  assert.ok(block.indexOf("'/stocks'") > 0 && block.indexOf("'/stocks'") < block.indexOf("'/methodology'") && block.indexOf("'/methodology'") < block.indexOf("'/mcp'"));
+  assert.ok(/'\/stocks'[^\n]*aria-current/.test(block));
+  assert.ok(src.includes("e('a', { href: '/stocks' }, rc.stocksLink"));
+  assert.ok(fs.readFileSync('stocks.html', 'utf8').includes('data/stocks-versions.json'));
+});
+
 console.log('\n' + passed + ' checks passed');
