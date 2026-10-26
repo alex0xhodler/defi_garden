@@ -14,6 +14,7 @@ cd "$SRC"
 shopt -s nullglob
 grep -vE '^\s*(#|$)' "$ROOT/scripts/site-outputs.txt" | while read -r pattern; do
   for p in $pattern; do
+    [ -e "$p" ] || continue
     mkdir -p "$ROOT/$(dirname "$p")"
     rsync -a --delete "$p" "$ROOT/$(dirname "$p")/"
   done
