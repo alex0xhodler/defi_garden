@@ -180,26 +180,6 @@
       "permanent": true
     },
     {
-      "source": "/pools/3jane-lending-usd3-ethereum",
-      "destination": "/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/ko/pools/3jane-lending-usd3-ethereum",
-      "destination": "/ko/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/pt/pools/3jane-lending-usd3-ethereum",
-      "destination": "/pt/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/es/pools/3jane-lending-usd3-ethereum",
-      "destination": "/es/chains/ethereum",
-      "permanent": true
-    },
-    {
       "source": "/pools/aave-v3-cbbtc-base",
       "destination": "/chains/base",
       "permanent": true
@@ -957,6 +937,26 @@
     {
       "source": "/es/pools/plume-vaults-nopal-plume-mainnet",
       "destination": "/es/chains/plume-mainnet",
+      "permanent": true
+    },
+    {
+      "source": "/pools/renzo-ezeth-ethereum",
+      "destination": "/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/renzo-ezeth-ethereum",
+      "destination": "/ko/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pt/pools/renzo-ezeth-ethereum",
+      "destination": "/pt/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/es/pools/renzo-ezeth-ethereum",
+      "destination": "/es/chains/ethereum",
       "permanent": true
     },
     {
