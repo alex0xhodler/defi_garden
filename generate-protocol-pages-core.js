@@ -26,6 +26,14 @@ const { isPermissionedProject } = require('./permissioned-projects.js');
 const PROTOCOL_MIN_POOLS = 3;            // scored, rail-passing pools
 const PROTOCOL_MIN_TVL_USD = 5000000;    // total qualifying TVL ($5M)
 const PROTOCOL_PAGE_LIMIT = 80;          // v1 cap, top protocols by qualifying TVL
+// Yield floor for protocol pages (lead review 2026-10-26): these pages are about
+// YIELD, so only yield-bearing pools count anywhere (gate, stats, ratings, table,
+// by-chain/type, JSON-LD, llms). Total APY = apyBase + apyReward, in percent.
+// Collateral-only markets (e.g. Aave v3 supply of WETH/WBTC at ~0.00%) are
+// excluded from the PAGE only; the app still lists them (it demotes + tags
+// "No supply yield", test_zero_yield_demote.js) and trust rails are untouched.
+// Page-selection rule, like W1_MIN_APY_PCT in generate-pool-score-pages.js.
+const MIN_PAGE_APY = 0.1;
 const PROTOCOL_TABLE_MAX_ROWS = 50;      // pool rows shown on a page
 
 function isNum(v) { return typeof v === 'number' && Number.isFinite(v); }
@@ -39,6 +47,7 @@ function isQualifyingScoredPool(p) {
   if (!p.defiScore || !isNum(p.defiScore.score)) return false;
   if (!isNum(p.tvlUsd) || p.tvlUsd < TRUST_RAILS.DEFAULT_MIN_TVL) return false;
   if (poolTotalApy(p) > TRUST_RAILS.APY_SANITY_LIMIT) return false;
+  if (poolTotalApy(p) < MIN_PAGE_APY) return false; // yield-bearing pools only
   return true;
 }
 
@@ -90,6 +99,6 @@ function protocolSlugMap(pools, limit) {
 }
 
 module.exports = {
-  PROTOCOL_MIN_POOLS, PROTOCOL_MIN_TVL_USD, PROTOCOL_PAGE_LIMIT, PROTOCOL_TABLE_MAX_ROWS,
+  PROTOCOL_MIN_POOLS, PROTOCOL_MIN_TVL_USD, PROTOCOL_PAGE_LIMIT, PROTOCOL_TABLE_MAX_ROWS, MIN_PAGE_APY,
   isQualifyingScoredPool, selectProtocols, protocolDisplayName, protocolSlugMap, poolTotalApy
 };

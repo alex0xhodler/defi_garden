@@ -69,6 +69,34 @@ test('slugs are url-safe (dots etc. collapse) and unique', () => {
 });
 test('display name keeps the version lowercase', () => assert.strictEqual(core.protocolDisplayName('aave-v3'), 'Aave v3'));
 
+console.log('yield floor');
+test('MIN_PAGE_APY is the named 0.1 constant; pools under it never count', () => {
+  assert.strictEqual(core.MIN_PAGE_APY, 0.1);
+  assert.ok(core.isQualifyingScoredPool(mk({ apyBase: 0.1, apyReward: 0 })));
+  assert.ok(core.isQualifyingScoredPool(mk({ apyBase: 0.06, apyReward: 0.04 })));
+  assert.ok(!core.isQualifyingScoredPool(mk({ apyBase: 0.09, apyReward: 0 })));
+  // 3 zero-yield mega pools + 2 yielding: no page (gate applies after the filter)
+  const pools = proj('zy', 3, 1e9, { apyBase: 0, apyReward: 0 }).concat(proj('zy', 2, 3000000));
+  assert.deepStrictEqual(slugs(pools), []);
+});
+test('stats, ratings, table and JSON-LD use only qualifying pools; median on qualifying pools', () => {
+  const pools = proj('mix', 3, 2000000, { apyBase: 4, apyReward: 0 })
+    .concat(proj('mix', 5, 9e8, { apyBase: 0.02, apyReward: 0, defiScore: { score: 95, rating: 'AAA', pillarsTier: {} } }));
+  const r = core.selectProtocols(pools).selected[0];
+  assert.strictEqual(r.pools.length, 3);
+  const st = gen.protocolStats(r);
+  assert.strictEqual(st.medApy, 4);
+  assert.deepStrictEqual(st.ratings, { AA: 3 });
+  const h = gen.renderProtocolPage(r, ctx, 'en');
+  const apys = [...h.matchAll(/<td class="num">(\d[\d,.]*)%<\/td>\s*<td class="num">[\d.]+%–/g)].map(m => parseFloat(m[1]));
+  assert.strictEqual(apys.length, 3);
+  assert.ok(apys.every(a => a >= core.MIN_PAGE_APY));
+  assert.ok(!/AAA<\/span> <b>/.test(h), 'excluded AAA pools leaked into the distribution');
+  assert.ok(h.includes('Pools under 0.1% APY, such as collateral-only markets, are not listed.'));
+  const il = JSON.parse([...h.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map(m => m[1])[2]);
+  assert.strictEqual(il.itemListElement.length, 3);
+});
+
 console.log('generated output');
 const rec = core.selectProtocols(
   proj('aave-v3', 4, 3000000, { chain: 'Base' }).concat(proj('aave-v3', 2, 2000000, { chain: 'Ethereum', defiScore: { score: 70.1, rating: 'A', pillarsTier: { stability: 'Low' } } }))
