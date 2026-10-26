@@ -343,6 +343,64 @@ check('handler: ?view=versions routes to the versions view, default route unchan
   assert.ok(typeof handler === 'function');
 });
 
+check('spread vs median: normalised by multiplier, unknown multiplier excluded, no external reference', () => {
+  const r = ver.spreadVsMedian([
+    { key: 'a', price: 100, multiplier: 1 },
+    { key: 'b', price: 202, multiplier: 2 },          // normalised 101
+    { key: 'c', price: 104, multiplier: 1 },
+    { key: 'd', price: 500, multiplier: null },       // unknown multiplier: shown elsewhere, no spread
+    { key: 'e', price: null, multiplier: 1 }
+  ]);
+  assert.strictEqual(r.count, 3);
+  assert.strictEqual(r.medianNormalizedPrice, 101);
+  assert.strictEqual(r.spreads.get('a'), round3((100 / 101 - 1) * 100));
+  assert.strictEqual(r.spreads.get('b'), 0);
+  assert.strictEqual(r.spreads.get('c'), round3((104 / 101 - 1) * 100));
+  assert.ok(!r.spreads.has('d') && !r.spreads.has('e'));
+  // even count: mean of the middle two
+  const even = ver.spreadVsMedian([{ key: 'a', price: 100, multiplier: 1 }, { key: 'b', price: 102, multiplier: 1 }]);
+  assert.strictEqual(even.medianNormalizedPrice, 101);
+  // a lone version has no benchmark
+  const one = ver.spreadVsMedian([{ key: 'a', price: 100, multiplier: 1 }, { key: 'd', price: 5, multiplier: null }]);
+  assert.strictEqual(one.medianNormalizedPrice, null);
+  assert.strictEqual(one.spreads.size, 0);
+});
+
+check('generator: spreadVsMedianPct + medianNormalizedPrice in the JSON, independent of the reference', () => {
+  const out = gen.buildVersions(ctx());
+  const n = out.tickers.NVDA;
+  const byKey = {}; n.versions.forEach((v) => { byKey[v.key] = v; });
+  const norm = [byKey[idSol].priceUsd / 1, byKey[idBase].priceUsd / 1.0005].sort((a, b) => a - b);
+  const med = (norm[0] + norm[1]) / 2;
+  assert.ok(Math.abs(n.medianNormalizedPrice - med) < 1e-3);
+  assert.strictEqual(byKey[idSol].spreadVsMedianPct, round3((byKey[idSol].priceUsd / med - 1) * 100) );
+  assert.strictEqual(byKey[idBsc].spreadVsMedianPct, null);
+  assert.strictEqual(byKey[idWrap].spreadVsMedianPct, null);
+});
+
+check('live view: spreadVsMedianPct and medianNormalizedPrice present even without a reference', async () => {
+  ver.resetVersionsMemo();
+  const slim2 = JSON.parse(JSON.stringify(slim));
+  slim2.tickers.NVDA.refClose = null;
+  slim2.tickers.NVDA.v[1] = Object.assign({}, slim2.tickers.NVDA.v[1], { m: 1 });
+  const fetch = async (url) => {
+    if (/prices\/current/.test(url)) {
+      const coins = {};
+      coins[idSol] = { price: 210, timestamp: Math.floor(NOW / 1000) - 5, confidence: 0.99 };
+      coins[idBsc] = { price: 212, timestamp: Math.floor(NOW / 1000) - 5, confidence: 0.99 };
+      return { ok: true, json: async () => ({ coins }) };
+    }
+    return { ok: false, status: 401 };
+  };
+  const v = await ver.buildVersionsView({ fetch, now: () => NOW, env: {}, slim: slim2, feeds });
+  const t = v.tickers.NVDA;
+  assert.strictEqual(t.reference, null);
+  assert.strictEqual(t.medianNormalizedPrice, 211);
+  assert.strictEqual(t.versions[idSol].premiumPct, null);
+  assert.strictEqual(t.versions[idSol].spreadVsMedianPct, round3((210 / 211 - 1) * 100));
+  assert.strictEqual(t.versions[idBsc].spreadVsMedianPct, round3((212 / 211 - 1) * 100));
+});
+
 queue.then(() => {
   console.log(passed + ' checks passed' + (process.exitCode ? ' (with failures)' : ''));
 });

@@ -444,6 +444,8 @@ function buildVersions(ctx) {
     T.names.forEach((n) => { counts[n] = (counts[n] || 0) + 1; });
     const name = Object.keys(counts).sort((a, b) => counts[b] - counts[a] || (a < b ? -1 : 1))[0] || u;
     const vs = T.versions;
+    const sp = ver.spreadVsMedian(vs.map((v) => ({ key: v.key, price: v.priceUsd, multiplier: v.multiplier })));
+    vs.forEach((v) => { v.spreadVsMedianPct = sp.spreads.has(v.key) ? sp.spreads.get(v.key) : null; });
     const withPrem = vs.filter((v) => v.premiumVsClosePct !== null);
     const lo = withPrem.slice().sort((a, b) => a.premiumVsClosePct - b.premiumVsClosePct)[0];
     const hi = withPrem.slice().sort((a, b) => b.premiumVsClosePct - a.premiumVsClosePct)[0];
@@ -457,6 +459,7 @@ function buildVersions(ctx) {
     outTickers[u] = {
       name,
       referenceClose: refCloseOut(u),
+      medianNormalizedPrice: sp.medianNormalizedPrice,
       versions: vs,
       unverified: T.unverified,
       summary: {

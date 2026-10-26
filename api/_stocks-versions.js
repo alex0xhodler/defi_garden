@@ -92,6 +92,34 @@ function premiumPct(price, multiplier, refPrice) {
   return { pct: round(pct, 3) };
 }
 
+// ----------------------------------------------------------------- spread ---
+
+/**
+ * Spread vs the median price of the ticker's token versions. Needs NO external
+ * reference: each priced version with a KNOWN multiplier is normalised to one
+ * share (price / multiplier); the median of those is the benchmark. A version with
+ * an unknown multiplier (or no price) is shown elsewhere but is excluded from the
+ * median and gets no spread. Fewer than two normalisable versions -> no median
+ * (a lone version would trivially sit at 0).
+ * This is "vs median of token versions", NOT "vs the real share".
+ * @param {Array<{key:string, price:number|null, multiplier:number|null}>} entries
+ * @returns {{medianNormalizedPrice: number|null, count: number, spreads: Map<string, number>}}
+ */
+function spreadVsMedian(entries) {
+  const norm = [];
+  (entries || []).forEach((e) => {
+    if (!e || !isNum(e.price) || e.price <= 0 || !isNum(e.multiplier) || e.multiplier <= 0) return;
+    norm.push({ key: e.key, n: e.price / e.multiplier });
+  });
+  const spreads = new Map();
+  if (norm.length < 2) return { medianNormalizedPrice: null, count: norm.length, spreads };
+  const sorted = norm.map((x) => x.n).sort((a, b) => a - b);
+  const mid = sorted.length >> 1;
+  const median = sorted.length % 2 ? sorted[mid] : (sorted[mid - 1] + sorted[mid]) / 2;
+  norm.forEach((x) => spreads.set(x.key, round((x.n / median - 1) * 100, 3)));
+  return { medianNormalizedPrice: round(median, median >= 1 ? 4 : 8), count: norm.length, spreads };
+}
+
 // ------------------------------------------------------------------- Pyth ---
 
 function pythHeaders(deps) {
@@ -247,7 +275,15 @@ async function buildVersionsView(deps) {
       if (Object.keys(reasons).length) row.reasons = reasons;
       versions[v.k] = row;
     });
-    outTickers[t] = { reference, versions };
+    const sp = spreadVsMedian(s.v.map((v) => {
+      const id = versionKey(v.c, v.a);
+      const px = id ? priceRes.prices.get(id) : null;
+      return { key: v.k, price: px ? px.price : null, multiplier: v.m };
+    }));
+    Object.keys(versions).forEach((k) => {
+      versions[k].spreadVsMedianPct = sp.spreads.has(k) ? sp.spreads.get(k) : null;
+    });
+    outTickers[t] = { reference, medianNormalizedPrice: sp.medianNormalizedPrice, versions };
     if (!reference && refReason) outTickers[t].referenceReason = refReason;
   });
 
@@ -281,7 +317,7 @@ async function getVersionsView(deps) {
 function resetVersionsMemo() { memo = null; }
 
 module.exports = {
-  versionKey, fetchVersionPrices, premiumPct, fetchPythLive, fetchPythAtClose, marketInfo,
+  versionKey, fetchVersionPrices, premiumPct, spreadVsMedian, fetchPythLive, fetchPythAtClose, marketInfo,
   buildVersionsView, getVersionsView, resetVersionsMemo,
   MIN_CONFIDENCE, MAX_PRICE_AGE_SEC, MAX_PLAUSIBLE_PREMIUM_PCT, CLOSE_WINDOW_SEC, LIVE_MAX_AGE_SEC
 };
