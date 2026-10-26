@@ -94,9 +94,9 @@ check('no pillar numbers: only High / Medium / Low tiers, never pillarsPct / bre
   assert.ok(!/pillarsPct|pillars_pct|breakdown/.test(html));
   assert.ok(!html.includes('77.7123') && !html.includes('12.3456'));
   assert.ok(!/\b\d{1,3}(?:\.\d+)?\s*\/\s*(?:35|25|15|100)\b/.test(html), 'no x / max pillar pattern');
-  assert.ok(/Yield stability Low/.test(html) && /Sustainability High/.test(html) && /Capital stickiness Medium/.test(html));
+  assert.ok(/Yield stability: Low/.test(html) && /Sustainability: High/.test(html) && /Capital stickiness: Medium/.test(html) && /<details class="st-pillars"/.test(html));
   assert.ok(!html.includes('59.9'), 'no numeric score is printed');
-  assert.ok(/DeFi Score A\b/.test(html));
+  assert.ok(/ · <span title="DeFi Score rating[^>]*>A<\/span>/.test(html));
   const src = fs.readFileSync(path.join(__dirname, 'generate-stock-ticker-pages.js'), 'utf8');
   assert.ok(!/pillarsPct|\.breakdown/.test(src), 'generator never reads the hidden fields');
 });

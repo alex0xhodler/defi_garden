@@ -619,7 +619,7 @@
       vPriceTip: function (when) { return 'On-chain price from the DefiLlama coins aggregator, as of ' + when + '.'; },
       vPoolTvl: 'pool TVL', vDepth: function (v) { return '±2% depth ' + v; },
       vDepthTip: 'Estimated swap depth within 2% of the pool price.',
-      vYieldLp: 'LP', vYieldLending: 'Lending',
+      vYieldLp: 'LP', vYieldLending: 'Lending', vPillarTiers: 'Pillar tiers',
       vYieldApyLabel: 'projected APY',
       vYieldScore: function (r) { return 'DeFi Score ' + r; },
       vOpenPool: 'Open pool', vOpenPoolFor: function (n) { return 'Open the ' + n + ' pool analysis'; },
@@ -660,7 +660,7 @@
       vPriceTip: function (when) { return 'DefiLlama 코인 집계기의 온체인 가격 (' + when + ' 기준).'; },
       vPoolTvl: '풀 TVL', vDepth: function (v) { return '±2% 깊이 ' + v; },
       vDepthTip: '풀 가격 기준 2% 이내로 거래할 수 있는 추정 규모입니다.',
-      vYieldLp: 'LP', vYieldLending: '렌딩',
+      vYieldLp: 'LP', vYieldLending: '렌딩', vPillarTiers: '필러 등급',
       vYieldApyLabel: '예상 APY',
       vYieldScore: function (r) { return 'DeFi 점수 ' + r; },
       vOpenPool: '풀 열기', vOpenPoolFor: function (n) { return n + ' 풀 분석 열기'; },
@@ -1259,25 +1259,31 @@
   function YieldCandidate(props) {
     var c = props.c, copy = props.copy;
     var kindLabel = c.kind === 'lending' ? copy.vYieldLending : copy.vYieldLp;
-    var pillars = props.showPillars ? e('ul', { className: 'stocks-v-pillars', 'data-testid': 'stocks-v-pillars' },
-      SCORE_PILLARS.map(function (pl) {
-        var tier = c.tiers[PILLAR_TIER_KEY[pl.key]];
-        return e('li', { key: pl.key },
-          e('span', null, copy[pl.labelKey]),
-          tier ? e('span', { className: 'stocks-v-tier' }, e(TierMeter, { tier: tier }), copy[TIER_KEYS[tier]]) : null);
-      })) : null;
+    var shortKind = c.kind === 'lending' ? copy.vYieldLending : copy.vYieldLp;
+    var pillars = e('details', { className: 'stocks-v-pillar-details', 'data-testid': 'stocks-v-pillars' },
+      e('summary', null, copy.vPillarTiers),
+      e('ul', { className: 'stocks-v-pillars' },
+        SCORE_PILLARS.map(function (pl) {
+          var tier = c.tiers[PILLAR_TIER_KEY[pl.key]];
+          return e('li', { key: pl.key },
+            e('span', null, copy[pl.labelKey]),
+            tier ? e('span', { className: 'stocks-v-tier' }, e(TierMeter, { tier: tier }), copy[TIER_KEYS[tier]]) : null);
+        })));
+    var hasTiers = SCORE_PILLARS.some(function (pl) { return !!c.tiers[PILLAR_TIER_KEY[pl.key]]; });
+    var poolName = kindLabel + (c.project ? ' ' + c.project : '');
     return e('div', { className: 'stocks-v-yield', 'data-kind': c.kind },
-      e('span', { className: 'stocks-sub' }, e('span', { className: 'dt-engine-pill stocks-badge' }, kindLabel), c.project ? ' ' + c.project : ''),
-      e('span', { className: 'stocks-v-apy' }, fmtPct(c.apy, copy.dash)),
-      e('span', { className: 'stocks-sub' }, copy.vYieldApyLabel),
-      c.rating ? e('span', { className: 'stocks-sub' },
-        e(Tip, { text: pillarText(c, copy) + '. ' + copy.scoreTip }, copy.vYieldScore(c.rating)), ' · ', tierLabel(copy, c.tier)) : null,
-      pillars,
-      e('a', {
-        className: 'stocks-v-pool', href: poolHref(c.pool), 'aria-label': copy.vOpenPoolFor(kindLabel + (c.project ? ' ' + c.project : '')),
-        'data-testid': 'stocks-v-open-pool',
-        onClick: function () { track('stocks_open_pool', { pool: c.pool, source: 'versions' }); }
-      }, copy.vOpenPool, ' →')
+      e('span', { className: 'stocks-v-yline' },
+        e('span', { className: 'stocks-sub', title: poolName }, shortKind), ' ',
+        e('span', { className: 'stocks-v-apy', title: copy.vYieldApyLabel }, fmtPct(c.apy, copy.dash)),
+        c.rating ? e('span', { className: 'stocks-sub' }, ' · ', e(Tip, { text: pillarText(c, copy) + '. ' + copy.scoreTip }, c.rating)) : null,
+        ' · ',
+        e('a', {
+          className: 'stocks-v-pool', href: poolHref(c.pool), title: copy.vOpenPool + (c.project ? ' (' + c.project + ')' : ''),
+          'aria-label': copy.vOpenPoolFor(poolName),
+          'data-testid': 'stocks-v-open-pool',
+          onClick: function () { track('stocks_open_pool', { pool: c.pool, source: 'versions' }); }
+        }, '↗')),
+      hasTiers ? pillars : null
     );
   }
 

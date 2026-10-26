@@ -203,25 +203,24 @@ function cellLiquidity(v) {
 }
 function yieldLine(label, y) {
   if (!y || !isNum(y.honestProjection)) return '';
-  let h = '<div class="st-yield"><span class="st-sub">' + esc(label) + '</span> <strong>' + esc(fmtApy(y.honestProjection)) + '</strong> projected APY';
   const ds = y.defiScore;
-  if (ds && typeof ds.rating === 'string' && ds.rating) {
-    h += '<div class="st-sub">DeFi Score ' + esc(ds.rating);
-    const t = ds.pillarsTier;
-    if (t) {
-      const bits = PILLARS.filter((p) => TIERS.has(t[p[0]])).map((p) => p[1] + ' ' + t[p[0]]);
-      if (bits.length) h += ' · ' + esc(bits.join(', '));
-    }
-    h += '</div>';
-  }
+  const rating = ds && typeof ds.rating === 'string' && ds.rating ? ds.rating : null;
+  let h = '<div class="st-yield"><div class="st-yline"><span class="st-sub">' + esc(label) + '</span> <strong>' + esc(fmtApy(y.honestProjection)) + '</strong>';
+  if (rating) h += ' · <span title="DeFi Score rating (DeFi Garden model output, not a credit rating)">' + esc(rating) + '</span>';
   if (typeof y.pool === 'string' && POOL_ID_RE.test(y.pool)) {
-    h += '<div class="st-sub"><a href="/?pool=' + esc(y.pool) + '">Pool details</a>' + (y.project ? ' (' + esc(y.project) + ')' : '') + '</div>';
+    h += ' · <a href="/?pool=' + esc(y.pool) + '" aria-label="' + esc(label + ' pool details' + (y.project ? ' (' + y.project + ')' : '')) + '" title="Pool details' + (y.project ? ' (' + esc(y.project) + ')' : '') + '">↗</a>';
+  }
+  h += '</div>';
+  const t = ds && ds.pillarsTier;
+  if (t) {
+    const bits = PILLARS.filter((p) => TIERS.has(t[p[0]])).map((p) => '<li>' + esc(p[1]) + ': ' + esc(t[p[0]]) + '</li>');
+    if (bits.length) h += '<details class="st-pillars"><summary>Pillar tiers</summary><ul>' + bits.join('') + '</ul></details>';
   }
   return h + '</div>';
 }
 function cellYield(v) {
   const by = v.bestYield || {};
-  const h = yieldLine('Liquidity pool', by.lp) + yieldLine('Lending', by.lending);
+  const h = yieldLine('LP', by.lp) + yieldLine('Lending', by.lending);
   return h || DASH_NA;
 }
 function cellCex(v, data) {
@@ -318,7 +317,11 @@ const STYLE = `
       .st-notice { background: var(--ui-surface-muted); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-md); padding: 12px 16px; margin: 16px 0; font-size: 0.93rem; }
       .st-notice p { margin: 0 0 6px; font-size: 0.93rem; }
       .st-notice p:last-child { margin: 0; }
-      .st-scroll { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-lg); overflow-x: auto; max-width: 100%; margin: 14px 0 8px; -webkit-overflow-scrolling: touch; }
+      .st-yline { white-space: nowrap; }
+      .st-pillars { margin-top: 2px; font-size: 12px; color: var(--ui-text-secondary); }
+      .st-pillars summary { cursor: pointer; }
+      .st-pillars ul { margin: 4px 0 0; padding-left: 16px; }
+      .st-scroll { position: relative; background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-lg); overflow-x: auto; max-width: 100%; margin: 14px 0 8px; -webkit-overflow-scrolling: touch; }
       .st-table { border-collapse: collapse; min-width: 1240px; width: 100%; }
       .st-table th, .st-table td { text-align: left; vertical-align: top; padding: 11px 10px; border-bottom: 1px solid var(--ui-border); font-size: 0.88rem; color: var(--ui-text); }
       .st-table thead th { color: var(--ui-text-secondary); font-weight: 600; font-size: 0.76rem; text-transform: uppercase; letter-spacing: 0.03em; background: var(--ui-surface); white-space: nowrap; }

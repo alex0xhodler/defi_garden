@@ -352,6 +352,9 @@
 .stocks-v-yield + .stocks-v-yield { padding-top: 10px; border-top: 1px dashed var(--ui-border); }
 .stocks-v-apy { font-family: var(--font-family-display); font-size: 18px; font-weight: 600; line-height: 1.1; color: var(--ui-text); }
 .stocks-v-pool { font-size: 12px; font-weight: 600; }
+.stocks-v-yline { white-space: nowrap; }
+.stocks-v-pillar-details { width: 100%; font-size: 12px; color: var(--ui-text-secondary); }
+.stocks-v-pillar-details summary { cursor: pointer; }
 .stocks-v-pillars { margin: 4px 0 2px; padding: 0; list-style: none; display: grid; gap: 3px; width: 100%; font-size: 12px; color: var(--ui-text-secondary); }
 .stocks-v-pillars li { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
 .stocks-v-tier { display: inline-flex; align-items: center; gap: 6px; color: var(--ui-text); font-weight: 600; }
