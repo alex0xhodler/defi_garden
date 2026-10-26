@@ -10,7 +10,22 @@
       "sources": [
         "https://api.xstocks.fi/api/v2/public/assets",
         "https://defillama.com/rwa/platform/xstocks"
-      ]
+      ],
+      "structure": "Token issued by a bankruptcy-remote SPV, 1:1 collateralised (issuer wording)",
+      "structureSource": "https://docs.xstocks.fi",
+      "usPersonsSource": "https://docs.xstocks.fi",
+      "mintRedeem": {
+        "hours": "Issuance and redemption 24/5, aligned with U.S. equity market hours",
+        "hoursSource": "https://docs.xstocks.fi",
+        "minUsd": null,
+        "minSource": null
+      },
+      "multiplier": {
+        "kind": "issuer-design",
+        "value": 1,
+        "source": "https://docs.xstocks.fi/developers/multipliers",
+        "note": "One scaled (UI) token always represents one share; the multiplier changes the scaled balance, not the share count per displayed token. Wrapped tokens are excluded."
+      }
     },
     "coinbase": {
       "name": "Coinbase",
@@ -20,7 +35,21 @@
       "sources": [
         "https://api.coinbase.com/v1/tokenized-stocks",
         "https://www.base.org/stocks#registry"
-      ]
+      ],
+      "structure": "Onchain certificate over shares (tokenized security issued by Coinbase Onchain SPV Ltd)",
+      "structureSource": "https://api.coinbase.com/v1/tokenized-stocks",
+      "usPersonsSource": null,
+      "mintRedeem": {
+        "hours": null,
+        "hoursSource": null,
+        "minUsd": null,
+        "minSource": null
+      },
+      "multiplier": {
+        "kind": "issuer-api",
+        "source": "https://api.coinbase.com/v1/tokenized-stocks",
+        "note": "API field multiplier = shares per token (share-to-token ratio), also carries total_supply and nav_price."
+      }
     },
     "ondo": {
       "name": "Ondo",
@@ -30,7 +59,27 @@
       "sources": [
         "https://docs.ondo.finance/addresses",
         "https://docs.ondo.finance/partner-docs/tokens"
-      ]
+      ],
+      "structure": "Structured note (debt instrument issued by a BVI SPV, Swiss-law terms)",
+      "structureSource": "https://docs.ondo.finance/ondo-stocks/legal-and-regulatory.md",
+      "usPersonsSource": "https://docs.ondo.finance/ondo-stocks/eligibility.md",
+      "mintRedeem": {
+        "hours": "Sun 8:05pm ET to Fri 7:59pm ET whenever U.S. markets are open; Off-Hours session for select assets",
+        "hoursSource": "https://docs.ondo.finance/ondo-stocks/market-hours-and-trading-availability.md",
+        "minUsd": 1,
+        "minSource": "https://docs.ondo.finance/ondo-stocks/investing-and-redeeming.md"
+      },
+      "multiplier": {
+        "kind": "onchain-oracle",
+        "scale": "1e18",
+        "oracles": {
+          "Ethereum": "0x9BC39DB6fbB44B91a48b8D5A6C208B82B1741bE6",
+          "BSC": "0xF4Fd8a1B412633e10527454137A29Db7Aa35F15e"
+        },
+        "call": "getSValue(address) returns (uint128 sValue, bool paused)",
+        "source": "https://docs.ondo.finance/addresses",
+        "note": "SyntheticSharesOracle = stock-to-token multiplier (shares per token). A token the oracle does not list reverts and is treated as unknown."
+      }
     },
     "bstocks": {
       "name": "bStocks",
@@ -40,7 +89,16 @@
       "sources": [
         "https://web3.binance.com/en/dev-docs/products/agentic-wallet/use-cases/campaigns/bstock-eligible-tokens",
         "https://defillama.com/rwa/platform/bstocks"
-      ]
+      ],
+      "structure": null,
+      "structureSource": null,
+      "usPersonsSource": null,
+      "mintRedeem": {
+        "hours": null,
+        "hoursSource": null,
+        "minUsd": null,
+        "minSource": null
+      }
     },
     "robinhood": {
       "name": "Robinhood",
@@ -50,7 +108,21 @@
       "sources": [
         "https://docs.robinhood.com/chain/contracts/",
         "https://docs.robinhood.com/chain/stock-tokens"
-      ]
+      ],
+      "structure": "Tokenised debt security issued by Robinhood Assets (Jersey) Limited",
+      "structureSource": "https://docs.robinhood.com/chain/stock-tokens",
+      "usPersonsSource": null,
+      "mintRedeem": {
+        "hours": "Market-maker mint/burn window Mon 02:00 to Sat 02:00 CET/CEST; end users can trade on-chain at any time",
+        "hoursSource": "https://docs.robinhood.com/chain/stock-tokens",
+        "minUsd": null,
+        "minSource": null
+      },
+      "multiplier": {
+        "kind": "issuer-api",
+        "source": "https://api.robinhood.com/rhj/assets",
+        "note": "currentMultiplier = shares per token (documented at docs.robinhood.com/chain/stock-tokens, ERC-8056 uiMultiplier)."
+      }
     },
     "reality": {
       "name": "Reality",
@@ -60,7 +132,16 @@
       "sources": [
         "https://realityfinance.xyz/",
         "https://defillama.com/rwa/platform/reality"
-      ]
+      ],
+      "structure": null,
+      "structureSource": null,
+      "usPersonsSource": null,
+      "mintRedeem": {
+        "hours": null,
+        "hoursSource": null,
+        "minUsd": null,
+        "minSource": null
+      }
     },
     "backpack-securities": {
       "name": "Backpack Securities",
@@ -70,7 +151,16 @@
       "sources": [
         "https://x.com/Backpack/status/2065464739749323171",
         "https://www.coindesk.com/tech/2026/06/10/spacex-stock-is-coming-to-solana-on-the-same-day-it-lists-on-nasdaq"
-      ]
+      ],
+      "structure": null,
+      "structureSource": null,
+      "usPersonsSource": null,
+      "mintRedeem": {
+        "hours": null,
+        "hoursSource": null,
+        "minUsd": null,
+        "minSource": null
+      }
     },
     "st0x": {
       "name": "ST0x",
@@ -80,7 +170,17 @@
       "sources": [
         "https://www.st0x.io/faqs",
         "https://defillama.com/rwa/platform/st0x"
-      ]
+      ],
+      "structure": "Issuer-promise token: a right against S01 Issuer GmbH to one share (unsecured claim on the issuer)",
+      "structureSource": "https://www.st0x.io/faqs",
+      "usPersonsSource": null,
+      "mintRedeem": {
+        "hours": null,
+        "hoursSource": null,
+        "minUsd": null,
+        "minSource": null,
+        "note": "Only Authorised Participants mint and redeem directly"
+      }
     },
     "centrifuge": {
       "name": "Centrifuge",
@@ -89,7 +189,16 @@
       "usPersons": "unknown",
       "sources": [
         "on-chain name() of Base 0x9c5c365e764829876243d0b289733b9d2b729685 = \"S&P 500 DeFi (Centrifuge)\""
-      ]
+      ],
+      "structure": null,
+      "structureSource": null,
+      "usPersonsSource": null,
+      "mintRedeem": {
+        "hours": null,
+        "hoursSource": null,
+        "minUsd": null,
+        "minSource": null
+      }
     }
   },
   "tokens": {
@@ -247,7 +356,8 @@
       "issuerSource": "https://www.st0x.io/faqs (issuer asset list; symbol() verified on Base RPC)",
       "chain": "Base",
       "address": "0x31c2c14134e6e3b7ef9478297f199331133fc2d8",
-      "evidence": "uniswap-v4 WTSPYM-STONX; issuer-published wrapper (wt*) address"
+      "evidence": "uniswap-v4 WTSPYM-STONX; issuer-published wrapper (wt*) address",
+      "wrapper": true
     },
     "Base:0x5cda0e1ca4ce2af96315f7f8963c85399c172204": {
       "symbol": "WTCOIN",
@@ -260,7 +370,8 @@
       "issuerSource": "https://www.st0x.io/faqs (issuer asset list; symbol() verified on Base RPC)",
       "chain": "Base",
       "address": "0x5cda0e1ca4ce2af96315f7f8963c85399c172204",
-      "evidence": "aerodrome-slipstream WTCOIN-USDC; issuer-published wrapper (wt*) address"
+      "evidence": "aerodrome-slipstream WTCOIN-USDC; issuer-published wrapper (wt*) address",
+      "wrapper": true
     },
     "Base:0x78c31580c97101694c70022c83d570150c11e935": {
       "symbol": "WTSGOV",
@@ -273,7 +384,8 @@
       "issuerSource": "https://www.st0x.io/faqs (issuer asset list; symbol() verified on Base RPC)",
       "chain": "Base",
       "address": "0x78c31580c97101694c70022c83d570150c11e935",
-      "evidence": "aerodrome-slipstream WTSGOV-USDC; issuer-published wrapper (wt*) address"
+      "evidence": "aerodrome-slipstream WTSGOV-USDC; issuer-published wrapper (wt*) address",
+      "wrapper": true
     },
     "Base:0x9c5c365e764829876243d0b289733b9d2b729685": {
       "symbol": "DESPXA",
@@ -533,7 +645,8 @@
       "issuerSource": "https://api.xstocks.fi/api/v2/public/assets (field wrapperAddressV2)",
       "chain": "Hyperliquid L1",
       "address": "0xa8ddb5cd96b5222afe198316e9a57caa642850d5",
-      "evidence": "nest-cl WNVDAX-USDC; issuer-published wrapper address"
+      "evidence": "nest-cl WNVDAX-USDC; issuer-published wrapper address",
+      "wrapper": true
     },
     "Robinhood Chain:0x117cc2133c37b721f49de2a7a74833232b3b4c0c": {
       "symbol": "SPY",
@@ -1099,6 +1212,86 @@
       "symbol": "SNDK",
       "address": "SNDKbwMUQvZhnLnxLduradgLHG5KrPuKwpnrkkGRhfH",
       "reason": "ticker-named Solana mint with no corroborating evidence in the snapshot (no Xs prefix, no paired representation); may be a non-equity lookalike"
+    }
+  ],
+  "cexSources": [
+    {
+      "id": "kraken",
+      "name": "Kraken",
+      "docs": "https://docs.kraken.com/api/docs/rest-api/get-ticker-information",
+      "enabled": true,
+      "issuers": [
+        "xstocks"
+      ]
+    },
+    {
+      "id": "bybit",
+      "name": "Bybit",
+      "docs": "https://bybit-exchange.github.io/docs/v5/market/tickers",
+      "enabled": true,
+      "issuers": [
+        "xstocks"
+      ]
+    },
+    {
+      "id": "binance",
+      "name": "Binance",
+      "docs": "https://developers.binance.com/docs/binance-spot-api-docs/rest-api/market-data-endpoints",
+      "enabled": true,
+      "issuers": [
+        "bstocks"
+      ],
+      "note": "market-data-only host data-api.binance.vision"
+    },
+    {
+      "id": "gate",
+      "name": "Gate",
+      "docs": "https://www.gate.com/docs/developers/apiv4/en/#retrieve-ticker-information",
+      "enabled": false,
+      "disabledReason": "public-data redistribution terms not verified",
+      "issuers": [
+        "xstocks",
+        "ondo"
+      ]
+    },
+    {
+      "id": "mexc",
+      "name": "MEXC",
+      "docs": "https://www.mexc.com/api-docs/spot-v3/market-data-endpoints",
+      "enabled": false,
+      "disabledReason": "public-data redistribution terms not verified",
+      "issuers": [
+        "xstocks",
+        "ondo"
+      ]
+    },
+    {
+      "id": "bitget",
+      "name": "Bitget",
+      "docs": "https://www.bitget.com/api-doc/spot/market/Get-Tickers",
+      "enabled": false,
+      "disabledReason": "public-data redistribution terms not verified",
+      "issuers": [
+        "reality"
+      ]
+    }
+  ],
+  "cexNotAvailable": [
+    {
+      "id": "robinhood",
+      "reason": "No public price API for Robinhood app/Stock Token trading; on-chain price only"
+    },
+    {
+      "id": "coinbase",
+      "reason": "Coinbase Exchange public products list has no tokenized-stock pairs (checked 2026-10-26); the issuer API publishes nav_price, not a market price"
+    },
+    {
+      "id": "okx",
+      "reason": "No registry token listed on OKX spot (checked 2026-10-26)"
+    },
+    {
+      "id": "backpack",
+      "reason": "Backpack exchange API lists no registry token (checked 2026-10-26)"
     }
   ]
 }
