@@ -152,6 +152,16 @@ jobs:
       run: |
         node generate-stocks-versions.js
 
+    - name: Generate /stocks/<ticker> comparison pages (>= 2 verified versions)
+      # After the versions step. Non-fatal: if it fails, the previously restored stocks/
+      # pages stay and the sitemap simply lists whatever the data file qualifies.
+      # Writes the stocks/ directory (a generated output in scripts/site-outputs.txt,
+      # never committed). stocks.html (/stocks) is untouched; there is never a stocks/index.html.
+      continue-on-error: true
+      run: |
+        node generate-stock-ticker-pages.js --out stocks
+        echo "Ticker pages: $(ls stocks 2>/dev/null | wc -l)"
+
     - name: Generate scored pool pages (W1 — static /pools/<slug> pages, manifest + sitemaps)
       # Must run BEFORE token/chain pages: they read data/pool-pages.json to
       # repoint pool rows at /pools/<slug>. Needs snapshot + forecasts above.

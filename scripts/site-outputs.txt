@@ -8,6 +8,7 @@
 # exactly as they did when the files were committed.
 tokens
 chains
+stocks
 pools
 ko
 pt

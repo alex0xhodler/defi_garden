@@ -63,6 +63,7 @@ docs/outcome/
 # get a local copy for dev/tests.
 /tokens/
 /chains/
+/stocks/
 /pools/
 /ko/
 /pt/

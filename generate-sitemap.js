@@ -519,6 +519,19 @@ function generateUrlXml(baseUrl, lastmod, priority, changefreq) {
 }
 
 /**
+ * One English-only URL entry (no hreflang alternates) with a fixed lastmod, for
+ * the /stocks/<ticker> pages.
+ */
+function stockPageUrlXml(loc, lastmod) {
+  return '  <url>\n' +
+    `    <loc>${escapeXml(loc)}</loc>\n` +
+    `    <lastmod>${lastmod}</lastmod>\n` +
+    '    <changefreq>daily</changefreq>\n' +
+    '    <priority>0.7</priority>\n' +
+    '  </url>\n';
+}
+
+/**
  * Wrapper for sitemap files
  */
 function wrapSitemap(content) {
@@ -667,6 +680,7 @@ async function generateSitemapSuite(poolsOverride) {
     });
 
     const now = new Date().toISOString();
+    let stockPagesLastmod = null;
     const sitemaps = {
       'sitemap-main.xml': []
     };
@@ -696,6 +710,22 @@ async function generateSitemapSuite(poolsOverride) {
     // Secondary Directory Hubs (Tokens & Chains)
     sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}tokens`, LASTMOD_PLACEHOLDER, '0.85', 'daily'));
     sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}chains`, LASTMOD_PLACEHOLDER, '0.85', 'daily'));
+
+    // /stocks/<ticker> comparison pages (generate-stock-ticker-pages.js): one URL per
+    // ticker with >= 2 verified token versions, from the SAME eligibility predicate the
+    // page generator uses. English only (no hreflang alternates). lastmod is the data
+    // file's generatedAt (the pages change with every daily data build), so this file
+    // bypasses the placeholder/preservation path. Absent data file => no sitemap.
+    stockPagesLastmod = null;
+    try {
+      const stocksData = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'data', 'stocks-versions.json'), 'utf8'));
+      const stockPages = require('./generate-stock-ticker-pages.js').eligibleTickers(stocksData);
+      const stocksMod = new Date(stocksData.generatedAt);
+      if (stockPages.length && !isNaN(stocksMod.getTime())) {
+        stockPagesLastmod = stocksMod.toISOString();
+        sitemaps['sitemap-stock-pages.xml'] = stockPages.map(e => stockPageUrlXml(`${SITE_URL}stocks/${e.slug}`, stockPagesLastmod));
+      }
+    } catch (e) { /* data/stocks-versions.json missing or unreadable: no stock-page sitemap */ }
 
     const STORY_SLUGS = ['tomoko', 'kevin', 'lucia'];
     STORY_SLUGS.forEach(slug => {
@@ -833,7 +863,9 @@ async function generateSitemapSuite(poolsOverride) {
     for (const filename of generatedFilenames) {
       if (sitemaps[filename].length > 0) {
         const existing = parseExistingUrlEntries(filename);
-        const { entries, maxLastmod } = resolveLastmods(sitemaps[filename], existing, now);
+        const { entries, maxLastmod } = filename === 'sitemap-stock-pages.xml'
+          ? { entries: sitemaps[filename], maxLastmod: stockPagesLastmod }
+          : resolveLastmods(sitemaps[filename], existing, now);
         childMaxLastmod[filename] = maxLastmod || now;
         fs.writeFileSync(filename, wrapSitemap(entries.join('')));
         writtenFilenames.push(filename);
