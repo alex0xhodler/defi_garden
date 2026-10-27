@@ -316,7 +316,7 @@ test('generate-sitemap.js registers and protects the pool sitemaps', () => {
   ['sitemap-pool-pages.xml', 'sitemap-pool-pages-ko.xml', 'sitemap-pool-pages-pt.xml', 'sitemap-pool-pages-es.xml'].forEach(f => {
     assert.ok(foreign.includes(f), 'not in FOREIGN_PAGE_SITEMAPS: ' + f);
   });
-  assert.ok(s.includes('sitemap-${kind}-pages${suffix}.xml') && s.includes("['token', 'chain', 'pool']"), 'pool sitemaps not joined to the index');
+  assert.ok(s.includes('sitemap-${kind}-pages${suffix}.xml') && s.includes("['token', 'chain', 'pool', 'protocol']"), 'pool sitemaps not joined to the index');
   const idx = fs.readFileSync(path.join(__dirname, 'sitemap.xml'), 'utf8');
   if (fs.existsSync(path.join(__dirname, 'sitemap-pool-pages.xml'))) assert.ok(idx.includes('sitemap-pool-pages.xml'), 'regenerate sitemap.xml');
 });

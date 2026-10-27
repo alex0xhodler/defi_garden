@@ -701,6 +701,7 @@ function buildConcise(meta, categories, highYield, yieldAnalysis, plannerRateRes
   lines.push(`- Methodology (how the DeFi Score and the 14-day forecast are built and measured): ${meta.baseUrl}/methodology`);
   lines.push(`- Public forecast evaluation scorecard: ${meta.baseUrl}/forecast-accuracy`);
   lines.push(`- Verified scored pools directory: ${meta.baseUrl}/pools`);
+  if (meta.protocolPages) lines.push(`- Protocol pages (DeFi Score distribution, median APY and 14-day forecast per protocol): ${meta.baseUrl}/protocols`);
   lines.push('');
 
   // Homepage section — describes what the router (home.html) actually does
@@ -813,6 +814,14 @@ function buildConcise(meta, categories, highYield, yieldAnalysis, plannerRateRes
   return lines.join('\n');
 }
 
+/** data/protocol-pages.json (generate-protocol-pages.js), or null when absent. */
+function loadProtocolPages(file) {
+  try {
+    const j = JSON.parse(fs.readFileSync(file || path.resolve('./data/protocol-pages.json'), 'utf8'));
+    return Array.isArray(j.pages) && j.pages.length ? j : null;
+  } catch (e) { return null; }
+}
+
 /**
  * Build comprehensive llms-full.txt content
  */
@@ -900,6 +909,17 @@ function buildFull(meta, categories, highYield, yieldAnalysis, plannerRateResult
     lines.push('');
   }
   
+  // W4 protocol pages: one line per generated page, counts and TVL only.
+  if (meta.protocolPages && meta.protocolPages.pages.length > 0) {
+    lines.push('## Protocol Pages');
+    lines.push('TL;DR: One page per protocol with enough scored pools: DeFi Score rating distribution, median APY, 14-day forecast and its largest pools.');
+    lines.push(`- All protocols: ${meta.baseUrl}/protocols`);
+    meta.protocolPages.pages.forEach(pg => {
+      lines.push(`- ${pg.name}: ${pg.pools} scored pools, ${pg.tvlUsd >= 1e9 ? '$' + (pg.tvlUsd / 1e9).toFixed(2) + 'B' : '$' + (pg.tvlUsd / 1e6).toFixed(0) + 'M'} TVL — ${meta.baseUrl}/protocols/${pg.slug}`);
+    });
+    lines.push('');
+  }
+
   // Market analysis sections (if yield data available)
   if (yieldAnalysis && yieldAnalysis.topChainsByTvl.length > 0) {
     lines.push('## Market Analysis: Top Chains by TVL');
@@ -1392,7 +1412,9 @@ async function main() {
       baseUrl,
       updatedAt: new Date().toISOString(),
       totalUrls: urls.length,
-      defiLlamaFetchedAt: sourceTs
+      defiLlamaFetchedAt: sourceTs,
+      // W4: pages written by generate-protocol-pages.js (null = none, no lines emitted)
+      protocolPages: loadProtocolPages()
     };
 
     // Generate content — spec 180's link-integrity gate (R1/R2/R3 + both

@@ -65,6 +65,7 @@ docs/outcome/
 /chains/
 /stocks/
 /pools/
+/protocols/
 /ko/
 /pt/
 /es/
@@ -74,6 +75,7 @@ docs/outcome/
 /data/pools-snapshot-meta.json
 /data/landing-pools.json
 /data/pool-pages.json
+/data/protocol-pages.json
 /data/pool-scores.json
 /data/protocol-urls.json
 /data/stocks-pools.json
