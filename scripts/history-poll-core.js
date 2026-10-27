@@ -70,6 +70,22 @@ function buildInsertSql(ts, rows, { rowsPerStatement = 400 } = {}) {
   return stmts.length ? stmts.join('\n') + '\n' : '';
 }
 
+/** SQL for the fallback-run skip check: does slot `ts` already have any row? */
+function slotExistsSql(ts) {
+  const t = Math.floor(Number(ts));
+  if (!Number.isFinite(t)) throw new Error(`history-poll: bad ts: ${ts}`);
+  return `SELECT COUNT(*) AS n FROM (SELECT 1 FROM samples WHERE ts = ${t} LIMIT 1)`;
+}
+
+/** n from wrangler's `d1 execute --json` output ([{ results: [{ n }] }]); throws if unparseable. */
+function countFromD1Json(json) {
+  const first = Array.isArray(json) ? json[0] : null;
+  const row = first && Array.isArray(first.results) ? first.results[0] : null;
+  const n = row ? Number(row.n) : NaN;
+  if (!Number.isFinite(n)) throw new Error('history-poll: unexpected D1 count output');
+  return n;
+}
+
 /** Pool ids from the published /data/stocks-pools.json ({ pools: [{ id }] }); tolerant of junk. */
 function watchIdsFromStocksPools(json) {
   const out = new Set();
@@ -80,5 +96,6 @@ function watchIdsFromStocksPools(json) {
 
 module.exports = {
   SLOT_SECONDS, TRACK_MIN_TVL, KEEP_MIN_TVL, MAX_STATEMENT_BYTES,
-  slotTs, totalApy, selectPools, buildInsertSql, watchIdsFromStocksPools
+  slotTs, totalApy, selectPools, buildInsertSql, watchIdsFromStocksPools,
+  slotExistsSql, countFromD1Json
 };

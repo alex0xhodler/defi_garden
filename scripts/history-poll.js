@@ -104,8 +104,29 @@ async function loadWatchIds(args) {
   }
 }
 
+/** Fallback (schedule) runs only: true when the CF-dispatched run already wrote this slot. */
+function slotAlreadyWritten(ts) {
+  try {
+    const out = wranglerD1(['--json', '--command', core.slotExistsSql(ts)]);
+    return core.countFromD1Json(JSON.parse(out)) > 0;
+  } catch (err) {
+    console.warn(`WARN skip check: failed (${err.message}); polling anyway (writes are idempotent)`);
+    return false;
+  }
+}
+
 async function main() {
   const args = parseArgs(process.argv.slice(2));
+
+  if (process.env.GITHUB_EVENT_NAME === 'schedule' && !args.dryRun) {
+    const slot = core.slotTs(Date.now() / 1000);
+    if (slotAlreadyWritten(slot)) {
+      const msg = `history-poll: slot ${new Date(slot * 1000).toISOString()} already written, fallback run skipped`;
+      console.log(msg);
+      if (process.env.GITHUB_STEP_SUMMARY) fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, `- ${msg}\n`);
+      process.exit(0);
+    }
+  }
 
   let body;
   if (args.poolsFixture) body = readJson(args.poolsFixture);

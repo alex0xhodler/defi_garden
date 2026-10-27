@@ -1,0 +1,10 @@
+name = "defi-garden-history-poll-trigger"
+main = "worker.js"
+compatibility_date = "2026-07-01"
+workers_dev = false
+
+[triggers]
+crons = ["5 */3 * * *"]
+
+[observability]
+enabled = true
