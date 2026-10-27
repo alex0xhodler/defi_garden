@@ -28,7 +28,7 @@ function mk(over) {
     apyBase: 3.2, apyReward: 0.8, apyMean30d: 3.5, poolMeta: null, exposure: 'single', ilRisk: 'no',
     kpis: { historyPoints: 30, firstSeen: '2026-09-05', apyStdev: 0.1, apyMean: 3.5, tvlTrend: 0.05 },
     forecast: { horizonDays: 14, p10: 3.1, p50: 3.9, p90: 4.6, crashRisk: 'LOW', predictedTvlUsd: 51000000, predictedTvlDelta: 0.02, trajectory: Array.from({ length: 14 }, (_, i) => 3.9 + i * 0.001) },
-    defiScore: { score: 91.6, rating: 'AAA', breakdown: { stability: 34.2, sustainability: 22.2, stickiness: 21.1, liquidity: 14.1 } }
+    defiScore: { score: 91.6, rating: 'AAA', pillarsPct: { stability: 98, sustainability: 89, stickiness: 84, liquidity: 94 }, pillarsTier: { stability: 'High', sustainability: 'Medium', stickiness: 'Low', liquidity: 'High' } }
   }, over || {});
 }
 const SNAP = '2026-10-04T21:16:57.774Z';
@@ -226,15 +226,22 @@ test('every number equals the snapshot value formatted en-US', () => {
   const total = hi.apyBase + hi.apyReward;
   [formatApy(total), formatApy(hi.apyMean30d), formatApy(hi.apyBase), formatApy(hi.apyReward), formatUsd(hi.tvlUsd),
    formatApy(hi.forecast.p10), formatApy(hi.forecast.p50), formatApy(hi.forecast.p90),
-   'Score 91.6 / 100', '34.2 / 35', '22.2 / 25', '21.1 / 25', '14.1 / 15', 'October 4, 2026', formatUsd(hi.forecast.predictedTvlUsd)
+   'Score 91.6 / 100', 'October 4, 2026', formatUsd(hi.forecast.predictedTvlUsd)
   ].forEach(s => assert.ok(html.includes(s), `missing ${s}`));
-  assert.ok(ko.includes('34.2 / 35') && ko.includes(formatUsd(hi.tvlUsd)));
-  assert.ok(html.includes('aria-valuemax="35"'));
+  assert.ok(ko.includes('높음') && ko.includes('낮음') && ko.includes(formatUsd(hi.tvlUsd)));
+  assert.ok(html.includes('data-tier="high"') && html.includes('data-tier="medium"') && html.includes('data-tier="low"'));
+  assert.ok(/>High<\/span>/.test(html) && />Medium<\/span>/.test(html) && />Low<\/span>/.test(html), 'tier labels');
+  assert.ok(!/ \/ 100/.test(html.replace('Score 91.6 / 100', '')) && !html.includes('aria-valuenow') && !html.includes('role="meter"'), 'no pillar numbers or numeric meter');
+  assert.ok(!/>(98|89|84|94)</.test(html), 'exact pillar numbers must not render');
+  const pt = require('./translations.js').createTranslationFunction('en');
+  assert.ok(pt('pspTierHigh') === 'High');
 });
-test('pillar maxima are 35/25/25/15, sum to 100 and match compute-forecasts.py', () => {
-  assert.strictEqual(gen.SCORE_PILLARS.reduce((s, p) => s + p.max, 0), 100);
-  const py = fs.readFileSync(path.join(__dirname, 'compute-forecasts.py'), 'utf8');
-  assert.ok(/min\(35\.0/.test(py) && /stickiness = 25\.0/.test(py) && /liquidity = 15\.0/.test(py) && /min\(15\.0, 12\.0/.test(py) && /organic_points = 10\.0/.test(py));
+test('pillars render by name only when pillarsTier is absent; no weights/maxima leak into the page', () => {
+  const bare = gen.renderPoolScorePage(mk({ defiScore: { score: 70.1, rating: 'AA', breakdown: { stability: 34.2, sustainability: 22.2, stickiness: 21.1, liquidity: 14.1 } } }), ctx, 'en');
+  ['Yield stability', 'Sustainability', 'Capital stickiness', 'Exit liquidity'].forEach(n => assert.ok(bare.includes(n), n));
+  assert.ok(!/ \/ (35|25|15)\b/.test(bare) && !bare.includes('34.2') && !/aria-valuemax="(35|25|15)"/.test(bare));
+  assert.ok(!/\/ (35|25|15)\b/.test(html) && !/TimesFM|timesfm|Alchemy/i.test(html));
+  assert.ok(!gen.SCORE_PILLARS.some(p => 'max' in p), 'no pillar maxima in public code');
 });
 test('inline SVG chart: present, accessible, no script, token-coloured', () => {
   const svg = html.match(/<svg class="psp-chart"[\s\S]*?<\/svg>/);
@@ -309,7 +316,7 @@ test('generate-sitemap.js registers and protects the pool sitemaps', () => {
   ['sitemap-pool-pages.xml', 'sitemap-pool-pages-ko.xml', 'sitemap-pool-pages-pt.xml', 'sitemap-pool-pages-es.xml'].forEach(f => {
     assert.ok(foreign.includes(f), 'not in FOREIGN_PAGE_SITEMAPS: ' + f);
   });
-  assert.ok(s.includes('sitemap-${kind}-pages${suffix}.xml') && s.includes("['token', 'chain', 'pool']"), 'pool sitemaps not joined to the index');
+  assert.ok(s.includes('sitemap-${kind}-pages${suffix}.xml') && s.includes("['token', 'chain', 'pool', 'protocol']"), 'pool sitemaps not joined to the index');
   const idx = fs.readFileSync(path.join(__dirname, 'sitemap.xml'), 'utf8');
   if (fs.existsSync(path.join(__dirname, 'sitemap-pool-pages.xml'))) assert.ok(idx.includes('sitemap-pool-pages.xml'), 'regenerate sitemap.xml');
 });
@@ -389,26 +396,10 @@ test('with no manifest entry the pre-W1 output is unchanged', () => {
   } finally { links.setPoolPageManifest(null); }
 });
 
-test('forecast disclaimer is data-driven when data/forecast-evaluations.json has resolved runs', () => {
-  const fsx = require('fs'), px = require('path');
-  const evPath = px.join(__dirname, 'data', 'forecast-evaluations.json');
-  if (!fsx.existsSync(evPath)) return;
-  const ev = JSON.parse(fsx.readFileSync(evPath, 'utf8'));
-  if (!(ev && ev.summary && Number(ev.summary.totalRuns) > 0)) return;
-  // Regression guard: the stats block once read ROOT before its declaration
-  // (TDZ), threw inside try/catch and silently fell back on every page.
-  const src = fsx.readFileSync(px.join(__dirname, 'generate-pool-score-pages.js'), 'utf8');
-  const useAt = src.indexOf("'forecast-evaluations.json'");
-  const rootDecl = src.indexOf('const ROOT');
-  assert.ok(useAt > 0, 'generator must read forecast-evaluations.json');
-  assert.ok(!/path\.join\(ROOT,\s*'data',\s*'forecast-evaluations\.json'\)/.test(src) || rootDecl < useAt,
-    'forecast-evaluations.json must not be read via ROOT before ROOT is declared');
-  const page = px.join(__dirname, 'pools', 'aave-v3-usdc-ethereum.html');
-  if (fsx.existsSync(page)) {
-    const html = fsx.readFileSync(page, 'utf8');
-    assert.ok(html.includes(`across ${ev.summary.totalRuns} resolved test runs`),
-      'committed pool page must carry the data-driven disclaimer, not the fallback');
-  }
+test('forecast disclaimer carries no track-record numbers (they live only on /forecast-accuracy)', () => {
+  assert.ok(html.includes('Experimental model: not yet shown to be more accurate'));
+  assert.ok(!/resolved test runs|\d+ of \d+/.test(html));
+  assert.ok(!require('fs').readFileSync(require('path').join(__dirname, 'generate-pool-score-pages.js'), 'utf8').includes('forecast-evaluations.json'));
 });
 
 console.log(`\n${passed} passed, ${failed} failed`);

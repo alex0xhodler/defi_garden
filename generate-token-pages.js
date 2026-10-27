@@ -43,7 +43,7 @@ const { createTranslationFunction, formatCount } = require('./i18n');
 // The ordered list of languages the static estate is generated in.
 const {
   LANGUAGES, LANG_CODES, FULL_SCOPE_CODES, HEAD_SCOPE_CODES,
-  getLanguage, normalizeLang, isHeadScope, hasLasoCard, langPath, langUrl, langDir, orderCodes
+  getLanguage, normalizeLang, isHeadScope, langPath, langUrl, langDir, orderCodes
 } = require('./languages.js');
 // W1: uuid -> /pools/<slug> manifest lookup (leaf module, no require cycle).
 const { getPoolPageSlug } = require('./pool-page-links.js');
@@ -74,6 +74,16 @@ const MIN_POOL_TVL = 100000;      // $100K eligibility floor for a page's pools
 const APY_SANITY_LIMIT = 1000;    // TRUST RAIL: total APY above this may NEVER be shown
 const MIN_QUALIFYING_POOLS = 1;   // a token needs >=1 qualifying pool to earn a page
 const NOINDEX_POOL_THRESHOLD = 3; // D1: tokens with fewer qualifying pools get noindex,follow
+// D1 exemption (2026-10-22): a thin page (>=1 but <NOINDEX_POOL_THRESHOLD
+// qualifying pools) stays index,follow when its slug is in the per-language
+// allowlist config/seo-index-allowlist.json. Search Console showed the noindexed
+// thin pages were the site's best performers (153 with impressions in 90 days,
+// avg position ~11 vs ~25 for the indexed set), so pages with proven search
+// demand are exempt. Applies to the 'all'-scope languages (en, ko) only, each
+// against ITS OWN list; head-scope pt/es stay decided by the pool threshold alone.
+// Refresh with scripts/gsc-index-allowlist.js (manual, needs Google credentials).
+// (SEO_INDEX_ALLOWLIST overrides the path; tests use it, CI does not set it.)
+const INDEX_ALLOWLIST_PATH = process.env.SEO_INDEX_ALLOWLIST || path.join(__dirname, 'config', 'seo-index-allowlist.json');
 const DEFAULT_LIMIT = 0;          // 0 = no cap: a page for every eligible token
 const POOLS_PER_PAGE = 8;         // how many pools to list on each page
 
@@ -251,10 +261,12 @@ function renderLastUpdatedHtml(genDate, lang) {
  * rel=canonical>. */
 function renderHreflangLinks(neutralPath, langs) {
   const codes = orderCodes(langs);
-  if (!codes.includes('en')) throw new Error('renderHreflangLinks: EN is the x-default and must exist for ' + neutralPath);
+  if (!codes.length) throw new Error('renderHreflangLinks: no languages for ' + neutralPath);
   const lines = codes.map(code =>
     `    <link rel="alternate" hreflang="${getLanguage(code).hreflang}" href="${langUrl(SITE_URL, code, neutralPath)}">`);
-  lines.push(`    <link rel="alternate" hreflang="x-default" href="${langUrl(SITE_URL, 'en', neutralPath)}">`);
+  // x-default -> EN; only when EN itself is not advertised (a KO-only indexable
+  // page, see the token allowlist) does it fall back to the first listed language.
+  lines.push(`    <link rel="alternate" hreflang="x-default" href="${langUrl(SITE_URL, codes.includes('en') ? 'en' : codes[0], neutralPath)}">`);
   return lines.join('\n') + '\n';
 }
 
@@ -262,11 +274,42 @@ function renderHreflangLinks(neutralPath, langs) {
  * 'head'-scope languages (pt/es) only when the page is indexable — the exact
  * rule that sets `index,follow` below (qualifyingCount >= NOINDEX_POOL_THRESHOLD).
  * A thin noindexed page is therefore never generated in pt/es. */
-function isIndexableToken(rec) {
+function loadIndexAllowlist(file) {
+  const out = {};
+  FULL_SCOPE_CODES.forEach(code => { out[code] = new Set(); });
+  try {
+    const j = JSON.parse(fs.readFileSync(file || INDEX_ALLOWLIST_PATH, 'utf8'));
+    FULL_SCOPE_CODES.forEach(code => { if (Array.isArray(j[code])) out[code] = new Set(j[code]); });
+  } catch (_) { /* no allowlist -> pure pool-threshold rule */ }
+  return out;
+}
+const INDEX_ALLOWLIST = loadIndexAllowlist();
+/** The pool-threshold rule alone (>= NOINDEX_POOL_THRESHOLD). The ONLY rule
+ * head-scope languages (pt/es) use: the allowlist never adds pt/es pages. */
+function meetsPoolThreshold(rec) {
   return rec.qualifyingCount >= NOINDEX_POOL_THRESHOLD;
 }
+/** True when the allowlist exempts this (thin) token in this language. */
+function isAllowlistedToken(rec, lang, allowlist) {
+  const code = normalizeLang(lang || 'en');
+  if (isHeadScope(code)) return false;
+  const set = (allowlist || INDEX_ALLOWLIST)[code];
+  return !!set && set.has(rec.slug) && rec.qualifyingCount >= MIN_QUALIFYING_POOLS;
+}
+/** THE per-page indexability decision (robots meta, noindex manifests, sitemaps). */
+function isIndexableToken(rec, lang, allowlist) {
+  return meetsPoolThreshold(rec) || isAllowlistedToken(rec, lang || 'en', allowlist);
+}
+/** Languages the page exists in (language switcher). */
 function tokenLangCodes(rec) {
-  return orderCodes(FULL_SCOPE_CODES.concat(isIndexableToken(rec) ? HEAD_SCOPE_CODES : []));
+  return orderCodes(FULL_SCOPE_CODES.concat(meetsPoolThreshold(rec) ? HEAD_SCOPE_CODES : []));
+}
+/** Languages advertised as hreflang alternates / sitemap alternates: only the
+ * indexable versions. If none is indexable (a noindexed page), fall back to the
+ * existing-pages set so the annotations stay reciprocal. */
+function tokenHreflangCodes(rec, allowlist) {
+  const codes = tokenLangCodes(rec).filter(c => isIndexableToken(rec, c, allowlist));
+  return codes.length ? codes : tokenLangCodes(rec);
 }
 
 /** Language switcher for a static page (replaces the old single EN<->KO
@@ -529,124 +572,6 @@ function renderLinkNavHtml(items, ariaLabel, heading, extraNavClass, linkRel) {
     </nav>\n`;
 }
 
-/**
- * Waitlist CTA block (062): the missing SEO → north-star bridge. `cssPrefix`
- * is 'tp' (tokens) or 'cp' (chains) — reuses that page type's existing
- * `.${cssPrefix}-cta` button style (already defined in each page's <style>
- * block) rather than inventing new button chrome. `source` feeds
- * `plan.html?waitlist=1&src=<source>`, which planner.js reads on load to
- * auto-open the waitlist modal and tag `waitlist_opened(source=...)`.
- * Copy is honest by construction: `ctaWaitlistMicro` already discloses
- * "Card doesn't exist yet" — reused verbatim, never re-worded per-page.
- */
-function renderWaitlistCtaHtml(pitch, cssPrefix, source, t, cardProps) {
-  const symbol = (cardProps && cardProps.symbol) ? escapeHtml(cardProps.symbol) : '';
-  const cardholderName = symbol ? `${symbol.toUpperCase()} YIELD VAULT` : 'DEFI GARDEN METAL';
-  const networkLabel = symbol ? `${symbol.toUpperCase()} · BASE RAIL` : 'YIELD-FUNDED · BASE';
-  const lasoReferralUrl = 'https://laso.finance?ref=lmretyujvzr9jiutxi4d';
-
-  if (!cardProps && cssPrefix === 'cp') {
-    return ''; // Chain pages do not feature individual yield card issuance
-  }
-
-  const cardHtml = `      <div class="${cssPrefix}-waitlist-card-col" aria-hidden="true" data-nosnippet>
-        <div class="virtual-visa-card" data-card-tilt="true">
-          <div class="visa-card-top-row">
-            <div class="visa-card-chip-group">
-              <div class="visa-gold-chip" aria-hidden="true"></div>
-              <svg class="visa-nfc-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="rgba(255,255,255,0.85)" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
-                <path d="M7 16a5.5 5.5 0 0 1 0-8" />
-                <path d="M11 18.5a9 9 0 0 1 0-13" />
-                <path d="M15 21a12.5 12.5 0 0 1 0-18" />
-                <path d="M3 13.5a2 2 0 0 1 0-3" />
-              </svg>
-            </div>
-            <div class="visa-card-brand-group">
-              <svg class="visa-logo-svg" viewBox="0 0 780 250" width="46" height="15" fill="rgba(255,255,255,1)" aria-label="VISA" role="img">
-                <path d="M292.5 6.6L193.3 243.4H128L78 57.6C75 45.8 72.4 41.5 62.9 36.3C47.4 27.9 22.2 20.3 0 15.3L3.8 6.6H107.5C121.3 6.6 133.7 15.8 136.8 31.8L163 171.1L228.3 6.6H292.5ZM548.8 167.3C549.4 104.3 461.9 100.8 462.8 72.8C463.2 64.3 471.3 55.2 489.6 52.8C498.7 51.6 523.8 50.6 552.1 63.8L563.3 11.7C548 6.2 528.2 0.8 502.9 0.8C442.2 0.8 399.1 33.1 398.6 79.1C397.7 113.3 428.3 132.3 451.6 143.7C475.6 155.3 483.6 162.8 483.4 173.3C483.1 189.4 463.8 196.4 446 196.7C415 197.2 396.9 188.4 382.4 181.7L370.8 235.8C385.7 242.7 413.2 248.6 441.7 248.9C506 248.9 548.2 217.2 548.8 167.3ZM712.3 243.4H768.8L719.6 6.6H668.1C656.3 6.6 646.6 13.4 642.3 23.8L548.8 243.4H614.3L627.3 207.3H707.4L712.3 243.4ZM645.4 157.6L678.8 65.6L698.1 157.6H645.4ZM387.9 6.6L336.2 243.4H274.6L326.3 6.6H387.9Z" />
-              </svg>
-              <div class="visa-card-tier-row">
-                <span class="visa-card-type-badge">DEBIT</span>
-                <span class="visa-card-metal-badge">METAL</span>
-              </div>
-            </div>
-          </div>
-          <div class="visa-card-center">
-            <div class="visa-card-pan">•••• •••• •••• 8453</div>
-            <div class="visa-card-funded-label">${cardholderName}</div>
-          </div>
-          <div class="visa-card-bottom-row">
-            <div class="visa-card-meta-left">
-              <span class="visa-card-expiry">VALID 08/31</span>
-              <span class="visa-card-network-info">${networkLabel}</span>
-            </div>
-            <div class="visa-card-meta-right">
-              <div class="visa-card-hologram" aria-hidden="true"></div>
-              <div class="visa-card-cap-badge">
-                <span>YIELD-FUNDED</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>`;
-
-  if (symbol) {
-    return `    <div class="${cssPrefix}-waitlist" id="token-card-section">
-      <div class="${cssPrefix}-waitlist-content" id="token-laso-default-view">
-        <h2>${symbol} Yield Card • Powered by Laso</h2>
-        <p>Spend your ${symbol} yield anywhere Visa is accepted worldwide. Your principal stays 100% self-custodial on Base.</p>
-        <a class="${cssPrefix}-cta" id="token-laso-btn" href="${lasoReferralUrl}" target="_blank" rel="noopener noreferrer">Get ${symbol} Card on Laso.finance →</a>
-        <p class="${cssPrefix}-waitlist-micro">Sponsored partner referral • Zero issuance fee • Worldwide Visa Debit</p>
-      </div>
-      <div class="${cssPrefix}-waitlist-content ${cssPrefix}-in-progress-state" id="token-laso-in-progress" style="display:none;">
-        <div class="in-progress-status-badge">
-          <span class="status-pulse-dot" aria-hidden="true"></span>
-          <span>CHECKOUT IN PROGRESS ON LASO</span>
-        </div>
-        <h2>Your ${symbol} partner perks are active.</h2>
-        <p>Complete your quick 30-second setup on Laso to claim your ${symbol} Visa debit card.</p>
-        <a class="${cssPrefix}-cta" href="${lasoReferralUrl}" target="_blank" rel="noopener noreferrer">Resume on Laso.finance ↗</a>
-        <button type="button" class="${cssPrefix}-reset-btn" id="token-laso-reset-btn">← Back to card details</button>
-      </div>
-${cardHtml}
-    </div>
-    <script>
-      (function() {
-        var btn = document.getElementById('token-laso-btn');
-        var inProg = document.getElementById('token-laso-in-progress');
-        var defaultView = document.getElementById('token-laso-default-view');
-        var resetBtn = document.getElementById('token-laso-reset-btn');
-        var tokenKey = 'dg_laso_token_' + '${symbol.toLowerCase()}';
-        function activate() {
-          if (defaultView) defaultView.style.display = 'none';
-          if (inProg) inProg.style.display = 'flex';
-          try { sessionStorage.setItem(tokenKey, '1'); } catch(e) {}
-        }
-        function deactivate() {
-          if (inProg) inProg.style.display = 'none';
-          if (defaultView) defaultView.style.display = 'flex';
-          try { sessionStorage.removeItem(tokenKey); } catch(e) {}
-        }
-        try {
-          if (sessionStorage.getItem(tokenKey) === '1') activate();
-        } catch(e) {}
-        if (btn) btn.addEventListener('click', activate);
-        if (resetBtn) resetBtn.addEventListener('click', deactivate);
-      })();
-    </script>\n`;
-  }
-
-  return `    <div class="${cssPrefix}-waitlist">
-      <div class="${cssPrefix}-waitlist-content">
-        <h2>${escapeHtml(t('tcpWaitlistHeading'))}</h2>
-        <p>${escapeHtml(pitch)}</p>
-        <a class="${cssPrefix}-cta" href="/plan.html?waitlist=1&amp;src=${encodeURIComponent(source)}">${escapeHtml(t('tcpWaitlistCta'))}</a>
-        <p class="${cssPrefix}-waitlist-micro">${escapeHtml(t('tcpWaitlistMicro'))}</p>
-      </div>
-${cardHtml}
-    </div>\n`;
-}
-
 // --- Yield headline (066): honest per-token "your idle X could earn Y"
 // pitch — the 058-approved custom KPI that ties the card business model to
 // the SEO surface without a backend. Anchored to Claude Pro (the flagship
@@ -712,243 +637,6 @@ function renderYieldHeadlineHtml(headline, subject, t, cssClass, msgKey) {
   return `    <p class="${klass}">${escapeHtml(t(key, subject, headline.apyStr, headline.foreverAmtStr, headline.monthly, headline.subLabel))}</p>\n`;
 }
 
-/** Scoped CSS for renderWaitlistCtaHtml's block, appended to a page's
- * existing <style> — reuses the same neumorphic tokens as `.${cssPrefix}-card`
- * (no new colors/gradients, per the 2026-07-10 "reuse before inventing" rule). */
-function renderWaitlistCtaStyle(cssPrefix) {
-  return `      .${cssPrefix}-waitlist {
-        background: var(--ui-surface);
-        border: 1px solid var(--ui-border);
-        border-radius: var(--ui-radius-lg);
-        box-shadow: none;
-        padding: 24px 26px;
-        margin: 24px 0;
-        display: grid;
-        grid-template-columns: 1fr 340px;
-        gap: 24px;
-        align-items: center;
-      }
-      @media (max-width: 768px) {
-        .${cssPrefix}-waitlist {
-          grid-template-columns: 1fr;
-          padding: 20px 18px;
-          gap: 20px;
-        }
-      }
-      .${cssPrefix}-waitlist h2 { font-size: 1.05rem; margin: 0 0 8px; color: var(--ui-text); }
-      .${cssPrefix}-waitlist p { color: var(--ui-text-secondary); font-size: .92rem; margin: 0 0 14px; line-height: 1.55; }
-      .${cssPrefix}-waitlist .${cssPrefix}-cta { margin: 4px 0 10px; display: inline-block; }
-      .${cssPrefix}-waitlist-micro { font-size: .78rem !important; margin: 0 !important; }
-      .${cssPrefix}-waitlist .${cssPrefix}-in-progress-state {
-        display: flex;
-        flex-direction: column;
-      }
-      .${cssPrefix}-waitlist .in-progress-status-badge {
-        display: inline-flex;
-        align-items: center;
-        gap: 8px;
-        padding: 4px 8px;
-        background: rgba(52, 211, 153, 0.12);
-        border: 1px solid rgba(52, 211, 153, 0.35);
-        color: rgba(52, 211, 153, 1);
-        font-family: var(--font-family-mono, monospace);
-        font-size: 0.68rem;
-        font-weight: 700;
-        letter-spacing: 0.08em;
-        margin-bottom: 10px;
-        align-self: flex-start;
-      }
-      .${cssPrefix}-waitlist .status-pulse-dot {
-        width: 6px;
-        height: 6px;
-        background: rgba(52, 211, 153, 1);
-        box-shadow: 0 0 8px rgba(52, 211, 153, 1);
-      }
-      .${cssPrefix}-waitlist .${cssPrefix}-reset-btn {
-        background: none;
-        border: none;
-        color: var(--ui-text-secondary);
-        cursor: pointer;
-        font-size: 0.78rem;
-        margin-top: 8px;
-        text-align: left;
-        padding: 0;
-      }
-      .${cssPrefix}-waitlist .${cssPrefix}-reset-btn:hover {
-        text-decoration: underline;
-        color: var(--ui-text);
-      }
-      .${cssPrefix}-waitlist .virtual-visa-card {
-        width: 100%;
-        max-width: 340px;
-        aspect-ratio: 1.586 / 1;
-        padding: 16px 18px;
-        background:
-          repeating-linear-gradient(105deg, rgba(255, 255, 255, 0.024) 0px, rgba(255, 255, 255, 0.024) 1px, transparent 1px, transparent 3px),
-          repeating-linear-gradient(15deg, rgba(255, 255, 255, 0.012) 0px, rgba(255, 255, 255, 0.012) 1px, transparent 1px, transparent 4px),
-          radial-gradient(circle at 18% 18%, rgba(124, 201, 160, 0.12) 0%, transparent 45%),
-          linear-gradient(138deg, rgba(11, 21, 17, 1) 0%, rgba(19, 37, 27, 1) 38%, rgba(10, 20, 15, 1) 70%, rgba(18, 36, 26, 1) 100%);
-        border: 1px solid rgba(255, 255, 255, 0.18);
-        box-shadow:
-          inset 0 1px 0 rgba(255, 255, 255, 0.32),
-          inset 1px 0 0 rgba(255, 255, 255, 0.14),
-          inset 0 -1px 0 rgba(0, 0, 0, 0.65),
-          inset -1px 0 0 rgba(0, 0, 0, 0.45),
-          0 18px 40px -10px rgba(0, 0, 0, 0.7);
-        color: rgba(255, 255, 255, 1);
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        box-sizing: border-box;
-        position: relative;
-        overflow: hidden;
-        user-select: none;
-        margin: 0 auto;
-        border-radius: 0 !important;
-      }
-      .${cssPrefix}-waitlist .virtual-visa-card::after {
-        content: '';
-        position: absolute;
-        inset: 0;
-        pointer-events: none;
-        background: linear-gradient(115deg, transparent 28%, rgba(255, 255, 255, 0.12) 42%, rgba(255, 255, 255, 0.26) 48%, rgba(255, 255, 255, 0.06) 54%, transparent 72%);
-        background-size: 260% 100%;
-        background-position: 50% 0;
-        z-index: 5;
-      }
-      .${cssPrefix}-waitlist .visa-card-top-row {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        position: relative;
-        z-index: 2;
-      }
-      .${cssPrefix}-waitlist .visa-card-chip-group {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-      }
-      .${cssPrefix}-waitlist .visa-gold-chip {
-        width: 36px;
-        height: 26px;
-        background: linear-gradient(135deg, rgba(199, 164, 98, 1) 0%, rgba(235, 216, 167, 1) 35%, rgba(180, 145, 76, 1) 70%, rgba(216, 190, 130, 1) 100%);
-        border: 1px solid rgba(40, 30, 15, 0.5);
-        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.55), inset 0 -1px 0 rgba(0, 0, 0, 0.35);
-        position: relative;
-        flex-shrink: 0;
-        border-radius: 0 !important;
-      }
-      .${cssPrefix}-waitlist .visa-card-brand-group {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        gap: 2px;
-      }
-      .${cssPrefix}-waitlist .visa-card-tier-row {
-        display: flex;
-        align-items: center;
-        gap: 4px;
-      }
-      .${cssPrefix}-waitlist .visa-card-type-badge {
-        font-family: var(--font-family-mono, monospace);
-        font-size: 0.50rem;
-        font-weight: 700;
-        letter-spacing: 0.14em;
-        color: rgba(255, 255, 255, 0.72);
-      }
-      .${cssPrefix}-waitlist .visa-card-metal-badge {
-        font-family: var(--font-family-mono, monospace);
-        font-size: 0.46rem;
-        font-weight: 800;
-        letter-spacing: 0.16em;
-        background: rgba(255, 255, 255, 0.14);
-        border: 1px solid rgba(255, 255, 255, 0.28);
-        color: rgba(230, 255, 250, 1);
-        padding: 1px 4px;
-        border-radius: 0 !important;
-      }
-      .${cssPrefix}-waitlist .visa-card-center {
-        margin: 4px 0;
-        position: relative;
-        z-index: 2;
-      }
-      .${cssPrefix}-waitlist .visa-card-pan {
-        font-family: var(--font-family-mono, monospace);
-        font-size: 0.82rem;
-        letter-spacing: 0.20em;
-        color: rgba(226, 236, 230, 1);
-        font-weight: 600;
-        margin-bottom: 2px;
-        text-shadow: 0 1px 0 rgba(0, 0, 0, 0.85);
-      }
-      .${cssPrefix}-waitlist .visa-card-funded-label {
-        font-family: var(--font-family-mono, monospace);
-        font-size: 0.84rem;
-        font-weight: 700;
-        color: rgba(232, 242, 236, 1);
-        letter-spacing: 0.04em;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        text-shadow: 0 1px 0 rgba(0, 0, 0, 0.85);
-      }
-      .${cssPrefix}-waitlist .visa-card-bottom-row {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-end;
-        padding-top: 6px;
-        border-top: 1px solid rgba(255, 255, 255, 0.12);
-        position: relative;
-        z-index: 2;
-      }
-      .${cssPrefix}-waitlist .visa-card-meta-left {
-        display: flex;
-        flex-direction: column;
-        gap: 1px;
-      }
-      .${cssPrefix}-waitlist .visa-card-expiry {
-        font-family: var(--font-family-mono, monospace);
-        font-size: 0.58rem;
-        color: rgba(255, 255, 255, 0.72);
-        letter-spacing: 0.06em;
-      }
-      .${cssPrefix}-waitlist .visa-card-network-info {
-        font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
-        font-size: 0.62rem;
-        color: rgba(255, 255, 255, 0.92);
-        letter-spacing: 0.03em;
-        font-weight: 600;
-      }
-      .${cssPrefix}-waitlist .visa-card-meta-right {
-        display: flex;
-        align-items: center;
-        gap: 6px;
-      }
-      .${cssPrefix}-waitlist .visa-card-hologram {
-        width: 22px;
-        height: 22px;
-        background: conic-gradient(from 180deg at 50% 50%, rgba(78, 154, 112, 1), rgba(147, 214, 178, 1), rgba(212, 175, 55, 1), rgba(124, 201, 160, 1), rgba(78, 154, 112, 1));
-        opacity: 0.82;
-        border: 1px solid rgba(255, 255, 255, 0.32);
-        border-radius: 0 !important;
-      }
-      .${cssPrefix}-waitlist .visa-card-cap-badge {
-        display: inline-flex;
-        align-items: center;
-        gap: 4px;
-        font-family: var(--font-family-mono, monospace);
-        font-size: 0.60rem;
-        font-weight: 700;
-        background: rgba(0, 0, 0, 0.7);
-        border: 1px solid rgba(255, 255, 255, 0.28);
-        padding: 3px 6px;
-        color: rgba(52, 211, 153, 1);
-        white-space: nowrap;
-        border-radius: 0 !important;
-      }
-`;
-}
-
 /**
  * Group ranked tokens into A–Z buckets for the /tokens hub's second tier
  * (045): the hub can't link all N tokens directly (2026 guidance caps
@@ -1000,7 +688,7 @@ function renderHubStyleBlock(lang) {
       .hub-cta:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
       .hub-wrap .note { color: var(--ui-text-secondary); font-size: .9rem; }
       @media (prefers-reduced-motion: reduce) { .hub-links a, .hub-cta { transition: none; } .hub-links a:active, .hub-cta:active { transform: none; } }
-${renderLangSwitchStyle()}${hasLasoCard(lang || 'en') ? renderWaitlistCtaStyle('hub') : ''}    </style>`;
+${renderLangSwitchStyle()}    </style>`;
 }
 
 /** Render the /tokens hub (index) page: top tokens by TVL directly, every
@@ -1061,7 +749,7 @@ ${renderLanguageSwitcher(neutralPath, language, LANG_CODES, t)}    <h1>${escapeH
         ${azLinks}
       </div>
     </div>
-${hasLasoCard(language) ? renderWaitlistCtaHtml(t('tcpWaitlistPitchHub'), 'hub', 'seo_tokens_hub', t) : ''}    <p class="note">${escapeHtml(t('tcpTrustNote', formatUsd(MIN_POOL_TVL)))}</p>
+    <p class="note">${escapeHtml(t('tcpTrustNote', formatUsd(MIN_POOL_TVL)))}</p>
   </main>
 </body>
 </html>
@@ -1114,7 +802,7 @@ ${renderLanguageSwitcher(neutralPath, language, pageLangs, t)}    <h1>${escapeHt
         ${links}
       </div>
     </div>
-${hasLasoCard(language) ? renderWaitlistCtaHtml(t('tcpWaitlistPitchHub'), 'hub', 'seo_tokens_az', t) : ''}    <p class="note">${escapeHtml(t('tcpTrustNote', formatUsd(MIN_POOL_TVL)))}</p>
+    <p class="note">${escapeHtml(t('tcpTrustNote', formatUsd(MIN_POOL_TVL)))}</p>
   </main>
 </body>
 </html>
@@ -1185,20 +873,73 @@ function renderItemListJsonLd(pools, appUrl, lang) {
   }).replace(/</g, '\\u003c');
 }
 
+/** ISO 8601 calendar date (YYYY-MM-DD) for a generation date. Accepts the
+ * en-US long form todayGeneratedDate() produces ("October 22, 2026"), an
+ * already-ISO date or timestamp (first 10 chars kept), or a Date. schema.org
+ * dates must be ISO 8601 while the VISIBLE "Last updated" line stays
+ * human-readable — both derive from the same genDate, so they cannot drift.
+ * Returns null when the input is not a recognisable date (field is omitted). */
+function toIsoDate(d) {
+  if (d instanceof Date) return Number.isNaN(d.getTime()) ? null : d.toISOString().slice(0, 10);
+  const s = String(d == null ? '' : d).trim();
+  if (/^\d{4}-\d{2}-\d{2}(?:$|T)/.test(s)) return s.slice(0, 10);
+  const m = /^([A-Za-z]+)\s+(\d{1,2}),\s*(\d{4})$/.exec(s);
+  if (!m) return null;
+  const mi = ['january','february','march','april','may','june','july','august','september','october','november','december']
+    .indexOf(m[1].toLowerCase());
+  if (mi < 0) return null;
+  return new Date(Date.UTC(Number(m[3]), mi, Number(m[2]))).toISOString().slice(0, 10);
+}
+
 /** Dataset JSON-LD (046) describing the page's live yield dataset. Shared by
- * token and chain pages — callers supply the content-specific name/description. */
-function renderDatasetJsonLd(name, description, pageUrl, generatedDate) {
-  return JSON.stringify({
+ * token, chain and pool-score pages — callers supply the content-specific
+ * name/description. `generatedDate` may be the human en-US string or ISO; the
+ * emitted dateModified/temporalCoverage are always ISO 8601.
+ * `opts` (all optional, each only when TRUE for the page):
+ *   variableMeasured  [{name, unitText?}] — measures the page really shows
+ *   keywords          [string]
+ *   temporalCoverage  ISO date or 'start/end' interval (default: the snapshot date)
+ *   distribution      [{encodingFormat, contentUrl}] — only machine-readable
+ *                     twins the generator actually writes */
+function renderDatasetJsonLd(name, description, pageUrl, generatedDate, opts) {
+  const o = opts || {};
+  const iso = toIsoDate(generatedDate);
+  const obj = {
     '@context': 'https://schema.org',
     '@type': 'Dataset',
     name,
     description,
     url: pageUrl,
     license: 'https://creativecommons.org/publicdomain/zero/1.0/',
+    isAccessibleForFree: true,
     creator: { '@type': 'Organization', name: 'DeFi Garden', url: SITE_URL },
-    publisher: { '@type': 'Organization', name: 'DeFi Garden', url: SITE_URL },
-    dateModified: generatedDate
-  }).replace(/</g, '\\u003c');
+    publisher: { '@type': 'Organization', name: 'DeFi Garden', url: SITE_URL }
+  };
+  if (o.keywords && o.keywords.length) obj.keywords = o.keywords;
+  if (o.variableMeasured && o.variableMeasured.length) {
+    obj.variableMeasured = o.variableMeasured.map(v => Object.assign({ '@type': 'PropertyValue' }, v));
+  }
+  if (iso) obj.dateModified = iso;
+  const tc = o.temporalCoverage || iso;
+  if (tc) obj.temporalCoverage = tc;
+  if (o.distribution && o.distribution.length) {
+    obj.distribution = o.distribution.map(d => ({ '@type': 'DataDownload', encodingFormat: d.encodingFormat, contentUrl: d.contentUrl }));
+  }
+  return JSON.stringify(obj).replace(/</g, '\\u003c');
+}
+
+/** The measures a token/chain page's pool table really displays (APY, TVL). */
+const TABLE_VARIABLES_MEASURED = Object.freeze([
+  Object.freeze({ name: 'APY', unitText: 'percent' }),
+  Object.freeze({ name: 'TVL', unitText: 'USD' })
+]);
+
+/** Markdown-twin distribution entry for a page URL, or [] when the page's
+ * language has no .md twin (only 'all'-scope languages get one — see the
+ * twin-writing loops in this file and generate-chain-pages.js). */
+function markdownDistributionFor(pageUrl, lang) {
+  if (getLanguage(lang).scope !== 'all') return [];
+  return [{ encodingFormat: 'text/markdown', contentUrl: `${pageUrl}.md` }];
 }
 
 /** headlinePoolFor(pools) — item 242. The single pool whose rate AND
@@ -1748,13 +1489,14 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
   const language = normalizeLang(lang);
   // 'head'-scope languages (pt/es) only ever get indexable pages — a thin,
   // noindexed token page must never be generated in them (languages.js).
-  if (isHeadScope(language) && !isIndexableToken(rec)) {
+  if (isHeadScope(language) && !meetsPoolThreshold(rec)) {
     throw new Error(`renderTokenPage: refusing to render noindexed thin token page ${rec.slug} in '${language}' (head-scope language)`);
   }
   const t = createTranslationFunction(language);
   const sym = escapeHtml(rec.symbol);
   const neutralPath = `/tokens/${rec.slug}`;
   const pageLangs = tokenLangCodes(rec);
+  const hreflangLangs = tokenHreflangCodes(rec, opts && opts.allowlist);
   const pageUrl = langUrl(SITE_URL, language, neutralPath);
   const appUrl = `${SITE_URL}/?token=${encodeURIComponent(rec.symbol)}&minTvl=${MIN_POOL_TVL}`;
   const genDate = generatedDate || todayGeneratedDate();
@@ -1811,7 +1553,12 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
     t('tcpDatasetTokenName', rec.symbol),
     t('tcpDatasetTokenDescription', rec.symbol, floorStr),
     pageUrl,
-    genDate
+    genDate,
+    {
+      variableMeasured: TABLE_VARIABLES_MEASURED,
+      keywords: [rec.symbol, 'DeFi yield', 'APY', 'TVL'],
+      distribution: markdownDistributionFor(pageUrl, language)
+    }
   );
 
   // Direct-answer + FAQ (047, GEO/AEO): built from the SAME gated `rec` the
@@ -1852,14 +1599,8 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
   const categoryItems = categoryLinksFor(rec.pools, appUrl).map(c => ({ label: t('tcpPoolTypeLabel', c.category), href: withSrc(c.url, 'seo_token') }));
   const categoryBlock = renderLinkNavHtml(categoryItems, t('tcpPoolCategoriesAriaLabel'), t('tcpByCategoryHeading'), 'xlink-category', 'nofollow');
 
-  // Waitlist CTA (062): the only path from this page into the card funnel.
-  // pt/es: no Laso card block at all (CLAUDE.md — US cards are geo-blocked to US
-  // residents, non-US users only get the International card at $100 min / 3.8%).
-  const showLasoCard = hasLasoCard(language);
-  const waitlistBlock = showLasoCard ? renderWaitlistCtaHtml(t('tcpWaitlistPitchToken', rec.symbol), 'tp', 'seo_token', t, { symbol: rec.symbol }) : '';
-
   // Yield headline (066): honest per-token "your idle X could earn Y" pitch,
-  // above the table, giving the waitlist CTA above a reason-to-act.
+  // above the table.
   const yieldHeadlineBlock = renderYieldHeadlineHtml(yieldHeadlineFor(rec, language), rec.symbol, t);
 
   // Rate-behaviour depth section (232): head-set pages ONLY (territory note
@@ -1892,9 +1633,11 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
   // D1 (seo-turnaround-plan): noindex thin token pages (<NOINDEX_POOL_THRESHOLD
   // qualifying pools) to shrink the indexed set during spam-update exposure.
   // Pages stay live for users; `follow` preserved so link equity still flows.
-  const robotsDirective = rec.qualifyingCount < NOINDEX_POOL_THRESHOLD
-    ? 'noindex,follow'
-    : 'index,follow';
+  // Exemption: proven-demand thin pages (Search Console) per config/seo-index-allowlist.json,
+  // decided by isIndexableToken for THIS language (see NOINDEX / INDEX_ALLOWLIST above).
+  const robotsDirective = isIndexableToken(rec, language, opts && opts.allowlist)
+    ? 'index,follow'
+    : 'noindex,follow';
 
   return `<!DOCTYPE html>
 <html lang="${getLanguage(language).htmlLang}">
@@ -1904,7 +1647,7 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
     <title>${escapeHtml(title)}</title>
     <meta name="description" content="${escapeHtml(description)}">
     <link rel="canonical" href="${pageUrl}">
-${renderHreflangLinks(neutralPath, pageLangs)}    <script type="application/ld+json">${breadcrumbJsonLd}</script>
+${renderHreflangLinks(neutralPath, hreflangLangs)}    <script type="application/ld+json">${breadcrumbJsonLd}</script>
     <script type="application/ld+json">${itemListJsonLd}</script>
     <script type="application/ld+json">${datasetJsonLd}</script>
     <meta property="og:type" content="website">
@@ -1968,7 +1711,7 @@ ${renderFontPreloadLinks()}    <link rel="stylesheet" href="/style.css">
 ${renderTokenHowStyle(isHeadToken)}
 ${renderRateBehaviourStyle(isHead)}      .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } .tp-cta:active, .related-links a:active { transform: none; } }
-${renderLangSwitchStyle()}${showLasoCard ? renderWaitlistCtaStyle('tp') : ''}    </style>
+${renderLangSwitchStyle()}    </style>
 ${renderAnalyticsBootstrap(`${langPath(language, '')}/tokens/${rec.slug}`, { page_type: 'token_landing', token: rec.symbol, pool_count: rec.qualifyingCount, lang: language })}
 </head>
 <body>
@@ -1991,7 +1734,7 @@ ${rows}
     </div>
     </div>
 ${howBlock}
-${stabilityBlock}${depthBlock}${faqBlock}${relatedBlock}${chainLinksBlock}${categoryBlock}${waitlistBlock}    <p class="note">${escapeHtml(t('tcpTrustNote', formatUsd(MIN_POOL_TVL)))}</p>
+${stabilityBlock}${depthBlock}${faqBlock}${relatedBlock}${chainLinksBlock}${categoryBlock}    <p class="note">${escapeHtml(t('tcpTrustNote', formatUsd(MIN_POOL_TVL)))}</p>
 ${renderLastUpdatedHtml(genDate, language)}    <p class="note"><a href="${SITE_URL}/">DeFi Garden 🌱</a> — ${escapeHtml(t('tcpFooterTagline'))}</p>
   </main>
 </body>
@@ -2097,12 +1840,13 @@ function renderTokenSitemap(ranked, lastmod, extraLocs, lang, opts) {
     const neutral = neutralPathOfLoc(loc, language);
     return `  <url>\n    <loc>${loc}</loc>\n${altTag(neutral, alternates ? alternates(neutral) : [])}${lastmodTag}    <changefreq>daily</changefreq>\n  </url>`;
   });
-  // A head-scope language (pt/es) never lists a thin, noindexed page.
-  const urls = (ranked || []).filter(rec => !isHeadScope(language) || isIndexableToken(rec)).map(rec => {
+  // Only indexable pages are listed (same decision as the page's robots meta);
+  // a head-scope language (pt/es) therefore never lists a thin page either.
+  const urls = (ranked || []).filter(rec => isIndexableToken(rec, language, opts && opts.allowlist)).map(rec => {
     const isHead = HEAD_TOKENS.has(rec.symbol.toUpperCase());
     const priority = isHead ? '0.8' : '0.3';
     const changefreq = isHead ? 'daily' : 'weekly';
-    return `  <url>\n    <loc>${SITE_URL}/${base}/${rec.slug}</loc>\n${altTag(`/tokens/${rec.slug}`, tokenLangCodes(rec))}${lastmodTag}    <changefreq>${changefreq}</changefreq>\n    <priority>${priority}</priority>\n  </url>`;
+    return `  <url>\n    <loc>${SITE_URL}/${base}/${rec.slug}</loc>\n${altTag(`/tokens/${rec.slug}`, tokenHreflangCodes(rec, opts && opts.allowlist))}${lastmodTag}    <changefreq>${changefreq}</changefreq>\n    <priority>${priority}</priority>\n  </url>`;
   });
   return `<?xml version="1.0" encoding="UTF-8"?>\n` +
     `${alternates ? SITEMAP_URLSET_OPEN_XHTML : SITEMAP_URLSET_OPEN}\n${extra.concat(urls).join('\n')}\n</urlset>\n`;
@@ -2236,14 +1980,18 @@ async function main() {
 
   // D1 (seo-turnaround): write noindex manifest so generate-llms.js can
   // exclude thin token pages from llms-full.txt.
+  // Per-language manifest (the allowlist differs per language): EN at
+  // tokens/.noindex-slugs.json, each other 'all'-scope language alongside its
+  // pages (ko/tokens/.noindex-slugs.json). Written from isIndexableToken, the
+  // same decision as the robots meta. Consumers: generate-llms.js, indexnow-ping.js.
   const noindexSlugs = ranked
-    .filter(r => !isIndexableToken(r))
+    .filter(r => !isIndexableToken(r, 'en'))
     .map(r => r.slug);
   fs.writeFileSync(
     path.join(outDir, '.noindex-slugs.json'),
     JSON.stringify(noindexSlugs, null, 0) + '\n'
   );
-  console.log(`🚫 ${noindexSlugs.length} token pages noindexed (<${NOINDEX_POOL_THRESHOLD} qualifying pools)`);
+  console.log(`🚫 ${noindexSlugs.length} en token pages noindexed (<${NOINDEX_POOL_THRESHOLD} qualifying pools, minus ${INDEX_ALLOWLIST.en.size} allowlisted)`);
 
   // Per-language page sets. 'all'-scope languages (en, ko) get every ranked
   // token; 'head'-scope languages (pt, es) get ONLY the indexable ones — never
@@ -2253,7 +2001,7 @@ async function main() {
   const azGroups = groupTokensAZ(ranked);
   const pageSets = {};
   LANGUAGES.forEach(l => {
-    const langRanked = isHeadScope(l.code) ? ranked.filter(isIndexableToken) : ranked;
+    const langRanked = isHeadScope(l.code) ? ranked.filter(meetsPoolThreshold) : ranked;
     pageSets[l.code] = { ranked: langRanked, az: l.code === 'en' ? azGroups : groupTokensAZ(langRanked) };
   });
   // Languages in which the A–Z page for `slug` exists (EN has every letter).
@@ -2296,6 +2044,11 @@ async function main() {
         fs.writeFileSync(path.join(langOutDir, `${rec.slug}.md`), renderTokenPageMarkdown(rec, relatedFor(rec, langRanked), genDate, chainLinks, l.code, opts));
       }
     });
+    if (!isHeadScope(l.code)) {
+      const langNoindex = ranked.filter(r => !isIndexableToken(r, l.code)).map(r => r.slug);
+      fs.writeFileSync(path.join(langOutDir, '.noindex-slugs.json'), JSON.stringify(langNoindex, null, 0) + '\n');
+      console.log(`🚫 ${langNoindex.length} ${l.code} token pages noindexed`);
+    }
     fs.writeFileSync(path.join(langOutDir, 'index.html'), renderTokenHubPage(langRanked, langAz, l.code));
     const langAzDir = path.join(langOutDir, 'az');
     if (!fs.existsSync(langAzDir)) fs.mkdirSync(langAzDir, { recursive: true });
@@ -2314,7 +2067,6 @@ async function main() {
     // source of truth for this gate). Hub + A–Z URLs stay in the sitemap in
     // full. `headTokens` is the SAME Set computed above (232 / territory note
     // 3) — never a second call.
-    const headRanked = ranked.filter(rec => headTokens.has(rec.symbol.toUpperCase()));
     // One sitemap per language (en: args.sitemap; others: <name>-<code>.xml).
     // Each <url> carries the same reciprocal alternates as its page's hreflang.
     const alternates = (neutralPath) => {
@@ -2324,9 +2076,12 @@ async function main() {
     LANGUAGES.forEach(l => {
       const hubUrls = [langUrl(SITE_URL, l.code, '/tokens')].concat(pageSets[l.code].az.map(g => langUrl(SITE_URL, l.code, `/tokens/az/${g.slug}`)));
       const sitemapPath = l.code === 'en' ? args.sitemap : args.sitemap.replace(/\.xml$/, `-${l.code}.xml`);
-      const urlRanked = isHeadScope(l.code) ? headRanked.filter(isIndexableToken) : headRanked;
+      // head curation (226) OR allowlisted proven pages; renderTokenSitemap then
+      // drops anything noindexed, so sitemap and robots meta can't disagree.
+      const urlRanked = ranked.filter(rec => (headTokens.has(rec.symbol.toUpperCase()) || isAllowlistedToken(rec, l.code))
+        && isIndexableToken(rec, l.code));
       fs.writeFileSync(path.resolve(sitemapPath), renderTokenSitemap(urlRanked, lastmod, hubUrls, l.code, { alternates }));
-      console.log(`🗺️  Wrote ${sitemapPath} (${urlRanked.length} head URLs of ${pageSets[l.code].ranked.length} generated pages, + ${hubUrls.length} hub/A–Z URLs)`);
+      console.log(`🗺️  Wrote ${sitemapPath} (${urlRanked.length} head/allowlisted URLs of ${pageSets[l.code].ranked.length} generated pages, + ${hubUrls.length} hub/A–Z URLs)`);
     });
   }
 }
@@ -2343,13 +2098,13 @@ module.exports = {
   groupTokensAZ, renderTokenHubPage, renderTokenAzPage, renderHubStyleBlock, HUB_TOP_N,
   HEAD_TOKENS, renderTokenHowHtml, renderTokenHowMarkdown, renderTokenHowStyle, tokenPageTitle,
   poolHrefFor, poolRelAttr, withSrc, renderItemListJsonLd, renderDatasetJsonLd,
+  toIsoDate, TABLE_VARIABLES_MEASURED, markdownDistributionFor,
   buildAnswerAndFaq, renderAnswerBlockHtml, renderFaqBlockHtml, renderFaqJsonLd,
   todayGeneratedDate, renderLastUpdatedHtml, loadFixturePools,
   chainLinksFor, categoryLinksFor, renderLinkNavHtml,
-  renderWaitlistCtaHtml, renderWaitlistCtaStyle,
   renderHreflangLinks, renderFontPreloadLinks, SUPPORTED_LANGS,
   renderLanguageSwitcher, renderLangSwitchStyle, renderSitemapAlternates, neutralPathOfLoc,
-  SITEMAP_URLSET_OPEN, SITEMAP_URLSET_OPEN_XHTML, isIndexableToken, tokenLangCodes,
+  SITEMAP_URLSET_OPEN, SITEMAP_URLSET_OPEN_XHTML, isIndexableToken, meetsPoolThreshold, isAllowlistedToken, loadIndexAllowlist, tokenHreflangCodes, INDEX_ALLOWLIST_PATH, tokenLangCodes,
   yieldHeadlineFor, renderYieldHeadlineHtml, yieldHeadlineAnchor, ladderLabelText, YIELD_HEADLINE_ANCHOR_ID,
   rateBehaviourFor, renderRateBehaviourHtml, renderRateBehaviourMarkdown, renderRateBehaviourStyle, mean30dSane,
   RATE_STABILITY_MIN_OBSERVATIONS, rateStabilityFor, renderRateStabilityHtml, renderRateStabilityMarkdown, rateStabilityFaqItem,

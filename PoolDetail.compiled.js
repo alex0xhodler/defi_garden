@@ -53,8 +53,11 @@ function createPoolDetailT(lang, fallbackT) {
 // the international card carries a $100 minimum load + 3.8% deposit fee, so the
 // pitch would mislead pt/es (Brazil/LatAm) readers. Mirrors lasoCard=false in
 // the static-page language config.
+// 2026-10-26 owner decision: the card is not advertised on the pool view at all
+// (THE STANDARD; /for/* stays live at its direct URLs). Flip to true to restore.
+var CARD_FLOW_ENABLED = false;
 function isCardFlowLanguage(lang) {
-  return lang === 'en' || lang === 'ko';
+  return CARD_FLOW_ENABLED && (lang === 'en' || lang === 'ko');
 }
 
 // pool type (getPoolTypeShared output, also used in logic) -> display key
@@ -1959,10 +1962,10 @@ function PoolDetail({
   // becomes both the ctaPlacement analytics prop and this function's arg.
   // Returns an array of the two child elements (button + hint) so a call
   // site can splice them in with `...renderProtocolCtaBlock('hero')`.
-  function renderProtocolCtaBlock(placement) {
+  function renderProtocolCtaBlock(placement, asPrimary) {
     if (protocolUrlWithRef) {
       return [React.createElement('button', {
-        className: 'cta-button-protocol',
+        className: asPrimary ? 'cta-button-primary cta-button-protocol' : 'cta-button-protocol',
         onClick: () => {
           if (typeof Analytics !== 'undefined') {
             Analytics.trackPoolClick(pool, 'protocol_link', {
@@ -1985,7 +1988,7 @@ function PoolDetail({
     // CSS (Territory note T5 — both classes already exist for exactly this).
     var defillamaUrl = 'https://defillama.com/yields/pool/' + encodeURIComponent(pool.pool);
     return [React.createElement('button', {
-      className: 'cta-button-protocol',
+      className: asPrimary ? 'cta-button-primary cta-button-protocol' : 'cta-button-protocol',
       onClick: () => {
         if (typeof Analytics !== 'undefined') {
           Analytics.trackPoolClick(pool, 'defillama_fallback', {
@@ -2173,7 +2176,7 @@ function PoolDetail({
 
   // 247 world: layout is owned by pool-detail-styles.css (the certificate
   // document column) — no inline layout styles on the container.
-  var scoreTooltip = pool && pool.defiScore && typeof pool.defiScore.score === 'number' ? t ? t('defiScoreTooltip', pool.defiScore.score, pool.defiScore.rating) : `DeFi Health Score: ${pool.defiScore.score}/100 (${pool.defiScore.rating})\n\nInstitutional rating based on 4 pillars:\n• Yield Stability (35%): AI forward volatility via Quant AI\n• Sustainability (25%): Organic fees vs reward emissions\n• Capital Stickiness (25%): Depositor retention & whale concentration\n• Exit Liquidity (15%): Total depth & withdrawal capacity` : '';
+  var scoreTooltip = pool && pool.defiScore && typeof pool.defiScore.score === 'number' ? t ? t('defiScoreTooltip', pool.defiScore.score, pool.defiScore.rating) : `DeFi Health Score: ${pool.defiScore.score}/100 (${pool.defiScore.rating})\n\nYield quality across four pillars: yield stability, sustainability, capital stickiness and exit liquidity. DeFi Garden's own model output, not a credit rating.` : '';
 
   // Protocol Archetype Classification & Quantitative Underwriting
   var poolTvl = Number(pool.tvlUsd) || 100000;
@@ -2184,7 +2187,7 @@ function PoolDetail({
   var isClmm = !isPendle && !isLending && (poolTypeLower.includes('lp') || poolTypeLower.includes('dex') || ['uniswap', 'aerodrome', 'curve', 'balancer', 'pancakeswap', 'sushiswap', 'camelot', 'trader-joe'].some(p => projectLower.includes(p)));
   var archetypeTag = 'Lending';
   var engineSubtitle = tl('poolDetail.dt.lendingSubtitle');
-  var enginePill = 'Quant AI + Closed-Form Jump IRM';
+  var enginePill = 'DeFi Garden model';
 
   // Hero strip items
   var heroMetric1Label = tl('poolDetail.dt.cashHeadroom');
@@ -2217,7 +2220,7 @@ function PoolDetail({
   if (isPendle) {
     archetypeTag = 'Pendle';
     engineSubtitle = tl('poolDetail.dt.pendleSubtitle');
-    enginePill = 'Quant AI + Pendle AMM Curve';
+    enginePill = 'DeFi Garden model';
     var impliedApy = (pool.apyBase || 0) > 0 ? pool.apyBase : 1.68;
     var forwardApy = pool.forecast && typeof pool.forecast.p50 === 'number' ? pool.forecast.p50 : impliedApy * 1.14;
     var spreadBps = Math.round((forwardApy - impliedApy) * 100);
@@ -2259,7 +2262,7 @@ function PoolDetail({
   } else if (isLending) {
     archetypeTag = 'LENDING JUMP-IRM';
     engineSubtitle = tl('poolDetail.dt.lendingSubtitle');
-    enginePill = 'Quant AI + Closed-Form Jump IRM';
+    enginePill = 'DeFi Garden model';
     var currentUtil = 0.78;
     var kinkUtil = 0.90;
     var wMaxAtomic = poolTvl * (1 - currentUtil);
@@ -2292,7 +2295,7 @@ function PoolDetail({
   } else if (isClmm) {
     archetypeTag = 'CLMM';
     engineSubtitle = tl('poolDetail.dt.clmmSubtitle');
-    enginePill = 'Quant AI + CLMM Tick Elasticity';
+    enginePill = 'DeFi Garden model';
     var pIn = poolTvl > 10000000 ? 92.4 : 78.5;
     var compressionCap = poolTvl * 0.30;
     heroMetric1Label = tl('poolDetail.dt.activeDepth');
@@ -2333,7 +2336,7 @@ function PoolDetail({
     // Staking / RWA
     archetypeTag = 'Staking / RWA';
     engineSubtitle = tl('poolDetail.dt.stakingSubtitle');
-    enginePill = 'Quant AI + Staking Epoch Model';
+    enginePill = 'DeFi Garden model';
     var secDepth = poolTvl * 0.35;
     heroMetric1Label = tl('poolDetail.dt.secondaryLiquidity');
     heroMetric1Value = formatCurrency(secDepth);
@@ -2578,7 +2581,7 @@ function PoolDetail({
   // viewport on every ?pool= page. Primary = Spend yield; secondary = the
   // protocol link (markup/events/payloads unchanged).
   React.createElement('div', {
-    className: 'pool-hero-actions'
+    className: showCardFlow ? 'pool-hero-actions' : 'pool-hero-actions pool-hero-actions--solo'
   },
   // pt/es: the primary CTA scrolls to the Laso yield-card widget, which is not
   // rendered for those languages (see isCardFlowLanguage).
@@ -2615,11 +2618,12 @@ function PoolDetail({
   }, t ? t('spendYieldCta') : 'Spend yield →'), React.createElement('p', {
     className: 'pool-action-hint'
   }, t ? t('spendYieldHint') : 'Fund subscriptions • Keep principal intact')),
-  // Secondary — protocol link, or an honest DefiLlama fallback when
-  // no protocol URL resolves at all (spec 182 leg B/D).
+  // Protocol link (or the honest DefiLlama fallback when no protocol URL
+  // resolves, spec 182 leg B/D). With the card flow off it is the ONE
+  // primary action of the buy box; otherwise it is the quiet secondary.
   React.createElement('div', {
-    className: 'pool-hero-action-secondary'
-  }, ...renderProtocolCtaBlock('hero'))))),
+    className: showCardFlow ? 'pool-hero-action-secondary' : 'pool-hero-action-primary'
+  }, ...renderProtocolCtaBlock('hero', !showCardFlow))))),
   // Engraved rule between hero and Institutional Decision Terminal
   React.createElement('div', {
     className: 'cert-divider',
@@ -3120,7 +3124,7 @@ function PoolDetail({
   }, t ? t('apyMean30d') : '30d Mean APY'), React.createElement('div', {
     className: 'pool-fact-value'
   }, _formatApy(pool.apyMean30d))),
-  // TimesFM 14d Forecast (if available)
+  // 14d Forecast (if available)
   pool.forecast && typeof pool.forecast.p50 === 'number' && React.createElement('div', {
     className: 'pool-fact-row'
   }, React.createElement('div', {

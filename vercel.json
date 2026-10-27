@@ -170,6 +170,16 @@
       "permanent": true
     },
     {
+      "source": "/protocols/index",
+      "destination": "/protocols",
+      "permanent": true
+    },
+    {
+      "source": "/ko/protocols/index",
+      "destination": "/ko/protocols",
+      "permanent": true
+    },
+    {
       "source": "/pools/index",
       "destination": "/pools",
       "permanent": true
@@ -520,6 +530,26 @@
       "permanent": true
     },
     {
+      "source": "/pools/concrete-ctwlficx-prime-ethereum",
+      "destination": "/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/concrete-ctwlficx-prime-ethereum",
+      "destination": "/ko/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pt/pools/concrete-ctwlficx-prime-ethereum",
+      "destination": "/pt/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/es/pools/concrete-ctwlficx-prime-ethereum",
+      "destination": "/es/chains/ethereum",
+      "permanent": true
+    },
+    {
       "source": "/pools/curve-dex-eth-steth-ethereum",
       "destination": "/chains/ethereum",
       "permanent": true
@@ -820,6 +850,26 @@
       "permanent": true
     },
     {
+      "source": "/pools/morpho-blue-sparkusdtbc-ethereum",
+      "destination": "/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/morpho-blue-sparkusdtbc-ethereum",
+      "destination": "/ko/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pt/pools/morpho-blue-sparkusdtbc-ethereum",
+      "destination": "/pt/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/es/pools/morpho-blue-sparkusdtbc-ethereum",
+      "destination": "/es/chains/ethereum",
+      "permanent": true
+    },
+    {
       "source": "/pools/morpho-blue-wbtc-ethereum",
       "destination": "/chains/ethereum",
       "permanent": true
@@ -897,6 +947,26 @@
     {
       "source": "/es/pools/plume-vaults-nopal-plume-mainnet",
       "destination": "/es/chains/plume-mainnet",
+      "permanent": true
+    },
+    {
+      "source": "/pools/renzo-ezeth-ethereum",
+      "destination": "/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/renzo-ezeth-ethereum",
+      "destination": "/ko/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pt/pools/renzo-ezeth-ethereum",
+      "destination": "/pt/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/es/pools/renzo-ezeth-ethereum",
+      "destination": "/es/chains/ethereum",
       "permanent": true
     },
     {

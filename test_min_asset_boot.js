@@ -219,12 +219,10 @@ async function main() {
         assertMinNotRaw(paths, 'planner.min.js', 'planner.js', '/?pool=<id>');
       });
 
-      await test('/?pool=<id> renders both north-star CTAs ("Garden this pool" + "Start Earning on <protocol>")', async () => {
-        const gardenCta = await page.locator('.cta-button-primary').first().innerText();
-        if (!/(?:Garden this pool|Spend yield)/i.test(gardenCta)) throw new Error(`expected "Garden this pool" or "Spend yield" CTA text, got: ${gardenCta}`);
-        const protocolCtaCount = await page.locator('.cta-button-protocol').count();
-        if (protocolCtaCount === 0) throw new Error('expected a .cta-button-protocol CTA to render');
-        const protocolCta = await page.locator('.cta-button-protocol').first().innerText();
+      await test('/?pool=<id> renders exactly one primary CTA, "Start Earning on <protocol>" (card flow off, 2026-10-26)', async () => {
+        const primaryCount = await page.locator('.cta-button-primary').count();
+        if (primaryCount !== 1) throw new Error(`expected exactly one .cta-button-primary, got ${primaryCount}`);
+        const protocolCta = await page.locator('.cta-button-primary.cta-button-protocol').first().innerText();
         if (!/Start Earning on/i.test(protocolCta)) throw new Error(`expected "Start Earning on <protocol>" CTA text, got: ${protocolCta}`);
       });
 

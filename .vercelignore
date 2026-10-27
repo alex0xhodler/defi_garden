@@ -34,6 +34,11 @@
 /indexnow-ping.js
 /languages.js
 /compute-kpis.js
+# Scoring / forecast engine and anything that documents its internals. The DeFi
+# Score is PROPRIETARY (owner decision 2026-10-25, "what, not how"): the engine
+# source must never be served. Root-anchored, so .well-known/**/*.py is untouched.
+/scoring/
+/*.py
 /dev-server.js
 /og-image.build.mjs
 /og-image.source.html
@@ -49,9 +54,25 @@
 /.mcp.json
 /settings.local.json
 
+# --- other internal source/ops directories (root only): CI scripts (incl. the
+# evaluation protocol code), python engines/keepers/adapters, python tests,
+# golden fixtures, runtime state dumps, design-critique scratch. None is
+# referenced by any served page (verified by the link-integrity gate).
+/scripts/
+/adapters/
+/keeper/
+/risk/
+/tests/
+/fixtures/
+/state/
+/conflict:/
+/.impeccable/
+
 # --- root-level internal docs (NOT the tokens/chains/pools/ko markdown
 # twins — those are nested, unaffected by these anchored root patterns) -----
 /CLAUDE.md
+/DESIGN.md
+/PRODUCT.md
 /README.md
 /SITEMAP.md
 /user_journey_diagrams.md

@@ -99,14 +99,25 @@ jobs:
         node compute-kpis.js
         echo "✅ KPI computation completed"
 
-    - name: Compute TimesFM forecasts + DeFi Score (estate-wide)
+    - name: Checkout scoring engine (private)
+      # The DeFi Score engine is proprietary and lives in a private repo. It is checked
+      # out into scoring/ (gitignored, in .vercelignore, never in the site tree).
+      uses: actions/checkout@v4
+      with:
+        repository: alex0xhodler/defi_garden-scoring
+        path: scoring
+        ssh-key: ${{ secrets.SCORING_DEPLOY_KEY }}
+        persist-credentials: false
+
+    - name: Compute forecasts + DeFi Score
       env:
         ALCHEMY_KEY: ${{ secrets.ALCHEMY_KEY }}
+        SCORING_WRITE_KEY: ${{ secrets.SCORING_WRITE_KEY }}
       run: |
-        echo "🧠 Running TimesFM 3.0 estate-wide forecasts + on-chain scoring..."
-        curl -LsSf https://astral.sh/uv/install.sh | sh
-        $HOME/.local/bin/uv run --with "timesfm[torch]" --with web3 python3 compute-forecasts.py --limit 0
-        echo "✅ TimesFM forecasts & DeFi scores completed"
+        echo "Scoring pools..."
+        curl -LsSf https://astral.sh/uv/install.sh | sh > /dev/null
+        bash scoring/run.sh --limit 0
+        echo "Scoring done"
 
     - name: Record point-in-time daily forecast ledger (P0-2)
       run: |
@@ -128,6 +139,38 @@ jobs:
       run: |
         node generate-stocks-snapshot.js
 
+    - name: Generate /stocks token-versions comparison (per-underlying side-by-side)
+      # After the stocks snapshot. Non-fatal. Writes data/stocks-versions.json and the
+      # slim live-view input data/stocks-versions-slim.json (generated outputs, published
+      # with the site, never committed). ALCHEMY_KEY enables supply / Ondo multiplier /
+      # +-2% depth reads; PYTH_API_KEY (optional secret) enables the last-close reference
+      # that premiums need. Without a key those fields are null with a reason code.
+      continue-on-error: true
+      env:
+        ALCHEMY_KEY: ${{ secrets.ALCHEMY_KEY }}
+        PYTH_API_KEY: ${{ secrets.PYTH_API_KEY }}
+      run: |
+        node generate-stocks-versions.js
+
+    - name: Generate /stocks/<ticker> comparison pages (>= 2 verified versions)
+      # After the versions step. Non-fatal: if it fails, the previously restored stocks/
+      # pages stay and the sitemap simply lists whatever the data file qualifies.
+      # Writes the stocks/ directory (a generated output in scripts/site-outputs.txt,
+      # never committed). stocks.html (/stocks) is untouched; there is never a stocks/index.html.
+      # The same run writes the Korean twins to ko/stocks/ (ko/ is a generated output too).
+      continue-on-error: true
+      run: |
+        node generate-stock-ticker-pages.js --out stocks --ko-out ko/stocks
+        echo "Ticker pages: $(ls stocks 2>/dev/null | wc -l) en, $(ls ko/stocks 2>/dev/null | wc -l) ko"
+
+    - name: Generate static Korean pages (ko/methodology.html)
+      # ko/ is a generated output (scripts/site-outputs.txt), never committed, so the Korean
+      # methodology page is built here from i18n/methodology-ko.js + methodology.html's styles.
+      # Must run before the sitemap/llms steps. Non-fatal: the restored page stays if it fails.
+      continue-on-error: true
+      run: |
+        node generate-ko-static.js --out ko
+
     - name: Generate scored pool pages (W1 — static /pools/<slug> pages, manifest + sitemaps)
       # Must run BEFORE token/chain pages: they read data/pool-pages.json to
       # repoint pool rows at /pools/<slug>. Needs snapshot + forecasts above.
@@ -135,6 +178,15 @@ jobs:
         echo "📊 Generating static scored /pools/ pages..."
         node generate-pool-score-pages.js --out pools --limit 100
         echo "Pages: $(ls pools/*.html | wc -l) · sitemap URLs: $(grep -c '<loc>' sitemap-pool-pages.xml)"
+
+    - name: Generate protocol pages (W4 — static /protocols/<slug> pages, gated, manifest + sitemaps)
+      # After scoring: reads data/pools-snapshot.json only (gate: >= 3 scored pools and
+      # >= $5M qualifying TVL per protocol, top 80). Must run BEFORE the sitemap and
+      # llms steps, which read sitemap-protocol-pages*.xml and data/protocol-pages.json.
+      run: |
+        echo "Generating static /protocols/ pages..."
+        node generate-protocol-pages.js --out protocols
+        echo "Pages: $(ls protocols/*.html | wc -l) · sitemap URLs: $(grep -c '<loc>' sitemap-protocol-pages.xml)"
 
     - name: Generate token landing pages
       run: |
@@ -225,6 +277,8 @@ jobs:
     - name: Assemble site tree
       # Site = every file tracked on main + the generated outputs. Built in a clean
       # directory so runner junk (node_modules, caches) can never be published.
+      # scoring/ (private engine checkout) is untracked + gitignored, and not listed in
+      # scripts/site-outputs.txt, so neither copy source below can ever include it.
       run: |
         OUT="$RUNNER_TEMP/out"; mkdir -p "$OUT"
         git ls-files -z -- . ':!.github' | rsync -a --from0 --ignore-missing-args --files-from=- ./ "$OUT/"

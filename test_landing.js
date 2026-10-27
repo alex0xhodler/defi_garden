@@ -29,7 +29,7 @@ const FIXTURE_POOLS = [
 ];
 
 const LANDING_POOLS = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'landing-pools.json'), 'utf8')).pools;
-const USDY_ID = 'ac61ee82-2fe4-4f9b-a9cd-7fb33f598859';
+const USDY_ID = '43641cf5-a92e-416b-bce9-27113d3c0db6'; // curated USDC (maple); the old USDY entry was dropped as permissioned
 const STETH_ID = '747c1d2a-c668-4682-b9f9-296708a3dd90';
 const CHART_FAILING_ID = 'd8c4eff5-c8a9-46fc-a888-057c4c668e72'; // SUSDS
 const CHART_FIXTURE = {
@@ -115,7 +115,7 @@ async function main() {
     await page.waitForSelector('#landing-root .landing-hero-underwriting', { timeout: 10000 });
     assert.strictEqual(await page.locator('#landing-root .landing-app').getAttribute('data-mode'), 'landing');
     assert.strictEqual(await page.locator('#planner-root .gp-app').count(), 0, 'bare / must not mount the planner above the landing');
-    assert.ok((await page.locator('#landing-uw-title').innerText()).includes('predictively underwritten'), 'hero headline');
+    assert.ok((await page.locator('#landing-uw-title').innerText()).includes('predictive analytics'), 'hero headline');
     assert.strictEqual(await page.locator('.landing-hero-spotlight, [data-testid="landing-virtual-card"], .landing-page-dots, .landing-page-dot').count(), 0, 'card panel and page dots are gone');
     assert.strictEqual(await page.locator('h1').count(), 1, 'exactly one h1 on the landing');
     const landingLeafMarks = page.locator('#landing-root .landing-leaf-mark');
@@ -138,8 +138,10 @@ async function main() {
 
     // Live numbers: USDY APY + TVL from the chart fixture, score from landing-pools.json.
     const usdy = LANDING_POOLS.find((p) => p.pool === USDY_ID);
-    await page.waitForFunction(() => /3\.71%/.test((document.querySelector('.landing-uw-yield-val') || {}).textContent || ''), null, { timeout: 10000 });
+    await page.waitForSelector('.landing-uw-pool-tab', { timeout: 10000 });
     const card = page.locator('.landing-uw-terminal-card');
+    await page.locator('.landing-uw-pool-tab', { hasText: 'USDC' }).click();
+    await page.waitForFunction(() => /3\.71%/.test((document.querySelector('.landing-uw-yield-val') || {}).textContent || ''), null, { timeout: 10000 });
     const cardText = await card.innerText();
     assert.ok(cardText.includes('$1.25B'), 'live TVL rendered: ' + cardText);
     assert.ok(cardText.includes(usdy.defiScore.score.toFixed(1)) && cardText.includes(usdy.defiScore.rating), 'baked score rendered');
@@ -159,44 +161,71 @@ async function main() {
     passed++;
     console.log('  ✓ anomalous pools are hidden and failed live fetches fall back to the labelled snapshot');
 
-    // Two full-screen snap sections on desktop; one click moves hero -> rates.
-    const snap = await page.evaluate(() => ({
-      type: getComputedStyle(document.documentElement).scrollSnapType,
-      hero: getComputedStyle(document.querySelector('.landing-underwriting-wrapper')).scrollSnapAlign,
-      seo: getComputedStyle(document.getElementById('seo-content')).scrollSnapAlign
+    // The landing is one plain scrolling page: no scroll snapping, bands in order.
+    const flow = await page.evaluate(() => ({
+      snap: getComputedStyle(document.documentElement).scrollSnapType,
+      order: ['underwriting-section', 'landing-method', 'landing-coverage', 'landing-agents', 'seo-content']
+        .map((id) => document.getElementById(id).getBoundingClientRect().top)
     }));
-    assert.ok(/y mandatory/.test(snap.type), 'desktop snaps vertically: ' + snap.type);
-    assert.strictEqual(snap.hero, 'start');
-    assert.strictEqual(snap.seo, 'start');
-    await page.evaluate(() => window.scrollTo(0, 0));
-    await page.locator('[data-testid="landing-next-section"]').click();
-    await page.waitForFunction(() => {
-      const top = document.getElementById('seo-content').getBoundingClientRect().top;
-      const header = document.querySelector('.landing-header').getBoundingClientRect().bottom;
-      return Math.abs(top - header) <= 24;
-    }, null, { timeout: 5000 });
+    assert.ok(/none/.test(flow.snap), 'no scroll snapping: ' + flow.snap);
+    assert.deepStrictEqual(flow.order.slice().sort((a, b) => a - b), flow.order, 'sections in order');
+    assert.strictEqual(await page.locator('[data-testid="landing-next-section"]').count(), 0, 'next-section button removed');
     passed++;
-    console.log('  ✓ desktop: hero and rates are snap sections; the next-section button moves to rates');
+    console.log('  ✓ landing sections flow in order: hero, method, coverage, agents, seo');
 
-    // Mobile: the whole underwriting card is in the first screen, right after the headline.
+    // Hero buy box: one primary (methodology) + one quiet secondary; search is the existing app route.
+    assert.strictEqual(await page.locator('[data-testid="landing-methodology-cta"]').getAttribute('href'), '/methodology');
+    assert.strictEqual(await page.locator('[data-testid="landing-underwriting-cta"]').getAttribute('href'), '/?app=1');
+    assert.strictEqual(await page.locator('.landing-uw-cta-row a').count(), 2, 'exactly two links in the buy box');
+    // Method strip: pillar and band NAMES only (the score is proprietary: no weights, no cutoffs).
+    const pillarText = (await page.locator('.landing-pillar').allInnerTexts()).join('|');
+    ['Yield stability', 'Sustainability', 'Capital stickiness', 'Exit liquidity'].forEach((n) => assert.ok(pillarText.includes(n), 'pillar name ' + n));
+    assert.ok(!/\bpts?\b|\b(35|25|15)\b/.test(pillarText), 'no pillar weights on the homepage: ' + pillarText);
+    assert.deepStrictEqual(await page.locator('.landing-band-seg').evaluateAll((els) => els.map((el) => el.dataset.band)), ['AAA', 'AA', 'A', 'BBB', 'HIGH RISK']);
+    const bandText = await page.locator('[data-testid="landing-bands"]').innerText();
+    assert.ok(!/[≥<]|\b(85|70|55|40)\b/.test(bandText), 'no band cutoffs on the homepage: ' + bandText);
+    const widths = await page.locator('.landing-band-seg').evaluateAll((els) => els.map((el) => Math.round(el.getBoundingClientRect().width)));
+    assert.ok(Math.max.apply(null, widths) - Math.min.apply(null, widths) <= 2, 'band chips are equal width: ' + widths);
+    // The track record lives only on /forecast-accuracy: no section, no numbers, no evaluation fetch from the homepage.
+    assert.strictEqual(await page.locator('[data-testid="landing-record"]').count(), 0, 'no track-record section on the homepage');
+    assert.strictEqual(await page.locator('[data-testid="landing-record-link"]').count(), 0);
+    assert.ok(!(await page.locator('#landing-root').innerText()).match(/test runs|skill score|band capture/i), 'no track-record metrics on the homepage');
+    // Coverage: counts from landing-pools.json (when present), categories without numbers.
+    const covData = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'landing-pools.json'), 'utf8')).coverage;
+    const covText = await page.locator('[data-testid="landing-coverage"]').innerText();
+    if (covData) assert.ok(covText.includes(new Intl.NumberFormat('en-US').format(covData.scoredPools)), 'coverage count from CI data');
+    assert.ok(!/\d\s*(pools|vaults)\b[^.]*\b(Lending|Staking|RWA)\b/.test(covText), 'no invented per-category counts');
+    assert.strictEqual(await page.locator('.landing-category-chip').count(), 5);
+    assert.strictEqual(await page.locator('[data-testid="landing-agents-link"]').getAttribute('href'), '/mcp');
+    passed++;
+    console.log('  ✓ method strip (names only), coverage and agents sections render; no track record');
+
+    // Search routes to the existing analytics-app URLs.
+    await page.fill('[data-testid="landing-search"]', 'USDC');
+    await Promise.all([page.waitForURL(/\?token=USDC/), page.press('[data-testid="landing-search"]', 'Enter')]);
+    passed++;
+    console.log('  ✓ hero search routes "USDC" to /?token=USDC');
+    await page.goto(`http://localhost:${PORT}/`, { waitUntil: 'load', timeout: 20000 });
+    await page.waitForSelector('#landing-root .landing-hero-underwriting', { timeout: 10000 });
+
+    // Mobile: headline -> search -> primary CTA -> example card; no horizontal overflow.
     for (const [w, h] of [[360, 780], [390, 844]]) {
       await page.setViewportSize({ width: w, height: h });
       await page.evaluate(() => window.scrollTo(0, 0));
       await page.waitForTimeout(200);
       const m = await page.evaluate(() => {
-        const card = document.querySelector('.landing-uw-terminal-card').getBoundingClientRect();
-        const title = document.getElementById('landing-uw-title').getBoundingClientRect();
-        const cta = document.querySelector('[data-testid="landing-underwriting-cta"]').getBoundingClientRect();
-        return { cardTop: card.top, cardBottom: card.bottom, titleBottom: title.bottom, ctaTop: cta.top, ih: innerHeight };
+        const r = (sel) => document.querySelector(sel).getBoundingClientRect();
+        return { titleBottom: r('#landing-uw-title').bottom, searchTop: r('[data-testid="landing-search"]').top, ctaTop: r('[data-testid="landing-methodology-cta"]').top, ctaBottom: r('[data-testid="landing-methodology-cta"]').bottom, cardTop: r('.landing-uw-terminal-card').top, ih: innerHeight, sw: document.documentElement.scrollWidth };
       });
-      assert.ok(m.cardBottom <= m.ih, w + 'x' + h + ': card fully in first viewport (bottom ' + Math.round(m.cardBottom) + ' > ' + m.ih + ')');
-      assert.ok(m.cardTop >= m.titleBottom && m.ctaTop >= m.cardBottom, w + 'px: order is headline -> card -> CTA');
+      assert.ok(m.searchTop >= m.titleBottom && m.ctaTop >= m.searchTop && m.cardTop >= m.ctaTop, w + 'px: order is headline -> search -> CTA -> card');
+      assert.ok(m.ctaBottom <= m.ih, w + 'x' + h + ': primary CTA inside the first viewport');
+      assert.ok(m.sw <= w, w + 'px: no horizontal overflow (' + m.sw + ')');
     }
     const status = await page.locator('.landing-uw-status').innerText();
     assert.ok(/Scored .+ · live DefiLlama rates/.test(status), 'data-backed status line: ' + status);
     assert.strictEqual(await page.locator('.landing-uw-eyebrow').count(), 0, 'eyebrow chip replaced');
     passed++;
-    console.log('  ✓ mobile: status line, headline, then the full card inside the first viewport');
+    console.log('  ✓ mobile: status, headline, search, primary CTA in the first viewport, no overflow');
 
     await page.setViewportSize({ width: 360, height: 780 });
     await page.waitForTimeout(150);
@@ -259,9 +288,15 @@ async function main() {
     await page.waitForSelector('.landing-nav', { timeout: 10000 });
     const navText = await page.locator('.landing-nav').innerText();
     assert.ok(!navText.includes('How it works'), 'Topnav must not contain "How it works"');
-    assert.ok(navText.includes('Search yields') && navText.includes('Savings Planner'), 'Topnav contains Search yields and Savings Planner');
-    assert.strictEqual(await page.locator('.landing-nav a[data-testid="landing-nav-card"]').getAttribute('href'), '/for/claude');
-    assert.strictEqual(await page.locator('.landing-mobile-nav a[data-testid="landing-nav-card"]').count(), 1, 'card link also in the mobile menu');
+    // 2026-10-24 "The Standard": the nav is exactly Search · Methodology · API; legacy features are not advertised. 2026-10-26: Stocks returned to the nav.
+    assert.deepStrictEqual(
+      await page.locator('.landing-nav a').evaluateAll((as) => as.map((a) => [a.textContent.trim(), a.getAttribute('href')])),
+      [['Search yields', '/?app=1'], ['Stocks', '/stocks'], ['Methodology', '/methodology'], ['API', '/mcp']],
+      'Topnav is exactly Search / Stocks / Methodology / API'
+    );
+    assert.strictEqual(await page.locator('.landing-mobile-nav a').count(), 4, 'mobile menu mirrors the 4 nav links');
+    assert.ok(!/Savings Planner|card/i.test(navText), 'Topnav must not advertise planner / card');
+    assert.strictEqual(await page.locator('.landing-nav a[href="/for/claude"], .landing-nav a[href*="plan.html"], .landing-mobile-nav a[data-testid="landing-nav-card"]').count(), 0, 'no legacy-feature links in nav');
     passed++;
     console.log('  ✓ landing topnav contains clean active links without "How it works"');
 
@@ -276,7 +311,7 @@ async function main() {
       const el = document.querySelector('.landing-uw-status');
       return el && el.textContent.includes('실시간');
     }, { timeout: 5000 });
-    assert.ok((await page.locator('.landing-uw-terminal-card').innerText()).includes('건전성'), 'Expected Korean card labels');
+    assert.ok((await page.locator('.landing-uw-terminal-card').innerText()).includes('점수 사례'), 'Expected Korean card labels');
     passed++;
     console.log('  ✓ language toggle switches landing page to Korean');
 

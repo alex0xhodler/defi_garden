@@ -4,7 +4,7 @@
  * Static scored pool pages (W1, docs/seo-turnaround-plan-2026-10.md).
  * Writes pools/<slug>.html (EN) and ko/pools/<slug>.html (KO) for the top
  * pools by TVL that clear a hard quality gate, e.g. /pools/aave-v3-usdc-base:
- * live APY, 30-day mean, base/reward split, the DeFi Score pillar breakdown,
+ * live APY, 30-day mean, base/reward split, the DeFi Score pillars,
  * the 14-day forecast band, a static inline-SVG APY history, what produces the
  * yield, who can access it, withdrawal notes, risks and ONE primary CTA into
  * the Decision Terminal (`/?pool=<uuid>`, which stays untouched).
@@ -45,23 +45,12 @@ const {
 } = require('./languages.js');
 const { PERMISSIONED_PROJECT_LIST } = require('./permissioned-projects.js');
 const { assignPoolSlugs, slugify, MANIFEST_REL_PATH } = require('./pool-page-links.js');
-
-// --- forecast-evaluation stats (drives pspForecastDisclaimer) ----------------
-let _feStats = { totalRuns: 0, noBetter: 0, evaluated: 0 };
-try {
-  const _feRaw = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'forecast-evaluations.json'), 'utf8'));
-  const _feS = _feRaw && _feRaw.summary;
-  if (_feS && Number.isFinite(Number(_feS.totalRuns)) && Number(_feS.totalRuns) > 0) {
-    const runs = Array.isArray(_feRaw.resolvedRuns) ? _feRaw.resolvedRuns : [];
-    const noBetter = runs.filter(r => r && r.overall && Number(r.overall.skillScore) <= 0).length;
-    _feStats = { totalRuns: Number(_feS.totalRuns), noBetter, evaluated: runs.length };
-  }
-} catch (_) { /* missing file → fallback sentence via totalRuns=0 */ }
+const { protocolSlugMap, protocolDisplayName } = require('./generate-protocol-pages-core.js');
 
 const {
   SITE_URL, isAnomalousApy, poolTotalApy, formatUsd, formatApy, escapeHtml,
   renderAnalyticsBootstrap, renderFontPreloadLinks, renderHreflangLinks,
-  renderDatasetJsonLd, withSrc, OG_FALLBACK_REL_PATH,
+  renderDatasetJsonLd, toIsoDate, withSrc, OG_FALLBACK_REL_PATH,
   renderLanguageSwitcher, renderLangSwitchStyle, renderSitemapAlternates, neutralPathOfLoc,
   SITEMAP_URLSET_OPEN, SITEMAP_URLSET_OPEN_XHTML
 } = tp;
@@ -92,15 +81,18 @@ const TVL_TREND_FLAG = 0.25;          // mirrors PoolDetail.js: |kpis.tvlTrend| 
 const VOLATILITY_RATIO_FLAG = 0.2;    // mirrors planner.js "steady" test: stdev/APY above this is volatile
 const MIN_POINTS_FOR_VOLATILITY = 7;  // mirrors planner.js (hp >= 7)
 const GENERATOR_MARKER = '<!-- generated:pool-score-pages -->';
+const PROTOCOL_PAGE_LANGS = ['en', 'ko'];  // languages /protocols/* exists in (generate-protocol-pages.js)
 
-/** DeFi Score pillar maxima — compute-forecasts.py: stability = min(35.0, ...),
- *  sustainability = 10.0*organic + up to 15.0 trajectory (= 25), stickiness =
- *  25.0 * (...), liquidity = 15.0 * (...). They sum to 100 (test-enforced). */
+/** DeFi Score pillar NAMES. Per-pillar values render as a TIER (High / Medium /
+ *  Low) from the scoring engine's `defiScore.pillarsTier`, never a number
+ *  (owner decision 2026-10-26); when absent only the names render. No weights
+ *  or maxima live in public code (owner decision 2026-10-25). */
+const PILLAR_TIER_LEVEL = { High: 3, Medium: 2, Low: 1 };
 const SCORE_PILLARS = [
-  { key: 'stability', max: 35, labelKey: 'pspPillarStability' },
-  { key: 'sustainability', max: 25, labelKey: 'pspPillarSustainability' },
-  { key: 'stickiness', max: 25, labelKey: 'pspPillarStickiness' },
-  { key: 'liquidity', max: 15, labelKey: 'pspPillarLiquidity' }
+  { key: 'stability', labelKey: 'pspPillarStability' },
+  { key: 'sustainability', labelKey: 'pspPillarSustainability' },
+  { key: 'stickiness', labelKey: 'pspPillarStickiness' },
+  { key: 'liquidity', labelKey: 'pspPillarLiquidity' }
 ];
 
 // --- small formatters (en-US pinned) ----------------------------------------
@@ -128,8 +120,7 @@ function isEligibleScoredPool(p) {
   if (!p || !p.pool || !isNum(p.tvlUsd) || p.tvlUsd < W1_MIN_TVL_USD) return false;
   if (!p.kpis || !(p.kpis.historyPoints >= W1_MIN_HISTORY_POINTS)) return false;
   const ds = p.defiScore;
-  if (!ds || !isNum(ds.score) || !ds.breakdown) return false;
-  if (!SCORE_PILLARS.every(pl => isNum(ds.breakdown[pl.key]))) return false;
+  if (!ds || !isNum(ds.score)) return false;
   const f = p.forecast;
   if (!f || !isNum(f.p10) || !isNum(f.p50) || !isNum(f.p90)) return false;
   if (isAnomalousApy(p)) return false; // trust rail
@@ -337,8 +328,11 @@ function renderStyle() {
       .psp-wrap .dt-panel ul.psp-pillars { padding: 0; }
       .psp-pillar-head { display: flex; justify-content: space-between; gap: 12px; font-size: .92rem; }
       .psp-pillar-head span:last-child { font-family: var(--font-family-mono, monospace); font-size: .85rem; font-variant-numeric: tabular-nums; color: var(--cert-ink-2); }
-      .psp-bar { height: 8px; margin-top: 6px; background: var(--cert-paper-deep); border: 1px solid var(--cert-rule); overflow: hidden; }
-      .psp-bar > span { display: block; height: 100%; background: var(--cert-green); }
+      .psp-tier { display: grid; grid-template-columns: repeat(3, 1fr); gap: 3px; margin-top: 6px; }
+      .psp-tier > span { display: block; height: 8px; background: var(--cert-paper-deep); border: 1px solid var(--cert-rule); }
+      .psp-tier-high > span.on { background: var(--cert-green); border-color: var(--cert-green); }
+      .psp-tier-medium > span.on { background: var(--cert-ink-2); border-color: var(--cert-ink-2); }
+      .psp-tier-low > span.on { background: var(--cert-amber); border-color: var(--cert-amber); }
       .psp-forecast { width: 100%; border-collapse: collapse; }
       .psp-forecast th, .psp-forecast td { text-align: left; padding: 10px 6px; border-bottom: 1px solid var(--cert-rule); color: var(--cert-ink); }
       .psp-forecast th { font-family: var(--font-family-mono, monospace); font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--cert-ink-2); font-weight: 700; }
@@ -438,8 +432,9 @@ function renderChromeScript(lc) {
 function renderSiteHeader(lc, language) {
   const links = [
     ['/?app=1', lc('navSearch')],
-    ['/plan.html', lc('navPlanner')],
-    ['/agents', lc('navAgents')]
+    ['/stocks', lc('navStocks')],
+    [language === 'ko' ? '/ko/methodology' : '/methodology', lc('navMethodology')],
+    ['/mcp', lc('navApi')]
   ];
   const a = (l) => `<a href="${l[0]}">${escapeHtml(l[1])}</a>`;
   return `    <header class="landing-header">
@@ -466,7 +461,7 @@ function renderSiteFooter(t, language) {
   return `    <footer class="app-footer">
       <p>${escapeHtml(t('poweredBy'))} <a href="https://api-docs.defillama.com/" target="_blank" rel="noopener noreferrer">${escapeHtml(t('defillamaApi'))}</a>. ${escapeHtml(t('footerSignOff'))}</p>
       <p class="app-footer-hub-links">
-        <a href="${base}/tokens">${escapeHtml(t('browseTokens'))}</a> · <a href="${base}/chains">${escapeHtml(t('browseChains'))}</a> · <a href="${base}/pools">${escapeHtml(t('pspHubLink'))}</a> · <a href="/agents">${escapeHtml(t('aiAgents'))}</a>
+        <a href="${base}/tokens">${escapeHtml(t('browseTokens'))}</a> · <a href="${base}/chains">${escapeHtml(t('browseChains'))}</a> · <a href="${base}/pools">${escapeHtml(t('pspHubLink'))}</a> · <a href="/stocks">${escapeHtml(t('stocksLink'))}</a> · <a href="${language === 'ko' ? '/ko/methodology' : '/methodology'}">${escapeHtml(t('methodologyLink'))}</a> · <a href="/mcp">${escapeHtml(t('apiLink'))}</a>
       </p>
     </footer>`;
 }
@@ -515,7 +510,28 @@ function renderPoolScorePage(pool, ctx, lang) {
   }).replace(/</g, '\\u003c');
   const breadcrumbHtml = crumbs.map((c, i) => i === crumbs.length - 1
     ? `<li aria-current="page">${esc(c.name)}</li>` : `<li><a href="${c.url}">${esc(c.name)}</a></li>`).join('');
-  const datasetJsonLd = renderDatasetJsonLd(t('pspDatasetName', name, sym, chain), t('pspDatasetDescription', name, sym, chain), pageUrl, genDate);
+  // Dataset JSON-LD: dateModified = the snapshot date (ISO, same instant the
+  // visible genDate is formatted from). variableMeasured lists only what the
+  // page shows (the 30-day mean row exists only when the pool has one).
+  // temporalCoverage = the observed-APY window the chart really plots (first
+  // to last history day-file), else the snapshot date. No distribution: the
+  // pools/<uuid>.md|.json twins exist only for deep-linked ids, not for every
+  // scored page, so none is claimed.
+  const snapIsoDate = toIsoDate(ctx.snapshotIso);
+  const hist = (ctx.series || []).map(pt => pt.date).filter(Boolean).sort();
+  const datasetJsonLd = renderDatasetJsonLd(t('pspDatasetName', name, sym, chain), t('pspDatasetDescription', name, sym, chain), pageUrl, snapIsoDate, {
+    keywords: [sym, name, chain, 'DeFi Score', 'APY forecast'],
+    variableMeasured: [
+      { name: 'APY', unitText: 'percent' },
+      ...(mean30 == null ? [] : [{ name: '30-day mean APY', unitText: 'percent' }]),
+      { name: 'Base APY', unitText: 'percent' },
+      { name: 'Reward APY', unitText: 'percent' },
+      { name: 'TVL', unitText: 'USD' },
+      { name: 'DeFi Score', unitText: 'points out of 100' },
+      { name: `${horizon}-day APY forecast`, unitText: 'percent' }
+    ],
+    temporalCoverage: hist.length >= 2 && hist[0] !== hist[hist.length - 1] ? `${hist[0]}/${hist[hist.length - 1]}` : snapIsoDate
+  });
 
   // summary
   const stat = (label, value) => `<div class="dt-metric"><dt class="dt-metric-name">${esc(label)}</dt><dd class="dt-metric-val">${esc(value)}</dd></div>`;
@@ -537,11 +553,15 @@ function renderPoolScorePage(pool, ctx, lang) {
 
   // score pillars
   const pillars = SCORE_PILLARS.map(pl => {
-    const v = ds.breakdown[pl.key];
-    const pct = Math.max(0, Math.min(100, (v / pl.max) * 100));
+    const tier = ds.pillarsTier && ds.pillarsTier[pl.key];
+    if (!Object.prototype.hasOwnProperty.call(PILLAR_TIER_LEVEL, tier)) return `<li>
+          <div class="psp-pillar-head"><span>${esc(t(pl.labelKey))}</span></div>
+        </li>`;
+    const level = PILLAR_TIER_LEVEL[tier];
+    const tierLabel = t('pspTier' + tier);
     return `<li>
-          <div class="psp-pillar-head"><span>${esc(t(pl.labelKey))}</span><span>${fmtScore(v)} / ${pl.max}</span></div>
-          <div class="psp-bar" role="meter" aria-label="${esc(t(pl.labelKey))}" aria-valuemin="0" aria-valuemax="${pl.max}" aria-valuenow="${v}"><span style="width:${f1(pct)}%"></span></div>
+          <div class="psp-pillar-head"><span>${esc(t(pl.labelKey))}</span><span>${esc(tierLabel)}</span></div>
+          <div class="psp-tier psp-tier-${tier.toLowerCase()}" data-tier="${tier.toLowerCase()}" aria-hidden="true"><span class="on"></span><span${level >= 2 ? ' class="on"' : ''}></span><span${level >= 3 ? ' class="on"' : ''}></span></div>
         </li>`;
   }).join('\n        ');
 
@@ -562,8 +582,7 @@ function renderPoolScorePage(pool, ctx, lang) {
   if (pool.poolMeta) srcLines.push(t('pspPoolMeta', pool.poolMeta));
 
   // withdrawal
-  const liq = SCORE_PILLARS.find(p => p.key === 'liquidity');
-  const wLines = [t('pspWithdrawLiquidity', formatUsd(pool.tvlUsd), fmtScore(ds.breakdown.liquidity), liq.max)];
+  const wLines = [t('pspWithdrawLiquidity', formatUsd(pool.tvlUsd))];
   if (isNum(f.predictedTvlUsd) && isNum(f.predictedTvlDelta)) wLines.push(t('pspWithdrawTvlForecast', formatUsd(f.predictedTvlUsd), fmtSignedPct(f.predictedTvlDelta)));
   wLines.push(t('pspWithdrawGeneric'));
 
@@ -575,6 +594,11 @@ function renderPoolScorePage(pool, ctx, lang) {
     return `<a class="dt-preset-btn" href="${poolsBase(language)}/${s}">${esc(t('pspSimilarItem', displayName(p.project), p.symbol || '—', p.chain || '—', formatUsd(p.tvlUsd)))}</a>`;
   }).join('\n        ');
 
+  // W4: quiet link to the protocol page, only when that page exists (the gate is
+  // a pure function of the snapshot, see generate-protocol-pages-core.js).
+  const protoSlug = PROTOCOL_PAGE_LANGS.includes(language) && ctx.protocolSlugs && ctx.protocolSlugs.get(pool.project);
+  const protocolLink = protoSlug
+    ? `<p class="psp-foot"><a href="${SITE_URL}${langPath(language, '/protocols')}/${protoSlug}">${esc(t('prpLinkFromPool', protocolDisplayName(pool.project)))}</a></p>\n` : '';
   const accuracy = ctx.hasAccuracyPage
     ? `<p class="psp-foot"><a href="${SITE_URL}/forecast-accuracy">${esc(t('pspAccuracyLink'))}</a></p>` : '';
   const chartId = 'psp-chart-title';
@@ -645,7 +669,7 @@ ${renderLanguageSwitcher(neutralPath, language, LANG_CODES, t)}    <nav class="p
       </table>
       <p>${esc(forecastRead)}</p>
       ${crashHtml}
-      <p class="psp-note">${esc(t('pspForecastDisclaimer', _feStats.totalRuns, _feStats.noBetter, _feStats.evaluated))}</p>
+      <p class="psp-note">${esc(t('pspForecastDisclaimer'))}</p>
     </section>
 
     <section class="dt-panel dt-panel-full">
@@ -691,7 +715,7 @@ ${renderLanguageSwitcher(neutralPath, language, LANG_CODES, t)}    <nav class="p
     </nav>
 
     <p class="psp-foot">${esc(t('pspNotAdvice'))}</p>
-${accuracy}  </main>
+${protocolLink}${accuracy}  </main>
 ${renderSiteFooter(t, language)}
   </div>
 ${renderChromeScript(lc)}
@@ -760,7 +784,7 @@ ${renderLanguageSwitcher(neutralPath, language, LANG_CODES, t)}    <nav class="p
     <h1>${esc(t('pspHubHeading'))}</h1>
     <p class="psp-note">${esc(t('pspHubSub', selected.length, formatUsd(W1_MIN_TVL_USD)))}</p>
     <p class="psp-note">${esc(t('pspHubIntro'))}</p>
-    <div class="decision-terminal-card">
+${PROTOCOL_PAGE_LANGS.includes(language) && ctx.protocolSlugs && ctx.protocolSlugs.size ? `    <p class="psp-foot"><a href="${SITE_URL}${langPath(language, '/protocols')}">${esc(t('prpHubLinkFromPools'))}</a></p>\n` : ''}    <div class="decision-terminal-card">
     <div class="dt-grid">
 ${sections}
     </div>
@@ -924,6 +948,7 @@ function main() {
   try { fs.readdirSync(path.join(ROOT, 'chains')).forEach(f => { if (f.endsWith('.html') && f !== 'index.html') chainSlugs.add(f.slice(0, -5)); }); } catch (e) { /* none */ }
   const ctxBase = {
     slugOf, selected, snapshotIso, protocolUrls, chainSlugs,
+    protocolSlugs: protocolSlugMap(pools),
     hasAccuracyPage: fs.existsSync(path.join(ROOT, 'forecast-accuracy.html'))
   };
 
@@ -968,7 +993,10 @@ module.exports = {
   isEligibleScoredPool, selectPoolPages, displayName, renderPoolScorePage, renderPoolsHubPage,
   renderPoolsSitemap, renderApyChartSvg, buildManifest, removeStaleOwnedPages, pageTitle,
   loadHistory, seriesFor, protocolUrlFor, riskItems, parseArgs, writeSet,
-  assignPoolSlugs, hasMeaningfulYield, computePoolRedirects, syncPoolRedirectsText
+  assignPoolSlugs, hasMeaningfulYield, computePoolRedirects, syncPoolRedirectsText,
+  // shared page chrome, reused by generate-protocol-pages.js
+  renderStyle, renderSiteHeader, renderSiteFooter, renderChromeScript, chromeCopy, THEME_BOOT_SCRIPT,
+  PILLAR_TIER_LEVEL, fmtNum
 };
 
 if (require.main === module) {

@@ -160,9 +160,11 @@ test('ko chains hub is self-canonical, no English leakage', () => {
 
 console.log('sitemap ko coverage (050)');
 test('renderTokenSitemap(lang="ko") emits /ko/tokens/<slug> URLs; default (en) unaffected', () => {
-  const koXml = tp.renderTokenSitemap(rankedTokens, '2026-07-12', [], 'ko');
+  // Only indexable pages are listed; the fixture tokens are thin, so allowlist them.
+  const allowlist = { en: new Set(rankedTokens.map(r => r.slug)), ko: new Set(rankedTokens.map(r => r.slug)) };
+  const koXml = tp.renderTokenSitemap(rankedTokens, '2026-07-12', [], 'ko', { allowlist });
   assert.ok(koXml.includes('<loc>https://www.defi.garden/ko/tokens/big</loc>'));
-  const enXml = tp.renderTokenSitemap(rankedTokens, '2026-07-12');
+  const enXml = tp.renderTokenSitemap(rankedTokens, '2026-07-12', [], 'en', { allowlist });
   assert.ok(enXml.includes('<loc>https://www.defi.garden/tokens/big</loc>'));
   assert.ok(!enXml.includes('/ko/tokens/'), 'default-language sitemap must not include ko URLs');
 });

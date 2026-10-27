@@ -25,6 +25,9 @@ const YIELDS_API = require('./llama-endpoints.js').pools();
 const LANG_CONFIG = require('./languages');
 const LANGUAGES = LANG_CONFIG.FULL_SCOPE_CODES.slice();
 const STATIC_HUB_PATHS = new Set(['/tokens', '/chains']);
+// Static English pages with a Korean twin written by generate-ko-static.js /
+// generate-stock-ticker-pages.js.
+const STATIC_KO_TWIN_RE = /^\/(?:methodology|stocks\/[a-z0-9-]+)$/;
 
 // Sitemap URL quality gate (013 — GSC fix, specs/013.md).
 // Mirrors the app's own default rendering threshold so a sitemap URL never
@@ -46,6 +49,8 @@ const FOREIGN_PAGE_SITEMAPS = [].concat(...LANG_CONFIG.LANGUAGES.map(l => {
     `sitemap-chain-pages${suffix}.xml`,
     // W1: owned by generate-pool-score-pages.js
     `sitemap-pool-pages${suffix}.xml`,
+    // W4: owned by generate-protocol-pages.js (en + ko only)
+    `sitemap-protocol-pages${suffix}.xml`,
   ];
 }));
 
@@ -466,6 +471,14 @@ function alternateUrlFor(baseUrl, lang) {
   if (LANG_CONFIG.LANG_CODES.includes(lang)) {
     try {
       const url = new URL(baseUrl);
+      // /methodology and /stocks/<ticker> have real Korean twins (/ko/methodology,
+      // /ko/stocks/<ticker>): the ko alternate is the clean path, never ?lang=ko.
+      // (/stocks, the interactive terminal, stays on the ?lang=ko app URL.)
+      if (STATIC_KO_TWIN_RE.test(url.pathname)) {
+        url.pathname = LANG_CONFIG.langPath(lang, url.pathname);
+        url.searchParams.delete('lang');
+        return url.toString();
+      }
       if (STATIC_HUB_PATHS.has(url.pathname) ||
           url.pathname.startsWith('/tokens/') || url.pathname.startsWith('/chains/')) {
         url.pathname = LANG_CONFIG.langPath(lang, url.pathname);
@@ -486,7 +499,11 @@ function alternateUrlFor(baseUrl, lang) {
  *  hub URLs (which exist in all configured languages). */
 function alternateLangsFor(baseUrl) {
   try {
-    if (STATIC_HUB_PATHS.has(new URL(baseUrl).pathname)) return LANG_CONFIG.LANG_CODES.slice();
+    const u = new URL(baseUrl);
+    if (STATIC_HUB_PATHS.has(u.pathname)) return LANG_CONFIG.LANG_CODES.slice();
+    // Home: no KO landing URL exists (canonical.js folds /?lang=ko into the root),
+    // so no KO alternate is advertised.
+    if (u.pathname === '/' && !u.search) return ['en'];
   } catch { /* fall through */ }
   return LANGUAGES;
 }
@@ -512,6 +529,25 @@ function generateUrlXml(baseUrl, lastmod, priority, changefreq) {
   xml += `    <priority>${priority}</priority>\n`;
   xml += '  </url>\n';
   return xml;
+}
+
+/**
+ * One /stocks/<ticker> URL entry (en, or the /ko/stocks/<ticker> twin) with the
+ * reciprocal en / ko / x-default alternates and a fixed lastmod.
+ */
+function stockPageUrlXml(loc, lastmod, lang) {
+  return lang === 'ko' ? koTwinUrlXml(loc, lastmod, '0.7', 'daily') : generateUrlXml(loc, lastmod, '0.7', 'daily');
+}
+
+/**
+ * The Korean twin's own <url> entry for an English static page: <loc> is the
+ * /ko/... URL and the en / ko / x-default alternates are the same reciprocal
+ * cluster the English entry carries.
+ */
+function koTwinUrlXml(enUrl, lastmod, priority, changefreq) {
+  const koUrl = alternateUrlFor(enUrl, 'ko');
+  return generateUrlXml(enUrl, lastmod, priority, changefreq)
+    .replace(`<loc>${escapeXml(enUrl)}</loc>`, `<loc>${escapeXml(koUrl)}</loc>`);
 }
 
 /**
@@ -663,6 +699,7 @@ async function generateSitemapSuite(poolsOverride) {
     });
 
     const now = new Date().toISOString();
+    let stockPagesLastmod = null;
     const sitemaps = {
       'sitemap-main.xml': []
     };
@@ -670,12 +707,16 @@ async function generateSitemapSuite(poolsOverride) {
     // 1. Main & Metadata Sitemaps (clean, static canonical URLs only — no parameterized query filters)
     console.log('📝 Building sitemap-main.xml...');
     sitemaps['sitemap-main.xml'].push(generateUrlXml(SITE_URL, LASTMOD_PLACEHOLDER, '1.0', 'daily'));
-    sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}plan.html`, LASTMOD_PLACEHOLDER, '0.9', 'weekly'));
+    sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}plan`, LASTMOD_PLACEHOLDER, '0.9', 'weekly'));
     // /stocks tokenized-equities terminal (stocks.html via cleanUrls; data/stocks-pools.json refreshed daily).
     sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}stocks`, LASTMOD_PLACEHOLDER, '0.8', 'daily'));
     sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}guide/defi-yield-rates-explained`, LASTMOD_PLACEHOLDER, '0.8', 'monthly'));
+    // /methodology (2026-10-24 "The Standard"): static methodology.html — what the DeFi Score is, how it is built, how it is measured.
+    sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}methodology`, LASTMOD_PLACEHOLDER, '0.9', 'monthly'));
+    // Korean twin (ko/methodology.html, built by generate-ko-static.js): KO static pages sitemap.
+    sitemaps['sitemap-pages-ko.xml'] = [koTwinUrlXml(`${SITE_URL}methodology`, LASTMOD_PLACEHOLDER, '0.9', 'monthly')];
     // forecast-accuracy temporarily omitted while pipeline is rebuilt (P0-1)
-    sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}mcp`, LASTMOD_PLACEHOLDER, '0.9', 'daily'));
+    // /mcp is intentionally NOT listed: it is the MCP JSON endpoint (application/json), not a page.
 
     // Zero-Distance Intent Portals (/for/<slug>) — First-Class Intent Landing Portals (Priority 0.9, Daily)
     const INTENT_SLUGS = [
@@ -691,9 +732,27 @@ async function generateSitemapSuite(poolsOverride) {
     sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}tokens`, LASTMOD_PLACEHOLDER, '0.85', 'daily'));
     sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}chains`, LASTMOD_PLACEHOLDER, '0.85', 'daily'));
 
+    // /stocks/<ticker> comparison pages (generate-stock-ticker-pages.js): one URL per
+    // ticker with >= 2 verified token versions, from the SAME eligibility predicate the
+    // page generator uses, once as /stocks/<ticker> and once as the /ko/stocks/<ticker>
+    // twin (sitemap-stock-pages-ko.xml), both with reciprocal en/ko/x-default alternates. lastmod is the data
+    // file's generatedAt (the pages change with every daily data build), so this file
+    // bypasses the placeholder/preservation path. Absent data file => no sitemap.
+    stockPagesLastmod = null;
+    try {
+      const stocksData = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'data', 'stocks-versions.json'), 'utf8'));
+      const stockPages = require('./generate-stock-ticker-pages.js').eligibleTickers(stocksData);
+      const stocksMod = new Date(stocksData.generatedAt);
+      if (stockPages.length && !isNaN(stocksMod.getTime())) {
+        stockPagesLastmod = stocksMod.toISOString();
+        sitemaps['sitemap-stock-pages.xml'] = stockPages.map(e => stockPageUrlXml(`${SITE_URL}stocks/${e.slug}`, stockPagesLastmod));
+        sitemaps['sitemap-stock-pages-ko.xml'] = stockPages.map(e => stockPageUrlXml(`${SITE_URL}stocks/${e.slug}`, stockPagesLastmod, 'ko'));
+      }
+    } catch (e) { /* data/stocks-versions.json missing or unreadable: no stock-page sitemap */ }
+
     const STORY_SLUGS = ['tomoko', 'kevin', 'lucia'];
     STORY_SLUGS.forEach(slug => {
-      sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}stories/${slug}.html`, LASTMOD_PLACEHOLDER, '0.7', 'monthly'));
+      sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}stories/${slug}`, LASTMOD_PLACEHOLDER, '0.7', 'monthly'));
     });
     // 2. Vertical: Chain-Specific Sitemaps
     console.log('📝 Building Vertical Chain Sitemaps...');
@@ -827,7 +886,9 @@ async function generateSitemapSuite(poolsOverride) {
     for (const filename of generatedFilenames) {
       if (sitemaps[filename].length > 0) {
         const existing = parseExistingUrlEntries(filename);
-        const { entries, maxLastmod } = resolveLastmods(sitemaps[filename], existing, now);
+        const { entries, maxLastmod } = (filename === 'sitemap-stock-pages.xml' || filename === 'sitemap-stock-pages-ko.xml')
+          ? { entries: sitemaps[filename], maxLastmod: stockPagesLastmod }
+          : resolveLastmods(sitemaps[filename], existing, now);
         childMaxLastmod[filename] = maxLastmod || now;
         fs.writeFileSync(filename, wrapSitemap(entries.join('')));
         writtenFilenames.push(filename);
@@ -852,7 +913,7 @@ async function generateSitemapSuite(poolsOverride) {
     //    generate-*-pages.js has produced them.
     LANG_CONFIG.LANGUAGES.forEach(l => {
       const suffix = l.code === LANG_CONFIG.DEFAULT_LANG ? '' : '-' + l.code;
-      ['token', 'chain', 'pool'].forEach(kind => {
+      ['token', 'chain', 'pool', 'protocol'].forEach(kind => {
         const file = `sitemap-${kind}-pages${suffix}.xml`;
         if (fs.existsSync(file)) {
           indexEntries.push({ loc: `${SITE_URL}${file}`, lastmod: maxLastmodFromFile(file, now) });

@@ -129,11 +129,10 @@ test('home.html and plan.html load llama-endpoints.js synchronously, before its 
 // --- (f) no hard-coded DefiLlama API URLs ----------------------------------
 const SKIP_DIRS = new Set(['node_modules', '.git', 'tokens', 'ko', 'pt', 'es', 'pools', 'for', 'stories', 'chains',
   'spotlights', 'guide', 'risk', 'data', 'docs', 'product-loop-kit', 'telegram-bot', 'fixtures', 'test-fixtures',
-  'assets', 'fonts', 'og', 'i18n', 'tests', '.claude', '.agent-reviews']);
+  'assets', 'fonts', 'og', 'i18n', 'tests', '.claude', '.agent-reviews', 'scoring']);
 // Files that may legitimately spell the hosts, and why.
 const ALLOWED = new Set([
   'llama-endpoints.js',   // the registry itself
-  'compute-forecasts.py', // Python mirror (cannot import JS); asserted separately below
   'audit-app.js'          // test harness: Playwright routes mock the exact production URL
 ]);
 const LITERAL = /['"`]https?:\/\/(?:yields|api|coins|pro-api)\.llama\.fi/;
@@ -169,14 +168,6 @@ test('walker actually sees the consumer files (guard is not vacuous)', () => {
   for (const f of ['app.js', 'landing.js', 'planner.js', 'PoolDetail.js', 'generate-sitemap.js', 'api/mcp.js',
     'edge/agent-log.mjs', 'src/poller.js']) {
     assert.ok(seen.includes(f), f + ' not scanned');
-  }
-});
-
-test('compute-forecasts.py mirrors the registry env vars and defaults', () => {
-  const py = fs.readFileSync(path.join(ROOT, 'compute-forecasts.py'), 'utf8');
-  for (const needle of ['LLAMA_YIELDS_BASE', 'LLAMA_PRO_API_KEY', 'LLAMA_PRO_BASE',
-    'https://yields.llama.fi', 'https://pro-api.llama.fi', '/yields/v1/chart/']) {
-    assert.ok(py.includes(needle), 'compute-forecasts.py missing ' + needle);
   }
 });
 

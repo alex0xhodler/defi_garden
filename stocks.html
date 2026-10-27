@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>Tokenized Stocks Yield Terminal: Equity Pool Rates, Scored | DeFi Garden</title>
-    <meta name="description" content="Live yields on tokenized stocks and ETFs: projected APY haircut for fading rewards, DeFi Score, liquidity tiers and estimated trade size. DefiLlama data. Education, not advice.">
+    <title>Tokenized Stocks: Token Versions &amp; Yields | DeFi Garden</title>
+    <meta name="description" content="Compare tokenized stocks across issuers and chains, plus pool yields with projected APY, DeFi Score and liquidity tiers. DefiLlama data. Education, not advice.">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://www.defi.garden/stocks">
 
@@ -14,8 +14,8 @@
     <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/stocks">
 
     <!-- Open Graph / Twitter -->
-    <meta property="og:title" content="Tokenized Stocks Yield Terminal: Equity Pool Rates, Scored | DeFi Garden">
-    <meta property="og:description" content="Live yields on tokenized stocks and ETFs: projected APY haircut for fading rewards, DeFi Score, liquidity tiers and estimated trade size. Education, not advice.">
+    <meta property="og:title" content="Tokenized Stocks: Token Versions &amp; Yields | DeFi Garden">
+    <meta property="og:description" content="Compare tokenized stocks across issuers and chains, plus pool yields with projected APY, DeFi Score and liquidity tiers. Education, not advice.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.defi.garden/stocks">
     <meta property="og:site_name" content="DeFi Garden">
@@ -41,6 +41,7 @@
     <link rel="preload" href="./react.production.min.js" as="script">
     <link rel="preload" href="./react-dom.production.min.js" as="script">
     <link rel="preload" href="./data/stocks-pools.json" as="fetch" crossorigin>
+    <link rel="preload" href="./data/stocks-versions.json" as="fetch" crossorigin>
 
     <!-- Render-blocking, same as the other surfaces. Edit style.css / pool-detail-styles.css,
          never the .min files. pool-detail-styles carries the .dt-* Decision Terminal panels
@@ -88,6 +89,7 @@
     <div id="stocks-root">
       <main class="stocks-static">
         <h1>Tokenized stocks, honestly projected.</h1>
+        <p>Compare the same stock across issuers and chains: on-chain price, how far the token versions sit from each other, liquidity, yield and redemption terms, all in one table.</p>
         <p>Yield pools that hold tokenized stocks and ETFs, with projected APY that is never above today's rate, a DeFi Score and a liquidity tier for every pool. Data from DefiLlama.</p>
         <p>Education, not investment advice. Tokenized stocks are generally not offered to US persons, and availability depends on the issuer and your jurisdiction. Primary minting and redemption is subject to issuer and broker hours.</p>
         <p><a href="/">DeFi Garden home</a> · <a href="/tokens">Browse tokens</a> · <a href="/chains">Browse chains</a></p>

@@ -33,7 +33,7 @@ const tp = require('./generate-token-pages.js');
 // copy-only translation, pool data/numbers identical across languages.
 const { createTranslationFunction } = require('./i18n');
 const {
-  LANGUAGES, LANG_CODES, getLanguage, normalizeLang, hasLasoCard, langPath, langUrl, langDir
+  LANGUAGES, LANG_CODES, getLanguage, normalizeLang, langPath, langUrl, langDir
 } = require('./languages.js');
 // Per-page OG images (051). Safe as a top-level require: this module only
 // requires generate-token-pages.js (not this one back), so no load cycle.
@@ -48,12 +48,12 @@ const {
   isQualifyingPool, poolTotalApy, formatUsd, formatApy, escapeHtml,
   renderAnalyticsBootstrap, renderHubStyleBlock, renderFontPreloadLinks, tokenSlug: chainSlug,
   poolHrefFor, poolRelAttr, withSrc, renderItemListJsonLd, renderDatasetJsonLd,
+  TABLE_VARIABLES_MEASURED, markdownDistributionFor,
   buildAnswerAndFaq, renderAnswerBlockHtml, renderFaqBlockHtml, renderFaqJsonLd,
   todayGeneratedDate, renderLastUpdatedHtml, renderHreflangLinks,
   renderLanguageSwitcher, renderLangSwitchStyle, renderSitemapAlternates, neutralPathOfLoc,
   SITEMAP_URLSET_OPEN, SITEMAP_URLSET_OPEN_XHTML, isIndexableToken,
   categoryLinksFor, renderLinkNavHtml, tokenSymbols, isValidToken, OG_FALLBACK_REL_PATH,
-  renderWaitlistCtaHtml, renderWaitlistCtaStyle,
   yieldHeadlineFor, renderYieldHeadlineHtml, mdEscape, assertNonEmptyPages,
   // item 243: reuse 242's headline-selection gate — no local definition.
   headlinePoolFor, isRepresentativeRate,
@@ -216,7 +216,12 @@ function renderChainPage(rec, related, generatedDate, tokenLinks, lang, ogImageP
     t('tcpDatasetChainName', rec.chain),
     t('tcpDatasetChainDescription', rec.chain, floorStr),
     pageUrl,
-    genDate
+    genDate,
+    {
+      variableMeasured: TABLE_VARIABLES_MEASURED,
+      keywords: [rec.chain, 'DeFi yield', 'APY', 'TVL'],
+      distribution: markdownDistributionFor(pageUrl, language)
+    }
   );
 
   // Direct-answer + FAQ (047, GEO/AEO): built from the SAME gated `rec` the
@@ -258,9 +263,6 @@ function renderChainPage(rec, related, generatedDate, tokenLinks, lang, ogImageP
   // at the render site, over every item it returned (never skipped/duplicated).
   const categoryItems = categoryLinksFor(rec.pools, appUrl).map(c => ({ label: t('tcpPoolTypeLabel', c.category), href: withSrc(c.url, 'seo_chain') }));
   const categoryBlock = renderLinkNavHtml(categoryItems, t('tcpPoolCategoriesAriaLabel'), t('tcpByCategoryHeading'), 'xlink-category', 'nofollow');
-
-  // Waitlist CTA (062): the only path from this page into the card funnel.
-  const waitlistBlock = renderWaitlistCtaHtml(t('tcpWaitlistPitchChain', rec.chain), 'cp', 'seo_chain', t);
 
   // LH3: Top 5 by DeFi Score table for chain pages
   const topScoredBlock = renderTopScoredPoolsHtml(rec.pools, appUrl, language, t, rec.chain, true);
@@ -347,7 +349,7 @@ ${renderFontPreloadLinks()}    <link rel="stylesheet" href="/style.css">
       .cp-faq-a { font-size: .9rem; margin: 0; color: var(--ui-text-secondary); line-height: 1.55; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .cp-cta, .related-links a { transition: none; } .cp-cta:active, .related-links a:active { transform: none; } }
-${renderLangSwitchStyle()}${hasLasoCard(language) ? renderWaitlistCtaStyle('cp') : ''}    </style>
+${renderLangSwitchStyle()}    </style>
 ${renderAnalyticsBootstrap(`${langPath(language, '')}/chains/${rec.slug}`, { page_type: 'chain_landing', chain: rec.chain, pool_count: rec.qualifyingCount, lang: language })}
 </head>
 <body>
@@ -368,7 +370,7 @@ ${rows}
     </table>
     </div>
     </div>
-${faqBlock}${relatedBlock}${tokenLinksBlock}${categoryBlock}${waitlistBlock}    <p class="note">${escapeHtml(t('tcpTrustNote', formatUsd(MIN_POOL_TVL)))}</p>
+${faqBlock}${relatedBlock}${tokenLinksBlock}${categoryBlock}    <p class="note">${escapeHtml(t('tcpTrustNote', formatUsd(MIN_POOL_TVL)))}</p>
 ${renderLastUpdatedHtml(genDate, language)}    <p class="note"><a href="${SITE_URL}/">DeFi Garden 🌱</a> — ${escapeHtml(t('tcpFooterTagline'))}</p>
   </main>
 </body>
@@ -423,7 +425,7 @@ ${renderLanguageSwitcher(neutralPath, language, LANG_CODES, t)}    <h1>${escapeH
         ${links}
       </div>
     </div>
-${hasLasoCard(language) ? renderWaitlistCtaHtml(t('tcpWaitlistPitchHub'), 'hub', 'seo_chains_hub', t) : ''}    <p class="note">${escapeHtml(t('tcpTrustNote', formatUsd(MIN_POOL_TVL)))}</p>
+    <p class="note">${escapeHtml(t('tcpTrustNote', formatUsd(MIN_POOL_TVL)))}</p>
   </main>
 </body>
 </html>

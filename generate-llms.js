@@ -168,18 +168,16 @@ function buildFullUrlPopulation(sitemapUrls, estateRoot) {
 
   // D1 (seo-turnaround): filter out noindexed thin token pages so they
   // don't appear in llms-full.txt. Read manifests from both en and ko dirs.
+  // Manifests are per language (the proven-demand allowlist differs per language).
+  // A missing ko manifest (older published build) falls back to the EN list.
   const noindexSlugs = new Set();
-  for (const manifest of ['tokens/.noindex-slugs.json', 'ko/tokens/.noindex-slugs.json']) {
-    const fp = path.join(estateRoot, manifest);
-    try {
-      const slugs = JSON.parse(fs.readFileSync(fp, 'utf8'));
-      // Token slugs: exclude both /tokens/<slug> and /ko/tokens/<slug>
-      slugs.forEach(s => {
-        noindexSlugs.add(`/tokens/${s}`);
-        noindexSlugs.add(`/ko/tokens/${s}`);
-      });
-    } catch (_) { /* manifest doesn't exist — skip */ }
-  }
+  const readManifest = (rel) => {
+    try { return JSON.parse(fs.readFileSync(path.join(estateRoot, rel), 'utf8')); } catch (_) { return null; }
+  };
+  const enSlugs = readManifest('tokens/.noindex-slugs.json');
+  const koSlugs = readManifest('ko/tokens/.noindex-slugs.json') || enSlugs;
+  (enSlugs || []).forEach(s => noindexSlugs.add(`/tokens/${s}`));
+  (koSlugs || []).forEach(s => noindexSlugs.add(`/ko/tokens/${s}`));
   const filteredEstateUrls = noindexSlugs.size > 0
     ? estateUrls.filter(u => {
         try { return !noindexSlugs.has(new URL(u).pathname); }
@@ -536,14 +534,33 @@ function writeIfContentChanged(filePath, newContent, now) {
  * number is stated here (every figure on that page comes from the CI-baked
  * data/stocks-pools.json), and the honesty rules travel with the link.
  */
-function buildStocksSection(meta) {
+function buildStocksSection(meta, opts = {}) {
+  // Per-ticker comparison pages (generate-stock-ticker-pages.js): only tickers with
+  // >= 2 verified token versions, from the same eligibility predicate. Tickers and
+  // URLs only - no figures. `meta.stockPages` overrides the data file (tests).
+  let pages = meta.stockPages;
+  if (!pages) {
+    try {
+      const data = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'data', 'stocks-versions.json'), 'utf8'));
+      pages = require('./generate-stock-ticker-pages.js').eligibleTickers(data);
+    } catch (e) { pages = []; }
+  }
+  const pageLines = [];
+  if (pages.length) {
+    if (opts.full) {
+      pages.forEach(p => pageLines.push(`- ${p.ticker} tokenized stock, verified token versions compared side by side: ${meta.baseUrl}/stocks/${p.slug}`));
+    } else {
+      pageLines.push(`- Verified token versions compared per ticker: ${pages.map(p => `${p.ticker} ${meta.baseUrl}/stocks/${p.slug}`).join(', ')}`);
+    }
+  }
   return [
     '## Tokenized Stocks',
     'TL;DR: A research-only terminal for yield pools that hold tokenized stocks and ETFs. ' +
       'Projected APY is base yield plus two thirds of reward emissions and never exceeds the current rate; ' +
       'each pool carries a DeFi Score (not a smart-contract audit) and a TVL liquidity tier. ' +
       'Education, not investment advice; tokenized stocks are generally not offered to US persons.',
-    `- Tokenized stocks yield terminal: ${meta.baseUrl}/stocks`
+    `- Tokenized stocks yield terminal: ${meta.baseUrl}/stocks`,
+    ...pageLines
   ];
 }
 
@@ -625,12 +642,12 @@ function buildAgentEndpointsSection(meta) {
   // LH8 (seo-turnaround): Underwriting & Predictive Scoring Section
   lines.push('## Predictive Underwriting & DeFi Score');
   lines.push(
-    'TL;DR: A yield-quality score (DeFi Score 0-100: stability, fee sustainability, depositor stickiness, exit liquidity) ' +
+    'TL;DR: A yield-quality score (DeFi Score 0-100: yield stability, sustainability, capital stickiness, exit liquidity) ' +
     'and an experimental 14-day forward yield forecast for 7,400+ liquidity venues across 30+ chains, updated daily. ' +
     'The score is not a smart-contract or exploit safety audit.'
   );
-  lines.push('- Methodology: 4 objective pillars — Yield Stability (35%), Fee Sustainability (25%), Capital Stickiness (25%), and Liquidity Depth (15%).');
-  lines.push('- Experimental 14-day forecast bands: probabilistic p10/p50/p90 yield bands; not yet shown to be more accurate than assuming today\'s rate holds.');
+  lines.push('- Methodology: four pillars — yield stability, sustainability, capital stickiness and exit liquidity, each shown as a High / Medium / Low tier. Bands AAA / AA / A / BBB / HIGH RISK are DeFi Garden\'s own model output, not a credit rating from a registered credit rating agency. Details: https://www.defi.garden/methodology');
+  lines.push('- Experimental 14-day forecast bands: a 14-day yield range (low / central / high); not yet shown to be more accurate than assuming today\'s rate holds.');
   lines.push('- Verified rails: pools below $100K TVL or with total APY > 1000% are strictly disqualified.');
   lines.push('');
 
@@ -678,11 +695,13 @@ function buildConcise(meta, categories, highYield, yieldAnalysis, plannerRateRes
   lines.push(
     `TL;DR: DeFi Garden is a quantitative yield intelligence engine and goal-based savings planner. ` +
     `Every pool clears strict trust rails ($100K TVL floor, 1000% APY sanity cap). ` +
-    `We evaluate yield quality across four pillars (stability, fee sustainability, depositor stickiness, liquidity depth) ` +
+    `We evaluate yield quality across four pillars (yield stability, sustainability, capital stickiness, exit liquidity) ` +
     `and maintain an empirical, multi-run 14-day forward forecast track record publicly benchmarked against a naive "no-change" baseline.`
   );
+  lines.push(`- Methodology (how the DeFi Score and the 14-day forecast are built and measured): ${meta.baseUrl}/methodology`);
   lines.push(`- Public forecast evaluation scorecard: ${meta.baseUrl}/forecast-accuracy`);
   lines.push(`- Verified scored pools directory: ${meta.baseUrl}/pools`);
+  if (meta.protocolPages) lines.push(`- Protocol pages (DeFi Score distribution, median APY and 14-day forecast per protocol): ${meta.baseUrl}/protocols`);
   lines.push('');
 
   // Homepage section — describes what the router (home.html) actually does
@@ -795,6 +814,14 @@ function buildConcise(meta, categories, highYield, yieldAnalysis, plannerRateRes
   return lines.join('\n');
 }
 
+/** data/protocol-pages.json (generate-protocol-pages.js), or null when absent. */
+function loadProtocolPages(file) {
+  try {
+    const j = JSON.parse(fs.readFileSync(file || path.resolve('./data/protocol-pages.json'), 'utf8'));
+    return Array.isArray(j.pages) && j.pages.length ? j : null;
+  } catch (e) { return null; }
+}
+
 /**
  * Build comprehensive llms-full.txt content
  */
@@ -829,7 +856,7 @@ function buildFull(meta, categories, highYield, yieldAnalysis, plannerRateResult
   // Garden Planner section (spec 168) — shared emitter, fuller body (opts.full).
   lines.push(...buildPlannerSection(meta, plannerRateResult, { full: true }));
   lines.push('');
-  lines.push(...buildStocksSection(meta));
+  lines.push(...buildStocksSection(meta, { full: true }));
   lines.push('');
   lines.push(...buildAgentEndpointsSection(meta));
   lines.push('');
@@ -882,6 +909,17 @@ function buildFull(meta, categories, highYield, yieldAnalysis, plannerRateResult
     lines.push('');
   }
   
+  // W4 protocol pages: one line per generated page, counts and TVL only.
+  if (meta.protocolPages && meta.protocolPages.pages.length > 0) {
+    lines.push('## Protocol Pages');
+    lines.push('TL;DR: One page per protocol with enough scored pools: DeFi Score rating distribution, median APY, 14-day forecast and its largest pools.');
+    lines.push(`- All protocols: ${meta.baseUrl}/protocols`);
+    meta.protocolPages.pages.forEach(pg => {
+      lines.push(`- ${pg.name}: ${pg.pools} scored pools, ${pg.tvlUsd >= 1e9 ? '$' + (pg.tvlUsd / 1e9).toFixed(2) + 'B' : '$' + (pg.tvlUsd / 1e6).toFixed(0) + 'M'} TVL — ${meta.baseUrl}/protocols/${pg.slug}`);
+    });
+    lines.push('');
+  }
+
   // Market analysis sections (if yield data available)
   if (yieldAnalysis && yieldAnalysis.topChainsByTvl.length > 0) {
     lines.push('## Market Analysis: Top Chains by TVL');
@@ -1374,7 +1412,9 @@ async function main() {
       baseUrl,
       updatedAt: new Date().toISOString(),
       totalUrls: urls.length,
-      defiLlamaFetchedAt: sourceTs
+      defiLlamaFetchedAt: sourceTs,
+      // W4: pages written by generate-protocol-pages.js (null = none, no lines emitted)
+      protocolPages: loadProtocolPages()
     };
 
     // Generate content — spec 180's link-integrity gate (R1/R2/R3 + both
@@ -1437,6 +1477,7 @@ module.exports = {
   plannerRate,
   buildPlannerSection,
   buildAgentEndpointsSection,
+  buildStocksSection,
   analyzeYieldData,
   buildConcise,
   buildFull,

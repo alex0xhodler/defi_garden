@@ -55,8 +55,17 @@ function test(name, fn) {
 // convention) — a scratch run must not touch committed tokens/ko/og output.
 function runGen(cwd, outArg, sitemapArg, fixturePath) {
   assert.notStrictEqual(path.resolve(cwd), __dirname, 'refusing to run generator with cwd === repo root');
+  // The fixture's head tokens have exactly 2 pools, i.e. thin => noindexed by
+  // D1 and (since sitemaps only list indexable pages) absent from the sitemap.
+  // This test uses the sitemap as its proxy for "the head set", so the head
+  // slugs are exempted through the proven-demand allowlist (SEO_INDEX_ALLOWLIST).
+  const allowSlugs = [];
+  for (let i = 0; i < HEAD_COUNT; i++) allowSlugs.push(`hd${i}`);
+  allowSlugs.push('meanx', 'anomhead');
+  const allowPath = path.join(cwd, 'head-allowlist.json');
+  fs.writeFileSync(allowPath, JSON.stringify({ en: allowSlugs, ko: allowSlugs }));
   execFileSync('node', [TOKEN_GEN, '--fixture', fixturePath, '--out', outArg, '--sitemap', sitemapArg], {
-    cwd, stdio: 'pipe',
+    cwd, stdio: 'pipe', env: Object.assign({}, process.env, { SEO_INDEX_ALLOWLIST: allowPath }),
   });
 }
 

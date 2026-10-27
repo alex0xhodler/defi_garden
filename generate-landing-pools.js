@@ -6,9 +6,9 @@
  * The landing's underwriting card shows a short curated list of pools with their
  * DeFi Score and 14d forecast. Those fields only exist in data/pools-snapshot.json
  * (~11 MB, written by generate-pools-snapshot.js and enriched in place by
- * compute-kpis.js + compute-forecasts.py), which is far too heavy for the landing
+ * compute-kpis.js + the scoring step), which is far too heavy for the landing
  * route. This script extracts the curated pools into data/landing-pools.json
- * (a few KB). Run it AFTER compute-forecasts.py.
+ * (a few KB). Run it AFTER the scoring step.
  *
  * APY/TVL here are the snapshot values; landing.js overlays live values from
  * yields.llama.fi/chart/<pool> and only falls back to these when that fails.
@@ -35,6 +35,29 @@ const LANDING_POOL_IDS = [
   '0e7d0722-9054-4907-8593-567b353c0900'  // JITOSOL · jito-liquid-staking · Solana
 ];
 
+// PUBLIC serialization (owner decision 2026-10-25, "what, not how"): the landing
+// slice carries the total score, the band name and the per-pillar TIER
+// (defiScore.pillarsTier: "High" | "Medium" | "Low", emitted by the scoring
+// engine; owner decision 2026-10-26). Exact pillar numbers (pillarsPct, allow-pillarsPct), raw
+// pillar points or any other internal field are never copied through.
+const TIERS = ['High', 'Medium', 'Low'];
+const PILLAR_KEYS = ['stability', 'sustainability', 'stickiness', 'liquidity'];
+function publicScore(ds) {
+  const out = { score: ds.score, rating: ds.rating };
+  const pt = ds.pillarsTier;
+  if (pt && PILLAR_KEYS.every(k => TIERS.includes(pt[k]))) {
+    out.pillarsTier = {};
+    PILLAR_KEYS.forEach(k => { out.pillarsTier[k] = pt[k]; });
+  }
+  return out;
+}
+function publicForecast(f) {
+  if (!f) return null;
+  const out = {};
+  ['horizonDays', 'p10', 'p50', 'p90', 'crashRisk'].forEach(k => { if (f[k] !== undefined) out[k] = f[k]; });
+  return out;
+}
+
 function buildLandingPools(snapshot, ids) {
   const byId = new Map();
   (snapshot.pools || []).forEach(p => { if (p && p.pool) byId.set(p.pool, p); });
@@ -49,11 +72,31 @@ function buildLandingPools(snapshot, ids) {
       chain: p.chain,
       tvlUsd: p.tvlUsd,
       apy: Math.round(((Number(p.apyBase) || 0) + (Number(p.apyReward) || 0)) * 100) / 100,
-      defiScore: p.defiScore,
-      forecast: p.forecast || null
+      defiScore: publicScore(p.defiScore),
+      forecast: publicForecast(p.forecast)
     });
   });
-  return { schemaVersion: 1, generatedAt: snapshot.generatedAt, pools: pools };
+  return {
+    schemaVersion: 1,
+    generatedAt: snapshot.generatedAt,
+    coverage: buildCoverage(snapshot),
+    pools: pools
+  };
+}
+
+// Homepage coverage line. Counts only pools that actually carry a DeFi Score
+// (the same population the published scores cover), so the landing never
+// claims more than the data behind /pools and the API. There is deliberately
+// no per-category count: the snapshot has no category field (the app derives
+// categories client-side), so any category number here would be a guess.
+function buildCoverage(snapshot) {
+  const scored = (snapshot.pools || []).filter(p => p && p.defiScore && typeof p.defiScore.score === 'number');
+  return {
+    scoredPools: scored.length,
+    protocols: new Set(scored.map(p => p.project)).size,
+    chains: new Set(scored.map(p => p.chain)).size,
+    minTvlUsd: snapshot.minTvlUsd == null ? null : snapshot.minTvlUsd
+  };
 }
 
 function main() {
@@ -85,4 +128,4 @@ function main() {
 
 if (require.main === module) main();
 
-module.exports = { buildLandingPools, LANDING_POOL_IDS };
+module.exports = { buildLandingPools, buildCoverage, LANDING_POOL_IDS };

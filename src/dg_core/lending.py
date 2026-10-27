@@ -1,5 +1,5 @@
 """
-Deterministic Lending Math Engine for DeFi Garden (Institutional / TimesFM).
+Deterministic Lending Math Engine for DeFi Garden (Institutional).
 
 Implements jump rate models, utilization calculations, kink headroom under frozen
 and scenario assumptions (including looper feedback and flow dynamics), post-deposit

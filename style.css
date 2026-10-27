@@ -1684,6 +1684,33 @@ body {
   gap: var(--space-8);
 }
 
+/* "The Standard" nav (2026-10-24): Search · Stocks · Methodology · API — the same four
+   links as the landing header. Quiet tokens only; hidden <=768px, where the
+   header row has no room (mobile reaches Methodology + API from the footer). */
+.app-header-nav {
+  display: flex;
+  align-items: center;
+  gap: var(--space-20, 20px);
+  flex-shrink: 0;
+}
+
+.app-header-nav a {
+  color: var(--ui-text-secondary);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  text-decoration: none;
+  white-space: nowrap;
+  border-radius: var(--ui-radius-sm);
+  transition: color 120ms ease;
+}
+
+.app-header-nav a:hover { color: var(--ui-text); }
+.app-header-nav a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+
+@media (max-width: 768px) {
+  .app-header-nav { display: none; }
+}
+
 /* `.app-control-btn` is a geometry-only marker now (shared icon-only-button
    rule, style.css end) — it used to also carry its own background/border/
    hover/active block here, but every element wearing it also wears
@@ -4338,36 +4365,17 @@ html[data-app-mode="landing"] .seo-content {
     padding: 72px 32px;
   }
 }
-/* Desktop: two full-screen sections — hero, then rates — with mandatory
-   vertical snapping (wheel/PageDown/Space or the hero's next-section button
-   move one section). The footer is a third, end-aligned snap point so it
-   stays reachable. The app's top padding equals the pinned header, so both
-   sections fill exactly the space under it. Short or narrow viewports keep a
-   plain scroll: content taller than the screen must never be trapped. */
-@media (min-width: 769px) and (min-height: 640px) {
+/* The landing is a plain scrolling document at every size (no snapping, no
+   full-screen sections): hero, four content bands, then #seo-content and the
+   footer. The app's top padding equals the pinned header on desktop. */
+@media (min-width: 769px) {
   html[data-app-mode="landing"] {
     --landing-header-h: 56px;
-    scroll-snap-type: y mandatory;
     scroll-padding-top: var(--landing-header-h);
   }
   html[data-app-mode="landing"] .landing-app {
     padding-top: var(--landing-header-h);
   }
-  html[data-app-mode="landing"] .landing-underwriting-wrapper,
-  html[data-app-mode="landing"] .seo-content {
-    min-height: calc(100svh - var(--landing-header-h));
-    justify-content: center;
-    scroll-snap-align: start;
-  }
-  html[data-app-mode="landing"] .landing-underwriting-wrapper {
-    position: relative;
-  }
-  html[data-app-mode="landing"] .app-footer {
-    scroll-snap-align: end;
-  }
-}
-@media (max-width: 768px), (max-height: 639px) {
-  html[data-app-mode="landing"] .landing-next-section { display: none; }
 }
 
 /* Inner wrapper: centered column, same in every layout. */

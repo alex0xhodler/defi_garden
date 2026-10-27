@@ -389,20 +389,17 @@ if (generated) {
     });
     assert.ok(read(path.join(dirOf('en', 'tokens'), 'index.html')).includes('/tokens/thin'), 'EN hub keeps listing every token');
   });
-  test('Laso partner card block: EN + KO keep it, pt + es render nothing (US-only card pitch is misleading outside the US)', () => {
-    assert.strictEqual(L.hasLasoCard('en'), true);
-    assert.strictEqual(L.hasLasoCard('ko'), true);
-    assert.strictEqual(L.hasLasoCard('pt'), false);
-    assert.strictEqual(L.hasLasoCard('es'), false);
-    ['en', 'ko'].forEach(c => ['tokens', 'chains'].forEach(k =>
-      assert.ok(/hub-waitlist/.test(read(path.join(dirOf(c, k), 'index.html'))), c + '/' + k + ' hub keeps the card waitlist (byte-identical)')));
+  test('no card / Laso / waitlist block on any generated SEO page, in any language (card lives only at /for/*)', () => {
     ['en', 'ko'].forEach(c => {
+      ['tokens', 'chains'].forEach(k => {
+        const hub = read(path.join(dirOf(c, k), 'index.html'));
+        assert.ok(!/hub-waitlist|laso\.finance|waitlist=1|Yield Card/.test(hub), c + '/' + k + ' hub must carry no card waitlist');
+      });
       const html = pageOf(c, 'tokens', 'heada');
-      assert.ok(html.includes('id="token-card-section"') && html.includes('laso.finance?ref='), c + ' token page must keep the Laso block');
-      assert.ok(html.includes('Zero issuance fee'), c + ' output must stay byte-identical (Laso copy unchanged)');
+      assert.ok(!/laso\.finance|token-card-section|Yield Card|waitlist=1/.test(html), c + ' token page must carry no Laso block');
     });
     const LASO = /laso|token-card-section|token-laso|virtual-visa-card|visa-card|issuance|Zero issuance|Sponsored partner/i;
-    ['pt', 'es'].forEach(c => {
+    ['en', 'ko', 'pt', 'es'].forEach(c => {
       htmlFiles(dirOf(c, 'tokens')).forEach(slug => {
         const html = pageOf(c, 'tokens', slug);
         assert.ok(!LASO.test(html), c + '/tokens/' + slug + ' must not contain any Laso / card-block markup');

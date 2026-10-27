@@ -905,7 +905,7 @@
 }
 
 /* Secondary — quiet countersigned link */
-.pool-detail-view .cta-button-protocol {
+.pool-detail-view .cta-button-protocol:not(.cta-button-primary) {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -929,13 +929,13 @@
   box-sizing: border-box;
 }
 
-.pool-detail-view .cta-button-protocol:hover {
+.pool-detail-view .cta-button-protocol:not(.cta-button-primary):hover {
   color: var(--cert-green);
   border-color: var(--cert-green);
   background: var(--cert-slip);
 }
 
-.pool-detail-view .cta-button-protocol:active {
+.pool-detail-view .cta-button-protocol:not(.cta-button-primary):active {
   transform: translateY(1px);
   background: var(--cert-band-deep);
 }
@@ -4634,5 +4634,9 @@ html:not([data-theme="dark"]) .checkout-pay-btn:hover {
   }
   .pool-hero-content > .pool-hero-actions .pool-action-hint {
     font-size: 11px;
+  }
+  /* card flow off: a single full-width primary action */
+  .pool-hero-content > .pool-hero-actions.pool-hero-actions--solo {
+    grid-template-columns: minmax(0, 1fr);
   }
 }

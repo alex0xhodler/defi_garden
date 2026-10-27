@@ -51,7 +51,8 @@ gen.PERSONAS.forEach(persona => {
   test(`${persona.slug}: pre-existing content (title/canonical) unchanged by this diff`, () => {
     const html = gen.renderStoryPage(persona, fakePlan);
     assert.ok(html.includes(`<title>${persona.seoTitle}`) || html.includes('<title>'), 'title missing');
-    assert.ok(html.includes(`https://www.defi.garden/stories/${persona.slug}.html`), 'canonical missing/changed');
+    assert.ok(html.includes(`<link rel="canonical" href="https://www.defi.garden/stories/${persona.slug}">`), "canonical missing/changed");
+    assert.ok(!html.includes(`/stories/${persona.slug}.html`), "story page must not reference the redirecting .html URL");
   });
 });
 
@@ -101,11 +102,12 @@ gen.PERSONAS.forEach(persona => {
     const html = gen.renderStoryPage(persona, fakePlan);
     assert.ok(html.includes(`Last updated ${fakePlan.generatedDate}`), 'missing visible "Last updated" line');
   });
-  test(`${persona.slug}: exactly one WebPage block, dateModified byte-for-byte matches the visible date`, () => {
+  test(`${persona.slug}: exactly one WebPage block, dateModified is the ISO 8601 form of the visible date`, () => {
     const html = gen.renderStoryPage(persona, fakePlan);
     const blocks = extractLdJsonBlocks(html, 'WebPage');
     assert.strictEqual(blocks.length, 1, 'expected exactly one WebPage block');
-    assert.strictEqual(blocks[0].dateModified, fakePlan.generatedDate, 'WebPage.dateModified must match the visible date');
+    assert.ok(/^\d{4}-\d{2}-\d{2}$/.test(blocks[0].dateModified), 'WebPage.dateModified must be ISO 8601');
+    assert.strictEqual(blocks[0].dateModified, require('./generate-token-pages.js').toIsoDate(fakePlan.generatedDate), 'WebPage.dateModified must be the same day as the visible date');
   });
 });
 

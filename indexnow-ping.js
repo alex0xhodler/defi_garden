@@ -84,20 +84,24 @@ const ESTATE_DIRS = [].concat(
   ESTATE_LANG_PREFIXES.map(p => p + 'tokens'),
   ESTATE_LANG_PREFIXES.map(p => p + 'tokens/az'),
   ESTATE_LANG_PREFIXES.map(p => p + 'chains'),
-  ESTATE_LANG_PREFIXES.map(p => p + 'pools')
+  ESTATE_LANG_PREFIXES.map(p => p + 'pools'),
+  // W4 protocol pages exist in en + ko only; a missing dir is skipped below
+  ESTATE_LANG_PREFIXES.map(p => p + 'protocols')
 );
 
 /**
  * Loads the manifest of thin slugs that carry robots noindex (< 3 qualifying pools).
  * These must never be submitted to IndexNow (waste of crawler budget).
  */
-function loadNoindexSlugs(rootDir) {
-  try {
-    const p = path.join(rootDir, 'tokens', '.noindex-slugs.json');
-    if (fs.existsSync(p)) {
-      return new Set(JSON.parse(fs.readFileSync(p, 'utf8')));
-    }
-  } catch (_e) {}
+function loadNoindexSlugs(rootDir, langPrefix) {
+  // Per-language manifest (<lang>/tokens/.noindex-slugs.json, since the
+  // proven-demand allowlist differs per language); falls back to the EN list.
+  for (const rel of [`${langPrefix || ''}tokens/.noindex-slugs.json`, 'tokens/.noindex-slugs.json']) {
+    try {
+      const p = path.join(rootDir, rel);
+      if (fs.existsSync(p)) return new Set(JSON.parse(fs.readFileSync(p, 'utf8')));
+    } catch (_e) {}
+  }
   return new Set();
 }
 
@@ -110,7 +114,12 @@ function collectEstateUrls(rootDir, opts = {}) {
   const seen = new Set();
   const urls = [];
   // When skipNoindex is explicitly enabled (e.g. daily crawl optimization), exclude thin slugs
-  const noindexSlugs = (opts && opts.skipNoindex) ? loadNoindexSlugs(rootDir) : new Set();
+  const skipNoindex = !!(opts && opts.skipNoindex);
+  const noindexByPrefix = new Map(); // lang prefix -> Set<slug>
+  const noindexFor = (prefix) => {
+    if (!noindexByPrefix.has(prefix)) noindexByPrefix.set(prefix, skipNoindex ? loadNoindexSlugs(rootDir, prefix) : new Set());
+    return noindexByPrefix.get(prefix);
+  };
 
   // If changedOnly is requested, collect the set of modified html files via git diff
   let changedFiles = null;
@@ -141,7 +150,7 @@ function collectEstateUrls(rootDir, opts = {}) {
 
       const slug = f.slice(0, -'.html'.length);
       // Skip thin noindexed tokens (EN /tokens/<slug> and every language's /<lang>/tokens/<slug>)
-      if (ESTATE_LANG_PREFIXES.some(p => rel === p + 'tokens') && noindexSlugs.has(slug)) {
+      if (ESTATE_LANG_PREFIXES.some(p => rel === p + 'tokens' && noindexFor(p).has(slug))) {
         continue;
       }
 

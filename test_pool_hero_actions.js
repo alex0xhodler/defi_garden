@@ -1,6 +1,6 @@
-/* Playwright gate: on every ?pool= page the hero's two actions ("Spend yield"
-   and the protocol CTA) sit side by side and are fully inside the first
-   viewport on mobile and desktop — after the APY's honesty qualifier.
+/* Playwright gate: on every ?pool= page the hero's ONE primary action (the protocol
+   handoff — the card flow is off on the pool view since 2026-10-26) is fully inside
+   the first viewport on mobile and desktop — after the APY's honesty qualifier.
    Run: node test_pool_hero_actions.js */
 const assert = require('assert');
 const http = require('http');
@@ -82,21 +82,25 @@ async function main() {
           const m = await page.evaluate(() => {
             const box = (el) => { const r = el.getBoundingClientRect(); return { top: r.top, bottom: r.bottom, left: r.left, right: r.right }; };
             const primary = document.querySelector('.pool-hero-actions .cta-button-primary');
-            const secondary = document.querySelector('.pool-hero-actions .pool-hero-action-secondary .cta-button-protocol');
+            // 2026-10-26: card flow is off on the pool view, so the protocol handoff
+            // is the ONE primary action and there is no secondary slot.
+            const secondary = document.querySelector('.pool-hero-actions .pool-hero-action-secondary');
             const qualifier = document.querySelector('.pool-hero-qualifier');
             return {
               ih: innerHeight, iw: innerWidth, sw: document.documentElement.scrollWidth,
-              primary: box(primary), secondary: secondary && box(secondary),
+              primary: box(primary), secondary: !!secondary,
+              primaryCount: document.querySelectorAll('.pool-hero-actions .cta-button-primary').length,
+              primaryIsProtocol: primary.classList.contains('cta-button-protocol'),
               qualifier: qualifier && box(qualifier),
               volatility: !!document.querySelector('.rate-volatility-note')
             };
           });
-          assert.ok(m.secondary, 'protocol CTA rendered');
-          assert.ok(m.primary.bottom <= m.ih && m.secondary.bottom <= m.ih, `both buttons inside the first viewport (primary ${Math.round(m.primary.bottom)}, secondary ${Math.round(m.secondary.bottom)}, viewport ${m.ih})`);
-          assert.ok(m.primary.top >= 0 && m.secondary.top >= 0, 'buttons not above the viewport');
-          assert.ok(Math.abs(m.primary.top - m.secondary.top) <= 2, `buttons on one row (tops ${Math.round(m.primary.top)} vs ${Math.round(m.secondary.top)})`);
-          assert.ok(m.primary.right <= m.secondary.left, 'Spend yield is left of the protocol CTA');
-          assert.ok(m.secondary.right <= m.iw && m.sw <= m.iw, 'no horizontal overflow');
+          assert.ok(!m.secondary, 'no secondary hero action (card flow off)');
+          assert.strictEqual(m.primaryCount, 1, 'exactly one primary hero CTA');
+          assert.ok(m.primaryIsProtocol, 'the primary CTA is the protocol handoff');
+          assert.ok(m.primary.bottom <= m.ih, `primary inside the first viewport (bottom ${Math.round(m.primary.bottom)}, viewport ${m.ih})`);
+          assert.ok(m.primary.top >= 0, 'primary not above the viewport');
+          assert.ok(m.primary.right <= m.iw && m.sw <= m.iw, 'no horizontal overflow');
           if (m.qualifier) assert.ok(m.qualifier.bottom <= m.primary.top, 'honesty qualifier reads before the actions');
           if (fixture.pool.endsWith('3')) assert.ok(m.volatility, 'volatile fixture renders the rate-volatility note');
           if (errors.length) throw new Error(errors.join('\n'));

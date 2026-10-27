@@ -27,7 +27,7 @@
     },
     {
       "name": "get_pool_score",
-      "description": "Retrieve the DeFi Score (0-100) with its 4-pillar breakdown (stability, fee sustainability, depositor stickiness, exit liquidity), the experimental 14-day forward yield forecast bands (p10/p50/p90), and retail access restrictions. Look up by pool_id, or by exact asset symbol (highest-TVL railed match, with candidates listed). The forecast is experimental."
+      "description": "Retrieve the DeFi Score (0-100) with its band name (AAA to HIGH RISK; DeFi Garden's own model output, not a credit rating), each pillar shown as a High / Medium / Low tier, never a number (yield stability, sustainability, capital stickiness, exit liquidity), the experimental 14-day forward yield forecast range (low / central / high), and retail access restrictions. Look up by pool_id, or by exact asset symbol (highest-TVL railed match, with candidates listed). The forecast is experimental."
     },
     {
       "name": "forever_number",

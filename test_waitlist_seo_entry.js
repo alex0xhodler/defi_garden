@@ -1,8 +1,9 @@
 /* Playwright behavior gate for the SEO-page -> waitlist entry point (spec
    062): drives the REAL rendered plan.html UI (never fixture strings alone,
    2026-07-11 standing decision — 017's failure is the precedent). Opens
-   `plan.html?waitlist=1&src=seo_token` — the exact URL the new /tokens/ and
-   /chains/ page CTAs deep-link to — and asserts the waitlist modal actually
+   `plan.html?waitlist=1&src=seo_token` — the planner's waitlist entry URL (no generated
+   SEO page links here any more — the card lives only at /for/*; plan.html
+   keeps handling the param for legacy inbound links) — and asserts the waitlist modal actually
    auto-opens on load and `Analytics.trackWaitlistOpened` actually fires with
    `source: 'seo_token'`.
 
@@ -141,35 +142,6 @@ async function main() {
       await page3.close();
       if (!opened || opened[2].source !== 'seo_chain') {
         throw new Error('expected source=seo_chain, got ' + JSON.stringify(opened && opened[2] && opened[2].source));
-      }
-    });
-
-    // 079: the hub/az spine now carries the same CTA. Drive the REAL served
-    // tokens/index.html end-to-end: the CTA must be visible, clicking it must
-    // land on plan.html with the waitlist modal open and waitlist_opened
-    // tagged source=seo_tokens_hub (the hub surface's own source).
-    await test('tokens/index.html CTA is visible, clicks through to the waitlist modal with source=seo_tokens_hub', async () => {
-      const page4 = await context.newPage();
-      await page4.goto(`http://localhost:${PORT}/tokens/index.html`, {
-        waitUntil: 'domcontentloaded', timeout: 15000
-      });
-      // The waitlist CTA (not the back-to-home hub-cta) — target by its href.
-      const cta = page4.locator('.hub-waitlist a.hub-cta[href*="waitlist=1"]');
-      await cta.waitFor({ state: 'visible', timeout: 5000 });
-      const href = await cta.getAttribute('href');
-      if (!/src=seo_tokens_hub/.test(href)) {
-        throw new Error('hub CTA href missing src=seo_tokens_hub: ' + href);
-      }
-      await Promise.all([
-        page4.waitForNavigation({ waitUntil: 'domcontentloaded', timeout: 15000 }),
-        cta.click()
-      ]);
-      await page4.waitForSelector('.gp-waitlist-backdrop', { timeout: 5000 });
-      const calls = await page4.evaluate(() => (window.mixpanel || []).filter(c => Array.isArray(c) && c[0] === 'track'));
-      const opened = calls.find(c => c[1] === 'waitlist_opened');
-      await page4.close();
-      if (!opened || opened[2].source !== 'seo_tokens_hub') {
-        throw new Error('expected source=seo_tokens_hub, got ' + JSON.stringify(opened && opened[2] && opened[2].source));
       }
     });
   } finally {
