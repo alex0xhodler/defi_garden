@@ -94,16 +94,8 @@
 /telegram-bot/
 /whatsapp-bot/
 /workers/
-# edge/: the Worker source stays off the CDN. EXCEPTION: api-core.js and x402-core.js
-# are required by the Vercel function api/v1/history.js (the existing x402 gate), so
-# they must stay in the deployment. Everything else in edge/ is listed explicitly
-# (no `!` negations by design).
-/edge/agent-log-core.js
-/edge/agent-log.mjs
-/edge/laso-core.js
-/edge/mcp-core.js
-/edge/web-bot-auth-core.js
-/edge/generate-pricing-docs.js
-/edge/wrangler.toml
-/edge/schema.sql
-/edge/*.md
+# edge/: the whole Worker source dir stays off the CDN. The x402 gate modules the
+# Vercel function needs live in api/_edge/ (underscore = not a route, and api/ source
+# is never served statically), with thin re-export shims left in edge/ for the
+# Cloudflare Worker and the tests. Excluding edge/ drops only the shims.
+/edge/

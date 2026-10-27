@@ -149,7 +149,7 @@ test('validation never runs before auth (no oracle for anonymous callers)', asyn
 
 console.log('x402');
 test('x402 enabled, no payment -> 402 challenge at the terminal price', async () => {
-  const x = require('./edge/x402-core.js');
+  const x = require('./api/_edge/x402-core.js');
   const env = { X402_ENABLED: 'true', X402_PAY_TO: '0x0000000000000000000000000000000000000001', X402_ASSET: '0x0000000000000000000000000000000000000002' };
   const r = await invoke(make({ x402: x, env }));
   assert.strictEqual(r.status, 402);
@@ -175,7 +175,7 @@ test('x402 gate mock: paid -> 200 access=x402 with X-PAYMENT-RESPONSE; unpaid ->
 });
 test('x402 module unavailable or disabled -> plain 401 for anonymous callers', async () => {
   assert.strictEqual((await invoke(make({ x402: null }))).status, 401);
-  assert.strictEqual((await invoke(make({ x402: require('./edge/x402-core.js') }))).status, 401); // X402_ENABLED unset
+  assert.strictEqual((await invoke(make({ x402: require('./api/_edge/x402-core.js') }))).status, 401); // X402_ENABLED unset
 });
 
 console.log('score history (D1 REST, mocked)');
@@ -220,11 +220,14 @@ test('vercel.json bundles the data for the function and marks /api/v1 no-store',
   const rule = v.headers.find((h) => h.source === '/api/v1/(.*)');
   assert.ok(rule && rule.headers.some((h) => h.key === 'Cache-Control' && /no-store/.test(h.value)));
 });
-test('.vercelignore keeps only the x402 gate files of edge/ in the deploy; the paid score store is never a static path', () => {
+test('.vercelignore excludes all of edge/; the x402 gate the function needs is bundled from api/_edge/, never a public path', () => {
   const lines = fs.readFileSync(path.join(__dirname, '.vercelignore'), 'utf8').split('\n').map((l) => l.trim()).filter((l) => l && !l.startsWith('#'));
-  assert.ok(!lines.includes('/edge/'), 'edge/ is excluded file by file now');
-  const kept = fs.readdirSync(path.join(__dirname, 'edge')).filter((f) => !lines.some((l) => l === '/edge/' + f || (l === '/edge/*.md' && f.endsWith('.md'))));
-  assert.deepStrictEqual(kept.sort(), ['api-core.js', 'x402-core.js']);
+  assert.ok(lines.includes('/edge/'), 'edge/ is excluded wholesale');
+  assert.ok(!lines.some((l) => /^\/?api\//.test(l)), 'api/ must not be ignored: the function and api/_edge/ must stay in the bundle');
+  for (const f of ['api-core.js', 'x402-core.js']) assert.ok(fs.existsSync(path.join(__dirname, 'api', '_edge', f)), 'api/_edge/' + f + ' exists');
+  const src = fs.readFileSync(path.join(__dirname, 'api', '_terminal-history.js'), 'utf8');
+  assert.ok(/require\('\.\/_edge\/x402-core\.js'\)/.test(src) && !/require\('\.\.\/edge\//.test(src), 'the function must not require anything under edge/ (it is not deployed)');
+  assert.strictEqual(require('./edge/x402-core.js'), require('./api/_edge/x402-core.js'), 'edge shim re-exports the canonical module');
   assert.ok(lines.includes('/scripts/'), 'scripts/ (incl. record-daily-scores.js) stays off the CDN');
 });
 
