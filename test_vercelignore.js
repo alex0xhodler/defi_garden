@@ -398,6 +398,7 @@ const MUST_EXCLUDE = [
   'workers/mixpanel-proxy/worker.js', 'workers/mixpanel-proxy/wrangler.toml',
   'src/poller.js', 'src/poller-core.js',
   'edge/agent-log-core.js', 'edge/agent-log.mjs', 'edge/wrangler.toml',
+  'edge/api-core.js', 'edge/x402-core.js', 'edge/mcp-core.js', 'edge/laso-core.js',
   'test_fixtures/pools-sample.json', 'test-fixtures/pre166/llms-pre166.txt',
   // 2026-10-25 (proprietary DeFi Score): engine/ops source must not be served
   'scripts/evaluate-forecast-accuracy.js', 'keeper/keeper_engine.py', 'tests/test_lending_core.py',
@@ -419,6 +420,12 @@ if (githubTrackedSample) MUST_EXCLUDE.push(githubTrackedSample);
 test('(d) every MUST-EXCLUDE path is a real tracked file (fixture sanity)', () => {
   const missingOnDisk = MUST_EXCLUDE.filter((f) => !ALL_FILES_SET.has(f));
   assert.deepStrictEqual(missingOnDisk, [], `MUST_EXCLUDE names file(s) not tracked by git at all: ${JSON.stringify(missingOnDisk)}`);
+});
+
+test('(d) no edge/ path is publicly deployable (x402/api cores are bundled from api/_edge/, which is not static)', () => {
+  const leaked = ALL_FILES.filter((f) => f.startsWith('edge/') && !EXCLUDED_SET.has(f));
+  assert.deepStrictEqual(leaked, [], 'edge/ files still served: ' + JSON.stringify(leaked));
+  assert.ok(ALL_FILES.includes('api/_edge/x402-core.js') && ALL_FILES.includes('api/_edge/api-core.js'));
 });
 
 for (const f of MUST_EXCLUDE) {

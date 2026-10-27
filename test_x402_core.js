@@ -1024,7 +1024,7 @@ console.log('  pricing doc generated correctly from the schedule; availability s
 // ===========================================================================
 console.log('\nK. no hardcoded credential in edge/x402-core.js');
 
-const x402Src = fs.readFileSync(path.join(EDGE_DIR, 'x402-core.js'), 'utf8');
+const x402Src = fs.readFileSync(path.join(__dirname, 'api', '_edge', 'x402-core.js'), 'utf8');
 ok(!/0x[a-fA-F0-9]{40}/.test(x402Src), 'edge/x402-core.js source contains no literal 40-hex-char address (Ethereum-shaped)');
 ok(!/payTo\s*[:=]\s*['"][^'"]+['"]/.test(x402Src), 'edge/x402-core.js source contains no hardcoded payTo string literal');
 

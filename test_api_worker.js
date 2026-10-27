@@ -79,7 +79,7 @@ console.log(`  parsed from app.js: APY_SANITY_LIMIT=${APP_JS_APY_SANITY_LIMIT}, 
 // api-core.js must not declare either rail literal itself — grep-provable,
 // asserted here too (not just eyeballed) so a regression fails this file,
 // not just a manual review.
-const apiCoreSrc = fs.readFileSync(path.join(EDGE_DIR, 'api-core.js'), 'utf8');
+const apiCoreSrc = fs.readFileSync(path.join(__dirname, 'api', '_edge', 'api-core.js'), 'utf8');
 const strayApySanityLiteral = /(?<!APY_SANITY_LIMIT[\s\S]{0,40})\b1000\b(?!\d)/.test(apiCoreSrc);
 const strayMinTvlLiteral = /\b100000\b/.test(apiCoreSrc);
 ok(!strayMinTvlLiteral, 'api-core.js must not contain the literal 100000 anywhere (it must read DEFAULT_MIN_TVL from trust-rails.js, never redeclare it)');

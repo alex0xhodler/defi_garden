@@ -218,7 +218,7 @@ function howToGetAccess(x402On) {
 }
 
 function loadX402() {
-  try { return require('../edge/x402-core.js'); } catch (_e) { return null; }
+  try { return require('./_edge/x402-core.js'); } catch (_e) { return null; }
 }
 
 function createHandler(opts) {

@@ -95,7 +95,7 @@ for (const [railName, railValue] of RAIL_CHECKS) {
 // guarding a field the moment projectPool starts reading a new one (it
 // already missed apyMean30d, poolMeta, exposure, ilRisk, url, chain,
 // project, symbol, and the bracket-access form entirely).
-const apiCoreSrc = fs.readFileSync(path.join(EDGE_DIR, 'api-core.js'), 'utf8');
+const apiCoreSrc = fs.readFileSync(path.join(__dirname, 'api', '_edge', 'api-core.js'), 'utf8');
 
 function extractBalancedBraceBody(src, headPattern) {
   const m = headPattern.exec(src);
