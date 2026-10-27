@@ -9,10 +9,16 @@ name: History poll (D1 samples, 3-hourly)
 # ~3k rows x 8 runs = ~24k writes/day (samples is WITHOUT ROWID with no secondary
 # indexes, so 1 write per row) + ~24k rows read/day for the sticky lookup.
 # The old Worker keeps running untouched until this is verified.
+#
+# Triggering: GitHub drops/delays ~45% of scheduled runs, so the PRIMARY trigger is
+# the Cloudflare Worker workers/history-poll-trigger, which dispatches this workflow
+# (workflow_dispatch) at slot start + 5 min. The `schedule` below is only a FALLBACK,
+# firing ~1h50m into each 3-hour slot (01:50, 04:50, ...); scripts/history-poll.js
+# skips schedule-triggered runs when the slot already has rows in D1.
 
 on:
   schedule:
-    - cron: '7 */3 * * *'
+    - cron: '50 1-22/3 * * *'
   workflow_dispatch:
     inputs:
       dry_run:

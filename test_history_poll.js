@@ -113,5 +113,40 @@ const r3 = run(['--dry-run', '--out', path.join(tmp, 'o3.sql'), '--pools-fixture
 eq(r3.status, 1, '<1000 pools aborts with exit 1');
 ok(/ABORT/.test(r3.stderr) && !fs.existsSync(path.join(tmp, 'o3.sql')), 'abort writes nothing');
 
+// --- fallback skip (GITHUB_EVENT_NAME=schedule), fake npx answering the count query ---
+const bin2 = path.join(tmp, 'bin2'); fs.mkdirSync(bin2);
+const marker2 = path.join(tmp, 'npx2-called');
+const fakeNpx2 = (json) => fs.writeFileSync(path.join(bin2, 'npx'), `#!/bin/sh\necho "$@" >> "${marker2}"\necho '${json}'\n`, { mode: 0o755 });
+const runSched = (evt, extra) => spawnSync(process.execPath, [path.join(__dirname, 'scripts', 'history-poll.js'), '--out', path.join(tmp, 'o4.sql'), '--pools-fixture', poolsF, '--stocks-fixture', stocksF, '--prev-ids-file', prevF, ...extra],
+  { encoding: 'utf8', env: { ...process.env, PATH: bin2 + path.delimiter + process.env.PATH, GITHUB_STEP_SUMMARY: '', GITHUB_EVENT_NAME: evt } });
+fakeNpx2('[{"results":[{"n":1}],"success":true}]');
+const s1 = runSched('schedule', []);
+eq(s1.status, 0, 'skipped fallback exits 0: ' + s1.stderr);
+ok(/already written, fallback run skipped/.test(s1.stdout) && !/history-poll slot=/.test(s1.stdout), 'fallback skipped when slot has rows');
+ok(/SELECT COUNT\(\*\) AS n FROM \(SELECT 1 FROM samples WHERE ts = \d+ LIMIT 1\)/.test(fs.readFileSync(marker2, 'utf8')), 'count query sent to wrangler');
+fs.rmSync(marker2);
+const s2 = runSched('workflow_dispatch', []);
+ok(!fs.existsSync(marker2) || !/COUNT/.test(fs.readFileSync(marker2, 'utf8')), 'dispatched run does not run the skip check');
+ok(!/fallback run skipped/.test(s2.stdout), 'dispatched run always polls');
+fs.rmSync(marker2, { force: true });
+const s3 = runSched('schedule', ['--dry-run']);
+ok(!/fallback run skipped/.test(s3.stdout) && !fs.existsSync(marker2), 'dry-run never skips');
+fakeNpx2('[{"results":[{"n":0}],"success":true}]');
+const s4 = runSched('schedule', []);
+ok(!/fallback run skipped/.test(s4.stdout), 'empty slot: fallback polls on');
+fs.writeFileSync(path.join(bin2, 'npx'), '#!/bin/sh\nexit 1\n', { mode: 0o755 });
+const s5 = runSched('schedule', []);
+ok(/WARN skip check/.test(s5.stderr) && !/fallback run skipped/.test(s5.stdout), 'failed check warns and continues polling');
+
+// --- fallback skip check helpers ---------------------------------------------
+eq(core.slotExistsSql(MIDNIGHT), `SELECT COUNT(*) AS n FROM (SELECT 1 FROM samples WHERE ts = ${MIDNIGHT} LIMIT 1)`, 'slotExistsSql shape');
+eq(core.slotExistsSql(MIDNIGHT + 0.9), core.slotExistsSql(MIDNIGHT), 'slotExistsSql floors ts');
+assert.throws(() => core.slotExistsSql('x'), /bad ts/); passed++;
+eq(core.countFromD1Json([{ results: [{ n: 1 }], success: true }]), 1, 'count 1');
+eq(core.countFromD1Json([{ results: [{ n: 0 }] }]), 0, 'count 0');
+assert.throws(() => core.countFromD1Json([]), /unexpected/); passed++;
+assert.throws(() => core.countFromD1Json([{ results: [] }]), /unexpected/); passed++;
+assert.throws(() => core.countFromD1Json({ n: 1 }), /unexpected/); passed++;
+
 fs.rmSync(tmp, { recursive: true, force: true });
 console.log(`test_history_poll: ${passed} assertions passed`);
