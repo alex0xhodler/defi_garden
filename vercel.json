@@ -1,6 +1,12 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
+  "functions": {
+    "api/v1/history.js": {
+      "includeFiles": "data/{forecasts,history}/*.json",
+      "maxDuration": 10
+    }
+  },
   "rewrites": [
     {
       "source": "/",
@@ -1456,6 +1462,13 @@
         { "key": "Cache-Control", "value": "no-store" },
         { "key": "Access-Control-Allow-Methods", "value": "GET, POST, OPTIONS" },
         { "key": "Access-Control-Allow-Headers", "value": "Content-Type, Accept, Authorization, MCP-Protocol-Version, x-mcp-version" }
+      ]
+    },
+    {
+      "source": "/api/v1/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "private, no-store" },
+        { "key": "X-Robots-Tag", "value": "noindex" }
       ]
     },
     {
