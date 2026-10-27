@@ -25,6 +25,9 @@ const YIELDS_API = require('./llama-endpoints.js').pools();
 const LANG_CONFIG = require('./languages');
 const LANGUAGES = LANG_CONFIG.FULL_SCOPE_CODES.slice();
 const STATIC_HUB_PATHS = new Set(['/tokens', '/chains']);
+// Static English pages with a Korean twin written by generate-ko-static.js /
+// generate-stock-ticker-pages.js.
+const STATIC_KO_TWIN_RE = /^\/(?:methodology|stocks\/[a-z0-9-]+)$/;
 
 // Sitemap URL quality gate (013 — GSC fix, specs/013.md).
 // Mirrors the app's own default rendering threshold so a sitemap URL never
@@ -468,6 +471,14 @@ function alternateUrlFor(baseUrl, lang) {
   if (LANG_CONFIG.LANG_CODES.includes(lang)) {
     try {
       const url = new URL(baseUrl);
+      // /methodology and /stocks/<ticker> have real Korean twins (/ko/methodology,
+      // /ko/stocks/<ticker>): the ko alternate is the clean path, never ?lang=ko.
+      // (/stocks, the interactive terminal, stays on the ?lang=ko app URL.)
+      if (STATIC_KO_TWIN_RE.test(url.pathname)) {
+        url.pathname = LANG_CONFIG.langPath(lang, url.pathname);
+        url.searchParams.delete('lang');
+        return url.toString();
+      }
       if (STATIC_HUB_PATHS.has(url.pathname) ||
           url.pathname.startsWith('/tokens/') || url.pathname.startsWith('/chains/')) {
         url.pathname = LANG_CONFIG.langPath(lang, url.pathname);
@@ -521,16 +532,22 @@ function generateUrlXml(baseUrl, lastmod, priority, changefreq) {
 }
 
 /**
- * One English-only URL entry (no hreflang alternates) with a fixed lastmod, for
- * the /stocks/<ticker> pages.
+ * One /stocks/<ticker> URL entry (en, or the /ko/stocks/<ticker> twin) with the
+ * reciprocal en / ko / x-default alternates and a fixed lastmod.
  */
-function stockPageUrlXml(loc, lastmod) {
-  return '  <url>\n' +
-    `    <loc>${escapeXml(loc)}</loc>\n` +
-    `    <lastmod>${lastmod}</lastmod>\n` +
-    '    <changefreq>daily</changefreq>\n' +
-    '    <priority>0.7</priority>\n' +
-    '  </url>\n';
+function stockPageUrlXml(loc, lastmod, lang) {
+  return lang === 'ko' ? koTwinUrlXml(loc, lastmod, '0.7', 'daily') : generateUrlXml(loc, lastmod, '0.7', 'daily');
+}
+
+/**
+ * The Korean twin's own <url> entry for an English static page: <loc> is the
+ * /ko/... URL and the en / ko / x-default alternates are the same reciprocal
+ * cluster the English entry carries.
+ */
+function koTwinUrlXml(enUrl, lastmod, priority, changefreq) {
+  const koUrl = alternateUrlFor(enUrl, 'ko');
+  return generateUrlXml(enUrl, lastmod, priority, changefreq)
+    .replace(`<loc>${escapeXml(enUrl)}</loc>`, `<loc>${escapeXml(koUrl)}</loc>`);
 }
 
 /**
@@ -696,6 +713,8 @@ async function generateSitemapSuite(poolsOverride) {
     sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}guide/defi-yield-rates-explained`, LASTMOD_PLACEHOLDER, '0.8', 'monthly'));
     // /methodology (2026-10-24 "The Standard"): static methodology.html — what the DeFi Score is, how it is built, how it is measured.
     sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}methodology`, LASTMOD_PLACEHOLDER, '0.9', 'monthly'));
+    // Korean twin (ko/methodology.html, built by generate-ko-static.js): KO static pages sitemap.
+    sitemaps['sitemap-pages-ko.xml'] = [koTwinUrlXml(`${SITE_URL}methodology`, LASTMOD_PLACEHOLDER, '0.9', 'monthly')];
     // forecast-accuracy temporarily omitted while pipeline is rebuilt (P0-1)
     // /mcp is intentionally NOT listed: it is the MCP JSON endpoint (application/json), not a page.
 
@@ -715,7 +734,8 @@ async function generateSitemapSuite(poolsOverride) {
 
     // /stocks/<ticker> comparison pages (generate-stock-ticker-pages.js): one URL per
     // ticker with >= 2 verified token versions, from the SAME eligibility predicate the
-    // page generator uses. English only (no hreflang alternates). lastmod is the data
+    // page generator uses, once as /stocks/<ticker> and once as the /ko/stocks/<ticker>
+    // twin (sitemap-stock-pages-ko.xml), both with reciprocal en/ko/x-default alternates. lastmod is the data
     // file's generatedAt (the pages change with every daily data build), so this file
     // bypasses the placeholder/preservation path. Absent data file => no sitemap.
     stockPagesLastmod = null;
@@ -726,6 +746,7 @@ async function generateSitemapSuite(poolsOverride) {
       if (stockPages.length && !isNaN(stocksMod.getTime())) {
         stockPagesLastmod = stocksMod.toISOString();
         sitemaps['sitemap-stock-pages.xml'] = stockPages.map(e => stockPageUrlXml(`${SITE_URL}stocks/${e.slug}`, stockPagesLastmod));
+        sitemaps['sitemap-stock-pages-ko.xml'] = stockPages.map(e => stockPageUrlXml(`${SITE_URL}stocks/${e.slug}`, stockPagesLastmod, 'ko'));
       }
     } catch (e) { /* data/stocks-versions.json missing or unreadable: no stock-page sitemap */ }
 
@@ -865,7 +886,7 @@ async function generateSitemapSuite(poolsOverride) {
     for (const filename of generatedFilenames) {
       if (sitemaps[filename].length > 0) {
         const existing = parseExistingUrlEntries(filename);
-        const { entries, maxLastmod } = filename === 'sitemap-stock-pages.xml'
+        const { entries, maxLastmod } = (filename === 'sitemap-stock-pages.xml' || filename === 'sitemap-stock-pages-ko.xml')
           ? { entries: sitemaps[filename], maxLastmod: stockPagesLastmod }
           : resolveLastmods(sitemaps[filename], existing, now);
         childMaxLastmod[filename] = maxLastmod || now;

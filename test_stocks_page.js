@@ -425,7 +425,8 @@ check('stocks.js header: Search / Stocks / Methodology / API with Stocks current
   const src = fs.readFileSync('stocks.js', 'utf8');
   const i = src.indexOf("link('/?app=1'");
   const block = src.slice(i, i + 700);
-  assert.ok(block.indexOf("'/stocks'") > 0 && block.indexOf("'/stocks'") < block.indexOf("'/methodology'") && block.indexOf("'/methodology'") < block.indexOf("'/mcp'"));
+  assert.ok(block.indexOf("'/stocks'") > 0 && block.indexOf("'/stocks'") < block.indexOf("methodologyHref(props.language)") && block.indexOf("methodologyHref(props.language)") < block.indexOf("'/mcp'"));
+  assert.ok(/function methodologyHref\(language\) \{ return language === 'ko' \? '\/ko\/methodology' : '\/methodology'; \}/.test(src), 'KO header/footer Methodology link goes to /ko/methodology');
   assert.ok(/'\/stocks'[^\n]*aria-current/.test(block));
   assert.ok(src.includes("e('a', { href: '/stocks' }, rc.stocksLink"));
   assert.ok(fs.readFileSync('stocks.html', 'utf8').includes('data/stocks-versions.json'));

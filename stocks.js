@@ -541,7 +541,9 @@
     return { verified: verified, unverified: t.unverified.slice() };
   }
 
-  function staticPageHref(ticker) { return '/stocks/' + String(ticker).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, ''); }
+  // The per-ticker comparison page; KO has its own twin at /ko/stocks/<ticker> (generate-stock-ticker-pages.js).
+  function staticPageHref(ticker, language) { return (language === 'ko' ? '/ko' : '') + '/stocks/' + String(ticker).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, ''); }
+  function methodologyHref(language) { return language === 'ko' ? '/ko/methodology' : '/methodology'; }
 
   // Spread and premium cells: text plus the tooltip that explains a dash. `copy` is
   // the localized table. A premium is never shown when null.
@@ -691,7 +693,7 @@
     parseTickerParam: parseTickerParam, buildTickerSearch: buildTickerSearch, filterTickers: filterTickers,
     groupVersions: groupVersions, bestYieldCandidates: bestYieldCandidates, versionCells: versionCells,
     referenceLine: referenceLine, cexLines: cexLines, riskFacts: riskFacts, issuerInfoOf: issuerInfoOf,
-    staticPageHref: staticPageHref, fmtDayOrDate: fmtDayOrDate
+    staticPageHref: staticPageHref, methodologyHref: methodologyHref, fmtDayOrDate: fmtDayOrDate
   };
 
   if (typeof module !== 'undefined' && module.exports) module.exports = logic;
@@ -891,7 +893,7 @@
       return [
         link('/?app=1', lc.navSearch, { key: 'search' }, mobile),
         link('/stocks', lc.navStocks || 'Stocks', { key: 'stocks', 'aria-current': 'page' }, mobile),
-        link('/methodology', lc.navMethodology || 'Methodology', { key: 'methodology' }, mobile),
+        link(methodologyHref(props.language), lc.navMethodology || 'Methodology', { key: 'methodology' }, mobile),
         link('/mcp', lc.navApi || 'API', { key: 'api' }, mobile)
       ];
     };
@@ -1416,7 +1418,7 @@
           e('span', { className: 'stocks-sub' }, copy.vVersionCount(fmtInt(t.versions.length, copy.dash))),
           e(MarketChip, { copy: copy })),
         t.versions.length >= 2 ? e('p', { className: 'stocks-v-static' },
-          e('a', { href: staticPageHref(t.ticker), 'data-testid': 'stocks-v-static-link' }, copy.vStaticLink(t.ticker))) : null,
+          e('a', { href: staticPageHref(t.ticker, props.language), 'data-testid': 'stocks-v-static-link' }, copy.vStaticLink(t.ticker))) : null,
         e('p', { className: 'stocks-v-ref', 'data-testid': 'stocks-v-ref' }, referenceLine(t, copy)),
         e('p', { className: 'stocks-live-note', role: 'status', 'data-testid': 'stocks-v-live-note', 'data-state': vs.liveStatus }, liveNote),
         groups.verified.length ? e(VersionsTable, { versions: groups.verified, copy: copy, data: data }) : null,
@@ -1609,7 +1611,7 @@
           e('div', { className: 'dt-panel-label' }, copy.noticeLabel),
           e('p', null, copy.noticeText)
         ),
-        e(VersionsSection, { copy: copy }),
+        e(VersionsSection, { copy: copy, language: language }),
         e('section', { className: 'stocks-stats', 'aria-label': copy.statTvl, 'data-testid': 'stocks-stats' },
           e('div', { className: 'dt-metric' }, e('div', { className: 'dt-metric-name' }, copy.statTvl), e('div', { className: 'dt-metric-val' }, fmtUsd(agg.tvl, copy.dash))),
           e('div', { className: 'dt-metric' }, e('div', { className: 'dt-metric-name' }, copy.statPools), e('div', { className: 'dt-metric-val' }, fmtInt(agg.count, copy.dash))),
@@ -1667,7 +1669,7 @@
           e('a', { href: '/tokens' }, rc.browseTokens), ' · ',
           e('a', { href: '/chains' }, rc.browseChains), ' · ',
           e('a', { href: '/stocks' }, rc.stocksLink || 'Stocks'), ' · ',
-          e('a', { href: '/methodology' }, rc.methodologyLink || 'Methodology'), ' · ',
+          e('a', { href: methodologyHref(language) }, rc.methodologyLink || 'Methodology'), ' · ',
           e('a', { href: '/mcp' }, rc.apiLink || 'API')
         )
       )

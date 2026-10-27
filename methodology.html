@@ -6,6 +6,9 @@
     <title>Methodology: How the DeFi Score and 14-Day Forecast Work | DeFi Garden</title>
     <meta name="description" content="How DeFi Garden builds the 0-100 DeFi Score (yield stability, sustainability, capital stickiness, exit liquidity), the AAA to HIGH RISK bands, the 14-day yield forecast range, the trust rails and the public track record. Education, not advice.">
     <link rel="canonical" href="https://www.defi.garden/methodology">
+    <link rel="alternate" hreflang="en" href="https://www.defi.garden/methodology">
+    <link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/methodology">
+    <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/methodology">
     <meta name="robots" content="index,follow">
     <meta property="og:type" content="article">
     <meta property="og:title" content="Methodology: How the DeFi Score and 14-Day Forecast Work | DeFi Garden">
@@ -42,6 +45,23 @@
         text-decoration: none;
         white-space: nowrap;
       }
+      .meth-head-right { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; justify-content: flex-end; }
+      .meth-lang {
+        display: inline-flex;
+        align-items: center;
+        min-height: 32px;
+        box-sizing: border-box;
+        padding: 0 12px;
+        border: 1px solid var(--ui-border);
+        border-radius: var(--ui-radius-pill);
+        background: var(--ui-surface);
+        color: var(--ui-accent);
+        font-size: 0.85rem;
+        font-weight: 600;
+        text-decoration: none;
+      }
+      .meth-lang:hover { background: var(--ui-surface-muted); }
+      .meth-lang:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
       .meth-nav { display: flex; gap: 20px; }
       .meth-nav a {
         color: var(--ui-text-secondary);
@@ -158,12 +178,15 @@
 <body>
     <header class="meth-header">
         <a href="/" class="meth-logo">DeFi Garden 🌱</a>
-        <nav class="meth-nav" aria-label="Primary navigation">
-            <a href="/?app=1">Search</a>
-            <a href="/stocks">Stocks</a>
-            <a href="/methodology" aria-current="page">Methodology</a>
-            <a href="/mcp">API</a>
-        </nav>
+        <div class="meth-head-right">
+            <nav class="meth-nav" aria-label="Primary navigation">
+                <a href="/?app=1">Search</a>
+                <a href="/stocks">Stocks</a>
+                <a href="/methodology" aria-current="page">Methodology</a>
+                <a href="/mcp">API</a>
+            </nav>
+            <a class="meth-lang" href="/ko/methodology" hreflang="ko" lang="ko" aria-label="한국어">한국어</a>
+        </div>
     </header>
 
     <main class="meth-wrap">

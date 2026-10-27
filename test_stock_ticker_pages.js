@@ -116,14 +116,17 @@ check('H1 is the long form with verified issuers in table order', () => {
   assert.ok(bySlug.long.h1.startsWith('LONG tokenized stock: Alphabetical Issuer vs Bravo Securities Group vs '));
 });
 
-check('canonical, OG, Twitter, robots, EN only (no hreflang)', () => {
+check('canonical, OG, Twitter, robots, reciprocal hreflang en / ko / x-default', () => {
   const h = bySlug.aaa.html;
   assert.ok(h.includes('<link rel="canonical" href="https://www.defi.garden/stocks/aaa">'));
   assert.ok(h.includes('property="og:image" content="https://www.defi.garden/og-image.png"'));
   assert.ok(h.includes('property="og:title"') && h.includes('property="og:url" content="https://www.defi.garden/stocks/aaa"'));
   assert.ok(h.includes('name="twitter:card"') && h.includes('name="twitter:title"') && h.includes('name="twitter:image"'));
   assert.ok(h.includes('<meta name="robots" content="index,follow">'));
-  assert.ok(!/hreflang/.test(h));
+  assert.ok(h.includes('<link rel="alternate" hreflang="en" href="https://www.defi.garden/stocks/aaa">'));
+  assert.ok(h.includes('<link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/stocks/aaa">'));
+  assert.ok(h.includes('<link rel="alternate" hreflang="x-default" href="https://www.defi.garden/stocks/aaa">'));
+  assert.ok(h.includes('class="st-lang" href="https://www.defi.garden/ko/stocks/aaa" hreflang="ko" lang="ko"'), 'language switch to KO');
   assert.ok(h.includes('<html lang="en">'));
 });
 
@@ -213,6 +216,102 @@ check('static chrome: nav, footer, disclaimer, tokens only, no emojis, no FAQ ma
   assert.ok(!/<script src|fetch\(/.test(h), 'no JS dependency');
 });
 
+// ------------------------------------------------------------------ Korean ---
+const koPages = gen.buildAll(data, 'ko');
+const koBySlug = {};
+koPages.forEach((p) => { koBySlug[p.slug] = p; });
+const hangul = /[가-힣]/;
+
+check('KO: same eligible tickers as EN, canonical /ko/stocks/<slug>, lang="ko", reciprocal hreflang, EN switch', () => {
+  assert.deepStrictEqual(koPages.map((p) => p.slug), pages.map((p) => p.slug));
+  koPages.forEach((p) => {
+    const en = bySlug[p.slug];
+    assert.ok(p.html.includes('<html lang="ko">'));
+    assert.ok(p.html.includes('<link rel="canonical" href="https://www.defi.garden/ko/stocks/' + p.slug + '">'));
+    assert.ok(p.html.includes('<meta property="og:url" content="https://www.defi.garden/ko/stocks/' + p.slug + '">') && p.html.includes('property="og:locale" content="ko_KR"'));
+    ['en', 'ko'].forEach((l) => {
+      const href = (l === 'ko' ? '/ko' : '') + '/stocks/' + p.slug;
+      assert.ok(p.html.includes('<link rel="alternate" hreflang="' + l + '" href="https://www.defi.garden' + href + '">'), l);
+      assert.ok(en.html.includes('<link rel="alternate" hreflang="' + l + '" href="https://www.defi.garden' + href + '">'), 'EN page carries ' + l);
+    });
+    assert.ok(p.html.includes('<link rel="alternate" hreflang="x-default" href="https://www.defi.garden/stocks/' + p.slug + '">'));
+    assert.ok(p.html.includes('class="st-lang" href="https://www.defi.garden/stocks/' + p.slug + '" hreflang="en"'));
+    assert.ok(p.html.includes('<meta name="robots" content="index,follow">'));
+  });
+});
+
+check('KO: titles <= 60 chars in Korean, brand suffix, Hangul present, og/twitter titles match', () => {
+  koPages.forEach((p) => {
+    assert.ok(p.title.length <= 60, p.title.length + ' ' + p.title);
+    assert.ok(p.title.endsWith(' | DeFi Garden') && p.title.startsWith(p.ticker + ' 토큰화 주식'), p.title);
+    assert.ok(hangul.test(p.title) && p.html.includes('<title>' + p.title + '</title>'));
+    assert.ok(p.html.includes('property="og:title" content="' + p.title + '"') && p.html.includes('name="twitter:title" content="' + p.title + '"'));
+  });
+  assert.strictEqual(koBySlug.aaa.title, 'AAA 토큰화 주식: xStocks vs Coinbase | DeFi Garden');
+  assert.ok(gen.buildTitle('ZZZZZZZZZZ', [{ issuer: 'Averyveryveryverylongissuername' }, { issuer: 'Anotherveryveryverylongissuer' }], 'ko').length <= 60);
+  assert.ok(koBySlug.long.title.length <= 60 && /버전 6개/.test(koBySlug.long.title), koBySlug.long.title);
+  assert.strictEqual(koBySlug.aaa.h1, 'AAA 토큰화 주식: xStocks vs Coinbase — 가격·차이·유동성·수익률 비교');
+});
+
+check('KO: JSON-LD BreadcrumbList + Dataset, inLanguage ko, ISO dates, canonical urls, no "<"', () => {
+  koPages.forEach((p) => {
+    const blocks = [...p.html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map((m) => m[1]);
+    assert.strictEqual(blocks.length, 2);
+    blocks.forEach((b) => assert.ok(!b.includes('<')));
+    const docs = blocks.map((b) => JSON.parse(b));
+    assert.deepStrictEqual(docs.map((d) => d['@type']).sort(), ['BreadcrumbList', 'Dataset']);
+    const bc = docs.find((d) => d['@type'] === 'BreadcrumbList');
+    assert.deepStrictEqual(bc.itemListElement.map((i) => i.name), ['홈', '주식', p.ticker]);
+    assert.strictEqual(bc.itemListElement[2].item, 'https://www.defi.garden/ko/stocks/' + p.slug);
+    const ds = docs.find((d) => d['@type'] === 'Dataset');
+    assert.strictEqual(ds.inLanguage, 'ko');
+    assert.strictEqual(ds.url, 'https://www.defi.garden/ko/stocks/' + p.slug);
+    assert.ok(/^\d{4}-\d{2}-\d{2}$/.test(ds.dateModified) && ds.dateModified === ds.datePublished && ds.dateModified === '2026-10-26');
+    assert.ok(hangul.test(ds.name) && hangul.test(ds.description) && ds.variableMeasured.every((v) => hangul.test(v.name)));
+  });
+});
+
+check('KO: table, notes, tiers, links and registry facts (numbers en-US, entities in original language)', () => {
+  const h = koBySlug.aaa.html;
+  ['발행사', '체인', '가격', '토큰 버전 중앙값 대비 차이', '주식 대비 프리미엄', '공급량 \\(USD\\)', '유동성', '최고 수익률', '거래소', '구조 · 상환']
+    .forEach((c) => assert.ok(new RegExp('<th scope="col"[^>]*>' + c + '</th>').test(h), c));
+  assert.ok(h.includes('<strong>아닙니다</strong>') && h.includes('실제 주식 대비 프리미엄'));
+  assert.ok(h.includes('Backed Assets (JE) Limited, Jersey'), 'legal entity stays in its original language');
+  assert.ok(h.includes('SPV token, 1:1 collateralised'), 'issuer structure wording stays in its original language');
+  assert.ok(h.includes('미국인(US person) 이용 불가') && h.includes('미국인(US person) 이용 여부 미확인'));
+  assert.ok(h.includes('$100.50') && h.includes('$1,234,567') && h.includes('$2,500,000') && h.includes('7.82%') && h.includes('±2% 깊이 $45,000'));
+  assert.ok(h.includes('Kraken: <strong>$100.10</strong>'));
+  assert.ok(/수익률 안정성: 낮음/.test(h) && /지속 가능성: 높음/.test(h) && /자본 유지력: 보통/.test(h) && /<details class="st-pillars"><summary>지표 단계/.test(h));
+  assert.ok(!/Yield stability|Capital stickiness/.test(h) && !h.includes('59.9') && !/pillarsPct|breakdown/.test(h));
+  assert.ok(/ · <span title="DeFi Score 등급[^>]*>A<\/span>/.test(h), 'rating shown as the band name');
+  const block = h.split('<h2>버전별로 다른 점</h2>')[1].split('<h2>')[0];
+  assert.ok(block.includes('발행 법인: Backed Assets (JE) Limited (Jersey).') && block.includes('미국인(US person)에게는 제공하지 않습니다.'));
+  assert.ok(block.includes('발행·상환 시간: 24/5.') && block.includes('배수: 토큰 1개당 주식 1.0005주.'));
+  assert.ok(h.includes('<h2>출처</h2>') && h.includes('href="https://docs.xstocks.fi"'));
+  assert.ok(h.includes('href="/stocks?ticker=AAA&amp;lang=ko"') && h.includes('href="/stocks?lang=ko"'));
+  assert.ok(h.includes('href="/ko/stocks/brk-b"') && !h.includes('href="/ko/stocks/aaa"') && !h.includes('href="/stocks/brk-b"'), 'KO siblings link to the KO pages');
+  assert.ok(h.includes('href="/?pool=' + POOL + '&amp;lang=ko"'));
+  assert.ok(h.includes('<a href="/ko/methodology">방법론</a>') && h.includes('<a href="/mcp">API</a>') && h.includes('<a href="/ko/tokens">토큰 둘러보기</a>'));
+  assert.ok(h.includes('<nav class="st-nav" aria-label="주요 메뉴">') && h.includes('<a href="/stocks?lang=ko" aria-current="true">주식</a>'));
+  assert.ok(/교육용이며 투자 조언이 아닙니다/.test(h));
+  assert.ok(!/null|undefined|NaN/.test(h));
+  const rows = h.split('<tr><th scope="row"').slice(1);
+  assert.strictEqual(rows.length, 3);
+  assert.ok(rows[0].includes('+0.50%') && rows[0].includes('마지막 종가 2026-10-23 대비'));
+  assert.ok(rows[1].includes('title="기준가를 가져올 수 없음"') && rows[2].includes('차이 없음 (배수 미확인)'));
+});
+
+check('KO: unverified tokens and hidden internals never appear (no weights, cutoffs, model names)', () => {
+  koPages.forEach((p) => {
+    assert.ok(!p.html.includes(UNV_SYMBOL) && !p.html.toLowerCase().includes(UNV_ADDR));
+    assert.ok(!/unverified|미확인 토큰/i.test(p.html.replace('이용 여부 미확인', '')));
+    const flat = p.html.replace(/<style>[\s\S]*?<\/style>/g, ' ').replace(/<[^>]+>/g, ' ');
+    assert.ok(!/timesfm|alchemy|google\/|pillarsPct|\bwhale|churn|haircut/i.test(flat));
+    assert.ok(!/(?:≥|>=)\s*(?:85|70|55|40)\b/.test(flat) && !/\b\d{1,3}(?:\.\d+)?\s*\/\s*(?:35|25|15)\b/.test(flat));
+    assert.ok(!/[\u{1F300}-\u{1FAFF}\u{2600}-\u{27BF}]/u.test(p.html), 'no emoji');
+  });
+});
+
 check('stale-page cleanup and no stocks/index.html (CLI)', () => {
   const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'stock-pages-'));
   try {
@@ -222,8 +321,13 @@ check('stale-page cleanup and no stocks/index.html (CLI)', () => {
     fs.mkdirSync(out);
     fs.writeFileSync(path.join(out, 'old.html'), 'x');
     fs.writeFileSync(path.join(out, 'index.html'), 'x');
-    execFileSync('node', [path.join(__dirname, 'generate-stock-ticker-pages.js'), '--out', out, '--data', dataFile], { stdio: 'ignore' });
+    const koOut = path.join(tmp, 'ko', 'stocks');
+    fs.mkdirSync(koOut, { recursive: true });
+    fs.writeFileSync(path.join(koOut, 'old.html'), 'x');
+    execFileSync('node', [path.join(__dirname, 'generate-stock-ticker-pages.js'), '--out', out, '--ko-out', koOut, '--data', dataFile], { stdio: 'ignore' });
     assert.deepStrictEqual(fs.readdirSync(out).sort(), ['aaa.html', 'brk-b.html', 'long.html']);
+    assert.deepStrictEqual(fs.readdirSync(koOut).sort(), ['aaa.html', 'brk-b.html', 'long.html'], 'KO twins written, stale KO page removed');
+    assert.ok(fs.readFileSync(path.join(koOut, 'aaa.html'), 'utf8').includes('<html lang="ko">'));
     // unreadable data leaves the directory untouched
     execFileSync('node', [path.join(__dirname, 'generate-stock-ticker-pages.js'), '--out', out, '--data', path.join(tmp, 'missing.json')], { stdio: 'ignore' });
     assert.strictEqual(fs.readdirSync(out).length, 3);
@@ -256,6 +360,21 @@ check('generated-output registration: site-outputs.txt and .gitignore carry stoc
   assert.ok(!gi.includes('stocks.html') && !gi.includes('/stocks*'));
 });
 
+check('generated-output registration: ko/ is a generated output too (ko/stocks, ko/methodology.html never committed)', () => {
+  const outputs = fs.readFileSync(path.join(__dirname, 'scripts', 'site-outputs.txt'), 'utf8').split('\n').map((l) => l.trim());
+  assert.ok(outputs.includes('ko'));
+  const gi = fs.readFileSync(path.join(__dirname, '.gitignore'), 'utf8').split('\n').map((l) => l.trim());
+  assert.ok(gi.includes('/ko/'));
+});
+
+check('CI: KO stock pages and ko/methodology.html are generated before the sitemap, both non-fatal', () => {
+  const wf = fs.readFileSync(path.join(__dirname, '.github', 'workflows', 'sitemap-update.yml'), 'utf8');
+  assert.ok(/node generate-stock-ticker-pages\.js --out stocks --ko-out ko\/stocks/.test(wf));
+  const ik = wf.indexOf('node generate-ko-static.js');
+  assert.ok(ik > wf.indexOf('node generate-stock-ticker-pages.js') && ik < wf.indexOf('node generate-sitemap.js'));
+  assert.ok(/continue-on-error: true\s+run: \|\s+node generate-ko-static\.js/.test(wf));
+});
+
 check('CI step runs after the versions step and is non-fatal', () => {
   const wf = fs.readFileSync(path.join(__dirname, '.github', 'workflows', 'sitemap-update.yml'), 'utf8');
   const iv = wf.indexOf('node generate-stocks-versions.js');
@@ -263,6 +382,16 @@ check('CI step runs after the versions step and is non-fatal', () => {
   const is = wf.indexOf('node generate-sitemap.js');
   assert.ok(iv > 0 && ip > iv && is > ip, 'order: versions < ticker pages < sitemap');
   assert.ok(/continue-on-error: true\s+run: \|\s+node generate-stock-ticker-pages\.js/.test(wf));
+});
+
+check('stocks.js links the KO static page and the KO methodology only in KO', () => {
+  const stocks = require('./stocks.js');
+  const logic = stocks.logic || stocks;
+  assert.strictEqual(logic.staticPageHref('BRK.B', 'ko'), '/ko/stocks/brk-b');
+  assert.strictEqual(logic.staticPageHref('NVDA', 'en'), '/stocks/nvda');
+  assert.strictEqual(logic.staticPageHref('NVDA'), '/stocks/nvda');
+  assert.strictEqual(logic.methodologyHref('ko'), '/ko/methodology');
+  assert.strictEqual(logic.methodologyHref('en'), '/methodology');
 });
 
 check('llms: Tokenized Stocks section lists ticker page URLs (tickers + URLs only)', () => {
@@ -299,7 +428,7 @@ if (fs.existsSync(realFile)) {
 }
 
 const sitemapDone = (async () => {
-  const name = 'sitemap-stock-pages.xml lists exactly the eligible tickers, English only';
+  const name = 'sitemap-stock-pages.xml and sitemap-stock-pages-ko.xml list exactly the eligible tickers with reciprocal hreflang';
   const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'stock-sitemap-'));
   const cwd = process.cwd();
   const realLog = console.log;
@@ -314,8 +443,23 @@ const sitemapDone = (async () => {
     const xml = fs.readFileSync(path.join(tmp, 'sitemap-stock-pages.xml'), 'utf8');
     const locs = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]).sort();
     assert.deepStrictEqual(locs, ['https://www.defi.garden/stocks/aaa', 'https://www.defi.garden/stocks/brk-b', 'https://www.defi.garden/stocks/long']);
-    assert.ok(!/xhtml:link|hreflang/.test(xml.split('<urlset')[1]));
+    assert.ok(xml.includes('<xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/stocks/aaa" />') && xml.includes('<xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/stocks/aaa" />'));
+    assert.ok(xml.includes('<xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/stocks/aaa" />'));
     assert.ok(xml.includes('<lastmod>2026-10-26T11:24:19.118Z</lastmod>'));
+    const koXml = fs.readFileSync(path.join(tmp, 'sitemap-stock-pages-ko.xml'), 'utf8');
+    const koLocs = [...koXml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]).sort();
+    assert.deepStrictEqual(koLocs, ['https://www.defi.garden/ko/stocks/aaa', 'https://www.defi.garden/ko/stocks/brk-b', 'https://www.defi.garden/ko/stocks/long']);
+    assert.ok(koXml.includes('hreflang="ko" href="https://www.defi.garden/ko/stocks/long"') && koXml.includes('hreflang="en" href="https://www.defi.garden/stocks/long"'), 'reciprocal cluster on the KO entries');
+    assert.ok(koXml.includes('<lastmod>2026-10-26T11:24:19.118Z</lastmod>'));
+    const idx = fs.readFileSync(path.join(tmp, 'sitemap.xml'), 'utf8');
+    assert.ok(idx.includes('https://www.defi.garden/sitemap-stock-pages-ko.xml'), 'KO stock sitemap registered in the index');
+    // /ko/methodology: in the KO static sitemap (loc = KO url) and the EN main entry advertises it as the ko alternate.
+    const pagesKo = fs.readFileSync(path.join(tmp, 'sitemap-pages-ko.xml'), 'utf8');
+    assert.ok(pagesKo.includes('<loc>https://www.defi.garden/ko/methodology</loc>') && pagesKo.includes('hreflang="en" href="https://www.defi.garden/methodology"'));
+    assert.ok(idx.includes('https://www.defi.garden/sitemap-pages-ko.xml'), 'KO static sitemap registered in the index');
+    const main = fs.readFileSync(path.join(tmp, 'sitemap-main.xml'), 'utf8');
+    const methEntry = main.split('<loc>https://www.defi.garden/methodology</loc>')[1].split('</url>')[0];
+    assert.ok(methEntry.includes('hreflang="ko" href="https://www.defi.garden/ko/methodology"') && !/methodology\?lang=ko/.test(main), 'EN methodology entry points at /ko/methodology');
     assert.ok(/sitemap-stock-pages\.xml/.test(fs.readFileSync(path.join(tmp, 'sitemap.xml'), 'utf8')), 'listed in the sitemap index');
     passed++; console.log('  \u2713 ' + name);
   } catch (err) {

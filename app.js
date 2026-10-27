@@ -3559,7 +3559,7 @@ function App() {
       React.createElement('nav', { className: 'app-header-nav', 'aria-label': t('primaryNavLabel') },
         React.createElement('a', { href: '/?app=1' }, t('navSearchLink')),
         React.createElement('a', { href: '/stocks' }, t('stocksLink')),
-        React.createElement('a', { href: '/methodology' }, t('methodologyLink')),
+        React.createElement('a', { href: language === 'ko' ? '/ko/methodology' : '/methodology' }, t('methodologyLink')),
         React.createElement('a', { href: '/mcp' }, t('apiLink'))
       ),
 
@@ -3635,7 +3635,7 @@ function App() {
           ' · ',
           React.createElement('a', { href: '/stocks' }, t('stocksLink')),
           ' · ',
-          React.createElement('a', { href: '/methodology' }, t('methodologyLink')),
+          React.createElement('a', { href: language === 'ko' ? '/ko/methodology' : '/methodology' }, t('methodologyLink')),
           ' · ',
           React.createElement('a', { href: '/mcp' }, t('apiLink'))
         )
@@ -4492,7 +4492,7 @@ function App() {
         ' · ',
         React.createElement('a', { href: '/stocks' }, t('stocksLink')),
         ' · ',
-        React.createElement('a', { href: '/methodology' }, t('methodologyLink')),
+        React.createElement('a', { href: language === 'ko' ? '/ko/methodology' : '/methodology' }, t('methodologyLink')),
         ' · ',
         React.createElement('a', { href: '/mcp' }, t('apiLink'))
       ),

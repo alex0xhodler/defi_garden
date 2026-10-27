@@ -3540,7 +3540,7 @@ function App() {
   }, t('navSearchLink')), React.createElement('a', {
     href: '/stocks'
   }, t('stocksLink')), React.createElement('a', {
-    href: '/methodology'
+    href: language === 'ko' ? '/ko/methodology' : '/methodology'
   }, t('methodologyLink')), React.createElement('a', {
     href: '/mcp'
   }, t('apiLink'))),
@@ -3609,7 +3609,7 @@ function App() {
     }, t('browseChains')), ' · ', React.createElement('a', {
       href: '/stocks'
     }, t('stocksLink')), ' · ', React.createElement('a', {
-      href: '/methodology'
+      href: language === 'ko' ? '/ko/methodology' : '/methodology'
     }, t('methodologyLink')), ' · ', React.createElement('a', {
       href: '/mcp'
     }, t('apiLink')))));
@@ -4457,7 +4457,7 @@ function App() {
   }, t('browseChains')), ' · ', React.createElement('a', {
     href: '/stocks'
   }, t('stocksLink')), ' · ', React.createElement('a', {
-    href: '/methodology'
+    href: language === 'ko' ? '/ko/methodology' : '/methodology'
   }, t('methodologyLink')), ' · ', React.createElement('a', {
     href: '/mcp'
   }, t('apiLink'))),
