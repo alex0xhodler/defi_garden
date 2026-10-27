@@ -288,6 +288,8 @@
     var activeUwId = activeUwIdState[0];
     var setActiveUwId = activeUwIdState[1];
     var copy = getCopy(language);
+    // KO has a real Korean twin of the methodology page (ko/methodology.html); pt/es keep the English one.
+    var methodologyHref = language === 'ko' ? '/ko/methodology' : '/methodology';
     useEffect(function () {
       function onScroll() {
         var scrolled = window.scrollY > 4;
@@ -449,7 +451,7 @@
         e('nav', { className: 'landing-nav', 'aria-label': copy.navPrimary },
           e('a', { href: '/?app=1' }, copy.navSearch),
           e('a', { href: '/stocks' }, copy.navStocks || 'Stocks'),
-          e('a', { href: '/methodology' }, copy.navMethodology || 'Methodology'),
+          e('a', { href: methodologyHref }, copy.navMethodology || 'Methodology'),
           e('a', { href: '/mcp' }, copy.navApi || 'API')
         ),
         e('div', { className: 'landing-header-actions' },
@@ -471,7 +473,7 @@
       e('nav', { className: 'landing-mobile-nav' + (menuOpen ? ' is-open' : ''), 'aria-label': copy.navMobile },
         e('a', { href: '/?app=1', onClick: closeMenu }, copy.navSearch),
         e('a', { href: '/stocks', onClick: closeMenu }, copy.navStocks || 'Stocks'),
-        e('a', { href: '/methodology', onClick: closeMenu }, copy.navMethodology || 'Methodology'),
+        e('a', { href: methodologyHref, onClick: closeMenu }, copy.navMethodology || 'Methodology'),
         e('a', { href: '/mcp', onClick: closeMenu }, copy.navApi || 'API')
       ),
       e('main', { className: 'landing-main' },
@@ -507,7 +509,7 @@
               e('div', { className: 'landing-uw-cta-row' },
                 e('a', {
                   className: 'landing-garden-link',
-                  href: '/methodology',
+                  href: methodologyHref,
                   'data-testid': 'landing-methodology-cta',
                   onClick: function () { trackLanding('methodology', { placement: 'hero' }); }
                 }, copy.ctaMethodology),
@@ -614,7 +616,7 @@
               })
             ),
             e('p', { className: 'landing-band-link-row' },
-              e('a', { href: '/methodology', onClick: function () { trackLanding('methodology', { placement: 'method' }); } }, copy.methLink)
+              e('a', { href: methodologyHref, onClick: function () { trackLanding('methodology', { placement: 'method' }); } }, copy.methLink)
             )
           )
         ),
@@ -670,7 +672,7 @@
           ' · ',
           e('a', { href: '/stocks' }, copy.navStocks || 'Stocks'),
           ' · ',
-          e('a', { href: '/methodology' }, copy.navMethodology || 'Methodology'),
+          e('a', { href: methodologyHref }, copy.navMethodology || 'Methodology'),
           ' · ',
           e('a', { href: '/mcp' }, copy.navApi || 'API')
         )

@@ -157,10 +157,19 @@ jobs:
       # pages stay and the sitemap simply lists whatever the data file qualifies.
       # Writes the stocks/ directory (a generated output in scripts/site-outputs.txt,
       # never committed). stocks.html (/stocks) is untouched; there is never a stocks/index.html.
+      # The same run writes the Korean twins to ko/stocks/ (ko/ is a generated output too).
       continue-on-error: true
       run: |
-        node generate-stock-ticker-pages.js --out stocks
-        echo "Ticker pages: $(ls stocks 2>/dev/null | wc -l)"
+        node generate-stock-ticker-pages.js --out stocks --ko-out ko/stocks
+        echo "Ticker pages: $(ls stocks 2>/dev/null | wc -l) en, $(ls ko/stocks 2>/dev/null | wc -l) ko"
+
+    - name: Generate static Korean pages (ko/methodology.html)
+      # ko/ is a generated output (scripts/site-outputs.txt), never committed, so the Korean
+      # methodology page is built here from i18n/methodology-ko.js + methodology.html's styles.
+      # Must run before the sitemap/llms steps. Non-fatal: the restored page stays if it fails.
+      continue-on-error: true
+      run: |
+        node generate-ko-static.js --out ko
 
     - name: Generate scored pool pages (W1 — static /pools/<slug> pages, manifest + sitemaps)
       # Must run BEFORE token/chain pages: they read data/pool-pages.json to

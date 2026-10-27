@@ -326,7 +326,7 @@ ${access}
           ${ratingChips}
       </ul>
       <p class="psp-note">${esc(t('prpRatingNote'))}</p>
-      <p class="prp-links"><a href="${SITE_URL}/methodology">${esc(t('prpMethodologyLink'))}</a></p>
+      <p class="prp-links"><a href="${SITE_URL}${language === 'ko' ? '/ko' : ''}/methodology">${esc(t('prpMethodologyLink'))}</a></p>
     </section>
 
     <section class="dt-panel dt-panel-full">
@@ -428,7 +428,7 @@ ${renderLanguageSwitcher(neutralPath, language, PAGE_LANGS, t)}    <nav class="p
         </tbody>
       </table></div>
       <p class="psp-note">${esc(t('prpRatingNote'))}</p>
-      <p class="prp-links"><a href="${SITE_URL}/methodology">${esc(t('prpMethodologyLink'))}</a></p>
+      <p class="prp-links"><a href="${SITE_URL}${language === 'ko' ? '/ko' : ''}/methodology">${esc(t('prpMethodologyLink'))}</a></p>
     </section>
     </div>
     </div>
