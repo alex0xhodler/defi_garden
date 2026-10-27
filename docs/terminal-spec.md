@@ -29,10 +29,10 @@ Never offered, even paid: exact pillar numbers, weights, cutoffs, model names or
 ### 1.3 Pricing
 
 - Team plan: **$499 per month** via Stripe subscription (owner decision). Includes (a), (b), (c), N seats (proposal, owner to confirm: 5 seats, 3 API keys per seat).
-- x402 pay-per-call (USDC on Base): **proposal, owner to confirm**
-  - `GET /api/v1/history` (one pool, up to 365 days): **$0.01 per call** (`10000` atomic USDC at 6 decimals; constant `X402_PRICE_USDC_ATOMIC` in `api/_terminal-history.js`).
-  - Bulk/CSV (P5, one export of the latest day for the whole universe): **$0.25 per export** (proposal).
-  - Rationale: the existing computed-KPI route is priced at the $0.001 placeholder. History is rows an agent would otherwise assemble from the public ledger itself, so the price must be a convenience price, not a toll: $0.01 buys 365 days for one pool, an agent doing 100 lookups spends $1. The break-even against the team plan is about 50,000 calls per month, so heavy users are pushed to the subscription and agents stay account-free. Cheap enough not to deter an autonomous agent, high enough to cover Vercel + D1 costs by two orders of magnitude and to make scraping unattractive.
+- x402 pay-per-call (USDC on Base): **owner-confirmed 2026-10-27** (seat counts above remain a proposal)
+  - `GET /api/v1/history` (one pool, up to 365 days): **$0.05 per call, owner-confirmed 2026-10-27** (`50000` atomic USDC at 6 decimals; constant `X402_PRICE_USDC_ATOMIC` in `api/_terminal-history.js`).
+  - Bulk/CSV (P5, one export of the latest day for the whole universe): **$1.00 per export, owner-confirmed 2026-10-27**.
+  - Rationale: the existing computed-KPI route is priced at the $0.001 placeholder. History is rows an agent would otherwise assemble from the public ledger itself, so the price must be a convenience price, not a toll: $0.05 buys 365 days for one pool, an agent doing 100 lookups spends $5. The break-even against the team plan is about 9,980 calls per month ($499 / $0.05), so heavy users are pushed to the subscription and agents stay account-free. Cheap enough not to deter an autonomous agent, high enough to cover Vercel + D1 costs by two orders of magnitude and to make scraping unattractive.
 - The legal entity is Idel Labs (NL).
 
 ## 2. Architecture

@@ -154,7 +154,8 @@ test('x402 enabled, no payment -> 402 challenge at the terminal price', async ()
   const r = await invoke(make({ x402: x, env }));
   assert.strictEqual(r.status, 402);
   assert.strictEqual(r.json.x402Version, 1);
-  assert.strictEqual(r.json.accepts[0].maxAmountRequired, core.X402_PRICE_USDC_ATOMIC);
+  assert.strictEqual(core.X402_PRICE_USDC_ATOMIC, '50000'); // $0.05, owner-confirmed 2026-10-27
+  assert.strictEqual(r.json.accepts[0].maxAmountRequired, '50000');
   assert.ok(/\/api\/v1\/history/.test(r.json.accepts[0].resource));
   assert.strictEqual(r.headers['cache-control'], 'private, no-store');
 });

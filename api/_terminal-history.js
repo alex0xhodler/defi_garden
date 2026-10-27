@@ -37,8 +37,8 @@ const SCHEMA = 'defi-garden.terminal.history.v1';
 const MAX_RANGE_DAYS = 365;
 const DEFAULT_RANGE_DAYS = 30;
 const FORECAST_HORIZON_DAYS = 14;
-// Proposal, owner to confirm (docs/terminal-spec.md): $0.01 USDC per call, 6 decimals.
-const X402_PRICE_USDC_ATOMIC = '10000';
+// Owner-confirmed 2026-10-27 (docs/terminal-spec.md): $0.05 USDC per call, 6 decimals.
+const X402_PRICE_USDC_ATOMIC = '50000';
 // Rate limit PLACEHOLDER: not enforced in P1 (see spec "Rate limits"). The hook exists so P2 can
 // plug in D1 counters / Vercel WAF without touching the handler.
 const RATE_LIMIT_PLACEHOLDER = { enforced: false, plannedPerKeyPerMinute: 60 };
