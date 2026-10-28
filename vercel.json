@@ -596,6 +596,26 @@
       "permanent": true
     },
     {
+      "source": "/pools/hastra-auto-solana",
+      "destination": "/chains/solana",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/hastra-auto-solana",
+      "destination": "/ko/chains/solana",
+      "permanent": true
+    },
+    {
+      "source": "/pt/pools/hastra-auto-solana",
+      "destination": "/pt/chains/solana",
+      "permanent": true
+    },
+    {
+      "source": "/es/pools/hastra-auto-solana",
+      "destination": "/es/chains/solana",
+      "permanent": true
+    },
+    {
       "source": "/pools/helius-staked-sol-hsol-solana",
       "destination": "/chains/solana",
       "permanent": true
