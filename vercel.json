@@ -416,26 +416,6 @@
       "permanent": true
     },
     {
-      "source": "/pools/accountable-ausd-monad",
-      "destination": "/chains/monad",
-      "permanent": true
-    },
-    {
-      "source": "/ko/pools/accountable-ausd-monad",
-      "destination": "/ko/chains/monad",
-      "permanent": true
-    },
-    {
-      "source": "/pt/pools/accountable-ausd-monad",
-      "destination": "/pt/chains/monad",
-      "permanent": true
-    },
-    {
-      "source": "/es/pools/accountable-ausd-monad",
-      "destination": "/es/chains/monad",
-      "permanent": true
-    },
-    {
       "source": "/pools/avant-avusd-savusd-avalanche",
       "destination": "/chains/avalanche",
       "permanent": true
@@ -493,6 +473,26 @@
     {
       "source": "/es/pools/blazestake-bsol-solana",
       "destination": "/es/chains/solana",
+      "permanent": true
+    },
+    {
+      "source": "/pools/centrifuge-protocol-usds-ethereum",
+      "destination": "/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/centrifuge-protocol-usds-ethereum",
+      "destination": "/ko/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pt/pools/centrifuge-protocol-usds-ethereum",
+      "destination": "/pt/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/es/pools/centrifuge-protocol-usds-ethereum",
+      "destination": "/es/chains/ethereum",
       "permanent": true
     },
     {
@@ -593,26 +593,6 @@
     {
       "source": "/es/pools/dolomite-wlfi-ethereum",
       "destination": "/es/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/pools/hastra-auto-solana",
-      "destination": "/chains/solana",
-      "permanent": true
-    },
-    {
-      "source": "/ko/pools/hastra-auto-solana",
-      "destination": "/ko/chains/solana",
-      "permanent": true
-    },
-    {
-      "source": "/pt/pools/hastra-auto-solana",
-      "destination": "/pt/chains/solana",
-      "permanent": true
-    },
-    {
-      "source": "/es/pools/hastra-auto-solana",
-      "destination": "/es/chains/solana",
       "permanent": true
     },
     {
@@ -756,6 +736,26 @@
       "permanent": true
     },
     {
+      "source": "/pools/kinetiq-khype-khype-hyperliquid-l1",
+      "destination": "/chains/hyperliquid-l1",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/kinetiq-khype-khype-hyperliquid-l1",
+      "destination": "/ko/chains/hyperliquid-l1",
+      "permanent": true
+    },
+    {
+      "source": "/pt/pools/kinetiq-khype-khype-hyperliquid-l1",
+      "destination": "/pt/chains/hyperliquid-l1",
+      "permanent": true
+    },
+    {
+      "source": "/es/pools/kinetiq-khype-khype-hyperliquid-l1",
+      "destination": "/es/chains/hyperliquid-l1",
+      "permanent": true
+    },
+    {
       "source": "/pools/lista-lending-bnb-bsc",
       "destination": "/chains/bsc",
       "permanent": true
@@ -773,26 +773,6 @@
     {
       "source": "/es/pools/lista-lending-bnb-bsc",
       "destination": "/es/chains/bsc",
-      "permanent": true
-    },
-    {
-      "source": "/pools/lombard-lbtc-lbtc-ethereum",
-      "destination": "/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/ko/pools/lombard-lbtc-lbtc-ethereum",
-      "destination": "/ko/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/pt/pools/lombard-lbtc-lbtc-ethereum",
-      "destination": "/pt/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/es/pools/lombard-lbtc-lbtc-ethereum",
-      "destination": "/es/chains/ethereum",
       "permanent": true
     },
     {
@@ -832,6 +812,46 @@
     },
     {
       "source": "/es/pools/morpho-blue-cbbtc-ethereum",
+      "destination": "/es/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pools/morpho-blue-gtusdcp-base-df7ccf",
+      "destination": "/chains/base",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/morpho-blue-gtusdcp-base-df7ccf",
+      "destination": "/ko/chains/base",
+      "permanent": true
+    },
+    {
+      "source": "/pt/pools/morpho-blue-gtusdcp-base-df7ccf",
+      "destination": "/pt/chains/base",
+      "permanent": true
+    },
+    {
+      "source": "/es/pools/morpho-blue-gtusdcp-base-df7ccf",
+      "destination": "/es/chains/base",
+      "permanent": true
+    },
+    {
+      "source": "/pools/morpho-blue-gtusdcp-ethereum",
+      "destination": "/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/morpho-blue-gtusdcp-ethereum",
+      "destination": "/ko/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pt/pools/morpho-blue-gtusdcp-ethereum",
+      "destination": "/pt/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/es/pools/morpho-blue-gtusdcp-ethereum",
       "destination": "/es/chains/ethereum",
       "permanent": true
     },
@@ -892,6 +912,26 @@
     },
     {
       "source": "/es/pools/morpho-blue-sparkusdtbc-ethereum",
+      "destination": "/es/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pools/morpho-blue-steakusdc-ethereum",
+      "destination": "/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/morpho-blue-steakusdc-ethereum",
+      "destination": "/ko/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pt/pools/morpho-blue-steakusdc-ethereum",
+      "destination": "/pt/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/es/pools/morpho-blue-steakusdc-ethereum",
       "destination": "/es/chains/ethereum",
       "permanent": true
     },
@@ -992,26 +1032,6 @@
     },
     {
       "source": "/es/pools/renzo-ezeth-ethereum",
-      "destination": "/es/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/pools/securitize-tokenized-aaa-clo-fund-stac-ethereum",
-      "destination": "/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/ko/pools/securitize-tokenized-aaa-clo-fund-stac-ethereum",
-      "destination": "/ko/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/pt/pools/securitize-tokenized-aaa-clo-fund-stac-ethereum",
-      "destination": "/pt/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/es/pools/securitize-tokenized-aaa-clo-fund-stac-ethereum",
       "destination": "/es/chains/ethereum",
       "permanent": true
     },
