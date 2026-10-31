@@ -276,6 +276,46 @@
       "permanent": true
     },
     {
+      "source": "/pools/aave-v3-syrupusdc-monad",
+      "destination": "/chains/monad",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/aave-v3-syrupusdc-monad",
+      "destination": "/ko/chains/monad",
+      "permanent": true
+    },
+    {
+      "source": "/pt/pools/aave-v3-syrupusdc-monad",
+      "destination": "/pt/chains/monad",
+      "permanent": true
+    },
+    {
+      "source": "/es/pools/aave-v3-syrupusdc-monad",
+      "destination": "/es/chains/monad",
+      "permanent": true
+    },
+    {
+      "source": "/pools/aave-v3-usdc-ethereum",
+      "destination": "/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/aave-v3-usdc-ethereum",
+      "destination": "/ko/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pt/pools/aave-v3-usdc-ethereum",
+      "destination": "/pt/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/es/pools/aave-v3-usdc-ethereum",
+      "destination": "/es/chains/ethereum",
+      "permanent": true
+    },
+    {
       "source": "/pools/aave-v3-usde-ethereum",
       "destination": "/chains/ethereum",
       "permanent": true
@@ -736,26 +776,6 @@
       "permanent": true
     },
     {
-      "source": "/pools/kinetiq-khype-khype-hyperliquid-l1",
-      "destination": "/chains/hyperliquid-l1",
-      "permanent": true
-    },
-    {
-      "source": "/ko/pools/kinetiq-khype-khype-hyperliquid-l1",
-      "destination": "/ko/chains/hyperliquid-l1",
-      "permanent": true
-    },
-    {
-      "source": "/pt/pools/kinetiq-khype-khype-hyperliquid-l1",
-      "destination": "/pt/chains/hyperliquid-l1",
-      "permanent": true
-    },
-    {
-      "source": "/es/pools/kinetiq-khype-khype-hyperliquid-l1",
-      "destination": "/es/chains/hyperliquid-l1",
-      "permanent": true
-    },
-    {
       "source": "/pools/lista-lending-bnb-bsc",
       "destination": "/chains/bsc",
       "permanent": true
@@ -912,26 +932,6 @@
     },
     {
       "source": "/es/pools/morpho-blue-sparkusdtbc-ethereum",
-      "destination": "/es/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/pools/morpho-blue-steakusdc-ethereum",
-      "destination": "/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/ko/pools/morpho-blue-steakusdc-ethereum",
-      "destination": "/ko/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/pt/pools/morpho-blue-steakusdc-ethereum",
-      "destination": "/pt/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/es/pools/morpho-blue-steakusdc-ethereum",
       "destination": "/es/chains/ethereum",
       "permanent": true
     },
