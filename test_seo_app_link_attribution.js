@@ -92,33 +92,33 @@ function extractJsonLdBlocks(html) {
 }
 
 console.log('204 criterion 1 — main CTA tagged, both generators');
-test('token page .tp-cta href is exactly <appUrl>&src=seo_token', () => {
-  const expected = `<a class="tp-cta" href="${tokenAppUrl}&src=seo_token">`;
-  assert.ok(tokenHtml.includes(expected), `expected exact tp-cta href not found; expected substring: ${expected}`);
+test('token page .tp-cta href is exactly <appUrl>#src=seo_token', () => {
+  const expected = `href="${withSrc(tokenAppUrl, 'seo_token')}"`;
+  assert.ok(tokenHtml.includes('class="tp-cta"') && tokenHtml.includes(expected), `expected exact tp-cta href not found; expected substring: ${expected}`);
 });
-test('chain page .cp-cta href is exactly <appUrl>&src=seo_chain', () => {
-  const expected = `<a class="cp-cta" href="${chainAppUrl}&src=seo_chain">`;
-  assert.ok(chainHtml.includes(expected), `expected exact cp-cta href not found; expected substring: ${expected}`);
+test('chain page .cp-cta href is exactly <appUrl>#src=seo_chain', () => {
+  const expected = `href="${withSrc(chainAppUrl, 'seo_chain')}"`;
+  assert.ok(chainHtml.includes('class="cp-cta"') && chainHtml.includes(expected), `expected exact cp-cta href not found; expected substring: ${expected}`);
 });
 
 console.log('204 criterion 2 — category nav tagged, both generators, no skip/double-tag');
-test('every token category-nav href ends with &src=seo_token; count equals categoryLinksFor()', () => {
+test('every token category-nav href ends with #src=seo_token; count equals categoryLinksFor()', () => {
   const expectedItems = categoryLinksFor(tokenRec.pools, tokenAppUrl);
   const renderedHrefs = extractCategoryNavHrefs(tokenHtml);
   assert.strictEqual(renderedHrefs.length, expectedItems.length,
     `expected ${expectedItems.length} category links (categoryLinksFor's own count), got ${renderedHrefs.length}: ${JSON.stringify(renderedHrefs)}`);
   renderedHrefs.forEach((href, i) => {
-    assert.ok(href.endsWith('&src=seo_token'), `category href #${i} does not end with &src=seo_token: ${href}`);
+    assert.ok(href.endsWith('#src=seo_token'), `category href #${i} does not end with #src=seo_token: ${href}`);
     assert.strictEqual(href, withSrc(expectedItems[i].url, 'seo_token'), `category href #${i} mismatch`);
   });
 });
-test('every chain category-nav href ends with &src=seo_chain; count equals categoryLinksFor()', () => {
+test('every chain category-nav href ends with #src=seo_chain; count equals categoryLinksFor()', () => {
   const expectedItems = categoryLinksFor(chainRec.pools, chainAppUrl);
   const renderedHrefs = extractCategoryNavHrefs(chainHtml);
   assert.strictEqual(renderedHrefs.length, expectedItems.length,
     `expected ${expectedItems.length} category links (categoryLinksFor's own count), got ${renderedHrefs.length}: ${JSON.stringify(renderedHrefs)}`);
   renderedHrefs.forEach((href, i) => {
-    assert.ok(href.endsWith('&src=seo_chain'), `category href #${i} does not end with &src=seo_chain: ${href}`);
+    assert.ok(href.endsWith('#src=seo_chain'), `category href #${i} does not end with #src=seo_chain: ${href}`);
     assert.strictEqual(href, withSrc(expectedItems[i].url, 'seo_chain'), `category href #${i} mismatch`);
   });
 });

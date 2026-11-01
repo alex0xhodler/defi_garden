@@ -140,7 +140,8 @@ test('slug has no unsafe chars', () => {
 });
 
 console.log('renderTokenPage — server-delivered SEO content');
-const html = gen.renderTokenPage(bySym['BIG']);
+const allowAll = { en: new Set(ranked.map(r => r.slug)), ko: new Set(ranked.map(r => r.slug)) };
+const html = gen.renderTokenPage(bySym['BIG'], [], undefined, undefined, 'en', undefined, { allowlist: allowAll });
 test('self-canonical to /tokens/<slug> (not the ?token= app URL)', () => {
   assert.ok(html.includes('<link rel="canonical" href="https://www.defi.garden/tokens/big">'), 'missing self-canonical');
 });
@@ -153,27 +154,26 @@ test('server-delivered meta description present', () => {
 test('links into the live app at ?token=<SYMBOL>', () => {
   assert.ok(html.includes('https://www.defi.garden/?token=BIG'), 'missing app deep link');
 });
-test('each pool row links to its detail page (/?pool=<id>&src=seo_token — 203)', () => {
+test('each pool row links to its detail page (/?pool=<id>#src=seo_token — 203 / N2)', () => {
   const top = bySym['BIG'].pools[0];
   assert.ok(top.pool, 'fixture pool missing an id');
-  assert.ok(html.includes(`href="https://www.defi.garden/?pool=${encodeURIComponent(top.pool)}&src=seo_token"`),
+  assert.ok(html.includes(`href="https://www.defi.garden/?pool=${encodeURIComponent(top.pool)}#src=seo_token"`),
     'pool row not linked to its detail page with the seo_token attribution tag');
   assert.ok(html.includes('class="tp-pool-link"'), 'missing pool link class');
 });
-test('pool row falls back to the token app view (tagged src=seo_token — 203) when a pool has no id', () => {
+test('pool row falls back to the token app view (tagged src=seo_token — 203 / N2) when a pool has no id', () => {
   const noId = gen.renderTokenPage({ symbol: 'X', slug: 'x', qualifyingCount: 1, totalTvl: 2e7,
     pools: [{ project: 'aave', chain: 'Base', tvlUsd: 1e7, apyBase: 5, apyReward: 0 }] });
   // 173: the fallback link is the same appUrl the primary CTA uses, so it now
-  // carries the generator's own &minTvl= floor too. 203: the fallback branch
-  // is tagged exactly like the ?pool= branch — a row that falls back to the
-  // token app view is the same attribution question, must not go untagged.
-  assert.ok(noId.includes(`href="https://www.defi.garden/?token=X&minTvl=${gen.MIN_POOL_TVL}&src=seo_token"`), 'missing tagged fallback link');
+  // carries the generator's own &minTvl= floor too. 203/N2: the fallback branch
+  // is tagged via fragment #src=seo_token exactly like the ?pool= branch.
+  assert.ok(noId.includes(`href="https://www.defi.garden/?token=X&minTvl=${gen.MIN_POOL_TVL}#src=seo_token"`), 'missing tagged fallback link');
 });
 test('203 criterion 1: every tp-pool-link href carries src=seo_token, and the count equals the visible row count', () => {
-  const anchors = html.match(/<a class="tp-pool-link" href="[^"]*"/g) || [];
+  const anchors = html.match(/<a class="tp-pool-link"(?: rel="nofollow")? href="[^"]*"/g) || [];
   assert.strictEqual(anchors.length, bySym['BIG'].pools.length, 'tp-pool-link anchor count must equal the visible row count');
   assert.ok(anchors.length > 0, 'fixture wiring check: expected >=1 tp-pool-link anchor');
-  anchors.forEach((a) => assert.ok(/[?&]src=seo_token"$/.test(a), `every tp-pool-link href must carry src=seo_token; got: ${a}`));
+  anchors.forEach((a) => assert.ok(/[?&#]src=seo_token"$/.test(a), `every tp-pool-link href must carry src=seo_token; got: ${a}`));
 });
 test('203 criterion 2: poolHrefFor(p, fallback) with NO third argument is byte-identical to the pre-203 function, both branches', () => {
   const withId = { pool: 'abc-123' };
@@ -302,8 +302,7 @@ test('exactly one valid ItemList block whose items EXACTLY match the visible tab
     // row href must be EXACTLY that clean url + the src attribution tag —
     // not merely "contains" it, which would also pass if the clean url
     // happened to be a prefix of some other unrelated tagged href.
-    const sep = items[i].url.includes('?') ? '&' : '?';
-    const expectedRowHref = `${items[i].url}${sep}src=seo_token`;
+    const expectedRowHref = gen.withSrc(items[i].url, 'seo_token');
     assert.ok(html.includes(`href="${expectedRowHref}"`),
       `rendered row href must be exactly the clean ItemList url + src=seo_token; expected href="${expectedRowHref}"`);
   });
@@ -369,7 +368,7 @@ test('no visible content/meta/canonical/trust rail altered — only ld+json scri
   // <script type="application/ld+json"> block and diff against a pre-046
   // fixture rendering to prove nothing else moved.
   const stripLdJson = (s) => s.replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>\n?/g, '');
-  const before = stripLdJson(gen.renderTokenPage(bySym['BIG'], gen.relatedFor(bySym['BIG'], ranked), '2026-07-12'));
+  const before = stripLdJson(gen.renderTokenPage(bySym['BIG'], gen.relatedFor(bySym['BIG'], ranked), '2026-07-12', undefined, 'en', undefined, { allowlist: allowAll }));
   // Recompute what the page looked like immediately before this diff by
   // asserting the stripped output still contains every pre-existing marker
   // untouched (title/canonical/table/related nav/analytics), i.e. ld+json
@@ -417,7 +416,6 @@ test('related nav omitted when there are no related tokens', () => {
 });
 
 console.log('021 — token sitemap (renderTokenSitemap)');
-const allowAll = { en: new Set(ranked.map(r => r.slug)), ko: new Set(ranked.map(r => r.slug)) };
 test('thin, non-allowlisted tokens are NOT listed in the sitemap (same decision as the robots meta)', () => {
   const thin = ranked.filter(r => r.qualifyingCount < gen.NOINDEX_POOL_THRESHOLD);
   assert.ok(thin.length > 0);
@@ -587,9 +585,9 @@ test('renderTokenPage always renders a By category nav derived from on-page pool
   // 173: categoryLinksFor builds off appUrl, which now carries the generator's
   // own &minTvl= floor — so the category link inherits it too (single
   // injection site, no re-typed literal).
-  // 204: the category link is a visible estate->app render site, so it now
-  // carries the estate's arrival tag (&src=seo_token) via withSrc.
-  assert.ok(html.includes(`href="https://www.defi.garden/?token=BIG&minTvl=${gen.MIN_POOL_TVL}&poolTypes=Lending&src=seo_token"`), 'missing category link');
+  // 204 / N2: the category link is a visible estate->app render site, so it now
+  // carries the estate's arrival tag (#src=seo_token) via withSrc.
+  assert.ok(html.includes(`href="https://www.defi.garden/?token=BIG&minTvl=${gen.MIN_POOL_TVL}&poolTypes=Lending#src=seo_token"`), 'missing category link');
 });
 test('cross-links reuse the related nav styling via an added class token, without colliding with the exact class="related" tests', () => {
   const html = gen.renderTokenPage(bySym['BIG'], [], '2026-07-12', [{ chain: 'Ethereum', slug: 'ethereum' }]);
@@ -936,7 +934,7 @@ test('the visible pool table order is UNCHANGED by headline selection: still rec
   ranked242.forEach(rec => {
     const html = gen.renderTokenPage(rec, [], '2026-08-06', [], 'en');
     const tbody = html.match(/<tbody>([\s\S]*?)<\/tbody>/)[1];
-    const tableProjects = [...tbody.matchAll(/class="tp-pool-link" href="[^"]*">([^&]*) &rarr;/g)].map(m => m[1]);
+    const tableProjects = [...tbody.matchAll(/class="tp-pool-link"(?: rel="nofollow")? href="[^"]*">([^<→&]*?)\s*(?:&rarr;|→)/g)].map(m => m[1]);
     assert.deepStrictEqual(tableProjects, rec.pools.map(p => p.project),
       `[${rec.symbol}] visible table row order diverged from rec.pools order`);
   });
