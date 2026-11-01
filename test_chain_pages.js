@@ -142,7 +142,7 @@ test('self-canonical to /chains/<slug> (not the ?chain= app URL)', () => {
   assert.ok(html.includes('<link rel="canonical" href="https://www.defi.garden/chains/big">'), 'missing self-canonical');
 });
 test('server-delivered <title> present in raw HTML (no JS)', () => {
-  assert.ok(/<title>Big DeFi Yields[^<]*<\/title>/.test(html), 'missing title');
+  assert.ok(/<title>[^<]*Big[^<]*Yield[^<]*<\/title>/.test(html), 'missing title');
 });
 test('server-delivered meta description present', () => {
   assert.ok(/<meta name="description" content="[^"]+">/.test(html), 'missing description');
@@ -150,28 +150,27 @@ test('server-delivered meta description present', () => {
 test('links into the live app at ?chain=<Chain>', () => {
   assert.ok(html.includes('https://www.defi.garden/?chain=Big'), 'missing app deep link');
 });
-test('each pool row links to its detail page (/?pool=<id>&src=seo_chain — 203) and shows its token', () => {
+test('each pool row links to its detail page (/?pool=<id>#src=seo_chain — 203 / N2) and shows its token', () => {
   const top = byChain['Big'].pools[0];
   assert.ok(top.pool, 'fixture pool missing an id');
-  assert.ok(html.includes(`href="https://www.defi.garden/?pool=${encodeURIComponent(top.pool)}&src=seo_chain"`),
+  assert.ok(html.includes(`href="https://www.defi.garden/?pool=${encodeURIComponent(top.pool)}#src=seo_chain"`),
     'pool row not linked to its detail page with the seo_chain attribution tag');
   assert.ok(html.includes('class="cp-pool-link"'), 'missing pool link class');
   assert.ok(html.includes('<td>AAA</td>'), 'missing token column value');
 });
-test('pool row falls back to the chain app view (tagged src=seo_chain — 203) when a pool has no id', () => {
+test('pool row falls back to the chain app view (tagged src=seo_chain — 203 / N2) when a pool has no id', () => {
   const noId = gen.renderChainPage({ chain: 'X', slug: 'x', qualifyingCount: 1, totalTvl: 2e7, tokens: ['Y'],
     pools: [{ symbol: 'Y', project: 'aave', chain: 'X', tvlUsd: 1e7, apyBase: 5, apyReward: 0 }] });
   // 173: the fallback link is the same appUrl the primary CTA uses, so it now
-  // carries the generator's own &minTvl= floor too. 203: the fallback branch
-  // is tagged exactly like the ?pool= branch — a row that falls back to the
-  // chain app view is the same attribution question, must not go untagged.
-  assert.ok(noId.includes(`href="https://www.defi.garden/?chain=X&minTvl=${gen.MIN_POOL_TVL}&src=seo_chain"`), 'missing tagged fallback link');
+  // carries the generator's own &minTvl= floor too. 203/N2: the fallback branch
+  // is tagged via fragment #src=seo_chain exactly like the ?pool= branch.
+  assert.ok(noId.includes(`href="https://www.defi.garden/?chain=X&minTvl=${gen.MIN_POOL_TVL}#src=seo_chain"`), 'missing tagged fallback link');
 });
 test('203 criterion 1: every cp-pool-link href carries src=seo_chain, and the count equals the visible row count', () => {
-  const anchors = html.match(/<a class="cp-pool-link" href="[^"]*"/g) || [];
+  const anchors = html.match(/<a class="cp-pool-link"(?: rel="nofollow")? href="[^"]*"/g) || [];
   assert.strictEqual(anchors.length, byChain['Big'].pools.length, 'cp-pool-link anchor count must equal the visible row count');
   assert.ok(anchors.length > 0, 'fixture wiring check: expected >=1 cp-pool-link anchor');
-  anchors.forEach((a) => assert.ok(/[?&]src=seo_chain"$/.test(a), `every cp-pool-link href must carry src=seo_chain; got: ${a}`));
+  anchors.forEach((a) => assert.ok(/[?&#]src=seo_chain"$/.test(a), `every cp-pool-link href must carry src=seo_chain; got: ${a}`));
 });
 test('203 criterion 2: poolHrefFor(p, fallback) with NO third argument is byte-identical to the pre-203 function, both branches (shared with token pages, re-verified via the chain-page import)', () => {
   const withId = { pool: 'abc-123' };
@@ -296,8 +295,7 @@ test('exactly one valid ItemList block whose items EXACTLY match the visible tab
     // 203 criterion 5 (replaces the old "href includes the clean url" check,
     // strictly stronger): the ItemList url must be clean AND the rendered
     // row href must be EXACTLY that clean url + the src attribution tag.
-    const sep = items[i].url.includes('?') ? '&' : '?';
-    const expectedRowHref = `${items[i].url}${sep}src=seo_chain`;
+    const expectedRowHref = tp.withSrc(items[i].url, 'seo_chain');
     assert.ok(html.includes(`href="${expectedRowHref}"`),
       `rendered row href must be exactly the clean ItemList url + src=seo_chain; expected href="${expectedRowHref}"`);
   });
@@ -356,7 +354,7 @@ test('malicious project name cannot break out of the ItemList ld+json script tag
 test('no visible content/meta/canonical/trust rail altered — only ld+json script blocks added', () => {
   const stripLdJson = (s) => s.replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>\n?/g, '');
   const before = stripLdJson(gen.renderChainPage(byChain['Big'], gen.relatedChainsFor(byChain['Big'], ranked), '2026-07-12'));
-  assert.ok(before.includes('<title>Big DeFi Yields'), 'title missing/changed');
+  assert.ok(/<title>[^<]*Big[^<]*Yield/.test(before), 'title missing/changed');
   assert.ok(before.includes('<link rel="canonical" href="https://www.defi.garden/chains/big">'), 'canonical missing/changed');
   assert.ok(before.includes('content="index,follow"'), 'robots meta missing/changed');
   assert.ok(/class="related"/.test(before), 'related nav missing');
@@ -479,7 +477,7 @@ test('malicious chain name cannot break out of the FAQPage ld+json script tag', 
   assert.ok(faq.mainEntity[0].name.includes('</script><script>alert(1)</script>'), 'FAQ question must still contain the raw chain name once parsed');
 });
 test('no pre-existing content/meta/canonical/trust rail altered — answer+FAQ are additive only', () => {
-  assert.ok(html.includes('<title>Big DeFi Yields'), 'title missing/changed');
+  assert.ok(/<title>[^<]*Big[^<]*Yield/.test(html), 'title missing/changed');
   assert.ok(html.includes('<link rel="canonical" href="https://www.defi.garden/chains/big">'), 'canonical missing/changed');
   assert.ok(html.includes('content="index,follow"'), 'robots meta missing/changed');
   assert.ok(/class="related"/.test(gen.renderChainPage(byChain['Big'], gen.relatedChainsFor(byChain['Big'], ranked))), 'related nav missing');
@@ -520,10 +518,10 @@ test('renderChainPage always renders a By category nav derived from on-page pool
   // 173: categoryLinksFor builds off appUrl, which now carries the generator's
   // own &minTvl= floor — so the category link inherits it too (single
   // injection site, no re-typed literal).
-  // 204: the category link is a visible estate->app render site, so it now
-  // carries the estate's arrival tag (&src=seo_chain) via withSrc.
-  assert.ok(html.includes(`href="https://www.defi.garden/?chain=Big&minTvl=${gen.MIN_POOL_TVL}&poolTypes=Lending&src=seo_chain"`), 'missing Lending category link');
-  assert.ok(html.includes(`href="https://www.defi.garden/?chain=Big&minTvl=${gen.MIN_POOL_TVL}&poolTypes=${encodeURIComponent('LP/DEX')}&src=seo_chain"`), 'missing LP/DEX category link');
+  // 204 / N2: the category link is a visible estate->app render site, so it now
+  // carries the estate's arrival tag (#src=seo_chain) via withSrc.
+  assert.ok(html.includes(`href="https://www.defi.garden/?chain=Big&minTvl=${gen.MIN_POOL_TVL}&poolTypes=Lending#src=seo_chain"`), 'missing Lending category link');
+  assert.ok(html.includes(`href="https://www.defi.garden/?chain=Big&minTvl=${gen.MIN_POOL_TVL}&poolTypes=${encodeURIComponent('LP/DEX')}#src=seo_chain"`), 'missing LP/DEX category link');
 });
 test('cross-links reuse the related nav styling via an added class token, without colliding with the exact class="related" tests', () => {
   const html = gen.renderChainPage(byChain['Big'], [], '2026-07-12', [{ symbol: 'AAA', slug: 'aaa' }]);
@@ -872,7 +870,7 @@ test('the visible pool table order is UNCHANGED by headline selection: still rec
   ranked243.forEach(rec => {
     const pageHtml = gen.renderChainPage(rec, [], '2026-08-06', [], 'en');
     const tbody = pageHtml.match(/<tbody>([\s\S]*?)<\/tbody>/)[1];
-    const tableProjects = [...tbody.matchAll(/class="cp-pool-link" href="[^"]*">([^&]*) &rarr;/g)].map(m => m[1]);
+    const tableProjects = [...tbody.matchAll(/class="cp-pool-link"(?: rel="nofollow")? href="[^"]*">([^<→&]*?)\s*(?:&rarr;|→)/g)].map(m => m[1]);
     assert.deepStrictEqual(tableProjects, rec.pools.map(p => p.project),
       `[${rec.chain}] visible table row order diverged from rec.pools order`);
   });

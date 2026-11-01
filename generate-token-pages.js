@@ -1650,6 +1650,7 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
 ${renderHreflangLinks(neutralPath, hreflangLangs)}    <script type="application/ld+json">${breadcrumbJsonLd}</script>
     <script type="application/ld+json">${itemListJsonLd}</script>
     <script type="application/ld+json">${datasetJsonLd}</script>
+    <script type="application/ld+json">${faqJsonLd}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="${escapeHtml(title)}">
     <meta property="og:description" content="${escapeHtml(description)}">
