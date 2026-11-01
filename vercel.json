@@ -296,26 +296,6 @@
       "permanent": true
     },
     {
-      "source": "/pools/aave-v3-usdc-ethereum",
-      "destination": "/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/ko/pools/aave-v3-usdc-ethereum",
-      "destination": "/ko/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/pt/pools/aave-v3-usdc-ethereum",
-      "destination": "/pt/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/es/pools/aave-v3-usdc-ethereum",
-      "destination": "/es/chains/ethereum",
-      "permanent": true
-    },
-    {
       "source": "/pools/aave-v3-usde-ethereum",
       "destination": "/chains/ethereum",
       "permanent": true
@@ -333,6 +313,26 @@
     {
       "source": "/es/pools/aave-v3-usde-ethereum",
       "destination": "/es/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pools/aave-v3-usde-monad",
+      "destination": "/chains/monad",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/aave-v3-usde-monad",
+      "destination": "/ko/chains/monad",
+      "permanent": true
+    },
+    {
+      "source": "/pt/pools/aave-v3-usde-monad",
+      "destination": "/pt/chains/monad",
+      "permanent": true
+    },
+    {
+      "source": "/es/pools/aave-v3-usde-monad",
+      "destination": "/es/chains/monad",
       "permanent": true
     },
     {
