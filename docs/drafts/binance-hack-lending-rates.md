@@ -1,5 +1,7 @@
 # How lending pool rates moved around the Binance hack
 
+**Hack date:** [needs source]
+
 **Status:** draft · **Data window:** 2026-10-27 → 2026-11-02 · **Author:** DeFi Garden
 
 ## The window
@@ -20,11 +22,13 @@ The headline number is not a single rogue pool. Across the window, a cluster of 
 lending markets moved sharply — most visibly between **2026-10-29** and **2026-10-31** — and the
 pattern is worth reading as a sequence rather than as an event stamp.
 
-- **Kamino Lend USDC (Solana, ~$20.5M TVL):** the largest move in the set. APY rose from
-  **4.41%** on 2026-10-29 to **21.23%** on 2026-10-30 (+16.81 pp), then fell back to **3.84%** by
-  2026-10-31 (−17.39 pp).
-- **Aave V3 USDC (Monad, ~$13.2M TVL):** APY jumped from **5.61%** to **20.27%** on 2026-10-30
-  (+14.65 pp), unwinding to **5.50%** by 2026-10-31.
+- **Kamino Lend USDC (Solana, first pool):** the largest move in the set. The first Kamino pool
+  had **$2.8M TVL** on 2026-10-30 when it spiked, so APY rose from **4.41%** on 2026-10-29 to
+  **21.23%** on 2026-10-30 (+16.81 pp), then fell back to **3.84%** by 2026-10-31 (−17.39 pp).
+  Because the pool was small at the time, that day is left out of the table.
+- **Aave V3 USDC (Monad):** APY jumped from **5.61%** to **20.27%** on 2026-10-30 (+14.65 pp),
+  unwinding to **5.50%** by 2026-10-31. Aave V3 USDC on Monad had **$1.3M TVL** that day, so the
+  spike is a small-pool move and is left out of the table.
 - **Kamino Lend USDC (Solana, ~$19.3M TVL):** APY moved from **4.17%** to **18.42%** on 2026-10-30
   (+14.25 pp), back down to **3.78%** on 2026-10-31.
 
@@ -39,13 +43,13 @@ venues, which is the part of the pattern a reader should notice before anyone as
 
 ## The five biggest rate moves
 
-| # | Pool | Chain | Day | Daily APY | Move |
-|---|------|-------|-----|-----------|------|
-| 1 | Kamino Lend USDC | Solana | 2026-10-31 | 21.23% → 3.84% | −17.39 pp |
-| 2 | Kamino Lend USDC | Solana | 2026-10-30 | 4.41% → 21.23% | +16.81 pp |
-| 3 | Aave V3 USDC | Monad | 2026-10-31 | 20.27% → 5.50% | −14.77 pp |
-| 4 | Aave V3 USDC | Monad | 2026-10-30 | 5.61% → 20.27% | +14.65 pp |
-| 5 | Jupiter Lend USDC | Solana | 2026-10-30 | 6.17% → 14.98% | +8.81 pp |
+| # | Pool | Chain | Day | Daily APY | Move | TVL that day |
+|---|------|-------|-----|-----------|------|--------------|
+| 1 | Kamino Lend USDC | Solana | 2026-10-31 | 21.23% → 3.84% | −17.39 pp | $20.5M |
+| 2 | Kamino Lend USDC (second pool) | Solana | 2026-10-31 | 18.42% → 3.78% | −14.64 pp | $16.7M |
+| 3 | Kamino Lend USDC (second pool) | Solana | 2026-10-30 | 4.17% → 18.42% | +14.25 pp | $18.2M |
+| 4 | Jupiter Lend USDC | Solana | 2026-10-30 | 6.17% → 14.98% | +8.81 pp | $420.0M |
+| 5 | Jupiter Lend USDC | Solana | 2026-10-31 | 14.98% → 6.97% | −8.01 pp | $443.2M |
 
 ## What this can't show
 
