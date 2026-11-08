@@ -476,6 +476,26 @@
       "permanent": true
     },
     {
+      "source": "/pools/benqi-staked-avax-savax-avalanche",
+      "destination": "/chains/avalanche",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/benqi-staked-avax-savax-avalanche",
+      "destination": "/ko/chains/avalanche",
+      "permanent": true
+    },
+    {
+      "source": "/pt/pools/benqi-staked-avax-savax-avalanche",
+      "destination": "/pt/chains/avalanche",
+      "permanent": true
+    },
+    {
+      "source": "/es/pools/benqi-staked-avax-savax-avalanche",
+      "destination": "/es/chains/avalanche",
+      "permanent": true
+    },
+    {
       "source": "/pools/bitwise-uscc-uscc-ethereum",
       "destination": "/chains/ethereum",
       "permanent": true
@@ -853,26 +873,6 @@
     {
       "source": "/es/pools/morpho-blue-cbbtc-ethereum",
       "destination": "/es/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/pools/morpho-blue-gtusdcp-base-df7ccf",
-      "destination": "/chains/base",
-      "permanent": true
-    },
-    {
-      "source": "/ko/pools/morpho-blue-gtusdcp-base-df7ccf",
-      "destination": "/ko/chains/base",
-      "permanent": true
-    },
-    {
-      "source": "/pt/pools/morpho-blue-gtusdcp-base-df7ccf",
-      "destination": "/pt/chains/base",
-      "permanent": true
-    },
-    {
-      "source": "/es/pools/morpho-blue-gtusdcp-base-df7ccf",
-      "destination": "/es/chains/base",
       "permanent": true
     },
     {
