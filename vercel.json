@@ -476,26 +476,6 @@
       "permanent": true
     },
     {
-      "source": "/pools/benqi-staked-avax-savax-avalanche",
-      "destination": "/chains/avalanche",
-      "permanent": true
-    },
-    {
-      "source": "/ko/pools/benqi-staked-avax-savax-avalanche",
-      "destination": "/ko/chains/avalanche",
-      "permanent": true
-    },
-    {
-      "source": "/pt/pools/benqi-staked-avax-savax-avalanche",
-      "destination": "/pt/chains/avalanche",
-      "permanent": true
-    },
-    {
-      "source": "/es/pools/benqi-staked-avax-savax-avalanche",
-      "destination": "/es/chains/avalanche",
-      "permanent": true
-    },
-    {
       "source": "/pools/bitwise-uscc-uscc-ethereum",
       "destination": "/chains/ethereum",
       "permanent": true
@@ -1232,6 +1212,26 @@
     },
     {
       "source": "/es/pools/sparklend-wsteth-ethereum",
+      "destination": "/es/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pools/stakewise-v3-eth-ethereum",
+      "destination": "/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/stakewise-v3-eth-ethereum",
+      "destination": "/ko/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pt/pools/stakewise-v3-eth-ethereum",
+      "destination": "/pt/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/es/pools/stakewise-v3-eth-ethereum",
       "destination": "/es/chains/ethereum",
       "permanent": true
     },
