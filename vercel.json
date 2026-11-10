@@ -816,6 +816,26 @@
       "permanent": true
     },
     {
+      "source": "/pools/midas-rwa-usdc-base",
+      "destination": "/chains/base",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/midas-rwa-usdc-base",
+      "destination": "/ko/chains/base",
+      "permanent": true
+    },
+    {
+      "source": "/pt/pools/midas-rwa-usdc-base",
+      "destination": "/pt/chains/base",
+      "permanent": true
+    },
+    {
+      "source": "/es/pools/midas-rwa-usdc-base",
+      "destination": "/es/chains/base",
+      "permanent": true
+    },
+    {
       "source": "/pools/morpho-blue-cbbtc-base",
       "destination": "/chains/base",
       "permanent": true
@@ -852,26 +872,6 @@
     },
     {
       "source": "/es/pools/morpho-blue-cbbtc-ethereum",
-      "destination": "/es/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/pools/morpho-blue-gtusdcp-ethereum",
-      "destination": "/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/ko/pools/morpho-blue-gtusdcp-ethereum",
-      "destination": "/ko/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/pt/pools/morpho-blue-gtusdcp-ethereum",
-      "destination": "/pt/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/es/pools/morpho-blue-gtusdcp-ethereum",
       "destination": "/es/chains/ethereum",
       "permanent": true
     },
