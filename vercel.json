@@ -556,6 +556,26 @@
       "permanent": true
     },
     {
+      "source": "/pools/coinbase-wrapped-staked-eth-cbeth-ethereum",
+      "destination": "/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/coinbase-wrapped-staked-eth-cbeth-ethereum",
+      "destination": "/ko/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pt/pools/coinbase-wrapped-staked-eth-cbeth-ethereum",
+      "destination": "/pt/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/es/pools/coinbase-wrapped-staked-eth-cbeth-ethereum",
+      "destination": "/es/chains/ethereum",
+      "permanent": true
+    },
+    {
       "source": "/pools/compound-v3-wbtc-ethereum",
       "destination": "/chains/ethereum",
       "permanent": true
@@ -796,6 +816,26 @@
       "permanent": true
     },
     {
+      "source": "/pools/kinetiq-khype-khype-hyperliquid-l1",
+      "destination": "/chains/hyperliquid-l1",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/kinetiq-khype-khype-hyperliquid-l1",
+      "destination": "/ko/chains/hyperliquid-l1",
+      "permanent": true
+    },
+    {
+      "source": "/pt/pools/kinetiq-khype-khype-hyperliquid-l1",
+      "destination": "/pt/chains/hyperliquid-l1",
+      "permanent": true
+    },
+    {
+      "source": "/es/pools/kinetiq-khype-khype-hyperliquid-l1",
+      "destination": "/es/chains/hyperliquid-l1",
+      "permanent": true
+    },
+    {
       "source": "/pools/lista-lending-bnb-bsc",
       "destination": "/chains/bsc",
       "permanent": true
@@ -813,26 +853,6 @@
     {
       "source": "/es/pools/lista-lending-bnb-bsc",
       "destination": "/es/chains/bsc",
-      "permanent": true
-    },
-    {
-      "source": "/pools/midas-rwa-usdc-base",
-      "destination": "/chains/base",
-      "permanent": true
-    },
-    {
-      "source": "/ko/pools/midas-rwa-usdc-base",
-      "destination": "/ko/chains/base",
-      "permanent": true
-    },
-    {
-      "source": "/pt/pools/midas-rwa-usdc-base",
-      "destination": "/pt/chains/base",
-      "permanent": true
-    },
-    {
-      "source": "/es/pools/midas-rwa-usdc-base",
-      "destination": "/es/chains/base",
       "permanent": true
     },
     {
@@ -1073,26 +1093,6 @@
     {
       "source": "/es/pools/renzo-ezeth-ethereum",
       "destination": "/es/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/pools/sentora-curator-pyusd-solana",
-      "destination": "/chains/solana",
-      "permanent": true
-    },
-    {
-      "source": "/ko/pools/sentora-curator-pyusd-solana",
-      "destination": "/ko/chains/solana",
-      "permanent": true
-    },
-    {
-      "source": "/pt/pools/sentora-curator-pyusd-solana",
-      "destination": "/pt/chains/solana",
-      "permanent": true
-    },
-    {
-      "source": "/es/pools/sentora-curator-pyusd-solana",
-      "destination": "/es/chains/solana",
       "permanent": true
     },
     {
