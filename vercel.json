@@ -556,26 +556,6 @@
       "permanent": true
     },
     {
-      "source": "/pools/coinbase-wrapped-staked-eth-cbeth-ethereum",
-      "destination": "/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/ko/pools/coinbase-wrapped-staked-eth-cbeth-ethereum",
-      "destination": "/ko/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/pt/pools/coinbase-wrapped-staked-eth-cbeth-ethereum",
-      "destination": "/pt/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/es/pools/coinbase-wrapped-staked-eth-cbeth-ethereum",
-      "destination": "/es/chains/ethereum",
-      "permanent": true
-    },
-    {
       "source": "/pools/compound-v3-wbtc-ethereum",
       "destination": "/chains/ethereum",
       "permanent": true
@@ -716,6 +696,26 @@
       "permanent": true
     },
     {
+      "source": "/pools/jpool-jsol-solana",
+      "destination": "/chains/solana",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/jpool-jsol-solana",
+      "destination": "/ko/chains/solana",
+      "permanent": true
+    },
+    {
+      "source": "/pt/pools/jpool-jsol-solana",
+      "destination": "/pt/chains/solana",
+      "permanent": true
+    },
+    {
+      "source": "/es/pools/jpool-jsol-solana",
+      "destination": "/es/chains/solana",
+      "permanent": true
+    },
+    {
       "source": "/pools/justlend-v1-btc-tron",
       "destination": "/chains/tron",
       "permanent": true
@@ -813,26 +813,6 @@
     {
       "source": "/es/pools/kamino-lend-dsol-solana",
       "destination": "/es/chains/solana",
-      "permanent": true
-    },
-    {
-      "source": "/pools/kinetiq-khype-khype-hyperliquid-l1",
-      "destination": "/chains/hyperliquid-l1",
-      "permanent": true
-    },
-    {
-      "source": "/ko/pools/kinetiq-khype-khype-hyperliquid-l1",
-      "destination": "/ko/chains/hyperliquid-l1",
-      "permanent": true
-    },
-    {
-      "source": "/pt/pools/kinetiq-khype-khype-hyperliquid-l1",
-      "destination": "/pt/chains/hyperliquid-l1",
-      "permanent": true
-    },
-    {
-      "source": "/es/pools/kinetiq-khype-khype-hyperliquid-l1",
-      "destination": "/es/chains/hyperliquid-l1",
       "permanent": true
     },
     {
@@ -1093,6 +1073,26 @@
     {
       "source": "/es/pools/renzo-ezeth-ethereum",
       "destination": "/es/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pools/sentora-curator-pyusd-solana",
+      "destination": "/chains/solana",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/sentora-curator-pyusd-solana",
+      "destination": "/ko/chains/solana",
+      "permanent": true
+    },
+    {
+      "source": "/pt/pools/sentora-curator-pyusd-solana",
+      "destination": "/pt/chains/solana",
+      "permanent": true
+    },
+    {
+      "source": "/es/pools/sentora-curator-pyusd-solana",
+      "destination": "/es/chains/solana",
       "permanent": true
     },
     {
