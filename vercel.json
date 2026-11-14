@@ -436,26 +436,6 @@
       "permanent": true
     },
     {
-      "source": "/pools/accountable-ausd-monad",
-      "destination": "/chains/monad",
-      "permanent": true
-    },
-    {
-      "source": "/ko/pools/accountable-ausd-monad",
-      "destination": "/ko/chains/monad",
-      "permanent": true
-    },
-    {
-      "source": "/pt/pools/accountable-ausd-monad",
-      "destination": "/pt/chains/monad",
-      "permanent": true
-    },
-    {
-      "source": "/es/pools/accountable-ausd-monad",
-      "destination": "/es/chains/monad",
-      "permanent": true
-    },
-    {
       "source": "/pools/avant-avusd-savusd-avalanche",
       "destination": "/chains/avalanche",
       "permanent": true
@@ -496,22 +476,22 @@
       "permanent": true
     },
     {
-      "source": "/pools/blackrock-buidl-buidl-ethereum-b2b1d9",
+      "source": "/pools/blackrock-buidl-buidl-ethereum-institutional",
       "destination": "/chains/ethereum",
       "permanent": true
     },
     {
-      "source": "/ko/pools/blackrock-buidl-buidl-ethereum-b2b1d9",
+      "source": "/ko/pools/blackrock-buidl-buidl-ethereum-institutional",
       "destination": "/ko/chains/ethereum",
       "permanent": true
     },
     {
-      "source": "/pt/pools/blackrock-buidl-buidl-ethereum-b2b1d9",
+      "source": "/pt/pools/blackrock-buidl-buidl-ethereum-institutional",
       "destination": "/pt/chains/ethereum",
       "permanent": true
     },
     {
-      "source": "/es/pools/blackrock-buidl-buidl-ethereum-b2b1d9",
+      "source": "/es/pools/blackrock-buidl-buidl-ethereum-institutional",
       "destination": "/es/chains/ethereum",
       "permanent": true
     },
@@ -1233,6 +1213,26 @@
     {
       "source": "/es/pools/stakewise-v3-eth-ethereum",
       "destination": "/es/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pools/the-vault-liquid-staking-vsol-solana",
+      "destination": "/chains/solana",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/the-vault-liquid-staking-vsol-solana",
+      "destination": "/ko/chains/solana",
+      "permanent": true
+    },
+    {
+      "source": "/pt/pools/the-vault-liquid-staking-vsol-solana",
+      "destination": "/pt/chains/solana",
+      "permanent": true
+    },
+    {
+      "source": "/es/pools/the-vault-liquid-staking-vsol-solana",
+      "destination": "/es/chains/solana",
       "permanent": true
     },
     {
