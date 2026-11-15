@@ -856,6 +856,26 @@
       "permanent": true
     },
     {
+      "source": "/pools/morpho-blue-gtusdcp-ethereum",
+      "destination": "/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/morpho-blue-gtusdcp-ethereum",
+      "destination": "/ko/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pt/pools/morpho-blue-gtusdcp-ethereum",
+      "destination": "/pt/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/es/pools/morpho-blue-gtusdcp-ethereum",
+      "destination": "/es/chains/ethereum",
+      "permanent": true
+    },
+    {
       "source": "/pools/morpho-blue-kbtc-ethereum",
       "destination": "/chains/ethereum",
       "permanent": true
@@ -1056,26 +1076,6 @@
       "permanent": true
     },
     {
-      "source": "/pools/sentora-curator-pyusd-solana",
-      "destination": "/chains/solana",
-      "permanent": true
-    },
-    {
-      "source": "/ko/pools/sentora-curator-pyusd-solana",
-      "destination": "/ko/chains/solana",
-      "permanent": true
-    },
-    {
-      "source": "/pt/pools/sentora-curator-pyusd-solana",
-      "destination": "/pt/chains/solana",
-      "permanent": true
-    },
-    {
-      "source": "/es/pools/sentora-curator-pyusd-solana",
-      "destination": "/es/chains/solana",
-      "permanent": true
-    },
-    {
       "source": "/pools/sky-lending-weth-ethereum",
       "destination": "/chains/ethereum",
       "permanent": true
@@ -1233,6 +1233,26 @@
     {
       "source": "/es/pools/the-vault-liquid-staking-vsol-solana",
       "destination": "/es/chains/solana",
+      "permanent": true
+    },
+    {
+      "source": "/pools/uniswap-v3-weth-usdc-base",
+      "destination": "/chains/base",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/uniswap-v3-weth-usdc-base",
+      "destination": "/ko/chains/base",
+      "permanent": true
+    },
+    {
+      "source": "/pt/pools/uniswap-v3-weth-usdc-base",
+      "destination": "/pt/chains/base",
+      "permanent": true
+    },
+    {
+      "source": "/es/pools/uniswap-v3-weth-usdc-base",
+      "destination": "/es/chains/base",
       "permanent": true
     },
     {
