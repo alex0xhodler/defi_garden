@@ -316,6 +316,26 @@
       "permanent": true
     },
     {
+      "source": "/pools/aave-v3-usde-monad",
+      "destination": "/chains/monad",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/aave-v3-usde-monad",
+      "destination": "/ko/chains/monad",
+      "permanent": true
+    },
+    {
+      "source": "/pt/pools/aave-v3-usde-monad",
+      "destination": "/pt/chains/monad",
+      "permanent": true
+    },
+    {
+      "source": "/es/pools/aave-v3-usde-monad",
+      "destination": "/es/chains/monad",
+      "permanent": true
+    },
+    {
       "source": "/pools/aave-v3-usde-plasma",
       "destination": "/chains/plasma",
       "permanent": true
@@ -776,6 +796,26 @@
       "permanent": true
     },
     {
+      "source": "/pools/justlend-v1-usdt-tron",
+      "destination": "/chains/tron",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/justlend-v1-usdt-tron",
+      "destination": "/ko/chains/tron",
+      "permanent": true
+    },
+    {
+      "source": "/pt/pools/justlend-v1-usdt-tron",
+      "destination": "/pt/chains/tron",
+      "permanent": true
+    },
+    {
+      "source": "/es/pools/justlend-v1-usdt-tron",
+      "destination": "/es/chains/tron",
+      "permanent": true
+    },
+    {
       "source": "/pools/kamino-lend-dsol-solana",
       "destination": "/chains/solana",
       "permanent": true
@@ -1213,26 +1253,6 @@
     {
       "source": "/es/pools/stakewise-v3-eth-ethereum",
       "destination": "/es/chains/ethereum",
-      "permanent": true
-    },
-    {
-      "source": "/pools/the-vault-liquid-staking-vsol-solana",
-      "destination": "/chains/solana",
-      "permanent": true
-    },
-    {
-      "source": "/ko/pools/the-vault-liquid-staking-vsol-solana",
-      "destination": "/ko/chains/solana",
-      "permanent": true
-    },
-    {
-      "source": "/pt/pools/the-vault-liquid-staking-vsol-solana",
-      "destination": "/pt/chains/solana",
-      "permanent": true
-    },
-    {
-      "source": "/es/pools/the-vault-liquid-staking-vsol-solana",
-      "destination": "/es/chains/solana",
       "permanent": true
     },
     {
