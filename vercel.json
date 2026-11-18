@@ -1116,6 +1116,26 @@
       "permanent": true
     },
     {
+      "source": "/pools/sky-lending-sky-ethereum",
+      "destination": "/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/sky-lending-sky-ethereum",
+      "destination": "/ko/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pt/pools/sky-lending-sky-ethereum",
+      "destination": "/pt/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/es/pools/sky-lending-sky-ethereum",
+      "destination": "/es/chains/ethereum",
+      "permanent": true
+    },
+    {
       "source": "/pools/sky-lending-weth-ethereum",
       "destination": "/chains/ethereum",
       "permanent": true
