@@ -616,6 +616,26 @@
       "permanent": true
     },
     {
+      "source": "/pools/concrete-ctwlficx-prime-ethereum",
+      "destination": "/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/concrete-ctwlficx-prime-ethereum",
+      "destination": "/ko/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pt/pools/concrete-ctwlficx-prime-ethereum",
+      "destination": "/pt/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/es/pools/concrete-ctwlficx-prime-ethereum",
+      "destination": "/es/chains/ethereum",
+      "permanent": true
+    },
+    {
       "source": "/pools/curve-dex-eth-steth-ethereum",
       "destination": "/chains/ethereum",
       "permanent": true
@@ -792,26 +812,6 @@
     },
     {
       "source": "/es/pools/justlend-v1-trx-tron",
-      "destination": "/es/chains/tron",
-      "permanent": true
-    },
-    {
-      "source": "/pools/justlend-v1-usdt-tron",
-      "destination": "/chains/tron",
-      "permanent": true
-    },
-    {
-      "source": "/ko/pools/justlend-v1-usdt-tron",
-      "destination": "/ko/chains/tron",
-      "permanent": true
-    },
-    {
-      "source": "/pt/pools/justlend-v1-usdt-tron",
-      "destination": "/pt/chains/tron",
-      "permanent": true
-    },
-    {
-      "source": "/es/pools/justlend-v1-usdt-tron",
       "destination": "/es/chains/tron",
       "permanent": true
     },
@@ -1296,6 +1296,26 @@
       "permanent": true
     },
     {
+      "source": "/pools/stader-ethx-ethereum",
+      "destination": "/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/stader-ethx-ethereum",
+      "destination": "/ko/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pt/pools/stader-ethx-ethereum",
+      "destination": "/pt/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/es/pools/stader-ethx-ethereum",
+      "destination": "/es/chains/ethereum",
+      "permanent": true
+    },
+    {
       "source": "/pools/stakewise-v3-eth-ethereum",
       "destination": "/chains/ethereum",
       "permanent": true
@@ -1313,6 +1333,26 @@
     {
       "source": "/es/pools/stakewise-v3-eth-ethereum",
       "destination": "/es/chains/ethereum",
+      "permanent": true
+    },
+    {
+      "source": "/pools/the-vault-liquid-staking-vsol-solana",
+      "destination": "/chains/solana",
+      "permanent": true
+    },
+    {
+      "source": "/ko/pools/the-vault-liquid-staking-vsol-solana",
+      "destination": "/ko/chains/solana",
+      "permanent": true
+    },
+    {
+      "source": "/pt/pools/the-vault-liquid-staking-vsol-solana",
+      "destination": "/pt/chains/solana",
+      "permanent": true
+    },
+    {
+      "source": "/es/pools/the-vault-liquid-staking-vsol-solana",
+      "destination": "/es/chains/solana",
       "permanent": true
     },
     {
